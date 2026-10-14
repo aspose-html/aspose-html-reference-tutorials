@@ -68,6 +68,8 @@ Naučte se vytvářet nové HTML dokumenty pomocí Aspose.HTML for Java pomocí 
 Naučte se generovat HTML pomocí JavaScriptu v Javě pomocí podrobného průvodce krok za krokem.
 ### [Zvládejte události načítání dokumentu v Aspose.HTML pro Java](./handle-document-load-events/)
 Naučte se zvládat události načítání dokumentů v Aspose.HTML pro Java pomocí tohoto podrobného průvodce. Vylepšete své webové aplikace.
+### [Spuštění JavaScriptu v Javě – Spusťte JS na HTML a přidejte elementy](./execute-javascript-java-run-js-on-html-append-elements/)
+Naučte se spouštět JavaScript v Aspose.HTML pro Java, manipulovat s HTML a přidávat nové elementy.
 ### [Vytvořte sandbox pro HTML v Javě – krok‑za‑krokem průvodce](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Naučte se, jak vytvořit sandboxové prostředí pro bezpečnou manipulaci s HTML v Javě pomocí Aspose.HTML.
 ### [Vytvářejte a spravujte dokumenty SVG v Aspose.HTML pro Javu](./create-manage-svg-documents/)
@@ -109,6 +111,10 @@ Naučte se spouštět JavaScript pomocí setTimeout asynchronně v Javě a dynam
 Rychlý návod, jak pomocí Aspose.HTML v Javě načíst HTML dokument a získat titulek stránky.
 ### [Jak načíst HTML v Javě – krok‑za‑krokem průvodce](./how-to-load-html-in-java-step-by-step-guide/)
 Podrobný návod, jak pomocí Aspose.HTML načíst HTML dokument v Javě krok za krokem.
+### [Jak načíst HTML v Javě – Porovnání XPath a CSS selektoru](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
+Porovnejte používání XPath a CSS selektorů při načítání HTML v Javě s Aspose.HTML a zjistěte, který přístup je vhodnější pro vaše projekty.
+### [Vytvořte HTML element s Java ExecutorService – Thread‑Safe demo](./create-html-element-with-java-executorservice-thread-safe-de/)
+Ukázka, jak bezpečně vytvářet HTML elementy v multi‑vláknovém prostředí pomocí ExecutorService v Javě.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -146,6 +146,10 @@ Ismerd meg, hogyan hozhatsz létre biztonságos sandboxot az Aspose.HTML for Jav
 
 **Hogyan hozhatsz létre sandbox környezetet Java-ban – Teljes útmutató**  
 Ismerd meg, hogyan hozhatsz létre sandbox környezetet Java-ban a biztonságos HTML konverziókhoz.
+### [Set User Agent for Headless HTML Rendering – Complete Guide](./set-user-agent-for-headless-html-rendering-complete-guide/)
+
+**Felhasználói ügynök beállítása fej nélküli HTML rendereléshez – Teljes útmutató**  
+Ismerd meg, hogyan állítható be a felhasználói ügynök a fej nélküli HTML rendereléshez az Aspose.HTML for Java-ban, hogy testreszabhasd a kéréseket.
 
 ---
 

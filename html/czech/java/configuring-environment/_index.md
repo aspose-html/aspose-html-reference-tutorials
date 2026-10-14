@@ -126,6 +126,9 @@ Naučte se, jak nastavit vlastní uživat
 ### [Získání verze knihovny v Javě – Rychlý průvodce zobrazením verze knihovny](./get-library-version-in-java-quick-guide-to-show-library-vers/)
 Naučte se, jak v Javě získat a zobrazit aktuální verzi knihovny Aspose.HTML pomocí několika řádků kódu.
 
+### [Nastavte uživatelský agent pro headless HTML renderování – Kompletní průvodce](./set-user-agent-for-headless-html-rendering-complete-guide/)
+Naučte se, jak nastavit User Agent pro headless HTML renderování v Aspose.HTML pro Java a zajistit správné načítání zdrojů.
+
 ---
 
 **Last Updated:** 2025-12-03  

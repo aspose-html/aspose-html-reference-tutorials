@@ -57,11 +57,13 @@ Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan tölth
 ### [Töltsön be HTML dokumentumokat a Streamből az Aspose.HTML for Java segítségével](./load-html-documents-from-stream/)
 Ismerje meg, hogyan tölthet be HTML-dokumentumokat adatfolyamokból az Aspose.HTML for Java használatával. Ez az útmutató lépésről lépésre ismerteti a zökkenőmentes HTML-kezelést.
 ### [Hozzon létre HTML-dokumentumokat a Stringből az Aspose.HTML for Java-ban](./create-html-documents-from-string/)
-Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan hozhat létre HTML-dokumentumokat karakterláncokból az Aspose.HTML for Java programban.
+Ebből a lépésről szóló útmutatóból megtudhatja, hogyan hozhat létre HTML-dokumentumokat karakterláncokból az Aspose.HTML for Java programban.
 ### [Töltsön be HTML dokumentumokat az Aspose.HTML for Java-ban található URL-ből](./load-html-documents-from-url/)
 Fedezze fel, hogyan tölthet be egyszerűen HTML dokumentumokat egy URL-ről Java nyelven az Aspose.HTML segítségével. Lépésről lépésre bemutató oktatóanyag.
 ### [HTML-dokumentum betöltése Aspose – Gyors Java útmutató az oldal címének lekérdezéséhez](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
 Ismerje meg, hogyan tölthet be HTML-dokumentumot és kérdezheti le az oldal címét az Aspose.HTML for Java segítségével.
+### [HTML betöltése Java-ban – XPath és CSS szelektor összehasonlítása](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
+Ismerje meg, hogyan tölthet be HTML-t Java-ban, és hasonlítsa össze az XPath és a CSS szelektorok használatát a hatékony adatkinyeréshez.
 ### [HTML lekérdezése Java-ban – Teljes útmutató](./how-to-query-html-in-java-complete-tutorial/)
 Ismerje meg, hogyan kérdezhet le HTML-t Java használatával, lépésről lépésre útmutató a hatékony adatkinyeréshez.
 ### [HTML elem betöltése, lekérdezése és számlálása Java-ban](./how-to-parse-html-java-load-query-count-elements/)
@@ -116,6 +118,10 @@ Ismerje meg, hogyan futtathat JavaScript kódot Java alkalmazásban setTimeout s
 Ismerje meg, hogyan konvertálhat Markdown fájlokat HTML-re Java nyelven az Aspose.HTML segítségével, részletes, lépésről‑lépésre útmutatóval.
 ### [HTML betöltése Java-ban – Lépésről‑lépésre útmutató](./how-to-load-html-in-java-step-by-step-guide/)
 Fedezze fel, hogyan tölthet be HTML-t Java alkalmazásba részletes, lépésről‑lépésre útmutatóval.
+### [JavaScript végrehajtása Java-ban – JS futtatása HTML-en és elemek hozzáadása](./execute-javascript-java-run-js-on-html-append-elements/)
+Ismerje meg, hogyan futtathat JavaScript‑et Java‑alkalmazásban, módosíthatja a HTML‑t és új elemeket adhat hozzá dinamikusan.
+### [HTML elem létrehozása Java ExecutorService‑vel – Szálbiztos bemutató](./create-html-element-with-java-executorservice-thread-safe-de/)
+Ismerje meg, hogyan hozhat létre szálbiztos HTML elemeket Java ExecutorService használatával, lépésről lépésre bemutató.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

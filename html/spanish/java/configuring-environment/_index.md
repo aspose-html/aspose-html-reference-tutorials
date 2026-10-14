@@ -118,6 +118,8 @@ Aprende a crear y configurar un sandbox de Aspose.HTML en Java para ejecutar con
 Aprende a obtener y mostrar la versión de Aspose.HTML para Java mediante una sencilla llamada a la API.
 ### [Cómo crear un sandbox en Java – Guía completa](./how-to-create-sandbox-in-java-full-guide/)
 Aprende cómo crear un sandbox en Java paso a paso, garantizando una ejecución segura de scripts al convertir HTML a PDF.
+### [Establecer Agente de Usuario para Renderizado HTML sin cabeza – Guía completa](./set-user-agent-for-headless-html-rendering-complete-guide/)
+Aprende a configurar el agente de usuario para renderizado HTML sin cabeza en Aspose.HTML para Java y evitar bloqueos de recursos.
 
 ---
 

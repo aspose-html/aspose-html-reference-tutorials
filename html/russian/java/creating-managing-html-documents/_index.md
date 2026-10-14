@@ -69,6 +69,10 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 Узнайте, как быстро получить заголовок страницы из HTML-документа с помощью Aspose.HTML в Java.
 ### [Создание новых HTML-документов с помощью Aspose.HTML для Java](./generate-new-html-documents/)
 Узнайте, как создавать новые HTML документы с помощью Aspose.HTML для Java с помощью этого простого пошагового руководства. Начните создавать динамический HTML-контент.
+### [Как загрузить HTML в Java – сравнение XPath и CSS‑селекторов](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
+Узнайте, как загружать HTML в Java и сравните использование XPath и CSS‑селекторов для выбора элементов.
+### [Создание HTML‑элемента с помощью Java ExecutorService – демонстрация потокобезопасности](./create-html-element-with-java-executorservice-thread-safe-de/)
+Показано, как безопасно создавать HTML‑элементы в многопоточной среде Java с использованием ExecutorService.
 ### [Обработка событий загрузки документа в Aspose.HTML для Java](./handle-document-load-events/)
 Изучите обработку событий загрузки документов в Aspose.HTML для Java с помощью этого пошагового руководства. Улучшите свои веб-приложения.
 ### [Как использовать XPath в Java – чтение HTML и извлечение текста](./how-to-use-xpath-in-java-read-html-and-extract-text/)
@@ -113,6 +117,8 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 Узнайте, как выполнять асинхронный JavaScript с помощью setTimeout в Java и динамически обновлять HTML‑страницы.
 ### [Как загрузить HTML в Java – пошаговое руководство](./how-to-load-html-in-java-step-by-step-guide/)
 Узнайте, как загружать HTML в Java с Aspose.HTML, следуя пошаговому руководству и практическим примерам.
+### [Выполнение JavaScript в Java – Запуск JS в HTML и добавление элементов](./execute-javascript-java-run-js-on-html-append-elements/)
+Узнайте, как выполнить JavaScript в Java, запустить скрипт в HTML и добавить новые элементы в документ с помощью Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

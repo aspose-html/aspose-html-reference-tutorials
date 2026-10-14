@@ -80,6 +80,8 @@ Lär dig hur du programatiskt hämtar ett element med dess ID och får tillgång
 Lär dig hur du hämtar CSS‑stilar för ett element och läser bakgrundsegenskaper med Aspose.HTML för Java.
 ### [Hur man hämtar beräknad stil i Java – Fullt Aspose.HTML‑exempel](./how-to-get-computed-style-in-java-full-aspose-html-example/)
 Lär dig hur du använder Aspose.HTML för Java för att hämta den beräknade CSS‑stilen för ett element i ett komplett exempel.
+### [Hur du får beräknad stil i Java – Komplett Aspose.HTML-guide](./how-to-get-computed-style-in-java-complete-aspose-html-guide/)
+Lär dig hur du hämtar beräknade CSS‑stilar för element i Java med Aspose.HTML i den här kompletta guiden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

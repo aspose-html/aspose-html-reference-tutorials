@@ -190,8 +190,6 @@ Aspose.HTML for Java упрощает процесс конвертации HTML
 
 ### [Создание фиксированного пула потоков для пакетной конвертации HTML в PDF](./create-fixed-thread-pool-for-batch-html-to-pdf-conversion/)
 
-### [Создание PDF из HTML в Java – Однострочное руководство Aspose](./create-pdf-from-html-in-java-one-line-aspose-guide/)
-
 ### [Установка коэффициента пикселей устройства в Java – Конвертация HTML для мобильных](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)
 Узнайте, как задать коэффициент пикселей устройства при конвертации HTML в мобильный формат с помощью Aspose.HTML for Java.
 
@@ -230,6 +228,10 @@ Aspose.HTML for Java упрощает процесс конвертации HTML
 
 ### [Конвертация HTML в Markdown в Java – Полное пошаговое руководство](./convert-html-to-markdown-in-java-full-step-by-step-guide/)
 Узнайте, как преобразовать HTML в Markdown в Java с помощью Aspose.HTML, следуя полному пошаговому руководству.
+
+### [Создание PDF из HTML в Java – Однострочное руководство Aspose](./create-pdf-from-html-in-java-one-line-aspose-guide/)
+
+### [Создание PDF из Markdown – Быстрое руководство Java](./create-pdf-from-markdown-quick-java-guide/)
 
 ## Часто задаваемые вопросы
 

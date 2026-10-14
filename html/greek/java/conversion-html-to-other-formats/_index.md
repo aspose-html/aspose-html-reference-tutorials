@@ -207,6 +207,8 @@ weight: 25
 ### [Δημιουργία PDF από HTML με Mobile Viewport – Πλήρης Οδηγός Java](./create-pdf-from-html-with-mobile-viewport-complete-java-guid/)
 
 ### [Μετατροπή HTML σε Markdown σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./convert-html-to-markdown-in-java-full-step-by-step-guide/)
+### [Δημιουργία PDF από Markdown – Γρήγορος Οδηγός Java](./create-pdf-from-markdown-quick-java-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία Markdown σε PDF σε Java με έναν γρήγορο και απλό οδηγό.
 
 ## Συχνές Ερωτήσεις
 

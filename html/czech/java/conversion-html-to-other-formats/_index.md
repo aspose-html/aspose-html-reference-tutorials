@@ -209,6 +209,7 @@ Naučte se vkládat obrázky do HTML a převádět je do PDF v Javě pomocí Asp
 Naučte se zabezpečit PDF heslem při konverzi HTML do PDF v Javě pomocí Aspose.HTML.
 ### [Převod HTML do PDF – Kompletní průvodce ukládáním PDF do Azure Blob](./convert-html-to-pdf-complete-guide-to-saving-pdf-to-azure-bl/)
 Naučte se převést HTML do PDF a uložit výstup přímo do Azure Blob úložiště pomocí Aspose.HTML for Java.
+### [Vytvořte PDF z Markdown – Rychlý průvodce pro Javu](./create-pdf-from-markdown-quick-java-guide/)
 
 ## Často kladené otázky
 

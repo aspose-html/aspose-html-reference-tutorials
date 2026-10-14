@@ -121,6 +121,8 @@ A: 沙盒會限制某些 API（例如 `window.open`），但一般的 DOM 操作
 ### [在 Java 中取得庫版本 – 快速顯示庫版本指南](./get-library-version-in-java-quick-guide-to-show-library-vers/)
 學習如何在 Aspose.HTML for Java 中取得庫的版本資訊，快速顯示當前使用的套件版本。
 ### [如何在 Java 中建立沙盒 – 完整指南](./how-to-create-sandbox-in-java-full-guide/)
+### [設定無頭 HTML 渲染的使用者代理 – 完整指南](./set-user-agent-for-headless-html-rendering-complete-guide/)
+學習如何在 Aspose.HTML for Java 中設定使用者代理，以在無頭渲染時模擬瀏覽器行為，確保正確載入資源。
 
 ---
 

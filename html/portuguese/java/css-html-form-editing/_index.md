@@ -79,6 +79,8 @@ Aprenda a obter elementos por ID em Java e trabalhar com estilos computados usan
 Aprenda a obter estilos de elementos em Java usando Aspose.HTML, encontrando elementos e lendo propriedades de plano de fundo.
 ### [Como obter estilo computado em Java – Exemplo completo Aspose.HTML](./how-to-get-computed-style-in-java-full-aspose-html-example/)
 Aprenda a obter o estilo computado de elementos HTML usando Aspose.HTML para Java neste exemplo completo.
+### [Como obter estilo computado em Java – Guia completo do Aspose.HTML](./how-to-get-computed-style-in-java-complete-aspose-html-guide/)
+Aprenda a recuperar estilos computados de elementos HTML usando Aspose.HTML para Java neste tutorial completo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

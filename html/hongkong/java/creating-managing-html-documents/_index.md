@@ -68,6 +68,8 @@ Aspose.HTML for Java 為旨在在 Java 應用程式中無縫處理 HTML 文件�
 透過此逐步指南，了解如何處理 Aspose.HTML for Java 中的文件載入事件。增強您的網頁應用程式。
 ### [在 Aspose.HTML for Java 中建立和管理 SVG 文檔](./create-manage-svg-documents/)
 學習使用 Aspose.HTML for Java 建立和管理 SVG 文件！這本綜合指南涵蓋了從基本創建到高級操作的所有內容。
+### [在 Java 中執行 JavaScript – 在 HTML 上運行 JS 並追加元素](./execute-javascript-java-run-js-on-html-append-elements/)
+學習如何在 Java 中使用 Aspose.HTML 執行 JavaScript，對 HTML 內容運行腳本並動態添加元素。
 ### [在 Aspose.HTML for Java 中建立 HTML 沙盒 – 逐步指南](./create-sandbox-for-html-in-java-step-by-step-guide/)
 本指南說明如何在 Java 中使用 Aspose.HTML 建立安全的 HTML 沙盒環境，提供逐步說明。
 ### [在 Java 中查詢 HTML – 完整教學](./how-to-query-html-in-java-complete-tutorial/)
@@ -121,6 +123,10 @@ Aspose.HTML for Java 為旨在在 Java 應用程式中無縫處理 HTML 文件�
 說明如何在 Java 應用程式中使用 setTimeout 以非同步方式執行 JavaScript，並即時更新 HTML 內容。
 ### [使用 Aspose 載入 HTML 文件 – 快速 Java 指南：取得頁面標題](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
 透過此快速指南，學習如何使用 Aspose.HTML for Java 載入 HTML 文件並取得頁面標題。
+### [在 Java 中載入 HTML – 比較 XPath 與 CSS 選擇器](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
+了解如何在 Java 中載入 HTML，並比較 XPath 與 CSS 選擇器的使用方式與效能。
+### [使用 Java ExecutorService 建立 HTML 元素 – 執行緒安全示範](./create-html-element-with-java-executorservice-thread-safe-de/)
+示範如何在 Java 中使用 ExecutorService 安全地建立 HTML 元素，確保執行緒安全的步驟指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -207,6 +207,8 @@ Learn how to convert multiple HTML files to PDF simultaneously in Java using Asp
 Learn how to convert HTML to PDF/A in Java with Aspose.HTML, ensuring long‑term archival compliance.
 ### [How to Encrypt PDF in Java – Password Protect PDF from HTML](./how-to-encrypt-pdf-in-java-password-protect-pdf-from-html/)
 Secure your PDF output by encrypting it with a password during HTML to PDF conversion using Aspose.HTML for Java.
+### [Create PDF from Markdown – Quick Java Guide](./create-pdf-from-markdown-quick-java-guide/)
+Quickly generate a PDF from Markdown in Java using Aspose.HTML with a simple step‑by‑step guide.
 
 ## Frequently Asked Questions
 

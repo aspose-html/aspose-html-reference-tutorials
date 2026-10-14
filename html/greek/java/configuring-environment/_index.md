@@ -98,6 +98,9 @@ weight: 29
 [Εξερευνήστε περισσότερα tutorials στο Aspose.HTML για Java.](https://reference.aspose.com/words/net/)
 
 ## Διαμόρφωση Περιβάλλοντος στο Aspose.HTML για Java Tutorials
+### [Ορισμός User Agent για Rendering HTML χωρίς Κεφαλή – Πλήρης Οδηγός](./set-user-agent-for-headless-html-rendering-complete-guide/)
+Μάθετε πώς να ορίσετε το User Agent για headless rendering HTML με Aspose.HTML για Java, βελτιώνοντας τη φόρτωση πόρων.
+
 ### [Ορισμός Συνόλου Χαρακτήρων στο Aspose.HTML για Java](./set-character-set/)
 Μάθετε πώς να ορίσετε το σύνολο χαρακτήρων στο Aspose.HTML για Java και να μετατρέψετε HTML σε PDF σε αυτόν τον βήμα‑βήμα οδηγό. Εξασφαλίστε σωστή κωδικοποίηση κειμένου και απόδοση.
 

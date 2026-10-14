@@ -117,6 +117,8 @@ Dowiedz się, jak ustawić własny arkusz stylów użytkownika w Aspose.HTML for
 Dowiedz się, jak szybko uzyskać i wyświetlić wersję biblioteki Aspose.HTML w Javie.
 ### [Jak utworzyć sandbox w Javie – pełny przewodnik](./how-to-create-sandbox-in-java-full-guide/)
 Dowiedz się, jak utworzyć sandbox w Javie, aby bezpiecznie izolować wykonywanie skryptów podczas konwersji HTML do PDF.
+### [Ustaw User Agent dla renderowania HTML w trybie headless – Kompletny przewodnik](./set-user-agent-for-headless-html-rendering-complete-guide/)
+Dowiedz się, jak ustawić własny User Agent w Aspose.HTML for Java, aby kontrolować renderowanie w trybie headless i unikać blokad serwerów.
 
 ---
 

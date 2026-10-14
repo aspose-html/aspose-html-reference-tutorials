@@ -84,6 +84,9 @@ Javaコードで要素のスタイル情報を取得し、背景色や画像を�
 
 ### [Javaで計算済みスタイルを取得する方法 – 完全な Aspose.HTML 例](./how-to-get-computed-style-in-java-full-aspose-html-example/)
 Aspose.HTML for Java を使用して、要素の計算済みスタイルを取得する完全なサンプルコードを解説します。
+### [Javaで計算済みスタイルを取得する方法 – 完全 Aspose.HTML ガイド](./how-to-get-computed-style-in-java-complete-aspose-html-guide/)
+Aspose.HTML for Java を使用して、要素の計算済みスタイルを取得する手順をステップバイステップで解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

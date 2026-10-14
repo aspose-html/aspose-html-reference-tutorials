@@ -142,6 +142,8 @@ Aprenda a proteger PDFs com senha ao convertê‑los de HTML usando Aspose.HTML 
 ### [Converter HTML para Markdown em Java – Guia Completo Passo a Passo](./convert-html-to-markdown-in-java-full-step-by-step-guide/)
 ### [java html to pdf: Converter HTML para PDF/A usando Aspose](./java-html-to-pdf-convert-html-to-pdf-a-using-aspose/)
 ### [Converter HTML para PDF – Guia Completo para Salvar PDF no Azure Blob](./convert-html-to-pdf-complete-guide-to-saving-pdf-to-azure-bl/)
+### [Criar PDF a partir de Markdown – Guia Rápido em Java](./create-pdf-from-markdown-quick-java-guide/)
+Aprenda a gerar PDFs a partir de arquivos Markdown em Java com Aspose.HTML em poucos passos.
 
 ### [Incorporar fontes PDF – Guia Completo Aspose HTML para PDF (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
 

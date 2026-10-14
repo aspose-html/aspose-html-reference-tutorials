@@ -143,6 +143,9 @@ Panduan langkah‑demi‑langkah untuk membuat PDF dari file Markdown di Java me
 ### [Mengonversi HTML ke Markdown di Java – Panduan Lengkap Langkah‑demi‑Langkah](./convert-html-to-markdown-in-java-full-step-by-step-guide/)
 Pelajari cara mengonversi HTML menjadi Markdown di Java dengan panduan langkah demi langkah menggunakan Aspose.HTML.
 
+### [Buat PDF dari Markdown – Panduan Cepat Java](./create-pdf-from-markdown-quick-java-guide/)
+Panduan singkat untuk membuat PDF dari file Markdown di Java menggunakan Aspose.HTML dalam beberapa langkah mudah.
+
 ### [Mengonversi SVG ke Gambar](./convert-svg-to-image/)
 Pelajari cara mengonversi SVG ke gambar di Java dengan Aspose.HTML. Panduan komprehensif untuk output berkualitas tinggi.
 
@@ -206,8 +209,6 @@ Pelajari cara mengekstrak audio, media, dan video dari file HTML menggunakan Asp
 ### [Mengonversi HTML ke PDF secara Massal – Panduan Java NIO dengan Pemrosesan Paralel](./convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/)
 ### [Buat docx dari html – Panduan Java untuk mengonversi HTML ke DOCX](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
 Pelajari cara mengonversi HTML menjadi file DOCX di Java menggunakan Aspose.HTML.
-### [Buat PDF dari HTML di Java – Panduan Aspose Satu Baris](./create-pdf-from-html-in-java-one-line-aspose-guide/)
-
 ### [Atur Rasio Piksel Perangkat di Java – Konversi HTML ke Mobile](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)
 ### [java html ke pdf – Panduan Konversi PDF/A‑2b](./java-html-to-pdf-pdf-a-2b-conversion-guide/)
 Pelajari cara mengonversi HTML ke PDF/A‑2b di Java menggunakan Aspose.HTML untuk kepatuhan arsip dokumen.
@@ -223,6 +224,9 @@ Pelajari cara mengenkripsi PDF di Java menggunakan Aspose.HTML, melindungi file 
 
 ### [Cara Menyisipkan Gambar dalam HTML ke PDF dengan Aspose – Panduan Java](./how-to-embed-images-in-html-to-pdf-with-aspose-java-guide/)
 
+
+### [Buat PDF dari HTML di Java – Panduan Aspose Satu Baris](./create-pdf-from-html-in-java-one-line-aspose-guide/)
+Panduan singkat untuk membuat PDF dari HTML di Java hanya dengan satu baris kode menggunakan Aspose.HTML.
 
 ## Pertanyaan yang Sering Diajukan
 

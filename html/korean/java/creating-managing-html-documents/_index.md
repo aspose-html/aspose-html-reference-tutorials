@@ -31,7 +31,7 @@ Aspose.HTML for Java는 Java 애플리케이션 내에서 HTML 문서를 원활�
 
 ## 문자열과 URL에서 HTML 문서 만들기
 
-사용자 입력이나 웹에서 검색한 데이터를 기반으로 즉석에서 HTML 콘텐츠를 생성해야 한다고 가정해 보겠습니다. 이때 문자열에서 HTML 문서를 만들거나 URL에서 직접 로드하는 것이 매우 중요해집니다. Aspose.HTML for Java를 사용하면 원시 HTML 문자열을 사용하여 HTML 문서를 원활하게 만들거나 모든 웹 주소에서 로드할 수 있습니다. 이 튜토리얼은 웹 콘텐츠를 동적으로 생성하고 조작하는 도구를 제공하여 Java 애플리케이션을 보다 유연하고 반응성 있게 만들어줍니다.[더 읽어보기](./create-html-documents-from-string/)
+사용자 입력이나 웹에서 검색한 데이터를 기반으로 즉석에서 HTML 콘텐츠를 생성해야 한다고 가정해 보십시오. 이때 문자열에서 HTML 문서를 만들거나 URL에서 직접 로드하는 것이 매우 중요해집니다. Aspose.HTML for Java를 사용하면 원시 HTML 문자열을 사용하여 HTML 문서를 원활하게 만들거나 모든 웹 주소에서 로드할 수 있습니다. 이 튜토리얼은 웹 콘텐츠를 동적으로 생성하고 조작하는 도구를 제공하여 Java 애플리케이션을 보다 유연하고 반응성 있게 만들어줍니다.[더 읽어보기](./create-html-documents-from-string/)
 
 ## 새로운 HTML 문서 생성 및 고급 파일 로딩 처리
 
@@ -81,6 +81,8 @@ Java용 Aspose.HTML을 활용해 XPath로 HTML을 읽고 원하는 텍스트를 
 Java용 Aspose.HTML을 사용해 HTML 문서에서 이미지 URL을 추출하는 단계별 가이드입니다.
 ### [Java용 Aspose.HTML에서 HTML 파싱 – HTML 기사에서 텍스트 추출](./how-to-parse-html-in-java-extract-text-from-html-articles/)
 Aspose.HTML for Java를 사용하여 HTML 기사에서 텍스트를 추출하는 방법을 단계별로 안내합니다.
+### [Java에서 HTML 로드하기 – XPath와 CSS 선택자 비교](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
+Java에서 XPath와 CSS 선택자를 비교하여 HTML을 로드하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.HTML을 사용하여 새 HTML 문서 생성](./generate-new-html-documents/)
 이 간단한 단계별 가이드를 통해 Aspose.HTML for Java를 사용하여 새 HTML 문서를 만드는 방법을 알아보세요. 동적 HTML 콘텐츠 생성을 시작하세요.
 ### [Java용 Aspose.HTML에서 문서 로드 이벤트 처리](./handle-document-load-events/)
@@ -116,6 +118,10 @@ Aspose.HTML for Java를 사용하여 Java에서 JavaScript를 실행하고 HTML�
 Aspose.HTML for Java를 사용하여 NodeList를 반복하는 방법을 단계별로 안내합니다. 완전 가이드로 효율적인 HTML 조작을 배우세요.
 ### [Java용 Aspose.HTML에서 HTML 텍스트 추출 – 완전 단계별 가이드](./extract-text-from-html-with-java-complete-step-by-step-guide/)
 Aspose.HTML for Java를 사용하여 HTML 문서에서 텍스트를 추출하는 방법을 단계별로 안내합니다.
+### [Java에서 JavaScript 실행 – HTML에서 JS 실행 및 요소 추가](./execute-javascript-java-run-js-on-html-append-elements/)
+Aspose.HTML for Java를 사용하여 HTML 문서에서 JavaScript를 실행하고 요소를 동적으로 추가하는 방법을 단계별로 안내합니다.
+### [Java ExecutorService로 HTML 요소 만들기 – 스레드 안전 데모](./create-html-element-with-java-executorservice-thread-safe-de/)
+Java ExecutorService를 사용하여 스레드 안전하게 HTML 요소를 생성하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

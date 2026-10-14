@@ -101,6 +101,8 @@ Aprenda a renderizar HTML para PNG em Java usando Aspose.HTML. Guia passo a pass
 Aprenda a definir o DPI ao converter HTML para PNG usando Aspose.HTML for Java. Guia passo a passo para obter imagens com resolução personalizada.
 ### [Como Definir DPI ao Converter HTML para PNG – Guia Java](./how-to-set-dpi-when-converting-html-to-png-java-guide/)
 Aprenda a definir o DPI ao converter HTML para PNG com Aspose.HTML for Java. Guia passo a passo para controlar a resolução da imagem.
+### [Convertendo HTML para PNG – Guia Completo com Cor de Fundo e Resolução](./convert-html-to-png-full-guide-with-background-color-resolut/)
+Aprenda a converter HTML para PNG em Java com controle de cor de fundo e resolução. Guia completo passo a passo usando Aspose.HTML.
 ### [Convertendo HTML para TIFF](./convert-html-to-tiff/)
 Aprenda a converter HTML para TIFF usando Aspose.HTML for Java de forma fácil. Guia passo a passo para manipulação eficiente de documentos.
 

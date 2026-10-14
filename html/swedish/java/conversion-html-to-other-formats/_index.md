@@ -144,6 +144,8 @@ Lär dig hur du inkluderar bilder när du konverterar HTML till PDF i Java med A
 ### [Hur man krypterar PDF i Java – Lösenordsskydda PDF från HTML](./how-to-encrypt-pdf-in-java-password-protect-pdf-from-html/)
 ### [Skapa PDF från HTML med anpassad sidstorlek och inbäddade teckensnitt](./create-pdf-from-html-with-custom-page-size-and-embedded-font/)
 Lär dig att skapa PDF‑filer med specifik sidstorlek och inbäddade teckensnitt från HTML i Java med Aspose.HTML.
+### [Skapa PDF från Markdown – Snabb Java‑guide](./create-pdf-from-markdown-quick-java-guide/)
+Lär dig snabbt hur du skapar PDF från Markdown i Java med Aspose.HTML i en kort guide.
 
 ### [Konvertera HTML till PDF i Java – Snabb Aspose.HTML‑guide](./convert-html-to-pdf-in-java-quick-aspose-html-guide/)
 Snabb guide för att konvertera HTML till PDF i Java med Aspose.HTML, med enkla steg‑för‑steg‑instruktioner.

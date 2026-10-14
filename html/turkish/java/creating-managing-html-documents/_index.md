@@ -44,6 +44,8 @@ Yeni HTML belgeleri oluşturmaya gelince, Java için Aspose.HTML, sıfırdan zen
 ## Aspose.HTML for Java'da HTML Belgeleri Oluşturma ve Yönetme Eğitimleri
 ### [Java için Aspose.HTML'de HTML Belgelerini Eşzamansız Olarak Oluşturun](./create-html-documents-async/)
 Java için Aspose.HTML ile asenkron olarak HTML belge oluşturma konusunda uzmanlaşın. Hızlı öğrenme için adım adım kılavuz, ipuçları ve SSS dahildir.
+### [Java ExecutorService ile HTML Elemanı Oluşturma – İş Parçacığı Güvenli Demo](./create-html-element-with-java-executorservice-thread-safe-de/)
+Java ExecutorService kullanarak çoklu iş parçacığında güvenli bir şekilde HTML elemanı oluşturmayı adım adım öğrenin.
 ### [Java için Aspose.HTML'de Boş HTML Belgeleri Oluşturma](./create-empty-html-documents/)
 Her seviyedeki geliştirici için mükemmel olan detaylı adım adım eğitimimiz ile Aspose.HTML kullanarak Java'da boş HTML belgelerinin nasıl oluşturulacağını öğrenin.
 ### [Java için Aspose.HTML'de Dosyadan HTML Belgelerini Yükleme](./load-html-documents-from-file/)
@@ -58,6 +60,8 @@ Bu adım adım kılavuzla Java için Aspose.HTML'de dizelerden HTML belgelerinin
 Aspose.HTML ile Java'da bir URL'den HTML belgelerinin nasıl kolayca yükleneceğini keşfedin. Adım adım eğitim dahildir.
 ### [Java için Aspose.HTML'de HTML Yükleme – Adım Adım Kılavuz](./how-to-load-html-in-java-step-by-step-guide/)
 Java için Aspose.HTML kullanarak HTML nasıl yükleneceğini adım adım öğrenin.
+### [Java için Aspose.HTML'de XPath ve CSS Seçicileri Karşılaştırarak HTML Yükleme](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
+Java için Aspose.HTML kullanarak HTML yüklerken XPath ve CSS seçicilerini karşılaştırın. Detaylı adım adım rehber.
 ### [Java için Aspose.HTML kullanarak Yeni HTML Belgeleri Oluşturun](./generate-new-html-documents/)
 Bu kolay adım adım kılavuzla Aspose.HTML for Java kullanarak yeni HTML belgelerinin nasıl oluşturulacağını öğrenin. Dinamik HTML içeriği oluşturmaya başlayın.
 ### [Java için Aspose.HTML'de Belge Yükleme Olaylarını Yönetme](./handle-document-load-events/)
@@ -126,6 +130,8 @@ Java içinde setTimeout kullanarak asenkron JavaScript çalıştırın ve HTML i
 Java için Aspose.HTML kullanarak Markdown içeriğini tam adım adım HTML'e dönüştürmeyi öğrenin.
 ### [Java için Aspose.HTML'de HTML Belgesi Yükleme – Sayfa Başlığını Alma Hızlı Java Kılavuzu](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
 Java için Aspose.HTML kullanarak bir HTML belgesinin sayfa başlığını hızlıca nasıl alacağınızı öğrenin.
+### [Java için Aspose.HTML'de JavaScript Çalıştırma – HTML'de JS Çalıştır ve Eleman Ekle](./execute-javascript-java-run-js-on-html-append-elements/)
+Java için Aspose.HTML kullanarak HTML içinde JavaScript çalıştırın ve yeni öğeler ekleyin. Adım adım kılavuz.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -126,6 +126,9 @@ Aspose.HTML のサンドボックスを Java で構築し、セキュアに HTML
 ### [Aspose.HTML for Java でライブラリバージョンを取得する](./get-library-version-in-java-quick-guide-to-show-library-vers/)
 Aspose.HTML for Java のライブラリバージョンを取得し、表示する方法を簡潔に解説します。
 
+### [Aspose.HTML for Java でヘッドレス HTML レンダリングのためのユーザーエージェントを設定する – 完全ガイド](./set-user-agent-for-headless-html-rendering-complete-guide/)
+ヘッドレス HTML のレンダリング時に使用するユーザーエージェントを設定し、正確なページ取得と描画を実現する方法を解説します。
+
 ---
 
 **最終更新日:** 2025-12-03  

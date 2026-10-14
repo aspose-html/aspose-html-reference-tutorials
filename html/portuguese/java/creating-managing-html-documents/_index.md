@@ -74,12 +74,16 @@ Aprenda a usar XPath em Java para ler documentos HTML e extrair texto de forma e
 Aprenda a extrair URLs de imagens de documentos HTML em Java usando Aspose.HTML com este tutorial passo a passo.
 ### [Como analisar HTML em Java – Extrair texto de artigos HTML](./how-to-parse-html-in-java-extract-text-from-html-articles/)
 Aprenda a analisar documentos HTML em Java e extrair texto de artigos usando Aspose.HTML com este guia passo a passo.
+### [Como carregar HTML em Java – Compare XPath e seletor CSS](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
+Aprenda a comparar XPath e seletores CSS ao carregar documentos HTML em Java com Aspose.HTML.
 ### [Gerar novos documentos HTML usando Aspose.HTML para Java](./generate-new-html-documents/)
 Aprenda como criar novos documentos HTML usando Aspose.HTML para Java com este guia passo a passo fácil. Comece a gerar conteúdo HTML dinâmico.
 ### [Manipular eventos de carregamento de documentos em Aspose.HTML para Java](./handle-document-load-events/)
 Aprenda a manipular eventos de carregamento de documentos no Aspose.HTML para Java com este guia passo a passo. Aprimore seus aplicativos da web.
 ### [Crie e gerencie documentos SVG em Aspose.HTML para Java](./create-manage-svg-documents/)
 Aprenda a criar e gerenciar documentos SVG usando Aspose.HTML para Java! Este guia abrangente cobre tudo, desde a criação básica até a manipulação avançada.
+### [Execute JavaScript em Java – Execute JS em HTML e Anexe Elementos](./execute-javascript-java-run-js-on-html-append-elements/)
+Aprenda a executar scripts JavaScript em documentos HTML usando Aspose.HTML para Java e adicionar novos elementos dinamicamente.
 ### [Criar sandbox para HTML em Java – Guia passo a passo](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Aprenda a criar um sandbox para HTML em Java usando Aspose.HTML com este guia passo a passo.
 ### [Criar documento HTML com Java – Buscar JSON e gerar conteúdo](./create-html-document-with-java-fetch-json-and-generate-conte/)
@@ -114,6 +118,8 @@ Aprenda a executar JavaScript assíncrono em Java usando Aspose.HTML com este gu
 Aprenda a percorrer um NodeList em Java para ler HTML e extrair o atributo src das imagens.
 ### [javascript settimeout async: Executar JavaScript em Java e atualizar HTML](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
 Aprenda a usar setTimeout assíncrono para executar JavaScript dentro de Java e atualizar dinamicamente o HTML.
+### [Criar elemento HTML com Java ExecutorService – Demonstração Thread‑Safe](./create-html-element-with-java-executorservice-thread-safe-de/)
+Aprenda a criar elementos HTML de forma segura usando ExecutorService em Java com este exemplo thread‑safe.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

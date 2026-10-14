@@ -115,6 +115,12 @@ Hướng dẫn cách sử dụng setTimeout bất đồng bộ để chạy mã 
 Hướng dẫn nhanh cách tải tài liệu HTML bằng Aspose trong Java và lấy tiêu đề trang một cách dễ dàng.
 ### [Cách tải HTML trong Java – Hướng dẫn từng bước](./how-to-load-html-in-java-step-by-step-guide/)
 Hướng dẫn chi tiết cách tải tài liệu HTML trong Java bằng Aspose.HTML, bao gồm các bước thực hiện và mẹo tối ưu.
+### [Cách tải HTML trong Java – So sánh XPath và CSS Selector](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
+Khám phá cách tải HTML trong Java và so sánh việc sử dụng XPath và CSS Selector để truy vấn tài liệu.
+### [Thực thi JavaScript trong Java – Chạy JS trên HTML & Thêm phần tử](./execute-javascript-java-run-js-on-html-append-elements/)
+Học cách thực thi JavaScript trong Java, chạy mã JS trên tài liệu HTML và thêm các phần tử mới một cách dễ dàng.
+### [Tạo phần tử HTML với Java ExecutorService – Demo an toàn luồng](./create-html-element-with-java-executorservice-thread-safe-de/)
+Tạo phần tử HTML một cách an toàn đa luồng bằng ExecutorService trong Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

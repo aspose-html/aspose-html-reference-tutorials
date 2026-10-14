@@ -79,6 +79,8 @@ Leer hoe u met Aspose.HTML voor Java een element op id kunt ophalen en de bereke
 Leer hoe u met Aspose.HTML voor Java de stijl van een element kunt ophalen, inclusief achtergrondkleur en andere CSS‑eigenschappen.
 ### [Hoe de berekende stijl op te halen in Java – Volledig Aspose.HTML-voorbeeld](./how-to-get-computed-style-in-java-full-aspose-html-example/)
 Leer hoe u met Aspose.HTML voor Java de berekende CSS‑stijl van een element kunt ophalen in een volledig voorbeeld.
+### [Hoe Computed Style in Java op te halen – Complete Aspose.HTML-gids](./how-to-get-computed-style-in-java-complete-aspose-html-guide/)
+Leer hoe u met Aspose.HTML voor Java de berekende stijl van een element kunt ophalen in deze stapsgewijze handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

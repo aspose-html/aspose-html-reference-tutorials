@@ -126,6 +126,8 @@ A: การแซนด์บ็อกซ์จำกัด API บางอย
 เรียนรู้ขั้นตอนการสร้าง sandbox ใน Java อย่างละเอียดเพื่อความปลอดภัยในการประมวลผล HTML และแปลงเป็น PDF
 
 ---
+### [ตั้งค่า User Agent สำหรับการเรนเดอร์ HTML แบบ Headless – คู่มือฉบับสมบูรณ์](./set-user-agent-for-headless-html-rendering-complete-guide/)
+เรียนรู้วิธีตั้งค่า User Agent ใน Aspose.HTML for Java เพื่อควบคุมการดึงข้อมูลและการเรนเดอร์ HTML แบบ headless อย่างแม่นยำ
 
 **Last Updated:** 2025-12-03  
 **Tested With:** Aspose.HTML for Java 24.12 (latest)  

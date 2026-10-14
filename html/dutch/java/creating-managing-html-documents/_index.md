@@ -64,6 +64,10 @@ Leer hoe u met Java JSON-gegevens ophaalt en dynamisch een HTML-document generee
 Leer hoe u HTML-bestanden in Java laadt met Aspose.HTML, stap voor stap uitgelegd.
 ### [HTML-document laden met Aspose – Snelle Java-gids om paginatitel op te halen](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
 Leer hoe u met Aspose.HTML in Java een HTML-document laadt en de paginatitel efficiënt ophaalt.
+### [JavaScript uitvoeren in Java – JS uitvoeren op HTML en elementen toevoegen](./execute-javascript-java-run-js-on-html-append-elements/)
+Leer hoe u JavaScript uitvoert binnen een HTML-document in Java en dynamisch elementen toevoegt.
+### [HTML-element maken met Java ExecutorService – Thread‑Safe demo](./create-html-element-with-java-executorservice-thread-safe-de/)
+Leer hoe u met ExecutorService thread‑veilige HTML-elementen maakt in Java met Aspose.HTML.
 ### [Genereer nieuwe HTML-documenten met Aspose.HTML voor Java](./generate-new-html-documents/)
 Leer hoe u nieuwe HTML-documenten maakt met Aspose.HTML voor Java met deze eenvoudige stapsgewijze handleiding. Begin met het genereren van dynamische HTML-inhoud.
 ### [HTML genereren vanuit JavaScript in Java – Complete stapsgewijze handleiding](./generate-html-from-javascript-in-java-complete-step-by-step/)
@@ -116,6 +120,8 @@ Leer hoe u HTML in Java kunt parseren en tekst uit HTML‑artikelen extraheren m
 Leer hoe u JavaScript met setTimeout asynchroon vanuit Java kunt uitvoeren en de HTML-inhoud dynamisch bijwerkt.
 ### [HTML maken vanuit Markdown in Java – Volledige stapsgewijze handleiding](./create-html-from-markdown-in-java-full-step-by-step-guide/)
 Leer hoe u Markdown naar HTML converteert in Java met een gedetailleerde stap‑voor‑stap handleiding.
+### [HTML laden in Java – Vergelijk XPath en CSS-selector](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
+Leer hoe u HTML in Java kunt laden en vergelijken tussen XPath- en CSS-selectoren voor efficiënte gegevensextractie.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

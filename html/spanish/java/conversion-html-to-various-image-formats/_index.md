@@ -117,6 +117,8 @@ Aprenda a convertir páginas HTML extensas a imágenes PNG usando Aspose.HTML fo
 Aprenda a configurar la resolución DPI al convertir HTML a PNG usando Aspose.HTML for Java.
 ### [Guardar página HTML como PNG en Java – Tutorial completo](./save-html-page-as-png-in-java-complete-tutorial/)
 Aprenda a guardar una página HTML como PNG en Java usando Aspose.HTML. Guía paso a paso completa.
+### [Convertir HTML a PNG – Guía completa con color de fondo y resolución](./convert-html-to-png-full-guide-with-background-color-resolut/)
+Aprenda a convertir HTML a PNG con control de color de fondo y resolución usando Aspose.HTML for Java.
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
 Aprenda a convertir HTML a TIFF fácilmente usando Aspose.HTML for Java. Guía paso a paso para un manejo eficiente de documentos.
 

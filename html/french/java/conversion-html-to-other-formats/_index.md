@@ -120,6 +120,9 @@ Apprenez à générer des PDF adaptés aux appareils mobiles en configurant le v
 ### [Créer un pool de threads fixes pour la conversion parallèle HTML‑vers‑PDF en Java](./create-fixed-thread-pool-for-parallel-html-to-pdf-conversion/)
 Apprenez à créer un pool de threads fixes afin d’accélérer la conversion simultanée de plusieurs fichiers HTML en PDF avec Aspose.HTML.
 
+### [Créer un PDF à partir de HTML en Java – Guide Aspose en une ligne](./create-pdf-from-html-in-java-one-line-aspose-guide/)
+Générez rapidement un PDF à partir de HTML en une seule ligne de code avec Aspose.HTML for Java.
+
 ### [Convertir HTML en PDF en Java – Guide étape par étape avec réglages de taille de page](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Apprenez à convertir HTML en PDF en Java en suivant chaque étape, incluant la configuration de la taille de page pour des documents précis.
 ### [Convertir HTML en PDF avec Java – comment créer un pool de threads](./convert-html-to-pdf-with-java-how-to-create-thread-pool/)
@@ -230,8 +233,6 @@ Apprenez à incorporer des polices dans les PDF générés avec Aspose.HTML for 
 ### [Définir le ratio de pixel de l’appareil en Java – Convertir HTML pour mobile](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)
 Apprenez à ajuster le Device Pixel Ratio lors de la conversion HTML en PDF mobile avec Aspose.HTML for Java.
 
-### [Créer un PDF à partir de HTML en Java – Guide Aspose en une ligne](./create-pdf-from-html-in-java-one-line-aspose-guide/)
-
 ### [Java HTML vers PDF – Guide de conversion PDF/A‑2b](./java-html-to-pdf-pdf-a-2b-conversion-guide/)
 Apprenez à convertir du HTML en PDF/A‑2b en Java avec Aspose.HTML, garantissant la conformité archivistique des documents.
 
@@ -253,6 +254,9 @@ Apprenez à sécuriser vos PDF générés à partir de HTML en Java en ajoutant 
 
 ### [Convertir HTML en PDF – Guide complet pour enregistrer le PDF dans Azure Blob](./convert-html-to-pdf-complete-guide-to-saving-pdf-to-azure-bl/)
 Apprenez à convertir du HTML en PDF avec Aspose.HTML et à stocker le fichier PDF généré directement dans un blob Azure.
+
+### [Créer un PDF à partir de Markdown – Guide Java rapide](./create-pdf-from-markdown-quick-java-guide/)
+Créez rapidement un PDF à partir de fichiers Markdown en Java avec Aspose.HTML, en suivant un guide concis.
 
 ## Foire aux questions
 

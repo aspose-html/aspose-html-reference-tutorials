@@ -155,6 +155,7 @@ Imposta le dimensioni della pagina PDF durante la conversione da HTML a PDF in J
 ### [Come crittografare PDF in Java – Proteggi con password PDF da HTML](./how-to-encrypt-pdf-in-java-password-protect-pdf-from-html/)
 ### [Crea PDF da HTML con viewport mobile – Guida completa Java](./create-pdf-from-html-with-mobile-viewport-complete-java-guid/)
 ### [Converti HTML in PDF – Guida completa per salvare PDF su Azure Blob](./convert-html-to-pdf-complete-guide-to-saving-pdf-to-azure-bl/)
+### [Crea PDF da Markdown – Guida rapida Java](./create-pdf-from-markdown-quick-java-guide/)
 
 ## Domande frequenti
 

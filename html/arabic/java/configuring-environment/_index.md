@@ -124,6 +124,8 @@ HTML الديناميكي غالبًا ما يحتوي على سكريبتات �
 ### [الحصول على إصدار المكتبة في Java – دليل سريع لإظهار إصدار المكتبة](./get-library-version-in-java-quick-guide-to-show-library-vers/)
 ### [كيفية إنشاء بيئة عزل في Java – دليل كامل](./how-to-create-sandbox-in-java-full-guide/)
 تعلم خطوة بخطوة كيفية إنشاء بيئة عزل (Sandbox) في Java لضمان أمان تنفيذ الكود أثناء تحويل HTML إلى PDF.
+### [ضبط وكيل المستخدم لتص rendering HTML بدون رأس – دليل شامل](./set-user-agent-for-headless-html-rendering-complete-guide/)
+تعلم كيفية تعيين وكيل المستخدم عند تشغيل Aspose.HTML في وضع headless لضمان تحميل الموارد بشكل صحيح.
 
 ---
 

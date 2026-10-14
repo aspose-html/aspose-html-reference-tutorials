@@ -81,6 +81,8 @@ Pelajari cara mengambil elemen HTML berdasarkan ID menggunakan Java dan mengakse
 Pelajari cara mengambil properti style elemen di Java, termasuk menemukan elemen dan membaca nilai latar belakangnya.
 ### [Cara Mendapatkan Gaya Terhitung di Java – Contoh Lengkap Aspose.HTML](./how-to-get-computed-style-in-java-full-aspose-html-example/)
 Pelajari cara mengambil gaya terhitung elemen HTML menggunakan Aspose.HTML untuk Java dalam contoh lengkap langkah demi langkah.
+### [Cara Mendapatkan Computed Style di Java – Panduan Lengkap Aspose.HTML](./how-to-get-computed-style-in-java-complete-aspose-html-guide/)
+Pelajari cara mendapatkan computed style elemen HTML secara terprogram menggunakan Aspose.HTML untuk Java dalam panduan lengkap ini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

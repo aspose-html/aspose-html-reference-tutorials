@@ -83,6 +83,8 @@ Apprenez à récupérer un élément par son ID en Java et à accéder aux style
 Apprenez à récupérer les propriétés de style d'un élément HTML, notamment la couleur d'arrière‑plan, en utilisant Aspose.HTML pour Java.
 ### [Comment obtenir le style calculé en Java – Exemple complet Aspose.HTML](./how-to-get-computed-style-in-java-full-aspose-html-example/)
 Apprenez à récupérer le style calculé d'un élément avec Aspose.HTML pour Java grâce à un exemple complet.
+### [Comment obtenir le style calculé en Java – Guide complet Aspose.HTML](./how-to-get-computed-style-in-java-complete-aspose-html-guide/)
+Apprenez à récupérer le style calculé d'un élément HTML en Java avec Aspose.HTML grâce à ce guide complet pas à pas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

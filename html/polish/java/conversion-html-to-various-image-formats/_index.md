@@ -126,6 +126,7 @@ Poznaj, jak ustawić DPI przy konwersji HTML do PNG w Javie przy użyciu Aspose.
 ### [How to Set DPI When Converting HTML to PNG – Java Guide](./how-to-set-dpi-when-converting-html-to-png-java-guide/)
 ### [Zapisz stronę HTML jako PNG w Javie – Kompletny samouczek](./save-html-page-as-png-in-java-complete-tutorial/)
 Dowiedz się, jak zapisać stronę HTML jako plik PNG w Javie przy użyciu Aspose.HTML – pełny przewodnik krok po kroku.
+### [Konwertowanie HTML do PNG – Pełny przewodnik z kolorem tła i rozdzielczością](./convert-html-to-png-full-guide-with-background-color-resolut/)
 
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
 Dowiedz się, jak łatwo konwertować HTML do TIFF przy użyciu Aspose.HTML for Java. Przewodnik krok po kroku dla efektywnego zarządzania dokumentami.

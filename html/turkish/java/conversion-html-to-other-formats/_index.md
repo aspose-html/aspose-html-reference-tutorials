@@ -112,6 +112,8 @@ Java’da aynı anda birden çok HTML dosyasını PDF’ye dönüştürerek topl
 ### [HTML'yi XPS'ye Dönüştürme](./convert-html-to-xps/)
 ### [Markdown'ı HTML'ye Dönüştürme](./convert-markdown-to-html/)
 ### [Aspose HTML Dönüştürücü (Java) ile Markdown'tan PDF Oluşturma](./create-pdf-from-markdown-using-aspose-html-converter-java/)
+### [Markdown'tan PDF Oluşturma – Hızlı Java Kılavuzu](./create-pdf-from-markdown-quick-java-guide/)
+Aspose.HTML for Java kullanarak Markdown dosyasından tek satırda PDF oluşturmayı gösteren hızlı rehber.
 ### [SVG'yi Görüntüye Dönüştürme](./convert-svg-to-image/)
 ### [SVG'yi PDF'ye Dönüştürme](./convert-svg-to-pdf/)
 ### [SVG'yi XPS'ye Dönüştürme](./convert-svg-to-xps/)
@@ -140,11 +142,11 @@ Mobil cihaz görünümünü taklit ederek HTML'den PDF oluşturmayı adım adım
 Aspose.HTML for Java ile HTML'yi Markdown formatına sorunsuz bir şekilde dönüştürün. Detaylı adım adım rehber.
 ### [HTML'yi PDF'ye Dönüştürme – PDF'yi Azure Blob'a Kaydetme Tam Kılavuzu](./convert-html-to-pdf-complete-guide-to-saving-pdf-to-azure-bl/)
 Aspose.HTML for Java kullanarak HTML'den PDF oluşturup, sonucu Azure Blob depolama alanına kaydetmeyi adım adım öğrenin.
+### [Java’da HTML'den PDF Oluşturma – Tek Satır Aspose Kılavuzu](./create-pdf-from-html-in-java-one-line-aspose-guide/)
+Tek bir satır kodla HTML'den PDF oluşturmayı gösteren hızlı ve basit bir Aspose rehberi.
 
 ### [PDF'ye Yazı Tipi Gömme – Aspose HTML'den PDF'ye Tam Kılavuz (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
 Aspose.HTML for Java kullanarak PDF dosyalarına gömülü yazı tipleri eklemeyi adım adım öğrenin.
-### [Java’da HTML’den PDF Oluşturma – Tek Satır Aspose Kılavuzu](./create-pdf-from-html-in-java-one-line-aspose-guide/)
-Aspose.HTML kullanarak tek satır kodla Java’da HTML’den PDF oluşturmayı öğrenin.
 ### [Java’da Cihaz Piksel Oranını Ayarlama – HTML'yi Mobil'e Dönüştürme](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)
 Aspose.HTML ile Java’da cihaz piksel oranını ayarlayarak HTML'yi mobil cihazlar için optimize edin.
 

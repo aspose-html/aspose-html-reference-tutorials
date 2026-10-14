@@ -118,6 +118,8 @@ Erfahren Sie, wie Sie ein benutzerdefiniertes Benutzer‑Stylesheet in Aspose.HT
 Erfahren Sie, wie Sie eine vollständige Sandbox für Aspose.HTML in Java einrichten, um sichere HTML‑zu‑PDF‑Konvertierungen zu gewährleisten.
 ### [Bibliotheksversion in Java abrufen – Schnellleitfaden zur Anzeige der Bibliotheksversion](./get-library-version-in-java-quick-guide-to-show-library-vers/)
 Erfahren Sie, wie Sie die aktuelle Version von Aspose.HTML für Java programmgesteuert ermitteln und anzeigen.
+### [User‑Agent für Headless‑HTML‑Rendering festlegen – Komplett‑Leitfaden](./set-user-agent-for-headless-html-rendering-complete-guide/)
+Erfahren Sie, wie Sie den User‑Agent für das headless‑HTML‑Rendering festlegen, um korrekte Ressourcen‑Abrufe und Rendering‑Ergebnisse zu gewährleisten.
 
 ---
 

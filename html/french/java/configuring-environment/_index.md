@@ -126,6 +126,8 @@ Apprenez comment créer un bac à sable Aspose HTML en Java, sécuriser l'exécu
 Apprenez comment récupérer et afficher la version d'Aspose.HTML for Java rapidement.
 ### [Comment créer un bac à sable en Java – Guide complet](./how-to-create-sandbox-in-java-full-guide/)
 Apprenez comment créer un bac à sable en Java avec ce guide complet, assurant une exécution sécurisée des scripts lors de la conversion HTML en PDF.
+### [Définir l'agent utilisateur pour le rendu HTML sans tête – Guide complet](./set-user-agent-for-headless-html-rendering-complete-guide/)
+Apprenez à configurer l'agent utilisateur dans Aspose.HTML for Java pour le rendu HTML sans tête, garantissant un chargement correct des ressources.
 
 ---
 

@@ -82,6 +82,8 @@ Learn how to retrieve an element by its ID and access its computed styles using 
 Learn how to retrieve CSS style information of elements and read background properties using Aspose.HTML for Java.
 ### [How to Get Computed Style in Java – Full Aspose.HTML Example](./how-to-get-computed-style-in-java-full-aspose-html-example/)
 Learn how to retrieve computed CSS styles in Java using Aspose.HTML with a complete, step‑by‑step example.
+### [How to Get Computed Style in Java – Complete Aspose.HTML Guide](./how-to-get-computed-style-in-java-complete-aspose-html-guide/)
+Learn how to retrieve computed CSS styles in Java using Aspose.HTML in this complete step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

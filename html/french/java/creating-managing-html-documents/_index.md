@@ -122,6 +122,12 @@ Apprenez à extraire du texte d'un document HTML en Java avec Aspose.HTML grâce
 Apprenez à utiliser XPath en Java pour lire le HTML et extraire du texte avec Aspose.HTML, guide étape par étape.
 ### [Comment charger du HTML en Java – Guide étape par étape](./how-to-load-html-in-java-step-by-step-guide/)
 Apprenez à charger du HTML en Java avec Aspose.HTML grâce à ce guide étape par étape.
+### [Comment charger du HTML en Java – Comparer XPath et sélecteur CSS](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
+Apprenez à charger du HTML en Java et comparez XPath et sélecteurs CSS pour extraire les données efficacement.
+### [Exécuter JavaScript en Java – Exécuter du JS sur HTML et ajouter des éléments](./execute-javascript-java-run-js-on-html-append-elements/)
+Apprenez à exécuter du code JavaScript dans un document HTML avec Aspose.HTML pour Java et à ajouter dynamiquement des éléments.
+### [Créer un élément HTML avec Java ExecutorService – Démonstration thread‑safe](./create-html-element-with-java-executorservice-thread-safe-de/)
+Apprenez à créer un élément HTML en toute sécurité avec ExecutorService en Java, démonstration de gestion multithread avec Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

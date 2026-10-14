@@ -81,6 +81,8 @@ url: /th/java/css-html-form-editing/
 เรียนรู้วิธีค้นหาองค์ประกอบ HTML และอ่านค่าพื้นหลังโดยใช้ Aspose.HTML สำหรับ Java
 ### [วิธีดึงค่า Computed Style ใน Java – ตัวอย่างเต็มของ Aspose.HTML](./how-to-get-computed-style-in-java-full-aspose-html-example/)
 เรียนรู้วิธีดึงค่า Computed Style ขององค์ประกอบ HTML ด้วย Aspose.HTML สำหรับ Java ผ่านตัวอย่างเต็มขั้นตอน
+### [วิธีดึงค่า Computed Style ใน Java – คู่มือ Aspose.HTML ฉบับสมบูรณ์](./how-to-get-computed-style-in-java-complete-aspose-html-guide/)
+เรียนรู้วิธีดึงค่า Computed Style ขององค์ประกอบ HTML ใน Java ด้วย Aspose.HTML อย่างละเอียดในคู่มือฉบับสมบูรณ์นี้
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -72,6 +72,8 @@ url: /el/java/creating-managing-html-documents/
 Μάθετε πώς να φορτώνετε HTML σε Java με αυτόν τον αναλυτικό οδηγό βήμα‑βήμα.
 ### [Φόρτωση εγγράφων HTML με Aspose – Γρήγορος Οδηγός Java για Ανάκτηση Τίτλου Σελίδας](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
 Μάθετε πώς να φορτώνετε ένα έγγραφο HTML με Aspose και να εξάγετε τον τίτλο της σελίδας σε Java με αυτόν τον σύντομο οδηγό.
+### [Πώς να φορτώσετε HTML σε Java – Σύγκριση XPath και CSS Selector](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
+Μάθετε πώς να φορτώνετε HTML σε Java και να συγκρίνετε τις προσεγγίσεις XPath και CSS Selector με το Aspose.HTML.
 ### [Δημιουργήστε νέα έγγραφα HTML χρησιμοποιώντας το Aspose.HTML για Java](./generate-new-html-documents/)
 Μάθετε πώς να δημιουργείτε νέα έγγραφα HTML χρησιμοποιώντας το Aspose.HTML για Java με αυτόν τον εύκολο, βήμα προς βήμα οδηγό. Ξεκινήστε τη δημιουργία δυναμικού περιεχομένου HTML.
 
@@ -124,6 +126,10 @@ url: /el/java/creating-managing-html-documents/
 Μάθετε πώς να εξάγετε URLs εικόνων από έγγραφα HTML σε Java με το Aspose.HTML, βήμα‑βήμα οδηγίες.
 ### [Πώς να αναλύσετε HTML σε Java – Εξαγωγή κειμένου από άρθρα HTML](./how-to-parse-html-in-java-extract-text-from-html-articles/)
 Μάθετε πώς να εξάγετε κείμενο από άρθρα HTML σε Java χρησιμοποιώντας το Aspose.HTML, με βήμα‑βήμα οδηγίες.
+### [Εκτέλεση JavaScript σε Java – Εκτέλεση JS σε HTML & Προσθήκη Στοιχείων](./execute-javascript-java-run-js-on-html-append-elements/)
+Μάθετε πώς να εκτελείτε JavaScript σε έγγραφα HTML με Aspose.HTML για Java και να προσθέτετε δυναμικά στοιχεία στη σελίδα.
+### [Δημιουργία στοιχείου HTML με Java ExecutorService – Demo ασφαλούς νήματος](./create-html-element-with-java-executorservice-thread-safe-de/)
+Μάθετε πώς να δημιουργήσετε στοιχείο HTML χρησιμοποιώντας ExecutorService σε Java, εξασφαλίζοντας ασφαλή εκτέλεση σε πολλαπλά νήματα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

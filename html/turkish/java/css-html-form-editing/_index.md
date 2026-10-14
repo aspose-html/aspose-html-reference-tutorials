@@ -80,6 +80,8 @@ Java’da ID ile bir öğenin hesaplanmış stillerini nasıl alacağınızı ad
 Aspose.HTML for Java kullanarak bir öğenin stilini bulup arka plan rengini nasıl okuyacağınızı öğrenin.
 ### [Java’da Hesaplanmış Stili Alma – Tam Aspose.HTML Örneği](./how-to-get-computed-style-in-java-full-aspose-html-example/)
 Aspose.HTML for Java kullanarak bir öğenin hesaplanmış stilini elde etmeyi adım adım gösteren tam örnek.
+### [Java’da Hesaplanmış Stil Nasıl Alınır – Tam Aspose.HTML Kılavuzu](./how-to-get-computed-style-in-java-complete-aspose-html-guide/)
+Aspose.HTML for Java kullanarak bir öğenin hesaplanmış stilini nasıl alacağınızı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

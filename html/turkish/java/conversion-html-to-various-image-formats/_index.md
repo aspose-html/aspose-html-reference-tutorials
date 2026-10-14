@@ -108,6 +108,8 @@ Aspose.HTML for Java kullanarak uzun bir HTML sayfasını tek bir PNG görüntü
 Aspose.HTML for Java kullanarak HTML'den PNG'ye dönüşürken DPI değerini ayarlamayı adım adım öğrenin.
 ### [HTML'yi PNG'ye Dönüştürürken DPI Ayarlama – Java Rehberi](./how-to-set-dpi-when-converting-html-to-png-java-guide/)
 Aspose.HTML for Java kullanarak HTML'den PNG'ye dönüşürken DPI değerini nasıl ayarlayacağınızı adım adım öğrenin.
+### [HTML'yi PNG'ye Dönüştür – Arka Plan Rengi ve Çözünürlük ile Tam Kılavuz](./convert-html-to-png-full-guide-with-background-color-resolut/)
+Aspose.HTML for Java ile arka plan rengi ve çözünürlük ayarlarıyla HTML'yi PNG'ye dönüştürmeyi adım adım öğrenin.
 ### [HTML'yi TIFF'ye Dönüştürme](./convert-html-to-tiff/)
 Aspose.HTML for Java kullanarak HTML'yi TIFF'ye kolayca dönüştürmeyi öğrenin. Verimli belge işleme için adım‑adım bir rehber.
 ### [HTML'yi WebP'ye Dönüştür – Aspose.HTML ile Tam Java Rehberi](./convert-html-to-webp-complete-java-guide-with-aspose-html/)

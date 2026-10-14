@@ -100,6 +100,8 @@ Aspose.HTML for Java के साथ फ़ॉन्ट एम्बेडि�
 Aspose HTML का उपयोग करके असिंक्रोनस जावा में HTML को PDF में बदलने के चरण‑दर‑चरण निर्देश।
 ### [Java में HTML को PDF में बदलना – त्वरित Aspose.HTML गाइड](./convert-html-to-pdf-in-java-quick-aspose-html-guide/)
 Aspose.HTML का उपयोग करके Java में तेज़ी से HTML को PDF में बदलने के चरण‑दर‑चरण निर्देश।
+### [Java में HTML से PDF बनाएं – एक‑लाइन Aspose गाइड](./create-pdf-from-html-in-java-one-line-aspose-guide/)
+केवल एक लाइन कोड से Aspose.HTML का उपयोग करके Java में HTML को PDF में बदलें। तेज़ और आसान प्रक्रिया।
 
 ### [HTML को MHTML में बदलना](./convert-html-to-mhtml/)
 ### [HTML को XPS में बदलना](./convert-html-to-xps/)
@@ -134,9 +136,6 @@ Aspose.HTML का उपयोग करके कई HTML फ़ाइलो�
 ### [कस्टम पेज साइज और एम्बेडेड फ़ॉन्ट्स के साथ HTML को PDF में बदलना](./create-pdf-from-html-with-custom-page-size-and-embedded-font/)
 
 ### [Java के साथ HTML को PDF में बदलें – थ्रेड पूल कैसे बनाएं](./convert-html-to-pdf-with-java-how-to-create-thread-pool/)
-
-### [Java में HTML से PDF बनाएं – एक‑लाइन Aspose गाइड](./create-pdf-from-html-in-java-one-line-aspose-guide/)
-Aspose.HTML का उपयोग करके केवल एक लाइन कोड से Java में HTML को PDF में बदलें।
 
 ### [जावा में डिवाइस पिक्सेल अनुपात सेट करें – मोबाइल के लिए HTML रूपांतरण](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)
 Aspose.HTML for Java में डिवाइस पिक्सेल रेशियो सेट करके HTML को मोबाइल‑फ्रेंडली फ़ॉर्मेट में बदलें।
@@ -215,6 +214,9 @@ Aspose.HTML for Java का उपयोग करके HTML को PDF/A फ�
 
 ### [मोबाइल व्यूपोर्ट के साथ HTML से PDF बनाएं – पूर्ण जावा गाइड](./create-pdf-from-html-with-mobile-viewport-complete-java-guid/)
 Aspose.HTML for Java का उपयोग करके मोबाइल व्यूपोर्ट सेट करके HTML से PDF बनाने की पूरी प्रक्रिया सीखें।
+
+### [Markdown से PDF बनाएं – तेज़ जावा गाइड](./create-pdf-from-markdown-quick-java-guide/)
+Aspose.HTML for Java का उपयोग करके Markdown को PDF में तेज़ी से बदलें। सरल चरण‑दर‑चरण गाइड।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

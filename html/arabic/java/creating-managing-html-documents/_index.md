@@ -66,6 +66,10 @@ url: /ar/java/creating-managing-html-documents/
 تعلم كيفية تحميل مستند HTML واستخراج عنوان الصفحة باستخدام Aspose.HTML في Java من خلال دليل سريع خطوة بخطوة.
 ### [كيفية تحميل HTML في Java – دليل خطوة بخطوة](./how-to-load-html-in-java-step-by-step-guide/)
 تعلم كيفية تحميل مستندات HTML في Java باستخدام Aspose.HTML من خلال دليل خطوة بخطوة.
+### [تنفيذ JavaScript في Java – تشغيل JS على HTML وإضافة عناصر](./execute-javascript-java-run-js-on-html-append-elements/)
+تعلم كيفية تشغيل جافا سكريبت داخل مستندات HTML باستخدام Aspose.HTML for Java وإضافة عناصر ديناميكيًا.
+### [كيفية تحميل HTML في Java – مقارنة XPath ومحدد CSS](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
+اكتشف كيفية تحميل مستندات HTML في Java ومقارنة استخدام XPath ومحددات CSS لاستخراج العناصر بدقة.
 ### [إنشاء مستندات HTML جديدة باستخدام Aspose.HTML لـ Java](./generate-new-html-documents/)
 تعرف على كيفية إنشاء مستندات HTML جديدة باستخدام Aspose.HTML for Java من خلال هذا الدليل السهل خطوة بخطوة. ابدأ في إنشاء محتوى HTML ديناميكي.
 ### [التعامل مع أحداث تحميل المستندات في Aspose.HTML لـ Java](./handle-document-load-events/)
@@ -122,6 +126,8 @@ url: /ar/java/creating-managing-html-documents/
 تعلم كيفية استخراج النص من مقالات HTML باستخدام Aspose.HTML for Java عبر دليل خطوة بخطوة.
 ### [javascript settimeout async: تشغيل JavaScript في Java وتحديث HTML](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
 تعلم كيفية تشغيل كود JavaScript باستخدام setTimeout داخل تطبيق Java وتحديث محتوى HTML بشكل غير متزامن.
+### [إنشاء عنصر HTML باستخدام Java ExecutorService – عرض تجريبي آمن للخيوط](./create-html-element-with-java-executorservice-thread-safe-de/)
+تعلم كيفية إنشاء عنصر HTML بأمان في بيئة متعددة الخيوط باستخدام ExecutorService في Java مع Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

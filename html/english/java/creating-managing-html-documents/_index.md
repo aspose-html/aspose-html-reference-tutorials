@@ -60,6 +60,8 @@ Learn how to create HTML documents from strings in Aspose.HTML for Java with thi
 Learn how to fetch JSON in Java and generate HTML content using Aspose.HTML with this step-by-step guide.
 ### [Create HTML from Markdown in Java – Full Step‑by‑Step Guide](./create-html-from-markdown-in-java-full-step-by-step-guide/)
 Learn how to convert Markdown to HTML in Java using Aspose.HTML with a comprehensive step‑by‑step tutorial.
+### [Create HTML Element with Java ExecutorService – Thread‑Safe Demo](./create-html-element-with-java-executorservice-thread-safe-de/)
+Demonstrates thread‑safe creation of HTML elements using Java ExecutorService with Aspose.HTML.
 ### [How to Query HTML in Java – Complete Tutorial](./how-to-query-html-in-java-complete-tutorial/)
 Learn how to query HTML in Java using Aspose.HTML with this comprehensive step-by-step guide.
 ### [How to Use XPath in Java – Read HTML and Extract Text](./how-to-use-xpath-in-java-read-html-and-extract-text/)
@@ -74,6 +76,8 @@ Learn how to set up a secure HTML sandbox in Java using Aspose.HTML with this de
 Discover how to easily load HTML documents from a URL in Java with Aspose.HTML. Step-by-step tutorial included.
 ### [How to Load HTML in Java – Step‑by‑Step Guide](./how-to-load-html-in-java-step-by-step-guide/)
 Learn how to load HTML in Java using Aspose.HTML with this comprehensive step‑by‑step guide.
+### [How to Load HTML in Java – Compare XPath and CSS Selector](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
+Learn how to load HTML in Java using Aspose.HTML and compare XPath and CSS selector approaches for effective element selection.
 ### [Generate New HTML Documents using Aspose.HTML for Java](./generate-new-html-documents/)
 Learn how to create new HTML documents using Aspose.HTML for Java with this easy step-by-step guide. Start generating dynamic HTML content.
 ### [Generate HTML from JavaScript in Java – Complete Step‑by‑Step Guide](./generate-html-from-javascript-in-java-complete-step-by-step/)
@@ -116,6 +120,8 @@ Learn how to extract text from HTML using Aspose.HTML for Java with this compreh
 Learn how to execute JavaScript with setTimeout asynchronously in Java using Aspose.HTML and dynamically update HTML content.
 ### [load html document aspose – Quick Java Guide to Retrieve Page Title](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
 Quick Java guide to load an HTML document with Aspose.HTML and retrieve its page title efficiently.
+### [Execute JavaScript Java – Run JS on HTML & Append Elements](./execute-javascript-java-run-js-on-html-append-elements/)
+Learn how to execute JavaScript in Java using Aspose.HTML, run scripts on HTML pages and dynamically append elements.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -143,6 +143,8 @@ Aspose.HTML for Java を使用して、HTML から生成した PDF にパスワ�
 ### [HTML を PDF に変換 – Azure Blob へ PDF を保存する完全ガイド](./convert-html-to-pdf-complete-guide-to-saving-pdf-to-azure-bl/)
 Aspose.HTML を使用して Java で HTML を PDF に変換し、生成した PDF を Azure Blob Storage に保存する手順を詳しく解説します。
 ### [モバイルビューポートでHTMLからPDFを作成 – 完全なJavaガイド](./create-pdf-from-html-with-mobile-viewport-complete-java-guid/)
+### [Markdown から PDF を作成 – クイック Java ガイド](./create-pdf-from-markdown-quick-java-guide/)
+Aspose.HTML を使用して Java で Markdown から PDF を迅速に作成する方法を学びます。
 
 ### [JavaでHTMLをPDFに変換 – ページサイズと DPI の完全ガイド](./convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/)
 

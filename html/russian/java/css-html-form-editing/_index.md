@@ -79,6 +79,8 @@ url: /ru/java/css-html-form-editing/
 Узнайте, как с помощью Aspose.HTML в Java получить стили элемента и считать значение фонового цвета.
 ### [Как получить вычисленный стиль в Java – Полный пример Aspose.HTML](./how-to-get-computed-style-in-java-full-aspose-html-example/)
 Узнайте, как получить вычисленный стиль элемента в Java с помощью Aspose.HTML, используя полный пример кода.
+### [Как получить вычисленный стиль в Java – Полное руководство по Aspose.HTML](./how-to-get-computed-style-in-java-complete-aspose-html-guide/)
+Узнайте, как получить вычисленный стиль элемента в Java с помощью Aspose.HTML, в этом полном пошаговом руководстве.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

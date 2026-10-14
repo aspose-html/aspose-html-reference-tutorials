@@ -130,6 +130,12 @@ Aspose.HTML for Java 为开发人员提供了功能强大的工具包，旨在�
 学习如何在 Java 环境中使用 setTimeout 实现异步执行 JavaScript，并动态更新 HTML 内容。
 ### [在 Java 中从 Markdown 创建 HTML – 完整分步指南](./create-html-from-markdown-in-java-full-step-by-step-guide/)
 通过本教程学习如何在 Java 中将 Markdown 转换为 HTML，提供完整的分步操作指南。
+### [在 Java 中加载 HTML – 比较 XPath 与 CSS 选择器](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
+本教程比较了在 Java 中使用 Aspose.HTML 加载 HTML 时，XPath 与 CSS 选择器的用法、优势和示例，帮助您选择最佳查询方式。
+### [在 Java 中执行 JavaScript – 在 HTML 上运行 JS 并追加元素](./execute-javascript-java-run-js-on-html-append-elements/)
+学习如何在 Aspose.HTML for Java 中执行 JavaScript，运行脚本并向 HTML 文档追加元素。
+### [使用 Java ExecutorService 创建 HTML 元素 – 线程安全演示](./create-html-element-with-java-executorservice-thread-safe-de/)
+演示如何在 Aspose.HTML for Java 中使用 ExecutorService 安全地创建 HTML 元素，确保多线程环境下的线程安全。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

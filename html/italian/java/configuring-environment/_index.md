@@ -126,6 +126,8 @@ Scopri come impostare un foglio di stile utente personalizzato in Aspose.HTML pe
 Scopri come recuperare e visualizzare la versione corrente di Aspose.HTML per Java con una semplice chiamata API.
 ### [Come creare un sandbox in Java – Guida completa](./how-to-create-sandbox-in-java-full-guide/)
 Scopri come creare un sandbox in Java con questa guida completa passo‑passo, garantendo esecuzioni sicure dei tuoi script HTML.
+### [Imposta l'User Agent per il Rendering HTML Headless – Guida Completa](./set-user-agent-for-headless-html-rendering-complete-guide/)
+Scopri come impostare l'User Agent per il rendering HTML headless in Aspose.HTML per Java, garantendo il corretto caricamento delle risorse.
 
 ---
 

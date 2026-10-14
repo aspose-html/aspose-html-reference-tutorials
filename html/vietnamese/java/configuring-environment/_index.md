@@ -123,6 +123,8 @@ Tìm hiểu cách thiết lập stylesheet người dùng tùy chỉnh trong Asp
 ### [Lấy Phiên Bản Thư Viện trong Java – Hướng Dẫn Nhanh để Hiển Thị Phiên Bản Thư Viện](./get-library-version-in-java-quick-guide-to-show-library-vers/)
 ### [Cách tạo Sandbox trong Java – Hướng dẫn đầy đủ](./how-to-create-sandbox-in-java-full-guide/)
 Tìm hiểu cách tạo sandbox trong Java một cách chi tiết, bảo vệ môi trường thực thi khi chuyển đổi HTML sang PDF.
+### [Set User Agent for Headless HTML Rendering – Complete Guide](./set-user-agent-for-headless-html-rendering-complete-guide/)
+Tìm hiểu cách cấu hình User Agent khi render HTML không giao diện trong Aspose.HTML for Java để kiểm soát yêu cầu mạng và tránh lỗi.
 
 ---
 

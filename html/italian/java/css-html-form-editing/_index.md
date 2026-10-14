@@ -81,6 +81,8 @@ Scopri come individuare e ottenere gli stili calcolati di un elemento per ID usa
 Scopri come individuare un elemento HTML in Java e leggere il valore di background usando Aspose.HTML.
 ### [Come ottenere lo stile calcolato in Java – Esempio completo Aspose.HTML](./how-to-get-computed-style-in-java-full-aspose-html-example/)
 Scopri come recuperare lo stile calcolato di un elemento HTML usando Aspose.HTML per Java con un esempio completo passo passo.
+### [Come ottenere lo stile calcolato in Java – Guida completa Aspose.HTML](./how-to-get-computed-style-in-java-complete-aspose-html-guide/)
+Scopri come recuperare lo stile calcolato di un elemento HTML usando Aspose.HTML per Java in questa guida completa passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -68,6 +68,8 @@ Lär dig hur du räknar antalet HTML-tecken i Java med Aspose.HTML i en komplett
 Lär dig hur du laddar HTML i Java med en tydlig steg‑för‑steg‑guide.
 ### [Ladda HTML-dokument med Aspose – Snabb Java-guide för att hämta sidtitel](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
 Lär dig hur du snabbt laddar ett HTML-dokument och extraherar sidtiteln med Aspose.HTML i Java. En kort steg-för-steg-guide.
+### [Hur du laddar HTML i Java – Jämför XPath och CSS‑väljare](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
+Lär dig att ladda HTML i Java och jämföra XPath med CSS‑väljare för effektiv dataextraktion.
 ### [Hur du frågar HTML i Java – Komplett handledning](./how-to-query-html-in-java-complete-tutorial/)
 Lär dig hur du söker och extraherar data från HTML-dokument i Java med en komplett steg-för-steg-guide.
 ### [Hur du använder XPath i Java – Läs HTML och extrahera text](./how-to-use-xpath-in-java-read-html-and-extract-text/)
@@ -133,6 +135,10 @@ Lär dig hur du kör JavaScript asynkront med setTimeout i Java och dynamiskt up
 
 ### [Skapa HTML från Markdown i Java – Fullständig steg‑för‑steg‑guide](./create-html-from-markdown-in-java-full-step-by-step-guide/)
 Lär dig hur du konverterar Markdown till HTML i Java med Aspose.HTML genom en komplett steg-för-steg‑guide.
+### [Kör JavaScript i Java – Kör JS på HTML och lägg till element](./execute-javascript-java-run-js-on-html-append-elements/)
+Lär dig hur du kör JavaScript i en Java‑applikation, manipulerar HTML och lägger till element dynamiskt.
+### [Skapa HTML-element med Java ExecutorService – Trådsäker demo](./create-html-element-with-java-executorservice-thread-safe-de/)
+Lär dig hur du skapar HTML-element på ett trådsäkert sätt med Java ExecutorService i Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

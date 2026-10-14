@@ -110,6 +110,8 @@ Att konfigurera din miljö är grunden för framgångsrika **convert HTML to PDF
 ### [Hämta biblioteksversion i Java – Snabbguide för att visa biblioteksversion](./get-library-version-in-java-quick-guide-to-show-library-vers/)
 Lär dig hur du snabbt visar Aspose.HTML‑bibliotekets version i Java med en enkel kodexempel.
 ### [How to Create Sandbox in Java – Full Guide](./how-to-create-sandbox-in-java-full-guide/)
+### [Ställ in User Agent för huvudlös HTML-rendering – Komplett guide](./set-user-agent-for-headless-html-rendering-complete-guide/)
+Lär dig hur du konfigurerar User Agent för huvudlös HTML-rendering i Aspose.HTML för Java för att säkerställa korrekt resurshämtning.
 
 ---
 

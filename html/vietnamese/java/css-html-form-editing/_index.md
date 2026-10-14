@@ -79,6 +79,8 @@ Hướng dẫn chi tiết cách lấy phần tử HTML theo id trong Java và tr
 Hướng dẫn cách sử dụng Aspose.HTML cho Java để tìm phần tử và đọc thuộc tính nền của nó.
 ### [Cách lấy kiểu đã tính toán trong Java – Ví dụ đầy đủ Aspose.HTML](./how-to-get-computed-style-in-java-full-aspose-html-example/)
 Hướng dẫn chi tiết cách lấy thuộc tính kiểu đã tính toán của phần tử HTML trong Java bằng Aspose.HTML.
+### [Cách lấy kiểu đã tính toán trong Java – Hướng dẫn đầy đủ Aspose.HTML](./how-to-get-computed-style-in-java-complete-aspose-html-guide/)
+Hướng dẫn chi tiết cách lấy computed style trong Java bằng Aspose.HTML, bao gồm các ví dụ thực tế và mẹo tối ưu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

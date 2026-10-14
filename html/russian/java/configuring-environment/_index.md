@@ -125,6 +125,8 @@ Learn how to set a custom user stylesheet in Aspose.HTML for Java, enhancing you
 
 ### [Как создать песочницу в Java – Полное руководство](./how-to-create-sandbox-in-java-full-guide/)
 Узнайте, как настроить песочницу в Aspose.HTML для Java, обеспечивая безопасное выполнение скриптов и безопасные преобразования HTML.
+### [Set User Agent for Headless HTML Rendering – Complete Guide](./set-user-agent-for-headless-html-rendering-complete-guide/)
+Узнайте, как задать пользовательский User‑Agent для безголового рендеринга HTML в Aspose.HTML for Java, обеспечивая корректную загрузку ресурсов и обход блокировок.
 
 ---
 

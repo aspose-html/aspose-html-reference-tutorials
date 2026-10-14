@@ -117,6 +117,12 @@ Aspose.HTML สำหรับ Java นำเสนอชุดเครื่�
 เรียนรู้วิธีโหลดเอกสาร HTML ด้วย Aspose.HTML สำหรับ Java และดึงชื่อหน้าเว็บอย่างรวดเร็วในขั้นตอนง่ายๆ
 ### [วิธีโหลด HTML ใน Java – คู่มือทีละขั้นตอน](./how-to-load-html-in-java-step-by-step-guide/)
 เรียนรู้วิธีโหลด HTML ใน Java อย่างละเอียดด้วยคู่มือขั้นตอนต่อขั้นตอนจาก Aspose.HTML
+### [วิธีโหลด HTMLใน Java – เปรียบเทียบ XPath และ CSS Selector ใน Aspose.HTML สำหรับ Java](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
+เรียนรู้วิธีโหลด HTML ใน Java พร้อมเปรียบเทียบการใช้ XPath และ CSS Selector เพื่อดึงข้อมูลอย่างมีประสิทธิภาพ
+### [สร้างองค์ประกอบ HTML ด้วย Java ExecutorService – ตัวอย่าง Thread‑Safe](./create-html-element-with-java-executorservice-thread-safe-de/)
+เรียนรู้วิธีสร้างและจัดการองค์ประกอบ HTML อย่างปลอดภัยในหลายเธรดโดยใช้ ExecutorService ของ Java ในตัวอย่างนี้
+### [ดำเนินการ JavaScript ใน Java – รัน JS บน HTML และเพิ่มองค์ประกอบ](./execute-javascript-java-run-js-on-html-append-elements/)
+เรียนรู้วิธีรัน JavaScript บนเอกสาร HTML ด้วย Aspose.HTML สำหรับ Java และเพิ่มองค์ประกอบใหม่อย่างง่าย
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

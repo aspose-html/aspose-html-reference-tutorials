@@ -78,6 +78,8 @@ Naučte se pomocí Aspose.HTML pro Javu získat element podle ID a získat jeho 
 Naučte se pomocí Aspose.HTML pro Javu získat styl prvku a číst jeho pozadí v HTML dokumentu.
 ### [Jak získat vypočtený styl v Javě – kompletní příklad Aspose.HTML](./how-to-get-computed-style-in-java-full-aspose-html-example/)
 Kompletní ukázka, jak pomocí Aspose.HTML v Javě získat vypočtené CSS styly prvků.
+### [Jak získat vypočtený styl v Javě – kompletní průvodce Aspose.HTML](./how-to-get-computed-style-in-java-complete-aspose-html-guide/)
+Naučte se, jak pomocí Aspose.HTML pro Javu získat vypočtené styly prvků a použít je ve svých aplikacích.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

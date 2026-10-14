@@ -79,6 +79,8 @@ Java में Aspose.HTML का उपयोग करके ID द्वा�
 Java में Aspose.HTML का उपयोग करके किसी एलिमेंट की स्टाइल प्राप्त करें और उसके बैकग्राउंड प्रॉपर्टी को पढ़ें।
 ### [Java में Computed Style कैसे प्राप्त करें – पूर्ण Aspose.HTML उदाहरण](./how-to-get-computed-style-in-java-full-aspose-html-example/)
 Java के लिए Aspose.HTML का उपयोग करके Computed Style प्राप्त करने की पूरी प्रक्रिया सीखें।
+### [Java में Computed Style कैसे प्राप्त करें – पूर्ण Aspose.HTML गाइड](./how-to-get-computed-style-in-java-complete-aspose-html-guide/)
+Java में Aspose.HTML का उपयोग करके Computed Style प्राप्त करने की पूरी प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

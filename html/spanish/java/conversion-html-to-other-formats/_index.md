@@ -128,6 +128,8 @@ Genera archivos PDF directamente desde documentos Markdown en Java con Aspose HT
 ### [Convertir HTML a Markdown en Java – Guía completa paso a paso](./convert-html-to-markdown-in-java-full-step-by-step-guide/)
 Aprende a transformar contenido HTML a Markdown en Java con Aspose.HTML mediante una guía paso a paso detallada.
 
+### [Crear PDF desde Markdown – Guía rápida de Java](./create-pdf-from-markdown-quick-java-guide/)
+Genera rápidamente un PDF a partir de un archivo Markdown usando Aspose.HTML para Java en pocos pasos.
 ### [Conversión de SVG a Imagen](./convert-svg-to-image/)
 Aprende a convertir SVG a imágenes en Java con Aspose.HTML. Guía completa para obtener resultados de alta calidad.
 

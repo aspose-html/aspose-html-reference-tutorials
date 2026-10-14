@@ -88,6 +88,8 @@ Leer hoe u HTML naar PDF kunt converteren in Java met Aspose.HTML. Maak moeitelo
 Een beknopte gids voor het snel converteren van HTML naar PDF in Java met Aspose.HTML.
 ### [HTML naar PDF conversie – Complete gids voor batchbestanden converteren met Aspose.HTML](./html-to-pdf-conversion-complete-guide-to-batch-convert-files/)
 Leer hoe u met Aspose.HTML meerdere HTML‑bestanden in één keer naar PDF kunt converteren, inclusief configuratie‑tips voor batchverwerking.
+### [PDF maken vanuit HTML in Java – Eén‑regel Aspose‑gids](./create-pdf-from-html-in-java-one-line-aspose-guide/)
+Leer hoe u met één regel code een PDF genereert uit HTML in Java met Aspose.HTML.
 ### [HTML naar PDF converteren in Java – Stapsgewijze gids met paginagrootte‑instellingen](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Leer stap voor stap hoe u HTML naar PDF converteert in Java en paginagrootte‑instellingen configureert voor optimale resultaten.
 ### [Hoe een webpagina naar PDF converteren in Java – Stapsgewijze gids](./how-to-convert-webpage-to-pdf-in-java-step-by-step-guide/)
@@ -121,6 +123,8 @@ Leer hoe u HTML moeiteloos naar XPS kunt converteren met Aspose.HTML for Java. M
 Converteer Markdown naar HTML in Java naadloos met Aspose.HTML for Java. Volg onze stap‑voor‑stap gids om uw documentconversiebehoeften te stroomlijnen.
 ### [PDF maken vanuit Markdown met Aspose HTML Converter (Java)](./create-pdf-from-markdown-using-aspose-html-converter-java/)
 Leer hoe u met Aspose HTML Converter in Java Markdown-bestanden omzet naar PDF-documenten met behoud van opmaak.
+### [PDF maken vanuit Markdown – Snelle Java‑gids](./create-pdf-from-markdown-quick-java-guide/)
+Leer hoe u met een korte Java‑code een PDF maakt vanuit Markdown met Aspose.HTML.
 ### [SVG naar afbeelding converteren](./convert-svg-to-image/)
 Leer hoe u SVG naar afbeeldingen kunt converteren in Java met Aspose.HTML. Uitgebreide gids voor output van hoge kwaliteit.
 ### [SVG naar PDF converteren](./convert-svg-to-pdf/)
@@ -147,8 +151,6 @@ Leer hoe u HTML naar PDF converteert en de PDF opslaat in Azure Blob Storage met
 
 ### [DOCX maken van HTML – Java-gids om HTML naar DOCX te converteren](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
 Leer hoe u HTML naar DOCX converteert in Java met Aspose.HTML. Maak eenvoudig DOCX‑documenten van uw webinhoud.
-### [PDF maken van HTML in Java – Eén‑regel Aspose‑gids](./create-pdf-from-html-in-java-one-line-aspose-guide/)
-Genereer een PDF uit HTML met één regel code via Aspose.HTML for Java.
 ### [Device Pixel Ratio instellen in Java – HTML naar mobiel converteren](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)
 
 ### [HTML naar PDF converteren in Java – Complete gids met lettertype‑inbedding](./convert-html-to-pdf-in-java-complete-guide-with-font-embeddi/)

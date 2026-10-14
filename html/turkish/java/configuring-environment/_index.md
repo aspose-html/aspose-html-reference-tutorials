@@ -125,6 +125,8 @@ Aspose.HTML için güvenli bir sandbox ortamı kurun, izole edin ve Java’da HT
 Java’da Aspose.HTML kütüphanesinin sürümünü nasıl alıp ekranda göstereceğinizi öğrenin.
 ### [Java’da Sandbox Nasıl Oluşturulur – Tam Kılavuz](./how-to-create-sandbox-in-java-full-guide/)
 Java’da sandbox oluşturmayı adım adım öğrenin ve güvenli HTML dönüşümleri için ortamı yapılandırın.
+### [Aspose.HTML for Java’da Kafasız HTML Render'ı için Kullanıcı Aracısını Ayarlama – Tam Kılavuz](./set-user-agent-for-headless-html-rendering-complete-guide/)
+Aspose.HTML for Java’da kafasız HTML render'ı için kullanıcı aracısını nasıl ayarlayacağınızı öğrenin.
 
 ---
 
