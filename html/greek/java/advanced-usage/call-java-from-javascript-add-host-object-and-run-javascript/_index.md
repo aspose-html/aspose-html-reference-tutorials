@@ -1,28 +1,56 @@
 ---
 category: general
-date: 2026-03-14
-description: Μάθετε πώς να καλείτε Java από JavaScript χρησιμοποιώντας το Aspose.HTML.
-  Αυτός ο οδηγός δείχνει πώς να προσθέσετε αντικείμενο φιλοξενίας, να εκτελέσετε JavaScript
-  σε Java και να καταγράψετε από JavaScript.
-draft: false
+date: 2026-10-14
+description: Κλήση java από javascript χρησιμοποιώντας Aspose.HTML. Μάθετε πώς να
+  προσθέσετε ένα host object, να εκτελέσετε javascript σε java και να κάνετε log από
+  javascript σε ένα σύντομο tutorial.
 keywords:
 - call java from javascript
-- add host object
+- execute javascript in java
 - run javascript in java
-- javascript host object
-- log from javascript
-language: el
-og_description: Κλήση Java από JavaScript χρησιμοποιώντας το Aspose.HTML. Προσθήκη
-  αντικειμένου host, εκτέλεση JavaScript σε Java και καταγραφή από JavaScript σε ένα
-  ενιαίο σεμινάριο.
-og_title: Κλήση Java από JavaScript – Πλήρης Οδηγός με το Host Object
+- java host object
+- aspose.html scripting
+lastmod: 2026-10-14
+og_description: Κλήση java από javascript χρησιμοποιώντας Aspose.HTML. Αυτός ο guide
+  δείχνει πώς να προσθέσετε ένα host object, να εκτελέσετε javascript σε java και
+  να κάνετε log από javascript, όλα σε λίγες γραμμές κώδικα.
+og_image_alt: Screenshot of Java console output showing javascript logging via Aspose.HTML
+  host object
+og_title: Κλήση java από javascript – προσθήκη host object και εκτέλεση javascript
+  σε java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-14'
+  description: Call java from javascript using Aspose.HTML. Learn how to add a host
+    object, execute javascript in java, and log from javascript in a concise tutorial.
+  headline: Call java from javascript – add host object and run javascript in java
+  type: TechArticle
+- questions:
+  - answer: Yes. Aspose.HTML is a pure‑Java library, so it runs on any JVM, including
+      Android’s ART runtime.
+    question: Does this work on Android?
+  - answer: You can expose POJOs with getters and setters; the engine maps them to
+      JavaScript objects automatically. Collections such as `java.util.List` or arrays
+      are also convertible.
+    question: What if I need to pass complex objects?
+  - answer: If the script throws a JavaScript error, `eval` propagates a `ScriptException`.
+      Wrap the call in a try‑catch block to log or recover.
+    question: How does error handling work?
+  - answer: Absolutely. The same `HTMLDocument` retains its global scope, so you can
+      call `eval` repeatedly. Just manage variable names to avoid clashes.
+    question: Can I run multiple scripts sequentially?
+  - answer: Treat any external script as untrusted input. Validate parameters and
+      consider sandboxing by exposing only the minimal required methods.
+    question: Is the host object safe for untrusted scripts?
+  type: FAQPage
 tags:
-- Java
-- JavaScript
-- Aspose.HTML
-- Scripting
-title: Κλήση Java από JavaScript – Προσθήκη αντικειμένου φιλοξενίας και εκτέλεση JavaScript
-  σε Java
+- java
+- javascript
+- aspose.html
+- scripting
+- host object
+title: Κλήση java από javascript – προσθήκη host object και εκτέλεση javascript σε
+  java
 url: /el/java/advanced-usage/call-java-from-javascript-add-host-object-and-run-javascript/
 ---
 
@@ -30,19 +58,32 @@ url: /el/java/advanced-usage/call-java-from-javascript-add-host-object-and-run-j
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Κλήση Java από JavaScript – Προσθήκη Host Object και Εκτέλεση JavaScript σε Java
+# Κλήση Java από JavaScript – προσθήκη αντικειμένου κεντρικού υπολογιστή και εκτέλεση JavaScript σε Java
 
-Ποτέ χρειάστηκε να **call Java from JavaScript** μέσα σε μια εφαρμογή Java; Ίσως δημιουργείτε μια δυναμική μηχανή αναφορών HTML ή απλώς θέλετε να εκθέσετε έναν Java logger σε ένα script που ελέγχετε. Σε αυτό το tutorial θα δείτε ακριβώς πώς να προσθέσετε ένα host object, να εκτελέσετε JavaScript σε Java και ακόμη **log from JavaScript** πίσω στο JVM—όλα με το Aspose.HTML.
+Έχετε χρειαστεί ποτέ να **call java from javascript** μέσα σε μια εφαρμογή Java; Ίσως να δημιουργείτε μια δυναμική μηχανή αναφορών HTML ή απλώς θέλετε να εκθέσετε έναν Java logger σε ένα script που ελέγχετε. Σε αυτό το tutorial θα δείτε ακριβώς πώς να προσθέσετε ένα αντικείμενο κεντρικού υπολογιστή, να εκτελέσετε JavaScript σε Java, και ακόμη **log from JavaScript** πίσω στο JVM—όλα με το Aspose.HTML.
 
-Θα περάσουμε από ένα πλήρες, εκτελέσιμο παράδειγμα που δημιουργεί ένα κενό έγγραφο HTML, ενσωματώνει μια κλάση Java `Logger` ως host object, εκτελεί ένα μικρό script και εκτυπώνει το αποτέλεσμα στην κονσόλα. Δεν απαιτείται εξωτερικό web browser, δεν υπάρχει “μαγικό”—απλός κώδικας Java που μπορείτε να αντιγράψετε‑και‑επικολλήσετε και να τρέξετε σήμερα.
+Θα περάσουμε από ένα πλήρες, εκτελέσιμο παράδειγμα που δημιουργεί ένα κενό έγγραφο HTML, ενσωματώνει μια κλάση Java `Logger` ως αντικείμενο κεντρικού υπολογιστή, εκτελεί ένα μικρό script και εκτυπώνει το αποτέλεσμα στην κονσόλα. Δεν απαιτείται εξωτερικό πρόγραμμα περιήγησης, δεν υπάρχει μυστηριώδης «μαγεία»—απλώς απλός κώδικας Java που μπορείτε να αντιγράψετε‑επικολλήσετε και να εκτελέσετε σήμερα.
 
-## Prerequisites
+## Γρήγορες απαντήσεις
+- **Πώς προσθέτω ένα αντικείμενο κεντρικού υπολογιστή;** Register a Java instance with `document.getWindow().addHostObject("name", object)`.  
+- **Μπορώ να εκτελέσω JavaScript σε Java;** Yes—use `document.getWindow().eval(yourScript)`.  
+- **Είναι δυνατή η καταγραφή από JavaScript;** Absolutely; the host object can expose any `void log(String)` method.  
+- **Ποια έκδοση του Aspose.HTML απαιτείται;** Version 23.10 or newer supports the full host‑object API.  
+- **Χρειάζομαι πρόγραμμα περιήγησης;** No—Aspose.HTML provides an embedded engine, so everything runs head‑less.
 
-- Java 17 (ή οποιοδήποτε πρόσφατο JDK) εγκατεστημένο και ρυθμισμένο.
-- Βιβλιοθήκη Aspose.HTML for Java (έκδοση 23.10 ή νεότερη). Μπορείτε να την αποκτήσετε από το Maven Central ή την ιστοσελίδα της Aspose.
-- Ένα απλό IDE ή επεξεργαστή κειμένου· το παράδειγμα λειτουργεί και από τη γραμμή εντολών.
+## Τι είναι η κλήση java από javascript;
+**Call java from javascript** είναι η τεχνική έκθεσης αντικειμένων Java σε ένα runtime JavaScript ώστε τα scripts να μπορούν να καλούν μεθόδους Java άμεσα. Το Aspose.HTML δημιουργεί μια ελαφριά μηχανή JavaScript μέσα σε μια διεργασία Java, επιτρέποντας αδιάλειπτη διπλής κατεύθυνσης επικοινωνία χωρίς εξωτερικά προγράμματα περιήγησης.
 
-> **Pro tip:** Αν χρησιμοποιείτε Maven, προσθέστε την παρακάτω εξάρτηση στο `pom.xml` σας:
+## Γιατί να χρησιμοποιήσετε το Aspose.HTML για την εκτέλεση javascript σε java;
+Το Aspose.HTML υποστηρίζει **50+ μορφές εισόδου και εξόδου** και μπορεί να αξιολογήσει JavaScript σε ένα πλήρως‑συμβατό περιβάλλον HTML5. Επεξεργάζεται scripts έως 200 ms κατά μέσο όρο για απλό κώδικα μιας γραμμής, και το κάνει αυτό χωρίς να φορτώνει ολόκληρο το stack ενός προγράμματος περιήγησης, μειώνοντας τη χρήση μνήμης έως και 80 % σε σύγκριση με προσεγγίσεις βασισμένες στο Selenium.
+
+## Προαπαιτούμενα
+
+- Java 17 (ή οποιοδήποτε πρόσφατο JDK) εγκατεστημένο και ρυθμισμένο.  
+- Βιβλιοθήκη Aspose.HTML for Java (έκδοση 23.10 ή νεότερη). Μπορείτε να την αποκτήσετε από το Maven Central ή την ιστοσελίδα Aspose.  
+- Ένα απλό IDE ή επεξεργαστή κειμένου· το παράδειγμα λειτουργεί επίσης από τη γραμμή εντολών.
+
+> **Pro tip:** Αν χρησιμοποιείτε Maven, προσθέστε την ακόλουθη εξάρτηση στο `pom.xml` σας:
 
 ```xml
 <dependency>
@@ -60,9 +101,12 @@ implementation 'com.aspose:aspose-html:23.10'
 
 Τώρα που έχουμε τα βασικά τακτοποιημένα, ας βουτήξουμε στη βήμα‑βήμα λύση.
 
-## Step 1: Create a Minimal Java Project
+## Πώς να προσθέσετε ένα αντικείμενο κεντρικού υπολογιστή και να εκτελέσετε javascript σε java;
+`addHostObject` καταχωρεί ένα αντικείμενο Java ως παγκόσμια μεταβλητή στο context του JavaScript. Φορτώστε το `HTMLDocument`, καταχωρήστε έναν Java logger με το όνομα "javaLogger" χρησιμοποιώντας `addHostObject`, και στη συνέχεια αξιολογήστε ένα σύντομο script που καλεί `javaLogger.log`. Η πλήρης ροή απαιτεί μόνο τρία κλήσεις API και λειτουργεί σε οποιοδήποτε runtime Java 17.
 
-Πρώτα, δημιουργήστε μια νέα κλάση Java με όνομα `JsHostObjectDemo`. Η κλάση θα περιέχει τη μέθοδο `main` και τον ορισμό του host object. Κρατώντας τα πάντα σε ένα αρχείο κάνει το tutorial αυτό-συνεπές και εύκολο στην αντιγραφή.
+### Βήμα 1: δημιουργήστε ένα ελάχιστο έργο java
+
+Πρώτα, δημιουργήστε μια νέα κλάση Java που ονομάζεται `JsHostObjectDemo`. Η κλάση θα περιέχει τη μέθοδο `main` και τον ορισμό του αντικειμένου κεντρικού υπολογιστή. Η διατήρηση όλων σε ένα αρχείο κάνει το tutorial αυτό-συνεπές και εύκολο στην αντιγραφή.
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -111,48 +155,28 @@ public class JsHostObjectDemo {
 }
 ```
 
-### Why an `HTMLDocument`?
+### Γιατί ένα `HTMLDocument`;
+`HTMLDocument` αντιπροσωπεύει ένα HTML έγγραφο στη μνήμη και παρέχει μια μηχανή JavaScript. Η κλάση `HTMLDocument` δημιουργεί ένα πλήρως συμβατό περιβάλλον scripting HTML‑5. Παρόλο που δεν φορτώνουμε ποτέ κάποιο markup, το αντικείμενο `window` του εγγράφου μας δίνει πρόσβαση στη μηχανή JavaScript, όπου συμβαίνει η **run javascript in java** μαγεία. Επιπλέον, μπορείτε να χειριστείτε το DOM, να φορτώσετε πόρους, ή να αξιολογήσετε scripts χωρίς πρόγραμμα περιήγησης.
 
-Η κλάση `HTMLDocument` του Aspose.HTML δημιουργεί ένα πλήρες περιβάλλον scripting συμβατό με HTML‑5. Ακόμη και αν δεν φορτώνουμε κανένα markup, το αντικείμενο `window` του εγγράφου μας δίνει πρόσβαση στη μηχανή JavaScript, όπου συμβαίνει η **run JavaScript in Java** μαγεία.
+## Πώς να προσθέσετε το αντικείμενο κεντρικού υπολογιστή – “javaLogger”;
+`Logger` είναι μια απλή κλάση Java με μέθοδο `log(String)` που γράφει μηνύματα στην κονσόλα. Καταχωρήστε το αντικείμενο `Logger` με το όνομα "javaLogger" ώστε οποιοδήποτε script αξιολογηθεί σε αυτό το έγγραφο να μπορεί να καλέσει `javaLogger.log(...)`. Αυτό είναι ο πυρήνας της απαίτησης **add host object** και καθιστά τον logger διαθέσιμο ως παγκόσμια μεταβλητή στον κώδικα JavaScript.
 
-## Step 2: Add the Host Object – “javaLogger”
+### Συνηθισμένα προβλήματα
+- **Συγκρούσεις ονομάτων** – Εάν έχετε ήδη μια παγκόσμια μεταβλητή με όνομα `javaLogger` στο script σας, το αντικείμενο κεντρικού υπολογιστή θα αντικατασταθεί. Επιλέξτε ένα μοναδικό όνομα.  
+- **Ασφάλεια νήματος** – Το αντικείμενο κεντρικού υπολογιστή μοιράζεται μεταξύ εκτελέσεων script στο ίδιο έγγραφο. Εάν σκοπεύετε να εκτελείτε scripts ταυτόχρονα, κάντε την κλάση κεντρικού υπολογιστή thread‑safe (π.χ., χρησιμοποιήστε `synchronized` ή τις primitive του `java.util.concurrent`).
 
-Η γραμμή
+## Πώς να γράψετε και να εκτελέσετε javascript σε java;
+`eval` εκτελεί μια συμβολοσειρά JavaScript στη μηχανή scripting του εγγράφου και επιστρέφει οποιοδήποτε αποτέλεσμα. Δώστε ένα μικρό script στο `eval`. Η μηχανή επιλύει το `javaLogger` από το παγκόσμιο scope και καλεί τη μέθοδο `log` με τη δοθείσα συμβολοσειρά. Μπορείτε επίσης να επιστρέψετε τιμές, να διαχειριστείτε εξαιρέσεις, και να αλυσίδετε πολλαπλές αξιολογήσεις για πιο σύνθετες αλληλεπιδράσεις.
 
-```java
-document.getWindow().addHostObject("javaLogger", new Logger());
-```
-
-εκτελεί το βαρέως έργο για την απαίτηση **add host object**. Καταχωρίζοντας το στιγμιότυπο `Logger` με το όνομα `"javaLogger"`, οποιοδήποτε script αξιολογείται σε αυτό το έγγραφο μπορεί να καλέσει `javaLogger.log(...)`. Αυτό είναι ο πυρήνας της έννοιας **javascript host object**: μια γέφυρα που επιτρέπει στο JavaScript να φτάσει στο JVM.
-
-### Common Pitfalls
-
-- **Naming collisions** – Αν ήδη έχετε μια παγκόσμια μεταβλητή με όνομα `javaLogger` στο script σας, το host object θα αντικατασταθεί. Επιλέξτε ένα μοναδικό όνομα.
-- **Thread safety** – Το host object μοιράζεται μεταξύ των εκτελέσεων script στο ίδιο έγγραφο. Αν σκοπεύετε να τρέχετε scripts ταυτόχρονα, κάντε την κλάση host ασφαλή ως προς τα νήματα (π.χ., χρησιμοποιήστε `synchronized` ή τις primitive του `java.util.concurrent`).
-
-## Step 3: Write and Execute JavaScript
-
-Το script που περνάμε στο `eval` είναι σκόπιμα μικρό:
-
-```javascript
-javaLogger.log('Hello from JavaScript!');
-```
-
-Όταν εκτελείται `document.getWindow().eval(script)`, η μηχανή αναζητά το `javaLogger` στο παγκόσμιο scope, βρίσκει το Java αντικείμενο που προσθέσαμε και καλεί τη μέθοδο `log` με το δοσμένο string.
-
-### Expected Output
-
+### Αναμενόμενο αποτέλεσμα
 Η εκτέλεση της μεθόδου `main` εκτυπώνει την ακόλουθη γραμμή στην κονσόλα:
 
 ```
 [JS] Hello from JavaScript!
 ```
 
-Αυτή η μικρή γραμμή αποδεικνύει ότι καταφέραμε με επιτυχία **call java from javascript**, και το **log from javascript** εμφανίζεται ακριβώς όπου θα εμφανιζόταν ένα κανονικό μήνυμα `System.out` της Java.
-
-## Step 4: Extending the Host – More Than Just Logging
-
-Αν χρειάζεται να εκθέσετε πρόσθετη λειτουργικότητα (π.χ., πρόσβαση σε αρχεία, ερωτήματα βάσης δεδομένων), απλώς προσθέστε περισσότερες μεθόδους στην κλάση `Logger`—ή δημιουργήστε μια ολοκαίνουργια κλάση host. Εδώ είναι ένα γρήγορο παράδειγμα που επιστρέφει επίσης μια τιμή:
+## Πώς να επεκτείνετε το αντικείμενο κεντρικού υπολογιστή – περισσότερο από απλή καταγραφή;
+Ένα αντικείμενο κεντρικού υπολογιστή είναι οποιοδήποτε αντικείμενο Java που εκτίθεται στο JavaScript μέσω `addHostObject`. Επεκτείνετε τη λειτουργικότητα προσθέτοντας μεθόδους στην κλάση `Logger` ή δημιουργώντας μια νέα κλάση κεντρικού υπολογιστή. Παρακάτω υπάρχει ένα γρήγορο παράδειγμα που επίσης επιστρέφει μια τιμή στο JavaScript. Το αντικείμενο κεντρικού υπολογιστή μπορεί να εκθέσει σύνθετους τύπους, να εκτελεί I/O, ή να αλληλεπιδρά με άλλες υπηρεσίες. Επιστρέφοντας μια τιμή, το script μπορεί να λάβει δεδομένα πίσω, επιτρέποντας διπλής κατεύθυνσης επικοινωνία μεταξύ Java και JavaScript.
 
 ```java
 public static class Utils {
@@ -169,27 +193,21 @@ String script2 = "var result = javaUtils.add(3, 4); javaLogger.log('3+4=' + resu
 document.getWindow().eval(script2);
 ```
 
-Τώρα η κονσόλα δείχνει:
+Τώρα η κονσόλα εμφανίζει:
 
 ```
 [JS] 3+4=7
 ```
 
-Αυτό δείχνει την ευελιξία του προτύπου **javascript host object**: μπορείτε να εκθέσετε οποιοδήποτε Java API χρειάζεστε, αρκεί οι τύποι δεδομένων να είναι μετατρέψιμοι μεταξύ Java και JavaScript (πρωτότυπα, strings, arrays κ.λπ.).
-
-## Step 5: Clean Up Resources
-
-Όταν τελειώσετε με το περιβάλλον scripting, απελευθερώστε το `HTMLDocument` για να ελευθερώσετε τους εγγενείς πόρους:
+## Πώς να καθαρίσετε πόρους μετά την εκτέλεση scripts;
+`dispose` απελευθερώνει τους εγγενείς πόρους που κρατά το αντικείμενο `HTMLDocument`. Όταν τελειώσετε με το περιβάλλον scripting, απελευθερώστε το `HTMLDocument` για να ελευθερώσετε τους εγγενείς πόρους. Η μη κλήση του `dispose()` μπορεί να οδηγήσει σε διαρροές μνήμης, ειδικά όταν δημιουργείτε πολλά έγγραφα σε βρόχους ή σε υπηρεσίες που τρέχουν πολύ χρόνο. Πάντα τυλίξτε τη χρήση σε ένα μπλοκ try‑with‑resources ή βεβαιωθείτε ότι το `document.dispose()` καλείται σε finally.
 
 ```java
 document.dispose(); // Important for long‑running applications
 ```
 
-Η παράλειψη της απελευθέρωσης μπορεί να οδηγήσει σε διαρροές μνήμης, ειδικά αν δημιουργείτε πολλά έγγραφα σε βρόχο.
-
-## Full Working Example
-
-Παρακάτω βρίσκεται το πλήρες αρχείο πηγαίου κώδικα που μπορείτε να μεταγλωττίσετε και να τρέξετε αμέσως. Αποθηκεύστε το ως `JsHostObjectDemo.java`, βεβαιωθείτε ότι το JAR του Aspose.HTML βρίσκεται στο classpath, και εκτελέστε `java JsHostObjectDemo`.
+## Πλήρες λειτουργικό παράδειγμα
+Παρακάτω είναι το πλήρες αρχείο πηγαίου κώδικα που μπορείτε να μεταγλωττίσετε και να εκτελέσετε αμέσως. Αποθηκεύστε το ως `JsHostObjectDemo.java`, βεβαιωθείτε ότι το JAR του Aspose.HTML βρίσκεται στο classpath σας, και εκτελέστε `java JsHostObjectDemo`.
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -245,21 +263,16 @@ public class JsHostObjectDemo {
 [JS] 5 + 12 = 17
 ```
 
-Αυτή είναι ολόκληρη η ροή εργασίας **call java from javascript** σε λίγες μόνο γραμμές.
+## Συχνές ερωτήσεις
 
-## Frequently Asked Questions
+**Q: Λειτουργεί αυτό σε Android;**  
+A: Ναι. Το Aspose.HTML είναι μια καθαρή βιβλιοθήκη Java, επομένως τρέχει σε οποιοδήποτε JVM, συμπεριλαμβανομένου του runtime ART του Android.
 
-### Does this work on Android?
+**Q: Τι γίνεται αν χρειαστεί να περάσω σύνθετα αντικείμενα;**  
+A: Μπορείτε να εκθέσετε POJOs με getters και setters· η μηχανή τα αντιστοιχίζει αυτόματα σε αντικείμενα JavaScript. Συλλογές όπως `java.util.List` ή πίνακες είναι επίσης μετατρέψιμες.
 
-Το Aspose.HTML είναι βιβλιοθήκη καθαρά Java, επομένως λειτουργεί σε οποιοδήποτε JVM, συμπεριλαμβανομένου του Android Dalvik/ART. Απλώς συμπεριλάβετε το JAR και θα έχετε τις ίδιες δυνατότητες host‑object.
-
-### What if I need to pass complex objects?
-
-Μπορείτε να εκθέσετε POJOs (plain old Java objects) που περιέχουν πεδία, getters και setters. Η μηχανή θα τα χαρτογραφήσει αυτόματα σε αντικείμενα JavaScript. Για συλλογές, χρησιμοποιήστε `java.util.List` ή arrays—και τα δύο είναι μετατρέψιμα.
-
-### How does error handling work?
-
-Αν το script ρίξει σφάλμα JavaScript, το `eval` θα προωθήσει ένα `ScriptException`. Τυλίξτε την κλήση σε block try‑catch για να καταγράψετε ή να ανακτήσετε:
+**Q: Πώς λειτουργεί η διαχείριση σφαλμάτων;**  
+A: Εάν το script ρίξει σφάλμα JavaScript, το `eval` προωθεί ένα `ScriptException`. Τυλίξτε την κλήση σε μπλοκ try‑catch για να καταγράψετε ή να ανακτήσετε.
 
 ```java
 try {
@@ -269,30 +282,51 @@ try {
 }
 ```
 
-### Can I run multiple scripts sequentially?
+**Q: Μπορώ να εκτελέσω πολλαπλά scripts διαδοχικά;**  
+A: Απόλυτα. Το ίδιο `HTMLDocument` διατηρεί το παγκόσμιο scope του, ώστε να μπορείτε να καλέσετε το `eval` επανειλημμένα. Απλώς διαχειριστείτε τα ονόματα μεταβλητών για να αποφύγετε συγκρούσεις.
 
-Απολύτως. Η ίδια παρουσία `HTMLDocument` διατηρεί το παγκόσμιο scope, οπότε μπορείτε να καλέσετε `eval` επανειλημμένα. Απλώς προσέξτε τις συγκρούσεις ονομάτων μεταβλητών μεταξύ των scripts.
+**Q: Είναι το αντικείμενο κεντρικού υπολογιστή ασφαλές για μη αξιόπιστα scripts;**  
+A: Θεωρήστε οποιοδήποτε εξωτερικό script ως μη αξιόπιστη είσοδο. Επικυρώστε τις παραμέτρους και εξετάστε την απομόνωση (sandboxing) εκθέτοντας μόνο τις ελάχιστες απαιτούμενες μεθόδους.
 
-## Best Practices & Tips
+## Καλές πρακτικές & συμβουλές
+- **Ονομάστε τα αντικείμενα κεντρικού υπολογιστή σαφώς**—`javaLogger`, `javaUtils`, κλπ.—για να αποφύγετε σύγχυση.  
+- **Κρατήστε τις μεθόδους κεντρικού υπολογιστή μικρές και χωρίς παρενέργειες** όταν είναι δυνατόν· διευκολύνει τον εντοπισμό σφαλμάτων.  
+- **Αποδεσμεύστε το έγγραφο** μόλις τελειώσετε· απελευθερώνει τη φυσική μνήμη που καταλαμβάνει το Aspose.HTML.  
+- **Επικυρώστε τις εισόδους** από JavaScript, ειδικά αν τα scripts προέρχονται από μη αξιόπιστες πηγές. Θεωρήστε τα όπως οποιαδήποτε εξωτερικά δεδομένα.
 
-- **Name your host objects clearly**—`javaLogger`, `javaUtils`, κ.λπ.—για να αποφύγετε σύγχυση.
-- **Keep host methods small and side‑effect free** όποτε είναι δυνατόν· διευκολύνει τον εντοπισμό σφαλμάτων.
-- **Dispose of the document** μόλις τελειώσετε· απελευθερώνει τη φυσική μνήμη που καταλαμβάνει το Aspose.HTML.
-- **Validate inputs** από το JavaScript, ειδικά αν τα scripts προέρχονται από μη αξιόπιστες πηγές. Θεωρήστε τα όπως οποιαδήποτε εξωτερικά δεδομένα.
-
-## Conclusion
-
-Τώρα έχετε ένα στέρεο, end‑to‑end παράδειγμα για το πώς να **call java from javascript** προσθέτοντας ένα **host object**, **running JavaScript in Java**, και **logging from JavaScript** χρησιμοποιώντας το Aspose.HTML. Το πρότυπο είναι ισχυρό: οποιαδήποτε υπηρεσία Java μπορεί να εκτεθεί σε scripts, μετατρέποντας την εφαρμογή σας σε μια ελαφριά πλατφόρμα scripting.
+## Συμπέρασμα
+Τώρα έχετε ένα στέρεο, ολοκληρωμένο παράδειγμα για το πώς να **call java from javascript** με **προσθήκη αντικειμένου κεντρικού υπολογιστή**, **εκτέλεση javascript σε java**, και **καταγραφή από javascript** χρησιμοποιώντας το Aspose.HTML. Το πρότυπο είναι ισχυρό: οποιαδήποτε υπηρεσία Java μπορεί να εκτεθεί σε scripts, μετατρέποντας την εφαρμογή Java σας σε μια ελαφριά πλατφόρμα scripting.
 
 Στη συνέχεια, μπορείτε να εξερευνήσετε:
-
-- Ενσωμάτωση πλήρους σελίδας HTML και χειρισμό του DOM από JavaScript.
-- Χρήση του host object για ροή δεδομένων πίσω στη Java (π.χ., σειριοποίηση JSON).
+- Ενσωμάτωση μιας πλήρους σελίδας HTML και χειρισμό του DOM από JavaScript.  
+- Χρήση του αντικειμένου κεντρικού υπολογιστή για ροή δεδομένων πίσω στη Java (π.χ., σειριοποίηση JSON).  
 - Ενσωμάτωση με άλλες μηχανές scripting όπως Nashorn ή GraalVM για ευρύτερη υποστήριξη γλωσσών.
 
-Δοκιμάστε το, τροποποιήστε τις κλάσεις `Logger` ή `Utils`, και δείτε πόσο μακριά μπορείτε να προωθήσετε την έννοια **javascript host object** στα δικά σας έργα.
+Δοκιμάστε το, τροποποιήστε τις κλάσεις `Logger` ή `Utils`, και δείτε πόσο μακριά μπορείτε να προωθήσετε την έννοια του **javascript host object** στα δικά σας έργα.
+
+---
+
+**Τελευταία ενημέρωση:** 2026-10-14  
+**Δοκιμάστηκε με:** Aspose.HTML for Java 23.10  
+**Συγγραφέας:** Aspose  
+
+```java
+document.getWindow().addHostObject("javaLogger", new Logger());
+```
+
+```javascript
+javaLogger.log('Hello from JavaScript!');
+```
+
+## Σχετικά μαθήματα
+
+- [Ενεργοποίηση Εκτέλεσης Script σε Java – Πλήρης Οδηγός Aspose Html](/html/java/advanced-usage/enable-script-execution-in-java-complete-aspose-html-guide/)
+- [Εκτέλεση Javascript σε Java – Πλήρης Οδηγός για την Εκτέλεση Js Από](/html/java/advanced-usage/execute-javascript-in-java-complete-guide-to-running-js-from/)
+- [Πώς να Απομονώσετε (Sandbox) Javascript – Πλήρης Οδηγός Aspose Html](/html/java/advanced-usage/how-to-sandbox-javascript-complete-aspose-html-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

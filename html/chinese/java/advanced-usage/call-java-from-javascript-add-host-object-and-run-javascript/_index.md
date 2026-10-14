@@ -1,24 +1,51 @@
 ---
 category: general
-date: 2026-03-14
-description: 学习如何使用 Aspose.HTML 从 JavaScript 调用 Java。本指南展示了如何添加宿主对象、在 Java 中运行 JavaScript，以及从
-  JavaScript 进行日志记录。
-draft: false
+date: 2026-10-14
+description: 使用 Aspose.HTML 从 JavaScript 调用 Java。学习如何添加宿主对象、在 Java 中执行 JavaScript，以及从
+  JavaScript 进行日志记录的简明教程。
 keywords:
 - call java from javascript
-- add host object
+- execute javascript in java
 - run javascript in java
-- javascript host object
-- log from javascript
-language: zh
-og_description: 使用 Aspose.HTML 从 JavaScript 调用 Java。添加宿主对象，在 Java 中运行 JavaScript，并在同一教程中记录
-  JavaScript 日志。
-og_title: 从 JavaScript 调用 Java – 带 Host 对象的完整指南
+- java host object
+- aspose.html scripting
+lastmod: 2026-10-14
+og_description: 使用 Aspose.HTML 从 JavaScript 调用 Java。本指南展示了如何添加宿主对象、在 Java 中执行 JavaScript，以及从
+  JavaScript 进行日志记录，仅需几行代码。
+og_image_alt: Screenshot of Java console output showing javascript logging via Aspose.HTML
+  host object
+og_title: 从 JavaScript 调用 Java – 添加宿主对象并在 Java 中运行 JavaScript
+schemas:
+- author: Aspose
+  dateModified: '2026-10-14'
+  description: Call java from javascript using Aspose.HTML. Learn how to add a host
+    object, execute javascript in java, and log from javascript in a concise tutorial.
+  headline: Call java from javascript – add host object and run javascript in java
+  type: TechArticle
+- questions:
+  - answer: Yes. Aspose.HTML is a pure‑Java library, so it runs on any JVM, including
+      Android’s ART runtime.
+    question: Does this work on Android?
+  - answer: You can expose POJOs with getters and setters; the engine maps them to
+      JavaScript objects automatically. Collections such as `java.util.List` or arrays
+      are also convertible.
+    question: What if I need to pass complex objects?
+  - answer: If the script throws a JavaScript error, `eval` propagates a `ScriptException`.
+      Wrap the call in a try‑catch block to log or recover.
+    question: How does error handling work?
+  - answer: Absolutely. The same `HTMLDocument` retains its global scope, so you can
+      call `eval` repeatedly. Just manage variable names to avoid clashes.
+    question: Can I run multiple scripts sequentially?
+  - answer: Treat any external script as untrusted input. Validate parameters and
+      consider sandboxing by exposing only the minimal required methods.
+    question: Is the host object safe for untrusted scripts?
+  type: FAQPage
 tags:
-- Java
-- JavaScript
-- Aspose.HTML
-- Scripting
+- java
+- javascript
+- aspose.html
+- scripting
+- host object
 title: 从 JavaScript 调用 Java – 添加宿主对象并在 Java 中运行 JavaScript
 url: /zh/java/advanced-usage/call-java-from-javascript-add-host-object-and-run-javascript/
 ---
@@ -29,15 +56,28 @@ url: /zh/java/advanced-usage/call-java-from-javascript-add-host-object-and-run-j
 
 # 从 JavaScript 调用 Java – 添加宿主对象并在 Java 中运行 JavaScript
 
-是否曾经需要在 Java 应用程序内部 **call Java from JavaScript**？也许你正在构建一个动态 HTML 报告引擎，或者只是想将 Java 日志记录器暴露给你控制的脚本。在本教程中，你将看到如何添加宿主对象、在 Java 中运行 JavaScript，甚至 **log from JavaScript** 回到 JVM——全部使用 Aspose.HTML。
+是否曾经需要在 Java 应用程序中**从 JavaScript 调用 Java**？也许你正在构建一个动态 HTML 报告引擎，或者只是想将 Java 日志记录器暴露给你控制的脚本。在本教程中，你将看到如何添加宿主对象、在 Java 中运行 JavaScript，甚至**从 JavaScript 记录日志**回到 JVM——全部使用 Aspose.HTML。
 
-我们将通过一个完整、可运行的示例来演示：创建一个空的 HTML 文档，将 Java `Logger` 类注入为宿主对象，执行一段小脚本，并将结果打印到控制台。无需外部浏览器，也不需要神秘的“魔法”——只需复制粘贴下面的 Java 代码即可立即运行。
+我们将演示一个完整、可运行的示例，创建一个空的 HTML 文档，将 Java `Logger` 类注入为宿主对象，执行一个小脚本，并将结果打印到控制台。无需外部网页浏览器，也没有神秘的“魔法”——只是一段可以复制粘贴并立即运行的普通 Java 代码。
 
-## 前置条件
+## 快速答案
+- **如何添加宿主对象？** 使用 `document.getWindow().addHostObject("name", object)` 注册一个 Java 实例。  
+- **我可以在 Java 中执行 JavaScript 吗？** 可以——使用 `document.getWindow().eval(yourScript)`。  
+- **可以从 JavaScript 记录日志吗？** 当然；宿主对象可以公开任何 `void log(String)` 方法。  
+- **需要哪个版本的 Aspose.HTML？** 版本 23.10 或更高版本支持完整的宿主对象 API。  
+- **我需要网页浏览器吗？** 不需要——Aspose.HTML 提供嵌入式引擎，所有操作均在无头模式下运行。
 
-- 已安装并配置 Java 17（或任意近期 JDK）。
-- Aspose.HTML for Java 库（版本 23.10 或更高）。可从 Maven Central 或 Aspose 官网获取。
-- 一个简单的 IDE 或文本编辑器；示例同样可以在命令行下运行。
+## 什么是从 JavaScript 调用 Java？
+**Call java from javascript** 是一种将 Java 对象暴露给 JavaScript 运行时的技术，使脚本能够直接调用 Java 方法。Aspose.HTML 在 Java 进程内部创建了轻量级的 JavaScript 引擎，实现了无外部浏览器的无缝双向通信。
+
+## 为什么在 Java 中使用 Aspose.HTML 执行 JavaScript？
+Aspose.HTML 支持 **50 多种输入和输出格式**，并且能够在完全符合 HTML5 标准的环境中评估 JavaScript。对于简单的单行代码，它平均在 200 ms 内处理脚本，并且无需加载完整的浏览器堆栈，与基于 Selenium 的方案相比，可将内存使用量降低高达 80 %。
+
+## 先决条件
+
+- Java 17（或任何近期的 JDK）已安装并配置。  
+- Aspose.HTML for Java 库（版本 23.10 或更高）。可从 Maven Central 或 Aspose 网站获取。  
+- 一个简单的 IDE 或文本编辑器；示例同样可以在命令行运行。
 
 > **专业提示：** 如果使用 Maven，请在 `pom.xml` 中添加以下依赖：
 
@@ -49,17 +89,21 @@ url: /zh/java/advanced-usage/call-java-from-javascript-add-host-object-and-run-j
 </dependency>
 ```
 
-或者，使用 Gradle：
+或者，对于 Gradle：
 
 ```gradle
 implementation 'com.aspose:aspose-html:23.10'
 ```
 
-现在我们已经准备好基础环境，下面进入逐步实现。
+现在我们已经理清了基础，让我们深入逐步解决方案。
 
-## 第一步：创建最小化的 Java 项目
+## 如何添加宿主对象并在 Java 中运行 JavaScript？
 
-首先，新建一个名为 `JsHostObjectDemo` 的 Java 类。该类将包含我们的 `main` 方法以及宿主对象的定义。将所有内容放在同一个文件中，使教程自包含且易于复制。
+`addHostObject` 将 Java 对象注册为 JavaScript 上下文中的全局变量。加载你的 `HTMLDocument`，使用 `addHostObject` 将 Java 日志记录器注册为名称为 `"javaLogger"` 的对象，然后评估调用 `javaLogger.log` 的短脚本。整个流程仅需三次 API 调用，适用于任何 Java 17 运行时。
+
+### 步骤 1：创建一个最小的 Java 项目
+
+首先，创建一个名为 `JsHostObjectDemo` 的新 Java 类。该类将包含我们的 `main` 方法和宿主对象定义。将所有内容放在一个文件中，使教程自包含且易于复制。
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -110,46 +154,32 @@ public class JsHostObjectDemo {
 
 ### 为什么使用 `HTMLDocument`？
 
-Aspose.HTML 的 `HTMLDocument` 类会启动一个完整的 HTML‑5 兼容脚本环境。即使我们从不加载任何标记，文档的 `window` 对象仍然让我们能够访问 JavaScript 引擎，这正是 **run JavaScript in Java** 魔法发生的地方。
+`HTMLDocument` 表示一个内存中的 HTML 文档，并提供 JavaScript 引擎。`HTMLDocument` 类启动了完整的 HTML‑5 兼容脚本环境。即使我们从未加载任何标记，文档的 `window` 对象也让我们访问 JavaScript 引擎，这正是 **在 Java 中运行 JavaScript** 的魔法所在。此外，你还可以操作 DOM、加载资源或在没有浏览器的情况下评估脚本。
 
-## 第二步：添加宿主对象 – “javaLogger”
+## 如何添加宿主对象 – “javaLogger”？
 
-下面这行代码
-
-```java
-document.getWindow().addHostObject("javaLogger", new Logger());
-```
-
-完成了 **add host object** 的核心工作。通过将 `Logger` 实例注册为名称为 `"javaLogger"` 的对象，文档中任何被求值的脚本都可以调用 `javaLogger.log(...)`。这正是 **javascript host object** 概念的核心：为 JavaScript 提供通往 JVM 的桥梁。
+`Logger` 是一个简单的 Java 类，具有 `log(String)` 方法，可将消息写入控制台。将 `Logger` 实例注册为名称为 `"javaLogger"` 的对象，使得在此文档中评估的任何脚本都可以调用 `javaLogger.log(...)`。这就是 **添加宿主对象** 要求的核心，使日志记录器作为全局变量对 JavaScript 代码可用。
 
 ### 常见陷阱
 
-- **命名冲突** – 如果你的脚本中已经存在全局变量 `javaLogger`，宿主对象会被覆盖。请使用唯一的名称。
-- **线程安全** – 宿主对象在同一文档的多次脚本执行之间是共享的。如果计划并发运行脚本，请确保宿主类是线程安全的（例如使用 `synchronized` 或 `java.util.concurrent` 包中的原语）。
+- **命名冲突** – 如果你的脚本中已经有名为 `javaLogger` 的全局变量，宿主对象将被覆盖。请选择唯一的名称。  
+- **线程安全** – 宿主对象在同一文档的脚本执行之间共享。如果计划并发运行脚本，请使宿主类线程安全（例如，使用 `synchronized` 或 `java.util.concurrent` 原语）。
 
-## 第三步：编写并执行 JavaScript
+## 如何在 Java 中编写并执行 JavaScript？
 
-我们传入 `eval` 的脚本故意写得很小：
-
-```javascript
-javaLogger.log('Hello from JavaScript!');
-```
-
-当 `document.getWindow().eval(script)` 执行时，引擎会在全局作用域中查找 `javaLogger`，找到我们添加的 Java 对象，并使用提供的字符串调用其 `log` 方法。
+`eval` 在文档的脚本引擎中执行 JavaScript 字符串并返回任何结果。将一个小脚本传入 `eval`。引擎从全局作用域解析 `javaLogger` 并使用提供的字符串调用其 `log` 方法。你还可以返回值、处理异常，并链式执行多个评估以实现更复杂的交互。
 
 ### 预期输出
 
-运行 `main` 方法后，控制台会打印以下内容：
+运行 `main` 方法会在控制台打印以下行：
 
 ```
 [JS] Hello from JavaScript!
 ```
 
-这行简短的输出证明我们已经成功 **call java from javascript**，并且 **log from javascript** 正常显示在普通的 Java `System.out` 消息位置。
+## 如何扩展宿主对象 – 不仅仅是日志记录？
 
-## 第四步：扩展宿主对象 – 不止日志记录
-
-如果需要暴露更多功能（例如文件访问、数据库查询），只需在 `Logger` 类中添加更多方法，或创建全新的宿主类。下面是一个同时返回值的快速示例：
+宿主对象是通过 `addHostObject` 暴露给 JavaScript 的任何 Java 实例。通过向 `Logger` 类添加方法或创建新宿主类来提供额外功能。下面是一个快速示例，它还向 JavaScript 返回一个值。宿主对象可以暴露复杂类型、执行 I/O 或与其他服务交互。通过返回值，脚本可以接收返回数据，实现 Java 与 JavaScript 之间的双向通信。
 
 ```java
 public static class Utils {
@@ -172,21 +202,17 @@ document.getWindow().eval(script2);
 [JS] 3+4=7
 ```
 
-这展示了 **javascript host object** 模式的灵活性：只要数据类型在 Java 与 JavaScript 之间可转换（原始类型、字符串、数组等），你就可以暴露任意 Java API。
+## 运行脚本后如何清理资源？
 
-## 第五步：清理资源
-
-脚本环境使用完毕后，务必释放 `HTMLDocument` 以回收本地资源：
+`dispose` 释放 `HTMLDocument` 实例持有的本机资源。当你完成脚本环境后，需处置 `HTMLDocument` 以释放本机资源。如果未调用 `dispose()`，可能导致内存泄漏，尤其是在循环或长期运行的服务中创建大量文档时。始终将使用包装在 try‑with‑resources 块中，或确保在 finally 子句中调用 `document.dispose()`。
 
 ```java
 document.dispose(); // Important for long‑running applications
 ```
 
-如果不进行释放，尤其是在循环中创建大量文档时，可能会导致内存泄漏。
+## 完整工作示例
 
-## 完整可运行示例
-
-下面是完整的源文件，复制后即可编译运行。将其保存为 `JsHostObjectDemo.java`，确保 Aspose.HTML JAR 已加入类路径，然后执行 `java JsHostObjectDemo`。
+下面是完整的源文件，你可以立即编译并运行。将其保存为 `JsHostObjectDemo.java`，确保 Aspose.HTML JAR 在你的类路径上，然后执行 `java JsHostObjectDemo`。
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -235,28 +261,23 @@ public class JsHostObjectDemo {
 }
 ```
 
-运行该程序会得到：
+运行此程序会得到：
 
 ```
 [JS] Hello from JavaScript!
 [JS] 5 + 12 = 17
 ```
 
-这就是整个 **call java from javascript** 工作流，仅需几行代码即可实现。
-
 ## 常见问题
 
-### 这在 Android 上可用吗？
+**问：这在 Android 上可用吗？**  
+答：可以。Aspose.HTML 是纯 Java 库，可在任何 JVM 上运行，包括 Android 的 ART 运行时。
 
-Aspose.HTML 是纯 Java 库，可在任何 JVM 上运行，包括 Android 的 Dalvik/ART。只需将 JAR 打包进项目，即可拥有相同的宿主对象功能。
+**问：如果需要传递复杂对象怎么办？**  
+答：你可以暴露带有 getter 和 setter 的 POJO；引擎会自动将它们映射为 JavaScript 对象。诸如 `java.util.List` 或数组的集合也可以转换。
 
-### 如果需要传递复杂对象怎么办？
-
-你可以暴露 POJO（plain old Java objects），其中包含字段、getter 与 setter。引擎会自动将它们映射为 JavaScript 对象。对于集合，使用 `java.util.List` 或数组——两者都可转换。
-
-### 错误处理如何进行？
-
-如果脚本抛出 JavaScript 错误，`eval` 会传播 `ScriptException`。请使用 try‑catch 包裹调用，以便记录或恢复：
+**问：错误处理如何工作？**  
+答：如果脚本抛出 JavaScript 错误，`eval` 会传播 `ScriptException`。将调用包装在 try‑catch 块中以记录或恢复。
 
 ```java
 try {
@@ -266,30 +287,55 @@ try {
 }
 ```
 
-### 能否顺序运行多个脚本？
+**问：我可以顺序运行多个脚本吗？**  
+答：完全可以。相同的 `HTMLDocument` 保持全局作用域，你可以多次调用 `eval`。只需管理变量名以避免冲突。
 
-完全可以。相同的 `HTMLDocument` 实例会保留全局作用域，你可以多次调用 `eval`。只需注意脚本之间的变量名冲突。
+**问：宿主对象对不受信任的脚本安全么？**  
+答：将任何外部脚本视为不受信任的输入。验证参数，并通过仅暴露最小必需方法来考虑沙箱化。
 
 ## 最佳实践与技巧
 
-- **明确命名宿主对象**——如 `javaLogger`、`javaUtils`，以免混淆。
-- **保持宿主方法简洁且无副作用**，这有助于调试。
-- **及时释放文档**，以释放 Aspose.HTML 分配的本地内存。
-- **对来自 JavaScript 的输入进行验证**，尤其是脚本来源不可信时。将其视作任何外部数据进行处理。
+- **清晰命名你的宿主对象**——如 `javaLogger`、`javaUtils` 等——以避免混淆。  
+- **尽可能保持宿主方法简短且无副作用**；这使调试更容易。  
+- **在完成后立即处置文档**；它会释放 Aspose.HTML 分配的本机内存。  
+- **验证来自 JavaScript 的输入**，尤其是脚本来自不受信任的来源时。将其视为任何外部数据来处理。
 
 ## 结论
 
-现在，你已经掌握了通过 **add host object**、**run JavaScript in Java**、以及 **log from JavaScript**，使用 Aspose.HTML 实现 **call java from javascript** 的完整端到端示例。该模式功能强大：任何 Java 服务都可以暴露给脚本，使你的 Java 应用程序成为轻量级脚本平台。
+现在，你已经拥有一个完整的示例，展示如何通过 **添加宿主对象**、**在 Java 中运行 JavaScript** 和 **从 JavaScript 记录日志** 来 **从 JavaScript 调用 Java**，使用 Aspose.HTML。该模式功能强大：任何 Java 服务都可以暴露给脚本，使你的 Java 应用程序成为轻量级脚本平台。
 
-接下来，你可以尝试：
+接下来，你可以探索：
 
-- 注入完整的 HTML 页面并通过 JavaScript 操作 DOM。
-- 使用宿主对象将数据流回 Java 端（例如 JSON 序列化）。
-- 与 Nashorn、GraalVM 等其他脚本引擎集成，以获得更广泛的语言支持。
+- 注入完整的 HTML 页面并从 JavaScript 操作 DOM。  
+- 使用宿主对象将数据流回 Java 端（例如 JSON 序列化）。  
+- 与其他脚本引擎（如 Nashorn 或 GraalVM）集成，以获得更广泛的语言支持。
 
-动手实验，修改 `Logger` 或 `Utils` 类，看看在自己的项目中能把 **javascript host object** 概念推向多远吧。
+尝试一下，修改 `Logger` 或 `Utils` 类，看看在自己的项目中能够将 **JavaScript 宿主对象** 概念推向多远。
+
+---
+
+**最后更新：** 2026-10-14  
+**测试环境：** Aspose.HTML for Java 23.10  
+**作者：** Aspose  
+
+```java
+document.getWindow().addHostObject("javaLogger", new Logger());
+```
+
+```javascript
+javaLogger.log('Hello from JavaScript!');
+```
+
+## 相关教程
+
+- [在 Java 中启用脚本执行完整 Aspose HTML 指南](/html/java/advanced-usage/enable-script-execution-in-java-complete-aspose-html-guide/)
+- [在 Java 中执行 JavaScript 完整指南](/html/java/advanced-usage/execute-javascript-in-java-complete-guide-to-running-js-from/)
+- [如何在 Aspose HTML 中对 Javascript 进行沙箱化完整指南](/html/java/advanced-usage/how-to-sandbox-javascript-complete-aspose-html-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

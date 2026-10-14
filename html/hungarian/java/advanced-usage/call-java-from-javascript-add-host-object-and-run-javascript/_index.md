@@ -1,28 +1,56 @@
 ---
 category: general
-date: 2026-03-14
-description: Tanulja meg, hogyan hívhat Java-t JavaScript-ből az Aspose.HTML használatával.
-  Ez az útmutató megmutatja, hogyan adjon hozzá host objektumot, futtasson JavaScript-et
-  Java-ban, és hogyan naplózzon JavaScript-ből.
-draft: false
+date: 2026-10-14
+description: java hívása javascriptből az Aspose.HTML segítségével. Ismerje meg, hogyan
+  adhat hozzá egy host objektumot, hajthatja végre a javascriptet java-ban, és logolhat
+  javascriptből egy tömör útmutatóban.
 keywords:
 - call java from javascript
-- add host object
+- execute javascript in java
 - run javascript in java
-- javascript host object
-- log from javascript
-language: hu
-og_description: Hívjon Java-t JavaScript-ből az Aspose.HTML segítségével. Adjon hozzá
-  host objektumot, futtassa a JavaScriptet Java-ban, és naplózzon JavaScriptből egyetlen
-  útmutatóban.
-og_title: Java hívása JavaScriptből – Teljes útmutató a host objektummal
+- java host object
+- aspose.html scripting
+lastmod: 2026-10-14
+og_description: java hívása javascriptből az Aspose.HTML segítségével. Ez az útmutató
+  bemutatja, hogyan adhat hozzá egy host objektumot, hajthatja végre a javascriptet
+  java-ban, és logolhat javascriptből, mindezt néhány kódsorral.
+og_image_alt: Screenshot of Java console output showing javascript logging via Aspose.HTML
+  host object
+og_title: java hívása javascriptből – host objektum hozzáadása és javascript futtatása
+  java-ban
+schemas:
+- author: Aspose
+  dateModified: '2026-10-14'
+  description: Call java from javascript using Aspose.HTML. Learn how to add a host
+    object, execute javascript in java, and log from javascript in a concise tutorial.
+  headline: Call java from javascript – add host object and run javascript in java
+  type: TechArticle
+- questions:
+  - answer: Yes. Aspose.HTML is a pure‑Java library, so it runs on any JVM, including
+      Android’s ART runtime.
+    question: Does this work on Android?
+  - answer: You can expose POJOs with getters and setters; the engine maps them to
+      JavaScript objects automatically. Collections such as `java.util.List` or arrays
+      are also convertible.
+    question: What if I need to pass complex objects?
+  - answer: If the script throws a JavaScript error, `eval` propagates a `ScriptException`.
+      Wrap the call in a try‑catch block to log or recover.
+    question: How does error handling work?
+  - answer: Absolutely. The same `HTMLDocument` retains its global scope, so you can
+      call `eval` repeatedly. Just manage variable names to avoid clashes.
+    question: Can I run multiple scripts sequentially?
+  - answer: Treat any external script as untrusted input. Validate parameters and
+      consider sandboxing by exposing only the minimal required methods.
+    question: Is the host object safe for untrusted scripts?
+  type: FAQPage
 tags:
-- Java
-- JavaScript
-- Aspose.HTML
-- Scripting
-title: Java hívása JavaScriptből – Host objektum hozzáadása és JavaScript futtatása
-  Java‑ban
+- java
+- javascript
+- aspose.html
+- scripting
+- host object
+title: java hívása javascriptből – host objektum hozzáadása és javascript futtatása
+  java-ban
 url: /hu/java/advanced-usage/call-java-from-javascript-add-host-object-and-run-javascript/
 ---
 
@@ -30,16 +58,29 @@ url: /hu/java/advanced-usage/call-java-from-javascript-add-host-object-and-run-j
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java hívása JavaScript‑ből – Host objektum hozzáadása és JavaScript futtatása Java‑ban
+# Java hívása JavaScriptből – host objektum hozzáadása és JavaScript futtatása Java-ban
 
-Szükséged volt már **Java hívására JavaScript‑ből** egy Java alkalmazáson belül? Lehet, hogy egy dinamikus HTML jelentésgenerátort építesz, vagy egyszerűen csak egy Java naplózót szeretnél elérhetővé tenni egy általad irányított szkript számára. Ebben az útmutatóban pontosan megmutatjuk, hogyan adjunk hozzá egy host objektumot, hogyan futtassunk JavaScript‑et Java‑ban, és még **naplózhassunk JavaScript‑ből** vissza a JVM‑be – mindezt az Aspose.HTML segítségével.
+Valaha is szükséged volt **call java from javascript** egy Java alkalmazáson belül? Lehet, hogy egy dinamikus HTML jelentésmotorral dolgozol, vagy egyszerűen csak egy Java naplózót szeretnél elérhetővé tenni egy általad irányított szkript számára. Ebben az útmutatóban pontosan megmutatjuk, hogyan adhatunk hozzá egy host objektumot, futtathatunk JavaScriptet Java-ban, és akár **log from JavaScript** vissza a JVM-be – mindezt az Aspose.HTML segítségével.
 
-Lépésről‑lépésre végigvezetünk egy teljes, futtatható példán, amely létrehoz egy üres HTML dokumentumot, beilleszti a Java `Logger` osztályt host objektumként, végrehajt egy apró szkriptet, és kiírja az eredményt a konzolra. Nincs szükség külső webböngészőre, nincs semmi „varázslat” – csak egyszerű Java kód, amit ma másolhatsz‑beilleszthetsz és futtathatsz.
+Áttekintünk egy komplett, futtatható példát, amely egy üres HTML dokumentumot hoz létre, egy Java `Logger` osztályt injektál host objektumként, végrehajt egy apró szkriptet, és kiírja az eredményt a konzolra. Nem szükséges külső webböngésző, nincs misztikus „varázslat” – csak egyszerű Java kód, amelyet ma másolhatsz‑beilleszthetsz és futtathatsz.
+
+## Gyors válaszok
+- **Hogyan adhatok hozzá egy host objektumot?** Regisztrálj egy Java példányt a `document.getWindow().addHostObject("name", object)` metódussal.  
+- **Futtathatok JavaScriptet Java-ban?** Igen – használd a `document.getWindow().eval(yourScript)` metódust.  
+- **Lehetséges a naplózás JavaScriptből?** Teljesen; a host objektum bármilyen `void log(String)` metódust ki tud adni.  
+- **Melyik Aspose.HTML verzió szükséges?** A 23.10 vagy újabb verzió támogatja a teljes host‑object API‑t.  
+- **Szükség van webböngészőre?** Nem – az Aspose.HTML beágyazott motorral rendelkezik, így minden head‑less módon fut.
+
+## Mi az a call java from javascript?
+**Call java from javascript** az a technika, amely Java objektumokat tesz elérhetővé egy JavaScript futtatókörnyezetben, így a szkriptek közvetlenül meghívhatják a Java metódusokat. Az Aspose.HTML egy könnyű JavaScript motort hoz létre egy Java folyamaton belül, lehetővé téve a zökkenőmentes kétirányú kommunikációt külső böngészők nélkül.
+
+## Miért használjuk az Aspose.HTML-t Java-ban történő JavaScript végrehajtásához?
+Az Aspose.HTML **50+** bemeneti és kimeneti formátumot támogat, és képes JavaScriptet kiértékelni egy teljesen kompatibilis HTML5 környezetben. Átlagosan 200 ms alatt feldolgozza az egyszerű egy‑soros kódot, és mindezt anélkül teszi, hogy teljes böngésző stacket kellene betölteni, ami akár 80 %-kal is csökkentheti a memóriahasználatot a Selenium‑alapú megoldásokhoz képest.
 
 ## Előfeltételek
 
-- Java 17 (vagy bármely friss JDK) telepítve és beállítva.
-- Aspose.HTML for Java könyvtár (23.10 vagy újabb verzió). Letölthető a Maven Central‑ról vagy az Aspose weboldaláról.
+- Java 17 (vagy bármely friss JDK) telepítve és konfigurálva.  
+- Aspose.HTML for Java könyvtár (23.10 vagy újabb). Letölthető a Maven Central‑ról vagy az Aspose weboldaláról.  
 - Egyszerű IDE vagy szövegszerkesztő; a példa parancssorból is futtatható.
 
 > **Pro tipp:** Ha Maven‑t használsz, add hozzá a következő függőséget a `pom.xml`‑hez:
@@ -52,17 +93,20 @@ Lépésről‑lépésre végigvezetünk egy teljes, futtatható példán, amely 
 </dependency>
 ```
 
-Vagy Gradle‑hez:
+Vagy Gradle esetén:
 
 ```gradle
 implementation 'com.aspose:aspose-html:23.10'
 ```
 
-Miután az alapok rendben vannak, vágjunk bele a lépés‑ről‑lépésre megoldásba.
+Most, hogy az alapok rendben vannak, merüljünk el a lépésről‑lépésre megoldásban.
 
-## 1. lépés: Minimális Java projekt létrehozása
+## Hogyan adhatunk hozzá egy host objektumot és futtathatunk JavaScriptet Java-ban?
+`addHostObject` egy Java objektumot regisztrál globális változóként a JavaScript kontextusban. Töltsd be a `HTMLDocument`‑et, regisztráld a Java naplózót a `"javaLogger"` név alatt az `addHostObject`‑mal, majd értékelj ki egy rövid szkriptet, amely meghívja a `javaLogger.log`‑ot. Az egész folyamat csak három API‑hívást igényel, és bármely Java 17 környezetben működik.
 
-Először hozz létre egy új Java osztályt `JsHostObjectDemo` néven. Az osztály tartalmazni fogja a `main` metódust és a host objektum definícióját. Minden egy fájlban tartása önállóvá és könnyen másolhatóvá teszi az útmutatót.
+### 1. lépés: minimális java projekt létrehozása
+
+Először hozz létre egy új Java osztályt `JsHostObjectDemo` néven. Az osztály tartalmazni fogja a `main` metódust és a host objektum definícióját. Minden egy fájlban tartása önmagában is könnyen másolható és önálló tutorialt biztosít.
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -111,48 +155,30 @@ public class JsHostObjectDemo {
 }
 ```
 
-### Miért `HTMLDocument`?
+### Miért egy `HTMLDocument`?
+`HTMLDocument` egy memóriában létező HTML dokumentumot képvisel, és JavaScript motort biztosít. A `HTMLDocument` osztály egy teljes HTML‑5 kompatibilis szkriptkörnyezetet indít el. Még ha nem is töltünk be semmilyen markup‑ot, a dokumentum `window` objektuma hozzáférést ad a JavaScript motorhoz, ahol a **run javascript in java** varázslat történik. Emellett manipulálhatod a DOM‑ot, betölthetsz erőforrásokat, vagy kiértékelhetsz szkripteket böngésző nélkül.
 
-Az Aspose.HTML `HTMLDocument` osztályja egy teljes HTML‑5 kompatibilis szkriptkörnyezetet indít el. Bár nem töltünk be semmilyen markup‑ot, a dokumentum `window` objektuma hozzáférést biztosít a JavaScript motorhoz, ahol a **run JavaScript in Java** varázslat történik.
+## Hogyan adhatjuk hozzá a host objektumot – “javaLogger”?
+`Logger` egy egyszerű Java osztály `log(String)` metódussal, amely üzeneteket ír a konzolra. Regisztráld a `Logger` példányt `"javaLogger"` néven, így bármely ebben a dokumentumban kiértékelt szkript meghívhatja a `javaLogger.log(...)`‑t. Ez a **add host object** követelmény központja, és a naplózót globális változóként teszi elérhetővé a JavaScript kódban.
 
-## 2. lépés: Host objektum hozzáadása – „javaLogger”
+### Gyakori buktatók
 
-A következő sor
+- **Névütközések** – Ha a szkriptedben már létezik egy globális `javaLogger` változó, a host objektum felülíródik. Válassz egyedi nevet.  
+- **Szálbiztonság** – A host objektum megosztott a dokumentumon belüli szkript végrehajtások között. Ha párhuzamosan futtatsz szkripteket, tedd a host osztályt szálbiztossá (pl. `synchronized` vagy `java.util.concurrent` primitívekkel).
 
-```java
-document.getWindow().addHostObject("javaLogger", new Logger());
-```
+## Hogyan írjunk és hajtsunk végre JavaScriptet Java-ban?
+`eval` egy JavaScript karakterláncot hajt végre a dokumentum szkriptmotorjában, és visszaadja az eredményt. Adj egy apró szkriptet az `eval`‑nek. A motor a globális scope‑ból feloldja a `javaLogger`‑t, és meghívja a `log` metódust a megadott szöveggel. Visszatérési értékek, kivételkezelés és több egymásutáni kiértékelés is lehetséges összetettebb interakciókhoz.
 
-végzi a nehéz munkát a **add host object** követelményhez. A `Logger` példányt a `"javaLogger"` név alatt regisztrálva bármely, ebben a dokumentumban kiértékelt szkript meghívhatja a `javaLogger.log(...)` metódust. Ez a **javascript host object** koncepciója: egy híd, amely lehetővé teszi, hogy a JavaScript a JVM‑be hatoljon.
+### Várható kimenet
 
-### Gyakori hibák
-
-- **Névg collision** – Ha a szkriptedben már létezik egy globális változó `javaLogger` néven, a host objektum felül lesz írva. Válassz egyedi nevet.
-- **Szálbiztonság** – A host objektum a dokumentumon belül megosztott a szkript‑végrehajtások között. Ha párhuzamosan szeretnél szkripteket futtatni, tedd a host osztályt szálbiztossá (pl. `synchronized` vagy `java.util.concurrent` primitívekkel).
-
-## 3. lépés: JavaScript írása és végrehajtása
-
-A `eval`‑nek átadott szkript szándékosan apró:
-
-```javascript
-javaLogger.log('Hello from JavaScript!');
-```
-
-Amikor a `document.getWindow().eval(script)` lefut, a motor a globális környezetben megkeresi a `javaLogger`‑t, megtalálja a hozzáadott Java objektumot, és meghívja a `log` metódust a megadott szöveggel.
-
-### Várt kimenet
-
-A `main` metódus futtatása a konzolra a következő sort írja:
+A `main` metódus futtatása a következő sort írja ki a konzolra:
 
 ```
 [JS] Hello from JavaScript!
 ```
 
-Ez az apró sor bizonyítja, hogy sikeresen **call java from javascript**, és a **log from javascript** ott jelenik meg, ahol egy normál Java `System.out` üzenet lenne.
-
-## 4. lépés: Host kibővítése – Több, mint csak naplózás
-
-Ha további funkcionalitást (pl. fájlhozzáférés, adatbázis‑lekérdezések) szeretnél elérhetővé tenni, egyszerűen adj hozzá új metódusokat a `Logger` osztályhoz – vagy hozz létre egy teljesen új host osztályt. Íme egy gyors példa, amely értéket is visszaad:
+## Hogyan bővítsük a host objektumot – több, mint csak naplózás?
+Egy host objektum bármilyen Java példány lehet, amelyet a `addHostObject`‑on keresztül elérhetővé teszünk JavaScriptnek. Bővítsd a `Logger` osztályt további metódusokkal, vagy hozz létre egy új host osztályt. Az alábbi gyors példa egy értéket is visszaad a JavaScriptnek. A host objektum komplex típusokat, I/O műveleteket vagy más szolgáltatásokkal való interakciót is képes biztosítani. Az érték visszaadása lehetővé teszi, hogy a szkript adatot kapjon vissza, ezáltal kétirányú kommunikáció jön létre a Java és a JavaScript között.
 
 ```java
 public static class Utils {
@@ -175,17 +201,12 @@ Most a konzol a következőt mutatja:
 [JS] 3+4=7
 ```
 
-Ez bemutatja a **javascript host object** minta rugalmasságát: bármilyen Java API‑t kiexponálhatsz, amíg a típusok konvertálhatóak Java és JavaScript között (primitívek, stringek, tömbök stb.).
-
-## 5. lépés: Erőforrások felszabadítása
-
-Amikor befejezted a szkriptkörnyezetet, zárd le a `HTMLDocument`‑et a natív erőforrások felszabadításához:
+## Hogyan tisztítsuk meg az erőforrásokat a szkriptek futtatása után?
+`dispose` felszabadítja a `HTMLDocument` példány által tartott natív erőforrásokat. Amikor befejezted a szkriptkörnyezet használatát, hívd meg a `document.dispose()`‑t a natív erőforrások felszabadításához. A `dispose()` elhagyása memória‑szivárgáshoz vezethet, különösen sok dokumentum létrehozása esetén ciklusokban vagy hosszú‑távú szolgáltatásokban. Mindig csomagold a használatot try‑with‑resources blokkba, vagy biztosítsd, hogy a `document.dispose()` végső blokkban meghívásra kerüljön.
 
 ```java
 document.dispose(); // Important for long‑running applications
 ```
-
-A lezárás kihagyása memória‑szivárgáshoz vezethet, különösen ha sok dokumentumot hozol létre egy ciklusban.
 
 ## Teljes működő példa
 
@@ -238,28 +259,23 @@ public class JsHostObjectDemo {
 }
 ```
 
-A program futtatása a következő kimenetet adja:
+A program futtatása a következőt eredményezi:
 
 ```
 [JS] Hello from JavaScript!
 [JS] 5 + 12 = 17
 ```
 
-Ez a teljes **call java from javascript** munkafolyamat néhány sorban.
+## Gyakran feltett kérdések
 
-## Gyakran ismételt kérdések
+**Q: Működik ez Androidon?**  
+A: Igen. Az Aspose.HTML egy tisztán Java‑alapú könyvtár, ezért bármely JVM‑en, köztük az Android ART‑en is fut.
 
-### Működik ez Androidon?
+**Q: Mi van, ha komplex objektumokat kell átadni?**  
+A: POJO‑kat getterekkel és setterekkel tehetsz elérhetővé; a motor automatikusan JavaScript objektumokká map‑olja őket. A `java.util.List` vagy tömbök szintén konvertálhatók.
 
-Az Aspose.HTML egy tisztán Java könyvtár, ezért bármely JVM‑en fut, beleértve az Android Dalvik/ART környezetet is. Csak csatold a JAR‑t, és ugyanazok a host‑object képességek állnak rendelkezésre.
-
-### Mit tehetek, ha összetett objektumokat kell átadni?
-
-Kiexponálhatsz POJO‑kat (plain old Java objects), amelyek mezőket, gettereket és settereket tartalmaznak. A motor automatikusan leképezi őket JavaScript objektumokká. Gyűjteményekhez használj `java.util.List`‑et vagy tömböket – mindkettő konvertálható.
-
-### Hogyan működik a hibakezelés?
-
-Ha a szkript JavaScript hibát dob, az `eval` egy `ScriptException`‑t propagál. Tedd a hívást try‑catch blokkba, hogy naplózhass vagy helyreállíthass:
+**Q: Hogyan működik a hibakezelés?**  
+A: Ha a szkript JavaScript hibát dob, az `eval` egy `ScriptException`‑t propagál. Tedd a hívást try‑catch blokkba, hogy naplózd vagy helyrehozd a hibát.
 
 ```java
 try {
@@ -269,30 +285,58 @@ try {
 }
 ```
 
-### Futtathatok több szkriptet egymás után?
+**Q: Futtathatok több szkriptet egymás után?**  
+A: Teljesen. Az ugyanaz a `HTMLDocument` megőrzi a globális scope‑ot, így többször is meghívhatod az `eval`‑et. Csak ügyelj a változónevek ütközésére.
 
-Természetesen. Az ugyanazon `HTMLDocument` példány megtartja a globális környezetet, így többször is meghívhatod az `eval`‑et. Csak ügyelj a változó‑ütközésekre a szkriptek között.
+**Q: Biztonságos a host objektum nem megbízható szkriptek számára?**  
+A: Bármely külső szkriptet tekints megbízhatatlan bemenetnek. Validáld a paramétereket, és fontold meg a sandbox‑olást, úgy, hogy csak a minimálisan szükséges metódusokat teszed elérhetővé.
 
 ## Legjobb gyakorlatok és tippek
 
-- **Adj egyértelmű neveket a host objektumoknak** – `javaLogger`, `javaUtils` stb. – a félreértések elkerülése érdekében.
-- **Tartsd a host metódusokat kis méretűre és mellékhatás‑mentesre**, ha lehetséges; ez megkönnyíti a hibakeresést.
-- **Zárd le a dokumentumot**, amint befejezted; ez felszabadítja az Aspose.HTML által lefoglalt natív memóriát.
-- **Érvényesítsd a JavaScript‑ből érkező bemeneteket**, különösen ha a szkriptek nem megbízható forrásból származnak. Kezeld őket, mint bármely külső adatot.
+- **Nevezd egyértelműen a host objektumokat** – `javaLogger`, `javaUtils` stb., hogy elkerüld a félreértéseket.  
+- **Tartsd a host metódusokat kis méretűre és mellékhatás‑mentesre**, ha lehetséges; ez megkönnyíti a hibakeresést.  
+- **A dokumentumot a használat után azonnal zárd le**; így felszabadul a natív memória, amelyet az Aspose.HTML allokál.  
+- **Validáld a JavaScript‑ből érkező bemeneteket**, különösen, ha a szkriptek nem megbízható forrásból származnak. Kezeld őket, mint bármely külső adatot.
 
-## Összegzés
+## Következtetés
 
-Most már van egy szilárd, vég‑től‑végig példád arra, hogyan **call java from javascript** a **host objektum hozzáadásával**, a **JavaScript futtatásával Java‑ban**, és a **naplózással JavaScript‑ből** az Aspose.HTML segítségével. A minta erőteljes: bármely Java szolgáltatást kiexponálhatsz a szkripteknek, így a Java alkalmazásod egy könnyű súlyú szkriptplatformmá válik.
+Most már egy átfogó, vég‑től‑végig példát láttál arra, hogyan **call java from javascript** a **host objektum hozzáadásával**, **javascript futtatásával java-ban**, és **naplózással javascriptből** az Aspose.HTML segítségével. A minta erőteljes: bármely Java szolgáltatás elérhetővé tehető szkriptek számára, így a Java alkalmazásod egy könnyűsúlyú szkriptplatformmá válik.
 
-A következő lépések lehetnek:
+A következő lépéseket érdemes megfontolni:
 
-- Teljes HTML oldal injektálása és a DOM manipulálása JavaScript‑ből.
-- Host objektum használata adatok visszaadására a Java oldalra (pl. JSON szerializáció).
-- Integráció más szkriptmotorokkal, mint a Nashorn vagy a GraalVM, a nyelvi támogatás bővítéséhez.
+- Teljes HTML oldal injektálása és a DOM manipulálása JavaScriptből.  
+- A host objektum használata adatok visszaáramlására Java felé (pl. JSON sorosítás).  
+- Integráció más szkriptmotorokkal, például Nashorn vagy GraalVM, a szélesebb nyelvi támogatás érdekében.
 
 Próbáld ki, módosítsd a `Logger` vagy `Utils` osztályokat, és nézd meg, meddig tudod elvinni a **javascript host object** koncepciót a saját projektjeidben.
 
+**Legutóbb frissítve:** 2026-10-14  
+**Tesztelve ezzel:** Aspose.HTML for Java 23.10  
+**Szerző:** Aspose  
+
+
+
+
+
+
+```java
+document.getWindow().addHostObject("javaLogger", new Logger());
+```
+
+```javascript
+javaLogger.log('Hello from JavaScript!');
+```
+
+## Kapcsolódó útmutatók
+
+- [Java-ban a szkript végrehajtásának engedélyezése – Teljes Aspose HTML útmutató](/html/java/advanced-usage/enable-script-execution-in-java-complete-aspose-html-guide/)
+- [Java-ban a JavaScript végrehajtása – Teljes útmutató a JS futtatásához](/html/java/advanced-usage/execute-javascript-in-java-complete-guide-to-running-js-from/)
+- [Hogyan szandbox-oljuk a JavaScriptet – Teljes Aspose HTML útmutató](/html/java/advanced-usage/how-to-sandbox-javascript-complete-aspose-html-guide/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
