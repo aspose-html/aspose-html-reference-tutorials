@@ -86,10 +86,13 @@ Lär dig hur du lägger till ett element i body med Aspose.HTML för .NET i en k
 ### [Skapa HTML med Aspose – Hitta element, applicera fetstil](./how-to-create-html-with-aspose-find-element-apply-bold/)
 Lär dig hur du hittar ett element i ett HTML-dokument och gör texten fet med Aspose.HTML för .NET.
 ### [Skapa HTML-dokument i C# – Fet kursiv text med anpassat teckensnitt](./create-html-document-c-bold-italic-text-with-custom-font/)
-Lär dig hur du skapar ett HTML-dokument i C# med fet och kursiv text samt ett anpassat teckensnitt.
+Lär dig hur du skapar ett HTML‑dokument i C# med fet och kursiv text samt ett anpassat teckensnitt.
 
 ### [Skapa HTML-dokument C# – Steg‑för‑steg‑guide](./create-html-document-c-step-by-step-guide/)
 Lär dig att skapa ett HTML‑dokument i C# med Aspose.HTML. En steg‑för‑steg‑guide för utvecklare.
+
+### [Hur man kombinerar teckensnittsstilar i C# med Aspose.HTML](./how-to-combine-font-styles-in-c-with-aspose-html/)
+Lär dig kombinera fet, kursiv och andra teckensnittsstilar i C# med Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

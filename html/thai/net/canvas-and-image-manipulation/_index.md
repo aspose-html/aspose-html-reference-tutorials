@@ -49,6 +49,8 @@ Aspose.HTML สำหรับ .NET ช่วยให้การแก้ไ�
 เรียนรู้วิธีสร้างและแสดงข้อความบนภาพโดยใช้แคนวาสใน Aspose.HTML สำหรับ .NET อย่างละเอียดและครบถ้วน
 ### [วิธีเปิดใช้งาน Antialiasing ใน C# – คู่มือสไตล์ฟอนต์ฉบับสมบูรณ์](./how-to-enable-antialiasing-in-c-complete-font-style-guide/)
 เรียนรู้วิธีเปิดใช้งาน Antialiasing ใน C# พร้อมคำแนะนำการจัดการสไตล์ฟอนต์อย่างละเอียด
+### [วิธีเปิดใช้งาน Antialiasing ใน C# – การเรนเดอร์รูปภาพ](./how-to-enable-antialiasing-in-c-image-rendering/)
+เรียนรู้วิธีเปิดใช้งาน Antialiasing ใน C# เพื่อปรับปรุงคุณภาพการเรนเดอร์รูปภาพ
 
 ## บทสรุป
 

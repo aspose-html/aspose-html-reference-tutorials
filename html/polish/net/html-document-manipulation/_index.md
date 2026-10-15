@@ -79,6 +79,8 @@ Dowiedz się, jak krok po kroku utworzyć dokument HTML przy użyciu Aspose.HTML
 Dowiedz się, jak generować dokumenty HTML z łańcucha znaków w C# przy użyciu niestandardowego obsługiwacza zasobów w Aspose.HTML.
 ### [Pogrubienie i pochylenie tekstu w C# – szybki przewodnik po stylizacji HTML](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
 Dowiedz się, jak w C# zastosować pogrubienie i kursywę w HTML przy użyciu Aspose.HTML.
+### [Jak połączyć style czcionek w C# z Aspose.HTML](./how-to-combine-font-styles-in-c-with-aspose-html/)
+Dowiedz się, jak łączyć różne style czcionek w C# przy użyciu biblioteki Aspose.HTML.
 ### [Jak tworzyć HTML przy użyciu Aspose – Znajdź element, zastosuj pogrubienie](./how-to-create-html-with-aspose-find-element-apply-bold/)
 Dowiedz się, jak znaleźć określony element w dokumencie HTML i zastosować do niego pogrubienie przy użyciu Aspose.HTML.
 ### [Tworzenie dokumentu HTML w C# – Przewodnik krok po kroku](./create-html-document-c-step-by-step-guide/)

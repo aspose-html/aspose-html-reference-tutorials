@@ -89,6 +89,8 @@ Scopri come generare un documento HTML e includere stili CSS direttamente nel co
 Scopri come generare un documento HTML in C# con testo in grassetto e corsivo usando un font personalizzato.
 ### [Creare documento HTML in C# – Guida passo‑a‑passo](./create-html-document-c-step-by-step-guide/)
 Scopri come creare un documento HTML in C# con Aspose.HTML, passo dopo passo, con esempi pratici e consigli utili.
+### [Come combinare gli stili di carattere in C# con Aspose.HTML](./how-to-combine-font-styles-in-c-with-aspose-html/)
+Scopri come combinare diversi stili di carattere in C# con Aspose.HTML per generare HTML stilizzato.
 
 ## Conclusione
 

@@ -98,6 +98,9 @@ Naučte se vytvořit HTML dokument v C# a vykreslit jej do PNG s tučným a kurz
 ### [Renderujte HTML do PNG a uložte do ZIP pomocí C# – Kompletní průvodce](./render-html-to-png-and-save-to-zip-with-c-complete-guide/)
 Naučte se, jak pomocí Aspose.HTML v .NET převést HTML do PNG a archivovat výstup do ZIP souboru s podrobným návodem.
 
+### [Jak vykreslit HTML do PNG a zabalit zdroje do ZIP v C#](./how-to-render-html-to-png-and-zip-resources-in-c/)
+Naučte se pomocí Aspose.HTML v .NET převést HTML do PNG a zkomprimovat související zdroje do ZIP archivu.
+
 ### [Vytvořte obrázek z HTML v C# – Kompletní průvodce krok za krokem](./create-image-from-html-in-c-complete-step-by-step-guide/)
 Kompletní průvodce v C#, jak pomocí Aspose.HTML převést HTML na obrázek s podrobnými ukázkami a tipy.
 

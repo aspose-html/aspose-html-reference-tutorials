@@ -88,6 +88,9 @@ C# में स्ट्रिंग से HTML उत्पन्न कर�
 
 ### [C# में टेक्स्ट को बोल्ड इटैलिक बनाएं – HTML स्टाइलिंग के लिए त्वरित गाइड](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
 C# में HTML टेक्स्ट को बोल्ड और इटैलिक स्टाइल देने की तेज़ गाइड। चरण-दर-चरण कोड उदाहरण देखें।
+
+### [C# में Aspose.HTML के साथ फ़ॉन्ट शैलियों को संयोजित करना](./how-to-combine-font-styles-in-c-with-aspose-html/)
+
 ### [बॉडी में एलिमेंट जोड़ें – Aspose.HTML के साथ पूर्ण C# गाइड](./append-element-to-body-complete-c-guide-with-aspose-html/)
 Aspose.HTML का उपयोग करके C# में बॉडी में एलिमेंट जोड़ने की प्रक्रिया सीखें। चरण-दर-चरण उदाहरण देखें।
 ### [HTML बनाना और CSS स्टाइल एलिमेंट जोड़ना – चरण‑दर‑चरण गाइड](./how-to-create-html-and-add-css-style-element-step-by-step-gu/)

@@ -83,6 +83,8 @@ HTML ve CSS stil öğesini nasıl oluşturup ekleyeceğinizi adım adım öğren
 C# kullanarak özel bir yazı tipiyle kalın ve italik metin içeren HTML belgesi oluşturmayı öğrenin.
 ### [C# ile HTML Belgesi Oluşturma – Adım Adım Rehber](./create-html-document-c-step-by-step-guide/)
 C# kullanarak Aspose.HTML ile sıfırdan HTML belgesi oluşturmayı adım adım öğrenin.
+### [C#'ta Aspose.HTML ile Font Stillerini Birleştirme](./how-to-combine-font-styles-in-c-with-aspose-html/)
+C# ve Aspose.HTML kullanarak birden fazla font stilini birleştirerek dinamik HTML içerikleri oluşturun.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

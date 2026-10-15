@@ -75,6 +75,8 @@ Aspose.HTML for .NET 因其簡單性和強大功能而脫穎而出。它使您�
 了解如何使用 Aspose.HTML for .NET 從字串建立 HTML，並透過自訂資源處理程式進行管理。
 ### [在 C# 中將文字加粗斜體 – HTML 樣式快速指南](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
 了解如何在 C# 中使用 Aspose.HTML 為 HTML 文字套用粗體與斜體樣式，快速提升網頁呈現效果。
+### [如何在 C# 中結合字體樣式與 Aspose.HTML](./how-to-combine-font-styles-in-c-with-aspose-html/)
+了解如何在 C# 使用 Aspose.HTML 同時套用多種字體樣式，如粗體、斜體與自訂字型。
 ### [將元素附加到 Body – 完整的 C# 指南（使用 Aspose.HTML）](./append-element-to-body-complete-c-guide-with-aspose-html/)
 了解如何使用 Aspose.HTML for .NET 在 C# 中將 HTML 元素動態附加到 body，完整步驟與範例說明。
 ### [使用 Aspose 建立 HTML – 找到元素並套用粗體](./how-to-create-html-with-aspose-find-element-apply-bold/)
@@ -84,7 +86,7 @@ Aspose.HTML for .NET 因其簡單性和強大功能而脫穎而出。它使您�
 ### [在 C# 中建立 HTML 文件 – 使用自訂字型的粗斜體文字](./create-html-document-c-bold-italic-text-with-custom-font/)
 了解如何在 C# 使用 Aspose.HTML 建立包含自訂字型的粗斜體文字的 HTML 文件。
 ### [在 C# 中建立 HTML 文件 – 步驟指南](./create-html-document-c-step-by-step-guide/)
-了解如何在 C# 中使用 Aspose.HTML 建立 HTML 文件，提供完整步驟與範例說明。
+了解在 C# 中使用 Aspose.HTML 建立 HTML 文件，提供完整步驟與範例說明。
 
 ## 結論
 

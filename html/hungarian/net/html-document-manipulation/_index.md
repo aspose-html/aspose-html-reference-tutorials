@@ -83,6 +83,8 @@ Ismerje meg, hogyan adhat hozzá elemeket a HTML body részéhez C#-ban az Aspos
 Ismerje meg, hogyan hozhat létre HTML-fájlt, és adhat hozzá CSS stíluselemeket C#‑ban lépésről‑lépésre.
 ### [HTML dokumentum létrehozása C#‑ban – Lépésről‑lépésre útmutató](./create-html-document-c-step-by-step-guide/)
 Ismerje meg, hogyan hozhat létre HTML dokumentumot C#‑ban részletes, lépésről‑lépésre útmutatóval.
+### [Betűstílusok kombinálása C#‑ban az Aspose.HTML-lel](./how-to-combine-font-styles-in-c-with-aspose-html/)
+Ismerje meg, hogyan kombinálhat különböző betűstílusokat C#‑ban az Aspose.HTML segítségével.
 
 ## Következtetés
 
