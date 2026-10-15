@@ -218,6 +218,8 @@ Aspose.HTML for Java 简化了 HTML 转 PDF 的工作流。请参阅专门的教
 演示如何在 Java 中使用固定线程池并行转换 HTML 为 PDF，提高批量处理性能。
 ### [使用移动视口将 HTML 创建为 PDF – 完整 Java 指南](./create-pdf-from-html-with-mobile-viewport-complete-java-guid/)
 了解如何在 Java 中使用 Aspose.HTML 通过移动视口将 HTML 渲染为 PDF，确保移动端布局准确。
+### [使用 Aspose.HTML (Java) 从 SVG 创建 PDF – 自定义页面尺寸](./create-pdf-from-svg-custom-page-size-with-aspose-html-java/)
+了解如何使用 Aspose.HTML for Java 将 SVG 转换为自定义页面尺寸的 PDF，提供详细步骤和代码示例。
 
 ## 常见问题
 

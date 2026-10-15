@@ -164,6 +164,9 @@ weight: 20
 ### [استدعاء Java من JavaScript – إضافة كائن مضيف وتشغيل JavaScript في Java](./call-java-from-javascript-add-host-object-and-run-javascript/)
 تعلم كيفية استدعاء كود Java من JavaScript بإضافة كائن مضيف وتشغيل سكريبتات JavaScript داخل تطبيق Java.
 
+### [الحصول على عنوان HTML في Java – عرض الصفحة في بيئة Sandbox مع عرض الشاشة](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
+تعلم كيفية استخراج عنوان صفحة HTML وعرضها في بيئة Sandbox مع ضبط عرض الشاشة باستخدام Aspose.HTML for Java.
+
 ---
 
 **آخر تحديث:** 2025-11-29  

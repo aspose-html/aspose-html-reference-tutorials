@@ -95,6 +95,8 @@ Naučte se generovat PDF z HTML s vlastní velikostí stránky a vloženými fon
 Naučte se, jak v Javě pomocí Aspose.HTML vytvořit PDF z HTML s nastavením mobilního viewportu pro responzivní zobrazení.
 ### [Jak povolit JavaScript při převodu HTML do PDF v Javě](./how-to-enable-javascript-when-converting-html-to-pdf-in-java/)
 Naučte se, jak povolit vykonávání JavaScriptu během konverze HTML na PDF v Javě pomocí Aspose.HTML.
+### [Vytvořte PDF z HTML v Javě – Jednořádkový průvodce Aspose](./create-pdf-from-html-in-java-one-line-aspose-guide/)
+Jednoduchý návod, jak v jedné řádce kódu převést HTML na PDF pomocí Aspose.HTML for Java.
 ### [Převod HTML do MHTML](./convert-html-to-mhtml/)
 Jednoduše převádějte HTML do MHTML pomocí Aspose.HTML for Java. Postupujte podle našeho krok‑za‑krokem průvodce pro efektivní konverzi HTML‑to‑MHTML.
 
@@ -112,7 +114,8 @@ Naučte se převádět SVG na obrázky v Javě s Aspose.HTML. Kompletní průvod
 
 ### [Převod SVG do PDF](./convert-svg-to-pdf/)
 Převádějte SVG do PDF v Javě s Aspose.HTML. Bezproblémové řešení pro vysoce kvalitní konverzi dokumentů.
-
+### [Vytvořte PDF ze SVG – Vlastní velikost stránky s Aspose.HTML (Java)](./create-pdf-from-svg-custom-page-size-with-aspose-html-java/)
+Naučte se vytvořit PDF z SVG s vlastní velikostí stránky pomocí Aspose.HTML for Java.
 ### [Převod SVG do XPS](./convert-svg-to-xps/)
 Naučte se převádět SVG do XPS s Aspose.HTML for Java. Jednoduchý, krok‑za‑krokem průvodce pro plynulé konverze.
 ### [Převod HTML do PDF v Javě – krok‑za‑krokem s nastavením velikosti stránky](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
@@ -184,8 +187,6 @@ Kompletní průvodce převodem HTML do PDF v Javě s nastavením velikosti papí
 Naučte se, jak vložit vlastní fonty do PDF při konverzi HTML pomocí Aspose.HTML for Java.
 ### [Vytvoření DOCX z HTML – Java průvodce konverzí HTML do DOCX](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
 Naučte se převést HTML do formátu DOCX v Javě pomocí Aspose.HTML a generovat editovatelné dokumenty.
-### [Vytvořte PDF z HTML v Javě – Jednořádkový průvodce Aspose](./create-pdf-from-html-in-java-one-line-aspose-guide/)
-Rychle vytvořte PDF z HTML v Javě pomocí jediného řádku kódu s Aspose.HTML.
 ### [Nastavte poměr pixelů zařízení v Javě – převod HTML na mobil](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)
 Naučte se nastavit Device Pixel Ratio při konverzi HTML do mobilního formátu v Javě pomocí Aspose.HTML.
 ### [Převod HTML do PDF v Javě – Jednořádkový příklad kódu](./convert-html-to-pdf-in-java-one-line-code-example/)

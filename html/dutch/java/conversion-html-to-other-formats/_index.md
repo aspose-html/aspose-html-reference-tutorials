@@ -143,6 +143,8 @@ Leer hoe u JavaScript activeert tijdens HTML‑naar‑PDF conversie in Java met 
 ### [Hoe PDF te versleutelen in Java – PDF beveiligen met wachtwoord vanuit HTML](./how-to-encrypt-pdf-in-java-password-protect-pdf-from-html/)
 Leer hoe u PDF-bestanden kunt beveiligen met een wachtwoord tijdens conversie van HTML naar PDF met Aspose.HTML for Java.
 ### [HTML naar Markdown converteren in Java – Volledige stap‑voor‑stap gids](./convert-html-to-markdown-in-java-full-step-by-step-guide/)
+### [PDF maken van SVG – Aangepaste paginagrootte met Aspose.HTML (Java)](./create-pdf-from-svg-custom-page-size-with-aspose-html-java/)
+Maak een PDF van een SVG-bestand met een aangepaste paginagrootte met behulp van Aspose.HTML voor Java.
 
 ### [HTML naar PDF converteren – Complete gids voor het opslaan van PDF naar Azure Blob](./convert-html-to-pdf-complete-guide-to-saving-pdf-to-azure-bl/)
 Leer hoe u HTML naar PDF converteert en de PDF opslaat in Azure Blob Storage met Aspose.HTML voor Java.

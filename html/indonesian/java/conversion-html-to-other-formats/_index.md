@@ -228,6 +228,9 @@ Pelajari cara mengenkripsi PDF di Java menggunakan Aspose.HTML, melindungi file 
 ### [Buat PDF dari HTML di Java – Panduan Aspose Satu Baris](./create-pdf-from-html-in-java-one-line-aspose-guide/)
 Panduan singkat untuk membuat PDF dari HTML di Java hanya dengan satu baris kode menggunakan Aspose.HTML.
 
+### [Buat PDF dari SVG – Ukuran Halaman Kustom dengan Aspose.HTML (Java)](./create-pdf-from-svg-custom-page-size-with-aspose-html-java/)
+Pelajari cara membuat PDF dari file SVG dengan ukuran halaman khusus menggunakan Aspose.HTML untuk Java.
+
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bisakah saya menggunakan Aspose.HTML untuk Java dalam aplikasi komersial?**  

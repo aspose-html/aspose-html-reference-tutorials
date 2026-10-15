@@ -152,6 +152,7 @@ JavaScript içinde Java metodlarını asenkron fetch ile çağırmayı ve JS mot
 Aspose.HTML for Java ile tam XPath filtreleme yaparak belge öğelerini seçmeyi ve işlemeyi öğrenin.
 ### [JavaScript'ten Java'ya Çağrı – Host Nesnesi Ekle ve Java'da JavaScript Çalıştır](./call-java-from-javascript-add-host-object-and-run-javascript/)
 Aspose.HTML for Java kullanarak JavaScript'ten Java metodlarını çağırmayı, host nesnesi eklemeyi ve Java içinde JavaScript çalıştırmayı öğrenin.
+### [HTML Başlığını Al Java – Sandbox'ta Ekran Genişliğiyle Sayfayı Render Et](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
 
 ---
 

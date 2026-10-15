@@ -52,6 +52,8 @@ Aspose.HTML for Java でカスタム メッセージ ハンドラーを実装し
 このステップバイステップ ガイドに従って、Aspose.HTML for Java を使用して ZIP ファイルを PDF に簡単に変換します。
 ### [Java 11 HttpClient Authenticator – 安全なリクエストの完全ガイド](./java-11-httpclient-authenticator-complete-guide-to-secure-re/)
 Java 11 の HttpClient 認証機能を活用し、安全な HTTP リクエストを実装する方法をステップバイステップで解説します。
+### [Java で API を取得する方法 – Aspose HTML V8 エンジンを使用した完全ガイド](./how-to-fetch-api-in-java-complete-guide-using-aspose-html-v8/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

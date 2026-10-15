@@ -52,6 +52,8 @@ url: /ar/java/message-handling-networking/
 يمكنك بسهولة تحويل ملفات ZIP إلى PDF باستخدام Aspose.HTML لـ Java باستخدام هذا الدليل خطوة بخطوة.
 ### [java 11 httpclient authenticator – دليل كامل للطلبات الآمنة](./java-11-httpclient-authenticator-complete-guide-to-secure-re/)
 تعلم كيفية استخدام HttpClient Authenticator في Java 11 لإجراء طلبات آمنة ومصادقة موثوقة.
+### [كيفية جلب API في Java – دليل كامل باستخدام محرك Aspose HTML V8](./how-to-fetch-api-in-java-complete-guide-using-aspose-html-v8/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

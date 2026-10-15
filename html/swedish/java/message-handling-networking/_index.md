@@ -53,6 +53,8 @@ Konvertera enkelt dina ZIP-filer till PDF med Aspose.HTML för Java med denna st
 ### [java 11 httpclient authenticator – Komplett guide för säkra förfrågningar](./java-11-httpclient-authenticator-complete-guide-to-secure-re/)
 Lär dig hur du använder HttpClient Authenticator i Java 11 för att säkert skicka HTTP-förfrågningar med autentisering.
 
+### [Hur du hämtar API i Java – Komplett guide med Aspose HTML V8-motorn](./how-to-fetch-api-in-java-complete-guide-using-aspose-html-v8/)
+Lär dig hur du använder Fetch API i Java med Aspose HTML V8-motorn i denna steg-för-steg-guide.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -82,6 +82,8 @@ Ismerje meg, hogyan találhat meg egy elemet Java-ban és olvashatja ki annak h�
 Ismerje meg, hogyan szerezhet meg számított CSS‑stílusokat Java‑ban az Aspose.HTML teljes példáján keresztül.
 ### [Hogyan szerezze meg a számított stílust Java-ban – Teljes Aspose.HTML útmutató](./how-to-get-computed-style-in-java-complete-aspose-html-guide/)
 Tanulja meg, hogyan kérdezheti le egy elem számított stílusát Java-ban az Aspose.HTML segítségével, részletes, gyakorlati útmutató.
+### [Hogyan olvassuk a CSS-t Java-ban – Számított stílusok kinyerése lépésről lépésre](./how-to-read-css-in-java-extract-computed-styles-step-by-step/)
+Tanulja meg, hogyan olvashatja és nyerheti ki a számított CSS‑stílusokat Java‑ban lépésről‑lépésre az Aspose.HTML segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -144,6 +144,8 @@ Aspose.HTML for Java ile HTML'yi Markdown formatına sorunsuz bir şekilde dön�
 Aspose.HTML for Java kullanarak HTML'den PDF oluşturup, sonucu Azure Blob depolama alanına kaydetmeyi adım adım öğrenin.
 ### [Java’da HTML'den PDF Oluşturma – Tek Satır Aspose Kılavuzu](./create-pdf-from-html-in-java-one-line-aspose-guide/)
 Tek bir satır kodla HTML'den PDF oluşturmayı gösteren hızlı ve basit bir Aspose rehberi.
+### [SVG'den PDF Oluşturma – Aspose.HTML ile Özel Sayfa Boyutu (Java)](./create-pdf-from-svg-custom-page-size-with-aspose-html-java/)
+Aspose.HTML for Java kullanarak SVG'den özel sayfa boyutlu PDF oluşturmayı adım adım öğrenin.
 
 ### [PDF'ye Yazı Tipi Gömme – Aspose HTML'den PDF'ye Tam Kılavuz (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
 Aspose.HTML for Java kullanarak PDF dosyalarına gömülü yazı tipleri eklemeyi adım adım öğrenin.

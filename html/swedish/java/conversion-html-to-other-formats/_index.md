@@ -92,7 +92,6 @@ Lär dig att använda en trådpool för att konvertera flera HTML‑filer till P
 
 ### [Konvertera HTML till PDF i bulk – Java NIO-guide med parallell bearbetning](./convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/)
 
-### [Skapa PDF från HTML i Java – En‑radig Aspose‑guide](./create-pdf-from-html-in-java-one-line-aspose-guide/)
 Skapa PDF från HTML med ett enda kodrad i Java med Aspose.HTML. Snabb och enkel guide.
 ### [Konvertera HTML till PDF – Komplett guide för att spara PDF till Azure Blob](./convert-html-to-pdf-complete-guide-to-saving-pdf-to-azure-bl/)
 Lär dig hur du konverterar HTML till PDF i Java och sparar den direkt i Azure Blob Storage med Aspose.HTML.
@@ -146,6 +145,8 @@ Lär dig hur du inkluderar bilder när du konverterar HTML till PDF i Java med A
 Lär dig att skapa PDF‑filer med specifik sidstorlek och inbäddade teckensnitt från HTML i Java med Aspose.HTML.
 ### [Skapa PDF från Markdown – Snabb Java‑guide](./create-pdf-from-markdown-quick-java-guide/)
 Lär dig snabbt hur du skapar PDF från Markdown i Java med Aspose.HTML i en kort guide.
+### [Skapa PDF från HTML i Java – En‑radig Aspose‑guide](./create-pdf-from-html-in-java-one-line-aspose-guide/)
+### [Skapa PDF från SVG – Anpassad sidstorlek med Aspose.HTML (Java)](./create-pdf-from-svg-custom-page-size-with-aspose-html-java/)
 
 ### [Konvertera HTML till PDF i Java – Snabb Aspose.HTML‑guide](./convert-html-to-pdf-in-java-quick-aspose-html-guide/)
 Snabb guide för att konvertera HTML till PDF i Java med Aspose.HTML, med enkla steg‑för‑steg‑instruktioner.

@@ -150,6 +150,7 @@ Leer hoe je Java vanuit JavaScript kunt aanroepen, async fetch gebruikt en de JS
 ### [Hoe Aspose HTML in Java te gebruiken – volledige XPath-filtergids](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
 ### [Java aanroepen vanuit JavaScript – Host‑object toevoegen en JavaScript uitvoeren in Java](./call-java-from-javascript-add-host-object-and-run-javascript/)
 Leer hoe je een host‑object toevoegt en JavaScript vanuit Java kunt uitvoeren met Aspose.HTML for Java.
+### [HTML‑titel ophalen met Java – Pagina renderen in sandbox met schermbreedte](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
 
 ---
 

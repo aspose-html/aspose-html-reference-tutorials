@@ -21,7 +21,7 @@ Dans le développement web moderne, affiner l’apparence de votre sortie HTML p
 ## Réponses rapides
 - **Comment ajouter des numéros de page à un document HTML ?** Utilisez l’API `PageSetup` pour définir un pied de page qui insère le texte de remplacement du numéro de page.  
 - **Puis‑je générer un PDF à partir de HTML avec des marges personnalisées ?** Oui – combinez `HtmlLoadOptions` avec `PdfSaveOptions` et définissez les marges souhaitées.  
-- **Quelle méthode permet de surveiller les changements du DOM ?** Implémentez un `DomMutationObserver` et abonnez‑vous aux événements d’ajout de nœuds.  
+- **Quelle méthode permet de surveiller les changements du DOM ?** Implémentez un `DomMutationObserver` et abonne‑vous aux événements d’ajout de nœuds.  
 - **Est‑il possible de convertir du HTML en XPS tout en contrôlant la taille de la page ?** Absolument ; le `XpsSaveOptions` vous permet de spécifier des dimensions exactes.  
 - **Ai‑je besoin d’une licence pour une utilisation en production ?** Une licence commerciale Aspose.HTML for Java est requise pour les déploiements non‑essai.
 
@@ -156,6 +156,8 @@ Apprenez à activer et exécuter du JavaScript depuis Java avec Aspose.HTML, inc
 Apprenez à appliquer des filtres XPath avancés avec Aspose.HTML for Java pour extraire précisément le contenu HTML.  
 ### [Appeler Java depuis JavaScript – Ajouter un objet hôte et exécuter du JavaScript en Java](./call-java-from-javascript-add-host-object-and-run-javascript/)
 Découvrez comment ajouter un objet hôte Java et exécuter du code JavaScript depuis Java avec Aspose.HTML.  
+### [Obtenir le titre HTML en Java – Rendre la page dans le sandbox avec largeur d’écran](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
+Apprenez à récupérer le titre d’une page HTML et à la rendre dans un environnement sandbox en spécifiant la largeur d’écran.  
 
 ---
 

@@ -151,6 +151,8 @@ Aspose.HTML позволяет прикрепить `DomMutationObserver` к л�
 Узнайте, как применять XPath‑фильтры в Aspose HTML for Java для точного выбора элементов при обработке HTML.
 ### [Вызов Java из JavaScript – Добавление хост‑объекта и выполнение JavaScript в Java](./call-java-from-javascript-add-host-object-and-run-javascript/)
 Узнайте, как добавить хост‑объект Java и запускать JavaScript‑код из Java с помощью Aspose.HTML.
+### [Получить заголовок HTML в Java – рендер страницы в песочнице с шириной экрана](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
+Узнайте, как получить заголовок HTML и отрендерить страницу в песочнице, задав ширину экрана, используя Aspose.HTML for Java.
 
 ---
 

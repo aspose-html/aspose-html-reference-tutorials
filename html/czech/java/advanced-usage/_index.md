@@ -153,6 +153,8 @@ Naučte se volat Java metody z JavaScriptu, používat asynchronní fetch a spra
 Naučte se, jak pomocí Aspose.HTML v Javě aplikovat kompletní filtrování XML/HTML pomocí XPath výrazů.
 ### [Volání Javy z JavaScriptu – Přidání host objektu a spuštění JavaScriptu v Javě](./call-java-from-javascript-add-host-object-and-run-javascript/)
 Naučte se volat Java metody z JavaScriptu pomocí host objektu a spouštět JavaScript v Javě s Aspose.HTML.
+### [Získání názvu HTML v Javě – Vykreslení stránky v sandboxu se šířkou obrazovky](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
+Naučte se získat název HTML a vykreslit stránku v sandboxu s nastavenou šířkou obrazovky pomocí Aspose.HTML pro Java.
 
 ---
 

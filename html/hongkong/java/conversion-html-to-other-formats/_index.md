@@ -152,6 +152,8 @@ Aspose.HTML for Java 簡化了 HTML‑to‑PDF 工作流程。請參考專屬教
 了解如何使用 Aspose.HTML 在 Java 中將 SVG 轉為影像，提供高品質輸出的完整指南。
 ### [Converting SVG to PDF](./convert-svg-to-pdf/)
 使用 Aspose.HTML 在 Java 中將 SVG 轉為 PDF，提供高品質文件轉換的無縫解決方案。
+### [使用 Aspose.HTML (Java) 從 SVG 建立 PDF – 自訂頁面大小](./create-pdf-from-svg-custom-page-size-with-aspose-html-java/)
+說明如何使用 Aspose.HTML for Java 將 SVG 轉換為 PDF，並自訂頁面尺寸以符合特定排版需求。
 ### [Converting SVG to XPS](./convert-svg-to-xps/)
 學習如何使用 Aspose.HTML for Java 將 SVG 轉為 XPS，提供簡單、步驟式的無縫轉換指南。
 ### [如何在 Java 中將 Markdown 生成 PDF – 步驟指南](./how-to-generate-pdf-from-markdown-in-java-step-by-step-guide/)
@@ -187,7 +189,6 @@ Aspose.HTML for Java 簡化了 HTML‑to‑PDF 工作流程。請參考專屬教
 說明如何使用固定執行緒池在 Java 中同時將多個 HTML 檔案轉換為 PDF，提高轉換效能。
 ### [將 HTML 轉換為 PDF – 完整指南：將 PDF 儲存至 Azure Blob](./convert-html-to-pdf-complete-guide-to-saving-pdf-to-azure-bl/)
 說明如何使用 Aspose.HTML for Java 將 HTML 轉換為 PDF，並將 PDF 儲存至 Azure Blob 儲存體。
-
 ### [在 Java 中從 HTML 建立 PDF – 完整步驟指南](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
 提供在 Java 中使用 Aspose.HTML 從 HTML 完整生成 PDF 的逐步教學，涵蓋設定、樣式與最佳化技巧。
 ### [在 Java 中將 HTML 轉換為 Markdown 時設定偏移量的方法](./how-to-set-offset-when-converting-html-to-markdown-in-java/)

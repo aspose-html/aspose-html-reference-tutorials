@@ -52,6 +52,9 @@ Bu adım adım kılavuzla Aspose.HTML for Java'yı kullanarak ZIP dosyalarını 
 Bu adım adım kılavuzla Aspose.HTML for Java'yı kullanarak ZIP dosyalarınızı kolayca PDF'ye dönüştürün.
 ### [Java 11 HttpClient Kimlik Doğrulayıcısı – Güvenli İstekler İçin Tam Rehber](./java-11-httpclient-authenticator-complete-guide-to-secure-re/)
 Java 11 HttpClient ile kimlik doğrulama yaparak güvenli HTTP istekleri göndermeyi adım adım öğrenin.
+### [Java'da API Çekme – Aspose HTML V8 Motoru Kullanarak Tam Kılavuz](./how-to-fetch-api-in-java-complete-guide-using-aspose-html-v8/)
+Java için Aspose.HTML V8 motoru ile API'leri nasıl çekeceğinizi adım adım öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

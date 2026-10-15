@@ -81,6 +81,8 @@ Java में Aspose.HTML का उपयोग करके किसी ए�
 Java के लिए Aspose.HTML का उपयोग करके Computed Style प्राप्त करने की पूरी प्रक्रिया सीखें।
 ### [Java में Computed Style कैसे प्राप्त करें – पूर्ण Aspose.HTML गाइड](./how-to-get-computed-style-in-java-complete-aspose-html-guide/)
 Java में Aspose.HTML का उपयोग करके Computed Style प्राप्त करने की पूरी प्रक्रिया सीखें।
+### [Java में CSS पढ़ना – गणना किए गए स्टाइल्स को चरण‑दर‑चरण निकालना](./how-to-read-css-in-java-extract-computed-styles-step-by-step/)
+Java में Aspose.HTML का उपयोग करके CSS को पढ़ें और गणना किए गए स्टाइल्स को चरण‑दर‑चरण निकालें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

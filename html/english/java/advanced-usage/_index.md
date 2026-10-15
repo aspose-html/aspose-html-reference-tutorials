@@ -142,6 +142,8 @@ Learn how to execute JavaScript in Java, run scripts, and extract data using Asp
 Learn how to invoke Java methods from JavaScript, handle async fetch calls, and execute code using Aspose.HTML's JavaScript engine.
 ### [Call Java from JavaScript – Add Host Object and Run JavaScript in Java](./call-java-from-javascript-add-host-object-and-run-javascript/)
 Learn how to expose Java objects to JavaScript and execute JavaScript code from Java using Aspose.HTML for Java.
+### [Get HTML Title Java – Render Page in Sandbox with Screen Width](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
+Learn how to retrieve the HTML title in Java, render a page in a sandbox with a specific screen width using Aspose.HTML.
 
 ---
 

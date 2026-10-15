@@ -150,6 +150,8 @@ Hướng dẫn chi tiết cách kích hoạt JavaScript trong ứng dụng Java 
 ### [Cách sử dụng Aspose HTML trong Java – Hướng dẫn đầy đủ về lọc XPath](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
 ### [Gọi Java từ JavaScript – Thêm Đối tượng Host và Thực thi JavaScript trong Java](./call-java-from-javascript-add-host-object-and-run-javascript/)
 Học cách gọi mã Java từ JavaScript bằng cách thêm đối tượng host và thực thi JavaScript trong môi trường Java.
+### [Lấy tiêu đề HTML Java – Render trang trong sandbox với chiều rộng màn hình](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
+Học cách lấy tiêu đề HTML trong Java và render trang trong sandbox với chiều rộng màn hình tùy chỉnh.
 
 ---
 

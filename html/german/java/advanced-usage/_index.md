@@ -156,6 +156,8 @@ Lernen Sie, wie Sie HTML mit Aspose.HTML für Java laden, die GerätedPI einstel
 Erfahren Sie, wie Sie JavaScript sicher in einer Sandbox ausführen und dabei Aspose.HTML für Java nutzen.
 ### [Wie man JavaScript in Java aktiviert – Komplettanleitung](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
 Erfahren Sie, wie Sie JavaScript in Java aktivieren und mit Aspose.HTML vollständig nutzen können.
+### [HTML‑Titel in Java erhalten – Seite im Sandbox mit Bildschirmbreite rendern](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java den HTML‑Titel auslesen und eine Seite im Sandbox‑Modus mit festgelegter Bildschirmbreite rendern.
 
 ---
 

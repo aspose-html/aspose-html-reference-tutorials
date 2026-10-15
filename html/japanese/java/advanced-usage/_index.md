@@ -143,6 +143,8 @@ Aspose.HTML for Java を使い、Java 環境で JavaScript を有効化し、動
 Aspose.HTML for Java を使用し、JavaScript から Java メソッドを非同期に呼び出し、JS エンジンで実行する方法をステップバイステップで解説します。
 ### [JavaScript から Java を呼び出す – ホストオブジェクトを追加し Java で JavaScript を実行](./call-java-from-javascript-add-host-object-and-run-javascript/)
 Aspose.HTML for Java を使用し、ホストオブジェクトを追加して Java から JavaScript を実行し、相互呼び出しを実装する方法を学びます。
+### [HTML タイトル取得（Java） – 画面幅を指定してサンドボックスでページをレンダリング](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
+Aspose.HTML for Java を使用し、サンドボックス環境で画面幅を設定して HTML のタイトルを取得し、ページをレンダリングする方法を学びます。
 
 ---
 

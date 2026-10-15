@@ -150,6 +150,8 @@ Aspose.HTML ให้คุณแนบ `DomMutationObserver` ไปยังโ
 เรียนรู้วิธีเรียกใช้โค้ด Java จาก JavaScript ด้วย Aspose.HTML รวมถึงการทำ Async Fetch และการจัดการเครื่องยนต์ JavaScript  
 ### [เรียกใช้ Java จาก JavaScript – เพิ่ม Host Object และรัน JavaScript ใน Java](./call-java-from-javascript-add-host-object-and-run-javascript/)
 เรียนรู้วิธีเพิ่มอ็อบเจกต์โฮสต์ใน JavaScript แล้วเรียกเมธอด Java จากโค้ด JavaScript ภายในแอปพลิเคชัน Java  
+### [ดึงหัวเรื่อง HTMLด้วย Java – เรนเดอร์หน้าใน Sandbox พร้อมความกว้างหน้าจอ](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
+เรียนรู้วิธีดึงหัวเรื่องของหน้า HTML และเรนเดอร์ใน sandbox ด้วยความกว้างหน้าจอที่กำหนดโดยใช้ Aspose.HTML for Java  
 
 ---
 

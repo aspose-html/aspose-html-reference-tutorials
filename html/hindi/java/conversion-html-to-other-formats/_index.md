@@ -217,6 +217,7 @@ Aspose.HTML for Java का उपयोग करके मोबाइल व�
 
 ### [Markdown से PDF बनाएं – तेज़ जावा गाइड](./create-pdf-from-markdown-quick-java-guide/)
 Aspose.HTML for Java का उपयोग करके Markdown को PDF में तेज़ी से बदलें। सरल चरण‑दर‑चरण गाइड।
+### [SVG से PDF बनाएं – कस्टम पेज साइज के साथ Aspose.HTML (Java)](./create-pdf-from-svg-custom-page-size-with-aspose-html-java/)
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

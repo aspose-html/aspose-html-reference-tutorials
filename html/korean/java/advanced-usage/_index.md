@@ -149,6 +149,8 @@ Aspose.HTML를 사용해 Java 환경에서 JavaScript를 활성화하고, 스크
 Java 애플리케이션에서 JavaScript를 실행하고, 비동기 fetch 호출을 통해 Java 메서드를 호출하는 방법을 단계별로 안내합니다.
 ### [JavaScript에서 Java 호출 – 호스트 객체 추가 및 Java에서 JavaScript 실행](./call-java-from-javascript-add-host-object-and-run-javascript/)
 Java 애플리케이션에서 JavaScript를 실행하고, 호스트 객체를 추가해 Java 코드를 호출하는 방법을 단계별로 안내합니다.
+### [HTML 제목 가져오기 Java – 화면 너비로 샌드박스에서 페이지 렌더링](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
+Aspose.HTML for Java를 사용해 샌드박스 환경에서 화면 너비를 지정해 HTML 페이지 제목을 추출하고 페이지를 렌더링하는 방법을 배웁니다.
 
 ---
 

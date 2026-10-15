@@ -156,6 +156,7 @@ Imposta le dimensioni della pagina PDF durante la conversione da HTML a PDF in J
 ### [Crea PDF da HTML con viewport mobile – Guida completa Java](./create-pdf-from-html-with-mobile-viewport-complete-java-guid/)
 ### [Converti HTML in PDF – Guida completa per salvare PDF su Azure Blob](./convert-html-to-pdf-complete-guide-to-saving-pdf-to-azure-bl/)
 ### [Crea PDF da Markdown – Guida rapida Java](./create-pdf-from-markdown-quick-java-guide/)
+### [Crea PDF da SVG – Dimensione pagina personalizzata con Aspose.HTML (Java)](./create-pdf-from-svg-custom-page-size-with-aspose-html-java/)
 
 ## Domande frequenti
 

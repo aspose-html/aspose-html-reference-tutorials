@@ -166,6 +166,8 @@ Aspose.HTML 允许您将 `DomMutationObserver` 附加到任意节点。这对于
 ### [在 JavaScript 中调用 Java – 添加宿主对象并在 Java 中运行 JavaScript](./call-java-from-javascript-add-host-object-and-run-javascript/)
 学习如何在 Java 中添加宿主对象，使 JavaScript 能调用 Java 方法并执行脚本。
 
+### [获取 HTML 标题（Java）– 在沙盒中使用屏幕宽度渲染页面](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
+
 ---
 **最后更新：** 2025-11-29  
 **测试环境：** Aspose.HTML for Java 24.11  

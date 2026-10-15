@@ -151,6 +151,8 @@ Dowiedz się, jak wywoływać kod Javy z JavaScript przy użyciu Aspose.HTML, ob
 Poznaj, jak stosować pełne wyrażenia XPath w Aspose HTML dla Javy, aby precyzyjnie wybierać i przetwarzać elementy HTML.
 ### [Wywołaj Javę z JavaScript – Dodaj obiekt hosta i uruchom JavaScript w Javie](./call-java-from-javascript-add-host-object-and-run-javascript/)
 Dowiedz się, jak dodać obiekt hosta w JavaScript i uruchamiać skrypty JavaScript bezpośrednio w aplikacji Java przy użyciu Aspose.HTML.
+### [Pobierz tytuł HTML w Javie – Renderuj stronę w sandboxie z szerokością ekranu](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
+Dowiedz się, jak pobrać tytuł strony HTML i renderować ją w środowisku sandbox z określoną szerokością ekranu przy użyciu Aspose.HTML dla Javy.
 
 ---
 

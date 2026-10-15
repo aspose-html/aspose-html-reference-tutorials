@@ -169,6 +169,9 @@ Aprenda a usar filtros XPath avançados com Aspose.HTML for Java para selecionar
 ### [Chamar Java a partir de JavaScript – Adicionar Objeto Host e Executar JavaScript em Java](./call-java-from-javascript-add-host-object-and-run-javascript/)
 Aprenda a chamar código Java a partir de JavaScript, adicionando objetos host e executando scripts JavaScript em aplicações Java.
 
+### [Obter título HTML Java – Renderizar página em sandbox com largura de tela](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
+Aprenda a obter o título de uma página HTML e renderizá‑la em um sandbox definindo a largura da tela usando Aspose.HTML for Java.
+
 ---
 
 **Última atualização:** 2025-11-29  

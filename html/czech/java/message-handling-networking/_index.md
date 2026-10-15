@@ -49,9 +49,11 @@ Naučte se spouštět webové požadavky pomocí Aspose.HTML for Java s tímto k
 ### [Převeďte ZIP do JPG pomocí Aspose.HTML pro Javu](./zip-to-jpg/)
 V tomto podrobném průvodci se dozvíte, jak převést soubory ZIP na obrázky JPG pomocí Aspose.HTML for Java.
 ### [Převeďte ZIP do PDF pomocí Aspose.HTML pro Javu](./zip-to-pdf/)
-Pomocí tohoto podrobného průvodce můžete snadno převést soubory ZIP do formátu PDF pomocí Aspose.HTML for Java.
 ### [java 11 httpclient authenticator – Kompletní průvodce zabezpečenými požadavky](./java-11-httpclient-authenticator-complete-guide-to-secure-re/)
 Naučte se, jak pomocí HttpClient autentikátoru v Java 11 zabezpečit HTTP požadavky a chránit citlivá data.
+### [Jak použít Fetch API v Javě – Kompletní průvodce s Aspose HTML V8 Engine](./how-to-fetch-api-in-java-complete-guide-using-aspose-html-v8/)
+Kompletní průvodce, jak v Javě pomocí Aspose.HTML V8 získat data z API metodou fetch.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

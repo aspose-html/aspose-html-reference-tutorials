@@ -150,6 +150,8 @@ Aspose.HTML for Java ทำให้กระบวนการแปลง HTML
 เรียนรู้วิธีแปลง HTML เป็น PDF ด้วย Aspose.HTML ใน Java และบันทึกไฟล์ PDF ลงใน Azure Blob Storage อย่างปลอดภัยและมีประสิทธิภาพ
 ### [สร้าง PDF จาก HTML ใน Java – คู่มือ Aspose บรรทัดเดียว](./create-pdf-from-html-in-java-one-line-aspose-guide/)
 ### [สร้าง PDF จาก Markdown – คู่มือ Java อย่างรวดเร็ว](./create-pdf-from-markdown-quick-java-guide/)
+### [สร้าง PDF จาก SVG – กำหนดขนาดหน้าที่กำหนดเองด้วย Aspose.HTML (Java)](./create-pdf-from-svg-custom-page-size-with-aspose-html-java/)
+เรียนรู้วิธีสร้าง PDF จากไฟล์ SVG พร้อมกำหนดขนาดหน้าตามต้องการด้วย Aspose.HTML for Java
 
 ### [ฝังฟอนต์ PDF – คู่มือ Aspose HTML to PDF อย่างสมบูรณ์ (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
 เรียนรู้วิธีฝังฟอนต์ในไฟล์ PDF ด้วย Aspose.HTML for Java เพื่อให้เอกสารแสดงผลอย่างถูกต้องบนทุกอุปกรณ์

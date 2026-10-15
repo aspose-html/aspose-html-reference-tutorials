@@ -81,6 +81,8 @@ Hướng dẫn cách sử dụng Aspose.HTML cho Java để tìm phần tử và
 Hướng dẫn chi tiết cách lấy thuộc tính kiểu đã tính toán của phần tử HTML trong Java bằng Aspose.HTML.
 ### [Cách lấy kiểu đã tính toán trong Java – Hướng dẫn đầy đủ Aspose.HTML](./how-to-get-computed-style-in-java-complete-aspose-html-guide/)
 Hướng dẫn chi tiết cách lấy computed style trong Java bằng Aspose.HTML, bao gồm các ví dụ thực tế và mẹo tối ưu.
+### [Cách đọc CSS trong Java – Trích xuất các kiểu đã tính toán từng bước](./how-to-read-css-in-java-extract-computed-styles-step-by-step/)
+Hướng dẫn chi tiết cách đọc CSS trong Java và trích xuất các kiểu đã tính toán một cách từng bước.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

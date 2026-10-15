@@ -80,6 +80,8 @@ Naučte se pomocí Aspose.HTML pro Javu získat styl prvku a číst jeho pozadí
 Kompletní ukázka, jak pomocí Aspose.HTML v Javě získat vypočtené CSS styly prvků.
 ### [Jak získat vypočtený styl v Javě – kompletní průvodce Aspose.HTML](./how-to-get-computed-style-in-java-complete-aspose-html-guide/)
 Naučte se, jak pomocí Aspose.HTML pro Javu získat vypočtené styly prvků a použít je ve svých aplikacích.
+### [Jak číst CSS v Javě – krok za krokem extrahovat vypočtené styly](./how-to-read-css-in-java-extract-computed-styles-step-by-step/)
+Naučte se, jak pomocí Aspose.HTML pro Javu získat a analyzovat vypočtené CSS styly z HTML dokumentu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

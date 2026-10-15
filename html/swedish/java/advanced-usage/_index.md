@@ -153,6 +153,8 @@ Lär dig hur du aktiverar JavaScript‑stöd i Java‑applikationer med Aspose.H
 Lär dig hur du använder XPath‑filter för att exakt välja element i HTML‑dokument med Aspose.HTML för Java.
 ### [Anropa Java från JavaScript – Lägg till värdobjekt och kör JavaScript i Java](./call-java-from-javascript-add-host-object-and-run-javascript/)
 Lär dig hur du exponerar Java‑klasser som värdobjekt för JavaScript och kör skript i Java‑miljön med Aspose.HTML.
+### [Hämta HTML‑titel i Java – Rendera sida i sandbox med skärmbredd](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
+Lär dig hur du hämtar HTML‑titel och renderar en sida i en sandbox med angiven skärmbredd med Aspose.HTML för Java.
 
 ---
 

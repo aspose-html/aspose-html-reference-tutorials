@@ -82,6 +82,8 @@ Aspose.HTML for Java kullanarak bir öğenin stilini bulup arka plan rengini nas
 Aspose.HTML for Java kullanarak bir öğenin hesaplanmış stilini elde etmeyi adım adım gösteren tam örnek.
 ### [Java’da Hesaplanmış Stil Nasıl Alınır – Tam Aspose.HTML Kılavuzu](./how-to-get-computed-style-in-java-complete-aspose-html-guide/)
 Aspose.HTML for Java kullanarak bir öğenin hesaplanmış stilini nasıl alacağınızı adım adım öğrenin.
+### [Java’da CSS Okuma – Hesaplanmış Stilleri Adım Adım Çıkarma](./how-to-read-css-in-java-extract-computed-styles-step-by-step/)
+Aspose.HTML for Java kullanarak CSS kurallarını okuyup, hesaplanmış stilleri adım adım nasıl çıkaracağınızı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

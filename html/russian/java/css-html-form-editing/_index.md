@@ -81,6 +81,8 @@ url: /ru/java/css-html-form-editing/
 Узнайте, как получить вычисленный стиль элемента в Java с помощью Aspose.HTML, используя полный пример кода.
 ### [Как получить вычисленный стиль в Java – Полное руководство по Aspose.HTML](./how-to-get-computed-style-in-java-complete-aspose-html-guide/)
 Узнайте, как получить вычисленный стиль элемента в Java с помощью Aspose.HTML, в этом полном пошаговом руководстве.
+### [Как читать CSS в Java – пошаговое извлечение вычисленных стилей](./how-to-read-css-in-java-extract-computed-styles-step-by-step/)
+Узнайте, как с помощью Aspose.HTML для Java считывать CSS и получать вычисленные стили шаг за шагом.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
