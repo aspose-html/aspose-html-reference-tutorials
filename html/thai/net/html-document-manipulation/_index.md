@@ -82,6 +82,8 @@ Aspose.HTML สำหรับ .NET โดดเด่นด้วยควา�
 เรียนรู้วิธีเพิ่ม Element ลงใน Body ของ HTML ด้วย C# และ Aspose.HTML อย่างครบถ้วน
 ### [วิธีสร้าง HTML ด้วย Aspose – ค้นหาองค์ประกอบ, ทำให้ตัวหนา](./how-to-create-html-with-aspose-find-element-apply-bold/)
 เรียนรู้วิธีค้นหาองค์ประกอบในเอกสาร HTML และทำให้ข้อความเป็นตัวหนาโดยใช้ Aspose.HTML สำหรับ .NET
+### [สร้างเอกสาร HTML C# – คู่มือแบบทีละขั้นตอน](./create-html-document-c-step-by-step-guide/)
+เรียนรู้วิธีสร้างเอกสาร HTML ด้วย C# อย่างละเอียด พร้อมตัวอย่างโค้ดและคำอธิบายทีละขั้นตอน
 
 ## บทสรุป
 

@@ -30,7 +30,7 @@ Eğitimlere dalmadan önce, Aspose.HTML for .NET ile tanışalım. .NET uygulama
 
 - Zahmetsiz Belge Dönüştürme: HTML belgelerini birkaç satır kodla PDF, XPS ve daha fazlası gibi çeşitli biçimlere dönüştürün.
 
-- DOM Manipülasyonu: HTML Belge Nesne Modelleri'nin (DOM) derinlemesine manipülasyonunu kolaylıkla gerçekleştirin.
+- DOM Manipülasyonu: HTML Belge Nesno Modelleri'nin (DOM) derinlemesine manipülasyonunu kolaylıkla gerçekleştirin.
 
 ## Eğitimlerimizi keşfedin
 
@@ -81,6 +81,8 @@ Aspose.HTML kullanarak HTML içinde belirli bir öğeyi bulup, ona kalın biçim
 HTML ve CSS stil öğesini nasıl oluşturup ekleyeceğinizi adım adım öğrenin.
 ### [C# ile HTML Belgesi Oluşturma – Özel Yazı Tipiyle Kalın İtalik Metin](./create-html-document-c-bold-italic-text-with-custom-font/)
 C# kullanarak özel bir yazı tipiyle kalın ve italik metin içeren HTML belgesi oluşturmayı öğrenin.
+### [C# ile HTML Belgesi Oluşturma – Adım Adım Rehber](./create-html-document-c-step-by-step-guide/)
+C# kullanarak Aspose.HTML ile sıfırdan HTML belgesi oluşturmayı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

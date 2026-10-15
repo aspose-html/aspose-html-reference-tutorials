@@ -90,6 +90,8 @@ C# を使用して HTML を PNG 画像に変換する手順を、完全なガイ
 HTML を PNG 画像に変換する手順を C# で詳しく解説します。
 ### [C# で HTML ドキュメントを作成し、高品質 PNG にレンダリング](./create-html-document-c-render-to-png-with-high-quality-outpu/)
 Aspose.HTML for .NET を使用して、C# で HTML ドキュメントを作成し、高品質な PNG 画像に変換する手順を解説します。
+### [HTML を PNG に変換 – ZIP エクスポート付き完全 C# ガイド](./convert-html-to-png-full-c-guide-with-zip-export/)
+HTML を PNG に変換し、生成された画像を ZIP ファイルとしてエクスポートする手順を詳しく解説します。
 
 ## 結論
 

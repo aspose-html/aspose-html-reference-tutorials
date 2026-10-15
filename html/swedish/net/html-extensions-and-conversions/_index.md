@@ -72,6 +72,8 @@ Lär dig hur du konverterar HTML till Markdown i .NET med Aspose.HTML för effek
 Konvertera HTML till MHTML i .NET med Aspose.HTML - En steg-för-steg-guide för effektiv arkivering av webbinnehåll. Lär dig hur du använder Aspose.HTML för .NET för att skapa MHTML-arkiv.
 ### [Konvertera HTML till PNG i .NET med Aspose.HTML](./convert-html-to-png/)
 Upptäck hur du använder Aspose.HTML för .NET för att manipulera och konvertera HTML-dokument. Steg-för-steg-guide för effektiv .NET-utveckling.
+### [Konvertera HTML till bild i C# – Komplett guide](./convert-html-to-image-in-c-complete-guide/)
+Lär dig hur du konverterar HTML till bild i C# med Aspose.HTML för .NET. En komplett steg-för-steg-guide med kodexempel och anpassningsalternativ.
 ### [Konvertera HTML till TIFF i .NET med Aspose.HTML](./convert-html-to-tiff/)
 Lär dig hur du konverterar HTML till TIFF med Aspose.HTML för .NET. Följ vår steg-för-steg-guide för effektiv optimering av webbinnehåll.
 ### [Konvertera HTML till XPS i .NET med Aspose.HTML](./convert-html-to-xps/)
@@ -145,6 +147,12 @@ Lär dig hur du zippar HTML med Aspose.HTML i en detaljerad steg‑för‑steg�
 Lär dig skapa PDF från HTML i C# med antialiasing för skarp rendering. Steg‑för‑steg‑guide med kodexempel.
 ### [Skapa HTML-arkiv från DOCX – Steg‑för‑steg‑guide](./create-html-archive-from-docx-step-by-step-guide/)
 Lär dig hur du skapar ett HTML‑arkiv från en DOCX‑fil med Aspose.HTML för .NET i en detaljerad steg‑för‑steg‑guide.
+### [Spara HTML som ZIP i C# – Komplett guide med anpassad lagring](./save-html-as-zip-in-c-complete-guide-with-custom-storage/)
+Lär dig hur du sparar HTML som ZIP med anpassad lagring i C# med Aspose.HTML för .NET.
+### [Hur du zippar HTML med Aspose.HTML – Komplett guide](./how-to-zip-html-with-aspose-html-complete-guide/)
+Lär dig hur du zippar HTML-filer med Aspose.HTML i en komplett guide med kodexempel och steg-för-steg-instruktioner.
+### [Skapa PDF från HTML med Aspose – Steg‑för‑steg C#‑guide](./create-pdf-from-html-with-aspose-step-by-step-c-guide/)
+Lär dig hur du skapar PDF från HTML i C# med Aspose i en detaljerad steg‑för‑steg‑guide.
 
 ## Slutsats
 

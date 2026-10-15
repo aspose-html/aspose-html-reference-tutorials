@@ -81,6 +81,8 @@ Aprenda a agregar un elemento al cuerpo del documento HTML usando Aspose.HTML en
 Aprenda a buscar un elemento en un documento HTML y aplicar formato en negrita usando Aspose.HTML para .NET.
 ### [Cómo crear HTML y agregar elemento de estilo CSS – Guía paso a paso](./how-to-create-html-and-add-css-style-element-step-by-step-gu/)
 Aprenda a crear documentos HTML y añadir estilos CSS mediante un elemento `<style>` con ejemplos claros paso a paso.
+### [Crear documento HTML en C# – Guía paso a paso](./create-html-document-c-step-by-step-guide/)
+Aprenda a crear documentos HTML en C# con Aspose.HTML mediante una guía paso a paso con ejemplos claros.
 
 ## Conclusión
 

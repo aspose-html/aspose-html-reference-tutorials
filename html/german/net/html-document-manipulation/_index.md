@@ -83,6 +83,8 @@ Erfahren Sie, wie Sie mit einem benutzerdefinierten Ressourcen-Handler HTML aus 
 Erfahren Sie, wie Sie Text in HTML fett und kursiv formatieren, indem Sie Aspose.HTML für .NET in C# verwenden.
 ### [Element zum Body hinzufügen – Vollständiger C#-Leitfaden mit Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)
 Erfahren Sie, wie Sie mit Aspose.HTML in C# ein Element zum Body einer HTML-Datei hinzufügen.
+### [HTML-Dokument in C# erstellen – Schritt‑für‑Schritt‑Anleitung](./create-html-document-c-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML für .NET ein HTML-Dokument in C# Schritt für Schritt erstellen.
 
 ## Abschluss
 

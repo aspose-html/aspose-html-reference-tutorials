@@ -93,6 +93,8 @@ Kompletní návod, jak v C# pomocí Aspose.HTML převést HTML na PNG obrázek s
 Kompletní návod, jak pomocí Aspose.HTML v C# převést HTML na PNG s nastavením kvality a rozměrů.
 ### [Vytvořte HTML dokument v C# – renderování do PNG s vysokou kvalitou výstupu](./create-html-document-c-render-to-png-with-high-quality-outpu/)
 Naučte se vytvořit HTML dokument v C# a převést jej do PNG s vysokou kvalitou výstupu pomocí Aspose.HTML.
+### [Převod HTML na PNG – Kompletní průvodce C# s exportem ZIP](./convert-html-to-png-full-c-guide-with-zip-export/)
+Naučte se převést HTML na PNG v C# a výsledek zabalit do ZIP archivu pomocí Aspose.HTML.
 
 ## Závěr
 

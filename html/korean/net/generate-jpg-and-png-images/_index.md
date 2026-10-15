@@ -93,6 +93,8 @@ C#을 사용해 HTML을 PNG 이미지로 변환하는 전체 단계별 가이드
 C#을 사용해 HTML을 PNG 이미지로 변환하는 전체 과정과 핵심 설정을 단계별로 안내합니다.
 ### [HTML 문서 만들기 C# – 고품질 PNG 출력으로 렌더링](./create-html-document-c-render-to-png-with-high-quality-outpu/)
 C#을 사용해 HTML 문서를 생성하고 고품질 PNG 이미지로 렌더링하는 방법을 단계별로 안내합니다.
+### [HTML을 PNG로 변환 – ZIP 내보내기 포함 전체 C# 가이드](./convert-html-to-png-full-c-guide-with-zip-export/)
+HTML을 PNG 이미지로 변환하고 ZIP 파일로 내보내는 전체 C# 단계별 가이드를 제공합니다.
 
 ## 결론
 

@@ -81,6 +81,8 @@ Aspose.HTML for .NET 以其简单性和强大性脱颖而出。它使您能够�
 了解如何使用 Aspose.HTML 在 .NET 中查找元素并将其文字设置为粗体。
 ### [如何创建 HTML 并添加 CSS 样式元素 – 步骤指南](./how-to-create-html-and-add-css-style-element-step-by-step-gu/)
 了解如何使用 Aspose.HTML for .NET 创建 HTML 文档并嵌入 CSS 样式元素的完整步骤。
+### [在 C# 中创建 HTML 文档 – 步骤指南](./create-html-document-c-step-by-step-guide/)
+了解如何使用 Aspose.HTML for .NET 在 C# 中创建 HTML 文档的完整步骤和示例。
 
 ## 结论
 

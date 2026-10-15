@@ -85,6 +85,8 @@ Naučte se, jak pomocí Aspose.HTML v C# aplikacích aplikovat tučný a kurzív
 Naučte se, jak pomocí Aspose.HTML v C# přidat element do těla HTML dokumentu.
 ### [Jak vytvořit HTML a přidat CSS stylový prvek – krok za krokem](./how-to-create-html-and-add-css-style-element-step-by-step-gu/)
 Naučte se vytvořit HTML dokument a přidat do něj CSS stylový prvek pomocí podrobného krok‑za‑krokem průvodce.
+### [Vytvoření HTML dokumentu v C# – Průvodce krok za krokem](./create-html-document-c-step-by-step-guide/)
+Naučte se, jak vytvořit HTML dokument v C# pomocí Aspose.HTML krok po kroku.
 
 ## Závěr
 

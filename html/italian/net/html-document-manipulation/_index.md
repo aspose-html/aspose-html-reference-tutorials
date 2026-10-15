@@ -87,6 +87,8 @@ Scopri come aggiungere dinamicamente elementi al body di un documento HTML usand
 Scopri come generare un documento HTML e includere stili CSS direttamente nel codice, passo dopo passo con esempi chiari.
 ### [Creare documento HTML C# – Testo in grassetto e corsivo con font personalizzato](./create-html-document-c-bold-italic-text-with-custom-font/)
 Scopri come generare un documento HTML in C# con testo in grassetto e corsivo usando un font personalizzato.
+### [Creare documento HTML in C# – Guida passo‑a‑passo](./create-html-document-c-step-by-step-guide/)
+Scopri come creare un documento HTML in C# con Aspose.HTML, passo dopo passo, con esempi pratici e consigli utili.
 
 ## Conclusione
 

@@ -51,6 +51,8 @@ Aspose.HTML สำหรับ .NET ไม่ใช่แค่ไลบรา�
 กำหนดขนาดหน้ากระดาษ PDF ใน C# ขณะแปลง HTML เป็น PDF ด้วย Aspose.HTML สำหรับ .NET ตามขั้นตอนง่ายๆ
 ### [บทแนะนำ html to pdf – แปลง HTML เป็น PDF ใน C#](./html-to-pdf-tutorial-convert-html-to-pdf-in-c/)
 แปลง HTML เป็น PDF ใน C# อย่างง่ายดายด้วย Aspose.HTML ตามคำแนะนำทีละขั้นตอนของเรา
+### [สร้าง PDF จาก HTML ด้วย Aspose – คู่มือ C# ทีละขั้นตอน](./create-pdf-from-html-with-aspose-step-by-step-c-guide/)
+เรียนรู้วิธีสร้างไฟล์ PDF จาก HTML ด้วย Aspose.HTML ใน C# ตามขั้นตอนละเอียดของเรา
 ### [แปลง EPUB เป็นรูปภาพใน .NET ด้วย Aspose.HTML](./convert-epub-to-image/)
 เรียนรู้วิธีการแปลง EPUB เป็นรูปภาพโดยใช้ Aspose.HTML สำหรับ .NET บทช่วยสอนแบบทีละขั้นตอนพร้อมตัวอย่างโค้ดและตัวเลือกที่ปรับแต่งได้
 ### [แปลง EPUB เป็น PDF ใน .NET ด้วย Aspose.HTML](./convert-epub-to-pdf/)
@@ -71,6 +73,8 @@ Aspose.HTML สำหรับ .NET ไม่ใช่แค่ไลบรา�
 แปลง HTML เป็น MHTML ใน .NET ด้วย Aspose.HTML - คำแนะนำทีละขั้นตอนสำหรับการเก็บถาวรเนื้อหาเว็บอย่างมีประสิทธิภาพ เรียนรู้วิธีใช้ Aspose.HTML สำหรับ .NET เพื่อสร้างไฟล์เก็บถาวร MHTML
 ### [แปลง HTML เป็น PNG ใน .NET ด้วย Aspose.HTML](./convert-html-to-png/)
 ค้นพบวิธีใช้ Aspose.HTML สำหรับ .NET เพื่อจัดการและแปลงเอกสาร HTML คำแนะนำทีละขั้นตอนสำหรับการพัฒนา .NET ที่มีประสิทธิภาพ
+### [แปลง HTML เป็นรูปภาพใน C# – คู่มือเต็ม](./convert-html-to-image-in-c-complete-guide/)
+เรียนรู้วิธีแปลง HTML เป็นรูปภาพใน C# อย่างละเอียดด้วย Aspose.HTML คู่มือขั้นตอนเต็มสำหรับนักพัฒนา
 ### [แปลง HTML เป็น TIFF ใน .NET ด้วย Aspose.HTML](./convert-html-to-tiff/)
 เรียนรู้วิธีแปลง HTML เป็น TIFF ด้วย Aspose.HTML สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อเพิ่มประสิทธิภาพเนื้อหาเว็บอย่างมีประสิทธิภาพ
 ### [แปลง HTML เป็น XPS ใน .NET ด้วย Aspose.HTML](./convert-html-to-xps/)
@@ -147,6 +151,10 @@ Aspose.HTML สำหรับ .NET ไม่ใช่แค่ไลบรา�
 เรียนรู้วิธีสร้าง PDF จาก HTML ด้วย C# พร้อมการทำ Antialiasing อย่างละเอียดในคู่มือเต็มรูปแบบ
 ### [สร้างไฟล์เก็บ HTML จาก DOCX – คู่มือเต็ม](./create-html-archive-from-docx-step-by-step-guide/)
 เรียนรู้วิธีสร้างไฟล์เก็บ HTML จากเอกสาร DOCX ด้วย Aspose.HTML สำหรับ .NET ตามขั้นตอนละเอียดและตัวอย่างโค้ด
+### [บันทึก HTML เป็น ZIP ใน C# – คู่มือเต็มพร้อมที่จัดเก็บแบบกำหนดเอง](./save-html-as-zip-in-c-complete-guide-with-custom-storage/)
+บันทึก HTML เป็นไฟล์ ZIP ด้วย C# พร้อมการจัดเก็บแบบกำหนดเองอย่างละเอียด
+### [วิธีบีบอัด HTML เป็น Zip ด้วย Aspose.HTML – คู่มือเต็ม](./how-to-zip-html-with-aspose-html-complete-guide/)
+เรียนรู้วิธีบีบอัดไฟล์ HTML เป็น Zip อย่างละเอียดด้วย Aspose.HTML สำหรับ .NET พร้อมขั้นตอนและตัวอย่างโค้ดครบถ้วน
 
 ## บทสรุป
 

@@ -82,6 +82,8 @@ url: /el/net/html-document-manipulation/
 Μάθετε πώς να εντοπίζετε ένα στοιχείο HTML και να το κάνετε έντονο χρησιμοποιώντας το Aspose.HTML για .NET.
 ### [Πώς να δημιουργήσετε HTML και να προσθέσετε στοιχείο CSS Style – Οδηγός βήμα‑βήμα](./how-to-create-html-and-add-css-style-element-step-by-step-gu/)
 Μάθετε πώς να δημιουργήσετε ένα έγγραφο HTML και να ενσωματώσετε ένα στοιχείο CSS Style με οδηγίες βήμα‑βήμα.
+### [Δημιουργία εγγράφου HTML C# – Οδηγός βήμα‑βήμα](./create-html-document-c-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε έγγραφο HTML σε C# με οδηγίες βήμα‑βήμα.
 
 ## Σύναψη
 

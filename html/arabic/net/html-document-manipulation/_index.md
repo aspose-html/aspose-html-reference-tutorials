@@ -83,6 +83,8 @@ url: /ar/net/html-document-manipulation/
 تعلم كيفية إضافة عنصر إلى جسم مستند HTML باستخدام Aspose.HTML في C# خطوة بخطوة.
 ### [كيفية إنشاء HTML وإضافة عنصر نمط CSS – دليل خطوة بخطوة](./how-to-create-html-and-add-css-style-element-step-by-step-gu/)
 تعلم كيفية إنشاء مستند HTML وإضافة عنصر CSS لتنسيق المحتوى خطوة بخطوة باستخدام Aspose.HTML.
+### [إنشاء مستند HTML باستخدام C# – دليل خطوة بخطوة](./create-html-document-c-step-by-step-guide/)
+تعرف على كيفية إنشاء مستند HTML باستخدام C# مع Aspose.HTML عبر دليل خطوة بخطوة.
 
 ## خاتمة
 

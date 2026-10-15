@@ -87,6 +87,8 @@ Pelajari cara menambahkan elemen ke body dokumen HTML menggunakan Aspose.HTML de
 Pelajari cara menemukan elemen dalam dokumen HTML dan menerapkan format tebal menggunakan Aspose.HTML untuk .NET.
 ### [Cara Membuat HTML dan Menambahkan Elemen Gaya CSS – Panduan Langkah‑per‑Langkah](./how-to-create-html-and-add-css-style-element-step-by-step-gu/)
 Pelajari cara membuat dokumen HTML dari awal dan menambahkan elemen CSS secara dinamis dengan contoh kode lengkap.
+### [Buat Dokumen HTML C# – Panduan Langkah demi Langkah](./create-html-document-c-step-by-step-guide/)
+Pelajari cara membuat dokumen HTML menggunakan C# dengan panduan langkah demi langkah lengkap.
 
 ## Kesimpulan
 

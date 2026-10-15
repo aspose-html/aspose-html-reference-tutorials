@@ -81,6 +81,8 @@ Hướng dẫn chi tiết cách thêm phần tử vào phần thân HTML bằng 
 Hướng dẫn cách sử dụng Aspose.HTML để tìm một phần tử trong tài liệu HTML và áp dụng định dạng in đậm.
 ### [Cách tạo HTML và thêm phần tử CSS Style – Hướng dẫn từng bước](./how-to-create-html-and-add-css-style-element-step-by-step-gu/)
 Hướng dẫn chi tiết cách tạo tài liệu HTML và chèn phần tử CSS Style bằng Aspose.HTML cho .NET.
+### [Tạo tài liệu HTML C# – Hướng dẫn từng bước](./create-html-document-c-step-by-step-guide/)
+Học cách tạo tài liệu HTML trong C# bằng Aspose.HTML qua các bước chi tiết và ví dụ thực tế.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

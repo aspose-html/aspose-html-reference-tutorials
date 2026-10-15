@@ -81,6 +81,8 @@ Aspose.HTML для .NET выделяется своей простотой и м
 Узнайте, как находить элементы в HTML и применять к ним полужирное форматирование с помощью Aspose.HTML.
 ### [Как создать HTML и добавить элемент CSS‑стилей – пошаговое руководство](./how-to-create-html-and-add-css-style-element-step-by-step-gu/)
 Узнайте, как создавать HTML‑документы и добавлять CSS‑стили с помощью Aspose.HTML в .NET, следуя пошаговым инструкциям.
+### [Создание HTML‑документа C# – пошаговое руководство](./create-html-document-c-step-by-step-guide/)
+Узнайте, как создавать HTML‑документы в C# с помощью Aspose.HTML, следуя пошаговым инструкциям и примерам.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

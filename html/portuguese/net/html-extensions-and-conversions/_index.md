@@ -72,6 +72,8 @@ Aprenda a criar PDF a partir de HTML usando Aspose em um guia passo a passo comp
 Aprenda a criar PDFs a partir de HTML usando Aspose.HTML em um guia completo passo a passo.
 ### [Criar PDF a partir de HTML – Guia completo em C# com antialiasing](./create-pdf-from-html-full-c-guide-with-antialiasing/)
 Aprenda a gerar PDFs de alta qualidade a partir de HTML usando C# e Aspose.HTML, com suporte a antialiasing para renderização suave.
+### [Criar PDF a partir de HTML com Aspose – Guia passo a passo em C#](./create-pdf-from-html-with-aspose-step-by-step-c-guide/)
+Aprenda a criar um PDF a partir de HTML usando Aspose em C# com um guia passo a passo.
 
 ### [Criar documento HTML com texto estilizado e exportar para PDF – Guia completo](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Aprenda a criar um documento HTML com texto formatado e exportá-lo para PDF usando Aspose.HTML para .NET. Guia passo a passo.
@@ -102,6 +104,8 @@ Aprenda como converter HTML para TIFF com Aspose.HTML para .NET. Siga nosso guia
 ### [Converter HTML para XPS em .NET com Aspose.HTML](./convert-html-to-xps/)
 Descubra o poder do Aspose.HTML para .NET: Converta HTML para XPS sem esforço. Pré-requisitos, guia passo a passo e FAQs inclusos.
 ### [Criar PDF a partir de URL – Guia Completo em C#](./create-pdf-from-url-complete-c-guide/)
+### [Converter HTML para Imagem em C# – Guia Completo](./convert-html-to-image-in-c-complete-guide/)
+Aprenda a converter HTML em imagens usando C# com Aspose.HTML, seguindo um guia passo a passo completo.
 ### [Salvar HTML como ZIP – Tutorial Completo em C#](./save-html-as-zip-complete-c-tutorial/)
 Aprenda a salvar documentos HTML em arquivos ZIP usando Aspose.HTML para .NET com um tutorial passo a passo em C#.
 ### [Manipulador de Recurso Personalizado em C# – Tutorial de Conversão de HTML para ZIP](./custom-resource-handler-in-c-convert-html-to-zip-tutorial/)
@@ -167,6 +171,12 @@ Aprenda a exportar uma página da web como arquivo ZIP usando Aspose.HTML para .
 
 ### [Criar arquivo HTML a partir de DOCX – Guia passo a passo](./create-html-archive-from-docx-step-by-step-guide/)
 Aprenda a criar um arquivo HTML a partir de um documento DOCX usando Aspose.HTML para .NET. Guia passo a passo com exemplos de código.
+
+### [Salvar HTML como ZIP em C# – Guia Completo com Armazenamento Personalizado](./save-html-as-zip-in-c-complete-guide-with-custom-storage/)
+Aprenda a salvar documentos HTML em arquivos ZIP usando armazenamento personalizado com Aspose.HTML para .NET em C#.
+
+### [Como compactar HTML com Aspose.HTML – Guia Completo](./how-to-zip-html-with-aspose-html-complete-guide/)
+Aprenda a compactar arquivos HTML em ZIP usando Aspose.HTML para .NET com um guia passo a passo completo.
 
 ## Conclusão
 

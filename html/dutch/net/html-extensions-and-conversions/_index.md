@@ -95,6 +95,12 @@ Leer hoe u HTML-bestanden comprimeert naar een ZIP‑archief, HTML laadt en een 
 Leer stap voor stap hoe u HTML-bestanden comprimeert naar een ZIP-archief met C# en Aspose.HTML voor .NET.
 ### [HTML zippen in C# – Webpagina exporteren naar ZIP met Aspose.HTML](./how-to-zip-html-in-c-export-webpage-to-zip-with-aspose-html/)
 Leer hoe u een HTML-pagina comprimeert en opslaat als ZIP‑bestand met C# en Aspose.HTML.
+### [Converteer HTML naar afbeelding in C# – Complete gids](./convert-html-to-image-in-c-complete-guide/)
+Leer stap voor stap hoe u HTML naar verschillende afbeeldingsformaten converteert met Aspose.HTML voor .NET in C#.
+### [HTML opslaan als ZIP in C# – Complete gids met aangepaste opslag](./save-html-as-zip-in-c-complete-guide-with-custom-storage/)
+Leer hoe u HTML-bestanden opslaat als ZIP met C# en aangepaste opslagopties via Aspose.HTML voor .NET.
+### [HTML zippen met Aspose.HTML – Complete gids](./how-to-zip-html-with-aspose-html-complete-guide/)
+Leer stap voor stap hoe u HTML-bestanden comprimeert naar een ZIP‑archief met Aspose.HTML in .NET.
 ### [Maak HTML-document met opgemaakte tekst en exporteer naar PDF – Volledige gids](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Leer hoe u een HTML-document met opgemaakte tekst maakt en deze volledig naar PDF exporteert met Aspose.HTML voor .NET.
 ### [Maak PDF van HTML – C# Stapsgewijze handleiding](./create-pdf-from-html-c-step-by-step-guide/)
@@ -147,6 +153,8 @@ Leer hoe u een aangepaste resourcehandler implementeert in C# om HTML te laden e
 Leer hoe u HTML-inhoud omzet naar een string in C# met Aspose.HTML in deze volledige stap‑voor‑stap gids.
 ### [HTML-archief maken van DOCX – Stapsgewijze handleiding](./create-html-archive-from-docx-step-by-step-guide/)
 Leer hoe u een HTML-archief maakt vanuit een DOCX-bestand met Aspose.HTML voor .NET. Volg de stapsgewijze handleiding.
+### [PDF maken van HTML met Aspose – Stapsgewijze C#‑gids](./create-pdf-from-html-with-aspose-step-by-step-c-guide/)
+Leer hoe u PDF's genereert vanuit HTML met Aspose.HTML voor .NET met een duidelijke C# stap‑voor‑stap handleiding.
 
 ## Conclusie
 

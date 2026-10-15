@@ -82,6 +82,8 @@ Aspose.HTML を使用して HTML ドキュメント内の特定要素を検索�
 
 ### [HTML を作成し、CSS スタイル要素を追加する – ステップバイステップ ガイド](./how-to-create-html-and-add-css-style-element-step-by-step-gu/)
 HTML を作成し、CSS スタイル要素を追加する手順を詳しく解説します。
+### [C# で HTML ドキュメントを作成 – ステップバイステップ ガイド](./create-html-document-c-step-by-step-guide/)
+C# を使用して HTML ドキュメントを作成し、カスタム リソース ハンドラを活用する手順を詳しく紹介します。
 
 ## 結論
 

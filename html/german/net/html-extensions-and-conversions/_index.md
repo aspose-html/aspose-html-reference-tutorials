@@ -148,6 +148,14 @@ Erfahren Sie, wie Sie mit Aspose.HTML für .NET einen benutzerdefinierten Ressou
 Erfahren Sie, wie Sie HTML-Inhalte mit Aspose.HTML für .NET in ein ZIP-Archiv komprimieren und speichern – Schritt‑für‑Schritt‑Anleitung.
 ### [HTML in String in C# mit Aspose.HTML – Komplettanleitung](./convert-html-to-string-in-c-with-aspose-html-complete-guide/)
 Erfahren Sie, wie Sie HTML-Inhalte mit Aspose.HTML für .NET in einen String konvertieren. Schritt‑für‑Schritt‑Anleitung inklusive Codebeispielen.
+### [HTML in Bild konvertieren – Komplettanleitung für C#](./convert-html-to-image-in-c-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in Bildformate konvertieren. Schritt‑für‑Schritt‑Anleitung mit Codebeispielen und Optionen.
+### [HTML zippen mit Aspose.HTML – Komplettanleitung](./how-to-zip-html-with-aspose-html-complete-guide/)
+Erfahren Sie, wie Sie HTML‑Inhalte mit Aspose.HTML in ein ZIP‑Archiv komprimieren und speichern – vollständige Schritt‑für‑Schritt‑Anleitung.
+### [PDF aus HTML mit Aspose erstellen – Schritt‑für‑Schritt C#‑Leitfaden](./create-pdf-from-html-with-aspose-step-by-step-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML für .NET PDF aus HTML erstellen. Detaillierte Schritt‑für‑Schritt‑Anleitung in C#.
+### [HTML als ZIP speichern in C# – Vollständige Anleitung mit benutzerdefiniertem Speicher](./save-html-as-zip-in-c-complete-guide-with-custom-storage/)
+Erfahren Sie, wie Sie HTML‑Inhalte mit Aspose.HTML für .NET in ein ZIP‑Archiv mit benutzerdefiniertem Speicher komprimieren und speichern.
 
 ## Abschluss
 

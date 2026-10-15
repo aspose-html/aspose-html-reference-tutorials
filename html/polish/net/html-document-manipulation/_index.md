@@ -81,6 +81,8 @@ Dowiedz się, jak generować dokumenty HTML z łańcucha znaków w C# przy użyc
 Dowiedz się, jak w C# zastosować pogrubienie i kursywę w HTML przy użyciu Aspose.HTML.
 ### [Jak tworzyć HTML przy użyciu Aspose – Znajdź element, zastosuj pogrubienie](./how-to-create-html-with-aspose-find-element-apply-bold/)
 Dowiedz się, jak znaleźć określony element w dokumencie HTML i zastosować do niego pogrubienie przy użyciu Aspose.HTML.
+### [Tworzenie dokumentu HTML w C# – Przewodnik krok po kroku](./create-html-document-c-step-by-step-guide/)
+Poznaj, jak w prosty sposób utworzyć dokument HTML w C# przy użyciu Aspose.HTML, krok po kroku z przykładami.
 
 ## Wniosek
 

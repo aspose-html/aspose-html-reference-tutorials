@@ -93,6 +93,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML in C# HTML in hochwertige PNG-Bilder konve
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in PNG-Bilder konvertieren – Schritt‑für‑Schritt‑Anleitung in C#.
 ### [HTML-Dokument in C# erstellen – Rendern zu PNG mit hoher Qualitätsausgabe](./create-html-document-c-render-to-png-with-high-quality-outpu/)
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET ein HTML-Dokument in C# erzeugen und es mit hoher Qualität als PNG rendern.
+### [HTML in PNG konvertieren – Vollständiger C#‑Leitfaden mit ZIP‑Export](./convert-html-to-png-full-c-guide-with-zip-export/)
+Erfahren Sie, wie Sie HTML in PNG-Bilder umwandeln und die Ergebnisse in ein ZIP-Archiv exportieren – komplette C#‑Anleitung.
 
 ## Abschluss
 

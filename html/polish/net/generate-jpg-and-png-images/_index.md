@@ -93,6 +93,8 @@ Kompletny przewodnik, jak wygenerować plik PNG z kodu HTML w C# przy użyciu bi
 Pełny przewodnik po renderowaniu HTML do formatu PNG w C#, krok po kroku, z przykładami kodu i najlepszymi praktykami.
 ### [Utwórz dokument HTML w C# – renderuj do PNG z wysoką jakością](./create-html-document-c-render-to-png-with-high-quality-outpu/)
 Dowiedz się, jak w C# utworzyć dokument HTML i wyrenderować go do pliku PNG o wysokiej jakości przy użyciu Aspose.HTML.
+### [Konwertuj HTML do PNG – Pełny przewodnik C# z eksportem ZIP](./convert-html-to-png-full-c-guide-with-zip-export/)
+Kompletny samouczek w C#, który pokazuje, jak konwertować HTML do PNG i zapisywać wyniki w archiwum ZIP.
 
 ## Wniosek
 

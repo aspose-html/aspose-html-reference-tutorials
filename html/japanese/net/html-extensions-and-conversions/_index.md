@@ -65,6 +65,8 @@ Aspose.HTML for .NET を使用して、HTML から PDF を作成する手順を�
 ### [Aspose.HTML を使用して HTML から PDF を作成する – 完全ガイド](./create-pdf-from-html-complete-guide-with-aspose-html/)
 Aspose.HTML for .NET を活用し、HTML から PDF を作成する手順を詳細に解説した完全ガイドです。
 ### [HTML から PDF を作成 – アンチエイリアシング対応 完全 C# ガイド](./create-pdf-from-html-full-c-guide-with-antialiasing/)
+### [Aspose を使用して HTML から PDF を作成する – ステップバイステップ C# ガイド](./create-pdf-from-html-with-aspose-step-by-step-c-guide/)
+Aspose.HTML for .NET を使用し、C# で HTML から PDF を作成する手順を詳細に解説します。
 
 ### [スタイル付きテキストで HTML ドキュメントを作成し、PDF にエクスポートする – 完全ガイド](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Aspose.HTML for .NET を使用して、スタイル付きテキストを含む HTML ドキュメントを作成し、PDF にエクスポートする手順を詳しく解説します。
@@ -79,6 +81,11 @@ Aspose.HTML for .NET を使用して、スタイル付きテキストを含む H
 効率的なコンテンツ操作のために、Aspose.HTML を使用して、.NET で HTML を Markdown に変換する方法を学びます。シームレスな変換プロセスのためのステップバイステップのガイダンスを入手します。
 ### [Aspose.HTML を使用して .NET で HTML を MHTML に変換する](./convert-html-to-mhtml/)
 ### [Aspose.HTML を使用して .NET で HTML を PNG に変換する](./convert-html-to-png/)
+Aspose.HTML for .NET を使用して HTML ドキュメントを操作および変換する方法を学びます。効果的な .NET 開発のためのステップバイステップ ガイドです。
+
+### [C# で HTML を画像に変換する – 完全ガイド](./convert-html-to-image-in-c-complete-guide/)
+Aspose.HTML for .NET を使用して、C# で HTML を画像に変換する方法をステップバイステップで解説します。
+
 ### [Aspose.HTML を使用して .NET で HTML を TIFF に変換する](./convert-html-to-tiff/)
 ### [Aspose.HTML を使用して .NET で HTML を XPS に変換する](./convert-html-to-xps/)
 ### [URL から PDF を作成 – 完全 C# ガイド](./create-pdf-from-url-complete-c-guide/)
@@ -155,6 +162,12 @@ Aspose.HTML for .NET を使用して、C# で HTML コンテンツを ZIP アー
 
 ### [DOCX から HTML アーカイブを作成する – ステップバイステップ ガイド](./create-html-archive-from-docx-step-by-step-guide/)
 Aspose.HTML for .NET を使用して、DOCX ファイルから HTML アーカイブを作成する手順をステップバイステップで解説します。
+
+### [C# で HTML を ZIP として保存 – カスタムストレージを使用した完全ガイド](./save-html-as-zip-in-c-complete-guide-with-custom-storage/)
+Aspose.HTML for .NET を使用し、カスタムストレージに HTML を ZIP アーカイブとして保存する完全な手順を解説します。
+
+### [Aspose.HTML を使用して HTML を Zip に圧縮する – 完全ガイド](./how-to-zip-html-with-aspose-html-complete-guide/)
+Aspose.HTML を活用し、HTML コンテンツを Zip アーカイブにまとめる手順を完全に解説します。
 
 ## 結論
 

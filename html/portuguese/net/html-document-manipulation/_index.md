@@ -79,6 +79,8 @@ Aprenda a aplicar estilos de negrito e itálico em elementos HTML usando C# com 
 Aprenda a localizar um elemento no HTML e aplicar formatação em negrito usando Aspose.HTML para .NET.
 ### [Como criar HTML e adicionar elemento de estilo CSS – Guia passo a passo](./how-to-create-html-and-add-css-style-element-step-by-step-gu/)
 Aprenda a gerar documentos HTML e inserir estilos CSS de forma programática com Aspose.HTML para .NET. Guia detalhado passo a passo.
+### [Criar documento HTML em C# – Guia passo a passo](./create-html-document-c-step-by-step-guide/)
+Aprenda a criar documentos HTML em C# usando Aspose.HTML com instruções detalhadas passo a passo.
 
 ## Conclusão
 

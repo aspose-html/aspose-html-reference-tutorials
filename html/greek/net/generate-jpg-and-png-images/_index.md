@@ -93,6 +93,8 @@ url: /el/net/generate-jpg-and-png-images/
 Μάθετε πώς να μετατρέψετε HTML σε PNG με έναν ολοκληρωμένο οδηγό C#.
 ### [Δημιουργία εγγράφου HTML C# – Απόδοση σε PNG με υψηλής ποιότητας έξοδο](./create-html-document-c-render-to-png-with-high-quality-outpu/)
 Μάθετε πώς να δημιουργήσετε ένα έγγραφο HTML σε C# και να το αποδώσετε σε PNG με υψηλή ποιότητα.
+### [Μετατροπή HTML σε PNG – Πλήρης Οδηγός C# με Εξαγωγή ZIP](./convert-html-to-png-full-c-guide-with-zip-export/)
+Μάθετε πώς να μετατρέψετε HTML σε PNG με πλήρη οδηγό C# και εξαγωγή σε αρχείο ZIP.
 
 ## Σύναψη
 
