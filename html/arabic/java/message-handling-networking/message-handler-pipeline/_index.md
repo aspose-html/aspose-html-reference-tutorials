@@ -1,34 +1,48 @@
 ---
-title: إنشاء خطوط أنابيب معالجة الرسائل في Aspose.HTML لـ Java
-linktitle: إنشاء خطوط أنابيب معالجة الرسائل في Aspose.HTML لـ Java
-second_title: معالجة HTML باستخدام Java مع Aspose.HTML
-description: تعرف على كيفية إنشاء خطوط أنابيب معالجة الرسائل في Aspose.HTML for Java باستخدام هذا الدليل المفصل خطوة بخطوة. قم بتحويل ملفات ZIP إلى PDF بسهولة.
-weight: 13
+date: 2026-02-23
+description: تعلم كيفية تحويل ملفات zip إلى PDF باستخدام Aspose.HTML للغة Java. يوضح
+  هذا الدليل خطوة بخطوة كيفية تكوين خدمة الشبكة، وإضافة معالج مخصص، وتسجيل مدة الطلب.
+linktitle: Creating Message Handler Pipelines in Aspose.HTML
+second_title: Java HTML Processing with Aspose.HTML
+title: كيفية تحويل ZIP إلى PDF باستخدام Aspose.HTML للـ Java
 url: /ar/java/message-handling-networking/message-handler-pipeline/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إنشاء خطوط أنابيب معالجة الرسائل في Aspose.HTML لـ Java
+# كيفية تحويل ZIP إلى PDF باستخدام Aspose.HTML for Java
 
-## مقدمة
-في هذا الدليل، سنلقي نظرة عن كثب على كيفية إنشاء خطوط أنابيب معالجة الرسائل باستخدام Aspose.HTML. سواء كنت مطورًا متمرسًا أو مبتدئًا في البرمجة وتبحث عن تحسين مهاراتك، فسيوفر لك هذا البرنامج التعليمي جميع التعليمات والنصائح والحيل الأساسية خطوة بخطوة التي تحتاجها للبدء في استخدام هذه المكتبة الرائعة. فلنبدأ!
-## المتطلبات الأساسية
-قبل أن ننتقل إلى التفاصيل الدقيقة، هناك بعض المتطلبات الأساسية التي يجب أن تتوفر لديك لضمان تجربة سلسة مع Aspose.HTML لـ Java. إليك ما تحتاجه:
-### 1. مجموعة تطوير جافا (JDK)
-تأكد من تثبيت JDK على جهازك. يتطلب Aspose.HTML JDK 8 أو أعلى. يمكنك تنزيله من موقع Oracle على الويب أو استخدام بدائل مثل OpenJDK.
-### 2. Aspose.HTML لمكتبة Java
- للاستفادة من كافة الوظائف، تحتاج إلى تنزيل مكتبة Aspose.HTML for Java. يمكنك الحصول عليها من[تنزيلات Aspose](https://releases.aspose.com/html/java/) صفحة.
-### 3. بيئة تطوير متكاملة
-إن استخدام بيئة التطوير المتكاملة (IDE) مثل IntelliJ IDEA أو Eclipse أو NetBeans يمكن أن يعمل على تبسيط عملية التطوير الخاصة بك، لذا قم بإعداد بيئة التطوير المتكاملة وكن مستعدًا للاستخدام!
-### 4. فهم أساسي للغة جافا
-رغم أنك لست بحاجة إلى أن تكون خبيرًا، فإن امتلاك المعرفة الأساسية ببرمجة Java سيجعل من السهل متابعة هذا الدليل.
-### 5. المعرفة الأساسية بلغة HTML
-يمكن أن تساعدك المعرفة بـ HTML على فهم سياق الملفات التي تعمل عليها، مما يجعل عملية التحويل أكثر وضوحًا.
+## المقدمة
+في هذا الدرس الشامل ستكتشف **كيفية تحويل zip** إلى مستندات PDF باستخدام Aspose.HTML for Java. سنستعرض بناء خط أنابيب معالج الرسائل، تكوين خدمة الشبكة، إضافة معالج مخصص، وتسجيل مدة الطلب—كل ذلك مع الحفاظ على وضوح الكود وقابليته للتنفيذ. سواءً كنت تقوم بأتمتة إنشاء التقارير أو تحتاج إلى طريقة موثوقة لتعبئة محتوى HTML كملف PDF، فإن هذا الدليل يغطي كل ما تحتاجه.
+
+## إجابات سريعة
+- **ماذا يفعل خط الأنابيب؟** يقوم بمعالجة ملف ZIP، استخراج HTML، وتحويله إلى PDF.  
+- **أي معالج يسجل المدة؟** `StartRequestDurationLoggingMessageHandler` و `StopRequestDurationLoggingMessageHandler`.  
+- **هل أحتاج إلى ترخيص؟** النسخة التجريبية المجانية تعمل للاختبار؛ يلزم ترخيص تجاري للإنتاج.  
+- **هل يمكنني تغيير مسار الإخراج؟** نعم—قم بتعديل المتغير `savePath` في الخطوة 1.  
+- **ما نسخة Java المطلوبة؟** JDK 8 أو أعلى.
+
+## ما هو خط أنابيب معالج الرسائل؟
+خط أنابيب معالج الرسائل هو سلسلة قابلة للتكوين من مكونات المعالجة التي تعترض طلبات الشبكة التي تُنشئها Aspose.HTML. من خلال إدراج معالجات مخصصة يمكنك التحكم في كيفية جلب الموارد، تحويلها، وتسجيلها—وهو مثالي للسيناريوهات مثل تحويل أرشيف ZIP إلى PDF.
+
+## لماذا نستخدم خط أنابيب لتحويل ZIP إلى PDF؟
+- **تحكم دقيق** – أضف، أعد ترتيب، أو احذف المعالجات لتناسب سير عملك.  
+- **رؤى الأداء** – سجل مدة الطلب لتحديد نقاط الاختناق.  
+- **قابلية التوسيع** – أدمج منطقك الخاص (مثل المصادقة، التخزين المؤقت).  
+- **الموثوقية** – المكتبة تتعامل مع الحالات الحدية مثل HTML غير صالح تلقائيًا.
+
+## المتطلبات المسبقة
+- **Java Development Kit (JDK) 8+** – تأكد من أن `java -version` يُظهر 8 أو أحدث.  
+- **مكتبة Aspose.HTML for Java** – حمّلها من صفحة [Aspose downloads](https://releases.aspose.com/html/java/).  
+- **بيئة تطوير متكاملة (IDE)** – IntelliJ IDEA أو Eclipse أو NetBeans ستسهل كتابة الكود.  
+- **معرفة أساسية بـ Java و HTML** – مفيدة لكنها ليست إلزامية.
+
 ## استيراد الحزم
-الآن بعد أن قمت بتغطية المتطلبات الأساسية، حان الوقت لاستيراد الحزم اللازمة. للعمل مع Aspose.HTML في مشروع Java الخاص بك، تحتاج إلى تضمين مكتبة Aspose.HTML في الكود الخاص بك. إليك كيفية القيام بذلك:
+للبدء، استورد الفئات التي سنحتاجها. هذه الاستيرادات تمنحنا الوصول إلى ميزات التكوين، الشبكات، وتوليد PDF.
+
 ```java
 import com.aspose.html.Configuration;
 import com.aspose.html.HTMLDocument;
@@ -36,95 +50,115 @@ import com.aspose.html.net.MessageHandlerCollection;
 import com.aspose.html.rendering.pdf.PdfDevice;
 import com.aspose.html.services.INetworkService;
 ```
-الآن بعد أن هيأنا المسرح، فلنبدأ في شرح كيفية إنشاء خطوط أنابيب معالجة الرسائل باستخدام مقتطف التعليمات البرمجية المقدم. وسنقوم بتحليل كل خطوة من أجل الوضوح.
-## الخطوة 1: إعداد المسارات للملفات
 
+## دليل خطوة بخطوة
+
+### الخطوة 1: إعداد مسارات الملفات
 ```java
-// إعداد المسار إلى ملف zip المصدر
+// Prepare path to a source zip file
 String documentPath = "input/test.zip";
-// إعداد المسار لحفظ الملف المحول
+// Prepare path for converted file saving
 String savePath = "output/zip-to-pdf-duration.pdf";
 ```
+عيّن `documentPath` إلى ملف ZIP الذي يحتوي على ملفات HTML الخاصة بك و `savePath` إلى المسار الذي تريد حفظ ملف PDF النهائي فيه.
 
- أولاً وقبل كل شيء، نحتاج إلى تعيين المسارات لملف ZIP المصدر وملف PDF الناتج. هنا،`documentPath` هو المكان الذي تحدد فيه المسار إلى ملف ZIP المدخل الذي يحتوي على محتوى HTML الخاص بك، و`savePath`هذا هو المكان الذي سيتم فيه حفظ ملف PDF المُحوَّل. من المهم التأكد من صحة هذه المسارات لتجنب أخطاء عدم العثور على الملف لاحقًا.
-## الخطوة 2: إنشاء مثيل تكوين
-
+### الخطوة 2: إنشاء كائن Configuration
 ```java
-// إنشاء مثيل لفئة التكوين
+// Create an instance of the Configuration class
 Configuration configuration = new Configuration();
 ```
+كائن `Configuration` هو الأساس لتخصيص خط أنابيب المعالجة.
 
-نحن بحاجة إلى إنشاء مثيل تكوين يسمح لنا بإعداد مستندنا وخط أنابيب المعالجة الخاص به. فكر في فئة التكوين باعتبارها دليل الإعداد الخاص بمؤسستك - كل شيء جاهز لمعالجة المستندات بشكل فعال.
-## الخطوة 3: تهيئة خدمة الشبكة
-
+### الخطوة 3: تهيئة خدمة الشبكة
 ```java
 INetworkService service = configuration.getService(INetworkService.class);
 MessageHandlerCollection handlers = service.getMessageHandlers();
 ```
+هنا نقوم **بتكوين خدمة الشبكة** والحصول على `MessageHandlerCollection`، وهي صندوق الأدوات لإضافة المعالجات المخصصة.
 
- هنا، نقوم بتهيئة`INetworkService` الذي يتعامل مع الاتصالات ومعالجة معالجات الرسائل لدينا. كما نقوم أيضًا باسترجاع`MessageHandlerCollection`، وهي في الأساس مجموعة أدواتنا لإضافة وإدارة معالجات مختلفة عبر خط الأنابيب.
-## الخطوة 4: إضافة معالج رسائل ملف ZIP
-
+### الخطوة 4: إضافة معالج رسائل ملف ZIP
 ```java
-// مخطط مخصص: ZIP. أضف ZipFileSchemaMessageHandler إلى نهاية خط الأنابيب
+// Custom Schema: ZIP. Add ZipFileSchemaMessageHandler to the end of the pipeline
 handlers.addItem(new ZIPFileSchemaMessageHandler(documentPath));
 ```
+من خلال **إضافة معالج مخصص** (`ZIPFileSchemaMessageHandler`) نخبر Aspose.HTML كيف يتعامل مع ملف ZIP كنظام ملفات افتراضي.
 
- الآن يأتي الجزء الممتع! نضيف`ZIPFileSchemaMessageHandler`، وهو المسؤول عن معالجة ملف ZIP الخاص بنا. يعمل هذا المعالج خلف الكواليس لأخذ ملفات HTML داخل ملف ZIP وإعدادها لعملية التحويل. تخيله كما لو كان الفرد يفرز العناصر قبل وصولها إلى خط التجميع الرئيسي!
-## الخطوة 5: إدراج معالج تسجيل مدة طلب البدء
-
+### الخطوة 5: إدراج معالج تسجيل مدة بدء الطلب
 ```java
-// تسجيل المدة. أضف StartRequestDurationLoggingMessageHandler في المقام الأول في خط الأنابيب
+// Duration Logging. Add the StartRequestDurationLoggingMessageHandler at the first place in the pipeline
 handlers.insertItem(0, new StartRequestDurationLoggingMessageHandler());
 ```
+هذا المعالج **يسجل مدة الطلب** في بداية خط الأنابيب، مما يمنحك طابعًا زمنيًا لبدء المعالجة.
 
- بعد ذلك، نريد تتبع المدة التي تستغرقها معالجة طلبنا. ونحقق ذلك عن طريق إدخال`StartRequestDurationLoggingMessageHandler` في بداية خط الأنابيب الخاص بنا. الأمر أشبه بضبط مؤقت في بداية السباق حتى نتمكن من تسجيل مدى كفاءة عمل نظامنا!
-## الخطوة 6: إضافة معالج تسجيل مدة طلب التوقف
-
+### الخطوة 6: إضافة معالج تسجيل مدة إيقاف الطلب
 ```java
-// أضف StopRequestDurationLoggingMessageHandler إلى نهاية خط الأنابيب
+// Add the StopRequestDurationLoggingMessageHandler to the end of the pipeline
 handlers.addItem(new StopRequestDurationLoggingMessageHandler());
 ```
+وضعه في النهاية يتيح لك التقاط الوقت الكلي المستغرق لتحويل ZIP إلى PDF.
 
- وبالمثل، نضيف`StopRequestDurationLoggingMessageHandler`إلى نهاية خط أنابيب المعالجة. سيحدد هذا المعالج نهاية معالجة طلبنا ويسمح لنا بالتقاط المدة الإجمالية، والتي ستكون بمثابة لحظة خط النهاية لسباقنا.
-## الخطوة 7: تهيئة مستند HTML
-
+### الخطوة 7: تهيئة مستند HTML
 ```java
-// تهيئة مستند HTML باستخدام التكوين المحدد
-HTMLDocument document = new HTMLDocument("zip-file:///test.html"، التكوين)؛
+// Initialize an HTML document with specified configuration
+HTMLDocument document = new HTMLDocument("zip-file:///test.html", configuration);
 ```
+نُشير بـ `HTMLDocument` إلى ملف HTML الرئيسي داخل ZIP (`zip-file:///test.html`). يتم تطبيق التكوين الذي أنشأناه مسبقًا تلقائيًا.
 
-في هذه المرحلة، نستعد لإنشاء مثيل لمستند HTML. نحدد المسار إلى ملف HTML داخل ملف ZIP ونمرر التكوين الخاص بنا. هذه الخطوة بالغة الأهمية لأنها تربط المحتوى الخاص بنا بخط الأنابيب الذي قمنا بتكوينه للتو.
-## الخطوة 8: إنشاء جهاز PDF
-
+### الخطوة 8: إنشاء جهاز PDF
 ```java
-// إنشاء جهاز PDF
+// Create the PDF Device
 PdfDevice device = new PdfDevice(savePath);
 ```
+جهاز **PDF** (`PdfDevice`) هو ما **ينشئ PDF من محتوى ZIP**. يستقبل الصفحات المولدة ويكتبها إلى `savePath`.
 
- هنا نقوم بإعداد`PdfDevice` هذا هو المسؤول عن تحويل محتوى HTML إلى تنسيق PDF. إنه الجهاز السحري الذي يحول HTML المصمم بشكل جميل إلى تنسيق مستند محمول وجاهز للمشاركة!
-## الخطوة 9: تحويل ملف ZIP إلى PDF
-
+### الخطوة 9: توليد ZIP إلى PDF
 ```java
-// تحويل ZIP إلى PDF
+// Render ZIP to PDF
 document.renderTo(device);
 ```
+استدعاء `renderTo` يُشغّل كامل خط الأنابيب: يتم فك ضغط ZIP، توليد HTML، تسجيل المدة، وكتابة ملف PDF النهائي.
 
- وأخيرا، نسميها`renderTo`طريقة لبدء عملية التحويل. هنا تلتقي المطاط بالطريق؛ يتم تحويل محتوى HTML الخاص بنا إلى تنسيق PDF، وحفظه في المسار المحدد مسبقًا. إرضاء فوري!
-## خاتمة
-تهانينا! لقد انتهيت للتو من إنشاء خطوط أنابيب معالجة الرسائل في Aspose.HTML لـ Java. باستخدام مزيج من التكوين والمعالجات وتهيئة المستندات، تعلمت كيفية تحويل ملفات ZIP إلى PDF بسلاسة. يكمن جمال هذه المكتبة في قدرتها على معالجة المستندات بكفاءة مع منحك التحكم الكامل في الخطوات المتضمنة. 
-لذا، سواء كنت تبحث عن إنشاء تقارير أو مشاركة معلومات أو إنشاء عروض تقديمية، فإن Aspose.HTML هو الحل الأمثل لك. استمتع بالبرمجة، ونتمنى أن تكون تحويلات HTML إلى PDF سريعة وخالية من المتاعب!
-## الأسئلة الشائعة
-### ما هو Aspose.HTML لـ Java؟
-Aspose.HTML for Java هي مكتبة تستخدم لمعالجة مستندات HTML، مما يتيح التحويل بين تنسيقات مختلفة مثل PDF.
-### كيف يمكنني تنزيل Aspose.HTML لـ Java؟
- يمكنك تنزيله من[رابط تحميل برنامج Aspose](https://releases.aspose.com/html/java/).
-### هل يمكنني استخدام Aspose.HTML مجانًا؟
- نعم، يوفر Aspose نسخة تجريبية مجانية. يمكنك التسجيل للحصول عليها[هنا](https://releases.aspose.com/).
-### أين يمكنني العثور على الدعم لـ Aspose.HTML؟
-لأي استفسارات يمكنكم زيارة[منتدى دعم Aspose](https://forum.aspose.com/c/html/29).
-### ما هي معالجات الرسائل في Aspose.HTML؟
-معالجات الرسائل هي مكونات تعالج مراحل مختلفة في خط أنابيب معالجة المستندات، مثل فترات التسجيل أو تحويل تنسيقات المستندات.
+## المشكلات الشائعة والحلول
+
+| المشكلة | السبب | الحل |
+|-------|-------|-----|
+| `FileNotFoundException` | مسار `documentPath` أو `savePath` غير صحيح | تحقق من أن المسارات مطلقة أو نسبية إلى دليل العمل. |
+| لا يوجد محتوى في PDF | اسم ملف HTML المدخل غير صحيح في مُنشئ `HTMLDocument` | تأكد من أن اسم الملف يطابق تمامًا ملف HTML داخل ZIP (`test.html`). |
+| لم يتم تسجيل المدة | المعالجات لم تُدرج بالترتيب الصحيح | أدخل `StartRequestDurationLoggingMessageHandler` في الفهرس 0 و `StopRequestDurationLoggingMessageHandler` بعد جميع المعالجات الأخرى. |
+| ميزات HTML غير مدعومة | استخدام CSS/JS غير مدعوم من قبل Aspose.HTML | قم بتبسيط العلامات أو عالج HTML مسبقًا قبل التوليد. |
+
+## الأسئلة المتكررة
+
+**س: ما هو Aspose.HTML for Java؟**  
+ج: Aspose.HTML for Java هي مكتبة تتيح معالجة مستندات HTML والتحويل إلى صيغ مثل PDF، صورة، و EPUB.
+
+**س: كيف يمكنني تحميل Aspose.HTML for Java؟**  
+ج: يمكنك تحميله من صفحة [Aspose downloads](https://releases.aspose.com/html/java/).
+
+**س: هل يمكنني استخدام Aspose.HTML مجانًا؟**  
+ج: نعم، نسخة تجريبية مجانية متاحة. سجّل للحصول عليها [هنا](https://releases.aspose.com/).
+
+**س: أين يمكنني العثور على دعم Aspose.HTML؟**  
+ج: زر [منتدى دعم Aspose](https://forum.aspose.com/c/html/29) للحصول على مساعدة من المجتمع ومهندسي Aspose.
+
+**س: ما هي معالجات الرسائل في Aspose.HTML؟**  
+ج: معالجات الرسائل هي مكونات تعترض وتُعالج طلبات الشبكة داخل خط الأنابيب—مفيدة للتسجيل، المصادقة، أو استرجاع محتوى مخصص.
+
+**س: كيف يمكنني إضافة معالجي المخصص الخاص بي؟**  
+ج: نفّذ `IMessageHandler` وأضفه إلى `MessageHandlerCollection` باستخدام `handlers.addItem(new MyCustomHandler())`.
+
+**س: هل يمكن تحويل عدة ملفات ZIP دفعة واحدة؟**  
+ج: نعم—قم بالتكرار عبر قائمة مسارات ZIP، مع إعادة استخدام نفس التكوين وخط الأنابيب لكل تكرار.
+
+## الخلاصة
+أنت الآن تعرف **كيفية تحويل zip** إلى ملفات PDF باستخدام Aspose.HTML for Java، مع خدمة شبكة قابلة للتكوين، معالج ZIP مخصص، وتسجيل دقيق لمدة الطلب. يمنحك هذا الخط الأنابيب تحكمًا كاملاً في عملية التحويل، مما يجعله مثاليًا للتقارير الآلية، أرشفة المستندات، أو أي سيناريو يحتاج إلى تعبئة محتوى HTML كملف PDF.
+
+---
+
+**Last Updated:** 2026-02-23  
+**Tested With:** Aspose.HTML for Java 24.11  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
