@@ -1,8 +1,8 @@
 ---
-title: Add page numbers using Aspose.HTML Java PageSetup API – Advanced Usage
+title: Learn how to add page numbers with Aspose.HTML for Java PageSetup API – Advanced Usage
 linktitle: Advanced Usage of Aspose.HTML Java
 second_title: Java HTML Processing with Aspose.HTML
-description: Learn how to add page numbers using the PageSetup API, set margins, adjust PDF page size with PdfSaveOptions, generate PDF from HTML, monitor DOM changes, and convert HTML to XPS using Aspose.HTML for Java.
+description: Explore how to add page numbers using the PageSetup API, set margins, adjust PDF page size with PdfSaveOptions, generate PDFs from HTML, monitor DOM changes, and convert HTML to XPS with Aspose.HTML for Java.
 weight: 20
 url: /java/advanced-usage/
 date: 2025-11-29

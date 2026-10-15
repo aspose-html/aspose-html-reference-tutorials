@@ -1,7 +1,7 @@
 ---
 category: general
 date: 2026-03-26
-description: Discover how to emulate iPhone in Java using Aspose.HTML, and learn to set a custom user agent and device pixel ratio for accurate mobile rendering.
+description: Learn how to emulate iPhone in Java using Aspose.HTML's DocumentSandbox, set a custom user agent and device pixel ratio for accurate mobile rendering.
 draft: false
 keywords:
 - how to emulate iphone
@@ -18,7 +18,7 @@ tags:
 - Aspose.HTML
 - Java
 - Mobile Emulation
-title: Learn to Emulate iPhone – Complete Guide with Aspose.HTML
+title: How to Emulate iPhone in Java with Aspose.HTML – Complete Guide
 url: /java/html5-canvas-rendering/how-to-emulate-iphone-complete-guide-with-aspose-html/
 ---
 

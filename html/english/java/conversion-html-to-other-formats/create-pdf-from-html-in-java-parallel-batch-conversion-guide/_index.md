@@ -1,7 +1,7 @@
 ---
 category: general
 date: 2026-03-26
-description: Create PDF from HTML quickly with Aspose.HTML using a fixed thread pool. Learn batch HTML to PDF and run parallel tasks in Java.
+description: Learn how to quickly convert HTML to PDF with the Aspose.HTML API using a fixed thread pool for parallel batch processing in Java.
 draft: false
 keywords:
 - create pdf from html
@@ -10,14 +10,14 @@ keywords:
 - fixed thread pool
 - run parallel tasks
 language: en
-og_description: Create PDF from HTML quickly with Aspose.HTML using a fixed thread pool. Learn how to batch HTML to PDF and run parallel tasks in Java.
-og_title: Create PDF from HTML in Java with Aspose.HTML – Parallel Batch Conversion Guide
+og_description: Learn how to quickly convert HTML to PDF with the Aspose.HTML API using a fixed thread pool for parallel batch processing in Java.
+og_title: Generate PDF from HTML using Aspose.HTML API in Java – Parallel Batch Conversion Guide
 tags:
 - Java
 - PDF
 - Aspose.HTML
 - Concurrency
-title: Create PDF from HTML in Java with Aspose.HTML – Parallel Batch Conversion Guide
+title: Generate PDF from HTML using Aspose.HTML API in Java – Parallel Batch Conversion Guide
 url: /java/conversion-html-to-other-formats/create-pdf-from-html-in-java-parallel-batch-conversion-guide/
 ---
 

@@ -1,8 +1,8 @@
 ---
-title: "Convert HTML to GIF with Aspose.HTML for Java – Converting HTML to Various Image Formats"
+title: "Convert HTML to GIF, JPEG, PNG, BMP, and TIFF using Aspose.HTML for Java"
 linktitle: Conversion - HTML to Various Image Formats
 second_title: Java HTML Processing with Aspose.HTML
-description: "Learn how to efficiently convert html gif and other formats like BMP, JPEG, PNG, and TIFF using Aspose.HTML for Java. This guide covers efficient HTML to image conversion."
+description: "Discover how to quickly convert HTML to GIF, JPEG, PNG, BMP, and TIFF with Aspose.HTML for Java. This guide provides step‑by‑step instructions for efficient HTML‑to‑image conversion."
 weight: 24
 date: 2025-12-19
 url: /java/conversion-html-to-various-image-formats/
@@ -96,8 +96,8 @@ Using Aspose.HTML for Java simplifies the conversion of HTML documents into vari
 - **Blank output** – Ensure the HTML source is fully loaded; use `renderer.waitForComplete()` if needed.  
 - **Large file size (TIFF/BMP)** – Adjust DPI or use compression options available in the save settings.  
 - **Missing fonts** – Install required fonts on the server or embed them in the HTML using `@font-face`.  
-
-TODO: Add more troubleshooting scenarios.
+- **Rendering delays** – Increase the timeout or enable asynchronous loading for complex pages.  
+- **Memory consumption** – Process large documents in chunks or use streaming APIs to limit RAM usage.
 
 ## Conversion - HTML to Various Image Formats Tutorials
 ### [Converting HTML to BMP]({{< relref "convert-html-to-bmp/_index.md" >}})

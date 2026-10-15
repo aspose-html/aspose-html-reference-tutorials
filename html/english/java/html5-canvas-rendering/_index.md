@@ -1,8 +1,8 @@
 ---
-title: Learn HTML5 and Canvas Rendering with Aspose.HTML for Java
-linktitle: HTML5 and Canvas Rendering with Aspose.HTML
+title: Render HTML5 Canvas to PDF with Aspose.HTML for Java
+linktitle: HTML5 Canvas Rendering to PDF with Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
-description: Explore comprehensive tutorials on Aspose.HTML for Java, covering HTML5 and Canvas rendering to enrich your web development skills.
+description: Explore comprehensive tutorials on Aspose.HTML for Java, covering HTML5 Canvas rendering and PDF conversion to enhance your web development projects.
 weight: 20
 url: /java/html5-canvas-rendering/
 ---

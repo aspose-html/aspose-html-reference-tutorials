@@ -1,7 +1,7 @@
 ---
 category: general
 date: 2026-03-26
-description: Learn how to generate a PDF with a custom page size from HTML using Aspose.HTML for Java in just a few steps.
+description: Learn how to generate and convert a PDF with a custom page size from HTML using Aspose.HTML for Java in just a few steps.
 draft: false
 keywords:
 - create pdf custom size
@@ -18,7 +18,7 @@ tags:
 - java
 - pdf
 - html
-title: Generate Custom‑Size PDF from HTML Using Aspose.HTML for Java
+title: Generate and Convert Custom‑Size PDF from HTML Using Aspose.HTML for Java
 url: /java/conversion-html-to-other-formats/create-pdf-custom-size-convert-html-to-pdf-with-aspose/
 ---
 
