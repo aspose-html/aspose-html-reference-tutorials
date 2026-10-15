@@ -56,6 +56,8 @@ Leer hoe u HTML-documenten laadt, bewerkt en opslaat met Aspose.HTML voor Java i
 Leer hoe u HTML-documenten laadt uit streams met Aspose.HTML voor Java. Deze gids biedt een stapsgewijze tutorial voor naadloze HTML-manipulatie.
 ### [HTML-documenten maken van strings in Aspose.HTML voor Java](./create-html-documents-from-string/)
 Leer hoe u HTML-documenten van strings maakt in Aspose.HTML voor Java met deze stapsgewijze handleiding.
+### [Hoe HTML-sjabloon te converteren naar een resultaatbestand in Java](./how-to-convert-html-template-to-a-result-file-in-java/)
+Leer hoe u een HTML-sjabloon omzet naar een eindresultaatbestand met Aspose.HTML voor Java in een eenvoudige stap‑voor‑stap handleiding.
 ### [HTML-documenten laden vanaf URL in Aspose.HTML voor Java](./load-html-documents-from-url/)
 Ontdek hoe u eenvoudig HTML-documenten kunt laden vanaf een URL in Java met Aspose.HTML. Inclusief stapsgewijze tutorial.
 ### [HTML-document maken met Java – JSON ophalen en inhoud genereren](./create-html-document-with-java-fetch-json-and-generate-conte/)
@@ -90,22 +92,8 @@ Leer stap‑voor‑stap hoe u HTML‑documenten laadt in Java met XPath‑ en CS
 Leer hoe u het aantal HTML‑tekens in een document kunt tellen met Aspose.HTML voor Java in deze stapsgewijze volledige gids.
 ### [Tekst extraheren uit HTML in Java – Complete programmeergids](./extract-text-from-html-in-java-complete-programming-guide/)
 Leer hoe u tekst uit HTML-documenten kunt extraheren in Java met deze volledige stap‑voor‑stap handleiding.
-
-
-
-
-
-
-
 ### [NodeList itereren in Java – HTML lezen en afbeeldings‑src ophalen](./iterate-nodelist-java-read-html-get-image-src/)
 Leer hoe u met Aspose.HTML voor Java een NodeList doorloopt, HTML-inhoud leest en de src‑attributen van afbeeldingen extraheert.
-
-
-
-
-
-
-
 ### [Tekst extraheren uit HTML met Java – Complete stap‑voor‑stap gids](./extract-text-from-html-with-java-complete-step-by-step-guide/)
 Leer hoe u tekst uit HTML haalt met Java in Aspose.HTML. Volledige stap‑voor‑stap handleiding.
 ### [NodeList itereren in Java – Complete gids](./iterate-over-nodelist-java-complete-guide/)

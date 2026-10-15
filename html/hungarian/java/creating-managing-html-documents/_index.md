@@ -78,6 +78,8 @@ Ismerje meg, hogyan nyerheti ki a képek URL-jeit HTML-ből Java használatával
 Ismerje meg, hogyan nyerhet ki szöveget HTML cikkekből Java használatával, lépésről lépésre útmutató.
 ### [Új HTML-dokumentumok létrehozása az Aspose.HTML for Java használatával](./generate-new-html-documents/)
 Ebből az egyszerű, lépésenkénti útmutatóból megtudhatja, hogyan hozhat létre új HTML-dokumentumokat az Aspose.HTML for Java használatával. Kezdje el a dinamikus HTML-tartalom generálását.
+### [HTML sablon konvertálása eredményfájlra Java-ban](./how-to-convert-html-template-to-a-result-file-in-java/)
+Ismerje meg, hogyan konvertálhat HTML sablont eredményfájlra Java alkalmazásban az Aspose.HTML segítségével.
 ### [Kezelje a dokumentumbetöltési eseményeket az Aspose.HTML for Java-ban](./handle-document-load-events/)
 Ezzel a lépésről lépésre útmutatóval ismerkedjen meg a dokumentumbetöltési események kezelésével az Aspose.HTML for Java programban. Bővítse webalkalmazásait.
 ### [Hozzon létre és kezeljen SVG-dokumentumokat az Aspose.HTML for Java-ban](./create-manage-svg-documents/)

@@ -82,20 +82,8 @@ Học cách thực thi JavaScript bất đồng bộ trong Java bằng Aspose.HT
 ### [đếm ký tự HTML trong Java – Hướng dẫn đầy đủ với Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Tìm hiểu cách đếm số ký tự HTML trong Java bằng Aspose.HTML qua hướng dẫn chi tiết từng bước.
 
-
-
-
-
-
-
 ### [Tạo HTML từ JavaScript trong Java – Hướng dẫn chi tiết từng bước](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Tìm hiểu cách tạo HTML từ JavaScript trong Java bằng Aspose.HTML với hướng dẫn chi tiết từng bước.
-
-
-
-
-
-
 
 ### [Lặp qua NodeList trong Java – Hướng dẫn đầy đủ](./iterate-over-nodelist-java-complete-guide/)
 Tìm hiểu cách lặp qua NodeList trong Java bằng Aspose.HTML với hướng dẫn chi tiết và ví dụ thực tế.
@@ -121,6 +109,9 @@ Khám phá cách tải HTML trong Java và so sánh việc sử dụng XPath và
 Học cách thực thi JavaScript trong Java, chạy mã JS trên tài liệu HTML và thêm các phần tử mới một cách dễ dàng.
 ### [Tạo phần tử HTML với Java ExecutorService – Demo an toàn luồng](./create-html-element-with-java-executorservice-thread-safe-de/)
 Tạo phần tử HTML một cách an toàn đa luồng bằng ExecutorService trong Java.
+
+### [Cách chuyển đổi mẫu HTML thành tệp kết quả trong Java](./how-to-convert-html-template-to-a-result-file-in-java/)
+Hướng dẫn từng bước chuyển đổi một mẫu HTML thành tệp kết quả sử dụng Aspose.HTML cho Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

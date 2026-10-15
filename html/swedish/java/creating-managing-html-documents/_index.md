@@ -88,7 +88,7 @@ Lär dig att hantera dokumentladdningshändelser i Aspose.HTML för Java med den
 Lär dig att skapa och hantera SVG-dokument med Aspose.HTML för Java! Den här omfattande guiden täcker allt från grundläggande skapande till avancerad manipulation.
 
 ### [Skapa sandlåda för HTML i Java – Steg‑för‑steg‑guide](./create-sandbox-for-html-in-java-step-by-step-guide/)
-Lär dig hur du skapar en säker sandlåda för HTML i Java med vår detaljerade steg-för-steg‑guide.
+Lär dig hur du skapar en säker sandlåda för HTML i Java med vår detaljerade steg-för‑steg‑guide.
 ### [Extrahera text från HTML i Java – Komplett programmeringsguide](./extract-text-from-html-in-java-complete-programming-guide/)
 Lär dig hur du extraherar text från HTML-dokument i Java med en komplett steg‑för‑steg‑guide.
 
@@ -134,11 +134,14 @@ Lär dig hur du itererar en NodeList i Java för att läsa HTML och extrahera bi
 Lär dig hur du kör JavaScript asynkront med setTimeout i Java och dynamiskt uppdaterar HTML-innehåll i dina applikationer.
 
 ### [Skapa HTML från Markdown i Java – Fullständig steg‑för‑steg‑guide](./create-html-from-markdown-in-java-full-step-by-step-guide/)
-Lär dig hur du konverterar Markdown till HTML i Java med Aspose.HTML genom en komplett steg-för-steg‑guide.
+Lär dig hur du konverterar Markdown till HTML i Java med Aspose.HTML genom en komplett steg‑för‑steg‑guide.
 ### [Kör JavaScript i Java – Kör JS på HTML och lägg till element](./execute-javascript-java-run-js-on-html-append-elements/)
 Lär dig hur du kör JavaScript i en Java‑applikation, manipulerar HTML och lägger till element dynamiskt.
 ### [Skapa HTML-element med Java ExecutorService – Trådsäker demo](./create-html-element-with-java-executorservice-thread-safe-de/)
 Lär dig hur du skapar HTML-element på ett trådsäkert sätt med Java ExecutorService i Aspose.HTML.
+
+### [Hur man konverterar HTML-mall till en resultatfil i Java](./how-to-convert-html-template-to-a-result-file-in-java/)
+Lär dig hur du omvandlar en HTML-mall till en färdig resultatfil med Aspose.HTML för Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

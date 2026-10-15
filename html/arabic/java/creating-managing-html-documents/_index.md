@@ -56,6 +56,8 @@ url: /ar/java/creating-managing-html-documents/
 تعرف على كيفية تحميل مستندات HTML من التدفقات باستخدام Aspose.HTML for Java. يوفر هذا الدليل برنامجًا تعليميًا خطوة بخطوة للتعامل بسلاسة مع HTML.
 ### [إنشاء مستندات HTML من سلسلة نصية في Aspose.HTML لـ Java](./create-html-documents-from-string/)
 تعرف على كيفية إنشاء مستندات HTML من السلاسل في Aspose.HTML لـ Java باستخدام هذا الدليل خطوة بخطوة.
+### [كيفية تحويل قالب HTML إلى ملف نتيجة في Java](./how-to-convert-html-template-to-a-result-file-in-java/)
+تعلم كيفية تحويل قالب HTML إلى ملف نهائي باستخدام Aspose.HTML في Java من خلال دليل خطوة بخطوة.
 ### [إنشاء مستند HTML باستخدام Java – جلب JSON وإنشاء المحتوى](./create-html-document-with-java-fetch-json-and-generate-conte/)
 تعلم كيفية جلب بيانات JSON وإنشاء محتوى HTML ديناميكي باستخدام Aspose.HTML for Java في دليل خطوة بخطوة.
 ### [تحميل مستندات HTML من URL في Aspose.HTML لـ Java](./load-html-documents-from-url/)
@@ -68,7 +70,7 @@ url: /ar/java/creating-managing-html-documents/
 تعلم كيفية تحميل مستندات HTML في Java باستخدام Aspose.HTML من خلال دليل خطوة بخطوة.
 ### [تنفيذ JavaScript في Java – تشغيل JS على HTML وإضافة عناصر](./execute-javascript-java-run-js-on-html-append-elements/)
 تعلم كيفية تشغيل جافا سكريبت داخل مستندات HTML باستخدام Aspose.HTML for Java وإضافة عناصر ديناميكيًا.
-### [كيفية تحميل HTML في Java – مقارنة XPath ومحدد CSS](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
+### [كيفية تحميل HTML في Java – مقارنة XPath ومحدد CSS](./how-to-load-html-in-java-compare-xpath-and-css/)
 اكتشف كيفية تحميل مستندات HTML في Java ومقارنة استخدام XPath ومحددات CSS لاستخراج العناصر بدقة.
 ### [إنشاء مستندات HTML جديدة باستخدام Aspose.HTML لـ Java](./generate-new-html-documents/)
 تعرف على كيفية إنشاء مستندات HTML جديدة باستخدام Aspose.HTML for Java من خلال هذا الدليل السهل خطوة بخطوة. ابدأ في إنشاء محتوى HTML ديناميكي.

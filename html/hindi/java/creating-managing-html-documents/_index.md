@@ -74,21 +74,13 @@ Java में HTML सैंडबॉक्स बनाने की प्र
 Java में Aspose.HTML का उपयोग करके HTML क्वेरी करने के चरण‑दर‑चरण मार्गदर्शिका, टिप्स और सर्वोत्तम प्रथाएँ।
 ### [Java में XPath का उपयोग कैसे करें – HTML पढ़ें और टेक्स्ट निकालें](./how-to-use-xpath-in-java-read-html-and-extract-text/)
 Java में Aspose.HTML का उपयोग करके XPath के माध्यम से HTML से टेक्स्ट निकालने की चरण‑दर‑चरण मार्गदर्शिका।
-
 ### [Java में HTML अक्षरों की गिनती – Aspose HTML के साथ पूर्ण गाइड](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Aspose.HTML for Java का उपयोग करके HTML दस्तावेज़ में अक्षरों की संख्या कैसे गिनें, चरण‑दर‑चरण पूर्ण मार्गदर्शिका।
-
 ### [HTML दस्तावेज़ लोड करें जावा – XPath और CSS के साथ पूर्ण गाइड](./load-html-document-java-complete-guide-with-xpath-css/)
 
 ### [Java के लिए Aspose.HTML में JSON प्राप्त करके सामग्री उत्पन्न करके HTML दस्तावेज़ बनाएं](./create-html-document-with-java-fetch-json-and-generate-conte/)
 ### [Java में HTML से टेक्स्ट निकालें – पूर्ण प्रोग्रामिंग गाइड](./extract-text-from-html-in-java-complete-programming-guide/)
 Aspose.HTML for Java का उपयोग करके HTML से टेक्स्ट निकालने की पूरी मार्गदर्शिका, चरण‑दर‑चरण उदाहरण और सर्वोत्तम प्रथाएँ।
-
-
-
-
-
-
 
 ### [Java में असिंक्रोनस जावास्क्रिप्ट निष्पादित करें – पूर्ण चरण‑दर‑चरण गाइड](./execute-async-javascript-in-java-complete-step-by-step-guide/)
 Java में असिंक्रोनस जावास्क्रिप्ट चलाने के लिए चरण‑दर‑चरण मार्गदर्शिका, टिप्स और सर्वोत्तम प्रथाएँ।
@@ -125,6 +117,9 @@ Aspose.HTML for Java का उपयोग करके HTML लेखों �
 Java में मार्कडाउन को HTML में परिवर्तित करने की पूरी प्रक्रिया सीखें, चरण‑दर‑चरण मार्गदर्शिका के साथ।
 ### [Java में HTML लोड करने का तरीका – चरण‑दर‑चरण गाइड](./how-to-load-html-in-java-step-by-step-guide/)
 Java में HTML लोड करने के लिए चरण‑दर‑चरण मार्गदर्शिका, उपयोगी टिप्स और सर्वोत्तम प्रथाएँ।
+
+### [Java में HTML टेम्पलेट को परिणाम फ़ाइल में परिवर्तित करें](./how-to-convert-html-template-to-a-result-file-in-java/)
+Aspose.HTML for Java का उपयोग करके HTML टेम्पलेट को अंतिम परिणाम फ़ाइल में बदलने की चरण‑दर‑चरण गाइड।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

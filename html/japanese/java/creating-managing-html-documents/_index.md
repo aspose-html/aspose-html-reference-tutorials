@@ -50,7 +50,7 @@ Aspose.HTML for Java を使用して、非同期で HTML ドキュメントを�
 あらゆるレベルの開発者に最適な、詳細なステップバイステップのチュートリアルで、Aspose.HTML を使用して Java で空の HTML ドキュメントを作成する方法を学びます。
 ### [Aspose.HTML for Java でファイルから HTML ドキュメントを読み込む](./load-html-documents-from-file/)
 Aspose.HTML for Java で HTML 操作のパワーを解き放ちます。ステップバイステップのチュートリアルで、ファイルから HTML ドキュメントを読み込む方法を学習します。
-### [Aspose.HTML for Java での HTML ドキュメントの高度なファイル読み込み](./advanced-file-loading-html-documents/)
+### [Aspose.HTML for Java の HTML ドキュメントの高度なファイル読み込み](./advanced-file-loading-html-documents/)
 このステップバイステップ ガイドでは、Aspose.HTML for Java を使用して HTML ドキュメントを読み込み、操作し、保存する方法を学習します。Java プロジェクトで高度な HTML 処理を活用できます。
 ### [Aspose.HTML for Java を使用してストリームから HTML ドキュメントを読み込む](./load-html-documents-from-stream/)
 Aspose.HTML for Java を使用してストリームから HTML ドキュメントを読み込む方法を学習します。このガイドでは、シームレスな HTML 操作の手順を説明したチュートリアルを提供します。
@@ -67,6 +67,8 @@ Java で JSON データを取得し、動的に HTML コンテンツを生成す
 Aspose.HTML for Java を使用して、HTML ドキュメントからページタイトルを簡単に取得する方法をステップバイステップで解説します。
 ### [Aspose.HTML for Java を使用して新しい HTML ドキュメントを生成する](./generate-new-html-documents/)
 この簡単なステップバイステップ ガイドで、Aspose.HTML for Java を使用して新しい HTML ドキュメントを作成する方法を学びます。動的な HTML コンテンツの生成を開始します。
+### [Java で HTML テンプレートを結果ファイルに変換する方法](./how-to-convert-html-template-to-a-result-file-in-java/)
+Aspose.HTML for Java を使用して、HTML テンプレートを結果ファイルに変換する手順をステップバイステップで解説します。
 ### [Java で JavaScript から HTML を生成する – 完全ステップバイステップガイド](./generate-html-from-javascript-in-java-complete-step-by-step/)
 このステップバイステップ ガイドで、Java で JavaScript を使用して HTML を生成する方法を学びます。
 ### [Aspose.HTML for Java でドキュメント読み込みイベントを処理する](./handle-document-load-events/)

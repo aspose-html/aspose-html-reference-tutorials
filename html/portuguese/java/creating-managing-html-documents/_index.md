@@ -56,6 +56,8 @@ Aprenda como carregar documentos HTML de streams usando Aspose.HTML para Java. E
 Aprenda a criar documentos HTML a partir de strings no Aspose.HTML para Java com este guia passo a passo.
 ### [Crie HTML a partir de Markdown em Java – Guia passo a passo completo](./create-html-from-markdown-in-java-full-step-by-step-guide/)
 Aprenda a converter arquivos Markdown em documentos HTML usando Aspose.HTML para Java com este tutorial detalhado passo a passo.
+### [Como converter modelo HTML em um arquivo de resultado em Java](./how-to-convert-html-template-to-a-result-file-in-java/)
+Aprenda a converter um modelo HTML em um arquivo de resultado usando Aspose.HTML para Java com este guia passo a passo.
 ### [Carregar documentos HTML de URL em Aspose.HTML para Java](./load-html-documents-from-url/)
 Descubra como carregar facilmente documentos HTML de uma URL em Java com Aspose.HTML. Tutorial passo a passo incluso.
 ### [Como carregar HTML em Java – Guia passo a passo](./how-to-load-html-in-java-step-by-step-guide/)
@@ -91,12 +93,6 @@ Aprenda a buscar dados JSON e gerar dinamicamente conteúdo HTML em Java usando 
 ### [Conte caracteres HTML em Java – Guia completo com Aspose.HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Aprenda a contar caracteres em documentos HTML usando Aspose.HTML para Java com este guia passo a passo.
 
-
-
-
-
-
-
 ### [Extrair texto de HTML com Java – Guia completo passo a passo](./extract-text-from-html-with-java-complete-step-by-step-guide/)
 Aprenda a extrair texto de documentos HTML em Java usando Aspose.HTML com este guia passo a passo completo.
 ### [Iterar sobre NodeList em Java – Guia Completo](./iterate-over-nodelist-java-complete-guide/)
@@ -107,12 +103,6 @@ Aprenda a gerar HTML a partir de código JavaScript em Java com este guia passo 
 Aprenda a analisar, consultar e contar elementos em documentos HTML usando Aspose.HTML para Java com este guia passo a passo.
 ### [Executar JavaScript assíncrono em Java – Guia completo passo a passo](./execute-async-javascript-in-java-complete-step-by-step-guide/)
 Aprenda a executar JavaScript assíncrono em Java usando Aspose.HTML com este guia passo a passo.
-
-
-
-
-
-
 
 ### [Iterar NodeList em Java – Ler HTML e Obter src da Imagem](./iterate-nodelist-java-read-html-get-image-src/)
 Aprenda a percorrer um NodeList em Java para ler HTML e extrair o atributo src das imagens.

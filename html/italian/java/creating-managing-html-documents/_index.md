@@ -127,6 +127,8 @@ Scopri come eseguire script JavaScript asincroni con setTimeout in Java e aggior
 Impara a convertire file Markdown in documenti HTML usando Aspose.HTML per Java con questa guida dettagliata passo dopo passo.
 ### [Crea elemento HTML con Java ExecutorService – Demo thread‑safe](./create-html-element-with-java-executorservice-thread-safe-de/)
 Scopri come creare in modo sicuro elementi HTML usando ExecutorService di Java, garantendo operazioni thread‑safe.
+### [Come convertire un modello HTML in un file di risultato in Java](./how-to-convert-html-template-to-a-result-file-in-java/)
+Scopri come trasformare un template HTML in un file di output usando Aspose.HTML per Java, passo dopo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

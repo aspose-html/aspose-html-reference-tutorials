@@ -72,6 +72,8 @@ Aspose.HTML สำหรับ Java นำเสนอชุดเครื่�
 เรียนรู้วิธีดึงข้อมูล JSON ใน Java แล้วสร้างเนื้อหา HTML อย่างอัตโนมัติด้วย Aspose.HTML
 ### [สร้าง sandbox สำหรับ HTML ใน Java – คู่มือทีละขั้นตอน](./create-sandbox-for-html-in-java-step-by-step-guide/)
 เรียนรู้วิธีสร้าง sandbox สำหรับ HTML ใน Java ด้วย Aspose.HTML ผ่านคู่มือทีละขั้นตอนที่เข้าใจง่าย
+### [วิธีแปลงเทมเพลต HTML เป็นไฟล์ผลลัพธ์ใน Java](./how-to-convert-html-template-to-a-result-file-in-java/)
+เรียนรู้วิธีแปลงเทมเพลต HTML เป็นไฟล์ผลลัพธ์โดยใช้ Aspose.HTML สำหรับ Java ผ่านขั้นตอนที่ละเอียด
 ### [วิธีการสืบค้น HTML ใน Java – คู่มือฉบับสมบูรณ์](./how-to-query-html-in-java-complete-tutorial/)
 เรียนรู้วิธีสืบค้นและดึงข้อมูลจากเอกสาร HTML ใน Java ด้วย Aspose.HTML อย่างละเอียดในคู่มือฉบับสมบูรณ์
 ### [วิธีสืบค้น HTML ใน Java – โหลด, คิวรีและนับองค์ประกอบ](./how-to-parse-html-java-load-query-count-elements/)
@@ -82,6 +84,7 @@ Aspose.HTML สำหรับ Java นำเสนอชุดเครื่�
 เรียนรู้วิธีนับอักขระทั้งหมดในเอกสาร HTML ด้วย Aspose.HTML สำหรับ Java ผ่านคู่มือฉบับสมบูรณ์
 ### [สกัดข้อความจาก HTML ใน Java – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./extract-text-from-html-in-java-complete-programming-guide/)
 เรียนรู้วิธีสกัดข้อความจากเอกสาร HTML ด้วย Aspose.HTML สำหรับ Java อย่างละเอียดในคู่มือฉบับสมบูรณ์
+
 
 
 

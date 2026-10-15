@@ -53,6 +53,8 @@ Java 환경에서 setTimeout을 사용해 비동기 JavaScript를 실행하고, 
 Aspose.HTML for Java로 HTML 조작의 힘을 잠금 해제하세요. 단계별 튜토리얼로 파일에서 HTML 문서를 로드하는 방법을 배우세요.
 ### [Java용 Aspose.HTML에서 HTML 문서에 대한 고급 파일 로딩](./advanced-file-loading-html-documents/)
 이 단계별 가이드에서 Aspose.HTML for Java를 사용하여 HTML 문서를 로드, 조작 및 저장하는 방법을 알아보세요. Java 프로젝트에서 고급 HTML 처리를 잠금 해제하세요.
+### [Java에서 HTML 템플릿을 결과 파일로 변환하는 방법](./how-to-convert-html-template-to-a-result-file-in-java/)
+Java와 Aspose.HTML을 사용하여 HTML 템플릿을 실제 결과 파일로 변환하는 단계별 가이드입니다.
 ### [Aspose.HTML for Java를 사용하여 스트림에서 HTML 문서 로드](./load-html-documents-from-stream/)
 Aspose.HTML for Java를 사용하여 스트림에서 HTML 문서를 로드하는 방법을 알아보세요. 이 가이드는 원활한 HTML 조작을 위한 단계별 튜토리얼을 제공합니다.
 ### [Java용 Aspose.HTML에서 문자열로부터 HTML 문서 만들기](./create-html-documents-from-string/)

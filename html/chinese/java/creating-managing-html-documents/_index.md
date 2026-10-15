@@ -95,29 +95,11 @@ Aspose.HTML for Java 为开发人员提供了功能强大的工具包，旨在�
 ### [在 Java 中统计 HTML 字符 – 使用 Aspose HTML 的完整指南](./count-html-characters-in-java-full-guide-with-aspose-html/)
 本完整指南教您如何使用 Aspose.HTML for Java 统计 HTML 文本字符数，涵盖示例代码和最佳实践。
 
-
-
-
-
-
-
 ### [在 Java 中从 JavaScript 生成 HTML – 完整分步指南](./generate-html-from-javascript-in-java-complete-step-by-step/)
 本指南详细演示如何在 Java 环境中执行 JavaScript 生成 HTML 内容的完整步骤，帮助您轻松实现动态页面渲染。
 
-
-
-
-
-
-
 ### [遍历 NodeList（Java）– 读取 HTML 并获取图像 src](./iterate-nodelist-java-read-html-get-image-src/)
 学习如何在 Java 中遍历 NodeList，读取 HTML 内容并提取图像的 src 属性，适用于网页抓取和解析。
-
-
-
-
-
-
 
 ### [在 Java 中遍历 NodeList – 完整指南](./iterate-over-nodelist-java-complete-guide/)
 本完整指南详细讲解如何在 Java 中使用 Aspose.HTML 遍历 NodeList，包括示例代码和最佳实践。
@@ -136,6 +118,9 @@ Aspose.HTML for Java 为开发人员提供了功能强大的工具包，旨在�
 学习如何在 Aspose.HTML for Java 中执行 JavaScript，运行脚本并向 HTML 文档追加元素。
 ### [使用 Java ExecutorService 创建 HTML 元素 – 线程安全演示](./create-html-element-with-java-executorservice-thread-safe-de/)
 演示如何在 Aspose.HTML for Java 中使用 ExecutorService 安全地创建 HTML 元素，确保多线程环境下的线程安全。
+
+### [如何在 Java 中将 HTML 模板转换为结果文件](./how-to-convert-html-template-to-a-result-file-in-java/)
+本教程演示如何使用 Aspose.HTML for Java 将 HTML 模板渲染并保存为最终文件，步骤详尽。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
