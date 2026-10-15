@@ -83,6 +83,8 @@ Hướng dẫn cách sử dụng Aspose.HTML để tìm một phần tử trong 
 Hướng dẫn chi tiết cách tạo tài liệu HTML và chèn phần tử CSS Style bằng Aspose.HTML cho .NET.
 ### [Tạo tài liệu HTML C# – Hướng dẫn từng bước](./create-html-document-c-step-by-step-guide/)
 Học cách tạo tài liệu HTML trong C# bằng Aspose.HTML qua các bước chi tiết và ví dụ thực tế.
+### [Cách kết hợp các kiểu chữ trong C# với Aspose.HTML](./how-to-combine-font-styles-in-c-with-aspose-html/)
+Hướng dẫn cách áp dụng đồng thời các kiểu chữ như in đậm, nghiêng trong tài liệu HTML bằng Aspose.HTML cho C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -49,6 +49,7 @@ Naučte se, jak v C# povolit antialiasing pro vyhlazení hran a zlepšení kvali
 Naučte se, jak pomocí Aspose.HTML pro .NET přidávat a stylovat text na obrázcích pomocí plátna.
 ### [Jak povolit antialiasing v C# – Kompletní průvodce stylováním písma](./how-to-enable-antialiasing-in-c-complete-font-style-guide/)
 Naučte se, jak v C# povolit antialiasing a kompletně nastavit styly písma pro vysoce kvalitní vykreslování textu.
+### [Jak povolit antialiasing při vykreslování obrázků v C#](./how-to-enable-antialiasing-in-c-image-rendering/)
 
 ## Závěr
 

@@ -49,6 +49,8 @@ Erfahren Sie, wie Sie Antialiasing in C# aktivieren, um glatte Kanten in Ihren G
 Erfahren Sie, wie Sie Text auf Canvas-Bildern rendern, Schriftarten anpassen und professionelle Grafiken erzeugen.
 ### [Antialiasing in C# aktivieren – Vollständiger Font‑Style‑Leitfaden](./how-to-enable-antialiasing-in-c-complete-font-style-guide/)
 Erfahren Sie, wie Sie Antialiasing in C# aktivieren und Schriftarten optimal stylen, um klare und scharfe Textdarstellungen zu erzielen.
+### [Antialiasing in C# aktivieren – Bildrendering](./how-to-enable-antialiasing-in-c-image-rendering/)
+Erfahren Sie, wie Sie Antialiasing beim Rendern von Bildern in C# aktivieren, um glatte Kanten und hochwertige Grafiken zu erzielen.
 
 ## Abschluss
 

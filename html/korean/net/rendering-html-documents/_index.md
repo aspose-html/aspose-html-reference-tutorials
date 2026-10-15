@@ -99,6 +99,9 @@ C#와 Aspose.HTML을 활용해 HTML을 다양한 이미지 형식으로 변환�
 ### [C#로 HTML을 PNG로 렌더링하고 ZIP에 저장하는 완전 가이드](./render-html-to-png-and-save-to-zip-with-c-complete-guide/)
 Aspose.HTML for .NET을 활용해 HTML을 PNG 이미지로 변환하고 ZIP 파일로 저장하는 전체 과정을 단계별로 안내합니다.
 
+### [C#에서 HTML을 PNG로 렌더링하고 리소스를 ZIP으로 저장하는 방법](./how-to-render-html-to-png-and-zip-resources-in-c/)
+C#와 Aspose.HTML을 사용해 HTML을 PNG로 변환하고, 결과 파일을 ZIP으로 압축하는 전체 과정을 단계별로 안내합니다.
+
 ### [C#으로 HTML에서 이미지 만들기 – 완전 단계별 가이드](./create-image-from-html-in-c-complete-step-by-step-guide/)
 C#으로 HTML을 이미지로 변환하는 전체 단계별 가이드를 확인하세요.
 ### [Aspose.HTML을 사용하여 HTML을 PDF로 렌더링 – 단계별 가이드](./render-html-to-pdf-with-aspose-html-step-by-step-guide/)

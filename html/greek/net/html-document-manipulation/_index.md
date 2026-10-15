@@ -78,6 +78,9 @@ url: /el/net/html-document-manipulation/
 ### [Δημιουργία εγγράφου HTML με Aspose.HTML – Οδηγός βήμα‑βήμα](./create-html-document-with-aspose-html-step-by-step-guide/)
 Μάθετε πώς να δημιουργήσετε έγγραφα HTML χρησιμοποιώντας το Aspose.HTML με αναλυτικές οδηγίες βήμα‑βήμα.
 
+### [Πώς να συνδυάσετε στυλ γραμματοσειράς σε C# με το Aspose.HTML](./how-to-combine-font-styles-in-c-with-aspose-html/)
+Μάθετε πώς να εφαρμόζετε συνδυασμούς έντονου, πλάγιου και άλλων στυλ γραμματοσειράς σε κείμενο HTML χρησιμοποιώντας C# και Aspose.HTML.
+
 ### [Πώς να δημιουργήσετε HTML με Aspose – Εύρεση στοιχείου, Εφαρμογή έντονου](./how-to-create-html-with-aspose-find-element-apply-bold/)
 Μάθετε πώς να εντοπίζετε ένα στοιχείο HTML και να το κάνετε έντονο χρησιμοποιώντας το Aspose.HTML για .NET.
 ### [Πώς να δημιουργήσετε HTML και να προσθέσετε στοιχείο CSS Style – Οδηγός βήμα‑βήμα](./how-to-create-html-and-add-css-style-element-step-by-step-gu/)

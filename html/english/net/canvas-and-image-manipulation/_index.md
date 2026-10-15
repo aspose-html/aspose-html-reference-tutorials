@@ -52,8 +52,12 @@ Learn how to convert SVG to XPS using Aspose.HTML for .NET. Boost your web devel
 
 ### [How to Enable Antialiasing in C# – Smooth Edges](./how-to-enable-antialiasing-in-c-smooth-edges/)
 Learn how to enable antialiasing in C# to achieve smooth edges in graphics rendering using Aspose.HTML for .NET.
+
 ### [how to enable antialiasing in C# – Complete Font‑Style Guide](./how-to-enable-antialiasing-in-c-complete-font-style-guide/)
 Learn how to enable antialiasing in C# and apply comprehensive font‑style settings for smoother text rendering using Aspose.HTML for .NET.
+
+### [How to enable antialiasing in C# image rendering](./how-to-enable-antialiasing-in-c-image-rendering/)
+Learn how to enable antialiasing in C# image rendering using Aspose.HTML for .NET for smoother graphics.
 
 ## Conclusion
 

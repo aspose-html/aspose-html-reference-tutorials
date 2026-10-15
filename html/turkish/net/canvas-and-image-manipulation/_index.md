@@ -39,12 +39,14 @@ Başlamanız için kapsamlı bir öğretici listemiz var. Bu adım adım kılavu
 Aspose.HTML for .NET ile HTML belgelerini nasıl düzenleyeceğinizi öğrenin. Bu kapsamlı eğitim, temelleri, ön koşulları ve adım adım örnekleri kapsar.
 ### [Aspose.HTML ile .NET'te SVG'yi Görüntüye Dönüştürme](./convert-svg-to-image/)
 Aspose.HTML ile .NET'te SVG'yi Görüntülere Dönüştürün. Geliştiriciler için Kapsamlı Bir Eğitim. SVG belgelerini kolayca JPEG, PNG, BMP ve GIF formatlarına dönüştürün.
-### [Aspose.HTML ile .NET'te SVG'yi PDF'ye dönüştürün](./convert-svg-to-pdf/)
+### [Aspose.HTML ile .NET'te SVG'yi PDF'ye Dönüştürme](./convert-svg-to-pdf/)
 Aspose.HTML for .NET ile SVG'yi PDF'ye nasıl dönüştüreceğinizi öğrenin. Verimli belge işleme için yüksek kaliteli, adım adım eğitim.
-### [Aspose.HTML ile .NET'te SVG'yi XPS'e dönüştürme](./convert-svg-to-xps/)
+### [Aspose.HTML ile .NET'te SVG'yi XPS'e Dönüştürme](./convert-svg-to-xps/)
 Aspose.HTML for .NET kullanarak SVG'yi XPS'e nasıl dönüştüreceğinizi öğrenin. Bu güçlü kütüphaneyle web geliştirmenizi hızlandırın.
 ### [C#'ta Antialiasing'i Etkinleştirme – Pürüzsüz Kenarlar](./how-to-enable-antialiasing-in-c-smooth-edges/)
 C# ile antialiasing'i nasıl etkinleştireceğinizi ve kenarları pürüzsüz hale getireceğinizi öğrenin.
+### [C#'ta Antialiasing'i Etkinleştirme – Görüntü Render'ı](./how-to-enable-antialiasing-in-c-image-rendering/)
+C# ile görüntü render'ında antialiasing'i nasıl etkinleştireceğinizi öğrenin.
 ### [Canvas Metni Oluşturma – Görüntülerde Metin Renderleme Tam Kılavuzu](./create-canvas-text-full-guide-to-rendering-text-on-images/)
 Aspose.HTML for .NET ile görüntüler üzerine metin eklemeyi ve özelleştirmeyi öğrenin. Adım adım örneklerle tam kılavuz.
 ### [C#'ta Antialiasing'i Etkinleştirme – Tam Yazı Tipi Stili Rehberi](./how-to-enable-antialiasing-in-c-complete-font-style-guide/)

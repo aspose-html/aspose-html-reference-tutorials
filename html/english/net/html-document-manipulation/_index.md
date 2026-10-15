@@ -85,6 +85,7 @@ Unlock the potential of web development with Aspose.HTML for .NET. Create, conve
 Learn how to append elements to the HTML body using Aspose.HTML for .NET with a complete C# guide and practical examples.
 ### [how to create html with Aspose – Find Element, Apply Bold](./how-to-create-html-with-aspose-find-element-apply-bold/)
 Learn how to find an element and apply bold formatting using Aspose.HTML for .NET.
+### [How to combine font styles in C# with Aspose.HTML](./how-to-combine-font-styles-in-c-with-aspose-html/)
 
 ## Conclusion
 

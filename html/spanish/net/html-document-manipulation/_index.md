@@ -83,6 +83,8 @@ Aprenda a buscar un elemento en un documento HTML y aplicar formato en negrita u
 Aprenda a crear documentos HTML y añadir estilos CSS mediante un elemento `<style>` con ejemplos claros paso a paso.
 ### [Crear documento HTML en C# – Guía paso a paso](./create-html-document-c-step-by-step-guide/)
 Aprenda a crear documentos HTML en C# con Aspose.HTML mediante una guía paso a paso con ejemplos claros.
+### [Cómo combinar estilos de fuente en C# con Aspose.HTML](./how-to-combine-font-styles-in-c-with-aspose-html/)
+Aprenda a combinar varios estilos de fuente en documentos HTML usando Aspose.HTML en C#.
 
 ## Conclusión
 

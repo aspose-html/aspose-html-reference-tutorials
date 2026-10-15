@@ -97,6 +97,9 @@ C# ile HTML'yi görüntüye dönüştürmeyi adım adım öğrenin. Bu kapsamlı
 ### [C# ile HTML'yi PNG Olarak İşleme – Adım‑Adım Kılavuz](./render-html-to-png-in-c-step-by-step-guide/)
 C# kullanarak HTML'yi PNG'ye dönüştürmeyi adım adım öğrenin. Bu rehberde örnek kodlar ve ipuçları bulacaksınız.
 
+### [C#'ta HTML'yi PNG olarak render etme ve kaynakları zip'leme](./how-to-render-html-to-png-and-zip-resources-in-c/)
+C# kullanarak HTML'yi PNG'ye dönüştürün ve ilgili kaynakları zip dosyası olarak paketleyin. Adım adım örneklerle öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

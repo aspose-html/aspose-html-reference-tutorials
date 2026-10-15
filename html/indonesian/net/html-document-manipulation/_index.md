@@ -90,6 +90,9 @@ Pelajari cara membuat dokumen HTML dari awal dan menambahkan elemen CSS secara d
 ### [Buat Dokumen HTML C# – Panduan Langkah demi Langkah](./create-html-document-c-step-by-step-guide/)
 Pelajari cara membuat dokumen HTML menggunakan C# dengan panduan langkah demi langkah lengkap.
 
+### [Cara Menggabungkan Gaya Font di C# dengan Aspose.HTML](./how-to-combine-font-styles-in-c-with-aspose-html/)
+Pelajari cara menggabungkan gaya font di C# menggunakan Aspose.HTML.
+
 ## Kesimpulan
 
 Kesimpulannya, jika Anda ingin menguasai manipulasi dokumen HTML menggunakan Aspose.HTML untuk .NET, Anda berada di tempat yang tepat. Tutorial kami adalah peta jalan Anda menuju kesuksesan. Bersiaplah untuk menjelajahi berbagai kemungkinan, membuka kreativitas Anda, dan menyederhanakan pengembangan .NET Anda. Mulailah perjalanan Anda hari ini, dan saksikan dokumen HTML Anda berubah di depan mata Anda. Baik Anda seorang pengembang atau penggemar, Aspose.HTML untuk .NET memiliki sesuatu yang luar biasa untuk Anda. Jadi, tunggu apa lagi? Mari kita memulai petualangan yang mengasyikkan ini bersama-sama!
