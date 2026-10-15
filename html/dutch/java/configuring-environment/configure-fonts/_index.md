@@ -11,7 +11,7 @@ url: /nl/java/configuring-environment/configure-fonts/
 weight: 11
 ---
 
-Let's assemble final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
