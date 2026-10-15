@@ -135,6 +135,9 @@ Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie Text aus HT
 ### [JavaScript ausführen in Java – JS auf HTML ausführen und Elemente anhängen](./execute-javascript-java-run-js-on-html-append-elements/)
 Erfahren Sie, wie Sie JavaScript in Aspose.HTML für Java ausführen, HTML manipulieren und neue Elemente dynamisch hinzufügen.
 
+### [Wie man HTML-Vorlage in Ergebnisdatei in Java konvertiert](./how-to-convert-html-template-to-a-result-file-in-java/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java eine HTML‑Vorlage in eine fertige Ergebnisdatei umwandeln.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

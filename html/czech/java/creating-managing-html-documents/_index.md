@@ -116,6 +116,9 @@ Porovnejte používání XPath a CSS selektorů při načítání HTML v Javě s
 ### [Vytvořte HTML element s Java ExecutorService – Thread‑Safe demo](./create-html-element-with-java-executorservice-thread-safe-de/)
 Ukázka, jak bezpečně vytvářet HTML elementy v multi‑vláknovém prostředí pomocí ExecutorService v Javě.
 
+### [Jak převést HTML šablonu na výstupní soubor v Javě](./how-to-convert-html-template-to-a-result-file-in-java/)
+Naučte se převést HTML šablonu na finální soubor pomocí Aspose.HTML v Javě.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

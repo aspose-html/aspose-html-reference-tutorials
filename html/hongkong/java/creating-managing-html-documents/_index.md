@@ -56,6 +56,8 @@ Aspose.HTML for Java 為旨在在 Java 應用程式中無縫處理 HTML 文件�
 透過此逐步指南，了解如何從 Aspose.HTML for Java 中的字串建立 HTML 文件。
 ### [在 Java 中從 Markdown 建立 HTML – 完整逐步指南](./create-html-from-markdown-in-java-full-step-by-step-guide/)
 使用 Aspose.HTML for Java 從 Markdown 轉換為 HTML，提供完整的逐步教學，幫助您快速上手。
+### [如何在 Java 中將 HTML 模板轉換為結果檔案](./how-to-convert-html-template-to-a-result-file-in-java/)
+說明如何使用 Aspose.HTML for Java 將 HTML 模板轉換為最終結果檔案的完整步驟。
 ### [從 Aspose.HTML for Java 中的 URL 載入 HTML 文檔](./load-html-documents-from-url/)
 了解如何使用 Aspose.HTML 從 Java 中的 URL 輕鬆載入 HTML 文件。包括逐步教程。
 ### [如何在 Java 中載入 HTML – 逐步指南](./how-to-load-html-in-java-step-by-step-guide/)

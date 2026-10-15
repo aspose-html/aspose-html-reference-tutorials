@@ -80,40 +80,12 @@ Java için Aspose.HTML kullanarak XPath ve CSS ile HTML belgelerini nasıl yükl
 Java uygulamalarında Aspose.HTML kullanarak HTML belgelerindeki karakter sayısını adım adım öğrenin.
 ### [Java için Aspose.HTML'de HTML'den Metin Çıkarma – Tam Programlama Kılavuzu](./extract-text-from-html-in-java-complete-programming-guide/)
 Java için Aspose.HTML kullanarak HTML belgelerinden metin çıkarma konusunda adım adım rehber.
-
-
-
-
-
-
-
 ### [Java için Aspose.HTML'de HTML'i Java'da Ayrıştırma – Yükleme, Sorgulama ve Eleman Sayma](./how-to-parse-html-java-load-query-count-elements/)
 ### [Java'da Asenkron JavaScript Çalıştırma – Adım Adım Tam Kılavuz](./execute-async-javascript-in-java-complete-step-by-step-guide/)
-
-
-
-
-
-
-
 ### [Java için Aspose.HTML'de JavaScript'ten HTML Oluşturma – Tam Adım Adım Kılavuz](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Java'da JavaScript kullanarak dinamik HTML oluşturmayı adım adım öğrenin.
-
-
-
-
-
-
-
 ### [Java için Aspose.HTML'de NodeList'i Döngüyle Gezin – HTML Oku ve Görüntü src'sini Al](./iterate-nodelist-java-read-html-get-image-src/)
 Java’da NodeList’i dolaşarak HTML içeriğinden görsel kaynaklarını (src) nasıl alacağınızı öğrenin.
-
-
-
-
-
-
-
 ### [Java için Aspose.HTML'de NodeList Üzerinde Döngü – Tam Kılavuz](./iterate-over-nodelist-java-complete-guide/)
 Java’da NodeList nesnelerini nasıl yineleyeceğinizi adım adım öğrenin, örnek kodlarla pratik yapın.
 ### [Java için Aspose.HTML'de HTML'den Metin Çıkarma – Tam Adım‑Adım Kılavuz](./extract-text-from-html-with-java-complete-step-by-step-guide/)
@@ -132,6 +104,8 @@ Java için Aspose.HTML kullanarak Markdown içeriğini tam adım adım HTML'e d�
 Java için Aspose.HTML kullanarak bir HTML belgesinin sayfa başlığını hızlıca nasıl alacağınızı öğrenin.
 ### [Java için Aspose.HTML'de JavaScript Çalıştırma – HTML'de JS Çalıştır ve Eleman Ekle](./execute-javascript-java-run-js-on-html-append-elements/)
 Java için Aspose.HTML kullanarak HTML içinde JavaScript çalıştırın ve yeni öğeler ekleyin. Adım adım kılavuz.
+### [Java için Aspose.HTML'de HTML şablonunu sonuç dosyasına dönüştürme](./how-to-convert-html-template-to-a-result-file-in-java/)
+Java için Aspose.HTML kullanarak bir HTML şablonunu işleyip sonuç dosyası oluşturmayı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

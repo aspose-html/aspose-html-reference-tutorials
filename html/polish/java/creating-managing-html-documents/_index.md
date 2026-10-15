@@ -129,6 +129,9 @@ Dowiedz się, jak w prosty sposób ładować dokumenty HTML w Javie przy użyciu
 ### [Utwórz element HTML przy użyciu Java ExecutorService – demo wątkowo‑bezpieczne](./create-html-element-with-java-executorservice-thread-safe-de/)
 Pokażemy, jak bezpiecznie tworzyć elementy HTML w wielu wątkach przy użyciu ExecutorService w Javie.
 
+### [Jak przekonwertować szablon HTML na plik wynikowy w Javie](./how-to-convert-html-template-to-a-result-file-in-java/)
+Dowiedz się, jak przy użyciu Aspose.HTML przekształcić szablon HTML w gotowy plik wynikowy w Javie.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
