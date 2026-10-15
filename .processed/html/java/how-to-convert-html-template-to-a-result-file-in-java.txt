@@ -1,0 +1,7 @@
+Title: How to convert HTML template to a result file in Java
+Slug: how-to-convert-html-template-to-a-result-file-in-java
+Category: creating-managing-html-documents
+ProcessedDate: 2026-10-15T19:37:20.398881
+SourceRepo: AI Search API
+Keywords: convert html template, generate html from template, convert html with json, load json data source, attach json to template
+PRNumber: 304

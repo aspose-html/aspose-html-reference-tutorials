@@ -1,0 +1,7 @@
+Title: How to render HTML to PNG and zip resources in C#
+Slug: how-to-render-html-to-png-and-zip-resources-in-c
+Category: rendering-html-documents
+ProcessedDate: 2026-10-15T19:27:06.503269
+SourceRepo: AI Search API
+Keywords: render html to png, convert html to images, save html as zip, custom resource handler
+PRNumber: 303
