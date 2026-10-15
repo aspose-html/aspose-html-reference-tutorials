@@ -1,0 +1,7 @@
+Title: How to combine font styles in C# with Aspose.HTML
+Slug: how-to-combine-font-styles-in-c-with-aspose-html
+Category: html-document-manipulation
+ProcessedDate: 2026-10-15T19:27:10.568130
+SourceRepo: AI Search API
+Keywords: combine font styles, set font family, set font size c#, c# font constructor, create bold italic text
+PRNumber: 303
