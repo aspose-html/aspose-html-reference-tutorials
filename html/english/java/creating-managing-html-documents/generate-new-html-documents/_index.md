@@ -1,5 +1,5 @@
 ---
-title: Java Generate HTML File: Create Document with Aspose.HTML
+title: 'Java Generate HTML File: Create Document with Aspose.HTML'
 linktitle: Generate New HTML Documents using Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to java generate html file by creating an HTML document with Aspose.HTML for Java. This step‑by‑step guide shows how to generate HTML with Java easily.
@@ -41,7 +41,7 @@ Generating an HTML file with Java means programmatically constructing the markup
 
 ## Prerequisites
 1. **Java Development Kit (JDK)** – JDK 1.8 or higher. Download from [Oracle's website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
-2. **Aspose.HTML for Java Library** – obtain the latest JAR from [here](https://releases.aspose.com/html/java/).  
+2. **Aspose.HTML for Java Library** – obtain the latest JAR from the [Aspose.HTML for Java releases page](https://releases.aspose.com/html/java/).  
 3. **IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.  
 4. **Basic Java knowledge** – familiarity with classes and methods.  
 5. **Internet connection** – required for downloading the library and accessing documentation.
@@ -50,7 +50,7 @@ Now that your environment is ready, let’s dive into the step‑by‑step guide
 
 ## Step‑by‑Step Guide
 
-### Step 1: Initialize an Empty HTML Document
+### Step 1: initialize an empty HTML document
 Creating a fresh document gives you a clean canvas to work with.
 
 ```java
@@ -59,7 +59,7 @@ com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument();
 
 > **Pro tip:** This line **initialize empty html document** and is equivalent to opening a blank HTML file in a browser.
 
-### Step 2: Prepare an Output Path for Document Saving
+### Step 2: prepare an output path for document saving
 Define where the generated file will be stored.
 
 ```java
@@ -68,7 +68,7 @@ String documentPath = "create-new-document.html";
 
 You can change the file name or include a full directory path as needed.
 
-### Step 3: Add a Text Node – “Hello World!”
+### Step 3: add a text node – “Hello world!”
 Here we **add text node java** style content to the body.
 
 ```java
@@ -78,7 +78,7 @@ document.getBody().appendChild(text);
 
 The `createTextNode` method creates a plain‑text node, and `appendChild` places it inside the `<body>` element.
 
-### Step 4: Save the Document to Disk
+### Step 4: save the document to disk
 Persist the in‑memory DOM to an actual file.
 
 ```java
@@ -100,23 +100,23 @@ finally {
 
 Calling `dispose()` releases native resources held by the Aspose.HTML engine.
 
-## Common Issues & Solutions
+## Common issues & solutions
 | Issue | Cause | Fix |
 |-------|-------|-----|
 | **File not created** | Incorrect path or missing write permissions | Use an absolute path or ensure the folder is writable. |
 | **NullPointerException on `document`** | `document` not instantiated before the `finally` block | Keep the initialization in a `try` block and only call `dispose()` in `finally`. |
 | **Text not visible** | Adding node to `<head>` instead of `<body>` | Always append to `document.getBody()`. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: What is Aspose.HTML for Java?**  
 A: It is a **java html processing library** that enables creation, manipulation, and conversion of HTML documents directly from Java code.
 
 **Q: How do I download Aspose.HTML for Java?**  
-A: You can download the library from the Aspose releases page [here](https://releases.aspose.com/html/java/).
+A: You can download the library from the [Aspose.HTML for Java releases page](https://releases.aspose.com/html/java/).
 
 **Q: Do I need a license to use Aspose.HTML?**  
-A: A free trial is available for evaluation. For unrestricted production use, purchase a license via [this link](https://purchase.aspose.com/buy).
+A: A free trial is available for evaluation. For unrestricted production use, purchase a license via the [Aspose purchase page](https://purchase.aspose.com/buy).
 
 **Q: Can I create more complex HTML documents?**  
 A: Absolutely. The library supports CSS styling, JavaScript execution, SVG graphics, and even conversion to PDF or image formats.

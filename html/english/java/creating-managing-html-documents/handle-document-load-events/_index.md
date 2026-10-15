@@ -52,7 +52,7 @@ Once everything is ready, you’re all set to start coding!
 
 ## Step‑by‑Step Guide
 
-### Step 1: Initialize an HTML Document
+### Step 1: initialize an HTML document
 First, create an `HTMLDocument` instance. We also set up an `AtomicBoolean` to keep track of the loading state.
 
 ```java
@@ -95,7 +95,7 @@ System.out.println("outerHTML = " + document.getDocumentElement().getOuterHTML()
 
 You should see the complete HTML of the loaded page printed to the console.
 
-## Common Issues and Solutions
+## Common issues and solutions
 | Issue | Reason | Fix |
 |-------|--------|-----|
 | **`isLoading` never becomes true** | The `OnLoad` handler wasn’t attached before `navigate()` | Attach the handler **before** calling `navigate()`. |
@@ -103,7 +103,7 @@ You should see the complete HTML of the loaded page printed to the console.
 | **SSLHandshakeException** when loading HTTPS URLs | Missing trusted certificates | Add the appropriate certificate to your Java keystore or use `-Djsse.enableSNIExtension=false`. |
 | **Slow loading causing timeout** | Large page or network latency | Increase the sleep duration or implement a timeout‑aware listener. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: What is Aspose.HTML for Java?**  
 A: Aspose.HTML for Java is a library that allows developers to create, manipulate, and convert HTML documents in Java applications.

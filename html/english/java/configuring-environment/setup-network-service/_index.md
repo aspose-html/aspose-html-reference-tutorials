@@ -39,7 +39,7 @@ Configuring a network service lets you **manage network resources** such as time
 ## Prerequisites
 Before diving into the actual setup, let’s ensure you’ve got everything you need to get started:
 - **Java Development Kit (JDK)** 1.8 or later.  
-- **Aspose.HTML for Java** library – download the latest build from the [official release page](https://releases.aspose.com/html/java/).  
+- **Aspose.HTML for Java** library – download the latest build from the [Aspose.HTML for Java release page](https://releases.aspose.com/html/java/).  
 - **IDE** of your choice (IntelliJ IDEA, Eclipse, NetBeans, etc.).  
 - Basic familiarity with Java syntax and Maven/Gradle project setup.
 
@@ -52,7 +52,7 @@ import java.io.IOException;
 
 These imports are the backbone of the functionality we’ll be discussing, so make sure they’re correctly placed at the beginning of your Java file.
 
-## Step 1: Create an HTML File with Network‑Dependent Images
+## Step 1: create an HTML file with network‑Dependent images
 To **create html file java** that references external resources, write a small snippet that injects a few `<img>` tags pointing to publicly available images.
 
 ```java
@@ -66,7 +66,7 @@ try (java.io.FileWriter fileWriter = new java.io.FileWriter("document.html")) {
 
 This HTML file is the entry point for the network service; the images will be fetched over HTTP when the document is loaded.
 
-## Step 2: Initialize the Configuration Object
+## Step 2: initialize the configuration object
 Now let’s create the **configuration** that will host our network‑service settings.
 
 ```java
@@ -75,7 +75,7 @@ com.aspose.html.Configuration configuration = new com.aspose.html.Configuration(
 
 The `Configuration` object is where you’ll specify how Aspose.HTML should handle network traffic, logging, and error handling.
 
-## Step 3: Add a Custom Error Message Handler
+## Step 3: add a custom error message handler
 A custom `MessageHandler` gives you visibility into problems such as missing images or time‑outs.
 
 ```java
@@ -108,7 +108,7 @@ com.aspose.html.converters.Converter.convertHTML(
 
 The result is a single PNG file (`output.png`) that you can embed elsewhere or serve to users.
 
-## Step 6: Clean Up Resources
+## Step 6: clean up resources
 Proper resource management is essential. After conversion, release the objects to **clean up resources** and avoid memory leaks.
 
 ```java
@@ -122,19 +122,19 @@ if (configuration != null) {
 
 Think of this as washing the dishes after a meal—leaving resources hanging around can cause performance problems later.
 
-## Common Use Cases
+## Common use cases
 - **Automated thumbnail generator** for web pages or PDFs.  
 - **Batch reporting engine** that converts HTML invoices into PNG images for email attachments.  
 - **Dynamic image creation** in web services where HTML templates are rendered on‑the‑fly.
 
-## Common Issues and Solutions
+## Common issues and solutions
 | Issue | Why it Happens | How to Fix |
 |-------|----------------|------------|
 | Images fail to load | Network timeout or wrong URL | Verify URLs, increase timeout via `NetworkService` settings, or add fallback logic in `LogMessageHandler`. |
 | PNG is blank | Document not fully loaded before conversion | Ensure the `HTMLDocument` is instantiated with the configuration that includes the custom handler; optionally call `document.waitForLoad()` if using async loading. |
 | Out‑of‑memory error | Very large HTML or many high‑resolution images | Use `ImageSaveOptions.setMaxWidth/MaxHeight` to limit output size, or dispose of intermediate objects promptly. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: What is the main purpose of setting up a network service in Aspose.HTML for Java?**  
 A: It lets you **manage network resources** such as remote images, scripts, or stylesheets, and gives you control over error handling and logging.

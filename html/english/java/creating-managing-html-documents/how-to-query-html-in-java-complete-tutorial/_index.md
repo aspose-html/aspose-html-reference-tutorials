@@ -48,7 +48,7 @@ Aspose.HTML offers a **single, well‑documented API** that supports both CSS se
 - Maven or Gradle build system  
 - Aspose.HTML for Java library (trial or licensed version)  
 
-## What You’ll Learn
+## What you’ll learn
 
 - Load an HTML document from disk or a URL.  
 - Use XPath to find elements that match complex conditions.  
@@ -118,7 +118,7 @@ If you need to fetch the *titles* of those expensive books, you can chain a seco
         System.out.println("First expensive book title: " + titles.get(0).getTextContent());
 ```
 
-## Select Multiple CSS Classes – Advanced Selector Tricks
+## Select multiple CSS classes – advanced selector tricks
 
 Sometimes you want to target elements that **simultaneously** have several classes, like `class="product featured"`. The CSS syntax for this is a concatenated selector without commas.
 
@@ -164,7 +164,7 @@ Counting nodes is often the final step in a data‑extraction pipeline. You’ve
 - **Whitespace in class attributes** – `"featured "` (trailing space) still matches `.featured` because the selector trims whitespace.  
 - **Case sensitivity** – HTML class names are case‑sensitive in XML mode; ensure your source HTML uses consistent casing.
 
-## Full Working Example
+## Full working example
 
 Putting everything together, here’s a self‑contained program you can copy‑paste into your IDE:
 
@@ -212,13 +212,13 @@ Product‑featured divs: 2
 
 If your file contains fewer matching nodes, the numbers will adjust accordingly—no surprises.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 - **File not found** – Verify the path is absolute or relative to the working directory.  
 - **Malformed HTML** – Aspose.HTML tolerates most errors, but extremely broken markup may require pre‑cleaning.  
 - **Performance on large files** – Load the document once, reuse the same `HTMLDocument` instance for all queries.  
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use this approach for web‑scraping across multiple pages?**  
 A: Yes. Load each page with a new `HTMLDocument` instance or reuse the same instance after calling `document.load(url)`.
