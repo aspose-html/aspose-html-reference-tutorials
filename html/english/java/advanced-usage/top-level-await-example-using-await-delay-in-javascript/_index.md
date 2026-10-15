@@ -1,8 +1,8 @@
 ---
 category: general
 date: 2026-03-26
-description: top level await example showing await delay javascript, increment counter
-  class, and public class fields javascript in a live demo.
+description: Learn how to implement a top level await example showing await delay JavaScript, increment counter class, and public class fields JavaScript in a live demo.
+  class, and public class fields JavaScript in a live demo.
 draft: false
 keywords:
 - top level await example
@@ -11,15 +11,14 @@ keywords:
 - public class fields javascript
 - javascript class public field
 language: en
-og_description: top level await example that demonstrates await delay javascript,
-  increment counter class, and public class fields javascript in a concise tutorial.
-og_title: top level await example – Using await delay in JavaScript
+og_description: Learn how to implement a top level await example that demonstrates await delay JavaScript, increment counter class, and public class fields JavaScript in a concise tutorial.
+og_title: Implement a top level await example – Using await delay in JavaScript
 tags:
 - JavaScript
 - ES2022
 - async‑await
 - classes
-title: top level await example – Using await delay in JavaScript
+title: Implement a top level await example – Using await delay in JavaScript
 url: /java/advanced-usage/top-level-await-example-using-await-delay-in-javascript/
 ---
 
@@ -33,7 +32,7 @@ Ever wondered how to pause module execution without wrapping everything in an as
 
 We’ll cover everything from defining a class with a public field to wiring a simple promise‑based delay helper. No external libraries, no build step—just plain HTML, a `<script type="module">`, and the newest ECMAScript features. If you’re already comfortable with async functions, you’ll see why top‑level await feels like a natural extension. If you’re new to **javascript class public field** syntax, don’t worry—we explain the why behind each line.
 
-## What You’ll Learn
+## What you’ll learn
 
 - How a **top level await example** works inside a module script.
 - The pattern for an `await delay javascript` helper that mimics `setTimeout` with promises.
@@ -87,7 +86,7 @@ Next we need a tiny promise‑based delay function. It’s essentially a wrapper
 
 **Edge case:** If `ms` is negative or not a number, `setTimeout` treats it as `0`. You could add validation, but for a demo the one‑liner keeps things readable.
 
-## Step 3 – Use Top‑Level Await to Pause Execution
+## Step 3 – use top‑Level await to pause execution
 
 Now comes the star of the show: top‑level await. Because our script is a module (`type="module"`), we can place `await` directly in the top scope. This pauses the module until the promise resolves, letting us control the order of side effects.
 
@@ -98,7 +97,7 @@ Now comes the star of the show: top‑level await. Because our script is a modul
 
 **Common question:** “Can I use top‑level await in a normal `<script>` tag?” No—only module scripts support it. If you forget `type="module"`, you’ll get a syntax error.
 
-## Step 4 – Instantiate the Class, Increment, and Log the Result
+## Step 4 – instantiate the class, increment, and log the result
 
 Finally we put everything together: create an instance, call `increment()`, and output the final count. This demonstrates the **increment counter class** in action.
 
@@ -112,7 +111,7 @@ Finally we put everything together: create an instance, call `increment()`, and 
 </html>
 ```
 
-### Expected Console Output
+### Expected console output
 
 ```
 Counter class initialized
@@ -135,7 +134,7 @@ class Counter {
 
 Both approaches work, but **public class fields javascript** give you a cleaner, more declarative syntax. The field is defined once, not inside every constructor call, which can be easier to read when the class grows larger. Additionally, static blocks can’t be placed inside a constructor, so separating initialization logic becomes more natural.
 
-## Step 6 – Adapting the Example for Real‑World Apps
+## Step 6 – adapting the example for real‑World apps
 
 In production you’ll often need more than a single counter. Here are a few quick ideas:
 
@@ -145,7 +144,7 @@ In production you’ll often need more than a single counter. Here are a few qui
 
 All of these patterns still benefit from top‑level await, because you can fetch data once at module load time and guarantee it’s ready for every consumer.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Does top‑level await block other modules?**  
 A: No. Each module runs independently. Only the module that contains the await is paused; other modules continue loading in parallel.

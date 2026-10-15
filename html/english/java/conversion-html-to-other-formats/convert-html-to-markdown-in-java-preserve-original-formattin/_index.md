@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-03-26
-description: Convert HTML to markdown and generate markdown file while preserving
-  original formatting using Aspose HTML conversion in Java. Learn step‑by‑step.
+description: Convert HTML to markdown and generate markdown file while preserving original formatting using Aspose HTML conversion in Java. Learn step‑by‑step.
 draft: false
 keywords:
 - convert html to markdown
@@ -11,14 +10,13 @@ keywords:
 - html to markdown java
 - aspose html conversion
 language: en
-og_description: Convert HTML to markdown quickly, generate markdown file, and keep
-  original formatting using Aspose HTML conversion for Java.
+og_description: Convert HTML to markdown quickly, generate markdown file, and keep original formatting using Aspose HTML conversion for Java.
 og_title: Convert HTML to Markdown in Java – Preserve Formatting
 tags:
 - Aspose
 - Java
 - Markdown
-title: Convert HTML to Markdown in Java – Preserve Original Formatting
+title: Convert HTML to Markdown in Java with Aspose HTML – Preserve Original Formatting
 url: /java/conversion-html-to-other-formats/convert-html-to-markdown-in-java-preserve-original-formattin/
 ---
 
@@ -32,7 +30,7 @@ Ever needed to **convert HTML to markdown** but worried you'd lose the spacing, 
 
 In this guide we’ll walk through the whole process: loading a complex HTML file, configuring the conversion so it **preserve original formatting**, and finally writing the output to `preserved.md`. By the end you’ll have a ready‑to‑run snippet, understand *why* each setting matters, and know how to adapt the code for edge cases like custom CSS or embedded scripts.
 
-## What You’ll Need
+## What you’ll need
 
 - Java 17 (or any recent JDK) – the API works with Java 8+ but newer versions give you better performance.
 - Aspose HTML for Java library (version 23.11 or later). You can grab it from Maven Central:
@@ -50,7 +48,7 @@ In this guide we’ll walk through the whole process: loading a complex HTML fil
 
 That’s it. No external tools, no command‑line hacks—just pure Java code.
 
-## Step 1: Load the Source HTML Document
+## Step 1: load the source HTML document
 
 The first thing we do is create an `HTMLDocument` instance that points to your source file. Aspose HTML treats the file as a DOM, which means you can inspect or modify it before conversion if you ever need to.
 
@@ -63,7 +61,7 @@ HTMLDocument htmlDoc = new HTMLDocument("YOUR_DIRECTORY/complex.html");
 
 > **Why this matters:** Loading the document this way ensures that all linked resources (stylesheets, images) are resolved relative to the file location. If you skip this step and feed a raw string, you might lose external CSS that influences spacing—exactly the kind of thing you want to **preserve original formatting** for.
 
-## Step 2: Configure Markdown Conversion Options
+## Step 2: configure markdown conversion options
 
 Aspose HTML gives you a `MarkdownConversionOptions` class. The key property for us is `setPreserveOriginalFormatting(true)`. When enabled, the converter keeps line breaks, indentation, and even raw HTML snippets that markdown can’t represent natively.
 
@@ -77,7 +75,7 @@ markdownOptions.setPreserveOriginalFormatting(true); // keep whitespace and inli
 
 > **Pro tip:** If you later discover that some inline styles are being stripped, you can also call `markdownOptions.setIncludeHtml(true)` to force raw HTML blocks into the markdown output.
 
-## Step 3: Perform the Conversion
+## Step 3: perform the conversion
 
 Now we hand the `HTMLDocument`, the target file path, and our options to the static `Converter.convertHTML` method. The method does all the heavy lifting behind the scenes.
 
@@ -117,7 +115,7 @@ You should see something like:
 
 The `<table>` tag is still present because markdown’s native table syntax couldn’t capture the exact styling—thanks to `preserve original formatting`.
 
-## Step 5: Wrap It All Up – Full Runnable Example
+## Step 5: wrap it all up – full runnable example
 
 Below is the complete, ready‑to‑run class. Replace `YOUR_DIRECTORY` with the actual path on your machine.
 
@@ -151,7 +149,7 @@ public class HtmlToMarkdownPreserve {
 
 Run the program with `mvn exec:java` or your favorite IDE, and you’ll have a **generate markdown file** that mirrors the original HTML layout.
 
-## Common Questions & Edge Cases
+## Common questions & edge cases
 
 ### Does this work with external CSS files?
 

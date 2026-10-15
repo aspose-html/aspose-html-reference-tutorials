@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-03-26
-description: Create PDF custom size from HTML using Aspose.HTML for Java. Learn how
-  to convert HTML to PDF and set PDF page size in just a few steps.
+description: Learn how to generate a PDF with a custom page size from HTML using Aspose.HTML for Java in just a few steps.
 draft: false
 keywords:
 - create pdf custom size
@@ -19,7 +18,7 @@ tags:
 - java
 - pdf
 - html
-title: Create PDF Custom Size – Convert HTML to PDF with Aspose
+title: Generate Custom‑Size PDF from HTML Using Aspose.HTML for Java
 url: /java/conversion-html-to-other-formats/create-pdf-custom-size-convert-html-to-pdf-with-aspose/
 ---
 
@@ -35,7 +34,7 @@ If you’re building invoices, reports, or e‑books, getting the exact page dim
 
 We'll walk through every step, from loading the source HTML to tweaking margins, and finish with a ready‑to‑use PDF. No vague references, just a complete, runnable example you can copy‑paste today.
 
-## What You’ll Need
+## What you’ll need
 
 - **Java 17** (or any recent JDK).  
 - **Aspose.HTML for Java** JARs – you can grab the latest version from the Maven repository or the Aspose website.  
@@ -48,7 +47,7 @@ Now, let’s dive in.
 
 ![Create PDF custom size example](/images/create-pdf-custom-size.png "Screenshot showing a PDF generated with custom page size and margins – create pdf custom size")
 
-## Create PDF Custom Size – Core Steps
+## Create PDF custom size – core steps
 
 Below is the full Java program you’ll end up with. Feel free to copy it into a file called `ConvertHtmlToPdfCustomPage.java` and run it after you’ve added the Aspose dependencies to your project.
 
@@ -80,14 +79,14 @@ public class ConvertHtmlToPdfCustomPage {
 }
 ```
 
-### Step 1 – Convert HTML to PDF: Loading the Document
+### Step 1 – convert HTML to PDF: loading the document
 
 The first thing we do is **load the HTML** we want to turn into a PDF.  
 `HTMLDocument` reads the file, resolves relative links, and builds a DOM that Aspose can render.  
 
 > **Why this matters:** If the HTML references CSS or images, Aspose will fetch them relative to the file path. Using an absolute path (`YOUR_DIRECTORY/input.html`) avoids “file not found” surprises.
 
-### Step 2 – Change PDF Page Size: Configuring Options
+### Step 2 – change PDF page size: configuring options
 
 Here we create a `PdfConversionOptions` object.  
 - `setPageSize(PageSize.A4)` tells Aspose to use the standard A4 dimensions (210 × 297 mm).  
@@ -102,13 +101,13 @@ pdfOptions.setPageSize(new SizeF(500, 800)); // width, height in points
 
 > **Pro tip:** One point equals 1/72 inch. If you think in millimeters, multiply by 2.83465 to get points.
 
-### Step 3 – Generate PDF from HTML: Running the Conversion
+### Step 3 – generate PDF from HTML: running the conversion
 
 `Converter.convertHTML` does the heavy lifting. It takes the loaded `HTMLDocument`, the output path, and the options we just configured.  
 
 If you want to **set PDF page size** dynamically based on content, you could calculate the required dimensions before this step and adjust `pdfOptions` accordingly.
 
-### Step 4 – Verify the Result
+### Step 4 – verify the result
 
 The `System.out.println` line is optional, but it gives quick feedback when you run the program from a console. After execution, open `custom_page.pdf` – you should see an A4 portrait PDF with uniform 20‑point margins, exactly as we specified.
 
@@ -143,7 +142,7 @@ Margins accept floating‑point values, so you can set 0.5 pt for a hair‑thi
 pdfOptions.setMargins(new Margin(5.5, 10.2, 5.5, 10.2));
 ```
 
-### Handling Large HTML Files
+### Handling large HTML files
 
 For massive documents, consider enabling **memory‑efficient streaming**:
 
@@ -153,7 +152,7 @@ pdfOptions.setUseMemoryCache(true);
 
 This tells Aspose to write intermediate data to temporary files instead of keeping everything in RAM.
 
-## Set PDF Page Size – Edge Cases & Pitfalls
+## Set PDF page size – edge cases & pitfalls
 
 - **Missing Fonts:** If your HTML uses a custom font not installed on the server, the PDF will fall back to a default. Embed the font with `pdfOptions.getFontEmbeddingMode().setEmbeddingMode(EmbeddingMode.Always);`.  
 - **Image Scaling:** High‑resolution images can bloat the PDF. Use `pdfOptions.setImageResolution(150);` to downscale while preserving quality.  

@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-03-26
-description: Learn how to emulate iPhone in Java using Aspose.HTML. Includes steps
-  to set custom user agent and set device pixel ratio for accurate mobile rendering.
+description: Discover how to emulate iPhone in Java using Aspose.HTML, and learn to set a custom user agent and device pixel ratio for accurate mobile rendering.
 draft: false
 keywords:
 - how to emulate iphone
@@ -19,7 +18,7 @@ tags:
 - Aspose.HTML
 - Java
 - Mobile Emulation
-title: How to Emulate iPhone – Complete Guide with Aspose.HTML
+title: Learn to Emulate iPhone – Complete Guide with Aspose.HTML
 url: /java/html5-canvas-rendering/how-to-emulate-iphone-complete-guide-with-aspose-html/
 ---
 
@@ -33,7 +32,7 @@ Ever wondered **how to emulate iPhone** when testing a web page locally? Maybe y
 
 In this tutorial we’ll walk through the exact steps to set a **custom user agent**, configure the **device pixel ratio**, and verify that everything works as expected. By the end you’ll have a reusable sandbox that renders pages just like an iPhone 8, and you’ll understand why each setting matters.
 
-## What You’ll Achieve
+## What you’ll achieve
 
 - Create a `Screen` object that mirrors an iPhone’s dimensions and DPR.  
 - Apply a **custom user agent** string so servers think the request comes from Safari on iOS.  

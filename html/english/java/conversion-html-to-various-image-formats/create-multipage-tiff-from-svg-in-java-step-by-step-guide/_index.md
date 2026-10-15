@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-03-26
-description: Create multipage tiff from SVG in Java with Aspose.HTML. Learn how to
-  convert SVG to TIFF, load SVG document Java, and create multipage TIFF files.
+description: Generate multipage TIFF from SVG in Java with Aspose.HTML for Java. Learn how to convert SVG to TIFF, load SVG documents in Java, and produce lossless multipage TIFF files.
 draft: false
 keywords:
 - create multipage tiff
@@ -18,7 +17,7 @@ tags:
 - Java
 - Aspose.HTML
 - Image Conversion
-title: Create multipage tiff from SVG in Java – Step‑by‑Step Guide
+title: Generate multipage TIFF from SVG in Java using Aspose.HTML – Step‑by‑Step Guide
 url: /java/conversion-html-to-various-image-formats/create-multipage-tiff-from-svg-in-java-step-by-step-guide/
 ---
 
@@ -32,7 +31,7 @@ Ever needed to **create multipage tiff** from an SVG but weren't sure where to s
 
 We'll cover everything from setting up the Aspose.HTML library to handling edge cases like large SVG assets. By the end of the tutorial you’ll have a single Java class that you can drop into any project and start generating multi‑page TIFFs instantly.
 
-## What You’ll Need
+## What you’ll need
 
 - **Java Development Kit (JDK) 8+** – the code uses standard Java APIs.
 - **Aspose.HTML for Java** (version 23.5 or later) – this is the only third‑party dependency.
@@ -79,7 +78,7 @@ Converter.convertSVG(htmlDoc, "YOUR_DIRECTORY/output.tiff", tiffOptions);
 
 **Why this matters:** Using the static `convertSVG` call is the most straightforward way to trigger the conversion. Under the hood, Aspose.HTML rasterizes the vector data at a default 96 dpi; you can adjust DPI via `tiffOptions.setResolution(...)` if higher quality is required.
 
-## Step 4 – Verify the Result
+## Step 4 – verify the result
 
 After the conversion finishes, it’s a good idea to confirm that the file exists and contains the expected number of pages. A quick check can be done with any image viewer that supports multipage TIFF (e.g., IrfanView, XnView, or even Java’s `ImageIO`).
 
@@ -97,7 +96,7 @@ java -cp ".:aspose-html.jar" SvgToMultipageTiff
 
 You should see the console message confirming success, and opening `output.tiff` will reveal one page per SVG root element (or a single page if the SVG only has one canvas).
 
-## Common Pitfalls & Pro Tips
+## Common pitfalls & pro tips
 
 | Issue | Why it Happens | How to Fix It |
 |-------|----------------|---------------|
@@ -108,7 +107,7 @@ You should see the console message confirming success, and opening `output.tiff`
 
 **Pro tip:** If you need a specific page order, rename your SVG files to `page1.svg`, `page2.svg`, etc., and loop over them, appending each conversion result to the same TIFF using `tiffOptions.setMultipage(true)` each time.
 
-## Full Working Example
+## Full working example
 
 Below is the complete, self‑contained Java class you can copy‑paste into a file named `SvgToMultipageTiff.java`. It includes import statements, comments, and error handling for production use.
 
