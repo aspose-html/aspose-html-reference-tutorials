@@ -18,7 +18,7 @@ tags:
 - Aspose.HTML
 - Java
 - Mobile Emulation
-title: How to Emulate iPhone in Java with Aspose.HTML – Complete Guide
+title: Use Aspose.HTML to Emulate iPhone in Java – Complete Guide
 url: /java/html5-canvas-rendering/how-to-emulate-iphone-complete-guide-with-aspose-html/
 ---
 

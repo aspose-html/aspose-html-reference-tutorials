@@ -1,7 +1,7 @@
 ---
 category: general
 date: 2026-03-26
-description: Learn how to convert HTML to Markdown with the Aspose.HTML for Java API, preserving original formatting and generating a markdown file.
+description: Learn how to convert HTML to Markdown with Aspose.HTML for Java API, preserving original formatting and generating a markdown file.
 draft: false
 keywords:
 - convert html to markdown
@@ -16,7 +16,7 @@ tags:
 - Aspose
 - Java
 - Markdown
-title: Convert HTML to Markdown using Aspose.HTML Java API – Preserve Original Formatting
+title: Convert HTML to Markdown using Aspose.HTML for Java – Preserve Original Formatting
 url: /java/conversion-html-to-other-formats/convert-html-to-markdown-in-java-preserve-original-formattin/
 ---
 

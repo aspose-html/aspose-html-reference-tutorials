@@ -1,7 +1,7 @@
 ---
 category: general
 date: 2026-03-26
-description: Explore how to implement a top‑level await example that demonstrates await‑delay in JavaScript, an increment‑counter class, and public class fields, with a live demo.
+description: Explore how to build a top‑level await example that demonstrates await‑delay in JavaScript, an increment‑counter class, and public class fields, with a live demo.
 draft: false
 keywords:
 - top level await example
@@ -17,7 +17,7 @@ tags:
 - ES2022
 - async‑await
 - classes
-title: Learn to implement a top‑level await example – Using await delay in JavaScript
+title: Build a top‑level await example – Using await delay in JavaScript
 url: /java/advanced-usage/top-level-await-example-using-await-delay-in-javascript/
 ---
 

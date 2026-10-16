@@ -1,7 +1,7 @@
 ---
 category: general
 date: 2026-03-26
-description: Learn how to generate and convert a PDF with a custom page size from HTML using Aspose.HTML for Java in just a few steps.
+description: Learn how to create a document with custom page dimensions from markup using a Java library in just a few steps.
 draft: false
 keywords:
 - create pdf custom size
@@ -18,7 +18,7 @@ tags:
 - java
 - pdf
 - html
-title: Generate and Convert Custom‑Size PDF from HTML Using Aspose.HTML for Java
+title: Guide to Creating Documents with Custom Page Dimensions
 url: /java/conversion-html-to-other-formats/create-pdf-custom-size-convert-html-to-pdf-with-aspose/
 ---
 
@@ -186,6 +186,8 @@ You now know how to **create PDF custom size** from an HTML source using Aspose.
 Feel free to experiment—swap `PageSize.LETTER` for legal size, tweak margins, or embed your own fonts. Next, you might explore **adding watermarks**, **encrypting the PDF**, or **batch‑processing multiple HTML files**. All of those topics build on the same core concepts we just covered.
 
 Got a question about a specific edge case? Drop a comment below, and I’ll help you troubleshoot. Happy coding!
+
+<!-- TODO: Add a section on batch processing multiple files -->
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
