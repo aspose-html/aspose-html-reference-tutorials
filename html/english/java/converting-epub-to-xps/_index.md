@@ -101,11 +101,11 @@ You convert EPUB to XPS when you need a fixed‑layout, print‑ready document t
 
 Instantiate an `HTMLDocument` with the path to your EPUB, optionally configure `XpsSaveOptions` (page size, compression, signature), then invoke `document.save(outputPath, XpsSaveOptions)` – Aspose HTML for Java handles rendering and stream management automatically.
 
-### Specifying Custom Stream Providers
+### Specifying custom stream providers
 
 When your storage layer is encrypted, cloud‑based, or requires special authentication, you can inject a custom stream provider. This lets the conversion read the EPUB and write the XPS using your own I/O logic, ensuring compliance with security policies while keeping performance optimal.
 
-### Specifying XPS Save Options
+### Specifying XPS save options
 
 `XpsSaveOptions` offers fine‑grained control:
 
@@ -114,6 +114,28 @@ When your storage layer is encrypted, cloud‑based, or requires special authent
 - **Digital Signature** – Attach an X.509 certificate to sign the XPS, guaranteeing document integrity.
 
 Adjusting these options tailors the XPS for printing, archival, or distribution scenarios.
+
+## Sample Java Code
+
+```java
+import com.aspose.html.HTMLDocument;
+import com.aspose.html.saving.XpsSaveOptions;
+
+public class EpubToXps {
+    public static void main(String[] args) throws Exception {
+        // Load EPUB file
+        HTMLDocument doc = new HTMLDocument("input.epub");
+
+        // Configure XPS save options
+        XpsSaveOptions options = new XpsSaveOptions();
+        options.setPageSize(595, 842); // A4 size in points
+        options.setCompressImages(true);
+
+        // Save as XPS
+        doc.save("output.xps", options);
+    }
+}
+```
 
 ## Converting EPUB to XPS Tutorials
 Explore our tutorials to learn more about using Aspose HTML for Java in various scenarios, making your document‑management tasks a breeze. Converting EPUB to XPS has never been easier!
@@ -127,7 +149,7 @@ Convert EPUB to XPS effortlessly using Aspose HTML for Java. Follow this step‑
 ### [Specifying XPS Save Options for EPUB to XPS](./convert-epub-to-xps-specify-xps-save-options/)
 Learn how to use Aspose HTML for Java to specify XPS save options for EPUB to XPS in this step‑by‑step tutorial. Convert EPUB files seamlessly.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I convert password‑protected EPUB files?**  
 A: Yes. Load the EPUB with the appropriate credentials via the `HTMLDocument` constructor before invoking the conversion API.
@@ -152,12 +174,13 @@ A: Open the resulting XPS in a viewer such as Windows XPS Viewer and compare lay
 
 ## Related Tutorials
 
-- [Specifying Aspose HTML Save Options for EPUB to XPS Conversion](/html/java/converting-epub-to-xps/convert-epub-to-xps-specify-xps-save-options/)
-- [How to Convert EPUB to PDF with Java – Using Aspose.HTML](/html/java/conversion-epub-to-image-and-pdf/convert-epub-to-pdf/)
-- [Convert HTML to XPS with Aspose.HTML for Java](/html/java/conversion-html-to-other-formats/convert-html-to-xps/)
-
+- [Specifying Aspose HTML Save Options for EPUB to XPS Conversion](./convert-epub-to-xps-specify-xps-save-options/)
+- [How to Convert EPUB to PDF with Java – Using Aspose.HTML](../conversion-epub-to-image-and-pdf/convert-epub-to-pdf/)
+- [Convert HTML to XPS with Aspose.HTML for Java](../conversion-html-to-other-formats/convert-html-to-xps/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

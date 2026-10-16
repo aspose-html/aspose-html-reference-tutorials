@@ -103,7 +103,7 @@ The `Converter` class offers high‑level methods to convert HTML to different o
 
 Below is a detailed walkthrough of each step. Feel free to copy the code blocks as‑is; they are ready to run.
 
-### Step 1: Prepare an HTML Code
+### Step 1: prepare an HTML code
 
 We’ll create a tiny HTML snippet that says “Hello World!!”. The code writes this snippet to a file named **document.html**.
 
@@ -116,7 +116,7 @@ try (java.io.FileWriter fileWriter = new java.io.FileWriter("document.html")) {
 
 > **Pro tip:** Replace the `code` string with any valid HTML markup, CSS, or even a full web page to generate a more complex GIF.
 
-### Step 2: Initialize an HTML Document
+### Step 2: initialize an HTML document
 
 The `HTMLDocument` class represents a parsed HTML DOM ready for rendering.  
 Load the HTML file you just created into an `HTMLDocument` object. This object represents the DOM tree that Aspose.HTML will render.
@@ -125,7 +125,7 @@ Load the HTML file you just created into an `HTMLDocument` object. This object r
 HTMLDocument document = new HTMLDocument("document.html");
 ```
 
-### Step 3: Initialize ImageSaveOptions
+### Step 3: initialize imageSaveOptions
 
 `ImageSaveOptions` defines how the rendering engine should encode the final image.  
 Configure the output format. Here we specify **GIF**, but you can change `ImageFormat.Gif` to `Png`, `Jpeg`, etc., if you need a different image type.
@@ -141,7 +141,7 @@ The `save` method writes the rendered output to the given file path using the pr
 
 > **What happens under the hood?** Aspose.HTML renders the DOM to an off‑screen bitmap, then encodes that bitmap into the GIF format using the settings you supplied.
 
-## Common Issues & How to Fix Them
+## Common issues & how to fix them
 
 | Issue | Cause | Solution |
 |-------|-------|----------|
@@ -158,7 +158,7 @@ The `setResolution()` method sets the DPI used during rendering.
 Aspose.HTML for Java is a powerful library that enables developers to work with HTML documents, including conversion to various formats like GIF, PDF, and more.
 
 ### Do I need a license for Aspose.HTML for Java?
-Yes, you need a valid license to use Aspose.HTML for Java in production. You can obtain a temporary license from [here](https://purchase.aspose.com/temporary-license/) for testing purposes.
+Yes, you need a valid license to use Aspose.HTML for Java in production. You can obtain a temporary license from the [temporary license page](https://purchase.aspose.com/temporary-license/) for testing purposes.
 
 ### Can I convert complex HTML documents to GIF using Aspose.HTML for Java?
 Yes, Aspose.HTML for Java supports the conversion of both simple and complex HTML documents to GIF format, preserving CSS, fonts, and vector graphics.
@@ -189,7 +189,7 @@ For more detailed information and additional features, consult the [documentatio
 
 ---
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Related Tutorials
 
@@ -197,11 +197,13 @@ For more detailed information and additional features, consult the [documentatio
 - [HTML to Image Java – Convert HTML to TIFF with Aspose.HTML](/html/java/conversion-html-to-various-image-formats/convert-html-to-tiff/)
 - [Convert Html To Webp Complete Java Guide With Aspose Html](/html/java/conversion-html-to-various-image-formats/convert-html-to-webp-complete-java-guide-with-aspose-html/)
 
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 ```java
 Converter.convertHTML(document, options, "output.gif");
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

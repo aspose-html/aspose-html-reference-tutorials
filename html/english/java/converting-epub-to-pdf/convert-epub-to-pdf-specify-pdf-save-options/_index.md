@@ -41,7 +41,7 @@ schemas:
   questions:
   - question: Is Aspose.HTML for Java a free library?
     answer: Aspose.HTML for Java is a commercial library, but you can obtain a free
-      trial version from their [website](https://releases.aspose.com/).
+      trial version from their [Aspose.HTML trial download page](https://releases.aspose.com/).
   - question: What EPUB formats are supported for conversion?
     answer: Aspose.HTML for Java supports EPUB 2.0, EPUB 3.0, and EPUB 3.1, handling
       re‑flowable and fixed‑layout books with full CSS support.
@@ -84,7 +84,7 @@ Aspose.HTML converts EPUB to PDF in two lines of code while preserving complex l
 
 ## Prerequisites
 - **Java Development Environment:** JDK 8 or later installed and configured.  
-- **Aspose.HTML for Java:** Download the latest JAR from the [website](https://releases.aspose.com/html/java/).  
+- **Aspose.HTML for Java:** Download the latest JAR from the [Aspose.HTML Java download page](https://releases.aspose.com/html/java/).  
 - **EPUB File:** An `.epub` document you’d like to convert.  
 
 Now that everything is ready, let’s dive into the actual conversion steps.
@@ -95,7 +95,7 @@ Now that everything is ready, let’s dive into the actual conversion steps.
 `PdfSaveOptions` is a class in Aspose.HTML that configures PDF output settings such as page size and background color.  
 Load your EPUB with a `FileInputStream`, configure `PdfSaveOptions` to specify the exact page dimensions, and call the converter. The following three‑step workflow performs the conversion in under a minute for typical e‑book sizes, and it scales to larger collections with minimal code changes.
 
-### Step 1: Open the EPUB File
+### Step 1: open the EPUB file
 
 First, create a `FileInputStream` that points to your source `.epub`. Keeping the stream open until the conversion finishes prevents “blank page” errors.
 
@@ -105,7 +105,7 @@ try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream(Resou
 }
 ```
 
-### Step 2: Define PDF Save Options
+### Step 2: define PDF save options
 
 `PdfSaveOptions` is Aspose.HTML's configuration class that controls PDF output settings such as page size, background color, and margins.  
 `Length.fromPixels` converts screen pixels to PDF points (1 point = 1/72 inch), allowing you to specify dimensions in familiar pixel units.
@@ -140,7 +140,7 @@ com.aspose.html.converters.Converter.convertEPUB(
 
 `PdfSaveOptions.setEnableParallelProcessing` is a method that enables parallel processing of pages during PDF conversion.
 
-## Complete Source Code
+## Complete source code
 
 The full, runnable example combines the three steps above into a single Java class. Replace the placeholder paths with your own file locations.
 
@@ -168,7 +168,7 @@ Specifying PDF Save Options for EPUB to PDF
         }
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Cause | Fix |
 |-------|-------|-----|
@@ -180,7 +180,7 @@ Specifying PDF Save Options for EPUB to PDF
 ## Frequently Asked Questions (FAQs)
 
 **Q: Is Aspose.HTML for Java a free library?**  
-A: Aspose.HTML for Java is a commercial library, but you can obtain a free trial version from their [website](https://releases.aspose.com/).
+A: Aspose.HTML for Java is a commercial library, but you can obtain a free trial version from their [Aspose.HTML trial download page](https://releases.aspose.com/).
 
 **Q: What EPUB formats are supported for conversion?**  
 A: Aspose.HTML for Java supports EPUB 2.0, EPUB 3.0, and EPUB 3.1, handling re‑flowable and fixed‑layout books with full CSS support.

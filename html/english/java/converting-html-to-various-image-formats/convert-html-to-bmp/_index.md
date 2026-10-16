@@ -94,7 +94,7 @@ Aspose.HTML for Java provides a server‑side rendering engine that reproduces m
 
 Before we dive in, verify that the following items are ready:
 
-1. **Java Development Environment** – Ensure Java is installed on your workstation. You can download Java from [here](https://www.java.com/download/).  
+1. **Java Development Environment** – Ensure Java is installed on your workstation. You can download Java from the official [Java download page](https://www.java.com/download/).  
 2. **Aspose.HTML for Java Library** – Obtain the latest JAR from the official [download page](https://releases.aspose.com/html/java/).  
 3. **Integrated Development Environment (IDE)** – IntelliJ IDEA, Eclipse, or any Java‑compatible IDE will work.
 
@@ -120,7 +120,7 @@ import com.aspose.html.converters.Converter;
 
 Load the HTML, configure the save options, and invoke the converter – all in just a few lines of Java. The direct answer to this question is: **Create an `HtmlDocument` from your source file, set `ImageSaveOptions` to BMP, and call `Converter.convert` with the document and options.** This pattern works for any HTML input and produces a BMP file that mirrors the page’s layout exactly.
 
-### Step 1: Prepare HTML Code
+### Step 1: prepare HTML code
 
 Write or obtain the HTML markup you wish to convert. For demonstration, we’ll use a simple page containing a heading, a paragraph, and an inline style.
 
@@ -138,7 +138,7 @@ try (java.io.FileWriter fileWriter = new java.io.FileWriter("document.html")) {
 }
 ```
 
-### Step 3: Initialize an HTML Document
+### Step 3: initialize an HTML document
 
 Create an `HtmlDocument` instance by passing the file path. This object parses the markup, resolves CSS, and builds a DOM ready for rendering.
 
@@ -155,7 +155,7 @@ ImageSaveOptions options = new ImageSaveOptions(com.aspose.html.rendering.image.
 Converter.convertHTML(document, options, "output.bmp");
 ```
 
-### Step 5: Dispose of Resources
+### Step 5: dispose of resources
 
 After conversion, close the `HtmlDocument` and any streams to free native resources. Proper disposal prevents memory leaks in long‑running services.
 
@@ -167,7 +167,7 @@ if (document != null) {
 
 With these steps completed, you have successfully **convert html to bmp** using Aspose.HTML for Java. The resulting BMP file can be stored, sent over a network, or further processed with image‑analysis tools.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Cause | Fix |
 |-------|-------|-----|
@@ -176,7 +176,7 @@ With these steps completed, you have successfully **convert html to bmp** using 
 | **Missing CSS styling** | External CSS not loaded | Use absolute URLs or embed CSS directly in the HTML string. |
 | **Incorrect colors or fonts** | Font files not available to the JVM | Install required fonts on the server or embed them using `FontSettings`. |
 
-## Additional Frequently Asked Questions
+## Additional frequently asked questions
 
 **Q: How does this approach differ from using a headless browser?**  
 A: Aspose.HTML renders server‑side without launching a full browser engine, resulting in up to 60 % faster conversion and significantly lower memory consumption.
