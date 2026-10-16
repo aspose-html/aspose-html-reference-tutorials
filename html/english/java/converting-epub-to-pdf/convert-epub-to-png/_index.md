@@ -41,19 +41,18 @@ schemas:
   questions:
   - question: Is Aspose.HTML for Java free to use?
     answer: Aspose.HTML for Java is a commercial product, but you can download a free
-      trial version [here](https://releases.aspose.com/) to evaluate its capabilities.
+      trial version [free trial download](https://releases.aspose.com/) to evaluate its capabilities.
   - question: Where can I find the documentation for Aspose.HTML for Java?
-    answer: The full API reference is available [here](https://reference.aspose.com/html/java/),
+    answer: The full API reference is available [Aspose.HTML for Java API reference](https://reference.aspose.com/html/java/),
       covering all classes, methods, and code samples.
   - question: How can I obtain a temporary license for Aspose.HTML for Java?
-    answer: Request a temporary license from the Aspose portal [this link](https://purchase.aspose.com/temporary-license/).
+    answer: Request a temporary license from the Aspose portal [temporary license request page](https://purchase.aspose.com/temporary-license/).
       It works for development and testing.
   - question: Where can I get support for Aspose.HTML for Java?
     answer: The community forum provides answers from both Aspose engineers and fellow
-      developers. Access it [here](https://forum.aspose.com/).
+      developers. Access it [Aspose.HTML for Java community forum](https://forum.aspose.com/).
   - question: What other image formats can I export to besides PNG?
-    answer: Using `ImageSaveOptions`, you can export to JPEG, BMP, TIFF, and GIF.
-      Just change the `format` property to the desired `ImageFormat` enum value.
+    answer: Using `ImageSaveOptions`, you can export to JPEG, BMP, TIFF, and GIF. Just change the `format` property to the desired `ImageFormat` enum value.
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -105,7 +104,7 @@ import com.aspose.html.rendering.image.ImageFormat;
 import java.io.FileInputStream;
 ```
 
-## Step 1: Open the EPUB File
+## Step 1: open the EPUB file
 Load the EPUB into a `Document` instance. This step parses the container, extracts HTML content, and prepares it for rendering.
 
 **Definition anchor:** `Converter` is the utility class that performs format conversions such as EPUB → PNG.  
@@ -116,7 +115,7 @@ try (FileInputStream fileInputStream = new FileInputStream("path/to/your/input.e
 
 Replace `"path/to/your/input.epub"` with the actual path to your EPUB file.
 
-## Step 2: Initialize ImageSaveOptions
+## Step 2: initialize imageSaveOptions
 `ImageSaveOptions` lets you specify the output format, resolution, and other image‑related parameters. Setting the `format` to `ImageFormat.Png` ensures PNG output.
 
 **Definition anchor:** `ImageSaveOptions` configures raster‑image output options like format, DPI, and color depth.  
@@ -145,25 +144,25 @@ With these three steps, you’ve successfully **convert epub to png** using Aspo
 ## How to batch convert EPUB files in Java?
 To **batch convert epub** files, iterate over a directory of EPUBs and call the same conversion logic for each file. Wrap the code from the three steps inside a `for` loop, adjusting the input and output paths dynamically. This approach lets you process hundreds of books with a single script, ideal for library automation.
 
-## Common Issues and Solutions
+## Common issues and solutions
 - **File not found error:** Verify that the file paths are absolute or correctly relative to your project’s working directory.  
 - **Out of memory for large EPUBs:** Process the EPUB page‑by‑page (the library streams pages) or increase the JVM heap size with the `-Xmx` flag.  
 - **Missing fonts:** Ensure the fonts used in the EPUB are installed on the server or embed them via `FontSettings`.  
 - **Incorrect image colors:** Set the `ImageSaveOptions` `colorMode` to `ColorMode.Rgb` for consistent color rendering.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Is Aspose.HTML for Java free to use?**  
-A: Aspose.HTML for Java is a commercial product, but you can download a free trial version [here](https://releases.aspose.com/) to evaluate its capabilities.
+A: Aspose.HTML for Java is a commercial product, but you can download a free trial version [free trial download](https://releases.aspose.com/) to evaluate its capabilities.
 
 **Q: Where can I find the documentation for Aspose.HTML for Java?**  
-A: The full API reference is available [here](https://reference.aspose.com/html/java/), covering all classes, methods, and code samples.
+A: The full API reference is available [Aspose.HTML for Java API reference](https://reference.aspose.com/html/java/), covering all classes, methods, and code samples.
 
 **Q: How can I obtain a temporary license for Aspose.HTML for Java?**  
-A: Request a temporary license from the Aspose portal [this link](https://purchase.aspose.com/temporary-license/). It works for development and testing.
+A: Request a temporary license from the Aspose portal [temporary license request page](https://purchase.aspose.com/temporary-license/). It works for development and testing.
 
 **Q: Where can I get support for Aspose.HTML for Java?**  
-A: The community forum provides answers from both Aspose engineers and fellow developers. Access it [here](https://forum.aspose.com/).
+A: The community forum provides answers from both Aspose engineers and fellow developers. Access it [Aspose.HTML for Java community forum](https://forum.aspose.com/).
 
 **Q: What other image formats can I export to besides PNG?**  
 A: Using `ImageSaveOptions`, you can export to JPEG, BMP, TIFF, and GIF. Just change the `format` property to the desired `ImageFormat` enum value.
@@ -174,7 +173,7 @@ A: Using `ImageSaveOptions`, you can export to JPEG, BMP, TIFF, and GIF. Just ch
 **Tested With:** Aspose.HTML for Java 24.12  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Related Tutorials
 
@@ -182,7 +181,9 @@ A: Using `ImageSaveOptions`, you can export to JPEG, BMP, TIFF, and GIF. Just ch
 - [convert epub image to TIFF with Aspose.HTML for Java](/html/java/converting-between-epub-and-image-formats/convert-epub-to-tiff/)
 - [Convert EPUB to BMP with Aspose.HTML for Java](/html/java/converting-between-epub-and-image-formats/convert-epub-to-bmp/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

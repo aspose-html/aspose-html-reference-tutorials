@@ -49,7 +49,7 @@ schemas:
   questions:
   - question: Is Aspose.HTML for Java a free tool?
     answer: Aspose.HTML offers a free trial, but for full‑featured usage you’ll need
-      to purchase a license. You can explore licensing options [here](https://purchase.aspose.com/buy).
+      to purchase a license. You can explore licensing options [Aspose.HTML licensing options](https://purchase.aspose.com/buy).
   - question: Can I use Aspose.HTML for other document conversions?
     answer: Yes, Aspose.HTML provides a wide range of conversion capabilities beyond
       GIF, including PDF, DOCX, and PNG.
@@ -59,7 +59,7 @@ schemas:
   - question: Is community support available?
     answer: Yes, you can find help and share experiences on the [Aspose forums](https://forum.aspose.com/).
   - question: How do I obtain a temporary license for testing?
-    answer: You can request a temporary license from the official site [here](https://purchase.aspose.com/temporary-license/).
+    answer: You can request a temporary license from the official site [Aspose.HTML temporary license request page](https://purchase.aspose.com/temporary-license/).
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -87,8 +87,8 @@ Aspose.HTML supports **50+** input and output formats, processes multi‑hundred
 
 Before we start, make sure you have the following:
 
-1. **Java Development Environment** – Install the latest JDK. You can download it [here](https://www.oracle.com/java/technologies/javase-downloads.html).  
-2. **Aspose.HTML for Java** – Grab the library from the official download page [here](https://releases.aspose.com/html/java/).  
+1. **Java Development Environment** – Install the latest JDK. You can download it [Oracle Java SE download page](https://www.oracle.com/java/technologies/javase-downloads.html).  
+2. **Aspose.HTML for Java** – Grab the library from the official download page [Aspose.HTML for Java download page](https://releases.aspose.com/html/java/).  
 3. **HTML Document** – Have the HTML file you want to convert ready on disk or reachable via a URL.
 
 ## Import Packages
@@ -107,7 +107,7 @@ Load the HTML document, set the GIF format in the save options, and invoke the c
 
 Below is the complete, runnable flow. Each step is explained in plain language so you can adapt it to your own project.
 
-### Step 1: Load the HTML Document
+### Step 1: load the HTML document
 `HTMLDocument` is Aspose.HTML's top‑level object that represents a single HTML file in memory. It parses the markup, resolves resources, and prepares the layout engine.
 
 Create an `HTMLDocument` instance that points to your source file.
@@ -118,7 +118,7 @@ HTMLDocument htmlDocument = new HTMLDocument("your_input.html");
 
 > **Pro tip:** If your HTML references external resources (CSS, images), place them in the same folder or provide an absolute URL so the renderer can resolve them correctly.
 
-### Step 2: Set the Output Format
+### Step 2: set the output format
 `ImageSaveOptions` defines how the rendered page is saved as an image. By setting its `format` property to `ImageFormat.Gif`, you tell Aspose.HTML to produce a GIF file.
 
 Configure `ImageSaveOptions` to tell Aspose.HTML that the target format is GIF.
@@ -129,7 +129,7 @@ ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Gif);
 
 You can also tweak properties such as image quality, background color, or frame delay here if you need animated GIFs.
 
-### Step 3: Define the Output File Path
+### Step 3: define the output file path
 Specify where the resulting GIF should be saved. The path can be absolute or relative to your project’s working directory.
 
 Define the output file path for the GIF image.
@@ -138,7 +138,7 @@ Define the output file path for the GIF image.
 String outputFile = "output.gif";
 ```
 
-### Step 4: Perform the Conversion
+### Step 4: perform the conversion
 `Converter.convertHTML` is the single method that renders the HTML document and writes the image file based on the supplied options. It handles resource loading, layout calculation, and rasterization internally.
 
 The `Converter.convertHTML` method does all the heavy lifting.
@@ -149,16 +149,16 @@ Converter.convertHTML(htmlDocument, options, outputFile);
 
 After this line runs, `output.gif` will contain a rasterized snapshot of the original HTML page.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 - **Missing CSS or images** – Ensure all relative paths are correct or use absolute URLs.  
 - **Large HTML pages** – Increase the memory allocation for the JVM (`-Xmx`) if you encounter `OutOfMemoryError`.  
 - **Unsupported CSS features** – Aspose.HTML follows most modern standards, but very new CSS3 properties may be ignored; consider simplifying the stylesheet for the conversion.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Is Aspose.HTML for Java a free tool?**  
-A: Aspose.HTML offers a free trial, but for full‑featured usage you’ll need to purchase a license. You can explore licensing options [here](https://purchase.aspose.com/buy).
+A: Aspose.HTML offers a free trial, but for full‑featured usage you’ll need to purchase a license. You can explore licensing options [Aspose.HTML licensing options](https://purchase.aspose.com/buy).
 
 **Q: Can I use Aspose.HTML for other document conversions?**  
 A: Yes, Aspose.HTML provides a wide range of conversion capabilities beyond GIF, including PDF, DOCX, and PNG.
@@ -170,7 +170,7 @@ A: Aspose.HTML supports GIF, PNG, JPEG, BMP, and TIFF, giving you flexibility fo
 A: Yes, you can find help and share experiences on the [Aspose forums](https://forum.aspose.com/).
 
 **Q: How do I obtain a temporary license for testing?**  
-A: You can request a temporary license from the official site [here](https://purchase.aspose.com/temporary-license/).
+A: You can request a temporary license from the official site [Aspose.HTML temporary license request page](https://purchase.aspose.com/temporary-license/).
 
 ## Conclusion
 
@@ -188,17 +188,16 @@ In this guide we covered **how to save HTML as GIF** using Aspose.HTML for Java,
 - [HTML to Image Java – Convert HTML to TIFF with Aspose.HTML](/html/java/conversion-html-to-various-image-formats/convert-html-to-tiff/)
 - [Convert Html To Webp Complete Java Guide With Aspose Html](/html/java/conversion-html-to-various-image-formats/convert-html-to-webp-complete-java-guide-with-aspose-html/)
 
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/products-backtop-button >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 ```java
 import com.aspose.html.HTMLDocument;
 import com.aspose.html.saving.ImageSaveOptions;
 import com.aspose.html.rendering.image.ImageFormat;
 import com.aspose.html.converters.Converter;
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

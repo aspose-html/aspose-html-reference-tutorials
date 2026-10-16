@@ -34,10 +34,10 @@ schemas:
       finally retrieve the generated image streams.'
   - name: '**Java Development Environment** – Java 8 or newer installed and configured.'
     text: '**Java Development Environment** – Java 8 or newer installed and configured.'
-  - name: '**Aspose.HTML for Java Library** – Download the latest JAR from [here](https://releases.aspose.com/html/java/).'
-    text: '**Aspose.HTML for Java Library** – Download the latest JAR from [here](https://releases.aspose.com/html/java/).'
-  - name: '**Aspose.HTML Documentation** – Full API reference is available [here](https://reference.aspose.com/html/java/).'
-    text: '**Aspose.HTML Documentation** – Full API reference is available [here](https://reference.aspose.com/html/java/).'
+  - name: '**Aspose.HTML for Java Library** – Download the latest JAR from [Aspose.HTML for Java download page](https://releases.aspose.com/html/java/).'
+    text: '**Aspose.HTML for Java Library** – Download the latest JAR from [Aspose.HTML for Java download page](https://releases.aspose.com/html/java/).'
+  - name: '**Aspose.HTML Documentation** – Full API reference is available [Aspose.HTML for Java API reference](https://reference.aspose.com/html/java/).'
+    text: '**Aspose.HTML Documentation** – Full API reference is available [Aspose.HTML for Java API reference](https://reference.aspose.com/html/java/).'
   - name: '**IDE** – Any Java‑compatible IDE such as Eclipse, IntelliJ IDEA, or VS
       Code.'
     text: '**IDE** – Any Java‑compatible IDE such as Eclipse, IntelliJ IDEA, or VS
@@ -106,7 +106,7 @@ The `EpubDocument` class represents a single EPUB file in memory. Instantiating 
 
 `epub.save(streamProvider, new ImageSaveOptions(SaveFormat.Jpeg));`
 
-#### Access Memory Streams
+#### Access memory streams
 After conversion, the provider holds a collection of streams—one per page. You can iterate over them, convert each to a byte array, or pipe them directly to an HTTP response.
 
 `for (InputStream imageStream : streamProvider.getStreams()) { /* process stream */ }`  
@@ -135,18 +135,18 @@ for (InputStream imageStream : streamProvider.getStreams()) {
 ## Prerequisites
 
 1. **Java Development Environment** – Java 8 or newer installed and configured.  
-2. **Aspose.HTML for Java Library** – Download the latest JAR from [here](https://releases.aspose.com/html/java/).  
-3. **Aspose.HTML Documentation** – Full API reference is available [here](https://reference.aspose.com/html/java/).  
+2. **Aspose.HTML for Java Library** – Download the latest JAR from [Aspose.HTML for Java download page](https://releases.aspose.com/html/java/).  
+3. **Aspose.HTML Documentation** – Full API reference is available [Aspose.HTML for Java API reference](https://reference.aspose.com/html/java/).  
 4. **IDE** – Any Java‑compatible IDE such as Eclipse, IntelliJ IDEA, or VS Code.
 
-## Common Pitfalls & Tips
+## Common pitfalls & tips
 
 - **Memory Management** – Always close streams. The `try‑with‑resources` pattern shown above handles this automatically.  
 - **Large EPUBs** – For books with hundreds of pages, process streams in batches (e.g., 20 pages at a time) to keep the heap footprint low.  
 - **Image Quality** – Adjust `ImageSaveOptions.setQuality(int)` (0‑100) to balance file size and visual fidelity.  
 - **Thread Safety** – `MemoryStreamProvider` instances are not thread‑safe; create a new provider per conversion thread.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: How do I convert EPUB to PNG instead of JPEG?**  
 A: Change the `SaveFormat` in `ImageSaveOptions` to `SaveFormat.Png` and update the file extension in the output loop.
@@ -205,7 +205,7 @@ try (java.io.FileOutputStream fileOutputStream = new java.io.FileOutputStream(Re
 }
 ```
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Related Tutorials
 
@@ -213,7 +213,9 @@ try (java.io.FileOutputStream fileOutputStream = new java.io.FileOutputStream(Re
 - [How to Convert EPUB to Images with Aspose.HTML for Java](/html/java/conversion-epub-to-image-and-pdf/convert-epub-to-image/)
 - [Java EPUB to PDF – Specifying Custom Stream Provider](/html/java/converting-epub-to-pdf/convert-epub-to-pdf-specify-custom-stream-provider/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

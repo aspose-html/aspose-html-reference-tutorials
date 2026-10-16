@@ -63,7 +63,7 @@ schemas:
 
 ## Introduction
 
-In today's visual‑first world, being able to **convert EPUB to PNG** opens up new possibilities for presentations, marketing material, and offline viewing. **Aspose HTML for Java** is a robust java image conversion library that makes this transformation straightforward and reliable. In this tutorial you’ll see exactly how to turn an EPUB document into PNG (or other image formats) with just a few lines of Java code. Whether you’re a developer integrating this feature into a web service or a designer needing batch conversions, the steps below will get you up and running quickly.
+In today's visual‑first world, being able to **convert EPUB to PNG** opens up new possibilities for presentations, marketing material, and offline viewing. **Aspose HTML for Java** is a robust java image conversion library that makes this transformation straightforward and reliable. In this tutorial you’ll see exactly how to turn an EPUB document into PNG (or other image formats) with just a few lines of Java code. Whether you are a developer integrating this feature into a web service or a designer needing batch conversions, the steps below will get you up and running quickly.
 
 ## Quick Answers
 - **What library do I need?** Aspose HTML for Java – a leading java image conversion library.  
@@ -88,7 +88,7 @@ Using Aspose HTML for Java provides high‑fidelity rendering, broad format supp
 ## Prerequisites
 
 1. **Java Development Kit (JDK)** – Java 8 or newer installed on your machine.  
-2. **Aspose HTML for Java library** – download it from [the website](https://releases.aspose.com/html/java/).  
+2. **Aspose HTML for Java library** – download it from [Aspose HTML for Java download page](https://releases.aspose.com/html/java/).  
 3. **An EPUB file** you want to convert – ensure the file is accessible to your Java program.
 
 ## Import Packages
@@ -104,7 +104,7 @@ import com.aspose.html.rendering.image.ImageFormat;
 
 ## Step‑by‑Step Guide
 
-### Step 1: Open the EPUB File
+### Step 1: open the EPUB file
 Create a `FileInputStream` that points to your source EPUB. The `try‑with‑resources` block ensures the stream is closed automatically.
 
 ```java
@@ -128,10 +128,10 @@ Converter.convertEPUB(
 
 `ImageSaveOptions` is the configuration object that tells the converter which image format to produce, resolution, and other rendering options. To produce PNG output, set `ImageFormat.Png` and use a `.png` file extension.
 
-### Step 3: Verify the Output
+### Step 3: verify the output
 After the conversion finishes, navigate to the output folder you specified. You should see a high‑quality PNG that mirrors the original EPUB layout. Open it with any image viewer to confirm the conversion succeeded.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Reason | Fix |
 |-------|--------|-----|
@@ -139,7 +139,7 @@ After the conversion finishes, navigate to the output folder you specified. You 
 | **Blank or distorted image** | Missing fonts or resources | Ensure the EPUB’s assets (fonts, images) are packaged correctly and accessible. |
 | **OutOfMemoryError** on large EPUBs | Insufficient heap size | Increase JVM heap (`-Xmx`) or process the EPUB page‑by‑page using the overload of `Converter.convertEPUB`. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I convert EPUB files to formats other than PNG?**  
 A: Yes. Aspose HTML for Java supports JPEG, BMP, TIFF, and more – simply change the `ImageFormat` argument.
@@ -166,7 +166,7 @@ You’ve now learned how to **convert EPUB to PNG** quickly and reliably using *
 **Tested With:** Aspose.HTML for Java 24.12  
 **Author:** Aspose
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Related Tutorials
 
@@ -174,8 +174,9 @@ You’ve now learned how to **convert EPUB to PNG** quickly and reliably using *
 - [convert epub image to TIFF with Aspose.HTML for Java](/html/java/converting-between-epub-and-image-formats/convert-epub-to-tiff/)
 - [Convert EPUB to BMP and Other Images – Aspose.HTML Java](/html/java/converting-between-epub-and-image-formats/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
