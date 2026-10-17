@@ -1,5 +1,5 @@
 ---
-title: aspose html java – Advanced External CSS Editing Guide
+title: Edit External CSS with Aspose.HTML for Java – Advanced Guide
 linktitle: Advanced External CSS Editing with Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to edit CSS with aspose html java. This guide shows how to create HTML, add stylesheet java, and save HTML with external CSS using Aspose.HTML for Java.
@@ -87,7 +87,7 @@ import java.io.IOException;
 
 These lines import the core classes you’ll be using to work with HTML documents and files in Java.
 
-## Step 1: Prepare Your External CSS Content
+## Step 1: prepare your external CSS content
 First, we create the CSS that will style our page. This is where **add external css java** comes into play.
 
 ```java
@@ -108,7 +108,7 @@ Files.write(Paths.get("flower.css"), styleContent.getBytes());
 
 This line creates **flower.css** and fills it with the style definitions we prepared.
 
-## Step 3: Create an HTML Document and Link the CSS File
+## Step 3: create an HTML document and link the CSS file
 Now we generate the HTML markup, **how to link css**, and feed it to Aspose.HTML. This also demonstrates **create html document java**.
 
 ```java
@@ -141,14 +141,14 @@ document.save("edit-external-css.html");
 
 The `document.save` method writes the HTML to `edit-external-css.html`, completing the **how to edit css** workflow.
 
-## Common Issues and Solutions
+## Common issues and solutions
 | Issue | Why it Happens | Fix |
 |-------|----------------|-----|
 | CSS not applied | Path to `flower.css` is incorrect | Ensure the CSS file is in the same directory as the HTML file or provide an absolute path. |
 | Styles look different in browsers | Browser caching old CSS | Clear the browser cache or add a query string like `flower.css?v=1`. |
 | `document.save` throws `IOException` | File permission issues | Run the program with write permissions or choose a writable output folder. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: What is the advantage of using external CSS over inline CSS?**  
 A: External CSS allows you to apply consistent styles across multiple HTML pages and makes maintenance easier by keeping styling separate from markup.
@@ -176,9 +176,9 @@ You now have a complete, end‑to‑end example of **how to edit css** using Asp
 
 ## Related Tutorials
 
-- [Add CSS to HTML Documents with Aspose.HTML for Java](/html/java/editing-html-documents/apply-external-css-html-documents/)
-- [How to Add CSS – Inline CSS to HTML Documents in Aspose.HTML for Java](/html/java/editing-html-documents/add-inline-css-html-documents/)
-- [Advanced CSS Extension Techniques with Aspose.HTML for Java](/html/java/css-html-form-editing/advanced-css-extension/)
+- [Add CSS to HTML Documents with Aspose.HTML for Java]({{< relref "html/java/editing-html-documents/apply-external-css-html-documents/_index.md" >}})
+- [How to Add CSS – Inline CSS to HTML Documents in Aspose.HTML for Java]({{< relref "html/java/editing-html-documents/add-inline-css-html-documents/_index.md" >}})
+- [Advanced CSS Extension Techniques with Aspose.HTML for Java]({{< relref "html/java/css-html-form-editing/advanced-css-extension/_index.md" >}})
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
