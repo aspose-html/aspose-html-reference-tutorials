@@ -1,5 +1,5 @@
 ---
-title: How to Convert HTML to PDF Java - Set Page Margins with Aspose.HTML
+title: How to Convert HTML to PDF Java with Aspose.HTML – Add CSS Extensions for Title and Page Numbers
 linktitle: CSS Extensions - Adding Title and Page Number
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to convert HTML to PDF Java with Aspose.HTML, set page margins, add page numbers and headers/footers efficiently.
@@ -69,7 +69,7 @@ In this tutorial you’ll discover **how to convert HTML to PDF Java**‑style u
 ## What is Setting HTML Page Margins Java?
 Setting HTML page margins in Java means telling Aspose.HTML’s rendering engine to apply CSS `@page` properties before the HTML is rasterised into PDF or XPS. By defining a custom `@page` rule you control the printable area, add page numbers, and insert header/footer content—all without a browser.
 
-## Why Use Aspose.HTML for Margin Control?
+## Why use Aspose.HTML for margin control?
 Aspose.HTML gives you pixel‑perfect, server‑side rendering that works consistently across PDF, XPS, and image outputs. It supports **50+ input and output formats** and can process multi‑hundred‑page documents without loading the entire file into memory, delivering conversion speeds up to **3 × faster** than headless‑browser solutions on comparable hardware.
 
 ## Prerequisites
@@ -77,9 +77,9 @@ Aspose.HTML gives you pixel‑perfect, server‑side rendering that works consis
 Before we begin, make sure you have the following prerequisites in place:
 
 1. **Java Development Environment** – JDK 11 or later installed and `JAVA_HOME` configured.  
-2. **Aspose.HTML for Java** – Download and install the library from [here](https://releases.aspose.com/html/java/).  
+2. **Aspose.HTML for Java** – Download and install the library from the Aspose.HTML for Java download page.  
 3. **A valid license file** – Required for production builds; a temporary trial license works for testing.  
-4. You can also explore all Aspose releases [here](https://releases.aspose.com/).
+4. You can also explore all Aspose releases [Aspose releases page](https://releases.aspose.com/).
 
 ## Import Packages
 
@@ -97,7 +97,7 @@ import com.aspose.html.rendering.xps.XpsDevice;
 
 Load your HTML, apply a user‑style sheet that defines the `@page` rule, and render the document to PDF (or XPS) in three concise steps. This approach eliminates the need for separate header/footer code and guarantees that margins are honoured across all pages.
 
-### Step 1: Initialize Configuration and Define Custom Page Margins
+### Step 1: initialize configuration and define custom page margins
 
 The `Configuration` object holds global settings for the rendering engine. By accessing its `IUserAgentService` you can inject a CSS style sheet that has the highest priority, ensuring your margins, header, and footer are applied.
 
@@ -132,7 +132,7 @@ try {
             "}\n");
 ```
 
-### Step 2: Create the HTML Document
+### Step 2: create the HTML document
 
 `HTMLDocument` represents a single HTML file in memory. When you pass the previously created `Configuration` to its constructor, the renderer automatically uses the custom `@page` rule you defined in Step 1.
 
@@ -158,14 +158,14 @@ try {
 }
 ```
 
-## Common Issues & Tips
+## Common issues & tips
 
 - **Margins appear unchanged** – Verify that no other stylesheet overrides the `@page` rule. The `setUserStyleSheet` call forces your rule to the highest priority.  
 - **Page numbers show “NaN”** – This occurs with Aspose.HTML versions older than 23.10, which lack the `counter(page)` function. Upgrade to the latest release.  
 - **Output file is blank** – Ensure the `Resources.output` directory exists and the Java process has write permissions.  
 - **Large documents cause high memory usage** – Use the streaming API (`XpsDevice` with `setPageCountLimit`) to process pages in batches.  
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Q1: What is Aspose.HTML for Java?
 
@@ -185,7 +185,7 @@ try {
 
 ### Q5: Do I need a license for using Aspose.HTML for Java?
 
-**A:** Yes, a license is required for production use. You can obtain a trial or purchase a license from [here](https://purchase.aspose.com/buy) or [here](https://releases.aspose.com/).
+**A:** Yes, a license is required for production use. You can obtain a trial or purchase a license from [purchase a license](https://purchase.aspose.com/buy) or [Aspose releases page](https://releases.aspose.com/).
 
 ### Q6: How do I set different margins for odd and even pages?
 
@@ -207,7 +207,7 @@ For deeper guidance, consult the official [Aspose.HTML for Java documentation](h
 **Tested With:** Aspose.HTML for Java 23.12  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Related Tutorials
 
@@ -215,7 +215,9 @@ For deeper guidance, consult the official [Aspose.HTML for Java documentation](h
 - [Adjust PDF Page Size with Aspose.HTML for Java](/html/java/advanced-usage/adjust-pdf-page-size/)
 - [How to Convert HTML to PDF Java – Using Aspose.HTML for Java](/html/java/conversion-html-to-other-formats/convert-html-to-pdf/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

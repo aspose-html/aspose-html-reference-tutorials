@@ -1,5 +1,5 @@
 ---
-title: Create PDF from HTML and Add CSS with Aspose.HTML for Java
+title: Generate PDF from HTML and Apply External CSS using Aspose.HTML for Java
 linktitle: Create PDF from HTML and Add CSS with Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to create PDF from HTML and add CSS to HTML documents using Aspose.HTML for Java – append style to head, set CSS class, and render to PDF.
@@ -111,7 +111,7 @@ Ensure that you have JDK installed on your machine. You can download the latest 
 ### 2. Aspose.HTML for Java
 You’ll need to have Aspose.HTML for Java set up. If you haven’t done this yet, head over to the [Aspose downloads page](https://releases.aspose.com/html/java/) and grab the library.
 
-### 3. An IDE or Text Editor
+### 3. an IDE or text editor
 Choose an Integrated Development Environment (IDE) like IntelliJ IDEA, Eclipse, or even a simple text editor to write your Java code.
 
 ### 4. Basic Knowledge of Java and CSS
@@ -142,7 +142,7 @@ HTMLDocument document = new HTMLDocument(content, ".");
 
 Here, we defined a basic HTML structure, including a `<div>` with two paragraphs. The `HTMLDocument` class is used to create a document representation of our HTML content.
 
-### Step 2: Create a Style Element
+### Step 2: create a style element
 A `<style>` element is an HTML tag that holds CSS rules directly inside the document.  
 Next, we will create a `style` element to hold our CSS rules.
 
@@ -178,7 +178,7 @@ lastParagraph.setClassName("frame2");
 
 Here, we access the first and last paragraph elements in the document and assign them the CSS classes we created. This assignment ensures that they adhere to the styles defined in our CSS.
 
-### Step 5: Set Additional Style Properties
+### Step 5: set additional style properties
 The `setStyleProperty` method lets you modify individual CSS properties on an element after it has been created.  
 To enhance the appearance further, we’ll set additional style properties for our paragraphs.
 
@@ -192,7 +192,7 @@ lastParagraph.getStyle().setFontFamily("verdana");
 
 In this step, we're fine‑tuning our styles. The first paragraph's font size is increased and centered, while the last paragraph's color, font size, and font family are defined. This refinement is crucial for readability and aesthetic appeal.
 
-### Step 6: Save the HTML Document
+### Step 6: save the HTML document
 The `save` method writes the current state of the `HTMLDocument` object to a file on disk.  
 Once we have our styles applied, it’s time to save the HTML document.
 
@@ -213,19 +213,19 @@ document.renderTo(device);
 
 Using the `PdfDevice` class, we set up the rendering of our HTML document into a PDF. This step is key when you want to share the styled document in a printable, widely‑supported format.
 
-## Common Use Cases
+## Common use cases
 - **Automated report generation** – generate styled HTML reports and convert them to PDF for distribution.  
 - **Email templates** – create HTML emails with consistent branding, then render them to PDF for archival.  
 - **Batch processing** – apply the same CSS to dozens of HTML files in a server‑side job, then convert each to PDF with a single API call.
 
-## Troubleshooting & Tips
+## Troubleshooting & tips
 - **Missing head element** – If `getElementsByTagName("head")` returns null, ensure your HTML string includes a `<head>` tag.  
 - **CSS not applied** – Verify that class names in `setClassName` match exactly those defined in the `<style>` block.  
 - **PDF rendering issues** – Make sure the Aspose.HTML license is correctly applied; otherwise, the output may be watermarked.  
 - **Large HTML files** – For files larger than 200 MB, consider using `HTMLDocument.load(..., LoadOptions)` with streaming to avoid memory pressure.  
 - **Performance tip** – Re‑using a single `HTMLDocument` instance for multiple render operations can reduce object‑creation overhead by up to 30 %.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: What is Aspose.HTML for Java?**  
 A: Aspose.HTML for Java is a powerful library that allows developers to work with HTML documents in Java applications, providing a vast range of features, from HTML manipulation to rendering.
@@ -254,8 +254,9 @@ A: You can access community support through the [Aspose forum](https://forum.asp
 - [How to Add CSS – Inline CSS to HTML Documents in Aspose.HTML for Java](/html/java/editing-html-documents/add-inline-css-html-documents/)
 - [How to Edit CSS - Advanced External CSS Editing with Aspose.HTML for Java](/html/java/editing-html-documents/advanced-external-css-editing/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
