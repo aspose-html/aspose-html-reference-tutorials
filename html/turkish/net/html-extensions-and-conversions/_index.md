@@ -59,6 +59,8 @@ Aspose.HTML for .NET kullanarak HTML'den PDF'ye dönüşümü ayrıntılı şeki
 Aspose.HTML for .NET ile HTML'den PDF'ye antialiasing desteğiyle dönüştürmeyi adım adım öğrenin.
 ### [Aspose.HTML ile HTML'den PDF Oluşturma – Adım Adım C# Kılavuzu](./create-pdf-from-html-with-aspose-step-by-step-c-guide/)
 Aspose.HTML for .NET kullanarak HTML'den PDF oluşturmayı adım adım öğrenin. C# ile kolayca PDF'ye dönüştürün.
+### [Aspose.HTML ile C#'ta HTML'yi PDF'ye Dönüştürün – Tam Kılavuz](./convert-html-to-pdf-in-c-with-aspose-complete-guide/)
+Aspose.HTML for .NET kullanarak C# ile HTML'yi PDF'ye nasıl dönüştüreceğinizi adım adım öğrenin.
 ### [Aspose.HTML ile .NET'te EPUB'ı Görüntüye Dönüştürme](./convert-epub-to-image/)
 ### [Aspose.HTML ile .NET'te EPUB'ı PDF'ye dönüştürün](./convert-epub-to-pdf/)
 ### [Aspose.HTML ile .NET'te EPUB'ı XPS'e dönüştürün](./convert-epub-to-xps/)
@@ -128,6 +130,8 @@ Aspose.HTML for .NET kullanarak HTML dosyasını özel depolama alanına ZIP ar�
 ### [Aspose.HTML ile HTML'i ZIP'e Sıkıştırma – Tam Kılavuz](./how-to-zip-html-with-aspose-html-complete-guide/)
 ### [C#'ta URL'yi PDF'ye Dönüştür – Tek Satır Aspose.HTML Çözümü](./convert-url-to-pdf-in-c-one-line-aspose-html-solution/)
 Aspose.HTML for .NET kullanarak tek bir satır kodla URL'yi PDF'ye dönüştürün. Hızlı ve basit adımlarla öğrenin.
+### [C# ile HTML'yi kaydetme ve dosyaya yazma](./how-to-save-html-and-write-html-to-file-with-c/)
+Aspose.HTML for .NET kullanarak C# ile HTML içeriğini kaydedin ve dosyaya yazın.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -22,7 +22,7 @@ url: /ar/net/working-with-html-documents/
 
 ### ابدء
 
-قبل أن نتعمق في تفاصيل إنشاء وتحرير مستندات HTML في .NET، دعنا نأخذ لحظة لفهم ما هو Aspose.HTML ولماذا يعد أداة قيمة في ترسانة التطوير الخاصة بك. Aspose.HTML هي مكتبة غنية بالميزات توفر للمطورين الأدوات التي يحتاجون إليها للعمل مع مستندات HTML بسلاسة. سواء كنت تقوم ببناء تطبيق ويب أو إنشاء تقارير أو تحتاج ببساطة إلى معالجة محتوى HTML برمجيًا، فإن Aspose.HTML ستلبي احتياجاتك.
+قبل أن نتعمق في تفاصيل إنشاء وتحرير مستندات HTML في .NET، دعنا نأخذ لحظة لفهم ما هو Aspose.HTML ولماذا يعد أداة قيمة في ترسانة التطوير الخاصة بك. Aspose.HTML هي مكتبة غنية بالميزات توفر للمطورين الأدوات التي يحتاجون إليها للعمل مع مستندات HTML بسلاسة. سواء كنت تقوم ببناء تطبيق ويب أو إنشاء تقارير أو تحتاج ببساطة إلى معالجة محتوى HTML برمجياً، فإن Aspose.HTML ستلبي احتياجاتك.
 
 ### [إنشاء مستند في .NET باستخدام Aspose.HTML](./creating-a-document/)
 
@@ -45,10 +45,13 @@ url: /ar/net/working-with-html-documents/
 ### [كيفية جعل العنوان غامقًا باستخدام CSS و C# – دليل خطوة بخطوة كامل](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 ### [كيفية حفظ HTML في C# – معالجات الموارد المخصصة وZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
 ### [كيفية حفظ HTML باستخدام Aspose.Html – دليل كامل C#](./how-to-save-html-with-aspose-html-complete-c-guide/)
-### [كيفية ضغط HTML في C# – دليل خطوة بخطوة كامل](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 ### [كيفية حفظ HTML باستخدام Aspose – دليل كامل C#](./how-to-save-html-with-aspose-complete-c-guide/)
 ### [كيفية ضغط HTML في C# – دليل كامل لإنشاء أرشيف ZIP](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
 ### [إنشاء HTML من سلسلة في C# – دليل خطوة بخطوة](./create-html-from-string-in-c-step-by-step-guide/)
+
+### [تحميل مستند HTML باستخدام Aspose.HTML – دليل كامل C#](./load-html-document-with-aspose-html-complete-c-guide/)
+
+### [كيفية ضغط HTML في C# – دليل خطوة بخطوة كامل](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

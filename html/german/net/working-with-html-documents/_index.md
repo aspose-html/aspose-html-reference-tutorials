@@ -57,10 +57,6 @@ Erfahren Sie, wie Sie ein HTML-Dokument in C# mit einem benutzerdefinierten Ress
 
 Erfahren Sie, wie Sie HTML mit Aspose.HTML in C# vollständig speichern können.
 
-### [HTML in C# zippen – Vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-zip-html-in-c-complete-step-by-step-guide/)
-
-Erfahren Sie, wie Sie HTML-Dateien in C# zu einer ZIP-Datei komprimieren können.
-
 ### [HTML mit Aspose speichern – Vollständige C#‑Anleitung](./how-to-save-html-with-aspose-complete-c-guide/)
 
 ### [HTML in C# zippen – Vollständige Anleitung zum Erstellen eines ZIP-Archivs](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
@@ -68,6 +64,10 @@ Erfahren Sie, wie Sie HTML-Dateien in C# zu einer ZIP-Datei komprimieren können
 Erfahren Sie, wie Sie HTML-Dateien in C# zu einem ZIP-Archiv komprimieren und speichern.
 
 ### [HTML aus Zeichenfolge in C# erstellen – Schritt‑für‑Schritt‑Anleitung](./create-html-from-string-in-c-step-by-step-guide/)
+
+### [HTML-Dokument mit Aspose.HTML laden – Vollständige C#‑Anleitung](./load-html-document-with-aspose-html-complete-c-guide/)
+
+### [HTML zippen in C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

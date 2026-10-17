@@ -55,6 +55,8 @@ Hướng dẫn cách đặt kích thước trang PDF khi chuyển đổi HTML sa
 Hướng dẫn chi tiết cách chuyển đổi HTML sang PDF trong C# bằng Aspose.HTML, bao gồm các bước thực hiện và ví dụ mã.
 ### [Chuyển đổi URL sang PDF trong C# – Giải pháp Aspose HTML một dòng](./convert-url-to-pdf-in-c-one-line-aspose-html-solution/)
 Chuyển đổi nhanh URL thành PDF chỉ với một dòng mã bằng Aspose.HTML cho .NET trong C#.
+### [Chuyển đổi HTML sang PDF trong C# với Aspose – Hướng dẫn toàn diện](./convert-html-to-pdf-in-c-with-aspose-complete-guide/)
+Hướng dẫn chi tiết cách chuyển đổi HTML sang PDF trong C# bằng Aspose, bao gồm các bước thực hiện và tùy chọn tùy chỉnh.
 ### [Chuyển đổi EPUB sang hình ảnh trong .NET với Aspose.HTML](./convert-epub-to-image/)
 Tìm hiểu cách chuyển đổi EPUB sang hình ảnh bằng Aspose.HTML cho .NET. Hướng dẫn từng bước với các ví dụ về mã và tùy chọn có thể tùy chỉnh.
 ### [Chuyển đổi EPUB sang PDF trong .NET với Aspose.HTML](./convert-epub-to-pdf/)
@@ -155,6 +157,8 @@ Hướng dẫn chi tiết cách lưu HTML thành tệp ZIP trong C# với tùy c
 Hướng dẫn toàn diện cách nén HTML thành ZIP bằng Aspose.HTML, bao gồm ví dụ mã và các tùy chọn cấu hình.
 ### [Tạo PDF từ HTML với Aspose – Hướng dẫn từng bước C#](./create-pdf-from-html-with-aspose-step-by-step-c-guide/)
 Hướng dẫn chi tiết từng bước để tạo PDF từ HTML trong .NET bằng C# và Aspose.HTML.
+### [Cách lưu HTML và ghi HTML vào tệp với C#](./how-to-save-html-and-write-html-to-file-with-c/)
+Hướng dẫn chi tiết cách lưu HTML và ghi nội dung HTML vào tệp bằng C# và Aspose.HTML.
 
 ## Phần kết luận
 

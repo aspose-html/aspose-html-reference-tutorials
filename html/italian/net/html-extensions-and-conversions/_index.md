@@ -159,6 +159,10 @@ Scopri come convertire un documento HTML in una stringa C# usando Aspose.HTML, c
 Impara a salvare HTML in un archivio ZIP con opzioni di archiviazione personalizzate usando Aspose.HTML per .NET in C#.
 ### [Come comprimere HTML con Aspose.HTML – Guida completa](./how-to-zip-html-with-aspose-html-complete-guide/)
 Scopri come comprimere HTML in un archivio ZIP con Aspose.HTML in una guida completa passo passo.
+### [Convertire HTML in PDF in C# con Aspose – Guida completa](./convert-html-to-pdf-in-c-with-aspose-complete-guide/)
+Scopri come convertire HTML in PDF usando C# e Aspose con una guida completa passo‑passo.
+### [Come salvare HTML e scrivere HTML su file con C#](./how-to-save-html-and-write-html-to-file-with-c/)
+Scopri come salvare un documento HTML e scriverlo su un file utilizzando C# e Aspose.HTML per .NET.
 
 ## Conclusione
 

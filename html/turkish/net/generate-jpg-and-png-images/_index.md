@@ -97,6 +97,8 @@ C# kullanarak HTML belgesi oluşturup, yüksek kaliteli PNG çıktısı elde etm
 HTML dosyalarını PNG formatına dönüştürüp, sonuçları ZIP arşivi olarak dışa aktarmayı adım adım gösteren kapsamlı C# rehberi.
 ### [Antialiasing'i Etkinleştirerek C# ile HTML'yi PNG'ye Render Etme](./how-to-enable-antialiasing-render-html-to-png-in-c/)
 C# kullanarak HTML içeriğini PNG formatına dönüştürürken antialiasing'i nasıl etkinleştireceğinizi öğrenin.
+### [HTML'den PNG'ye Dönüştürürken Antialiasing'i Devre Dışı Bırakma](./how-to-disable-antialiasing-when-converting-html-to-png/)
+HTML'den PNG'ye dönüştürürken antialiasing'i nasıl devre dışı bırakacağınızı öğrenin.
 
 ## Çözüm
 

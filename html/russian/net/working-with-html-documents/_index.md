@@ -49,8 +49,6 @@ HTML-документы являются основой Интернета, и �
 
 ### [Как сохранить HTML с Aspose.Html – Полное руководство C#](./how-to-save-html-with-aspose-html-complete-c-guide/)
 
-### [Как заархивировать HTML в C# – Полное пошаговое руководство](./how-to-zip-html-in-c-complete-step-by-step-guide/)
-
 ### [Сохранить HTML в виде ZIP в C# – Полное руководство с пользовательским обработчиком ресурсов](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
 
 ### [Как заархивировать HTML в C# – Полное руководство по созданию ZIP-архива](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
@@ -58,6 +56,10 @@ HTML-документы являются основой Интернета, и �
 ### [Создание HTML-документа C# – Полное руководство с пользовательским обработчиком ресурсов](./create-html-document-c-complete-guide-with-custom-resource-h/)
 
 ### [Создание HTML из строки в C# – Пошаговое руководство](./create-html-from-string-in-c-step-by-step-guide/)
+
+### [Загрузка HTML-документа с Aspose.HTML – Полное руководство на C#](./load-html-document-with-aspose-html-complete-c-guide/)
+
+### [Как заархивировать HTML в C# – Полное пошаговое руководство](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

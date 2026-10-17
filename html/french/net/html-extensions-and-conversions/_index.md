@@ -40,7 +40,6 @@ Aspose.HTML pour .NET n'est pas seulement une bibliothèque ; c'est un outil ré
 
 
 ### [Convertir HTML en PDF dans .NET avec Aspose.HTML](./convert-html-to-pdf/)
-Convertissez facilement du HTML en PDF avec Aspose.HTML pour .NET. Suivez notre guide étape par étape et exploitez la puissance de la conversion HTML en PDF.
 ### [Convertir HTML en PDF en C# – Guide complet Aspose](./convert-html-to-pdf-in-c-full-aspose-guide/)
 Guide complet pour convertir du HTML en PDF en C# avec Aspose.HTML, incluant exemples de code et meilleures pratiques.
 
@@ -55,6 +54,8 @@ Apprenez à définir la taille de page PDF lors de la conversion de HTML en PDF 
 Convertissez facilement du HTML en PDF en C# avec Aspose.HTML. Suivez notre guide étape par étape.
 ### [Convertir une URL en PDF en C# – Solution Aspose HTML en une ligne](./convert-url-to-pdf-in-c-one-line-aspose-html-solution/)
 Convertissez rapidement une page web en PDF en une seule ligne de code C# avec Aspose.HTML.
+### [Convertir HTML en PDF en C# avec Aspose – Guide complet](./convert-html-to-pdf-in-c-with-aspose-complete-guide/)
+Apprenez à convertir du HTML en PDF en C# avec Aspose grâce à un guide complet, étape par étape.
 ### [Créer un PDF à partir de HTML – Guide étape par étape en C#](./create-pdf-from-html-c-step-by-step-guide/)
 Apprenez à créer un PDF à partir de HTML en C# avec Aspose.HTML, guide complet pas à pas.
 ### [Créer un PDF à partir de HTML – Guide étape par étape pour les développeurs](./create-pdf-from-html-step-by-step-guide-for-developers/)
@@ -163,6 +164,8 @@ Apprenez à générer une archive HTML à partir d'un fichier DOCX avec Aspose.H
 Apprenez à enregistrer un document HTML dans un fichier ZIP en C# avec Aspose.HTML, incluant le stockage personnalisé.
 ### [Comment zipper du HTML avec Aspose.HTML – Guide complet](./how-to-zip-html-with-aspose-html-complete-guide/)
 Apprenez à compresser du HTML dans un fichier ZIP avec Aspose.HTML grâce à notre guide complet étape par étape.
+### [Comment enregistrer du HTML et écrire du HTML dans un fichier avec C#](./how-to-save-html-and-write-html-to-file-with-c/)
+Apprenez à enregistrer du HTML et à le sauvegarder dans un fichier en C# avec Aspose.HTML pour .NET.
 
 ## Conclusion
 

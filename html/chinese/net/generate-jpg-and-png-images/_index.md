@@ -97,6 +97,8 @@ Aspose.HTML for .NET 提供了一种将 HTML 转换为图像的简单方法。�
 本教程详细演示如何使用 C# 将 HTML 渲染为 PNG 图像并将结果打包为 ZIP 文件，步骤完整。
 ### [如何启用抗锯齿 – 在 C# 中将 HTML 渲染为 PNG](./how-to-enable-antialiasing-render-html-to-png-in-c/)
 学习如何在 C# 中使用 Aspose.HTML 将 HTML 渲染为 PNG 并启用抗锯齿，以提升图像质量。
+### [在将 HTML 转换为 PNG 时如何禁用抗锯齿](./how-to-disable-antialiasing-when-converting-html-to-png/)
+了解如何在使用 Aspose.HTML for .NET 将 HTML 转换为 PNG 图像时关闭抗锯齿，以获得更清晰的图像。
 
 ## 结论
 

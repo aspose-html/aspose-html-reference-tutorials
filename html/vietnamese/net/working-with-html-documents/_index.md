@@ -42,7 +42,6 @@ Hướng dẫn chi tiết cách tạo tài liệu HTML trong C# sử dụng Trì
 
 ### [Cách làm tiêu đề đậm bằng CSS & C# – Hướng dẫn chi tiết từng bước](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 
-Hướng dẫn chi tiết cách sử dụng CSS và C# để làm tiêu đề in đậm, kèm ví dụ mã và các bước thực hiện cụ thể.
 ### [Cách lưu HTML trong C# – Trình xử lý tài nguyên tùy chỉnh & ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
 ### [Cách zip HTML trong C# – Hướng dẫn chi tiết từng bước](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 
@@ -60,6 +59,8 @@ Hướng dẫn chi tiết cách nén tài liệu HTML thành tệp ZIP bằng C#
 ### [Tạo HTML từ chuỗi trong C# – Hướng dẫn từng bước](./create-html-from-string-in-c-step-by-step-guide/)
 
 Hướng dẫn chi tiết cách tạo tài liệu HTML từ một chuỗi văn bản trong C# bằng Aspose.HTML.
+### [Tải tài liệu HTML với Aspose.HTML – Hướng dẫn C# đầy đủ](./load-html-document-with-aspose-html-complete-c-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

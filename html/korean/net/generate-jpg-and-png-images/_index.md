@@ -97,6 +97,8 @@ C#을 사용해 HTML 문서를 생성하고 고품질 PNG 이미지로 렌더링
 HTML을 PNG 이미지로 변환하고 ZIP 파일로 내보내는 전체 C# 단계별 가이드를 제공합니다.
 ### [C#에서 HTML을 PNG로 렌더링할 때 안티앨리어싱 활성화 방법](./how-to-enable-antialiasing-render-html-to-png-in-c/)
 HTML을 PNG 이미지로 변환하면서 안티앨리어싱을 적용하는 단계별 가이드를 제공합니다.
+### [HTML을 PNG로 변환할 때 안티앨리어싱 비활성화 방법](./how-to-disable-antialiasing-when-converting-html-to-png/)
+HTML을 PNG 이미지로 변환할 때 안티앨리어싱을 끄는 방법을 단계별로 안내합니다.
 
 ## 결론
 

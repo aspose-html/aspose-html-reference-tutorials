@@ -45,6 +45,8 @@ Aspose.HTML для .NET — это не просто библиотека; эт�
 Полное руководство по конвертации HTML в PDF с помощью Aspose.HTML в C#. Следуйте пошаговым инструкциям и используйте весь потенциал библиотеки.
 ### [Установить размер страницы PDF в C# – Конвертировать HTML в PDF](./set-pdf-page-size-in-c-convert-html-to-pdf/)
 Узнайте, как задать размер страницы PDF при конвертации HTML в PDF с помощью Aspose.HTML в C#.
+### [Конвертируйте HTML в PDF в C# с Aspose – Полное руководство](./convert-html-to-pdf-in-c-with-aspose-complete-guide/)
+Полное пошаговое руководство по конвертации HTML в PDF в C# с использованием Aspose.HTML.
 ### [Создайте PDF из HTML – пошаговое руководство C#](./create-pdf-from-html-c-step-by-step-guide/)
 Пошаговое руководство по созданию PDF из HTML с помощью Aspose.HTML в C#.
 ### [Создайте PDF из HTML с Aspose.HTML – пошаговое руководство](./create-pdf-from-html-with-aspose-html-step-by-step-guide/)
@@ -156,6 +158,9 @@ Aspose.HTML для .NET — это не просто библиотека; эт�
 Полное руководство по упаковке HTML‑файлов в ZIP‑архив с помощью Aspose.HTML, включая примеры кода и подробные шаги.
 ### [Конвертировать URL в PDF в C# – решение Aspose HTML в одну строку](./convert-url-to-pdf-in-c-one-line-aspose-html-solution/)
 Узнайте, как преобразовать веб‑страницу по URL в PDF всего одной строкой кода с Aspose.HTML для .NET.
+
+### [Как сохранить HTML и записать HTML в файл с C#](./how-to-save-html-and-write-html-to-file-with-c/)
+Узнайте, как сохранять HTML‑контент и записывать его в файл с помощью C# и Aspose.HTML.
 
 ## Заключение
 

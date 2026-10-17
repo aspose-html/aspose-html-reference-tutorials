@@ -97,6 +97,8 @@ url: /el/net/generate-jpg-and-png-images/
 Μάθετε πώς να μετατρέψετε HTML σε PNG με πλήρη οδηγό C# και εξαγωγή σε αρχείο ZIP.
 ### [Πώς να ενεργοποιήσετε το Antialiasing – Απόδοση HTML σε PNG με C#](./how-to-enable-antialiasing-render-html-to-png-in-c/)
 Μάθετε πώς να βελτιώσετε την ποιότητα των εικόνων ενεργοποιώντας το antialiasing κατά τη μετατροπή HTML σε PNG με C#.
+### [Πώς να απενεργοποιήσετε το Antialiasing κατά τη μετατροπή HTML σε PNG](./how-to-disable-antialiasing-when-converting-html-to-png/)
+Μάθετε πώς να απενεργοποιήσετε το antialiasing κατά τη μετατροπή HTML σε PNG χρησιμοποιώντας το Aspose.HTML για .NET.
 
 ## Σύναψη
 

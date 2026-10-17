@@ -49,8 +49,6 @@ Aspose.Html을 사용해 C#에서 HTML을 저장하는 방법을 단계별로 �
 
 ### [C#에서 HTML 저장하기 – 사용자 정의 리소스 핸들러 및 ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
 
-### [C#에서 HTML 압축하기 – 완전 단계별 가이드](./how-to-zip-html-in-c-complete-step-by-step-guide/)
-
 ### [C#에서 사용자 정의 리소스 핸들러로 HTML 저장하기](./how-to-save-html-in-c-with-custom-resource-handler/)
 
 ### [Aspose를 사용하여 HTML 저장하기 – 완전 C# 가이드](./how-to-save-html-with-aspose-complete-c-guide/)
@@ -62,6 +60,10 @@ Aspose.Html을 사용해 C#에서 HTML을 저장하는 방법을 단계별로 �
 사용자 정의 리소스 핸들러를 활용해 C#에서 HTML 문서를 만드는 방법을 단계별로 안내합니다.
 
 ### [C#에서 문자열로 HTML 만들기 – 단계별 가이드](./create-html-from-string-in-c-step-by-step-guide/)
+
+### [Aspose.HTML을 사용하여 .NET에서 HTML 문서 로드 – 완전 C# 가이드](./load-html-document-with-aspose-html-complete-c-guide/)
+
+### [C#에서 HTML 압축하기 – 완전 단계별 가이드](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

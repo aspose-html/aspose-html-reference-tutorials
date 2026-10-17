@@ -54,13 +54,13 @@ Apprenez à enregistrer du HTML en C# en utilisant des gestionnaires de ressourc
 
 Apprenez à enregistrer du HTML en C# avec Aspose.Html grâce à ce guide complet et détaillé.
 
-### [Comment zipper du HTML en C# – Guide complet étape par étape](./how-to-zip-html-in-c-complete-step-by-step-guide/)
-
-Apprenez à compresser des fichiers HTML en C# en suivant un guide complet étape par étape.
-
 ### [Créer du HTML à partir d'une chaîne en C# – Guide étape par étape](./create-html-from-string-in-c-step-by-step-guide/)
 
 Apprenez à générer du HTML à partir d'une chaîne en C# avec Aspose.HTML, étape par étape.
+
+### [Charger un document HTML avec Aspose.HTML – Guide complet C#](./load-html-document-with-aspose-html-complete-c-guide/)
+
+### [Comment zipper du HTML en C# – Guide complet étape par étape](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

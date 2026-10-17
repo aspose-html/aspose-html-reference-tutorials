@@ -98,6 +98,8 @@ Apprenez à convertir du HTML en images PNG avec Aspose.HTML en suivant un guide
 Apprenez à créer un document HTML en C# et à le rendre en PNG avec une qualité supérieure grâce à Aspose.HTML.
 ### [Convertir HTML en PNG – Guide complet C# avec export ZIP](./convert-html-to-png-full-c-guide-with-zip-export/)
 Apprenez à convertir du HTML en images PNG et à les archiver dans un fichier ZIP à l'aide de C#.
+### [Comment désactiver l'anticrénelage lors de la conversion de HTML en PNG](./how-to-disable-antialiasing-when-converting-html-to-png/)
+Apprenez à désactiver l'anticrénelage pour obtenir des images PNG nettes lors de la conversion de HTML avec Aspose.HTML.
 
 ## Conclusion
 

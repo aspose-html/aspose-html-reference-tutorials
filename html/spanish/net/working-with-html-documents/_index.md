@@ -52,10 +52,6 @@ Aprenda a guardar documentos HTML en C# usando controladores de recursos persona
 
 ### [Cómo guardar HTML con Aspose.Html – Guía completa en C#](./how-to-save-html-with-aspose-html-complete-c-guide/)
 
-### [Cómo comprimir HTML en C# – Guía completa paso a paso](./how-to-zip-html-in-c-complete-step-by-step-guide/)
-
-Aprenda a comprimir archivos HTML en C# usando Aspose.HTML con esta guía paso a paso.
-
 ### [Guardar HTML como ZIP en C# – Guía completa con controlador de recursos personalizado](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
 
 Aprenda a comprimir documentos HTML en archivos ZIP y guardarlos usando un controlador de recursos personalizado en C#.
@@ -69,6 +65,12 @@ Aprenda a crear documentos HTML en C# usando un controlador de recursos personal
 ### [Crear HTML a partir de una cadena en C# – Guía paso a paso](./create-html-from-string-in-c-step-by-step-guide/)
 
 Aprenda a generar documentos HTML directamente desde una cadena en C# con este tutorial detallado.
+
+### [Cargar documento HTML con Aspose.HTML – Guía completa en C#](./load-html-document-with-aspose-html-complete-c-guide/)
+
+### [Cómo comprimir HTML en C# – Guía completa paso a paso](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+
+Aprenda a comprimir archivos HTML en C# usando Aspose.HTML con esta guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

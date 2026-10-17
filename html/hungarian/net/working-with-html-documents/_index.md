@@ -36,11 +36,18 @@ Miután megértette az alapokat, mélyebbre ásunk az alkotás folyamatában. Eb
 
 Most emeljük tudását a következő szintre. A HTML-dokumentumok szerkesztése gyakori feladat a webfejlesztők számára, és az Aspose.HTML jelentősen leegyszerűsíti ezt a folyamatot. Ebben a részben a dokumentumok létrehozásával, manipulálásával és stílusával foglalkozunk. Felfedezi, hogyan javíthatja webtartalma megjelenését és funkcionalitását, hogy vonzóvá és felhasználóbaráttá tegye azt.
 
+### [HTML dokumentum betöltése Aspose.HTML‑vel – Teljes C# útmutató](./load-html-document-with-aspose-html-complete-c-guide/)
+
+Ismerje meg, hogyan tölthet be HTML‑dokumentumokat az Aspose.HTML könyvtárral C#‑ban, lépésről‑lépésre útmutatóval.
+
 ### [HTML mentése C#-ban – Teljes útmutató egy egyéni erőforráskezelő használatával](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 
 ### [HTML mentése Aspose.Html segítségével – Teljes C# útmutató](./how-to-save-html-with-aspose-html-complete-c-guide/)
 
 Ismerje meg, hogyan menthet HTML-fájlokat Aspose.Html könyvtárral C#-ban, lépésről‑lépésre útmutatóval.
+### [HTML zipelése C#‑ban – Teljes lépésről‑lépésre útmutató](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+
+Ismerje meg, hogyan csomagolhatja be HTML-fájljait ZIP-archívumba C#‑ban, részletes példákkal.
 
 ### [Hogyan tegyünk félkövér címet CSS‑el és C#‑val – Teljes lépésről‑lépésre útmutató](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 
@@ -56,8 +63,6 @@ Ismerje meg, hogyan formázhatja félkövérre a HTML‑címeket CSS‑sel és C
 ### [HTML mentése C#-ban – Egyedi erőforráskezelők és ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
 
 Megmutatjuk, hogyan menthet HTML-t C#-ban egyedi erőforráskezelőkkel és ZIP-archívummal.
-### [HTML tömörítése C#-ban – Teljes lépésről‑lépésre útmutató](./how-to-zip-html-in-c-complete-step-by-step-guide/)
-
 ### [HTML dokumentum létrehozása C#‑ban – Teljes útmutató egy egyéni erőforráskezelő használatával](./create-html-document-c-complete-guide-with-custom-resource-h/)
 
 Ismerje meg, hogyan hozhat létre HTML‑dokumentumot C#‑ban egy egyéni erőforráskezelő segítségével, részletes példákkal.

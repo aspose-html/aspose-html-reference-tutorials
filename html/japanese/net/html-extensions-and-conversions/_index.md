@@ -51,6 +51,8 @@ Aspose.HTML for .NET を使用して、フォントを埋め込んだ状態で C
 Aspose.HTML for .NET を使用して、C# で HTML を PDF に変換する際に PDF のページサイズをカスタマイズする方法をステップバイステップで解説します。
 ### [HTML を PDF に変換するチュートリアル – C#](./html-to-pdf-tutorial-convert-html-to-pdf-in-c/)
 Aspose.HTML for .NET を使用して、C# で HTML を PDF に変換する手順をステップバイステップで解説します。
+### [Aspose を使用して C# で HTML を PDF に変換する – 完全ガイド](./convert-html-to-pdf-in-c-with-aspose-complete-guide/)
+Aspose を活用し、C# で HTML を PDF に変換する手順をステップバイステップで解説します。
 
 ### [HTML から PDF を作成する – C# ステップバイステップ ガイド](./create-pdf-from-html-c-step-by-step-guide/)
 Aspose.HTML for .NET を使用して、C# で HTML から PDF を作成する手順をステップバイステップで解説します。
@@ -172,6 +174,9 @@ Aspose.HTML を活用し、HTML コンテンツを Zip アーカイブにまと�
 
 ### [C# で URL を PDF に変換 – ワンライン Aspose HTML ソリューション](./convert-url-to-pdf-in-c-one-line-aspose-html-solution/)
 Aspose.HTML を使用して、C# で URL をワンラインコードで PDF に変換する方法をステップバイステップで解説します。
+
+### [C# で HTML を保存し、ファイルに書き込む方法](./how-to-save-html-and-write-html-to-file-with-c/)
+Aspose.HTML for .NET を使用して、HTML コンテンツを保存し、C# でファイルに書き込む手順をステップバイステップで解説します。
 
 ## 結論
 

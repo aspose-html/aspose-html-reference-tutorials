@@ -53,6 +53,8 @@ Aspose.HTML สำหรับ .NET ไม่ใช่แค่ไลบรา�
 แปลง HTML เป็น PDF ใน C# อย่างง่ายดายด้วย Aspose.HTML ตามคำแนะนำทีละขั้นตอนของเรา
 ### [สร้าง PDF จาก HTML ด้วย Aspose – คู่มือ C# ทีละขั้นตอน](./create-pdf-from-html-with-aspose-step-by-step-c-guide/)
 เรียนรู้วิธีสร้างไฟล์ PDF จาก HTML ด้วย Aspose.HTML ใน C# ตามขั้นตอนละเอียดของเรา
+### [แปลง HTML เป็น PDF ใน C# ด้วย Aspose – คู่มือเต็ม](./convert-html-to-pdf-in-c-with-aspose-complete-guide/)
+เรียนรู้ขั้นตอนการแปลง HTML เป็น PDF ด้วย C# และ Aspose อย่างละเอียดในคู่มือเต็มของเรา
 ### [แปลง EPUB เป็นรูปภาพใน .NET ด้วย Aspose.HTML](./convert-epub-to-image/)
 เรียนรู้วิธีการแปลง EPUB เป็นรูปภาพโดยใช้ Aspose.HTML สำหรับ .NET บทช่วยสอนแบบทีละขั้นตอนพร้อมตัวอย่างโค้ดและตัวเลือกที่ปรับแต่งได้
 ### [แปลง EPUB เป็น PDF ใน .NET ด้วย Aspose.HTML](./convert-epub-to-pdf/)
@@ -157,6 +159,8 @@ Aspose.HTML สำหรับ .NET ไม่ใช่แค่ไลบรา�
 เรียนรู้วิธีบีบอัดไฟล์ HTML เป็น Zip อย่างละเอียดด้วย Aspose.HTML สำหรับ .NET พร้อมขั้นตอนและตัวอย่างโค้ดครบถ้วน
 ### [แปลง URL เป็น PDF ใน C# – โซลูชัน Aspose HTML บรรทัดเดียว](./convert-url-to-pdf-in-c-one-line-aspose-html-solution/)
 เรียนรู้วิธีแปลง URL เป็นไฟล์ PDF ด้วย Aspose.HTML ใน C# เพียงบรรทัดเดียวตามขั้นตอนง่าย ๆ
+### [วิธีบันทึก HTML และเขียน HTML ไปยังไฟล์ด้วย C#](./how-to-save-html-and-write-html-to-file-with-c/)
+เรียนรู้วิธีบันทึกไฟล์ HTML และเขียนเนื้อหา HTML ลงในไฟล์โดยใช้ C# กับ Aspose.HTML สำหรับ .NET
 
 ## บทสรุป
 

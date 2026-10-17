@@ -95,6 +95,8 @@ Aspose.HTML สำหรับ .NET นำเสนอวิธีการง�
 ### [แปลง HTML เป็น PNG – คู่มือ C# เต็มรูปแบบพร้อมการส่งออก ZIP](./convert-html-to-png-full-c-guide-with-zip-export/)
 เรียนรู้วิธีแปลง HTML เป็นไฟล์ PNG และบีบอัดเป็นไฟล์ ZIP ด้วย C# อย่างละเอียด
 ### [วิธีเปิดใช้งาน Antialiasing – แปลง HTML เป็น PNG ใน C#](./how-to-enable-antialiasing-render-html-to-png-in-c/)
+### [วิธีปิดการใช้งาน Antialiasing เมื่อแปลง HTML เป็น PNG](./how-to-disable-antialiasing-when-converting-html-to-png/)
+เรียนรู้วิธีปิดการใช้งาน Antialiasing เพื่อให้ภาพ PNG ที่แปลงจาก HTML มีความคมชัดและลื่นไหล
 
 ## บทสรุป
 
