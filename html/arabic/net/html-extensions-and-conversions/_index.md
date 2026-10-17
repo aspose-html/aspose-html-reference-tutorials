@@ -169,6 +169,8 @@ url: /ar/net/html-extensions-and-conversions/
 
 ### [كيفية حفظ HTML وكتابة HTML إلى ملف باستخدام C#](./how-to-save-html-and-write-html-to-file-with-c/)
 تعلم كيفية حفظ مستند HTML وكتابته إلى ملف باستخدام C# ومكتبة Aspose.HTML.
+### [تحويل HTML إلى ZIP في C# – دليل كامل خطوة بخطوة](./convert-html-to-zip-in-c-complete-step-by-step-guide/)
+تعلم كيفية ضغط ملفات HTML وحفظها كملف ZIP باستخدام C# ومكتبة Aspose.HTML خطوة بخطوة.
 
 ## خاتمة
 

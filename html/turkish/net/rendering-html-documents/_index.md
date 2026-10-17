@@ -64,6 +64,8 @@ C# kullanarak HTML'yi PNG'ye dönüştürmeyi öğrenin. Bu kapsamlı rehberde a
 HTML'yi PNG'ye dönüştürmeyi adım adım öğrenin, örnek kodlar ve ipuçlarıyla süreci kolaylaştırın.
 ### [Aspose Kullanarak HTML'yi PNG Olarak İşleme – Adım Adım Kılavuz](./how-to-use-aspose-to-render-html-to-png-step-by-step-guide/)
 Aspose.HTML for .NET ile HTML dosyalarını PNG formatına dönüştürmeyi adım adım öğrenin.
+### [C# ile HTML'yi PNG Olarak İşleme – Adım Adım Kılavuz](./how-to-render-html-to-png-in-c-step-by-step-guide/)
+C# kullanarak HTML'yi PNG'ye dönüştürmeyi adım adım öğrenin. Bu kapsamlı rehberde örnek kodlar ve ipuçları bulacaksınız.
 ### [Aspose ile HTML'yi PNG Olarak İşleme – Tam Kılavuz](./how-to-render-html-to-png-with-aspose-complete-guide/)
 Aspose.HTML for .NET kullanarak HTML dosyalarını PNG formatına dönüştürmenin tüm adımlarını öğrenin.
 ### [HTML'den PNG Oluşturma – Tam C# Render Rehberi](./create-png-from-html-full-c-rendering-guide/)
@@ -76,8 +78,6 @@ C# ile HTML'yi PNG'ye dönüştürmenin tüm adımlarını ayrıntılı olarak �
 
 ### [Aspose.HTML ile .NET'te HTML'yi PNG Olarak Render Etme – Adım Adım Kılavuz](./how-to-render-html-to-png-step-by-step-guide/)
 HTML'yi PNG'ye dönüştürmeyi adım adım öğrenin, Aspose.HTML for .NET ile örnek kodlar ve ipuçları.
-### [C# ile HTML'yi PNG Olarak Render Etme – Adım Adım Kılavuz](./how-to-render-html-to-png-in-c-step-by-step-guide/)
-C# kullanarak HTML'yi PNG'ye dönüştürmeyi adım adım öğrenin, örnek kodlar ve ipuçlarıyla.
 ### [HTML'yi PNG olarak render etme – Tam C# Rehberi](./how-to-render-html-to-png-complete-c-guide/)
 Bu kapsamlı C# rehberinde HTML'yi PNG'ye nasıl dönüştüreceğinizi adım adım öğrenin.
 ### [HTML belgesi oluşturma C# – Kalın İtalik Yazı Tipiyle PNG Olarak İşleme](./create-html-document-c-render-to-png-with-bold-italic-font/)

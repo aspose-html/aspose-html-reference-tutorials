@@ -141,6 +141,8 @@ Ismerje meg, hogyan konvertálhatja a HTML-t sztringgé C#-ban az Aspose.HTML k�
 Egyetlen sor kóddal konvertálja az URL-t PDF-be C#‑ban az Aspose.HTML segítségével.
 ### [HTML mentése és írása fájlba C#-ban](./how-to-save-html-and-write-html-to-file-with-c/)
 Ismerje meg, hogyan menthet és írhat HTML-t fájlba C#-ban az Aspose.HTML for .NET segítségével.
+### [HTML konvertálása ZIP-be C#‑ban – Teljes lépésről‑lépésre útmutató](./convert-html-to-zip-in-c-complete-step-by-step-guide/)
+Ismerje meg, hogyan konvertálhatja a HTML-t ZIP-archívumba C#‑ban az Aspose.HTML for .NET segítségével, részletes útmutatóval.
 
 ## Következtetés
 

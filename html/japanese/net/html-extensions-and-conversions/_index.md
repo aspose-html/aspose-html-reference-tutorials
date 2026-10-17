@@ -178,6 +178,8 @@ Aspose.HTML を使用して、C# で URL をワンラインコードで PDF に�
 ### [C# で HTML を保存し、ファイルに書き込む方法](./how-to-save-html-and-write-html-to-file-with-c/)
 Aspose.HTML for .NET を使用して、HTML コンテンツを保存し、C# でファイルに書き込む手順をステップバイステップで解説します。
 
+### [C# で HTML を ZIP に変換する – 完全ステップバイステップガイド](./convert-html-to-zip-in-c-complete-step-by-step-guide/)
+
 ## 結論
 
 結論として、HTML の拡張と変換は、現代の Web 開発に不可欠な要素です。Aspose.HTML for .NET はプロセスを簡素化し、あらゆるレベルの開発者が利用できるようにします。当社のチュートリアルに従うことで、幅広いスキルを備えた熟練した Web 開発者になるための道を順調に進むことができます。

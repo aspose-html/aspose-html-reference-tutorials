@@ -161,6 +161,8 @@ Leer hoe u PDF's genereert vanuit HTML met Aspose.HTML voor .NET met een duideli
 Converteer een URL naar PDF met één regel code via Aspose.HTML voor .NET in C#.
 ### [HTML opslaan en naar bestand schrijven met C#](./how-to-save-html-and-write-html-to-file-with-c/)
 Leer hoe u HTML-inhoud opslaat en naar een bestand schrijft met C# en Aspose.HTML voor .NET.
+### [HTML naar ZIP converteren in C# – Complete stap‑voor‑stap gids](./convert-html-to-zip-in-c-complete-step-by-step-guide/)
+Leer hoe u HTML naar ZIP converteert in C# met Aspose.HTML voor .NET via een volledige stap‑voor‑stap handleiding.
 
 ## Conclusie
 

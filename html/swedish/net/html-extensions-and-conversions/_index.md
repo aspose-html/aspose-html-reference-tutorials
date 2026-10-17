@@ -159,6 +159,8 @@ Lär dig hur du zippar HTML-filer med Aspose.HTML i en komplett guide med kodexe
 Lär dig hur du skapar PDF från HTML i C# med Aspose i en detaljerad steg‑för‑steg‑guide.
 ### [Spara HTML och skriv HTML till fil med C#](./how-to-save-html-and-write-html-to-file-with-c/)
 Lär dig hur du sparar HTML-innehåll och skriver det till en fil med C# och Aspose.HTML i en steg‑för‑steg‑guide.
+### [Konvertera HTML till ZIP i C# – Komplett steg‑för‑steg‑guide](./convert-html-to-zip-in-c-complete-step-by-step-guide/)
+Lär dig hur du konverterar HTML till en ZIP-fil i C# med en komplett steg‑för‑steg‑guide och kodexempel.
 
 ## Slutsats
 

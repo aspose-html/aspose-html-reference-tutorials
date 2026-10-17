@@ -164,6 +164,8 @@ Aspose.HTML for .NET 不只是一個函式庫；它還是一個函式庫。它�
 使用 Aspose.HTML for .NET 在 C# 中將 HTML 壓縮為 ZIP，提供完整步驟與範例說明。
 ### [如何在 C# 中儲存 HTML 並寫入檔案](./how-to-save-html-and-write-html-to-file-with-c/)
 了解如何使用 Aspose.HTML for .NET 在 C# 中將 HTML 儲存並寫入檔案的步驟說明與範例。
+### [在 C# 中將 HTML 轉換為 ZIP – 完整步驟指南](./convert-html-to-zip-in-c-complete-step-by-step-guide/)
+使用 Aspose.HTML for .NET 在 C# 中將 HTML 轉換為 ZIP，提供完整的逐步說明與範例。
 
 ## 結論
 

@@ -90,9 +90,6 @@ Apprenez à convertir du HTML en PNG avec C# grâce à ce guide complet et prati
 Apprenez à convertir du HTML en images PNG avec Aspose grâce à ce guide complet et détaillé.
 ### [Créer un document HTML C# – Rendu en PNG avec police gras italique](./create-html-document-c-render-to-png-with-bold-italic-font/)
 Apprenez à créer un document HTML en C# et à le rendre en PNG en utilisant une police en gras et italique avec Aspose.HTML.
-### [Comment rendre le HTML en PNG en C# – Guide étape par étape](./how-to-render-html-to-png-in-c-step-by-step-guide/)
-Apprenez à convertir du HTML en PNG avec C# grâce à ce guide détaillé étape par étape.
-
 ### [Rendre le HTML en PNG et l'enregistrer dans un ZIP avec C# – Guide complet](./render-html-to-png-and-save-to-zip-with-c-complete-guide/)
 Apprenez à convertir du HTML en images PNG puis à les compresser dans un fichier ZIP à l'aide de C# et Aspose.HTML.
 
@@ -116,6 +113,9 @@ Apprenez à convertir du HTML en PNG avec C# grâce à ce guide complet étape p
 
 ### [Comment activer l'anticrénelage lors du rendu HTML en PNG en C#](./how-to-enable-antialiasing-when-rendering-html-to-png-in-c/)
 Apprenez à activer l'anticrénelage lors du rendu de HTML en PNG avec Aspose.HTML pour .NET en C#.
+
+### [Comment rendre le HTML en PNG en C# – Guide étape par étape](./how-to-render-html-to-png-in-c-step-by-step-guide/)
+Apprenez à convertir du HTML en PNG en C# grâce à ce guide détaillé étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

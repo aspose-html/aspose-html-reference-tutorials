@@ -92,8 +92,6 @@ Aspose.HTML for .NET を使用して、HTML を PNG 画像に変換する完全�
 ### [HTML を PNG にレンダリングする方法 – ステップバイステップ ガイド](./how-to-render-html-to-png-step-by-step-guide/)
 Aspose.HTML for .NET を使用して、HTML を PNG 画像に変換する手順を詳しく解説します。初心者にも分かりやすいガイドです。
 
-### [C# で HTML を PNG にレンダリングする方法 – ステップバイステップ ガイド](./how-to-render-html-to-png-in-c-step-by-step-guide/)
-C# で Aspose.HTML を使用して HTML を PNG 画像に変換する手順をステップバイステップで解説します。
 ### [HTML を PNG にレンダリングする方法 – 完全 C# ガイド](./how-to-render-html-to-png-complete-c-guide/)
 C# を使用して HTML を PNG 画像に変換する手順を詳しく解説します。初心者でも簡単に実装可能です。
 ### [C# で HTML ドキュメントを作成 – 太字イタリックフォントで PNG にレンダリング](./create-html-document-c-render-to-png-with-bold-italic-font/)
@@ -119,6 +117,9 @@ Aspose.HTML for .NET を使い、C# で HTML を画像に変換する手順を�
 
 ### [C# で HTML を PNG にレンダリングする – ステップバイステップ ガイド](./render-html-to-png-in-c-step-by-step-guide/)
 Aspose.HTML for .NET を使用して、C# で HTML を PNG 画像に変換する手順を詳しく解説します。
+
+### [C# で HTML を PNG にレンダリングする方法 – ステップバイステップ ガイド](./how-to-render-html-to-png-in-c-step-by-step-guide/)
+C# を使用して HTML を PNG 画像に変換する手順を詳しく解説します。初心者でも簡単に実装できます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

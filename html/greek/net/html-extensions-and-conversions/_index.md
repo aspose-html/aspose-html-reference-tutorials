@@ -161,6 +161,8 @@ url: /el/net/html-extensions-and-conversions/
 
 ### [Αποθήκευση HTML και εγγραφή σε αρχείο με C#](./how-to-save-html-and-write-html-to-file-with-c/)
 Μάθετε πώς να αποθηκεύσετε κώδικα HTML και να τον γράψετε σε αρχείο χρησιμοποιώντας C# και Aspose.HTML.
+### [Μετατροπή HTML σε ZIP σε C# – Πλήρης Οδηγός Βήμα‑Βήμα](./convert-html-to-zip-in-c-complete-step-by-step-guide/)
+Μάθετε πώς να μετατρέπετε HTML σε αρχείο ZIP με C# και Aspose.HTML για .NET, βήμα‑βήμα με παραδείγματα κώδικα.
 
 ## Σύναψη
 
