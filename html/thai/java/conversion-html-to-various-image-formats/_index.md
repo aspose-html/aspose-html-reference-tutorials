@@ -155,6 +155,9 @@ weight: 24
 เรียนรู้วิธีแปลงหน้า HTML ยาวเป็นไฟล์ PNG ด้วย Aspose.HTML for Java อย่างมีประสิทธิภาพและง่ายดาย
 ### [วิธีตั้งค่า DPI เมื่อแปลง HTML เป็น PNG – คู่มือ Java](./how-to-set-dpi-when-converting-html-to-png-java-guide/)
 เรียนรู้วิธีตั้งค่า DPI สำหรับการแปลง HTML เป็น PNG ด้วย Aspose.HTML for Java เพื่อควบคุมความละเอียดของภาพ
+### [วิธีใช้ Sandbox เพื่อจับภาพหน้าจอเว็บเพจ](./how-to-use-sandbox-to-capture-webpage-screenshot/)
+เรียนรู้วิธีใช้ Sandbox ของ Aspose.HTML เพื่อจับภาพหน้าจอของหน้าเว็บโดยอัตโนมัติ
+### [สร้าง GIF จาก SVG ด้วย Java – คู่มือเต็มขั้นตอน](./create-gif-from-svg-with-java-full-step-by-step-guide/)
 
 ## คำถามที่พบบ่อย
 

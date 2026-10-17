@@ -95,6 +95,8 @@ weight: 24
 Μετατρέψτε HTML σε BMP με το Aspose.HTML για Java. Ένας ολοκληρωμένος οδηγός για την αδιάλειπτη μετατροπή εγγράφων HTML σε εικόνες BMP χρησιμοποιώντας το Aspose.HTML for Java.
 ### [Μετατροπή HTML σε GIF](./convert-html-to-gif/)
 Μάθετε πώς να μετατρέψετε HTML σε GIF σε Java χρησιμοποιώντας το Aspose.HTML. Ένας πλήρης οδηγός βήμα‑βήμα για αποδοτική μετατροπή HTML‑σε‑GIF.
+### [Δημιουργία GIF από SVG με Java – Πλήρης Οδηγός Βήμα‑Βήμα](./create-gif-from-svg-with-java-full-step-by-step-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία SVG σε GIF χρησιμοποιώντας Java και Aspose.HTML, με πλήρη βήμα‑βήμα οδηγίες.
 ### [Μετατροπή HTML σε JPEG](./convert-html-to-jpeg/)
 Μάθετε να μετατρέψετε HTML σε JPEG με το Aspose.HTML για Java. Οδηγός βήμα‑βήμα για αδιάλειπτη επεξεργασία εγγράφων.
 ### [Μετατροπή HTML σε PNG](./convert-html-to-png/)
@@ -120,6 +122,8 @@ weight: 24
 ### [Ορισμός DPI κατά τη μετατροπή HTML σε PNG – Πλήρης οδηγός Java](./how-to-set-dpi-when-converting-html-to-png-complete-java-gui/)
 ### [Ορισμός αναλογίας εικονοστοιχείου σε Java – Απόδοση HTML σε PNG](./set-device-pixel-ratio-in-java-render-html-to-png/)
 ### [Αποθήκευση σελίδας HTML ως PNG σε Java – Πλήρης Οδηγός](./save-html-page-as-png-in-java-complete-tutorial/)
+### [Πώς να Χρησιμοποιήσετε το Sandbox για Λήψη Στιγμιότυπου Ιστοσελίδας](./how-to-use-sandbox-to-capture-webpage-screenshot/)
+Μάθετε πώς να χρησιμοποιήσετε το Sandbox της Aspose.HTML για να τραβήξετε στιγμιότυπο οθόνης μιας ιστοσελίδας σε Java.
 
 ### [Πώς να αποδώσετε HTML σε PNG σε Java – Πλήρης Οδηγός](./how-to-render-html-to-png-in-java-complete-guide/)
 ### [Πώς να δημιουργήσετε GIF από SVG – Οδηγός Java βήμα‑βήμα](./how-to-create-gif-from-svg-step-by-step-java-guide/)

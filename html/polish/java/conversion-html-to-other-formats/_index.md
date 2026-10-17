@@ -130,8 +130,12 @@ Dowiedz się, jak przy pomocy Aspose.HTML w Javie przekształcić HTML w zgodny 
 Dowiedz się, jak zabezpieczyć plik PDF hasłem podczas konwersji z HTML w Javie przy użyciu Aspose.HTML.
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 Effortlessly convert HTML to MHTML using Aspose.HTML for Java. Follow our step-by-step guide for efficient HTML-to-MHTML conversion.
+### [Konwertowanie HTML do MHTML przy użyciu Aspose.HTML – Kompletny przewodnik w Javie](./convert-html-to-mhtml-with-aspose-html-complete-java-guide/)
+Dowiedz się, jak konwertować HTML do MHTML w Javie przy użyciu Aspose.HTML, krok po kroku, aby uzyskać efektywną konwersję.
 ### [Converting HTML to XPS](./convert-html-to-xps/)
 Learn how to effortlessly convert HTML to XPS using Aspose.HTML for Java. Create cross-platform documents with ease.
+### [Jak używać Aspose do konwersji HTML na Markdown w Javie](./how-to-use-aspose-to-convert-html-to-markdown-in-java/)
+Dowiedz się, jak konwertować HTML na Markdown w Javie przy użyciu Aspose.HTML, krok po kroku.
 ### [Converting Markdown to HTML](./convert-markdown-to-html/)
 Convert Markdown to HTML in Java seamlessly with Aspose.HTML for Java. Follow our step-by-step guide to streamline your document conversion needs.
 ### [Utwórz PDF z Markdown przy użyciu Aspose HTML Converter (Java)](./create-pdf-from-markdown-using-aspose-html-converter-java/)

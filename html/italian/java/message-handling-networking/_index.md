@@ -54,6 +54,11 @@ Grazie a questa guida dettagliata, puoi convertire facilmente i tuoi file ZIP in
 Scopri come utilizzare HttpClient di Java 11 con autenticazione per inviare richieste sicure e protette.
 ### [Come recuperare API in Java – Guida completa usando il motore Aspose HTML V8](./how-to-fetch-api-in-java-complete-guide-using-aspose-html-v8/)
 Scopri come utilizzare l'API Fetch in Java con Aspose HTML V8 per recuperare contenuti web in modo semplice ed efficiente.
+### [Recuperare JSON JavaScript in Java con Aspose HTML – Guida completa](./fetch-json-javascript-in-java-with-aspose-html-complete-guid/)
+Scopri come recuperare dati JSON tramite JavaScript in Java usando Aspose HTML, passo dopo passo, con esempi pratici.
+### [Impostare l'intestazione di autorizzazione in Java – Guida completa per caricare HTML da URL](./set-authorization-header-in-java-complete-guide-to-load-html/)
+Scopri come impostare l'intestazione di autorizzazione per caricare pagine HTML da URL usando Aspose.HTML per Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

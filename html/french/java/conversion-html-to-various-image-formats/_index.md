@@ -152,6 +152,10 @@ Apprenez à convertir SVG en WebP en Java avec Aspose.HTML. Guide complet étape
 ### [Définir le ratio de pixel d'appareil en Java – Rendu HTML en PNG](./set-device-pixel-ratio-in-java-render-html-to-png/)
 ### [Comment définir le DPI lors de la conversion d'HTML en PNG – Guide Java](./how-to-set-dpi-when-converting-html-to-png-java-guide/)
 Apprenez à définir le DPI lors de la conversion d'HTML en PNG avec Aspose.HTML for Java. Guide étape par étape pour un rendu précis.
+### [Comment utiliser Sandbox pour capturer une capture d'écran de page Web](./how-to-use-sandbox-to-capture-webpage-screenshot/)
+Apprenez à utiliser Sandbox pour capturer des captures d'écran de pages Web avec Aspose.HTML en Java.
+### [Créer un GIF à partir de SVG avec Java – Guide complet étape par étape](./create-gif-from-svg-with-java-full-step-by-step-guide/)
+Apprenez à créer un GIF à partir d'un fichier SVG en Java avec Aspose.HTML. Guide complet étape par étape.
 
 ## Questions fréquemment posées
 

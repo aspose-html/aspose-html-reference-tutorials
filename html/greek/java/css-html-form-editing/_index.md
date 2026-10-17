@@ -86,6 +86,8 @@ url: /el/java/css-html-form-editing/
 ### [Πώς να διαβάσετε CSS σε Java – Εξαγωγή Υπολογισμένων Στυλ Βήμα‑βήμα](./how-to-read-css-in-java-extract-computed-styles-step-by-step/)
 Μάθετε πώς να διαβάζετε CSS σε Java και να εξάγετε τα υπολογισμένα στυλ βήμα‑βήμα χρησιμοποιώντας Aspose.HTML.
 
+### [Ανάκτηση στοιχείου με id σε Java – Πλήρης Οδηγός για την Ανάκτηση Υπολογισμένων Στυλ](./get-element-by-id-in-java-full-guide-to-retrieve-computed-st/)
+Μάθετε πώς να εντοπίζετε στοιχεία HTML με συγκεκριμένο id και να λαμβάνετε τα υπολογισμένα στυλ τους χρησιμοποιώντας Aspose.HTML για Java.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -53,6 +53,10 @@ Convierta fácilmente sus archivos ZIP a PDF usando Aspose.HTML para Java con es
 ### [java 11 httpclient authenticator – Guía completa para solicitudes seguras](./java-11-httpclient-authenticator-complete-guide-to-secure-re/)
 Aprenda a usar HttpClient de Java 11 con autenticador para realizar solicitudes HTTP seguras y proteger sus datos.
 ### [Cómo obtener API en Java – Guía completa usando Aspose HTML V8 Engine](./how-to-fetch-api-in-java-complete-guide-using-aspose-html-v8/)
+### [Establecer encabezado de autorización en Java – Guía completa para cargar HTML desde URL](./set-authorization-header-in-java-complete-guide-to-load-html/)
+Aprenda a establecer el encabezado de autorización en Java y cargar HTML desde una URL usando Aspose.HTML.
+### [Obtener JSON JavaScript en Java con Aspose HTML – Guía completa](./fetch-json-javascript-in-java-with-aspose-html-complete-guid/)
+Aprenda a obtener datos JSON usando JavaScript en Java con Aspose HTML en esta guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

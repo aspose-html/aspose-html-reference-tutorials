@@ -83,6 +83,8 @@ url: /zh-hant/java/css-html-form-editing/
 本完整指南說明如何使用 Aspose.HTML for Java 取得元素的計算樣式，涵蓋程式碼範例與實作步驟。
 ### [如何在 Java 中讀取 CSS – 逐步提取計算樣式](./how-to-read-css-in-java-extract-computed-styles-step-by-step/)
 本指南逐步說明如何在 Java 使用 Aspose.HTML 讀取 CSS 並提取計算後的樣式。
+### [在 Java 中按 ID 取得元素 – 完整指南：檢索計算樣式](./get-element-by-id-in-java-full-guide-to-retrieve-computed-st/)
+本指南說明如何在 Java 中使用 Aspose.HTML 透過 ID 取得元素並取得其計算樣式，提供完整步驟與範例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

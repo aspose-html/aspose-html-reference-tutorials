@@ -83,6 +83,8 @@ Leer hoe u met Aspose.HTML voor Java de berekende CSS‑stijl van een element ku
 Leer hoe u met Aspose.HTML voor Java de berekende stijl van een element kunt ophalen in deze stapsgewijze handleiding.
 ### [Hoe CSS in Java lezen – Geëxtraheerde berekende stijlen stap‑voor‑stap](./how-to-read-css-in-java-extract-computed-styles-step-by-step/)
 Leer hoe u CSS in Java kunt lezen en berekende stijlen stap voor stap kunt extraheren.
+### [Selecteer element op id in Java – Complete handleiding voor het ophalen van berekende stijlen](./get-element-by-id-in-java-full-guide-to-retrieve-computed-st/)
+Leer hoe u met Aspose.HTML voor Java een element op id kunt vinden en de berekende CSS‑stijlen kunt ophalen in een stap‑voor‑stap gids.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

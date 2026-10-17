@@ -92,10 +92,11 @@ Convert HTML to BMP with Aspose.HTML for Java. A comprehensive tutorial to seaml
 
 ### [تحويل HTML إلى GIF](./convert-html-to-gif/)
 Learn how to convert HTML to GIF in Java using Aspose.HTML. A comprehensive step-by-step guide for efficient HTML-to-GIF conversion.
-
 ### [كيفية إنشاء GIF من SVG – دليل Java خطوة بخطوة](./how-to-create-gif-from-svg-step-by-step-java-guide/)
 تعلم كيفية تحويل SVG إلى GIF باستخدام Aspose.HTML for Java من خلال دليل خطوة بخطوة واضح.
 
+### [إنشاء GIF من SVG باستخدام Java – دليل شامل خطوة بخطوة](./create-gif-from-svg-with-java-full-step-by-step-guide/)
+إنشاء صورة GIF من ملفات SVG باستخدام Java مع Aspose.HTML. دليل تفصيلي يغطي جميع الخطوات بسهولة.
 ### [تحويل HTML إلى JPEG](./convert-html-to-jpeg/)
 Learn to convert HTML to JPEG with Aspose.HTML for Java. Step-by-step guide for seamless document processing.
 
@@ -172,6 +173,8 @@ Learn how to easily convert HTML to TIFF using Aspose.HTML for Java. Step-by-ste
 تحويل HTML إلى WebP باستخدام Aspose.HTML for Java. دليل شامل خطوة بخطوة لإنشاء صور WebP بجودة عالية.
 ### [حفظ صفحة HTML كصورة PNG في Java – دليل كامل](./save-html-page-as-png-in-java-complete-tutorial/)
 تعلم كيفية حفظ صفحة HTML كملف PNG في Java باستخدام Aspose.HTML. دليل شامل خطوة بخطوة.
+### [كيفية استخدام Sandbox لالتقاط لقطة شاشة لصفحة الويب](./how-to-use-sandbox-to-capture-webpage-screenshot/)
+دليل خطوة بخطوة لاستخدام Sandbox لالتقاط صور شاشة لصفحات الويب باستخدام Aspose.HTML for Java.
 
 ## الأسئلة المتكررة
 

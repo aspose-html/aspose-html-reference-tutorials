@@ -196,6 +196,11 @@ Aspose.HTML for Java का उपयोग करके बड़े HTML प�
 Aspose.HTML for Java में डिवाइस पिक्सेल रेशियो सेट करके HTML को उच्च‑रिज़ॉल्यूशन PNG में कैसे रेंडर करें, सीखें।
 ### [HTML को WebP में बदलना – Aspose.HTML के लिए पूर्ण Java गाइड](./convert-html-to-webp-complete-java-guide-for-aspose-html/)
 Aspose.HTML for Java का उपयोग करके HTML को WebP इमेज में बदलें। चरण‑दर‑चरण गाइड जो उच्च‑गुणवत्ता WebP रूपांतरण दिखाता है।
+### [Sandbox का उपयोग करके वेबपेज स्क्रीनशॉट कैसे कैप्चर करें](./how-to-use-sandbox-to-capture-webpage-screenshot/)
+Sandbox का उपयोग करके वेबपेज का स्क्रीनशॉट कैप्चर करने की चरण‑दर‑चरण प्रक्रिया।
+
+### [SVG को GIF में बदलना – Java के साथ पूर्ण चरण‑दर‑चरण गाइड](./create-gif-from-svg-with-java-full-step-by-step-guide/)
+Aspose.HTML for Java के साथ SVG को GIF में बदलने के लिए पूर्ण चरण‑दर‑चरण गाइड।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

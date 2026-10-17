@@ -157,6 +157,10 @@ Erfahren Sie, wie Sie die DPI für PNG‑Ausgaben mit Aspose.HTML for Java einst
 Erfahren Sie, wie Sie mit Aspose.HTML for Java ein HTML‑Banner erstellen und es als PNG‑Bild rendern – Schritt‑für‑Schritt‑Leitfaden.
 ### [HTML mit Java rendern: Lange Seite in PNG konvertieren](./render-html-java-convert-long-page-to-png/)
 Erfahren Sie, wie Sie mit Aspose.HTML for Java lange HTML‑Seiten in PNG‑Bilder konvertieren – Schritt‑für‑Schritt‑Anleitung.
+### [GIF aus SVG mit Java erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-gif-from-svg-with-java-full-step-by-step-guide/)
+Erfahren Sie, wie Sie SVG‑Grafiken mit Aspose.HTML for Java in animierte GIF‑Dateien umwandeln – detaillierte Schritt‑für‑Schritt‑Anleitung.
+### [Wie man Sandbox verwendet, um einen Webseiten‑Screenshot zu erfassen](./how-to-use-sandbox-to-capture-webpage-screenshot/)
+Erfahren Sie, wie Sie mit der Aspose.HTML Sandbox Webseiten‑Screenshots erstellen – Schritt‑für‑Schritt‑Anleitung.
 
 ## Häufig gestellte Fragen
 

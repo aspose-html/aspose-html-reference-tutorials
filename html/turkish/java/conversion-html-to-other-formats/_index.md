@@ -109,11 +109,16 @@ Java’da HTML'yi PDF'ye dönüştürürken kağıt boyutu ve DPI ayarlarını a
 Java’da aynı anda birden çok HTML dosyasını PDF’ye dönüştürerek toplu işlem yapmayı adım adım öğrenin.
 ### [Java’da PDF Sayfa Boyutunu Ayarlama – Java HTML'den PDF Kılavuzu](./set-pdf-page-size-in-java-java-html-to-pdf-guide/)
 ### [HTML'yi MHTML'ye Dönüştürme](./convert-html-to-mhtml/)
+Aspose.HTML for Java ile HTML'yi MHTML'ye kolayca dönüştürün. Verimli HTML‑to‑MHTML dönüşümü için adım adım rehberimizi izleyin.
+### [Aspose.HTML ile HTML'yi MHTML'ye Dönüştürme – Tam Java Kılavuzu](./convert-html-to-mhtml-with-aspose-html-complete-java-guide/)
+Aspose.HTML kullanarak Java’da HTML'yi MHTML'ye eksiksiz şekilde dönüştürün. Adım adım rehber.
 ### [HTML'yi XPS'ye Dönüştürme](./convert-html-to-xps/)
 ### [Markdown'ı HTML'ye Dönüştürme](./convert-markdown-to-html/)
 ### [Aspose HTML Dönüştürücü (Java) ile Markdown'tan PDF Oluşturma](./create-pdf-from-markdown-using-aspose-html-converter-java/)
 ### [Markdown'tan PDF Oluşturma – Hızlı Java Kılavuzu](./create-pdf-from-markdown-quick-java-guide/)
 Aspose.HTML for Java kullanarak Markdown dosyasından tek satırda PDF oluşturmayı gösteren hızlı rehber.
+### [Java’da HTML'yi Markdown’a Dönüştürmek için Aspose Kullanımı](./how-to-use-aspose-to-convert-html-to-markdown-in-java/)
+Aspose.HTML for Java ile HTML dosyalarını kolayca Markdown formatına dönüştürün. Adım adım rehberimizi izleyin.
 ### [SVG'yi Görüntüye Dönüştürme](./convert-svg-to-image/)
 ### [SVG'yi PDF'ye Dönüştürme](./convert-svg-to-pdf/)
 ### [SVG'yi XPS'ye Dönüştürme](./convert-svg-to-xps/)
@@ -146,6 +151,8 @@ Aspose.HTML for Java kullanarak HTML'den PDF oluşturup, sonucu Azure Blob depol
 Tek bir satır kodla HTML'den PDF oluşturmayı gösteren hızlı ve basit bir Aspose rehberi.
 ### [SVG'den PDF Oluşturma – Aspose.HTML ile Özel Sayfa Boyutu (Java)](./create-pdf-from-svg-custom-page-size-with-aspose-html-java/)
 Aspose.HTML for Java kullanarak SVG'den özel sayfa boyutlu PDF oluşturmayı adım adım öğrenin.
+### [Java’da HTML'den PDF Oluşturma – Tam Aspose Kılavuzu](./create-pdf-from-html-in-java-complete-aspose-guide/)
+Aspose.HTML for Java ile HTML'den PDF oluşturmayı adım adım tam kılavuzda keşfedin.
 
 ### [PDF'ye Yazı Tipi Gömme – Aspose HTML'den PDF'ye Tam Kılavuz (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
 Aspose.HTML for Java kullanarak PDF dosyalarına gömülü yazı tipleri eklemeyi adım adım öğrenin.

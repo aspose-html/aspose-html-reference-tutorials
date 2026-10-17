@@ -88,6 +88,8 @@ Aspose.HTML for Java を使用して、要素の計算済みスタイルを取�
 Aspose.HTML for Java を使用して、要素の計算済みスタイルを取得する手順をステップバイステップで解説します。
 ### [JavaでCSSを読み取る方法 – 計算スタイルの抽出ステップバイステップ](./how-to-read-css-in-java-extract-computed-styles-step-by-step/)
 このチュートリアルでは、JavaでCSSを解析し、計算済みスタイルを取得する手順を詳しく解説します。
+### [JavaでIDで要素を取得 – 計算済みスタイル取得の完全ガイド](./get-element-by-id-in-java-full-guide-to-retrieve-computed-st/)
+Javaで要素のIDを取得し、計算されたスタイル情報を取得する方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

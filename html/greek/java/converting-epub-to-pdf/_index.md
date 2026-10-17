@@ -61,6 +61,8 @@ weight: 27
 Μάθετε πώς να ενσωματώσετε γραμματοσειρές στο PDF κατά τη μετατροπή EPUB χρησιμοποιώντας Aspose.HTML for Java.
 ### [Πώς να Ενσωματώσετε Γραμματοσειρές σε PDF με Aspose HTML – οδηγός μετατροπής EPUB σε PDF](./how-to-embed-fonts-in-pdf-using-aspose-html-convert-epub-to/)
 Μάθετε πώς να ενσωματώσετε γραμματοσειρές σε PDF χρησιμοποιώντας Aspose HTML κατά τη μετατροπή EPUB σε PDF.
+### [Μετατροπή EPUB σε PDF σε Java – Προσθήκη Πίνακα Περιεχομένων και Πλήρης Οδηγός](./convert-epub-to-pdf-in-java-add-toc-and-full-guide/)
+Μάθετε πώς να προσθέσετε πίνακα περιεχομένων και να δημιουργήσετε πλήρη οδηγό μετατροπής EPUB σε PDF με Aspose.HTML for Java.
 ### [Μετατροπή EPUB σε BMP](./convert-epub-to-bmp/)
 Μάθετε πώς να μετατρέψετε EPUB σε BMP χρησιμοποιώντας το Aspose.HTML for Java. Οδηγός βήμα‑βήμα για αποτελεσματικό μετασχηματισμό περιεχομένου.
 ### [Μετατροπή EPUB σε GIF](./convert-epub-to-gif/)

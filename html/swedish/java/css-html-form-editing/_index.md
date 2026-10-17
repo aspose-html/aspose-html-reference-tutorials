@@ -84,6 +84,8 @@ Lär dig hur du använder Aspose.HTML för Java för att hämta den beräknade C
 Lär dig hur du hämtar beräknade CSS‑stilar för element i Java med Aspose.HTML i den här kompletta guiden.
 ### [Hur du läser CSS i Java – Extrahera beräknade stilar steg‑för‑steg](./how-to-read-css-in-java-extract-computed-styles-step-by-step/)
 Lär dig hur du programatiskt läser CSS‑regler och hämtar beräknade stilar i Java med Aspose.HTML i en tydlig steg‑för‑steg‑guide.
+### [Hämta element efter id i Java – Fullständig guide för att hämta beräknade stilar](./get-element-by-id-in-java-full-guide-to-retrieve-computed-st/)
+Lär dig hur du med Aspose.HTML för Java hittar element via id och får deras beräknade CSS‑stilar i en detaljerad steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

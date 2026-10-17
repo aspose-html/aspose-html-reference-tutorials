@@ -101,6 +101,9 @@ Aspose.HTML for Java का उपयोग करके eBook को PDF मे
 ### [EPUB से PDF बनाएं – चरण‑दर‑चरण जावा गाइड](./create-pdf-from-epub-step-by-step-java-guide/)
 Aspose.HTML for Java का उपयोग करके EPUB को PDF में बदलने की विस्तृत चरण‑दर‑चरण प्रक्रिया सीखें।
 
+### [Java में EPUB को PDF में बदलें – TOC जोड़ें और पूर्ण गाइड](./convert-epub-to-pdf-in-java-add-toc-and-full-guide/)
+Aspose.HTML for Java का उपयोग करके EPUB को PDF में बदलें, साथ में सामग्री तालिका (TOC) जोड़ें और विस्तृत चरण‑दर‑चरण गाइड प्राप्त करें।
+
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **Q:** *क्या मैं संरक्षित EPUB फ़ाइलों को PDF में बदल सकता हूँ?*  

@@ -37,7 +37,9 @@ Saját üzenetkezelő csővezetékek felépítése olyan érzés lehet, mint egy
 
 ## Üzenetkezelés és hálózatépítés az Aspose.HTML for Java oktatóanyagban
 ### [A hitelesítő adatok folyamatának kezelése az Aspose.HTML for Java-ban](./credentials-pipeline/)
-Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan kezelheti biztonságosan a hitelesítő adatokat az Aspose.HTML for Java használatával. Fedezze fel az alapvető tippeket és a bevált gyakorlatokat.
+Ebből a lépésről szóló útmutatóból megtudhatja, hogyan kezelheti biztonságosan a hitelesítő adatokat az Aspose.HTML for Java használatával. Fedezze fel az alapvető tippeket és a bevált gyakorlatokat.
+### [Hitelesítési fejléc beállítása Java-ban – Teljes útmutató HTML URL-ről történő betöltéséhez](./set-authorization-header-in-java-complete-guide-to-load-html/)
+Ismerje meg, hogyan állíthat be hitelesítési fejlécet Java-ban, hogy HTML-t töltsön be URL-ről az Aspose.HTML segítségével.
 ### [Egyéni üzenetkezelők megvalósítása az Aspose.HTML for Java segítségével](./custom-message-handler/)
 Fedezze fel, hogyan valósíthat meg egyéni üzenetkezelőket az Aspose.HTML for Java-ban a dokumentumfeldolgozás javítása és a naplók hatékony kezelése érdekében.
 ### [A hálózati időtúllépés kezelése az Aspose.HTML for Java fájlban](./network-timeout/)
@@ -54,6 +56,8 @@ Könnyen konvertálhatja ZIP-fájljait PDF-be az Aspose.HTML for Java segítség
 Fedezze fel, hogyan használhatja a Java 11 HttpClient authenticator-t a biztonságos HTTP kérésekhez, lépésről lépésre útmutatóval.
 ### [API lekérése Java-ban – Teljes útmutató az Aspose HTML V8 motor használatával](./how-to-fetch-api-in-java-complete-guide-using-aspose-html-v8/)
 Fedezze fel, hogyan hívhat meg API-kat Java-ban az Aspose HTML V8 motor segítségével, lépésről lépésre útmutató.
+### [JSON lekérése JavaScriptből Java-ban az Aspose HTML segítségével – Teljes útmutató](./fetch-json-javascript-in-java-with-aspose-html-complete-guid/)
+Ismerje meg, hogyan lehet Java-ban JSON adatot lekérni JavaScriptből az Aspose HTML könyvtár használatával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

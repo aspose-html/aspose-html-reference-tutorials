@@ -169,6 +169,11 @@ weight: 24
 
 ### [Сохранить HTML‑страницу как PNG в Java – Полное руководство](./save-html-page-as-png-in-java-complete-tutorial/)
 
+### [Создание GIF из SVG с Java – Полное пошаговое руководство](./create-gif-from-svg-with-java-full-step-by-step-guide/)
+Узнайте, как преобразовать SVG‑изображения в анимированные GIF с помощью Aspose.HTML for Java, следуя подробным шагам.
+
+### [Как использовать Sandbox для захвата скриншота веб-страницы](./how-to-use-sandbox-to-capture-webpage-screenshot/)
+
 ## Часто задаваемые вопросы
 
 **В: Можно ли конвертировать HTML в PNG с помощью Java без дополнительных библиотек для работы с изображениями?**  

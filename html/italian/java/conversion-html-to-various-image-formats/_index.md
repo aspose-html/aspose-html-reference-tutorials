@@ -170,6 +170,12 @@ Scopri come rendere pagine web a risoluzione elevata e catturare screenshot usan
 ### [Crea PNG da HTML – Conversione rapida in batch usando un pool di thread](./create-png-from-html-fast-batch-conversion-using-a-thread-po/)
 Scopri come generare PNG da HTML in modo veloce ed efficiente usando un pool di thread per elaborazioni batch.
 ### [Converti HTML in PNG con impostazione della memoria massima in Java](./convert-html-to-png-with-set-max-memory-usage-in-java/)
+### [Come utilizzare Sandbox per catturare screenshot di una pagina web](./how-to-use-sandbox-to-capture-webpage-screenshot/)
+Scopri come usare la sandbox di Aspose.HTML per catturare screenshot di pagine web in modo sicuro e rapido.
+
+### [Crea GIF da SVG con Java – Guida completa passo‑passo](./create-gif-from-svg-with-java-full-step-by-step-guide/)
+Scopri come generare una GIF animata a partire da un file SVG usando Aspose.HTML for Java, con istruzioni dettagliate passo‑passo.
+
 ## Domande frequenti
 
 **Q: Posso convertire HTML in PNG usando Java senza librerie di immagini aggiuntive?**  

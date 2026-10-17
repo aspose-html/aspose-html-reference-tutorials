@@ -83,6 +83,8 @@ Hướng dẫn chi tiết cách lấy thuộc tính kiểu đã tính toán củ
 Hướng dẫn chi tiết cách lấy computed style trong Java bằng Aspose.HTML, bao gồm các ví dụ thực tế và mẹo tối ưu.
 ### [Cách đọc CSS trong Java – Trích xuất các kiểu đã tính toán từng bước](./how-to-read-css-in-java-extract-computed-styles-step-by-step/)
 Hướng dẫn chi tiết cách đọc CSS trong Java và trích xuất các kiểu đã tính toán một cách từng bước.
+### [Lấy phần tử theo id trong Java – Hướng dẫn đầy đủ để truy xuất kiểu đã tính toán](./get-element-by-id-in-java-full-guide-to-retrieve-computed-st/)
+Hướng dẫn chi tiết cách lấy phần tử HTML theo id và truy xuất các kiểu đã tính toán bằng Aspose.HTML cho Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

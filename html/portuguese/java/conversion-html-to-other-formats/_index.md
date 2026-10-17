@@ -111,6 +111,10 @@ Aprenda a converter páginas da web em PDF usando Aspose.HTML for Java com instr
 ### [Convertendo HTML para XPS](./convert-html-to-xps/)
 ### [Definir proporção de pixels do dispositivo em Java – Converter HTML para mobile](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)
 Aprenda a ajustar a proporção de pixels do dispositivo ao converter HTML para visualização móvel usando Aspose.HTML for Java.
+### [Converter HTML para MHTML com Aspose.HTML – Guia Completo em Java](./convert-html-to-mhtml-with-aspose-html-complete-java-guide/)
+Aprenda passo a passo como converter HTML para MHTML usando Aspose.HTML em Java, com exemplos práticos e configurações avançadas.
+### [Como usar Aspose para converter HTML em Markdown em Java](./how-to-use-aspose-to-convert-html-to-markdown-in-java/)
+Aprenda a converter HTML em Markdown usando Aspose.HTML for Java, com passo a passo e exemplos práticos.
 ### [Convertendo Markdown para HTML](./convert-markdown-to-html/)
 Converta Markdown para HTML em Java de forma fluida com Aspose.HTML for Java. Siga nosso guia passo a passo para simplificar suas necessidades de conversão de documentos.
 ### [Criar PDF a partir de Markdown em Java – Guia passo a passo](./create-pdf-from-markdown-in-java-step-by-step-guide/)
@@ -146,6 +150,8 @@ Aprenda a proteger PDFs com senha ao convertê‑los de HTML usando Aspose.HTML 
 ### [Criar PDF a partir de Markdown – Guia Rápido em Java](./create-pdf-from-markdown-quick-java-guide/)
 Aprenda a gerar PDFs a partir de arquivos Markdown em Java com Aspose.HTML em poucos passos.
 ### [Criar PDF a partir de SVG – Tamanho de página personalizado com Aspose.HTML (Java)](./create-pdf-from-svg-custom-page-size-with-aspose-html-java/)
+### [Criar PDF a partir de HTML em Java – Guia Completo da Aspose](./create-pdf-from-html-in-java-complete-aspose-guide/)
+Aprenda passo a passo como gerar PDFs a partir de HTML em Java usando Aspose.HTML, com exemplos completos e melhores práticas.
 
 ### [Incorporar fontes PDF – Guia Completo Aspose HTML para PDF (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
 

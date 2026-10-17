@@ -84,6 +84,8 @@ Aspose.HTML for Java kullanarak bir öğenin hesaplanmış stilini elde etmeyi a
 Aspose.HTML for Java kullanarak bir öğenin hesaplanmış stilini nasıl alacağınızı adım adım öğrenin.
 ### [Java’da CSS Okuma – Hesaplanmış Stilleri Adım Adım Çıkarma](./how-to-read-css-in-java-extract-computed-styles-step-by-step/)
 Aspose.HTML for Java kullanarak CSS kurallarını okuyup, hesaplanmış stilleri adım adım nasıl çıkaracağınızı öğrenin.
+### [Java’da ID ile öğe alımı – Hesaplanmış stilleri elde etmek için tam rehber](./get-element-by-id-in-java-full-guide-to-retrieve-computed-st/)
+Bu kapsamlı rehberde, Java’da bir öğeyi ID’siyle seçip, hesaplanmış CSS stillerini adım adım nasıl alacağınızı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

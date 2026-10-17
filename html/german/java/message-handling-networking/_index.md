@@ -55,6 +55,10 @@ Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.HTML f
 ### [Konvertieren Sie ZIP in PDF mit Aspose.HTML für Java](./zip-to-pdf/)
 Konvertieren Sie Ihre ZIP-Dateien mit Aspose.HTML für Java mit dieser Schritt-für-Schritt-Anleitung ganz einfach in PDF.
 ### [Java 11 HttpClient Authenticator – Komplettleitfaden für sichere Anfragen](./java-11-httpclient-authenticator-complete-guide-to-secure-re/)
+### [JSON mit JavaScript in Java mit Aspose HTML abrufen – Komplettanleitung](./fetch-json-javascript-in-java-with-aspose-html-complete-guid/)
+Erfahren Sie, wie Sie JSON-Daten über JavaScript in Java mit Aspose HTML vollständig abrufen und verarbeiten.
+### [Authorization-Header in Java setzen – Komplettanleitung zum Laden von HTML aus einer URL](./set-authorization-header-in-java-complete-guide-to-load-html/)
+Erfahren Sie, wie Sie den Authorization-Header in Java setzen, um HTML von einer URL zu laden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

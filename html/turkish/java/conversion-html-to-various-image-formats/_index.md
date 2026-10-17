@@ -138,6 +138,8 @@ Aspose.HTML for Java kullanarak HTML banner oluşturup PNG olarak renderlamayı 
 ### [Java’da cihaz piksel oranını ayarla – HTML'yi PNG'ye renderla](./set-device-pixel-ratio-in-java-render-html-to-png/)
 ### [HTML Sayfasını PNG Olarak Kaydet – Java Tam Rehberi](./save-html-page-as-png-in-java-complete-tutorial/)
 Aspose.HTML for Java kullanarak HTML sayfasını PNG formatında kaydetmeyi adım adım öğrenin.
+### [Sandbox'ı Kullanarak Web Sayfası Ekran Görüntüsü Alma](./how-to-use-sandbox-to-capture-webpage-screenshot/)
+### [Java ile SVG'den GIF Oluşturma – Tam Adım‑Adım Kılavuz](./create-gif-from-svg-with-java-full-step-by-step-guide/)
 
 ### [HTML'yi PNG'ye Render Etme – Java Geliştiricileri için Tam Kılavuz](./how-to-render-html-to-png-complete-guide-for-java-developers/)
 Aspose.HTML for Java ile HTML'yi yüksek kaliteli PNG görüntüsüne dönüştürmeyi adım adım öğrenin.

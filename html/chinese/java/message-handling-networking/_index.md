@@ -53,6 +53,10 @@ Aspose.HTML for Java 是一款功能强大的工具包，用于管理和操作 H
 ### [java 11 HttpClient 认证器 – 安全请求完整指南](./java-11-httpclient-authenticator-complete-guide-to-secure-re/)
 ### [使用 Aspose HTML V8 引擎在 Java 中获取 API 的完整指南](./how-to-fetch-api-in-java-complete-guide-using-aspose-html-v8/)
 本指南详细讲解如何在 Java 中使用 Aspose HTML V8 引擎发送和处理 HTTP 请求，实现完整的 API 获取流程。
+### [使用 Aspose HTML 在 Java 中获取 JSON（JavaScript）—完整指南](./fetch-json-javascript-in-java-with-aspose-html-complete-guid/)
+本完整指南展示如何在 Java 环境下使用 Aspose HTML 执行 JavaScript 来获取并处理 JSON 数据。
+### [在 Java 中设置授权标头 – 加载 URL HTML 的完整指南](./set-authorization-header-in-java-complete-guide-to-load-html/)
+本完整指南展示如何在 Java 中设置授权标头，以从 URL 加载 HTML 内容。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

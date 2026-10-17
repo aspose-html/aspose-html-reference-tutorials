@@ -85,6 +85,8 @@ Java용 Aspose.HTML을 사용하여 요소의 스타일을 가져오고 배경 �
 Java에서 Aspose.HTML을 사용하여 계산된 스타일을 가져오는 방법을 단계별로 안내합니다.
 ### [Java에서 CSS 읽는 방법 – 계산된 스타일을 단계별로 추출](./how-to-read-css-in-java-extract-computed-styles-step-by-step/)
 Java를 사용해 CSS를 읽고, 계산된 스타일을 단계별로 추출하는 방법을 자세히 안내합니다.
+### [Java에서 ID로 요소 가져오기 – 계산된 스타일을 가져오는 완전 가이드](./get-element-by-id-in-java-full-guide-to-retrieve-computed-st/)
+이 가이드에서는 Java에서 요소를 ID로 선택하고, 계산된 CSS 스타일을 추출하는 방법을 단계별로 설명합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

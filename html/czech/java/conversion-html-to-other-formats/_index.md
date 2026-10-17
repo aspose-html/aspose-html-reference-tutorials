@@ -100,6 +100,10 @@ Jednoduchý návod, jak v jedné řádce kódu převést HTML na PDF pomocí Asp
 ### [Převod HTML do MHTML](./convert-html-to-mhtml/)
 Jednoduše převádějte HTML do MHTML pomocí Aspose.HTML for Java. Postupujte podle našeho krok‑za‑krokem průvodce pro efektivní konverzi HTML‑to‑MHTML.
 
+### [Vytvoření PDF z HTML v Javě – Kompletní průvodce Aspose](./create-pdf-from-html-in-java-complete-aspose-guide/)
+Kompletní návod, jak v Javě pomocí Aspose.HTML převést HTML na PDF s podrobným nastavením a ukázkovým kódem.
+### [Převod HTML do MHTML s Aspose.HTML – Kompletní průvodce pro Javu](./convert-html-to-mhtml-with-aspose-html-complete-java-guide/)
+Kompletní návod, jak v Javě převést HTML do MHTML pomocí Aspose.HTML, včetně nastavení a pokročilých možností.
 ### [Převod HTML do XPS](./convert-html-to-xps/)
 Naučte se snadno převádět HTML do XPS pomocí Aspose.HTML for Java. Vytvářejte multiplatformní dokumenty s lehkostí.
 
@@ -211,6 +215,8 @@ Naučte se zabezpečit PDF heslem při konverzi HTML do PDF v Javě pomocí Aspo
 ### [Převod HTML do PDF – Kompletní průvodce ukládáním PDF do Azure Blob](./convert-html-to-pdf-complete-guide-to-saving-pdf-to-azure-bl/)
 Naučte se převést HTML do PDF a uložit výstup přímo do Azure Blob úložiště pomocí Aspose.HTML for Java.
 ### [Vytvořte PDF z Markdown – Rychlý průvodce pro Javu](./create-pdf-from-markdown-quick-java-guide/)
+### [Jak použít Aspose k převodu HTML na Markdown v Javě](./how-to-use-aspose-to-convert-html-to-markdown-in-java/)
+Naučte se převádět HTML na Markdown v Javě pomocí Aspose.HTML. Jednoduchý průvodce krok za krokem.
 
 ## Často kladené otázky
 

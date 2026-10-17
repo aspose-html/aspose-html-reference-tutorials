@@ -100,6 +100,9 @@ Ismerje meg, hogyan ágyazhat be egyedi betűtípusokat az EPUB‑PDF konvertál
 ### [epub to pdf oktatóanyag: e‑könyv PDF‑be konvertálása Aspose‑szal](./epub-to-pdf-tutorial-convert-ebook-to-pdf-with-aspose/)
 Tanulja meg, hogyan konvertálja az e‑könyveket PDF‑be az Aspose.HTML for Java segítségével.
 
+### [EPUB konvertálása PDF-be Java‑ban – Tartalomjegyzék hozzáadása és teljes útmutató](./convert-epub-to-pdf-in-java-add-toc-and-full-guide/)
+Ismerje meg, hogyan adhat hozzá tartalomjegyzéket az EPUB‑PDF konvertáláshoz Java‑ban, részletes lépésekkel.
+
 ## Gyakran Ismételt Kérdések
 
 **Q:** *Konvertálhatok védett EPUB fájlokat PDF‑be?*  

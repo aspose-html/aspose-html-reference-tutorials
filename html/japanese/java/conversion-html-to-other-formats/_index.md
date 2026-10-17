@@ -96,6 +96,10 @@ Aspose.HTML を使用して Java で HTML を PDF に変換する手順を詳し
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 Aspose.HTML for Java で HTML を MHTML に簡単に変換します。効率的な HTML‑to‑MHTML 変換の手順をご覧ください。
 
+### [JavaでHTMLからPDFを作成 – 完全 Aspose ガイド](./create-pdf-from-html-in-java-complete-aspose-guide/)
+Aspose.HTML を使用して Java で HTML から PDF を作成する手順を完全に解説します。高度な設定やベストプラクティスも網羅。
+### [Aspose.HTML で HTML を MHTML に変換する完全 Java ガイド](./convert-html-to-mhtml-with-aspose-html-complete-java-guide/)
+Aspose.HTML を活用し、Java で HTML を MHTML に変換する手順とベストプラクティスを詳しく解説します。
 ### [Converting HTML to XPS](./convert-html-to-xps/)
 Aspose.HTML for Java を使用して HTML を XPS にシームレスに変換する方法を学びます。クロスプラットフォーム文書を簡単に作成できます。
 ### [Javaでデバイスピクセル比を設定 – HTMLをモバイルに変換](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)
@@ -106,6 +110,8 @@ Aspose.HTML for Java で Java の Markdown を HTML にシームレスに変換�
 Aspose.HTML を使い、Markdown ファイルを直接 PDF に変換する手順を解説します。
 ### [JavaでHTMLをMarkdownに変換 – 完全ステップバイステップガイド](./convert-html-to-markdown-in-java-full-step-by-step-guide/)
 Aspose.HTML を使用して Java で HTML を Markdown に変換する完全な手順を解説します。シンプルなコードで変換を実装できます。
+### [JavaでAsposeを使用してHTMLをMarkdownに変換する方法](./how-to-use-aspose-to-convert-html-to-markdown-in-java/)
+Aspose.HTML を使用して Java で HTML を Markdown に変換する手順を学びます。テキストベースのドキュメント生成が簡単です。
 ### [Converting SVG to Image](./convert-svg-to-image/)
 Aspose.HTML を使用して Java で SVG を画像に変換する方法を学びます。高品質出力のための包括的ガイドです。
 

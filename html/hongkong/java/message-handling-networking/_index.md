@@ -55,6 +55,9 @@ Aspose.HTML for Java 是用於管理和操作 HTML 文件的強大工具包，�
 透過此逐步指南，使用 Aspose.HTML for Java 輕鬆將 ZIP 檔案轉換為 PDF。
 ### [java 11 httpclient 認證器 – 完整的安全請求指南](./java-11-httpclient-authenticator-complete-guide-to-secure-re/)
 本指南說明如何在 Java 11 HttpClient 中使用 Authenticator 進行安全的 HTTP 請求，涵蓋設定與最佳實踐。
+### [在 Java 中設定授權標頭 – 完整指南：從 URL 載入 HTML](./set-authorization-header-in-java-complete-guide-to-load-html/)
+本完整指南說明如何在 Java 中設定授權標頭，以從 URL 載入 HTML，確保安全存取。
+### [在 Aspose.HTML for Java 中抓取 JSON JavaScript – 完整指南](./fetch-json-javascript-in-java-with-aspose-html-complete-guid/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

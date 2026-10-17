@@ -71,7 +71,7 @@ Aprenda a configurar la resolución DPI al generar imágenes PNG desde HTML usan
 ## Conversión de HTML a TIFF
 Convertir HTML a TIFF es perfecto para impresión de alta resolución o almacenamiento de archivo. Este tutorial describe los pasos exactos para generar archivos TIFF de manera eficiente usando Aspose.HTML for Java.
 
-Usar Aspose.HTML for Java simplifica la conversión de documentos HTML a varios formatos de imagen. Estos tutoriales le proporcionarán el conocimiento y las habilidades para lograrlo de manera eficiente y eficaz. Diga hola a un mundo de conversiones fáciles de HTML a formatos de imagen con Aspose.HTML for Java.
+Usar Aspose.HTML for Java simplifica la conversión de documentos HTML a varios formatos de imagen. Estos tutoriales le proporcionaràn el conocimiento y las habilidades para lograrlo de manera eficiente y eficaz. Diga hola a un mundo de conversiones fáciles de HTML a formatos de imagen con Aspose.HTML for Java.
 
 ## Casos de uso comunes y beneficios
 - **Generación automática de informes** – Incruste contenido web en vivo en informes PDF o Word como imágenes.  
@@ -174,6 +174,9 @@ Aprenda a establecer la relación de píxeles del dispositivo en Java usando Asp
 Aprenda a crear un banner HTML y renderizarlo a PNG usando Aspose.HTML for Java. Guía paso a paso completa.
 ### [Cómo establecer la relación de píxeles del dispositivo en Java – Renderizar HTML a PNG](./set-device-pixel-ratio-in-java-render-html-to-png/)
 Aprenda a establecer la relación de píxeles del dispositivo al renderizar HTML a PNG en Java con Aspose.HTML.
+### [Cómo usar Sandbox para capturar una captura de pantalla de página web](./how-to-use-sandbox-to-capture-webpage-screenshot/)
+### [Crear GIF a partir de SVG con Java – Guía completa paso a paso](./create-gif-from-svg-with-java-full-step-by-step-guide/)
+Aprenda a crear GIF a partir de archivos SVG en Java usando Aspose.HTML. Guía paso a paso completa.
 
 ## Preguntas frecuentes
 

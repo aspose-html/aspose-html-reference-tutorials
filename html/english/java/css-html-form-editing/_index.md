@@ -86,6 +86,8 @@ Learn how to retrieve computed CSS styles in Java using Aspose.HTML with a compl
 Learn how to retrieve computed CSS styles in Java using Aspose.HTML in this complete step-by-step guide.
 ### [How to Read CSS in Java – Extract Computed Styles Step‑by‑Step](./how-to-read-css-in-java-extract-computed-styles-step-by-step/)
 Learn how to read CSS and extract computed styles in Java using Aspose.HTML, with a clear step‑by‑step guide.
+### [Get element by id in Java – Full Guide to Retrieve Computed Styles](./get-element-by-id-in-java-full-guide-to-retrieve-computed-st/)
+Learn how to get an element by its ID and retrieve computed styles using Aspose.HTML for Java in this comprehensive guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

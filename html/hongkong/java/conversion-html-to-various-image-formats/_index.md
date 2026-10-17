@@ -90,6 +90,8 @@ weight: 24
 ### [如何從 SVG 建立 GIF – Java 步驟指南](./how-to-create-gif-from-svg-step-by-step-java-guide/)
 說明如何使用 Aspose.HTML for Java 將 SVG 轉換為 GIF，提供完整步驟與範例程式碼。
 
+### [使用 Java 從 SVG 建立 GIF – 完整步驟指南](./create-gif-from-svg-with-java-full-step-by-step-guide/)
+
 ### [將 HTML 轉換為 JPEG](./convert-html-to-jpeg/)
 學習使用 Aspose.HTML for Java 將 HTML 轉換為 JPEG。提供逐步指引，協助順利完成文件處理。
 
@@ -167,6 +169,8 @@ weight: 24
 ### [將 SVG 轉換為 WebP（Java 完整 Aspose HTML 指南）](./convert-svg-to-webp-in-java-complete-aspose-html-guide/)
 ### [在 Java 中設定裝置像素比率 – 完整指南](./set-device-pixel-ratio-in-java-complete-guide/)
 ### [建立 HTML 橫幅並渲染為 PNG – 完整 Java 指南](./create-html-banner-and-render-to-png-full-java-guide/)
+
+### [如何使用 Sandbox 捕獲網頁截圖](./how-to-use-sandbox-to-capture-webpage-screenshot/)
 
 ## 常見問題集
 

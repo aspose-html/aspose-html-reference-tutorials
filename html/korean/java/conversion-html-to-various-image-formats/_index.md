@@ -135,6 +135,9 @@ Aspose.HTML for Java를 사용해 HTML 배너를 생성하고 PNG 이미지로 �
 Aspose.HTML for Java를 사용해 HTML을 PNG로 변환하면서 DPI를 설정하는 방법을 단계별로 안내합니다.
 ### [Java에서 장치 픽셀 비율 설정 – HTML을 PNG로 렌더링](./set-device-pixel-ratio-in-java-render-html-to-png/)
 ### [Java에서 HTML 페이지를 PNG로 저장 – 완전한 튜토리얼](./save-html-page-as-png-in-java-complete-tutorial/)
+### [Java를 사용하여 SVG에서 GIF 만들기 – 전체 단계별 가이드](./create-gif-from-svg-with-java-full-step-by-step-guide/)
+Aspose.HTML for Java를 사용해 SVG를 GIF로 변환하는 방법을 단계별로 안내합니다.
+### [샌드박스를 사용하여 웹페이지 스크린샷 캡처하는 방법](./how-to-use-sandbox-to-capture-webpage-screenshot/)
 
 ### [Java에서 HTML을 PNG로 생성 – 전체 단계별 가이드](./create-png-from-html-in-java-full-step-by-step-guide/)
 Java에서 Aspose.HTML를 활용해 HTML을 PNG 파일로 변환하는 전체 과정을 단계별로 안내합니다.

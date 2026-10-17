@@ -116,6 +116,10 @@ Aprende a activar la ejecución de JavaScript durante la conversión de HTML a P
 ### [Conversión de HTML a MHTML](./convert-html-to-mhtml/)
 Convierte HTML a MHTML de forma sencilla con Aspose.HTML para Java. Sigue nuestra guía paso a paso para una conversión eficiente de HTML a MHTML.
 
+### [Crear PDF a partir de HTML en Java – Guía completa de Aspose](./create-pdf-from-html-in-java-complete-aspose-guide/)
+Aprende a generar PDFs a partir de HTML en Java usando Aspose.HTML con una guía paso a paso y ejemplos completos.
+### [Convertir HTML a MHTML con Aspose.HTML – Guía completa de Java](./convert-html-to-mhtml-with-aspose-html-complete-java-guide/)
+Aprende paso a paso a convertir HTML a MHTML usando Aspose.HTML en Java, con ejemplos y mejores prácticas.
 ### [Conversión de HTML a XPS](./convert-html-to-xps/)
 Aprende a convertir HTML a XPS de manera sencilla con Aspose.HTML para Java. Crea documentos multiplataforma con facilidad.
 
@@ -130,6 +134,8 @@ Aprende a transformar contenido HTML a Markdown en Java con Aspose.HTML mediante
 
 ### [Crear PDF desde Markdown – Guía rápida de Java](./create-pdf-from-markdown-quick-java-guide/)
 Genera rápidamente un PDF a partir de un archivo Markdown usando Aspose.HTML para Java en pocos pasos.
+### [Conversión de HTML a Markdown en Java](./how-to-use-aspose-to-convert-html-to-markdown-in-java/)
+Aprende a transformar contenido HTML a Markdown usando Aspose.HTML en Java con pasos claros y ejemplos.
 ### [Conversión de SVG a Imagen](./convert-svg-to-image/)
 Aprende a convertir SVG a imágenes en Java con Aspose.HTML. Guía completa para obtener resultados de alta calidad.
 

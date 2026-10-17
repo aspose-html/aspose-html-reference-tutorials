@@ -85,6 +85,8 @@ Pelajari cara mengambil gaya terhitung elemen HTML menggunakan Aspose.HTML untuk
 Pelajari cara mendapatkan computed style elemen HTML secara terprogram menggunakan Aspose.HTML untuk Java dalam panduan lengkap ini.
 ### [Cara Membaca CSS di Java – Ekstrak Gaya yang Dihitung Langkah demi Langkah](./how-to-read-css-in-java-extract-computed-styles-step-by-step/)
 Pelajari cara membaca CSS di Java dan mengekstrak gaya terhitung secara bertahap menggunakan Aspose.HTML.
+### [Dapatkan elemen berdasarkan id di Java – Panduan Lengkap untuk Mengambil Gaya Terhitung](./get-element-by-id-in-java-full-guide-to-retrieve-computed-st/)
+Pelajari cara mengambil elemen HTML berdasarkan id di Java serta mendapatkan gaya terhitungnya dengan contoh kode lengkap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

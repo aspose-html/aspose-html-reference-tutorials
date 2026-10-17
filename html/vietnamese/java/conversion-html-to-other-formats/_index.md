@@ -151,6 +151,10 @@ Hướng dẫn chi tiết cách chuyển đổi tài liệu HTML sang định d�
 
 ### [Chuyển đổi HTML sang MHTML](./convert-html-to-mhtml/)
 Chuyển đổi HTML sang MHTML một cách dễ dàng bằng Aspose.HTML for Java. Thực hiện theo hướng dẫn từng bước để chuyển đổi HTML‑to‑MHTML hiệu quả.
+
+### [Chuyển đổi HTML sang MHTML với Aspose.HTML – Hướng dẫn Java chi tiết](./convert-html-to-mhtml-with-aspose-html-complete-java-guide/)
+Hướng dẫn chi tiết cách chuyển đổi HTML sang MHTML trong Java bằng Aspose.HTML, bao gồm các tùy chọn cấu hình và ví dụ thực tế.
+
 ### [Chuyển đổi HTML sang XPS](./convert-html-to-xps/)
 Tìm hiểu cách chuyển đổi HTML sang XPS một cách dễ dàng bằng Aspose.HTML for Java. Tạo tài liệu đa nền tảng một cách nhanh chóng.
 ### [Chuyển đổi Markdown sang HTML](./convert-markdown-to-html/)
@@ -170,6 +174,9 @@ Hướng dẫn chi tiết cách chuyển đổi tệp HTML sang Markdown trong J
 
 ### [Tạo PDF từ Markdown – Hướng dẫn nhanh Java](./create-pdf-from-markdown-quick-java-guide/)
 Hướng dẫn nhanh cách chuyển đổi tệp Markdown thành PDF trong Java bằng Aspose.HTML.
+
+### [Cách sử dụng Aspose để chuyển đổi HTML sang Markdown trong Java](./how-to-use-aspose-to-convert-html-to-markdown-in-java/)
+Hướng dẫn chi tiết cách chuyển đổi HTML sang Markdown trong Java bằng Aspose.HTML, bao gồm các bước cấu hình và ví dụ thực tế.
 
 ### [Chuyển đổi SVG sang Hình ảnh](./convert-svg-to-image/)
 Tìm hiểu cách chuyển đổi SVG sang hình ảnh trong Java với Aspose.HTML. Hướng dẫn toàn diện để có đầu ra chất lượng cao.
@@ -245,6 +252,9 @@ Hướng dẫn tạo Fixed Thread Pool để thực hiện chuyển đổi HTML 
 ### [Tạo PDF từ HTML với Mobile Viewport – Hướng dẫn Java đầy đủ](./create-pdf-from-html-with-mobile-viewport-complete-java-guid/)
 
 ### [Chuyển đổi HTML sang PDF – Hướng dẫn đầy đủ lưu PDF vào Azure Blob](./convert-html-to-pdf-complete-guide-to-saving-pdf-to-azure-bl/)
+
+### [Tạo PDF từ HTML trong Java – Hướng dẫn đầy đủ Aspose](./create-pdf-from-html-in-java-complete-aspose-guide/)
+Hướng dẫn chi tiết tạo file PDF từ HTML trong Java bằng Aspose.HTML, bao gồm cấu hình và ví dụ thực tế.
 
 ## Câu hỏi thường gặp
 

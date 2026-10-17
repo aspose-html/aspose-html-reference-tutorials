@@ -104,6 +104,12 @@ Aspose.HTML का उपयोग करके Java में तेज़ी �
 केवल एक लाइन कोड से Aspose.HTML का उपयोग करके Java में HTML को PDF में बदलें। तेज़ और आसान प्रक्रिया।
 
 ### [HTML को MHTML में बदलना](./convert-html-to-mhtml/)
+### [Java में HTML से PDF बनाएं – पूर्ण Aspose गाइड](./create-pdf-from-html-in-java-complete-aspose-guide/)
+Aspose.HTML का उपयोग करके Java में HTML से PDF बनाने की पूरी प्रक्रिया सीखें। चरण‑दर‑चरण गाइड।
+
+### [Aspose.HTML के साथ HTML को MHTML में बदलें – पूर्ण Java गाइड](./convert-html-to-mhtml-with-aspose-html-complete-java-guide/)
+Aspose.HTML for Java का उपयोग करके HTML को MHTML में पूरी तरह से बदलने के चरण‑दर‑चरण गाइड।
+
 ### [HTML को XPS में बदलना](./convert-html-to-xps/)
 ### [Markdown को HTML में बदलना](./convert-markdown-to-html/)
 ### [Java में Markdown से PDF बनाएं – चरण‑दर‑चरण गाइड](./create-pdf-from-markdown-in-java-step-by-step-guide/)
@@ -218,6 +224,9 @@ Aspose.HTML for Java का उपयोग करके मोबाइल व�
 ### [Markdown से PDF बनाएं – तेज़ जावा गाइड](./create-pdf-from-markdown-quick-java-guide/)
 Aspose.HTML for Java का उपयोग करके Markdown को PDF में तेज़ी से बदलें। सरल चरण‑दर‑चरण गाइड।
 ### [SVG से PDF बनाएं – कस्टम पेज साइज के साथ Aspose.HTML (Java)](./create-pdf-from-svg-custom-page-size-with-aspose-html-java/)
+
+### [Java में Aspose का उपयोग करके HTML को Markdown में कैसे बदलें](./how-to-use-aspose-to-convert-html-to-markdown-in-java/)
+Java में Aspose.HTML का उपयोग करके HTML को Markdown में बदलने की प्रक्रिया सीखें। सरल चरण‑दर‑चरण गाइड।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

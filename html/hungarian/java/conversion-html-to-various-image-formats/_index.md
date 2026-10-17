@@ -141,6 +141,10 @@ Ismerje meg, hogyan renderelhet HTML‑t PNG‑be Java‑ban az Aspose.HTML seg�
 Ismerje meg, hogyan renderelhet hosszú HTML oldalakat PNG képként Java‑ban az Aspose.HTML segítségével, részletes lépésekkel.
 ### [Eszköz pixelarány beállítása Java‑ban – HTML renderelése PNG‑be](./set-device-pixel-ratio-in-java-render-html-to-png/)
 Ismerje meg, hogyan állíthatja be a device pixel ratio értékét Java‑ban az Aspose.HTML használatával a PNG képek minőségének optimalizálásához.
+### [Hogyan használja a Sandboxot weboldal képernyőképeinek rögzítéséhez](./how-to-use-sandbox-to-capture-webpage-screenshot/)
+Ismerje meg, hogyan készíthet képernyőképet weboldalakról a Sandbox környezetben az Aspose.HTML segítségével.
+### [GIF létrehozása SVG‑ből Java‑val – Teljes lépésről‑lépésre útmutató](./create-gif-from-svg-with-java-full-step-by-step-guide/)
+Ismerje meg, hogyan hozhat létre GIF képet SVG fájlból Java‑ban az Aspose.HTML segítségével. Részletes, lépésről‑lépésre útmutató.
 
 ### [HTML renderelése PNG-be – Teljes útmutató Java fejlesztőknek](./how-to-render-html-to-png-complete-guide-for-java-developers/)
 Ismerje meg, hogyan renderelhet HTML-t PNG képpé Java‑ban az Aspose.HTML segítségével, részletes, lépésről‑lépésre útmutatóval.

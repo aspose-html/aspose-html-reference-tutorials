@@ -54,6 +54,8 @@ Aspose.HTML for Java HTML दस्तावेज़ों को प्रब�
 Java 11 के HttpClient में प्रमाणितकर्ता का उपयोग करके सुरक्षित HTTP अनुरोध कैसे बनाएं, इस गाइड में सीखें।
 ### [Java में API फ़ेच कैसे करें – Aspose HTML V8 इंजन के साथ पूर्ण गाइड](./how-to-fetch-api-in-java-complete-guide-using-aspose-html-v8/)
 Aspose HTML V8 इंजन का उपयोग करके जावा में API फ़ेच करने की पूरी गाइड। चरण-दर-चरण उदाहरण और सर्वोत्तम अभ्यास।
+### [Java में ऑथराइज़ेशन हेडर सेट करें – URL से HTML लोड करने के लिए पूर्ण गाइड](./set-authorization-header-in-java-complete-guide-to-load-html/)
+### [Aspose HTML के साथ Java में JSON जावास्क्रिप्ट प्राप्त करें – पूर्ण गाइड](./fetch-json-javascript-in-java-with-aspose-html-complete-guid/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

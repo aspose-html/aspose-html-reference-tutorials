@@ -54,6 +54,9 @@ Bu adım adım kılavuzla Aspose.HTML for Java'yı kullanarak ZIP dosyalarınız
 Java 11 HttpClient ile kimlik doğrulama yaparak güvenli HTTP istekleri göndermeyi adım adım öğrenin.
 ### [Java'da API Çekme – Aspose HTML V8 Motoru Kullanarak Tam Kılavuz](./how-to-fetch-api-in-java-complete-guide-using-aspose-html-v8/)
 Java için Aspose.HTML V8 motoru ile API'leri nasıl çekeceğinizi adım adım öğrenin.
+### [Java için Aspose.HTML'de Yetkilendirme Başlığını Ayarlama – URL’den HTML Yükleme Tam Kılavuzu](./set-authorization-header-in-java-complete-guide-to-load-html/)
+Bu kapsamlı rehber, Java’da Aspose.HTML kullanarak URL’den HTML yüklerken yetkilendirme başlığını nasıl ayarlayacağınızı adım adım gösterir.
+### [Java’da Aspose HTML ile JSON JavaScript Getirme – Tam Kılavuz](./fetch-json-javascript-in-java-with-aspose-html-complete-guid/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
