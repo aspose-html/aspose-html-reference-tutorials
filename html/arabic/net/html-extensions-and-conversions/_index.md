@@ -45,6 +45,8 @@ url: /ar/net/html-extensions-and-conversions/
 دليل شامل لإنشاء PDF من عنوان URL باستخدام C# و Aspose.HTML
 ### [دليل تحويل HTML إلى PDF – تحويل HTML إلى PDF في C#](./html-to-pdf-tutorial-convert-html-to-pdf-in-c/)
 تعلم كيفية تحويل ملفات HTML إلى PDF باستخدام C# ومكتبة Aspose.HTML خطوة بخطوة.
+### [تحويل URL إلى PDF في C# – حل Aspose HTML بسطر واحد](./convert-url-to-pdf-in-c-one-line-aspose-html-solution/)
+تحويل عنوان URL إلى ملف PDF باستخدام سطر واحد من الكود مع Aspose.HTML في C# بسهولة.
 ### [إنشاء PDF من HTML – دليل خطوة بخطوة بلغة C#](./create-pdf-from-html-c-step-by-step-guide/)
 دليل خطوة بخطوة لإنشاء ملف PDF من HTML باستخدام C# ومكتبة Aspose.HTML.
 ### [إنشاء PDF من HTML باستخدام Aspose.HTML – دليل خطوة بخطوة](./create-pdf-from-html-with-aspose-html-step-by-step-guide/)

@@ -171,6 +171,8 @@ Pelajari cara menyimpan file HTML ke dalam arsip ZIP dengan penyimpanan kustom m
 
 ### [Cara Mengompres HTML menjadi Zip dengan Aspose.HTML – Panduan Lengkap](./how-to-zip-html-with-aspose-html-complete-guide/)
 Pelajari cara mengompres HTML menjadi arsip ZIP dengan Aspose.HTML dalam panduan lengkap.
+### [Konversi URL ke PDF dalam C# – Solusi Aspose HTML Satu Baris](./convert-url-to-pdf-in-c-one-line-aspose-html-solution/)
+Ubah URL menjadi PDF dalam satu baris kode menggunakan Aspose.HTML untuk .NET.
 
 ## Kesimpulan
 

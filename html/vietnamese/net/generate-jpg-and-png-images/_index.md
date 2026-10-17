@@ -95,6 +95,8 @@ Hướng dẫn chi tiết cách sử dụng Aspose.HTML cho .NET để chuyển 
 Hướng dẫn tạo tài liệu HTML bằng C# và kết xuất sang PNG với độ phân giải và chất lượng cao bằng Aspose.HTML.
 ### [Chuyển đổi HTML sang PNG – Hướng dẫn đầy đủ C# với xuất ZIP](./convert-html-to-png-full-c-guide-with-zip-export/)
 Hướng dẫn chi tiết cách chuyển đổi HTML thành PNG và xuất kết quả vào tệp ZIP bằng C#.
+### [Cách bật khử răng cưa – Kết xuất HTML sang PNG trong C#](./how-to-enable-antialiasing-render-html-to-png-in-c/)
+Hướng dẫn bật khử răng cưa khi kết xuất HTML thành PNG bằng C# để cải thiện chất lượng hình ảnh.
 
 ## Phần kết luận
 

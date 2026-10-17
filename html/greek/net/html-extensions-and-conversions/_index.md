@@ -154,6 +154,8 @@ url: /el/net/html-extensions-and-conversions/
 
 ### [Πώς να συμπιέσετε HTML με Aspose.HTML – Πλήρης Οδηγός](./how-to-zip-html-with-aspose-html-complete-guide/)
 Μάθετε πώς να δημιουργείτε αρχείο ZIP από HTML χρησιμοποιώντας το Aspose.HTML σε .NET – βήμα‑βήμα οδηγός.
+### [Μετατροπή URL σε PDF σε C# – Λύση Aspose HTML σε Μία Γραμμή](./convert-url-to-pdf-in-c-one-line-aspose-html-solution/)
+Μετατρέψτε ένα URL σε PDF με μία μόνο γραμμή κώδικα C# χρησιμοποιώντας το Aspose.HTML.
 
 ## Σύναψη
 

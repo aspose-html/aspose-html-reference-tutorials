@@ -66,6 +66,8 @@ Learn how to render HTML to PNG using Aspose.HTML for .NET in a complete C# guid
 Learn how to create an HTML document in C# and render it to PNG using bold and italic fonts with Aspose.HTML for .NET.
 ### [Create image from HTML in C# – Complete Step‑by‑Step Guide](./create-image-from-html-in-c-complete-step-by-step-guide/)
 Comprehensive step‑by‑step guide to generate images from HTML in C# using Aspose.HTML for .NET.
+### [Create HTML Document C# – Render HTML to PNG](./create-html-document-c-render-html-to-png/)
+Learn how to create an HTML document in C# and render it to PNG using Aspose.HTML for .NET with step‑by‑step code examples.
 ### [Render EPUB as XPS in .NET with Aspose.HTML](./render-epub-as-xps/)
 Learn how to create and render HTML documents with Aspose.HTML for .NET in this comprehensive tutorial. Dive into the world of HTML manipulation, web scraping, and more.
 ### [Rendering Timeout in .NET with Aspose.HTML](./rendering-timeout/)
@@ -95,6 +97,8 @@ Learn how to create an HTML document in C# and render it to PNG using Aspose.HTM
 Step‑by‑step guide to render HTML to images using C# and Aspose.HTML for .NET, covering setup, options, and best practices.
 ### [Render HTML to PNG in C# – Step‑by‑Step Guide](./render-html-to-png-in-c-step-by-step-guide/)
 Step‑by‑step guide to render HTML to PNG using C# and Aspose.HTML for .NET, covering setup, options, and best practices.
+### [How to Enable Antialiasing When Rendering HTML to PNG in C#](./how-to-enable-antialiasing-when-rendering-html-to-png-in-c/)
+Learn how to enable antialiasing for smoother PNG output when rendering HTML with Aspose.HTML for .NET in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

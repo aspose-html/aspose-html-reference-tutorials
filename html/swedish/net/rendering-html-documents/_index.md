@@ -101,6 +101,10 @@ Lär dig steg för steg hur du renderar HTML till PNG med C# och Aspose.HTML i d
 Lär dig hur du med Aspose.HTML för .NET konverterar HTML till bild i en komplett steg‑för‑steg‑guide.
 ### [Rendera HTML till PNG i C# – Steg‑för‑steg‑guide](./render-html-to-png-in-c-step-by-step-guide/)
 Lär dig hur du med Aspose.HTML för .NET konverterar HTML till PNG i en komplett steg‑för‑steg‑guide.
+### [Hur du aktiverar kantutjämning vid rendering av HTML till PNG i C#](./how-to-enable-antialiasing-when-rendering-html-to-png-in-c/)
+Lär dig hur du aktiverar kantutjämning för att förbättra bildkvaliteten när du renderar HTML till PNG med Aspose.HTML i C#.
+### [Skapa HTML-dokument C# – Rendera HTML till PNG](./create-html-document-c-render-html-to-png/)
+Lär dig hur du skapar ett HTML-dokument i C# och renderar det till PNG med Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

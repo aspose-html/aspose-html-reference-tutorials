@@ -80,6 +80,7 @@ Aspose.HTML for .NET を使用して、スタイル付きテキストを含む H
 ### [Aspose.HTML を使用して .NET で HTML を Markdown に変換する](./convert-html-to-markdown/)
 効率的なコンテンツ操作のために、Aspose.HTML を使用して、.NET で HTML を Markdown に変換する方法を学びます。シームレスな変換プロセスのためのステップバイステップのガイダンスを入手します。
 ### [Aspose.HTML を使用して .NET で HTML を MHTML に変換する](./convert-html-to-mhtml/)
+Aspose.HTML を使用して、.NET で HTML を MHTML に変換する - 効率的な Web コンテンツのアーカイブ化のためのステップバイステップ ガイド。Aspose.HTML for .NET を使用して MHTML アーカイブを作成する方法を学習します。
 ### [Aspose.HTML を使用して .NET で HTML を PNG に変換する](./convert-html-to-png/)
 Aspose.HTML for .NET を使用して HTML ドキュメントを操作および変換する方法を学びます。効果的な .NET 開発のためのステップバイステップ ガイドです。
 
@@ -168,6 +169,9 @@ Aspose.HTML for .NET を使用し、カスタムストレージに HTML を ZIP 
 
 ### [Aspose.HTML を使用して HTML を Zip に圧縮する – 完全ガイド](./how-to-zip-html-with-aspose-html-complete-guide/)
 Aspose.HTML を活用し、HTML コンテンツを Zip アーカイブにまとめる手順を完全に解説します。
+
+### [C# で URL を PDF に変換 – ワンライン Aspose HTML ソリューション](./convert-url-to-pdf-in-c-one-line-aspose-html-solution/)
+Aspose.HTML を使用して、C# で URL をワンラインコードで PDF に変換する方法をステップバイステップで解説します。
 
 ## 結論
 

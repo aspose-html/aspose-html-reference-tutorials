@@ -53,6 +53,8 @@ Apprenez à générer un PDF à partir d’une URL en C# avec Aspose.HTML, étap
 Apprenez à définir la taille de page PDF lors de la conversion de HTML en PDF avec Aspose.HTML en C#.
 ### [Tutoriel HTML vers PDF – Convertir HTML en PDF en C#](./html-to-pdf-tutorial-convert-html-to-pdf-in-c/)
 Convertissez facilement du HTML en PDF en C# avec Aspose.HTML. Suivez notre guide étape par étape.
+### [Convertir une URL en PDF en C# – Solution Aspose HTML en une ligne](./convert-url-to-pdf-in-c-one-line-aspose-html-solution/)
+Convertissez rapidement une page web en PDF en une seule ligne de code C# avec Aspose.HTML.
 ### [Créer un PDF à partir de HTML – Guide étape par étape en C#](./create-pdf-from-html-c-step-by-step-guide/)
 Apprenez à créer un PDF à partir de HTML en C# avec Aspose.HTML, guide complet pas à pas.
 ### [Créer un PDF à partir de HTML – Guide étape par étape pour les développeurs](./create-pdf-from-html-step-by-step-guide-for-developers/)

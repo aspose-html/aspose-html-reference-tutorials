@@ -57,6 +57,8 @@ Aspose.HTML для .NET предлагает простой метод прео�
 Подробное руководство по созданию PNG‑изображений из HTML‑кода с помощью Aspose.HTML для .NET.
 ### [Как включить сглаживание при конвертации DOCX в PNG/JPG](./how-to-enable-antialiasing-when-converting-docx-to-png-jpg/)
 Узнайте, как включить сглаживание при преобразовании DOCX в PNG или JPG с помощью Aspose.HTML для .NET.
+### [Как включить сглаживание – рендеринг HTML в PNG на C#](./how-to-enable-antialiasing-render-html-to-png-in-c/)
+Узнайте, как включить сглаживание при рендеринге HTML в PNG с помощью Aspose.HTML в C#.
 ### [Конвертация DOCX в PNG – создание ZIP-архива на C#](./convert-docx-to-png-create-zip-archive-c-tutorial/)
 Узнайте, как преобразовать файлы DOCX в PNG и упаковать их в ZIP-архив с помощью C# и Aspose.HTML.
 ### [Конвертация DOCX в PNG в C# – Полное пошаговое руководство](./convert-docx-to-png-in-c-full-step-by-step-guide/)

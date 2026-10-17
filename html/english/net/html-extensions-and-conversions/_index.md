@@ -68,6 +68,8 @@ Comprehensive guide to generate PDFs from HTML using Aspose.HTML for .NET, cover
 Learn how to generate high‑quality PDFs from HTML in C# using Aspose.HTML with antialiasing for crisp rendering.
 ### [Create PDF from HTML with Aspose – Step‑by‑Step C# Guide](./create-pdf-from-html-with-aspose-step-by-step-c-guide/)
 Learn how to generate PDFs from HTML using Aspose.HTML for .NET with a detailed C# step‑by‑step guide.
+### [Convert URL to PDF in C# – One‑Line Aspose HTML Solution](./convert-url-to-pdf-in-c-one-line-aspose-html-solution/)
+Convert a web URL directly to PDF in a single line of C# code using Aspose.HTML for .NET.
 ### [Convert EPUB to Image in .NET with Aspose.HTML](./convert-epub-to-image/)
 Learn how to convert EPUB to images using Aspose.HTML for .NET. Step‑by‑step tutorial with code examples and customizable options.
 ### [Convert EPUB to PDF in .NET with Aspose.HTML](./convert-epub-to-pdf/)

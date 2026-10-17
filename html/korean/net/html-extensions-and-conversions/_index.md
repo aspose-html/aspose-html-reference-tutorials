@@ -51,6 +51,8 @@ Aspose.HTML for .NET을 사용해 C#에서 PDF 페이지 크기를 지정하고 
 C#에서 Aspose.HTML을 사용해 HTML을 PDF로 변환하는 단계별 가이드입니다.
 ### [Aspose를 사용해 HTML에서 PDF 만들기 – 단계별 C# 가이드](./create-pdf-from-html-with-aspose-step-by-step-c-guide/)
 Aspose.HTML for .NET을 활용해 C#에서 HTML을 PDF로 변환하는 단계별 가이드입니다.
+### [C#에서 URL을 PDF로 변환 – 한 줄 Aspose HTML 솔루션](./convert-url-to-pdf-in-c-one-line-aspose-html-solution/)
+Aspose.HTML을 사용해 C#에서 URL을 한 줄 코드로 PDF로 변환하는 방법을 단계별로 안내합니다.
 ### [HTML에서 PDF 만들기 – C# 단계별 가이드](./create-pdf-from-html-c-step-by-step-guide/)
 Aspose.HTML for .NET을 사용하여 C#에서 HTML을 PDF로 변환하는 단계별 가이드입니다.
 ### [C#에서 Aspose HTML을 사용해 PDF로 변환 – ZIP 아카이브 포함 전체 가이드](./aspose-html-to-pdf-in-c-complete-guide-with-zip-archive/)

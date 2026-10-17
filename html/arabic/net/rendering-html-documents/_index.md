@@ -64,6 +64,8 @@ url: /ar/net/rendering-html-documents/
 
 ### [إنشاء مستند HTML C# – تحويل إلى PNG بخط عريض مائل](./create-html-document-c-render-to-png-with-bold-italic-font/)
 تعلم كيفية إنشاء مستند HTML في C# وعرضه كصورة PNG باستخدام خطوط عريضة ومائلة.
+### [إنشاء مستند HTML C# – تحويل HTML إلى PNG](./create-html-document-c-render-html-to-png/)
+تعلم كيفية إنشاء مستند HTML باستخدام C# وتحويله إلى صورة PNG باستخدام Aspose.HTML.
 
 ### [عرض EPUB بتنسيق XPS في .NET باستخدام Aspose.HTML](./render-epub-as-xps/)
 تعرف على كيفية إنشاء مستندات HTML وعرضها باستخدام Aspose.HTML لـ .NET في هذا البرنامج التعليمي الشامل. انغمس في عالم معالجة HTML وكشط الويب والمزيد.
@@ -109,6 +111,9 @@ url: /ar/net/rendering-html-documents/
 
 ### [تحويل HTML إلى PNG في C# – دليل خطوة بخطوة](./render-html-to-png-in-c-step-by-step-guide/)
 تعلم كيفية تحويل مستندات HTML إلى صور PNG باستخدام Aspose.HTML في C# خطوة بخطوة.
+
+### [كيفية تمكين التنعيم عند تحويل HTML إلى PNG في C#](./how-to-enable-antialiasing-when-rendering-html-to-png-in-c/)
+تعلم كيفية تمكين خاصية التنعيم لتحسين جودة الصور عند تحويل مستندات HTML إلى PNG باستخدام Aspose.HTML وC#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

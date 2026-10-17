@@ -155,6 +155,8 @@ Leer hoe u HTML-inhoud omzet naar een string in C# met Aspose.HTML in deze volle
 Leer hoe u een HTML-archief maakt vanuit een DOCX-bestand met Aspose.HTML voor .NET. Volg de stapsgewijze handleiding.
 ### [PDF maken van HTML met Aspose – Stapsgewijze C#‑gids](./create-pdf-from-html-with-aspose-step-by-step-c-guide/)
 Leer hoe u PDF's genereert vanuit HTML met Aspose.HTML voor .NET met een duidelijke C# stap‑voor‑stap handleiding.
+### [URL naar PDF converteren in C# – Eén‑regelige Aspose HTML-oplossing](./convert-url-to-pdf-in-c-one-line-aspose-html-solution/)
+Converteer een URL naar PDF met één regel code via Aspose.HTML voor .NET in C#.
 
 ## Conclusie
 

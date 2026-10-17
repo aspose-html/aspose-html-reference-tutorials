@@ -135,6 +135,8 @@ Ismerje meg, hogyan hozhat létre egy egyéni erőforráskezelőt C#‑ban, amel
 Részletes, lépésről‑lépésre útmutató a HTML zip‑eléshez C#‑ban az Aspose.HTML for .NET‑el.
 ### [HTML konvertálása sztringgé C#-ban az Aspose.HTML segítségével – Teljes útmutató](./convert-html-to-string-in-c-with-aspose-html-complete-guide/)
 Ismerje meg, hogyan konvertálhatja a HTML-t sztringgé C#-ban az Aspose.HTML könyvtárral, részletes lépésekkel és példákkal.
+### [URL konvertálása PDF-be C#‑ban – Egy‑soros Aspose HTML megoldás](./convert-url-to-pdf-in-c-one-line-aspose-html-solution/)
+Egyetlen sor kóddal konvertálja az URL-t PDF-be C#‑ban az Aspose.HTML segítségével.
 
 ## Következtetés
 

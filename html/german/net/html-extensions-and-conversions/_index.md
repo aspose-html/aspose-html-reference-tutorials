@@ -59,6 +59,9 @@ Lernen Sie, wie Sie mit Aspose.HTML für .NET die Seitengröße von PDF‑Dokume
 
 ### [PDF aus HTML erstellen – Vollständige C#‑Anleitung mit Kantenglättung](./create-pdf-from-html-full-c-guide-with-antialiasing/)
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET PDFs aus HTML erzeugen und dabei Antialiasing für scharfe Ausgabe nutzen.
+### [URL zu PDF konvertieren in C# – Einzeilige Aspose HTML‑Lösung](./convert-url-to-pdf-in-c-one-line-aspose-html-solution/)
+Konvertieren Sie eine URL mit nur einer Code‑Zeile in PDF mithilfe von Aspose.HTML für .NET.
+
 ### [Konvertieren Sie EPUB in .NET mit Aspose.HTML in ein Bild](./convert-epub-to-image/)
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET EPUB in Bilder konvertieren. Schritt‑für‑Schritt‑Anleitung mit Codebeispielen und anpassbaren Optionen.
 ### [Konvertieren Sie EPUB in .NET mit Aspose.HTML in PDF](./convert-epub-to-pdf/)

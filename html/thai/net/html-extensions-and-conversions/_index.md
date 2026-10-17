@@ -155,6 +155,8 @@ Aspose.HTML สำหรับ .NET ไม่ใช่แค่ไลบรา�
 บันทึก HTML เป็นไฟล์ ZIP ด้วย C# พร้อมการจัดเก็บแบบกำหนดเองอย่างละเอียด
 ### [วิธีบีบอัด HTML เป็น Zip ด้วย Aspose.HTML – คู่มือเต็ม](./how-to-zip-html-with-aspose-html-complete-guide/)
 เรียนรู้วิธีบีบอัดไฟล์ HTML เป็น Zip อย่างละเอียดด้วย Aspose.HTML สำหรับ .NET พร้อมขั้นตอนและตัวอย่างโค้ดครบถ้วน
+### [แปลง URL เป็น PDF ใน C# – โซลูชัน Aspose HTML บรรทัดเดียว](./convert-url-to-pdf-in-c-one-line-aspose-html-solution/)
+เรียนรู้วิธีแปลง URL เป็นไฟล์ PDF ด้วย Aspose.HTML ใน C# เพียงบรรทัดเดียวตามขั้นตอนง่าย ๆ
 
 ## บทสรุป
 

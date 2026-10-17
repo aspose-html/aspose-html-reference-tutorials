@@ -95,6 +95,8 @@ C# kullanarak HTML içeriğini PNG formatına dönüştürmeyi adım adım öğr
 C# kullanarak HTML belgesi oluşturup, yüksek kaliteli PNG çıktısı elde etmeyi adım adım öğrenin.
 ### [HTML'yi PNG'ye Dönüştür – ZIP Dışa Aktarımlı Tam C# Kılavuzu](./convert-html-to-png-full-c-guide-with-zip-export/)
 HTML dosyalarını PNG formatına dönüştürüp, sonuçları ZIP arşivi olarak dışa aktarmayı adım adım gösteren kapsamlı C# rehberi.
+### [Antialiasing'i Etkinleştirerek C# ile HTML'yi PNG'ye Render Etme](./how-to-enable-antialiasing-render-html-to-png-in-c/)
+C# kullanarak HTML içeriğini PNG formatına dönüştürürken antialiasing'i nasıl etkinleştireceğinizi öğrenin.
 
 ## Çözüm
 
