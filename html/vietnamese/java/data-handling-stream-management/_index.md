@@ -26,6 +26,8 @@ Trước hết, chúng ta hãy nói về luồng bộ nhớ là gì. Hãy hình 
 ## Xử lý dữ liệu và quản lý luồng trong Aspose.HTML cho Java
 ### [Chuyển đổi Memory Stream thành File bằng Aspose.HTML cho Java](./memory-stream-to-file/)
 Chuyển đổi HTML sang JPEG bằng Aspose.HTML cho Java sử dụng luồng bộ nhớ. Thực hiện theo hướng dẫn từng bước này để chuyển đổi HTML sang hình ảnh liền mạch.
+### [Java Fixed Thread Pool: Đếm hình ảnh trong các tệp song song](./java-fixed-thread-pool-count-images-in-parallel-files/)
+Sử dụng Java Fixed Thread Pool để đếm số lượng hình ảnh trong nhiều tệp HTML đồng thời, tăng hiệu suất xử lý.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

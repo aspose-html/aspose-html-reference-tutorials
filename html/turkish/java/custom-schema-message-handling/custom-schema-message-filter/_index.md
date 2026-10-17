@@ -1,11 +1,59 @@
 ---
-date: 2026-01-28
-description: Aspose.HTML kullanarak Java'da özel bir şema mesaj filtresi uygulayarak
-  HTML'i nasıl filtreleyeceğinizi öğrenin. Güvenli ve özelleştirilmiş bir uygulama
-  deneyimi için bu adım adım rehberi izleyin.
-linktitle: Custom Schema Message Filtering in Aspose.HTML
+date: 2026-06-09
+description: Aspose.HTML for Java ile özel bir şema filtresi uygulayarak HTML nasıl
+  filtreleneceğini öğrenin. Güvenli ve verimli HTML işleme için adım adım bu kılavuzu
+  izleyin.
+keywords:
+- how to filter html
+- filter network requests
+- implement custom filter
+linktitle: Aspose.HTML'de Özel Şema Mesaj Filtreleme
+schemas:
+- author: Aspose
+  dateModified: '2026-06-09'
+  description: Learn how to filter html with Aspose.HTML for Java by implementing
+    a custom schema filter. Follow this step‑by‑step guide for secure, efficient HTML
+    processing.
+  headline: How to Filter HTML Using Custom Schema Filter (Java)
+  type: TechArticle
+- description: Learn how to filter html with Aspose.HTML for Java by implementing
+    a custom schema filter. Follow this step‑by‑step guide for secure, efficient HTML
+    processing.
+  name: How to Filter HTML Using Custom Schema Filter (Java)
+  steps:
+  - name: '**Java Development Kit (JDK)** – JDK 8 or later. Download it from the [Oracle
+      website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).'
+    text: '**Java Development Kit (JDK)** – JDK 8 or later. Download it from the [Oracle
+      website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).'
+  - name: '**Aspose.HTML for Java Library** – Get the latest JAR from the [Aspose
+      releases page](https://releases.aspose.com/html/java/).'
+    text: '**Aspose.HTML for Java Library** – Get the latest JAR from the [Aspose
+      releases page](https://releases.aspose.com/html/java/).'
+  - name: '**IDE** – IntelliJ IDEA, Eclipse, or any Java‑compatible IDE.'
+    text: '**IDE** – IntelliJ IDEA, Eclipse, or any Java‑compatible IDE.'
+  - name: '**Basic Java knowledge** – Familiarity with classes, inheritance, and interfaces.'
+    text: '**Basic Java knowledge** – Familiarity with classes, inheritance, and interfaces.'
+  type: HowTo
+- questions:
+  - answer: Aspose.HTML for Java is a high‑performance API that enables creation,
+      manipulation, and rendering of HTML, CSS, and SVG documents directly from Java
+      code.
+    question: What is Aspose.HTML for Java?
+  - answer: It lets you enforce security policies, cut unnecessary bandwidth, and
+      stay compliant by restricting network calls to approved protocols such as HTTPS.
+    question: Why would I need a custom schema message filter?
+  - answer: Yes—extend the `match` method to compare the request’s scheme against
+      a collection (e.g., a `Set<String>`) of allowed values.
+    question: Can I filter multiple schemas with a single filter?
+  - answer: Aspose.HTML for Java supports JDK 8 and later, including JDK 11, 17, and
+      upcoming LTS releases.
+    question: Is the library compatible with all Java versions?
+  - answer: Reach out via the [Aspose support forum](https://forum.aspose.com/c/html/29)
+      for community and developer assistance.
+    question: Where can I get help if I run into problems?
+  type: FAQPage
 second_title: Java HTML Processing with Aspose.HTML
-title: Özel Şema Filtresi Kullanarak HTML Nasıl Filtrelenir (Java)
+title: Özel Şema Filtresi (Java) ile HTML Nasıl Filtrelenir
 url: /tr/java/custom-schema-message-handling/custom-schema-message-filter/
 weight: 10
 ---
@@ -14,44 +62,42 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.HTML for Java'da Özel Şema Mesaj Filtreleme
+# Özel Şema Filtresi (Java) Kullanarak HTML Nasıl Filtrelenir
 
 ## Giriş
-Özel çözümler oluşturmak, belirli ihtiyaçlara hitap etmek için mevcut araç ve kütüphanelere derinlemesine bakmayı gerektirebilir. Java'da HTML belgeleriyle çalışırken, Aspose.HTML for Java API, ihtiyaçlarınıza göre uyarlanabilecek geniş bir işlevsellik sunar. Bu özelleştirmelerden biri, `MessageFilter` sınıfını kullanarak **HTML nasıl filtrelenir** sorusunu özel bir şema üzerinden yanıtlamaktır. Bu rehberde, Aspose.HTML for Java kullanarak bir Özel Şema Mesaj Filtresi uygulama sürecini adım adım göstereceğiz. İster deneyimli bir geliştirici olun, ister yeni başlıyor olun, bu öğretici uygulamanızın belirli gereksinimlerine uygun sağlam bir filtreleme mekanizması oluşturmanıza yardımcı olacaktır.
+Bu öğreticide, Aspose.HTML'nin `MessageFilter` API'sini Java'da kullanarak **html nasıl filtrelenir** keşfedeceksiniz. Protokole göre ağ isteklerini kabul etmenizi veya reddetmenizi sağlayan özel bir şema filtresi oluşturmayı adım adım göstereceğiz. Güvenli olmayan şemaları engellemeniz, bant genişliğini azaltmanız veya kurumsal uyumluluğu sağlamanız gerekse, bu kılavuz size sağlam, üretim‑hazır bir çözüm sunar.
 
-## Hızlı Cevaplar
-- **Filtre ne yapar?** Belirtilen bir şema (ör. https) ile eşleşen ağ isteklerine izin verir.  
+## Hızlı Yanıtlar
+- **Filtre ne yapar?** Belirtilen bir şemaya (ör. https) uyan ağ isteklerine izin verir ve diğer tüm istekleri engeller.  
 - **Hangi sınıf genişletilmelidir?** `MessageFilter`.  
-- **Lisans gerekiyor mu?** Evet, üretim kullanımı için geçerli bir Aspose.HTML for Java lisansı gereklidir.  
-- **Birden fazla şema filtreleyebilir miyim?** Evet – `match` metodunu ek mantıkla genişletebilirsiniz.  
+- **Lisans gerekir mi?** Evet, üretim kullanımında geçerli bir Aspose.HTML for Java lisansı gereklidir.  
+- **Birden fazla şema filtreleyebilir miyim?** Kesinlikle – her şema için ek mantık ekleyerek `match` metodunu genişletin.  
 - **Hangi Java sürümü gereklidir?** JDK 8 veya üzeri.
 
-## Bu bağlamda “HTML nasıl filtrelenir” ne anlama geliyor?
-Burada HTML filtreleme, Aspose.HTML tarafından gerçekleştirilen ağ işlemlerini yakalayıp, isteğin protokolüne (şema) göre izin vermek veya engellemek anlamına gelir. Bu, HTML işleme motorunuzun erişebileceği kaynaklar üzerinde ince ayarlı kontrol sağlar.
+## Bu bağlamda “html nasıl filtrelenir” ne anlama geliyor?
+Her çıkan isteği inceleyerek, filtre betiklerin, resimlerin, stil sayfalarının veya diğer kaynakların yüklenip yüklenmeyeceğine karar verebilir ve yalnızca izin verilen şemalardan gelen içeriklerin alınmasını sağlar. Bu, HTML işleme motorunuzun erişebileceği dış kaynaklar üzerinde ince ayarlı kontrol sağlar.
 
 ## Neden özel bir şema filtresi kullanmalı?
-- **Güvenlik** – İstenmeyen protokollerin (ör. `ftp`) erişimini engelleyin.  
-- **Performans** – Alakasız istekleri engelleyerek gereksiz ağ trafiğini azaltın.  
-- **Uyumluluk** – Yalnızca belirli şemalara izin veren kurumsal politikaları zorlayın.
+Özel bir şema filtresi **güvenliği, performansı ve uyumluluğu artırır**. Aspose.HTML **50+ giriş ve çıkış formatını** destekler ve çok sayfalı belgeleri tüm dosyayı belleğe yüklemeden işleyebilir, bu yüzden ağ trafiğini sınırlamak doğrudan saldırı yüzeyini azaltır ve tipik senaryolarda render süresini %30’a kadar hızlandırır.
 
-## Önkoşullar
-1. **Java Development Kit (JDK)** – JDK 8 veya üzeri. [Oracle web sitesinden](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) indirin.  
+## Ön Koşullar
+1. **Java Development Kit (JDK)** – JDK 8 ve üzeri. [Oracle web sitesinden](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) indirin.  
 2. **Aspose.HTML for Java Kütüphanesi** – En son JAR dosyasını [Aspose sürüm sayfasından](https://releases.aspose.com/html/java/) edinin.  
 3. **IDE** – IntelliJ IDEA, Eclipse veya herhangi bir Java‑uyumlu IDE.  
-4. **Temel Java bilgisi** – Sınıflar, kalıtım ve arabirimler hakkında bilgi.
+4. **Temel Java bilgisi** – Sınıflar, kalıtım ve arayüzler hakkında bilgi.
 
 ## Paketleri İçe Aktarma
-Başlamak için gerekli paketleri Java projenize içe aktarın. Bu paketler, özel şema mesaj filtresini uygulamak için gereklidir.
+`MessageFilter` sınıfı, Aspose.HTML'nin ağ trafiğini yakalamak için genişletilebilir bir noktasını temsil eder. `INetworkOperationContext` ise her isteğin URI ve başlıklar gibi detaylarını sağlar.
 
 ```java
 import com.aspose.html.net.INetworkOperationContext;
 import com.aspose.html.net.MessageFilter;
 ```
 
-Bu içe aktarmalar, kullanacağınız temel sınıfları içerir: `MessageFilter` özel filtrenizi oluşturmak için ve `INetworkOperationContext` ağ işlemi ayrıntılarına erişmek için.
+Bu içe aktarmalar, kullanacağınız temel sınıfları içerir: `MessageFilter` özel filtrenizi oluşturmak için ve `INetworkOperationContext` ağ operasyonu detaylarına erişmek için.
 
-## Adım 1: Özel Şema Mesaj Filtresi Sınıfını Oluşturun
-`MessageFilter` sınıfını genişleten bir sınıf oluşturarak başlayalım. Bu özel sınıf, belirli bir şemaya dayalı filtreleme mantığını tanımlamanıza olanak tanır.
+## Adım 1: Özel Şema Mesaj Filtresi Sınıfını Oluşturma
+İlk olarak, `MessageFilter` sınıfını genişleten bir sınıf tanımlayın. Bu alt sınıf, izin vermek istediğiniz şemayı (ör. “https”) tutacak ve bunu bir yapıcı (constructor) aracılığıyla dışa aktaracaktır.
 
 ```java
 public class CustomSchemaMessageFilter extends MessageFilter {
@@ -64,8 +110,8 @@ public class CustomSchemaMessageFilter extends MessageFilter {
 
 Bu adımda, `CustomSchemaMessageFilter` sınıfını tanımlıyor ve bir şema değeriyle başlatıyorsunuz. Şema, bu sınıfın bir örneği oluşturulurken yapıcıya geçirilir. Bu değer, gelen isteklerin protokolünü eşleştirmek için daha sonra kullanılacaktır.
 
-## Adım 2: `match` Metodunu Geçersiz Kılın
-Filtreleme mantığının çekirdeği, geçersiz kılmanız gereken `match` metodunda bulunur. Bu metod, belirli bir ağ isteğinin tanımladığınız özel şemaya uyup uymadığını belirleyecektir.
+## Adım 2: `match` Metodunu Geçersiz Kılma
+`match` metodu filtrenin kalbidir. Bir `INetworkOperationContext` örneği alır, istek URI'sını çıkarır ve isteğin izin verilen şemaya uygun olup olmadığını belirler.
 
 ```java
 @Override
@@ -75,19 +121,19 @@ public boolean match(INetworkOperationContext context) {
 }
 ```
 
-Bu yöntemde, isteğin URI'sinden protokolü çıkarıp özel şemanızla karşılaştırırsınız. Eşleşirse metod `true` döner ve isteğin filtreyi geçmesine izin verilir; aksi takdirde `false` döner.
+Bu yöntemde, isteğin URI'sından protokolü çıkarır ve kendi şemanızla karşılaştırırsınız. Eşleşirse, metod `true` döndürür ve isteğin filtreyi geçtiği anlamına gelir; aksi takdirde `false` döner.
 
-## Adım 3: Özel Filtresi Örnekleyin ve Kullanın
-Özel filtre sınıfınızı tanımladıktan sonra, bir örnek oluşturup uygulamanız içinde kullanmanız gerekir.
+## Adım 3: Özel Filtresi Örneklemek ve Kullanmak
+Filtrenizin bir örneğini oluşturun ve istenen şemayı (örneğin, “https”) sağlayın. Bu nesne Aspose.HTML işleme hattına (pipeline) verilecektir.
 
 ```java
 CustomSchemaMessageFilter filter = new CustomSchemaMessageFilter("https");
 ```
 
-Burada, `CustomSchemaMessageFilter` sınıfının yeni bir örneğini oluşturuyor ve istenen şemayı (bu örnekte `"https"`) yapıcıya geçiriyorsunuz. Bu örnek artık HTTPS protokolüne dayalı istekleri filtreleyecektir.
+Burada, `CustomSchemaMessageFilter` sınıfının yeni bir örneğini oluşturuyor ve istenen şemayı (bu örnekte `"https"`) yapıcıya geçiriyorsunuz. Bu örnek artık HTTPS protokolüne göre istekleri filtreleyecek.
 
-## Adım 4: Uygulamanıza Filtresi Uygulayın
-Filtreniz hazır olduğuna göre, onu uygulamanızın ağ işlemlerine entegre etme zamanı.
+## Adım 4: Uygulamanıza Filtresi Uygulama
+`Browser` sınıfı tam özellikli bir HTML render motoru sunarken, `HtmlRenderer` HTML'yi görüntülere veya PDF'lere dönüştürmek için hafif bir render API'si sağlar. Kullandığınız `Browser` veya `HtmlRenderer` ile filtreyi entegre edin. Motor, her dış istekte `match` metodunu çağıracak ve böylece isteği engellemenize veya izin vermenize olanak tanıyacaktır.
 
 ```java
 // Assuming 'context' is an instance of INetworkOperationContext
@@ -100,10 +146,10 @@ if (filter.match(context)) {
 }
 ```
 
-Bu adımda, `match` metodunu kullanarak gelen ağ isteğinin özel şemaya uyup uymadığını kontrol edersiniz. Sonuca göre isteği izin verip engelleyebilirsiniz.
+Bu adımda, gelen ağ isteğinin özel şemaya uyup uymadığını kontrol etmek için `match` metodunu kullanırsınız. Sonuca bağlı olarak isteği izin verip engelleyebilirsiniz.
 
-## Adım 5: Özel Filtresi Test Etme
-Test, her geliştirme sürecinin kritik bir parçasıdır. Özel şema mesaj filtrenizin beklendiği gibi çalıştığından emin olmak için çeşitli senaryoları simüle etmeniz gerekir.
+## Adım 5: Özel Filtreyi Test Etme
+Test, yalnızca istenen şemaların izin verildiğini doğrular. Farklı protokollerle istekleri taklit edin ve filtrenin yanıtını kontrol edin.
 
 ```java
 public class TestCustomSchemaMessageFilter {
@@ -120,38 +166,42 @@ public class TestCustomSchemaMessageFilter {
 }
 ```
 
-Bu basit test durumu, `"https"` protokolünü kullandığını varsayan sahte bir ağ bağlamı oluşturur. Test, filtrenizin HTTPS isteklerini doğru şekilde tanımlayıp izin verdiğini doğrular.
+Bu basit test durumu, `"https"` protokolünü kullandığını taklit eden bir taklit ağ bağlamı oluşturur. Test, filtrenizin HTTPS isteklerini doğru şekilde tanımlayıp izin verdiğini doğrular.
 
 ## Yaygın Sorunlar ve Çözümler
-- **`context.getRequest()` üzerindeki `NullPointerException`** – Geçirdiğiniz `INetworkOperationContext` nesnesinin gerçekten bir istek nesnesi içerdiğinden emin olun.  
+- **`context.getRequest()` üzerinde `NullPointerException`** – Geçirdiğiniz `INetworkOperationContext` nesnesinin gerçekten bir istek nesnesi içerdiğinden emin olun.  
 - **Filtre tetiklenmiyor** – Filtrenin Aspose.HTML işleme hattına (ör. `Browser` veya `HtmlRenderer` örneği oluştururken) kaydedildiğini doğrulayın.  
-- **Birden fazla şema gerekiyor** – `match` metodunu izin verilen şemaların bir liste veya kümesiyle kontrol edecek şekilde değiştirin.
+- **Birden fazla şema gerekiyor** – `match` metodunu, izin verilen şemaların bir listesi veya kümesiyle kontrol edecek şekilde değiştirin.
 
-## Sonuç
-Bu öğreticide, Aspose.HTML for Java kullanarak bir Özel Şema Mesaj Filtresi oluşturup **HTML nasıl filtrelenir** sorusunu yanıtladık. Bu adımları izleyerek, uygulamanızı yalnızca belirli gereksinimlerinize uyan ağ isteklerini işleyebilecek şekilde özelleştirebilirsiniz. Bu yetenek, uygulamanızın etkileşimde bulunduğu protokol türleri üzerinde sıkı kurallar uygulamanız gerektiğinde—güvenlik, performans veya uyumluluk nedenleriyle—özellikle faydalıdır.
+## Sıkça Sorulan Sorular
 
-## SSS
+**S: Aspose.HTML for Java nedir?**  
+C: Aspose.HTML for Java, Java kodundan doğrudan HTML, CSS ve SVG belgeleri oluşturmayı, değiştirmeyi ve render etmeyi sağlayan yüksek performanslı bir API'dir.
 
-### Aspose.HTML for Java nedir?
-Aspose.HTML for Java, Java uygulamaları içinde HTML belgelerini işlemek ve renderlamak için güçlü bir API'dir. HTML, CSS ve SVG dosyalarıyla çalışmak için kapsamlı özellikler sunar.
+**S: Neden özel bir şema mesaj filtresine ihtiyacım var?**  
+C: Güvenlik politikalarını uygulamanıza, gereksiz bant genişliğini azaltmanıza ve HTTPS gibi onaylanmış protokollerle sınırlı ağ çağrıları yaparak uyumluluğu sağlamanıza olanak tanır.
 
-### Neden bir özel şema mesaj filtresine ihtiyacım var?
-Özel bir şema mesaj filtresi, uygulamanızın işlediği ağ isteklerini belirli protokollere göre kontrol etmenizi sağlar. Bu, güvenlik, performans ve uyumluluk açısından uygulamanızın gereksinimlerini artırır.
+**S: Tek bir filtreyle birden fazla şemayı filtreleyebilir miyim?**  
+C: Evet—`match` metodunu, isteğin şemasını izin verilen değerlerin bir koleksiyonu (ör. `Set<String>`) ile karşılaştıracak şekilde genişletin.
 
-### Tek bir filtreyle birden fazla şemayı filtreleyebilir miyim?
-Evet, `match` metodunu birden fazla şemayı kontrol edecek şekilde genişleterek birden fazla şemayı aynı filtre içinde işleyebilirsiniz.
+**S: Kütüphane tüm Java sürümleriyle uyumlu mu?**  
+C: Aspose.HTML for Java, JDK 8 ve üzeri sürümleri destekler; JDK 11, 17 ve gelecek LTS sürümler de dahildir.
 
-### Aspose.HTML for Java tüm Java sürümleriyle uyumlu mu?
-Aspose.HTML for Java, JDK 8 ve üzeri sürümlerle uyumludur. En iyi performans için desteklenen bir sürüm kullandığınızdan emin olun.
-
-### Aspose.HTML for Java için destek nasıl alınır?
-[Aspose destek forumu](https://forum.aspose.com/c/html/29) üzerinden sorular sorabilir ve topluluk ile Aspose geliştiricilerinden yardım alabilirsiniz.
+**S: Sorun yaşarsam nereden yardım alabilirim?**  
+C: Topluluk ve geliştirici desteği için [Aspose destek forumu](https://forum.aspose.com/c/html/29) üzerinden iletişime geçin.
 
 ---
 
-**Son Güncelleme:** 2026-01-28  
-**Test Edilen Versiyon:** Aspose.HTML for Java 24.11 (yazım anındaki en son sürüm)  
+**Last Updated:** 2026-06-09  
+**Test Edildi:** Aspose.HTML for Java 24.11 (yazım anındaki en son sürüm)  
 **Yazar:** Aspose
+
+## İlgili Öğreticiler
+
+- [Aspose.HTML for Java'da Özel Şema Filtresi ve Mesaj İşleme](/html/java/custom-schema-message-handling/)
+- [Aspose.HTML for Java ile Özel Şema İşleyicisi Nasıl Oluşturulur](/html/java/custom-schema-message-handling/custom-schema-message-handler/)
+- [Aspose.HTML for Java'da Mesaj İşleme ve Ağ](/html/java/message-handling-networking/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,0 +1,7 @@
+Title: How to Add Prefix to HTML Headings with Python – Step‑by‑Step Guide
+Slug: how-to-add-prefix-to-html-headings-with-python-step-by-step
+Category: general
+ProcessedDate: 2026-06-07T11:55:26.788347
+SourceRepo: AI Search API
+Keywords: how to add prefix, select multiple headings, save modified html, change html titles, modify html with python
+PRNumber: 176
