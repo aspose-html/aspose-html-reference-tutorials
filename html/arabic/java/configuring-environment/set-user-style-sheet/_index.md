@@ -10,13 +10,9 @@ url: /ar/java/configuring-environment/set-user-style-sheet/
 weight: 16
 ---
 
- translation.
 
-Be careful not to translate code placeholders.
 
-Also keep markdown formatting.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -1,216 +1,272 @@
 ---
 category: general
-date: 2026-03-25
-description: C# を使って HTML を zip する方法を学びましょう。HTML を zip として保存し、C# で zip アーカイブを作成し、ZipArchive
-  を利用して堅牢なパッケージングを行います。
+date: 2026-02-11
+description: C# を使用して CSS と画像を含む HTML ファイルを zip する方法を学びましょう。このチュートリアルでは、CSS を含む HTML
+  を保存し、画像を zip に追加する手順と、zip アーカイブを作成する C# の例を紹介します。
 draft: false
 keywords:
 - how to zip html
-- save html as zip
+- save html with css
+- add images to zip
+- save html to zip
 - create zip archive c#
-- create zip from html
-- use ziparchive c#
 language: ja
-og_description: C#でHTMLをZIPにする方法を詳しく解説。HTMLをZIPとして保存し、C#でZIPアーカイブを作成し、ZipArchiveでリソースを処理する方法を学びましょう。
-og_title: C#でHTMLをZIP圧縮する方法 – 完全プログラミングウォークスルー
+og_description: HTMLを簡単にZIPする方法。このガイドに従って、HTMLとCSSを保存し、画像をZIPに追加し、数ステップでC#でZIPアーカイブを作成しましょう。
+og_title: C#でHTMLをZIP圧縮する方法 – 完全ガイド
 tags:
 - C#
-- .NET
-- Aspose.HTML
-- ZipArchive
+- Aspose.Html
+- ZIP
+- HTML packaging
 title: C#でHTMLをZIPする方法 – 完全ステップバイステップガイド
 url: /ja/net/working-with-html-documents/how-to-zip-html-in-c-complete-step-by-step-guide/
 ---
+
+
+
+
+
+
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# C#でHTMLをZIPにする方法 – 完全ステップバイステップガイド
+# C#でHTMLをZIPに圧縮する方法 – 完全ステップバイステップガイド
 
-C#コードから直接 **HTMLをZIPにする** 方法を考えたことがありますか？ あなただけではありません—開発者はしばしばHTMLページとその画像、CSS、JavaScriptを1つのアーカイブとしてまとめる必要があります。 良いニュースは、Aspose.HTML と組み込みの `ZipArchive` クラスを組み合わせるだけで、全工程がとても簡単になることです。
+CSS、画像、スクリプトをすべて単一のパッケージとして配布できるように、**how to zip html** ファイルが必要になったことはありませんか？ あなただけではありません。多くのウェブデプロイシナリオでは、同僚がフォルダーにドロップしてすぐに開けるポータブルなバンドルが欲しいものです。良いニュースは、数行の C# と Aspose.HTML ライブラリを使えば、**save html with css** が可能で、画像を埋め込み、**create zip archive c#** を一時フォルダーなしで実現できることです。
 
-このチュートリアルでは、ドキュメントの読み込みから各リンクされたリソースをZIPエントリに書き込むまで、**HTMLをZIPとして保存** するために必要なすべてを解説します。 最後まで読むと、**C#スタイルでZIPアーカイブを作成** できる再利用可能なパターンが手に入り、オフラインWebコンテンツが必要なプロジェクト向けに **HTMLからZIPを作成** する方法が理解できるようになります。
+このチュートリアルでは、既存の HTML ドキュメントの読み込みから、参照されているすべてのリソースを直接 ZIP ファイルに書き込むまでの全工程を解説します。最後までに、`Program.Main` の呼び出し一つで **save html to zip** ができるようになり、大きな画像やカスタムリソースパスといったエッジケースに対するコードの調整方法も理解できるようになります。
 
-> **前提条件**  
-> • .NET 6+（または .NET Framework 4.7+）。  
-> • Aspose.HTML for .NET（無料トライアルまたはライセンス版）。  
-> • C# と `System.IO.Compression` 名前空間の基本的な知識  
-
-これらに慣れているなら、さっそく始めましょう。
+> **Prerequisites**  
+> • .NET 6.0 以降（コードは .NET Framework 4.7+ でも動作します）  
+> • NuGet でインストールした Aspose.HTML for .NET（無料トライアルまたはライセンス版）  
+> • 基本的な C# の知識 – ZIP の専門家である必要はなく、ストリーム操作に慣れていれば十分です。
 
 ---
 
-![C# と Aspose.HTML を使用して HTML を ZIP にする手順を示す図](zip-html-diagram.png)
+## Step 1: Set Up the Project and Install Aspose.HTML
 
-## カスタム ResourceHandler を使用する理由  *(Primary keyword: how to zip html)*
-
-`HTMLDocument.Save` を単純なファイルパスで呼び出すと、Aspose.HTML はHTMLファイルを書き出し、必要に応じてすべての依存リソースを含むフォルダーも作成します。 これで動作しますが、ディスク上に2つの別々の項目が残ります。 **カスタム `ResourceHandler`** を提供すると、すべてのリソース要求をインターセプトし、直接 `ZipArchive` エントリに書き込むことができます。 つまり、
-
-1. **中間ファイルなし** – すべてが直接ZIPにストリームされます。  
-2. **エントリ名の正確な制御** – 元のURIを保持したり、名前を変更したりできます。  
-3. **スケーラビリティ** – 同じアプローチは、数十のアセットを持つ大規模サイトでも機能します。  
-
-要するに、カスタムハンドラは、一時ファイルがファイルシステムを乱雑にすることなく “HTMLをZIPにする方法” に答える最もエレガントな手段です。
-
-## ステップ 1: プロジェクトの設定と依存関係の追加
-
-コードを書く前に、必要な NuGet パッケージが参照されていることを確認してください：
+コードを書き始める前に、新しいコンソールアプリを作成し、必要なパッケージを取得します。
 
 ```bash
+dotnet new console -n HtmlZipper
+cd HtmlZipper
 dotnet add package Aspose.HTML
 ```
 
-`System.IO.Compression` と `System.IO.Compression.FileSystem` アセンブリは .NET ランタイムの一部なので、追加のパッケージは不要です。
+*Pro tip:* 古い .NET Framework バージョンを対象とする場合は、`dotnet new console` の代わりに Visual Studio のウィザードを使用し、UI から NuGet パッケージを追加してください。
 
-> **プロのコツ:** .NET 6+ を対象とする場合、`FileSystem` を省略できます。コアライブラリにすでに `ZipFile` が含まれているためです。
+---
 
-## ステップ 2: パッケージ化したい HTML ドキュメントを読み込む
+## Step 2: Create a Custom ResourceHandler that Writes Directly to a ZIP
 
-最初の具体的なコード行は、ソースのHTMLファイルを読み込みます。 `"YOUR_DIRECTORY/input.html"` を実際のページへのパスに置き換えてください。
+Aspose.HTML は、検出した外部ファイル（CSS、画像、フォントなど）ごとに `ResourceHandler` を呼び出します。`HandleResource` をオーバーライドすることで、これらのストリームを捕捉し、ディスクに書き込む代わりに `ZipArchive` エントリへルーティングできます。
 
 ```csharp
-using System.IO;
-using System.IO.Compression;
 using Aspose.Html;
 using Aspose.Html.Saving;
+using System.IO;
+using System.IO.Compression;
 
-// Load the HTML document you want to zip
-HTMLDocument htmlDoc = new HTMLDocument(@"C:\MySite\input.html");
-```
-
-> **なぜ重要か:** ドキュメントを早めに読み込むことで、すべての相対リソースURIがドキュメントの場所に基づいて解決されます。ハンドラは後でZIPエントリを作成する際にこれを使用します。
-
-## ステップ 3: `ResourceHandler` を実装するカスタム `ZipHandler` を作成する
-
-以下に完全な実装を示します。各リソースの元のURIがZIPエントリ名になることに注目してください—これによりアーカイブ内のフォルダー構造が保持されます。
-
-```csharp
-// Custom handler that writes each resource into a ZIP entry
+/// <summary>
+/// Handles resources by writing them directly into a ZIP archive.
+/// </summary>
 class ZipHandler : ResourceHandler
 {
     private readonly ZipArchive _zipArchive;
 
-    // Open (or create) the ZIP file in Create mode
-    public ZipHandler(string zipFilePath)
+    public ZipHandler(Stream zipStream)
     {
-        _zipArchive = ZipFile.Open(zipFilePath, ZipArchiveMode.Create);
+        // Open the ZIP in Update mode and keep the underlying stream open.
+        _zipArchive = new ZipArchive(zipStream, ZipArchiveMode.Update, leaveOpen: true);
     }
 
-    // Called by Aspose.HTML for every external resource (images, CSS, JS, etc.)
-    public override Stream HandleResource(Resource resource)
+    public override Stream HandleResource(ResourceInfo info)
     {
-        // Normalize URI to a valid entry name (remove leading slashes)
-        string entryName = resource.Uri.TrimStart('/').Replace('/', Path.DirectorySeparatorChar);
-        ZipArchiveEntry entry = _zipArchive.CreateEntry(entryName, CompressionLevel.Optimal);
-        return entry.Open(); // Return a writable stream for the resource content
-    }
-
-    // Clean up the archive when done
-    public void Close()
-    {
-        _zipArchive.Dispose();
+        // Create an entry whose path mirrors the resource's relative URL.
+        // CompressionLevel.Optimal gives a good size‑to‑speed ratio.
+        var entry = _zipArchive.CreateEntry(info.Path, CompressionLevel.Optimal);
+        return entry.Open(); // Returns a write‑able stream for the resource.
     }
 }
 ```
 
-### 対応したエッジケース
+**Why this matters:**  
+最初にファイルを一時フォルダーにダンプしてから後で ZIP にまとめるのではなく、各リソースを直接アーカイブにストリームすることで I/O を削減し、残存する一時ファイルを防ぎ、最終的な ZIP が元のフォルダー構造を正確に反映することが保証されます。これは後で **add images to zip** して正しい相対パスが必要になる場合に特に重要です。
 
-| Situation | How the handler reacts |
-|-----------|------------------------|
-| **重複URI** | `CreateEntry` は名前が既に存在する場合に例外をスローします。実際にはブラウザが各リソースを一度だけ要求するためほとんど起こりませんが、必要に応じてガード（`if (_zipArchive.GetEntry(entryName) == null)`）を追加できます。 |
-| **無効な文字** | `Path.GetInvalidFileNameChars()` は `CreateEntry` によって自動的に除去されますが、より厳密に制御したい場合は手動で置換することもできます。 |
-| **大きなバイナリファイル** | `CompressionLevel.Optimal` を使用すると速度とサイズのバランスが取れます。既に圧縮されているアセット（例: JPEG）には `NoCompression` に切り替えることができます。 |
+---
 
-## ステップ 4: 出力ZIPパスを定義し、ドキュメントを保存する
+## Step 3: Load the HTML Document You Want to Package
 
-これで全てを結びつけます。`HTMLSaveOptions` オブジェクトはデフォルトのままで構いません。ハンドラがすべての重い処理を行うからです。
+Aspose.HTML はディスク上のファイル、URL、または文字列から読み取ることができます。この例では、`YOUR_DIRECTORY` フォルダーに `sample.html` とそれに付随するアセットがあると想定します。
 
 ```csharp
-// Destination ZIP file
-string zipFilePath = @"C:\MySite\output.zip";
-
-// Instantiate the handler
-using (var zipHandler = new ZipHandler(zipFilePath))
-{
-    // Save the HTML document; linked resources are streamed into the ZIP
-    htmlDoc.Save(zipHandler, new HTMLSaveOptions());
-
-    // Ensure the ZIP is finalized
-    zipHandler.Close();
-}
+// Step 3: Load the HTML document you want to package
+var htmlDoc = new HTMLDocument("YOUR_DIRECTORY/sample.html");
 ```
 
-> **なぜ機能するか:** `htmlDoc.Save` はDOMを走査し、各 `<img>`、`<link>`、`<script>` などを見つけて `HandleResource` を呼び出します。ハンドラは各ストリームを直接アーカイブに書き込むため、生成された `output.zip` には `input.html` とすべての依存ファイルが含まれ、フォルダー階層が保持されます。
-
-### 結果の検証
-
-プログラムが終了したら、任意のアーカイブビューアで `output.zip` を開きます。以下のような構造が表示されるはずです：
-
-```
-input.html
-css/
-   style.css
-images/
-   logo.png
-js/
-   app.js
-```
-
-ZIP をフォルダーに展開し、ブラウザで `input.html` を開くと、ページは以前と **全く同じ** に表示されます。これにより、**HTMLをZIPにする方法** を正しく習得したことが証明されます。
-
-## ステップ 5: オプション – HTML ファイル自体を ZIP エントリとして追加する
-
-上記のコードは Aspose.HTML がメインドキュメントをリソースとして扱うため、すでに `input.html` を書き込みます。エントリ名を制御したい場合（例: `index.html`）、`Save` を呼び出す前に手動で追加できます：
+HTML がメモリ上にある場合は、HTML 文字列とベース URL を渡すだけです：
 
 ```csharp
-// Manually add the main HTML file with a custom name
-using (var zip = ZipFile.Open(zipFilePath, ZipArchiveMode.Update))
-{
-    zip.CreateEntryFromFile(@"C:\MySite\input.html", "index.html");
-}
+var html = File.ReadAllText("YOUR_DIRECTORY/sample.html");
+var htmlDoc = new HTMLDocument(html, new Uri("file:///YOUR_DIRECTORY/"));
 ```
 
-その後、メインファイルをスキップするハンドラで `htmlDoc.Save(zipHandler, ...)` を呼び出します。この柔軟性は、特定のエントリレイアウトが必要なときに便利です。
+**Tip:** ベース URL を指定すると、Aspose が相対リンクを正しく解決できるようになり、サブフォルダーにある CSS ファイルでも **save html with css** が機能します。
 
-## よくある落とし穴と回避方法
+---
 
-1. **`using` 文の欠如** – `using System.IO.Compression;` を忘れるとコンパイルエラーになります。  
-2. **リソースの相対パス** – HTML が絶対 URL（例: `https://example.com/style.css`）を使用している場合、ハンドラはそれらをダウンロードしようとします。リソースがローカルでアクセス可能であることを確認するか、除外してください。  
-3. **ファイルロックの問題** – Windows で同じ ZIP ファイルを二度開こうとすると `IOException` がスローされることがあります。示したように `using` パターンを使用して確実に破棄してください。  
-4. **大きなHTMLページ** – 数メガバイトのアセットが多数あるページの場合、直接 `MemoryStream` にストリーミングし、バッファをディスクに書き込むことでディスクアクセス回数を減らすことを検討してください。
+## Step 4: Prepare the Output ZIP Stream and Wire Everything Together
 
-## ボーナス: �数ドキュメントで ZipHandler を再利用する
-
-アプリケーションで複数のHTMLファイルを同じアーカイブにパッケージ化する必要がある場合、単一の `ZipHandler` インスタンスを保持し、`htmlDoc.Save` を繰り返し呼び出すことができます。各ドキュメントのリソースが一意のエントリ名を持つように（例: ドキュメントのフォルダー名をプレフィックスに）してください。
+次に、出力先 ZIP 用の `FileStream` を開き、`ZipHandler` をインスタンス化し、Aspose にそのハンドラを使ってドキュメントを保存させます。
 
 ```csharp
-using (var zipHandler = new ZipHandler(@"C:\MySite\bundle.zip"))
+using var zipFileStream = new FileStream("YOUR_DIRECTORY/output.zip", FileMode.Create);
+var zipHandler = new ZipHandler(zipFileStream);
+
+// Save the document; the handler automatically writes HTML, CSS, images, etc.
+htmlDoc.Save(zipHandler);
+```
+
+`Save` が完了すると、`output.zip` には以下が含まれます：
+
+```
+sample.html
+styles/main.css
+images/logo.png
+scripts/app.js
+...
+```
+
+すべてのリソースはディスク上にあったのと同じ相対パスで格納されるため、ZIP から `sample.html` を開く（または展開する）だけで、元のページと全く同じ表示が得られます。
+
+---
+
+## Step 5: Verify the Result – Open the ZIP or Test in a Browser
+
+簡単な動作確認を行うことで、後々のデバッグ時間を大幅に削減できます。
+
+```csharp
+using System.Diagnostics;
+
+// Extract to a temp folder just to view it (optional)
+string tempDir = Path.Combine(Path.GetTempPath(), "HtmlZipTest");
+Directory.CreateDirectory(tempDir);
+ZipFile.ExtractToDirectory("YOUR_DIRECTORY/output.zip", tempDir, overwriteFiles:true);
+
+// Launch the default browser on the extracted HTML file
+string indexPath = Path.Combine(tempDir, "sample.html");
+Process.Start(new ProcessStartInfo(indexPath) { UseShellExecute = true });
+```
+
+ページがスタイルと画像を保持したまま表示されれば、**save html to zip** に成功しています。何かが欠けているように見える場合は、元の HTML が正しい相対 URL を使用しているか、ステップ 3 で指定したベースパスからリソースにアクセスできるかを再確認してください。
+
+---
+
+## Frequently Asked Questions & Edge Cases
+
+### 1. What if I need to **add images to zip** from a remote URL?
+
+Aspose.HTML は、`HTMLDocument` を URL から作成した場合にリモートリソースを自動的にダウンロードします。`ZipHandler` は依然として `ResourceInfo` オブジェクトとしてそれらを受け取るので、追加のコードは不要です。マシンがインターネットに接続できることを確認してください。
+
+### 2. How do I control the compression level for specific file types?
+
+`HandleResource` 内で `info.Path` を調べ、別の `CompressionLevel` を選択できます：
+
+```csharp
+var level = info.Path.EndsWith(".png") ? CompressionLevel.NoCompression : CompressionLevel.Optimal;
+var entry = _zipArchive.CreateEntry(info.Path, level);
+```
+
+画像は圧縮効果が低いことが多いため、圧縮をオフにすると処理が高速化します。
+
+### 3. Can I exclude certain files (e.g., large video assets) from the ZIP?
+
+対象のリソースに対して `Stream.Null` を返します：
+
+```csharp
+if (info.Path.EndsWith(".mp4"))
+    return Stream.Null; // Skip this file
+```
+
+HTML は依然としてそのファイルを参照しますが、アーカイブには含まれません。軽量バンドルが必要な場合に便利です。
+
+### 4. Does this work on .NET Core on Linux?
+
+はい。`System.IO.Compression` API はクロスプラットフォームで、Aspose.HTML は .NET Standard 2.0+ をサポートしています。パスの区切り文字は一貫性を保つためにスラッシュ（`/`）を使用してください。
+
+---
+
+## Full Working Example (Copy‑Paste Ready)
+
+```csharp
+// ------------------------------------------------------------
+// Full program: how to zip html with Aspose.HTML in C#
+// ------------------------------------------------------------
+using Aspose.Html;
+using Aspose.Html.Saving;
+using System;
+using System.Diagnostics;
+using System.IO;
+using System.IO.Compression;
+
+class ZipHandler : ResourceHandler
 {
-    foreach (var htmlPath in Directory.GetFiles(@"C:\MySite\Pages", "*.html"))
+    private readonly ZipArchive _zipArchive;
+    public ZipHandler(Stream zipStream)
     {
-        var doc = new HTMLDocument(htmlPath);
-        doc.Save(zipHandler, new HTMLSaveOptions());
+        _zipArchive = new ZipArchive(zipStream, ZipArchiveMode.Update, leaveOpen: true);
     }
-    zipHandler.Close();
+    public override Stream HandleResource(ResourceInfo info)
+    {
+        var entry = _zipArchive.CreateEntry(info.Path, CompressionLevel.Optimal);
+        return entry.Open();
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        // 1️⃣ Load the HTML document (adjust the path to your file)
+        var htmlDoc = new HTMLDocument("YOUR_DIRECTORY/sample.html");
+
+        // 2️⃣ Prepare the ZIP output stream
+        using var zipFileStream = new FileStream("YOUR_DIRECTORY/output.zip", FileMode.Create);
+        var zipHandler = new ZipHandler(zipFileStream);
+
+        // 3️⃣ Save – Aspose will invoke ZipHandler for every CSS, image, etc.
+        htmlDoc.Save(zipHandler);
+
+        // 4️⃣ Optional: extract & open to verify
+        VerifyZip("YOUR_DIRECTORY/output.zip");
+    }
+
+    static void VerifyZip(string zipPath)
+    {
+        string temp = Path.Combine(Path.GetTempPath(), "HtmlZipDemo");
+        Directory.CreateDirectory(temp);
+        ZipFile.ExtractToDirectory(zipPath, temp, overwriteFiles: true);
+        string index = Path.Combine(temp, "sample.html");
+        Process.Start(new ProcessStartInfo(index) { UseShellExecute = true });
+    }
 }
 ```
 
-これで、数十ページをバッチ処理できる **C#でZIPアーカイブを作成** ソリューションが手に入り、静的サイトジェネレータに便利なテクニックとなります。
+**Expected output:** プログラムを実行すると、`output.zip` に `sample.html` とすべてのリンクされた CSS、画像、スクリプトが格納されます。展開したフォルダーから `sample.html` を開くと、元のページと同一に表示されます。
 
-## 結論
+---
 
-C# を使用して **HTMLをZIPにする方法** について必要なすべてをカバーしました。`HTMLDocument` の読み込みから始め、各リソースを `ZipArchive` にストリームするカスタム `ZipHandler` を構築し、ドキュメントを保存し、出力を検証しました。その過程で **save html as zip**、**create zip archive c#**、**create zip from html**、**use ziparchive c#** といった二次的なキーワードにも触れました。
+## Conclusion
 
-このパターンを手に入れたら、以下が可能です：
+今回、C# と Aspose.HTML を使って **how to zip html** を実現する方法を解説し、**save html with css**、**add images to zip**、そして一般的な **save html to zip** をクリーンなストリームベースで行う手順を示しました。重要なポイントはカスタム `ResourceHandler` で、これにより **create zip archive c#** をリアルタイムで行い、一時ファイルを排除しつつ元のフォルダー階層を保持できます。
 
-* 単一ページまたは全体の静的サイトをパッケージ化する。  
-* ZIP作成を Web API、バックグラウンドジョブ、デスクトップツールに統合する。  
-* ハンドラを拡張して外部URLを除外したり、カスタム圧縮レベルを適用したりする。  
+次のステップに挑戦してみませんか？複数の HTML ページを単一の ZIP にまとめたり、オフラインビューア向けにすべてのリソースを列挙したマニフェストファイルを追加したりできます。また、ZIP を暗号化して安全に配布したい場合は、`CompressionLevel.Optimal` の代わりにパスワード対応の `ZipArchive` を使用してください。
 
-自由に試してみてください—`CompressionLevel.Optimal` を `Fastest` に置き換えたり、エントリ名を変更したり、`ZipArchiveEntry.Open` と CryptoStream を使って ZIP を暗号化したり。可能性は無限です。
+このガイドが役立ったらシェアしたり、独自の工夫をコメントで共有したり、Aspose.HTML のドキュメントで PDF 変換や HTML から画像へのレンダリングなど、さらに高度なシナリオを探求してください。Happy coding!
 
-質問がある、または実際のプロジェクトでの適用例を共有したい方は、下にコメントを残してください。ハッピーコーディング！
+![how to zip html](/images/how-to-zip-html.png){: .center-image alt="how to zip html illustration"}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
