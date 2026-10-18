@@ -77,7 +77,7 @@ tags:
 - Aspose.HTML
 - Java PDF conversion
 - sandboxing
-title: pdf from html java – Create PDF from HTML with Aspose.HTML (Sandbox)
+title: Implement Sandboxing to Securely Convert HTML to PDF with Aspose.HTML for Java
 url: /java/configuring-environment/implement-sandboxing/
 weight: 15
 ---
@@ -104,7 +104,7 @@ In this tutorial you’ll learn **how to create pdf from html java** using Aspos
 ## Why use sandboxing when converting HTML to PDF?
 Sandboxing stops any JavaScript, ActiveX, or other dynamic content from running during conversion, so the resulting PDF reflects only the static markup. This eliminates security risks, guarantees deterministic rendering, and helps you meet compliance standards when handling untrusted content. Additionally, sandboxing reduces resource consumption because script engines are not started.
 
-## Common Use Cases
+## Common use cases
 - **Archiving user‑generated blog posts** – turn HTML submissions into immutable PDFs for legal storage.  
 - **Invoice generation from partner‑supplied HTML templates** – ensure no hidden scripts can exfiltrate data.  
 - **SaaS web‑to‑PDF services** – provide a safe endpoint that accepts arbitrary HTML without exposing your server to code execution.  
@@ -125,7 +125,7 @@ The `import` statements bring the core Aspose.HTML classes into scope. They give
 import java.io.IOException;
 ```
 
-## Step 1: Create Your HTML Content
+## Step 1: create your HTML content
 First, we create a minimal HTML file that contains both static markup and a script element we intend to block.
 
 ```java
@@ -143,7 +143,7 @@ try (java.io.FileWriter fileWriter = new java.io.FileWriter("sandboxing.html")) 
 
 We write the HTML string to `sandboxing.html`. The `try‑with‑resources` construct guarantees that the `FileWriter` is closed automatically, preventing resource leaks.
 
-## Step 2: Configure the Sandboxing Environment
+## Step 2: configure the sandboxing environment
 Now we set up a sandbox that treats scripts as untrusted resources.
 
 `Configuration` is the central class that holds all security rules for the Aspose.HTML engine. By configuring its properties you decide which resources are allowed during rendering.
@@ -160,7 +160,7 @@ configuration.setSecurity(com.aspose.html.Sandbox.Scripts);
 
 Here we tell Aspose.HTML to treat scripts as untrusted, which effectively disables their execution during rendering.
 
-## Step 3: Initialize the HTML Document with Sandbox Configuration
+## Step 3: initialize the HTML document with sandbox configuration
 With the sandbox ready, we load the HTML file into an `HTMLDocument` that respects the security settings.
 
 `HTMLDocument` represents an in‑memory HTML DOM that Aspose.HTML can render. When constructed with a `Configuration`, it enforces the sandbox rules for every subsequent operation.
@@ -186,7 +186,7 @@ com.aspose.html.converters.Converter.convertHTML(
 
 `Converter.convertHTML` performs the rendering and writes the result to the target format. `PdfSaveOptions` lets you fine‑tune the PDF output (compression, page size, etc.). The resulting file is saved as `sandboxing_out.pdf`.
 
-## Step 5: Clean Up Resources
+## Step 5: clean up resources
 Proper disposal of Aspose objects frees native memory and avoids leaks, which is especially important in long‑running server applications.
 
 `dispose()` methods release native resources held by Aspose.HTML objects. Calling them after conversion ensures the JVM does not retain unnecessary memory.
@@ -200,12 +200,12 @@ if (configuration != null) {
 }
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 - **Scripts still run:** Verify that `configuration.setSecurity(com.aspose.html.Sandbox.Scripts);` is called **before** creating the `HTMLDocument`.  
 - **PDF is blank:** Check that the HTML file path is correct and the file is readable by the Java process.  
 - **License not applied:** Load your license before any Aspose objects, e.g., `com.aspose.html.License license = new com.aspose.html.License(); license.setLicense("Aspose.HTML.Java.lic");`.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: What is sandboxing in Aspose.HTML for Java?**  
 A: Sandboxing is a security feature that blocks the execution of scripts and other potentially harmful content within an HTML document, ensuring safe conversion to PDF.
