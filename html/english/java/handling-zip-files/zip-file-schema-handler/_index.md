@@ -30,10 +30,8 @@ schemas:
     text: '**Java Development Kit (JDK) 8+** installed.'
   - name: An IDE such as **IntelliJ IDEA**, **Eclipse**, or **NetBeans**.
     text: An IDE such as **IntelliJ IDEA**, **Eclipse**, or **NetBeans**.
-  - name: '**Aspose.HTML for Java** library – download it **[here](https://releases.aspose.com/html/java/)**
-      and add the JAR(s) to your project’s classpath.'
-    text: '**Aspose.HTML for Java** library – download it **[here](https://releases.aspose.com/html/java/)**
-      and add the JAR(s) to your project’s classpath.'
+  - name: '**Aspose.HTML for Java** library – download it **[Aspose.HTML for Java download page](https://releases.aspose.com/html/java/)** and add the JAR(s) to your project’s classpath.'
+    text: '**Aspose.HTML for Java** library – download it **[Aspose.HTML for Java download page](https://releases.aspose.com/html/java/)** and add the JAR(s) to your project’s classpath.'
   - name: Basic familiarity with Java collections and exception handling.
     text: Basic familiarity with Java collections and exception handling.
 - type: FAQPage
@@ -86,7 +84,7 @@ Before diving into the code, make sure you have:
 
 1. **Java Development Kit (JDK) 8+** installed.  
 2. An IDE such as **IntelliJ IDEA**, **Eclipse**, or **NetBeans**.  
-3. **Aspose.HTML for Java** library – download it **[here](https://releases.aspose.com/html/java/)** and add the JAR(s) to your project’s classpath.  
+3. **Aspose.HTML for Java** library – download it **[Aspose.HTML for Java download page](https://releases.aspose.com/html/java/)** and add the JAR(s) to your project’s classpath.  
 4. Basic familiarity with Java collections and exception handling.
 
 ## Import Packages
@@ -100,7 +98,7 @@ import com.aspose.html.net.StreamContent;
 import com.aspose.html.utils.Stream;
 ```
 
-## Step 1: Create the ZIP File Schema Handler Class
+## Step 1: create the ZIP file schema handler class
 `CustomSchemaMessageHandler` is Aspose.HTML’s base class for handling custom URI schemes. By extending it we can register the `zip-file` scheme and point it at a physical ZIP archive on disk.
 
 **Definition anchor:** `ZIPFileSchemaMessageHandler` is the concrete handler that maps `zip-file:` URIs to entries inside a specific ZIP file.  
@@ -166,7 +164,7 @@ Stream GetFile(String path) {
 }
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 | Issue | Why it Happens | Fix |
 |-------|----------------|-----|
 | **`IOException` on large files** | The default buffer may be too small. | Increase the buffer size or use `java.nio` channels for streaming. |
@@ -179,7 +177,7 @@ Stream GetFile(String path) {
 - **Enable lazy loading:** Set `ZipFile`’s `useZip64` flag to `true` when dealing with archives larger than 4 GB.  
 - **Cache MIME mappings:** Create a static map of common extensions to MIME types to avoid repeated look‑ups.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use this handler for other archive formats like RAR or TAR?**  
 A: The current implementation targets ZIP files only. You can adapt the logic by swapping `java.util.zip.ZipFile` with a library that supports RAR/TAR, but you’ll need to handle their specific entry‑lookup APIs.
@@ -196,7 +194,7 @@ A: Implement HTTP range requests by checking the `Range` header and sending part
 **Q: Can this handler be used safely in a multi‑threaded environment?**  
 A: Yes, provided each request creates its own `ZipFile` instance (as shown). Avoid sharing mutable state between threads.
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Related Tutorials
 
@@ -205,8 +203,15 @@ A: Yes, provided each request creates its own `ZipFile` instance (as shown). Avo
 - [Custom Schema Filter and Message Handling in Aspose.HTML for Java](/html/java/custom-schema-message-handling/)
 
 
+
+
+
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
----
+{{< blocks/products/products-backtop-button >}}

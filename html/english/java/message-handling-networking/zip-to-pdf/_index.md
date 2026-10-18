@@ -47,18 +47,18 @@ Converting ZIP archives to PDF with Aspose.HTML provides a fast, accurate, and s
 ## Prerequisites  
 
 1. **Java Development Kit (JDK):** Install JDK 11 or later. Download it from the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
-2. **Aspose.HTML for Java Library:** Obtain the latest JAR from the [download link](https://releases.aspose.com/html/java/).  
+2. **Aspose.HTML for Java Library:** Obtain the latest JAR from the [Aspose.HTML for Java download page](https://releases.aspose.com/html/java/).  
 3. **IDE:** IntelliJ IDEA, Eclipse, or any Java‑compatible editor.  
 4. **Basic Java Knowledge:** Familiarity with `try‑with‑resources` and file I/O will smooth the learning curve.  
 
 ## Step‑by‑Step Guide  
 
-### Step 1: Create a New Java Project  
+### Step 1: create a new java project
 
 - Open your IDE and start a **new Maven or Gradle project** named `ZipToPDFConverter`.  
 - Add the Aspose.HTML JAR to the project’s build path (right‑click → *Build Path* → *Add External Archives*).  
 
-### Step 2: Import Required Packages  
+### Step 2: import required packages
 
 The first thing you do in any Java file is import the classes you’ll use.  
 
@@ -73,7 +73,7 @@ import com.aspose.html.HTMLDocument;
 
 *(The actual import statements remain unchanged from the original placeholder.)*  
 
-### Step 3: Define Input and Output Paths  
+### Step 3: define input and output paths
 
 Tell the library where the ZIP lives and where the resulting PDF should be saved.  
 
@@ -86,7 +86,7 @@ String pdfPath = "output/zip-to-pdf.pdf";
 
 Replace the placeholders with your own locations.  
 
-### Step 4: Create a Configuration Instance  
+### Step 4: create a configuration instance
 
 `Configuration` holds global settings such as message handlers and resource limits.  
 
@@ -96,7 +96,7 @@ Replace the placeholders with your own locations.
 Configuration config = new Configuration();  
 ```  
 
-### Step 5: Register a ZIP Message Handler  
+### Step 5: register a ZIP message handler
 
 `ZipMessageHandler` is a built‑in handler that enables Aspose.HTML to read files directly from a ZIP archive using the `zip:///` URI scheme.  
 
@@ -105,7 +105,7 @@ MessageHandler zipHandler = new com.aspose.html.net.handlers.ZipMessageHandler(z
 config.getMessageHandlers().add(zipHandler);  
 ```  
 
-### Step 6: Load the HTML Document  
+### Step 6: load the HTML document
 
 Point the `HTMLDocument` constructor at the HTML file inside the ZIP using the `zip:///` scheme.  
 
@@ -115,7 +115,7 @@ Point the `HTMLDocument` constructor at the HTML file inside the ZIP using the `
 HTMLDocument document = new HTMLDocument(config, "zip:///test.html");  
 ```  
 
-### Step 7: Create the PDF Device  
+### Step 7: create the PDF device
 
 `PdfDevice` receives the rendered pages and writes them to a PDF file.  
 
@@ -125,7 +125,7 @@ HTMLDocument document = new HTMLDocument(config, "zip:///test.html");
 PdfDevice pdfDevice = new PdfDevice(pdfPath);  
 ```  
 
-### Step 8: Render the Document  
+### Step 8: render the document
 
 Finally, render the HTML document to the PDF device.  
 
@@ -137,13 +137,13 @@ document.render(pdfDevice);
 
 When this line finishes, the ZIP’s HTML content is saved as a single, searchable PDF at the location you specified.  
 
-## Common Issues and Solutions  
+## Common issues and solutions
 
 - **Missing CSS files:** Ensure all CSS files are inside the ZIP and referenced with relative paths.  
 - **Large images cause OutOfMemoryError:** Enable streaming by setting `config.setMemoryLimit(200_000_000);` (200 MB).  
 - **Unsupported fonts:** Embed required fonts in the ZIP or configure `config.getFontSettings().setDefaultFont("Arial");`.  
 
-## Frequently Asked Questions  
+## Frequently asked questions
 
 **Q: What types of files can I extract from ZIP to PDF with Aspose.HTML?**  
 A: Any HTML, CSS, JavaScript, or image resources inside the archive can be rendered to PDF.  
@@ -158,7 +158,7 @@ A: Yes – place several HTML files in the ZIP and render each sequentially to t
 A: Absolutely. It runs on any OS that supports Java 8 or newer, including Windows, Linux, and macOS.  
 
 **Q: Where can I get help if I run into issues?**  
-A: For support, you can visit the [Aspose forum](https://forum.aspose.com/c/html/29).  
+A: For support, you can visit the [Aspose.HTML for Java support forum](https://forum.aspose.com/c/html/29).  
 
 ---  
 

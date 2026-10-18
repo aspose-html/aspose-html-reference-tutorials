@@ -28,8 +28,8 @@ schemas:
       Oracle website if you don’t have it.'
     text: '**Java Development Kit (JDK)** – version 8 or newer. Download from the
       Oracle website if you don’t have it.'
-  - name: '**Aspose.HTML for Java library** – obtain the latest release **[here](https://releases.aspose.com/html/java/)**.'
-    text: '**Aspose.HTML for Java library** – obtain the latest release **[here](https://releases.aspose.com/html/java/)**.'
+  - name: '**Aspose.HTML for Java library** – obtain the latest release **[Aspose.HTML for Java download page](https://releases.aspose.com/html/java/)**.'
+    text: '**Aspose.HTML for Java library** – obtain the latest release **[Aspose.HTML for Java download page](https://releases.aspose.com/html/java/)**.'
   - name: '**An IDE** – IntelliJ IDEA, Eclipse, or NetBeans will work.'
     text: '**An IDE** – IntelliJ IDEA, Eclipse, or NetBeans will work.'
   - name: '**Basic Java knowledge** – you should be comfortable with classes, methods,
@@ -86,7 +86,7 @@ Aspose.HTML supports **50+ input and output formats** – including HTML, SVG, a
 Before you start, make sure you have the following:
 
 1. **Java Development Kit (JDK)** – version 8 or newer. Download from the Oracle website if you don’t have it.
-2. **Aspose.HTML for Java library** – obtain the latest release **[here](https://releases.aspose.com/html/java/)**.
+2. **Aspose.HTML for Java library** – obtain the latest release **[Aspose.HTML for Java download page](https://releases.aspose.com/html/java/)**.
 3. **An IDE** – IntelliJ IDEA, Eclipse, or NetBeans will work.
 4. **Basic Java knowledge** – you should be comfortable with classes, methods, and file I/O.
 5. **A ZIP file** – containing at least one HTML document you want to turn into a JPG.
@@ -114,7 +114,7 @@ Importing these libraries will allow us to interact with HTML documents and leve
 
 Now that we've prepared our environment and imported the necessary packages, let’s break down the conversion process into digestible steps.
 
-## Step 1: Prepare the Path to Your Source ZIP File
+## Step 1: prepare the path to your source ZIP file
 First, tell the program where the source ZIP resides. This string will be used by the `ZIPArchiveMessageHandler`.
 
 Replace `"input/test.zip"` with the absolute or relative path to your ZIP archive.
@@ -125,7 +125,7 @@ String documentPath = "input/test.zip";
 ```  
 In this step, replace `"input/test.zip"` with the actual path to your ZIP file. 
 
-## Step 2: Specify the Output File Path
+## Step 2: specify the output file path
 Next, define where the resulting JPEG should be saved. The path must include the file name and `.jpg` extension.
 
 ```java
@@ -134,7 +134,7 @@ String savePath = "output/zip-to-jpg.jpg";
 ```  
 Make sure the destination directory exists; otherwise the rendering step will throw an exception.
 
-## Step 3: Create an Instance of ZIPArchiveMessageHandler
+## Step 3: create an instance of zIPArchiveMessageHandler
 The `ZIPArchiveMessageHandler` class extracts HTML resources from the ZIP archive and makes them available to the rendering engine.
 
 ```java
@@ -160,7 +160,7 @@ configuration.getService(INetworkService.class).getMessageHandlers().addItem(zip
 ```  
 This step is crucial because it registers the ZIP handler with the rendering pipeline.
 
-## Step 6: Initialize an HTML Document
+## Step 6: initialize an HTML document
 `HTMLDocument` is the entry point for rendering. It loads the specified HTML file from the ZIP archive.
 
 ```java
@@ -169,7 +169,7 @@ HTMLDocument document = new HTMLDocument("zip:///test.html", configuration);
 ```  
 Replace `test.html` with the actual HTML document you want to convert from the ZIP archive.
 
-## Step 7: Create a Rendering Options Instance
+## Step 7: create a rendering options instance
 `ImageRenderingOptions` lets you set the output format, image quality, and DPI. For JPEG output, we set the format accordingly.
 
 ```java
@@ -179,7 +179,7 @@ options.setFormat(ImageFormat.Jpeg);
 ```  
 In this case, we're specifically setting the image format to JPEG.
 
-## Step 8: Create an Image Device Instance
+## Step 8: create an image device instance
 `ImageDevice` consumes the rendering options and writes the final image to disk.
 
 ```java
@@ -196,15 +196,15 @@ document.renderTo(device);
 ```  
 And just like that, we’ve converted the HTML content from our ZIP file into a JPG image.
 
-## Step 10: Verify the Output
+## Step 10: verify the output
 Navigate to the output directory you specified in Step 2 and open the generated JPG file. You should see a faithful visual representation of the original HTML page, including CSS styling and embedded images.
 
-## Common Issues and Solutions
+## Common issues and solutions
 - **Missing resources (CSS, images)** – Ensure the ZIP archive maintains the original folder structure; the `ZIPArchiveMessageHandler` relies on relative paths.
 - **Out‑of‑memory errors on large archives** – Increase the JVM heap size (`-Xmx2g`) or process files one at a time.
 - **Unsupported HTML features** – Aspose.HTML supports HTML5, CSS3, and most JavaScript; however, complex client‑side scripts may be ignored during rendering.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: What is Aspose.HTML?**  
 A: Aspose.HTML is a comprehensive Java library for parsing, manipulating, and rendering HTML documents to a variety of output formats, including images and PDFs.
@@ -227,7 +227,7 @@ A: You can visit the [Aspose support forum](https://forum.aspose.com/c/html/29) 
 **Tested With:** Aspose.HTML for Java 24.11  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Related Tutorials
 
@@ -235,7 +235,9 @@ A: You can visit the [Aspose support forum](https://forum.aspose.com/c/html/29) 
 - [Convert HTML to JPEG in .NET with Aspose.HTML](/html/net/html-extensions-and-conversions/convert-html-to-jpeg/)
 - [How To Use Aspose To Render Html To Png Step By Step Guide](/html/net/rendering-html-documents/how-to-use-aspose-to-render-html-to-png-step-by-step-guide/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
