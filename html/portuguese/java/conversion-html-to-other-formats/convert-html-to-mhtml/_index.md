@@ -10,11 +10,9 @@ url: /pt/java/conversion-html-to-other-formats/convert-html-to-mhtml/
 weight: 11
 ---
 
- links text translated but URLs unchanged.
 
-At the end, keep shortcodes closing.
 
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

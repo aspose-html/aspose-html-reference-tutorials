@@ -10,11 +10,9 @@ url: /hu/java/converting-epub-to-pdf/convert-epub-to-bmp/
 weight: 10
 ---
 
-.
 
-Be careful with Hungarian special characters.
 
-Proceed.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

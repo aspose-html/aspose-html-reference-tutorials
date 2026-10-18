@@ -9,15 +9,10 @@ url: /pt/java/editing-html-documents/apply-external-css-html-documents/
 weight: 12
 ---
 
-Proceed.
 
-Also code block placeholders remain.
 
-Translate "Import Packages" etc.
 
-Proceed.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
