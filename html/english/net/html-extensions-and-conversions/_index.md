@@ -113,6 +113,10 @@ Learn how to create an HTML document with styled text and export it to PDF using
 Learn how to generate an HTML archive from a DOCX file using Aspose.HTML for .NET. Follow the step‑by‑step guide with code samples.
 ### [Save HTML as ZIP – Complete C# Tutorial](./save-html-as-zip-complete-c-tutorial/)
 Learn how to save HTML files as a ZIP archive using Aspose.HTML for .NET with a complete C# example.
+### [How to save HTML as zip using Aspose.HTML in C#](./how-to-save-html-as-zip-using-aspose-html-in-c/)
+Learn how to save HTML as a ZIP archive using Aspose.HTML in C# with a step‑by‑step guide.
+### [Create html document and save as zip – Complete C# Guide](./create-html-document-and-save-as-zip-complete-c-guide/)
+Learn how to create an HTML document and save it as a ZIP archive using Aspose.HTML for .NET with a complete C# guide.
 ### [Custom Resource Handler in C# – Convert HTML to ZIP Archive from Memory](./custom-resource-handler-in-c-convert-html-to-zip-archive-fro/)
 Learn how to implement a custom resource handler in C# to convert HTML to a ZIP archive directly from memory using Aspose.HTML.
 ### [How to Zip HTML in C# – Load HTML & Use Custom Handler](./how-to-zip-html-in-c-load-html-use-custom-handler/)
@@ -142,7 +146,7 @@ Learn how to save HTML content into a ZIP archive using C# and Aspose.HTML for .
 ### [Convert HTML to ZIP in C# – Complete Step‑by‑Step Guide](./convert-html-to-zip-in-c-complete-step-by-step-guide/)
 Learn how to convert HTML files into a ZIP archive using Aspose.HTML for .NET with a detailed C# step‑by‑step guide.
 ### [Save HTML to ZIP in C# – Complete In‑Memory Example](./save-html-to-zip-in-c-complete-in-memory-example/)
-Learn how to save HTML content into a ZIP archive in memory using C# and Aspose.HTML for .NET in this step-by-step tutorial.
+Learn how to save HTML content into a ZIP archive in memory using C# and Aspose.HTML for .NET in this step‑by‑step tutorial.
 ### [Aspose HTML Save Options: Save HTML to Stream in C#](./aspose-html-save-options-save-html-to-stream-in-c/)
 Learn how to save an HTML document directly to a stream using Aspose.HTML in C# with a clear, step-by-step tutorial.
 ### [how to use handler in Aspose.HTML – Load HTML, Save as ZIP](./how-to-use-handler-in-aspose-html-load-html-save-as-zip/)

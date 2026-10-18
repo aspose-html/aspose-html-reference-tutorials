@@ -55,7 +55,7 @@ Aspose.HTML для .NET — это не просто библиотека; эт�
 Полное руководство по созданию PDF из HTML с помощью Aspose.HTML в C#. Подробные шаги и примеры кода.
 ### [Создайте PDF из HTML – пошаговое руководство для разработчиков](./create-pdf-from-html-step-by-step-guide-for-developers/)
 Подробное пошаговое руководство по созданию PDF из HTML с использованием Aspose.HTML для .NET, предназначенное для разработчиков.
-### [Создайте PDF из HTML с Aspose – пошаговое руководство](./create-pdf-from-html-with-aspose-step-by-step-guide/)
+### [Создайте PDF из HTML – пошаговое руководство](./create-pdf-from-html-with-aspose-step-by-step-guide/)
 Пошаговое руководство по созданию PDF из HTML с использованием Aspose.HTML для .NET.
 ### [Создайте PDF из HTML – Полное руководство с Aspose.HTML](./create-pdf-from-html-complete-guide-with-aspose-html/)
 Полное пошаговое руководство по созданию PDF из HTML с использованием Aspose.HTML для .NET.
@@ -111,7 +111,6 @@ Aspose.HTML для .NET — это не просто библиотека; эт�
 Сохраните HTML в архив ZIP полностью в памяти с помощью Aspose.HTML для .NET, используя C#.
 ### [Aspose HTML в PDF на C# – Полное руководство с архивом ZIP](./aspose-html-to-pdf-in-c-complete-guide-with-zip-archive/)
 Узнайте, как конвертировать HTML в PDF на C# с помощью Aspose.HTML и упаковать результат в архив ZIP.
-
 ### [Пользовательский обработчик ресурсов в C# – Конвертировать HTML в ZIP‑архив из памяти](./custom-resource-handler-in-c-convert-html-to-zip-archive-fro/)
 Узнайте, как создать пользовательский обработчик ресурсов в C# для конвертации HTML в ZIP‑архив непосредственно из памяти с помощью Aspose.HTML.
 ### [Как заархивировать HTML в C# – загрузить HTML и использовать пользовательский обработчик](./how-to-zip-html-in-c-load-html-use-custom-handler/)
@@ -130,7 +129,7 @@ Aspose.HTML для .NET — это не просто библиотека; эт�
 Узнайте, как с помощью Aspose.HTML создать PDF из HTML в C# шаг за шагом.
 ### [Сохраните HTML в ZIP в C# – Полное пошаговое руководство](./save-html-as-zip-in-c-complete-step-by-step-guide/)
 Сохраните HTML в ZIP в C# с помощью Aspose.HTML для .NET. Пошаговое руководство с примерами кода и настройками.
-### [Сохранить HTML в ZIP в C# – Полное руководство](./save-html-to-zip-in-c-complete-guide/)
+### [Сохранить HTML в ZIP в C# – Полный учебник](./save-html-to-zip-in-c-complete-guide/)
 Полное руководство по сохранению HTML в ZIP‑архив с помощью Aspose.HTML для .NET и C#.
 ### [single file html – Сохранить веб-страницу как один HTML‑файл в C#](./single-file-html-save-a-web-page-as-one-html-file-in-c/)
 Узнайте, как сохранить всю веб‑страницу в один HTML‑файл с помощью Aspose.HTML для .NET и C#.
@@ -140,7 +139,7 @@ Aspose.HTML для .NET — это не просто библиотека; эт�
 Узнайте, как загрузить HTML‑документ с помощью обработчика Aspose.HTML и сохранить его в архив ZIP в .NET.
 ### [Сохранить HTML в PDF в C# – Полное руководство с шрифтами](./save-html-as-pdf-in-c-complete-guide-with-fonts/)
 Подробное руководство по сохранению HTML в PDF в C# с поддержкой пользовательских шрифтов.
-### [Создайте HTML‑документ и сохраните в ZIP – Полный учебник C#](./create-html-document-and-save-as-zip-complete-c-guide/)
+### [Создайте HTML‑документ и сохранить в ZIP – Полный учебник C#](./create-html-document-and-save-as-zip-complete-c-guide/)
 Узнайте, как создать HTML‑документ и сохранить его в архив ZIP с помощью Aspose.HTML и C# в полном пошаговом руководстве.
 ### [Конвертировать HTML в PDF в C# – учебник](./html-to-pdf-tutorial-convert-html-to-pdf-in-c/)
 Конвертируйте HTML в PDF в C# с помощью Aspose.HTML. Пошаговое руководство для быстрой и простой конвертации.
@@ -158,11 +157,12 @@ Aspose.HTML для .NET — это не просто библиотека; эт�
 Полное руководство по упаковке HTML‑файлов в ZIP‑архив с помощью Aspose.HTML, включая примеры кода и подробные шаги.
 ### [Конвертировать URL в PDF в C# – решение Aspose HTML в одну строку](./convert-url-to-pdf-in-c-one-line-aspose-html-solution/)
 Узнайте, как преобразовать веб‑страницу по URL в PDF всего одной строкой кода с Aspose.HTML для .NET.
-
 ### [Как сохранить HTML и записать HTML в файл с C#](./how-to-save-html-and-write-html-to-file-with-c/)
 Узнайте, как сохранять HTML‑контент и записывать его в файл с помощью C# и Aspose.HTML.
 ### [Конвертируйте HTML в ZIP в C# – Полное пошаговое руководство](./convert-html-to-zip-in-c-complete-step-by-step-guide/)
 Узнайте, как упаковать HTML‑файлы в ZIP‑архив с помощью C# и Aspose.HTML, следуя полному пошаговому руководству.
+### [Как сохранить HTML в ZIP с помощью Aspose.HTML в C#](./how-to-save-html-as-zip-using-aspose-html-in-c/)
+Узнайте, как сохранить HTML‑страницу в ZIP‑архив с помощью Aspose.HTML в C#.
 
 ## Заключение
 
