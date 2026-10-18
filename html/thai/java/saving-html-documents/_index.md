@@ -54,6 +54,8 @@ url: /th/java/saving-html-documents/
 เรียนรู้วิธีบันทึกเอกสาร HTML เป็น MHTML โดยใช้ Aspose.HTML สำหรับ Java ด้วยคู่มือทีละขั้นตอนนี้ พร้อมด้วยตัวอย่างโค้ดและเคล็ดลับที่เป็นประโยชน์
 ### [บันทึกเอกสาร SVG ใน Aspose.HTML สำหรับ Java](./save-svg-document/)
 เรียนรู้วิธีบันทึกเอกสาร SVG โดยใช้ Aspose.HTML สำหรับ Java ด้วยคู่มือทีละขั้นตอนง่าย ๆ ที่อัดแน่นไปด้วยตัวอย่าง
+### [บันทึกผลลัพธ์ HTML ที่สร้าง – คู่มือการประมวลผลเทมเพลตเต็ม](./save-generated-html-result-full-template-processing-guide/)
+เรียนรู้วิธีบันทึกผลลัพธ์ HTML ที่สร้างจากการประมวลผลเทมเพลตเต็มด้วย Aspose.HTML สำหรับ Java อย่างละเอียด
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
