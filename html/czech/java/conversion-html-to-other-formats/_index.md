@@ -97,6 +97,8 @@ Naučte se, jak v Javě pomocí Aspose.HTML vytvořit PDF z HTML s nastavením m
 Naučte se, jak povolit vykonávání JavaScriptu během konverze HTML na PDF v Javě pomocí Aspose.HTML.
 ### [Vytvořte PDF z HTML v Javě – Jednořádkový průvodce Aspose](./create-pdf-from-html-in-java-one-line-aspose-guide/)
 Jednoduchý návod, jak v jedné řádce kódu převést HTML na PDF pomocí Aspose.HTML for Java.
+### [Jak generovat PDF z HTML v Javě pomocí Aspose.HTML](./how-to-generate-pdf-from-html-in-java-with-aspose-html/)
+Naučte se generovat PDF z HTML v Javě pomocí Aspose.HTML s jednoduchým krok‑za‑krokovým návodem.
 ### [Převod HTML do MHTML](./convert-html-to-mhtml/)
 Jednoduše převádějte HTML do MHTML pomocí Aspose.HTML for Java. Postupujte podle našeho krok‑za‑krokem průvodce pro efektivní konverzi HTML‑to‑MHTML.
 
@@ -160,7 +162,6 @@ Naučte se převést soubory Markdown do PDF v Javě pomocí Aspose.HTML s podro
 Naučte se, jak efektivně generovat PDF z HTML v Javě pomocí vláknového poolu a šablon pro vysoký výkon a škálovatelnost.
 ### [Nastavení velikosti stránky PDF v Javě – Kompletní průvodce převodem HTML do PDF](./set-pdf-page-size-in-java-complete-html-to-pdf-guide/)
 Naučte se nastavit velikost stránky PDF při konverzi HTML v Javě pomocí Aspose.HTML. Kompletní krok‑za‑krokem návod.
-
 ### [Nastavení velikosti stránky PDF pomocí Aspose HTML – Kompletní průvodce v Javě](./set-pdf-page-size-with-aspose-html-full-java-guide/)
 Naučte se nastavit velikost stránky PDF v Javě pomocí Aspose.HTML s podrobným krok‑za‑krokem návodem.
 ### [Vytvoření PDF z HTML v Javě – Kompletní krok‑za‑krokem průvodce](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
@@ -169,7 +170,7 @@ Kompletní návod, jak v Javě převést HTML na PDF s podrobným nastavením a 
 Naučte se, jak pomocí pevného thread poolu zrychlit paralelní konverzi více HTML souborů do PDF v Javě.
 ### [Převod HTML do Markdown – Kompletní průvodce pro C#](./convert-html-to-markdown-complete-c-guide/)
 Naučte se převádět HTML do Markdown v C# pomocí Aspose.HTML. Kompletní průvodce pro snadnou konverzi.
-### [html to pdf tutoriál: Převod HTML do PDF v Javě jedním řádkem](./html-to-pdf-tutorial-convert-html-to-pdf-in-java-in-one-line/)
+### [html to pdf tutoriál: Převod HTML do PDF v Javě jedním řádkem](./html-to-pdf-tutorial-convert-html-to-pdf-in-one-line/)
 Jednoduchý jednorázový kód, který převádí HTML na PDF v Javě během jediného řádku.
 ### [Vytvořte PDF vlastní velikosti z HTML v Javě – Kompletní průvodce](./create-pdf-custom-size-from-html-in-java-full-guide/)
 ### [Převod HTML do PDF v Javě – Průvodce paralelním pevně nastaveným thread pool](./convert-html-to-pdf-in-java-parallel-fixed-thread-pool-guide/)
@@ -205,7 +206,7 @@ Naučte se převést HTML do PDF/A‑2b v Javě pomocí Aspose.HTML a zajistěte
 Naučte se, jak pomocí Aspose.HTML provádět paralelní dávkovou konverzi HTML na PDF v Javě pro rychlé zpracování velkého množství souborů.
 ### [html to pdf tutoriál – Převod HTML do PDF pomocí Aspose.HTML Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-ja/)
 ### [Nastavení velikosti stránky PDF v Javě – Průvodce Java HTML do PDF](./set-pdf-page-size-in-java-java-html-to-pdf-guide/)
-Naučte se nastavit velikost stránky PDF v Javě při konverzi HTML pomocí Aspose.HTML.
+Naučte se nastavit velikost stránky PDF při konverzi HTML pomocí Aspose.HTML.
 ### [Převod HTML do PDF/A v Javě pomocí Aspose](./java-html-to-pdf-convert-html-to-pdf-a-using-aspose/)
 Naučte se převést HTML do formátu PDF/A v Javě s Aspose.HTML pro dlouhodobou archivaci dokumentů.
 ### [Jak vložit obrázky do HTML při převodu na PDF s Aspose – průvodce pro Javu](./how-to-embed-images-in-html-to-pdf-with-aspose-java-guide/)

@@ -148,6 +148,10 @@ Lär dig att skapa PDF‑filer med specifik sidstorlek och inbäddade teckensnit
 ### [Skapa PDF från Markdown – Snabb Java‑guide](./create-pdf-from-markdown-quick-java-guide/)
 Lär dig snabbt hur du skapar PDF från Markdown i Java med Aspose.HTML i en kort guide.
 ### [Skapa PDF från HTML i Java – En‑radig Aspose‑guide](./create-pdf-from-html-in-java-one-line-aspose-guide/)
+
+### [Hur man genererar PDF från HTML i Java med Aspose.HTML](./how-to-generate-pdf-from-html-in-java-with-aspose-html/)
+Lär dig att generera PDF från HTML i Java med Aspose.HTML i enkla steg.
+
 ### [Skapa PDF från SVG – Anpassad sidstorlek med Aspose.HTML (Java)](./create-pdf-from-svg-custom-page-size-with-aspose-html-java/)
 ### [Hur man använder Aspose för att konvertera HTML till Markdown i Java](./how-to-use-aspose-to-convert-html-to-markdown-in-java/)
 ### [Skapa PDF från HTML i Java – Komplett Aspose‑guide](./create-pdf-from-html-in-java-complete-aspose-guide/)

@@ -214,7 +214,7 @@ Learn how to convert HTML to PDF/A in Java with Aspose.HTML, ensuring long‑ter
 Secure your PDF output by encrypting it with a password during HTML to PDF conversion using Aspose.HTML for Java.
 ### [Create PDF from Markdown – Quick Java Guide](./create-pdf-from-markdown-quick-java-guide/)
 Quickly generate a PDF from Markdown in Java using Aspose.HTML with a simple step‑by‑step guide.
-### [How to Use Aspose to Convert HTML to Markdown in Java](./how-to-use-aspose-to-convert-html-to-markdown-in-java/)
+### [How to Use Aspose – Convert HTML to Markdown in Java](./how-to-use-aspose-to-convert-html-to-markdown-in-java/)
 Learn how to convert HTML documents to Markdown format in Java using Aspose.HTML, with step‑by‑step code examples.
 
 ## Frequently Asked Questions
@@ -246,3 +246,5 @@ A: Yes. You can set title, author, subject, and keywords via the `PdfSaveOptions
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+### [How to generate PDF from HTML in Java with Aspose.HTML](./how-to-generate-pdf-from-html-in-java-with-aspose-html/)

@@ -84,6 +84,8 @@ SVG 그래픽을 XPS 형식으로 변환하여 기기 간 일관된 인쇄를 �
 ## 변환 - HTML 기타 형식 튜토리얼
 ### [HTML을 PDF로 변환](./convert-html-to-pdf/)
 Aspose.HTML를 사용하여 Java에서 HTML을 PDF로 변환하는 방법을 배우세요. HTML 콘텐츠에서 고품질 PDF를 손쉽게 생성합니다.
+### [Aspose.HTML를 사용해 Java에서 HTML을 PDF로 생성하는 방법](./how-to-generate-pdf-from-html-in-java-with-aspose-html/)
+Aspose.HTML를 활용해 Java에서 HTML을 PDF로 변환하는 단계별 가이드를 제공합니다.
 ### [Aspose HTML for Java로 동적 HTML을 PDF로 변환](./convert-dynamic-html-pdf-with-aspose-html-for-java/)
 Aspose HTML for Java를 활용해 동적으로 생성된 HTML을 PDF로 변환하는 방법을 단계별로 안내합니다.
 ### [Java에서 HTML을 PDF로 변환할 때 JavaScript를 활성화하는 방법](./how-to-enable-javascript-when-converting-html-to-pdf-in-java/)
@@ -152,7 +154,7 @@ Aspose.HTML를 사용하여 HTML 파일에서 오디오와 비디오를 추출�
 Java NIO와 병렬 처리를 활용해 여러 HTML 파일을 한 번에 PDF로 변환하는 방법을 단계별로 안내합니다.
 ### [HTML에서 DOCX 만들기 – Java 가이드: HTML을 DOCX로 변환](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
 Aspose.HTML를 사용하여 Java에서 HTML을 DOCX 파일로 변환하는 방법을 단계별로 안내합니다.
-### [Java에서 HTML을 PDF로 생성 – 한 줄 Aspose 가이드](./create-pdf-from-html-in-java-one-line-aspose-guide/)
+### [Java에서 HTML을 PDF로 만들기 – 한 줄 Aspose 가이드](./create-pdf-from-html-in-java-one-line-aspose-guide/)
 Aspose.HTML를 사용해 단 한 줄 코드로 Java에서 HTML을 PDF로 변환하는 방법을 빠르게 배웁니다.
 ### [Java에서 디바이스 픽셀 비율 설정 – HTML을 모바일용으로 변환](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)
 Aspose.HTML를 사용하여 Java에서 디바이스 픽셀 비율을 설정하고 HTML을 모바일 친화적으로 변환하는 방법을 배웁니다.
