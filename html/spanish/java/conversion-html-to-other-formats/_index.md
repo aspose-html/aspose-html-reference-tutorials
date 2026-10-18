@@ -218,6 +218,9 @@ Aprende a usar un pool de hilos fijos en Java para convertir múltiples archivos
 
 ### [Crear PDF desde HTML con Viewport móvil – Guía completa en Java](./create-pdf-from-html-with-mobile-viewport-complete-java-guid/)
 
+### [Cómo generar PDF a partir de HTML en Java con Aspose.HTML](./how-to-generate-pdf-from-html-in-java-with-aspose-html/)
+Guía paso a paso para crear PDFs desde HTML usando Aspose.HTML en Java.
+
 ## Preguntas Frecuentes
 
 **Q:** ¿Puedo usar Aspose.HTML para Java en una aplicación comercial?  

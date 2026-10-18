@@ -272,6 +272,8 @@ Créez rapidement un PDF à partir de fichiers Markdown en Java avec Aspose.HTML
 ### [Comment utiliser Aspose pour convertir HTML en Markdown en Java](./how-to-use-aspose-to-convert-html-to-markdown-in-java/)
 Apprenez à transformer du HTML en Markdown avec Aspose.HTML for Java, étape par étape, pour une conversion fiable et rapide.
 
+### [Comment générer un PDF à partir de HTML en Java avec Aspose.HTML](./how-to-generate-pdf-from-html-in-java-with-aspose-html/)
+
 ## Foire aux questions
 
 **Q : Puis-je utiliser Aspose.HTML for Java dans une application commerciale ?**  

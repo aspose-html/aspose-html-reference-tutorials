@@ -215,6 +215,8 @@ Aspose.HTML for Java 簡化了 HTML‑to‑PDF 工作流程。請參考專屬教
 說明如何在 Java 中使用固定執行緒池進行 HTML 到 PDF 的批次轉換，提高效能與資源利用。
 ### [如何使用 Aspose 在 Java 中將 HTML 轉換為 Markdown](./how-to-use-aspose-to-convert-html-to-markdown-in-java/)
 使用 Aspose.HTML for Java 將 HTML 內容轉換為 Markdown 格式，簡化文件處理流程。
+### [如何使用 Aspose.HTML 在 Java 中從 HTML 產生 PDF](./how-to-generate-pdf-from-html-in-java-with-aspose-html/)
+說明如何在 Java 使用 Aspose.HTML 將 HTML 轉換為 PDF 的完整步驟與範例程式碼。
 
 ## 常見問題
 
