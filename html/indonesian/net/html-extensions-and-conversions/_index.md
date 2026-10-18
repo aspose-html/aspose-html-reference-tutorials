@@ -179,6 +179,8 @@ Ubah URL menjadi PDF dalam satu baris kode menggunakan Aspose.HTML untuk .NET.
 Pelajari cara menyimpan HTML dan menulisnya ke file menggunakan C# dengan Aspose.HTML.
 ### [Mengonversi HTML ke ZIP di C# – Panduan Lengkap Langkah‑demi‑Langkah](./convert-html-to-zip-in-c-complete-step-by-step-guide/)
 Pelajari cara mengonversi file HTML menjadi arsip ZIP menggunakan C# dengan panduan lengkap langkah demi langkah menggunakan Aspose.HTML.
+### [Cara mengompres HTML menjadi zip menggunakan Aspose.HTML di C#](./how-to-save-html-as-zip-using-aspose-html-in-c/)
+Pelajari cara menyimpan file HTML sebagai arsip ZIP menggunakan C# dan Aspose.HTML dengan contoh kode lengkap.
 
 ## Kesimpulan
 

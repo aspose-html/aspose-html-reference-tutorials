@@ -132,6 +132,12 @@ C# と Aspose.HTML で HTML を PDF に変換し、ZIP アーカイブとして�
 ### [C# で HTML を ZIP に保存 – 完全ガイド](./save-html-to-zip-in-c-complete-guide/)
 Aspose.HTML for .NET と C# を使用して、HTML を ZIP アーカイブに保存する完全な手順をステップバイステップで解説します。
 
+### [C# で HTML を ZIP に保存 – 完全ガイド](./save-html-as-zip-in-c-complete-guide/)
+Aspose.HTML for .NET と C# を使用して、HTML コンテンツを ZIP アーカイブとして保存する完全な手順をステップバイステップで解説します。
+
+### [C# で Aspose.HTML を使用して HTML を ZIP に保存する方法](./how-to-save-html-as-zip-using-aspose-html-in-c/)
+Aspose.HTML for .NET と C# を使用し、HTML コンテンツを ZIP アーカイブとして保存する手順をステップバイステップで解説します。
+
 ### [シングルファイル HTML – C# で Web ページを 1 つの HTML ファイルとして保存する](./single-file-html-save-a-web-page-as-one-html-file-in-c/)
 Aspose.HTML for .NET を使用して、C# で Web ページを単一の HTML ファイルとして保存する手順をステップバイステップで解説します。
 

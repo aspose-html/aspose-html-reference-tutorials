@@ -157,6 +157,7 @@ Hướng dẫn chi tiết cách tạo lưu trữ HTML từ tệp DOCX bằng Asp
 Hướng dẫn chi tiết cách lưu HTML thành tệp ZIP trong C# với tùy chọn lưu trữ tùy chỉnh, bao gồm ví dụ mã và cấu hình.
 ### [Cách Nén HTML thành Zip với Aspose.HTML – Hướng dẫn đầy đủ](./how-to-zip-html-with-aspose-html-complete-guide/)
 Hướng dẫn toàn diện cách nén HTML thành ZIP bằng Aspose.HTML, bao gồm ví dụ mã và các tùy chọn cấu hình.
+### [Cách lưu HTML thành zip bằng Aspose.HTML trong C#](./how-to-save-html-as-zip-using-aspose-html-in-c/)
 ### [Tạo PDF từ HTML với Aspose – Hướng dẫn từng bước C#](./create-pdf-from-html-with-aspose-step-by-step-c-guide/)
 Hướng dẫn chi tiết từng bước để tạo PDF từ HTML trong .NET bằng C# và Aspose.HTML.
 ### [Cách lưu HTML và ghi HTML vào tệp với C#](./how-to-save-html-and-write-html-to-file-with-c/)
