@@ -110,6 +110,10 @@ Erfahren Sie, wie Sie HTML‑Inhalte mit Aspose.HTML für .NET in ein ZIP‑Arch
 Erfahren Sie, wie Sie HTML‑Inhalte in C# mithilfe von Aspose.HTML in ein ZIP‑Archiv komprimieren – komplette Schritt‑für‑Schritt‑Anleitung.
 ### [HTML in C# zippen – Vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 Erfahren Sie, wie Sie HTML in C# vollständig zippen – eine detaillierte Schritt‑für‑Schritt‑Anleitung mit Aspose.HTML.
+### [Konvertieren Sie HTML in PNG in C# – HTML als Bild rendern](./convert-html-to-png-in-c-render-html-as-image/)
+Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in PNG rendern und als Bild speichern – Schritt‑für‑Schritt‑Anleitung in C#.
+### [HTML als ZIP speichern mit benutzerdefiniertem Ressourcen‑Handler – Schritt‑für‑Schritt‑Anleitung](./save-html-as-zip-with-a-custom-resource-handler-step-by-step/)
+Erfahren Sie, wie Sie HTML‑Inhalte mit Aspose.HTML für .NET in ein ZIP‑Archiv speichern und dabei einen benutzerdefinierten Ressourcen‑Handler einsetzen.
 Erfahren Sie, wie Sie ein HTML‑Dokument mit formatiertem Text erstellen und es mit Aspose.HTML für .NET in ein PDF exportieren.
 ### [PDF aus HTML erstellen – C# Schritt‑für‑Schritt‑Anleitung](./create-pdf-from-html-c-step-by-step-guide/)
 Erstellen Sie PDF aus HTML mit C# – eine detaillierte Schritt‑für‑Schritt‑Anleitung mit Aspose.HTML für .NET.
@@ -185,6 +189,8 @@ Entdecken Sie, wie Sie HTML mit Aspose.HTML für .NET in PDF konvertieren, Seite
 Erfahren Sie, wie Sie HTML-Inhalte in C# komplett schrittweise in ein ZIP-Archiv speichern.
 ### [HTML als ZIP speichern – Komplettes Aspose.HTML‑Guide in C#](./how-to-save-html-as-zip-in-c-complete-aspose-html-guide/)
 Erfahren Sie, wie Sie HTML‑Inhalte mit Aspose.HTML für .NET in ein ZIP‑Archiv speichern – komplette Schritt‑für‑Schritt‑Anleitung in C#.
+### [Webseite als ZIP speichern – Komplettes C#‑Tutorial mit Aspose.HTML](./save-webpage-as-zip-with-aspose-html-complete-c-tutorial/)
+Erfahren Sie, wie Sie mit Aspose.HTML für .NET eine komplette Webseite als ZIP‑Archiv speichern – vollständige Schritt‑für‑Schritt‑Anleitung in C#.
 
 ## Abschluss
 

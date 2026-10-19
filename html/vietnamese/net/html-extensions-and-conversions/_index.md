@@ -81,6 +81,10 @@ Tìm hiểu cách chuyển đổi HTML sang Markdown trong .NET bằng Aspose.HT
 Chuyển đổi HTML sang MHTML trong .NET với Aspose.HTML - Hướng dẫn từng bước để lưu trữ nội dung web hiệu quả. Tìm hiểu cách sử dụng Aspose.HTML cho .NET để tạo kho lưu trữ MHTML.
 ### [Chuyển đổi HTML sang PNG trong .NET với Aspose.HTML](./convert-html-to-png/)
 Khám phá cách sử dụng Aspose.HTML cho .NET để thao tác và chuyển đổi tài liệu HTML. Hướng dẫn từng bước để phát triển .NET hiệu quả.
+
+### [Chuyển đổi HTML sang PNG trong C# – Render HTML thành Hình ảnh](./convert-html-to-png-in-c-render-html-as-image/)
+Khám phá cách chuyển đổi HTML sang PNG trong C# bằng Aspose.HTML, hướng dẫn chi tiết các bước và tùy chọn cấu hình.
+
 ### [Chuyển đổi HTML sang TIFF trong .NET với Aspose.HTML](./convert-html-to-tiff/)
 Tìm hiểu cách chuyển đổi HTML sang TIFF bằng Aspose.HTML cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để tối ưu hóa nội dung web hiệu quả.
 ### [Chuyển đổi HTML sang XPS trong .NET với Aspose.HTML](./convert-html-to-xps/)
@@ -180,6 +184,11 @@ Hướng dẫn chi tiết cách tạo tệp ZIP chứa HTML và hình ảnh nhú
 Hướng dẫn chi tiết cách lưu tài liệu HTML vào tệp ZIP trong C# bằng Aspose.HTML, bao gồm ví dụ và các tùy chọn cấu hình.
 ### [Cách lưu HTML dưới dạng ZIP trong C# – Hướng dẫn đầy đủ Aspose.HTML](./how-to-save-html-as-zip-in-c-complete-aspose-html-guide/)
 Hướng dẫn chi tiết cách lưu HTML thành tệp ZIP trong C# bằng Aspose.HTML, bao gồm ví dụ mã và tùy chọn cấu hình.
+### [Lưu HTML dưới dạng ZIP với trình xử lý tài nguyên tùy chỉnh – hướng dẫn từng bước](./save-html-as-zip-with-a-custom-resource-handler-step-by-step/)
+Hướng dẫn chi tiết cách lưu tài liệu HTML thành tệp ZIP bằng trình xử lý tài nguyên tùy chỉnh trong C# với Aspose.HTML.
+
+### [Lưu trang web dưới dạng ZIP với Aspose.HTML – Hướng dẫn C# đầy đủ](./save-webpage-as-zip-with-aspose-html-complete-c-tutorial/)
+Hướng dẫn chi tiết cách lưu trang web thành tệp ZIP bằng C# và Aspose.HTML, kèm ví dụ mã và tùy chọn cấu hình.
 
 ## Phần kết luận
 

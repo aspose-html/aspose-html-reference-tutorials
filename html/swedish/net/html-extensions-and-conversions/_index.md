@@ -78,6 +78,8 @@ Konvertera HTML till MHTML i .NET med Aspose.HTML - En steg-för-steg-guide för
 Upptäck hur du använder Aspose.HTML för .NET för att manipulera och konvertera HTML-dokument. Steg-för-steg-guide för effektiv .NET-utveckling.
 ### [Konvertera HTML till bild i C# – Komplett guide](./convert-html-to-image-in-c-complete-guide/)
 Lär dig hur du konverterar HTML till bild i C# med Aspose.HTML för .NET. En komplett steg-för-steg-guide med kodexempel och anpassningsalternativ.
+### [Konvertera HTML till PNG i C# – Rendera HTML som bild](./convert-html-to-png-in-c-render-html-as-image/)
+Lär dig hur du renderar HTML som PNG-bild i C# med Aspose.HTML – steg‑för‑steg‑guide med kodexempel.
 ### [Konvertera HTML till TIFF i .NET med Aspose.HTML](./convert-html-to-tiff/)
 Lär dig hur du konverterar HTML till TIFF med Aspose.HTML för .NET. Följ vår steg-för-steg-guide för effektiv optimering av webbinnehåll.
 ### [Konvertera HTML till XPS i .NET med Aspose.HTML](./convert-html-to-xps/)
@@ -114,6 +116,10 @@ Lär dig skapa PDF från HTML med Aspose i en detaljerad steg‑för‑steg‑gu
 Lär dig hur du sparar HTML som en ZIP-fil med en komplett C#-kodexempel och steg-för-steg-instruktioner.
 ### [Skapa HTML-dokument och spara som zip – Komplett C#‑guide](./create-html-document-and-save-as-zip-complete-c-guide/)
 Lär dig att skapa ett HTML-dokument och spara det som en ZIP-fil med en komplett C#‑guide.
+### [Spara webbsida som ZIP med Aspose.HTML – Komplett C#-handledning](./save-webpage-as-zip-with-aspose-html-complete-c-tutorial/)
+Lär dig hur du sparar en webbsida som ZIP-arkiv med Aspose.HTML i en komplett C#-guide med kodexempel.
+### [Spara HTML som ZIP med en anpassad resurs‑hanterare – steg‑för‑steg‑guide](./save-html-as-zip-with-a-custom-resource-handler-step-by-step/)
+Lär dig hur du sparar HTML som ZIP‑arkiv med en anpassad resurs‑hanterare i C# med Aspose.HTML för .NET.
 ### [Spara HTML till ZIP i C# – Komplett minnesexempel](./save-html-to-zip-in-c-complete-in-memory-example/)
 Lär dig hur du sparar HTML-filer i ett ZIP‑arkiv i minnet med C# och Aspose.HTML.
 ### [Anpassad resurs‑hanterare i C# – Konvertera HTML till ZIP‑arkiv från minnet](./custom-resource-handler-in-c-convert-html-to-zip-archive-fro/)

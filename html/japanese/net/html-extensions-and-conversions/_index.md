@@ -94,6 +94,8 @@ Aspose.HTML for .NET を使用して HTML ドキュメントを操作および�
 
 ### [C# で HTML を画像に変換する – 完全ガイド](./convert-html-to-image-in-c-complete-guide/)
 Aspose.HTML for .NET を使用して、C# で HTML を画像に変換する方法をステップバイステップで解説します。
+### [C# で HTML を PNG に変換 – HTML を画像としてレンダリング](./convert-html-to-png-in-c-render-html-as-image/)
+C# と Aspose.HTML を使用して、HTML を PNG 画像に変換する手順をステップバイステップで解説します。
 
 ### [Aspose.HTML を使用して .NET で HTML を TIFF に変換する](./convert-html-to-tiff/)
 ### [Aspose.HTML を使用して .NET で HTML を XPS に変換する](./convert-html-to-xps/)
@@ -107,6 +109,9 @@ C# と Aspose.HTML を使用して、HTML コンテンツを Zip アーカイブ
 
 ### [C# で HTML を Zip に圧縮する – 完全ガイド](./how-to-zip-html-in-c-complete-guide/)
 Aspose.HTML for .NET を使用して、C# で HTML を Zip に圧縮する手順をステップバイステップで解説します。
+
+### [Aspose.HTML を使用して Web ページを ZIP に保存する – 完全 C# チュートリアル](./save-webpage-as-zip-with-aspose-html-complete-c-tutorial/)
+Aspose.HTML for .NET を使用して、Web ページ全体を ZIP アーカイブとして保存する手順をステップバイステップで解説します。
 
 ### [C# で HTML を ZIP に保存 – 完全インメモリ例](./save-html-to-zip-in-c-complete-in-memory-example/)
 Aspose.HTML for .NET を使用して、HTML をメモリ内で ZIP アーカイブに保存する手順をステップバイステップで解説します。
@@ -203,6 +208,9 @@ Aspose.HTML for .NET と C# を使用し、HTML コンテンツを ZIP アーカ
 
 ### [C# で HTML を ZIP に保存する方法 – 完全 Aspose.HTML ガイド](./how-to-save-html-as-zip-in-c-complete-aspose-html-guide/)
 Aspose.HTML for .NET を使用して、C# で HTML を ZIP アーカイブとして保存する完全ガイドです。ステップバイステップで解説します。
+
+### [カスタム リソース ハンドラを使用して HTML を ZIP に保存する – ステップバイステップ ガイド](./save-html-as-zip-with-a-custom-resource-handler-step-by-step/)
+カスタム リソース ハンドラを利用し、HTML を ZIP アーカイブとして保存する手順をステップバイステップで解説します。
 
 ## 結論
 

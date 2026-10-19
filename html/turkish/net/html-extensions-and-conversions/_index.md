@@ -74,6 +74,8 @@ Aspose.HTML for .NET kullanarak C# ile HTML'yi PDF'ye nasıl dönüştüreceğin
 HTML belgelerini düzenlemek ve dönüştürmek için Aspose.HTML for .NET'in nasıl kullanılacağını keşfedin. Etkili .NET geliştirme için adım adım kılavuz.
 ### [Aspose.HTML ile .NET'te HTML'yi Görsele Dönüştürme – Tam Kılavuz](./convert-html-to-image-in-c-complete-guide/)
 Aspose.HTML for .NET kullanarak HTML'yi görsellere dönüştürün. Adım adım kılavuzla C#'ta görsel dönüşümün tüm detaylarını öğrenin.
+### [C# ile HTML'yi PNG'ye Dönüştür – HTML'yi Görüntü Olarak Renderla](./convert-html-to-png-in-c-render-html-as-image/)
+Aspose.HTML for .NET ile C# içinde HTML'yi PNG'ye dönüştürün, görüntü olarak renderleyin. Adım adım örnekler ve ipuçları.
 ### [Aspose.HTML ile .NET'te HTML'yi TIFF'e dönüştürün](./convert-html-to-tiff/)
 ### [Aspose.HTML ile .NET'te HTML'yi XPS'e dönüştürün](./convert-html-to-xps/)
 ### [HTML'den PDF Oluşturma – C# Adım Adım Kılavuz](./create-pdf-from-html-c-step-by-step-guide/)
@@ -95,6 +97,8 @@ Aspose.HTML for .NET kullanarak C# ile adım adım HTML belgesi oluşturmayı ö
 Aspose.HTML for .NET kullanarak C# ile HTML dosyasını ZIP arşivine sıkıştırmayı adım adım öğrenin.
 ### [HTML'yi ZIP Olarak Kaydet – Tam C# Öğreticisi](./save-html-as-zip-complete-c-tutorial/)
 Aspose.HTML for .NET kullanarak HTML dosyalarını ZIP arşivine kaydetmeyi adım adım öğrenin.
+### [Aspose.HTML ile Web Sayfasını ZIP Olarak Kaydet – Tam C# Öğreticisi](./save-webpage-as-zip-with-aspose-html-complete-c-tutorial/)
+Aspose.HTML for .NET kullanarak bir web sayfasını ZIP arşivine kaydetmeyi adım adım öğrenin.
 ### [C# ile HTML'yi ZIP'e Kaydet – Tam Bellek İçi Örnek](./save-html-to-zip-in-c-complete-in-memory-example/)
 Aspose.HTML for .NET kullanarak HTML dosyasını bellek içinde ZIP arşivine dönüştürmeyi adım adım öğrenin.
 ### [HTML'den PDF'ye öğretici – C# ile HTML'yi PDF'ye dönüştürün](./html-to-pdf-tutorial-convert-html-to-pdf-in-c/)
@@ -150,6 +154,7 @@ Aspose.HTML for .NET kullanarak C# içinde gömülü görsellerle HTML dosyasın
 Aspose.HTML for .NET ile C# içinde HTML dosyasını ZIP arşivine kaydetmeyi adım adım öğrenin.
 ### [C# ile HTML'yi ZIP Olarak Kaydet – Tam Aspose.HTML Kılavuzu](./how-to-save-html-as-zip-in-c-complete-aspose-html-guide/)
 Aspose.HTML for .NET kullanarak C# içinde HTML dosyalarını ZIP arşivine kaydetmeyi adım adım öğrenin.
+### [Özel kaynak işleyicisiyle HTML'yi ZIP olarak kaydet – adım adım kılavuz](./save-html-as-zip-with-a-custom-resource-handler-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

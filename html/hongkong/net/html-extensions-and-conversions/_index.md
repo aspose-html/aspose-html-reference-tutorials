@@ -97,6 +97,8 @@ Aspose.HTML for .NET 不只是一個函式庫；它還是一個函式庫。它�
 了解如何使用 Aspose.HTML for .NET 來操作和轉換 HTML 文件。有效 .NET 開發的逐步指南。
 ### [使用 Aspose.HTML 將 .NET 中的 HTML 轉換為圖像](./convert-html-to-image-in-c-complete-guide/)
 了解如何使用 Aspose.HTML for .NET 在 C# 中將 HTML 轉換為圖像。提供程式碼範例與完整步驟說明。
+### [使用 C# 將 HTML 轉換為 PNG – 渲染 HTML 為圖像](./convert-html-to-png-in-c-render-html-as-image/)
+使用 Aspose.HTML for .NET 在 C# 中將 HTML 渲染為 PNG 圖像，提供完整步驟說明。
 ### [使用 Aspose.HTML 將 .NET 中的 HTML 轉換為 TIFF](./convert-html-to-tiff/)
 了解如何使用 Aspose.HTML for .NET 將 HTML 轉換為 TIFF。請依照我們的逐步指南進行高效率的網路內容優化。
 ### [使用 Aspose.HTML 將 .NET 中的 HTML 轉換為 XPS](./convert-html-to-xps/)
@@ -185,6 +187,10 @@ Aspose.HTML for .NET 不只是一個函式庫；它還是一個函式庫。它�
 示範如何使用 Aspose.HTML for .NET 在 C# 中將 HTML 及其嵌入圖像壓縮為 ZIP 檔案的完整步驟。
 ### [如何在 C# 中將 HTML 儲存為 ZIP – 完整 Aspose.HTML 指南](./how-to-save-html-as-zip-in-c-complete-aspose-html-guide/)
 使用 Aspose.HTML for .NET 在 C# 中完整示範將 HTML 壓縮為 ZIP，提供詳細步驟與範例。
+### [使用自訂資源處理程式將 HTML 儲存為 ZIP – 完整步驟指南](./save-html-as-zip-with-a-custom-resource-handler-step-by-step/)
+示範如何在 C# 中使用自訂資源處理程式將 HTML 壓縮為 ZIP，提供完整步驟與範例。
+### [使用 Aspose.HTML 將網頁儲存為 ZIP – 完整 C# 教學](./save-webpage-as-zip-with-aspose-html-complete-c-tutorial/)
+使用 Aspose.HTML for .NET 將整個網頁保存為 ZIP 檔案，提供完整的 C# 範例與步驟說明。
 
 ## 結論
 

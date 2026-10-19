@@ -160,6 +160,11 @@ Ismerje meg, hogyan hozhat létre ZIP‑archívumot C#‑ban, amely a HTML‑fá
 Lépésről‑lépésre útmutató a HTML ZIP-be mentéséhez C#‑ban az Aspose.HTML for .NET használatával.
 ### [HTML mentése ZIP-be C#‑ban – Teljes Aspose.HTML útmutató](./how-to-save-html-as-zip-in-c-complete-aspose-html-guide/)
 Ismerje meg, hogyan mentheti a HTML-fájlokat ZIP-archívumba C#‑ban az Aspose.HTML segítségével, részletes lépésről‑lépésre útmutatóval.
+### [HTML konvertálása PNG-be C#-ban – HTML megjelenítése képként](./convert-html-to-png-in-c-render-html-as-image/)
+Ismerje meg, hogyan renderelhet HTML-t képként PNG formátumban C#-ban az Aspose.HTML for .NET segítségével.
+### [Weboldal mentése ZIP-be az Aspose.HTML segítségével – Teljes C# oktatóanyag](./save-webpage-as-zip-with-aspose-html-complete-c-tutorial/)
+### [HTML mentése ZIP-be egy egyéni erőforráskezelővel – lépésről‑lépésre útmutató](./save-html-as-zip-with-a-custom-resource-handler-step-by-step/)
+Ismerje meg, hogyan menthet HTML-fájlokat ZIP-archívumba egy egyéni erőforráskezelő segítségével C#‑ban, részletes lépésekkel.
 
 ## Következtetés
 

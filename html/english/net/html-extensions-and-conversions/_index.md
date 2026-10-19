@@ -181,6 +181,10 @@ Learn how to save HTML content and write it to a file using C# with Aspose.HTML 
 Create a ZIP archive containing HTML and its embedded images using Aspose.HTML for .NET in C#.
 ### [Save HTML to ZIP in C# – Complete Step‑by‑Step Guide](./save-html-to-zip-in-c-complete-step-by-step-guide/)
 Learn how to save HTML to a ZIP archive in C# using Aspose.HTML for .NET with a complete step‑by‑step guide.
+### [Save HTML as ZIP with a Custom Resource Handler – Step‑by‑Step Guide](./save-html-as-zip-with-a-custom-resource-handler-step-by-step/)
+Learn how to save HTML as a ZIP archive using a custom resource handler in Aspose.HTML for .NET with a detailed step‑by‑step guide.
+### [Save Webpage as ZIP with Aspose.HTML – Complete C# Tutorial](./save-webpage-as-zip-with-aspose-html-complete-c-tutorial/)
+Learn how to save a webpage as a ZIP archive using Aspose.HTML for .NET with a complete C# tutorial.
 
 ## Conclusion
 

@@ -91,6 +91,8 @@ Aspose.HTML을 사용하여 .NET에서 HTML을 MHTML로 변환 - 효율적인 �
 Aspose.HTML for .NET을 사용하여 HTML 문서를 조작하고 변환하는 방법을 알아보세요. 효과적인 .NET 개발을 위한 단계별 가이드.
 ### [Aspose.HTML을 사용하여 .NET에서 HTML을 이미지로 변환 – 완전 가이드](./convert-html-to-image-in-c-complete-guide/)
 Aspose.HTML for .NET을 사용하여 C#에서 HTML을 이미지로 변환하는 전체 단계별 가이드.
+### [C#에서 HTML을 PNG로 변환 – HTML을 이미지로 렌더링](./convert-html-to-png-in-c-render-html-as-image/)
+Aspose.HTML for .NET을 활용해 C#에서 HTML을 PNG 이미지로 렌더링하는 방법을 단계별로 안내합니다.
 ### [Aspose.HTML을 사용하여 .NET에서 HTML을 TIFF로 변환](./convert-html-to-tiff/)
 Aspose.HTML for .NET을 사용하여 HTML을 TIFF로 변환하는 방법을 알아보세요. 효율적인 웹 콘텐츠 최적화를 위한 단계별 가이드를 따르세요.
 ### [Aspose.HTML을 사용하여 .NET에서 HTML을 XPS로 변환](./convert-html-to-xps/)
@@ -134,6 +136,10 @@ C#와 Aspose.HTML을 사용해 HTML 파일을 ZIP 압축 파일로 저장하는 
 C#에서 ZipArchive를 활용해 HTML 파일과 관련 리소스를 하나의 ZIP 파일로 저장하는 단계별 가이드입니다.
 ### [C#에서 ZIP 아카이브 만들기 – 임베디드 이미지가 포함된 HTML을 ZIP으로 변환](./create-zip-archive-in-c-convert-html-to-zip-with-embedded-im/)
 C#와 Aspose.HTML을 사용해 이미지가 포함된 HTML을 ZIP 아카이브로 변환하는 단계별 가이드.
+### [맞춤형 리소스 핸들러를 사용하여 HTML을 ZIP으로 저장 – 단계별 가이드](./save-html-as-zip-with-a-custom-resource-handler-step-by-step/)
+Aspose.HTML을 활용해 맞춤형 리소스 핸들러로 HTML을 ZIP 파일로 저장하는 방법을 단계별로 안내합니다.
+### [Aspose.HTML을 사용하여 웹페이지를 ZIP으로 저장 – 전체 C# 튜토리얼](./save-webpage-as-zip-with-aspose-html-complete-c-tutorial/)
+Aspose.HTML for .NET을 활용해 웹페이지를 ZIP 파일로 저장하는 전체 C# 단계별 가이드를 제공합니다.
 
 ### [C#에서 사용자 정의 리소스 핸들러 – 메모리에서 HTML을 ZIP 아카이브로 변환](./custom-resource-handler-in-c-convert-html-to-zip-archive-fro/)
 C#와 Aspose.HTML을 사용해 메모리 내 HTML을 ZIP 파일로 압축하는 사용자 정의 리소스 핸들러 구현 방법을 단계별로 안내합니다.

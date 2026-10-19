@@ -103,7 +103,8 @@ Převeďte HTML na MHTML v .NET pomocí Aspose.HTML – podrobný průvodce pro 
 
 ### [Převeďte HTML na PNG v .NET pomocí Aspose.HTML](./convert-html-to-png/)
 Objevte, jak používat Aspose.HTML pro .NET k manipulaci a převodu HTML dokumentů. Podrobný průvodce pro efektivní vývoj .NET.
-
+### [Převod HTML na PNG v C# – Vykreslení HTML jako obrázek](./convert-html-to-png-in-c-render-html-as-image/)
+Naučte se převést HTML na PNG v C# pomocí Aspose.HTML – podrobný průvodce s ukázkami kódu.
 ### [Převeďte HTML na TIFF v .NET pomocí Aspose.HTML](./convert-html-to-tiff/)
 Naučte se převádět HTML na TIFF pomocí Aspose.HTML pro .NET. Postupujte podle našeho podrobného průvodce pro efektivní optimalizaci webového obsahu.
 
@@ -192,6 +193,10 @@ Naučte se, jak pomocí Aspose.HTML v C# vytvořit ZIP archiv obsahující HTML 
 Naučte se, jak pomocí Aspose.HTML pro .NET uložit HTML soubor do ZIP archivu v C# pomocí podrobného krok‑za‑krokem průvodce.
 ### [Jak uložit HTML jako ZIP v C# – Kompletní průvodce Aspose.HTML](./how-to-save-html-as-zip-in-c-complete-aspose-html-guide/)
 Naučte se, jak pomocí Aspose.HTML pro .NET uložit HTML soubor jako ZIP archiv v C# – kompletní průvodce.
+### [Uložte webovou stránku jako ZIP – Kompletní C# tutoriál](./save-webpage-as-zip-with-aspose-html-complete-c-tutorial/)
+Naučte se, jak uložit webovou stránku jako ZIP archiv pomocí Aspose.HTML pro .NET v kompletním C# tutoriálu.
+### [Uložte HTML jako ZIP s vlastním manipulátorem zdrojů – krok za krokem](./save-html-as-zip-with-a-custom-resource-handler-step-by-step/)
+Naučte se, jak pomocí Aspose.HTML pro .NET uložit HTML soubor jako ZIP archiv s vlastním manipulátorem zdrojů v C#.
 
 ## Závěr
 

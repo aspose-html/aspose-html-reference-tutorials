@@ -77,6 +77,8 @@ Aspose.HTML สำหรับ .NET ไม่ใช่แค่ไลบรา�
 ค้นพบวิธีใช้ Aspose.HTML สำหรับ .NET เพื่อจัดการและแปลงเอกสาร HTML คำแนะนำทีละขั้นตอนสำหรับการพัฒนา .NET ที่มีประสิทธิภาพ
 ### [แปลง HTML เป็นรูปภาพใน C# – คู่มือเต็ม](./convert-html-to-image-in-c-complete-guide/)
 เรียนรู้วิธีแปลง HTML เป็นรูปภาพใน C# อย่างละเอียดด้วย Aspose.HTML คู่มือขั้นตอนเต็มสำหรับนักพัฒนา
+### [แปลง HTML เป็น PNG ใน C# – แสดงผล HTML เป็นภาพ](./convert-html-to-png-in-c-render-html-as-image/)
+เรียนรู้วิธีแปลง HTML เป็น PNG ใน C# ด้วย Aspose.HTML สำหรับ .NET พร้อมคำแนะนำขั้นตอนและตัวอย่างโค้ด
 ### [แปลง HTML เป็น TIFF ใน .NET ด้วย Aspose.HTML](./convert-html-to-tiff/)
 เรียนรู้วิธีแปลง HTML เป็น TIFF ด้วย Aspose.HTML สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อเพิ่มประสิทธิภาพเนื้อหาเว็บอย่างมีประสิทธิภาพ
 ### [แปลง HTML เป็น XPS ใน .NET ด้วย Aspose.HTML](./convert-html-to-xps/)
@@ -181,6 +183,10 @@ Aspose.HTML สำหรับ .NET ไม่ใช่แค่ไลบรา�
 เรียนรู้วิธีสร้าง PDF จากไฟล์ HTML ด้วย C# โดยใช้ Aspose.HTML สำหรับ .NET อย่างละเอียดและครบถ้วน
 ### [วิธีบันทึก HTML เป็น ZIP ใน C# – คู่มือ Aspose.HTML ฉบับสมบูรณ์](./how-to-save-html-as-zip-in-c-complete-aspose-html-guide/)
 เรียนรู้วิธีบันทึก HTML เป็นไฟล์ ZIP อย่างละเอียดด้วย Aspose.HTML สำหรับ .NET และ C#
+### [บันทึก HTML เป็น ZIP ด้วยตัวจัดการทรัพยากรแบบกำหนดเอง – คู่มือขั้นตอนโดยขั้นตอน](./save-html-as-zip-with-a-custom-resource-handler-step-by-step/)
+เรียนรู้วิธีบันทึกไฟล์ HTMLเป็น ZIP โดยใช้ตัวจัดการทรัพยากรแบบกำหนดเองใน C# ด้วย Aspose.HTML สำหรับ .NET อย่างละเอียด
+### [บันทึกหน้าเว็บเป็น ZIP ด้วย Aspose.HTML – คอร์สเต็ม C#](./save-webpage-as-zip-with-aspose-html-complete-c-tutorial/)
+บันทึกหน้าเว็บเป็นไฟล์ ZIP อย่างครบถ้วนด้วย Aspose.HTML และ C# ตามขั้นตอนที่ชัดเจน
 
 ## บทสรุป
 

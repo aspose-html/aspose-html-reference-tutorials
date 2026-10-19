@@ -120,6 +120,11 @@ Aspose.HTML के साथ .NET में HTML को MHTML में बद�
 ### [HTML को ZIP के रूप में सहेजें – पूर्ण C# ट्यूटोरियल](./save-html-as-zip-complete-c-tutorial/)
 ### [HTML दस्तावेज़ बनाएं और ZIP में सहेजें – पूर्ण C# गाइड](./create-html-document-and-save-as-zip-complete-c-guide/)
 .NET के लिए Aspose.HTML का उपयोग करके C# में HTML दस्तावेज़ बनाकर उसे ZIP फ़ाइल में सहेजने की पूरी प्रक्रिया सीखें।
+### [C# में HTML को PNG में बदलें – HTML को इमेज के रूप में रेंडर करें](./convert-html-to-png-in-c-render-html-as-image/)
+C# में Aspose.HTML का उपयोग करके HTML को PNG इमेज में बदलें। चरण‑दर‑चरण मार्गदर्शिका और कोड उदाहरण।
+
+### [Aspose.HTML के साथ वेबपेज को ZIP के रूप में सहेजें – पूर्ण C# ट्यूटोरियल](./save-webpage-as-zip-with-aspose-html-complete-c-tutorial/)
+C# में Aspose.HTML का उपयोग करके वेबपेज को ZIP फ़ाइल में सहेजने की पूरी प्रक्रिया सीखें। चरण‑दर‑चरण मार्गदर्शन।
 
 ### [C# में HTML को ज़िप कैसे करें – HTML को ज़िप में सहेजें](./how-to-zip-html-in-c-save-html-to-zip/)
 .NET के लिए Aspose.HTML का उपयोग करके C# में HTML को ज़िप फ़ाइल में सहेजने का तरीका सीखें।
@@ -229,6 +234,9 @@ C# में Aspose.HTML का उपयोग करके एम्बेड�
 
 ### [C# में HTML को ZIP में सहेजें – पूर्ण चरण‑दर‑चरण गाइड](./save-html-to-zip-in-c-complete-step-by-step-guide/)
 C# में Aspose.HTML का उपयोग करके HTML को ZIP फ़ाइल में सहेजने के विस्तृत चरण‑दर‑चरण निर्देश।
+
+### [कस्टम रिसोर्स हैंडलर के साथ HTML को ZIP के रूप में सहेजें – चरण‑दर‑चरण गाइड](./save-html-as-zip-with-a-custom-resource-handler-step-by-step/)
+कस्टम रिसोर्स हैंडलर का उपयोग करके .NET में HTML को ZIP फ़ाइल में सहेजने के चरण‑दर‑चरण निर्देश।
 
 ## निष्कर्ष
 

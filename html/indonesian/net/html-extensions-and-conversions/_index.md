@@ -101,6 +101,8 @@ Temukan cara menggunakan Aspose.HTML untuk .NET guna memanipulasi dan mengonvers
 
 ### [Konversi HTML ke Gambar dalam C# – Panduan Lengkap](./convert-html-to-image-in-c-complete-guide/)
 Pelajari cara mengonversi HTML menjadi gambar menggunakan C# dengan panduan lengkap dan contoh kode Aspose.HTML.
+### [Konversi HTML ke PNG dalam C# – Render HTML sebagai Gambar](./convert-html-to-png-in-c-render-html-as-image/)
+Pelajari cara mengonversi HTML menjadi PNG menggunakan C# dengan Aspose.HTML, termasuk contoh kode dan opsi rendering gambar.
 
 ### [Konversi HTML ke TIFF dalam .NET dengan Aspose.HTML](./convert-html-to-tiff/)
 Pelajari cara mengonversi HTML ke TIFF dengan Aspose.HTML untuk .NET. Ikuti panduan langkah demi langkah kami untuk pengoptimalan konten web yang efisien.
@@ -199,6 +201,12 @@ Panduan langkah demi langkah lengkap untuk menyimpan HTML sebagai arsip ZIP meng
 Pelajari cara menyimpan file HTML sebagai arsip ZIP menggunakan C# dan Aspose.HTML dengan contoh kode lengkap.
 ### [Buat PDF dari HTML di C# – Panduan Lengkap Langkah‑demi‑Langkah](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
 Pelajari cara membuat PDF dari HTML menggunakan C# dengan panduan lengkap langkah demi langkah menggunakan Aspose.HTML.
+
+### [Simpan HTML sebagai ZIP dengan Penangan Sumber Daya Kustom – Panduan Langkah‑demi‑Langkah](./save-html-as-zip-with-a-custom-resource-handler-step-by-step/)
+Pelajari cara menyimpan file HTML ke dalam arsip ZIP menggunakan penangan sumber daya kustom dengan Aspose.HTML untuk .NET.
+
+### [Simpan Halaman Web sebagai ZIP dengan Aspose.HTML – Tutorial Lengkap C#](./save-webpage-as-zip-with-aspose-html-complete-c-tutorial/)
+Pelajari cara menyimpan seluruh halaman web sebagai arsip ZIP menggunakan Aspose.HTML dalam tutorial C# lengkap.
 
 ## Kesimpulan
 
