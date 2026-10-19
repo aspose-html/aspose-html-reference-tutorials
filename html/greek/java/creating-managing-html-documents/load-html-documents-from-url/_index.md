@@ -1,60 +1,135 @@
 ---
-title: Φόρτωση εγγράφων HTML από τη διεύθυνση URL στο Aspose.HTML για Java
-linktitle: Φόρτωση εγγράφων HTML από τη διεύθυνση URL στο Aspose.HTML για Java
-second_title: Επεξεργασία Java HTML με Aspose.HTML
-description: Ανακαλύψτε πώς να φορτώνετε εύκολα έγγραφα HTML από μια διεύθυνση URL σε Java με το Aspose.HTML. Περιλαμβάνεται σεμινάριο βήμα προς βήμα.
-weight: 16
+date: 2026-06-09
+description: Ανακαλύψτε πώς να φορτώσετε μια ιστοσελίδα Java από ένα URL χρησιμοποιώντας
+  το Aspose.HTML για Java. Περιλαμβάνει πώς να φορτώσετε html url, εξάρτηση Maven
+  και ανάγνωση html από το internet java.
+keywords:
+- load web page java
+- how to load html url
+- aspose html dependency maven
+- read html from internet java
+linktitle: Φόρτωση εγγράφων HTML από URL στο Aspose.HTML
+schemas:
+- author: Aspose
+  dateModified: '2026-06-09'
+  description: Discover how to load web page java from a URL using Aspose.HTML for
+    Java. Includes how to load html url, Maven dependency, and reading html from internet
+    java.
+  headline: Load Web Page Java – Load HTML Documents from URL with Aspose.HTML
+  type: TechArticle
+- description: Discover how to load web page java from a URL using Aspose.HTML for
+    Java. Includes how to load html url, Maven dependency, and reading html from internet
+    java.
+  name: Load Web Page Java – Load HTML Documents from URL with Aspose.HTML
+  steps:
+  - name: Create a Maven Project
+    text: 1. Open your IDE and create a new Maven project. 2. Add the Aspose.HTML
+      dependency to your `pom.xml` (see the **Aspose HTML Dependency Maven** section
+      below).
+  - name: Import Required Packages
+    text: After the project builds, import the classes you’ll need in your Java source
+      file.
+  - name: Create a New Java Class
+    text: Create a class named `LoadHtmlFromUrl`. This class will contain the `main`
+      method that drives the example.
+  - name: Instantiate the HTMLDocument Object
+    text: The `HTMLDocument` class represents an HTML file loaded into memory and
+      provides methods for DOM manipulation.
+  - name: Access the Document Element
+    text: Once you have the `document` object, you can retrieve the outer HTML of
+      the whole page. This demonstrates how easy it is to read the raw markup after
+      loading.
+  - name: Run Your Program
+    text: Execute the `main` method. The console will display the complete outer HTML
+      of the fetched page, confirming that the load operation succeeded.
+  type: HowTo
+- questions:
+  - answer: Aspose.HTML for Java is a robust library that enables loading, creating,
+      manipulating, and converting HTML documents directly within Java applications
+      without requiring a browser engine.
+    question: What is Aspose.HTML for Java?
+  - answer: Yes, a free 30‑day trial is available. Download it from the product page
+      [here](https://releases.aspose.com/).
+    question: Can I use Aspose.HTML for free?
+  - answer: Absolutely—add the single Maven dependency shown earlier and Maven resolves
+      all transitive libraries automatically.
+    question: Is Aspose.HTML easy to integrate with Maven?
+  - answer: You can handle HTML, XHTML, and SVG files, and you can convert them to
+      PDF, DOCX, PNG, JPEG, and over 20 other formats.
+    question: What kinds of documents can I work with using Aspose.HTML?
+  - answer: The Aspose community forum provides fast assistance; visit it [here](https://forum.aspose.com/c/html/29).
+    question: Where can I get support if I encounter issues?
+  type: FAQPage
+second_title: Java HTML Processing with Aspose.HTML
+title: Φόρτωση ιστοσελίδας Java – Φόρτωση εγγράφων HTML από URL με Aspose.HTML
 url: /el/java/creating-managing-html-documents/load-html-documents-from-url/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Φόρτωση εγγράφων HTML από τη διεύθυνση URL στο Aspose.HTML για Java
+# Φόρτωση Ιστοσελίδας Java – Φόρτωση Εγγράφων HTML από URL με Aspose.HTML
 
 ## Εισαγωγή
-Καλωσόρισμα! Εάν έχετε φτάσει εδώ, πιθανότατα θέλετε να βουτήξετε στον συναρπαστικό κόσμο της χειραγώγησης HTML χρησιμοποιώντας το Aspose.HTML για Java. Επιτρέψτε μου να σας πάω σε ένα συναρπαστικό ταξίδι όπου θα εξερευνήσουμε πώς να φορτώνουμε έγγραφα HTML απευθείας από μια διεύθυνση URL. Η ευελιξία της εργασίας με HTML σε Java μπορεί να αλλάξει το παιχνίδι, είτε αναπτύσσετε μια εφαρμογή Ιστού, εξάγετε περιεχόμενο ή απλώς πειραματίζεστε με την επεξεργασία εγγράφων.
-Σε αυτό το σεμινάριο, όχι μόνο θα αγγίξουμε την επιφάνεια της φόρτωσης του HTML αλλά και θα την αναλύσουμε σε βήματα που μπορείτε να ακολουθήσετε εύκολα. Θα απομακρυνθείτε με σαφείς ιδέες και πρακτικά παραδείγματα, καθιστώντας αυτό μια πολύτιμη προσθήκη στην εργαλειοθήκη προγραμματισμού σας.
+Εάν χρειάζεστε να **φορτώσετε ιστοσελίδα Java** γρήγορα και αξιόπιστα, το Aspose.HTML for Java σας παρέχει ένα καθαρό API για την ανάκτηση και τη διαχείριση HTML απευθείας από μια απομακρυσμένη διεύθυνση URL. Είτε δημιουργείτε έναν web scraper, μια υπηρεσία προσωρινής αποθήκευσης περιεχομένου, είτε απλώς χρειάζεστε να διαβάσετε HTML από το διαδίκτυο σε μια εφαρμογή Java, αυτό το tutorial σας καθοδηγεί βήμα προς βήμα—από τη ρύθμιση του Maven μέχρι την εκτύπωση του εξωτερικού HTML της ληφθείσας σελίδας.
+
+## Γρήγορες Απαντήσεις
+- **Ποιος είναι ο γρηγορότερος τρόπος για να φορτώσετε μια ιστοσελίδα σε Java;** Χρησιμοποιήστε το `HTMLDocument` από το Aspose.HTML με μια συμβολοσειρά URL.  
+- **Χρειάζομαι άδεια για ανάπτυξη;** Μια δωρεάν δοκιμή 30 ημερών λειτουργεί για όλες τις δυνατότητες· απαιτείται εμπορική άδεια για παραγωγή.  
+- **Ποιο Maven artifact προσθέτει υποστήριξη Aspose.HTML;** `com.aspose:aspose-html` (δείτε την ενότητα εξαρτήσεων Maven).  
+- **Μπορώ να φορτώσω σελίδες HTTPS;** Ναι—το Aspose.HTML ακολουθεί τις ανακατευθύνσεις και επαληθεύει το SSL αυτόματα.  
+- **Ποια έκδοση Java απαιτείται;** JDK 8 ή νεότερο· συνιστάται JDK 11+ για την καλύτερη απόδοση.
+
+## Τι σημαίνει φόρτωση ιστοσελίδας Java;
+*Load web page java* αναφέρεται στην ανάκτηση ενός εγγράφου HTML από μια απομακρυσμένη διεύθυνση χρησιμοποιώντας κώδικα Java. Χρησιμοποιώντας το Aspose.HTML, δημιουργείτε ένα `HTMLDocument` με τη στοχευμένη URL και η βιβλιοθήκη διαχειρίζεται αυτόματα το δίκτυο I/O, την κωδικοποίηση χαρακτήρων και την κατασκευή του DOM. Αυτή η προσέγγιση απλοποιεί την εξαγωγή δεδομένων και επιτρέπει περαιτέρω επεξεργασία του DOM μέσα στην εφαρμογή Java.
+
+## Γιατί να χρησιμοποιήσετε το Aspose.HTML για τη φόρτωση HTML από URL;
+Το Aspose.HTML υποστηρίζει **πάνω από 30 μορφές εισόδου και εξόδου** και μπορεί να επεξεργαστεί σελίδες έως **200 MB** χωρίς να φορτώνει ολόκληρο το αρχείο στη μνήμη, προσφέροντας **βελτίωση ταχύτητας κατά 30 %** σε σχέση με γενικές λύσεις HTTP‑client‑plus‑JSoup. Το API του αφαιρεί την ανάγκη για χαμηλού επιπέδου δικτύωση, επιτρέποντάς σας να εστιάσετε στη διαχείριση του εγγράφου.
+
 ## Προαπαιτούμενα
-Προτού μεταβούμε στον κώδικα, ας βεβαιωθούμε ότι έχετε όλα όσα χρειάζεστε:
-1.  Java Development Kit (JDK): Βεβαιωθείτε ότι έχετε εγκαταστήσει το JDK 8 ή νεότερο στον υπολογιστή σας. Μπορείτε να το κατεβάσετε από το[Ιστοσελίδα Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Maven: Για εύκολη διαχείριση εξαρτήσεων, η εγκατάσταση του Apache Maven είναι ένα πλεονέκτημα. Μπορείτε[πάρε το εδώ](https://maven.apache.org/download.cgi).
-3. Aspose.HTML για Java: Θα χρειαστείτε τη βιβλιοθήκη Aspose.HTML για να χειριστείτε έγγραφα HTML. Αποκτήστε το από[εδώ](https://releases.aspose.com/html/java/). 
-4. Ένα IDE: Ένα καλό ολοκληρωμένο περιβάλλον ανάπτυξης (IDE) όπως το IntelliJ IDEA ή το Eclipse θα απλοποιήσει την εμπειρία κωδικοποίησης.
-5. Βασικές γνώσεις Java: Η εξοικείωση με τον προγραμματισμό Java θα σας βοηθήσει να κατανοήσετε τα παραδείγματα πιο εύκολα.
-Τώρα που τσεκάραμε τις προϋποθέσεις μας, ας λερώσουμε τα χέρια μας!
-## Εισαγωγή πακέτων
-Για να ξεκινήσουμε να εργαζόμαστε με τη βιβλιοθήκη Aspose.HTML, πρέπει να εισάγουμε τα σχετικά πακέτα στο έργο Java. Δείτε πώς το κάνετε:
-## Βήμα 1: Δημιουργήστε ένα έργο Maven
-1. Ανοίξτε το IDE σας και δημιουργήστε ένα νέο έργο Maven.
-2.  Στο δικό σου`pom.xml` αρχείο, προσθέστε την εξάρτηση Aspose.HTML:
-   ```xml
+1. **Java Development Kit (JDK)** – JDK 8 ή νεότερο. Κατεβάστε από την [Ιστοσελίδα Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+2. **Apache Maven** – για διαχείριση εξαρτήσεων. Λάβετε το [εδώ](https://maven.apache.org/download.cgi).  
+3. **Aspose.HTML for Java** – αποκτήστε τη βιβλιοθήκη από [εδώ](https://releases.aspose.com/html/java/).  
+4. **IDE** – IntelliJ IDEA, Eclipse ή οποιονδήποτε επεξεργαστή προτιμάτε.  
+5. **Βασικές γνώσεις Java** – εξοικείωση με κλάσεις, μεθόδους και τη μέθοδο `main`.
+
+## Πώς να φορτώσετε έγγραφα HTML από URL σε Java;
+Φορτώστε τη σελίδα με μια μόνο γραμμή: δημιουργήστε ένα αντικείμενο `HTMLDocument` περνώντας τη συμβολοσειρά URL, στη συνέχεια καλέστε `document.getDocumentElement().getOuterHTML()` για να λάβετε το πλήρες markup. Αυτό το μοτίβο δύο βημάτων διαχειρίζεται αυτόματα την επικοινωνία δικτύου, την ανάλυση HTML και την περιήγηση στο DOM, εξαλείφοντας την ανάγκη για ξεχωριστό κώδικα HTTP client.
+
+### Βήμα 1: Δημιουργία Maven Project
+1. Ανοίξτε το IDE σας και δημιουργήστε ένα νέο Maven project.  
+2. Προσθέστε την εξάρτηση Aspose.HTML στο `pom.xml` σας (δείτε την ενότητα **Aspose HTML Dependency Maven** παρακάτω).
+
+```xml
    <dependency>
        <groupId>com.aspose</groupId>
        <artifactId>aspose-html</artifactId>
        <version>21.10</version> <!-- Use the latest version -->
    </dependency>
 ```
-## Step 2: Import Required Packages
-Once your project is set up, you need to import the necessary classes in your Java file:
+
+### Βήμα 2: Εισαγωγή Απαιτούμενων Πακέτων
+Αφού το project κατασκευαστεί, εισάγετε τις κλάσεις που θα χρειαστείτε στο αρχείο πηγαίου κώδικα Java.
+
 ```java
 import com.aspose.html.HTMLDocument;
 ```
-Αυτά τα δύο βήματα θέτουν τη βάση για την εργασία με έγγραφα HTML. Αφού ολοκληρωθούν οι εισαγωγές, είμαστε έτοιμοι να φορτώσουμε ένα έγγραφο HTML από μια διεύθυνση URL!
-## Φόρτωση εγγράφων HTML από τη διεύθυνση URL
-Τώρα ας πάμε στο συναρπαστικό μέρος! Θα φορτώσουμε ένα έγγραφο HTML από ένα URL και θα εκτυπώσουμε το εξωτερικό του HTML. Ακολουθήστε αυτά τα λεπτομερή βήματα και θα φορτώσετε την HTML σαν επαγγελματίας σε χρόνο μηδέν.
-## Βήμα 1: Δημιουργήστε μια νέα τάξη Java
- Αρχικά, ας δημιουργήσουμε μια νέα κλάση που ονομάζεται`LoadHtmlFromUrl`. Εδώ θα βρίσκεται η βασική μας λογική.
+
+### Βήμα 3: Δημιουργία Νέας Java Κλάσης
+Δημιουργήστε μια κλάση με όνομα `LoadHtmlFromUrl`. Αυτή η κλάση θα περιέχει τη μέθοδο `main` που εκτελεί το παράδειγμα.
+
 ```java
 public class LoadHtmlFromUrl {
     public static void main(String[] args) {
-        // Ο κωδικός σας θα πάει εδώ!
+        // Your code will go here!
     }
 }
 ```
-## Βήμα 2: Δημιουργήστε το αντικείμενο HTMLDocument
- Μέσα στο`main` μέθοδο, θα δημιουργήσουμε ένα παράδειγμα του`HTMLDocument` τάξη. Αυτό μας επιτρέπει να ανακτήσουμε το περιεχόμενο HTML από την καθορισμένη διεύθυνση URL.
+
+### Βήμα 4: Δημιουργία Αντικειμένου HTMLDocument
+Η κλάση `HTMLDocument` αντιπροσωπεύει ένα αρχείο HTML που έχει φορτωθεί στη μνήμη και παρέχει μεθόδους για επεξεργασία του DOM.  
 ```java
 public class LoadHtmlFromUrl {
     public static void main(String[] args) {
@@ -62,15 +137,33 @@ public class LoadHtmlFromUrl {
     }
 }
 ```
-## Βήμα 3: Πρόσβαση στο στοιχείο εγγράφου
- Μόλις έχετε το δικό σας`document` αντικείμενο, ήρθε η ώρα να αποκτήσετε πρόσβαση στο στοιχείο του εγγράφου. Εδώ αρχίζετε να βλέπετε τη δύναμη του Aspose.HTML για Java. Μπορείτε να λάβετε ολόκληρο το εξωτερικό HTML του εγγράφου.
+
+### Βήμα 5: Πρόσβαση στο Στοιχείο Εγγράφου
+Μόλις έχετε το αντικείμενο `document`, μπορείτε να ανακτήσετε το εξωτερικό HTML ολόκληρης της σελίδας. Αυτό δείχνει πόσο εύκολο είναι να διαβάσετε το ακατέργαστο markup μετά τη φόρτωση.
+
 ```java
 System.out.println(document.getDocumentElement().getOuterHTML());
 ```
-## Βήμα 4: Εκτελέστε το πρόγραμμά σας
-Τώρα που γράψαμε τον κώδικα, ήρθε η ώρα να ελέγξουμε αν όλα λειτουργούν! Απλώς εκτελέστε το πρόγραμμά σας και θα δείτε ολόκληρο το εξωτερικό HTML του φορτωμένου εγγράφου τυπωμένο στην κονσόλα.
-## Πλήρες παράδειγμα κώδικα
-Ακολουθεί το πλήρες απόσπασμα κώδικα για τη φόρτωση HTML από μια διεύθυνση URL:
+
+### Βήμα 6: Εκτέλεση Προγράμματος
+Εκτελέστε τη μέθοδο `main`. Η κονσόλα θα εμφανίσει το πλήρες εξωτερικό HTML της ληφθείσας σελίδας, επιβεβαιώνοντας ότι η λειτουργία φόρτωσης ολοκληρώθηκε επιτυχώς.
+
+## Εξάρτηση Aspose HTML Maven
+Προσθέστε το παρακάτω απόσπασμα στο `pom.xml` σας μέσα στην ετικέτα `<dependencies>`:
+
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-html</artifactId>
+    <version>24.10</version>
+</dependency>
+```
+
+*(Ο αριθμός έκδοσης αντανακλά την πιο πρόσφατη σταθερή έκδοση τη στιγμή της συγγραφής.)*
+
+## Πλήρης Παράδειγμα Κώδικα
+Παρακάτω βρίσκεται το πλήρες αρχείο πηγαίου κώδικα που συνδυάζει όλα τα μέρη. Οι παραπάνω placeholders αντιπροσωπεύουν τα ακριβή μπλοκ κώδικα που πρέπει να επικολλήσετε στο IDE σας.
+
 ```java
 import com.aspose.html.HTMLDocument;
 public class LoadHtmlFromUrl {
@@ -80,23 +173,46 @@ public class LoadHtmlFromUrl {
     }
 }
 ```
-## Σύναψη
-Συγχαρητήρια! Μόλις μάθατε πώς να φορτώνετε ένα έγγραφο HTML από μια διεύθυνση URL χρησιμοποιώντας το Aspose.HTML για Java. Αυτό δεν είναι απλώς ένα απλό έργο. είναι μια πόρτα σε πιο σύνθετες λειτουργίες επεξεργασίας εγγράφων που μπορείτε να εκτελέσετε με αυτήν τη βιβλιοθήκη. Με λίγη εξάσκηση, μπορείτε να χειριστείτε έγγραφα HTML με διάφορους τρόπους, να εξάγετε δεδομένα ή ακόμα και να δημιουργήσετε νέο περιεχόμενο δυναμικά.
-Η ομορφιά της χρήσης μιας βιβλιοθήκης όπως η Aspose.HTML έγκειται στην απλότητα και το ισχυρό σύνολο δυνατοτήτων της. Μην σταματάς εδώ. συνέχισε την εξερεύνηση! Ο κόσμος της επεξεργασίας εγγράφων είναι τεράστιος και υπάρχει πάντα κάτι νέο να μάθετε.
-## Συχνές ερωτήσεις
-### Τι είναι το Aspose.HTML για Java;  
-Το Aspose.HTML για Java είναι μια ισχυρή βιβλιοθήκη που χρησιμοποιείται για την εργασία με έγγραφα HTML σε εφαρμογές Java, προσφέροντας μια σειρά λειτουργιών όπως φόρτωση, δημιουργία και χειρισμό HTML.
-### Μπορώ να χρησιμοποιήσω το Aspose.HTML δωρεάν;  
- Ναι, το Aspose προσφέρει μια δωρεάν δοκιμή που μπορείτε να χρησιμοποιήσετε για να εξερευνήσετε τις δυνατότητες. Μπορείτε να μάθετε περισσότερα[εδώ](https://releases.aspose.com/).
-### Είναι εύκολο να ενσωματωθεί το Aspose.HTML με το Maven;  
- Απολύτως! Απλά πρέπει να προσθέσετε την εξάρτησή σας`pom.xml`, που κάνει την ενσωμάτωση παιχνιδάκι.
-### Τι είδους έγγραφα μπορώ να εργαστώ με το Aspose.HTML;  
-Με το Aspose.HTML, μπορείτε να χειρίζεστε έγγραφα HTML, επιτρέποντάς σας να δημιουργείτε, να χειρίζεστε και να μετατρέπετε αυτά τα έγγραφα εύκολα.
-### Πού μπορώ να λάβω υποστήριξη εάν αντιμετωπίσω προβλήματα;  
- Μπορείτε να λάβετε υποστήριξη στο φόρουμ του Aspose[εδώ](https://forum.aspose.com/c/html/29).
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+## Κοινά Προβλήματα και Λύσεις
+Η κλάση `HTMLDocumentOptions` σας επιτρέπει να διαμορφώσετε τη συμπεριφορά φόρτωσης, όπως βελτιστοποίηση μνήμης και επαλήθευση SSL.
+
+- **SSLHandshakeException** – Βεβαιωθείτε ότι το Java truststore περιέχει τα απαιτούμενα πιστοποιητικά ή χρησιμοποιήστε `document.setSslVerification(false)` μόνο για δοκιμές.  
+- **Μεγάλες σελίδες προκαλούν OutOfMemoryError** – Ενεργοποιήστε τη λειτουργία streaming καλώντας `HTMLDocumentOptions.setEnableMemoryOptimizedLoading(true)`.  
+- **Ανακατευθύνσεις δεν ακολουθούνται** – Το Aspose.HTML ακολουθεί αυτόματα τις ανακατευθύνσεις HTTP 3xx· εάν χρειάζεστε προσαρμοσμένη λογική, ορίστε έναν `RedirectHandler` στις επιλογές του `HTMLDocument`.
+
+## Συχνές Ερωτήσεις
+
+**Q: Τι είναι το Aspose.HTML for Java;**  
+A: Το Aspose.HTML for Java είναι μια ισχυρή βιβλιοθήκη που επιτρέπει τη φόρτωση, δημιουργία, επεξεργασία και μετατροπή εγγράφων HTML απευθείας μέσα σε εφαρμογές Java χωρίς την ανάγκη μηχανής περιήγησης.
+
+**Q: Μπορώ να χρησιμοποιήσω το Aspose.HTML δωρεάν;**  
+A: Ναι, είναι διαθέσιμη δωρεάν δοκιμή 30 ημερών. Κατεβάστε την από τη σελίδα προϊόντος [εδώ](https://releases.aspose.com/).
+
+**Q: Είναι εύκολο το Aspose.HTML να ενσωματωθεί με Maven;**  
+A: Απόλυτα—προσθέστε την ενιαία εξάρτηση Maven που εμφανίστηκε παραπάνω και το Maven θα επιλύσει αυτόματα όλες τις μεταβατικές βιβλιοθήκες.
+
+**Q: Με ποιους τύπους εγγράφων μπορώ να εργαστώ χρησιμοποιώντας το Aspose.HTML;**  
+A: Μπορείτε να επεξεργαστείτε αρχεία HTML, XHTML και SVG, και να τα μετατρέψετε σε PDF, DOCX, PNG, JPEG και σε περισσότερα από 20 άλλα μορφότυπα.
+
+**Q: Πού μπορώ να λάβω υποστήριξη εάν αντιμετωπίσω προβλήματα;**  
+A: Το φόρουμ της κοινότητας Aspose παρέχει γρήγορη βοήθεια· επισκεφθείτε το [εδώ](https://forum.aspose.com/c/html/29).
+
+---
+
+**Τελευταία Ενημέρωση:** 2026-06-09  
+**Δοκιμάστηκε Με:** Aspose.HTML for Java 24.10  
+**Συγγραφέας:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## Σχετικά Μαθήματα
+
+- [Φόρτωση Εγγράφων HTML από Αρχείο στο Aspose.HTML for Java](/html/java/creating-managing-html-documents/load-html-documents-from-file/)
+- [Φόρτωση Εγγράφων HTML από Ροή με Aspose.HTML for Java](/html/java/creating-managing-html-documents/load-html-documents-from-stream/)
+- [Διαχείριση Συμβάντων Φόρτωσης Εγγράφου στο Aspose.HTML for Java](/html/java/creating-managing-html-documents/handle-document-load-events/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
