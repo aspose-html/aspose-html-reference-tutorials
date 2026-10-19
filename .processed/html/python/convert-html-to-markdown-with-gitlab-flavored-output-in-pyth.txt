@@ -1,0 +1,7 @@
+Title: Convert HTML to Markdown with GitLab‑flavored output in Python
+Slug: convert-html-to-markdown-with-gitlab-flavored-output-in-pyth
+Category: general
+ProcessedDate: 2026-09-29T18:54:22.444751
+SourceRepo: AI Search API
+Keywords: convert html to markdown, gitlab flavored markdown, html to markdown conversion, how to convert html, save markdown from html
+PRNumber: 280

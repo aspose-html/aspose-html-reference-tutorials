@@ -1,0 +1,7 @@
+Title: How to Rasterize SVG in Python – Complete Guide
+Slug: how-to-rasterize-svg-in-python-complete-guide
+Category: general
+ProcessedDate: 2026-05-25T21:17:39.254973
+SourceRepo: AI Search API
+Keywords: how to rasterize svg, change svg dimensions, export svg as png, convert vector to raster, convert svg to png python
+PRNumber: 162

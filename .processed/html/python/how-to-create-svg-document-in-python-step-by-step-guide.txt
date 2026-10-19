@@ -1,0 +1,7 @@
+Title: How to create SVG document in Python – step‑by‑step guide
+Slug: how-to-create-svg-document-in-python-step-by-step-guide
+Category: general
+ProcessedDate: 2026-09-13T22:56:06.513912
+SourceRepo: AI Search API
+Keywords: create svg document, how to create svg, save svg file, create vector graphic, export svg image
+PRNumber: 264

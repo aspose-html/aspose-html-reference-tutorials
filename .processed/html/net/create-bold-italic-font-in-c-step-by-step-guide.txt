@@ -1,0 +1,7 @@
+Title: Create bold italic font in C# – step‑by‑step guide
+Slug: create-bold-italic-font-in-c-step-by-step-guide
+Category: advanced-features
+ProcessedDate: 2026-08-16T06:13:46.961949
+SourceRepo: AI Search API
+Keywords: create bold italic font, create font in c#
+PRNumber: 241

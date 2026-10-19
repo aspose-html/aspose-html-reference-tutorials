@@ -1,260 +1,195 @@
 ---
 category: general
-date: 2026-04-03
-description: Készíts PNG-t HTML-ből az Aspose.HTML segítségével C#-ban. Ismerd meg,
-  hogyan renderelj HTML-t PNG-re, konvertáld a HTML-t képre, és mentsd el a HTML-t
-  PNG-ként antialiasinggal.
+date: 2026-02-11
+description: PNG létrehozása HTML-ből az Aspose.HTML használatával C#-ban. Tanulja
+  meg, hogyan renderelje a HTML-t PNG formátumba, konvertálja a HTML-t képpé, és mentse
+  a HTML-t PNG-ként szöveges hinteléssel.
 draft: false
 keywords:
 - create png from html
 - render html to png
 - convert html to image
+- render html as png
 - save html as png
-- how to render html
 language: hu
-og_description: Készítsen PNG-t HTML-ből az Aspose.HTML segítségével. Ez az útmutató
-  bemutatja, hogyan lehet HTML-t PNG-re renderelni, HTML-t képpé konvertálni, és gyorsan
-  HTML-t PNG-ként menteni.
-og_title: PNG létrehozása HTML‑ből C#‑ban – Teljes útmutató
+og_description: Készíts PNG-t HTML-ből gyorsan. Ez az útmutató bemutatja, hogyan rendereljük
+  a HTML-t PNG-re, hogyan konvertáljuk a HTML-t képre, és hogyan mentsük el a HTML-t
+  PNG-ként teljes kóddal.
+og_title: PNG létrehozása HTML-ből C#-ban – Teljes útmutató
 tags:
-- C#
 - Aspose.HTML
+- C#
 - Image Rendering
-- HTML to PNG
 title: PNG létrehozása HTML‑ből C#‑ban – Lépésről‑lépésre útmutató
 url: /hu/net/generate-jpg-and-png-images/create-png-from-html-in-c-step-by-step-guide/
 ---
+
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PNG létrehozása HTML-ből C#-ban – Teljes útmutató
+# PNG létrehozása HTML‑ből C#‑ban – Teljes programozási útmutató
 
-Valaha szükséged volt **PNG létrehozása HTML-ből**, de nem tudtad, melyik könyvtárat válaszd? Nem vagy egyedül – sok fejlesztő ütközik ebbe a problémába, amikor bélyegképeket, e‑mail grafikákat vagy PDF‑kész képeket akar generálni on‑the‑fly.  
-A jó hír? Az Aspose.HTML‑el **HTML-t renderelhetsz PNG‑be** néhány kódsorral, és megtanulod, hogyan **konvertálj HTML‑t képpé**, **mentsd el a HTML‑t PNG‑ként**, sőt még a renderelés minőségét is finomhangolhatod.
+Valaha szükséged volt **PNG létrehozására HTML‑ből** egy .NET alkalmazásban, de nem tudtad, hol kezdj? Nem vagy egyedül – sok fejlesztő ütközik ebbe a problémába, amikor egy weboldalt bitmapképpé akar átalakítani e‑mailekhez, jelentésekhez vagy bélyegképekhez. A jó hír, hogy az Aspose.HTML segítségével néhány kódsorral renderelheted a HTML‑t PNG‑be, és emellett lehetőséged lesz **HTML képpé konvertálására** magas minőségű antialiasinggal és szövegjavítással.
 
-Ebben az útmutatóban egy gyakorlati példán keresztül mutatjuk be, hogyan alakítható egy apró HTML‑részlet, amely félkövér és dőlt szöveget tartalmaz, egy éles PNG fájlba. A végére pontosan tudni fogod, **hogyan renderelj HTML‑t** antialiasing‑gel, hinting‑gel és egyedi betűtípusokkal – találgatás nélkül.
+Ebben az útmutatóban végigvezetünk a teljes folyamaton: HTML‑fájl betöltése, renderelési beállítások konfigurálása, szövegjavítás engedélyezése, és végül **HTML mentése PNG‑ként**. A végére egy újrahasználható kódrészletet kapsz, amely .NET 6+ környezetben működik, és bármely konzolos alkalmazásba, webszolgáltatásba vagy háttérfeladatba beilleszthető. Nincs szükség külső eszközökre, parancssori trükkökre – csak tiszta C#.
 
 ## Amire szükséged lesz
 
-- **.NET 6.0 vagy újabb** (a kód .NET Framework‑ön is működik, de a .NET 6 a legoptimálisabb).  
-- **Aspose.HTML for .NET** – letöltheted egy ingyenes próbaverziót az Aspose weboldaláról vagy használhatod a NuGet csomagot (`Aspose.HTML`).  
-- Egy alap C# IDE (Visual Studio, Rider vagy VS Code).  
-- Írási jogosultság egy olyan mappához, ahová a kimeneti PNG-t menteni fogod.
+Mielőtt belevágnánk, győződj meg róla, hogy a következő előfeltételek telepítve vannak:
 
-Ennyi – nincs extra kép, nincs külső szolgáltatás, csak tiszta C#. Merüljünk el.
+| Előfeltétel | Indok |
+|--------------|--------|
+| **.NET 6 SDK** (or later) | A kód .NET 6-ra céloz, de korábbi verziók kisebb módosításokkal is működnek. |
+| **Aspose.HTML for .NET** NuGet package | Biztosítja a `HTMLDocument`, `ImageRenderingOptions` és a renderelő motor. |
+| A **sample HTML file** (e.g., `sample.html`) | Az a forrás, amelyet PNG‑vé szeretnél alakítani. |
+| An IDE or editor (Visual Studio, VS Code, Rider…) | A kód írásához és futtatásához. |
 
----
-
-## 1. lépés – Projekt beállítása és az Aspose.HTML telepítése
-
-Először hozz létre egy új konzolos projektet (vagy add hozzá a kódot egy meglévőhöz). Ezután add hozzá az Aspose.HTML csomagot:
+A könyvtárat a jól ismert paranccsal szerezheted be:
 
 ```bash
 dotnet add package Aspose.HTML
 ```
 
-> Miért fontos ez a lépés: Az Aspose.HTML egy teljes HTML‑CSS‑SVG renderelő motorral érkezik, így nem kell webböngészőre vagy headless Chrome‑ra támaszkodnod. Determinisztikus eredményeket biztosít a szerverek között.
+Ennyi – nincs szükség extra natív binárisokra vagy rendszer‑szintű telepítésekre.
 
-## 2. lépés – HTML dokumentum létrehozása félkövér szöveggel
+![A HTML‑ből létrehozott PNG kép – create png from html](placeholder.png "A HTML‑ből létrehozott PNG kép – create png from html")
 
-Kezdünk egy minimális HTML‑stringgel, amely egy `<p>` elemet tartalmaz **font‑weight:bold** stílussal. A `HTMLDocument` osztály feldolgozza a markupot és felépít egy DOM‑ot, amelyet később a renderelőnek adhatunk.
+*(alternatív szöveg: “A HTML‑ből létrehozott PNG kép – create png from html”)*
 
-```csharp
-using Aspose.Html;
-using Aspose.Html.Rendering.Image;
-using Aspose.Html.Drawing;
-using System.IO;
+## 1. lépés – HTML dokumentum betöltése (PNG létrehozása HTML‑ből)
 
-// Step 2: Build the HTML document
-HTMLDocument htmlDoc = new HTMLDocument(
-    "<html><body><p style='font-weight:bold;'>Hello</p></body></html>"
-);
-```
-
-*Miért félkövér?* A félkövér és dőlt stílusok aktiválják a renderelő betűstílus-kezelését, így bemutathatjuk, **hogyan renderelj HTML‑t** különböző tipográfiai beállításokkal.
-
-## 3. lépés – Betűtípus információk meghatározása (Félkövér + Dőlt)
-
-Az Aspose.HTML lehetővé teszi egy `FontInfo` objektum megadását, amely a családot, méretet és stílust szabályozza. Itt az Arial, 14 pt betűtípust kérjük, a félkövér és dőlt zászlókat bitwise OR‑ral kombinálva.
-
-```csharp
-// Step 3: Set up font information (bold + italic)
-FontInfo fontInfo = new FontInfo("Arial", 14, WebFontStyle.Bold | WebFontStyle.Italic);
-```
-
-> **Pro tipp:** Ha a célgép nem rendelkezik a kért betűtípussal, az Aspose egy alapértelmezett rendszerbetűtípusra vált. A konzisztencia biztosításához ágyazz be egy web‑fontot (pl. `@font-face`‑el) a renderelés előtt.
-
-## 4. lépés – Antialiasing engedélyezése a simább képrendereléshez
-
-Az antialiasing csökkenti a lépcsőzetes éleket görbék és szövegek esetén. Nélküle a PNG pixelesnek tűnhet, különösen alacsony felbontásnál.
-
-```csharp
-// Step 4: Turn on antialiasing
-ImageRenderingOptions imageOptions = new ImageRenderingOptions
-{
-    UseAntialiasing = true,
-    // Optional: set image dimensions (defaults to HTML size)
-    // Width = 400,
-    // Height = 200
-};
-```
-
-## 5. lépés – Hinting bekapcsolása a tisztább szövegért
-
-A hinting a glifeket pixelhatárokhoz igazítja, ami kulcsfontosságú kis betűméretek renderelésekor. Ez a lépés biztosítja, hogy a **convert HTML to image** lépés olvasható szöveget eredményezzen.
-
-```csharp
-// Step 5: Enable text hinting
-TextOptions textOptions = new TextOptions
-{
-    UseHinting = true
-};
-```
-
-## 6. lépés – Képrenderelő konfigurálása az összes opcióval
-
-Most a renderelési és szöveges beállításokat egy `ImageRenderer` példányhoz kötjük. A renderelő az a munkagépe, amely ténylegesen a HTML‑t egy bitmapre festi.
-
-```csharp
-// Step 6: Prepare the renderer
-ImageRenderer renderer = new ImageRenderer
-{
-    ImageRenderingOptions = imageOptions,
-    TextOptions = textOptions
-};
-```
-
-## 7. lépés – HTML dokumentum renderelése PNG fájlba
-
-Végül megnyitunk egy `FileStream`‑et a célútra, és a renderelőt arra kérjük, hogy írja ki a képet. A kimeneti formátum a fájl kiterjesztéséből (`.png`) következik.
-
-```csharp
-// Step 7: Render to PNG
-string outputPath = Path.Combine("YOUR_DIRECTORY", "output.png");
-
-using (FileStream outputStream = new FileStream(outputPath, FileMode.Create))
-{
-    renderer.Render(htmlDoc, outputStream);
-}
-```
-
-> **Ami megjelenik:** Egy `output.png` fájl, amely a “Hello” szót tartalmazza félkövér‑dőlt Arial betűtípussal, tökéletesen antialiaselt. Nyisd meg bármely képnézővel a ellenőrzéshez.
-
-![PNG létrehozása HTML-ből példa kimenet](https://example.com/placeholder.png "PNG létrehozása HTML-ből – renderelt eredmény")
-
-*Alt szöveg:* **create png from html** példa kimenet, amely félkövér‑dőlt szöveget mutat.
-
-## Gyakori variációk és szélhelyzetek
-
-### Renderelés más képformátumokba
-
-Ha JPEG‑re vagy GIF‑re van szükséged, egyszerűen változtasd meg a fájl kiterjesztését, és opcionálisan módosítsd az `ImageRenderingOptions`‑t:
-
-```csharp
-imageOptions.ImageFormat = ImageFormat.Jpeg; // or ImageFormat.Gif
-string jpegPath = Path.Combine("YOUR_DIRECTORY", "output.jpg");
-```
-
-### Képméret beállítása a HTML‑től függetlenül
-
-Néha a HTML nem rendelkezik explicit mérettel, de egy rögzített méretű bélyegképet szeretnél. Állítsd be a `Width` és `Height` értékeket az `ImageRenderingOptions`‑on a renderelés előtt.
-
-```csharp
-imageOptions.Width = 300;   // pixels
-imageOptions.Height = 150;  // pixels
-```
-
-### Egyedi web‑font használata
-
-Ha az Arial nem érhető el a szerveren, ágyazz be egy web‑fontot:
-
-```csharp
-string css = "@font-face { font-family: 'MyCustomFont'; src: url('myfont.woff2'); }";
-htmlDoc.Write("<style>" + css + "</style>");
-FontInfo customFont = new FontInfo("MyCustomFont", 14, WebFontStyle.Bold);
-```
-
-### Összetett oldalak renderelése (CSS Grid, SVG, stb.)
-
-Az Aspose.HTML támogatja a modern CSS‑t, de rendkívül nagy oldalak több memóriát igényelhetnek. Ilyen esetekben növeld a folyamat memóriahatárát, vagy rendereld az oldalt szegmensekben a `renderer.Render(htmlDoc, new Rectangle(...), stream)` használatával.
-
-### Magas DPI‑s képernyők kezelése
-
-Retina‑stílusú kimenetekhez állíts be egy skálázási tényezőt:
-
-```csharp
-imageOptions.Scale = 2.0; // 2× scaling for sharper images
-```
-
-## Teljes, azonnal futtatható példa
-
-Az alábbiakban a teljes program található, amelyet beilleszthetsz a `Program.cs`‑be. Csak cseréld le a `YOUR_DIRECTORY`‑t egy valós útvonalra a gépeden.
+Az első dolog, amit meg kell tenned, hogy adsz valamit az Aspose.HTML‑nek, amit renderelhet. A `HTMLDocument` osztály elfogad egy fájlútvonalat, egy URL‑t, vagy akár egy nyers markup‑ot tartalmazó stringet. A legtöbb esetben egy helyi fájl a legjobb, mert a kapcsolódó eszközöket (CSS, képek) mellé helyezheted.
 
 ```csharp
 using Aspose.Html;
 using Aspose.Html.Rendering.Image;
-using Aspose.Html.Drawing;
-using System.IO;
+
+// Load the HTML file you want to turn into a PNG
+HTMLDocument htmlDoc = new HTMLDocument("YOUR_DIRECTORY/sample.html");
+```
+
+> **Miért fontos:** A dokumentum betöltése elemzi a DOM‑ot, feloldja a relatív URL‑ket, és alkalmazza a CSS‑kaszkádot. Ha ezt a lépést kihagyod, és közvetlenül nyers markup‑ot adsz meg, a külső erőforrások (képek, betűkészletek) nem biztos, hogy megtalálhatók, ami üres vagy részben renderelt PNG‑t eredményez.
+
+## 2. lépés – Renderelési beállítások konfigurálása (render html to png)
+
+Most megmondjuk a motornak, milyen nagy legyen a kimenet, és szeretnénk‑e antialiasingot. Az `ImageRenderingOptions` objektumban állíthatod a szélességet, magasságot, DPI‑t és néhány minőségi jelzőt.
+
+```csharp
+// Create rendering options and specify the desired size
+ImageRenderingOptions renderingOptions = new ImageRenderingOptions
+{
+    Width = 800,               // Target width in pixels
+    Height = 600,              // Target height in pixels
+    UseAntialiasing = true,    // Smooth edges for vector graphics
+    // You can also set DpiX/DpiY if you need higher resolution
+};
+```
+
+> **Pro tipp:** Ha retina‑kész képre van szükséged, duplázd meg a szélességet/magasságot, és állítsd be a `DpiX = 300` és `DpiY = 300` értékeket. A kapott PNG éles lesz a nagy felbontású kijelzőkön.
+
+## 3. lépés – Szövegjavítás engedélyezése (improve readability)
+
+Amikor a szöveget kis pixelméretre zsugorítod, a glifek elmosódhatnak. Az Aspose.HTML egy `TextOptions` tulajdonságot kínál, amellyel bekapcsolhatod a hintinget, ami a karaktereket a pixelrácshoz igazítja.
+
+```csharp
+// Turn on text hinting for sharper small‑size fonts
+renderingOptions.TextOptions = new TextOptions { UseHinting = true };
+```
+
+> **Miért a hinting?** A hinting csökkenti a vizuális zajt, amely akkor jelentkezik, amikor egy betűtípus alacsony felbontáson rasterizálódik. Különösen hasznos irányítópultok vagy e‑mail bélyegképek esetén, ahol minden pixel számít.
+
+## 4. lépés – Kép renderelése és mentése (save html as png)
+
+A dokumentummal és a beállításokkal készen, az utolsó lépés egy egy‑soros hívás: hívd meg a `Save` metódust a `HTMLDocument`‑on, és add meg a `.png` kiterjesztésű fájlútvonalat. Az Aspose.HTML automatikusan a PNG enkódert választja a kiterjesztés alapján.
+
+```csharp
+// Render the HTML and write it out as a PNG file
+htmlDoc.Save("YOUR_DIRECTORY/hinted.png", renderingOptions);
+```
+
+Ez a sor lefutása után a megadott mappában megtalálod a `hinted.png` fájlt. Nyisd meg bármely képnézőben – látnod kell a `sample.html` pontos vizuális ábrázolását, a CSS‑stílussal, beágyazott képekkel és éles szöveggel.
+
+### Teljes működő példa
+
+Összeállítva, itt egy minimális konzolos program, amelyet egyszerűen másolj‑be és futtass:
+
+```csharp
+using System;
+using Aspose.Html;
+using Aspose.Html.Rendering.Image;
 
 class Program
 {
     static void Main()
     {
-        // 1️⃣ Create HTML document
-        HTMLDocument htmlDoc = new HTMLDocument(
-            "<html><body><p style='font-weight:bold;'>Hello</p></body></html>"
-        );
+        // 1️⃣ Load the source HTML
+        HTMLDocument htmlDoc = new HTMLDocument("sample.html");
 
-        // 2️⃣ Define font (bold + italic)
-        FontInfo fontInfo = new FontInfo("Arial", 14, WebFontStyle.Bold | WebFontStyle.Italic);
-        // Note: fontInfo can be attached to a style sheet if needed.
-
-        // 3️⃣ Antialiasing options
-        ImageRenderingOptions imageOptions = new ImageRenderingOptions
+        // 2️⃣ Set rendering size and quality
+        ImageRenderingOptions opts = new ImageRenderingOptions
         {
-            UseAntialiasing = true,
-            // Optional: set dimensions or scaling here
+            Width = 800,
+            Height = 600,
+            UseAntialiasing = true
         };
 
-        // 4️⃣ Text hinting options
-        TextOptions textOptions = new TextOptions
-        {
-            UseHinting = true
-        };
+        // 3️⃣ Enable text hinting for sharper fonts
+        opts.TextOptions = new TextOptions { UseHinting = true };
 
-        // 5️⃣ Configure renderer
-        ImageRenderer renderer = new ImageRenderer
-        {
-            ImageRenderingOptions = imageOptions,
-            TextOptions = textOptions
-        };
+        // 4️⃣ Render and save as PNG
+        htmlDoc.Save("hinted.png", opts);
 
-        // 6️⃣ Render to PNG
-        string outputPath = Path.Combine("YOUR_DIRECTORY", "output.png");
-        using (FileStream outStream = new FileStream(outputPath, FileMode.Create))
-        {
-            renderer.Render(htmlDoc, outStream);
-        }
-
-        System.Console.WriteLine($"✅ PNG created at: {outputPath}");
+        Console.WriteLine("✅ PNG created successfully – check hinted.png");
     }
 }
 ```
 
-Futtasd a `dotnet run` parancsot, és látnod kell a megerősítő üzenetet, majd egy frissen generált PNG‑t.
+Futtasd a programot a `dotnet run` paranccsal. Ha minden megfelelően be van állítva, láthatod a megerősítő üzenetet és egy friss PNG fájlt a futtatható mellé.
 
-## Összegzés
+## Gyakori változatok és szélhelyzetek
 
-Most már tudod, **hogyan hozhatsz létre PNG‑t HTML‑ből** az Aspose.HTML segítségével C#‑ban. Az `ImageRenderingOptions` és `TextOptions` konfigurálásával szabályozhatod az antialiasing‑et, a hinting‑et és a kimeneti méretet, így teljes irányítást kapsz a **render html to png** folyamat felett. Akár bélyegkép‑szolgáltatást építesz, e‑mail grafikákat generálsz, vagy egyszerűen csak **save HTML as PNG**‑re van szükséged, a fenti lépések a leggyakoribb eseteket fedik le.
+Az alábbiakban néhány olyan szituációt sorolunk fel, amelyet a **HTML renderelése PNG‑ként** során a valóságban tapasztalhatsz.
 
-**Következő lépések:**  
-- Kísérletezz a **convert html to image** használatával JPEG vagy BMP kimenetekhez.  
-- Adj hozzá CSS animációkat vagy SVG grafikákat, hogy lásd, hogyan kezeli az Aspose a vektor tartalmakat.  
-- Integráld ezt a logikát egy ASP.NET Core API‑ba, hogy az ügyfelek igény szerint PNG‑ket kérhessenek.
+| Helyzet | Hogyan kezeljük |
+|-----------|-----------------|
+| **External CSS/JS files are blocked** | Adj egy egyedi `ResourceLoadingOptions`‑t a `HTMLDocument`‑nek, amely engedélyezi a távoli URL‑ket, vagy ágyazd be a CSS‑t közvetlenül a HTML‑be. |
+| **You need a transparent background** | Állítsd be a `renderingOptions.BackgroundColor = Color.Transparent;` értéket a mentés előtt. |
+| **Dynamic content (e.g., JavaScript) must be evaluated** | Használd a `htmlDoc.RenderToBitmap` metódust a `htmlDoc.WaitForReadyState()` meghívása után; az Aspose.HTML beépített JavaScript‑motort tartalmaz. |
+| **Multiple pages → one long PNG** | Iterálj a `htmlDoc.Pages`-en, és varrj össze a bitmap‑eket, vagy növeld a `Height` értéket, hogy az összes tartalom elférjen. |
+| **Memory pressure on large pages** | Renderelj egy stream‑be (`MemoryStream`) és gyorsan szabadítsd fel az objektumokat, vagy oszd fel a renderelést csempékre. |
 
-Van kérdésed a **how to render HTML** több szálas környezetben való használatáról, vagy segítségre van szükséged egyedi betűtípusok beágyazásához? Hagyj megjegyzést, és jó kódolást!
+Ezekkel a finomhangolásokkal **HTML képpé konvertálható** úgy, hogy megfeleljen a saját teljesítmény‑ vagy megjelenítési igényeidnek.
+
+## Teljesítmény tippek (render html to png faster)
+
+1. **Használd újra a `HTMLDocument` objektumokat**, ha sok oldalt kell renderelned ugyanazzal a layout‑tal – a DOM egyszeri elemzése CPU‑t takarít meg.  
+2. **Gyorsítsd a betűkészletek betöltését** a `renderingOptions.FontSettings` előre betöltött gyűjteményre állításával; ez elkerüli a rendszer‑betűkészletek újbóli betöltését minden hívásnál.  
+3. **Kerüld a túl magas DPI‑t**, hacsak nincs rá valódi szükség; egy 300 DPI‑os kép akár 4‑szer is nagyobb memóriát igényel, és lassabban íródik lemezre.  
+
+## Ellenőrzés – Működött?
+
+A program befejezése után nyisd meg a `hinted.png` fájlt, és ellenőrizd a következő vizuális jeleket:
+
+- Minden CSS‑stílus (betűk, színek, margók) pontosan úgy jelenik meg, mint a böngészőben.  
+- A HTML‑ben hivatkozott képek jelen vannak; hiányzó képek általában helyőrzőt mutatnak.  
+- A szöveg éles, különösen kis méretnél, a bekapcsolt hintingnek köszönhetően.  
+
+Ha valami nem stimmel, ellenőrizd a HTML‑ben megadott útvonalakat, és győződj meg róla, hogy a `YOUR_DIRECTORY` írási jogosultsággal rendelkezik.
+
+## Következtetés
+
+Most már tudod, hogyan **hozz létre PNG‑t HTML‑ből** az Aspose.HTML segítségével C#‑ban. A tutorial lefedte a HTML betöltését, a renderelési beállítások konfigurálását, a szövegjavítás engedélyezését, és végül a **HTML mentését PNG‑ként** egyetlen `Save` hívással. A teljes, futtatható példával könnyedén beépítheted ezt a kódrészletet webszolgáltatásokba, háttérfeladatokba vagy asztali segédprogramokba anélkül, hogy nehéz böngészőket kellene meghívnod.
+
+Mi a következő? Kísérletezz a bevezetett másodlagos kulcsszavakkal:
+
+- **Render HTML to PNG** különböző méretekben bélyegképekhez.  
+- **Convert HTML to image** tömegesen egy termékkatalógushoz.  
+- **Render HTML as PNG** egyedi háttérszínekkel a márkaépítéshez.  
+- **Save HTML as PNG** átlátszóság megőrzésével átfedő grafikákhoz.
+
+Mindezek a variációk ugyanazon alapkódon nyugszanak, így gyorsan alkalmazkodni tudsz. Ha problémákba ütközöl – például külső erőforrások nem töltődnek be vagy memória‑csúcsok jelentkeznek – nézd meg a fenti szélhelyzet‑táblázatot. Boldog renderelést, és legyenek a PNG‑eid mindig pixel‑tökéletesek!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

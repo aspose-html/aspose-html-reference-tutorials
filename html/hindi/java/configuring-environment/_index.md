@@ -116,8 +116,21 @@ Aspose.HTML for Java में रन‑टाइम सर्विस कै�
 ### [Aspose.HTML for Java में सैंडबॉक्सिंग लागू करें](./implement-sandboxing/)
 Aspose.HTML for Java में सैंडबॉक्सिंग कैसे लागू करें, अपने HTML दस्तावेज़ों में स्क्रिप्ट निष्पादन को सुरक्षित रूप से नियंत्रित करें और उन्हें PDF में बदलें।
 
+### [Aspose.HTML for Java में HTML से शीर्षक निकालें – पूर्ण सैंडबॉक्स गाइड](./extract-title-from-html-in-java-complete-sandbox-guide/)
+Aspose.HTML for Java में सैंडबॉक्स का उपयोग करके HTML से शीर्षक निकालें। चरण‑दर‑चरण गाइड।
+
 ### [Aspose.HTML for Java में यूज़र स्टाइल शीट सेट करें](./set-user-style-sheet/)
 Aspose.HTML for Java में कस्टम यूज़र स्टाइलशीट कैसे सेट करें, अपने दस्तावेज़ स्टाइलिंग को बढ़ाएँ और आसानी से HTML को PDF में बदलें।
+
+### [Aspose HTML सैंडबॉक्स बनाएं – पूर्ण जावा गाइड](./create-aspose-html-sandbox-complete-java-guide/)
+Aspose.HTML में सैंडबॉक्स सेटअप करने की पूरी प्रक्रिया, कोड उदाहरण और सर्वोत्तम प्रथाओं के साथ।
+### [Java में लाइब्रेरी संस्करण प्राप्त करें – लाइब्रेरी संस्करण दिखाने के लिए त्वरित गाइड](./get-library-version-in-java-quick-guide-to-show-library-vers/)
+Aspose.HTML for Java में लाइब्रेरी का संस्करण प्राप्त करने और प्रदर्शित करने का सरल तरीका।
+### [Java में सैंडबॉक्स कैसे बनाएं – पूर्ण गाइड](./how-to-create-sandbox-in-java-full-guide/)
+Java में सैंडबॉक्स सेटअप करने की पूरी प्रक्रिया सीखें, सुरक्षित HTML‑to‑PDF रूपांतरण के लिए आवश्यक कदम।
+### [हेडलेस HTML रेंडरिंग के लिए यूज़र एजेंट सेट करें – पूर्ण गाइड](./set-user-agent-for-headless-html-rendering-complete-guide/)
+हेडलेस HTML रेंडरिंग में यूज़र एजेंट कैसे सेट करें, इस चरण‑दर‑चरण गाइड में जानें और रेंडरिंग परिणामों को नियंत्रित करें।
+### [Aspose.HTML for Java में सैंडबॉक्स में DPI कैसे सेट करें – पूर्ण जावा गाइड](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
 
 ---
 

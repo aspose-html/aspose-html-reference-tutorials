@@ -59,8 +59,14 @@ Ontgrendel het potentieel van Aspose.HTML voor .NET met onze uitgebreide gids. L
 Leer hoe u de kracht van Aspose.HTML voor .NET kunt benutten. Geef uw webontwikkeling een boost met HTML-manipulatie en rendering.
 ### [Een document maken in .NET met Aspose.HTML](./creating-a-document/)
 Ontketen de kracht van Aspose.HTML voor .NET. Leer eenvoudig HTML- en SVG-documenten maken, manipuleren en optimaliseren. Bekijk stapsgewijze voorbeelden en veelgestelde vragen.
+### [HTML-document maken in C# – Stapsgewijze gids](./create-html-document-c-step-by-step-guide/)
+Leer hoe u met Aspose.HTML voor .NET een HTML-document in C# maakt, met duidelijke voorbeelden en stap‑voor‑stap instructies.
 ### [HTML maken vanuit een string in C# – Gids voor aangepaste resourcehandler](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Leer hoe u HTML vanuit een string genereert in C# met een aangepaste resourcehandler, inclusief voorbeeldcode en stapsgewijze uitleg.
+### [Hoe HTML te maken en een CSS‑stijl‑element toe te voegen – Stapsgewijze gids](./how-to-create-html-and-add-css-style-element-step-by-step-gu/)
+Leer hoe u HTML-bestanden maakt en een CSS‑stijl‑element toevoegt met een duidelijke stap‑voor‑stap handleiding.
+### [Hoe HTML maken – Elementen toevoegen en tekst opmaken](./how-to-create-html-append-elements-and-style-text/)
+Leer hoe u HTML maakt, elementen toevoegt en tekst opmaakt met Aspose.HTML voor .NET.
 ### [Een document bewerken in .NET met Aspose.HTML](./editing-a-document/)
 Maak boeiende webcontent met Aspose.HTML voor .NET. Leer hoe u HTML, CSS en meer kunt manipuleren.
 ### [Een document opslaan in .NET met Aspose.HTML](./saving-a-document/)
@@ -71,10 +77,19 @@ Leer dynamische en webinhoud te maken met Aspose.HTML voor .NET. Versterk uw onl
 Leer Aspose.HTML voor .NET gebruiken. Importeer namespace, voeg HTML samen met XML en verbeter uw webontwikkelingsvaardigheden met deze uitgebreide gids.
 ### [Genereer XPS-documenten door XpsDevice in .NET met Aspose.HTML](./generate-xps-documents-by-xpsdevice/)
 Ontgrendel het potentieel van webontwikkeling met Aspose.HTML voor .NET. Maak, converteer en manipuleer eenvoudig HTML-documenten.
+### [Tekst vet en cursief maken in C# – Snelle gids voor het stylen van HTML](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
+Leer hoe u tekst vet en cursief maakt in HTML met C# en Aspose.HTML, inclusief voorbeeldcode en stapsgewijze uitleg.
+### [HTML-document maken met Aspose.HTML – Stapsgewijze gids](./create-html-document-with-aspose-html-step-by-step-guide/)
+Leer hoe u een HTML-document maakt met Aspose.HTML in .NET. Volg deze stapsgewijze gids met voorbeelden en tips.
+### [Element aan body toevoegen – Complete C#-gids met Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)
+Leer hoe u een element aan de body van een HTML-document kunt toevoegen met een volledige C#-gids voor Aspose.HTML.
+### [HTML maken met Aspose – Element vinden, vet toepassen](./how-to-create-html-with-aspose-find-element-apply-bold/)
+Leer hoe u met Aspose.HTML een HTML-document maakt, een element zoekt en tekst vet maakt.
+### [HTML stylen met Aspose.HTML – Lettertype stijl instellen in C#](./how-to-style-html-with-aspose-html-set-font-style-in-c/)
+Leer hoe u met Aspose.HTML de lettertype‑stijl van HTML‑elementen in C# kunt aanpassen.
+### [Combineer vet en cursief in HTML met C# – Volledige gids](./combine-bold-and-italic-in-html-with-c-complete-guide/)
+Leer hoe u met C# zowel vetgedrukte als cursieve tekst in HTML combineert met behulp van Aspose.HTML.
 
-## Conclusie
-
-Concluderend, als u HTML-documentmanipulatie onder de knie wilt krijgen met Aspose.HTML voor .NET, bent u hier aan het juiste adres. Onze tutorials zijn uw routekaart naar succes. Maak u klaar om de mogelijkheden te verkennen, uw creativiteit te ontketenen en uw .NET-ontwikkeling te stroomlijnen. Begin vandaag nog aan uw reis en zie hoe uw HTML-documenten voor uw ogen worden getransformeerd. Of u nu een ontwikkelaar of een liefhebber bent, Aspose.HTML voor .NET heeft iets ongelooflijks voor u in petto. Dus, waar wacht u nog op? Laten we samen aan dit spannende avontuur beginnen!
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
