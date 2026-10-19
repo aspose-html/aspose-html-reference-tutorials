@@ -135,6 +135,8 @@ Java で HTML をレンダリングし、ページ読み込み完了を待機し
 Java を使用して Markdown を HTML に変換する方法を、詳細な手順とコード例で解説します。
 ### [Java でクラスで div を選択 – 完全 XPath ガイド](./select-div-by-class-in-java-complete-xpath-guide/)
 Java で XPath を使用し、クラス属性で div 要素を選択する方法をステップバイステップで解説します。完全ガイドで式の作成と実装例を紹介。
+### [MHTML から HTML を抽出する – 完全 Java ガイド](./extract-html-from-mhtml-complete-java-guide/)
+Aspose.HTML for Java を使用して MHTML ファイルから HTML コンテンツを抽出し、解析や再利用ができる手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

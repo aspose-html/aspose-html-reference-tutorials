@@ -179,6 +179,8 @@ Naučte se, jak nastavit Device Pixel Ratio v Javě pro simulaci mobilních zař
 Naučte se, jak povolit a spouštět JavaScript v objektu HtmlDocument v Javě pomocí Aspose.HTML, krok za krokem.
 
 ### [Java multithreading tutoriál: Spuštění úkolů paralelně s pevnou vlákny](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
+### [Spuštění JavaScriptu v Javě – Kompletní průvodce přidáváním elementů do těla](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
+Naučte se, jak pomocí Aspose.HTML spustit JavaScript v Javě a dynamicky přidávat elementy do těla dokumentu.
 
 ---
 

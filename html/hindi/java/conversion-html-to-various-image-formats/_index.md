@@ -214,6 +214,11 @@ Aspose.HTML for Java के साथ HTML तालिकाओं को PNG �
 ### [Java में HTML को WebP में बदलें – पूर्ण गाइड](./convert-html-to-webp-in-java-complete-guide/)
 Aspose.HTML for Java का उपयोग करके HTML को WebP इमेज में बदलने के विस्तृत चरण‑दर‑चरण निर्देश।
 
+### [Aspose.HTML के साथ HTML को PNG में रेंडर करना – पूर्ण Java गाइड](./render-html-to-png-with-aspose-html-complete-java-guide/)
+Aspose.HTML for Java का उपयोग करके HTML को PNG इमेज में रेंडर करने के विस्तृत चरण‑दर‑चरण निर्देश।
+
+### [Java में SVG को PNG में बदलें – हाई‑रेज़ोल्यूशन गाइड](./convert-svg-to-png-in-java-high-resolution-guide/)
+
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **प्रश्न: क्या मैं Java का उपयोग करके अतिरिक्त इमेज लाइब्रेरी के बिना HTML को PNG में बदल सकता हूँ?**  

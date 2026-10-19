@@ -164,6 +164,8 @@ Hướng dẫn chi tiết cách thực thi JavaScript trong Java bằng Aspose.H
 ### [Cách bật JavaScript trong Java HTMLDocument – Hướng dẫn từng bước](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
 Hướng dẫn chi tiết cách kích hoạt JavaScript khi làm việc với HtmlDocument trong Java bằng Aspose.HTML.
 ### [Hướng dẫn đa luồng Java: Chạy các tác vụ song song với Fixed Thread Pool](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
+### [Thực thi JavaScript trong Java – Hướng dẫn toàn diện về việc chèn phần tử vào Body](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
+Hướng dẫn chi tiết cách thực thi JavaScript trong Java để chèn phần tử vào thẻ body.
 
 ---
 

@@ -120,6 +120,10 @@ Naučte se nastavit DPI při konverzi HTML na PNG pomocí Aspose.HTML for Java p
 Kompletní průvodce převodem HTML na PNG s nastavením barvy pozadí a rozlišením pro dokonalou kvalitu výstupu.
 ### [Převod HTML na PNG – Java průvodce vykreslováním HTML tabulek jako obrázků](./convert-html-to-png-java-guide-to-rendering-html-tables-as-i/)
 Naučte se, jak v Javě pomocí Aspose.HTML převést HTML tabulky na PNG obrázky s podrobným krok‑za‑krokem návodem.
+### [Převod SVG do PNG v Javě – Průvodce pro vysoké rozlišení](./convert-svg-to-png-in-java-high-resolution-guide/)
+Naučte se převést SVG do PNG v Javě s vysokým rozlišením pomocí Aspose.HTML. Kompletní krok‑za‑krokem průvodce.
+### [Render HTML do PNG pomocí Aspose.HTML – Kompletní průvodce pro Javu](./render-html-to-png-with-aspose-html-complete-java-guide/)
+Naučte se renderovat HTML do PNG pomocí Aspose.HTML v Javě. Kompletní krok‑za‑krokem průvodce.
 ### [Převod HTML do TIFF](./convert-html-to-tiff/)
 Naučte se snadno převést HTML do TIFF pomocí Aspose.HTML for Java. Krok‑za‑krokem průvodce pro efektivní zpracování dokumentů.
 

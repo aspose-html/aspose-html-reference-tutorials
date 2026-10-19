@@ -186,6 +186,9 @@ Aprenda a habilitar a execução de JavaScript em objetos Java HTMLDocument usan
 ### [java multithreading tutorial: Executar tarefas em paralelo com Thread Pool fixo](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
 Aprenda a executar tarefas simultâneas usando um pool de threads fixo em Java com Aspose.HTML.
 
+### [Executar JavaScript em Java – Guia Completo para Anexar Elementos ao Body](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
+Aprenda a executar JavaScript em Java e adicionar elementos ao corpo da página usando Aspose.HTML for Java.
+
 ---
 
 **Última atualização:** 2025-11-29  

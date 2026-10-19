@@ -171,6 +171,8 @@ Erfahren Sie, wie Sie das Geräte‑Pixel‑Verhältnis in Java simulieren, um m
 Erfahren Sie, wie Sie JavaScript in einem Java‑HTMLDocument aktivieren und ausführen können – eine detaillierte Schritt‑für‑Schritt‑Anleitung.
 ### [Java‑Multithreading‑Tutorial: Aufgaben parallel ausführen mit Fixed Thread Pool](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
 Erfahren Sie, wie Sie mit einem Fixed Thread Pool mehrere Aufgaben gleichzeitig ausführen und die Multithreading‑Leistung in Java optimieren.
+### [JavaScript in Java ausführen – Komplettanleitung zum Anhängen von Elementen an den Body](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
+Erfahren Sie, wie Sie JavaScript aus Java ausführen und Elemente dynamisch an den Body der HTML‑Seite anhängen.
 
 ---
 

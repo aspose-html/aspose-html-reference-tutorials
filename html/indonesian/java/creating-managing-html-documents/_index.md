@@ -133,6 +133,8 @@ Pelajari cara memilih elemen div berdasarkan kelas menggunakan XPath di Java den
 
 ### [Mengonversi Markdown ke HTML di Java – Panduan Langkah‑per‑Langkah](./convert-markdown-to-html-in-java-step-by-step-guide/)
 Pelajari cara mengonversi file Markdown menjadi HTML di Java dengan panduan langkah demi langkah kami.
+### [Ekstrak HTML dari MHTML – Panduan Lengkap Java](./extract-html-from-mhtml-complete-java-guide/)
+Pelajari cara mengekstrak HTML dari file MHTML menggunakan Aspose.HTML untuk Java dengan panduan langkah demi langkah yang lengkap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -171,6 +171,8 @@ Apprenez à simuler différents ratios de pixels d’écran mobile en Java avec 
 Apprenez à activer JavaScript dans Java HTMLDocument avec Aspose.HTML, étape par étape, pour exécuter du code client côté serveur.  
 ### [Tutoriel multithreading Java : exécuter des tâches en parallèle avec un pool de threads fixe](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
 Apprenez à exécuter des tâches en parallèle avec un FixedThreadPool en Java, en utilisant Aspose.HTML.  
+### [Exécuter du JavaScript en Java – Guide complet pour ajouter des éléments au corps](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
+Apprenez à exécuter du JavaScript depuis Java et à ajouter dynamiquement des éléments au corps du document.
 
 ---
 

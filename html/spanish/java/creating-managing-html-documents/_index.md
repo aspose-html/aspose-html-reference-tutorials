@@ -138,6 +138,8 @@ Aprenda a ejecutar múltiples hilos en Java utilizando la instrucción try with 
 Aprenda a renderizar HTML en Java, esperar la carga completa de la página y usar selectores de consulta con Aspose.HTML.
 ### [Convertir Markdown a HTML en Java – Guía paso a paso](./convert-markdown-to-html-in-java-step-by-step-guide/)
 Aprenda a convertir documentos Markdown a HTML en Java usando Aspose.HTML con esta guía paso a paso.
+### [Extraer HTML de MHTML – Guía completa de Java](./extract-html-from-mhtml-complete-java-guide/)
+Aprenda a extraer contenido HTML de archivos MHTML en Java usando Aspose.HTML, con una guía paso a paso completa.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

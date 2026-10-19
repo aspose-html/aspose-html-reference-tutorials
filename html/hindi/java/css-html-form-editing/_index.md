@@ -100,6 +100,8 @@ Aspose.HTML for Java में क्वेरी सिलेक्टर क�
 Java में Aspose.HTML का उपयोग करके CSS का गणना किया गया स्टाइल कैसे प्राप्त करें, सीखें।
 ### [Java में Aspose.HTML के साथ स्टाइल प्राप्त करने की चरण‑दर‑चरण गाइड](./how-to-get-style-in-java-with-aspose-html-step-by-step-guide/)
 Java में Aspose.HTML का उपयोग करके स्टाइल कैसे प्राप्त करें, इस चरण‑दर‑चरण गाइड में सीखें।
+### [Java में Computed Style प्राप्त करें – पूर्ण गाइड](./get-computed-style-in-java-complete-guide/)
+Java में Aspose.HTML का उपयोग करके किसी एलिमेंट का गणना किया गया स्टाइल कैसे प्राप्त करें, इस पूर्ण गाइड में सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

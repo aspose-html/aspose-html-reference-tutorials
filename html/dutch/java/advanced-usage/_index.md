@@ -163,6 +163,8 @@ Leer hoe je JavaScript kunt uitvoeren binnen Java‑applicaties met Aspose.HTML,
 ### [Hoe JavaScript in Java HTMLDocument inschakelen – Stapsgewijze gids](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
 
 ### [Java multithreading‑tutorial: taken parallel uitvoeren met vaste thread‑pool](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
+### [JavaScript uitvoeren in Java – Complete gids voor het toevoegen van elementen aan de body](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
+Leer hoe je met Aspose.HTML JavaScript kunt uitvoeren en dynamisch elementen aan de body van een HTML‑document kunt toevoegen.
 
 ---
 

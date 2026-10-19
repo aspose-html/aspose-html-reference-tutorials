@@ -160,6 +160,8 @@ weight: 20
 ### [Πώς να ενεργοποιήσετε τη JavaScript σε Java HTMLDocument – Οδηγός βήμα‑βήμα](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
 Μάθετε πώς να ενεργοποιήσετε την εκτέλεση JavaScript σε ένα Java HTMLDocument χρησιμοποιώντας Aspose.HTML for Java, βήμα‑βήμα.
 ### [java multithreading tutorial: Εκτέλεση εργασιών παράλληλα με Fixed Thread Pool](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
+### [Εκτέλεση JavaScript σε Java – Πλήρης Οδηγός για Προσθήκη Στοιχείων στο Body](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
+Μάθετε πώς να εκτελείτε κώδικα JavaScript από Java και να προσθέτετε στοιχεία στο σώμα του εγγράφου HTML.
 
 ---
 

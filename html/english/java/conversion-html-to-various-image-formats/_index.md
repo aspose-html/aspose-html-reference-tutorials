@@ -136,6 +136,8 @@ Learn how to convert HTML to PNG with custom background color and resolution usi
 ### [convert html to png – Java guide to rendering HTML tables as images](./convert-html-to-png-java-guide-to-rendering-html-tables-as-i/)
 ### [Render HTML to PNG in Java – Emulate Mobile Device](./render-html-to-png-in-java-emulate-mobile-device/)
 Learn how to render HTML to PNG in Java while emulating a mobile device using Aspose.HTML. Step-by-step guide for accurate mobile screenshots.
+### [Render HTML to PNG with Aspose.HTML – Complete Java Guide](./render-html-to-png-with-aspose-html-complete-java-guide/)
+Render HTML to PNG using Aspose.HTML for Java. A complete step‑by‑step guide for high‑quality image conversion.
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
 ### [Converting HTML to TIFF]({{< relref "convert-html-to-tiff/_index.md" >}})
 Learn how to easily convert HTML to TIFF using Aspose.HTML for Java. Step-by-step guide for efficient document handling.
@@ -171,6 +173,8 @@ Learn how to capture webpage screenshots using Aspose.HTML sandbox in Java, with
 Convert SVG to PNG with high resolution using Aspose.HTML for Java. A step-by-step guide for high‑quality image conversion.
 ### [Convert HTML to WebP in Java – Complete Guide](./convert-html-to-webp-in-java-complete-guide/)
 Convert HTML to WebP using Aspose.HTML for Java. A complete step-by-step guide for efficient HTML‑to‑WebP image conversion.
+### [Convert SVG to PNG in Java – High‑Resolution Guide](./convert-svg-to-png-in-java-high-resolution-guide/)
+Learn how to convert SVG files to high‑resolution PNG images in Java using Aspose.HTML, with step‑by‑step instructions.
 
 ### [How to Render HTML to PNG – Complete Guide for Java Developers](./how-to-render-html-to-png-complete-guide-for-java-developers/)
 A complete guide for Java developers on rendering HTML pages to PNG images using Aspose.HTML, with step‑by‑step code examples.

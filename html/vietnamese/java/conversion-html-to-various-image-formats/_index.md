@@ -65,6 +65,9 @@ Nếu bạn cần **convert HTML to JPEG** để có các hình ảnh giống nh
 ## Chuyển đổi HTML sang PNG
 Chuyển đổi HTML thành hình ảnh PNG là lý tưởng cho đồ họa không mất dữ liệu, ảnh chụp màn hình, hoặc khi bạn cần tính trong suốt. Hướng dẫn toàn diện của chúng tôi cung cấp các chỉ dẫn rõ ràng cho trải nghiệm chuyển đổi mượt mà.
 
+## Render HTML sang PNG với Aspose.HTML – Hướng dẫn Java đầy đủ
+Hướng dẫn chi tiết cách render HTML thành PNG bằng Aspose.HTML cho Java, bao gồm các bước cấu hình và ví dụ thực tế.
+
 ## Chuyển đổi HTML sang TIFF
 Chuyển đổi HTML sang TIFF là lựa chọn hoàn hảo cho in ấn độ phân giải cao hoặc lưu trữ lưu trữ. Hướng dẫn này mô tả chi tiết các bước để tạo tệp TIFF một cách hiệu quả bằng Aspose.HTML for Java.
 
@@ -103,6 +106,9 @@ Hướng dẫn chi tiết cách lưu trang HTML thành tệp PNG trong Java bằ
 ### [Chuyển đổi HTML sang PNG – Hướng dẫn đầy đủ với màu nền & độ phân giải](./convert-html-to-png-full-guide-with-background-color-resolut/)
 Hướng dẫn chi tiết cách chuyển đổi HTML sang PNG với tùy chỉnh màu nền và độ phân giải, sử dụng Aspose.HTML for Java.
 ### [convert html to png – Hướng dẫn Java chuyển đổi bảng HTML thành hình ảnh](./convert-html-to-png-java-guide-to-rendering-html-tables-as-i/)
+### [Render HTML sang PNG với Aspose.HTML – Hướng dẫn Java đầy đủ](./render-html-to-png-with-aspose-html-complete-java-guide/)
+Hướng dẫn chi tiết cách render HTML thành PNG bằng Aspose.HTML cho Java, bao gồm các bước cấu hình và ví dụ thực tế.
+### [Chuyển đổi SVG sang PNG trong Java – Hướng dẫn Độ phân giải cao](./convert-svg-to-png-in-java-high-resolution-guide/)
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
 Tìm hiểu cách dễ dàng convert HTML to TIFF bằng Aspose.HTML for Java. Hướng dẫn từng bước cho việc xử lý tài liệu hiệu quả.
 ### [Cách tạo thumbnail từ HTML – Hướng dẫn Java](./how-to-generate-thumbnail-from-html-java-guide/)

@@ -90,6 +90,9 @@ XPS هو صيغة الطباعة الخاصة بمايكروسوفت. باستخ
 ### [إنشاء PDF من HTML في Java – تحويل HTML إلى PDF Java](./create-pdf-from-html-in-java-convert-html-to-pdf-java/)
 تعلم كيفية إنشاء ملفات PDF من HTML في Java باستخدام Aspose.HTML بسهولة ودقة عالية.
 ### [تحويل HTML إلى MHTML](./convert-html-to-mhtml/)
+حوّل HTML إلى MHTML بسهولة باستخدام Aspose.HTML for Java. اتبع دليلنا خطوة بخطوة لتحويل HTML إلى MHTML بكفاءة.
+### [إنشاء ملف MHTML من HTML – دليل Java كامل](./create-mhtml-file-from-html-complete-java-guide/)
+تعلم كيفية إنشاء ملف MHTML من HTML في Java باستخدام Aspose.HTML خطوة بخطوة وبجودة عالية.
 ### [تحويل HTML إلى XPS](./convert-html-to-xps/)
 ### [تحويل Markdown إلى HTML](./convert-markdown-to-html/)
 حوّل Markdown إلى HTML في Java بسلاسة مع Aspose.HTML for Java. اتبع دليلنا خطوة بخطوة لتبسيط احتياجات تحويل المستندات.
@@ -173,6 +176,14 @@ XPS هو صيغة الطباعة الخاصة بمايكروسوفت. باستخ
 ### [إنشاء PDF من HTML في Java – دليل التحويل الدفعي الكامل](./create-pdf-from-html-in-java-full-batch-conversion-guide/)
 ### [كيفية تحويل HTML إلى PDF في Java – دليل كامل](./how-to-convert-html-to-pdf-in-java-full-guide/)
 ### [تحويل HTML إلى PDF مع التجسيد المتوازي – أسرع](./render-html-to-pdf-with-parallel-rendering-faster/)
+### [إنشاء Markdown من HTML باستخدام Aspose.HTML – دليل Java كامل](./create-markdown-from-html-with-aspose-html-complete-java-gui/)
+تعلم كيفية تحويل HTML إلى مستندات Markdown في Java باستخدام Aspose.HTML خطوة بخطوة مع أمثلة عملية.
+### [Aspose HTML إلى PDF في Java – دليل سريع خطوة بخطوة](./aspose-html-to-pdf-in-java-quick-step-by-step-guide/)
+### [إنشاء EPUB من HTML – دليل Java كامل لإنشاء وحفظ الكتب الإلكترونية](./create-epub-from-html-full-java-guide-to-build-and-save-eboo/)
+### [تحويل HTML إلى PDF باستخدام Java ExecutorService – دليل كامل](./convert-html-to-pdf-with-java-executorservice-complete-guide/)
+تعلم كيفية تحويل HTML إلى PDF في Java باستخدام ExecutorService لإدارة التحويلات المتعددة بكفاءة.
+### [java html إلى pdf – تحويل HTML إلى PDF/A‑2b باستخدام Aspose](./java-html-to-pdf-convert-html-to-pdf-a-2b-with-aspose/)
+تعلم كيفية تحويل HTML إلى PDF/A‑2b في Java باستخدام Aspose.HTML لضمان توافق الأرشفة ومعايير الجودة.
 
 ### [كيفية ضغط PDF باستخدام Aspose HTML إلى PDF – دليل Java](./how-to-compress-pdf-with-aspose-html-to-pdf-java-guide/)
 تعلم كيفية تقليل حجم ملف PDF باستخدام Aspose.HTML إلى PDF في Java مع إرشادات خطوة بخطوة.

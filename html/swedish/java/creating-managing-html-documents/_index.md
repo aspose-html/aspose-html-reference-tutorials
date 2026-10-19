@@ -70,6 +70,8 @@ Lär dig hur du laddar HTML i Java med en tydlig steg‑för‑steg‑guide.
 Lär dig hur du snabbt laddar ett HTML-dokument och extraherar sidtiteln med Aspose.HTML i Java. En kort steg-för-steg-guide.
 ### [Hur du laddar HTML i Java – Jämför XPath och CSS‑väljare](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
 Lär dig att ladda HTML i Java och jämföra XPath med CSS‑väljare för effektiv dataextraktion.
+### [Extrahera HTML från MHTML – Komplett Java-guide](./extract-html-from-mhtml-complete-java-guide/)
+Lär dig hur du extraherar HTML‑innehåll från MHTML‑filer i Java med Aspose.HTML. En komplett steg‑för‑steg‑guide.
 ### [Hur du frågar HTML i Java – Komplett handledning](./how-to-query-html-in-java-complete-tutorial/)
 Lär dig hur du söker och extraherar data från HTML-dokument i Java med en komplett steg-för-steg-guide.
 ### [Hur du använder XPath i Java – Läs HTML och extrahera text](./how-to-use-xpath-in-java-read-html-and-extract-text/)

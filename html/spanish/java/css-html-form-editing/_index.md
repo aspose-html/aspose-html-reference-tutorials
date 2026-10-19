@@ -104,6 +104,9 @@ Aprenda a obtener el estilo computado de elementos CSS en Java usando Aspose.HTM
 
 ### [Cómo obtener estilos en Java con Aspose.HTML – Guía paso a paso](./how-to-get-style-in-java-with-aspose-html-step-by-step-guide/)
 Aprenda a extraer estilos CSS de documentos HTML en Java usando Aspose.HTML mediante una guía práctica paso a paso.
+### [Obtener estilo computado en Java – Guía completa paso a paso](./get-computed-style-in-java-complete-guide/)
+Aprenda a obtener el estilo computado de un elemento en Java usando Aspose.HTML en esta guía completa paso a paso.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -74,6 +74,8 @@ url: /el/java/creating-managing-html-documents/
 Μάθετε πώς να φορτώνετε ένα έγγραφο HTML με Aspose και να εξάγετε τον τίτλο της σελίδας σε Java με αυτόν τον σύντομο οδηγό.
 ### [Πώς να φορτώσετε HTML σε Java – Σύγκριση XPath και CSS Selector](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
 Μάθετε πώς να φορτώνετε HTML σε Java και να συγκρίνετε τις προσεγγίσεις XPath και CSS Selector με το Aspose.HTML.
+### [Εξαγωγή HTML από MHTML – Πλήρης οδηγός Java](./extract-html-from-mhtml-complete-java-guide/)
+Ανακαλύψτε πώς να εξάγετε HTML από αρχεία MHTML σε Java με το Aspose.HTML. Οδηγός βήμα‑βήμα για πλήρη επεξεργασία.
 ### [Δημιουργήστε νέα έγγραφα HTML χρησιμοποιώντας το Aspose.HTML για Java](./generate-new-html-documents/)
 Μάθετε πώς να δημιουργείτε νέα έγγραφα HTML χρησιμοποιώντας το Aspose.HTML για Java με αυτόν τον εύκολο, βήμα προς βήμα οδηγό. Ξεκινήστε τη δημιουργία δυναμικού περιεχομένου HTML.
 

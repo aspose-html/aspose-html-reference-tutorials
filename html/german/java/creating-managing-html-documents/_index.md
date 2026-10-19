@@ -143,6 +143,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML in Java XPath‑Abfragen durchführen und 
 Erfahren Sie, wie Sie mehrere Threads in Java starten und dabei Try‑with‑Resources für eine sichere Ressourcenverwaltung nutzen.
 ### [Div nach Klasse in Java auswählen – Vollständiger XPath-Leitfaden](./select-div-by-class-in-java-complete-xpath-guide/)
 Lernen Sie, wie Sie mit XPath Div-Elemente anhand ihrer CSS‑Klasse in Java auswählen und verarbeiten – Schritt‑für‑Schritt‑Anleitung.
+### [Extrahieren Sie HTML aus MHTML – Vollständiger Java‑Leitfaden](./extract-html-from-mhtml-complete-java-guide/)
+Erfahren Sie, wie Sie HTML aus MHTML-Dateien extrahieren und in Java weiterverarbeiten – Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

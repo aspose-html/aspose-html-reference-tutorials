@@ -132,6 +132,8 @@ Leer hoe u met Aspose.HTML voor Java een div-element selecteert op basis van cla
 Leer hoe u HTML rendert in Java, wacht op paginalading en gebruik query selector met deze volledige stap‑voor‑stap handleiding.
 ### [Markdown naar HTML converteren in Java – Stapsgewijze handleiding](./convert-markdown-to-html-in-java-step-by-step-guide/)
 Leer hoe u Markdown-bestanden converteert naar HTML in Java met Aspose.HTML, inclusief een stapsgewijze handleiding.
+### [HTML extraheren uit MHTML – Complete Java‑gids](./extract-html-from-mhtml-complete-java-guide/)
+Leer hoe u HTML kunt extraheren uit MHTML‑bestanden met Aspose.HTML voor Java in deze volledige stap‑voor‑stap gids.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

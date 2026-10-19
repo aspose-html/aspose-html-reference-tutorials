@@ -166,6 +166,7 @@ Aspose.HTML позволяет прикрепить `DomMutationObserver` к л�
 ### [Как включить JavaScript в Java HTMLDocument – пошаговое руководство](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
 ### [Java многопоточность: выполнение задач параллельно с фиксированным пулом потоков](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
 Узнайте, как с помощью фиксированного пула потоков выполнять несколько задач одновременно в Java, улучшая производительность приложений.
+### [Как выполнить JavaScript в Java – Полное руководство по добавлению элементов в body](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
 
 ---
 

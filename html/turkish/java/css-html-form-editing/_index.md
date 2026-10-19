@@ -99,6 +99,9 @@ Bu eğitimde, Aspose.HTML for Java ile bir öğenin hesaplanmış CSS stilini na
 
 ### [Java’da Aspose.HTML ile Stil Alma – Adım Adım Kılavuz](./how-to-get-style-in-java-with-aspose-html-step-by-step-guide/)
 Aspose.HTML for Java kullanarak bir HTML öğesinin stilini nasıl alacağınızı adım adım öğrenin.
+### [Java’da Hesaplanmış Stili Al – Tam Kılavuz](./get-computed-style-in-java-complete-guide/)
+Bu kapsamlı rehberde, Aspose.HTML for Java kullanarak bir öğenin hesaplanmış stilini nasıl alacağınızı öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -172,6 +172,9 @@ Pelajari cara mengaktifkan JavaScript dalam Java HTMLDocument menggunakan Aspose
 
 ### [Tutorial Multithreading Java: Jalankan Tugas Paralel dengan Fixed Thread Pool](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
 
+### [Cara Menjalankan JavaScript di Java – Panduan Lengkap Menambahkan Elemen ke Body](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
+Pelajari cara mengeksekusi kode JavaScript dalam aplikasi Java dan menambahkan elemen baru ke elemen body secara dinamis.
+
 ---
 
 **Terakhir Diperbarui:** 2025-11-29  

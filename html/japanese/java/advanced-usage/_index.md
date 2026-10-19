@@ -165,6 +165,8 @@ Aspose.HTML for Java を使用して、Java でデバイスピクセル比を設
 ### [Java HTMLDocument で JavaScript を有効にする方法 – ステップバイステップガイド](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
 ### [Java マルチスレッドチュートリアル：固定スレッドプールでタスクを並列実行](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
 固定サイズのスレッドプールを使用して、複数のタスクを同時に実行し、効率的な並列処理を実装する方法を学びます。
+### [Java で JavaScript を実行する – Body に要素を追加する完全ガイド](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
+Aspose.HTML for Java を使い、Java から JavaScript を実行し、Body 要素へ動的に要素を追加する方法を学びます。
 
 ---
 

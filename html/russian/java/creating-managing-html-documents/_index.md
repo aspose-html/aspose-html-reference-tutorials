@@ -129,6 +129,8 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 Узнайте, как преобразовать Markdown в HTML в Java с помощью Aspose.HTML, следуя пошаговым инструкциям.
 ### [Выбор div по классу в Java – Полное руководство по XPath](./select-div-by-class-in-java-complete-xpath-guide/)
 Узнайте, как выбирать элементы div по классу в Java с помощью XPath, следуя подробному пошаговому руководству.
+### [Извлечение HTML из MHTML – Полное руководство по Java](./extract-html-from-mhtml-complete-java-guide/)
+Узнайте, как извлекать HTML из файлов MHTML в Java с помощью Aspose.HTML, пошаговое полное руководство.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

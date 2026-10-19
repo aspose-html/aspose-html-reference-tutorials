@@ -139,6 +139,12 @@ Tanulja meg, hogyan állíthat be egyedi oldalméretet és margókat a HTML‑PD
 ### [PDF oldalméret beállítása Aspose HTML to PDF használatával Java-ban](./set-pdf-page-size-with-aspose-html-to-pdf-in-java/)
 ### [HTML átalakítása Markdown-re Java‑ban – Lépésről‑lépésre útmutató](./convert-html-to-markdown-in-java-step-by-step-guide/)
 ### [HTML renderelése PDF-be párhuzamos rendereléssel – Gyorsabb](./render-html-to-pdf-with-parallel-rendering-faster/)
+### [Aspose HTML PDF Java – Gyors lépésről‑lépésre útmutató](./aspose-html-to-pdf-in-java-quick-step-by-step-guide/)
+### [HTML PDF-re konvertálása Java ExecutorService‑vel – Teljes útmutató](./convert-html-to-pdf-with-java-executorservice-complete-guide/)
+### [MHTML fájl létrehozása HTML‑ből – Teljes Java útmutató](./create-mhtml-file-from-html-complete-java-guide/)
+### [HTML konvertálása PDF/A‑2b-re](./java-html-to-pdf-convert-html-to-pdf-a-2b-with-aspose/)
+### [EPUB létrehozása HTML‑ből – Teljes Java útmutató e‑könyvek építéséhez és mentéséhez](./create-epub-from-html-full-java-guide-to-build-and-save-eboo/)
+### [HTML‑ből Markdown létrehozása Aspose.HTML‑el – Teljes Java útmutató](./create-markdown-from-html-with-aspose-html-complete-java-gui/)
 
 ### [PDF létrehozása HTML‑ből Java‑ban – Kötetes konverzió útmutató](./create-pdf-from-html-in-java-batch-conversion-guide/)
 Ismerje meg, hogyan konvertálhat több HTML‑fájlt egyszerre PDF‑re Java‑ban az Aspose.HTML kötegelt feldolgozási funkcióival.

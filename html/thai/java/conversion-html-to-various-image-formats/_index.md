@@ -111,6 +111,8 @@ weight: 24
 เรียนรู้วิธีบันทึกหน้า HTML เป็นไฟล์ PNG ใน Java ด้วย Aspose.HTML อย่างละเอียดและครบถ้วน
 ### [การแปลง HTML เป็น PNG – คู่มือเต็มพร้อมสีพื้นหลังและความละเอียด](./convert-html-to-png-full-guide-with-background-color-resolut/)
 ### [การแปลง HTML เป็น PNG – คู่มือ Java สำหรับการแสดงตาราง HTML เป็นภาพ](./convert-html-to-png-java-guide-to-rendering-html-tables-as-i/)
+### [เรนเดอร์ HTML เป็น PNG ด้วย Aspose.HTML – คู่มือ Java ฉบับสมบูรณ์](./render-html-to-png-with-aspose-html-complete-java-guide/)
+เรียนรู้วิธีเรนเดอร์ HTML เป็น PNG อย่างละเอียดด้วย Aspose.HTML สำหรับ Java ในคู่มือขั้นตอนเต็ม
 ### [การแปลง HTML เป็น TIFF](./convert-html-to-tiff/)
 เรียนรู้วิธีการแปลง HTML เป็น TIFF ได้อย่างง่ายดายโดยใช้ Aspose.HTML สำหรับ Java คู่มือทีละขั้นตอนเพื่อการจัดการเอกสารอย่างมีประสิทธิภาพ
 ### [วิธีใช้ ExecutorService เพื่อแปลง HTML เป็น PNG แบบแบตช์ขนาน](./how-to-use-executorservice-for-parallel-html-to-png-batch-co/)
@@ -164,6 +166,7 @@ weight: 24
 ### [แปลง HTML เป็น WebP ใน Java – คู่มือฉบับสมบูรณ์](./convert-html-to-webp-in-java-complete-guide/)
 ### [เรนเดอร์ HTML เป็น PNG ใน Java – จำลองอุปกรณ์มือถือ](./render-html-to-png-in-java-emulate-mobile-device/)
 เรียนรู้วิธีเรนเดอร์ HTML เป็นไฟล์ PNG ใน Java พร้อมจำลองอุปกรณ์มือถือเพื่อให้ได้ผลลัพธ์เหมือนบนมือถือ
+### [แปลง SVG เป็น PNG ใน Java – คู่มือความละเอียดสูง](./convert-svg-to-png-in-java-high-resolution-guide/)
 
 ## คำถามที่พบบ่อย
 

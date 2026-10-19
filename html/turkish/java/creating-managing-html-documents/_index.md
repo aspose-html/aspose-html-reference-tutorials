@@ -141,6 +141,8 @@ Java'da Markdown içeriğini hızlıca HTML'ye dönüştürmeyi adım adım öğ
 ### [Java için Aspose.HTML'de HTML Render Etme – Sayfa Yüklenmesini Bekleme ve Sorgu Seçicisi Tam Kılavuzu](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
 ### [Java'da sınıfa göre div seçme – Tam XPath Kılavuzu](./select-div-by-class-in-java-complete-xpath-guide/)
 Java'da sınıf adıyla div öğelerini seçmek ve XPath kullanarak tam yol oluşturmak için adım adım rehber.
+### [MHTML'den HTML Çıkarma – Tam Java Kılavuzu](./extract-html-from-mhtml-complete-java-guide/)
+Java için Aspose.HTML kullanarak MHTML dosyalarından HTML içeriğini nasıl çıkaracağınızı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

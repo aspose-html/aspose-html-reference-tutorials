@@ -102,6 +102,8 @@ url: /el/java/css-html-form-editing/
 Μάθετε πώς να διαβάζετε τα στυλ CSS και να λαμβάνετε το υπολογισμένο στυλ των στοιχείων σε Java με Aspose.HTML.
 ### [Πώς να αποκτήσετε στυλ σε Java με Aspose.HTML – Οδηγός βήμα‑βήμα](./how-to-get-style-in-java-with-aspose-html-step-by-step-guide/)
 Μάθετε πώς να ανακτήσετε και να εφαρμόσετε στυλ CSS σε έγγραφα HTML χρησιμοποιώντας Aspose.HTML για Java σε αυτόν τον πλήρη οδηγό.
+### [Λήψη Υπολογιζόμενου Στυλ σε Java – Πλήρης Οδηγός](./get-computed-style-in-java-complete-guide/)
+Μάθετε πώς να λαμβάνετε το υπολογιζόμενο στυλ στοιχείων σε Java χρησιμοποιώντας το Aspose.HTML σε αυτόν τον πλήρη οδηγό.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

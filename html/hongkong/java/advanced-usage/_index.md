@@ -186,6 +186,9 @@ A: 不需要。單一的 Aspose.HTML for Java 授權即涵蓋所有輸出格式�
 ### [Java 多執行緒教學：使用固定執行緒池平行執行任務](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
 說明如何在 Java 中使用 FixedThreadPool 以平行方式執行多個任務，提升效能與資源管理。
 
+### [在 Java 中執行 JavaScript – 完整指南：將元素附加至 Body](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
+學習在 Java 中執行 JavaScript，將元素動態加入 body，提供完整範例與步驟說明。
+
 ---
 
 **最後更新日期：** 2025-11-29  

@@ -133,6 +133,8 @@ Tanulja meg, hogyan renderelhet HTML-t Java-ban, várhat az oldal betöltésére
 Ismerje meg, hogyan alakíthatja át a Markdown tartalmat HTML-re Java nyelven, részletes, lépésről‑lépésre útmutatóval.
 ### [Div elem kiválasztása osztály alapján Java-ban – Teljes XPath útmutató](./select-div-by-class-in-java-complete-xpath-guide/)
 Tanulja meg, hogyan válassza ki a div elemeket osztályuk alapján Java XPath használatával, részletes, lépésről‑lépésre útmutató.
+### [HTML kinyerése MHTML-ből – Teljes Java útmutató](./extract-html-from-mhtml-complete-java-guide/)
+Tanulja meg, hogyan nyerhet ki HTML-t MHTML fájlokból Java-ban az Aspose.HTML segítségével, lépésről lépésre útmutató.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

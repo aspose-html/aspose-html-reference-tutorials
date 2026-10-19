@@ -131,6 +131,8 @@ Học cách chọn phần tử div dựa trên class trong Java bằng XPath v�
 Học cách render HTML trong Java, chờ trang tải hoàn toàn và sử dụng Query Selector để truy vấn phần tử.
 ### [Chuyển đổi Markdown sang HTML trong Java – Hướng dẫn từng bước](./convert-markdown-to-html-in-java-step-by-step-guide/)
 Học cách chuyển đổi tài liệu Markdown sang HTML trong Java bằng Aspose.HTML qua hướng dẫn chi tiết từng bước.
+### [Trích xuất HTML từ MHTML – Hướng dẫn Java đầy đủ](./extract-html-from-mhtml-complete-java-guide/)
+Học cách trích xuất nội dung HTML từ tệp MHTML bằng Aspose.HTML cho Java qua hướng dẫn chi tiết từng bước.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -138,6 +138,8 @@ Apprenez à sélectionner des éléments div par classe en Java en utilisant XPa
 Apprenez à rendre du HTML en Java, à attendre le chargement complet de la page et à utiliser querySelector pour extraire du contenu.
 ### [Convertir le Markdown en HTML en Java – Guide étape par étape](./convert-markdown-to-html-in-java-step-by-step-guide/)
 Apprenez à convertir du Markdown en HTML en Java avec Aspose.HTML. Guide complet étape par étape pour transformer facilement votre contenu.
+### [Extraire le HTML d'un MHTML – Guide complet Java](./extract-html-from-mhtml-complete-java-guide/)
+Apprenez à extraire le contenu HTML d'un fichier MHTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

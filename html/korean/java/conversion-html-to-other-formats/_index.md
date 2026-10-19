@@ -153,6 +153,12 @@ Aspose.HTML를 사용하여 Java에서 HTML을 Markdown으로 변환하는 방�
 Aspose.HTML를 사용하여 Java에서 HTML을 Markdown으로 변환하고 원본 서식을 유지하는 방법을 배웁니다.
 ### [Java에서 HTML을 Markdown으로 변환 – 단계별 가이드](./convert-html-to-markdown-in-java-step-by-step-guide/)
 Aspose.HTML를 사용하여 Java에서 HTML을 Markdown으로 변환하는 방법을 단계별로 안내합니다.
+### [Aspose HTML을 Java에서 PDF로 변환 – 빠른 단계별 가이드](./aspose-html-to-pdf-in-java-quick-step-by-step-guide/)
+Aspose.HTML를 사용하여 Java에서 HTML을 PDF로 빠르게 변환하는 간단한 단계별 가이드를 제공합니다.
+### [HTML에서 MHTML 파일 만들기 – 완전 Java 가이드](./create-mhtml-file-from-html-complete-java-guide/)
+Aspose.HTML를 사용하여 Java에서 HTML을 MHTML 파일로 변환하는 전체 가이드를 제공합니다. 손쉽게 오프라인 아카이브를 만들 수 있습니다.
+### [Aspose.HTML를 사용하여 HTML에서 Markdown 만들기 – 완전 Java 가이드](./create-markdown-from-html-with-aspose-html-complete-java-gui/)
+Aspose.HTML를 활용해 HTML을 Markdown으로 변환하는 전체 Java 가이드를 단계별로 안내합니다.
 ### [SVG를 이미지로 변환](./convert-svg-to-image/)
 Aspose.HTML를 사용하여 Java에서 SVG를 이미지로 변환하는 방법을 배우세요. 고품질 출력에 대한 포괄적인 가이드입니다.
 ### [SVG를 PDF로 변환](./convert-svg-to-pdf/)
@@ -213,6 +219,12 @@ Aspose.HTML를 활용해 Java에서 HTML을 PDF로 변환하는 과정을 자세
 ### [Aspose HTML을 Java에서 PDF로 변환 – 페이지 여백 및 PDF/A‑2b 적용](./aspose-html-to-pdf-in-java-add-page-margins-pdf-a-2b/)
 Aspose.HTML for Java를 사용해 페이지 여백을 설정하고 PDF/A‑2b 표준을 적용하여 PDF를 생성하는 방법을 단계별로 안내합니다.
 ### [병렬 렌더링으로 HTML을 PDF로 변환 – 더 빠르게](./render-html-to-pdf-with-parallel-rendering-faster/)
+### [HTML에서 EPUB 만들기 – 전자책 구축 및 저장을 위한 Java 전체 가이드](./create-epub-from-html-full-java-guide-to-build-and-save-eboo/)
+Aspose.HTML for Java를 사용하여 HTML을 EPUB 전자책으로 변환하고 저장하는 방법을 단계별로 안내합니다.
+### [Java ExecutorService를 사용한 HTML을 PDF로 변환 – 완전 가이드](./convert-html-to-pdf-with-java-executorservice-complete-guide/)
+Aspose.HTML와 Java ExecutorService를 활용해 멀티스레드 환경에서 HTML을 PDF로 변환하는 전체 가이드를 제공합니다.
+### [java html to pdf – Aspose를 사용하여 HTML을 PDF/A‑2b로 변환](./java-html-to-pdf-convert-html-to-pdf-a-2b-with-aspose/)
+Aspose.HTML for Java를 사용해 HTML을 PDF/A‑2b 표준으로 변환하는 방법을 단계별로 안내합니다.
 
 ### [Aspose HTML을 사용하여 PDF 페이지 크기 설정 – 전체 Java 가이드](./set-pdf-page-size-with-aspose-html-full-java-guide/)
 Aspose.HTML를 사용하여 Java에서 PDF 페이지 크기를 설정하는 전체 단계별 가이드를 제공합니다.

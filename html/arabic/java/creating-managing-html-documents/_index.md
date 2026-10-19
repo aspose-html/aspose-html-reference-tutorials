@@ -70,6 +70,8 @@ url: /ar/java/creating-managing-html-documents/
 تعلم كيفية تشغيل جافا سكريبت داخل مستندات HTML باستخدام Aspose.HTML for Java وإضافة عناصر ديناميكيًا.
 ### [كيفية تحميل HTML في Java – مقارنة XPath ومحدد CSS](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
 اكتشف كيفية تحميل مستندات HTML في Java ومقارنة استخدام XPath ومحددات CSS لاستخراج العناصر بدقة.
+### [استخراج HTML من MHTML – دليل Java كامل](./extract-html-from-mhtml-complete-java-guide/)
+تعلم كيفية استخراج محتوى HTML من ملفات MHTML باستخدام Aspose.HTML لـ Java من خلال دليل شامل خطوة بخطوة.
 ### [إنشاء مستندات HTML جديدة باستخدام Aspose.HTML لـ Java](./generate-new-html-documents/)
 تعرف على كيفية إنشاء مستندات HTML جديدة باستخدام Aspose.HTML for Java من خلال هذا الدليل السهل خطوة بخطوة. ابدأ في إنشاء محتوى HTML ديناميكي.
 ### [التعامل مع أحداث تحميل المستندات في Aspose.HTML لـ Java](./handle-document-load-events/)

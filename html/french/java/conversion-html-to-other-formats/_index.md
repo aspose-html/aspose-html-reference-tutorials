@@ -135,6 +135,8 @@ Apprenez à générer un PDF à partir de HTML en Java avec un guide complet, in
 ### [Comment convertir HTML en PDF en Java – Guide complet](./how-to-convert-html-to-pdf-in-java-full-guide/)
 Suivez ce guide complet pour convertir HTML en PDF en Java avec Aspose.HTML, incluant toutes les options de configuration.
 
+### [java html to pdf – Convertir HTML en PDF/A‑2b avec Aspose](./java-html-to-pdf-convert-html-to-pdf-a-2b-with-aspose/)
+
 ### [Convertir HTML en PDF en Java – Guide étape par étape avec réglages de taille de page](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Apprenez à convertir HTML en PDF en Java en suivant chaque étape, incluant la configuration de la taille de page pour des documents précis.
 ### [Convertir HTML en PDF avec Java – comment créer un pool de threads](./convert-html-to-pdf-with-java-how-to-create-thread-pool/)
@@ -183,6 +185,8 @@ Apprenez à générer des PDF à partir de HTML en Java en traitant des conversi
 ### [Rendu HTML en PDF avec rendu parallèle – Plus rapide](./render-html-to-pdf-with-parallel-rendering-faster/)
 Utilisez le rendu parallèle pour convertir HTML en PDF plus rapidement avec Aspose.HTML for Java.
 
+### [Aspose HTML vers PDF en Java – Guide rapide étape par étape](./aspose-html-to-pdf-in-java-quick-step-by-step-guide/)
+
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 Convertissez facilement HTML en MHTML avec Aspose.HTML for Java. Suivez notre guide étape par étape pour une conversion HTML‑vers‑MHTML efficace.
 
@@ -190,6 +194,8 @@ Convertissez facilement HTML en MHTML avec Aspose.HTML for Java. Suivez notre gu
 Guide complet pour convertir HTML en MHTML en Java avec Aspose.HTML, incluant étapes détaillées et meilleures pratiques.
 ### [Comment intégrer des images lors de la conversion MHTML en PDF – Guide Aspose](./how-to-embed-images-when-converting-mhtml-to-pdf-aspose-guid/)
 Apprenez à intégrer correctement les images lors de la conversion de fichiers MHTML en PDF avec Aspose.HTML for Java.
+### [Créer un fichier MHTML à partir de HTML – Guide complet Java](./create-mhtml-file-from-html-complete-java-guide/)
+Apprenez à créer un fichier MHTML à partir de HTML en Java avec Aspose.HTML, guide complet étape par étape.
 
 ### [Converting HTML to XPS](./convert-html-to-xps/)
 Apprenez à convertir facilement HTML en XPS avec Aspose.HTML for Java. Créez des documents multiplateformes en toute simplicité.
@@ -219,6 +225,9 @@ Apprenez à générer du markdown à partir de HTML en Java avec Aspose.HTML, é
 
 ### [Convertir HTML en Markdown en Java – Guide étape par étape](./convert-html-to-markdown-in-java-step-by-step-guide/)
 Apprenez à convertir du HTML en Markdown en Java avec Aspose.HTML grâce à un guide détaillé étape par étape.
+
+### [Créer du Markdown à partir de HTML avec Aspose.HTML – Guide complet Java](./create-markdown-from-html-with-aspose-html-complete-java-gui/)
+Apprenez à générer du Markdown à partir de contenu HTML en Java avec Aspose.HTML, étape par étape pour des conversions précises.
 
 ### [Converting SVG to Image](./convert-svg-to-image/)
 Apprenez à convertir SVG en images en Java avec Aspose.HTML. Guide complet pour une sortie de haute qualité.
@@ -327,6 +336,12 @@ Générez un PDF à partir de HTML en Java avec Aspose.HTML. Suivez les étapes 
 
 ### [Aspose HTML vers PDF en Java – Ajouter des marges de page et PDF/A‑2b](./aspose-html-to-pdf-in-java-add-page-margins-pdf-a-2b/)
 Apprenez à ajouter des marges de page et à générer des PDF conformes à la norme PDF/A‑2b lors de la conversion HTML en PDF avec Aspose.HTML for Java.
+
+### [Créer un EPUB à partir de HTML – Guide complet Java pour créer et enregistrer des eBooks](./create-epub-from-html-full-java-guide-to-build-and-save-eboo/)
+Apprenez à générer des fichiers EPUB à partir de HTML en Java avec Aspose.HTML, étape par étape.
+
+### [Convertir HTML en PDF avec Java ExecutorService – Guide complet](./convert-html-to-pdf-with-java-executorservice-complete-guide/)
+Apprenez à convertir HTML en PDF en Java en utilisant ExecutorService pour le traitement parallèle, avec un guide complet pas à pas.
 
 ## Foire aux questions
 

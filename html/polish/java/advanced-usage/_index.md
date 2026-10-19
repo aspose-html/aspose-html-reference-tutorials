@@ -166,6 +166,8 @@ Dowiedz się, jak włączyć i uruchomić JavaScript w obiekcie HtmlDocument w J
 ### [Ustaw współczynnik pikseli urządzenia w Javie – przewodnik symulacji mobilnej](./set-device-pixel-ratio-in-java-mobile-simulation-guide/)
 Dowiedz się, jak ustawić współczynnik pikseli urządzenia w Aspose.HTML dla Javy, aby symulować wyświetlanie na różnych urządzeniach mobilnych.
 ### [Java multithreading tutorial: Uruchamianie zadań równolegle przy użyciu stałej puli wątków](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
+### [Wykonywanie JavaScript w Javie – Kompletny przewodnik po dodawaniu elementów do body](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
+Dowiedz się, jak uruchomić kod JavaScript w aplikacji Java i dynamicznie dodawać elementy do elementu body dokumentu.
 
 ---
 

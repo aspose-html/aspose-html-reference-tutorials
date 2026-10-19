@@ -157,6 +157,8 @@ Aspose.HTML for Java를 사용해 디바이스 픽셀 비율을 설정하고 모
 Java HTMLDocument에서 JavaScript를 활성화하고 실행하는 방법을 단계별로 안내합니다.
 ### [Java 멀티스레딩 튜토리얼: 고정 스레드 풀로 작업 병렬 실행](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
 고정된 스레드 풀을 사용해 여러 작업을 동시에 실행하고 효율적인 멀티스레딩을 구현하는 방법을 배웁니다.
+### [Java에서 JavaScript 실행 – 본문에 요소 추가하는 완전 가이드](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
+Java 애플리케이션에서 JavaScript를 실행하고, body에 요소를 동적으로 추가하는 방법을 단계별로 안내합니다.
 
 ---
 

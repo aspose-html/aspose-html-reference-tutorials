@@ -131,6 +131,11 @@ Dowiedz się, jak zapisać stronę HTML jako plik PNG w Javie przy użyciu Aspos
 ### [Konwertowanie HTML do PNG – Pełny przewodnik z kolorem tła i rozdzielczością](./convert-html-to-png-full-guide-with-background-color-resolut/)
 ### [Konwertowanie SVG do PNG w wysokiej rozdzielczości – przewodnik Java](./convert-svg-to-png-with-high-resolution-java-guide/)
 ### [Konwertuj HTML do PNG – przewodnik Java po renderowaniu tabel HTML jako obrazów](./convert-html-to-png-java-guide-to-rendering-html-tables-as-i/)
+### [Konwertowanie SVG do PNG w Javie – Przewodnik wysokiej rozdzielczości](./convert-svg-to-png-in-java-high-resolution-guide/)
+Dowiedz się, jak przy użyciu Aspose.HTML konwertować pliki SVG na obrazy PNG w wysokiej rozdzielczości w Javie.
+
+### [Renderowanie HTML do PNG – Kompletny przewodnik Java z Aspose.HTML](./render-html-to-png-with-aspose-html-complete-java-guide/)
+Dowiedz się, jak renderować HTML do PNG przy użyciu Aspose.HTML w Javie – kompletny przewodnik krok po kroku.
 
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
 Dowiedz się, jak łatwo konwertować HTML do TIFF przy użyciu Aspose.HTML for Java. Przewodnik krok po kroku dla efektywnego zarządzania dokumentami.

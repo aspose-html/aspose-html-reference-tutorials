@@ -168,6 +168,8 @@ Lär dig hur du simulerar mobila enheter genom att justera pixelratio i Aspose.H
 Lär dig hur du aktiverar och kör JavaScript i ett HtmlDocument‑objekt i Java med Aspose.HTML, steg för steg.
 ### [Java multitrådningshandledning: Kör uppgifter parallellt med fast trådpool](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
 Lär dig hur du använder en fast trådpool för att köra flera uppgifter samtidigt i Java med Aspose.HTML.
+### [Kör JavaScript i Java – Komplett guide för att lägga till element i body](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
+Lär dig hur du exekverar JavaScript i Java och dynamiskt lägger till element i dokumentets body med Aspose.HTML.
 
 ---
 

@@ -91,7 +91,7 @@ Al convertir HTML a PDF o XPS, a menudo necesitas controlar las dimensiones fina
 | **Informes financieros** | Márgenes precisos y números de página cumplen con los estándares de auditoría. |
 | **Certificados de e‑learning** | Numeración automática para certificados de varias páginas. |
 | **Procesamiento masivo de formularios** | Automatiza la entrada de datos, reduce errores manuales. |
-| **Renderizado de gráficos del lado del servidor** | Genera PDFs de gráficos de canvas sin interacción del cliente. |
+| **Renderizado de gráficos del lado del servidor** | Genera PDFs de gráficos sin interacción del cliente. |
 | **Archivado de documentos legales** | Tamaño de página consistente al convertir a PDF/XPS. |
 
 ## Preguntas frecuentes
@@ -163,6 +163,7 @@ Aprende a ejecutar y evaluar código JavaScript dentro de aplicaciones Java usan
 Aprende a activar y ejecutar JavaScript dentro de un HtmlDocument en Java usando Aspose.HTML paso a paso.
 ### [Tutorial de multihilos en Java: Ejecutar tareas en paralelo con un pool de hilos fijo](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
 Aprende a usar un FixedThreadPool en Java para ejecutar múltiples tareas simultáneamente y mejorar el rendimiento de tus aplicaciones.
+### [Ejecutar JavaScript en Java – Guía completa para añadir elementos al cuerpo](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
 
 ---
 

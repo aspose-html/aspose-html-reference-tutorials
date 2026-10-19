@@ -99,6 +99,8 @@ Aprenda a recuperar estilos de elementos HTML usando o método querySelector do 
 Aprenda a ler estilos CSS e obter o estilo computado de elementos usando Aspose.HTML para Java.
 ### [Como obter estilo em Java com Aspose.HTML – Guia passo a passo](./how-to-get-style-in-java-with-aspose-html-step-by-step-guide/)
 Aprenda a recuperar estilos CSS de elementos HTML usando Aspose.HTML para Java neste guia detalhado passo a passo.
+### [Obter estilo computado em Java – Guia completo](./get-computed-style-in-java-complete-guide/)
+Aprenda a obter o estilo computado de elementos HTML usando Aspose.HTML para Java neste guia completo e prático.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -98,6 +98,8 @@ Ismerje meg, hogyan használhatja a query selector-t a stílusok lekérésére a
 Ismerje meg, hogyan kérheti le egy elem számított CSS-stílusát Java-ban az Aspose.HTML segítségével.
 ### [Stílus lekérése Java-ban az Aspose.HTML segítségével – Lépésről‑lépésre útmutató](./how-to-get-style-in-java-with-aspose-html-step-by-step-guide/)
 Ismerje meg, hogyan szerezheti meg a CSS‑stílusokat Java‑ban az Aspose.HTML használatával ebben a részletes lépésről‑lépésre útmutatóban.
+### [Számított stílus lekérése Java-ban – Teljes útmutató](./get-computed-style-in-java-complete-guide/)
+Ismerje meg, hogyan szerezheti meg egy elem számított CSS-stílusát Java-ban az Aspose.HTML segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -68,6 +68,8 @@ Scopri come caricare un documento HTML con Aspose e ottenere il titolo della pag
 Scopri come caricare HTML in Java con Aspose.HTML passo dopo passo, includendo suggerimenti pratici e esempi chiari.
 ### [Come caricare HTML in Java – Confronta XPath e CSS Selector](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
 Scopri come caricare HTML in Java e confrontare l'uso di XPath e CSS Selector per le query.
+### [Estrai HTML da MHTML – Guida completa per Java](./extract-html-from-mhtml-complete-java-guide/)
+Scopri come estrarre contenuti HTML da file MHTML usando Aspose.HTML per Java con questa guida passo‑passo completa.
 ### [Generare nuovi documenti HTML utilizzando Aspose.HTML per Java](./generate-new-html-documents/)
 Scopri come creare nuovi documenti HTML usando Aspose.HTML per Java con questa semplice guida passo-passo. Inizia a generare contenuti HTML dinamici.
 ### [Gestire gli eventi di caricamento dei documenti in Aspose.HTML per Java](./handle-document-load-events/)

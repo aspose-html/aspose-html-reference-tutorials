@@ -72,6 +72,8 @@ Aspose.HTML for Java 為旨在在 Java 應用程式中無縫處理 HTML 文件�
 學習如何在 Java 中使用 Aspose.HTML 執行 JavaScript，對 HTML 內容運行腳本並動態添加元素。
 ### [在 Aspose.HTML for Java 中建立 HTML 沙盒 – 逐步指南](./create-sandbox-for-html-in-java-step-by-step-guide/)
 本指南說明如何在 Java 中使用 Aspose.HTML 建立安全的 HTML 沙盒環境，提供逐步說明。
+### [從 MHTML 中提取 HTML – 完整 Java 指南](./extract-html-from-mhtml-complete-java-guide/)
+學習如何使用 Aspose.HTML for Java 從 MHTML 檔案中提取 HTML 內容的完整步驟與示例。
 ### [在 Java 中查詢 HTML – 完整教學](./how-to-query-html-in-java-complete-tutorial/)
 學習使用 Aspose.HTML for Java 查詢 HTML 結構與內容的完整步驟，涵蓋選擇器、XPath 及實作範例。
 ### [在 Java 中載入 HTML 文檔 – 完整指南（XPath 與 CSS）](./load-html-document-java-complete-guide-with-xpath-css/)

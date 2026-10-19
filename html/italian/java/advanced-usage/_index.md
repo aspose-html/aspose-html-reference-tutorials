@@ -141,6 +141,7 @@ R: No. Una singola licenza di Aspose.HTML for Java copre tutti i formati di outp
 ### [Imposta il rapporto di pixel del dispositivo in Java – Guida alla simulazione mobile](./set-device-pixel-ratio-in-java-mobile-simulation-guide/)
 ### [Come abilitare JavaScript in Java HTMLDocument – Guida passo‑per‑passo](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
 ### [java multithreading tutorial: esegui attività in parallelo con Fixed Thread Pool](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
+### [Eseguire JavaScript in Java – Guida completa per aggiungere elementi al body](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
 
 ---
 

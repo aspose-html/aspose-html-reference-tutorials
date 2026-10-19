@@ -115,6 +115,12 @@ Java のスレッドプールを使用して、複数の HTML ファイルを同
 Java を使用して HTML を PDF、PNG、DOCX、Markdown に変換する手順を詳しく解説します。
 ### [MHTML を PDF に変換する際の画像埋め込み方法 – Aspose ガイド](./how-to-embed-images-when-converting-mhtml-to-pdf-aspose-guid/)
 MHTML から PDF へ変換する際に画像を正しく埋め込む手順とベストプラクティスを解説します。
+### [Java ExecutorService を使用した HTML から PDF への変換 – 完全ガイド](./convert-html-to-pdf-with-java-executorservice-complete-guide/)
+Java の ExecutorService を活用して、HTML を PDF に変換する方法をステップバイステップで解説します。
+### [Java で Aspose HTML を PDF に変換 – クイックステップバイステップガイド](./aspose-html-to-pdf-in-java-quick-step-by-step-guide/)
+Aspose.HTML を使用して Java で HTML を PDF に素早く変換する手順を簡潔に解説します。
+### [HTML から MHTML ファイルを作成 – 完全 Java ガイド](./create-mhtml-file-from-html-complete-java-guide/)
+Aspose.HTML を使用して Java で HTML から MHTML ファイルを作成する手順を詳しく解説します。
 ### [Converting HTML to XPS](./convert-html-to-xps/)
 Aspose.HTML for Java を使用して HTML を XPS にシームレスに変換する方法を学びます。クロスプラットフォーム文書を簡単に作成できます。
 ### [Javaでデバイスピクセル比を設定 – HTMLをモバイルに変換](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)
@@ -131,6 +137,8 @@ Aspose.HTML を使用して Java で HTML を Markdown に変換する手順を�
 Aspose.HTML を使用して Java で HTML を Markdown に変換する手順を詳しく解説します。
 ### [Convert HTML to Markdown in Java – Step‑by‑Step Guide](./convert-html-to-markdown-in-java-step-by-step-guide/)
 Aspose.HTML を使用して Java で HTML を Markdown に変換する手順を詳しく解説します。シンプルなステップで変換を実装できます。
+### [Aspose.HTML で HTML から Markdown を作成 – 完全 Java ガイド](./create-markdown-from-html-with-aspose-html-complete-java-gui/)
+Aspose.HTML を使用して Java で HTML から Markdown を作成する方法を学びます。
 ### [Converting SVG to Image](./convert-svg-to-image/)
 Aspose.HTML を使用して Java で SVG を画像に変換する方法を学びます。高品質出力のための包括的ガイドです。
 
@@ -250,6 +258,10 @@ Aspose.HTML for Java で PDF のページサイズをカスタマイズする手
 Aspose.HTML を使用して、Java で HTML を PDF に変換する手順を詳細に解説します。設定やベストプラクティスも網羅。
 ### [JavaでHTMLからPDFを作成 – バッチ変換完全ガイド](./create-pdf-from-html-in-java-full-batch-conversion-guide/)
 Aspose.HTML を使用して、Java で大量の HTML を一括で PDF に変換する手順を詳しく解説します。
+### [HTML から EPUB を作成 – eBook を構築して保存する完全 Java ガイド](./create-epub-from-html-full-java-guide-to-build-and-save-eboo/)
+Aspose.HTML for Java を使用して、HTML から EPUB 電子書籍を作成し、保存する手順を詳しく解説します。
+### [Java HTML to PDF – Aspose で HTML を PDF/A‑2b に変換](./java-html-to-pdf-convert-html-to-pdf-a-2b-with-aspose/)
+Aspose.HTML を使用して Java で HTML を PDF/A‑2b 形式に変換する手順を解説します。
 
 ## よくある質問
 
@@ -263,7 +275,7 @@ A: Aspose.HTML for Java は Java8、11 以降のバージョンをサポート�
 A: はい。レンダラーはリンクされた CSS ファイルを処理し、JavaScript を実行して、PDF が元のページレイアウトと一致するようにします。
 
 **Q: 変換可能な HTML ファイルのサイズはどのくらいですか？**
-A: ライブラリは大きなドキュメント向けに最適化されていますが、ページサイズが大きくなるとメモリ消費量も増加するため、大きな入力はストリーミングすることを検討してください。
+A: ライブラリは大きな文書向けに最適化されていますが、ページサイズが大きくなるとメモリ消費量も増加するため、大きな入力はストリーミングすることを検討してください。
 
 **Q: 変換中に PDF メタデータをカスタマイズできますか？**
 A: はい。保存前に `PdfSaveOptions` オブジェクトを使用して、タイトル、作成者、件名、キーワードを設定できます。

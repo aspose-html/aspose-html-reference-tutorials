@@ -125,6 +125,8 @@ Naučte se, jak spustit více vláken v Javě a správně spravovat zdroje pomoc
 Naučte se pomocí XPath vybrat element <div> podle třídy v Javě s podrobným krok‑za‑krokem průvodcem.
 ### [Renderování HTML v Javě – Kompletní průvodce čekáním na načtení stránky a query selector](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
 Naučte se, jak renderovat HTML v Javě, čekat na načtení stránky a používat query selector pro získání elementů.
+### [Extrahování HTML z MHTML – Kompletní průvodce pro Javu](./extract-html-from-mhtml-complete-java-guide/)
+Naučte se, jak z MHTML souborů extrahovat HTML pomocí Aspose.HTML pro Java v tomto podrobném průvodci.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

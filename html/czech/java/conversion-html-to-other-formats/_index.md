@@ -102,11 +102,12 @@ Naučte se, jak pomocí Aspose.HTML vytvořit PDF z HTML v Javě s podrobným na
 Naučte se, jak pomocí Aspose.HTML v Javě vytvořit PDF z HTML souboru krok za krokem s podrobným nastavením.
 ### [Převod HTML do MHTML](./convert-html-to-mhtml/)
 Jednoduše převádějte HTML do MHTML pomocí Aspose.HTML for Java. Postupujte podle našeho krok‑za‑krokem průvodce pro efektivní konverzi HTML‑to‑MHTML.
-
 ### [Vytvoření PDF z HTML v Javě – Kompletní průvodce Aspose](./create-pdf-from-html-in-java-complete-aspose-guide/)
 Kompletní návod, jak v Javě pomocí Aspose.HTML převést HTML na PDF s podrobným nastavením a ukázkovým kódem.
 ### [Převod HTML do MHTML s Aspose.HTML – Kompletní průvodce pro Javu](./convert-html-to-mhtml-with-aspose-html-complete-java-guide/)
 Kompletní návod, jak v Javě převést HTML do MHTML pomocí Aspose.HTML, včetně nastavení a pokročilých možností.
+### [Vytvoření MHTML souboru z HTML – Kompletní Java průvodce](./create-mhtml-file-from-html-complete-java-guide/)
+Naučte se vytvořit MHTML soubor z HTML v Javě pomocí Aspose.HTML s podrobným krok‑za‑krokem návodem.
 ### [Převod HTML do XPS](./convert-html-to-xps/)
 Naučte se snadno převádět HTML do XPS pomocí Aspose.HTML for Java. Vytvářejte multiplatformní dokumenty s lehkostí.
 
@@ -245,6 +246,14 @@ Naučte se nastavit velikost stránky PDF při konverzi HTML pomocí Aspose.HTML
 Naučte se nastavit okraje stránky a exportovat PDF/A‑2b pomocí Aspose.HTML for Java.
 ### [Jak převést HTML do PDF v Javě – Kompletní průvodce](./how-to-convert-html-to-pdf-in-java-full-guide/)
 ### [Render HTML do PDF s paralelním vykreslováním – rychlejší](./render-html-to-pdf-with-parallel-rendering-faster/)
+### [Aspose HTML do PDF v Javě – Rychlý krok‑za‑krokem průvodce](./aspose-html-to-pdf-in-java-quick-step-by-step-guide/)
+Rychlý průvodce, jak převést HTML do PDF v Javě pomocí Aspose.HTML s minimální konfigurací.
+### [Vytvoření EPUB z HTML – Kompletní průvodce v Javě pro tvorbu a uložení eKnih](./create-epub-from-html-full-java-guide-to-build-and-save-eboo/)
+Kompletní návod, jak v Javě vytvořit EPUB z HTML a uložit jej jako e‑knihu.
+### [Vytvoření Markdownu z HTML s Aspose.HTML – Kompletní průvodce v Javě](./create-markdown-from-html-with-aspose-html-complete-java-gui/)
+### [Převod HTML do PDF pomocí Java ExecutorService – Kompletní průvodce](./convert-html-to-pdf-with-java-executorservice-complete-guide/)
+### [Java HTML do PDF – Převod HTML do PDF/A‑2b pomocí Aspose](./java-html-to-pdf-convert-html-to-pdf-a-2b-with-aspose/)
+Naučte se vytvořit PDF/A‑2b soubory z HTML v Javě pomocí Aspose.HTML s plnou podporou archivace.
 
 ## Často kladené otázky
 

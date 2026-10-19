@@ -242,6 +242,12 @@ weight: 25
 Μάθετε πώς να μετατρέψετε μαζικά αρχεία HTML σε PDF με το Aspose.HTML for Java, βήμα‑βήμα και παραμετροποίηση.
 ### [Απόδοση HTML σε PDF με Παράλληλη Απόδοση – Ταχύτερα](./render-html-to-pdf-with-parallel-rendering-faster/)
 Μάθετε πώς να επιταχύνετε τη μετατροπή HTML σε PDF χρησιμοποιώντας την παράλληλη απόδοση στο Aspose.HTML for Java.
+### [Aspose HTML σε PDF σε Java – Γρήγορος Οδηγός Βήμα‑Βήμα](./aspose-html-to-pdf-in-java-quick-step-by-step-guide/)
+### [Μετατροπή HTML σε PDF με Java ExecutorService – Πλήρης Οδηγός](./convert-html-to-pdf-with-java-executorservice-complete-guide/)
+### [Δημιουργία EPUB από HTML – Πλήρης Οδηγός Java για Δημιουργία και Αποθήκευση eBooks](./create-epub-from-html-full-java-guide-to-build-and-save-eboo/)
+### [Δημιουργία Markdown από HTML με Aspose.HTML – Πλήρης Οδηγός Java](./create-markdown-from-html-with-aspose-html-complete-java-gui/)
+### [java html to pdf – Μετατροπή HTML σε PDF/A‑2b με Aspose](./java-html-to-pdf-convert-html-to-pdf-a-2b-with-aspose/)
+### [Δημιουργία αρχείου MHTML από HTML – Πλήρης οδηγός Java](./create-mhtml-file-from-html-complete-java-guide/)
 
 ## Συχνές Ερωτήσεις
 

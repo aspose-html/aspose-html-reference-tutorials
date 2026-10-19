@@ -161,6 +161,7 @@ Ismerje meg, hogyan értékelhet JavaScript kódot Java alkalmazásokban az Aspo
 ### [Hogyan engedélyezzük a JavaScriptet a Java HTMLDocument‑ben – Lépésről‑lépésre útmutató](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
 ### [Java több szálas oktatóanyag: Feladatok párhuzamos futtatása fix szálkészlettel](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
 Ismerje meg, hogyan futtathat feladatokat párhuzamosan fix méretű szálkészlettel a Java ExecutorService használatával.
+### [Java-ban JavaScript végrehajtása – Teljes útmutató az elemek body-hoz való hozzáadásához](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
 
 ---
 

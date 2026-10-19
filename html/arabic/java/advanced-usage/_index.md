@@ -183,6 +183,8 @@ weight: 20
 
 ### [دروس Java المتعددة الخيوط: تشغيل المهام بالتوازي باستخدام مجموعة خيوط ثابتة](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
 
+### [تنفيذ JavaScript في Java – دليل كامل لإضافة عناصر إلى الـ Body](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
+
 ---
 
 **آخر تحديث:** 2025-11-29  

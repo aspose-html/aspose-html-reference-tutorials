@@ -184,6 +184,8 @@ Learn how to set the device pixel ratio in Java to simulate mobile devices with 
 Learn how to enable and run JavaScript within a Java HtmlDocument using Aspose.HTML, with step‑by‑step instructions.
 ### [java multithreading tutorial: Run Tasks Parallel with Fixed Thread Pool](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
 Learn how to execute tasks concurrently using a fixed thread pool in Java, with code examples and best practices.
+### [Execute JavaScript in Java – Complete Guide to Appending Elements to the Body](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
+Learn how to run JavaScript from Java using Aspose.HTML to dynamically append elements to the document body.
 
 ---
 

@@ -168,6 +168,8 @@ Java में डिवाइस पिक्सेल अनुपात क�
 Aspose.HTML for Java का उपयोग करके Java HTMLDocument में JavaScript निष्पादन को कैसे सक्षम करें, चरण‑दर‑चरण सीखें।  
 ### [जावा मल्टीथ्रेडिंग ट्यूटोरियल: फिक्स्ड थ्रेड पूल के साथ टास्क समानांतर चलाएँ](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
 फिक्स्ड थ्रेड पूल का उपयोग करके जावा में टास्क को समानांतर रूप से चलाने की प्रक्रिया सीखें।
+### [Java में JavaScript चलाना – बॉडी में तत्व जोड़ने का पूर्ण गाइड](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
+Java एप्लिकेशन में JavaScript का उपयोग करके बॉडी में तत्व कैसे जोड़ें, इस पूर्ण गाइड में सीखें।  
 
 ---
 

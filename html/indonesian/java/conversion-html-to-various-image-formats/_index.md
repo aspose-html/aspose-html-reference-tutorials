@@ -123,6 +123,10 @@ Pelajari cara menyimpan halaman HTML sebagai file PNG menggunakan Aspose.HTML fo
 ### [Buat TIFF multipage dari SVG di Java – Panduan Langkah‑demi‑Langkah](./create-multipage-tiff-from-svg-in-java-step-by-step-guide/)
 ### [Mengonversi SVG ke PNG dengan Resolusi Tinggi – Panduan Java](./convert-svg-to-png-with-high-resolution-java-guide/)
 ### [Mengonversi HTML ke WebP di Java – Panduan Lengkap](./convert-html-to-webp-in-java-complete-guide/)
+### [Render HTML ke PNG dengan Aspose.HTML – Panduan Lengkap Java](./render-html-to-png-with-aspose-html-complete-java-guide/)
+Pelajari cara merender HTML ke PNG dengan Aspose.HTML di Java. Panduan lengkap langkah demi langkah.
+Pelajari cara mengonversi HTML ke WebP dengan Aspose.HTML di Java. Panduan lengkap dengan contoh kode.
+### [Mengonversi SVG ke PNG di Java – Panduan Resolusi Tinggi](./convert-svg-to-png-in-java-high-resolution-guide/)
 
 ### [Mengonversi HTML ke WebP – Panduan Lengkap Java dengan Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 ### [Cara merender HTML ke PNG di Java – Pandaan Lengkap](./how-to-render-html-to-png-in-java-complete-guide/)

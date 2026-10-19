@@ -134,6 +134,8 @@ XPath का उपयोग करके क्लास द्वारा div
 Java में Aspose.HTML का उपयोग करके पेज लोड की प्रतीक्षा और क्वेरी सिलेक्टर से तत्व चुनना सीखें।
 ### [Java में मार्कडाउन को HTML में परिवर्तित करें – चरण‑दर‑चरण गाइड](./convert-markdown-to-html-in-java-step-by-step-guide/)
 Java में Aspose.HTML का उपयोग करके मार्कडाउन को HTML में बदलने की प्रक्रिया सीखें। विस्तृत चरण‑दर‑चरण मार्गदर्शिका।
+### [MHTML से HTML निकालें – पूर्ण जावा गाइड](./extract-html-from-mhtml-complete-java-guide/)
+Aspose.HTML for Java के साथ MHTML फ़ाइलों से HTML निकालना सीखें। चरण‑दर‑चरण गाइड, टिप्स और सर्वोत्तम प्रथाएँ।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
