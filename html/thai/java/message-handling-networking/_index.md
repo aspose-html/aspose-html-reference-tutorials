@@ -50,6 +50,14 @@ Aspose.HTML สำหรับ Java เป็นชุดเครื่อง�
 เรียนรู้วิธีแปลงไฟล์ ZIP เป็นภาพ JPG โดยใช้ Aspose.HTML สำหรับ Java ด้วยคู่มือทีละขั้นตอนนี้
 ### [แปลง ZIP เป็น PDF ด้วย Aspose.HTML สำหรับ Java](./zip-to-pdf/)
 แปลงไฟล์ ZIP เป็น PDF ได้อย่างง่ายดายโดยใช้ Aspose.HTML สำหรับ Java ด้วยคู่มือทีละขั้นตอนนี้
+### [java 11 httpclient authenticator – คู่มือเต็มสำหรับการร้องขอที่ปลอดภัย](./java-11-httpclient-authenticator-complete-guide-to-secure-re/)
+เรียนรู้วิธีใช้ HttpClient Authenticator ใน Java 11 เพื่อทำการร้องขอ HTTP อย่างปลอดภัยด้วยการยืนยันตัวตนที่แข็งแกร่ง
+### [วิธีดึง API ใน Java – คู่มือฉบับสมบูรณ์โดยใช้ Aspose HTML V8 Engine](./how-to-fetch-api-in-java-complete-guide-using-aspose-html-v8/)
+เรียนรู้วิธีใช้ Aspose.HTML V8 Engine เพื่อดึงข้อมูลจาก API ใน Java อย่างครบถ้วนและปลอดภัย
+### [ดึง JSON จาก JavaScript ใน Java ด้วย Aspose HTML – คู่มือฉบับสมบูรณ์](./fetch-json-javascript-in-java-with-aspose-html-complete-guid/)
+เรียนรู้วิธีดึงข้อมูล JSON จากสคริปต์ JavaScript ในแอปพลิเคชัน Java ด้วย Aspose.HTML อย่างละเอียด
+### [ตั้งค่า Header การอนุญาตใน Java – คู่มือฉบับสมบูรณ์เพื่อโหลด HTML จาก URL](./set-authorization-header-in-java-complete-guide-to-load-html/)
+เรียนรู้วิธีตั้งค่า Authorization Header ใน Java เพื่อโหลด HTML จาก URL อย่างครบถ้วน
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
