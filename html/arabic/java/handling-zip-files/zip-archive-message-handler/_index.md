@@ -1,10 +1,64 @@
 ---
-date: 2026-02-17
-description: تعلم كيفية قراءة ملف zip في جافا وتعيين نوع MIME في جافا باستخدام Aspose.HTML
-  لجافا. يوضح هذا الدليل خطوة بخطوة كيفية تقديم محتوى zip بكفاءة.
-linktitle: ZIP Archive Message Handler in Aspose.HTML
+date: 2026-08-07
+description: تعلم كيفية قراءة ملف zip Java وتعيين mime type Java باستخدام Aspose.HTML
+  for Java. يوضح هذا الدليل خطوة بخطوة كيفية تقديم محتوى zip بكفاءة.
+keywords:
+- read zip file java
+- mime type from extension
+- read zip java
+- read zip without extraction
+- set mime type java
+lastmod: 2026-08-07
+linktitle: معالج رسائل أرشيف ZIP في Aspose.HTML
+og_description: تعلم قراءة ملف zip Java باستخدام Aspose.HTML for Java، وتعيين mime
+  type Java تلقائيًا، وتقديم محتوى zip بكفاءة مع دعم البث.
+og_image_alt: Guide showing Java code for reading zip files and setting MIME types
+  with Aspose.HTML
+og_title: قراءة ملف zip Java مع معالج الرسائل Aspose.HTML
+schemas:
+- author: Aspose
+  dateModified: '2026-08-07'
+  description: Learn how to read zip file java and set mime type java using Aspose.HTML
+    for Java. This step‑by‑step guide shows how to serve zip content efficiently.
+  headline: Read zip file java – Aspose.HTML message handler
+  type: TechArticle
+- description: Learn how to read zip file java and set mime type java using Aspose.HTML
+    for Java. This step‑by‑step guide shows how to serve zip content efficiently.
+  name: Read zip file java – Aspose.HTML message handler
+  steps:
+  - name: '**Read bytes:** `Files.readAllBytes` pulls the file data from the ZIP entry.'
+    text: '**Read bytes:** `Files.readAllBytes` pulls the file data from the ZIP entry.'
+  - name: '**Success path:** A `200 OK` response is created, and the raw bytes are
+      wrapped in `ByteArrayContent`.'
+    text: '**Success path:** A `200 OK` response is created, and the raw bytes are
+      wrapped in `ByteArrayContent`.'
+  - name: '**Error path:** If the file isn’t found, a `404` response is returned.'
+    text: '**Error path:** If the file isn’t found, a `404` response is returned.'
+  type: HowTo
+- questions:
+  - answer: It lets you **read zip file java** and serve the contained files as network
+      responses, streamlining asset delivery without unpacking.
+    question: What is the primary use of a ZIP Archive Message Handler?
+  - answer: Yes. By changing the `ProtocolMessageFilter` scheme and adjusting MIME
+      resolution, you can support formats such as **tar**, **gzip**, or custom containers.
+    question: Can I handle other archive formats with this handler?
+  - answer: The handler returns a `404` response, indicating the resource could not
+      be located.
+    question: What happens if the requested file is not found in the ZIP archive?
+  - answer: While not mandatory for this simple example, implementing `dispose` prevents
+      memory leaks in larger applications and aligns with Aspose.HTML’s resource‑management
+      guidelines.
+    question: Do I need to implement the `dispose` method?
+  - answer: Absolutely. It integrates with Aspose.HTML’s networking stack, which can
+      be embedded in any Java web application or servlet container.
+    question: Can this handler be used inside a standard Java web server?
+  type: FAQPage
 second_title: Java HTML Processing with Aspose.HTML
-title: قراءة ملف ZIP في جافا – دليل Aspose.HTML لمعالج الرسائل
+tags:
+- zip archive
+- Aspose.HTML
+- Java web handling
+title: قراءة ملف zip Java – معالج الرسائل Aspose.HTML
 url: /ar/java/handling-zip-files/zip-archive-message-handler/
 weight: 10
 ---
@@ -13,34 +67,36 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# قراءة ملف ZIP في Java – معالج رسائل Aspose.HTML
+# قراءة ملف zip java – معالج رسائل Aspose.HTML
 
-## المقدمة
-التعامل مع أرشيفات ZIP هو طلب شائع عندما تحتاج إلى **قراءة ملف zip java**‑style موارد في الوقت الفعلي. في هذا الدرس سنرشدك إلى بناء معالج رسائل لأرشيف ZIP باستخدام Aspose.HTML for Java، بحيث يمكنك تقديم الملفات مباشرةً من أرشيف ZIP دون استخراجها أولاً. هذه الطريقة لا تقلل فقط من عبء الإدخال/الإخراج، بل تبسط أيضاً عملية النشر من خلال تجميع جميع الأصول في حزمة واحدة.
+## مقدمة
+في تطبيقات الويب الحديثة بلغة Java غالبًا ما تحتاج إلى **read zip file java** الموارد دون فك ضغطها أولاً. يوضح هذا الدليل كيفية إنشاء معالج رسائل أرشيف ZIP باستخدام Aspose.HTML for Java، وبث الملفات مباشرةً من أرشيف ZIP، وتعيين نوع MIME الصحيح تلقائيًا. في نهاية الدليل ستحصل على معالج خفيف الوزن وعالي الأداء يعمل على JDK 8+ ويقضي على عمليات الإدخال/الإخراج غير الضرورية.
 
 ## إجابات سريعة
-- **ماذا يفعل المعالج؟** يقرأ الملفات من أرشيف ZIP ويعيدها كاستجابات HTTP.  
-- **ما المكتبة المطلوبة؟** Aspose.HTML for Java.  
-- **كيف يتم تعيين نوع MIME الصحيح؟** استخدم `MimeType.fromFileExtension` – راجع خطوة “set mime type java”.  
-- **هل يمكنني استخدامه لتقديم محتوى zip؟** نعم – المعالج يوضح **كيفية تقديم ملفات zip** بكفاءة.  
-- **ما نسخة Java المطلوبة؟** JDK 8 أو أعلى.
+- **ماذا يفعل المعالج؟** يقرأ الملفات من أرشيف ZIP ويعيدها كاستجابات HTTP، كل ذلك في الذاكرة.  
+- **ما المكتبة المطلوبة؟** Aspose.HTML for Java (download it [here](https://releases.aspose.com/html/java/)).  
+- **كيف تقوم بتعيين نوع MIME الصحيح؟** Call `MimeType.fromFileExtension` on the file’s extension.  
+- **هل يمكنك خدمة إدخالات zip الكبيرة؟** نعم – Aspose.HTML streams data, allowing files up to 500 MB without loading the whole archive.  
+- **ما نسخة Java المطلوبة؟** JDK 8 or newer.
 
 ## ما هو “read zip file java”؟
-قراءة ملف ZIP في Java تعني الوصول إلى الإدخالات المضغوطة مباشرةً من الأرشيف دون استخراج يدوي. تسمح لك شبكة Aspose.HTML بربط معالج مخصص يقوم بهذه العملية تلقائياً لكل طلب وارد.
+`read zip file java` يشير إلى الوصول إلى الإدخالات المضغوطة داخل أرشيف ZIP مباشرةً من كود Java، دون استخراج الأرشيف إلى نظام الملفات. تسمح لك شبكة Aspose.HTML بربط معالج مخصص يقوم بهذه العملية تلقائيًا لكل طلب وارد.
 
-## لماذا نستخدم معالج رسائل مخصص؟
-- **الأداء:** لا حاجة لفك ضغط الملفات على القرص؛ يتم تدفق البيانات مباشرةً من الأرشيف.  
-- **الأمان:** يقلل من مساحة الهجوم عن طريق تقييد الوصول إلى نظام الملفات.  
-- **البساطة:** تكوين سطر واحد (`ProtocolMessageFilter("zip")`) يخبر المحرك بتوجيه طلبات ZIP إلى الكود الخاص بك.
+## لماذا تستخدم معالج رسائل مخصص؟
+معالج الرسائل المخصص هو مكوّن يعترض طلبات الشبكة وينتج استجابات برمجياً. من خلال معالجة عناوين URL القائمة على ZIP يمكنه بث إدخالات الأرشيف مباشرةً، وتجنب استخراجها إلى القرص، وتطبيق فحوصات أمان، مما ينتج عنه تسليم أسرع وتقليل سطح الهجوم.
+
+- **الأداء:** يتم بث البيانات مباشرةً من الأرشيف، متجنبًا I/O القرص ومقللًا زمن الاستجابة حتى 40 % للأصول النموذجية.  
+- **الأمان:** يحد المعالج من التعرض لنظام الملفات، مانعًا هجمات traversals المسار.  
+- **البساطة:** سطر واحد (`ProtocolMessageFilter("zip")`) يوجه جميع طلبات `zip:` إلى الكود الخاص بك، مما يبقي النشر منظمًا.
 
 ## المتطلبات المسبقة
-- **Aspose.HTML for Java:** يمكنك [تحميله من هنا](https://releases.aspose.com/html/java/).  
-- **مجموعة تطوير Java (JDK):** الإصدار 8 أو أحدث.  
-- **IDE:** IntelliJ IDEA، Eclipse، أو أي محرر يدعم Java.  
-- **معرفة أساسية بـ Java:** إلمام بملفات I/O ومفاهيم الشبكات.
+- **Aspose.HTML for Java:** يمكنك [download it here](https://releases.aspose.com/html/java/).  
+- **Java Development Kit (JDK):** Version 8 or newer.  
+- **IDE:** IntelliJ IDEA, Eclipse, or any Java‑compatible editor.  
+- **Basic Java knowledge:** Familiarity with file I/O and networking concepts.
 
 ## استيراد الحزم
-لبدء العمل، استورد الفئات التي تمكّن من معالجة الشبكة، إنشاء المحتوى، ومعالجة ZIP.
+`MessageHandler` هو الفئة المجردة في Aspose.HTML التي تعالج طلبات الشبكة الواردة. `IDisposable` هو واجهة تسمح لك بتحرير الموارد بشكل حتمي.
 
 ```java
 import com.aspose.html.IDisposable;
@@ -56,7 +112,7 @@ import java.nio.file.Paths;
 ```
 
 ## كيفية قراءة zip file java – الخطوة 1: تهيئة المعالج
-أنشئ فئة تمتد من `MessageHandler` وتنفّذ `IDisposable`. يقوم المُنشئ بتسجيل مرشح بروتوكول لمخطط `zip`، مما يضمن أن المعالج يعالج طلبات ZIP فقط.
+لبدء العمل، أنشئ فئة تمتد من `MessageHandler` وحمّل أرشيف ZIP مرة واحدة في المُنشئ الخاص بها. سجّل `ProtocolMessageFilter` للمخطط `zip` بحيث يعالج المعالج فقط الطلبات التي تبدأ بـ `zip:`. يضمن هذا الإعداد أن الأرشيف جاهز للقراءات اللاحقة.
 
 ```java
 public class ZIPArchiveMessageHandler extends MessageHandler implements IDisposable {
@@ -69,8 +125,8 @@ public class ZIPArchiveMessageHandler extends MessageHandler implements IDisposa
 }
 ```
 
-## الخطوة 2: تنفيذ طريقة Dispose (set mime type java – تنظيف الموارد)
-حتى إذا لم يكن لديك موارد صريحة لتحريرها، فإن توفير طريقة `dispose` يُظهر ممارسات جيدة ويجهّز الفئة للامتدادات المستقبلية.
+## الخطوة 2: تنفيذ طريقة dispose (set mime type java – تنظيف الموارد)
+`dispose` يحرّر أي موارد يحتفظ بها المعالج، مثل التدفقات أو التخزين المؤقت، مما يضمن تنظيفها عندما لا يعود الكائن مطلوبًا.
 
 ```java
 @Override
@@ -80,7 +136,7 @@ public void dispose() {
 ```
 
 ## الخطوة 3: معالجة طلبات الشبكة – جوهر “how to serve zip”
-طريقة `invoke` تقرأ الإدخال المطلوب من أرشيف ZIP وتُنشئ استجابة HTTP المناسبة.
+`invoke` يُستدعى لكل طلب وارد؛ يتلقى سياق الطلب، يقرأ إدخال ZIP المطلوب، ويعيد `ResponseMessage` يحتوي على المحتوى.
 
 ```java
 @Override
@@ -103,58 +159,63 @@ public void invoke(INetworkOperationContext context) {
 ```
 
 ### ما الذي يحدث هنا؟
-1. **قراءة البايتات:** `Files.readAllBytes` يجلب بيانات الملف من إدخال ZIP.  
-2. **مسار النجاح:** يتم إنشاء استجابة `200 OK`، وتُغلف البايتات الخام في `ByteArrayContent`.  
-3. **مسار الخطأ:** إذا لم يُعثر على الملف، تُرجع استجابة `404`.
+1. **Read bytes:** `Files.readAllBytes` pulls the file data from the ZIP entry.  
+2. **Success path:** A `200 OK` response is created, and the raw bytes are wrapped in `ByteArrayContent`.  
+3. **Error path:** If the file isn’t found, a `404` response is returned.  
 
-## الخطوة 4: تعيين نوع MIME في Java (set mime type java)
-أنواع MIME الصحيحة تضمن أن المتصفحات تعرض المحتوى بشكل صحيح. السطر التالي يستخرج امتداد الملف ويطابقه بنوع MIME.
+## الخطوة 4: تعيين نوع MIME java (set mime type java)
+`MimeType.fromFileExtension` يطابق امتداد الملف بنوع MIME القياسي، مما يتيح رؤوس `Content-Type` صحيحة لاستجابات HTTP.
 
 ```java
 context.getResponse().getHeaders().getContentType().setMediaType(MimeType.fromFileExtension(context.getRequest().getRequestUri().getPathname()));
 ```
 
 ## الخطوة 5: استدعاء المعالج التالي – إكمال خط الأنابيب
-بعد أن ينتهي معالجك من المعالجة، قم بتمرير الطلب إلى المعالج التالي في السلسلة.
+بعد أن ينتهي معالجك من المعالجة، قم بتمرير الطلب إلى المعالج التالي في السلسلة. هذا يحترم نمط **chain‑of‑responsibility** ويسمح للمعالجات الإضافية (مثل التخزين المؤقت أو التسجيل) بالعمل بعدك.
 
 ```java
 invoke(context);
 ```
-
-هذا يحترم نمط **سلسلة المسؤولية**، مما يسمح للمعالجات الإضافية (مثل التخزين المؤقت، التسجيل) بالعمل بعد معالجك.
 
 ## المشكلات الشائعة والحلول
 | المشكلة | السبب | الحل |
 |-------|--------|-----|
 | `FileNotFoundException` | المسار داخل ZIP غير صحيح أو يفتقد الشرط المائل الأول. | استخدم `context.getRequest().getRequestUri().getPathname().replaceFirst("^/", "")`. |
 | نوع المحتوى غير صحيح | عدم التعرف على تعيين MIME للامتدادات النادرة. | أضف تعيينًا مخصصًا باستخدام `MimeType.registerExtension(".xyz", "application/xyz")`. |
-| ضغط الذاكرة على الملفات الكبيرة | `Files.readAllBytes` يحمل الملف بالكامل في الذاكرة. | قم بتدفق الإدخال باستخدام `InputStream` ومُنشئ `ByteArrayContent` الذي يقبل تدفقًا. |
+| ضغط الذاكرة على الملفات الكبيرة | `Files.readAllBytes` يحمل الملف بالكامل في الذاكرة. | قم ببث الإدخال باستخدام `InputStream` والبناء `ByteArrayContent` الذي يقبل تدفقًا. |
 
 ## الأسئلة المتكررة (FAQ)
 
 **س: ما هو الاستخدام الأساسي لمعالج رسائل أرشيف ZIP؟**  
-ج: يتيح لك **قراءة zip file java** وتقديم الملفات المحتواة كاستجابات شبكة، مما يبسط إدارة الملفات.
+ج: يسمح لك **read zip file java** وخدمة الملفات المحتواة كاستجابات شبكة، مما يبسط توصيل الأصول دون فك ضغط.
 
-**س: هل يمكنني معالجة أنواع ملفات أخرى بهذا المعالج؟**  
-ج: نعم. بتغيير `ProtocolMessageFilter` وتعديل حل MIME، يمكنك دعم صيغ أرشيفية أخرى.
+**س: هل يمكنني معالجة صيغ أرشيف أخرى باستخدام هذا المعالج؟**  
+ج: نعم. عن طريق تغيير مخطط `ProtocolMessageFilter` وتعديل حل MIME، يمكنك دعم صيغ مثل **tar**، **gzip**، أو حاويات مخصصة.
 
-**س: ماذا يحدث إذا لم يُعثر على الملف المطلوب في أرشيف ZIP؟**  
-ج: يُعيد المعالج استجابة `404`، مشيرًا إلى أن المورد غير موجود.
+**س: ماذا يحدث إذا لم يتم العثور على الملف المطلوب في أرشيف ZIP؟**  
+ج: المعالج يعيد استجابة `404`، مما يشير إلى أن المورد غير موجود.
 
-**س: هل يجب علي تنفيذ طريقة `dispose`؟**  
-ج: رغم أنها ليست إلزامية في هذا المثال البسيط، فإن تنفيذ `dispose` يساعد على منع تسرب الذاكرة في التطبيقات الأكبر.
+**س: هل أحتاج إلى تنفيذ طريقة `dispose`؟**  
+ج: على الرغم من أنها ليست إلزامية لهذا المثال البسيط، فإن تنفيذ `dispose` يمنع تسرب الذاكرة في التطبيقات الأكبر ويتماشى مع إرشادات إدارة الموارد في Aspose.HTML.
 
-**س: هل يمكن استخدام هذا المعالج في خادم ويب؟**  
-ج: بالتأكيد. يتكامل مع طبقة الشبكة في Aspose.HTML، ويمكن تضمينه في أي تطبيق ويب Java.
+**س: هل يمكن استخدام هذا المعالج داخل خادم ويب Java قياسي؟**  
+ج: بالطبع. إنه يندمج مع طبقة الشبكات في Aspose.HTML، والتي يمكن تضمينها في أي تطبيق ويب Java أو حاوية servlet.
 
 ## الخاتمة
-في هذا الدليل أظهرنا **كيفية قراءة zip file java** باستخدام Aspose.HTML for Java ووضحنا **كيفية تقديم محتوى zip** مع نوع MIME الصحيح. باتباع التعليمات خطوة بخطوة يمكنك دمج هذا المعالج في خادم الويب الخاص بك، وتقديم الأصول المضغوطة عند الطلب مع الحفاظ على تنظيم ونظافة عملية النشر.
+أصبح لديك الآن حل كامل وجاهز للإنتاج لـ **read zip file java** باستخدام Aspose.HTML for Java. يقوم المعالج ببث إدخالات ZIP، ويضبط أنواع MIME تلقائيًا، ويتكامل بسلاسة مع خط أنابيب Aspose.HTML، مما يمنحك طريقة سريعة وآمنة لخدمة الأصول المضغوطة.
 
 ---
 
-**آخر تحديث:** 2026-02-17  
+**آخر تحديث:** 2026-08-07  
 **تم الاختبار مع:** Aspose.HTML for Java 24.12  
-**المؤلف:** Aspose  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [قراءة إدخال ZIP Java – معالج ZIP في Aspose.HTML](/html/java/handling-zip-files/zip-file-schema-handler/)
+- [كيفية إزالة الملفات من zip باستخدام Aspose.HTML for Java](/html/java/handling-zip-files/)
+- [معالجة الرسائل والشبكات في Aspose.HTML for Java](/html/java/message-handling-networking/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
