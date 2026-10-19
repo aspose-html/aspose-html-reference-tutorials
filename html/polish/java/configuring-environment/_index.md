@@ -63,7 +63,7 @@ Dynamiczny HTML często zawiera skrypty, które muszą zostać uruchomione przed
 
 ## Jak wdrożyć sandboxing dla bezpiecznych konwersji
 
-Podczas przetwarzania HTML z niezweryfikowanych źródeł sandboxing izoluje wykonywanie skryptów, chroniąc aplikację przed złośliwym kodem. Jest to szczególnie ważne przy konwersji do PDF, gdzie niebezpieczny skrypt mógłby inaczej zagrozić środowisku hosta.
+Podczas przetwarzania HTML z niezweryfikowanych źródeł sandboxing izoluje wykonywanie skryptów, chroniąc aplikację przed złośliwym kodem. Jest to szczególnie ważne przy konwersji do PDF, gdzie niebezpieczny skrypt mógłby zagrozić środowisku hosta.
 
 [Dowiedz się, jak wdrożyć sandboxing w Aspose.HTML for Java.](./implement-sandboxing/)
 
@@ -105,6 +105,13 @@ Konfiguracja środowiska jest fundamentem udanych projektów **convert HTML to P
 ### [Konfiguruj Runtime Service w Aspose.HTML for Java](./configure-runtime-service/)
 ### [Wdroż sandboxing w Aspose.HTML for Java](./implement-sandboxing/)
 ### [Ustaw własny arkusz stylów w Aspose.HTML for Java](./set-user-style-sheet/)
+### [Utwórz sandbox Aspose HTML – Kompletny przewodnik Java](./create-aspose-html-sandbox-complete-java-guide/)
+### [Pobierz wersję biblioteki w Javie – szybki przewodnik wyświetlania wersji](./get-library-version-in-java-quick-guide-to-show-library-vers/)
+Dowiedz się, jak szybko uzyskać i wyświetlić wersję biblioteki Aspose.HTML w Javie.
+### [Jak utworzyć sandbox w Javie – pełny przewodnik](./how-to-create-sandbox-in-java-full-guide/)
+Dowiedz się, jak utworzyć sandbox w Javie, aby bezpiecznie izolować wykonywanie skryptów podczas konwersji HTML do PDF.
+### [Ustaw User Agent dla renderowania HTML w trybie headless – Kompletny przewodnik](./set-user-agent-for-headless-html-rendering-complete-guide/)
+Dowiedz się, jak ustawić własny User Agent w Aspose.HTML for Java, aby kontrolować renderowanie w trybie headless i unikać blokad serwerów.
 ### [Wyodrębnij tytuł z HTML w Javie – Kompletny przewodnik sandbox](./extract-title-from-html-in-java-complete-sandbox-guide/)
 
 ---

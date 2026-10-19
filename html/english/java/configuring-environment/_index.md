@@ -114,8 +114,18 @@ Learn how to configure the Runtime Service in Aspose.HTML for Java to optimize s
 ### [Implement Sandboxing in Aspose.HTML for Java](./implement-sandboxing/)
 Learn how to implement sandboxing in Aspose.HTML for Java to securely control script execution in your HTML documents and convert them to PDF.
 
+### [Set User Agent for Headless HTML Rendering – Complete Guide](./set-user-agent-for-headless-html-rendering-complete-guide/)
+Learn how to set a custom user agent for headless HTML rendering in Aspose.HTML for Java, ensuring proper resource loading and compatibility.
+
 ### [Set User Style Sheet in Aspose.HTML for Java](./set-user-style-sheet/)
 Learn how to set a custom user stylesheet in Aspose.HTML for Java, enhancing your document styling and converting HTML to PDF with ease.
+### [Create Aspose HTML Sandbox – Complete Java Guide](./create-aspose-html-sandbox-complete-java-guide/)
+Learn how to create an Aspose HTML sandbox in Java with a complete guide, ensuring secure HTML processing and PDF conversion.
+### [Get Library Version in Java – Quick Guide to Show Library Version](./get-library-version-in-java-quick-guide-to-show-library-vers/)
+Learn how to retrieve and display the Aspose.HTML for Java library version at runtime.
+
+### [How to Create Sandbox in Java – Full Guide](./how-to-create-sandbox-in-java-full-guide/)
+Learn how to create a sandbox in Aspose.HTML for Java, securing script execution and safely converting HTML to PDF.
 
 ### [Extract title from HTML in Java – Complete Sandbox Guide](./extract-title-from-html-in-java-complete-sandbox-guide/)
 Learn how to safely extract the title from HTML in Java using Aspose.HTML sandbox, ensuring secure processing and accurate results.

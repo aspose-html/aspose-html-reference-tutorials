@@ -63,7 +63,7 @@ HTML dinamis sering berisi skrip yang harus dijalankan sebelum rendering. Runtim
 
 ## Cara Menerapkan Sandboxing untuk Konversi Aman
 
-Saat memproses HTML dari sumber yang tidak dipercaya, sandboxing mengisolasi eksekusi skrip, melindungi aplikasi Anda dari kode berbahaya. Ini terutama penting saat mengonversi ke PDF, di mana skrip jahat dapat mengkompromikan lingkungan host.
+Saat memproses HTML dari sumber yang tidak dipercaya, sandboxing mengisolasi eksekusi skrip, melindungi aplikasi Anda dari kode berbahaya. Ini terutama penting saat mengonversi ke PDF, dimana skrip jahat dapat mengkompromikan lingkungan host.
 
 [Learn how to implement sandboxing in Aspose.HTML for Java.](./implement-sandboxing/)
 
@@ -111,14 +111,22 @@ Pelajari cara menggunakan message handlers di Aspose.HTML untuk Java untuk menan
 Pelajari cara menyiapkan network service di Aspose.HTML untuk Java, mengelola sumber daya jaringan, dan mengonversi HTML ke PNG dengan penanganan error khusus.
 
 ### [Configure Runtime Service in Aspose.HTML for Java](./configure-runtime-service/)
-Pelajari cara mengonfigurasi Runtime Service di Aspose.HTML untuk Java untuk mengoptimalkan eksekusi skrip, mencegah loop tak berujung, dan meningkatkan performa aplikasi.
+Pelajari cara mengkonfigurasi Runtime Service di Aspose.HTML untuk Java untuk mengoptimalkan eksekusi skrip, mencegah loop tak berujung, dan meningkatkan performa aplikasi.
 
 ### [Implement Sandboxing in Aspose.HTML for Java](./implement-sandboxing/)
 Pelajari cara menerapkan sandboxing di Aspose.HTML untuk Java untuk mengontrol eksekusi skrip secara aman dalam dokumen HTML Anda dan mengonversinya ke PDF.
 
+### [Membuat Sandbox Aspose HTML – Panduan Lengkap Java](./create-aspose-html-sandbox-complete-java-guide/)
+Pelajari cara membuat sandbox Aspose HTML secara menyeluruh di Java untuk mengamankan proses konversi HTML ke PDF.
+
 ### [Set User Style Sheet in Aspose.HTML for Java](./set-user-style-sheet/)
 Pelajari cara mengatur stylesheet pengguna khusus di Aspose.HTML untuk Java, meningkatkan gaya dokumen Anda dan mengonversi HTML ke PDF dengan mudah.
 
+### [Dapatkan Versi Library di Java – Panduan Cepat Menampilkan Versi Library](./get-library-version-in-java-quick-guide-to-show-library-vers/)
+### [Cara Membuat Sandbox di Java – Panduan Lengkap](./how-to-create-sandbox-in-java-full-guide/)
+Pelajari cara membuat sandbox di Java dengan Aspose.HTML, mengamankan eksekusi skrip dan melindungi aplikasi saat mengonversi HTML ke PDF.
+### [Set User Agent untuk Rendering HTML Headless – Panduan Lengkap](./set-user-agent-for-headless-html-rendering-complete-guide/)
+Pelajari cara mengatur User Agent pada Aspose.HTML untuk Java saat merender HTML secara headless, memastikan konten dimuat dengan benar.
 ### [Ekstrak judul dari HTML di Java – Panduan Sandbox Lengkap](./extract-title-from-html-in-java-complete-sandbox-guide/)
 
 ---
