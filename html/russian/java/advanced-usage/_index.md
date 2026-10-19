@@ -123,7 +123,7 @@ Aspose.HTML позволяет прикрепить `DomMutationObserver` к л�
 ### [Манипуляции с HTML5 Canvas с Aspose.HTML for Java](./html5-canvas-manipulation-using-javascript/)
 Узнайте, как управлять HTML5 Canvas с помощью JavaScript и Aspose.HTML for Java. Создавайте динамическую графику и конвертируйте её в PDF.
 ### [Автоматизация заполнения HTML‑форм с Aspose.HTML for Java](./html-form-editor-filling-submitting-forms/)
-Изучите, как автоматизировать заполнение и отправку HTML‑форм с помощью Aspose.HTML for Java. Упростите взаимодействие с веб‑формами с помощью этого руководства.
+Изучите, как автоматизировать заполнение и отправку HTML‑форм с помощью Aspose.HTML for Java. Упростите взаимодействие с веб‑формами с этим руководством.
 ### [Регулировка размера PDF‑страницы с Aspose.HTML for Java](./adjust-pdf-page-size/)
 Узнайте, как изменять размер страниц PDF с помощью Aspose.HTML for Java. Создавайте высококачественные PDF из HTML без усилий, эффективно контролируя размеры страниц.
 ### [Регулировка размера XPS‑страницы с Aspose.HTML for Java](./adjust-xps-page-size/)
@@ -155,6 +155,8 @@ Aspose.HTML позволяет прикрепить `DomMutationObserver` к л�
 Узнайте, как получить заголовок HTML и отрендерить страницу в песочнице, задав ширину экрана, используя Aspose.HTML for Java.
 ### [Пример top‑level await – использование await delay в JavaScript](./top-level-await-example-using-await-delay-in-javascript/)
 Узнайте, как применять top‑level await с функцией задержки await delay в JavaScript для упрощения асинхронного кода.
+### [Выполнение JavaScript в Java – Запуск JS из HTML](./execute-javascript-in-java-run-js-from-html/)
+Узнайте, как запускать JavaScript‑код из HTML в Java‑приложениях с помощью Aspose.HTML for Java.
 
 ---
 

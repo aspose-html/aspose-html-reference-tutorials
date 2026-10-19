@@ -146,6 +146,15 @@ Effortlessly convert HTML to MHTML using Aspose.HTML for Java. Follow our step-b
 Step-by-step guide to generate PDFs from HTML in Java using Aspose.HTML, covering setup, options, and best practices.
 ### [Convert HTML to MHTML with Aspose.HTML – Complete Java Guide](./convert-html-to-mhtml-with-aspose-html-complete-java-guide/)
 Comprehensive guide to converting HTML to MHTML in Java using Aspose.HTML, covering setup, options, and best practices.
+### [Convert HTML to PDF with Java – Full Guide to PDF, PNG, DOCX & Markdown](./convert-html-to-pdf-with-java-full-guide-to-pdf-png-docx-mar/)
+Comprehensive guide covering HTML to PDF, PNG, DOCX, and Markdown conversions using Aspose.HTML for Java.
+
+### [How to Use Sandbox for HTML‑to‑PDF Conversion in Java](./how-to-use-sandbox-for-html-to-pdf-conversion-in-java/)
+Learn how to use Aspose.HTML sandbox for safe HTML‑to‑PDF conversion in Java, enabling isolated processing without affecting your main environment.
+
+### [How to embed images when converting MHTML to PDF – Aspose guide](./how-to-embed-images-when-converting-mhtml-to-pdf-aspose-guid/)
+Learn how to embed images correctly when converting MHTML files to PDF using Aspose.HTML for Java.
+
 ### [Converting HTML to XPS](./convert-html-to-xps/)
 Learn how to effortlessly convert HTML to XPS using Aspose.HTML for Java. Create cross-platform documents with ease.
 
@@ -273,6 +282,10 @@ Learn how to convert HTML documents to Markdown format in Java using Aspose.HTML
 Learn how to convert multiple HTML files to PDF simultaneously in Java using Aspose.HTML for efficient parallel batch processing.
 
 ## Frequently asked questions
+### [java thread pool tutorial – Convert Multiple HTML Files to PDF](./java-thread-pool-tutorial-convert-multiple-html-files-to-pdf/)
+Learn how to use Java thread pools to convert multiple HTML files to PDF concurrently with Aspose.HTML.
+
+## Frequently Asked Questions
 
 **Q: Can I use Aspose.HTML for Java in a commercial application?**  
 A: Yes. A valid commercial license is required for production use; a free trial is available for evaluation.

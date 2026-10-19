@@ -174,6 +174,9 @@ Aprenda a obter o título de uma página HTML e renderizá‑la em um sandbox de
 
 ### [Exemplo de top-level await – usando await delay em JavaScript](./top-level-await-example-using-await-delay-in-javascript/)
 
+### [Executar JavaScript em Java – Executar JS a partir de HTML](./execute-javascript-in-java-run-js-from-html/)
+Aprenda a executar código JavaScript dentro de aplicações Java usando Aspose.HTML for Java.
+
 ---
 
 **Última atualização:** 2025-11-29  

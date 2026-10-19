@@ -171,6 +171,9 @@ Aspose.HTML 允许您将 `DomMutationObserver` 附加到任意节点。这对于
 ### [顶级 await 示例 – 在 JavaScript 中使用 await 延迟](./top-level-await-example-using-await-delay-in-javascript/)
 演示在 JavaScript 中使用顶级 await 以及 await delay 实现异步延时的示例。
 
+### [在 Java 中执行 JavaScript – 从 HTML 运行 JS](./execute-javascript-in-java-run-js-from-html/)
+学习如何使用 Aspose.HTML for Java 从 HTML 页面中执行嵌入的 JavaScript 代码，实现服务器端脚本运行。
+
 ---
 **最后更新：** 2025-11-29  
 **测试环境：** Aspose.HTML for Java 24.11  

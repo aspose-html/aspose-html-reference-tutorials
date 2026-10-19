@@ -157,6 +157,8 @@ Naučte se volat Java metody z JavaScriptu pomocí host objektu a spouštět Jav
 Naučte se získat název HTML a vykreslit stránku v sandboxu s nastavenou šířkou obrazovky pomocí Aspose.HTML pro Java.
 ### [Příklad top‑level await – Použití await delay v JavaScriptu](./top-level-await-example-using-await-delay-in-javascript/)
 Naučte se, jak použít top‑level await a funkci delay v JavaScriptu pro asynchronní operace.
+### [Spustit JavaScript v Javě – Spustit JS z HTML](./execute-javascript-in-java-run-js-from-html/)
+Naučte se, jak spustit JavaScript kód z HTML v Javě pomocí Aspose.HTML, včetně nastavení a praktických příkladů.
 
 ---
 

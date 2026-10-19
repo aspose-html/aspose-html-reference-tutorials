@@ -87,6 +87,8 @@ Hướng dẫn chi tiết cách đọc CSS trong Java và trích xuất các ki�
 Hướng dẫn chi tiết cách lấy phần tử HTML theo id và truy xuất các kiểu đã tính toán bằng Aspose.HTML cho Java.
 ### [Trình chọn truy vấn div theo lớp – Cách chọn một div theo lớp và lấy kiểu tính toán trong Java](./query-selector-div-class-how-to-select-a-div-by-class-and-ge/)
 Hướng dẫn cách sử dụng Aspose.HTML cho Java để chọn một thẻ div theo lớp và lấy các thuộc tính kiểu tính toán.
+### [Cách đọc CSS trong Java – Hướng dẫn đầy đủ sử dụng Aspose.HTML](./how-to-read-css-in-java-complete-guide-using-aspose-html/)
+Hướng dẫn chi tiết cách đọc CSS trong Java bằng Aspose.HTML, cung cấp các bước thực hành đầy đủ.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

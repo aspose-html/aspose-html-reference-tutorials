@@ -167,6 +167,9 @@ weight: 20
 تعلم كيفية استخراج عنوان صفحة HTML وعرضها في بيئة Sandbox مع ضبط عرض الشاشة باستخدام Aspose.HTML for Java.
 ### [مثال top level await – استخدام await delay في JavaScript](./top-level-await-example-using-await-delay-in-javascript/)
 
+### [تنفيذ JavaScript في Java – تشغيل JS من HTML](./execute-javascript-in-java-run-js-from-html/)
+تعلم كيفية تشغيل كود JavaScript المضمن في HTML من داخل تطبيق Java باستخدام Aspose.HTML.
+
 ---
 
 **آخر تحديث:** 2025-11-29  

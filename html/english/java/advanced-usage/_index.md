@@ -166,6 +166,8 @@ Learn how to invoke Java methods from JavaScript, handle async fetch calls, and 
 Learn how to expose Java objects to JavaScript and execute JavaScript code from Java using Aspose.HTML for Java.
 ### [Get HTML Title Java – Render Page in Sandbox with Screen Width](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
 Learn how to retrieve the HTML title in Java, render a page in a sandbox with a specific screen width using Aspose.HTML.
+### [Execute JavaScript in Java – Run JS from HTML](./execute-javascript-in-java-run-js-from-html/)
+Learn how to execute JavaScript embedded in HTML from Java using Aspose.HTML, covering setup, code examples, and best practices.
 
 ---
 

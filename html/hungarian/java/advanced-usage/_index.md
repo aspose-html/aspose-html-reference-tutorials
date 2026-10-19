@@ -152,6 +152,8 @@ Ismerje meg, hogyan engedélyezheti a JavaScript futtatását Java alkalmazások
 Tanulja meg, hogyan adhat hozzá host objektumot, és futtathat JavaScript‑et Java környezetben az Aspose.HTML for Java segítségével.
 ### [top level await példa – Await delay használata JavaScriptben](./top-level-await-example-using-await-delay-in-javascript/)
 Ismerje meg, hogyan használhatja a top‑level await‑ot és az await delay‑t JavaScriptben az Aspose.HTML segítségével.
+### [JavaScript futtatása Java-ban – JS futtatása HTML‑ből](./execute-javascript-in-java-run-js-from-html/)
+Tanulja meg, hogyan futtathat JavaScript kódot Java‑ban HTML‑ből az Aspose.HTML for Java segítségével.
 
 ---
 

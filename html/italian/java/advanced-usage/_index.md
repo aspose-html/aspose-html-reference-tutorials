@@ -135,6 +135,7 @@ R: No. Una singola licenza di Aspose.HTML for Java copre tutti i formati di outp
 ### [Chiama Java da JavaScript – Aggiungi oggetto host ed esegui JavaScript in Java](./call-java-from-javascript-add-host-object-and-run-javascript/)
 ### [Ottieni il titolo HTML in Java – Renderizza la pagina in sandbox con larghezza dello schermo](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
 ### [Esempio di top‑level await – Utilizzare await delay in JavaScript](./top-level-await-example-using-await-delay-in-javascript/)
+### [Esegui JavaScript in Java – Esegui JS da HTML](./execute-javascript-in-java-run-js-from-html/)
 
 ---
 

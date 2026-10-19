@@ -155,6 +155,8 @@ Dowiedz się, jak dodać obiekt hosta w JavaScript i uruchamiać skrypty JavaScr
 Dowiedz się, jak pobrać tytuł strony HTML i renderować ją w środowisku sandbox z określoną szerokością ekranu przy użyciu Aspose.HTML dla Javy.
 ### [Przykład top‑level await – użycie await delay w JavaScript](./top-level-await-example-using-await-delay-in-javascript/)
 Poznaj, jak zastosować top‑level await i funkcję delay w kodzie JavaScript przy użyciu Aspose.HTML.
+### [Wykonaj JavaScript w Javie – Uruchom JS z HTML](./execute-javascript-in-java-run-js-from-html/)
+Dowiedz się, jak uruchomić kod JavaScript z HTML w aplikacji Java przy użyciu Aspose.HTML.
 
 ---
 

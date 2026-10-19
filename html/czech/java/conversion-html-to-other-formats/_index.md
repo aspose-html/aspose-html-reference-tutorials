@@ -227,6 +227,12 @@ Naučte se nastavit vlastní velikost stránky při převodu HTML do PDF pomocí
 Kompletní návod, jak v Javě převést HTML do PDF v sandboxovém prostředí s podrobným nastavením a ukázkovým kódem.
 ### [html to pdf tutoriál – Převod HTML do PDF v Javě s pevnou vláknovou skupinou](./html-to-pdf-tutorial-convert-html-to-pdf-with-java-fixed-thr/)
 Naučte se převést HTML do PDF v Javě pomocí Fixed Thread Pool pro efektivní paralelní zpracování.
+### [Převod HTML do PDF pomocí Javy – Kompletní průvodce PDF, PNG, DOCX a Markdown](./convert-html-to-pdf-with-java-full-guide-to-pdf-png-docx-mar/)
+Kompletní návod, jak převést HTML do PDF, PNG, DOCX a Markdown v Javě pomocí Aspose.HTML.
+### [Java Thread Pool tutoriál – Převod více HTML souborů do PDF](./java-thread-pool-tutorial-convert-multiple-html-files-to-pdf/)
+Naučte se využít thread pool v Javě pro paralelní konverzi více HTML souborů do PDF pomocí Aspose.HTML.
+### [Jak používat sandbox pro konverzi HTML‑to‑PDF v Javě](./how-to-use-sandbox-for-html-to-pdf-conversion-in-java/)
+### [Jak vložit obrázky při převodu MHTML do PDF – průvodce Aspose](./how-to-embed-images-when-converting-mhtml-to-pdf-aspose-guid/)
 
 ## Často kladené otázky
 

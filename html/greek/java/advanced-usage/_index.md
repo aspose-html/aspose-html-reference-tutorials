@@ -150,6 +150,7 @@ weight: 20
 ### [Λήψη Τίτλου HTML Java – Απόδοση Σελίδας σε Sandbox με Πλάτος Οθόνης](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
 ### [Παράδειγμα top‑level await – Χρήση await delay σε JavaScript](./top-level-await-example-using-await-delay-in-javascript/)
 Μάθετε πώς να χρησιμοποιήσετε το top‑level await με καθυστέρηση await σε κώδικα JavaScript.
+### [Εκτέλεση JavaScript σε Java – Εκτέλεση JS από HTML](./execute-javascript-in-java-run-js-from-html/)
 
 ---
 

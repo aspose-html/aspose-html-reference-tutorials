@@ -89,6 +89,8 @@ Dowiedz się, jak w Javie odczytać CSS i wyodrębnić obliczone style krok po k
 Dowiedz się, jak w Javie uzyskać element po ID i odczytać jego obliczone style przy użyciu Aspose.HTML.
 ### [Selektor zapytań div class – Jak wybrać element div po klasie i uzyskać obliczony styl w Javie](./query-selector-div-class-how-to-select-a-div-by-class-and-ge/)
 Dowiedz się, jak w Javie wybrać element div po klasie i odczytać jego obliczony styl przy użyciu Aspose.HTML.
+### [Jak odczytać CSS w Javie – Kompletny przewodnik przy użyciu Aspose.HTML](./how-to-read-css-in-java-complete-guide-using-aspose-html/)
+Dowiedz się, jak odczytywać i analizować style CSS w aplikacjach Java przy pomocy Aspose.HTML w tym szczegółowym przewodniku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

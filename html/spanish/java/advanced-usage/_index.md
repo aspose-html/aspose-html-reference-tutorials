@@ -135,6 +135,8 @@ Aprende a invocar código Java desde JavaScript, manejar llamadas asíncronas co
 ### [Cómo usar Aspose HTML en Java – Guía completa de filtrado XPath](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
 ### [Obtener título HTML con Java – Renderizar página en sandbox con ancho de pantalla](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
 Aprende a extraer el título de una página HTML y renderizarla en un sandbox especificando el ancho de pantalla usando Aspose.HTML para Java.
+### [Ejecutar JavaScript en Java – Ejecutar JS desde HTML](./execute-javascript-in-java-run-js-from-html/)
+Aprende a ejecutar código JavaScript dentro de Java usando Aspose.HTML, ejecutando scripts embebidos en HTML de forma sencilla.
 ### [Cómo ejecutar JavaScript en Java – Guía completa](./how-to-run-javascript-in-java-complete-guide/)
 ### [Cómo habilitar JavaScript en Aspose HTML – Cargar HTML y obtener texto](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
 ### [Cómo ejecutar scripts en Java – Guía completa para ejecutar JavaScript y extraer datos](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)

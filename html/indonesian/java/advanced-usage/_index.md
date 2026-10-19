@@ -155,6 +155,8 @@ Pelajari cara mendapatkan judul HTML menggunakan Aspose.HTML untuk Java, merende
 ### [Contoh top‑level await – Menggunakan delay await dalam JavaScript](./top-level-await-example-using-await-delay-in-javascript/)
 Pelajari contoh penggunaan top‑level await dengan fungsi delay await dalam JavaScript menggunakan Aspose.HTML.
 
+### [Eksekusi JavaScript di Java – Jalankan JS dari HTML](./execute-javascript-in-java-run-js-from-html/)
+
 ---
 
 **Terakhir Diperbarui:** 2025-11-29  

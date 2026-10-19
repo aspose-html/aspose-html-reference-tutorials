@@ -89,6 +89,8 @@ Pelajari cara membaca CSS di Java dan mengekstrak gaya terhitung secara bertahap
 Pelajari cara mengambil elemen HTML berdasarkan id di Java serta mendapatkan gaya terhitungnya dengan contoh kode lengkap.
 ### [query selector div class – Cara Memilih div berdasarkan Kelas dan Mendapatkan Gaya Terhitung di Java](./query-selector-div-class-how-to-select-a-div-by-class-and-ge/)
 Pelajari cara menggunakan query selector untuk memilih elemen div berdasarkan kelas dan mengambil gaya terhitungnya di Java dengan Aspose.HTML.
+### [Cara Membaca CSS di Java – Panduan Lengkap Menggunakan Aspose.HTML](./how-to-read-css-in-java-complete-guide-using-aspose-html/)
+Pelajari cara membaca CSS di Java secara terprogram menggunakan Aspose.HTML dalam panduan lengkap ini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

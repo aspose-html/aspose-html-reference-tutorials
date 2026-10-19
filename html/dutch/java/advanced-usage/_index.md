@@ -153,6 +153,8 @@ Leer hoe je een host‑object toevoegt en JavaScript vanuit Java kunt uitvoeren 
 ### [HTML‑titel ophalen met Java – Pagina renderen in sandbox met schermbreedte](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
 ### [Top‑level await‑voorbeeld – Await‑delay gebruiken in JavaScript](./top-level-await-example-using-await-delay-in-javascript/)
 Leer hoe je top‑level await en een await‑delay kunt toepassen in JavaScript met Aspose.HTML.
+### [JavaScript uitvoeren in Java – JS vanuit HTML uitvoeren](./execute-javascript-in-java-run-js-from-html/)
+Leer hoe je JavaScript vanuit een HTML‑document kunt uitvoeren binnen een Java‑applicatie met Aspose.HTML, stap voor stap.
 
 ---
 

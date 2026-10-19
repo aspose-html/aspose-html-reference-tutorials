@@ -89,6 +89,8 @@ url: /th/java/css-html-form-editing/
 เรียนรู้วิธีดึงองค์ประกอบตาม id ใน Java พร้อมการเข้าถึงสไตล์ที่คำนวณแล้วอย่างละเอียด
 ### [query selector div class – วิธีเลือก div ตามคลาสและรับสไตล์ที่คำนวณแล้วใน Java](./query-selector-div-class-how-to-select-a-div-by-class-and-ge/)
 เรียนรู้วิธีใช้ query selector เพื่อเลือก div ตามคลาสและดึงสไตล์ที่คำนวณแล้วด้วย Aspose.HTML สำหรับ Java
+### [วิธีอ่าน CSS ใน Java – คู่มือฉบับสมบูรณ์โดยใช้ Aspose.HTML](./how-to-read-css-in-java-complete-guide-using-aspose-html/)
+เรียนรู้วิธีอ่านและประมวลผลไฟล์ CSS ใน Java ด้วย Aspose.HTML อย่างละเอียดในคู่มือฉบับสมบูรณ์นี้
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -153,6 +153,8 @@ Java 애플리케이션에서 JavaScript를 실행하고, 호스트 객체를 �
 Aspose.HTML for Java를 사용해 샌드박스 환경에서 화면 너비를 지정해 HTML 페이지 제목을 추출하고 페이지를 렌더링하는 방법을 배웁니다.
 ### [Top-level await 예제 – JavaScript에서 await delay 사용](./top-level-await-example-using-await-delay-in-javascript/)
 JavaScript에서 top-level await을 사용해 await delay를 구현하는 방법을 단계별로 배웁니다.
+### [Java에서 JavaScript 실행 – HTML에서 JS 실행](./execute-javascript-in-java-run-js-from-html/)
+Java 애플리케이션에서 HTML에 포함된 JavaScript 코드를 실행하는 방법을 단계별로 안내합니다.
 
 ---
 

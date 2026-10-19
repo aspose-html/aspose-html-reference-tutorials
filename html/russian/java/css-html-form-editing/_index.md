@@ -87,6 +87,8 @@ url: /ru/java/css-html-form-editing/
 Узнайте, как с помощью Aspose.HTML в Java получить элемент по id и извлечь его вычисленные стили в полном пошаговом руководстве.
 ### [Выбор div по классу и получение вычисленного стиля в Java](./query-selector-div-class-how-to-select-a-div-by-class-and-ge/)
 Узнайте, как с помощью Aspose.HTML в Java выбрать элемент div по классу и получить его вычисленные стили.
+### [Как читать CSS в Java — Полное руководство с использованием Aspose.HTML](./how-to-read-css-in-java-complete-guide-using-aspose-html/)
+Узнайте, как программно считывать CSS‑правила в Java с помощью Aspose.HTML, шаг за шагом, с примерами кода.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

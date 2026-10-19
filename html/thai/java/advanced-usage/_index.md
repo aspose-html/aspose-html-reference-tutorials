@@ -154,6 +154,8 @@ Aspose.HTML ให้คุณแนบ `DomMutationObserver` ไปยังโ
 เรียนรู้วิธีดึงหัวเรื่องของหน้า HTML และเรนเดอร์ใน sandbox ด้วยความกว้างหน้าจอที่กำหนดโดยใช้ Aspose.HTML for Java  
 ### [ตัวอย่าง top-level await – การใช้ await delay ใน JavaScript](./top-level-await-example-using-await-delay-in-javascript/)
 เรียนรู้วิธีใช้ top-level await พร้อมฟังก์ชัน delay ใน JavaScript ด้วย Aspose.HTML  
+### [ดำเนินการ JavaScript ใน Java – รัน JS จาก HTML](./execute-javascript-in-java-run-js-from-html/)
+เรียนรู้วิธีรันโค้ด JavaScript ที่ฝังอยู่ในไฟล์ HTML จากแอปพลิเคชัน Java ด้วย Aspose.HTML  
 
 ---
 

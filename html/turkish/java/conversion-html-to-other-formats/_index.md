@@ -96,6 +96,8 @@ Java NIO ve paralel işleme ile birden çok HTML dosyasını toplu PDF'ye dönü
 Java kullanarak HTML'yi PDF'ye dönüştürmenin adım adım ayrıntılı rehberi.
 ### [HTML'yi PDF'ye Dönüştürme Java’da – Tam Sandbox Kılavuzu](./convert-html-to-pdf-in-java-full-sandbox-guide/)
 Tam sandbox ortamında Java’da HTML'yi PDF'ye dönüştürmenin tüm adımlarını ayrıntılı olarak gösterir.
+### [Java'da HTML‑to‑PDF Dönüşümü için Sandbox Kullanımı](./how-to-use-sandbox-for-html-to-pdf-conversion-in-java/)
+Java uygulamanızda HTML‑to‑PDF dönüşümünü güvenli bir ortamda test etmek ve çalıştırmak için Sandbox'ı adım adım gösterir.
 ### [HTML'yi PDF'ye Dönüştürme Java’da – Sayfa Boyutu Ayarlarıyla Adım‑Adım Kılavuz](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Java’da HTML'yi PDF'ye dönüştürürken sayfa boyutu ayarlarını nasıl yapılandıracağınızı adım adım gösterir.
 ### [Özel Sayfa Boyutu ve Gömülü Yazı Tipleriyle HTML'den PDF Oluşturma](./create-pdf-from-html-with-custom-page-size-and-embedded-font/)
@@ -116,6 +118,8 @@ HTML'den PDF oluştururken sayfa boyutunu özelleştirmeyi adım adım gösterir
 Aspose.HTML for Java ile HTML'yi MHTML'ye kolayca dönüştürün. Verimli HTML‑to‑MHTML dönüşümü için adım adım rehberimizi izleyin.
 ### [Aspose.HTML ile HTML'yi MHTML'ye Dönüştürme – Tam Java Kılavuzu](./convert-html-to-mhtml-with-aspose-html-complete-java-guide/)
 Aspose.HTML kullanarak Java’da HTML'yi MHTML'ye eksiksiz şekilde dönüştürün. Adım adım rehber.
+### [MHTML'den PDF'ye Dönüştürürken Görüntüleri Gömme – Aspose Rehberi](./how-to-embed-images-when-converting-mhtml-to-pdf-aspose-guid/)
+MHTML dosyalarından PDF oluştururken gömülü resimlerin doğru şekilde eklenmesini adım adım gösterir.
 ### [HTML'yi XPS'ye Dönüştürme](./convert-html-to-xps/)
 ### [Markdown'ı HTML'ye Dönüştürme](./convert-markdown-to-html/)
 ### [Aspose HTML Dönüştürücü (Java) ile Markdown'tan PDF Oluşturma](./create-pdf-from-markdown-using-aspose-html-converter-java/)
@@ -163,6 +167,9 @@ HTML içeriğini orijinal biçimlendirmesini koruyarak Java ile Markdown format�
 Java Fixed Thread Pool kullanarak çoklu HTML dosyasını eşzamanlı olarak PDF'ye dönüştürmeyi gösteren adım adım rehber.
 ### [Java'da HTML'den Markdown Oluşturma – Adım‑adım Dönüşüm Kılavuzu](./create-markdown-from-html-in-java-step-by-step-conversion-gu/)
 Java kullanarak HTML içeriğini Markdown formatına dönüştürmeyi adım adım gösteren kapsamlı rehber.
+### [HTML'yi PDF'ye Dönüştürme Java ile – PDF, PNG, DOCX ve Markdown için Tam Kılavuz](./convert-html-to-pdf-with-java-full-guide-to-pdf-png-docx-mar/)
+### [Java İş Parçacığı Havuzu Öğreticisi – Birden Çok HTML Dosyasını PDF'ye Dönüştürme](./java-thread-pool-tutorial-convert-multiple-html-files-to-pdf/)
+Java iş parçacığı havuzu kullanarak birden çok HTML dosyasını aynı anda PDF'ye dönüştürmeyi öğrenin.
 
 ### [PDF'ye Yazı Tipi Gömme – Aspose HTML'den PDF'ye Tam Kılavuz (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
 Aspose.HTML for Java kullanarak PDF dosyalarına gömülü yazı tipleri eklemeyi adım adım öğrenin.

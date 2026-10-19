@@ -84,6 +84,7 @@ url: /ar/java/css-html-form-editing/
 ### [الحصول على العنصر حسب المعرف في Java – دليل شامل لاسترجاع الأنماط المحسوبة](./get-element-by-id-in-java-full-guide-to-retrieve-computed-st/)
 تعلم كيفية الحصول على عنصر HTML باستخدام المعرف في Java واسترجاع الأنماط المحسوبة باستخدام Aspose.HTML خطوة بخطوة.
 ### [محدد الاستعلام div class – كيفية اختيار div حسب الفئة والحصول على النمط المحسوب في Java](./query-selector-div-class-how-to-select-a-div-by-class-and-ge/)
+### [كيفية قراءة CSS في Java – دليل شامل باستخدام Aspose.HTML](./how-to-read-css-in-java-complete-guide-using-aspose-html/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

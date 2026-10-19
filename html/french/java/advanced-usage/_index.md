@@ -160,6 +160,8 @@ Découvrez comment ajouter un objet hôte Java et exécuter du code JavaScript d
 Apprenez à récupérer le titre d’une page HTML et à la rendre dans un environnement sandbox en spécifiant la largeur d’écran.  
 ### [Exemple de top‑level await – Utilisation d'await delay en JavaScript](./top-level-await-example-using-await-delay-in-javascript/)
 Apprenez à utiliser top‑level await avec une fonction de délai await en JavaScript.  
+### [Exécuter du JavaScript en Java – Exécuter le JS depuis HTML](./execute-javascript-in-java-run-js-from-html/)
+Apprenez à exécuter du code JavaScript intégré dans un fichier HTML depuis Java avec Aspose.HTML, incluant des exemples pratiques.  
 
 ---
 

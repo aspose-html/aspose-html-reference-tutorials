@@ -105,6 +105,12 @@ Aspose.HTML for Java で HTML を MHTML に簡単に変換します。効率的�
 Aspose.HTML を使用して Java で HTML から PDF を作成する手順を完全に解説します。高度な設定やベストプラクティスも網羅。
 ### [Aspose.HTML で HTML を MHTML に変換する完全 Java ガイド](./convert-html-to-mhtml-with-aspose-html-complete-java-guide/)
 Aspose.HTML を活用し、Java で HTML を MHTML に変換する手順とベストプラクティスを詳しく解説します。
+### [Java スレッドプール チュートリアル – 複数の HTML ファイルを PDF に変換](./java-thread-pool-tutorial-convert-multiple-html-files-to-pdf/)
+Java のスレッドプールを使用して、複数の HTML ファイルを同時に PDF に変換する方法を学びます。
+### [JavaでHTMLをPDFに変換 – PDF、PNG、DOCX、Markdownの完全ガイド](./convert-html-to-pdf-with-java-full-guide-to-pdf-png-docx-mar/)
+Java を使用して HTML を PDF、PNG、DOCX、Markdown に変換する手順を詳しく解説します。
+### [MHTML を PDF に変換する際の画像埋め込み方法 – Aspose ガイド](./how-to-embed-images-when-converting-mhtml-to-pdf-aspose-guid/)
+MHTML から PDF へ変換する際に画像を正しく埋め込む手順とベストプラクティスを解説します。
 ### [Converting HTML to XPS](./convert-html-to-xps/)
 Aspose.HTML for Java を使用して HTML を XPS にシームレスに変換する方法を学びます。クロスプラットフォーム文書を簡単に作成できます。
 ### [Javaでデバイスピクセル比を設定 – HTMLをモバイルに変換](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)
@@ -224,6 +230,8 @@ Aspose.HTML を使用して、HTML からカスタムページサイズの PDF �
 Aspose.HTML を使用して Java で HTML を Markdown に変換し、元のフォーマットを保持する方法を学びます。
 ### [JavaでHTMLをPDFに変換 – フルサンドボックスガイド](./convert-html-to-pdf-in-java-full-sandbox-guide/)
 Aspose.HTML を使用して Java のフルサンドボックス環境で HTML を PDF に変換する手順を詳しく解説します。
+### [JavaでHTML‑to‑PDF変換にサンドボックスを使用する方法](./how-to-use-sandbox-for-html-to-pdf-conversion-in-java/)
+Aspose.HTML のサンドボックス機能を利用し、Java で安全に HTML を PDF に変換する手順を解説します。
 
 ## よくある質問
 

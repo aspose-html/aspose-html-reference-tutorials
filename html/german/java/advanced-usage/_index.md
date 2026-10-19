@@ -160,6 +160,8 @@ Erfahren Sie, wie Sie JavaScript in Java aktivieren und mit Aspose.HTML vollstä
 Erfahren Sie, wie Sie mit Aspose.HTML für Java den HTML‑Titel auslesen und eine Seite im Sandbox‑Modus mit festgelegter Bildschirmbreite rendern.
 ### [Top‑Level‑Await‑Beispiel – Verwendung von await‑Delay in JavaScript](./top-level-await-example-using-await-delay-in-javascript/)
 Erfahren Sie, wie Sie das Top‑Level‑Await‑Muster mit einer Verzögerungsfunktion in JavaScript einsetzen.
+### [JavaScript in Java ausführen – JS aus HTML ausführen](./execute-javascript-in-java-run-js-from-html/)
+Erfahren Sie, wie Sie JavaScript‑Code aus einer HTML‑Datei in einer Java‑Anwendung ausführen können.
 
 ---
 

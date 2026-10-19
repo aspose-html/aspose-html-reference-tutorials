@@ -157,6 +157,8 @@ Java में Aspose HTML का उपयोग करके पूर्ण X
 Java में Aspose.HTML का उपयोग करके HTML पेज का शीर्षक प्राप्त करें और स्क्रीन चौड़ाई सेट करके सैंडबॉक्स में पेज रेंडर करें।  
 ### [टॉप‑लेवल await उदाहरण – JavaScript में await delay का उपयोग](./top-level-await-example-using-await-delay-in-javascript/)
 JavaScript में टॉप‑लेवल await का उपयोग करके await delay को कैसे लागू करें, इस ट्यूटोरियल में सीखें।  
+### [Java में JavaScript निष्पादित करें – HTML से JS चलाएँ](./execute-javascript-in-java-run-js-from-html/)
+Java एप्लिकेशन में HTML से JavaScript को चलाने के चरण‑दर‑चरण निर्देश।  
 
 ---
 

@@ -190,6 +190,14 @@ Szybko wygeneruj PDF z pliku Markdown w Javie przy użyciu Aspose.HTML, w kilku 
 Dowiedz się, jak ustawić własny rozmiar strony przy konwersji HTML do PDF w Javie przy użyciu Aspose.HTML.
 ### [Konwertuj HTML do Markdown w Javie – Zachowaj oryginalne formatowanie](./convert-html-to-markdown-in-java-preserve-original-formattin/)
 Dowiedz się, jak konwertować HTML do Markdown w Javie, zachowując oryginalne formatowanie przy użyciu Aspose.HTML.
+### [Konwertowanie HTML do PDF w Javie – Kompletny przewodnik po PDF, PNG, DOCX i Markdown](./convert-html-to-pdf-with-java-full-guide-to-pdf-png-docx-mar/)
+Kompletny przewodnik, jak konwertować HTML do PDF, PNG, DOCX oraz Markdown w Javie przy użyciu Aspose.HTML.
+### [Jak używać sandbox do konwersji HTML‑to‑PDF w Javie](./how-to-use-sandbox-for-html-to-pdf-conversion-in-java/)
+Dowiedz się, jak wykorzystać sandbox w Aspose.HTML for Java do bezpiecznej konwersji HTML do PDF.
+### [Samouczek Java Thread Pool – konwersja wielu plików HTML do PDF](./java-thread-pool-tutorial-convert-multiple-html-files-to-pdf/)
+Dowiedz się, jak używać puli wątków w Javie do równoczesnej konwersji wielu plików HTML na PDF przy użyciu Aspose.HTML.
+### [Jak osadzić obrazy przy konwersji MHTML do PDF – przewodnik Aspose](./how-to-embed-images-when-converting-mhtml-to-pdf-aspose-guid/)
+Dowiedz się, jak prawidłowo osadzać obrazy podczas konwersji MHTML do PDF przy użyciu Aspose.HTML w Javie.
 
 ### [Jak używać Aspose – wsadowa konwersja HTML do PDF w Javie](./how-to-use-aspose-batch-convert-html-to-pdf-in-java/)
 Dowiedz się, jak przetwarzać wiele plików HTML jednocześnie i generować PDF w Javie przy użyciu Aspose.HTML.

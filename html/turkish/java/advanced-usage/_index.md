@@ -155,6 +155,8 @@ Aspose.HTML for Java kullanarak JavaScript'ten Java metodlarını çağırmayı,
 ### [HTML Başlığını Al Java – Sandbox'ta Ekran Genişliğiyle Sayfayı Render Et](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
 ### [Üst Düzey Await Örneği – JavaScript'te Await Delay Kullanımı](./top-level-await-example-using-await-delay-in-javascript/)
 JavaScript'te top‑level await ve gecikme (delay) fonksiyonunu nasıl kullanacağınızı öğrenin.
+### [Java’da JavaScript Çalıştırma – HTML’den JS Çalıştırma](./execute-javascript-in-java-run-js-from-html/)
+Aspose.HTML for Java ile HTML içinde yer alan JavaScript’i Java’da çalıştırmayı keşfedin.
 
 ---
 

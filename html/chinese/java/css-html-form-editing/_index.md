@@ -89,6 +89,8 @@ url: /zh/java/css-html-form-editing/
 本指南详细说明如何在 Java 中使用 Aspose.HTML 通过元素 ID 获取元素并检索其计算样式，帮助实现精准样式控制。
 ### [查询选择器 div 类 – 在 Java 中按类选择 div 并获取计算样式](./query-selector-div-class-how-to-select-a-div-by-class-and-ge/)
 本教程演示如何使用 Aspose.HTML for Java 按 CSS 类选择 div 元素并获取其计算后的样式属性。
+### [使用 Aspose.HTML 在 Java 中读取 CSS – 完整指南](./how-to-read-css-in-java-complete-guide-using-aspose-html/)
+本指南详细说明如何使用 Aspose.HTML 在 Java 中读取和解析 CSS 样式表，帮助开发者实现样式分析与处理。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

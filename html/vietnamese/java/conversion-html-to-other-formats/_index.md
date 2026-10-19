@@ -95,6 +95,9 @@ Tìm hiểu cách chuyển đổi HTML sang PDF một cách bất đồng bộ t
 Hướng dẫn tạo Fixed Thread Pool trong Java để thực hiện chuyển đổi HTML sang PDF hàng loạt một cách hiệu quả.
 ### [Chuyển đổi HTML sang PDF trong Java – Ví dụ mã một dòng](./convert-html-to-pdf-in-java-one-line-code-example/)
 Hướng dẫn nhanh cách chuyển đổi HTML sang PDF trong Java chỉ với một dòng mã, sử dụng Aspose.HTML.
+### [Cách sử dụng Sandbox để chuyển đổi HTML‑to‑PDF trong Java](./how-to-use-sandbox-for-html-to-pdf-conversion-in-java/)
+Hướng dẫn sử dụng môi trường Sandbox của Aspose.HTML để thực hiện chuyển đổi HTML sang PDF trong Java một cách an toàn.
+
 ### [Chuyển đổi HTML sang PDF trong Java – Hướng dẫn chi tiết với cài đặt kích thước trang](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 ### [Hướng dẫn chuyển đổi HTML sang PDF với Java Fixed Thread Pool](./html-to-pdf-tutorial-convert-html-to-pdf-with-java-fixed-thr/)
 Hướng dẫn sử dụng Fixed Thread Pool trong Java để chuyển đổi HTML sang PDF hiệu quả bằng Aspose.HTML.
@@ -164,6 +167,8 @@ Chuyển đổi HTML sang MHTML một cách dễ dàng bằng Aspose.HTML for Ja
 
 ### [Chuyển đổi HTML sang MHTML với Aspose.HTML – Hướng dẫn Java chi tiết](./convert-html-to-mhtml-with-aspose-html-complete-java-guide/)
 Hướng dẫn chi tiết cách chuyển đổi HTML sang MHTML trong Java bằng Aspose.HTML, bao gồm các tùy chọn cấu hình và ví dụ thực tế.
+### [Cách nhúng hình ảnh khi chuyển đổi MHTML sang PDF – Hướng dẫn Aspose](./how-to-embed-images-when-converting-mhtml-to-pdf-aspose-guid/)
+Hướng dẫn chi tiết cách nhúng hình ảnh vào tài liệu PDF khi chuyển đổi từ MHTML bằng Aspose.HTML for Java.
 
 ### [Chuyển đổi HTML sang XPS](./convert-html-to-xps/)
 Tìm hiểu cách chuyển đổi HTML sang XPS một cách dễ dàng bằng Aspose.HTML for Java. Tạo tài liệu đa nền tảng một cách nhanh chóng.
@@ -271,6 +276,11 @@ Hướng dẫn cách chuyển đổi đồng thời nhiều tệp HTML thành PD
 
 ### [Tạo markdown từ HTML trong Java – Hướng dẫn chuyển đổi từng bước](./create-markdown-from-html-in-java-step-by-step-conversion-gu/)
 Hướng dẫn từng bước tạo tệp markdown từ HTML trong Java bằng Aspose.HTML, bao gồm cài đặt và ví dụ thực tế.
+### [Chuyển đổi HTML sang PDF với Java – Hướng dẫn đầy đủ về PDF, PNG, DOCX & Markdown](./convert-html-to-pdf-with-java-full-guide-to-pdf-png-docx-mar/)
+Hướng dẫn chi tiết chuyển đổi HTML sang PDF, PNG, DOCX và Markdown trong Java bằng Aspose.HTML, bao gồm các tùy chọn và ví dụ thực tế.
+
+### [Hướng dẫn thread pool Java – Chuyển đổi nhiều tệp HTML sang PDF](./java-thread-pool-tutorial-convert-multiple-html-files-to-pdf/)
+Sử dụng thread pool trong Java để chuyển đổi đồng thời nhiều tệp HTML thành PDF nhanh chóng và hiệu quả với Aspose.HTML.
 
 ## Câu hỏi thường gặp
 

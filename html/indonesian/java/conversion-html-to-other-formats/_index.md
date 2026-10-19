@@ -252,6 +252,17 @@ Pelajari cara membuat file markdown dari HTML di Java menggunakan Aspose.HTML de
 
 ### [Tutorial html ke pdf – Mengonversi HTML ke PDF dengan Java Fixed Thread Pool](./html-to-pdf-tutorial-convert-html-to-pdf-with-java-fixed-thr/)
 Pelajari cara mengonversi HTML ke PDF secara paralel menggunakan Java Fixed Thread Pool dengan Aspose.HTML.
+### [Mengonversi HTML ke PDF dengan Java – Panduan Lengkap ke PDF, PNG, DOCX & Markdown](./convert-html-to-pdf-with-java-full-guide-to-pdf-png-docx-mar/)
+Panduan lengkap mengonversi HTML ke PDF, PNG, DOCX, dan Markdown menggunakan Aspose.HTML for Java.
+
+### [Cara Menggunakan Sandbox untuk Konversi HTML‑ke‑PDF di Java](./how-to-use-sandbox-for-html-to-pdf-conversion-in-java/)
+Pelajari cara memanfaatkan sandbox Aspose.HTML untuk mengonversi HTML ke PDF secara aman dalam aplikasi Java.
+
+### [Tutorial thread pool Java – Mengonversi Beberapa File HTML ke PDF](./java-thread-pool-tutorial-convert-multiple-html-files-to-pdf/)
+Pelajari cara menggunakan thread pool di Java untuk mengonversi banyak file HTML menjadi PDF secara paralel dengan Aspose.HTML.
+
+### [Cara menyematkan gambar saat mengonversi MHTML ke PDF – Panduan Aspose](./how-to-embed-images-when-converting-mhtml-to-pdf-aspose-guid/)
+Pelajari cara menyertakan gambar secara otomatis saat mengonversi file MHTML ke PDF dengan Aspose.HTML for Java.
 
 ## Pertanyaan yang Sering Diajukan
 
