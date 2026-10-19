@@ -112,8 +112,8 @@ Aspose.HTML for Java kullanarak HTML'den PNG'ye dönüşürken DPI değerini nas
 Aspose.HTML for Java ile arka plan rengi ve çözünürlük ayarlarıyla HTML'yi PNG'ye dönüştürmeyi adım adım öğrenin.
 ### [HTML'yi TIFF'ye Dönüştürme](./convert-html-to-tiff/)
 Aspose.HTML for Java kullanarak HTML'yi TIFF'ye kolayca dönüştürmeyi öğrenin. Verimli belge işleme için adım‑adım bir rehber.
-### [Java'da SVG'den Çok Sayfalı TIFF Oluşturma – Adım Adım Kılavuz](./create-multipage-tiff-from-svg-in-java-step-by-step-guide/)
-Aspose.HTML for Java ile SVG dosyalarından çok sayfalı TIFF oluşturmayı adım adım öğrenin.
+### [HTML'yi WebP'ye Dönüştür – Aspose.HTML ile Tam Java Rehberi](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
+Aspose.HTML for Java kullanarak HTML'yi WebP formatına yüksek kaliteyle dönüştürmeyi adım adım öğrenin.
 ### [HTML'yi WebP'ye Dönüştür – Aspose.HTML ile Tam Java Rehberi](./convert-html-to-webp-complete-java-guide/)
 Aspose.HTML for Java kullanarak HTML'yi WebP formatına yüksek kaliteyle dönüştürmeyi adım adım öğrenin.
 ### [HTML'yi PNG'ye Render Etme – Java Tam Kılavuzu](./how-to-render-html-to-png-in-java-complete-guide/)
@@ -161,6 +161,9 @@ Aspose.HTML for Java kullanarak Java'da SVG'den PNG oluşturmayı öğrenin. Kap
 Aspose.HTML for Java kullanarak yüksek DPI ayarları ve özel kullanıcı aracısı ile web sayfalarının ekran görüntülerini nasıl alacağınızı öğrenin.
 ### [Java'da Maksimum Bellek Kullanımı Ayarlanarak HTML'yi PNG'ye Dönüştürme](./convert-html-to-png-with-set-max-memory-usage-in-java/)
 Aspose.HTML for Java ile bellek kullanımını sınırlayarak HTML'yi PNG görüntüsüne dönüştürmeyi adım adım öğrenin.
+### [Java'da SVG'den Çok Sayfalı TIFF Oluşturma – Adım Adım Kılavuz](./create-multipage-tiff-from-svg-in-java-step-by-step-guide/)
+Aspose.HTML for Java ile SVG dosyalarından çok sayfalı TIFF oluşturmayı adım adım öğrenin.
+
 ## Sıkça Sorulan Sorular
 
 **S: Java kullanarak ek bir görüntü kütüphanesi olmadan HTML'yi PNG'ye dönüştürebilir miyim?**  
