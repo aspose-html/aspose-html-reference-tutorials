@@ -117,6 +117,8 @@ Naučte se, jak pomocí Aspose.HTML pro .NET zabalit HTML soubor do ZIP archivu 
 Naučte se, jak pomocí Aspose.HTML v C# exportovat webovou stránku do ZIP archivu.
 ### [Jak zkomprimovat HTML pomocí Aspose.HTML – Kompletní průvodce](./how-to-zip-html-with-aspose-html-complete-guide/)
 Kompletní průvodce, jak pomocí Aspose.HTML zkomprimovat HTML soubor do ZIP archivu v .NET.
+### [Jak zkomprimovat HTML v C# – krok za krokem průvodce](./how-to-zip-html-in-c-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.HTML pro .NET zabalit HTML soubor do ZIP archivu v C# krok za krokem.
 ### [Vytvořte HTML dokument se stylovaným textem a exportujte do PDF – Kompletní průvodce](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Naučte se vytvořit HTML dokument se stylovaným textem a převést jej do PDF pomocí Aspose.HTML pro .NET.
 ### [Vytvořte HTML dokument v C# – průvodce krok za krokem](./create-html-document-c-step-by-step-guide/)

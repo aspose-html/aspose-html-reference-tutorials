@@ -70,6 +70,10 @@ Dowiedz się, jak w C# wygenerować dokument HTML bezpośrednio z łańcucha zna
 
 ### [Tworzenie HTML z ciągu znaków w C# – Kompletny przewodnik z użyciem strumienia pamięci](./create-html-from-string-in-c-full-guide-with-memory-stream/)
 
+### [Jak zapisać HTML – Kompletny przewodnik po Aspose HTMLDocument](./how-to-save-html-aspose-htmldocument-complete-guide/)
+
+Dowiedz się, jak zapisać dokument HTML przy użyciu klasy Aspose.HTMLDocument, krok po kroku, z przykładami kodu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

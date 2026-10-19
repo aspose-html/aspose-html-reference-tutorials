@@ -109,6 +109,8 @@ Dowiedz się, jak spakować plik HTML do archiwum ZIP w C# przy użyciu Aspose.H
 Dowiedz się, jak wyeksportować całą stronę internetową do pliku ZIP w C# przy użyciu Aspose.HTML.
 ### [Konwertuj HTML do ZIP w C# – Kompletny przewodnik krok po kroku](./convert-html-to-zip-in-c-complete-step-by-step-guide/)
 Zapisz HTML do archiwum ZIP w C# przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
+### [Jak spakować HTML w C# – Przewodnik krok po kroku](./how-to-zip-html-in-c-step-by-step-guide/)
+Krok po kroku dowiedz się, jak spakować HTML w C# przy użyciu Aspose.HTML.
 ### [Utwórz dokument HTML ze stylowanym tekstem i wyeksportuj do PDF – Pełny przewodnik](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Dowiedz się, jak stworzyć dokument HTML z formatowanym tekstem i wyeksportować go do PDF przy użyciu Aspose.HTML dla .NET.
 ### [Utwórz dokument HTML w C# – przewodnik krok po kroku](./create-html-document-c-step-by-step-guide/)

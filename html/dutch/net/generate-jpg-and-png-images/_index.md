@@ -30,7 +30,7 @@ Aspose.HTML voor .NET biedt een eenvoudige methode voor het converteren van HTML
 
 ## Afbeeldingen optimaliseren
 
-Het maken van afbeeldingen is slechts de eerste stap. Met Aspose.HTML voor .NET kunt u uw afbeeldingen verder optimaliseren. U kunt compressie-instellingen aanpassen, de resolutie instellen en de uitvoer verfijnen om aan uw specifieke vereisten te voldoen. Deze flexibiliteit zorgt ervoor dat de resulterende afbeeldingen zowel visueel aantrekkelijk als lichtgewicht zijn voor efficiënte weblevering.
+Het maken van afbeeldingen is slechts de eerste stap. Met Aspose.HTML voor .NET kunt u uw afbeeldingen verder optimaliseren. U kunt compressie‑instellingen aanpassen, de resolutie instellen en de uitvoer verfijnen om aan uw specifieke vereisten te voldoen. Deze flexibiliteit zorgt ervoor dat de resulterende afbeeldingen zowel visueel aantrekkelijk als lichtgewicht zijn voor efficiënte weblevering.
 
 ## Integratie met .NET-projecten
 

@@ -73,6 +73,10 @@ url: /el/net/working-with-html-documents/
 
 Μάθετε πώς να αποθηκεύσετε HTML σε C# με αναλυτικές οδηγίες βήμα‑βήμα.
 
+### [Πώς να αποθηκεύσετε HTML – Πλήρης οδηγός Aspose HTMLDocument](./how-to-save-html-aspose-htmldocument-complete-guide/)
+
+Μάθετε πώς να αποθηκεύσετε HTML με το Aspose.HTMLDocument, ακολουθώντας έναν πλήρη βήμα‑βήμα οδηγό.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

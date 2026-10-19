@@ -38,6 +38,7 @@ Sekarang, mari tingkatkan keterampilan Anda ke tingkat berikutnya. Mengedit doku
 
 ### [Cara Menyimpan HTML di C# – Panduan Lengkap Menggunakan Penangan Sumber Daya Kustom](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 ### [Cara Menyimpan HTML di C# – Panduan Lengkap Langkah demi Langkah](./how-to-save-html-in-c-complete-step-by-step-guide/)
+### [Cara Menyimpan HTML – Panduan Lengkap Aspose HTMLDocument](./how-to-save-html-aspose-htmldocument-complete-guide/)
 ### [Cara Membuat Heading Tebal dengan CSS & C# – Panduan Lengkap Langkah demi Langkah](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 ### [Cara Menyimpan HTML di C# – Penangan Sumber Daya Kustom & ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
 

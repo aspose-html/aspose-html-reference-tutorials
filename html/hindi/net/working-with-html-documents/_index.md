@@ -49,6 +49,8 @@ HTML दस्तावेज़ वेब की रीढ़ हैं, और
 ### [C# में स्ट्रिंग से HTML बनाना – मेमोरी स्ट्रीम के साथ पूर्ण गाइड](./create-html-from-string-in-c-full-guide-with-memory-stream/)
 ### [C# में HTML को सहेजना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-save-html-in-c-complete-step-by-step-guide/)
 
+### [HTML को सहेजना – Aspose HTMLDocument पूर्ण गाइड](./how-to-save-html-aspose-htmldocument-complete-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

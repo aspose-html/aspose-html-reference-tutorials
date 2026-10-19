@@ -76,6 +76,10 @@ Erfahren Sie, wie Sie HTML-Dateien in C# zu einem ZIP-Archiv komprimieren und sp
 
 Erfahren Sie, wie Sie HTML aus einer Zeichenkette in C# generieren und mit einem Memory Stream verarbeiten.
 
+### [HTML speichern – Aspose HTMLDocument Vollständige Anleitung](./how-to-save-html-aspose-htmldocument-complete-guide/)
+
+Erfahren Sie, wie Sie HTML mit Aspose HTMLDocument vollständig speichern können.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

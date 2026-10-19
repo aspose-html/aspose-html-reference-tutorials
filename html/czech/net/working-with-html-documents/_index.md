@@ -54,6 +54,7 @@ Nyní posuňte vaše dovednosti na další úroveň. Úpravy HTML dokumentů jso
 
 ### [Vytvoření HTML ze řetězce v C# – Kompletní průvodce s Memory Stream](./create-html-from-string-in-c-full-guide-with-memory-stream/)
 ### [Jak uložit HTML v C# – Kompletní průvodce krok za krokem](./how-to-save-html-in-c-complete-step-by-step-guide/)
+### [Jak uložit HTML – Kompletní průvodce Aspose HTMLDocument](./how-to-save-html-aspose-htmldocument-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -54,6 +54,7 @@ Leer hoe u HTML-bestanden opslaat als ZIP‑archief in C# met een aangepaste res
 ### [HTML-document maken in C# – Complete gids met een aangepaste resourcehandler](./create-html-document-c-complete-guide-with-custom-resource-h/)
 
 ### [HTML maken vanuit string in C# – Volledige gids met Memory Stream](./create-html-from-string-in-c-full-guide-with-memory-stream/)
+### [HTML opslaan – Complete gids voor Aspose HTMLDocument](./how-to-save-html-aspose-htmldocument-complete-guide/)
 
 Leer hoe u met CSS en C# kopteksten vet maakt in een .NET‑applicatie, stap voor stap met voorbeeldcode.
 

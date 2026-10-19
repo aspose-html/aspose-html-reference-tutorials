@@ -65,6 +65,8 @@ HTML-документы являются основой Интернета, и �
 
 ### [Как сохранить HTML в C# – Полное пошаговое руководство](./how-to-save-html-in-c-complete-step-by-step-guide/)
 
+### [Как сохранить HTML – Полное руководство по Aspose HTMLDocument](./how-to-save-html-aspose-htmldocument-complete-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

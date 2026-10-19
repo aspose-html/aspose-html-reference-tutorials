@@ -84,6 +84,8 @@ Aspose.HTML สำหรับ .NET ไม่ใช่แค่ไลบรา�
 เรียนรู้วิธีบีบอัดไฟล์ HTML เป็นไฟล์ Zip ด้วย C# และ Aspose.HTML สำหรับ .NET อย่างง่ายดายและปลอดภัย
 ### [วิธีบีบอัด HTML ใน C# – ส่งออกหน้าเว็บเป็น ZIP ด้วย Aspose.HTML](./how-to-zip-html-in-c-export-webpage-to-zip-with-aspose-html/)
 เรียนรู้วิธีส่งออกหน้าเว็บเป็นไฟล์ ZIP ด้วย C# และ Aspose.HTML อย่างละเอียดและปลอดภัย
+### [วิธีบีบอัด HTML เป็น Zip ใน C# – คู่มือขั้นตอนโดยขั้นตอน](./how-to-zip-html-in-c-step-by-step-guide/)
+เรียนรู้วิธีบีบอัดไฟล์ HTML เป็น Zip ด้วย C# อย่างละเอียดตามขั้นตอนในคู่มือของเรา
 ### [สร้างเอกสาร HTML พร้อมข้อความที่มีสไตล์และส่งออกเป็น PDF – คู่มือเต็ม](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 เรียนรู้วิธีสร้างเอกสาร HTML ที่มีข้อความจัดรูปแบบและแปลงเป็น PDF อย่างละเอียดด้วย Aspose.HTML สำหรับ .NET
 ### [สร้าง PDF จาก HTML – คำแนะนำขั้นตอนโดยขั้นตอน C#](./create-pdf-from-html-c-step-by-step-guide/)

@@ -179,6 +179,8 @@ url: /ar/net/html-extensions-and-conversions/
 تعلم كيفية حفظ ملفات HTML كملف ZIP باستخدام C# ومكتبة Aspose.HTML خطوة بخطوة.
 ### [معالج موارد مخصص – تحويل صفحة ويب إلى ZIP في C#](./custom-resource-handler-convert-webpage-to-zip-in-c/)
 تعلم كيفية إنشاء معالج موارد مخصص لتحويل صفحة ويب إلى ملف ZIP باستخدام C# ومكتبة Aspose.HTML.
+### [كيفية ضغط HTML في C# – دليل خطوة بخطوة](./how-to-zip-html-in-c-step-by-step-guide/)
+تعلم كيفية ضغط ملفات HTML وحفظها كملف ZIP باستخدام C# ومكتبة Aspose.HTML خطوة بخطوة.
 
 ## خاتمة
 

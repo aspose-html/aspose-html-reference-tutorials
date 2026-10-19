@@ -52,6 +52,7 @@ Ora, portiamo le tue competenze al livello successivo. La modifica di documenti 
 ### [Creare HTML da stringa in C# – Guida passo‑passo](./create-html-from-string-in-c-step-by-step-guide/)
 ### [Carica documento HTML con Aspose.HTML – Guida completa C#](./load-html-document-with-aspose-html-complete-c-guide/)
 ### [Creare HTML da stringa in C# – Guida completa con Memory Stream](./create-html-from-string-in-c-full-guide-with-memory-stream/)
+### [Come salvare HTML – Guida completa a Aspose HTMLDocument](./how-to-save-html-aspose-htmldocument-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

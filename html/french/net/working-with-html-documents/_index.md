@@ -68,6 +68,10 @@ Apprenez à générer du HTML à partir d'une chaîne en C# avec Aspose.HTML, é
 
 Apprenez à enregistrer du HTML en C# avec un guide détaillé étape par étape.
 
+### [Comment enregistrer du HTML – Guide complet Aspose HTMLDocument](./how-to-save-html-aspose-htmldocument-complete-guide/)
+
+Apprenez à enregistrer du HTML en utilisant Aspose.HTMLDocument, avec des options complètes pour gérer la sortie et les ressources associées.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

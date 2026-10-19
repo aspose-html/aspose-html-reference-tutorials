@@ -67,6 +67,7 @@ Hướng dẫn chi tiết cách tạo tài liệu HTML từ một chuỗi văn b
 ### [Tạo HTML từ chuỗi trong C# – Hướng dẫn đầy đủ với Memory Stream](./create-html-from-string-in-c-full-guide-with-memory-stream/)
 
 Hướng dẫn chi tiết cách tạo HTML từ chuỗi trong C# bằng Memory Stream, kèm ví dụ mã và các bước thực hiện.
+### [Cách lưu HTML – Hướng dẫn đầy đủ Aspose HTMLDocument](./how-to-save-html-aspose-htmldocument-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
