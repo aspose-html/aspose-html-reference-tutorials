@@ -171,6 +171,10 @@ Dowiedz się, jak przy użyciu ZipArchive zapisać dokument HTML oraz powiązane
 Dowiedz się, jak przy użyciu Aspose.HTML w C# spakować stronę internetową do pliku ZIP, korzystając z niestandardowego handlera zasobów.
 ### [Zapisz HTML do ZIP w C# – Kompletny przewodnik](./save-html-to-zip-with-c-complete-guide/)
 Dowiedz się, jak zapisać dokument HTML jako archiwum ZIP w C# przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
+### [Utwórz archiwum ZIP w C# – Konwertuj HTML do ZIP z osadzonymi obrazami](./create-zip-archive-in-c-convert-html-to-zip-with-embedded-im/)
+Dowiedz się, jak w C# utworzyć archiwum ZIP zawierające HTML i osadzone obrazy przy użyciu Aspose.HTML.
+### [Renderowanie HTML do PDF w C# – Pełny przewodnik z rozmiarem strony i antyaliasingiem](./render-html-to-pdf-in-c-full-guide-with-page-size-anti-alias/)
+Dowiedz się, jak renderować HTML do PDF w C# z kontrolą rozmiaru strony i antyaliasingu – kompletny przewodnik krok po kroku.
 
 ## Wniosek
 

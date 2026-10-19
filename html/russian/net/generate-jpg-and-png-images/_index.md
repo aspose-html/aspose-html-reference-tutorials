@@ -99,6 +99,8 @@ Aspose.HTML для .NET предлагает простой метод прео�
 Узнайте, как отключить сглаживание при преобразовании HTML‑страниц в PNG с помощью Aspose.HTML для .NET.
 ### [Как отобразить HTML в PNG с помощью Aspose.HTML – пошаговое руководство](./how-to-render-html-to-png-with-aspose-html-step-by-step-guid/)
 Подробное руководство по конвертации HTML в PNG с использованием Aspose.HTML, включая настройки и примеры кода.
+### [Экспорт DOCX в PNG – Полное руководство на C#](./export-docx-as-png-complete-c-guide/)
+Подробное руководство по экспорту файлов DOCX в PNG с использованием Aspose.HTML для .NET на C#.
 
 ## Заключение
 

@@ -65,6 +65,8 @@ Aprenda a criar HTML adicionando elementos e aplicando estilos de texto com Aspo
 Crie conteúdo web cativante com Aspose.HTML para .NET. Aprenda a manipular HTML, CSS e muito mais.
 ### [Salvando um documento no .NET com Aspose.HTML](./saving-a-document/)
 Desbloqueie o poder do Aspose.HTML para .NET com nosso guia passo a passo. Aprenda a criar, manipular e converter documentos HTML e SVG
+### [Como salvar HTML com Aspose.HTML – Guia passo a passo](./how-to-save-html-with-aspose-html-step-by-step-guide/)
+Aprenda a salvar documentos HTML usando Aspose.HTML para .NET com instruções detalhadas e exemplos práticos.
 ### [Mesclar HTML com Json em .NET com Aspose.HTML](./merge-html-with-json/)
 Aprenda a criar conteúdo dinâmico e web usando Aspose.HTML para .NET. Fortaleça sua presença online e envolva seu público.
 ### [Mesclar HTML com XML no .NET com Aspose.HTML](./merge-html-with-xml/)

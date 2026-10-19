@@ -95,6 +95,8 @@ Scopri come creare documenti HTML aggiungendo elementi e applicando stili al tes
 Scopri come impostare lo stile del font negli elementi HTML usando Aspose.HTML per .NET in C#.
 ### [Combinare grassetto e corsivo in HTML con C# – Guida completa](./combine-bold-and-italic-in-html-with-c-complete-guide/)
 Scopri come combinare stili grassetto e corsivo in documenti HTML usando C# con Aspose.HTML, con esempi pratici passo passo.
+### [Come salvare HTML con Aspose.HTML – Guida passo‑passo](./how-to-save-html-with-aspose-html-step-by-step-guide/)
+Impara a salvare documenti HTML usando Aspose.HTML con una guida dettagliata passo‑passo.
 
 ## Conclusione
 

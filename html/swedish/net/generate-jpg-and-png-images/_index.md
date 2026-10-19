@@ -100,6 +100,8 @@ Lär dig hur du konverterar HTML till PNG i C#, exporterar bilder till ett ZIP�
 Lär dig hur du inaktiverar kantutjämning för att förbättra bildkvaliteten när du konverterar HTML till PNG med Aspose.HTML.
 ### [Hur man renderar HTML till PNG med Aspose.HTML – steg‑för‑steg‑guide](./how-to-render-html-to-png-with-aspose-html-step-by-step-guid/)
 Lär dig hur du konverterar HTML till PNG-bilder med Aspose.HTML i en detaljerad steg‑för‑steg‑handledning.
+### [Exportera docx som png – Komplett C#-guide](./export-docx-as-png-complete-c-guide/)
+Lär dig hur du exporterar DOCX-filer till PNG-bilder med en komplett C#-guide som täcker alla steg och inställningar.
 
 ## Slutsats
 

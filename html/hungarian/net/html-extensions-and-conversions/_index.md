@@ -152,6 +152,10 @@ Ismerje meg, hogyan használhat egyéni erőforráskezelőt a weboldalak ZIP-arc
 ### [HTML mentése ZIP-be C#‑ban – Teljes útmutató](./save-html-to-zip-with-c-complete-guide/)
 ### [HTML zip-elése C#‑ban – Lépésről‑lépésre útmutató](./how-to-zip-html-in-c-step-by-step-guide/)
 Részletes lépésről‑lépésre útmutató a HTML fájlok ZIP‑archívumba csomagolásához C#‑ban az Aspose.HTML for .NET használatával.
+### [HTML renderelése PDF‑be C#‑ban – Teljes útmutató oldalmérettel és anti‑aliasinggal](./render-html-to-pdf-in-c-full-guide-with-page-size-anti-alias/)
+Lépésről‑lépésre bemutatjuk, hogyan rendereljünk HTML‑t PDF‑be C#‑ban, testreszabható oldalmérettel és anti‑aliasinggal.
+### [ZIP archívum létrehozása C#‑ban – HTML konvertálása ZIP‑be beágyazott képekkel](./create-zip-archive-in-c-convert-html-to-zip-with-embedded-im/)
+Ismerje meg, hogyan hozhat létre ZIP‑archívumot C#‑ban, amely a HTML‑fájlokat és beágyazott képeket tartalmazza az Aspose.HTML for .NET segítségével.
 
 ## Következtetés
 

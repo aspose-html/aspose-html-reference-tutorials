@@ -98,6 +98,8 @@ HTML を PNG に変換し、生成された画像を ZIP ファイルとして�
 HTML を PNG 画像に変換する際にアンチエイリアシングをオフにし、鮮明な出力を得る手順を解説します。
 ### [Aspose.HTML を使用して HTML を PNG にレンダリングする – ステップバイステップ ガイド](./how-to-render-html-to-png-with-aspose-html-step-by-step-guid/)
 Aspose.HTML for .NET を使い、HTML コンテンツを PNG 画像に変換する手順を詳しく解説します。
+### [DOCX を PNG にエクスポートする完全 C# ガイド](./export-docx-as-png-complete-c-guide/)
+Aspose.HTML for .NET を使用して、C# で DOCX を PNG 画像に変換する手順を詳細に解説します。
 
 ## 結論
 

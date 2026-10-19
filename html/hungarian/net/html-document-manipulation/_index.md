@@ -67,6 +67,8 @@ Ismerje meg, hogyan hozhat létre HTML-t Aspose-szal, keressen elemet és alkalm
 Hozzon létre lenyűgöző webes tartalmat az Aspose.HTML for .NET segítségével. Tanulja meg a HTML, CSS és egyebek kezelését.
 ### [Dokumentum mentése .NET-ben az Aspose.HTML segítségével](./saving-a-document/)
 Fedezze fel az Aspose.HTML erejét .NET-hez lépésenkénti útmutatónkkal. Ismerje meg a HTML és SVG dokumentumok létrehozását, kezelését és konvertálását
+### [HTML mentése .NET-ben az Aspose.HTML segítségével – Lépésről lépésre útmutató](./how-to-save-html-with-aspose-html-step-by-step-guide/)
+Ismerje meg, hogyan menthet HTML-fájlokat az Aspose.HTML for .NET segítségével, részletes lépésekkel és példákkal.
 ### [Egyesítse a HTML-t Json-val a .NET-ben az Aspose.HTML-lel](./merge-html-with-json/)
 Tanuljon meg dinamikus és webes tartalmat létrehozni az Aspose.HTML for .NET használatával. Erősítse meg online jelenlétét, és vonja be közönségét.
 ### [Egyesítse a HTML-t XML-lel a .NET-ben az Aspose.HTML-lel](./merge-html-with-xml/)

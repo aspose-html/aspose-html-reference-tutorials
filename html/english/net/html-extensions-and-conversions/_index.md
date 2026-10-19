@@ -74,6 +74,8 @@ Learn how to generate PDFs from HTML using Aspose.HTML for .NET with a detailed 
 Convert a web URL directly to PDF in a single line of C# code using Aspose.HTML for .NET.
 ### [Create PDF from HTML in C# – Embed Fonts & Convert to PDF](./create-pdf-from-html-in-c-embed-fonts-convert-to-pdf/)
 Learn how to embed custom fonts when converting HTML to PDF in C# using Aspose.HTML for .NET.
+### [Render HTML to PDF in C# – Full Guide with Page Size & Anti‑Aliasing](./render-html-to-pdf-in-c-full-guide-with-page-size-anti-alias/)
+Learn how to render HTML to PDF in C# with custom page size and anti‑aliasing using Aspose.HTML for .NET. Step‑by‑step guide.
 ### [Convert EPUB to Image in .NET with Aspose.HTML](./convert-epub-to-image/)
 Learn how to convert EPUB to images using Aspose.HTML for .NET. Step‑by‑step tutorial with code examples and customizable options.
 ### [Convert EPUB to PDF in .NET with Aspose.HTML](./convert-epub-to-pdf/)
@@ -173,6 +175,8 @@ Learn how to save HTML content as a ZIP archive using custom storage options in 
 Learn how to convert HTML to various image formats using C# and Aspose.HTML for .NET in a comprehensive step‑by‑step guide.
 ### [How to Save HTML and Write HTML to File with C#](./how-to-save-html-and-write-html-to-file-with-c/)
 Learn how to save HTML content and write it to a file using C# with Aspose.HTML for .NET in a simple step‑by‑step guide.
+### [Create Zip Archive in C# – Convert HTML to ZIP with Embedded Images](./create-zip-archive-in-c-convert-html-to-zip-with-embedded-im/)
+Create a ZIP archive containing HTML and its embedded images using Aspose.HTML for .NET in C#.
 
 ## Conclusion
 

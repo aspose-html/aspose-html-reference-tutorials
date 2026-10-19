@@ -53,6 +53,8 @@ Aspose.HTML for .NET を使用して、C# で HTML を PDF に変換する際に
 Aspose.HTML for .NET を使用して、C# で HTML を PDF に変換する手順をステップバイステップで解説します。
 ### [Aspose を使用して C# で HTML を PDF に変換する – 完全ガイド](./convert-html-to-pdf-in-c-with-aspose-complete-guide/)
 Aspose を活用し、C# で HTML を PDF に変換する手順をステップバイステップで解説します。
+### [C# で HTML を PDF にレンダリング – ページサイズとアンチエイリアスを含む完全ガイド](./render-html-to-pdf-in-c-full-guide-with-page-size-anti-alias/)
+Aspose.HTML for .NET を使用し、C# でページサイズやアンチエイリアス設定を行いながら HTML を高品質な PDF に変換する完全手順をご紹介します。
 
 ### [HTML から PDF を作成する – C# ステップバイステップ ガイド](./create-pdf-from-html-c-step-by-step-guide/)
 Aspose.HTML for .NET を使用して、C# で HTML から PDF を作成する手順をステップバイステップで解説します。
@@ -193,6 +195,9 @@ Aspose.HTML for .NET を使用して、C# で Web ページを ZIP アーカイ�
 
 ### [C# で HTML を Zip に圧縮する方法 – ステップバイステップ ガイド](./how-to-zip-html-in-c-step-by-step-guide/)
 C# と Aspose.HTML を使用して、HTML を Zip に圧縮する手順をステップバイステップで解説します。
+
+### [C# で ZIP アーカイブを作成 – 埋め込み画像付き HTML を ZIP に変換](./create-zip-archive-in-c-convert-html-to-zip-with-embedded-im/)
+Aspose.HTML for .NET と C# を使用し、埋め込み画像付きの HTML を ZIP アーカイブに変換する手順を解説します。
 
 ## 結論
 

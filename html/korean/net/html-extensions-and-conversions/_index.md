@@ -57,6 +57,8 @@ Aspose.HTML을 사용해 C#에서 URL을 한 줄 코드로 PDF로 변환하는 �
 Aspose.HTML을 사용해 C#에서 HTML을 PDF로 변환하는 전체 가이드를 단계별로 안내합니다.
 ### [C#에서 HTML로 PDF 만들기 – 글꼴 포함 및 PDF로 변환](./create-pdf-from-html-in-c-embed-fonts-convert-to-pdf/)
 Aspose.HTML for .NET을 사용해 C#에서 HTML을 PDF로 변환하고, 글꼴을 포함하는 단계별 가이드입니다.
+### [C#에서 HTML을 PDF로 렌더링 – 페이지 크기 및 안티앨리어싱 포함 전체 가이드](./render-html-to-pdf-in-c-full-guide-with-page-size-anti-alias/)
+C#와 Aspose.HTML을 사용해 페이지 크기와 안티앨리어싱 옵션을 적용하여 HTML을 PDF로 변환하는 전체 가이드.
 ### [HTML에서 PDF 만들기 – C# 단계별 가이드](./create-pdf-from-html-c-step-by-step-guide/)
 Aspose.HTML for .NET을 사용하여 C#에서 HTML을 PDF로 변환하는 단계별 가이드입니다.
 ### [C#에서 Aspose HTML을 사용해 PDF로 변환 – ZIP 아카이브 포함 전체 가이드](./aspose-html-to-pdf-in-c-complete-guide-with-zip-archive/)
@@ -127,6 +129,8 @@ C#와 Aspose.HTML을 사용해 HTML을 저장하고 파일로 기록하는 단�
 C#와 Aspose.HTML을 사용해 HTML 파일을 ZIP 압축 파일로 저장하는 전체 단계별 가이드입니다.
 ### [ZipArchive 사용 방법 – HTML 및 리소스를 ZIP 파일로 저장하기](./how-to-use-ziparchive-save-html-and-resources-to-a-zip-file/)
 C#에서 ZipArchive를 활용해 HTML 파일과 관련 리소스를 하나의 ZIP 파일로 저장하는 단계별 가이드입니다.
+### [C#에서 ZIP 아카이브 만들기 – 임베디드 이미지가 포함된 HTML을 ZIP으로 변환](./create-zip-archive-in-c-convert-html-to-zip-with-embedded-im/)
+C#와 Aspose.HTML을 사용해 이미지가 포함된 HTML을 ZIP 아카이브로 변환하는 단계별 가이드.
 
 ### [C#에서 사용자 정의 리소스 핸들러 – 메모리에서 HTML을 ZIP 아카이브로 변환](./custom-resource-handler-in-c-convert-html-to-zip-archive-fro/)
 C#와 Aspose.HTML을 사용해 메모리 내 HTML을 ZIP 파일로 압축하는 사용자 정의 리소스 핸들러 구현 방법을 단계별로 안내합니다.

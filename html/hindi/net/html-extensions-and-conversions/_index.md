@@ -62,7 +62,6 @@ C# में Aspose का उपयोग करके HTML को PDF मे�
 C# में Aspose.HTML से HTML को PDF में बदलें, फ़ॉन्ट एम्बेड करके सटीक लेआउट और स्वरूप सुनिश्चित करें।
 
 ### [HTML से PDF बनाएं – C# चरण‑दर‑चरण गाइड](./create-pdf-from-html-c-step-by-step-guide/)
-C# में Aspose.HTML का उपयोग करके HTML को PDF में बदलने का चरण‑दर‑चरण मार्गदर्शन।
 ### [Aspose के साथ HTML से PDF बनाएं – चरण‑दर‑चरण गाइड](./create-pdf-from-html-with-aspose-step-by-step-guide/)
 C# में Aspose.HTML का उपयोग करके HTML को PDF में बदलने के विस्तृत चरण‑दर‑चरण मार्गदर्शन।
 
@@ -86,6 +85,8 @@ C# में Aspose.HTML का उपयोग करके HTML को PDF म
 
 ### [HTML से PDF बनाएं – एंटीएलियासिंग के साथ पूर्ण C# गाइड](./create-pdf-from-html-full-c-guide-with-antialiasing/)
 C# में Aspose.HTML का उपयोग करके एंटीएलियासिंग के साथ HTML को PDF में बदलने का पूर्ण मार्गदर्शन।
+### [C# में HTML को PDF में रेंडर करें – पेज साइज और एंटी‑एलियासिंग के साथ पूर्ण गाइड](./render-html-to-pdf-in-c-full-guide-with-page-size-anti-alias/)
+C# में Aspose.HTML के साथ पेज साइज और एंटी‑एलियासिंग सेटिंग्स का उपयोग करके HTML को PDF में रेंडर करने का पूर्ण गाइड।
 
 ### [Aspose.HTML के साथ .NET में EPUB को छवि में बदलें](./convert-epub-to-image/)
 ### [Aspose.HTML के साथ .NET में EPUB को PDF में बदलें](./convert-epub-to-pdf/)
@@ -102,8 +103,6 @@ C# में Aspose.HTML का उपयोग करके एंटीएल�
 
 ### [Aspose.HTML के साथ .NET में HTML को GIF में बदलें](./convert-html-to-gif/)
 ### [Aspose.HTML के साथ .NET में HTML को JPEG में बदलें](./convert-html-to-jpeg/)
-.NET के लिए Aspose.HTML के साथ .NET में HTML को JPEG में बदलने का तरीका जानें। .NET के लिए Aspose.HTML की शक्ति का उपयोग करने के लिए चरण‑दर‑चरण मार्गदर्शिका। अपने वेब डेवलपमेंट कार्यों को आसानी से अनुकूलित करें।
-
 ### [Aspose.HTML के साथ .NET में HTML को Markdown में बदलें](./convert-html-to-markdown/)
 कुशल सामग्री हेरफेर के लिए Aspose.HTML का उपयोग करके .NET में HTML को Markdown में परिवर्तित करना सीखें। सहज रूपांतरण प्रक्रिया के लिए चरण‑दर‑चरण मार्गदर्शन प्राप्त करें।
 
@@ -143,6 +142,9 @@ C# में Aspose.HTML का उपयोग करके वेबपेज 
 ### [C# में HTML को ज़िप कैसे करें – चरण‑दर‑चरण गाइड](./how-to-zip-html-in-c-step-by-step-guide/)
 C# में Aspose.HTML का उपयोग करके HTML को ज़िप फ़ाइल में सहेजने के चरण‑दर‑चरण मार्गदर्शन।
 
+### [C# में HTML को ज़िप करने का तरीका – पूर्ण चरण‑दर‑स्टेप गाइड](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+C# और Aspose.HTML का उपयोग करके HTML को ZIP फ़ाइल में सहेजने के विस्तृत चरण‑दर‑स्टेप निर्देश।
+
 ### [स्टाइल्ड टेक्स्ट के साथ HTML दस्तावेज़ बनाएं और PDF में निर्यात करें – पूर्ण गाइड](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Aspose.HTML for .NET का उपयोग करके स्टाइल्ड टेक्ट वाले HTML दस्तावेज़ को बनाएं और उसे PDF में निर्यात करने की पूरी गाइड।
 .NET के लिए Aspose.HTML की शक्ति का पता लगाएं: HTML को XPS में आसानी से बदलें। पूर्वापेक्षाएँ, चरण-दर-स्टेप मार्गदर्शिका और FAQ शामिल हैं।
@@ -174,8 +176,6 @@ Aspose.HTML के साथ HTML को PDF में आसानी से �
 .NET के लिए C# में मेमोरी में HTML को ज़िप करने की चरण-दर-चरण प्रक्रिया सीखें।
 ### [C# में HTML को ZIP में बदलें – पूर्ण गाइड](./convert-html-to-zip-in-c-complete-guide/)
 C# के लिए Aspose.HTML का उपयोग करके HTML को ZIP फ़ाइल में बदलने के चरण-दर-स्टेप मार्गदर्शन।
-### [C# में HTML को ज़िप करने का पूरा चरण‑दर‑चरण गाइड](./how-to-zip-html-in-c-complete-step-by-step-guide/)
-C# में Aspose.HTML का उपयोग करके HTML फ़ाइलों को ज़िप करने के चरण‑दर‑चरण निर्देश। सरल और तेज़ प्रक्रिया।
 ### [C# में HTML को ZIP के रूप में सहेजें – पूर्ण चरण‑दर‑चरण गाइड](./save-html-as-zip-in-c-complete-step-by-step-guide/)
 C# में Aspose.HTML का उपयोग करके HTML को ZIP फ़ाइल में सहेजने के चरणों को सीखें।
 
@@ -220,6 +220,9 @@ C# और Aspose.HTML का उपयोग करके HTML को ZIP फ़
 
 ### [ZipArchive का उपयोग कैसे करें – HTML और संसाधनों को ZIP फ़ाइल में सहेजें](./how-to-use-ziparchive-save-html-and-resources-to-a-zip-file/)
 C# में ZipArchive का उपयोग करके HTML और उसकी सभी संसाधनों को ZIP फ़ाइल में सहेजने का चरण‑दर‑चरण मार्गदर्शन।
+
+### [C# में ज़िप आर्काइव बनाएं – एम्बेडेड इमेज के साथ HTML को ZIP में बदलें](./create-zip-archive-in-c-convert-html-to-zip-with-embedded-im/)
+C# में Aspose.HTML का उपयोग करके एम्बेडेड इमेज के साथ HTML को ZIP में बदलने के चरण‑दर‑स्टेप मार्गदर्शन।
 
 ## निष्कर्ष
 

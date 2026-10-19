@@ -101,6 +101,8 @@ Naučte se převést HTML na PNG v C# a výsledek zabalit do ZIP archivu pomocí
 Naučte se, jak při převodu HTML na PNG zakázat antialiasing pro ostrý výstup.
 ### [Jak renderovat HTML do PNG pomocí Aspose.HTML – krok za krokem](./how-to-render-html-to-png-with-aspose-html-step-by-step-guid/)
 Naučte se, jak pomocí Aspose.HTML převést HTML na PNG v podrobném průvodci krok za krokem.
+### [Export docx jako png – Kompletní průvodce v C#](./export-docx-as-png-complete-c-guide/)
+Naučte se kompletně exportovat soubory DOCX do PNG pomocí C# a Aspose.HTML.
 
 ## Závěr
 

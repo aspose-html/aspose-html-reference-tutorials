@@ -101,6 +101,8 @@ Pelajari cara mengaktifkan antialiasing saat merender HTML menjadi PNG menggunak
 Pelajari cara menonaktifkan antialiasing untuk meningkatkan kontrol kualitas gambar PNG saat mengonversi HTML menggunakan Aspose.HTML.
 ### [Cara Merender HTML ke PNG dengan Aspose.HTML – Panduan Langkah demi Langkah](./how-to-render-html-to-png-with-aspose-html-step-by-step-guid/)
 Pelajari cara merender halaman HTML menjadi gambar PNG menggunakan Aspose.HTML dengan panduan langkah demi langkah.
+### [Ekspor DOCX ke PNG – Panduan Lengkap C#](./export-docx-as-png-complete-c-guide/)
+Pelajari cara mengekspor file DOCX menjadi PNG menggunakan C# dengan Aspose.HTML dalam panduan lengkap ini.
 
 ## Kesimpulan
 

@@ -95,6 +95,8 @@ Apprenez à appliquer des styles de police aux éléments HTML en utilisant Aspo
 
 ### [Combiner le gras et l'italique en HTML avec C# – Guide complet](./combine-bold-and-italic-in-html-with-c-complete-guide/)
 Apprenez à appliquer simultanément le gras et l'italique dans du HTML en C# avec Aspose.HTML. Guide complet pas à pas.
+### [Enregistrer du HTML avec Aspose.HTML – Guide étape par étape](./how-to-save-html-with-aspose-html-step-by-step-guide/)
+Apprenez à enregistrer des fichiers HTML en utilisant Aspose.HTML grâce à un guide détaillé étape par étape.
 
 ## Conclusion
 

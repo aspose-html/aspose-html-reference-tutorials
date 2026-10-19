@@ -49,6 +49,8 @@ url: /ar/net/html-extensions-and-conversions/
 تحويل عنوان URL إلى ملف PDF باستخدام سطر واحد من الكود مع Aspose.HTML في C# بسهولة.
 ### [تحويل HTML إلى PDF في C# باستخدام Aspose – دليل كامل](./convert-html-to-pdf-in-c-with-aspose-complete-guide/)
 دليل شامل خطوة بخطوة لتحويل ملفات HTML إلى PDF باستخدام C# ومكتبة Aspose.HTML.
+### [تحويل HTML إلى PDF في C# – دليل كامل مع حجم الصفحة ومضاد التعرّج](./render-html-to-pdf-in-c-full-guide-with-page-size-anti-alias/)
+دليل شامل لتحويل HTML إلى PDF باستخدام C# مع ضبط حجم الصفحة وتفعيل مضاد التعرّج للحصول على جودة عالية.
 ### [إنشاء PDF من HTML – دليل خطوة بخطوة بلغة C#](./create-pdf-from-html-c-step-by-step-guide/)
 دليل خطوة بخطوة لإنشاء ملف PDF من HTML باستخدام C# ومكتبة Aspose.HTML.
 ### [إنشاء PDF من HTML باستخدام Aspose.HTML – دليل خطوة بخطوة](./create-pdf-from-html-with-aspose-html-step-by-step-guide/)
@@ -181,6 +183,8 @@ url: /ar/net/html-extensions-and-conversions/
 تعلم كيفية إنشاء معالج موارد مخصص لتحويل صفحة ويب إلى ملف ZIP باستخدام C# ومكتبة Aspose.HTML.
 ### [كيفية ضغط HTML في C# – دليل خطوة بخطوة](./how-to-zip-html-in-c-step-by-step-guide/)
 تعلم كيفية ضغط ملفات HTML وحفظها كملف ZIP باستخدام C# ومكتبة Aspose.HTML خطوة بخطوة.
+### [إنشاء أرشيف ZIP في C# – تحويل HTML إلى ZIP مع صور مدمجة](./create-zip-archive-in-c-convert-html-to-zip-with-embedded-im/)
+تعلم كيفية إنشاء ملف ZIP يحتوي على مستند HTML مع الصور المدمجة باستخدام Aspose.HTML في C#.
 
 ## خاتمة
 

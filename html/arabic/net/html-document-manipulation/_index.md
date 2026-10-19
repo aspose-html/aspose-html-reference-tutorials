@@ -91,6 +91,8 @@ url: /ar/net/html-document-manipulation/
 تعلم كيفية تعيين نمط الخط في مستندات HTML باستخدام Aspose.HTML في C# خطوة بخطوة.
 ### [دمج الخط العريض والمائل في HTML باستخدام C# – دليل شامل](./combine-bold-and-italic-in-html-with-c-complete-guide/)
 تعلم كيفية دمج تنسيقات الخط العريض والمائل في مستندات HTML باستخدام C# مع Aspose.HTML خطوة بخطوة.
+### [كيفية حفظ HTML باستخدام Aspose.HTML – دليل خطوة بخطوة](./how-to-save-html-with-aspose-html-step-by-step-guide/)
+اكتشف طريقة حفظ ملفات HTML باستخدام Aspose.HTML خطوة بخطوة مع أمثلة عملية.
 
 ## خاتمة
 

@@ -69,6 +69,8 @@ Twórz wciągające treści internetowe za pomocą Aspose.HTML dla .NET. Dowiedz
 Dowiedz się, jak dodać element do sekcji body dokumentu HTML przy użyciu Aspose.HTML w C#.
 ### [Zapisywanie dokumentu w .NET za pomocą Aspose.HTML](./saving-a-document/)
 Odblokuj moc Aspose.HTML dla .NET dzięki naszemu przewodnikowi krok po kroku. Naucz się tworzyć, manipulować i konwertować dokumenty HTML i SVG
+### [Jak zapisać HTML przy użyciu Aspose.HTML – Przewodnik krok po kroku](./how-to-save-html-with-aspose-html-step-by-step-guide/)
+Dowiedz się, jak zapisać dokument HTML przy użyciu Aspose.HTML w .NET. Przewodnik krok po kroku z przykładami.
 ### [Łączenie HTML z Json w .NET za pomocą Aspose.HTML](./merge-html-with-json/)
 Naucz się tworzyć dynamiczną i internetową zawartość przy użyciu Aspose.HTML dla .NET. Wzmocnij swoją obecność online i zaangażuj odbiorców.
 ### [Łączenie HTML z XML w .NET za pomocą Aspose.HTML](./merge-html-with-xml/)

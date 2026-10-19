@@ -84,6 +84,8 @@ Lär dig att skapa ett HTML‑dokument och lägga till ett CSS‑stilelement med
 Lär dig hur du skapar HTML, lägger till element och formaterar text med Aspose.HTML för .NET.
 ### [Kombinera fetstil och kursiv i HTML med C# – Komplett guide](./combine-bold-and-italic-in-html-with-c-complete-guide/)
 Lär dig hur du kombinerar fetstil och kursiv i HTML med C#. En komplett guide med exempel och steg-för-steg-instruktioner.
+### [Spara HTML med Aspose.HTML – Steg‑för‑steg‑guide](./how-to-save-html-with-aspose-html-step-by-step-guide/)
+Lär dig hur du sparar HTML-dokument med Aspose.HTML i .NET. En detaljerad steg‑för‑steg‑guide med kodexempel och tips.
 
 ### [Gör text fet och kursiv i C# – Snabbguide för att styla HTML](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
 Lär dig hur du gör text fet och kursiv i HTML med C#. En snabbguide med kodexempel och steg‑för‑steg‑instruktioner.

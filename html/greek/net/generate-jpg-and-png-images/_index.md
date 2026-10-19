@@ -101,6 +101,8 @@ url: /el/net/generate-jpg-and-png-images/
 Μάθετε πώς να απενεργοποιήσετε το antialiasing κατά τη μετατροπή HTML σε PNG χρησιμοποιώντας το Aspose.HTML για .NET.
 ### [Πώς να αποδώσετε HTML σε PNG με το Aspose.HTML – Οδηγός βήμα‑βήμα](./how-to-render-html-to-png-with-aspose-html-step-by-step-guid/)
 Μάθετε πώς να μετατρέψετε HTML σε PNG χρησιμοποιώντας το Aspose.HTML με οδηγίες βήμα‑βήμα.
+### [Εξαγωγή docx σε png – Πλήρης οδηγός C#](./export-docx-as-png-complete-c-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία DOCX σε PNG χρησιμοποιώντας C# με πλήρη οδηγό.
 
 ## Σύναψη
 

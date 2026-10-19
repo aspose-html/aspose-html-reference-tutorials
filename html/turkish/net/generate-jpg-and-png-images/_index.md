@@ -101,6 +101,8 @@ C# kullanarak HTML içeriğini PNG formatına dönüştürürken antialiasing'i 
 HTML'den PNG'ye dönüştürürken antialiasing'i nasıl devre dışı bırakacağınızı öğrenin.
 ### [Aspose.HTML ile HTML'yi PNG'ye Render Etme – Adım Adım Kılavuz](./how-to-render-html-to-png-with-aspose-html-step-by-step-guid/)
 Aspose.HTML kullanarak HTML içeriğini PNG formatına nasıl dönüştüreceğinizi adım adım öğrenin.
+### [docx'i png'ye Dışa Aktar – Tam C# Kılavuzu](./export-docx-as-png-complete-c-guide/)
+C# ile docx dosyalarını png formatına dışa aktararak yüksek kaliteli görüntüler elde etmeyi adım adım öğrenin.
 
 ## Çözüm
 

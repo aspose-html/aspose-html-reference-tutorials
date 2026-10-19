@@ -101,6 +101,8 @@ Comprehensive C# tutorial to convert HTML to PNG images and export them as a ZIP
 Learn how to turn off antialiasing for sharper PNG output when converting HTML using Aspose.HTML for .NET.
 ### [how to render html to PNG with Aspose.Html – Step‑by‑Step Guide](./how-to-render-html-to-png-with-aspose-html-step-by-step-guid/)
 Step-by-step guide on rendering HTML to PNG using Aspose.HTML, covering setup, code examples, and best practices.
+### [Export docx as png – Complete C# Guide](./export-docx-as-png-complete-c-guide/)
+Learn how to export DOCX files to PNG images using C# and Aspose.HTML, with step-by-step instructions and best practices.
 
 ## Conclusion
 

@@ -91,6 +91,8 @@ Erfahren Sie, wie Sie HTML dynamisch erzeugen, Elemente hinzufügen und Text mit
 Erfahren Sie, wie Sie mit Aspose.HTML in C# Schriftarten und -stile für HTML-Inhalte festlegen.
 ### [Fett und Kursiv in HTML mit C# kombinieren – Komplettanleitung](./combine-bold-and-italic-in-html-with-c-complete-guide/)
 Erfahren Sie, wie Sie Text in HTML gleichzeitig fett und kursiv formatieren und dies mit C# automatisieren.
+### [HTML mit Aspose.HTML speichern – Schritt‑für‑Schritt‑Anleitung](./how-to-save-html-with-aspose-html-step-by-step-guide/)
+Erfahren Sie, wie Sie HTML mit Aspose.HTML speichern. Eine klare Schritt‑für‑Schritt‑Anleitung für Entwickler.
 
 ## Abschluss
 

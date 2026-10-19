@@ -101,6 +101,8 @@ Scopri come convertire HTML in PNG e comprimere le immagini in un archivio ZIP u
 Scopri come disattivare l'antialiasing nella conversione di HTML in immagini PNG usando Aspose.HTML per .NET.
 ### [Come rendere HTML in PNG con Aspose.HTML – Guida passo‑passo](./how-to-render-html-to-png-with-aspose-html-step-by-step-guid/)
 Scopri come convertire pagine HTML in immagini PNG usando Aspose.HTML con istruzioni dettagliate passo dopo passo.
+### [Esporta docx in png – Guida completa C#](./export-docx-as-png-complete-c-guide/)
+Impara a esportare documenti DOCX in PNG usando C# e Aspose.HTML, con esempi passo passo.
 
 ## Conclusione
 

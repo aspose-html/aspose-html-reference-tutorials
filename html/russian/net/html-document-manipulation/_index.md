@@ -89,6 +89,8 @@ Aspose.HTML для .NET выделяется своей простотой и м
 Узнайте, как задать стиль шрифта для HTML‑элементов с помощью Aspose.HTML в C#.
 ### [Объединение жирного и курсивного в HTML с C# – Полное руководство](./combine-bold-and-italic-in-html-with-c-complete-guide/)
 Узнайте, как с помощью Aspose.HTML для .NET применять одновременно жирный и курсивный стили к элементам HTML в C#.
+### [Как сохранить HTML с Aspose.HTML – пошаговое руководство](./how-to-save-html-with-aspose-html-step-by-step-guide/)
+Узнайте, как сохранять HTML‑документы с помощью Aspose.HTML в .NET. Пошаговое руководство с примерами кода.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

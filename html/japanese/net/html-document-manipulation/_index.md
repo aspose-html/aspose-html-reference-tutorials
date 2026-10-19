@@ -90,6 +90,8 @@ C# を使用して HTML ドキュメントを作成し、カスタム リソー�
 Aspose.HTML for .NET を使用して C# で HTML のフォントスタイルを設定する方法を学びます。ステップバイステップの例とベストプラクティスを紹介します。
 ### [C# で HTML の太字と斜体を組み合わせる – 完全ガイド](./combine-bold-and-italic-in-html-with-c-complete-guide/)
 C# を使用して HTML で太字と斜体を同時に適用する方法をステップバイステップで解説します。
+### [Aspose.HTML を使用して HTML を保存する – ステップバイステップ ガイド](./how-to-save-html-with-aspose-html-step-by-step-guide/)
+Aspose.HTML for .NET を使って HTML を保存する方法を段階的に解説します。
 
 ## 結論
 

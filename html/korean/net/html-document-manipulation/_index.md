@@ -89,6 +89,8 @@ HTML 문서를 생성하고 CSS 스타일 요소를 삽입하는 방법을 단�
 Aspose.HTML for .NET을 활용해 C#에서 HTML 글꼴 스타일을 설정하는 방법을 단계별로 안내합니다.
 ### [C#로 HTML에서 굵게와 기울임 결합하기 – 완전 가이드](./combine-bold-and-italic-in-html-with-c-complete-guide/)
 C#와 Aspose.HTML을 활용해 HTML 텍스트를 굵게와 기울임으로 동시에 적용하는 방법을 단계별로 안내합니다.
+### [Aspose.HTML을 사용하여 HTML 저장하기 – 단계별 가이드](./how-to-save-html-with-aspose-html-step-by-step-guide/)
+Aspose.HTML for .NET을 사용해 HTML 파일을 저장하는 방법을 단계별로 안내합니다.
 
 ## 결론
 

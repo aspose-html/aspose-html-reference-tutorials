@@ -54,6 +54,9 @@ Aspose.HTML for .NET 不仅仅是一个库；它是 Web 开发领域的变革者
 
 ### [使用 Aspose.HTML 在 C# 中将 HTML 转换为 PDF – 完整指南](./convert-html-to-pdf-in-c-with-aspose-complete-guide/)
 使用 Aspose.HTML for .NET 在 C# 中将 HTML 转换为 PDF 的完整分步指南，涵盖代码示例和最佳实践。
+### [在 C# 中使用 Aspose.HTML 将 HTML 渲染为 PDF – 完整指南（页面大小与抗锯齿）](./render-html-to-pdf-in-c-full-guide-with-page-size-anti-alias/)
+使用 Aspose.HTML for .NET 在 C# 中将 HTML 渲染为 PDF，涵盖页面大小设置和抗锯齿技术的完整分步指南。
+
 ### [使用 Aspose.HTML 在 .NET 中将 EPUB 转换为图像](./convert-epub-to-image/)
 了解如何使用 Aspose.HTML for .NET 将 EPUB 转换为图像。带有代码示例和可自定义选项的分步教程。
 
@@ -186,6 +189,8 @@ Aspose.HTML for .NET 不仅仅是一个库；它是 Web 开发领域的变革者
 使用 Aspose.HTML for .NET 完整演示在 C# 中将 HTML 内容压缩并保存为 ZIP 文件的步骤。
 ### [自定义资源处理程序 – 在 C# 中将网页转换为 ZIP](./custom-resource-handler-convert-webpage-to-zip-in-c/)
 演示如何使用 Aspose.HTML 的自定义资源处理程序在 C# 中将网页内容压缩为 ZIP 文件的完整示例。
+### [在 C# 中创建 Zip 存档 – 将 HTML 转换为包含嵌入图像的 ZIP](./create-zip-archive-in-c-convert-html-to-zip-with-embedded-im/)
+使用 Aspose.HTML for .NET 在 C# 中将 HTML 与嵌入的图像一起压缩为 ZIP 文件的完整分步指南。
 
 ## 结论
 

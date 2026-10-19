@@ -103,6 +103,8 @@ C# में Aspose.HTML का उपयोग करके HTML को PNG म
 HTML को PNG छवि में परिवर्तित करते समय एंटीएलियासिंग को बंद करने के चरण और सेटिंग्स सीखें।
 ### [HTML को PNG में रेंडर करने के लिए Aspose.HTML – चरण‑दर‑चरण गाइड](./how-to-render-html-to-png-with-aspose-html-step-by-step-guid/)
 Aspose.HTML का उपयोग करके HTML को PNG में परिवर्तित करने की विस्तृत चरण‑दर‑चरण प्रक्रिया देखें।
+### [DOCX को PNG के रूप में निर्यात करें – पूर्ण C# गाइड](./export-docx-as-png-complete-c-guide/)
+C# में DOCX को PNG में बदलने के लिए पूर्ण चरण-दर-चरण गाइड।
 
 ## निष्कर्ष
 

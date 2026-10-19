@@ -102,6 +102,8 @@ Apprenez à convertir du HTML en images PNG et à les archiver dans un fichier Z
 Apprenez à désactiver l'anticrénelage pour obtenir des images PNG nettes lors de la conversion de HTML avec Aspose.HTML.
 ### [Comment rendre du HTML en PNG avec Aspose.HTML – Guide étape par étape](./how-to-render-html-to-png-with-aspose-html-step-by-step-guid/)
 Découvrez comment convertir du HTML en images PNG avec Aspose.HTML grâce à un guide détaillé étape par étape.
+### [Exporter docx en png – Guide complet C#](./export-docx-as-png-complete-c-guide/)
+Apprenez à exporter des fichiers DOCX en images PNG avec C# grâce à ce guide complet.
 
 ## Conclusion
 

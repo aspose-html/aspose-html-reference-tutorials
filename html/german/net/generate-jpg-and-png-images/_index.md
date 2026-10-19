@@ -101,6 +101,8 @@ Erfahren Sie, wie Sie Antialiasing beim Rendern von HTML zu PNG in C# aktivieren
 Erfahren Sie, wie Sie das Antialiasing bei der Konvertierung von HTML nach PNG deaktivieren, um scharfe Bilder zu erhalten.
 ### [HTML in PNG rendern mit Aspose.HTML – Schritt‑für‑Schritt‑Anleitung](./how-to-render-html-to-png-with-aspose-html-step-by-step-guid/)
 Erfahren Sie, wie Sie HTML mit Aspose.HTML in PNG-Bilder umwandeln – detaillierte Schritt‑für‑Schritt‑Anleitung.
+### [DOCX als PNG exportieren – Vollständige C#‑Anleitung](./export-docx-as-png-complete-c-guide/)
+Erfahren Sie, wie Sie DOCX‑Dokumente vollständig in PNG‑Bilder umwandeln – umfassende C#‑Anleitung.
 
 ## Abschluss
 
