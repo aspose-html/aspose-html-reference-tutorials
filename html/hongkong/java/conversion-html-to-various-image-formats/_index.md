@@ -132,6 +132,9 @@ weight: 24
 
 ### [將 SVG 轉換為 PNG（高解析度）](./convert-svg-to-png-with-high-resolution-java-guide/)
 
+### [將 HTML 轉換為 PNG – Java 教學：將 HTML 表格渲染為圖像](./convert-html-to-png-java-guide-to-rendering-html-tables-as-i/)
+說明如何使用 Aspose.HTML for Java 將包含表格的 HTML 轉換為 PNG 圖像，提供完整程式碼範例與最佳化技巧。
+
 ### [將 HTML 轉換為 WebP](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 ### [將 HTML 轉換為 WebP（完整步驟指南）](./how-to-convert-html-to-webp-in-java-complete-step-by-step-gu/)
 完整的 Java 教學，說明如何使用 Aspose.HTML 將 HTML 轉換為 WebP 圖像，提供程式碼範例與最佳化技巧。

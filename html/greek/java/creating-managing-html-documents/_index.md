@@ -79,7 +79,8 @@ url: /el/java/creating-managing-html-documents/
 
 ### [Δημιουργία sandbox για HTML σε Java – Οδηγός βήμα‑βήμα](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Μάθετε πώς να δημιουργήσετε ένα sandbox HTML σε Java με οδηγίες βήμα‑βήμα, για ασφαλή και απομονωμένη επεξεργασία HTML.
-
+### [Εκτέλεση πολλαπλών νημάτων στην Java – χρήση try‑with‑resources](./run-multiple-threads-java-use-try-with-resources-java/)
+Μάθετε πώς να εκτελείτε πολλαπλά νήματα στην Java χρησιμοποιώντας τη δήλωση try‑with‑resources για ασφαλή διαχείριση πόρων.
 ### [Χειριστείτε συμβάντα φόρτωσης εγγράφου στο Aspose.HTML για Java](./handle-document-load-events/)
 Μάθετε να χειρίζεστε συμβάντα φόρτωσης εγγράφων στο Aspose.HTML για Java με αυτόν τον οδηγό βήμα προς βήμα. Βελτιώστε τις διαδικτυακές εφαρμογές σας.
 ### [javascript settimeout async: Εκτέλεση JavaScript σε Java και ενημέρωση HTML](./javascript-settimeout-async-run-javascript-in-java-and-updat/)

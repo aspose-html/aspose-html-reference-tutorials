@@ -298,6 +298,9 @@ Hướng dẫn tạo PDF từ HTML trong Java bằng Aspose.HTML, chi tiết cá
 ### [Tạo PDF từ HTML trong Java – Hướng dẫn chi tiết từng bước](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
 Hướng dẫn toàn diện cách tạo PDF từ HTML trong Java bằng Aspose.HTML, bao gồm các bước cấu hình và tối ưu chất lượng.
 
+### [Aspose HTML sang PDF trong Java – Thêm lề trang & PDF/A‑2b](./aspose-html-to-pdf-in-java-add-page-margins-pdf-a-2b/)
+Hướng dẫn thêm lề trang và xuất PDF/A‑2b khi chuyển đổi HTML sang PDF bằng Aspose.HTML for Java.
+
 ## Câu hỏi thường gặp
 
 **Q: Tôi có thể sử dụng Aspose.HTML cho Java trong một ứng dụng thương mại không?**  

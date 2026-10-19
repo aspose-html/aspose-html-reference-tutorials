@@ -174,6 +174,7 @@ Imposta le dimensioni della pagina PDF durante la conversione da HTML a PDF in J
 ### [Crea PDF da HTML in Java – Converti HTML in PDF Java](./create-pdf-from-html-in-java-convert-html-to-pdf-java/)
 ### [Crea PDF da HTML in Java – Guida alla conversione batch](./create-pdf-from-html-in-java-batch-conversion-guide/)
 ### [Converti HTML in Markdown in Java – Guida passo‑a‑passo](./convert-html-to-markdown-in-java-step-by-step-guide/)
+### [Aspose HTML to PDF in Java – Aggiungi margini di pagina e PDF/A‑2b](./aspose-html-to-pdf-in-java-add-page-margins-pdf-a-2b/)
 
 ## Domande frequenti
 

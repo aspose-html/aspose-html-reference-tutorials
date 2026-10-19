@@ -61,6 +61,8 @@ url: /ar/java/editing-html-documents/
 ### [تغيير نص h1 في MHTML باستخدام Java – دليل شامل خطوة بخطوة](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
 ### [إنشاء عنصر HTML جديد باستخدام Java – دليل Aspose.HTML الكامل](./create-new-html-element-with-java-full-aspose-html-guide/)
 تعلم كيفية إنشاء عنصر HTML جديد في Java باستخدام Aspose.HTML خطوة بخطوة.
+### [كيفية استخراج HTML في Java – استخراج النص وتظليل الكلمات](./how-to-extract-html-in-java-extract-text-highlight-words/)
+تعلم استخراج محتوى HTML، استخراج النص وتظليل الكلمات باستخدام Aspose.HTML for Java في دليل خطوة بخطوة.
 ### [مجموعة مؤشرات ثابتة Java – تنظيف HTML متوازي باستخدام ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 ### [إضافة عنصر فرعي إلى الجسم في Java – دليل Aspose.HTML الكامل](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 ### [كيفية إلحاق عنصر فرعي في DOM Java – دليل Aspose.HTML الكامل](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)

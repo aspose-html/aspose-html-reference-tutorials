@@ -114,6 +114,9 @@ Aprenda a gerar PDFs a partir de HTML em Java com um guia detalhado passo a pass
 Aprenda a converter HTML para PDF em Java usando o ambiente sandbox completo, com exemplos detalhados e configuração passo a passo.
 ### [Converter HTML para PDF – Tamanho de Página Personalizado e Margens em Java](./convert-html-to-pdf-custom-page-size-margins-in-java/)
 Aprenda a definir tamanhos de página e margens personalizados ao converter HTML para PDF em Java usando Aspose.HTML.
+Aprenda a criar PDFs a partir de HTML em Java com um guia detalhado passo a passo usando Aspose.HTML.
+### [Aspose HTML para PDF em Java – Adicionar Margens de Página e PDF/A‑2b](./aspose-html-to-pdf-in-java-add-page-margins-pdf-a-2b/)
+Aprenda a definir margens de página e gerar PDFs compatíveis com PDF/A‑2b usando Aspose.HTML for Java.
 ### [Convertendo HTML para MHTML](./convert-html-to-mhtml/)
 ### [Convertendo HTML para XPS](./convert-html-to-xps/)
 ### [Definir proporção de pixels do dispositivo em Java – Converter HTML para mobile](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)

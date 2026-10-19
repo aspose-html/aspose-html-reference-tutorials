@@ -58,6 +58,8 @@ Hướng dẫn chi tiết cách gọi API trong Java bằng Aspose HTML V8, ba
 Hướng dẫn chi tiết cách sử dụng Aspose HTML trong Java để fetch dữ liệu JSON từ JavaScript, bao gồm các bước cài đặt và ví dụ thực tế.
 ### [Thiết lập Header Ủy quyền trong Java – Hướng Dẫn Toàn Diện để Tải HTML từ URL](./set-authorization-header-in-java-complete-guide-to-load-html/)
 Tìm hiểu cách thiết lập header ủy quyền trong Java để tải HTML từ URL bằng Aspose.HTML, qua hướng dẫn chi tiết từng bước.
+### [Đặt user agent tùy chỉnh trong Java – Hướng dẫn tải trang web trong sandbox](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
+Hướng dẫn cách đặt user agent tùy chỉnh trong Java và tải trang web trong môi trường sandbox bằng Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

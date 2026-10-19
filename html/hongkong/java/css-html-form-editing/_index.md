@@ -95,6 +95,8 @@ url: /zh-hant/java/css-html-form-editing/
 本教學說明如何在 Java 使用 Aspose.HTML 取得元素的計算樣式，解析 CSS 屬性值。
 ### [如何在 Aspose HTML Java 中取得樣式 – 使用查詢選擇器](./how-to-get-style-in-aspose-html-java-use-query-selector/)
 本教學說明如何使用 Query Selector 在 Aspose.HTML for Java 中取得元素的樣式資訊。
+### [如何在 Java 中讀取 CSS – 獲取計算樣式](./how-to-read-css-in-java-get-computed-style/)
+本教程說明如何使用 Aspose.HTML for Java 讀取 CSS 並取得元素的計算樣式，以便在程式中分析和操作樣式。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

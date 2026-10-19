@@ -57,6 +57,7 @@ Apprenez à sécuriser vos requêtes HTTP avec l'authentificateur HttpClient de 
 
 ### [Définir l'en-tête d'autorisation en Java – Guide complet pour charger du HTML depuis une URL](./set-authorization-header-in-java-complete-guide-to-load-html/)
 Apprenez à ajouter l'en-tête d'autorisation pour charger du HTML depuis une URL avec Aspose.HTML en Java.
+### [Définir un agent utilisateur personnalisé en Java – Tutoriel de chargement de page Web en sandbox](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

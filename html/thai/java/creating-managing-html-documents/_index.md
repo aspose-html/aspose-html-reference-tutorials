@@ -126,6 +126,9 @@ Aspose.HTML สำหรับ Java นำเสนอชุดเครื่�
 
 ### [วิธีสืบค้น xpath ใน Java ด้วย Aspose – คู่มือทีละขั้นตอน](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
 เรียนรู้วิธีสืบค้น XPath ใน Java ด้วย Aspose ผ่านคู่มือทีละขั้นตอนที่เข้าใจง่าย
+### [รันหลายเธรดใน Java – ใช้ try with resources ใน Java](./run-multiple-threads-java-use-try-with-resources-java/)
+เรียนรู้วิธีรันหลายเธรดใน Java พร้อมการจัดการทรัพยากรอย่างปลอดภัยด้วย try‑with‑resources
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

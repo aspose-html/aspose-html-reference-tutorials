@@ -69,9 +69,8 @@ Java ExecutorService का उपयोग करके थ्रेड‑स�
 ### [Java के लिए Aspose.HTML में SVG दस्तावेज़ बनाएँ और प्रबंधित करें](./create-manage-svg-documents/)
 SVG दस्तावेज़ बनाना और प्रबंधित करना सीखें। बुनियादी से उन्नत हेरफेर तक।
 ### [Java में HTML के लिए सैंडबॉक्स बनाएं – चरण‑दर‑चरण गाइड](./create-sandbox-for-html-in-java-step-by-step-guide/)
-Java में HTML सैंडबॉक्स बनाने की प्रक्रिया सीखें, सुरक्षित परीक्षण और विकास के लिए चरण‑दर‑चरण मार्गदर्शिका।
+Java में HTML सैंडबॉक्स बनाने की प्रक्रिया सीखें, सुरक्षित परीक्षण और विकास के लिए चरण‑दर‑...
 ### [Java में HTML क्वेरी कैसे करें – पूर्ण ट्यूटोरियल](./how-to-query-html-in-java-complete-tutorial/)
-Java में Aspose.HTML का उपयोग करके HTML क्वेरी करने के चरण‑दर‑चरण मार्गदर्शिका, टिप्स और सर्वोत्तम प्रथाएँ।
 ### [Java में XPath का उपयोग कैसे करें – HTML पढ़ें और टेक्स्ट निकालें](./how-to-use-xpath-in-java-read-html-and-extract-text/)
 Java में Aspose.HTML का उपयोग करके XPath के माध्यम से HTML से टेक्स्ट निकालने की चरण‑दर‑चरण मार्गदर्शिका।
 
@@ -127,6 +126,8 @@ Java में मार्कडाउन को HTML में परिवर
 Java में HTML लोड करने के लिए चरण‑दर‑चरण मार्गदर्शिका, उपयोगी टिप्स और सर्वोत्तम प्रथाएँ।
 ### [Java के लिए Aspose.HTML में XPath क्वेरी कैसे करें – चरण‑दर‑चरण गाइड](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
 Aspose.HTML for Java के साथ XPath क्वेरी करने की प्रक्रिया सीखें। चरण‑दर‑चरण मार्गदर्शिका, टिप्स और सर्वोत्तम प्रथाएँ।
+### [Java में कई थ्रेड चलाएँ – Try With Resources का उपयोग करें](./run-multiple-threads-java-use-try-with-resources-java/)
+Java में कई थ्रेड चलाते समय Try With Resources का उपयोग करके संसाधनों को सुरक्षित रूप से प्रबंधित करना सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

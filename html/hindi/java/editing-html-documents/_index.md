@@ -51,7 +51,7 @@ url: /hi/java/editing-html-documents/
 ### [Java के लिए Aspose.HTML में HTML दस्तावेज़ों पर बाह्य CSS लागू करें](./apply-external-css-html-documents/)
 जानें कि Java के लिए Aspose.HTML का उपयोग करके HTML दस्तावेज़ों पर बाहरी CSS कैसे लागू करें! संपूर्ण ट्यूटोरियल के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें।
 ### [Java के लिए Aspose.HTML के साथ उन्नत बाह्य CSS संपादन](./advanced-external-css-editing/)
-Aspose.HTML for Java के साथ बाहरी CSS को संपादित करने की कला में महारत हासिल करें। यह विस्तृत, चरण-दर-चरण मार्गदर्शिका आपको गतिशील, स्टाइल वाले HTML दस्तावेज़ बनाने में मार्गदर्शन करती है।
+Aspose.HTML for Java के साथ बाहरी CSS को संपादित करने की कला में महारत हासिल करें। यह विस्तृत, चरण-दर-चरण मार्गदर्शन आपको गतिशील, स्टाइल वाले HTML दस्तावेज़ बनाने में मार्गदर्शन करती है।
 ### [Java के लिए Aspose.HTML में HTML दस्तावेज़ों में इनलाइन CSS जोड़ें](./add-inline-css-html-documents/)
 Java के लिए Aspose.HTML का उपयोग करके HTML दस्तावेज़ों में इनलाइन CSS जोड़ना सीखें। यह चरण-दर-चरण मार्गदर्शिका आपको HTML को स्टाइल करने और इसे आसानी से PDF में बदलने में मदद करती है।
 ### [Java के लिए Aspose.HTML में आंतरिक और बाहरी HTML गुण प्रबंधित करें](./manage-inner-outer-html-properties/)
@@ -79,6 +79,8 @@ Java का उपयोग करके MHTML फ़ाइल में h1 ट�
 Java के लिए Aspose.HTML का उपयोग करके बॉडी में नया तत्व जोड़ने की पूरी चरण-दर-चरण गाइड।
 ### [Java में स्वचालित लॉक रिलीज़ – थ्रेड‑सेफ HTML संपादन ट्यूटोरियल](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
 Java में स्वचालित लॉक रिलीज़ के साथ थ्रेड‑सेफ HTML संपादन कैसे करें, सीखें।
+### [Java में HTML निकालना – टेक्स्ट निकालें और शब्दों को हाइलाइट करें](./how-to-extract-html-in-java-extract-text-highlight-words/)
+Java में Aspose.HTML का उपयोग करके HTML से टेक्स्ट निकालें और विशिष्ट शब्दों को हाइलाइट करने का चरण-दर-चरण मार्गदर्शन।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -61,6 +61,8 @@ Naucz się implementować wewnętrzny kod CSS w dokumentach HTML, korzystając z
 ### [Zmień tekst h1 w MHTML przy użyciu Javy – Pełny przewodnik krok po kroku](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
 Dowiedz się, jak zmienić tekst elementu h1 w pliku MHTML przy użyciu Aspose.HTML dla Java w pełnym przewodniku krok po kroku.
 
+### [Jak wyodrębnić HTML w Javie – wyodrębnić tekst i podświetlić słowa](./how-to-extract-html-in-java-extract-text-highlight-words/)
+Dowiedz się, jak wyodrębnić tekst z dokumentów HTML w Javie i podświetlić wybrane słowa przy użyciu Aspose.HTML.
 ### [Fixed thread pool Java – równoległe czyszczenie HTML przy użyciu ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Dowiedz się, jak używać Fixed Thread Pool w Javie do równoległego czyszczenia HTML przy pomocy ExecutorService.
 ### [Utwórz nowy element HTML w Javie – Pełny przewodnik Aspose.HTML](./create-new-html-element-with-java-full-aspose-html-guide/)

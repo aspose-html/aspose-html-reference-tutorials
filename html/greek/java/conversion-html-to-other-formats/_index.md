@@ -234,6 +234,8 @@ weight: 25
 ### [Δημιουργία PDF από HTML σε Java – Οδηγός Μαζικής Μετατροπής](./create-pdf-from-html-in-java-batch-conversion-guide/)
 ### [Ορισμός μεγέθους σελίδας PDF με Aspose HTML σε PDF σε Java](./set-pdf-page-size-with-aspose-html-to-pdf-in-java/)
 ### [Μετατροπή HTML σε Markdown σε Java – Οδηγός βήμα‑βήμα](./convert-html-to-markdown-in-java-step-by-step-guide/)
+### [Aspose HTML σε PDF σε Java – Προσθήκη Περιθωρίων Σελίδας & PDF/A‑2b](./aspose-html-to-pdf-in-java-add-page-margins-pdf-a-2b/)
+Μάθετε πώς να ορίσετε περιθώρια σελίδας και να δημιουργήσετε έγγραφα PDF/A‑2b με Aspose.HTML for Java.
 
 ## Συχνές Ερωτήσεις
 

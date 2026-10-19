@@ -208,6 +208,9 @@ Aspose.HTML for Java के साथ SVG को GIF में बदलने �
 ### [उच्च रिज़ॉल्यूशन के साथ SVG को PNG में बदलें – Java गाइड](./convert-svg-to-png-with-high-resolution-java-guide/)
 Aspose.HTML for Java का उपयोग करके SVG फ़ाइलों को उच्च रिज़ॉल्यूशन PNG इमेज में बदलने के चरण‑दर‑चरण निर्देश।
 
+### [HTML को PNG में बदलें – Java गाइड HTML तालिकाओं को इमेज के रूप में रेंडर करने के लिए](./convert-html-to-png-java-guide-to-rendering-html-tables-as-i/)
+Aspose.HTML for Java के साथ HTML तालिकाओं को PNG इमेज में बदलने के चरण‑दर‑चरण निर्देश।
+
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **प्रश्न: क्या मैं Java का उपयोग करके अतिरिक्त इमेज लाइब्रेरी के बिना HTML को PNG में बदल सकता हूँ?**  

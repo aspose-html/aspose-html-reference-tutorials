@@ -243,6 +243,8 @@ Naučte se nastavit vlastní velikost stránky a okraje při převodu HTML do PD
 Naučte se převádět více HTML souborů najednou do PDF v Javě pomocí Aspose.HTML s podrobným nastavením dávkového zpracování.
 ### [Nastavte velikost stránky PDF pomocí Aspose HTML to PDF v Javě](./set-pdf-page-size-with-aspose-html-to-pdf-in-java/)
 Naučte se nastavit velikost stránky PDF při konverzi HTML pomocí Aspose.HTML for Java.
+### [Aspose HTML do PDF v Javě – Přidání okrajů stránky a PDF/A‑2b](./aspose-html-to-pdf-in-java-add-page-margins-pdf-a-2b/)
+Naučte se nastavit okraje stránky a exportovat PDF/A‑2b pomocí Aspose.HTML for Java.
 
 ## Často kladené otázky
 

@@ -71,6 +71,7 @@ Lär dig hur du markerar HTML genom att söka efter text och ersätta den med <m
 ### [Hur man tar bort skript från HTML i Java – Komplett guide](./how-to-remove-scripts-from-html-in-java-complete-guide/)
 ### [Automatiskt låslåsning i Java – Trådsäker HTML-redigeringshandledning](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
 Lär dig hur du automatiskt släpper lås i Java för trådsäker redigering av HTML-dokument med Aspose.HTML.
+### [Hur man extraherar HTML i Java – Extrahera text och markera ord](./how-to-extract-html-in-java-extract-text-highlight-words/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

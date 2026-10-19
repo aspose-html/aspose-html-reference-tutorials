@@ -94,6 +94,8 @@ Ismerje meg, hogyan olvashatja ki egy HTML elem háttérszínét Java-ban az Asp
 Ismerje meg, hogyan szerezhet be számított CSS‑stílusokat Java‑ban az Aspose.HTML könyvtár segítségével, a dinamikus megjelenítéshez.
 ### [Hogyan kapjunk stílust az Aspose HTML Java-ban – Query Selector használata](./how-to-get-style-in-aspose-html-java-use-query-selector/)
 Ismerje meg, hogyan használhatja a query selector-t a stílusok lekérésére az Aspose.HTML for Java-ban.
+### [Hogyan olvassuk a CSS-t Java-ban – Számított stílus lekérése](./how-to-read-css-in-java-get-computed-style/)
+Ismerje meg, hogyan kérheti le egy elem számított CSS-stílusát Java-ban az Aspose.HTML segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

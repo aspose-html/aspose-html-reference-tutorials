@@ -130,6 +130,8 @@ Apprenez à exécuter du code JavaScript dans un document HTML avec Aspose.HTML 
 Apprenez à créer un élément HTML en toute sécurité avec ExecutorService en Java, démonstration de gestion multithread avec Aspose.HTML.
 ### [Comment interroger xpath en Java avec Aspose – Guide étape par étape](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
 Apprenez à interroger des documents HTML avec XPath en Java en utilisant Aspose.HTML grâce à ce guide complet étape par étape.
+### [Exécuter plusieurs threads Java – utiliser try-with-resources Java](./run-multiple-threads-java-use-try-with-resources-java/)
+Apprenez à gérer plusieurs threads en Java avec l'instruction try-with-resources pour une gestion sûre des ressources.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

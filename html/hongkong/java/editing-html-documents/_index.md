@@ -73,6 +73,8 @@ url: /zh-hant/java/editing-html-documents/
 本教學說明如何在 HTML 中搜尋特定文字，並使用 <mark> 標籤將其高亮顯示，提升可讀性。
 ### [Java 中的自動鎖釋放 – 執行緒安全 HTML 編輯教學](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
 了解如何在 Java 中自動釋放鎖，以確保 HTML 編輯過程的執行緒安全，提升效能與穩定性。
+### [如何在 Java 中提取 HTML – 提取文字並突出顯示關鍵詞](./how-to-extract-html-in-java-extract-text-highlight-words/)
+了解如何在 Java 中使用 Aspose.HTML 提取 HTML 文字並高亮顯示指定詞彙的逐步指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

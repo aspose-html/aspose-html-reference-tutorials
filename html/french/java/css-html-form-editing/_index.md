@@ -99,6 +99,8 @@ Apprenez à récupérer la couleur d'arrière-plan d'un élément HTML en Java a
 Apprenez à récupérer les propriétés CSS calculées d'un élément en Java à l'aide d'Aspose.HTML, pour analyser et manipuler le style dynamique.
 ### [Comment obtenir le style dans Aspose HTML Java – Utiliser le sélecteur de requête](./how-to-get-style-in-aspose-html-java-use-query-selector/)
 Apprenez à récupérer les styles CSS d'un élément HTML en Java avec Aspose.HTML en utilisant la méthode querySelector.
+### [Comment lire le CSS en Java – Obtenir le style calculé](./how-to-read-css-in-java-get-computed-style/)
+Apprenez à lire le CSS en Java et à récupérer le style calculé avec Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

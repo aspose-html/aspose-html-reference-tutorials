@@ -118,6 +118,8 @@ Naučte se nastavit Device Pixel Ratio při renderování HTML do PNG v Javě po
 Naučte se nastavit DPI při konverzi HTML na PNG pomocí Aspose.HTML for Java pro lepší kvalitu výstupu.
 ### [Převod HTML do PNG – Kompletní průvodce s barvou pozadí a rozlišením](./convert-html-to-png-full-guide-with-background-color-resolut/)
 Kompletní průvodce převodem HTML na PNG s nastavením barvy pozadí a rozlišením pro dokonalou kvalitu výstupu.
+### [Převod HTML na PNG – Java průvodce vykreslováním HTML tabulek jako obrázků](./convert-html-to-png-java-guide-to-rendering-html-tables-as-i/)
+Naučte se, jak v Javě pomocí Aspose.HTML převést HTML tabulky na PNG obrázky s podrobným krok‑za‑krokem návodem.
 ### [Převod HTML do TIFF](./convert-html-to-tiff/)
 Naučte se snadno převést HTML do TIFF pomocí Aspose.HTML for Java. Krok‑za‑krokem průvodce pro efektivní zpracování dokumentů.
 

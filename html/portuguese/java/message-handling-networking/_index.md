@@ -59,6 +59,8 @@ Aprenda a usar o HttpClient 11 com Authenticator para fazer requisições segura
 Aprenda a buscar e processar JSON usando JavaScript em Java com Aspose HTML neste guia completo.
 ### [Definir Cabeçalho de Autorização em Java – Guia Completo para Carregar HTML a partir de URL](./set-authorization-header-in-java-complete-guide-to-load-html/)
 Aprenda a definir o cabeçalho de autorização em requisições Java para carregar HTML de URLs de forma segura e eficiente.
+### [Definir agente de usuário personalizado em Java – Tutorial de carregamento de página da web em sandbox](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
+Aprenda a definir um agente de usuário personalizado ao carregar páginas web em sandbox usando Aspose.HTML para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -87,8 +87,6 @@ Aspose.HTML for Java упрощает процесс конвертации HTML
 ### [Конвертация HTML в PDF с фиксированным пулом потоков Java – пошаговое руководство](./convert-html-to-pdf-with-fixed-thread-pool-java-step-by-step/)
 Узнайте, как использовать фиксированный пул потоков для параллельной конвертации HTML в PDF в Java с помощью Aspose.HTML.
 
-### [Создание PDF из HTML в Java – Пошаговое руководство](./create-pdf-from-html-in-java-step-by-step-guide/)
-Подробное руководство по созданию PDF из HTML в Java с пошаговыми инструкциями.
 ### [Учебник HTML в PDF: Конвертировать веб‑страницы в PDF с Java](./html-to-pdf-tutorial-convert-web-pages-to-pdf-with-java/)
 Узнайте, как с помощью Aspose.HTML for Java преобразовать веб‑страницы в PDF‑документы с сохранением стилей и изображений.
 ### [Конвертация HTML в PDF – Полное руководство по пакетному преобразованию файлов с Aspose.HTML](./html-to-pdf-conversion-complete-guide-to-batch-convert-files/)
@@ -278,6 +276,11 @@ Aspose.HTML for Java упрощает процесс конвертации HTML
 Узнайте, как задать пользовательские размеры страниц при конвертации HTML в PDF с помощью Aspose.HTML for Java.
 
 ### [Создание PDF из HTML в Java – Полное пошаговое руководство](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
+
+### [Создание PDF из HTML в Java – Пошаговое руководство](./create-pdf-from-html-in-java-step-by-step-guide/)
+Подробное пошаговое руководство по созданию PDF из HTML в Java с использованием Aspose.HTML, включая настройку параметров и оптимизацию.
+
+### [Aspose HTML в PDF на Java – Добавление полей страницы и PDF/A‑2b](./aspose-html-to-pdf-in-java-add-page-margins-pdf-a-2b/)
 
 ## Часто задаваемые вопросы
 

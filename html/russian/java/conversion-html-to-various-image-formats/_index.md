@@ -116,6 +116,9 @@ weight: 24
 ### [Преобразование HTML в PNG – Полное руководство с цветом фона и разрешением](./convert-html-to-png-full-guide-with-background-color-resolut/)
 Подробное руководство по конвертации HTML в PNG с настройкой цвета фона и разрешения изображения.
 
+### [Преобразование HTML в PNG – Руководство Java по рендерингу HTML‑таблиц в изображения](./convert-html-to-png-java-guide-to-rendering-html-tables-as-i/)
+Узнайте, как с помощью Aspose.HTML for Java преобразовать HTML‑таблицы в PNG‑изображения. Пошаговое руководство.
+
 ### [Преобразование HTML в TIFF](./convert-html-to-tiff/)
 Узнайте, как легко преобразовывать HTML в TIFF с помощью Aspose.HTML для Java. Пошаговое руководство по эффективной обработке документов.
 

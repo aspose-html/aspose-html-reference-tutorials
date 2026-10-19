@@ -66,6 +66,8 @@ Pelajari cara menghapus skrip berbahaya dari dokumen HTML menggunakan Aspose.HTM
 Pelajari cara menyorot teks dalam dokumen HTML dengan mencari dan mengganti menggunakan tag <mark> menggunakan Aspose.HTML untuk Java.
 ### [Pelepasan Kunci Otomatis di Java – Tutorial Penyuntingan HTML Thread‑Safe](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
 Pelajari cara melepaskan kunci secara otomatis saat mengedit HTML secara thread‑safe menggunakan Aspose.HTML untuk Java.
+### [Cara Mengekstrak HTML di Java – Mengekstrak Teks & Menyorot Kata](./how-to-extract-html-in-java-extract-text-highlight-words/)
+Pelajari cara mengekstrak teks dari dokumen HTML dan menyorot kata kunci menggunakan Aspose.HTML untuk Java.
 ### [Fixed thread pool Java – Pembersihan HTML Paralel dengan ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 ### [Menambahkan Child ke Body di Java – Tutorial Lengkap Aspose.HTML](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 ### [Buat elemen HTML baru dengan Java – Panduan Lengkap Aspose.HTML](./create-new-html-element-with-java-full-aspose-html-guide/)

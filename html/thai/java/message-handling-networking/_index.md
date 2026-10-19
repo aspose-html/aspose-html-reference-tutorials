@@ -58,6 +58,8 @@ Aspose.HTML สำหรับ Java เป็นชุดเครื่อง�
 เรียนรู้วิธีดึงข้อมูล JSON จากสคริปต์ JavaScript ในแอปพลิเคชัน Java ด้วย Aspose.HTML อย่างละเอียด
 ### [ตั้งค่า Header การอนุญาตใน Java – คู่มือฉบับสมบูรณ์เพื่อโหลด HTML จาก URL](./set-authorization-header-in-java-complete-guide-to-load-html/)
 เรียนรู้วิธีตั้งค่า Authorization Header ใน Java เพื่อโหลด HTML จาก URL อย่างครบถ้วน
+### [ตั้งค่า User Agent แบบกำหนดเองใน Java – สอนการโหลดหน้าเว็บใน Sandbox](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
+เรียนรู้วิธีตั้งค่า User Agent ของคุณใน Java เพื่อโหลดหน้าเว็บในสภาพแวดล้อม Sandbox อย่างปลอดภัย
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

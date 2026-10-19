@@ -74,6 +74,8 @@ url: /zh/java/editing-html-documents/
 本教程演示如何在 HTML 中搜索特定文本并使用 <mark> 标签高亮显示，实现快速标记功能。
 ### [Java 中的自动锁释放 – 线程安全 HTML 编辑教程](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
 了解如何在 Java 中使用自动锁释放实现线程安全的 HTML 编辑，提高并发处理效率。
+### [如何在 Java 中提取 HTML – 提取文本并高亮单词](./how-to-extract-html-in-java-extract-text-highlight-words/)
+了解如何使用 Aspose.HTML for Java 提取 HTML 内容、获取文本并对指定单词进行高亮显示的完整步骤。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

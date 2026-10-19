@@ -124,6 +124,8 @@ Learn how to execute JavaScript with setTimeout asynchronously in Java using Asp
 Quick Java guide to load an HTML document with Aspose.HTML and retrieve its page title efficiently.
 ### [Execute JavaScript Java – Run JS on HTML & Append Elements](./execute-javascript-java-run-js-on-html-append-elements/)
 Learn how to execute JavaScript in Java using Aspose.HTML, run scripts on HTML pages and dynamically append elements.
+### [run multiple threads java – use try with resources java](./run-multiple-threads-java-use-try-with-resources-java/)
+Learn how to run multiple Java threads while safely managing resources using try‑with‑resources. Step-by-step guide with examples.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

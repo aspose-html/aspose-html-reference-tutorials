@@ -121,6 +121,8 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 Узнайте, как выполнить JavaScript в Java, запустить скрипт в HTML и добавить новые элементы в документ с помощью Aspose.HTML.
 ### [Как выполнять запросы XPath в Java с Aspose – пошаговое руководство](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
 Узнайте, как выполнять запросы XPath в Java с помощью Aspose.HTML, пошаговое руководство.
+### [Запуск нескольких потоков в Java – использование try-with-resources](./run-multiple-threads-java-use-try-with-resources-java/)
+Узнайте, как эффективно управлять несколькими потоками в Java, используя конструкцию try-with-resources для безопасного освобождения ресурсов.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

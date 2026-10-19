@@ -75,6 +75,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML für Java ein neues HTML-Element erstellen
 Erfahren Sie, wie Sie mit Aspose.HTML für Java alle Skripte aus HTML-Dateien entfernen – Schritt-für-Schritt-Anleitung.
 ### [Wie man HTML hervorhebt – Text suchen & mit <mark> ersetzen](./how-to-highlight-html-search-text-replace-with-mark/)
 Erfahren Sie, wie Sie mit Aspose.HTML für Java Text in HTML markieren, indem Sie das <mark>-Tag verwenden – Schritt-für-Schritt-Anleitung.
+### [HTML in Java extrahieren – Text extrahieren und Wörter hervorheben](./how-to-extract-html-in-java-extract-text-highlight-words/)
+Entdecken Sie, wie Sie mit Aspose.HTML für Java HTML extrahieren, Text auslesen und bestimmte Wörter hervorheben – Schritt für Schritt.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

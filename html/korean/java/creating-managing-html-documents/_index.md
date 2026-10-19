@@ -125,6 +125,8 @@ Aspose.HTML for Java를 사용하여 HTML 문서에서 JavaScript를 실행하�
 ### [Java ExecutorService로 HTML 요소 만들기 – 스레드 안전 데모](./create-html-element-with-java-executorservice-thread-safe-de/)
 Java ExecutorService를 사용하여 스레드 안전하게 HTML 요소를 생성하는 방법을 단계별로 안내합니다.
 
+### [Java에서 다중 스레드 실행 – try-with-resources 사용](./run-multiple-threads-java-use-try-with-resources-java/)
+Java에서 여러 스레드를 실행하면서 try-with-resources를 활용해 리소스를 안전하게 관리하는 방법을 단계별로 안내합니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

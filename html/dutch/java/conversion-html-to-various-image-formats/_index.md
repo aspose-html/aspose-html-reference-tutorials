@@ -124,6 +124,8 @@ Leer hoe je de DPI-waarde kunt aanpassen bij het omzetten van HTML naar PNG met 
 Leer hoe je met Aspose.HTML for Java een HTML‑pagina volledig kunt opslaan als PNG‑afbeelding met voorbeeldcode.
 ### [HTML naar PNG converteren – Complete gids met achtergrondkleur en resolutie](./convert-html-to-png-full-guide-with-background-color-resolut/)
 Leer hoe je HTML naar PNG converteert met aangepaste achtergrondkleur en resolutie in Java met Aspose.HTML.
+### [HTML naar PNG converteren – Java‑gids voor het renderen van HTML‑tabellen als afbeeldingen](./convert-html-to-png-java-guide-to-rendering-html-tables-as-i/)
+Leer hoe je HTML‑tabellen omzet naar PNG‑afbeeldingen met Aspose.HTML for Java in een eenvoudige stap‑voor‑stap gids.
 ### [HTML naar TIFF converteren](./convert-html-to-tiff/)
 Leer hoe je HTML eenvoudig naar TIFF kunt converteren met Aspose.HTML for Java. Stap‑voor‑stap gids voor efficiënte documentafhandeling.
 ### [HTML naar WebP – Complete Java-gids met Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)

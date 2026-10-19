@@ -57,6 +57,8 @@ Aprenda a usar HttpClient de Java 11 con autenticador para realizar solicitudes 
 Aprenda a establecer el encabezado de autorización en Java y cargar HTML desde una URL usando Aspose.HTML.
 ### [Obtener JSON JavaScript en Java con Aspose HTML – Guía completa](./fetch-json-javascript-in-java-with-aspose-html-complete-guid/)
 Aprenda a obtener datos JSON usando JavaScript en Java con Aspose HTML en esta guía paso a paso.
+### [Establecer agente de usuario personalizado en Java – Cargar página web en sandbox](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
+Aprenda a configurar un agente de usuario personalizado al cargar páginas web en un entorno sandbox con Aspose.HTML para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

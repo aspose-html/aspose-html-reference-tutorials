@@ -130,6 +130,8 @@ Dowiedz się, jak w prosty sposób ładować dokumenty HTML w Javie przy użyciu
 Pokażemy, jak bezpiecznie tworzyć elementy HTML w wielu wątkach przy użyciu ExecutorService w Javie.
 ### [Jak zapytać XPath w Javie – Kompletny samouczek](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
 Dowiedz się, jak zapytać XPath w Javie przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
+### [Uruchamianie wielu wątków w Javie – użycie try-with-resources w Javie](./run-multiple-threads-java-use-try-with-resources-java/)
+Dowiedz się, jak uruchamiać wiele wątków w Javie, wykorzystując konstrukcję try-with-resources do bezpiecznego zarządzania zasobami.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

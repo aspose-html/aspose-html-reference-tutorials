@@ -95,6 +95,8 @@ Hướng dẫn cách sử dụng Aspose.HTML cho Java để truy xuất giá tr�
 Tìm hiểu cách truy xuất các thuộc tính CSS đã tính toán trong Java bằng Aspose.HTML trong hướng dẫn chi tiết này.
 ### [Cách lấy style trong Aspose HTML Java – Sử dụng Query Selector](./how-to-get-style-in-aspose-html-java-use-query-selector/)
 Hướng dẫn cách sử dụng Query Selector để lấy style của phần tử trong Aspose HTML cho Java.
+### [Cách đọc CSS trong Java – Lấy kiểu đã tính toán](./how-to-read-css-in-java-get-computed-style/)
+Hướng dẫn cách sử dụng Aspose.HTML cho Java để đọc CSS và lấy giá trị style đã tính toán của phần tử.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

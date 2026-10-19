@@ -57,6 +57,8 @@ Aspose.HTML for Java 是一款功能强大的工具包，用于管理和操作 H
 本完整指南展示如何在 Java 环境下使用 Aspose HTML 执行 JavaScript 来获取并处理 JSON 数据。
 ### [在 Java 中设置授权标头 – 加载 URL HTML 的完整指南](./set-authorization-header-in-java-complete-guide-to-load-html/)
 本完整指南展示如何在 Java 中设置授权标头，以从 URL 加载 HTML 内容。
+### [在 Java 中设置自定义用户代理 – 在沙盒中加载网页教程](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
+了解如何在 Aspose.HTML for Java 中设置自定义用户代理，以在沙盒环境加载网页。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

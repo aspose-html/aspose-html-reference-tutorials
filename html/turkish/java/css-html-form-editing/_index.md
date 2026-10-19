@@ -94,6 +94,8 @@ Aspose.HTML for Java ile bir öğenin arka plan rengini nasıl okuyacağınızı
 Aspose.HTML for Java kullanarak bir öğenin hesaplanmış CSS stilini programatik olarak nasıl alacağınızı öğrenin.
 ### [Aspose HTML Java’da Stil Alma – Query Selector Kullanımı](./how-to-get-style-in-aspose-html-java-use-query-selector/)
 Aspose.HTML for Java’da querySelector kullanarak bir öğenin stilini nasıl alacağınızı adım adım öğrenin.
+### [Java’da CSS Okuma – Hesaplanmış Stili Al](./how-to-read-css-in-java-get-computed-style/)
+Bu eğitimde, Aspose.HTML for Java ile bir öğenin hesaplanmış CSS stilini nasıl okuyacağınızı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

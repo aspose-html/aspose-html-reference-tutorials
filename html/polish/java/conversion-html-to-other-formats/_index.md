@@ -210,6 +210,8 @@ Dowiedz się, jak używać puli wątków w Javie do równoczesnej konwersji wiel
 Dowiedz się, jak prawidłowo osadzać obrazy podczas konwersji MHTML do PDF przy użyciu Aspose.HTML w Javie.
 ### [Jak używać Aspose – wsadowa konwersja HTML do PDF w Javie](./how-to-use-aspose-batch-convert-html-to-pdf-in-java/)
 Dowiedz się, jak przetwarzać wiele plików HTML jednocześnie i generować PDF w Javie przy użyciu Aspose.HTML.
+### [aspose html do pdf w Javie – Dodaj marginesy strony i PDF/A‑2b](./aspose-html-to-pdf-in-java-add-page-margins-pdf-a-2b/)
+Dowiedz się, jak dodać marginesy do stron i wygenerować dokument PDF/A‑2b przy użyciu Aspose.HTML w Javie.
 
 ### [Utwórz PDF z HTML w Javie – Kompletny przewodnik krok po kroku](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
 Dowiedz się, jak utworzyć PDF z HTML w Javie przy użyciu Aspose.HTML. Przejdź przez kompletny przewodnik krok po kroku.

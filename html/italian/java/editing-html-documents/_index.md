@@ -60,6 +60,8 @@ Scopri come gestire le proprietà HTML interne ed esterne in Aspose.HTML per Jav
 Impara a implementare CSS interni nei documenti HTML utilizzando Aspose.HTML per Java con il nostro semplice tutorial passo dopo passo.
 ### [Modifica il testo h1 in MHTML con Java – Guida completa passo‑passo](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
 Scopri come cambiare il contenuto dell'elemento h1 in un file MHTML usando Aspose.HTML per Java, con istruzioni dettagliate passo dopo passo.
+### [Estrai HTML in Java – Estrai testo e evidenzia parole](./how-to-extract-html-in-java-extract-text-highlight-words/)
+Scopri come estrarre testo da HTML in Java e evidenziare parole chiave con Aspose.HTML.
 ### [Pool di thread fisso Java – Pulizia HTML parallela con ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Scopri come utilizzare un pool di thread fisso per pulire documenti HTML in parallelo con ExecutorService in Aspose.HTML per Java.
 ### [Aggiungere un figlio al body in Java – Tutorial completo Aspose.HTML](./append-child-to-body-in-java-full-aspose-html-tutorial/)

@@ -258,6 +258,8 @@ Aspose.HTML for Java 简化了 HTML 转 PDF 的工作流。请参阅专门的教
 
 ### [在 Java 中将 HTML 转换为 Markdown – 分步指南](./convert-html-to-markdown-in-java-step-by-step-guide/)
 详细步骤演示如何在 Java 使用 Aspose.HTML 将 HTML 转换为 Markdown，实现高质量文档转换。
+### [Aspose HTML 转 PDF（Java） – 添加页面边距和 PDF/A‑2b](./aspose-html-to-pdf-in-java-add-page-margins-pdf-a-2b/)
+了解如何在 Java 中使用 Aspose.HTML 将 HTML 转换为 PDF 时设置页面边距并生成符合 PDF/A‑2b 标准的文档。
 
 ## 常见问题
 

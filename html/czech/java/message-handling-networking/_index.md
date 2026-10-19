@@ -56,6 +56,8 @@ Kompletní průvodce, jak v Javě pomocí Aspose.HTML V8 získat data z API meto
 ### [Načíst JSON JavaScript v Javě s Aspose HTML – Kompletní průvodce](./fetch-json-javascript-in-java-with-aspose-html-complete-guid/)
 ### [Nastavení autorizačního hlavičky v Javě – Kompletní průvodce načtením HTML z URL](./set-authorization-header-in-java-complete-guide-to-load-html/)
 Naučte se, jak nastavit autorizační hlavičku při načítání HTML z URL pomocí Aspose.HTML pro Javu.
+### [Nastavte vlastní uživatelský agent v Javě – načtení webové stránky v sandboxu](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
+Naučte se, jak nastavit vlastní User-Agent při načítání webových stránek v sandboxu pomocí Aspose.HTML pro Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

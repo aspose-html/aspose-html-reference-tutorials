@@ -96,6 +96,8 @@ Lär dig hur du programatiskt läser bakgrundsfärgen på ett HTML‑element med
 Lär dig hur du hämtar beräknad CSS‑stil för element i Java med Aspose.HTML i en praktisk steg‑för‑steg‑guide.
 ### [Hur du hämtar stil i Aspose HTML Java – Använd query selector](./how-to-get-style-in-aspose-html-java-use-query-selector/)
 Lär dig hur du använder query selector för att hämta CSS‑stilar från HTML‑element med Aspose.HTML för Java.
+### [Hur man läser CSS i Java – Hämta beräknad stil](./how-to-read-css-in-java-get-computed-style/)
+Lär dig hur du med Aspose.HTML för Java kan läsa CSS‑regler och hämta beräknade stilar för element i ditt dokument.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

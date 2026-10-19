@@ -117,6 +117,8 @@ Porovnejte používání XPath a CSS selektorů při načítání HTML v Javě s
 Ukázka, jak bezpečně vytvářet HTML elementy v multi‑vláknovém prostředí pomocí ExecutorService v Javě.
 ### [Jak dotazovat XPath v Javě – krok‑za‑krokem průvodce](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
 Kompletní průvodce, jak v Javě dotazovat XPath pomocí Aspose.HTML, včetně příkladů a tipů.
+### [Spusťte více vláken v Javě – použijte try‑with‑resources v Javě](./run-multiple-threads-java-use-try-with-resources-java/)
+Naučte se, jak spustit více vláken v Javě a správně spravovat zdroje pomocí konstrukce try‑with‑resources.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

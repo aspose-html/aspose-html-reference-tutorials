@@ -168,6 +168,8 @@ XPS هو صيغة الطباعة الخاصة بمايكروسوفت. باستخ
 ### [تحويل HTML إلى PDF – حجم صفحة مخصص وهوامش في Java](./convert-html-to-pdf-custom-page-size-margins-in-java/)
 ### [ضبط حجم صفحة PDF باستخدام Aspose HTML إلى PDF في Java](./set-pdf-page-size-with-aspose-html-to-pdf-in-java/)
 دليل شامل لإنشاء ملفات PDF من HTML في Java باستخدام Aspose.HTML، مع شرح مفصل لكل خطوة وإعدادات متقدمة.
+تعلم كيفية إنشاء ملف PDF من HTML في Java خطوة بخطوة باستخدام Aspose.HTML.
+### [تحويل HTML إلى PDF في Java – إضافة هوامش الصفحة وPDF/A‑2b](./aspose-html-to-pdf-in-java-add-page-margins-pdf-a-2b/)
 
 ### [كيفية ضغط PDF باستخدام Aspose HTML إلى PDF – دليل Java](./how-to-compress-pdf-with-aspose-html-to-pdf-java-guide/)
 تعلم كيفية تقليل حجم ملف PDF باستخدام Aspose.HTML إلى PDF في Java مع إرشادات خطوة بخطوة.

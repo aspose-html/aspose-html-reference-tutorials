@@ -129,6 +129,7 @@ Impara a convertire file Markdown in documenti HTML usando Aspose.HTML per Java 
 Scopri come creare in modo sicuro elementi HTML usando ExecutorService di Java, garantendo operazioni thread‑safe.
 ### [Come interrogare xpath in Java con Aspose – Guida passo‑a‑passo](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
 Impara a eseguire query xpath su documenti HTML in Java usando Aspose.HTML con questa guida passo‑passo completa.
+### [Esegui più thread Java – usa try‑with‑resources Java](./run-multiple-threads-java-use-try-with-resources-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

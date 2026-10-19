@@ -127,6 +127,10 @@ Leer hoe u HTML naar PDF converteert met aangepaste paginagrootte en marges in J
 Leer hoe u meerdere HTML‑bestanden in één batch naar PDF converteert met Aspose.HTML for Java.
 ### [PDF-paginagrootte instellen met Aspose HTML naar PDF in Java](./set-pdf-page-size-with-aspose-html-to-pdf-in-java/)
 Leer hoe u de paginagrootte van PDF's kunt instellen bij conversie van HTML met Aspose.HTML in Java.
+### [Aspose HTML naar PDF in Java – Paginamarges toevoegen & PDF/A‑2b](./aspose-html-to-pdf-in-java-add-page-margins-pdf-a-2b/)
+Leer hoe u paginamarges instelt en PDF/A‑2b‑compatibiliteit toevoegt bij het converteren van HTML naar PDF met Aspose.HTML for Java.
+### [PDF maken van HTML in Java – Stapsgewijze gids](./create-pdf-from-html-in-java-step-by-step-guide/)
+Leer stap voor stap hoe u met Aspose.HTML een PDF genereert vanuit HTML in Java, inclusief configuratie‑opties en best practices.
 ### [HTML naar MHTML converteren](./convert-html-to-mhtml/)
 Converteer HTML moeiteloos naar MHTML met Aspose.HTML for Java. Volg onze stap‑voor‑stap gids voor efficiënte HTML‑naar‑MHTML conversie.
 ### [HTML naar MHTML converteren met Aspose.HTML – Complete Java‑gids](./convert-html-to-mhtml-with-aspose-html-complete-java-guide/)
@@ -202,8 +206,6 @@ Ontdek hoe u audio‑ en videobestanden uit HTML‑inhoud kunt halen met Aspose.
 
 ### [PDF maken van HTML in Java – Complete stapsgewijze gids](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
 Leer hoe u stap‑voor‑stap een PDF maakt van HTML in Java met Aspose.HTML, inclusief volledige configuratie‑opties.
-### [PDF maken van HTML in Java – Stapsgewijze gids](./create-pdf-from-html-in-java-step-by-step-guide/)
-Leer stap‑voor‑stap hoe u PDF‑bestanden genereert vanuit HTML in Java met Aspose.HTML.
 ### [Hoe offset instellen bij het converteren van HTML naar Markdown in Java](./how-to-set-offset-when-converting-html-to-markdown-in-java/)
 Leer hoe u een offset kunt instellen tijdens het omzetten van HTML naar Markdown met Aspose.HTML for Java.
 ### [Hoe PDF genereren vanuit Markdown in Java – Stapsgewijze gids](./how-to-generate-pdf-from-markdown-in-java-step-by-step-guide/)

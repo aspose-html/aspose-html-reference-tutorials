@@ -242,6 +242,8 @@ Aspose.HTML を使用して、Java で HTML を PDF に変換する際にペー�
 Aspose.HTML を使用して、Java で複数の HTML ファイルを一括で PDF に変換する手順を解説します。
 ### [JavaでAspose HTMLを使用してPDFページサイズを設定する](./set-pdf-page-size-with-aspose-html-to-pdf-in-java/)
 Aspose.HTML for Java で PDF のページサイズをカスタマイズする手順をステップバイステップで解説します。
+### [JavaでAspose HTMLを使用してPDFに変換 – ページ余白とPDF/A‑2bの追加](./aspose-html-to-pdf-in-java-add-page-margins-pdf-a-2b/)
+ページ余白とPDF/A‑2b準拠を設定しながら、JavaでHTMLをPDFに変換する手順を解説します。
 
 ## よくある質問
 

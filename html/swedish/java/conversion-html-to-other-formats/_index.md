@@ -176,6 +176,8 @@ Lär dig hur du konverterar flera HTML‑filer till PDF i Java med Aspose.HTML i
 ### [Ställ in PDF‑sidstorlek med Aspose HTML till PDF i Java](./set-pdf-page-size-with-aspose-html-to-pdf-in-java/)
 Lär dig hur du ställer in sidstorlek vid konvertering av HTML till PDF med Aspose.HTML i Java.
 ### [Konvertera HTML till Markdown i Java – Steg‑för‑steg‑guide](./convert-html-to-markdown-in-java-step-by-step-guide/)
+### [Aspose HTML till PDF i Java – Lägg till sidmarginaler & PDF/A‑2b](./aspose-html-to-pdf-in-java-add-page-margins-pdf-a-2b/)
+Lär dig hur du lägger till sidmarginaler och sparar PDF som PDF/A‑2b med Aspose.HTML i Java.
 
 ### [Konvertera HTML till PDF i Java – Snabb Aspose.HTML‑guide](./convert-html-to-pdf-in-java-quick-aspose-html-guide/)
 Snabb guide för att konvertera HTML till PDF i Java med Aspose.HTML, med enkla steg‑för‑steg‑instruktioner.

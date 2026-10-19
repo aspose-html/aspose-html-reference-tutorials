@@ -46,8 +46,6 @@ Wenn es um die Generierung neuer HTML-Dokumente geht, bietet Aspose.HTML für Ja
 Meistern Sie die asynchrone Erstellung von HTML-Dokumenten mit Aspose.HTML für Java. Schritt‑für‑Schritt‑Anleitung, Tipps und FAQs für schnelles Lernen enthalten.
 
 ### [Erstellen Sie leere HTML-Dokumente in Aspose.HTML für Java](./create-empty-html-documents/)
-Erfahren Sie mit unserem ausführlichen Schritt-für‑Schritt‑Tutorial, wie Sie mit Aspose.HTML leere HTML-Dokumente in Java erstellen. Es ist ideal für Entwickler aller Niveaus.
-
 ### [Laden Sie HTML-Dokumente aus einer Datei in Aspose.HTML für Java](./load-html-documents-from-file/)
 Entfesseln Sie die Möglichkeiten der HTML-Manipulation mit Aspose.HTML für Java. Lernen Sie mit Schritt‑für‑Schritt‑Tutorials, HTML-Dokumente aus Dateien zu laden.
 ### [Erweitertes Laden von Dateien für HTML-Dokumente in Aspose.HTML für Java](./advanced-file-loading-html-documents/)
@@ -136,6 +134,9 @@ Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie Text aus HT
 Erfahren Sie, wie Sie JavaScript in Aspose.HTML für Java ausführen, HTML manipulieren und neue Elemente dynamisch hinzufügen.
 ### [Wie man XPath in Java mit Aspose abfragt – Schritt‑für‑Schritt‑Anleitung](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML in Java XPath‑Abfragen durchführen und HTML‑Inhalte gezielt extrahieren – detaillierte Schritt‑für‑Schritt‑Anleitung.
+
+### [Mehrere Threads in Java ausführen – Try-with-Resources in Java verwenden](./run-multiple-threads-java-use-try-with-resources-java/)
+Erfahren Sie, wie Sie mehrere Threads in Java starten und dabei Try‑with‑Resources für eine sichere Ressourcenverwaltung nutzen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

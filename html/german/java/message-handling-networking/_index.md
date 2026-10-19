@@ -60,6 +60,8 @@ Erfahren Sie, wie Sie JSON-Daten über JavaScript in Java mit Aspose HTML vollst
 ### [Authorization-Header in Java setzen – Komplettanleitung zum Laden von HTML aus einer URL](./set-authorization-header-in-java-complete-guide-to-load-html/)
 Erfahren Sie, wie Sie den Authorization-Header in Java setzen, um HTML von einer URL zu laden.
 
+### [Benutzerdefinierten User-Agent in Java festlegen – Webpage im Sandbox-Tutorial laden](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
+Erfahren Sie, wie Sie in Aspose.HTML für Java einen benutzerdefinierten User-Agent setzen und Webseiten in einer Sandbox laden.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

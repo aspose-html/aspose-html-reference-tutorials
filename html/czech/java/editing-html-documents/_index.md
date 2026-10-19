@@ -74,6 +74,8 @@ Naučte se, jak pomocí Aspose.HTML v Javě přidat nový uzel do DOM stromu. Ko
 Naučte se, jak bezpečně odstranit skripty z HTML dokumentů v Javě pomocí Aspose.HTML. Kompletní krok za krokem průvodce.
 ### [Automatické uvolnění zámku v Javě – Tutoriál pro bezpečnou úpravu HTML](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
 Naučte se, jak automaticky uvolňovat zámky při úpravě HTML v Javě, aby byly operace vlákny‑bezpečné.
+### [Jak extrahovat HTML v Javě – Extrahovat text a zvýraznit slova](./how-to-extract-html-in-java-extract-text-highlight-words/)
+Naučte se, jak v Javě extrahovat text z HTML a zvýraznit vybraná slova pomocí Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

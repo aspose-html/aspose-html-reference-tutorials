@@ -122,6 +122,8 @@ Aprenda a percorrer um NodeList em Java para ler HTML e extrair o atributo src d
 Aprenda a usar setTimeout assíncrono para executar JavaScript dentro de Java e atualizar dinamicamente o HTML.
 ### [Criar elemento HTML com Java ExecutorService – Demonstração Thread‑Safe](./create-html-element-with-java-executorservice-thread-safe-de/)
 Aprenda a criar elementos HTML de forma segura usando ExecutorService em Java com este exemplo thread‑safe.
+### [Executar múltiplas threads em Java – usar try-with-resources](./run-multiple-threads-java-use-try-with-resources-java/)
+Aprenda a gerenciar várias threads em Java usando a instrução try-with-resources para garantir o fechamento adequado de recursos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

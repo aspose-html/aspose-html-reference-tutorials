@@ -36,7 +36,7 @@ Membangun alur kerja penanganan pesan Anda sendiri dapat terasa seperti membangu
 Pelajari cara menambahkan header otorisasi pada permintaan Java untuk memuat konten HTML dari URL dengan Aspose.HTML.
 
 ## Mengonversi ZIP ke JPG dan PDF
- Pernahkah Anda perlu mengekstrak gambar dari file terkompresi dengan cepat?[Konversi ZIP ke JPG menggunakan Aspose.HTML untuk Java](./zip-to-jpg/) Dan[Konversi ZIP ke PDF dengan Aspose.HTML untuk Java](./zip-to-pdf/) tutorial menyediakan alat untuk tugas-tugas khusus ini. Mengonversi file tidak harus menjadi proses yang rumit—bisa semudah mengubah sketsa menjadi sebuah mahakarya. Panduan ini menguraikan langkah-langkah untuk membantu Anda mengonversi file ZIP secara efisien, memamerkan fleksibilitas Aspose.HTML untuk Java.
+ Pernahkah Anda perlu mengekstrak gambar dari file terkompresi dengan cepat?[Konversi ZIP ke JPG menggunakan Aspose.HTML untuk Java](./zip-to-jpg/) Dan[Konversi ZIP ke PDF dengan Aspose.HTML untuk Java](./zip-to-pdf/) tutorial menyediakan alat untuk tugas-tugas khusus ini. Mengonversi file tidak harus menjadi proses yang rumit—bisa semudah mengubah sketsa menjadi sebuah mahakarya. Panduan ini menguraikan langkah-langkah untuk membantu Anda mengkonversi file ZIP secara efisien, memamerkan fleksibilitas Aspose.HTML untuk Java.
 
 ## Penanganan Pesan dan Jaringan di Aspose.HTML untuk Tutorial Java
 ### [Penanganan Pipeline Kredensial di Aspose.HTML untuk Java](./credentials-pipeline/)
@@ -60,6 +60,9 @@ Pelajari cara mengamankan permintaan HTTP menggunakan HttpClient di Java 11 den
 Pelajari cara melakukan permintaan API dengan Java menggunakan Aspose HTML V8, termasuk contoh lengkap dan teknik penanganan respons.
 ### [Mengambil JSON JavaScript di Java dengan Aspose HTML – Panduan Lengkap](./fetch-json-javascript-in-java-with-aspose-html-complete-guid/)
 Pelajari cara mengambil data JSON menggunakan JavaScript di Java dengan Aspose HTML dalam panduan lengkap ini.
+### [Mengatur User Agent Kustom di Java – Tutorial Memuat Halaman Web dalam Sandbox](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
+Pelajari cara mengatur user agent khusus di Java untuk memuat halaman web dalam sandbox menggunakan Aspose.HTML.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -124,6 +124,8 @@ Leer hoe u Markdown naar HTML converteert in Java met een gedetailleerde stap‑
 Leer hoe u HTML in Java kunt laden en vergelijken tussen XPath- en CSS-selectoren voor efficiënte gegevensextractie.
 ### [Hoe xpath in Java met Aspose te query'en – Stapsgewijze handleiding](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
 Leer hoe u xpath‑query's uitvoert in Java met Aspose via een gedetailleerde stap‑voor‑stap handleiding.
+### [Meerdere threads uitvoeren in Java – try-with-resources gebruiken](./run-multiple-threads-java-use-try-with-resources-java/)
+Leer hoe u meerdere threads in Java kunt uitvoeren en resources veilig beheert met try-with-resources.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

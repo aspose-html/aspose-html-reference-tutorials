@@ -147,6 +147,8 @@ Learn how to set custom page sizes and margins when converting HTML to PDF in Ja
 ### [Create PDF from HTML in Java – Batch Conversion Guide](./create-pdf-from-html-in-java-batch-conversion-guide/)
 Learn how to batch convert multiple HTML files to PDF in Java using Aspose.HTML, improving efficiency for large‑scale document processing.
 ### [Set PDF Page Size with Aspose HTML to PDF in Java](./set-pdf-page-size-with-aspose-html-to-pdf-in-java/)
+### [aspose html to pdf in Java – Add Page Margins & PDF/A‑2b](./aspose-html-to-pdf-in-java-add-page-margins-pdf-a-2b/)
+Learn how to add custom page margins and generate PDF/A‑2b compliant PDFs using Aspose.HTML for Java.
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 Effortlessly convert HTML to MHTML using Aspose.HTML for Java. Follow our step-by-step guide for efficient HTML-to-MHTML conversion.
 

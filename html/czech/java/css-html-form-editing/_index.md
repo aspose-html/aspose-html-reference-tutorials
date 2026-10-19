@@ -95,6 +95,8 @@ Naučte se, jak pomocí Aspose.HTML v Javě získat vypočtené CSS styly prvků
 ### [Jak získat styl v Aspose.HTML pro Javu – Použijte query selector](./how-to-get-style-in-aspose-html-java-use-query-selector/)
 Naučte se pomocí query selectoru v Aspose.HTML pro Javu získat a upravit CSS styly elementů.
 
+### [Jak číst CSS v Javě – získat vypočtený styl](./how-to-read-css-in-java-get-computed-style/)
+Naučte se pomocí Aspose.HTML pro Javu získat vypočtené styly CSS z HTML dokumentu.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

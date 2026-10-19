@@ -58,6 +58,8 @@ Learn how to fetch APIs in Java using Aspose HTML V8 engine with this comprehens
 Learn how to fetch JSON via JavaScript in Java using Aspose.HTML in this complete, step-by-step guide.
 ### [Set Authorization Header in Java – Complete Guide to Load HTML from URL](./set-authorization-header-in-java-complete-guide-to-load-html/)
 Learn how to set the Authorization header in Java to load HTML from a URL using Aspose.HTML in this complete guide.
+### [Set custom user agent in Java – Load webpage in sandbox tutorial](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
+Learn how to set a custom user agent in Aspose.HTML for Java to load webpages within a sandbox environment.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

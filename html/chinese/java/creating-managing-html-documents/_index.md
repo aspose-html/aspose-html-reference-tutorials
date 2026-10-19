@@ -138,6 +138,8 @@ Aspose.HTML for Java 为开发人员提供了功能强大的工具包，旨在�
 学习如何在 Aspose.HTML for Java 中执行 JavaScript，运行脚本并向 HTML 文档追加元素。
 ### [使用 Java ExecutorService 创建 HTML 元素 – 线程安全演示](./create-html-element-with-java-executorservice-thread-safe-de/)
 演示如何在 Aspose.HTML for Java 中使用 ExecutorService 安全地创建 HTML 元素，确保多线程环境下的线程安全。
+### [在 Java 中运行多个线程 – 使用 try-with-resources](./run-multiple-threads-java-use-try-with-resources-java/)
+了解如何在 Java 中使用 try-with-resources 管理资源，同时运行多个线程，实现安全高效的并发处理。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

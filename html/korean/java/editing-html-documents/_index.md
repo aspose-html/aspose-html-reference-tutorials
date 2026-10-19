@@ -71,6 +71,7 @@ Aspose.HTML for Java를 사용해 HTML 문서에서 스크립트를 안전하게
 ### [HTML 강조하기 – 텍스트 검색 및 <mark>로 교체](./how-to-highlight-html-search-text-replace-with-mark/)
 ### [Java용 Aspose.HTML에서 자동 잠금 해제 – 스레드 안전 HTML 편집 튜토리얼](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
 동시성 문제를 방지하기 위해 자동 잠금 해제 메커니즘을 구현하고 안전하게 HTML을 편집하는 방법을 단계별로 안내합니다.
+### [Java에서 HTML 추출 – 텍스트 추출 및 단어 강조](./how-to-extract-html-in-java-extract-text-highlight-words/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

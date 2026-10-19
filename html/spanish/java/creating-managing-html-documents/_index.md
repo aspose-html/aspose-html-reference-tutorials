@@ -130,6 +130,8 @@ Aprenda a iterar sobre NodeList en Java con Aspose.HTML mediante esta guía paso
 Aprenda a ejecutar código JavaScript asincrónico desde Java y actualizar el HTML dinámicamente.
 ### [Ejecutar JavaScript en Java – Ejecutar JS en HTML y agregar elementos](./execute-javascript-java-run-js-on-html-append-elements/)
 Aprenda a ejecutar código JavaScript en documentos HTML con Aspose.HTML para Java y a añadir elementos dinámicamente.
+### [Ejecutar varios hilos en Java – usar try with resources en Java](./run-multiple-threads-java-use-try-with-resources-java/)
+Aprenda a ejecutar múltiples hilos en Java utilizando la instrucción try with resources para una gestión segura de recursos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

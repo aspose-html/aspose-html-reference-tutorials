@@ -130,6 +130,8 @@ url: /ar/java/creating-managing-html-documents/
 تعلم كيفية إنشاء عنصر HTML بأمان في بيئة متعددة الخيوط باستخدام ExecutorService في Java مع Aspose.HTML.
 ### [كيفية الاستعلام عن XPath في Java باستخدام Aspose – دليل خطوة بخطوة](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
 تعلم كيفية استخدام XPath لاستعلام مستندات HTML في Java باستخدام Aspose من خلال دليل شامل خطوة بخطوة.
+### [تشغيل عدة خيوط في Java – استخدام try-with-resources في Java](./run-multiple-threads-java-use-try-with-resources-java/)
+اكتشف كيفية تشغيل عدة خيوط في Java وإدارة الموارد باستخدام عبارة try‑with‑resources لضمان إغلاق الموارد بشكل آمن.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

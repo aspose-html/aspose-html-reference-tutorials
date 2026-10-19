@@ -80,6 +80,8 @@ Pelajari cara mengekstrak teks dari dokumen HTML menggunakan Aspose.HTML untuk J
 Pelajari cara mengeksekusi JavaScript dalam aplikasi Java, menjalankan skrip pada dokumen HTML, dan menambahkan elemen secara dinamis.
 ### [Buat Elemen HTML dengan Java ExecutorService – Demo Thread‑Safe](./create-html-element-with-java-executorservice-thread-safe-de/)
 Pelajari cara membuat elemen HTML secara aman dalam lingkungan multithread menggunakan ExecutorService di Java dengan contoh langkah demi langkah.
+### [Jalankan Banyak Thread di Java – Gunakan Try With Resources di Java](./run-multiple-threads-java-use-try-with-resources-java/)
+Pelajari cara menjalankan beberapa thread secara bersamaan di Java sambil mengelola sumber daya dengan try‑with‑resources untuk kode yang bersih dan aman.
 ### [Cara Menanyakan HTML di Java – Tutorial Lengkap](./how-to-query-html-in-java-complete-tutorial/)
 ### [Cara Mengurai HTML di Java – Memuat, Menanyakan & Menghitung Elemen](./how-to-parse-html-java-load-query-count-elements/)
 ### [Jalankan JavaScript Asinkron di Java – Panduan Lengkap Langkah‑per‑Langkah](./execute-async-javascript-in-java-complete-step-by-step-guide/)

@@ -73,6 +73,8 @@ url: /ru/java/editing-html-documents/
 Узнайте, как искать определённый текст в HTML‑документе и заменять его тегом <mark> с помощью Aspose.HTML для Java.
 ### [Автоматическое освобождение блокировки в Java – Руководство по потокобезопасному редактированию HTML](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
 Узнайте, как автоматически освобождать блокировки при потокобезопасном редактировании HTML в Java с помощью Aspose.HTML.
+### [Как извлечь HTML в Java – извлечение текста и подсветка слов](./how-to-extract-html-in-java-extract-text-highlight-words/)
+Узнайте, как извлекать HTML в Java, получать текст из документа и подсвечивать выбранные слова с помощью Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

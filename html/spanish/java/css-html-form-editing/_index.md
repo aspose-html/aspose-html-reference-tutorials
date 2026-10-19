@@ -99,6 +99,8 @@ Aprenda a obtener la propiedad CSS de color de fondo de un elemento usando Aspos
 Aprenda a obtener los estilos computados de elementos HTML en Java usando Aspose.HTML, con ejemplos claros y paso a paso.
 ### [Cómo obtener estilo en Aspose HTML Java – Usar selector de consultas](./how-to-get-style-in-aspose-html-java-use-query-selector/)
 Aprenda a extraer estilos CSS de elementos HTML en Java con Aspose.HTML usando el método querySelector.
+### [Cómo leer CSS en Java – Obtener estilo computado](./how-to-read-css-in-java-get-computed-style/)
+Aprenda a obtener el estilo computado de elementos CSS en Java usando Aspose.HTML, con ejemplos claros y paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

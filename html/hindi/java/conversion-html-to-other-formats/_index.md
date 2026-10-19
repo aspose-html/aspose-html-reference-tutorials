@@ -269,6 +269,9 @@ Aspose.HTML for Java का उपयोग करके पेज आकार 
 ### [Aspose HTML to PDF के साथ PDF पेज आकार सेट करें Java में](./set-pdf-page-size-with-aspose-html-to-pdf-in-java/)
 Aspose.HTML for Java का उपयोग करके PDF पेज आकार सेट करने की प्रक्रिया सीखें। कस्टम साइज के साथ PDF बनाएं।
 
+### [Java में Aspose HTML को PDF में बदलें – पेज मार्जिन जोड़ें और PDF/A‑2b](./aspose-html-to-pdf-in-java-add-page-margins-pdf-a-2b/)
+Java में Aspose.HTML का उपयोग करके पेज मार्जिन सेट करें और PDF/A‑2b मानक के साथ PDF बनाएं।
+
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **Q: क्या मैं Aspose.HTML for Java को व्यावसायिक एप्लिकेशन में उपयोग कर सकता हूँ?**  

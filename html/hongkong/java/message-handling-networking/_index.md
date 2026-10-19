@@ -58,6 +58,7 @@ Aspose.HTML for Java 是用於管理和操作 HTML 文件的強大工具包，�
 ### [在 Java 中設定授權標頭 – 完整指南：從 URL 載入 HTML](./set-authorization-header-in-java-complete-guide-to-load-html/)
 本完整指南說明如何在 Java 中設定授權標頭，以從 URL 載入 HTML，確保安全存取。
 ### [在 Aspose.HTML for Java 中抓取 JSON JavaScript – 完整指南](./fetch-json-javascript-in-java-with-aspose-html-complete-guid/)
+### [在 Java 中設定自訂使用者代理 – 在沙盒中載入網頁教學](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

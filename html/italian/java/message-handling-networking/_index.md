@@ -58,6 +58,7 @@ Scopri come utilizzare l'API Fetch in Java con Aspose HTML V8 per recuperare c
 Scopri come recuperare dati JSON tramite JavaScript in Java usando Aspose HTML, passo dopo passo, con esempi pratici.
 ### [Impostare l'intestazione di autorizzazione in Java – Guida completa per caricare HTML da URL](./set-authorization-header-in-java-complete-guide-to-load-html/)
 Scopri come impostare l'intestazione di autorizzazione per caricare pagine HTML da URL usando Aspose.HTML per Java.
+### [Imposta user agent personalizzato in Java – Carica pagina web in sandbox](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

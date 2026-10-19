@@ -46,7 +46,7 @@ Dưới đây bạn sẽ tìm thấy các hướng dẫn ngắn gọn từng bư
 Tạo một thể hiện `HtmlRenderer` và tải nguồn HTML (tệp, URL, hoặc chuỗi).
 
 ### Bước 2: Chọn định dạng hình ảnh mong muốn
-Chọn một trong các lớp con của `ImageSaveOptions` – `GifSaveOptions`, `JpegSaveOptions`, `PngSaveOptions`, v.v.
+Chọn một trong các lớp con của `ImageSaveOptions` – `GifSaveOptions`, `JpegSaveOptions`, `PngSaveOptions`, v.t.
 
 ### Bước 3: Render và lưu
 Gọi `renderer.renderToFile(outputPath, saveOptions)` để tạo hình ảnh.
@@ -102,6 +102,7 @@ Hướng dẫn cách thiết lập DPI khi chuyển đổi HTML sang PNG bằng 
 Hướng dẫn chi tiết cách lưu trang HTML thành tệp PNG trong Java bằng Aspose.HTML, bao gồm các bước cấu hình và mã mẫu.
 ### [Chuyển đổi HTML sang PNG – Hướng dẫn đầy đủ với màu nền & độ phân giải](./convert-html-to-png-full-guide-with-background-color-resolut/)
 Hướng dẫn chi tiết cách chuyển đổi HTML sang PNG với tùy chỉnh màu nền và độ phân giải, sử dụng Aspose.HTML for Java.
+### [convert html to png – Hướng dẫn Java chuyển đổi bảng HTML thành hình ảnh](./convert-html-to-png-java-guide-to-rendering-html-tables-as-i/)
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
 Tìm hiểu cách dễ dàng convert HTML to TIFF bằng Aspose.HTML for Java. Hướng dẫn từng bước cho việc xử lý tài liệu hiệu quả.
 ### [Cách tạo thumbnail từ HTML – Hướng dẫn Java](./how-to-generate-thumbnail-from-html-java-guide/)

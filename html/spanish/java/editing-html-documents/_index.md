@@ -75,6 +75,8 @@ Aprenda a agregar nodos hijos al DOM en Java usando Aspose.HTML con esta guía p
 Aprenda a eliminar scripts de documentos HTML usando Aspose.HTML para Java. Guía paso a paso para limpiar su contenido de forma segura.
 ### [Liberación automática de bloqueo en Java – Tutorial de edición HTML segura para subprocesos](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
 Aprenda a liberar bloqueos automáticamente al editar HTML de forma segura en entornos multihilo con Aspose.HTML para Java.
+### [Cómo extraer HTML en Java – Extraer texto y resaltar palabras](./how-to-extract-html-in-java-extract-text-highlight-words/)
+Descubra cómo extraer texto de documentos HTML y resaltar palabras clave usando Aspose.HTML para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

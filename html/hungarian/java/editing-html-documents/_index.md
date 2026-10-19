@@ -47,7 +47,7 @@ Néha a stílusokat közvetlenül a HTML-dokumentumban kell alkalmazni. Itt jön
 ### [Szerkessze a HTML-dokumentumfát az Aspose.HTML for Java-ban](./edit-html-document-tree/)
 Fedezze fel, hogyan kezelhet HTML-dokumentumokat az Aspose.HTML for Java használatával. Lépésről lépésre szóló útmutató a hatékony tartalomkezeléshez.
 ### [Fejlett HTML-dokumentumfa-szerkesztés az Aspose.HTML for Java-ban](./advanced-html-document-tree-editing/)
-Fedezze fel, hogyan szerkeszthet HTML-dokumentumokat az Aspose.HTML for Java használatával ezzel a lépésenkénti útmutatóval, beleértve a stílusok, bekezdések létrehozását és a PDF-be konvertálást.
+Fedezze fel, hogyan szerkeszthet HTML-dokumentumokat az Aspose.HTML for Java használatával ezzel a lépésről lépésre útmutatóval, beleértve a stílusok, bekezdések létrehozását és a PDF-be konvertálást.
 ### [Alkalmazzon külső CSS-t a HTML-dokumentumokra az Aspose.HTML for Java-ban](./apply-external-css-html-documents/)
 Fedezze fel, hogyan alkalmazhat külső CSS-t HTML-dokumentumokra az Aspose.HTML for Java használatával! Kövesse ezt a lépésről lépésre szóló útmutatót a teljes oktatóanyaghoz.
 ### [Fejlett külső CSS-szerkesztés az Aspose.HTML for Java segítségével](./advanced-external-css-editing/)
@@ -75,6 +75,8 @@ Fedezze fel, hogyan adhat hozzá gyermek elemet a Java DOM-hoz az Aspose.HTML ha
 ### [Automatikus zár feloldása Java-ban – Szálbiztos HTML szerkesztési útmutató](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
 Ismerje meg, hogyan oldhatja fel automatikusan a zárakat Java-ban a szálbiztos HTML szerkesztéshez.
 
+### [HTML kinyerése Java-ban – Szöveg kinyerése és szavak kiemelése](./how-to-extract-html-in-java-extract-text-highlight-words/)
+Ismerje meg, hogyan nyerhet ki HTML-t Java-ban, szöveget és kiemelheti a szavakat egy egyszerű, lépésről lépésre útmutatóval.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

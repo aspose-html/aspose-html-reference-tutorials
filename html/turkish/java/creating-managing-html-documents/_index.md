@@ -134,6 +134,8 @@ Java için Aspose.HTML kullanarak bir HTML belgesinin sayfa başlığını hızl
 Java için Aspose.HTML kullanarak HTML içinde JavaScript çalıştırın ve yeni öğeler ekleyin. Adım adım kılavuz.
 ### [Java için Aspose.HTML'de xpath sorgulama – Adım adım kılavuz](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
 Java için Aspose.HTML kullanarak xpath sorgulama yöntemlerini adım adım öğrenin.
+### [Java'da birden fazla iş parçacığı çalıştırma – try-with-resources kullanma](./run-multiple-threads-java-use-try-with-resources-java/)
+Java'da birden fazla iş parçacığını yönetirken try-with-resources yapısını nasıl kullanacağınızı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

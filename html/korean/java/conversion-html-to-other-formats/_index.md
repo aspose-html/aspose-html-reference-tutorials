@@ -206,6 +206,8 @@ Aspose.HTML를 사용하여 MHTML을 PDF로 변환하면서 이미지가 올바�
 ### [java 스레드 풀 튜토리얼 – 다중 HTML 파일을 PDF로 변환](./java-thread-pool-tutorial-convert-multiple-html-files-to-pdf/)
 ### [Java에서 HTML을 PDF로 만들기 – HTML을 PDF로 변환](./create-pdf-from-html-in-java-convert-html-to-pdf-java/)
 Aspose.HTML를 활용해 Java에서 HTML을 PDF로 변환하는 과정을 자세히 배웁니다.
+### [Aspose HTML을 Java에서 PDF로 변환 – 페이지 여백 및 PDF/A‑2b 적용](./aspose-html-to-pdf-in-java-add-page-margins-pdf-a-2b/)
+Aspose.HTML for Java를 사용해 페이지 여백을 설정하고 PDF/A‑2b 표준을 적용하여 PDF를 생성하는 방법을 단계별로 안내합니다.
 
 ### [Aspose HTML을 사용하여 PDF 페이지 크기 설정 – 전체 Java 가이드](./set-pdf-page-size-with-aspose-html-full-java-guide/)
 Aspose.HTML를 사용하여 Java에서 PDF 페이지 크기를 설정하는 전체 단계별 가이드를 제공합니다.

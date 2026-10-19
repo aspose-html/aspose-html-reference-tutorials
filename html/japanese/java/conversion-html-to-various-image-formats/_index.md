@@ -115,6 +115,8 @@ Aspose.HTML for Java を使用して HTML を PNG にレンダリングする完
 ### [HTML を PNG に変換 – 背景色と解像度を設定した完全ガイド](./convert-html-to-png-full-guide-with-background-color-resolut/)
 背景色と解像度を指定して、HTML を高品質な PNG 画像に変換する手順を詳しく解説します。
 ### [SVG を高解像度 PNG に変換 – Java ガイド](./convert-svg-to-png-with-high-resolution-java-guide/)
+### [HTML を PNG に変換 – HTML テーブルを画像としてレンダリングする Java ガイド](./convert-html-to-png-java-guide-to-rendering-html-tables-as-i/)
+Aspose.HTML for Java を使用して HTML テーブルを PNG 画像に変換する方法を学びます。ステップバイステップのガイドです。
 
 ### [HTML を TIFF に変換](./convert-html-to-tiff/)
 Aspose.HTML for Java を使用して HTML を TIFF に簡単に変換する方法を学びます。効率的なドキュメント処理のためのステップバイステップガイドです。

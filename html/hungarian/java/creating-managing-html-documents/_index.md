@@ -125,6 +125,8 @@ Fedezze fel, hogyan tölthet be HTML-t Java alkalmazásba részletes, lépésrő
 Ismerje meg, hogyan futtathat JavaScript‑et Java‑alkalmazásban, módosíthatja a HTML‑t és új elemeket adhat hozzá dinamikusan.
 ### [HTML elem létrehozása Java ExecutorService‑vel – Szálbiztos bemutató](./create-html-element-with-java-executorservice-thread-safe-de/)
 Ismerje meg, hogyan hozhat létre szálbiztos HTML elemeket Java ExecutorService használatával, lépésről lépésre bemutató.
+### [Futtasson több szálat Java-ban – használja a try‑with‑resources-t](./run-multiple-threads-java-use-try-with-resources-java/)
+Ismerje meg, hogyan kezelhet több szálat Java-ban a try‑with‑resources szerkezettel a biztonságos erőforrás-kezelés érdekében.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

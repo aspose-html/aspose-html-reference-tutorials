@@ -134,6 +134,8 @@ Learn how to convert HTML to PNG images in Java with Aspose.HTML. A comprehensiv
 ### [تحويل SVG إلى PNG بدقة عالية – دليل Java](./convert-svg-to-png-with-high-resolution-java-guide/)
 تعلم كيفية تحويل ملفات SVG إلى صور PNG بدقة عالية باستخدام Aspose.HTML للغة Java مع أمثلة شفرة بسيطة.
 
+### [تحويل HTML إلى PNG – دليل Java لتصوير جداول HTML كصور](./convert-html-to-png-java-guide-to-rendering-html-tables-as-i/)
+تعلم كيفية تحويل جداول HTML إلى صور PNG في Java باستخدام Aspose.HTML. دليل خطوة بخطوة.
 ### [تحويل HTML إلى TIFF](./convert-html-to-tiff/)
 Learn how to easily convert HTML to TIFF using Aspose.HTML for Java. Step-by-step guide for efficient document handling.
 

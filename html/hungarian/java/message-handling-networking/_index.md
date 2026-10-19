@@ -51,7 +51,6 @@ Ezzel az átfogó, lépésenkénti útmutatóval megtudhatja, hogyan hajthat vé
 ### [Konvertálja a ZIP-t JPG-be az Aspose.HTML for Java segítségével](./zip-to-jpg/)
 Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan konvertálhat ZIP-fájlokat JPG-képekké az Aspose.HTML for Java használatával.
 ### [Konvertálja a ZIP-t PDF-be az Aspose.HTML for Java segítségével](./zip-to-pdf/)
-Könnyen konvertálhatja ZIP-fájljait PDF-be az Aspose.HTML for Java segítségével ezzel a lépésről lépésre szóló útmutatóval.
 ### [java 11 httpclient authenticator – Teljes útmutató a biztonságos kérésekhez](./java-11-httpclient-authenticator-complete-guide-to-secure-re/)
 Fedezze fel, hogyan használhatja a Java 11 HttpClient authenticator-t a biztonságos HTTP kérésekhez, lépésről lépésre útmutatóval.
 ### [API lekérése Java-ban – Teljes útmutató az Aspose HTML V8 motor használatával](./how-to-fetch-api-in-java-complete-guide-using-aspose-html-v8/)
@@ -59,6 +58,8 @@ Fedezze fel, hogyan hívhat meg API-kat Java-ban az Aspose HTML V8 motor segí
 ### [JSON lekérése JavaScriptből Java-ban az Aspose HTML segítségével – Teljes útmutató](./fetch-json-javascript-in-java-with-aspose-html-complete-guid/)
 Ismerje meg, hogyan lehet Java-ban JSON adatot lekérni JavaScriptből az Aspose HTML könyvtár használatával.
 
+### [Egyéni felhasználói ügynök beállítása Java-ban – Weboldal betöltése sandboxban](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
+Ismerje meg, hogyan állíthat be egyedi felhasználói ügynököt Java-ban, és hogyan tölthet be weboldalakat biztonságos sandbox környezetben.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

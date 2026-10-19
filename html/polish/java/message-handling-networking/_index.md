@@ -57,6 +57,8 @@ Poznaj, jak wykonywać żądania HTTP w Javie przy pomocy Fetch API i silnika As
 Dowiedz się, jak pobierać i przetwarzać dane JSON w aplikacjach Java przy użyciu Aspose HTML, krok po kroku.
 ### [Ustaw nagłówek autoryzacji w Javie – Kompletny przewodnik ładowania HTML z URL](./set-authorization-header-in-java-complete-guide-to-load-html/)
 Dowiedz się, jak ustawić nagłówek autoryzacji w Javie, aby pobierać i wyświetlać strony HTML z zabezpieczonych adresów URL.
+### [Ustaw niestandardowy user agent w Javie – Ładowanie strony w piaskownicy](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
+Dowiedz się, jak ustawić własny user‑agent przy ładowaniu stron w trybie piaskownicy przy użyciu Aspose.HTML dla Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

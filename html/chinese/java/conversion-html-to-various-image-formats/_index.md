@@ -38,7 +38,7 @@ weight: 24
 - Aspose.HTML for Java JAR（从 Aspose 网站下载）。  
 - 生产环境的有效 Aspose.HTML 许可证（试用可选）。  
 
-## 如何使用 Aspose.HTML **convert html gif**、**convert html jpeg** 和 **convert html png**
+## 如何使用 Aspose.HTML **convert html gif**, **convert html jpeg** 和 **convert html png**
 以下是每种目标格式的简明分步说明。代码片段除输出文件扩展名外完全相同；只需更改 `ImageSaveOptions` 的格式即可。
 
 ### 步骤 1：设置 HTML 渲染器
@@ -121,6 +121,9 @@ weight: 24
 
 ### [将 HTML 转换为 PNG – 完整指南：背景颜色与分辨率](./convert-html-to-png-full-guide-with-background-color-resolut/)
 完整指南，演示如何在 Java 中使用 Aspose.HTML 将 HTML 转换为 PNG，并自定义背景颜色和分辨率。
+
+### [将 HTML 转换为 PNG – Java 指南：将 HTML 表格渲染为图像](./convert-html-to-png-java-guide-to-rendering-html-tables-as-i/)
+学习如何使用 Aspose.HTML for Java 将包含表格的 HTML 页面渲染为 PNG 图像，提供完整代码示例。
 
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
 

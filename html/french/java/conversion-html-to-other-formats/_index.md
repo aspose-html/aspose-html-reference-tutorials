@@ -126,9 +126,6 @@ Générez rapidement un PDF à partir de HTML en une seule ligne de code avec As
 ### [Convertir HTML en PDF en Java – Guide complet du sandbox](./convert-html-to-pdf-in-java-full-sandbox-guide/)
 Apprenez à convertir HTML en PDF en Java avec Aspose.HTML dans un environnement sandbox complet, étape par étape.
 
-### [Créer un PDF à partir de HTML en Java – Guide étape par étape](./create-pdf-from-html-in-java-step-by-step-guide/)
-Apprenez à créer un PDF à partir de HTML en Java avec Aspose.HTML. Suivez le guide complet étape par étape pour des résultats précis.
-
 ### [Créer un PDF à partir de HTML en Java – Guide de conversion par lots](./create-pdf-from-html-in-java-batch-conversion-guide/)
 Apprenez à convertir plusieurs fichiers HTML en PDF en Java grâce à un processus de conversion par lots efficace.
 
@@ -173,6 +170,9 @@ Apprenez à convertir HTML en PDF en Java avec des tailles de page et des marges
 
 ### [Définir la taille de page PDF avec Aspose HTML to PDF en Java](./set-pdf-page-size-with-aspose-html-to-pdf-in-java/)
 Apprenez à définir la taille de page du PDF lors de la conversion HTML en PDF avec Aspose.HTML en Java.
+
+### [Créer un PDF à partir de HTML en Java – Guide étape par étape](./create-pdf-from-html-in-java-step-by-step-guide/)
+Apprenez à générer un PDF à partir de HTML en Java avec Aspose.HTML, en suivant chaque étape pour une conversion précise et personnalisable.
 
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 Convertissez facilement HTML en MHTML avec Aspose.HTML for Java. Suivez notre guide étape par étape pour une conversion HTML‑vers‑MHTML efficace.
@@ -315,6 +315,9 @@ Apprenez à utiliser un pool de threads en Java pour convertir simultanément pl
 
 ### [Créer un PDF à partir de HTML en Java – Convertir HTML en PDF Java](./create-pdf-from-html-in-java-convert-html-to-pdf-java/)
 Générez un PDF à partir de HTML en Java avec Aspose.HTML. Suivez les étapes pour une conversion précise et personnalisable.
+
+### [Aspose HTML vers PDF en Java – Ajouter des marges de page et PDF/A‑2b](./aspose-html-to-pdf-in-java-add-page-margins-pdf-a-2b/)
+Apprenez à ajouter des marges de page et à générer des PDF conformes à la norme PDF/A‑2b lors de la conversion HTML en PDF avec Aspose.HTML for Java.
 
 ## Foire aux questions
 

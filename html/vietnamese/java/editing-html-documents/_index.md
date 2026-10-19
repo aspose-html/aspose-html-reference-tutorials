@@ -74,6 +74,8 @@ Hướng dẫn tìm và thay thế văn bản trong HTML bằng thẻ <mark> đ�
 Hướng dẫn chi tiết cách xóa các thẻ script khỏi tài liệu HTML bằng Java, bảo vệ bảo mật và tối ưu hiệu suất.
 ### [Giải phóng khóa tự động trong Java – Hướng dẫn chỉnh sửa HTML an toàn đa luồng](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
 Học cách tự động giải phóng khóa trong Java để chỉnh sửa HTML một cách an toàn khi đa luồng.
+### [Cách trích xuất HTML trong Java – Trích xuất văn bản & Đánh dấu từ](./how-to-extract-html-in-java-extract-text-highlight-words/)
+Hướng dẫn cách sử dụng Aspose.HTML cho Java để trích xuất nội dung HTML, lấy văn bản và làm nổi bật các từ khóa.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

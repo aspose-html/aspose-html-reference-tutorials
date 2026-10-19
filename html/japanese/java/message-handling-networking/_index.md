@@ -56,6 +56,7 @@ Java 11 の HttpClient 認証機能を活用し、安全な HTTP リクエスト
 ### [Aspose.HTML を使用した Java での JSON（JavaScript）取得 – 完全ガイド](./fetch-json-javascript-in-java-with-aspose-html-complete-guid/)
 この包括的なガイドでは、Aspose HTML を利用して Java から JavaScript の JSON データを取得する方法をステップバイステップで解説します。
 ### [Aspose.HTML を使用した Java で認証ヘッダーを設定する – URL から HTML をロードする完全ガイド](./set-authorization-header-in-java-complete-guide-to-load-html/)
+### [Java でカスタムユーザーエージェントを設定 – サンドボックスでウェブページをロードするチュートリアル](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

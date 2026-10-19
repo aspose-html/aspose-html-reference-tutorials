@@ -123,6 +123,8 @@ Học cách thực thi JavaScript trong Java, chạy mã JS trên tài liệu HT
 Tạo phần tử HTML một cách an toàn đa luồng bằng ExecutorService trong Java.
 ### [Cách truy vấn xpath trong Java với Aspose – Hướng dẫn từng bước](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
 Khám phá cách truy vấn xpath trong tài liệu HTML bằng Java và Aspose.HTML qua hướng dẫn chi tiết, từng bước một.
+### [Chạy đa luồng Java – sử dụng try‑with‑resources Java](./run-multiple-threads-java-use-try-with-resources-java/)
+Hướng dẫn cách chạy đa luồng trong Java đồng thời sử dụng try‑with‑resources để quản lý tài nguyên một cách an toàn.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

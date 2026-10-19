@@ -57,6 +57,9 @@ Leer hoe u met Aspose HTML V8 API‑verzoeken in Java kunt uitvoeren en gegeve
 Leer hoe u de Authorization-header in Java instelt om HTML van een URL te laden met Aspose.HTML.
 ### [JSON ophalen met JavaScript in Java met Aspose HTML – Complete gids](./fetch-json-javascript-in-java-with-aspose-html-complete-guid/)
 Leer hoe u JSON-gegevens via JavaScript in Java kunt ophalen en verwerken met Aspose HTML.
+### [Aangepaste user-agent instellen in Java – Webpagina laden in sandbox-tutorial](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
+Leer hoe u een aangepaste user-agent instelt en een webpagina laadt in een sandbox-omgeving met Aspose.HTML voor Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

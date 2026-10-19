@@ -141,6 +141,8 @@ Lär dig hur du konverterar Markdown till HTML i Java med Aspose.HTML genom en k
 Lär dig hur du kör JavaScript i en Java‑applikation, manipulerar HTML och lägger till element dynamiskt.
 ### [Skapa HTML-element med Java ExecutorService – Trådsäker demo](./create-html-element-with-java-executorservice-thread-safe-de/)
 Lär dig hur du skapar HTML-element på ett trådsäkert sätt med Java ExecutorService i Aspose.HTML.
+### [Kör flera trådar i Java – använd try‑with‑resources i Java](./run-multiple-threads-java-use-try-with-resources-java/)
+Lär dig hur du kör flera trådar i Java samtidigt som du använder try‑with‑resources för automatisk resurshantering.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -97,6 +97,8 @@ Dowiedz się, jak w Javie odczytać wartość właściwości CSS, taką jak kolo
 Dowiedz się, jak pobrać obliczone style CSS elementów w Javie przy użyciu Aspose.HTML, aby dynamicznie analizować wygląd stron.
 ### [Jak uzyskać styl w Aspose HTML Java – użyj selektora zapytań](./how-to-get-style-in-aspose-html-java-use-query-selector/)
 Dowiedz się, jak programowo pobierać style elementów HTML w Aspose.HTML for Java przy użyciu metody querySelector.
+### [Jak odczytać CSS w Javie – pobieranie stylu obliczonego](./how-to-read-css-in-java-get-computed-style/)
+Dowiedz się, jak w Javie odczytać style CSS i uzyskać styl obliczony przy użyciu Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
