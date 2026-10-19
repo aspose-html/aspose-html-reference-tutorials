@@ -1,9 +1,9 @@
 ---
-date: 2026-01-07
-description: Aspose.HTML for Java を使用して、EPUB を XPS に簡単に変換しましょう。このシームレスな変換プロセスのために、ステップバイステップのガイドに従ってください。
+date: 2026-03-29
+description: Aspose.HTML for Java を使用して、EPUB を XPS に簡単に変換する方法を学びましょう。シームレスな変換プロセスのためのステップバイステップガイドに従ってください。
 linktitle: How to Convert EPUB to XPS with a Custom Stream Provider
 second_title: Java HTML Processing with Aspose.HTML
-title: カスタムストリームプロバイダーを使用してEPUBをXPSに変換する方法
+title: カスタムストリームプロバイダーでEPUBをXPSに変換する方法
 url: /ja/java/converting-epub-to-xps/convert-epub-to-xps-specify-custom-stream-provider/
 weight: 11
 ---
@@ -12,43 +12,46 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# カスタム ストリーム プロバイダーで EPUB を XPS に変換する
+# カスタム ストリーム プロバイダーを使用した EPUB から XPS への変換方法
 
-今日のデジタル出版の世界では、**convert EPUB to XPS** は一般的な要件です。印刷用の固定レイアウト表現やアーカイブ、Windows デバイス間での共有が必要な場合に役立ちます。Aspose.HTML for Java を使用すれば、この変換は簡単に行え、カスタム メモリ ストリーム プロバイダーを利用すれば、プロセス全体をメモリ内で完結させることができ、クラウドベースや高性能シナリオに最適です。以下に、前提条件から完全に実行可能なサンプルまで、必要な情報をすべて掲載します。
+今日のデジタル出版の世界では、**EPUB を XPS に変換する方法**は一般的な要件です――印刷用の固定レイアウト表現が必要な場合や、アーカイブ、Windows デバイス間での共有などです。Aspose.HTML for Java を使用すればこの変換は簡単に行え、カスタム メモリ ストリーム プロバイダーを利用すればプロセス全体をメモリ内に保持できるため、クラウドベースや高性能シナリオに最適です。以下では、前提条件から完全な実行可能サンプルまで、開始に必要なすべてを紹介します。
 
-## Quick Answers
-- **What does the conversion produce?** An XPS document that preserves layout and fonts.  
-- **Do I need a license?** A free trial works for testing; a commercial license is required for production.  
-- **Can I run this in a container?** Yes—no file system writes are needed if you keep everything in memory.  
-- **Which Java version is supported?** Java 8 or higher.  
-- **Is a custom stream provider mandatory?** No, but it gives you full control over memory usage and output handling.
+## クイック回答
+- **変換の結果は何ですか？** レイアウトとフォントを保持した XPS ドキュメントです。  
+- **ライセンスは必要ですか？** テストには無料トライアルで動作しますが、本番環境では商用ライセンスが必要です。  
+- **コンテナ内で実行できますか？** はい――すべてをメモリ内に保持すればファイルシステムへの書き込みは不要です。  
+- **サポートされている Java バージョンは？** Java 8 以上です。  
+- **カスタム ストリーム プロバイダーは必須ですか？** 必要ではありませんが、メモリ使用量と出力処理を完全に制御できます。
 
-## 「convert EPUB to XPS」とは？
-EPUB ファイルを XPS に変換すると、再流式の電子書籍フォーマットが、固定レイアウトでデバイスに依存しないドキュメントに変わります。XPS（XML Paper Specification）は Microsoft の PDF に相当する形式で、プラットフォーム間で見た目が変わらない忠実なビジュアル表現が必要なシナリオに最適です。
+## EPUB を XPS に変換する方法
+コードに入る前に、変換が実際に何を行うのか、そしてなぜすべてをメモリ内に保持したいのかを明確にしましょう。
 
-## カスタム ストリーム プロバイダーを使用する理由
-カスタム `MemoryStreamProvider` を使用すると、変換結果をディスクに一時ファイルとして書き出す代わりに RAM に保持できます。このアプローチの利点は次のとおりです。
-- I/O オーバーヘッドの削減  
-- サーバーレスやマイクロサービス アーキテクチャでのパフォーマンス向上  
-- 結果をクライアント、クラウド ストレージ、または別の API に直接ストリームできる柔軟性
+### 「EPUB を XPS に変換する」とは何ですか？
+EPUB ファイルを XPS に変換すると、再フロー可能な電子書籍フォーマットが固定レイアウトでデバイスに依存しないドキュメントに変換されます。XPS（XML Paper Specification）は Microsoft の PDF に相当する形式で、プラットフォーム間で変わらない忠実なビジュアル表現が必要なシナリオに最適です。
+
+### カスタム ストリーム プロバイダーを使用する理由
+カスタム `MemoryStreamProvider` を使用すると、変換結果をディスクへの一時ファイルを書き込む代わりに RAM に保持できます。このアプローチの利点は以下の通りです：
+- I/O オーバーヘッドを削減します。  
+- サーバーレスやマイクロサービスアーキテクチャでのパフォーマンスが向上します。  
+- 結果をクライアント、クラウドストレージ、または別の API に直接ストリームできる柔軟性を提供します。
 
 ## 前提条件
 
-**convert EPUB to XPS** を正常に実行するには、以下の前提条件を満たしてください。
+EPUB を XPS に **変換** するために、以下の前提条件が整っていることを確認してください：
 
-### 1. Aspose.HTML for Java ライブラリ  
+### 1. Aspose.HTML for Java ライブラリ
 
-Java 環境に Aspose.HTML for Java ライブラリをインストールし、設定しておく必要があります。まだ入手していない場合は、[download link](https://releases.aspose.com/html/java/) からダウンロードしてください。
+Java 環境に Aspose.HTML for Java ライブラリがインストールされ、設定されている必要があります。まだの場合は、[ダウンロードリンク](https://releases.aspose.com/html/java/) からライブラリをダウンロードできます。
 
-### 2. 入力 EPUB ファイル  
+### 2. 入力 EPUB ファイル
 
-変換したい既存の EPUB ファイルを用意してください。変換プロセスの開始前にこのファイルが手元にあることを確認します。
+XPS に変換したい既存の EPUB ファイルが必要です。変換プロセスのためにこのファイルが用意されていることを確認してください。
 
-前提条件が整ったので、ステップ バイ ステップで変換手順を見ていきましょう。
+前提条件がすべて揃ったので、変換手順をステップバイステップで見ていきましょう。
 
 ## パッケージのインポート
 
-Aspose.HTML for Java の機能を使用するために、必要なパッケージをインポートします。
+開始する前に、Aspose.HTML for Java の機能を使用するために必要なパッケージをインポートしてください。
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -61,7 +64,7 @@ import java.io.InputStream;
 
 ## EPUB ファイルを開く
 
-既存の EPUB ファイルを読み取るために開きます。このステップでは `FileInputStream` を使用して EPUB ファイルにアクセスします。
+まず、既存の EPUB ファイルを読み取り用に開く必要があります。このステップでは `FileInputStream` を使用して EPUB ファイルにアクセスします。
 
 ```java
 try (FileInputStream fileInputStream = new FileInputStream("path/to/your/input.epub")) {
@@ -71,7 +74,7 @@ try (FileInputStream fileInputStream = new FileInputStream("path/to/your/input.e
 
 ## MemoryStreamProvider の作成
 
-次に `MemoryStreamProvider` のインスタンスを作成します。このオブジェクトが変換結果をメモリ内に保持します。
+次に、`MemoryStreamProvider` のインスタンスを作成します。このオブジェクトは変換出力をメモリ内に保持します。
 
 ```java
 try (MemoryStreamProvider streamProvider = new MemoryStreamProvider()) {
@@ -81,7 +84,7 @@ try (MemoryStreamProvider streamProvider = new MemoryStreamProvider()) {
 
 ## EPUB を XPS に変換
 
-`Converter.convertEPUB` メソッドを使用して EPUB を XPS に変換します。`MemoryStreamProvider` が出力先ストリームとして機能します。
+現在、`Converter.convertEPUB` メソッドを使用して EPUB ファイルを XPS に変換します。`MemoryStreamProvider` が出力ストリームを提供します。
 
 ```java
 Converter.convertEPUB(
@@ -91,9 +94,9 @@ Converter.convertEPUB(
 );
 ```
 
-## 結果データの取得
+## 変換結果データの取得
 
-変換が完了したら、XPS データを含むメモリ ストリームを取得します。
+変換が完了したら、XPS データを含むメモリストリームを取得します。
 
 ```java
 InputStream inputStream = streamProvider.getStream().findFirst().get();
@@ -101,7 +104,7 @@ InputStream inputStream = streamProvider.getStream().findFirst().get();
 
 ## 出力の保存（オプション）
 
-デバッグやオフラインでの確認が必要な場合は、メモリ ストリームをディスクに書き出すことができます。多くの本番シナリオではこのステップは不要で、データを直接クライアントにストリームすれば完了です。
+物理ファイルが必要な場合（デバッグやオフライン検査のためなど）は、メモリストリームをディスクに書き込みます。ほとんどの本番シナリオではこのステップを省略し、データを直接クライアントにストリームできます。
 
 ```java
 try (FileOutputStream fileOutputStream = new FileOutputStream("path/to/your/output.xps")) {
@@ -113,7 +116,7 @@ try (FileOutputStream fileOutputStream = new FileOutputStream("path/to/your/outp
 
 ## 完全なソースコード
 
-以下は、すべての要素を組み合わせた実行可能なサンプルです。プロジェクトにコピーして自由に調整してください。
+以下は、すべての要素を組み合わせた完全な実行可能サンプルです。コピー、貼り付け、プロジェクトへの適用は自由に行ってください。
 
 ```java
         // Open an existing EPUB file for reading.
@@ -140,39 +143,39 @@ try (FileOutputStream fileOutputStream = new FileOutputStream("path/to/your/outp
 
 ## よくある問題と解決策
 
-| Issue | Why it Happens | Fix |
-|-------|----------------|-----|
-| **`java.lang.OutOfMemoryError`** | Large EPUB files may exceed default heap size when held entirely in memory. | Increase the JVM heap (`-Xmx`) or process the EPUB in chunks if possible. |
-| **Missing fonts in XPS** | Fonts not embedded in the EPUB are unavailable on the conversion machine. | Ensure the required fonts are installed on the server or embed them in the EPUB. |
-| **`UnsupportedOperationException` from `MemoryStreamProvider`** | Using an outdated Aspose.HTML version. | Update to the latest Aspose.HTML for Java release. |
+| 問題 | 発生原因 | 対策 |
+|------|----------|------|
+| **`java.lang.OutOfMemoryError`** | 大きな EPUB ファイルは、メモリ内に全体を保持するとデフォルトのヒープサイズを超える可能性があります。 | JVM ヒープ（`-Xmx`）を増やすか、可能であれば EPUB を分割して処理してください。 |
+| **Missing fonts in XPS** | EPUB に埋め込まれていないフォントは、変換マシン上で利用できません。 | 必要なフォントがサーバーにインストールされていることを確認するか、EPUB に埋め込んでください。 |
+| **`UnsupportedOperationException` from `MemoryStreamProvider`** | 古いバージョンの Aspose.HTML を使用しているためです。 | 最新の Aspose.HTML for Java リリースに更新してください。 |
 
-## Frequently Asked Questions
+## よくある質問
 
-### 1. What is EPUB?
+### 1. EPUB とは？
 
-EPUB, short for Electronic Publication, is a widely used file format for eBooks. It is designed to be easily readable on various devices, such as eReaders, tablets, and smartphones.
+EPUB（Electronic Publication の略）は、電子書籍で広く使用されているファイル形式です。eReader、タブレット、スマートフォンなど、さまざまなデバイスで簡単に読めるよう設計されています。
 
-### 2. What is XPS?
+### 2. XPS とは？
 
-XPS stands for XML Paper Specification, a document format created by Microsoft. It is used for sharing and archiving documents with a consistent appearance and layout.
+XPS は XML Paper Specification の略で、Microsoft が作成した文書形式です。外観とレイアウトが一貫したまま文書を共有・アーカイブするために使用されます。
 
-### 3. Why use Aspose.HTML for Java?
+### 3. なぜ Aspose.HTML for Java を使用するのですか？
 
-Aspose.HTML for Java is a powerful library that simplifies document manipulation, conversion, and rendering tasks. It provides extensive features and support for various document formats, making it a valuable tool for developers.
+Aspose.HTML for Java は、文書の操作、変換、レンダリング作業を簡素化する強力なライブラリです。さまざまな文書形式に対する豊富な機能とサポートを提供し、開発者にとって価値あるツールとなります。
 
-### 4. Can I convert other document formats using Aspose.HTML for Java?
+### 4. Aspose.HTML for Java で他の文書形式も変換できますか？
 
-Yes, Aspose.HTML for Java supports the conversion of various document formats, including HTML, EPUB, XPS, and more. It's a versatile tool for document management.
+はい、Aspose.HTML for Java は HTML、EPUB、XPS など、さまざまな文書形式の変換をサポートしています。文書管理において汎用性の高いツールです。
 
-### 5. Where can I find additional resources and support?
+### 5. 追加のリソースやサポートはどこで見つけられますか？
 
-For documentation and support, visit the [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/) and [support forum](https://forum.aspose.com/).
+ドキュメントとサポートについては、[Aspose.HTML for Java ドキュメント](https://reference.aspose.com/html/java/) と [サポートフォーラム](https://forum.aspose.com/) をご覧ください。
 
 ---
 
-**Last Updated:** 2026-01-07  
-**Tested With:** Aspose.HTML for Java 24.12 (latest at time of writing)  
-**Author:** Aspose  
+**最終更新日:** 2026-03-29  
+**テスト環境:** Aspose.HTML for Java 24.12（執筆時点での最新）  
+**作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
