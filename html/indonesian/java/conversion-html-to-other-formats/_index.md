@@ -108,7 +108,6 @@ Pelajari cara menghasilkan PDF dari HTML dengan mengatur viewport mobile menggun
 Pelajari cara mengaktifkan eksekusi JavaScript selama konversi HTML ke PDF dengan Aspose.HTML untuk Java.
 ### [Buat PDF dari HTML di Java – Panduan Lengkap Aspose](./create-pdf-from-html-in-java-complete-aspose-guide/)
 Pelajari cara membuat PDF dari HTML di Java menggunakan Aspose.HTML dengan panduan lengkap langkah demi langkah.
-
 ### [Mengonversi HTML ke PDF di Java – Panduan Langkah‑demi‑Langkah dengan Pengaturan Ukuran Halaman](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Panduan lengkap mengonversi HTML ke PDF di Java dengan pengaturan ukuran halaman yang dapat disesuaikan.
 
@@ -245,6 +244,14 @@ Pelajari cara membuat PDF dengan ukuran khusus saat mengonversi HTML ke PDF meng
 ### [Membuat PDF dari HTML di Java – Panduan Konversi Batch Paralel](./create-pdf-from-html-in-java-parallel-batch-conversion-guide/)
 Panduan langkah‑demi‑langkah untuk mengonversi banyak file HTML menjadi PDF secara paralel menggunakan Aspose.HTML for Java.
 
+### [Mengonversi HTML ke PDF di Java – Panduan Sandbox Lengkap](./convert-html-to-pdf-in-java-full-sandbox-guide/)
+Panduan lengkap menggunakan sandbox untuk mengonversi HTML ke PDF di Java dengan Aspose.HTML.
+
+### [Buat markdown dari HTML di Java – Panduan Konversi Langkah‑demi‑Langkah](./create-markdown-from-html-in-java-step-by-step-conversion-gu/)
+Pelajari cara membuat file markdown dari HTML di Java menggunakan Aspose.HTML dengan panduan langkah demi langkah.
+
+### [Tutorial html ke pdf – Mengonversi HTML ke PDF dengan Java Fixed Thread Pool](./html-to-pdf-tutorial-convert-html-to-pdf-with-java-fixed-thr/)
+Pelajari cara mengonversi HTML ke PDF secara paralel menggunakan Java Fixed Thread Pool dengan Aspose.HTML.
 ### [Mengonversi HTML ke PDF dengan Java – Panduan Lengkap ke PDF, PNG, DOCX & Markdown](./convert-html-to-pdf-with-java-full-guide-to-pdf-png-docx-mar/)
 Panduan lengkap mengonversi HTML ke PDF, PNG, DOCX, dan Markdown menggunakan Aspose.HTML for Java.
 

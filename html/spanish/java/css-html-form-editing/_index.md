@@ -91,6 +91,8 @@ Aprenda a obtener un elemento por id en Java y recuperar sus estilos computados 
 ### [Cómo leer CSS en Java – Guía completa usando Aspose.HTML](./how-to-read-css-in-java-complete-guide-using-aspose-html/)
 Aprenda a leer y analizar archivos CSS en Java con Aspose.HTML mediante una guía paso a paso.
 
+### [Selector de consulta div clase – Cómo seleccionar un div por clase y obtener el estilo computado en Java](./query-selector-div-class-how-to-select-a-div-by-class-and-ge/)
+Aprenda a usar Aspose.HTML en Java para seleccionar un elemento div por su clase y obtener sus estilos computados de forma programática.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

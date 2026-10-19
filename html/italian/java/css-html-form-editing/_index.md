@@ -87,6 +87,8 @@ Scopri come recuperare lo stile calcolato di un elemento HTML usando Aspose.HTML
 Scopri come leggere i CSS in Java ed estrarre gli stili calcolati con Aspose.HTML passo dopo passo.
 ### [Ottieni elemento per ID in Java – Guida completa per recuperare gli stili calcolati](./get-element-by-id-in-java-full-guide-to-retrieve-computed-st/)
 Scopri come individuare un elemento HTML per ID e ottenere i suoi stili calcolati usando Aspose.HTML per Java.
+### [Selettore di query per div class – Come selezionare un div per classe e ottenere lo stile calcolato in Java](./query-selector-div-class-how-to-select-a-div-by-class-and-ge/)
+Impara a selezionare un elemento div per classe e a recuperare il suo stile calcolato usando Aspose.HTML per Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

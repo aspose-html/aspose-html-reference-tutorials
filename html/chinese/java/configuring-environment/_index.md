@@ -126,6 +126,8 @@ A: 沙箱会限制某些 API（例如 `window.open`），但普通的 DOM 操作
 本完整指南详细说明了在 Java 环境中使用 Aspose.HTML 创建沙箱的步骤，确保安全可靠的 HTML 转 PDF 转换。
 ### [在 Aspose.HTML for Java 中设置无头 HTML 渲染的用户代理 – 完整指南](./set-user-agent-for-headless-html-rendering-complete-guide/)
 了解如何在 Aspose.HTML for Java 的无头渲染环境中自定义 User Agent，以确保正确加载网页资源并提升转换成功率。
+### [在 Java 中从 HTML 提取标题 – 完整沙箱指南](./extract-title-from-html-in-java-complete-sandbox-guide/)
+了解如何在 Aspose.HTML for Java 的沙箱环境中安全提取 HTML 标题，避免脚本风险并确保正确解析。
 
 ---
 

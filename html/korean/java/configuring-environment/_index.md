@@ -118,6 +118,7 @@ Aspose.HTML for Java에서 샌드박스를 설정하고 안전하게 HTML을 PDF
 ### [Java에서 라이브러리 버전 가져오기 – 라이브러리 버전 표시 빠른 가이드](./get-library-version-in-java-quick-guide-to-show-library-vers/)
 ### [Set User Agent for Headless HTML Rendering – Complete Guide](./set-user-agent-for-headless-html-rendering-complete-guide/)
 Aspose.HTML for Java에서 헤드리스 HTML 렌더링 시 사용자 에이전트를 설정하는 방법을 단계별로 안내합니다.
+### [Aspose.HTML for Java에서 HTML 제목 추출 – 완전 샌드박스 가이드](./extract-title-from-html-in-java-complete-sandbox-guide/)
 
 ---
 

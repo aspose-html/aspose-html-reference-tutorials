@@ -128,6 +128,9 @@ Learn how to set a custom user stylesheet in Aspose.HTML for Java, enhancing you
 ### [Set User Agent for Headless HTML Rendering – Complete Guide](./set-user-agent-for-headless-html-rendering-complete-guide/)
 Узнайте, как задать пользовательский User‑Agent для безголового рендеринга HTML в Aspose.HTML for Java, обеспечивая корректную загрузку ресурсов и обход блокировок.
 
+### [Извлечение заголовка из HTML в Java – Полное руководство по песочнице](./extract-title-from-html-in-java-complete-sandbox-guide/)
+Узнайте, как извлечь заголовок из HTML в Java с помощью функций песочницы Aspose.HTML.
+
 ---
 
 **Last Updated:** 2025-12-03  

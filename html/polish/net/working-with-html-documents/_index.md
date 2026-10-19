@@ -47,6 +47,9 @@ Dowiedz się, jak zapisać dokument HTML w C# przy użyciu biblioteki Aspose.Htm
 
 Dowiedz się, jak zapisać dokument HTML jako archiwum ZIP w C# przy użyciu własnego obsługiwacza zasobów.
 ### [Utwórz dokument HTML w C# – Kompletny przewodnik z własnym obsługiwaczem zasobów](./create-html-document-c-complete-guide-with-custom-resource-h/)
+### [Jak zapisać HTML w C# – Kompletny przewodnik krok po kroku](./how-to-save-html-in-c-complete-step-by-step-guide/)
+
+Dowiedz się, jak zapisać plik HTML w C# krok po kroku, korzystając z podstawowych metod bez dodatkowych rozszerzeń.
 
 ### [Jak pogrubić nagłówek za pomocą CSS i C# – Kompletny przewodnik krok po kroku](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 

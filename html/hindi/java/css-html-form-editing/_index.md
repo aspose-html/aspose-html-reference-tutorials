@@ -85,6 +85,8 @@ Java में Aspose.HTML का उपयोग करके Computed Style �
 Java में Aspose.HTML का उपयोग करके CSS को पढ़ें और गणना किए गए स्टाइल्स को चरण‑दर‑चरण निकालें।
 ### [Java में ID द्वारा एलिमेंट प्राप्त करें – गणना किए गए स्टाइल्स को प्राप्त करने की पूर्ण गाइड](./get-element-by-id-in-java-full-guide-to-retrieve-computed-st/)
 Java में Aspose.HTML का उपयोग करके ID द्वारा एलिमेंट चुनें और उसके गणना किए गए स्टाइल्स को प्राप्त करने की विस्तृत प्रक्रिया सीखें।
+### [क्वेरी सेलेक्टर डिव क्लास – जावा में क्लास द्वारा डिव चुनें और कंप्यूटेड स्टाइल प्राप्त करें](./query-selector-div-class-how-to-select-a-div-by-class-and-ge/)
+जावा में Aspose.HTML का उपयोग करके क्लास द्वारा डिव चुनें और उसका कंप्यूटेड स्टाइल प्राप्त करने की पूरी प्रक्रिया सीखें।
 ### [Java में CSS पढ़ना – Aspose.HTML के साथ पूर्ण गाइड](./how-to-read-css-in-java-complete-guide-using-aspose-html/)
 Aspose.HTML का उपयोग करके Java में CSS को पढ़ने और विश्लेषण करने की पूरी प्रक्रिया सीखें।
 

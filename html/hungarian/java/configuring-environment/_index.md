@@ -150,6 +150,10 @@ Ismerd meg, hogyan hozhatsz létre sandbox környezetet Java-ban a biztonságos 
 
 **Felhasználói ügynök beállítása fej nélküli HTML rendereléshez – Teljes útmutató**  
 Ismerd meg, hogyan állítható be a felhasználói ügynök a fej nélküli HTML rendereléshez az Aspose.HTML for Java-ban, hogy testreszabhasd a kéréseket.
+### [HTML címének kinyerése Java-ban – Teljes sandbox útmutató](./extract-title-from-html-in-java-complete-sandbox-guide/)
+
+**HTML címének kinyerése Java-ban – Teljes sandbox útmutató**  
+Ismerd meg, hogyan nyerheted ki a HTML címét Java-ban biztonságos sandbox környezetben.
 
 ---
 

@@ -107,6 +107,8 @@ Học cách bật khử răng cưa khi render HTML sang PNG bằng C# với Aspo
 Học cách tạo tài liệu PDF từ HTML bằng C# với Aspose.HTML, bao gồm các bước chi tiết và mẹo thực tiễn.
 ### [Render HTML sang PDF và Nén Zip – Hướng dẫn C# đầy đủ](./render-html-to-pdf-and-zip-it-complete-c-guide/)
 Học cách chuyển đổi HTML sang PDF và nén thành file ZIP bằng C# với Aspose.HTML, bao gồm các bước chi tiết và mẹo thực tiễn.
+### [Render HTML thành PNG trong C# – Hướng dẫn toàn diện với Aspose.HTML](./render-html-to-png-in-c-complete-guide-with-aspose-html/)
+Học cách chuyển đổi HTML sang PNG bằng C# sử dụng Aspose.HTML, bao gồm các bước chi tiết và mẹo thực tiễn.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

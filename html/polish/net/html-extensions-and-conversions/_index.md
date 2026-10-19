@@ -161,6 +161,8 @@ Zapisz dokument HTML jako archiwum ZIP w C# przy użyciu Aspose.HTML – komplet
 Kompletny przewodnik, jak spakować plik HTML do archiwum ZIP przy użyciu Aspose.HTML w .NET.
 ### [Jak zapisać HTML i zapisać go do pliku w C#](./how-to-save-html-and-write-html-to-file-with-c/)
 Dowiedz się, jak w C# zapisać kod HTML i zapisać go do pliku przy użyciu Aspose.HTML.
+### [Jak używać ZipArchive – zapisać HTML i zasoby do pliku ZIP](./how-to-use-ziparchive-save-html-and-resources-to-a-zip-file/)
+Dowiedz się, jak przy użyciu ZipArchive zapisać dokument HTML oraz powiązane zasoby w archiwum ZIP w C#.
 
 ## Wniosek
 

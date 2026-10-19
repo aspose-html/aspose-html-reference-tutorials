@@ -54,6 +54,7 @@ Aspose.HTML を使って C# で HTML ドキュメントをロードし、操作�
 
 ### [C# で文字列から HTML を作成する – 完全ステップバイステップガイド](./create-html-from-string-in-c-step-by-step-guide/)
 ### [C# で文字列から HTML を作成する – メモリストリームを使用した完全ガイド](./create-html-from-string-in-c-full-guide-with-memory-stream/)
+### [C# で HTML を保存する完全ステップバイステップガイド](./how-to-save-html-in-c-complete-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

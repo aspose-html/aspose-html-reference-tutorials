@@ -53,6 +53,7 @@ url: /ar/net/working-with-html-documents/
 
 ### [كيفية ضغط HTML في C# – دليل خطوة بخطوة كامل](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 ### [إنشاء HTML من سلسلة في C# – دليل كامل مع تدفق الذاكرة](./create-html-from-string-in-c-full-guide-with-memory-stream/)
+### [كيفية حفظ HTML في C# – دليل خطوة بخطوة كامل](./how-to-save-html-in-c-complete-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

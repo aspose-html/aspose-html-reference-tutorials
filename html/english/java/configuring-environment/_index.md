@@ -127,6 +127,9 @@ Learn how to retrieve and display the Aspose.HTML for Java library version at ru
 ### [How to Create Sandbox in Java – Full Guide](./how-to-create-sandbox-in-java-full-guide/)
 Learn how to create a sandbox in Aspose.HTML for Java, securing script execution and safely converting HTML to PDF.
 
+### [Extract title from HTML in Java – Complete Sandbox Guide](./extract-title-from-html-in-java-complete-sandbox-guide/)
+Learn how to safely extract the title from HTML in Java using Aspose.HTML sandbox, ensuring secure processing and accurate results.
+
 ---
 
 **Last Updated:** 2025-12-03  

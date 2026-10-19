@@ -126,6 +126,8 @@ HTML الديناميكي غالبًا ما يحتوي على سكريبتات �
 تعلم خطوة بخطوة كيفية إنشاء بيئة عزل (Sandbox) في Java لضمان أمان تنفيذ الكود أثناء تحويل HTML إلى PDF.
 ### [ضبط وكيل المستخدم لتص rendering HTML بدون رأس – دليل شامل](./set-user-agent-for-headless-html-rendering-complete-guide/)
 تعلم كيفية تعيين وكيل المستخدم عند تشغيل Aspose.HTML في وضع headless لضمان تحميل الموارد بشكل صحيح.
+### [استخراج العنوان من HTML في Java – دليل العزل الكامل](./extract-title-from-html-in-java-complete-sandbox-guide/)
+تعلم كيفية استخراج عنوان الصفحة من مستند HTML باستخدام Aspose.HTML for Java ضمن بيئة عزل آمنة خطوة بخطوة.
 
 ---
 

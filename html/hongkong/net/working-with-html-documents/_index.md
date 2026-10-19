@@ -57,6 +57,8 @@ HTML 文件是網路的支柱，能夠有效地創建和操作它們對於任何
 
 ### [在 C# 中從字串建立 HTML – 使用記憶體串流的完整指南](./create-html-from-string-in-c-full-guide-with-memory-stream/)
 
+### [如何在 C# 中保存 HTML – 完整步驟指南](./how-to-save-html-in-c-complete-step-by-step-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

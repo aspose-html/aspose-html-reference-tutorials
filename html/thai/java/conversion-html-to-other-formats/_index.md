@@ -114,6 +114,8 @@ Aspose.HTML for Java ทำให้กระบวนการแปลง HTML
 เรียนรู้วิธีฝังรูปภาพใน HTML แล้วแปลงเป็น PDF ด้วย Aspose.HTML for Java อย่างละเอียด
 ### [สร้าง PDF ขนาดกำหนดเอง – แปลง HTML เป็น PDF ด้วย Aspose](./create-pdf-custom-size-convert-html-to-pdf-with-aspose/)
 เรียนรู้วิธีกำหนดขนาดหน้า PDF ที่กำหนดเองขณะแปลง HTML เป็น PDF ด้วย Aspose.HTML for Java
+### [แปลง HTML เป็น PDF ใน Java – คู่มือ Sandbox เต็มรูปแบบ](./convert-html-to-pdf-in-java-full-sandbox-guide/)
+เรียนรู้วิธีแปลง HTML เป็น PDF ใน Java ด้วยตัวอย่าง Sandbox ครบถ้วนและโค้ดพร้อมใช้งาน
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 ### [Converting HTML to XPS](./convert-html-to-xps/)
 เรียนรู้วิธีแปลง HTML เป็น XPS อย่างง่ายดายด้วย Aspose.HTML for Java สร้างเอกสารข้ามแพลตฟอร์มได้อย่างราบรื่น
@@ -122,6 +124,8 @@ Aspose.HTML for Java ทำให้กระบวนการแปลง HTML
 แปลง Markdown เป็น HTML ใน Java อย่างราบรื่นด้วย Aspose.HTML for Java ทำตามคู่มือขั้นตอน‑ต่อ‑ขั้นตอนเพื่อทำให้การแปลงเอกสารของคุณเป็นเรื่องง่าย
 ### [แปลง HTML เป็น Markdown ใน Java – คู่มือเต็มขั้นตอน‑ต่อ‑ขั้นตอน](./convert-html-to-markdown-in-java-full-step-by-step-guide/)
 เรียนรู้วิธีแปลงไฟล์ HTML เป็น Markdown ใน Java อย่างละเอียดด้วย Aspose.HTML พร้อมขั้นตอนครบถ้วน
+### [สร้าง markdown จาก HTML ใน Java – คู่มือแปลงขั้นตอน‑ต่อ‑ขั้นตอน](./create-markdown-from-html-in-java-step-by-step-conversion-gu/)
+เรียนรู้วิธีแปลง HTML เป็นไฟล์ markdown ใน Java ด้วย Aspose.HTML อย่างละเอียดและง่ายดาย
 ### [Converting SVG to Image](./convert-svg-to-image/)
 ### [Converting SVG to PDF](./convert-svg-to-pdf/)
 ### [Converting SVG to XPS](./convert-svg-to-xps/)
@@ -157,6 +161,8 @@ Aspose.HTML for Java ทำให้กระบวนการแปลง HTML
 ### [สร้าง PDF จาก HTML ใน Java – คู่มือ Aspose ฉบับสมบูรณ์](./create-pdf-from-html-in-java-complete-aspose-guide/)
 ### [แปลง HTML เป็น MHTML ด้วย Aspose.HTML – คู่มือ Java ครบถ้วน](./convert-html-to-mhtml-with-aspose-html-complete-java-guide/)
 ### [วิธีใช้ Aspose เพื่อแปลง HTML เป็น Markdown ใน Java](./how-to-use-aspose-to-convert-html-to-markdown-in-java/)
+### [บทแนะนำ html to pdf – แปลง HTML เป็น PDF ด้วย Fixed Thread Pool ใน Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-java-fixed-thr/)
+เรียนรู้วิธีแปลง HTML เป็น PDF ใน Java โดยใช้ Fixed Thread Pool เพื่อเพิ่มประสิทธิภาพการประมวลผลหลายไฟล์พร้อมกัน
 ### [บทแนะนำ Thread Pool ของ Java – แปลงหลายไฟล์ HTML เป็น PDF](./java-thread-pool-tutorial-convert-multiple-html-files-to-pdf/)
 เรียนรู้การใช้ Thread Pool ใน Java เพื่อแปลงไฟล์ HTML หลายไฟล์เป็น PDF อย่างมีประสิทธิภาพด้วย Aspose.HTML
 ### [แปลง HTML เป็น PDF ด้วย Java – คู่มือเต็มสำหรับ PDF, PNG, DOCX และ Markdown](./convert-html-to-pdf-with-java-full-guide-to-pdf-png-docx-mar/)

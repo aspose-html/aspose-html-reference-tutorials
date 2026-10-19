@@ -127,6 +127,7 @@ Pelajari cara mengatur stylesheet pengguna khusus di Aspose.HTML untuk Java, men
 Pelajari cara membuat sandbox di Java dengan Aspose.HTML, mengamankan eksekusi skrip dan melindungi aplikasi saat mengonversi HTML ke PDF.
 ### [Set User Agent untuk Rendering HTML Headless – Panduan Lengkap](./set-user-agent-for-headless-html-rendering-complete-guide/)
 Pelajari cara mengatur User Agent pada Aspose.HTML untuk Java saat merender HTML secara headless, memastikan konten dimuat dengan benar.
+### [Ekstrak judul dari HTML di Java – Panduan Sandbox Lengkap](./extract-title-from-html-in-java-complete-sandbox-guide/)
 
 ---
 

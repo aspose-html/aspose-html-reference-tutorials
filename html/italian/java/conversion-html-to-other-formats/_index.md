@@ -91,6 +91,7 @@ In conclusione, padroneggiare **html to pdf java** e l'insieme più ampio di con
 ### [Come Convertire una Pagina Web in PDF in Java – Guida passo‑passo](./how-to-convert-webpage-to-pdf-in-java-step-by-step-guide/)
 ### [Converti HTML in PDF con Java – Guida passo‑per‑passo](./convert-html-to-pdf-with-java-step-by-step-guide/)
 ### [Crea PDF da HTML in Java – Guida completa Aspose](./create-pdf-from-html-in-java-complete-aspose-guide/)
+### [Converti HTML in PDF in Java – Guida completa Sandbox](./convert-html-to-pdf-in-java-full-sandbox-guide/)
 ### [Conversione da HTML a MHTML](./convert-html-to-mhtml/)
 ### [Converti HTML in MHTML con Aspose.HTML – Guida completa Java](./convert-html-to-mhtml-with-aspose-html-complete-java-guide/)
 ### [Converti HTML in PDF con Java – Guida completa a PDF, PNG, DOCX e Markdown](./convert-html-to-pdf-with-java-full-guide-to-pdf-png-docx-mar/)
@@ -164,6 +165,8 @@ Imposta le dimensioni della pagina PDF durante la conversione da HTML a PDF in J
 ### [Crea PDF da SVG – Dimensione pagina personalizzata con Aspose.HTML (Java)](./create-pdf-from-svg-custom-page-size-with-aspose-html-java/)
 ### [Crea PDF a Dimensione Personalizzata – Converti HTML in PDF con Aspose](./create-pdf-custom-size-convert-html-to-pdf-with-aspose/)
 ### [Conversione da HTML a Markdown in Java – Conserva la formattazione originale](./convert-html-to-markdown-in-java-preserve-original-formattin/)
+### [Crea markdown da HTML in Java – Guida passo‑passo di conversione](./create-markdown-from-html-in-java-step-by-step-conversion-gu/)
+### [Tutorial html to pdf – Converti HTML in PDF con Java Fixed Thread Pool](./html-to-pdf-tutorial-convert-html-to-pdf-with-java-fixed-thr/)
 ### [Come utilizzare Sandbox per la conversione HTML‑to‑PDF in Java](./how-to-use-sandbox-for-html-to-pdf-conversion-in-java/)
 ### [Java thread pool tutorial – Converti più file HTML in PDF](./java-thread-pool-tutorial-convert-multiple-html-files-to-pdf/)
 

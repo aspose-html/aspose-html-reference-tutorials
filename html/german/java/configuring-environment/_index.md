@@ -120,6 +120,8 @@ Erfahren Sie, wie Sie eine vollständige Sandbox für Aspose.HTML in Java einric
 Erfahren Sie, wie Sie die aktuelle Version von Aspose.HTML für Java programmgesteuert ermitteln und anzeigen.
 ### [User‑Agent für Headless‑HTML‑Rendering festlegen – Komplett‑Leitfaden](./set-user-agent-for-headless-html-rendering-complete-guide/)
 Erfahren Sie, wie Sie den User‑Agent für das headless‑HTML‑Rendering festlegen, um korrekte Ressourcen‑Abrufe und Rendering‑Ergebnisse zu gewährleisten.
+### [Titel aus HTML in Java extrahieren – Vollständige Sandbox‑Anleitung](./extract-title-from-html-in-java-complete-sandbox-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java den Dokumenttitel aus HTML extrahieren und dabei die Sandbox‑Sicherheit vollständig nutzen.
 
 ---
 

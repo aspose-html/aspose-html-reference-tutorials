@@ -46,6 +46,9 @@ XPS は Microsoft の印刷準備フォーマットです。Aspose.HTML を使�
 ### Converting Markdown to HTML (Java)
 Markdown のシンプルさと HTML のリッチさを組み合わせ、Markdown 文書を完全にスタイリングされた HTML ページに変換します。
 
+### Create markdown from html in Java – Step‑by‑step Conversion Guide
+Aspose.HTML を使用して Java で HTML を Markdown に変換する手順を詳しく解説します。
+
 ### Converting SVG to Image (Java)
 ベクターグラフィックをラスタ画像（PNG、JPEG）に変換し、メールやレポート、サムネイルで利用できるようにします。
 
@@ -93,6 +96,8 @@ Java NIO と並列処理を活用し、複数の HTML ファイルを高速に P
 Aspose.HTML を使用して Java で HTML を並列バッチ処理し、複数の PDF を高速に生成する方法を解説します。
 ### [HTML to PDF チュートリアル – Aspose.HTML Java で HTML を PDF に変換](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-ja/)
 Aspose.HTML を使用して Java で HTML を PDF に変換する手順を詳しく解説します。
+### [HTML を PDF に変換するチュートリアル – Java Fixed Thread Pool を使用](./html-to-pdf-tutorial-convert-html-to-pdf-with-java-fixed-thr/)
+Java の Fixed Thread Pool を活用し、マルチスレッドで HTML を PDF に効率的に変換する方法を解説します。
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 Aspose.HTML for Java で HTML を MHTML に簡単に変換します。効率的な HTML‑to‑MHTML 変換の手順をご覧ください。
 
@@ -118,6 +123,8 @@ Aspose.HTML を使い、Markdown ファイルを直接 PDF に変換する手順
 Aspose.HTML を使用して Java で HTML を Markdown に変換する完全な手順を解説します。シンプルなコードで変換を実装できます。
 ### [JavaでAsposeを使用してHTMLをMarkdownに変換する方法](./how-to-use-aspose-to-convert-html-to-markdown-in-java/)
 Aspose.HTML を使用して Java で HTML を Markdown に変換する手順を学びます。テキストベースのドキュメント生成が簡単です。
+### [Create markdown from html in Java – Step‑by‑step Conversion Guide](./create-markdown-from-html-in-java-step-by-step-conversion-gu/)
+Aspose.HTML を使用して Java で HTML を Markdown に変換する手順を詳しく解説します。
 ### [Converting SVG to Image](./convert-svg-to-image/)
 Aspose.HTML を使用して Java で SVG を画像に変換する方法を学びます。高品質出力のための包括的ガイドです。
 
@@ -221,6 +228,8 @@ Aspose.HTML を利用して SVG をさまざまなフォーマットに変換す
 Aspose.HTML を使用して、HTML からカスタムページサイズの PDF を作成する手順を解説します。
 ### [Java で HTML を Markdown に変換 – 元のフォーマットを保持](./convert-html-to-markdown-in-java-preserve-original-formattin/)
 Aspose.HTML を使用して Java で HTML を Markdown に変換し、元のフォーマットを保持する方法を学びます。
+### [JavaでHTMLをPDFに変換 – フルサンドボックスガイド](./convert-html-to-pdf-in-java-full-sandbox-guide/)
+Aspose.HTML を使用して Java のフルサンドボックス環境で HTML を PDF に変換する手順を詳しく解説します。
 ### [JavaでHTML‑to‑PDF変換にサンドボックスを使用する方法](./how-to-use-sandbox-for-html-to-pdf-conversion-in-java/)
 Aspose.HTML のサンドボックス機能を利用し、Java で安全に HTML を PDF に変換する手順を解説します。
 

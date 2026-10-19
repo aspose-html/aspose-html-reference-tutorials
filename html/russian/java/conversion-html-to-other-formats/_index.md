@@ -253,6 +253,14 @@ Aspose.HTML for Java упрощает процесс конвертации HTML
 ### [Создание PDF из HTML в Java – Руководство по параллельному пакетному преобразованию](./create-pdf-from-html-in-java-parallel-batch-conversion-guide/)
 Узнайте, как выполнять параллельную пакетную конвертацию HTML в PDF в Java с помощью Aspose.HTML, повышая производительность.
 
+### [Конвертация HTML в PDF с фиксированным пулом потоков Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-java-fixed-thr/)
+Узнайте, как ускорить конвертацию HTML в PDF в Java, используя фиксированный пул потоков для параллельной обработки.
+
+### [Создание markdown из HTML в Java – Пошаговое руководство по конвертации](./create-markdown-from-html-in-java-step-by-step-conversion-gu/)
+Подробное пошаговое руководство по преобразованию HTML в markdown в Java с использованием Aspose.HTML.
+
+### [Конвертация HTML в PDF в Java – Полное руководство по песочнице](./convert-html-to-pdf-in-java-full-sandbox-guide/)
+Полное руководство по использованию песочницы Aspose.HTML для конвертации HTML в PDF в Java.
 ### [Конвертация HTML в PDF с Java – Полное руководство по PDF, PNG, DOCX и Markdown](./convert-html-to-pdf-with-java-full-guide-to-pdf-png-docx-mar/)
 
 ### [Как использовать Sandbox для конвертации HTML‑в‑PDF в Java](./how-to-use-sandbox-for-html-to-pdf-conversion-in-java/)

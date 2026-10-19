@@ -129,6 +129,8 @@ weight: 29
 Μάθετε πώς να δημιουργήσετε και να διαχειριστείτε ένα sandbox Aspose HTML σε Java για ασφαλείς μετατροπές HTML σε PDF.
 ### [Απόκτηση Έκδοσης Βιβλιοθήκης σε Java – Γρήγορος Οδηγός για Εμφάνιση Έκδοσης](./get-library-version-in-java-quick-guide-to-show-library-vers/)
 Μάθετε πώς να εμφανίσετε την έκδοση της βιβλιοθήκης Aspose.HTML σε Java με αυτόν τον σύντομο οδηγό.
+### [Εξαγωγή τίτλου από HTML σε Java – Πλήρης Οδηγός Sandbox](./extract-title-from-html-in-java-complete-sandbox-guide/)
+Μάθετε πώς να εξάγετε τον τίτλο από HTML σε Java, χρησιμοποιώντας sandbox για ασφαλή επεξεργασία.
 
 ---
 

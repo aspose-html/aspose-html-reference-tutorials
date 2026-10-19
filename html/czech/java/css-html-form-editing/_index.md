@@ -84,6 +84,8 @@ Naučte se, jak pomocí Aspose.HTML pro Javu získat vypočtené styly prvků a 
 Naučte se, jak pomocí Aspose.HTML pro Javu získat a analyzovat vypočtené CSS styly z HTML dokumentu.
 ### [Získání elementu podle ID v Javě – Kompletní průvodce získáním vypočtených stylů](./get-element-by-id-in-java-full-guide-to-retrieve-computed-st/)
 Naučte se, jak pomocí Aspose.HTML pro Java získat element podle ID a získat jeho vypočtené styly.
+### [query selector div class – Jak vybrat div podle třídy a získat vypočtený styl v Javě](./query-selector-div-class-how-to-select-a-div-by-class-and-ge/)
+Naučte se pomocí Aspose.HTML pro Javu vybrat element div podle třídy a získat jeho vypočtené CSS styly.
 ### [Jak číst CSS v Javě – kompletní průvodce pomocí Aspose.HTML](./how-to-read-css-in-java-complete-guide-using-aspose-html/)
 Kompletní návod, jak pomocí Aspose.HTML v Javě načíst a analyzovat CSS soubory, včetně praktických příkladů.
 

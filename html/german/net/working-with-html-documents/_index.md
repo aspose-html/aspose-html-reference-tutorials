@@ -50,6 +50,9 @@ Erfahren Sie, wie Sie HTML in C# als ZIP-Datei mit einem benutzerdefinierten Res
 
 Erfahren Sie, wie Sie ein HTML-Dokument in C# mit einem benutzerdefinierten Ressourcen-Handler erstellen.
 
+### [HTML in C# speichern – Vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-save-html-in-c-complete-step-by-step-guide/)
+
+Erfahren Sie, wie Sie HTML in C# Schritt für Schritt speichern können.
 ### [Überschrift mit CSS & C# fett formatieren – Komplett‑Schritt‑für‑Schritt‑Anleitung](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 ### [HTML in C# speichern – benutzerdefinierte Ressourcen-Handler & ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
 
