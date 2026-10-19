@@ -57,7 +57,7 @@ Si votre HTML fait référence à des ressources externes (CSS, JavaScript, imag
 
 ## Comment configurer le service d'exécution
 
-Le HTML dynamique contient souvent des scripts qui doivent s’exécuter avant le rendu. Le service d’exécution contrôle l’exécution des scripts, vous permettant de limiter l’utilisation du CPU, de définir des délais d’attente et d’éviter les boucles infinies—crucial pour des conversions stables et performantes.
+Le HTML dynamique contient souvent des scripts qui doivent s’exécuter avant le rendu. Le service d'exécution contrôle l'exécution des scripts, vous permettant de limiter l’utilisation du CPU, de définir des délais d’attente et d’éviter les boucles infinies—crucial pour des conversions stables et performantes.
 
 [Apprenez comment configurer le Runtime Service dans Aspose.HTML for Java.](./configure-runtime-service/)
 
@@ -119,6 +119,17 @@ Apprenez comment mettre en œuvre le sandboxing dans Aspose.HTML for Java pour c
 
 ### [Définir une feuille de style utilisateur dans Aspose.HTML for Java](./set-user-style-sheet/)
 Apprenez comment définir une feuille de style utilisateur personnalisée dans Aspose.HTML for Java, améliorant le style de vos documents et convertissant HTML en PDF avec facilité.
+
+### [Créer un bac à sable Aspose HTML – Guide complet Java](./create-aspose-html-sandbox-complete-java-guide/)
+Apprenez comment créer un bac à sable Aspose HTML en Java, sécuriser l'exécution des scripts et convertir HTML en PDF en toute sécurité.
+### [Obtenir la version de la bibliothèque en Java – Guide rapide pour afficher la version de la bibliothèque](./get-library-version-in-java-quick-guide-to-show-library-vers/)
+Apprenez comment récupérer et afficher la version d'Aspose.HTML for Java rapidement.
+### [Comment créer un bac à sable en Java – Guide complet](./how-to-create-sandbox-in-java-full-guide/)
+Apprenez comment créer un bac à sable en Java avec ce guide complet, assurant une exécution sécurisée des scripts lors de la conversion HTML en PDF.
+### [Définir l'agent utilisateur pour le rendu HTML sans tête – Guide complet](./set-user-agent-for-headless-html-rendering-complete-guide/)
+Apprenez à configurer l'agent utilisateur dans Aspose.HTML for Java pour le rendu HTML sans tête, garantissant un chargement correct des ressources.
+### [Extraire le titre d'un HTML en Java – Guide complet du sandbox](./extract-title-from-html-in-java-complete-sandbox-guide/)
+Apprenez comment extraire le titre d'un document HTML en Java en utilisant le sandbox d'Aspose.HTML, avec un guide complet pas à pas.
 
 ---
 

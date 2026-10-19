@@ -1,0 +1,7 @@
+Title: Save HTML to Zip – Complete C# Guide for In‑Memory Archives
+Slug: save-html-to-zip-complete-c-guide-for-in-memory-archives
+Category: working-with-html-documents
+ProcessedDate: 2026-06-04T06:32:23.013769
+SourceRepo: AI Search API
+Keywords: save html to zip, zip html and css files, create in‑memory zip c#, generate zip archive c#
+PRNumber: 171

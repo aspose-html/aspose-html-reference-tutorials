@@ -11,9 +11,8 @@ url: /pt/java/configuring-environment/set-user-style-sheet/
 weight: 16
 ---
 
- placeholders.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
