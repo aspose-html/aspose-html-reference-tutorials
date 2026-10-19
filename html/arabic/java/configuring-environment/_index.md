@@ -129,6 +129,8 @@ HTML الديناميكي غالبًا ما يحتوي على سكريبتات �
 ### [استخراج العنوان من HTML في Java – دليل العزل الكامل](./extract-title-from-html-in-java-complete-sandbox-guide/)
 تعلم كيفية استخراج عنوان الصفحة من مستند HTML باستخدام Aspose.HTML for Java ضمن بيئة عزل آمنة خطوة بخطوة.
 ### [كيفية تعيين DPI في Aspose.HTML Sandbox – دليل Java كامل](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
+### [كيفية استخدام العزل – تعيين وكيل المستخدم والحصول على حجم نافذة العرض](./how-to-use-sandbox-set-user-agent-get-viewport-size/)
+تعلم كيفية تعيين وكيل المستخدم والحصول على حجم نافذة العرض عند استخدام العزل في Aspose.HTML for Java.
 
 ---
 

@@ -160,6 +160,8 @@ Lär dig hur du använder top‑level await med en fördröjningsfunktion i Java
 Lär dig hur du exekverar JavaScript‑kod från HTML i Java‑applikationer med Aspose.HTML.
 ### [Hur du laddar HTML i Java – Komplett Aspose.HTML Async‑exempel](./how-to-load-html-in-java-complete-aspose-html-async-example/)
 Lär dig hur du asynkront laddar HTML i Java med Aspose.HTML, inklusive konfiguration och kodexempel.
+### [Utvärdera JavaScript i Java – Komplett guide med Aspose.HTML](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
+Lär dig hur du utvärderar JavaScript‑kod i Java‑applikationer med Aspose.HTML, inklusive konfiguration och exempel.
 
 ---
 

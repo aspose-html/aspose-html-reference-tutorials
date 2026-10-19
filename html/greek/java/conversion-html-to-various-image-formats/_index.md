@@ -115,6 +115,8 @@ weight: 24
 ### [Απόδοση HTML Java: Μετατροπή μεγάλης σελίδας σε PNG](./render-html-java-convert-long-page-to-png/)
 Μάθετε πώς να αποδίδετε μεγάλες σελίδες HTML σε PNG με Aspose.HTML for Java, βήμα‑βήμα οδηγίες για αποτελεσματική μετατροπή.
 ### [Πώς να αποδώσετε HTML σε PNG – Πλήρης Οδηγός Java](./how-to-render-html-to-png-complete-java-guide/)
+### [Μετατροπή SVG σε PNG με Υψηλή Ανάλυση – Οδηγός Java](./convert-svg-to-png-with-high-resolution-java-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία SVG σε PNG υψηλής ανάλυσης χρησιμοποιώντας το Aspose.HTML for Java.
 ### [Μετατροπή HTML σε WebP – Πλήρης Οδηγός Java με Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 ### [Μετατροπή HTML σε WebP – Πλήρης Οδηγός Java](./convert-html-to-webp-complete-java-guide/)
 ### [Δημιουργία HTML Banner και Απόδοση σε PNG – Πλήρης Οδηγός Java](./create-html-banner-and-render-to-png-full-java-guide/)

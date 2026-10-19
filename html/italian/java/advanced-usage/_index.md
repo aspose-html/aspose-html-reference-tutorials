@@ -137,6 +137,7 @@ R: No. Una singola licenza di Aspose.HTML for Java copre tutti i formati di outp
 ### [Esempio di top‑level await – Utilizzare await delay in JavaScript](./top-level-await-example-using-await-delay-in-javascript/)
 ### [Esegui JavaScript in Java – Esegui JS da HTML](./execute-javascript-in-java-run-js-from-html/)
 ### [Come caricare HTML in Java – Esempio completo Aspose.HTML asincrono](./how-to-load-html-in-java-complete-aspose-html-async-example/)
+### [Valuta JavaScript in Java – Guida completa con Aspose.HTML](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
 
 ---
 

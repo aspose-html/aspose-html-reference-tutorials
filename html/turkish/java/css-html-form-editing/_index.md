@@ -90,6 +90,8 @@ Bu kapsamlı rehberde, Java’da bir öğeyi ID’siyle seçip, hesaplanmış CS
 Java’da Aspose.HTML kullanarak bir div elementini sınıfına göre seçmeyi ve hesaplanmış stilini elde etmeyi öğrenin.
 ### [Java’da CSS Özelliğini Almak – Elemanın Arka Plan Rengini Okuma](./how-to-get-css-property-in-java-read-element-background-colo/)
 Aspose.HTML for Java ile bir öğenin arka plan rengini nasıl okuyacağınızı öğrenin.
+### [Java’da Stil Nasıl Alınır – Aspose.HTML ile Hesaplanmış CSS’yi Getirme](./how-to-get-style-in-java-retrieve-computed-css-with-aspose-h/)
+Aspose.HTML for Java kullanarak bir öğenin hesaplanmış CSS stilini programatik olarak nasıl alacağınızı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

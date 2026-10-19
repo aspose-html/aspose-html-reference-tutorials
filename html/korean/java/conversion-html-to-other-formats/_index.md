@@ -124,6 +124,10 @@ Aspose.HTML를 활용해 Java 환경에서 전체 샌드박스 예제로 HTML을
 Aspose.HTML를 사용하여 Java에서 HTML을 PDF, PNG, DOCX 및 Markdown으로 변환하는 전체 가이드를 확인하세요.
 ### [Java에서 HTML‑to‑PDF 변환을 위한 샌드박스 사용 방법](./how-to-use-sandbox-for-html-to-pdf-conversion-in-java/)
 Aspose.HTML와 샌드박스를 이용해 Java에서 안전하게 HTML을 PDF로 변환하는 방법을 단계별로 안내합니다.
+### [HTML을 PDF로 변환 – Java에서 사용자 정의 페이지 크기 및 여백](./convert-html-to-pdf-custom-page-size-margins-in-java/)
+Aspose.HTML를 사용하여 Java에서 페이지 크기와 여백을 맞춤 설정하여 HTML을 PDF로 변환하는 방법을 단계별로 안내합니다.
+### [Java에서 HTML을 PDF로 변환 – 배치 변환 가이드](./create-pdf-from-html-in-java-batch-conversion-guide/)
+Aspose.HTML를 사용하여 Java에서 HTML을 배치로 PDF로 변환하는 방법을 단계별로 안내합니다.
 ### [HTML을 MHTML로 변환](./convert-html-to-mhtml/)
 Aspose.HTML for Java를 사용하여 HTML을 MHTML로 손쉽게 변환합니다. 효율적인 HTML‑to‑MHTML 변환을 위한 단계별 가이드를 따라 주세요.
 ### [Aspose.HTML를 사용하여 HTML을 MHTML로 변환 – 완전한 Java 가이드](./convert-html-to-mhtml-with-aspose-html-complete-java-guide/)

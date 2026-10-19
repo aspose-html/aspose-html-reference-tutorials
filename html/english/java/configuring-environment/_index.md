@@ -118,6 +118,8 @@ Learn how to set a custom user agent for headless HTML rendering in Aspose.HTML 
 
 ### [How to Set DPI in Aspose.HTML Sandbox – Complete Java Guide](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
 Learn how to set DPI in Aspose.HTML sandbox for Java, controlling image resolution for accurate PDF and PNG conversions.
+### [How to Use Sandbox – Set User Agent & Get Viewport Size](./how-to-use-sandbox-set-user-agent-get-viewport-size/)
+Learn how to set a custom user agent and retrieve viewport size within Aspose.HTML sandbox for Java conversions.
 ### [Set User Style Sheet in Aspose.HTML for Java](./set-user-style-sheet/)
 Learn how to set a custom user stylesheet in Aspose.HTML for Java, enhancing your document styling and converting HTML to PDF with ease.
 ### [Create Aspose HTML Sandbox – Complete Java Guide](./create-aspose-html-sandbox-complete-java-guide/)

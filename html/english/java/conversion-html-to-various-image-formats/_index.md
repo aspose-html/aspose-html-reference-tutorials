@@ -164,6 +164,8 @@ Convert HTML to WebP with Aspose.HTML for Java. Detailed guide covering setup, o
 Create GIF from SVG with Aspose.HTML for Java. A detailed step‑by‑step guide for converting SVG graphics into animated GIFs.
 ### [How to Use Sandbox to Capture Webpage Screenshot](./how-to-use-sandbox-to-capture-webpage-screenshot/)
 Learn how to capture webpage screenshots using Aspose.HTML sandbox in Java, with step-by-step instructions.
+### [Convert SVG to PNG with High Resolution – Java Guide](./convert-svg-to-png-with-high-resolution-java-guide/)
+Convert SVG to PNG with high resolution using Aspose.HTML for Java. A step-by-step guide for high‑quality image conversion.
 
 ### [How to Render HTML to PNG – Complete Guide for Java Developers](./how-to-render-html-to-png-complete-guide-for-java-developers/)
 A complete guide for Java developers on rendering HTML pages to PNG images using Aspose.HTML, with step‑by‑step code examples.

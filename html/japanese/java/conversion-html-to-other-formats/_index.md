@@ -234,6 +234,10 @@ Aspose.HTML を使用して Java で HTML を Markdown に変換し、元のフ�
 Aspose.HTML を使用して Java のフルサンドボックス環境で HTML を PDF に変換する手順を詳しく解説します。
 ### [JavaでHTML‑to‑PDF変換にサンドボックスを使用する方法](./how-to-use-sandbox-for-html-to-pdf-conversion-in-java/)
 Aspose.HTML のサンドボックス機能を利用し、Java で安全に HTML を PDF に変換する手順を解説します。
+### [JavaでHTMLをPDFに変換 – カスタムページサイズと余白](./convert-html-to-pdf-custom-page-size-margins-in-java/)
+Aspose.HTML を使用して、Java で HTML を PDF に変換する際にページサイズと余白をカスタマイズする方法を解説します。
+### [JavaでHTMLからPDFを作成 – バッチ変換ガイド](./create-pdf-from-html-in-java-batch-conversion-guide/)
+Aspose.HTML を使用して、Java で複数の HTML ファイルを一括で PDF に変換する手順を解説します。
 
 ## よくある質問
 

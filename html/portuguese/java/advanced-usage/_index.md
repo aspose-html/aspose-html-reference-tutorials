@@ -180,6 +180,8 @@ Aprenda a executar código JavaScript dentro de aplicações Java usando Aspose.
 ### [Como Carregar HTML em Java – Exemplo Completo Assíncrono do Aspose.HTML](./how-to-load-html-in-java-complete-aspose-html-async-example/)
 Aprenda a carregar documentos HTML de forma assíncrona em Java usando Aspose.HTML, com exemplo completo passo a passo.
 
+### [Avaliar JavaScript em Java – Guia Completo com Aspose.HTML](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
+
 ---
 
 **Última atualização:** 2025-11-29  

@@ -104,6 +104,8 @@ Att konfigurera din miljö är grunden för framgångsrika **convert HTML to PDF
 ### [Set Up Network Service in Aspose.HTML for Java](./setup-network-service/)
 ### [Configure Runtime Service in Aspose.HTML for Java](./configure-runtime-service/)
 ### [Implement Sandboxing in Aspose.HTML for Java](./implement-sandboxing/)
+Lär dig hur du implementerar sandboxing i Aspose.HTML för Java för att säkert kontrollera skriptkörning i dina HTML‑dokument och konvertera dem till PDF.
+### [Hur man använder sandbox – Ställ in användaragents & hämta viewport‑storlek](./how-to-use-sandbox-set-user-agent-get-viewport-size/)
 ### [Set User Style Sheet in Aspose.HTML for Java](./set-user-style-sheet/)
 ### [Skapa Aspose HTML Sandbox – Komplett Java‑guide](./create-aspose-html-sandbox-complete-java-guide/)
 

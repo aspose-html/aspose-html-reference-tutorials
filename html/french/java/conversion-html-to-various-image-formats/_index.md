@@ -157,6 +157,8 @@ Apprenez à définir le DPI lors de la conversion d'HTML en PNG avec Aspose.HTML
 Apprenez à utiliser Sandbox pour capturer des captures d'écran de pages Web avec Aspose.HTML en Java.
 ### [Créer un GIF à partir de SVG avec Java – Guide complet étape par étape](./create-gif-from-svg-with-java-full-step-by-step-guide/)
 Apprenez à créer un GIF à partir d'un fichier SVG en Java avec Aspose.HTML. Guide complet étape par étape.
+### [Convertir SVG en PNG avec haute résolution – Guide Java](./convert-svg-to-png-with-high-resolution-java-guide/)
+Apprenez à convertir des fichiers SVG en PNG haute résolution en Java avec Aspose.HTML. Guide complet étape par étape.
 
 ## Questions fréquemment posées
 

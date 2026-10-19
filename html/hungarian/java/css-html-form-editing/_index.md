@@ -90,6 +90,8 @@ Ismerje meg, hogyan szerezheti meg egy elem számított stílusait Java-ban az A
 Ismerje meg, hogyan használhatja a query selector-t egy div osztályának kiválasztásához, és hogyan olvashatja ki a kiszámított stílusát Java-ban.
 ### [Hogyan kapjuk meg a CSS tulajdonságot Java-ban – Elem háttérszínének olvasása](./how-to-get-css-property-in-java-read-element-background-colo/)
 Ismerje meg, hogyan olvashatja ki egy HTML elem háttérszínét Java-ban az Aspose.HTML segítségével.
+### [Stílus lekérése Java-ban – Számított CSS lekérdezése az Aspose.HTML segítségével](./how-to-get-style-in-java-retrieve-computed-css-with-aspose-h/)
+Ismerje meg, hogyan szerezhet be számított CSS‑stílusokat Java‑ban az Aspose.HTML könyvtár segítségével, a dinamikus megjelenítéshez.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

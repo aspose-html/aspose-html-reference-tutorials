@@ -130,6 +130,8 @@ Aprende a configurar el agente de usuario para renderizado HTML sin cabeza en As
 
 ### [Cómo establecer DPI en el sandbox de Aspose.HTML – Guía completa para Java](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
 Aprende a configurar la resolución DPI en el sandbox de Aspose.HTML usando Java para obtener PDFs y PNGs de alta calidad.
+### [Cómo usar Sandbox – Establecer agente de usuario y obtener tamaño del viewport](./how-to-use-sandbox-set-user-agent-get-viewport-size/)
+Aprende cómo usar Sandbox para establecer el agente de usuario y obtener el tamaño del viewport en Aspose.HTML para Java.
 
 ---
 

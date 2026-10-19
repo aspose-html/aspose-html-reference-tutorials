@@ -153,6 +153,8 @@ weight: 20
 ### [Εκτέλεση JavaScript σε Java – Εκτέλεση JS από HTML](./execute-javascript-in-java-run-js-from-html/)
 ### [Πώς να φορτώσετε HTML σε Java – Πλήρες παράδειγμα ασύγχρονης Aspose.HTML](./how-to-load-html-in-java-complete-aspose-html-async-example/)
 Μάθετε πώς να φορτώσετε HTML ασύγχρονα σε Java χρησιμοποιώντας το Aspose.HTML, με πλήρη παράδειγμα κώδικα.
+### [Αξιολόγηση JavaScript σε Java – Πλήρης Οδηγός με Aspose.HTML](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
+Μάθετε πώς να εκτελείτε και να αξιολογείτε κώδικα JavaScript σε εφαρμογές Java με το Aspose.HTML σε αυτόν τον πλήρη οδηγό.
 
 ---
 

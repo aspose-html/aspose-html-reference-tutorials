@@ -76,6 +76,10 @@ Ismerd meg, hogyan konfigurálhatod a DPI beállítást az Aspose.HTML sandboxba
 
 **Könyvtár verzió lekérése Java-ban – Gyors útmutató a verzió megjelenítéséhez**  
 Ismerd meg, hogyan jelenítheted meg az Aspose.HTML for Java könyvtár verzióját a kódban.
+### [How to Use Sandbox – Set User Agent & Get Viewport Size](./how-to-use-sandbox-set-user-agent-get-viewport-size/)
+
+**Sandbox használata – Felhasználói ügynök beállítása és a viewport méretének lekérése**  
+Ismerd meg, hogyan állítható be a felhasználói ügynök és hogyan kérhető le a viewport mérete a sandbox környezetben az Aspose.HTML for Java-ban.
 
 ### [Set User Style Sheet in Aspose.HTML for Java](./set-user-style-sheet/)
 

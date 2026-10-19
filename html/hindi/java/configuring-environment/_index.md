@@ -131,6 +131,8 @@ Java में सैंडबॉक्स सेटअप करने की �
 ### [हेडलेस HTML रेंडरिंग के लिए यूज़र एजेंट सेट करें – पूर्ण गाइड](./set-user-agent-for-headless-html-rendering-complete-guide/)
 हेडलेस HTML रेंडरिंग में यूज़र एजेंट कैसे सेट करें, इस चरण‑दर‑चरण गाइड में जानें और रेंडरिंग परिणामों को नियंत्रित करें।
 ### [Aspose.HTML for Java में सैंडबॉक्स में DPI कैसे सेट करें – पूर्ण जावा गाइड](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
+### [Aspose.HTML for Java में सैंडबॉक्स का उपयोग – यूज़र एजेंट सेट करें और व्यूपोर्ट आकार प्राप्त करें](./how-to-use-sandbox-set-user-agent-get-viewport-size/)
+Aspose.HTML for Java में सैंडबॉक्स का उपयोग करके यूज़र एजेंट सेट करना और व्यूपोर्ट आकार प्राप्त करना सीखें।
 
 ---
 

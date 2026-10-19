@@ -77,7 +77,7 @@ Aspose.HTML for Java를 사용하면 HTML 문서를 다양한 이미지 형식�
 ## 일반적인 사용 사례 및 장점
 - **자동 보고서 생성** – 실시간 웹 콘텐츠를 PDF 또는 Word 보고서에 이미지로 삽입합니다.  
 - **이메일 썸네일** – 외부 서비스 없이 뉴스레터용 미리보기 이미지를 생성합니다.  
-- **레거시 시스템 마이그레이션** – 웹 기반 UI 구성 요소를 오래된 플랫폼용 정적 이미지로 변환합니다.  
+- **레거시 시스템 마이그레이션** – 웹 기반 UI 구성 요소를 오래된 플랫폼용 정적 이미지로 변환합니다.
 - **콘텐츠 보관** – 규정 준수를 위해 웹 페이지의 정확한 시각적 스냅샷을 보존합니다.
 
 ## 문제 해결 팁
@@ -140,6 +140,8 @@ Aspose.HTML for Java를 사용해 SVG를 GIF로 변환하는 방법을 단계별
 ### [샌드박스를 사용하여 웹페이지 스크린샷 캡처하는 방법](./how-to-use-sandbox-to-capture-webpage-screenshot/)
 ### [Java에서 SVG를 사용해 다중 페이지 TIFF 생성 – 단계별 가이드](./create-multipage-tiff-from-svg-in-java-step-by-step-guide/)
 Aspose.HTML for Java를 사용해 SVG에서 다중 페이지 TIFF를 생성하는 방법을 단계별로 안내합니다.
+### [고해상도 SVG를 PNG로 변환 – Java 가이드](./convert-svg-to-png-with-high-resolution-java-guide/)
+Aspose.HTML for Java를 사용해 SVG 파일을 고해상도 PNG 이미지로 변환하는 단계별 가이드입니다.
 
 ### [Java에서 HTML을 PNG로 생성 – 전체 단계별 가이드](./create-png-from-html-in-java-full-step-by-step-guide/)
 Java에서 Aspose.HTML를 활용해 HTML을 PNG 파일로 변환하는 전체 과정을 단계별로 안내합니다.

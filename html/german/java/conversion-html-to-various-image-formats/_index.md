@@ -163,6 +163,8 @@ Erfahren Sie, wie Sie SVG‑Grafiken mit Aspose.HTML for Java in animierte GIF�
 Erfahren Sie, wie Sie mit der Aspose.HTML Sandbox Webseiten‑Screenshots erstellen – Schritt‑für‑Schritt‑Anleitung.
 ### [Mehrseitiges TIFF aus SVG in Java erstellen – Schritt‑für‑Schritt‑Anleitung](./create-multipage-tiff-from-svg-in-java-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML for Java ein mehrseitiges TIFF aus SVG-Dateien erstellen – umfassende Schritt‑für‑Step‑Anleitung.
+### [SVG in PNG mit hoher Auflösung konvertieren – Java‑Leitfaden](./convert-svg-to-png-with-high-resolution-java-guide/)
+Erfahren Sie, wie Sie SVG‑Dateien mit Aspose.HTML for Java in hochauflösende PNG‑Bilder konvertieren – Schritt‑für‑Schritt‑Anleitung.
 
 ## Häufig gestellte Fragen
 

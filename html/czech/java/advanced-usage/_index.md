@@ -161,6 +161,8 @@ Naučte se, jak použít top‑level await a funkci delay v JavaScriptu pro asyn
 Naučte se, jak spustit JavaScript kód z HTML v Javě pomocí Aspose.HTML, včetně nastavení a praktických příkladů.
 ### [Jak načíst HTML v Javě – Kompletní asynchronní příklad Aspose.HTML](./how-to-load-html-in-java-complete-aspose-html-async-example/)
 Naučte se asynchronně načíst HTML v Javě pomocí Aspose.HTML a získat plnou kontrolu nad procesem načítání.
+### [Vyhodnocení JavaScriptu v Javě – Kompletní průvodce s Aspose.HTML](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
+Naučte se spouštět a vyhodnocovat JavaScript v Javě pomocí Aspose.HTML, včetně nastavení prostředí a praktických ukázek.
 
 ---
 

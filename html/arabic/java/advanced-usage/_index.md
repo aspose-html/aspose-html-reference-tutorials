@@ -173,6 +173,9 @@ weight: 20
 ### [كيفية تحميل HTML في Java – مثال كامل غير متزامن Aspose.HTML](./how-to-load-html-in-java-complete-aspose-html-async-example/)
 تعلم كيفية تحميل مستندات HTML بشكل غير متزامن في Java باستخدام Aspose.HTML مع مثال كامل خطوة بخطوة.
 
+### [تقييم JavaScript في Java – دليل كامل مع Aspose.HTML](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
+تعلم كيفية تنفيذ كود JavaScript داخل تطبيقات Java باستخدام Aspose.HTML خطوة بخطوة.
+
 ---
 
 **آخر تحديث:** 2025-11-29  

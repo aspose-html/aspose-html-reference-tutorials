@@ -230,6 +230,8 @@ weight: 25
 ### [Πώς να ενσωματώσετε εικόνες κατά τη μετατροπή MHTML σε PDF – Οδηγός Aspose](./how-to-embed-images-when-converting-mhtml-to-pdf-aspose-guid/)
 ### [Δημιουργία PDF από HTML σε Java – Μετατροπή HTML σε PDF Java](./create-pdf-from-html-in-java-convert-html-to-pdf-java/)
 Μάθετε πώς να δημιουργήσετε PDF από HTML σε Java χρησιμοποιώντας Aspose.HTML, με βήμα‑βήμα οδηγίες και παραμετροποίηση.
+### [Μετατροπή HTML σε PDF – Προσαρμοσμένο Μέγεθος Σελίδας & Περιθώρια σε Java](./convert-html-to-pdf-custom-page-size-margins-in-java/)
+### [Δημιουργία PDF από HTML σε Java – Οδηγός Μαζικής Μετατροπής](./create-pdf-from-html-in-java-batch-conversion-guide/)
 
 ## Συχνές Ερωτήσεις
 

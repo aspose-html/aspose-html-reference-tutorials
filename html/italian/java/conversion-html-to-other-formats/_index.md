@@ -92,6 +92,7 @@ In conclusione, padroneggiare **html to pdf java** e l'insieme più ampio di con
 ### [Converti HTML in PDF con Java – Guida passo‑per‑passo](./convert-html-to-pdf-with-java-step-by-step-guide/)
 ### [Crea PDF da HTML in Java – Guida completa Aspose](./create-pdf-from-html-in-java-complete-aspose-guide/)
 ### [Converti HTML in PDF in Java – Guida completa Sandbox](./convert-html-to-pdf-in-java-full-sandbox-guide/)
+### [Converti HTML in PDF – Dimensioni della pagina personalizzate e margini in Java](./convert-html-to-pdf-custom-page-size-margins-in-java/)
 ### [Conversione da HTML a MHTML](./convert-html-to-mhtml/)
 ### [Converti HTML in MHTML con Aspose.HTML – Guida completa Java](./convert-html-to-mhtml-with-aspose-html-complete-java-guide/)
 ### [Converti HTML in PDF con Java – Guida completa a PDF, PNG, DOCX e Markdown](./convert-html-to-pdf-with-java-full-guide-to-pdf-png-docx-mar/)
@@ -170,6 +171,7 @@ Imposta le dimensioni della pagina PDF durante la conversione da HTML a PDF in J
 ### [Come utilizzare Sandbox per la conversione HTML‑to‑PDF in Java](./how-to-use-sandbox-for-html-to-pdf-conversion-in-java/)
 ### [Java thread pool tutorial – Converti più file HTML in PDF](./java-thread-pool-tutorial-convert-multiple-html-files-to-pdf/)
 ### [Crea PDF da HTML in Java – Converti HTML in PDF Java](./create-pdf-from-html-in-java-convert-html-to-pdf-java/)
+### [Crea PDF da HTML in Java – Guida alla conversione batch](./create-pdf-from-html-in-java-batch-conversion-guide/)
 
 ## Domande frequenti
 

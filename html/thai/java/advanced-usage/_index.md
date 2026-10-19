@@ -158,9 +158,10 @@ Aspose.HTML ให้คุณแนบ `DomMutationObserver` ไปยังโ
 เรียนรู้วิธีรันโค้ด JavaScript ที่ฝังอยู่ในไฟล์ HTML จากแอปพลิเคชัน Java ด้วย Aspose.HTML  
 ### [วิธีโหลด HTML ใน Java – ตัวอย่าง Aspose.HTML แบบอะซิงโครนัสฉบับสมบูรณ์](./how-to-load-html-in-java-complete-aspose-html-async-example/)
 เรียนรู้วิธีโหลดไฟล์ HTML อย่างไม่บล็อกใน Java ด้วย Aspose.HTML แบบอะซิงโครนัส พร้อมตัวอย่างครบถ้วน  
+### [ประเมิน JavaScript ใน Java – คู่มือฉบับสมบูรณ์กับ Aspose.HTML](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
+เรียนรู้วิธีประเมินและรันโค้ด JavaScript ภายในแอปพลิเคชัน Java ด้วย Aspose.HTML อย่างละเอียด  
 
 ---
-
 **อัปเดตล่าสุด:** 2025-11-29  
 **ทดสอบด้วย:** Aspose.HTML for Java 24.11  
 **ผู้เขียน:** Aspose  

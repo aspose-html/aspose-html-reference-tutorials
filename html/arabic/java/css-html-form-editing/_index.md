@@ -86,6 +86,7 @@ url: /ar/java/css-html-form-editing/
 ### [محدد الاستعلام div class – كيفية اختيار div حسب الفئة والحصول على النمط المحسوب في Java](./query-selector-div-class-how-to-select-a-div-by-class-and-ge/)
 ### [كيفية قراءة CSS في Java – دليل شامل باستخدام Aspose.HTML](./how-to-read-css-in-java-complete-guide-using-aspose-html/)
 ### [كيفية الحصول على خاصية CSS في Java – قراءة لون خلفية العنصر](./how-to-get-css-property-in-java-read-element-background-colo/)
+### [كيفية الحصول على النمط في Java – استرجاع CSS المحسوب باستخدام Aspose.HTML](./how-to-get-style-in-java-retrieve-computed-css-with-aspose-h/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

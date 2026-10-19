@@ -173,6 +173,8 @@ Leer hoe je de device pixel ratio kunt instellen bij het renderen van HTML naar 
 Leer hoe je met Aspose.HTML Sandbox een screenshot van een webpagina kunt vastleggen in Java.
 ### [Maak een meerpagina‑tiff van SVG in Java – Stapsgewijze gids](./create-multipage-tiff-from-svg-in-java-step-by-step-guide/)
 Leer hoe je met Aspose.HTML for Java een meerpagina‑tiff maakt vanuit SVG‑bestanden, stap voor stap.
+### [SVG naar PNG converteren met hoge resolutie – Java-gids](./convert-svg-to-png-with-high-resolution-java-guide/)
+Leer hoe je SVG naar PNG met hoge resolutie kunt converteren in Java met Aspose.HTML. Een stapsgewijze gids voor hoogwaardige afbeeldingen.
 
 ## Veelgestelde vragen
 

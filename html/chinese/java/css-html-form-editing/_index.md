@@ -93,6 +93,8 @@ url: /zh/java/css-html-form-editing/
 本指南详细说明如何使用 Aspose.HTML 在 Java 中读取和解析 CSS 样式表，帮助开发者实现样式分析与处理。
 ### [如何在 Java 中获取 CSS 属性 – 读取元素背景颜色](./how-to-get-css-property-in-java-read-element-background-colo/)
 本教程演示如何使用 Aspose.HTML for Java 读取元素的背景颜色属性。
+### [在 Java 中获取样式 – 使用 Aspose.HTML 检索计算后的 CSS](./how-to-get-style-in-java-retrieve-computed-css-with-aspose-h/)
+本教程演示如何使用 Aspose.HTML 在 Java 中获取元素的计算样式，实现 CSS 属性的读取和分析。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

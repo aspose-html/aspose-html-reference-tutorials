@@ -93,6 +93,8 @@ Pelajari cara menggunakan query selector untuk memilih elemen div berdasarkan ke
 Pelajari cara membaca CSS di Java secara terprogram menggunakan Aspose.HTML dalam panduan lengkap ini.
 ### [Cara Mendapatkan Properti CSS di Java – Membaca Warna Latar Belakang Elemen](./how-to-get-css-property-in-java-read-element-background-colo/)
 Pelajari cara mengambil nilai properti CSS, khususnya warna latar belakang elemen, menggunakan Aspose.HTML untuk Java.
+### [Cara Mendapatkan Gaya di Java – Mengambil CSS yang Dihitung dengan Aspose.HTML](./how-to-get-style-in-java-retrieve-computed-css-with-aspose-h/)
+Pelajari cara mengambil properti CSS yang dihitung pada elemen menggunakan Aspose.HTML untuk Java dalam panduan praktis ini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

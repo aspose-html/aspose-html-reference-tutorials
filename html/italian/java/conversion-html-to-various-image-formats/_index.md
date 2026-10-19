@@ -175,6 +175,8 @@ Scopri come usare la sandbox di Aspose.HTML per catturare screenshot di pagine w
 
 ### [Crea GIF da SVG con Java – Guida completa passo‑passo](./create-gif-from-svg-with-java-full-step-by-step-guide/)
 Scopri come generare una GIF animata a partire da un file SVG usando Aspose.HTML for Java, con istruzioni dettagliate passo‑passo.
+### [Converti SVG in PNG ad alta risoluzione – Guida Java](./convert-svg-to-png-with-high-resolution-java-guide/)
+Scopri come convertire file SVG in PNG ad alta risoluzione usando Aspose.HTML for Java, con esempi passo‑passo e impostazioni di qualità.
 
 ## Domande frequenti
 

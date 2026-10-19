@@ -177,6 +177,9 @@ Aspose.HTML 允许您将 `DomMutationObserver` 附加到任意节点。这对于
 ### [如何在 Java 中加载 HTML – 完整的 Aspose.HTML 异步示例](./how-to-load-html-in-java-complete-aspose-html-async-example/)
 演示如何使用 Aspose.HTML 的异步 API 在 Java 中加载 HTML 并进行后续处理的完整示例。
 
+### [在 Java 中评估 JavaScript – 完整指南](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
+学习如何使用 Aspose.HTML 在 Java 中执行 JavaScript，涵盖 Rhino、Nashorn 与 GraalVM 等实现。
+
 ---
 **最后更新：** 2025-11-29  
 **测试环境：** Aspose.HTML for Java 24.11  

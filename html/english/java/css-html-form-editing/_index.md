@@ -94,6 +94,8 @@ Learn how to select a div by its class and retrieve its computed style using Asp
 Learn how to read and parse CSS files in Java using Aspose.HTML in this complete step-by-step guide.
 ### [How to Get CSS Property in Java – Read Element Background Color](./how-to-get-css-property-in-java-read-element-background-colo/)
 Learn how to retrieve CSS properties such as background color of an element using Aspose.HTML for Java in this practical guide.
+### [How to Get Style in Java – Retrieve Computed CSS with Aspose.HTML](./how-to-get-style-in-java-retrieve-computed-css-with-aspose-h/)
+Learn how to retrieve computed CSS styles in Java using Aspose.HTML, enabling you to inspect and manipulate element styling programmatically.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

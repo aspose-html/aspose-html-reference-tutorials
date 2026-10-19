@@ -159,6 +159,8 @@ Aspose.HTML позволяет прикрепить `DomMutationObserver` к л�
 Узнайте, как запускать JavaScript‑код из HTML в Java‑приложениях с помощью Aspose.HTML for Java.
 ### [Как загрузить HTML в Java – Полный пример асинхронного Aspose.HTML](./how-to-load-html-in-java-complete-aspose-html-async-example/)
 Узнайте, как асинхронно загружать HTML‑документы в Java с помощью Aspose.HTML, используя полные примеры кода.
+### [Оценка JavaScript в Java – Полное руководство с Aspose.HTML](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
+Узнайте, как запускать и отлаживать JavaScript‑код из Java‑приложений с помощью Aspose.HTML.
 
 ---
 

@@ -169,6 +169,10 @@ Lär dig hur du använder en Java‑trådpool för att konvertera flera HTML‑f
 ### [Bädda in bilder vid konvertering av MHTML till PDF – Aspose‑guide](./how-to-embed-images-when-converting-mhtml-to-pdf-aspose-guid/)
 ### [Skapa PDF från HTML i Java – Konvertera HTML till PDF Java](./create-pdf-from-html-in-java-convert-html-to-pdf-java/)
 Lär dig skapa PDF-filer från HTML i Java med Aspose.HTML – steg‑för‑steg‑instruktioner.
+### [Konvertera HTML till PDF – Anpassad sidstorlek och marginaler i Java](./convert-html-to-pdf-custom-page-size-margins-in-java/)
+Lär dig hur du ställer in egen sidstorlek och marginaler när du konverterar HTML till PDF i Java med Aspose.HTML.
+### [Skapa PDF från HTML i Java – Batchkonverteringsguide](./create-pdf-from-html-in-java-batch-conversion-guide/)
+Lär dig hur du konverterar flera HTML‑filer till PDF i Java med Aspose.HTML i en batch‑process.
 
 ### [Konvertera HTML till PDF i Java – Snabb Aspose.HTML‑guide](./convert-html-to-pdf-in-java-quick-aspose-html-guide/)
 Snabb guide för att konvertera HTML till PDF i Java med Aspose.HTML, med enkla steg‑för‑steg‑instruktioner.

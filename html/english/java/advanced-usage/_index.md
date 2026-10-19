@@ -176,6 +176,8 @@ Learn how to expose Java objects to JavaScript and execute JavaScript code from 
 Learn how to retrieve the HTML title in Java, render a page in a sandbox with a specific screen width using Aspose.HTML.
 ### [Execute JavaScript in Java – Run JS from HTML](./execute-javascript-in-java-run-js-from-html/)
 Learn how to execute JavaScript embedded in HTML from Java using Aspose.HTML, covering setup, code examples, and best practices.
+### [Evaluate JavaScript in Java – Complete Guide with Aspose.HTML](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
+Learn how to evaluate JavaScript code within Java using Aspose.HTML, covering setup, execution, and best practices.
 
 ---
 

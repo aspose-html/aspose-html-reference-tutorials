@@ -93,6 +93,8 @@ url: /th/java/css-html-form-editing/
 เรียนรู้วิธีอ่านและประมวลผลไฟล์ CSS ใน Java ด้วย Aspose.HTML อย่างละเอียดในคู่มือฉบับสมบูรณ์นี้
 ### [วิธีดึงคุณสมบัติ CSS ใน Java – อ่านสีพื้นหลังขององค์ประกอบ](./how-to-get-css-property-in-java-read-element-background-colo/)
 เรียนรู้วิธีดึงค่า CSS เช่นสีพื้นหลังขององค์ประกอบ HTML ด้วย Aspose.HTML สำหรับ Java อย่างง่ายและเร็ว
+### [วิธีรับสไตล์ใน Java – ดึง CSS ที่คำนวณแล้วด้วย Aspose.HTML](./how-to-get-style-in-java-retrieve-computed-css-with-aspose-h/)
+เรียนรู้วิธีใช้ Aspose.HTML สำหรับ Java เพื่อดึงค่า CSS ที่คำนวณแล้วขององค์ประกอบบนหน้าเว็บ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -109,6 +109,8 @@ Aspose.HTML का उपयोग करके Java में कई HTML फ�
 Aspose.HTML का उपयोग करके HTML को कस्टम पेज आकार वाले PDF में बदलें।
 ### [जावा में HTML‑to‑PDF रूपांतरण के लिए सैंडबॉक्स का उपयोग कैसे करें](./how-to-use-sandbox-for-html-to-pdf-conversion-in-java/)
 Aspose.HTML सैंडबॉक्स का उपयोग करके जावा में सुरक्षित रूप से HTML को PDF में बदलने के चरण‑दर‑चरण निर्देश।
+### [Java में HTML से PDF बनाना – बैच रूपांतरण गाइड](./create-pdf-from-html-in-java-batch-conversion-guide/)
+Aspose.HTML for Java का उपयोग करके कई HTML फ़ाइलों को एक साथ PDF में बदलने की प्रक्रिया सीखें।
 
 ### [HTML को MHTML में बदलना](./convert-html-to-mhtml/)
 ### [Java में HTML से PDF बनाएं – पूर्ण Aspose गाइड](./create-pdf-from-html-in-java-complete-aspose-guide/)
@@ -256,6 +258,9 @@ Aspose.HTML का उपयोग करके Java में पूर्ण �
 
 ### [HTML को PDF ट्यूटोरियल – Java Fixed Thread Pool के साथ HTML को PDF में बदलें](./html-to-pdf-tutorial-convert-html-to-pdf-with-java-fixed-thr/)
 Java Fixed Thread Pool का उपयोग करके कई HTML फ़ाइलों को समानांतर PDF में बदलने की चरण‑दर‑चरण गाइड।
+
+### [HTML को PDF में बदलें – जावा में कस्टम पेज आकार और मार्जिन](./convert-html-to-pdf-custom-page-size-margins-in-java/)
+Aspose.HTML for Java का उपयोग करके पेज आकार और मार्जिन को कस्टमाइज़ करके HTML को PDF में बदलें।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

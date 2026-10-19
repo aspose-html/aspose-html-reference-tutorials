@@ -134,7 +134,6 @@ Erfahren Sie, wie Sie die XPS‑Seitengröße mit Aspose.HTML für Java anpassen
 ### [Java aus JavaScript aufrufen – Host‑Objekt hinzufügen und JavaScript in Java ausführen](./call-java-from-javascript-add-host-object-and-run-javascript/)
 Erfahren Sie, wie Sie ein Host‑Objekt hinzufügen, um Java‑Methoden aus JavaScript aufzurufen und JavaScript‑Code in Java auszuführen.
 ### [Wie man JavaScript in Java ausführt – Komplettanleitung](./how-to-run-javascript-in-java-complete-guide/)
-Erfahren Sie, wie Sie JavaScript-Code innerhalb von Java-Anwendungen ausführen und integrieren können.
 ### [Java aus JavaScript aufrufen – Komplettanleitung zu Async Fetch & JS‑Engine‑Ausführung](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
 Erfahren Sie, wie Sie Java‑Methoden aus JavaScript asynchron aufrufen und die Java‑Script‑Engine in Aspose.HTML für Java nutzen.
 
@@ -164,6 +163,8 @@ Erfahren Sie, wie Sie das Top‑Level‑Await‑Muster mit einer Verzögerungsfu
 Erfahren Sie, wie Sie JavaScript‑Code aus einer HTML‑Datei in einer Java‑Anwendung ausführen können.
 ### [HTML in Java laden – Komplettes Aspose.HTML Async Beispiel](./how-to-load-html-in-java-complete-aspose-html-async-example/)
 Erfahren Sie, wie Sie HTML asynchron in Java mit Aspose.HTML laden und verarbeiten – Schritt‑für‑Schritt‑Anleitung.
+### [JavaScript in Java auswerten – Komplettanleitung mit Aspose.HTML](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
+Erfahren Sie, wie Sie JavaScript-Code in Java mit Aspose.HTML ausführen und integrieren können.
 
 ---
 

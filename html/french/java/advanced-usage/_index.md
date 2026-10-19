@@ -129,7 +129,6 @@ Apprenez à ajuster la taille de page PDF avec Aspose.HTML for Java. Créez des 
 ### [Ajuster la taille de page XPS avec Aspose.HTML for Java](./adjust-xps-page-size/)
 Apprenez à ajuster la taille de page XPS avec Aspose.HTML for Java. Contrôlez facilement les dimensions de sortie de vos documents XPS.  
 ### [Comment exécuter du JavaScript en Java – Guide complet](./how-to-run-javascript-in-java-complete-guide/)
-Apprenez à exécuter du code JavaScript depuis Java en utilisant Aspose.HTML, avec des exemples complets et des meilleures pratiques.  
 ### [Appeler Java depuis JavaScript – Guide complet sur l’appel asynchrone et l’exécution du moteur JS](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
 Apprenez à appeler du code Java depuis JavaScript, gérer les appels asynchrones avec fetch et exploiter le moteur JavaScript d’Aspose.HTML.
 
@@ -164,6 +163,8 @@ Apprenez à utiliser top‑level await avec une fonction de délai await en Java
 Apprenez à exécuter du code JavaScript intégré dans un fichier HTML depuis Java avec Aspose.HTML, incluant des exemples pratiques.  
 ### [Comment charger du HTML en Java – Exemple complet Aspose.HTML Async](./how-to-load-html-in-java-complete-aspose-html-async-example/)
 Apprenez à charger du HTML en Java de façon asynchrone avec Aspose.HTML, incluant un exemple complet.
+### [Évaluer JavaScript en Java – Guide complet avec Aspose.HTML](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
+Apprenez à évaluer du code JavaScript depuis Java en utilisant Aspose.HTML, avec des exemples détaillés et les meilleures pratiques.  
 
 ---
 

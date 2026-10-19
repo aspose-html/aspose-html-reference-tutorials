@@ -134,6 +134,8 @@ Aspose.HTML for Java のライブラリバージョンを取得し、表示す�
 ### [Aspose.HTML for Java でサンドボックスの DPI を設定する](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
 Aspose.HTML のサンドボックス環境で DPI を設定し、PDF や PNG の解像度を最適化する方法をステップバイステップで解説します。
 
+### [Aspose.HTML for Java でサンドボックスを使用する – ユーザーエージェントの設定とビューポートサイズの取得](./how-to-use-sandbox-set-user-agent-get-viewport-size/)
+
 ---
 
 **最終更新日:** 2025-12-03  

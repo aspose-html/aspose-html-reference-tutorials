@@ -156,6 +156,8 @@ Aprenda a definir a proporção de pixels do dispositivo ao renderizar HTML em P
 Aprenda a salvar uma página HTML como PNG em Java usando Aspose.HTML. Guia completo passo a passo.
 ### [Como usar o Sandbox para capturar captura de tela de página da web](./how-to-use-sandbox-to-capture-webpage-screenshot/)
 Aprenda a usar o Sandbox para capturar screenshots de páginas web em Java com Aspose.HTML.
+### [Convertendo SVG para PNG com alta resolução – Guia Java](./convert-svg-to-png-with-high-resolution-java-guide/)
+Aprenda a converter arquivos SVG em PNG de alta resolução usando Aspose.HTML for Java. Guia passo a passo com código exemplo.
 
 ## Perguntas Frequentes
 

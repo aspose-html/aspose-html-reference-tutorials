@@ -147,6 +147,8 @@ Ismerje meg, hogyan készíthet képernyőképet weboldalakról a Sandbox körny
 Ismerje meg, hogyan hozhat létre GIF képet SVG fájlból Java‑ban az Aspose.HTML segítségével. Részletes, lépésről‑lépésre útmutató.
 ### [Multipage TIFF létrehozása SVG‑ből Java‑ban – Lépésről‑lépésre útmutató](./create-multipage-tiff-from-svg-in-java-step-by-step-guide/)
 Ismerje meg, hogyan hozhat létre többoldalas TIFF fájlt SVG‑ből Java‑ban az Aspose.HTML segítségével. Részletes útmutató a konverzióhoz.
+### [SVG konvertálása PNG‑re nagy felbontással – Java útmutató](./convert-svg-to-png-with-high-resolution-java-guide/)
+Ismerje meg, hogyan konvertálhat SVG‑t PNG‑re nagy felbontásban Java‑ban az Aspose.HTML segítségével.
 
 ### [HTML renderelése PNG-be – Teljes útmutató Java fejlesztőknek](./how-to-render-html-to-png-complete-guide-for-java-developers/)
 Ismerje meg, hogyan renderelhet HTML-t PNG képpé Java‑ban az Aspose.HTML segítségével, részletes, lépésről‑lépésre útmutatóval.

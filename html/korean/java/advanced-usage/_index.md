@@ -149,6 +149,8 @@ JavaScript에서 top-level await을 사용해 await delay를 구현하는 방법
 ### [Java에서 JavaScript 실행 – HTML에서 JS 실행](./execute-javascript-in-java-run-js-from-html/)
 Java 애플리케이션에서 HTML에 포함된 JavaScript 코드를 실행하는 방법을 단계별로 안내합니다.
 ### [Java에서 HTML 로드하기 – 완전 Aspose.HTML 비동기 예제](./how-to-load-html-in-java-complete-aspose-html-async-example/)
+### [Java에서 JavaScript 평가하기 – Aspose.HTML와 함께하는 완전 가이드](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
+Aspose.HTML를 사용해 Java 애플리케이션에서 JavaScript 코드를 평가하고 실행하는 방법을 단계별로 안내합니다.
 
 ---
 

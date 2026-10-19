@@ -134,6 +134,9 @@ Naučte se, jak nastavit User Agent pro headless HTML renderování v Aspose.HTM
 ### [Extrahovat název z HTML v Javě – Kompletní průvodce sandboxem](./extract-title-from-html-in-java-complete-sandbox-guide/)
 Naučte se, jak pomocí Aspose.HTML v Javě extrahovat název stránky a bezpečně jej zpracovat v sandboxu.
 
+### [Jak používat sandbox – nastavit User Agent a získat velikost viewportu](./how-to-use-sandbox-set-user-agent-get-viewport-size/)
+Naučte se, jak nastavit User Agent a získat velikost viewportu v sandboxu Aspose.HTML pro Java.
+
 ---
 
 **Last Updated:** 2025-12-03  

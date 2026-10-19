@@ -121,6 +121,8 @@ Aspose.HTML for Java에서 헤드리스 HTML 렌더링 시 사용자 에이전�
 ### [Aspose.HTML for Java에서 HTML 제목 추출 – 완전 샌드박스 가이드](./extract-title-from-html-in-java-complete-sandbox-guide/)
 ### [Aspose.HTML 샌드박스에서 DPI 설정 방법 – 완전한 Java 가이드](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
 Aspose.HTML 샌드박스에서 DPI를 설정하여 PDF 출력 품질을 제어하는 방법을 단계별로 안내합니다.
+### [샌드박스 사용 방법 – 사용자 에이전트 설정 및 뷰포트 크기 가져오기](./how-to-use-sandbox-set-user-agent-get-viewport-size/)
+Aspose.HTML for Java에서 샌드박스 내 사용자 에이전트를 지정하고 뷰포트 크기를 얻는 방법을 단계별로 배웁니다.
 
 ---
 

@@ -95,6 +95,8 @@ Apprenez à sélectionner une div par sa classe et à récupérer son style calc
 Apprenez à analyser et extraire les styles CSS à partir de documents HTML en Java grâce à Aspose.HTML, étape par étape.
 ### [Comment obtenir une propriété CSS en Java – Lire la couleur d'arrière-plan d'un élément](./how-to-get-css-property-in-java-read-element-background-colo/)
 Apprenez à récupérer la couleur d'arrière-plan d'un élément HTML en Java avec Aspose.HTML.
+### [Comment obtenir le style en Java – Récupérer le CSS calculé avec Aspose.HTML](./how-to-get-style-in-java-retrieve-computed-css-with-aspose-h/)
+Apprenez à récupérer les propriétés CSS calculées d'un élément en Java à l'aide d'Aspose.HTML, pour analyser et manipuler le style dynamique.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

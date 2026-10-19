@@ -114,6 +114,8 @@ Java’da aynı anda birden çok HTML dosyasını PDF’ye dönüştürerek topl
 ### [Java’da PDF Sayfa Boyutunu Ayarlama – Java HTML'den PDF Kılavuzu](./set-pdf-page-size-in-java-java-html-to-pdf-guide/)
 ### [PDF Özel Boyut Oluşturma – Aspose ile HTML'den PDF'ye Dönüştürme](./create-pdf-custom-size-convert-html-to-pdf-with-aspose/)
 HTML'den PDF oluştururken sayfa boyutunu özelleştirmeyi adım adım gösterir.
+### [HTML'yi PDF'ye Dönüştürme – Java’da Özel Sayfa Boyutu ve Kenar Boşlukları](./convert-html-to-pdf-custom-page-size-margins-in-java/)
+Java'da HTML'den PDF'ye dönüşürken özel sayfa boyutu ve kenar boşluklarını nasıl ayarlayacağınızı adım adım gösterir.
 ### [HTML'yi MHTML'ye Dönüştürme](./convert-html-to-mhtml/)
 Aspose.HTML for Java ile HTML'yi MHTML'ye kolayca dönüştürün. Verimli HTML‑to‑MHTML dönüşümü için adım adım rehberimizi izleyin.
 ### [Aspose.HTML ile HTML'yi MHTML'ye Dönüştürme – Tam Java Kılavuzu](./convert-html-to-mhtml-with-aspose-html-complete-java-guide/)
@@ -172,6 +174,8 @@ Java kullanarak HTML içeriğini Markdown formatına dönüştürmeyi adım adı
 Java iş parçacığı havuzu kullanarak birden çok HTML dosyasını aynı anda PDF'ye dönüştürmeyi öğrenin.
 ### [HTML'den PDF Oluşturma Java’da – HTML'yi PDF'ye Dönüştürme](./create-pdf-from-html-in-java-convert-html-to-pdf-java/)
 Aspose.HTML for Java kullanarak HTML dosyasından yüksek kaliteli PDF oluşturmayı adım adım öğrenin.
+### [Java’da HTML’den PDF Oluşturma – Toplu Dönüştürme Kılavuzu](./create-pdf-from-html-in-java-batch-conversion-guide/)
+Java’da birden çok HTML dosyasını toplu olarak PDF’ye dönüştürmeyi adım adım gösterir.
 
 ### [PDF'ye Yazı Tipi Gömme – Aspose HTML'den PDF'ye Tam Kılavuz (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
 Aspose.HTML for Java kullanarak PDF dosyalarına gömülü yazı tipleri eklemeyi adım adım öğrenin.

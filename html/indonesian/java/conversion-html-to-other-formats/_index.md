@@ -128,6 +128,11 @@ Panduan lengkap mengonversi HTML ke PDF di Java dengan pengaturan ukuran kertas 
 Pelajari cara menyematkan font ke dalam PDF menggunakan Aspose.HTML for Java untuk menghasilkan dokumen dengan tampilan tepat.
 ### [Mengonversi HTML ke PDF dengan Java – Panduan Langkah‑demi‑Langkah](./convert-html-to-pdf-with-java-step-by-step-guide/)
 Panduan langkah‑demi‑langkah untuk mengonversi HTML ke PDF menggunakan Aspose.HTML for Java dengan contoh kode lengkap.
+### [Mengonversi HTML ke PDF – Ukuran Halaman dan Margin Kustom di Java](./convert-html-to-pdf-custom-page-size-margins-in-java/)
+Pelajari cara mengatur ukuran halaman dan margin khusus saat mengonversi HTML ke PDF menggunakan Aspose.HTML for Java.
+
+### [Buat PDF dari HTML di Java – Panduan Konversi Batch](./create-pdf-from-html-in-java-batch-conversion-guide/)
+Panduan langkah‑demi‑langkah untuk mengonversi banyak file HTML menjadi PDF secara batch menggunakan Aspose.HTML for Java.
 
 ### [Mengonversi HTML ke MHTML](./convert-html-to-mhtml/)
 Konversi HTML ke MHTML dengan mudah menggunakan Aspose.HTML untuk Java. Ikuti panduan langkah‑demi‑Langkah kami untuk konversi HTML‑ke‑MHTML yang efisien.

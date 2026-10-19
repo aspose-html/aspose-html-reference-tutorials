@@ -132,6 +132,7 @@ Scopri come impostare l'User Agent per il rendering HTML headless in Aspose.HTML
 Scopri come estrarre il titolo da un documento HTML in Java utilizzando il sandbox di Aspose.HTML per garantire sicurezza e precisione.
 ### [Come impostare DPI in Aspose.HTML Sandbox – Guida completa Java](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
 Scopri come impostare la risoluzione DPI nel sandbox di Aspose.HTML per Java, garantendo rendering di alta qualità per PDF e PNG.
+### [Come utilizzare il sandbox – Imposta User Agent e ottieni la dimensione della viewport](./how-to-use-sandbox-set-user-agent-get-viewport-size/)
 
 ---
 

@@ -158,6 +158,8 @@ Hướng dẫn cách sử dụng top-level await với hàm delay trong JavaScri
 Hướng dẫn cách thực thi mã JavaScript từ HTML trong môi trường Java bằng Aspose.HTML.
 ### [Cách tải HTML trong Java – Ví dụ đầy đủ Aspose.HTML bất đồng bộ](./how-to-load-html-in-java-complete-aspose-html-async-example/)
 Hướng dẫn chi tiết cách tải tài liệu HTML bất đồng bộ trong Java bằng Aspose.HTML, bao gồm cấu hình và ví dụ thực tế.
+### [Đánh giá JavaScript trong Java – Hướng dẫn toàn diện với Aspose.HTML](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
+Hướng dẫn chi tiết cách thực thi JavaScript trong Java bằng Aspose.HTML, bao gồm ví dụ và cấu hình môi trường.
 
 ---
 

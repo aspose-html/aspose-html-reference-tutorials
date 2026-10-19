@@ -159,6 +159,8 @@ Poznaj, jak zastosować top‑level await i funkcję delay w kodzie JavaScript p
 Dowiedz się, jak uruchomić kod JavaScript z HTML w aplikacji Java przy użyciu Aspose.HTML.
 ### [Jak załadować HTML w Javie – Kompletny asynchroniczny przykład Aspose.HTML](./how-to-load-html-in-java-complete-aspose-html-async-example/)
 Poznaj pełny asynchroniczny przykład ładowania dokumentu HTML w Javie przy użyciu Aspose.HTML, krok po kroku.
+### [Ewaluacja JavaScript w Javie – Kompletny przewodnik z Aspose.HTML](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
+Poznaj, jak ocenić i uruchomić kod JavaScript w środowisku Java przy pomocy Aspose.HTML, od konfiguracji po wywołanie skryptu.
 
 ---
 

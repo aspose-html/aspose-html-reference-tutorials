@@ -130,6 +130,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML für Java den Dokumenttitel aus HTML extra
 
 ### [Wie man DPI in Aspose.HTML Sandbox festlegt – Vollständige Java‑Anleitung](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
 Erfahren Sie, wie Sie die DPI‑Einstellungen in der Aspose.HTML Sandbox für Java konfigurieren, um hochauflösende PDFs zu erzeugen.
+### [Wie man Sandbox verwendet – User‑Agent setzen & Viewport‑Größe ermitteln](./how-to-use-sandbox-set-user-agent-get-viewport-size/)
+Erfahren Sie, wie Sie in der Sandbox den User‑Agent setzen und die Viewport‑Größe ermitteln, um das Rendering zu steuern.
 
 ---
 

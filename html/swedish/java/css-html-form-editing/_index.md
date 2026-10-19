@@ -92,6 +92,8 @@ Lär dig hur du använder querySelector för att välja en div efter klass och h
 Lär dig hur du läser och tolkar CSS i Java med Aspose.HTML i denna kompletta guide.
 ### [Hur man hämtar CSS‑egenskap i Java – Läs elementets bakgrundsfärg](./how-to-get-css-property-in-java-read-element-background-colo/)
 Lär dig hur du programatiskt läser bakgrundsfärgen på ett HTML‑element med Aspose.HTML för Java.
+### [Hur du får stil i Java – Hämta beräknad CSS med Aspose.HTML](./how-to-get-style-in-java-retrieve-computed-css-with-aspose-h/)
+Lär dig hur du hämtar beräknad CSS‑stil för element i Java med Aspose.HTML i en praktisk steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

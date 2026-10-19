@@ -158,6 +158,8 @@ Aspose.HTML for Java を使用して、HTML 内の JavaScript を Java から実
 
 ### [Java で HTML をロードする方法 – 完全な Aspose.HTML 非同期サンプル](./how-to-load-html-in-java-complete-aspose-html-async-example/)
 Aspose.HTML for Java の非同期 API を使用して、HTML をロードし、処理する完全なサンプルを学びます。
+### [Java で JavaScript を評価する – 完全ガイド（Aspose.HTML）](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
+Aspose.HTML for Java を使用して、Java アプリケーション内で JavaScript を評価し、動的ロジックを統合する方法を学びます。
 
 ---
 
