@@ -108,6 +108,7 @@ Ismerje meg, hogyan kapcsolhatja be az antialiasingot a dokumentumok képre expo
 ### [Kép létrehozása HTML-ből az Aspose.HTML segítségével – Teljes lépésről‑lépésre útmutató](./create-image-from-html-with-aspose-html-complete-step-by-ste/)
 Ismerje meg, hogyan hozhat létre képet HTML-ből az Aspose.HTML használatával, részletes, lépésről‑lépésre útmutatóval.
 ### [PNG létrehozása Wordből – Lépésről‑lépésre C# útmutató](./create-png-from-word-step-by-step-c-guide/)
+### [PNG létrehozása HTML‑ből – Lépésről‑lépésre útmutató C# fejlesztőknek](./create-png-from-html-step-by-step-guide-for-c-developers/)
 
 ## Következtetés
 

@@ -109,6 +109,8 @@ Pełny przewodnik, jak wygenerować obraz z kodu HTML przy użyciu biblioteki As
 Dowiedz się, jak włączyć antyaliasing podczas eksportowania dokumentów do obrazów w C# przy użyciu Aspose.HTML.
 ### [Utwórz PNG z Word – Przewodnik krok po kroku w C#](./create-png-from-word-step-by-step-c-guide/)
 Dowiedz się, jak konwertować dokumenty Word do formatu PNG przy użyciu Aspose.HTML w C#.
+### [Utwórz PNG z HTML – przewodnik krok po kroku dla programistów C#](./create-png-from-html-step-by-step-guide-for-c-developers/)
+Dowiedz się, jak w prosty sposób konwertować HTML do plików PNG w C# przy użyciu Aspose.HTML, krok po kroku.
 
 ## Wniosek
 

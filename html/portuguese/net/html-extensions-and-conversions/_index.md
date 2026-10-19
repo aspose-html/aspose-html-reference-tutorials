@@ -224,6 +224,8 @@ Aprenda a salvar HTML em um arquivo ZIP usando um manipulador de recursos person
 
 ### [Salvar página da Web como ZIP com Aspose.HTML – Tutorial completo em C#](./save-webpage-as-zip-with-aspose-html-complete-c-tutorial/)
 Aprenda a salvar uma página da Web como um arquivo ZIP usando Aspose.HTML para .NET com um tutorial passo a passo em C#.
+### [Como compactar HTML em C# – guia de manipulador de recursos personalizado](./how-to-zip-html-in-c-custom-resource-handler-guide/)
+Aprenda a usar um manipulador de recursos personalizado para compactar HTML em arquivos ZIP com C# e Aspose.HTML.
 
 ## Conclusão
 

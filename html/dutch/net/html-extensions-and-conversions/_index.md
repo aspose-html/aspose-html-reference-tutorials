@@ -116,6 +116,8 @@ Leer hoe u HTML-inhoud in het geheugen comprimeert en opslaat als ZIP-bestand me
 ### [HTML opslaan als zip met een aangepaste resourcehandler – stapsgewijze gids](./save-html-as-zip-with-a-custom-resource-handler-step-by-step/)
 Leer hoe u HTML opslaat als zip‑bestand met een aangepaste resourcehandler in een stapsgewijze C#‑handleiding.
 
+### [HTML zippen in C# – aangepaste resourcehandler gids](./how-to-zip-html-in-c-custom-resource-handler-guide/)
+Leer hoe u een aangepaste resourcehandler implementeert om HTML-bestanden te zippen met Aspose.HTML voor .NET.
 ### [Maak HTML-document met opgemaakte tekst en exporteer naar PDF – Volledige gids](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Leer hoe u een HTML-document met opgemaakte tekst maakt en deze volledig naar PDF exporteert met Aspose.HTML voor .NET.
 ### [Maak PDF van HTML – C# Stapsgewijze handleiding](./create-pdf-from-html-c-step-by-step-guide/)

@@ -110,6 +110,8 @@ Apprenez à créer des images à partir de HTML en suivant un guide complet éta
 Apprenez à activer l'anticrénelage lors de l'exportation d'un document vers une image en C# avec Aspose.HTML.
 ### [Créer un PNG à partir de Word – Guide étape par étape C#](./create-png-from-word-step-by-step-c-guide/)
 Apprenez à convertir un document Word en image PNG en C# avec Aspose.HTML, étape par étape.
+### [Créer un PNG à partir de HTML – Guide étape par étape pour les développeurs C#](./create-png-from-html-step-by-step-guide-for-c-developers/)
+Apprenez à convertir du HTML en image PNG avec un guide détaillé pour les développeurs C#.
 
 ## Conclusion
 

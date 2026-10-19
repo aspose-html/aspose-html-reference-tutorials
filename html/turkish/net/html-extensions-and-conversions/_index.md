@@ -90,6 +90,8 @@ Aspose.HTML for .NET kullanarak C# içinde HTML'yi sayfa boyutu ve anti‑aliasi
 ### [C#'ta HTML'i Zip Dosyasına Sıkıştırma – Özel Kaynak İşleyicisi Öğreticisi](./how-to-zip-html-in-c-custom-resource-handler-tutorial/)
 ### [C#'ta HTML'yi Zip'e Sıkıştırma – Tam Kılavuz](./how-to-zip-html-in-c-complete-guide/)
 ### [C#'ta HTML'i ZIP'e Dışa Aktarma – Aspose.HTML ile Web Sayfasını ZIP'e Aktarın](./how-to-zip-html-in-c-export-webpage-to-zip-with-aspose-html/)
+### [C#'ta HTML'i ZIP'e Sıkıştırma – Özel Kaynak İşleyicisi Rehberi](./how-to-zip-html-in-c-custom-resource-handler-guide/)
+C#'ta özel kaynak işleyicisi kullanarak HTML dosyalarını ZIP arşivine nasıl sıkıştıracağınızı adım adım öğrenin.
 ### [Stil Verilmiş Metinle HTML Belgesi Oluşturma ve PDF'ye Dışa Aktarma – Tam Kılavuz](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 ### [C# ile HTML Belgesi Oluşturma – Adım Adım Kılavuz](./create-html-document-c-step-by-step-guide/)
 Aspose.HTML for .NET kullanarak C# ile adım adım HTML belgesi oluşturmayı öğrenin.

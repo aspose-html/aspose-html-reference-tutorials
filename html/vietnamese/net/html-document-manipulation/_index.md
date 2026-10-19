@@ -94,6 +94,8 @@ Hướng dẫn cách sử dụng Aspose.HTML trong C# để thiết lập kiểu
 Học cách áp dụng định dạng đậm và nghiêng trong HTML bằng C# với Aspose.HTML qua các ví dụ thực tế và hướng dẫn chi tiết.
 ### [Cách lưu HTML với Aspose.HTML – Hướng dẫn từng bước](./how-to-save-html-with-aspose-html-step-by-step-guide/)
 Hướng dẫn chi tiết cách lưu tài liệu HTML bằng Aspose.HTML trong .NET, kèm ví dụ thực tế và các mẹo quan trọng.
+### [Áp dụng kiểu phông chữ bằng lập trình – Hướng dẫn nhanh C#](./apply-font-style-programmatically-quick-c-guide/)
+Hướng dẫn nhanh cách áp dụng kiểu phông chữ trong tài liệu HTML bằng C# sử dụng Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

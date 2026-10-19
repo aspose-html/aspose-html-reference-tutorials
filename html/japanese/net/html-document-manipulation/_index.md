@@ -92,6 +92,8 @@ Aspose.HTML for .NET を使用して C# で HTML のフォントスタイルを�
 C# を使用して HTML で太字と斜体を同時に適用する方法をステップバイステップで解説します。
 ### [Aspose.HTML を使用して HTML を保存する – ステップバイステップ ガイド](./how-to-save-html-with-aspose-html-step-by-step-guide/)
 Aspose.HTML for .NET を使って HTML を保存する方法を段階的に解説します。
+### [プログラムでフォント スタイルを適用 – クイック C# ガイド](./apply-font-style-programmatically-quick-c-guide/)
+C# でフォント スタイルをプログラム的に適用する方法を簡潔に解説します。
 
 ## 結論
 

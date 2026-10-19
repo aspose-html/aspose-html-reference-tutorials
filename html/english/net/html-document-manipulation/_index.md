@@ -93,6 +93,8 @@ Learn how to append elements and style text in HTML using Aspose.HTML for .NET. 
 Learn how to set font styles in HTML using Aspose.HTML for .NET with C# code examples.
 ### [Combine Bold and Italic in HTML with C# – Complete Guide](./combine-bold-and-italic-in-html-with-c-complete-guide/)
 Learn how to combine bold and italic formatting in HTML using C# with Aspose.HTML. Step-by-step guide with examples.
+### [Apply Font Style Programmatically – Quick C# Guide](./apply-font-style-programmatically-quick-c-guide/)
+Learn how to apply font styles programmatically in HTML using Aspose.HTML for .NET with a quick C# guide.
 
 ## Conclusion
 

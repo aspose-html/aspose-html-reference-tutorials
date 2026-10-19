@@ -106,6 +106,8 @@ C# を使用してドキュメントを画像にエクスポートする際に�
 Aspose.HTML を使用して HTML から画像を作成する完全な手順ガイドです。設定方法から出力までを詳しく解説します。
 ### [Word から PNG を作成する – ステップバイステップ C# ガイド](./create-png-from-word-step-by-step-c-guide/)
 C# を使用して Word 文書を PNG 画像に変換する手順をステップバイステップで解説します。
+### [C# 開発者向けステップバイステップ ガイド：HTML から PNG を作成する](./create-png-from-html-step-by-step-guide-for-c-developers/)
+C# で HTML を PNG 画像に変換する手順を詳しく解説します。
 
 ## 結論
 

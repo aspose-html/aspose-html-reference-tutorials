@@ -100,6 +100,8 @@ Få en komplett steg‑för‑steg‑guide för att spara HTML som ZIP med C# oc
 Lär dig hur du zippar HTML i C# med en tydlig steg‑för‑steg‑guide.
 ### [Hur du zippar HTML i C# – Komplett steg‑för‑steg‑guide](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 Lär dig hur du zippar HTML i C# med en komplett steg‑för‑steg‑guide och Aspose.HTML för .NET.
+### [Hur du zippar HTML i C# – guide för anpassad resurs‑hanterare](./how-to-zip-html-in-c-custom-resource-handler-guide/)
+Lär dig hur du packar HTML-filer i ett ZIP‑arkiv med en anpassad resurs‑hanterare i C# och Aspose.HTML för .NET.
 ### [Skapa HTML-dokument med formaterad text och exportera till PDF – Fullständig guide](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Lär dig skapa ett HTML-dokument med stiliserad text och konvertera det till PDF med Aspose.HTML för .NET i en komplett steg-för-steg-guide.
 ### [Skapa HTML-dokument C# – Steg‑för‑steg‑guide](./create-html-document-c-step-by-step-guide/)

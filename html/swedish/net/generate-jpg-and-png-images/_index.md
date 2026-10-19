@@ -108,6 +108,8 @@ Lär dig hur du aktiverar kantutjämning när du exporterar dokument till bildfo
 Lär dig hur du skapar en bild från HTML med Aspose.HTML i en komplett steg‑för‑steg‑handledning.
 ### [Skapa PNG från Word – Steg‑för‑steg C#‑guide](./create-png-from-word-step-by-step-c-guide/)
 Lär dig hur du konverterar Word-dokument till PNG-bilder med C# i Aspose.HTML, steg för steg.
+### [Skapa PNG från HTML – steg‑för‑steg‑guide för C#‑utvecklare](./create-png-from-html-step-by-step-guide-for-c-developers/)
+Lär dig hur du skapar PNG‑bilder från HTML med en steg‑för‑steg‑guide för C#‑utvecklare.
 
 ## Slutsats
 

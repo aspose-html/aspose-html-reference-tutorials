@@ -93,6 +93,8 @@ url: /el/net/html-document-manipulation/
 
 ### [Πώς να αποθηκεύσετε HTML με το Aspose.Html – Οδηγός βήμα‑βήμα](./how-to-save-html-with-aspose-html-step-by-step-guide/)
 Μάθετε πώς να αποθηκεύσετε αρχεία HTML χρησιμοποιώντας το Aspose.HTML με έναν απλό οδηγό βήμα‑βήμα.
+### [Εφαρμογή στυλ γραμματοσειράς προγραμματιστικά – Γρήγορος οδηγός C#](./apply-font-style-programmatically-quick-c-guide/)
+Μάθετε πώς να εφαρμόζετε στυλ γραμματοσειράς σε έγγραφα HTML προγραμματιστικά με C# χρησιμοποιώντας το Aspose.HTML.
 
 ## Σύναψη
 

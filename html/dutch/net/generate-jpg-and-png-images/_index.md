@@ -113,6 +113,8 @@ Leer hoe u stap voor stap een afbeelding genereert uit HTML met Aspose.HTML, inc
 Leer hoe u antialiasing inschakelt bij het exporteren van documenten naar afbeeldingen met C# en Aspose.HTML.
 ### [Genereer PNG vanuit Word – Stapsgewijze C#‑handleiding](./create-png-from-word-step-by-step-c-guide/)
 Leer hoe u met Aspose.HTML voor .NET PNG-afbeeldingen genereert uit Word-documenten met een duidelijke C#‑stap‑voor‑stap gids.
+### [PNG maken vanuit HTML – Stapsgewijze gids voor C#-ontwikkelaars](./create-png-from-html-step-by-step-guide-for-c-developers/)
+Leer hoe u PNG-afbeeldingen genereert vanuit HTML met een stapsgewijze handleiding voor C#-ontwikkelaars.
 
 ## Conclusie
 

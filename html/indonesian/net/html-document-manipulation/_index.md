@@ -97,6 +97,8 @@ Pelajari cara mengatur gaya font pada dokumen HTML menggunakan Aspose.HTML di C#
 Pelajari cara menggabungkan teks tebal dan miring dalam HTML menggunakan C#. Panduan lengkap dengan contoh langkah demi langkah.
 ### [Cara Menyimpan HTML dengan Aspose.Html – Panduan Langkah demi Langkah](./how-to-save-html-with-aspose-html-step-by-step-guide/)
 Pelajari cara menyimpan dokumen HTML menggunakan Aspose.HTML dengan panduan langkah demi langkah yang jelas.
+### [Terapkan Gaya Font Secara Programatis – Panduan Cepat C#](./apply-font-style-programmatically-quick-c-guide/)
+Pelajari cara menerapkan gaya font secara programatis dalam C# dengan panduan singkat ini.
 
 ## Kesimpulan
 

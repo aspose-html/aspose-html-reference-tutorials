@@ -114,6 +114,8 @@ Erfahren Sie, wie Sie HTML in C# vollständig zippen – eine detaillierte Schri
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in PNG rendern und als Bild speichern – Schritt‑für‑Schritt‑Anleitung in C#.
 ### [HTML als ZIP speichern mit benutzerdefiniertem Ressourcen‑Handler – Schritt‑für‑Schritt‑Anleitung](./save-html-as-zip-with-a-custom-resource-handler-step-by-step/)
 Erfahren Sie, wie Sie HTML‑Inhalte mit Aspose.HTML für .NET in ein ZIP‑Archiv speichern und dabei einen benutzerdefinierten Ressourcen‑Handler einsetzen.
+### [HTML in C# zippen – Leitfaden für benutzerdefinierten Ressourcen‑Handler](./how-to-zip-html-in-c-custom-resource-handler-guide/)
+Erfahren Sie, wie Sie HTML‑Inhalte mit Aspose.HTML für .NET über einen benutzerdefinierten Ressourcen‑Handler zippen und speichern.
 Erfahren Sie, wie Sie ein HTML‑Dokument mit formatiertem Text erstellen und es mit Aspose.HTML für .NET in ein PDF exportieren.
 ### [PDF aus HTML erstellen – C# Schritt‑für‑Schritt‑Anleitung](./create-pdf-from-html-c-step-by-step-guide/)
 Erstellen Sie PDF aus HTML mit C# – eine detaillierte Schritt‑für‑Schritt‑Anleitung mit Aspose.HTML für .NET.

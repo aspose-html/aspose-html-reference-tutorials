@@ -109,6 +109,8 @@ Pelajari cara mengonversi HTML menjadi gambar dengan Aspose.HTML melalui panduan
 Pelajari cara mengaktifkan antialiasing saat mengekspor dokumen ke gambar menggunakan C# dengan Aspose.HTML.
 ### [Buat PNG dari Word – Panduan Langkah demi Langkah C#](./create-png-from-word-step-by-step-c-guide/)
 Pelajari cara mengonversi dokumen Word menjadi PNG menggunakan C# dengan Aspose.HTML.
+### [Buat PNG dari HTML – Panduan Langkah‑per‑Langkah untuk Pengembang C#](./create-png-from-html-step-by-step-guide-for-c-developers/)
+Pelajari cara mengonversi HTML menjadi gambar PNG dengan panduan langkah demi langkah untuk pengembang C# menggunakan Aspose.HTML.
 
 ## Kesimpulan
 

@@ -191,6 +191,8 @@ Aprenda a crear un manejador de recursos personalizado para convertir una págin
 Aprenda a renderizar HTML a PDF en C# con control de tamaño de página y suavizado anti‑alias para obtener documentos de alta calidad.
 ### [Guardar HTML en ZIP en C# – Guía completa paso a paso](./save-html-to-zip-in-c-complete-step-by-step-guide/)
 Aprenda a guardar documentos HTML como archivos ZIP usando C# con Aspose.HTML en esta guía paso a paso completa.
+### [Cómo comprimir HTML en C# – guía de controlador de recursos personalizado](./how-to-zip-html-in-c-custom-resource-handler-guide/)
+Aprenda a comprimir archivos HTML usando un controlador de recursos personalizado en C# con Aspose.HTML. Guía paso a paso.
 
 ## Conclusión
 

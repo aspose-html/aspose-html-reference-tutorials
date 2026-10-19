@@ -91,6 +91,8 @@ Poznaj, jak w prosty sposób utworzyć dokument HTML w C# przy użyciu Aspose.HT
 Dowiedz się, jak ustawić styl czcionki w dokumencie HTML przy użyciu Aspose.HTML w C#.
 ### [Łączenie pogrubienia i kursywy w HTML przy użyciu C# – Kompletny przewodnik](./combine-bold-and-italic-in-html-with-c-complete-guide/)
 Dowiedz się, jak w C# łączyć style pogrubienia i kursywy w HTML, tworząc dynamiczne i atrakcyjne treści.
+### [Zastosowanie stylu czcionki programowo – szybki przewodnik C#](./apply-font-style-programmatically-quick-c-guide/)
+Dowiedz się, jak programowo ustawiać style czcionki w dokumentach HTML przy użyciu Aspose.HTML i C#.
 
 ## Wniosek
 

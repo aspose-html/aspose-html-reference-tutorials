@@ -109,6 +109,8 @@ Aprenda a habilitar antialiasing ao exportar documentos para imagens usando C# e
 Aprenda a gerar imagens a partir de HTML usando Aspose.HTML com um guia completo passo a passo.
 ### [Criar PNG a partir de Word – Guia passo a passo em C#](./create-png-from-word-step-by-step-c-guide/)
 Aprenda a converter documentos Word em imagens PNG usando C# e Aspose.HTML passo a passo.
+### [Criar PNG a partir de HTML – Guia passo a passo para desenvolvedores C#](./create-png-from-html-step-by-step-guide-for-c-developers/)
+Aprenda a criar imagens PNG a partir de HTML usando Aspose.HTML para .NET em um guia passo a passo para desenvolvedores C#.
 
 ## Conclusão
 

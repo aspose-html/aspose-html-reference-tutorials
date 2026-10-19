@@ -91,6 +91,8 @@ Aspose.HTML for .NET 以其简单性和强大性脱颖而出。它使您能够�
 了解如何使用 C# 在 HTML 文档中同时应用粗体和斜体样式的完整步骤指南。
 ### [使用 Aspose.HTML 保存 HTML – 分步指南](./how-to-save-html-with-aspose-html-step-by-step-guide/)
 了解如何使用 Aspose.HTML for .NET 将 HTML 文档保存为不同格式，提供示例代码和常见问题解答。
+### [使用 Aspose.HTML 在 .NET 中以编程方式应用字体样式 – 快速 C# 指南](./apply-font-style-programmatically-quick-c-guide/)
+了解如何使用 Aspose.HTML for .NET 在 C# 中以编程方式设置字体样式的快速指南。
 
 ## 结论
 

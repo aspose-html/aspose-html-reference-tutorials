@@ -109,6 +109,8 @@ Naučte se, jak povolit antialiasing při exportu dokumentu do obrázku pomocí 
 Naučte se, jak pomocí Aspose.HTML převést HTML na obrázek v podrobném průvodci krok za krokem.
 ### [Vytvořte PNG z Wordu – krok za krokem průvodce v C#](./create-png-from-word-step-by-step-c-guide/)
 Naučte se, jak převést dokument Word do PNG pomocí C# a Aspose.HTML v podrobném průvodci krok za krokem.
+### [Vytvořte PNG z HTML – krok za krokem průvodce pro vývojáře C#](./create-png-from-html-step-by-step-guide-for-c-developers/)
+Naučte se, jak pomocí Aspose.HTML pro .NET převést HTML na PNG v podrobném průvodci pro vývojáře C#.
 
 ## Závěr
 

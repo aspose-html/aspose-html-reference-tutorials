@@ -93,6 +93,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML in C# Schriftarten und -stile für HTML-In
 Erfahren Sie, wie Sie Text in HTML gleichzeitig fett und kursiv formatieren und dies mit C# automatisieren.
 ### [HTML mit Aspose.HTML speichern – Schritt‑für‑Schritt‑Anleitung](./how-to-save-html-with-aspose-html-step-by-step-guide/)
 Erfahren Sie, wie Sie HTML mit Aspose.HTML speichern. Eine klare Schritt‑für‑Schritt‑Anleitung für Entwickler.
+### [Schriftstil programmgesteuert anwenden – Schnellleitfaden für C#](./apply-font-style-programmatically-quick-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML für .NET Schriftstile programmgesteuert anwenden und HTML-Inhalte in C# formatieren.
 
 ## Abschluss
 

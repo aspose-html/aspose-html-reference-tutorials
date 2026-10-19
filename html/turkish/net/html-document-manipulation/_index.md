@@ -91,6 +91,7 @@ C# kullanarak Aspose.HTML ile HTML belgelerinde yazı tipi stilini nasıl ayarla
 C# kullanarak HTML içinde kalın ve italik metinleri birleştirmenin adım adım rehberi.
 ### [Aspose.HTML ile HTML Kaydetme – Adım Adım Kılavuz](./how-to-save-html-with-aspose-html-step-by-step-guide/)
 Aspose.HTML for .NET ile HTML belgelerini kaydetmeyi adım adım öğrenin.
+### [Programlı Olarak Yazı Tipi Stilini Uygulama – Hızlı C# Rehberi](./apply-font-style-programmatically-quick-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

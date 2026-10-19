@@ -109,6 +109,8 @@ Hướng dẫn toàn diện cách chuyển đổi HTML thành hình ảnh bằng
 Hướng dẫn chi tiết cách bật khử răng cưa khi xuất tài liệu sang hình ảnh bằng C#.
 ### [Tạo PNG từ Word – Hướng dẫn từng bước C#](./create-png-from-word-step-by-step-c-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang ảnh PNG bằng C# với Aspose.HTML.
+### [Tạo PNG từ HTML – Hướng dẫn từng bước cho nhà phát triển C#](./create-png-from-html-step-by-step-guide-for-c-developers/)
+Hướng dẫn chi tiết cách tạo tệp PNG từ HTML bằng Aspose.HTML cho .NET, dành cho lập trình viên C#.
 
 ## Phần kết luận
 

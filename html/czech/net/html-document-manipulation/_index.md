@@ -94,6 +94,8 @@ Naučte se, jak pomocí Aspose.HTML vytvořit HTML dokument, přidávat prvky a 
 Naučte se, jak pomocí Aspose.HTML nastavit styl písma v HTML dokumentu v jazyce C#.
 ### [Kombinace tučného a kurzívního textu v HTML s C# – Kompletní průvodce](./combine-bold-and-italic-in-html-with-c-complete-guide/)
 Naučte se, jak v HTML kombinovat tučný a kurzívní text pomocí C# s podrobným návodem.
+### [Aplikujte styl písma programově – Rychlý průvodce C#](./apply-font-style-programmatically-quick-c-guide/)
+Naučte se, jak pomocí Aspose.HTML pro .NET nastavit a měnit styly písma v HTML dokumentech pomocí C#.
 
 ## Závěr
 
