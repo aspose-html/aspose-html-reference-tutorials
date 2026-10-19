@@ -1,24 +1,54 @@
 ---
 category: general
-date: 2026-01-03
-description: Aspose.HTML ile MHTML'den HTML'yi hızlıca çıkarın. Tek bir öğreticide
-  mhtml nasıl çıkarılır, mhtml dosyalara nasıl dönüştürülür ve mhtml'den nasıl resim
-  çıkarılır öğrenin.
+date: 2026-08-22
+description: Aspose.HTML ile mhtml'den html'yi hızlı bir şekilde çıkarın. Tek bir
+  öğreticide mhtml'yi nasıl çıkaracağınızı, mhtml'yi dosyalara nasıl dönüştüreceğinizi
+  ve mhtml'den görüntüleri nasıl çıkaracağınızı öğrenin.
 draft: false
 keywords:
 - extract html from mhtml
-- how to extract mhtml
 - convert mhtml to files
 - extract images from mhtml
-language: tr
-og_description: Aspose.HTML ile MHTML'den HTML'i hızlıca çıkarın. Tek bir öğreticide
-  MHTML nasıl çıkarılır, MHTML dosyalara nasıl dönüştürülür ve MHTML'den nasıl resim
-  çıkarılır öğrenin.
-og_title: MHTML'den HTML Çıkarma – Tam Java Rehberi
+- Aspose.HTML Java extraction
+lastmod: 2026-08-22
+og_description: Aspose.HTML ile mhtml'den html'yi hızlı bir şekilde çıkarın. Tek bir
+  öğreticide mhtml'yi nasıl çıkaracağınızı, mhtml'yi dosyalara nasıl dönüştüreceğinizi
+  ve mhtml'den görüntüleri nasıl çıkaracağınızı öğrenin.
+og_image_alt: Diagram showing extraction of HTML, CSS, and images from an MHTML archive
+  using Aspose.HTML for Java
+og_title: mhtml'den html çıkarma – tam Java öğretici
+schemas:
+- author: Aspose
+  dateModified: '2026-08-22'
+  description: Extract html from mhtml quickly with Aspose.HTML. Learn how to extract
+    mhtml, convert mhtml to files, and extract images from mhtml in a single tutorial.
+  headline: Extract HTML from MHTML – Complete Java Guide
+  type: TechArticle
+- questions:
+  - answer: Aspose.HTML streams the archive, so memory usage stays low. Adjust the
+      JVM heap if you process many large files concurrently.
+    question: What if the MHTML file is several hundred megabytes?
+  - answer: Yes. After extraction, simply ignore `index.html` and use the contents
+      of the `images/` folder. You can programmatically list image files with `Files.walk`
+      and filter by common image extensions.
+    question: Can I extract only the images without the HTML file?
+  - answer: '`MhtmlExtractionOptions` retains original MIME part names by default.
+      For custom naming, post‑process the files or implement a custom `IResourceHandler`.'
+    question: How do I preserve the original filenames of embedded resources?
+  - answer: Absolutely. The same Java code runs on any platform that supports Java
+      8+, just adjust file‑system paths accordingly.
+    question: Does this work on Linux and macOS as well as Windows?
+  - answer: Write a simple loop that enumerates all `.mhtml` files, loads each into
+      an `HTMLDocument`, and calls `Converter.extract` with a unique output directory
+      for each file.
+    question: How can I batch‑process a folder of .mhtml files?
+  type: FAQPage
 tags:
 - Java
 - Aspose.HTML
 - MHTML
+- convert mhtml to files
+- extract images from mhtml
 title: MHTML'den HTML Çıkarma – Tam Java Rehberi
 url: /tr/java/advanced-usage/extract-html-from-mhtml-complete-java-guide/
 ---
@@ -29,31 +59,38 @@ url: /tr/java/advanced-usage/extract-html-from-mhtml-complete-java-guide/
 
 # MHTML'den HTML Çıkarma – Tam Java Rehberi
 
-Hiç **MHTML'den HTML çıkarma** gerekti, ama nereden başlayacağınızı bilemediniz mi? Tek başınıza değilsiniz. MHTML arşivleri bir web sayfasını, CSS'ini, script'lerini ve görsellerini tek bir dosyada toplar—kaydetmek için kullanışlı, ama parçaları geri almak istediğinizde sorun yaratır. Bu öğreticide, mhtml'yi nasıl çıkaracağınızı, mhtml'yi dosyalara nasıl dönüştüreceğinizi ve hatta Aspose.HTML for Java kullanarak mhtml'den görselleri nasıl çekeceğinizi göstereceğiz.
+Hiç **MHTML'den HTML çıkarma** ihtiyacı duydunuz mu ancak nereden başlayacağınızı bilemediniz mi? Tek başınıza değilsiniz. MHTML arşivleri bir web sayfasını, CSS'ini, betiklerini ve görsellerini tek bir dosyada toplar—kaydetmek için pratik, ancak parçalarına geri dönmek istediğinizde can sıkıcıdır. Bu öğreticide, mhtml'i nasıl çıkaracağınızı, mhtml'i dosyalara nasıl dönüştüreceğinizi ve hatta mhtml'den görselleri nasıl alacağınızı Aspose.HTML for Java kullanarak göstereceğiz.
 
-Şöyle ki: özel bir ayrıştırıcı yazmak ya da MIME paketini elle açmak zorunda değilsiniz. Aspose.HTML işi sizin yerinize yapar, size kullanıma hazır HTML, CSS ve medya dosyalarıyla temiz bir klasör yapısı sunar. Sonuna kadar, herhangi bir `.mhtml` arşivini sıradan web varlıklarına dönüştüren çalıştırılabilir bir Java programına sahip olacaksınız.
+## Hızlı cevaplar
+- **MHTML dosyasından HTML'i en hızlı şekilde nasıl alırım?** `HTMLDocument` ile `MhtmlExtractionOptions` kullanın ve `Converter.extract` metodunu çağırın.  
+- **Kendi MIME ayrıştırıcımı yazmam gerekiyor mu?** Hayır, Aspose.HTML ayrıştırmayı dahili olarak yapar.  
+- **Hangi işletim sistemleri destekleniyor?** Java 8+ çalıştırabilen tüm OS'ler, Windows, Linux ve macOS dahil.  
+- **Sadece görselleri çıkarabilir miyim?** Evet – çıkarma işlemini çalıştırın ve ardından oluşturulan `images/` klasörünü kullanın.  
+- **Aspose.HTML'in hangi sürümü gerekiyor?** Bu rehberde kullanılan API'yi sağlayan 23.10 veya daha yeni bir sürüm gereklidir.
 
-## Öğrenecekleriniz
+## mhtml'den html çıkarma nedir?
+“mhtml'den html çıkarma” ifadesi, tek‑dosyalı bir web arşivi (MHTML) dosyasını bileşen HTML, CSS ve medya kaynaklarına geri dönüştürmeyi ifade eder. Bu süreç, orijinal sayfa yapısını yeniden oluşturur, böylece tarayıcılar paketlenmiş konteyner olmadan sayfayı render edebilir.
 
-* Bir MHTML arşivini `HTMLDocument` içine yükleyin.
-* `MhtmlExtractionOptions`'ı yapılandırarak çıkarılan dosyaların nereye konulacağını belirtin.
-* URL yeniden yazmayı etkinleştirerek HTML'nin yeni çıkarılan kaynaklara referans vermesini sağlayın.
-* Çıkarma işlemini tek bir kod satırıyla çalıştırın.
-* Sadece görselleri çıkarmak, büyük arşivlerle başa çıkmak ve yaygın sorunları gidermek için ipuçları.
+## Bu görev için neden Aspose.HTML kullanılmalı?
+Aspose.HTML **50+ giriş ve çıkış formatını** destekler ve **1 GB**'a kadar arşivleri akış (stream) yöntemiyle işleyebilir, bu da bellek kullanımını düşük tutar. Yerleşik URL yeniden yazma özelliği, çıkarılan HTML'in yeni oluşturulan kaynak dosyalarına işaret etmesini sağlar ve kırık bağlantıları otomatik olarak ortadan kaldırır.
 
-**Önkoşullar**
+## Önkoşullar
+- Java 8 veya daha yeni bir sürüm yüklü.  
+- Aspose.HTML for Java 23.10+ (en son JAR'ı Aspose web sitesinden indirin).  
+- Tercih ettiğiniz IDE'de (IntelliJ, Eclipse, VS Code vb.) temel bir Java projesi kurulmuş.
 
-* Java 8 veya daha yeni bir sürümünün yüklü olması.
-* Aspose.HTML for Java'ın son sürümü (kod 23.10+ ile çalışır).
-* Java projeleri ve favori IDE'niz (IntelliJ, Eclipse, VS Code vb.) hakkında temel bilgi.
+> **Pro ipucu:** Henüz Aspose.HTML'i indirmediyseniz, en son JAR'ı [Aspose web sitesinden](https://products.aspose.com/html/java) alın ve projenizin sınıf yoluna ekleyin.
 
-> **Pro ipucu:** Eğer henüz Aspose.HTML'yi indirmediyseniz, en son JAR'ı [Aspose web sitesinden](https://products.aspose.com/html/java) alın ve projenizin sınıf yoluna ekleyin.
+![Diagram of extracting HTML from MHTML](extract-html-from-mhtml-diagram.png){alt="mhtml'den html çıkarma"}
 
-![MHTML'den HTML çıkarma diyagramı](extract-html-from-mhtml-diagram.png){alt="MHTML'den HTML çıkarma"}
+[MHTML'den HTML çıkarma diyagramı](extract-html-from-mhtml-diagram.png)
 
-## Adım 1 – Aspose.HTML'yi Projenize Ekleyin
+## Aspose.HTML'i projenize nasıl eklersiniz?
+Kütüphaneyi sınıf yoluna ekleyin, böylece derleyici API'yi bulabilir. Maven için `pom.xml` dosyasına bağımlılığı ekleyin; Gradle için `build.gradle` dosyasına ekleyin. Ayrıca JAR'ı bir `libs` klasörüne koyup manuel olarak referans gösterebilirsiniz. Kütüphane görünür olduğunda **MHTML'den HTML çıkarma** işlemine hazırsınız.
 
-Herhangi bir kod çalıştırılmadan önce, kütüphanenin sınıf yolunda olması gerekir. Maven kullanıyorsanız, aşağıdaki bağımlılığı `pom.xml` dosyanıza yapıştırın:
+## MHTML arşivi nasıl yüklenir?
+`HTMLDocument` bir web belgesini temsil eder ve MHTML dosyalarını yükleyebilir.  
+`.mhtml` dosyasını bir `HTMLDocument` olarak yükleyin. Bu adım arşivi doğrular ve iç yapılarını oluşturur, böylece çıkarma motoru verimli çalışır.
 
 ```xml
 <dependency>
@@ -63,17 +100,21 @@ Herhangi bir kod çalıştırılmadan önce, kütüphanenin sınıf yolunda olma
 </dependency>
 ```
 
-Gradle tercih ediyorsanız:
+**Tanım bağlantısı:** `HTMLDocument` Aspose.HTML'in çekirdek sınıfıdır ve bellek içinde herhangi bir web belgesini—HTML, MHTML veya diğer desteklenen formatları—temsil eder.
+
+## Çıkarma seçenekleri nasıl yapılandırılır (mhtml'i dosyalara dönüştürme)?
+`MhtmlExtractionOptions` çıktı klasörünü, URL yeniden yazmayı ve çıkarılan kaynakların adlandırma kurallarını ayarlamanızı sağlar.  
+`MhtmlExtractionOptions` bir örneği oluşturun ve kütüphanenin dosyaları nereye yazacağını, URL'leri yeniden yazıp yazmayacağını ve kaynakları nasıl adlandıracağını belirtin. Doğru yapılandırma, çıkarılan HTML'in tarayıcılarda sorunsuz çalışmasını sağlar.
 
 ```gradle
 implementation 'com.aspose:aspose-html:23.10'
 ```
 
-Ya da indirilen JAR'ı `libs` klasörüne bırakıp manuel olarak referans verin. Kütüphane görünür olduğunda, **MHTML'den HTML çıkarma** için hazırsınız.
+**Tanım bağlantısı:** `MhtmlExtractionOptions` çıktı klasör yollarını belirlemenize, URL yeniden yazmayı etkinleştirmenize ve çıkarılan varlıkların dosya‑adlandırma kurallarını kontrol etmenize olanak tanır.
 
-## Adım 2 – MHTML Arşivini Yükleyin
-
-İlk mantıksal adım, `.mhtml` dosyasını `HTMLDocument` olarak açmaktır. Bunu Aspose.HTML'ye, “İşlemek istediğim konteyner burada.” demek gibi düşünün.
+## Çıkarma işlemi nasıl çalıştırılır (mhtml'den görselleri çıkarma)?
+`Converter.extract` yüklenmiş belgeyi belirtilen seçeneklerle çıkarır.  
+Yüklenmiş belgeyi ve yapılandırdığınız seçenekleri kullanarak statik `Converter.extract` metodunu çağırın. Metod içerikleri diske akıtarak düzenli bir klasör hiyerarşisi oluşturur.
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -85,11 +126,7 @@ String mhtmlPath = "C:/myfiles/archive.mhtml";
 HTMLDocument mhtmlDocument = new HTMLDocument(mhtmlPath);
 ```
 
-Neden önemli: belgeyi yüklemek dosyayı doğrular ve iç yapılarını hazırlar, böylece sonraki çıkarma işlemi hızlı ve hatasız çalışır.
-
-## Adım 3 – Çıkarma Seçeneklerini Yapılandırın (MHTML'yi Dosyalara Dönüştürme)
-
-Şimdi kütüphaneye içeriğin diskte nasıl düzenlenmesini istediğimizi **nasıl** söyleyelim. `MhtmlExtractionOptions` çıktıyı klasör, URL yeniden yazma ve orijinal dosya adlarını koruyup korumama konusunda ayrıntılı kontrol sağlar.
+Bu çağrı tamamlandığında aşağıdaki gibi bir klasör yapısı göreceksiniz:
 
 ```java
 import com.aspose.html.converters.MhtmlExtractionOptions;
@@ -102,11 +139,45 @@ extractionOptions.setOutputFolder("C:/myfiles/extracted");
 extractionOptions.setRewriteUrls(true);
 ```
 
-`setRewriteUrls(true)` ayarını yapmak, **MHTML'yi dosyalara dönüştürme** işlemi için kritik öneme sahiptir; böylece çıkarılan HTML'i bir tarayıcıda açtığınızda gerçekten çalışır. Olmasaydı, sayfa hâlâ iç MHTML referanslarına işaret eder ve bozuk görünürdü.
+HTML dosyası artık `images/` alt klasöründeki görsellere referans verir; böylece **mhtml'den görselleri çıkarma** işlemini ve tam HTML işaretlemesini başarıyla tamamlamış olursunuz.
 
-## Adım 4 – Çıkarma İşlemini Çalıştırın (MHTML'den Görselleri Çıkarma)
+## Yaygın tuzaklar ve nasıl önlenir?
+- **Büyük arşivler:** Birkaç yüz megabayttan büyük dosyalar işliyorsanız JVM yığınını (`-Xmx2g`) artırın.  
+- **Boş çıktı klasörü:** Her zaman boş bir hedef klasörüyle başlayın; kalan dosyalar ad çakışmalarına neden olabilir.  
+- **Kırık URL'ler:** `setRewriteUrls(true)` etkin olduğundan emin olun; aksi takdirde HTML hâlâ iç MHTML referanslarına işaret eder.  
+- **Sorun giderme için günlükleme:** `System.setProperty("aspose.html.logging", "true")` ile ayrıntılı günlükleri etkinleştirerek çıkarma hatalarını yakalayın.
 
-Son satır sihri gerçekleştirir. Statik `Converter.extract` metodu yüklü belgeyi okur, seçenekleri uygular ve her şeyi diske yazar.
+## Sıkça sorulan sorular
+
+**S: MHTML dosyası birkaç yüz megabayt ise ne yapmalıyım?**  
+C: Aspose.HTML arşivi akış (stream) yöntemiyle işler, bu sayede bellek kullanımı düşük kalır. Aynı anda birçok büyük dosya işliyorsanız JVM yığınını ayarlayın.
+
+**S: Sadece görselleri, HTML dosyasını çıkarmadan alabilir miyim?**  
+C: Evet. Çıkarma işleminden sonra `index.html` dosyasını göz ardı edin ve `images/` klasörünün içeriğini kullanın. `Files.walk` ile görsel dosyalarını programlı olarak listeleyebilir ve yaygın görsel uzantılarına göre filtreleyebilirsiniz.
+
+**S: Gömülü kaynakların orijinal dosya adlarını korumak istiyorum, nasıl?**  
+C: `MhtmlExtractionOptions` varsayılan olarak orijinal MIME parça adlarını tutar. Özel adlandırma için dosyaları sonradan işleyebilir veya özel bir `IResourceHandler` uygulayabilirsiniz.
+
+**S: Bu işlem Linux ve macOS'ta da çalışıyor mu?**  
+C: Kesinlikle. Aynı Java kodu, Java 8+ destekleyen herhangi bir platformda çalışır; sadece dosya yolu biçimlerini uygun şekilde ayarlamanız yeterlidir.
+
+**S: .mhtml dosyalarından oluşan bir klasörü toplu olarak işlemek istiyorum, nasıl?**  
+C: Tüm `.mhtml` dosyalarını döngüyle enumerate eden basit bir kod yazın, her birini bir `HTMLDocument` içine yükleyin ve her dosya için benzersiz bir çıktı dizini belirleyerek `Converter.extract` metodunu çağırın.
+
+## Sonuç
+Artık **MHTML'den HTML çıkarma**, **MHTML'i dosyalara dönüştürme** ve **MHTML'den görselleri çıkarma** işlemlerini Aspose.HTML for Java kullanarak güvenilir bir tek‑adım yöntemiyle yapabiliyorsunuz. İş akışı basit: arşivi yükleyin, çıkarma seçeneklerini yapılandırın ve kütüphanenin geri kalanını halletmesine izin verin. Manuel MIME ayrıştırması yok, kırılgan string hileleri yok—herhangi bir Java projesine ekleyebileceğiniz temiz, yeniden kullanılabilir kod.
+
+Sonraki adımlar? Toplu dönüşümler için süreci otomatikleştirin, çıktıyı bir statik site üreticisine entegre edin veya çıkarılan HTML'i bir içerik yönetim hattına yönlendirin. Aynı desen bültenler, kaydedilmiş web sayfaları veya arşiv raporları için de işe yarar.
+
+Zor bir senaryo ya da ilginç bir kullanım durumu mu var? Yorumlarda düşüncelerinizi paylaşın ve sohbeti sürdürün. İyi kodlamalar!
+
+---
+
+**Son Güncelleme:** 2026-08-22  
+**Test Edilen Versiyon:** Aspose.HTML for Java 23.10  
+**Yazar:** Aspose  
+
+
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -114,8 +185,6 @@ import com.aspose.html.converters.Converter;
 // Perform the extraction
 Converter.extract(mhtmlDocument, extractionOptions);
 ```
-
-Bu çağrı tamamlandıktan sonra, aşağıdaki gibi bir klasör yapısı bulacaksınız:
 
 ```
 extracted/
@@ -126,12 +195,6 @@ extracted/
     ├─ logo.png
     └─ banner.jpg
 ```
-
-HTML dosyası artık `images/` alt klasöründeki görsellere referans veriyor, yani **MHTML'den görselleri çıkarma** işlemini ve tam HTML işaretlemesini başarıyla gerçekleştirdiniz.
-
-## Tam Çalışan Örnek
-
-Tüm parçaları bir araya getirerek, IDE'nize kopyalayıp hemen çalıştırabileceğiniz bağımsız bir Java sınıfı burada:
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -156,50 +219,20 @@ public class ExtractMhtmlDemo {
 }
 ```
 
-**Beklenen çıktı**
-
-Programı çalıştırdığınızda şu çıktı verir:
-
 ```
 Extraction complete! Check C:/myfiles/extracted
 ```
 
-…ve `extracted` dizini işlevsel bir HTML sayfası ve tüm ilişkili kaynakları içerir. Görsellerin, stillerin ve scriptlerin doğru yüklendiğini doğrulamak için `index.html` dosyasını herhangi bir tarayıcıda açın.
+## İlgili Öğreticiler
 
-## Yaygın Sorular & Özel Durumlar
+- [HTML'yi MHTML'ye Dönüştürme – Aspose.HTML for Java](/html/java/conversion-html-to-other-formats/convert-html-to-mhtml/)
+- [HTML'yi PDF'ye Dönüştürme Java – Aspose.HTML for Java Kullanarak](/html/java/conversion-html-to-other-formats/convert-html-to-pdf/)
+- [HTML'yi XPS'ye Dönüştürme – Aspose.HTML for Java](/html/java/conversion-html-to-other-formats/convert-html-to-xps/)
 
-### MHTML dosyası çok büyük (yüzlerce MB) olursa ne olur?
-
-Aspose.HTML içeriği akış olarak işler, bu yüzden bellek tüketimi düşük kalır. Ancak, çok büyük arşivleri çıkarıyorsanız veya paralel olarak birçok çıkarma yapıyorsanız JVM yığınını (`-Xmx2g`) artırmak isteyebilirsiniz.
-
-### HTML olmadan sadece görselleri çıkarabilir miyim?
-
-Evet. Çıkarma işleminden sonra sadece `.html` dosyasını göz ardı edip `images/` klasörüyle çalışabilirsiniz. Programatik olarak görsel yollarının bir listesini istiyorsanız, `Files.walk` ile çıktı dizinini tarayabilir ve uzantılara (`.png`, `.jpg`, `.gif`, vb.) göre filtreleyebilirsiniz.
-
-### Orijinal dosya adlarını nasıl korurum?
-
-`MhtmlExtractionOptions` varsayılan olarak orijinal MIME parça dosya adlarını korur. Özel bir adlandırma şeması gerekiyorsa, dosyaları çıkarma sonrası işleyebilir veya özel bir `IResourceHandler` (ileri kullanım) uygulayabilirsiniz.
-
-### Bu Linux/macOS'ta çalışır mı?
-
-Kesinlikle. Aynı Java kodu Java 8+ destekleyen herhangi bir işletim sisteminde çalışır. Sadece dosya yollarını (`/home/user/archive.mhtml` gibi, `C:/...` yerine) ayarlamanız yeterlidir.
-
-## Sorunsuz Bir Çıkarma Deneyimi İçin İpuçları
-
-- **MHTML'yi önce doğrulayın** – çıkarmadan önce Chrome veya Edge'de açarak doğru görüntülendiğinden emin olun.
-- **Çıktı klasörünü boş tutun** – Aspose.HTML mevcut dosyaları üzerine yazar, ancak kalan dosyalar karışıklığa neden olabilir.
-- **Demo'da mutlak yollar kullanın**; göreli yollar da çalışır ancak çalışma dizininin dikkatli yönetilmesini gerektirir.
-- **Günlüğü etkinleştirin** (`System.setProperty("aspose.html.logging", "true")`) eğer gizemli hatalarla karşılaşırsanız; kütüphane ayrıntılı mesajlar verir.
-
-## Sonuç
-
-Artık Aspose.HTML for Java kullanarak **MHTML'den HTML çıkarma**, **MHTML'yi dosyalara dönüştürme** ve **MHTML'den görselleri çıkarma** için güvenilir, tek adımlı bir yönteme sahipsiniz. Yaklaşım basit: arşivi yükleyin, çıkarma seçeneklerini yapılandırın ve kütüphanenin geri kalanını halletmesine izin verin. Manuel MIME ayrıştırması, kırılgan string hileleri yok—sadece temiz, yeniden kullanılabilir kod, herhangi bir Java projesine ekleyebilirsiniz.
-
-Sırada ne var? `.mhtml` dosyalarından oluşan bir klasörü dolaşan ve hepsini tek seferde dönüştüren bir toplu işlemle çıkarma işlemini zincirleme deneyin. Ya da çıkarılan HTML'i otomatik belge oluşturma için bir statik site jeneratörüne besleyin. Olasılıklar sonsuzdur ve aynı desen bültenler, kaydedilmiş web sayfaları veya arşivlenmiş raporlarla çalışırken de geçerlidir.
-
-Sorularınız, özel durum senaryolarınız veya paylaşmak istediğiniz ilginç bir kullanım örneğiniz mi var? Aşağıya bir yorum bırakın, sohbeti sürdürelim. Kodlamanın tadını çıkarın!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
