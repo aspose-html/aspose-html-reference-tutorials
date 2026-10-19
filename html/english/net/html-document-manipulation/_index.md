@@ -59,18 +59,40 @@ Unlock the potential of Aspose.HTML for .NET with our comprehensive guide. Learn
 Learn how to harness the power of Aspose.HTML for .NET. Boost your web development with HTML manipulation and rendering.
 ### [Creating a Document in .NET with Aspose.HTML](./creating-a-document/)
 Unleash the Power of Aspose.HTML for .NET. Learn to Create, Manipulate, and Optimize HTML and SVG Documents with Ease. Explore Step-By-Step Examples and FAQs.
+### [Create HTML Document with Aspose.HTML – Step‑by‑Step Guide](./create-html-document-with-aspose-html-step-by-step-guide/)
+Learn how to create HTML documents using Aspose.HTML for .NET with a detailed step‑by‑step guide and practical examples.
+### [How to Create HTML and Add CSS Style Element – Step‑by‑Step Guide](./how-to-create-html-and-add-css-style-element-step-by-step-gu/)
+Learn how to create an HTML document and add CSS style elements using Aspose.HTML for .NET. Step‑by‑step guide with examples.
+### [Create HTML Document C# – Bold Italic Text with Custom Font](./create-html-document-c-bold-italic-text-with-custom-font/)
+Learn how to create an HTML document in C# with bold and italic text using a custom font with Aspose.HTML.
+### [Create HTML Document C# – Step‑by‑Step Guide](./create-html-document-c-step-by-step-guide/)
+Learn how to create an HTML document in C# using Aspose.HTML with a clear, step‑by‑step guide.
 ### [Create HTML from String in C# – Custom Resource Handler Guide](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Learn how to generate HTML from a string using a custom resource handler in C# with Aspose.HTML for .NET.
+### [Make Text Bold Italic in C# – Quick Guide to Styling HTML](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
+Learn how to apply bold and italic styling to text in HTML using C# with Aspose.HTML – a quick guide for developers.
 ### [Editing a Document in .NET with Aspose.HTML](./editing-a-document/)
 Create captivating web content with Aspose.HTML for .NET. Learn how to manipulate HTML, CSS, and more.
 ### [Saving a Document in .NET with Aspose.HTML](./saving-a-document/)
 Unlock the power of Aspose.HTML for .NET with our step-by-step guide. Learn to create, manipulate, and convert HTML and SVG documents
+### [How to Save HTML with Aspose.Html – Step‑by‑Step Guide](./how-to-save-html-with-aspose-html-step-by-step-guide/)
+Step-by-step guide on saving HTML content using Aspose.HTML for .NET, covering code examples and best practices.
 ### [Merge HTML with Json in .NET with Aspose.HTML](./merge-html-with-json/)
 Learn to create dynamic and web content using Aspose.HTML for .NET. Empower your online presence and engage your audience.
 ### [Merge HTML with XML in .NET with Aspose.HTML](./merge-html-with-xml/)
 Learn to use Aspose.HTML for .NET. Import namespace, merge HTML with XML, and enhance your web development skills with this comprehensive guide.
 ### [Generate XPS Documents by XpsDevice in .NET with Aspose.HTML](./generate-xps-documents-by-xpsdevice/)
 Unlock the potential of web development with Aspose.HTML for .NET. Create, convert, and manipulate HTML documents easily.
+### [Append Element to Body – Complete C# Guide with Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)
+Learn how to append elements to the HTML body using Aspose.HTML for .NET with a complete C# guide and practical examples.
+### [how to create html with Aspose – Find Element, Apply Bold](./how-to-create-html-with-aspose-find-element-apply-bold/)
+Learn how to find an element and apply bold formatting using Aspose.HTML for .NET.
+### [How to Create HTML – Append Elements and Style Text](./how-to-create-html-append-elements-and-style-text/)
+Learn how to append elements and style text in HTML using Aspose.HTML for .NET. Step-by-step guide with examples and FAQs.
+### [How to style HTML with Aspose.Html – Set Font Style in C#](./how-to-style-html-with-aspose-html-set-font-style-in-c/)
+Learn how to set font styles in HTML using Aspose.HTML for .NET with C# code examples.
+### [Combine Bold and Italic in HTML with C# – Complete Guide](./combine-bold-and-italic-in-html-with-c-complete-guide/)
+Learn how to combine bold and italic formatting in HTML using C# with Aspose.HTML. Step-by-step guide with examples.
 ### [Apply Font Style Programmatically – Quick C# Guide](./apply-font-style-programmatically-quick-c-guide/)
 Learn how to apply font styles programmatically in HTML using Aspose.HTML for .NET with a quick C# guide.
 
