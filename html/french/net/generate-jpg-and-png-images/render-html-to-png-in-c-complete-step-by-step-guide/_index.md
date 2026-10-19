@@ -1,28 +1,26 @@
 ---
 category: general
-date: 2026-03-28
-description: Apprenez à rendre le HTML en PNG en C# avec Aspose.HTML. Ce guide couvre
-  également la conversion d’une page Web en image, l’enregistrement du HTML au format
-  PNG, l’exportation du HTML en image et l’enregistrement de la page Web au format
-  PNG.
+date: 2026-02-17
+description: Apprenez à rendre du HTML en PNG rapidement. Ce tutoriel montre également
+  comment convertir une page Web en image, définir la couleur d'arrière-plan de l'image
+  et configurer la taille de l'image.
 draft: false
 keywords:
 - render html to png
 - convert webpage to image
 - save html as png
-- export html as image
-- save webpage as png
+- set background color image
+- configure image size
 language: fr
-og_description: Apprenez à rendre le HTML en PNG en C# avec Aspose.HTML. Suivez ce
-  tutoriel facile pour convertir une page web en image, enregistrer le HTML au format
-  PNG et exporter le HTML en image.
-og_title: Rendre le HTML en PNG avec C# – Guide complet étape par étape
+og_description: Rendez le HTML en PNG instantanément. Suivez ce guide pour convertir
+  une page Web en image, définir la couleur d'arrière-plan de l'image et configurer
+  la taille de l'image avec Aspose.HTML.
+og_title: Convertir le HTML en PNG en C# – Guide complet de programmation
 tags:
-- C#
 - Aspose.HTML
+- C#
 - Image Rendering
-- .NET
-title: Rendu du HTML en PNG en C# – Guide complet étape par étape
+title: Rendu HTML en PNG en C# – Guide complet étape par étape
 url: /fr/net/generate-jpg-and-png-images/render-html-to-png-in-c-complete-step-by-step-guide/
 ---
 
@@ -30,215 +28,159 @@ url: /fr/net/generate-jpg-and-png-images/render-html-to-png-in-c-complete-step-b
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Rendu HTML en PNG avec C# – Guide complet étape par étape
+# Rendre du HTML en PNG en C# – Guide complet étape par étape
 
-Vous devez **rendre du HTML en PNG** rapidement ? Dans ce tutoriel, nous vous guiderons pas à pas sur la façon de rendre du HTML en PNG en utilisant la bibliothèque Aspose.HTML pour .NET. Que vous construisiez un service de miniatures, génériez des aperçus d'e‑mail, ou que vous ayez simplement besoin de **convertir une page Web en image** pour vos rapports, les étapes ci‑dessous vous y amèneront sans effort.
+Vous avez déjà eu besoin de **render HTML to PNG** mais vous ne saviez pas quelle bibliothèque choisir ? Vous n'êtes pas seul—de nombreux développeurs rencontrent ce problème lorsqu'ils veulent générer des miniatures, des aperçus d'e‑mail ou des PDF à partir d'une page web en direct. Bonne nouvelle ? Avec Aspose.HTML, vous pouvez convertir une page web en image en quelques lignes seulement, et vous bénéficiez d'un contrôle fin sur la couleur d'arrière‑plan, les dimensions de l'image et le rendu du texte.
 
-Le problème, c’est que la plupart des développeurs se tournent vers un outil de capture d’écran de navigateur et finissent par manipuler des binaires de Chrome sans tête. Cela fonctionne, mais cela ajoute beaucoup de surcharge. Avec Aspose.HTML, vous pouvez **enregistrer du HTML en PNG** directement depuis le code, sans processus externe. À la fin de ce guide, vous serez capable de **exporter du HTML en image**, de stocker le résultat sur le disque, et même d’ajuster l’antialiasing ou les dimensions pour correspondre à votre interface.
+Dans ce tutoriel, nous parcourrons l'ensemble du processus : du chargement d'une page distante, à la configuration des options de rendu (y compris comment **set background color image** et **configure image size**), et enfin l'enregistrement du résultat en fichier PNG (**save HTML as PNG**). À la fin, vous disposerez d'une application console C# prête à l'emploi qui transforme n'importe quelle URL en une capture PNG nette.
 
 ## Ce que vous allez apprendre
 
-- Comment installer Aspose.HTML via NuGet.
-- Configurer `ImageRenderingOptions` pour une sortie de haute qualité.
-- Charger une page en ligne ou une chaîne HTML locale.
-- Rendre la page dans un fichier PNG.
-- Pièges courants lors de **l’enregistrement d’une page Web en PNG** et comment les éviter.
+- Comment **render HTML to PNG** en utilisant `ImageRenderer` d’Aspose.HTML.
+- Les étapes exactes pour **convert webpage to image** avec une largeur, une hauteur et un arrière‑plan personnalisés.
+- Méthodes pour **set background color image** pour les pages transparentes.
+- Conseils pour **configure image size** afin d'obtenir une sortie haute résolution.
+- Pièges courants et astuces professionnelles pour que vos rendus restent nets.
 
-Aucune expérience préalable avec Aspose n’est requise ; il suffit d’une configuration basique C#/.NET et d’une connexion Internet.
+> **Pré-requis** – Vous avez besoin de .NET 6+ (ou .NET Framework 4.7+), Visual Studio 2022 (ou tout IDE de votre choix), et d'une référence NuGet à `Aspose.HTML`. Aucun autre service externe n'est requis.
 
-## Prérequis
+---
 
-- .NET 6.0 ou ultérieur (le code fonctionne sur .NET Core, .NET Framework 4.6+ et .NET 7).
-- Visual Studio 2022 (ou tout IDE de votre choix).
-- Accès à NuGet pour récupérer le package `Aspose.HTML`.
-- Un dossier où vous avez les permissions d’écriture pour le PNG généré.
+## Comment rendre du HTML en PNG avec Aspose.HTML
 
-> **Astuce :** Si vous prévoyez d’exécuter cela sur un serveur, assurez‑vous que le compte qui exécute le processus puisse écrire dans le répertoire de sortie ; sinon l’étape de rendu échouera silencieusement.
-
-## Étape 1 : Installer Aspose.HTML
-
-Tout d’abord, ajoutez la bibliothèque Aspose.HTML à votre projet. Ouvrez la console du Gestionnaire de packages NuGet et exécutez :
-
-```powershell
-Install-Package Aspose.HTML
-```
-
-Ou, si vous préférez l’interface graphique, recherchez **Aspose.HTML** et cliquez sur **Installer**. Cela récupère toutes les DLL nécessaires, y compris le moteur de rendu.
-
-> **Pourquoi c’est important :** Aspose.HTML gère le parsing HTML, la mise en page CSS et la rasterisation d’images en interne, vous n’avez donc pas besoin de lancer un navigateur sans tête. Il est également entièrement géré, ce qui signifie aucune dépendance native à déployer.
-
-## Étape 2 : Configurer les options de rendu d’image
-
-Avant de rendre, décidez de la taille et de la qualité de sortie. La classe `ImageRenderingOptions` vous offre un contrôle granulaire.
+Voici le programme complet et exécutable. N'hésitez pas à le copier‑coller dans un nouveau projet console et à appuyer sur **F5**.
 
 ```csharp
-using Aspose.Html;
-using Aspose.Html.Rendering.Image;
-
-// Step 2: Create and configure image rendering options
-var imageOptions = new ImageRenderingOptions
-{
-    // Antialiasing improves visual quality, especially for text and lines
-    UseAntialiasing = true,
-    // Desired image dimensions – adjust to your needs
-    Width  = 800,   // pixels
-    Height = 600    // pixels
-};
-```
-
-> **Pourquoi activer l’antialiasing ?** Sans cela, les bords peuvent paraître dentelés, ce qui est particulièrement visible sur les écrans haute‑DPI. L’activer ajoute un léger coût de performance mais produit un PNG beaucoup plus net.
-
-## Étape 3 : Charger le contenu HTML
-
-Vous pouvez rendre une URL distante, un fichier local, ou même une chaîne HTML brute. Pour cet exemple, nous récupérerons une page en direct.
-
-```csharp
-// Step 3: Load the HTML document from a URL
-var htmlDoc = new HTMLDocument("https://example.com");
-```
-
-Si vous avez du HTML stocké dans une chaîne, utilisez la surcharge qui accepte `MemoryStream` :
-
-```csharp
-string rawHtml = "<html><body><h1>Hello, world!</h1></body></html>";
-using var stream = new MemoryStream(Encoding.UTF8.GetBytes(rawHtml));
-var htmlDoc = new HTMLDocument(stream, "about:blank");
-```
-
-> **Cas particulier :** Certains sites bloquent les agents utilisateurs qui ne sont pas des navigateurs. Si vous obtenez une image blanche, définissez un en‑tête user‑agent personnalisé sur la requête ou téléchargez d’abord le HTML puis fournissez‑le sous forme de chaîne.
-
-## Étape 4 : Rendre en PNG
-
-Voici l’opération principale — appeler `RenderToFile`. Fournissez le chemin complet où vous souhaitez enregistrer le PNG.
-
-```csharp
-// Step 4: Render the HTML document to a PNG file
-string outputPath = Path.Combine(
-    Environment.CurrentDirectory,
-    "output.png");
-
-// Perform the rendering
-htmlDoc.RenderToFile(outputPath, imageOptions);
-```
-
-Après l’exécution de cette ligne, vous trouverez `output.png` dans le dossier spécifié. Ouvrez‑le avec n’importe quel visualiseur d’images pour vérifier le résultat.
-
-> **À quoi s’attendre :** Le PNG sera exactement de 800 × 600 px, avec un texte lisse et des couleurs correspondant à la page originale. Si la page source utilise du CSS ou des images externes, Aspose.HTML téléchargera automatiquement ces ressources, à condition qu’elles soient accessibles.
-
-## Étape 5 : Vérifier et utiliser le résultat
-
-Une vérification rapide permet de s’assurer que vous avez bien obtenu une image et non un fichier vide.
-
-```csharp
-if (File.Exists(outputPath) && new FileInfo(outputPath).Length > 0)
-{
-    Console.WriteLine($"✅ Render successful! Image saved to: {outputPath}");
-}
-else
-{
-    Console.WriteLine("❌ Rendering failed – check the URL and rendering options.");
-}
-```
-
-Vous pouvez maintenant **enregistrer la page Web en PNG** pour l’archivage, intégrer l’image dans des newsletters, ou la transmettre à un pipeline d’apprentissage automatique qui attend des pages rasterisées.
-
-## Optionnel : Ajustements pour différents scénarios
-
-### 5.1 Rendu d’une capture d’écran pleine page
-
-Si vous souhaitez la page entière déroulable plutôt qu’une tranche de la taille de la fenêtre, définissez une hauteur plus grande ou utilisez `ImageRenderingOptions.PageHeight` :
-
-```csharp
-imageOptions.Height = 2000; // tall enough for most pages
-```
-
-### 5.2 Changer le format de l’image
-
-Aspose.HTML prend en charge JPEG, BMP, GIF et TIFF. Changez simplement l’extension du fichier et le format sera automatiquement adapté :
-
-```csharp
-htmlDoc.RenderToFile("output.jpg", imageOptions); // JPEG output
-```
-
-### 5.3 Gérer les pages protégées par authentification
-
-Pour les pages derrière une authentification, récupérez le HTML avec `HttpClient` (en incluant les cookies ou les jetons d’accès), puis transmettez la chaîne à `HTMLDocument` comme montré précédemment. Ainsi, vous pouvez toujours **convertir une page Web en image** même si la page n’est pas accessible publiquement.
-
-## Exemple complet fonctionnel
-
-Voici une application console autonome qui rassemble tout. Copiez‑collez‑la dans un nouveau projet console .NET et exécutez‑la ; elle téléchargera `https://example.com`, le rendra, et enregistrera `output.png` à côté de l’exécutable.
-
-```csharp
-// -----------------------------------------------------------
-// RenderHTMLToPngDemo.cs
-// -----------------------------------------------------------
+// ------------------------------------------------------------
+// Full C# example: render HTML to PNG using Aspose.HTML
+// ------------------------------------------------------------
 using System;
-using System.IO;
-using System.Text;
 using Aspose.Html;
 using Aspose.Html.Rendering.Image;
+using Aspose.Html.Drawing;
+using Aspose.Html.Drawing.Image;
 
-class RenderHTMLToPngDemo
+namespace HtmlToPngDemo
 {
-    static void Main()
+    class Program
     {
-        // 1️⃣ Configure rendering options
-        var imageOptions = new ImageRenderingOptions
+        static void Main()
         {
-            UseAntialiasing = true,
-            Width  = 800,
-            Height = 600
-        };
+            // Step 1: Load the HTML document from a URL
+            // This is where we **convert webpage to image** – the URL can be any public site.
+            HTMLDocument htmlDoc = new HTMLDocument("https://example.com");
 
-        // 2️⃣ Load the HTML document (remote URL)
-        var htmlDoc = new HTMLDocument("https://example.com");
+            // Step 2: Configure image rendering options
+            var renderingOptions = new ImageRenderingOptions()
+            {
+                // Enable antialiasing for smoother edges
+                UseAntialiasing = true,
 
-        // 3️⃣ Define output path
-        string outputPath = Path.Combine(
-            Environment.CurrentDirectory,
-            "output.png");
+                // Improve glyph clarity on low‑resolution output
+                TextOptions = new TextOptions() { UseHinting = true },
 
-        // 4️⃣ Render to PNG
-        htmlDoc.RenderToFile(outputPath, imageOptions);
+                // Set output image size – this is how we **configure image size**
+                Width = 1024,
+                Height = 768,
 
-        // 5️⃣ Verify the result
-        if (File.Exists(outputPath) && new FileInfo(outputPath).Length > 0)
-        {
-            Console.WriteLine($"✅ Render successful! Image saved to: {outputPath}");
-        }
-        else
-        {
-            Console.WriteLine("❌ Rendering failed – double‑check the URL and options.");
+                // **Set background color image** – white works for most screenshots
+                BackgroundColor = Color.White
+            };
+
+            // Step 3: Create an ImageRenderer with the document and options
+            using (var renderer = new ImageRenderer(htmlDoc, renderingOptions))
+            {
+                // Step 4: Render the whole page to an image
+                renderer.Render();
+
+                // Step 5: Save the rendered image as PNG – **save HTML as PNG**
+                renderer.Save("output/page.png");
+            }
+
+            Console.WriteLine("✅ Rendering complete! Check the 'output' folder for your PNG.");
         }
     }
 }
 ```
 
-> **Résultat attendu :** Un fichier `output.png`, 800 × 600 px, affichant la page d’accueil de `example.com`. Ouvrez‑le avec n’importe quel visualiseur d’images pour confirmer la fidélité visuelle.
+> **Note :** Le code ci‑dessus comprend des commentaires qui expliquent chaque ligne non évidente, ce qui facilite son adaptation à vos propres projets.
 
-## Questions fréquentes & pièges
+### Explication étape par étape
 
-- **Q : Cela fonctionne‑t‑il sur Linux ?**  
-  Oui. Aspose.HTML est multiplateforme ; assurez‑vous simplement que le runtime .NET est installé.
+#### 1️⃣ Charger le document HTML (convert webpage to image)
 
-- **Q : Ma page utilise JavaScript pour injecter du contenu—apparaîtra‑t‑il ?**  
-  Aspose.HTML **n’exécute pas** JavaScript. Pour les pages dynamiques, vous devrez pré‑rendre le HTML (par ex., avec Chrome sans tête) puis fournir le balisage statique au moteur de rendu.
+```csharp
+HTMLDocument htmlDoc = new HTMLDocument("https://example.com");
+```
 
-- **Q : Quelle taille maximale peut avoir l’image avant que la mémoire ne devienne un problème ?**  
-  Rendre des pages très longues (plus de 10 k pixels) peut consommer plusieurs centaines de mégaoctets de RAM. Si vous rencontrez une `OutOfMemoryException`, envisagez de rendre la page par segments et d’assembler les PNG.
+- **Why?** Aspose.HTML a besoin d'une représentation DOM avant de pouvoir rasteriser quoi que ce soit. En passant une URL, la bibliothèque récupère la page, l'analyse et construit un modèle de document interne.
+- **Edge case :** Si le site cible nécessite une authentification, vous devrez fournir des en‑têtes HTTP ou des cookies personnalisés. Le constructeur `HTMLDocument` accepte une surcharge qui prend un `Uri` et un objet `WebRequest`.
 
-- **Q : Puis‑je intégrer des polices qui ne sont pas installées sur le serveur ?**  
-  Oui. Incluez des règles `@font-face` dans votre CSS ou chargez les fichiers de police via une balise `<link>` ; Aspose.HTML les intégrera lors de la rasterisation.
+#### 2️⃣ Configurer les options de rendu (configure image size & set background color image)
+
+```csharp
+var renderingOptions = new ImageRenderingOptions()
+{
+    UseAntialiasing = true,
+    TextOptions = new TextOptions() { UseHinting = true },
+    Width = 1024,
+    Height = 768,
+    BackgroundColor = Color.White
+};
+```
+
+- **Antialiasing** lisse les bords, surtout pour les formes vectorielles.
+- **Text hinting** améliore la clarté des glyphes sur une sortie à faible DPI.
+- **Width/Height** vous permettent de **configure image size** précisément ; vous pouvez également passer `0` pour un redimensionnement automatique basé sur le CSS de la page.
+- **BackgroundColor** est crucial lorsque le HTML utilise des éléments transparents. Le définir sur blanc (ou tout autre `Color`) est la façon la plus courante de **set background color image**.
+
+#### 3️⃣ Rendre et enregistrer (render html to png, save html as png)
+
+```csharp
+using (var renderer = new ImageRenderer(htmlDoc, renderingOptions))
+{
+    renderer.Render();
+    renderer.Save("output/page.png");
+}
+```
+
+- L'appel `Render()` effectue le travail lourd — mise en page, cascade CSS, exécution JavaScript (limitée) et rasterisation.
+- `Save()` écrit le bitmap sur le disque au format PNG. Vous pouvez également choisir JPEG, BMP ou TIFF en modifiant l'extension du fichier ou en utilisant `ImageFormat`.
+
+### Vérification rapide
+
+Après avoir exécuté le programme, ouvrez `output/page.png`. Vous devriez voir un aperçu fidèle de `https://example.com` en 1024 × 768 pixels, avec un arrière‑plan blanc uni. Si l'image apparaît floue, augmentez les dimensions ou activez un DPI plus élevé via `renderingOptions.DpiX`/`DpiY`.
+
+![exemple de rendu HTML en PNG](https://via.placeholder.com/1024x768.png?text=Render+HTML+to+PNG "sortie du rendu HTML en PNG")
+
+*Texte alternatif : sortie du rendu HTML en PNG*
+
+## Problèmes courants & astuces professionnelles
+
+| Problème | Pourquoi cela se produit | Solution / Meilleure pratique |
+|----------|--------------------------|--------------------------------|
+| **Blank image** | Le CSS de la page masque le contenu jusqu'à l'exécution du JavaScript. | Utilisez `renderer.Render(true)` pour activer l'exécution du script, ou pré‑traitez la page pour intégrer le CSS critique. |
+| **Wrong colors** | Les arrière‑plans transparents apparaissent en noir. | Définissez explicitement **set background color image** (par ex., `Color.White` ou toute `Color` dont vous avez besoin). |
+| **Incorrect size** | Width/Height ne correspondent pas aux media queries CSS. | Définissez `renderingOptions.Width`/`Height` *après* le chargement de la page, ou laissez Aspose détecter automatiquement en utilisant `0`. |
+| **Performance bottleneck** | Rendu de grandes pages de façon répétée. | Réutilisez la même instance `ImageRenderer` avec différents objets `HTMLDocument`, ou activez le cache via `HtmlLoadOptions`. |
+| **Missing fonts** | Les polices web personnalisées ne sont pas chargées. | Ajoutez `FontSettings` au `HTMLDocument` pour pointer vers un dossier de polices local. |
+
+**Astuce pro :** Lorsque vous avez besoin d'une miniature, rendez à une résolution plus élevée (par ex., 1920×1080) puis réduisez la taille avec `System.Drawing`. Cela conserve la netteté des détails vectoriels.
+
+## Étendre l'exemple
+
+1. **Batch processing** – Parcourez une liste d'URL, changez le nom de fichier de sortie à chaque itération, et vous avez un mini‑générateur de miniatures.
+2. **Different formats** – Remplacez `renderer.Save("output/page.png")` par `renderer.Save("output/page.jpg", ImageFormat.Jpeg)` pour des fichiers plus petits.
+3. **Transparent PNGs** – Définissez `BackgroundColor = Color.Transparent` pour conserver le canal alpha.
+4. **Dynamic sizing** – Lisez le `<meta name="viewport">` de la page et calculez un `Width`/`Height` approprié à l'exécution.
 
 ## Conclusion
 
-Vous disposez maintenant d’une méthode solide et prête pour la production afin de **rendre du HTML en PNG** en C#. En configurant `ImageRenderingOptions`, en chargeant la page cible et en appelant `RenderToFile`, vous pouvez **convertir une page Web en image**, **enregistrer du HTML en PNG**, **exporter du HTML en image**, et **enregistrer une page Web en PNG** avec seulement quelques lignes de code.
+Vous avez maintenant une recette solide, prête pour la production, pour **render HTML to PNG** en utilisant Aspose.HTML en C#. Le guide a couvert tout, de **convert webpage to image**, à **configure image size** et **set background color image**, jusqu'à **save HTML as PNG**.
 
-Prochaines étapes ? Essayez d’ajuster les dimensions pour des captures d’écran haute‑DPI, expérimentez la sortie JPEG pour des fichiers plus légers, ou intégrez cette logique dans une API ASP.NET qui renvoie des PNG à la demande. Les possibilités sont infinies, et comme la solution est entièrement gérée, vous n’aurez plus à vous débattre avec des navigateurs externes ou des bibliothèques natives.
+Essayez‑le : modifiez les dimensions, testez une URL différente, ou générez un JPEG à la place. Le même schéma fonctionne pour les PDF, SVG ou même les TIFF multi‑pages — il suffit d'échanger la classe du renderer.
 
-Vous avez d’autres questions sur le rendu d’images ou d’autres fonctionnalités d’Aspose.HTML ? Laissez un commentaire ci‑dessous, et bon codage !
-
-![exemple de rendu html en png](placeholder.png "rendu html en png")
+Si vous rencontrez des problèmes ou souhaitez explorer des scénarios avancés comme l'exécution JavaScript sans tête, consultez la documentation officielle d'Aspose ou laissez un commentaire ci‑dessous. Bon rendu !
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
