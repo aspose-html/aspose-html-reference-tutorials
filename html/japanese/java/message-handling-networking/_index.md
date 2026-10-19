@@ -46,10 +46,16 @@ Aspose.HTML for Java でカスタム メッセージ ハンドラーを実装し
 この詳細なステップバイステップ ガイドを使用して、Aspose.HTML for Java でメッセージ ハンドラー パイプラインを作成する方法を学習します。ZIP を簡単に PDF に変換します。
 ### [Aspose.HTML for Java での Web リクエストの実行](./web-request-execution/)
 この包括的なステップバイステップ ガイドを使用して、Aspose.HTML for Java を使用して Web リクエストを実行する方法を学習します。HTML ドキュメントの管理スキルを強化します。
-### [Aspose.HTML for Java を使用して ZIP を JPG に変換する](./zip-to-jpg/)
+### [Aspose.HTML を使用した Java で ZIP を JPG に変換する](./zip-to-jpg/)
 このステップバイステップ ガイドでは、Aspose.HTML for Java を使用して ZIP ファイルを JPG 画像に変換する方法を学習します。
 ### [Aspose.HTML for Java で ZIP を PDF に変換する](./zip-to-pdf/)
 このステップバイステップ ガイドに従って、Aspose.HTML for Java を使用して ZIP ファイルを PDF に簡単に変換します。
+### [Java 11 HttpClient Authenticator – 安全なリクエストの完全ガイド](./java-11-httpclient-authenticator-complete-guide-to-secure-re/)
+Java 11 の HttpClient 認証機能を活用し、安全な HTTP リクエストを実装する方法をステップバイステップで解説します。
+### [Java で API を取得する方法 – Aspose HTML V8 エンジンを使用した完全ガイド](./how-to-fetch-api-in-java-complete-guide-using-aspose-html-v8/)
+### [Aspose.HTML を使用した Java での JSON（JavaScript）取得 – 完全ガイド](./fetch-json-javascript-in-java-with-aspose-html-complete-guid/)
+この包括的なガイドでは、Aspose HTML を利用して Java から JavaScript の JSON データを取得する方法をステップバイステップで解説します。
+### [Aspose.HTML を使用した Java で認証ヘッダーを設定する – URL から HTML をロードする完全ガイド](./set-authorization-header-in-java-complete-guide-to-load-html/)
 ### [Java でカスタムユーザーエージェントを設定 – サンドボックスでウェブページをロードするチュートリアル](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

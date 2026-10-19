@@ -50,6 +50,14 @@ Aspose.HTML для Java — это мощный набор инструмент�
 Узнайте, как преобразовать ZIP-файлы в изображения JPG с помощью Aspose.HTML для Java, следуя этому пошаговому руководству.
 ### [Конвертируйте ZIP в PDF с помощью Aspose.HTML для Java](./zip-to-pdf/)
 Легко конвертируйте свои ZIP-файлы в PDF с помощью Aspose.HTML для Java, следуя этому пошаговому руководству.
+### [Java 11 HttpClient Authenticator – Полное руководство по безопасным запросам](./java-11-httpclient-authenticator-complete-guide-to-secure-re/)
+Полное руководство по использованию HttpClient Authenticator в Java 11 для безопасных запросов.
+### [Как использовать Fetch API в Java – Полное руководство с Aspose HTML V8 Engine](./how-to-fetch-api-in-java-complete-guide-using-aspose-html-v8/)
+Узнайте, как выполнять запросы Fetch API в Java с помощью движка Aspose HTML V8 в этом полном руководстве.
+### [Получение JSON JavaScript в Java с Aspose HTML – Полное руководство](./fetch-json-javascript-in-java-with-aspose-html-complete-guid/)
+Узнайте, как загружать и обрабатывать JSON, полученный из JavaScript, в Java с помощью Aspose HTML в этом полном руководстве.
+### [Установка заголовка авторизации в Java – Полное руководство по загрузке HTML из URL](./set-authorization-header-in-java-complete-guide-to-load-html/)
+Узнайте, как установить заголовок авторизации при загрузке HTML из URL с помощью Aspose.HTML для Java.
 ### [Установка пользовательского User-Agent в Java – Загрузка веб-страницы в песочнице](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
 Узнайте, как задать собственный User-Agent при загрузке веб-страницы в безопасной песочнице с помощью Aspose.HTML для Java.
 

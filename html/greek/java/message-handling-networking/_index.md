@@ -50,6 +50,14 @@ url: /el/java/message-handling-networking/
 Μάθετε πώς να μετατρέπετε αρχεία ZIP σε εικόνες JPG χρησιμοποιώντας το Aspose.HTML για Java με αυτόν τον οδηγό βήμα προς βήμα.
 ### [Μετατροπή ZIP σε PDF με το Aspose.HTML για Java](./zip-to-pdf/)
 Μετατρέψτε εύκολα τα αρχεία ZIP σε PDF χρησιμοποιώντας το Aspose.HTML για Java με αυτόν τον οδηγό βήμα προς βήμα.
+### [java 11 httpclient authenticator – Πλήρης Οδηγός για Ασφαλή Αιτήματα](./java-11-httpclient-authenticator-complete-guide-to-secure-re/)
+Μάθετε πώς να χρησιμοποιείτε το HttpClient του Java 11 με Authenticator για ασφαλή αιτήματα, εξασφαλίζοντας κρυπτογραφημένη επικοινωνία.
+### [Πώς να κάνετε Fetch API σε Java – Πλήρης Οδηγός με τη Μηχανή Aspose HTML V8](./how-to-fetch-api-in-java-complete-guide-using-aspose-html-v8/)
+Μάθετε πώς να εκτελείτε κλήσεις Fetch API σε Java χρησιμοποιώντας τη μηχανή Aspose HTML V8 για αποδοτική επεξεργασία HTML.
+### [Ανάκτηση JSON JavaScript σε Java με Aspose HTML – Πλήρης Οδηγός](./fetch-json-javascript-in-java-with-aspose-html-complete-guid/)
+Μάθετε πώς να φορτώνετε και να επεξεργάζεστε JSON από JavaScript σε Java χρησιμοποιώντας το Aspose.HTML σε έναν ολοκληρωμένο οδηγό.
+### [Ορισμός κεφαλίδας εξουσιοδότησης σε Java – Πλήρης οδηγός φόρτωσης HTML από URL](./set-authorization-header-in-java-complete-guide-to-load-html/)
+Μάθετε πώς να ορίζετε την κεφαλίδα Authorization σε αιτήματα Java για τη φόρτωση HTML από URL με ασφάλεια.
 ### [Ορισμός προσαρμοσμένου user agent σε Java – Φόρτωση ιστοσελίδας σε sandbox στο Aspose.HTML για Java](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
 Μάθετε πώς να ορίσετε προσαρμοσμένο user agent σε Java για τη φόρτωση ιστοσελίδων σε sandbox περιβάλλον, βελτιώνοντας την ασφάλεια και τον έλεγχο.
 

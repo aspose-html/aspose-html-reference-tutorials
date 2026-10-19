@@ -55,6 +55,15 @@ Lär dig hur du anger en egen användaragent när du laddar en webbsida i en san
 Lär dig hur du konverterar ZIP-filer till JPG-bilder med Aspose.HTML för Java med denna steg-för-steg-guide.
 ### [Konvertera ZIP till PDF med Aspose.HTML för Java](./zip-to-pdf/)
 Konvertera enkelt dina ZIP-filer till PDF med Aspose.HTML för Java med denna steg-för-steg-guide.
+### [java 11 httpclient authenticator – Komplett guide för säkra förfrågningar](./java-11-httpclient-authenticator-complete-guide-to-secure-re/)
+Lär dig hur du använder HttpClient Authenticator i Java 11 för att säkert skicka HTTP-förfrågningar med autentisering.
+
+### [Hur du hämtar API i Java – Komplett guide med Aspose HTML V8-motorn](./how-to-fetch-api-in-java-complete-guide-using-aspose-html-v8/)
+Lär dig hur du använder Fetch API i Java med Aspose HTML V8-motorn i denna steg-för-steg-guide.
+### [Hämta JSON JavaScript i Java med Aspose HTML – Komplett guide](./fetch-json-javascript-in-java-with-aspose-html-complete-guid/)
+Lär dig hur du hämtar JSON-data med JavaScript i Java med Aspose HTML i denna kompletta guide.
+### [Ställ in auktoriseringshuvud i Java – Komplett guide för att ladda HTML från URL](./set-authorization-header-in-java-complete-guide-to-load-html/)
+Lär dig hur du sätter auktoriseringshuvuden i Java för att ladda HTML från en URL med Aspose.HTML.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

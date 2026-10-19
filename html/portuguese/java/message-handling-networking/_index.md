@@ -32,6 +32,9 @@ Construir seus próprios pipelines de manipuladores de mensagens pode parecer co
 ## Execução de solicitação da Web em Aspose.HTML para Java
  Executar solicitações da web é outro aspecto crucial do trabalho com Aspose.HTML para Java. Desde buscar conteúdo de terceiros até gerenciar recursos remotos, saber como executar essas ações pode mudar o jogo.[Execução de solicitação da Web em Aspose.HTML para Java](./web-request-execution/)tutorial oferece uma análise abrangente de como enviar e receber dados de forma eficaz. Pense nisso como fazer uma ligação telefônica: você quer garantir que sua mensagem seja transmitida perfeitamente, sem nenhuma estática. Dominar essa habilidade permite que você traga dados adicionais para seus aplicativos, aprimorando os recursos de processamento de documentos.
 
+### [Como buscar API em Java – Guia completo usando o Aspose HTML V8](./how-to-fetch-api-in-java-complete-guide-using-aspose-html-v8/)
+Aprenda a fazer requisições API em Java com o Aspose HTML V8, cobrindo configuração, chamadas e tratamento de respostas.
+
 ## Convertendo ZIP para JPG e PDF
  Você já precisou extrair imagens de um arquivo compactado rapidamente? O[Converter ZIP para JPG usando Aspose.HTML para Java](./zip-to-jpg/) e[Converter ZIP para PDF com Aspose.HTML para Java](./zip-to-pdf/) tutoriais fornecem ferramentas para essas tarefas específicas. Converter arquivos não precisa ser um processo trabalhoso — pode ser tão simples quanto transformar um esboço em uma obra-prima. Esses guias detalham as etapas para ajudar você a converter arquivos ZIP de forma eficiente, mostrando a versatilidade do Aspose.HTML para Java.
 
@@ -50,6 +53,12 @@ Aprenda a executar requisições web usando Aspose.HTML para Java com este guia 
 Aprenda como converter arquivos ZIP em imagens JPG usando o Aspose.HTML para Java com este guia passo a passo.
 ### [Converter ZIP para PDF com Aspose.HTML para Java](./zip-to-pdf/)
 Converta facilmente seus arquivos ZIP para PDF usando o Aspose.HTML para Java com este guia passo a passo.
+### [Java 11 HttpClient Authenticator – Guia Completo de Requisições Seguras](./java-11-httpclient-authenticator-complete-guide-to-secure-re/)
+Aprenda a usar o HttpClient 11 com Authenticator para fazer requisições seguras em Java.
+### [Buscar JSON JavaScript em Java com Aspose HTML – Guia Completo](./fetch-json-javascript-in-java-with-aspose-html-complete-guid/)
+Aprenda a buscar e processar JSON usando JavaScript em Java com Aspose HTML neste guia completo.
+### [Definir Cabeçalho de Autorização em Java – Guia Completo para Carregar HTML a partir de URL](./set-authorization-header-in-java-complete-guide-to-load-html/)
+Aprenda a definir o cabeçalho de autorização em requisições Java para carregar HTML de URLs de forma segura e eficiente.
 ### [Definir agente de usuário personalizado em Java – Tutorial de carregamento de página da web em sandbox](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
 Aprenda a definir um agente de usuário personalizado ao carregar páginas web em sandbox usando Aspose.HTML para Java.
 

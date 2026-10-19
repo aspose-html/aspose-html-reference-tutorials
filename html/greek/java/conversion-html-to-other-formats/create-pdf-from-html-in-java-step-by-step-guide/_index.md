@@ -1,25 +1,24 @@
 ---
 category: general
-date: 2026-04-09
-description: Δημιουργήστε PDF από HTML χρησιμοποιώντας Java με Aspose.HTML. Μάθετε
-  τη μετατροπή HTML σε PDF με Java, αποθηκεύστε το HTML ως PDF και μετατρέψτε το αρχείο
-  HTML σε PDF σε λίγα λεπτά.
+date: 2026-02-13
+description: Δημιουργήστε PDF από HTML γρήγορα με Java. Μάθετε πώς να μετατρέπετε
+  HTML σε PDF, να διαχειρίζεστε URLs και να προσαρμόζετε επιλογές σε ένα ενιαίο σεμινάριο.
 draft: false
 keywords:
 - create pdf from html
+- convert html to pdf
 - html to pdf java
 - java html to pdf
-- save html as pdf
-- convert html file pdf
+- convert url to pdf
 language: el
-og_description: Δημιουργήστε PDF από HTML με Java. Αυτό το σεμινάριο δείχνει πώς να
-  μετατρέψετε HTML σε PDF με Java, να αποθηκεύσετε HTML ως PDF και να μετατρέψετε
-  αρχείο HTML σε PDF χρησιμοποιώντας το Aspose.HTML.
-og_title: Δημιουργία PDF από HTML σε Java – Πλήρης Οδηγός Προγραμματισμού
+og_description: Δημιουργήστε PDF από HTML χρησιμοποιώντας Java. Αυτό το σεμινάριο
+  δείχνει πώς να μετατρέψετε HTML σε PDF, να διαχειριστείτε URLs και να ρυθμίσετε
+  τις παραμέτρους για τέλεια αποτελέσματα.
+og_title: Δημιουργία PDF από HTML σε Java – Πλήρης Οδηγός
 tags:
 - Java
 - PDF
-- Aspose.HTML
+- HTML conversion
 title: Δημιουργία PDF από HTML σε Java – Οδηγός βήμα‑προς‑βήμα
 url: /el/java/conversion-html-to-other-formats/create-pdf-from-html-in-java-step-by-step-guide/
 ---
@@ -28,193 +27,216 @@ url: /el/java/conversion-html-to-other-formats/create-pdf-from-html-in-java-step
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Δημιουργία PDF από HTML σε Java – Οδηγός βήμα‑βήμα  
+# Δημιουργία PDF από HTML σε Java – Πλήρης Οδηγός
 
-Έχετε ποτέ χρειαστεί να **δημιουργήσετε PDF από HTML** αλλά δεν ήσασταν σίγουροι ποια βιβλιοθήκη θα διατηρήσει το σχεδιασμό σας ανέπαφο; Δεν είστε μόνοι. Στον κόσμο της Java, πολλοί προγραμματιστές παλεύουν με μετατροπές *html to pdf java* μόνο για να καταλήξουν με σπασμένες γραμματοσειρές ή ελλιπείς εικόνες.  
+Έχετε ποτέ χρειαστεί να **δημιουργήσετε PDF από HTML** αλλά δεν ήσασταν σίγουροι ποια βιβλιοθήκη θα κάνει τη βαριά δουλειά; Δεν είστε μόνοι. Είτε δημιουργείτε έναν γεννήτρια αναφορών, μια υπηρεσία τιμολόγησης, είτε απλώς χρειάζεστε να αρχειοθετήσετε μια ιστοσελίδα, η μετατροπή HTML σε αρχείο PDF είναι ένα συχνό εμπόδιο για τους προγραμματιστές Java.
 
-Το θέμα είναι — το Aspose.HTML for Java κάνει όλη τη διαδικασία παιχνιδάκι. Σε αυτό το tutorial θα περάσουμε από όλα όσα χρειάζεστε για να **αποθηκεύσετε HTML ως PDF**, από τη ρύθμιση της βιβλιοθήκης μέχρι τη διαχείριση ειδικών περιπτώσεων όπως εξωτερικό CSS και μεγάλα αρχεία. Στο τέλος θα μπορείτε να **μετατρέψετε HTML σε PDF** με λίγες μόνο γραμμές κώδικα.  
+Τα καλά νέα; Με λίγες γραμμές κώδικα μπορείτε να **μετατρέψετε HTML σε PDF** — και ακόμη να αντλήσετε την πηγή από ένα URL — χρησιμοποιώντας τη βιβλιοθήκη Aspose.HTML for Java. Σε αυτό το tutorial θα περάσουμε από όλα όσα χρειάζεστε, από τη ρύθμιση της εξάρτησης μέχρι τη ρύθμιση των επιλογών μετατροπής, ώστε να καταλήξετε με ένα έτοιμο PDF χωρίς μυστικά.
 
-## Τι θα μάθετε  
+## Τι Θα Μάθετε
 
-- Πώς να προσθέσετε το Aspose.HTML for Java στο έργο σας (Maven ή χειροκίνητο JAR).  
-- Ο ακριβής κώδικας που απαιτείται για **δημιουργία PDF από HTML** χρησιμοποιώντας την κλάση `Converter`.  
-- Γιατί το `PdfSaveOptions` είναι σημαντικό και πότε μπορεί να χρειαστεί να το τροποποιήσετε.  
-- Συμβουλές για την αντιμετώπιση κοινών προβλημάτων όπως σχετικές διαδρομές και χαρακτήρες Unicode.  
+- Πώς να προσθέσετε το πακέτο Aspose.HTML for Java στο έργο σας.  
+- Τρόποι τροφοδότησης του μετατροπέα με τοπικό αρχείο, απομακρυσμένο URL ή `InputStream`.  
+- Ποιες επιλογές μπορείτε να προσαρμόσετε όταν **convert html to pdf**.  
+- Πώς να επαληθεύσετε ότι το PDF δημιουργήθηκε επιτυχώς.  
 
-### Προαπαιτούμενα  
+Στο τέλος αυτού του οδηγού θα μπορείτε να γράψετε ένα μικρό πρόγραμμα Java που **δημιουργεί PDF από HTML** σε δευτερόλεπτα.
 
-- Java 8 ή νεότερη (η βιβλιοθήκη υποστηρίζει JDK 8‑21).  
-- Ένα εργαλείο κατασκευής όπως Maven ή Gradle (προαιρετικό αλλά συνιστάται).  
-- Βασική εξοικείωση με Java I/O.  
+## Προαπαιτούμενα
 
-Δεν απαιτούνται άλλες εξαρτήσεις· το Aspose.HTML περιλαμβάνει όλα όσα χρειάζεστε για τη μετατροπή.  
+- Java 8 ή νεότερη (η βιβλιοθήκη υποστηρίζει JDK 8+).  
+- Maven ή Gradle για διαχείριση εξαρτήσεων (θα δείξουμε το απόσπασμα Maven).  
+- Βασική κατανόηση της σύνταξης Java — δεν απαιτείται βαθιά γνώση PDF.  
 
-![Diagram illustrating the flow to create pdf from html using Aspose.HTML for Java](https://example.com/diagram-create-pdf-from-html.png "Diagram showing how to create pdf from html using Aspose.HTML for Java")  
+Αν έχετε ήδη ανοικτό ένα έργο Maven, τέλεια· διαφορετικά, δημιουργήστε ένα νέο με `mvn archetype:generate` και σύντομα θα προσθέσουμε τη βιβλιοθήκη.
 
-## Βήμα 1: Προσθήκη Aspose.HTML for Java στο Έργο σας  
+---
 
-### Maven  
+## Βήμα 1: Προσθέστε το Aspose.HTML for Java στη Δόμησή Σας
 
-Αν χρησιμοποιείτε Maven, προσθέστε το παρακάτω απόσπασμα στο `pom.xml` σας.  
+Για αρχή, χρειάζεστε τα JAR του Aspose.HTML. Ο πιο εύκολος τρόπος είναι μέσω Maven Central:
 
 ```xml
+<!-- pom.xml -->
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-html</artifactId>
-    <version>23.10</version> <!-- replace with the latest version -->
+    <version>23.12</version> <!-- Check for the latest version -->
 </dependency>
 ```
 
-### Gradle  
+Αν προτιμάτε Gradle, το ισοδύναμο είναι:
 
-```gradle
-implementation 'com.aspose:aspose-html:23.10'
+```groovy
+implementation 'com.aspose:aspose-html:23.12'
 ```
 
-### Χειροκίνητο JAR  
+> **Pro tip:** Η Aspose προσφέρει δωρεάν άδεια αξιολόγησης που τοποθετεί υδατογράφημα στο παραγόμενο PDF. Για παραγωγή, αποκτήστε μια κατάλληλη άδεια ώστε να αφαιρέσετε το υδατογράφημα και να ξεκλειδώσετε όλες τις δυνατότητες.
 
-Κατεβάστε το JAR από τη [σελίδα λήψης Aspose.HTML for Java](https://downloads.aspose.com/html/java) και προσθέστε το στο classpath σας.  
-
-> **Pro tip:** Πάντα χρησιμοποιείτε την πιο πρόσφατη σταθερή έκδοση· οι νεότερες εκδόσεις διορθώνουν σφάλματα που μπορούν να επηρεάσουν τις μετατροπές *html to pdf java*, ειδικά με σύγχρονα CSS.  
-
-## Βήμα 2: Προετοιμασία της Πηγής HTML  
-
-Ο `Converter` λειτουργεί τόσο με τοπικά αρχεία όσο και με URLs. Για ένα απλό τεστ, τοποθετήστε ένα αρχείο `sample.html` δίπλα στον πηγαίο κώδικά σας.  
-
-```html
-<!-- sample.html -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Demo PDF</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 40px; }
-        h1 { color: #2E86C1; }
-    </style>
-</head>
-<body>
-    <h1>Hello, PDF world!</h1>
-    <p>This PDF was generated from HTML using Java.</p>
-</body>
-</html>
-```
-
-> **Γιατί είναι σημαντικό:** Όταν *αποθηκεύετε HTML ως PDF*, ο μετατροπέας διαβάζει το CSS, τις εικόνες και τις γραμματοσειρές όπως ένας φυλλομετρητής. Η διατήρηση των πόρων δίπλα στο HTML (ή η χρήση απόλυτων URLs) αποτρέπει σπασμένους συνδέσμους στο τελικό PDF.  
-
-## Βήμα 3: Διαμόρφωση Επιλογών Αποθήκευσης PDF  
-
-`PdfSaveOptions` σας επιτρέπει να ελέγχετε στοιχεία όπως η έκδοση PDF, η συμπίεση και το αν θα ενσωματωθούν οι γραμματοσειρές. Για τις περισσότερες περιπτώσεις οι προεπιλογές λειτουργούν καλά, αλλά εδώ είναι πώς μπορείτε να τις προσαρμόσετε.  
-
-```java
-import com.aspose.html.converters.PdfSaveOptions;
-
-// Default options – good for a quick start
-PdfSaveOptions pdfOptions = new PdfSaveOptions();
-
-// Example: embed all fonts to avoid missing glyphs on other machines
-pdfOptions.setEmbedStandardPdfFonts(true);
-pdfOptions.setCompress(true);
-```
-
-> **Προσοχή:** Αν *μετατρέψετε html σε pdf* σε έναν headless server, η απενεργοποίηση της ενσωμάτωσης γραμματοσειρών μπορεί να μειώσει δραστικά το μέγεθος του αρχείου, αλλά διατρέχετε κίνδυνο να λείπουν χαρακτήρες για μη‑ASCII γλώσσες.  
-
-## Βήμα 4: Εκτέλεση της Μετατροπής  
-
-Τώρα συμβαίνει η μαγεία. Η μέθοδος `Converter.convertHTML` διαβάζει το HTML, εφαρμόζει τις επιλογές και γράφει το PDF σε μία κλήση.  
+Μόλις η εξάρτηση λυθεί, μπορείτε να εισάγετε τις κλάσεις που θα χρειαστούμε:
 
 ```java
 import com.aspose.html.converters.Converter;
-import com.aspose.html.HTMLDocument;
+import com.aspose.html.converters.PdfConvertOptions;
+```
 
-public class ConvertHtmlToPdfTutorial {
+## Βήμα 2: Επιλέξτε την Πηγή HTML – Αρχείο, URL ή InputStream
+
+Ο μετατροπέας είναι ευέλικτος. Παρακάτω υπάρχουν τρεις συνηθισμένοι τρόποι παροχής του HTML:
+
+### 2.1 Τοπικό Αρχείο HTML
+
+```java
+String htmlFilePath = "C:/myproject/input.html";
+```
+
+### 2.2 Απομακρυσμένη Ιστοσελίδα (Convert URL to PDF)
+
+```java
+String htmlUrl = "https://example.com/report.html";
+```
+
+### 2.3 InputStream (π.χ., HTML που δημιουργείται δυναμικά)
+
+```java
+InputStream htmlStream = new ByteArrayInputStream("<html><body>Hello</body></html>".getBytes(StandardCharsets.UTF_8));
+```
+
+Μπορείτε να επιλέξετε ό,τι ταιριάζει στο σενάριό σας. Για το υπόλοιπο του tutorial θα παραμείνουμε με το παράδειγμα τοπικού αρχείου, αλλά η ίδια κλήση `Converter.convert` λειτουργεί με URL ή stream — απλώς αντικαταστήστε το πρώτο όρισμα.
+
+## Βήμα 3: Ορίστε Πού Θα Αποθηκευτεί το PDF
+
+Επιλέξτε μια διαδρομή προορισμού που η διαδικασία Java σας μπορεί να γράψει. Στα Windows μπορείτε να χρησιμοποιήσετε `C:/myproject/result.pdf`; σε Linux/macOS, κάτι όπως `/home/user/result.pdf` λειτουργεί εξίσου καλά.
+
+```java
+String pdfFilePath = "C:/myproject/result.pdf";
+```
+
+Βεβαιωθείτε ότι ο φάκελος υπάρχει· διαφορετικά θα λάβετε `IOException`.
+
+## Βήμα 4: Ρυθμίστε τις Επιλογές Μετατροπής PDF (Προαιρετικό)
+
+`PdfConvertOptions` σας επιτρέπει να προσαρμόσετε την έξοδο: μέγεθος σελίδας, περιθώρια, ενσωμάτωση γραμματοσειρών κ.λπ. Οι προεπιλεγμένες ρυθμίσεις συνήθως παράγουν πιστή απόδοση, αλλά εδώ είναι ένα γρήγορο παράδειγμα που επιβάλλει χαρτί A4 και απενεργοποιεί την εκτέλεση JavaScript για ασφάλεια:
+
+```java
+PdfConvertOptions pdfOptions = new PdfConvertOptions();
+pdfOptions.setPageSize(com.aspose.html.drawing.PageSize.A4);
+pdfOptions.setEnableJavaScript(false);
+```
+
+> **Why bother?** Η προσαρμογή των επιλογών μπορεί να μειώσει το μέγεθος του αρχείου, να βελτιώσει τη συμβατότητα με εκτυπωτές ή να επιβάλει εταιρικές οδηγίες branding.
+
+Αν δεν χρειάζεστε προσαρμοσμένες ρυθμίσεις, απλώς δημιουργήστε ένα `new PdfConvertOptions()` και προχωρήστε.
+
+## Βήμα 5: Εκτελέστε τη Μετατροπή
+
+Τώρα συμβαίνει η μαγεία. Η στατική μέθοδος `Converter.convert` κάνει όλη τη βαριά δουλειά:
+
+```java
+public class ConvertHtmlToPdf {
     public static void main(String[] args) throws Exception {
-        // Step 1: Specify the source HTML file location
-        String htmlFilePath = "YOUR_DIRECTORY/sample.html";
+        // 1️⃣ Source HTML (file, URL, or stream)
+        String htmlFilePath = "C:/myproject/input.html";
 
-        // Step 2: Prepare PDF save options (default settings are sufficient for a basic conversion)
-        PdfSaveOptions pdfOptions = new PdfSaveOptions();
+        // 2️⃣ Destination PDF
+        String pdfFilePath = "C:/myproject/result.pdf";
 
-        // Step 3: Convert the HTML directly to PDF and write the result to a file
-        Converter.convertHTML(htmlFilePath, pdfOptions, "YOUR_DIRECTORY/output.pdf");
+        // 3️⃣ Conversion options (default or customized)
+        PdfConvertOptions pdfOptions = new PdfConvertOptions();
 
-        System.out.println("Conversion completed! Check output.pdf");
+        // 4️⃣ Convert!
+        Converter.convert(htmlFilePath, pdfFilePath, pdfOptions);
+
+        // 5️⃣ Let the user know we’re done
+        System.out.println("Conversion finished.");
     }
 }
 ```
 
-> **Εξήγηση:**  
-> - `htmlFilePath` μπορεί να είναι σχετική ή απόλυτη διαδρομή· ο μετατροπέας την επιλύει όπως θα έκανε ένας φυλλομετρητής.  
-> - `pdfOptions` μεταφέρει όλες τις προτιμήσεις *save html as pdf* που ορίσατε νωρίτερα.  
-> - Το τρίτο όρισμα είναι το αρχείο PDF προορισμού· το Aspose δημιουργεί αυτόματα το αρχείο αν δεν υπάρχει.  
+Τρέξτε την κλάση από το IDE σας ή με `mvn exec:java`. Όταν η κονσόλα εκτυπώσει **“Conversion finished.”**, θα πρέπει να δείτε το `result.pdf` στον καθορισμένο φάκελο. Ανοίξτε το με οποιονδήποτε προβολέα PDF για να επιβεβαιώσετε ότι η διάταξη ταιριάζει με το αρχικό HTML.
 
-### Αναμενόμενο Αποτέλεσμα  
+### Edge Cases & Common Questions
 
-Η εκτέλεση του προγράμματος δημιουργεί το `output.pdf` που φαίνεται ακριβώς όπως το αποδοθέν `sample.html` — ο τίτλος σε μπλε, η παράγραφος κάτω, και τα ίδια περιθώρια. Ανοίξτε το σε οποιονδήποτε προβολέα PDF για να το επιβεβαιώσετε.  
+- **Τι γίνεται αν το HTML αναφέρεται σε εξωτερικά CSS ή εικόνες;**  
+  Ο μετατροπέας ακολουθεί σχετικές URL βάσει της θέσης του αρχείου HTML. Για απομακρυσμένους πόρους, βεβαιωθείτε ότι το μηχάνημα έχει πρόσβαση στο διαδίκτυο ή ενσωματώστε τα περιουσιακά στοιχεία τοπικά.
 
-## Βήμα 5: Επαλήθευση του Αποτελέσματος & Διαχείριση Συνηθισμένων Προβλημάτων  
+- **Μπορώ να μετατρέψω ολόκληρη μια ιστοσελίδα;**  
+  Δεν απευθείας με μία κλήση, αλλά μπορείτε να κάνετε βρόχο πάνω σε μια λίστα URL και να καλέσετε `Converter.convert` για καθένα — ουσιαστικά **convert url to pdf** σε batch.
 
-### Επαλήθευση  
+- **Πώς διαχειρίζομαι μεγάλα αρχεία HTML;**  
+  Η βιβλιοθήκη ρέει δεδομένα εσωτερικά, έτσι η χρήση μνήμης παραμένει μέτρια. Ωστόσο, προσέξτε εξαιρετικά μεγάλες εικόνες· εξετάστε τη μείωση της ανάλυσης πριν τη μετατροπή.
+
+- **Τι γίνεται αν χρειάζομαι PDF με κωδικό πρόσβασης;**  
+  Το `PdfConvertOptions` εκθέτει `setPassword(String)` και `setOwnerPassword(String)` για κρυπτογράφηση.
+
+## Βήμα 6: Επαληθεύστε το Αποτέλεσμα (Προαιρετικό αλλά Συνιστώμενο)
+
+Μια γρήγορη έλεγχος λογικής μπορεί να σας εξοικονομήσει χρόνο εντοπισμού σφαλμάτων αργότερα. Εδώ είναι ένα μικρό απόσπασμα που χρησιμοποιεί το Apache PDFBox για να διαβάσει το κείμενο της πρώτης σελίδας:
 
 ```java
-File pdfFile = new File("YOUR_DIRECTORY/output.pdf");
-if (pdfFile.exists() && pdfFile.length() > 0) {
-    System.out.println("PDF generated successfully, size: " + pdfFile.length() + " bytes");
+import org.apache.pdfbox.pdmodel.PDDocument;
+import org.apache.pdfbox.text.PDFTextStripper;
+
+try (PDDocument doc = PDDocument.load(new File(pdfFilePath))) {
+    PDFTextStripper stripper = new PDFTextStripper();
+    stripper.setStartPage(1);
+    stripper.setEndPage(1);
+    String firstPage = stripper.getText(doc);
+    System.out.println("First page contains: " + firstPage.trim());
 }
 ```
 
-### Συνηθισμένα Προβλήματα  
+Αν η έξοδος περιέχει ένα απόσπασμα του αρχικού σας HTML (π.χ., έναν τίτλο ή παράγραφο), έχετε επιτυχώς **convert html to pdf**.
 
-| Σύμπτωμα | Πιθανή Αιτία | Διόρθωση |
-|---------|--------------|-----|
-| Εικόνες λείπουν | Οι σχετικές διαδρομές δεν επιλύονται | Χρησιμοποιήστε απόλυτα URLs ή ορίστε `baseUri` στο `HTMLDocument` |
-| Οι γραμματοσειρές φαίνονται λανθασμένες | Γραμματοσειρές δεν ενσωματώνονται | Καλέστε `pdfOptions.setEmbedStandardPdfFonts(true)` |
-| Μετατόπιση διάταξης | Οι κανόνες CSS `@media print` αγνοούνται | Βεβαιωθείτε ότι το CSS είναι συμβατό με τη μηχανή απόδοσης του Aspose |
-| Η μετατροπή κρέμεται σε μεγάλα αρχεία | Ανεπαρκής μνήμη heap | Αυξήστε τη σημαία JVM `-Xmx` (π.χ., `-Xmx2g`) |
+---
 
-> **Ειδική περίπτωση:** Αν χρειαστεί να μετατρέψετε μια συμβολοσειρά HTML απευθείας (χωρίς αρχείο), τυλίξτε την σε ένα `HTMLDocument` και περάστε το αντικείμενο εγγράφου στη `Converter.convertHTML`. Αυτό είναι χρήσιμο όταν δημιουργείτε HTML εν κινήσει, όπως από μια μηχανή προτύπων.  
+## Συχνές Παραλλαγές
 
-## Προχωρημένες Παραλλαγές  
+### Μετατροπή ενός URL Απευθείας
 
-### Μετατροπή Web URL  
+Αντικαταστήστε τη διαδρομή αρχείου με μια συμβολοσειρά URL:
 
 ```java
-String url = "https://example.com/report.html";
-Converter.convertHTML(url, pdfOptions, "report.pdf");
+String htmlUrl = "https://example.com/report.html";
+Converter.convert(htmlUrl, pdfFilePath, pdfOptions);
 ```
 
-### Προσθήκη Κεφαλίδας/Υποσέλιδου  
+Αυτή είναι η πιο απλή μέθοδος για **convert url to pdf** χωρίς να κατεβάσετε τη σελίδα μόνοι σας.
 
-Το Aspose.HTML σας επιτρέπει να ενσωματώσετε περιεχόμενο κεφαλίδας/υποσέλιδου μέσω CSS `@page`. Παράδειγμα:  
+### Χρήση InputStream
 
-```css
-@page {
-    @top-center { content: "Report Header – " counter(page); }
-    @bottom-center { content: "Confidential – Page " counter(page); }
-}
-```
-
-Τοποθετήστε το CSS στο HTML σας ή φορτώστε το μέσω εξωτερικού stylesheet πριν τη μετατροπή.  
-
-### Μαζική Μετατροπή  
-
-Όταν έχετε πολλά αρχεία HTML, ένας απλός βρόχος κάνει τη δουλειά:  
+Όταν το HTML δημιουργείται δυναμικά (ίσως από μια μηχανή προτύπων), τροφοδοτήστε το stream:
 
 ```java
-String[] htmlFiles = {"a.html", "b.html", "c.html"};
-for (String file : htmlFiles) {
-    String pdfOut = file.replace(".html", ".pdf");
-    Converter.convertHTML(file, pdfOptions, pdfOut);
-}
+InputStream htmlStream = new ByteArrayInputStream(generatedHtml.getBytes(StandardCharsets.UTF_8));
+Converter.convert(htmlStream, pdfFilePath, pdfOptions);
 ```
 
-## Συμπέρασμα  
+### Προχωρημένο Στυλ
 
-Τώρα έχετε μια πλήρη, έτοιμη για παραγωγή συνταγή για **δημιουργία PDF από HTML** χρησιμοποιώντας Java. Εισάγοντας το Aspose.HTML, διαμορφώνοντας το `PdfSaveOptions` και καλώντας τη `Converter.convertHTML`, μπορείτε να *html to pdf java* σε μία μόνο γραμμή κώδικα.  
+Αν χρειάζεστε ενσωμάτωση προσαρμοσμένων γραμματοσειρών, ορίστε τις στο HTML `<style>` ή χρησιμοποιήστε `@font-face`. Ο μετατροπέας σέβεται σύγχρονα CSS, έτσι οι περισσότερες διατάξεις αποδίδονται πιστά — ιδανικό για έργα **html to pdf java** που απαιτούν pixel‑perfect έξοδο.
 
-Από εδώ μπορείτε να εξερευνήσετε πιο σύνθετα σενάρια — προσθήκη υδατογραφιών, κρυπτογράφηση PDF, ή συγχώνευση πολλαπλών σελίδων HTML σε ένα έγγραφο. Όλα αυτά βασίζονται στα ίδια βασικά βήματα που μόλις μάθατε.  
+---
 
-Έχετε ερωτήσεις σχετικά με τις ιδιαιτερότητες του *save html as pdf*, ή χρειάζεστε βοήθεια για την προσαρμογή της μετατροπής σε συγκεκριμένο πλαίσιο; Αφήστε ένα σχόλιο, και καλή προγραμματιστική!  
+## Συμπέρασμα
+
+Καλύψαμε όλα όσα χρειάζεστε για να **δημιουργήσετε PDF από HTML** χρησιμοποιώντας Java:
+
+1. Προσθέστε την εξάρτηση Aspose.HTML for Java.  
+2. Επιλέξτε μια πηγή (αρχείο, URL ή stream).  
+3. Ορίστε τη διαδρομή εξόδου PDF.  
+4. (Προαιρετικό) Προσαρμόστε το `PdfConvertOptions`.  
+5. Καλέστε `Converter.convert` και γιορτάστε όταν εμφανιστεί το “Conversion finished.”  
+
+Τώρα μπορείτε να ενσωματώσετε αυτή τη λογική σε web services, batch jobs ή desktop utilities. Στη συνέχεια, ίσως θέλετε να εξερευνήσετε δυνατότητες **html to pdf java** όπως προσθήκη υδατογραφημάτων, συγχώνευση πολλαπλών PDF ή μετατροπή ενσωματωμένων γραφικών SVG στο HTML.
+
+Έχετε περισσότερες ερωτήσεις σχετικά με **convert html to pdf**, άδειες ή βελτιώσεις απόδοσης; Αφήστε ένα σχόλιο παρακάτω — καλή προγραμματιστική διασκέδαση!
+
+---
+
+<img src="https://example.com/assets/create-pdf-from-html.png" alt="Διάγραμμα παραδείγματος δημιουργίας PDF από HTML" width="600"/>
+
+*Image: Οπτική επισκόπηση της αλυσίδας μετατροπής — από πηγή HTML σε έξοδο PDF.*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

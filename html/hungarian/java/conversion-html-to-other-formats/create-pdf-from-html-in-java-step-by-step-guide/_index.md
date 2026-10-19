@@ -1,26 +1,25 @@
 ---
 category: general
-date: 2026-04-09
-description: PDF létrehozása HTML‑ből Java‑val az Aspose.HTML segítségével. Tanulja
-  meg a HTML‑ről PDF‑re Java konverziót, mentse a HTML‑t PDF‑ként, és konvertálja
-  a HTML‑fájlt PDF‑vé percek alatt.
+date: 2026-02-13
+description: Készíts PDF-et HTML-ből gyorsan Java-val. Tanuld meg, hogyan konvertálj
+  HTML-t PDF-re, kezeld az URL-eket, és testre szabj beállításokat egyetlen útmutatóban.
 draft: false
 keywords:
 - create pdf from html
+- convert html to pdf
 - html to pdf java
 - java html to pdf
-- save html as pdf
-- convert html file pdf
+- convert url to pdf
 language: hu
-og_description: PDF létrehozása HTML-ből Java-val. Ez az útmutató bemutatja, hogyan
-  lehet HTML-t PDF-re konvertálni Java-val, HTML-t PDF-ként menteni, és HTML-fájlt
-  PDF-re konvertálni az Aspose.HTML segítségével.
-og_title: PDF létrehozása HTML‑ből Java‑ban – Teljes programozási útmutató
+og_description: PDF létrehozása HTML-ből Java segítségével. Ez az útmutató bemutatja,
+  hogyan konvertálhatja a HTML-t PDF-re, kezelheti az URL-eket, és finomhangolhatja
+  a beállításokat a tökéletes eredményért.
+og_title: PDF létrehozása HTML‑ből Java‑ban – Teljes útmutató
 tags:
 - Java
 - PDF
-- Aspose.HTML
-title: PDF létrehozása HTML‑ből Java‑ban – Lépésről lépésre útmutató
+- HTML conversion
+title: PDF létrehozása HTML‑ből Java‑ban – Lépésről‑lépésre útmutató
 url: /hu/java/conversion-html-to-other-formats/create-pdf-from-html-in-java-step-by-step-guide/
 ---
 
@@ -28,193 +27,216 @@ url: /hu/java/conversion-html-to-other-formats/create-pdf-from-html-in-java-step
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PDF létrehozása HTML‑ből Java‑ban – Lépésről‑lépésre útmutató  
+# PDF létrehozása HTML-ből Java‑ban – Teljes útmutató
 
-Valaha szükséged volt **PDF létrehozására HTML‑ből**, de nem tudtad, melyik könyvtár tartja meg a megjelenést? Nem vagy egyedül. A Java világban sok fejlesztő küzd a *html to pdf java* átalakításokkal, és gyakran elrontott betűtípusokkal vagy hiányzó képekkel végződik.  
+Valaha is szükséged volt **PDF létrehozására HTML-ből**, de nem tudtad, melyik könyvtár végzi a nehéz munkát? Nem vagy egyedül. Akár jelentésgenerátort, számlázási szolgáltatást építesz, vagy csak egy weboldalt szeretnél archiválni, a HTML PDF‑fájlba alakítása gyakori akadály a Java fejlesztők számára.
 
-A lényeg, hogy az Aspose.HTML for Java a teljes folyamatot gyerekjátékká teszi. Ebben az útmutatóban végigvezetünk mindenen, amire szükséged van a **HTML mentéséhez PDF‑ként**, a könyvtár beállításától a külső CSS‑ek és nagy fájlok kezeléséig. A végére **HTML fájl PDF‑vé konvertálni** fogsz tudni néhány sor kóddal.  
+A jó hír? Néhány kódsorral **HTML‑t PDF‑re konvertálhatsz**—sőt, a forrást akár egy URL‑ről is beolvashatod—az Aspose.HTML for Java könyvtár segítségével. Ebben az útmutatóban mindent végigvezetünk, a függőség beállításától a konverziós beállítások finomhangolásáig, hogy egy kész PDF‑et kapj bármiféle rejtély nélkül.
 
-## Amit megtanulsz  
+## Mit fogsz megtanulni
 
-- Hogyan adhatod hozzá az Aspose.HTML for Java‑t a projektedhez (Maven vagy manuális JAR).  
-- A pontos kód, amely a `Converter` osztály segítségével **PDF létrehozására HTML‑ből** szükséges.  
-- Miért fontos a `PdfSaveOptions`, és mikor lehet módosítani őket.  
-- Tippek a gyakori hibák elhárításához, például relatív útvonalak és Unicode karakterek esetén.  
+- Hogyan adhatod hozzá az Aspose.HTML for Java csomagot a projektedhez.  
+- Milyen módokon adhatod meg a konverternek a helyi fájlt, egy távoli URL‑t vagy egy `InputStream`‑et.  
+- Milyen beállításokat finomhangolhatsz, amikor **html‑t pdf‑re konvertálsz**.  
+- Hogyan ellenőrizheted, hogy a PDF sikeresen létrejött.  
 
-### Előfeltételek  
+A útmutató végére képes leszel egy apró Java programot írni, amely **PDF‑et hoz létre HTML‑ből** néhány másodperc alatt.
 
-- Java 8 vagy újabb (a könyvtár támogatja a JDK 8‑21‑et).  
-- Egy build eszköz, mint a Maven vagy a Gradle (opcionális, de ajánlott).  
-- Alapvető ismeretek a Java I/O‑val kapcsolatban.  
+## Előfeltételek
 
-Nem szükséges más függőség; az Aspose.HTML mindent tartalmaz, ami a konverzióhoz kell.  
+- Java 8 vagy újabb (a könyvtár támogatja a JDK 8+ verziókat).  
+- Maven vagy Gradle a függőségkezeléshez (a Maven példakódot mutatjuk).  
+- Alapvető Java szintaxis ismeret—nem szükséges mély PDF tudás.  
 
-![Diagram a folyamat ábrázolásáról, amely PDF létrehozását HTML‑ből az Aspose.HTML for Java használatával](https://example.com/diagram-create-pdf-from-html.png "Diagram, amely megmutatja, hogyan hozható létre PDF HTML‑ből az Aspose.HTML for Java használatával")  
+Ha már van nyitott Maven projekted, nagyszerű; egyébként hozz létre egy újat a `mvn archetype:generate` paranccsal, és hamarosan hozzáadjuk a könyvtárat.
 
-## 1. lépés: Aspose.HTML for Java hozzáadása a projekthez  
+---
 
-### Maven  
+## 1. lépés: Aspose.HTML for Java hozzáadása a buildhez
 
-Ha Maven‑t használsz, illeszd be a következő kódrészletet a `pom.xml`‑be.  
+Először is szükséged van az Aspose.HTML JAR fájlokra. A legegyszerűbb módja a Maven Central használata:
 
 ```xml
+<!-- pom.xml -->
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-html</artifactId>
-    <version>23.10</version> <!-- replace with the latest version -->
+    <version>23.12</version> <!-- Check for the latest version -->
 </dependency>
 ```
 
-### Gradle  
+Ha a Gradlet részesíted előnyben, az ekvivalens:
 
-```gradle
-implementation 'com.aspose:aspose-html:23.10'
+```groovy
+implementation 'com.aspose:aspose-html:23.12'
 ```
 
-### Manuális JAR  
+> **Pro tipp:** Az Aspose ingyenes értékelő licencet kínál, amely vízjelet helyez a kimeneti PDF‑re. Éles környezetben szerezz be egy megfelelő licencet a vízjel eltávolításához és az összes funkció feloldásához.
 
-Töltsd le a JAR‑t az [Aspose.HTML for Java letöltési oldaláról](https://downloads.aspose.com/html/java), és add hozzá a classpath‑hoz.  
-
-> **Pro tipp:** Mindig a legújabb stabil kiadást használd; az újabb verziók javítanak olyan hibákat, amelyek befolyásolhatják a *html to pdf java* konverziókat, különösen a modern CSS‑t.  
-
-## 2. lépés: A HTML forrás előkészítése  
-
-A `Converter` mind helyi fájlokkal, mind URL‑ekkel működik. Egy egyszerű teszthez helyezz egy `sample.html` fájlt a forráskódod mellé.  
-
-```html
-<!-- sample.html -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Demo PDF</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 40px; }
-        h1 { color: #2E86C1; }
-    </style>
-</head>
-<body>
-    <h1>Hello, PDF world!</h1>
-    <p>This PDF was generated from HTML using Java.</p>
-</body>
-</html>
-```
-
-> **Miért fontos:** Amikor *HTML‑t mentünk PDF‑ként*, a konverter a CSS‑t, képeket és betűtípusokat ugyanúgy olvassa, mint egy böngésző. Az eszközök a HTML mellé helyezése (vagy abszolút URL‑ek használata) megakadályozza a törött hivatkozásokat a végső PDF‑ben.  
-
-## 3. lépés: PDF mentési beállítások konfigurálása  
-
-`PdfSaveOptions` lehetővé teszi, hogy szabályozd a PDF verziót, tömörítést és a betűtípusok beágyazását. A legtöbb esetben az alapértelmezések megfelelőek, de itt látható, hogyan módosíthatod őket.  
-
-```java
-import com.aspose.html.converters.PdfSaveOptions;
-
-// Default options – good for a quick start
-PdfSaveOptions pdfOptions = new PdfSaveOptions();
-
-// Example: embed all fonts to avoid missing glyphs on other machines
-pdfOptions.setEmbedStandardPdfFonts(true);
-pdfOptions.setCompress(true);
-```
-
-> **Figyelem:** Ha *html file pdf*-t konvertálsz egy fej nélküli szerveren, a betűtípusok beágyazásának letiltása jelentősen csökkentheti a fájlméretet, de kockáztatsz hiányzó karaktereket a nem‑ASCII nyelvek esetén.  
-
-## 4. lépés: A konverzió végrehajtása  
-
-Most a varázslat megtörténik. A `Converter.convertHTML` metódus beolvassa a HTML‑t, alkalmazza a beállításokat, és egy hívással kiírja a PDF‑et.  
+Miután a függőség feloldódott, importálhatod a szükséges osztályokat:
 
 ```java
 import com.aspose.html.converters.Converter;
-import com.aspose.html.HTMLDocument;
+import com.aspose.html.converters.PdfConvertOptions;
+```
 
-public class ConvertHtmlToPdfTutorial {
+## 2. lépés: Válaszd ki a HTML forrást – fájl, URL vagy InputStream
+
+A konverter rugalmas. Az alábbiakban három gyakori módot mutatunk a HTML megadására:
+
+### 2.1 Helyi HTML fájl
+
+```java
+String htmlFilePath = "C:/myproject/input.html";
+```
+
+### 2.2 Távoli weboldal (URL PDF‑re konvertálása)
+
+```java
+String htmlUrl = "https://example.com/report.html";
+```
+
+### 2.3 InputStream (pl. futás közben generált HTML)
+
+```java
+InputStream htmlStream = new ByteArrayInputStream("<html><body>Hello</body></html>".getBytes(StandardCharsets.UTF_8));
+```
+
+Kiválaszthatod a szituációdnak leginkább megfelelőt. A továbbiakban a helyi fájl példát használjuk, de ugyanaz a `Converter.convert` hívás működik URL‑lel vagy stream‑mel is – csak cseréld le az első argumentumot.
+
+## 3. lépés: Határozd meg, hová kerüljön a PDF
+
+Válassz egy célútvonalat, ahová a Java folyamatod írni tud. Windows alatt például használhatod a `C:/myproject/result.pdf`‑t; Linux/macOS esetén a `/home/user/result.pdf` is megfelelő.
+
+```java
+String pdfFilePath = "C:/myproject/result.pdf";
+```
+
+Győződj meg róla, hogy a könyvtár létezik; ellenkező esetben `IOException`‑t kapsz.
+
+## 4. lépés: PDF konverziós beállítások konfigurálása (opcionális)
+
+`PdfConvertOptions` lehetővé teszi a kimenet finomhangolását: oldalméret, margók, betűtípusok beágyazása stb. Az alapértelmezett beállítások általában hűséges megjelenítést eredményeznek, de itt egy gyors példa, amely A4‑es papírt kényszerít és biztonsági okokból letiltja a JavaScript végrehajtását:
+
+```java
+PdfConvertOptions pdfOptions = new PdfConvertOptions();
+pdfOptions.setPageSize(com.aspose.html.drawing.PageSize.A4);
+pdfOptions.setEnableJavaScript(false);
+```
+
+> **Miért érdemes?** A beállítások módosítása csökkentheti a fájlméretet, javíthatja a nyomtatókkal való kompatibilitást, vagy érvényesítheti a vállalati arculati irányelveket.
+
+Ha nincs szükséged egyedi beállításokra, egyszerűen példányosítsd a `new PdfConvertOptions()`‑t, és folytasd.
+
+## 5. lépés: A konverzió végrehajtása
+
+Most jön a varázslat. A statikus `Converter.convert` metódus végzi a nehéz munkát:
+
+```java
+public class ConvertHtmlToPdf {
     public static void main(String[] args) throws Exception {
-        // Step 1: Specify the source HTML file location
-        String htmlFilePath = "YOUR_DIRECTORY/sample.html";
+        // 1️⃣ Source HTML (file, URL, or stream)
+        String htmlFilePath = "C:/myproject/input.html";
 
-        // Step 2: Prepare PDF save options (default settings are sufficient for a basic conversion)
-        PdfSaveOptions pdfOptions = new PdfSaveOptions();
+        // 2️⃣ Destination PDF
+        String pdfFilePath = "C:/myproject/result.pdf";
 
-        // Step 3: Convert the HTML directly to PDF and write the result to a file
-        Converter.convertHTML(htmlFilePath, pdfOptions, "YOUR_DIRECTORY/output.pdf");
+        // 3️⃣ Conversion options (default or customized)
+        PdfConvertOptions pdfOptions = new PdfConvertOptions();
 
-        System.out.println("Conversion completed! Check output.pdf");
+        // 4️⃣ Convert!
+        Converter.convert(htmlFilePath, pdfFilePath, pdfOptions);
+
+        // 5️⃣ Let the user know we’re done
+        System.out.println("Conversion finished.");
     }
 }
 ```
 
-> **Magyarázat:**  
-> - `htmlFilePath` lehet relatív vagy abszolút útvonal; a konverter úgy oldja fel, mint egy böngésző.  
-> - `pdfOptions` tartalmazza az összes *save html as pdf* beállítást, amelyet korábban megadtál.  
-> - A harmadik argumentum a cél PDF fájl; az Aspose automatikusan létrehozza a fájlt, ha nem létezik.  
+Futtasd az osztályt az IDE‑dből vagy a `mvn exec:java` paranccsal. Amikor a konzol kiírja a **„Conversion finished.”** üzenetet, a megadott mappában megtalálod a `result.pdf`‑t. Nyisd meg bármely PDF‑olvasóval, hogy ellenőrizd, a megjelenés megegyezik-e az eredeti HTML‑lel.
 
-### Várt kimenet  
+### Szélsőséges esetek és gyakori kérdések
 
-A program futtatása létrehozza az `output.pdf`‑t, amely pontosan úgy néz ki, mint a megjelenített `sample.html` — a kék címsor, az alatta lévő bekezdés és ugyanazok a margók. Nyisd meg bármely PDF‑olvasóval a megerősítéshez.  
+- **Mi van, ha a HTML külső CSS‑re vagy képekre hivatkozik?**  
+  A konverter a HTML fájl helye alapján követi a relatív URL‑ket. Távoli erőforrások esetén győződj meg róla, hogy a gépnek van internetkapcsolata, vagy csomagold be az eszközöket helyben.
 
-## 5. lépés: Az eredmény ellenőrzése és a gyakori problémák kezelése  
+- **Konvertálhatok egy teljes weboldalt?**  
+  Nem egyetlen hívással közvetlenül, de ciklussal végigjárhatsz egy URL‑listát, és minden egyesre meghívhatod a `Converter.convert`‑et – ezáltal **url‑t pdf‑re konvertálhatsz** kötegelt módon.
 
-### Ellenőrzés  
+- **Hogyan kezeljek nagy HTML fájlokat?**  
+  A könyvtár belsőleg adatfolyamként dolgozik, így a memóriahasználat mérsékelt marad. Ennek ellenére figyelj a rendkívül nagy képekre; fontold meg azok lecsökkentését a konverzió előtt.
+
+- **Mi van, ha jelszóval védett PDF‑re van szükségem?**  
+  A `PdfConvertOptions` biztosítja a `setPassword(String)` és `setOwnerPassword(String)` metódusokat a titkosításhoz.
+
+## 6. lépés: Az eredmény ellenőrzése (opcionális, de ajánlott)
+
+Egy gyors ellenőrzés később sok hibakeresési időt takaríthat meg. Íme egy apró kódrészlet, amely az Apache PDFBox‑ot használja az első oldal szövegének beolvasásához:
 
 ```java
-File pdfFile = new File("YOUR_DIRECTORY/output.pdf");
-if (pdfFile.exists() && pdfFile.length() > 0) {
-    System.out.println("PDF generated successfully, size: " + pdfFile.length() + " bytes");
+import org.apache.pdfbox.pdmodel.PDDocument;
+import org.apache.pdfbox.text.PDFTextStripper;
+
+try (PDDocument doc = PDDocument.load(new File(pdfFilePath))) {
+    PDFTextStripper stripper = new PDFTextStripper();
+    stripper.setStartPage(1);
+    stripper.setEndPage(1);
+    String firstPage = stripper.getText(doc);
+    System.out.println("First page contains: " + firstPage.trim());
 }
 ```
 
-### Gyakori buktatók  
+Ha a kimenet tartalmaz egy részletet az eredeti HTML‑ből (pl. egy címsor vagy bekezdés), akkor sikeresen **html‑t pdf‑re konvertáltál**.
 
-| Tünet | Valószínű ok | Megoldás |
-|---------|--------------|-----|
-| Képek hiányoznak | Relatív útvonalak nincsenek feloldva | Használj abszolút URL‑eket vagy állítsd be a `baseUri`‑t a `HTMLDocument`‑ben |
-| Betűtípusok hibásan jelennek meg | A betűtípusok nincsenek beágyazva | Hívd meg a `pdfOptions.setEmbedStandardPdfFonts(true)` metódust |
-| Elrendezés eltolódik | A CSS `@media print` szabályok figyelmen kívül vannak hagyva | Győződj meg arról, hogy a CSS kompatibilis az Aspose renderelő motorjával |
-| A konverzió akadozik nagy fájlok esetén | Nem elegendő heap memória | Növeld a JVM `-Xmx` flag‑et (pl. `-Xmx2g`) |
+---
 
-> **Különleges eset:** Ha közvetlenül egy HTML‑sztringet kell konvertálni (fájl nélkül), csomagold be egy `HTMLDocument`‑be, és add át a dokumentum objektumot a `Converter.convertHTML`‑nek. Ez hasznos, ha HTML‑t generálsz menet közben, például egy sablonmotorból.  
+## Gyakran feltett változatok
 
-## Haladó változatok  
+### URL közvetlen konvertálása
 
-### Web URL konvertálása  
+Cseréld le a fájl útvonalat egy URL karakterláncra:
 
 ```java
-String url = "https://example.com/report.html";
-Converter.convertHTML(url, pdfOptions, "report.pdf");
+String htmlUrl = "https://example.com/report.html";
+Converter.convert(htmlUrl, pdfFilePath, pdfOptions);
 ```
 
-### Fejléc/Lábléc hozzáadása  
+Ez a legegyszerűbb módja a **url‑t pdf‑re konvertálásnak** anélkül, hogy magad töltenéd le az oldalt.
 
-Az Aspose.HTML lehetővé teszi fejléc/lábléc tartalom beillesztését CSS `@page` segítségével. Példa:  
+### InputStream használata
 
-```css
-@page {
-    @top-center { content: "Report Header – " counter(page); }
-    @bottom-center { content: "Confidential – Page " counter(page); }
-}
-```
-
-Helyezd a CSS‑t a HTML‑be, vagy töltsd be egy külső stíluslapból a konverzió előtt.  
-
-### Kötetes konverzió  
-
-Ha több HTML fájlod van, egy egyszerű ciklus megoldja a feladatot:  
+Amikor a HTML futás közben generálódik (esetleg egy sablonmotorból), add meg a stream‑et:
 
 ```java
-String[] htmlFiles = {"a.html", "b.html", "c.html"};
-for (String file : htmlFiles) {
-    String pdfOut = file.replace(".html", ".pdf");
-    Converter.convertHTML(file, pdfOptions, pdfOut);
-}
+InputStream htmlStream = new ByteArrayInputStream(generatedHtml.getBytes(StandardCharsets.UTF_8));
+Converter.convert(htmlStream, pdfFilePath, pdfOptions);
 ```
 
-## Összegzés  
+### Haladó stílusok
 
-Most már egy teljes, termelés‑kész recepted van a **PDF létrehozására HTML‑ből** Java használatával. Az Aspose.HTML importálásával, a `PdfSaveOptions` konfigurálásával és a `Converter.convertHTML` meghívásával egy sor kóddal tudsz *html to pdf java* konverziót végezni.  
+Ha egyedi betűtípusokat kell beágyaznod, állítsd be őket a HTML `<style>` címkében vagy használd az `@font-face`‑et. A konverter tiszteletben tartja a modern CSS‑t, így a legtöbb elrendezés hűen jelenik meg – nagyszerű **html to pdf java** projektekhez, amelyek pixel‑pontos kimenetet igényelnek.
 
-Innen tovább felfedezhetsz összetettebb forgatókönyveket — vízjelek hozzáadása, PDF‑ek titkosítása vagy több HTML oldal egy dokumentummá egyesítése. Mindegyik ugyanazon alaplépésekre épül, amelyeket most elsajátítottál.  
+---
 
-Van kérdésed a *save html as pdf* sajátosságokkal kapcsolatban, vagy segítségre van szükséged a konverzió finomhangolásához egy adott keretrendszerhez? Hagyj egy megjegyzést, és jó kódolást!  
+## Összegzés
+
+Mindent áttekintettünk, ami a **PDF létrehozásához HTML‑ből** Java‑val szükséges:
+
+1. Add the Aspose.HTML for Java függőséget.  
+2. Válassz forrást (fájl, URL vagy stream).  
+3. Határozd meg a cél PDF útvonalát.  
+4. (Opcionális) Finomhangold a `PdfConvertOptions`‑t.  
+5. Hívd meg a `Converter.convert`‑t, és ünnepelj, amikor megjelenik a „Conversion finished.” üzenet.  
+
+Most már beágyazhatod ezt a logikát webszolgáltatásokba, kötegelt feladatokba vagy asztali segédprogramokba. Ezután felfedezheted a **html to pdf java** funkciókat, például vízjelek hozzáadását, több PDF egyesítését vagy a HTML‑be ágyazott SVG grafikák konvertálását.
+
+Van még kérdésed a **convert html to pdf**, licenceléssel vagy teljesítményoptimalizálással kapcsolatban? Írj egy megjegyzést alább – jó kódolást!
+
+---
+
+<img src="https://example.com/assets/create-pdf-from-html.png" alt="PDF létrehozása HTML-ből példadiagram" width="600"/>
+
+*Kép: A konverziós csővezeték vizuális áttekintése – a HTML forrástól a PDF kimenetig.*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -26,11 +26,14 @@ Aspose.HTML for Java 是用於管理和操作 HTML 文件的強大工具包，�
 ## 在 Aspose.HTML for Java 中管理網路逾時
 每個程式設計師都知道超時是多麼令人沮喪，尤其是當您嘗試連接到伺服器時。這[在 Aspose.HTML for Java 中管理網路逾時](./network-timeout/)指南深入探討了有效處理這些情況的策略。這就像準備你最喜歡的菜，卻發現時間不夠；找到方法確保所有東西在規定的時間內完美煮熟，這可能會決定你的食譜的成敗！學習管理網路逾時可確保您的應用程式順利運行，從而提供最佳的使用者體驗。
 
-## 建立訊息處理程序管道
+## 在 Aspose.HTML for Java 中建立訊息處理程序管道
 建立自己的訊息處理程序管道就像建立一個複雜的拼圖，其中每個部分都必須完美契合。這[在 Aspose.HTML for Java 中建立訊息處理程序管道](./message-handler-pipeline/)指南將引導您逐步完成組裝這些組件的過程。想像一下，這就像設置一連串多米諾骨牌：如果其中一塊正確落下，其餘部分也會效仿，從而簡化您的文件處理工作流程。本教學介紹了輕鬆將 ZIP 轉換為 PDF 文件的方法，確保您可以有效地處理各種文件格式。
 
 ## Aspose.HTML for Java 中的 Web 請求執行
 執行 Web 請求是使用 Aspose.HTML for Java 的另一個重要面向。從取得第三方內容到管理遠端資源，了解如何執行這些操作可以改變遊戲規則。這[Aspose.HTML for Java 中的 Web 請求執行](./web-request-execution/)教程提供如何有效發送和接收資料的全面詳細說明。可以想像為打電話：您希望確保您的訊息無縫傳遞，沒有任何靜電。掌握這項技能使您能夠將額外的數據引入您的應用程序，從而增強文件處理能力。
+
+### [如何在 Java 中使用 Aspose HTML V8 引擎獲取 API – 完整指南](./how-to-fetch-api-in-java-complete-guide-using-aspose-html-v8/)
+本指南說明如何在 Java 中使用 Aspose HTML V8 引擎發送和接收 API 請求，涵蓋完整步驟與最佳實踐。
 
 ## 將 ZIP 轉換為 JPG 和 PDF
 您是否曾經需要快速從壓縮檔案中提取影像？這[使用 Aspose.HTML for Java 將 ZIP 轉換為 JPG](./zip-to-jpg/)和[使用 Aspose.HTML for Java 將 ZIP 轉換為 PDF](./zip-to-pdf/)教程為您提供了完成這些特定任務的工具。轉換檔案不一定是一個繁瑣的過程 - 它可以像將草圖轉換為傑作一樣簡單。這些指南分解了幫助您有效率地轉換 ZIP 檔案的步驟，展示了 Aspose.HTML for Java 的多功能性。
@@ -50,6 +53,11 @@ Aspose.HTML for Java 是用於管理和操作 HTML 文件的強大工具包，�
 透過此逐步指南，了解如何使用 Aspose.HTML for Java 將 ZIP 檔案轉換為 JPG 映像。
 ### [使用 Aspose.HTML for Java 將 ZIP 轉換為 PDF](./zip-to-pdf/)
 透過此逐步指南，使用 Aspose.HTML for Java 輕鬆將 ZIP 檔案轉換為 PDF。
+### [java 11 httpclient 認證器 – 完整的安全請求指南](./java-11-httpclient-authenticator-complete-guide-to-secure-re/)
+本指南說明如何在 Java 11 HttpClient 中使用 Authenticator 進行安全的 HTTP 請求，涵蓋設定與最佳實踐。
+### [在 Java 中設定授權標頭 – 完整指南：從 URL 載入 HTML](./set-authorization-header-in-java-complete-guide-to-load-html/)
+本完整指南說明如何在 Java 中設定授權標頭，以從 URL 載入 HTML，確保安全存取。
+### [在 Aspose.HTML for Java 中抓取 JSON JavaScript – 完整指南](./fetch-json-javascript-in-java-with-aspose-html-complete-guid/)
 ### [在 Java 中設定自訂使用者代理 – 在沙盒中載入網頁教學](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

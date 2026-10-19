@@ -49,7 +49,12 @@ Aspose.HTML for Java HTML दस्तावेज़ों को प्रब�
 ### [Java के लिए Aspose.HTML का उपयोग करके ZIP को JPG में बदलें](./zip-to-jpg/)
 इस चरण-दर-स्टेप मार्गदर्शिका के साथ Java के लिए Aspose.HTML का उपयोग करके ZIP फ़ाइलों को JPG छवियों में परिवर्तित करना सीखें।
 ### [Java के लिए Aspose.HTML के साथ ZIP को PDF में बदलें](./zip-to-pdf/)
-इस चरण-दर-स्टेप मार्गदर्शिका के साथ Java के लिए Aspose.HTML का उपयोग करके आसानी से अपनी ज़िप फ़ाइलों को पीडीएफ में परिवर्तित करें।
+### [java 11 httpclient प्रमाणितकर्ता – सुरक्षित अनुरोधों के लिए पूर्ण गाइड](./java-11-httpclient-authenticator-complete-guide-to-secure-re/)
+Java 11 के HttpClient में प्रमाणितकर्ता का उपयोग करके सुरक्षित HTTP अनुरोध कैसे बनाएं, इस गाइड में सीखें।
+### [Java में API फ़ेच कैसे करें – Aspose HTML V8 इंजन के साथ पूर्ण गाइड](./how-to-fetch-api-in-java-complete-guide-using-aspose-html-v8/)
+Aspose HTML V8 इंजन का उपयोग करके जावा में API फ़ेच करने की पूरी गाइड। चरण-दर-चरण उदाहरण और सर्वोत्तम अभ्यास।
+### [Java में ऑथराइज़ेशन हेडर सेट करें – URL से HTML लोड करने के लिए पूर्ण गाइड](./set-authorization-header-in-java-complete-guide-to-load-html/)
+### [Aspose HTML के साथ Java में JSON जावास्क्रिप्ट प्राप्त करें – पूर्ण गाइड](./fetch-json-javascript-in-java-with-aspose-html-complete-guid/)
 ### [Java में कस्टम यूज़र एजेंट सेट करें – सैंडबॉक्स में वेबपेज लोड करने का ट्यूटोरियल](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
 Java में कस्टम यूज़र एजेंट सेट करके सैंडबॉक्स में वेबपेज लोड करने की प्रक्रिया सीखें।
 

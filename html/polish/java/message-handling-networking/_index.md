@@ -50,6 +50,13 @@ Naucz się wykonywać żądania sieciowe za pomocą Aspose.HTML dla Java dzięki
 Dowiedz się, jak konwertować pliki ZIP na obrazy JPG za pomocą Aspose.HTML dla Java, korzystając z tego przewodnika krok po kroku.
 ### [Konwertuj ZIP do PDF za pomocą Aspose.HTML dla Java](./zip-to-pdf/)
 Łatwo przekonwertuj pliki ZIP do PDF za pomocą Aspose.HTML dla Java, korzystając z tego przewodnika krok po kroku.
+### [java 11 httpclient authenticator – Kompletny przewodnik po bezpiecznych żądaniach](./java-11-httpclient-authenticator-complete-guide-to-secure-re/)
+### [Jak używać Fetch API w Javie – Kompletny przewodnik z silnikiem Aspose HTML V8](./how-to-fetch-api-in-java-complete-guide-using-aspose-html-v8/)
+Poznaj, jak wykonywać żądania HTTP w Javie przy pomocy Fetch API i silnika Aspose HTML V8, krok po kroku, aby efektywnie pobierać dane.
+### [Pobieranie JSON w JavaScript w Javie przy użyciu Aspose HTML – Kompletny przewodnik](./fetch-json-javascript-in-java-with-aspose-html-complete-guid/)
+Dowiedz się, jak pobierać i przetwarzać dane JSON w aplikacjach Java przy użyciu Aspose HTML, krok po kroku.
+### [Ustaw nagłówek autoryzacji w Javie – Kompletny przewodnik ładowania HTML z URL](./set-authorization-header-in-java-complete-guide-to-load-html/)
+Dowiedz się, jak ustawić nagłówek autoryzacji w Javie, aby pobierać i wyświetlać strony HTML z zabezpieczonych adresów URL.
 ### [Ustaw niestandardowy user agent w Javie – Ładowanie strony w piaskownicy](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
 Dowiedz się, jak ustawić własny user‑agent przy ładowaniu stron w trybie piaskownicy przy użyciu Aspose.HTML dla Java.
 
