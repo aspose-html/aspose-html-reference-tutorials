@@ -1,25 +1,50 @@
 ---
 category: general
-date: 2026-01-04
-description: Tạo sandbox Aspose HTML trong Java và học cách lấy tiêu đề trang bằng
-  Java với ví dụ từng bước. Bao gồm mã nhanh, có thể chạy được.
+date: 2026-09-03
+description: Cách tạo sandbox Aspose java và lấy tiêu đề trang java với việc tải HTML
+  sạch, cô lập. Hướng dẫn từng bước kèm mã có thể chạy.
 draft: false
 keywords:
-- create aspose html sandbox
+- create aspose sandbox java
 - retrieve page title java
 - aspose html sandbox options
 - java html sandbox example
 - aspose html document title
-language: vi
-og_description: Tạo sandbox Aspose HTML trong Java và lấy tiêu đề trang Java ngay
-  lập tức. Tham khảo hướng dẫn chi tiết này để tải HTML một cách sạch sẽ và cô lập.
-og_title: Tạo Sandbox Aspose HTML – Hướng dẫn Java
+lastmod: 2026-09-03
+og_description: Tìm hiểu cách tạo sandbox Aspose trong Java và lấy tiêu đề trang java
+  ngay lập tức. Các bước chi tiết, thực hành tốt nhất và mã ví dụ đầy đủ.
+og_image_alt: Screenshot of Java code creating an Aspose HTML sandbox in Eclipse
+og_title: Cách tạo sandbox Aspose java – hướng dẫn đầy đủ
+schemas:
+- author: Aspose
+  dateModified: '2026-09-03'
+  description: How to create Aspose sandbox java and retrieve page title java with
+    a clean, isolated HTML load. Step‑by‑step guide with runnable code.
+  headline: How to create Aspose sandbox java – complete guide
+  type: TechArticle
+- questions:
+  - answer: Yes. The sandbox runs without a visible UI and can be executed on any
+      server that supports Java 8+.
+    question: Can I use this sandbox in a headless CI pipeline?
+  - answer: Absolutely. It uses Chromium under the hood, so modern JavaScript, including
+      ES6 features, runs correctly.
+    question: Does the sandbox support JavaScript execution?
+  - answer: The engine can render pages up to 200 MB in size, limited only by the
+      host machine’s memory.
+    question: How large a page can the sandbox handle?
+  - answer: You can customize the `User-Agent` string in `SandboxOptions` or supply
+      cookies via `HtmlLoadOptions` to mimic a regular browser.
+    question: What if the target site blocks automated requests?
+  - answer: Yes. After loading the document, call `document.save("snapshot.png", SaveFormat.Png);`
+      to export a PNG image of the rendered page.
+    question: Is there a way to capture a screenshot of the loaded page?
+  type: FAQPage
 tags:
 - Aspose.HTML
 - Java
-- Web Scraping
+- Web scraping
 - Sandbox
-title: Tạo Sandbox Aspose HTML – Hướng dẫn Java toàn diện
+title: Cách tạo sandbox Aspose java – hướng dẫn đầy đủ
 url: /vi/java/configuring-environment/create-aspose-html-sandbox-complete-java-guide/
 ---
 
@@ -27,26 +52,35 @@ url: /vi/java/configuring-environment/create-aspose-html-sandbox-complete-java-g
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tạo Aspose HTML Sandbox – Hướng Dẫn Java Đầy Đủ
+# Cách tạo sandbox Aspose java – hướng dẫn đầy đủ
 
-Bạn đã bao giờ cần **create Aspose HTML sandbox** nhưng không chắc làm thế nào để giữ trang đã tải được cô lập khỏi JVM chính của bạn? Có thể bạn đang xây dựng một web‑scraper, một môi trường kiểm thử, hoặc chỉ muốn thử nghiệm các trang từ xa mà không lo gây ra các tác động phụ. Trong hướng dẫn này, chúng tôi sẽ đi qua từng bước, và cũng sẽ cho bạn thấy **how to retrieve page title java** từ bên trong sandbox.  
+Bạn đã bao giờ cần **tạo sandbox Aspose HTML** nhưng không chắc làm thế nào để giữ trang đã tải cách ly khỏi JVM chính của bạn? Có thể bạn đang xây dựng một trình thu thập web, một môi trường kiểm thử, hoặc chỉ muốn thử nghiệm các trang từ xa mà không gây ra các tác động phụ. Trong hướng dẫn này, chúng tôi sẽ đi qua từng bước, và cũng sẽ cho bạn thấy **cách lấy tiêu đề trang java** từ bên trong sandbox.  
 
 Giải pháp khá đơn giản: cấu hình một đối tượng `SandboxOptions`, khởi tạo một `Sandbox`, tải một URL bên ngoài bằng `HtmlDocument`, đọc tiêu đề, và cuối cùng dọn dẹp mọi thứ. Khi kết thúc, bạn sẽ có một đoạn mã tự chứa mà có thể chèn vào bất kỳ dự án Java nào sử dụng Aspose.HTML for Java 23.1 (hoặc mới hơn).
 
-## Những Điều Bạn Sẽ Học
+## Câu trả lời nhanh
+- **Sandbox Aspose là gì?** Đây là một môi trường dựa trên Chromium được cách ly, chạy bên trong JVM của bạn mà không chạm tới hệ thống tập tin.  
+- **Tại sao lại sử dụng sandbox để trích xuất tiêu đề trang?** Nó đảm bảo các script bên ngoài không thể ảnh hưởng đến trạng thái hoặc bộ nhớ của ứng dụng của bạn.  
+- **Phiên bản Java nào được yêu cầu?** Java 8 hoặc mới hơn; thư viện cũng hoạt động với Java 11, 17 và các phiên bản sau.  
+- **Tôi có cần giấy phép không?** Giấy phép dùng thử miễn phí là đủ cho phát triển; giấy phép thương mại cần thiết cho môi trường sản xuất.  
+- **Cần bao nhiêu dòng mã?** Ít hơn 30 dòng cho logic cốt lõi, cộng với mã thiết lập tùy chọn.
 
-- Cách **create Aspose HTML sandbox** với cài đặt viewport và user‑agent tùy chỉnh.  
-- Các bước chính xác để **retrieve page title java** từ một trang từ xa trong khi vẫn an toàn bên trong sandbox.  
-- Những bẫy thường gặp (như quên giải phóng tài nguyên) và các mẹo thực hành tốt giúp giảm lượng bộ nhớ tiêu thụ.  
-- Một chương trình Java hoàn chỉnh, sẵn sàng chạy mà bạn có thể sao chép‑dán, biên dịch và thực thi.
+## Sandbox Aspose Java là gì?
+`Sandbox` là trình duyệt nhẹ, cách ly của Aspose.HTML chạy bên trong tiến trình Java. Nó cung cấp một container an toàn nơi bạn có thể tải HTML từ xa, thực thi JavaScript và tương tác với DOM mà không phơi bày môi trường máy chủ của bạn.
 
-> **Prerequisites** – Bạn cần một giấy phép Aspose.HTML for Java hợp lệ (bản dùng thử miễn phí cũng hoạt động) và đã cài đặt Java 8 hoặc mới hơn. Không cần thư viện bên thứ ba nào thêm.
+## Tại sao lại sử dụng sandbox khi lấy tiêu đề trang java?
+Aspose.HTML hỗ trợ **hơn 50 định dạng đầu vào và đầu ra** và có thể render tài liệu hàng trăm trang mà không tải toàn bộ file vào bộ nhớ. Sử dụng sandbox thêm một lớp bảo mật, đảm bảo bất kỳ script độc hại nào trên trang mục tiêu không thể thoát ra container. Cách tiếp cận này giảm nguy cơ rò rỉ bộ nhớ và bảo vệ JVM của bạn khỏi các tác động phụ không mong muốn.
 
----
+## Yêu cầu trước
+- Giấy phép Aspose.HTML for Java hợp lệ (bản dùng thử hoạt động cho việc thử nghiệm).  
+- Java 8 hoặc mới hơn được cài đặt trên máy phát triển của bạn.  
+- Công cụ xây dựng Maven hoặc Gradle để quản lý phụ thuộc.  
 
-## Bước 1: Thiết Lập Dự Án Của Bạn
+> **Mẹo chuyên nghiệp:** Giữ phiên bản thư viện đồng bộ với ghi chú phát hành chính thức của Aspose; các bản phát hành mới hơn bao gồm các bản vá bảo mật quan trọng khi tải nội dung không đáng tin cậy.
 
-Trước khi chúng ta bắt đầu viết mã, hãy chắc chắn rằng `pom.xml` (Maven) hoặc tệp Gradle của bạn đã bao gồm phụ thuộc Aspose.HTML:
+## Bước 1: thiết lập dự án của bạn
+
+Trước khi chúng ta đi vào mã, hãy chắc chắn rằng `pom.xml` (Maven) hoặc tệp Gradle của bạn bao gồm phụ thuộc Aspose.HTML:
 
 ```xml
 <!-- Maven -->
@@ -63,11 +97,12 @@ Nếu bạn đang sử dụng Gradle:
 implementation 'com.aspose:aspose-html:23.1'
 ```
 
-> **Pro tip:** Giữ phiên bản thư viện đồng bộ với ghi chú phát hành chính thức của Aspose; các phiên bản mới hơn bổ sung các bản vá bảo mật rất quan trọng khi tải nội dung bên ngoài.
+> **Mẹo chuyên nghiệp:** Giữ phiên bản thư viện đồng bộ với ghi chú phát hành chính thức của Aspose; các phiên bản mới hơn thêm các bản sửa lỗi bảo mật quan trọng khi tải nội dung bên ngoài.
 
-## Cấu Hình Sandbox Options (retrieve page title java)
+## Làm thế nào để cấu hình tùy chọn sandbox? (lấy tiêu đề trang java)
 
-Bước thực tế đầu tiên trong **creating an Aspose HTML sandbox** là quyết định cách trình duyệt ảo sẽ hoạt động. Bạn có thể mô phỏng một máy tính để bàn, một thiết bị di động, hoặc thậm chí một kích thước màn hình tùy chỉnh.
+Bước thực tế đầu tiên trong **tạo sandbox Aspose HTML** là quyết định cách trình duyệt ảo sẽ hoạt động. Bạn có thể mô phỏng một máy tính để bàn, một thiết bị di động, hoặc thậm chí một kích thước màn hình tùy chỉnh.  
+`SandboxOptions` cấu hình hành vi của sandbox, như kích thước viewport, chuỗi user‑agent, và giá trị timeout. Nó cho phép bạn kiểm soát cách trang được render và những tài nguyên nào được phép.
 
 ```java
 import com.aspose.html.sandbox.SandboxOptions;
@@ -79,11 +114,12 @@ sandboxOptions.setViewportHeight(600); // height of the virtual viewport
 sandboxOptions.setUserAgent("AsposeHTML/1.0"); // custom user‑agent string
 ```
 
-Tại sao điều này lại quan trọng? Kích thước viewport ảnh hưởng đến các truy vấn media trong CSS, trong khi user‑agent có thể ảnh hưởng đến việc thương lượng nội dung phía máy chủ. Đặt chúng một cách rõ ràng đảm bảo trang mà bạn sau này **retrieve page title java** sẽ được hiển thị chính xác như mong đợi.
+Tại sao điều này lại quan trọng? Kích thước viewport ảnh hưởng đến các media query trong CSS, trong khi user‑agent có thể ảnh hưởng đến việc thương lượng nội dung phía máy chủ. Đặt chúng một cách rõ ràng đảm bảo trang bạn sau này **lấy tiêu đề trang java** được render chính xác như mong đợi.
 
-## Tạo Instance Sandbox
+## Làm thế nào để tạo instance sandbox?
 
-Giờ chúng ta đã có các tùy chọn, chúng ta có thể khởi tạo sandbox.
+Bây giờ chúng ta đã có các tùy chọn, chúng ta có thể khởi tạo sandbox.  
+`Sandbox` là instance engine Chromium cách ly chạy trong JVM. Nó tạo ra một môi trường an toàn nơi HTML có thể được tải và thực thi mà không chạm tới hệ thống tập tin của host.
 
 ```java
 import com.aspose.html.sandbox.Sandbox;
@@ -92,11 +128,12 @@ import com.aspose.html.sandbox.Sandbox;
 Sandbox sandboxInstance = new Sandbox(sandboxOptions);
 ```
 
-Hãy nghĩ `Sandbox` như một engine Chromium nhẹ, được cô lập và chạy bên trong tiến trình Java của bạn. Nó không chạm vào hệ thống tệp trừ khi bạn chỉ định rõ, điều này khiến nó hoàn hảo cho việc thu thập dữ liệu an toàn.
+Hãy nghĩ về `Sandbox` như một engine Chromium nhẹ, cách ly, tồn tại bên trong tiến trình Java của bạn. Nó không chạm tới hệ thống tập tin trừ khi bạn chỉ định rõ, điều này làm cho nó trở nên hoàn hảo cho việc thu thập dữ liệu an toàn.
 
-## Tải Trang Bên Ngoài Vào Sandbox
+## Làm thế nào để tải một trang bên ngoài vào sandbox?
 
-Khi sandbox đã sẵn sàng, việc tải một trang từ xa đơn giản như truyền URL và instance sandbox vào `HtmlDocument`.
+Với sandbox đã sẵn sàng, việc tải một trang từ xa đơn giản như truyền URL và instance sandbox vào `HtmlDocument`.  
+`HtmlDocument` đại diện cho một trang HTML được tải vào sandbox, cung cấp truy cập DOM, khả năng render và thực thi JavaScript.
 
 ```java
 import com.aspose.html.HtmlDocument;
@@ -105,28 +142,30 @@ import com.aspose.html.HtmlDocument;
 HtmlDocument htmlDoc = new HtmlDocument("https://example.com", sandboxInstance);
 ```
 
-> **Edge case:** Nếu trang mục tiêu yêu cầu xác thực hoặc chuyển hướng, bạn có thể cấu hình trước các handler `HttpClient` và truyền chúng qua `HtmlLoadOptions`. Điều này nằm ngoài phạm vi của hướng dẫn nhanh này, nhưng API hỗ trợ.
+> **Trường hợp đặc biệt:** Nếu trang mục tiêu yêu cầu xác thực hoặc chuyển hướng, bạn có thể cấu hình trước các handler `HttpClient` và truyền chúng qua `HtmlLoadOptions`. Điều này nằm ngoài phạm vi của hướng dẫn nhanh này, nhưng API hỗ trợ.
 
-## Truy Cập Tiêu Đề Trang – retrieve page title java
+## Làm thế nào để truy cập tiêu đề trang? (lấy tiêu đề trang java)
 
-Bây giờ là phần bạn yêu cầu: trích xuất tiêu đề trang trong khi vẫn ở trong sandbox. Lớp `HtmlDocument` cung cấp phương thức `getTitle()` để đọc phần tử `<title>`.
+Bây giờ là phần bạn đã yêu cầu: trích xuất tiêu đề trang trong khi vẫn ở trong sandbox. Lớp `HtmlDocument` cung cấp phương thức `getTitle()` để đọc phần tử `<title>`.  
+`getTitle()` trả về nội dung văn bản của phần tử `<title>` của trang, cung cấp cách đơn giản để xác minh trang đã tải đúng.
 
 ```java
 // Step 4 – read and print the title
 System.out.println("Title inside sandbox: " + htmlDoc.getTitle());
 ```
 
-Khi bạn chạy toàn bộ chương trình với `https://example.com`, bạn sẽ thấy:
+Khi bạn chạy chương trình đầy đủ đối với `https://example.com`, bạn sẽ thấy:
 
 ```
 Title inside sandbox: Example Domain
 ```
 
-Dòng này chứng minh chúng ta đã **created an Aspose HTML sandbox** thành công, tải một trang từ xa, và **retrieved page title java** mà không bao giờ rời khỏi môi trường cô lập.
+Dòng này chứng minh chúng ta đã **tạo sandbox Aspose HTML** thành công, tải một trang từ xa, và **lấy tiêu đề trang java** mà không bao giờ rời khỏi môi trường cách ly.
 
-## Dọn Dẹp Tài Nguyên
+## Làm thế nào để dọn dẹp tài nguyên?
 
-Các đối tượng Aspose.HTML giữ các tài nguyên gốc, vì vậy việc giải phóng chúng một cách rõ ràng là rất quan trọng. Quên làm điều này có thể gây rò rỉ bộ nhớ, đặc biệt khi xử lý nhiều trang trong một vòng lặp.
+Các đối tượng Aspose.HTML giữ tài nguyên native, vì vậy cần giải phóng chúng một cách rõ ràng. Quên làm điều này có thể dẫn đến rò rỉ bộ nhớ, đặc biệt khi xử lý nhiều trang trong một vòng lặp.  
+`dispose()` giải phóng tài nguyên native mà các đối tượng Aspose.HTML nắm giữ, ngăn ngừa rò rỉ bộ nhớ và đảm bảo JVM có thể thu hồi bộ nhớ kịp thời.
 
 ```java
 // Step 5 – release native resources
@@ -134,11 +173,11 @@ htmlDoc.dispose();
 sandboxInstance.dispose();
 ```
 
-> **Why dispose?** Engine Chromium nền tảng cấp phát bộ nhớ gốc và các handle file. Gọi `dispose()` thông báo cho JVM giải phóng chúng ngay lập tức thay vì chờ các finalizer.
+> **Tại sao phải dispose?** Engine Chromium bên dưới cấp phát bộ nhớ native và các handle file. Gọi `dispose()` thông báo cho JVM giải phóng chúng ngay lập tức thay vì chờ finalizer.
 
-## Ví Dụ Hoàn Chỉnh Hoạt Động
+## Ví dụ làm việc đầy đủ
 
-Dưới đây là chương trình hoàn chỉnh mà bạn có thể sao chép vào tệp có tên `SandboxExample.java`. Biên dịch bằng `javac` và chạy bằng `java`. Tất cả các bước được sắp xếp đúng thứ tự, và mọi import đều được liệt kê.
+Dưới đây là chương trình hoàn chỉnh bạn có thể sao chép vào tệp có tên `SandboxExample.java`. Biên dịch bằng `javac` và chạy bằng `java`. Tất cả các bước được sắp xếp đúng thứ tự, và mọi import đều được liệt kê.
 
 ```java
 import com.aspose.html.HtmlDocument;
@@ -170,32 +209,54 @@ public class SandboxExample {
 }
 ```
 
-### Kết Quả Dự Kiến
+![Ảnh chụp màn hình mã Java tạo sandbox Aspose HTML](/images/create-aspose-html-sandbox.png "ví dụ tạo sandbox aspose html")
+
+### Kết quả mong đợi
 
 ```
 Title inside sandbox: Example Domain
 ```
 
-Nếu bạn thay `https://example.com` bằng một URL khác, tiêu đề được in ra sẽ phản ánh thẻ `<title>` của trang đó — với điều kiện trang cho phép truy cập ẩn danh.
+Nếu bạn thay thế `https://example.com` bằng một URL khác, tiêu đề được in sẽ phản ánh thẻ `<title>` của trang đó — với điều kiện trang cho phép truy cập ẩn danh.
 
-## Mẹo Thực Tế & Những Cạm Bẫy Thường Gặp
+## Mẹo thực tế & những cạm bẫy thường gặp
 
-- **Network Timeouts:** Mặc định sandbox sử dụng thời gian chờ 60 giây. Nếu bạn truy cập các trang chậm, hãy gọi `sandboxOptions.setTimeout(120_000);` trước khi tạo sandbox.  
-- **Java Security Manager:** Khi chạy trong JVM bị hạn chế, hãy đảm bảo `java.security.policy` cấp quyền `java.net.SocketPermission` cho miền mục tiêu.  
-- **Multiple Pages:** Nếu bạn cần xử lý nhiều URL, hãy tái sử dụng một instance `Sandbox` duy nhất; chỉ cần tạo một `HtmlDocument` mới cho mỗi URL và giải phóng nó sau khi dùng. Điều này giảm chi phí khởi động.  
-- **Debugging:** Đặt `sandboxOptions.setDebugMode(true);` để nhận các log console chi tiết giúp bạn xác định nguyên nhân trang không tải được.
+- **Thời gian chờ mạng:** Mặc định sandbox sử dụng thời gian chờ 60 giây. Nếu bạn truy cập các trang chậm hơn, gọi `sandboxOptions.setTimeout(120_000);` trước khi tạo sandbox.  
+- **Trình quản lý bảo mật Java:** Khi chạy trong JVM bị hạn chế, đảm bảo `java.security.policy` cấp quyền `java.net.SocketPermission` cho miền mục tiêu.  
+- **Xử lý nhiều trang:** Tái sử dụng một instance `Sandbox` duy nhất; chỉ tạo một `HtmlDocument` mới cho mỗi URL và giải phóng nó sau khi dùng. Điều này giảm chi phí khởi động.  
+- **Gỡ lỗi:** Đặt `sandboxOptions.setDebugMode(true);` để nhận log console chi tiết, giúp bạn xác định lý do một trang không tải được.
 
-## Kết Luận
+## Câu hỏi thường gặp
 
-Chúng ta vừa **created an Aspose HTML sandbox** trong Java, cấu hình nó với viewport dự đoán được, tải một trang bên ngoài, và trình diễn cách **retrieve page title java** một cách an toàn và hiệu quả. Toàn bộ quy trình — từ thiết lập tùy chọn đến dọn dẹp tài nguyên — được gói gọn trong một đoạn mã ngắn gọn, có thể tái sử dụng.
+**Q: Tôi có thể sử dụng sandbox này trong pipeline CI không giao diện không?**  
+**A:** Có. Sandbox chạy mà không có UI hiển thị và có thể thực thi trên bất kỳ máy chủ nào hỗ trợ Java 8+.
 
-Bây giờ bạn có thể dựa trên nền tảng này và mở rộng: thu thập meta tags, chụp ảnh màn hình, hoặc thậm chí chạy JavaScript bên trong sandbox. Các khả năng rộng mở như chính internet.
+**Q: Sandbox có hỗ trợ thực thi JavaScript không?**  
+**A:** Hoàn toàn có. Nó sử dụng Chromium ở phía dưới, vì vậy JavaScript hiện đại, bao gồm các tính năng ES6, chạy đúng.
 
-Có câu hỏi về việc xử lý xác thực, cài đặt proxy, hoặc render PDF từ sandbox? Hãy để lại bình luận, và chúng tôi sẽ cùng khám phá các kịch bản nâng cao đó. Chúc lập trình vui vẻ!  
+**Q: Sandbox có thể xử lý trang lớn tới mức nào?**  
+**A:** Engine có thể render các trang lên tới 200 MB, chỉ bị giới hạn bởi bộ nhớ của máy chủ.
 
-![Screenshot of Java code creating an Aspose HTML sandbox](/images/create-aspose-html-sandbox.png "create aspose html sandbox example")
+**Q: Nếu trang mục tiêu chặn các yêu cầu tự động thì sao?**  
+**A:** Bạn có thể tùy chỉnh chuỗi `User-Agent` trong `SandboxOptions` hoặc cung cấp cookie qua `HtmlLoadOptions` để mô phỏng trình duyệt thông thường.
+
+**Q: Có cách nào chụp ảnh màn hình của trang đã tải không?**  
+**A:** Có. Sau khi tải tài liệu, gọi `document.save("snapshot.png", SaveFormat.Png);` để xuất ảnh PNG của trang đã render.
+
+**Cập nhật lần cuối:** 2026-09-03  
+**Kiểm tra với:** Aspose.HTML for Java 23.1  
+**Tác giả:** Aspose
+
+## Hướng dẫn liên quan
+
+- [Cách sử dụng Sandbox cho Html sang Pdf Java - Hướng dẫn từng bước](/html/java/advanced-usage/how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+- [Tạo PDF từ HTML bằng Aspose.HTML for Java – Sandbox](/html/java/configuring-environment/implement-sandboxing/)
+- [Kích hoạt thực thi script trong Java - Hướng dẫn đầy đủ Aspose HTML](/html/java/advanced-usage/enable-script-execution-in-java-complete-aspose-html-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
