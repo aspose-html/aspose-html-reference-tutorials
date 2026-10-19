@@ -40,13 +40,35 @@ Teraz przenieśmy Twoje umiejętności na wyższy poziom. Edycja dokumentów HTM
 
 Poznaj metodę zapisu HTML w C# z własnym obsługiwaczem zasobów, umożliwiającą pełną kontrolę nad zapisem i dostępem do zasobów.
 
+### [Jak zapisać HTML przy użyciu Aspose.Html – Kompletny przewodnik C#](./how-to-save-html-with-aspose-html-complete-c-guide/)
+
+Dowiedz się, jak zapisać dokument HTML w C# przy użyciu biblioteki Aspose.Html, krok po kroku, z przykładami kodu.
+### [Zapisz HTML jako ZIP w C# – Kompletny przewodnik z własnym obsługiwaczem zasobów](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
+
+Dowiedz się, jak zapisać dokument HTML jako archiwum ZIP w C# przy użyciu własnego obsługiwacza zasobów.
+### [Utwórz dokument HTML w C# – Kompletny przewodnik z własnym obsługiwaczem zasobów](./create-html-document-c-complete-guide-with-custom-resource-h/)
 ### [Jak zapisać HTML w C# – Kompletny przewodnik krok po kroku](./how-to-save-html-in-c-complete-step-by-step-guide/)
 
 Dowiedz się, jak zapisać plik HTML w C# krok po kroku, korzystając z podstawowych metod bez dodatkowych rozszerzeń.
 
 ### [Jak pogrubić nagłówek za pomocą CSS i C# – Kompletny przewodnik krok po kroku](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 
-Dowiedz się, jak użyć CSS i C# do pogrubienia nagłówka w HTML, krok po kroku, z praktycznymi przykładami.
+### [Jak zapisać HTML w C# – własne obsługi zasobów i ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
+### [Jak zapisać HTML w C# przy użyciu własnego obsługiwacza zasobów](./how-to-save-html-in-c-with-custom-resource-handler/)
+
+### [Jak zapisać HTML przy użyciu Aspose – Kompletny przewodnik C#](./how-to-save-html-with-aspose-complete-c-guide/)
+
+### [Jak spakować HTML w C# – Kompletny przewodnik tworzenia archiwum ZIP](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
+
+### [Tworzenie HTML z ciągu znaków w C# – Przewodnik krok po kroku](./create-html-from-string-in-c-step-by-step-guide/)
+
+Dowiedz się, jak w C# wygenerować dokument HTML bezpośrednio z łańcucha znaków, krok po kroku, z praktycznymi przykładami.
+
+### [Ładowanie dokumentu HTML za pomocą Aspose.HTML – Kompletny przewodnik C#](./load-html-document-with-aspose-html-complete-c-guide/)
+
+### [Jak spakować HTML w C# – Kompletny przewodnik krok po kroku](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+
+### [Tworzenie HTML z ciągu znaków w C# – Kompletny przewodnik z użyciem strumienia pamięci](./create-html-from-string-in-c-full-guide-with-memory-stream/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,9 +1,9 @@
 ---
-date: 2026-01-09
-description: Aspose.HTML for Java を使用して XPS の保存オプションを指定し、EPUB を XPS に効率的に変換する方法を学びましょう。
+date: 2026-03-29
+description: Aspose.HTML for Java の使い方を学び、XPS の保存オプションを指定し、EPUB を XPS に変換し、ライセンスを管理する方法を習得してください。
 linktitle: Specifying XPS Save Options for EPUB to XPS
 second_title: Java HTML Processing with Aspose.HTML
-title: EPUB から XPS への変換のための Aspose HTML 保存オプションの指定
+title: Aspose HTML の EPUB から XPS への保存オプションの使い方
 url: /ja/java/converting-epub-to-xps/convert-epub-to-xps-specify-xps-save-options/
 weight: 12
 ---
@@ -12,39 +12,37 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# EPUB から XPS への Aspose HTML 保存オプションの指定
+# Aspose HTML Save Options を使用して EPUB を XPS に変換する方法
 
-EPUB ドキュメントを XPS に変換することは、出版ワークフローで便利な工程となり得ます。**Aspose HTML Save Options** を使用すると、出力を細かく制御できます。このチュートリアルでは、Aspose.HTML for Java を使って保存オプションを設定し、高品質な XPS ファイルを生成する手順を詳しく解説します。
+このガイドでは、**how to use Aspose** HTML Save Options を使用して EPUB ドキュメントを XPS に変換する方法を、ページサイズ、背景色、ライセンスに関する考慮事項を完全に制御できるように示します。バッチ処理パイプラインを構築する場合でも、単発の変換ツールを作成する場合でも、これらの手順に従えば迅速に信頼できる結果が得られます。
 
 ## クイック回答
-- **Aspose HTML Save Options は何をするものですか？** XPS などの形式で保存する際に、ページサイズや背景色、その他のレンダリング設定をカスタマイズできます。  
+- **Aspose HTML Save Options は何をしますか？** XPS などの形式で保存する際に、ページサイズ、背景色、その他のレンダリング設定をカスタマイズできるようにします。  
 - **必要なライブラリはどれですか？** Aspose.HTML for Java（最新バージョン）。  
-- **ライセンスは必要ですか？** 評価用の無料トライアルで動作しますが、商用利用には正式なライセンスが必要です。  
-- **ページサイズは変更できますか？** はい、`PageSetup` を使用して任意の幅と高さを設定できます。  
-- **変換は高速ですか？** 一般的な EPUB ファイルであれば、最新の JVM 上で数秒で変換が完了します。
+- **ライセンスは必要ですか？** 評価用には無料トライアルで動作しますが、実運用には商用ライセンスが必要です。  
+- **ページサイズを変更できますか？** はい、`PageSetup` を使用して任意の幅と高さを設定できます。  
+- **変換は高速ですか？** 一般的な EPUB ファイルでは、最新の JVM 上で数秒で変換が完了します。
 
-## Aspose HTML Save Options とは？
-Aspose HTML Save Options は、HTML、EPUB、その他の Web ベースドキュメントを XPS、PDF、画像ファイルなどのターゲット形式にレンダリングして保存する際の動作を制御するプロパティ群です。ページレイアウト、背景色、余白などを定義でき、生成されるファイルがデザイン要件に合致するようにします。
+## このコンテキストで「how to use aspose」とは何ですか？
+フレーズ **how to use Aspose** は、Aspose.HTML ライブラリを活用してウェブベースのドキュメントを操作・変換する実践的な手順を指します。このチュートリアルでは、**aspose html save options** に焦点を当て、**EPUB を XPS に変換**する際に出力を細かく調整できるようにします。
 
-## なぜ Aspose.HTML for Java を使って EPUB を XPS に変換するのか？
-- **高忠実度** – 複雑なレイアウト、フォント、ベクターグラフィックを正確に保持します。  
-- **プログラム制御** – Java アプリケーション内でバッチ変換を自動化できます。  
-- **外部依存なし** – 純粋な Java ライブラリで、ネイティブコンポーネントが不要です。  
-- **出力カスタマイズ** – 保存オプションにより、XPS を細部まで調整可能です。
+## なぜ Aspose.HTML for Java を使用して EPUB を XPS に変換するのか？
+- **高忠実度** – 複雑なレイアウト、フォント、ベクターグラフィックを保持します。  
+- **プログラムによる制御** – Java アプリケーション内でバッチ変換を自動化できます。  
+- **外部依存なし** – 純粋な Java ライブラリで、ネイティブコンポーネントは不要です。  
+- **カスタマイズ可能な出力** – 保存オプションのおかげで、**ページサイズを指定**したりカスタム背景を設定したりと、XPS を正確な要件に合わせて調整できます。  
 
 ## 前提条件
 
-コードに取り掛かる前に、以下を用意してください。
-
 1. **Java 開発環境** – JDK 8 以上がインストールされていること。  
-2. **Aspose.HTML for Java ライブラリ** – [download link](https://releases.aspose.com/html/java/) からダウンロード。  
-3. **EPUB ファイル** – 変換したい元の EPUB。
+2. **Aspose.HTML for Java ライブラリ** – [download link](https://releases.aspose.com/html/java/) からダウンロードしてください。  
+3. **EPUB ファイル** – **EPUB を XPS に変換**したい元の EPUB ファイル。  
 
-これらが揃っていれば、途中で中断されることなく手順を進められます。
+これらが揃っていれば、手順を中断することなく進められます。
 
 ## パッケージのインポート
 
-まず、必要なクラスをインポートします。インポート文は Java ソースファイルの先頭に配置してください。
+まず、必要なクラスをインポートします。インポート文は Java ソースファイルの先頭に配置してください:
 
 ```java
 import java.io.FileInputStream;
@@ -58,11 +56,11 @@ import com.aspose.html.converters.Converter;
 import com.aspose.html.system.io.resources.Resources;
 ```
 
-これらのインポートにより、変換エンジンと **Aspose HTML Save Options** にアクセスできるようになります。
+これらのインポートにより、変換エンジンと、細かい調整に必要な **Aspose HTML Save Options** にアクセスできます。
 
 ## EPUB ファイルを開く
 
-次に、変換対象の EPUB を開きます。`Resources.input` ヘルパーはデモリソースフォルダーからファイルを読み込みます。
+次に、変換したい EPUB を開きます。`Resources.input` ヘルパーはデモリソースフォルダーからファイルをロードします:
 
 ```java
 try (FileInputStream fileInputStream = new FileInputStream(Resources.input("input.epub"))) {
@@ -74,7 +72,7 @@ try‑with‑resources ブロックを使用することで、ストリームが
 
 ## XPS 保存オプションの作成（ページサイズと背景の設定）
 
-ここで `XpsSaveOptions` インスタンスを作成し、カスタマイズします。**保存オプション** が本領を発揮するポイントです。
+ここで `XpsSaveOptions` インスタンスを作成し、カスタマイズします。**保存オプション** が本領を発揮するのはこの部分です:
 
 ```java
 XpsSaveOptions options = new XpsSaveOptions();
@@ -86,14 +84,14 @@ options.setPageSetup(pageSetup);
 options.setBackgroundColor(Color.getAliceBlue());
 ```
 
-- **ページサイズ** – 本例では 3000 × 1000 ピクセルに設定しています。目的の用紙サイズに合わせて調整してください。  
-- **背景色** – `AliceBlue` はキャンバスの背景色変更例です。任意の `Color` を指定できます。
+- **ページサイズ** – この例では 3000 × 1000 ピクセルに設定しています。対象の用紙サイズに合わせて調整するか、`Length.fromInches` を使用してインチ単位で **ページサイズを指定** できます。  
+- **背景色** – `AliceBlue` はキャンバスの背景を変更する例です。任意の `Color` を選択できます。  
 
-これらの設定は最終的な XPS ドキュメントに影響を与える **Aspose HTML Save Options** の一部です。
+これらの設定は最終的な XPS ドキュメントに影響を与える **aspose html save options** の一部です。
 
-## EPUB を XPS に変換
+## EPUB を XPS に変換する
 
-最後に、ストリーム、設定済みオプション、出力パスを指定してコンバータを呼び出します。
+最後に、ストリーム、設定したオプション、出力パスを指定してコンバータを呼び出します:
 
 ```java
 Converter.convertEPUB(
@@ -103,25 +101,26 @@ Converter.convertEPUB(
 );
 ```
 
-この行が実行されると、Aspose.HTML が EPUB を読み込み、設定したページレイアウトと背景色を適用し、完全に準拠した XPS ファイルを書き出します。
+この行が実行されると、Aspose.HTML が EPUB を読み取り、定義したページ設定と背景色を適用し、完全に準拠した XPS ファイルを書き出します。
 
-## よくある問題とヒント
+## 一般的な問題とヒント
 
-- **ページサイズが正しくない** – ピクセル単位で指定しているか確認してください（または `Length.fromInches` を使用）。  
-- **フォントが欠落している** – 必要なフォントを EPUB に埋め込むか、JVM ホストにインストールしてフォールバックを防止してください。  
-- **ファイルが大きすぎる** – 非常に大きな EPUB の場合、JVM ヒープ (`-Xmx`) を増やして `OutOfMemoryError` を回避します。  
+- **ページサイズが正しくない** – サイズがピクセルで指定されていることを確認してください（または `Length.fromInches` を使用）。  
+- **フォントが欠落** – 必要なフォントを EPUB に埋め込むか、JVM ホストにインストールしてフォールバックを防止してください。  
+- **大きなファイル** – 非常に大きな EPUB の場合、JVM ヒープ (`-Xmx`) を増やして `OutOfMemoryError` を防止してください。  
+- **Aspose HTML のライセンス** – 変換前に有効なライセンスがロードされていることを確認してください。そうでない場合、トライアルの透かしが表示されます。
 
 ## 結論
 
-**Aspose HTML Save Options** を活用することで、EPUB を XPS にレンダリングする際の細部まで制御できます。上記の手順に従えば、ページサイズや背景色の設定、変換処理を数行の Java コードで実現できます。このパターンをバッチ処理パイプラインに組み込めば、出版タスクの自動化が効率的に行えます。
+**Aspose HTML Save Options** を活用することで、EPUB が XPS にレンダリングされる方法を正確に制御できます。上記の手順は、**EPUB を変換する方法**、**ページサイズ** の設定、背景の変更、そして数行の Java コードで変換を実行する方法を示しています。このパターンをバッチ処理パイプラインに組み込めば、出版タスクを効率的に自動化できます。
 
-## FAQ（よくある質問）
+## よくある質問
 
 **Q: Aspose.HTML for Java とは何ですか？**  
-A: ブラウザーを必要とせずに、開発者が HTML、EPUB、その他の Web ベースドキュメントを作成、編集、レンダリング、変換できる Java ライブラリです。
+A: ブラウザを必要とせずに、開発者が HTML、EPUB、その他のウェブベースのドキュメントを作成、編集、レンダリング、変換できる Java ライブラリです。
 
 **Q: 商用プロジェクトで使用できますか？**  
-A: はい。製品版の使用には有効なライセンスが必要です。ライセンスは [purchase page](https://purchase.aspose.com/buy) から購入できます。
+A: はい。実運用には有効なライセンスが必要です。購入は [purchase page](https://purchase.aspose.com/buy) で行えます。
 
 **Q: 無料トライアルはありますか？**  
 A: もちろんです。トライアル版は [here](https://releases.aspose.com/) からダウンロードできます。
@@ -130,9 +129,11 @@ A: もちろんです。トライアル版は [here](https://releases.aspose.com
 A: Aspose フォーラム（[https://forum.aspose.com/](https://forum.aspose.com/)）でコミュニティサポートと公式サポートが利用できます。
 
 **Q: システム要件は何ですか？**  
-A: JDK 8 以上と、Aspose ランタイムがサポートする OS が必要です。前述の前提条件を満たしていることを確認してください。
+A: Java Development Kit (JDK) 8 以上と、Aspose ランタイムがサポートするオペレーティングシステムが必要です。環境が前述の前提条件を満たしていることを確認してください。
 
-**最終更新日:** 2026-01-09  
+---
+
+**最終更新日:** 2026-03-29  
 **テスト環境:** Aspose.HTML for Java 24.12  
 **作者:** Aspose  
 
