@@ -1,0 +1,7 @@
+Title: How to Zip HTML and Render It as PNG – Complete C# Guide
+Slug: how-to-zip-html-and-render-it-as-png-complete-c-guide
+Category: rendering-html-documents
+ProcessedDate: 2026-06-16T18:22:12.258012
+SourceRepo: AI Search API
+Keywords: how to zip html, render html to png, render html as image, save html as zip, apply bold underline
+PRNumber: 182

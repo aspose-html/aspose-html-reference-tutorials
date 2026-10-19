@@ -56,10 +56,23 @@ Domine el arte de editar CSS externo con Aspose.HTML para Java. Esta guía detal
 Aprenda a agregar CSS en línea a documentos HTML con Aspose.HTML para Java. Esta guía paso a paso le ayuda a aplicar estilo a HTML y convertirlo a PDF con facilidad.
 ### [Administrar propiedades HTML internas y externas en Aspose.HTML para Java](./manage-inner-outer-html-properties/)
 Aprenda a administrar propiedades HTML internas y externas en Aspose.HTML para Java con esta guía paso a paso, perfecta para desarrolladores web y creadores de contenido.
+### [Cómo resaltar HTML – Buscar texto y reemplazar con <mark>](./how-to-highlight-html-search-text-replace-with-mark/)
+Aprenda a buscar texto en documentos HTML y resaltarlo usando la etiqueta <mark> con Aspose.HTML para Java.
 ### [Implemente CSS interno en documentos HTML con Aspose.HTML para Java](./implement-internal-css-html-documents/)
 Aprenda a implementar CSS interno en documentos HTML usando Aspose.HTML para Java con nuestro sencillo tutorial paso a paso.
+### [Crear nuevo elemento HTML con Java – Guía completa de Aspose.HTML](./create-new-html-element-with-java-full-aspose-html-guide/)
+Aprenda a crear nuevos elementos HTML en Java usando Aspose.HTML con una guía paso a paso.
 ### [Pool de hilos fijo en Java – Limpieza paralela de HTML con ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Aprenda a usar un pool de hilos fijo y ExecutorService para limpiar HTML en paralelo con Aspose.HTML para Java.
+### [Agregar un hijo al cuerpo en Java – Tutorial completo de Aspose.HTML](./append-child-to-body-in-java-full-aspose-html-tutorial/)
+Aprenda a agregar un elemento hijo al cuerpo del documento HTML usando Aspose.HTML para Java en este tutorial paso a paso.
+### [Cambiar texto h1 en MHTML con Java – Guía completa paso a paso](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
+Aprenda a modificar el texto del encabezado h1 en archivos MHTML usando Aspose.HTML para Java con esta guía paso a paso.
+### [Cómo agregar un nodo hijo en el DOM de Java – Guía completa de Aspose.HTML](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
+Aprenda a agregar nodos hijos al DOM en Java usando Aspose.HTML con esta guía paso a paso.
+
+### [Cómo eliminar scripts de HTML en Java – Guía completa](./how-to-remove-scripts-from-html-in-java-complete-guide/)
+Aprenda a eliminar scripts de documentos HTML usando Aspose.HTML para Java. Guía paso a paso para limpiar su contenido de forma segura.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

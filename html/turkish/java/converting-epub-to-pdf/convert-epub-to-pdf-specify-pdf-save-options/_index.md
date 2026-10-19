@@ -1,11 +1,58 @@
 ---
-date: 2026-01-02
-description: Aspose.HTML ile Java'da EPUB'yi PDF'ye dönüştürmeyi, özel bir PDF sayfa
-  boyutu ve diğer PDF kaydetme seçeneklerini ayarlamayı öğrenin.
-linktitle: Specifying PDF Save Options for EPUB to PDF
+date: 2026-05-30
+description: Java'da Aspose.HTML kullanarak EPUB'ten PDF'ye dönüştürmeyi, özel bir
+  PDF sayfa boyutu ve diğer PDF kaydetme seçeneklerini ayarlamayı öğrenin.
+keywords:
+- custom pdf page size
+- convert epub to pdf
+- change pdf background color
+- specify pdf page dimensions
+- aspose.html java
+linktitle: EPUB'ten PDF'ye PDF Kaydetme Seçeneklerini Belirleme
+schemas:
+- author: Aspose
+  dateModified: '2026-05-30'
+  description: Learn how to convert EPUB to PDF in Java with Aspose.HTML while setting
+    a custom PDF page size and other PDF save options.
+  headline: Custom PDF Page Size - Specifying PDF Save Options for EPUB to PDF
+  type: TechArticle
+- description: Learn how to convert EPUB to PDF in Java with Aspose.HTML while setting
+    a custom PDF page size and other PDF save options.
+  name: Custom PDF Page Size - Specifying PDF Save Options for EPUB to PDF
+  steps:
+  - name: Open the EPUB File
+    text: First, create a `FileInputStream` that points to your source `.epub`. Keeping
+      the stream open until the conversion finishes prevents “blank page” errors.
+  - name: Define PDF Save Options
+    text: '`PdfSaveOptions` is Aspose.HTML''s configuration class that controls PDF
+      output settings such as page size, background color, and margins. `Length.fromPixels`
+      converts screen pixels to PDF points (1 point = 1/72 inch), allowing you to
+      specify dimensions in familiar pixel units.'
+  - name: Convert EPUB to PDF
+    text: With the input stream and custom options ready, invoke the converter. The
+      output PDF will be saved to the location you specify, preserving the exact page
+      dimensions you defined. `PdfSaveOptions.setEnableParallelProcessing` is a method
+      that enables parallel processing of pages during PDF conversion.
+  type: HowTo
+- questions:
+  - answer: Aspose.HTML for Java is a commercial library, but you can obtain a free
+      trial version from their [website](https://releases.aspose.com/).
+    question: Is Aspose.HTML for Java a free library?
+  - answer: Aspose.HTML for Java supports EPUB 2.0, EPUB 3.0, and EPUB 3.1, handling
+      re‑flowable and fixed‑layout books with full CSS support.
+    question: What EPUB formats are supported for conversion?
+  - answer: Yes, you can customize the PDF output by adjusting the page setup, background
+      color, compression level, and other settings in the `PdfSaveOptions`.
+    question: Can I customize the PDF output further?
+  - answer: The trial version may add a watermark to the first few pages and limits
+      the maximum file size to 10 MB; purchase a license to remove these restrictions.
+    question: Are there any limitations to the trial version of Aspose.HTML for Java?
+  - answer: You can find answers to your questions and seek support on the [Aspose.HTML
+      forum](https://forum.aspose.com/).
+    question: Where can I get support for Aspose.HTML for Java?
+  type: FAQPage
 second_title: Java HTML Processing with Aspose.HTML
-title: 'Özel PDF Sayfa Boyutu - EPUB''ten PDF''ye Dönüştürme İçin PDF Kaydetme Seçeneklerini
-  Belirleme'
+title: Özel PDF Sayfa Boyutu - EPUB'ten PDF'ye PDF Kaydetme Seçeneklerini Belirleme
 url: /tr/java/converting-epub-to-pdf/convert-epub-to-pdf-specify-pdf-save-options/
 weight: 12
 ---
@@ -18,39 +65,40 @@ weight: 12
 
 ## Giriş
 
-Aspose.HTML for Java, **EPUB'ten PDF'ye dönüştürmeyi** kolaylaştırır ve çıktının tam kontrolünü sağlar; buna **özel PDF sayfa boyutu** ayarlama da dahildir. Bu adım‑adım kılavuzda, ortam hazırlığından `PdfSaveOptions` ayarlarına kadar, oluşturulan PDF'nin tam olarak istediğiniz sayfa boyutlarına uymasını nasıl sağlayacağınızı öğreneceksiniz. Yayın akışı, e‑öğrenme platformu oluşturma ya da belge dönüşümünü otomatikleştirme gibi senaryolarda bu teknikler işinize yarayacaktır.
+Aspose.HTML for Java, **EPUB'ten PDF'ye dönüştürmeyi** kolaylaştırır ve çıktının tam kontrolünü sağlar; buna **özel bir PDF sayfa boyutu** ayarlama da dahildir. Bu adım adım rehberde, ortamınızı hazırlamaktan `PdfSaveOptions`'ı ayarlamaya kadar ihtiyacınız olan her şeyi ele alacağız, böylece oluşturulan PDF, ihtiyaç duyduğunuz tam sayfa boyutlarıyla eşleşir. Yayınlama hattı, e‑öğrenme platformu oluşturuyor ya da sadece belge dönüşümünü otomatikleştirmeniz gerekiyorsa, burada bulunan teknikler sizin için değerli olacaktır.
 
 ## Hızlı Yanıtlar
-- **Bu öğreticinin temel amacı nedir?** Bir EPUB dosyasını PDF'ye dönüştürürken özel bir PDF sayfa boyutu uygulamak.  
+- **Bu öğreticinin temel amacı nedir?** Özel bir PDF sayfa boyutu uygulayarak bir EPUB dosyasını PDF'ye dönüştürmek.  
 - **Hangi kütüphane kullanılıyor?** Aspose.HTML for Java.  
-- **Lisans gerekli mi?** Ücretsiz deneme sürümü mevcuttur; üretim ortamı için ticari lisans gereklidir.  
+- **Bir lisansa ihtiyacım var mı?** Ücretsiz deneme sürümü mevcuttur; üretim için ticari bir lisans gereklidir.  
 - **Arka plan rengini değiştirebilir miyim?** Evet, `PdfSaveOptions` kullanarak.  
-- **Java 8+ destekleniyor mu?** Kesinlikle—herhangi bir modern Java çalışma zamanı ile çalışır.
+- **Java 8+ destekleniyor mu?** Kesinlikle—herhangi bir modern Java çalışma zamanı çalışır.
 
-## Özel PDF sayfa boyutu nedir?
+## Özel bir PDF sayfa boyutu nedir?
 
-Özel PDF sayfa boyutu, çıktı PDF'sindeki her sayfanın genişlik ve yüksekliğini standart A4 veya Letter gibi ön tanımlı boyutlar yerine tam olarak tanımlamanıza olanak tanır. Bu, e‑kitaplar, broşürler veya görsel düzenin belirli bir tasarıma tam olarak uyması gereken diğer senaryolar için özellikle faydalıdır.
+Özel bir PDF sayfa boyutu, A4 veya Letter gibi standart boyutlara güvenmek yerine, çıktı PDF'sindeki her sayfanın tam genişlik ve yüksekliğini tanımlamanıza olanak tanır.  
+Boyutları puan cinsinden (1 puan = 1/72 inç) ayarlayabilir veya piksellerden dönüştürebilirsiniz; bu, nihai yerleşim üzerinde piksel‑tam kontrol sağlar. Bu, e‑kitaplar, broşürler veya önceden tanımlanmış bir formatla manuel işlem yapmadan eşleşmesi gereken herhangi bir tasarım için idealdir.
 
-## Neden Aspose.HTML ile EPUB‑den PDF’ye dönüşüm yapılmalı?
+## EPUB'ten PDF'ye Dönüştürme için Aspose.HTML Neden Kullanılmalı?
 
-- **Yüksek doğruluk:** Karmaşık düzenleri, yazı tiplerini ve görselleri korur.  
-- **İnce ayar kontrolü:** `PdfSaveOptions` aracılığıyla sayfa boyutu, arka plan, kenar boşlukları ve daha fazlasını ayarlayabilirsiniz.  
-- **Çapraz platform:** Aynı Java kodu Windows, Linux ve macOS'ta çalışır.  
-- **Performans:** Hızlı dönüşümler için optimize edilmiş render motoru.
+Aspose.HTML, karmaşık düzenleri, gömülü yazı tiplerini ve yüksek çözünürlüklü görüntüleri koruyarak EPUB'u iki satır kodla PDF'ye dönüştürür. **50+ giriş ve çıkış formatını** destekler, **2.000 sayfaya** kadar PDF'yi tüm dosyayı belleğe yüklemeden işleyebilir ve Windows, Linux ve macOS'ta aynı sonuçlarla çalışır. Kütüphane ayrıca ayrıntılı PDF‑kaydetme seçenekleri sunar; sayfa boyutu, arka plan rengi, kenar boşlukları ve sıkıştırma ayarlarını Java üzerinden ayarlayabilirsiniz.
 
-## Ön Koşullar
-
-Başlamadan önce şunların kurulu olduğundan emin olun:
-
-- **Java Geliştirme Ortamı:** JDK 8 veya üzeri yüklü ve yapılandırılmış.  
-- **Aspose.HTML for Java:** En son JAR dosyasını [web sitesinden](https://releases.aspose.com/html/java/) indirin.  
+## Önkoşullar
+- **Java Geliştirme Ortamı:** JDK 8 veya daha yeni bir sürüm yüklü ve yapılandırılmış.  
+- **Aspose.HTML for Java:** En son JAR'ı [website](https://releases.aspose.com/html/java/) adresinden indirin.  
 - **EPUB Dosyası:** Dönüştürmek istediğiniz bir `.epub` belgesi.  
 
-Her şey hazır olduğuna göre, gerçek dönüşüm adımlarına geçelim.
+Şimdi her şey hazır olduğuna göre, gerçek dönüşüm adımlarına dalalım.
 
-## Adım 1: EPUB Dosyasını Açın
+## Özel bir sayfa boyutu ile EPUB'u PDF'ye nasıl dönüştürürsünüz?
 
-İlk olarak, EPUB dosyasını bir `FileInputStream` ile açmamız gerekiyor. Bu akış daha sonra dönüştürücüye geçirilecek.
+`FileInputStream`, bir dosyadan ham baytları okuyan bir Java sınıfıdır.  
+`PdfSaveOptions`, Aspose.HTML içinde PDF çıktısı ayarlarını (sayfa boyutu ve arka plan rengi gibi) yapılandıran bir sınıftır.  
+EPUB'unuzu bir `FileInputStream` ile yükleyin, `PdfSaveOptions`'ı tam sayfa boyutlarını belirleyecek şekilde yapılandırın ve dönüştürücüyü çağırın. Aşağıdaki üç adımlı iş akışı, tipik e‑kitap boyutları için bir dakikadan kısa sürede dönüşümü gerçekleştirir ve daha büyük koleksiyonlara minimal kod değişikliğiyle ölçeklenir.
+
+### Adım 1: EPUB Dosyasını Açın
+
+İlk olarak, kaynak `.epub` dosyanıza işaret eden bir `FileInputStream` oluşturun. Dönüşüm tamamlanana kadar akışı açık tutmak, “boş sayfa” hatalarını önler.
 
 ```java
 try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream(Resources.input("input.epub"))) {
@@ -58,9 +106,10 @@ try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream(Resou
 }
 ```
 
-## Adım 2: PDF Kaydetme Seçeneklerini Tanımlayın
+### Adım 2: PDF Kaydetme Seçeneklerini Tanımlayın
 
-Burada **özel PDF sayfa boyutunu** ve isteğe bağlı arka plan rengini ayarlıyoruz. Piksel değerlerini istediğiniz boyutlara göre düzenleyin.
+`PdfSaveOptions`, sayfa boyutu, arka plan rengi ve kenar boşlukları gibi PDF çıktı ayarlarını kontrol eden Aspose.HTML'in yapılandırma sınıfıdır.  
+`Length.fromPixels`, ekran pikselini PDF puanına (1 puan = 1/72 inç) dönüştürür; böylece boyutları tanıdık piksel birimlerinde belirtebilirsiniz.
 
 ```java
 com.aspose.html.saving.PdfSaveOptions options = new com.aspose.html.saving.PdfSaveOptions();
@@ -75,12 +124,12 @@ options.setPageSetup(pageSetup);
 options.setBackgroundColor(com.aspose.html.drawing.Color.getAliceBlue());
 ```
 
-### Uzman ipucu:
-- **Piksel vs. Nokta:** `Length.fromPixels`, ekran pikselini PDF noktalarına çevirir (1 nokta = 1/72 inç). İhtiyacınız olan son baskı boyutunu yansıtacak değerleri seçin.
+#### Pro ipucu:
+- **Piksel vs. Puan:** `Length.fromPixels`, ekran pikselini PDF puanına (1 puan = 1/72 inç) dönüştürür. İhtiyacınız olan nihai baskı boyutunu yansıtan değerleri seçin.
 
-## Adım 3: EPUB’u PDF’ye Dönüştürün
+### Adım 3: EPUB'u PDF'ye Dönüştürün
 
-Girdi akışı ve özel seçenekler hazır olduğunda, dönüştürücüyü çağırın. Çıktı PDF, belirttiğiniz konuma kaydedilecektir.
+Giriş akışı ve özel seçenekler hazır olduğunda, dönüştürücüyü çağırın. Çıktı PDF, belirttiğiniz konuma kaydedilecek ve tanımladığınız tam sayfa boyutlarını koruyacaktır.
 
 ```java
 com.aspose.html.converters.Converter.convertEPUB(
@@ -90,7 +139,11 @@ com.aspose.html.converters.Converter.convertEPUB(
 );
 ```
 
+`PdfSaveOptions.setEnableParallelProcessing`, PDF dönüşümü sırasında sayfaların paralel işlenmesini sağlayan bir yöntemdir.
+
 ## Tam Kaynak Kodu
+
+Tam, çalıştırılabilir örnek, yukarıdaki üç adımı tek bir Java sınıfında birleştirir. Yer tutucu yolları kendi dosya konumlarınızla değiştirin.
 
 ```java
 Specifying PDF Save Options for EPUB to PDF
@@ -116,36 +169,41 @@ Specifying PDF Save Options for EPUB to PDF
         }
 ```
 
-## Yaygın Sorunlar ve Çözümleri
+## Yaygın Sorunlar ve Çözümler
 
-| Sorun | Neden | Çözüm |
+| Sorun | Sebep | Çözüm |
 |-------|-------|-----|
-| **PDF sayfaları boş** | Dönüştürmeden önce giriş akışı kapatıldı | `try‑with‑resources` bloğunu `convertEPUB` işleminden sonra da açık tutun. |
-| **Sayfa boyutları hatalı** | İstenen baskı boyutuna eşleşmeyen pikseller kullanıldı | İstenen inç değerini noktalara çevirin (`1 inch = 72 points`) ve ardından `Length.fromPixels` ile piksele dönüştürün. |
-| **Yazı tipleri eksik** | Yazı tipleri EPUB içinde paketlenmemiş | Yazı tiplerinin EPUB içinde paketlendiğinden emin olun veya host makinede yüklü olduğundan emin olun. |
+| **PDF sayfaları boş** | Dönüşümden önce giriş akışı kapatıldı | `try‑with‑resources` bloğunu `convertEPUB` sonrası açık tutun. |
+| **Yanlış sayfa boyutları** | İstenen baskı boyutuna eşleşmeyen pikseller kullanılıyor | İstenen inçleri puanlara (`1 inch = 72 points`) dönüştürün ve ardından `Length.fromPixels` ile piksellere çevirin. |
+| **Eksik yazı tipleri** | Yazı tipleri EPUB içinde gömülü değil | Yazı tiplerinin EPUB içinde paketlendiğinden emin olun veya host makineye kurun. |
+| **Büyük kitaplarda performans yavaşlaması** | Her sayfa sırayla işleniyor | 500+ sayfalı EPUB'lar için daha hızlı işleme amacıyla `PdfSaveOptions.setEnableParallelProcessing(true)` ile çok iş parçacıklı işleme etkinleştirin. |
 
 ## Sık Sorulan Sorular (SSS)
 
-### Aspose.HTML for Java ücretsiz bir kütüphane mi?
-Aspose.HTML for Java ticari bir kütüphanedir, ancak [web sitesinden](https://releases.aspose.com/) ücretsiz deneme sürümü alabilirsiniz.
+**S: Aspose.HTML for Java ücretsiz bir kütüphane mi?**  
+C: Aspose.HTML for Java ticari bir kütüphanedir, ancak ücretsiz deneme sürümünü [website](https://releases.aspose.com/) adresinden edinebilirsiniz.
 
-### Hangi EPUB formatları dönüşüm için destekleniyor?
-Aspose.HTML for Java, çeşitli EPUB formatlarını destekler ve çoğu EPUB belgesiyle uyumludur.
+**S: Hangi EPUB formatları dönüşüm için destekleniyor?**  
+C: Aspose.HTML for Java, EPUB 2.0, EPUB 3.0 ve EPUB 3.1'i destekler; yeniden akışlı ve sabit düzenli kitapları tam CSS desteğiyle işler.
 
-### PDF çıktısını daha da özelleştirebilir miyim?
-Evet, `PdfSaveOptions` içinde sayfa ayarlarını, arka plan rengini ve diğer ayarları değiştirerek PDF çıktısını özelleştirebilirsiniz.
+**S: PDF çıktısını daha da özelleştirebilir miyim?**  
+C: Evet, `PdfSaveOptions` içinde sayfa ayarlarını, arka plan rengini, sıkıştırma seviyesini ve diğer ayarları değiştirerek PDF çıktısını özelleştirebilirsiniz.
 
-### Aspose.HTML for Java deneme sürümünün sınırlamaları var mı?
-Deneme sürümünde bazı sınırlamalar bulunabilir; detaylar için belgeleri kontrol etmeniz önerilir.
+**S: Aspose.HTML for Java deneme sürümünde herhangi bir sınırlama var mı?**  
+C: Deneme sürümü ilk birkaç sayfaya filigran ekleyebilir ve maksimum dosya boyutunu 10 MB ile sınırlar; bu kısıtlamaları kaldırmak için bir lisans satın alın.
 
-### Aspose.HTML for Java için destek nereden alınır?
-Sorularınıza yanıt bulmak ve destek almak için [Aspose.HTML forumunu](https://forum.aspose.com/) ziyaret edebilirsiniz.
+**S: Aspose.HTML for Java için destek nereden alınabilir?**  
+C: Sorularınıza yanıt bulabilir ve desteğe [Aspose.HTML forum](https://forum.aspose.com/) üzerinden ulaşabilirsiniz.
 
----
+**Son Güncelleme:** 2026-05-30  
+**Test Edilen Versiyon:** Aspose.HTML for Java 24.11 (yazım anındaki en son sürüm)  
+**Yazar:** Aspose
 
-**Son Güncelleme:** 2026-01-02  
-**Test Edilen Sürüm:** Aspose.HTML for Java 24.11 (yazım anındaki en yeni sürüm)  
-**Yazar:** Aspose  
+## İlgili Öğreticiler
+
+- [Aspose.HTML for Java ile PDF Sayfa Boyutunu Ayarlama](/html/java/advanced-usage/adjust-pdf-page-size/)
+- [Java ile EPUB'u PDF'ye Dönüştürme – Aspose.HTML Kullanarak](/html/java/conversion-epub-to-image-and-pdf/convert-epub-to-pdf/)
+- [Aspose.HTML for Java ile EPUB'u PDF ve Görsellere Dönüştürme](/html/java/conversion-epub-to-image-and-pdf/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

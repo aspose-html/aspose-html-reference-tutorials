@@ -1,0 +1,7 @@
+Title: Convert Markdown to PDF in Java – Full Step‑by‑Step Guide
+Slug: convert-markdown-to-pdf-in-java-full-step-by-step-guide
+Category: conversion-html-to-other-formats
+ProcessedDate: 2026-06-04T08:27:48.766903
+SourceRepo: AI Search API
+Keywords: convert markdown to pdf, generate pdf from markdown, create pdf from markdown file, how to convert markdown to pdf, convert markdown file to pdf
+PRNumber: 172
