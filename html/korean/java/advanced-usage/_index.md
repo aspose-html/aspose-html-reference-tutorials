@@ -111,22 +111,52 @@ A: `HtmlLoadOptions`와 `PageSetup` 여백을 설정하고 `EnableCssLayout`을 
 A: 필요 없습니다. 하나의 Aspose.HTML for Java 라이선스로 PDF와 XPS를 포함한 모든 출력 형식을 커버합니다.
 
 ## Aspose.HTML Java 튜토리얼 고급 사용법
+
+
 ### [Aspose.HTML로 HTML 페이지 여백 맞춤하기](./css-extensions-adding-title-page-number/)
-Aspose.HTML for Java를 사용해 HTML 문서의 페이지 여백, 페이지 번호 및 제목을 맞춤 설정하는 방법을 배웁니다.
 ### [Aspose.HTML for Java와 함께하는 DOM Mutation Observer](./dom-mutation-observer-observing-node-additions/)
 Aspose.HTML for Java를 활용해 단계별로 DOM Mutation Observer를 구현하는 방법을 배웁니다. DOM 변화를 효과적으로 감시하고 대응하세요.
+### [Aspose.HTML for Java에서 XPath 전체 필터링 가이드 사용하기](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
+Aspose.HTML for Java에서 XPath 필터링을 전체적으로 활용하는 방법을 단계별로 안내합니다.
 ### [Aspose.HTML for Java로 HTML5 Canvas 조작하기 (코드 사용)](./html5-canvas-manipulation-using-code/)
-Aspose.HTML for Java를 이용한 HTML5 Canvas 조작 방법을 배웁니다. 단계별 가이드를 통해 인터랙티브 그래픽을 만들 수 있습니다.
 ### [Aspose.HTML for Java로 HTML5 Canvas 조작하기 (JavaScript 사용)](./html5-canvas-manipulation-using-javascript/)
-JavaScript와 Aspose.HTML for Java를 사용해 HTML5 Canvas를 조작하는 방법을 배웁니다. 동적 그래픽을 만들고 PDF로 변환하세요.
 ### [Aspose.HTML for Java로 HTML 양식 자동 채우기](./html-form-editor-filling-submitting-forms/)
-Aspose.HTML for Java를 활용해 HTML 양식 자동 채우기 및 제출을 자동화하는 방법을 배웁니다. 웹 상호작용을 간소화하세요.
 ### [Aspose.HTML for Java로 PDF 페이지 크기 조정하기](./adjust-pdf-page-size/)
-Aspose.HTML for Java를 사용해 PDF 페이지 크기를 조정하는 방법을 배웁니다. HTML에서 고품질 PDF를 손쉽게 생성하고 페이지 치기를 효과적으로 제어합니다.
 ### [Aspose.HTML for Java로 XPS 페이지 크기 조정하기](./adjust-xps-page-size/)
-Aspose.HTML for Java를 사용해 XPS 페이지 크기를 조정하는 방법을 배웁니다. XPS 문서의 출력 치기를 손쉽게 제어합니다.
 ### [Java에서 JavaScript 실행하기 – 완전 가이드](./how-to-run-javascript-in-java-complete-guide/)
-Java 애플리케이션 내에서 JavaScript 코드를 실행하고, 엔진 설정 및 스크립트 통합 방법을 단계별로 배웁니다.
+### [Java에서 디바이스 픽셀 비율 설정 – 모바일 샌드박스 튜토리얼](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
+Java 환경에서 디바이스 픽셀 비율을 설정하고 모바일 샌드박스에서 정확한 렌더링을 구현하는 방법을 배웁니다.
+### [Aspose HTML에서 JavaScript 활성화 – HTML 로드 및 텍스트 가져오기](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+### [Java에서 스크립트 실행하기 – JavaScript 실행 및 데이터 추출 완전 가이드](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
+Java 환경에서 JavaScript를 실행하고 데이터를 추출하는 방법을 단계별로 안내합니다.
+### [Aspose를 사용하여 EPUB을 DOCX로 변환하는 방법 – 단계별 가이드](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
+Aspose 라이브러리를 활용해 EPUB 파일을 DOCX 형식으로 변환하는 과정을 단계별로 안내합니다.
+### [CompletableFuture를 사용하여 JavaScript를 비동기적으로 실행하는 방법](./how-to-run-javascript-asynchronously-using-completablefuture/)
+CompletableFuture와 Aspose.HTML을 활용해 Java에서 JavaScript를 비동기 실행하고 결과를 처리하는 방법을 단계별로 안내합니다.
+### [HTML 로드, 디바이스 DPI 설정 및 배경 색상 읽기](./how-to-load-html-set-device-dpi-read-background-color/)
+### [JavaScript 샌드박스 구현 방법 – Aspose.HTML 완전 가이드](./how-to-sandbox-javascript-complete-aspose-html-guide/)
+Aspose.HTML를 사용해 Java 애플리케이션 내에서 JavaScript를 안전하게 격리하고 실행하는 방법을 단계별로 안내합니다.
+### [Java에서 JavaScript 활성화하기 – 완전 Aspose.HTML 가이드](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
+Aspose.HTML를 사용해 Java 환경에서 JavaScript를 활성화하고, 스크립트 실행 및 엔진 구성 방법을 자세히 안내합니다.
+### [JavaScript에서 Java 호출 – 비동기 Fetch 및 JS 엔진 실행 완전 가이드](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
+Java 애플리케이션에서 JavaScript를 실행하고, 비동기 fetch 호출을 통해 Java 메서드를 호출하는 방법을 단계별로 안내합니다.
+### [JavaScript에서 Java 호출 – 호스트 객체 추가 및 Java에서 JavaScript 실행](./call-java-from-javascript-add-host-object-and-run-javascript/)
+Java 애플리케이션에서 JavaScript를 실행하고, 호스트 객체를 추가해 Java 코드를 호출하는 방법을 단계별로 안내합니다.
+### [HTML 제목 가져오기 Java – 화면 너비로 샌드박스에서 페이지 렌더링](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
+Aspose.HTML for Java를 사용해 샌드박스 환경에서 화면 너비를 지정해 HTML 페이지 제목을 추출하고 페이지를 렌더링하는 방법을 배웁니다.
+### [Top-level await 예제 – JavaScript에서 await delay 사용](./top-level-await-example-using-await-delay-in-javascript/)
+JavaScript에서 top-level await을 사용해 await delay를 구현하는 방법을 단계별로 배웁니다.
+### [Java에서 JavaScript 실행 – HTML에서 JS 실행](./execute-javascript-in-java-run-js-from-html/)
+Java 애플리케이션에서 HTML에 포함된 JavaScript 코드를 실행하는 방법을 단계별로 안내합니다.
+### [Java에서 HTML 로드하기 – 완전 Aspose.HTML 비동기 예제](./how-to-load-html-in-java-complete-aspose-html-async-example/)
+### [Java에서 JavaScript 평가하기 – Aspose.HTML와 함께하는 완전 가이드](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
+Aspose.HTML를 사용해 Java 애플리케이션에서 JavaScript 코드를 평가하고 실행하는 방법을 단계별로 안내합니다.
+### [Aspose.HTML for Java에서 디바이스 픽셀 비율 설정 – 모바일 시뮬레이션 가이드](./set-device-pixel-ratio-in-java-mobile-simulation-guide/)
+Aspose.HTML for Java를 사용해 디바이스 픽셀 비율을 설정하고 모바일 환경을 시뮬레이션하는 방법을 배웁니다.
+### [Java HTMLDocument에서 JavaScript 활성화 방법 – 단계별 가이드](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
+Java HTMLDocument에서 JavaScript를 활성화하고 실행하는 방법을 단계별로 안내합니다.
+### [Java 멀티스레딩 튜토리얼: 고정 스레드 풀로 작업 병렬 실행](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
+고정된 스레드 풀을 사용해 여러 작업을 동시에 실행하고 효율적인 멀티스레딩을 구현하는 방법을 배웁니다.
 ### [Java에서 JavaScript 실행 – 본문에 요소 추가하는 완전 가이드](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
 Java 애플리케이션에서 JavaScript를 실행하고, body에 요소를 동적으로 추가하는 방법을 단계별로 안내합니다.
 
@@ -135,6 +165,52 @@ Java 애플리케이션에서 JavaScript를 실행하고, body에 요소를 동�
 **마지막 업데이트:** 2025-11-29  
 **테스트 환경:** Aspose.HTML for Java 24.11  
 **작성자:** Aspose  
+
+
+
+
+
+
+
+### [MHTML에서 HTML 추출 – 완전한 Java 가이드](./extract-html-from-mhtml-complete-java-guide/)
+
+---
+
+**마지막 업데이트:** 2025-11-29  
+**테스트 환경:** Aspose.HTML for Java 24.11  
+**작성자:** Aspose  
+
+
+
+
+
+
+
+### [Java에서 JavaScript 실행 – Java에서 JS 실행을 위한 완전 가이드](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+Aspose.HTML for Java를 사용해 Java에서 JavaScript 코드를 실행하는 방법을 단계별로 배웁니다.
+
+---
+
+**마지막 업데이트:** 2025-11-29  
+**테스트 환경:** Aspose.HTML for Java 24.11  
+**작성자:** Aspose  
+
+
+
+
+
+
+
+### [HTML을 PDF로 변환하기 위한 샌드박스 사용 방법 – 단계별 가이드](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+Aspose.HTML for Java의 샌드박스를 활용해 안전하게 HTML을 PDF로 변환하는 방법을 단계별로 안내합니다.
+### [Java에서 스크립트 실행 활성화 – 완전 Aspose.HTML 가이드](./enable-script-execution-in-java-complete-aspose-html-guide/)
+Java에서 스크립트 실행을 활성화하고 Aspose.HTML와 통합하는 방법을 단계별로 안내합니다.
+
+---
+
+**마지막 업데이트:** 2025-11-29  
+**테스트 환경:** Aspose.HTML for Java 24.11  
+**작성자:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
