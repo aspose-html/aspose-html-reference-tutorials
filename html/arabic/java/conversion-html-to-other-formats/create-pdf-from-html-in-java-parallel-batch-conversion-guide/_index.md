@@ -1,25 +1,25 @@
 ---
 category: general
-date: 2026-03-26
-description: إنشاء PDF من HTML بسرعة باستخدام مجموعة خيوط ثابتة. تعلم تحويل دفعات
-  HTML إلى PDF وتشغيل المهام المتوازية في Java.
+date: 2026-03-14
+description: إنشاء ملف PDF من HTML بسرعة باستخدام Aspose HTML ومجموعة من الخيوط. تعلّم
+  تحويل مجموعة من ملفات HTML إلى PDF باستخدام المعالجة المتوازية.
 draft: false
 keywords:
 - create pdf from html
 - convert html to pdf
+- how to use threadpool
 - batch html to pdf
-- fixed thread pool
-- run parallel tasks
+- aspose html to pdf
 language: ar
-og_description: أنشئ PDF من HTML بسرعة باستخدام مجموعة خيوط ثابتة. تعلّم كيفية تحويل
-  مجموعة من ملفات HTML إلى PDF وتشغيل المهام المتوازية في جافا.
-og_title: إنشاء PDF من HTML في جافا – دليل التحويل المتوازي للدفعات
+og_description: إنشاء ملف PDF من HTML باستخدام Aspose في Java مع مجموعة خيوط. دليل
+  خطوة بخطوة للتحويل الجماعي.
+og_title: إنشاء PDF من HTML – تحويل دفعي باستخدام ThreadPool في جافا
 tags:
 - Java
-- PDF
-- Aspose.HTML
+- Aspose
+- PDF Generation
 - Concurrency
-title: إنشاء ملف PDF من HTML في جافا – دليل التحويل المتوازي للدفعات
+title: إنشاء PDF من HTML في Java – دليل التحويل المتوازي للدفعات
 url: /ar/java/conversion-html-to-other-formats/create-pdf-from-html-in-java-parallel-batch-conversion-guide/
 ---
 
@@ -27,213 +27,228 @@ url: /ar/java/conversion-html-to-other-formats/create-pdf-from-html-in-java-para
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إنشاء PDF من HTML في جافا – دليل التحويل المتوازي للدفعات
+# إنشاء PDF من HTML – التحويل المتوازي للدفعات باستخدام Java
 
-هل احتجت يومًا إلى **إنشاء PDF من HTML** لكنك شعرت بالإحباط وأنت تراقب عملية تحويل أحادية الخيط تسير ببطء شديد؟ لست وحدك. في العديد من المشاريع الواقعية نستقبل عشرات تقارير HTML التي يجب أن تتحول إلى ملفات PDF بنهاية اليوم، ومعالجتها واحدةً تلو الأخرى ليس عمليًا.
+هل احتجت يومًا إلى **إنشاء PDF من HTML** لكن شعرت بأنك عالق في التعامل مع العشرات من الملفات واحدةً تلو الأخرى؟ لست وحدك. في العديد من المشاريع—مولدات الفواتير، أرشفة المواقع الثابتة، أو خطوط أنابيب التقارير الآلية—تحويل مجموعة من صفحات HTML إلى ملفات PDF هو عمل يومي.  
 
-لهذا السبب يوضح لك هذا الدرس **كيفية تحويل HTML إلى PDF** باستخدام **fixed thread pool**، مما يتيح لك **تحويل دفعات HTML إلى PDF** و**تشغيل مهام متوازية** دون عناء. في النهاية ستحصل على برنامج كامل جاهز للتنفيذ يحول مجلدًا من ملفات HTML إلى PDF في جزء بسيط من الوقت.
+الأخبار السارة؟ باستخدام Aspose HTML for Java و **threadpool** بسيط، يمكنك **تحويل HTML إلى PDF** بشكل متوازي، مما يوفر دقائق من ما كان سيستغرق ساعةً كاملة. في هذا الدرس سنستعرض مثالًا كاملًا وجاهزًا للتنفيذ يوضح لك بالضبط كيفية **batch HTML to PDF** مع الحفاظ على نظافة الكود وإرضاء المعالج.  
 
-## ما ستتعلمه
+بنهاية هذا الدليل ستحصل على برنامج مستقل يقوم بـ:
 
-في الأقسام القليلة التالية سنغطي كل ما تحتاج معرفته:
+* مسح قائمة ملفات HTML،
+* إطلاق مهمة تحويل لكل ملف باستخدام مجموعة خيوط ثابتة الحجم،
+* حفظ ملفات PDF جنبًا إلى جنب مع الأصلية،
+* وإغلاق البرنامج بشكل سليم بمجرد الانتهاء من كل شيء.
 
-* الاعتماد الدقيق لـ Maven/Gradle لـ Aspose.HTML (المكتبة التي تقوم بالعمل الشاق).  
-* لماذا تُعد **fixed thread pool** الخيار المثالي لأعمال التحويل المعتمدة على وحدة المعالجة المركزية.  
-* كيفية سرد ملفات المصدر بحيث يمكن للعملية أن تتوسع لتشمل مئات المستندات.  
-* الكود الدقيق الذي تلصقه في بيئة التطوير IDE — بدون استيرادات مفقودة، ولا تعليقات “TODO”.  
-* نصائح للتعامل مع الأخطاء، وضبط حجم التجمع، والتحقق من المخرجات.
-
-لا تحتاج إلى معرفة مسبقة بـ Aspose.HTML، فقط إعداد أساسي لجافا ورغبة في التجربة. لنبدأ.
+بدون سكريبتات خارجية، ولا سحر غامض—فقط Java عادي، Aspose HTML، ومكتبة `java.util.concurrent` القياسية.
 
 ---
 
-![Diagram showing a fixed thread pool converting multiple HTML files to PDF in parallel – create pdf from html](/images/create-pdf-from-html-parallel.png)
+## ما ستحتاجه
 
-*نص بديل الصورة: إنشاء pdf من html – مخطط التحويل المتوازي*
+| المتطلبات | السبب |
+|--------------|--------|
+| **Java 17+** (or any recent JDK) | يوفر واجهة `ExecutorService` التي سنستخدمها. |
+| **Aspose.HTML for Java** (latest version) | الفئة `Conversion` تقوم بالعمل الشاق لتحويل HTML إلى PDF. |
+| **A handful of HTML files** | أي شيء من صفحات ثابتة بسيطة إلى مستندات معقدة مُنسقة بـ CSS. |
+| **An IDE or a terminal** | لتجميع وتشغيل العينة. |
 
-## الخطوة 1: إعداد مشروعك وإضافة Aspose.HTML
-
-أولاً وقبل كل شيء—يحتاج مشروعك إلى مكتبة Aspose.HTML. إذا كنت تستخدم Maven، أضف ما يلي إلى ملف `pom.xml` الخاص بك:
+إذا كان لديك مشروع Maven أو Gradle بالفعل، فقط أضف تبعية Aspose.HTML:
 
 ```xml
+<!-- Maven -->
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-html</artifactId>
-    <version>23.12</version> <!-- latest as of March 2026 -->
+    <version>23.12</version> <!-- check for the newest version -->
 </dependency>
 ```
 
-أما بالنسبة لـ Gradle، فالأمر بسيط:
+*نصيحة احترافية:* ترخيص التقييم المجاني يعمل جيدًا للاختبار؛ فقط ضع `asposehtml.jar` وملف الترخيص في مسار الـ classpath الخاص بك.
 
-```groovy
-implementation 'com.aspose:aspose-html:23.12'
-```
+---
 
-لماذا Aspose.HTML؟ إنها مكتبة تجارية، لكنها توفر واجهة برمجة تطبيقات **convert html to pdf** تتعامل مع CSS وJavaScript وتخطيطات معقدة مباشرةً. إذا كنت تفضل بديلًا مفتوح المصدر يمكنك استبدال استدعاء `Converter.convertHTML` لاحقًا، لكن منطق الخيوط سيبقى كما هو.
+## الخطوة 1 – سرد ملفات HTML التي تريد تحويلها
 
-> **نصيحة محترف:** حافظ على توافق رقم الإصدار مع ملاحظات الإصدار الرسمية؛ الإصدارات الأحدث غالبًا ما تحسن سرعة العرض، وهو ما يهم عندما تقوم بتشغيل العديد من المهام بشكل متوازي.
-
-## الخطوة 2: بناء Fixed Thread Pool للتحويل المتوازي
-
-عند وجود دفعة من الملفات، لا تريد إنشاء عدد غير محدود من الخيوط—سيتسبب ذلك في إرباك نظام التشغيل. **fixed thread pool** يمنحك مقدارًا متوقعًا من التوازي مع الحفاظ على استهلاك الذاكرة تحت السيطرة.
+أول شيء نحتاجه هو مجموعة من ملفات المصدر. في سيناريو واقعي قد تقرأ دليلًا بشكل متكرر، لكن للتوضيح سنقوم بكتابة مصفوفة صغيرة يدويًا.
 
 ```java
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
-
-// Create a pool with 4 worker threads – adjust based on CPU cores
-ExecutorService pool = Executors.newFixedThreadPool(4);
+// Step 1: Define the HTML files to be processed
+String[] htmlFilePaths = {
+    "YOUR_DIRECTORY/a.html",
+    "YOUR_DIRECTORY/b.html",
+    "YOUR_DIRECTORY/c.html"
+};
 ```
 
-لماذا أربعة؟ على جهاز عادي بثمانية أنوية، يمكن ترك نصف الأنوية مجانية للـ I/O ونظام التشغيل. يمكنك التجربة: `Runtime.getRuntime().availableProcessors()` يعيد عدد الأنوية، والقاعدة العامة هي `cores / 2`. تذكر أن كل تحويل يستهلك وحدة المعالجة المركزية، لذا عادةً ما يضر الأداء وجود خيوط أكثر من عدد الأنوية.
+> **لماذا هذا مهم:** الحفاظ على القائمة منفصلة يجعل خطوة التوازي اللاحقة بسيطة—فقط تقوم بالتكرار عبر المصفوفة وتُسلم كل عنصر إلى مجموعة الخيوط.
 
-## الخطوة 3: جمع ملفات HTML التي تريد تحويلها
+---
 
-الجزء التالي من اللغز هو قائمة **batch html to pdf**. يمكنك كتابة مصفوفة ثابتة (كما في المثال) أو مسح دليل. إليك نسخة مرنة تقرأ كل ملف `.html` من مجلد:
+## الخطوة 2 – إنشاء ThreadPool ثابت الحجم
+
+عند **how to use threadpool** لأعمال تعتمد على المعالج، عادةً ما تكون المجموعة الثابتة هي الخيار المثالي. إنها تحد من عدد الخيوط المتزامنة، مما يمنع النظام من التحميل الزائد.
 
 ```java
-import java.io.File;
-import java.util.ArrayList;
-import java.util.List;
-
-// Directory that holds your source HTML files
-File inputDir = new File("YOUR_DIRECTORY");
-
-// Collect absolute paths of all .html files
-List<String> htmlFiles = new ArrayList<>();
-for (File f : inputDir.listFiles()) {
-    if (f.isFile() && f.getName().toLowerCase().endsWith(".html")) {
-        htmlFiles.add(f.getAbsolutePath());
-    }
-}
+// Step 2: Create a thread pool with three worker threads
+ExecutorService threadPool = Executors.newFixedThreadPool(3);
 ```
 
-بهذه الطريقة يمكنك إضافة ملفات جديدة إلى المجلد وسيقوم البرنامج بالتقاطها تلقائيًا—مثالي لوظيفة دفعة ليلية.
+*ملاحظة:* يجب أن يتطابق حجم المجموعة (`3` في هذا المثال) تقريبًا مع عدد نوى المعالج التي تريد استخدامها. إذا كان لديك جهاز بثمانية نوى، لا تتردد في زيادة العدد.
 
-## الخطوة 4: تقديم مهمة تحويل لكل ملف (تشغيل مهام متوازية)
+---
 
-الآن الجزء الممتع: كل ملف يصبح **Runnable** (أو `Callable<Void>`) ينفذه التجمع. الكود أدناه يعكس المثال الأصلي لكنه يضيف معالجة الأخطاء ورسالة سجل صغيرة.
+## الخطوة 3 – تقديم مهمة تحويل لكل ملف HTML
+
+الآن نقوم بـ **batch html to pdf** عن طريق تقديم `Runnable` لكل مدخل في `htmlFilePaths`. كل مهمة تعمل بشكل مستقل، وتستدعي `Conversion.convert` الخاص بـ Aspose HTML.
 
 ```java
-import com.aspose.html.HTMLDocument;
-import com.aspose.html.converters.Converter;
+// Step 3: Enqueue conversion jobs
+for (String htmlPath : htmlFilePaths) {
+    threadPool.submit(() -> {
+        // Convert the current HTML file to PDF
+        String pdfPath = htmlPath.replace(".html", ".pdf");
+        Conversion.convert(htmlPath, pdfPath, new PdfSaveOptions());
 
-for (String filePath : htmlFiles) {
-    pool.submit(() -> {
-        try {
-            // Load the HTML document from disk
-            HTMLDocument doc = new HTMLDocument(filePath);
-
-            // Build the output PDF path (same folder, .pdf extension)
-            String pdfPath = filePath.replaceAll("(?i)\\.html$", ".pdf");
-
-            // Perform the conversion – this is where Aspose does the heavy lifting
-            Converter.convertHTML(doc, pdfPath);
-
-            // Let the user know the job finished
-            System.out.println(new File(filePath).getName() + " → PDF done.");
-        } catch (Exception e) {
-            // Log failures but keep the pool alive
-            System.err.println("Failed to convert " + filePath + ": " + e.getMessage());
-        }
-        return null; // Callable<Void> requires a return value
+        // Inform the user that the conversion succeeded
+        System.out.println(pdfPath + " created.");
     });
 }
 ```
 
-**لماذا نغلف التحويل داخل try‑catch؟** عندما **تشغل مهامًا متوازية**، قد يتسبب ملف HTML غير صالح في إسقاط جميع عمليات التنفيذ. من خلال التقاط الاستثناءات محليًا نضمن استمرار باقي الدفعة في العمل.
+### لماذا Lambda؟
 
-## الخطوة 5: إغلاق الـ Executor والانتظار حتى الانتهاء
+استخدام lambda (`() -> { … }`) يجعل الكود مختصرًا مع الاستمرار في التقاط المتغير `htmlPath` من الحلقة المحيطة. كل lambda يصبح مهمة منفصلة تقوم المجموعة بجدولتها على خيط متاح.
 
-بعد تقديم جميع الوظائف، يجب إخبار التجمع بالتوقف عن قبول أعمال جديدة ثم الانتظار حتى يكتمل كل شيء. هذا يضمن عدم خروج JVM مبكرًا.
+---
+
+## الخطوة 4 – إغلاق المجموعة بشكل سليم
+
+بعد تقديم جميع المهام، يجب أن نخبر المجموعة بالتوقف عن قبول أعمال جديدة ثم ننتظر حتى تنتهي الوظائف النشطة. هذا يمنع JVM من الإغلاق قبل الأوان.
 
 ```java
-// Prevent new tasks from being submitted
-pool.shutdown();
+// Step 4: Shut down the pool and wait for completion
+threadPool.shutdown();                     // No more tasks accepted
+boolean finished = threadPool.awaitTermination(5, TimeUnit.MINUTES);
 
-try {
-    // Wait up to 5 minutes for all conversions to finish
-    if (!pool.awaitTermination(5, TimeUnit.MINUTES)) {
-        System.err.println("Timeout reached – some files may not have been converted.");
-        pool.shutdownNow(); // Force shutdown if needed
-    }
-} catch (InterruptedException ie) {
-    Thread.currentThread().interrupt(); // Restore interrupt status
-    System.err.println("Thread was interrupted while waiting for termination.");
+if (finished) {
+    System.out.println("All PDFs generated successfully.");
+} else {
+    System.err.println("Timeout reached – some tasks may still be running.");
 }
 ```
 
-إذا كان لديك مجلد ضخم (آلاف الملفات) قد تحتاج إلى زيادة مهلة الانتظار أو تنفيذ مراقب تقدم. المفتاح هو **الإغلاق السلس**—هذا هو سمة الكود الجاهز للإنتاج.
+*حالة حافة:* إذا تعطلت عملية التحويل (ربما بسبب HTML غير صالح)، فإن مهلة `awaitTermination` تحمي تطبيقك من التوقف إلى الأبد.
 
-## مثال عملي كامل
+---
 
-بجمع كل ما سبق، إليك فئة مستقلة يمكنك نسخها ولصقها في `src/main/java` وتشغيلها:
+## مثال كامل يعمل
+
+بجمع كل ذلك معًا، إليك الفئة الكاملة الجاهزة للتنفيذ. انسخها والصقها في `src/main/java/ParallelConversion.java` ثم شغّلها.
 
 ```java
-import com.aspose.html.HTMLDocument;
-import com.aspose.html.converters.Converter;
-import java.io.File;
-import java.util.ArrayList;
-import java.util.List;
+import com.aspose.html.Conversion;
+import com.aspose.html.saving.PdfSaveOptions;
 import java.util.concurrent.*;
 
-public class ParallelHtmlToPdf {
+public class ParallelConversion {
     public static void main(String[] args) throws Exception {
-        // 1️⃣ Create a fixed‑size thread pool (adjust size as needed)
-        ExecutorService pool = Executors.newFixedThreadPool(4);
 
-        // 2️⃣ Locate all HTML files in the target directory
-        File inputDir = new File("YOUR_DIRECTORY");
-        List<String> htmlFiles = new ArrayList<>();
-        for (File f : inputDir.listFiles()) {
-            if (f.isFile() && f.getName().toLowerCase().endsWith(".html")) {
-                htmlFiles.add(f.getAbsolutePath());
-            }
-        }
+        // Step 1: List the HTML files to be converted
+        String[] htmlFilePaths = {
+            "YOUR_DIRECTORY/a.html",
+            "YOUR_DIRECTORY/b.html",
+            "YOUR_DIRECTORY/c.html"
+        };
 
-        // 3️⃣ Submit a conversion task for each file
-        for (String filePath : htmlFiles) {
-            pool.submit(() -> {
-                try {
-                    HTMLDocument doc = new HTMLDocument(filePath);
-                    String pdfPath = filePath.replaceAll("(?i)\\.html$", ".pdf");
-                    Converter.convertHTML(doc, pdfPath);
-                    System.out.println(new File(filePath).getName() + " → PDF done.");
-                } catch (Exception e) {
-                    System.err.println("Failed to convert " + filePath + ": " + e.getMessage());
-                }
-                return null;
+        // Step 2: Create a fixed‑size thread pool for parallel processing
+        ExecutorService threadPool = Executors.newFixedThreadPool(3);
+
+        // Step 3: Submit a conversion task for each HTML file
+        for (String htmlPath : htmlFilePaths) {
+            threadPool.submit(() -> {
+                // Step 4: Convert the HTML file to PDF using default PDF options
+                String pdfPath = htmlPath.replace(".html", ".pdf");
+                Conversion.convert(htmlPath, pdfPath, new PdfSaveOptions());
+
+                // Step 5: Notify that the PDF has been created
+                System.out.println(pdfPath + " created.");
             });
         }
 
-        // 4️⃣ Shut down the pool and wait for all tasks to finish
-        pool.shutdown();
-        if (!pool.awaitTermination(5, TimeUnit.MINUTES)) {
-            System.err.println("Timeout reached – some files may not have been converted.");
-            pool.shutdownNow();
-        }
-
-        System.out.println("All conversions completed.");
+        // Step 6: Shut down the pool and wait for all tasks to finish
+        threadPool.shutdown();
+        threadPool.awaitTermination(5, TimeUnit.MINUTES);
     }
 }
 ```
 
-**الناتج المتوقع** (عينة):
+**الناتج المتوقع** (بافتراض وجود الملفات الثلاثة المصدر):
 
 ```
-invoice1.html → PDF done.
-report_Q1.html → PDF done.
-summary.html → PDF done.
-All conversions completed.
+YOUR_DIRECTORY/a.pdf created.
+YOUR_DIRECTORY/b.pdf created.
+YOUR_DIRECTORY/c.pdf created.
+All PDFs generated successfully.
 ```
 
-إذا فتحت ملفات `.pdf` التي تم إنشاؤها ستلاحظ أن تخطيط HTML الأصلي محفوظ—الخطوط، الجداول، وحتى المحتوى الأساسي المدفوع بـ JavaScript تم عرضه بشكل صحيح.
+إذا فشل أي ملف في التحويل، سيطرح Aspose استثناءً ينتقل إلى طريقة `main`—لا تتردد في تغليف استدعاء التحويل داخل كتلة `try/catch` لمزيد من معالجة الأخطاء بشكل سليم.
 
-## أسئلة شائعة وحالات حافة
+---
 
-| سؤال | إجابة |
-|----------|
+## أسئلة شائعة ونصائح
+
+### ماذا لو كان لدي أكثر من 100 ملف HTML؟
+
+قم بتعديل حجم مجموعة الخيوط بناءً على عتادك، لكن ضع في اعتبارك أيضًا حدود الإدخال/الإخراج. قاعدة جيدة هي `coreCount * 2` للأعمال التي تستهلك المعالج، أو `coreCount` للمهام المختلطة بين المعالج والإدخال/الإخراج. يمكنك أيضًا قراءة الدليل بشكل ديناميكي:
+
+```java
+Path dir = Paths.get("YOUR_DIRECTORY");
+try (Stream<Path> files = Files.walk(dir)) {
+    htmlFilePaths = files
+        .filter(p -> p.toString().endsWith(".html"))
+        .map(Path::toString)
+        .toArray(String[]::new);
+}
+```
+
+### هل يعمل هذا على Linux/macOS؟
+
+بالطبع. Aspose HTML مستقل عن المنصة، و`ExecutorService` يستخدم خيوطًا أصلية، لذا يعمل نفس الكود على أي نظام تشغيل يحتوي على JDK متوافق.
+
+### كيف يمكنني تخصيص مخرجات PDF؟
+
+مرّر كائن `PdfSaveOptions` مُكوَّن إلى `Conversion.convert`. على سبيل المثال، لضبط التوافق مع PDF/A:
+
+```java
+PdfSaveOptions options = new PdfSaveOptions();
+options.setPdfStandard(PdfStandard.PdfA_2b);
+Conversion.convert(htmlPath, pdfPath, options);
+```
+
+### ماذا عن استهلاك الذاكرة؟
+
+كل عملية تحويل تحمل مستند HTML بالكامل في الذاكرة. إذا كنت تتعامل مع صفحات ضخمة (مئات الميغابايت)، فكر في التحويل على دفعات أصغر أو زيادة حجم الذاكرة (`-Xmx2g` إلخ). أدوات المراقبة مثل VisualVM يمكن أن تساعد في اكتشاف الاختناقات.
+
+---
+
+## نظرة بصرية
+
+![مخطط يوضح ملفات HTML → ThreadPool → تحويل Aspose → ملفات PDF](https://example.com/diagram.png "إنشاء PDF من HTML سير العمل")
+
+*نص بديل للصورة:* **إنشاء PDF من HTML سير العمل**
+
+---
+
+## الخلاصة
+
+لقد عرضنا للتو طريقة عملية لـ **إنشاء PDF من HTML** باستخدام Aspose HTML for Java و **threadpool**. من خلال سرد ملفات المصدر، وإنشاء مجموعة ثابتة، وتقديم مهمة تحويل لكل ملف، ستحصل على حل سريع وقابل للتوسع يندمج بسهولة في أي خط أنابيب معالجة دفعات.  
+
+تذكر، الأفكار الأساسية—**convert html to pdf**، **how to use threadpool**، و **batch html to pdf**—قابلة للتبادل. يمكنك تعديل النمط نفسه لتصيير الصور، تحويل DOCX، أو أي عملية أخرى تعتمد على المعالج يدعمها Aspose أو مكتبة أخرى.  
+
+هل أنت مستعد للخطوة التالية؟ جرّب إضافة `PdfSaveOptions` مخصص، جرب مسح الدليل بشكل ديناميكي، أو دمج هذا المقتطف في خدمة مصغرة Spring Boot تقبل تحميلات HTML عبر REST. السماء هي الحد، والآن لديك أساس قوي للبناء عليه.  
+
+برمجة سعيدة، ولتظهر ملفات PDF الخاصة بك دائمًا بشكل مثالي!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

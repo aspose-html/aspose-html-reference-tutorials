@@ -1,20 +1,19 @@
 ---
 category: general
-date: 2026-03-26
-description: Konvertálja a HTML-t gyorsan WebP formátumba az Aspose.HTML segítségével.
-  Ismerje meg, hogyan menthet HTML-t WebP-ként, hogyan renderelhet HTML-t WebP-ként,
-  és hogyan generálhat WebP-t HTML-ből néhány lépésben.
+date: 2026-03-04
+description: Konvertálja a HTML-t gyorsan WebP-re Java-val. Ismerje meg, hogyan menthet
+  HTML-t WebP formátumban, állíthatja be a kép minőségét, és hozhat létre WebP-t HTML-ből
+  az Aspose.HTML használatával.
 draft: false
 keywords:
 - convert html to webp
 - save html as webp
-- how to convert html
-- render html as webp
-- generate webp from html
+- set image quality
+- create webp from html
 language: hu
-og_description: Konvertálja gyorsan a HTML-t WebP formátumba az Aspose.HTML segítségével.
-  Ez az útmutató bemutatja, hogyan lehet HTML-t WebP-ként renderelni, és hogyan generálhat
-  WebP-t Java-ban a HTML-ből.
+og_description: Konvertálja gyorsan a HTML-t WebP-re Java-val. Tanulja meg, hogyan
+  mentse a HTML-t WebP-ként, állítsa be a képminőséget, és hozza létre a WebP-t HTML-ből
+  az Aspose.HTML segítségével.
 og_title: HTML konvertálása WebP-re – Teljes Java útmutató
 tags:
 - Java
@@ -28,195 +27,184 @@ url: /hu/java/conversion-html-to-various-image-formats/convert-html-to-webp-comp
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# HTML konvertálása WebP‑re – Teljes Java útmutató
+# Convert HTML to WebP – Complete Java Guide
 
-Valaha is szükséged volt **HTML WebP‑re konvertálására**, de nem tudtad, melyik könyvtár tudja ezt fejfájás nélkül megoldani? Nem vagy egyedül. Sok fejlesztőre akad ez a probléma, amikor dinamikus oldalakból generált könnyű képeket szeretne kiszolgálni. A jó hír? Az Aspose.HTML for Java‑val *HTML‑t mentheted WebP‑ként* egyetlen metódushívással, és az egész folyamat olyan sima, mint a vaj.
+Valaha is szükséged volt **HTML WebP‑re konvertálásra**, de nem tudtad, hol kezdjed? Nem vagy egyedül; sok fejlesztő ütközik ugyanabba a falba, amikor egy könnyű, böngésző‑kész képet szeretne közvetlenül egy HTML‑oldalról. A jó hír, hogy az Aspose.HTML for Java‑val **elmentheted a HTML‑t WebP‑ként**, beállíthatod a tömörítési szintet, és néhány kódsorral előállíthatsz egy éles, használatra kész fájlt.
 
-Ebben az útmutatóban mindent végigvázolunk, amit tudnod kell: a Aspose.HTML függőség beállításától a tömörítési beállítások finomhangolásáig, egészen addig, hogy a HTML dokumentumot WebP fájlként rendereljük, amit a weben szolgálhatsz ki. A végére képes leszel **HTML‑t WebP‑ként renderelni**, **WebP‑t generálni HTML‑ből**, és megérted a „miértet” minden konfigurációs opció mögött. Nincs külső szkript, nincs parancssori akrobátika – csak tiszta Java kód.
+Ebben az útmutatóban végigvezetünk a teljes folyamaton – a projekt beállításától a képminőség finomhangolásáig – így egy tiszta WebP képet kapsz, amely tükrözi az eredeti oldalt. Útközben megmutatjuk, hogyan **állítsd be a képminőséget** helyesen, és mire kell figyelni, amikor **WebP‑t hozol létre HTML‑ből** különböző környezetekben.
 
-## Előfeltételek
+## What You’ll Need
 
-- Java 8 vagy újabb telepítve (a könyvtár támogatja a JDK 8+ verziót).
-- Maven vagy Gradle a függőségkezeléshez (a Maven példát mutatjuk).
-- Egy egyszerű HTML fájl (`input.html`), amelyet WebP képpé szeretnél alakítani.
-- Egy általad választott IDE vagy szövegszerkesztő – az IntelliJ IDEA remekül működik, de bármelyik megfelel.
+Mielőtt belemerülnénk, győződj meg róla, hogy a következők a gépeden vannak:
 
-Megvan minden? Remek, kezdjünk bele.
+- **Java Development Kit (JDK) 11** vagy újabb. Régebbi verziók is lefordíthatók, de lemaradsz néhány nyelvi kényelemről.
+- **Aspose.HTML for Java** könyvtár (a legújabb verzió 2026. márciusig). Letöltheted a Maven Central‑ról vagy az Aspose weboldaláról.
+- Egy **alap IDE** (IntelliJ IDEA, Eclipse, VS Code – válaszd, ami kényelmes).
+- Egy példa HTML‑fájl, amelyet WebP képpé szeretnél alakítani (nevezzük `input.html`‑nek).
 
-## 1. lépés: Aspose.HTML hozzáadása a projekthez
+Ennyi. Nincs extra build eszköz, nincs Docker konténer, nincs rejtett varázslat. Csak tiszta Java és egy harmadik féltől származó JAR.
 
-Először is szükséged van az Aspose.HTML könyvtárra a classpath‑on. Ha Maven‑t használsz, helyezd ezt a `pom.xml`‑be:
+![Convert HTML to WebP process](convert-html-to-webp.png "Diagram showing the convert html to webp workflow")
+
+## Step 1: Add Aspose.HTML to Your Project
+
+Első lépésként húzzuk be az Aspose.HTML függőséget a build fájlodba. Ha Maven‑t használsz, illeszd be ezt a kódrészletet a `pom.xml`‑be:
 
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-html</artifactId>
-    <version>23.12</version> <!-- latest stable as of 2026 -->
+    <version>23.12</version> <!-- replace with the latest version -->
 </dependency>
 ```
 
-Gradle esetén így néz ki:
+Gradle‑esek hozzáadhatják:
 
-```gradle
+```groovy
 implementation 'com.aspose:aspose-html:23.12'
 ```
 
-Miért kulcsfontosságú ez a lépés? JAR nélkül a `HTMLDocument`, `Converter` vagy `WebpConversionOptions` osztályok egyike sem létezik, és a fordító `ClassNotFoundException`‑t dob. A függőség hozzáadása emellett betölti a WebP kódoláshoz szükséges natív bináris fájlokat, így nem kell külső DLL‑eket vagy `.so` fájlokat keresned.
+Miért van erre szükség? A könyvtár egy robusztus **Converter** osztályt biztosít, amely érti a HTML‑t, a CSS‑t, sőt a JavaScript‑et is, majd a lapot raszteres képpé rendereli. Ez a **create WebP from HTML** munkafolyamat gerince.
 
-> **Pro tip:** Tartsd naprakészen a függőségeket. Az újabb Aspose kiadások gyakran javítják a WebP tömörítési algoritmusokat és új HTML5 funkciókat támogatnak.
+> **Pro tipp:** Tartsd naprakészen a függőségeket. Az új kiadások gyakran tartalmaznak teljesítményjavításokat a kép‑codec‑ekhez, amelyek akár milliszekundumokkal is lerövidíthetik a konvertálási időt.
 
-## 2. lépés: A forrás HTML dokumentum betöltése
+## Step 2: Prepare Image Save Options (Set Image Quality)
 
-Most, hogy a könyvtár készen áll, betölthetjük a konvertálni kívánt HTML‑t. A `HTMLDocument` osztály beolvassa a fájlt és felépít egy DOM‑ot, amelyet a konverter később renderel.
-
-```java
-import com.aspose.html.HTMLDocument;
-
-public class HtmlToWebpConverter {
-    public static void main(String[] args) throws Exception {
-        // Load the HTML file from disk
-        HTMLDocument htmlDoc = new HTMLDocument("YOUR_DIRECTORY/input.html");
-        // From here you can manipulate the DOM if needed
-    }
-}
-```
-
-Vedd észre a „Load the source HTML document” megjegyzést – ez egy emlékeztető, hogy a konvertálás előtt CSS‑t vagy JavaScript‑et is beilleszthetsz, ha az oldal dinamikus stílusra támaszkodik. Ha kihagyod ezt a lépést, a konverternek nincs mit renderelnie, és üres képet kapunk.
-
-## 3. lépés: WebP konverziós beállítások konfigurálása
-
-Az Aspose.HTML finomhangolt vezérlést biztosít a kimenet felett. A legtöbb esetben egy **lossy** WebP körülbelül 85‑ös minőségi beállítással jó egyensúlyt teremt a vizuális hűség és a fájlméret között.
+Most, hogy a könyvtár a helyén van, meg kell mondanunk, hogyan nézzen ki a kimenet. Az `ImageSaveOptions` objektumban **állíthatod be a képminőséget** a WebP fájlhoz. A minőség egy `0` (legrosszabb) és `100` (legjobb) közötti érték. A webes szállításhoz általában a `80` körüli érték a legoptimálisabb, de nyugodtan kísérletezz.
 
 ```java
-import com.aspose.html.saving.WebpConversionOptions;
-import com.aspose.html.saving.WebpConversionOptions.CompressionMode;
+import com.aspose.html.saving.ImageSaveOptions;
+import com.aspose.html.saving.SaveFormat;
 
-// Set up conversion options
-WebpConversionOptions webpOptions = new WebpConversionOptions();
-webpOptions.setCompressionMode(CompressionMode.Lossy); // lossless is also available
-webpOptions.setQuality(85); // Quality range: 0‑100
+// Create options for WebP format
+ImageSaveOptions options = new ImageSaveOptions(SaveFormat.WEBP);
+options.setQuality(80); // Quality range: 0‑100
 ```
 
-Miért válassz lossy‑t? A WebP veszteséges módja prediktív kódolást használ, amely 30‑50 %-kal csökkentheti a fájlméretet a PNG‑hez képest, miközben a legtöbb vizuális részlet megmarad. Ha pixel‑tökéletes eredményre van szükséged (pl. logók esetén), állítsd a `CompressionMode`‑t `Lossless`‑re, és a `quality`‑t 100‑ra.
+Miért fontos a minőség? A WebP alapértelmezés szerint veszteséges formátum, így a választott szám közvetlenül befolyásolja a fájlméretet és a vizuális hűséget. Az alacsonyabb számok szuper könnyű fájlokat adnak – remekek mobilra –, de a szövegek vagy színátmenetek körül elkezdhetnek megjelenni artefaktok.
 
-## 4. lépés: WebP kép konvertálása és mentése
+## Step 3: Perform the Conversion (Convert HTML to WebP)
 
-A dokumentum és a beállítások készen állnak, a konvertálás maga egyetlen soros kód. A statikus `Converter.convertHTML` metódus elvégzi a nehéz munkát: rendereli a DOM‑ot egy bitmapre, WebP‑ként kódolja, és a lemezre írja a fájlt.
+Az opciók készen állnak, a tényleges konvertálás egyetlen sorban megoldható. A statikus `Converter.convert` metódus három argumentumot vár: a forrás HTML útvonalát, a célkép útvonalát, és a korábban konfigurált opciókat.
 
 ```java
 import com.aspose.html.converters.Converter;
-
-// Define output path
-String outputPath = "YOUR_DIRECTORY/output.webp";
-
-// Perform conversion
-Converter.convertHTML(htmlDoc, outputPath, webpOptions);
-
-// Let the user know we’re done
-System.out.println("HTML has been rendered to WebP: " + outputPath);
-```
-
-Ennyi! A program befejezése után a `output.webp` a forrás HTML mellett fog megjelenni. Most már közvetlenül egy webszerverről kiszolgálhatod, beágyazhatod egy `<picture>` elembe, vagy bármilyen WebP‑t támogató környezetben használhatod.
-
-## 5. lépés: Az eredmény ellenőrzése (opcionális, de ajánlott)
-
-Mindig jó ötlet dupla ellenőrzést végezni, hogy a konvertálás sikeres volt-e, és a kép a várt módon néz ki. Megnyithatod a WebP fájlt Chrome‑ban, Firefox‑ban vagy bármelyik, a formátumot támogató képnézőben. Egy gyors programozott ellenőrzéshez kiolvashatod a fájlméretet és a méreteket:
-
-```java
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import com.aspose.html.saving.ImageInfo;
-
-byte[] webpBytes = Files.readAllBytes(Paths.get(outputPath));
-System.out.println("Generated WebP size: " + webpBytes.length + " bytes");
-
-// Optionally, extract dimensions using Aspose
-ImageInfo info = new ImageInfo(outputPath);
-System.out.println("Width: " + info.getWidth() + " px, Height: " + info.getHeight() + " px");
-```
-
-Ha a fájl váratlanul nagy vagy a méretek nem megfelelőek, nézd át újra a **3. lépést**, és finomítsd a `quality`‑t vagy a forrás HTML viewport beállításait. Ne feledd, a WebP tiszteletben tartja a gyökérelem CSS `width`/`height` értékeit, így egy hiányzó `<meta viewport>` címke meglepő eredményeket okozhat.
-
-## Teljes működő példa
-
-Mindent összegezve, itt a teljes, azonnal futtatható Java osztály:
-
-```java
-import com.aspose.html.HTMLDocument;
-import com.aspose.html.converters.Converter;
-import com.aspose.html.saving.WebpConversionOptions;
-import com.aspose.html.saving.WebpConversionOptions.CompressionMode;
-import com.aspose.html.saving.ImageInfo;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 
 public class HtmlToWebp {
     public static void main(String[] args) throws Exception {
-        // Step 1: Load the source HTML document
-        HTMLDocument htmlDoc = new HTMLDocument("YOUR_DIRECTORY/input.html");
+        // Paths – adjust to your environment
+        String inputHtml = "YOUR_DIRECTORY/input.html";
+        String outputWebp = "YOUR_DIRECTORY/output.webp";
 
-        // Step 2: Set up WebP conversion options (lossy compression with quality 85)
-        WebpConversionOptions webpOptions = new WebpConversionOptions();
-        webpOptions.setCompressionMode(CompressionMode.Lossy);
-        webpOptions.setQuality(85); // quality range: 0‑100
+        // Step 2 already set up 'options' with quality 80
+        Converter.convert(inputHtml, outputWebp, options);
 
-        // Step 3: Convert the HTML document to a WebP image
-        String outputPath = "YOUR_DIRECTORY/output.webp";
-        Converter.convertHTML(htmlDoc, outputPath, webpOptions);
-
-        // Step 4: Verify the output (optional)
-        byte[] webpBytes = Files.readAllBytes(Paths.get(outputPath));
-        System.out.println("Generated WebP size: " + webpBytes.length + " bytes");
-        ImageInfo info = new ImageInfo(outputPath);
-        System.out.println("Width: " + info.getWidth() + " px, Height: " + info.getHeight() + " px");
-
-        // Step 5: Inform the user that conversion is complete
-        System.out.println("HTML has been rendered to WebP: " + outputPath);
+        System.out.println("Conversion complete! WebP saved at: " + outputWebp);
     }
 }
 ```
 
-Mentsd el ezt a fájlt `HtmlToWebp.java` néven, cseréld le a `YOUR_DIRECTORY`‑t a tényleges mappára, fordítsd `javac`‑vel, és futtasd `java HtmlToWebp`‑val. A konzolon látnod kell a fájlméretet és a méreteket megerősítő üzenetet, majd a végső sikerüzenetet.
+Ennyi – futtasd a `main` metódust, és megtalálod a `output.webp`‑t a forrásfájlod mellett. A könyvtár automatikusan kezeli a layoutot, a CSS‑t és még a külső erőforrásokat (képek, betűkészletek) is, így nem kell őket manuálisan másolnod.
 
-![HTML‑ről WebP‑re konvertálás példája](/images/convert-html-to-webp.png "Képernyőkép egy HTML‑ből generált WebP képről – HTML‑ről WebP‑re konvertálás")
+### Verifying the Result
 
-## Gyakori kérdések és speciális esetek
+A program befejezése után nyisd meg a generált WebP fájlt bármely modern böngészőben (Chrome, Edge, Firefox) vagy egy WebP‑t támogató képnézegetőben. Egy pixel‑pontos renderelést kell látnod a `input.html`‑ről. Ha a kép elmosódott, növeld a minőséget a **Step 2**‑ben, és próbáld újra.
 
-### Mi van, ha a HTML külső erőforrásokra (CSS, képek) hivatkozik?
+## Step 4: Edge Cases & Common Pitfalls
 
-Az Aspose.HTML automatikusan feloldja a relatív URL‑eket az `input.html` helye alapján. Csak győződj meg róla, hogy az erőforrások elérhetők a fájlrendszerről vagy egy webszerverről. Ha egyedi alap‑URL‑t kell beillesztened, használd a `HTMLDocument` túlterhelt konstruktorát, amely egy `URI` alapot fogad.
+### Relative URLs in HTML
 
-### Generálhatok több WebP képet ugyanabból a HTML‑ből (pl. különböző viewport méretek)?
+Ha a HTML relatív útvonalakkal hivatkozik eszközökre (pl. `src="images/logo.png"`), győződj meg róla, hogy a Java folyamatod munkakönyvtára ugyanaz a mappa, amely a forrásfájlokat tartalmazza. Ellenkező esetben a konverter `FileNotFoundException`‑t dob. Egy gyors megoldás, hogy a JVM‑et a `input.html`‑t tartalmazó könyvtárból indítod:
 
-Természetesen. A konvertálási logikát egy ciklusba helyezheted, a `webpOptions.setWidth()` és `setHeight()` hívásokat minden egyes alkalommal módosítva, és minden kimenetnek egyedi fájlnevet adva. Ez hasznos reszponzív tervezésnél, amikor mobil és asztali eszközökhöz különböző képméreteket szolgálsz ki.
-
-### Hogyan válthatok veszteségmentes tömörítésre?
-
-Cseréld le a következő sort:
-
-```java
-webpOptions.setCompressionMode(CompressionMode.Lossy);
+```bash
+cd YOUR_DIRECTORY
+java -cp "path/to/aspose-html.jar;." HtmlToWebp
 ```
 
-erre:
+### Large Pages & Memory Usage
+
+Egy nagyon magas oldal (gondolj a végtelen görgetéses oldalakra) sok RAM‑ot fogyaszthat. Az Aspose.HTML lehetővé teszi a viewport méretének korlátozását:
 
 ```java
-webpOptions.setCompressionMode(CompressionMode.Lossless);
+options.setViewportSize(new Size(1280, 720)); // width × height in pixels
 ```
 
-A veszteségmentes mód pixel‑tökéletes hűséget garantál, de nagyobb fájlokat eredményez – csak akkor használd, ha feltétlenül szükséges.
+Egy ésszerű viewport beállítása segít a memóriahasználat kordában tartásában, miközben egy szép, levágott WebP‑t kapsz.
 
-### Működik ez Linux‑on/macOS‑on?
+### Transparency & Alpha Channel
 
-Igen. Az Aspose.HTML JAR tartalmazza a natív binárisokat Windows, Linux és macOS számára, így ugyanaz a Java kód mindenhol fut. Csak győződj meg róla, hogy a megfelelő JRE telepítve van.
+A WebP támogatja az alfát, de csak akkor, ha a forrás HTML tartalmaz átlátszó elemeket (pl. alfa‑csatornával rendelkező PNG‑k). A konverter alapból megőrzi az átlátszóságot – nincs szükség extra flag‑ekre. Csak ellenőrizd, hogy a kimenet valóban a várt átlátszó háttérrel rendelkezik-e.
 
-## Összegzés
+## Step 5: Automating Multiple Files (Create WebP from HTML in Bulk)
 
-Most megtanultad, **hogyan konvertálj HTML‑t WebP‑re** az Aspose.HTML for Java segítségével, a függőség beállításától a tömörítés finomhangolásáig és az eredmény ellenőrzéséig. Ezzel a tudással **HTML‑t menthetsz WebP‑ként**, **HTML‑t renderelhetsz WebP‑ként**, és **WebP‑t generálhatsz HTML‑ből** futás közben – tökéletes dinamikus képcsővezetékekhez, hírlevelekhez vagy bármilyen olyan szituációhoz, ahol a könnyű vizuális elemek számítanak.
+Gyakran előfordul, hogy **HTML‑t WebP‑re kell konvertálni** sok oldal esetén – gondolj egy statikus weboldalgenerátorra. Csomagold a konvertálási logikát egy egyszerű ciklusba:
 
-Mi a következő? Kísérletezz különböző `quality` értékekkel, fedezd fel a `Lossless` módot, vagy integráld ezt a konvertálót egy Spring Boot REST végpontra, hogy a webszolgáltatásod igény szerint WebP képeket adjon vissza. Érdemes lehet egy mappában lévő HTML fájlok kötegelt feldolgozását is megvalósítani, vagy a headless Chrome‑nal kombinálni SVG‑t WebP‑re konvertáláshoz.
+```java
+import java.nio.file.*;
+import java.util.stream.*;
 
-További kérdéseid vannak **HTML konvertálásáról** más nyelveken, vagy segítségre van szükséged egy konkrét speciális eset megoldásához? Írj egy megjegyzést alább, és jó kódolást kívánok!
+public class BulkHtmlToWebp {
+    public static void main(String[] args) throws Exception {
+        Path htmlFolder = Paths.get("YOUR_DIRECTORY/html");
+        Path outputFolder = Paths.get("YOUR_DIRECTORY/webp");
+
+        // Ensure output folder exists
+        Files.createDirectories(outputFolder);
+
+        // Process each .html file
+        try (Stream<Path> files = Files.walk(htmlFolder)) {
+            files.filter(p -> p.toString().endsWith(".html"))
+                 .forEach(htmlPath -> {
+                     String outputName = htmlPath.getFileName()
+                         .toString()
+                         .replaceAll("\\.html$", ".webp");
+                     Path webpPath = outputFolder.resolve(outputName);
+                     try {
+                         Converter.convert(htmlPath.toString(),
+                                           webpPath.toString(),
+                                           options);
+                         System.out.println("Created: " + webpPath);
+                     } catch (Exception e) {
+                         System.err.println("Failed for " + htmlPath + ": " + e.getMessage());
+                     }
+                 });
+        }
+    }
+}
+```
+
+A fenti kódrészlet **bulk‑ban hoz létre WebP‑t HTML‑ből**, újrahasználva ugyanazt az `ImageSaveOptions`‑t (így a **set image quality** minden fájlra konzisztens marad). Állítsd a `viewportSize`‑t vagy a `quality`‑t, ha egyes oldalak más egyensúlyt igényelnek.
+
+## Step 6: Testing & Validation (Save HTML as WebP with Confidence)
+
+A tesztelés a puzzle utolsó darabja. Íme néhány gyors ellenőrzés, amelyet automatizálhatsz:
+
+```java
+import java.awt.image.BufferedImage;
+import javax.imageio.ImageIO;
+
+public class ValidateWebp {
+    public static void main(String[] args) throws Exception {
+        BufferedImage img = ImageIO.read(new File("YOUR_DIRECTORY/output.webp"));
+        if (img == null) {
+            throw new IllegalStateException("WebP file could not be read – conversion may have failed.");
+        }
+        System.out.println("Width: " + img.getWidth() + ", Height: " + img.getHeight());
+    }
+}
+```
+
+Ha a kép kivétel nélkül betöltődik, és a méretek megegyeznek a várttal, magabiztosan állíthatod, hogy a **save HTML as WebP** lépés sikeres volt.
+
+---
+
+## Conclusion
+
+Most már mindent tudsz, ami ahhoz kell, hogy **HTML‑t WebP‑re konvertálj** Java‑val és az Aspose.HTML‑lel: a könyvtár hozzáadása, a **képminőség** beállítása, a konvertálás futtatása, a szélhelyzetek kezelése, sőt akár tucatnyi fájl egyszerre feldolgozása. Ezzel a tudással már **HTML‑t WebP‑ként mentheted** a gyorsabb oldalbetöltés, az alacsonyabb sávszélesség‑használat és egy modern kép‑pipeline érdekében, amely minden böngészőben működik.
+
+Mi a következő? Kísérletezz különböző viewport méretekkel, fedezd fel a veszteségmentes WebP‑t a `options.setLossless(true)` beállításával, vagy integráld a konvertert egy CI/CD pipeline‑ba, hogy minden HTML‑változás automatikusan egy optimalizált WebP‑eszközt generáljon. A lehetőségek végtelenek, és a most megírt kód szilárd alapot nyújt bármely kép‑feldolgozó munkafolyamathoz.
+
+Boldog kódolást, és maradjanak a WebP fájljaid élesek és könnyűek!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

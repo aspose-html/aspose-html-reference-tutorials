@@ -1,26 +1,25 @@
 ---
 category: general
-date: 2026-03-26
-description: Aspose.HTML के साथ HTML को जल्दी से WebP में बदलें। सीखें कि कैसे HTML
-  को WebP के रूप में सहेजें, HTML को WebP के रूप में रेंडर करें, और कुछ ही चरणों में
-  HTML से WebP उत्पन्न करें।
+date: 2026-03-04
+description: जावा के साथ HTML को जल्दी से WebP में बदलें। जानें कि HTML को WebP के
+  रूप में कैसे सहेजें, इमेज क्वालिटी कैसे सेट करें, और Aspose.HTML का उपयोग करके HTML
+  से WebP कैसे बनाएं।
 draft: false
 keywords:
 - convert html to webp
 - save html as webp
-- how to convert html
-- render html as webp
-- generate webp from html
+- set image quality
+- create webp from html
 language: hi
-og_description: Aspose.HTML के साथ HTML को जल्दी से WebP में बदलें। यह ट्यूटोरियल
-  दिखाता है कि कैसे HTML को WebP के रूप में रेंडर किया जाए और Java में HTML से WebP
-  उत्पन्न किया जाए।
+og_description: जावा के साथ HTML को तेज़ी से WebP में बदलें। जानिए कैसे HTML को WebP
+  के रूप में सहेजें, इमेज क्वालिटी सेट करें, और Aspose.HTML का उपयोग करके HTML से
+  WebP बनाएं।
 og_title: HTML को WebP में बदलें – पूर्ण जावा गाइड
 tags:
 - Java
 - Aspose.HTML
 - Image Conversion
-title: HTML को WebP में बदलें – पूर्ण जावा गाइड
+title: HTML को WebP में परिवर्तित करें – पूर्ण जावा गाइड
 url: /hi/java/conversion-html-to-various-image-formats/convert-html-to-webp-complete-java-guide/
 ---
 
@@ -28,197 +27,184 @@ url: /hi/java/conversion-html-to-various-image-formats/convert-html-to-webp-comp
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# HTML को WebP में बदलें – पूर्ण Java गाइड
+# Convert HTML to WebP – Complete Java Guide
 
-क्या आपको कभी **HTML को WebP में बदलने** की ज़रूरत पड़ी है लेकिन यह नहीं पता था कि कौन‑सी लाइब्रेरी बिना किसी झंझट के यह काम कर सकेगी? आप अकेले नहीं हैं। कई डेवलपर्स को यह समस्या आती है जब वे डायनामिक पेजों से उत्पन्न हल्की छवियों को सर्व करने की कोशिश करते हैं। अच्छी ख़बर? Aspose.HTML for Java के साथ आप *HTML को WebP के रूप में सहेज* सकते हैं एक ही मेथड कॉल में, और पूरी प्रक्रिया मक्खन की तरह स्मूद है।
+क्या आपको कभी **HTML को WebP में बदलने** की ज़रूरत पड़ी है लेकिन आप नहीं जानते थे कि कहाँ से शुरू करें? आप अकेले नहीं हैं; कई डेवलपर्स उसी समस्या का सामना करते हैं जब वे एक हल्की, ब्राउज़र‑तैयार इमेज सीधे HTML पेज से चाहते हैं। अच्छी खबर यह है कि Aspose.HTML for Java के साथ आप **HTML को WebP के रूप में सहेज** सकते हैं, संपीड़न स्तर को समायोजित कर सकते हैं, और कुछ ही कोड लाइनों में प्रोडक्शन‑रेडी फ़ाइल प्राप्त कर सकते हैं।
 
-इस ट्यूटोरियल में हम वह सब कवर करेंगे जो आपको जानना आवश्यक है: Aspose.HTML डिपेंडेंसी सेटअप से लेकर कॉम्प्रेशन सेटिंग्स को ट्यून करने तक, और अंत में HTML दस्तावेज़ को WebP फ़ाइल के रूप में रेंडर करना जिसे आप वेब पर सर्व कर सकते हैं। अंत तक आप **HTML को WebP के रूप में रेंडर** कर पाएँगे, **HTML से WebP जेनरेट** कर पाएँगे, और प्रत्येक कॉन्फ़िगरेशन विकल्प के “क्यों” को समझ पाएँगे। कोई बाहरी स्क्रिप्ट नहीं, कोई कमांड‑लाइन जिम्नास्टिक नहीं—सिर्फ़ साफ़ Java कोड।
+इस ट्यूटोरियल में हम पूरी प्रक्रिया को चरण‑दर‑चरण देखेंगे—प्रोजेक्ट सेटअप से लेकर इमेज क्वालिटी को फाइन‑ट्यून करने तक—ताकि आप अपने मूल पेज की एक स्पष्ट WebP इमेज के साथ समाप्त कर सकें। साथ ही हम यह भी कवर करेंगे कि **इमेज क्वालिटी कैसे सेट करें** और विभिन्न वातावरणों में **HTML से WebP बनाते समय** किन बातों का ध्यान रखें।
 
-## Prerequisites
+## What You’ll Need
 
-शुरू करने से पहले सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
+शुरू करने से पहले सुनिश्चित करें कि आपके मशीन पर निम्नलिखित मौजूद हैं:
 
-- Java 8 या उससे नया संस्करण इंस्टॉल हो (लाइब्रेरी JDK 8+ को सपोर्ट करती है)।
-- Maven या Gradle डिपेंडेंसी मैनेजमेंट के लिए (हम Maven स्निपेट दिखाएँगे)।
-- एक साधारण HTML फ़ाइल (`input.html`) जिसे आप WebP इमेज में बदलना चाहते हैं।
-- आपका पसंदीदा IDE या टेक्स्ट एडिटर—IntelliJ IDEA बहुत अच्छा काम करता है, लेकिन कोई भी चलेगा।
+- **Java Development Kit (JDK) 11** या नया। पुराना भी कंपाइल हो जाएगा, लेकिन आप कुछ भाषा की सुविधाओं से वंचित रहेंगे।
+- **Aspose.HTML for Java** लाइब्रेरी (मार्च 2026 तक का नवीनतम संस्करण)। इसे Maven Central या Aspose वेबसाइट से प्राप्त किया जा सकता है।
+- एक **बेसिक IDE** (IntelliJ IDEA, Eclipse, VS Code – जो भी आपको आरामदायक लगे)।
+- एक उदाहरण HTML फ़ाइल जिसे आप WebP इमेज में बदलना चाहते हैं (मान लीजिए इसका नाम `input.html` है)।
 
-सब तैयार है? बढ़िया, चलिए शुरू करते हैं।
+बस इतना ही। कोई अतिरिक्त बिल्ड टूल नहीं, कोई Docker कंटेनर नहीं, कोई छिपा जादू नहीं। सिर्फ़ साधारण Java और एक सिंगल थर्ड‑पार्टी JAR।
+
+![Convert HTML to WebP process](convert-html-to-webp.png "Diagram showing the convert html to webp workflow")
 
 ## Step 1: Add Aspose.HTML to Your Project
 
-सबसे पहले, आपको अपने क्लासपाथ में Aspose.HTML लाइब्रेरी जोड़नी होगी। यदि आप Maven उपयोग कर रहे हैं, तो इसे अपने `pom.xml` में डालें:
+सबसे पहले—आइए Aspose.HTML डिपेंडेंसी को अपने बिल्ड फ़ाइल में जोड़ें। यदि आप Maven उपयोग कर रहे हैं, तो यह स्निपेट अपने `pom.xml` में डालें:
 
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-html</artifactId>
-    <version>23.12</version> <!-- latest stable as of 2026 -->
+    <version>23.12</version> <!-- replace with the latest version -->
 </dependency>
 ```
 
-Gradle के लिए, यह इस प्रकार दिखता है:
+Gradle उपयोगकर्ता इसे इस तरह जोड़ सकते हैं:
 
-```gradle
+```groovy
 implementation 'com.aspose:aspose-html:23.12'
 ```
 
-यह चरण इतना महत्वपूर्ण क्यों है? बिना JAR के, `HTMLDocument`, `Converter`, या `WebpConversionOptions` क्लासेज़ मौजूद नहीं होंगी, और कंपाइलर `ClassNotFoundException` फेंकेगा। डिपेंडेंसी जोड़ने से WebP एन्कोडिंग के लिए आवश्यक नेटिव बाइनरी भी शामिल हो जाते हैं, इसलिए आपको बाहरी DLLs या `.so` फ़ाइलों की तलाश नहीं करनी पड़ेगी।
+हमें यह क्यों चाहिए? लाइब्रेरी में एक मजबूत **Converter** क्लास शामिल है जो HTML, CSS, और यहाँ तक कि JavaScript को समझती है, फिर पेज को रास्टर इमेज में रेंडर करती है। यह **HTML से WebP बनाने** वर्कफ़्लो की रीढ़ है।
 
-> **Pro tip:** अपनी डिपेंडेंसीज़ को हमेशा अपडेट रखें। नए Aspose रिलीज़ अक्सर WebP कॉम्प्रेशन एल्गोरिदम को बेहतर बनाते हैं और नए HTML5 फीचर्स का समर्थन जोड़ते हैं।
+> **Pro tip:** अपनी डिपेंडेंसियों को हमेशा अपडेट रखें। नए रिलीज़ अक्सर इमेज कोडेक्स के लिए परफ़ॉर्मेंस ट्यूनिंग शामिल करते हैं, जिससे कन्वर्ज़न टाइम में मिलीसेकंड बच सकते हैं।
 
-## Step 2: Load the Source HTML Document
+## Step 2: Prepare Image Save Options (Set Image Quality)
 
-अब लाइब्रेरी तैयार है, हम वह HTML लोड कर सकते हैं जिसे आप बदलना चाहते हैं। `HTMLDocument` क्लास फ़ाइल को पार्स करता है और एक DOM बनाता है, जिसे बाद में कन्वर्टर रेंडर करेगा।
-
-```java
-import com.aspose.html.HTMLDocument;
-
-public class HtmlToWebpConverter {
-    public static void main(String[] args) throws Exception {
-        // Load the HTML file from disk
-        HTMLDocument htmlDoc = new HTMLDocument("YOUR_DIRECTORY/input.html");
-        // From here you can manipulate the DOM if needed
-    }
-}
-```
-
-ध्यान दें टिप्पणी “Load the source HTML document” – यह याद दिलाता है कि आप कन्वर्ज़न से पहले CSS या JavaScript भी इन्जेक्ट कर सकते हैं यदि आपका पेज डायनामिक स्टाइलिंग पर निर्भर करता है। यदि आप इस चरण को छोड़ देते हैं, तो कन्वर्टर के पास रेंडर करने के लिए कुछ नहीं रहेगा, और परिणामस्वरूप एक खाली इमेज बनेगी।
-
-## Step 3: Configure WebP Conversion Options
-
-Aspose.HTML आपको आउटपुट पर सूक्ष्म नियंत्रण देता है। अधिकांश मामलों में, **lossy** WebP जिसमें क्वालिटी सेटिंग लगभग 85 हो, दृश्य गुणवत्ता और फ़ाइल आकार के बीच अच्छा संतुलन बनाता है।
+अब लाइब्रेरी मौजूद है, हमें यह बताना होगा कि आउटपुट कैसा चाहिए। `ImageSaveOptions` ऑब्जेक्ट वह जगह है जहाँ आप WebP फ़ाइल के लिए **इमेज क्वालिटी सेट** करते हैं। क्वालिटी का मान `0` (सबसे खराब) से `100` (सबसे अच्छा) के बीच होता है। वेब डिलीवरी के लिए आमतौर पर `80` के आसपास का मान उपयुक्त रहता है, लेकिन आप प्रयोग कर सकते हैं।
 
 ```java
-import com.aspose.html.saving.WebpConversionOptions;
-import com.aspose.html.saving.WebpConversionOptions.CompressionMode;
+import com.aspose.html.saving.ImageSaveOptions;
+import com.aspose.html.saving.SaveFormat;
 
-// Set up conversion options
-WebpConversionOptions webpOptions = new WebpConversionOptions();
-webpOptions.setCompressionMode(CompressionMode.Lossy); // lossless is also available
-webpOptions.setQuality(85); // Quality range: 0‑100
+// Create options for WebP format
+ImageSaveOptions options = new ImageSaveOptions(SaveFormat.WEBP);
+options.setQuality(80); // Quality range: 0‑100
 ```
 
-लॉसी क्यों चुनें? WebP का लॉसी मोड प्रेडिक्टिव कोडिंग का उपयोग करता है, जिससे फ़ाइलें PNG की तुलना में 30‑50 % तक छोटी हो जाती हैं जबकि अधिकांश दृश्य विवरण बरकरार रहता है। यदि आपको पिक्सेल‑परफ़ेक्ट परिणाम चाहिए (जैसे लोगो के लिए), तो `CompressionMode` को `Lossless` में बदलें और `quality` को 100 तक बढ़ाएँ।
+क्वालिटी की परवाह क्यों? WebP डिफ़ॉल्ट रूप से लॉसी फ़ॉर्मेट है, इसलिए आपका चुना हुआ नंबर फ़ाइल साइज़ और विज़ुअल फ़िडेलिटी दोनों को सीधे प्रभावित करता है। कम नंबर हल्के‑फ़ाइल देते हैं—मोबाइल के लिए बढ़िया—but आप टेक्स्ट या ग्रेडिएंट्स के आसपास आर्टिफ़ैक्ट्स देख सकते हैं।
 
-## Step 4: Convert and Save the WebP Image
+## Step 3: Perform the Conversion (Convert HTML to WebP)
 
-डॉक्यूमेंट और विकल्प तैयार होने के बाद, कन्वर्ज़न स्वयं एक‑लाइनर है। स्टैटिक `Converter.convertHTML` मेथड सभी भारी काम करता है: यह DOM को बिटमैप पर रेंडर करता है, उसे WebP में एन्कोड करता है, और फ़ाइल को डिस्क पर लिख देता है।
+ऑप्शन तैयार होने के बाद, वास्तविक कन्वर्ज़न एक‑लाइनर है। स्टैटिक `Converter.convert` मेथड तीन आर्ग्यूमेंट लेता है: स्रोत HTML पाथ, लक्ष्य इमेज पाथ, और हमने अभी कॉन्फ़िगर किए हुए ऑप्शन।
 
 ```java
 import com.aspose.html.converters.Converter;
-
-// Define output path
-String outputPath = "YOUR_DIRECTORY/output.webp";
-
-// Perform conversion
-Converter.convertHTML(htmlDoc, outputPath, webpOptions);
-
-// Let the user know we’re done
-System.out.println("HTML has been rendered to WebP: " + outputPath);
-```
-
-बस इतना ही! प्रोग्राम समाप्त होने के बाद, आप `output.webp` को अपने स्रोत HTML के बगल में पाएँगे। अब आप इसे सीधे वेब सर्वर से सर्व कर सकते हैं, `<picture>` एलिमेंट में एम्बेड कर सकते हैं, या किसी भी ऐसे कॉन्टेक्स्ट में उपयोग कर सकते हैं जो WebP को सपोर्ट करता है।
-
-## Step 5: Verify the Result (Optional but Recommended)
-
-कन्वर्ज़न सफल रहा और इमेज अपेक्षित दिख रही है, यह दोबारा चेक करना हमेशा अच्छा विचार है। आप WebP फ़ाइल को Chrome, Firefox, या किसी भी इमेज व्यूअर में खोल सकते हैं जो इस फ़ॉर्मेट को सपोर्ट करता है। एक तेज़ प्रोग्रामेटिक चेक के लिए, आप फ़ाइल का साइज और डाइमेंशन पढ़ सकते हैं:
-
-```java
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import com.aspose.html.saving.ImageInfo;
-
-byte[] webpBytes = Files.readAllBytes(Paths.get(outputPath));
-System.out.println("Generated WebP size: " + webpBytes.length + " bytes");
-
-// Optionally, extract dimensions using Aspose
-ImageInfo info = new ImageInfo(outputPath);
-System.out.println("Width: " + info.getWidth() + " px, Height: " + info.getHeight() + " px");
-```
-
-यदि फ़ाइल अनपेक्षित रूप से बड़ी है या डाइमेंशन गलत हैं, तो **Step 3** पर वापस जाएँ और `quality` या स्रोत HTML के viewport सेटिंग्स को ट्यून करें। याद रखें, WebP रूट एलिमेंट के CSS `width`/`height` को सम्मानित करता है, इसलिए यदि `<meta viewport>` टैग गायब है तो आश्चर्यजनक परिणाम मिल सकते हैं।
-
-## Full Working Example
-
-सब कुछ मिलाकर, यहाँ पूर्ण, तैयार‑चलाने योग्य Java क्लास है:
-
-```java
-import com.aspose.html.HTMLDocument;
-import com.aspose.html.converters.Converter;
-import com.aspose.html.saving.WebpConversionOptions;
-import com.aspose.html.saving.WebpConversionOptions.CompressionMode;
-import com.aspose.html.saving.ImageInfo;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 
 public class HtmlToWebp {
     public static void main(String[] args) throws Exception {
-        // Step 1: Load the source HTML document
-        HTMLDocument htmlDoc = new HTMLDocument("YOUR_DIRECTORY/input.html");
+        // Paths – adjust to your environment
+        String inputHtml = "YOUR_DIRECTORY/input.html";
+        String outputWebp = "YOUR_DIRECTORY/output.webp";
 
-        // Step 2: Set up WebP conversion options (lossy compression with quality 85)
-        WebpConversionOptions webpOptions = new WebpConversionOptions();
-        webpOptions.setCompressionMode(CompressionMode.Lossy);
-        webpOptions.setQuality(85); // quality range: 0‑100
+        // Step 2 already set up 'options' with quality 80
+        Converter.convert(inputHtml, outputWebp, options);
 
-        // Step 3: Convert the HTML document to a WebP image
-        String outputPath = "YOUR_DIRECTORY/output.webp";
-        Converter.convertHTML(htmlDoc, outputPath, webpOptions);
-
-        // Step 4: Verify the output (optional)
-        byte[] webpBytes = Files.readAllBytes(Paths.get(outputPath));
-        System.out.println("Generated WebP size: " + webpBytes.length + " bytes");
-        ImageInfo info = new ImageInfo(outputPath);
-        System.out.println("Width: " + info.getWidth() + " px, Height: " + info.getHeight() + " px");
-
-        // Step 5: Inform the user that conversion is complete
-        System.out.println("HTML has been rendered to WebP: " + outputPath);
+        System.out.println("Conversion complete! WebP saved at: " + outputWebp);
     }
 }
 ```
 
-इस फ़ाइल को `HtmlToWebp.java` के रूप में सेव करें, `YOUR_DIRECTORY` को वास्तविक फ़ोल्डर पाथ से बदलें, `javac` से कंपाइल करें, और `java HtmlToWebp` से चलाएँ। आपको कंसोल पर फ़ाइल साइज और डाइमेंशन की पुष्टि मिलनी चाहिए, उसके बाद अंतिम सफलता संदेश दिखेगा।
+बस इतना ही—`main` मेथड चलाएँ और आप `output.webp` को अपने स्रोत फ़ाइल के बगल में पाएँगे। लाइब्रेरी लेआउट, CSS, और यहाँ तक कि एक्सटर्नल रिसोर्सेज (इमेज, फ़ॉन्ट) को ऑटोमैटिकली हैंडल करती है, इसलिए आपको उन्हें मैन्युअली कॉपी करने की ज़रूरत नहीं।
 
-![HTML को WebP में बदलने का उदाहरण](/images/convert-html-to-webp.png "HTML से उत्पन्न WebP छवि का स्क्रीनशॉट – HTML को WebP में बदलें")
+### Verifying the Result
 
-## Common Questions & Edge Cases
+प्रोग्राम समाप्त होने के बाद, उत्पन्न WebP फ़ाइल को किसी भी आधुनिक ब्राउज़र (Chrome, Edge, Firefox) या WebP सपोर्ट करने वाले इमेज व्यूअर में खोलें। आपको `input.html` का पिक्सेल‑परफ़ेक्ट रेंडरिंग दिखना चाहिए। यदि इमेज ब्लरी लग रही है, तो **Step 2** में क्वालिटी बढ़ाएँ और फिर से चलाएँ।
 
-### What if my HTML references external resources (CSS, images)?
+## Step 4: Edge Cases & Common Pitfalls
 
-Aspose.HTML `input.html` के स्थान के आधार पर रिलेटिव URL को ऑटोमैटिकली रिजॉल्व कर लेता है। बस यह सुनिश्चित करें कि संसाधन फ़ाइल सिस्टम या वेब सर्वर से पहुँच योग्य हों। यदि आपको कस्टम बेस URL इन्जेक्ट करना है, तो `HTMLDocument` के ओवरलोडेड कंस्ट्रक्टर का उपयोग करें जो `URI` बेस स्वीकार करता है।
+### Relative URLs in HTML
 
-### Can I generate multiple WebP images from the same HTML (e.g., different viewport sizes)?
+यदि आपका HTML रिलेटिव पाथ्स (जैसे `src="images/logo.png"`) से एसेट्स रेफ़र करता है, तो सुनिश्चित करें कि आपके Java प्रोसेस की वर्किंग डायरेक्टरी वही फ़ोल्डर हो जिसमें ये एसेट्स हों। अन्यथा कन्वर्टर `FileNotFoundException` फेंकेगा। एक त्वरित समाधान है JVM को उस डायरेक्टरी से लॉन्च करना जहाँ `input.html` स्थित है:
 
-बिल्कुल। कन्वर्ज़न लॉजिक को लूप में रखें, प्रत्येक कॉल से पहले `webpOptions.setWidth()` और `setHeight()` को समायोजित करें, और प्रत्येक आउटपुट को एक अनोखा फ़ाइलनाम दें। यह रिस्पॉन्सिव डिज़ाइन के लिए उपयोगी है जहाँ आप मोबाइल और डेस्कटॉप के लिए अलग‑अलग इमेज साइज सर्व करते हैं।
-
-### How do I switch to lossless compression?
-
-लाइन को बदलें:
-
-```java
-webpOptions.setCompressionMode(CompressionMode.Lossy);
+```bash
+cd YOUR_DIRECTORY
+java -cp "path/to/aspose-html.jar;." HtmlToWebp
 ```
 
-से:
+### Large Pages & Memory Usage
+
+बहुत लंबा पेज (जैसे इन्फ़िनिट‑स्क्रॉल साइट) रेंडर करने से बहुत RAM इस्तेमाल हो सकता है। Aspose.HTML आपको व्यूपोर्ट साइज लिमिट करने की सुविधा देता है:
 
 ```java
-webpOptions.setCompressionMode(CompressionMode.Lossless);
+options.setViewportSize(new Size(1280, 720)); // width × height in pixels
 ```
 
-Lossless पिक्सेल‑परफ़ेक्ट फ़िडेलिटी गारंटी देता है लेकिन फ़ाइलें बड़ी बनती हैं—इसे केवल आवश्यक होने पर ही उपयोग करें।
+उचित व्यूपोर्ट सेट करने से मेमोरी उपयोग नियंत्रित रहता है, जबकि आपको एक अच्छी तरह से क्रॉप्ड WebP मिलता है।
 
-### Does this work on Linux/macOS?
+### Transparency & Alpha Channel
 
-हाँ। Aspose.HTML JAR में Windows, Linux, और macOS के लिए नेटिव बाइनरी शामिल हैं, इसलिए वही Java कोड हर जगह चलता है। बस सुनिश्चित करें कि आपके पास उपयुक्त JRE इंस्टॉल हो।
+WebP अल्फा सपोर्ट करता है, लेकिन केवल तभी जब स्रोत HTML में ट्रांसपेरेंट एलिमेंट्स (जैसे अल्फा वाले PNG) हों। कन्वर्टर ट्रांसपैरेंसी को आउट‑ऑफ़‑द‑बॉक्स ही रखता है—कोई अतिरिक्त फ़्लैग की ज़रूरत नहीं। बस यह जाँचें कि आउटपुट में अपेक्षित ट्रांसपेरेंट बैकग्राउंड बना रहे।
+
+## Step 5: Automating Multiple Files (Create WebP from HTML in Bulk)
+
+अक्सर आपको कई पेजों के लिए **HTML को WebP में बदलना** पड़ता है—जैसे एक स्टैटिक साइट जेनरेटर। इस केस में कन्वर्ज़न लॉजिक को एक साधारण लूप में रैप करें:
+
+```java
+import java.nio.file.*;
+import java.util.stream.*;
+
+public class BulkHtmlToWebp {
+    public static void main(String[] args) throws Exception {
+        Path htmlFolder = Paths.get("YOUR_DIRECTORY/html");
+        Path outputFolder = Paths.get("YOUR_DIRECTORY/webp");
+
+        // Ensure output folder exists
+        Files.createDirectories(outputFolder);
+
+        // Process each .html file
+        try (Stream<Path> files = Files.walk(htmlFolder)) {
+            files.filter(p -> p.toString().endsWith(".html"))
+                 .forEach(htmlPath -> {
+                     String outputName = htmlPath.getFileName()
+                         .toString()
+                         .replaceAll("\\.html$", ".webp");
+                     Path webpPath = outputFolder.resolve(outputName);
+                     try {
+                         Converter.convert(htmlPath.toString(),
+                                           webpPath.toString(),
+                                           options);
+                         System.out.println("Created: " + webpPath);
+                     } catch (Exception e) {
+                         System.err.println("Failed for " + htmlPath + ": " + e.getMessage());
+                     }
+                 });
+        }
+    }
+}
+```
+
+ऊपर दिया गया स्निपेट **HTML से WebP को बैच में बनाता** है, और वही `ImageSaveOptions` पुन: उपयोग करता है (ताकि आपका **इमेज क्वालिटी सेट** सभी फ़ाइलों में समान रहे)। यदि कुछ पेजों को अलग बैलेंस चाहिए तो `viewportSize` या `quality` को समायोजित करें।
+
+## Step 6: Testing & Validation (Save HTML as WebP with Confidence)
+
+टेस्टिंग इस प्रक्रिया का अंतिम टुकड़ा है। यहाँ कुछ तेज़ चेक्स हैं जिन्हें आप ऑटोमेट कर सकते हैं:
+
+```java
+import java.awt.image.BufferedImage;
+import javax.imageio.ImageIO;
+
+public class ValidateWebp {
+    public static void main(String[] args) throws Exception {
+        BufferedImage img = ImageIO.read(new File("YOUR_DIRECTORY/output.webp"));
+        if (img == null) {
+            throw new IllegalStateException("WebP file could not be read – conversion may have failed.");
+        }
+        System.out.println("Width: " + img.getWidth() + ", Height: " + img.getHeight());
+    }
+}
+```
+
+यदि इमेज बिना एक्सेप्शन के लोड हो जाती है और डाइमेंशन आपकी अपेक्षा के अनुसार हैं, तो आप भरोसा कर सकते हैं कि **HTML को WebP के रूप में सहेजने** वाला स्टेप सफल रहा।
+
+---
 
 ## Conclusion
 
-आपने अभी **HTML को WebP में बदलना** Aspose.HTML for Java का उपयोग करके सीख लिया है, जिसमें डिपेंडेंसी सेटअप से लेकर कॉम्प्रेशन ट्यूनिंग और परिणाम की वैरिफिकेशन तक सब कुछ शामिल है। इस ज्ञान के साथ आप **HTML को WebP के रूप में सहेज** सकते हैं, **HTML को WebP में रेंडर** कर सकते हैं, और **HTML से WebP जेनरेट** कर सकते हैं—डायनामिक इमेज पाइपलाइन, ईमेल न्यूज़लेटर, या किसी भी ऐसे परिदृश्य के लिए परफेक्ट जहाँ हल्की विज़ुअल्स मायने रखती हैं।
+हमने अभी-अभी वह सब कवर किया जो आपको Java और Aspose.HTML का उपयोग करके **HTML को WebP में बदलने** के लिए चाहिए: लाइब्रेरी जोड़ना, **इमेज क्वालिटी** कॉन्फ़िगर करना, कन्वर्ज़न चलाना, एज केस हैंडल करना, और यहाँ तक कि दर्जनों फ़ाइलों को एक साथ प्रोसेस करना। इस ज्ञान के साथ आप अब **HTML को WebP के रूप में सहेज** सकते हैं, जिससे पेज लोड तेज़, बैंडविड्थ कम, और एक आधुनिक इमेज पाइपलाइन मिलती है जो सभी ब्राउज़रों में काम करती है।
 
-अब क्या अगला कदम? विभिन्न `quality` वैल्यूज़ के साथ प्रयोग करें, `Lossless` मोड एक्सप्लोर करें, या इस कन्वर्टर को एक Spring Boot REST एंडपॉइंट में इंटीग्रेट करें ताकि आपका वेब सर्विस ऑन‑डिमांड WebP इमेज रिटर्न कर सके। आप फ़ोल्डर में मौजूद कई HTML फ़ाइलों को बैच‑प्रोसेस करने या इसे हेडलेस Chrome के साथ मिलाकर SVG‑to‑WebP कन्वर्ज़न करने पर भी विचार कर सकते हैं।
+अब आगे क्या? विभिन्न व्यूपोर्ट साइज के साथ प्रयोग करें, `options.setLossless(true)` सेट करके लॉसलेस WebP एक्सप्लोर करें, या कन्वर्टर को CI/CD पाइपलाइन में इंटीग्रेट करें ताकि हर HTML बदलाव पर स्वचालित रूप से ऑप्टिमाइज़्ड WebP एसेट बन जाए। संभावनाएँ अनंत हैं, और अभी लिखा गया कोड किसी भी इमेज‑प्रोसेसिंग वर्कफ़्लो के लिए एक ठोस आधार है।
 
-क्या आपके पास **HTML को अन्य भाषाओं में बदलने** के बारे में और सवाल हैं, या किसी विशिष्ट एज केस में मदद चाहिए? नीचे कमेंट करें, और हैप्पी कोडिंग!
+Happy coding, and may your WebP files stay crisp and lightweight!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

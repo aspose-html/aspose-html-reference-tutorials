@@ -1,24 +1,23 @@
 ---
 category: general
-date: 2026-03-26
-description: Sabit bir iş parçacığı havuzu ile HTML'den hızlıca PDF oluşturun. Toplu
-  HTML'den PDF'ye dönüştürmeyi öğrenin ve Java'da paralel görevleri çalıştırın.
+date: 2026-03-14
+description: Aspose HTML ve bir iş parçacığı havuzu kullanarak HTML'den hızlıca PDF
+  oluşturun. Paralel işleme ile HTML'yi toplu olarak PDF'ye dönüştürmeyi öğrenin.
 draft: false
 keywords:
 - create pdf from html
 - convert html to pdf
+- how to use threadpool
 - batch html to pdf
-- fixed thread pool
-- run parallel tasks
+- aspose html to pdf
 language: tr
-og_description: HTML'den hızlıca PDF oluşturun, sabit bir iş parçacığı havuzu kullanarak.
-  HTML'yi PDF'ye toplu olarak dönüştürmeyi ve Java'da paralel görevleri çalıştırmayı
-  öğrenin.
-og_title: Java'da HTML'den PDF Oluşturma – Paralel Toplu Dönüştürme Kılavuzu
+og_description: Aspose kullanarak Java'da bir thread havuzu ile HTML'den PDF oluşturun.
+  Toplu dönüşüm için adım adım kılavuz.
+og_title: HTML'den PDF Oluştur – Java ThreadPool Toplu Dönüştürme
 tags:
 - Java
-- PDF
-- Aspose.HTML
+- Aspose
+- PDF Generation
 - Concurrency
 title: Java'da HTML'den PDF Oluşturma – Paralel Toplu Dönüştürme Rehberi
 url: /tr/java/conversion-html-to-other-formats/create-pdf-from-html-in-java-parallel-batch-conversion-guide/
@@ -28,213 +27,228 @@ url: /tr/java/conversion-html-to-other-formats/create-pdf-from-html-in-java-para
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# HTML'den PDF Oluşturma – Paralel Toplu Dönüştürme Kılavuzu
+# HTML'den PDF Oluşturma – Java ile Paralel Toplu Dönüştürme
 
-Hiç **HTML'den PDF oluşturma** ihtiyacı duydunuz mu ama tek iş parçacıklı dönüşümün sonsuza kadar sürmesinden sıkıldınız mı? Tek başınıza değilsiniz. Gerçek dünyadaki birçok projede, gün sonuna kadar PDF'ye dönüştürülmesi gereken onlarca HTML raporu alıyoruz ve bunları tek tek işlemek pratik değil.
+Hiç **HTML'den PDF oluşturma** ihtiyacı duydunuz mu ve dosyalarla tek tek uğraşırken sıkışıp kaldınız mı? Tek başınıza değilsiniz. Birçok projede—fatura oluşturucular, statik site arşivleyicileri veya otomatik rapor hatları—bir yığın HTML sayfasını PDF'ye dönüştürmek günlük bir iş haline gelir.  
 
-Bu yüzden bu eğitim, **sabit iş parçacığı havuzu** (fixed thread pool) kullanarak **HTML'den PDF'ye toplu dönüşüm** yapmayı ve **paralel görevleri** sorunsuz bir şekilde çalıştırmayı gösteriyor. Sonunda, bir klasördeki HTML dosyalarını bir sürede PDF'ye dönüştüren, tamamen çalışır bir programınız olacak.
+İyi haber? Aspose HTML for Java ve basit bir **threadpool** sayesinde **HTML'yi PDF'ye dönüştürmeyi** paralel olarak yapabilir, aksi takdirde bir saat sürecek bir görevi dakikalar içinde tamamlayabilirsiniz. Bu öğreticide, **toplu HTML'den PDF'ye** dönüşümü nasıl yapacağınızı gösteren, çalıştırmaya hazır tam bir örnek üzerinden adım adım ilerleyeceğiz; kodunuz temiz kalacak ve CPU'nuz mutlu olacak.
 
-## Öğrenecekleriniz
+Bu rehberin sonunda şu özelliklere sahip bağımsız bir programınız olacak:
 
-İlerleyen bölümlerde şunları ele alacağız:
+* HTML dosyalarının bir listesini tarar,
+* Her dosya için sabit boyutlu bir thread pool kullanarak bir dönüşüm görevi başlatır,
+* PDF'leri orijinal dosyalarla yan yana kaydeder,
+* Ve her şey bittiğinde sorunsuz bir şekilde kapanır.
 
-* Aspose.HTML (ağır işi yapan kütüphane) için tam Maven/Gradle bağımlılığı.  
-* Neden **sabit iş parçacığı havuzu** CPU‑ağırlıklı dönüşüm işleri için ideal.  
-* Kaynak dosyalarınızı nasıl listeleyeceğiniz, böylece süreç yüzlerce belgeye ölçeklenebilsin.  
-* IDE'nize yapıştıracağınız eksiksiz kod – eksik import yok, “TODO” yorumu yok.  
-* Hataları ele alma, havuz boyutunu ayarlama ve çıktıyı doğrulama ipuçları.
-
-Aspose.HTML hakkında önceden bir bilginiz olmasına gerek yok, sadece temel bir Java ortamı ve deneme isteği yeterli. Hadi başlayalım.
+Harici betikler, gizemli sihirler yok—sadece saf Java, Aspose HTML ve standart `java.util.concurrent` kütüphanesi.
 
 ---
 
-![Diagram showing a fixed thread pool converting multiple HTML files to PDF in parallel – create pdf from html](/images/create-pdf-from-html-parallel.png)
+## Gereksinimler
 
-*Resim alt metni: create pdf from html – paralel dönüşüm diyagramı*
+| Önkoşul | Sebep |
+|--------------|--------|
+| **Java 17+** (veya güncel bir JDK) | Kullanacağımız `ExecutorService` API'sini sağlar. |
+| **Aspose.HTML for Java** (en son sürüm) | `Conversion` sınıfı, HTML'yi PDF'ye render etme işini üstlenir. |
+| **Birkaç HTML dosyası** | Basit statik sayfalardan karmaşık CSS‑styled belgeler kadar her şey olabilir. |
+| **Bir IDE veya terminal** | Örneği derlemek ve çalıştırmak için. |
 
-## Adım 1: Projenizi Hazırlayın ve Aspose.HTML'i Ekleyin
-
-İlk iş, projenize Aspose.HTML kütüphanesini eklemek. Maven kullanıyorsanız, `pom.xml` dosyanıza şunu ekleyin:
+Eğer zaten bir Maven ya da Gradle projeniz varsa, Aspose.HTML bağımlılığını eklemeniz yeterli:
 
 ```xml
+<!-- Maven -->
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-html</artifactId>
-    <version>23.12</version> <!-- latest as of March 2026 -->
+    <version>23.12</version> <!-- check for the newest version -->
 </dependency>
 ```
 
-Gradle için ise sadece:
+*İpucu:* Ücretsiz değerlendirme lisansı test için gayet yeterlidir; sadece `asposehtml.jar` ve lisans dosyasını sınıf yolunuza (classpath) koyun.
 
-```groovy
-implementation 'com.aspose:aspose-html:23.12'
-```
+---
 
-Neden Aspose.HTML? Ticari bir kütüphane olmasına rağmen, **convert html to pdf** API'si kutudan çıkar çıkmaz CSS, JavaScript ve karmaşık düzenleri işleyebiliyor. Açık kaynak bir alternatif tercih ederseniz, `Converter.convertHTML` çağrısını daha sonra değiştirebilirsiniz; iş parçacığı mantığı aynı kalır.
+## Adım 1 – Dönüştürmek İstediğiniz HTML Dosyalarını Listeleyin
 
-> **Pro tip:** Sürüm numarasını resmi sürüm notlarıyla senkronize tutun; yeni sürümler genellikle render hızını artırır, bu da paralel çoklu görev çalıştırırken önemlidir.
-
-## Adım 2: Paralel Dönüşüm İçin Sabit İş Parçacığı Havuzu Oluşturun
-
-Bir dosya topluluğunuz olduğunda, sınırsız sayıda iş parçacığı oluşturmak istemezsiniz—işletim sisteminiz aşırı yüklenir. **Sabit iş parçacığı havuzu**, bellek kullanımını kontrol altında tutarken öngörülebilir bir eşzamanlılık sağlar.
+İlk olarak bir kaynak dosya koleksiyonuna ihtiyacımız var. Gerçek bir senaryoda dizini özyinelemeli (recursive) okuyabilirsiniz, ancak açıklık açısından küçük bir dizi sabit kodlayacağız.
 
 ```java
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
-
-// Create a pool with 4 worker threads – adjust based on CPU cores
-ExecutorService pool = Executors.newFixedThreadPool(4);
+// Step 1: Define the HTML files to be processed
+String[] htmlFilePaths = {
+    "YOUR_DIRECTORY/a.html",
+    "YOUR_DIRECTORY/b.html",
+    "YOUR_DIRECTORY/c.html"
+};
 ```
 
-Neden dört? Tipik bir 8‑çekirdek makinede, çekirdeklerin yarısı I/O ve OS için serbest bırakılabilir. Deneyebilirsiniz: `Runtime.getRuntime().availableProcessors()` çekirdek sayısını verir ve genel kural `cores / 2`'dir. Unutmayın, her dönüşüm CPU‑yoğun olduğundan, çekirdek sayısından fazla iş parçacığı genellikle performansı düşürür.
+> **Neden önemli:** Listeyi ayrı tutmak, sonraki paralel adımı basitleştirir—diziyi sadece döner ve her elemanı thread pool'a veririz.
 
-## Adım 3: Dönüştürmek İstediğiniz HTML Dosyalarını Toplayın
+---
 
-Bulmacanın bir sonraki parçası **batch html to pdf** listesidir. Örnekteki gibi bir dizi sabit kodlayabilir ya da bir dizini tarayabilirsiniz. İşte bir klasörden tüm `.html` dosyalarını okuyan esnek bir versiyon:
+## Adım 2 – Sabit Boyutlu Bir ThreadPool Oluşturun
+
+**CPU‑ağırlıklı işler** için threadpool kullanırken, sabit bir havuz genellikle en iyi seçimdir. Aynı anda çalışan thread sayısını sınırlar, sistemin aşırı yüklenmesini engeller.
 
 ```java
-import java.io.File;
-import java.util.ArrayList;
-import java.util.List;
-
-// Directory that holds your source HTML files
-File inputDir = new File("YOUR_DIRECTORY");
-
-// Collect absolute paths of all .html files
-List<String> htmlFiles = new ArrayList<>();
-for (File f : inputDir.listFiles()) {
-    if (f.isFile() && f.getName().toLowerCase().endsWith(".html")) {
-        htmlFiles.add(f.getAbsolutePath());
-    }
-}
+// Step 2: Create a thread pool with three worker threads
+ExecutorService threadPool = Executors.newFixedThreadPool(3);
 ```
 
-Bu yaklaşım sayesinde klasöre yeni dosyalar bıraktığınızda program otomatik olarak onları yakalar—gecelik toplu işler için mükemmel.
+*Not:* Havuz boyutu (`3` bu örnekte) yaklaşık olarak kullanmak istediğiniz CPU çekirdek sayısına eşit olmalıdır. 8 çekirdekli bir makineniz varsa, sayıyı artırabilirsiniz.
 
-## Adım 4: Her Dosya İçin Bir Dönüşüm Görevi Gönderin (Paralel Görevleri Çalıştırın)
+---
 
-Şimdi eğlenceli kısım: her dosya bir **Runnable** (veya `Callable<Void>`) haline geliyor ve havuz tarafından yürütülüyor. Aşağıdaki kod, orijinal örneği yansıtıyor ancak hata yönetimi ve küçük bir log mesajı ekliyor.
+## Adım 3 – Her HTML Dosyası İçin Bir Dönüştürme Görevi Gönderin
+
+Şimdi `htmlFilePaths` içindeki her öğe için bir `Runnable` göndererek **toplu html to pdf** işlemini gerçekleştiriyoruz. Her görev bağımsız çalışır ve Aspose HTML’nin `Conversion.convert` metodunu çağırır.
 
 ```java
-import com.aspose.html.HTMLDocument;
-import com.aspose.html.converters.Converter;
+// Step 3: Enqueue conversion jobs
+for (String htmlPath : htmlFilePaths) {
+    threadPool.submit(() -> {
+        // Convert the current HTML file to PDF
+        String pdfPath = htmlPath.replace(".html", ".pdf");
+        Conversion.convert(htmlPath, pdfPath, new PdfSaveOptions());
 
-for (String filePath : htmlFiles) {
-    pool.submit(() -> {
-        try {
-            // Load the HTML document from disk
-            HTMLDocument doc = new HTMLDocument(filePath);
-
-            // Build the output PDF path (same folder, .pdf extension)
-            String pdfPath = filePath.replaceAll("(?i)\\.html$", ".pdf");
-
-            // Perform the conversion – this is where Aspose does the heavy lifting
-            Converter.convertHTML(doc, pdfPath);
-
-            // Let the user know the job finished
-            System.out.println(new File(filePath).getName() + " → PDF done.");
-        } catch (Exception e) {
-            // Log failures but keep the pool alive
-            System.err.println("Failed to convert " + filePath + ": " + e.getMessage());
-        }
-        return null; // Callable<Void> requires a return value
+        // Inform the user that the conversion succeeded
+        System.out.println(pdfPath + " created.");
     });
 }
 ```
 
-**Dönüşümü try‑catch içinde neden sarmalısınız?** **Paralel görevler** çalıştırdığınızda tek bir hatalı HTML dosyası tüm executor'ı çökertir. İstisnaları yerel olarak yakalayarak toplu işlemin geri kalanının sorunsuz devam etmesini sağlarız.
+### Neden Lambda?
 
-## Adım 5: Executor'ı Kapatın ve Tamamlanmasını Bekleyin
+Lambda (`() -> { … }`) kullanmak kodu kısa tutar ve aynı zamanda dış döngüdeki `htmlPath` değişkenini yakalar. Her lambda, havuzun uygun bir thread'ine planlanan ayrı bir görev olur.
 
-Tüm işler gönderildikten sonra, havuzun yeni iş kabul etmesini durdurmalı ve her şey bitene kadar beklemelisiniz. Bu, JVM'nin erken kapanmasını önler.
+---
+
+## Adım 4 – Havuzu Zarifçe Kapatın
+
+Tüm görevler gönderildikten sonra, havuza yeni iş kabul etmemesini söylemeli ve aktif işler bitene kadar beklemeliyiz. Bu, JVM'nin erken kapanmasını önler.
 
 ```java
-// Prevent new tasks from being submitted
-pool.shutdown();
+// Step 4: Shut down the pool and wait for completion
+threadPool.shutdown();                     // No more tasks accepted
+boolean finished = threadPool.awaitTermination(5, TimeUnit.MINUTES);
 
-try {
-    // Wait up to 5 minutes for all conversions to finish
-    if (!pool.awaitTermination(5, TimeUnit.MINUTES)) {
-        System.err.println("Timeout reached – some files may not have been converted.");
-        pool.shutdownNow(); // Force shutdown if needed
-    }
-} catch (InterruptedException ie) {
-    Thread.currentThread().interrupt(); // Restore interrupt status
-    System.err.println("Thread was interrupted while waiting for termination.");
+if (finished) {
+    System.out.println("All PDFs generated successfully.");
+} else {
+    System.err.println("Timeout reached – some tasks may still be running.");
 }
 ```
 
-Eğer binlerce dosyadan oluşan dev bir klasörünüz varsa, zaman aşımını artırabilir veya bir ilerleme izleyicisi ekleyebilirsiniz. Önemli olan **zarif bir şekilde kapatmak**—bu, üretim‑hazır kodun temel özelliğidir.
+*Köşe durumu:* Bir dönüşüm takılı kalırsa (örneğin hatalı bir HTML nedeniyle), `awaitTermination` zaman aşımı uygulamanızın sonsuza kadar beklemesini engeller.
+
+---
 
 ## Tam Çalışan Örnek
 
-Her şeyi bir araya getirdiğimizde, `src/main/java` içine kopyalayıp çalıştırabileceğiniz bağımsız bir sınıf elde edersiniz:
+Hepsini bir araya getirdiğimizde, çalıştırmaya hazır sınıf aşağıdadır. `src/main/java/ParallelConversion.java` içine kopyalayıp çalıştırın.
 
 ```java
-import com.aspose.html.HTMLDocument;
-import com.aspose.html.converters.Converter;
-import java.io.File;
-import java.util.ArrayList;
-import java.util.List;
+import com.aspose.html.Conversion;
+import com.aspose.html.saving.PdfSaveOptions;
 import java.util.concurrent.*;
 
-public class ParallelHtmlToPdf {
+public class ParallelConversion {
     public static void main(String[] args) throws Exception {
-        // 1️⃣ Create a fixed‑size thread pool (adjust size as needed)
-        ExecutorService pool = Executors.newFixedThreadPool(4);
 
-        // 2️⃣ Locate all HTML files in the target directory
-        File inputDir = new File("YOUR_DIRECTORY");
-        List<String> htmlFiles = new ArrayList<>();
-        for (File f : inputDir.listFiles()) {
-            if (f.isFile() && f.getName().toLowerCase().endsWith(".html")) {
-                htmlFiles.add(f.getAbsolutePath());
-            }
-        }
+        // Step 1: List the HTML files to be converted
+        String[] htmlFilePaths = {
+            "YOUR_DIRECTORY/a.html",
+            "YOUR_DIRECTORY/b.html",
+            "YOUR_DIRECTORY/c.html"
+        };
 
-        // 3️⃣ Submit a conversion task for each file
-        for (String filePath : htmlFiles) {
-            pool.submit(() -> {
-                try {
-                    HTMLDocument doc = new HTMLDocument(filePath);
-                    String pdfPath = filePath.replaceAll("(?i)\\.html$", ".pdf");
-                    Converter.convertHTML(doc, pdfPath);
-                    System.out.println(new File(filePath).getName() + " → PDF done.");
-                } catch (Exception e) {
-                    System.err.println("Failed to convert " + filePath + ": " + e.getMessage());
-                }
-                return null;
+        // Step 2: Create a fixed‑size thread pool for parallel processing
+        ExecutorService threadPool = Executors.newFixedThreadPool(3);
+
+        // Step 3: Submit a conversion task for each HTML file
+        for (String htmlPath : htmlFilePaths) {
+            threadPool.submit(() -> {
+                // Step 4: Convert the HTML file to PDF using default PDF options
+                String pdfPath = htmlPath.replace(".html", ".pdf");
+                Conversion.convert(htmlPath, pdfPath, new PdfSaveOptions());
+
+                // Step 5: Notify that the PDF has been created
+                System.out.println(pdfPath + " created.");
             });
         }
 
-        // 4️⃣ Shut down the pool and wait for all tasks to finish
-        pool.shutdown();
-        if (!pool.awaitTermination(5, TimeUnit.MINUTES)) {
-            System.err.println("Timeout reached – some files may not have been converted.");
-            pool.shutdownNow();
-        }
-
-        System.out.println("All conversions completed.");
+        // Step 6: Shut down the pool and wait for all tasks to finish
+        threadPool.shutdown();
+        threadPool.awaitTermination(5, TimeUnit.MINUTES);
     }
 }
 ```
 
-**Beklenen çıktı** (örnek):
+**Beklenen çıktı** (üç kaynak dosya mevcutsa):
 
 ```
-invoice1.html → PDF done.
-report_Q1.html → PDF done.
-summary.html → PDF done.
-All conversions completed.
+YOUR_DIRECTORY/a.pdf created.
+YOUR_DIRECTORY/b.pdf created.
+YOUR_DIRECTORY/c.pdf created.
+All PDFs generated successfully.
 ```
 
-Oluşturulan `.pdf` dosyalarını açtığınızda, orijinal HTML düzeninin korunduğunu göreceksiniz—yazı tipleri, tablolar ve hatta temel JavaScript‑tabanlı içerik doğru şekilde render edilmiş olur.
+Herhangi bir dosya dönüştürmede hata olursa, Aspose bir istisna fırlatır ve bu `main` metoduna ulaşır—daha nazik bir hata yönetimi için dönüşüm çağrısını bir `try/catch` bloğuna sarabilirsiniz.
 
-## Sık Sorulan Sorular & Kenar Durumlar
+---
 
-| Soru | Cevap |
-|------|-------|
+## Sık Sorulan Sorular & İpuçları
+
+### 100'den fazla HTML dosyam olursa ne yapmalıyım?
+
+Thread pool boyutunu donanımınıza göre ölçeklendirin, ancak I/O sınırlarını da göz önünde bulundurun. Genel bir kural, CPU‑yoğun işler için `coreCount * 2`, karışık CPU‑I/O görevleri için `coreCount` kullanmaktır. Ayrıca dizini dinamik olarak okuyabilirsiniz:
+
+```java
+Path dir = Paths.get("YOUR_DIRECTORY");
+try (Stream<Path> files = Files.walk(dir)) {
+    htmlFilePaths = files
+        .filter(p -> p.toString().endsWith(".html"))
+        .map(Path::toString)
+        .toArray(String[]::new);
+}
+```
+
+### Linux/macOS'ta çalışır mı?
+
+Kesinlikle. Aspose HTML platform‑bağımsızdır ve `ExecutorService` yerel thread'ler kullanır; aynı kod, uyumlu bir JDK'ya sahip herhangi bir işletim sisteminde çalışır.
+
+### PDF çıktısını nasıl özelleştiririm?
+
+`Conversion.convert` metoduna yapılandırılmış bir `PdfSaveOptions` örneği geçirin. Örneğin PDF/A uyumluluğu ayarlamak için:
+
+```java
+PdfSaveOptions options = new PdfSaveOptions();
+options.setPdfStandard(PdfStandard.PdfA_2b);
+Conversion.convert(htmlPath, pdfPath, options);
+```
+
+### Bellek tüketimi hakkında ne söyleyebilirsiniz?
+
+Her dönüşüm tüm HTML belgesini belleğe yükler. Yüzlerce megabaytlık devasa sayfalarla çalışıyorsanız, daha küçük partilerde dönüştürmeyi veya yığın (heap) boyutunu artırmayı (`-Xmx2g` vb.) düşünün. VisualVM gibi izleme araçları darboğazları tespit etmenize yardımcı olur.
+
+---
+
+## Görsel Özet
+
+![HTML dosyaları → ThreadPool → Aspose Dönüşümü → PDF dosyaları](https://example.com/diagram.png "HTML'den PDF oluşturma iş akışı")
+
+*Resim alt metni:* **HTML'den PDF oluşturma iş akışı**
+
+---
+
+## Sonuç
+
+Aspose HTML for Java ve bir **threadpool** kullanarak **HTML'den PDF oluşturma** için pratik bir yol gösterdik. Kaynak dosyalarınızı listeleyip sabit bir havuz oluşturup her dosya için bir dönüşüm görevi gönderdiğinizde, hızlı ve ölçeklenebilir bir çözüm elde edersiniz; bu da herhangi bir toplu‑işleme hattına sorunsuzca entegre olur.  
+
+Unutmayın, temel fikirler—**convert html to pdf**, **how to use threadpool**, ve **batch html to pdf**—birbirinin yerine geçebilir. Aynı deseni görüntü render'ı, DOCX dönüşümü veya Aspose ya da başka bir kütüphanenin desteklediği herhangi bir CPU‑ağırlıklı işlem için uyarlayabilirsiniz.
+
+Bir sonraki adıma hazır mısınız? Özel `PdfSaveOptions` ekleyin, dinamik dizin taramayı deneyin ya da bu kodu HTML yüklemelerini REST üzerinden kabul eden bir Spring Boot mikroservisine entegre edin. Ufkunuz geniş, ve artık üzerine inşa edebileceğiniz sağlam bir temeliniz var.
+
+İyi kodlamalar, PDF'leriniz her zaman kusursuz render olsun!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
