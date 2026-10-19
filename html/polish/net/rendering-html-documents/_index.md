@@ -128,6 +128,8 @@ Dowiedz się, jak przy pomocy Aspose.HTML w C# konwertować HTML do pliku PDF kr
 Pełny przewodnik C# pokazujący, jak przy użyciu Aspose.HTML konwertować HTML do PDF i spakować wynik do pliku ZIP.
 ### [Utwórz strumień pamięci w C# – Pełny przewodnik z renderowaniem HTML i eksportem ZIP](./create-memory-stream-in-c-full-guide-with-html-rendering-zip/)
 Dowiedz się, jak w C# utworzyć strumień pamięci, renderować HTML i zapisywać wynik jako plik ZIP w kilku prostych krokach.
+### [Jak włączyć antyaliasing przy konwersji HTML‑do‑PDF w C#](./how-to-enable-antialiasing-for-html-to-pdf-in-c/)
+Dowiedz się, jak w C# włączyć antyaliasing przy konwersji HTML do PDF przy użyciu Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

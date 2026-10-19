@@ -139,6 +139,9 @@ C# のメモリ ストリームを作成し、HTML をレンダリングして Z
 ### [HTML を PNG と ZIP にメモリ内でレンダリング – 完全 C# ガイド](./render-html-to-png-and-zip-in-memory-complete-c-guide/)
 C# を使用して、HTML を PNG に変換し、さらに ZIP アーカイブとしてメモリ内で保存する手順を完全に解説します。
 
+### [C# で HTML から PDF へのアンチエイリアシングを有効にする方法](./how-to-enable-antialiasing-for-html-to-pdf-in-c/)
+C# で Aspose.HTML を使用し、HTML を PDF に変換する際にアンチエイリアシングを有効にする手順を解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

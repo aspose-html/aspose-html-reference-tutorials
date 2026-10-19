@@ -117,6 +117,8 @@ Lär dig hur du med Aspose.HTML för .NET konverterar HTML till JPEG i en komple
 Lär dig hur du skapar en minnesström i C#, renderar HTML och exporterar till ZIP i en komplett guide.
 ### [Rendera HTML till PNG och ZIP i minnet – Komplett C#-guide](./render-html-to-png-and-zip-in-memory-complete-c-guide/)
 Lär dig hur du med Aspose.HTML för .NET renderar HTML till PNG och packar resultatet i en ZIP-fil helt i minnet med C#.
+### [Hur du aktiverar kantutjämning för HTML‑till‑PDF i C#](./how-to-enable-antialiasing-for-html-to-pdf-in-c/)
+Lär dig hur du med Aspose.HTML för .NET aktiverar kantutjämning när du konverterar HTML till PDF i C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

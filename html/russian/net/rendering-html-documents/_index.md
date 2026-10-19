@@ -135,6 +135,8 @@ Aspose.HTML для .NET выделяется как лучший выбор дл
 
 ### [Рендеринг HTML в PNG и ZIP в памяти – Полное руководство C#](./render-html-to-png-and-zip-in-memory-complete-c-guide/)
 Подробное руководство по рендерингу HTML в PNG и упаковке в ZIP в памяти с использованием Aspose.HTML и C#.
+### [Как включить сглаживание при конвертации HTML‑в‑PDF в C#](./how-to-enable-antialiasing-for-html-to-pdf-in-c/)
+Узнайте, как активировать сглаживание при рендеринге HTML в PDF с помощью Aspose.HTML для .NET в C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

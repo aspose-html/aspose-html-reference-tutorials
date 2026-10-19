@@ -78,11 +78,11 @@ Aprenda a gerar PDFs de alta qualidade a partir de HTML usando C# e Aspose.HTML,
 Aprenda a criar um PDF a partir de HTML usando Aspose em C# com um guia passo a passo.
 ### [Criar PDF a partir de HTML em C# – Incorporar fontes e converter para PDF](./create-pdf-from-html-in-c-embed-fonts-convert-to-pdf/)
 Aprenda a gerar PDFs a partir de HTML em C#, incorporando fontes para garantir renderização correta.
+### [Criar PDF a partir de HTML em C# – Guia completo passo a passo](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
+Aprenda a criar um PDF a partir de HTML em C# com um guia completo passo a passo usando Aspose.HTML para .NET.
 
 ### [Criar documento HTML com texto estilizado e exportar para PDF – Guia completo](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Aprenda a criar um documento HTML com texto formatado e exportá-lo para PDF usando Aspose.HTML para .NET. Guia passo a passo.
-### [Criar PDF a partir de HTML em C# – Guia Completo Passo a Passo](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
-Aprenda a criar PDF a partir de HTML usando C# com Aspose.HTML, passo a passo e exemplos de código.
 ### [Converter EPUB em imagem no .NET com Aspose.HTML](./convert-epub-to-image/)
 Aprenda como converter EPUB em imagens usando Aspose.HTML para .NET. Tutorial passo a passo com exemplos de código e opções personalizáveis.
 ### [Converter EPUB para PDF em .NET com Aspose.HTML](./convert-epub-to-pdf/)
@@ -213,6 +213,9 @@ Aprenda a renderizar HTML em PDF usando C#, controlando o tamanho da página e a
 
 ### [Salvar HTML em ZIP em C# – Guia Completo Passo a Passo](./save-html-to-zip-in-c-complete-step-by-step-guide/)
 Aprenda a salvar documentos HTML em arquivos ZIP usando Aspose.HTML para .NET em C# com um guia passo a passo completo.
+
+### [Como salvar HTML como ZIP em C# – Guia completo Aspose.HTML](./how-to-save-html-as-zip-in-c-complete-aspose-html-guide/)
+Aprenda a salvar arquivos HTML em um ZIP usando Aspose.HTML para .NET em C# com um guia passo a passo completo.
 
 ## Conclusão
 

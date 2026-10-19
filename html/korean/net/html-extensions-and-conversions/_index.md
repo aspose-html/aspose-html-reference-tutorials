@@ -37,8 +37,6 @@ HTML 확장 기능은 개발자에게 귀중한 리소스입니다. 사용자 �
 Aspose.HTML for .NET은 단순한 라이브러리가 아니라 웹 개발의 세계에서 게임 체인저입니다. HTML 관련 작업을 간소화하는 광범위한 기능과 도구를 제공합니다. 이 튜토리얼을 마치면 Aspose.HTML for .NET의 잠재력을 최대한 활용할 수 있는 지식과 기술을 갖추게 될 것입니다.
 
 ## HTML 확장 및 변환 튜토리얼
-### [C#에서 HTML을 PDF로 만들기 – 완전 단계별 가이드](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
-Aspose.HTML for .NET을 사용해 C#에서 HTML을 PDF로 변환하는 방법을 단계별로 안내합니다.
 ### [Aspose.HTML을 사용하여 .NET에서 HTML을 PDF로 변환](./convert-html-to-pdf/)
 Aspose.HTML for .NET으로 HTML을 PDF로 손쉽게 변환하세요. 단계별 가이드를 따라 HTML-PDF 변환의 힘을 활용하세요.
 ### [Aspose.HTML을 사용하여 HTML에서 PDF 만들기 – 단계별 가이드](./create-pdf-from-html-with-aspose-html-step-by-step-guide/)
@@ -69,6 +67,8 @@ Aspose.HTML for .NET을 사용하여 HTML을 PDF로 변환하는 단계별 가�
 Aspose.HTML을 활용해 HTML을 PDF로 변환하는 전체 단계별 가이드입니다. 모든 설정과 코드 예제를 확인하세요.
 ### [HTML에서 PDF 만들기 – 전체 C# 가이드 (안티앨리어싱 포함)](./create-pdf-from-html-full-c-guide-with-antialiasing/)
 Aspose.HTML for .NET을 사용하여 안티앨리어싱을 적용한 HTML을 PDF로 변환하는 전체 C# 가이드.
+### [C#에서 HTML을 PDF로 만들기 – 완전 단계별 가이드](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
+Aspose.HTML for .NET을 활용해 C#에서 HTML을 PDF로 변환하는 완전한 단계별 가이드를 제공합니다.
 ### [Aspose.HTML을 사용하여 .NET에서 EPUB를 이미지로 변환](./convert-epub-to-image/)
 Aspose.HTML for .NET을 사용하여 EPUB를 이미지로 변환하는 방법을 알아보세요. 코드 예제와 사용자 정의 가능한 옵션이 있는 단계별 튜토리얼.
 ### [Aspose.HTML을 사용하여 .NET에서 EPUB를 PDF로 변환](./convert-epub-to-pdf/)
@@ -120,6 +120,8 @@ Aspose.HTML for .NET을 활용해 C#에서 HTML 문서를 생성하는 방법을
 Aspose.HTML for .NET을 사용해 HTML 문서를 생성하고 ZIP 파일로 저장하는 전체 C# 가이드.
 ### [C#에서 HTML을 ZIP으로 저장 – 전체 단계별 가이드](./save-html-to-zip-in-c-complete-step-by-step-guide/)
 Aspose.HTML for .NET을 사용해 C#에서 HTML을 ZIP 파일로 저장하는 전체 단계별 가이드를 제공합니다.
+### [C#에서 HTML을 ZIP으로 저장하는 방법 – 전체 Aspose.HTML 가이드](./how-to-save-html-as-zip-in-c-complete-aspose-html-guide/)
+Aspose.HTML for .NET을 사용해 C#에서 HTML을 ZIP 파일로 저장하는 전체 가이드를 제공합니다.
 ### [C#에서 HTML을 ZIP으로 저장 – 완전 인메모리 예제](./save-html-to-zip-in-c-complete-in-memory-example/)
 Aspose.HTML for .NET을 사용하여 메모리 내에서 HTML을 ZIP 파일로 저장하는 방법을 단계별로 안내합니다.
 ### [C# 사용자 정의 리소스 핸들러 – HTML 로드 및 ZIP 저장](./custom-resource-handler-in-c-load-html-and-save-as-zip/)

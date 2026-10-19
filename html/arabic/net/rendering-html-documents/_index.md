@@ -134,6 +134,9 @@ url: /ar/net/rendering-html-documents/
 ### [تحويل HTML إلى PNG وZIP في الذاكرة – دليل C# كامل](./render-html-to-png-and-zip-in-memory-complete-c-guide/)
 تعلم خطوة بخطوة كيفية تحويل مستندات HTML إلى صور PNG وضغطها في ملف ZIP في الذاكرة باستخدام Aspose.HTML وC#.
 
+### [كيفية تمكين مضاد التعرج لتحويل HTML إلى PDF في C#](./how-to-enable-antialiasing-for-html-to-pdf-in-c/)
+تعلم كيفية تمكين تقنية مضاد التعرج عند تحويل HTML إلى PDF باستخدام Aspose.HTML في C# لضمان جودة عالية للرسومات والنصوص.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -110,6 +110,8 @@ Tanulja meg, hogyan renderelhet HTML-t PDF-be, majd tömörítheti zip fájlba a
 Ismerje meg, hogyan konvertálhatja a HTML-t JPEG képpé az Aspose.HTML segítségével .NET környezetben, lépésről lépésre.
 ### [Memóriafolyam létrehozása C#-ban – Teljes útmutató HTML rendereléssel és ZIP exporttal](./create-memory-stream-in-c-full-guide-with-html-rendering-zip/)
 Ismerje meg, hogyan hozhat létre memóriafolyamot C#-ban, renderelhet HTML-t és exportálhat ZIP-archívumba az Aspose.HTML segítségével.
+### [Hogyan engedélyezzük az antialiasingot HTML‑PDF konvertálásához C#‑ban](./how-to-enable-antialiasing-for-html-to-pdf-in-c/)
+Tanulja meg, hogyan állíthatja be az antialiasingot az Aspose.HTML for .NET HTML‑PDF konvertálás során C#‑ban.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

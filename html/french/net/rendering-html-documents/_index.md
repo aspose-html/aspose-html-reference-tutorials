@@ -135,6 +135,9 @@ Apprenez à créer un flux mémoire, rendre du HTML et exporter le résultat en 
 ### [Rendre le HTML en PNG et ZIP en mémoire – Guide complet C#](./render-html-to-png-and-zip-in-memory-complete-c-guide/)
 Apprenez à convertir du HTML en PNG et à créer un fichier ZIP en mémoire avec Aspose.HTML pour .NET en suivant ce guide complet en C#.
 
+### [Comment activer l'anticrénelage pour HTML‑vers‑PDF en C#](./how-to-enable-antialiasing-for-html-to-pdf-in-c/)
+Apprenez à activer l'anticrénelage lors de la conversion HTML vers PDF avec Aspose.HTML pour .NET en C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

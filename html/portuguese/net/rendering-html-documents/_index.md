@@ -125,6 +125,8 @@ Aprenda a converter HTML em JPEG usando Aspose.HTML para .NET com este guia comp
 Aprenda a criar Memory Stream em C#, renderizar HTML e exportar o resultado como arquivo ZIP usando Aspose.HTML.
 ### [Renderizar HTML para PNG e ZIP na memória – Guia completo em C#](./render-html-to-png-and-zip-in-memory-complete-c-guide/)
 Aprenda a renderizar HTML como PNG e compactar em ZIP na memória usando Aspose.HTML para .NET com um guia completo em C#.
+### [Como habilitar antialiasing para HTML‑to‑PDF em C#](./how-to-enable-antialiasing-for-html-to-pdf-in-c/)
+Aprenda a ativar antialiasing ao converter HTML para PDF usando Aspose.HTML para .NET em C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

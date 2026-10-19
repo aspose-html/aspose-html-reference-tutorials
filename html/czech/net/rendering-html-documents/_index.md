@@ -137,6 +137,9 @@ Naučte se pomocí Aspose.HTML pro .NET převést HTML soubory do formátu JPEG 
 ### [Vytvořte Memory Stream v C# – Kompletní průvodce s vykreslováním HTML a exportem do ZIP](./create-memory-stream-in-c-full-guide-with-html-rendering-zip/)
 Naučte se, jak vytvořit Memory Stream v C# a pomocí Aspose.HTML vykreslit HTML a exportovat výsledek do ZIP archivu.
 
+### [Jak povolit antialiasing pro HTML‑to‑PDF v C#](./how-to-enable-antialiasing-for-html-to-pdf-in-c/)
+Naučte se, jak pomocí Aspose.HTML v .NET povolit antialiasing při převodu HTML do PDF pro lepší kvalitu výstupu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

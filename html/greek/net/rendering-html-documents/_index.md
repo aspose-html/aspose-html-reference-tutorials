@@ -124,6 +124,8 @@ url: /el/net/rendering-html-documents/
 Μάθετε πώς να δημιουργήσετε Memory Stream σε C#, να αποδώσετε HTML και να εξάγετε το αποτέλεσμα σε αρχείο ZIP.
 ### [Απόδοση HTML σε PNG και ZIP στη μνήμη – Πλήρης οδηγός C#](./render-html-to-png-and-zip-in-memory-complete-c-guide/)
 Μάθετε πώς να αποδίδετε HTML σε PNG, να το συμπιέζετε σε αρχείο ZIP στη μνήμη, χρησιμοποιώντας C# και Aspose.HTML.
+### [Πώς να ενεργοποιήσετε το Antialiasing για HTML‑σε‑PDF σε C#](./how-to-enable-antialiasing-for-html-to-pdf-in-c/)
+Μάθετε πώς να ενεργοποιήσετε το antialiasing κατά τη μετατροπή HTML σε PDF χρησιμοποιώντας C# και Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

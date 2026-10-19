@@ -183,6 +183,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML für .NET ein ZIP‑Archiv erstellen und H
 Entdecken Sie, wie Sie HTML mit Aspose.HTML für .NET in PDF konvertieren, Seitengröße festlegen und Antialiasing aktivieren.
 ### [HTML in ZIP speichern in C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./save-html-to-zip-in-c-complete-step-by-step-guide/)
 Erfahren Sie, wie Sie HTML-Inhalte in C# komplett schrittweise in ein ZIP-Archiv speichern.
+### [HTML als ZIP speichern – Komplettes Aspose.HTML‑Guide in C#](./how-to-save-html-as-zip-in-c-complete-aspose-html-guide/)
+Erfahren Sie, wie Sie HTML‑Inhalte mit Aspose.HTML für .NET in ein ZIP‑Archiv speichern – komplette Schritt‑für‑Schritt‑Anleitung in C#.
 
 ## Abschluss
 

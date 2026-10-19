@@ -43,8 +43,6 @@ Aspose.HTML สำหรับ .NET ไม่ใช่แค่ไลบรา�
 แปลง HTML เป็น PDF ได้อย่างง่ายดายด้วย Aspose.HTML สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราและปลดปล่อยพลังแห่งการแปลง HTML เป็น PDF
 ### [สร้าง PDF จาก URL – คู่มือ C# ฉบับสมบูรณ์](./create-pdf-from-url-complete-c-guide/)
 สร้าง PDF จาก URL ด้วย Aspose.HTML สำหรับ .NET ตามขั้นตอนครบถ้วนในคู่มือ C# นี้
-### [สร้าง PDF จาก HTML ใน C# – คู่มือขั้นตอนเต็ม](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
-เรียนรู้วิธีสร้างไฟล์ PDF จาก HTML ด้วย C# โดยใช้ Aspose.HTML ขั้นตอนเต็มพร้อมตัวอย่างโค้ด
 ### [แปลง HTML เป็น PDF ใน C# – คู่มือเต็ม Aspose](./convert-html-to-pdf-in-c-full-aspose-guide/)
 เรียนรู้วิธีแปลง HTML เป็น PDF ใน C# อย่างละเอียดด้วยคู่มือเต็มของ Aspose.HTML สำหรับ .NET
 ### [ตั้งขนาดหน้า PDF ใน C# – แปลง HTML เป็น PDF](./set-pdf-page-size-in-c-convert-html-to-pdf/)
@@ -179,6 +177,10 @@ Aspose.HTML สำหรับ .NET ไม่ใช่แค่ไลบรา�
 เรียนรู้วิธีสร้างไฟล์ ZIP จาก HTML พร้อมรูปภาพฝังตัวโดยใช้ C# และ Aspose.HTML สำหรับ .NET
 ### [บันทึก HTML เป็น ZIP ใน C# – คู่มือเต็มขั้นตอน](./save-html-to-zip-in-c-complete-step-by-step-guide/)
 เรียนรู้วิธีบันทึกไฟล์ HTML เป็น ZIP อย่างละเอียดด้วย C# ตามขั้นตอนที่ชัดเจนและครบถ้วน
+### [สร้าง PDF จาก HTML ด้วย C# – คู่มือเต็มแบบขั้นตอนต่อขั้นตอน](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
+เรียนรู้วิธีสร้าง PDF จากไฟล์ HTML ด้วย C# โดยใช้ Aspose.HTML สำหรับ .NET อย่างละเอียดและครบถ้วน
+### [วิธีบันทึก HTML เป็น ZIP ใน C# – คู่มือ Aspose.HTML ฉบับสมบูรณ์](./how-to-save-html-as-zip-in-c-complete-aspose-html-guide/)
+เรียนรู้วิธีบันทึก HTML เป็นไฟล์ ZIP อย่างละเอียดด้วย Aspose.HTML สำหรับ .NET และ C#
 
 ## บทสรุป
 

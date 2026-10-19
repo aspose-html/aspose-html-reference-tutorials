@@ -120,6 +120,8 @@ HTML'yi JPEG formatına dönüştürmeyi adım adım öğrenin. Bu kapsamlı reh
 C#'ta bellek akışı oluşturmayı, HTML render etmeyi ve ZIP olarak dışa aktarmayı adım adım öğrenin.
 ### [HTML'yi Bellekte PNG ve ZIP Olarak İşleme – Tam C# Rehberi](./render-html-to-png-and-zip-in-memory-complete-c-guide/)
 HTML içeriğini bellekte PNG'ye dönüştürüp ZIP arşivine eklemeyi adım adım öğrenin. C# ile tam rehber.
+### [C#'ta HTML'den PDF'ye Dönüştürürken Antialiasing'i Etkinleştirme](./how-to-enable-antialiasing-for-html-to-pdf-in-c/)
+C# kullanarak Aspose.HTML ile HTML'den PDF'ye dönüştürürken antialiasing'i nasıl etkinleştireceğinizi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

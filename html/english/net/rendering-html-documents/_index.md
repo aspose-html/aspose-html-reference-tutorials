@@ -111,6 +111,8 @@ Learn how to enable antialiasing for smoother PNG output when rendering HTML wit
 Complete guide to render HTML to PNG using C# and Aspose.HTML for .NET, covering setup, options, and best practices.
 ### [Create Memory Stream in C# – Full Guide with HTML Rendering & ZIP Export](./create-memory-stream-in-c-full-guide-with-html-rendering-zip/)
 Learn how to create a memory stream in C#, render HTML with Aspose.HTML, and export the result as a ZIP archive. Full step‑by‑step guide.
+### [How to Enable Antialiasing for HTML‑to‑PDF in C#](./how-to-enable-antialiasing-for-html-to-pdf-in-c/)
+Learn how to enable antialiasing when converting HTML to PDF using Aspose.HTML for .NET in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

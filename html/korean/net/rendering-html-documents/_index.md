@@ -132,6 +132,8 @@ C# 메모리 스트림을 생성하고, Aspose.HTML로 HTML을 렌더링한 뒤 
 
 ### [메모리에서 HTML을 PNG와 ZIP으로 렌더링 – 완전 C# 가이드](./render-html-to-png-and-zip-in-memory-complete-c-guide/)
 .NET용 Aspose.HTML을 사용해 메모리 내에서 HTML을 PNG와 ZIP 파일로 변환하는 전체 C# 과정을 단계별로 안내합니다.
+### [C#에서 HTML‑to‑PDF에 안티앨리어싱 적용 방법](./how-to-enable-antialiasing-for-html-to-pdf-in-c/)
+Aspose.HTML for .NET을 사용해 HTML을 PDF로 변환할 때 안티앨리어싱을 설정하는 단계별 가이드.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

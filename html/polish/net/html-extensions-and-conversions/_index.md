@@ -176,6 +176,7 @@ Dowiedz się, jak w C# utworzyć archiwum ZIP zawierające HTML i osadzone obraz
 ### [Renderowanie HTML do PDF w C# – Pełny przewodnik z rozmiarem strony i antyaliasingiem](./render-html-to-pdf-in-c-full-guide-with-page-size-anti-alias/)
 Dowiedz się, jak renderować HTML do PDF w C# z kontrolą rozmiaru strony i antyaliasingu – kompletny przewodnik krok po kroku.
 ### [Zapisz HTML do ZIP w C# – Kompletny przewodnik krok po kroku](./save-html-to-zip-in-c-complete-step-by-step-guide/)
+### [Jak zapisać HTML jako ZIP w C# – Kompletny przewodnik Aspose.HTML](./how-to-save-html-as-zip-in-c-complete-aspose-html-guide/)
 Zapisz dokument HTML jako archiwum ZIP w C# przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
 
 ## Wniosek

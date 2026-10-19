@@ -136,6 +136,9 @@ Pelajari cara membuat Memory Stream di C#, merender HTML, dan mengekspor hasilny
 ### [Render HTML ke PNG dan ZIP dalam Memori – Panduan Lengkap C#](./render-html-to-png-and-zip-in-memory-complete-c-guide/)
 Pelajari cara merender HTML menjadi PNG dan mengompresnya ke ZIP secara langsung di memori menggunakan Aspose.HTML untuk .NET dengan contoh kode C# lengkap.
 
+### [Cara Mengaktifkan Antialiasing untuk HTML‑to‑PDF di C#](./how-to-enable-antialiasing-for-html-to-pdf-in-c/)
+Pelajari cara mengaktifkan antialiasing saat mengonversi HTML ke PDF menggunakan Aspose.HTML untuk .NET dengan contoh kode C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

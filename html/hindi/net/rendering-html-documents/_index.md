@@ -135,6 +135,9 @@ Aspose.HTML का उपयोग करके C# में मेमोरी 
 ### [HTML को PNG और ZIP में मेमोरी में रेंडर करें – पूर्ण C# गाइड](./render-html-to-png-and-zip-in-memory-complete-c-guide/)
 C# में Aspose.HTML का उपयोग करके HTML को PNG और ZIP फ़ाइलों में मेमोरी में रेंडर करने का पूर्ण मार्गदर्शक।
 
+### [C# में HTML‑to‑PDF के लिए एंटीएलियासिंग कैसे सक्षम करें](./how-to-enable-antialiasing-for-html-to-pdf-in-c/)
+C# में Aspose.HTML का उपयोग करके HTML को PDF में रेंडर करते समय एंटीएलियासिंग को सक्षम करने के चरण‑दर‑चरण मार्गदर्शिका।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

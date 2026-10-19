@@ -128,6 +128,8 @@ Aspose.HTML สำหรับ .NET ถือเป็นตัวเลือ�
 
 ### [เรนเดอร์ HTML เป็น PNG และ ZIP ในหน่วยความจำ – คู่มือ C# ฉบับสมบูรณ์](./render-html-to-png-and-zip-in-memory-complete-c-guide/)
 เรียนรู้วิธีเรนเดอร์ HTML เป็น PNG แล้วบีบอัดเป็นไฟล์ ZIP ในหน่วยความจำด้วย C# อย่างละเอียดในคู่มือฉบับสมบูรณ์นี้!
+### [วิธีเปิดใช้งาน Antialiasing สำหรับ HTML‑to‑PDF ใน C#](./how-to-enable-antialiasing-for-html-to-pdf-in-c/)
+เรียนรู้วิธีเปิดใช้งาน Antialiasing เพื่อปรับปรุงคุณภาพ PDF ที่สร้างจาก HTML ด้วย Aspose.HTML สำหรับ .NET ใน C#
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

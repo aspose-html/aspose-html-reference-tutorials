@@ -128,6 +128,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in JPEG‑Bilder konvertier
 
 ### [Memory‑Stream in C# erstellen – Vollständiger Leitfaden mit HTML‑Rendering & ZIP‑Export](./create-memory-stream-in-c-full-guide-with-html-rendering-zip/)
 Erfahren Sie, wie Sie in C# einen Memory‑Stream erstellen, HTML rendern und das Ergebnis als ZIP exportieren.
+### [Wie Sie Antialiasing für HTML‑zu‑PDF in C# aktivieren](./how-to-enable-antialiasing-for-html-to-pdf-in-c/)
+Erfahren Sie, wie Sie mit Aspose.HTML für .NET Antialiasing beim Rendern von HTML zu PDF aktivieren, um hochwertige Ausgaben zu erhalten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

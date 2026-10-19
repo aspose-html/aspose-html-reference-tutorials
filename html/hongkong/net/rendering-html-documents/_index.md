@@ -140,6 +140,9 @@ Aspose.HTML for .NET 因其豐富的功能、優秀的文件和活躍的社群�
 ### [在記憶體中渲染 HTML 為 PNG 並壓縮為 ZIP – 完整 C# 指南](./render-html-to-png-and-zip-in-memory-complete-c-guide/)
 學習使用 Aspose.HTML for .NET 在 C# 中於記憶體內將 HTML 渲染為 PNG，並打包成 ZIP，涵蓋完整步驟與最佳實踐。
 
+### [如何在 C# 中為 HTML 轉 PDF 啟用抗鋸齒](./how-to-enable-antialiasing-for-html-to-pdf-in-c/)
+學習在 C# 中使用 Aspose.HTML for .NET 為 HTML 轉 PDF 時啟用抗鋸齒，以提升輸出品質。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

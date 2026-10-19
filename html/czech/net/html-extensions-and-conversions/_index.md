@@ -190,6 +190,8 @@ Naučte se, jak pomocí Aspose.HTML v C# převést HTML do PDF s nastavením vel
 Naučte se, jak pomocí Aspose.HTML v C# vytvořit ZIP archiv obsahující HTML a vložené obrázky.
 ### [Uložte HTML do ZIP v C# – Kompletní krok‑za‑krokem průvodce](./save-html-to-zip-in-c-complete-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.HTML pro .NET uložit HTML soubor do ZIP archivu v C# pomocí podrobného krok‑za‑krokem průvodce.
+### [Jak uložit HTML jako ZIP v C# – Kompletní průvodce Aspose.HTML](./how-to-save-html-as-zip-in-c-complete-aspose-html-guide/)
+Naučte se, jak pomocí Aspose.HTML pro .NET uložit HTML soubor jako ZIP archiv v C# – kompletní průvodce.
 
 ## Závěr
 

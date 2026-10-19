@@ -137,6 +137,9 @@ Aspose.HTML for .NET 凭借其丰富的功能、出色的文档和活跃的社�
 ### [在 C# 中创建内存流 – 完整指南，包含 HTML 渲染与 ZIP 导出](./create-memory-stream-in-c-full-guide-with-html-rendering-zip/)
 学习如何在 C# 中使用内存流进行 HTML 渲染，并将结果导出为 ZIP 文件的完整步骤与示例。
 
+### [如何在 C# 中为 HTML 转 PDF 启用抗锯齿](./how-to-enable-antialiasing-for-html-to-pdf-in-c/)
+了解如何在 Aspose.HTML for .NET 中使用 C# 启用抗锯齿，以提升 PDF 渲染质量。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
