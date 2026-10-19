@@ -56,6 +56,12 @@ Java में Aspose.HTML का उपयोग करके HTML दस्त
 स्ट्रिंग्स से HTML दस्तावेज़ बनाना सीखें। चरण‑दर‑चरण मार्गदर्शिका।
 ### [Java के लिए Aspose.HTML में URL से HTML दस्तावेज़ लोड करें](./load-html-documents-from-url/)
 URL से HTML दस्तावेज़ लोड करना आसान बनाएं। चरण‑दर‑चरण ट्यूटोरियल।
+### [Aspose के साथ HTML दस्तावेज़ लोड करें – पृष्ठ शीर्षक प्राप्त करने के लिए त्वरित जावा गाइड](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
+Aspose.HTML for Java का उपयोग करके HTML दस्तावेज़ लोड करें और पृष्ठ शीर्षक को आसानी से प्राप्त करें। चरण‑दर‑चरण मार्गदर्शिका।
+### [Java में JavaScript निष्पादित करें – HTML पर JS चलाएँ और तत्व जोड़ें](./execute-javascript-java-run-js-on-html-append-elements/)
+Aspose.HTML for Java का उपयोग करके HTML में JavaScript चलाएँ और नए तत्व जोड़ें। चरण‑दर‑चरण मार्गदर्शिका।
+### [Java ExecutorService के साथ HTML तत्व बनाएं – थ्रेड‑सेफ़ डेमो](./create-html-element-with-java-executorservice-thread-safe-de/)
+Java ExecutorService का उपयोग करके थ्रेड‑सेफ़ तरीके से HTML तत्व बनाना सीखें। चरण‑दर‑चरण डेमो।
 ### [Java के लिए Aspose.HTML का उपयोग करके नए HTML दस्तावेज़ बनाएं](./generate-new-html-documents/)
 नए HTML दस्तावेज़ बनाना सीखें। गतिशील सामग्री बनाना शुरू करें।
 ### [Java के लिए Aspose.HTML में दस्तावेज़ लोड इवेंट को संभालें](./handle-document-load-events/)
@@ -63,8 +69,65 @@ URL से HTML दस्तावेज़ लोड करना आसान 
 ### [Java के लिए Aspose.HTML में SVG दस्तावेज़ बनाएँ और प्रबंधित करें](./create-manage-svg-documents/)
 SVG दस्तावेज़ बनाना और प्रबंधित करना सीखें। बुनियादी से उन्नत हेरफेर तक।
 ### [Java में HTML के लिए सैंडबॉक्स बनाएं – चरण‑दर‑चरण गाइड](./create-sandbox-for-html-in-java-step-by-step-guide/)
-Java में HTML सैंडबॉक्स बनाने की प्रक्रिया सीखें, सुरक्षित परीक्षण और विकास के लिए चरण‑दर‑चरण मार्गदर्शिका।
+Java में HTML सैंडबॉक्स बनाने की प्रक्रिया सीखें, सुरक्षित परीक्षण और विकास के लिए चरण‑दर‑...
 ### [Java में HTML क्वेरी कैसे करें – पूर्ण ट्यूटोरियल](./how-to-query-html-in-java-complete-tutorial/)
+### [Java में XPath का उपयोग कैसे करें – HTML पढ़ें और टेक्स्ट निकालें](./how-to-use-xpath-in-java-read-html-and-extract-text/)
+Java में Aspose.HTML का उपयोग करके XPath के माध्यम से HTML से टेक्स्ट निकालने की चरण‑दर‑चरण मार्गदर्शिका।
+
+### [Java में HTML अक्षरों की गिनती – Aspose HTML के साथ पूर्ण गाइड](./count-html-characters-in-java-full-guide-with-aspose-html/)
+Aspose.HTML for Java का उपयोग करके HTML दस्तावेज़ में अक्षरों की संख्या कैसे गिनें, चरण‑दर‑चरण पूर्ण मार्गदर्शिका।
+
+### [HTML दस्तावेज़ लोड करें जावा – XPath और CSS के साथ पूर्ण गाइड](./load-html-document-java-complete-guide-with-xpath-css/)
+
+### [Java के लिए Aspose.HTML में JSON प्राप्त करके सामग्री उत्पन्न करके HTML दस्तावेज़ बनाएं](./create-html-document-with-java-fetch-json-and-generate-conte/)
+### [Java में HTML से टेक्स्ट निकालें – पूर्ण प्रोग्रामिंग गाइड](./extract-text-from-html-in-java-complete-programming-guide/)
+Aspose.HTML for Java का उपयोग करके HTML से टेक्स्ट निकालने की पूरी मार्गदर्शिका, चरण‑दर‑चरण उदाहरण और सर्वोत्तम प्रथाएँ।
+
+
+
+
+
+
+
+### [Java में असिंक्रोनस जावास्क्रिप्ट निष्पादित करें – पूर्ण चरण‑दर‑चरण गाइड](./execute-async-javascript-in-java-complete-step-by-step-guide/)
+Java में असिंक्रोनस जावास्क्रिप्ट चलाने के लिए चरण‑दर‑चरण मार्गदर्शिका, टिप्स और सर्वोत्तम प्रथाएँ।
+### [Java में HTML को पार्स करना – लोड, क्वेरी और तत्वों की गिनती](./how-to-parse-html-java-load-query-count-elements/)
+Aspose.HTML for Java का उपयोग करके HTML को लोड, क्वेरी और तत्वों की गिनती करने की चरण‑दर‑चरण मार्गदर्शिका।
+
+
+
+
+
+
+
+### [Java में JavaScript से HTML उत्पन्न करें – पूर्ण चरण‑दर‑चरण गाइड](./generate-html-from-javascript-in-java-complete-step-by-step/)
+Java में JavaScript को निष्पादित करके HTML उत्पन्न करने की पूरी चरण‑दर‑चरण गाइड। कोड उदाहरण और सर्वोत्तम प्रथाएँ शामिल हैं।
+### [NodeList को इटररेट करें Java – HTML पढ़ें और इमेज src प्राप्त करें](./iterate-nodelist-java-read-html-get-image-src/)
+Java में NodeList को इटररेट करके HTML से इमेज src निकालना सीखें। चरण-दर-चरण मार्गदर्शिका और कोड उदाहरण।
+
+
+
+
+
+
+
+### [Java में NodeList पर इटरेट करना – पूर्ण गाइड](./iterate-over-nodelist-java-complete-guide/)
+Aspose.HTML for Java का उपयोग करके NodeList को इटरेट करने की पूरी प्रक्रिया सीखें, कोड उदाहरण और सर्वोत्तम प्रथाएँ।
+### [Java के साथ HTML से टेक्स्ट निकालें – पूर्ण चरण‑दर‑चरण गाइड](./extract-text-from-html-with-java-complete-step-by-step-guide/)
+Aspose.HTML for Java का उपयोग करके HTML दस्तावेज़ से टेक्स्ट निकालना सीखें। विस्तृत चरण‑दर‑चरण मार्गदर्शिका।
+### [Java में HTML क्वेरी कैसे करें – इमेज URL निकालें](./how-to-query-html-in-java-extract-image-urls/)
+Java में Aspose.HTML का उपयोग करके HTML से इमेज URL निकालने की चरण‑दर‑चरण मार्गदर्शिका।
+### [Java में HTML पार्स कैसे करें – HTML लेखों से टेक्स्ट निकालें](./how-to-parse-html-in-java-extract-text-from-html-articles/)
+Aspose.HTML for Java का उपयोग करके HTML लेखों से टेक्स्ट निकालने की चरण‑दर‑चरण मार्गदर्शिका।
+### [Java के लिए Aspose.HTML में जावास्क्रिप्ट सेटटाइमआउट एसिंक्रोनस: जावा में जावास्क्रिप्ट चलाएँ और HTML अपडेट करें](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
+### [Java में मार्कडाउन से HTML बनाएं – पूर्ण चरण‑दर‑चरण गाइड](./create-html-from-markdown-in-java-full-step-by-step-guide/)
+Java में मार्कडाउन को HTML में परिवर्तित करने की पूरी प्रक्रिया सीखें, चरण‑दर‑चरण मार्गदर्शिका के साथ।
+### [Java में HTML लोड करने का तरीका – चरण‑दर‑चरण गाइड](./how-to-load-html-in-java-step-by-step-guide/)
+Java में HTML लोड करने के लिए चरण‑दर‑चरण मार्गदर्शिका, उपयोगी टिप्स और सर्वोत्तम प्रथाएँ।
+### [Java के लिए Aspose.HTML में XPath क्वेरी कैसे करें – चरण‑दर‑चरण गाइड](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
+Aspose.HTML for Java के साथ XPath क्वेरी करने की प्रक्रिया सीखें। चरण‑दर‑चरण मार्गदर्शिका, टिप्स और सर्वोत्तम प्रथाएँ।
+### [Java में कई थ्रेड चलाएँ – Try With Resources का उपयोग करें](./run-multiple-threads-java-use-try-with-resources-java/)
+Java में कई थ्रेड चलाते समय Try With Resources का उपयोग करके संसाधनों को सुरक्षित रूप से प्रबंधित करना सीखें।
 ### [Java में क्लास द्वारा div चुनें – पूर्ण XPath गाइड](./select-div-by-class-in-java-complete-xpath-guide/)
 XPath का उपयोग करके क्लास द्वारा div तत्व चुनने की पूरी गाइड, चरण‑दर‑चरण उदाहरणों के साथ।
 ### [Java में HTML रेंडर करना – पेज लोड की प्रतीक्षा और क्वेरी सिलेक्टर पर पूर्ण गाइड](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
