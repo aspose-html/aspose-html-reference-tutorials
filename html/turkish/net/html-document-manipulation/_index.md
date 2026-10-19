@@ -51,7 +51,7 @@ Eğitimlerimiz, yeni başlayanlardan deneyimli geliştiricilere kadar çeşitli 
 ## HTML Belge İşleme Eğitimleri
 ### [Aspose.HTML ile .NET'te HTML Belgelerini Eşzamansız Olarak Yükleme](./load-html-doc-asynchronously/)
 HTML belgeleriyle çalışmak için Aspose.HTML for .NET'i nasıl kullanacağınızı öğrenin. Geliştiriciler için örnekler ve SSS içeren adım adım kılavuz.
-### [Aspose.HTML ile .NET'te Kimlik Bilgileri ile HTML Belgelerini Yükleme](./load-html-with-credentials/)
+### [Aspose.HTML ile .NET'te Kimlik Bilgileri ile HTML Belgelerini Yükleme](./load-html-doc-with-credentials/)
 Aspose.HTML for .NET ile SEO'nuzu nasıl güçlendireceğinizi öğrenin. Sıralamaları artırın, web içeriğini analiz edin ve arama motorları için optimize edin.
 ### [Aspose.HTML ile .NET'te Uzak Sunucu Kullanarak HTML Yükleme](./load-html-using-remote-server/)
 Kapsamlı rehberimizle .NET için Aspose.HTML'nin potansiyelini açığa çıkarın. Ad alanlarını içe aktarmayı, uzak HTML belgelerine erişmeyi ve daha fazlasını öğrenin.
