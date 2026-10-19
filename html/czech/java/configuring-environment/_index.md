@@ -129,6 +129,9 @@ Naučte se, jak v Javě získat a zobrazit aktuální verzi knihovny Aspose.HTML
 ### [Nastavte uživatelský agent pro headless HTML renderování – Kompletní průvodce](./set-user-agent-for-headless-html-rendering-complete-guide/)
 Naučte se, jak nastavit User Agent pro headless HTML renderování v Aspose.HTML pro Java a zajistit správné načítání zdrojů.
 
+### [Extrahovat název z HTML v Javě – Kompletní průvodce sandboxem](./extract-title-from-html-in-java-complete-sandbox-guide/)
+Naučte se, jak pomocí Aspose.HTML v Javě extrahovat název stránky a bezpečně jej zpracovat v sandboxu.
+
 ---
 
 **Last Updated:** 2025-12-03  

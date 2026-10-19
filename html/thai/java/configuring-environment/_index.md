@@ -124,6 +124,8 @@ A: การแซนด์บ็อกซ์จำกัด API บางอย
 เรียนรู้วิธีดึงและแสดงเวอร์ชันของ Aspose.HTML for Java อย่างรวดเร็ว
 ### [วิธีสร้าง Sandbox ใน Java – คู่มือเต็ม](./how-to-create-sandbox-in-java-full-guide/)
 เรียนรู้ขั้นตอนการสร้าง sandbox ใน Java อย่างละเอียดเพื่อความปลอดภัยในการประมวลผล HTML และแปลงเป็น PDF
+### [ดึงหัวเรื่องจาก HTML ใน Java – คู่มือ Sandbox ฉบับสมบูรณ์](./extract-title-from-html-in-java-complete-sandbox-guide/)
+เรียนรู้วิธีดึงชื่อเรื่องจากไฟล์ HTML ใน Java โดยใช้ sandbox เพื่อความปลอดภัยและการทำงานที่แม่นยำ
 
 ---
 ### [ตั้งค่า User Agent สำหรับการเรนเดอร์ HTML แบบ Headless – คู่มือฉบับสมบูรณ์](./set-user-agent-for-headless-html-rendering-complete-guide/)

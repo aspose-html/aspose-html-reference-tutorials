@@ -120,6 +120,8 @@ Leer hoe je de Aspose.HTML bibliotheekversie in Java kunt ophalen met deze snell
 Leer hoe je een sandbox in Java maakt met deze volledige gids, zodat je veilig scripts kunt uitvoeren tijdens HTML‑conversies.
 ### [Gebruikers‑agent instellen voor headless HTML-rendering – Complete gids](./set-user-agent-for-headless-html-rendering-complete-guide/)
 Leer hoe je een aangepaste gebruikers‑agent instelt in Aspose.HTML voor Java om headless rendering te beheersen en blokkades te voorkomen.
+### [Titel extraheren uit HTML in Java – Complete Sandbox-gids](./extract-title-from-html-in-java-complete-sandbox-guide/)
+Leer hoe je met Aspose.HTML voor Java de titel uit een HTML‑document haalt binnen een veilige sandbox‑omgeving.
 
 ---
 

@@ -86,6 +86,8 @@ Aspose.HTML for Java kullanarak bir öğenin hesaplanmış stilini nasıl alaca�
 Aspose.HTML for Java kullanarak CSS kurallarını okuyup, hesaplanmış stilleri adım adım nasıl çıkaracağınızı öğrenin.
 ### [Java’da ID ile öğe alımı – Hesaplanmış stilleri elde etmek için tam rehber](./get-element-by-id-in-java-full-guide-to-retrieve-computed-st/)
 Bu kapsamlı rehberde, Java’da bir öğeyi ID’siyle seçip, hesaplanmış CSS stillerini adım adım nasıl alacağınızı öğrenin.
+### [Sorgu seçici div sınıfı – Java’da bir div’i sınıfına göre seçme ve Hesaplanmış Stili alma](./query-selector-div-class-how-to-select-a-div-by-class-and-ge/)
+Java’da Aspose.HTML kullanarak bir div elementini sınıfına göre seçmeyi ve hesaplanmış stilini elde etmeyi öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

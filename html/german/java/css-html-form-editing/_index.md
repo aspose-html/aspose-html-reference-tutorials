@@ -89,6 +89,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML für Java den berechneten CSS‑Stil eines
 Erfahren Sie, wie Sie mit Aspose.HTML für Java CSS‑Stile auslesen und berechnete Werte programmgesteuert extrahieren.
 ### [Element per ID in Java – Vollständige Anleitung zum Abrufen berechneter Stile](./get-element-by-id-in-java-full-guide-to-retrieve-computed-st/)
 Erfahren Sie, wie Sie mit Aspose.HTML für Java ein Element per ID auswählen und dessen berechnete CSS‑Stile programmgesteuert abrufen.
+### [Query Selector div class – Wie man ein div nach Klasse auswählt und den berechneten Stil in Java ermittelt](./query-selector-div-class-how-to-select-a-div-by-class-and-ge/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java ein div‑Element per CSS‑Klasse auswählen und dessen berechneten Stil auslesen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

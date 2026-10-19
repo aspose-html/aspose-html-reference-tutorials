@@ -94,6 +94,8 @@ Aspose.HTML for Java kullanarak tek satır kodla HTML'yi PDF'ye dönüştürmeyi
 Java NIO ve paralel işleme ile birden çok HTML dosyasını toplu PDF'ye dönüştürün.
 ### [HTML'yi Java ile PDF'ye Dönüştürme – Adım‑Adım Kılavuz](./convert-html-to-pdf-with-java-step-by-step-guide/)
 Java kullanarak HTML'yi PDF'ye dönüştürmenin adım adım ayrıntılı rehberi.
+### [HTML'yi PDF'ye Dönüştürme Java’da – Tam Sandbox Kılavuzu](./convert-html-to-pdf-in-java-full-sandbox-guide/)
+Tam sandbox ortamında Java’da HTML'yi PDF'ye dönüştürmenin tüm adımlarını ayrıntılı olarak gösterir.
 ### [HTML'yi PDF'ye Dönüştürme Java’da – Sayfa Boyutu Ayarlarıyla Adım‑Adım Kılavuz](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Java’da HTML'yi PDF'ye dönüştürürken sayfa boyutu ayarlarını nasıl yapılandıracağınızı adım adım gösterir.
 ### [Özel Sayfa Boyutu ve Gömülü Yazı Tipleriyle HTML'den PDF Oluşturma](./create-pdf-from-html-with-custom-page-size-and-embedded-font/)
@@ -157,6 +159,10 @@ Aspose.HTML for Java kullanarak SVG'den özel sayfa boyutlu PDF oluşturmayı ad
 Aspose.HTML for Java ile HTML'den PDF oluşturmayı adım adım tam kılavuzda keşfedin.
 ### [HTML'yi Java'da Markdown'a Dönüştürme – Orijinal Biçimlendirmeyi Koru](./convert-html-to-markdown-in-java-preserve-original-formattin/)
 HTML içeriğini orijinal biçimlendirmesini koruyarak Java ile Markdown formatına dönüştürün.
+### [HTML'yi PDF'ye Dönüştürme – Java Fixed Thread Pool ile](./html-to-pdf-tutorial-convert-html-to-pdf-with-java-fixed-thr/)
+Java Fixed Thread Pool kullanarak çoklu HTML dosyasını eşzamanlı olarak PDF'ye dönüştürmeyi gösteren adım adım rehber.
+### [Java'da HTML'den Markdown Oluşturma – Adım‑adım Dönüşüm Kılavuzu](./create-markdown-from-html-in-java-step-by-step-conversion-gu/)
+Java kullanarak HTML içeriğini Markdown formatına dönüştürmeyi adım adım gösteren kapsamlı rehber.
 
 ### [PDF'ye Yazı Tipi Gömme – Aspose HTML'den PDF'ye Tam Kılavuz (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
 Aspose.HTML for Java kullanarak PDF dosyalarına gömülü yazı tipleri eklemeyi adım adım öğrenin.

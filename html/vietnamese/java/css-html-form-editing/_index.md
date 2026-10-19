@@ -85,6 +85,8 @@ Hướng dẫn chi tiết cách lấy computed style trong Java bằng Aspose.HT
 Hướng dẫn chi tiết cách đọc CSS trong Java và trích xuất các kiểu đã tính toán một cách từng bước.
 ### [Lấy phần tử theo id trong Java – Hướng dẫn đầy đủ để truy xuất kiểu đã tính toán](./get-element-by-id-in-java-full-guide-to-retrieve-computed-st/)
 Hướng dẫn chi tiết cách lấy phần tử HTML theo id và truy xuất các kiểu đã tính toán bằng Aspose.HTML cho Java.
+### [Trình chọn truy vấn div theo lớp – Cách chọn một div theo lớp và lấy kiểu tính toán trong Java](./query-selector-div-class-how-to-select-a-div-by-class-and-ge/)
+Hướng dẫn cách sử dụng Aspose.HTML cho Java để chọn một thẻ div theo lớp và lấy các thuộc tính kiểu tính toán.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

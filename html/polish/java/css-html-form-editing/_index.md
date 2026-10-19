@@ -87,6 +87,8 @@ Dowiedz się, jak pobrać obliczony styl elementu w Javie przy użyciu Aspose.HT
 Dowiedz się, jak w Javie odczytać CSS i wyodrębnić obliczone style krok po kroku.
 ### [Pobieranie elementu po identyfikatorze w Javie – Kompletny przewodnik po pobieraniu stylów obliczonych](./get-element-by-id-in-java-full-guide-to-retrieve-computed-st/)
 Dowiedz się, jak w Javie uzyskać element po ID i odczytać jego obliczone style przy użyciu Aspose.HTML.
+### [Selektor zapytań div class – Jak wybrać element div po klasie i uzyskać obliczony styl w Javie](./query-selector-div-class-how-to-select-a-div-by-class-and-ge/)
+Dowiedz się, jak w Javie wybrać element div po klasie i odczytać jego obliczony styl przy użyciu Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

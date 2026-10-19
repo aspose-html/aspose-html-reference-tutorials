@@ -86,6 +86,8 @@ Tanulja meg, hogyan kérdezheti le egy elem számított stílusát Java-ban az A
 Tanulja meg, hogyan olvashatja és nyerheti ki a számított CSS‑stílusokat Java‑ban lépésről‑lépésre az Aspose.HTML segítségével.
 ### [Elem lekérése azonosítóval Java-ban – Teljes útmutató a számított stílusok lekéréséhez](./get-element-by-id-in-java-full-guide-to-retrieve-computed-st/)
 Ismerje meg, hogyan szerezheti meg egy elem számított stílusait Java-ban az Aspose.HTML segítségével.
+### [query selector div osztály – Hogyan válasszunk ki egy div-et osztály alapján, és kapjuk meg a kiszámított stílust Java-ban](./query-selector-div-class-how-to-select-a-div-by-class-and-ge/)
+Ismerje meg, hogyan használhatja a query selector-t egy div osztályának kiválasztásához, és hogyan olvashatja ki a kiszámított stílusát Java-ban.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -123,6 +123,8 @@ A: 沙盒會限制某些 API（例如 `window.open`），但一般的 DOM 操作
 ### [如何在 Java 中建立沙盒 – 完整指南](./how-to-create-sandbox-in-java-full-guide/)
 ### [設定無頭 HTML 渲染的使用者代理 – 完整指南](./set-user-agent-for-headless-html-rendering-complete-guide/)
 學習如何在 Aspose.HTML for Java 中設定使用者代理，以在無頭渲染時模擬瀏覽器行為，確保正確載入資源。
+### [在 Java 中從 HTML 提取標題 – 完整沙盒指南](./extract-title-from-html-in-java-complete-sandbox-guide/)
+學習如何在 Aspose.HTML for Java 中使用沙盒機制從 HTML 提取標題，確保安全且正確的文字擷取。
 
 ---
 

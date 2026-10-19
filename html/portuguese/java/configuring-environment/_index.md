@@ -126,6 +126,8 @@ Saiba como criar um sandbox no Aspose.HTML para Java, garantindo execução segu
 Saiba como obter a versão da biblioteca Aspose.HTML em Java e exibi‑la rapidamente em sua aplicação.
 ### [Definir User Agent para Renderização HTML Headless – Guia Completo](./set-user-agent-for-headless-html-rendering-complete-guide/)
 Aprenda a configurar o User Agent no Aspose.HTML para Java ao renderizar HTML em modo headless, garantindo compatibilidade e controle total.
+### [Extrair título de HTML em Java – Guia completo de sandbox](./extract-title-from-html-in-java-complete-sandbox-guide/)
+Aprenda a extrair o título de um documento HTML em Java usando o Aspose.HTML dentro de um sandbox seguro.
 
 ---
 

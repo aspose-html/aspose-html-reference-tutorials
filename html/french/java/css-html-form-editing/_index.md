@@ -89,6 +89,8 @@ Apprenez à récupérer le style calculé d'un élément HTML en Java avec Aspos
 Apprenez à lire le CSS en Java et à extraire les styles calculés grâce à Aspose.HTML, avec un guide détaillé pas à pas.
 ### [Obtenir un élément par ID en Java – Guide complet pour récupérer les styles calculés](./get-element-by-id-in-java-full-guide-to-retrieve-computed-st/)
 Apprenez à sélectionner un élément HTML par son ID en Java et à récupérer ses styles calculés avec Aspose.HTML, grâce à ce guide complet pas à pas.
+### [Sélecteur de requête div classe – Comment sélectionner une div par classe et obtenir le style calculé en Java](./query-selector-div-class-how-to-select-a-div-by-class-and-ge/)
+Apprenez à sélectionner une div par sa classe et à récupérer son style calculé en Java avec Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

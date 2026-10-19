@@ -88,6 +88,9 @@ url: /el/java/css-html-form-editing/
 
 ### [Ανάκτηση στοιχείου με id σε Java – Πλήρης Οδηγός για την Ανάκτηση Υπολογισμένων Στυλ](./get-element-by-id-in-java-full-guide-to-retrieve-computed-st/)
 Μάθετε πώς να εντοπίζετε στοιχεία HTML με συγκεκριμένο id και να λαμβάνετε τα υπολογισμένα στυλ τους χρησιμοποιώντας Aspose.HTML για Java.
+### [Επιλογέας ερωτήματος div κλάσης – Πώς να επιλέξετε ένα div κατά κλάση και να λάβετε το υπολογισμένο στυλ σε Java](./query-selector-div-class-how-to-select-a-div-by-class-and-ge/)
+Μάθετε πώς να επιλέγετε ένα στοιχείο div με συγκεκριμένη κλάση και να ανακτάτε το υπολογισμένο στυλ του χρησιμοποιώντας Aspose.HTML για Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

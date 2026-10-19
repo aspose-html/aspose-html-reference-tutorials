@@ -86,6 +86,8 @@ Lär dig hur du hämtar beräknade CSS‑stilar för element i Java med Aspose.H
 Lär dig hur du programatiskt läser CSS‑regler och hämtar beräknade stilar i Java med Aspose.HTML i en tydlig steg‑för‑steg‑guide.
 ### [Hämta element efter id i Java – Fullständig guide för att hämta beräknade stilar](./get-element-by-id-in-java-full-guide-to-retrieve-computed-st/)
 Lär dig hur du med Aspose.HTML för Java hittar element via id och får deras beräknade CSS‑stilar i en detaljerad steg‑för‑steg‑guide.
+### [query selector div-klass – Hur man väljer en div efter klass och får beräknad stil i Java](./query-selector-div-class-how-to-select-a-div-by-class-and-ge/)
+Lär dig hur du använder querySelector för att välja en div efter klass och hämta dess beräknade stil med Aspose.HTML för Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

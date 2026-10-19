@@ -147,6 +147,10 @@ Erfahren Sie, wie Sie HTML mit Aspose.HTML in Java zu PDF konvertieren und das E
 ### [PDF mit benutzerdefinierter Größe erstellen – HTML zu PDF mit Aspose](./create-pdf-custom-size-convert-html-to-pdf-with-aspose/)
 Erfahren Sie, wie Sie mit Aspose.HTML in Java PDFs mit benutzerdefinierten Seitenmaßen aus HTML erzeugen.
 
+### [HTML zu PDF in Java – Vollständiger Sandbox‑Leitfaden](./convert-html-to-pdf-in-java-full-sandbox-guide/)
+Erfahren Sie, wie Sie HTML in Java zu PDF konvertieren, indem Sie den vollständigen Sandbox‑Guide Schritt für Schritt befolgen.
+
+
 ### [Konvertierung von HTML zu MHTML](./convert-html-to-mhtml/)
 Konvertieren Sie HTML mühelos zu MHTML mit Aspose.HTML für Java. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung für eine effiziente HTML‑zu‑MHTML‑Konvertierung.
 
@@ -170,6 +174,8 @@ Erfahren Sie, wie Sie Markdown‑Dateien in Java mit Aspose.HTML in PDFs umwande
 Erfahren Sie, wie Sie Markdown‑Dateien in PDFs umwandeln, indem Sie den Aspose HTML Converter in Java nutzen.
 ### [HTML in Markdown konvertieren in Java – Originalformatierung beibehalten](./convert-html-to-markdown-in-java-preserve-original-formattin/)
 Erfahren Sie, wie Sie HTML mit Aspose.HTML in Java in Markdown umwandeln und dabei die ursprüngliche Formatierung erhalten.
+### [Markdown aus HTML in Java erstellen – Schritt‑für‑Schritt‑Konvertierungsanleitung](./create-markdown-from-html-in-java-step-by-step-conversion-gu/)
+Erfahren Sie, wie Sie HTML in Java zu Markdown konvertieren – eine detaillierte Schritt‑für‑Schritt‑Anleitung.
 
 ### [Konvertierung von SVG zu Bild](./convert-svg-to-image/)
 Erfahren Sie, wie Sie SVG in Java mit Aspose.HTML zu Bildern konvertieren. Umfassende Anleitung für hochwertige Ausgaben.
@@ -255,6 +261,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML HTML‑Inhalte in Markdown‑Dateien in Ja
 
 ### [PDF aus HTML in Java erstellen – Parallel‑Batch‑Konvertierungs‑Leitfaden](./create-pdf-from-html-in-java-parallel-batch-conversion-guide/)
 Erfahren Sie, wie Sie mehrere HTML‑Dateien gleichzeitig in PDFs konvertieren und dabei die Leistung mit paralleler Verarbeitung maximieren.
+
+### [HTML‑zu‑PDF‑Tutorial – HTML mit Java Fixed Thread Pool in PDF konvertieren](./html-to-pdf-tutorial-convert-html-to-pdf-with-java-fixed-thr/)
 
 ## Häufig gestellte Fragen
 
