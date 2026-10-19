@@ -134,6 +134,8 @@ Aspose.HTML for Java 簡化了 HTML‑to‑PDF 工作流程。請參考專屬教
 說明如何在 Aspose.HTML for Java 中設定 PDF 的頁面尺寸，包括自訂寬高與預設大小。
 ### [在 Java 中從 HTML 建立 PDF – 完整 Aspose 指南](./create-pdf-from-html-in-java-complete-aspose-guide/)
 完整步驟說明如何使用 Aspose.HTML 在 Java 中將 HTML 轉換為 PDF，涵蓋設定與最佳實踐。
+### [建立自訂尺寸 PDF – 使用 Aspose 將 HTML 轉換為 PDF](./create-pdf-custom-size-convert-html-to-pdf-with-aspose/)
+說明如何在 Java 中使用 Aspose.HTML 設定 PDF 自訂頁面尺寸，將 HTML 轉換為符合需求的 PDF 文件。
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 使用 Aspose.HTML for Java 輕鬆將 HTML 轉換為 MHTML，依照步驟指南完成高效的 HTML‑to‑MHTML 轉換。
 ### [使用 Aspose.HTML 將 HTML 轉換為 MHTML – 完整 Java 指南](./convert-html-to-mhtml-with-aspose-html-complete-java-guide/)
@@ -215,6 +217,8 @@ Aspose.HTML for Java 簡化了 HTML‑to‑PDF 工作流程。請參考專屬教
 說明如何在 Java 中使用固定執行緒池進行 HTML 到 PDF 的批次轉換，提高效能與資源利用。
 ### [如何使用 Aspose 在 Java 中將 HTML 轉換為 Markdown](./how-to-use-aspose-to-convert-html-to-markdown-in-java/)
 使用 Aspose.HTML for Java 將 HTML 內容轉換為 Markdown 格式，簡化文件處理流程。
+### [在 Java 中將 HTML 轉換為 Markdown – 保留原始格式](./convert-html-to-markdown-in-java-preserve-original-formattin/)
+使用 Aspose.HTML for Java 將 HTML 內容轉換為 Markdown，同時保留原始排版與樣式。
 
 ## 常見問題
 

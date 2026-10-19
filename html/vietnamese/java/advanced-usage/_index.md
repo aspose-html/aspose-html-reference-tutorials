@@ -152,6 +152,8 @@ Hướng dẫn chi tiết cách kích hoạt JavaScript trong ứng dụng Java 
 Học cách gọi mã Java từ JavaScript bằng cách thêm đối tượng host và thực thi JavaScript trong môi trường Java.
 ### [Lấy tiêu đề HTML Java – Render trang trong sandbox với chiều rộng màn hình](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
 Học cách lấy tiêu đề HTML trong Java và render trang trong sandbox với chiều rộng màn hình tùy chỉnh.
+### [Ví dụ top-level await – Sử dụng await delay trong JavaScript](./top-level-await-example-using-await-delay-in-javascript/)
+Hướng dẫn cách sử dụng top-level await với hàm delay trong JavaScript bằng Aspose.HTML.
 
 ---
 

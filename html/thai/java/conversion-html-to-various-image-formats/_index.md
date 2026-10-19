@@ -158,6 +158,7 @@ weight: 24
 ### [วิธีใช้ Sandbox เพื่อจับภาพหน้าจอเว็บเพจ](./how-to-use-sandbox-to-capture-webpage-screenshot/)
 เรียนรู้วิธีใช้ Sandbox ของ Aspose.HTML เพื่อจับภาพหน้าจอของหน้าเว็บโดยอัตโนมัติ
 ### [สร้าง GIF จาก SVG ด้วย Java – คู่มือเต็มขั้นตอน](./create-gif-from-svg-with-java-full-step-by-step-guide/)
+### [สร้างไฟล์ TIFF หลายหน้าจาก SVG ใน Java – คู่มือขั้นตอนโดยละเอียด](./create-multipage-tiff-from-svg-in-java-step-by-step-guide/)
 
 ## คำถามที่พบบ่อย
 

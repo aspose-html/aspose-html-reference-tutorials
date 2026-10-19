@@ -178,6 +178,9 @@ Hướng dẫn nhanh cách chuyển đổi tệp Markdown thành PDF trong Java 
 ### [Cách sử dụng Aspose để chuyển đổi HTML sang Markdown trong Java](./how-to-use-aspose-to-convert-html-to-markdown-in-java/)
 Hướng dẫn chi tiết cách chuyển đổi HTML sang Markdown trong Java bằng Aspose.HTML, bao gồm các bước cấu hình và ví dụ thực tế.
 
+### [Chuyển đổi HTML sang Markdown trong Java – Giữ nguyên định dạng gốc](./convert-html-to-markdown-in-java-preserve-original-formattin/)
+Chuyển đổi HTML sang Markdown trong Java, bảo toàn định dạng gốc và cấu trúc tài liệu một cách chính xác.
+
 ### [Chuyển đổi SVG sang Hình ảnh](./convert-svg-to-image/)
 Tìm hiểu cách chuyển đổi SVG sang hình ảnh trong Java với Aspose.HTML. Hướng dẫn toàn diện để có đầu ra chất lượng cao.
 ### [Chuyển đổi SVG sang PDF](./convert-svg-to-pdf/)
@@ -239,9 +242,6 @@ Hướng dẫn chi tiết cách sử dụng Aspose.HTML để chuyển đổi đ
 ### [Hướng dẫn html to pdf – Chuyển đổi HTML sang PDF với Aspose.HTML Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-ja/)
 Hướng dẫn chi tiết cách chuyển đổi HTML sang PDF trong Java bằng Aspose.HTML, bao gồm các tùy chọn cấu hình và ví dụ thực tế.
 
-### [Tạo PDF từ HTML trong Java – Hướng dẫn chuyển đổi hàng loạt song song](./create-pdf-from-html-in-java-parallel-batch-conversion-guide/)
-Hướng dẫn cách chuyển đổi nhiều tệp HTML sang PDF đồng thời trong Java bằng Aspose.HTML, tối ưu hiệu suất và tài nguyên.
-
 ### [Tạo Fixed Thread Pool cho chuyển đổi HTML‑to‑PDF song song trong Java](./create-fixed-thread-pool-for-parallel-html-to-pdf-conversion/)
 Hướng dẫn tạo Fixed Thread Pool để thực hiện chuyển đổi HTML sang PDF đồng thời, tăng hiệu suất trong Java với Aspose.HTML.
 
@@ -255,6 +255,11 @@ Hướng dẫn tạo Fixed Thread Pool để thực hiện chuyển đổi HTML 
 
 ### [Tạo PDF từ HTML trong Java – Hướng dẫn đầy đủ Aspose](./create-pdf-from-html-in-java-complete-aspose-guide/)
 Hướng dẫn chi tiết tạo file PDF từ HTML trong Java bằng Aspose.HTML, bao gồm cấu hình và ví dụ thực tế.
+
+### [Tạo PDF Kích Thước Tùy Chỉnh – Chuyển đổi HTML sang PDF với Aspose](./create-pdf-custom-size-convert-html-to-pdf-with-aspose/)
+
+### [Tạo PDF từ HTML trong Java – Hướng dẫn chuyển đổi hàng loạt song song](./create-pdf-from-html-in-java-parallel-batch-conversion-guide/)
+Hướng dẫn cách chuyển đổi đồng thời nhiều tệp HTML thành PDF trong Java bằng Aspose.HTML, tối ưu hiệu suất.
 
 ## Câu hỏi thường gặp
 

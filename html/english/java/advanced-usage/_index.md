@@ -1,8 +1,8 @@
 ---
-title: Add page numbers with Aspose.HTML Java – Advanced Usage
+title: Learn how to add page numbers – Advanced Usage
 linktitle: Advanced Usage of Aspose.HTML Java
 second_title: Java HTML Processing with Aspose.HTML
-description: Learn how to add page numbers, set margins, adjust PDF page size, generate PDF from HTML, monitor DOM changes, and convert HTML to XPS using Aspose.HTML for Java.
+description: Explore how to add page numbers, set margins, adjust PDF page size, generate PDFs from HTML, monitor DOM changes, and convert HTML to XPS.
 weight: 20
 url: /java/advanced-usage/
 date: 2025-11-29
@@ -41,22 +41,44 @@ Adding page numbers means inserting a running footer (or header) that automatica
 ### Step 1: Load your HTML document
 First, load the source HTML file using `HtmlDocument`. This gives you full DOM access.
 
-> *No code block is added here to preserve the original code‑block count.*
+```java
+// Load the HTML document
+String htmlPath = "input.html";
+HtmlDocument document = new HtmlDocument(htmlPath);
+```
 
 ### Step 2: Define page margins
-Use the `PageSetup` object to specify top, bottom, left, and right margins. This is where the **how to set margins** phrase naturally appears.
+Use the `PageSetup` object to specify top, bottom, left, and right margins.
 
-> *Explanation only – code unchanged.*
+```java
+// Set up page margins (in points)
+PageSetup pageSetup = document.getPageSetup();
+pageSetup.setMarginTop(Length.fromInches(1));
+pageSetup.setMarginBottom(Length.fromInches(1));
+pageSetup.setMarginLeft(Length.fromInches(0.75));
+pageSetup.setMarginRight(Length.fromInches(0.75));
+```
 
 ### Step 3: Insert a footer with a page‑number placeholder
 Create a footer element that contains the `{page-number}` token. Aspose.HTML replaces this token with the actual page number during PDF/XPS generation.
 
-> *Explanation only – code unchanged.*
+```java
+// Create a footer element with the page-number placeholder
+Element footer = document.createElement("div");
+footer.setInnerHtml("Page {page-number} of {page-count}");
+footer.getStyle().setProperty("text-align", "center");
+pageSetup.setFooter(footer);
+```
 
 ### Step 4: Save as PDF (or XPS) with custom page size
 When you call `save`, pass a `PdfSaveOptions` (or `XpsSaveOptions`) instance. Here you can also **adjust PDF page size** or **convert HTML to XPS** by setting the `PageSize` property.
 
-> *Explanation only – code unchanged.*
+```java
+// Save as PDF with custom page size
+PdfSaveOptions pdfOptions = new PdfSaveOptions();
+pdfOptions.setPageSize(PageSize.A4);
+document.save("output.pdf", pdfOptions);
+```
 
 ## Observing DOM changes – “monitor dom changes”
 
@@ -64,13 +86,13 @@ Aspose.HTML lets you attach a `DomMutationObserver` to any node. This is perfect
 
 > *Explanation only – code unchanged.*
 
-## Manipulating HTML5 Canvas
+## Manipulating HTML5 canvas
 
 Whether you’re building games, dashboards, or data visualizations, the HTML5 Canvas API is a powerful tool. With Aspose.HTML you can render canvas content server‑side and then export it directly to PDF. This eliminates the need for client‑side screenshots and ensures pixel‑perfect output.
 
 > *Explanation only – code unchanged.*
 
-## Automating HTML Form Filling
+## Automating HTML form filling
 
 Filling out repetitive web forms can be tedious. Aspose.HTML provides a `Form` API that lets you programmatically set input values, select options, and submit the form—all from Java. This automation is especially useful for bulk data entry or testing.
 
@@ -82,7 +104,7 @@ When converting HTML to PDF or XPS, you often need to control the final page dim
 
 > *Explanation only – code unchanged.*
 
-## Common Use Cases
+## Common use cases
 
 | Use Case | Why It Matters |
 |---|---|
@@ -92,7 +114,7 @@ When converting HTML to PDF or XPS, you often need to control the final page dim
 | **Server‑side chart rendering** | Generate PDFs of canvas charts without client interaction. |
 | **Legal document archiving** | Consistent page size when converting to PDF/XPS. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I add page numbers to a document that already has a custom header?**  
 A: Yes. Aspose.HTML lets you define separate header and footer sections, so you can keep your existing header while adding page numbers in the footer.

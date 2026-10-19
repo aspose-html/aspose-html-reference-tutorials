@@ -155,6 +155,8 @@ Java में Aspose HTML का उपयोग करके पूर्ण X
 जावा एप्लिकेशन में जावास्क्रिप्ट चलाने और होस्ट ऑब्जेक्ट के माध्यम से जावा मेथड्स को एक्सेस करने की प्रक्रिया सीखें।  
 ### [HTML शीर्षक प्राप्त करें Java – स्क्रीन चौड़ाई के साथ सैंडबॉक्स में पेज रेंडर करें](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
 Java में Aspose.HTML का उपयोग करके HTML पेज का शीर्षक प्राप्त करें और स्क्रीन चौड़ाई सेट करके सैंडबॉक्स में पेज रेंडर करें।  
+### [टॉप‑लेवल await उदाहरण – JavaScript में await delay का उपयोग](./top-level-await-example-using-await-delay-in-javascript/)
+JavaScript में टॉप‑लेवल await का उपयोग करके await delay को कैसे लागू करें, इस ट्यूटोरियल में सीखें।  
 
 ---
 

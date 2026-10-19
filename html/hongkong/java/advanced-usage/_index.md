@@ -165,6 +165,9 @@ A: 不需要。單一的 Aspose.HTML for Java 授權即涵蓋所有輸出格式�
 ### [在沙盒中以螢幕寬度渲染頁面並取得 HTML 標題 – Java](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
 學習如何在 Java 中使用 Aspose.HTML 在沙盒環境以螢幕寬度渲染頁面，並取得 HTML 標題。
 
+### [頂層 await 範例 – 在 JavaScript 中使用 await delay](./top-level-await-example-using-await-delay-in-javascript/)
+示範如何在 JavaScript 中使用頂層 await 搭配 await delay 進行非同步操作。
+
 ---
 
 **最後更新日期：** 2025-11-29  

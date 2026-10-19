@@ -145,6 +145,8 @@ Aspose.HTML for Java を使用し、JavaScript から Java メソッドを非同
 Aspose.HTML for Java を使用し、ホストオブジェクトを追加して Java から JavaScript を実行し、相互呼び出しを実装する方法を学びます。
 ### [HTML タイトル取得（Java） – 画面幅を指定してサンドボックスでページをレンダリング](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
 Aspose.HTML for Java を使用し、サンドボックス環境で画面幅を設定して HTML のタイトルを取得し、ページをレンダリングする方法を学びます。
+### [トップレベル await の例 – JavaScript で await delay を使用する](./top-level-await-example-using-await-delay-in-javascript/)
+JavaScript のトップレベル await を利用し、await delay 関数で非同期処理を遅延させる方法を解説します。
 
 ---
 

@@ -117,6 +117,7 @@ Att använda Aspose.HTML for Java förenklar konverteringen av HTML‑dokument t
 ### [Spara HTML-sida som PNG i Java – Komplett handledning](./save-html-page-as-png-in-java-complete-tutorial/)
 ### [Hur du använder Sandbox för att fånga en webbsida som skärmdump](./how-to-use-sandbox-to-capture-webpage-screenshot/)
 ### [Skapa GIF från SVG med Java – Fullständig steg‑för‑steg‑guide](./create-gif-from-svg-with-java-full-step-by-step-guide/)
+### [Skapa flersidig TIFF från SVG i Java – Steg‑för‑steg‑guide](./create-multipage-tiff-from-svg-in-java-step-by-step-guide/)
 
 ### [Hur man renderar HTML till PNG – Komplett guide för Java‑utvecklare](./how-to-render-html-to-png-complete-guide-for-java-developers/)
 ### [Skapa PNG från HTML i Java – Fullständig steg‑för‑steg‑guide](./create-png-from-html-in-java-full-step-by-step-guide/)

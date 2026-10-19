@@ -120,9 +120,6 @@ weight: 24
 Узнайте, как легко преобразовывать HTML в TIFF с помощью Aspose.HTML для Java. Пошаговое руководство по эффективной обработке документов.
 ### [Преобразование HTML в WebP – Полное руководство Java с Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 Узнайте, как преобразовать HTML в WebP в Java с помощью Aspose.HTML. Полное пошаговое руководство.
-### [Преобразование HTML в WebP – Полное руководство Java](./convert-html-to-webp-complete-java-guide/)
-Узнайте, как преобразовать HTML в WebP в Java с помощью Aspose.HTML. Полное пошаговое руководство.
-
 ### [Как создать GIF из SVG – пошаговое руководство Java](./how-to-create-gif-from-svg-step-by-step-java-guide/)
 Подробное руководство по созданию анимированных GIF из SVG в Java с использованием Aspose.HTML.
 
@@ -173,6 +170,12 @@ weight: 24
 Узнайте, как преобразовать SVG‑изображения в анимированные GIF с помощью Aspose.HTML for Java, следуя подробным шагам.
 
 ### [Как использовать Sandbox для захвата скриншота веб-страницы](./how-to-use-sandbox-to-capture-webpage-screenshot/)
+
+### [Преобразование HTML в WebP – Полное руководство Java](./convert-html-to-webp-complete-java-guide/)
+Узнайте, как преобразовать HTML в WebP в Java с помощью Aspose.HTML. Полное пошаговое руководство.
+
+### [Создание многостраничного TIFF из SVG в Java – пошаговое руководство](./create-multipage-tiff-from-svg-in-java-step-by-step-guide/)
+Узнайте, как создать многостраничный TIFF из SVG в Java с помощью Aspose.HTML. Подробное пошаговое руководство.
 
 ## Часто задаваемые вопросы
 

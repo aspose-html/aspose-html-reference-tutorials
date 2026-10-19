@@ -151,6 +151,8 @@ Leer hoe je Java vanuit JavaScript kunt aanroepen, async fetch gebruikt en de JS
 ### [Java aanroepen vanuit JavaScript – Host‑object toevoegen en JavaScript uitvoeren in Java](./call-java-from-javascript-add-host-object-and-run-javascript/)
 Leer hoe je een host‑object toevoegt en JavaScript vanuit Java kunt uitvoeren met Aspose.HTML for Java.
 ### [HTML‑titel ophalen met Java – Pagina renderen in sandbox met schermbreedte](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
+### [Top‑level await‑voorbeeld – Await‑delay gebruiken in JavaScript](./top-level-await-example-using-await-delay-in-javascript/)
+Leer hoe je top‑level await en een await‑delay kunt toepassen in JavaScript met Aspose.HTML.
 
 ---
 

@@ -155,6 +155,8 @@ Lär dig hur du använder XPath‑filter för att exakt välja element i HTML‑
 Lär dig hur du exponerar Java‑klasser som värdobjekt för JavaScript och kör skript i Java‑miljön med Aspose.HTML.
 ### [Hämta HTML‑titel i Java – Rendera sida i sandbox med skärmbredd](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
 Lär dig hur du hämtar HTML‑titel och renderar en sida i en sandbox med angiven skärmbredd med Aspose.HTML för Java.
+### [Top‑level await‑exempel – Använd await‑fördröjning i JavaScript](./top-level-await-example-using-await-delay-in-javascript/)
+Lär dig hur du använder top‑level await med en fördröjningsfunktion i JavaScript.
 
 ---
 

@@ -171,6 +171,8 @@ Aspose.HTML for Java を使用して、HTML を PNG に変換する際に DPI �
 Aspose.HTML for Java を使用して、SVG ファイルを GIF アニメーションに変換する手順を詳しく解説します。
 
 ### [サンドボックスを使用してウェブページのスクリーンショットを取得する方法](./how-to-use-sandbox-to-capture-webpage-screenshot/)
+### [Java で SVG からマルチページ TIFF を作成 – ステップバイステップガイド](./create-multipage-tiff-from-svg-in-java-step-by-step-guide/)
+Aspose.HTML for Java を使用して、SVG をマルチページ TIFF に変換する方法を学びます。実践的な手順で簡単に実装できます。
 
 ## よくある質問
 

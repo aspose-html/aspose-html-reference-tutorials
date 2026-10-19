@@ -54,7 +54,7 @@ Wywołaj `renderer.renderToFile(outputPath, saveOptions)`, aby wygenerować obra
 *Te same trzy kroki mają zastosowanie do BMP, TIFF i każdego innego obsługiwanego formatu.*
 
 ## Konwertowanie HTML do BMP
-Konwertowanie HTML do BMP jest częstym wymogiem przy archiwizacji stron internetowych lub generowaniu miniatur, które wymagają jakości bezstratnej. Niezależnie od tego, czy tworzysz system zarządzania dokumentami, czy narzędzie raportujące, ten przewodnik pokaże, jak wykonać konwersję bez wysiłku.
+Konwertowanie HTML do BMP jest częstym wymogiem przy archiwizacji stron internetowych lub generowaniu miniatur, które wymagają jakości bezstratnej. Niezależnie od tego, czy tworzysz system zarządzania dokumentami, czy narzędzie raportujące, ten przewodnik pokaże Ci, jak wykonać konwersję bez wysiłku.
 
 ## Konwertowanie HTML do GIF
 Chcesz **convert HTML to GIF** dla animowanych podglądów lub lekkich grafik? Aspose.HTML for Java upraszcza to zadanie. Ten samouczek przeprowadzi Cię przez proces, zapewniając wysokiej jakości wynik przy minimalnym kodzie.
@@ -173,6 +173,9 @@ Dowiedz się, jak konwertować pliki SVG do formatu WebP w Javie przy użyciu As
 
 ### [Ustaw współczynnik pikseli urządzenia w Javie – kompletny przewodnik](./set-device-pixel-ratio-in-java-complete-guide/)
 Pełny przewodnik, jak ustawić współczynnik pikseli urządzenia w Javie przy użyciu Aspose.HTML, aby uzyskać wyraźne renderowanie.
+### [Utworzenie wielostronicowego TIFF z SVG w Javie – Przewodnik krok po kroku](./create-multipage-tiff-from-svg-in-java-step-by-step-guide/)
+Dowiedz się, jak utworzyć wielostronicowy plik TIFF z SVG w Javie przy użyciu Aspose.HTML. Kompletny przewodnik krok po kroku.
+
 
 ## Najczęściej zadawane pytania
 

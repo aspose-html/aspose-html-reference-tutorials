@@ -211,6 +211,10 @@ Aspose.HTML を使用して Java で HTML から PDF を作成する手順を詳
 ### [SVG を変換する方法 – Aspose HTML コンバータを使用した完全ガイド](./how-to-convert-svg-complete-guide-using-aspose-html-converte/)
 Aspose.HTML を利用して SVG をさまざまなフォーマットに変換する手順とベストプラクティスを詳しく解説します。
 ### [JavaでHTMLからPDFを作成 – ワンラインAsposeガイド](./create-pdf-from-html-in-java-one-line-aspose-guide/)
+### [PDF カスタムサイズ作成 – Aspose で HTML を PDF に変換](./create-pdf-custom-size-convert-html-to-pdf-with-aspose/)
+Aspose.HTML を使用して、HTML からカスタムページサイズの PDF を作成する手順を解説します。
+### [Java で HTML を Markdown に変換 – 元のフォーマットを保持](./convert-html-to-markdown-in-java-preserve-original-formattin/)
+Aspose.HTML を使用して Java で HTML を Markdown に変換し、元のフォーマットを保持する方法を学びます。
 
 ## よくある質問
 

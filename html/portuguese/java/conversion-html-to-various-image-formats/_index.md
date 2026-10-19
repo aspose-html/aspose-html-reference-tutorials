@@ -106,8 +106,9 @@ Aprenda a definir o DPI ao converter HTML para PNG com Aspose.HTML for Java. Gui
 Aprenda a converter HTML para PNG em Java com controle de cor de fundo e resolução. Guia completo passo a passo usando Aspose.HTML.
 ### [Convertendo HTML para TIFF](./convert-html-to-tiff/)
 Aprenda a converter HTML para TIFF usando Aspose.HTML for Java de forma fácil. Guia passo a passo para manipulação eficiente de documentos.
-
 ### [Convertendo HTML para WebP – Guia Completo em Java com Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
+### [Criar TIFF multipágina a partir de SVG em Java – Guia passo a passo](./create-multipage-tiff-from-svg-in-java-step-by-step-guide/)
+### [Convertendo HTML para WebP – Guia Completo em Java com Aspose.HTML](./convert-html-to-webp-complete-java-guide/)
 Aprenda a converter HTML para WebP em Java usando Aspose.HTML. Guia completo passo a passo para gerar imagens WebP de alta qualidade.
 ### [Como Definir DPI ao Converter SVG para PNG com Java](./how-to-set-dpi-when-converting-svg-to-png-with-java/)
 Aprenda a definir o DPI ao converter SVG para PNG usando Aspose.HTML for Java. Guia passo a passo para obter imagens de alta qualidade.
@@ -149,8 +150,6 @@ Aprenda a usar ExecutorService para converter HTML em PNG em lote de forma paral
 Aprenda a converter SVG para WebP em Java usando Aspose.HTML. Guia passo a passo para gerar imagens WebP de alta qualidade a partir de SVG.
 ### [Definir a proporção de pixels do dispositivo em Java – Guia completo](./set-device-pixel-ratio-in-java-complete-guide/)
 Aprenda a configurar o Device Pixel Ratio ao renderizar HTML com Aspose.HTML for Java. Guia passo a passo.
-### [Converter HTML para WebP – Guia Completo em Java](./convert-html-to-webp-complete-java-guide/)
-Aprenda a converter HTML para WebP em Java usando Aspose.HTML. Guia completo passo a passo para gerar imagens WebP de alta qualidade.
 ### [Definir a proporção de pixels do dispositivo em Java – Renderizar HTML para PNG](./set-device-pixel-ratio-in-java-render-html-to-png/)
 Aprenda a definir a proporção de pixels do dispositivo ao renderizar HTML em PNG com Aspose.HTML for Java.
 ### [Salvar página HTML como PNG em Java – Tutorial completo](./save-html-page-as-png-in-java-complete-tutorial/)

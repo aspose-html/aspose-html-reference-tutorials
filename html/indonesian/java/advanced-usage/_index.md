@@ -152,6 +152,9 @@ Pelajari cara memanggil Java dari JavaScript dengan menambahkan host object dan 
 ### [Dapatkan Judul HTML Java – Render Halaman di Sandbox dengan Lebar Layar](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
 Pelajari cara mendapatkan judul HTML menggunakan Aspose.HTML untuk Java, merender halaman dalam sandbox dengan lebar layar tertentu.
 
+### [Contoh top‑level await – Menggunakan delay await dalam JavaScript](./top-level-await-example-using-await-delay-in-javascript/)
+Pelajari contoh penggunaan top‑level await dengan fungsi delay await dalam JavaScript menggunakan Aspose.HTML.
+
 ---
 
 **Terakhir Diperbarui:** 2025-11-29  

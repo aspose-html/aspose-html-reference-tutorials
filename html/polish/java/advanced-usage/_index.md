@@ -153,6 +153,8 @@ Poznaj, jak stosować pełne wyrażenia XPath w Aspose HTML dla Javy, aby precyz
 Dowiedz się, jak dodać obiekt hosta w JavaScript i uruchamiać skrypty JavaScript bezpośrednio w aplikacji Java przy użyciu Aspose.HTML.
 ### [Pobierz tytuł HTML w Javie – Renderuj stronę w sandboxie z szerokością ekranu](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
 Dowiedz się, jak pobrać tytuł strony HTML i renderować ją w środowisku sandbox z określoną szerokością ekranu przy użyciu Aspose.HTML dla Javy.
+### [Przykład top‑level await – użycie await delay w JavaScript](./top-level-await-example-using-await-delay-in-javascript/)
+Poznaj, jak zastosować top‑level await i funkcję delay w kodzie JavaScript przy użyciu Aspose.HTML.
 
 ---
 

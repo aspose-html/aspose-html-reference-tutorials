@@ -129,6 +129,7 @@ Leer hoe u met Aspose HTML Converter in Java Markdown-bestanden omzet naar PDF-d
 Leer hoe u met een korte Java‑code een PDF maakt vanuit Markdown met Aspose.HTML.
 ### [Hoe Aspose te gebruiken om HTML naar Markdown te converteren in Java](./how-to-use-aspose-to-convert-html-to-markdown-in-java/)
 Leer hoe u met Aspose.HTML HTML‑documenten naar Markdown kunt omzetten in Java, stap‑voor‑stap en met hoge kwaliteit.
+### [HTML naar Markdown converteren in Java – Originele opmaak behouden](./convert-html-to-markdown-in-java-preserve-original-formattin/)
 ### [SVG naar afbeelding converteren](./convert-svg-to-image/)
 Leer hoe u SVG naar afbeeldingen kunt converteren in Java met Aspose.HTML. Uitgebreide gids voor output van hoge kwaliteit.
 ### [SVG naar PDF converteren](./convert-svg-to-pdf/)
@@ -149,6 +150,8 @@ Leer hoe u PDF-bestanden kunt beveiligen met een wachtwoord tijdens conversie va
 ### [HTML naar Markdown converteren in Java – Volledige stap‑voor‑stap gids](./convert-html-to-markdown-in-java-full-step-by-step-guide/)
 ### [PDF maken van SVG – Aangepaste paginagrootte met Aspose.HTML (Java)](./create-pdf-from-svg-custom-page-size-with-aspose-html-java/)
 Maak een PDF van een SVG-bestand met een aangepaste paginagrootte met behulp van Aspose.HTML voor Java.
+### [PDF met aangepaste grootte maken – HTML naar PDF converteren met Aspose](./create-pdf-custom-size-convert-html-to-pdf-with-aspose/)
+Leer hoe u PDF's met aangepaste paginagrootte genereert vanuit HTML met Aspose.HTML for Java.
 
 ### [HTML naar PDF converteren – Complete gids voor het opslaan van PDF naar Azure Blob](./convert-html-to-pdf-complete-guide-to-saving-pdf-to-azure-bl/)
 Leer hoe u HTML naar PDF converteert en de PDF opslaat in Azure Blob Storage met Aspose.HTML voor Java.

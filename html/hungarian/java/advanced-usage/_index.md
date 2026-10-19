@@ -150,6 +150,8 @@ Ismerje meg, hogyan engedélyezheti a JavaScript futtatását Java alkalmazások
 ### [Hogyan használjuk az Aspose HTML-t Java‑ban – Teljes XPath szűrési útmutató](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
 ### [Java hívása JavaScript‑ből – Host objektum hozzáadása és Java‑ban JavaScript futtatása](./call-java-from-javascript-add-host-object-and-run-javascript/)
 Tanulja meg, hogyan adhat hozzá host objektumot, és futtathat JavaScript‑et Java környezetben az Aspose.HTML for Java segítségével.
+### [top level await példa – Await delay használata JavaScriptben](./top-level-await-example-using-await-delay-in-javascript/)
+Ismerje meg, hogyan használhatja a top‑level await‑ot és az await delay‑t JavaScriptben az Aspose.HTML segítségével.
 
 ---
 

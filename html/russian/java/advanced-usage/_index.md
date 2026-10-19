@@ -153,6 +153,8 @@ Aspose.HTML позволяет прикрепить `DomMutationObserver` к л�
 Узнайте, как добавить хост‑объект Java и запускать JavaScript‑код из Java с помощью Aspose.HTML.
 ### [Получить заголовок HTML в Java – рендер страницы в песочнице с шириной экрана](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
 Узнайте, как получить заголовок HTML и отрендерить страницу в песочнице, задав ширину экрана, используя Aspose.HTML for Java.
+### [Пример top‑level await – использование await delay в JavaScript](./top-level-await-example-using-await-delay-in-javascript/)
+Узнайте, как применять top‑level await с функцией задержки await delay в JavaScript для упрощения асинхронного кода.
 
 ---
 

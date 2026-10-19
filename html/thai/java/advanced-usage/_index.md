@@ -152,6 +152,8 @@ Aspose.HTML ให้คุณแนบ `DomMutationObserver` ไปยังโ
 เรียนรู้วิธีเพิ่มอ็อบเจกต์โฮสต์ใน JavaScript แล้วเรียกเมธอด Java จากโค้ด JavaScript ภายในแอปพลิเคชัน Java  
 ### [ดึงหัวเรื่อง HTMLด้วย Java – เรนเดอร์หน้าใน Sandbox พร้อมความกว้างหน้าจอ](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
 เรียนรู้วิธีดึงหัวเรื่องของหน้า HTML และเรนเดอร์ใน sandbox ด้วยความกว้างหน้าจอที่กำหนดโดยใช้ Aspose.HTML for Java  
+### [ตัวอย่าง top-level await – การใช้ await delay ใน JavaScript](./top-level-await-example-using-await-delay-in-javascript/)
+เรียนรู้วิธีใช้ top-level await พร้อมฟังก์ชัน delay ใน JavaScript ด้วย Aspose.HTML  
 
 ---
 

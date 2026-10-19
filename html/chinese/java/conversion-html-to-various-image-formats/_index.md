@@ -174,6 +174,9 @@ weight: 24
 ### [渲染 HTML Java：将长页面转换为 PNG](./render-html-java-convert-long-page-to-png/)
 
 ### [如何使用沙盒捕获网页截图](./how-to-use-sandbox-to-capture-webpage-screenshot/)
+### [在 Java 中从 SVG 创建多页 TIFF – 步骤指南](./create-multipage-tiff-from-svg-in-java-step-by-step-guide/)
+使用 Aspose.HTML for Java 将 SVG 转换为多页 TIFF，提供完整的步骤示例。
+
 
 ## 常见问题解答
 

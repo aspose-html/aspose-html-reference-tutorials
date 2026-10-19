@@ -158,6 +158,8 @@ Apprenez à appliquer des filtres XPath avancés avec Aspose.HTML for Java pour 
 Découvrez comment ajouter un objet hôte Java et exécuter du code JavaScript depuis Java avec Aspose.HTML.  
 ### [Obtenir le titre HTML en Java – Rendre la page dans le sandbox avec largeur d’écran](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
 Apprenez à récupérer le titre d’une page HTML et à la rendre dans un environnement sandbox en spécifiant la largeur d’écran.  
+### [Exemple de top‑level await – Utilisation d'await delay en JavaScript](./top-level-await-example-using-await-delay-in-javascript/)
+Apprenez à utiliser top‑level await avec une fonction de délai await en JavaScript.  
 
 ---
 

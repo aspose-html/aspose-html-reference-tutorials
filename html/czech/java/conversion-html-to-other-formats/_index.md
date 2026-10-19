@@ -113,6 +113,8 @@ Převádějte Markdown do HTML v Javě plynule s Aspose.HTML for Java. Postupujt
 Naučte se převést Markdown do PDF v Javě pomocí Aspose.HTML a vytvořte vysoce kvalitní PDF dokumenty.
 ### [Převod HTML do Markdownu v Javě – Kompletní krok‑za‑krokem průvodce](./convert-html-to-markdown-in-java-full-step-by-step-guide/)
 Naučte se převést HTML do Markdown v Javě pomocí Aspose.HTML s podrobným návodem krok za krokem.
+### [Převod HTML do Markdownu v Javě – Zachovat původní formátování](./convert-html-to-markdown-in-java-preserve-original-formattin/)
+Naučte se převést HTML na Markdown v Javě a zachovat původní strukturu a formátování dokumentu.
 ### [Převod SVG do obrázku](./convert-svg-to-image/)
 Naučte se převádět SVG na obrázky v Javě s Aspose.HTML. Kompletní průvodce pro výstup vysoké kvality.
 
@@ -217,6 +219,8 @@ Naučte se převést HTML do PDF a uložit výstup přímo do Azure Blob úloži
 ### [Vytvořte PDF z Markdown – Rychlý průvodce pro Javu](./create-pdf-from-markdown-quick-java-guide/)
 ### [Jak použít Aspose k převodu HTML na Markdown v Javě](./how-to-use-aspose-to-convert-html-to-markdown-in-java/)
 Naučte se převádět HTML na Markdown v Javě pomocí Aspose.HTML. Jednoduchý průvodce krok za krokem.
+### [Vytvoření PDF vlastní velikosti – Převod HTML do PDF pomocí Aspose](./create-pdf-custom-size-convert-html-to-pdf-with-aspose/)
+Naučte se nastavit vlastní velikost stránky při převodu HTML do PDF pomocí Aspose.HTML.
 
 ## Často kladené otázky
 

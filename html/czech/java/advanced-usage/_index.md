@@ -155,6 +155,8 @@ Naučte se, jak pomocí Aspose.HTML v Javě aplikovat kompletní filtrování XM
 Naučte se volat Java metody z JavaScriptu pomocí host objektu a spouštět JavaScript v Javě s Aspose.HTML.
 ### [Získání názvu HTML v Javě – Vykreslení stránky v sandboxu se šířkou obrazovky](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
 Naučte se získat název HTML a vykreslit stránku v sandboxu s nastavenou šířkou obrazovky pomocí Aspose.HTML pro Java.
+### [Příklad top‑level await – Použití await delay v JavaScriptu](./top-level-await-example-using-await-delay-in-javascript/)
+Naučte se, jak použít top‑level await a funkci delay v JavaScriptu pro asynchronní operace.
 
 ---
 

@@ -169,6 +169,8 @@ Naučte se nastavit DPI při převodu HTML na PNG pomocí Aspose.HTML for Java. 
 ### [Vytvořit GIF ze SVG pomocí Javy – Kompletní průvodce krok za krokem](./create-gif-from-svg-with-java-full-step-by-step-guide/)
 ### [Jak použít sandbox k zachycení snímku webové stránky](./how-to-use-sandbox-to-capture-webpage-screenshot/)
 Naučte se, jak pomocí sandboxu pořídit snímek webové stránky pomocí Aspose.HTML for Java.
+### [Vytvoření vícestránkového TIFF z SVG v Javě – krok za krokem](./create-multipage-tiff-from-svg-in-java-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.HTML for Java převést SVG do vícestránkového TIFF souboru pomocí podrobného průvodce.
 
 ## Často kladené otázky
 

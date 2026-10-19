@@ -112,7 +112,6 @@ weight: 20
 
 ## الاستخدام المتقدم لتعليمات Aspose.HTML Java
 ### [تخصيص هوامش صفحة HTML باستخدام Aspose.HTML](./css-extensions-adding-title-page-number/)
-تعلم كيفية تخصيص هوامش الصفحة، إضافة أرقام الصفحات، والعناوين إلى مستندات HTML باستخدام Aspose.HTML for Java.
 ### [مراقب تغيرات DOM باستخدام Aspose.HTML for Java](./dom-mutation-observer-observing-node-additions/)
 تعلم كيفية استخدام Aspose.HTML for Java لتنفيذ مراقب تغيرات DOM في هذا الدليل خطوة بخطوة. راقب وتفاعل مع تغييرات DOM بفعالية.
 ### [معالجة HTML5 Canvas باستخدام Aspose.HTML for Java](./html5-canvas-manipulation-using-code/)
@@ -166,6 +165,7 @@ weight: 20
 
 ### [الحصول على عنوان HTML في Java – عرض الصفحة في بيئة Sandbox مع عرض الشاشة](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
 تعلم كيفية استخراج عنوان صفحة HTML وعرضها في بيئة Sandbox مع ضبط عرض الشاشة باستخدام Aspose.HTML for Java.
+### [مثال top level await – استخدام await delay في JavaScript](./top-level-await-example-using-await-delay-in-javascript/)
 
 ---
 

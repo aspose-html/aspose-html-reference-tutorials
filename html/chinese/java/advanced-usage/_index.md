@@ -168,6 +168,9 @@ Aspose.HTML 允许您将 `DomMutationObserver` 附加到任意节点。这对于
 
 ### [获取 HTML 标题（Java）– 在沙盒中使用屏幕宽度渲染页面](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
 
+### [顶级 await 示例 – 在 JavaScript 中使用 await 延迟](./top-level-await-example-using-await-delay-in-javascript/)
+演示在 JavaScript 中使用顶级 await 以及 await delay 实现异步延时的示例。
+
 ---
 **最后更新：** 2025-11-29  
 **测试环境：** Aspose.HTML for Java 24.11  

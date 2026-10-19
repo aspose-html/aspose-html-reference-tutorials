@@ -138,6 +138,8 @@ Aspose.HTML for Java를 사용해 HTML을 PNG로 변환하면서 DPI를 설정�
 ### [Java를 사용하여 SVG에서 GIF 만들기 – 전체 단계별 가이드](./create-gif-from-svg-with-java-full-step-by-step-guide/)
 Aspose.HTML for Java를 사용해 SVG를 GIF로 변환하는 방법을 단계별로 안내합니다.
 ### [샌드박스를 사용하여 웹페이지 스크린샷 캡처하는 방법](./how-to-use-sandbox-to-capture-webpage-screenshot/)
+### [Java에서 SVG를 사용해 다중 페이지 TIFF 생성 – 단계별 가이드](./create-multipage-tiff-from-svg-in-java-step-by-step-guide/)
+Aspose.HTML for Java를 사용해 SVG에서 다중 페이지 TIFF를 생성하는 방법을 단계별로 안내합니다.
 
 ### [Java에서 HTML을 PNG로 생성 – 전체 단계별 가이드](./create-png-from-html-in-java-full-step-by-step-guide/)
 Java에서 Aspose.HTML를 활용해 HTML을 PNG 파일로 변환하는 전체 과정을 단계별로 안내합니다.

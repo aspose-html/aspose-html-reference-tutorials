@@ -172,6 +172,8 @@ Aprenda a chamar código Java a partir de JavaScript, adicionando objetos host e
 ### [Obter título HTML Java – Renderizar página em sandbox com largura de tela](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
 Aprenda a obter o título de uma página HTML e renderizá‑la em um sandbox definindo a largura da tela usando Aspose.HTML for Java.
 
+### [Exemplo de top-level await – usando await delay em JavaScript](./top-level-await-example-using-await-delay-in-javascript/)
+
 ---
 
 **Última atualização:** 2025-11-29  

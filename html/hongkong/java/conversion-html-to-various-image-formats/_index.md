@@ -172,6 +172,8 @@ weight: 24
 
 ### [如何使用 Sandbox 捕獲網頁截圖](./how-to-use-sandbox-to-capture-webpage-screenshot/)
 
+### [在 Java 中從 SVG 建立多頁 TIFF – 步驟說明指南](./create-multipage-tiff-from-svg-in-java-step-by-step-guide/)
+
 ## 常見問題集
 
 **Q: 我可以在 Java 中將 HTML 轉換為 PNG 而不使用額外的圖像函式庫嗎？**  

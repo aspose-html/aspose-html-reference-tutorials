@@ -175,6 +175,8 @@ Learn how to easily convert HTML to TIFF using Aspose.HTML for Java. Step-by-ste
 تعلم كيفية حفظ صفحة HTML كملف PNG في Java باستخدام Aspose.HTML. دليل شامل خطوة بخطوة.
 ### [كيفية استخدام Sandbox لالتقاط لقطة شاشة لصفحة الويب](./how-to-use-sandbox-to-capture-webpage-screenshot/)
 دليل خطوة بخطوة لاستخدام Sandbox لالتقاط صور شاشة لصفحات الويب باستخدام Aspose.HTML for Java.
+### [إنشاء ملف TIFF متعدد الصفحات من SVG في Java – دليل خطوة بخطوة](./create-multipage-tiff-from-svg-in-java-step-by-step-guide/)
+تعلم كيفية تحويل ملفات SVG إلى TIFF متعدد الصفحات باستخدام Aspose.HTML for Java خطوة بخطوة.
 
 ## الأسئلة المتكررة
 

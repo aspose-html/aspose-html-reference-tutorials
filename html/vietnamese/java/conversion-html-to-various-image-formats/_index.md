@@ -144,6 +144,7 @@ Hướng dẫn đầy đủ cách chuyển đổi SVG thành GIF trong Java bằ
 
 ### [Cách Sử Dụng Sandbox Để Chụp Ảnh Màn Hình Trang Web](./how-to-use-sandbox-to-capture-webpage-screenshot/)
 Hướng dẫn chi tiết cách sử dụng Sandbox của Aspose.HTML để chụp ảnh màn hình trang web trong Java.
+### [Tạo tiff đa trang từ SVG trong Java – Hướng dẫn từng bước](./create-multipage-tiff-from-svg-in-java-step-by-step-guide/)
 
 ## Câu hỏi thường gặp
 

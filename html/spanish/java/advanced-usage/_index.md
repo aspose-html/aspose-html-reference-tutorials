@@ -151,6 +151,8 @@ Aprende a ejecutar JavaScript de forma segura en un entorno aislado usando Aspos
 Aprende a habilitar la ejecución de JavaScript dentro de aplicaciones Java usando Aspose.HTML, paso a paso y con ejemplos completos.
 ### [Llamar a Java desde JavaScript – Añadir objeto host y ejecutar JavaScript en Java](./call-java-from-javascript-add-host-object-and-run-javascript/)
 Aprende a integrar JavaScript en aplicaciones Java añadiendo objetos host y ejecutando scripts desde Java con Aspose.HTML.
+### [Ejemplo de top‑level await – Uso de await delay en JavaScript](./top-level-await-example-using-await-delay-in-javascript/)
+Aprende a usar top‑level await y a aplicar retrasos con await en JavaScript.
 
 ---
 
