@@ -1,12 +1,57 @@
 ---
-date: 2026-02-10
-description: Μάθετε πώς να ορίσετε χρονικό όριο στο Aspose.HTML για Java, να διαμορφώσετε
-  την Υπηρεσία Εκτέλεσης για τη μετατροπή HTML σε PNG, να αποτρέψετε άπειρους βρόχους
+date: 2026-05-14
+description: Μάθετε πώς να ορίσετε χρόνο λήξης στο Aspose.HTML for Java, να διαμορφώσετε
+  το Runtime Service για τη μετατροπή html σε png, να αποτρέψετε άπειρους βρόχους
   και να βελτιώσετε την απόδοση.
-linktitle: Configure Runtime Service in Aspose.HTML
+keywords:
+- html to png conversion
+- convert html to png
+- java html processing
+- prevent infinite loops java
+- control script execution
+linktitle: Διαμόρφωση του Runtime Service στο Aspose.HTML
+schemas:
+- author: Aspose
+  dateModified: '2026-05-14'
+  description: Learn how to set timeout in Aspose.HTML for Java, configure the Runtime
+    Service for html to png conversion, prevent infinite loops, and boost performance.
+  headline: How to Set Timeout for html to png conversion in Aspose.HTML for Java
+    Runtime Service
+  type: TechArticle
+- description: Learn how to set timeout in Aspose.HTML for Java, configure the Runtime
+    Service for html to png conversion, prevent infinite loops, and boost performance.
+  name: How to Set Timeout for html to png conversion in Aspose.HTML for Java Runtime
+    Service
+  steps:
+  - name: '**Java Development Kit (JDK)** – install it from [Oracle''s website](https://www.oracle.com/java/technologies/javase-downloads.html).'
+    text: '**Java Development Kit (JDK)** – install it from [Oracle''s website](https://www.oracle.com/java/technologies/javase-downloads.html).'
+  - name: '**Aspose.HTML for Java Library** – grab the newest build from the [Aspose
+      releases page](https://releases.aspose.com/html/java/).'
+    text: '**Aspose.HTML for Java Library** – grab the newest build from the [Aspose
+      releases page](https://releases.aspose.com/html/java/).'
+  - name: '**IDE** – IntelliJ IDEA, Eclipse, or NetBeans will work fine.'
+    text: '**IDE** – IntelliJ IDEA, Eclipse, or NetBeans will work fine.'
+  - name: '**Basic Java & HTML knowledge** – essential for following the code snippets.'
+    text: '**Basic Java & HTML knowledge** – essential for following the code snippets.'
+  type: HowTo
+- questions:
+  - answer: It lets you control script execution time, helping to **prevent infinite
+      loops** and keep conversions responsive.
+    question: What is the purpose of the Runtime Service in Aspose.HTML for Java?
+  - answer: Get the latest version from the [releases page](https://releases.aspose.com/html/java/).
+    question: How can I download Aspose.HTML for Java?
+  - answer: Yes, disposing releases native resources and prevents memory leaks.
+    question: Is it necessary to dispose of the `document` and `configuration` objects?
+  - answer: Absolutely – change the `TimeSpan.fromSeconds()` argument to whatever
+      limit fits your scenario.
+    question: Can I set the JavaScript timeout to a value other than 5 seconds?
+  - answer: Visit the [Aspose.HTML forum](https://forum.aspose.com/c/html/29) for
+      community and staff assistance.
+    question: Where can I find help if I run into issues?
+  type: FAQPage
 second_title: Java HTML Processing with Aspose.HTML
-title: Πώς να ορίσετε χρονικό όριο στην υπηρεσία χρόνου εκτέλεσης Aspose.HTML για
-  Java
+title: Πώς να ορίσετε χρόνο λήξης για τη μετατροπή html σε png στο Aspose.HTML for
+  Java Runtime Service
 url: /el/java/configuring-environment/configure-runtime-service/
 weight: 14
 ---
@@ -15,38 +60,38 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Πώς να ορίσετε Timeout στο Aspose.HTML για Java Runtime Service
+# Πώς να ορίσετε χρονικό όριο για τη μετατροπή html σε png στο Aspose.HTML για Java Runtime Service
 
 ## Εισαγωγή
-Αν ψάχνετε **πώς να ορίσετε timeout** για σενάρια όταν εργάζεστε με το Aspose.HTML για Java, βρίσκεστε στο σωστό μέρος. Ο έλεγχος της εκτέλεσης των σεναρίων όχι μόνο αποτρέπει άπειρους βρόχους, αλλά και βοηθά να **μετατρέψετε html σε png** πιο γρήγορα και να διατηρήσετε την εφαρμογή σας ανταποκρινόμενη. Σε αυτό το tutorial θα περάσουμε βήμα‑βήμα τις ακριβείς ρυθμίσεις του Runtime Service, τον περιορισμό της εκτέλεσης σεναρίων και, τελικά, την παραγωγή μιας εικόνας PNG από HTML χωρίς να «κολλάει» το πρόγραμμα σας.
-
-## Πώς να ορίσετε timeout στο Aspose.HTML Runtime Service
-Η κατανόηση του σκοπού του Runtime Service κάνει πιο εύκολο το γιατί ένα timeout είναι απαραίτητο. Η υπηρεσία λειτουργεί ως «αυλή» για κώδικα client‑side, δίνοντάς σας τη δυνατότητα να σταματήσετε ανεξέλεγκτο JavaScript πριν καταναλώσει όλους τους κύκλους CPU. Ορίζοντας ένα timeout προστατεύετε τον διακομιστή σας από σενάρια άρνησης υπηρεσίας (DoS) και εξασφαλίζετε ότι η **μετατροπή html σε png** ολοκληρώνεται σε προβλέψιμο χρόνο.
+Αν ψάχνετε να **ορίσετε ένα χρονικό όριο** για τα σενάρια όταν εργάζεστε με το Aspose.HTML για Java, βρίσκεστε στο σωστό μέρος. Ο έλεγχος της εκτέλεσης των σεναρίων όχι μόνο αποτρέπει τα άπειρα βρόχους, αλλά επίσης επιταχύνει τη **μετατροπή html σε png** και διατηρεί την εφαρμογή σας ανταποκρινόμενη. Σε αυτό το tutorial θα περάσουμε βήμα‑βήμα τις ακριβείς διαδικασίες για τη διαμόρφωση του Runtime Service, τον περιορισμό της εκτέλεσης των σεναρίων, και τελικά την παραγωγή μιας εικόνας PNG από HTML χωρίς να κρεμάει το πρόγραμμα σας.
 
 ## Γρήγορες Απαντήσεις
-- **Τι κάνει το Runtime Service;** Σας επιτρέπει να ελέγχετε το χρόνο εκτέλεσης σεναρίων και να διαχειρίζεστε πόρους κατά την επεξεργασία HTML.  
-- **Πώς να ορίσετε timeout για JavaScript;** Χρησιμοποιήστε `runtimeService.setJavaScriptTimeout(TimeSpan.fromSeconds(...))`.  
-- **Μπορώ να αποτρέψω άπειρους βρόχους;** Ναι – το timeout σταματά βρόχους που υπερβαίνουν το καθορισμένο όριο.  
-- **Επηρεάζει αυτό τη μετατροπή HTML‑σε‑PNG;** Όχι, η μετατροπή προχωρά μόλις το σενάριο ολοκληρωθεί ή τερματιστεί από το timeout.  
-- **Ποια έκδοση του Aspose.HTML απαιτείται;** Η πιο πρόσφατη έκδοση από τη σελίδα λήψεων του Aspose.  
+- **Τι κάνει το Runtime Service;** Σας επιτρέπει να ελέγχετε το χρόνο εκτέλεσης των σεναρίων και να διαχειρίζεστε πόρους κατά την επεξεργασία HTML.  
+- **Πώς να ορίσετε χρονικό όριο για JavaScript;** Ανακτήστε το `IRuntimeService` από τη διαμόρφωση και καλέστε `setJavaScriptTimeout(TimeSpan.fromSeconds(...))`.  
+- **Μπορώ να αποτρέψω άπειρους βρόχους;** Ναι – το χρονικό όριο σταματά βρόχους που υπερβαίνουν το καθορισμένο όριο.  
+- **Επηρεάζει αυτή η ρύθμιση τη μετατροπή html σε png;** Όχι, η μετατροπή προχωρά μόλις το σενάριο ολοκληρωθεί ή τερματιστεί από το χρονικό όριο.  
+- **Ποια έκδοση του Aspose.HTML απαιτείται;** Η πιο πρόσφατη έκδοση από τη σελίδα λήψεων του Aspose.
+
+## Πώς να ορίσετε χρονικό όριο για τη μετατροπή html σε png στο Aspose.HTML Runtime Service
+Φορτώστε το Runtime Service, ορίστε ένα `TimeSpan` (π.χ., 5 δευτερόλεπτα) χρησιμοποιώντας το `TimeSpan.fromSeconds`, και εφαρμόστε το μέσω `setJavaScriptTimeout`. Αυτό περιορίζει την εκτέλεση του JavaScript, σταματά τους ανεξέλεγκτους βρόχους και εξασφαλίζει ότι η μετατροπή ολοκληρώνεται προβλέψιμα χωρίς να καταναλώνει απεριόριστους πόρους CPU, ενώ εξακολουθεί να επιτρέπει στα τυπικά σενάρια να τρέξουν μέχρι το τέλος.
 
 ## Προαπαιτούμενα
-Πριν βουτήξουμε στις λεπτομέρειες, βεβαιωθείτε ότι έχετε τα εξής:
+Πριν προχωρήσουμε στις λεπτομέρειες, βεβαιωθείτε ότι έχετε τα εξής:
 
 1. **Java Development Kit (JDK)** – εγκαταστήστε το από την [ιστοσελίδα της Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).  
-2. **Aspose.HTML for Java Library** – κατεβάστε την πιο πρόσφατη έκδοση από τη [σελίδα releases του Aspose](https://releases.aspose.com/html/java/).  
-3. **IDE** – IntelliJ IDEA, Eclipse ή NetBeans θα δουλέψουν άψογα.  
+2. **Aspose.HTML for Java Library** – κατεβάστε την πιο πρόσφατη έκδοση από τη [σελίδα κυκλοφοριών του Aspose](https://releases.aspose.com/html/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse ή NetBeans θα λειτουργήσουν καλά.  
 4. **Βασικές γνώσεις Java & HTML** – απαραίτητες για την κατανόηση των αποσπασμάτων κώδικα.
 
 ## Εισαγωγή Πακέτων
-Πρώτα, εισάγετε τις κλάσεις που θα χρειαστείτε. Η εισαγωγή `java.io.IOException` είναι απαραίτητη για τη διαχείριση αρχείων.
+Οι δηλώσεις εισαγωγής φέρνουν τις απαιτούμενες κλάσεις από τη Java και το Aspose.HTML στο πεδίο ορατότητας, επιτρέποντας τη διαχείριση αρχείων και τη διαμόρφωση της υπηρεσίας. `java.io.IOException` είναι μια εξαίρεση που ρίχνεται όταν μια λειτουργία I/O αποτυγχάνει ή διακόπτεται.
 
 ```java
 import java.io.IOException;
 ```
 
 ## Βήμα 1: Δημιουργία αρχείου HTML με κώδικα JavaScript
-Θα ξεκινήσουμε δημιουργώντας ένα απλό αρχείο HTML που περιέχει έναν βρόχο JavaScript. Αυτός ο βρόχος θα τρέχει για πάντα αν δεν επιβληθεί timeout, καθιστώντας το τέλειο παράδειγμα για το Runtime Service.
+Η δημιουργία ενός αρχείου HTML με έναν βρόχο JavaScript δείχνει ένα πιθανό σενάριο άπειρου κώδικα, το οποίο θα σταματήσουμε αργότερα χρησιμοποιώντας χρονικό όριο. `java.io.FileWriter` είναι μια κλάση για τη γραφή αρχείων χαρακτήρων στο δίσκο.
 
 ```java
 String code = "<h1>Runtime Service</h1>\r\n" +
@@ -58,17 +103,17 @@ try (java.io.FileWriter fileWriter = new java.io.FileWriter("runtime-service.htm
 ```
 
 - Το σενάριο `while(true) {}` αντιπροσωπεύει έναν πιθανό άπειρο βρόχο.  
-- Η `FileWriter` γράφει το περιεχόμενο HTML στο αρχείο **runtime-service.html**.
+- Το `FileWriter` γράφει το περιεχόμενο HTML στο **runtime-service.html**.
 
-## Βήμα 2: Δημιουργία αντικειμένου Configuration
-Στη συνέχεια, δημιουργήστε μια παρουσία `Configuration`. Αυτό το αντικείμενο αποτελεί τη ραχοκοκαλιά για όλες τις υπηρεσίες Aspose.HTML, συμπεριλαμβανομένου του Runtime Service.
+## Βήμα 2: Ρύθμιση του αντικειμένου Configuration
+Η κλάση `Configuration` κρατά τις ρυθμίσεις για όλες τις υπηρεσίες Aspose.HTML, συμπεριλαμβανομένου του Runtime Service, και λειτουργεί ως κεντρικός κόμβος για προσαρμοσμένες επιλογές.
 
 ```java
 com.aspose.html.Configuration configuration = new com.aspose.html.Configuration();
 ```
 
-## Βήμα 3: Ρύθμιση του Runtime Service
-Εδώ είναι που πραγματικά **πώς να ορίσετε timeout**. Ανακτώντας το `IRuntimeService` από τη διαμόρφωση, μπορούμε να ορίσουμε ένα όριο εκτέλεσης JavaScript.
+## Βήμα 3: Διαμόρφωση του Runtime Service
+Το `IRuntimeService` παρέχει έλεγχο της εκτέλεσης των σεναρίων, όπως ορισμός χρονικών ορίων, για την προστασία του περιβάλλοντος φιλοξενίας από ανεξέλεγκτο κώδικα.
 
 ```java
 try {
@@ -76,20 +121,20 @@ try {
     runtimeService.setJavaScriptTimeout(com.aspose.html.utils.TimeSpan.fromSeconds(5));
 ```
 
-- Η `setJavaScriptTimeout` περιορίζει την εκτέλεση σεναρίου στα **5 δευτερόλεπτα**, αποτρέποντας έτσι **άπειρους βρόχους**.  
-- Αυτό επίσης **περιορίζει την εκτέλεση σεναρίου** για οποιονδήποτε βαρύ κώδικα client‑side.
+- Το `setJavaScriptTimeout` περιορίζει την εκτέλεση του σεναρίου σε **5 δευτερόλεπτα**, αποτρέποντας αποτελεσματικά **άπειρους βρόχους**.  
+- Αυτό επίσης **περιορίζει την εκτέλεση σεναρίων** για οποιονδήποτε βαρύ κώδικα στην πλευρά του πελάτη.
 
 ## Βήμα 4: Φόρτωση του εγγράφου HTML με τη διαμόρφωση
-Τώρα φορτώστε το αρχείο HTML χρησιμοποιώντας τη διαμόρφωση που περιέχει τον κανόνα timeout.
+Η κλάση `Document` φορτώνει και αντιπροσωπεύει μια σελίδα HTML με τη δοθείσα διαμόρφωση, διασφαλίζοντας ότι ο κανόνας χρονικού ορίου εφαρμόζεται κατά την ανάλυση.
 
 ```java
     com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument("runtime-service.html", configuration);
 ```
 
-- Το έγγραφο σέβεται το timeout που ορίστηκε νωρίτερα, οπότε ο ατελείωτος βρόχος θα σταματήσει μετά από 5 δευτερόλεπτα.
+- Το έγγραφο σέβεται το χρονικό όριο που ορίστηκε νωρίτερα, έτσι ο ατελείωτος βρόχος θα σταματήσει μετά από 5 δευτερόλεπτα.
 
-## Βήμα 5: Μετατροπή HTML σε PNG
-Με το έγγραφο ασφαλώς φορτωμένο, μπορούμε να **μετατρέψουμε html σε png**. Η μετατροπή πραγματοποιείται μόνο αφού το σενάριο ολοκληρωθεί ή τερματιστεί από το timeout.
+## Βήμα 5: Μετατροπή του HTML σε PNG
+Το `ImageSaveOptions` καθορίζει τη μορφή εξόδου και τις επιλογές απόδοσης για τη μετατροπή εικόνας, επιτρέποντας μια καθαρή **μετατροπή html σε png** μόλις το σενάριο ολοκληρωθεί ή διακοπεί.
 
 ```java
     com.aspose.html.converters.Converter.convertHTML(
@@ -99,11 +144,11 @@ try {
     );
 ```
 
-- Η `ImageSaveOptions` λέει στο Aspose.HTML να αποδώσει μια εικόνα PNG.  
-- Το παραγόμενο αρχείο, **runtime-service_out.png**, εμφανίζει το αποδομένο HTML χωρίς να «κολλάει».
+- Το `ImageSaveOptions` λέει στο Aspose.HTML να εξάγει μια εικόνα PNG.  
+- Το παραγόμενο αρχείο, **runtime-service_out.png**, εμφανίζει το αποδομένο HTML χωρίς κρέμασμα.
 
 ## Βήμα 6: Καθαρισμός Πόρων
-Τέλος, απελευθερώστε τα αντικείμενα για να ελευθερώσετε μνήμη και να αποφύγετε διαρροές.
+Η κλήση του `dispose()` απελευθερώνει τους εγγενείς πόρους που χρησιμοποιούν τα αντικείμενα Aspose.HTML, αποτρέποντας διαρροές μνήμης σε εφαρμογές μακράς διάρκειας.
 
 ```java
 } finally {
@@ -116,42 +161,42 @@ try {
 }
 ```
 
-- Η σωστή απελευθέρωση είναι ουσιώδης για εφαρμογές μεγάλης διάρκειας.
+- Η σωστή απελευθέρωση είναι απαραίτητη για εφαρμογές μακράς διάρκειας.
 
 ## Γιατί είναι σημαντικό
-Η ρύθμιση ενός timeout δεν είναι μόνο ένα δίχτυ ασφαλείας· βελτιώνει άμεσα την αξιοπιστία των **pipeline μετατροπής html σε png**. Όταν ενσωματώνετε το Aspose.HTML σε μια υπηρεσία web που επεξεργάζεται HTML που δημιουργείται από χρήστες, ένα κακόβουλο σενάριο θα μπορούσε διαφορετικά να «κλειδώσει» ένα νήμα επ' άπειρο. Ένα μέτριο timeout (π.χ. 5 δευτερόλεπτα) δίνει στα νόμιμα σενάρια αρκετό χρόνο για εκτέλεση, ενώ αποκόπτει την κακόβουλη συμπεριφορά.
+Ένα χρονικό όριο προστατεύει τη γραμμή μετατροπής σας τερματίζοντας σενάρια που τρέχουν πολύ ώρα, αποτρέποντας το μπλοκάρισμα νήματος και μειώνοντας το συνολικό χρόνο επεξεργασίας, ειδικά σε υπηρεσίες πολλαπλών ενοικιαστών. Με όριο 5 δευτερολέπτων διατηρείτε τη φυσιολογική συμπεριφορά της σελίδας ενώ αποκόπτετε καταχρηστικά ή ελαττωματικά σενάρια, οδηγώντας σε πιο προβλέψιμη απόδοση της μετατροπής html σε png.
 
 ## Συχνά προβλήματα & αντιμετώπιση
-- **Timeout πολύ μικρό** – Πολύπλοκες σελίδες με πολλούς πόρους μπορεί να χρειάζονται μεγαλύτερο όριο. Αυξήστε την τιμή του `TimeSpan` αν δείτε πρόωρες τερματισμούς.  
-- **Λείπει η απελευθέρωση** – Η παράλειψη κλήσης `dispose()` μπορεί να οδηγήσει σε διαρροές μνήμης native, ειδικά όταν επεξεργάζεστε πολλά έγγραφα σε βρόχο.  
-- **Λανθασμένο αντικείμενο διαμόρφωσης** – Πάντα ανακτάτε το `IRuntimeService` από την ίδια παρουσία `Configuration` που χρησιμοποιείτε για τη φόρτωση του εγγράφου· διαφορετικά το timeout δεν θα εφαρμοστεί.
+- **Το χρονικό όριο είναι πολύ σύντομο** – Πολύπλοκες σελίδες με πολλούς πόρους μπορεί να χρειάζονται μεγαλύτερο όριο. Αυξήστε την τιμή του `TimeSpan` αν παρατηρήσετε πρόωρους τερματισμούς.  
+- **Λείπει η απελευθέρωση** – Η παράλειψη κλήσης του `dispose()` μπορεί να οδηγήσει σε διαρροές μνήμης, ειδικά όταν επεξεργάζεστε πολλά έγγραφα σε βρόχο.  
+- **Λανθασμένο αντικείμενο διαμόρφωσης** – Πάντα να ανακτάτε το `IRuntimeService` από το ίδιο αντικείμενο `Configuration` που χρησιμοποιείτε για τη φόρτωση του εγγράφου· διαφορετικά το χρονικό όριο δεν θα εφαρμοστεί.
 
 ## Συχνές Ερωτήσεις
 
 **Ε: Ποιος είναι ο σκοπός του Runtime Service στο Aspose.HTML για Java;**  
-Α: Σας επιτρέπει να ελέγχετε το χρόνο εκτέλεσης σεναρίων, βοηθώντας στην **αποτροπή άπειρων βρόχων** και διατηρώντας τις μετατροπές ανταποκρινόμενες.
+Α: Σας επιτρέπει να ελέγχετε το χρόνο εκτέλεσης των σεναρίων, βοηθώντας στην **αποτροπή άπειρων βρόχων** και διατηρώντας τις μετατροπές ανταποκρινόμενες.
 
 **Ε: Πώς μπορώ να κατεβάσω το Aspose.HTML για Java;**  
-Α: Λάβετε την πιο πρόσφατη έκδοση από τη [σελίδα releases](https://releases.aspose.com/html/java/).
+Α: Λάβετε την πιο πρόσφατη έκδοση από τη [σελίδα κυκλοφοριών](https://releases.aspose.com/html/java/).
 
 **Ε: Είναι απαραίτητο να απελευθερώσω τα αντικείμενα `document` και `configuration`;**  
-Α: Ναι, η απελευθέρωση απελευθερώνει native πόρους και αποτρέπει διαρροές μνήμης.
+Α: Ναι, η απελευθέρωση απελευθερώνει εγγενείς πόρους και αποτρέπει διαρροές μνήμης.
 
-**Ε: Μπορώ να ορίσω το timeout JavaScript σε τιμή διαφορετική από 5 δευτερόλεπτα;**  
-Α: Φυσικά – αλλάξτε το όρισμα της `TimeSpan.fromSeconds()` στην τιμή που ταιριάζει στο σενάριό σας.
+**Ε: Μπορώ να ορίσω το χρονικό όριο JavaScript σε τιμή διαφορετική από 5 δευτερόλεπτα;**  
+Α: Απόλυτα – αλλάξτε το όρισμα του `TimeSpan.fromSeconds()` σε όποιο όριο ταιριάζει στο σενάριό σας.
 
 **Ε: Πού μπορώ να βρω βοήθεια αν αντιμετωπίσω προβλήματα;**  
-Α: Επισκεφθείτε το [φόρουμ Aspose.HTML](https://forum.aspose.com/c/html/29) για υποστήριξη από την κοινότητα και το προσωπικό.
-
----
-
-**Τελευταία ενημέρωση:** 2026-02-10  
-**Δοκιμασμένο με:** Aspose.HTML for Java 24.11 (τελευταία)  
-**Συγγραφέας:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+Α: Επισκεφθείτε το [φόρουμ Aspose.HTML](https://forum.aspose.com/c/html/29) για βοήθεια από την κοινότητα και το προσωπικό.
 
 {{< blocks/products/products-backtop-button >}}
+
+## Σχετικά Μαθήματα
+
+- [Δημιουργία αρχείου HTML Java & Ρύθμιση Network Service (Aspose.HTML)](/html/java/configuring-environment/setup-network-service/)
+- [Πώς να ορίσετε χρονικό όριο – Διαχείριση Network Timeout στο Aspose.HTML για Java](/html/java/message-handling-networking/network-timeout/)
+- [Μετατροπή HTML σε PNG με Aspose.HTML για Java](/html/java/conversion-html-to-various-image-formats/convert-html-to-png/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

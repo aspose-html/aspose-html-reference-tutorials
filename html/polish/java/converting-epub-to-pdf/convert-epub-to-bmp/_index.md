@@ -9,11 +9,9 @@ url: /pl/java/converting-epub-to-pdf/convert-epub-to-bmp/
 weight: 10
 ---
 
-.
 
-Make sure to keep code block placeholders unchanged.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

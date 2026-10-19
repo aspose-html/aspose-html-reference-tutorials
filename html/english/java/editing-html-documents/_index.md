@@ -46,6 +46,8 @@ Sometimes, you need to apply styles directly within the HTML document itself. Th
 ## Editing HTML Documents in Aspose.HTML for Java Tutorials
 ### [Edit HTML Document Tree in Aspose.HTML for Java](./edit-html-document-tree/)
 Discover how to manipulate HTML documents using Aspose.HTML for Java. A step-by-step guide for efficient content management.
+### [How to Append Child in Java DOM – Complete Aspose.HTML Guide](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
+Learn how to append child nodes to the DOM using Aspose.HTML for Java with this step‑by‑step guide.
 ### [Advanced HTML Document Tree Editing in Aspose.HTML for Java](./advanced-html-document-tree-editing/)
 Discover how to edit HTML documents using Aspose.HTML for Java with this step-by-step guide, including creating styles, paragraphs, and converting to PDF.
 ### [Apply External CSS to HTML Documents in Aspose.HTML for Java](./apply-external-css-html-documents/)
@@ -58,8 +60,18 @@ Learn how to add inline CSS to HTML documents using Aspose.HTML for Java. This s
 Learn how to manage inner and outer HTML properties in Aspose.HTML for Java with this step-by-step guide, perfect for web developers and content creators.
 ### [Implement Internal CSS in HTML Documents with Aspose.HTML for Java](./implement-internal-css-html-documents/)
 Learn to implement internal CSS in HTML documents using Aspose.HTML for Java with our easy step-by-step tutorial.
+### [Change h1 Text in MHTML with Java – Full Step‑By‑Step Guide](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
+Learn how to change the h1 text in MHTML files using Aspose.HTML for Java with this comprehensive step‑by‑step guide.
 ### [Fixed thread pool java – Parallel HTML Cleaning with ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Learn how to use a fixed thread pool and ExecutorService in Java to clean HTML content in parallel efficiently.
+### [append child to body in Java – Full Aspose.HTML Tutorial](./append-child-to-body-in-java-full-aspose-html-tutorial/)
+Learn how to append a child element to the body using Aspose.HTML for Java in this comprehensive tutorial.
+### [Create new html element with Java – Full Aspose.HTML Guide](./create-new-html-element-with-java-full-aspose-html-guide/)
+Learn how to create new HTML elements using Aspose.HTML for Java in this comprehensive step-by-step guide.
+### [How to Remove Scripts from HTML in Java – Complete Guide](./how-to-remove-scripts-from-html-in-java-complete-guide/)
+Learn how to remove script tags from HTML using Aspose.HTML for Java. This step-by-step guide ensures clean, safe HTML content.
+### [How to Highlight HTML – Search Text & Replace with &lt;mark&gt;](./how-to-highlight-html-search-text-replace-with-mark/)
+Learn how to search for text and replace it with the &lt;mark&gt; tag to highlight HTML using Aspose.HTML for Java. Step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
