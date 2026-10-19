@@ -51,7 +51,7 @@ Aspose.HTML for .NET nổi bật với sự đơn giản và sức mạnh của 
 ## Hướng dẫn thao tác tài liệu HTML
 ### [Tải tài liệu HTML không đồng bộ trong .NET với Aspose.HTML](./load-html-doc-asynchronously/)
 Tìm hiểu cách sử dụng Aspose.HTML cho .NET để làm việc với các tài liệu HTML. Hướng dẫn từng bước với các ví dụ và câu hỏi thường gặp dành cho nhà phát triển.
-### [Tải tài liệu HTML có thông tin xác thực trong .NET với Aspose.HTML](./load-html-with-credentials/)
+### [Tải tài liệu HTML có thông tin xác thực trong .NET với Aspose.HTML](./load-html-doc-with-credentials/)
 Tìm hiểu cách tăng cường SEO của bạn với Aspose.HTML cho .NET. Tăng thứ hạng, phân tích nội dung web và tối ưu hóa cho công cụ tìm kiếm.
 ### [Tải HTML bằng Máy chủ từ xa trong .NET với Aspose.HTML](./load-html-using-remote-server/)
 Mở khóa tiềm năng của Aspose.HTML cho .NET với hướng dẫn toàn diện của chúng tôi. Tìm hiểu cách nhập không gian tên, truy cập tài liệu HTML từ xa và nhiều hơn nữa.
@@ -83,6 +83,9 @@ Hướng dẫn cách sử dụng Aspose.HTML để tìm một phần tử trong 
 Hướng dẫn chi tiết cách tạo tài liệu HTML và chèn phần tử CSS Style bằng Aspose.HTML cho .NET.
 ### [Tạo tài liệu HTML C# – Hướng dẫn từng bước](./create-html-document-c-step-by-step-guide/)
 Học cách tạo tài liệu HTML trong C# bằng Aspose.HTML qua các bước chi tiết và ví dụ thực tế.
+
+### [Tải tài liệu HTML có thông tin xác thực trong .NET với Aspose.HTML](./load-html-with-credentials/)
+Tìm hiểu cách tăng cường SEO của bạn với Aspose.HTML cho .NET. Tăng thứ hạng, phân tích nội dung web và tối ưu hóa cho công cụ tìm kiếm.
 ### [Cách tạo HTML – Thêm phần tử và Định dạng văn bản](./how-to-create-html-append-elements-and-style-text/)
 Hướng dẫn cách tạo tài liệu HTML, thêm phần tử và áp dụng kiểu cho văn bản bằng Aspose.HTML cho .NET.
 
@@ -92,3 +95,4 @@ Hướng dẫn cách tạo tài liệu HTML, thêm phần tử và áp dụng ki
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
