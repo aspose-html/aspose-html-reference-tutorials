@@ -23,8 +23,6 @@ Are you looking to **convert HTML to GIF** and other image formats like BMP, JPE
 - **What Java version is required?** Java 8 or higher.  
 - **Is the conversion thread‑safe?** Yes, each `HtmlRenderer` instance can be used safely in multithreaded scenarios.
 
-TODO: Include additional code samples for batch processing.
-
 ## What is **convert html gif**?
 The phrase *convert html gif* refers to the process of rendering an HTML page and exporting the visual result as a GIF image. This is useful for creating lightweight previews, animated screenshots, or embedding web content into documents that only accept image files.
 

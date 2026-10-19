@@ -187,8 +187,6 @@ Feel free to experiment—swap `PageSize.LETTER` for legal size, tweak margins, 
 
 Got a question about a specific edge case? Drop a comment below, and I’ll help you troubleshoot. Happy coding!
 
-<!-- TODO: Add a section on batch processing multiple files -->
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
