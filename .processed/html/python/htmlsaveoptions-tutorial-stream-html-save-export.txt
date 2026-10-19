@@ -1,0 +1,7 @@
+Title: htmlsaveoptions tutorial: Stream HTML Save & Export
+Slug: htmlsaveoptions-tutorial-stream-html-save-export
+Category: general
+ProcessedDate: 2026-06-04T08:54:38.396761
+SourceRepo: AI Search API
+Keywords: htmlsaveoptions tutorial, stream html save, export html streaming
+PRNumber: 173
