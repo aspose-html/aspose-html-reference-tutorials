@@ -115,9 +115,18 @@ Erfahren Sie, wie Sie den Runtime‑Service in Aspose.HTML für Java konfigurier
 
 ### [Sandbox‑Einrichtung in Aspose.HTML für Java implementieren](./implement-sandboxing/)
 Erfahren Sie, wie Sie Sandbox‑Einrichtung in Aspose.HTML für Java implementieren, um die Skriptausführung in Ihren HTML‑Dokumenten sicher zu steuern und sie in PDF zu konvertieren.
-
+### [Wie man eine Sandbox in Java erstellt – Vollständige Anleitung](./how-to-create-sandbox-in-java-full-guide/)
+Erfahren Sie, wie Sie eine Sandbox in Java erstellen, um die Skriptausführung sicher zu steuern und HTML‑zu‑PDF‑Konvertierungen zu schützen.
 ### [Benutzer‑Stylesheet in Aspose.HTML für Java festlegen](./set-user-style-sheet/)
 Erfahren Sie, wie Sie ein benutzerdefiniertes Benutzer‑Stylesheet in Aspose.HTML für Java festlegen, um das Dokumentstyling zu verbessern und HTML mühelos zu PDF zu konvertieren.
+### [Aspose HTML Sandbox erstellen – Vollständiger Java‑Leitfaden](./create-aspose-html-sandbox-complete-java-guide/)
+Erfahren Sie, wie Sie eine vollständige Sandbox für Aspose.HTML in Java einrichten, um sichere HTML‑zu‑PDF‑Konvertierungen zu gewährleisten.
+### [Bibliotheksversion in Java abrufen – Schnellleitfaden zur Anzeige der Bibliotheksversion](./get-library-version-in-java-quick-guide-to-show-library-vers/)
+Erfahren Sie, wie Sie die aktuelle Version von Aspose.HTML für Java programmgesteuert ermitteln und anzeigen.
+### [User‑Agent für Headless‑HTML‑Rendering festlegen – Komplett‑Leitfaden](./set-user-agent-for-headless-html-rendering-complete-guide/)
+Erfahren Sie, wie Sie den User‑Agent für das headless‑HTML‑Rendering festlegen, um korrekte Ressourcen‑Abrufe und Rendering‑Ergebnisse zu gewährleisten.
+### [Titel aus HTML in Java extrahieren – Vollständige Sandbox‑Anleitung](./extract-title-from-html-in-java-complete-sandbox-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java den Dokumenttitel aus HTML extrahieren und dabei die Sandbox‑Sicherheit vollständig nutzen.
 
 ### [Wie man DPI in Aspose.HTML Sandbox festlegt – Vollständige Java‑Anleitung](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
 Erfahren Sie, wie Sie die DPI‑Einstellungen in der Aspose.HTML Sandbox für Java konfigurieren, um hochauflösende PDFs zu erzeugen.
