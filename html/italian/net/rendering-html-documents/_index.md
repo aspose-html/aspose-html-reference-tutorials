@@ -109,6 +109,8 @@ Scopri come attivare l'antialiasing per migliorare la qualità delle immagini PN
 Scopri come convertire HTML in PDF usando Aspose.HTML per .NET con C#. Segui la guida passo passo per ottenere PDF di alta qualità.
 ### [Renderizza HTML in PDF e zip – Guida completa C#](./render-html-to-pdf-and-zip-it-complete-c-guide/)
 Scopri come convertire HTML in PDF e comprimerlo in un file ZIP usando Aspose.HTML per .NET con C# passo passo.
+### [Renderizza HTML in PNG in C# – Guida completa con Aspose.HTML](./render-html-to-png-in-c-complete-guide-with-aspose-html/)
+Impara a convertire HTML in PNG con C# usando Aspose.HTML. Segui la guida dettagliata per ottenere immagini di alta qualità.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

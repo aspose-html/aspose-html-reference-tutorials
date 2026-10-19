@@ -38,6 +38,9 @@ url: /th/net/working-with-html-documents/
 
 ### [วิธีบันทึก HTML ใน C# – คู่มือฉบับสมบูรณ์โดยใช้ Custom Resource Handler](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 ### [วิธีบันทึก HTML ใน C# ด้วย Custom Resource Handler](./how-to-save-html-in-c-with-custom-resource-handler/)
+### [วิธีบันทึก HTML ใน C# – คู่มือขั้นตอนเต็ม](./how-to-save-html-in-c-complete-step-by-step-guide/)
+เรียนรู้วิธีบันทึกไฟล์ HTML ด้วย C# อย่างละเอียดตามขั้นตอนเต็มรูปแบบเพื่อให้คุณสามารถจัดการและบันทึกเนื้อหาเว็บได้อย่างง่ายดาย
+
 ### [วิธีทำให้หัวเรื่องเป็นตัวหนาด้วย CSS & C# – คู่มือขั้นตอนเต็ม](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 เรียนรู้วิธีทำให้หัวเรื่องเป็นตัวหนาด้วย CSS ใน C# อย่างละเอียด พร้อมขั้นตอนครบถ้วนเพื่อปรับปรุงการออกแบบเว็บของคุณ
 ### [วิธีบันทึก HTML ใน C# – ตัวจัดการทรัพยากรแบบกำหนดเอง & ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)

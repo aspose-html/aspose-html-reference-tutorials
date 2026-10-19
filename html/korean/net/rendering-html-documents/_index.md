@@ -121,6 +121,9 @@ Aspose.HTML for .NET을 사용해 C#으로 HTML을 PDF로 변환하는 전체 �
 ### [HTML을 PDF로 렌더링하고 ZIP 파일로 압축 – 완전한 C# 가이드](./render-html-to-pdf-and-zip-it-complete-c-guide/)
 Aspose.HTML for .NET을 사용해 HTML을 PDF로 변환하고 ZIP 파일로 압축하는 전체 과정을 단계별로 안내합니다.
 
+### [C#에서 HTML을 PNG로 렌더링 – Aspose.HTML을 활용한 완전 가이드](./render-html-to-png-in-c-complete-guide-with-aspose-html/)
+Aspose.HTML for .NET을 사용하여 C#으로 HTML을 PNG 이미지로 변환하는 전체 과정을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

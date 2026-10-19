@@ -42,6 +42,8 @@ Ahora, llevemos tus habilidades al siguiente nivel. Editar documentos HTML es un
 Aprenda a guardar HTML en C# utilizando un controlador de recursos personalizado de forma sencilla y eficaz.
 ### [Cómo guardar HTML con Aspose – Guía completa de C#](./how-to-save-html-with-aspose-complete-c-guide/)
 Aprenda a guardar archivos HTML usando Aspose en C# con esta guía paso a paso.
+### [Cómo guardar HTML en C# – Guía completa paso a paso](./how-to-save-html-in-c-complete-step-by-step-guide/)
+Aprenda a guardar archivos HTML en C# con una guía detallada paso a paso.
 
 ### [Cómo poner en negrita un encabezado con CSS y C# – Guía completa paso a paso](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 

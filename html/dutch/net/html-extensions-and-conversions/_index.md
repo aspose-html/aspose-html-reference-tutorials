@@ -103,6 +103,8 @@ Leer stap voor stap hoe u HTML naar verschillende afbeeldingsformaten converteer
 Leer hoe u HTML-bestanden opslaat als ZIP met C# en aangepaste opslagopties via Aspose.HTML voor .NET.
 ### [HTML zippen met Aspose.HTML – Complete gids](./how-to-zip-html-with-aspose-html-complete-guide/)
 Leer stap voor stap hoe u HTML-bestanden comprimeert naar een ZIP‑archief met Aspose.HTML in .NET.
+### [Hoe ZipArchive te gebruiken – HTML en bronnen opslaan in een ZIP‑bestand](./how-to-use-ziparchive-save-html-and-resources-to-a-zip-file/)
+Leer hoe u ZipArchive gebruikt om HTML en bijbehorende bronnen te comprimeren en op te slaan in een ZIP‑bestand met C# en Aspose.HTML.
 ### [Maak HTML-document met opgemaakte tekst en exporteer naar PDF – Volledige gids](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Leer hoe u een HTML-document met opgemaakte tekst maakt en deze volledig naar PDF exporteert met Aspose.HTML voor .NET.
 ### [Maak PDF van HTML – C# Stapsgewijze handleiding](./create-pdf-from-html-c-step-by-step-guide/)
@@ -119,6 +121,8 @@ Leer hoe u PDF's genereert vanuit HTML met Aspose.HTML voor .NET in een duidelij
 Leer hoe u een HTML-document maakt in C# met een duidelijke stap‑voor‑stap handleiding.
 ### [PDF maken van HTML met Aspose – Stapsgewijze handleiding](./create-pdf-from-html-with-aspose-step-by-step-guide/)
 Leer hoe u PDF's genereert vanuit HTML met Aspose in een duidelijke stap‑voor‑stap C#‑handleiding.
+### [PDF maken van HTML in C# – Lettertypen insluiten & converteren naar PDF](./create-pdf-from-html-in-c-embed-fonts-convert-to-pdf/)
+Leer hoe u HTML naar PDF converteert in C# met ingesloten lettertypen voor optimale weergave.
 ### [HTML opslaan als ZIP – Complete C#-tutorial](./save-html-as-zip-complete-c-tutorial/)
 ### [HTML opslaan als ZIP – Complete gids](./save-html-as-zip-in-c-complete-guide/)
 

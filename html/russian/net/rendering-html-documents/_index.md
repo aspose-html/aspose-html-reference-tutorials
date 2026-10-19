@@ -124,6 +124,9 @@ Aspose.HTML для .NET выделяется как лучший выбор дл
 ### [Рендеринг HTML в PDF и архивирование – Полное руководство C#](./render-html-to-pdf-and-zip-it-complete-c-guide/)
 Подробный учебник по конвертации HTML в PDF и последующей упаковке в ZIP с использованием Aspose.HTML для .NET на C#.
 
+### [Рендеринг HTML в PNG на C# – Полное руководство с Aspose.HTML](./render-html-to-png-in-c-complete-guide-with-aspose-html/)
+Подробный пошаговый учебник по рендерингу HTML в PNG с использованием Aspose.HTML в C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

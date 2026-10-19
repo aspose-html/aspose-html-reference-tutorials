@@ -163,6 +163,10 @@ Aspose.HTML สำหรับ .NET ไม่ใช่แค่ไลบรา�
 เรียนรู้วิธีบันทึกไฟล์ HTML และเขียนเนื้อหา HTML ลงในไฟล์โดยใช้ C# กับ Aspose.HTML สำหรับ .NET
 ### [แปลง HTML เป็น ZIP ใน C# – คู่มือเต็มขั้นตอน](./convert-html-to-zip-in-c-complete-step-by-step-guide/)
 เรียนรู้วิธีบีบอัดไฟล์ HTML เป็น ZIP อย่างละเอียดด้วย C# และ Aspose.HTML สำหรับ .NET ตามขั้นตอนที่ชัดเจน
+### [วิธีใช้ ZipArchive – บันทึก HTML และทรัพยากรเป็นไฟล์ ZIP](./how-to-use-ziparchive-save-html-and-resources-to-a-zip-file/)
+เรียนรู้วิธีบีบอัดไฟล์ HTML พร้อมทรัพยากรทั้งหมดเป็นไฟล์ ZIP ด้วย ZipArchive ใน C#
+### [สร้าง PDF จาก HTML ใน C# – ฝังฟอนต์และแปลงเป็น PDF](./create-pdf-from-html-in-c-embed-fonts-convert-to-pdf/)
+เรียนรู้วิธีสร้าง PDF จาก HTML ใน C# พร้อมฝังฟอนต์เพื่อให้แสดงผลอย่างถูกต้องในไฟล์ PDF
 
 ## บทสรุป
 

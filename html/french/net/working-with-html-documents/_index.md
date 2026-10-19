@@ -64,6 +64,10 @@ Apprenez à générer du HTML à partir d'une chaîne en C# avec Aspose.HTML, é
 
 ### [Créer du HTML à partir d'une chaîne en C# – Guide complet avec Memory Stream](./create-html-from-string-in-c-full-guide-with-memory-stream/)
 
+### [Comment enregistrer du HTML en C# – Guide complet étape par étape](./how-to-save-html-in-c-complete-step-by-step-guide/)
+
+Apprenez à enregistrer du HTML en C# avec un guide détaillé étape par étape.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

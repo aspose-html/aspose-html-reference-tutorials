@@ -69,6 +69,10 @@ url: /el/net/working-with-html-documents/
 
 Μάθετε πώς να δημιουργήσετε έγγραφο HTML από συμβολοσειρά χρησιμοποιώντας Memory Stream σε C# βήμα-βήμα.
 
+### [Πώς να αποθηκεύσετε HTML σε C# – Πλήρης οδηγός βήμα‑βήμα](./how-to-save-html-in-c-complete-step-by-step-guide/)
+
+Μάθετε πώς να αποθηκεύσετε HTML σε C# με αναλυτικές οδηγίες βήμα‑βήμα.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

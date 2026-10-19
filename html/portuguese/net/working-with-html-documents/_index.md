@@ -47,6 +47,7 @@ Antes de mergulharmos nas especificidades da criação e edição de documentos 
 
 ### [Como compactar HTML em C# – Guia completo passo a passo](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 ### [Criar HTML a partir de string em C# – Guia completo com Memory Stream](./create-html-from-string-in-c-full-guide-with-memory-stream/)
+### [Como salvar HTML em C# – Guia completo passo a passo](./how-to-save-html-in-c-complete-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -124,6 +124,9 @@ Pelajari cara membuat dokumen PDF dari HTML menggunakan Aspose.HTML untuk .NET d
 ### [Render HTML ke PDF dan Zip – Panduan Lengkap C#](./render-html-to-pdf-and-zip-it-complete-c-guide/)
 Pelajari cara merender HTML menjadi PDF dan mengompresnya menjadi file ZIP menggunakan Aspose.HTML untuk .NET dengan contoh kode C# lengkap.
 
+### [Render HTML ke PNG dalam C# – Panduan Lengkap dengan Aspose.HTML](./render-html-to-png-in-c-complete-guide-with-aspose-html/)
+Pelajari cara merender HTML menjadi PNG dalam C# dengan Aspose.HTML melalui panduan lengkap langkah demi langkah.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

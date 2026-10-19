@@ -39,6 +39,9 @@ Hướng dẫn chi tiết cách lưu tài liệu HTML bằng Aspose.Html trong C
 ### [Tạo tài liệu HTML trong C# – Hướng dẫn đầy đủ sử dụng Trình xử lý tài nguyên tùy chỉnh](./create-html-document-c-complete-guide-with-custom-resource-h/)
 
 Hướng dẫn chi tiết cách tạo tài liệu HTML trong C# sử dụng Trình xử lý tài nguyên tùy chỉnh, bao gồm ví dụ thực tế.
+### [Cách lưu HTML trong C# – Hướng dẫn chi tiết từng bước](./how-to-save-html-in-c-complete-step-by-step-guide/)
+
+Hướng dẫn chi tiết cách lưu tài liệu HTML bằng C#, bao gồm các bước thực hiện và ví dụ mã.
 
 ### [Cách làm tiêu đề đậm bằng CSS & C# – Hướng dẫn chi tiết từng bước](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 

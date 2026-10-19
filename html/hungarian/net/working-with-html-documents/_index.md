@@ -41,7 +41,6 @@ Most emeljük tudását a következő szintre. A HTML-dokumentumok szerkesztése
 Ismerje meg, hogyan tölthet be HTML‑dokumentumokat az Aspose.HTML könyvtárral C#‑ban, lépésről‑lépésre útmutatóval.
 
 ### [HTML mentése C#-ban – Teljes útmutató egy egyéni erőforráskezelő használatával](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
-
 ### [HTML mentése Aspose.Html segítségével – Teljes C# útmutató](./how-to-save-html-with-aspose-html-complete-c-guide/)
 
 Ismerje meg, hogyan menthet HTML-fájlokat Aspose.Html könyvtárral C#-ban, lépésről‑lépésre útmutatóval.
@@ -49,6 +48,7 @@ Ismerje meg, hogyan menthet HTML-fájlokat Aspose.Html könyvtárral C#-ban, lé
 
 Ismerje meg, hogyan csomagolhatja be HTML-fájljait ZIP-archívumba C#‑ban, részletes példákkal.
 
+### [HTML mentése C#-ban – Teljes lépésről‑lépésre útmutató](./how-to-save-html-in-c-complete-step-by-step-guide/)
 ### [Hogyan tegyünk félkövér címet CSS‑el és C#‑val – Teljes lépésről‑lépésre útmutató](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 
 ### [HTML mentése C#-ban egy egyéni erőforráskezelővel](./how-to-save-html-in-c-with-custom-resource-handler/)
