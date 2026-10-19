@@ -125,6 +125,12 @@ Tạo phần tử HTML một cách an toàn đa luồng bằng ExecutorService t
 Khám phá cách truy vấn xpath trong tài liệu HTML bằng Java và Aspose.HTML qua hướng dẫn chi tiết, từng bước một.
 ### [Chạy đa luồng Java – sử dụng try‑with‑resources Java](./run-multiple-threads-java-use-try-with-resources-java/)
 Hướng dẫn cách chạy đa luồng trong Java đồng thời sử dụng try‑with‑resources để quản lý tài nguyên một cách an toàn.
+### [Chọn div theo lớp trong Java – Hướng dẫn XPath đầy đủ](./select-div-by-class-in-java-complete-xpath-guide/)
+Học cách chọn phần tử div dựa trên class trong Java bằng XPath với hướng dẫn chi tiết từng bước.
+### [Render HTML trong Java – Hướng dẫn đầy đủ về chờ tải trang và Query Selector](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
+Học cách render HTML trong Java, chờ trang tải hoàn toàn và sử dụng Query Selector để truy vấn phần tử.
+### [Chuyển đổi Markdown sang HTML trong Java – Hướng dẫn từng bước](./convert-markdown-to-html-in-java-step-by-step-guide/)
+Học cách chuyển đổi tài liệu Markdown sang HTML trong Java bằng Aspose.HTML qua hướng dẫn chi tiết từng bước.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

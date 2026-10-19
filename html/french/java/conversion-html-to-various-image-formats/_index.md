@@ -161,6 +161,8 @@ Apprenez à utiliser Sandbox pour capturer des captures d'écran de pages Web av
 Apprenez à créer un GIF à partir d'un fichier SVG en Java avec Aspose.HTML. Guide complet étape par étape.
 ### [Convertir SVG en PNG avec haute résolution – Guide Java](./convert-svg-to-png-with-high-resolution-java-guide/)
 Apprenez à convertir des fichiers SVG en PNG haute résolution en Java avec Aspose.HTML. Guide complet étape par étape.
+### [Convertir HTML en WebP en Java – Guide complet](./convert-html-to-webp-in-java-complete-guide/)
+Apprenez à convertir HTML en WebP en Java avec Aspose.HTML. Guide complet étape par étape pour une conversion efficace.
 
 ## Questions fréquemment posées
 

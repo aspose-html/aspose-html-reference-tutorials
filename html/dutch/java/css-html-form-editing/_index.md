@@ -97,6 +97,8 @@ Leer hoe u met Aspose.HTML de berekende CSS‑stijlen van een element in Java ku
 Leer hoe u met Aspose.HTML voor Java stijlen kunt ophalen via querySelector voor gerichte bewerkingen.
 ### [Hoe CSS lezen in Java – Berekende stijl ophalen](./how-to-read-css-in-java-get-computed-style/)
 Leer hoe u met Aspose.HTML voor Java de berekende CSS-stijlen van een element kunt ophalen en gebruiken in uw applicatie.
+### [Hoe stijl ophalen in Java met Aspose.HTML – Stapsgewijze handleiding](./how-to-get-style-in-java-with-aspose-html-step-by-step-guide/)
+Leer hoe u met Aspose.HTML in Java de stijl van elementen kunt ophalen in een duidelijke stap‑voor‑stap gids.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

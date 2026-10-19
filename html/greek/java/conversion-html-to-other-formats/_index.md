@@ -236,6 +236,12 @@ weight: 25
 ### [Μετατροπή HTML σε Markdown σε Java – Οδηγός βήμα‑βήμα](./convert-html-to-markdown-in-java-step-by-step-guide/)
 ### [Aspose HTML σε PDF σε Java – Προσθήκη Περιθωρίων Σελίδας & PDF/A‑2b](./aspose-html-to-pdf-in-java-add-page-margins-pdf-a-2b/)
 Μάθετε πώς να ορίσετε περιθώρια σελίδας και να δημιουργήσετε έγγραφα PDF/A‑2b με Aspose.HTML for Java.
+### [Πώς να μετατρέψετε HTML σε PDF σε Java – Πλήρης οδηγός](./how-to-convert-html-to-pdf-in-java-full-guide/)
+Μάθετε πώς να μετατρέψετε HTML σε PDF σε Java με πλήρη βήμα‑βήμα οδηγίες και παραμετροποίηση.
+### [Δημιουργία PDF από HTML σε Java – Πλήρης Οδηγός Συλλογικής Μετατροπής](./create-pdf-from-html-in-java-full-batch-conversion-guide/)
+Μάθετε πώς να μετατρέψετε μαζικά αρχεία HTML σε PDF με το Aspose.HTML for Java, βήμα‑βήμα και παραμετροποίηση.
+### [Απόδοση HTML σε PDF με Παράλληλη Απόδοση – Ταχύτερα](./render-html-to-pdf-with-parallel-rendering-faster/)
+Μάθετε πώς να επιταχύνετε τη μετατροπή HTML σε PDF χρησιμοποιώντας την παράλληλη απόδοση στο Aspose.HTML for Java.
 
 ## Συχνές Ερωτήσεις
 

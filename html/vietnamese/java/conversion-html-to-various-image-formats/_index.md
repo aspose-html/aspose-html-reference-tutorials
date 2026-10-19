@@ -147,6 +147,8 @@ Hướng dẫn đầy đủ cách chuyển đổi SVG thành GIF trong Java bằ
 Hướng dẫn chi tiết cách sử dụng Sandbox của Aspose.HTML để chụp ảnh màn hình trang web trong Java.
 ### [Tạo tiff đa trang từ SVG trong Java – Hướng dẫn từng bước](./create-multipage-tiff-from-svg-in-java-step-by-step-guide/)
 ### [Chuyển đổi SVG sang PNG với Độ phân giải cao – Hướng dẫn Java](./convert-svg-to-png-with-high-resolution-java-guide/)
+### [Chuyển đổi HTML sang WebP trong Java – Hướng dẫn đầy đủ](./convert-html-to-webp-in-java-complete-guide/)
+Hướng dẫn chi tiết cách chuyển đổi HTML sang WebP trong Java bằng Aspose.HTML, bao gồm các bước cấu hình và lưu trữ.
 
 ## Câu hỏi thường gặp
 

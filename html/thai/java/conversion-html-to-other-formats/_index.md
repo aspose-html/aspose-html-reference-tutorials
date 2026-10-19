@@ -120,6 +120,8 @@ Aspose.HTML for Java ทำให้กระบวนการแปลง HTML
 เรียนรู้วิธีตั้งค่าขนาดหน้าและขอบเขตที่กำหนดเองขณะแปลง HTML เป็น PDF ด้วย Aspose.HTML for Java
 ### [ตั้งขนาดหน้ากระดาษ PDF ด้วย Aspose HTML to PDF ใน Java](./set-pdf-page-size-with-aspose-html-to-pdf-in-java/)
 กำหนดขนาดหน้ากระดาษ PDF ระหว่างการแปลง HTML ด้วย Aspose.HTML for Java อย่างละเอียด
+### [วิธีแปลง HTML เป็น PDF ใน Java – คู่มือเต็ม](./how-to-convert-html-to-pdf-in-java-full-guide/)
+เรียนรู้ขั้นตอนการแปลง HTML เป็น PDF ใน Java อย่างละเอียดด้วยคู่มือเต็มที่ครอบคลุมทุกฟีเจอร์
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 ### [Converting HTML to XPS](./convert-html-to-xps/)
 เรียนรู้วิธีแปลง HTML เป็น XPS อย่างง่ายดายด้วย Aspose.HTML for Java สร้างเอกสารข้ามแพลตฟอร์มได้อย่างราบรื่น
@@ -243,6 +245,10 @@ Aspose.HTML for Java ทำให้กระบวนการแปลง HTML
 ### [สร้าง PDF จาก HTML ใน Java – คู่มือการแปลงเป็นชุด](./create-pdf-from-html-in-java-batch-conversion-guide/)
 เรียนรู้วิธีแปลงหลายไฟล์ HTML เป็น PDF พร้อมการตั้งค่าการประมวลผลแบบกลุ่มใน Java ด้วย Aspose.HTML
 ### [aspose html to pdf ใน Java – เพิ่มขอบหน้ากระดาษและ PDF/A‑2b](./aspose-html-to-pdf-in-java-add-page-margins-pdf-a-2b/)
+### [สร้าง PDF จาก HTML ใน Java – คู่มือการแปลงแบบแบตช์เต็ม](./create-pdf-from-html-in-java-full-batch-conversion-guide/)
+คู่มือเต็มสำหรับการแปลง HTML เป็น PDF แบบแบตช์ใน Java ด้วย Aspose.HTML
+### [เรนเดอร์ HTML เป็น PDF ด้วยการเรนเดอร์แบบขนาน – เร็วขึ้น](./render-html-to-pdf-with-parallel-rendering-faster/)
+เรียนรู้วิธีใช้การเรนเดอร์แบบขนานใน Aspose.HTML for Java เพื่อแปลง HTML เป็น PDF อย่างรวดเร็วและมีประสิทธิภาพ
 
 ## คำถามที่พบบ่อย
 

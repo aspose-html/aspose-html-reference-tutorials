@@ -132,6 +132,9 @@ Apprenez à convertir plusieurs fichiers HTML en PDF en Java grâce à un proces
 ### [Créer un PDF à partir de HTML en Java – Guide complet étape par étape](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
 Apprenez à générer un PDF à partir de HTML en Java avec un guide complet, incluant toutes les étapes et options de configuration.
 
+### [Comment convertir HTML en PDF en Java – Guide complet](./how-to-convert-html-to-pdf-in-java-full-guide/)
+Suivez ce guide complet pour convertir HTML en PDF en Java avec Aspose.HTML, incluant toutes les options de configuration.
+
 ### [Convertir HTML en PDF en Java – Guide étape par étape avec réglages de taille de page](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Apprenez à convertir HTML en PDF en Java en suivant chaque étape, incluant la configuration de la taille de page pour des documents précis.
 ### [Convertir HTML en PDF avec Java – comment créer un pool de threads](./convert-html-to-pdf-with-java-how-to-create-thread-pool/)
@@ -173,6 +176,12 @@ Apprenez à définir la taille de page du PDF lors de la conversion HTML en PDF 
 
 ### [Créer un PDF à partir de HTML en Java – Guide étape par étape](./create-pdf-from-html-in-java-step-by-step-guide/)
 Apprenez à générer un PDF à partir de HTML en Java avec Aspose.HTML, en suivant chaque étape pour une conversion précise et personnalisable.
+
+### [Créer un PDF à partir de HTML en Java – Guide complet de conversion par lots](./create-pdf-from-html-in-java-full-batch-conversion-guide/)
+Apprenez à générer des PDF à partir de HTML en Java en traitant des conversions par lots avec Aspose.HTML.
+
+### [Rendu HTML en PDF avec rendu parallèle – Plus rapide](./render-html-to-pdf-with-parallel-rendering-faster/)
+Utilisez le rendu parallèle pour convertir HTML en PDF plus rapidement avec Aspose.HTML for Java.
 
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 Convertissez facilement HTML en MHTML avec Aspose.HTML for Java. Suivez notre guide étape par étape pour une conversion HTML‑vers‑MHTML efficace.

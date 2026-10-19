@@ -100,6 +100,8 @@ Tam sandbox ortamında Java’da HTML'yi PDF'ye dönüştürmenin tüm adımlar�
 Java uygulamanızda HTML‑to‑PDF dönüşümünü güvenli bir ortamda test etmek ve çalıştırmak için Sandbox'ı adım adım gösterir.
 ### [Java’da HTML'den PDF Oluşturma – Adım‑Adım Kılavuz](./create-pdf-from-html-in-java-step-by-step-guide/)
 Java’da HTML'den PDF oluşturmayı adım adım öğrenin, yüksek kalite ve tam kontrol elde edin.
+### [Paralel Render Kullanarak HTML'yi PDF'ye Dönüştürme – Daha Hızlı](./render-html-to-pdf-with-parallel-rendering-faster/)
+Paralel render özelliğiyle HTML'den PDF'ye dönüşüm süresini önemli ölçüde azaltın.
 ### [HTML'yi PDF'ye Dönüştürme Java’da – Sayfa Boyutu Ayarlarıyla Adım‑Adım Kılavuz](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Java’da HTML'yi PDF'ye dönüştürürken sayfa boyutu ayarlarını nasıl yapılandıracağınızı adım adım gösterir.
 ### [Özel Sayfa Boyutu ve Gömülü Yazı Tipleriyle HTML'den PDF Oluşturma](./create-pdf-from-html-with-custom-page-size-and-embedded-font/)
@@ -186,6 +188,9 @@ Java’da birden çok HTML dosyasını toplu olarak PDF’ye dönüştürmeyi ad
 Java’da Aspose.HTML kullanarak HTML dosyasından yüksek kaliteli PDF oluşturmayı adım adım öğrenin.
 ### [Aspose HTML to PDF Java – Sayfa Kenar Boşlukları ve PDF/A‑2b](./aspose-html-to-pdf-in-java-add-page-margins-pdf-a-2b/)
 Java’da Aspose.HTML ile PDF’ye sayfa kenar boşlukları ekleyin ve PDF/A‑2b uyumluluğunu sağlayın.
+### [Java’da HTML'yi PDF'ye Dönüştürme – Tam Kılavuz](./how-to-convert-html-to-pdf-in-java-full-guide/)
+### [Java’da HTML’den PDF Oluşturma – Tam Toplu Dönüşüm Kılavuzu](./create-pdf-from-html-in-java-full-batch-conversion-guide/)
+Java’da birden çok HTML dosyasını toplu olarak PDF’ye dönüştürmek için adım adım rehber.
 
 ### [PDF'ye Yazı Tipi Gömme – Aspose HTML'den PDF'ye Tam Kılavuz (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
 Aspose.HTML for Java kullanarak PDF dosyalarına gömülü yazı tipleri eklemeyi adım adım öğrenin.

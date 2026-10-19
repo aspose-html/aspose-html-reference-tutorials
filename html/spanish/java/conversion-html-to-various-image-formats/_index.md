@@ -182,6 +182,8 @@ Aprenda a establecer la relación de píxeles del dispositivo al renderizar HTML
 Aprenda a crear GIF a partir de archivos SVG en Java usando Aspose.HTML. Guía paso a paso completa.
 ### [Crear TIFF multipágina a partir de SVG en Java – Guía paso a paso](./create-multipage-tiff-from-svg-in-java-step-by-step-guide/)
 Aprenda a generar archivos TIFF multipágina desde SVG usando Aspose.HTML for Java con instrucciones detalladas paso a paso.
+### [Convertir HTML a WebP en Java – Guía completa](./convert-html-to-webp-in-java-complete-guide/)
+Aprenda a convertir HTML a WebP en Java usando Aspose.HTML. Guía paso a paso para una conversión eficiente y de alta calidad.
 
 ## Preguntas frecuentes
 

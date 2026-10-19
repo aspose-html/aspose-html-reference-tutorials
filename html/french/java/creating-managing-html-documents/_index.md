@@ -132,6 +132,12 @@ Apprenez à créer un élément HTML en toute sécurité avec ExecutorService en
 Apprenez à interroger des documents HTML avec XPath en Java en utilisant Aspose.HTML grâce à ce guide complet étape par étape.
 ### [Exécuter plusieurs threads Java – utiliser try-with-resources Java](./run-multiple-threads-java-use-try-with-resources-java/)
 Apprenez à gérer plusieurs threads en Java avec l'instruction try-with-resources pour une gestion sûre des ressources.
+### [Sélectionner un div par classe en Java – Guide complet XPath](./select-div-by-class-in-java-complete-xpath-guide/)
+Apprenez à sélectionner des éléments div par classe en Java en utilisant XPath avec ce guide complet étape par étape.
+### [Rendu HTML en Java – Guide complet pour attendre le chargement de la page et le sélecteur de requête](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
+Apprenez à rendre du HTML en Java, à attendre le chargement complet de la page et à utiliser querySelector pour extraire du contenu.
+### [Convertir le Markdown en HTML en Java – Guide étape par étape](./convert-markdown-to-html-in-java-step-by-step-guide/)
+Apprenez à convertir du Markdown en HTML en Java avec Aspose.HTML. Guide complet étape par étape pour transformer facilement votre contenu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -29,7 +29,7 @@ Sekarang, mari kita beralih ke cara lain dan menjelajahi cara mengedit dan mengi
 
 ### [Teknik Ekstensi CSS Lanjutan dengan Aspose.HTML untuk Java](./advanced-css-extension/)
 Pelajari cara menggunakan Aspose.HTML untuk Java guna menerapkan teknik CSS tingkat lanjut, termasuk margin halaman khusus dan konten dinamis. Tutorial terperinci dan praktis untuk pengembang.
-### [Pengeditan dan Pengiriman Formulir HTML dengan Aspose.HTML untuk Java](./html-form-editing/)
+### [Pengeditian dan Pengiriman Formulir HTML dengan Aspose.HTML untuk Java](./html-form-editing/)
 Pelajari cara mengedit dan mengirimkan formulir HTML secara terprogram menggunakan Aspose.HTML untuk Java dalam panduan langkah demi langkah yang komprehensif ini.
 ### [Mendapatkan CSS yang Dihitung di Java – Panduan Lengkap Aspose HTML](./get-computed-css-in-java-complete-aspose-html-guide/)
 Pelajari cara mengambil nilai CSS yang dihitung menggunakan Aspose.HTML untuk Java dalam panduan lengkap ini.
@@ -99,6 +99,8 @@ Pelajari cara mengambil properti CSS yang dihitung pada elemen menggunakan Aspos
 Pelajari cara mengambil properti style elemen HTML menggunakan query selector di Aspose.HTML untuk Java dalam contoh praktis.
 ### [Cara Membaca CSS di Java – Dapatkan Gaya yang Dihitung](./how-to-read-css-in-java-get-computed-style/)
 Pelajari cara membaca CSS di Java dan memperoleh nilai gaya terhitung untuk elemen, memudahkan manipulasi tampilan secara terprogram.
+### [Cara Mendapatkan Gaya di Java dengan Aspose.HTML – Panduan Langkah‑per‑Langkah](./how-to-get-style-in-java-with-aspose-html-step-by-step-guide/)
+Pelajari cara mengambil gaya CSS pada elemen HTML menggunakan Aspose.HTML untuk Java dalam panduan langkah demi langkah ini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

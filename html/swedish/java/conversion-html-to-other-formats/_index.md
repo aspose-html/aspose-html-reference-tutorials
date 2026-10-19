@@ -97,6 +97,12 @@ Lär dig hur du konverterar HTML till PDF i Java och sparar den direkt i Azure B
 Lär dig hur du aktiverar JavaScript‑stöd under HTML‑till‑PDF‑konvertering i Java med Aspose.HTML.
 ### [Skapa PDF från HTML med mobilvisningsområde – Komplett Java‑guide](./create-pdf-from-html-with-mobile-viewport-complete-java-guid/)
 Lär dig hur du genererar PDF från HTML med mobilvyport i Java, inklusive inställningar för responsiv rendering.
+### [Rendera HTML till PDF med parallell rendering – snabbare](./render-html-to-pdf-with-parallel-rendering-faster/)
+Lär dig hur du använder parallell rendering för att konvertera HTML till PDF snabbare med Aspose.HTML för Java.
+### [Hur man konverterar HTML till PDF i Java – Fullständig guide](./how-to-convert-html-to-pdf-in-java-full-guide/)
+En komplett steg‑för‑steg‑guide för att konvertera HTML till PDF i Java med Aspose.HTML.
+### [Skapa PDF från HTML i Java – Fullständig batchkonverteringsguide](./create-pdf-from-html-in-java-full-batch-conversion-guide/)
+Lär dig hur du konverterar flera HTML‑filer till PDF i Java med Aspose.HTML i en enda batchprocess.
 ### [Konvertera HTML till MHTML](./convert-html-to-mhtml/)
 Konvertera enkelt HTML till MHTML med Aspose.HTML for Java. Följ vår steg‑för‑steg‑guide för effektiv HTML‑till‑MHTML‑konvertering.
 ### [Konvertera HTML till MHTML med Aspose.HTML – Komplett Java‑guide](./convert-html-to-mhtml-with-aspose-html-complete-java-guide/)

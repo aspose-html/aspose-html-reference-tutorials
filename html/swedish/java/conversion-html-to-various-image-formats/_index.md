@@ -120,6 +120,8 @@ Att använda Aspose.HTML for Java förenklar konverteringen av HTML‑dokument t
 ### [Skapa GIF från SVG med Java – Fullständig steg‑för‑steg‑guide](./create-gif-from-svg-with-java-full-step-by-step-guide/)
 ### [Skapa flersidig TIFF från SVG i Java – Steg‑för‑steg‑guide](./create-multipage-tiff-from-svg-in-java-step-by-step-guide/)
 ### [Konvertera SVG till PNG med hög upplösning – Java‑guide](./convert-svg-to-png-with-high-resolution-java-guide/)
+### [Konvertera HTML till WebP i Java – Komplett guide](./convert-html-to-webp-in-java-complete-guide/)
+### [Rendera HTML till PNG i Java – Emulera mobil enhet](./render-html-to-png-in-java-emulate-mobile-device/)
 
 ### [Hur man renderar HTML till PNG – Komplett guide för Java‑utvecklare](./how-to-render-html-to-png-complete-guide-for-java-developers/)
 ### [Skapa PNG från HTML i Java – Fullständig steg‑för‑steg‑guide](./create-png-from-html-in-java-full-step-by-step-guide/)

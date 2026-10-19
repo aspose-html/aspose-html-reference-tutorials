@@ -183,6 +183,8 @@ Learn how to easily convert HTML to TIFF using Aspose.HTML for Java. Step-by-ste
 دليل خطوة بخطوة لاستخدام Sandbox لالتقاط صور شاشة لصفحات الويب باستخدام Aspose.HTML for Java.
 ### [إنشاء ملف TIFF متعدد الصفحات من SVG في Java – دليل خطوة بخطوة](./create-multipage-tiff-from-svg-in-java-step-by-step-guide/)
 تعلم كيفية تحويل ملفات SVG إلى TIFF متعدد الصفحات باستخدام Aspose.HTML for Java خطوة بخطوة.
+### [تحويل HTML إلى WebP في Java – دليل شامل](./convert-html-to-webp-in-java-complete-guide/)
+تحويل HTML إلى WebP باستخدام Aspose.HTML for Java. دليل شامل لتحويل مستندات HTML إلى صور WebP بسهولة.
 
 ## الأسئلة المتكررة
 

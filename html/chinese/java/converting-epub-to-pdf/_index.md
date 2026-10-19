@@ -66,6 +66,8 @@ EPUB 文件被广泛用于电子书，但有时您需要将其转换为 PDF 格�
 
 ### [使用 Aspose HTML 在 PDF 中嵌入字体 – 将 EPUB 转换为 PDF 指南](./how-to-embed-fonts-in-pdf-using-aspose-html-convert-epub-to/)
 了解如何使用 Aspose.HTML for Java 在转换 EPUB 为 PDF 时嵌入自定义字体，确保文档显示一致。
+### [在 Java 中将 EPUB 转换为 PDF 并嵌入字体](./convert-epub-to-pdf-with-embedded-fonts-in-java/)
+了解在 Java 环境下使用 Aspose.HTML 将 EPUB 转为 PDF 并嵌入字体的完整步骤。
 
 ### [Converting EPUB to BMP](./convert-epub-to-bmp/)
 了解如何使用 Aspose.HTML for Java 将 EPUB 转换为 BMP。提供高效内容转换的分步指南。

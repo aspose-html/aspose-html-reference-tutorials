@@ -51,7 +51,7 @@ Aspose.HTML for Java के साथ HTML हेरफेर की शक्�
 ### [Java के लिए Aspose.HTML में HTML दस्तावेज़ों के लिए उन्नत फ़ाइल लोडिंग](./advanced-file-loading-html-documents/)
 Java में Aspose.HTML का उपयोग करके HTML दस्तावेज़ों को लोड, हेरफेर और सहेजना सीखें। उन्नत प्रोसेसिंग अनलॉक करें।
 ### [Java के लिए Aspose.HTML के साथ स्ट्रीम से HTML दस्तावेज़ लोड करें](./load-html-documents-from-stream/)
-स्ट्रीम से HTML दस्तावेज़ लोड करना सीखें। सहज हेरफेर के लिए चरण‑दर‑चरण ट्यूटोरियल।
+स्ट्रीम से HTML दस्तावेज़ लोड करना सीखें। सहज हेरफेर के लिए चरण‑दर‑शरण ट्यूटोरियल।
 ### [Java के लिए Aspose.HTML में स्ट्रिंग से HTML दस्तावेज़ बनाएँ](./create-html-documents-from-string/)
 स्ट्रिंग्स से HTML दस्तावेज़ बनाना सीखें। चरण‑दर‑चरण मार्गदर्शिका।
 ### [Java के लिए Aspose.HTML में URL से HTML दस्तावेज़ लोड करें](./load-html-documents-from-url/)
@@ -128,6 +128,12 @@ Java में HTML लोड करने के लिए चरण‑दर�
 Aspose.HTML for Java के साथ XPath क्वेरी करने की प्रक्रिया सीखें। चरण‑दर‑चरण मार्गदर्शिका, टिप्स और सर्वोत्तम प्रथाएँ।
 ### [Java में कई थ्रेड चलाएँ – Try With Resources का उपयोग करें](./run-multiple-threads-java-use-try-with-resources-java/)
 Java में कई थ्रेड चलाते समय Try With Resources का उपयोग करके संसाधनों को सुरक्षित रूप से प्रबंधित करना सीखें।
+### [Java में क्लास द्वारा div चुनें – पूर्ण XPath गाइड](./select-div-by-class-in-java-complete-xpath-guide/)
+XPath का उपयोग करके क्लास द्वारा div तत्व चुनने की पूरी गाइड, चरण‑दर‑चरण उदाहरणों के साथ।
+### [Java में HTML रेंडर करना – पेज लोड की प्रतीक्षा और क्वेरी सिलेक्टर पर पूर्ण गाइड](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
+Java में Aspose.HTML का उपयोग करके पेज लोड की प्रतीक्षा और क्वेरी सिलेक्टर से तत्व चुनना सीखें।
+### [Java में मार्कडाउन को HTML में परिवर्तित करें – चरण‑दर‑चरण गाइड](./convert-markdown-to-html-in-java-step-by-step-guide/)
+Java में Aspose.HTML का उपयोग करके मार्कडाउन को HTML में बदलने की प्रक्रिया सीखें। विस्तृत चरण‑दर‑चरण मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

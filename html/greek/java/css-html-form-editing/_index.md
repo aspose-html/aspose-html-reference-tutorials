@@ -100,6 +100,8 @@ url: /el/java/css-html-form-editing/
 Μάθετε πώς να εξάγετε στυλ από στοιχεία HTML χρησιμοποιώντας τη μέθοδο querySelector στο Aspose.HTML για Java.
 ### [Πώς να διαβάσετε CSS σε Java – Λήψη Υπολογισμένου Στυλ](./how-to-read-css-in-java-get-computed-style/)
 Μάθετε πώς να διαβάζετε τα στυλ CSS και να λαμβάνετε το υπολογισμένο στυλ των στοιχείων σε Java με Aspose.HTML.
+### [Πώς να αποκτήσετε στυλ σε Java με Aspose.HTML – Οδηγός βήμα‑βήμα](./how-to-get-style-in-java-with-aspose-html-step-by-step-guide/)
+Μάθετε πώς να ανακτήσετε και να εφαρμόσετε στυλ CSS σε έγγραφα HTML χρησιμοποιώντας Aspose.HTML για Java σε αυτόν τον πλήρη οδηγό.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

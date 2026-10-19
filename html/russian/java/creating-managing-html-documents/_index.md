@@ -46,7 +46,7 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 ### [Асинхронное создание HTML-документов в Aspose.HTML для Java](./create-html-documents-async/)
 Освойте асинхронное создание HTML-документов с помощью Aspose.HTML для Java. Пошаговое руководство, советы и часто задаваемые вопросы включены для быстрого обучения.
 ### [Создание пустых HTML-документов в Aspose.HTML для Java](./create-empty-html-documents/)
-Узнайте, как создавать пустые HTML-документы на Java с помощью Aspose.HTML, с помощью нашего подробного пошагового руководства, которое идеально подойдет разработчикам всех уровней.
+Узнайте, как создавать пустые HTML документы на Java с помощью Aspose.HTML, с помощью нашего подробного пошагового руководства, которое идеально подойдет разработчикам всех уровней.
 ### [Загрузка HTML-документов из файла в Aspose.HTML для Java](./load-html-documents-from-file/)
 Откройте для себя мощь манипуляции HTML с Aspose.HTML для Java. Научитесь загружать HTML-документы из файлов с помощью пошаговых руководств.
 ### [Расширенная загрузка файлов для HTML-документов в Aspose.HTML для Java](./advanced-file-loading-html-documents/)
@@ -123,6 +123,12 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 Узнайте, как выполнять запросы XPath в Java с помощью Aspose.HTML, пошаговое руководство.
 ### [Запуск нескольких потоков в Java – использование try-with-resources](./run-multiple-threads-java-use-try-with-resources-java/)
 Узнайте, как эффективно управлять несколькими потоками в Java, используя конструкцию try-with-resources для безопасного освобождения ресурсов.
+### [Отображение HTML в Java – Полное руководство по ожиданию загрузки страницы и использованию query selector](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
+Узнайте, как рендерить HTML в Java, ждать полной загрузки страницы и использовать query selector для извлечения элементов.
+### [Конвертировать Markdown в HTML в Java – пошаговое руководство](./convert-markdown-to-html-in-java-step-by-step-guide/)
+Узнайте, как преобразовать Markdown в HTML в Java с помощью Aspose.HTML, следуя пошаговым инструкциям.
+### [Выбор div по классу в Java – Полное руководство по XPath](./select-div-by-class-in-java-complete-xpath-guide/)
+Узнайте, как выбирать элементы div по классу в Java с помощью XPath, следуя подробному пошаговому руководству.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

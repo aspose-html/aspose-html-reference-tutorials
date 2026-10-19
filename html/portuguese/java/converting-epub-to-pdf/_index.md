@@ -69,6 +69,8 @@ Aprenda a incorporar fontes ao converter EPUB para PDF usando Aspose.HTML for Ja
 
 ### [Como incorporar fontes em PDF usando Aspose HTML – guia de conversão de EPUB para PDF](./how-to-embed-fonts-in-pdf-using-aspose-html-convert-epub-to/)
 Aprenda a incorporar fontes ao gerar PDFs com Aspose.HTML for Java, garantindo tipografia correta ao converter EPUBs.
+### [Converter EPUB para PDF com Fontes Incorporadas em Java](./convert-epub-to-pdf-with-embedded-fonts-in-java/)
+Aprenda a incorporar fontes ao converter EPUB para PDF usando Aspose.HTML for Java, garantindo tipografia preservada.
 
 ### [Convertendo EPUB para BMP](./convert-epub-to-bmp/)
 Aprenda a converter EPUB para BMP usando Aspose.HTML for Java. Guia passo a passo para transformação eficiente de conteúdo.

@@ -127,6 +127,12 @@ Ismerje meg, hogyan futtathat JavaScript‑et Java‑alkalmazásban, módosítha
 Ismerje meg, hogyan hozhat létre szálbiztos HTML elemeket Java ExecutorService használatával, lépésről lépésre bemutató.
 ### [Futtasson több szálat Java-ban – használja a try‑with‑resources-t](./run-multiple-threads-java-use-try-with-resources-java/)
 Ismerje meg, hogyan kezelhet több szálat Java-ban a try‑with‑resources szerkezettel a biztonságos erőforrás-kezelés érdekében.
+### [HTML renderelése Java-ban – Teljes útmutató az oldal betöltésének várásához és a Query Selector használatához](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
+Tanulja meg, hogyan renderelhet HTML-t Java-ban, várhat az oldal betöltésére, és használhatja a Query Selector-t a tartalom lekérdezéséhez.
+### [Markdown konvertálása HTML-re Java-ban – Lépésről‑lépésre útmutató](./convert-markdown-to-html-in-java-step-by-step-guide/)
+Ismerje meg, hogyan alakíthatja át a Markdown tartalmat HTML-re Java nyelven, részletes, lépésről‑lépésre útmutatóval.
+### [Div elem kiválasztása osztály alapján Java-ban – Teljes XPath útmutató](./select-div-by-class-in-java-complete-xpath-guide/)
+Tanulja meg, hogyan válassza ki a div elemeket osztályuk alapján Java XPath használatával, részletes, lépésről‑lépésre útmutató.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

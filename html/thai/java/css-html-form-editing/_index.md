@@ -99,6 +99,8 @@ url: /th/java/css-html-form-editing/
 เรียนรู้วิธีใช้ Query Selector เพื่อดึงสไตล์ขององค์ประกอบใน Aspose HTML Java อย่างง่ายและรวดเร็ว
 ### [วิธีอ่าน CSS ใน Java – รับค่า Style ที่คำนวณแล้ว](./how-to-read-css-in-java-get-computed-style/)
 เรียนรู้วิธีดึงค่า style ที่คำนวณแล้วจาก CSS ใน Java ด้วย Aspose.HTML เพื่อการวิเคราะห์และปรับแต่งหน้าเว็บ
+### [วิธีรับสไตล์ใน Java ด้วย Aspose.HTML – คู่มือแบบขั้นตอนต่อขั้นตอน](./how-to-get-style-in-java-with-aspose-html-step-by-step-guide/)
+เรียนรู้วิธีดึงสไตล์จากเอกสาร HTML ด้วย Aspose.HTML สำหรับ Java ผ่านขั้นตอนที่ชัดเจนและตัวอย่างโค้ด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

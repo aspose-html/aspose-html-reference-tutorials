@@ -131,6 +131,12 @@ Aspose.HTML for Java 為旨在在 Java 應用程式中無縫處理 HTML 文件�
 透過本逐步指南，學習如何在 Java 中使用 Aspose.HTML 查詢 XPath，快速提取所需資料。
 ### [在 Java 中執行多執行緒 – 使用 try-with-resources](./run-multiple-threads-java-use-try-with-resources-java/)
 了解如何在 Java 中使用 try-with-resources 同時執行多執行緒，確保資源正確釋放。
+### [在 Aspose.HTML for Java 中渲染 HTML – 完整指南：等待頁面載入與查詢選擇器](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
+學習如何使用 Aspose.HTML for Java 在 Java 中渲染 HTML，等待頁面完整載入並使用查詢選擇器操作內容。
+### [在 Java 中將 Markdown 轉換為 HTML – 逐步指南](./convert-markdown-to-html-in-java-step-by-step-guide/)
+學習如何使用 Aspose.HTML for Java 將 Markdown 內容轉換為 HTML，提供完整的逐步說明與範例。
+### [在 Java 中按類別選取 div – 完整 XPath 指南](./select-div-by-class-in-java-complete-xpath-guide/)
+學習如何使用 XPath 在 Java 中根據類別選取 div 元素，提供完整步驟與範例說明。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

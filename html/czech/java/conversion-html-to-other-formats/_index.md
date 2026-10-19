@@ -83,7 +83,6 @@ Na závěr, zvládnutí **html to pdf java** a širší sady konverzí odemyká 
 
 ## Konverze - Tutoriály pro HTML do jiných formátů
 ### [Převod HTML do PDF](./convert-html-to-pdf/)
-Naučte se převést HTML do PDF v Javě pomocí Aspose.HTML. Vytvářejte vysoce kvalitní PDF z vašeho HTML obsahu bez námahy.
 ### [Aspose HTML PDF/A tutoriál: Převod HTML do PDF/A‑2b pomocí Javy](./aspose-html-pdf-a-tutorial-convert-html-to-pdf-a-2b-with-jav/)
 Naučte se převést HTML do PDF/A‑2b v Javě pomocí Aspose.HTML. Vytvářejte archivovatelný PDF/A výstup s vysokou kvalitou.
 
@@ -131,9 +130,8 @@ Převádějte SVG do PDF v Javě s Aspose.HTML. Bezproblémové řešení pro vy
 ### [Vytvořte PDF ze SVG – Vlastní velikost stránky s Aspose.HTML (Java)](./create-pdf-from-svg-custom-page-size-with-aspose-html-java/)
 Naučte se vytvořit PDF z SVG s vlastní velikostí stránky pomocí Aspose.HTML for Java.
 ### [Převod SVG do XPS](./convert-svg-to-xps/)
-Naučte se převádět SVG do XPS s Aspose.HTML for Java. Jednoduchý, krok‑za‑krokem průvodce pro plynulé konverze.
+### [Vytvořit PDF z HTML v Javě – Kompletní průvodce hromadnou konverzí](./create-pdf-from-html-in-java-full-batch-conversion-guide/)
 ### [Převod HTML do PDF v Javě – krok‑za‑krokem s nastavením velikosti stránky](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
-Naučte se převést HTML do PDF v Javě s podrobným nastavením velikosti stránky a dalšími možnostmi.
 ### [Vytvoření PDF z Markdownu v Javě – krok‑za‑krokem](./create-pdf-from-markdown-in-java-step-by-step-guide/)
 Naučte se převést Markdown do PDF v Javě pomocí Aspose.HTML s podrobným nastavením a ukázkami.
 
@@ -245,6 +243,8 @@ Naučte se převádět více HTML souborů najednou do PDF v Javě pomocí Aspos
 Naučte se nastavit velikost stránky PDF při konverzi HTML pomocí Aspose.HTML for Java.
 ### [Aspose HTML do PDF v Javě – Přidání okrajů stránky a PDF/A‑2b](./aspose-html-to-pdf-in-java-add-page-margins-pdf-a-2b/)
 Naučte se nastavit okraje stránky a exportovat PDF/A‑2b pomocí Aspose.HTML for Java.
+### [Jak převést HTML do PDF v Javě – Kompletní průvodce](./how-to-convert-html-to-pdf-in-java-full-guide/)
+### [Render HTML do PDF s paralelním vykreslováním – rychlejší](./render-html-to-pdf-with-parallel-rendering-faster/)
 
 ## Často kladené otázky
 

@@ -175,6 +175,8 @@ Naučte se, jak pomocí sandboxu pořídit snímek webové stránky pomocí Aspo
 Naučte se, jak pomocí Aspose.HTML for Java převést SVG do vícestránkového TIFF souboru pomocí podrobného průvodce.
 ### [Převod SVG do PNG s vysokým rozlišením – Java průvodce](./convert-svg-to-png-with-high-resolution-java-guide/)
 Naučte se převést SVG soubory do PNG s vysokým rozlišením v Javě pomocí Aspose.HTML. Kompletní krok‑za‑krokem průvodce.
+### [Převod HTML do WebP v Javě – Kompletní průvodce](./convert-html-to-webp-in-java-complete-guide/)
+Kompletní průvodce převodem HTML do formátu WebP v Javě pomocí Aspose.HTML.
 
 ## Často kladené otázky
 

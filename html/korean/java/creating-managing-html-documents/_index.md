@@ -85,6 +85,8 @@ Aspose.HTML for Java를 사용하여 HTML 기사에서 텍스트를 추출하는
 Java에서 XPath와 CSS 선택자를 비교하여 HTML을 로드하는 방법을 단계별로 안내합니다.
 ### [Java에서 Aspose를 사용하여 xpath 쿼리하는 방법 – 단계별 가이드](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
 Aspose.HTML for Java를 사용해 Java에서 xpath를 쿼리하는 방법을 단계별로 안내합니다.
+### [Java에서 HTML 렌더링 – 페이지 로드 대기 및 쿼리 셀렉터 완전 가이드](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
+Aspose.HTML for Java를 사용해 HTML을 렌더링하고 페이지 로드 대기 및 쿼리 셀렉터 활용 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.HTML을 사용하여 새 HTML 문서 생성](./generate-new-html-documents/)
 이 간단한 단계별 가이드를 통해 Aspose.HTML for Java를 사용하여 새 HTML 문서를 만드는 방법을 알아보세요. 동적 HTML 콘텐츠 생성을 시작하세요.
 ### [Java용 Aspose.HTML에서 문서 로드 이벤트 처리](./handle-document-load-events/)
@@ -127,6 +129,11 @@ Java ExecutorService를 사용하여 스레드 안전하게 HTML 요소를 생�
 
 ### [Java에서 다중 스레드 실행 – try-with-resources 사용](./run-multiple-threads-java-use-try-with-resources-java/)
 Java에서 여러 스레드를 실행하면서 try-with-resources를 활용해 리소스를 안전하게 관리하는 방법을 단계별로 안내합니다.
+### [Java에서 마크다운을 HTML로 변환 – 단계별 가이드](./convert-markdown-to-html-in-java-step-by-step-guide/)
+Aspose.HTML for Java를 사용하여 마크다운을 HTML로 변환하는 방법을 단계별로 안내합니다.
+### [Java에서 클래스별 div 선택 – 완전 XPath 가이드](./select-div-by-class-in-java-complete-xpath-guide/)
+Java와 XPath를 사용해 클래스 이름으로 div 요소를 선택하는 방법을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

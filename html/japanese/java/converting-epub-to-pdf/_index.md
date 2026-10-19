@@ -62,6 +62,8 @@ JavaでEPUBをPDFに変換する際にフォントを埋め込む方法を解説
 
 ### [Aspose HTML を使用して PDF にフォントを埋め込む方法 – EPUB から PDF への変換ガイド](./how-to-embed-fonts-in-pdf-using-aspose-html-convert-epub-to/)
 Aspose.HTML for Java を使って PDF にフォントを埋め込み、EPUB からの変換時に文字表示を保証する方法を解説します。
+### [Javaで埋め込みフォント付きEPUBをPDFに変換](./convert-epub-to-pdf-with-embedded-fonts-in-java/)
+Aspose.HTML for Java を使用して、フォントを埋め込んだ状態で EPUB を PDF に変換する方法を学びます。
 
 ### [EPUB を BMP に変換](./convert-epub-to-bmp/)
 Aspose.HTML for Java を使用して EPUB を BMP に変換する方法を学びます。効率的なコンテンツ変換のためのステップバイステップガイドです。

@@ -130,6 +130,10 @@ Aspose.HTML를 사용하여 Java에서 페이지 크기와 여백을 맞춤 설�
 Aspose.HTML를 사용하여 Java에서 HTML을 배치로 PDF로 변환하는 방법을 단계별로 안내합니다.
 ### [Aspose HTML을 사용해 Java에서 PDF 페이지 크기 설정](./set-pdf-page-size-with-aspose-html-to-pdf-in-java/)
 Aspose.HTML를 사용하여 Java에서 PDF 페이지 크기를 지정하는 방법을 단계별로 안내합니다.
+### [Java에서 HTML을 PDF로 변환 – 전체 가이드](./how-to-convert-html-to-pdf-in-java-full-guide/)
+Aspose.HTML를 활용해 Java에서 HTML을 PDF로 변환하는 전체 과정을 단계별로 안내합니다.
+### [Java에서 HTML을 PDF로 변환 – 전체 배치 변환 가이드](./create-pdf-from-html-in-java-full-batch-conversion-guide/)
+Aspose.HTML를 사용하여 Java에서 여러 HTML 파일을 한 번에 PDF로 변환하는 전체 배치 변환 프로세스를 단계별로 안내합니다.
 ### [HTML을 MHTML로 변환](./convert-html-to-mhtml/)
 Aspose.HTML for Java를 사용하여 HTML을 MHTML로 손쉽게 변환합니다. 효율적인 HTML‑to‑MHTML 변환을 위한 단계별 가이드를 따라 주세요.
 ### [Aspose.HTML를 사용하여 HTML을 MHTML로 변환 – 완전한 Java 가이드](./convert-html-to-mhtml-with-aspose-html-complete-java-guide/)
@@ -208,6 +212,7 @@ Aspose.HTML를 사용하여 MHTML을 PDF로 변환하면서 이미지가 올바�
 Aspose.HTML를 활용해 Java에서 HTML을 PDF로 변환하는 과정을 자세히 배웁니다.
 ### [Aspose HTML을 Java에서 PDF로 변환 – 페이지 여백 및 PDF/A‑2b 적용](./aspose-html-to-pdf-in-java-add-page-margins-pdf-a-2b/)
 Aspose.HTML for Java를 사용해 페이지 여백을 설정하고 PDF/A‑2b 표준을 적용하여 PDF를 생성하는 방법을 단계별로 안내합니다.
+### [병렬 렌더링으로 HTML을 PDF로 변환 – 더 빠르게](./render-html-to-pdf-with-parallel-rendering-faster/)
 
 ### [Aspose HTML을 사용하여 PDF 페이지 크기 설정 – 전체 Java 가이드](./set-pdf-page-size-with-aspose-html-full-java-guide/)
 Aspose.HTML를 사용하여 Java에서 PDF 페이지 크기를 설정하는 전체 단계별 가이드를 제공합니다.

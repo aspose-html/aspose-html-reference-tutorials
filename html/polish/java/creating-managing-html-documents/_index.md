@@ -132,6 +132,11 @@ Pokażemy, jak bezpiecznie tworzyć elementy HTML w wielu wątkach przy użyciu 
 Dowiedz się, jak zapytać XPath w Javie przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
 ### [Uruchamianie wielu wątków w Javie – użycie try-with-resources w Javie](./run-multiple-threads-java-use-try-with-resources-java/)
 Dowiedz się, jak uruchamiać wiele wątków w Javie, wykorzystując konstrukcję try-with-resources do bezpiecznego zarządzania zasobami.
+### [Wybierz element div po klasie w Javie – Kompletny przewodnik XPath](./select-div-by-class-in-java-complete-xpath-guide/)
+Dowiedz się, jak wybrać elementy div według klasy w Javie przy użyciu pełnego przewodnika XPath, krok po kroku.
+### [Konwertuj Markdown na HTML w Javie – przewodnik krok po kroku](./convert-markdown-to-html-in-java-step-by-step-guide/)
+Dowiedz się, jak przekształcić pliki Markdown w HTML w Javie przy użyciu Aspose.HTML, krok po kroku, z praktycznymi przykładami.
+### [Renderowanie HTML w Javie – Kompletny przewodnik po oczekiwaniu na załadowanie strony i selektorze zapytań](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

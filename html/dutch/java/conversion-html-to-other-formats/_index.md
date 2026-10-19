@@ -131,6 +131,8 @@ Leer hoe u de paginagrootte van PDF's kunt instellen bij conversie van HTML met 
 Leer hoe u paginamarges instelt en PDF/A‑2b‑compatibiliteit toevoegt bij het converteren van HTML naar PDF met Aspose.HTML for Java.
 ### [PDF maken van HTML in Java – Stapsgewijze gids](./create-pdf-from-html-in-java-step-by-step-guide/)
 Leer stap voor stap hoe u met Aspose.HTML een PDF genereert vanuit HTML in Java, inclusief configuratie‑opties en best practices.
+### [Hoe HTML naar PDF converteren in Java – Volledige gids](./how-to-convert-html-to-pdf-in-java-full-guide/)
+Ontdek een stap‑voor‑stap handleiding om HTML naar PDF te converteren in Java met Aspose.HTML, inclusief configuratie‑tips en best practices.
 ### [HTML naar MHTML converteren](./convert-html-to-mhtml/)
 Converteer HTML moeiteloos naar MHTML met Aspose.HTML for Java. Volg onze stap‑voor‑stap gids voor efficiënte HTML‑naar‑MHTML conversie.
 ### [HTML naar MHTML converteren met Aspose.HTML – Complete Java‑gids](./convert-html-to-mhtml-with-aspose-html-complete-java-guide/)
@@ -180,6 +182,8 @@ Leer hoe u met een Java Fixed Thread Pool meerdere HTML‑naar‑PDF conversies 
 Leer stap‑voor‑stap hoe u HTML naar PDF, PNG, DOCX en Markdown converteert met Aspose.HTML for Java.
 ### [Java thread‑pool tutorial – Meerdere HTML‑bestanden naar PDF converteren](./java-thread-pool-tutorial-convert-multiple-html-files-to-pdf/)
 Leer hoe u met een Java thread‑pool meerdere HTML‑bestanden tegelijk naar PDF kunt converteren met Aspose.HTML.
+### [PDF maken van HTML in Java – Volledige batchconversiegids](./create-pdf-from-html-in-java-full-batch-conversion-guide/)
+### [HTML renderen naar PDF met parallel rendering – Sneller](./render-html-to-pdf-with-parallel-rendering-faster/)
 
 ### [HTML naar PDF converteren – Complete gids voor het opslaan van PDF naar Azure Blob](./convert-html-to-pdf-complete-guide-to-saving-pdf-to-azure-bl/)
 Leer hoe u HTML naar PDF converteert en de PDF opslaat in Azure Blob Storage met Aspose.HTML voor Java.

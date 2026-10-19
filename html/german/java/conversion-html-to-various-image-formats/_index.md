@@ -167,6 +167,8 @@ Erfahren Sie, wie Sie mit der Aspose.HTML Sandbox Webseiten‑Screenshots erstel
 Erfahren Sie, wie Sie mit Aspose.HTML for Java ein mehrseitiges TIFF aus SVG-Dateien erstellen – umfassende Schritt‑für‑Step‑Anleitung.
 ### [SVG in PNG mit hoher Auflösung konvertieren – Java‑Leitfaden](./convert-svg-to-png-with-high-resolution-java-guide/)
 Erfahren Sie, wie Sie SVG‑Dateien mit Aspose.HTML for Java in hochauflösende PNG‑Bilder konvertieren – Schritt‑für‑Schritt‑Anleitung.
+### [HTML in WebP konvertieren – Komplettanleitung für Java](./convert-html-to-webp-in-java-complete-guide/)
+Kompletter Leitfaden zur Umwandlung von HTML in WebP mit Java und Aspose.HTML – detaillierte Schritte und Best Practices.
 
 ## Häufig gestellte Fragen
 

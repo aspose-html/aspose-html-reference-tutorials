@@ -117,6 +117,8 @@ Aprenda a definir tamanhos de página e margens personalizados ao converter HTML
 Aprenda a criar PDFs a partir de HTML em Java com um guia detalhado passo a passo usando Aspose.HTML.
 ### [Aspose HTML para PDF em Java – Adicionar Margens de Página e PDF/A‑2b](./aspose-html-to-pdf-in-java-add-page-margins-pdf-a-2b/)
 Aprenda a definir margens de página e gerar PDFs compatíveis com PDF/A‑2b usando Aspose.HTML for Java.
+### [Como Converter HTML para PDF em Java – Guia Completo](./how-to-convert-html-to-pdf-in-java-full-guide/)
+Aprenda passo a passo como converter HTML para PDF em Java usando Aspose.HTML, cobrindo todas as opções avançadas.
 ### [Convertendo HTML para MHTML](./convert-html-to-mhtml/)
 ### [Convertendo HTML para XPS](./convert-html-to-xps/)
 ### [Definir proporção de pixels do dispositivo em Java – Converter HTML para mobile](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)
@@ -181,6 +183,10 @@ Aprenda a converter múltiplos arquivos HTML em PDFs usando Aspose.HTML for Java
 Aprenda a gerar PDFs a partir de HTML em Java com um tutorial detalhado, cobrindo configuração, opções de página e melhores práticas.
 ### [Definir tamanho da página PDF com Aspose HTML para PDF em Java](./set-pdf-page-size-with-aspose-html-to-pdf-in-java/)
 Aprenda a definir o tamanho da página ao converter HTML para PDF usando Aspose.HTML for Java.
+### [Renderizar HTML para PDF com Renderização Paralela – Mais Rápido](./render-html-to-pdf-with-parallel-rendering-faster/)
+Aprenda a renderizar HTML para PDF usando renderização paralela, aumentando a velocidade de conversão em Java.
+### [Criar PDF a partir de HTML em Java – Guia completo de conversão em lote](./create-pdf-from-html-in-java-full-batch-conversion-guide/)
+Aprenda a converter múltiplos arquivos HTML em PDFs em lote usando Aspose.HTML for Java, com configurações avançadas e otimização de desempenho.
 
 ### [Incorporar fontes PDF – Guia Completo Aspose HTML para PDF (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
 

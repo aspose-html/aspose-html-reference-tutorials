@@ -128,6 +128,8 @@ weight: 24
 ### [Πώς να Χρησιμοποιήσετε το Sandbox για Λήψη Στιγμιότυπου Ιστοσελίδας](./how-to-use-sandbox-to-capture-webpage-screenshot/)
 Μάθετε πώς να χρησιμοποιήσετε το Sandbox της Aspose.HTML για να τραβήξετε στιγμιότυπο οθόνης μιας ιστοσελίδας σε Java.
 ### [Δημιουργία πολυσελίδας TIFF από SVG σε Java – Οδηγός βήμα‑βήμα](./create-multipage-tiff-from-svg-in-java-step-by-step-guide/)
+### [Μετατροπή HTML σε WebP – Πλήρης Οδηγός](./convert-html-to-webp-in-java-complete-guide/)
+### [Απόδοση HTML σε PNG σε Java – Προσομοίωση Κινητής Συσκευής](./render-html-to-png-in-java-emulate-mobile-device/)
 
 ### [Πώς να αποδώσετε HTML σε PNG σε Java – Πλήρης Οδηγός](./how-to-render-html-to-png-in-java-complete-guide/)
 ### [Πώς να δημιουργήσετε GIF από SVG – Οδηγός Java βήμα‑βήμα](./how-to-create-gif-from-svg-step-by-step-java-guide/)

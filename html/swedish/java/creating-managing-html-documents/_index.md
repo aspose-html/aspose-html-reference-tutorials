@@ -80,6 +80,8 @@ Lär dig hur du söker och extraherar bild‑URL:er från HTML-dokument i Java m
 Lär dig hur du analyserar HTML i Java och extraherar ren text från artiklar med steg-för-steg‑guide.
 ### [Hur du frågar xpath i Java med Aspose – Steg‑för‑steg‑guide](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
 Lär dig hur du använder XPath för att söka i HTML med Aspose i Java. En detaljerad steg‑för‑steg‑guide.
+### [Välj div efter klass i Java – Komplett XPath‑guide](./select-div-by-class-in-java-complete-xpath-guide/)
+Lär dig hur du väljer div‑element efter klass i Java med en komplett XPath‑guide. Steg‑för‑steg‑instruktioner för effektiv selektion.
 ### [Generera nya HTML-dokument med Aspose.HTML för Java](./generate-new-html-documents/)
 Lär dig hur du skapar nya HTML-dokument med Aspose.HTML för Java med denna enkla steg-för-steg-guide. Börja generera dynamiskt HTML-innehåll.
 
@@ -143,6 +145,10 @@ Lär dig hur du kör JavaScript i en Java‑applikation, manipulerar HTML och l�
 Lär dig hur du skapar HTML-element på ett trådsäkert sätt med Java ExecutorService i Aspose.HTML.
 ### [Kör flera trådar i Java – använd try‑with‑resources i Java](./run-multiple-threads-java-use-try-with-resources-java/)
 Lär dig hur du kör flera trådar i Java samtidigt som du använder try‑with‑resources för automatisk resurshantering.
+### [Rendera HTML i Java – Komplett guide för att vänta på sidladdning och query selector](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
+Lär dig hur du renderar HTML i Java, väntar på att sidan laddas och använder query selector för att extrahera element.
+### [Konvertera Markdown till HTML i Java – Steg‑för‑steg‑guide](./convert-markdown-to-html-in-java-step-by-step-guide/)
+Lär dig hur du konverterar Markdown till HTML i Java med vår detaljerade steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

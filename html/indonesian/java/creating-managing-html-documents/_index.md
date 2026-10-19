@@ -82,6 +82,8 @@ Pelajari cara mengeksekusi JavaScript dalam aplikasi Java, menjalankan skrip pad
 Pelajari cara membuat elemen HTML secara aman dalam lingkungan multithread menggunakan ExecutorService di Java dengan contoh langkah demi langkah.
 ### [Jalankan Banyak Thread di Java – Gunakan Try With Resources di Java](./run-multiple-threads-java-use-try-with-resources-java/)
 Pelajari cara menjalankan beberapa thread secara bersamaan di Java sambil mengelola sumber daya dengan try‑with‑resources untuk kode yang bersih dan aman.
+### [Render HTML di Java – Panduan Lengkap Menunggu Pemuatan Halaman & Query Selector](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
+Pelajari cara merender HTML di Java, menunggu halaman selesai dimuat, dan menggunakan query selector untuk mengekstrak elemen.
 ### [Cara Menanyakan HTML di Java – Tutorial Lengkap](./how-to-query-html-in-java-complete-tutorial/)
 ### [Cara Mengurai HTML di Java – Memuat, Menanyakan & Menghitung Elemen](./how-to-parse-html-java-load-query-count-elements/)
 ### [Jalankan JavaScript Asinkron di Java – Panduan Lengkap Langkah‑per‑Langkah](./execute-async-javascript-in-java-complete-step-by-step-guide/)
@@ -125,6 +127,12 @@ Pelajari cara memuat HTML di Java dengan panduan langkah demi langkah ini.
 ### [Muat Dokumen HTML Aspose – Panduan Cepat Java untuk Mengambil Judul Halaman](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
 ### [Cara Menanyakan XPath di Java dengan Aspose – Panduan Langkah‑per‑Langkah](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
 Pelajari cara menanyakan XPath di Java menggunakan Aspose dengan panduan langkah demi langkah yang mudah diikuti.
+
+### [Pilih div berdasarkan kelas di Java – Panduan XPath Lengkap](./select-div-by-class-in-java-complete-xpath-guide/)
+Pelajari cara memilih elemen div berdasarkan kelas menggunakan XPath di Java dengan panduan langkah demi langkah yang lengkap.
+
+### [Mengonversi Markdown ke HTML di Java – Panduan Langkah‑per‑Langkah](./convert-markdown-to-html-in-java-step-by-step-guide/)
+Pelajari cara mengonversi file Markdown menjadi HTML di Java dengan panduan langkah demi langkah kami.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -140,6 +140,12 @@ Aspose.HTML for Java 为开发人员提供了功能强大的工具包，旨在�
 演示如何在 Aspose.HTML for Java 中使用 ExecutorService 安全地创建 HTML 元素，确保多线程环境下的线程安全。
 ### [在 Java 中运行多个线程 – 使用 try-with-resources](./run-multiple-threads-java-use-try-with-resources-java/)
 了解如何在 Java 中使用 try-with-resources 管理资源，同时运行多个线程，实现安全高效的并发处理。
+### [在 Java 中通过类选择 div – 完整 XPath 指南](./select-div-by-class-in-java-complete-xpath-guide/)
+本完整指南教您如何在 Java 中使用 XPath 按类选择 div 元素，涵盖语法、示例和常见问题。
+### [在 Java 中渲染 HTML – 完整指南：等待页面加载和查询选择器](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
+本完整指南教您在 Java 中渲染 HTML，等待页面加载完成并使用查询选择器提取元素。
+### [在 Aspose.HTML for Java 中将 Markdown 转换为 HTML – 步骤指南](./convert-markdown-to-html-in-java-step-by-step-guide/)
+通过本分步指南学习如何使用 Aspose.HTML for Java 将 Markdown 内容转换为 HTML，适用于各种 Java 项目。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

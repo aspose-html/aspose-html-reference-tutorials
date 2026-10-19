@@ -129,6 +129,12 @@ Aspose.HTML สำหรับ Java นำเสนอชุดเครื่�
 ### [รันหลายเธรดใน Java – ใช้ try with resources ใน Java](./run-multiple-threads-java-use-try-with-resources-java/)
 เรียนรู้วิธีรันหลายเธรดใน Java พร้อมการจัดการทรัพยากรอย่างปลอดภัยด้วย try‑with‑resources
 
+### [เลือก div ตามคลาสใน Java – คู่มือ XPath ฉบับสมบูรณ์](./select-div-by-class-in-java-complete-xpath-guide/)
+เรียนรู้วิธีเลือกองค์ประกอบ div ตามคลาสใน Java ด้วย XPath อย่างละเอียดและครบถ้วนในคู่มือขั้นตอนนี้
+### [เรนเดอร์ HTML ใน Java – คู่มือฉบับสมบูรณ์สำหรับการรอโหลดหน้าและการใช้ Query Selector](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
+เรียนรู้วิธีเรนเดอร์ HTML ใน Java พร้อมรอให้หน้าโหลดเสร็จและใช้ Query Selector เพื่อดึงข้อมูลอย่างแม่นยำ
+### [แปลง Markdown เป็น HTML ใน Java – คู่มือทีละขั้นตอน](./convert-markdown-to-html-in-java-step-by-step-guide/)
+เรียนรู้วิธีแปลงไฟล์ Markdown เป็น HTML ใน Java ด้วย Aspose.HTML ผ่านขั้นตอนที่ชัดเจนและง่ายต่อการทำตาม
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

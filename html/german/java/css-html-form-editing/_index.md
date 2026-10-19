@@ -101,6 +101,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML für Java das berechnete CSS eines Element
 Erfahren Sie, wie Sie mit Aspose.HTML für Java den Stil von Elementen über den Query Selector abrufen können.
 ### [CSS in Java auslesen – Computed Style erhalten](./how-to-read-css-in-java-get-computed-style/)
 Erfahren Sie, wie Sie mit Aspose.HTML für Java den berechneten CSS-Stil eines Elements ermitteln und nutzen können.
+### [Wie man Stil in Java mit Aspose.HTML abruft – Schritt‑für‑Schritt‑Anleitung](./how-to-get-style-in-java-with-aspose-html-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java CSS‑Stile programmgesteuert auslesen und anwenden – eine klare Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

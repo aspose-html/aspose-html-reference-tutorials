@@ -99,6 +99,8 @@ Dowiedz się, jak pobrać obliczone style CSS elementów w Javie przy użyciu As
 Dowiedz się, jak programowo pobierać style elementów HTML w Aspose.HTML for Java przy użyciu metody querySelector.
 ### [Jak odczytać CSS w Javie – pobieranie stylu obliczonego](./how-to-read-css-in-java-get-computed-style/)
 Dowiedz się, jak w Javie odczytać style CSS i uzyskać styl obliczony przy użyciu Aspose.HTML.
+### [Jak uzyskać styl w Javie z Aspose.HTML – Przewodnik krok po kroku](./how-to-get-style-in-java-with-aspose-html-step-by-step-guide/)
+Dowiedz się, jak programowo pobierać style CSS elementów HTML w Javie przy użyciu Aspose.HTML, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -179,6 +179,9 @@ Pełny przewodnik, jak ustawić współczynnik pikseli urządzenia w Javie przy 
 Dowiedz się, jak utworzyć wielostronicowy plik TIFF z SVG w Javie przy użyciu Aspose.HTML. Kompletny przewodnik krok po kroku.
 
 
+### [Konwertowanie HTML do WebP w Javie – Kompletny przewodnik](./convert-html-to-webp-in-java-complete-guide/)
+Dowiedz się, jak konwertować HTML do formatu WebP w Javie przy użyciu Aspose.HTML. Kompletny przewodnik krok po kroku.
+
 ## Najczęściej zadawane pytania
 
 **Q: Czy mogę konwertować HTML do PNG w Javie bez dodatkowych bibliotek graficznych?**  

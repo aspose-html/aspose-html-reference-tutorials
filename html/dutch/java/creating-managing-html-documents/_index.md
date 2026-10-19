@@ -126,6 +126,12 @@ Leer hoe u HTML in Java kunt laden en vergelijken tussen XPath- en CSS-selectore
 Leer hoe u xpath‑query's uitvoert in Java met Aspose via een gedetailleerde stap‑voor‑stap handleiding.
 ### [Meerdere threads uitvoeren in Java – try-with-resources gebruiken](./run-multiple-threads-java-use-try-with-resources-java/)
 Leer hoe u meerdere threads in Java kunt uitvoeren en resources veilig beheert met try-with-resources.
+### [Selecteer div op class in Java – Complete XPath-gids](./select-div-by-class-in-java-complete-xpath-guide/)
+Leer hoe u met Aspose.HTML voor Java een div-element selecteert op basis van class met XPath. Volledige stapsgewijze gids.
+### [HTML renderen in Java – Complete gids voor wachten op paginalading en query selector](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
+Leer hoe u HTML rendert in Java, wacht op paginalading en gebruik query selector met deze volledige stap‑voor‑stap handleiding.
+### [Markdown naar HTML converteren in Java – Stapsgewijze handleiding](./convert-markdown-to-html-in-java-step-by-step-guide/)
+Leer hoe u Markdown-bestanden converteert naar HTML in Java met Aspose.HTML, inclusief een stapsgewijze handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -66,6 +66,8 @@ Objevte, jak snadno načíst HTML dokumenty z URL v Javě pomocí Aspose.HTML. V
 Naučte se vytvářet nové HTML dokumenty pomocí Aspose.HTML for Java pomocí tohoto jednoduchého průvodce krok za krokem. Začněte generovat dynamický obsah HTML.
 ### [Generujte HTML z JavaScriptu v Javě – Kompletní průvodce krok za krokem](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Naučte se generovat HTML pomocí JavaScriptu v Javě pomocí podrobného průvodce krok za krokem.
+### [Převod Markdownu na HTML v Javě – krok‑za‑krokem průvodce](./convert-markdown-to-html-in-java-step-by-step-guide/)
+Naučte se převádět Markdown na HTML v Javě pomocí Aspose.HTML s podrobným návodem krok za krokem.
 ### [Zvládejte události načítání dokumentu v Aspose.HTML pro Java](./handle-document-load-events/)
 Naučte se zvládat události načítání dokumentů v Aspose.HTML pro Java pomocí tohoto podrobného průvodce. Vylepšete své webové aplikace.
 ### [Spuštění JavaScriptu v Javě – Spusťte JS na HTML a přidejte elementy](./execute-javascript-java-run-js-on-html-append-elements/)
@@ -119,6 +121,10 @@ Ukázka, jak bezpečně vytvářet HTML elementy v multi‑vláknovém prostřed
 Kompletní průvodce, jak v Javě dotazovat XPath pomocí Aspose.HTML, včetně příkladů a tipů.
 ### [Spusťte více vláken v Javě – použijte try‑with‑resources v Javě](./run-multiple-threads-java-use-try-with-resources-java/)
 Naučte se, jak spustit více vláken v Javě a správně spravovat zdroje pomocí konstrukce try‑with‑resources.
+### [Výběr divu podle třídy v Javě – Kompletní průvodce XPath](./select-div-by-class-in-java-complete-xpath-guide/)
+Naučte se pomocí XPath vybrat element <div> podle třídy v Javě s podrobným krok‑za‑krokem průvodcem.
+### [Renderování HTML v Javě – Kompletní průvodce čekáním na načtení stránky a query selector](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
+Naučte se, jak renderovat HTML v Javě, čekat na načtení stránky a používat query selector pro získání elementů.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -133,6 +133,12 @@ url: /el/java/creating-managing-html-documents/
 Μάθετε πώς να δημιουργήσετε στοιχείο HTML χρησιμοποιώντας ExecutorService σε Java, εξασφαλίζοντας ασφαλή εκτέλεση σε πολλαπλά νήματα.
 ### [Πώς να ερωτήσετε xpath σε Java – Οδηγός βήμα‑βήμα](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
 Μάθετε πώς να εκτελείτε ερωτήματα xpath σε έγγραφα HTML με Java χρησιμοποιώντας το Aspose.HTML, βήμα‑βήμα οδηγίες και παραδείγματα.
+### [Απόδοση HTML σε Java – Πλήρης οδηγός για την αναμονή φόρτωσης της σελίδας & το Query Selector](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
+Μάθετε πώς να αποδίδετε HTML σε Java, περιμένετε τη φόρτωση της σελίδας και χρησιμοποιήστε το Query Selector για εξαγωγή στοιχείων.
+### [Μετατροπή Markdown σε HTML σε Java – Οδηγός βήμα‑βήμα](./convert-markdown-to-html-in-java-step-by-step-guide/)
+Μάθετε πώς να μετατρέπετε αρχεία Markdown σε HTML χρησιμοποιώντας το Aspose.HTML για Java με οδηγίες βήμα‑βήμα.
+### [Επιλογή div κατά κλάση σε Java – Πλήρης οδηγός XPath](./select-div-by-class-in-java-complete-xpath-guide/)
+Μάθετε πώς να επιλέγετε στοιχεία div με βάση την κλάση σε Java χρησιμοποιώντας XPath, βήμα‑βήμα οδηγίες και παραδείγματα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -100,6 +100,8 @@ Aspose.HTML を使用して Java で HTML を PDF に変換する手順を詳し
 Java の Fixed Thread Pool を活用し、マルチスレッドで HTML を PDF に効率的に変換する方法を解説します。
 ### [JavaでHTMLからPDFを作成 – HTMLをPDFに変換 (Java)](./create-pdf-from-html-in-java-convert-html-to-pdf-java/)
 Aspose.HTML を使用して Java で HTML から PDF を作成する方法を学びます。シンプルな手順で高品質な PDF を生成できます。
+### [並列レンダリングでHTMLをPDFに変換 – 高速化](./render-html-to-pdf-with-parallel-rendering-faster/)
+Aspose.HTML の並列レンダリング機能を使用し、HTML から PDF への変換速度を大幅に向上させる方法を解説します。
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 Aspose.HTML for Java で HTML を MHTML に簡単に変換します。効率的な HTML‑to‑MHTML 変換の手順をご覧ください。
 
@@ -244,6 +246,10 @@ Aspose.HTML を使用して、Java で複数の HTML ファイルを一括で PD
 Aspose.HTML for Java で PDF のページサイズをカスタマイズする手順をステップバイステップで解説します。
 ### [JavaでAspose HTMLを使用してPDFに変換 – ページ余白とPDF/A‑2bの追加](./aspose-html-to-pdf-in-java-add-page-margins-pdf-a-2b/)
 ページ余白とPDF/A‑2b準拠を設定しながら、JavaでHTMLをPDFに変換する手順を解説します。
+### [JavaでHTMLをPDFに変換する方法 – 完全ガイド](./how-to-convert-html-to-pdf-in-java-full-guide/)
+Aspose.HTML を使用して、Java で HTML を PDF に変換する手順を詳細に解説します。設定やベストプラクティスも網羅。
+### [JavaでHTMLからPDFを作成 – バッチ変換完全ガイド](./create-pdf-from-html-in-java-full-batch-conversion-guide/)
+Aspose.HTML を使用して、Java で大量の HTML を一括で PDF に変換する手順を詳しく解説します。
 
 ## よくある質問
 

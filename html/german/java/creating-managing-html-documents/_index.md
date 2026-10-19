@@ -64,6 +64,10 @@ Entdecken Sie, wie Sie mit Aspose.HTML ganz einfach HTML-Dokumente von einer URL
 Erfahren Sie, wie Sie mit Aspose.HTML für Java ein HTML‑Dokument laden und den Seitentitel schnell auslesen.
 ### [HTML in Java laden – Schritt‑für‑Schritt‑Leitfaden](./how-to-load-html-in-java-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML für Java HTML-Inhalte laden und schnell in Ihre Anwendung integrieren – kompakte Schritt‑für‑Schritt‑Anleitung.
+### [Markdown in HTML in Java konvertieren – Schritt‑für‑Schritt‑Anleitung](./convert-markdown-to-html-in-java-step-by-step-guide/)
+Lernen Sie, wie Sie mit Aspose.HTML für Java Markdown‑Dateien in HTML umwandeln – einfache Schritt‑für‑Schritt‑Anleitung.
+### [HTML in Java rendern – Komplettanleitung zum Warten auf das Laden der Seite und Query Selector](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
+Erfahren Sie, wie Sie HTML in Java rendern, auf das Laden der Seite warten und den Query Selector verwenden.
 ### [Generieren Sie neue HTML-Dokumente mit Aspose.HTML für Java](./generate-new-html-documents/)
 Erfahren Sie in dieser einfachen Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.HTML für Java neue HTML-Dokumente erstellen. Beginnen Sie mit der Generierung dynamischer HTML-Inhalte.
 ### [Behandeln von Dokumentladeereignissen in Aspose.HTML für Java](./handle-document-load-events/)
@@ -137,6 +141,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML in Java XPath‑Abfragen durchführen und 
 
 ### [Mehrere Threads in Java ausführen – Try-with-Resources in Java verwenden](./run-multiple-threads-java-use-try-with-resources-java/)
 Erfahren Sie, wie Sie mehrere Threads in Java starten und dabei Try‑with‑Resources für eine sichere Ressourcenverwaltung nutzen.
+### [Div nach Klasse in Java auswählen – Vollständiger XPath-Leitfaden](./select-div-by-class-in-java-complete-xpath-guide/)
+Lernen Sie, wie Sie mit XPath Div-Elemente anhand ihrer CSS‑Klasse in Java auswählen und verarbeiten – Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

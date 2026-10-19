@@ -80,6 +80,8 @@ Aprenda a comparar XPath e seletores CSS ao carregar documentos HTML em Java com
 Aprenda a consultar e extrair dados usando xpath em Java com Aspose. Tutorial passo a passo incluído.
 ### [Gerar novos documentos HTML usando Aspose.HTML para Java](./generate-new-html-documents/)
 Aprenda como criar novos documentos HTML usando Aspose.HTML para Java com este guia passo a passo fácil. Comece a gerar conteúdo HTML dinâmico.
+### [Converter Markdown para HTML em Java – Guia passo a passo](./convert-markdown-to-html-in-java-step-by-step-guide/)
+Aprenda a converter documentos Markdown em HTML usando Aspose.HTML para Java com este guia passo a passo.
 ### [Manipular eventos de carregamento de documentos em Aspose.HTML para Java](./handle-document-load-events/)
 Aprenda a manipular eventos de carregamento de documentos no Aspose.HTML para Java com este guia passo a passo. Aprimore seus aplicativos da web.
 ### [Crie e gerencie documentos SVG em Aspose.HTML para Java](./create-manage-svg-documents/)
@@ -124,6 +126,10 @@ Aprenda a usar setTimeout assíncrono para executar JavaScript dentro de Java e 
 Aprenda a criar elementos HTML de forma segura usando ExecutorService em Java com este exemplo thread‑safe.
 ### [Executar múltiplas threads em Java – usar try-with-resources](./run-multiple-threads-java-use-try-with-resources-java/)
 Aprenda a gerenciar várias threads em Java usando a instrução try-with-resources para garantir o fechamento adequado de recursos.
+### [Renderizar HTML em Java – Guia completo para aguardar o carregamento da página e usar query selector](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
+Aprenda a renderizar HTML em Java, esperar o carregamento da página e usar query selector com Aspose.HTML. Guia passo a passo.
+### [Selecionar div por classe em Java – Guia completo de XPath](./select-div-by-class-in-java-complete-xpath-guide/)
+Aprenda a selecionar elementos div por classe usando XPath em Java com Aspose.HTML. Guia passo a passo completo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

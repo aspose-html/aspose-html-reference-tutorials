@@ -161,6 +161,9 @@ weight: 24
 ### [สร้าง GIF จาก SVG ด้วย Java – คู่มือเต็มขั้นตอน](./create-gif-from-svg-with-java-full-step-by-step-guide/)
 ### [สร้างไฟล์ TIFF หลายหน้าจาก SVG ใน Java – คู่มือขั้นตอนโดยละเอียด](./create-multipage-tiff-from-svg-in-java-step-by-step-guide/)
 ### [แปลง SVG เป็น PNG ด้วยความละเอียดสูง – คู่มือ Java](./convert-svg-to-png-with-high-resolution-java-guide/)
+### [แปลง HTML เป็น WebP ใน Java – คู่มือฉบับสมบูรณ์](./convert-html-to-webp-in-java-complete-guide/)
+### [เรนเดอร์ HTML เป็น PNG ใน Java – จำลองอุปกรณ์มือถือ](./render-html-to-png-in-java-emulate-mobile-device/)
+เรียนรู้วิธีเรนเดอร์ HTML เป็นไฟล์ PNG ใน Java พร้อมจำลองอุปกรณ์มือถือเพื่อให้ได้ผลลัพธ์เหมือนบนมือถือ
 
 ## คำถามที่พบบ่อย
 

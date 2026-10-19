@@ -176,6 +176,8 @@ Aspose.HTML for Java を使用して、SVG ファイルを GIF アニメーシ�
 ### [サンドボックスを使用してウェブページのスクリーンショットを取得する方法](./how-to-use-sandbox-to-capture-webpage-screenshot/)
 ### [Java で SVG からマルチページ TIFF を作成 – ステップバイステップガイド](./create-multipage-tiff-from-svg-in-java-step-by-step-guide/)
 Aspose.HTML for Java を使用して、SVG をマルチページ TIFF に変換する方法を学びます。実践的な手順で簡単に実装できます。
+### [Java で HTML を WebP に変換 – 完全ガイド](./convert-html-to-webp-in-java-complete-guide/)
+Aspose.HTML for Java を使用して HTML を WebP に変換します。Java での WebP 変換手順をステップバイステップで解説する完全ガイドです。
 
 ## よくある質問
 

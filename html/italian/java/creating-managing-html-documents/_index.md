@@ -130,6 +130,12 @@ Scopri come creare in modo sicuro elementi HTML usando ExecutorService di Java, 
 ### [Come interrogare xpath in Java con Aspose – Guida passo‑a‑passo](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
 Impara a eseguire query xpath su documenti HTML in Java usando Aspose.HTML con questa guida passo‑passo completa.
 ### [Esegui più thread Java – usa try‑with‑resources Java](./run-multiple-threads-java-use-try-with-resources-java/)
+### [Seleziona div per classe in Java – Guida completa XPath](./select-div-by-class-in-java-complete-xpath-guide/)
+Impara a selezionare elementi div per classe usando XPath in Java con Aspose.HTML. Guida passo‑passo completa.
+### [Render HTML in Java – Guida completa all'attesa del caricamento della pagina e al query selector](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
+Impara a renderizzare HTML in Java, attendere il caricamento della pagina e utilizzare query selector per estrarre contenuti.
+### [Converti Markdown in HTML in Java – Guida passo‑a‑passo](./convert-markdown-to-html-in-java-step-by-step-guide/)
+Scopri come convertire Markdown in HTML in Java usando Aspose.HTML con questa guida passo‑passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

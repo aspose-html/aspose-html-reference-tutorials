@@ -130,6 +130,10 @@ weight: 24
 ### [将 HTML 转换为 WebP](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 
 ### [如何从 SVG 创建 GIF – Java 步骤指南](./how-to-create-gif-from-svg-step-by-step-java-guide/)
+### [在 Java 中将 HTML 转换为 WebP – 完整指南](./convert-html-to-webp-in-java-complete-guide/)
+使用 Aspose.HTML for Java 在 Java 环境下将 HTML 转换为 WebP。详细步骤指南，帮助您快速生成高效的 WebP 图像。
+
+## 常见问题解答
 
 ### [如何从 HTML 生成缩略图 – Java 指南](./how-to-generate-thumbnail-from-html-java-guide/)
 

@@ -90,6 +90,8 @@ url: /ar/java/css-html-form-editing/
 ### [كيفية الحصول على النمط في Aspose HTML Java – استخدم محدد الاستعلام](./how-to-get-style-in-aspose-html-java-use-query-selector/)
 ### [كيفية قراءة CSS في Java – الحصول على النمط المحسوب](./how-to-read-css-in-java-get-computed-style/)
 تعلم كيفية قراءة خصائص CSS في Java واستخراج النمط المحسوب للعناصر باستخدام Aspose.HTML.
+### [كيفية الحصول على النمط في Java باستخدام Aspose.HTML – دليل خطوة بخطوة](./how-to-get-style-in-java-with-aspose-html-step-by-step-guide/)
+اكتشف كيفية الحصول على أنماط CSS من عناصر HTML باستخدام Aspose.HTML في Java عبر دليل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

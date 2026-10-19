@@ -103,6 +103,8 @@ Aspose.HTML for Java のクエリセレクタを使用して、要素のスタ�
 ### [JavaでCSSを読み取る – 計算済みスタイルの取得](./how-to-read-css-in-java-get-computed-style/)
 JavaコードでCSSの計算済みスタイルを取得し、要素の実際の表示属性をプログラムで取得する方法を解説します。
 
+### [Aspose.HTML を使用した Java でスタイルを取得する方法 – ステップバイステップガイド](./how-to-get-style-in-java-with-aspose-html-step-by-step-guide/)
+Aspose.HTML for Java を使って、HTML 要素のスタイル情報を取得する手順を詳しく解説します。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

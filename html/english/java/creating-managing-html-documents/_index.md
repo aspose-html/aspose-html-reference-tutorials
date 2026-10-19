@@ -72,6 +72,8 @@ Learn how to query HTML in Java using Aspose.HTML to extract image URLs with a c
 Learn how to parse HTML in Java with Aspose.HTML to extract article text using a concise step-by-step guide.
 ### [How to query xpath in Java with Aspose – Step‑by‑Step Guide](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
 Learn how to query XML using XPath in Java with Aspose.HTML, with a clear step‑by‑step guide for efficient data extraction.
+### [Select div by class in Java – Complete XPath Guide](./select-div-by-class-in-java-complete-xpath-guide/)
+Learn how to select div elements by class using XPath in Java with Aspose.HTML. Step-by-step guide for precise element targeting.
 ### [Create sandbox for HTML in Java – Step‑by‑Step Guide](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Learn how to set up a secure HTML sandbox in Java using Aspose.HTML with this detailed step-by-step guide.
 ### [Load HTML Documents from URL in Aspose.HTML for Java](./load-html-documents-from-url/)
@@ -126,6 +128,10 @@ Quick Java guide to load an HTML document with Aspose.HTML and retrieve its page
 Learn how to execute JavaScript in Java using Aspose.HTML, run scripts on HTML pages and dynamically append elements.
 ### [run multiple threads java – use try with resources java](./run-multiple-threads-java-use-try-with-resources-java/)
 Learn how to run multiple Java threads while safely managing resources using try‑with‑resources. Step-by-step guide with examples.
+### [Render HTML in Java – Complete Guide to Waiting for Page Load & Query Selector](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
+Learn how to render HTML in Java, wait for page load, and use query selectors with Aspose.HTML. Step-by-step guide.
+### [Convert Markdown to HTML in Java – Step‑by‑Step Guide](./convert-markdown-to-html-in-java-step-by-step-guide/)
+Convert Markdown to HTML in Java using Aspose.HTML. Follow this step‑by‑step guide to transform markdown content into HTML efficiently.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
