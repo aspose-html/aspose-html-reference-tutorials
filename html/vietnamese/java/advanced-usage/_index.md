@@ -160,6 +160,10 @@ Hướng dẫn cách thực thi mã JavaScript từ HTML trong môi trường Ja
 Hướng dẫn chi tiết cách tải tài liệu HTML bất đồng bộ trong Java bằng Aspose.HTML, bao gồm cấu hình và ví dụ thực tế.
 ### [Đánh giá JavaScript trong Java – Hướng dẫn toàn diện với Aspose.HTML](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
 Hướng dẫn chi tiết cách thực thi JavaScript trong Java bằng Aspose.HTML, bao gồm ví dụ và cấu hình môi trường.
+### [Cài đặt tỷ lệ pixel thiết bị trong Java – Hướng dẫn mô phỏng di động](./set-device-pixel-ratio-in-java-mobile-simulation-guide/)
+### [Cách bật JavaScript trong Java HTMLDocument – Hướng dẫn từng bước](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
+Hướng dẫn chi tiết cách kích hoạt JavaScript khi làm việc với HtmlDocument trong Java bằng Aspose.HTML.
+### [Hướng dẫn đa luồng Java: Chạy các tác vụ song song với Fixed Thread Pool](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
 
 ---
 

@@ -130,6 +130,8 @@ Ismerje meg, hogyan használhatja a Java szálkészletet több HTML fájl egyide
 Ismerje meg, hogyan hozhat létre PDF-et HTML‑ből Java‑ban az Aspose.HTML segítségével, egyszerű és magas minőségű konvertálás.
 ### [HTML átalakítása PDF-re – Egyéni oldalméret és margók Java-ban](./convert-html-to-pdf-custom-page-size-margins-in-java/)
 Tanulja meg, hogyan állíthat be egyedi oldalméretet és margókat a HTML‑PDF konverzió során Java‑ban az Aspose.HTML‑el.
+### [PDF oldalméret beállítása Aspose HTML to PDF használatával Java-ban](./set-pdf-page-size-with-aspose-html-to-pdf-in-java/)
+### [HTML átalakítása Markdown-re Java‑ban – Lépésről‑lépésre útmutató](./convert-html-to-markdown-in-java-step-by-step-guide/)
 
 ### [PDF létrehozása HTML‑ből Java‑ban – Kötetes konverzió útmutató](./create-pdf-from-html-in-java-batch-conversion-guide/)
 Ismerje meg, hogyan konvertálhat több HTML‑fájlt egyszerre PDF‑re Java‑ban az Aspose.HTML kötegelt feldolgozási funkcióival.

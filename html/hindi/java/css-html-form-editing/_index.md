@@ -94,6 +94,9 @@ Java में Aspose.HTML के साथ किसी एलिमेंट �
 ### [Java में स्टाइल प्राप्त करना – Aspose.HTML के साथ गणना किया गया CSS](./how-to-get-style-in-java-retrieve-computed-css-with-aspose-h/)
 Java में Aspose.HTML का उपयोग करके गणना किया गया CSS प्राप्त करने और स्टाइल जानकारी निकालने की प्रक्रिया सीखें।
 
+### [Aspose HTML Java में स्टाइल प्राप्त करने के लिए क्वेरी सिलेक्टर का उपयोग](./how-to-get-style-in-aspose-html-java-use-query-selector/)
+Aspose.HTML for Java में क्वेरी सिलेक्टर का उपयोग करके एलिमेंट की स्टाइल कैसे प्राप्त करें, सीखें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

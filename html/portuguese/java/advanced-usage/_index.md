@@ -113,7 +113,6 @@ A: Não. Uma única licença do Aspose.HTML for Java cobre todos os formatos de 
 
 ## Uso avançado dos tutoriais Aspose.HTML Java
 ### [Personalizar margens de página HTML com Aspose.HTML](./css-extensions-adding-title-page-number/)
-Aprenda a personalizar margens de página, adicionar numeração de páginas e títulos a documentos HTML usando Aspose.HTML for Java.
 ### [Observador de Mutação DOM com Aspose.HTML for Java](./dom-mutation-observer-observing-node-additions/)
 Aprenda a usar Aspose.HTML for Java para implementar um Observador de Mutação DOM neste guia passo a passo. Monitore e reaja às mudanças no DOM de forma eficaz.
 ### [Manipulação de Canvas HTML5 com Aspose.HTML for Java](./html5-canvas-manipulation-using-code/)
@@ -181,6 +180,11 @@ Aprenda a executar código JavaScript dentro de aplicações Java usando Aspose.
 Aprenda a carregar documentos HTML de forma assíncrona em Java usando Aspose.HTML, com exemplo completo passo a passo.
 
 ### [Avaliar JavaScript em Java – Guia Completo com Aspose.HTML](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
+### [Definir proporção de pixels do dispositivo em Java – Guia de simulação móvel](./set-device-pixel-ratio-in-java-mobile-simulation-guide/)
+### [Como habilitar JavaScript em Java HTMLDocument – Guia passo a passo](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
+Aprenda a habilitar a execução de JavaScript em objetos Java HTMLDocument usando Aspose.HTML, passo a passo.
+### [java multithreading tutorial: Executar tarefas em paralelo com Thread Pool fixo](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
+Aprenda a executar tarefas simultâneas usando um pool de threads fixo em Java com Aspose.HTML.
 
 ---
 

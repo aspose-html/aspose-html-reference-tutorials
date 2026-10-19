@@ -93,6 +93,8 @@ Leer hoe u CSS-bestanden kunt lezen en analyseren in Java met Aspose.HTML in dez
 Leer hoe u met Aspose.HTML voor Java een CSS‑eigenschap kunt ophalen, bijvoorbeeld de achtergrondkleur van een element.
 ### [Hoe stijl ophalen in Java – Opgehaalde CSS opvragen met Aspose.HTML](./how-to-get-style-in-java-retrieve-computed-css-with-aspose-h/)
 Leer hoe u met Aspose.HTML de berekende CSS‑stijlen van een element in Java kunt ophalen.
+### [Hoe stijl ophalen in Aspose HTML Java – Gebruik query selector](./how-to-get-style-in-aspose-html-java-use-query-selector/)
+Leer hoe u met Aspose.HTML voor Java stijlen kunt ophalen via querySelector voor gerichte bewerkingen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

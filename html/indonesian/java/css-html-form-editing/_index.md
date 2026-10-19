@@ -95,6 +95,8 @@ Pelajari cara membaca CSS di Java secara terprogram menggunakan Aspose.HTML dala
 Pelajari cara mengambil nilai properti CSS, khususnya warna latar belakang elemen, menggunakan Aspose.HTML untuk Java.
 ### [Cara Mendapatkan Gaya di Java – Mengambil CSS yang Dihitung dengan Aspose.HTML](./how-to-get-style-in-java-retrieve-computed-css-with-aspose-h/)
 Pelajari cara mengambil properti CSS yang dihitung pada elemen menggunakan Aspose.HTML untuk Java dalam panduan praktis ini.
+### [Cara Mendapatkan Gaya di Aspose HTML Java – Gunakan Query Selector](./how-to-get-style-in-aspose-html-java-use-query-selector/)
+Pelajari cara mengambil properti style elemen HTML menggunakan query selector di Aspose.HTML untuk Java dalam contoh praktis.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -104,6 +104,8 @@ Leer hoe u EPUB naar afbeeldingen converteert met Aspose.HTML for Java. Stap‑v
 Leer hoe u EPUB‑bestanden naar afbeeldingen converteert met Aspose.HTML for Java. Deze stap‑voor‑stap gids behandelt vereisten, package‑imports en het conversieproces.
 ### [EPUB naar Afbeelding converteren met één regel code](./convert-epub-to-image-single-line/)
 Leer hoe u EPUB naar afbeeldingen converteert met Aspose.HTML for Java. Stap‑voor‑stap gids voor moeiteloze conversies.
+### [EPUB naar PNG converteren met Java – Complete stapsgewijze gids](./convert-epub-to-png-with-java-complete-step-by-step-guide/)
+Leer hoe je EPUB naar PNG converteert met Java en Aspose.HTML. Volledige stapsgewijze handleiding voor naadloze conversie.
 
 ## Veelgestelde vragen
 

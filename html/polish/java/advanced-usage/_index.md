@@ -161,6 +161,11 @@ Dowiedz się, jak uruchomić kod JavaScript z HTML w aplikacji Java przy użyciu
 Poznaj pełny asynchroniczny przykład ładowania dokumentu HTML w Javie przy użyciu Aspose.HTML, krok po kroku.
 ### [Ewaluacja JavaScript w Javie – Kompletny przewodnik z Aspose.HTML](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
 Poznaj, jak ocenić i uruchomić kod JavaScript w środowisku Java przy pomocy Aspose.HTML, od konfiguracji po wywołanie skryptu.
+### [Jak włączyć JavaScript w Java HTMLDocument – Przewodnik krok po kroku](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
+Dowiedz się, jak włączyć i uruchomić JavaScript w obiekcie HtmlDocument w Javie, korzystając z Aspose.HTML, krok po kroku.
+### [Ustaw współczynnik pikseli urządzenia w Javie – przewodnik symulacji mobilnej](./set-device-pixel-ratio-in-java-mobile-simulation-guide/)
+Dowiedz się, jak ustawić współczynnik pikseli urządzenia w Aspose.HTML dla Javy, aby symulować wyświetlanie na różnych urządzeniach mobilnych.
+### [Java multithreading tutorial: Uruchamianie zadań równolegle przy użyciu stałej puli wątków](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
 
 ---
 

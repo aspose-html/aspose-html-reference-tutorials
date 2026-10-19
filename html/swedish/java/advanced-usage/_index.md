@@ -162,6 +162,12 @@ Lär dig hur du exekverar JavaScript‑kod från HTML i Java‑applikationer med
 Lär dig hur du asynkront laddar HTML i Java med Aspose.HTML, inklusive konfiguration och kodexempel.
 ### [Utvärdera JavaScript i Java – Komplett guide med Aspose.HTML](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
 Lär dig hur du utvärderar JavaScript‑kod i Java‑applikationer med Aspose.HTML, inklusive konfiguration och exempel.
+### [Ställ in enhetens pixelratio i Java – Mobilsimuleringsguide](./set-device-pixel-ratio-in-java-mobile-simulation-guide/)
+Lär dig hur du simulerar mobila enheter genom att justera pixelratio i Aspose.HTML för Java.
+### [Hur du aktiverar JavaScript i Java HTMLDocument – Steg‑för‑steg‑guide](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
+Lär dig hur du aktiverar och kör JavaScript i ett HtmlDocument‑objekt i Java med Aspose.HTML, steg för steg.
+### [Java multitrådningshandledning: Kör uppgifter parallellt med fast trådpool](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
+Lär dig hur du använder en fast trådpool för att köra flera uppgifter samtidigt i Java med Aspose.HTML.
 
 ---
 

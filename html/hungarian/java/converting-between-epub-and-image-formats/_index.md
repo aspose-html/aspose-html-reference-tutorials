@@ -76,19 +76,6 @@ Azok számára, akik az egyszerűséget kedvelik, a teljes konvertálást elvég
 - **Digitális kiadói folyamatok** gyakran igényelnek TIFF‑et az archiválási minőséghez.  
 - **Tartalomkezelő rendszerek** JPG előnézeteket tárolhatnak a sávszélesség megtakarítása érdekében, miközben vizuális kontextust biztosítanak.
 
-### Tippek és bevált gyakorlatok
-- **Állítsa be a DPI‑t** az `ImageSaveOptions`‑ban, ha nyomtatáshoz magas felbontású kimenetre van szükség.  
-- **Használjon újra egyetlen `HtmlDocument` példányt** a kötegelt konvertálásokhoz a memóriahasználat csökkentése érdekében.  
-- **Szabadítsa fel az erőforrásokat** (`document.dispose()`) nagy EPUB fájlok feldolgozása után, hogy elkerülje a memória szivárgásokat.  
-
-### Gyakori problémák hibaelhárítása
-- **Üres képek** – Győződjön meg róla, hogy az EPUB nincs DRM‑védelem alatt; az Aspose.HTML nem tud védett tartalmat renderelni.  
-- **Memória‑hiány hibák** – Oldalanként dolgozza fel a dokumentumot, és azonnal szabadítsa fel őket.  
-- **Helytelen színek** – Ellenőrizze, hogy a forrás CSS helyesen betöltődött; előfordulhat, hogy egyedi erőforrás‑betöltőt kell biztosítania külső stíluslapokhoz.  
-
-Ezeket az útmutatókat követve elsajátíthatja az EPUB fájlok különböző képformátumokra konvertálásának művészetét az Aspose.HTML for Java segítségével. Akár kezdő, akár tapasztalt fejlesztő, lépésről‑lépésre megközelítésünk gördülékennyé és hatékonnyá teszi a folyamatot. Mondjon búcsút a bonyolult konverzióknak, és üdvözölje a megbízható, magas minőségű megoldást.
-
-## EPUB és képformátumok közötti konvertálás útmutatók
 ### [EPUB konvertálása BMP‑re](./convert-epub-to-bmp/)
 Learn how to convert EPUB files to BMP images using Aspose.HTML for Java with this easy step-by-step guide.
 ### [EPUB konvertálása GIF‑re](./convert-epub-to-gif/)
@@ -105,6 +92,8 @@ Learn how to convert EPUB to images with Aspose.HTML for Java. Step-by-step guid
 Learn how to convert EPUB files to images using Aspose.HTML for Java. This step-by-step guide covers prerequisites, package imports, and the conversion process.
 ### [EPUB konvertálása képpé egyetlen kódsorral](./convert-epub-to-image-single-line/)
 Learn how to convert EPUB to images with Aspose.HTML for Java. Step-by-step guide for effortless conversions.
+### [EPUB konvertálása PNG-re Java-val – Teljes lépésről‑lépésre útmutató](./convert-epub-to-png-with-java-complete-step-by-step-guide/)
+Ismerje meg, hogyan konvertálhat EPUB fájlokat PNG képekké Java‑val az Aspose.HTML for Java használatával.
 
 ## Gyakran Ismételt Kérdések
 

@@ -127,6 +127,8 @@ Aspose.HTML を使用して Java で HTML を Markdown に変換する完全な�
 Aspose.HTML を使用して Java で HTML を Markdown に変換する手順を学びます。テキストベースのドキュメント生成が簡単です。
 ### [Create markdown from html in Java – Step‑by‑step Conversion Guide](./create-markdown-from-html-in-java-step-by-step-conversion-gu/)
 Aspose.HTML を使用して Java で HTML を Markdown に変換する手順を詳しく解説します。
+### [Convert HTML to Markdown in Java – Step‑by‑Step Guide](./convert-html-to-markdown-in-java-step-by-step-guide/)
+Aspose.HTML を使用して Java で HTML を Markdown に変換する手順を詳しく解説します。シンプルなステップで変換を実装できます。
 ### [Converting SVG to Image](./convert-svg-to-image/)
 Aspose.HTML を使用して Java で SVG を画像に変換する方法を学びます。高品質出力のための包括的ガイドです。
 
@@ -238,6 +240,8 @@ Aspose.HTML のサンドボックス機能を利用し、Java で安全に HTML 
 Aspose.HTML を使用して、Java で HTML を PDF に変換する際にページサイズと余白をカスタマイズする方法を解説します。
 ### [JavaでHTMLからPDFを作成 – バッチ変換ガイド](./create-pdf-from-html-in-java-batch-conversion-guide/)
 Aspose.HTML を使用して、Java で複数の HTML ファイルを一括で PDF に変換する手順を解説します。
+### [JavaでAspose HTMLを使用してPDFページサイズを設定する](./set-pdf-page-size-with-aspose-html-to-pdf-in-java/)
+Aspose.HTML for Java で PDF のページサイズをカスタマイズする手順をステップバイステップで解説します。
 
 ## よくある質問
 

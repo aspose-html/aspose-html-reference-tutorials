@@ -118,6 +118,8 @@ Aspose.HTML for Java ทำให้กระบวนการแปลง HTML
 เรียนรู้วิธีแปลง HTML เป็น PDF ใน Java ด้วยตัวอย่าง Sandbox ครบถ้วนและโค้ดพร้อมใช้งาน
 ### [แปลง HTML เป็น PDF – ขนาดหน้าและขอบเขตที่กำหนดเองใน Java](./convert-html-to-pdf-custom-page-size-margins-in-java/)
 เรียนรู้วิธีตั้งค่าขนาดหน้าและขอบเขตที่กำหนดเองขณะแปลง HTML เป็น PDF ด้วย Aspose.HTML for Java
+### [ตั้งขนาดหน้ากระดาษ PDF ด้วย Aspose HTML to PDF ใน Java](./set-pdf-page-size-with-aspose-html-to-pdf-in-java/)
+กำหนดขนาดหน้ากระดาษ PDF ระหว่างการแปลง HTML ด้วย Aspose.HTML for Java อย่างละเอียด
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 ### [Converting HTML to XPS](./convert-html-to-xps/)
 เรียนรู้วิธีแปลง HTML เป็น XPS อย่างง่ายดายด้วย Aspose.HTML for Java สร้างเอกสารข้ามแพลตฟอร์มได้อย่างราบรื่น
@@ -128,6 +130,8 @@ Aspose.HTML for Java ทำให้กระบวนการแปลง HTML
 เรียนรู้วิธีแปลงไฟล์ HTML เป็น Markdown ใน Java อย่างละเอียดด้วย Aspose.HTML พร้อมขั้นตอนครบถ้วน
 ### [สร้าง markdown จาก HTML ใน Java – คู่มือแปลงขั้นตอน‑ต่อ‑ขั้นตอน](./create-markdown-from-html-in-java-step-by-step-conversion-gu/)
 เรียนรู้วิธีแปลง HTML เป็นไฟล์ markdown ใน Java ด้วย Aspose.HTML อย่างละเอียดและง่ายดาย
+### [แปลง HTML เป็น Markdown ใน Java – คู่มือขั้นตอน‑โดย‑ขั้นตอน](./convert-html-to-markdown-in-java-step-by-step-guide/)
+เรียนรู้วิธีแปลงไฟล์ HTML เป็น Markdown ใน Java อย่างละเอียดด้วย Aspose.HTML ผ่านขั้นตอน‑โดย‑ขั้นตอนที่เข้าใจง่าย
 ### [Converting SVG to Image](./convert-svg-to-image/)
 ### [Converting SVG to PDF](./convert-svg-to-pdf/)
 ### [Converting SVG to XPS](./convert-svg-to-xps/)

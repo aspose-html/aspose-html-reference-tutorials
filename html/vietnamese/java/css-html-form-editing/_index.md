@@ -93,6 +93,8 @@ Hướng dẫn chi tiết cách đọc CSS trong Java bằng Aspose.HTML, cung c
 Hướng dẫn cách sử dụng Aspose.HTML cho Java để truy xuất giá trị thuộc tính CSS, ví dụ lấy màu nền của một phần tử HTML.
 ### [Cách lấy style trong Java – Truy xuất CSS đã tính toán với Aspose.HTML](./how-to-get-style-in-java-retrieve-computed-css-with-aspose-h/)
 Tìm hiểu cách truy xuất các thuộc tính CSS đã tính toán trong Java bằng Aspose.HTML trong hướng dẫn chi tiết này.
+### [Cách lấy style trong Aspose HTML Java – Sử dụng Query Selector](./how-to-get-style-in-aspose-html-java-use-query-selector/)
+Hướng dẫn cách sử dụng Query Selector để lấy style của phần tử trong Aspose HTML cho Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -97,6 +97,8 @@ Aprenda a usar Aspose.HTML en Java para seleccionar un elemento div por su clase
 Aprenda a obtener la propiedad CSS de color de fondo de un elemento usando Aspose.HTML para Java en unos simples pasos.
 ### [Cómo obtener estilo en Java – Recuperar CSS calculado con Aspose.HTML](./how-to-get-style-in-java-retrieve-computed-css-with-aspose-h/)
 Aprenda a obtener los estilos computados de elementos HTML en Java usando Aspose.HTML, con ejemplos claros y paso a paso.
+### [Cómo obtener estilo en Aspose HTML Java – Usar selector de consultas](./how-to-get-style-in-aspose-html-java-use-query-selector/)
+Aprenda a extraer estilos CSS de elementos HTML en Java con Aspose.HTML usando el método querySelector.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

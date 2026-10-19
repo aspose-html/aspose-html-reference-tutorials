@@ -160,6 +160,11 @@ Aspose.HTML for Java を使用して、HTML 内の JavaScript を Java から実
 Aspose.HTML for Java の非同期 API を使用して、HTML をロードし、処理する完全なサンプルを学びます。
 ### [Java で JavaScript を評価する – 完全ガイド（Aspose.HTML）](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
 Aspose.HTML for Java を使用して、Java アプリケーション内で JavaScript を評価し、動的ロジックを統合する方法を学びます。
+### [Java でデバイスピクセル比を設定 – モバイルシミュレーションガイド](./set-device-pixel-ratio-in-java-mobile-simulation-guide/)
+Aspose.HTML for Java を使用して、Java でデバイスピクセル比を設定し、モバイルデバイスのシミュレーション方法を学びます。
+### [Java HTMLDocument で JavaScript を有効にする方法 – ステップバイステップガイド](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
+### [Java マルチスレッドチュートリアル：固定スレッドプールでタスクを並列実行](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
+固定サイズのスレッドプールを使用して、複数のタスクを同時に実行し、効率的な並列処理を実装する方法を学びます。
 
 ---
 

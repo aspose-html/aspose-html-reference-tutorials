@@ -87,6 +87,7 @@ url: /ar/java/css-html-form-editing/
 ### [كيفية قراءة CSS في Java – دليل شامل باستخدام Aspose.HTML](./how-to-read-css-in-java-complete-guide-using-aspose-html/)
 ### [كيفية الحصول على خاصية CSS في Java – قراءة لون خلفية العنصر](./how-to-get-css-property-in-java-read-element-background-colo/)
 ### [كيفية الحصول على النمط في Java – استرجاع CSS المحسوب باستخدام Aspose.HTML](./how-to-get-style-in-java-retrieve-computed-css-with-aspose-h/)
+### [كيفية الحصول على النمط في Aspose HTML Java – استخدم محدد الاستعلام](./how-to-get-style-in-aspose-html-java-use-query-selector/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

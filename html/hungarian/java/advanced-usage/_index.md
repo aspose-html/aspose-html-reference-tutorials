@@ -157,6 +157,10 @@ Tanulja meg, hogyan futtathat JavaScript kódot Java‑ban HTML‑ből az Aspose
 ### [HTML betöltése Java-ban – Teljes Aspose.HTML aszinkron példa](./how-to-load-html-in-java-complete-aspose-html-async-example/)
 ### [JavaScript kiértékelése Java-ban – Teljes útmutató az Aspose.HTML‑vel](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
 Ismerje meg, hogyan értékelhet JavaScript kódot Java alkalmazásokban az Aspose.HTML segítségével, lépésről‑lépésre útmutatóval.
+### [Eszköz pixelarány beállítása Java‑ban – Mobil szimulációs útmutató](./set-device-pixel-ratio-in-java-mobile-simulation-guide/)
+### [Hogyan engedélyezzük a JavaScriptet a Java HTMLDocument‑ben – Lépésről‑lépésre útmutató](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
+### [Java több szálas oktatóanyag: Feladatok párhuzamos futtatása fix szálkészlettel](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
+Ismerje meg, hogyan futtathat feladatokat párhuzamosan fix méretű szálkészlettel a Java ExecutorService használatával.
 
 ---
 

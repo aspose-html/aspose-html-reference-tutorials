@@ -155,6 +155,11 @@ weight: 20
 Μάθετε πώς να φορτώσετε HTML ασύγχρονα σε Java χρησιμοποιώντας το Aspose.HTML, με πλήρη παράδειγμα κώδικα.
 ### [Αξιολόγηση JavaScript σε Java – Πλήρης Οδηγός με Aspose.HTML](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
 Μάθετε πώς να εκτελείτε και να αξιολογείτε κώδικα JavaScript σε εφαρμογές Java με το Aspose.HTML σε αυτόν τον πλήρη οδηγό.
+### [Ορισμός αναλογίας pixel συσκευής σε Java – Οδηγός προσομοίωσης κινητών](./set-device-pixel-ratio-in-java-mobile-simulation-guide/)
+Μάθετε πώς να ορίσετε την αναλογία pixel της συσκευής σε Java για ακριβή προσομοίωση κινητών.
+### [Πώς να ενεργοποιήσετε τη JavaScript σε Java HTMLDocument – Οδηγός βήμα‑βήμα](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
+Μάθετε πώς να ενεργοποιήσετε την εκτέλεση JavaScript σε ένα Java HTMLDocument χρησιμοποιώντας Aspose.HTML for Java, βήμα‑βήμα.
+### [java multithreading tutorial: Εκτέλεση εργασιών παράλληλα με Fixed Thread Pool](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
 
 ---
 

@@ -96,6 +96,8 @@ url: /el/java/css-html-form-editing/
 Μάθετε πώς να διαβάζετε την ιδιότητα CSS του χρώματος φόντου ενός στοιχείου χρησιμοποιώντας Aspose.HTML για Java.
 ### [Πώς να λάβετε το στυλ σε Java – Ανάκτηση υπολογισμένου CSS με Aspose.HTML](./how-to-get-style-in-java-retrieve-computed-css-with-aspose-h/)
 Μάθετε πώς να ανακτάτε το υπολογισμένο CSS στυλ ενός στοιχείου σε Java χρησιμοποιώντας το Aspose.HTML.
+### [Πώς να εξάγετε στυλ στο Aspose HTML Java – Χρήση του Query Selector](./how-to-get-style-in-aspose-html-java-use-query-selector/)
+Μάθετε πώς να εξάγετε στυλ από στοιχεία HTML χρησιμοποιώντας τη μέθοδο querySelector στο Aspose.HTML για Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -116,6 +116,10 @@ Pelajari cara mengotomatisasi pengisian dan pengiriman formulir HTML dengan Aspo
 Pelajari cara menyesuaikan ukuran halaman PDF dengan Aspose.HTML untuk Java. Buat PDF berkualitas tinggi dari HTML dengan mudah. Kontrol dimensi halaman secara efektif.
 ### [Sesuaikan Ukuran Halaman XPS dengan Aspose.HTML untuk Java](./adjust-xps-page-size/)
 Pelajari cara menyesuaikan ukuran halaman XPS dengan Aspose.HTML untuk Java. Kontrol dimensi output dokumen XPS Anda dengan mudah.
+
+### [Mengatur rasio piksel perangkat di Java – Panduan simulasi seluler](./set-device-pixel-ratio-in-java-mobile-simulation-guide/)
+Pelajari cara mengatur rasio piksel perangkat dalam simulasi seluler menggunakan Aspose.HTML untuk Java.
+
 ### [Cara Menjalankan JavaScript di Java – Panduan Lengkap](./how-to-run-javascript-in-java-complete-guide/)
 ### [Atur Rasio Piksel Perangkat di Java – Tutorial Sandbox Seluler](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
 Pelajari cara mengatur rasio piksel perangkat dalam lingkungan sandbox seluler menggunakan Aspose.HTML untuk Java.
@@ -162,6 +166,11 @@ Pelajari cara memuat HTML secara asinkron di Java menggunakan Aspose.HTML dengan
 
 ### [Evaluasi JavaScript di Java – Panduan Lengkap dengan Aspose.HTML](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
 Pelajari cara mengeksekusi kode JavaScript dalam aplikasi Java menggunakan Aspose.HTML secara menyeluruh.
+
+### [Cara Mengaktifkan JavaScript di Java HTMLDocument – Panduan Langkah demi Langkah](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
+Pelajari cara mengaktifkan JavaScript dalam Java HTMLDocument menggunakan Aspose.HTML untuk Java dengan panduan langkah demi langkah.
+
+### [Tutorial Multithreading Java: Jalankan Tugas Paralel dengan Fixed Thread Pool](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
 
 ---
 

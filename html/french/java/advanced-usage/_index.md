@@ -165,6 +165,12 @@ Apprenez à exécuter du code JavaScript intégré dans un fichier HTML depuis J
 Apprenez à charger du HTML en Java de façon asynchrone avec Aspose.HTML, incluant un exemple complet.
 ### [Évaluer JavaScript en Java – Guide complet avec Aspose.HTML](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
 Apprenez à évaluer du code JavaScript depuis Java en utilisant Aspose.HTML, avec des exemples détaillés et les meilleures pratiques.  
+### [Définir le ratio de pixels de l’appareil en Java – Guide de simulation mobile](./set-device-pixel-ratio-in-java-mobile-simulation-guide/)
+Apprenez à simuler différents ratios de pixels d’écran mobile en Java avec Aspose.HTML pour des rendus précis.  
+### [Comment activer JavaScript dans Java HTMLDocument – Guide étape par étape](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
+Apprenez à activer JavaScript dans Java HTMLDocument avec Aspose.HTML, étape par étape, pour exécuter du code client côté serveur.  
+### [Tutoriel multithreading Java : exécuter des tâches en parallèle avec un pool de threads fixe](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
+Apprenez à exécuter des tâches en parallèle avec un FixedThreadPool en Java, en utilisant Aspose.HTML.  
 
 ---
 

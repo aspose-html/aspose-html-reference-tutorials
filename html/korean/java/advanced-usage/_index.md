@@ -151,6 +151,12 @@ Java 애플리케이션에서 HTML에 포함된 JavaScript 코드를 실행하�
 ### [Java에서 HTML 로드하기 – 완전 Aspose.HTML 비동기 예제](./how-to-load-html-in-java-complete-aspose-html-async-example/)
 ### [Java에서 JavaScript 평가하기 – Aspose.HTML와 함께하는 완전 가이드](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
 Aspose.HTML를 사용해 Java 애플리케이션에서 JavaScript 코드를 평가하고 실행하는 방법을 단계별로 안내합니다.
+### [Aspose.HTML for Java에서 디바이스 픽셀 비율 설정 – 모바일 시뮬레이션 가이드](./set-device-pixel-ratio-in-java-mobile-simulation-guide/)
+Aspose.HTML for Java를 사용해 디바이스 픽셀 비율을 설정하고 모바일 환경을 시뮬레이션하는 방법을 배웁니다.
+### [Java HTMLDocument에서 JavaScript 활성화 방법 – 단계별 가이드](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
+Java HTMLDocument에서 JavaScript를 활성화하고 실행하는 방법을 단계별로 안내합니다.
+### [Java 멀티스레딩 튜토리얼: 고정 스레드 풀로 작업 병렬 실행](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
+고정된 스레드 풀을 사용해 여러 작업을 동시에 실행하고 효율적인 멀티스레딩을 구현하는 방법을 배웁니다.
 
 ---
 

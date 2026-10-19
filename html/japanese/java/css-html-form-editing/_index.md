@@ -98,6 +98,8 @@ Aspose.HTML を活用して、Java で CSS を解析・取得する手順をス�
 Javaコードで要素の背景色などCSSプロパティを取得し、動的に活用する手順を解説します。
 ### [Javaでスタイルを取得する方法 – Aspose.HTMLで計算済みCSSを取得](./how-to-get-style-in-java-retrieve-computed-css-with-aspose-h/)
 Aspose.HTML を使用して、Java で要素の計算済み CSS スタイルを取得する手順を解説します。
+### [Aspose HTML Java でスタイルを取得する方法 – クエリセレクタの使用](./how-to-get-style-in-aspose-html-java-use-query-selector/)
+Aspose.HTML for Java のクエリセレクタを使用して、要素のスタイル情報を取得する手順を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -164,6 +164,8 @@ Konvertieren Sie HTML mühelos zu MHTML mit Aspose.HTML für Java. Folgen Sie un
 Erfahren Sie, wie Sie HTML mit Aspose.HTML in Java zu MHTML konvertieren – vollständige Schritt‑für‑Schritt‑Anleitung.
 ### [Wie man Bilder beim Konvertieren von MHTML zu PDF einbettet – Aspose‑Leitfaden](./how-to-embed-images-when-converting-mhtml-to-pdf-aspose-guid/)
 Erfahren Sie, wie Sie Bilder beim MHTML‑zu‑PDF‑Konvertierungsprozess korrekt einbetten, um vollständige PDFs zu erhalten.
+### [Konvertierung von HTML zu Markdown in Java – Schritt‑für‑Schritt‑Anleitung](./convert-html-to-markdown-in-java-step-by-step-guide/)
+Erfahren Sie, wie Sie HTML in Java mit Aspose.HTML zu Markdown konvertieren – detaillierte Schritt‑für‑Schritt‑Anleitung.
 
 ### [Konvertierung von HTML zu XPS](./convert-html-to-xps/)
 Erfahren Sie, wie Sie HTML mühelos zu XPS mit Aspose.HTML für Java konvertieren. Erstellen Sie plattformübergreifende Dokumente mit Leichtigkeit.
@@ -282,6 +284,9 @@ Erfahren Sie, wie Sie mit einem Thread‑Pool mehrere HTML‑Dateien parallel in
 
 ### [HTML zu PDF in Java – benutzerdefinierte Seitengröße und Ränder](./convert-html-to-pdf-custom-page-size-margins-in-java/)
 Erfahren Sie, wie Sie in Java mit Aspose.HTML HTML in PDF konvertieren und dabei individuelle Seitengrößen und Randabstände festlegen.
+
+### [PDF‑Seitengröße mit Aspose HTML zu PDF in Java festlegen](./set-pdf-page-size-with-aspose-html-to-pdf-in-java/)
+Erfahren Sie, wie Sie die Seitengröße von PDFs beim Konvertieren von HTML mit Aspose HTML zu PDF in Java festlegen.
 
 ## Häufig gestellte Fragen
 

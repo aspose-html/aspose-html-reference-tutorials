@@ -177,6 +177,15 @@ A: 不需要。單一的 Aspose.HTML for Java 授權即涵蓋所有輸出格式�
 ### [在 Java 中評估 JavaScript – 使用 Aspose.HTML 的完整指南](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
 學習如何在 Java 中使用 Aspose.HTML 評估 JavaScript 程式碼，涵蓋 Rhino、Nashorn 與 GraalVM 等執行環境。
 
+### [在 Java 中設定裝置像素比 – 行動模擬指南](./set-device-pixel-ratio-in-java-mobile-simulation-guide/)
+說明如何在 Aspose.HTML for Java 中設定裝置像素比，以模擬行動裝置螢幕並產生正確的版面與解析度。
+
+### [如何在 Java HTMLDocument 中啟用 JavaScript – 步驟指南](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
+說明在 Aspose.HTML for Java 中使用 HtmlDocument 執行 JavaScript 的完整步驟與設定方法。
+
+### [Java 多執行緒教學：使用固定執行緒池平行執行任務](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
+說明如何在 Java 中使用 FixedThreadPool 以平行方式執行多個任務，提升效能與資源管理。
+
 ---
 
 **最後更新日期：** 2025-11-29  

@@ -178,6 +178,12 @@ Learn how to retrieve the HTML title in Java, render a page in a sandbox with a 
 Learn how to execute JavaScript embedded in HTML from Java using Aspose.HTML, covering setup, code examples, and best practices.
 ### [Evaluate JavaScript in Java – Complete Guide with Aspose.HTML](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
 Learn how to evaluate JavaScript code within Java using Aspose.HTML, covering setup, execution, and best practices.
+### [set device pixel ratio in Java – Mobile simulation guide](./set-device-pixel-ratio-in-java-mobile-simulation-guide/)
+Learn how to set the device pixel ratio in Java to simulate mobile devices with Aspose.HTML.
+### [How to Enable JavaScript in Java HTMLDocument – Step‑by‑Step Guide](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
+Learn how to enable and run JavaScript within a Java HtmlDocument using Aspose.HTML, with step‑by‑step instructions.
+### [java multithreading tutorial: Run Tasks Parallel with Fixed Thread Pool](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
+Learn how to execute tasks concurrently using a fixed thread pool in Java, with code examples and best practices.
 
 ---
 

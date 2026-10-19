@@ -128,6 +128,8 @@ Aspose.HTML와 샌드박스를 이용해 Java에서 안전하게 HTML을 PDF로 
 Aspose.HTML를 사용하여 Java에서 페이지 크기와 여백을 맞춤 설정하여 HTML을 PDF로 변환하는 방법을 단계별로 안내합니다.
 ### [Java에서 HTML을 PDF로 변환 – 배치 변환 가이드](./create-pdf-from-html-in-java-batch-conversion-guide/)
 Aspose.HTML를 사용하여 Java에서 HTML을 배치로 PDF로 변환하는 방법을 단계별로 안내합니다.
+### [Aspose HTML을 사용해 Java에서 PDF 페이지 크기 설정](./set-pdf-page-size-with-aspose-html-to-pdf-in-java/)
+Aspose.HTML를 사용하여 Java에서 PDF 페이지 크기를 지정하는 방법을 단계별로 안내합니다.
 ### [HTML을 MHTML로 변환](./convert-html-to-mhtml/)
 Aspose.HTML for Java를 사용하여 HTML을 MHTML로 손쉽게 변환합니다. 효율적인 HTML‑to‑MHTML 변환을 위한 단계별 가이드를 따라 주세요.
 ### [Aspose.HTML를 사용하여 HTML을 MHTML로 변환 – 완전한 Java 가이드](./convert-html-to-mhtml-with-aspose-html-complete-java-guide/)
@@ -135,7 +137,6 @@ Aspose.HTML를 사용하여 Java에서 HTML을 MHTML로 완전하게 변환하�
 ### [HTML을 XPS로 변환](./convert-html-to-xps/)
 Aspose.HTML for Java를 사용하여 HTML을 XPS로 손쉽게 변환하는 방법을 배우세요. 크로스‑플랫폼 문서를 쉽게 생성합니다.
 ### [Markdown을 HTML로 변환](./convert-markdown-to-html/)
-Aspose.HTML for Java를 사용하여 Java에서 Markdown을 HTML로 원활하게 변환합니다. 문서 변환 요구를 간소화하기 위한 단계별 가이드를 따라 주세요.
 ### [Java에서 Markdown을 PDF로 변환 – 단계별 가이드](./create-pdf-from-markdown-in-java-step-by-step-guide/)
 Aspose.HTML를 사용하여 Java에서 Markdown을 PDF로 변환하는 방법을 단계별로 안내합니다.
 ### [Aspose HTML Converter (Java)를 사용하여 Markdown에서 PDF 만들기](./create-pdf-from-markdown-using-aspose-html-converter-java/)
@@ -146,6 +147,8 @@ Aspose.HTML를 사용하여 Java에서 Markdown 파일을 PDF로 빠르게 변�
 Aspose.HTML를 사용하여 Java에서 HTML을 Markdown으로 변환하는 방법을 단계별로 안내합니다.
 ### [Java에서 HTML을 Markdown으로 변환 – 원본 서식 유지](./convert-html-to-markdown-in-java-preserve-original-formattin/)
 Aspose.HTML를 사용하여 Java에서 HTML을 Markdown으로 변환하고 원본 서식을 유지하는 방법을 배웁니다.
+### [Java에서 HTML을 Markdown으로 변환 – 단계별 가이드](./convert-html-to-markdown-in-java-step-by-step-guide/)
+Aspose.HTML를 사용하여 Java에서 HTML을 Markdown으로 변환하는 방법을 단계별로 안내합니다.
 ### [SVG를 이미지로 변환](./convert-svg-to-image/)
 Aspose.HTML를 사용하여 Java에서 SVG를 이미지로 변환하는 방법을 배우세요. 고품질 출력에 대한 포괄적인 가이드입니다.
 ### [SVG를 PDF로 변환](./convert-svg-to-pdf/)

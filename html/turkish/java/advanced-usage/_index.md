@@ -161,6 +161,11 @@ Aspose.HTML for Java ile HTML içinde yer alan JavaScript’i Java’da çalış
 Java’da Aspose.HTML ile asenkron şekilde HTML nasıl yüklenir ve işlenir öğrenin.
 ### [Java’da JavaScript Değerlendirme – Aspose.HTML ile Tam Kılavuz](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
 Aspose.HTML for Java kullanarak Java içinde JavaScript kodunu çalıştırmayı ve sonuçları nasıl alacağınızı öğrenin.
+### [Java’da cihaz piksel oranını ayarlama – Mobil simülasyon rehberi](./set-device-pixel-ratio-in-java-mobile-simulation-guide/)
+Aspose.HTML for Java kullanarak cihaz piksel oranını ayarlamayı ve mobil ortamı simüle etmeyi öğrenin.
+### [Java HTMLDocument'ta JavaScript'i Etkinleştirme – Adım Adım Kılavuz](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
+Aspose.HTML for Java kullanarak Java HTMLDocument içinde JavaScript çalıştırmayı adım adım öğrenin.
+### [Java Çoklu İş Parçacığı Eğitimi: Sabit İş Parçacığı Havuzu ile Görevleri Paralel Çalıştırma](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
 
 ---
 

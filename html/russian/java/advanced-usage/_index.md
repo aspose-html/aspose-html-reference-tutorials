@@ -161,6 +161,11 @@ Aspose.HTML позволяет прикрепить `DomMutationObserver` к л�
 Узнайте, как асинхронно загружать HTML‑документы в Java с помощью Aspose.HTML, используя полные примеры кода.
 ### [Оценка JavaScript в Java – Полное руководство с Aspose.HTML](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
 Узнайте, как запускать и отлаживать JavaScript‑код из Java‑приложений с помощью Aspose.HTML.
+### [Установка device pixel ratio в Java – Руководство по мобильной симуляции](./set-device-pixel-ratio-in-java-mobile-simulation-guide/)
+Узнайте, как задать device pixel ratio при рендеринге HTML в Java, имитируя мобильные устройства для точного отображения.
+### [Как включить JavaScript в Java HTMLDocument – пошаговое руководство](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
+### [Java многопоточность: выполнение задач параллельно с фиксированным пулом потоков](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
+Узнайте, как с помощью фиксированного пула потоков выполнять несколько задач одновременно в Java, улучшая производительность приложений.
 
 ---
 

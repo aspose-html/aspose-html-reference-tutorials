@@ -92,6 +92,8 @@ Java’da Aspose.HTML kullanarak bir div elementini sınıfına göre seçmeyi v
 Aspose.HTML for Java ile bir öğenin arka plan rengini nasıl okuyacağınızı öğrenin.
 ### [Java’da Stil Nasıl Alınır – Aspose.HTML ile Hesaplanmış CSS’yi Getirme](./how-to-get-style-in-java-retrieve-computed-css-with-aspose-h/)
 Aspose.HTML for Java kullanarak bir öğenin hesaplanmış CSS stilini programatik olarak nasıl alacağınızı öğrenin.
+### [Aspose HTML Java’da Stil Alma – Query Selector Kullanımı](./how-to-get-style-in-aspose-html-java-use-query-selector/)
+Aspose.HTML for Java’da querySelector kullanarak bir öğenin stilini nasıl alacağınızı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

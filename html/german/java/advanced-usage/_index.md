@@ -165,6 +165,12 @@ Erfahren Sie, wie Sie JavaScript‑Code aus einer HTML‑Datei in einer Java‑A
 Erfahren Sie, wie Sie HTML asynchron in Java mit Aspose.HTML laden und verarbeiten – Schritt‑für‑Schritt‑Anleitung.
 ### [JavaScript in Java auswerten – Komplettanleitung mit Aspose.HTML](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
 Erfahren Sie, wie Sie JavaScript-Code in Java mit Aspose.HTML ausführen und integrieren können.
+### [Geräte‑Pixel‑Verhältnis in Java setzen – Leitfaden zur mobilen Simulation](./set-device-pixel-ratio-in-java-mobile-simulation-guide/)
+Erfahren Sie, wie Sie das Geräte‑Pixel‑Verhältnis in Java simulieren, um mobile Darstellungen präzise zu testen.
+### [Wie man JavaScript in Java HTMLDocument aktiviert – Schritt‑für‑Schritt‑Anleitung](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
+Erfahren Sie, wie Sie JavaScript in einem Java‑HTMLDocument aktivieren und ausführen können – eine detaillierte Schritt‑für‑Schritt‑Anleitung.
+### [Java‑Multithreading‑Tutorial: Aufgaben parallel ausführen mit Fixed Thread Pool](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
+Erfahren Sie, wie Sie mit einem Fixed Thread Pool mehrere Aufgaben gleichzeitig ausführen und die Multithreading‑Leistung in Java optimieren.
 
 ---
 

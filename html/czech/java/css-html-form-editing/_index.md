@@ -92,6 +92,8 @@ Kompletní návod, jak pomocí Aspose.HTML v Javě načíst a analyzovat CSS sou
 Naučte se pomocí Aspose.HTML pro Javu získat hodnotu CSS vlastnosti, například barvu pozadí elementu.
 ### [Jak získat styl v Javě – Získání vypočteného CSS pomocí Aspose.HTML](./how-to-get-style-in-java-retrieve-computed-css-with-aspose-h/)
 Naučte se, jak pomocí Aspose.HTML v Javě získat vypočtené CSS styly prvků a použít je ve svých aplikacích.
+### [Jak získat styl v Aspose.HTML pro Javu – Použijte query selector](./how-to-get-style-in-aspose-html-java-use-query-selector/)
+Naučte se pomocí query selectoru v Aspose.HTML pro Javu získat a upravit CSS styly elementů.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

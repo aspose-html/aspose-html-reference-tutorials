@@ -92,6 +92,8 @@ Ismerje meg, hogyan használhatja a query selector-t egy div osztályának kivá
 Ismerje meg, hogyan olvashatja ki egy HTML elem háttérszínét Java-ban az Aspose.HTML segítségével.
 ### [Stílus lekérése Java-ban – Számított CSS lekérdezése az Aspose.HTML segítségével](./how-to-get-style-in-java-retrieve-computed-css-with-aspose-h/)
 Ismerje meg, hogyan szerezhet be számított CSS‑stílusokat Java‑ban az Aspose.HTML könyvtár segítségével, a dinamikus megjelenítéshez.
+### [Hogyan kapjunk stílust az Aspose HTML Java-ban – Query Selector használata](./how-to-get-style-in-aspose-html-java-use-query-selector/)
+Ismerje meg, hogyan használhatja a query selector-t a stílusok lekérésére az Aspose.HTML for Java-ban.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

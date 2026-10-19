@@ -95,6 +95,8 @@ Dowiedz się, jak odczytywać i analizować style CSS w aplikacjach Java przy po
 Dowiedz się, jak w Javie odczytać wartość właściwości CSS, taką jak kolor tła elementu, przy użyciu Aspose.HTML.
 ### [Jak uzyskać styl w Javie – pobieranie obliczonego CSS przy użyciu Aspose.HTML](./how-to-get-style-in-java-retrieve-computed-css-with-aspose-h/)
 Dowiedz się, jak pobrać obliczone style CSS elementów w Javie przy użyciu Aspose.HTML, aby dynamicznie analizować wygląd stron.
+### [Jak uzyskać styl w Aspose HTML Java – użyj selektora zapytań](./how-to-get-style-in-aspose-html-java-use-query-selector/)
+Dowiedz się, jak programowo pobierać style elementów HTML w Aspose.HTML for Java przy użyciu metody querySelector.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

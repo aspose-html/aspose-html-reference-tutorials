@@ -93,6 +93,8 @@ Aprenda a ler arquivos CSS em Java programaticamente usando Aspose.HTML neste gu
 Aprenda a ler a cor de fundo de um elemento usando Aspose.HTML para Java.
 ### [Como obter estilo em Java – Recuperar CSS computado com Aspose.HTML](./how-to-get-style-in-java-retrieve-computed-css-with-aspose-h/)
 Aprenda a recuperar estilos CSS calculados de elementos HTML usando Aspose.HTML para Java neste tutorial prático.
+### [Como obter estilo no Aspose HTML Java – Use o seletor de consulta](./how-to-get-style-in-aspose-html-java-use-query-selector/)
+Aprenda a recuperar estilos de elementos HTML usando o método querySelector do Aspose.HTML para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
