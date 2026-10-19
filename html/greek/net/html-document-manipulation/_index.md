@@ -88,6 +88,8 @@ url: /el/net/html-document-manipulation/
 Μάθετε πώς να δημιουργήσετε έγγραφο HTML σε C# με οδηγίες βήμα‑βήμα.
 ### [Πώς να μορφοποιήσετε το HTML με Aspose.HTML – Ορισμός στυλ γραμματοσειράς σε C#](./how-to-style-html-with-aspose-html-set-font-style-in-c/)
 Μάθετε πώς να ορίσετε στυλ γραμματοσειράς σε έγγραφα HTML χρησιμοποιώντας Aspose.HTML με C#.
+### [Συνδυασμός έντονου και πλάγιου κειμένου σε HTML με C# – Πλήρης Οδηγός](./combine-bold-and-italic-in-html-with-c-complete-guide/)
+Μάθετε πώς να εφαρμόζετε ταυτόχρονα έντονη και πλάγια μορφοποίηση σε στοιχεία HTML χρησιμοποιώντας C# και Aspose.HTML.
 
 ## Σύναψη
 

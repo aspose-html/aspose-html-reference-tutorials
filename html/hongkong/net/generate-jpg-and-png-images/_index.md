@@ -95,6 +95,8 @@ Aspose.HTML for .NET 提供了一種將 HTML 轉換為映像的簡單方法。�
 了解如何在使用 Aspose.HTML for .NET 時，於 C# 程式碼中啟用抗鋸齒，以提升 PNG 輸出品質。
 ### [在將 HTML 轉換為 PNG 時停用抗鋸齒的方法](./how-to-disable-antialiasing-when-converting-html-to-png/)
 了解如何在使用 Aspose.HTML for .NET 將 HTML 轉換為 PNG 時停用抗鋸齒，以提升圖像品質。
+### [使用 Aspose.HTML 將 HTML 渲染為 PNG 的逐步指南](./how-to-render-html-to-png-with-aspose-html-step-by-step-guid/)
+本教學說明如何使用 Aspose.HTML 在 .NET 中將 HTML 內容渲染為 PNG 圖像，涵蓋設定與範例程式碼。
 
 ## 結論
 

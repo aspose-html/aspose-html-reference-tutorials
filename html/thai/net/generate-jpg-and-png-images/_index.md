@@ -97,6 +97,8 @@ Aspose.HTML สำหรับ .NET นำเสนอวิธีการง�
 ### [วิธีเปิดใช้งาน Antialiasing – แปลง HTML เป็น PNG ใน C#](./how-to-enable-antialiasing-render-html-to-png-in-c/)
 ### [วิธีปิดการใช้งาน Antialiasing เมื่อแปลง HTML เป็น PNG](./how-to-disable-antialiasing-when-converting-html-to-png/)
 เรียนรู้วิธีปิดการใช้งาน Antialiasing เพื่อให้ภาพ PNG ที่แปลงจาก HTML มีความคมชัดและลื่นไหล
+### [วิธีแปลง HTML เป็น PNG ด้วย Aspose.HTML – คู่มือทีละขั้นตอน](./how-to-render-html-to-png-with-aspose-html-step-by-step-guid/)
+เรียนรู้วิธีเรนเดอร์ HTML เป็นไฟล์ PNG อย่างละเอียดด้วย Aspose.HTML ผ่านขั้นตอนที่เข้าใจง่าย
 
 ## บทสรุป
 

@@ -87,6 +87,8 @@ Aspose.HTML для .NET выделяется своей простотой и м
 Узнайте, как создавать HTML, добавлять элементы и стилизовать текст с помощью Aspose.HTML для .NET.
 ### [Как стилизовать HTML с Aspose.HTML – Установить стиль шрифта в C#](./how-to-style-html-with-aspose-html-set-font-style-in-c/)
 Узнайте, как задать стиль шрифта для HTML‑элементов с помощью Aspose.HTML в C#.
+### [Объединение жирного и курсивного в HTML с C# – Полное руководство](./combine-bold-and-italic-in-html-with-c-complete-guide/)
+Узнайте, как с помощью Aspose.HTML для .NET применять одновременно жирный и курсивный стили к элементам HTML в C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

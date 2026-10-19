@@ -85,6 +85,8 @@ Aprenda a gerar documentos HTML e inserir estilos CSS de forma programática com
 Aprenda a criar documentos HTML em C# usando Aspose.HTML com instruções detalhadas passo a passo.
 ### [Como estilizar HTML com Aspose.HTML – Definir estilo de fonte em C#](./how-to-style-html-with-aspose-html-set-font-style-in-c/)
 Aprenda a definir estilos de fonte em documentos HTML usando Aspose.HTML com C#.
+### [Combinar negrito e itálico em HTML com C# – Guia completo](./combine-bold-and-italic-in-html-with-c-complete-guide/)
+Aprenda a combinar estilos de negrito e itálico em documentos HTML usando C#. Guia passo a passo com exemplos práticos.
 
 ## Conclusão
 

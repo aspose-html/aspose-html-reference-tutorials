@@ -96,6 +96,8 @@ Aprenda a convertir HTML a imágenes PNG en C#, generar archivos ZIP y exportar 
 Aprenda a habilitar el antialiasing al renderizar HTML a PNG usando C# y Aspose.HTML para .NET.
 ### [Cómo desactivar el antialiasing al convertir HTML a PNG](./how-to-disable-antialiasing-when-converting-html-to-png/)
 Aprenda a desactivar el antialiasing al convertir HTML a imágenes PNG con Aspose.HTML para .NET.
+### [Cómo renderizar HTML a PNG con Aspose.HTML – Guía paso a paso](./how-to-render-html-to-png-with-aspose-html-step-by-step-guid/)
+Aprenda a convertir HTML a imágenes PNG usando Aspose.HTML con una guía paso a paso.
 
 ## Conclusión
 

@@ -99,6 +99,8 @@ Naučte se vytvořit HTML dokument v C# a převést jej do PNG s vysokou kvalito
 Naučte se převést HTML na PNG v C# a výsledek zabalit do ZIP archivu pomocí Aspose.HTML.
 ### [Jak zakázat antialiasing při převodu HTML na PNG](./how-to-disable-antialiasing-when-converting-html-to-png/)
 Naučte se, jak při převodu HTML na PNG zakázat antialiasing pro ostrý výstup.
+### [Jak renderovat HTML do PNG pomocí Aspose.HTML – krok za krokem](./how-to-render-html-to-png-with-aspose-html-step-by-step-guid/)
+Naučte se, jak pomocí Aspose.HTML převést HTML na PNG v podrobném průvodci krok za krokem.
 
 ## Závěr
 

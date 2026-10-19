@@ -89,6 +89,8 @@ url: /ar/net/html-document-manipulation/
 تعلم كيفية إنشاء مستند HTML وإضافة عناصر وتطبيق تنسيقات النص بسهولة باستخدام Aspose.HTML.
 ### [كيفية تنسيق HTML باستخدام Aspose.HTML – تعيين نمط الخط في C#](./how-to-style-html-with-aspose-html-set-font-style-in-c/)
 تعلم كيفية تعيين نمط الخط في مستندات HTML باستخدام Aspose.HTML في C# خطوة بخطوة.
+### [دمج الخط العريض والمائل في HTML باستخدام C# – دليل شامل](./combine-bold-and-italic-in-html-with-c-complete-guide/)
+تعلم كيفية دمج تنسيقات الخط العريض والمائل في مستندات HTML باستخدام C# مع Aspose.HTML خطوة بخطوة.
 
 ## خاتمة
 

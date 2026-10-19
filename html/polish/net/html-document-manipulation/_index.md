@@ -87,6 +87,8 @@ Dowiedz się, jak znaleźć określony element w dokumencie HTML i zastosować d
 Poznaj, jak w prosty sposób utworzyć dokument HTML w C# przy użyciu Aspose.HTML, krok po kroku z przykładami.
 ### [Jak stylizować HTML przy użyciu Aspose.HTML – Ustaw styl czcionki w C#](./how-to-style-html-with-aspose-html-set-font-style-in-c/)
 Dowiedz się, jak ustawić styl czcionki w dokumencie HTML przy użyciu Aspose.HTML w C#.
+### [Łączenie pogrubienia i kursywy w HTML przy użyciu C# – Kompletny przewodnik](./combine-bold-and-italic-in-html-with-c-complete-guide/)
+Dowiedz się, jak w C# łączyć style pogrubienia i kursywy w HTML, tworząc dynamiczne i atrakcyjne treści.
 
 ## Wniosek
 

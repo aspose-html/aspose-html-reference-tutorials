@@ -87,6 +87,8 @@ Aspose.HTML for .NET 以其简单性和强大性脱颖而出。它使您能够�
 了解如何使用 Aspose.HTML for .NET 在 HTML 文档中追加元素并为文本设置样式的分步指南。
 ### [使用 Aspose.HTML 在 .NET 中设置字体样式](./how-to-style-html-with-aspose-html-set-font-style-in-c/)
 了解如何使用 Aspose.HTML for .NET 在 C# 中设置 HTML 文档的字体样式，实现文本外观定制。
+### [使用 C# 在 HTML 中合并粗体和斜体 – 完整指南](./combine-bold-and-italic-in-html-with-c-complete-guide/)
+了解如何使用 C# 在 HTML 文档中同时应用粗体和斜体样式的完整步骤指南。
 
 ## 结论
 

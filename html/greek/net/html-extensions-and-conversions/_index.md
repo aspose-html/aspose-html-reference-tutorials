@@ -168,6 +168,10 @@ url: /el/net/html-extensions-and-conversions/
 Μάθετε πώς να δημιουργήσετε PDF από HTML σε C#, ενσωματώνοντας γραμματοσειρές για ακριβή απόδοση.
 ### [Πώς να συμπιέσετε HTML σε C# – Πλήρης Οδηγός για την Αποθήκευση HTML ως ZIP](./how-to-zip-html-in-c-complete-guide-to-save-html-as-zip/)
 Μάθετε πώς να συμπιέσετε αρχεία HTML σε αρχείο ZIP χρησιμοποιώντας το Aspose.HTML για .NET σε C#.
+### [Προσαρμοσμένος διαχειριστής πόρων – Μετατροπή ιστοσελίδας σε ZIP με C#](./custom-resource-handler-convert-webpage-to-zip-in-c/)
+Μάθετε πώς να δημιουργήσετε έναν προσαρμοσμένο διαχειριστή πόρων για να μετατρέψετε μια ιστοσελίδα σε αρχείο ZIP με C#.
+### [Αποθήκευση HTML σε ZIP με C# – Πλήρης Οδηγός](./save-html-to-zip-with-c-complete-guide/)
+Μάθετε πώς να αποθηκεύετε HTML σε αρχείο ZIP με C# χρησιμοποιώντας το Aspose.HTML για .NET σε πλήρη οδηγό.
 
 ## Σύναψη
 

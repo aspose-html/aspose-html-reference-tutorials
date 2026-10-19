@@ -88,6 +88,8 @@ HTML を作成し、CSS スタイル要素を追加する手順を詳しく解�
 C# を使用して HTML ドキュメントを作成し、カスタム リソース ハンドラを活用する手順を詳しく紹介します。
 ### [Aspose.HTML を使用して .NET で HTML のフォントスタイルを C# で設定する](./how-to-style-html-with-aspose-html-set-font-style-in-c/)
 Aspose.HTML for .NET を使用して C# で HTML のフォントスタイルを設定する方法を学びます。ステップバイステップの例とベストプラクティスを紹介します。
+### [C# で HTML の太字と斜体を組み合わせる – 完全ガイド](./combine-bold-and-italic-in-html-with-c-complete-guide/)
+C# を使用して HTML で太字と斜体を同時に適用する方法をステップバイステップで解説します。
 
 ## 結論
 

@@ -99,6 +99,8 @@ Ismerje meg, hogyan hozhat létre HTML dokumentumot C#‑ban, és konvertálja P
 Ismerje meg, hogyan konvertálhat HTML-t PNG-re C#-ban, és exportálhatja a képeket ZIP archívumba az Aspose.HTML for .NET segítségével.
 ### [Hogyan engedélyezzük az antialiasingot – HTML PNG-re renderelése C#-ban](./how-to-enable-antialiasing-render-html-to-png-in-c/)
 Ismerje meg, hogyan kapcsolhatja be az antialiasingot HTML PNG-re renderelésekor C#-ban az Aspose.HTML for .NET használatával.
+### [HTML renderelése PNG-be az Aspose.HTML segítségével – Lépésről‑lépésre útmutató](./how-to-render-html-to-png-with-aspose-html-step-by-step-guid/)
+Ismerje meg, hogyan konvertálhat HTML-t PNG képpé az Aspose.HTML használatával, részletes lépésekkel és beállítási tippekkel.
 
 ## Következtetés
 

@@ -51,9 +51,7 @@ Aspose.HTML for .NET vyniká svou jednoduchostí a výkonem. Umožňuje vám př
 ## Výukové programy pro manipulaci s dokumenty HTML
 ### [Načtěte dokumenty HTML asynchronně v .NET pomocí Aspose.HTML](./load-html-doc-asynchronously/)
 Naučte se používat Aspose.HTML pro .NET pro práci s HTML dokumenty. Podrobný průvodce s příklady a často kladenými dotazy pro vývojáře.
-
 ### [Načtěte dokumenty HTML s pověřeními v .NET pomocí Aspose.HTML](./load-html-doc-with-credentials/)
-Naučte se, jak vylepšit vaše SEO pomocí Aspose.HTML pro .NET. Zvyšte hodnocení, analyzujte obsah webu a optimalizujte pro vyhledávače.
 
 ### [Načtěte dokumenty HTML s pověřeními v .NET pomocí Aspose.HTML](./load-html-with-credentials/)
 Naučte se, jak vylepšit vaše SEO pomocí Aspose.HTML pro .NET. Zvyšte hodnocení, analyzujte obsah webu a optimalizujte pro vyhledávače.
@@ -92,6 +90,8 @@ Naučte se, jak vytvořit HTML dokument v C# pomocí Aspose.HTML krok po kroku.
 Naučte se, jak pomocí Aspose.HTML vytvořit HTML dokument, přidávat prvky a aplikovat styly na text.
 ### [Jak stylovat HTML pomocí Aspose.HTML – nastavit styl písma v C#](./how-to-style-html-with-aspose-html-set-font-style-in-c/)
 Naučte se, jak pomocí Aspose.HTML nastavit styl písma v HTML dokumentu v jazyce C#.
+### [Kombinace tučného a kurzívního textu v HTML s C# – Kompletní průvodce](./combine-bold-and-italic-in-html-with-c-complete-guide/)
+Naučte se, jak v HTML kombinovat tučný a kurzívní text pomocí C# s podrobným návodem.
 
 ## Závěr
 

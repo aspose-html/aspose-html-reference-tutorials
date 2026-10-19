@@ -113,6 +113,8 @@ Learn how to zip HTML files using Aspose.HTML in a complete step‑by‑step gui
 Learn how to use ZipArchive in C# to package HTML files and their resources into a ZIP archive with a step-by-step guide.
 ### [How to Zip HTML in C# – Complete Guide to Save HTML as ZIP](./how-to-zip-html-in-c-complete-guide-to-save-html-as-zip/)
 Learn how to zip HTML files in C# using Aspose.HTML, with a full step‑by‑step guide to saving HTML content as a ZIP archive.
+### [custom resource handler – Convert Webpage to ZIP in C#](./custom-resource-handler-convert-webpage-to-zip-in-c/)
+Learn how to convert a webpage to a ZIP archive using a custom resource handler in C# with Aspose.HTML for .NET.
 ### [Create HTML Document with Styled Text and Export to PDF – Full Guide](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Learn how to create an HTML document with styled text and export it to PDF using Aspose.HTML for .NET in this comprehensive guide.
 ### [Create HTML archive from DOCX – Step‑by‑Step Guide](./create-html-archive-from-docx-step-by-step-guide/)
@@ -147,6 +149,8 @@ Learn how to convert EPUB to PDF using Aspose.HTML for .NET. This step‑by‑st
 Learn how to save HTML content into a ZIP archive using C# and Aspose.HTML for .NET in this comprehensive step‑by‑step guide.
 ### [Convert HTML to ZIP in C# – Complete Step‑by‑Step Guide](./convert-html-to-zip-in-c-complete-step-by-step-guide/)
 Learn how to convert HTML files into a ZIP archive using Aspose.HTML for .NET with a detailed C# step‑by‑step guide.
+### [save html to zip with C# – Complete Guide](./save-html-to-zip-with-c-complete-guide/)
+Learn how to save HTML content to a ZIP archive using Aspose.HTML for .NET with a comprehensive C# guide.
 ### [Save HTML to ZIP in C# – Complete In‑Memory Example](./save-html-to-zip-in-c-complete-in-memory-example/)
 Learn how to save HTML content into a ZIP archive in memory using C# and Aspose.HTML for .NET in this step-by-step tutorial.
 ### [Aspose HTML Save Options: Save HTML to Stream in C#](./aspose-html-save-options-save-html-to-stream-in-c/)

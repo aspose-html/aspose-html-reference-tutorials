@@ -167,6 +167,8 @@ Hướng dẫn chi tiết từng bước để tạo PDF từ HTML trong .NET b�
 Hướng dẫn chi tiết cách lưu HTML và ghi nội dung HTML vào tệp bằng C# và Aspose.HTML.
 ### [Cách sử dụng ZipArchive – Lưu HTML và tài nguyên vào tệp ZIP](./how-to-use-ziparchive-save-html-and-resources-to-a-zip-file/)
 Hướng dẫn chi tiết cách sử dụng ZipArchive để lưu tài liệu HTML và các tài nguyên liên quan vào tệp ZIP bằng Aspose.HTML cho .NET.
+### [Trình xử lý tài nguyên tùy chỉnh – Chuyển đổi trang web thành ZIP trong C#](./custom-resource-handler-convert-webpage-to-zip-in-c/)
+Hướng dẫn chi tiết cách sử dụng trình xử lý tài nguyên tùy chỉnh để chuyển đổi một trang web thành tệp ZIP bằng C# và Aspose.HTML.
 
 ## Phần kết luận
 

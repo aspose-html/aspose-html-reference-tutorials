@@ -90,6 +90,8 @@ Tìm hiểu cách tăng cường SEO của bạn với Aspose.HTML cho .NET. Tă
 Hướng dẫn cách tạo tài liệu HTML, thêm phần tử và áp dụng kiểu cho văn bản bằng Aspose.HTML cho .NET.
 ### [Cách định dạng HTML với Aspose.HTML – Đặt kiểu phông chữ trong C#](./how-to-style-html-with-aspose-html-set-font-style-in-c/)
 Hướng dẫn cách sử dụng Aspose.HTML trong C# để thiết lập kiểu phông chữ cho tài liệu HTML, bao gồm các ví dụ thực tế.
+### [Kết hợp chữ đậm và chữ nghiêng trong HTML với C# – Hướng dẫn đầy đủ](./combine-bold-and-italic-in-html-with-c-complete-guide/)
+Học cách áp dụng định dạng đậm và nghiêng trong HTML bằng C# với Aspose.HTML qua các ví dụ thực tế và hướng dẫn chi tiết.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

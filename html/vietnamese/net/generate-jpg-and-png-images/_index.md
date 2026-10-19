@@ -99,6 +99,8 @@ Hướng dẫn chi tiết cách chuyển đổi HTML thành PNG và xuất kết
 Hướng dẫn bật khử răng cưa khi kết xuất HTML thành PNG bằng C# để cải thiện chất lượng hình ảnh.
 ### [Cách tắt khử răng cưa khi chuyển đổi HTML sang PNG](./how-to-disable-antialiasing-when-converting-html-to-png/)
 Hướng dẫn tắt khử răng cưa để cải thiện chất lượng ảnh khi chuyển đổi HTML sang PNG bằng Aspose.HTML.
+### [Cách chuyển đổi HTML sang PNG với Aspose.HTML – Hướng dẫn từng bước](./how-to-render-html-to-png-with-aspose-html-step-by-step-guid/)
+Hướng dẫn chi tiết cách chuyển đổi nội dung HTML thành hình ảnh PNG bằng Aspose.HTML trong .NET, bao gồm các bước cấu hình và ví dụ mã.
 
 ## Phần kết luận
 

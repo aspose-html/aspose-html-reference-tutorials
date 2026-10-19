@@ -185,6 +185,10 @@ Pelajari cara menyimpan HTML dan menulisnya ke file menggunakan C# dengan Aspose
 Pelajari cara mengonversi file HTML menjadi arsip ZIP menggunakan C# dengan panduan lengkap langkah demi langkah menggunakan Aspose.HTML.
 ### [Cara Menggunakan ZipArchive – Simpan HTML dan Sumber Daya ke File ZIP](./how-to-use-ziparchive-save-html-and-resources-to-a-zip-file/)
 Pelajari cara menggunakan ZipArchive untuk menyimpan file HTML beserta sumber dayanya ke dalam arsip ZIP dengan contoh kode C#.
+### [Simpan HTML ke ZIP dengan C# – Panduan Lengkap](./save-html-to-zip-with-c-complete-guide/)
+Pelajari cara menyimpan HTML ke arsip ZIP menggunakan C# dengan Aspose.HTML dalam panduan lengkap.
+### [Penangan Sumber Daya Khusus – Mengonversi Halaman Web ke ZIP dalam C#](./custom-resource-handler-convert-webpage-to-zip-in-c/)
+Pelajari cara mengonversi halaman web menjadi arsip ZIP menggunakan C# dan Aspose.HTML dengan penangan sumber daya khusus.
 
 ## Kesimpulan
 

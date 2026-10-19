@@ -99,6 +99,8 @@ HTML을 PNG 이미지로 변환하고 ZIP 파일로 내보내는 전체 C# 단�
 HTML을 PNG 이미지로 변환하면서 안티앨리어싱을 적용하는 단계별 가이드를 제공합니다.
 ### [HTML을 PNG로 변환할 때 안티앨리어싱 비활성화 방법](./how-to-disable-antialiasing-when-converting-html-to-png/)
 HTML을 PNG 이미지로 변환할 때 안티앨리어싱을 끄는 방법을 단계별로 안내합니다.
+### [Aspose.HTML을 사용하여 HTML을 PNG로 렌더링하는 단계별 가이드](./how-to-render-html-to-png-with-aspose-html-step-by-step-guid/)
+Aspose.HTML을 활용해 HTML을 PNG 이미지로 변환하는 방법을 단계별로 안내합니다.
 
 ## 결론
 

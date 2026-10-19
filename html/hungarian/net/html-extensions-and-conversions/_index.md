@@ -147,6 +147,9 @@ Ismerje meg, hogyan menthet és írhat HTML-t fájlba C#-ban az Aspose.HTML for 
 ### [HTML konvertálása ZIP-be C#‑ban – Teljes lépésről‑lépésre útmutató](./convert-html-to-zip-in-c-complete-step-by-step-guide/)
 Ismerje meg, hogyan konvertálhatja a HTML-t ZIP-archívumba C#‑ban az Aspose.HTML for .NET segítségével, részletes útmutatóval.
 ### [HTML zip-elése C#-ban – Teljes útmutató a HTML ZIP-be mentéshez](./how-to-zip-html-in-c-complete-guide-to-save-html-as-zip/)
+### [Egyéni erőforráskezelő – Weboldal ZIP-be konvertálása C#-ban](./custom-resource-handler-convert-webpage-to-zip-in-c/)
+Ismerje meg, hogyan használhat egyéni erőforráskezelőt a weboldalak ZIP-archívumba konvertálásához C#-ban az Aspose.HTML for .NET segítségével.
+### [HTML mentése ZIP-be C#‑ban – Teljes útmutató](./save-html-to-zip-with-c-complete-guide/)
 
 ## Következtetés
 

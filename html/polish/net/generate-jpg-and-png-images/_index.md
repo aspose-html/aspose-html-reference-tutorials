@@ -99,6 +99,8 @@ Kompletny samouczek w C#, który pokazuje, jak konwertować HTML do PNG i zapisy
 Dowiedz się, jak włączyć antyaliasing przy renderowaniu HTML do formatu PNG w C# przy użyciu Aspose.HTML.
 ### [Jak wyłączyć antyaliasing przy konwertowaniu HTML do PNG](./how-to-disable-antialiasing-when-converting-html-to-png/)
 Dowiedz się, jak wyłączyć antyaliasing podczas konwersji dokumentów HTML do formatu PNG przy użyciu Aspose.HTML.
+### [Jak renderować HTML do PNG przy użyciu Aspose.HTML – przewodnik krok po kroku](./how-to-render-html-to-png-with-aspose-html-step-by-step-guid/)
+Poznaj proces renderowania kodu HTML do obrazu PNG przy użyciu Aspose.HTML w kilku prostych krokach.
 
 ## Wniosek
 

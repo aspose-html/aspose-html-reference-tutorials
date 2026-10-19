@@ -87,10 +87,9 @@ Leer hoe u een element aan de body van een HTML-document kunt toevoegen met een 
 Leer hoe u met Aspose.HTML een HTML-document maakt, een element zoekt en tekst vet maakt.
 ### [HTML stylen met Aspose.HTML – Lettertype stijl instellen in C#](./how-to-style-html-with-aspose-html-set-font-style-in-c/)
 Leer hoe u met Aspose.HTML de lettertype‑stijl van HTML‑elementen in C# kunt aanpassen.
+### [Combineer vet en cursief in HTML met C# – Volledige gids](./combine-bold-and-italic-in-html-with-c-complete-guide/)
+Leer hoe u met C# zowel vetgedrukte als cursieve tekst in HTML combineert met behulp van Aspose.HTML.
 
-## Conclusie
-
-Concluderend, als u HTML-documentmanipulatie onder de knie wilt krijgen met Aspose.HTML voor .NET, bent u hier aan het juiste adres. Onze tutorials zijn uw routekaart naar succes. Maak u klaar om de mogelijkheden te verkennen, uw creativiteit te ontketenen en uw .NET-ontwikkeling te stroomlijnen. Begin vandaag nog aan uw reis en zie hoe uw HTML-documenten voor uw ogen worden getransformeerd. Of u nu een ontwikkelaar of een liefhebber bent, Aspose.HTML voor .NET heeft iets ongelooflijks voor u in petto. Dus, waar wacht u nog op? Laten we samen aan dit spannende avontuur beginnen!
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

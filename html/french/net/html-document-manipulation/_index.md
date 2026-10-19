@@ -93,6 +93,9 @@ Apprenez à créer un document HTML en C# avec du texte en gras et italique en u
 ### [Comment styliser le HTML avec Aspose.HTML – Définir le style de police en C#](./how-to-style-html-with-aspose-html-set-font-style-in-c/)
 Apprenez à appliquer des styles de police aux éléments HTML en utilisant Aspose.HTML avec C#.
 
+### [Combiner le gras et l'italique en HTML avec C# – Guide complet](./combine-bold-and-italic-in-html-with-c-complete-guide/)
+Apprenez à appliquer simultanément le gras et l'italique dans du HTML en C# avec Aspose.HTML. Guide complet pas à pas.
+
 ## Conclusion
 
 En conclusion, si vous souhaitez maîtriser la manipulation de documents HTML à l'aide d'Aspose.HTML pour .NET, vous êtes au bon endroit. Nos tutoriels sont votre feuille de route vers le succès. Préparez-vous à explorer les possibilités, à libérer votre créativité et à rationaliser votre développement .NET. Commencez votre voyage dès aujourd'hui et regardez vos documents HTML se transformer sous vos yeux. Que vous soyez développeur ou passionné, Aspose.HTML pour .NET vous réserve quelque chose d'incroyable. Alors, qu'attendez-vous ? Embarquons ensemble dans cette aventure passionnante !
