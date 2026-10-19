@@ -130,6 +130,8 @@ Apprenez comment créer un bac à sable en Java avec ce guide complet, assurant 
 Apprenez à configurer l'agent utilisateur dans Aspose.HTML for Java pour le rendu HTML sans tête, garantissant un chargement correct des ressources.
 ### [Extraire le titre d'un HTML en Java – Guide complet du sandbox](./extract-title-from-html-in-java-complete-sandbox-guide/)
 Apprenez comment extraire le titre d'un document HTML en Java en utilisant le sandbox d'Aspose.HTML, avec un guide complet pas à pas.
+### [Comment définir le DPI dans le bac à sable Aspose.HTML – Guide complet Java](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
+Apprenez à configurer la résolution DPI dans le sandbox Aspose.HTML pour Java afin d’obtenir des rendus PDF et PNG de haute qualité.
 
 ---
 

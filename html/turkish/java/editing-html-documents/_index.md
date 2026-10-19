@@ -72,6 +72,7 @@ Java DOM'da bir çocuk düğümünü nasıl ekleyeceğinizi adım adım öğreni
 Java için Aspose.HTML kullanarak HTML belgelerinden scriptleri güvenli bir şekilde kaldırmayı öğrenin.
 ### [HTML'yi Vurgulama – Metni Ara ve <mark> ile Değiştir](./how-to-highlight-html-search-text-replace-with-mark/)
 HTML belgelerinde belirli metinleri <mark> etiketiyle vurgulamayı öğrenin.
+### [Java için Aspose.HTML'de Otomatik Kilit Bırakma – Thread‑Safe HTML Düzenleme Öğreticisi](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

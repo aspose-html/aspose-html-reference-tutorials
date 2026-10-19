@@ -156,6 +156,8 @@ Aspose.HTML ให้คุณแนบ `DomMutationObserver` ไปยังโ
 เรียนรู้วิธีใช้ top-level await พร้อมฟังก์ชัน delay ใน JavaScript ด้วย Aspose.HTML  
 ### [ดำเนินการ JavaScript ใน Java – รัน JS จาก HTML](./execute-javascript-in-java-run-js-from-html/)
 เรียนรู้วิธีรันโค้ด JavaScript ที่ฝังอยู่ในไฟล์ HTML จากแอปพลิเคชัน Java ด้วย Aspose.HTML  
+### [วิธีโหลด HTML ใน Java – ตัวอย่าง Aspose.HTML แบบอะซิงโครนัสฉบับสมบูรณ์](./how-to-load-html-in-java-complete-aspose-html-async-example/)
+เรียนรู้วิธีโหลดไฟล์ HTML อย่างไม่บล็อกใน Java ด้วย Aspose.HTML แบบอะซิงโครนัส พร้อมตัวอย่างครบถ้วน  
 
 ---
 

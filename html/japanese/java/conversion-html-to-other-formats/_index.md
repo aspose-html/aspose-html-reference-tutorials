@@ -98,6 +98,8 @@ Aspose.HTML を使用して Java で HTML を並列バッチ処理し、複数�
 Aspose.HTML を使用して Java で HTML を PDF に変換する手順を詳しく解説します。
 ### [HTML を PDF に変換するチュートリアル – Java Fixed Thread Pool を使用](./html-to-pdf-tutorial-convert-html-to-pdf-with-java-fixed-thr/)
 Java の Fixed Thread Pool を活用し、マルチスレッドで HTML を PDF に効率的に変換する方法を解説します。
+### [JavaでHTMLからPDFを作成 – HTMLをPDFに変換 (Java)](./create-pdf-from-html-in-java-convert-html-to-pdf-java/)
+Aspose.HTML を使用して Java で HTML から PDF を作成する方法を学びます。シンプルな手順で高品質な PDF を生成できます。
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 Aspose.HTML for Java で HTML を MHTML に簡単に変換します。効率的な HTML‑to‑MHTML 変換の手順をご覧ください。
 

@@ -157,6 +157,8 @@ Aspose.HTML позволяет прикрепить `DomMutationObserver` к л�
 Узнайте, как применять top‑level await с функцией задержки await delay в JavaScript для упрощения асинхронного кода.
 ### [Выполнение JavaScript в Java – Запуск JS из HTML](./execute-javascript-in-java-run-js-from-html/)
 Узнайте, как запускать JavaScript‑код из HTML в Java‑приложениях с помощью Aspose.HTML for Java.
+### [Как загрузить HTML в Java – Полный пример асинхронного Aspose.HTML](./how-to-load-html-in-java-complete-aspose-html-async-example/)
+Узнайте, как асинхронно загружать HTML‑документы в Java с помощью Aspose.HTML, используя полные примеры кода.
 
 ---
 

@@ -89,6 +89,8 @@ Java में Aspose.HTML का उपयोग करके ID द्वा�
 जावा में Aspose.HTML का उपयोग करके क्लास द्वारा डिव चुनें और उसका कंप्यूटेड स्टाइल प्राप्त करने की पूरी प्रक्रिया सीखें।
 ### [Java में CSS पढ़ना – Aspose.HTML के साथ पूर्ण गाइड](./how-to-read-css-in-java-complete-guide-using-aspose-html/)
 Aspose.HTML का उपयोग करके Java में CSS को पढ़ने और विश्लेषण करने की पूरी प्रक्रिया सीखें।
+### [Java में CSS प्रॉपर्टी प्राप्त करें – तत्व की पृष्ठभूमि रंग पढ़ें](./how-to-get-css-property-in-java-read-element-background-colo/)
+Java में Aspose.HTML के साथ किसी एलिमेंट का बैकग्राउंड रंग कैसे प्राप्त करें, यह सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

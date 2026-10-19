@@ -169,6 +169,7 @@ Imposta le dimensioni della pagina PDF durante la conversione da HTML a PDF in J
 ### [Tutorial html to pdf – Converti HTML in PDF con Java Fixed Thread Pool](./html-to-pdf-tutorial-convert-html-to-pdf-with-java-fixed-thr/)
 ### [Come utilizzare Sandbox per la conversione HTML‑to‑PDF in Java](./how-to-use-sandbox-for-html-to-pdf-conversion-in-java/)
 ### [Java thread pool tutorial – Converti più file HTML in PDF](./java-thread-pool-tutorial-convert-multiple-html-files-to-pdf/)
+### [Crea PDF da HTML in Java – Converti HTML in PDF Java](./create-pdf-from-html-in-java-convert-html-to-pdf-java/)
 
 ## Domande frequenti
 

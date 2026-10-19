@@ -132,6 +132,8 @@ Java için Aspose.HTML kullanarak Markdown içeriğini tam adım adım HTML'e d�
 Java için Aspose.HTML kullanarak bir HTML belgesinin sayfa başlığını hızlıca nasıl alacağınızı öğrenin.
 ### [Java için Aspose.HTML'de JavaScript Çalıştırma – HTML'de JS Çalıştır ve Eleman Ekle](./execute-javascript-java-run-js-on-html-append-elements/)
 Java için Aspose.HTML kullanarak HTML içinde JavaScript çalıştırın ve yeni öğeler ekleyin. Adım adım kılavuz.
+### [Java için Aspose.HTML'de xpath sorgulama – Adım adım kılavuz](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
+Java için Aspose.HTML kullanarak xpath sorgulama yöntemlerini adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

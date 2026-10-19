@@ -114,23 +114,16 @@ A: 필요 없습니다. 하나의 Aspose.HTML for Java 라이선스로 PDF와 XP
 
 
 ### [Aspose.HTML로 HTML 페이지 여백 맞춤하기](./css-extensions-adding-title-page-number/)
-Aspose.HTML for Java를 사용해 HTML 문서의 페이지 여백, 페이지 번호 및 제목을 맞춤 설정하는 방법을 배웁니다.
 ### [Aspose.HTML for Java와 함께하는 DOM Mutation Observer](./dom-mutation-observer-observing-node-additions/)
 Aspose.HTML for Java를 활용해 단계별로 DOM Mutation Observer를 구현하는 방법을 배웁니다. DOM 변화를 효과적으로 감시하고 대응하세요.
 ### [Aspose.HTML for Java에서 XPath 전체 필터링 가이드 사용하기](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
 Aspose.HTML for Java에서 XPath 필터링을 전체적으로 활용하는 방법을 단계별로 안내합니다.
 ### [Aspose.HTML for Java로 HTML5 Canvas 조작하기 (코드 사용)](./html5-canvas-manipulation-using-code/)
-Aspose.HTML for Java를 이용한 HTML5 Canvas 조작 방법을 배웁니다. 단계별 가이드를 통해 인터랙티브 그래픽을 만들 수 있습니다.
 ### [Aspose.HTML for Java로 HTML5 Canvas 조작하기 (JavaScript 사용)](./html5-canvas-manipulation-using-javascript/)
-JavaScript와 Aspose.HTML for Java를 사용해 HTML5 Canvas를 조작하는 방법을 배웁니다. 동적 그래픽을 만들고 PDF로 변환하세요.
 ### [Aspose.HTML for Java로 HTML 양식 자동 채우기](./html-form-editor-filling-submitting-forms/)
-Aspose.HTML for Java를 활용해 HTML 양식 자동 채우기 및 제출을 자동화하는 방법을 배웁니다. 웹 상호작용을 간소화하세요.
 ### [Aspose.HTML for Java로 PDF 페이지 크기 조정하기](./adjust-pdf-page-size/)
-Aspose.HTML for Java를 사용해 PDF 페이지 크기를 조정하는 방법을 배웁니다. HTML에서 고품질 PDF를 손쉽게 생성하고 페이지 치기를 효과적으로 제어합니다.
 ### [Aspose.HTML for Java로 XPS 페이지 크기 조정하기](./adjust-xps-page-size/)
-Aspose.HTML for Java를 사용해 XPS 페이지 크기를 조정하는 방법을 배웁니다. XPS 문서의 출력 치기를 손쉽게 제어합니다.
 ### [Java에서 JavaScript 실행하기 – 완전 가이드](./how-to-run-javascript-in-java-complete-guide/)
-Java 애플리케이션 내에서 JavaScript 코드를 실행하고, 엔진 설정 및 스크립트 통합 방법을 단계별로 배웁니다.
 ### [Java에서 디바이스 픽셀 비율 설정 – 모바일 샌드박스 튜토리얼](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
 Java 환경에서 디바이스 픽셀 비율을 설정하고 모바일 샌드박스에서 정확한 렌더링을 구현하는 방법을 배웁니다.
 ### [Aspose HTML에서 JavaScript 활성화 – HTML 로드 및 텍스트 가져오기](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
@@ -155,6 +148,7 @@ Aspose.HTML for Java를 사용해 샌드박스 환경에서 화면 너비를 지
 JavaScript에서 top-level await을 사용해 await delay를 구현하는 방법을 단계별로 배웁니다.
 ### [Java에서 JavaScript 실행 – HTML에서 JS 실행](./execute-javascript-in-java-run-js-from-html/)
 Java 애플리케이션에서 HTML에 포함된 JavaScript 코드를 실행하는 방법을 단계별로 안내합니다.
+### [Java에서 HTML 로드하기 – 완전 Aspose.HTML 비동기 예제](./how-to-load-html-in-java-complete-aspose-html-async-example/)
 
 ---
 

@@ -115,6 +115,8 @@ Podrobný návod, jak pomocí Aspose.HTML načíst HTML dokument v Javě krok za
 Porovnejte používání XPath a CSS selektorů při načítání HTML v Javě s Aspose.HTML a zjistěte, který přístup je vhodnější pro vaše projekty.
 ### [Vytvořte HTML element s Java ExecutorService – Thread‑Safe demo](./create-html-element-with-java-executorservice-thread-safe-de/)
 Ukázka, jak bezpečně vytvářet HTML elementy v multi‑vláknovém prostředí pomocí ExecutorService v Javě.
+### [Jak dotazovat XPath v Javě – krok‑za‑krokem průvodce](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
+Kompletní průvodce, jak v Javě dotazovat XPath pomocí Aspose.HTML, včetně příkladů a tipů.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

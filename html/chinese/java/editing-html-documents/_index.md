@@ -72,6 +72,8 @@ url: /zh/java/editing-html-documents/
 本完整指南教您使用 Aspose.HTML for Java 安全地删除 HTML 中的脚本标签，防止 XSS 并提升页面性能。
 ### [如何突出显示 HTML – 搜索文本并用 <mark> 替换](./how-to-highlight-html-search-text-replace-with-mark/)
 本教程演示如何在 HTML 中搜索特定文本并使用 <mark> 标签高亮显示，实现快速标记功能。
+### [Java 中的自动锁释放 – 线程安全 HTML 编辑教程](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
+了解如何在 Java 中使用自动锁释放实现线程安全的 HTML 编辑，提高并发处理效率。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

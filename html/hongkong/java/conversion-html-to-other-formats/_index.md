@@ -233,6 +233,8 @@ Aspose.HTML for Java 簡化了 HTML‑to‑PDF 工作流程。請參考專屬教
 說明如何使用 Java 執行緒池同時將多個 HTML 檔案批次轉換為 PDF，提高效能與資源利用。
 ### [將 MHTML 轉換為 PDF 時嵌入圖像 – Aspose 指南](./how-to-embed-images-when-converting-mhtml-to-pdf-aspose-guid/)
 說明如何在 MHTML 轉 PDF 的過程中正確嵌入圖像，確保輸出文件完整顯示所有圖片。
+### [在 Java 中從 HTML 建立 PDF – Convert HTML to PDF Java](./create-pdf-from-html-in-java-convert-html-to-pdf-java/)
+學習使用 Aspose.HTML 在 Java 中將 HTML 轉換為 PDF，掌握完整流程與最佳實踐。
 
 ## 常見問題
 

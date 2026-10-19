@@ -72,6 +72,8 @@ Scopri come aggiungere un nodo figlio al DOM in Java usando Aspose.HTML. Una gui
 Scopri come rimuovere gli script da documenti HTML con Aspose.HTML per Java. Una guida completa passo passo per una pulizia sicura.
 ### [Come evidenziare HTML – Cerca testo e sostituisci con <mark>](./how-to-highlight-html-search-text-replace-with-mark/)
 Scopri come evidenziare parti di HTML cercando testo e sostituendolo con il tag <mark> usando Aspose.HTML per Java.
+### [Rilascio automatico del lock in Java – Tutorial di editing HTML thread‑safe](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
+Scopri come rilasciare automaticamente i lock in Java per modificare documenti HTML in modo thread‑safe.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

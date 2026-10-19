@@ -126,6 +126,8 @@ Java で HTML を読み込む際に、XPath と CSS セレクタの使い分け�
 Java アプリケーションで HTML に JavaScript を実行し、動的に要素を追加する方法をステップバイステップで解説します。
 ### [Java ExecutorService を使用した HTML 要素の作成 – スレッドセーフ デモ](./create-html-element-with-java-executorservice-thread-safe-de/)
 Java の ExecutorService を利用してスレッドセーフに HTML 要素を生成する方法をステップバイステップで解説します。
+### [Aspose を使用した Java での XPath クエリ – ステップバイステップ ガイド](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
+Java で Aspose を使用し、XPath 式で HTML を検索・抽出する方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

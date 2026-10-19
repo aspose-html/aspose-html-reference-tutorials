@@ -128,6 +128,7 @@ HTML الديناميكي غالبًا ما يحتوي على سكريبتات �
 تعلم كيفية تعيين وكيل المستخدم عند تشغيل Aspose.HTML في وضع headless لضمان تحميل الموارد بشكل صحيح.
 ### [استخراج العنوان من HTML في Java – دليل العزل الكامل](./extract-title-from-html-in-java-complete-sandbox-guide/)
 تعلم كيفية استخراج عنوان الصفحة من مستند HTML باستخدام Aspose.HTML for Java ضمن بيئة عزل آمنة خطوة بخطوة.
+### [كيفية تعيين DPI في Aspose.HTML Sandbox – دليل Java كامل](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
 
 ---
 

@@ -72,6 +72,8 @@ Ismerje meg, hogyan módosíthatja az MHTML fájlok h1 címkéjének szövegét 
 Ismerje meg, hogyan hozhat létre új HTML elemet Java segítségével az Aspose.HTML teljes útmutatójában.
 ### [Gyermek elem hozzáadása a Java DOM-ban – Teljes Aspose.HTML útmutató](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
 Fedezze fel, hogyan adhat hozzá gyermek elemet a Java DOM-hoz az Aspose.HTML használatával, részletes, lépésről lépésre útmutató.
+### [Automatikus zár feloldása Java-ban – Szálbiztos HTML szerkesztési útmutató](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
+Ismerje meg, hogyan oldhatja fel automatikusan a zárakat Java-ban a szálbiztos HTML szerkesztéshez.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

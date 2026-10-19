@@ -73,6 +73,7 @@ Aspose.HTML for Java を使用して HTML ドキュメントから不要なス�
 ### [Fixed Thread Pool Java – ExecutorService を使用した並列 HTML クリーンアップ](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 ### [Java で body に子要素を追加 – 完全 Aspose.HTML チュートリアル](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 Aspose.HTML for Java を使用して、HTML ドキュメントの body に子要素を追加する方法をステップバイステップで学びます。
+### [Java の自動ロック解除 – スレッドセーフ HTML 編集チュートリアル](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

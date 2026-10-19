@@ -128,6 +128,8 @@ Apprenez à charger du HTML en Java et comparez XPath et sélecteurs CSS pour ex
 Apprenez à exécuter du code JavaScript dans un document HTML avec Aspose.HTML pour Java et à ajouter dynamiquement des éléments.
 ### [Créer un élément HTML avec Java ExecutorService – Démonstration thread‑safe](./create-html-element-with-java-executorservice-thread-safe-de/)
 Apprenez à créer un élément HTML en toute sécurité avec ExecutorService en Java, démonstration de gestion multithread avec Aspose.HTML.
+### [Comment interroger xpath en Java avec Aspose – Guide étape par étape](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
+Apprenez à interroger des documents HTML avec XPath en Java en utilisant Aspose.HTML grâce à ce guide complet étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

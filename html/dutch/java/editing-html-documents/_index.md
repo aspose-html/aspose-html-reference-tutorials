@@ -72,6 +72,8 @@ Leer hoe u specifieke tekst in een HTML-document kunt zoeken en markeren met de 
 ### [Fixed thread pool Java – Parallelle HTML-reiniging met ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 ### [Kind toevoegen aan body in Java – volledige Aspose.HTML-tutorial](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 Leer hoe u een kind-element aan de body van een HTML-document toevoegt met Aspose.HTML voor Java.
+### [Automatische lockrelease in Java – Thread‑veilige HTML-bewerkingshandleiding](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
+Leer hoe u automatisch lockrelease implementeert in Java voor thread‑veilige HTML-bewerking met Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

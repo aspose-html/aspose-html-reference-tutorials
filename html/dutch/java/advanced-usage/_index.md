@@ -155,6 +155,8 @@ Leer hoe je een host‑object toevoegt en JavaScript vanuit Java kunt uitvoeren 
 Leer hoe je top‑level await en een await‑delay kunt toepassen in JavaScript met Aspose.HTML.
 ### [JavaScript uitvoeren in Java – JS vanuit HTML uitvoeren](./execute-javascript-in-java-run-js-from-html/)
 Leer hoe je JavaScript vanuit een HTML‑document kunt uitvoeren binnen een Java‑applicatie met Aspose.HTML, stap voor stap.
+### [HTML laden in Java – Complete Aspose.HTML Async‑voorbeeld](./how-to-load-html-in-java-complete-aspose-html-async-example/)
+Leer hoe je HTML asynchroon laadt in Java met Aspose.HTML, met een volledig voorbeeld en best practices.
 
 ---
 

@@ -134,6 +134,8 @@ Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie Text aus HT
 ### [javascript settimeout async: JavaScript in Java ausführen und HTML aktualisieren](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
 ### [JavaScript ausführen in Java – JS auf HTML ausführen und Elemente anhängen](./execute-javascript-java-run-js-on-html-append-elements/)
 Erfahren Sie, wie Sie JavaScript in Aspose.HTML für Java ausführen, HTML manipulieren und neue Elemente dynamisch hinzufügen.
+### [Wie man XPath in Java mit Aspose abfragt – Schritt‑für‑Schritt‑Anleitung](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML in Java XPath‑Abfragen durchführen und HTML‑Inhalte gezielt extrahieren – detaillierte Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

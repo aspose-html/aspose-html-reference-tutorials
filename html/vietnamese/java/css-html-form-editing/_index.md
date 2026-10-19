@@ -89,6 +89,8 @@ Hướng dẫn chi tiết cách lấy phần tử HTML theo id và truy xuất c
 Hướng dẫn cách sử dụng Aspose.HTML cho Java để chọn một thẻ div theo lớp và lấy các thuộc tính kiểu tính toán.
 ### [Cách đọc CSS trong Java – Hướng dẫn đầy đủ sử dụng Aspose.HTML](./how-to-read-css-in-java-complete-guide-using-aspose-html/)
 Hướng dẫn chi tiết cách đọc CSS trong Java bằng Aspose.HTML, cung cấp các bước thực hành đầy đủ.
+### [Cách lấy thuộc tính CSS trong Java – Đọc màu nền của phần tử](./how-to-get-css-property-in-java-read-element-background-colo/)
+Hướng dẫn cách sử dụng Aspose.HTML cho Java để truy xuất giá trị thuộc tính CSS, ví dụ lấy màu nền của một phần tử HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

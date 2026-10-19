@@ -124,6 +124,8 @@ Aspose.HTML สำหรับ Java นำเสนอชุดเครื่�
 ### [ดำเนินการ JavaScript ใน Java – รัน JS บน HTML และเพิ่มองค์ประกอบ](./execute-javascript-java-run-js-on-html-append-elements/)
 เรียนรู้วิธีรัน JavaScript บนเอกสาร HTML ด้วย Aspose.HTML สำหรับ Java และเพิ่มองค์ประกอบใหม่อย่างง่าย
 
+### [วิธีสืบค้น xpath ใน Java ด้วย Aspose – คู่มือทีละขั้นตอน](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
+เรียนรู้วิธีสืบค้น XPath ใน Java ด้วย Aspose ผ่านคู่มือทีละขั้นตอนที่เข้าใจง่าย
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

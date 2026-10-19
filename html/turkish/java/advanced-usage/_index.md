@@ -157,6 +157,8 @@ Aspose.HTML for Java kullanarak JavaScript'ten Java metodlarını çağırmayı,
 JavaScript'te top‑level await ve gecikme (delay) fonksiyonunu nasıl kullanacağınızı öğrenin.
 ### [Java’da JavaScript Çalıştırma – HTML’den JS Çalıştırma](./execute-javascript-in-java-run-js-from-html/)
 Aspose.HTML for Java ile HTML içinde yer alan JavaScript’i Java’da çalıştırmayı keşfedin.
+### [Java’da HTML Yükleme – Tam Aspose.HTML Asenkron Örneği](./how-to-load-html-in-java-complete-aspose-html-async-example/)
+Java’da Aspose.HTML ile asenkron şekilde HTML nasıl yüklenir ve işlenir öğrenin.
 
 ---
 

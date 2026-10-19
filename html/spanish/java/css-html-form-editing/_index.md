@@ -93,6 +93,9 @@ Aprenda a leer y analizar archivos CSS en Java con Aspose.HTML mediante una guí
 
 ### [Selector de consulta div clase – Cómo seleccionar un div por clase y obtener el estilo computado en Java](./query-selector-div-class-how-to-select-a-div-by-class-and-ge/)
 Aprenda a usar Aspose.HTML en Java para seleccionar un elemento div por su clase y obtener sus estilos computados de forma programática.
+### [Cómo obtener la propiedad CSS en Java – Leer el color de fondo del elemento](./how-to-get-css-property-in-java-read-element-background-colo/)
+Aprenda a obtener la propiedad CSS de color de fondo de un elemento usando Aspose.HTML para Java en unos simples pasos.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

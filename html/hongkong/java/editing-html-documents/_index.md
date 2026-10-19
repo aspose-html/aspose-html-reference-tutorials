@@ -71,6 +71,8 @@ url: /zh-hant/java/editing-html-documents/
 本完整指南教您使用 Aspose.HTML for Java 移除 HTML 中的腳本標籤，提升安全性與效能。
 ### [如何在 HTML 中加亮 – 搜尋文字並以 <mark> 標籤取代](./how-to-highlight-html-search-text-replace-with-mark/)
 本教學說明如何在 HTML 中搜尋特定文字，並使用 <mark> 標籤將其高亮顯示，提升可讀性。
+### [Java 中的自動鎖釋放 – 執行緒安全 HTML 編輯教學](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
+了解如何在 Java 中自動釋放鎖，以確保 HTML 編輯過程的執行緒安全，提升效能與穩定性。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

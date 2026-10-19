@@ -72,6 +72,8 @@ url: /el/java/editing-html-documents/
 Μάθετε πώς να αφαιρέσετε όλα τα scripts από έγγραφα HTML χρησιμοποιώντας Aspose.HTML για Java σε αυτόν τον πλήρη οδηγό.
 ### [Πώς να επισημάνετε HTML – Αναζήτηση κειμένου & αντικατάσταση με <mark>](./how-to-highlight-html-search-text-replace-with-mark/)
 Μάθετε πώς να εντοπίζετε κείμενο σε HTML και να το επισημαίνετε χρησιμοποιώντας το στοιχείο <mark> με Aspose.HTML για Java.
+### [Αυτόματη απελευθέρωση κλειδώματος σε Java – Σεμινάριο ασφαλούς επεξεργασίας HTML](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
+Μάθετε πώς να απελευθερώνετε αυτόματα κλειδώματα σε Java για ασφαλή επεξεργασία HTML με νήματα, βήμα‑βήμα οδηγός.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

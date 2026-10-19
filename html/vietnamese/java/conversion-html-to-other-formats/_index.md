@@ -282,6 +282,9 @@ Hướng dẫn chi tiết chuyển đổi HTML sang PDF, PNG, DOCX và Markdown 
 ### [Hướng dẫn thread pool Java – Chuyển đổi nhiều tệp HTML sang PDF](./java-thread-pool-tutorial-convert-multiple-html-files-to-pdf/)
 Sử dụng thread pool trong Java để chuyển đổi đồng thời nhiều tệp HTML thành PDF nhanh chóng và hiệu quả với Aspose.HTML.
 
+### [Tạo PDF từ HTML trong Java – Chuyển đổi HTML sang PDF Java](./create-pdf-from-html-in-java-convert-html-to-pdf-java/)
+Hướng dẫn tạo PDF từ HTML trong Java bằng Aspose.HTML, chi tiết các bước và tùy chọn cấu hình.
+
 ## Câu hỏi thường gặp
 
 **Q: Tôi có thể sử dụng Aspose.HTML cho Java trong một ứng dụng thương mại không?**  

@@ -93,6 +93,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML für Java ein Element per ID auswählen un
 Erfahren Sie, wie Sie mit Aspose.HTML für Java ein div‑Element per CSS‑Klasse auswählen und dessen berechneten Stil auslesen.
 ### [CSS in Java lesen – Komplett‑Anleitung mit Aspose.HTML](./how-to-read-css-in-java-complete-guide-using-aspose-html/)
 Erfahren Sie, wie Sie mit Aspose.HTML CSS-Dateien in Java auslesen und analysieren – Schritt‑für‑Schritt‑Anleitung.
+### [Wie man CSS‑Eigenschaft in Java abruft – Hintergrundfarbe eines Elements lesen](./how-to-get-css-property-in-java-read-element-background-colo/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java die Hintergrundfarbe eines Elements auslesen und CSS‑Eigenschaften programmgesteuert abrufen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

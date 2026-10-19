@@ -197,6 +197,8 @@ Java Fixed Thread Pool을 사용해 다중 스레드 환경에서 HTML을 PDF로
 ### [MHTML을 PDF로 변환할 때 이미지를 삽입하는 방법 – Aspose 가이드](./how-to-embed-images-when-converting-mhtml-to-pdf-aspose-guid/)
 Aspose.HTML를 사용하여 MHTML을 PDF로 변환하면서 이미지가 올바르게 포함되도록 설정하는 방법을 단계별로 안내합니다.
 ### [java 스레드 풀 튜토리얼 – 다중 HTML 파일을 PDF로 변환](./java-thread-pool-tutorial-convert-multiple-html-files-to-pdf/)
+### [Java에서 HTML을 PDF로 만들기 – HTML을 PDF로 변환](./create-pdf-from-html-in-java-convert-html-to-pdf-java/)
+Aspose.HTML를 활용해 Java에서 HTML을 PDF로 변환하는 과정을 자세히 배웁니다.
 
 ### [Aspose HTML을 사용하여 PDF 페이지 크기 설정 – 전체 Java 가이드](./set-pdf-page-size-with-aspose-html-full-java-guide/)
 Aspose.HTML를 사용하여 Java에서 PDF 페이지 크기를 설정하는 전체 단계별 가이드를 제공합니다.

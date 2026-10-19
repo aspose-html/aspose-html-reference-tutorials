@@ -71,6 +71,8 @@ url: /ru/java/editing-html-documents/
 Узнайте, как безопасно удалять скрипты из HTML‑документов в Java с помощью Aspose.HTML, следуя пошаговому полному руководству.
 ### [Как подсветить HTML – поиск текста и замена на <mark>](./how-to-highlight-html-search-text-replace-with-mark/)
 Узнайте, как искать определённый текст в HTML‑документе и заменять его тегом <mark> с помощью Aspose.HTML для Java.
+### [Автоматическое освобождение блокировки в Java – Руководство по потокобезопасному редактированию HTML](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
+Узнайте, как автоматически освобождать блокировки при потокобезопасном редактировании HTML в Java с помощью Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

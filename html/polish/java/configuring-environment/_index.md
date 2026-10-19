@@ -113,6 +113,7 @@ Dowiedz się, jak utworzyć sandbox w Javie, aby bezpiecznie izolować wykonywan
 ### [Ustaw User Agent dla renderowania HTML w trybie headless – Kompletny przewodnik](./set-user-agent-for-headless-html-rendering-complete-guide/)
 Dowiedz się, jak ustawić własny User Agent w Aspose.HTML for Java, aby kontrolować renderowanie w trybie headless i unikać blokad serwerów.
 ### [Wyodrębnij tytuł z HTML w Javie – Kompletny przewodnik sandbox](./extract-title-from-html-in-java-complete-sandbox-guide/)
+### [Jak ustawić DPI w piaskownicy Aspose.HTML – Kompletny przewodnik Java](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
 
 ---
 

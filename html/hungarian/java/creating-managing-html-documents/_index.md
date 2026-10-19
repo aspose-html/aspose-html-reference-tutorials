@@ -76,6 +76,9 @@ Ismerje meg, hogyan nyerhet ki szöveget HTML-ből Java használatával, lépés
 Ismerje meg, hogyan nyerheti ki a képek URL-jeit HTML-ből Java használatával, lépésről lépésre útmutató.
 ### [HTML elemzése Java-ban – Szöveg kinyerése HTML cikkekből](./how-to-parse-html-in-java-extract-text-from-html-articles/)
 Ismerje meg, hogyan nyerhet ki szöveget HTML cikkekből Java használatával, lépésről lépésre útmutató.
+### [XPath lekérdezése Java-ban az Aspose segítségével – Lépésről‑lépésre útmutató](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
+Ismerje meg, hogyan használhatja az Aspose könyvtárat xpath lekérdezéshez Java-ban, részletes, lépésről‑lépésre útmutatóval.
+
 ### [Új HTML-dokumentumok létrehozása az Aspose.HTML for Java használatával](./generate-new-html-documents/)
 Ebből az egyszerű, lépésenkénti útmutatóból megtudhatja, hogyan hozhat létre új HTML-dokumentumokat az Aspose.HTML for Java használatával. Kezdje el a dinamikus HTML-tartalom generálását.
 ### [Kezelje a dokumentumbetöltési eseményeket az Aspose.HTML for Java-ban](./handle-document-load-events/)

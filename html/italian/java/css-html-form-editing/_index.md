@@ -89,6 +89,8 @@ Scopri come leggere i CSS in Java ed estrarre gli stili calcolati con Aspose.HTM
 Scopri come individuare un elemento HTML per ID e ottenere i suoi stili calcolati usando Aspose.HTML per Java.
 ### [Selettore di query per div class – Come selezionare un div per classe e ottenere lo stile calcolato in Java](./query-selector-div-class-how-to-select-a-div-by-class-and-ge/)
 Impara a selezionare un elemento div per classe e a recuperare il suo stile calcolato usando Aspose.HTML per Java.
+### [Come ottenere la proprietà CSS in Java – Leggere il colore di sfondo dell'elemento](./how-to-get-css-property-in-java-read-element-background-colo/)
+Scopri come leggere il colore di sfondo di un elemento HTML e ottenere la proprietà CSS corrispondente usando Aspose.HTML per Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

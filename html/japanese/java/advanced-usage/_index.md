@@ -111,20 +111,26 @@ A: いいえ。単一の Aspose.HTML for Java ライセンスで、PDF や XPS �
 
 ### [Aspose.HTML で HTML ページ余白をカスタマイズ](./css-extensions-adding-title-page-number/)
 Aspose.HTML for Java を使用して、HTML ドキュメントのページ余白、ページ番号、タイトルをカスタマイズする方法を学びます。
+
 ### [Aspose.HTML for Java を使用した DOM Mutation Observer を使用する](./dom-mutation-observer-observing-node-additions/)
 このステップバイステップガイドで、Aspose.HTML for Java を使用して DOM Mutation Observer を実装する方法を学びます。DOM の変更を効果的に監視・対応できます。
 ### [Aspose HTML を Java で使用する方法 – 完全 XPath フィルタリングガイド](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
 Aspose.HTML for Java で XPath を活用し、HTML 要素を高度にフィルタリングする方法を学びます。
 ### [Aspose.HTML for Java を使用した HTML5 Canvas 操作（コード使用）](./html5-canvas-manipulation-using-code/)
 Aspose.HTML for Java を使用した HTML5 Canvas の操作方法を学びます。ステップバイステップのガイダンスでインタラクティブなグラフィックを作成します。
+
 ### [Aspose.HTML for Java を使用した HTML5 Canvas 操作（JavaScript 使用）](./html5-canvas-manipulation-using-javascript/)
 Aspose.HTML for Java を使用して JavaScript で HTML5 Canvas を操作する方法を学びます。動的なグラフィックを作成し、PDF に変換します。
+
 ### [Aspose.HTML for Java で HTML フォーム入力の自動化](./html-form-editor-filling-submitting-forms/)
 Aspose.HTML for Java を使用して HTML フォームの入力と送信を自動化する方法を学びます。このチュートリアルでウェブ操作を簡素化します。
+
 ### [Aspose.HTML for Java で PDF ページサイズを調整](./adjust-pdf-page-size/)
 Aspose.HTML for Java を使用して PDF のページサイズを調整する方法を学びます。HTML から高品質な PDF を簡単に作成し、ページ寸法を効果的に制御します。
+
 ### [Aspose.HTML for Java で XPS ページサイズを調整](./adjust-xps-page-size/)
 Aspose.HTML for Java を使用して XPS のページサイズを調整する方法を学びます。XPS ドキュメントの出力寸法を簡単に制御できます。
+
 ### [Java で JavaScript を実行する方法 – 完全ガイド](./how-to-run-javascript-in-java-complete-guide/)
 Aspose.HTML for Java を使用して、Java アプリケーション内で JavaScript を実行し、動的コンテンツやロジックを統合する方法を学びます。
 ### [Java でデバイス ピクセル比を設定 – モバイルサンドボックス チュートリアル](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
@@ -149,6 +155,9 @@ Aspose.HTML for Java を使用し、サンドボックス環境で画面幅を�
 JavaScript のトップレベル await を利用し、await delay 関数で非同期処理を遅延させる方法を解説します。
 ### [Java で JavaScript を実行 – HTML から JS を実行](./execute-javascript-in-java-run-js-from-html/)
 Aspose.HTML for Java を使用して、HTML 内の JavaScript を Java から実行し、動的コンテンツを処理する方法を学びます。
+
+### [Java で HTML をロードする方法 – 完全な Aspose.HTML 非同期サンプル](./how-to-load-html-in-java-complete-aspose-html-async-example/)
+Aspose.HTML for Java の非同期 API を使用して、HTML をロードし、処理する完全なサンプルを学びます。
 
 ---
 

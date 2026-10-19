@@ -121,6 +121,8 @@ Pelajari cara menggunakan XPath di Java untuk membaca HTML dan mengekstrak teks 
 ### [Cara Memuat HTML di Java – Panduan Langkah‑per‑Langkah](./how-to-load-html-in-java-step-by-step-guide/)
 Pelajari cara memuat HTML di Java dengan panduan langkah demi langkah ini.
 ### [Muat Dokumen HTML Aspose – Panduan Cepat Java untuk Mengambil Judul Halaman](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
+### [Cara Menanyakan XPath di Java dengan Aspose – Panduan Langkah‑per‑Langkah](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
+Pelajari cara menanyakan XPath di Java menggunakan Aspose dengan panduan langkah demi langkah yang mudah diikuti.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

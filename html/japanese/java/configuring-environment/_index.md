@@ -131,6 +131,9 @@ Aspose.HTML for Java のライブラリバージョンを取得し、表示す�
 ### [Aspose.HTML for Java でヘッドレス HTML レンダリングのためのユーザーエージェントを設定する – 完全ガイド](./set-user-agent-for-headless-html-rendering-complete-guide/)
 ヘッドレス HTML のレンダリング時に使用するユーザーエージェントを設定し、正確なページ取得と描画を実現する方法を解説します。
 
+### [Aspose.HTML for Java でサンドボックスの DPI を設定する](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
+Aspose.HTML のサンドボックス環境で DPI を設定し、PDF や PNG の解像度を最適化する方法をステップバイステップで解説します。
+
 ---
 
 **最終更新日:** 2025-12-03  

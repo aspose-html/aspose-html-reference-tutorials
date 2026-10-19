@@ -131,6 +131,8 @@ weight: 29
 Μάθετε πώς να εμφανίσετε την έκδοση της βιβλιοθήκης Aspose.HTML σε Java με αυτόν τον σύντομο οδηγό.
 ### [Εξαγωγή τίτλου από HTML σε Java – Πλήρης Οδηγός Sandbox](./extract-title-from-html-in-java-complete-sandbox-guide/)
 Μάθετε πώς να εξάγετε τον τίτλο από HTML σε Java, χρησιμοποιώντας sandbox για ασφαλή επεξεργασία.
+### [Ορισμός DPI στο Aspose.HTML Sandbox – Πλήρης Οδηγός Java](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
+Μάθετε πώς να ρυθμίσετε την ανάλυση DPI στο sandbox του Aspose.HTML για Java, βελτιώνοντας την ποιότητα εξόδου εικόνας.
 
 ---
 

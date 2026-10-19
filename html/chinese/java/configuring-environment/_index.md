@@ -128,6 +128,7 @@ A: 沙箱会限制某些 API（例如 `window.open`），但普通的 DOM 操作
 了解如何在 Aspose.HTML for Java 的无头渲染环境中自定义 User Agent，以确保正确加载网页资源并提升转换成功率。
 ### [在 Java 中从 HTML 提取标题 – 完整沙箱指南](./extract-title-from-html-in-java-complete-sandbox-guide/)
 了解如何在 Aspose.HTML for Java 的沙箱环境中安全提取 HTML 标题，避免脚本风险并确保正确解析。
+### [在 Aspose.HTML Sandbox 中设置 DPI – 完整 Java 指南](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
 
 ---
 

@@ -157,6 +157,9 @@ Pelajari contoh penggunaan top‑level await dengan fungsi delay await dalam Jav
 
 ### [Eksekusi JavaScript di Java – Jalankan JS dari HTML](./execute-javascript-in-java-run-js-from-html/)
 
+### [Cara Memuat HTML di Java – Contoh Lengkap Aspose.HTML Async](./how-to-load-html-in-java-complete-aspose-html-async-example/)
+Pelajari cara memuat HTML secara asinkron di Java menggunakan Aspose.HTML dengan contoh lengkap.
+
 ---
 
 **Terakhir Diperbarui:** 2025-11-29  

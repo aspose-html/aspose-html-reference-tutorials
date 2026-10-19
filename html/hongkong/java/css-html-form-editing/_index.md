@@ -89,6 +89,8 @@ url: /zh-hant/java/css-html-form-editing/
 本教學示範如何使用 Aspose.HTML for Java 透過查詢選擇器選取特定類別的 div，並取得其計算後的樣式屬性。
 ### [如何在 Java 中讀取 CSS – 使用 Aspose.HTML 完整指南](./how-to-read-css-in-java-complete-guide-using-aspose-html/)
 本指南詳細說明如何使用 Aspose.HTML 在 Java 中讀取和解析 CSS 樣式表，涵蓋完整步驟與範例。
+### [如何在 Java 中取得 CSS 屬性 – 讀取元素背景顏色](./how-to-get-css-property-in-java-read-element-background-colo/)
+本教學說明如何使用 Aspose.HTML for Java 讀取元素的背景顏色屬性。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

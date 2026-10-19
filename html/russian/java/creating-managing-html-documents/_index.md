@@ -119,6 +119,8 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 Узнайте, как загружать HTML в Java с Aspose.HTML, следуя пошаговому руководству и практическим примерам.
 ### [Выполнение JavaScript в Java – Запуск JS в HTML и добавление элементов](./execute-javascript-java-run-js-on-html-append-elements/)
 Узнайте, как выполнить JavaScript в Java, запустить скрипт в HTML и добавить новые элементы в документ с помощью Aspose.HTML.
+### [Как выполнять запросы XPath в Java с Aspose – пошаговое руководство](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
+Узнайте, как выполнять запросы XPath в Java с помощью Aspose.HTML, пошаговое руководство.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

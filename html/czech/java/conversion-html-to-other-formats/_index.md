@@ -97,6 +97,8 @@ Naučte se, jak v Javě pomocí Aspose.HTML vytvořit PDF z HTML s nastavením m
 Naučte se, jak povolit vykonávání JavaScriptu během konverze HTML na PDF v Javě pomocí Aspose.HTML.
 ### [Vytvořte PDF z HTML v Javě – Jednořádkový průvodce Aspose](./create-pdf-from-html-in-java-one-line-aspose-guide/)
 Jednoduchý návod, jak v jedné řádce kódu převést HTML na PDF pomocí Aspose.HTML for Java.
+### [Vytvořte PDF z HTML v Javě – Převod HTML na PDF v Javě](./create-pdf-from-html-in-java-convert-html-to-pdf-java/)
+Naučte se, jak pomocí Aspose.HTML vytvořit PDF z HTML v Javě s podrobným nastavením a ukázkovým kódem.
 ### [Převod HTML do MHTML](./convert-html-to-mhtml/)
 Jednoduše převádějte HTML do MHTML pomocí Aspose.HTML for Java. Postupujte podle našeho krok‑za‑krokem průvodce pro efektivní konverzi HTML‑to‑MHTML.
 

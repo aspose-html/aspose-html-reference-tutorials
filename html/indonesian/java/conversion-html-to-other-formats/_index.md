@@ -264,6 +264,9 @@ Pelajari cara menggunakan thread pool di Java untuk mengonversi banyak file HTML
 ### [Cara menyematkan gambar saat mengonversi MHTML ke PDF – Panduan Aspose](./how-to-embed-images-when-converting-mhtml-to-pdf-aspose-guid/)
 Pelajari cara menyertakan gambar secara otomatis saat mengonversi file MHTML ke PDF dengan Aspose.HTML for Java.
 
+### [Membuat PDF dari HTML di Java – Konversi HTML ke PDF Java](./create-pdf-from-html-in-java-convert-html-to-pdf-java/)
+Pelajari cara membuat PDF dari HTML di Java menggunakan Aspose.HTML dengan langkah‑demi‑langkah mudah.
+
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bisakah saya menggunakan Aspose.HTML untuk Java dalam aplikasi komersial?**  

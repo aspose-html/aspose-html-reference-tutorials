@@ -154,6 +154,7 @@ Tanulja meg, hogyan adhat hozzá host objektumot, és futtathat JavaScript‑et 
 Ismerje meg, hogyan használhatja a top‑level await‑ot és az await delay‑t JavaScriptben az Aspose.HTML segítségével.
 ### [JavaScript futtatása Java-ban – JS futtatása HTML‑ből](./execute-javascript-in-java-run-js-from-html/)
 Tanulja meg, hogyan futtathat JavaScript kódot Java‑ban HTML‑ből az Aspose.HTML for Java segítségével.
+### [HTML betöltése Java-ban – Teljes Aspose.HTML aszinkron példa](./how-to-load-html-in-java-complete-aspose-html-async-example/)
 
 ---
 

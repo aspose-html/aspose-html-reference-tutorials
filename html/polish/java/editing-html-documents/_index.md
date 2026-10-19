@@ -71,6 +71,8 @@ Dowiedz się, jak w Javie utworzyć nowy element HTML przy użyciu Aspose.HTML, 
 Poznaj, jak dodać element potomny do drzewa DOM w Javie przy użyciu Aspose.HTML, krok po kroku, z przykładami kodu.
 ### [Jak usunąć skrypty z HTML w Javie – kompletny przewodnik](./how-to-remove-scripts-from-html-in-java-complete-guide/)
 ### [Jak podświetlić HTML – wyszukiwanie tekstu i zamiana na <mark>](./how-to-highlight-html-search-text-replace-with-mark/)
+### [Automatyczne zwalnianie blokady w Javie – Samouczek edycji HTML w trybie wątkowo‑bezpiecznym](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
+Poznaj technikę automatycznego zwalniania blokady w Javie, zapewniającą bezpieczną edycję HTML w środowisku wielowątkowym.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

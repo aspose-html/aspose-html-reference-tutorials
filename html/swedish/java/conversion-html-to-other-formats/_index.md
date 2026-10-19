@@ -167,6 +167,8 @@ Lär dig hur du använder sandbox‑miljön för att säkert konvertera HTML til
 ### [java trådpool‑handledning – Konvertera flera HTML‑filer till PDF](./java-thread-pool-tutorial-convert-multiple-html-files-to-pdf/)
 Lär dig hur du använder en Java‑trådpool för att konvertera flera HTML‑filer till PDF parallellt med Aspose.HTML.
 ### [Bädda in bilder vid konvertering av MHTML till PDF – Aspose‑guide](./how-to-embed-images-when-converting-mhtml-to-pdf-aspose-guid/)
+### [Skapa PDF från HTML i Java – Konvertera HTML till PDF Java](./create-pdf-from-html-in-java-convert-html-to-pdf-java/)
+Lär dig skapa PDF-filer från HTML i Java med Aspose.HTML – steg‑för‑steg‑instruktioner.
 
 ### [Konvertera HTML till PDF i Java – Snabb Aspose.HTML‑guide](./convert-html-to-pdf-in-java-quick-aspose-html-guide/)
 Snabb guide för att konvertera HTML till PDF i Java med Aspose.HTML, med enkla steg‑för‑steg‑instruktioner.

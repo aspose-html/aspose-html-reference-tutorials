@@ -113,10 +113,11 @@ Learn how to configure the Runtime Service in Aspose.HTML for Java to optimize s
 
 ### [Implement Sandboxing in Aspose.HTML for Java](./implement-sandboxing/)
 Learn how to implement sandboxing in Aspose.HTML for Java to securely control script execution in your HTML documents and convert them to PDF.
-
 ### [Set User Agent for Headless HTML Rendering – Complete Guide](./set-user-agent-for-headless-html-rendering-complete-guide/)
 Learn how to set a custom user agent for headless HTML rendering in Aspose.HTML for Java, ensuring proper resource loading and compatibility.
 
+### [How to Set DPI in Aspose.HTML Sandbox – Complete Java Guide](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
+Learn how to set DPI in Aspose.HTML sandbox for Java, controlling image resolution for accurate PDF and PNG conversions.
 ### [Set User Style Sheet in Aspose.HTML for Java](./set-user-style-sheet/)
 Learn how to set a custom user stylesheet in Aspose.HTML for Java, enhancing your document styling and converting HTML to PDF with ease.
 ### [Create Aspose HTML Sandbox – Complete Java Guide](./create-aspose-html-sandbox-complete-java-guide/)

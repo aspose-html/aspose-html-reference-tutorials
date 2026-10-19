@@ -128,6 +128,7 @@ Pelajari cara membuat sandbox di Java dengan Aspose.HTML, mengamankan eksekusi s
 ### [Set User Agent untuk Rendering HTML Headless – Panduan Lengkap](./set-user-agent-for-headless-html-rendering-complete-guide/)
 Pelajari cara mengatur User Agent pada Aspose.HTML untuk Java saat merender HTML secara headless, memastikan konten dimuat dengan benar.
 ### [Ekstrak judul dari HTML di Java – Panduan Sandbox Lengkap](./extract-title-from-html-in-java-complete-sandbox-guide/)
+### [Cara Mengatur DPI di Aspose.HTML Sandbox – Panduan Java Lengkap](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
 
 ---
 

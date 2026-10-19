@@ -122,6 +122,8 @@ Leer hoe u JavaScript met setTimeout asynchroon vanuit Java kunt uitvoeren en de
 Leer hoe u Markdown naar HTML converteert in Java met een gedetailleerde stap‑voor‑stap handleiding.
 ### [HTML laden in Java – Vergelijk XPath en CSS-selector](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
 Leer hoe u HTML in Java kunt laden en vergelijken tussen XPath- en CSS-selectoren voor efficiënte gegevensextractie.
+### [Hoe xpath in Java met Aspose te query'en – Stapsgewijze handleiding](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
+Leer hoe u xpath‑query's uitvoert in Java met Aspose via een gedetailleerde stap‑voor‑stap handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

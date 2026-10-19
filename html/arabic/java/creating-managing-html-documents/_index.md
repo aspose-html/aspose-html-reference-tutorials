@@ -128,6 +128,8 @@ url: /ar/java/creating-managing-html-documents/
 تعلم كيفية تشغيل كود JavaScript باستخدام setTimeout داخل تطبيق Java وتحديث محتوى HTML بشكل غير متزامن.
 ### [إنشاء عنصر HTML باستخدام Java ExecutorService – عرض تجريبي آمن للخيوط](./create-html-element-with-java-executorservice-thread-safe-de/)
 تعلم كيفية إنشاء عنصر HTML بأمان في بيئة متعددة الخيوط باستخدام ExecutorService في Java مع Aspose.HTML.
+### [كيفية الاستعلام عن XPath في Java باستخدام Aspose – دليل خطوة بخطوة](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
+تعلم كيفية استخدام XPath لاستعلام مستندات HTML في Java باستخدام Aspose من خلال دليل شامل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -129,6 +129,7 @@ Java’da sandbox oluşturmayı adım adım öğrenin ve güvenli HTML dönüş�
 Aspose.HTML for Java’da kafasız HTML render'ı için kullanıcı aracısını nasıl ayarlayacağınızı öğrenin.
 ### [Java’da HTML’den Başlık Çıkarma – Tam Sandbox Rehberi](./extract-title-from-html-in-java-complete-sandbox-guide/)
 Java’da sandbox ortamında HTML belgesinden başlığı güvenli bir şekilde nasıl çıkaracağınızı adım adım öğrenin.
+### [Aspose.HTML Sandbox’te DPI Nasıl Ayarlanır – Tam Java Rehberi](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
 
 ---
 

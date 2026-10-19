@@ -130,6 +130,8 @@ Learn how to set a custom user stylesheet in Aspose.HTML for Java, enhancing you
 
 ### [Извлечение заголовка из HTML в Java – Полное руководство по песочнице](./extract-title-from-html-in-java-complete-sandbox-guide/)
 Узнайте, как извлечь заголовок из HTML в Java с помощью функций песочницы Aspose.HTML.
+### [Как установить DPI в Aspose.HTML Sandbox – Полное руководство на Java](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
+Узнайте, как установить DPI в Aspose.HTML Sandbox для Java, обеспечивая высококачественное рендеринг и точное масштабирование.
 
 ---
 

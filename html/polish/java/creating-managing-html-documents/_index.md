@@ -128,6 +128,8 @@ Dowiedz się, jak konwertować pliki Markdown na HTML w Javie przy użyciu Aspos
 Dowiedz się, jak w prosty sposób ładować dokumenty HTML w Javie przy użyciu Aspose.HTML, krok po kroku.
 ### [Utwórz element HTML przy użyciu Java ExecutorService – demo wątkowo‑bezpieczne](./create-html-element-with-java-executorservice-thread-safe-de/)
 Pokażemy, jak bezpiecznie tworzyć elementy HTML w wielu wątkach przy użyciu ExecutorService w Javie.
+### [Jak zapytać XPath w Javie – Kompletny samouczek](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
+Dowiedz się, jak zapytać XPath w Javie przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -177,6 +177,9 @@ Aprenda a obter o título de uma página HTML e renderizá‑la em um sandbox de
 ### [Executar JavaScript em Java – Executar JS a partir de HTML](./execute-javascript-in-java-run-js-from-html/)
 Aprenda a executar código JavaScript dentro de aplicações Java usando Aspose.HTML for Java.
 
+### [Como Carregar HTML em Java – Exemplo Completo Assíncrono do Aspose.HTML](./how-to-load-html-in-java-complete-aspose-html-async-example/)
+Aprenda a carregar documentos HTML de forma assíncrona em Java usando Aspose.HTML, com exemplo completo passo a passo.
+
 ---
 
 **Última atualização:** 2025-11-29  

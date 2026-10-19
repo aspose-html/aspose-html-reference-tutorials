@@ -119,6 +119,8 @@ Aspose.HTML for Java에서 샌드박스를 설정하고 안전하게 HTML을 PDF
 ### [Set User Agent for Headless HTML Rendering – Complete Guide](./set-user-agent-for-headless-html-rendering-complete-guide/)
 Aspose.HTML for Java에서 헤드리스 HTML 렌더링 시 사용자 에이전트를 설정하는 방법을 단계별로 안내합니다.
 ### [Aspose.HTML for Java에서 HTML 제목 추출 – 완전 샌드박스 가이드](./extract-title-from-html-in-java-complete-sandbox-guide/)
+### [Aspose.HTML 샌드박스에서 DPI 설정 방법 – 완전한 Java 가이드](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
+Aspose.HTML 샌드박스에서 DPI를 설정하여 PDF 출력 품질을 제어하는 방법을 단계별로 안내합니다.
 
 ---
 

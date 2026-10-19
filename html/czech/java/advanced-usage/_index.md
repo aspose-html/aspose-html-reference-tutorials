@@ -159,6 +159,8 @@ Naučte se získat název HTML a vykreslit stránku v sandboxu s nastavenou ší
 Naučte se, jak použít top‑level await a funkci delay v JavaScriptu pro asynchronní operace.
 ### [Spustit JavaScript v Javě – Spustit JS z HTML](./execute-javascript-in-java-run-js-from-html/)
 Naučte se, jak spustit JavaScript kód z HTML v Javě pomocí Aspose.HTML, včetně nastavení a praktických příkladů.
+### [Jak načíst HTML v Javě – Kompletní asynchronní příklad Aspose.HTML](./how-to-load-html-in-java-complete-aspose-html-async-example/)
+Naučte se asynchronně načíst HTML v Javě pomocí Aspose.HTML a získat plnou kontrolu nad procesem načítání.
 
 ---
 

@@ -162,6 +162,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML für Java den HTML‑Titel auslesen und ei
 Erfahren Sie, wie Sie das Top‑Level‑Await‑Muster mit einer Verzögerungsfunktion in JavaScript einsetzen.
 ### [JavaScript in Java ausführen – JS aus HTML ausführen](./execute-javascript-in-java-run-js-from-html/)
 Erfahren Sie, wie Sie JavaScript‑Code aus einer HTML‑Datei in einer Java‑Anwendung ausführen können.
+### [HTML in Java laden – Komplettes Aspose.HTML Async Beispiel](./how-to-load-html-in-java-complete-aspose-html-async-example/)
+Erfahren Sie, wie Sie HTML asynchron in Java mit Aspose.HTML laden und verarbeiten – Schritt‑für‑Schritt‑Anleitung.
 
 ---
 

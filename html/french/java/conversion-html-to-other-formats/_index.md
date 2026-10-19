@@ -300,6 +300,9 @@ Découvrez comment exploiter le bac à sable d'Aspose.HTML pour convertir du HTM
 ### [Tutoriel pool de threads Java – Convertir plusieurs fichiers HTML en PDF](./java-thread-pool-tutorial-convert-multiple-html-files-to-pdf/)
 Apprenez à utiliser un pool de threads en Java pour convertir simultanément plusieurs fichiers HTML en PDF avec Aspose.HTML.
 
+### [Créer un PDF à partir de HTML en Java – Convertir HTML en PDF Java](./create-pdf-from-html-in-java-convert-html-to-pdf-java/)
+Générez un PDF à partir de HTML en Java avec Aspose.HTML. Suivez les étapes pour une conversion précise et personnalisable.
+
 ## Foire aux questions
 
 **Q : Puis-je utiliser Aspose.HTML for Java dans une application commerciale ?**  

@@ -151,6 +151,8 @@ weight: 20
 ### [Παράδειγμα top‑level await – Χρήση await delay σε JavaScript](./top-level-await-example-using-await-delay-in-javascript/)
 Μάθετε πώς να χρησιμοποιήσετε το top‑level await με καθυστέρηση await σε κώδικα JavaScript.
 ### [Εκτέλεση JavaScript σε Java – Εκτέλεση JS από HTML](./execute-javascript-in-java-run-js-from-html/)
+### [Πώς να φορτώσετε HTML σε Java – Πλήρες παράδειγμα ασύγχρονης Aspose.HTML](./how-to-load-html-in-java-complete-aspose-html-async-example/)
+Μάθετε πώς να φορτώσετε HTML ασύγχρονα σε Java χρησιμοποιώντας το Aspose.HTML, με πλήρη παράδειγμα κώδικα.
 
 ---
 

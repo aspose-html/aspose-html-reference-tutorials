@@ -155,6 +155,7 @@ Aprende a habilitar la ejecución de JavaScript dentro de aplicaciones Java usan
 Aprende a integrar JavaScript en aplicaciones Java añadiendo objetos host y ejecutando scripts desde Java con Aspose.HTML.
 ### [Ejemplo de top‑level await – Uso de await delay en JavaScript](./top-level-await-example-using-await-delay-in-javascript/)
 Aprende a usar top‑level await y a aplicar retrasos con await en JavaScript.
+### [Cómo cargar HTML en Java – Ejemplo completo de Aspose.HTML Async](./how-to-load-html-in-java-complete-aspose-html-async-example/)
 
 ---
 

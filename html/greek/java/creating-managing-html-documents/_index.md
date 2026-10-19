@@ -130,6 +130,8 @@ url: /el/java/creating-managing-html-documents/
 Μάθετε πώς να εκτελείτε JavaScript σε έγγραφα HTML με Aspose.HTML για Java και να προσθέτετε δυναμικά στοιχεία στη σελίδα.
 ### [Δημιουργία στοιχείου HTML με Java ExecutorService – Demo ασφαλούς νήματος](./create-html-element-with-java-executorservice-thread-safe-de/)
 Μάθετε πώς να δημιουργήσετε στοιχείο HTML χρησιμοποιώντας ExecutorService σε Java, εξασφαλίζοντας ασφαλή εκτέλεση σε πολλαπλά νήματα.
+### [Πώς να ερωτήσετε xpath σε Java – Οδηγός βήμα‑βήμα](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
+Μάθετε πώς να εκτελείτε ερωτήματα xpath σε έγγραφα HTML με Java χρησιμοποιώντας το Aspose.HTML, βήμα‑βήμα οδηγίες και παραδείγματα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

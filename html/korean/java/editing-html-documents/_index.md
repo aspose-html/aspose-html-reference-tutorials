@@ -69,6 +69,8 @@ Aspose.HTML for Java를 사용해 DOM에 자식 노드를 추가하는 방법을
 ### [Java에서 HTML에서 스크립트를 제거하는 방법 – 완전 가이드](./how-to-remove-scripts-from-html-in-java-complete-guide/)
 Aspose.HTML for Java를 사용해 HTML 문서에서 스크립트를 안전하게 제거하고, 깨끗한 콘텐츠를 유지하는 단계별 가이드입니다.
 ### [HTML 강조하기 – 텍스트 검색 및 <mark>로 교체](./how-to-highlight-html-search-text-replace-with-mark/)
+### [Java용 Aspose.HTML에서 자동 잠금 해제 – 스레드 안전 HTML 편집 튜토리얼](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
+동시성 문제를 방지하기 위해 자동 잠금 해제 메커니즘을 구현하고 안전하게 HTML을 편집하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

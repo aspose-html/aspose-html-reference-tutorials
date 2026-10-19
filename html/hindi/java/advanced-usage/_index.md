@@ -159,6 +159,8 @@ Java में Aspose.HTML का उपयोग करके HTML पेज �
 JavaScript में टॉप‑लेवल await का उपयोग करके await delay को कैसे लागू करें, इस ट्यूटोरियल में सीखें।  
 ### [Java में JavaScript निष्पादित करें – HTML से JS चलाएँ](./execute-javascript-in-java-run-js-from-html/)
 Java एप्लिकेशन में HTML से JavaScript को चलाने के चरण‑दर‑चरण निर्देश।  
+### [Java में HTML लोड करना – Aspose.HTML असिंक्रोनस उदाहरण (पूर्ण गाइड)](./how-to-load-html-in-java-complete-aspose-html-async-example/)
+Java में Aspose.HTML का उपयोग करके असिंक्रोनस रूप से HTML लोड करने और प्रोसेस करने का पूरा उदाहरण देखें।  
 
 ---
 

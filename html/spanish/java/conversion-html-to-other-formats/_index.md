@@ -232,6 +232,8 @@ Aprende a usar un pool de hilos fijos en Java para convertir múltiples archivos
 Aprende a convertir HTML a PDF, PNG, DOCX y Markdown usando Aspose.HTML para Java en una guía paso a paso.
 ### [Tutorial de pool de hilos en Java – Convertir varios archivos HTML a PDF](./java-thread-pool-tutorial-convert-multiple-html-files-to-pdf/)
 Aprende a usar ThreadPool en Java para convertir múltiples archivos HTML a PDF de forma eficiente con Aspose.HTML.
+### [Crear PDF a partir de HTML en Java – Convertir HTML a PDF Java](./create-pdf-from-html-in-java-convert-html-to-pdf-java/)
+Aprende a generar PDFs a partir de HTML en Java usando Aspose.HTML con ejemplos paso a paso.
 
 ## Preguntas Frecuentes
 

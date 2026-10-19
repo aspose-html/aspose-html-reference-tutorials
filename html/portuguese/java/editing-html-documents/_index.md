@@ -72,6 +72,8 @@ Aprenda a criar novos elementos HTML usando Aspose.HTML para Java neste guia com
 Aprenda a remover scripts de documentos HTML em Java com Aspose.HTML. Guia passo a passo para limpar seu conteúdo de forma segura.
 ### [Como destacar HTML – Buscar texto e substituir por <mark>](./how-to-highlight-html-search-text-replace-with-mark/)
 Aprenda a realçar trechos de HTML substituindo texto por tags <mark> usando Aspose.HTML para Java.
+### [Liberação automática de bloqueio em Java – Tutorial de edição HTML thread‑safe](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
+Aprenda como liberar bloqueios automaticamente ao editar HTML de forma segura em ambientes multithread com Aspose.HTML para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

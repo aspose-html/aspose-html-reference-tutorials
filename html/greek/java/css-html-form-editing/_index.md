@@ -92,6 +92,8 @@ url: /el/java/css-html-form-editing/
 Μάθετε πώς να επιλέγετε ένα στοιχείο div με συγκεκριμένη κλάση και να ανακτάτε το υπολογισμένο στυλ του χρησιμοποιώντας Aspose.HTML για Java.
 ### [Πώς να διαβάσετε CSS σε Java – Πλήρης Οδηγός με Aspose.HTML](./how-to-read-css-in-java-complete-guide-using-aspose-html/)
 Μάθετε πώς να αναλύετε και να διαβάζετε αρχεία CSS σε Java χρησιμοποιώντας το Aspose.HTML σε αυτόν τον ολοκληρωμένο οδηγό.
+### [Πώς να Λάβετε Ιδιότητα CSS σε Java – Διαβάστε το Χρώμα Φόντου του Στοιχείου](./how-to-get-css-property-in-java-read-element-background-colo/)
+Μάθετε πώς να διαβάζετε την ιδιότητα CSS του χρώματος φόντου ενός στοιχείου χρησιμοποιώντας Aspose.HTML για Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

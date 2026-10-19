@@ -121,6 +121,8 @@ Khám phá cách tải HTML trong Java và so sánh việc sử dụng XPath và
 Học cách thực thi JavaScript trong Java, chạy mã JS trên tài liệu HTML và thêm các phần tử mới một cách dễ dàng.
 ### [Tạo phần tử HTML với Java ExecutorService – Demo an toàn luồng](./create-html-element-with-java-executorservice-thread-safe-de/)
 Tạo phần tử HTML một cách an toàn đa luồng bằng ExecutorService trong Java.
+### [Cách truy vấn xpath trong Java với Aspose – Hướng dẫn từng bước](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
+Khám phá cách truy vấn xpath trong tài liệu HTML bằng Java và Aspose.HTML qua hướng dẫn chi tiết, từng bước một.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

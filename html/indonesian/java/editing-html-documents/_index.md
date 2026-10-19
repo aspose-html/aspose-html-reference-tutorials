@@ -64,6 +64,8 @@ Pelajari cara mengubah teks h1 dalam file MHTML menggunakan Aspose.HTML untuk Ja
 Pelajari cara menghapus skrip berbahaya dari dokumen HTML menggunakan Aspose.HTML untuk Java dengan panduan langkah demi langkah.
 ### [Cara Menyorot HTML – Cari Teks & Ganti dengan <mark>](./how-to-highlight-html-search-text-replace-with-mark/)
 Pelajari cara menyorot teks dalam dokumen HTML dengan mencari dan mengganti menggunakan tag <mark> menggunakan Aspose.HTML untuk Java.
+### [Pelepasan Kunci Otomatis di Java – Tutorial Penyuntingan HTML Thread‑Safe](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
+Pelajari cara melepaskan kunci secara otomatis saat mengedit HTML secara thread‑safe menggunakan Aspose.HTML untuk Java.
 ### [Fixed thread pool Java – Pembersihan HTML Paralel dengan ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 ### [Menambahkan Child ke Body di Java – Tutorial Lengkap Aspose.HTML](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 ### [Buat elemen HTML baru dengan Java – Panduan Lengkap Aspose.HTML](./create-new-html-element-with-java-full-aspose-html-guide/)

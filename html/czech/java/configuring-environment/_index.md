@@ -119,6 +119,8 @@ Naučte se, jak implementovat sandboxing v Aspose.HTML pro Java pro bezpečné �
 ### [Vytvořte Aspose HTML Sandbox – Kompletní průvodce pro Javu](./create-aspose-html-sandbox-complete-java-guide/)
 ### [Jak vytvořit sandbox v Javě – kompletní průvodce](./how-to-create-sandbox-in-java-full-guide/)
 Naučte se krok za krokem, jak vytvořit bezpečný sandbox v Javě pro izolaci kódu během konverze HTML.
+### [Jak nastavit DPI v Aspose.HTML Sandbox – Kompletní průvodce pro Javu](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
+Naučte se, jak nastavit DPI v sandboxu Aspose.HTML pro Java a optimalizovat kvalitu výstupních souborů.
 
 ### [Nastavte uživatelský stylový list v Aspose.HTML pro Java](./set-user-style-sheet/)
 Naučte se, jak nastavit vlastní uživat

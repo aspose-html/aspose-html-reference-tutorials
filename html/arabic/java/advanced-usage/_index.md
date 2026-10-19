@@ -170,6 +170,9 @@ weight: 20
 ### [تنفيذ JavaScript في Java – تشغيل JS من HTML](./execute-javascript-in-java-run-js-from-html/)
 تعلم كيفية تشغيل كود JavaScript المضمن في HTML من داخل تطبيق Java باستخدام Aspose.HTML.
 
+### [كيفية تحميل HTML في Java – مثال كامل غير متزامن Aspose.HTML](./how-to-load-html-in-java-complete-aspose-html-async-example/)
+تعلم كيفية تحميل مستندات HTML بشكل غير متزامن في Java باستخدام Aspose.HTML مع مثال كامل خطوة بخطوة.
+
 ---
 
 **آخر تحديث:** 2025-11-29  

@@ -92,6 +92,8 @@ Leer hoe u met Aspose.HTML meerdere HTML‑bestanden in één keer naar PDF kunt
 Leer hoe u met één regel code een PDF genereert uit HTML in Java met Aspose.HTML.
 ### [Hoe Sandbox te gebruiken voor HTML‑naar‑PDF conversie in Java](./how-to-use-sandbox-for-html-to-pdf-conversion-in-java/)
 Leer hoe u de Sandbox‑omgeving van Aspose.HTML gebruikt om veilig HTML naar PDF te converteren in Java.
+### [PDF maken van HTML in Java – HTML naar PDF converteren](./create-pdf-from-html-in-java-convert-html-to-pdf-java/)
+Leer hoe u HTML naar PDF kunt omzetten in Java met Aspose.HTML, inclusief configuratie‑opties en best practices.
 ### [HTML naar PDF converteren in Java – Stapsgewijze gids met paginagrootte‑instellingen](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Leer stap voor stap hoe u HTML naar PDF converteert in Java en paginagrootte‑instellingen configureert voor optimale resultaten.
 ### [Hoe een webpagina naar PDF converteren in Java – Stapsgewijze gids](./how-to-convert-webpage-to-pdf-in-java-step-by-step-guide/)

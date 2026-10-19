@@ -125,6 +125,8 @@ Aspose.HTML for Java का उपयोग करके HTML लेखों �
 Java में मार्कडाउन को HTML में परिवर्तित करने की पूरी प्रक्रिया सीखें, चरण‑दर‑चरण मार्गदर्शिका के साथ।
 ### [Java में HTML लोड करने का तरीका – चरण‑दर‑चरण गाइड](./how-to-load-html-in-java-step-by-step-guide/)
 Java में HTML लोड करने के लिए चरण‑दर‑चरण मार्गदर्शिका, उपयोगी टिप्स और सर्वोत्तम प्रथाएँ।
+### [Java के लिए Aspose.HTML में XPath क्वेरी कैसे करें – चरण‑दर‑चरण गाइड](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
+Aspose.HTML for Java के साथ XPath क्वेरी करने की प्रक्रिया सीखें। चरण‑दर‑चरण मार्गदर्शिका, टिप्स और सर्वोत्तम प्रथाएँ।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -94,6 +94,8 @@ Javaで要素のIDを取得し、計算されたスタイル情報を取得す�
 Javaでクラス属性を持つdiv要素を選択し、計算されたスタイルを取得する手順をステップバイステップで解説します。
 ### [JavaでCSSを読む方法 – Aspose.HTML を使用した完全ガイド](./how-to-read-css-in-java-complete-guide-using-aspose-html/)
 Aspose.HTML を活用して、Java で CSS を解析・取得する手順をステップバイステップで解説します。
+### [JavaでCSSプロパティを取得する方法 – 要素の背景色を取得](./how-to-get-css-property-in-java-read-element-background-colo/)
+Javaコードで要素の背景色などCSSプロパティを取得し、動的に活用する手順を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

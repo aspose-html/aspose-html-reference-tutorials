@@ -228,6 +228,8 @@ weight: 25
 ### [java thread pool tutorial – Μετατροπή πολλαπλών αρχείων HTML σε PDF](./java-thread-pool-tutorial-convert-multiple-html-files-to-pdf/)
 Μάθετε πώς να χρησιμοποιήσετε thread pool σε Java για ταυτόχρονη μετατροπή πολλαπλών αρχείων HTML σε PDF με Aspose.HTML.
 ### [Πώς να ενσωματώσετε εικόνες κατά τη μετατροπή MHTML σε PDF – Οδηγός Aspose](./how-to-embed-images-when-converting-mhtml-to-pdf-aspose-guid/)
+### [Δημιουργία PDF από HTML σε Java – Μετατροπή HTML σε PDF Java](./create-pdf-from-html-in-java-convert-html-to-pdf-java/)
+Μάθετε πώς να δημιουργήσετε PDF από HTML σε Java χρησιμοποιώντας Aspose.HTML, με βήμα‑βήμα οδηγίες και παραμετροποίηση.
 
 ## Συχνές Ερωτήσεις
 

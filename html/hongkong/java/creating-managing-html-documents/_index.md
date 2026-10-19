@@ -127,6 +127,8 @@ Aspose.HTML for Java 為旨在在 Java 應用程式中無縫處理 HTML 文件�
 了解如何在 Java 中載入 HTML，並比較 XPath 與 CSS 選擇器的使用方式與效能。
 ### [使用 Java ExecutorService 建立 HTML 元素 – 執行緒安全示範](./create-html-element-with-java-executorservice-thread-safe-de/)
 示範如何在 Java 中使用 ExecutorService 安全地建立 HTML 元素，確保執行緒安全的步驟指南。
+### [在 Java 中使用 Aspose 查詢 xpath – 逐步指南](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
+透過本逐步指南，學習如何在 Java 中使用 Aspose.HTML 查詢 XPath，快速提取所需資料。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

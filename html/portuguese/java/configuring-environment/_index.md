@@ -128,6 +128,8 @@ Saiba como obter a versão da biblioteca Aspose.HTML em Java e exibi‑la rapida
 Aprenda a configurar o User Agent no Aspose.HTML para Java ao renderizar HTML em modo headless, garantindo compatibilidade e controle total.
 ### [Extrair título de HTML em Java – Guia completo de sandbox](./extract-title-from-html-in-java-complete-sandbox-guide/)
 Aprenda a extrair o título de um documento HTML em Java usando o Aspose.HTML dentro de um sandbox seguro.
+### [Como Definir DPI no Sandbox do Aspose.HTML – Guia Completo em Java](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
+Aprenda a configurar o DPI no sandbox do Aspose.HTML usando Java para obter PDFs de alta qualidade.
 
 ---
 

@@ -68,6 +68,7 @@ url: /ar/java/editing-html-documents/
 تعلم كيفية البحث عن نص داخل مستند HTML واستبداله بعلامة `<mark>` لتسليط الضوء عليه باستخدام Aspose.HTML for Java.
 ### [كيفية إزالة السكريبتات من HTML في Java – دليل شامل](./how-to-remove-scripts-from-html-in-java-complete-guide/)
 تعلم كيفية حذف جميع عناصر `<script>` من مستندات HTML باستخدام Aspose.HTML for Java خطوة بخطوة.
+### [إصدار القفل التلقائي في Java – دليل تحرير HTML الآمن عبر الخيوط](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

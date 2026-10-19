@@ -94,6 +94,8 @@ Aprenda a inserir imagens em documentos HTML antes de convertê‑los para PDF u
 ### [Criar PDF a partir de HTML em Java – Guia Aspose de Uma Linha](./create-pdf-from-html-in-java-one-line-aspose-guide/)
 Aprenda a gerar um PDF a partir de HTML em Java com apenas uma linha de código usando Aspose.HTML.
 
+### [Criar PDF a partir de HTML em Java – Converter HTML para PDF Java](./create-pdf-from-html-in-java-convert-html-to-pdf-java/)
+Aprenda a gerar PDFs a partir de HTML em Java com Aspose.HTML, passo a passo e com opções avançadas.
 ### [Converter HTML para PDF em Java – Guia passo a passo com configurações de tamanho de página](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 ### [Convertendo HTML para PDF em Java – Guia Completo Passo a Passo](./convert-html-to-pdf-in-java-complete-step-by-step-guide/)
 ### [Como usar Aspose – Conversão em lote de HTML para PDF em Java](./how-to-use-aspose-batch-convert-html-to-pdf-in-java/)

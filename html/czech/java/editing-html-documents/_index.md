@@ -72,6 +72,8 @@ Naučte se, jak vytvořit nový HTML element pomocí Aspose.HTML v Javě s podro
 Naučte se, jak pomocí Aspose.HTML v Javě přidat nový uzel do DOM stromu. Kompletní krok za krokem průvodce.
 ### [Jak odstranit skripty z HTML v Javě – Kompletní průvodce](./how-to-remove-scripts-from-html-in-java-complete-guide/)
 Naučte se, jak bezpečně odstranit skripty z HTML dokumentů v Javě pomocí Aspose.HTML. Kompletní krok za krokem průvodce.
+### [Automatické uvolnění zámku v Javě – Tutoriál pro bezpečnou úpravu HTML](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
+Naučte se, jak automaticky uvolňovat zámky při úpravě HTML v Javě, aby byly operace vlákny‑bezpečné.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

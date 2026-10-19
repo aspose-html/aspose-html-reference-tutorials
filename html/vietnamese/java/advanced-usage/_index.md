@@ -156,6 +156,8 @@ Học cách lấy tiêu đề HTML trong Java và render trang trong sandbox v�
 Hướng dẫn cách sử dụng top-level await với hàm delay trong JavaScript bằng Aspose.HTML.
 ### [Thực thi JavaScript trong Java – Chạy JS từ HTML](./execute-javascript-in-java-run-js-from-html/)
 Hướng dẫn cách thực thi mã JavaScript từ HTML trong môi trường Java bằng Aspose.HTML.
+### [Cách tải HTML trong Java – Ví dụ đầy đủ Aspose.HTML bất đồng bộ](./how-to-load-html-in-java-complete-aspose-html-async-example/)
+Hướng dẫn chi tiết cách tải tài liệu HTML bất đồng bộ trong Java bằng Aspose.HTML, bao gồm cấu hình và ví dụ thực tế.
 
 ---
 

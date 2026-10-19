@@ -72,6 +72,8 @@ Tìm hiểu cách thêm phần tử con vào DOM trong Java bằng Aspose.HTML v
 Hướng dẫn tìm và thay thế văn bản trong HTML bằng thẻ <mark> để làm nổi bật nội dung.
 ### [Cách loại bỏ script khỏi HTML trong Java – Hướng dẫn toàn diện](./how-to-remove-scripts-from-html-in-java-complete-guide/)
 Hướng dẫn chi tiết cách xóa các thẻ script khỏi tài liệu HTML bằng Java, bảo vệ bảo mật và tối ưu hiệu suất.
+### [Giải phóng khóa tự động trong Java – Hướng dẫn chỉnh sửa HTML an toàn đa luồng](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
+Học cách tự động giải phóng khóa trong Java để chỉnh sửa HTML một cách an toàn khi đa luồng.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

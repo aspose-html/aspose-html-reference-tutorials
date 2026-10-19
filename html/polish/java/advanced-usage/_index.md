@@ -157,6 +157,8 @@ Dowiedz się, jak pobrać tytuł strony HTML i renderować ją w środowisku san
 Poznaj, jak zastosować top‑level await i funkcję delay w kodzie JavaScript przy użyciu Aspose.HTML.
 ### [Wykonaj JavaScript w Javie – Uruchom JS z HTML](./execute-javascript-in-java-run-js-from-html/)
 Dowiedz się, jak uruchomić kod JavaScript z HTML w aplikacji Java przy użyciu Aspose.HTML.
+### [Jak załadować HTML w Javie – Kompletny asynchroniczny przykład Aspose.HTML](./how-to-load-html-in-java-complete-aspose-html-async-example/)
+Poznaj pełny asynchroniczny przykład ładowania dokumentu HTML w Javie przy użyciu Aspose.HTML, krok po kroku.
 
 ---
 

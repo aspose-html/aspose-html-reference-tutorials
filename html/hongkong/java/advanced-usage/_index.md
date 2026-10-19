@@ -171,6 +171,9 @@ A: 不需要。單一的 Aspose.HTML for Java 授權即涵蓋所有輸出格式�
 ### [在 Java 中執行 JavaScript – 從 HTML 執行 JS](./execute-javascript-in-java-run-js-from-html/)
 說明如何在 Java 應用程式中載入 HTML 並執行其中的 JavaScript 程式碼，支援 Rhino、Nashorn 與 GraalVM。
 
+### [如何在 Java 中載入 HTML – 完整的 Aspose.HTML 非同步範例](./how-to-load-html-in-java-complete-aspose-html-async-example/)
+示範如何使用 Aspose.HTML for Java 的非同步 API 載入 HTML，並將其轉換為 PDF 或 XPS。
+
 ---
 
 **最後更新日期：** 2025-11-29  

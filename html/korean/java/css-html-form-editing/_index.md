@@ -91,6 +91,8 @@ Java를 사용해 CSS를 읽고, 계산된 스타일을 단계별로 추출하�
 Java에서 CSS 클래스 이름으로 div 요소를 선택하고 계산된 스타일을 가져오는 방법을 단계별로 안내합니다.
 ### [Java에서 CSS 읽는 방법 – Aspose.HTML을 사용한 완전 가이드](./how-to-read-css-in-java-complete-guide-using-aspose-html/)
 Aspose.HTML을 활용해 Java에서 CSS를 읽고 분석하는 방법을 단계별로 안내합니다.
+### [Java에서 CSS 속성 가져오기 – 요소 배경색 읽기](./how-to-get-css-property-in-java-read-element-background-colo/)
+Java에서 Aspose.HTML을 사용해 요소의 배경색과 같은 CSS 속성을 읽는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
