@@ -89,6 +89,8 @@ Pelajari cara menemukan elemen dalam dokumen HTML dan menerapkan format tebal me
 Pelajari cara membuat dokumen HTML dari awal dan menambahkan elemen CSS secara dinamis dengan contoh kode lengkap.
 ### [Buat Dokumen HTML C# – Panduan Langkah demi Langkah](./create-html-document-c-step-by-step-guide/)
 Pelajari cara membuat dokumen HTML menggunakan C# dengan panduan langkah demi langkah lengkap.
+### [Cara Membuat HTML – Menambahkan Elemen dan Mengatur Gaya Teks](./how-to-create-html-append-elements-and-style-text/)
+Pelajari cara membuat dokumen HTML, menambahkan elemen, dan menerapkan gaya teks menggunakan Aspose.HTML untuk .NET.
 
 ## Kesimpulan
 

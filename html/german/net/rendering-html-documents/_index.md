@@ -113,6 +113,11 @@ Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in PDF rendern – komplett
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in verschiedene Bildformate konvertieren – vollständige C#‑Beispiele und Schritt‑für‑Schritt‑Anleitung.
 ### [Wie Sie Antialiasing beim Rendern von HTML nach PNG in C# aktivieren](./how-to-enable-antialiasing-when-rendering-html-to-png-in-c/)
 Erfahren Sie, wie Sie Antialiasing beim Rendern von HTML zu PNG mit Aspose.HTML in C# aktivieren, um schärfere Bilder zu erhalten.
+### [PDF-Dokument erstellen in C# – HTML mit Aspose zu PDF rendern](./create-pdf-document-c-render-html-to-pdf-with-aspose/)
+Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in PDF konvertieren und ein PDF‑Dokument in C# erstellen.
+
+### [HTML zu PDF rendern und zippen – Vollständiger C#‑Leitfaden](./render-html-to-pdf-and-zip-it-complete-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in PDF konvertieren und das Ergebnis zippen – ein umfassender C#‑Leitfaden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

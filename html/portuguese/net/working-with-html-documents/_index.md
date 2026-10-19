@@ -46,6 +46,7 @@ Antes de mergulharmos nas especificidades da criação e edição de documentos 
 ### [Carregar documento HTML com Aspose.HTML – Guia completo em C#](./load-html-document-with-aspose-html-complete-c-guide/)
 
 ### [Como compactar HTML em C# – Guia completo passo a passo](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+### [Criar HTML a partir de string em C# – Guia completo com Memory Stream](./create-html-from-string-in-c-full-guide-with-memory-stream/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

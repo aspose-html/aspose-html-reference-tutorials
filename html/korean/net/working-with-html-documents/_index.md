@@ -65,6 +65,10 @@ Aspose.Html을 사용해 C#에서 HTML을 저장하는 방법을 단계별로 �
 
 ### [C#에서 HTML 압축하기 – 완전 단계별 가이드](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 
+### [C#에서 문자열로 HTML 만들기 – 메모리 스트림을 활용한 완전 가이드](./create-html-from-string-in-c-full-guide-with-memory-stream/)
+
+문자열을 메모리 스트림으로 변환하여 HTML을 생성하고 저장하는 방법을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

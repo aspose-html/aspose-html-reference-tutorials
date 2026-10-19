@@ -61,6 +61,9 @@ Hướng dẫn chi tiết cách nén tài liệu HTML thành tệp ZIP bằng C#
 Hướng dẫn chi tiết cách tạo tài liệu HTML từ một chuỗi văn bản trong C# bằng Aspose.HTML.
 ### [Tải tài liệu HTML với Aspose.HTML – Hướng dẫn C# đầy đủ](./load-html-document-with-aspose-html-complete-c-guide/)
 
+### [Tạo HTML từ chuỗi trong C# – Hướng dẫn đầy đủ với Memory Stream](./create-html-from-string-in-c-full-guide-with-memory-stream/)
+
+Hướng dẫn chi tiết cách tạo HTML từ chuỗi trong C# bằng Memory Stream, kèm ví dụ mã và các bước thực hiện.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

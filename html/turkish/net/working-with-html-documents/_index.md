@@ -54,6 +54,7 @@ C# kullanarak HTML dosyalarını özel kaynak işleyicileri ve ZIP arşivleriyle
 
 ### [C#'ta Dizeden HTML Oluşturma – Adım Adım Kılavuz](./create-html-from-string-in-c-step-by-step-guide/)
 ### [Aspose.HTML ile C#'ta HTML Belgesi Yükleme – Tam Kılavuz](./load-html-document-with-aspose-html-complete-c-guide/)
+### [C#'ta Dizeden HTML Oluşturma – Bellek Akışı Kullanarak Tam Kılavuz](./create-html-from-string-in-c-full-guide-with-memory-stream/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -61,6 +61,8 @@ HTML-документы являются основой Интернета, и �
 
 ### [Как заархивировать HTML в C# – Полное пошаговое руководство](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 
+### [Создать HTML из строки в C# – Полное руководство с Memory Stream](./create-html-from-string-in-c-full-guide-with-memory-stream/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

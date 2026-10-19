@@ -85,6 +85,8 @@ Erfahren Sie, wie Sie Text in HTML fett und kursiv formatieren, indem Sie Aspose
 Erfahren Sie, wie Sie mit Aspose.HTML in C# ein Element zum Body einer HTML-Datei hinzufügen.
 ### [HTML-Dokument in C# erstellen – Schritt‑für‑Schritt‑Anleitung](./create-html-document-c-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET ein HTML-Dokument in C# Schritt für Schritt erstellen.
+### [HTML erstellen – Elemente anhängen und Text formatieren](./how-to-create-html-append-elements-and-style-text/)
+Erfahren Sie, wie Sie HTML dynamisch erzeugen, Elemente hinzufügen und Text mit CSS formatieren.
 
 ## Abschluss
 

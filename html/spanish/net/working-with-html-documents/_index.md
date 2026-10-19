@@ -72,6 +72,8 @@ Aprenda a generar documentos HTML directamente desde una cadena en C# con este t
 
 Aprenda a comprimir archivos HTML en C# usando Aspose.HTML con esta guía paso a paso.
 
+### [Crear HTML a partir de una cadena en C# – Guía completa con Memory Stream](./create-html-from-string-in-c-full-guide-with-memory-stream/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -56,6 +56,7 @@ Sekarang, mari tingkatkan keterampilan Anda ke tingkat berikutnya. Mengedit doku
 
 ### [Membuat HTML dari String di C# – Panduan Langkah demi Langkah](./create-html-from-string-in-c-step-by-step-guide/)
 ### [Muat Dokumen HTML dengan Aspose.HTML – Panduan Lengkap C#](./load-html-document-with-aspose-html-complete-c-guide/)
+### [Membuat HTML dari string di C# – Panduan Lengkap dengan Memory Stream](./create-html-from-string-in-c-full-guide-with-memory-stream/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

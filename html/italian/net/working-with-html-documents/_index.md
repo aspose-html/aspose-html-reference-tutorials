@@ -50,6 +50,7 @@ Ora, portiamo le tue competenze al livello successivo. La modifica di documenti 
 ### [Come comprimere HTML in C# – Guida completa per creare archivio ZIP](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
 ### [Creare HTML da stringa in C# – Guida passo‑passo](./create-html-from-string-in-c-step-by-step-guide/)
 ### [Carica documento HTML con Aspose.HTML – Guida completa C#](./load-html-document-with-aspose-html-complete-c-guide/)
+### [Creare HTML da stringa in C# – Guida completa con Memory Stream](./create-html-from-string-in-c-full-guide-with-memory-stream/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

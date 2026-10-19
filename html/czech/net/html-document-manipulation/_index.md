@@ -87,6 +87,8 @@ Naučte se, jak pomocí Aspose.HTML v C# přidat element do těla HTML dokumentu
 Naučte se vytvořit HTML dokument a přidat do něj CSS stylový prvek pomocí podrobného krok‑za‑krokem průvodce.
 ### [Vytvoření HTML dokumentu v C# – Průvodce krok za krokem](./create-html-document-c-step-by-step-guide/)
 Naučte se, jak vytvořit HTML dokument v C# pomocí Aspose.HTML krok po kroku.
+### [Jak vytvořit HTML – Přidat prvky a stylovat text](./how-to-create-html-append-elements-and-style-text/)
+Naučte se, jak pomocí Aspose.HTML vytvořit HTML dokument, přidávat prvky a aplikovat styly na text.
 
 ## Závěr
 

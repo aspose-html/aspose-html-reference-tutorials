@@ -84,9 +84,15 @@ Hướng dẫn chi tiết cách tạo tài liệu HTML và chèn phần tử CSS
 ### [Tạo tài liệu HTML C# – Hướng dẫn từng bước](./create-html-document-c-step-by-step-guide/)
 Học cách tạo tài liệu HTML trong C# bằng Aspose.HTML qua các bước chi tiết và ví dụ thực tế.
 
+### [Tải tài liệu HTML có thông tin xác thực trong .NET với Aspose.HTML](./load-html-with-credentials/)
+Tìm hiểu cách tăng cường SEO của bạn với Aspose.HTML cho .NET. Tăng thứ hạng, phân tích nội dung web và tối ưu hóa cho công cụ tìm kiếm.
+### [Cách tạo HTML – Thêm phần tử và Định dạng văn bản](./how-to-create-html-append-elements-and-style-text/)
+Hướng dẫn cách tạo tài liệu HTML, thêm phần tử và áp dụng kiểu cho văn bản bằng Aspose.HTML cho .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+

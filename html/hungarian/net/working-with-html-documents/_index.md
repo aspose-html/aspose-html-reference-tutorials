@@ -67,6 +67,10 @@ Megmutatjuk, hogyan menthet HTML-t C#-ban egyedi erőforráskezelőkkel és ZIP-
 
 Ismerje meg, hogyan hozhat létre HTML‑dokumentumot C#‑ban egy egyéni erőforráskezelő segítségével, részletes példákkal.
 
+### [HTML létrehozása karakterláncból C#-ban – Teljes útmutató memóriafolyammal](./create-html-from-string-in-c-full-guide-with-memory-stream/)
+
+Tanulja meg, hogyan hozhat létre HTML-t egy stringből C#-ban memóriafolyam használatával, lépésről‑lépésre útmutató.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

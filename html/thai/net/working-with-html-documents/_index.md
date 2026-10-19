@@ -66,6 +66,9 @@ url: /th/net/working-with-html-documents/
 ### [วิธีบีบอัด HTML ใน C# – คู่มือขั้นตอนเต็ม](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 เรียนรู้วิธีบีบอัดไฟล์ HTML ด้วย C# อย่างละเอียด พร้อมขั้นตอนและตัวอย่างโค้ดเพื่อเพิ่มประสิทธิภาพการจัดเก็บ
 
+### [สร้าง HTML จากสตริงใน C# – คู่มือฉบับเต็มด้วย Memory Stream](./create-html-from-string-in-c-full-guide-with-memory-stream/)
+เรียนรู้วิธีสร้าง HTML จากสตริงใน C# ด้วย Memory Stream อย่างละเอียดและครบถ้วน
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

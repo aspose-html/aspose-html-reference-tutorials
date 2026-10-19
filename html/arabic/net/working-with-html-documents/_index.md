@@ -52,6 +52,7 @@ url: /ar/net/working-with-html-documents/
 ### [تحميل مستند HTML باستخدام Aspose.HTML – دليل كامل C#](./load-html-document-with-aspose-html-complete-c-guide/)
 
 ### [كيفية ضغط HTML في C# – دليل خطوة بخطوة كامل](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+### [إنشاء HTML من سلسلة في C# – دليل كامل مع تدفق الذاكرة](./create-html-from-string-in-c-full-guide-with-memory-stream/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

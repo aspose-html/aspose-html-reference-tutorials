@@ -73,6 +73,8 @@ Lär dig skapa HTML-dokument i C# med en anpassad resurs‑hanterare och generer
 
 ### [Hur du zippar HTML i C# – Komplett steg‑för‑steg‑guide](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 
+### [Skapa HTML från en sträng i C# – Fullständig guide med minnesström](./create-html-from-string-in-c-full-guide-with-memory-stream/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

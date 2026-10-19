@@ -62,6 +62,8 @@ Apprenez à générer du HTML à partir d'une chaîne en C# avec Aspose.HTML, é
 
 ### [Comment zipper du HTML en C# – Guide complet étape par étape](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 
+### [Créer du HTML à partir d'une chaîne en C# – Guide complet avec Memory Stream](./create-html-from-string-in-c-full-guide-with-memory-stream/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

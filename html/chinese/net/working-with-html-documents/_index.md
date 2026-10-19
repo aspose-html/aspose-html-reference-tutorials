@@ -47,6 +47,8 @@ HTML 文档是 Web 的支柱，能够有效地创建和操作 HTML 文档是任�
 ### [在 C# 中从字符串创建 HTML – 完整分步指南](./create-html-from-string-in-c-step-by-step-guide/)
 ### [使用 CSS 和 C# 加粗标题 – 完整分步指南](./how-to-bold-heading-with-cs-complete-step-by-step-guide/)
 ### [使用 Aspose.HTML 加载 HTML 文档 – 完整 C# 指南](./load-html-document-with-aspose-html-complete-c-guide/)
+### [使用 CSS 和 C# 加粗标题 – 完整分步指南](./how-to-bold-heading-with-c-complete-step-by-step-guide/)
+### [在 C# 中从字符串创建 HTML – 使用内存流的完整指南](./create-html-from-string-in-c-full-guide-with-memory-stream/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

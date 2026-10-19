@@ -117,6 +117,12 @@ Apprenez à activer l'anticrénelage lors du rendu de HTML en PNG avec Aspose.HT
 ### [Comment rendre le HTML en PNG en C# – Guide étape par étape](./how-to-render-html-to-png-in-c-step-by-step-guide/)
 Apprenez à convertir du HTML en PNG en C# grâce à ce guide détaillé étape par étape.
 
+### [Créer un document PDF C# – Rendre le HTML en PDF avec Aspose](./create-pdf-document-c-render-html-to-pdf-with-aspose/)
+Apprenez à créer un document PDF à partir de HTML en C# avec Aspose.HTML pour .NET.
+
+### [Rendre le HTML en PDF et le zipper – Guide complet C#](./render-html-to-pdf-and-zip-it-complete-c-guide/)
+Apprenez à convertir du HTML en PDF puis à le compresser dans une archive ZIP avec Aspose.HTML pour .NET en C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

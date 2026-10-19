@@ -105,6 +105,10 @@ Lär dig hur du med Aspose.HTML för .NET konverterar HTML till PNG i en komplet
 Lär dig hur du aktiverar kantutjämning för att förbättra bildkvaliteten när du renderar HTML till PNG med Aspose.HTML i C#.
 ### [Skapa HTML-dokument C# – Rendera HTML till PNG](./create-html-document-c-render-html-to-png/)
 Lär dig hur du skapar ett HTML-dokument i C# och renderar det till PNG med Aspose.HTML.
+### [Skapa PDF-dokument C# – Rendera HTML till PDF med Aspose](./create-pdf-document-c-render-html-to-pdf-with-aspose/)
+Lär dig hur du med Aspose.HTML för .NET konverterar HTML till PDF i en detaljerad guide.
+### [Rendera HTML till PDF och zippa det – Komplett C#-guide](./render-html-to-pdf-and-zip-it-complete-c-guide/)
+Lär dig hur du med Aspose.HTML för .NET konverterar HTML till PDF och packar dem i en zip-fil i en komplett guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

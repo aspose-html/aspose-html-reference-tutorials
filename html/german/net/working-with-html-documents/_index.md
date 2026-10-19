@@ -69,6 +69,10 @@ Erfahren Sie, wie Sie HTML-Dateien in C# zu einem ZIP-Archiv komprimieren und sp
 
 ### [HTML zippen in C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 
+### [HTML aus Zeichenkette in C# erstellen – Vollständige Anleitung mit Memory Stream](./create-html-from-string-in-c-full-guide-with-memory-stream/)
+
+Erfahren Sie, wie Sie HTML aus einer Zeichenkette in C# generieren und mit einem Memory Stream verarbeiten.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

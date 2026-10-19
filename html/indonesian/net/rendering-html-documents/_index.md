@@ -118,6 +118,12 @@ Pelajari cara membuat dokumen HTML dengan C# dan merendernya menjadi PNG menggun
 ### [Cara Merender HTML ke PNG dalam C# – Panduan Langkah‑demi‑Langkah](./how-to-render-html-to-png-in-c-step-by-step-guide/)
 Pelajari cara merender HTML menjadi PNG menggunakan C# dengan panduan langkah demi langkah yang mudah diikuti.
 
+### [Buat Dokumen PDF C# – Render HTML ke PDF dengan Aspose](./create-pdf-document-c-render-html-to-pdf-with-aspose/)
+Pelajari cara membuat dokumen PDF dari HTML menggunakan Aspose.HTML untuk .NET dengan contoh kode C# lengkap.
+
+### [Render HTML ke PDF dan Zip – Panduan Lengkap C#](./render-html-to-pdf-and-zip-it-complete-c-guide/)
+Pelajari cara merender HTML menjadi PDF dan mengompresnya menjadi file ZIP menggunakan Aspose.HTML untuk .NET dengan contoh kode C# lengkap.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

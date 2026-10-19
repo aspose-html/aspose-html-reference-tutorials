@@ -119,6 +119,12 @@ Naučte se vytvořit HTML dokument v C# a pomocí Aspose.HTML jej převést na P
 ### [Jak povolit antialiasing při vykreslování HTML do PNG v C#](./how-to-enable-antialiasing-when-rendering-html-to-png-in-c/)
 Naučte se, jak zapnout antialiasing pro hladší výstup PNG při vykreslování HTML pomocí Aspose.HTML v C#.
 
+### [Vytvořte PDF dokument C# – Vykreslete HTML do PDF pomocí Aspose](./create-pdf-document-c-render-html-to-pdf-with-aspose/)
+Naučte se, jak pomocí Aspose.HTML v .NET převést HTML do PDF v C# s podrobnými ukázkami.
+
+### [Renderujte HTML do PDF a zabalte jej – Kompletní průvodce C#](./render-html-to-pdf-and-zip-it-complete-c-guide/)
+Naučte se pomocí Aspose.HTML v .NET převést HTML do PDF a následně jej zkomprimovat do ZIP souboru v C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

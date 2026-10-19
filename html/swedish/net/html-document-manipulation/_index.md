@@ -78,6 +78,8 @@ Lär dig att skapa HTML-dokument med Aspose.HTML i .NET med en tydlig steg‑fö
 Lär dig hur du skapar HTML från en sträng i C# med en anpassad resurs‑hanterare i Aspose.HTML för .NET.
 ### [Hur man skapar HTML och lägger till CSS‑stilelement – steg‑för‑steg‑guide](./how-to-create-html-and-add-css-style-element-step-by-step-gu/)
 Lär dig att skapa ett HTML‑dokument och lägga till ett CSS‑stilelement med en tydlig steg‑för‑steg‑guide.
+### [Hur man skapar HTML – Lägg till element och formatera text](./how-to-create-html-append-elements-and-style-text/)
+Lär dig hur du skapar HTML, lägger till element och formaterar text med Aspose.HTML för .NET.
 
 ### [Gör text fet och kursiv i C# – Snabbguide för att styla HTML](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
 Lär dig hur du gör text fet och kursiv i HTML med C#. En snabbguide med kodexempel och steg‑för‑steg‑instruktioner.

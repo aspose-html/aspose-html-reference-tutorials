@@ -100,6 +100,10 @@ C# kullanarak HTML'yi PNG'ye dönüştürmeyi adım adım öğrenin. Bu rehberde
 C# kullanarak HTML belgesi oluşturun ve bunu PNG formatına dönüştürmeyi adım adım öğrenin. Pratik örneklerle ilerleyin.
 ### [C#'ta HTML'yi PNG'ye Renderlarken Antialiasing'i Etkinleştirme](./how-to-enable-antialiasing-when-rendering-html-to-png-in-c/)
 C# ile HTML'yi PNG'ye dönüştürürken antialiasing'i etkinleştirerek daha pürüzsüz görüntüler elde edin. Adım adım rehber.
+### [PDF Belgesi Oluşturma C# – Aspose ile HTML'yi PDF'ye Dönüştürme](./create-pdf-document-c-render-html-to-pdf-with-aspose/)
+Aspose.HTML for .NET kullanarak C# ile HTML içeriğini PDF belgesine dönüştürmeyi adım adım öğrenin.
+### [HTML'yi PDF'ye Dönüştür ve Zipleyin – Tam C# Rehberi](./render-html-to-pdf-and-zip-it-complete-c-guide/)
+HTML'yi PDF'ye dönüştürüp sıkıştırarak tek bir arşiv oluşturmayı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

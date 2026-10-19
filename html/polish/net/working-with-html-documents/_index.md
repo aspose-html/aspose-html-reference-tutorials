@@ -65,6 +65,8 @@ Dowiedz się, jak w C# wygenerować dokument HTML bezpośrednio z łańcucha zna
 
 ### [Jak spakować HTML w C# – Kompletny przewodnik krok po kroku](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 
+### [Tworzenie HTML z ciągu znaków w C# – Kompletny przewodnik z użyciem strumienia pamięci](./create-html-from-string-in-c-full-guide-with-memory-stream/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

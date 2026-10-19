@@ -83,6 +83,8 @@ Aspose.HTML для .NET выделяется своей простотой и м
 Узнайте, как создавать HTML‑документы и добавлять CSS‑стили с помощью Aspose.HTML в .NET, следуя пошаговым инструкциям.
 ### [Создание HTML‑документа C# – пошаговое руководство](./create-html-document-c-step-by-step-guide/)
 Узнайте, как создавать HTML‑документы в C# с помощью Aspose.HTML, следуя пошаговым инструкциям и примерам.
+### [Как создать HTML – Добавление элементов и стилизация текста](./how-to-create-html-append-elements-and-style-text/)
+Узнайте, как создавать HTML, добавлять элементы и стилизовать текст с помощью Aspose.HTML для .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

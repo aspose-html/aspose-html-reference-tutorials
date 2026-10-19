@@ -46,6 +46,7 @@ HTML दस्तावेज़ वेब की रीढ़ हैं, और
 ### [C# में HTML को ZIP के रूप में सहेजना – कस्टम रिसोर्स हैंडलर के साथ पूर्ण गाइड](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
 ### [C# में स्ट्रिंग से HTML बनाना – चरण-दर-चरण गाइड](./create-html-from-string-in-c-step-by-step-guide/)
 ### [C# में Aspose.HTML के साथ HTML दस्तावेज़ लोड करना – पूर्ण गाइड](./load-html-document-with-aspose-html-complete-c-guide/)
+### [C# में स्ट्रिंग से HTML बनाना – मेमोरी स्ट्रीम के साथ पूर्ण गाइड](./create-html-from-string-in-c-full-guide-with-memory-stream/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

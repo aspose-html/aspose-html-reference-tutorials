@@ -65,6 +65,10 @@ url: /el/net/working-with-html-documents/
 
 Μάθετε πώς να συμπιέζετε αρχεία HTML σε αρχείο ZIP χρησιμοποιώντας C#, βήμα‑βήμα οδηγός.
 
+### [Δημιουργία HTML από συμβολοσειρά σε C# – Πλήρης οδηγός με Memory Stream](./create-html-from-string-in-c-full-guide-with-memory-stream/)
+
+Μάθετε πώς να δημιουργήσετε έγγραφο HTML από συμβολοσειρά χρησιμοποιώντας Memory Stream σε C# βήμα-βήμα.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

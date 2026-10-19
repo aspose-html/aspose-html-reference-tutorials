@@ -49,6 +49,8 @@ Laten we nu uw vaardigheden naar een hoger niveau tillen. Het bewerken van HTML-
 Leer hoe u HTML-bestanden opslaat als ZIP‑archief in C# met een aangepaste resourcehandler.
 ### [HTML-document maken in C# – Complete gids met een aangepaste resourcehandler](./create-html-document-c-complete-guide-with-custom-resource-h/)
 
+### [HTML maken vanuit string in C# – Volledige gids met Memory Stream](./create-html-from-string-in-c-full-guide-with-memory-stream/)
+
 Leer hoe u met CSS en C# kopteksten vet maakt in een .NET‑applicatie, stap voor stap met voorbeeldcode.
 
 ### [HTML maken vanuit string in C# – Stapsgewijze handleiding](./create-html-from-string-in-c-step-by-step-guide/)

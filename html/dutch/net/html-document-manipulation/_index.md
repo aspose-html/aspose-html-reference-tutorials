@@ -65,6 +65,8 @@ Leer hoe u met Aspose.HTML voor .NET een HTML-document in C# maakt, met duidelij
 Leer hoe u HTML vanuit een string genereert in C# met een aangepaste resourcehandler, inclusief voorbeeldcode en stapsgewijze uitleg.
 ### [Hoe HTML te maken en een CSS‑stijl‑element toe te voegen – Stapsgewijze gids](./how-to-create-html-and-add-css-style-element-step-by-step-gu/)
 Leer hoe u HTML-bestanden maakt en een CSS‑stijl‑element toevoegt met een duidelijke stap‑voor‑stap handleiding.
+### [Hoe HTML maken – Elementen toevoegen en tekst opmaken](./how-to-create-html-append-elements-and-style-text/)
+Leer hoe u HTML maakt, elementen toevoegt en tekst opmaakt met Aspose.HTML voor .NET.
 ### [Een document bewerken in .NET met Aspose.HTML](./editing-a-document/)
 Maak boeiende webcontent met Aspose.HTML voor .NET. Leer hoe u HTML, CSS en meer kunt manipuleren.
 ### [Een document opslaan in .NET met Aspose.HTML](./saving-a-document/)

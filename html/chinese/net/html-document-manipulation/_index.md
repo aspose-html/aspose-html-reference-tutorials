@@ -83,6 +83,8 @@ Aspose.HTML for .NET 以其简单性和强大性脱颖而出。它使您能够�
 了解如何使用 Aspose.HTML for .NET 创建 HTML 文档并嵌入 CSS 样式元素的完整步骤。
 ### [在 C# 中创建 HTML 文档 – 步骤指南](./create-html-document-c-step-by-step-guide/)
 了解如何使用 Aspose.HTML for .NET 在 C# 中创建 HTML 文档的完整步骤和示例。
+### [如何创建 HTML – 添加元素并设置文本样式](./how-to-create-html-append-elements-and-style-text/)
+了解如何使用 Aspose.HTML for .NET 在 HTML 文档中追加元素并为文本设置样式的分步指南。
 
 ## 结论
 
