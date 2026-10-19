@@ -1,25 +1,25 @@
 ---
 category: general
-date: 2026-04-05
-description: Cara merender HTML ke PNG menggunakan Aspose.HTML di C#. Pelajari cara
-  mengonversi HTML ke PNG, menambahkan stylesheet ke HTML, dan menghasilkan PNG dari
-  HTML dengan cepat.
+date: 2026-02-22
+description: Cara merender HTML ke PNG menggunakan Aspose.Html di C#. Pelajari cara
+  mengonversi HTML ke gambar, mengatur ukuran gambar output, dan merender HTML ke
+  PNG secara efisien.
 draft: false
 keywords:
 - how to render html
-- convert html to png
-- save html as png
-- add stylesheet to html
-- generate png from html
+- convert html to image
+- set output image size
+- render html to png
+- how to convert html
 language: id
-og_description: Cara merender HTML ke PNG dengan Aspose.HTML di C#. Ikuti tutorial
-  ini untuk mengonversi HTML ke PNG, menambahkan stylesheet ke HTML, dan menghasilkan
-  PNG dari HTML.
-og_title: Cara Mengonversi HTML ke PNG di C# – Panduan Langkah demi Langkah
+og_description: Cara merender HTML ke PNG menggunakan Aspose.Html. Panduan ini menunjukkan
+  cara mengonversi HTML ke gambar, mengatur ukuran gambar output, dan merender HTML
+  ke PNG dalam C#.
+og_title: Cara Mengonversi HTML ke PNG di C# – Panduan Lengkap
 tags:
-- Aspose.HTML
 - C#
-- Image Rendering
+- Aspose.Html
+- HTML rendering
 title: Cara Merender HTML ke PNG di C# – Panduan Lengkap
 url: /id/net/generate-jpg-and-png-images/how-to-render-html-to-png-in-c-complete-guide/
 ---
@@ -30,225 +30,182 @@ url: /id/net/generate-jpg-and-png-images/how-to-render-html-to-png-in-c-complete
 
 # Cara Merender HTML ke PNG di C# – Panduan Lengkap
 
-Pernah bertanya-tanya **cara merender html** dan mendapatkan file PNG yang tajam tanpa harus membuka browser? Anda tidak sendirian. Banyak pengembang perlu **mengonversi html ke png** untuk thumbnail email, dasbor pelaporan, atau pratinjau statis, dan mereka menginginkan solusi yang dapat bekerja di server Linux juga.  
+**How to render html** adalah pertanyaan yang sering muncul setiap kali seorang pengembang membutuhkan gambar statis dari sebuah halaman web. Dalam tutorial ini kami akan menjelaskan **how to render html** ke file PNG menggunakan library Aspose.Html, dan Anda juga akan menemukan cara **convert html to image**, **set output image size**, serta menangani text hinting untuk hasil yang lebih tajam.  
 
-Dalam tutorial ini kami akan membahas contoh praktis yang **menambahkan stylesheet ke html**, mengonfigurasi opsi rendering, dan akhirnya **menyimpan html sebagai png** menggunakan pustaka Aspose.HTML. Pada akhir tutorial Anda akan memiliki satu program mandiri yang dapat Anda masukkan ke dalam proyek .NET apa pun.
+Jika Anda pernah mencoba mengambil screenshot sebuah halaman secara programatis dan berakhir dengan gambar yang buram, Anda tidak sendirian. Pada akhir panduan ini Anda akan memiliki PNG yang bersih, anti‑aliased yang sesuai dengan dimensi yang Anda tentukan—tanpa memerlukan alat eksternal.
 
 ## Apa yang Anda Butuhkan
 
-Sebelum kita mulai, pastikan Anda memiliki:
+- .NET 6.0 atau lebih baru (kode juga berfungsi pada .NET Framework 4.7+)
+- Aspose.Html untuk .NET (paket NuGet `Aspose.Html`)
+- File HTML sederhana yang ingin Anda ubah menjadi gambar (kami akan menyebutnya `input.html`)
+- IDE apa saja yang Anda suka—Visual Studio, Rider, atau bahkan VS Code
 
-- **.NET 6.0** atau yang lebih baru terpasang (kode ini bekerja pada .NET Core, .NET Framework, dan .NET 5+).  
-- Paket NuGet **Aspose.HTML for .NET** (`Aspose.Html`).  
-- IDE C# dasar—Visual Studio, Rider, atau bahkan VS Code sudah cukup.  
-- Izin menulis ke folder tempat Anda berencana menyimpan PNG.
+Itu saja. Tidak ada binary tambahan, tidak ada browser headless, hanya satu referensi NuGet dan beberapa baris C#.
 
-Tanpa layanan web eksternal, tanpa Chrome headless, hanya kode terkelola murni.
+## Langkah 1 – Instal Aspose.Html dan Siapkan Proyek Anda
 
-## Langkah 1 – Siapkan Proyek dan Impor Namespace
+First, add the Aspose.Html package to your project:
 
-Langkah pertama: buat aplikasi console baru dan impor kelas-kelas yang diperlukan.
+```bash
+dotnet add package Aspose.Html
+```
+
+> Pro tip: Gunakan flag `--version` untuk mengunci ke rilis stabil terbaru (mis., `13.12.0`). Menjaga library tetap up‑to‑date membantu menghindari bug tersembunyi.
+
+Now create a new console app (or drop this code into an existing one) and make sure the `using` directives are present:
 
 ```csharp
-// Program.cs
 using System;
-using Aspose.Html.Drawing;
+using Aspose.Html;
 using Aspose.Html.Rendering.Image;
+```
 
-namespace HtmlToPngDemo
+Namespace ini memberi Anda akses ke kelas **HTMLDocument**, **HtmlRasterizer**, dan **ImageRenderingOptions** yang akan kami gunakan untuk **render html to png**.
+
+## Langkah 2 – Muat Dokumen HTML yang Ingin Anda Konversi
+
+The first real step in **how to render html** is to feed the engine a source file. You can load from disk, a URL, or even a string. Here’s the simplest case—loading a local file:
+
+```csharp
+// Step 2: Load the HTML document you want to render.
+var htmlDocument = new HTMLDocument("YOUR_DIRECTORY/input.html");
+```
+
+Ganti `YOUR_DIRECTORY` dengan folder yang berisi `input.html`. Jika file tersebut berisi CSS atau gambar eksternal, pastikan dapat diakses relatif terhadap direktori itu; jika tidak rasterizer mungkin akan kembali ke nilai default.
+
+## Langkah 3 – Konfigurasikan Opsi Rendering Gambar (Set Output Image Size)
+
+Now comes the part where we **set output image size**. This is where you tell the rasterizer how wide and tall the final PNG should be. You also enable antialiasing for smoother edges:
+
+```csharp
+// Step 3: Prepare image rendering options (size and antialiasing).
+var renderingOptions = new ImageRenderingOptions
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // We'll fill the rest of the logic here.
-        }
-    }
-}
-```
-
-> **Mengapa namespace ini?**  
-> `Aspose.Html.Drawing` memberikan kita `HTMLDocument`, representasi markup dalam memori. `Aspose.Html.Rendering.Image` menyediakan `ImageRenderingOptions` dan ekstensi `RenderToImage` yang sebenarnya menulis file PNG.
-
-## Langkah 2 – Buat Dokumen HTML Sederhana
-
-Sekarang kami akan **menambahkan stylesheet ke html** dengan menyematkan CSS langsung ke dalam dokumen. Ini membuat contoh menjadi mandiri dan menghindari penanganan file eksternal.
-
-```csharp
-// Step 2: Create a simple HTML document
-HTMLDocument document = new HTMLDocument(
-    "<html><head></head><body>Hello Linux!</body></html>"
-);
-```
-
-> **Tip:** Jika Anda sudah memiliki file HTML di disk, Anda dapat memuatnya dengan `new HTMLDocument("file.html")`. Untuk demo cepat, string inline berfungsi dengan sempurna.
-
-## Langkah 3 – Definisikan dan Lampirkan Gaya CSS
-
-Styling adalah tempat keajaiban terjadi. Di bawah ini kami mendefinisikan blok CSS kecil yang mengatur keluarga font, ukuran, berat, dan garis bawah. Ini menunjukkan **menambahkan stylesheet ke html** tanpa file `.css` terpisah.
-
-```csharp
-// Step 3: Define a CSS style that demonstrates font properties
-string cssStyle = @"
-    body {
-        font-family: 'Arial';
-        font-size: 20px;
-        font-style: normal;
-        font-weight: bold;
-        text-decoration: underline;
-    }";
-
-// Attach the CSS style to the document
-document.StyleSheets.Add(cssStyle);
-```
-
-> **Mengapa CSS inline?**  
-> Gaya inline diparsing secara instan oleh Aspose.HTML, memastikan mesin rendering melihat aturan persis yang Anda maksud. Ini juga menghindari masalah resolusi jalur pada kontainer Linux.
-
-## Langkah 4 – Konfigurasikan Opsi Rendering Gambar
-
-Di sinilah kami **mengonversi html ke png** dengan kontrol detail atas ukuran dan antialiasing. Sesuaikan `Width` dan `Height` agar cocok dengan dimensi yang Anda butuhkan untuk thumbnail atau laporan.
-
-```csharp
-// Step 4: Configure image rendering options (size and antialiasing)
-ImageRenderingOptions imageOptions = new ImageRenderingOptions
-{
-    Width = 800,               // Desired image width in pixels
-    Height = 600,              // Desired image height in pixels
-    UseAntialiasing = true    // Smooths edges for a cleaner look
+    UseAntialiasing = true,   // Improves visual quality.
+    Width = 1024,             // Desired width in pixels.
+    Height = 768              // Desired height in pixels.
 };
 ```
 
-> **Kasus khusus:** Jika HTML Anda berisi gambar latar belakang besar, Anda mungkin perlu meningkatkan `Width`/`Height` atau mengatur `ImageResolution` untuk menghindari pixelation.
+Silakan sesuaikan `Width` dan `Height` agar cocok dengan desain Anda. Jika Anda melewatkan pengaturan ini, Aspose akan menggunakan ukuran intrinsik halaman, yang mungkin tidak sesuai harapan Anda.
 
-## Langkah 5 – Render Dokumen HTML ke File PNG
+## Langkah 4 – Sesuaikan Text‑Rendering Hinting (Opsional tetapi Disarankan)
 
-Akhirnya, kami **menghasilkan png dari html** dan menuliskannya ke disk. Ganti `YOUR_DIRECTORY` dengan jalur absolut atau relatif yang ada di mesin Anda.
+On Linux or headless environments the text can look a bit fuzzy. Enabling hinting forces the renderer to align glyphs to pixel boundaries, giving you crisper letters:
 
 ```csharp
-// Step 5: Render the HTML document to a PNG image file
-string outputPath = System.IO.Path.Combine(
-    Environment.CurrentDirectory, "output.png"
-);
-document.RenderToImage(outputPath, imageOptions);
-
-Console.WriteLine($"✅ PNG saved to: {outputPath}");
+// Step 4: Configure text‑rendering hinting for clearer text.
+var textOptions = new TextOptions
+{
+    UseHinting = true
+};
+renderingOptions.TextOptions = textOptions;
 ```
 
-> **Hasil:** Program membuat `output.png` yang berisi teks “Hello Linux!” dengan gaya Arial, 20 px, tebal, dan bergaris bawah. Buka file dengan penampil gambar apa pun untuk memverifikasi.
+Jika Anda menjalankan di Windows Anda dapat mengabaikan blok ini, tetapi tidak ada salahnya untuk mempertahankannya—**how to convert html** menjadi bitmap menjadi konsisten di semua platform.
 
-### Contoh Lengkap yang Berfungsi
+## Langkah 5 – Buat Rasterizer dan Render Gambar
 
-Menggabungkan semuanya, berikut program lengkap yang siap dijalankan:
+With the document and options ready, we instantiate the `HtmlRasterizer`. The `using` statement ensures resources are released promptly:
+
+```csharp
+// Step 5: Create the rasterizer with the configured options.
+using (var rasterizer = new HtmlRasterizer(renderingOptions))
+{
+    // Step 6: Render the HTML document to a bitmap.
+    var bitmap = rasterizer.Render(htmlDocument);
+
+    // Step 7: Save the resulting image to a file.
+    bitmap.Save("YOUR_DIRECTORY/output.png");
+}
+```
+
+Pada titik ini library telah **converted html to image** dan menyimpannya sebagai `output.png`. Buka file tersebut di penampil gambar apa pun—Anda akan melihat snapshot sempurna dari `input.html` dengan ukuran yang Anda tentukan.
+
+## Contoh Lengkap yang Berfungsi
+
+Below is the entire program, ready to copy‑paste into `Program.cs`. Make sure the `using` directives are at the top and the NuGet package is installed.
 
 ```csharp
 using System;
-using Aspose.Html.Drawing;
+using Aspose.Html;
 using Aspose.Html.Rendering.Image;
 
-namespace HtmlToPngDemo
+class RenderWithNewOptions
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
+        // Load the HTML document you want to render.
+        var htmlDocument = new HTMLDocument("YOUR_DIRECTORY/input.html");
+
+        // Prepare image rendering options (size and antialiasing).
+        var renderingOptions = new ImageRenderingOptions
         {
-            // 1️⃣ Create a simple HTML document
-            HTMLDocument document = new HTMLDocument(
-                "<html><head></head><body>Hello Linux!</body></html>"
-            );
+            UseAntialiasing = true,
+            Width = 1024,
+            Height = 768
+        };
 
-            // 2️⃣ Define CSS and attach it (add stylesheet to html)
-            string cssStyle = @"
-                body {
-                    font-family: 'Arial';
-                    font-size: 20px;
-                    font-style: normal;
-                    font-weight: bold;
-                    text-decoration: underline;
-                }";
-            document.StyleSheets.Add(cssStyle);
+        // Configure text‑rendering hinting for clearer text (especially on Linux).
+        var textOptions = new TextOptions
+        {
+            UseHinting = true
+        };
+        renderingOptions.TextOptions = textOptions;
 
-            // 3️⃣ Set rendering options (convert html to png)
-            ImageRenderingOptions imageOptions = new ImageRenderingOptions
-            {
-                Width = 800,
-                Height = 600,
-                UseAntialiasing = true
-            };
+        // Create the rasterizer with the configured options.
+        using (var rasterizer = new HtmlRasterizer(renderingOptions))
+        {
+            // Render the HTML document to a bitmap.
+            var bitmap = rasterizer.Render(htmlDocument);
 
-            // 4️⃣ Render and save (save html as png)
-            string outputPath = System.IO.Path.Combine(
-                Environment.CurrentDirectory, "output.png"
-            );
-            document.RenderToImage(outputPath, imageOptions);
-
-            Console.WriteLine($"✅ PNG saved to: {outputPath}");
+            // Save the resulting image to a file.
+            bitmap.Save("YOUR_DIRECTORY/output.png");
         }
+
+        Console.WriteLine("HTML has been rendered to PNG successfully!");
     }
 }
 ```
 
-Jalankan `dotnet run` dari folder proyek Anda, dan Anda akan melihat pesan sukses diikuti oleh gambar yang dihasilkan.
+> **Expected result:** Sebuah file bernama `output.png` yang berada di `YOUR_DIRECTORY` berisi representasi 1024 × 768 piksel dari `input.html`. Gambar akan anti‑aliased dan teks akan di‑hint‑adjust untuk kejelasan.
 
-![Contoh output render html](output-placeholder.png "Contoh output render html")
+## Pertanyaan Umum & Kasus Tepi
 
-## Pertanyaan Umum & Tips Pro
+### Bagaimana jika HTML saya merujuk ke sumber eksternal?
 
-### Bagaimana jika saya perlu **menyimpan html sebagai png** dengan latar belakang transparan?
+Pastikan jalur tersebut berupa URL absolut atau relatif terhadap folder yang Anda berikan ke `HTMLDocument`. Jika stylesheet atau gambar tidak dapat ditemukan, rasterizer akan mengabaikannya secara diam-diam, yang dapat menyebabkan gaya hilang pada PNG akhir.
 
-Setel `imageOptions.BackgroundColor = System.Drawing.Color.Transparent;`. Aspose.HTML menghormati kanal alfa, sehingga PNG Anda akan mempertahankan transparansi.
+### Bisakah saya merender ke format lain (JPEG, BMP, GIF)?
 
-### Bagaimana cara **mengonversi html ke png** di server Linux tanpa tampilan (headless)?
+Ya. Metode `bitmap.Save` menerima format apa pun yang didukung oleh `System.Drawing`. Cukup ubah ekstensi file, mis., `output.jpg`. Data raster yang mendasarinya tetap sama, jadi Anda tetap mendapatkan manfaat dari antialiasing dan hinting.
 
-Aspose.HTML sepenuhnya terkelola dan tidak memiliki dependensi native, sehingga kode yang sama bekerja di Ubuntu, Alpine, atau kontainer Docker apa pun yang menjalankan .NET. Pastikan paket NuGet `Aspose.Html` dipulihkan selama proses build.
+### Bagaimana cara menangani tampilan high‑DPI (retina)?
 
-### Bisakah saya **menambahkan stylesheet ke html** dari file eksternal?
+Tingkatkan nilai `Width` dan `Height` secara proporsional (mis., 2× untuk retina 2×) lalu turunkan skala PNG dengan alat pemrosesan gambar jika diperlukan. Ini memberi Anda gambar akhir yang lebih tajam.
 
-Tentu saja. Muat file CSS ke dalam string:
+### Apakah ada cara untuk merender hanya elemen tertentu saja, bukan seluruh halaman?
 
-```csharp
-string externalCss = System.IO.File.ReadAllText("styles.css");
-document.StyleSheets.Add(externalCss);
-```
+Anda dapat memuat HTML, menemukan elemen melalui metode DOM, lalu memanggil `rasterizer.Render(element)`. Ini merupakan skenario lanjutan tetapi mengikuti prinsip **how to render html** yang sama.
 
-Pastikan jalur file dapat diakses oleh proses, terutama saat dijalankan di dalam kontainer.
+## Tips Kinerja
 
-### Bagaimana dengan halaman besar yang melebihi dimensi gambar?
+- **Gunakan kembali rasterizer** jika Anda perlu merender banyak halaman secara berurutan; membuat instance baru setiap kali menambah overhead.
+- **Matikan opsi yang tidak diperlukan** (mis., `UseAntialiasing = false`) jika Anda menghasilkan thumbnail di mana kecepatan lebih penting daripada kualitas.
+- **Kelompokkan rendering Anda** pada thread latar belakang untuk menjaga UI tetap responsif pada aplikasi desktop.
 
-Anda dapat mengaktifkan paginasi:
+## Kesimpulan
 
-```csharp
-imageOptions.PageHeight = 1200; // height of each “page” slice
-imageOptions.PageWidth = 800;
-```
+Anda kini memiliki jawaban lengkap, end‑to‑end untuk **how to render html** ke file PNG menggunakan C#. Dengan mengikuti langkah-langkah di atas Anda dapat **convert html to image**, **set output image size**, dan bahkan menyempurnakan rendering teks untuk fidelitas visual terbaik.  
 
-Aspose.HTML kemudian akan menghasilkan beberapa PNG, satu per halaman, yang dapat Anda gabungkan jika diperlukan.
+Dari sini Anda dapat mengeksplorasi rendering ke PDF, menambahkan watermark, atau mengintegrasikan pipeline ini ke dalam API web yang mengembalikan screenshot sesuai permintaan. Prinsip yang sama berlaku—cukup ganti format output atau sesuaikan opsi rendering.
 
-### Apakah ada cara untuk **menghasilkan png dari html** dengan DPI lebih tinggi untuk kualitas cetak?
+Silakan bereksperimen dengan ukuran, kedalaman warna, atau bahkan output SVG. Jika Anda menemukan keanehan, dokumentasi Aspose.Html adalah teman yang baik, tetapi kode yang ditampilkan di sini seharusnya langsung dapat berfungsi untuk kebanyakan skenario.
 
-Setel `imageOptions.ImageResolution = 300;` (dot per inci). DPI yang lebih tinggi menghasilkan file lebih besar tetapi output lebih tajam, sempurna untuk PDF atau aset siap cetak.
+Selamat coding, dan nikmati mengubah HTML menjadi gambar yang tajam!  
 
-## Ringkasan – Cara Cepat Merender HTML ke PNG
-
-- **Cara merender html**: gunakan `HTMLDocument` dari Aspose.HTML.  
-- **Mengonversi html ke png**: konfigurasikan `ImageRenderingOptions` dan panggil `RenderToImage`.  
-- **Menambahkan stylesheet ke html**: sisipkan CSS melalui `document.StyleSheets.Add`.  
-- **Menyimpan html sebagai png**: tentukan jalur output dan biarkan Aspose menangani penulisan file.  
-- **Menghasilkan png dari html**: sesuaikan ukuran, antialiasing, DPI, dan latar belakang sesuai kebutuhan proyek Anda.
-
-Itu mencakup seluruh alur kerja dari markup mentah hingga gambar PNG yang halus.
-
-## Apa Selanjutnya?
-
-Setelah Anda menguasai dasar-dasarnya, Anda dapat menjelajahi:
-
-- **Pemrosesan batch** – iterasi melalui folder berisi file HTML dan **mengonversi html ke png** secara massal.  
-- **Konten dinamis** – sisipkan JavaScript atau data‑binding sebelum rendering untuk visual yang lebih kaya.  
-- **Format alternatif** – Aspose.HTML juga mendukung JPEG, BMP, dan bahkan PDF jika Anda memerlukan output yang berbeda.  
-
-Silakan bereksperimen dengan berbagai font, warna, atau bahkan grafik SVG di dalam HTML Anda. Pustaka ini cukup fleksibel untuk menangani kebanyakan tata letak bergaya web, dan karena ini murni .NET, Anda tetap platform‑agnostik.
-
-Got a tricky case you’re wrestling with? Drop
+![How to render html example output](output.png "how to render html example output")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

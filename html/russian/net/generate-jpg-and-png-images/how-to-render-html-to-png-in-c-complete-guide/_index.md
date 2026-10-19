@@ -1,25 +1,26 @@
 ---
 category: general
-date: 2026-04-05
-description: Как отобразить HTML в PNG с помощью Aspose.HTML в C#. Узнайте, как конвертировать
-  HTML в PNG, добавить таблицу стилей в HTML и быстро генерировать PNG из HTML.
+date: 2026-02-22
+description: Как отрендерить HTML в PNG с помощью Aspose.Html в C#. Узнайте, как преобразовать
+  HTML в изображение, задать размер выходного изображения и эффективно отрендерить
+  HTML в PNG.
 draft: false
 keywords:
 - how to render html
-- convert html to png
-- save html as png
-- add stylesheet to html
-- generate png from html
+- convert html to image
+- set output image size
+- render html to png
+- how to convert html
 language: ru
-og_description: Как отобразить HTML в PNG с помощью Aspose.HTML в C#. Следуйте этому
-  руководству, чтобы преобразовать HTML в PNG, добавить таблицу стилей в HTML и создать
-  PNG из HTML.
-og_title: Как преобразовать HTML в PNG в C# – пошаговое руководство
+og_description: Как отобразить HTML в PNG с помощью Aspose.Html. Это руководство показывает,
+  как преобразовать HTML в изображение, установить размер выходного изображения и
+  отобразить HTML в PNG на C#.
+og_title: Как преобразовать HTML в PNG в C# – Полное руководство
 tags:
-- Aspose.HTML
 - C#
-- Image Rendering
-title: Как преобразовать HTML в PNG в C# – Полное руководство
+- Aspose.Html
+- HTML rendering
+title: Как преобразовать HTML в PNG в C# — полное руководство
 url: /ru/net/generate-jpg-and-png-images/how-to-render-html-to-png-in-c-complete-guide/
 ---
 
@@ -27,227 +28,184 @@ url: /ru/net/generate-jpg-and-png-images/how-to-render-html-to-png-in-c-complete
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Как отрендерить HTML в PNG на C# – Полное руководство
+# Как преобразовать HTML в PNG в C# – Полное руководство
 
-Когда‑нибудь задумывались **как отрендерить html** и получить чёткий PNG‑файл без запуска браузера? Вы не одиноки. Многие разработчики нуждаются в **конвертации html в png** для миниатюр писем, панелей отчётов или статических превью, и им нужен вариант, который работает и на Linux‑сервере.  
+**Как преобразовать html** – частый вопрос, когда разработчику нужен статический снимок веб‑страницы. В этом руководстве мы пройдемся по **преобразованию html** в файл PNG с помощью библиотеки Aspose.Html, а также узнаем, как **конвертировать html в изображение**, **задать размер выходного изображения** и настроить хинтинг текста для более чётких результатов.  
 
-В этом руководстве мы пройдём пошаговый пример, который **добавляет таблицу стилей в html**, настраивает параметры рендеринга и, наконец, **сохраняет html как png** с помощью библиотеки Aspose.HTML. К концу вы получите единый, автономный проект, который можно добавить в любой .NET‑проект.
+Если вы когда‑нибудь пытались программно сделать скриншот страницы и получали размытый набор пикселей, вы не одиноки. К концу этого руководства у вас будет чистый, сглаженный PNG нужных размеров — без сторонних инструментов.
 
 ## Что понадобится
 
-Прежде чем погрузиться в детали, убедитесь, что у вас есть:
+- .NET 6.0 или новее (код также работает на .NET Framework 4.7+)
+- Aspose.Html for .NET (NuGet‑пакет `Aspose.Html`)
+- Простой HTML‑файл, который вы хотите превратить в изображение (назовём его `input.html`)
+- Любая IDE — Visual Studio, Rider или даже VS Code
 
-- **.NET 6.0** или новее (код работает на .NET Core, .NET Framework и .NET 5+).  
-- NuGet‑пакет **Aspose.HTML for .NET** (`Aspose.Html`).  
-- Базовая IDE для C# — Visual Studio, Rider или даже VS Code подойдёт.  
-- Права на запись в папку, где вы планируете сохранять PNG.
+И всё. Никаких дополнительных бинарных файлов, без безголовых браузеров, только одна ссылка на NuGet и несколько строк C#.
 
-Никаких внешних веб‑сервисов, без headless Chrome, только чистый управляемый код.
+## Шаг 1 – Установите Aspose.Html и подготовьте проект
 
-## Шаг 1 – Создание проекта и импорт пространств имён
+Сначала добавьте пакет Aspose.Html в ваш проект:
 
-Первым делом: создайте новое консольное приложение и подключите необходимые классы.
+```bash
+dotnet add package Aspose.Html
+```
+
+> Pro tip: Use the `--version` flag to lock to the latest stable release (e.g., `13.12.0`). Keeping libraries up‑to‑date helps avoid hidden bugs.
+
+Теперь создайте новое консольное приложение (или вставьте этот код в существующее) и убедитесь, что директивы `using` присутствуют:
 
 ```csharp
-// Program.cs
 using System;
-using Aspose.Html.Drawing;
+using Aspose.Html;
 using Aspose.Html.Rendering.Image;
+```
 
-namespace HtmlToPngDemo
+Эти пространства имён дают вам доступ к классам **HTMLDocument**, **HtmlRasterizer** и **ImageRenderingOptions**, которые мы будем использовать для **render html to png**.
+
+## Шаг 2 – Загрузите HTML‑документ, который хотите конвертировать
+
+Первый реальный шаг в **how to render html** – передать движку исходный файл. Вы можете загрузить его с диска, по URL или даже из строки. Вот самый простой вариант — загрузка локального файла:
+
+```csharp
+// Step 2: Load the HTML document you want to render.
+var htmlDocument = new HTMLDocument("YOUR_DIRECTORY/input.html");
+```
+
+Замените `YOUR_DIRECTORY` на папку, где находится `input.html`. Если файл содержит внешние CSS или изображения, убедитесь, что они доступны относительно этой директории; иначе растеризатор может перейти к значениям по умолчанию.
+
+## Шаг 3 – Настройте параметры рендеринга изображения (задать размер выходного изображения)
+
+Теперь наступает часть, где мы **set output image size**. Здесь вы указываете растеризатору, какой ширины и высоты должен быть итоговый PNG. Также включаем сглаживание для более плавных краёв:
+
+```csharp
+// Step 3: Prepare image rendering options (size and antialiasing).
+var renderingOptions = new ImageRenderingOptions
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // We'll fill the rest of the logic here.
-        }
-    }
-}
-```
-
-> **Почему именно эти пространства имён?**  
-> `Aspose.Html.Drawing` предоставляет `HTMLDocument` — представление вашего разметки в памяти. `Aspose.Html.Rendering.Image` содержит `ImageRenderingOptions` и расширение `RenderToImage`, которое фактически записывает PNG‑файл.
-
-## Шаг 2 – Создание простого HTML‑документа
-
-Теперь мы **добавим таблицу стилей в html**, встроив CSS непосредственно в документ. Это делает пример автономным и избавляет от работы с внешними файлами.
-
-```csharp
-// Step 2: Create a simple HTML document
-HTMLDocument document = new HTMLDocument(
-    "<html><head></head><body>Hello Linux!</body></html>"
-);
-```
-
-> **Подсказка:** Если у вас уже есть HTML‑файл на диске, его можно загрузить через `new HTMLDocument("file.html")`. Для быстрых демонстраций удобно использовать встроенную строку.
-
-## Шаг 3 – Определение и подключение CSS‑стилей
-
-Стилизация — место, где происходит волшебство. Ниже мы определяем небольшой блок CSS, задающий семейство шрифта, размер, жирность и подчёркивание. Это демонстрирует **добавление таблицы стилей в html** без отдельного `.css`‑файла.
-
-```csharp
-// Step 3: Define a CSS style that demonstrates font properties
-string cssStyle = @"
-    body {
-        font-family: 'Arial';
-        font-size: 20px;
-        font-style: normal;
-        font-weight: bold;
-        text-decoration: underline;
-    }";
-
-// Attach the CSS style to the document
-document.StyleSheets.Add(cssStyle);
-```
-
-> **Почему инлайн‑CSS?**  
-> Инлайн‑стили парсятся мгновенно Aspose.HTML, гарантируя, что движок рендеринга увидит именно те правила, которые вы задали. Это также избавляет от проблем с разрешением путей в Linux‑контейнерах.
-
-## Шаг 4 – Настройка параметров рендеринга изображения
-
-Здесь мы **конвертируем html в png** с тонкой настройкой размеров и сглаживания. Отрегулируйте `Width` и `Height` под нужные вам размеры миниатюры или отчёта.
-
-```csharp
-// Step 4: Configure image rendering options (size and antialiasing)
-ImageRenderingOptions imageOptions = new ImageRenderingOptions
-{
-    Width = 800,               // Desired image width in pixels
-    Height = 600,              // Desired image height in pixels
-    UseAntialiasing = true    // Smooths edges for a cleaner look
+    UseAntialiasing = true,   // Improves visual quality.
+    Width = 1024,             // Desired width in pixels.
+    Height = 768              // Desired height in pixels.
 };
 ```
 
-> **Особый случай:** Если ваш HTML содержит крупные фоновые изображения, возможно, придётся увеличить `Width`/`Height` или задать `ImageResolution`, чтобы избежать пикселизации.
+Не стесняйтесь менять `Width` и `Height` под ваш дизайн. Если пропустить эти настройки, Aspose использует внутренний размер страницы, который может не соответствовать вашим ожиданиям.
 
-## Шаг 5 – Рендеринг HTML‑документа в PNG‑файл
+## Шаг 4 – Подправьте хинтинг текста (необязательно, но рекомендуется)
 
-Наконец, мы **генерируем png из html** и сохраняем его на диск. Замените `YOUR_DIRECTORY` на абсолютный или относительный путь, существующий на вашей машине.
+В Linux или безголовых окружениях текст может выглядеть слегка размытым. Включение хинтинга заставляет рендерер выравнивать глифы по пиксельным границам, делая буквы чётче:
 
 ```csharp
-// Step 5: Render the HTML document to a PNG image file
-string outputPath = System.IO.Path.Combine(
-    Environment.CurrentDirectory, "output.png"
-);
-document.RenderToImage(outputPath, imageOptions);
-
-Console.WriteLine($"✅ PNG saved to: {outputPath}");
+// Step 4: Configure text‑rendering hinting for clearer text.
+var textOptions = new TextOptions
+{
+    UseHinting = true
+};
+renderingOptions.TextOptions = textOptions;
 ```
 
-> **Результат:** Программа создаёт `output.png` с текстом «Hello Linux!», стилизованным шрифтом Arial, 20 px, жирным и подчёркнутым. Откройте файл в любом просмотрщике изображений, чтобы убедиться.
+Если вы работаете в Windows, этот блок можно опустить, но он не навредит — **how to convert html** в bitmap станет одинаковым на всех платформах.
 
-### Полный рабочий пример
+## Шаг 5 – Создайте растеризатор и отрендерите изображение
 
-Объединив всё вместе, получаем полностью готовую к запуску программу:
+Когда документ и параметры готовы, мы создаём `HtmlRasterizer`. Оператор `using` гарантирует своевременное освобождение ресурсов:
+
+```csharp
+// Step 5: Create the rasterizer with the configured options.
+using (var rasterizer = new HtmlRasterizer(renderingOptions))
+{
+    // Step 6: Render the HTML document to a bitmap.
+    var bitmap = rasterizer.Render(htmlDocument);
+
+    // Step 7: Save the resulting image to a file.
+    bitmap.Save("YOUR_DIRECTORY/output.png");
+}
+```
+
+На этом этапе библиотека **converted html to image** и сохранила его как `output.png`. Откройте файл в любом просмотрщике изображений — вы увидите идеальный снимок `input.html` в указанном размере.
+
+## Полный рабочий пример
+
+Ниже представлен весь код программы, готовый к копированию в `Program.cs`. Убедитесь, что директивы `using` находятся в начале, а NuGet‑пакет установлен.
 
 ```csharp
 using System;
-using Aspose.Html.Drawing;
+using Aspose.Html;
 using Aspose.Html.Rendering.Image;
 
-namespace HtmlToPngDemo
+class RenderWithNewOptions
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
+        // Load the HTML document you want to render.
+        var htmlDocument = new HTMLDocument("YOUR_DIRECTORY/input.html");
+
+        // Prepare image rendering options (size and antialiasing).
+        var renderingOptions = new ImageRenderingOptions
         {
-            // 1️⃣ Create a simple HTML document
-            HTMLDocument document = new HTMLDocument(
-                "<html><head></head><body>Hello Linux!</body></html>"
-            );
+            UseAntialiasing = true,
+            Width = 1024,
+            Height = 768
+        };
 
-            // 2️⃣ Define CSS and attach it (add stylesheet to html)
-            string cssStyle = @"
-                body {
-                    font-family: 'Arial';
-                    font-size: 20px;
-                    font-style: normal;
-                    font-weight: bold;
-                    text-decoration: underline;
-                }";
-            document.StyleSheets.Add(cssStyle);
+        // Configure text‑rendering hinting for clearer text (especially on Linux).
+        var textOptions = new TextOptions
+        {
+            UseHinting = true
+        };
+        renderingOptions.TextOptions = textOptions;
 
-            // 3️⃣ Set rendering options (convert html to png)
-            ImageRenderingOptions imageOptions = new ImageRenderingOptions
-            {
-                Width = 800,
-                Height = 600,
-                UseAntialiasing = true
-            };
+        // Create the rasterizer with the configured options.
+        using (var rasterizer = new HtmlRasterizer(renderingOptions))
+        {
+            // Render the HTML document to a bitmap.
+            var bitmap = rasterizer.Render(htmlDocument);
 
-            // 4️⃣ Render and save (save html as png)
-            string outputPath = System.IO.Path.Combine(
-                Environment.CurrentDirectory, "output.png"
-            );
-            document.RenderToImage(outputPath, imageOptions);
-
-            Console.WriteLine($"✅ PNG saved to: {outputPath}");
+            // Save the resulting image to a file.
+            bitmap.Save("YOUR_DIRECTORY/output.png");
         }
+
+        Console.WriteLine("HTML has been rendered to PNG successfully!");
     }
 }
 ```
 
-Запустите `dotnet run` из папки проекта, и вы увидите сообщение об успехе, после которого появится сгенерированное изображение.
+> **Expected result:** A file named `output.png` located in `YOUR_DIRECTORY` containing a 1024 × 768 pixel representation of `input.html`. The image will be anti‑aliased and text will be hint‑adjusted for clarity.
 
-![Пример вывода рендеринга html](output-placeholder.png "Пример вывода рендеринга html")
+## Часто задаваемые вопросы и особые случаи
 
-## Часто задаваемые вопросы и профессиональные советы
+### Что делать, если мой HTML ссылается на внешние ресурсы?
 
-### Что делать, если нужно **сохранить html как png** с прозрачным фоном?
+Убедитесь, что пути либо абсолютные URL, либо относительные к папке, которую вы передали в `HTMLDocument`. Если таблица стилей или изображение не найдены, растеризатор просто проигнорирует их, что может привести к отсутствию стилей в финальном PNG.
 
-Установите `imageOptions.BackgroundColor = System.Drawing.Color.Transparent;`. Aspose.HTML учитывает альфа‑канал, поэтому ваш PNG сохранит прозрачность.
+### Можно ли рендерить в другие форматы (JPEG, BMP, GIF)?
 
-### Как **конвертировать html в png** на безголовом Linux‑сервере?
+Да. Метод `bitmap.Save` принимает любой формат, поддерживаемый `System.Drawing`. Просто измените расширение файла, например `output.jpg`. Базовые растровые данные остаются теми же, поэтому вы всё равно получаете сглаживание и хинтинг.
 
-Aspose.HTML полностью управляемый и не имеет нативных зависимостей, поэтому тот же код работает на Ubuntu, Alpine или в любом Docker‑контейнере с .NET. Просто убедитесь, что NuGet‑пакет `Aspose.Html` восстановлен во время сборки.
+### Как работать с дисплеями высокого DPI (retina)?
 
-### Можно ли **добавить таблицу стилей в html** из внешнего файла?
+Увеличьте значения `Width` и `Height` пропорционально (например, в 2 раза для 2× retina), а затем при необходимости уменьшите PNG с помощью инструмента обработки изображений. Это даст более чёткое окончательное изображение.
 
-Конечно. Загрузите CSS‑файл в строку:
+### Есть ли способ отрендерить только конкретный элемент, а не всю страницу?
 
-```csharp
-string externalCss = System.IO.File.ReadAllText("styles.css");
-document.StyleSheets.Add(externalCss);
-```
+Можно загрузить HTML, найти элемент через методы DOM и затем вызвать `rasterizer.Render(element)`. Это продвинутый сценарий, но он следует тем же принципам **how to render html**.
 
-Убедитесь, что путь к файлу доступен процессу, особенно при запуске внутри контейнера.
+## Советы по производительности
 
-### Что делать с большими страницами, превышающими размеры изображения?
+- **Переиспользуйте растеризатор**, если нужно отрендерить много страниц подряд; создание нового экземпляра каждый раз добавляет накладные расходы.
+- **Отключайте ненужные опции** (например, `UseAntialiasing = false`), если вы генерируете миниатюры, где важнее скорость, чем качество.
+- **Пакетируйте рендеры** в фоновый поток, чтобы UI оставался отзывчивым в настольных приложениях.
 
-Можно включить пагинацию:
+## Заключение
 
-```csharp
-imageOptions.PageHeight = 1200; // height of each “page” slice
-imageOptions.PageWidth = 800;
-```
+Теперь у вас есть полное решение **how to render html** в PNG‑файл с помощью C#. Следуя описанным шагам, вы сможете **convert html to image**, **set output image size** и даже точно настроить рендеринг текста для максимального визуального качества.  
 
-Aspose.HTML тогда создаст несколько PNG‑файлов, по одному на страницу, которые при необходимости можно собрать вместе.
+Отсюда вы можете исследовать рендеринг в PDF, добавление водяных знаков или интеграцию этого конвейера в веб‑API, который возвращает скриншоты по запросу. Принципы те же — меняйте только формат вывода или параметры рендеринга.
 
-### Есть ли способ **генерировать png из html** с более высоким DPI для печати?
+Экспериментируйте с разными размерами, глубиной цвета или даже выводом в SVG. Если столкнётесь с нюансами, документация Aspose.Html будет хорошим помощником, но представленный код должен работать «из коробки» для большинства сценариев.
 
-Установите `imageOptions.ImageResolution = 300;` (точек на дюйм). Более высокое DPI даёт большие файлы, но более чёткое изображение, идеально подходящее для PDF или печатных материалов.
+Счастливого кодинга и приятного превращения HTML в чёткие изображения!  
 
-## Итоги – Как быстро отрендерить HTML в PNG
-
-- **Как отрендерить html**: используйте `HTMLDocument` из Aspose.HTML.  
-- **Конвертировать html в png**: настройте `ImageRenderingOptions` и вызовите `RenderToImage`.  
-- **Добавить таблицу стилей в html**: внедрите CSS через `document.StyleSheets.Add`.  
-- **Сохранить html как png**: укажите путь вывода и позвольте Aspose выполнить запись файла.  
-- **Генерировать png из html**: подгоняйте размер, сглаживание, DPI и фон под требования проекта.
-
-Это покрывает весь конвейер от сырой разметки до готового PNG‑изображения.
-
-## Что дальше?
-
-Теперь, когда вы освоили основы, можно исследовать:
-
-- **Пакетную обработку** — перебрать папку с HTML‑файлами и **конвертировать html в png** массово.  
-- **Динамический контент** — внедрить JavaScript или привязку данных перед рендерингом для более богатой визуализации.  
-- **Альтернативные форматы** — Aspose.HTML также поддерживает JPEG, BMP и даже PDF, если нужен иной тип вывода.  
-
-Экспериментируйте с разными шрифтами, цветами или даже SVG‑графикой внутри вашего HTML. Библиотека достаточно гибка, чтобы справиться с большинством веб‑стилей, а благодаря чистому .NET вы остаётесь платформенно‑независимыми.
-
-Есть сложный случай, с которым боретесь? Оставьте вопрос в комментариях.
+![Пример вывода render html](output.png "пример вывода render html")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

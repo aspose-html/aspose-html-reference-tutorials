@@ -1,25 +1,27 @@
 ---
 category: general
-date: 2026-04-05
-description: C# ile Aspose.HTML kullanarak HTML dosyalarını ve kaynaklarını zip'leme.
-  HTML'yi zip olarak kaydetmeyi ve zip arşivi oluşturmayı dakikalar içinde öğrenin.
+date: 2026-01-09
+description: Aspose.Html kullanarak C# ile HTML'yi ziplemeyi öğrenin. Bu öğreticide
+  HTML'yi zip olarak kaydetme, C# ile zip dosyası oluşturma, HTML'yi zip'e dönüştürme
+  ve HTML'den zip oluşturma konuları ele alınmaktadır.
 draft: false
 keywords:
 - how to zip html
-- save html to zip
-- create zip archive csharp
-- csharp zip archive example
+- save html as zip
+- generate zip file c#
+- convert html to zip
+- create zip from html
 language: tr
-og_description: C#'ta HTML sıkıştırmayı kolaylaştırın. Bu öğreticiyi izleyerek HTML'yi
-  zip'e kaydedin, zip arşivi oluşturma C# örneklerini görün ve kaynakları otomatik
-  olarak yönetin.
-og_title: C# ile HTML Nasıl Sıkıştırılır – Tam Rehber
+og_description: C#'ta HTML nasıl ziplenir? HTML'yi zip olarak kaydetmek, zip dosyası
+  oluşturmak, HTML'yi zip'e dönüştürmek ve Aspose.Html kullanarak HTML'den zip oluşturmak
+  için bu kılavuzu izleyin.
+og_title: C#'te HTML Nasıl Sıkıştırılır – Tam Adım Adım Kılavuz
 tags:
 - C#
-- Aspose.HTML
+- Aspose.Html
 - ZIP
 - File I/O
-title: C# ile HTML Nasıl Sıkıştırılır – Tam Adım Adım Rehber
+title: C#'ta HTML Nasıl Sıkıştırılır – Tam Adım Adım Rehber
 url: /tr/net/html-extensions-and-conversions/how-to-zip-html-in-c-complete-step-by-step-guide/
 ---
 
@@ -27,231 +29,213 @@ url: /tr/net/html-extensions-and-conversions/how-to-zip-html-in-c-complete-step-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# C#'ta HTML Nasıl Zip'lenir – Tam Adım‑Adım Kılavuz
+# C#'ta HTML Nasıl Ziplenir – Tam Adım‑Adım Kılavuz
 
-Hiç **HTML'yi** tüm resimleri, CSS'i veya referans verdiği script'leriyle birlikte **zip'lemeyi** düşündünüz mü? Tek başınıza değilsiniz. Birçok web‑otomasyon senaryosunda sayfayı *ve* tüm varlıklarını içeren tek bir taşınabilir paket gerekir. İyi haber? Aspose.HTML ile bunu birkaç satır C# koduyla yapabilir ve kütüphanenin her kaynağı doğrudan bir ZIP dosyasına akıtmasını sağlayabilirsiniz.
+C# uygulamanızdan dış sıkıştırma araçları kullanmadan **HTML nasıl ziplenir** diye hiç merak ettiniz mi? Yalnız değilsiniz. Birçok geliştirici, bir HTML dosyasını varlıkları (CSS, görseller, betikler) ile tek bir arşivde paketlemesi gerektiğinde bir engelle karşılaşıyor.  
 
-Bu öğreticide **HTML'yi zip'e kaydetmeyi** özel bir `ResourceHandler` kullanarak tam olarak gösterecek, kodun her satırını adım adım inceleyecek ve bu yaklaşımın dosyaları manuel kopyalamaktan neden daha güvenilir olduğunu açıklayacağız. Sonunda, kaç tane bağlı kaynağı olursa olsun herhangi bir HTML belgesi için çalışan **create zip archive CSharp** örnekleri oluşturabileceksiniz.
+Bu öğreticide, Aspose.Html kütüphanesini kullanarak **HTML'i zip olarak kaydetme**, **C# ile zip dosyası oluşturma** ve e‑posta ekleri ya da çevrim dışı belgeler gibi senaryolar için **HTML'i zip'e dönüştürme** konularını adım adım göstereceğiz. Sonunda sadece birkaç satır kodla **HTML'den zip oluşturma** yeteneğine sahip olacaksınız.
 
-## Öğrenecekleriniz
+## Gereksinimler
 
-- Gereksinimler (Aspose.HTML 4.x+, .NET 6+, örnek bir HTML dosyası).
-- `ZipArchive` ve özel bir `ResourceHandler` nasıl kurulur.
-- Kaynakları doğrudan arşive akıtmanın geçici dosyaları önlemesi.
-- Çift isimli kaynaklar ve büyük dosyalar gibi kenar‑durumların ele alınması.
-- Visual Studio'ya yapıştırıp çalıştırabileceğiniz tam, çalıştırılabilir bir kod örneği.
+| Gereklilik | Neden Önemli |
+|------------|--------------|
+| .NET 6.0 veya daha yeni (veya .NET Framework 4.7+) | Modern çalışma zamanı `FileStream` ve async I/O desteği sağlar. |
+| Visual Studio 2022 (veya herhangi bir C# IDE) | Hata ayıklama ve IntelliSense için faydalıdır. |
+| Aspose.Html for .NET (NuGet paketi `Aspose.Html`) | Kütüphane HTML ayrıştırma ve kaynak çıkarımını yönetir. |
+| Bağlantılı kaynakları olan bir giriş HTML dosyası (ör. `input.html`) | Bu, zipleyeceğiniz kaynaktır. |
 
-## Önkoşullar
+Aspose.Html'ı henüz kurmadıysanız, şu komutu çalıştırın:
 
-Başlamadan önce şunların yüklü olduğundan emin olun:
-
-1. **.NET 6 SDK** (veya herhangi bir yeni .NET sürümü) yüklü.
-2. **Aspose.HTML for .NET** NuGet paketi (`Aspose.Html`).
-3. `YOUR_DIRECTORY` adlı bir klasör içinde `input.html` (zip'lemek istediğiniz sayfa) bulunmalı.
-4. `System.IO.Compression` ve C# async/await hakkında temel bilgi (opsiyonel ama faydalı).
-
-> **Pro ipucu:** Visual Studio kullanıyorsanız, projenize sağ‑tıklayın → *Manage NuGet Packages* → **Aspose.Html** aratın ve en son kararlı sürümü yükleyin.
-
-## Adım 1 – ZIP Arşiv Kapsayıcısını Oluşturun
-
-İlk olarak çıktı ZIP dosyasına işaret eden bir `FileStream` oluşturmalı, ardından bunu bir `ZipArchive` içinde sarmalamalıyız. `ZipArchiveMode.Update` kullanmak, girdileri tek tek eklememizi sağlar.
-
-```csharp
-using System.IO;
-using System.IO.Compression;
-using Aspose.Html;
-using Aspose.Html.Saving;
-
-// The ZIP file that will hold the HTML document and every linked resource.
-using (var zipFileStream = new FileStream(@"YOUR_DIRECTORY\output.zip", FileMode.Create))
-using (var zipArchive = new ZipArchive(zipFileStream, ZipArchiveMode.Update))
-{
-    // All further steps go inside this using block.
-}
+```bash
+dotnet add package Aspose.Html
 ```
 
-> **Neden önemli:** Arşivi bir kez açıp açık tutmak, dosya sistemini tekrar tekrar açıp kapatmanın getirdiği yükü ortadan kaldırır; bu da büyük sayfalar için performans darboğazını önler.
+Şimdi sahne hazır, süreci sindirilebilir adımlara bölelim.
 
-## Adım 2 – Özel bir `ResourceHandler` Oluşturun
+## Adım 1 – Ziplemek İstediğiniz HTML Belgesini Yükleyin
 
-Aspose.HTML, dış bir varlık (resim, CSS, script vb.) ile karşılaştığında `ResourceHandler.HandleResource` metodunu çağırır. Yeni bir ZIP girdisine işaret eden bir `Stream` döndürerek, renderlayıcının doğrudan arşive yazmasını sağlarız.
-
-```csharp
-// Step 2: Define a handler that streams each resource into the ZIP.
-class ZipHandler : ResourceHandler
-{
-    private readonly ZipArchive _zipArchive;
-
-    public ZipHandler(ZipArchive zipArchive) => _zipArchive = zipArchive;
-
-    public override Stream HandleResource(ResourceInfo info)
-    {
-        // Preserve the original relative URL as the entry name.
-        // This keeps folder structure intact inside the ZIP.
-        var entry = _zipArchive.CreateEntry(info.Url);
-        // The renderer writes the resource bytes straight to this stream.
-        return entry.Open();
-    }
-}
-```
-
-> **Kenar durumu:** İki kaynak aynı URL'yi paylaşırsa (yönlendirmelerle mümkün ama nadir), `CreateEntry` bir istisna fırlatır. Üretim‑hazır bir handler, `Exists` kontrolü yapıp tekrarları yeniden adlandırabilir; ancak çoğu senaryoda basit yaklaşım yeterlidir.
-
-## Adım 3 – Handler'ı `HtmlSaveOptions`'a Bağlayın
-
-Şimdi Aspose.HTML'e kaydederken `ZipHandler`'ımızı kullanmasını söylüyoruz. `HtmlSaveOptions` ayrıca `EmbedResources` gibi ayarları kontrol etmemizi sağlar (kaynakları dışa aktardığımız için `false` olarak ayarlanır).
-
-```csharp
-// Inside the using block from Step 1:
-var resourceHandler = new ZipHandler(zipArchive);
-var htmlSaveOptions = new HtmlSaveOptions
-{
-    // Do not embed resources; we want them as separate entries.
-    EmbedResources = false,
-    ResourceHandler = resourceHandler
-};
-```
-
-## Adım 4 – Kaynak HTML Belgesini Yükleyin
-
-Yükleme oldukça basittir. Yapıcı bir yol ya da URL kabul eder. Burada yerel `input.html` dosyamıza işaret ediyoruz.
-
-```csharp
-var htmlDoc = new HTMLDocument(@"YOUR_DIRECTORY\input.html");
-```
-
-> **Neden önce yükleyelim?** Aspose.HTML belgeyi ayrıştırır, göreli URL'leri çözer ve dahili bir kaynak grafiği oluşturur. `Save` çağrılmadan önce bu adım zorunludur.
-
-## Adım 5 – Belgeyi Kaydedin – Kaynaklar Otomatik Olarak Akıtılır
-
-Son satır tüm işlem hattını tetikler: Aspose.HTML ana `.html` dosyasını arşive yazar ve her dış referans için `ZipHandler`'ımızı çağırır. Sonuç, herhangi bir arşiv yöneticisiyle açabileceğiniz ve orijinal web sayfasının klasör yapısını yansıtan tek bir `output.zip` dosyasıdır.
-
-```csharp
-// Still inside the outer using block:
-htmlDoc.Save(htmlSaveOptions);
-```
-
-## Tam Çalışan Örnek
-
-Aşağıda bir konsol uygulamasına kopyalayıp yapıştırabileceğiniz eksiksiz program yer alıyor. Tüm `using` yönergeleri, özel handler ve yürütme akışı dahildir.
+İlk yapmanız gereken, Aspose.Html'a kaynak HTML dosyanızın nerede olduğunu söylemektir. Bu adım kritik, çünkü kütüphane işaretlemeyi ayrıştırmalı ve tüm bağlı kaynakları (CSS, görseller, fontlar) keşfetmelidir.  
 
 ```csharp
 using System;
 using System.IO;
-using System.IO.Compression;
 using Aspose.Html;
 using Aspose.Html.Saving;
 
-class Program
-{
-    static void Main()
-    {
-        // Path where the ZIP will be created.
-        const string outputPath = @"YOUR_DIRECTORY\output.zip";
-        const string inputPath  = @"YOUR_DIRECTORY\input.html";
+// Path to your HTML file – adjust as needed.
+string htmlPath = Path.Combine(Environment.CurrentDirectory, "input.html");
 
-        // Step 1: Open the archive.
-        using (var zipFileStream = new FileStream(outputPath, FileMode.Create))
-        using (var zipArchive = new ZipArchive(zipFileStream, ZipArchiveMode.Update))
-        {
-            // Step 2: Attach the custom resource handler.
-            var resourceHandler = new ZipHandler(zipArchive);
-            var htmlSaveOptions = new HtmlSaveOptions
-            {
-                EmbedResources = false,
-                ResourceHandler = resourceHandler
-            };
-
-            // Step 3: Load the HTML document.
-            var htmlDoc = new HTMLDocument(inputPath);
-
-            // Step 4: Save – all resources are streamed into the ZIP.
-            htmlDoc.Save(htmlSaveOptions);
-        }
-
-        Console.WriteLine("HTML and its resources have been zipped successfully!");
-    }
-}
-
-// Step 2 – Resource handler definition.
-class ZipHandler : ResourceHandler
-{
-    private readonly ZipArchive _zipArchive;
-
-    public ZipHandler(ZipArchive zipArchive) => _zipArchive = zipArchive;
-
-    public override Stream HandleResource(ResourceInfo info)
-    {
-        // Preserve folder hierarchy inside the ZIP.
-        var entry = _zipArchive.CreateEntry(info.Url);
-        return entry.Open();
-    }
-}
+// Create an HTMLDocument instance that loads the file into memory.
+HTMLDocument htmlDoc = new HTMLDocument(htmlPath);
 ```
 
-### Beklenen Sonuç
+> **Neden önemli:** Belgeyi erken yüklemek, kütüphanenin bir kaynak ağacı oluşturmasını sağlar. Bunu atlayıp her `<link>` ya da `<img>` etiketini manuel olarak bulmaya çalışırsanız, zahmetli ve hataya açık bir iş olur.
 
-Programı çalıştırdıktan sonra `output.zip` dosyasını açın. Şu yapıyı görmelisiniz:
+## Adım 2 – Özel Bir Kaynak İşleyici Hazırlayın (İsteğe Bağlı ama Güçlü)
 
-```
-output.zip
-│─ index.html          (the saved HTML file)
-│─ css/
-│   └─ styles.css
-│─ images/
-│   ├─ logo.png
-│   └─ banner.jpg
-│─ scripts/
-│   └─ app.js
-```
-
-Tüm dosyalar, `input.html` içinde referans verilen aynı göreli yolları korur. Artık bu ZIP'i tek bir artefakt olarak dağıtabilir, herhangi bir makinede açıp `index.html` dosyasını eksik varlık olmadan tarayıcıda görüntüleyebilirsiniz.
-
-## Yaygın Sorular & Kenar Durumları
-
-### HTML mutlak URL'ler içeriyorsa ne olur (ör. `https://example.com/style.css`)?
-
-`ResourceHandler` *çözülmüş* URL'yi alır, bu yüzden giriş adı tam URL dizesi olur ve geçerli bir dosya adı değildir. Bunu ele almak için URL'yi temizleyebilirsiniz:
+Aspose.Html her dış kaynağı bir akıma yazar. Varsayılan olarak diske dosyalar oluşturur, ancak özel bir `ResourceHandler` sağlayarak her şeyi bellekte tutabilirsiniz. Bu, geçici dosyalardan kaçınmak ya da sandbox ortamında (ör. Azure Functions) çalışıyorsanız özellikle kullanışlıdır.  
 
 ```csharp
-public override Stream HandleResource(ResourceInfo info)
+// Custom handler that returns a fresh MemoryStream for every resource.
+class InMemoryResourceHandler : ResourceHandler
 {
-    var safeName = info.Url.Replace("://", "_").Replace("/", "_");
-    var entry = _zipArchive.CreateEntry(safeName);
-    return entry.Open();
+    public override Stream HandleResource(Resource resource)
+    {
+        // The stream will be filled by Aspose.Html with the resource bytes.
+        return new MemoryStream();
+    }
 }
 ```
 
-### ZIP dosyasını bir web API yanıtına nasıl eklerim?
+> **Pro ipucu:** HTML'iniz büyük görseller referans veriyorsa, aşırı RAM kullanımını önlemek için bellekte tutmak yerine doğrudan bir dosyaya akıtmayı düşünün.
 
-Oluşturulan ZIP'i bir byte dizisine okuyup `FileContentResult` (ASP.NET Core) ya da `HttpResponseMessage` (Web API) olarak döndürün. `using` bloğu sona erdiğinde arşiv tamamen yazılmış olur; bu yüzden güvenle akıtabilirsiniz.
+## Adım 3 – Çıktı ZIP Akımını Oluşturun
 
-### HTML'i düz metin olarak saklamak yerine sıkıştırabilir miyim?
+Şimdi ZIP arşivinin yazılacağı bir hedefe ihtiyacımız var. `FileStream` kullanmak, dosyanın verimli bir şekilde oluşturulmasını ve program bitince herhangi bir ZIP aracılığıyla açılabilmesini garanti eder.  
 
-Evet. `HtmlSaveOptions` nesnesi içinde `htmlSaveOptions.CompressionLevel = CompressionLevel.Optimal;` ayarını yapın. Aspose.HTML, ana HTML girdisine Deflate sıkıştırması uygular.
+```csharp
+// Define where the resulting ZIP file will live.
+string zipPath = Path.Combine(Environment.CurrentDirectory, "output.zip");
 
-### Büyük varlıklar (yüzlerce MB) ne olur?
+// Open a FileStream in Create mode – this overwrites any existing file.
+using FileStream zipStream = new FileStream(zipPath, FileMode.Create);
+```
 
-Handler doğrudan ZIP girdisine akıtma yaptığı için bellek kullanımı düşük kalır. Tek sınırlama, varsayılan 4096 bayt olan `FileStream` tampon boyutudur; çoğu senaryo için gayet uygundur.
+> **`using` neden kullanıyoruz:** `using` ifadesi akımın kapatılmasını ve temizlenmesini sağlar, bozuk arşivlerin oluşmasını engeller.
 
-## Üretim‑Hazır Kod İçin İpuçları
+## Adım 4 – ZIP Formatını Kullanacak Şekilde Kaydetme Seçeneklerini Yapılandırın
 
-- **Validate input paths** – `null` veya kötü niyetli yolları engelleyin.
-- **Log each resource** – eksik dosyaları ayıklamak için faydalıdır.
-- **Handle duplicate entry names** – `CreateEntry` öncesinde `zipArchive.GetEntry(name)` kontrol edin.
-- **Dispose properly** – `using` ifadeleri zaten temizliği yapar; async kod kullanıyorsanız `await using` tercih edin.
+Aspose.Html, çıkış formatını (`SaveFormat.Zip`) belirtebileceğiniz ve daha önce oluşturduğumuz özel kaynak işleyiciyi ekleyebileceğiniz `HTMLSaveOptions` sunar.  
+
+```csharp
+// Tell Aspose.Html we want a ZIP archive.
+HTMLSaveOptions saveOptions = new HTMLSaveOptions(SaveFormat.Zip);
+
+// Attach the in‑memory resource handler.
+saveOptions.Resources = new InMemoryResourceHandler();
+```
+
+> **Köşe durumu:** `saveOptions.Resources` öğesini atlamanız durumunda Aspose.Html her kaynağı diskte geçici bir klasöre yazar. Bu çalışır, ancak bir şeyler ters giderse geçici dosyalar kalır.
+
+## Adım 5 – HTML Belgesini ZIP Arşivi Olarak Kaydedin
+
+İşte sihir burada gerçekleşir. `Save` yöntemi HTML belgesini dolaşır, referans verilen tüm varlıkları alır ve daha önce açtığımız `zipStream` içine paketler.  
+
+```csharp
+// Perform the actual conversion – this writes the ZIP file.
+htmlDoc.Save(zipStream, saveOptions);
+```
+
+`Save` çağrısı tamamlandığında, aşağıdakileri içeren tam işlevsel bir `output.zip` elde edeceksiniz:
+
+* `index.html` (orijinal işaretleme)
+* Tüm CSS dosyaları
+* Görseller, fontlar ve diğer bağlı kaynaklar
+
+## Adım 6 – Sonucu Doğrulayın (İsteğe Bağlı ama Tavsiye Edilir)
+
+Oluşturulan arşivin geçerli olduğunu iki kez kontrol etmek iyi bir uygulamadır, özellikle bunu bir CI boru hattında otomatikleştiriyorsanız.  
+
+```csharp
+// Quick verification: list entries inside the ZIP.
+using var verificationStream = new FileStream(zipPath, FileMode.Open, FileAccess.Read);
+using var zip = new System.IO.Compression.ZipArchive(verificationStream, System.IO.Compression.ZipArchiveMode.Read);
+Console.WriteLine("Archive contains the following entries:");
+foreach (var entry in zip.Entries)
+{
+    Console.WriteLine($"- {entry.FullName}");
+}
+```
+
+`index.html` ve diğer kaynak dosyalarının listelendiğini görmelisiniz. Bir şey eksikse, kırık bağlantılar için HTML işaretlemesini gözden geçirin ya da Aspose.Html tarafından verilen uyarılar için konsolu kontrol edin.
+
+## Tam Çalışan Örnek
+
+Her şeyi bir araya getirdiğimizde, işte tamamen çalıştırılabilir program. Yeni bir konsol projesine kopyalayıp **F5** tuşuna basın.  
+
+```csharp
+using System;
+using System.IO;
+using Aspose.Html;
+using Aspose.Html.Saving;
+
+class SaveHtmlToZip
+{
+    // Custom handler that writes each resource to an in‑memory stream.
+    class InMemoryResourceHandler : ResourceHandler
+    {
+        public override Stream HandleResource(Resource resource)
+        {
+            // Keep resources in memory – Aspose.Html will fill the stream.
+            return new MemoryStream();
+        }
+    }
+
+    static void Main()
+    {
+        // 1️⃣ Load the HTML document.
+        string htmlPath = Path.Combine(Environment.CurrentDirectory, "input.html");
+        HTMLDocument htmlDoc = new HTMLDocument(htmlPath);
+
+        // 2️⃣ Prepare the output ZIP file.
+        string zipPath = Path.Combine(Environment.CurrentDirectory, "output.zip");
+        using FileStream zipStream = new FileStream(zipPath, FileMode.Create);
+
+        // 3️⃣ Configure save options for ZIP format.
+        HTMLSaveOptions saveOptions = new HTMLSaveOptions(SaveFormat.Zip);
+        saveOptions.Resources = new InMemoryResourceHandler();
+
+        // 4️⃣ Save the document – this creates the ZIP archive.
+        htmlDoc.Save(zipStream, saveOptions);
+
+        // 5️⃣ Optional verification step.
+        using var verify = new FileStream(zipPath, FileMode.Open, FileAccess.Read);
+        using var archive = new System.IO.Compression.ZipArchive(verify, System.IO.Compression.ZipArchiveMode.Read);
+        Console.WriteLine("✅ ZIP created! Contents:");
+        foreach (var entry in archive.Entries)
+            Console.WriteLine($" • {entry.FullName}");
+
+        Console.WriteLine("\nHTML successfully saved as zip.");
+    }
+}
+```
+
+**Beklenen çıktı** (konsol alıntısı):
+
+```
+✅ ZIP created! Contents:
+ • index.html
+ • styles/site.css
+ • images/logo.png
+ • scripts/app.js
+
+HTML successfully saved as zip.
+```
+
+## Yaygın Sorular & Köşe Durumları
+
+| Soru | Cevap |
+|------|-------|
+| *HTML'im dış URL'lere (ör. CDN fontları) referans veriyorsa ne olur?* | Aspose.Html bu kaynaklara ulaşabiliyorsa indirir. Çevrim dışı arşivler istiyorsanız, ziplemeden önce CDN bağlantılarını yerel kopyalarla değiştirin. |
+| *ZIP'i doğrudan bir HTTP yanıtına akıtabilir miyim?* | Kesinlikle. `FileStream`i yanıt akımı (`HttpResponse.Body`) ile değiştirin ve `Content‑Type: application/zip` ayarlayın. |
+| *Belleği aşabilecek büyük dosyalar ne olacak?* | `InMemoryResourceHandler`ı, geçici bir klasöre işaret eden bir `FileStream` döndüren bir işleyiciye değiştirin. Böylece RAM tükenmez. |
+| *`HTMLDocument`'i manuel olarak dispose etmem gerekiyor mu?* | `HTMLDocument` `IDisposable` uygular. Açıkça disposal tercih ediyorsanız bir `using` bloğu içinde tutun, aksi takdirde GC program sonlandığında temizler. |
+| *Aspose.Html ile ilgili lisans sorunu var mı?* | Aspose, su işaretiyle ücretsiz bir değerlendirme modu sunar. Üretim için bir lisans satın alıp `License license = new License(); license.SetLicense("Aspose.Total.NET.lic");` kodunu kütüphane kullanımından önce çağırmanız gerekir. |
+
+## İpuçları & En İyi Uygulamalar
+
+* **Pro ipucu:** HTML ve kaynaklarınızı ayrı bir klasörde (`wwwroot/`) tutun. Böylece klasör yolunu `HTMLDocument`'e verebilir ve Aspose.Html'in göreli URL'leri otomatik çözmesini sağlayabilirsiniz.  
+* **Dikkat edin:** Döngüsel referanslar (ör. kendini içe aktaran bir CSS dosyası). Bunlar sonsuz döngüye yol açar ve kaydetme işlemini çökertir.  
+* **Performans ipucu:** Bir döngü içinde birçok ZIP oluşturuyorsanız, tek bir `HTMLSaveOptions` örneğini yeniden kullanın ve her yinelemede sadece çıktı akımını değiştirin.  
+* **Güvenlik notu:** Kullanıcıdan gelen güvensiz HTML'i önce temizlemeden kabul etmeyin – kötü amaçlı betikler ZIP açıldığında çalıştırılabilir.  
 
 ## Sonuç
 
-C#'ta **HTML'yi zip'leme** sürecini baştan sona yürüttük, **HTML'yi zip'e kaydetme** yöntemini gösterdik ve yeniden kullanılabilir bir **create zip archive CSharp** modeli sunduk. Aspose.HTML'in `ResourceHandler`'ını kullanarak geçici dosyalardan kaçınır, bellek ayak izini küçültür ve dağıtıma hazır temiz, taşınabilir bir paket elde edersiniz.
+C#'ta **HTML nasıl ziplenir** sorusunu baştan sona ele aldık; **HTML'i zip olarak kaydetme**, **C# ile zip dosyası oluşturma**, **HTML'i zip'e dönüştürme** ve nihayet **HTML'den zip oluşturma** adımlarını Aspose.Html kullanarak gösterdik. Temel adımlar belgeyi yüklemek, ZIP‑uyumlu `HTMLSaveOptions` yapılandırmak, isteğe bağlı olarak kaynakları bellekte tutmak ve son olarak arşivi bir akıma yazmak.
 
-Denemekten çekinmeyin: fontları gömün, PDF dönüşümünü deneyin ya da birden fazla HTML sayfasını tek arşive zip'leyin. Aynı prensipler geçerli—sadece farklı bir `HTMLDocument` kullanın ya da dosya koleksiyonunu döngüye alın.
+Artık bu deseni web API'lerine, masaüstü yardımcı programlarına ya da dokümantasyonu çevrim dışı paketlemek için otomatikleştirilmiş derleme hatlarına entegre edebilirsiniz. Daha ileri gitmek ister misiniz? ZIP'e şifreleme ekleyebilir ya da birden fazla HTML sayfasını tek bir arşivde birleştirerek e‑kitap oluşturabilirsiniz.
 
-Kaynakları zip'leme, diğer Aspose kütüphanelerini kullanma veya kenar durumlarıyla ilgili daha fazla sorunuz mu var? Aşağıya yorum bırakın ya da **csharp zip archive example**, **streaming large files**, ve **working with Aspose.HTML in ASP.NET Core** konulu ilgili rehberlerimize göz atın.
-
-İyi kodlamalar, ve web sayfanızın ihtiyacı olan her şeyi içeren tek bir ZIP'in sadeliğinin tadını çıkarın! 
-
-![HTML zipleme diyagramı](image.png "HTML → ResourceHandler → ZIP girişlerinin akışını gösteren diyagram")
+HTML zipleme, köşe durumları veya diğer .NET kütüphaneleriyle entegrasyon hakkında daha fazla sorunuz mu var? Aşağıya bir yorum bırakın, iyi kodlamalar!  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

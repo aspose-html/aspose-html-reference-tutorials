@@ -116,8 +116,22 @@ Scopri come configurare il Runtime Service in Aspose.HTML per Java per ottimizza
 ### [Implementa il sandboxing in Aspose.HTML per Java](./implement-sandboxing/)
 Scopri come implementare il sandboxing in Aspose.HTML per Java per controllare in modo sicuro l'esecuzione degli script nei tuoi documenti HTML e convertirli in PDF.
 
+### [Crea Sandbox Aspose HTML – Guida Completa Java](./create-aspose-html-sandbox-complete-java-guide/)
+Scopri come creare una sandbox Aspose HTML in Java, garantendo esecuzioni sicure e controllate per la conversione HTML.
+
 ### [Imposta il foglio di stile utente in Aspose.HTML per Java](./set-user-style-sheet/)
 Scopri come impostare un foglio di stile utente personalizzato in Aspose.HTML per Java, migliorando lo stile dei tuoi documenti e convertendo HTML in PDF con facilità.
+
+### [Ottieni la versione della libreria in Java – Guida rapida per mostrare la versione della libreria](./get-library-version-in-java-quick-guide-to-show-library-vers/)
+Scopri come recuperare e visualizzare la versione corrente di Aspose.HTML per Java con una semplice chiamata API.
+### [Come creare un sandbox in Java – Guida completa](./how-to-create-sandbox-in-java-full-guide/)
+Scopri come creare un sandbox in Java con questa guida completa passo‑passo, garantendo esecuzioni sicure dei tuoi script HTML.
+### [Imposta l'User Agent per il Rendering HTML Headless – Guida Completa](./set-user-agent-for-headless-html-rendering-complete-guide/)
+Scopri come impostare l'User Agent per il rendering HTML headless in Aspose.HTML per Java, garantendo il corretto caricamento delle risorse.
+### [Estrai il titolo da HTML in Java – Guida completa al sandbox](./extract-title-from-html-in-java-complete-sandbox-guide/)
+Scopri come estrarre il titolo da un documento HTML in Java utilizzando il sandbox di Aspose.HTML per garantire sicurezza e precisione.
+### [Come impostare DPI in Aspose.HTML Sandbox – Guida completa Java](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
+Scopri come impostare la risoluzione DPI nel sandbox di Aspose.HTML per Java, garantendo rendering di alta qualità per PDF e PNG.
 
 ---
 

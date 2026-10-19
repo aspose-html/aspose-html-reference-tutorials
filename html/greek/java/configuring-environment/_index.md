@@ -98,6 +98,9 @@ weight: 29
 [Εξερευνήστε περισσότερα tutorials στο Aspose.HTML για Java.](https://reference.aspose.com/words/net/)
 
 ## Διαμόρφωση Περιβάλλοντος στο Aspose.HTML για Java Tutorials
+### [Ορισμός User Agent για Rendering HTML χωρίς Κεφαλή – Πλήρης Οδηγός](./set-user-agent-for-headless-html-rendering-complete-guide/)
+Μάθετε πώς να ορίσετε το User Agent για headless rendering HTML με Aspose.HTML για Java, βελτιώνοντας τη φόρτωση πόρων.
+
 ### [Ορισμός Συνόλου Χαρακτήρων στο Aspose.HTML για Java](./set-character-set/)
 Μάθετε πώς να ορίσετε το σύνολο χαρακτήρων στο Aspose.HTML για Java και να μετατρέψετε HTML σε PDF σε αυτόν τον βήμα‑βήμα οδηγό. Εξασφαλίστε σωστή κωδικοποίηση κειμένου και απόδοση.
 
@@ -116,8 +119,20 @@ weight: 29
 ### [Εφαρμογή Sandboxing στο Aspose.HTML για Java](./implement-sandboxing/)
 Μάθετε πώς να εφαρμόσετε sandboxing στο Aspose.HTML για Java για ασφαλή έλεγχο της εκτέλεσης σεναρίων στα HTML έγγραφά σας και τη μετατροπή τους σε PDF.
 
+### [Πώς να δημιουργήσετε sandbox σε Java – Πλήρης οδηγός](./how-to-create-sandbox-in-java-full-guide/)
+Μάθετε πώς να δημιουργήσετε sandbox σε Java με αυτόν τον πλήρη οδηγό, εξασφαλίζοντας ασφαλή εκτέλεση κώδικα κατά τη μετατροπή HTML.
+
 ### [Ορισμός Προσαρμοσμένου User Style Sheet στο Aspose.HTML για Java](./set-user-style-sheet/)
 Μάθετε πώς να ορίσετε ένα προσαρμοσμένο φύλλο στυλ χρήστη στο Aspose.HTML για Java, βελτιώνοντας το στυλ του εγγράφου σας και μετατρέποντας HTML σε PDF με ευκολία.
+
+### [Δημιουργία Sandbox Aspose HTML – Πλήρης Οδηγός Java](./create-aspose-html-sandbox-complete-java-guide/)
+Μάθετε πώς να δημιουργήσετε και να διαχειριστείτε ένα sandbox Aspose HTML σε Java για ασφαλείς μετατροπές HTML σε PDF.
+### [Απόκτηση Έκδοσης Βιβλιοθήκης σε Java – Γρήγορος Οδηγός για Εμφάνιση Έκδοσης](./get-library-version-in-java-quick-guide-to-show-library-vers/)
+Μάθετε πώς να εμφανίσετε την έκδοση της βιβλιοθήκης Aspose.HTML σε Java με αυτόν τον σύντομο οδηγό.
+### [Εξαγωγή τίτλου από HTML σε Java – Πλήρης Οδηγός Sandbox](./extract-title-from-html-in-java-complete-sandbox-guide/)
+Μάθετε πώς να εξάγετε τον τίτλο από HTML σε Java, χρησιμοποιώντας sandbox για ασφαλή επεξεργασία.
+### [Ορισμός DPI στο Aspose.HTML Sandbox – Πλήρης Οδηγός Java](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
+Μάθετε πώς να ρυθμίσετε την ανάλυση DPI στο sandbox του Aspose.HTML για Java, βελτιώνοντας την ποιότητα εξόδου εικόνας.
 
 ---
 

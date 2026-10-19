@@ -1,24 +1,25 @@
 ---
 category: general
-date: 2026-04-05
-description: كيفية تحويل HTML إلى PNG باستخدام Aspose.HTML في C#. تعلّم تحويل HTML
-  إلى PNG، إضافة ورقة أنماط إلى HTML، وإنشاء PNG من HTML بسرعة.
+date: 2026-02-22
+description: كيفية تحويل HTML إلى PNG باستخدام Aspose.Html في C#. تعلم كيفية تحويل
+  HTML إلى صورة، ضبط حجم الصورة الناتج، وتحويل HTML إلى PNG بكفاءة.
 draft: false
 keywords:
 - how to render html
-- convert html to png
-- save html as png
-- add stylesheet to html
-- generate png from html
+- convert html to image
+- set output image size
+- render html to png
+- how to convert html
 language: ar
-og_description: كيفية تحويل HTML إلى PNG باستخدام Aspose.HTML في C#. اتبع هذا الدليل
-  لتحويل HTML إلى PNG، وإضافة ورقة أنماط إلى HTML، وإنشاء PNG من HTML.
-og_title: كيفية تحويل HTML إلى PNG في C# – دليل خطوة بخطوة
+og_description: كيفية تحويل HTML إلى PNG باستخدام Aspose.Html. يوضح لك هذا الدليل
+  كيفية تحويل HTML إلى صورة، وتحديد حجم الصورة الناتجة، وتحويل HTML إلى PNG باستخدام
+  C#.
+og_title: كيفية تحويل HTML إلى PNG في C# – دليل شامل
 tags:
-- Aspose.HTML
 - C#
-- Image Rendering
-title: كيفية تحويل HTML إلى PNG في C# – دليل شامل
+- Aspose.Html
+- HTML rendering
+title: كيفية تحويل HTML إلى PNG في C# – دليل كامل
 url: /ar/net/generate-jpg-and-png-images/how-to-render-html-to-png-in-c-complete-guide/
 ---
 
@@ -28,223 +29,182 @@ url: /ar/net/generate-jpg-and-png-images/how-to-render-html-to-png-in-c-complete
 
 # كيفية تحويل HTML إلى PNG في C# – دليل كامل
 
-هل تساءلت يومًا **how to render html** والحصول على ملف PNG واضح دون تشغيل المتصفح؟ لست وحدك. يحتاج العديد من المطورين إلى **convert html to png** من أجل صور مصغرة للبريد الإلكتروني، لوحات تقارير، أو معاينات ثابتة، ويرغبون في حل يعمل على خوادم Linux أيضًا.  
+**How to render html** هو سؤال شائع كلما احتاج المطور إلى صورة ثابتة لصفحة ويب. في هذا الدرس سنستعرض **how to render html** إلى ملف PNG باستخدام مكتبة Aspose.Html، وستكتشف أيضًا كيفية **convert html to image**، **set output image size**، ومعالجة تحسين النص للحصول على نتائج أكثر وضوحًا.  
 
-في هذا الدرس سنستعرض مثالًا عمليًا ي **adds a stylesheet to html**، يكوّن خيارات العرض، وأخيرًا **saves html as png** باستخدام مكتبة Aspose.HTML. في النهاية ستحصل على برنامج واحد مستقل يمكنك إدراجه في أي مشروع .NET.
+إذا سبق لك أن حاولت التقاط صورة لصفحة برمجيًا وانتهى الأمر بصورة مشوشة، فأنت لست وحدك. بنهاية هذا الدليل ستحصل على ملف PNG نظيف ومضاد للتنعيم يتطابق مع الأبعاد التي تحددها—دون الحاجة إلى أدوات خارجية.
 
-## ما الذي ستحتاجه
+## ما ستحتاجه
 
-- **.NET 6.0** أو أحدث مثبت (الكود يعمل على .NET Core، .NET Framework، و .NET 5+).  
-- حزمة NuGet **Aspose.HTML for .NET** (`Aspose.Html`).  
-- بيئة تطوير C# أساسية—Visual Studio، Rider، أو حتى VS Code تكفي.  
-- صلاحية كتابة إلى المجلد الذي تنوي تخزين PNG فيه.
+- .NET 6.0 أو أحدث (الكود يعمل أيضًا على .NET Framework 4.7+)
+- Aspose.Html for .NET (حزمة NuGet `Aspose.Html`)
+- ملف HTML بسيط تريد تحويله إلى صورة (سنسميه `input.html`)
+- أي بيئة تطوير تفضلها—Visual Studio، Rider، أو حتى VS Code
 
-بدون خدمات ويب خارجية، بدون Chrome بدون رأس، فقط كود مُدار نقي.
+هذا كل شيء. لا ملفات تنفيذية إضافية، ولا متصفحات بدون واجهة، فقط مرجع NuGet واحد وقليل من أسطر C#.
 
-## الخطوة 1 – إعداد المشروع واستيراد المساحات الاسمية
+## الخطوة 1 – تثبيت Aspose.Html وتحضير مشروعك
 
-أولًا: أنشئ تطبيقًا جديدًا من نوع console وأدخل الفئات التي سنحتاجها.
+أولاً، أضف حزمة Aspose.Html إلى مشروعك:
+
+```bash
+dotnet add package Aspose.Html
+```
+
+> نصيحة احترافية: استخدم العلامة `--version` لتثبيت أحدث إصدار ثابت (مثال، `13.12.0`). الحفاظ على تحديث المكتبات يساعد في تجنب الأخطاء المخفية.
+
+الآن أنشئ تطبيق console جديد (أو ضع هذا الكود في مشروع موجود) وتأكد من وجود توجيهات `using` التالية:
 
 ```csharp
-// Program.cs
 using System;
-using Aspose.Html.Drawing;
+using Aspose.Html;
 using Aspose.Html.Rendering.Image;
+```
 
-namespace HtmlToPngDemo
+هذه المساحات الاسمية تمنحك الوصول إلى الفئات **HTMLDocument** و **HtmlRasterizer** و **ImageRenderingOptions** التي سنستخدمها لـ **render html to png**.
+
+## الخطوة 2 – تحميل مستند HTML الذي تريد تحويله
+
+الخطوة الأولى الفعلية في **how to render html** هي تزويد المحرك بملف مصدر. يمكنك التحميل من القرص، أو من URL، أو حتى من سلسلة نصية. إليك أبسط حالة—تحميل ملف محلي:
+
+```csharp
+// Step 2: Load the HTML document you want to render.
+var htmlDocument = new HTMLDocument("YOUR_DIRECTORY/input.html");
+```
+
+استبدل `YOUR_DIRECTORY` بالمجلد الذي يحتوي على `input.html`. إذا كان الملف يحتوي على CSS أو صور خارجية، تأكد من إمكانية الوصول إليها بالنسبة لهذا الدليل؛ وإلا قد يلجأ الـ rasterizer إلى الإعدادات الافتراضية.
+
+## الخطوة 3 – تكوين خيارات تصيير الصورة (Set Output Image Size)
+
+الآن يأتي الجزء الذي نـ **set output image size** فيه. هنا تخبر الـ rasterizer بالعرض والارتفاع المطلوبين للـ PNG النهائي. كما يمكنك تمكين مضاد التنعيم للحصول على حواف أكثر سلاسة:
+
+```csharp
+// Step 3: Prepare image rendering options (size and antialiasing).
+var renderingOptions = new ImageRenderingOptions
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // We'll fill the rest of the logic here.
-        }
-    }
-}
-```
-
-> **Why these namespaces?**  
-> `Aspose.Html.Drawing` يزودنا بـ `HTMLDocument`، وهو تمثيل الذاكرة لمحتواك. `Aspose.Html.Rendering.Image` يوفر `ImageRenderingOptions` وامتداد `RenderToImage` الذي يكتب ملف PNG فعليًا.
-
-## الخطوة 2 – إنشاء مستند HTML بسيط
-
-الآن سنقوم **add stylesheet to html** عن طريق تضمين CSS مباشرة داخل المستند. هذا يجعل المثال مستقلاً ويتجنب التعامل مع ملفات خارجية.
-
-```csharp
-// Step 2: Create a simple HTML document
-HTMLDocument document = new HTMLDocument(
-    "<html><head></head><body>Hello Linux!</body></html>"
-);
-```
-
-> **Tip:** إذا كان لديك ملف HTML على القرص بالفعل، يمكنك تحميله باستخدام `new HTMLDocument("file.html")`. للعرض السريع، السلسلة المضمنة تعمل بشكل مثالي.
-
-## الخطوة 3 – تعريف وإرفاق أنماط CSS
-
-التنسيق هو المكان الذي يحدث فيه السحر. أدناه نعرّف كتلة CSS صغيرة تحدد عائلة الخط، الحجم، الوزن، والتسطير. هذا يوضح **add stylesheet to html** دون ملف `.css` منفصل.
-
-```csharp
-// Step 3: Define a CSS style that demonstrates font properties
-string cssStyle = @"
-    body {
-        font-family: 'Arial';
-        font-size: 20px;
-        font-style: normal;
-        font-weight: bold;
-        text-decoration: underline;
-    }";
-
-// Attach the CSS style to the document
-document.StyleSheets.Add(cssStyle);
-```
-
-> **Why inline CSS?**  
-> الأنماط المضمنة يتم تحليلها فورًا بواسطة Aspose.HTML، مما يضمن أن محرك العرض يرى القواعد الدقيقة التي قصدتها. كما يتجنب مشاكل حل المسارات في حاويات Linux.
-
-## الخطوة 4 – تكوين خيارات عرض الصورة
-
-هنا نستخدم **convert html to png** مع تحكم دقيق في الحجم وإزالة التعرجات. عدّل `Width` و `Height` لتتناسب مع الأبعاد التي تحتاجها للصور المصغرة أو التقرير.
-
-```csharp
-// Step 4: Configure image rendering options (size and antialiasing)
-ImageRenderingOptions imageOptions = new ImageRenderingOptions
-{
-    Width = 800,               // Desired image width in pixels
-    Height = 600,              // Desired image height in pixels
-    UseAntialiasing = true    // Smooths edges for a cleaner look
+    UseAntialiasing = true,   // Improves visual quality.
+    Width = 1024,             // Desired width in pixels.
+    Height = 768              // Desired height in pixels.
 };
 ```
 
-> **Edge case:** إذا كان HTML يحتوي على صور خلفية كبيرة، قد تحتاج إلى زيادة `Width`/`Height` أو ضبط `ImageResolution` لتجنب التشويش.
+لا تتردد في تعديل `Width` و `Height` لتتناسب مع تصميمك. إذا تخطيت هذه الإعدادات، سيستخدم Aspose الحجم الأصلي للصفحة، والذي قد لا يكون ما تتوقعه.
 
-## الخطوة 5 – تحويل مستند HTML إلى ملف PNG
+## الخطوة 4 – تعديل تحسين عرض النص (اختياري لكن موصى به)
 
-أخيرًا، نـ **generate png from html** ونكتبها إلى القرص. استبدل `YOUR_DIRECTORY` بمسار مطلق أو نسبي موجود على جهازك.
+في بيئات Linux أو بدون واجهة، قد يبدو النص غير واضح قليلاً. تمكين الـ hinting يجبر المرسّم على محاذاة الحروف إلى حدود البكسل، مما يمنحك حروفًا أكثر وضوحًا:
 
 ```csharp
-// Step 5: Render the HTML document to a PNG image file
-string outputPath = System.IO.Path.Combine(
-    Environment.CurrentDirectory, "output.png"
-);
-document.RenderToImage(outputPath, imageOptions);
-
-Console.WriteLine($"✅ PNG saved to: {outputPath}");
+// Step 4: Configure text‑rendering hinting for clearer text.
+var textOptions = new TextOptions
+{
+    UseHinting = true
+};
+renderingOptions.TextOptions = textOptions;
 ```
 
-> **Result:** البرنامج ينشئ `output.png` يحتوي على النص “Hello Linux!” منسقًا بخط Arial، 20 px، غامق، ومسطّر. افتح الملف بأي عارض صور للتحقق.
+إذا كنت تعمل على Windows يمكنك إهمال هذا الجزء، لكن لا ضرر من إبقائه—**how to convert html** إلى صورة bitmap يصبح متسقًا عبر الأنظمة.
 
-### مثال كامل يعمل
+## الخطوة 5 – إنشاء الـ Rasterizer وتصوير الصورة
 
-بجمع كل ذلك، إليك البرنامج الكامل الجاهز للتنفيذ:
+مع وجود المستند والإعدادات جاهزة، نقوم بإنشاء كائن `HtmlRasterizer`. يضمن بيان `using` تحرير الموارد بسرعة:
+
+```csharp
+// Step 5: Create the rasterizer with the configured options.
+using (var rasterizer = new HtmlRasterizer(renderingOptions))
+{
+    // Step 6: Render the HTML document to a bitmap.
+    var bitmap = rasterizer.Render(htmlDocument);
+
+    // Step 7: Save the resulting image to a file.
+    bitmap.Save("YOUR_DIRECTORY/output.png");
+}
+```
+
+في هذه المرحلة قامت المكتبة بـ **convert html to image** وحفظتها كـ `output.png`. افتح الملف في أي عارض صور—سترى لقطة مثالية لـ `input.html` بالحجم الذي حددته.
+
+## مثال كامل يعمل
+
+فيما يلي البرنامج بالكامل، جاهز للنسخ واللصق في `Program.cs`. تأكد من وجود توجيهات `using` في الأعلى وأن حزمة NuGet مثبتة.
 
 ```csharp
 using System;
-using Aspose.Html.Drawing;
+using Aspose.Html;
 using Aspose.Html.Rendering.Image;
 
-namespace HtmlToPngDemo
+class RenderWithNewOptions
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
+        // Load the HTML document you want to render.
+        var htmlDocument = new HTMLDocument("YOUR_DIRECTORY/input.html");
+
+        // Prepare image rendering options (size and antialiasing).
+        var renderingOptions = new ImageRenderingOptions
         {
-            // 1️⃣ Create a simple HTML document
-            HTMLDocument document = new HTMLDocument(
-                "<html><head></head><body>Hello Linux!</body></html>"
-            );
+            UseAntialiasing = true,
+            Width = 1024,
+            Height = 768
+        };
 
-            // 2️⃣ Define CSS and attach it (add stylesheet to html)
-            string cssStyle = @"
-                body {
-                    font-family: 'Arial';
-                    font-size: 20px;
-                    font-style: normal;
-                    font-weight: bold;
-                    text-decoration: underline;
-                }";
-            document.StyleSheets.Add(cssStyle);
+        // Configure text‑rendering hinting for clearer text (especially on Linux).
+        var textOptions = new TextOptions
+        {
+            UseHinting = true
+        };
+        renderingOptions.TextOptions = textOptions;
 
-            // 3️⃣ Set rendering options (convert html to png)
-            ImageRenderingOptions imageOptions = new ImageRenderingOptions
-            {
-                Width = 800,
-                Height = 600,
-                UseAntialiasing = true
-            };
+        // Create the rasterizer with the configured options.
+        using (var rasterizer = new HtmlRasterizer(renderingOptions))
+        {
+            // Render the HTML document to a bitmap.
+            var bitmap = rasterizer.Render(htmlDocument);
 
-            // 4️⃣ Render and save (save html as png)
-            string outputPath = System.IO.Path.Combine(
-                Environment.CurrentDirectory, "output.png"
-            );
-            document.RenderToImage(outputPath, imageOptions);
-
-            Console.WriteLine($"✅ PNG saved to: {outputPath}");
+            // Save the resulting image to a file.
+            bitmap.Save("YOUR_DIRECTORY/output.png");
         }
+
+        Console.WriteLine("HTML has been rendered to PNG successfully!");
     }
 }
 ```
 
-شغّل `dotnet run` من مجلد المشروع، وسترى رسالة النجاح متبوعة بالصورة المُنشأة.
+> **النتيجة المتوقعة:** ملف باسم `output.png` موجود في `YOUR_DIRECTORY` يحتوي على تمثيل بدقة 1024 × 768 بكسل لـ `input.html`. ستكون الصورة مضادة للتنعيم والنص مُعدّل بالـ hint لتوضيح أفضل.
 
-![مثال على نتيجة عرض html](output-placeholder.png "مثال على نتيجة عرض html")
+## أسئلة شائعة وحالات خاصة
 
-## أسئلة شائعة ونصائح احترافية
+### ماذا لو كان HTML الخاص بي يشير إلى موارد خارجية؟
 
-### ماذا لو احتجت إلى **save html as png** بخلفية شفافة؟
+تأكد من أن المسارات إما URLs مطلقة أو نسبية إلى المجلد الذي مررته إلى `HTMLDocument`. إذا تعذر العثور على ورقة نمط أو صورة، سيتجاهل الـ rasterizer ذلك بصمت، مما قد يؤدي إلى فقدان الأنماط في الـ PNG النهائي.
 
-اضبط `imageOptions.BackgroundColor = System.Drawing.Color.Transparent;`. Aspose.HTML يحترم قناة ألفا، لذا سيحتفظ PNG بالشفافية.
+### هل يمكنني التصيير إلى صيغ أخرى (JPEG, BMP, GIF)؟
 
-### كيف يمكنني **convert html to png** على خادم Linux بدون رأس؟
+نعم. طريقة `bitmap.Save` تقبل أي صيغة يدعمها `System.Drawing`. فقط غيّر امتداد الملف، مثلاً `output.jpg`. تبقى بيانات الـ raster الأساسية كما هي، لذا لا تزال تستفيد من مضاد التنعيم والـ hint.
 
-Aspose.HTML مُدار بالكامل ولا يعتمد على مكتبات أصلية، لذا يعمل نفس الكود على Ubuntu، Alpine، أو أي حاوية Docker تشغل .NET. فقط تأكد من استعادة حزمة NuGet `Aspose.Html` أثناء عملية البناء.
+### كيف أتعامل مع شاشات عالية الدقة (retina)؟
 
-### هل يمكنني **add stylesheet to html** من ملف خارجي؟
+زد قيم `Width` و `Height` بشكل متناسب (مثلاً 2× لشاشة retina 2×) ثم قلل حجم PNG باستخدام أداة معالجة صور إذا لزم الأمر. سيعطيك ذلك صورة نهائية أكثر وضوحًا.
 
-بالطبع. حمّل ملف CSS إلى سلسلة:
+### هل هناك طريقة لتصوير عنصر محدد فقط بدلاً من الصفحة بالكامل؟
 
-```csharp
-string externalCss = System.IO.File.ReadAllText("styles.css");
-document.StyleSheets.Add(externalCss);
-```
+يمكنك تحميل الـ HTML، وتحديد العنصر عبر طرق DOM، ثم استدعاء `rasterizer.Render(element)`. هذا سيناريو متقدم لكنه يتبع نفس مبادئ **how to render html**.
 
-تأكد من أن مسار الملف قابل للوصول من العملية، خاصةً عند التشغيل داخل حاوية.
+## نصائح الأداء
 
-### ماذا عن الصفحات الكبيرة التي تتجاوز أبعاد الصورة؟
+- **إعادة استخدام الـ rasterizer** إذا كنت بحاجة لتصوير عدة صفحات متتالية؛ إنشاء نسخة جديدة في كل مرة يضيف عبئًا.
+- **إيقاف الخيارات غير الضرورية** (مثال، `UseAntialiasing = false`) إذا كنت تولد صورًا مصغرة حيث السرعة أهم من الجودة.
+- **تجميع عمليات التصيير** في خيط خلفي للحفاظ على استجابة واجهة المستخدم في تطبيقات سطح المكتب.
 
-يمكنك تمكين التقسيم إلى صفحات:
+## الخلاصة
 
-```csharp
-imageOptions.PageHeight = 1200; // height of each “page” slice
-imageOptions.PageWidth = 800;
-```
+أصبح لديك الآن حل شامل من البداية إلى النهاية لـ **how to render html** إلى ملف PNG باستخدام C#. باتباع الخطوات السابقة يمكنك **convert html to image**، **set output image size**، وحتى ضبط عرض النص بدقة للحصول على أفضل جودة بصرية.  
 
-سوف ينتج Aspose.HTML عدة PNGs، واحدة لكل صفحة، ويمكنك دمجها إذا لزم الأمر.
+من هنا قد تستكشف التصيير إلى PDF، إضافة علامات مائية، أو دمج هذه العملية في واجهة ويب API تُعيد لقطات شاشة عند الطلب. نفس المبادئ تنطبق—فقط غير صيغة الإخراج أو عدّل خيارات التصيير.  
 
-### هل هناك طريقة **generate png from html** بدقة DPI أعلى لجودة الطباعة؟
+لا تتردد في تجربة أحجام مختلفة، أو عمق ألوان مختلف، أو حتى إخراج SVG. إذا واجهت أي مشاكل، فإن وثائق Aspose.Html هي مرجع جيد، لكن الكود المعروض هنا يجب أن يعمل مباشرةً في معظم السيناريوهات.  
 
-اضبط `imageOptions.ImageResolution = 300;` (نقطة في البوصة). DPI أعلى ينتج ملفات أكبر لكن مخرجات أوضح، مثالية للـ PDFs أو الأصول الجاهزة للطباعة.
+برمجة سعيدة، واستمتع بتحويل HTML إلى صور واضحة!  
 
-## ملخص – كيفية تحويل HTML إلى PNG بسرعة
-
-- **How to render html**: استخدم `HTMLDocument` من Aspose.HTML.  
-- **Convert html to png**: كوّن `ImageRenderingOptions` واستدعِ `RenderToImage`.  
-- **Add stylesheet to html**: أدخل CSS عبر `document.StyleSheets.Add`.  
-- **Save html as png**: حدد مسار الإخراج ودع Aspose يتولى كتابة الملف.  
-- **Generate png from html**: عدّل الحجم، إزالة التعرجات، DPI، والخلفية حسب متطلبات مشروعك.
-
-هذا يغطي كامل سير العمل من التعليمات البرمجية الخام إلى صورة PNG مصقولة.
-
-## ما التالي؟
-
-الآن بعد أن أتقنت الأساسيات، يمكنك استكشاف:
-
-- **Batch processing** – كرّر العملية على مجلد من ملفات HTML و **convert html to png** جماعيًا.  
-- **Dynamic content** – أدخل JavaScript أو ربط البيانات قبل العرض للحصول على مرئيات أغنى.  
-- **Alternative formats** – تدعم Aspose.HTML أيضًا JPEG، BMP، وحتى PDF إذا كنت تحتاج مخرجًا مختلفًا.  
-
-لا تتردد في تجربة خطوط مختلفة، ألوان، أو حتى رسومات SVG داخل HTML الخاص بك. المكتبة مرنة بما يكفي للتعامل مع معظم تخطيطات الويب، وبما أنها .NET نقي، فإنك تظل غير مقيد بمنصة.
-
-Got a tricky case you’re wrestling with? Drop
+![مثال على نتيجة تحويل HTML](output.png "مثال على نتيجة تحويل HTML")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

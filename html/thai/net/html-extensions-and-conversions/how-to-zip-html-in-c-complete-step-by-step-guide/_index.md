@@ -1,21 +1,23 @@
 ---
 category: general
-date: 2026-04-05
-description: วิธีบีบอัดไฟล์ HTML และทรัพยากรใน C# ด้วย Aspose.HTML. เรียนรู้การบันทึก
-  HTML เป็น zip และสร้างไฟล์ zip ด้วยตัวอย่าง C# ในไม่กี่นาที.
+date: 2026-01-09
+description: เรียนรู้วิธีบีบอัด HTML เป็นไฟล์ zip ด้วย C# โดยใช้ Aspose.Html บทเรียนนี้ครอบคลุมการบันทึก
+  HTML เป็น zip, การสร้างไฟล์ zip ด้วย C#, การแปลง HTML เป็น zip, และการสร้าง zip
+  จาก HTML.
 draft: false
 keywords:
 - how to zip html
-- save html to zip
-- create zip archive csharp
-- csharp zip archive example
+- save html as zip
+- generate zip file c#
+- convert html to zip
+- create zip from html
 language: th
-og_description: วิธีบีบอัด HTML ใน C# อย่างง่าย ทำตามบทเรียนนี้เพื่อบันทึก HTML เป็น
-  zip, สร้างไฟล์ zip ด้วยตัวอย่าง C# และจัดการทรัพยากรโดยอัตโนมัติ
-og_title: วิธีบีบอัด HTML ด้วย C# – คู่มือฉบับสมบูรณ์
+og_description: วิธีบีบอัด HTML เป็น zip ใน C#? ทำตามคู่มือนี้เพื่อบันทึก HTML เป็น
+  zip, สร้างไฟล์ zip ด้วย C#, แปลง HTML เป็น zip, และสร้าง zip จาก HTML ด้วย Aspose.Html.
+og_title: วิธีบีบอัด HTML ด้วย C# – คู่มือขั้นตอนเต็ม
 tags:
 - C#
-- Aspose.HTML
+- Aspose.Html
 - ZIP
 - File I/O
 title: วิธีบีบอัด HTML ด้วย C# – คู่มือขั้นตอนเต็ม
@@ -28,231 +30,211 @@ url: /th/net/html-extensions-and-conversions/how-to-zip-html-in-c-complete-step-
 
 # วิธีบีบอัด HTML เป็น ZIP ใน C# – คู่มือขั้นตอนเต็ม
 
-เคยสงสัย **วิธีบีบอัด HTML** พร้อมกับรูปภาพ, CSS หรือสคริปต์ที่อ้างอิงทั้งหมดหรือไม่? คุณไม่ได้เป็นคนเดียว ในหลายสถานการณ์ของการทำเว็บอัตโนมัติ คุณต้องการแพ็กเกจพกพาเดียวที่บรรจุหน้า *และ* สินทรัพย์ทั้งหมดของมัน ข่าวดีคือ? ด้วย Aspose.HTML คุณทำได้ในไม่กี่บรรทัดของ C# และให้ไลบรารีสตรีมทุกทรัพยากรโดยตรงเข้าไฟล์ ZIP
+เคยสงสัย **วิธีบีบอัด HTML เป็น zip** โดยตรงจากแอปพลิเคชัน C# ของคุณโดยไม่ต้องใช้เครื่องมือบีบอัดภายนอกหรือไม่? คุณไม่ได้เป็นคนเดียวที่เจอปัญหา นักพัฒนาจำนวนมากมักเจออุปสรรคเมื่อจำเป็นต้องรวมไฟล์ HTML กับทรัพยากรของมัน (CSS, รูปภาพ, สคริปต์) เข้าเป็นไฟล์เก็บเดียวเพื่อการส่งต่อที่ง่าย  
 
-ในบทเรียนนี้เราจะสาธิตวิธี **บันทึก HTML เป็น zip** ด้วย `ResourceHandler` ที่กำหนดเอง, วิเคราะห์โค้ดแต่ละบรรทัด, และอธิบายว่าทำไมวิธีนี้จึงเชื่อถือได้มากกว่าการคัดลอกไฟล์ด้วยตนเอง เมื่อจบคุณจะสามารถ **สร้าง zip archive CSharp** ตัวอย่างที่ทำงานกับเอกสาร HTML ใด ๆ — ไม่ว่ามีทรัพยากรเชื่อมโยงกี่รายการ
+ในบทแนะนำนี้เราจะพาคุณผ่านวิธีแก้ปัญหาที่ใช้งานได้จริงที่ **บันทึก HTML เป็น zip** ด้วยไลบรารี Aspose.Html, แสดงวิธี **สร้างไฟล์ zip ด้วย C#**, และอธิบายวิธี **แปลง HTML เป็น zip** สำหรับกรณีเช่น การแนบไฟล์ในอีเมลหรือเอกสารออฟไลน์ เมื่อจบคุณจะสามารถ **สร้าง zip จาก HTML** ได้ด้วยเพียงไม่กี่บรรทัดของโค้ด
 
-## สิ่งที่คุณจะได้เรียนรู้
+## สิ่งที่คุณต้องเตรียม
 
-- ความต้องการเบื้องต้น (Aspose.HTML 4.x+, .NET 6+, ตัวอย่างไฟล์ HTML)
-- วิธีตั้งค่า `ZipArchive` และ `ResourceHandler` ที่กำหนดเอง
-- ทำไมการสตรีมทรัพยากรโดยตรงเข้าอาร์ไคฟ์หลีกเลี่ยงไฟล์ชั่วคราวได้
-- การจัดการกรณีขอบเช่นชื่อทรัพยากรซ้ำและไฟล์ขนาดใหญ่
-- ตัวอย่างโค้ดที่ทำงานครบถ้วนที่คุณสามารถคัดลอกไปวางใน Visual Studio และรันได้
+| Prerequisite | Why it matters |
+|--------------|----------------|
+| .NET 6.0 or later (or .NET Framework 4.7+) | Runtime รุ่นใหม่ให้การสนับสนุน `FileStream` และ I/O แบบอะซิงค์ |
+| Visual Studio 2022 (or any C# IDE) | ช่วยในการดีบักและ IntelliSense |
+| Aspose.Html for .NET (NuGet package `Aspose.Html`) | ไลบรารีนี้จัดการการพาร์ส HTML และการสกัดทรัพยากร |
+| An input HTML file with linked resources (e.g., `input.html`) | นี่คือแหล่งที่คุณจะบีบอัดเป็น zip |
 
-พร้อมหรือยัง? ไปดูกันเลย
+If you haven’t installed Aspose.Html yet, run:
 
-## ความต้องการเบื้องต้น
-
-ก่อนเริ่ม, ตรวจสอบว่าคุณมี:
-
-1. **.NET 6 SDK** (หรือเวอร์ชัน .NET ล่าสุด) ติดตั้งแล้ว
-2. **Aspose.HTML for .NET** NuGet package (`Aspose.Html`)
-3. โฟลเดอร์ชื่อ `YOUR_DIRECTORY` ที่มีไฟล์ `input.html` (หน้าที่คุณต้องการบีบอัด)
-4. ความคุ้นเคยพื้นฐานกับ `System.IO.Compression` และ C# async/await (ไม่บังคับแต่เป็นประโยชน์)
-
-> **เคล็ดลับ:** หากคุณใช้ Visual Studio, คลิกขวาที่โปรเจกต์ของคุณ → *Manage NuGet Packages* → ค้นหา **Aspose.Html** แล้วติดตั้งเวอร์ชันเสถียรล่าสุด
-
-## ขั้นตอนที่ 1 – สร้างคอนเทนเนอร์ ZIP Archive
-
-แรกสุดเราต้องมี `FileStream` ที่ชี้ไปยังไฟล์ ZIP ผลลัพธ์, แล้วห่อมันด้วย `ZipArchive` การใช้ `ZipArchiveMode.Update` จะทำให้เราสามารถเพิ่มรายการได้ทีละรายการ
-
-```csharp
-using System.IO;
-using System.IO.Compression;
-using Aspose.Html;
-using Aspose.Html.Saving;
-
-// The ZIP file that will hold the HTML document and every linked resource.
-using (var zipFileStream = new FileStream(@"YOUR_DIRECTORY\output.zip", FileMode.Create))
-using (var zipArchive = new ZipArchive(zipFileStream, ZipArchiveMode.Update))
-{
-    // All further steps go inside this using block.
-}
+```bash
+dotnet add package Aspose.Html
 ```
 
-> **ทำไมเรื่องนี้สำคัญ:** การเปิดอาร์ไคฟ์เพียงครั้งเดียวและคงไว้เปิดอยู่ช่วยหลีกเลี่ยงค่าใช้จ่ายจากการเปิด/ปิดระบบไฟล์ซ้ำ ๆ ซึ่งอาจเป็นคอขวดของประสิทธิภาพสำหรับหน้าเว็บขนาดใหญ่
+Now that the stage is set, let’s break the process down into digestible steps.
 
-## ขั้นตอนที่ 2 – สร้าง `ResourceHandler` ที่กำหนดเอง
+## ขั้นตอนที่ 1 – โหลดเอกสาร HTML ที่ต้องการบีบอัดเป็น Zip
 
-Aspose.HTML จะเรียก `ResourceHandler.HandleResource` ทุกครั้งที่พบทรัพยากรภายนอก (รูปภาพ, CSS, สคริปต์ ฯลฯ) โดยการคืนค่า `Stream` ที่ชี้ไปยังรายการ ZIP ใหม่ เราจะทำให้ renderer เขียนโดยตรงเข้าอาร์ไคฟ์
-
-```csharp
-// Step 2: Define a handler that streams each resource into the ZIP.
-class ZipHandler : ResourceHandler
-{
-    private readonly ZipArchive _zipArchive;
-
-    public ZipHandler(ZipArchive zipArchive) => _zipArchive = zipArchive;
-
-    public override Stream HandleResource(ResourceInfo info)
-    {
-        // Preserve the original relative URL as the entry name.
-        // This keeps folder structure intact inside the ZIP.
-        var entry = _zipArchive.CreateEntry(info.Url);
-        // The renderer writes the resource bytes straight to this stream.
-        return entry.Open();
-    }
-}
-```
-
-> **กรณีขอบ:** หากสองทรัพยากรมี URL เดียวกัน (อาจเกิดจากการเปลี่ยนเส้นทาง) `CreateEntry` จะโยนข้อผิดพลาด ตัวจัดการที่พร้อมใช้งานจริงอาจตรวจสอบ `Exists` แล้วเปลี่ยนชื่อซ้ำ, แต่ในหลายกรณีวิธีง่าย ๆ นี้ทำงานได้ดี
-
-## ขั้นตอนที่ 3 – เชื่อมตัวจัดการกับ `HtmlSaveOptions`
-
-ต่อไปเราบอก Aspose.HTML ให้ใช้ `ZipHandler` ของเราเมื่อบันทึก `HtmlSaveOptions` ยังให้คุณควบคุมอย่าง `EmbedResources` (ตั้งเป็น `false` เพราะเราต้องการแยกไฟล์ออก)
-
-```csharp
-// Inside the using block from Step 1:
-var resourceHandler = new ZipHandler(zipArchive);
-var htmlSaveOptions = new HtmlSaveOptions
-{
-    // Do not embed resources; we want them as separate entries.
-    EmbedResources = false,
-    ResourceHandler = resourceHandler
-};
-```
-
-## ขั้นตอนที่ 4 – โหลดเอกสาร HTML ต้นฉบับ
-
-การโหลดทำได้ง่าย ตัวสร้างรับพาธหรือ URL ที่นี่เราชี้ไปที่ `input.html` ในเครื่องของเรา
-
-```csharp
-var htmlDoc = new HTMLDocument(@"YOUR_DIRECTORY\input.html");
-```
-
-> **ทำไมต้องโหลดก่อน?** Aspose.HTML จะทำการพาร์สเอกสาร, แก้ไข URL แบบ relative, และสร้างกราฟทรัพยากรภายใน ขั้นตอนนี้จำเป็นก่อนเรียก `Save`
-
-## ขั้นตอนที่ 5 – บันทึกเอกสาร – สตรีมทรัพยากรอัตโนมัติ
-
-บรรทัดสุดท้ายเป็นการกระตุ้นกระบวนการทั้งหมด: Aspose.HTML จะเขียนไฟล์ `.html` หลักเข้าอาร์ไคฟ์และสำหรับแต่ละการอ้างอิงภายนอกจะเรียก `ZipHandler` ของเรา ผลลัพธ์คือไฟล์ `output.zip` เพียงไฟล์เดียวที่คุณสามารถเปิดด้วยโปรแกรมจัดการอาร์ไคฟ์ใด ๆ และเห็นโครงสร้างโฟลเดอร์ที่สะท้อนหน้าเว็บต้นฉบับ
-
-```csharp
-// Still inside the outer using block:
-htmlDoc.Save(htmlSaveOptions);
-```
-
-## ตัวอย่างทำงานเต็มรูปแบบ
-
-ด้านล่างเป็นโปรแกรมเต็มที่คุณสามารถคัดลอก‑วางลงในแอปคอนโซล มันรวม `using` ทั้งหมด, ตัวจัดการที่กำหนดเอง, และลำดับการทำงาน
+The first thing you have to do is tell Aspose.Html where your source HTML lives. This step is crucial because the library needs to parse the markup and discover all linked resources (CSS, images, fonts).  
 
 ```csharp
 using System;
 using System.IO;
-using System.IO.Compression;
 using Aspose.Html;
 using Aspose.Html.Saving;
 
-class Program
+// Path to your HTML file – adjust as needed.
+string htmlPath = Path.Combine(Environment.CurrentDirectory, "input.html");
+
+// Create an HTMLDocument instance that loads the file into memory.
+HTMLDocument htmlDoc = new HTMLDocument(htmlPath);
+```
+
+> **ทำไมเรื่องนี้ถึงสำคัญ:** การโหลดเอกสารตั้งแต่ต้นทำให้ไลบรารีสร้างโครงสร้างทรัพยากร หากข้ามขั้นตอนนี้คุณจะต้องค้นหา `<link>` หรือ `<img>` ทุกแท็กด้วยตนเอง ซึ่งเป็นงานที่น่าเบื่อและเสี่ยงต่อข้อผิดพลาด
+
+## ขั้นตอนที่ 2 – เตรียม Custom Resource Handler (ไม่บังคับแต่มีประโยชน์)
+
+Aspose.Html writes each external resource to a stream. By default it creates files on disk, but you can keep everything in memory by supplying a custom `ResourceHandler`. This is especially handy when you want to avoid temporary files or when you’re running in a sandboxed environment (e.g., Azure Functions).
+
+```csharp
+// Custom handler that returns a fresh MemoryStream for every resource.
+class InMemoryResourceHandler : ResourceHandler
 {
+    public override Stream HandleResource(Resource resource)
+    {
+        // The stream will be filled by Aspose.Html with the resource bytes.
+        return new MemoryStream();
+    }
+}
+```
+
+> **Pro tip:** หาก HTML ของคุณอ้างอิงรูปภาพขนาดใหญ่ ควรสตรีมโดยตรงไปยังไฟล์แทนการเก็บในหน่วยความจำ เพื่อหลีกเลี่ยงการใช้ RAM มากเกินไป
+
+## ขั้นตอนที่ 3 – สร้าง Output ZIP Stream
+
+Next, we need a destination where the ZIP archive will be written. Using a `FileStream` ensures the file is created efficiently and can be opened by any ZIP utility after the program finishes.
+
+```csharp
+// Define where the resulting ZIP file will live.
+string zipPath = Path.Combine(Environment.CurrentDirectory, "output.zip");
+
+// Open a FileStream in Create mode – this overwrites any existing file.
+using FileStream zipStream = new FileStream(zipPath, FileMode.Create);
+```
+
+> **Why we use `using`:** คำสั่ง `using` รับประกันว่าการสตรีมจะถูกปิดและ flush อย่างถูกต้อง ป้องกันไฟล์ ZIP เสียหาย
+
+## ขั้นตอนที่ 4 – ตั้งค่า Save Options ให้ใช้รูปแบบ ZIP
+
+Aspose.Html provides `HTMLSaveOptions` where you can specify the output format (`SaveFormat.Zip`) and plug in the custom resource handler we created earlier.
+
+```csharp
+// Tell Aspose.Html we want a ZIP archive.
+HTMLSaveOptions saveOptions = new HTMLSaveOptions(SaveFormat.Zip);
+
+// Attach the in‑memory resource handler.
+saveOptions.Resources = new InMemoryResourceHandler();
+```
+
+> **Edge case:** หากคุณละ `saveOptions.Resources` ไว้ Aspose.Html จะเขียนแต่ละทรัพยากรไปยังโฟลเดอร์ชั่วคราวบนดิสก์ ซึ่งอาจทิ้งไฟล์เหลืออยู่หากเกิดข้อผิดพลาด
+
+## ขั้นตอนที่ 5 – บันทึกเอกสาร HTML เป็นไฟล์ ZIP
+
+Now the magic happens. The `Save` method walks through the HTML document, pulls in every referenced asset, and packs everything into the `zipStream` we opened earlier.
+
+```csharp
+// Perform the actual conversion – this writes the ZIP file.
+htmlDoc.Save(zipStream, saveOptions);
+```
+
+After the `Save` call completes, you’ll have a fully functional `output.zip` containing:
+
+* `index.html` (the original markup) – `index.html` (โค้ดต้นฉบับ)
+* All CSS files – ไฟล์ CSS ทั้งหมด
+* Images, fonts, and any other linked resources – รูปภาพ, ฟอนต์, และทรัพยากรอื่น ๆ ที่เชื่อมโยง
+
+## ขั้นตอนที่ 6 – ตรวจสอบผลลัพธ์ (ไม่บังคับแต่แนะนำ)
+
+It’s good practice to double‑check that the generated archive is valid, especially when you automate this in a CI pipeline.
+
+```csharp
+// Quick verification: list entries inside the ZIP.
+using var verificationStream = new FileStream(zipPath, FileMode.Open, FileAccess.Read);
+using var zip = new System.IO.Compression.ZipArchive(verificationStream, System.IO.Compression.ZipArchiveMode.Read);
+Console.WriteLine("Archive contains the following entries:");
+foreach (var entry in zip.Entries)
+{
+    Console.WriteLine($"- {entry.FullName}");
+}
+```
+
+You should see `index.html` plus any resource files listed. If something is missing, revisit the HTML markup for broken links or check the console for warnings emitted by Aspose.Html.
+
+## ตัวอย่างการทำงานเต็มรูปแบบ
+
+Putting everything together, here’s the complete, ready‑to‑run program. Copy‑paste it into a new console project and hit **F5**.
+
+```csharp
+using System;
+using System.IO;
+using Aspose.Html;
+using Aspose.Html.Saving;
+
+class SaveHtmlToZip
+{
+    // Custom handler that writes each resource to an in‑memory stream.
+    class InMemoryResourceHandler : ResourceHandler
+    {
+        public override Stream HandleResource(Resource resource)
+        {
+            // Keep resources in memory – Aspose.Html will fill the stream.
+            return new MemoryStream();
+        }
+    }
+
     static void Main()
     {
-        // Path where the ZIP will be created.
-        const string outputPath = @"YOUR_DIRECTORY\output.zip";
-        const string inputPath  = @"YOUR_DIRECTORY\input.html";
+        // 1️⃣ Load the HTML document.
+        string htmlPath = Path.Combine(Environment.CurrentDirectory, "input.html");
+        HTMLDocument htmlDoc = new HTMLDocument(htmlPath);
 
-        // Step 1: Open the archive.
-        using (var zipFileStream = new FileStream(outputPath, FileMode.Create))
-        using (var zipArchive = new ZipArchive(zipFileStream, ZipArchiveMode.Update))
-        {
-            // Step 2: Attach the custom resource handler.
-            var resourceHandler = new ZipHandler(zipArchive);
-            var htmlSaveOptions = new HtmlSaveOptions
-            {
-                EmbedResources = false,
-                ResourceHandler = resourceHandler
-            };
+        // 2️⃣ Prepare the output ZIP file.
+        string zipPath = Path.Combine(Environment.CurrentDirectory, "output.zip");
+        using FileStream zipStream = new FileStream(zipPath, FileMode.Create);
 
-            // Step 3: Load the HTML document.
-            var htmlDoc = new HTMLDocument(inputPath);
+        // 3️⃣ Configure save options for ZIP format.
+        HTMLSaveOptions saveOptions = new HTMLSaveOptions(SaveFormat.Zip);
+        saveOptions.Resources = new InMemoryResourceHandler();
 
-            // Step 4: Save – all resources are streamed into the ZIP.
-            htmlDoc.Save(htmlSaveOptions);
-        }
+        // 4️⃣ Save the document – this creates the ZIP archive.
+        htmlDoc.Save(zipStream, saveOptions);
 
-        Console.WriteLine("HTML and its resources have been zipped successfully!");
-    }
-}
+        // 5️⃣ Optional verification step.
+        using var verify = new FileStream(zipPath, FileMode.Open, FileAccess.Read);
+        using var archive = new System.IO.Compression.ZipArchive(verify, System.IO.Compression.ZipArchiveMode.Read);
+        Console.WriteLine("✅ ZIP created! Contents:");
+        foreach (var entry in archive.Entries)
+            Console.WriteLine($" • {entry.FullName}");
 
-// Step 2 – Resource handler definition.
-class ZipHandler : ResourceHandler
-{
-    private readonly ZipArchive _zipArchive;
-
-    public ZipHandler(ZipArchive zipArchive) => _zipArchive = zipArchive;
-
-    public override Stream HandleResource(ResourceInfo info)
-    {
-        // Preserve folder hierarchy inside the ZIP.
-        var entry = _zipArchive.CreateEntry(info.Url);
-        return entry.Open();
+        Console.WriteLine("\nHTML successfully saved as zip.");
     }
 }
 ```
 
-### ผลลัพธ์ที่คาดหวัง
-
-หลังจากรันโปรแกรม, เปิด `output.zip`. คุณควรเห็น:
+**ผลลัพธ์ที่คาดหวัง** (excerpt ของคอนโซล):
 
 ```
-output.zip
-│─ index.html          (the saved HTML file)
-│─ css/
-│   └─ styles.css
-│─ images/
-│   ├─ logo.png
-│   └─ banner.jpg
-│─ scripts/
-│   └─ app.js
-```
+✅ ZIP created! Contents:
+ • index.html
+ • styles/site.css
+ • images/logo.png
+ • scripts/app.js
 
-ไฟล์ทั้งหมดจะคงรักษาเส้นทาง relative เหมือนที่อ้างอิงใน `input.html`. ตอนนี้คุณสามารถส่ง ZIP นี้เป็น artefact เดียว, แตกไฟล์บนเครื่องใดก็ได้, และเปิด `index.html` ในเบราว์เซอร์โดยไม่มีไฟล์หาย
+HTML successfully saved as zip.
+```
 
 ## คำถามทั่วไป & กรณีขอบ
 
-### ถ้า HTML มี URL แบบ absolute (เช่น `https://example.com/style.css`) จะทำอย่างไร?
+| Question | Answer |
+|----------|--------|
+| *What if my HTML references external URLs (e.g., CDN fonts)?* | Aspose.Html will download those resources if they’re reachable. If you need offline‑only archives, replace CDN links with local copies before zipping. |
+| *Can I stream the ZIP directly to an HTTP response?* | Absolutely. Replace the `FileStream` with the response stream (`HttpResponse.Body`) and set `Content‑Type: application/zip`. |
+| *What about large files that might exceed memory?* | Switch `InMemoryResourceHandler` to a handler that returns a `FileStream` pointing to a temp folder. This avoids blowing up RAM. |
+| *Do I need to dispose of `HTMLDocument` manually?* | The `HTMLDocument` implements `IDisposable`. Wrap it in a `using` block if you prefer explicit disposal, though the GC will clean up after the program exits. |
+| *Is there any licensing concern with Aspose.Html?* | Aspose provides a free evaluation mode with a watermark. For production, purchase a license and call `License license = new License(); license.SetLicense("Aspose.Total.NET.lic");` before using the library. |
 
-`ResourceHandler` จะได้รับ URL ที่ *resolve* แล้ว, ดังนั้นชื่อรายการจะเป็นสตริง URL เต็ม ซึ่งไม่ใช่ชื่อไฟล์ที่ถูกต้อง เพื่อจัดการคุณสามารถทำ sanitization ของ URL ได้:
+## เคล็ดลับ & แนวปฏิบัติที่ดีที่สุด
 
-```csharp
-public override Stream HandleResource(ResourceInfo info)
-{
-    var safeName = info.Url.Replace("://", "_").Replace("/", "_");
-    var entry = _zipArchive.CreateEntry(safeName);
-    return entry.Open();
-}
-```
-
-### จะใส่ไฟล์ ZIP ในการตอบสนองของ Web API อย่างไร?
-
-เพียงอ่าน ZIP ที่สร้างขึ้นเป็น byte array แล้วคืนค่าเป็น `FileContentResult` (ASP.NET Core) หรือ `HttpResponseMessage` (Web API) อาร์ไคฟ์จะถูกเขียนเต็มที่เมื่อบล็อก `using` สิ้นสุด, ดังนั้นคุณสามารถสตรีมได้อย่างปลอดภัย
-
-### สามารถบีบอัด HTML เองแทนการเก็บเป็นข้อความธรรมดาได้หรือไม่?
-
-ทำได้. ตั้งค่า `htmlSaveOptions.CompressionLevel = CompressionLevel.Optimal;` ภายในอ็อบเจกต์ `HtmlSaveOptions` Aspose.HTML จะใช้การบีบอัด Deflate กับรายการ HTML หลัก
-
-### ถ้าทรัพยากรมีขนาดใหญ่ (หลายร้อย MB) จะเป็นอย่างไร?
-
-เพราะตัวจัดการสตรีมโดยตรงเข้า ZIP entry, การใช้หน่วยความจำจึงต่ำมาก ข้อจำกัดเดียวคือขนาดบัฟเฟอร์ของ `FileStream` พื้นฐานที่ 4096 ไบต์ — เพียงพอสำหรับสถานการณ์ส่วนใหญ่
-
-## เคล็ดลับสำหรับโค้ดพร้อมใช้งานใน Production
-
-- **ตรวจสอบพาธอินพุต** – ป้องกัน `null` หรือพาธที่เป็นอันตราย
-- **บันทึกแต่ละทรัพยากร** – มีประโยชน์สำหรับการดีบักไฟล์หาย
-- **จัดการชื่อรายการซ้ำ** – ตรวจสอบ `zipArchive.GetEntry(name)` ก่อน `CreateEntry`
-- **Dispose อย่างถูกต้อง** – คำสั่ง `using` ดูแลส่วนนี้แล้ว, แต่ถ้าคุณเปลี่ยนเป็นโค้ด async ให้ใช้ `await using`
+* **Pro tip:** Keep your HTML and resources in a dedicated folder (`wwwroot/`). That way you can pass the folder path to `HTMLDocument` and let Aspose.Html resolve relative URLs automatically.  
+* **Watch out for:** Circular references (e.g., a CSS file that imports itself). They’ll cause an infinite loop and crash the save operation.  
+* **Performance tip:** If you’re generating many ZIPs in a loop, reuse a single `HTMLSaveOptions` instance and only change the output stream each iteration.  
+* **Security note:** Never accept untrusted HTML from users without sanitizing it first – malicious scripts could be embedded and later executed when the ZIP is opened.  
 
 ## สรุป
 
-เราได้อธิบาย **วิธีบีบอัด HTML** ใน C# ตั้งแต่ต้นจนจบ, แสดงวิธี **บันทึก HTML เป็น zip** และให้รูปแบบ **create zip archive CSharp** ที่นำกลับมาใช้ได้ โดยการใช้ `ResourceHandler` ของ Aspose.HTML คุณหลีกเลี่ยงไฟล์ชั่วคราว, ลดการใช้หน่วยความจำ, และได้แพ็กเกจพกพาที่สะอาดพร้อมแจกจ่าย
+We’ve covered **how to zip HTML** in C# from start to finish, showing you how to **save HTML as zip**, **generate zip file C#**, **convert HTML to zip**, and ultimately **create zip from HTML** using Aspose.Html. The key steps are loading the document, configuring a ZIP‑aware `HTMLSaveOptions`, optionally handling resources in memory, and finally writing the archive to a stream.
 
-ลองทดลองเพิ่มเติม: ฝังฟอนต์, แปลงเป็น PDF, หรือบีบอัดหลายหน้า HTML ลงในอาร์ไคฟ์เดียว หลักการเดียวกัน—แค่เปลี่ยน `HTMLDocument` หรือวนลูปไฟล์หลายไฟล์
+Now you can integrate this pattern into web APIs, desktop utilities, or build pipelines that automatically package documentation for offline use. Want to go further? Try adding encryption to the ZIP, or combine multiple HTML pages into a single archive for e‑book generation.
 
-มีคำถามเพิ่มเติมเกี่ยวกับการบีบอัดทรัพยากร, การใช้ไลบรารี Aspose อื่น ๆ, หรือกรณีขอบ? แสดงความคิดเห็นด้านล่างหรือดูคู่มือที่เกี่ยวข้องของเรา เช่น **csharp zip archive example**, **streaming large files**, และ **working with Aspose.HTML in ASP.NET Core**.
-
-Happy coding, and enjoy the simplicity of a single ZIP that contains everything your web page needs! 
-
-![วิธีบีบอัด html diagram](image.png "แผนภาพแสดงการไหลของ HTML → ResourceHandler → รายการ ZIP")
+Got more questions about zipping HTML, handling edge cases, or integrating with other .NET libraries? Drop a comment below, and happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
