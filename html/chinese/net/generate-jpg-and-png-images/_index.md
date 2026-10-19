@@ -51,7 +51,6 @@ Aspose.HTML for .NET 提供了一种将 HTML 转换为图像的简单方法。�
 
 ### [如何在将 DOCX 转换为 PNG/JPG 时启用抗锯齿](./how-to-enable-antialiasing-when-converting-docx-to-png-jpg/)
 了解如何在使用 Aspose.HTML for .NET 将 DOCX 文档转换为 PNG 或 JPG 图像时启用抗锯齿，以提升图像质量。
-
 ### [使用 C# 将 docx 转换为 png 并创建 zip 存档教程](./convert-docx-to-png-create-zip-archive-c-tutorial/)
 学习如何使用 C# 将 DOCX 文档转换为 PNG 图像并打包为 ZIP 文件的完整步骤。
 ### [使用 C# 将 HTML 转换为 PNG – 步骤指南](./create-png-from-html-in-c-step-by-step-guide/)
@@ -103,6 +102,12 @@ Aspose.HTML for .NET 提供了一种将 HTML 转换为图像的简单方法。�
 了解如何使用 Aspose.HTML 将 HTML 渲染为 PNG 图像的完整步骤指南。
 ### [将 docx 导出为 png – 完整 C# 指南](./export-docx-as-png-complete-c-guide/)
 学习如何使用 C# 将 DOCX 文档导出为 PNG 图像的完整步骤和最佳实践。
+### [如何在使用 C# 导出文档为图像时启用抗锯齿](./how-to-enable-antialiasing-export-document-to-image-with-c/)
+了解如何在使用 Aspose.HTML for .NET 将文档导出为图像时启用抗锯齿，以提升图像质量。
+### [使用 Aspose.HTML 从 HTML 创建图像 – 完整分步指南](./create-image-from-html-with-aspose-html-complete-step-by-ste/)
+完整的分步指南，教您使用 Aspose.HTML 将 HTML 转换为图像，涵盖设置、代码示例和最佳实践。
+### [使用 C# 将 Word 文档转换为 PNG – 分步指南](./create-png-from-word-step-by-step-c-guide/)
+学习如何使用 C# 将 Word 文档转换为 PNG 图像的完整步骤。
 
 ## 结论
 

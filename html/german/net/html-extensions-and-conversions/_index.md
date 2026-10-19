@@ -181,6 +181,8 @@ Erfahren Sie, wie Sie mit einem benutzerdefinierten Ressourcen-Handler Webseiten
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET ein ZIP‑Archiv erstellen und HTML‑Inhalte samt eingebetteten Bildern komprimieren.
 ### [HTML in PDF rendern in C# – Vollständige Anleitung mit Seitengröße & Antialiasing](./render-html-to-pdf-in-c-full-guide-with-page-size-anti-alias/)
 Entdecken Sie, wie Sie HTML mit Aspose.HTML für .NET in PDF konvertieren, Seitengröße festlegen und Antialiasing aktivieren.
+### [HTML in ZIP speichern in C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./save-html-to-zip-in-c-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie HTML-Inhalte in C# komplett schrittweise in ein ZIP-Archiv speichern.
 
 ## Abschluss
 

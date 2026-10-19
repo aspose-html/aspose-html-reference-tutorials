@@ -73,6 +73,9 @@ Odemkněte sílu Aspose.HTML pro .NET! Naučte se, jak snadno vykreslit dokument
 Naučte se, jak pomocí Aspose.HTML v C# stylovat odstavce a dosáhnout profesionálního vzhledu HTML dokumentů.
 ### [Jak renderovat HTML – Kompletní průvodce s vlastním správcem zdrojů](./how-to-render-html-complete-guide-with-custom-resource-handl/)
 Naučte se, jak renderovat HTML pomocí vlastního správce zdrojů v kompletním průvodci.
+### [Renderujte HTML do PNG a ZIP v paměti – Kompletní průvodce C#](./render-html-to-png-and-zip-in-memory-complete-c-guide/)
+Kompletní návod, jak pomocí Aspose.HTML v .NET vykreslit HTML do PNG a vytvořit ZIP archiv v paměti s podrobnými ukázkami.
+
 ### [Jak vykreslit HTML jako PNG – Kompletní průvodce C#](./how-to-render-html-as-png-complete-c-guide/)
 Kompletní průvodce v C#, jak pomocí Aspose.HTML převést HTML do PNG formátu s podrobnými ukázkami.
 

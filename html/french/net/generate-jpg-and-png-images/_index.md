@@ -104,6 +104,12 @@ Apprenez à désactiver l'anticrénelage pour obtenir des images PNG nettes lors
 Découvrez comment convertir du HTML en images PNG avec Aspose.HTML grâce à un guide détaillé étape par étape.
 ### [Exporter docx en png – Guide complet C#](./export-docx-as-png-complete-c-guide/)
 Apprenez à exporter des fichiers DOCX en images PNG avec C# grâce à ce guide complet.
+### [Créer une image à partir de HTML avec Aspose.HTML – Guide complet étape par étape](./create-image-from-html-with-aspose-html-complete-step-by-ste/)
+Apprenez à créer des images à partir de HTML en suivant un guide complet étape par étape avec Aspose.HTML.
+### [Comment activer l'anticrénelage – Exporter un document en image avec C#](./how-to-enable-antialiasing-export-document-to-image-with-c/)
+Apprenez à activer l'anticrénelage lors de l'exportation d'un document vers une image en C# avec Aspose.HTML.
+### [Créer un PNG à partir de Word – Guide étape par étape C#](./create-png-from-word-step-by-step-c-guide/)
+Apprenez à convertir un document Word en image PNG en C# avec Aspose.HTML, étape par étape.
 
 ## Conclusion
 

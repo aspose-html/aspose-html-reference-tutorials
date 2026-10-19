@@ -136,6 +136,9 @@ Aspose.HTML for .NET を使用して、HTML を高品質な JPEG 画像に変換
 ### [C# でメモリ ストリームを作成する – HTML レンダリングと ZIP エクスポートの完全ガイド](./create-memory-stream-in-c-full-guide-with-html-rendering-zip/)
 C# のメモリ ストリームを作成し、HTML をレンダリングして ZIP にエクスポートする手順をステップバイステップで解説します。
 
+### [HTML を PNG と ZIP にメモリ内でレンダリング – 完全 C# ガイド](./render-html-to-png-and-zip-in-memory-complete-c-guide/)
+C# を使用して、HTML を PNG に変換し、さらに ZIP アーカイブとしてメモリ内で保存する手順を完全に解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

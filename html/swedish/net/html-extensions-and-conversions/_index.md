@@ -177,6 +177,8 @@ Lär dig hur du sparar HTML som ZIP med en komplett C#‑guide och kodexempel.
 Lär dig rendera HTML till PDF i C# med kontroll över sidstorlek och anti‑aliasing i en komplett steg‑för‑steg‑guide.
 ### [Skapa zip-arkiv i C# – Konvertera HTML till ZIP med inbäddade bilder](./create-zip-archive-in-c-convert-html-to-zip-with-embedded-im/)
 Lär dig hur du skapar ett zip‑arkiv i C# som innehåller HTML med inbäddade bilder med Aspose.HTML för .NET.
+### [Spara HTML till ZIP i C# – Komplett steg‑för‑steg‑guide](./save-html-to-zip-in-c-complete-step-by-step-guide/)
+Lär dig hur du sparar HTML som en ZIP-fil med en detaljerad steg‑för‑steg‑guide i C# och Aspose.HTML.
 
 ## Slutsats
 

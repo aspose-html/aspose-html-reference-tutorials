@@ -180,6 +180,8 @@ Scopri come salvare un documento HTML in un archivio ZIP usando Aspose.HTML per 
 
 ### [Crea archivio ZIP in C# – Converti HTML in ZIP con immagini incorporate](./create-zip-archive-in-c-convert-html-to-zip-with-embedded-im/)
 Scopri come creare un archivio ZIP contenente HTML con immagini incorporate usando Aspose.HTML per .NET in C#.
+### [Salva HTML in ZIP in C# – Guida completa passo‑a‑passo](./save-html-to-zip-in-c-complete-step-by-step-guide/)
+Scopri come salvare un documento HTML in un archivio ZIP con Aspose.HTML per .NET in C#, passo dopo passo.
 
 ## Conclusione
 

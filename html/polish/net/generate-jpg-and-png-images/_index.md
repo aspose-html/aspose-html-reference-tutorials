@@ -103,6 +103,12 @@ Dowiedz się, jak wyłączyć antyaliasing podczas konwersji dokumentów HTML do
 Poznaj proces renderowania kodu HTML do obrazu PNG przy użyciu Aspose.HTML w kilku prostych krokach.
 ### [Eksportuj docx jako png – kompletny przewodnik C#](./export-docx-as-png-complete-c-guide/)
 Pełny przewodnik, jak w C# wyeksportować pliki DOCX do formatu PNG przy użyciu Aspose.HTML.
+### [Utwórz obraz z HTML przy użyciu Aspose.HTML – Kompletny przewodnik krok po kroku](./create-image-from-html-with-aspose-html-complete-step-by-ste/)
+Pełny przewodnik, jak wygenerować obraz z kodu HTML przy użyciu biblioteki Aspose.HTML w .NET.
+### [Jak włączyć antyaliasing – eksport dokumentu do obrazu w C#](./how-to-enable-antialiasing-export-document-to-image-with-c/)
+Dowiedz się, jak włączyć antyaliasing podczas eksportowania dokumentów do obrazów w C# przy użyciu Aspose.HTML.
+### [Utwórz PNG z Word – Przewodnik krok po kroku w C#](./create-png-from-word-step-by-step-c-guide/)
+Dowiedz się, jak konwertować dokumenty Word do formatu PNG przy użyciu Aspose.HTML w C#.
 
 ## Wniosek
 

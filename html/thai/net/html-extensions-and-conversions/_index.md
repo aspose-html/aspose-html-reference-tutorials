@@ -177,6 +177,8 @@ Aspose.HTML สำหรับ .NET ไม่ใช่แค่ไลบรา�
 เรียนรู้วิธีใช้ตัวจัดการทรัพยากรแบบกำหนดเองเพื่อแปลงหน้าเว็บเป็นไฟล์ ZIP ด้วย C# และ Aspose.HTML
 ### [สร้างไฟล์ Zip ใน C# – แปลง HTML เป็น ZIP พร้อมรูปภาพฝังตัว](./create-zip-archive-in-c-convert-html-to-zip-with-embedded-im/)
 เรียนรู้วิธีสร้างไฟล์ ZIP จาก HTML พร้อมรูปภาพฝังตัวโดยใช้ C# และ Aspose.HTML สำหรับ .NET
+### [บันทึก HTML เป็น ZIP ใน C# – คู่มือเต็มขั้นตอน](./save-html-to-zip-in-c-complete-step-by-step-guide/)
+เรียนรู้วิธีบันทึกไฟล์ HTML เป็น ZIP อย่างละเอียดด้วย C# ตามขั้นตอนที่ชัดเจนและครบถ้วน
 
 ## บทสรุป
 

@@ -123,6 +123,8 @@ Aprenda a converter HTML em JPEG usando Aspose.HTML para .NET com este guia comp
 
 ### [Criar Memory Stream em C# – Guia Completo com Renderização HTML e Exportação ZIP](./create-memory-stream-in-c-full-guide-with-html-rendering-zip/)
 Aprenda a criar Memory Stream em C#, renderizar HTML e exportar o resultado como arquivo ZIP usando Aspose.HTML.
+### [Renderizar HTML para PNG e ZIP na memória – Guia completo em C#](./render-html-to-png-and-zip-in-memory-complete-c-guide/)
+Aprenda a renderizar HTML como PNG e compactar em ZIP na memória usando Aspose.HTML para .NET com um guia completo em C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

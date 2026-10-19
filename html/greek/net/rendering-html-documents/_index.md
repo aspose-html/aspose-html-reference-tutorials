@@ -122,6 +122,8 @@ url: /el/net/rendering-html-documents/
 Μάθετε πώς να μετατρέψετε HTML σε JPEG με το Aspose.HTML για .NET σε αυτόν τον πλήρη οδηγό!
 ### [Δημιουργία Memory Stream σε C# – Πλήρης Οδηγός με Απόδοση HTML & Εξαγωγή ZIP](./create-memory-stream-in-c-full-guide-with-html-rendering-zip/)
 Μάθετε πώς να δημιουργήσετε Memory Stream σε C#, να αποδώσετε HTML και να εξάγετε το αποτέλεσμα σε αρχείο ZIP.
+### [Απόδοση HTML σε PNG και ZIP στη μνήμη – Πλήρης οδηγός C#](./render-html-to-png-and-zip-in-memory-complete-c-guide/)
+Μάθετε πώς να αποδίδετε HTML σε PNG, να το συμπιέζετε σε αρχείο ZIP στη μνήμη, χρησιμοποιώντας C# και Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

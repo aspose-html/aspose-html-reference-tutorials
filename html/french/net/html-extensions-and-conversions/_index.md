@@ -182,6 +182,8 @@ Apprenez à créer un gestionnaire de ressources personnalisé pour convertir un
 Apprenez à enregistrer du HTML dans un fichier ZIP avec C# grâce à notre guide complet.
 ### [Créer une archive ZIP en C# – Convertir le HTML en ZIP avec images intégrées](./create-zip-archive-in-c-convert-html-to-zip-with-embedded-im/)
 Apprenez à créer une archive ZIP contenant du HTML et ses images intégrées en C# avec Aspose.HTML.
+### [Enregistrer le HTML en ZIP en C# – Guide complet étape par étape](./save-html-to-zip-in-c-complete-step-by-step-guide/)
+Apprenez à enregistrer du HTML dans un fichier ZIP en C# grâce à notre guide complet étape par étape.
 
 ## Conclusion
 

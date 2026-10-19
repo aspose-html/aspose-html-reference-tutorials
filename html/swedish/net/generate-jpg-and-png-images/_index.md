@@ -102,6 +102,12 @@ Lär dig hur du inaktiverar kantutjämning för att förbättra bildkvaliteten n
 Lär dig hur du konverterar HTML till PNG-bilder med Aspose.HTML i en detaljerad steg‑för‑steg‑handledning.
 ### [Exportera docx som png – Komplett C#-guide](./export-docx-as-png-complete-c-guide/)
 Lär dig hur du exporterar DOCX-filer till PNG-bilder med en komplett C#-guide som täcker alla steg och inställningar.
+### [Hur man aktiverar kantutjämning – Exportera dokument till bild med C#](./how-to-enable-antialiasing-export-document-to-image-with-c/)
+Lär dig hur du aktiverar kantutjämning när du exporterar dokument till bildformat med C# i Aspose.HTML.
+### [Skapa bild från HTML med Aspose.HTML – Komplett steg‑för‑steg‑guide](./create-image-from-html-with-aspose-html-complete-step-by-ste/)
+Lär dig hur du skapar en bild från HTML med Aspose.HTML i en komplett steg‑för‑steg‑handledning.
+### [Skapa PNG från Word – Steg‑för‑steg C#‑guide](./create-png-from-word-step-by-step-c-guide/)
+Lär dig hur du konverterar Word-dokument till PNG-bilder med C# i Aspose.HTML, steg för steg.
 
 ## Slutsats
 

@@ -52,7 +52,6 @@ Aprenda a generar archivos PNG desde HTML usando Aspose.HTML en C#. Guía paso a
 ### [Crear PNG a partir de HTML en C# – Renderizar HTML a PNG](./create-png-from-html-in-c-render-html-to-png/)
 Aprenda a generar archivos PNG a partir de contenido HTML usando C# y Aspose.HTML, con pasos claros y ejemplos prácticos.
 ### [Cómo habilitar el antialiasing al convertir DOCX a PNG/JPG](./how-to-enable-antialiasing-when-converting-docx-to-png-jpg/)
-Aprende a activar el antialiasing al convertir documentos DOCX a imágenes PNG o JPG usando Aspose.HTML para .NET.
 ### [Convertir docx a PNG – crear archivo ZIP con C# tutorial](./convert-docx-to-png-create-zip-archive-c-tutorial/)
 ### [Convertir docx a PNG en C# – Guía completa paso a paso](./convert-docx-to-png-in-c-full-step-by-step-guide/)
 Aprenda a convertir documentos DOCX a imágenes PNG en C# con una guía completa paso a paso.
@@ -100,6 +99,12 @@ Aprenda a desactivar el antialiasing al convertir HTML a imágenes PNG con Aspos
 Aprenda a convertir HTML a imágenes PNG usando Aspose.HTML con una guía paso a paso.
 ### [Exportar docx como png – Guía completa en C#](./export-docx-as-png-complete-c-guide/)
 Aprenda a exportar documentos DOCX a imágenes PNG usando C# con Aspose.HTML, paso a paso y con ejemplos completos.
+### [Cómo habilitar el antialiasing – Exportar documento a imagen con C#](./how-to-enable-antialiasing-export-document-to-image-with-c/)
+Aprenda a habilitar el antialiasing al exportar documentos a imágenes usando C# y Aspose.HTML para .NET.
+### [Crear imagen a partir de HTML con Aspose.HTML – Guía completa paso a paso](./create-image-from-html-with-aspose-html-complete-step-by-ste/)
+Aprenda a generar una imagen a partir de HTML usando Aspose.HTML con una guía detallada paso a paso.
+### [Crear PNG a partir de Word – Guía paso a paso en C#](./create-png-from-word-step-by-step-c-guide/)
+Aprenda a crear imágenes PNG a partir de documentos Word usando C# y Aspose.HTML.
 
 ## Conclusión
 

@@ -133,6 +133,9 @@ Pelajari cara merender HTML menjadi gambar JPEG dengan Aspose.HTML untuk .NET me
 ### [Buat Memory Stream di C# – Panduan Lengkap dengan Rendering HTML & Ekspor ZIP](./create-memory-stream-in-c-full-guide-with-html-rendering-zip/)
 Pelajari cara membuat Memory Stream di C#, merender HTML, dan mengekspor hasilnya ke file ZIP menggunakan Aspose.HTML.
 
+### [Render HTML ke PNG dan ZIP dalam Memori – Panduan Lengkap C#](./render-html-to-png-and-zip-in-memory-complete-c-guide/)
+Pelajari cara merender HTML menjadi PNG dan mengompresnya ke ZIP secara langsung di memori menggunakan Aspose.HTML untuk .NET dengan contoh kode C# lengkap.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

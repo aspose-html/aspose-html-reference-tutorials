@@ -182,6 +182,8 @@ Aprenda a crear archivos ZIP con contenido HTML usando C# y Aspose.HTML. Guía p
 Aprenda a crear un manejador de recursos personalizado para convertir una página web en un archivo ZIP usando C# y Aspose.HTML.
 ### [Renderizar HTML a PDF en C# – Guía completa con tamaño de página y anti‑alias](./render-html-to-pdf-in-c-full-guide-with-page-size-anti-alias/)
 Aprenda a renderizar HTML a PDF en C# con control de tamaño de página y suavizado anti‑alias para obtener documentos de alta calidad.
+### [Guardar HTML en ZIP en C# – Guía completa paso a paso](./save-html-to-zip-in-c-complete-step-by-step-guide/)
+Aprenda a guardar documentos HTML como archivos ZIP usando C# con Aspose.HTML en esta guía paso a paso completa.
 
 ## Conclusión
 

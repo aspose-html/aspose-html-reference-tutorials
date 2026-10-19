@@ -211,6 +211,9 @@ Aprenda a criar um arquivo ZIP contendo HTML e imagens incorporadas usando Aspos
 ### [Renderizar HTML para PDF em C# – Guia completo com tamanho de página e anti‑aliasing](./render-html-to-pdf-in-c-full-guide-with-page-size-anti-alias/)
 Aprenda a renderizar HTML em PDF usando C#, controlando o tamanho da página e aplicando anti‑aliasing para resultados de alta qualidade.
 
+### [Salvar HTML em ZIP em C# – Guia Completo Passo a Passo](./save-html-to-zip-in-c-complete-step-by-step-guide/)
+Aprenda a salvar documentos HTML em arquivos ZIP usando Aspose.HTML para .NET em C# com um guia passo a passo completo.
+
 ## Conclusão
 
 Concluindo, extensões e conversões HTML são elementos essenciais do desenvolvimento web moderno. O Aspose.HTML para .NET simplifica o processo e o torna acessível a desenvolvedores de todos os níveis. Ao seguir nossos tutoriais, você estará no caminho certo para se tornar um desenvolvedor web proficiente com um amplo conjunto de habilidades.

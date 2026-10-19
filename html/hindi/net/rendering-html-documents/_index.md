@@ -77,7 +77,6 @@ Aspose.HTML के साथ HTML को PNG फ़ॉर्मेट में 
 Aspose.HTML का उपयोग करके HTML को PNG फ़ॉर्मेट में बदलने की पूरी प्रक्रिया सीखें, कोड उदाहरण और टिप्स के साथ।
 
 ### [HTML से PNG बनाएं – पूर्ण C# रेंडरिंग गाइड](./create-png-from-html-full-c-rendering-guide/)
-HTML को PNG में बदलने के लिए पूर्ण C# रेंडरिंग चरणों को सीखें और Aspose.HTML का उपयोग करके उच्च गुणवत्ता वाले परिणाम प्राप्त करें।
 ### [HTML दस्तावेज़ बनाएं C# – Aspose.Html के साथ PNG में रेंडर करें](./create-html-document-c-render-to-png-with-aspose-html/)
 C# में Aspose.Html का उपयोग करके HTML दस्तावेज़ बनाना और उसे PNG में रेंडर करना सीखें।
 
@@ -133,6 +132,8 @@ Aspose.HTML for .NET के साथ HTML को JPEG इमेज में �
 
 ### [C# में मेमोरी स्ट्रीम बनाएं – HTML रेंडरिंग और ZIP निर्यात के साथ पूर्ण गाइड](./create-memory-stream-in-c-full-guide-with-html-rendering-zip/)
 Aspose.HTML का उपयोग करके C# में मेमोरी स्ट्रीम बनाकर HTML रेंडर करें और परिणाम को ZIP फ़ाइल में निर्यात करें।
+### [HTML को PNG और ZIP में मेमोरी में रेंडर करें – पूर्ण C# गाइड](./render-html-to-png-and-zip-in-memory-complete-c-guide/)
+C# में Aspose.HTML का उपयोग करके HTML को PNG और ZIP फ़ाइलों में मेमोरी में रेंडर करने का पूर्ण मार्गदर्शक।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

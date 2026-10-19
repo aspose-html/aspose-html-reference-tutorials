@@ -177,6 +177,8 @@ Leer hoe u HTML-inhoud opslaat en naar een bestand schrijft met C# en Aspose.HTM
 Leer hoe u HTML naar ZIP converteert in C# met Aspose.HTML voor .NET via een volledige stap‑voor‑stap handleiding.
 ### [aangepaste resourcehandler – Converteer webpagina naar ZIP in C#](./custom-resource-handler-convert-webpage-to-zip-in-c/)
 Leer hoe u met een aangepaste resourcehandler een webpagina comprimeert en opslaat als ZIP‑bestand in C# met Aspose.HTML.
+### [HTML opslaan naar ZIP in C# – Complete stap‑voor‑stap gids](./save-html-to-zip-in-c-complete-step-by-step-guide/)
+Leer stap‑voor‑stap hoe u HTML naar een ZIP‑bestand opslaat in C# met Aspose.HTML voor .NET.
 
 ## Conclusie
 

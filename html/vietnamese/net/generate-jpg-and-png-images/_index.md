@@ -103,6 +103,12 @@ Hướng dẫn tắt khử răng cưa để cải thiện chất lượng ảnh 
 Hướng dẫn chi tiết cách chuyển đổi nội dung HTML thành hình ảnh PNG bằng Aspose.HTML trong .NET, bao gồm các bước cấu hình và ví dụ mã.
 ### [Xuất DOCX thành PNG – Hướng dẫn đầy đủ C#](./export-docx-as-png-complete-c-guide/)
 Hướng dẫn chi tiết cách xuất tài liệu DOCX thành ảnh PNG bằng C#, bao gồm các bước cài đặt và tùy chỉnh.
+### [Tạo hình ảnh từ HTML với Aspose.HTML – Hướng dẫn chi tiết từng bước](./create-image-from-html-with-aspose-html-complete-step-by-ste/)
+Hướng dẫn toàn diện cách chuyển đổi HTML thành hình ảnh bằng Aspose.HTML, bao gồm các bước cài đặt, cấu hình và ví dụ thực tế.
+### [Cách bật khử răng cưa – Xuất tài liệu thành hình ảnh với C#](./how-to-enable-antialiasing-export-document-to-image-with-c/)
+Hướng dẫn chi tiết cách bật khử răng cưa khi xuất tài liệu sang hình ảnh bằng C#.
+### [Tạo PNG từ Word – Hướng dẫn từng bước C#](./create-png-from-word-step-by-step-c-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang ảnh PNG bằng C# với Aspose.HTML.
 
 ## Phần kết luận
 

@@ -132,6 +132,9 @@ Apprenez à convertir du HTML en images JPEG avec Aspose.HTML pour .NET grâce �
 ### [Créer un flux mémoire en C# – Guide complet avec rendu HTML et export ZIP](./create-memory-stream-in-c-full-guide-with-html-rendering-zip/)
 Apprenez à créer un flux mémoire, rendre du HTML et exporter le résultat en ZIP avec Aspose.HTML pour .NET.
 
+### [Rendre le HTML en PNG et ZIP en mémoire – Guide complet C#](./render-html-to-png-and-zip-in-memory-complete-c-guide/)
+Apprenez à convertir du HTML en PNG et à créer un fichier ZIP en mémoire avec Aspose.HTML pour .NET en suivant ce guide complet en C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -146,6 +146,8 @@ Aspose.HTML for .NET kullanarak özel kaynak işleyicisiyle bir web sayfasını 
 Aspose.HTML for .NET kullanarak HTML dosyalarını ZIP arşivine kaydetmeyi adım adım öğrenin.
 ### [C# ile Zip Arşivi Oluştur – Gömülü Görsellerle HTML'yi ZIP'e Dönüştür](./create-zip-archive-in-c-convert-html-to-zip-with-embedded-im/)
 Aspose.HTML for .NET kullanarak C# içinde gömülü görsellerle HTML dosyasını ZIP arşivine dönüştürün. Adım adım kılavuz.
+### [C# ile HTML'yi ZIP'e Kaydet – Tam Adım Adım Kılavuz](./save-html-to-zip-in-c-complete-step-by-step-guide/)
+Aspose.HTML for .NET ile C# içinde HTML dosyasını ZIP arşivine kaydetmeyi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

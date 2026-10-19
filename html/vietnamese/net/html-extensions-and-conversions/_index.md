@@ -176,6 +176,8 @@ Hướng dẫn chi tiết cách sử dụng trình xử lý tài nguyên tùy ch
 Render HTML sang PDF trong C# với Aspose.HTML, bao gồm hướng dẫn chi tiết về kích thước trang và khử răng cưa để tạo PDF chất lượng cao.
 ### [Tạo tệp Zip trong C# – Chuyển đổi HTML sang ZIP với hình ảnh nhúng](./create-zip-archive-in-c-convert-html-to-zip-with-embedded-im/)
 Hướng dẫn chi tiết cách tạo tệp ZIP chứa HTML và hình ảnh nhúng bằng C# và Aspose.HTML.
+### [Lưu HTML thành ZIP trong C# – Hướng dẫn chi tiết từng bước](./save-html-to-zip-in-c-complete-step-by-step-guide/)
+Hướng dẫn chi tiết cách lưu tài liệu HTML vào tệp ZIP trong C# bằng Aspose.HTML, bao gồm ví dụ và các tùy chọn cấu hình.
 
 ## Phần kết luận
 

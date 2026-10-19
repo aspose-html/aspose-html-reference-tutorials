@@ -103,6 +103,11 @@ Ismerje meg, hogyan kapcsolhatja be az antialiasingot HTML PNG-re rendereléseko
 Ismerje meg, hogyan konvertálhat HTML-t PNG képpé az Aspose.HTML használatával, részletes lépésekkel és beállítási tippekkel.
 ### [docx exportálása png-re – Teljes C# útmutató](./export-docx-as-png-complete-c-guide/)
 Ismerje meg, hogyan konvertálhat docx fájlokat png képekké C#-ban az Aspose.HTML for .NET segítségével, lépésről lépésre.
+### [Hogyan engedélyezzük az antialiasingot – Dokumentum exportálása képre C#-ban](./how-to-enable-antialiasing-export-document-to-image-with-c/)
+Ismerje meg, hogyan kapcsolhatja be az antialiasingot a dokumentumok képre exportálásakor C#-ban az Aspose.HTML for .NET használatával.
+### [Kép létrehozása HTML-ből az Aspose.HTML segítségével – Teljes lépésről‑lépésre útmutató](./create-image-from-html-with-aspose-html-complete-step-by-ste/)
+Ismerje meg, hogyan hozhat létre képet HTML-ből az Aspose.HTML használatával, részletes, lépésről‑lépésre útmutatóval.
+### [PNG létrehozása Wordből – Lépésről‑lépésre C# útmutató](./create-png-from-word-step-by-step-c-guide/)
 
 ## Következtetés
 

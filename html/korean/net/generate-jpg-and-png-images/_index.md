@@ -55,6 +55,8 @@ Aspose.HTML을 활용해 HTML을 PNG 이미지로 변환하는 전체 C# 단계�
 
 ### [DOCX를 PNG/JPG로 변환할 때 안티앨리어싱 활성화 방법](./how-to-enable-antialiasing-when-converting-docx-to-png-jpg/)
 DOCX 문서를 PNG 또는 JPG 이미지로 변환할 때 안티앨리어싱을 적용하는 방법을 단계별로 안내합니다.
+### [C#으로 문서를 이미지로 내보낼 때 안티앨리어싱 활성화 방법](./how-to-enable-antialiasing-export-document-to-image-with-c/)
+C#을 사용해 문서를 이미지로 변환하면서 안티앨리어싱을 적용하는 단계별 가이드입니다.
 ### [DOCX를 PNG로 변환하고 ZIP 아카이브 만들기 C# 튜토리얼](./convert-docx-to-png-create-zip-archive-c-tutorial/)
 C#을 사용해 DOCX 파일을 PNG 이미지로 변환하고, 결과를 ZIP 파일로 압축하는 방법을 단계별로 안내합니다.
 ### [C#에서 DOCX를 PNG로 변환하기 – 전체 단계별 가이드](./convert-docx-to-png-in-c-full-step-by-step-guide/)
@@ -103,6 +105,10 @@ HTML을 PNG 이미지로 변환할 때 안티앨리어싱을 끄는 방법을 �
 Aspose.HTML을 활용해 HTML을 PNG 이미지로 변환하는 방법을 단계별로 안내합니다.
 ### [DOCX를 PNG로 내보내기 – 완전 C# 가이드](./export-docx-as-png-complete-c-guide/)
 C#을 사용해 DOCX 파일을 PNG 이미지로 변환하는 전체 단계별 가이드를 제공합니다.
+### [Aspose.HTML을 사용하여 HTML에서 이미지 생성 – 완전 단계별 가이드](./create-image-from-html-with-aspose-html-complete-step-by-ste/)
+HTML을 이미지로 변환하는 전체 과정을 단계별로 자세히 설명합니다.
+### [Word에서 PNG 생성 – 단계별 C# 가이드](./create-png-from-word-step-by-step-c-guide/)
+C#을 사용해 Word 문서를 PNG 이미지로 변환하는 방법을 단계별로 안내합니다.
 
 ## 결론
 

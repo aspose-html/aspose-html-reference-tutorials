@@ -118,6 +118,8 @@ C# kullanarak HTML'yi PNG'ye dönüştürmenin tüm adımlarını Aspose.HTML il
 HTML'yi JPEG formatına dönüştürmeyi adım adım öğrenin. Bu kapsamlı rehberde örnek kodlar ve ipuçları bulacaksınız.
 ### [C#'ta Bellek Akışı Oluşturma – HTML Render'ı ve ZIP Dışa Aktarma ile Tam Kılavuz](./create-memory-stream-in-c-full-guide-with-html-rendering-zip/)
 C#'ta bellek akışı oluşturmayı, HTML render etmeyi ve ZIP olarak dışa aktarmayı adım adım öğrenin.
+### [HTML'yi Bellekte PNG ve ZIP Olarak İşleme – Tam C# Rehberi](./render-html-to-png-and-zip-in-memory-complete-c-guide/)
+HTML içeriğini bellekte PNG'ye dönüştürüp ZIP arşivine eklemeyi adım adım öğrenin. C# ile tam rehber.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

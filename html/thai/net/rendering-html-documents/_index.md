@@ -126,6 +126,9 @@ Aspose.HTML สำหรับ .NET ถือเป็นตัวเลือ�
 ### [สร้าง Memory Stream ใน C# – คู่มือเต็มกับการเรนเดอร์ HTML และการส่งออกเป็น ZIP](./create-memory-stream-in-c-full-guide-with-html-rendering-zip/)
 เรียนรู้วิธีสร้าง Memory Stream ใน C# พร้อมการเรนเดอร์ HTML และการบีบอัดเป็นไฟล์ ZIP อย่างละเอียด
 
+### [เรนเดอร์ HTML เป็น PNG และ ZIP ในหน่วยความจำ – คู่มือ C# ฉบับสมบูรณ์](./render-html-to-png-and-zip-in-memory-complete-c-guide/)
+เรียนรู้วิธีเรนเดอร์ HTML เป็น PNG แล้วบีบอัดเป็นไฟล์ ZIP ในหน่วยความจำด้วย C# อย่างละเอียดในคู่มือฉบับสมบูรณ์นี้!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

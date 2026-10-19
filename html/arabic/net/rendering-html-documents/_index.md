@@ -131,6 +131,9 @@ url: /ar/net/rendering-html-documents/
 ### [إنشاء تدفق الذاكرة في C# – دليل كامل مع تصيير HTML وتصدير ZIP](./create-memory-stream-in-c-full-guide-with-html-rendering-zip/)
 تعلم كيفية إنشاء MemoryStream في C#، تصيير HTML وتصديره كملف ZIP باستخدام Aspose.HTML.
 
+### [تحويل HTML إلى PNG وZIP في الذاكرة – دليل C# كامل](./render-html-to-png-and-zip-in-memory-complete-c-guide/)
+تعلم خطوة بخطوة كيفية تحويل مستندات HTML إلى صور PNG وضغطها في ملف ZIP في الذاكرة باستخدام Aspose.HTML وC#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

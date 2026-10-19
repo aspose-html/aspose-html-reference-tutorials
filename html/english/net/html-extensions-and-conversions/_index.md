@@ -177,6 +177,8 @@ Learn how to convert HTML to various image formats using C# and Aspose.HTML for 
 Learn how to save HTML content and write it to a file using C# with Aspose.HTML for .NET in a simple step‑by‑step guide.
 ### [Create Zip Archive in C# – Convert HTML to ZIP with Embedded Images](./create-zip-archive-in-c-convert-html-to-zip-with-embedded-im/)
 Create a ZIP archive containing HTML and its embedded images using Aspose.HTML for .NET in C#.
+### [Save HTML to ZIP in C# – Complete Step‑by‑Step Guide](./save-html-to-zip-in-c-complete-step-by-step-guide/)
+Learn how to save HTML to a ZIP archive in C# using Aspose.HTML for .NET with a complete step‑by‑step guide.
 
 ## Conclusion
 

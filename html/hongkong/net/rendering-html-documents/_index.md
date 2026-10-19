@@ -137,6 +137,9 @@ Aspose.HTML for .NET 因其豐富的功能、優秀的文件和活躍的社群�
 ### [在 C# 中建立記憶體串流 – 完整指南，包含 HTML 渲染與 ZIP 匯出](./create-memory-stream-in-c-full-guide-with-html-rendering-zip/)
 學習如何在 C# 使用記憶體串流進行 HTML 渲染，並將結果匯出為 ZIP 壓縮檔的完整步驟。
 
+### [在記憶體中渲染 HTML 為 PNG 並壓縮為 ZIP – 完整 C# 指南](./render-html-to-png-and-zip-in-memory-complete-c-guide/)
+學習使用 Aspose.HTML for .NET 在 C# 中於記憶體內將 HTML 渲染為 PNG，並打包成 ZIP，涵蓋完整步驟與最佳實踐。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
