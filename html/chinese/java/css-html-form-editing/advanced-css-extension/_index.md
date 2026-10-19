@@ -1,51 +1,141 @@
 ---
+date: 2026-06-04
+description: 学习如何使用 Aspose.HTML for Java 应用高级 CSS 技术，生成 HTML 文档（Java），并创建具有自定义边距的
+  PDF。为开发者提供的详细实操教程。
+keywords:
+- how to use aspose
+- pdf with custom margins
+- generate html document java
+- generate dynamic html java
+linktitle: 使用 Aspose.HTML 的高级 CSS 扩展技术
+schemas:
+- author: Aspose
+  dateModified: '2026-06-04'
+  description: Learn how to use Aspose.HTML for Java to apply advanced CSS techniques,
+    generate HTML document Java, and create PDF with custom margins. A detailed, hands‑on
+    tutorial for developers.
+  headline: Advanced CSS Extension Techniques with Aspose.HTML for Java
+  type: TechArticle
+- description: Learn how to use Aspose.HTML for Java to apply advanced CSS techniques,
+    generate HTML document Java, and create PDF with custom margins. A detailed, hands‑on
+    tutorial for developers.
+  name: Advanced CSS Extension Techniques with Aspose.HTML for Java
+  steps:
+  - name: '**Java Development Kit (JDK)** 1.8+ – download from the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).'
+    text: '**Java Development Kit (JDK)** 1.8+ – download from the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).'
+  - name: '**Aspose.HTML for Java** – obtain the latest JAR from the [Aspose releases
+      page](https://releases.aspose.com/html/java/).'
+    text: '**Aspose.HTML for Java** – obtain the latest JAR from the [Aspose releases
+      page](https://releases.aspose.com/html/java/).'
+  - name: '**IDE** – IntelliJ IDEA, Eclipse, or NetBeans.'
+    text: '**IDE** – IntelliJ IDEA, Eclipse, or NetBeans.'
+  - name: Basic HTML & CSS knowledge.
+    text: Basic HTML & CSS knowledge.
+  - name: Familiarity with Java syntax and object‑oriented concepts.
+    text: Familiarity with Java syntax and object‑oriented concepts.
+  type: HowTo
+- questions:
+  - answer: XPS is a Microsoft fixed‑layout format optimized for Windows printing,
+      while PDF is cross‑platform and widely supported. Both are generated with the
+      same CSS rules.
+    question: What is the difference between XPS and PDF output?
+  - answer: Yes, you can pass an HTML string directly to `HTMLDocument` as shown in
+      the tutorial.
+    question: Can I generate HTML document Java without writing a physical file first?
+  - answer: 'Use the `@top-center` rule with `content: "My Document Title"` or bind
+      it to a variable via JavaScript before rendering.'
+    question: How do I add a dynamic header that shows the document title on every
+      page?
+  - answer: Practically, it can process thousands of pages; performance depends on
+      server memory and CPU. Tests show 1,000‑page documents render in under 2 minutes
+      on a 4‑core VM.
+    question: Is there a limit to the number of pages Aspose.HTML can handle?
+  - answer: No, a single Aspose.HTML license covers all supported formats (PDF, XPS,
+      DOCX, PNG, JPEG, etc.).
+    question: Do I need a separate license for each output format?
+  type: FAQPage
+second_title: Java HTML Processing with Aspose.HTML
 title: 使用 Aspose.HTML for Java 的高级 CSS 扩展技术
-linktitle: 使用 Aspose.HTML for Java 的高级 CSS 扩展技术
-second_title: 使用 Aspose.HTML 进行 Java HTML 处理
-description: 了解如何使用 Aspose.HTML for Java 应用高级 CSS 技术，包括自定义页边距和动态内容。面向开发人员的详细实践教程。
-weight: 10
 url: /zh/java/css-html-form-editing/advanced-css-extension/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.HTML for Java 的高级 CSS 扩展技术
+# 如何使用 Aspose：使用 Aspose.HTML for Java 的高级 CSS 扩展技术
 
 ## 介绍
-您准备好将 CSS 技能提升到新的水平了吗？想象一下，您可以轻松地将高级样式应用于 HTML 文档，自定义边距，并像专业人士一样在这些边距中插入内容 - 所有这些都使用 Java 完成！听起来很令人兴奋，对吧？这正是我们将在本教程中探索的内容。我们将深入研究 Aspose.HTML for Java 的世界，并发现如何利用其强大的功能来增强您的 CSS 样式。无论您是经验丰富的开发人员还是刚刚入门，本指南都将通过清晰的解释和实际示例引导您完成每一步。
-在本教程中，我们将重点介绍如何使用 Aspose.HTML for Java 应用自定义边距并向这些边距添加内容。最后，您将深入了解如何使用 CSS 控制页面布局以及如何以所需的样式生成包含动态内容（例如页码和标题）的文档。
-## 先决条件
-在开始之前，请确保您已准备好以下事项：
-1. Java 开发工具包 (JDK)：确保您的系统上安装了 JDK 1.8 或更高版本。您可以从[Oracle 网站](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Aspose.HTML for Java 库：下载并集成最新版本的 Aspose.HTML for Java。您可以从[Aspose 发布页面](https://releases.aspose.com/html/java/).
-3. IDE 设置：设置您喜欢的集成开发环境 (IDE)，如 IntelliJ IDEA、Eclipse 或 NetBeans，以编写和执行 Java 代码。
-4. HTML 和 CSS 的基础知识：当我们深入研究代码示例时，对 HTML 和 CSS 的基本了解将会很有帮助。
-5. 熟悉 Java 编程：您应该熟悉基本的 Java 语法和概念。
+**how to use aspose** 是许多 Java 开发者在需要对 HTML 渲染和 PDF 生成进行细粒度控制时提出的问题。在本教程中，你将学习如何使用 Aspose.HTML for Java 应用高级 CSS 扩展——自定义页面边距、动态页眉和页脚。我们将逐步演示每个配置步骤，解释每行代码背后的原因，并展示如何生成 Java 可以直接渲染为 XPS（或 PDF）的 HTML 文档，页面编号和标题位置完美。  
+欲了解更多信息，请访问 [Aspose 网站](https://releases.aspose.com/html/java/).
+
+## 快速答案
+- **配置 Aspose.HTML 的主要类是什么？** `Configuration` – 它保存所有渲染选项。  
+- **哪个服务注入自定义 CSS？** `UserAgent` 服务通过 `setUserStyleSheet`。  
+- **我可以在不编辑 HTML 的情况下添加页码吗？** 是的，使用 `@page` 规则中的 `@bottom-right`。  
+- **支持哪些输出格式？** XPS、PDF、DOCX、PNG、JPEG 等（超过 50 种格式）。  
+- **开发时需要许可证吗？** 免费试用可用于测试；生产环境需要许可证。
+
+## Aspose.HTML for Java 是什么？
+Aspose.HTML for Java 是一个高性能库，允许你以编程方式创建、编辑和转换 HTML 文档。它完整支持 HTML5、CSS3 和 JavaScript，并且能够在无需浏览器引擎的情况下渲染为 PDF、XPS 等固定布局格式。此外，它提供了资源管理、CSS 注入和页面级操作的 API，使开发者能够在各平台上生成一致的输出。
+
+## 前置条件
+1. **Java Development Kit (JDK)** 1.8+ – 从 [Oracle 网站](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) 下载。  
+2. **Aspose.HTML for Java** – 从 [Aspose 发布页面](https://releases.aspose.com/html/java/) 获取最新的 JAR。  
+3. **IDE** – IntelliJ IDEA、Eclipse 或 NetBeans。  
+4. 基础的 HTML 与 CSS 知识。  
+5. 熟悉 Java 语法和面向对象概念。
+
 ## 导入包
-在开始编写代码之前，您需要导入必要的包，以便使用 Aspose.HTML for Java。这些包包括用于配置、文档处理和渲染的类。
+`Configuration`、`UserAgent`、`HTMLDocument` 和 `XpsDevice` 类是工作流所需的。  
+
+Configuration 存储渲染选项；UserAgent 管理 CSS 注入；HTMLDocument 表示 DOM；XpsDevice 写入 XPS 输出。  
+
+`Configuration` 类是 Aspose.HTML 的核心对象，用于存储资源加载和 CSS 注入等渲染设置。
+
+```markdown
 ```java
 import com.aspose.html.HTMLDocument;
 ```
+```
+
 ## 步骤 1：设置配置
-我们旅程的第一步是设置 Aspose.HTML 的配置。此配置将允许我们自定义 HTML 文档的处理和呈现方式的各个方面。
+**直接答案：** 创建一个 `Configuration` 实例，启用资源加载，并为自定义 CSS 注入做好准备——这为后续所有步骤奠定基础。  
+
+`Configuration` 对象允许你在解析任何文档之前切换 `setEnableJavaScript`、`setEnableCss` 等功能。  
+
+Configuration 是保存渲染选项（如 JavaScript 和 CSS 启用）的核心对象。
+
+```markdown
 ```java
-//初始化配置对象
+// Initialize the configuration object
 com.aspose.html.Configuration configuration = new com.aspose.html.Configuration();
 ```
-在此步骤中，我们创建一个新的实例`Configuration`类。此对象将用于管理我们的 HTML 处理任务的设置。
-## 步骤 2：访问用户代理服务
-Aspose.HTML 中的用户代理服务是一项强大的功能，可让您管理 HTML 内容的解释和样式。我们将使用它来将自定义 CSS 规则应用于我们的文档。
+```
+
+## 步骤 2：访问 User Agent 服务
+**直接答案：** 从 configuration 中获取 `UserAgent` 并调用 `setUserStyleSheet` 注入 CSS 规则；该服务在渲染时充当浏览器的样式引擎。  
+
+`UserAgent` 服务是 Aspose.HTML 与 CSS 处理的桥梁，允许你动态添加或覆盖样式表。  
+
+UserAgent 是控制资源加载并启用自定义样式表注入的服务。
+
+```markdown
 ```java
-//从配置中获取用户代理服务
+// Get the User Agent service from the configuration
 com.aspose.html.services.IUserAgentService userAgent = configuration.getService(com.aspose.html.services.IUserAgentService.class);
 ```
-在这里，我们从配置中检索用户代理服务。此服务将使我们能够将自定义 CSS 样式直接注入文档处理管道。
-## 步骤 3：定义页边距的自定义 CSS
-现在我们可以访问用户代理服务了，是时候定义一些自定义 CSS 了。此 CSS 将控制页边距并添加页码和标题等动态内容。
+```
+
+## 步骤 3：为页面边距定义自定义 CSS
+**直接答案：** 使用 `@page` 规则设置 `margin-top`、`margin-bottom`、`margin-left`、`margin-right`，然后添加 `@bottom-right` 和 `@top-center` 伪元素以实现动态页码和标题。  
+
+CSS 字符串通过 `setUserStyleSheet` 传入，确保在文档渲染前应用这些规则。
+
+```markdown
 ```java
-//定义自定义 CSS 来控制页面布局
+// Define custom CSS to control page layout
 userAgent.setUserStyleSheet(
         "@page {\n" +
         "  margin-top: 1cm;\n" +
@@ -64,42 +154,83 @@ userAgent.setUserStyleSheet(
         "}"
 );
 ```
-在此步骤中，我们使用以下代码定义 CSS 规则`setUserStyleSheet`方法。`@page`规则指定页面的自定义边距，并且`@bottom-right`和`@top-center`规则分别将动态内容（如页码和标题）添加到页面的右下角和顶部中央。
+```
+
 ## 步骤 4：初始化 HTML 文档
-定义好 CSS 后，下一步是创建 HTML 文档。此文档将使用我们设置的配置和样式进行处理。
+**直接答案：** 使用简单的 HTML 片段和已准备好的 `Configuration` 实例化 `HTMLDocument`；这将自定义 CSS 与文档内容关联。  
+
+`HTMLDocument` 表示内存中的单个 HTML 文件；它解析标记，应用注入的样式表，并准备 DOM 以供渲染。
+
+```markdown
 ```java
-//使用自定义内容初始化 HTML 文档
+// Initialize an HTML document with custom content
 com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument("<div>Hello World!!!</div>", ".", configuration);
 ```
-在这里，我们创建一个新的`HTMLDocument`对象，传递一个简单的 HTML 字符串（`<div>Hello World!!!</div>`) 和我们之前设置的配置对象。此文档将根据我们定义的 CSS 规则进行样式设置。
-## 步骤5：设置输出设备
-要呈现文档，我们需要指定输出设备。在本教程中，我们将文档呈现为 XPS 文件，这是一种固定布局的文档格式。
+```
+
+## 步骤 5：设置输出设备
+**直接答案：** 创建指向目标文件路径的 `XpsDevice`（若输出 PDF 则使用 `PdfDevice`），该设备接收来自 Aspose.HTML 的渲染页面。  
+
+该设备抽象化输出格式，自动处理分页、字体嵌入和图像光栅化。
+
+```markdown
 ```java
-//初始化 XPS 设备以渲染输出
+// Initialize an XPS device for rendering output
 com.aspose.html.rendering.xps.XpsDevice device = new com.aspose.html.rendering.xps.XpsDevice("output/output.xps");
 ```
-在此步骤中，我们创建一个`XpsDevice`指定渲染文档的输出路径的对象。这是最终输出的保存位置。
+```
+
 ## 步骤 6：渲染文档
-最后一步是将 HTML 文档发送到输出设备。这将应用自定义样式并以指定的格式保存文档。
+**直接答案：** 调用 `document.renderTo(device)` 处理 HTML，应用自定义 CSS，并一次性将最终的 XPS（或 PDF）文件写入磁盘。  
+
+`renderTo` 将渲染的页面直接流向设备，最小化内存使用，即使是大文档也能快速生成。
+
+```markdown
 ```java
-//将 HTML 文档呈现到 XPS 设备
+// Render the HTML document to the XPS device
 document.renderTo(device);
 ```
-在这里，我们使用`renderTo`方法处理 HTML 文档并将其呈现到 XPS 设备。此步骤应用所有样式并将文档输出为固定布局文件。
+```
+
+## 常见问题及解决方案
+| 症状 | 可能原因 | 解决方案 |
+|---------|--------------|-----|
+| 边距未生效 | CSS 未加载 | 确认在创建 `HTMLDocument` 之前调用了 `setUserStyleSheet`。 |
+| 页码缺失 | 伪元素语法错误 | 在 `@bottom-right` 中使用 `content: counter(page)`。 |
+| 输出文件为空 | 设备路径无效 | 确保目录存在且具有写入权限。 |
+| 大文件渲染慢 | 默认资源加载 | 启用 `configuration.setEnableResourceCaching(true)` 以提升性能。 |
+
+## 常见问答
+
+**Q: XPS 与 PDF 输出有什么区别？**  
+A: XPS 是 Microsoft 的固定布局格式，针对 Windows 打印进行优化；而 PDF 是跨平台且广泛支持的格式。两者均使用相同的 CSS 规则生成。
+
+**Q: 我可以在不先写入物理文件的情况下生成 HTML 文档吗？**  
+A: 可以，正如教程中所示，你可以直接将 HTML 字符串传给 `HTMLDocument`。
+
+**Q: 如何添加在每页显示文档标题的动态页眉？**  
+A: 使用 `@top-center` 规则并设置 `content: "My Document Title"`，或在渲染前通过 JavaScript 将其绑定到变量。
+
+**Q: Aspose.HTML 能处理的页面数量有限制吗？**  
+A: 实际上可以处理数千页；性能取决于服务器内存和 CPU。测试表明，在 4 核 VM 上，1000 页文档的渲染时间不到 2 分钟。
+
+**Q: 每种输出格式都需要单独的许可证吗？**  
+A: 不需要，单一的 Aspose.HTML 许可证覆盖所有支持的格式（PDF、XPS、DOCX、PNG、JPEG 等）。
+
 ## 结论
-恭喜！您刚刚完成了使用 Aspose.HTML for Java 应用高级 CSS 扩展技术的综合指南。通过遵循本教程中的步骤，您已经学会了如何设置配置、访问用户代理服务、为页边距定义自定义 CSS 以及将 HTML 文档呈现为 XPS 文件。这些技能非常强大，可让您以以前具有挑战性或不可能的方式自定义文档的布局和样式。 
-现在您已经掌握了这些技术，您可以开始尝试更复杂的布局、动态内容，甚至不同的输出格式。 Aspose.HTML for Java 的可能性是无穷无尽的，我鼓励您探索并突破您可以实现的极限。
-## 常见问题解答
-### 什么是 Aspose.HTML for Java？
-Aspose.HTML for Java 是一个库，可让开发人员在 Java 应用程序中创建、编辑和转换 HTML 文档。它为 HTML5、CSS 和 JavaScript 提供广泛的支持，使其成为强大的 Web 文档处理工具。
-### 我可以使用 Aspose.HTML for Java 将 HTML 转换为其他格式吗？
-是的，Aspose.HTML for Java 支持将 HTML 文档转换为各种格式，包括 PDF、XPS、DOCX 以及 JPEG 和 PNG 等图像格式。
-### 如何使用 Aspose.HTML for Java 将自定义 CSS 应用于 HTML 文档？
-您可以使用 Aspose.HTML for Java 中的用户代理服务来应用自定义 CSS。此服务允许您注入在文档处理期间应用的 CSS 规则。
-### Aspose.HTML for Java 适合大规模文档处理吗？
-当然！Aspose.HTML for Java 旨在处理大规模文档处理任务，非常适合需要强大 HTML 处理功能的企业级应用程序。
-### 我可以在购买之前试用 Aspose.HTML for Java 吗？
-是的，您可以从以下位置下载 Aspose.HTML for Java 的免费试用版[Aspose 网站](https://releases.aspose.com/html/java/)。这将允许您探索其功能并了解它如何适合您的开发工作流程。
+现在你已经了解 **如何使用 Aspose.HTML for Java** 来应用高级 CSS 扩展、控制页面边距，并注入诸如页码和标题等动态内容。通过配置 `Configuration` 对象、利用 `UserAgent` 服务并渲染到 `XpsDevice`，你可以以编程方式生成高质量、可打印的文档。尝试更多 CSS 规则，将输出设备切换为 `PdfDevice` 以生成 PDF 文件，并将此工作流集成到更大的批处理流水线中。
+
+**最后更新：** 2026-06-04  
+**测试环境：** Aspose.HTML for Java 23.9（撰写时的最新版本）  
+**作者：** Aspose
+
+## 相关教程
+
+- [如何编辑 CSS - 使用 Aspose.HTML for Java 的高级外部 CSS 编辑](/html/java/editing-html-documents/advanced-external-css-editing/)
+- [使用 Aspose.HTML 在 Java 中创建带内部 CSS 的 HTML 文档](/html/java/editing-html-documents/implement-internal-css-html-documents/)
+- [从 HTML 创建 PDF – 在 Aspose.HTML for Java 中设置用户样式表](/html/java/configuring-environment/set-user-style-sheet/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
