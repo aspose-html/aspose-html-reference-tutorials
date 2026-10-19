@@ -97,6 +97,8 @@ Aspose.HTML для .NET предлагает простой метод прео�
 Подробное руководство по конвертации HTML в PNG с использованием C# и сохранением результатов в ZIP-архив.
 ### [Как отключить сглаживание при конвертации HTML в PNG](./how-to-disable-antialiasing-when-converting-html-to-png/)
 Узнайте, как отключить сглаживание при преобразовании HTML‑страниц в PNG с помощью Aspose.HTML для .NET.
+### [Рендеринг HTML в PNG на C# – полное руководство](./render-html-to-png-in-c-complete-guide/)
+Полное руководство по рендерингу HTML в PNG с помощью Aspose.HTML в C#.
 
 ## Заключение
 

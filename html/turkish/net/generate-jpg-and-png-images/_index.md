@@ -99,6 +99,8 @@ HTML dosyalarını PNG formatına dönüştürüp, sonuçları ZIP arşivi olara
 C# kullanarak HTML içeriğini PNG formatına dönüştürürken antialiasing'i nasıl etkinleştireceğinizi öğrenin.
 ### [HTML'den PNG'ye Dönüştürürken Antialiasing'i Devre Dışı Bırakma](./how-to-disable-antialiasing-when-converting-html-to-png/)
 HTML'den PNG'ye dönüştürürken antialiasing'i nasıl devre dışı bırakacağınızı öğrenin.
+### [C# ile HTML'yi PNG'ye Render Et – Tam Kılavuz](./render-html-to-png-in-c-complete-guide/)
+C# kullanarak HTML içeriğini PNG formatına dönüştürmenin adım adım rehberi.
 
 ## Çözüm
 

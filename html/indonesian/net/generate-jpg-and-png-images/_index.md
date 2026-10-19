@@ -99,6 +99,8 @@ Pelajari cara mengonversi HTML menjadi PNG secara lengkap menggunakan C# dan men
 Pelajari cara mengaktifkan antialiasing saat merender HTML menjadi PNG menggunakan C# dengan Aspose.HTML.
 ### [Cara Menonaktifkan Antialiasing Saat Mengonversi HTML ke PNG](./how-to-disable-antialiasing-when-converting-html-to-png/)
 Pelajari cara menonaktifkan antialiasing untuk meningkatkan kontrol kualitas gambar PNG saat mengonversi HTML menggunakan Aspose.HTML.
+### [Render HTML ke PNG dalam C# – panduan lengkap](./render-html-to-png-in-c-complete-guide/)
+Panduan lengkap untuk merender HTML menjadi gambar PNG menggunakan C# dengan Aspose.HTML.
 
 ## Kesimpulan
 

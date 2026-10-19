@@ -99,6 +99,7 @@ Aspose.HTML for .NET هي مكتبة قوية تتيح للمطورين إنشا
 تعلم كيفية تمكين مضاد التعرج عند تحويل HTML إلى صورة PNG باستخدام C# و Aspose.HTML.
 ### [كيفية تعطيل مضاد التعرج عند تحويل HTML إلى PNG](./how-to-disable-antialiasing-when-converting-html-to-png/)
 تعلم كيفية تعطيل مضاد التعرج عند تحويل مستندات HTML إلى صور PNG باستخدام Aspose.HTML.
+### [تحويل HTML إلى PNG في C# – دليل كامل](./render-html-to-png-in-c-complete-guide/)
 
 ## خاتمة
 
