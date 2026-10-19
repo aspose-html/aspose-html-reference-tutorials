@@ -91,6 +91,8 @@ Pelajari cara membuat dokumen HTML dari awal dan menambahkan elemen CSS secara d
 Pelajari cara membuat dokumen HTML menggunakan C# dengan panduan langkah demi langkah lengkap.
 ### [Cara Membuat HTML – Menambahkan Elemen dan Mengatur Gaya Teks](./how-to-create-html-append-elements-and-style-text/)
 Pelajari cara membuat dokumen HTML, menambahkan elemen, dan menerapkan gaya teks menggunakan Aspose.HTML untuk .NET.
+### [Cara menata HTML dengan Aspose.HTML – Mengatur Gaya Font di C#](./how-to-style-html-with-aspose-html-set-font-style-in-c/)
+Pelajari cara mengatur gaya font pada dokumen HTML menggunakan Aspose.HTML di C# dengan contoh langkah demi langkah.
 
 ## Kesimpulan
 

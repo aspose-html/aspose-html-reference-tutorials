@@ -128,6 +128,12 @@ Aspose.HTML for .NET 凭借其丰富的功能、出色的文档和活跃的社�
 ### [将 HTML 渲染为 PDF 并压缩 – 完整 C# 指南](./render-html-to-pdf-and-zip-it-complete-c-guide/)
 学习如何使用 Aspose.HTML for .NET 将 HTML 渲染为 PDF 并打包为 ZIP，提供完整的 C# 示例和关键步骤。
 
+### [使用 Aspose.HTML 在 .NET 中将 HTML 渲染为 JPEG – 完整指南](./render-html-as-image-complete-guide-to-convert-html-to-jpeg/)
+学习使用 Aspose.HTML for .NET 将 HTML 渲染为 JPEG 图像的完整步骤，涵盖关键设置、代码示例和最佳实践。
+
+### [在 C# 中创建内存流 – 完整指南，包含 HTML 渲染与 ZIP 导出](./create-memory-stream-in-c-full-guide-with-html-rendering-zip/)
+学习如何在 C# 中使用内存流进行 HTML 渲染，并将结果导出为 ZIP 文件的完整步骤与示例。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

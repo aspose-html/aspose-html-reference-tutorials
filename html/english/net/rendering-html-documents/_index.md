@@ -72,6 +72,8 @@ Learn how to create an HTML document in C# and render it to PNG using bold and i
 Comprehensive step‑by‑step guide to generate images from HTML in C# using Aspose.HTML for .NET.
 ### [Create HTML Document C# – Render HTML to PNG](./create-html-document-c-render-html-to-png/)
 Learn how to create an HTML document in C# and render it to PNG using Aspose.HTML for .NET with step‑by‑step code examples.
+### [Render HTML as Image – Complete Guide to Convert HTML to JPEG](./render-html-as-image-complete-guide-to-convert-html-to-jpeg/)
+Step‑by‑step guide to render HTML pages as JPEG images using Aspose.HTML for .NET, covering setup, options, and best practices.
 ### [Render EPUB as XPS in .NET with Aspose.HTML](./render-epub-as-xps/)
 Learn how to create and render HTML documents with Aspose.HTML for .NET in this comprehensive tutorial. Dive into the world of HTML manipulation, web scraping, and more.
 ### [Rendering Timeout in .NET with Aspose.HTML](./rendering-timeout/)
@@ -105,6 +107,8 @@ Step‑by‑step guide to render HTML to PNG using C# and Aspose.HTML for .NET, 
 Learn how to enable antialiasing for smoother PNG output when rendering HTML with Aspose.HTML for .NET in C#.
 ### [Render HTML to PNG in C# – Complete Guide with Aspose.HTML](./render-html-to-png-in-c-complete-guide-with-aspose-html/)
 Complete guide to render HTML to PNG using C# and Aspose.HTML for .NET, covering setup, options, and best practices.
+### [Create Memory Stream in C# – Full Guide with HTML Rendering & ZIP Export](./create-memory-stream-in-c-full-guide-with-html-rendering-zip/)
+Learn how to create a memory stream in C#, render HTML with Aspose.HTML, and export the result as a ZIP archive. Full step‑by‑step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

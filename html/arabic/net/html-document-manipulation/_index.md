@@ -87,6 +87,8 @@ url: /ar/net/html-document-manipulation/
 تعرف على كيفية إنشاء مستند HTML باستخدام C# مع Aspose.HTML عبر دليل خطوة بخطوة.
 ### [كيفية إنشاء HTML – إلحاق عناصر وتنسيق النص](./how-to-create-html-append-elements-and-style-text/)
 تعلم كيفية إنشاء مستند HTML وإضافة عناصر وتطبيق تنسيقات النص بسهولة باستخدام Aspose.HTML.
+### [كيفية تنسيق HTML باستخدام Aspose.HTML – تعيين نمط الخط في C#](./how-to-style-html-with-aspose-html-set-font-style-in-c/)
+تعلم كيفية تعيين نمط الخط في مستندات HTML باستخدام Aspose.HTML في C# خطوة بخطوة.
 
 ## خاتمة
 

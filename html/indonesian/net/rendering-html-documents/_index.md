@@ -127,6 +127,12 @@ Pelajari cara merender HTML menjadi PDF dan mengompresnya menjadi file ZIP mengg
 ### [Render HTML ke PNG dalam C# – Panduan Lengkap dengan Aspose.HTML](./render-html-to-png-in-c-complete-guide-with-aspose-html/)
 Pelajari cara merender HTML menjadi PNG dalam C# dengan Aspose.HTML melalui panduan lengkap langkah demi langkah.
 
+### [Render HTML sebagai Gambar – Panduan Lengkap Mengonversi HTML ke JPEG](./render-html-as-image-complete-guide-to-convert-html-to-jpeg/)
+Pelajari cara merender HTML menjadi gambar JPEG dengan Aspose.HTML untuk .NET melalui panduan langkah demi langkah lengkap.
+
+### [Buat Memory Stream di C# – Panduan Lengkap dengan Rendering HTML & Ekspor ZIP](./create-memory-stream-in-c-full-guide-with-html-rendering-zip/)
+Pelajari cara membuat Memory Stream di C#, merender HTML, dan mengekspor hasilnya ke file ZIP menggunakan Aspose.HTML.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -170,6 +170,8 @@ Aprenda a comprimir archivos HTML en un archivo ZIP usando Aspose.HTML con esta 
 Aprenda a guardar contenido HTML y escribirlo en un archivo usando C# y Aspose.HTML paso a paso.
 ### [Cómo usar ZipArchive – Guardar HTML y recursos en un archivo ZIP](./how-to-use-ziparchive-save-html-and-resources-to-a-zip-file/)
 Aprenda a usar ZipArchive para empaquetar HTML y sus recursos en un archivo ZIP con Aspose.HTML para .NET.
+### [Cómo comprimir HTML en C# – Guía completa para guardar HTML como ZIP](./how-to-zip-html-in-c-complete-guide-to-save-html-as-zip/)
+Aprenda a crear archivos ZIP con contenido HTML usando C# y Aspose.HTML. Guía paso a paso con ejemplos claros y opciones avanzadas.
 
 ## Conclusión
 

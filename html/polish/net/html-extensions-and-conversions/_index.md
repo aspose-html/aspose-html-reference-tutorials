@@ -95,6 +95,8 @@ Odkryj moc Aspose.HTML dla .NET: Konwertuj HTML na XPS bez wysiłku. Zawiera wym
 Dowiedz się, jak spakować plik HTML do archiwum ZIP w C# przy użyciu niestandardowego obsługiwacza zasobów w Aspose.HTML.
 ### [Samouczek HTML do PDF – Konwertuj HTML do PDF w C#](./html-to-pdf-tutorial-convert-html-to-pdf-in-c/)
 Konwertuj HTML do PDF w C# przy użyciu Aspose.HTML – prosty przewodnik krok po kroku.
+### [Jak spakować HTML w C# – Kompletny przewodnik zapisywania HTML jako ZIP](./how-to-zip-html-in-c-complete-guide-to-save-html-as-zip/)
+Dowiedz się, jak w C# spakować plik HTML do archiwum ZIP, korzystając z Aspose.HTML – kompletny przewodnik krok po kroku.
 ### [Jak spakować HTML w C# – Zapisz HTML do pliku ZIP](./how-to-zip-html-in-c-save-html-to-zip/)
 Dowiedz się, jak spakować plik HTML do archiwum ZIP w C# przy użyciu Aspose.HTML.
 ### [Utwórz dokument HTML i zapisz jako ZIP – Kompletny przewodnik C#](./create-html-document-and-save-as-zip-complete-c-guide/)

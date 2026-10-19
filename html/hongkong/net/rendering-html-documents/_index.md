@@ -131,6 +131,12 @@ Aspose.HTML for .NET 因其豐富的功能、優秀的文件和活躍的社群�
 ### [在 C# 中將 HTML 渲染為 PNG – 使用 Aspose.HTML 的完整指南](./render-html-to-png-in-c-complete-guide-with-aspose-html/)
 完整教學示範如何在 C# 使用 Aspose.HTML 將 HTML 轉換為 PNG，涵蓋所有步驟與最佳實踐。
 
+### [將 HTML 渲染為圖像 – 完整指南：將 HTML 轉換為 JPEG](./render-html-as-image-complete-guide-to-convert-html-to-jpeg/)
+學習使用 Aspose.HTML for .NET 將 HTML 轉換為 JPEG 圖像，涵蓋完整步驟與最佳實踐。
+
+### [在 C# 中建立記憶體串流 – 完整指南，包含 HTML 渲染與 ZIP 匯出](./create-memory-stream-in-c-full-guide-with-html-rendering-zip/)
+學習如何在 C# 使用記憶體串流進行 HTML 渲染，並將結果匯出為 ZIP 壓縮檔的完整步驟。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

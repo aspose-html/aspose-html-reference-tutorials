@@ -121,6 +121,10 @@ Aspose.HTML สำหรับ .NET ถือเป็นตัวเลือ�
 
 ### [เรนเดอร์ HTML เป็น PDF และบีบอัดเป็น Zip – คู่มือ C# ฉบับสมบูรณ์](./render-html-to-pdf-and-zip-it-complete-c-guide/)
 เรียนรู้วิธีการเรนเดอร์ไฟล์ HTML เป็น PDF แล้วบีบอัดเป็นไฟล์ Zip ด้วย C# อย่างละเอียดในคู่มือฉบับสมบูรณ์นี้!
+### [เรนเดอร์ HTML เป็นภาพ – คู่มือสมบูรณ์ในการแปลง HTML เป็น JPEG](./render-html-as-image-complete-guide-to-convert-html-to-jpeg/)
+เรียนรู้วิธีการแปลงไฟล์ HTML เป็นรูปภาพ JPEG ด้วย Aspose.HTML สำหรับ .NET อย่างละเอียดในคู่มือสมบูรณ์นี้!
+### [สร้าง Memory Stream ใน C# – คู่มือเต็มกับการเรนเดอร์ HTML และการส่งออกเป็น ZIP](./create-memory-stream-in-c-full-guide-with-html-rendering-zip/)
+เรียนรู้วิธีสร้าง Memory Stream ใน C# พร้อมการเรนเดอร์ HTML และการบีบอัดเป็นไฟล์ ZIP อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

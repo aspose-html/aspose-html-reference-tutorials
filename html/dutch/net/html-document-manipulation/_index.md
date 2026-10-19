@@ -85,6 +85,8 @@ Leer hoe u een HTML-document maakt met Aspose.HTML in .NET. Volg deze stapsgewij
 Leer hoe u een element aan de body van een HTML-document kunt toevoegen met een volledige C#-gids voor Aspose.HTML.
 ### [HTML maken met Aspose – Element vinden, vet toepassen](./how-to-create-html-with-aspose-find-element-apply-bold/)
 Leer hoe u met Aspose.HTML een HTML-document maakt, een element zoekt en tekst vet maakt.
+### [HTML stylen met Aspose.HTML – Lettertype stijl instellen in C#](./how-to-style-html-with-aspose-html-set-font-style-in-c/)
+Leer hoe u met Aspose.HTML de lettertype‑stijl van HTML‑elementen in C# kunt aanpassen.
 
 ## Conclusie
 

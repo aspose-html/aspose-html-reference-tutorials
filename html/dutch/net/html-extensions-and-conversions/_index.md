@@ -105,6 +105,8 @@ Leer hoe u HTML-bestanden opslaat als ZIP met C# en aangepaste opslagopties via 
 Leer stap voor stap hoe u HTML-bestanden comprimeert naar een ZIP‑archief met Aspose.HTML in .NET.
 ### [Hoe ZipArchive te gebruiken – HTML en bronnen opslaan in een ZIP‑bestand](./how-to-use-ziparchive-save-html-and-resources-to-a-zip-file/)
 Leer hoe u ZipArchive gebruikt om HTML en bijbehorende bronnen te comprimeren en op te slaan in een ZIP‑bestand met C# en Aspose.HTML.
+### [HTML zippen in C# – Complete gids om HTML op te slaan als ZIP](./how-to-zip-html-in-c-complete-guide-to-save-html-as-zip/)
+Leer stap‑voor‑stap hoe u HTML‑bestanden comprimeert en opslaat als ZIP‑archief met C# en Aspose.HTML voor .NET.
 ### [Maak HTML-document met opgemaakte tekst en exporteer naar PDF – Volledige gids](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Leer hoe u een HTML-document met opgemaakte tekst maakt en deze volledig naar PDF exporteert met Aspose.HTML voor .NET.
 ### [Maak PDF van HTML – C# Stapsgewijze handleiding](./create-pdf-from-html-c-step-by-step-guide/)

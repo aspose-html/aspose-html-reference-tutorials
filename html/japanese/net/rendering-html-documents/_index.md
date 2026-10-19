@@ -130,6 +130,12 @@ Aspose.HTML for .NET を使って、HTML コンテンツを高品質な PDF に�
 ### [HTML を PDF にレンダリングし、ZIP に圧縮 – 完全 C# ガイド](./render-html-to-pdf-and-zip-it-complete-c-guide/)
 C# を使用して HTML を PDF に変換し、さらに ZIP アーカイブにまとめる手順をステップバイステップで解説します。
 
+### [HTML を画像にレンダリングする – HTML を JPEG に変換する完全ガイド](./render-html-as-image-complete-guide-to-convert-html-to-jpeg/)
+Aspose.HTML for .NET を使用して、HTML を高品質な JPEG 画像に変換する手順を詳しく解説します。
+
+### [C# でメモリ ストリームを作成する – HTML レンダリングと ZIP エクスポートの完全ガイド](./create-memory-stream-in-c-full-guide-with-html-rendering-zip/)
+C# のメモリ ストリームを作成し、HTML をレンダリングして ZIP にエクスポートする手順をステップバイステップで解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

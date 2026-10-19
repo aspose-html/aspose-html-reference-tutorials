@@ -88,6 +88,8 @@ Học cách tạo tài liệu HTML trong C# bằng Aspose.HTML qua các bước 
 Tìm hiểu cách tăng cường SEO của bạn với Aspose.HTML cho .NET. Tăng thứ hạng, phân tích nội dung web và tối ưu hóa cho công cụ tìm kiếm.
 ### [Cách tạo HTML – Thêm phần tử và Định dạng văn bản](./how-to-create-html-append-elements-and-style-text/)
 Hướng dẫn cách tạo tài liệu HTML, thêm phần tử và áp dụng kiểu cho văn bản bằng Aspose.HTML cho .NET.
+### [Cách định dạng HTML với Aspose.HTML – Đặt kiểu phông chữ trong C#](./how-to-style-html-with-aspose-html-set-font-style-in-c/)
+Hướng dẫn cách sử dụng Aspose.HTML trong C# để thiết lập kiểu phông chữ cho tài liệu HTML, bao gồm các ví dụ thực tế.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

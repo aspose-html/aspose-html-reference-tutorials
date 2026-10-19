@@ -85,6 +85,8 @@ Aprenda a crear documentos HTML y añadir estilos CSS mediante un elemento `<sty
 Aprenda a crear documentos HTML en C# con Aspose.HTML mediante una guía paso a paso con ejemplos claros.
 ### [Cómo crear HTML – Añadir elementos y dar estilo al texto](./how-to-create-html-append-elements-and-style-text/)
 Aprenda a crear documentos HTML añadiendo elementos y aplicando estilos al texto con Aspose.HTML para .NET.
+### [Cómo aplicar estilo a HTML con Aspose.HTML – Establecer estilo de fuente en C#](./how-to-style-html-with-aspose-html-set-font-style-in-c/)
+Aprenda a establecer estilos de fuente en documentos HTML usando Aspose.HTML para .NET con C#.
 
 ## Conclusión
 

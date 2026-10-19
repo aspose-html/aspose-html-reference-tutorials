@@ -111,6 +111,10 @@ Lär dig hur du med Aspose.HTML för .NET konverterar HTML till PDF i en detalje
 Lär dig hur du med Aspose.HTML för .NET konverterar HTML till PDF och packar dem i en zip-fil i en komplett guide.
 ### [Rendera HTML till PNG i C# – Komplett guide med Aspose.HTML](./render-html-to-png-in-c-complete-guide-with-aspose-html/)
 Lär dig steg för steg hur du konverterar HTML till PNG i C# med Aspose.HTML i denna kompletta guide.
+### [Rendera HTML som bild – Komplett guide för att konvertera HTML till JPEG](./render-html-as-image-complete-guide-to-convert-html-to-jpeg/)
+Lär dig hur du med Aspose.HTML för .NET konverterar HTML till JPEG i en komplett guide.
+### [Skapa minnesström i C# – Fullständig guide med HTML-rendering och ZIP-export](./create-memory-stream-in-c-full-guide-with-html-rendering-zip/)
+Lär dig hur du skapar en minnesström i C#, renderar HTML och exporterar till ZIP i en komplett guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

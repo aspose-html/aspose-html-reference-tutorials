@@ -166,6 +166,8 @@ url: /el/net/html-extensions-and-conversions/
 Μάθετε πώς να χρησιμοποιήσετε το ZipArchive για να αποθηκεύσετε HTML και τα σχετικά αρχεία σε ένα αρχείο ZIP με C#.
 ### [Δημιουργία PDF από HTML σε C# – Ενσωμάτωση Γραμματοσειρών & Μετατροπή σε PDF](./create-pdf-from-html-in-c-embed-fonts-convert-to-pdf/)
 Μάθετε πώς να δημιουργήσετε PDF από HTML σε C#, ενσωματώνοντας γραμματοσειρές για ακριβή απόδοση.
+### [Πώς να συμπιέσετε HTML σε C# – Πλήρης Οδηγός για την Αποθήκευση HTML ως ZIP](./how-to-zip-html-in-c-complete-guide-to-save-html-as-zip/)
+Μάθετε πώς να συμπιέσετε αρχεία HTML σε αρχείο ZIP χρησιμοποιώντας το Aspose.HTML για .NET σε C#.
 
 ## Σύναψη
 

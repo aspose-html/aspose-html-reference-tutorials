@@ -57,10 +57,9 @@ Aspose.HTML for .NET में रेंडरिंग टाइमआउट �
  Aspose.HTML के साथ .NET में MHTML को XPS के रूप में प्रस्तुत करना सीखें। अपने HTML हेरफेर कौशल को बढ़ाएँ और अपनी वेब डेवलपमेंट परियोजनाओं को बढ़ावा दें!
 
 ### [Aspose.HTML के साथ .NET में एकाधिक दस्तावेज़ प्रस्तुत करें](./render-multiple-documents/)
-.NET के लिए Aspose.HTML का उपयोग करके कई HTML दस्तावेज़ों को रेंडर करना सीखें। इस शक्तिशाली लाइब्रेरी के साथ अपनी दस्तावेज़ प्रसंस्करण क्षमताओं को बढ़ाएँ।
+ .NET के लिए Aspose.HTML का उपयोग करके कई HTML दस्तावेज़ों को रेंडर करना सीखें। इस शक्तिशाली लाइब्रेरी के साथ अपनी दस्तावेज़ प्रसंस्करण क्षमताओं को बढ़ाएँ।
 
 ### [Aspose.HTML के साथ .NET में SVG दस्तावेज़ को PNG के रूप में प्रस्तुत करें](./render-svg-doc-as-png/)
-.NET के लिए Aspose.HTML की शक्ति अनलॉक करें! SVG Doc को आसानी से PNG के रूप में रेंडर करना सीखें। चरण-दर-चरण उदाहरणों और FAQ में गोता लगाएँ। अभी शुरू करें!
 ### [C# में HTML को रेंडर करना – पैराग्राफ स्टाइलिंग की पूरी गाइड](./how-to-render-html-in-c-complete-guide-to-styling-paragraphs/)
 C# में Aspose.HTML का उपयोग करके HTML पैराग्राफ को स्टाइल करने और रेंडर करने के चरण-दर-स्टेप निर्देश।
 ### [HTML को रेंडर करने का तरीका – कस्टम रिसोर्स हैंडलर के साथ पूर्ण गाइड](./how-to-render-html-complete-guide-with-custom-resource-handl/)
@@ -128,6 +127,12 @@ Aspose.HTML का उपयोग करके HTML को PDF में बद
 
 ### [C# में HTML को PNG में रेंडर करना – Aspose.HTML के साथ पूर्ण गाइड](./render-html-to-png-in-c-complete-guide-with-aspose-html/)
 C# में Aspose.HTML का उपयोग करके HTML को PNG में बदलने का चरण‑दर‑चरण पूर्ण गाइड।
+
+### [HTML को इमेज के रूप में प्रस्तुत करें – HTML को JPEG में बदलने का पूर्ण गाइड](./render-html-as-image-complete-guide-to-convert-html-to-jpeg/)
+Aspose.HTML for .NET के साथ HTML को JPEG इमेज में बदलने की पूरी प्रक्रिया सीखें, कोड उदाहरण और उपयोगी टिप्स के साथ।
+
+### [C# में मेमोरी स्ट्रीम बनाएं – HTML रेंडरिंग और ZIP निर्यात के साथ पूर्ण गाइड](./create-memory-stream-in-c-full-guide-with-html-rendering-zip/)
+Aspose.HTML का उपयोग करके C# में मेमोरी स्ट्रीम बनाकर HTML रेंडर करें और परिणाम को ZIP फ़ाइल में निर्यात करें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

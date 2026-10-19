@@ -83,6 +83,8 @@ Aprenda a localizar um elemento no HTML e aplicar formatação em negrito usando
 Aprenda a gerar documentos HTML e inserir estilos CSS de forma programática com Aspose.HTML para .NET. Guia detalhado passo a passo.
 ### [Criar documento HTML em C# – Guia passo a passo](./create-html-document-c-step-by-step-guide/)
 Aprenda a criar documentos HTML em C# usando Aspose.HTML com instruções detalhadas passo a passo.
+### [Como estilizar HTML com Aspose.HTML – Definir estilo de fonte em C#](./how-to-style-html-with-aspose-html-set-font-style-in-c/)
+Aprenda a definir estilos de fonte em documentos HTML usando Aspose.HTML com C#.
 
 ## Conclusão
 

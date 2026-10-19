@@ -114,6 +114,10 @@ HTML'yi PDF'ye dönüştürüp sıkıştırarak tek bir arşiv oluşturmayı ad�
 
 ### [C# ile HTML'yi PNG Olarak İşleme – Aspose.HTML ile Tam Kılavuz](./render-html-to-png-in-c-complete-guide-with-aspose-html/)
 C# kullanarak HTML'yi PNG'ye dönüştürmenin tüm adımlarını Aspose.HTML ile öğrenin. Detaylı örnekler ve ipuçları.
+### [HTML'yi Görüntü Olarak İşleme – HTML'yi JPEG'e Dönüştürme Tam Kılavuzu](./render-html-as-image-complete-guide-to-convert-html-to-jpeg/)
+HTML'yi JPEG formatına dönüştürmeyi adım adım öğrenin. Bu kapsamlı rehberde örnek kodlar ve ipuçları bulacaksınız.
+### [C#'ta Bellek Akışı Oluşturma – HTML Render'ı ve ZIP Dışa Aktarma ile Tam Kılavuz](./create-memory-stream-in-c-full-guide-with-html-rendering-zip/)
+C#'ta bellek akışı oluşturmayı, HTML render etmeyi ve ZIP olarak dışa aktarmayı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

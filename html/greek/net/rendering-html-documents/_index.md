@@ -118,6 +118,10 @@ url: /el/net/rendering-html-documents/
 Μάθετε πώς να μετατρέψετε HTML σε PDF με C# χρησιμοποιώντας το Aspose.HTML για .NET σε αυτό το ολοκληρωμένο σεμινάριο.
 ### [Απόδοση HTML σε PDF και Συμπίεση – Πλήρης Οδηγός C#](./render-html-to-pdf-and-zip-it-complete-c-guide/)
 Μάθετε πώς να μετατρέψετε HTML σε PDF και να το συμπιέσετε σε αρχείο ZIP χρησιμοποιώντας C# και Aspose.HTML.
+### [Απόδοση HTML ως εικόνα – Πλήρης οδηγός για μετατροπή HTML σε JPEG](./render-html-as-image-complete-guide-to-convert-html-to-jpeg/)
+Μάθετε πώς να μετατρέψετε HTML σε JPEG με το Aspose.HTML για .NET σε αυτόν τον πλήρη οδηγό!
+### [Δημιουργία Memory Stream σε C# – Πλήρης Οδηγός με Απόδοση HTML & Εξαγωγή ZIP](./create-memory-stream-in-c-full-guide-with-html-rendering-zip/)
+Μάθετε πώς να δημιουργήσετε Memory Stream σε C#, να αποδώσετε HTML και να εξάγετε το αποτέλεσμα σε αρχείο ZIP.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

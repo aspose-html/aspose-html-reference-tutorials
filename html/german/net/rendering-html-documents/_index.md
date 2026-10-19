@@ -93,7 +93,6 @@ Erfahren Sie, wie Sie Rendering-Timeouts in Aspose.HTML für .NET effektiv steue
 
 ### [Rendern Sie mehrere Dokumente in .NET mit Aspose.HTML](./render-multiple-documents/)
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET mehrere HTML‑Dokumente rendern. Steigern Sie Ihre Dokumentverarbeitungsfunktionen mit dieser leistungsstarken Bibliothek.
-
 ### [Rendern Sie SVG-Dokumente als PNG in .NET mit Aspose.HTML](./render-svg-doc-as-png/)
 ### [Wie man HTML in C# rendert – Vollständiger Leitfaden zur Formatierung von Absätzen](./how-to-render-html-in-c-complete-guide-to-styling-paragraphs/)
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML rendern und Absätze stilvoll formatieren. Tauchen Sie ein in dieses umfassende Tutorial!
@@ -121,6 +120,12 @@ Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in PDF konvertieren und ein
 
 ### [HTML zu PDF rendern und zippen – Vollständiger C#‑Leitfaden](./render-html-to-pdf-and-zip-it-complete-c-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in PDF konvertieren und das Ergebnis zippen – ein umfassender C#‑Leitfaden.
+
+### [HTML als Bild rendern – Vollständiger Leitfaden zur Konvertierung von HTML in JPEG](./render-html-as-image-complete-guide-to-convert-html-to-jpeg/)
+Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in JPEG‑Bilder konvertieren – Schritt‑für‑Schritt‑Anleitung und Beispielcode.
+
+### [Memory‑Stream in C# erstellen – Vollständiger Leitfaden mit HTML‑Rendering & ZIP‑Export](./create-memory-stream-in-c-full-guide-with-html-rendering-zip/)
+Erfahren Sie, wie Sie in C# einen Memory‑Stream erstellen, HTML rendern und das Ergebnis als ZIP exportieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

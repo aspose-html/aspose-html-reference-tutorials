@@ -85,6 +85,8 @@ Ismerje meg, hogyan hozhat létre HTML-fájlt, és adhat hozzá CSS stíluseleme
 Ismerje meg, hogyan hozhat létre HTML dokumentumot C#‑ban részletes, lépésről‑lépésre útmutatóval.
 ### [HTML létrehozása – Elemek hozzáadása és a szöveg stílusozása](./how-to-create-html-append-elements-and-style-text/)
 Ismerje meg, hogyan hozhat létre HTML-t, elemeket adhat hozzá, és formázhatja a szöveget C#-ban az Aspose.HTML segítségével.
+### [HTML stílusának beállítása Aspose.Html segítségével – Betűstílus C#-ban](./how-to-style-html-with-aspose-html-set-font-style-in-c/)
+Ismerje meg, hogyan állíthat be betűstílust HTML-ben az Aspose.Html C# API-jával.
 
 ## Következtetés
 

@@ -87,6 +87,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML in C# ein Element zum Body einer HTML-Date
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET ein HTML-Dokument in C# Schritt für Schritt erstellen.
 ### [HTML erstellen – Elemente anhängen und Text formatieren](./how-to-create-html-append-elements-and-style-text/)
 Erfahren Sie, wie Sie HTML dynamisch erzeugen, Elemente hinzufügen und Text mit CSS formatieren.
+### [Wie man HTML mit Aspose.HTML stylt – Schriftstil in C# festlegen](./how-to-style-html-with-aspose-html-set-font-style-in-c/)
+Erfahren Sie, wie Sie mit Aspose.HTML in C# Schriftarten und -stile für HTML-Inhalte festlegen.
 
 ## Abschluss
 

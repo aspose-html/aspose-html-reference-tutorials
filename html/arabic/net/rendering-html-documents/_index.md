@@ -125,6 +125,12 @@ url: /ar/net/rendering-html-documents/
 ### [تحويل HTML إلى PNG باستخدام C# – دليل كامل مع Aspose.HTML](./render-html-to-png-in-c-complete-guide-with-aspose-html/)
 تعلم خطوة بخطوة كيفية تحويل HTML إلى PNG باستخدام C# و Aspose.HTML في دليل شامل.
 
+### [عرض HTML كصورة – دليل كامل لتحويل HTML إلى JPEG](./render-html-as-image-complete-guide-to-convert-html-to-jpeg/)
+تعلم خطوة بخطوة كيفية تحويل مستندات HTML إلى صور JPEG باستخدام Aspose.HTML في .NET.
+
+### [إنشاء تدفق الذاكرة في C# – دليل كامل مع تصيير HTML وتصدير ZIP](./create-memory-stream-in-c-full-guide-with-html-rendering-zip/)
+تعلم كيفية إنشاء MemoryStream في C#، تصيير HTML وتصديره كملف ZIP باستخدام Aspose.HTML.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

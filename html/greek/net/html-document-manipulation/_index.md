@@ -86,6 +86,8 @@ url: /el/net/html-document-manipulation/
 Μάθετε πώς να δημιουργήσετε ένα έγγραφο HTML και να ενσωματώσετε ένα στοιχείο CSS Style με οδηγίες βήμα‑βήμα.
 ### [Δημιουργία εγγράφου HTML C# – Οδηγός βήμα‑βήμα](./create-html-document-c-step-by-step-guide/)
 Μάθετε πώς να δημιουργήσετε έγγραφο HTML σε C# με οδηγίες βήμα‑βήμα.
+### [Πώς να μορφοποιήσετε το HTML με Aspose.HTML – Ορισμός στυλ γραμματοσειράς σε C#](./how-to-style-html-with-aspose-html-set-font-style-in-c/)
+Μάθετε πώς να ορίσετε στυλ γραμματοσειράς σε έγγραφα HTML χρησιμοποιώντας Aspose.HTML με C#.
 
 ## Σύναψη
 

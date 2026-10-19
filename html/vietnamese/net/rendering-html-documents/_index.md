@@ -109,6 +109,10 @@ Học cách tạo tài liệu PDF từ HTML bằng C# với Aspose.HTML, bao g�
 Học cách chuyển đổi HTML sang PDF và nén thành file ZIP bằng C# với Aspose.HTML, bao gồm các bước chi tiết và mẹo thực tiễn.
 ### [Render HTML thành PNG trong C# – Hướng dẫn toàn diện với Aspose.HTML](./render-html-to-png-in-c-complete-guide-with-aspose-html/)
 Học cách chuyển đổi HTML sang PNG bằng C# sử dụng Aspose.HTML, bao gồm các bước chi tiết và mẹo thực tiễn.
+### [Kết xuất HTML thành Hình ảnh – Hướng dẫn toàn diện chuyển đổi HTML sang JPEG](./render-html-as-image-complete-guide-to-convert-html-to-jpeg/)
+Học cách chuyển đổi HTML sang định dạng JPEG bằng Aspose.HTML cho .NET qua hướng dẫn chi tiết từng bước.
+### [Tạo Memory Stream trong C# – Hướng dẫn đầy đủ với Render HTML & Xuất ZIP](./create-memory-stream-in-c-full-guide-with-html-rendering-zip/)
+Hướng dẫn chi tiết cách tạo Memory Stream trong C#, render HTML và xuất ra file ZIP bằng Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

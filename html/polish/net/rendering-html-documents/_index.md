@@ -56,6 +56,9 @@ Dowiedz się, jak w Aspose.HTML w C# włączyć antyaliasing, aby uzyskać płyn
 ### [Renderowanie HTML do PNG w C# – Kompletny przewodnik z Aspose.HTML](./render-html-to-png-in-c-complete-guide-with-aspose-html/)
 Kompletny przewodnik w C#, pokazujący, jak przy użyciu Aspose.HTML renderować HTML do formatu PNG krok po kroku.
 
+### [Renderuj HTML jako obraz – Kompletny przewodnik konwersji HTML do JPEG](./render-html-as-image-complete-guide-to-convert-html-to-jpeg/)
+Pełny przewodnik w C#, jak przy użyciu Aspose.HTML konwertować HTML do pliku JPEG krok po kroku.
+
 ### [Jak renderować HTML jako PNG – Kompletny przewodnik C#](./how-to-render-html-as-png-complete-c-guide/)
 Pełny przewodnik C# pokazujący, jak przy użyciu Aspose.HTML renderować HTML jako PNG, krok po kroku.
 
@@ -121,6 +124,8 @@ Dowiedz się, jak przy pomocy Aspose.HTML w C# konwertować HTML do pliku PDF kr
 
 ### [Renderuj HTML do PDF i spakuj go – Kompletny przewodnik C#](./render-html-to-pdf-and-zip-it-complete-c-guide/)
 Pełny przewodnik C# pokazujący, jak przy użyciu Aspose.HTML konwertować HTML do PDF i spakować wynik do pliku ZIP.
+### [Utwórz strumień pamięci w C# – Pełny przewodnik z renderowaniem HTML i eksportem ZIP](./create-memory-stream-in-c-full-guide-with-html-rendering-zip/)
+Dowiedz się, jak w C# utworzyć strumień pamięci, renderować HTML i zapisywać wynik jako plik ZIP w kilku prostych krokach.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -85,6 +85,8 @@ Aspose.HTML for .NET을 활용해 HTML 문서의 Body에 새 요소를 삽입하
 Aspose.HTML을 사용해 특정 요소를 찾아 굵게 적용하는 방법을 단계별로 안내합니다.
 ### [HTML을 만들고 CSS 스타일 요소를 추가하는 단계별 가이드](./how-to-create-html-and-add-css-style-element-step-by-step-gu/)
 HTML 문서를 생성하고 CSS 스타일 요소를 삽입하는 방법을 단계별로 안내합니다.
+### [Aspose.HTML을 사용하여 HTML 스타일 지정 – C#에서 글꼴 스타일 설정](./how-to-style-html-with-aspose-html-set-font-style-in-c/)
+Aspose.HTML for .NET을 활용해 C#에서 HTML 글꼴 스타일을 설정하는 방법을 단계별로 안내합니다.
 
 ## 결론
 

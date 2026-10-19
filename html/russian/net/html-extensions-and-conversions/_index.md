@@ -108,7 +108,6 @@ Aspose.HTML для .NET — это не просто библиотека; эт�
 ### [Сохранить HTML в ZIP в C# – Полный учебник](./save-html-as-zip-in-c-complete-guide/)
 Подробный учебник по сохранению HTML‑страницы в ZIP‑архив с помощью Aspose.HTML для .NET и C#.
 ### [Сохраните HTML в ZIP в C# – Полный пример в памяти](./save-html-to-zip-in-c-complete-in-memory-example/)
-Сохраните HTML в архив ZIP полностью в памяти с помощью Aspose.HTML для .NET, используя C#.
 ### [Aspose HTML в PDF на C# – Полное руководство с архивом ZIP](./aspose-html-to-pdf-in-c-complete-guide-with-zip-archive/)
 Узнайте, как конвертировать HTML в PDF на C# с помощью Aspose.HTML и упаковать результат в архив ZIP.
 
@@ -165,6 +164,8 @@ Aspose.HTML для .NET — это не просто библиотека; эт�
 Узнайте, как упаковать HTML‑файлы в ZIP‑архив с помощью C# и Aspose.HTML, следуя полному пошаговому руководству.
 ### [Как использовать ZipArchive – Сохранить HTML и ресурсы в ZIP‑файл](./how-to-use-ziparchive-save-html-and-resources-to-a-zip-file/)
 Узнайте, как упаковать HTML‑страницу и связанные ресурсы в архив ZIP с помощью ZipArchive в C#.
+### [Как заархивировать HTML в C# – Полное руководство по сохранению HTML в ZIP](./how-to-zip-html-in-c-complete-guide-to-save-html-as-zip/)
+Подробное руководство по упаковке HTML‑страницы в ZIP‑архив с помощью C# и Aspose.HTML, включая пример кода в памяти.
 
 ## Заключение
 

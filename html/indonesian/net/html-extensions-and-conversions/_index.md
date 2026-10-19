@@ -116,6 +116,8 @@ Pelajari cara menggunakan Custom Resource Handler di C# untuk mengonversi HTML m
 Pelajari cara mengompres HTML menjadi ZIP dengan menggunakan Custom Resource Handler di C#.
 ### [Cara Mengompres HTML menjadi Zip di C# – Panduan Lengkap](./how-to-zip-html-in-c-complete-guide/)
 Panduan lengkap untuk mengompres HTML menjadi arsip ZIP menggunakan C# dan Aspose.HTML.
+### [Cara Mengompres HTML menjadi Zip di C# – Panduan Lengkap Menyimpan HTML sebagai ZIP](./how-to-zip-html-in-c-complete-guide-to-save-html-as-zip/)
+Pelajari cara menyimpan file HTML ke arsip ZIP secara lengkap menggunakan C# dan Aspose.HTML.
 ### [Buat Dokumen HTML dengan Teks Bergaya dan Ekspor ke PDF – Panduan Lengkap](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Pelajari cara membuat dokumen HTML dengan teks berformat dan mengekspornya ke PDF menggunakan Aspose.HTML untuk .NET.
 ### [Buat Dokumen HTML C# – Panduan Langkah‑demi‑Langkah](./create-html-document-c-step-by-step-guide/)
