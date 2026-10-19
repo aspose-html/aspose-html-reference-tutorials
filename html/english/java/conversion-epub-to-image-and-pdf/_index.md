@@ -2,10 +2,10 @@
 title: "Convert EPUB to PDF and Images with Aspose.HTML for Java"
 linktitle: "Convert EPUB to PDF and Images with Aspose.HTML for Java"
 second_title: "Java HTML Processing with Aspose.HTML"
-description: "Learn how to convert EPUB to PDF and images using Aspose.HTML for Java. This step‑by‑step guide shows you how to convert epub to pdf, convert epub to image, and use the best epub conversion library."
+description: "Learn how to convert EPUB to PDF and images using Aspose.HTML for Java. This step‑by‑step guide shows you how to convert epub to pdf, convert epub to image, set image resolution, and handle batch epub conversion."
 weight: 22
 url: /java/conversion-epub-to-image-and-pdf/
-date: 2025-12-12
+date: 2026-02-17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -37,7 +37,10 @@ Converting an EPUB file to PDF means taking the reflowable, web‑based e‑book
 - Maven or Gradle project setup (or you can add the JAR manually).  
 - An active Aspose.HTML for Java license (or a temporary trial key).  
 
-## Step‑by‑Step Guide to Convert EPUB to Images
+## How to convert EPUB to PDF and Images in Java
+Below you’ll find two clear pathways: one for PDF output and another for image output. Both share the same initial steps, so you can pick the route that matches your project’s needs.
+
+### Step‑by‑Step Guide to Convert EPUB to Images
 1. **Add the Aspose.HTML Maven dependency** to your `pom.xml` (or download the JAR).  
 2. **Load the EPUB file** using `HtmlDocument`.  
 3. **Iterate through pages** and call `save()` with an image format (PNG, JPEG, etc.).  
@@ -45,13 +48,30 @@ Converting an EPUB file to PDF means taking the reflowable, web‑based e‑book
 
 > *Pro tip:* Use the `saveOptions.setPageNumber()` method to control which page you export, which helps when you only need a subset of images.
 
-## Step‑by‑Step Guide to Convert EPUB to PDF
+#### Set image resolution for EPUB to image conversion
+When you need print‑ready graphics, set the resolution explicitly:
+
+- Call `ImageSaveOptions.setResolution(300)` to produce 300 dpi images.  
+- Adjust the value based on your target medium (150 dpi for web, 600 dpi for high‑quality prints).  
+
+This small tweak ensures the rasterized pages look crisp and professional.
+
+### Step‑by‑Step Guide to Convert EPUB to PDF
 1. **Include the same Maven dependency** as above.  
 2. **Create an `HtmlDocument` instance** pointing to your EPUB file.  
 3. **Call `save()`** with `PdfSaveOptions` to generate a PDF file in one line.  
-4. **Adjust PDF options** (e.g., page size, compression) if you need custom output.
+4. **Adjust PDF options** (e.g., page size, compression) if you need custom output.  
 
 > *Why this matters:* Converting to PDF with a single API call eliminates the need for intermediate HTML rendering, reducing both development time and runtime overhead.
+
+## Batch EPUB conversion
+If you have a library of books, wrap the conversion logic in a loop:
+
+- Load each EPUB file in turn.  
+- Reuse a single `HtmlDocument` instance to keep memory usage low.  
+- Write each output (PDF or image) to a dedicated folder.  
+
+Batch processing leverages the same API calls, so you get consistent results across all files.
 
 ## Common Pitfalls & How to Avoid Them
 - **Missing fonts** – embed custom fonts in the EPUB or supply a font folder to Aspose.HTML.  
@@ -60,7 +80,7 @@ Converting an EPUB file to PDF means taking the reflowable, web‑based e‑book
 
 ## Conversion - EPUB to Image and PDF Tutorials
 ### [Convert EPUB to Images with Aspose.HTML for Java](./convert-epub-to-image/)
-Learn how to convert EPUB to image using Aspose.HTML for Java. A simple, step‑by‑step guide for efficient conversions.
+Learn how to convert EPUB to image using Aspose.HTML for Java. A simple, step‑by‑step guide for efficient conversions.  
 ### [EPUB to PDF Conversion with Aspose.HTML for Java](./convert-epub-to-pdf/)
 Learn how to convert EPUB to PDF with Aspose.HTML for Java. This step‑by‑step guide covers prerequisites, package imports, and code examples. Get started with EPUB to PDF conversion.
 
@@ -81,9 +101,12 @@ A: PDF retains the document’s flow and selectable text, while image conversion
 **Q: Is there a way to batch‑process multiple EPUB files?**  
 A: Wrap the conversion logic in a loop and reuse a single `HtmlDocument` instance to improve performance.
 
+**Q: How can I set image resolution when converting EPUB to images?**  
+A: Use `ImageSaveOptions.setResolution(desiredDpi)`—for example, `setResolution(300)` for high‑quality print output.
+
 ---
 
-**Last Updated:** 2025-12-12  
+**Last Updated:** 2026-02-17  
 **Tested With:** Aspose.HTML for Java 24.10  
 **Author:** Aspose
 

@@ -116,8 +116,23 @@ Naučte se, jak konfigurovat Runtime Service v Aspose.HTML pro Java pro optimali
 ### [Implementujte sandboxing v Aspose.HTML pro Java](./implement-sandboxing/)
 Naučte se, jak implementovat sandboxing v Aspose.HTML pro Java pro bezpečné řízení vykonávání skriptů ve vašich HTML dokumentech a jejich konverzi do PDF.
 
+### [Vytvořte Aspose HTML Sandbox – Kompletní průvodce pro Javu](./create-aspose-html-sandbox-complete-java-guide/)
+### [Jak vytvořit sandbox v Javě – kompletní průvodce](./how-to-create-sandbox-in-java-full-guide/)
+Naučte se krok za krokem, jak vytvořit bezpečný sandbox v Javě pro izolaci kódu během konverze HTML.
+### [Jak nastavit DPI v Aspose.HTML Sandbox – Kompletní průvodce pro Javu](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
+Naučte se, jak nastavit DPI v sandboxu Aspose.HTML pro Java a optimalizovat kvalitu výstupních souborů.
+
 ### [Nastavte uživatelský stylový list v Aspose.HTML pro Java](./set-user-style-sheet/)
-Naučte se, jak nastavit vlastní uživatelský stylový list v Aspose.HTML pro Java, vylepšit stylování dokumentu a snadno převést HTML do PDF.
+Naučte se, jak nastavit vlastní uživat
+
+### [Získání verze knihovny v Javě – Rychlý průvodce zobrazením verze knihovny](./get-library-version-in-java-quick-guide-to-show-library-vers/)
+Naučte se, jak v Javě získat a zobrazit aktuální verzi knihovny Aspose.HTML pomocí několika řádků kódu.
+
+### [Nastavte uživatelský agent pro headless HTML renderování – Kompletní průvodce](./set-user-agent-for-headless-html-rendering-complete-guide/)
+Naučte se, jak nastavit User Agent pro headless HTML renderování v Aspose.HTML pro Java a zajistit správné načítání zdrojů.
+
+### [Extrahovat název z HTML v Javě – Kompletní průvodce sandboxem](./extract-title-from-html-in-java-complete-sandbox-guide/)
+Naučte se, jak pomocí Aspose.HTML v Javě extrahovat název stránky a bezpečně jej zpracovat v sandboxu.
 
 ### [Jak používat sandbox – nastavit User Agent a získat velikost viewportu](./how-to-use-sandbox-set-user-agent-get-viewport-size/)
 Naučte se, jak nastavit User Agent a získat velikost viewportu v sandboxu Aspose.HTML pro Java.

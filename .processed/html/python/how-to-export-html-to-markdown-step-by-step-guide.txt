@@ -1,0 +1,7 @@
+Title: How to Export HTML to Markdown – Step‑by‑Step Guide
+Slug: how-to-export-html-to-markdown-step-by-step-guide
+Category: general
+ProcessedDate: 2026-06-01T05:33:51.901208
+SourceRepo: AI Search API
+Keywords: how to export html, convert html to markdown, html to markdown conversion, save html as markdown, how to convert html
+PRNumber: 169

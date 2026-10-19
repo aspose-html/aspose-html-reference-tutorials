@@ -67,6 +67,15 @@ Nem megbízható forrásokból származó HTML feldolgozásakor a sandboxing els
 
 [Ismerd meg, hogyan valósítható meg a sandboxing az Aspose.HTML for Java-ban.](./implement-sandboxing/)
 
+### [Hogyan állítsuk be a DPI-t az Aspose.HTML sandboxban – Teljes Java útmutató](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
+
+**DPI beállítása az Aspose.HTML sandboxban Java-ban**  
+Ismerd meg, hogyan konfigurálhatod a DPI beállítást az Aspose.HTML sandboxban Java-ban a pontos képméret és minőség érdekében.
+
+### [Get Library Version in Java – Quick Guide to Show Library Version](./get-library-version-in-java-quick-guide-to-show-library-vers/)
+
+**Könyvtár verzió lekérése Java-ban – Gyors útmutató a verzió megjelenítéséhez**  
+Ismerd meg, hogyan jelenítheted meg az Aspose.HTML for Java könyvtár verzióját a kódban.
 ### [How to Use Sandbox – Set User Agent & Get Viewport Size](./how-to-use-sandbox-set-user-agent-get-viewport-size/)
 
 **Sandbox használata – Felhasználói ügynök beállítása és a viewport méretének lekérése**  
@@ -76,6 +85,23 @@ Ismerd meg, hogyan állítható be a felhasználói ügynök és hogyan kérhet�
 
 **Felhasználói stíluslap beállítása az Aspose.HTML for Java-ban**  
 Ismerd meg, hogyan állítható be egy egyedi felhasználói stíluslap az Aspose.HTML for Java-ban, javítva a dokumentum stílusát és könnyedén konvertálva a HTML-t PDF-re.
+
+### [Aspose HTML Sandbox létrehozása – Teljes Java útmutató](./create-aspose-html-sandbox-complete-java-guide/)
+
+**Aspose HTML Sandbox létrehozása Java-ban**  
+Ismerd meg, hogyan hozhatsz létre biztonságos sandboxot az Aspose.HTML for Java-ban, részletes lépésekkel és példakóddal.
+### [How to Create Sandbox in Java – Full Guide](./how-to-create-sandbox-in-java-full-guide/)
+
+**Hogyan hozhatsz létre sandbox környezetet Java-ban – Teljes útmutató**  
+Ismerd meg, hogyan hozhatsz létre sandbox környezetet Java-ban a biztonságos HTML konverziókhoz.
+### [Set User Agent for Headless HTML Rendering – Complete Guide](./set-user-agent-for-headless-html-rendering-complete-guide/)
+
+**Felhasználói ügynök beállítása fej nélküli HTML rendereléshez – Teljes útmutató**  
+Ismerd meg, hogyan állítható be a felhasználói ügynök a fej nélküli HTML rendereléshez az Aspose.HTML for Java-ban, hogy testreszabhasd a kéréseket.
+### [HTML címének kinyerése Java-ban – Teljes sandbox útmutató](./extract-title-from-html-in-java-complete-sandbox-guide/)
+
+**HTML címének kinyerése Java-ban – Teljes sandbox útmutató**  
+Ismerd meg, hogyan nyerheted ki a HTML címét Java-ban biztonságos sandbox környezetben.
 
 ---
 
