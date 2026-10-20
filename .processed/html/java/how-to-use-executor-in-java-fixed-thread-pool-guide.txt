@@ -1,0 +1,7 @@
+Title: How to Use Executor in Java – Fixed Thread Pool Guide
+Slug: how-to-use-executor-in-java-fixed-thread-pool-guide
+Category: advanced-usage
+ProcessedDate: 2026-05-29T00:49:42.552982
+SourceRepo: AI Search API
+Keywords: how to use executor, fixed thread pool java, extract text from html, java thread pool example, create fixed thread pool
+PRNumber: 164

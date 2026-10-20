@@ -1,24 +1,24 @@
 ---
 category: general
-date: 2026-05-06
-description: Skapa PDF från HTML i C# snabbt. Lär dig hur du konverterar HTML till
-  PDF, sparar HTML som PDF och genererar PDF från HTML med Aspose.Html.
+date: 2026-04-30
+description: Skapa PDF från HTML i C# med Aspose.HTML – en snabb, komplett guide som
+  också visar hur man konverterar HTML till PDF och sparar HTML som PDF.
 draft: false
 keywords:
 - create pdf from html
 - convert html to pdf
 - html to pdf c#
+- c# html to pdf
 - save html as pdf
-- generate pdf from html
 language: sv
-og_description: Skapa PDF från HTML i C# med en praktisk handledning. Konvertera HTML
-  till PDF, spara HTML som PDF och generera PDF från HTML med Aspose.Html.
-og_title: Skapa PDF från HTML i C# – Komplett guide
+og_description: Skapa PDF från HTML i C# med Aspose.HTML. Lär dig hur du konverterar
+  HTML till PDF, sparar HTML som PDF och hanterar vanliga fallgropar i en kortfattad
+  handledning.
+og_title: Skapa PDF från HTML i C# – Komplett programmeringsguide
 tags:
+- Aspose.HTML
 - C#
-- PDF
-- Aspose.Html
-- HTML conversion
+- PDF generation
 title: Skapa PDF från HTML i C# – Fullständig steg‑för‑steg‑guide
 url: /sv/net/html-extensions-and-conversions/create-pdf-from-html-in-c-full-step-by-step-guide/
 ---
@@ -29,261 +29,217 @@ url: /sv/net/html-extensions-and-conversions/create-pdf-from-html-in-c-full-step
 
 # Skapa PDF från HTML i C# – Fullständig steg‑för‑steg‑guide
 
-Har du någonsin behövt **skapa PDF från HTML** i ett .NET‑projekt och varit osäker på vilket bibliotek du ska välja? Du är inte ensam. Att konvertera webbstilsat innehåll till en utskrivbar PDF är en vanlig uppgift—tänk fakturor, rapporter eller offline‑dokumentation. De goda nyheterna? Med Aspose.Html kan du **konvertera HTML till PDF** med en enda kodrad, och hela processen är förvånansvärt enkel.
+Behöver du **skapa PDF från HTML i C#**? Du är inte ensam—många utvecklare stöter på detta hinder när de måste omvandla dynamiska webbsidor till utskrivbara fakturor, rapporter eller e‑böcker. Den goda nyheten är att du med Aspose.HTML kan **konvertera HTML till PDF** med bara några få rader kod, och du får även lära dig hur du **sparar HTML som PDF** med full kontroll över renderingsalternativen.
 
-I den här handledningen går vi igenom allt du behöver för att **spara HTML som PDF** med C#. Du får se den kompletta, körbara koden, lära dig varför varje steg är viktigt, och upptäcka några knep för att hantera kantfall som saknade typsnitt eller stora filer. I slutet kommer du att kunna **generera PDF från HTML** med självförtroende—utan mystiska “se dokumentationen”-genvägar.
+I den här handledningen går vi igenom allt du behöver: projektuppsättning, nödvändiga NuGet‑paket, den exakta koden du kan kopiera‑klistra in, samt några tips för att hantera kantfall som externa resurser eller stora dokument. När du är klar har du en körbar konsolapp som skapar en PDF från vilken HTML‑fil som helst på disken.
+
+---
 
 ## Vad du behöver
 
-- **.NET 6.0** eller senare (Aspose.Html stödjer .NET Framework, .NET Core och .NET 5/6).
-- En **giltig Aspose.Html-licens** (du kan börja med en gratis utvärderingsnyckel).
-- Visual Studio 2022 (eller någon annan editor du föredrar).
-- En enkel `input.html`‑fil som du vill omvandla till en PDF.
+- **.NET 6.0 eller senare** – API‑et fungerar med .NET Core, .NET 5+, och .NET Framework 4.6+.
+- **Visual Studio 2022** (eller någon annan IDE du föredrar).  
+- **Aspose.HTML for .NET** – vi installerar det via NuGet, så ingen manuell DLL‑jakt behövs.
+- En enkel **input.html**‑fil som du vill omvandla till en PDF.  
+- Grundläggande kunskaper i C# – inget avancerat, bara tillräckligt för att köra ett konsolprogram.
 
-Det är allt—inga extra NuGet‑paket utöver själva Aspose.Html.
+Om någon av dessa punkter känns obekant, oroa dig inte. Vi går igenom installationssteget i detalj, och resten är ren vanilla‑C#.
 
-![Skapa PDF från HTML exempel](/images/create-pdf-from-html.png "Skärmbild som visar en genererad PDF från HTML")
+---
 
-*Bildtext: skapa pdf från html exempel*
+## Steg 1 – Skapa projektet och installera Aspose.HTML
 
-## Steg 1: Installera Aspose.Html via NuGet
+Först och främst: skapa ett nytt konsolprojekt.
 
-Det första du måste göra är att lägga till Aspose.Html‑biblioteket i ditt projekt. Öppna **Package Manager Console** och kör:
-
-```powershell
-Install-Package Aspose.Html
+```bash
+dotnet new console -n HtmlToPdfDemo
+cd HtmlToPdfDemo
 ```
 
-> **Varför detta är viktigt:** Aspose.Html levereras med en högpresterande renderingsmotor som förstår modern HTML5, CSS3 och till och med JavaScript. Utan den skulle konverteringen falla tillbaka på en mycket begränsad parser, och den resulterande PDF‑en kan sakna stil- eller layoutdetaljer.
+Lägg nu till Aspose.HTML‑paketet. NuGet‑kommandot hämtar den senaste stabila versionen, som vid skrivande stund är **23.10**.
 
-## Steg 2: Lägg till den nödvändiga Using‑direktivet
+```bash
+dotnet add package Aspose.HTML --version 23.10.0
+```
 
-När paketet är installerat måste du referera till namnutrymmet som innehåller konverterarklassen.
+> **Pro tip:** Om du riktar dig mot .NET Framework, använd det klassiska `Install-Package Aspose.HTML`‑kommandot i Package Manager Console.
+
+När paketet har återställts, öppna **Program.cs** – vi kommer snart att ersätta innehållet med hela exemplet.
+
+---
+
+## Steg 2 – Förbered ditt HTML‑inmatning
+
+Konverteraren fungerar med en filsökväg, en URL eller en rå HTML‑sträng. För den här guiden håller vi det enkelt och pekar på en lokal fil.
+
+Skapa en mapp som heter **YOUR_DIRECTORY** bredvid projektfilen och lägg en **input.html**‑fil där. Den kan vara så minimal som:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Sample Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        h1 { color: #2E86C1; }
+    </style>
+</head>
+<body>
+    <h1>Monthly Sales Report</h1>
+    <p>This PDF was generated from HTML using Aspose.HTML.</p>
+</body>
+</html>
+```
+
+> **Why this matters:** Aspose.HTML respekterar fullt ut CSS, teckensnitt och även externa bilder. Om du refererar till bilder, se till att sökvägarna är absoluta eller att filerna ligger bredvid HTML‑filen.
+
+---
+
+## Steg 3 – Konfigurera Load‑ och Save‑alternativ
+
+Aspose.HTML ger dig fin kontroll över hur HTML‑innehållet parsas och hur PDF‑filen renderas. I de flesta fall är standardinställningarna bra, men det är bra att veta att objekten finns.
 
 ```csharp
+using Aspose.Html;
 using Aspose.Html.Converters;
-```
-
-> **Proffstips:** Om du använder en IDE med IntelliSense kommer den att föreslå `Aspose.Html.Converters`‑namnutrymmet så snart du skriver `HTMLDocumentConverter`. Att acceptera förslaget sparar några tangenttryckningar.
-
-## Steg 3: Definiera käll‑ och destinationssökvägar
-
-Att hårdkoda absoluta sökvägar fungerar för en snabb demo, men i verklig kod bygger du ofta sökvägar relativt till applikationens basmapp. Nedan är ett robust sätt att göra det:
-
-```csharp
-// Step 3: Build absolute paths for input HTML and output PDF
-string baseDir = AppDomain.CurrentDomain.BaseDirectory;
-string sourcePath = Path.Combine(baseDir, "Resources", "input.html");
-string destinationPath = Path.Combine(baseDir, "Output", "output.pdf");
-
-// Ensure the output folder exists
-Directory.CreateDirectory(Path.GetDirectoryName(destinationPath));
-```
-
-> **Varför vi använder `Path.Combine`** – Det normaliserar katalogseparatorer på Windows, Linux och macOS, vilket förhindrar ”File not found”-fel som ofta drabbar utvecklare som manuellt sammanfogar strängar.
-
-## Steg 4: Utför konverteringen
-
-Nu händer magin. Metoden `HTMLDocumentConverter.Convert` väljer den bästa renderingsmotorn internt, så du behöver inte specificera någon.
-
-```csharp
-try
-{
-    // Step 4: Convert the HTML document to PDF
-    HTMLDocumentConverter.Convert(sourcePath, destinationPath);
-    Console.WriteLine($"✅ Success! PDF saved to {destinationPath}");
-}
-catch (Exception ex)
-{
-    // Graceful error handling – useful when you later expose this as a web API
-    Console.Error.WriteLine($"❌ Conversion failed: {ex.Message}");
-}
-```
-
-> **Vad händer under huven?** Aspose.Html parsar HTML, tillämpar CSS, kör eventuell inline‑JavaScript (om den är aktiverad) och rasteriserar layouten till PDF‑sidor. Biblioteket bäddar automatiskt in typsnitt och bilder, så resultatet ser identiskt ut med webbläsarens rendering.
-
-## Steg 5: Verifiera resultatet
-
-En snabb kontroll säkerställer att konverteringen inte tyst har tappat innehåll.
-
-```csharp
-if (File.Exists(destinationPath))
-{
-    var fileInfo = new FileInfo(destinationPath);
-    Console.WriteLine($"📄 PDF size: {fileInfo.Length / 1024} KB");
-}
-else
-{
-    Console.WriteLine("⚠️ PDF file was not created.");
-}
-```
-
-Öppna den genererade `output.pdf` i din föredragna visare. Du bör se samma rubriker, tabeller och stil som fanns i `input.html`.
-
-## Hantera vanliga kantfall
-
-### 1. Relativa bildsökvägar
-
-Om ditt HTML refererar till bilder med relativa URL:er (`src="images/logo.png"`), se till att konverterarens *bas‑URL* pekar på mappen som innehåller dessa resurser. Du kan ställa in den så här:
-
-```csharp
-var options = new HtmlLoadOptions
-{
-    BaseUri = new Uri(Path.Combine(baseDir, "Resources") + Path.DirectorySeparatorChar)
-};
-
-HTMLDocument document = new HTMLDocument(sourcePath, options);
-HTMLDocumentConverter.Convert(document, destinationPath);
-```
-
-### 2. Stora dokument
-
-För HTML‑filer större än 10 MB kan du vilja öka minnesgränsen eller bearbeta filen i delar. Aspose.Html låter dig strömma källan:
-
-```csharp
-using (FileStream fs = File.OpenRead(sourcePath))
-{
-    HTMLDocument doc = new HTMLDocument(fs, new HtmlLoadOptions { BaseUri = new Uri(baseDir) });
-    HTMLDocumentConverter.Convert(doc, destinationPath);
-}
-```
-
-### 3. Saknade typsnitt
-
-Om käll‑HTML använder ett anpassat typsnitt som inte är installerat på servern, kommer PDF‑en att falla tillbaka på ett standardtypsnitt. För att bädda in typsnittet själv:
-
-```csharp
-var fontOptions = new FontSettings();
-fontOptions.FontFolders.Add(Path.Combine(baseDir, "Fonts"));
-HTMLDocumentConverter.Convert(sourcePath, destinationPath, new HtmlToPdfOptions { FontSettings = fontOptions });
-```
-
-### 4. JavaScript‑exekvering
-
-Som standard kör Aspose.Html JavaScript, vilket kan vara en säkerhetsrisk när man bearbetar opålitlig HTML. Inaktivera det så här:
-
-```csharp
-var loadOptions = new HtmlLoadOptions { EnableJavaScript = false };
-HTMLDocument doc = new HTMLDocument(sourcePath, loadOptions);
-HTMLDocumentConverter.Convert(doc, destinationPath);
-```
-
-## Proffstips för produktionsklara PDF‑er
-
-- **Ställ in PDF‑metadata** (författare, titel, nyckelord) för att göra filen sökbar:
-
-  ```csharp
-  var pdfOptions = new PdfSaveOptions
-  {
-      DocumentInfo = new DocumentInfo
-      {
-          Title = "Monthly Report",
-          Author = "Your Company",
-          Keywords = "report, finance, 2026"
-      }
-  };
-  HTMLDocumentConverter.Convert(sourcePath, destinationPath, pdfOptions);
-  ```
-
-- **Komprimera bilder** för att hålla filstorleken låg. Aspose.Html låter dig ange JPEG‑kvalitet:
-
-  ```csharp
-  var imgOptions = new ImageSaveOptions { Quality = 80 };
-  pdfOptions.ImageSaveOptions = imgOptions;
-  ```
-
-- **Batch‑konvertering**: Loopa över en samling HTML‑filer och lagra varje PDF i en tidsstämplad mapp. Detta mönster är praktiskt för nattlig rapportgenerering.
-
-## Fullt fungerande exempel
-
-När vi sätter ihop allt, här är en fristående konsolapp som du kan kopiera‑klistra in i `Program.cs` och köra direkt.
-
-```csharp
-using System;
-using System.IO;
-using Aspose.Html.Converters;
-using Aspose.Html.LoadOptions;
 using Aspose.Html.Saving;
+using Aspose.Html.Loading;
 
-class Program
+namespace HtmlToPdfDemo
 {
-    static void Main()
+    class Program
     {
-        // -----------------------------------------------------------------
-        // 1️⃣  Setup paths
-        // -----------------------------------------------------------------
-        string baseDir = AppDomain.CurrentDomain.BaseDirectory;
-        string sourcePath = Path.Combine(baseDir, "Resources", "input.html");
-        string destinationPath = Path.Combine(baseDir, "Output", "output.pdf");
-        Directory.CreateDirectory(Path.GetDirectoryName(destinationPath));
-
-        // -----------------------------------------------------------------
-        // 2️⃣  Optional: configure load options (e.g., disable JS)
-        // -----------------------------------------------------------------
-        var loadOptions = new HtmlLoadOptions
+        static void Main(string[] args)
         {
-            BaseUri = new Uri(Path.Combine(baseDir, "Resources") + Path.DirectorySeparatorChar),
-            EnableJavaScript = false               // security‑first for untrusted HTML
-        };
+            // 1️⃣  Path to the source HTML file
+            string inputHtmlPath = @"YOUR_DIRECTORY\input.html";
 
-        // -----------------------------------------------------------------
-        // 3️⃣  Convert HTML → PDF
-        // -----------------------------------------------------------------
-        try
-        {
-            // Load the HTML document with the specified options
-            var htmlDoc = new Aspose.Html.HTMLDocument(sourcePath, loadOptions);
+            // 2️⃣  Desired PDF output location
+            string outputPdfPath = @"YOUR_DIRECTORY\output.pdf";
 
-            // Define PDF save options (metadata, compression, etc.)
-            var pdfOptions = new PdfSaveOptions
-            {
-                DocumentInfo = new DocumentInfo
-                {
-                    Title = "Generated PDF",
-                    Author = Environment.UserName,
-                    Keywords = "create pdf from html, Aspose.Html"
-                },
-                ImageSaveOptions = new ImageSaveOptions { Quality = 85 }
-            };
+            // 3️⃣  Load options – you can set encoding, base URL, etc.
+            HtmlLoadOptions loadOptions = new HtmlLoadOptions();
 
-            // Perform the conversion
-            HTMLDocumentConverter.Convert(htmlDoc, destinationPath, pdfOptions);
-            Console.WriteLine($"✅ PDF created at: {destinationPath}");
-        }
-        catch (Exception ex)
-        {
-            Console.Error.WriteLine($"❌ Error during conversion: {ex.Message}");
-        }
+            // 4️⃣  Save options – choose PDF version, compliance, etc.
+            PdfSaveOptions saveOptions = new PdfSaveOptions();
 
-        // -----------------------------------------------------------------
-        // 4️⃣  Verify output
-        // -----------------------------------------------------------------
-        if (File.Exists(destinationPath))
-        {
-            var info = new FileInfo(destinationPath);
-            Console.WriteLine($"📄 File size: {info.Length / 1024} KB");
-        }
-        else
-        {
-            Console.WriteLine("⚠️ PDF was not generated.");
+            // 5️⃣  Perform the conversion
+            Converter.ConvertHTML(inputHtmlPath, loadOptions, outputPdfPath, saveOptions);
+
+            System.Console.WriteLine("✅ PDF created successfully at: " + outputPdfPath);
         }
     }
 }
 ```
 
-Kör programmet, öppna `Output\output.pdf` och beundra den perfekta kopian av din HTML‑sida—nu i ett portabelt, utskriftsklart format.
+### Vad alternativen gör
+
+- **HtmlLoadOptions** – låter dig definiera en bas‑URL för relativa länkar, styra teckenkodning eller aktivera JavaScript‑exekvering (om du behöver det).  
+- **PdfSaveOptions** – du kan ange PDF/A‑kompatibilitet, bildkomprimering eller till och med bädda in teckensnitt. Att låta dem vara på standard ger dig en vanlig, sökbar PDF.
+
+---
+
+## Steg 4 – Kör konverteraren
+
+Bygg och kör programmet:
+
+```bash
+dotnet run
+```
+
+Om allt är korrekt konfigurerat ser du ett bekräftelsemeddelande i konsolen, och en ny **output.pdf** dyker upp i samma mapp.
+
+![Create PDF from HTML example](https://example.com/create-pdf-from-html.png "Create PDF from HTML in C#")
+
+*Image alt text: "create pdf from html example screenshot showing output.pdf file"*  
+
+> **Watch out:** Om du får ett `FileNotFoundException`, dubbelkolla sökvägsseparatorerna (`\` vs `/`) och att **YOUR_DIRECTORY** faktiskt finns. Relativa sökvägar kan vara knepiga när arbetskatalogen inte är projektets rot.
+
+---
+
+## Steg 5 – Verifiera resultatet (Vad du kan förvänta dig)
+
+Öppna **output.pdf** i någon PDF‑visare. Du bör se:
+
+- Rubriken **“Monthly Sales Report”** renderad i den blå färgen som definierats i CSS‑filen.  
+- Korrekt styckeavstånd och ett Arial‑liknande teckensnitt (Aspose faller tillbaka på ett systemteckensnitt om originalet saknas).  
+- Inga extra tomma sidor—Aspose paginerar automatiskt baserat på sidstorlek (standard A4).
+
+Om layouten ser felaktig ut, överväg att justera **PdfSaveOptions**:
+
+```csharp
+saveOptions.PageSetup = new PdfPageSetup
+{
+    Size = PdfPageSize.A4,
+    Orientation = PdfPageOrientation.Portrait,
+    Margins = new PdfMargin { Top = 20, Bottom = 20, Left = 20, Right = 20 }
+};
+```
+
+Detta kodsnutt tvingar en A4‑stående sida med 20‑punkts marginaler, vilket ofta matchar vanliga rapportkrav.
+
+---
+
+## Vanliga variationer & kantfall
+
+### Konvertera en fjärr‑URL
+
+Om din HTML finns på webben, skicka bara URL‑strängen till `ConvertHTML`:
+
+```csharp
+string remoteUrl = "https://example.com/report.html";
+Converter.ConvertHTML(remoteUrl, loadOptions, outputPdfPath, saveOptions);
+```
+
+Se till att maskinen som kör koden har internetåtkomst, och överväg att sätta `loadOptions.BaseUrl` för att lösa relativa resurser korrekt.
+
+### Stora dokument & minneshantering
+
+För HTML‑filer större än ~50 MB kan du vilja strömma innehållet:
+
+```csharp
+using (FileStream htmlStream = File.OpenRead(inputHtmlPath))
+{
+    Converter.ConvertHTML(htmlStream, loadOptions, outputPdfPath, saveOptions);
+}
+```
+
+Detta förhindrar att hela filen laddas in i minnet på en gång.
+
+### Bädda in egna teckensnitt
+
+Om din HTML använder ett web‑teckensnitt (t.ex. Google Fonts), ladda ner `.ttf`‑filerna och peka `loadOptions.FontResources` mot mappen:
+
+```csharp
+loadOptions.FontResources = new FontResources(@"YOUR_DIRECTORY\fonts");
+```
+
+Aspose kommer att bädda in dessa teckensnitt i PDF‑filen, så att utseendet blir identiskt på alla maskiner.
+
+---
+
+## Pro‑tips & fallgropar att undvika
+
+- **Pro tip:** Sätt alltid `PdfSaveOptions.Compliance = PdfCompliance.PdfA1b` när PDF‑filen måste vara arkiveringsklar.  
+- **Watch out for:** Bilder som refereras med `src="data:image/png;base64,..."` kan blåsa upp PDF‑storleken. Använd `PdfSaveOptions.ImageCompression = PdfImageCompression.Jpeg` för att hålla filen slank.  
+- **Remember:** Konverteraren respekterar CSS‑media queries. Om du har ett `@media print`‑block kommer det att appliceras automatiskt—perfekt för att skräddarsy PDF‑utseendet utan att röra HTML‑koden.
+
+---
 
 ## Slutsats
 
-Vi har precis gått igenom hur man **skapar PDF från HTML** i C# med Aspose.Html, från att installera paketet till att hantera typsnitt, bilder och stora dokument. Kärnlinjen—`HTMLDocumentConverter.Convert(sourcePath, destinationPath);`—gör det tunga arbetet, men den omgivande koden gör lösningen robust nog för produktionsbelastningar.
+Du vet nu hur du **skapar PDF från HTML i C#** med Aspose.HTML, och har täckt allt från projektuppsättning till finjustering av renderingsalternativ. Den korta kodsnutt vi byggde hanterar det vanligaste scenariot—att omvandla en lokal HTML‑fil till en polerad PDF—medan de extra avsnitten visade hur du **konverterar HTML till PDF** från URL:er, hanterar stora filer och bäddar in egna teckensnitt.
 
-Om du är redo att utforska vidare, prova:
+Nästa steg? Prova att experimentera med **html to pdf c#**‑funktioner som:
 
-- **Konvertera HTML till PDF** med anpassade sidstorlekar (A4, Letter osv.).
-- **Spara HTML som PDF** samtidigt som du bevarar hyperlänkar för interaktiva PDF‑er.
-- **Generera PDF från HTML** i ett webb‑API som returnerar PDF‑strömmen direkt till klienten.
+- Lägga till sidhuvuden/sidfötter via `PdfHeaderFooterOptions`.  
+- Konvertera flera HTML‑filer i en batch‑loop.  
+- Använda den asynkrona API:n (`ConvertHTMLAsync`) för webbtjänster.
 
-Dessa nästa steg kommer att fördjupa din behärskning av biblioteket
+Alla dessa bygger på samma grund som vi har lagt, så du är redo att tackla vilken PDF‑genereringsutmaning som helst som kommer i din väg.
+
+Lycka till med kodandet, och må dina PDF‑filer alltid renderas exakt som du tänkt!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

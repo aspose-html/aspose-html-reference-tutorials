@@ -1,24 +1,23 @@
 ---
 category: general
-date: 2026-05-06
-description: Crea PDF da HTML in C# rapidamente. Scopri come convertire HTML in PDF,
-  salvare HTML come PDF e generare PDF da HTML utilizzando Aspose.Html.
+date: 2026-04-30
+description: Crea PDF da HTML in C# usando Aspose.HTML – una guida rapida e completa
+  che mostra anche come convertire HTML in PDF e salvare HTML come PDF.
 draft: false
 keywords:
 - create pdf from html
 - convert html to pdf
 - html to pdf c#
+- c# html to pdf
 - save html as pdf
-- generate pdf from html
 language: it
-og_description: Crea PDF da HTML in C# con un tutorial pratico. Converti HTML in PDF,
-  salva HTML come PDF e genera PDF da HTML usando Aspose.Html.
-og_title: Crea PDF da HTML in C# – Guida completa
+og_description: Crea PDF da HTML in C# con Aspose.HTML. Scopri come convertire HTML
+  in PDF, salvare HTML come PDF e gestire le comuni insidie in un tutorial conciso.
+og_title: Crea PDF da HTML in C# – Guida completa alla programmazione
 tags:
+- Aspose.HTML
 - C#
-- PDF
-- Aspose.Html
-- HTML conversion
+- PDF generation
 title: Crea PDF da HTML in C# – Guida completa passo passo
 url: /it/net/html-extensions-and-conversions/create-pdf-from-html-in-c-full-step-by-step-guide/
 ---
@@ -27,265 +26,219 @@ url: /it/net/html-extensions-and-conversions/create-pdf-from-html-in-c-full-step
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Creare PDF da HTML in C# – Guida Completa Passo‑per‑Passo
+# Creare PDF da HTML in C# – Guida completa passo‑passo
 
-Hai mai dovuto **creare PDF da HTML** in un progetto .NET e non sapevi quale libreria scegliere? Non sei l’unico. Convertire contenuti stilizzati per il web in un PDF stampabile è un compito comune—pensaci a fatture, report o documentazione offline. La buona notizia? Con Aspose.Html puoi **convertire HTML in PDF** con una sola riga di codice, e l’intero processo è sorprendentemente semplice.
+Hai bisogno di **creare PDF da HTML in C#**? Non sei l’unico: molti sviluppatori incontrano questo ostacolo quando devono trasformare pagine web dinamiche in fatture, report o e‑book stampabili. La buona notizia è che con Aspose.HTML puoi **convertire HTML in PDF** con poche righe di codice, e imparerai anche a **salvare HTML come PDF** con pieno controllo sulle opzioni di rendering.
 
-In questo tutorial percorreremo tutto ciò che ti serve per **salvare HTML come PDF** usando C#. Vedrai il codice completo, eseguibile, comprenderai perché ogni passaggio è importante e scoprirai alcuni trucchi per gestire casi particolari come font mancanti o file di grandi dimensioni. Alla fine sarai in grado di **generare PDF da HTML** con sicurezza—senza scorciatoie “vedi la documentazione”.
+In questo tutorial vedremo tutto ciò che ti serve: configurazione del progetto, pacchetti NuGet necessari, il codice esatto da copiare‑incollare e alcuni consigli per gestire casi particolari come risorse esterne o documenti di grandi dimensioni. Alla fine avrai un’app console funzionante che crea un PDF da qualsiasi file HTML presente su disco.
 
-## Cosa Ti Serve
+---
 
-Prima di iniziare, assicurati di avere:
+## Di cosa avrai bisogno
 
-- **.NET 6.0** o successivo (Aspose.Html supporta .NET Framework, .NET Core e .NET 5/6).
-- Una **licenza valida di Aspose.Html** (puoi iniziare con una chiave di valutazione gratuita).
-- Visual Studio 2022 (o qualsiasi editor tu preferisca).
-- Un semplice file `input.html` che desideri trasformare in PDF.
+- **.NET 6.0 o versioni successive** – l’API funziona con .NET Core, .NET 5+, e .NET Framework 4.6+.  
+- **Visual Studio 2022** (o qualsiasi IDE preferisci).  
+- **Aspose.HTML per .NET** – lo installeremo tramite NuGet, senza dover cercare manualmente le DLL.  
+- Un semplice file **input.html** che desideri trasformare in PDF.  
+- Conoscenze di base di C# – niente di complicato, solo il necessario per eseguire un programma console.
 
-Tutto qui—nessun pacchetto NuGet aggiuntivo oltre a Aspose.Html stesso.
+Se qualcosa ti risulta poco familiare, non preoccuparti. Tratteremo in dettaglio il passaggio di installazione e il resto è puro C# vanilla.
 
-![Create PDF from HTML example](/images/create-pdf-from-html.png "Screenshot che mostra un PDF generato da HTML")
+---
 
-*Testo alternativo immagine: esempio di creazione PDF da HTML*
+## Passo 1 – Configura il progetto e installa Aspose.HTML
 
-## Passo 1: Installare Aspose.Html via NuGet
+Prima di tutto: crea un nuovo progetto console.
 
-La prima cosa da fare è aggiungere la libreria Aspose.Html al tuo progetto. Apri la **Package Manager Console** ed esegui:
-
-```powershell
-Install-Package Aspose.Html
+```bash
+dotnet new console -n HtmlToPdfDemo
+cd HtmlToPdfDemo
 ```
 
-> **Perché è importante:** Aspose.Html include un motore di rendering ad alte prestazioni che comprende HTML5, CSS3 e persino JavaScript moderni. Senza di esso la conversione ricadrebbe su un parser molto limitato, e il PDF risultante potrebbe perdere stili o dettagli di layout.
+Ora aggiungi il pacchetto Aspose.HTML. Il comando NuGet scarica l’ultima versione stabile, che al momento della stesura è **23.10**.
 
-## Passo 2: Aggiungere la Direttiva Using Necessaria
+```bash
+dotnet add package Aspose.HTML --version 23.10.0
+```
 
-Una volta installato il pacchetto, devi fare riferimento allo spazio dei nomi che contiene la classe del convertitore.
+> **Consiglio pro:** Se stai puntando a .NET Framework, usa il comando classico `Install-Package Aspose.HTML` nella Console di Gestione Pacchetti.
+
+Una volta ripristinato il pacchetto, apri **Program.cs** – sostituiremo subito il suo contenuto con l’esempio completo.
+
+---
+
+## Passo 2 – Prepara il tuo input HTML
+
+Il convertitore accetta un percorso file, un URL o una stringa HTML grezza. Per questa guida lo semplifichiamo puntando a un file locale.
+
+Crea una cartella chiamata **YOUR_DIRECTORY** accanto al file di progetto e inserisci lì un file **input.html**. Può essere minimale così:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Sample Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        h1 { color: #2E86C1; }
+    </style>
+</head>
+<body>
+    <h1>Monthly Sales Report</h1>
+    <p>This PDF was generated from HTML using Aspose.HTML.</p>
+</body>
+</html>
+```
+
+> **Perché è importante:** Aspose.HTML rispetta pienamente CSS, font e anche immagini esterne. Se fai riferimento a immagini, assicurati che i percorsi siano assoluti o che i file si trovino accanto al file HTML.
+
+---
+
+## Passo 3 – Configura le opzioni di caricamento e salvataggio
+
+Aspose.HTML ti offre un controllo granulare su come l’HTML viene analizzato e su come il PDF viene renderizzato. Nella maggior parte dei casi le impostazioni predefinite vanno bene, ma è utile sapere che questi oggetti esistono.
 
 ```csharp
+using Aspose.Html;
 using Aspose.Html.Converters;
-```
-
-> **Consiglio professionale:** Se usi un IDE con IntelliSense, ti suggerirà lo spazio dei nomi `Aspose.Html.Converters` non appena digiti `HTMLDocumentConverter`. Accettare il suggerimento ti fa risparmiare qualche battuta.
-
-## Passo 3: Definire i Percorsi di Origine e Destinazione
-
-Hard‑coding di percorsi assoluti funziona per una demo veloce, ma nel codice reale costruirai spesso percorsi relativi alla directory base dell’applicazione. Di seguito un modo robusto per farlo:
-
-```csharp
-// Step 3: Build absolute paths for input HTML and output PDF
-string baseDir = AppDomain.CurrentDomain.BaseDirectory;
-string sourcePath = Path.Combine(baseDir, "Resources", "input.html");
-string destinationPath = Path.Combine(baseDir, "Output", "output.pdf");
-
-// Ensure the output folder exists
-Directory.CreateDirectory(Path.GetDirectoryName(destinationPath));
-```
-
-> **Perché usiamo `Path.Combine`** – Normalizza i separatori di directory su Windows, Linux e macOS, evitando errori “File not found” che spesso colpiscono gli sviluppatori che concatenano stringhe manualmente.
-
-## Passo 4: Eseguire la Conversione
-
-Ora avviene la magia. Il metodo `HTMLDocumentConverter.Convert` sceglie internamente il miglior motore di rendering, quindi non devi specificarne uno.
-
-```csharp
-try
-{
-    // Step 4: Convert the HTML document to PDF
-    HTMLDocumentConverter.Convert(sourcePath, destinationPath);
-    Console.WriteLine($"✅ Success! PDF saved to {destinationPath}");
-}
-catch (Exception ex)
-{
-    // Graceful error handling – useful when you later expose this as a web API
-    Console.Error.WriteLine($"❌ Conversion failed: {ex.Message}");
-}
-```
-
-> **Cosa succede dietro le quinte?** Aspose.Html analizza l’HTML, applica il CSS, esegue eventuali JavaScript inline (se abilitati) e rasterizza il layout in pagine PDF. La libreria incorpora automaticamente font e immagini, così l’output appare identico al rendering del browser.
-
-## Passo 5: Verificare il Risultato
-
-Un rapido controllo di coerenza garantisce che la conversione non abbia eliminato contenuti in modo silenzioso.
-
-```csharp
-if (File.Exists(destinationPath))
-{
-    var fileInfo = new FileInfo(destinationPath);
-    Console.WriteLine($"📄 PDF size: {fileInfo.Length / 1024} KB");
-}
-else
-{
-    Console.WriteLine("⚠️ PDF file was not created.");
-}
-```
-
-Apri il `output.pdf` generato nel visualizzatore che preferisci. Dovresti vedere gli stessi titoli, tabelle e stili presenti in `input.html`.
-
-## Gestione dei Caso d'Uso più Comuni
-
-### 1. Percorsi Relativi delle Immagini
-
-Se il tuo HTML fa riferimento a immagini con URL relative (`src="images/logo.png"`), assicurati che l’*URL di base* del convertitore punti alla cartella contenente quegli asset. Puoi impostarlo così:
-
-```csharp
-var options = new HtmlLoadOptions
-{
-    BaseUri = new Uri(Path.Combine(baseDir, "Resources") + Path.DirectorySeparatorChar)
-};
-
-HTMLDocument document = new HTMLDocument(sourcePath, options);
-HTMLDocumentConverter.Convert(document, destinationPath);
-```
-
-### 2. Documenti di grandi dimensioni
-
-Per file HTML più grandi di 10 MB, potresti voler aumentare il limite di memoria o processare il file a blocchi. Aspose.Html ti permette di streammare la sorgente:
-
-```csharp
-using (FileStream fs = File.OpenRead(sourcePath))
-{
-    HTMLDocument doc = new HTMLDocument(fs, new HtmlLoadOptions { BaseUri = new Uri(baseDir) });
-    HTMLDocumentConverter.Convert(doc, destinationPath);
-}
-```
-
-### 3. Font Mancanti
-
-Se l’HTML di origine utilizza un font personalizzato non installato sul server, il PDF ricadrà su un font predefinito. Per incorporare il font manualmente:
-
-```csharp
-var fontOptions = new FontSettings();
-fontOptions.FontFolders.Add(Path.Combine(baseDir, "Fonts"));
-HTMLDocumentConverter.Convert(sourcePath, destinationPath, new HtmlToPdfOptions { FontSettings = fontOptions });
-```
-
-### 4. Esecuzione di JavaScript
-
-Per impostazione predefinita Aspose.Html esegue JavaScript, il che può rappresentare un rischio di sicurezza quando si elaborano HTML non attendibili. Disattivalo così:
-
-```csharp
-var loadOptions = new HtmlLoadOptions { EnableJavaScript = false };
-HTMLDocument doc = new HTMLDocument(sourcePath, loadOptions);
-HTMLDocumentConverter.Convert(doc, destinationPath);
-```
-
-## Consigli Pro per PDF Pronti alla Produzione
-
-- **Imposta i metadati PDF** (autore, titolo, parole‑chiave) per rendere il file ricercabile:
-
-  ```csharp
-  var pdfOptions = new PdfSaveOptions
-  {
-      DocumentInfo = new DocumentInfo
-      {
-          Title = "Monthly Report",
-          Author = "Your Company",
-          Keywords = "report, finance, 2026"
-      }
-  };
-  HTMLDocumentConverter.Convert(sourcePath, destinationPath, pdfOptions);
-  ```
-
-- **Comprimi le immagini** per ridurre le dimensioni del file. Aspose.Html ti consente di specificare la qualità JPEG:
-
-  ```csharp
-  var imgOptions = new ImageSaveOptions { Quality = 80 };
-  pdfOptions.ImageSaveOptions = imgOptions;
-  ```
-
-- **Conversione batch**: itera su una collezione di file HTML e salva ogni PDF in una cartella con timestamp. Questo schema è utile per la generazione notturna di report.
-
-## Esempio Completo Funzionante
-
-Mettendo tutto insieme, ecco un’app console autonoma che puoi copiare‑incollare in `Program.cs` ed eseguire subito.
-
-```csharp
-using System;
-using System.IO;
-using Aspose.Html.Converters;
-using Aspose.Html.LoadOptions;
 using Aspose.Html.Saving;
+using Aspose.Html.Loading;
 
-class Program
+namespace HtmlToPdfDemo
 {
-    static void Main()
+    class Program
     {
-        // -----------------------------------------------------------------
-        // 1️⃣  Setup paths
-        // -----------------------------------------------------------------
-        string baseDir = AppDomain.CurrentDomain.BaseDirectory;
-        string sourcePath = Path.Combine(baseDir, "Resources", "input.html");
-        string destinationPath = Path.Combine(baseDir, "Output", "output.pdf");
-        Directory.CreateDirectory(Path.GetDirectoryName(destinationPath));
-
-        // -----------------------------------------------------------------
-        // 2️⃣  Optional: configure load options (e.g., disable JS)
-        // -----------------------------------------------------------------
-        var loadOptions = new HtmlLoadOptions
+        static void Main(string[] args)
         {
-            BaseUri = new Uri(Path.Combine(baseDir, "Resources") + Path.DirectorySeparatorChar),
-            EnableJavaScript = false               // security‑first for untrusted HTML
-        };
+            // 1️⃣  Path to the source HTML file
+            string inputHtmlPath = @"YOUR_DIRECTORY\input.html";
 
-        // -----------------------------------------------------------------
-        // 3️⃣  Convert HTML → PDF
-        // -----------------------------------------------------------------
-        try
-        {
-            // Load the HTML document with the specified options
-            var htmlDoc = new Aspose.Html.HTMLDocument(sourcePath, loadOptions);
+            // 2️⃣  Desired PDF output location
+            string outputPdfPath = @"YOUR_DIRECTORY\output.pdf";
 
-            // Define PDF save options (metadata, compression, etc.)
-            var pdfOptions = new PdfSaveOptions
-            {
-                DocumentInfo = new DocumentInfo
-                {
-                    Title = "Generated PDF",
-                    Author = Environment.UserName,
-                    Keywords = "create pdf from html, Aspose.Html"
-                },
-                ImageSaveOptions = new ImageSaveOptions { Quality = 85 }
-            };
+            // 3️⃣  Load options – you can set encoding, base URL, etc.
+            HtmlLoadOptions loadOptions = new HtmlLoadOptions();
 
-            // Perform the conversion
-            HTMLDocumentConverter.Convert(htmlDoc, destinationPath, pdfOptions);
-            Console.WriteLine($"✅ PDF created at: {destinationPath}");
-        }
-        catch (Exception ex)
-        {
-            Console.Error.WriteLine($"❌ Error during conversion: {ex.Message}");
-        }
+            // 4️⃣  Save options – choose PDF version, compliance, etc.
+            PdfSaveOptions saveOptions = new PdfSaveOptions();
 
-        // -----------------------------------------------------------------
-        // 4️⃣  Verify output
-        // -----------------------------------------------------------------
-        if (File.Exists(destinationPath))
-        {
-            var info = new FileInfo(destinationPath);
-            Console.WriteLine($"📄 File size: {info.Length / 1024} KB");
-        }
-        else
-        {
-            Console.WriteLine("⚠️ PDF was not generated.");
+            // 5️⃣  Perform the conversion
+            Converter.ConvertHTML(inputHtmlPath, loadOptions, outputPdfPath, saveOptions);
+
+            System.Console.WriteLine("✅ PDF created successfully at: " + outputPdfPath);
         }
     }
 }
 ```
 
-Esegui il programma, apri `Output\output.pdf` e ammira la replica perfetta della tua pagina HTML—ora in un formato portatile e pronto per la stampa.
+### Cosa fanno le opzioni
+
+- **HtmlLoadOptions** – ti permette di definire un URL di base per i link relativi, controllare la codifica dei caratteri o abilitare l’esecuzione di JavaScript (se necessario).  
+- **PdfSaveOptions** – puoi specificare la conformità PDF/A, la compressione delle immagini o persino incorporare i font. Lasciandole ai valori predefiniti ottieni un PDF standard e ricercabile.
+
+---
+
+## Passo 4 – Esegui il convertitore
+
+Compila ed esegui il programma:
+
+```bash
+dotnet run
+```
+
+Se tutto è collegato correttamente, vedrai il messaggio di conferma nella console e un nuovo **output.pdf** apparirà nella stessa cartella.
+
+![Create PDF from HTML example](https://example.com/create-pdf-from-html.png "Create PDF from HTML in C#")
+
+*Testo alternativo immagine: "screenshot dell'esempio di creazione PDF da HTML che mostra il file output.pdf"*  
+
+> **Attenzione:** Se ricevi un `FileNotFoundException`, ricontrolla i separatori di percorso (`\` vs `/`) e verifica che **YOUR_DIRECTORY** esista davvero. I percorsi relativi possono creare problemi quando la directory di lavoro non è la radice del progetto.
+
+---
+
+## Passo 5 – Verifica il risultato (cosa aspettarsi)
+
+Apri **output.pdf** con qualsiasi visualizzatore PDF. Dovresti vedere:
+
+- L’intestazione **“Monthly Sales Report”** resa nel colore blu definito nel CSS.  
+- Spaziatura corretta dei paragrafi e il font simile ad Arial (Aspose ricade su un font di sistema se quello originale non è disponibile).  
+- Nessuna pagina bianca extra—Aspose pagina automaticamente in base alle dimensioni della pagina (A4 di default).
+
+Se il layout appare sbagliato, considera di modificare **PdfSaveOptions**:
+
+```csharp
+saveOptions.PageSetup = new PdfPageSetup
+{
+    Size = PdfPageSize.A4,
+    Orientation = PdfPageOrientation.Portrait,
+    Margins = new PdfMargin { Top = 20, Bottom = 20, Left = 20, Right = 20 }
+};
+```
+
+Questa porzione forza una pagina A4 in orientamento verticale con margini di 20 punti, impostazione che spesso corrisponde ai requisiti tipici di un report.
+
+---
+
+## Varianti comuni e casi limite
+
+### Conversione di un URL remoto
+
+Se il tuo HTML è ospitato sul web, passa semplicemente la stringa URL a `ConvertHTML`:
+
+```csharp
+string remoteUrl = "https://example.com/report.html";
+Converter.ConvertHTML(remoteUrl, loadOptions, outputPdfPath, saveOptions);
+```
+
+Assicurati che la macchina che esegue il codice abbia accesso a Internet e valuta di impostare `loadOptions.BaseUrl` per risolvere correttamente le risorse relative.
+
+### Documenti di grandi dimensioni e gestione della memoria
+
+Per file HTML più grandi di ~50 MB, potresti voler streammare il contenuto:
+
+```csharp
+using (FileStream htmlStream = File.OpenRead(inputHtmlPath))
+{
+    Converter.ConvertHTML(htmlStream, loadOptions, outputPdfPath, saveOptions);
+}
+```
+
+In questo modo il file non viene caricato interamente in memoria in un’unica volta.
+
+### Incorporare font personalizzati
+
+Se il tuo HTML utilizza un web‑font (ad esempio Google Fonts), scarica i file `.ttf` e punta `loadOptions.FontResources` alla cartella:
+
+```csharp
+loadOptions.FontResources = new FontResources(@"YOUR_DIRECTORY\fonts");
+```
+
+Aspose incorporerà quei font nel PDF, garantendo che l’output abbia lo stesso aspetto su tutte le macchine.
+
+---
+
+## Consigli professionali e trappole da evitare
+
+- **Consiglio pro:** Imposta sempre `PdfSaveOptions.Compliance = PdfCompliance.PdfA1b` quando il PDF deve essere pronto per l’archiviazione a lungo termine.  
+- **Fai attenzione a:** Immagini referenziate con `src="data:image/png;base64,..."` possono gonfiare le dimensioni del PDF. Usa `PdfSaveOptions.ImageCompression = PdfImageCompression.Jpeg` per mantenere il file leggero.  
+- **Ricorda:** Il convertitore rispetta le media query CSS. Se hai un blocco `@media print`, verrà applicato automaticamente—ottimo per personalizzare l’aspetto del PDF senza modificare l’HTML.
+
+---
 
 ## Conclusione
 
-Abbiamo appena coperto come **creare PDF da HTML** in C# usando Aspose.Html, dall’installazione del pacchetto alla gestione di font, immagini e documenti di grandi dimensioni. La riga centrale—`HTMLDocumentConverter.Convert(sourcePath, destinationPath);`—fa il lavoro pesante, ma il codice di supporto rende la soluzione sufficientemente robusta per carichi di lavoro in produzione.
+Ora sai come **creare PDF da HTML in C#** usando Aspose.HTML, coprendo tutto, dalla configurazione del progetto alla messa a punto delle opzioni di rendering. Lo snippet di codice breve che abbiamo costruito gestisce lo scenario più comune—convertire un file HTML locale in un PDF curato—mentre le sezioni aggiuntive ti hanno mostrato come **convertire HTML in PDF** da URL, gestire file di grandi dimensioni e incorporare font personalizzati.
 
-Se sei pronto a esplorare ulteriormente, prova:
+Passi successivi? Sperimenta con le funzionalità **html to pdf c#** come:
 
-- **Convertire HTML in PDF** con dimensioni di pagina personalizzate (A4, Letter, ecc.).
-- **Salvare HTML come PDF** mantenendo i collegamenti ipertestuali per PDF interattivi.
-- **Generare PDF da HTML** in una Web API che restituisce direttamente lo stream PDF al client.
+- Aggiungere intestazioni/piè di pagina tramite `PdfHeaderFooterOptions`.  
+- Convertire più file HTML in un ciclo batch.  
+- Usare l’API asincrona (`ConvertHTMLAsync`) per servizi web.
 
-Questi prossimi passi approfondiranno la tua padronanza della libreria
+Tutto questo si basa sulla stessa base che abbiamo creato, quindi sei pronto ad affrontare qualsiasi sfida di generazione PDF ti si presenti.
+
+Buon coding, e che i tuoi PDF vengano sempre renderizzati esattamente come desideri!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
