@@ -190,6 +190,7 @@ Aspose.HTML for Java を使用して、SVG ファイルを GIF アニメーシ�
 Aspose.HTML for Java を使用して、SVG をマルチページ TIFF に変換する方法を学びます。実践的な手順で簡単に実装できます。
 ### [Java で HTML を WebP に変換 – 完全ガイド](./convert-html-to-webp-in-java-complete-guide/)
 Aspose.HTML for Java を使用して HTML を WebP に変換します。Java での WebP 変換手順をステップバイステップで解説する完全ガイドです。
+### [HTML から高解像度 PNG を作成 – 完全な Java ガイド](./create-high-resolution-png-from-html-complete-java-guide/)
 
 ## よくある質問
 ### [Aspose を使用して JavaScript を実行し、HTML を PNG にレンダリングする方法](./how-to-run-javascript-and-render-html-to-png-with-aspose/)

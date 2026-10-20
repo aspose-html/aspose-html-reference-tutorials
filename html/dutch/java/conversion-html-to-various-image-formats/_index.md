@@ -194,6 +194,8 @@ Leer hoe je SVG-bestanden batchgewijs naar PNG kunt converteren in Java met Aspo
 ### [Hoe JavaScript uit te voeren en HTML naar PNG te renderen met Aspose](./how-to-run-javascript-and-render-html-to-png-with-aspose/)
 ### [HTML naar PNG renderen in Java – Bearer‑token en aangepaste headers toevoegen](./render-html-to-png-in-java-add-bearer-token-custom-headers/)
 Leer hoe je met Aspose.HTML for Java HTML rendert naar PNG en daarbij een Bearer‑token en aangepaste HTTP‑headers gebruikt.
+### [Maak hoge resolutie PNG van HTML – Complete Java-gids](./create-high-resolution-png-from-html-complete-java-guide/)
+Leer hoe je met Aspose.HTML for Java een PNG van hoge resolutie genereert vanuit HTML. Een stap‑voor‑stap gids.
 
 ## Veelgestelde vragen
 

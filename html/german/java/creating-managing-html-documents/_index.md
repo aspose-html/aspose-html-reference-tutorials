@@ -47,7 +47,6 @@ Meistern Sie die asynchrone Erstellung von HTML-Dokumenten mit Aspose.HTML für 
 
 ### [Erstellen Sie leere HTML-Dokumente in Aspose.HTML für Java](./create-empty-html-documents/)
 ### [Laden Sie HTML-Dokumente aus einer Datei in Aspose.HTML für Java](./load-html-documents-from-file/)
-Entfesseln Sie die Möglichkeiten der HTML-Manipulation mit Aspose.HTML für Java. Lernen Sie mit Schritt‑für‑Schritt‑Tutorials, HTML-Dokumente aus Dateien zu laden.
 ### [Erweitertes Laden von Dateien für HTML-Dokumente in Aspose.HTML für Java](./advanced-file-loading-html-documents/)
 ### [Laden Sie HTML-Dokumente aus dem Stream mit Aspose.HTML für Java](./load-html-documents-from-stream/)
 Erfahren Sie, wie Sie mit Aspose.HTML für Java HTML-Dokumente aus Streams laden. Diese Anleitung bietet eine Schritt‑für‑Schritt‑Anleitung zur nahtlosen HTML-Bearbeitung.
@@ -79,6 +78,8 @@ Erfahren Sie, wie Sie SVG-Dokumente mit Aspose.HTML für Java erstellen und verw
 Erfahren Sie, wie Sie mit dem Java ExecutorService HTML‑Elemente thread‑sicher erstellen – Schritt‑für‑Schritt‑Demo.
 ### [Wie man HTML in Java lädt – XPath und CSS-Selektor vergleichen](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
 Erfahren Sie, wie Sie HTML in Java laden und dabei XPath‑ und CSS‑Selektoren zum Parsen vergleichen.
+### [HTML‑Dokument in Java erstellen – Schritt‑für‑Schritt‑Anleitung mit Aspose.HTML](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java ein HTML‑Dokument Schritt‑für‑Schritt erstellen und anpassen.
 ### [Sandbox für HTML in Java erstellen – Schritt‑für‑Schritt‑Anleitung](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Erfahren Sie, wie Sie in Aspose.HTML für Java eine sichere Sandbox für HTML erstellen und verwalten – Schritt‑für‑Schritt‑Anleitung.
 
@@ -155,6 +156,10 @@ Erfahren Sie, wie Sie mit Aspose.HTML für Java eine XHTML-Datei mithilfe von XP
 Erfahren Sie, wie Sie HTML mit Aspose.HTML in Java abfragen und verarbeiten – Schritt‑für‑Schritt‑Anleitung für umfassendes Verständnis.
 ### [Markdown nach HTML in Java konvertieren – Schnellleitfaden mit Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
 Erfahren Sie, wie Sie mit Aspose.HTML Markdown-Dateien schnell in HTML umwandeln – kompakte Schritt‑für‑Schritt‑Anleitung.
+### [Wie man HTML mit Aspose Java durchsucht – Vollständiger Programmierleitfaden](./how-to-search-html-with-aspose-java-complete-programming-gui/)
+Erfahren Sie, wie Sie HTML‑Inhalte mit Aspose Java effizient durchsuchen und verarbeiten – Schritt‑für‑Schritt‑Anleitung inklusive Beispielen.
+### [JSON mit JavaScript abrufen – Komplettanleitung für Java zum Erstellen von HTML‑Dokumenten](./fetch-json-javascript-complete-java-guide-to-create-html-doc/)
+Erfahren Sie, wie Sie JSON‑Daten mit JavaScript abrufen und ein HTML‑Dokument mit Aspose.HTML für Java erstellen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

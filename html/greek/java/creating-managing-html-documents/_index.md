@@ -151,6 +151,12 @@ url: /el/java/creating-managing-html-documents/
 Μάθετε πώς να εκτελείτε ερωτήματα σε έγγραφα HTML με Java χρησιμοποιώντας το Aspose.HTML, βήμα‑βήμα οδηγίες και παραδείγματα.
 ### [Μετατροπή Markdown σε HTML σε Java – Γρήγορος Οδηγός με Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
 Μάθετε πώς να μετατρέψετε αρχεία Markdown σε HTML σε Java χρησιμοποιώντας το Aspose.HTML με αυτόν τον γρήγορο βήμα‑βήμα οδηγό.
+### [Πώς να αναζητήσετε HTML με Aspose Java – Πλήρης οδηγός](./how-to-search-html-with-aspose-java-complete-programming-gui/)
+Μάθετε πώς να αναζητάτε σε έγγραφα HTML με Java χρησιμοποιώντας το Aspose.HTML. Οδηγός βήμα‑βήμα πλήρης προγραμματισμού.
+### [Δημιουργία εγγράφου HTML σε Java – Οδηγός βήμα‑βήμα με Aspose.HTML](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
+Μάθετε πώς να δημιουργήσετε ένα έγγραφο HTML σε Java χρησιμοποιώντας το Aspose.HTML με οδηγίες βήμα‑βήμα.
+### [fetch json javascript – Πλήρης οδηγός Java για τη δημιουργία εγγράφου HTML](./fetch-json-javascript-complete-java-guide-to-create-html-doc/)
+Μάθετε πώς να ανακτάτε JSON με JavaScript και να δημιουργείτε έγγραφα HTML σε Java χρησιμοποιώντας το Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

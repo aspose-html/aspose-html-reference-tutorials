@@ -118,6 +118,8 @@ Aprenda a converter HTML para PNG em Java usando Aspose.HTML. Guia completo pass
 ### [Renderizar HTML para PNG em Java – Adicionar Token Bearer e Cabeçalhos Personalizados](./render-html-to-png-in-java-add-bearer-token-custom-headers/)
 Aprenda a renderizar HTML para PNG em Java usando Aspose.HTML, incluindo token Bearer e cabeçalhos HTTP personalizados.
 
+### [Criar PNG de Alta Resolução a partir de HTML – Guia Completo em Java](./create-high-resolution-png-from-html-complete-java-guide/)
+Aprenda a gerar PNG de alta resolução a partir de HTML em Java usando Aspose.HTML. Guia passo a passo completo.
 ### [Convertendo HTML para TIFF](./convert-html-to-tiff/)
 Aprenda a converter HTML para TIFF usando Aspose.HTML for Java de forma fácil. Guia passo a passo para manipulação eficiente de documentos.
 

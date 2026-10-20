@@ -95,8 +95,12 @@ Java용 Aspose.HTML을 사용하여 querySelectorAll로 클래스별 요소를 �
 Java용 Aspose.HTML을 사용하여 HTML 문서에서 텍스트를 검색하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.HTML로 HTML을 쿼리하는 방법 – 완전 가이드](./how-to-query-html-with-aspose-html-complete-java-guide/)
 Aspose.HTML for Java를 사용해 HTML을 효율적으로 쿼리하는 전체 단계별 가이드를 제공합니다.
+### [Java용 Aspose.HTML에서 HTML 검색하는 방법 – 완전 프로그래밍 가이드](./how-to-search-html-with-aspose-java-complete-programming-gui/)
+Aspose.HTML for Java를 사용해 HTML을 검색하고 활용하는 완전 프로그래밍 가이드를 단계별로 제공합니다.
 ### [Java용 Aspose.HTML을 사용하여 새 HTML 문서 생성](./generate-new-html-documents/)
 이 간단한 단계별 가이드를 통해 Aspose.HTML for Java를 사용하여 새 HTML 문서를 만드는 방법을 알아보세요. 동적 HTML 콘텐츠 생성을 시작하세요.
+### [Java용 Aspose.HTML에서 HTML 문서 만들기 – 단계별 가이드](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
+Aspose.HTML for Java를 사용하여 HTML 문서를 처음부터 단계별로 만드는 방법을 안내합니다.
 ### [Java용 Aspose.HTML에서 문서 로드 이벤트 처리](./handle-document-load-events/)
 이 단계별 가이드를 통해 Aspose.HTML for Java에서 문서 로드 이벤트 처리하는 방법을 알아보세요. 웹 애플리케이션을 강화하세요.
 ### [Java용 Aspose.HTML에서 SVG 문서 만들기 및 관리](./create-manage-svg-documents/)
@@ -146,6 +150,8 @@ Java와 XPath를 사용해 클래스 이름으로 div 요소를 선택하는 방
 
 ### [Java용 Aspose.HTML에서 마크다운을 HTML로 변환 – 빠른 가이드](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
 Aspose.HTML for Java를 사용해 마크다운 파일을 HTML로 손쉽게 변환하는 단계별 가이드입니다.
+### [fetch json javascript – HTML 문서 생성을 위한 완전 Java 가이드](./fetch-json-javascript-complete-java-guide-to-create-html-doc/)
+Java에서 fetch JSON을 사용해 HTML 문서를 만드는 전체 단계별 가이드를 제공합니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -161,6 +161,8 @@ A comprehensive step‑by‑step tutorial for converting HTML to PDF in Java usi
 Learn how to set custom page sizes and margins when converting HTML to PDF in Java using Aspose.HTML.
 ### [Convert HTML to PDF in Java – Aspose Parallel Example](./convert-html-to-pdf-in-java-aspose-parallel-example/)
 Demonstrates how to convert HTML to PDF in Java using Aspose.HTML with parallel processing for faster batch conversions.
+### [create pdf a4 size with Java – Full Step‑by‑Step Guide](./create-pdf-a4-size-with-java-full-step-by-step-guide/)
+Step‑by‑step guide to generate A4‑sized PDF documents in Java using Aspose.HTML, covering setup, code, and customization.
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 Effortlessly convert HTML to MHTML using Aspose.HTML for Java. Follow our step-by-step guide for efficient HTML-to-MHTML conversion.
 ### [Create PDF from HTML in Java – Complete Aspose Guide](./create-pdf-from-html-in-java-complete-aspose-guide/)
@@ -331,6 +333,9 @@ Learn how to perform parallel batch HTML to PDF conversion using a fixed thread 
 
 ### [html to pdf tutorial – Convert HTML to PDF in One Line with Java](./html-to-pdf-tutorial-convert-html-to-pdf-in-one-line-with-ja/)
 Convert HTML to PDF in a single line of Java code using Aspose.HTML, simplifying your document generation workflow.
+### [html to pdf java: Complete Guide to Convert Webpage to PDF in One Line](./html-to-pdf-java-complete-guide-to-convert-webpage-to-pdf-in/)
+### [How to Use Aspose for Parallel HTML to PDF Conversion in Java](./how-to-use-aspose-for-parallel-html-to-pdf-conversion-in-jav/)
+Explore how to perform parallel HTML to PDF conversions in Java using Aspose.HTML for faster batch processing.
 
 ## Frequently Asked Questions
 

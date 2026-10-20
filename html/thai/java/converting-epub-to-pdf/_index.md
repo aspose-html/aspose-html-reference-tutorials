@@ -90,6 +90,7 @@ weight: 27
 เรียนรู้วิธีแปลง eBook จาก EPUB เป็น PDF อย่างง่ายดายด้วย Java และ Aspose.HTML
 ### [แปลง EPUB เป็น PDF ด้วยขนาดฟอนต์ที่กำหนดเอง – คู่มือ Java](./convert-epub-to-pdf-with-custom-font-size-java-guide/)
 เรียนรู้วิธีกำหนดขนาดฟอนต์ที่กำหนดเองขณะแปลง EPUB เป็น PDF ด้วย Aspose.HTML for Java
+### [แปลง EPUB เป็น PDF ด้วย Java – คู่มือการเขียนโปรแกรมเต็มรูปแบบ](./convert-epub-to-pdf-with-java-complete-programming-guide/)
 
 ## คำถามที่พบบ่อย
 

@@ -61,7 +61,8 @@ Leer hoe u HTML-documenten laadt uit streams met Aspose.HTML voor Java. Deze gid
 
 ### [HTML-documenten maken van strings in Aspose.HTML voor Java](./create-html-documents-from-string/)
 Leer hoe u HTML-documenten van strings maakt in Aspose.HTML voor Java met deze stapsgewijze handleiding.
-
+### [HTML-document maken in Java – Stapsgewijze handleiding met Aspose.HTML](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
+Leer hoe u een HTML-document maakt in Java met Aspose.HTML via een duidelijke stap‑voor‑stap gids.
 ### [HTML-documenten laden vanaf URL in Aspose.HTML voor Java](./load-html-documents-from-url/)
 Ontdek hoe u eenvoudig HTML-documenten kunt laden vanaf een URL in Java met Aspose.HTML. Inclusief stapsgewijze tutorial.
 ### [HTML-document maken met Java – JSON ophalen en inhoud genereren](./create-html-document-with-java-fetch-json-and-generate-conte/)
@@ -155,6 +156,10 @@ Leer hoe u HTML kunt query'en met Aspose.HTML in Java met deze volledige stap‑
 
 ### [Markdown naar HTML converteren in Java – Snelle gids met Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
 Leer hoe u Markdown naar HTML kunt converteren in Java met Aspose.HTML in deze snelle stapsgewijze handleiding.
+### [JSON ophalen met JavaScript – Complete Java-gids voor het maken van een HTML-document](./fetch-json-javascript-complete-java-guide-to-create-html-doc/)
+Leer hoe u JSON-gegevens ophaalt en verwerkt in Java om dynamisch HTML-documenten te genereren met Aspose.HTML.
+### [HTML doorzoeken met Aspose Java – Complete programmeergids](./how-to-search-html-with-aspose-java-complete-programming-gui/)
+Leer hoe u HTML kunt doorzoeken met Aspose Java in deze volledige programmeergids.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

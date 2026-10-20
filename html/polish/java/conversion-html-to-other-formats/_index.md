@@ -248,6 +248,12 @@ Pokaż, jak używać Aspose.HTML w Javie do równoległej konwersji HTML do PDF,
 Dowiedz się, jak w jednej linii kodu przekształcić HTML w PDF przy użyciu Aspose.HTML for Java.
 ### [Tworzenie PDF z HTML przy użyciu wątków Java – Pełny przewodnik](./create-pdf-from-html-with-java-threads-full-guide/)
 Dowiedz się, jak generować pliki PDF z HTML równolegle przy użyciu wątków w Javie, aby zwiększyć wydajność konwersji.
+### [HTML do PDF w Javie: Kompletny przewodnik konwertowania strony internetowej do PDF w jednej linii](./html-to-pdf-java-complete-guide-to-convert-webpage-to-pdf-in/)
+Dowiedz się, jak w jednej linii przekształcić dowolną stronę internetową w plik PDF przy użyciu Aspose.HTML for Java.
+### [Utwórz PDF w formacie A4 w Javie – Pełny przewodnik krok po kroku](./create-pdf-a4-size-with-java-full-step-by-step-guide/)
+Kompletny przewodnik, jak w Javie wygenerować dokument PDF w rozmiarze A4, krok po kroku, z użyciem Aspose.HTML.
+### [Jak używać Aspose do równoległej konwersji HTML do PDF w Javie](./how-to-use-aspose-for-parallel-html-to-pdf-conversion-in-jav/)
+Dowiedz się, jak wykonywać równoległe konwersje HTML do PDF w Javie przy użyciu Aspose.HTML, aby przyspieszyć przetwarzanie wsadowe.
 
 ### [Utwórz PDF z HTML w Javie – Kompletny przewodnik krok po kroku](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
 Dowiedz się, jak utworzyć PDF z HTML w Javie przy użyciu Aspose.HTML. Przejdź przez kompletny przewodnik krok po kroku.

@@ -147,6 +147,12 @@ Aspose.HTML สำหรับ Java นำเสนอชุดเครื่�
 เรียนรู้วิธีสืบค้นและดึงข้อมูลจาก HTML ด้วย Aspose.HTML ใน Java อย่างละเอียดในคู่มือฉบับสมบูรณ์
 ### [แปลง Markdown เป็น HTML ใน Java – คู่มือเร็วด้วย Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
 เรียนรู้วิธีแปลงไฟล์ Markdown เป็น HTML ใน Java ด้วย Aspose.HTML อย่างรวดเร็วและง่ายดาย
+### [สร้างเอกสาร HTML Java – คู่มือขั้นตอนต่อขั้นตอนด้วย Aspose.HTML](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
+เรียนรู้วิธีสร้างเอกสาร HTML ใน Java อย่างละเอียดด้วย Aspose.HTML ผ่านคู่มือขั้นตอนต่อขั้นตอน
+### [ดึง JSON ด้วย JavaScript – คู่มือ Java ฉบับสมบูรณ์เพื่อสร้างเอกสาร HTML](./fetch-json-javascript-complete-java-guide-to-create-html-doc/)
+เรียนรู้วิธีดึงข้อมูล JSON ด้วย JavaScript และสร้างเอกสาร HTML ใน Java ด้วย Aspose.HTML อย่างละเอียดในคู่มือฉบับสมบูรณ์นี้
+### [วิธีการค้นหา HTML ด้วย Aspose Java – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./how-to-search-html-with-aspose-java-complete-programming-gui/)
+เรียนรู้วิธีค้นหาและดึงข้อมูลจากเอกสาร HTML ด้วย Aspose Java ผ่านคู่มือการเขียนโปรแกรมฉบับสมบูรณ์
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

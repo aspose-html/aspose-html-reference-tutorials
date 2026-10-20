@@ -56,6 +56,10 @@ Aprenda como carregar documentos HTML de streams usando Aspose.HTML para Java. E
 Aprenda a criar documentos HTML a partir de strings no Aspose.HTML para Java com este guia passo a passo.
 ### [Crie HTML a partir de Markdown em Java – Guia passo a passo completo](./create-html-from-markdown-in-java-full-step-by-step-guide/)
 Aprenda a converter arquivos Markdown em documentos HTML usando Aspose.HTML para Java com este tutorial detalhado passo a passo.
+### [Buscar JSON JavaScript – Guia Java Completo para Criar Documento HTML](./fetch-json-javascript-complete-java-guide-to-create-html/)
+Aprenda a buscar dados JSON com JavaScript e gerar documentos HTML em Java neste guia completo passo a passo.
+### [Crie documento HTML Java – Guia passo a passo com Aspose.HTML](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
+Aprenda a criar documentos HTML em Java usando Aspose.HTML com este guia passo a passo fácil de seguir.
 ### [Carregar documentos HTML de URL em Aspose.HTML para Java](./load-html-documents-from-url/)
 Descubra como carregar facilmente documentos HTML de uma URL em Java com Aspose.HTML. Tutorial passo a passo incluso.
 ### [Como carregar HTML em Java – Guia passo a passo](./how-to-load-html-in-java-step-by-step-guide/)
@@ -88,6 +92,8 @@ Aprenda a pesquisar texto em documentos HTML usando Aspose.HTML para Java com es
 Aprenda a ler arquivos XHTML em Java usando Aspose.HTML com XPath e exemplos de namespace.
 ### [Como consultar HTML com Aspose.HTML – Guia completo Java](./how-to-query-html-with-aspose-html-complete-java-guide/)
 Aprenda a consultar HTML usando Aspose.HTML em Java com este guia completo passo a passo.
+### [Como pesquisar HTML com Aspose Java – Guia de Programação Completo](./how-to-search-html-with-aspose-java-complete-programming-gui/)
+Aprenda a pesquisar e extrair dados de documentos HTML em Java usando Aspose.HTML com este guia passo a passo completo.
 ### [Gerar novos documentos HTML usando Aspose.HTML para Java](./generate-new-html-documents/)
 Aprenda como criar novos documentos HTML usando Aspose.HTML para Java com este guia passo a passo fácil. Comece a gerar conteúdo HTML dinâmico.
 ### [Converter Markdown para HTML em Java – Guia passo a passo](./convert-markdown-to-html-in-java-step-by-step-guide/)

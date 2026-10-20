@@ -279,6 +279,12 @@ JavaでHTMLをPDFに変換し、ページサイズと余白をカスタマイズ
 Aspose.HTML を使用して Java で並列処理により HTML を PDF に変換する方法を紹介します。
 ### [Javaスレッドを使用してHTMLからPDFを作成する – 完全ガイド](./create-pdf-from-html-with-java-threads-full-guide/)
 Java のマルチスレッド環境で Aspose.HTML を利用し、HTML から PDF を効率的に生成する手順を詳しく解説します。
+### [JavaでPDF A4サイズを作成 – 完全ステップバイステップガイド](./create-pdf-a4-size-with-java-full-step-by-step-guide/)
+Java と Aspose.HTML を使用して、A4 サイズの PDF を作成する手順を詳細に解説します。
+### [HTML to PDF Java: ワンラインでウェブページを PDF に変換する完全ガイド](./html-to-pdf-java-complete-guide-to-convert-webpage-to-pdf-in/)
+1 行のコードでウェブページ全体を PDF に変換する手順を詳しく解説します。
+### [Java で Aspose を使用した並列 HTML から PDF への変換方法](./how-to-use-aspose-for-parallel-html-to-pdf-conversion-in-jav/)
+Aspose.HTML を使用して Java で複数の HTML を同時に PDF に変換する手順を解説します。
 
 ## よくある質問
 

@@ -104,6 +104,8 @@ Ismerje meg, hogyan szerezheti meg egy elem számított CSS-stílusát Java-ban 
 Ismerje meg, hogyan olvashatja a CSS-t Java-ban, szimulálhat mobil képernyőt és tesztelheti a média lekérdezéseket.
 ### [HTML betöltése Java-ban – Teljes útmutató CSS színkivonattal](./how-to-load-html-in-java-full-guide-with-css-color-extractio/)
 Ismerje meg, hogyan tölthet be HTML-t Java-ban, és hogyan nyerhet ki színeket a CSS-ből lépésről lépésre.
+### [CSS kinyerése HTML-ből Java-ban – Teljes programozási útmutató](./extract-css-from-html-in-java-complete-programming-guide/)
+Ismerje meg, hogyan nyerhet ki CSS-t HTML-fájlokból Java segítségével részletes, lépésről-lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

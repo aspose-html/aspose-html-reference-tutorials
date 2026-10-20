@@ -270,6 +270,12 @@ Naučte se, jak převést HTML soubory na Markdown v Javě pomocí Aspose.HTML s
 ### [Převod HTML do PDF v Javě – Aspose paralelní příklad](./convert-html-to-pdf-in-java-aspose-parallel-example/)
 ### [Vytvoření PDF z HTML pomocí vláken v Javě – kompletní průvodce](./create-pdf-from-html-with-java-threads-full-guide/)
 Naučte se generovat PDF z HTML souborů paralelně pomocí více vláken v Javě s Aspose.HTML.
+### [HTML do PDF v Javě: Kompletní průvodce konverzí webové stránky do PDF jedním řádkem](./html-to-pdf-java-complete-guide-to-convert-webpage-to-pdf-in/)
+Naučte se převést webovou stránku do PDF v Javě jedním řádkem kódu pomocí Aspose.HTML.
+### [Vytvoření PDF formátu A4 v Javě – Kompletní krok‑za‑krokem průvodce](./create-pdf-a4-size-with-java-full-step-by-step-guide/)
+Naučte se vytvořit PDF ve formátu A4 v Javě pomocí Aspose.HTML s podrobným krok‑za‑krokem návodem.
+### [Jak použít Aspose pro paralelní konverzi HTML do PDF v Javě](./how-to-use-aspose-for-parallel-html-to-pdf-conversion-in-jav/)
+Naučte se provádět paralelní konverzi více HTML souborů do PDF najednou pomocí Aspose.HTML for Java.
 
 ## Často kladené otázky
 

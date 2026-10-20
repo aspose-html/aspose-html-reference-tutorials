@@ -90,6 +90,8 @@ Aspose HTML for Java를 활용해 동적으로 생성된 HTML을 PDF로 변환�
 Aspose.HTML for Java를 사용해 HTML을 PDF로 변환할 때 JavaScript를 활성화하는 방법을 단계별로 안내합니다.
 ### [Java 스레드로 HTML에서 PDF 생성 – 전체 가이드](./create-pdf-from-html-with-java-threads-full-guide/)
 멀티스레드를 활용해 Java에서 HTML을 PDF로 변환하는 방법을 단계별로 안내합니다.
+### [html to pdf java: 한 줄로 웹페이지를 PDF로 변환하는 완전 가이드](./html-to-pdf-java-complete-guide-to-convert-webpage-to-pdf-in/)
+Aspose.HTML를 사용해 Java에서 한 줄 코드로 웹페이지를 PDF로 변환하는 방법을 단계별로 안내합니다.
 ### [Java에서 HTML을 PDF로 변환 – 페이지 크기 설정을 포함한 단계별 가이드](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Aspose.HTML를 사용하여 Java에서 페이지 크기 옵션을 지정하며 HTML을 PDF로 변환하는 방법을 단계별로 안내합니다.
 ### [HTML을 PDF로 변환 – 폰트 임베딩 완전 가이드](./convert-html-to-pdf-in-java-complete-guide-with-font-embeddi/)
@@ -242,6 +244,10 @@ Aspose.HTML for Java에서 JavaScript를 활성화하여 동적 콘텐츠를 PDF
 Aspose.HTML를 사용하여 Java에서 병렬 처리로 HTML을 PDF로 변환하는 방법을 배웁니다.
 ### [HTML을 PDF로 변환 튜토리얼 – Java 한 줄 코드로 변환](./html-to-pdf-tutorial-convert-html-to-pdf-in-one-line-with-ja/)
 Aspose.HTML를 사용하여 Java에서 한 줄 코드로 HTML을 PDF로 변환하는 방법을 배우세요.
+### [Java로 A4 크기 PDF 만들기 – 전체 단계별 가이드](./create-pdf-a4-size-with-java-full-step-by-step-guide/)
+Aspose.HTML를 사용하여 Java에서 A4 페이지 크기의 PDF를 생성하는 전체 단계별 가이드를 제공합니다.
+### [Java에서 병렬 HTML을 PDF로 변환하기 위한 Aspose 사용 방법](./how-to-use-aspose-for-parallel-html-to-pdf-conversion-in-jav/)
+Aspose.HTML를 활용해 Java에서 여러 HTML 파일을 동시에 PDF로 변환하는 방법을 단계별로 안내합니다.
 
 ### [Aspose HTML을 사용하여 PDF 페이지 크기 설정 – 전체 Java 가이드](./set-pdf-page-size-with-aspose-html-full-java-guide/)
 Aspose.HTML를 사용하여 Java에서 PDF 페이지 크기를 설정하는 전체 단계별 가이드를 제공합니다.

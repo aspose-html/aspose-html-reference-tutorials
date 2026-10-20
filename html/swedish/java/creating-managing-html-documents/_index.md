@@ -59,7 +59,8 @@ Lär dig hur du laddar HTML-dokument från strömmar med Aspose.HTML för Java. 
 
 ### [Skapa HTML-dokument från String i Aspose.HTML för Java](./create-html-documents-from-string/)
 Lär dig hur du skapar HTML-dokument från strängar i Aspose.HTML för Java med denna steg-för-steg-guide.
-
+### [Skapa HTML-dokument i Java – Steg‑för‑steg‑guide med Aspose.HTML](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
+Lär dig att skapa ett HTML-dokument i Java med Aspose.HTML genom en tydlig steg‑för‑steg‑guide.
 ### [Ladda HTML-dokument från URL i Aspose.HTML för Java](./load-html-documents-from-url/)
 Upptäck hur du enkelt laddar HTML-dokument från en URL i Java med Aspose.HTML. Steg-för-steg handledning ingår.
 ### [Räkna HTML-tecken i Java – Fullständig guide med Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
@@ -88,6 +89,8 @@ Lär dig hur du väljer div‑element efter klass i Java med en komplett XPath�
 Lär dig hur du söker efter text i HTML-dokument med Java. En steg-för-steg-guide för effektiv textupptäckt.
 ### [Hur du frågar HTML med Aspose.HTML – Komplett Java‑guide](./how-to-query-html-with-aspose-html-complete-java-guide/)
 Lär dig hur du söker och extraherar data från HTML i Java med Aspose.HTML i en komplett steg‑för‑steg‑guide.
+### [Hur man söker i HTML med Aspose Java – Komplett programmeringsguide](./how-to-search-html-with-aspose-java-complete-programming-gui/)
+Lär dig hur du söker i HTML med Aspose Java i en komplett steg‑för‑steg‑guide.
 ### [Generera nya HTML-dokument med Aspose.HTML för Java](./generate-new-html-documents/)
 Lär dig hur du skapar nya HTML-dokument med Aspose.HTML för Java med denna enkla steg-för-steg-guide. Börja generera dynamiskt HTML-innehåll.
 
@@ -98,7 +101,6 @@ Lär dig att hantera dokumentladdningshändelser i Aspose.HTML för Java med den
 Lär dig att skapa och hantera SVG-dokument med Aspose.HTML för Java! Den här omfattande guiden täcker allt från grundläggande skapande till avancerad manipulation.
 
 ### [Skapa sandlåda för HTML i Java – Steg‑för‑steg‑guide](./create-sandbox-for-html-in-java-step-by-step-guide/)
-Lär dig hur du skapar en säker sandlåda för HTML i Java med vår detaljerade steg-för-steg‑guide.
 ### [Extrahera text från HTML i Java – Komplett programmeringsguide](./extract-text-from-html-in-java-complete-programming-guide/)
 Lär dig hur du extraherar text från HTML-dokument i Java med en komplett steg‑för‑steg‑guide.
 
@@ -161,6 +163,8 @@ Lär dig hur du använder querySelectorAll i Java för att filtrera element efte
 Lär dig läsa en XHTML-fil i Java med XPath och hantera namnrymder i detta praktiska exempel.
 ### [Konvertera Markdown till HTML i Java – Snabbguide med Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
 Lär dig hur du snabbt konverterar Markdown till HTML i Java med Aspose i en steg‑för‑steg‑guide.
+### [Hämta JSON med JavaScript – Komplett Java‑guide för att skapa HTML‑dokument](./fetch-json-javascript-complete-java-guide-to-create-html-doc/)
+Lär dig hur du hämtar JSON med JavaScript och skapar HTML‑dokument i Java med Aspose.HTML i en komplett steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

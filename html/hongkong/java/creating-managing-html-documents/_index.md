@@ -25,6 +25,10 @@ Aspose.HTML for Java 為旨在在 Java 應用程式中無縫處理 HTML 文件�
 
 從頭開始？不用擔心。學習如何建立空 HTML 文件是完美的切入點。本教學分解了基礎知識，讓您可以輕鬆地為更複雜的 HTML 文件操作奠定基礎。可以將其視為在寫小說之前學習字母表——重要、簡單且強大。[閱讀更多](./create-empty-html-documents/)
 
+## 在 Java 中使用 Aspose.HTML 建立 HTML 文檔 – 逐步指南
+
+本指南說明如何在 Java 中使用 Aspose.HTML 建立 HTML 文檔，提供逐步說明與範例。
+
 ## 從文件和流加載 HTML
 
 一旦您掌握了創建文件的竅門，就可以透過學習如何從文件和流加載 HTML 文件來提高您的水平了。這些教學課程將為您提供從各種來源提取 HTML 內容的知識，從而為您的專案提供更大的靈活性。無論您是處理本機檔案還是串流數據，Aspose.HTML for Java 都能滿足您的需求。[閱讀更多](./load-html-documents-from-file/) [閱讀更多](./load-html-documents-from-stream/)
@@ -46,6 +50,8 @@ Aspose.HTML for Java 為旨在在 Java 應用程式中無縫處理 HTML 文件�
 使用 Aspose.HTML for Java 掌握非同步 HTML 文件建立。包含逐步指南、提示和常見問題解答，可幫助您快速學習。
 ### [在 Aspose.HTML for Java 中建立空 HTML 文檔](./create-empty-html-documents/)
 透過我們詳細的分步教程，了解如何使用 Aspose.HTML 在 Java 中建立空 HTML 文檔，非常適合各個層級的開發人員。
+### [在 Java 中使用 Aspose.HTML 建立 HTML 文檔 – 逐步指南](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
+本指南說明如何在 Java 中使用 Aspose.HTML 建立 HTML 文檔，提供逐步說明與範例。
 ### [從 Aspose.HTML for Java 中的文件載入 HTML 文檔](./load-html-documents-from-file/)
 使用 Aspose.HTML for Java 釋放 HTML 操作的強大功能。透過逐步教學學習從文件載入 HTML 文件。
 ### [Aspose.HTML for Java 中 HTML 文件的高級文件加載](./advanced-file-loading-html-documents/)
@@ -147,6 +153,10 @@ Aspose.HTML for Java 為旨在在 Java 應用程式中無縫處理 HTML 文件�
 學習如何使用 Aspose.HTML 在 Java 中查詢 HTML，涵蓋選擇器、XPath 與實作範例的完整指南。
 ### [在 Java 中將 Markdown 轉換為 HTML – Aspose 快速指南](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
 使用 Aspose.HTML for Java 快速將 Markdown 內容轉換為 HTML，提供逐步說明與範例。
+### [使用 Aspose Java 搜尋 HTML – 完整程式設計指南](./how-to-search-html-with-aspose-java-complete-programming-gui/)
+本完整指南說明如何使用 Aspose Java 在 HTML 中執行搜尋，涵蓋關鍵字匹配、XPath 查詢與範例程式碼。
+### [fetch json javascript – 完整 Java 教程：建立 HTML 文檔](./fetch-json-javascript-complete-java-guide-to-create-html-doc/)
+本完整指南說明如何在 Java 中使用 fetch JSON 與 JavaScript 來建立 HTML 文檔，提供逐步說明與範例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

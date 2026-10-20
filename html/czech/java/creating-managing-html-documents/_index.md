@@ -139,6 +139,12 @@ Naučte se pomocí Aspose.HTML v Javě využít querySelectorAll k výběru elem
 
 ### [Jak dotazovat HTML s Aspose.HTML – Kompletní průvodce pro Javu](./how-to-query-html-with-aspose-html-complete-java-guide/)
 Kompletní průvodce, jak v Javě dotazovat HTML pomocí Aspose.HTML, včetně příkladů a tipů.
+### [Vytvořte HTML dokument v Javě – krok‑za‑krokem průvodce s Aspose.HTML](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
+Naučte se vytvořit HTML dokument v Javě pomocí Aspose.HTML v podrobném krok‑za‑krokem průvodci.
+### [fetch json javascript – Kompletní Java průvodce vytvořením HTML dokumentu](./fetch-json-javascript-complete-java-guide-to-create-html-doc/)
+Naučte se načíst JSON pomocí JavaScriptu a vytvořit HTML dokument v Javě s kompletním průvodcem krok za krokem.
+### [Jak vyhledávat HTML pomocí Aspose Java – Kompletní programovací průvodce](./how-to-search-html-with-aspose-java-complete-programming-gui/)
+Kompletní průvodce, jak pomocí Aspose.HTML pro Java vyhledávat a získávat data z HTML dokumentů.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

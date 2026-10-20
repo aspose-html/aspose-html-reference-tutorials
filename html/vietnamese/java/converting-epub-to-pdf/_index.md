@@ -95,6 +95,8 @@ Hướng dẫn chi tiết cách tạo PDF từ tệp EPUB bằng Aspose.HTML for
 Tìm hiểu cách nhanh chóng chuyển đổi eBook sang PDF bằng Java và Aspose.HTML.
 ### [Chuyển đổi EPUB sang PDF trong Java – Thêm mục lục và Hướng dẫn đầy đủ](./convert-epub-to-pdf-in-java-add-toc-and-full-guide/)
 Hướng dẫn chi tiết cách chuyển EPUB sang PDF trong Java, bao gồm việc thêm mục lục và các tùy chọn nâng cao.
+### [Chuyển đổi EPUB sang PDF với Java – Hướng dẫn lập trình đầy đủ](./convert-epub-to-pdf-with-java-complete-programming-guide/)
+Hướng dẫn chi tiết từng bước để chuyển đổi EPUB sang PDF bằng Java, bao gồm mã nguồn mẫu và các tùy chọn nâng cao.
 
 ## Câu hỏi thường gặp
 

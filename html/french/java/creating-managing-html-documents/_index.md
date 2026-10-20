@@ -58,6 +58,8 @@ Apprenez à charger des documents HTML en Java avec Aspose.HTML, en utilisant XP
 Apprenez à créer des documents HTML à partir de chaînes dans Aspose.HTML pour Java avec ce guide étape par étape.
 ### [Créer du HTML à partir de Markdown en Java – Guide complet étape par étape](./create-html-from-markdown-in-java-full-step-by-step-guide/)
 Apprenez à convertir du Markdown en HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
+### [Créer un document HTML Java – Guide étape par étape avec Aspose.HTML](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
+Apprenez à créer un document HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
 ### [Charger des documents HTML à partir d'une URL dans Aspose.HTML pour Java](./load-html-documents-from-url/)
 Découvrez comment charger facilement des documents HTML à partir d'une URL en Java avec Aspose.HTML. Tutoriel étape par étape inclus.
 ### [Charger un document HTML avec Aspose – Guide rapide Java pour récupérer le titre de la page](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
@@ -150,6 +152,10 @@ Apprenez à utiliser querySelectorAll en Java pour sélectionner des éléments 
 Apprenez à interroger le HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
 ### [Convertir le Markdown en HTML en Java – Guide rapide avec Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
 Apprenez à transformer du Markdown en HTML en Java avec Aspose.HTML grâce à ce guide rapide et pratique.
+### [Récupérer JSON JavaScript – Guide complet Java pour créer un document HTML](./fetch-json-javascript-complete-java-guide-to-create-html-doc/)
+
+### [Comment rechercher du HTML avec Aspose Java – Guide complet de programmation](./how-to-search-html-with-aspose-java-complete-programming-gui/)
+Apprenez à interroger et extraire des données HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

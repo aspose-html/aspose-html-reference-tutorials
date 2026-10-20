@@ -52,6 +52,8 @@ weight: 27
 Создайте PDF из EPUB с помощью Aspose.HTML for Java, следуя пошаговому руководству.
 ### [Конвертация EPUB в PDF на Java – Добавление оглавления и полное руководство](./convert-epub-to-pdf-in-java-add-toc-and-full-guide/)
 Узнайте, как добавить оглавление при конвертации EPUB в PDF на Java с помощью Aspose.HTML, полное пошаговое руководство.
+### [Конвертация EPUB в PDF с Java – Полное руководство по программированию](./convert-epub-to-pdf-with-java-complete-programming-guide/)
+Полное руководство по конвертации EPUB в PDF на Java с использованием Aspose.HTML, включающее примеры кода и настройки.
 ### [Указание пользовательского провайдера потоков для EPUB в PDF](./convert-epub-to-pdf-specify-custom-stream-provider/)
 Узнайте, как легко конвертировать EPUB в PDF на Java с помощью Aspose.HTML, улучшая возможности обработки документов.
 ### [Указание параметров сохранения PDF для EPUB в PDF](./convert-epub-to-pdf-specify-pdf-save-options/)

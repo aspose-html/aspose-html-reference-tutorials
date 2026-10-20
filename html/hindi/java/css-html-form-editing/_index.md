@@ -106,6 +106,8 @@ Java में Aspose.HTML का उपयोग करके किसी ए�
 Java में Aspose.HTML का उपयोग करके CSS पढ़ें, मोबाइल स्क्रीन सिमुलेट करें और मीडिया क्वेरीज़ का परीक्षण करें।
 ### [Java में HTML लोड करने का तरीका – CSS रंग निष्कर्षण के साथ पूर्ण गाइड](./how-to-load-html-in-java-full-guide-with-css-color-extractio/)
 Java में Aspose.HTML का उपयोग करके HTML लोड करना और CSS से रंग निकालना सीखें।
+### [Java में HTML से CSS निकालना – पूर्ण प्रोग्रामिंग गाइड](./extract-css-from-html-in-java-complete-programming-guide/)
+Java में Aspose.HTML का उपयोग करके HTML दस्तावेज़ से CSS निकालने की पूरी प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -114,6 +114,8 @@ Pelajari cara mengonversi banyak file SVG menjadi PNG secara batch menggunakan A
 ### [Render HTML ke PNG di Java – Tambahkan Bearer Token & Header Kustom](./render-html-to-png-in-java-add-bearer-token-custom-headers/)
 Pelajari cara merender HTML ke PNG di Java dengan menambahkan Bearer Token dan header kustom menggunakan Aspose.HTML.
 ### [Cara Mengatur DPI Saat Mengonversi SVG ke PNG – Panduan Java](./how-to-set-dpi-when-converting-svg-to-png-java-guide/)
+### [Buat PNG Resolusi Tinggi dari HTML – Panduan Lengkap Java](./create-high-resolution-png-from-html-complete-java-guide/)
+Pelajari cara menghasilkan gambar PNG beresolusi tinggi dari HTML menggunakan Aspose.HTML untuk Java dengan langkah‑langkah lengkap.
 ### [Mengonversi HTML ke TIFF](./convert-html-to-tiff/)
 Pelajari cara mudah mengkonversi HTML ke TIFF menggunakan Aspose.HTML untuk Java. Panduan langkah demi langkah untuk penanganan dokumen yang efisien.
 ### [Mengonversi HTML ke WebP – Panduan Lengkap Java dengan Aspose.HTML](./convert-html-to-webp-complete-java-guide/)

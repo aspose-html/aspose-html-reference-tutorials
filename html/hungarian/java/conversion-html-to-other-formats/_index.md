@@ -162,6 +162,12 @@ Fedezze fel, hogyan gyorsíthatja a HTML‑PDF átalakítást párhuzamos feldol
 Ismerje meg, hogyan konvertálhatja a HTML‑t PDF‑re Java‑val egyetlen sor kóddal, gyorsan és egyszerűen.
 ### [PDF létrehozása HTML‑ből Java szálakkal – Teljes útmutató](./create-pdf-from-html-with-java-threads-full-guide/)
 Ismerje meg, hogyan hozhat létre PDF-et HTML‑ből több szál használatával Java‑ban a teljes útmutatóban.
+### [HTML PDF Java: Teljes útmutató egy sorban a weboldal PDF‑re konvertálásához](./html-to-pdf-java-complete-guide-to-convert-webpage-to-pdf-in/)
+Ismerje meg, hogyan konvertálhat egy weboldalt PDF‑re Java‑ban egyetlen kódsorral az Aspose.HTML segítségével.
+### [PDF A4 méret létrehozása Java‑ban – Teljes lépés‑ről‑lépésre útmutató](./create-pdf-a4-size-with-java-full-step-by-step-guide/)
+Lépésről‑lépésre útmutató egy A4 méretű PDF létrehozásához Java‑ban az Aspose.HTML segítségével.
+### [Hogyan használja az Aspose‑t párhuzamos HTML‑PDF konverzióhoz Java‑ban](./how-to-use-aspose-for-parallel-html-to-pdf-conversion-in-jav/)
+Ismerje meg, hogyan végezhet párhuzamos HTML‑PDF konverziókat Java‑ban az Aspose.HTML segítségével a teljesítmény növeléséért.
 
 ### [PDF létrehozása HTML‑ből Java‑ban – Kötetes konverzió útmutató](./create-pdf-from-html-in-java-batch-conversion-guide/)
 Ismerje meg, hogyan konvertálhat több HTML‑fájlt egyszerre PDF‑re Java‑ban az Aspose.HTML kötegelt feldolgozási funkcióival.

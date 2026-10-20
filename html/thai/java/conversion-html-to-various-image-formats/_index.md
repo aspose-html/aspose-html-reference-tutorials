@@ -117,6 +117,8 @@ weight: 24
 เรียนรู้วิธีการเรนเดอร์ HTML เป็น PNG ด้วย Aspose.HTML Sandbox ใน Java พร้อมคำแนะนำเต็มรูปแบบ
 ### [การแปลง HTML เป็น PNG ใน Java – คู่มือขั้นตอนเต็ม](./convert-html-to-png-in-java-complete-step-by-step-guide/)
 เรียนรู้วิธีแปลง HTML เป็น PNG ใน Java อย่างละเอียดด้วย Aspose.HTML พร้อมขั้นตอนครบถ้วนสำหรับการเรนเดอร์ภาพคุณภาพสูง
+### [สร้าง PNG ความละเอียดสูงจาก HTML – คู่มือ Java ฉบับสมบูรณ์](./create-high-resolution-png-from-html-complete-java-guide/)
+เรียนรู้วิธีสร้างไฟล์ PNG ความละเอียดสูงจาก HTML ด้วย Aspose.HTML สำหรับ Java พร้อมคำแนะนำทีละขั้นตอน
 ### [การแปลง HTML เป็น TIFF](./convert-html-to-tiff/)
 เรียนรู้วิธีการแปลง HTML เป็น TIFF ได้อย่างง่ายดายโดยใช้ Aspose.HTML สำหรับ Java คู่มือทีละขั้นตอนเพื่อการจัดการเอกสารอย่างมีประสิทธิภาพ
 ### [วิธีใช้ ExecutorService เพื่อแปลง HTML เป็น PNG แบบแบตช์ขนาน](./how-to-use-executorservice-for-parallel-html-to-png-batch-co/)

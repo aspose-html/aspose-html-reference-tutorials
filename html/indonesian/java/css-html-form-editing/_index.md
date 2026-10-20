@@ -105,6 +105,8 @@ Pelajari cara mengambil gaya CSS pada elemen HTML menggunakan Aspose.HTML untuk 
 Pelajari cara membaca file CSS di Java, mensimulasikan tampilan seluler, dan menguji media queries secara terprogram.
 ### [Cara Memuat HTML di Java – Panduan Lengkap dengan Ekstraksi Warna CSS](./how-to-load-html-in-java-full-guide-with-css-color-extractio/)
 Pelajari cara memuat file HTML di Java dan mengekstrak warna CSS secara terprogram dalam panduan lengkap ini.
+### [Ekstrak CSS dari HTML di Java – Panduan Pemrograman Lengkap](./extract-css-from-html-in-java-complete-programming-guide/)
+Pelajari cara mengekstrak CSS dari dokumen HTML menggunakan Java dalam panduan pemrograman lengkap ini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

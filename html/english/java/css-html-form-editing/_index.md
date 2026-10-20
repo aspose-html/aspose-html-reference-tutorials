@@ -108,6 +108,8 @@ Learn how to retrieve computed CSS styles of HTML elements using Aspose.HTML for
 Learn how to read CSS in Java, simulate mobile screens, and test media queries using Aspose.HTML for Java.
 ### [How to Load HTML in Java – Full Guide with CSS Color Extraction](./how-to-load-html-in-java-full-guide-with-css-color-extractio/)
 Learn how to load HTML in Java using Aspose.HTML and extract CSS color values in this comprehensive step-by-step guide.
+### [Extract CSS from HTML in Java – Complete Programming Guide](./extract-css-from-html-in-java-complete-programming-guide/)
+Learn how to extract CSS from HTML programmatically using Aspose.HTML for Java in this complete guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

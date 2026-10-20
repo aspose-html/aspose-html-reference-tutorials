@@ -99,6 +99,8 @@ Dowiedz się, jak konwertować eBooki EPUB do PDF przy użyciu Javy i Aspose.HTM
 Dowiedz się, jak konwertować EPUB do PDF z osadzonymi czcionkami w Javie przy użyciu Aspose.HTML.
 ### [Konwertowanie EPUB do PDF z niestandardowym rozmiarem czcionki – przewodnik Java](./convert-epub-to-pdf-with-custom-font-size-java-guide/)
 Dowiedz się, jak ustawić własny rozmiar czcionki przy konwersji EPUB do PDF w Javie przy użyciu Aspose.HTML.
+### [Konwertowanie EPUB do PDF w Javie – Kompletny przewodnik programistyczny](./convert-epub-to-pdf-with-java-complete-programming-guide/)
+Dowiedz się, jak kompletnie konwertować EPUB do PDF w Javie przy użyciu Aspose.HTML, krok po kroku od instalacji po zaawansowane opcje.
 
 ## Najczęściej zadawane pytania
 

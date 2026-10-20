@@ -105,6 +105,8 @@ Tìm hiểu cách lấy style đã tính toán trong Java bằng Aspose.HTML qua
 Hướng dẫn cách đọc CSS trong Java, mô phỏng màn hình di động và kiểm tra các media query một cách dễ dàng.
 ### [Cách tải HTML trong Java – Hướng dẫn đầy đủ với trích xuất màu CSS](./how-to-load-html-in-java-full-guide-with-css-color-extractio/)
 Hướng dẫn chi tiết cách tải tài liệu HTML trong Java và trích xuất màu sắc từ CSS bằng Aspose.HTML.
+### [Trích xuất CSS từ HTML trong Java – Hướng dẫn lập trình đầy đủ](./extract-css-from-html-in-java-complete-programming-guide/)
+Hướng dẫn chi tiết cách trích xuất CSS từ HTML bằng Aspose.HTML cho Java trong hướng dẫn lập trình toàn diện.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -329,6 +329,14 @@ Pelajari cara mengonversi HTML ke PDF dalam satu baris kode menggunakan Aspose.H
 ### [Buat PDF dari HTML dengan Thread Java – Panduan Lengkap](./create-pdf-from-html-with-java-threads-full-guide/)
 Pelajari cara menghasilkan PDF dari HTML secara paralel menggunakan thread Java dengan Aspose.HTML untuk kinerja optimal.
 
+### [html ke pdf java: Panduan Lengkap Mengonversi Halaman Web ke PDF dalam Satu Baris](./html-to-pdf-java-complete-guide-to-convert-webpage-to-pdf-in/)
+Panduan lengkap untuk mengonversi halaman web menjadi PDF dengan satu baris kode menggunakan Aspose.HTML for Java.
+
+### [Buat PDF ukuran A4 dengan Java – Panduan Lengkap Langkah‑demi‑Langkah](./create-pdf-a4-size-with-java-full-step-by-step-guide/)
+
+### [Cara Menggunakan Aspose untuk Konversi Paralel HTML ke PDF di Java](./how-to-use-aspose-for-parallel-html-to-pdf-conversion-in-jav/)
+Pelajari cara melakukan konversi HTML ke PDF secara paralel dengan Aspose di Java untuk meningkatkan kinerja batch.
+
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bisakah saya menggunakan Aspose.HTML untuk Java dalam aplikasi komersial?**  

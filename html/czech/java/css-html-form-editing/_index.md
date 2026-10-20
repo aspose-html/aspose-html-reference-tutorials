@@ -105,6 +105,8 @@ Naučte se, jak pomocí Aspose.HTML pro Java získat vypočtené CSS styly prvk�
 Naučte se, jak v Javě načíst CSS, simulovat mobilní zařízení a ověřovat media queries pro responzivní design.
 ### [Jak načíst HTML v Javě – Kompletní průvodce s extrakcí barev CSS](./how-to-load-html-in-java-full-guide-with-css-color-extractio/)
 Kompletní návod, jak načíst HTML v Javě a extrahovat barvy z CSS pomocí Aspose.HTML.
+### [Extrahování CSS z HTML v Javě – kompletní programovací průvodce](./extract-css-from-html-in-java-complete-programming-guide/)
+Kompletní návod, jak pomocí Aspose.HTML pro Javu extrahovat CSS styly z HTML dokumentů a dále s nimi pracovat.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

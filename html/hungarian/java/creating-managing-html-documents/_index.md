@@ -82,8 +82,14 @@ Ismerje meg, hogyan használhatja az Aspose könyvtárat xpath lekérdezéshez J
 Ismerje meg, hogyan kereshet szöveget HTML-dokumentumokban Java és Aspose.HTML segítségével, lépésről‑lépésre útmutató.
 ### [HTML lekérdezése Aspose.HTML használatával – Teljes Java útmutató](./how-to-query-html-with-aspose-html-complete-java-guide/)
 Ismerje meg, hogyan kérdezhet le HTML-t Aspose.HTML segítségével Java-ban, lépésről lépésre útmutató a hatékony adatkinyeréshez.
+### [HTML keresése Aspose Java-val – Teljes programozási útmutató](./how-to-search-html-with-aspose-java-complete-programming-gui/)
+Ismerje meg, hogyan kereshet HTML tartalomban az Aspose Java segítségével, lépésről‑lépésre útmutató a hatékony adatkinyeréshez.
+### [fetch json javascript – Teljes Java útmutató HTML-dokumentum létrehozásához](./fetch-json-javascript-complete-java-guide-to-create-html-doc/)
+Ismerje meg, hogyan lehet JSON-t lekérni JavaScript‑ben, és teljes körűen létrehozni HTML-dokumentumot Java segítségével.
 ### [Új HTML-dokumentumok létrehozása az Aspose.HTML for Java használatával](./generate-new-html-documents/)
 Ebből az egyszerű, lépésenkénti útmutatóból megtudhatja, hogyan hozhat létre új HTML-dokumentumokat az Aspose.HTML for Java használatával. Kezdje el a dinamikus HTML-tartalom generálását.
+### [HTML-dokumentum létrehozása Java-ban – Lépésről‑lépésre útmutató az Aspose.HTML használatával](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
+Tanulja meg, hogyan hozhat létre HTML-dokumentumot Java-ban az Aspose.HTML segítségével egy részletes, lépésről‑lépésre útmutatóban.
 ### [Kezelje a dokumentumbetöltési eseményeket az Aspose.HTML for Java-ban](./handle-document-load-events/)
 Ezzel a lépésről lépésre útmutatóval ismerkedjen meg a dokumentumbetöltési események kezelésével az Aspose.HTML for Java programban. Bővítse webalkalmazásait.
 ### [Hozzon létre és kezeljen SVG-dokumentumokat az Aspose.HTML for Java-ban](./create-manage-svg-documents/)

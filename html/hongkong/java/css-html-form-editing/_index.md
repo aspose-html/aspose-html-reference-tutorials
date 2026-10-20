@@ -105,6 +105,8 @@ url: /zh-hant/java/css-html-form-editing/
 本教學示範如何在 Java 中讀取 CSS，模擬行動裝置螢幕尺寸，並驗證 Media Queries 的行為。
 ### [如何在 Java 中載入 HTML – 完整指南與 CSS 顏色提取](./how-to-load-html-in-java-full-guide-with-css-color-extractio/)
 本完整指南說明如何在 Java 中載入 HTML，並使用 CSS 解析提取顏色資訊，適合開發者快速上手。
+### [在 Java 中從 HTML 提取 CSS – 完整程式設計指南](./extract-css-from-html-in-java-complete-programming-guide/)
+本指南說明如何使用 Aspose.HTML for Java 從 HTML 文件中提取 CSS 樣式，提供完整的程式碼示例與步驟說明。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

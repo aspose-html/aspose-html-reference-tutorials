@@ -130,6 +130,7 @@ Att använda Aspose.HTML for Java förenklar konverteringen av HTML‑dokument t
 ### [Rendera HTML till PNG i Java – Lägg till Bearer‑token och anpassade rubriker](./render-html-to-png-in-java-add-bearer-token-custom-headers/)
 ### [Hur man kör JavaScript och renderar HTML till PNG med Aspose](./how-to-run-javascript-and-render-html-to-png-with-aspose/)
 ### [Hur man ställer in DPI vid konvertering av SVG till PNG – Java‑guide](./how-to-set-dpi-when-converting-svg-to-png-java-guide/)
+### [Skapa högupplöst PNG från HTML – Komplett Java‑guide](./create-high-resolution-png-from-html-complete-java-guide/)
 
 ### [Hur man renderar HTML till PNG – Komplett guide för Java‑utvecklare](./how-to-render-html-to-png-complete-guide-for-java-developers/)
 ### [Skapa PNG från HTML i Java – Fullständig steg‑för‑steg‑guide](./create-png-from-html-in-java-full-step-by-step-guide/)

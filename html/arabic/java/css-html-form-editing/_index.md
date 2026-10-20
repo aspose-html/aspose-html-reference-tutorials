@@ -95,6 +95,8 @@ url: /ar/java/css-html-form-editing/
 ### [كيفية قراءة CSS في Java – محاكاة شاشة الجوال واختبار استعلامات الوسائط](./how-to-read-css-in-java-simulate-mobile-screen-test-media-qu/)
 تعلم كيفية قراءة ملفات CSS في Java، محاكاة شاشات الهواتف المحمولة واختبار استعلامات الوسائط بسهولة.
 ### [كيفية تحميل HTML في Java – دليل كامل مع استخراج ألوان CSS](./how-to-load-html-in-java-full-guide-with-css-color-extractio/)
+### [استخراج CSS من HTML في Java – دليل برمجة كامل](./extract-css-from-html-in-java-complete-programming-guide/)
+تعرف على كيفية استخراج CSS من HTML باستخدام Aspose.HTML لـ Java في هذا الدليل الشامل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

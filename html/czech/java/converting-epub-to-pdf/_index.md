@@ -84,6 +84,8 @@ Kompletní průvodce převodem EPUB do PDF v Javě s přidáním obsahu (TOC) a 
 Naučte se, jak při převodu EPUB do PDF v Javě vložit písma pomocí Aspose.HTML.
 ### [Převod EPUB do PDF s vlastní velikostí písma – Java průvodce](./convert-epub-to-pdf-with-custom-font-size-java-guide/)
 Naučte se nastavit vlastní velikost písma při převodu EPUB do PDF v Javě s Aspose.HTML.
+### [Převod EPUB do PDF pomocí Javy – Kompletní programovací průvodce](./convert-epub-to-pdf-with-java-complete-programming-guide/)
+Kompletní průvodce programováním převodu EPUB do PDF v Javě s Aspose.HTML.
 
 ### [Převod EPUB do PDF pomocí Javy – průvodce krok za krokem](./convert-epub-to-pdf-with-java-step-by-step-guide/)
 Kompletní návod, jak převést soubory EPUB do PDF v Javě pomocí Aspose.HTML, krok po kroku.

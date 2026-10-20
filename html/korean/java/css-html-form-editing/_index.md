@@ -106,6 +106,8 @@ Java용 Aspose.HTML을 활용해 요소의 스타일을 프로그래밍 방식�
 Java를 사용해 CSS를 읽고, 모바일 화면을 시뮬레이션하며, 미디어 쿼리를 테스트하는 방법을 단계별로 안내합니다.
 ### [Java에서 HTML 로드하기 – CSS 색상 추출 포함 전체 가이드](./how-to-load-html-in-java-full-guide-with-css-color-extractio/)
 Java에서 Aspose.HTML을 사용해 HTML을 로드하고 CSS 색상을 추출하는 방법을 단계별로 안내합니다.
+### [Java를 사용한 HTML에서 CSS 추출 – 완전 프로그래밍 가이드](./extract-css-from-html-in-java-complete-programming-guide/)
+Aspose.HTML for Java를 활용해 HTML 문서에서 CSS를 추출하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

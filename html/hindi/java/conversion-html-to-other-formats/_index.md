@@ -319,6 +319,13 @@ Aspose.HTML का उपयोग करके Java में समाना�
 
 ### [HTML को Java थ्रेड्स के साथ PDF में बदलें – पूर्ण गाइड](./create-pdf-from-html-with-java-threads-full-guide/)
 Java थ्रेड्स का उपयोग करके HTML से PDF बनाने की पूरी गाइड। मल्टी‑थ्रेडेड रूपांतरण के लिए चरण‑दर‑चरण निर्देश।
+### [html to pdf java: वेबपेज को PDF में एक लाइन में बदलने का पूर्ण गाइड](./html-to-pdf-java-complete-guide-to-convert-webpage-to-pdf-in/)
+
+### [Java के साथ A4 आकार का PDF बनाएं – पूर्ण चरण‑दर‑चरण गाइड](./create-pdf-a4-size-with-java-full-step-by-step-guide/)
+Java में Aspose.HTML का उपयोग करके A4 आकार का PDF बनाने की पूरी प्रक्रिया सीखें।
+
+### [जावा में समानांतर HTML से PDF रूपांतरण के लिए Aspose का उपयोग कैसे करें](./how-to-use-aspose-for-parallel-html-to-pdf-conversion-in-jav/)
+जावा में Aspose.HTML का उपयोग करके कई HTML फ़ाइलों को एक साथ PDF में बदलने की चरण‑दर‑चरण प्रक्रिया सीखें।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

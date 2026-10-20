@@ -109,6 +109,9 @@ url: /el/java/css-html-form-editing/
 
 ### [Πώς να φορτώσετε HTML σε Java – Πλήρης Οδηγός με Εξαγωγή Χρώματος CSS](./how-to-load-html-in-java-full-guide-with-css-color-extractio/)
 Μάθετε πώς να φορτώνετε HTML σε Java και να εξάγετε χρώματα CSS με έναν πλήρη οδηγό βήμα προς βήμα.
+### [Εξαγωγή CSS από HTML σε Java – Πλήρης Οδηγός Προγραμματισμού](./extract-css-from-html-in-java-complete-programming-guide/)
+Μάθετε πώς να εξάγετε CSS από HTML χρησιμοποιώντας Aspose.HTML για Java σε αυτόν τον πλήρη οδηγό προγραμματισμού.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -135,6 +135,8 @@ Aprenda a configurar el DPI al convertir archivos SVG a PNG usando Aspose.HTML f
 Aprenda a ejecutar JavaScript y renderizar HTML a PNG usando Aspose.HTML for Java en unos simples pasos.
 ### [Renderizar HTML a PNG en Java – Añadir token Bearer y encabezados personalizados](./render-html-to-png-in-java-add-bearer-token-custom-headers/)
 Aprenda a renderizar HTML a PNG en Java usando Aspose.HTML, incluyendo token Bearer y encabezados HTTP personalizados.
+### [Crear PNG de alta resolución a partir de HTML – Guía completa de Java](./create-high-resolution-png-from-html-complete-java-guide/)
+Aprenda a generar imágenes PNG de alta resolución desde HTML usando Aspose.HTML for Java con pasos detallados y ejemplos.
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
 Aprenda a convertir HTML a TIFF fácilmente usando Aspose.HTML for Java. Guía paso a paso para un manejo eficiente de documentos.
 ### [Convertir HTML a WebP – Guía completa de Java con Aspose.HTML](./convert-html-to-webp-complete-java-guide/)

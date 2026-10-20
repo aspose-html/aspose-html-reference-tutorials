@@ -48,6 +48,8 @@ Jeśli chodzi o generowanie nowych dokumentów HTML, Aspose.HTML for Java oferuj
 Opanuj asynchroniczne tworzenie dokumentów HTML za pomocą Aspose.HTML dla Java. Przewodnik krok po kroku, wskazówki i FAQ dołączone do szybkiej nauki.
 ### [Utwórz puste dokumenty HTML w Aspose.HTML dla Java](./create-empty-html-documents/)
 Dowiedz się, jak tworzyć puste dokumenty HTML w języku Java za pomocą Aspose.HTML, korzystając z naszego szczegółowego samouczka krok po kroku, idealnego dla programistów na każdym poziomie zaawansowania.
+### [Utwórz dokument HTML w Javie – przewodnik krok po kroku z Aspose.HTML](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
+Dowiedz się, jak w prosty sposób utworzyć dokument HTML w Javie przy użyciu Aspose.HTML, krok po kroku.
 ### [Załaduj dokumenty HTML z pliku w Aspose.HTML dla Java](./load-html-documents-from-file/)
 Odblokuj moc manipulacji HTML za pomocą Aspose.HTML dla Java. Naucz się ładować dokumenty HTML z plików za pomocą samouczków krok po kroku.
 ### [Zaawansowane ładowanie plików dla dokumentów HTML w Aspose.HTML dla Java](./advanced-file-loading-html-documents/)
@@ -149,6 +151,10 @@ Dowiedz się, jak efektywnie wyszukiwać i znajdować tekst w dokumentach HTML p
 Dowiedz się, jak efektywnie zapytać i przetwarzać dokumenty HTML w Javie przy użyciu Aspose.HTML.
 ### [Konwersja Markdown do HTML w Javie – szybki przewodnik z Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
 Dowiedz się, jak szybko konwertować pliki Markdown na HTML w Javie przy użyciu Aspose.HTML.
+### [Jak wyszukiwać HTML w Aspose Java – Kompletny przewodnik programistyczny](./how-to-search-html-with-aspose-java-complete-programming-gui/)
+Dowiedz się, jak efektywnie przeszukiwać dokumenty HTML w Javie przy użyciu Aspose.HTML, krok po kroku.
+### [fetch json javascript – Kompletny przewodnik Java do tworzenia dokumentu HTML](./fetch-json-javascript-complete-java-guide-to-create-html-doc/)
+Poznaj, jak pobierać JSON w JavaScript i tworzyć dokumenty HTML w Javie przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

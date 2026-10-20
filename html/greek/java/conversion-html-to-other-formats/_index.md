@@ -108,6 +108,8 @@ weight: 25
 Μάθετε πώς να ορίσετε το μέγεθος σελίδας και τα περιθώρια κατά τη μετατροπή HTML σε PDF σε Java με το Aspose.HTML.
 ### [Μετατροπή HTML σε PDF σε Java – Παράδειγμα Παράλληλης Επεξεργασίας Aspose](./convert-html-to-pdf-in-java-aspose-parallel-example/)
 Μάθετε πώς να επιταχύνετε τη μετατροπή HTML σε PDF σε Java με παράλληλη εκτέλεση χρησιμοποιώντας Aspose.
+### [Δημιουργία PDF A4 με Java – Πλήρης Οδηγός Βήμα‑βήμα](./create-pdf-a4-size-with-java-full-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε PDF σε μέγεθος A4 σε Java χρησιμοποιώντας Aspose.HTML, με πλήρη βήμα‑βήμα οδηγίες και ρυθμίσεις σελίδας.
 ### [Μετατροπή HTML σε MHTML](./convert-html-to-mhtml/)
 Μετατρέψτε εύκολα HTML σε MHTML χρησιμοποιώντας το Aspose.HTML for Java. Ακολουθήστε τον βήμα‑βήμα οδηγό μας για αποδοτική μετατροπή HTML‑σε‑MHTML.
 ### [Μετατροπή HTML σε MHTML με Aspose.HTML – Πλήρης Οδηγός Java](./convert-html-to-mhtml-with-aspose-html-complete-java-guide/)
@@ -261,6 +263,9 @@ weight: 25
 ### [Μαθήματα HTML σε PDF – Μετατροπή HTML σε PDF με μία γραμμή κώδικα Java](./html-to-pdf-tutorial-convert-html-to-pdf-in-one-line-with-ja/)
 
 ### [Δημιουργία PDF από HTML με νήματα Java – Πλήρης Οδηγός](./create-pdf-from-html-with-java-threads-full-guide/)
+### [html σε pdf java: Πλήρης Οδηγός για τη Μετατροπή Ιστοσελίδας σε PDF με Μία Γραμμή](./html-to-pdf-java-complete-guide-to-convert-webpage-to-pdf-in/)
+Μάθετε πώς να μετατρέψετε μια ιστοσελίδα σε PDF με μία μόνο κλήση κώδικα χρησιμοποιώντας το Aspose.HTML for Java.
+### [Πώς να χρησιμοποιήσετε το Aspose για παράλληλη μετατροπή HTML σε PDF σε Java](./how-to-use-aspose-for-parallel-html-to-pdf-conversion-in-jav/)
 
 ## Συχνές Ερωτήσεις
 

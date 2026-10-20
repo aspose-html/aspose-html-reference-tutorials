@@ -185,6 +185,9 @@ Erfahren Sie, wie Sie die Seitengröße und Ränder beim Konvertieren von HTML z
 ### [HTML zu PDF in Java – Aspose Parallel‑Beispiel](./convert-html-to-pdf-in-java-aspose-parallel-example/)
 Erfahren Sie, wie Sie mit Aspose.HTML mehrere HTML‑Zu‑PDF‑Konvertierungen parallel in Java ausführen.
 
+### [HTML zu PDF Java: Komplettanleitung zum Konvertieren einer Webseite in PDF in einer Zeile](./html-to-pdf-java-complete-guide-to-convert-webpage-to-pdf-in/)
+Erfahren Sie, wie Sie mit einer einzigen Zeile Code eine komplette Webseite in ein PDF-Dokument konvertieren.
+
 ### [Konvertierung von HTML zu MHTML](./convert-html-to-mhtml/)
 Konvertieren Sie HTML mühelos zu MHTML mit Aspose.HTML für Java. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung für eine effiziente HTML‑zu‑MHTML‑Konvertierung.
 
@@ -343,6 +346,10 @@ Erfahren Sie, wie Sie HTML mit einer einzigen Zeile Java‑Code in ein PDF‑Dok
 
 ### [PDF aus HTML mit Java-Threads erstellen – Vollständige Anleitung](./create-pdf-from-html-with-java-threads-full-guide/)
 Erfahren Sie, wie Sie mit Java-Threads mehrere HTML‑Dateien parallel zu PDFs konvertieren und die Leistung optimieren.
+
+### [PDF im A4-Format mit Java erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-pdf-a4-size-with-java-full-step-by-step-guide/)
+
+### [Wie man Aspose für parallele HTML‑zu‑PDF‑Konvertierung in Java verwendet](./how-to-use-aspose-for-parallel-html-to-pdf-conversion-in-jav/)
 
 ## Häufig gestellte Fragen
 

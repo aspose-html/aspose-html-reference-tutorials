@@ -156,6 +156,9 @@ weight: 24
 
 ### [如何在將 SVG 轉換為 PNG 時設定 DPI – Java 指南](./how-to-set-dpi-when-converting-svg-to-png-java-guide/)
 
+### [從 HTML 建立高解析度 PNG – 完整 Java 指南](./create-high-resolution-png-from-html-complete-java-guide/)
+說明如何使用 Aspose.HTML for Java 產生高解析度 PNG 圖像，包含設定 DPI、尺寸與最佳化技巧。
+
 ### [將 HTML 轉換為 WebP](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 ### [將 HTML 轉換為 WebP（完整步驟指南）](./how-to-convert-html-to-webp-in-java-complete-step-by-step-gu/)
 完整的 Java 教學，說明如何使用 Aspose.HTML 將 HTML 轉換為 WebP 圖像，提供程式碼範例與最佳化技巧。

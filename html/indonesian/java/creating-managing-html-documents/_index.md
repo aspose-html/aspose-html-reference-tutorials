@@ -60,6 +60,10 @@ Pelajari cara membuat dokumen HTML dari string di Aspose.HTML untuk Java dengan 
 Pelajari cara mengambil data JSON dan menghasilkan konten HTML secara dinamis menggunakan Aspose.HTML untuk Java dalam panduan langkah demi langkah.
 ### [Buat HTML dari Markdown di Java – Panduan Lengkap Langkah‑per‑Langkah](./create-html-from-markdown-in-java-full-step-by-step-guide/)
 Pelajari cara mengonversi file Markdown menjadi dokumen HTML di Java menggunakan Aspose.HTML dengan panduan langkah demi langkah yang mudah diikuti.
+### [fetch json javascript – Panduan Java Lengkap untuk Membuat Dokumen HTML](./fetch-json-javascript-complete-java-guide-to-create-html-doc/)
+Pelajari cara mengambil data JSON menggunakan JavaScript dan menggunakannya untuk membuat dokumen HTML dengan Aspose.HTML untuk Java dalam panduan lengkap ini.
+### [Buat Dokumen HTML Java – Panduan Langkah‑per‑Langkah dengan Aspose.HTML](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
+Pelajari cara membuat dokumen HTML di Java dengan Aspose.HTML melalui panduan langkah demi langkah yang mudah diikuti.
 ### [Memuat Dokumen HTML dari URL di Aspose.HTML untuk Java](./load-html-documents-from-url/)
 Temukan cara mudah memuat dokumen HTML dari URL di Java dengan Aspose.HTML. Tutorial langkah demi langkah disertakan.
 ### [Memuat Dokumen HTML Java – Panduan Lengkap dengan XPath & CSS](./load-html-document-java-complete-guide-with-xpath-css/)
@@ -143,6 +147,7 @@ Pelajari cara mencari teks dalam dokumen HTML menggunakan Aspose.HTML untuk Java
 Pelajari cara menanyakan dan mengekstrak data HTML menggunakan Aspose.HTML dalam Java dengan panduan langkah demi langkah lengkap.
 ### [Mengonversi Markdown ke HTML di Java – Panduan Cepat dengan Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
 Pelajari cara mengonversi file Markdown menjadi HTML di Java menggunakan Aspose.HTML dengan panduan singkat langkah demi langkah.
+### [Cara Menelusuri HTML dengan Aspose Java – Panduan Pemrograman Lengkap](./how-to-search-html-with-aspose-java-complete-programming-gui/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

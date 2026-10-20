@@ -214,6 +214,11 @@ Aprenda passo a passo como converter HTML para PDF em Java usando Aspose.HTML, c
 Aprenda a converter HTML para PDF com uma única linha de código Java usando Aspose.HTML.
 ### [Criar PDF a partir de HTML com Threads Java – Guia Completo](./create-pdf-from-html-with-java-threads-full-guide/)
 Aprenda a gerar PDFs a partir de HTML usando múltiplas threads em Java para melhorar desempenho e processamento em lote.
+### [HTML para PDF Java: Guia completo para converter página da web em PDF em uma linha](./html-to-pdf-java-complete-guide-to-convert-webpage-to-pdf-in/)
+Aprenda a converter uma página da web em PDF com uma única linha de código usando Aspose.HTML for Java.
+### [Criar PDF tamanho A4 com Java – Guia completo passo a passo](./create-pdf-a4-size-with-java-full-step-by-step-guide/)
+### [Como Usar Aspose para Conversão Paralela de HTML para PDF em Java](./how-to-use-aspose-for-parallel-html-to-pdf-conversion-in-jav/)
+Descubra como converter múltiplos arquivos HTML para PDF simultaneamente usando Aspose.HTML for Java, otimizando desempenho.
 
 ### [Incorporar fontes PDF – Guia Completo Aspose HTML para PDF (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
 

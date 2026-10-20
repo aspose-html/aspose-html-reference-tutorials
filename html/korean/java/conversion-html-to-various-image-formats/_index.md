@@ -152,6 +152,7 @@ Aspose.HTML for Java를 사용해 SVG 파일을 고해상도 PNG 이미지로 �
 ### [Aspose.HTML Sandbox로 HTML을 PNG로 렌더링 – 전체 Java 가이드](./render-html-to-png-with-aspose-html-sandbox-full-java-guide/)
 Aspose.HTML Sandbox를 사용해 Java에서 HTML을 PNG 이미지로 변환하는 전체 단계별 가이드입니다.
 ### [SVG를 PNG로 변환 – 배치 변환 가이드](./convert-svg-to-png-in-java-batch-conversion-guide/)
+### [HTML에서 고해상도 PNG 만들기 – 완전한 Java 가이드](./create-high-resolution-png-from-html-complete-java-guide/)
 
 ### [Java에서 HTML을 PNG로 생성 – 전체 단계별 가이드](./create-png-from-html-in-java-full-step-by-step-guide/)
 Java에서 Aspose.HTML를 활용해 HTML을 PNG 파일로 변환하는 전체 과정을 단계별로 안내합니다.

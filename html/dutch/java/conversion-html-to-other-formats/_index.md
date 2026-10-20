@@ -269,6 +269,12 @@ Leer hoe u met Aspose.HTML meerdere HTML‑naar‑PDF conversies parallel kunt u
 ### [HTML naar PDF tutorial – Converteer HTML naar PDF in één regel met Java](./html-to-pdf-tutorial-convert-html-to-pdf-in-one-line-with-ja/)
 Leer hoe u met één regel code HTML naar PDF kunt converteren in Java met Aspose.HTML.
 ### [PDF maken vanuit HTML met Java-threads – Volledige gids](./create-pdf-from-html-with-java-threads-full-guide/)
+### [HTML naar PDF Java: Complete gids om een webpagina in één regel naar PDF te converteren](./html-to-pdf-java-complete-guide-to-convert-webpage-to-pdf-in/)
+Leer hoe u met één regel code een volledige webpagina naar PDF converteert in Java met Aspose.HTML.
+### [PDF A4-grootte maken met Java – Volledige stap‑voor‑stap gids](./create-pdf-a4-size-with-java-full-step-by-step-guide/)
+Leer hoe u met Aspose.HTML een PDF in A4‑formaat genereert in Java, stap voor stap met voorbeeldcode.
+### [Hoe Aspose te gebruiken voor parallelle HTML‑naar‑PDF conversie in Java](./how-to-use-aspose-for-parallel-html-to-pdf-conversion-in-jav/)
+Leer hoe u met Aspose.HTML meerdere HTML‑bestanden gelijktijdig naar PDF kunt converteren in Java voor hogere doorvoer.
 
 ## Veelgestelde Vragen
 

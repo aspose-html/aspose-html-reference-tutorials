@@ -144,6 +144,12 @@ Learn how to render HTML in Java, wait for page load, and use query selectors wi
 Convert Markdown to HTML in Java using Aspose.HTML. Follow this step‑by‑step guide to transform markdown content into HTML efficiently.
 ### [How to Read XHTML File in Java – XPath Namespace Example](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
 Learn how to read an XHTML file in Java using XPath with namespace handling, step-by-step guide.
+### [Create HTML Document Java – Step‑by‑Step Guide with Aspose.HTML](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
+Learn how to create an HTML document in Java using Aspose.HTML with a clear step‑by‑step guide.
+### [fetch json javascript – Complete Java Guide to Create HTML Document](./fetch-json-javascript-complete-java-guide-to-create-html-doc/)
+Learn how to fetch JSON using JavaScript and create HTML documents in Java with Aspose.HTML – a complete step-by-step guide.
+### [How to search HTML with Aspose Java – Complete Programming Guide](./how-to-search-html-with-aspose-java-complete-programming-gui/)
+Learn how to search HTML content using Aspose.HTML for Java in this comprehensive programming guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

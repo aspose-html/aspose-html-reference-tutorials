@@ -143,6 +143,12 @@ Hướng dẫn chi tiết cách sử dụng querySelectorAll trong Java để l�
 Khám phá cách tìm kiếm và trích xuất văn bản trong tài liệu HTML bằng Aspose.HTML cho Java với hướng dẫn chi tiết.
 ### [Cách truy vấn HTML với Aspose.HTML – Hướng dẫn Java đầy đủ](./how-to-query-html-with-aspose-html-complete-java-guide/)
 Khám phá cách truy vấn HTML bằng Aspose.HTML trong Java, với hướng dẫn chi tiết và các ví dụ thực tế.
+### [Tạo tài liệu HTML Java – Hướng dẫn từng bước với Aspose.HTML](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
+Hướng dẫn chi tiết cách tạo tài liệu HTML trong Java bằng Aspose.HTML, từng bước một để bạn nhanh chóng triển khai.
+### [fetch json javascript – Hướng dẫn Java toàn diện để tạo tài liệu HTML](./fetch-json-javascript-complete-java-guide-to-create-html-doc/)
+Khám phá cách fetch JSON bằng JavaScript và tạo tài liệu HTML hoàn chỉnh trong Java với Aspose.HTML.
+### [Cách tìm kiếm HTML với Aspose Java – Hướng dẫn lập trình đầy đủ](./how-to-search-html-with-aspose-java-complete-programming-gui/)
+Khám phá cách tìm kiếm nội dung HTML trong Java bằng Aspose, kèm hướng dẫn chi tiết từng bước và các mẹo tối ưu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
