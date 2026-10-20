@@ -88,6 +88,9 @@ C# में Aspose.HTML का उपयोग करके एंटीएल�
 ### [C# में HTML को PDF में रेंडर करें – पेज साइज और एंटी‑एलियासिंग के साथ पूर्ण गाइड](./render-html-to-pdf-in-c-full-guide-with-page-size-anti-alias/)
 C# में Aspose.HTML के साथ पेज साइज और एंटी‑एलियासिंग सेटिंग्स का उपयोग करके HTML को PDF में रेंडर करने का पूर्ण गाइड।
 
+### [C# में HTML से PDF बनाएं – पूर्ण चरण‑दर‑चरण गाइड](./create-pdf-from-html-in-c-full-step-by-step-guide/)
+C# में Aspose.HTML का उपयोग करके HTML को PDF में बदलने की पूरी चरण‑दर‑चरण गाइड।
+
 ### [Aspose.HTML के साथ .NET में EPUB को छवि में बदलें](./convert-epub-to-image/)
 ### [Aspose.HTML के साथ .NET में EPUB को PDF में बदलें](./convert-epub-to-pdf/)
 जानें कि .NET के लिए Aspose.HTML का उपयोग करके EPUB को PDF में कैसे बदलें। यह चरण‑दर‑स्टेप मार्गदर्शिका सहज दस्तावेज़ रूपांतरण के लिए अनुकूलन विकल्प, FAQ और बहुत कुछ शामिल करती है।
@@ -246,6 +249,9 @@ C# में Aspose.HTML का उपयोग करके HTML को ZIP फ
 
 ### [C# में HTML को ज़िप कैसे करें – कस्टम रिसोर्स हैंडलर गाइड](./how-to-zip-html-in-c-custom-resource-handler-guide/)
 C# में कस्टम रिसोर्स हैंडलर का उपयोग करके HTML को ZIP फ़ाइल में सहेजने की चरण‑दर‑चरण मार्गदर्शिका।
+
+### [Aspose.HTML के साथ HTML आउटपुट जेनरेट करें – पूर्ण C# गाइड](./generate-html-output-with-aspose-html-full-c-guide/)
+C# में Aspose.HTML का उपयोग करके HTML आउटपुट जेनरेट करने के चरण‑दर‑चरण मार्गदर्शन।
 
 ## निष्कर्ष
 

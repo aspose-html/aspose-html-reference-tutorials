@@ -67,6 +67,8 @@ HTML-документы являются основой Интернета, и �
 
 ### [Как сохранить HTML – Полное руководство по Aspose HTMLDocument](./how-to-save-html-aspose-htmldocument-complete-guide/)
 
+### [Создание ZIP-архива для HTML – Полное руководство на C#](./create-zip-archive-for-html-complete-c-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

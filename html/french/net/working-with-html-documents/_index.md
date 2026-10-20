@@ -72,6 +72,8 @@ Apprenez à enregistrer du HTML en C# avec un guide détaillé étape par étape
 
 Apprenez à enregistrer du HTML en utilisant Aspose.HTMLDocument, avec des options complètes pour gérer la sortie et les ressources associées.
 
+### [Créer une archive Zip pour HTML – Guide complet C#](./create-zip-archive-for-html-complete-c-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

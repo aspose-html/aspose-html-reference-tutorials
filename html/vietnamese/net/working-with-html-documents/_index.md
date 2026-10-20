@@ -68,6 +68,7 @@ Hướng dẫn chi tiết cách tạo tài liệu HTML từ một chuỗi văn b
 
 Hướng dẫn chi tiết cách tạo HTML từ chuỗi trong C# bằng Memory Stream, kèm ví dụ mã và các bước thực hiện.
 ### [Cách lưu HTML – Hướng dẫn đầy đủ Aspose HTMLDocument](./how-to-save-html-aspose-htmldocument-complete-guide/)
+### [Tạo tệp Zip cho HTML – Hướng dẫn C# đầy đủ](./create-zip-archive-for-html-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

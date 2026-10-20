@@ -77,6 +77,10 @@ url: /el/net/working-with-html-documents/
 
 Μάθετε πώς να αποθηκεύσετε HTML με το Aspose.HTMLDocument, ακολουθώντας έναν πλήρη βήμα‑βήμα οδηγό.
 
+### [Δημιουργία αρχείου Zip για HTML – Πλήρης οδηγός C#](./create-zip-archive-for-html-complete-c-guide/)
+
+Μάθετε πώς να δημιουργήσετε αρχείο Zip που περιέχει HTML χρησιμοποιώντας C#, βήμα‑βήμα οδηγός.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

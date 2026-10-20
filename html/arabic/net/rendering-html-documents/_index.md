@@ -137,6 +137,12 @@ url: /ar/net/rendering-html-documents/
 ### [كيفية تمكين مضاد التعرج لتحويل HTML إلى PDF في C#](./how-to-enable-antialiasing-for-html-to-pdf-in-c/)
 تعلم كيفية تمكين تقنية مضاد التعرج عند تحويل HTML إلى PDF باستخدام Aspose.HTML في C# لضمان جودة عالية للرسومات والنصوص.
 
+### [تحويل HTML إلى PNG في C# – دليل سريع وموثوق](./render-html-to-png-in-c-fast-reliable-guide/)
+تعلم كيفية تحويل مستندات HTML إلى صور PNG بسرعة وموثوقية باستخدام C# و Aspose.HTML.
+
+### [كيفية عرض HTML كـ PNG – دليل خطوة بخطوة](./how-to-render-html-as-png-step-by-step-guide/)
+تعلم خطوة بخطوة كيفية تحويل مستندات HTML إلى صور PNG باستخدام Aspose.HTML في .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

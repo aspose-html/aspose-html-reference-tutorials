@@ -56,6 +56,7 @@ url: /ar/net/working-with-html-documents/
 ### [كيفية حفظ HTML في C# – دليل خطوة بخطوة كامل](./how-to-save-html-in-c-complete-step-by-step-guide/)
 
 ### [كيفية حفظ HTML – دليل كامل لـ Aspose HTMLDocument](./how-to-save-html-aspose-htmldocument-complete-guide/)
+### [إنشاء أرشيف Zip للـ HTML – دليل كامل C#](./create-zip-archive-for-html-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

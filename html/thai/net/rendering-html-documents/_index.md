@@ -90,7 +90,9 @@ Aspose.HTML สำหรับ .NET ถือเป็นตัวเลือ�
 ### [วิธีการเรนเดอร์ HTML เป็น PNG – คู่มือขั้นตอนเต็ม](./how-to-render-html-to-png-complete-step-by-step-guide/)
 เรียนรู้วิธีการเรนเดอร์ HTML เป็น PNG อย่างละเอียดด้วย Aspose.HTML สำหรับ .NET ในคู่มือขั้นตอนเต็ม!
 ### [วิธีใช้ Aspose เพื่อเรนเดอร์ HTML เป็น PNG – คู่มือแบบขั้นตอน](./how-to-use-aspose-to-render-html-to-png-step-by-step-guide/)
-เรียนรู้วิธีการเรนเดอร์ไฟล์ HTML เป็น PNG ด้วย Aspose.HTML สำหรับ .NET อย่างละเอียดในคู่มือขั้นตอนนี้!
+เรียนรู้วิธีการเรนเดอร์ไฟล์ HTML เป็น PNG อย่างละเอียดในคู่มือขั้นตอนนี้!
+### [วิธีเรนเดอร์ HTML เป็น PNG – คู่มือแบบขั้นตอนต่อขั้นตอน](./how-to-render-html-as-png-step-by-step-guide/)
+เรียนรู้วิธีเรนเดอร์ไฟล์ HTML เป็น PNG อย่างละเอียดในคู่มือแบบขั้นตอนต่อขั้นตอนนี้!
 ### [วิธีเรนเดอร์ HTML เป็น PNG ด้วย Aspose – คู่มือฉบับสมบูรณ์](./how-to-render-html-to-png-with-aspose-complete-guide/)
 เรียนรู้วิธีการเรนเดอร์ไฟล์ HTML เป็น PNG อย่างละเอียดด้วย Aspose.HTML สำหรับ .NET ในคู่มือฉบับสมบูรณ์นี้!
 ### [วิธีเรนเดอร์ HTML เป็น PNG – คู่มือ C# ฉบับสมบูรณ์](./how-to-render-html-as-png-complete-c-guide/)
@@ -130,6 +132,8 @@ Aspose.HTML สำหรับ .NET ถือเป็นตัวเลือ�
 เรียนรู้วิธีเรนเดอร์ HTML เป็น PNG แล้วบีบอัดเป็นไฟล์ ZIP ในหน่วยความจำด้วย C# อย่างละเอียดในคู่มือฉบับสมบูรณ์นี้!
 ### [วิธีเปิดใช้งาน Antialiasing สำหรับ HTML‑to‑PDF ใน C#](./how-to-enable-antialiasing-for-html-to-pdf-in-c/)
 เรียนรู้วิธีเปิดใช้งาน Antialiasing เพื่อปรับปรุงคุณภาพ PDF ที่สร้างจาก HTML ด้วย Aspose.HTML สำหรับ .NET ใน C#
+### [เรนเดอร์ HTML เป็น PNG ใน C# – คู่มือเร็วและเชื่อถือได้](./render-html-to-png-in-c-fast-reliable-guide/)
+เรียนรู้วิธีเรนเดอร์ HTML เป็น PNG ด้วย C# อย่างรวดเร็วและมั่นคงโดยใช้ Aspose.HTML
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

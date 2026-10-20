@@ -111,6 +111,8 @@ Naučte se, jak pomocí Aspose.HTML převést HTML na obrázek v podrobném prů
 Naučte se, jak převést dokument Word do PNG pomocí C# a Aspose.HTML v podrobném průvodci krok za krokem.
 ### [Vytvořte PNG z HTML – krok za krokem průvodce pro vývojáře C#](./create-png-from-html-step-by-step-guide-for-c-developers/)
 Naučte se, jak pomocí Aspose.HTML pro .NET převést HTML na PNG v podrobném průvodci pro vývojáře C#.
+### [Vytvořte PNG z HTML – Kompletní průvodce C#](./create-png-from-html-complete-c-guide/)
+Kompletní průvodce převodem HTML na PNG v C# pomocí Aspose.HTML, krok za krokem.
 
 ## Závěr
 

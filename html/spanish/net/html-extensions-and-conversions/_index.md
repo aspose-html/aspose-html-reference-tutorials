@@ -76,6 +76,8 @@ Aprenda a crear un PDF a partir de HTML usando C# y Aspose.HTML con antialiasing
 Aprenda a crear un PDF a partir de HTML usando Aspose y C# con esta guía paso a paso.
 ### [Crear PDF a partir de HTML en C# – Incrustar fuentes y convertir a PDF](./create-pdf-from-html-in-c-embed-fonts-convert-to-pdf/)
 Aprenda a crear un PDF desde HTML en C# incrustando fuentes para garantizar una visualización correcta.
+### [Crear PDF a partir de HTML en C# – Guía completa paso a paso](./create-pdf-from-html-in-c-full-step-by-step-guide/)
+Aprenda a generar un PDF desde HTML usando C# y Aspose.HTML con una guía completa paso a paso.
 ### [Crear documento HTML con texto con estilo y exportarlo a PDF – Guía completa](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Aprenda a generar un documento HTML con texto formateado y convertirlo a PDF usando Aspose.HTML para .NET paso a paso.
 ### [Crear PDF a partir de HTML en C# – Guía completa paso a paso](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
@@ -197,6 +199,8 @@ Aprenda a guardar documentos HTML como archivos ZIP usando C# con Aspose.HTML en
 Aprenda a comprimir archivos HTML usando un controlador de recursos personalizado en C# con Aspose.HTML. Guía paso a paso.
 ### [Cómo comprimir HTML desde DOCX – Guía completa en C#](./how-to-zip-html-from-docx-complete-c-guide/)
 Aprenda a extraer HTML de un DOCX y guardarlo en un archivo ZIP usando C# y Aspose.HTML. Guía paso a paso con ejemplos de código.
+### [Generar salida HTML con Aspose.HTML – Guía completa en C#](./generate-html-output-with-aspose-html-full-c-guide/)
+Aprenda a generar contenido HTML usando Aspose.HTML en C# con esta guía paso a paso.
 
 ## Conclusión
 

@@ -80,6 +80,8 @@ Erfahren Sie, wie Sie HTML aus einer Zeichenkette in C# generieren und mit einem
 
 Erfahren Sie, wie Sie HTML mit Aspose HTMLDocument vollständig speichern können.
 
+### [ZIP-Archiv für HTML erstellen – Vollständige C#‑Anleitung](./create-zip-archive-for-html-complete-c-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

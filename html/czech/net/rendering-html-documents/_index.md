@@ -84,6 +84,8 @@ Naučte se, jak pomocí Aspose.HTML v .NET převést HTML do PNG pomocí podrobn
 
 ### [Jak vykreslit HTML do PNG v C# – krok‑za‑krokem průvodce](./how-to-render-html-to-png-in-c-step-by-step-guide/)
 Kompletní návod, jak pomocí Aspose.HTML v .NET převést HTML do PNG v C# s podrobnými kroky a tipy.
+### [Jak vykreslit HTML jako PNG – krok za krokem](./how-to-render-html-as-png-step-by-step-guide/)
+Kompletní průvodce krok za krokem, jak pomocí Aspose.HTML v .NET převést HTML do PNG formátu.
 
 ### [Jak vykreslit HTML do PNG pomocí Aspose – Kompletní průvodce](./how-to-render-html-to-png-with-aspose-complete-guide/)
 Kompletní návod, jak pomocí Aspose.HTML v .NET převést HTML soubory do PNG s podrobnými kroky a tipy.
@@ -139,6 +141,9 @@ Naučte se, jak vytvořit Memory Stream v C# a pomocí Aspose.HTML vykreslit HTM
 
 ### [Jak povolit antialiasing pro HTML‑to‑PDF v C#](./how-to-enable-antialiasing-for-html-to-pdf-in-c/)
 Naučte se, jak pomocí Aspose.HTML v .NET povolit antialiasing při převodu HTML do PDF pro lepší kvalitu výstupu.
+
+### [Vykreslete HTML do PNG v C# – Rychlý, spolehlivý průvodce](./render-html-to-png-in-c-fast-reliable-guide/)
+Rychlý a spolehlivý návod, jak pomocí Aspose.HTML v .NET převést HTML do PNG v C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

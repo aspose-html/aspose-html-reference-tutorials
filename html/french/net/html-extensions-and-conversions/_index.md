@@ -84,6 +84,8 @@ Apprenez à générer un PDF à partir de HTML en utilisant Aspose, guide comple
 Apprenez à créer un PDF à partir de HTML avec Aspose.HTML, guide complet pas à pas.
 ### [Créer un PDF à partir de HTML – Guide complet C# avec antialiasing](./create-pdf-from-html-full-c-guide-with-antialiasing/)
 Apprenez à créer un PDF à partir de HTML en C# avec antialiasing grâce à ce guide complet étape par étape.
+### [Créer un PDF à partir de HTML en C# – Guide complet étape par étape](./create-pdf-from-html-in-c-full-step-by-step-guide/)
+Guide complet pour créer un PDF à partir de HTML en C# avec Aspose.HTML, incluant exemples de code et meilleures pratiques.
 ### [Convertir EPUB en image dans .NET avec Aspose.HTML](./convert-epub-to-image/)
 Découvrez comment convertir un EPUB en images à l'aide d'Aspose.HTML pour .NET. Tutoriel étape par étape avec des exemples de code et des options personnalisables.
 ### [Convertir EPUB en PDF dans .NET avec Aspose.HTML](./convert-epub-to-pdf/)
@@ -112,6 +114,8 @@ Découvrez comment convertir du HTML en TIFF avec Aspose.HTML pour .NET. Suivez 
 Découvrez la puissance d'Aspose.HTML pour .NET : convertissez facilement du HTML en XPS. Prérequis, guide étape par étape et FAQ inclus.
 ### [Convertir HTML en image en C# – Guide complet](./convert-html-to-image-in-c-complete-guide/)
 Apprenez à convertir du HTML en image en C# avec Aspose.HTML, guide complet pas à pas.
+### [Générer une sortie HTML avec Aspose.HTML – Guide complet C#](./generate-html-output-with-aspose-html-full-c-guide/)
+Apprenez à générer du HTML avec Aspose.HTML en C# grâce à ce guide complet étape par étape.
 ### [Comment zipper du HTML en C# – Enregistrer le HTML dans un zip](./how-to-zip-html-in-c-save-html-to-zip/)
 Apprenez à compresser du HTML en un fichier zip avec C# grâce à notre guide détaillé.
 ### [Comment zipper du HTML en C# – Guide complet](./how-to-zip-html-in-c-complete-guide/)

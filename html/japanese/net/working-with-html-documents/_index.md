@@ -57,6 +57,10 @@ Aspose.HTML を使って C# で HTML ドキュメントをロードし、操作�
 ### [C# で文字列から HTML を作成する – メモリストリームを使用した完全ガイド](./create-html-from-string-in-c-full-guide-with-memory-stream/)
 ### [C# で HTML を保存する完全ステップバイステップガイド](./how-to-save-html-in-c-complete-step-by-step-guide/)
 
+### [HTML の Zip アーカイブを作成する – 完全 C# ガイド](./create-zip-archive-for-html-complete-c-guide/)
+
+C# を使用して HTML コンテンツを Zip アーカイブに圧縮する方法をステップバイステップで解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

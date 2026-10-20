@@ -50,6 +50,7 @@ Ismerje meg, hogyan csomagolhatja be HTML-fájljait ZIP-archívumba C#‑ban, r�
 
 ### [HTML mentése C#-ban – Teljes lépésről‑lépésre útmutató](./how-to-save-html-in-c-complete-step-by-step-guide/)
 ### [Hogyan tegyünk félkövér címet CSS‑el és C#‑val – Teljes lépésről‑lépésre útmutató](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+### [ZIP archívum létrehozása HTML-hez – Teljes C# útmutató](./create-zip-archive-for-html-complete-c-guide/)
 
 ### [HTML mentése C#-ban egy egyéni erőforráskezelővel](./how-to-save-html-in-c-with-custom-resource-handler/)
 ### [HTML mentése ZIP‑ként C#‑ban – Teljes útmutató egy egyéni erőforráskezelővel](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)

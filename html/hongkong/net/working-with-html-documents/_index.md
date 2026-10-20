@@ -61,6 +61,8 @@ HTML 文件是網路的支柱，能夠有效地創建和操作它們對於任何
 
 ### [如何在 C# 中保存 HTML – 完整步驟指南](./how-to-save-html-in-c-complete-step-by-step-guide/)
 
+### [建立 HTML Zip 壓縮檔 – 完整 C# 指南](./create-zip-archive-for-html-complete-c-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -72,6 +72,8 @@ HTML'yi PNG'ye dönüştürmeyi adım adım öğrenin, örnek kodlar ve ipuçlar
 Aspose.HTML for .NET ile HTML dosyalarını PNG formatına dönüştürmeyi adım adım öğrenin.
 ### [C# ile HTML'yi PNG Olarak İşleme – Adım Adım Kılavuz](./how-to-render-html-to-png-in-c-step-by-step-guide/)
 C# kullanarak HTML'yi PNG'ye dönüştürmeyi adım adım öğrenin. Bu kapsamlı rehberde örnek kodlar ve ipuçları bulacaksınız.
+### [HTML'yi PNG Olarak İşleme – Adım Adım Kılavuz](./how-to-render-html-as-png-step-by-step-guide/)
+HTML'yi PNG'ye dönüştürmeyi adım adım öğrenin. Bu kapsamlı rehberde örnek kodlar ve ipuçları bulacaksınız.
 ### [Aspose ile HTML'yi PNG Olarak İşleme – Tam Kılavuz](./how-to-render-html-to-png-with-aspose-complete-guide/)
 Aspose.HTML for .NET kullanarak HTML dosyalarını PNG formatına dönüştürmenin tüm adımlarını öğrenin.
 
@@ -122,6 +124,8 @@ C#'ta bellek akışı oluşturmayı, HTML render etmeyi ve ZIP olarak dışa akt
 HTML içeriğini bellekte PNG'ye dönüştürüp ZIP arşivine eklemeyi adım adım öğrenin. C# ile tam rehber.
 ### [C#'ta HTML'den PDF'ye Dönüştürürken Antialiasing'i Etkinleştirme](./how-to-enable-antialiasing-for-html-to-pdf-in-c/)
 C# kullanarak Aspose.HTML ile HTML'den PDF'ye dönüştürürken antialiasing'i nasıl etkinleştireceğinizi adım adım öğrenin.
+### [C#'ta HTML'yi PNG Olarak İşleme – Hızlı, Güvenilir Kılavuz](./render-html-to-png-in-c-fast-reliable-guide/)
+C# ile HTML'yi hızlı ve güvenilir bir şekilde PNG'ye dönüştürmeyi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

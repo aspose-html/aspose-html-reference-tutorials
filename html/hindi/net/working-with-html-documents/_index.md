@@ -51,6 +51,8 @@ HTML दस्तावेज़ वेब की रीढ़ हैं, और
 
 ### [HTML को सहेजना – Aspose HTMLDocument पूर्ण गाइड](./how-to-save-html-aspose-htmldocument-complete-guide/)
 
+### [HTML के लिए ज़िप आर्काइव बनाना – पूर्ण C# गाइड](./create-zip-archive-for-html-complete-c-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

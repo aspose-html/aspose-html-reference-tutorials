@@ -66,6 +66,7 @@ Leer hoe u een HTML-document laadt met Aspose.HTML in C#, stap voor stap met voo
 ### [Hoe HTML te zippen in C# – Complete stap‑voor‑stap gids](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 
 Leer hoe u HTML-bestanden zipt in C#, stap voor stap met voorbeeldcode.
+### [Zip-archief maken voor HTML – Complete C#-gids](./create-zip-archive-for-html-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

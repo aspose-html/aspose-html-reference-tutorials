@@ -56,6 +56,8 @@ Nyní posuňte vaše dovednosti na další úroveň. Úpravy HTML dokumentů jso
 ### [Jak uložit HTML v C# – Kompletní průvodce krok za krokem](./how-to-save-html-in-c-complete-step-by-step-guide/)
 ### [Jak uložit HTML – Kompletní průvodce Aspose HTMLDocument](./how-to-save-html-aspose-htmldocument-complete-guide/)
 
+### [Vytvořit zip archiv pro HTML – Kompletní průvodce v C#](./create-zip-archive-for-html-complete-c-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

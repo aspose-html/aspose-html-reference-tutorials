@@ -76,14 +76,24 @@ Learn how to create an HTML document in C# and render it to PNG using Aspose.HTM
 Step‑by‑step guide to render HTML pages as JPEG images using Aspose.HTML for .NET, covering setup, options, and best practices.
 ### [Render HTML to PNG and ZIP in Memory – Complete C# Guide](./render-html-to-png-and-zip-in-memory-complete-c-guide/)
 Learn how to render HTML to PNG and package it into a ZIP archive in memory using Aspose.HTML for .NET with C#.
+### [How to Render HTML as PNG – Step‑by‑Step Guide](./how-to-render-html-as-png-step-by-step-guide/)
+Step‑by‑step guide to render HTML as PNG using Aspose.HTML for .NET, covering setup, options, and best practices.
+
+### [Render HTML to PNG in C# – Fast, Reliable Guide](./render-html-to-png-in-c-fast-reliable-guide/)
+Quickly convert HTML to high‑quality PNG images using C# with Aspose.HTML, featuring fast performance and reliable results.
+
 ### [Render EPUB as XPS in .NET with Aspose.HTML](./render-epub-as-xps/)
 Learn how to create and render HTML documents with Aspose.HTML for .NET in this comprehensive tutorial. Dive into the world of HTML manipulation, web scraping, and more.
+
 ### [Rendering Timeout in .NET with Aspose.HTML](./rendering-timeout/)
 Learn how to control rendering timeouts effectively in Aspose.HTML for .NET. Explore rendering options and ensure smooth HTML document rendering.
+
 ### [Render MHTML as XPS in .NET with Aspose.HTML](./render-mhtml-as-xps/)
  Learn to render MHTML as XPS in .NET with Aspose.HTML. Enhance your HTML manipulation skills and boost your web development projects!
+
 ### [Render Multiple Documents in .NET with Aspose.HTML](./render-multiple-documents/)
 Learn to render multiple HTML documents using Aspose.HTML for .NET. Boost your document processing capabilities with this powerful library.
+
 ### [Render SVG Doc as PNG in .NET with Aspose.HTML](./render-svg-doc-as-png/)
 ### [How to Render HTML in C# – Complete Guide to Styling Paragraphs](./how-to-render-html-in-c-complete-guide-to-styling-paragraphs/)
 Learn to style HTML paragraphs in C# using Aspose.HTML. Master formatting, CSS, and rendering techniques in this comprehensive guide!

@@ -74,6 +74,9 @@ url: /th/net/working-with-html-documents/
 ### [สร้าง HTML จากสตริงใน C# – คู่มือฉบับเต็มด้วย Memory Stream](./create-html-from-string-in-c-full-guide-with-memory-stream/)
 เรียนรู้วิธีสร้าง HTML จากสตริงใน C# ด้วย Memory Stream อย่างละเอียดและครบถ้วน
 
+### [สร้างไฟล์ Zip สำหรับ HTML – คู่มือฉบับสมบูรณ์ C#](./create-zip-archive-for-html-complete-c-guide/)
+เรียนรู้วิธีสร้างไฟล์ Zip ที่บรรจุไฟล์ HTML ด้วย C# อย่างละเอียดและครบถ้วน
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

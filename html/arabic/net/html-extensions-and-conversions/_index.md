@@ -72,6 +72,8 @@ url: /ar/net/html-extensions-and-conversions/
 دليل شامل لإنشاء ملفات PDF من مستندات HTML باستخدام Aspose وC# خطوة بخطوة.
 ### [إنشاء PDF من HTML في C# – دليل خطوة بخطوة كامل](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
 دليل شامل لإنشاء ملف PDF من HTML باستخدام C# ومكتبة Aspose.HTML، مع أمثلة وشروحات خطوة بخطوة.
+### [إنشاء PDF من HTML في C# – دليل كامل خطوة بخطوة](./create-pdf-from-html-in-c-full-step-by-step-guide/)
+دليل شامل لإنشاء ملفات PDF من مستندات HTML باستخدام C# ومكتبة Aspose.HTML خطوة بخطوة.
 ### [إنشاء مستند HTML بنص منسق وتصديره إلى PDF – دليل كامل](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 دليل شامل لإنشاء مستند HTML بنص منسق وتصديره إلى PDF باستخدام Aspose.HTML.
 ### [إنشاء PDF من HTML في C# – تضمين الخطوط وتحويل إلى PDF](./create-pdf-from-html-in-c-embed-fonts-convert-to-pdf/)
@@ -199,6 +201,8 @@ url: /ar/net/html-extensions-and-conversions/
 تعلم كيفية ضغط ملفات HTML باستخدام C# ومعالج الموارد المخصص في Aspose.HTML.
 ### [ضغط HTML من DOCX – دليل C# كامل](./how-to-zip-html-from-docx-complete-c-guide/)
 دليل شامل لكيفية ضغط ملفات HTML المستخرجة من مستند DOCX باستخدام C# ومكتبة Aspose.HTML.
+### [إنشاء مخرجات HTML باستخدام Aspose.HTML – دليل كامل بلغة C#](./generate-html-output-with-aspose-html-full-c-guide/)
+دليل شامل لإنشاء ملفات HTML باستخدام Aspose.HTML في C# مع أمثلة خطوة بخطوة.
 
 ## خاتمة
 

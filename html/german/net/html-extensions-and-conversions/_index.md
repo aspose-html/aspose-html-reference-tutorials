@@ -124,6 +124,8 @@ Erstellen Sie PDF aus HTML mit Aspose.HTML für .NET. Folgen Sie unserer Schritt
 Erfahren Sie, wie Sie mit Aspose in C# PDFs aus HTML generieren – vollständige Schritt‑für‑Schritt‑Anleitung.
 ### [HTML‑Dokument in C# erstellen – Schritt‑für‑Schritt‑Anleitung](./create-html-document-c-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET ein HTML‑Dokument in C# erstellen – eine detaillierte Schritt‑für‑Schritt‑Anleitung.
+### [PDF aus HTML in C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-pdf-from-html-in-c-full-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML für .NET PDF aus HTML in C# generieren – vollständige Schritt‑für‑Schritt‑Anleitung.
 ### [HTML als ZIP speichern – Komplettes C#‑Tutorial](./save-html-as-zip-complete-c-tutorial/)
 Erfahren Sie, wie Sie HTML‑Inhalte mit Aspose.HTML für .NET in eine ZIP‑Datei komprimieren und speichern.
 ### [HTML‑Dokument mit formatiertem Text erstellen und in PDF exportieren – Vollständige Anleitung](./create-html-document-with-styled-text-and-export-to-pdf-full/)
@@ -198,6 +200,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML für .NET eine komplette Webseite als ZIP�
 Erfahren Sie, wie Sie HTML‑Inhalte mit Aspose.HTML für .NET in ein ZIP‑Archiv konvertieren – vollständige Schritt‑für‑Schritt‑Anleitung in C#.
 ### [HTML aus DOCX zippen – Vollständiger C#‑Leitfaden](./how-to-zip-html-from-docx-complete-c-guide/)
 Erfahren Sie, wie Sie HTML‑Inhalte aus einer DOCX‑Datei extrahieren und in ein ZIP‑Archiv komprimieren – vollständige C#‑Anleitung.
+### [HTML‑Ausgabe mit Aspose.HTML generieren – Vollständige C#‑Anleitung](./generate-html-output-with-aspose-html-full-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML in C# HTML‑Ausgaben erzeugen und anpassen – Schritt‑für‑Schritt‑Anleitung.
 
 ## Abschluss
 

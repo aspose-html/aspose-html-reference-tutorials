@@ -80,7 +80,6 @@ Aspose.HTML для .NET выделяется как лучший выбор дл
 Узнайте, как полностью настроить рендеринг HTML, используя собственный обработчик ресурсов в Aspose.HTML для .NET.
 ### [Как использовать Aspose для рендеринга HTML в PNG – пошаговое руководство](./how-to-use-aspose-to-render-html-to-png-step-by-step-guide/)
 Подробный пошаговый учебник по использованию Aspose.HTML для конвертации HTML в PNG в .NET.
-
 ### [Как отрендерить HTML в PNG с помощью Aspose – Полное руководство](./how-to-render-html-to-png-with-aspose-complete-guide/)
 Подробный пошаговый учебник по рендерингу HTML в PNG с использованием Aspose.HTML для .NET.
 ### [Как отрендерить HTML в PNG – пошаговое руководство](./how-to-render-html-to-png-step-by-step-guide/)
@@ -137,6 +136,10 @@ Aspose.HTML для .NET выделяется как лучший выбор дл
 Подробное руководство по рендерингу HTML в PNG и упаковке в ZIP в памяти с использованием Aspose.HTML и C#.
 ### [Как включить сглаживание при конвертации HTML‑в‑PDF в C#](./how-to-enable-antialiasing-for-html-to-pdf-in-c/)
 Узнайте, как активировать сглаживание при рендеринге HTML в PDF с помощью Aspose.HTML для .NET в C#.
+### [Как отрендерить HTML в PNG – пошаговое руководство](./how-to-render-html-as-png-step-by-step-guide/)
+Подробный пошаговый учебник по рендерингу HTML в PNG с использованием Aspose.HTML для .NET.
+### [Рендеринг HTML в PNG на C# – Быстрое, надёжное руководство](./render-html-to-png-in-c-fast-reliable-guide/)
+Быстрое и надёжное руководство по конвертации HTML в PNG с помощью Aspose.HTML на C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

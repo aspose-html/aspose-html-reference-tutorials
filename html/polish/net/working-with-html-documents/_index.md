@@ -74,6 +74,8 @@ Dowiedz się, jak w C# wygenerować dokument HTML bezpośrednio z łańcucha zna
 
 Dowiedz się, jak zapisać dokument HTML przy użyciu klasy Aspose.HTMLDocument, krok po kroku, z przykładami kodu.
 
+### [Utworzenie archiwum Zip dla HTML – Kompletny przewodnik C#](./create-zip-archive-for-html-complete-c-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
