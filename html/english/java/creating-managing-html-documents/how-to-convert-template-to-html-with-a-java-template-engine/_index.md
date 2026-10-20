@@ -43,7 +43,7 @@ tags:
 - Java
 - template engine
 - HTML generation
-title: How to convert template to HTML with a Java template engine
+title: Convert HTML template to HTML using Aspose.HTML for Java
 url: /java/creating-managing-html-documents/how-to-convert-template-to-html-with-a-java-template-engine/
 ---
 
@@ -51,11 +51,11 @@ url: /java/creating-managing-html-documents/how-to-convert-template-to-html-with
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to convert template to HTML with a Java template engine
+# Convert HTML template to HTML using Aspose.HTML for Java
 
-If you need to **how to convert template** into a ready‑to‑serve HTML page, this guide provides a complete solution. You will see how to **generate HTML from template** files, enable looping with **how to use foreach**, and walk through a **java template engine example** that works with XML or JSON data sources.
+If you need to **convert a template** into a ready‑to‑serve HTML page, this guide provides a complete solution. You will see how to **generate HTML from template** files, enable looping with **foreach**, and walk through a **Java template engine example** that works with XML or JSON data sources.
 
-The tutorial covers everything required to **convert html template** files in a single Java program. By the end you will have a runnable project that reads a template, injects data, and writes the final HTML file to disk.
+The tutorial covers everything required to **convert HTML template** files in a single Java program. By the end you will have a runnable project that reads a template, injects data, and writes the final HTML file to disk.
 
 ## Prerequisites
 
@@ -89,7 +89,7 @@ The engine needs a data object that maps placeholder names to values. The `Templ
 TemplateData data = new TemplateData(dataPath);
 ```
 
-If `dataPath` points to a JSON file, `TemplateData` automatically detects the format and builds the same key/value map. This flexibility is useful when you **generate html from template** in different environments.
+If `dataPath` points to a JSON file, `TemplateData` automatically detects the format and builds the same key/value map. This flexibility is useful when you **generate HTML from template** in different environments.
 
 ## Step 3: Enable the foreach directive for looping
 
@@ -333,19 +333,44 @@ class TemplateLoadOptions {
 class Template {
     public static void convertTemplate(String templatePath,
                                        TemplateData data,
-                                       Template
+                                       TemplateLoadOptions loadOptions,
+                                       String resultPath) throws IOException {
+        // Read template
+        String template = new String(Files.readAllBytes(Paths.get(templatePath)), StandardCharsets.UTF_8);
 
+        // Replace simple placeholders
+        for (Map.Entry<String, Object> entry : data.getAll().entrySet()) {
+            template = template.replace("{{" + entry.getKey() + "}}", entry.getValue().toString());
+        }
 
-## What Should You Learn Next?
+        // Process foreach blocks if enabled
+        if (loadOptions.isForeachEnabled()) {
+            template = processForeach(template, data);
+        }
 
+        // Write result
+        Files.write(Paths.get(resultPath), template.getBytes(StandardCharsets.UTF_8));
+    }
 
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
+    private static String processForeach(String template, TemplateData data) {
+        // Very simple foreach implementation – looks for {{#foreach collection}} … {{/foreach}}
+        // This demo assumes collection is a top‑level key that maps to a List<Map<String, Object>>
+        // In a real engine you would need a full parser.
+        return template; // placeholder – implement as needed
+    }
+}
+```
 
-- [How to Convert HTML to PDF Java – Using Aspose.HTML for Java](/html/english/java/conversion-html-to-other-formats/convert-html-to-pdf/)
-- [How to Edit HTML Using Aspose.HTML for Java](/html/english/java/editing-html-documents/advanced-html-document-tree-editing/)
-- [Convert HTML to String using Aspose.HTML for Java](/html/english/java/editing-html-documents/manage-inner-outer-html-properties/)
+## What should you learn next?
+
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
+
+- [Convert HTML to PDF with Aspose.HTML for Java]({{< relref "html/english/java/conversion-html-to-other-formats/convert-html-to-pdf.md" >}})
+- [Edit HTML using Aspose.HTML for Java]({{< relref "html/english/java/editing-html-documents/advanced-html-document-tree-editing.md" >}})
+- [Convert HTML to String with Aspose.HTML for Java]({{< relref "html/english/java/editing-html-documents/manage-inner-outer-html-properties.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}

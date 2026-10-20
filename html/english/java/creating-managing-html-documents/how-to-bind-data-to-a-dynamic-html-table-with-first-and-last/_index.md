@@ -31,7 +31,7 @@ tags:
 - data binding
 - html table
 - templating
-title: How to bind data to a dynamic HTML table with first and last name columns
+title: How to bind data to a dynamic HTML table with first and last name columns using Aspose.HTML for Java
 url: /java/creating-managing-html-documents/how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/
 ---
 
@@ -311,7 +311,7 @@ The page renders a table with two rows, each showing the full name and formatted
 You now know **how to bind data** to a **dynamic HTML table**, generate rows for each record, and display first and last name values alongside address
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
@@ -321,6 +321,6 @@ The following tutorials cover closely related topics that build on the technique
 - [How to Enable JavaScript in Aspose HTML – Load HTML & Get Text](/html/english/java/advanced-usage/how-to-enable-javascript-in-aspose-html-load-html-get-text/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}
