@@ -10,7 +10,7 @@ url: /de/java/editing-html-documents/implement-internal-css-html-documents/
 weight: 16
 ---
 
- craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

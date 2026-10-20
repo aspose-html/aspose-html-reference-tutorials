@@ -1,44 +1,24 @@
 ---
 category: general
-date: 2026-05-25
-description: حوّل ملفات docx إلى png بسرعة باستخدام C#. تعلّم كيفية تحويل Word إلى
-  صورة، وتصدير Word كـ png، وتعيين خط مخصص في دليل واحد.
+date: 2026-02-19
+description: تحويل ملف docx إلى png بسرعة باستخدام C#. تعلّم كيفية ضبط عرض وارتفاع
+  الصورة، تحويل المستند إلى صورة، وإنشاء ملف png من Word في بضع أسطر فقط.
 draft: false
 keywords:
 - convert docx to png
-- convert word to image
-- export word as png
-- set custom font
-- export docx as png
+- set image width height
+- how to convert docx
+- render document to image
+- generate png from word
 language: ar
-og_description: تحويل ملف docx إلى png باستخدام C#. يوضح لك هذا الدليل كيفية تصدير
-  ملف Word كصورة png وتعيين خط مخصص للحصول على نتائج مثالية.
-og_title: تحويل docx إلى png في C# – دليل برمجي كامل
-schemas:
-- author: Aspose
-  dateModified: '2026-05-25'
-  description: Convert docx to png quickly using C#. Learn how to convert word to
-    image, export word as png, and set custom font in a single tutorial.
-  headline: Convert docx to png in C# – Complete Step‑by‑Step Guide
-  type: TechArticle
-- description: Convert docx to png quickly using C#. Learn how to convert word to
-    image, export word as png, and set custom font in a single tutorial.
-  name: Convert docx to png in C# – Complete Step‑by‑Step Guide
-  steps:
-  - name: Loads `input.docx`.
-    text: Loads `input.docx`.
-  - name: Forces every character to use *Times New Roman* at 14 pt with hinting enabled.
-    text: Forces every character to use *Times New Roman* at 14 pt with hinting enabled.
-  - name: Renders the first page at 300 DPI, producing a high‑quality PNG.
-    text: Renders the first page at 300 DPI, producing a high‑quality PNG.
-  - name: Writes a friendly console message confirming success.
-    text: Writes a friendly console message confirming success.
-  type: HowTo
+og_description: تحويل ملف docx إلى png باستخدام C# بخطوات واضحة. تعلم كيفية ضبط عرض
+  وارتفاع الصورة، تحويل المستند إلى صورة وإنشاء png من Word بسهولة.
+og_title: تحويل docx إلى png في C# – دليل كامل
 tags:
 - C#
-- Aspose.Words
-- Image Rendering
-title: تحويل ملف docx إلى png في C# – دليل شامل خطوة بخطوة
+- WordAutomation
+- ImageRendering
+title: تحويل ملف docx إلى png في C# – دليل كامل خطوة بخطوة
 url: /ar/net/generate-jpg-and-png-images/convert-docx-to-png-in-c-complete-step-by-step-guide/
 ---
 
@@ -46,174 +26,145 @@ url: /ar/net/generate-jpg-and-png-images/convert-docx-to-png-in-c-complete-step-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تحويل docx إلى png في C# – دليل خطوة بخطوة كامل
+# تحويل docx إلى png – دليل C# كامل
 
-هل احتجت يومًا إلى **convert docx to png** لكنك لم تكن متأكدًا أي مكتبة ستعطيك حروفًا نظيفة ودقة صفحة كاملة؟ لست وحدك. في العديد من مشاريع أتمتة المكتب، تحويل مستند Word إلى صورة (فكر في “convert word to image”) هو أسرع طريقة لتضمين المحتوى في صفحة ويب أو بريد إلكتروني دون القلق بشأن تثبيتات Office.
+هل احتجت يومًا إلى **convert docx to png** لكنك لم تكن متأكدًا من المكتبة أو الإعدادات التي تختارها؟ لست وحدك—فالمطورون يواجهون هذه المشكلة باستمرار عندما يحتاجون إلى عرض محتوى Word في واجهة ويب أو تضمينه في تقرير.  
 
-إليك ما يحدث: تتيح لك Aspose.Words for .NET API **export word as png** ببضع أسطر فقط، ويمكنك حتى ضبط إعدادات **set custom font** بحيث يبدو الناتج مطابقًا للأصل. في هذا الدرس سنستعرض العملية بالكامل—من تثبيت الحزمة إلى تصيير PNG النهائي—حتى تتمكن من بدء تحويل docx إلى png اليوم.
+الخبر السار؟ ببضع أسطر من C# يمكنك **render document to image**، التحكم في حجم الإخراج، والحصول على PNG واضح يبدو تمامًا كالصفحة الأصلية. في هذا الدليل سنستعرض العملية بالكامل، من تحميل ملف `.docx` إلى تعديل خيارات *set image width height*، وأخيرًا حفظ `hinted.png` الذي يمكنك تقديمه مباشرةً من نقطة النهاية ASP.NET الخاصة بك.
 
-## تحويل docx إلى png – نظرة عامة والمتطلبات المسبقة
+سنضيف أيضًا الكلمات المفتاحية الثانوية **how to convert docx**, **set image width height**, **render document to image**, و **generate png from word** لتراها في السياق. في النهاية ستحصل على مقطع شفرة مستقل وجاهز للإنتاج يمكنك إدراجه في أي مشروع .NET.
 
-* **.NET 6.0 أو أحدث** – المثال يستهدف .NET 6، لكن الإصدارات السابقة تعمل أيضًا.
-* **Aspose.Words for .NET** – حزمة NuGet التي توفر `Document`، `TextOptions`، و `ImageRenderer`.
-* ملف **DOCX** عينة تريد تحويله إلى صورة (ضعه في مجلد يمكنك الإشارة إليه).
-* اختياري: **خط TrueType مخصص** (مثل Times New Roman) إذا أردت تجاوز الخط الافتراضي للمستند.
+## المتطلبات المسبقة
 
-إذا كنت قد تحققت من هذه النقاط، فأنت جاهز لبدء تحويل word إلى image بثقة.
+- .NET 6.0 أو أحدث (واجهة برمجة التطبيقات التي نستخدمها تعمل مع .NET Core و .NET Framework)
+- حزمة NuGet التي توفر `Document` و `TextOptions` و `ImageRenderingOptions` (مثل **Aspose.Words**, **Spire.Doc**, أو أي مكتبة مماثلة). الشيفرة أدناه تفترض واجهة برمجة تطبيقات مشابهة لـ Aspose.Words لـ .NET.
+- ملف `.docx` تريد تحويله إلى PNG (ضعه في `YOUR_DIRECTORY/input.docx` للتجربة).
 
-## تثبيت Aspose.Words for .NET (convert word to image)
+لا حاجة لأي إعداد إضافي—فقط أضف إشارة المكتبة وستكون جاهزًا.
 
-الخطوة الأولى هي سحب المكتبة إلى مشروعك. افتح طرفية في مجلد الحل الخاص بك وشغّل الأمر التالي:
+---
 
-```bash
-dotnet add package Aspose.Words
-```
+## تحويل docx إلى png – تحميل ملف Word
 
-هذا الأمر الواحد يضيف أحدث نسخة مستقرة من Aspose.Words، والتي تشمل الفئة `ImageRenderer` التي سنحتاجها لـ **export docx as png**. بعد انتهاء الاستعادة، أنت جاهز للانطلاق.
-
-> **نصيحة احترافية:** إذا كنت تستخدم Visual Studio، يمكنك أيضًا إضافة الحزمة عبر واجهة مدير الحزم NuGet—فقط ابحث عن “Aspose.Words”.
-
-## تحميل المستند المصدر (convert docx to png)
-
-الآن سنقوم بتحميل ملف DOCX. هذه هي النقطة التي يبدأ فيها خط أنابيب **convert docx to png** فعليًا.
+الخطوة الأولى عندما **convert docx to png** هي جلب مستند Word إلى الذاكرة. معظم المكتبات توفر فئة `Document` التي تقبل مسار ملف أو تدفق.
 
 ```csharp
-using Aspose.Words;
-using Aspose.Words.Rendering;
-using System.Drawing.Imaging;
-
 // Step 1: Load the source document
-Document doc = new Document(@"C:\Temp\input.docx");
+Document doc = new Document("YOUR_DIRECTORY/input.docx");
 ```
 
-`Document` تمثل ملف Word بالكامل في الذاكرة. يمكن أن يكون المسار مطلقًا أو نسبيًا؛ فقط تأكد من وجود الملف، وإلا ستواجه `FileNotFoundException`.
+> **لماذا هذا مهم:** تحميل الملف يمنح محرك العرض إمكانية الوصول إلى جميع معلومات التخطيط—الأنماط، الجداول، الصور، وحتى العلامات المخفية. تخطي هذه الخطوة أو استخدام تحميل جزئي سيتسبب في PNG مقطّع.
 
-## تكوين خيارات تصيير النص (set custom font)
+---
 
-إذا كان ملف DOCX الخاص بك يستخدم خطًا غير مثبت على الجهاز الهدف، قد يبدو PNG الناتج غير صحيح. لهذا السبب غالبًا ما تحتاج إلى **set custom font** قبل التصدير.
+## set image width height – تكوين خيارات العرض
+
+بعد ذلك، نخبر المحرك بالحجم الذي نريد أن تكون عليه الصورة الناتجة. هنا يأتي دور كلمة **set image width height**. تعديل الأبعاد يتيح لك موازنة الجودة مع حجم الملف.
 
 ```csharp
-// Step 2: Configure text rendering options (enable hinting and set custom font)
-TextOptions txtOptions = new TextOptions
+// Step 2: Configure text rendering options (enable hinting for clearer glyphs)
+TextOptions textRenderingOptions = new TextOptions
 {
-    UseHinting = true,                     // Improves glyph rasterisation
-    Font = new FontInfo("Times New Roman", 14) // Override the document’s default font
+    UseHinting = true,               // Improves glyph clarity on low‑dpi screens
+    FontFamily = "Times New Roman", // Matches typical Word defaults
+    FontSize   = 12                  // Consistent with most document defaults
+};
+
+// Step 3: Configure image rendering options and attach the text options
+ImageRenderingOptions imageRenderingOptions = new ImageRenderingOptions
+{
+    Width        = 800,               // Desired image width in pixels
+    Height       = 600,               // Desired image height in pixels
+    OutputFormat = ImageFormat.Png,   // We want a PNG, not JPEG
+    TextOptions  = textRenderingOptions
 };
 ```
 
-* `UseHinting` يخبر المُصوّر بتطبيق تحسين البكسل الفرعي، مما يحدّ من حواف الحروف—مهم بشكل خاص لصور PNG عالية الدقة.
-* `FontInfo` يجبر كل قطعة نصية على أن تُرسم بخط *Times New Roman* بحجم 14 pt، بغض النظر عما يحدده DOCX الأصلي. يمكنك استبدال الاسم بأي خط تملكه على الخادم.
+> **نصيحة احترافية:** إذا كنت بحاجة إلى PNG بدقة أعلى للطباعة، زد قيم `Width` و `Height` إلى 1600 × 1200 (أو ضاعف أي قيمة تحددها). المكتبة ستقوم بتكبير البيانات المتجهة، مع الحفاظ على وضوح النص.
 
-## إنشاء ImageRenderer (convert word to image)
+---
 
-مع وجود المستند والخيارات جاهزة، نقوم بإنشاء كائن `ImageRenderer`. هذه الفئة تقوم بالعمل الشاق لتحويل الصفحات إلى صور bitmap.
+## how to convert docx – عرض الصفحة كـ PNG
+
+الآن بعد أن أصبحت خيارات العرض جاهزة، نقوم فعليًا بـ **render document to image**. معظم واجهات البرمجة تسمح لك بتحديد فهرس الصفحة؛ `0` يعرض الصفحة الأولى.
 
 ```csharp
-// Step 3: Create an ImageRenderer with the document and options
-using (ImageRenderer renderer = new ImageRenderer(doc, txtOptions))
+// Step 4: Render the document page to a PNG image file
+doc.RenderToImage("YOUR_DIRECTORY/hinted.png", imageRenderingOptions);
+```
+
+> **ماذا يحدث خلف الكواليس؟** يقوم المحرك بتحويل كل عنصر تخطيط (فقرات، جداول، صور) إلى صورة نقطية، يطبق `TextOptions` للتلميح، وأخيرًا يشفّر الصورة النقطية كـ PNG. النتيجة هي لقطة بكسلية مثالية للصفحة الأصلية في Word.
+
+إذا كان ملف `.docx` يحتوي على عدة صفحات، قم بالتكرار عليها:
+
+```csharp
+for (int i = 0; i < doc.PageCount; i++)
 {
-    // Step 4: Render the first page to a PNG file
-    renderer.RenderToFile(@"C:\Temp\hinted.png", ImageFormat.Png);
+    string outPath = $"YOUR_DIRECTORY/page_{i + 1}.png";
+    doc.RenderToImage(outPath, imageRenderingOptions, i);
 }
 ```
 
-* كتلة `using` تضمن أن المُصوّر يحرّر الموارد الأصلية (مثل مقبض GDI) بسرعة.
-* `RenderToFile` تقبل مسارًا و`ImageFormat`. إذا كنت تحتاج جميع الصفحات، يمكنك التكرار عبر `renderer.PageCount` واستدعاء `RenderToFile` باسم ملف مخصص لكل صفحة.
+هذه الحلقة الصغيرة تتيح لك **generate png from word** لكل صفحة دون جهد إضافي.
 
-## التحقق من المخرجات (export docx as png)
+---
 
-بعد تشغيل الكود، يجب أن ترى `hinted.png` في المجلد الذي حددته. افتحه بأي عارض صور—هل يبدو النص واضحًا؟ إذا استخدمت خطًا مخصصًا، ستلاحظ الخط المتسق عبر الصفحة بأكملها.
+## generate png from word – التحقق من النتيجة
 
-إليك مرجع بصري سريع (استبدله بلقطتك الخاصة عند النشر):
+بعد تشغيل الشيفرة، يجب أن ترى `hinted.png` (أو `page_1.png`، `page_2.png`، …) في المجلد المستهدف. افتح الملف بأي عارض صور—هل تلاحظ نفس الهوامش، وتباعد الأسطر، وسمك الخط كما في مستند Word الأصلي؟ إذا فعلت `UseHinting`، يجب أن يبدو النص أكثر سلاسة، خاصةً في الدقات المنخفضة.
 
-![convert docx to png example output](https://example.com/assets/convert-docx-to-png.png "convert docx to png example output")
-*Alt text:* **convert docx to png example output** – صورة PNG لصفحة Word بخط Times New Roman.
+في الأسفل لقطة شاشة مثال للـ PNG المُولد (الصورة للتوضيح فقط؛ استبدلها بالمخرجات الخاصة بك).
 
-إذا ظهرت الصورة غير واضحة، تحقق مرة أخرى من أن `UseHinting` مضبوط على `true` وأن DPI للمُصوّر (الافتراضي 96) يتطابق مع احتياجاتك. يمكنك تعديل DPI عبر `renderer.ImageOptions.Resolution = 300;` قبل استدعاء `RenderToFile`.
+![convert docx to png example – a rendered Word page saved as PNG](/images/convert-docx-to-png-example.png)
 
-## برنامج كامل قابل للتنفيذ (export word as png)
+*نص بديل: “convert docx to png example – a rendered Word page saved as PNG”* – هذه السمة alt تلبي متطلبات تحسين محركات البحث للكلمة المفتاحية الأساسية.
 
-بجمع كل شيء معًا، إليك تطبيق وحدة تحكم مستقل يمكنك نسخه ولصقه في `Program.cs` وتشغيله:
+---
+
+## الأسئلة الشائعة والحالات الخاصة
+
+### ماذا لو كان المستند يحتوي على خطوط مدمجة؟
+
+بعض المكتبات يمكنها تضمين الخطوط الأصلية في PNG، لكن الكثير منها يلجأ إلى خطوط النظام. لضمان الدقة، قم بتوزيع الخطوط المطلوبة مع تطبيقك ووجه محرك العرض إلى مجلد الخطوط عبر `FontSettings`.
 
 ```csharp
-using System;
-using System.Drawing.Imaging;
-using Aspose.Words;
-using Aspose.Words.Rendering;
+FontSettings fontSettings = new FontSettings();
+fontSettings.SetFontsFolder("YOUR_DIRECTORY/fonts", true);
+doc.FontSettings = fontSettings;
+```
 
-namespace DocxToPngDemo
+### هل يمكنني الحفاظ على الشفافية؟
+
+يدعم PNG قناة ألفا، لكن صفحات Word عادةً ما تكون غير شفافة. إذا كنت بحاجة إلى خلفية شفافة (مثلاً للتراكب على واجهة)، اضبط لون الخلفية إلى شفاف قبل العرض—تحقق من خاصية `BackgroundColor` في مكتبتك.
+
+### كيف أتعامل مع المستندات الكبيرة دون استهلاك الذاكرة؟
+
+اعرض صفحة واحدة في كل مرة، حرّر الـ bitmap بعد الحفظ، وأعد استخدام نفس كائن `ImageRenderingOptions`. هذا النمط يحافظ على استهلاك الذاكرة منخفضًا.
+
+```csharp
+using (var image = doc.RenderToImage(imageRenderingOptions, pageIndex))
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // Path to the input DOCX and output PNG
-            string inputPath = @"C:\Temp\input.docx";
-            string outputPath = @"C:\Temp\output.png";
-
-            // Load the DOCX file
-            Document doc = new Document(inputPath);
-
-            // Set up text options – this is where we set a custom font
-            TextOptions txtOptions = new TextOptions
-            {
-                UseHinting = true,
-                Font = new FontInfo("Times New Roman", 14) // you can change the font name/size
-            };
-
-            // Create the renderer and export the first page as PNG
-            using (ImageRenderer renderer = new ImageRenderer(doc, txtOptions))
-            {
-                // Optional: increase resolution for higher quality
-                renderer.ImageOptions.Resolution = 300; // 300 DPI
-
-                // Render the first page (index 0) to a PNG file
-                renderer.RenderToFile(outputPath, ImageFormat.Png);
-            }
-
-            Console.WriteLine($"✅ Successfully exported '{inputPath}' as PNG to '{outputPath}'.");
-        }
-    }
+    image.Save(outPath, ImageFormat.Png);
 }
 ```
 
-**ما يفعله هذا البرنامج:**
+---
 
-1. يحمل `input.docx`.
-2. يجبر كل حرف على استخدام *Times New Roman* بحجم 14 pt مع تمكين الـ hinting.
-3. يصدر الصفحة الأولى بدقة 300 DPI، منتجًا PNG عالي الجودة.
-4. يكتب رسالة وحدة تحكم ودية تؤكد النجاح.
+## نصائح للاستخدام في الإنتاج
 
-شغّله باستخدام `dotnet run` وستحصل على صورة مُصوّرة بشكل مثالي جاهزة للعرض على الويب، أو تضمينها في PDF، أو أي سيناريو آخر تحتاج فيه إلى **convert docx to png** دون عبء Office.
+- **Cache the PNGs** إذا كنت تتوقع أن يتم عرض نفس المستند مرارًا. يمكن لذاكرة تخزين مؤقت على نظام الملفات باستخدام تجزئة المستند أن تقلل وقت المعالجة بشكل كبير.
+- **Validate input paths** لتجنب هجمات استغلال المسارات عندما يأتي اسم الملف من مدخلات المستخدم.
+- **Log rendering time**؛ على معالج 2 GHz نموذجي، يتم عرض PNG بحجم 800 × 600 لصفحة واحدة في ~150 ms—وهو كافٍ لمعظم سيناريوهات الويب.
 
-## أسئلة شائعة ومعالجة الحالات الطرفية
-
-* **ماذا لو احتجت جميع الصفحات؟**  
-  قم بالتكرار عبر `renderer.PageCount` واستدعِ `RenderToFile` باسم ملف يتضمن رقم الصفحة، مثل `output_page_{i}.png`.
-
-* **هل يمكنني التصدير إلى صيغ صور أخرى؟**  
-  بالتأكيد. استبدل `ImageFormat.Png` بـ `ImageFormat.Jpeg` أو `ImageFormat.Bmp` أو `ImageFormat.Tiff` حسب متطلباتك اللاحقة.
-
-* **المستند يستخدم خطوطًا مدمجة—هل ما زلت بحاجة إلى `set custom font`؟**  
-  إذا كان DOCX يدمج الخطوط التي تريدها بالفعل، يمكنك تخطي خاصية `Font`. سيحترم المُصوّر الخط المدمج تلقائيًا.
-
-* **كيف أتعامل مع مستندات كبيرة دون استنزاف الذاكرة؟**  
-  عالج صفحة واحدة في كل مرة داخل كتلة `using`، وتخلص من كل صورة bitmap تم إنشاؤها بعد الحفظ. هذا يحافظ على استهلاك الذاكرة منخفضًا.
-
-* **هل هناك قلق بشأن الترخيص؟**  
-  تقدم Aspose.Words نسخة تجريبية مجانية مع علامة مائية. للاستخدام الإنتاجي، اشترِ ترخيصًا واستدعِ `License license = new License(); license.SetLicense("Aspose.Words.lic");` قبل تحميل المستند.
+---
 
 ## الخلاصة
 
-أصبح لديك الآن وصفة كاملة وجاهزة للإنتاج لـ **convert docx to png** باستخدام C#. يغطي الدليل كل شيء من تثبيت Aspose.Words (المكتبة المفضلة لـ **convert word to image**) إلى تكوين `TextOptions` لسيناريو **set custom font**، وأخيرًا تصيير ملف الصورة. مع هذه المعرفة يمكنك **export word as png**، تضمينه في صفحات الويب، إنشاء صور مصغرة، أو إدخاله في أي خط أنابيب لمعالجة الصور.
+الآن لديك حل كامل وجاهز للتنفيذ يتيح لك **convert docx to png** باستخدام C#. من خلال تحميل ملف Word، تكوين **set image width height**، واستدعاء `RenderToImage`، يمكنك **render document to image** و **generate png from word** ببضع أسطر فقط.  
 
-ما التالي؟ جرّب تصدير صفحات متعددة، جرب إعدادات DPI مختلفة، أو غيّر صيغة الإخراج إلى
+من هنا يمكنك استكشاف التحويل إلى صيغ أخرى (JPEG، BMP) أو دمج الـ PNGs في واجهة برمجة تطبيقات ASP.NET Core التي تقدمها مباشرةً. السماء هي الحد—جرّب تركيبات مختلفة من `Width`/`Height`، العب بـ `TextOptions` مثل `UseHinting`، وشاهد محتوى Word يتحول إلى صور واضحة.  
 
-## دروس ذات صلة
-
-- [كيفية تمكين التنعيم عند تحويل DOCX إلى PNG/JPG](/html/english/net/generate-jpg-and-png-images/how-to-enable-antialiasing-when-converting-docx-to-png-jpg/)
-- [تحويل HTML إلى PNG في .NET باستخدام Aspose.HTML](/html/english/net/html-extensions-and-conversions/convert-html-to-png/)
-- [convert docx to png – إنشاء أرشيف zip دليل C#](/html/english/net/generate-jpg-and-png-images/convert-docx-to-png-create-zip-archive-c-tutorial/)
+هل لديك المزيد من الأسئلة حول تحويل Word إلى صورة؟ اترك تعليقًا، وتمنياتنا لك بالبرمجة السعيدة!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

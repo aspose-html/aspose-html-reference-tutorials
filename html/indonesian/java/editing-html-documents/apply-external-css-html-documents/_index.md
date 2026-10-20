@@ -9,15 +9,11 @@ url: /id/java/editing-html-documents/apply-external-css-html-documents/
 weight: 12
 ---
 
-Translate all sentences.
 
-Let's do translation.
 
-I'll write Indonesian.
 
-Be careful with bullet lists.
 
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
