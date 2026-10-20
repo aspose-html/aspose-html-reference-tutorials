@@ -85,6 +85,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML für .NET ein HTML-Dokument in C# erstelle
 Erfahren Sie, wie Sie HTML mit Aspose.HTML für .NET in PNG konvertieren – ein detaillierter Schritt‑für‑Schritt‑Leitfaden für C#.
 ### [HTML in PNG und ZIP im Speicher rendern – Vollständiger C#‑Leitfaden](./render-html-to-png-and-zip-in-memory-complete-c-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in PNG konvertieren und gleichzeitig ein ZIP‑Archiv im Speicher erstellen – vollständige Anleitung.
+### [HTML-Dokument erstellen und HTML zu PNG rendern – Vollständiger C#‑Leitfaden](./create-html-document-and-render-html-to-png-full-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML ein HTML‑Dokument erstellen und es in ein PNG‑Bild rendern – vollständige C#‑Anleitung.
 
 ### [Rendern Sie EPUB als XPS in .NET mit Aspose.HTML](./render-epub-as-xps/)
 Erfahren Sie in diesem umfassenden Tutorial, wie Sie mit Aspose.HTML für .NET HTML‑Dokumente erstellen und rendern. Tauchen Sie ein in die Welt der HTML‑Manipulation, des Web Scraping und mehr.

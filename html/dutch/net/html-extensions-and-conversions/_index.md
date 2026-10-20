@@ -58,6 +58,8 @@ Leer hoe u met Aspose.HTML voor .NET PDF's maakt vanuit HTML met antialiasing in
 Leer stap‑voor‑stap hoe u HTML naar PDF converteert in C# met Aspose, inclusief codevoorbeelden en configuratie‑opties.
 ### [HTML renderen naar PDF in C# – Volledige gids met paginagrootte en anti‑aliasing](./render-html-to-pdf-in-c-full-guide-with-page-size-anti-alias/)
 Leer stap voor stap HTML naar PDF te renderen in C# met controle over paginagrootte en anti‑aliasing voor scherpe output.
+### [HTML naar PDF converteren met Aspose – Stapsgewijze handleiding](./convert-html-to-pdf-with-aspose-step-by-step-guide/)
+Converteer moeiteloos HTML naar PDF met Aspose. Volg onze stapsgewijze handleiding voor een eenvoudige en krachtige conversie.
 ### [Converteer EPUB naar afbeelding in .NET met Aspose.HTML](./convert-epub-to-image/)
 Leer hoe u EPUB naar afbeeldingen converteert met Aspose.HTML voor .NET. Stapsgewijze tutorial met codevoorbeelden en aanpasbare opties.
 ### [Converteer EPUB naar PDF in .NET met Aspose.HTML](./convert-epub-to-pdf/)
@@ -141,8 +143,6 @@ Leer hoe u met Aspose.HTML voor .NET een PDF maakt van HTML in C# met een volled
 ### [Maak PDF van HTML in C# – Volledige stapsgewijze handleiding](./create-pdf-from-html-in-c-full-step-by-step-guide/)
 Volledige C#‑stapsgewijze handleiding om PDF's te genereren vanuit HTML met Aspose.HTML voor .NET.
 ### [HTML opslaan als ZIP – Complete C#-tutorial](./save-html-as-zip-complete-c-tutorial/)
-### [HTML opslaan als ZIP – Complete gids](./save-html-as-zip-in-c-complete-guide/)
-
 ### [Maak zip‑archief in C# – Converteer HTML naar ZIP met ingesloten afbeeldingen](./create-zip-archive-in-c-convert-html-to-zip-with-embedded-im/)
 Leer hoe u met C# een ZIP‑archief maakt waarin HTML‑bestanden en ingesloten afbeeldingen worden opgeslagen.
 ### [HTML opslaan naar ZIP in C# – Volledig In‑Memory voorbeeld](./save-html-to-zip-in-c-complete-in-memory-example/)
@@ -198,6 +198,8 @@ Leer hoe u HTML-bestanden comprimeert en opslaat als ZIP-bestand met een volledi
 Leer hoe u HTML-bestanden uit een DOCX-pakket comprimeert en opslaat als ZIP met een volledige C#‑stapsgewijze handleiding.
 ### [Genereer HTML-uitvoer met Aspose.HTML – Volledige C#-gids](./generate-html-output-with-aspose-html-full-c-guide/)
 Leer hoe u met Aspose.HTML volledige HTML-uitvoer genereert in C# met deze stapsgewijze handleiding.
+### [HTML opslaan als ZIP in C# – Complete gids](./save-html-as-zip-in-c-complete-guide/)
+Leer hoe u HTML opslaat als ZIP-bestand in C# met Aspose.HTML voor .NET – een volledige stap‑voor‑stap gids.
 
 ## Conclusie
 

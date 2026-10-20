@@ -42,8 +42,6 @@ Teraz, gdy masz już skonfigurowany Aspose.HTML dla .NET, czas zapoznać się z 
 
 ### [Renderuj HTML jako PNG w .NET za pomocą Aspose.HTML](./render-html-as-png/)
 Naucz się pracować z Aspose.HTML dla .NET: Manipuluj HTML, konwertuj do różnych formatów i nie tylko. Zanurz się w tym kompleksowym samouczku!
-### [Renderuj HTML do PNG w C# – Kompletny przewodnik krok po kroku](./render-html-to-png-in-c-complete-step-by-step-guide/)
-Naucz się renderować HTML do PNG w C# w pełnym przewodniku krok po kroku.
 ### [Renderuj HTML do PNG i zapisz do ZIP w C# – Kompletny przewodnik](./render-html-to-png-and-save-to-zip-with-c-complete-guide/)
 Naucz się, jak przy użyciu Aspose.HTML w C# renderować HTML do PNG i zapisywać wyniki w archiwum ZIP.
 
@@ -84,6 +82,8 @@ Kompletny przewodnik w C# pokazujący, jak przy użyciu Aspose.HTML renderować 
 Pełny przewodnik C# pokazujący, jak w pamięci renderować HTML do PNG oraz spakować wynik do pliku ZIP.
 ### [Renderowanie HTML do PNG w C# – Szybki, niezawodny przewodnik](./render-html-to-png-in-c-fast-reliable-guide/)
 Szybki i niezawodny przewodnik pokazujący, jak przy użyciu Aspose.HTML renderować HTML do PNG w C#.
+### [Renderowanie HTML do PNG w C# – Kompletny przewodnik krok po kroku](./render-html-to-png-in-c-complete-step-by-step-guide/)
+Pełny przewodnik w C#, pokazujący, jak przy użyciu Aspose.HTML renderować HTML do PNG, krok po kroku.
 
 ### [Renderuj EPUB jako XPS w .NET za pomocą Aspose.HTML](./render-epub-as-xps/)
 Dowiedz się, jak tworzyć i renderować dokumenty HTML za pomocą Aspose.HTML dla .NET w tym kompleksowym samouczku. Zanurz się w świecie manipulacji HTML, web scrapingu i nie tylko.
@@ -135,6 +135,8 @@ Pełny przewodnik C# pokazujący, jak przy użyciu Aspose.HTML konwertować HTML
 Dowiedz się, jak w C# utworzyć strumień pamięci, renderować HTML i zapisywać wynik jako plik ZIP w kilku prostych krokach.
 ### [Jak włączyć antyaliasing przy konwersji HTML‑do‑PDF w C#](./how-to-enable-antialiasing-for-html-to-pdf-in-c/)
 Dowiedz się, jak w C# włączyć antyaliasing przy konwersji HTML do PDF przy użyciu Aspose.HTML.
+### [Utwórz dokument HTML i renderuj HTML do PNG – Pełny przewodnik C#](./create-html-document-and-render-html-to-png-full-c-guide/)
+Kompletny przewodnik w C#, jak stworzyć dokument HTML i przekształcić go w obraz PNG przy użyciu Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

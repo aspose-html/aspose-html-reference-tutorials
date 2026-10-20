@@ -51,6 +51,8 @@ Lépésről‑lépésre útmutató a HTML PDF‑re konvertálásához C#‑ban, 
 Fedezze fel, hogyan konvertálhatja a HTML-t PDF-be C#‑ban az Aspose.HTML segítségével – részletes útmutató és tippek.
 ### [HTML konvertálása PDF-be C#-ban az Aspose.HTML-lel – Teljes útmutató](./convert-html-to-pdf-in-c-with-aspose-complete-guide/)
 Lépésről‑lépésre útmutató a HTML PDF-be konvertálásához C#-ban az Aspose.HTML használatával.
+### [HTML konvertálása PDF-be Aspose‑szal – Lépésről‑lépésre útmutató](./convert-html-to-pdf-with-aspose-step-by-step-guide/)
+Ismerje meg, hogyan konvertálhatja a HTML-t PDF-be az Aspose használatával, részletes, lépésről‑lépésre útmutatóval.
 ### [Az Aspose.HTML segítségével EPUB-t konvertáljon képpé .NET-ben](./convert-epub-to-image/)
 ### [Konvertálja az EPUB-t PDF-be .NET-ben az Aspose.HTML segítségével](./convert-epub-to-pdf/)
 ### [Konvertálja az EPUB-t XPS-re .NET-ben az Aspose.HTML segítségével](./convert-epub-to-xps/)

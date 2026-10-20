@@ -116,6 +116,8 @@ Ismerje meg, hogyan konvertálhatja a HTML-t JPEG képpé az Aspose.HTML segíts
 Ismerje meg, hogyan hozhat létre memóriafolyamot C#-ban, renderelhet HTML-t és exportálhat ZIP-archívumba az Aspose.HTML segítségével.
 ### [Hogyan engedélyezzük az antialiasingot HTML‑PDF konvertálásához C#‑ban](./how-to-enable-antialiasing-for-html-to-pdf-in-c/)
 Tanulja meg, hogyan állíthatja be az antialiasingot az Aspose.HTML for .NET HTML‑PDF konvertálás során C#‑ban.
+### [HTML dokumentum létrehozása és renderelése PNG‑ként – Teljes C# útmutató](./create-html-document-and-render-html-to-png-full-c-guide/)
+Tanulja meg, hogyan hozhat létre HTML dokumentumot, és renderelheti PNG‑be C#‑ban az Aspose.HTML segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

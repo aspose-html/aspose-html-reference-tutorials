@@ -115,6 +115,8 @@ C# में Word दस्तावेज़ को PNG छवि में ब
 C# में Aspose.HTML का उपयोग करके HTML को PNG में बदलने की पूरी प्रक्रिया सीखें।
 ### [HTML से PNG बनाएं – पूर्ण C# गाइड](./create-png-from-html-complete-c-guide/)
 HTML को PNG में बदलने के लिए C# में पूर्ण चरण-दर-चरण मार्गदर्शिका।
+### [HTML को स्टाइल करें और PNG के रूप में रेंडर करें – पूर्ण C# गाइड](./how-to-style-html-and-render-it-as-png-complete-c-guide/)
+HTML को स्टाइल करके PNG में बदलने के लिए C# में पूर्ण चरण-दर-चरण मार्गदर्शिका।
 
 ## निष्कर्ष
 

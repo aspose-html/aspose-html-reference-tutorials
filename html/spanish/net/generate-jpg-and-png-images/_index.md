@@ -109,6 +109,8 @@ Aprenda a crear imágenes PNG a partir de documentos Word usando C# y Aspose.HTM
 Aprenda a generar archivos PNG desde HTML con una guía paso a paso para desarrolladores C# usando Aspose.HTML.
 ### [Crear PNG a partir de HTML – Guía completa en C#](./create-png-from-html-complete-c-guide/)
 Aprenda a generar archivos PNG desde HTML con una guía completa paso a paso en C# usando Aspose.HTML.
+### [Cómo estilizar HTML y renderizarlo como PNG – Guía completa en C#](./how-to-style-html-and-render-it-as-png-complete-c-guide/)
+Aprenda a aplicar estilos CSS a HTML y generar imágenes PNG usando Aspose.HTML en C# paso a paso.
 
 ## Conclusión
 

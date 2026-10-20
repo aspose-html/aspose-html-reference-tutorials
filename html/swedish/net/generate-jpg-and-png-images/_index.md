@@ -112,6 +112,8 @@ Lär dig hur du skapar en bild från HTML med Aspose.HTML i en komplett steg‑f
 Lär dig hur du konverterar Word-dokument till PNG-bilder med C# i Aspose.HTML, steg för steg.
 ### [Skapa PNG från HTML – steg‑för‑steg‑guide för C#‑utvecklare](./create-png-from-html-step-by-step-guide-for-c-developers/)
 Lär dig hur du skapar PNG‑bilder från HTML med en steg‑för‑steg‑guide för C#‑utvecklare.
+### [Hur du stylar HTML och renderar det som PNG – Komplett C#-guide](./how-to-style-html-and-render-it-as-png-complete-c-guide/)
+Lär dig hur du stylar HTML och renderar det till PNG med en komplett C#-guide.
 
 ## Slutsats
 

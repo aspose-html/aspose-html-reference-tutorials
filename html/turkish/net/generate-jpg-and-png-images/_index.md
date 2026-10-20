@@ -113,6 +113,8 @@ C# kullanarak Word belgelerinden PNG resimleri oluşturmayı adım adım öğren
 HTML içeriğini PNG formatına dönüştürmek için C# geliştiricilerine yönelik adım adım bir eğitim.
 ### [HTML'den PNG Oluşturma – Tam C# Rehberi](./create-png-from-html-complete-c-guide/)
 Aspose.HTML for .NET ile HTML'den PNG resimlerine dönüştürmeyi adım adım öğrenin, kod örnekleri ve ayarlarla tam bir C# rehberi.
+### [HTML'yi Stilize Etme ve PNG Olarak Render Etme – Tam C# Rehberi](./how-to-style-html-and-render-it-as-png-complete-c-guide/)
+HTML'yi stilize edip PNG olarak render etmek için C# ile adım adım rehber.
 
 ## Çözüm
 

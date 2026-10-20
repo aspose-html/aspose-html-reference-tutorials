@@ -113,6 +113,8 @@ C#을 사용해 Word 문서를 PNG 이미지로 변환하는 방법을 단계별
 C#을 사용해 HTML을 PNG 이미지로 변환하는 방법을 단계별로 안내합니다.
 ### [HTML에서 PNG 만들기 – 완전한 C# 가이드](./create-png-from-html-complete-c-guide/)
 C#을 사용해 HTML을 PNG 이미지로 변환하는 전체 단계별 가이드.
+### [HTML을 스타일링하고 PNG로 렌더링하는 방법 – 완전 C# 가이드](./how-to-style-html-and-render-it-as-png-complete-c-guide/)
+C#을 사용해 HTML을 스타일링하고 PNG 이미지로 렌더링하는 전체 가이드를 제공합니다.
 
 ## 결론
 

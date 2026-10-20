@@ -61,6 +61,9 @@ C# में Aspose का उपयोग करके HTML को PDF मे�
 ### [C# में HTML से PDF बनाएं – फ़ॉन्ट एम्बेड करें और PDF में बदलें](./create-pdf-from-html-in-c-embed-fonts-convert-to-pdf/)
 C# में Aspose.HTML से HTML को PDF में बदलें, फ़ॉन्ट एम्बेड करके सटीक लेआउट और स्वरूप सुनिश्चित करें।
 
+### [Aspose के साथ HTML को PDF में बदलें – चरण‑दर‑चरण गाइड](./convert-html-to-pdf-with-aspose-step-by-step-guide/)
+Aspose.HTML का उपयोग करके HTML को PDF में बदलने के चरण‑दर‑चरण निर्देश।
+
 ### [HTML से PDF बनाएं – C# चरण‑दर‑चरण गाइड](./create-pdf-from-html-c-step-by-step-guide/)
 ### [Aspose के साथ HTML से PDF बनाएं – चरण‑दर‑चरण गाइड](./create-pdf-from-html-with-aspose-step-by-step-guide/)
 C# में Aspose.HTML का उपयोग करके HTML को PDF में बदलने के विस्तृत चरण‑दर‑चरण मार्गदर्शन।
@@ -202,9 +205,6 @@ C# में कस्टम रिसोर्स हैंडलर का उ
 ### [C# में HTML को ZIP करने का तरीका – HTML लोड करें और कस्टम हैंडलर का उपयोग करें](./how-to-zip-html-in-c-load-html-use-custom-handler/)
 C# में कस्टम रिसोर्स हैंडलर का उपयोग करके HTML को लोड करके ZIP फ़ाइल में सहेजने की चरण‑दर‑स्टेप गाइड।
 
-### [C# में HTML को ZIP के रूप में सहेजें – पूर्ण गाइड](./save-html-as-zip-in-c-complete-guide/)
-C# में Aspose.HTML का उपयोग करके HTML को ZIP फ़ाइल में सहेजने की पूरी मार्गदर्शिका। चरण‑दर‑चरण कोड उदाहरण और सेटिंग्स।
-
 ### [C# में HTML को PDF के रूप में सहेजें – फ़ॉन्ट्स के साथ पूर्ण गाइड](./save-html-as-pdf-in-c-complete-guide-with-fonts/)
 C# में Aspose.HTML का उपयोग करके फ़ॉन्ट्स को नियंत्रित करते हुए HTML को PDF में बदलने की पूरी मार्गदर्शिका।
 
@@ -252,6 +252,9 @@ C# में कस्टम रिसोर्स हैंडलर का उ
 
 ### [Aspose.HTML के साथ HTML आउटपुट जेनरेट करें – पूर्ण C# गाइड](./generate-html-output-with-aspose-html-full-c-guide/)
 C# में Aspose.HTML का उपयोग करके HTML आउटपुट जेनरेट करने के चरण‑दर‑चरण मार्गदर्शन।
+
+### [C# में HTML को ZIP के रूप में सहेजें – पूर्ण गाइड](./save-html-as-zip-in-c-complete-guide/)
+C# में Aspose.HTML का उपयोग करके HTML को ZIP फ़ाइल में सहेजने की पूरी गाइड, चरण‑दर‑चरण निर्देश और कोड उदाहरण।
 
 ## निष्कर्ष
 

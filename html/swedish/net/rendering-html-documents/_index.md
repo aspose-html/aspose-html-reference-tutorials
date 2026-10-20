@@ -75,8 +75,6 @@ Lås upp kraften i Aspose.HTML för .NET! Lär dig hur du renderar SVG-dokument 
 ### [Rendera HTML i C# – Komplett guide för att formatera stycken](./how-to-render-html-in-c-complete-guide-to-styling-paragraphs/)
 Lär dig att rendera HTML i C# med stilfulla styckeformat. En komplett guide för att anpassa och förbättra dina HTML-paragrafer.
 
-### [Rendera HTML till PNG i C# – Komplett steg‑för‑steg‑guide](./render-html-to-png-in-c-complete-step-by-step-guide/)
-Lär dig hur du konverterar HTML till PNG i C# med en komplett steg‑för‑steg‑guide.
 ### [Hur man renderar HTML – Komplett guide med anpassad resurs‑hanterare](./how-to-render-html-complete-guide-with-custom-resource-handl/)
 Lär dig att rendera HTML med en anpassad resurs‑hanterare i Aspose.HTML för .NET. Steg‑för‑steg‑exempel och bästa praxis.
 ### [Hur man använder Aspose för att rendera HTML till PNG – Steg‑för‑steg‑guide](./how-to-use-aspose-to-render-html-to-png-step-by-step-guide/)
@@ -123,6 +121,10 @@ Lär dig hur du skapar en minnesström i C#, renderar HTML och exporterar till Z
 Lär dig hur du med Aspose.HTML för .NET renderar HTML till PNG och packar resultatet i en ZIP-fil helt i minnet med C#.
 ### [Hur du aktiverar kantutjämning för HTML‑till‑PDF i C#](./how-to-enable-antialiasing-for-html-to-pdf-in-c/)
 Lär dig hur du med Aspose.HTML för .NET aktiverar kantutjämning när du konverterar HTML till PDF i C#.
+### [Rendera HTML till PNG i C# – Komplett steg‑för‑steg‑guide](./render-html-to-png-in-c-complete-step-by-step-guide/)
+Lär dig hur du steg för steg renderar HTML till PNG i C# med Aspose.HTML i en komplett guide.
+### [Skapa HTML-dokument och rendera HTML till PNG – Fullständig C#-guide](./create-html-document-and-render-html-to-png-full-c-guide/)
+Lär dig steg för steg hur du skapar ett HTML-dokument och renderar det till PNG med Aspose.HTML i C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

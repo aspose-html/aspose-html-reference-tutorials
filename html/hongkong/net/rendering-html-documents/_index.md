@@ -42,9 +42,6 @@ Aspose.HTML for .NET 因其豐富的功能、優秀的文件和活躍的社群�
 
 ### [使用 Aspose.HTML 在 .NET 中將 HTML 渲染為 PNG](./render-html-as-png/)
 學習使用 Aspose.HTML for .NET：操作 HTML、轉換為各種格式等等。深入學習這個綜合教學！
-### [在 C# 中將 HTML 渲染為 PNG – 完整步驟指南](./render-html-to-png-in-c-complete-step-by-step-guide/)
-學習如何在 C# 使用 Aspose.HTML 將 HTML 轉換為 PNG，提供完整的逐步教學與範例。
-
 ### [如何將 HTML 渲染為 PNG – 完整逐步指南](./how-to-render-html-to-png-complete-step-by-step-guide/)
 學習使用 Aspose.HTML for .NET 將 HTML 渲染為 PNG，提供完整的逐步教學與實用技巧。
 ### [使用 Aspose.HTML 建立 HTML 文件（C#） – 渲染為 PNG](./create-html-document-c-render-to-png-with-aspose-html/)
@@ -69,6 +66,9 @@ Aspose.HTML for .NET 因其豐富的功能、優秀的文件和活躍的社群�
 
 ### [如何在 C# 中將 HTML 渲染為 PNG 時啟用抗鋸齒](./how-to-enable-antialiasing-when-rendering-html-to-png-in-c/)
 學習在 C# 使用 Aspose.HTML for .NET 渲染 HTML 為 PNG 時啟用抗鋸齒，以提升圖像品質。
+
+### [建立 HTML 文件並將 HTML 渲染為 PNG – 完整 C# 指南](./create-html-document-and-render-html-to-png-full-c-guide/)
+學習使用 Aspose.HTML for .NET 在 C# 中建立 HTML 文件並將其渲染為 PNG，涵蓋完整步驟與最佳實踐。
 
 ### [使用 Aspose.HTML 在 .NET 中將 EPUB 渲染為 XPS](./render-epub-as-xps/)
 在這個綜合教學中了解如何使用 Aspose.HTML for .NET 建立和渲染 HTML 文件。深入了解 HTML 操作、網頁抓取等領域。
@@ -147,6 +147,9 @@ Aspose.HTML for .NET 因其豐富的功能、優秀的文件和活躍的社群�
 
 ### [如何在 C# 中為 HTML 轉 PDF 啟用抗鋸齒](./how-to-enable-antialiasing-for-html-to-pdf-in-c/)
 學習在 C# 中使用 Aspose.HTML for .NET 為 HTML 轉 PDF 時啟用抗鋸齒，以提升輸出品質。
+
+### [在 C# 中將 HTML 渲染為 PNG – 完整步驟指南](./render-html-to-png-in-c-complete-step-by-step-guide/)
+完整步驟教您在 C# 中使用 Aspose.HTML for .NET 將 HTML 轉換為 PNG，掌握設定與最佳實踐。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

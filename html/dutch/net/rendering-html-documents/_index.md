@@ -125,6 +125,8 @@ Leer hoe u HTML direct in het geheugen naar PNG en ZIP converteert met Aspose.HT
 Leer hoe u antialiasing inschakelt bij het renderen van HTML naar PDF met Aspose.HTML en C#.
 ### [HTML naar PNG renderen in C# – Snelle, betrouwbare gids](./render-html-to-png-in-c-fast-reliable-guide/)
 Leer hoe u snel en betrouwbaar HTML naar PNG converteert met C# en Aspose.HTML. Volg deze stapsgewijze gids voor optimale resultaten.
+### [HTML-document maken en renderen naar PNG – Volledige C#-gids](./create-html-document-and-render-html-to-png-full-c-guide/)
+Leer stap voor stap hoe u een HTML-document maakt en dit naar PNG rendert met C# en Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

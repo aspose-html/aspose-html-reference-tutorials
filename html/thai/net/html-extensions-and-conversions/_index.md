@@ -197,6 +197,8 @@ Aspose.HTML สำหรับ .NET ไม่ใช่แค่ไลบรา�
 เรียนรู้ขั้นตอนการบีบอัดไฟล์ HTML ที่ได้จาก DOCX เป็นไฟล์ Zip ด้วย C# อย่างละเอียดและครบถ้วน
 ### [สร้างผลลัพธ์ HTML ด้วย Aspose.HTML – คู่มือเต็ม C#](./generate-html-output-with-aspose-html-full-c-guide/)
 เรียนรู้วิธีสร้างไฟล์ HTML ด้วย Aspose.HTML ใน C# อย่างละเอียดตามขั้นตอนครบถ้วน
+### [แปลง HTML เป็น PDF ด้วย Aspose – คำแนะนำทีละขั้นตอน](./convert-html-to-pdf-with-aspose-step-by-step-guide/)
+เรียนรู้วิธีแปลง HTML เป็น PDF อย่างละเอียดด้วย Aspose.HTML สำหรับ .NET ตามขั้นตอนง่าย ๆ
 
 ## บทสรุป
 
