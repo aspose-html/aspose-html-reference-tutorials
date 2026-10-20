@@ -1,24 +1,22 @@
 ---
 category: general
-date: 2026-01-01
-description: 如何在 Java 中将 EPUB 转换为 PDF 时嵌入字体。了解如何设置 PDF 页面尺寸，并使用 Aspose HTML 实现流畅的
-  EPUB 转 PDF Java 转换。
+date: 2026-04-12
+description: 了解如何在使用 Aspose.HTML 将 EPUB 转换为 PDF 时设置 PDF 页面大小并嵌入字体。本指南将带您完整掌握 Java
+  EPUB 转 PDF 的工作流程。
 draft: false
 keywords:
-- how to embed fonts
-- convert epub to pdf
-- how to convert epub
 - set pdf page size
-- epub to pdf java
-language: zh
-og_description: 如何在 Java 中将 EPUB 转换为 PDF 时嵌入字体。本指南逐步演示如何设置 PDF 页面尺寸以及执行可靠的 EPUB 转
-  PDF Java 转换。
-og_title: 在 Java 中将 EPUB 转换为 PDF 时如何嵌入字体
+- embed fonts pdf
+- convert epub to pdf
+- java epub to pdf
+- custom pdf page size
+og_description: 了解如何在使用 Aspose.HTML 将 EPUB 转换为 PDF 时，在 Java 中设置 PDF 页面尺寸并嵌入字体。
+og_title: 在 Java 中设置 PDF 页面大小并嵌入字体，将 EPUB 转为 PDF
 tags:
 - Java
 - PDF
 - EPUB
-title: 在 Java 中将 EPUB 转换为 PDF 时如何嵌入字体
+title: 在 Java 中设置 PDF 页面尺寸并嵌入字体，将 EPUB 转换为 PDF
 url: /zh/java/converting-epub-to-pdf/how-to-embed-fonts-when-converting-epub-to-pdf-in-java/
 ---
 
@@ -26,24 +24,29 @@ url: /zh/java/converting-epub-to-pdf/how-to-embed-fonts-when-converting-epub-to-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 如何在 Java 中将 EPUB 转换为 PDF 时嵌入字体
+# 设置 PDF 页面大小并在 Java 中将 EPUB 转换为 PDF 时嵌入字体
 
-是否曾好奇 **如何嵌入字体**，以便转换后的 PDF 与原始 EPUB 完全一致？你并不孤单——许多开发者在第一次转换后就遇到了缺少字体的问题。好消息是，使用 Aspose.HTML for Java，你只需几行代码即可控制字体嵌入、页面尺寸以及整个转换流程。
+如果您需要在将 EPUB 转换为 PDF 时 **设置 PDF 页面大小**，并确保生成的文档与源文件完全一致，那么您来对地方了。在本教程中，我们将演示一个完整的、可用于生产的 Java 示例，展示如何 **嵌入字体 pdf**，选择 **自定义 pdf 页面大小**，并使用 Aspose.HTML 进行转换。完成后，您将拥有一个可直接运行的程序，每次都能生成忠实的 PDF。
 
-在本教程中，我们将完整演示使用 Java **将 epub 转换为 pdf** 的过程，展示如何 **设置 pdf 页面尺寸**，并解释为何嵌入字体对跨平台保真度至关重要。完成后，你将拥有一个可直接运行的程序，能够将任意 EPUB 文件转换为渲染完美的 PDF，且包含嵌入的字体和你选择的页面尺寸。
+## 快速答案
+- **主要目标是什么？** 在 Java 中将 EPUB 转换为 PDF 时设置 PDF 页面大小并嵌入字体。  
+- **应该使用哪个库？** Aspose.HTML for Java（提供免费试用）。  
+- **生产环境需要许可证吗？** 是的——许可证会去除评估水印。  
+- **可以使用自定义页面大小吗？** 当然可以——您可以传入精确的尺寸，或使用内置的枚举如 A4、LETTER 等。  
+- **需要哪个 Java 版本？** 建议使用 Java 17 或更高版本。
 
-> **先决条件**  
-> * Java 17 或更高（API 兼容更低版本，但 17 是最佳选择）。  
-> * Aspose.HTML for Java 库——可从 Maven Central 获取。  
-> * 用于测试的示例 EPUB 文件。  
+### 前置条件
+- 已安装 Java 17+。  
+- 已在项目中添加 Aspose.HTML for Java（Maven、Gradle 或手动 JAR）。  
+- 您想要转换的 EPUB 文件。
 
-如果你熟悉 Maven 或 Gradle，已经准备就绪。否则，只需下载 JAR 并将其加入 classpath——没有任何难度。
+> 如果您更喜欢 Gradle，只需将 Maven 代码段替换为等效的 Gradle 坐标。
 
----
+## 为什么在 PDF 中嵌入字体？
 
-## 在 PDF 输出中嵌入字体
+嵌入字体可以锁定源 EPUB 的视觉设计，使 PDF 在任何设备上都能正确渲染——即使查看器未安装原始字体也不例外。如果不嵌入，标题可能会回退为默认字体（如 Arial），从而破坏您辛苦打造的布局。
 
-嵌入字体可确保 PDF 在任何设备上显示相同的排版，即使查看器未安装原始字体。Aspose.HTML 为此提供了一个开关。
+**Pro tip:** 如果您知道 EPUB 中使用的确切字体，请使用 `pdfOptions.setFontsFolder("path/to/fonts")` 将 Aspose 指向包含这些 `.ttf` 或 `.otf` 文件的文件夹。这可以加快转换速度并减小最终文件大小。
 
 ```java
 // Configure PDF save options
@@ -51,15 +54,9 @@ PdfSaveOptions pdfOptions = new PdfSaveOptions();
 pdfOptions.setEmbedFonts(true);               // <-- This line embeds all used fonts
 ```
 
-这有什么重要性？想象一下，你把 PDF 发给只装有系统默认字体的客户。若未嵌入字体，标题可能会回退为 Arial 或 Times New Roman，导致布局错乱。通过嵌入，你锁定了视觉设计，使 PDF 真正可移植。
+## 如何在 Java 中将 EPUB 转换为 PDF – 完整工作流
 
-> **小技巧：** 如果你知道 EPUB 使用的确切字体，也可以通过 `pdfOptions.setFontsFolder("path/to/fonts")` 指定自定义字体文件夹。这会加快转换速度，并避免不必要的字体嵌入。
-
----
-
-## 在 Java 中将 EPUB 转换为 PDF – 完整工作流
-
-下面是你需要的最小且完整的代码示例。它涵盖了三个关键步骤：定位源 EPUB、配置 PDF 选项（包括页面尺寸）以及调用转换。
+以下是您所需的最小且完整的代码示例。它涵盖了三个关键步骤：定位源 EPUB、配置 PDF 选项（包括 **set PDF page size**），以及调用转换。
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -87,30 +84,27 @@ public class EpubToPdfDemo {
 
 ### 背后发生了什么？
 
-1. **源 EPUB** – `epubPath` 变量告诉 Aspose 从哪里读取 EPUB 容器。  
-2. **PDF 选项** – `PdfSaveOptions` 让你可以切换字体嵌入 (`setEmbedFonts`) 并定义页面尺寸 (`setPageSize`)。`PageSize.LETTER` 枚举适用于美式信纸；你也可以选择 `A4`、`A5` 等。  
-3. **转换调用** – `Converter.convert` 完成核心工作。它解析 EPUB，将每个 XHTML 页面渲染为 PDF 页面，应用选项并写入结果。
+1. **Source EPUB** – `epubPath` 告诉 Aspose 从何处读取 EPUB 容器。  
+2. **PDF Options** – `PdfSaveOptions` 允许您切换字体嵌入（`setEmbedFonts`）并定义页面尺寸（`setPageSize`）。`PageSize.LETTER` 枚举对美国信纸很方便；您也可以选择 `A4`、`A5` 等。  
+3. **Conversion Call** – `Converter.convert` 解析 EPUB，将每个 XHTML 页面渲染为 PDF 页面，应用选项并写入结果。
 
-为了简洁，方法抛出通用的 `Exception`；在生产环境中应捕获具体的子类（如 `IOException`、`FileNotFoundException`）并妥善处理。
+该方法为简洁起见抛出通用的 `Exception`；在生产环境中，您应捕获具体的子类（例如 `IOException`、`FileNotFoundException`）并进行适当处理。
 
----
+## 如何为结果设置 PDF 页面大小
 
-## 为结果设置 PDF 页面尺寸
-
-选择合适的页面尺寸不仅关乎美观，还会影响分页、图像缩放和打印布局。Aspose.HTML 提供了便利的枚举，也支持自定义尺寸，以防默认值不适用。
+选择合适的页面大小会影响分页、图像缩放和打印布局。Aspose.HTML 提供了便利的枚举，但如果默认尺寸不满足需求，您也可以传入自定义大小。
 
 ```java
 // Example: Custom size – 6" x 9"
 pdfOptions.setPageSize(new PdfSaveOptions.PageSize(6.0, 9.0));
 ```
 
-何时需要自定义尺寸？也许你在生成口袋大小的电子书，或是需要符合特定裁切尺寸的可打印小册子。API 接受英寸（也可以自行转换为毫米），让你拥有完整的控制权。
+**何时需要自定义尺寸？**  
+也许您在生成口袋尺寸的电子书、可打印的小册子，或遵循特定裁切尺寸的报告。API 接受英寸（或您可以从毫米转换），让您拥有完整的控制权。
 
----
+## 完整可运行示例（包括 Maven 依赖）
 
-## 完整可运行示例（含 Maven 依赖）
-
-如果使用 Maven，请在 `pom.xml` 中添加以下依赖。这确保 `Converter` 和 `PdfSaveOptions` 类位于 classpath 中。
+如果您使用 Maven，请将以下依赖添加到 `pom.xml` 中。这可确保 `Converter` 和 `PdfSaveOptions` 类位于类路径上。
 
 ```xml
 <dependency>
@@ -120,7 +114,7 @@ pdfOptions.setPageSize(new PdfSaveOptions.PageSize(6.0, 9.0));
 </dependency>
 ```
 
-**完整源码文件（`EpubToPdfDemo.java`）**
+**完整源文件（`EpubToPdfDemo.java`）**
 
 ```java
 package com.example.epubtopdf;
@@ -165,45 +159,56 @@ public class EpubToPdfDemo {
 
 ### 预期输出
 
-运行程序会打印确认信息：
+运行程序会打印确认行：
 
 ```
 ✅ Success! PDF created at: C:/Docs/output.pdf
 ```
 
-在任意阅读器（Adobe Reader、Chrome 等）中打开生成的 PDF，你会看到：
+在任意查看器（Adobe Reader、Chrome 等）中打开生成的 PDF，您会看到：
 
 * 所有文本元素保留原始字体样式。  
-* 页面尺寸符合所选的 **Letter** 大小。  
-* EPUB 中的图像、表格和超链接均被保留。
+* 页面尺寸匹配所选的 **Letter** 大小（或您设置的任何自定义尺寸）。  
+* 来自 EPUB 的图像、表格和超链接均被保留。
 
-如果检查 PDF 属性（文件 → 属性 → 字体），会发现每种字体都标记为 **Embedded Subset**，这表明 `setEmbedFonts(true)` 已成功生效。
+如果检查 PDF 属性（文件 → 属性 → 字体），您会发现每种字体都标记为 **Embedded Subset**，这证明 `setEmbedFonts(true)` 调用已生效。
 
----
+## 常见问题
 
-## 常见问题与边缘情况
+**问：如果我的 EPUB 使用的自定义字体未在服务器上安装怎么办？**  
+将 `.ttf` 或 `.otf` 文件放入文件夹，并使用 `pdfOptions.setFontsFolder("path/to/custom/fonts")` 指向该文件夹。转换器会自动加载并嵌入这些字体。
 
-| Question | Answer |
-|----------|--------|
-| **如果我的 EPUB 使用了服务器上未安装的自定义字体怎么办？** | 将 `.ttf` 或 `.otf` 文件放入文件夹，并使用 `pdfOptions.setFontsFolder("path/to/custom/fonts")` 指向该文件夹。转换器会自动加载并嵌入这些字体。 |
-| **我可以一次性转换多个 EPUB 吗？** | 当然可以。将转换逻辑放入循环中，为每个文件更改 `epubPath` 和 `outputPdf`。Aspose 是线程安全的，你甚至可以使用 `ExecutorService` 并行处理。 |
-| **输入的 EPUB 有大小限制吗？** | 没有硬性限制，但体积巨大的 EPUB（数百 MB）会占用更多内存。对于超大书籍，建议增大 JVM 堆内存（如 `-Xmx2g` 或更高）。 |
-| **如何关闭字体嵌入以减小 PDF 大小？** | 调用 `pdfOptions.setEmbedFonts(false)`。生成的 PDF 将依赖查看器已安装的字体，文件体积会减小，但外观可能会有所变化。 |
-| **使用 Aspose.HTML 是否需要许可证？** | 免费评估许可证可用于测试，但会添加水印。正式生产环境请购买许可证，并在转换前调用 `License license = new License(); license.setLicense("path/to/license.xml");`。 |
+**问：我可以一次性转换多个 EPUB 文件吗？**  
+可以。将转换逻辑放入循环中，为每个文件更改 `epubPath` 和 `outputPdf`，并且可以使用 `ExecutorService` 并行运行循环，因为 Aspose 是线程安全的。
 
----
+**问：输入的 EPUB 有大小限制吗？**  
+没有硬性限制，但非常大的 EPUB（数百 MB）会消耗大量内存。对于超大书籍，请增大 JVM 堆内存（如 `-Xmx2g` 或更高）。
+
+**问：如何禁用字体嵌入以减小 PDF 大小？**  
+调用 `pdfOptions.setEmbedFonts(false)`。PDF 将依赖查看器已安装的字体，这可以减小文件大小，但可能会改变外观。
+
+**问：使用 Aspose.HTML 是否需要许可证？**  
+免费评估许可证可用于测试，但会添加水印。生产环境请购买许可证，并使用 `License license = new License(); license.setLicense("path/to/license.xml");` 加载。
 
 ## 结论
 
-现在你已经掌握了在 Java 中 **嵌入字体**、**设置 PDF 页面尺寸**，以及如何使用 Aspose.HTML 将 **EPUB 转换为 PDF** 的完整流程。上面的可运行示例应可直接使用——只需将占位路径替换为自己的文件，即可开始工作。
+现在，您已经了解了在使用 Aspose.HTML 将 EPUB 转换为 PDF 时，**如何设置 PDF 页面大小**以及**嵌入字体 pdf**。上述完整的可运行示例应可直接使用——只需将占位路径替换为您自己的文件即可。
 
-接下来可以尝试其他页面格式，如 **A4** 或自定义的 6×9 尺寸，探索 `PdfSaveOptions` 中的图像压缩属性，甚至以编程方式添加封面页。同样的模式同样适用于其他源格式（HTML、Markdown），因为 Aspose.HTML 对它们的处理方式是一致的。
+下一步？尝试不同的页面格式，如 **A4** 或自定义的 6×9 尺寸，探索其他 `PdfSaveOptions`（图像压缩、PDF/A 合规性），或以编程方式添加封面页。相同的模式同样适用于其他源格式（HTML、Markdown），因为 Aspose.HTML 对它们的处理方式一致。
 
-祝编码愉快，愿你的 PDF 始终如你所愿呈现！ 
+祝编码愉快，愿您的 PDF 始终如您所愿！
 
 ![在 PDF 转换中嵌入字体的方法](https://example.com/images/embed-fonts.png "在 PDF 转换中嵌入字体的方法")
 
+---
+
+**最后更新：** 2026-04-12  
+**测试环境：** Aspose.HTML for Java 23.10  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,26 +1,26 @@
 ---
 category: general
-date: 2026-05-06
-description: जावा का उपयोग करके मार्कडाउन से तेज़ी से PDF बनाएं। Aspose.HTML के साथ
-  मार्कडाउन को PDF में कैसे बदलें, सीखें, साथ ही MD को PDF में बदलने और जावा में मार्कडाउन
-  को PDF में बदलने के टिप्स।
+date: 2026-02-19
+description: जावा में मार्कडाउन से जल्दी PDF बनाएं। जानें कैसे मार्कडाउन को जावा में
+  PDF में बदलें, मार्कडाउन को PDF के रूप में सहेजें, और मार्कडाउन फ़ाइल को PDF में
+  रूपांतरण को संभालें।
 draft: false
 keywords:
 - create pdf from markdown
-- convert markdown to pdf
 - markdown to pdf java
-- convert md to pdf
 - how to convert markdown
+- save markdown as pdf
+- markdown file to pdf
 language: hi
-og_description: जावा में मार्कडाउन से पीडीएफ बनाएं। यह गाइड दिखाता है कि मार्कडाउन
-  को पीडीएफ में कैसे बदलें, जिसमें MD को PDF में बदलना और जावा में मार्कडाउन से PDF
-  बनाने के परिदृश्य शामिल हैं।
-og_title: जावा में मार्कडाउन से पीडीएफ बनाएं – पूर्ण ट्यूटोरियल
+og_description: जावा में मार्कडाउन से पीडीएफ बनाएं, एक व्यावहारिक उदाहरण के साथ। यह
+  गाइड दिखाता है कि Aspose.HTML का उपयोग करके मार्कडाउन को जावा में पीडीएफ में कैसे
+  बदलें।
+og_title: जावा में मार्कडाउन से PDF बनाएं – पूर्ण ट्यूटोरियल
 tags:
 - Java
 - PDF
 - Markdown
-title: जावा में मार्कडाउन से PDF बनाएं – चरण-दर-चरण गाइड
+title: जावा में मार्कडाउन से पीडीएफ बनाएं – चरण-दर-चरण गाइड
 url: /hi/java/conversion-html-to-other-formats/create-pdf-from-markdown-in-java-step-by-step-guide/
 ---
 
@@ -28,143 +28,253 @@ url: /hi/java/conversion-html-to-other-formats/create-pdf-from-markdown-in-java-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java में Markdown से PDF बनाएं – पूर्ण ट्यूटोरियल
+# जावा में मार्कडाउन से PDF बनाएं – पूर्ण ट्यूटोरियल
 
-क्या आपने कभी सोचा है कि **create PDF from markdown** को कई टूल्स के बीच झूलते हुए कैसे किया जाए? आप अकेले नहीं हैं। कई डेवलपर्स को रिपोर्ट, दस्तावेज़ीकरण, या ई‑बुक्स के लिए `.md` फ़ाइल को एक परिष्कृत PDF में बदलने की ज़रूरत पड़ने पर रुकावट आती है। अच्छी खबर? कुछ ही Java लाइनों और सही लाइब्रेरी के साथ, आप **convert markdown to pdf** को एक ही कॉल में कर सकते हैं।
+क्या आपको **मार्कडाउन से PDF बनाना** पड़ा है लेकिन सही लाइब्रेरी नहीं मिली? आप अकेले नहीं हैं—कई डेवलपर्स को यह समस्या आती है जब वे अपनी डॉक्यूमेंटेशन या README फ़ाइलों से सीधे सुंदर‑स्टाइल्ड PDF बनाना चाहते हैं। अच्छी खबर? कुछ ही लाइनों के जावा कोड और शक्तिशाली Aspose.HTML लाइब्रेरी के साथ, `.md` फ़ाइल को एक परिष्कृत PDF में बदलना बहुत आसान है।
 
-इस ट्यूटोरियल में हम आपको वह सब कुछ बताएंगे जो आपको जानना आवश्यक है: आवश्यक डिपेंडेंसीज़, एक पूर्ण‑कार्यशील कोड उदाहरण, और एज केस को संभालने के लिए व्यावहारिक टिप्स। अंत तक, आप प्रोग्रामेटिक रूप से **convert md to pdf** कर पाएँगे, और समझेंगे कि यह तरीका कॉपी‑एंड‑पेस्ट वर्कफ़्लो से बेहतर क्यों है।
+इस गाइड में हम पूरी प्रक्रिया को कवर करेंगे: सही डिपेंडेंसीज़ जोड़ने से लेकर गैर‑UTF‑8 इनपुट जैसी किनारी स्थितियों को संभालने तक। अंत तक आप **मार्कडाउन को विश्वसनीय रूप से कन्वर्ट** करना जानेंगे, और यह भी देखेंगे कि **मार्कडाउन को PDF के रूप में सहेजें** प्रोडक्शन‑रेडी तरीके से।
 
 ## आप क्या सीखेंगे
 
-- Aspose.HTML for Java को सेट अप करने का तरीका जिससे **markdown to pdf java** रूपांतरण सक्षम हो सके।  
-- स्टेप‑बाय‑स्टेप कोड जो एक Markdown फ़ाइल पढ़ता है, उसे कनवर्ट करता है, और PDF सहेजता है।  
-- सामान्य समस्याएँ (एन्कोडिंग इश्यूज़, फ़ॉन्ट्स की कमी) और उन्हें कैसे टाला जाए।  
-- समाधान को विस्तारित करने के तरीके, जैसे कवर पेज जोड़ना या कस्टम स्टाइलिंग।  
+- अपने प्रोजेक्ट में Aspose.HTML for Java सेट अप करना।
+- एक ही API कॉल से मार्कडाउन फ़ाइल को PDF में बदलना।
+- `PdfSaveOptions` का उपयोग करके आउटपुट को कस्टमाइज़ करना।
+- फ़ॉन्ट्स की कमी या अमान्य पाथ जैसी सामान्य समस्याओं का समाधान।
+- कई मार्कडाउन फ़ाइलों को बैच‑प्रोसेस करने के लिए समाधान को विस्तारित करना।
 
-### पूर्वापेक्षाएँ
+### आवश्यकताएँ
 
-- Java 17 या उससे नया (कोड आधुनिक मॉड्यूल सिस्टम का उपयोग करता है)।  
-- डिपेंडेंसी मैनेजमेंट के लिए Maven या Gradle।  
-- एक Markdown फ़ाइल जिसे आप कनवर्ट करना चाहते हैं (हम इसे `input.md` कहेंगे)।  
+| आवश्यकता | क्यों जरूरी है |
+|-------------|----------------|
+| Java 17 या नया | Aspose.HTML आधुनिक JVM को टार्गेट करता है; पुराने संस्करणों में API अपडेट नहीं हो सकते। |
+| Maven या Gradle बिल्ड टूल | Aspose.HTML डिपेंडेंसी जोड़ना आसान बनाता है। |
+| UTF‑8 एन्कोडेड मार्कडाउन फ़ाइल (`input.md`) | कन्वर्टर UTF‑8 की अपेक्षा करता है; अन्य एन्कोडिंग्स को स्पष्ट रूप से हैंडल करना पड़ता है। |
+| जावा I/O की बुनियादी समझ | हम `java.nio.file.Paths` का उपयोग फ़ाइलों को लोकेट करने के लिए करेंगे। |
 
-यदि आप एक बेसिक Java प्रोजेक्ट में सहज हैं, तो आप तैयार हैं। अतिरिक्त IDE ट्रिक्स की आवश्यकता नहीं है।
+यदि आप ये सभी बिंदु पूरा कर लेते हैं, तो आप शुरू करने के लिए तैयार हैं।
 
-![फ़्लो दिखाने वाला आरेख: Markdown फ़ाइल → Java कनवर्टर → PDF आउटपुट (create pdf from markdown)](create-pdf-from-markdown-diagram.png)
+---
 
-*छवि वैकल्पिक पाठ: “create pdf from markdown flow diagram”*
+## चरण 1: Aspose.HTML डिपेंडेंसी जोड़ें
 
-## चरण 1: अपने प्रोजेक्ट में Aspose.HTML for Java जोड़ें
-
-Aspose.HTML एक व्यावसायिक लाइब्रेरी है, लेकिन यह एक मुफ्त इवैल्यूएशन वर्ज़न प्रदान करती है जो परीक्षण के लिए एकदम उपयुक्त है। अपने `pom.xml` (Maven) या समकक्ष Gradle स्निपेट में निम्नलिखित डिपेंडेंसी जोड़ें:
+सबसे पहले—आपके प्रोजेक्ट को Aspose.HTML लाइब्रेरी चाहिए। यदि आप Maven उपयोग कर रहे हैं, तो यह स्निपेट अपने `pom.xml` में डालें:
 
 ```xml
-<!-- pom.xml -->
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-html</artifactId>
-    <version>23.12</version> <!-- Use the latest version available -->
+    <version>23.11</version> <!-- Check Maven Central for the latest version -->
 </dependency>
 ```
 
-> **Pro tip:** संस्करण संख्या पर नजर रखें; नए रिलीज़ बग्स को ठीक करते हैं जो **convert markdown to pdf** की विश्वसनीयता को प्रभावित कर सकते हैं।
-
-यदि आप Gradle पसंद करते हैं:
+Gradle उपयोगकर्ता यह जोड़ सकते हैं:
 
 ```gradle
-implementation 'com.aspose:aspose-html:23.12'
+implementation 'com.aspose:aspose-html:23.11'
 ```
 
-एक बार लाइब्रेरी क्लासपाथ पर हो जाने पर, आप कनवर्टर लिखने के लिए तैयार हैं।
+> **प्रो टिप:** संस्करण संख्या को हमेशा अपडेट रखें; नए रिलीज़ में मार्कडाउन की टेबल और फुटनोट जैसी ख़ासियतों के बग‑फ़िक्स शामिल होते हैं।
 
-## चरण 2: Markdown और PDF पाथ तैयार करें
+---
 
-कन्वर्ज़न API को कॉल करने से पहले, यह निर्धारित करें कि आपका स्रोत Markdown कहाँ स्थित है और परिणामी PDF कहाँ सहेजा जाना चाहिए। पूर्ण पाथ का उपयोग करने से जब प्रोग्राम अलग कार्य निर्देशिका से चलता है तो भ्रम से बचा जा सकता है।
+## चरण 2: फ़ाइल पाथ तैयार करें
 
-```java
-// Define source and destination paths
-String markdownPath = "C:/Docs/input.md";   // replace with your actual file
-String pdfPath      = "C:/Docs/output.pdf"; // desired output location
-```
-
-> **Why this matters:** हार्ड‑कोडेड रिलेटिव पाथ्स से *FileNotFoundException* हो सकता है जब ऐप को JAR के रूप में पैकेज किया जाता है। पूर्ण पाथ (या कॉन्फ़िगरेबल प्रॉपर्टी) प्रक्रिया को मजबूत बनाते हैं।
-
-## चरण 3: एक‑लाइन कनवर्टर को कॉल करें
-
-Aspose.HTML एक स्टैटिक हेल्पर प्रदान करता है जो भारी काम करता है। मेथड `Converter.convertMdToPdf` Markdown पढ़ता है, उसे पार्स करता है, और एक ही बार में PDF स्ट्रीम करता है।
+अब हम कन्वर्टर को बताते हैं कि स्रोत मार्कडाउन कहाँ है और PDF कहाँ रखनी है। `Paths.get` का उपयोग प्लेटफ़ॉर्म‑स्वतंत्र पाथ सुनिश्चित करता है और रिलेटिव रेफ़रेंसेज़ को सुरक्षित रूप से हल करता है।
 
 ```java
-import com.aspose.html.converters.Converter;
+import java.nio.file.Paths;
 
-public class MdToPdf {
-    public static void main(String[] args) throws Exception {
-        // Step 1: Define source Markdown file and target PDF file paths
-        String markdownPath = "C:/Docs/input.md";
-        String pdfPath      = "C:/Docs/output.pdf";
+public class MarkdownToPdfConverter {
+    // Adjust these constants to match your project layout
+    private static final String INPUT_DIR  = "YOUR_DIRECTORY";
+    private static final String MARKDOWN_FILE = "input.md";
+    private static final String PDF_FILE   = "output.pdf";
 
-        // Step 2: Convert the Markdown document to PDF in a single call
-        Converter.convertMdToPdf(markdownPath, pdfPath);
+    private static String markdownPath() {
+        return Paths.get(INPUT_DIR, MARKDOWN_FILE)
+                    .toAbsolutePath()
+                    .toString();
+    }
 
-        // Step 3: Inform the user that the conversion has finished
-        System.out.println("Markdown → PDF conversion completed.");
+    private static String pdfPath() {
+        return Paths.get(INPUT_DIR, PDF_FILE)
+                    .toAbsolutePath()
+                    .toString();
     }
 }
 ```
 
-बस इतना ही—क्लास चलाएँ, और आप देखेंगे कि `output.pdf` आपके स्रोत फ़ाइल के बगल में बन गया है। कंसोल एक मैत्रीपूर्ण पुष्टि प्रिंट करता है, जो बैच स्क्रिप्ट्स के लिए उपयोगी है।
-
-### क्यों उपयोग करें `Converter.convertMdToPdf`?
-
-- **Performance:** लाइब्रेरी डेटा को स्ट्रीम करती है, इसलिए बड़े Markdown फ़ाइलें भी मेमोरी नहीं खत्म करतीं।  
-- **Formatting fidelity:** यह GitHub‑flavored Markdown, टेबल्स, कोड ब्लॉक्स, और एम्बेडेड इमेजेज़ का सम्मान करता है।  
-- **Extensibility:** यदि आपको स्टाइलिंग पर अधिक नियंत्रण चाहिए तो आप बाद में `Converter.convertHtmlToPdf` पर स्विच कर सकते हैं।  
-
-## चरण 4: परिणाम सत्यापित करें
-
-जनरेटेड PDF को किसी भी व्यूअर में खोलें। आपको हेडिंग्स, लिस्ट्स, और इमेजेज़ ठीक उसी तरह दिखनी चाहिए जैसा वे Markdown स्रोत में थे। यदि कुछ गड़बड़ दिखे—शायद कोई फ़ॉन्ट गायब है—तो एक कस्टम CSS फ़ाइल जोड़ने और HTML कन्वर्ज़न ओवरलोड का उपयोग करने पर विचार करें:
-
-```java
-Converter.convertHtmlToPdf(
-    new FileInputStream("C:/Docs/input.html"),
-    new FileOutputStream(pdfPath),
-    new PdfSaveOptions() {{ setCssFilePath("C:/Docs/custom.css"); }});
-```
-
-यह अतिरिक्त कदम कई पाठकों के “**how to convert markdown** with custom styling” प्रश्न का उत्तर देता है।
-
-## सामान्य एज केस और उन्हें कैसे संभालें
-
-| समस्या | लक्षण | समाधान |
-|-------|---------|-----|
-| **Non‑UTF‑8 characters** | PDF में गड़बड़ टेक्स्ट | सुनिश्चित करें कि `input.md` UTF‑8 के रूप में सहेजा गया है; आप HTML ओवरलोड का उपयोग करते समय पाथ को `new InputStreamReader(..., StandardCharsets.UTF_8)` से भी रैप कर सकते हैं। |
-| **Missing images** | जहाँ चित्र होने चाहिए वहाँ खाली जगहें | एब्सोल्यूट URLs का उपयोग करें या इमेजेज़ को उसी फ़ोल्डर में कॉपी करें और उन्हें `![alt](file://C:/Docs/image.png)` के साथ रेफ़र करें। |
-| **Large files (>100 MB)** | आउट‑ऑफ़‑मेमोरी त्रुटियाँ | JVM हीप बढ़ाएँ (`-Xmx2g`) या स्ट्रीमिंग API का उपयोग करके Markdown को चंक्स में प्रोसेस करें। |
-| **License warning** | कंसोल “Evaluation version” प्रिंट करता है | एक लाइसेंस खरीदें और कन्वर्ज़न से पहले `License license = new License(); license.setLicense("Aspose.Total.Java.lic");` को कॉल करें। |
-
-इन परिदृश्यों को संभालने से आपका **convert md to pdf** पाइपलाइन प्रोडक्शन में स्थिर रहता है।
-
-## चरण 5: स्वचालित करें या एकीकृत करें
-
-अब जब आपके पास एक भरोसेमंद स्निपेट है, आप इसे बड़े वर्कफ़्लो में एम्बेड कर सकते हैं:
-
-- **CI/CD pipelines:** प्रत्येक रिलीज़ पर स्वचालित रूप से PDF दस्तावेज़ जनरेट करें।  
-- **Web services:** एक एंडपॉइंट एक्सपोज़ करें जो Markdown स्वीकार करता है और PDF स्ट्रीम लौटाता है।  
-- **Desktop tools:** गैर‑तकनीकी उपयोगकर्ताओं के लिए Swing UI के साथ जोड़ें।  
-
-इन सभी उपयोग मामलों का आधार वही कोर लॉजिक है जिसे हमने अभी कवर किया है, जो साबित करता है कि समाधान अच्छी तरह स्केल करता है।
-
-## सारांश
-
-हमने आपको दिखाया है कि कैसे Aspose.HTML का उपयोग करके Java में **create PDF from markdown** किया जाए, जिसमें डिपेंडेंसी सेटअप से लेकर जटिल एज केस को संभालना शामिल है। छोटा, एक‑लाइन कॉल `Converter.convertMdToPdf` भारी काम करता है, जिससे आप ऑटोमेशन या कस्टम स्टाइलिंग जैसी उच्च‑स्तरीय चिंताओं पर ध्यान दे सकते हैं।
+ऊपर दिए गए मेथड्स बाद में पाथ को पुनः उपयोग करने में आसान बनाते हैं, विशेषकर जब आप बैच कन्वर्ज़न की योजना बनाते हैं।
 
 ---
 
-### आगे क्या?
+## चरण 3: PDF सेव ऑप्शन्स कॉन्फ़िगर करें (वैकल्पिक लेकिन उपयोगी)
 
-- **markdown to pdf java** स्टाइलिंग के साथ प्रयोग करें एक CSS फ़ाइल जोड़कर।  
-- बैच कन्वर्ज़न का अन्वेषण करें: `.md` फ़ाइलों की डायरेक्टरी पर लूप चलाएँ और एक ही बार में PDFs जनरेट करें।  
-- अन्य Aspose.HTML फीचर्स देखें, जैसे हेडर/फूटर के साथ HTML को PDF में कन्वर्ट करना, जिससे अधिक परिष्कृत लुक मिले।  
+Aspose.HTML डिफ़ॉल्ट रूप से समझदारी भरे सेटिंग्स देता है, लेकिन आप पेज साइज, कम्प्रेशन या PDF/A कंप्लायंस जैसी चीज़ें ट्यून कर सकते हैं। यहाँ एक न्यूनतम सेटअप है जो स्टैंडर्ड A4 पेज सुनिश्चित करता है और सभी फ़ॉन्ट्स एम्बेड करता है।
 
-क्या आपके पास **convert markdown to pdf** के बारे में प्रश्न हैं या कोड को ट्यून करने में मदद चाहिए? नीचे कमेंट करें, और कोडिंग का आनंद लें!
+```java
+import com.aspose.html.converters.PdfSaveOptions;
+
+private static PdfSaveOptions pdfOptions() {
+    PdfSaveOptions options = new PdfSaveOptions();
+    options.setPageSize(com.aspose.html.drawing.Size.A4);
+    options.setCompress(true);               // Reduces file size
+    options.setPdfACompliance(PdfSaveOptions.PdfAStandard.PdfA1b); // For archiving
+    return options;
+}
+```
+
+यदि आपको इन ट्यूनिंग की ज़रूरत नहीं है, तो बस `new PdfSaveOptions()` बनाकर कॉन्फ़िगरेशन को स्किप कर दें।
+
+---
+
+## चरण 4: कन्वर्ज़न करें
+
+अब मुख्य भाग—वह एक‑लाइनर जो भारी काम करता है। `Converter.convert` मेथड मार्कडाउन को पढ़ता है, उसे आंतरिक रूप से HTML में रेंडर करता है, और परिणाम को सीधे PDF फ़ाइल में स्ट्रीम करता है।
+
+```java
+import com.aspose.html.converters.Converter;
+
+public static void convertMarkdownToPdf() throws Exception {
+    String mdPath = markdownPath();
+    String pdfPath = pdfPath();
+    PdfSaveOptions options = pdfOptions();
+
+    // The actual conversion happens here
+    Converter.convert(mdPath, pdfPath, options);
+
+    System.out.println("Conversion completed: " + pdfPath);
+}
+```
+
+`convertMarkdownToPdf()` चलाने पर `output.pdf` आपके स्रोत फ़ाइल के बगल में बन जाएगा। इसे किसी भी PDF व्यूअर में खोलें और आपको मार्कडाउन के हेडिंग, लिस्ट, कोड ब्लॉक और यहाँ तक कि टेबल भी सही ढंग से रेंडर होते दिखेंगे।
+
+### अपेक्षित आउटपुट
+
+यदि `input.md` में यह सामग्री है:
+
+```markdown
+# Sample Document
+
+This is **bold**, *italic*, and `code`.
+
+- Item 1
+- Item 2
+
+| A | B |
+|---|---|
+| 1 | 2 |
+```
+
+तो जेनरेटेड PDF में एक हेडिंग, स्टाइल्ड टेक्स्ट, बुलेट लिस्ट और एक व्यवस्थित टेबल दिखेगा—बिल्कुल वही जो आप ब्राउज़र में मार्कडाउन प्रीव्यू में देखते हैं, लेकिन अब एक पोर्टेबल PDF में लॉक हो गया है।
+
+---
+
+## चरण 5: इसे मुख्य मेथड में रैप करें
+
+सब कुछ एक रनएबल क्लास में जोड़ने से कमांड लाइन से टेस्ट करना या बड़े बिल्ड पाइपलाइन में इंटीग्रेट करना आसान हो जाता है।
+
+```java
+public class Example_ConvertMarkdownToPdf {
+    public static void main(String[] args) {
+        try {
+            convertMarkdownToPdf();
+        } catch (Exception e) {
+            // Real‑world code would log this properly
+            System.err.println("Conversion failed: " + e.getMessage());
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+> **अगर कन्वर्ज़न के दौरान एक्सेप्शन फेंका जाए तो क्या करें?**  
+> अधिकांश फेल्योर फ़ॉन्ट्स की कमी, इनपुट फ़ाइल न पढ़ पाना, या डेस्टिनेशन फ़ोल्डर पर अपर्याप्त परमिशन से होते हैं। सुनिश्चित करें कि `INPUT_DIR` मौजूद है, `input.md` पढ़ने योग्य है, और आपका प्रोसेस आउटपुट पाथ पर लिखने की अनुमति रखता है।
+
+---
+
+## उन्नत विषय और किनारी स्थितियाँ
+
+### 1. लूप में कई फ़ाइलें कन्वर्ट करना
+
+यदि आपके पास मार्कडाउन डॉक्यूमेंट्स का फ़ोल्डर है, तो आप उनपर इटरेट कर सकते हैं:
+
+```java
+import java.nio.file.Files;
+import java.util.stream.Stream;
+
+public static void batchConvert(String sourceDir, String targetDir) throws Exception {
+    try (Stream<java.nio.file.Path> files = Files.list(Paths.get(sourceDir))) {
+        files.filter(p -> p.toString().endsWith(".md"))
+             .forEach(mdPath -> {
+                 String pdfPath = Paths.get(targetDir,
+                         mdPath.getFileName().toString().replaceAll("\\.md$", ".pdf"))
+                         .toString();
+                 try {
+                     Converter.convert(mdPath.toString(), pdfPath, new PdfSaveOptions());
+                     System.out.println("✔ " + pdfPath);
+                 } catch (Exception ex) {
+                     System.err.println("✘ Failed for " + mdPath + ": " + ex.getMessage());
+                 }
+             });
+    }
+}
+```
+
+यह स्निपेट **मार्कडाउन फ़ाइल से PDF** कन्वर्ज़न को स्केल पर दर्शाता है, प्रत्येक फ़ाइल को स्वतंत्र रूप से हैंडल करता है।
+
+### 2. गैर‑UTF‑8 एन्कोडिंग को संभालना
+
+Aspose.HTML डिफ़ॉल्ट रूप से UTF‑8 मानता है। यदि आपका मार्कडाउन ISO‑8859‑1 में एन्कोडेड है, तो पहले उसे `String` में पढ़ें और फिर एक अस्थायी UTF‑8 फ़ाइल में लिखें:
+
+```java
+import java.nio.charset.Charset;
+import java.nio.file.StandardOpenOption;
+
+String isoContent = Files.readString(Paths.get(mdPath), Charset.forName("ISO-8859-1"));
+Path tempUtf8 = Files.createTempFile("md_", ".md");
+Files.writeString(tempUtf8, isoContent, Charset.forName("UTF-8"), StandardOpenOption.CREATE);
+Converter.convert(tempUtf8.toString(), pdfPath, new PdfSaveOptions());
+Files.deleteIfExists(tempUtf8);
+```
+
+### 3. कस्टम CSS स्टाइलिंग
+
+क्या आप चाहते हैं कि PDF आपके GitHub‑फ़्लेवर्ड मार्कडाउन जैसा दिखे? कन्वर्ज़न से पहले `HtmlLoadOptions` के माध्यम से एक CSS फ़ाइल पास करें:
+
+```java
+import com.aspose.html.loadoptions.HtmlLoadOptions;
+import com.aspose.html.HTMLDocument;
+
+HtmlLoadOptions loadOpts = new HtmlLoadOptions();
+loadOpts.setUserStyleSheet("file:///path/to/github.css");
+
+HTMLDocument doc = new HTMLDocument(mdPath, loadOpts);
+Converter.convert(doc, pdfPath, new PdfSaveOptions());
+```
+
+यह स्तर का कंट्रोल तब उपयोगी होता है जब आप **मार्कडाउन को PDF के रूप में सहेजें** ब्रांड‑स्पेसिफिक रंगों या फ़ॉन्ट्स के साथ।
+
+---
+
+## सामान्य समस्याएँ और उनके समाधान
+
+| लक्षण | संभावित कारण | समाधान |
+|---------|--------------|-----|
+| खाली PDF फ़ाइल | इनपुट पाथ गलत या फ़ाइल खाली | सुनिश्चित करें `markdownPath()` वास्तविक `.md` फ़ाइल की ओर इशारा कर रहा है। |
+| PDF में फ़ॉन्ट्स गायब | सिस्टम फ़ॉन्ट एम्बेड नहीं हुआ | `options.setEmbedStandardFonts(true)` सेट करें या होस्ट पर गायब फ़ॉन्ट इंस्टॉल करें। |
+| टेबल कॉलम असंगत | मार्कडाउन टेबल सिंटैक्स गलत | पाइप (`|`) कैरेक्टर को सही लाइन में रखें; मार्कडाउन लिंटर का उपयोग करें। |
+| कन्वर्ज़न हँग हो रहा है | फ़ाइल बहुत बड़ी (> 200 MB) | मार्कडाउन को चंक्स में स्ट्रीम करें या JVM हीप बढ़ाएँ (`-Xmx2g`)। |
+
+---
+
+## निष्कर्ष
+
+हमने जावा में **मार्कडाउन से PDF बनाना** के लिए सभी आवश्यक कदम कवर किए: Aspose.HTML डिपेंडेंसी जोड़ना, फ़ाइल पाथ सेट करना, वैकल्पिक PDF ट्यूनिंग, और एक‑लाइनर कन्वर्ज़न कॉल। पूरा उदाहरण बॉक्स से बाहर चलता है, और अतिरिक्त स्निपेट्स दिखाते हैं कि कैसे **मार्कडाउन को PDF जावा** स्केल पर करें, एक्सॉटिक एन्कोडिंग को हैंडल करें, और कस्टम स्टाइलिंग लागू करें।
+
+अब जब आप **मार्कडाउन को विश्वसनीय रूप से कन्वर्ट** कर सकते हैं, तो आप संबंधित कार्यों को भी एक्सप्लोर कर सकते हैं—शायद **वेब सर्विस में मार्कडाउन को PDF के रूप में सहेजें**, या जेनरेटेड PDFs को ईमेल वर्कफ़्लो में एम्बेड करें। चाहे जो भी हो, मूल पैटर्न वही रहता है: मार्कडाउन को Aspose.HTML को फीड करें, उसे रेंडर होने दें, और PDF लिखें।
+
+क्या आपके पास कोई ट्विस्ट है जिसे आप शेयर करना चाहते हैं? शायद आपको प्रत्येक PDF में वाटरमार्क जोड़ना है या कई PDFs को मर्ज करना है। कमेंट करें, और बातचीत जारी रखें। Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

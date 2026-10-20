@@ -1,18 +1,18 @@
 ---
 category: general
-date: 2026-05-06
-description: 使用 Java 快速将 Markdown 转换为 PDF。了解如何使用 Aspose.HTML 将 markdown 转换为 PDF，并获取关于
-  md 转 pdf 与 markdown 转 pdf 的 Java 提示。
+date: 2026-02-19
+description: 在 Java 中快速将 Markdown 创建为 PDF。了解如何将 Markdown 转换为 PDF（Java），将 Markdown
+  保存为 PDF，以及处理 Markdown 文件到 PDF 的转换。
 draft: false
 keywords:
 - create pdf from markdown
-- convert markdown to pdf
 - markdown to pdf java
-- convert md to pdf
 - how to convert markdown
+- save markdown as pdf
+- markdown file to pdf
 language: zh
-og_description: 在 Java 中将 Markdown 创建为 PDF。本指南展示如何将 Markdown 转换为 PDF，涵盖将 md 转换为 pdf
-  以及在 Java 环境下的 markdown 转 PDF 场景。
+og_description: 在 Java 中通过实战示例将 Markdown 创建为 PDF。本指南展示如何使用 Aspose.HTML 将 Markdown
+  转换为 PDF。
 og_title: 在 Java 中从 Markdown 创建 PDF – 完整教程
 tags:
 - Java
@@ -28,141 +28,249 @@ url: /zh/java/conversion-html-to-other-formats/create-pdf-from-markdown-in-java-
 
 # 在 Java 中从 Markdown 创建 PDF – 完整教程
 
-是否曾想过如何在不使用多个工具的情况下**从 markdown 创建 PDF**？你并不是唯一有此困惑的人。许多开发者在需要将 `.md` 文件转换为用于报告、文档或电子书的精美 PDF 时会遇到瓶颈。好消息是，只需几行 Java 代码和合适的库，你就可以在一次调用中**将 markdown 转换为 pdf**。
+是否曾需要**从 markdown 创建 PDF**，但不确定该使用哪个库？你并不孤单——许多开发者在想直接从文档或 README 文件生成精美 PDF 时都会遇到这个难题。好消息是？只需几行 Java 代码和强大的 Aspose.HTML 库，就能轻松将 `.md` 文件转换为精致的 PDF。
 
-在本教程中，我们将逐步讲解你需要了解的所有内容：必需的依赖、完整可运行的代码示例，以及处理边缘情况的实用技巧。完成后，你将能够以编程方式**将 md 转换为 pdf**，并了解为何这种方法优于复制粘贴的工作流。
+在本指南中，我们将完整演示整个过程：从引入正确的依赖到处理非 UTF‑8 输入等边缘情况。结束时，你将能够可靠地**将 markdown 转换**，并了解如何在生产环境中**将 markdown 保存为 pdf**。
 
 ## 你将学到
 
-- 如何设置 Aspose.HTML for Java，以实现 **markdown to pdf java** 转换。  
-- 逐步代码，读取 Markdown 文件、进行转换并保存为 PDF。  
-- 常见陷阱（编码问题、缺失字体）以及如何避免。  
-- 扩展方案，例如添加封面页或自定义样式。  
+- 在项目中设置 Aspose.HTML for Java。
+- 使用单个 API 调用将 markdown 文件转换为 PDF。
+- 使用 `PdfSaveOptions` 自定义输出。
+- 排查常见问题，如缺少字体或路径无效。
+- 将解决方案扩展为批量处理多个 markdown 文件。
 
 ### 前置条件
 
-- Java 17 或更高（代码使用了现代模块系统）。  
-- Maven 或 Gradle 用于依赖管理。  
-- 一个你想要转换的 Markdown 文件（我们称之为 `input.md`）。  
+| 需求 | 为什么重要 |
+|------|------------|
+| Java 17 或更高 | Aspose.HTML 面向现代 JVM；旧版本可能缺少 API 更新。 |
+| Maven 或 Gradle 构建工具 | 简化添加 Aspose.HTML 依赖。 |
+| UTF‑8 编码的 markdown 文件 (`input.md`) | 转换器期望 UTF‑8；其他编码需要显式处理。 |
+| 基本熟悉 Java I/O | 我们将使用 `java.nio.file.Paths` 来定位文件。 |
 
-如果你对基本的 Java 项目已经熟悉，就可以直接开始。无需额外的 IDE 技巧。
+如果你满足以上所有条件，就可以开始了。
 
-![显示流程的图示：Markdown 文件 → Java 转换器 → PDF 输出（从 markdown 创建 pdf）](create-pdf-from-markdown-diagram.png)
+---
 
-*图片替代文字：“从 markdown 创建 pdf 流程图”*
+## 步骤 1：添加 Aspose.HTML 依赖
 
-## 第一步：将 Aspose.HTML for Java 添加到项目中
-
-Aspose.HTML 是一款商业库，但它提供了免费评估版，非常适合测试。将以下依赖添加到你的 `pom.xml`（Maven）或等价的 Gradle 代码段中：
+首先——你的项目需要 Aspose.HTML 库。如果使用 Maven，请将以下代码片段放入 `pom.xml` 中：
 
 ```xml
-<!-- pom.xml -->
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-html</artifactId>
-    <version>23.12</version> <!-- Use the latest version available -->
+    <version>23.11</version> <!-- Check Maven Central for the latest version -->
 </dependency>
 ```
 
-> **专业提示：** 注意版本号；新版会修复可能影响 **convert markdown to pdf** 可靠性的 bug。
-
-如果你更喜欢 Gradle：
+Gradle 用户可以添加：
 
 ```gradle
-implementation 'com.aspose:aspose-html:23.12'
+implementation 'com.aspose:aspose-html:23.11'
 ```
 
-库加入类路径后，你就可以开始编写转换器了。
+> **技巧提示：** 保持版本号为最新；新版本会修复 markdown 中表格和脚注等细节的 bug。
 
-## 第二步：准备 Markdown 和 PDF 路径
+---
 
-在调用转换 API 之前，先定义源 Markdown 所在位置以及生成的 PDF 要保存到哪里。使用绝对路径可以避免程序在不同工作目录下运行时产生混淆。
+## 步骤 2：准备文件路径
 
-```java
-// Define source and destination paths
-String markdownPath = "C:/Docs/input.md";   // replace with your actual file
-String pdfPath      = "C:/Docs/output.pdf"; // desired output location
-```
-
-> **为何重要：** 硬编码相对路径可能在应用打包为 JAR 时导致 *FileNotFoundException*。使用绝对路径（或可配置属性）可以让流程更稳健。
-
-## 第三步：调用单行转换器
-
-Aspose.HTML 提供了一个静态助手来完成繁重的工作。`Converter.convertMdToPdf` 方法读取 Markdown、解析并一次性流式输出 PDF。
+接下来我们告诉转换器 markdown 源文件的位置以及 PDF 的输出位置。使用 `Paths.get` 可确保平台无关的路径，并安全地解析相对引用。
 
 ```java
-import com.aspose.html.converters.Converter;
+import java.nio.file.Paths;
 
-public class MdToPdf {
-    public static void main(String[] args) throws Exception {
-        // Step 1: Define source Markdown file and target PDF file paths
-        String markdownPath = "C:/Docs/input.md";
-        String pdfPath      = "C:/Docs/output.pdf";
+public class MarkdownToPdfConverter {
+    // Adjust these constants to match your project layout
+    private static final String INPUT_DIR  = "YOUR_DIRECTORY";
+    private static final String MARKDOWN_FILE = "input.md";
+    private static final String PDF_FILE   = "output.pdf";
 
-        // Step 2: Convert the Markdown document to PDF in a single call
-        Converter.convertMdToPdf(markdownPath, pdfPath);
+    private static String markdownPath() {
+        return Paths.get(INPUT_DIR, MARKDOWN_FILE)
+                    .toAbsolutePath()
+                    .toString();
+    }
 
-        // Step 3: Inform the user that the conversion has finished
-        System.out.println("Markdown → PDF conversion completed.");
+    private static String pdfPath() {
+        return Paths.get(INPUT_DIR, PDF_FILE)
+                    .toAbsolutePath()
+                    .toString();
     }
 }
 ```
 
-就这么简单——运行该类后，你会在源文件旁看到 `output.pdf`。控制台会打印友好的确认信息，便于批处理脚本使用。
-
-### 为什么使用 `Converter.convertMdToPdf`？
-
-- **Performance（性能）：** 库采用流式处理，即使是大型 Markdown 文件也不会耗尽内存。  
-- **Formatting fidelity（格式保真度）：** 支持 GitHub 风格的 Markdown、表格、代码块，甚至嵌入的图片。  
-- **Extensibility（可扩展性）：** 如需更细致的样式控制，后续可以切换到 `Converter.convertHtmlToPdf`。
-
-## 第四步：验证结果
-
-在任意阅读器中打开生成的 PDF。你应该能看到标题、列表和图片与 Markdown 源文件完全一致。如果出现异常——比如缺失字体——可以考虑添加自定义 CSS 文件并使用 HTML 转换的重载方法：
-
-```java
-Converter.convertHtmlToPdf(
-    new FileInputStream("C:/Docs/input.html"),
-    new FileOutputStream(pdfPath),
-    new PdfSaveOptions() {{ setCssFilePath("C:/Docs/custom.css"); }});
-```
-
-此额外步骤解答了许多读者的“**how to convert markdown** with custom styling”疑问。
-
-## 常见边缘情况及处理方法
-
-| Issue（问题） | Symptom（症状） | Fix（解决方案） |
-|---|---|---|
-| **Non‑UTF‑8 characters** | PDF 中出现乱码 | 确保 `input.md` 保存为 UTF-8；使用 HTML 重载时也可以用 `new InputStreamReader(..., StandardCharsets.UTF_8)` 包装路径。 |
-| **Missing images** | 图片位置出现空白 | 使用绝对 URL，或将图片复制到同一文件夹并使用 `![alt](file://C:/Docs/image.png)` 引用。 |
-| **Large files (>100 MB)** | 内存溢出错误 | 增加 JVM 堆内存 (`-Xmx2g`) 或使用流式 API 将 Markdown 分块处理。 |
-| **License warning** | 控制台打印 “Evaluation version” | 购买许可证并在转换前调用 `License license = new License(); license.setLicense("Aspose.Total.Java.lic");`。 |
-
-处理这些情况可以确保你的 **convert md to pdf** 流程在生产环境中保持稳定。
-
-## 第五步：自动化或集成
-
-现在你已经拥有可靠的代码片段，可以将其嵌入更大的工作流中：
-
-- **CI/CD pipelines（持续集成/持续交付）:** 在每次发布时自动生成 PDF 文档。  
-- **Web services（Web 服务）:** 暴露接受 Markdown 并返回 PDF 流的接口。  
-- **Desktop tools（桌面工具）:** 与 Swing UI 结合，为非技术用户提供便利。
-
-所有这些用例都基于我们刚才讲解的核心逻辑，证明该方案具备良好的可扩展性。
-
-## 回顾
-
-我们已经演示了如何使用 Aspose.HTML 在 Java 中**从 markdown 创建 PDF**，涵盖了从依赖配置到处理棘手边缘情况的全部内容。简短的单行调用 `Converter.convertMdToPdf` 完成了核心工作，让你可以专注于自动化或自定义样式等更高层面的需求。
+上述方法便于以后复用路径，尤其是在扩展为批量转换时。
 
 ---
 
-### 接下来做什么？
+## 步骤 3：配置 PDF 保存选项（可选但实用）
 
-- 通过添加 CSS 文件尝试 **markdown to pdf java** 的样式定制。  
-- 探索批量转换：遍历 `.md` 文件目录，一次性生成对应的 PDF。  
-- 了解 Aspose.HTML 的其他功能，例如使用页眉/页脚将 HTML 转换为更精致的 PDF。
+Aspose.HTML 提供了合理的默认设置，但你可以微调页面尺寸、压缩或 PDF/A 合规性等。下面是一个最小配置，确保使用标准 A4 页面并嵌入所有字体。
 
-对 **convert markdown to pdf** 有疑问或需要代码调优帮助？在下方留言吧，祝编码愉快！
+```java
+import com.aspose.html.converters.PdfSaveOptions;
+
+private static PdfSaveOptions pdfOptions() {
+    PdfSaveOptions options = new PdfSaveOptions();
+    options.setPageSize(com.aspose.html.drawing.Size.A4);
+    options.setCompress(true);               // Reduces file size
+    options.setPdfACompliance(PdfSaveOptions.PdfAStandard.PdfA1b); // For archiving
+    return options;
+}
+```
+
+如果不需要这些微调，只需实例化 `new PdfSaveOptions()` 并跳过配置即可。
+
+---
+
+## 步骤 4：执行转换
+
+现在登场主角——只需一行代码即可完成繁重工作。`Converter.convert` 方法读取 markdown，内部将其渲染为 HTML，并直接将结果流式写入 PDF 文件。
+
+```java
+import com.aspose.html.converters.Converter;
+
+public static void convertMarkdownToPdf() throws Exception {
+    String mdPath = markdownPath();
+    String pdfPath = pdfPath();
+    PdfSaveOptions options = pdfOptions();
+
+    // The actual conversion happens here
+    Converter.convert(mdPath, pdfPath, options);
+
+    System.out.println("Conversion completed: " + pdfPath);
+}
+```
+
+运行 `convertMarkdownToPdf()` 将在源文件旁生成 `output.pdf`。使用任意 PDF 查看器打开，你会看到 markdown 已正确渲染为标题、列表、代码块，甚至表格。
+
+### 预期输出
+
+如果 `input.md` 包含：
+
+```markdown
+# Sample Document
+
+This is **bold**, *italic*, and `code`.
+
+- Item 1
+- Item 2
+
+| A | B |
+|---|---|
+| 1 | 2 |
+```
+
+生成的 PDF 将显示标题、样式化文本、项目符号列表以及整齐的表格——正如在浏览器中预览 markdown 时的效果，只是锁定为可携带的 PDF。
+
+---
+
+## 步骤 5：在 Main 方法中封装
+
+将所有内容整合到可运行的类中，可方便地在命令行测试或集成到更大的构建流水线中。
+
+```java
+public class Example_ConvertMarkdownToPdf {
+    public static void main(String[] args) {
+        try {
+            convertMarkdownToPdf();
+        } catch (Exception e) {
+            // Real‑world code would log this properly
+            System.err.println("Conversion failed: " + e.getMessage());
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+> **如果转换抛出异常怎么办？**  
+> 大多数失败来源于缺少字体、输入文件不可读或目标文件夹权限不足。请确认 `INPUT_DIR` 存在，`input.md` 可读，并且你的进程对输出路径拥有写入权限。
+
+---
+
+## 高级主题与边缘案例
+
+### 1. 在循环中转换多个文件
+
+如果你有一个存放 markdown 文档的文件夹，可以遍历其中的文件：
+
+```java
+import java.nio.file.Files;
+import java.util.stream.Stream;
+
+public static void batchConvert(String sourceDir, String targetDir) throws Exception {
+    try (Stream<java.nio.file.Path> files = Files.list(Paths.get(sourceDir))) {
+        files.filter(p -> p.toString().endsWith(".md"))
+             .forEach(mdPath -> {
+                 String pdfPath = Paths.get(targetDir,
+                         mdPath.getFileName().toString().replaceAll("\\.md$", ".pdf"))
+                         .toString();
+                 try {
+                     Converter.convert(mdPath.toString(), pdfPath, new PdfSaveOptions());
+                     System.out.println("✔ " + pdfPath);
+                 } catch (Exception ex) {
+                     System.err.println("✘ Failed for " + mdPath + ": " + ex.getMessage());
+                 }
+             });
+    }
+}
+```
+
+此代码片段演示了大规模 **markdown 文件转 pdf** 的转换，独立处理每个文件。
+
+### 2. 处理非 UTF‑8 编码
+
+Aspose.HTML 默认假设为 UTF‑8。如果你的 markdown 使用 ISO‑8859‑1 编码，请先读取为 `String`，再写入临时的 UTF‑8 文件：
+
+```java
+import java.nio.charset.Charset;
+import java.nio.file.StandardOpenOption;
+
+String isoContent = Files.readString(Paths.get(mdPath), Charset.forName("ISO-8859-1"));
+Path tempUtf8 = Files.createTempFile("md_", ".md");
+Files.writeString(tempUtf8, isoContent, Charset.forName("UTF-8"), StandardOpenOption.CREATE);
+Converter.convert(tempUtf8.toString(), pdfPath, new PdfSaveOptions());
+Files.deleteIfExists(tempUtf8);
+```
+
+### 3. 自定义 CSS 样式
+
+想让 PDF 看起来像 GitHub 风格的 markdown 吗？在转换前通过 `HtmlLoadOptions` 提供 CSS 文件：
+
+```java
+import com.aspose.html.loadoptions.HtmlLoadOptions;
+import com.aspose.html.HTMLDocument;
+
+HtmlLoadOptions loadOpts = new HtmlLoadOptions();
+loadOpts.setUserStyleSheet("file:///path/to/github.css");
+
+HTMLDocument doc = new HTMLDocument(mdPath, loadOpts);
+Converter.convert(doc, pdfPath, new PdfSaveOptions());
+```
+
+在使用品牌特定颜色或字体 **将 markdown 保存为 pdf** 时，这种控制非常有用。
+
+---
+
+## 常见陷阱及规避方法
+
+| 症状 | 可能原因 | 解决方案 |
+|------|----------|----------|
+| 空白 PDF 文件 | 输入路径错误或文件为空 | 确认 `markdownPath()` 指向真实的 `.md` 文件。 |
+| PDF 中缺少字体 | 系统字体未嵌入 | 设置 `options.setEmbedStandardFonts(true)` 或在主机上安装缺失的字体。 |
+| 表格列错位 | markdown 表格语法不正确 | 确保竖线 (`|`) 对齐；使用 markdown 检查工具。 |
+| 转换卡住 | 文件过大 > 200 MB | 分块流式读取 markdown，或增加 JVM 堆内存 (`-Xmx2g`)。 |
+
+## 结论
+
+我们已经涵盖了使用 Java **从 markdown 创建 PDF** 所需的全部内容：添加 Aspose.HTML 依赖、配置文件路径、可选的 PDF 调整以及一行代码的转换调用。完整示例开箱即用，额外代码片段展示了如何在规模上实现 **markdown 转 pdf java**、处理特殊编码以及应用自定义样式。
+
+现在你可以可靠地 **转换 markdown**，可以进一步探索相关任务——比如在 Web 服务中 **将 markdown 保存为 pdf**，或将生成的 PDF 嵌入邮件工作流。无论如何，核心模式保持不变：将 markdown 交给 Aspose.HTML 渲染，然后输出 PDF。
+
+有想法想分享吗？也许你需要给每个 PDF 加水印或合并多个 PDF。留下评论，让我们继续交流。祝编码愉快！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

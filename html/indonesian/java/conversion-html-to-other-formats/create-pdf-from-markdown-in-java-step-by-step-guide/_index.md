@@ -1,21 +1,20 @@
 ---
 category: general
-date: 2026-05-06
-description: Buat PDF dari Markdown dengan cepat menggunakan Java. Pelajari cara mengonversi
-  markdown ke PDF dengan Aspose.HTML, serta tips tentang mengonversi md ke PDF dan
-  markdown ke PDF menggunakan Java.
+date: 2026-02-19
+description: Buat PDF dari Markdown di Java dengan cepat. Pelajari cara mengonversi
+  markdown ke PDF Java, menyimpan markdown sebagai PDF, dan menangani konversi file
+  markdown ke PDF.
 draft: false
 keywords:
 - create pdf from markdown
-- convert markdown to pdf
 - markdown to pdf java
-- convert md to pdf
 - how to convert markdown
+- save markdown as pdf
+- markdown file to pdf
 language: id
-og_description: Buat PDF dari Markdown dengan Java. Panduan ini menunjukkan cara mengonversi
-  markdown ke PDF, mencakup skenario mengonversi md ke PDF dan markdown ke PDF dengan
-  Java.
-og_title: Buat PDF dari Markdown dengan Java – Tutorial Lengkap
+og_description: Buat PDF dari Markdown di Java dengan contoh langsung. Panduan ini
+  menunjukkan cara mengonversi markdown ke PDF di Java menggunakan Aspose.HTML.
+og_title: Buat PDF dari Markdown di Java – Tutorial Lengkap
 tags:
 - Java
 - PDF
@@ -28,143 +27,249 @@ url: /id/java/conversion-html-to-other-formats/create-pdf-from-markdown-in-java-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Membuat PDF dari Markdown di Java – Tutorial Lengkap
+# Buat PDF dari Markdown di Java – Tutorial Lengkap
 
-Pernah bertanya-tanya bagaimana cara **membuat PDF dari markdown** tanpa harus menggabungkan banyak alat? Anda tidak sendirian. Banyak pengembang menemui kendala ketika harus mengubah file `.md` menjadi PDF yang rapi untuk laporan, dokumentasi, atau e‑book. Kabar baiknya? Dengan beberapa baris Java dan pustaka yang tepat, Anda dapat **mengonversi markdown ke pdf** dalam satu panggilan.
+Pernah perlu **create PDF from markdown** tetapi tidak yakin perpustakaan mana yang harus dipilih? Anda tidak sendirian—banyak pengembang mengalami kendala ini ketika mereka ingin mengirim PDF dengan gaya yang rapi langsung dari dokumentasi atau file readme mereka. Kabar baik? Dengan beberapa baris Java dan perpustakaan Aspose.HTML yang kuat, mengubah file `.md` menjadi PDF yang halus menjadi sangat mudah.
 
-Dalam tutorial ini kami akan membahas semua yang perlu Anda ketahui: dependensi yang diperlukan, contoh kode lengkap yang berfungsi, dan tips praktis untuk menangani kasus pinggiran. Pada akhir tutorial, Anda akan dapat **mengonversi md ke pdf** secara programatis, dan Anda akan memahami mengapa pendekatan ini lebih baik daripada alur kerja salin‑tempel.
+Dalam panduan ini kami akan membahas seluruh proses: mulai dari menambahkan dependensi yang tepat hingga menangani kasus tepi seperti input non‑UTF‑8. Pada akhir tutorial Anda akan mengetahui **how to convert markdown** secara andal, dan Anda juga akan melihat cara **save markdown as pdf** dengan cara yang siap produksi.
 
 ## Apa yang Akan Anda Pelajari
 
-- Cara menyiapkan Aspose.HTML untuk Java agar dapat melakukan konversi **markdown to pdf java**.  
-- Kode langkah‑demi‑langkah yang membaca file Markdown, mengonversinya, dan menyimpan PDF.  
-- Kesulitan umum (masalah enkoding, font yang hilang) dan cara menghindarinya.  
-- Cara memperluas solusi, seperti menambahkan halaman sampul atau gaya khusus.  
+- Siapkan Aspose.HTML untuk Java dalam proyek Anda.
+- Konversi file markdown ke PDF dengan satu panggilan API.
+- Sesuaikan output menggunakan `PdfSaveOptions`.
+- Memecahkan masalah umum seperti font yang hilang atau path yang tidak valid.
+- Perluas solusi untuk memproses batch beberapa file markdown.
 
 ### Prasyarat
 
-- Java 17 atau lebih baru (kode ini menggunakan sistem modul modern).  
-- Maven atau Gradle untuk manajemen dependensi.  
-- File Markdown yang ingin Anda konversi (kami akan menyebutnya `input.md`).  
+| Requirement | Why it matters |
+|-------------|----------------|
+| Java 17 atau lebih baru | Aspose.HTML menargetkan JVM modern; versi lama mungkin kehilangan pembaruan API. |
+| Alat build Maven atau Gradle | Menyederhanakan penambahan dependensi Aspose.HTML. |
+| File markdown ber-encoding UTF‑8 (`input.md`) | Konverter mengharapkan UTF‑8; encoding lain memerlukan penanganan eksplisit. |
+| Familiaritas dasar dengan Java I/O | Kami akan menggunakan `java.nio.file.Paths` untuk menemukan file. |
 
-Jika Anda sudah nyaman dengan proyek Java dasar, Anda siap melanjutkan. Tidak diperlukan trik IDE tambahan.
+Jika Anda mencentang semua kotak tersebut, Anda siap memulai.
 
-![Diagram yang menunjukkan alur: File Markdown → Konverter Java → Output PDF (create pdf from markdown)](create-pdf-from-markdown-diagram.png)
+---
 
-*Teks alt gambar: “diagram alur create pdf from markdown”*
+## Langkah 1: Tambahkan Dependensi Aspose.HTML
 
-## Langkah 1: Tambahkan Aspose.HTML untuk Java ke Proyek Anda
-
-Aspose.HTML adalah pustaka komersial, tetapi menyediakan versi evaluasi gratis yang cocok untuk pengujian. Tambahkan dependensi berikut ke `pom.xml` Anda (Maven) atau potongan Gradle yang setara:
+Pertama-tama—proyek Anda memerlukan perpustakaan Aspose.HTML. Jika Anda menggunakan Maven, letakkan potongan kode ini ke dalam `pom.xml` Anda:
 
 ```xml
-<!-- pom.xml -->
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-html</artifactId>
-    <version>23.12</version> <!-- Use the latest version available -->
+    <version>23.11</version> <!-- Check Maven Central for the latest version -->
 </dependency>
 ```
 
-> **Tips profesional:** Perhatikan nomor versi; rilis terbaru memperbaiki bug yang dapat memengaruhi keandalan **convert markdown to pdf**.
-
-Jika Anda lebih suka Gradle:
+Pengguna Gradle dapat menambahkan:
 
 ```gradle
-implementation 'com.aspose:aspose-html:23.12'
+implementation 'com.aspose:aspose-html:23.11'
 ```
 
-Setelah pustaka berada di classpath, Anda siap menulis konverter.
+> **Pro tip:** Jaga nomor versi tetap terbaru; rilis terbaru membawa perbaikan bug untuk keanehan markdown seperti tabel dan catatan kaki.
 
-## Langkah 2: Siapkan Jalur Markdown dan PDF
+---
 
-Sebelum memanggil API konversi, tentukan di mana file Markdown sumber Anda berada dan ke mana PDF hasil konversi akan disimpan. Menggunakan jalur absolut menghindari kebingungan ketika program dijalankan dari direktori kerja yang berbeda.
+## Langkah 2: Siapkan Jalur File
 
-```java
-// Define source and destination paths
-String markdownPath = "C:/Docs/input.md";   // replace with your actual file
-String pdfPath      = "C:/Docs/output.pdf"; // desired output location
-```
-
-> **Mengapa ini penting:** Menetapkan jalur relatif secara keras dapat menyebabkan *FileNotFoundException* ketika aplikasi dikemas sebagai JAR. Jalur absolut (atau properti yang dapat dikonfigurasi) membuat proses lebih tahan banting.
-
-## Langkah 3: Panggil Konverter Satu Baris
-
-Aspose.HTML menyediakan helper statis yang melakukan pekerjaan berat. Metode `Converter.convertMdToPdf` membaca Markdown, memparsenya, dan men-stream PDF—semua dalam satu langkah.
+Selanjutnya kami memberi tahu konverter di mana menemukan markdown sumber dan di mana menaruh PDF. Menggunakan `Paths.get` menjamin jalur yang independen platform dan menyelesaikan referensi relatif dengan aman.
 
 ```java
-import com.aspose.html.converters.Converter;
+import java.nio.file.Paths;
 
-public class MdToPdf {
-    public static void main(String[] args) throws Exception {
-        // Step 1: Define source Markdown file and target PDF file paths
-        String markdownPath = "C:/Docs/input.md";
-        String pdfPath      = "C:/Docs/output.pdf";
+public class MarkdownToPdfConverter {
+    // Adjust these constants to match your project layout
+    private static final String INPUT_DIR  = "YOUR_DIRECTORY";
+    private static final String MARKDOWN_FILE = "input.md";
+    private static final String PDF_FILE   = "output.pdf";
 
-        // Step 2: Convert the Markdown document to PDF in a single call
-        Converter.convertMdToPdf(markdownPath, pdfPath);
+    private static String markdownPath() {
+        return Paths.get(INPUT_DIR, MARKDOWN_FILE)
+                    .toAbsolutePath()
+                    .toString();
+    }
 
-        // Step 3: Inform the user that the conversion has finished
-        System.out.println("Markdown → PDF conversion completed.");
+    private static String pdfPath() {
+        return Paths.get(INPUT_DIR, PDF_FILE)
+                    .toAbsolutePath()
+                    .toString();
     }
 }
 ```
 
-Itu saja—jalankan kelasnya, dan Anda akan melihat `output.pdf` muncul di samping file sumber Anda. Konsol akan mencetak konfirmasi ramah, yang berguna untuk skrip batch.
-
-### Mengapa Menggunakan `Converter.convertMdToPdf`?
-
-- **Kinerja:** Pustaka ini men-stream data, sehingga bahkan file Markdown yang besar tidak akan menghabiskan memori.  
-- **Kesetiaan format:** Ia menghormati GitHub‑flavored Markdown, tabel, blok kode, dan bahkan gambar yang disematkan.  
-- **Ekstensibilitas:** Anda dapat beralih ke `Converter.convertHtmlToPdf` nanti jika memerlukan kontrol lebih besar atas styling.
-
-## Langkah 4: Verifikasi Hasilnya
-
-Buka PDF yang dihasilkan dengan penampil apa pun. Anda harus melihat heading, daftar, dan gambar ditampilkan persis seperti di sumber Markdown. Jika ada yang tampak tidak tepat—misalnya font yang hilang—pertimbangkan menambahkan file CSS khusus dan menggunakan overload konversi HTML:
-
-```java
-Converter.convertHtmlToPdf(
-    new FileInputStream("C:/Docs/input.html"),
-    new FileOutputStream(pdfPath),
-    new PdfSaveOptions() {{ setCssFilePath("C:/Docs/custom.css"); }});
-```
-
-Langkah tambahan ini menjawab pertanyaan “**bagaimana cara mengonversi markdown** dengan styling khusus” yang sering diajukan pembaca.
-
-## Kasus Pinggiran Umum & Cara Menanganinya
-
-| Masalah | Gejala | Solusi |
-|---------|--------|--------|
-| **Karakter non‑UTF‑8** | Teks berantakan di PDF | Pastikan `input.md` disimpan sebagai UTF‑8; Anda juga dapat membungkus jalur dengan `new InputStreamReader(..., StandardCharsets.UTF_8)` saat menggunakan overload HTML. |
-| **Gambar hilang** | Ruang kosong di tempat gambar seharusnya | Gunakan URL absolut atau salin gambar ke folder yang sama dan referensikan dengan `![alt](file://C:/Docs/image.png)`. |
-| **File besar (>100 MB)** | Kesalahan out‑of‑memory | Tingkatkan heap JVM (`-Xmx2g`) atau proses Markdown dalam potongan menggunakan API streaming. |
-| **Peringatan lisensi** | Konsol menampilkan “Evaluation version” | Beli lisensi dan panggil `License license = new License(); license.setLicense("Aspose.Total.Java.lic");` sebelum konversi. |
-
-Menangani skenario ini memastikan alur **convert md to pdf** Anda tetap stabil di lingkungan produksi.
-
-## Langkah 5: Otomatisasi atau Integrasi
-
-Setelah Anda memiliki potongan kode yang handal, Anda dapat menyematkannya ke dalam alur kerja yang lebih besar:
-
-- **Pipeline CI/CD:** Hasilkan dokumen PDF secara otomatis pada setiap rilis.  
-- **Layanan web:** Ekspos endpoint yang menerima Markdown dan mengembalikan aliran PDF.  
-- **Alat desktop:** Padukan dengan UI Swing untuk pengguna non‑teknis.
-
-Semua kasus penggunaan ini berputar di sekitar logika inti yang baru saja kita bahas, membuktikan bahwa solusi ini dapat diskalakan dengan baik.
-
-## Ringkasan
-
-Kami telah menunjukkan cara **membuat PDF dari markdown** di Java menggunakan Aspose.HTML, mencakup semua hal mulai dari penyiapan dependensi hingga penanganan kasus pinggiran yang rumit. Panggilan singkat satu baris `Converter.convertMdToPdf` melakukan pekerjaan berat, memungkinkan Anda fokus pada hal‑hal tingkat tinggi seperti otomasi atau styling khusus.
+Metode di atas memudahkan penggunaan kembali jalur tersebut nanti, terutama jika Anda memperluas ke konversi batch.
 
 ---
 
-### Apa Selanjutnya?
+## Langkah 3: Konfigurasikan Opsi Penyimpanan PDF (Opsional tapi Berguna)
 
-- Bereksperimen dengan styling **markdown to pdf java** dengan menambahkan file CSS.  
-- Jelajahi konversi batch: iterasi melalui direktori berisi file `.md` dan hasilkan PDF sekaligus.  
-- Lihat fitur Aspose.HTML lainnya, seperti mengonversi HTML ke PDF dengan header/footer untuk tampilan yang lebih profesional.
+Aspose.HTML hadir dengan nilai default yang masuk akal, tetapi Anda dapat menyesuaikan hal-hal seperti ukuran halaman, kompresi, atau kepatuhan PDF/A. Berikut ini pengaturan minimal yang menjamin halaman A4 standar dan menyematkan semua font.
 
-Punya pertanyaan tentang **convert markdown to pdf** atau butuh bantuan menyesuaikan kode? Tinggalkan komentar di bawah, dan selamat coding!
+```java
+import com.aspose.html.converters.PdfSaveOptions;
+
+private static PdfSaveOptions pdfOptions() {
+    PdfSaveOptions options = new PdfSaveOptions();
+    options.setPageSize(com.aspose.html.drawing.Size.A4);
+    options.setCompress(true);               // Reduces file size
+    options.setPdfACompliance(PdfSaveOptions.PdfAStandard.PdfA1b); // For archiving
+    return options;
+}
+```
+
+Jika Anda tidak memerlukan penyesuaian ini, cukup buat instance `new PdfSaveOptions()` dan lewati konfigurasi.
+
+---
+
+## Langkah 4: Lakukan Konversi
+
+Sekarang bagian utama—satu baris kode yang melakukan pekerjaan berat. Metode `Converter.convert` membaca markdown, merendernya sebagai HTML secara internal, dan mengalirkan hasilnya langsung ke file PDF.
+
+```java
+import com.aspose.html.converters.Converter;
+
+public static void convertMarkdownToPdf() throws Exception {
+    String mdPath = markdownPath();
+    String pdfPath = pdfPath();
+    PdfSaveOptions options = pdfOptions();
+
+    // The actual conversion happens here
+    Converter.convert(mdPath, pdfPath, options);
+
+    System.out.println("Conversion completed: " + pdfPath);
+}
+```
+
+Menjalankan `convertMarkdownToPdf()` akan menghasilkan `output.pdf` tepat di sebelah file sumber Anda. Buka dengan penampil PDF apa pun dan Anda akan melihat markdown dirender dengan heading yang tepat, daftar, blok kode, dan bahkan tabel.
+
+### Output yang Diharapkan
+
+If `input.md` contains:
+
+```markdown
+# Sample Document
+
+This is **bold**, *italic*, and `code`.
+
+- Item 1
+- Item 2
+
+| A | B |
+|---|---|
+| 1 | 2 |
+```
+
+PDF yang dihasilkan akan menampilkan heading, teks bergaya, daftar bullet, dan tabel yang diformat rapi—tepat seperti yang Anda harapkan dari pratinjau markdown di browser, tetapi terkunci dalam PDF yang dapat dibawa.
+
+---
+
+## Langkah 5: Bungkus dalam Metode Main
+
+Menggabungkan semuanya ke dalam kelas yang dapat dijalankan memudahkan pengujian dari baris perintah atau integrasi ke dalam pipeline build yang lebih besar.
+
+```java
+public class Example_ConvertMarkdownToPdf {
+    public static void main(String[] args) {
+        try {
+            convertMarkdownToPdf();
+        } catch (Exception e) {
+            // Real‑world code would log this properly
+            System.err.println("Conversion failed: " + e.getMessage());
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+> **What if the conversion throws an exception?**  
+> Kebanyakan kegagalan berasal dari font yang hilang, file input yang tidak dapat dibaca, atau izin yang tidak cukup pada folder tujuan. Pastikan `INPUT_DIR` ada, `input.md` dapat dibaca, dan proses Anda memiliki akses menulis ke jalur output.
+
+---
+
+## Topik Lanjutan & Kasus Tepi
+
+### 1. Mengonversi Banyak File dalam Loop
+
+Jika Anda memiliki folder dokumen markdown, Anda dapat mengiterasi mereka:
+
+```java
+import java.nio.file.Files;
+import java.util.stream.Stream;
+
+public static void batchConvert(String sourceDir, String targetDir) throws Exception {
+    try (Stream<java.nio.file.Path> files = Files.list(Paths.get(sourceDir))) {
+        files.filter(p -> p.toString().endsWith(".md"))
+             .forEach(mdPath -> {
+                 String pdfPath = Paths.get(targetDir,
+                         mdPath.getFileName().toString().replaceAll("\\.md$", ".pdf"))
+                         .toString();
+                 try {
+                     Converter.convert(mdPath.toString(), pdfPath, new PdfSaveOptions());
+                     System.out.println("✔ " + pdfPath);
+                 } catch (Exception ex) {
+                     System.err.println("✘ Failed for " + mdPath + ": " + ex.getMessage());
+                 }
+             });
+    }
+}
+```
+
+Potongan kode ini menunjukkan **markdown file to pdf** secara skala, menangani setiap file secara independen.
+
+### 2. Menangani Encoding Non‑UTF‑8
+
+Aspose.HTML mengasumsikan UTF‑8 secara default. Jika markdown Anda di‑encode dalam ISO‑8859‑1, bacalah ke dalam `String` terlebih dahulu dan tulis ke file temporer UTF‑8:
+
+```java
+import java.nio.charset.Charset;
+import java.nio.file.StandardOpenOption;
+
+String isoContent = Files.readString(Paths.get(mdPath), Charset.forName("ISO-8859-1"));
+Path tempUtf8 = Files.createTempFile("md_", ".md");
+Files.writeString(tempUtf8, isoContent, Charset.forName("UTF-8"), StandardOpenOption.CREATE);
+Converter.convert(tempUtf8.toString(), pdfPath, new PdfSaveOptions());
+Files.deleteIfExists(tempUtf8);
+```
+
+### 3. Penataan CSS Kustom
+
+Ingin PDF terlihat seperti markdown bergaya GitHub Anda? Berikan file CSS melalui `HtmlLoadOptions` sebelum konversi:
+
+```java
+import com.aspose.html.loadoptions.HtmlLoadOptions;
+import com.aspose.html.HTMLDocument;
+
+HtmlLoadOptions loadOpts = new HtmlLoadOptions();
+loadOpts.setUserStyleSheet("file:///path/to/github.css");
+
+HTMLDocument doc = new HTMLDocument(mdPath, loadOpts);
+Converter.convert(doc, pdfPath, new PdfSaveOptions());
+```
+
+Tingkat kontrol ini berguna ketika **save markdown as pdf** dengan warna atau font khusus merek.
+
+## Kesalahan Umum dan Cara Menghindarinya
+
+| Symptom | Likely Cause | Fix |
+|---------|--------------|-----|
+| File PDF kosong | Jalur input salah atau file kosong | Verifikasi `markdownPath()` mengarah ke file `.md` yang nyata. |
+| Font hilang di PDF | Font sistem tidak disematkan | Set `options.setEmbedStandardFonts(true)` atau instal font yang hilang di host. |
+| Kolom tabel tidak rata | Sintaks tabel markdown tidak tepat | Pastikan karakter pipe (`|`) sejajar; gunakan linter markdown. |
+| Konversi macet | File besar > 200 MB | Alirkan markdown dalam potongan atau tingkatkan heap JVM (`-Xmx2g`). |
+
+## Kesimpulan
+
+Kami telah membahas semua yang Anda perlukan untuk **create PDF from markdown** menggunakan Java: menambahkan dependensi Aspose.HTML, menyiapkan jalur file, penyesuaian PDF opsional, dan panggilan konversi satu baris. Contoh lengkap dapat dijalankan langsung, dan potongan kode tambahan menunjukkan cara **markdown to pdf java** secara skala, menangani encoding eksotis, dan menerapkan gaya kustom.
+
+Sekarang Anda dapat **convert markdown** secara andal, Anda mungkin ingin menjelajahi tugas terkait—mungkin **save markdown as pdf** dalam layanan web, atau menyematkan PDF yang dihasilkan ke dalam alur kerja email. Bagaimanapun, pola inti tetap sama: beri markdown ke Aspose.HTML, biarkan merender, dan tulis PDF.
+
+Ada ide unik yang ingin Anda bagikan? Mungkin Anda perlu menambahkan watermark pada setiap PDF atau menggabungkan beberapa PDF. Tinggalkan komentar, dan mari teruskan diskusi. Selamat coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
