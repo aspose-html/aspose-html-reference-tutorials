@@ -126,6 +126,8 @@ Aprenda a renderizar HTML como imagen PNG usando C# y Aspose.HTML, con ejemplos 
 Aprenda a guardar HTML en un archivo ZIP utilizando un controlador de recursos personalizado con Aspose.HTML para .NET paso a paso.
 ### [Guardar página web como ZIP con Aspose.HTML – Tutorial completo en C#](./save-webpage-as-zip-with-aspose-html-complete-c-tutorial/)
 Aprenda a guardar una página web como archivo ZIP usando Aspose.HTML en C# con este tutorial paso a paso.
+### [Guardar HTML como ZIP – Guía completa en C# para convertir HTML a ZIP](./save-html-as-zip-complete-c-guide-to-convert-html-to-zip/)
+Aprenda a guardar documentos HTML como archivos ZIP usando C# con una guía paso a paso completa.
 ### [Convierte HTML a TIFF en .NET con Aspose.HTML](./convert-html-to-tiff/)
 Aprenda a convertir HTML a TIFF con Aspose.HTML para .NET. Siga nuestra guía paso a paso para optimizar eficazmente el contenido web.
 ### [Convierta HTML a XPS en .NET con Aspose.HTML](./convert-html-to-xps/)
@@ -193,6 +195,8 @@ Aprenda a renderizar HTML a PDF en C# con control de tamaño de página y suaviz
 Aprenda a guardar documentos HTML como archivos ZIP usando C# con Aspose.HTML en esta guía paso a paso completa.
 ### [Cómo comprimir HTML en C# – guía de controlador de recursos personalizado](./how-to-zip-html-in-c-custom-resource-handler-guide/)
 Aprenda a comprimir archivos HTML usando un controlador de recursos personalizado en C# con Aspose.HTML. Guía paso a paso.
+### [Cómo comprimir HTML desde DOCX – Guía completa en C#](./how-to-zip-html-from-docx-complete-c-guide/)
+Aprenda a extraer HTML de un DOCX y guardarlo en un archivo ZIP usando C# y Aspose.HTML. Guía paso a paso con ejemplos de código.
 
 ## Conclusión
 

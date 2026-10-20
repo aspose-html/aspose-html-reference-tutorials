@@ -189,6 +189,10 @@ Lär dig hur du skapar ett zip‑arkiv i C# som innehåller HTML med inbäddade 
 Lär dig hur du sparar HTML som en ZIP-fil med en detaljerad steg‑för‑steg‑guide i C# och Aspose.HTML.
 ### [Spara HTML som ZIP i C# – Komplett Aspose.HTML-guide](./how-to-save-html-as-zip-in-c-complete-aspose-html-guide/)
 Lär dig hur du sparar HTML som ZIP i C# med en komplett Aspose.HTML-guide, inklusive kodexempel och steg‑för‑steg‑instruktioner.
+### [Spara HTML som ZIP – Komplett C#-guide för att konvertera HTML till ZIP](./save-html-as-zip-complete-c-guide-to-convert-html-to-zip/)
+Lär dig konvertera HTML till ZIP med en komplett C#-guide, inklusive kodexempel och steg‑för‑steg‑instruktioner.
+### [Hur du zippar HTML från DOCX – Komplett C#-guide](./how-to-zip-html-from-docx-complete-c-guide/)
+Lär dig hur du zippar HTML som extraheras från DOCX-filer med en komplett C#‑guide och kodexempel.
 
 ## Slutsats
 

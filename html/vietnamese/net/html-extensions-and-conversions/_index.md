@@ -191,6 +191,10 @@ Hướng dẫn chi tiết cách lưu tài liệu HTML thành tệp ZIP bằng tr
 
 ### [Lưu trang web dưới dạng ZIP với Aspose.HTML – Hướng dẫn C# đầy đủ](./save-webpage-as-zip-with-aspose-html-complete-c-tutorial/)
 Hướng dẫn chi tiết cách lưu trang web thành tệp ZIP bằng C# và Aspose.HTML, kèm ví dụ mã và tùy chọn cấu hình.
+### [Lưu HTML dưới dạng ZIP – Hướng dẫn C# đầy đủ để chuyển đổi HTML thành ZIP](./save-html-as-zip-complete-c-guide-to-convert-html-to-zip/)
+Hướng dẫn chi tiết cách lưu tài liệu HTML thành tệp ZIP bằng Aspose.HTML cho .NET sử dụng C#.
+### [Cách Nén HTML từ DOCX – Hướng dẫn C# đầy đủ](./how-to-zip-html-from-docx-complete-c-guide/)
+Hướng dẫn chi tiết cách nén HTML từ tệp DOCX thành ZIP bằng C# và Aspose.HTML cho .NET, bao gồm ví dụ mã và tùy chọn cấu hình.
 
 ## Phần kết luận
 

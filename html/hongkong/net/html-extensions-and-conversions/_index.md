@@ -193,6 +193,10 @@ Aspose.HTML for .NET 不只是一個函式庫；它還是一個函式庫。它�
 使用 Aspose.HTML for .NET 將整個網頁保存為 ZIP 檔案，提供完整的 C# 範例與步驟說明。
 ### [如何在 C# 中壓縮 HTML – 自訂資源處理器指南](./how-to-zip-html-in-c-custom-resource-handler-guide/)
 了解如何使用 Aspose.HTML for .NET 在 C# 中透過自訂資源處理器將 HTML 壓縮為 ZIP，提供完整範例與步驟說明。
+### [將 HTML 儲存為 ZIP – 完整 C# 教學：將 HTML 轉換為 ZIP](./save-html-as-zip-complete-c-guide-to-convert-html-to-zip/)
+提供完整的 C# 範例，說明如何使用 Aspose.HTML 將 HTML 轉換並壓縮為 ZIP 檔案。
+### [如何從 DOCX 壓縮 HTML – 完整 C# 教學](./how-to-zip-html-from-docx-complete-c-guide/)
+說明如何使用 Aspose.HTML for .NET 從 DOCX 取得 HTML 並壓縮為 ZIP，提供完整 C# 範例。
 
 ## 結論
 

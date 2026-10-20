@@ -141,6 +141,10 @@ url: /el/net/html-extensions-and-conversions/
 Μάθετε πώς να δημιουργήσετε ένα έγγραφο HTML χρησιμοποιώντας C# βήμα‑βήμα με το Aspose.HTML.
 ### [Ορισμός μεγέθους σελίδας PDF σε C# – Μετατροπή HTML σε PDF](./set-pdf-page-size-in-c-convert-html-to-pdf/)
 Ορίστε το μέγεθος της σελίδας PDF σε C# κατά τη μετατροπή HTML σε PDF με το Aspose.HTML.
+### [Αποθήκευση HTML ως ZIP – Πλήρης Οδηγός C# για τη Μετατροπή HTML σε ZIP](./save-html-as-zip-complete-c-guide-to-convert-html-to-zip/)
+Μάθετε πώς να μετατρέπετε HTML σε αρχείο ZIP με C# χρησιμοποιώντας το Aspose.HTML για .NET.
+### [Πώς να συμπιέσετε HTML από DOCX – Πλήρης οδηγός C#](./how-to-zip-html-from-docx-complete-c-guide/)
+Μάθετε πώς να εξάγετε HTML από έγγραφα DOCX και να τα συμπιέσετε σε αρχείο ZIP χρησιμοποιώντας C# και Aspose.HTML.
 
 ### [Αποθήκευση HTML ως ZIP σε C# – Πλήρης Οδηγός](./save-html-as-zip-in-c-complete-guide/)
 Μάθετε πώς να αποθηκεύετε HTML σε αρχείο ZIP με C# χρησιμοποιώντας πλήρη οδηγό βήμα‑βήμα.
