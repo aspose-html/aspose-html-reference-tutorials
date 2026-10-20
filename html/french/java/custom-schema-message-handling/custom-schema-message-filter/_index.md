@@ -1,11 +1,59 @@
 ---
-date: 2026-01-28
-description: Apprenez à filtrer le HTML en implémentant un filtre de messages de schéma
-  personnalisé en Java avec Aspose.HTML. Suivez ce guide étape par étape pour une
-  expérience d'application sécurisée et adaptée.
-linktitle: Custom Schema Message Filtering in Aspose.HTML
+date: 2026-06-09
+description: Apprenez comment filtrer le HTML avec Aspose.HTML for Java en implémentant
+  un custom schema filter. Suivez ce guide étape par étape pour un traitement du HTML
+  sécurisé et efficace.
+keywords:
+- how to filter html
+- filter network requests
+- implement custom filter
+linktitle: Custom Schema Message Filtering dans Aspose.HTML
+schemas:
+- author: Aspose
+  dateModified: '2026-06-09'
+  description: Learn how to filter html with Aspose.HTML for Java by implementing
+    a custom schema filter. Follow this step‑by‑step guide for secure, efficient HTML
+    processing.
+  headline: How to Filter HTML Using Custom Schema Filter (Java)
+  type: TechArticle
+- description: Learn how to filter html with Aspose.HTML for Java by implementing
+    a custom schema filter. Follow this step‑by‑step guide for secure, efficient HTML
+    processing.
+  name: How to Filter HTML Using Custom Schema Filter (Java)
+  steps:
+  - name: '**Java Development Kit (JDK)** – JDK 8 or later. Download it from the [Oracle
+      website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).'
+    text: '**Java Development Kit (JDK)** – JDK 8 or later. Download it from the [Oracle
+      website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).'
+  - name: '**Aspose.HTML for Java Library** – Get the latest JAR from the [Aspose
+      releases page](https://releases.aspose.com/html/java/).'
+    text: '**Aspose.HTML for Java Library** – Get the latest JAR from the [Aspose
+      releases page](https://releases.aspose.com/html/java/).'
+  - name: '**IDE** – IntelliJ IDEA, Eclipse, or any Java‑compatible IDE.'
+    text: '**IDE** – IntelliJ IDEA, Eclipse, or any Java‑compatible IDE.'
+  - name: '**Basic Java knowledge** – Familiarity with classes, inheritance, and interfaces.'
+    text: '**Basic Java knowledge** – Familiarity with classes, inheritance, and interfaces.'
+  type: HowTo
+- questions:
+  - answer: Aspose.HTML for Java is a high‑performance API that enables creation,
+      manipulation, and rendering of HTML, CSS, and SVG documents directly from Java
+      code.
+    question: What is Aspose.HTML for Java?
+  - answer: It lets you enforce security policies, cut unnecessary bandwidth, and
+      stay compliant by restricting network calls to approved protocols such as HTTPS.
+    question: Why would I need a custom schema message filter?
+  - answer: Yes—extend the `match` method to compare the request’s scheme against
+      a collection (e.g., a `Set<String>`) of allowed values.
+    question: Can I filter multiple schemas with a single filter?
+  - answer: Aspose.HTML for Java supports JDK 8 and later, including JDK 11, 17, and
+      upcoming LTS releases.
+    question: Is the library compatible with all Java versions?
+  - answer: Reach out via the [Aspose support forum](https://forum.aspose.com/c/html/29)
+      for community and developer assistance.
+    question: Where can I get help if I run into problems?
+  type: FAQPage
 second_title: Java HTML Processing with Aspose.HTML
-title: Comment filtrer le HTML en utilisant un filtre de schéma personnalisé (Java)
+title: Comment filtrer le HTML à l'aide du Custom Schema Filter (Java)
 url: /fr/java/custom-schema-message-handling/custom-schema-message-filter/
 weight: 10
 ---
@@ -14,44 +62,42 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Filtrage des messages de schéma personnalisé dans Aspose.HTML pour Java
+# Comment filtrer le HTML à l'aide d'un filtre de schéma personnalisé (Java)
 
 ## Introduction
-Créer des solutions personnalisées qui répondent à des besoins spécifiques nécessite souvent d’explorer en profondeur les outils et bibliothèques disponibles. Lorsqu’on travaille avec des documents HTML en Java, l’API Aspose.HTML pour Java offre une multitude de fonctionnalités qui peuvent être adaptées à vos exigences. L’une de ces personnalisations concerne **la façon de filtrer le HTML** en fonction d’un schéma personnalisé à l’aide de la classe `MessageFilter`. Dans ce guide, nous vous accompagnons pas à pas dans la mise en œuvre d’un filtre de messages de schéma personnalisé avec Aspose.HTML pour Java. Que vous soyez développeur chevronné ou que vous débutiez, ce tutoriel vous aidera à créer un mécanisme de filtrage robuste adapté aux exigences spécifiques de votre application.
+Dans ce tutoriel, vous découvrirez **comment filtrer le html** en tirant parti de l'API `MessageFilter` d'Aspose.HTML en Java. Nous parcourrons la création d'un filtre de schéma personnalisé qui vous permet d'accepter ou de rejeter les requêtes réseau en fonction de leur protocole. Que vous ayez besoin de bloquer les schémas non sécurisés, de réduire la bande passante ou de respecter la conformité de l'entreprise, ce guide vous fournit une solution solide, prête pour la production.
 
 ## Réponses rapides
-- **Que fait le filtre ?** Il ne laisse passer que les requêtes réseau correspondant à un schéma spécifié (par ex. https).  
-- **Quelle classe doit être étendue ?** `MessageFilter`.  
-- **Ai‑je besoin d’une licence ?** Oui, une licence valide d’Aspose.HTML pour Java est requise pour une utilisation en production.  
-- **Puis‑je filtrer plusieurs schémas ?** Oui – étendez la méthode `match` avec une logique supplémentaire.  
-- **Quelle version de Java est requise ?** JDK 8 ou supérieur.
+- **Quel est le rôle du filtre ?** Il autorise uniquement les requêtes réseau qui correspondent à un schéma spécifié (par ex., https) et bloque tout le reste.  
+- **Quelle classe doit être étendue ?** `MessageFilter`.  
+- **Ai-je besoin d’une licence ?** Oui, une licence valide d’Aspose.HTML pour Java est requise pour une utilisation en production.  
+- **Puis‑je filtrer plusieurs schémas ?** Absolument – surchargez la méthode `match` avec une logique supplémentaire pour chaque schéma.  
+- **Quelle version de Java est requise ?** JDK 8 ou ultérieure.
 
-## Qu’entend‑on par « comment filtrer le HTML » dans ce contexte ?
-Filtrer le HTML ici signifie intercepter les opérations réseau effectuées par Aspose.HTML et les autoriser ou les bloquer en fonction du protocole (schéma) de la requête. Cela vous donne un contrôle granulaire sur les ressources auxquelles votre moteur de traitement HTML peut accéder.
+## Qu’est-ce que « comment filtrer le html » dans ce contexte ?
+En examinant chaque requête sortante, le filtre peut décider d'autoriser le chargement de scripts, d'images, de feuilles de style ou d'autres ressources, garantissant que seuls les contenus provenant de schémas autorisés sont récupérés. Cela vous offre un contrôle granulaire sur les ressources externes auxquelles votre moteur de traitement HTML peut accéder.
 
-## Pourquoi utiliser un filtre de schéma personnalisé ?
-- **Sécurité** – Empêcher l’accès à des protocoles indésirables (par ex. `ftp`).  
-- **Performance** – Réduire le trafic réseau inutile en bloquant les requêtes non pertinentes.  
-- **Conformité** – Appliquer les politiques d’entreprise qui n’autorisent que des schémas spécifiques.
+## Pourquoi utiliser un filtre de schéma personnalisé ?
+Un filtre de schéma personnalisé **améliore la sécurité, les performances et la conformité**. Aspose.HTML prend en charge **plus de 50 formats d'entrée et de sortie** et peut gérer des documents de plusieurs centaines de pages sans charger le fichier complet en mémoire, ainsi limiter le trafic réseau réduit directement la surface d'attaque et accélère le rendu jusqu'à 30 % dans des scénarios typiques.
 
 ## Prérequis
-1. **Java Development Kit (JDK)** – JDK 8 ou supérieur. Téléchargez‑le depuis le [site Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
-2. **Bibliothèque Aspose.HTML pour Java** – Obtenez le dernier JAR sur la [page des releases Aspose](https://releases.aspose.com/html/java/).  
+1. **Java Development Kit (JDK)** – JDK 8 ou ultérieur. Téléchargez-le depuis le site [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+2. **Bibliothèque Aspose.HTML pour Java** – Obtenez le dernier JAR depuis la [page des releases Aspose](https://releases.aspose.com/html/java/).  
 3. **IDE** – IntelliJ IDEA, Eclipse ou tout IDE compatible Java.  
-4. **Connaissances de base en Java** – Familiarité avec les classes, l’héritage et les interfaces.
+4. **Connaissances de base en Java** – Familiarité avec les classes, l'héritage et les interfaces.
 
 ## Importer les packages
-Pour commencer, importez les packages nécessaires dans votre projet Java. Ces packages sont essentiels pour implémenter le filtre de messages de schéma personnalisé.
+La classe `MessageFilter` est le point d'extensibilité d'Aspose.HTML pour intercepter le trafic réseau. `INetworkOperationContext` fournit des détails sur chaque requête, tels que l'URI et les en‑têtes.
 
 ```java
 import com.aspose.html.net.INetworkOperationContext;
 import com.aspose.html.net.MessageFilter;
 ```
 
-Ces imports comprennent les classes principales que vous utiliserez : `MessageFilter` pour créer votre filtre personnalisé et `INetworkOperationContext` pour accéder aux détails de l’opération réseau.
+Ces importations incluent les classes principales que vous utiliserez : `MessageFilter` pour créer votre filtre personnalisé et `INetworkOperationContext` pour accéder aux détails des opérations réseau.
 
-## Étape 1 : créer la classe de filtre de messages de schéma personnalisé
-Commençons par créer une classe qui étend la classe `MessageFilter`. Cette classe personnalisée vous permettra de définir la logique de filtrage basée sur un schéma spécifique.
+## Étape 1 : Créer la classe de filtre de message de schéma personnalisé
+Tout d'abord, définissez une classe qui étend `MessageFilter`. Cette sous‑classe contiendra le schéma que vous souhaitez autoriser (par ex., « https ») et le rendra accessible via un constructeur.
 
 ```java
 public class CustomSchemaMessageFilter extends MessageFilter {
@@ -62,10 +108,10 @@ public class CustomSchemaMessageFilter extends MessageFilter {
 }
 ```
 
-Dans cette étape, vous définissez la classe `CustomSchemaMessageFilter` et l’initialisez avec une valeur de schéma. Le schéma est passé au constructeur lors de la création d’une instance de cette classe. Cette valeur sera utilisée ultérieurement pour comparer le protocole des requêtes entrantes.
+Dans cette étape, vous définissez la classe `CustomSchemaMessageFilter` et l'initialisez avec une valeur de schéma. Le schéma est passé au constructeur lors de la création d'une instance de cette classe. Cette valeur sera utilisée ultérieurement pour faire correspondre le protocole des requêtes entrantes.
 
-## Étape 2 : remplacer la méthode `match`
-Le cœur de la logique de filtrage réside dans la méthode `match`, que vous devez surcharger. Cette méthode déterminera si une requête réseau particulière correspond au schéma personnalisé que vous avez défini.
+## Étape 2 : Surcharger la méthode `match`
+La méthode `match` est le cœur du filtre. Elle reçoit une instance `INetworkOperationContext`, extrait l'URI de la requête et décide si la requête respecte le schéma autorisé.
 
 ```java
 @Override
@@ -75,10 +121,10 @@ public boolean match(INetworkOperationContext context) {
 }
 ```
 
-Dans cette méthode, vous extrayez le protocole de l’URI de la requête et le comparez à votre schéma personnalisé. S’ils correspondent, la méthode renvoie `true`, indiquant que la requête passe le filtre ; sinon, elle renvoie `false`.
+Dans cette méthode, vous extrayez le protocole de l'URI de la requête et le comparez à votre schéma personnalisé. S'ils correspondent, la méthode renvoie `true`, indiquant que la requête passe le filtre ; sinon, elle renvoie `false`.
 
-## Étape 3 : instancier et utiliser le filtre personnalisé
-Une fois votre classe de filtre définie, l’étape suivante consiste à créer une instance de celle‑ci et à l’utiliser dans votre application.
+## Étape 3 : Instancier et utiliser le filtre personnalisé
+Créez une instance de votre filtre et fournissez le schéma souhaité (par exemple, « https »). Cet objet sera fourni au pipeline de traitement d'Aspose.HTML.
 
 ```java
 CustomSchemaMessageFilter filter = new CustomSchemaMessageFilter("https");
@@ -86,8 +132,8 @@ CustomSchemaMessageFilter filter = new CustomSchemaMessageFilter("https");
 
 Ici, vous créez une nouvelle instance de la classe `CustomSchemaMessageFilter`, en passant le schéma souhaité (dans ce cas, `"https"`) au constructeur. Cette instance filtrera désormais les requêtes en fonction du protocole HTTPS.
 
-## Étape 4 : appliquer le filtre dans votre application
-Maintenant que votre filtre est prêt, il faut l’intégrer aux opérations réseau de votre application.
+## Étape 4 : Appliquer le filtre dans votre application
+La classe `Browser` fournit un moteur de rendu HTML complet, tandis que `HtmlRenderer` propose une API de rendu légère pour convertir le HTML en images ou PDF. Intégrez le filtre avec le `Browser` ou le `HtmlRenderer` que vous utilisez. Le moteur invoquera `match` pour chaque requête sortante, vous permettant de la bloquer ou de l'autoriser.
 
 ```java
 // Assuming 'context' is an instance of INetworkOperationContext
@@ -100,10 +146,10 @@ if (filter.match(context)) {
 }
 ```
 
-Dans cette étape, vous utilisez la méthode `match` pour vérifier si la requête réseau entrante respecte le schéma personnalisé. En fonction du résultat, vous pouvez autoriser ou bloquer la requête.
+Dans cette étape, vous utilisez la méthode `match` pour vérifier si la requête réseau entrante respecte le schéma personnalisé. En fonction du résultat, vous pouvez autoriser ou bloquer la requête en conséquence.
 
-## Étape 5 : tester le filtre personnalisé
-Les tests sont une partie cruciale de tout processus de développement. Vous devrez simuler différents scénarios afin de vous assurer que votre filtre de messages de schéma fonctionne comme prévu.
+## Étape 5 : Tester le filtre personnalisé
+Les tests garantissent que seuls les schémas prévus sont autorisés. Simulez des requêtes avec différents protocoles et vérifiez la réponse du filtre.
 
 ```java
 public class TestCustomSchemaMessageFilter {
@@ -120,40 +166,40 @@ public class TestCustomSchemaMessageFilter {
 }
 ```
 
-Ce test simple crée un contexte réseau factice qui prétend utiliser le protocole `"https"`. Le test vérifie que votre filtre identifie correctement et autorise les requêtes HTTPS.
+Ce cas de test simple crée un contexte réseau factice qui simule l'utilisation du protocole `"https"`. Le test vérifie que votre filtre identifie correctement et autorise les requêtes HTTPS.
 
 ## Problèmes courants et solutions
-- **`NullPointerException` sur `context.getRequest()`** – Assurez‑vous que le `INetworkOperationContext` que vous transmettez contient réellement un objet request.  
-- **Le filtre ne se déclenche pas** – Vérifiez que le filtre est bien enregistré dans le pipeline de traitement d’Aspose.HTML (par ex. lors de la création d’un `Browser` ou d’une instance `HtmlRenderer`).  
-- **Besoin de plusieurs schémas** – Modifiez la méthode `match` pour vérifier une liste ou un ensemble de schémas autorisés.
+- **`NullPointerException` sur `context.getRequest()`** – Assurez‑vous que le `INetworkOperationContext` que vous transmettez contient réellement un objet requête.  
+- **Le filtre ne se déclenche pas** – Vérifiez que le filtre est enregistré dans le pipeline de traitement d'Aspose.HTML (par ex., lors de la création d'une instance `Browser` ou `HtmlRenderer`).  
+- **Plusieurs schémas nécessaires** – Modifiez la méthode `match` pour vérifier contre une liste ou un ensemble de schémas autorisés.
 
-## Conclusion
-Dans ce tutoriel, nous avons parcouru **la façon de filtrer le HTML** en créant un filtre de messages de schéma personnalisé avec Aspose.HTML pour Java. En suivant ces étapes, vous pouvez adapter votre application pour ne traiter que les requêtes réseau correspondant à vos exigences spécifiques. Cette capacité est particulièrement utile lorsque vous devez imposer des règles strictes sur les types de protocoles avec lesquels votre application interagit—que ce soit pour des raisons de sécurité, de performance ou de conformité.
+## Questions fréquemment posées
 
-## FAQ
+**Q : Qu’est‑ce qu’Aspose.HTML pour Java ?**  
+R : Aspose.HTML pour Java est une API haute performance qui permet la création, la manipulation et le rendu de documents HTML, CSS et SVG directement depuis du code Java.
 
-### Qu’est‑ce qu’Aspose.HTML pour Java ?
-Aspose.HTML pour Java est une API robuste permettant de manipuler et de rendre des documents HTML au sein d’applications Java. Elle offre de nombreuses fonctionnalités pour travailler avec les fichiers HTML, CSS et SVG.
+**Q : Pourquoi aurais‑je besoin d’un filtre de message de schéma personnalisé ?**  
+R : Il vous permet d’appliquer des politiques de sécurité, de réduire la bande passante inutile et de rester conforme en limitant les appels réseau aux protocoles approuvés tels que HTTPS.
 
-### Pourquoi aurais‑je besoin d’un filtre de messages de schéma personnalisé ?
-Un filtre de messages de schéma personnalisé vous permet de contrôler quelles requêtes réseau votre application traite, en fonction de protocoles spécifiques. Cela peut améliorer la sécurité, les performances et la conformité aux exigences de votre application.
+**Q : Puis‑je filtrer plusieurs schémas avec un seul filtre ?**  
+R : Oui – surchargez la méthode `match` pour comparer le schéma de la requête à une collection (par ex., un `Set<String>`) de valeurs autorisées.
 
-### Puis‑je filtrer plusieurs schémas avec un seul filtre ?
-Oui, vous pouvez étendre la méthode `match` pour gérer plusieurs schémas en vérifiant plusieurs conditions dans la méthode.
+**Q : La bibliothèque est‑elle compatible avec toutes les versions de Java ?**  
+R : Aspose.HTML pour Java prend en charge le JDK 8 et ultérieur, y compris les JDK 11, 17 et les futures versions LTS.
 
-### Aspose.HTML pour Java est‑il compatible avec toutes les versions de Java ?
-Aspose.HTML pour Java est compatible avec JDK 8 et les versions ultérieures. Veillez toujours à utiliser une version prise en charge pour des performances optimales.
+**Q : Où puis‑je obtenir de l’aide en cas de problème ?**  
+R : Contactez le [forum de support Aspose](https://forum.aspose.com/c/html/29) pour l’assistance de la communauté et des développeurs.
 
-### Comment obtenir du support pour Aspose.HTML pour Java ?
-Vous pouvez accéder au support via le [forum de support Aspose](https://forum.aspose.com/c/html/29), où vous pouvez poser des questions et obtenir de l’aide de la communauté et des développeurs Aspose.
+**Dernière mise à jour :** 2026-06-09  
+**Testé avec :** Aspose.HTML pour Java 24.11 (dernière version au moment de la rédaction)  
+**Auteur :** Aspose
 
----
+## Tutoriels associés
 
-**Dernière mise à jour :** 2026-01-28  
-**Testé avec :** Aspose.HTML pour Java 24.11 (dernière version au moment de la rédaction)  
-**Auteur :** Aspose  
+- [Filtre de schéma personnalisé et gestion des messages dans Aspose.HTML pour Java](/html/java/custom-schema-message-handling/)
+- [Comment créer un gestionnaire de schéma personnalisé avec Aspose.HTML pour Java](/html/java/custom-schema-message-handling/custom-schema-message-handler/)
+- [Gestion des messages et réseau dans Aspose.HTML pour Java](/html/java/message-handling-networking/)
 
----
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

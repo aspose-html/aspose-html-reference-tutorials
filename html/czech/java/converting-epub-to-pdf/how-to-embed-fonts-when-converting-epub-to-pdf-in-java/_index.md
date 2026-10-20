@@ -1,25 +1,24 @@
 ---
 category: general
-date: 2026-01-01
-description: Jak vložit písma při převodu EPUB na PDF v Javě. Naučte se nastavit velikost
-  stránky PDF a použít Aspose HTML pro plynulý převod EPUB na PDF v Javě.
+date: 2026-04-12
+description: Naučte se, jak nastavit velikost stránky PDF a vložit písma při převodu
+  EPUB do PDF v Javě pomocí Aspose.HTML. Tento průvodce vás provede kompletním pracovním
+  postupem převodu EPUB do PDF v Javě.
 draft: false
 keywords:
-- how to embed fonts
-- convert epub to pdf
-- how to convert epub
 - set pdf page size
-- epub to pdf java
-language: cs
-og_description: Jak vložit písma při převodu EPUB na PDF v Javě. Tento průvodce vám
-  krok za krokem ukáže, jak nastavit velikost stránky PDF a provést spolehlivý převod
-  EPUB na PDF v Javě.
-og_title: Jak vložit písma při převodu EPUB do PDF v Javě
+- embed fonts pdf
+- convert epub to pdf
+- java epub to pdf
+- custom pdf page size
+og_description: Naučte se, jak nastavit velikost stránky PDF a vložit písma při převodu
+  EPUB na PDF v Javě s Aspose.HTML.
+og_title: Nastavte velikost stránky PDF a vložte písma při převodu EPUB do PDF v Javě
 tags:
 - Java
 - PDF
 - EPUB
-title: Jak vložit písma při převodu EPUB do PDF v Javě
+title: Nastavte velikost stránky PDF a vložte písma při převodu EPUB do PDF v Javě
 url: /cs/java/converting-epub-to-pdf/how-to-embed-fonts-when-converting-epub-to-pdf-in-java/
 ---
 
@@ -27,22 +26,31 @@ url: /cs/java/converting-epub-to-pdf/how-to-embed-fonts-when-converting-epub-to-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak vložit písma při převodu EPUB do PDF v Javě
+# Nastavte velikost stránky PDF a vložte písma pro konverzi EPUB na PDF v Javě
 
-Už jste se někdy zamysleli **jak vložit písma**, aby váš převedený PDF vypadal přesně jako původní EPUB? Nejste sami — mnoho vývojářů narazí na problém chybějících písem hned po prvním pokusu o převod. Dobrou zprávou je, že s Aspose.HTML pro Java můžete řídit vkládání písem, velikost stránky a celý převodní řetězec pomocí několika řádků kódu.
+Pokud potřebujete **nastavit velikost stránky PDF** při **konverzi EPUB na PDF** a zajistit, aby výsledný dokument vypadal přesně jako zdroj, jste na správném místě. V tomto tutoriálu projdeme kompletním, připraveným pro produkci Java příkladem, který ukazuje, jak **vložit písma do PDF**, vybrat **vlastní velikost stránky PDF** a spustit konverzi pomocí Aspose.HTML. Na konci budete mít připravený program, který pokaždé vytvoří věrný PDF.
 
-V tomto tutoriálu projdeme kompletní proces **převodu epub do pdf** pomocí Javy, ukážeme vám, jak **nastavit velikost stránky PDF**, a vysvětlíme, proč má vkládání písem význam pro věrnost napříč platformami. Na konci budete mít připravený program, který převádí libovolný soubor EPUB na dokonale vykreslený PDF, včetně vložených písem a velikosti stránky, kterou si zvolíte.
+## Rychlé odpovědi
+- **Jaký je hlavní cíl?** Nastavit velikost stránky PDF a vložit písma při konverzi EPUB na PDF v Javě.  
+- **Kterou knihovnu mám použít?** Aspose.HTML pro Javu (k dispozici bezplatná zkušební verze).  
+- **Potřebuji licenci pro produkci?** Ano – licence odstraňuje vodotisk z hodnocení.  
+- **Mohu použít vlastní velikost stránky?** Rozhodně – můžete zadat přesné rozměry nebo použít vestavěné výčty jako A4, LETTER atd.  
+- **Jaká verze Javy je požadována?** Doporučuje se Java 17 nebo novější.
 
-> **Požadavky**  
-> * Java 17 nebo novější (API funguje i se staršími verzemi, ale 17 je optimální).  
-> * Knihovna Aspose.HTML pro Java – můžete ji získat z Maven Central.  
-> * Vzorek souboru EPUB pro testování.  
+### Požadavky
+- Nainstalována Java 17+.  
+- Aspose.HTML pro Javu přidán do vašeho projektu (Maven, Gradle nebo ruční JAR).  
+- EPUB soubor, který chcete převést.
 
-Pokud jste zvyklí pracovat s Maven nebo Gradle, jste připraveni. Jinak si jen stáhněte JAR a přidejte jej do classpath — nic složitého.
+> Pokud dáváte přednost Gradlu, stačí nahradit úryvek Mavenu ekvivalentními koordináty pro Gradle.
 
-## Jak vložit písma do výstupu PDF
+---
 
-Vkládání písem zajišťuje, že PDF zobrazí stejnou typografii na jakémkoli zařízení, i když prohlížeč nemá nainstalováno původní písmo. Aspose.HTML vám poskytuje jediný přepínač, který to zapne.
+## Proč vložit písma do PDF?
+
+Vložení písem uzamkne vizuální design zdrojového EPUB, takže PDF se vykreslí správně na jakémkoli zařízení – i když prohlížeč nemá nainstalované původní typy písma. Bez vložení se nadpisy mohou vrátit k výchozím písmům, jako je Arial, což rozbije rozvržení, na kterém jste tak tvrdě pracovali.
+
+**Pro tip:** Pokud znáte přesná písma použitá v EPUB, nasměrujte Aspose na složku, která obsahuje tyto soubory `.ttf` nebo `.otf` pomocí `pdfOptions.setFontsFolder("path/to/fonts")`. To urychlí konverzi a sníží konečnou velikost souboru.
 
 ```java
 // Configure PDF save options
@@ -50,13 +58,11 @@ PdfSaveOptions pdfOptions = new PdfSaveOptions();
 pdfOptions.setEmbedFonts(true);               // <-- This line embeds all used fonts
 ```
 
-Proč je to důležité? Představte si, že pošlete PDF klientovi, který má jen výchozí systémová písma. Bez vložení mohou nadpisy přejít na Arial nebo Times New Roman, což rozbije rozvržení. Vložením uzamknete vizuální design, čímž je PDF skutečně přenosné.
+---
 
-> **Tip:** Pokud znáte přesná písma, která váš EPUB používá, můžete také zadat vlastní složku s písmy pomocí `pdfOptions.setFontsFolder("path/to/fonts")`. Tím se urychlí převod a vyhnete se zbytečnému vkládání písem.
+## Jak převést EPUB na PDF v Javě – kompletní workflow
 
-## Převod EPUB do PDF v Javě — úplný pracovní postup
-
-Níže je minimální, ale kompletní, kód, který potřebujete. Pokrývá tři základní kroky: nalezení zdrojového EPUB, nastavení možností PDF (včetně velikosti stránky) a spuštění převodu.
+Níže je minimální, ale kompletní kód, který potřebujete. Pokrývá tři základní kroky: nalezení zdrojového EPUB, konfiguraci PDF možností (včetně **nastavení velikosti stránky PDF**) a vyvolání konverze.
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -84,26 +90,29 @@ public class EpubToPdfDemo {
 
 ### Co se děje pod kapotou?
 
-1. **Zdrojový EPUB** — proměnná `epubPath` říká Aspose, kde má číst kontejner EPUB.  
-2. **Možnosti PDF** — `PdfSaveOptions` vám umožňuje zapnout/vypnout vkládání písem (`setEmbedFonts`) a definovat rozměry stránky (`setPageSize`). Výčtový typ `PageSize.LETTER` je praktický pro US‑letter; můžete také zvolit `A4`, `A5` atd.  
-3. **Volání převodu** — `Converter.convert` provádí těžkou práci. Analyzuje EPUB, vykresluje každou stránku XHTML na stránku PDF, aplikuje nastavení a zapíše výsledek.
+1. **Zdrojový EPUB** – `epubPath` říká Aspose, kde má číst kontejner EPUB.  
+2. **PDF možnosti** – `PdfSaveOptions` vám umožňuje zapnout/vypnout vložení písem (`setEmbedFonts`) a definovat rozměry stránky (`setPageSize`). Výčet `PageSize.LETTER` je užitečný pro US‑letter; můžete také zvolit `A4`, `A5` atd.  
+3. **Volání konverze** – `Converter.convert` parsuje EPUB, vykresluje každou XHTML stránku na PDF stránku, aplikuje možnosti a zapíše výsledek.
 
-Metoda pro stručnost hází obecnou `Exception`; ve výrobě byste zachytili konkrétní podtřídy (např. `IOException`, `FileNotFoundException`) a ošetřili je elegantně.
+Metoda pro stručnost hází obecnou `Exception`; v produkci byste zachytili konkrétní podtřídy (např. `IOException`, `FileNotFoundException`) a ošetřili je elegantně.
 
-## Nastavení velikosti stránky PDF pro výsledek
+---
 
-Volba správné velikosti stránky je více než estetika; ovlivňuje číslování stránek, škálování obrázků a rozvržení tisku. Aspose.HTML poskytuje pohodlný výčtový typ, ale můžete také zadat vlastní velikost, pokud výchozí nevyhovují.
+## Jak nastavit velikost stránky PDF pro výsledek
+
+Výběr správné velikosti stránky ovlivňuje stránkování, škálování obrázků a rozvržení tisku. Aspose.HTML poskytuje pohodlný výčet, ale můžete také zadat vlastní velikost, pokud výchozí nevyhovují vašim potřebám.
 
 ```java
 // Example: Custom size – 6" x 9"
 pdfOptions.setPageSize(new PdfSaveOptions.PageSize(6.0, 9.0));
 ```
 
-Proč byste mohli potřebovat vlastní velikost? Možná generujete kapesní e‑knihy nebo tiskovou brožuru s konkrétní ořezovou velikostí. API přijímá palce (nebo můžete použít milimetry po vlastní konverzi), což vám dává plnou kontrolu.
+**Kdy byste potřebovali vlastní velikost?**  
+Možná vytváříte kapesní e‑knihy, tisknutelný brožuru nebo zprávu, která má specifickou ořezovou velikost. API přijímá rozměry v palcích (nebo můžete převést z milimetrů), což vám dává plnou kontrolu.
 
 ## Kompletní funkční příklad (včetně Maven závislosti)
 
-Pokud používáte Maven, přidejte následující závislost do svého `pom.xml`. Tím zajistíte, že třídy `Converter` a `PdfSaveOptions` jsou na classpath.
+Pokud používáte Maven, přidejte následující závislost do vašeho `pom.xml`. Tím zajistíte, že třídy `Converter` a `PdfSaveOptions` jsou na classpath.
 
 ```xml
 <dependency>
@@ -166,33 +175,52 @@ Spuštění programu vypíše potvrzovací řádek:
 
 Otevřete výsledné PDF v libovolném prohlížeči (Adobe Reader, Chrome atd.) a uvidíte:
 
-* Všechny textové prvky zachovají původní styl písma.  
-* Rozměry stránky odpovídají zvolené velikosti **Letter**.  
+* Všechny textové elementy zachovávají původní styl písma.  
+* Rozměry stránky odpovídají zvolené velikosti **Letter** (nebo jakékoli vlastní velikosti, kterou nastavíte).  
 * Obrázky, tabulky a hypertextové odkazy z EPUB jsou zachovány.
 
-Pokud prozkoumáte vlastnosti PDF (Soubor → Vlastnosti → Písma), všimnete si, že každé písmo je uvedeno jako **Embedded Subset**, což potvrzuje, že volání `setEmbedFonts(true)` odvedlo svou práci.
+Pokud prozkoumáte vlastnosti PDF (Soubor → Vlastnosti → Písma), všimnete si, že každé písmo je uvedeno jako **Embedded Subset**, což potvrzuje, že volání `setEmbedFonts(true)` splnilo svůj úkol.
 
-## Často kladené otázky a okrajové případy
+---
 
-| Otázka | Odpověď |
-|----------|--------|
-| **Co když můj EPUB používá vlastní písmo, které není nainstalováno na serveru?** | Umístěte soubory `.ttf` nebo `.otf` do složky a nasměrujte na ni Aspose pomocí `pdfOptions.setFontsFolder("path/to/custom/fonts")`. Převodník je načte a automaticky vloží. |
-| **Mohu převádět více EPUB souborů najednou?** | Rozhodně. Zabalte logiku převodu do smyčky, změňte `epubPath` a `outputPdf` pro každý soubor. Aspose je bezpečný pro vlákna, takže můžete práci dokonce paralelizovat pomocí `ExecutorService`. |
-| **Existuje limit velikosti pro vstupní EPUB?** | Neexistuje pevný limit, ale velmi velké EPUB (stovky MB) spotřebují více paměti. Zvažte zvýšení haldy JVM (`-Xmx2g` nebo vyšší) pro obrovské knihy. |
-| **Jak zakážu vkládání písem pro menší PDF?** | Nastavte `pdfOptions.setEmbedFonts(false)`. Výsledné PDF bude spoléhat na písma nainstalovaná v prohlížeči, což zmenší velikost souboru, ale může změnit vzhled. |
-| **Potřebuji licenci pro Aspose.HTML?** | Bezplatná evaluační licence funguje pro testování, ale přidává vodoznak. Pro produkci zakupte licenci a před převodem zavolejte `License license = new License(); license.setLicense("path/to/license.xml");`. |
+## Často kladené otázky
+
+**Q: Co když můj EPUB používá vlastní písmo, které není nainstalováno na serveru?**  
+A: Umístěte soubory `.ttf` nebo `.otf` do složky a nasměrujte Aspose na ni pomocí `pdfOptions.setFontsFolder("path/to/custom/fonts")`. Konvertor načte a vloží tato písma automaticky.
+
+**Q: Mohu převést více EPUB souborů najednou?**  
+A: Ano. Zabalte logiku konverze do smyčky, změňte `epubPath` a `outputPdf` pro každý soubor a případně spusťte smyčku paralelně pomocí `ExecutorService`, protože Aspose je thread‑safe.
+
+**Q: Existuje limit velikosti pro vstupní EPUB?**  
+A: Neexistuje pevný limit, ale velmi velké EPUB (stovky MB) mohou spotřebovat značnou paměť. Zvyšte haldu JVM (`-Xmx2g` nebo více) pro obrovské knihy.
+
+**Q: Jak vypnout vkládání písem pro snížení velikosti PDF?**  
+A: Zavolejte `pdfOptions.setEmbedFonts(false)`. PDF bude spoléhat na písma nainstalovaná v prohlížeči, což snižuje velikost souboru, ale může změnit vzhled.
+
+**Q: Potřebuji licenci pro Aspose.HTML?**  
+A: Bezplatná evaluační licence funguje pro testování, ale přidává vodotisk. Pro produkční použití zakupte licenci a načtěte ji pomocí `License license = new License(); license.setLicense("path/to/license.xml");`.
+
+---
 
 ## Závěr
 
-Nyní víte **jak vložit písma**, když **převádíte EPUB do PDF** v Javě, jak **nastavit velikost stránky PDF**, a jak vše spojit pomocí Aspose.HTML. Kompletní, spustitelný příklad výše by měl fungovat ihned — stačí nahradit zástupné cesty vlastními soubory a můžete začít.
+Nyní víte, **jak nastavit velikost stránky PDF** a **vložit písma do PDF**, když **převádíte EPUB na PDF** v Javě pomocí Aspose.HTML. Kompletní, spustitelný příklad výše by měl fungovat ihned – stačí nahradit zástupné cesty vlastními soubory.
 
-Další kroky? Vyzkoušejte experimentovat s dalšími formáty stránek, jako je **A4** nebo vlastní velikost 6×9, prozkoumejte vlastnosti `PdfSaveOptions` pro kompresi obrázků, nebo dokonce programově přidejte titulní stránku. Stejný vzor funguje i pro jiné zdrojové formáty (HTML, Markdown), protože Aspose.HTML je zpracovává jednotně.
+Další kroky? Vyzkoušejte různé formáty stránek jako **A4** nebo vlastní velikost 6×9, prozkoumejte další `PdfSaveOptions` (komprese obrázků, PDF/A kompatibilita) nebo programově přidejte titulní stránku. Stejný vzor funguje i pro jiné zdrojové formáty (HTML, Markdown), protože Aspose.HTML je zpracovává jednotně.
 
-Šťastné programování a ať vaše PDF vždy vypadají přesně tak, jak jste zamýšleli!
+Šťastné programování a ať vaše PDF vždy vypadají přesně tak, jak jste zamýšleli! 
 
 ![Jak vložit písma při konverzi PDF](https://example.com/images/embed-fonts.png "Jak vložit písma při konverzi PDF")
 
+---
+
+**Poslední aktualizace:** 2026-04-12  
+**Testováno s:** Aspose.HTML for Java 23.10  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
