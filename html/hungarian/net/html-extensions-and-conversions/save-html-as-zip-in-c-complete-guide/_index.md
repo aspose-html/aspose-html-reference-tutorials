@@ -1,26 +1,25 @@
 ---
 category: general
-date: 2026-05-03
-description: HTML mentése ZIP-ként C#-ban – tanulja meg, hogyan konvertálhatja a HTML-t
-  ZIP-re, renderelheti a HTML-t ZIP-be, és hozhat létre ZIP-archívumot HTML-ből az
-  Aspose.HTML használatával.
+date: 2026-02-27
+description: HTML mentése ZIP-ként C# ZipArchive használatával – lépésről‑lépésre
+  példa egy egyedi erőforráskezelővel, valamint tippek arra, hogyan exportáljuk a
+  HTML-t ZIP-be és hogyan hozzunk létre ZIP-archívumot C# kóddal.
 draft: false
 keywords:
 - save html as zip
-- convert html to zip
-- render html to zip
-- create zip from html
-- generate zip from html
+- c# ziparchive example
+- create zip archive c#
+- how to export html to zip
+- using ziparchive in c#
 language: hu
-og_description: HTML mentése ZIP-ként C#-ban – fedezze fel a legegyszerűbb módot a
-  HTML ZIP-re konvertálásához, a HTML ZIP-re rendereléséhez és egy ZIP-archívum létrehozásához
-  HTML-ből az Aspose.HTML segítségével.
+og_description: HTML mentése ZIP-be C# ZipArchive használatával. Tanulja meg, hogyan
+  exportálja a HTML-t ZIP-be egy teljes példával, egyedi erőforráskezelővel és a legjobb
+  gyakorlatokkal.
 og_title: HTML mentése ZIP-ként C#-ban – Teljes útmutató
 tags:
 - C#
-- Aspose.HTML
-- ZIP
-- HTML processing
+- ZipArchive
+- HTML export
 title: HTML mentése ZIP-ként C#-ban – Teljes útmutató
 url: /hu/net/html-extensions-and-conversions/save-html-as-zip-in-c-complete-guide/
 ---
@@ -29,189 +28,203 @@ url: /hu/net/html-extensions-and-conversions/save-html-as-zip-in-c-complete-guid
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# HTML mentése ZIP-be C#-ban – Teljes útmutató
+# HTML mentése ZIP‑ként C#‑ban – Teljes útmutató
 
-Valaha szükséged volt **HTML mentése ZIP-be**, de nem tudtad, melyik API-t kellene használnod? Nem vagy egyedül. Sok fejlesztő akad el, amikor egy HTML oldalt, annak CSS‑ét, képeit és még a betűtípusait is egyetlen archívumba szeretné összecsomagolni anélkül, hogy a fájlrendszert érintené.
+Valaha szükséged volt **HTML mentése ZIP‑ként**, de nem tudtad, mely .NET osztályokat kellene használnod? Nem vagy egyedül – sok fejlesztő szembesül ezzel a problémával, amikor egy weboldalt szeretne a kapcsolódó erőforrásaival együtt offline használatra vagy terjesztésre csomagolni. A jó hír? A beépített `System.IO.Compression.ZipArchive` segítségével néhány sorban megoldható, és tiszta módot is biztosít az egyes erőforrások írásának vezérlésére.
 
-A jó hír? Az Aspose.HTML‑el néhány C# sorral **HTML‑t ZIP‑be konvertálhatsz**, **HTML‑t ZIP‑be renderelhetsz**, sőt **ZIP‑et generálhatsz HTML‑ből**. Ebben az útmutatóban végigvezetünk egy teljesen működő példán, megvitatjuk, miért fontos minden rész, és megmutatjuk, hogyan ellenőrizheted az eredményt.
+Ebben az útmutatóban egy **teljes, futtatható példán** keresztül vezetünk végig, amely pontosan megmutatja, hogyan exportálj egy HTML dokumentumot ZIP‑fájlba, egy egyedi `ResourceHandler` használatával, amely minden erőforrást az archívumba streamel. Útközben bevetünk néhány **c# ziparchive example** kódrészletet, megvitatjuk a **how to export html to zip** valós helyzetekben, és kiemeljük a finom különbségeket, amikor **create zip archive c#** programokat szeretnél robusztusan megvalósítani.
 
-> **Mit kapsz** – egy teljes, másolás‑beillesztésre kész program, amely memóriában hoz létre egy ZIP‑fájlt, ami tartalmazza a HTML‑edhez szükséges minden erőforrást, valamint tippeket a szélsőséges esetekhez és a gyakori buktatókhoz.
-
----
-
-## Előfeltételek
-
-- .NET 6.0 SDK vagy újabb (a kód .NET Core‑dal és .NET Framework‑kel is működik)
-- Érvényes Aspose.HTML for .NET licenc (az ingyenes próba a tanuláshoz megfelelő)
-- Visual Studio 2022, VS Code vagy bármely kedvenc C# szerkesztő
-- Alapvető ismeretek a streamekkel és a `System.IO.Compression` névtérrel kapcsolatban  
-
-Más harmadik fél csomagra nincs szükség.
+> **Előfeltételek** – Szükséged lesz .NET 6+ (vagy .NET Core 3.1) környezetre, valamint egy hivatkozásra a könyvtárra, amely biztosítja a `HTMLDocument`, `HTMLSaveOptions` és `ResourceHandler` osztályokat. Ha az Aspose.HTML‑t vagy hasonló csomagot használsz, egyszerűen add hozzá a NuGet‑en keresztül. Más harmadik fél eszközére nincs szükség.
 
 ---
 
-## HTML mentése ZIP-be – Lépésről‑lépésre megvalósítás
+## Amit ez az útmutató lefed
 
-Az alábbiakban a teljes forrásfájl látható, amelyet beilleszthetsz egy konzolos projektbe. Nyugodtan nevezd át a `Program.cs`‑t, vagy oszd szét az osztályokat külön fájlokba; a logika változatlan marad.
+- A **ZipArchive** beállítása, amely a HTML-fájlt és a kapcsolódó erőforrásokat fogadja.  
+- Egy **custom resource handler** (`ZipHandler`) megvalósítása, amely minden erőforrás streamet az archívumba irányít.  
+- **HTMLSaveOptions** használata az egységesítéshez, és a **save HTML as ZIP** tényleges végrehajtása.  
+- Gyakori buktatók útvonalakkal, duplikált bejegyzésekkel és nagy méretű erőforrásokkal kapcsolatban.  
+- Tippek a megoldás kibővítéséhez – például manifest fájl hozzáadása vagy a ZIP titkosítása.
+
+A végére egy önálló módszert kapsz, amelyet bármely C# projektbe beilleszthetsz, hogy **save html as zip** magabiztosan.
+
+## 1. lépés: A szükséges névterek hozzáadása
+
+Mielőtt bármilyen kód futna, győződj meg arról, hogy a fordító ismeri a tömörítési osztályokat és a használt HTML könyvtárat.
 
 ```csharp
-// ------------------------------------------------------------
-// Program.cs – Save HTML as ZIP using Aspose.HTML
-// ------------------------------------------------------------
+using System;
+using System.IO;
+using System.IO.Compression;
+// Assuming you have a library like Aspose.HTML
+using Aspose.Html;
+using Aspose.Html.Saving;
+using Aspose.Html.Saving.Resources;
+```
+
+*Miért fontos ez:* A `System.IO.Compression` biztosítja a `ZipArchive`‑t, míg az `Aspose.Html` névterek a `HTMLDocument`, `HTMLSaveOptions` és a `ResourceHandler` alaposztályt teszik elérhetővé, amelyet kibővítünk. Ha másik HTML motorral dolgozol, keresd az analóg típusokat.
+
+## 2. lépés: Egy egyedi Resource Handler létrehozása (Elsődleges kulcsszó akcióban)
+
+A **saving HTML as ZIP** lényege, hogy megmondjuk a motornak, hová kerüljön minden külső erőforrás (képek, CSS, szkriptek). A `ResourceHandler` öröklésével irányítjuk a bejövő adatstreamet.
+
+```csharp
+/// <summary>
+/// Writes each HTML resource directly into the provided ZipArchive.
+/// </summary>
+class ZipHandler : ResourceHandler
+{
+    private readonly ZipArchive _zipArchive;
+
+    public ZipHandler(ZipArchive zipArchive) => _zipArchive = zipArchive;
+
+    public override Stream HandleResource(ResourceInfo info)
+    {
+        // Ensure the entry name is a valid relative path inside the zip.
+        // For example, "images/logo.png" or "css/style.css".
+        var entry = _zipArchive.CreateEntry(info.Uri);
+        // Open the entry for writing and hand the stream back to the HTML engine.
+        return entry.Open();
+    }
+}
+```
+
+**Kulcsfontosságú pontok**
+
+- `info.Uri` a relatív URL, amelyet a HTML motor írni próbál. Ennek használata bejegyzésnévként megőrzi a mappaszerkezetet a ZIP‑ben.  
+- `CreateEntry` automatikusan létrehozza a szükséges könyvtárakat; neked nem kell őket kezelni.  
+- A megnyitott stream visszaadása lehetővé teszi, hogy a motor közvetlenül streamelje az adatot – nincs szükség ideiglenes fájlokra vagy extra memória másolatokra.
+
+## 3. lépés: A ZipArchive inicializálása
+
+Most egy `ZipArchive`‑t hozunk létre **Update** módban. Ez a mód lehetővé teszi, hogy a futás közben bejegyzéseket adjunk hozzá, és akár meglévőket is felülírjunk, ha többször futtatod a kódot.
+
+```csharp
+// Define where the final zip file will live.
+string outputPath = Path.Combine("YOUR_DIRECTORY", "output.zip");
+
+// Open (or create) the zip file.
+using var zipArchive = new ZipArchive(
+    File.Open(outputPath, FileMode.Create, FileAccess.ReadWrite),
+    ZipArchiveMode.Update);
+```
+
+*Pro tipp:* Használd a `FileMode.Create`‑t a korábbi fájl felülírásához, vagy válts `FileMode.OpenOrCreate`‑ra, ha egy meglévő archívumhoz szeretnél hozzáfűzni. Emellett tedd a `ZipArchive`‑t egy `using` blokkba – ez garantálja, hogy az archívum megfelelően le legyen zárva és a fájlkezelő felszabaduljon.
+
+## 4. lépés: A kívánt HTML dokumentum betöltése exportáláshoz
+
+Itt adod meg a könyvtárnak a forrás HTML fájlt. A dokumentum hivatkozhat CSS‑re, képekre vagy JavaScript fájlokra, amelyek mellette helyezkednek el.
+
+```csharp
+string htmlPath = Path.Combine("YOUR_DIRECTORY", "page.html");
+
+// Load the HTML file into memory.
+var htmlDoc = new HTMLDocument(htmlPath);
+```
+
+Ha a HTML relatív URL‑eket tartalmaz, győződj meg arról, hogy a folyamat munkakönyvtára megegyezik az erőforrásokat tartalmazó mappával. Ellenkező esetben a motor nem fogja megtalálni őket, és a ZIP hiányozni fog ezekből a fájlokból.
+
+## 5. lépés: Mentési beállítások konfigurálása – A valódi “Save HTML as ZIP” pillanat
+
+Most összekapcsoljuk a `ZipHandler`‑t a `HTMLSaveOptions`‑szal. A `SaveFormat` `ZIP`‑ra állítása azt mondja a könyvtárnak, hogy mindent csomagoljon, míg a handlerünk határozza meg, hová kerüljön az egyes elemek.
+
+```csharp
+var zipSaveOptions = new HTMLSaveOptions(SaveFormat.ZIP)
+{
+    // Plug in our custom handler.
+    ResourceHandler = new ZipHandler(zipArchive),
+
+    // Optional: you can control the name of the main HTML file inside the zip.
+    // By default it’s "index.html".
+    // MainFileName = "myPage.html"
+};
+```
+
+*Miért fontos ez:* `ResourceHandler` beállítása nélkül a könyvtár a fájlrendszerbe írna erőforrásokat, ami aláássa a **how to export html to zip** egyetlen archívumba történő célját.
+
+## 6. lépés: A mentési művelet végrehajtása
+
+Végül kérd meg a dokumentumot, hogy a most épített beállításokkal mentse el magát. A könyvtár minden külső erőforrásra meghívja a `ZipHandler.HandleResource`‑t.
+
+```csharp
+// This call writes the main HTML file and all linked resources into the zip.
+htmlDoc.Save(outputPath, zipSaveOptions);
+```
+
+Amikor a `zipArchive`‑re vonatkozó `using` blokk befejeződik, az archívum lezárásra kerül, és a fájl készen áll a terjesztésre.
+
+## Teljes működő példa (az összes lépés egyben)
+
+Az alábbiakban a teljes program látható, amelyet beilleszthetsz egy konzolos alkalmazásba. Bemutat egy **c# ziparchive example**‑t, amely **creates zip archive c#** stílusban működik, és teljes körű választ ad a **how to export html to zip** kérdésre.
+
+```csharp
 using System;
 using System.IO;
 using System.IO.Compression;
 using Aspose.Html;
 using Aspose.Html.Saving;
+using Aspose.Html.Saving.Resources;
 
-namespace HtmlToZipDemo
+class ZipHandler : ResourceHandler
 {
-    // Step 2: Custom ResourceHandler that writes each resource into a ZIP entry
-    class MemoryZipHandler : ResourceHandler
+    private readonly ZipArchive _zipArchive;
+    public ZipHandler(ZipArchive zipArchive) => _zipArchive = zipArchive;
+
+    public override Stream HandleResource(ResourceInfo info)
     {
-        // Holds the in‑memory ZIP archive
-        private readonly MemoryStream _zipStream = new MemoryStream();
-
-        public override Stream HandleResource(Resource resource)
-        {
-            // Open the ZIP in Update mode; leave the stream open after disposing the archive
-            var archive = new ZipArchive(_zipStream, ZipArchiveMode.Update, true);
-            // Create an entry that mirrors the resource name (e.g., "style.css" or "image.png")
-            var entry = archive.CreateEntry(resource.Name, CompressionLevel.Optimal);
-            // Return the stream that Aspose.HTML will write the resource into
-            return entry.Open();
-        }
-
-        // Helper to retrieve the finished ZIP as a byte array
-        public byte[] GetResult()
-        {
-            // Ensure all data is flushed
-            _zipStream.Position = 0;
-            return _zipStream.ToArray();
-        }
+        var entry = _zipArchive.CreateEntry(info.Uri);
+        return entry.Open();
     }
+}
 
-    class Program
+class Program
+{
+    static void Main()
     {
-        static void Main()
+        // 1️⃣ Define output zip location.
+        string outputZip = Path.Combine("YOUR_DIRECTORY", "output.zip");
+
+        // 2️⃣ Open the zip archive (Update mode lets us add entries).
+        using var zip = new ZipArchive(
+            File.Open(outputZip, FileMode.Create, FileAccess.ReadWrite),
+            ZipArchiveMode.Update);
+
+        // 3️⃣ Load the HTML document you want to bundle.
+        string htmlFile = Path.Combine("YOUR_DIRECTORY", "page.html");
+        var htmlDoc = new HTMLDocument(htmlFile);
+
+        // 4️⃣ Set up save options with our custom resource handler.
+        var saveOptions = new HTMLSaveOptions(SaveFormat.ZIP)
         {
-            // --------------------------------------------------------
-            // Step 1: Create a simple HTML document in memory
-            // --------------------------------------------------------
-            string html = @"<html>
-                                <head>
-                                    <style>
-                                        body { font-family: Arial; background:#f0f0f0; }
-                                        h1 { color:#333; }
-                                    </style>
-                                </head>
-                                <body>
-                                    <h1>Hello, world!</h1>
-                                    <img src='https://via.placeholder.com/150' alt='sample' />
-                                </body>
-                            </html>";
+            ResourceHandler = new ZipHandler(zip)
+        };
 
-            // The HTMLDocument constructor accepts raw HTML or a URI
-            HTMLDocument htmlDoc = new HTMLDocument(html);
+        // 5️⃣ Save – this writes index.html + all assets into the zip.
+        htmlDoc.Save(outputZip, saveOptions);
 
-            // --------------------------------------------------------
-            // Step 3: Instantiate the ZIP handler and configure save options
-            // --------------------------------------------------------
-            var zipHandler = new MemoryZipHandler();
-
-            HtmlSaveOptions saveOptions = new HtmlSaveOptions
-            {
-                // Direct all external resources (CSS, images, fonts) to our handler
-                ResourceHandler = zipHandler
-            };
-
-            // --------------------------------------------------------
-            // Step 4: Render the document and save it into the ZIP
-            // --------------------------------------------------------
-            // The Save method overload that accepts a ResourceHandler writes everything into the archive
-            htmlDoc.Save(zipHandler, saveOptions);
-
-            // --------------------------------------------------------
-            // Step 5: Retrieve the ZIP bytes and write them to disk (optional)
-            // --------------------------------------------------------
-            byte[] zipBytes = zipHandler.GetResult();
-
-            // Change the path to wherever you want the file to appear
-            string outputPath = Path.Combine(
-                Environment.GetFolderPath(Environment.SpecialFolder.Desktop),
-                "output.zip");
-
-            File.WriteAllBytes(outputPath, zipBytes);
-
-            Console.WriteLine($"✅ ZIP archive created at: {outputPath}");
-            Console.WriteLine($"   Size: {zipBytes.Length / 1024} KB");
-        }
+        Console.WriteLine($"✅ HTML saved as ZIP at: {outputZip}");
     }
 }
 ```
 
-### Miért egy egyedi `ResourceHandler`?
+**Várható eredmény:** A program futtatása után az `output.zip` tartalmazni fogja az `index.html`‑t (vagy a beállított nevet), valamint minden képet, stíluslapot és szkriptet, amelyet az eredeti oldal hivatkozott, megőrizve a mappaszerkezetet. Nyisd meg a ZIP‑et, csomagold ki, és duplán kattints az `index.html`‑re – az oldal pontosan úgy fog megjelenni, mint online, de most már hordozható csomagként.
 
-Az Aspose.HTML minden külső erőforrást (stíluslapok, képek, betűtípusok) egy `ResourceHandler`‑en keresztül ad ki. A `HandleResource` felülírásával elfogjuk ezt a streamet, és közvetlenül egy `ZipArchiveEntry`‑be helyezzük az adatot. Ez a megközelítés megszünteti az ideiglenes fájlok szükségességét a lemezen, mindent memóriában tart, és teljes irányítást ad a névadási konvenciók felett.
+## Gyakori szélhelyzetek és a kezelésük módja
 
-## HTML konvertálása ZIP-be egy egyedi ResourceHandler‑rel
+| Helyzet | Miért fordul elő | Javasolt megoldás |
+|-----------|----------------|---------------|
+| **Duplikált erőforrásnevek** (pl. két kép azonos fájlnévvel különböző mappákban) | `CreateEntry` `InvalidOperationException`‑t dob, ha a pontos bejegyzésnév már létezik. | Az bejegyzést előtagként add meg a relatív útvonallal (`info.Uri` már ezt teszi), vagy manuálisan tisztítsd meg a neveket a bejegyzés létrehozása előtt. |
+| **Nagy bináris erőforrások** (videók, nagy felbontású képek) | A közvetlen streamelés a ZIP‑be rendben van, de az alapértelmezett pufferméret magas memóriahasználathoz vezethet. | Írd felül a `HandleResource`‑t, hogy a visszaadott streamet egy `BufferedStream`‑be csomagolja mérsékelt puffermérettel (pl. 64 KB). |
+| **Hiányzó erőforrások** | Ha a HTML hibás hivatkozást tartalmaz, a handler egy nem létező fájlra kér kérést, ami üres bejegyzéshez vezet. | Ellenőrizd a `File.Exists`‑t a bejegyzés létrehozása előtt, vagy naplózz egy figyelmeztetést, hogy tudd, mi hiányzik. |
+| **Unicode fájlnevek** | Néhány régebbi ZIP eszköz helytelenül kezeli az UTF‑8 bejegyzésneveket. | Győződj meg arról, hogy .NET 6+ célplatformot használsz, amely alapértelmezés szerint UTF‑8‑at ír. Ha régi kompatibilitásra van szükség, állítsd be a `zipArchive.EntryNameEncoding = Encoding.GetEncoding(437);`. |
+| **Manifest szükségessége** (a zip‑en belüli fájlok listája) | A felhasználók néha egy `manifest.json`‑t igényelnek az ellenőrzéshez. | A fő mentés után hozz létre egy új bejegyzést `"manifest.json"` néven, és írj egy JSON listát a `zipArchive.Entries`‑ből. |
 
-A fenti kód egy módot mutat a **HTML ZIP‑be konvertálására**. Ha inkább az eredeti HTML fájlt külön szeretnéd tartani az erőforrásaitól, módosíthatod a kezelőt, hogy a archívumban mappaszerű hierarchiát hozzon létre:
+## Pro tippek a termelés‑kész **Save HTML as ZIP** megvalósításokhoz
 
-```csharp
-var entry = archive.CreateEntry($"assets/{resource.Name}");
-```
-
-Most a ZIP egy `assets/` mappát fog tartalmazni, ami megkönnyíti a HTML későbbi kiszolgálását egy webszerveren. Ez a minta hasznos, ha **ZIP‑et kell létrehozni HTML‑ből** e‑mail sablonokhoz vagy offline dokumentációhoz.
-
-## HTML renderelése ZIP-be az Aspose.HTML használatával
-
-A renderelés több, mint egyszerű karakterláncok másolása. Az Aspose.HTML értelmezi a jelölőnyelvet, feloldja a relatív URL‑eket, alkalmazza a CSS‑t, és szükség esetén rasterizálja a vektorgrafikákat. A renderelt kimenetet közvetlenül a ZIP‑be táplálva biztosítod, hogy a végső archívum pontosan azt tükrözze, amit egy böngésző megjelenítene.
-
-> **Pro tipp:** Ha a HTML távoli képeket hivatkozik, győződj meg róla, hogy a kódot futtató gép internetkapcsolattal rendelkezik. Ellenkező esetben a renderelő kihagyja ezeket az erőforrásokat, és a ZIP‑ben hiányozni fognak.
-
-## ZIP létrehozása HTML‑ből – Tippek és gyakori buktatók
-
-| Pitfall | How to Avoid It |
-|---------|-----------------|
-| **Duplikált bejegyzések** – Ugyanazon CSS fájl kétszeri hozzáadása | Használj egy `HashSet<string>`‑et a `MemoryZipHandler`‑ben, hogy nyomon kövesd a már hozzáadott erőforrásneveket. |
-| **Nagy fájlok túllépik a memóriát** – Nagyon nagy képek felrobbanthatják a `MemoryStream`‑et | Válts fájl‑alapú `FileStream`‑re a ZIP‑hez, ha > 200 MB‑os archívumokra számítasz. |
-| **Helytelen MIME típusok** – Néhány böngésző figyelmen kívül hagyja a CSS‑t, ha a kiterjesztés hibás | Tartsd meg az eredeti `resource.Name`‑t (kiterjesztéssel együtt) a ZIP‑bejegyzés létrehozásakor. |
-| **Hiányzó alap URL** – Relatív hivatkozások eltörnek, amikor a dokumentumot mentik | Állítsd be a `htmlDoc.BaseUrl = new Uri("https://example.com/");` értéket a renderelés előtt. |
-
-Ezeknek a problémáknak a korai kezelése később időt takarít meg a hibakeresésben.
-
-## ZIP generálása HTML‑ből – A kimenet ellenőrzése
-
-A program befejezése után a `output.zip` fájlt a asztalon kell látnod. Az ellenőrzéshez, hogy minden benne van:
-
-1. Nyisd meg a ZIP‑et a rendszered fájlkezelőjével.
-2. Megtalálod:
-   - `index.html` (a fő dokumentum)
-   - `style.css` (a renderelő által kinyert beágyazott stílus)
-   - `150` (a helyőrző kép, az eredeti fájlnévvel tárolva)
-3. Dupla‑kattints a `index.html`‑re – ennek a “Hello, world!” szöveget, a képet és a stílusokat kell megjelenítenie, még offline állapotban is.
-
-Ha a HTML betöltődik, de az erőforrások hiányoznak, nézd át a `ResourceHandler` logikát, és győződj meg róla, hogy a resource nevek helyesen kerülnek rögzítésre.
-
-## Gyakran Ismételt Kérdések
-
-**K: Használhatom ezt a megközelítést ASP.NET Core‑dal?**  
-**V: Természetesen. Cseréld le a `Console` belépési pontot egy vezérlő‑akcióra, injektáld a kezelőt, és a ZIP‑et `FileResult`‑ként add vissza. A fő logika változatlan marad.**
-
-**K: Mi van, ha titkosítanom kell a ZIP‑et?**  
-**V: A `System.IO.Compression.ZipArchive` osztály csak harmadik fél könyvtárakon (pl. `SharpZipLib`) keresztül támogatja a jelszóval védett bejegyzéseket. A `MemoryStream`‑et csomagold be ebbe a könyvtárba, miután az Aspose.HTML beírta a fájlokat.**
-
-**K: Működik ez helyi képekkel, amelyek `file://`‑vel vannak hivatkozva?**  
-**V: Igen, amíg a folyamatnak olvasási hozzáférése van a fájlokhoz. A renderelő ezeket bármely más erőforrásként kezeli, és átadja őket a handlernek.**
-
-## Következtetés
-
-Most már egy robusztus, **HTML mentése ZIP-be** recepttel rendelkezel, amely lefedi a `HTMLDocument` létrehozásától a kifinomult archívum kiszolgálásáig minden lépést. Egy egyedi `ResourceHandler` használatával **HTML‑t ZIP‑be konvertálhatsz**, **HTML‑t ZIP‑be renderelhetsz**, **ZIP‑et hozhatsz létre HTML‑ből**, és **ZIP‑et generálhatsz HTML‑ből** – mind memóriában, teljes irányítással a kimeneti struktúra felett.
-
-Nyugodtan kísérletezz: próbálj meg JavaScript fájlokat hozzáadni, válts fájl‑alapú streamre nagy archívumokhoz, vagy integráld a kódot egy web‑API‑ba, amely igény szerint szolgál ki ZIP‑eket. A minta jól skálázható, akár statikus weboldal exportálót, akár automatizált jelentésgenerátort építesz.
-
-Van még kérdésed vagy egy izgalmas felhasználási eseted? Írj egy megjegyzést alább, és jó kódolást!
+1. **Az eredmény validálása** – Mentés után programból nyisd meg a ZIP‑et, és ellenőrizd, hogy létezik-e az `index.html`, valamint hogy minden bejegyzés `Length` > 0. Ez időben felfedezi a csendes hibákat.  
+2. **Nagy erőforrások párhuzamosítása** – Ha több tucat megabájt képed van, fontold meg a `HandleResource` hívások sorba állítását egy `Task` poolban, és írd az archívumba párhuzamosan (még mindig tiszteletben tartva a `ZipArchive` egyetlen író jellegét).  
+3. **Ésszerű tömörítés** – A `ZipArchive` alapértelmezés szerint Deflate‑et használ. Már tömörített fájloknál (JPEG, PNG) beállíthatod a `entry.CompressionLevel = CompressionLevel.NoCompression`‑t a művelet felgyorsításához.  
+4. **Security** – If the ZIP
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -1,19 +1,19 @@
 ---
 category: general
-date: 2026-05-03
-description: تعلم كيفية تحويل HTML إلى PNG وحفظ HTML كصورة باستخدام Aspose.HTML في
-  C#. يتضمن نصائح لإضافة خلفية بيضاء للصورة وأمثلة على تحويل HTML إلى PNG.
+date: 2026-01-14
+description: تحويل HTML إلى PNG باستخدام Aspose.HTML في C#. تعلم كيفية إنشاء معالج
+  موارد مخصص، حفظ HTML كملف ZIP، وتحويل HTML إلى صورة bitmap—كل ذلك في دليل واحد.
 draft: false
 keywords:
 - render html to png
-- save html as image
-- add white background image
-- c# html to image
-- convert html to png
+- custom resource handler
+- save html as zip
+- convert html to bitmap
+- how to render png
 language: ar
-og_description: تحويل HTML إلى PNG باستخدام Aspose.HTML في C#. يوضح الدرس كيفية حفظ
-  HTML كصورة، إضافة خلفية بيضاء، وتحويل HTML إلى PNG بكفاءة.
-og_title: تحويل HTML إلى PNG في C# – دليل كامل
+og_description: تحويل HTML إلى PNG باستخدام Aspose.HTML في C#. تعلم معالج موارد مخصص،
+  حفظ HTML كملف ZIP، وتحويل HTML إلى صورة bitmap — كل ذلك في دليل واحد.
+og_title: تحويل HTML إلى PNG في C# – دليل خطوة بخطوة كامل
 tags:
 - Aspose.HTML
 - C#
@@ -26,186 +26,228 @@ url: /ar/net/rendering-html-documents/render-html-to-png-in-c-complete-step-by-s
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تحويل HTML إلى PNG في C# – دليل خطوة بخطوة كامل
+# تحويل HTML إلى PNG في C# – دليل كامل خطوة بخطوة
 
-هل احتجت يوماً إلى **render HTML to PNG** لكنك لم تكن متأكدًا أي مكتبة ستعطيك نتائج واضحة دون الكثير من الكود الزائد؟ لست وحدك. في العديد من تطبيقات الويب تريد تحويل مخطط أو فاتورة أو صفحة ديناميكية إلى صورة يمكن إرسالها بالبريد الإلكتروني أو تخزينها أو طباعتها. الخبر السار؟ مع Aspose.HTML يمكنك **save HTML as image** في بضع أسطر فقط من C#.
+هل احتجت يومًا إلى **render HTML to PNG** لكن لم تكن متأكدًا من أين تبدأ في مشروع .NET؟ لست وحدك. يواجه العديد من المطورين صعوبة عندما يرغبون في الحصول على لقطة دقيقة بكسل لصفحة ويب دون تشغيل متصفح كامل.
 
-في هذا الدرس سنستعرض كل ما تحتاج معرفته: تحميل ملف HTML، تكوين خيارات التصيير عالية الجودة، التعامل مع الصفحات الشفافة باستخدام حيلة **add white background image**، وأخيرًا **convert HTML to PNG** مباشرة. في النهاية ستحصل على مقتطف قابل لإعادة الاستخدام يمكنك إدراجه في أي مشروع .NET.
+في هذا الدليل سنستعرض حلًا عمليًا لا يقتصر فقط على **renders HTML to PNG**، بل يوضح لك أيضًا كيفية تجميع جميع الموارد الخارجية في ملف ZIP باستخدام **custom resource handler**، وأخيرًا كيفية **convert HTML to bitmap** لأي معالجة لاحقة. في النهاية ستعرف بالضبط *how to render png* من أي مصدر HTML باستخدام Aspose.HTML.
 
-## المتطلبات المسبقة
+## ما ستتعلمه
 
-- .NET 6.0 أو أحدث (API يعمل مع .NET Framework 4.6+ أيضًا)
-- Aspose.HTML for .NET مثبت (`dotnet add package Aspose.HTML`)
-- ملف HTML تجريبي يحتوي على رسومات متجهة أو نص منسق (مثال: `chart.html`)
-- إلمام أساسي بتطبيقات C# console أو Windows
+- تحميل مستند HTML من القرص.
+- تنفيذ **custom resource handler** الذي يبث الصور، CSS، الخطوط، إلخ، مباشرةً إلى أرشيف ZIP.
+- استخدام خيارات **save HTML as ZIP** بحيث تنتقل الصفحة كاملة معًا.
+- تحديد **image rendering options** (الحجم، مضاد التسنين، تحسين النص) وتنسيق العناصر أثناء التشغيل.
+- تحويل الصفحة إلى **bitmap** وحفظها كملف PNG.
+- المشكلات الشائعة ونصائح الخبراء للحصول على نتائج موثوقة.
 
-لا توجد حزم NuGet إضافية مطلوبة بخلاف Aspose.HTML.
+> **Prerequisites:** .NET 6+ (or .NET Framework 4.6+), Visual Studio 2022 أو أي بيئة تطوير C#، ورخصة Aspose.HTML for .NET (الإصدار التجريبي المجاني يعمل لهذا العرض).
 
-## الخطوة 1: تحميل مستند HTML – Render HTML to PNG
+---
 
-أول شيء يجب عليك القيام به هو إنشاء مثال `HTMLDocument` يشير إلى ملف المصدر. هذا الكائن يمثل شجرة DOM التي سيقوم Aspose.HTML بتصييرها.
+## الخطوة 1: تحميل مستند HTML
+
+أولاً وقبل كل شيء—نحتاج إلى جلب ملف HTML إلى الذاكرة. فئة `Document` في Aspose.HTML تقوم بكل العمل الشاق.
 
 ```csharp
+using System.IO;
 using Aspose.Html;
+using Aspose.Html.Saving;
 using Aspose.Html.Rendering.Image;
-using System.Drawing;   // needed for Color
 
-// Load the HTML page that contains vector graphics or rich text
-HTMLDocument htmlDoc = new HTMLDocument(@"C:\MyReports\chart.html");
+// Load the source HTML file (adjust the path to your project)
+Document document = new Document("YOUR_DIRECTORY/input.html");
 ```
 
-**Why this matters:** تحميل المستند يحلل العلامات، يطبق CSS، ويبني شجرة تخطيط. إذا كان HTML يشير إلى موارد خارجية (صور، خطوط، CSS)، يقوم Aspose.HTML بحلها بالنسبة إلى مسار الملف، مما يضمن أن PNG الناتج يبدو تمامًا كما في عرض المتصفح.
+*لماذا هذا مهم:* تحميل المستند ينشئ DOM يمكن لـ Aspose استكشافه، وتطبيق الأنماط، ثم عرضه لاحقًا. إذا كان الملف يحتوي على موارد خارجية (صور، CSS)، فسيتم حلها لاحقًا بواسطة معالج الموارد الذي سنضيفه في الخطوة التالية.
 
-## الخطوة 2: تكوين خيارات تصيير الصورة – Add White Background Image إذا لزم الأمر
+## الخطوة 2: إنشاء **Custom Resource Handler** لتجميع الأصول
 
-بعد ذلك نقوم بإعداد `ImageRenderingOptions`. هنا يمكنك التحكم في الحجم، وإزالة التعرجات (antialiasing)، ومعالجة الخلفية. بشكل افتراضي يحافظ Aspose.HTML على الشفافية؛ إذا لم يحدد HTML خلفية، سيكون PNG شفافًا. لإضافة **add white background image** (أو أي لون صلب)، فقط قم بتعيين `BackgroundColor`.
+عند عرض صفحة، تحتاج المكتبة إلى كل مورد مرتبط. بدلاً من السماح لها بالكتابة إلى القرص، سنلتقط كل تدفق ونضعه في أرشيف ZIP. هذا هو نمط **save HTML as zip** الكلاسيكي.
 
 ```csharp
-ImageRenderingOptions imageOptions = new ImageRenderingOptions()
+/// <summary>
+/// Streams each external resource (images, CSS, fonts) into a ZipSaveOptions archive.
+/// </summary>
+class ZipPacker : ResourceHandler
 {
-    // Smooth out vector edges for a professional look
-    UseAntialiasing = true,
-    // Desired output dimensions – adjust to your needs
-    Width = 1024,
-    Height = 768,
-    // If you want a white canvas behind transparent elements:
-    BackgroundColor = Color.White
+    private readonly ZipSaveOptions _zipOptions;
+
+    public ZipPacker(ZipSaveOptions zipOptions) => _zipOptions = zipOptions;
+
+    public override Stream HandleResource(ResourceInfo info)
+    {
+        // Aspose calls this for every external resource.
+        // Returning the stream from ZipSaveOptions tells the library to write the data into the ZIP.
+        return _zipOptions.GetOutputStream(info);
+    }
+}
+```
+
+**نصيحة احترافية:** كائن `ResourceInfo` يمنحك عنوان URL الأصلي، لذا يمكنك تصفية الموارد غير المرغوب فيها (مثل سكريبتات التحليل) إذا أردت ZIP أخف.
+
+الآن اربط المعالج بخيارات الحفظ:
+
+```csharp
+// Prepare ZIP options and attach our custom handler
+var zipOptions = new ZipSaveOptions();
+var resourceHandler = new ZipPacker(zipOptions);
+```
+
+عند استدعاء `document.Save` في النهاية، ستنتهي جميع الملفات الخارجية داخل `packed_output.zip`.
+
+## الخطوة 3: حفظ HTML + الموارد كأرشيف ZIP
+
+```csharp
+// This writes the HTML file and every linked resource into a single ZIP.
+document.Save("YOUR_DIRECTORY/packed_output.zip", zipOptions);
+```
+
+*ما ستحصل عليه:* حزمة مستقلة يمكنك نقلها، فك ضغطها على جهاز آخر، أو تقديمها كحزمة قابلة للتحميل. هذه هي أنظف طريقة لـ **save HTML as zip** دون القلق بشأن الملفات المفقودة.
+
+## الخطوة 4: تحديد خيارات عرض الصورة (Convert HTML to Bitmap)
+
+الآن ننتقل من الأرشفة إلى التحويل إلى نقطية. تسمح لنا فئة `ImageRenderingOptions` بالتحكم في حجم الإخراج، مضاد التسنين، وتحسين النص—مكونات أساسية للحصول على PNG عالي الجودة.
+
+```csharp
+ImageRenderingOptions imageOptions = new ImageRenderingOptions
+{
+    Width = 1024,               // Desired pixel width
+    Height = 768,               // Desired pixel height
+    UseAntialiasing = true,     // Smooth edges for shapes and text
+    TextOptions = new TextOptions
+    {
+        UseHinting = true       // Improves readability of small fonts
+    }
 };
 ```
 
-**Pro tip:** إذا كنت تفضل خلفية مختلفة (مثلاً رمادي فاتح للتقارير)، غيّر `Color.White` إلى `Color.LightGray`. هذا الخيار يساعد أيضًا عند تحويل HTML يستخدم CSS `rgba()` مع قيمة ألفا—بدون خلفية قد يبدو PNG النهائي غريبًا على سمات UI الداكنة.
+**لماذا هذه الإعدادات؟** لوحة 1024×768 هي قيمة افتراضية آمنة لمعظم صفحات الويب. مضاد التسنين يزيل الحواف المتعرجة، بينما تحسين النص يضمن حروفًا واضحة حتى بأحجام خطوط أصغر.
 
-## الخطوة 3: التصيير والحفظ – Save HTML as Image (PNG)
+## الخطوة 5: تعديل DOM – تطبيق نمط عريض مائل قبل العرض
 
-الآن يحدث الجزء الثقيل: يقوم Aspose.HTML بتصيير DOM إلى صورة نقطية ويكتبها إلى القرص. التحميل الزائد (overload) لطريقة `Save` التي نستخدمها يأخذ مسار الإخراج وخيارات التصيير التي عرّفناها للتو.
-
-```csharp
-// Render the page and save it as a PNG file
-htmlDoc.Save(@"C:\MyReports\chart.png", imageOptions);
-```
-
-بعد تنفيذ هذا السطر، ستجد `chart.png` في الموقع المحدد. افتحه بأي عارض صور وسترى PNG واضح بدقة 1024 × 768 يطابق تخطيط HTML الأصلي.
-
-### النتيجة المتوقعة
-
-- **File:** `chart.png`
-- **Format:** PNG (بدون فقدان، يدعم الشفافية)
-- **Dimensions:** 1024 × 768 بكسل
-- **Background:** White (أو اللون الذي قمت بتعيينه)
-
-إذا فتحت الملف ولاحظت فقدان الخطوط، تأكد من تثبيت الخطوط على الجهاز أو دمجها عبر CSS `@font-face`.
-
-## متقدم: Convert HTML to PNG بأحجام مختلفة
-
-أحيانًا تحتاج إلى عدة دقات—فكر في المصغرات مقابل الطباعة بالحجم الكامل. يمكنك إعادة استخدام نفس `HTMLDocument` وتعديل `Width` و `Height` قبل كل عملية `Save`.
+أحيانًا تحتاج إلى إبراز عنوان أو تغيير مظهره فقط لإخراج PNG. إليك كيفية استهداف العنصر `<h1>` الأول وجعله عريضًا مائلًا.
 
 ```csharp
-int[] sizes = { 300, 600, 1200 }; // widths in pixels
-foreach (int w in sizes)
+var titleElement = document.QuerySelector("h1");
+if (titleElement != null)
 {
-    imageOptions.Width = w;
-    imageOptions.Height = w * 3 / 4; // keep 4:3 aspect ratio
-    string outPath = $@"C:\MyReports\chart_{w}.png";
-    htmlDoc.Save(outPath, imageOptions);
+    titleElement.Style.FontWeight = WebFontStyle.Bold;
+    titleElement.Style.FontStyle  = WebFontStyle.Italic;
 }
 ```
 
-**Why this works:** محرك التصيير يعيد تخطيط الصفحة لكل حجم، محافظًا على جودة المتجهات. هذا أفضل بكثير من تحجيم صورة نقطية بعد الإنشاء.
+*حالة حافة:* إذا لم تحتوي الصفحة على `<h1>`، يتخطى الكود خطوة التنسيق بأمان. يمكنك توسيع هذه المنطق لأي محدد (`.class`، `#id`، إلخ) لتخصيص العرض أثناء التشغيل.
 
-## مكافأة: Using `c# html to image` في Web API
+## الخطوة 6: العرض إلى Bitmap وحفظه كـ PNG – جوهر **Render HTML to PNG**
 
-إذا كنت تبني نقطة نهاية ASP.NET Core تُعيد PNG مباشرة، قم بلف منطق التصيير داخل `MemoryStream`:
+أخيرًا، نحول DOM إلى bitmap ونكتبها كملف PNG.
 
 ```csharp
-using Microsoft.AspNetCore.Mvc;
-using System.IO;
-
-[ApiController]
-[Route("api/render")]
-public class RenderController : ControllerBase
+using (var bitmap = document.RenderToBitmap(imageOptions))
 {
-    [HttpGet("png")]
-    public IActionResult GetPng([FromQuery] string htmlPath)
-    {
-        HTMLDocument doc = new HTMLDocument(htmlPath);
-        ImageRenderingOptions opts = new ImageRenderingOptions
-        {
-            UseAntialiasing = true,
-            Width = 800,
-            Height = 600,
-            BackgroundColor = Color.White
-        };
-
-        using var ms = new MemoryStream();
-        doc.Save(ms, opts);
-        ms.Position = 0;
-        return File(ms.ToArray(), "image/png", "rendered.png");
-    }
+    // The bitmap is an in‑memory representation of the rendered page.
+    bitmap.Save("YOUR_DIRECTORY/rendered.png");
 }
 ```
 
-الآن يمكن للعميل طلب `/api/render/png?htmlPath=C:\MyReports\chart.html` وتلقي PNG مباشرة—مثالي لتوليد التقارير عند الطلب.
-
-## المشكلات الشائعة وكيفية تجنبها
-
-| المشكلة | السبب | الحل |
-|------|-------|-----|
-| **Blank image** | ملف HTML غير موجود أو خطأ في المسار | تحقق من المسار الكامل وتأكد من وجود الملف |
-| **Missing fonts** | الخط غير مثبت على الخادم | دمج الخطوط عبر `@font-face` أو تثبيتها على مستوى النظام |
-| **Incorrect colors** | الخلفية الشفافة تظهر من خلال الصورة | استخدم `BackgroundColor = Color.White` (أو اللون المطلوب) |
-| **Distorted layout** | العرض/الارتفاع صغير جدًا بالنسبة للمحتوى | زد الأبعاد أو دع Aspose يحسب الحجم (`Width = 0, Height = 0`) |
+**النتيجة:** يحتوي `rendered.png` على لقطة بكسل‑مثالية لصفحة HTML الخاصة بك، مع `<h1>` العريض المائل وأي موارد خارجية تم تجميعها في ZIP.
 
 ## مثال كامل يعمل
 
-فيما يلي تطبيق console مستقل يمكنك نسخه ولصقه في `Program.cs`. يوضح التدفق الكامل من تحميل HTML إلى حفظ PNG مع خلفية بيضاء.
+فيما يلي البرنامج الكامل الذي يمكنك نسخه ولصقه في تطبيق Console. تذكر استبدال `YOUR_DIRECTORY` بمسار مجلد فعلي على جهازك.
 
 ```csharp
-using System;
-using System.Drawing;
+using System.IO;
 using Aspose.Html;
+using Aspose.Html.Saving;
 using Aspose.Html.Rendering.Image;
 
-namespace HtmlToPngDemo
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
+        // Step 1: Load HTML
+        Document document = new Document("YOUR_DIRECTORY/input.html");
+
+        // Step 2: Custom resource handler for ZIP packing
+        var zipOptions = new ZipSaveOptions();
+        var resourceHandler = new ZipPacker(zipOptions);
+        document.Save("YOUR_DIRECTORY/packed_output.zip", zipOptions); // Save as ZIP
+
+        // Step 4: Rendering options (convert HTML to bitmap)
+        ImageRenderingOptions imageOptions = new ImageRenderingOptions
         {
-            // 1️⃣ Load the HTML document
-            string htmlPath = @"C:\MyReports\chart.html";
-            HTMLDocument htmlDoc = new HTMLDocument(htmlPath);
+            Width = 1024,
+            Height = 768,
+            UseAntialiasing = true,
+            TextOptions = new TextOptions { UseHinting = true }
+        };
 
-            // 2️⃣ Set rendering options (high‑quality, white background)
-            ImageRenderingOptions options = new ImageRenderingOptions
-            {
-                UseAntialiasing = true,
-                Width = 1024,
-                Height = 768,
-                BackgroundColor = Color.White
-            };
-
-            // 3️⃣ Render and save as PNG
-            string pngPath = @"C:\MyReports\chart.png";
-            htmlDoc.Save(pngPath, options);
-
-            Console.WriteLine($"✅ Render complete! PNG saved to: {pngPath}");
+        // Step 5: Bold‑italic the first <h1>
+        var titleElement = document.QuerySelector("h1");
+        if (titleElement != null)
+        {
+            titleElement.Style.FontWeight = WebFontStyle.Bold;
+            titleElement.Style.FontStyle  = WebFontStyle.Italic;
         }
+
+        // Step 6: Render and save PNG
+        using (var bitmap = document.RenderToBitmap(imageOptions))
+        {
+            bitmap.Save("YOUR_DIRECTORY/rendered.png");
+        }
+    }
+}
+
+// ---------- Custom Resource Handler ----------
+class ZipPacker : ResourceHandler
+{
+    private readonly ZipSaveOptions _zipOptions;
+    public ZipPacker(ZipSaveOptions zipOptions) => _zipOptions = zipOptions;
+
+    public override Stream HandleResource(ResourceInfo info)
+    {
+        // Stream each resource into the ZIP archive
+        return _zipOptions.GetOutputStream(info);
     }
 }
 ```
 
-شغّل البرنامج (`dotnet run`) وسترى رسالة التأكيد. افتح `chart.png` للتحقق من النتيجة.
+### النتيجة المتوقعة
+
+- **packed_output.zip** – يحتوي على `input.html` بالإضافة إلى جميع الصور، CSS، الخطوط، إلخ.
+- **rendered.png** – PNG بحجم 1024×768 يتطابق بصريًا مع الصفحة الأصلية، مع العنوان الأول معروضًا بخط عريض مائل.
+
+## أسئلة شائعة وحالات حافة
+
+| السؤال | الجواب |
+|----------|--------|
+| *ماذا لو كان HTML يشير إلى صور عن بُعد عبر HTTPS؟* | معالج الموارد يعمل مع أي مخطط URI يدعمه Aspose.HTML. تأكد من أن الجهاز لديه اتصال بالإنترنت، أو قم بتنزيل الأصول مسبقًا لتجنب تأخير الشبكة. |
+| *هل يمكنني تغيير مستوى ضغط PNG؟* | نعم. بعد العرض، يمكنك إعادة حفظ الـ bitmap باستخدام `PngSaveOptions` وتعيين `CompressionLevel` (0‑9). |
+| *ماذا عن الصفحات الكبيرة التي تتجاوز حدود الذاكرة؟* | استخدم `document.RenderToBitmap` مع `PageRenderingOptions` لعرض صفحة واحدة في كل مرة، أو زد حد الذاكرة للعملية. |
+| *هل أحتاج إلى رخصة تجارية؟* | الإصدار التجريبي يعمل للتقييم، لكن للإنتاج ستحتاج إلى رخصة Aspose.HTML صالحة لإزالة علامات التقييم. |
+| *هل يمكن عرض عنصر محدد فقط (مثل مخطط) كـ PNG؟* | نعم. استخرج العنصر، استنسخه إلى `Document` جديد، ثم عرض ذلك المستند. هذا يتجنب عرض الصفحة بالكامل. |
+
+## نصائح احترافية وأفضل الممارسات
+
+- **Cache ZIP streams** إذا قمت بإنشاء العديد من ملفات PDF في حلقة؛ إعادة استخدام نفس `ZipSaveOptions` يقلل من ضغط GC.
+- **Set `UseAntialiasing` to `false`** فقط عندما تحتاج إلى إخراج بكسل‑مثالي غير مضبب (مثل فن البكسل).
+- **Validate the HTML** قبل العرض. قد يؤدي الترميز غير الصحيح إلى موارد مفقودة أو تغييرات في التخطيط.
+- **Log the `ResourceInfo.Uri`** داخل `HandleResource` أثناء التصحيح؛ إنها طريقة سريعة لاكتشاف الروابط المعطلة.
+- **Combine with CSS media queries** (`@media print`) لتخصيص مظهر PNG دون تعديل الصفحة الأصلية.
 
 ## الخلاصة
 
-أصبح لديك الآن طريقة قوية وجاهزة للإنتاج **render HTML to PNG** باستخدام Aspose.HTML في C#. سواء كنت تبحث عن **save HTML as image**، أو تحتاج إلى حل **add white background image**، أو ببساطة تريد **convert HTML to PNG** بأحجام مختلفة، فإن الشيفرة أعلاه تغطي جميع هذه السيناريوهات.
+أصبح لديك الآن وصفة كاملة وجاهزة للإنتاج لـ **render HTML to PNG** في C#. يوضح سير العمل كيفية **save HTML as ZIP** باستخدام **custom resource handler**، وكيفية **convert HTML to bitmap**، وأخيرًا كيفية إخراج ملف PNG مصقول.
 
-الخطوات التالية قد تشمل:
-- تجربة صيغ أخرى (`JPEG`, `BMP`) بتغيير امتداد الملف.
-- إضافة نص علامة مائية باستخدام `Graphics` بعد التصيير.
-- دمج المقتطف في خدمة خلفية تقوم بتجميع تقارير HTML.
+مع هذه الأساسيات يمكنك أتمتة إنشاء المصغرات، إنشاء معاينات البريد الإلكتروني، أو بناء خطوط أنابيب PDF‑إلى‑صورة—كل ذلك مع الحفاظ على جميع الأصول الخارجية مُعبأة بشكل منظم.
 
-جرّبه، عدّل الأبعاد، ودع PNGs المصورة تدعم رسائل البريد الإلكتروني، اللوحات، أو ملفات PDF القابلة للطباعة. برمجة سعيدة!
+هل أنت مستعد للخطوة التالية؟ جرّب عرض صفحات متعددة في ملف PDF متعدد الصفحات، جرب خيارات `ImageRenderingOptions` مختلفة لأصول جاهزة للشاشات عالية الدقة، أو دمج هذا الكود في API ASP.NET Core بحيث يمكن للمستخدمين رفع HTML والحصول على PNG مباشرة.
+
+برمجة سعيدة، ولتكن لقطات الشاشة دائمًا واضحة كالكريستال!
+
+![معاينة PNG المعروضة تُظهر العنوان العريض المائل](/images/rendered-preview.png "مثال تحويل html إلى png")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -32,6 +32,9 @@ Att bygga dina egna pipelines för meddelandehanterare kan kännas som att bygga
 ## Exekvering av webbbegäran i Aspose.HTML för Java
  Att köra webbförfrågningar är en annan viktig aspekt av att arbeta med Aspose.HTML för Java. Från att hämta innehåll från tredje part till att hantera fjärrresurser, att veta hur man utför dessa åtgärder kan vara en spelförändring. De[Exekvering av webbbegäran i Aspose.HTML för Java](./web-request-execution/)handledningen erbjuder en omfattande uppdelning av hur du skickar och tar emot data effektivt. Tänk på det som att ringa ett telefonsamtal: du vill se till att ditt meddelande når fram sömlöst utan statisk ström. Att bemästra denna färdighet ger dig möjlighet att ta med ytterligare data i dina applikationer, vilket förbättrar dokumentbehandlingskapaciteten.
 
+## Ställ in anpassad användaragent i Java – Ladda webbsida i sandbox‑handledning
+Lär dig hur du anger en egen användaragent när du laddar en webbsida i en sandbox‑miljö med Aspose.HTML för Java.
+
 ## Konvertera ZIP till JPG och PDF
  Har du någonsin behövt extrahera bilder från en komprimerad fil snabbt? De[Konvertera ZIP till JPG med Aspose.HTML för Java](./zip-to-jpg/) och[Konvertera ZIP till PDF med Aspose.HTML för Java](./zip-to-pdf/) tutorials ger dig verktyg för dessa specifika uppgifter. Att konvertera filer behöver inte vara en besvärlig process – det kan vara så enkelt som att omvandla en skiss till ett mästerverk. Dessa guider bryter ner stegen för att hjälpa dig att effektivt konvertera ZIP-filer och visar upp mångsidigheten hos Aspose.HTML för Java.
 
@@ -46,10 +49,21 @@ Lär dig hur du hanterar nätverkstimeouts med Aspose.HTML för Java i den här 
 Lär dig hur du skapar pipelines för meddelandehanterare i Aspose.HTML för Java med den här detaljerade steg-för-steg-guiden. Konvertera ZIP till PDF utan ansträngning.
 ### [Exekvering av webbbegäran i Aspose.HTML för Java](./web-request-execution/)
 Lär dig att utföra webbförfrågningar med Aspose.HTML för Java med denna omfattande, steg-för-steg-guide. Förbättra dina färdigheter i HTML-dokumenthantering.
+### [Ställ in anpassad användaragent i Java – Ladda webbsida i sandbox‑handledning](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
+Lär dig hur du anger en egen användaragent när du laddar en webbsida i en sandbox‑miljö med Aspose.HTML för Java.
 ### [Konvertera ZIP till JPG med Aspose.HTML för Java](./zip-to-jpg/)
 Lär dig hur du konverterar ZIP-filer till JPG-bilder med Aspose.HTML för Java med denna steg-för-steg-guide.
 ### [Konvertera ZIP till PDF med Aspose.HTML för Java](./zip-to-pdf/)
 Konvertera enkelt dina ZIP-filer till PDF med Aspose.HTML för Java med denna steg-för-steg-guide.
+### [java 11 httpclient authenticator – Komplett guide för säkra förfrågningar](./java-11-httpclient-authenticator-complete-guide-to-secure-re/)
+Lär dig hur du använder HttpClient Authenticator i Java 11 för att säkert skicka HTTP-förfrågningar med autentisering.
+
+### [Hur du hämtar API i Java – Komplett guide med Aspose HTML V8-motorn](./how-to-fetch-api-in-java-complete-guide-using-aspose-html-v8/)
+Lär dig hur du använder Fetch API i Java med Aspose HTML V8-motorn i denna steg-för-steg-guide.
+### [Hämta JSON JavaScript i Java med Aspose HTML – Komplett guide](./fetch-json-javascript-in-java-with-aspose-html-complete-guid/)
+Lär dig hur du hämtar JSON-data med JavaScript i Java med Aspose HTML i denna kompletta guide.
+### [Ställ in auktoriseringshuvud i Java – Komplett guide för att ladda HTML från URL](./set-authorization-header-in-java-complete-guide-to-load-html/)
+Lär dig hur du sätter auktoriseringshuvuden i Java för att ladda HTML från en URL med Aspose.HTML.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
