@@ -124,6 +124,8 @@ Dowiedz się, jak włączyć obsługę JavaScript podczas konwersji HTML do PDF 
 Kompletny przewodnik, jak konwertować HTML do PDF w Javie przy użyciu Aspose.HTML, krok po kroku, z przykładami i najlepszymi praktykami.
 ### [Konwertowanie HTML do PDF w Javie – Przewodnik krok po kroku](./convert-html-to-pdf-in-java-step-by-step-guide/)
 Dowiedz się, jak krok po kroku konwertować HTML do PDF w Javie przy użyciu Aspose.HTML, uzyskując wysokiej jakości dokumenty PDF.
+### [Konwertowanie HTML do PDF w Javie – Ustaw rozmiar strony i marginesy](./convert-html-to-pdf-in-java-set-page-size-margins/)
+Dowiedz się, jak ustawić rozmiar strony i marginesy przy konwersji HTML do PDF w Javie przy użyciu Aspose.HTML.
 ### [Konwertowanie HTML do PDF w Javie – Przewodnik krok po kroku z ustawieniami rozmiaru strony](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Dowiedz się, jak konwertować HTML do PDF w Javie, ustawiając rozmiar strony krok po kroku.
 ### [Konwertowanie HTML do PDF w Javie – Kompletny przewodnik z osadzaniem czcionek](./convert-html-to-pdf-in-java-complete-guide-with-font-embeddi/)
@@ -240,6 +242,8 @@ Szybki przewodnik, jak konwertować HTML do PDF w Javie przy użyciu Aspose.HTML
 Dowiedz się, jak przy użyciu Aspose.HTML w Javie konwertować dokumenty HTML do standardu PDF/A‑2b, zapewniając długotrwałą archiwizację.
 ### [Tworzenie EPUB z HTML – Kompletny przewodnik Java do tworzenia i zapisywania e‑booków](./create-epub-from-html-full-java-guide-to-build-and-save-eboo/)
 Dowiedz się, jak przy użyciu Aspose.HTML w Javie przekształcić HTML w plik EPUB, tworząc e‑booki o wysokiej jakości.
+### [Konwertowanie HTML do PDF w Javie – Przykład równoległy Aspose](./convert-html-to-pdf-in-java-aspose-parallel-example/)
+Pokaż, jak używać Aspose.HTML w Javie do równoległej konwersji HTML do PDF, zwiększając wydajność przetwarzania.
 
 ### [Utwórz PDF z HTML w Javie – Kompletny przewodnik krok po kroku](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
 Dowiedz się, jak utworzyć PDF z HTML w Javie przy użyciu Aspose.HTML. Przejdź przez kompletny przewodnik krok po kroku.

@@ -147,6 +147,10 @@ url: /el/java/creating-managing-html-documents/
 Μάθετε πώς να φιλτράρετε στοιχεία HTML κατά κλάση χρησιμοποιώντας querySelectorAll σε Java με οδηγίες βήμα‑βήμα.
 ### [Πώς να διαβάσετε αρχείο XHTML σε Java – Παράδειγμα XPath Namespace](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
 Μάθετε πώς να διαβάζετε αρχεία XHTML σε Java χρησιμοποιώντας XPath με namespaces, βήμα‑βήμα οδηγός.
+### [Πώς να ερωτήσετε HTML με Aspose.HTML – Πλήρης οδηγός Java](./how-to-query-html-with-aspose-html-complete-java-guide/)
+Μάθετε πώς να εκτελείτε ερωτήματα σε έγγραφα HTML με Java χρησιμοποιώντας το Aspose.HTML, βήμα‑βήμα οδηγίες και παραδείγματα.
+### [Μετατροπή Markdown σε HTML σε Java – Γρήγορος Οδηγός με Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
+Μάθετε πώς να μετατρέψετε αρχεία Markdown σε HTML σε Java χρησιμοποιώντας το Aspose.HTML με αυτόν τον γρήγορο βήμα‑βήμα οδηγό.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

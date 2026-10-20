@@ -101,6 +101,8 @@ url: /zh-hant/java/css-html-form-editing/
 本分步指南說明如何在 Java 中使用 Aspose.HTML 取得元素樣式屬性，涵蓋程式碼示例與實作要點。
 ### [在 Java 中取得計算樣式 – 完整指南](./get-computed-style-in-java-complete-guide/)
 本指南說明如何在 Java 中使用 Aspose.HTML 獲取元素的計算樣式，提供完整步驟與範例。
+### [如何在 Java 中讀取 CSS – 模擬手機螢幕並測試媒體查詢](./how-to-read-css-in-java-simulate-mobile-screen-test-media-qu/)
+本教學示範如何在 Java 中讀取 CSS，模擬行動裝置螢幕尺寸，並驗證 Media Queries 的行為。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

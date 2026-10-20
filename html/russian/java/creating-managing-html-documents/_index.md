@@ -137,6 +137,10 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 Узнайте, как извлекать HTML из файлов MHTML в Java с помощью Aspose.HTML, пошаговое полное руководство.
 ### [Как искать HTML – Руководство Java по поиску текста](./how-to-search-html-java-guide-for-finding-text/)
 Узнайте, как находить нужный текст в HTML с помощью Aspose.HTML для Java. Пошаговое руководство и примеры кода.
+### [Конвертировать Markdown в HTML в Java – Быстрое руководство с Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
+Узнайте, как быстро преобразовать Markdown в HTML в Java с помощью Aspose.HTML, следуя простому пошаговому руководству.
+### [Как выполнять запросы к HTML с Aspose.HTML – Полное руководство по Java](./how-to-query-html-with-aspose-html-complete-java-guide/)
+Узнайте, как выполнять запросы к HTML в Java с помощью Aspose.HTML, полное пошаговое руководство.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

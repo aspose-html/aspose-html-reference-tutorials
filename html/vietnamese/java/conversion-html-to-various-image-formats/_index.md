@@ -156,6 +156,7 @@ Hướng dẫn chi tiết cách sử dụng Sandbox của Aspose.HTML để ch�
 ### [Chuyển đổi SVG sang PNG với Độ phân giải cao – Hướng dẫn Java](./convert-svg-to-png-with-high-resolution-java-guide/)
 ### [Chuyển đổi HTML sang WebP trong Java – Hướng dẫn đầy đủ](./convert-html-to-webp-in-java-complete-guide/)
 Hướng dẫn chi tiết cách chuyển đổi HTML sang WebP trong Java bằng Aspose.HTML, bao gồm các bước cấu hình và lưu trữ.
+### [Chuyển đổi SVG sang PNG trong Java – Hướng dẫn chuyển đổi hàng loạt](./convert-svg-to-png-in-java-batch-conversion-guide/)
 
 ## Câu hỏi thường gặp
 

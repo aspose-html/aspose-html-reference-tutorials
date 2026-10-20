@@ -101,6 +101,8 @@ Pelajari cara mengambil properti style elemen HTML menggunakan query selector di
 Pelajari cara membaca CSS di Java dan memperoleh nilai gaya terhitung untuk elemen, memudahkan manipulasi tampilan secara terprogram.
 ### [Cara Mendapatkan Gaya di Java dengan Aspose.HTML – Panduan Langkah‑per‑Langkah](./how-to-get-style-in-java-with-aspose-html-step-by-step-guide/)
 Pelajari cara mengambil gaya CSS pada elemen HTML menggunakan Aspose.HTML untuk Java dalam panduan langkah demi langkah ini.
+### [Cara Membaca CSS di Java – Simulasikan Layar Mobile & Uji Media Queries](./how-to-read-css-in-java-simulate-mobile-screen-test-media-qu/)
+Pelajari cara membaca file CSS di Java, mensimulasikan tampilan seluler, dan menguji media queries secara terprogram.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

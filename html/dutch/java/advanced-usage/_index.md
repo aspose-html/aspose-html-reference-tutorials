@@ -167,6 +167,8 @@ Leer hoe je JavaScript kunt uitvoeren binnen Java‑applicaties met Aspose.HTML,
 Leer hoe je met Aspose.HTML JavaScript kunt uitvoeren en dynamisch elementen aan de body van een HTML‑document kunt toevoegen.
 ### [Hoe DPI in te stellen bij het converteren van SVG naar PNG met Aspose – Java‑gids](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
 Leer hoe je de DPI-waarde instelt bij het omzetten van SVG‑bestanden naar PNG met Aspose.HTML for Java.
+### [JavaScript uitvoeren vanuit Java – Aangepaste User-Agent instellen met Aspose.HTML](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
+Leer hoe je een aangepaste User-Agent instelt bij het uitvoeren van JavaScript vanuit Java met Aspose.HTML.
 
 ---
 

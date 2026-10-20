@@ -37,6 +37,9 @@ Představte si, že potřebujete generovat obsah HTML za chodu na základě vstu
 
  Pokud jde o generování nových dokumentů HTML, Aspose.HTML for Java nabízí robustní řešení, které vám umožní vytvářet bohatý webový obsah od začátku. Ať už pracujete na redakčním systému nebo potřebujete generovat sestavy ve formátu HTML, pochopení toho, jak vytvářet a spravovat nové HTML dokumenty, je zásadní. Pokročilé techniky načítání souborů vám navíc umožňují pracovat se složitými dokumenty HTML a zajišťují, že snadno zvládnete rozsáhlé projekty. Tyto výukové programy vás provedou každým krokem a zajistí, že budete připraveni vypořádat se s jakoukoli výzvou související s HTML.[Přečtěte si více](./generate-new-html-documents/)
 
+### [Převod Markdownu na HTML v Javě – rychlý průvodce s Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
+Rychlý návod, jak převést Markdown na HTML v Javě pomocí Aspose.HTML.
+
 ## Správa dokumentů SVG a zpracování událostí
 
  A konečně, pro ty, kteří chtějí své dovednosti posouvat ještě dále, je tu spousta pokročilých témat k prozkoumání. Naučte se spravovat dokumenty SVG nebo zpracovávat události načítání dokumentů a vytvářet citlivé a dynamické webové aplikace. Tyto výukové programy vás zavedou za hranice HTML, ponoříte se do složitostí škálovatelné vektorové grafiky (SVG) a programování řízeného událostmi.[Přečtěte si více](./create-manage-svg-documents/)
@@ -133,6 +136,9 @@ Naučte se, jak z MHTML souborů extrahovat HTML pomocí Aspose.HTML pro Java v 
 Naučte se pomocí Aspose.HTML v Javě vyhledávat text v HTML dokumentech pomocí praktických příkladů a tipů.
 ### [Jak použít querySelectorAll v Javě – filtrování podle třídy](./how-to-use-queryselectorall-in-java-filter-by-class/)
 Naučte se pomocí Aspose.HTML v Javě využít querySelectorAll k výběru elementů podle třídy.
+
+### [Jak dotazovat HTML s Aspose.HTML – Kompletní průvodce pro Javu](./how-to-query-html-with-aspose-html-complete-java-guide/)
+Kompletní průvodce, jak v Javě dotazovat HTML pomocí Aspose.HTML, včetně příkladů a tipů.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

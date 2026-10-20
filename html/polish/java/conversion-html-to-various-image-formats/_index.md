@@ -172,6 +172,8 @@ Dowiedz się, jak utworzyć wielostronicowy plik TIFF z SVG w Javie przy użyciu
 ### [Konwertowanie HTML do WebP w Javie – Kompletny przewodnik](./convert-html-to-webp-in-java-complete-guide/)
 Dowiedz się, jak konwertować HTML do formatu WebP w Javie przy użyciu Aspose.HTML. Kompletny przewodnik krok po kroku.
 
+### [Konwertowanie SVG do PNG w Javie – Przewodnik konwersji wsadowej](./convert-svg-to-png-in-java-batch-conversion-guide/)
+
 ## Najczęściej zadawane pytania
 
 **Q: Czy mogę konwertować HTML do PNG w Javie bez dodatkowych bibliotek graficznych?**  

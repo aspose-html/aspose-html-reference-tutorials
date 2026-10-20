@@ -172,6 +172,8 @@ Aspose.HTML for Java का उपयोग करके Java HTMLDocument म�
 Java एप्लिकेशन में JavaScript का उपयोग करके बॉडी में तत्व कैसे जोड़ें, इस पूर्ण गाइड में सीखें।  
 ### [Aspose के साथ SVG को PNG में बदलते समय DPI सेट करना – Java गाइड](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
 Aspose का उपयोग करके SVG को PNG में बदलते समय DPI कैसे सेट करें, इस Java गाइड में सीखें।  
+### [Java से JavaScript चलाएँ – Aspose.HTML के साथ कस्टम User-Agent सेट करें](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
+Aspose.HTML for Java का उपयोग करके Java से JavaScript चलाते समय कस्टम User-Agent कैसे सेट करें, सीखें।  
 
 ---
 

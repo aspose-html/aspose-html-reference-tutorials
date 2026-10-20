@@ -142,6 +142,10 @@ Aspose.HTML for Java का उपयोग करके HTML दस्ताव
 
 ### [Java में XHTML फ़ाइल पढ़ना – XPath नेमस्पेस उदाहरण](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
 Java में Aspose.HTML का उपयोग करके XHTML फ़ाइल पढ़ें और XPath नेमस्पेस के साथ क्वेरी करें। चरण‑दर‑चरण गाइड।
+### [Aspose.HTML के साथ HTML क्वेरी कैसे करें – पूर्ण जावा गाइड](./how-to-query-html-with-aspose-html-complete-java-guide/)
+Aspose.HTML का उपयोग करके जावा में HTML क्वेरी करने की पूरी मार्गदर्शिका, चरण‑दर‑चरण उदाहरण और सर्वोत्तम प्रथाएँ।
+### [Aspose के साथ जावा में मार्कडाउन को HTML में परिवर्तित करें – त्वरित गाइड](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
+Aspose.HTML for Java का उपयोग करके मार्कडाउन को HTML में बदलने की तेज़ चरण‑दर‑चरण प्रक्रिया।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

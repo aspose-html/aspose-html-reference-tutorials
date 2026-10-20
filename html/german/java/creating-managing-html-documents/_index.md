@@ -151,6 +151,10 @@ Erfahren Sie, wie Sie mit Aspose.HTML für Java Text in HTML-Dokumenten suchen u
 Erfahren Sie, wie Sie mit querySelectorAll in Aspose.HTML für Java Elemente nach CSS‑Klasse filtern können.
 ### [Wie man XHTML-Datei in Java liest – XPath-Namespace-Beispiel](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
 Erfahren Sie, wie Sie mit Aspose.HTML für Java eine XHTML-Datei mithilfe von XPath und Namespaces auslesen.
+### [Wie man HTML mit Aspose.HTML abfragt – Vollständiger Java-Leitfaden](./how-to-query-html-with-aspose-html-complete-java-guide/)
+Erfahren Sie, wie Sie HTML mit Aspose.HTML in Java abfragen und verarbeiten – Schritt‑für‑Schritt‑Anleitung für umfassendes Verständnis.
+### [Markdown nach HTML in Java konvertieren – Schnellleitfaden mit Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
+Erfahren Sie, wie Sie mit Aspose.HTML Markdown-Dateien schnell in HTML umwandeln – kompakte Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

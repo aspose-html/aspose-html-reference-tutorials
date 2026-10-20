@@ -191,6 +191,8 @@ Aprenda a executar JavaScript em Java e adicionar elementos ao corpo da página 
 
 ### [Como definir DPI ao converter SVG para PNG com Aspose – Guia Java](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
 Aprenda a definir a resolução DPI ao converter arquivos SVG em PNG usando Aspose.HTML for Java.
+### [Como Executar JavaScript a partir de Java – Definir User-Agent Personalizado com Aspose.HTML](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
+Aprenda a definir um User-Agent personalizado ao executar scripts JavaScript a partir de Java usando Aspose.HTML.
 
 ---
 

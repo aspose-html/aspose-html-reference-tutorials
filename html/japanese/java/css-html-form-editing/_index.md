@@ -107,6 +107,8 @@ JavaコードでCSSの計算済みスタイルを取得し、要素の実際の�
 Aspose.HTML for Java を使って、HTML 要素のスタイル情報を取得する手順を詳しく解説します。
 ### [Javaで計算済みスタイルを取得 – 完全ガイド](./get-computed-style-in-java-complete-guide/)
 この完全ガイドでは、Aspose.HTML for Java を使用して要素の計算済みスタイルを取得する方法をステップバイステップで解説します。
+### [JavaでCSSを読み取る方法 – モバイル画面をシミュレートしメディアクエリをテスト](./how-to-read-css-in-java-simulate-mobile-screen-test-media-qu/)
+JavaでCSSを解析し、モバイル画面をエミュレートしてメディアクエリの動作を検証する手順を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

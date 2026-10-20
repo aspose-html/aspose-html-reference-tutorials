@@ -272,6 +272,10 @@ Aspose.HTML を使用して Java で HTML を PDF に変換する完全な手順
 Aspose.HTML を使用して Java で PDF 変換時に JavaScript を有効にする手順を解説します。
 ### [HTML を PDF として保存 – 固定スレッドプールを使用した並列バッチ変換（Java）](./save-html-as-pdf-parallel-batch-conversion-using-fixed-threa/)
 固定スレッドプールで複数の HTML を同時に PDF に変換し、バッチ処理のパフォーマンスを向上させる手順を解説します。
+### [JavaでHTMLをPDFに変換 – ページサイズと余白の設定](./convert-html-to-pdf-in-java-set-page-size-margins/)
+JavaでHTMLをPDFに変換し、ページサイズと余白をカスタマイズする方法を解説します。
+### [JavaでHTMLをPDFに変換 – Aspose パラレル例](./convert-html-to-pdf-in-java-aspose-parallel-example/)
+Aspose.HTML を使用して Java で並列処理により HTML を PDF に変換する方法を紹介します。
 
 ## よくある質問
 

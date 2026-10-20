@@ -168,6 +168,8 @@ Hướng dẫn chi tiết cách kích hoạt JavaScript khi làm việc với Ht
 Hướng dẫn chi tiết cách thực thi JavaScript trong Java để chèn phần tử vào thẻ body.
 ### [Cách thiết lập DPI khi chuyển SVG sang PNG với Aspose – Hướng dẫn Java](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
 Hướng dẫn cách thiết lập DPI khi chuyển đổi SVG sang PNG bằng Aspose.HTML cho Java.
+### [Chạy JavaScript từ Java – Đặt User-Agent tùy chỉnh với Aspose.HTML](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
+Hướng dẫn cách thiết lập User-Agent tùy chỉnh khi chạy JavaScript trong Java bằng Aspose.HTML để kiểm soát yêu cầu mạng.
 
 ---
 

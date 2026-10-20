@@ -143,6 +143,10 @@ Aspose.HTML สำหรับ Java นำเสนอชุดเครื่�
 เรียนรู้วิธีใช้ querySelectorAll ใน Java เพื่อเลือกองค์ประกอบตามคลาสและกรองผลลัพธ์อย่างแม่นยำใน Aspose.HTML
 ### [วิธีอ่านไฟล์ XHTML ใน Java – ตัวอย่าง XPath Namespace](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
 เรียนรู้วิธีอ่านไฟล์ XHTML ใน Java ด้วย XPath พร้อมตัวอย่างการจัดการ Namespace อย่างละเอียด
+### [วิธีสืบค้น HTML ด้วย Aspose.HTML – คู่มือ Java ฉบับสมบูรณ์](./how-to-query-html-with-aspose-html-complete-java-guide/)
+เรียนรู้วิธีสืบค้นและดึงข้อมูลจาก HTML ด้วย Aspose.HTML ใน Java อย่างละเอียดในคู่มือฉบับสมบูรณ์
+### [แปลง Markdown เป็น HTML ใน Java – คู่มือเร็วด้วย Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
+เรียนรู้วิธีแปลงไฟล์ Markdown เป็น HTML ใน Java ด้วย Aspose.HTML อย่างรวดเร็วและง่ายดาย
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

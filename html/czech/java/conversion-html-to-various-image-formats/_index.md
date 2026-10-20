@@ -183,6 +183,8 @@ Naučte se převést SVG soubory do PNG s vysokým rozlišením v Javě pomocí 
 Kompletní průvodce převodem HTML do formátu WebP v Javě pomocí Aspose.HTML.
 ### [Renderování HTML do PNG s Aspose.HTML Sandbox – Kompletní průvodce v Javě](./render-html-to-png-with-aspose-html-sandbox-full-java-guide/)
 Kompletní návod, jak pomocí Aspose.HTML Sandbox v Javě renderovat HTML do PNG s vysokou kvalitou a nastavením.
+### [Převod SVG do PNG v Javě – Průvodce hromadným převodem](./convert-svg-to-png-in-java-batch-conversion-guide/)
+Naučte se, jak hromadně převádět SVG soubory na PNG v Javě pomocí Aspose.HTML, s podrobným krok‑za‑krokem návodem.
 
 ## Často kladené otázky
 

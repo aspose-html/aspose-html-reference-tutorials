@@ -100,6 +100,8 @@ Ismerje meg, hogyan kérheti le egy elem számított CSS-stílusát Java-ban az 
 Ismerje meg, hogyan szerezheti meg a CSS‑stílusokat Java‑ban az Aspose.HTML használatával ebben a részletes lépésről‑lépésre útmutatóban.
 ### [Számított stílus lekérése Java-ban – Teljes útmutató](./get-computed-style-in-java-complete-guide/)
 Ismerje meg, hogyan szerezheti meg egy elem számított CSS-stílusát Java-ban az Aspose.HTML segítségével.
+### [Hogyan olvassuk a CSS-t Java-ban – Mobil képernyő szimulálása és média lekérdezések tesztelése](./how-to-read-css-in-java-simulate-mobile-screen-test-media-qu/)
+Ismerje meg, hogyan olvashatja a CSS-t Java-ban, szimulálhat mobil képernyőt és tesztelheti a média lekérdezéseket.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -175,6 +175,8 @@ Apprenez à exécuter des tâches en parallèle avec un FixedThreadPool en Java,
 Apprenez à exécuter du JavaScript depuis Java et à ajouter dynamiquement des éléments au corps du document.
 ### [Comment définir le DPI lors de la conversion de SVG en PNG avec Aspose – Guide Java](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
 Apprenez à spécifier la résolution DPI lors de la conversion de fichiers SVG en PNG avec Aspose.HTML for Java.  
+### [Exécuter du JavaScript depuis Java – Définir un User-Agent personnalisé avec Aspose.HTML](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
+Apprenez à définir un User-Agent personnalisé lors de l'exécution de JavaScript depuis Java avec Aspose.HTML.
 
 ---
 

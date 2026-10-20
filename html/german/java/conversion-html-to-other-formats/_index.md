@@ -179,6 +179,11 @@ Erfahren Sie, wie Sie HTML in Java zu PDF konvertieren, Schritt für Schritt.
 
 ### [JavaScript in Aspose HTML zu PDF (Java) aktivieren](./how-to-enable-javascript-in-aspose-html-to-pdf-java/)
 Erfahren Sie, wie Sie JavaScript in Aspose HTML zu PDF mit Java aktivieren, um dynamische Inhalte korrekt zu rendern.
+### [HTML zu PDF in Java – Seitengröße und Ränder festlegen](./convert-html-to-pdf-in-java-set-page-size-margins/)
+Erfahren Sie, wie Sie die Seitengröße und Ränder beim Konvertieren von HTML zu PDF in Java präzise einstellen.
+
+### [HTML zu PDF in Java – Aspose Parallel‑Beispiel](./convert-html-to-pdf-in-java-aspose-parallel-example/)
+Erfahren Sie, wie Sie mit Aspose.HTML mehrere HTML‑Zu‑PDF‑Konvertierungen parallel in Java ausführen.
 
 ### [Konvertierung von HTML zu MHTML](./convert-html-to-mhtml/)
 Konvertieren Sie HTML mühelos zu MHTML mit Aspose.HTML für Java. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung für eine effiziente HTML‑zu‑MHTML‑Konvertierung.

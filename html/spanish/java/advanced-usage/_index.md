@@ -167,6 +167,9 @@ Aprende a activar y ejecutar JavaScript dentro de un HtmlDocument en Java usando
 Aprende a usar un FixedThreadPool en Java para ejecutar múltiples tareas simultáneamente y mejorar el rendimiento de tus aplicaciones.
 ### [Ejecutar JavaScript en Java – Guía completa para añadir elementos al cuerpo](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
 
+### [Ejecutar JavaScript desde Java – Establecer User-Agent personalizado con Aspose.HTML](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
+Aprende a ejecutar scripts JavaScript desde Java y configurar un User-Agent personalizado al cargar páginas con Aspose.HTML.
+
 ---
 
 **Última actualización:** 2025-11-29  

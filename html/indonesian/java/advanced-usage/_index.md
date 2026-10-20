@@ -177,6 +177,8 @@ Pelajari cara mengeksekusi kode JavaScript dalam aplikasi Java dan menambahkan e
 
 ### [Cara Mengatur DPI Saat Mengonversi SVG ke PNG dengan Aspose – Panduan Java](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
 Pelajari cara mengatur DPI saat mengonversi file SVG ke PNG menggunakan Aspose.HTML untuk Java.
+### [Jalankan JavaScript dari Java – Atur User-Agent Kustom dengan Aspose.HTML](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
+Pelajari cara mengatur header User-Agent khusus saat mengeksekusi JavaScript menggunakan Aspose.HTML untuk Java.
 
 ---
 

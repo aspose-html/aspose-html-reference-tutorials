@@ -148,6 +148,10 @@ Java için Aspose.HTML kullanarak HTML içinde metin aramayı adım adım öğre
 ### [Java'da XHTML Dosyasını Okuma – XPath Namespace Örneği](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
 Java'da XPath kullanarak namespace içeren XHTML dosyalarını nasıl okuyacağınızı adım adım öğrenin.
 ### [Java’da querySelectorAll Kullanımı – Sınıfa Göre Filtreleme](./how-to-use-queryselectorall-in-java-filter-by-class/)
+### [Java için Aspose.HTML'de HTML Sorgulama – Tam Kılavuz](./how-to-query-html-with-aspose-html-complete-java-guide/)
+Java için Aspose.HTML kullanarak HTML içeriğini nasıl sorgulayacağınızı adım adım öğrenin.
+### [Java için Aspose ile Markdown'ı HTML'ye Dönüştürme – Hızlı Kılavuz](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
+Aspose kullanarak Java'da Markdown dosyalarını hızlıca HTML'ye dönüştürmeyi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

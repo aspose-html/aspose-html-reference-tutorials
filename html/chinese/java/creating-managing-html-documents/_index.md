@@ -154,6 +154,10 @@ Aspose.HTML for Java 为开发人员提供了功能强大的工具包，旨在�
 本完整指南教您在 Java 中渲染 HTML，等待页面加载完成并使用查询选择器提取元素。
 ### [在 Aspose.HTML for Java 中将 Markdown 转换为 HTML – 步骤指南](./convert-markdown-to-html-in-java-step-by-step-guide/)
 通过本分步指南学习如何使用 Aspose.HTML for Java 将 Markdown 内容转换为 HTML，适用于各种 Java 项目。
+### [使用 Aspose.HTML 查询 HTML – 完整 Java 指南](./how-to-query-html-with-aspose-html-complete-java-guide/)
+本完整指南详细讲解如何使用 Aspose.HTML for Java 查询 HTML 内容，包括选择器、XPath 和 CSS 查询等实用技巧。
+### [在 Java 中将 Markdown 转换为 HTML – 使用 Aspose 的快速指南](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
+本快速指南展示如何使用 Aspose.HTML for Java 将 Markdown 内容高效转换为 HTML，步骤简明易懂。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

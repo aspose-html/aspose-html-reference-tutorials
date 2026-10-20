@@ -101,6 +101,8 @@ Dowiedz się, jak programowo pobierać style elementów HTML w Aspose.HTML for J
 Dowiedz się, jak w Javie odczytać style CSS i uzyskać styl obliczony przy użyciu Aspose.HTML.
 ### [Jak uzyskać styl w Javie z Aspose.HTML – Przewodnik krok po kroku](./how-to-get-style-in-java-with-aspose-html-step-by-step-guide/)
 Dowiedz się, jak programowo pobierać style CSS elementów HTML w Javie przy użyciu Aspose.HTML, krok po kroku.
+### [Jak odczytać CSS w Javie – symulacja ekranu mobilnego i testowanie zapytań medialnych](./how-to-read-css-in-java-simulate-mobile-screen-test-media-qu/)
+Dowiedz się, jak w Javie odczytywać CSS, symulować ekran mobilny i testować zapytania medialne przy użyciu Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -124,6 +124,8 @@ Aspose.HTML for Java 简化了 HTML 转 PDF 的工作流。请参阅专门的教
 使用 Aspose.HTML for Java 的完整分步教程，将 HTML 转换为高质量 PDF。
 ### [如何在 Aspose HTML 转 PDF（Java）中启用 JavaScript](./how-to-enable-javascript-in-aspose-html-to-pdf-java/)
 了解在 Aspose.HTML for Java 中启用 JavaScript 的步骤，以确保 PDF 正确渲染动态内容。
+### [将 HTML 转换为 PDF – Aspose 并行示例](./convert-html-to-pdf-in-java-aspose-parallel-example/)
+了解如何使用 Aspose.HTML 在 Java 中并行转换 HTML 为 PDF，以提升性能。
 ### [将 HTML 转换为 MHTML](./convert-html-to-mhtml/)
 使用 Aspose.HTML for Java 轻松将 HTML 转换为 MHTML。按照我们的分步指南高效完成 HTML 到 MHTML 的转换。
 ### [使用 Aspose.HTML 将 HTML 转换为 MHTML – 完整 Java 指南](./convert-html-to-mhtml-with-aspose-html-complete-java-guide/)
@@ -286,6 +288,8 @@ Aspose.HTML for Java 简化了 HTML 转 PDF 的工作流。请参阅专门的教
 了解如何使用 Java 的 ExecutorService 并行处理 HTML 转 PDF，提升转换性能的完整步骤指南。
 ### [从 HTML 创建 EPUB – 完整的 Java 指南，构建并保存电子书](./create-epub-from-html-full-java-guide-to-build-and-save-eboo/)
 ### [将 HTML 保存为 PDF – 使用固定线程池的并行批量转换（Java）](./save-html-as-pdf-parallel-batch-conversion-using-fixed-threa/)
+### [在 Java 中将 HTML 转换为 PDF – 设置页面尺寸和边距](./convert-html-to-pdf-in-java-set-page-size-margins/)
+了解如何在 Java 中使用 Aspose.HTML 将 HTML 转换为 PDF，并自定义页面尺寸和边距。
 
 ## 常见问题
 

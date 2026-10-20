@@ -92,6 +92,8 @@ url: /ar/java/css-html-form-editing/
 اكتشف كيفية الحصول على أنماط CSS من عناصر HTML باستخدام Aspose.HTML في Java عبر دليل خطوة بخطوة.
 ### [الحصول على النمط المحسوب في Java – دليل شامل](./get-computed-style-in-java-complete-guide/)
 تعلم كيفية الحصول على الأنماط المحسوبة لعناصر HTML باستخدام Aspose.HTML لـ Java خطوة بخطوة.
+### [كيفية قراءة CSS في Java – محاكاة شاشة الجوال واختبار استعلامات الوسائط](./how-to-read-css-in-java-simulate-mobile-screen-test-media-qu/)
+تعلم كيفية قراءة ملفات CSS في Java، محاكاة شاشات الهواتف المحمولة واختبار استعلامات الوسائط بسهولة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

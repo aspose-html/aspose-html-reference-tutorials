@@ -135,6 +135,7 @@ weight: 24
 ### [Απόδοση HTML σε PNG με Aspose.HTML – Πλήρης Οδηγός Java](./render-html-to-png-with-aspose-html-complete-java-guide/)
 Οδηγός βήμα‑βήμα για την απόδοση HTML σε PNG χρησιμοποιώντας το Aspose.HTML for Java, με παραδείγματα κώδικα και βέλτιστες πρακτικές.
 ### [Μετατροπή SVG σε PNG σε Java – Οδηγός Υψηλής Ανάλυσης](./convert-svg-to-png-in-java-high-resolution-guide/)
+### [Μετατροπή SVG σε PNG σε Java – Οδηγός Μαζικής Μετατροπής](./convert-svg-to-png-in-java-batch-conversion-guide/)
 
 ### [Πώς να αποδώσετε HTML σε PNG σε Java – Πλήρης Οδηγός](./how-to-render-html-to-png-in-java-complete-guide/)
 ### [Πώς να δημιουργήσετε GIF από SVG – Οδηγός Java βήμα‑βήμα](./how-to-create-gif-from-svg-step-by-step-java-guide/)

@@ -170,6 +170,8 @@ Aspose.HTML for Java kullanarak Java HTMLDocument içinde JavaScript çalıştı
 Aspose.HTML for Java kullanarak Java içinde JavaScript ile gövdeye yeni elemanlar eklemeyi öğrenin.
 ### [Aspose ile SVG'den PNG'ye Dönüştürürken DPI Ayarlama – Java Rehberi](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
 Aspose.HTML for Java kullanarak SVG dosyalarını PNG'ye dönüştürürken DPI değerini nasıl ayarlayacağınızı öğrenin.
+### [Java’dan JavaScript Çalıştırma – Aspose.HTML ile Özel User-Agent Ayarlama](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
+Aspose.HTML for Java kullanarak Java içinde JavaScript çalıştırırken özel bir User-Agent belirlemeyi öğrenin.
 
 ---
 

@@ -101,6 +101,8 @@ Scopri come leggere i CSS in Java e ottenere lo stile calcolato di un elemento u
 Scopri come recuperare gli stili CSS di elementi HTML usando Aspose.HTML per Java in questa guida dettagliata passo dopo passo.
 ### [Ottieni lo stile calcolato in Java – Guida completa](./get-computed-style-in-java-complete-guide/)
 Scopri come ottenere lo stile calcolato di un elemento HTML usando Aspose.HTML per Java in questa guida passo passo.
+### [Come leggere CSS in Java – Simulare schermo mobile e testare le media query](./how-to-read-css-in-java-simulate-mobile-screen-test-media-qu/)
+Impara a leggere i CSS in Java, simulare schermi mobili e verificare le media query per garantire un rendering corretto.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

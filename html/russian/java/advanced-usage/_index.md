@@ -169,6 +169,8 @@ Aspose.HTML позволяет прикрепить `DomMutationObserver` к л�
 ### [Как выполнить JavaScript в Java – Полное руководство по добавлению элементов в body](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
 ### [Как установить DPI при конвертации SVG в PNG с Aspose – руководство для Java](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
 Узнайте, как задать разрешение DPI при преобразовании SVG‑изображений в PNG с помощью Aspose.HTML for Java.
+### [Запуск JavaScript из Java – Установка пользовательского User-Agent с Aspose.HTML](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
+Узнайте, как задать пользовательский User-Agent при выполнении JavaScript из Java с помощью Aspose.HTML.
 
 ---
 

@@ -59,6 +59,8 @@ Tìm hiểu cách tải tài liệu HTML từ luồng bằng Aspose.HTML cho Jav
 Tìm hiểu cách tạo tài liệu HTML từ chuỗi trong Aspose.HTML cho Java với hướng dẫn từng bước này.
 ### [Tạo tài liệu HTML với Java – Lấy JSON và tạo nội dung](./create-html-document-with-java-fetch-json-and-generate-conte/)
 Hướng dẫn cách lấy dữ liệu JSON và tạo nội dung HTML động trong Java bằng Aspose.HTML.
+### [Chuyển đổi Markdown sang HTML trong Java – Hướng dẫn nhanh với Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
+Hướng dẫn nhanh cách chuyển đổi tài liệu Markdown thành HTML trong Java bằng Aspose.HTML.
 ### [Tải tài liệu HTML từ URL trong Aspose.HTML cho Java](./load-html-documents-from-url/)
 Khám phá cách dễ dàng tải tài liệu HTML từ URL trong Java bằng Aspose.HTML. Có kèm hướng dẫn từng bước.
 ### [Lặp qua NodeList trong Java – Đọc HTML và Lấy src ảnh](./iterate-nodelist-java-read-html-get-image-src/)
@@ -139,6 +141,8 @@ Học cách trích xuất nội dung HTML từ tệp MHTML bằng Aspose.HTML ch
 Hướng dẫn chi tiết cách sử dụng querySelectorAll trong Java để lọc các phần tử HTML theo lớp, kèm ví dụ thực tế.
 ### [Cách tìm kiếm HTML – Hướng dẫn Java để tìm văn bản](./how-to-search-html-java-guide-for-finding-text/)
 Khám phá cách tìm kiếm và trích xuất văn bản trong tài liệu HTML bằng Aspose.HTML cho Java với hướng dẫn chi tiết.
+### [Cách truy vấn HTML với Aspose.HTML – Hướng dẫn Java đầy đủ](./how-to-query-html-with-aspose-html-complete-java-guide/)
+Khám phá cách truy vấn HTML bằng Aspose.HTML trong Java, với hướng dẫn chi tiết và các ví dụ thực tế.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -144,6 +144,10 @@ Scopri come usare querySelectorAll in Java per filtrare elementi HTML per classe
 Scopri come leggere file XHTML in Java usando XPath con gestione dei namespace, con esempi pratici passo‑passo.
 ### [Come cercare HTML – Guida Java per trovare testo](./how-to-search-html-java-guide-for-finding-text/)
 Impara a cercare testo nei documenti HTML in Java con Aspose.HTML, con esempi pratici passo‑passo.
+### [Come interrogare HTML con Aspose.HTML – Guida completa Java](./how-to-query-html-with-aspose-html-complete-java-guide/)
+Scopri come eseguire query su HTML in Java con Aspose.HTML grazie a questa guida completa passo‑passo.
+### [Converti Markdown in HTML in Java – Guida rapida con Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
+Scopri come convertire file Markdown in HTML usando Aspose.HTML per Java con questa guida rapida passo‑passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

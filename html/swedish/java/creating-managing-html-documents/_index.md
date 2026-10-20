@@ -86,6 +86,8 @@ Lär dig hur du använder XPath för att söka i HTML med Aspose i Java. En deta
 Lär dig hur du väljer div‑element efter klass i Java med en komplett XPath‑guide. Steg‑för‑steg‑instruktioner för effektiv selektion.
 ### [Hur man söker i HTML – Java-guide för att hitta text](./how-to-search-html-java-guide-for-finding-text/)
 Lär dig hur du söker efter text i HTML-dokument med Java. En steg-för-steg-guide för effektiv textupptäckt.
+### [Hur du frågar HTML med Aspose.HTML – Komplett Java‑guide](./how-to-query-html-with-aspose-html-complete-java-guide/)
+Lär dig hur du söker och extraherar data från HTML i Java med Aspose.HTML i en komplett steg‑för‑steg‑guide.
 ### [Generera nya HTML-dokument med Aspose.HTML för Java](./generate-new-html-documents/)
 Lär dig hur du skapar nya HTML-dokument med Aspose.HTML för Java med denna enkla steg-för-steg-guide. Börja generera dynamiskt HTML-innehåll.
 
@@ -157,6 +159,8 @@ Lär dig hur du konverterar Markdown till HTML i Java med vår detaljerade steg�
 Lär dig hur du använder querySelectorAll i Java för att filtrera element efter klass.
 ### [Hur man läser XHTML-fil i Java – XPath‑namnutrymmesexempel](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
 Lär dig läsa en XHTML-fil i Java med XPath och hantera namnrymder i detta praktiska exempel.
+### [Konvertera Markdown till HTML i Java – Snabbguide med Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
+Lär dig hur du snabbt konverterar Markdown till HTML i Java med Aspose i en steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

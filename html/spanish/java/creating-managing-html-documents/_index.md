@@ -90,6 +90,8 @@ Aprenda a buscar texto dentro de documentos HTML en Java usando Aspose.HTML con 
 Aprenda a utilizar querySelectorAll en Java para filtrar elementos por clase con esta guía paso a paso.
 ### [Cómo leer un archivo XHTML en Java – Ejemplo de espacio de nombres XPath](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
 Aprenda a leer archivos XHTML en Java utilizando XPath con espacios de nombres en esta guía paso a paso.
+### [Cómo consultar HTML con Aspose.HTML – Guía completa de Java](./how-to-query-html-with-aspose-html-complete-java-guide/)
+Aprenda a consultar HTML con Aspose.HTML en Java mediante esta guía completa paso a paso.
 ### [Generar nuevos documentos HTML con Aspose.HTML para Java](./generate-new-html-documents/)
 Aprenda a crear nuevos documentos HTML con Aspose.HTML para Java con esta sencilla guía paso a paso. Comience a generar contenido HTML dinámico.
 ### [Gestión de eventos de carga de documentos en Aspose.HTML para Java](./handle-document-load-events/)
@@ -146,6 +148,8 @@ Aprenda a renderizar HTML en Java, esperar la carga completa de la página y usa
 Aprenda a convertir documentos Markdown a HTML en Java usando Aspose.HTML con esta guía paso a paso.
 ### [Extraer HTML de MHTML – Guía completa de Java](./extract-html-from-mhtml-complete-java-guide/)
 Aprenda a extraer contenido HTML de archivos MHTML en Java usando Aspose.HTML, con una guía paso a paso completa.
+### [Convertir Markdown a HTML en Java – Guía rápida con Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
+Aprenda a convertir documentos Markdown a HTML en Java usando Aspose.HTML con esta guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

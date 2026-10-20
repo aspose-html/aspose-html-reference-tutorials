@@ -104,6 +104,10 @@ weight: 25
 ### [Δημιουργία PDF από HTML με Προσαρμοσμένο Μέγεθος Σελίδας και Ενσωματωμένες Γραμματοσειρές](./create-pdf-from-html-with-custom-page-size-and-embedded-font/)
 Μάθετε πώς να δημιουργήσετε PDF με προσαρμοσμένο μέγεθος σελίδας και ενσωματωμένες γραμματοσειρές από HTML χρησιμοποιώντας Aspose.HTML for Java.
 
+### [Μετατροπή HTML σε PDF σε Java – Ορισμός Μεγέθους Σελίδας & Περιθωρίων](./convert-html-to-pdf-in-java-set-page-size-margins/)
+Μάθετε πώς να ορίσετε το μέγεθος σελίδας και τα περιθώρια κατά τη μετατροπή HTML σε PDF σε Java με το Aspose.HTML.
+### [Μετατροπή HTML σε PDF σε Java – Παράδειγμα Παράλληλης Επεξεργασίας Aspose](./convert-html-to-pdf-in-java-aspose-parallel-example/)
+Μάθετε πώς να επιταχύνετε τη μετατροπή HTML σε PDF σε Java με παράλληλη εκτέλεση χρησιμοποιώντας Aspose.
 ### [Μετατροπή HTML σε MHTML](./convert-html-to-mhtml/)
 Μετατρέψτε εύκολα HTML σε MHTML χρησιμοποιώντας το Aspose.HTML for Java. Ακολουθήστε τον βήμα‑βήμα οδηγό μας για αποδοτική μετατροπή HTML‑σε‑MHTML.
 ### [Μετατροπή HTML σε MHTML με Aspose.HTML – Πλήρης Οδηγός Java](./convert-html-to-mhtml-with-aspose-html-complete-java-guide/)

@@ -183,6 +183,8 @@ Aspose.HTML ให้คุณแนบ `DomMutationObserver` ไปยังโ
 ### [รัน JavaScript ใน Java – คู่มือฉบับสมบูรณ์การเพิ่มองค์ประกอบลงใน Body](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
 ### [วิธีตั้งค่า DPI เมื่อแปลง SVG เป็น PNG ด้วย Aspose – Java Guide](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
 เรียนรู้วิธีตั้งค่า DPI ขณะแปลงไฟล์ SVG เป็น PNG ด้วย Aspose.HTML for Java เพื่อควบคุมความละเอียดของภาพ  
+### [รัน JavaScript จาก Java – ตั้งค่า User-Agent แบบกำหนดเองด้วย Aspose.HTML](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
+เรียนรู้วิธีตั้งค่า User-Agent ที่กำหนดเองเมื่อรัน JavaScript จาก Java ด้วย Aspose.HTML เพื่อควบคุมการร้องขอเว็บ  
 
 ---
 

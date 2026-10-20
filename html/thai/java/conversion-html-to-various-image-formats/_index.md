@@ -169,6 +169,7 @@ weight: 24
 ### [เรนเดอร์ HTML เป็น PNG ใน Java – จำลองอุปกรณ์มือถือ](./render-html-to-png-in-java-emulate-mobile-device/)
 เรียนรู้วิธีเรนเดอร์ HTML เป็นไฟล์ PNG ใน Java พร้อมจำลองอุปกรณ์มือถือเพื่อให้ได้ผลลัพธ์เหมือนบนมือถือ
 ### [แปลง SVG เป็น PNG ใน Java – คู่มือความละเอียดสูง](./convert-svg-to-png-in-java-high-resolution-guide/)
+### [แปลง SVG เป็น PNG ใน Java – คู่มือการแปลงแบบชุด](./convert-svg-to-png-in-java-batch-conversion-guide/)
 
 ## คำถามที่พบบ่อย
 

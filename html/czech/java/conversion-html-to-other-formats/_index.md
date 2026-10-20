@@ -264,6 +264,8 @@ Kompletní průvodce převodem HTML do PDF v Javě s podrobným nastavením a uk
 Ukazuje, jak pomocí pevného thread poolu provádět paralelní konverzi více HTML souborů do PDF v Javě.
 ### [Uložení HTML jako Markdown v Javě – Kompletní průvodce krok za krokem](./save-html-as-markdown-in-java-complete-step-by-step-guide/)
 Naučte se, jak převést HTML soubory na Markdown v Javě pomocí Aspose.HTML s podrobným návodem krok za krokem.
+### [Převod HTML do PDF v Javě – nastavení velikosti stránky a okrajů](./convert-html-to-pdf-in-java-set-page-size-margins/)
+### [Převod HTML do PDF v Javě – Aspose paralelní příklad](./convert-html-to-pdf-in-java-aspose-parallel-example/)
 
 ## Často kladené otázky
 

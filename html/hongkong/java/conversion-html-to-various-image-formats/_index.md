@@ -191,6 +191,8 @@ weight: 24
 ### [將 HTML 轉換為 WebP（Java 完整指南）](./convert-html-to-webp-in-java-complete-guide/)
 
 
+### [將 SVG 轉換為 PNG（Java） – 批次轉換指南](./convert-svg-to-png-in-java-batch-conversion-guide/)
+
 ## 常見問題集
 
 **Q: 我可以在 Java 中將 HTML 轉換為 PNG 而不使用額外的圖像函式庫嗎？**  

@@ -193,6 +193,10 @@ XPS هو صيغة الطباعة الخاصة بمايكروسوفت. باستخ
 تعلم كيفية حفظ صفحات HTML كملفات PDF باستخدام تحويل دفعي متوازي مع مجموعة خيوط ثابتة في Java.
 ### [حفظ HTML كـ Markdown في Java – دليل خطوة بخطوة كامل](./save-html-as-markdown-in-java-complete-step-by-step-guide/)
 تعلم كيفية حفظ صفحات HTML كملفات Markdown في Java خطوة بخطوة باستخدام Aspose.HTML.
+### [تحويل HTML إلى PDF في Java – ضبط حجم الصفحة والهوامش](./convert-html-to-pdf-in-java-set-page-size-margins/)
+تعلم كيفية ضبط حجم الصفحة والهوامش عند تحويل HTML إلى PDF في Java باستخدام Aspose.HTML.
+### [تحويل HTML إلى PDF في Java – مثال Aspose المتوازي](./convert-html-to-pdf-in-java-aspose-parallel-example/)
+تعلم كيفية تحويل HTML إلى PDF في Java باستخدام Aspose.HTML مع تنفيذ عمليات التحويل المتوازية لزيادة الأداء.
 
 ### [كيفية ضغط PDF باستخدام Aspose HTML إلى PDF – دليل Java](./how-to-compress-pdf-with-aspose-html-to-pdf-java-guide/)
 تعلم كيفية تقليل حجم ملف PDF باستخدام Aspose.HTML إلى PDF في Java مع إرشادات خطوة بخطوة.

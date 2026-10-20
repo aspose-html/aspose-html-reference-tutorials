@@ -106,6 +106,8 @@ Pelajari cara mengatur DPI saat mengonversi HTML ke PNG menggunakan Aspose.HTML 
 ### [Mengonversi HTML ke PNG – Panduan Lengkap dengan Warna Latar & Resolusi](./convert-html-to-png-full-guide-with-background-color-resolut/)
 Panduan lengkap mengonversi HTML ke PNG dengan mengatur warna latar dan resolusi menggunakan Aspose.HTML untuk Java.
 ### [Mengonversi HTML ke PNG – Panduan Java untuk merender tabel HTML sebagai gambar](./convert-html-to-png-java-guide-to-rendering-html-tables-as-i/)
+### [Mengonversi SVG ke PNG di Java – Panduan Konversi Batch](./convert-svg-to-png-in-java-batch-conversion-guide/)
+Pelajari cara mengonversi banyak file SVG menjadi PNG secara batch menggunakan Aspose.HTML untuk Java. Panduan langkah demi langkah.
 ### [Mengonversi HTML ke TIFF](./convert-html-to-tiff/)
 Pelajari cara mudah mengkonversi HTML ke TIFF menggunakan Aspose.HTML untuk Java. Panduan langkah demi langkah untuk penanganan dokumen yang efisien.
 ### [Mengonversi HTML ke WebP – Panduan Lengkap Java dengan Aspose.HTML](./convert-html-to-webp-complete-java-guide/)

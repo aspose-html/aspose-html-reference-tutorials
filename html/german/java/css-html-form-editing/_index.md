@@ -103,6 +103,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML für Java den Stil von Elementen über den
 Erfahren Sie, wie Sie mit Aspose.HTML für Java den berechneten CSS-Stil eines Elements ermitteln und nutzen können.
 ### [Wie man Stil in Java mit Aspose.HTML abruft – Schritt‑für‑Schritt‑Anleitung](./how-to-get-style-in-java-with-aspose-html-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML für Java CSS‑Stile programmgesteuert auslesen und anwenden – eine klare Schritt‑für‑Schritt‑Anleitung.
+### [CSS in Java lesen – Mobilbildschirm simulieren & Media Queries testen](./how-to-read-css-in-java-simulate-mobile-screen-test-media-qu/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java CSS auslesen, mobile Bildschirme simulieren und Media Queries testen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

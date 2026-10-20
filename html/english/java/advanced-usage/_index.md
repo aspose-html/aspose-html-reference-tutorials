@@ -188,6 +188,8 @@ Learn how to enable and run JavaScript within a Java HtmlDocument using Aspose.H
 Learn how to execute tasks concurrently using a fixed thread pool in Java, with code examples and best practices.
 ### [Execute JavaScript in Java – Complete Guide to Appending Elements to the Body](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
 Learn how to run JavaScript from Java using Aspose.HTML to dynamically append elements to the document body.
+### [Run JavaScript from Java – Set Custom User-Agent with Aspose.HTML](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
+Learn how to set a custom User-Agent while executing JavaScript from Java with Aspose.HTML, enabling tailored web requests.
 
 ---
 

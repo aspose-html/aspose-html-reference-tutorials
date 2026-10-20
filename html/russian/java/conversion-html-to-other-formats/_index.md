@@ -320,6 +320,10 @@ Aspose.HTML for Java упрощает процесс конвертации HTML
 
 ### [Сохранить HTML как Markdown в Java – Полное пошаговое руководство](./save-html-as-markdown-in-java-complete-step-by-step-guide/)
 Узнайте, как сохранить HTML в формате Markdown в Java с помощью Aspose.HTML, следуя полному пошаговому руководству.
+### [Конвертация HTML в PDF в Java – Установка размера страницы и полей](./convert-html-to-pdf-in-java-set-page-size-margins/)
+Узнайте, как задать размер страницы и поля при конвертации HTML в PDF в Java с помощью Aspose.HTML.
+
+### [Конвертация HTML в PDF в Java – пример параллельного выполнения Aspose](./convert-html-to-pdf-in-java-aspose-parallel-example/)
 
 ## Часто задаваемые вопросы
 

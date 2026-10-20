@@ -176,6 +176,8 @@ Aspose.HTML for Java kullanarak mobil cihaz taklit ederek HTML'yi PNG'ye dönü�
 Aspose.HTML ile Java'da HTML'yi PNG'ye render etmeyi adım adım öğrenin. Tam Java rehberi.
 ### [SVG'yi PNG'ye Dönüştürme – Java Yüksek Çözünürlüklü Rehber](./convert-svg-to-png-in-java-high-resolution-guide/)
 Aspose.HTML for Java kullanarak SVG dosyalarını yüksek çözünürlükte PNG formatına dönüştürün. Kapsamlı bir rehber.
+### [Java'da SVG'yi PNG'ye Dönüştür – Toplu Dönüşüm Kılavuzu](./convert-svg-to-png-in-java-batch-conversion-guide/)
+Aspose.HTML for Java kullanarak SVG dosyalarını toplu olarak PNG formatına yüksek kaliteyle dönüştürmeyi öğrenin.
 
 ## Sıkça Sorulan Sorular
 

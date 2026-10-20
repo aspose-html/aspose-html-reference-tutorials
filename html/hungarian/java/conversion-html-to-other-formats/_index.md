@@ -106,6 +106,8 @@ Részletes, lépésről‑lépésre útmutató a HTML PDF-re konvertálásához 
 Ismerje meg, hogyan konvertálhat tömegesen HTML‑t PDF‑re Java‑ban az Aspose.HTML segítségével, részletes beállításokkal.
 ### [HTML átalakítása PDF-re Java‑ban – Lépésről‑lépésre útmutató](./convert-html-to-pdf-in-java-step-by-step-guide/)
 Tanulja meg, hogyan konvertálhatja a HTML‑t PDF‑re Java‑ban részletes, lépésről‑lépésre útmutatóval.
+### [HTML konvertálása PDF-re Java‑ban – Oldalméret és margók beállítása](./convert-html-to-pdf-in-java-set-page-size-margins/)
+Ismerje meg, hogyan állíthatja be az oldalméretet és margókat a HTML‑PDF átalakítás során Java‑ban az Aspose.HTML‑el.
 Könnyedén konvertálja a HTML‑t MHTML‑re az Aspose.HTML for Java segítségével. Kövesse lépésről‑lépésre útmutatónkat a hatékony HTML‑MHTML átalakításhoz.
 ### [HTML átalakítása MHTML-re az Aspose.HTML‑el – Teljes Java útmutató](./convert-html-to-mhtml-with-aspose-html-complete-java-guide/)
 Részletes útmutató az HTML MHTML-re konvertálásához Java‑ban az Aspose.HTML használatával, lépésről‑lépésre példákkal.
@@ -152,6 +154,8 @@ Ismerje meg a teljes folyamatot a HTML PDF‑re konvertálásához Java‑ban az
 ### [JavaScript engedélyezése az Aspose HTML PDF konvertálásban (Java)](./how-to-enable-javascript-in-aspose-html-to-pdf-java/)
 ### [HTML mentése PDF‑ként – Párhuzamos kötegelt konvertálás fix szálkészlettel Java](./save-html-as-pdf-parallel-batch-conversion-using-fixed-threa/)
 ### [HTML mentése Markdown‑ként Java‑ban – Teljes lépésről‑lépésre útmutató](./save-html-as-markdown-in-java-complete-step-by-step-guide/)
+### [HTML átalakítása PDF-re Java‑ban – Aspose párhuzamos példa](./convert-html-to-pdf-in-java-aspose-parallel-example/)
+Fedezze fel, hogyan gyorsíthatja a HTML‑PDF átalakítást párhuzamos feldolgozással Java‑ban az Aspose.HTML‑el.
 
 ### [PDF létrehozása HTML‑ből Java‑ban – Kötetes konverzió útmutató](./create-pdf-from-html-in-java-batch-conversion-guide/)
 Ismerje meg, hogyan konvertálhat több HTML‑fájlt egyszerre PDF‑re Java‑ban az Aspose.HTML kötegelt feldolgozási funkcióival.

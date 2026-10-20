@@ -93,6 +93,8 @@ Aspose.HTML for Java를 사용해 HTML을 렌더링하고 페이지 로드 대�
 Java용 Aspose.HTML을 사용하여 querySelectorAll로 클래스별 요소를 필터링하는 방법을 단계별로 안내합니다.
 ### [HTML 검색 방법 – 텍스트 찾기를 위한 Java 가이드](./how-to-search-html-java-guide-for-finding-text/)
 Java용 Aspose.HTML을 사용하여 HTML 문서에서 텍스트를 검색하는 방법을 단계별로 안내합니다.
+### [Java용 Aspose.HTML로 HTML을 쿼리하는 방법 – 완전 가이드](./how-to-query-html-with-aspose-html-complete-java-guide/)
+Aspose.HTML for Java를 사용해 HTML을 효율적으로 쿼리하는 전체 단계별 가이드를 제공합니다.
 ### [Java용 Aspose.HTML을 사용하여 새 HTML 문서 생성](./generate-new-html-documents/)
 이 간단한 단계별 가이드를 통해 Aspose.HTML for Java를 사용하여 새 HTML 문서를 만드는 방법을 알아보세요. 동적 HTML 콘텐츠 생성을 시작하세요.
 ### [Java용 Aspose.HTML에서 문서 로드 이벤트 처리](./handle-document-load-events/)
@@ -142,6 +144,8 @@ Aspose.HTML for Java를 사용하여 마크다운을 HTML로 변환하는 방법
 ### [Java에서 클래스별 div 선택 – 완전 XPath 가이드](./select-div-by-class-in-java-complete-xpath-guide/)
 Java와 XPath를 사용해 클래스 이름으로 div 요소를 선택하는 방법을 단계별로 안내합니다.
 
+### [Java용 Aspose.HTML에서 마크다운을 HTML로 변환 – 빠른 가이드](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
+Aspose.HTML for Java를 사용해 마크다운 파일을 HTML로 손쉽게 변환하는 단계별 가이드입니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

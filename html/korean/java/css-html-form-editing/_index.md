@@ -102,6 +102,8 @@ Aspose.HTML for Java에서 querySelector를 사용해 요소의 스타일을 프
 Java에서 CSS를 읽고 계산된 스타일을 가져오는 방법을 단계별로 안내합니다.
 ### [Java에서 Aspose.HTML을 사용해 스타일 가져오기 – 단계별 가이드](./how-to-get-style-in-java-with-aspose-html-step-by-step-guide/)
 Java용 Aspose.HTML을 활용해 요소의 스타일을 프로그래밍 방식으로 추출하는 방법을 단계별로 안내합니다.
+### [Java에서 CSS 읽기 – 모바일 화면 시뮬레이션 및 미디어 쿼리 테스트](./how-to-read-css-in-java-simulate-mobile-screen-test-media-qu/)
+Java를 사용해 CSS를 읽고, 모바일 화면을 시뮬레이션하며, 미디어 쿼리를 테스트하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

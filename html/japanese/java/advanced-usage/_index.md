@@ -169,6 +169,8 @@ Aspose.HTML for Java を使用して、Java でデバイスピクセル比を設
 Aspose.HTML for Java を使い、Java から JavaScript を実行し、Body 要素へ動的に要素を追加する方法を学びます。
 ### [Aspose を使用して SVG を PNG に変換する際の DPI 設定方法 – Java ガイド](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
 Aspose.HTML for Java を使用して、SVG を PNG に変換する際に DPI を設定し、高解像度画像を生成する方法を学びます。
+### [Run JavaScript from Java – Set Custom User-Agent with Aspose.HTML](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
+Aspose.HTML for Java を使って Java から JavaScript を実行し、カスタム User-Agent を設定する方法を学びます。
 
 ---
 

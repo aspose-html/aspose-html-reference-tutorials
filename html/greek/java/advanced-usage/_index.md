@@ -164,6 +164,8 @@ weight: 20
 Μάθετε πώς να εκτελείτε κώδικα JavaScript από Java και να προσθέτετε στοιχεία στο σώμα του εγγράφου HTML.
 ### [Πώς να ορίσετε DPI κατά τη μετατροπή SVG σε PNG με το Aspose – Οδηγός Java](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
 Μάθετε πώς να ορίσετε την ανάλυση DPI κατά τη μετατροπή αρχείων SVG σε PNG χρησιμοποιώντας το Aspose.HTML for Java.
+### [Εκτέλεση JavaScript από Java – Ορισμός προσαρμοσμένου User-Agent με Aspose.HTML](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
+Μάθετε πώς να εκτελείτε JavaScript από Java και να ορίζετε προσαρμοσμένο User-Agent χρησιμοποιώντας το Aspose.HTML.
 
 ---
 

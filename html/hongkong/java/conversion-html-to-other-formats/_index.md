@@ -174,6 +174,12 @@ Aspose.HTML for Java 簡化了 HTML‑to‑PDF 工作流程。請參考專屬教
 ### [Converting SVG to PDF](./convert-svg-to-pdf/)
 ### [使用 Aspose.HTML (Java) 從 SVG 建立 PDF – 自訂頁面大小](./create-pdf-from-svg-custom-page-size-with-aspose-html-java/)
 說明如何使用 Aspose.HTML for Java 將 SVG 轉換為 PDF，並自訂頁面尺寸以符合特定排版需求。
+### [在 Java 中將 HTML 轉換為 PDF – Aspose 平行範例](./convert-html-to-pdf-in-java-aspose-parallel-example/)
+示範如何使用 Aspose.HTML 在 Java 中以平行方式將 HTML 轉換為 PDF，提高轉換效能。
+
+### [在 Java 中將 HTML 轉換為 PDF – 設定頁面大小與邊距](./convert-html-to-pdf-in-java-set-page-size-margins/)
+說明如何在 Java 中使用 Aspose.HTML 設定 PDF 的頁面尺寸與邊距，完成精確排版的轉換教學。
+
 ### [Converting SVG to XPS](./convert-svg-to-xps/)
 學習如何使用 Aspose.HTML for Java 將 SVG 轉為 XPS，提供簡單、步驟式的無縫轉換指南。
 ### [如何在 Java 中將 Markdown 生成 PDF – 步驟指南](./how-to-generate-pdf-from-markdown-in-java-step-by-step-guide/)

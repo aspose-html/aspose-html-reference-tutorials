@@ -190,6 +190,8 @@ A: 不需要。單一的 Aspose.HTML for Java 授權即涵蓋所有輸出格式�
 學習在 Java 中執行 JavaScript，將元素動態加入 body，提供完整範例與步驟說明。
 
 ### [使用 Aspose 將 SVG 轉換為 PNG 時設定 DPI – Java 指南](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
+### [在 Java 中執行 JavaScript – 設定自訂 User-Agent（使用 Aspose.HTML）](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
+說明如何在 Aspose.HTML for Java 中執行 JavaScript 並自訂 HTTP User-Agent，以控制外部請求行為。
 
 ---
 

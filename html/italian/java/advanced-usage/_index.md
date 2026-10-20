@@ -143,6 +143,7 @@ R: No. Una singola licenza di Aspose.HTML for Java copre tutti i formati di outp
 ### [java multithreading tutorial: esegui attività in parallelo con Fixed Thread Pool](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
 ### [Eseguire JavaScript in Java – Guida completa per aggiungere elementi al body](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
 ### [Come impostare DPI durante la conversione da SVG a PNG con Aspose – Guida Java](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
+### [Esegui JavaScript da Java – Imposta User-Agent personalizzato con Aspose.HTML](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
 
 ---
 

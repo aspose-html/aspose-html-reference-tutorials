@@ -146,6 +146,10 @@ Apprenez à extraire le contenu HTML d'un fichier MHTML en Java avec Aspose.HTML
 Apprenez à rechercher du texte dans des documents HTML en Java avec Aspose.HTML grâce à ce guide étape par étape.
 ### [Comment utiliser querySelectorAll en Java – Filtrer par classe](./how-to-use-queryselectorall-in-java-filter-by-class/)
 Apprenez à utiliser querySelectorAll en Java pour sélectionner des éléments HTML en filtrant par classe, avec un guide étape par étape.
+### [Comment interroger le HTML avec Aspose.HTML – Guide complet Java](./how-to-query-html-with-aspose-html-complete-java-guide/)
+Apprenez à interroger le HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
+### [Convertir le Markdown en HTML en Java – Guide rapide avec Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
+Apprenez à transformer du Markdown en HTML en Java avec Aspose.HTML grâce à ce guide rapide et pratique.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

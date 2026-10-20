@@ -78,6 +78,8 @@ Learn how to select div elements by class using XPath in Java with Aspose.HTML. 
 Learn how to search HTML content in Java using Aspose.HTML, with step-by-step examples for finding specific text.
 ### [How to Use querySelectorAll in Java – Filter by Class](./how-to-use-queryselectorall-in-java-filter-by-class/)
 Learn how to filter HTML elements by class using querySelectorAll in Aspose.HTML for Java with a clear step-by-step guide.
+### [how to query html with Aspose.HTML – Complete Java Guide](./how-to-query-html-with-aspose-html-complete-java-guide/)
+Master querying HTML in Java using Aspose.HTML with this complete, step-by-step guide.
 ### [Create sandbox for HTML in Java – Step‑by‑Step Guide](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Learn how to set up a secure HTML sandbox in Java using Aspose.HTML with this detailed step-by-step guide.
 ### [Load HTML Documents from URL in Aspose.HTML for Java](./load-html-documents-from-url/)
@@ -92,6 +94,8 @@ Learn how to extract HTML content from MHTML files using Aspose.HTML for Java in
 Learn how to create new HTML documents using Aspose.HTML for Java with this easy step-by-step guide. Start generating dynamic HTML content.
 ### [Generate HTML from JavaScript in Java – Complete Step‑by‑Step Guide](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Learn how to generate HTML from JavaScript within Java using Aspose.HTML. Detailed step-by-step guide for seamless integration.
+### [Convert Markdown to HTML in Java – Quick Guide with Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
+Learn how to convert Markdown files to HTML in Java using Aspose.HTML with a quick step-by-step guide.
 ### [Handle Document Load Events in Aspose.HTML for Java](./handle-document-load-events/)
 Learn to handle document load events in Aspose.HTML for Java with this step-by-step guide. Enhance your web applications.
 ### [execute async javascript in Java – Complete Step‑by‑Step Guide](./execute-async-javascript-in-java-complete-step-by-step-guide/)

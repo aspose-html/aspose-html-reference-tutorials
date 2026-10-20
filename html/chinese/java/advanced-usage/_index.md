@@ -191,6 +191,7 @@ Aspose.HTML 允许您将 `DomMutationObserver` 附加到任意节点。这对于
 ### [在 Java 中执行 JavaScript – 完整指南：向 Body 添加元素](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
 
 ### [使用 Aspose 将 SVG 转换为 PNG 时设置 DPI – Java 指南](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
+### [在 Java 中运行 JavaScript – 使用 Aspose.HTML 设置自定义用户代理](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
 
 ---
 **最后更新：** 2025-11-29  

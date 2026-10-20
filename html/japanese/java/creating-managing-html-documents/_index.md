@@ -141,6 +141,10 @@ Java で XHTML ファイルを読み込み、XPath の名前空間を使用し�
 Java アプリケーションで HTML コンテンツから特定のテキストを検索する手順をステップバイステップで解説します。
 ### [Java で querySelectorAll を使用する – クラスでフィルタリング](./how-to-use-queryselectorall-in-java-filter-by-class/)
 Java で querySelectorAll を使い、特定のクラス属性を持つ要素を抽出する手順をステップバイステップで解説します。
+### [Aspose.HTML を使用して HTML をクエリする方法 – 完全 Java ガイド](./how-to-query-html-with-aspose-html-complete-java-guide/)
+Aspose.HTML for Java を活用し、HTML コンテンツを検索・抽出する完全なステップバイステップガイドです。
+### [Aspose を使用した Java の Markdown から HTML への変換 – クイックガイド](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
+Aspose.HTML を活用し、Java で Markdown を HTML に変換する手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

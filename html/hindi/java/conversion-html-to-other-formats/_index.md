@@ -307,6 +307,12 @@ Java ExecutorService का उपयोग करके समानांत�
 ### [HTML को PDF के रूप में सहेजें – स्थिर थ्रेड पूल के साथ समानांतर बैच रूपांतरण (Java)](./save-html-as-pdf-parallel-batch-conversion-using-fixed-threa/)
 स्थिर थ्रेड पूल का उपयोग करके समानांतर बैच रूपांतरण के साथ HTML को PDF में सहेजें।
 
+### [Java में HTML को PDF में बदलें – पेज आकार और मार्जिन सेट करें](./convert-html-to-pdf-in-java-set-page-size-margins/)
+Aspose.HTML for Java के साथ पेज आकार और मार्जिन को कस्टमाइज़ करके HTML को PDF में बदलें। विस्तृत चरण‑दर‑चरण गाइड।
+
+### [Java में HTML को PDF में बदलें – Aspose Parallel उदाहरण](./convert-html-to-pdf-in-java-aspose-parallel-example/)
+Aspose.HTML का उपयोग करके Java में समानांतर प्रोसेसिंग के साथ HTML को PDF में बदलने का उदाहरण।
+
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **Q: क्या मैं Aspose.HTML for Java को व्यावसायिक एप्लिकेशन में उपयोग कर सकता हूँ?**  
