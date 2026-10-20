@@ -1,0 +1,7 @@
+Title: Convert HTML to EPUB – Complete Guide with Cover Image
+Slug: convert-html-to-epub-complete-guide-with-cover-image
+Category: general
+ProcessedDate: 2026-06-07T11:55:15.578494
+SourceRepo: AI Search API
+Keywords: convert html to epub, how to create epub from html, add cover image to epub, how to add cover to epub
+PRNumber: 176
