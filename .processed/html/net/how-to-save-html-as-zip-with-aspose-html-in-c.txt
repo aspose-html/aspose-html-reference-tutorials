@@ -1,0 +1,7 @@
+Title: How to save HTML as ZIP with Aspose.HTML in C#
+Slug: how-to-save-html-as-zip-with-aspose-html-in-c
+Category: html-extensions-and-conversions
+ProcessedDate: 2026-09-23T10:15:04.323601
+SourceRepo: AI Search API
+Keywords: save html as zip, convert html to zip
+PRNumber: 272

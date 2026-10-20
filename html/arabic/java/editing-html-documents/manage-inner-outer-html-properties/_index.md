@@ -9,7 +9,6 @@ url: /ar/java/editing-html-documents/manage-inner-outer-html-properties/
 weight: 15
 ---
 
-.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

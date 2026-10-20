@@ -8,7 +8,7 @@ url: /zh-hant/java/editing-html-documents/manage-inner-outer-html-properties/
 weight: 15
 ---
 
- output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

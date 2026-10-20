@@ -70,7 +70,8 @@ Sau khi hoàn thành hướng dẫn này, bạn đã biết cách **create PDF f
 ## Tài nguyên bổ sung
 
 ### [Chuyển đổi HTML Canvas sang PDF với Aspose.HTML cho Java](./canvas-to-pdf/)
-Tìm hiểu cách chuyển đổi HTML Canvas sang PDF với Aspose.HTML cho Java trong hướng dẫn từng bước này.
+
+### [Cách chuyển đổi SVG sang PDF/A‑2b bằng Java – Hướng dẫn đầy đủ](./how-to-convert-svg-to-pdf-a-2b-with-java-complete-guide/)
 
 ## Câu hỏi thường gặp
 
