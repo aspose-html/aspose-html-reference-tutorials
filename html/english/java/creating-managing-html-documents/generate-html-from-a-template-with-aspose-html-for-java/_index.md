@@ -256,16 +256,15 @@ If you replace `data.xml` with a JSON file that contains the same keys, the resu
 | Large data sets (many placeholders)    |
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
-
-- [Generate New HTML Documents using Aspose.HTML for Java](/html/english/java/creating-managing-html-documents/generate-new-html-documents/)
-- [How to Convert HTML to PDF Java – Using Aspose.HTML for Java](/html/english/java/conversion-html-to-other-formats/convert-html-to-pdf/)
-- [How to Convert HTML to JPEG Using Aspose.HTML for Java](/html/english/java/conversion-html-to-various-image-formats/convert-html-to-jpeg/)
+{{< relref "/html/english/java/creating-managing-html-documents/generate-new-html-documents/" >}}Generate New HTML Documents using Aspose.HTML for Java{{< /relref >}}
+{{< relref "/html/english/java/conversion-html-to-other-formats/convert-html-to-pdf/" >}}How to Convert HTML to PDF Java – Using Aspose.HTML for Java{{< /relref >}}
+{{< relref "/html/english/java/conversion-html-to-various-image-formats/convert-html-to-jpeg/" >}}How to Convert HTML to JPEG Using Aspose.HTML for Java{{< /relref >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}
