@@ -96,6 +96,8 @@ Aprenda a gerar um PDF a partir de HTML em Java com apenas uma linha de código 
 
 ### [Criar PDF a partir de HTML em Java – Converter HTML para PDF Java](./create-pdf-from-html-in-java-convert-html-to-pdf-java/)
 Aprenda a gerar PDFs a partir de HTML em Java com Aspose.HTML, passo a passo e com opções avançadas.
+### [Converter HTML para PDF em Java – Guia passo a passo](./convert-html-to-pdf-in-java-step-by-step-guide/)
+Aprenda a converter HTML para PDF em Java com instruções detalhadas e exemplos práticos.
 ### [Converter HTML para PDF em Java – Guia passo a passo com configurações de tamanho de página](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 ### [Convertendo HTML para PDF em Java – Guia Completo Passo a Passo](./convert-html-to-pdf-in-java-complete-step-by-step-guide/)
 ### [Como usar Aspose – Conversão em lote de HTML para PDF em Java](./how-to-use-aspose-batch-convert-html-to-pdf-in-java/)
@@ -203,6 +205,11 @@ Aprenda a converter múltiplos arquivos HTML em PDFs em lote usando Aspose.HTML 
 Aprenda a criar arquivos EPUB a partir de HTML em Java usando Aspose.HTML, construindo e salvando eBooks de forma simples.
 ### [Converter HTML para PDF com Java ExecutorService – Guia Completo](./convert-html-to-pdf-with-java-executorservice-complete-guide/)
 Aprenda a converter HTML para PDF em Java usando ExecutorService para processamento paralelo, com um guia passo a passo completo.
+### [Converter HTML para PDF com Java – Guia Completo](./convert-html-to-pdf-with-java-full-guide/)
+Aprenda passo a passo como converter HTML para PDF em Java usando Aspose.HTML, cobrindo configurações avançadas e otimizações.
+### [Como habilitar JavaScript no Aspose HTML para PDF (Java)](./how-to-enable-javascript-in-aspose-html-to-pdf-java/)
+### [Salvar HTML como PDF – Conversão em lote paralela usando Fixed Thread Pool Java](./save-html-as-pdf-parallel-batch-conversion-using-fixed-threa/)
+### [Salvar HTML como Markdown em Java – Guia Completo Passo a Passo](./save-html-as-markdown-in-java-complete-step-by-step-guide/)
 
 ### [Incorporar fontes PDF – Guia Completo Aspose HTML para PDF (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
 

@@ -109,6 +109,7 @@ Hướng dẫn chi tiết cách chuyển đổi HTML sang PNG với tùy chỉnh
 ### [Render HTML sang PNG với Aspose.HTML – Hướng dẫn Java đầy đủ](./render-html-to-png-with-aspose-html-complete-java-guide/)
 Hướng dẫn chi tiết cách render HTML thành PNG bằng Aspose.HTML cho Java, bao gồm các bước cấu hình và ví dụ thực tế.
 ### [Chuyển đổi SVG sang PNG trong Java – Hướng dẫn Độ phân giải cao](./convert-svg-to-png-in-java-high-resolution-guide/)
+### [Render HTML sang PNG với Aspose.HTML Sandbox – Hướng dẫn Java đầy đủ](./render-html-to-png-with-aspose-html-sandbox-full-java-guide/)
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
 Tìm hiểu cách dễ dàng convert HTML to TIFF bằng Aspose.HTML for Java. Hướng dẫn từng bước cho việc xử lý tài liệu hiệu quả.
 ### [Cách tạo thumbnail từ HTML – Hướng dẫn Java](./how-to-generate-thumbnail-from-html-java-guide/)

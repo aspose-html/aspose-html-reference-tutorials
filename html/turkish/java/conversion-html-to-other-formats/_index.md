@@ -122,6 +122,12 @@ HTML'den PDF oluştururken sayfa boyutunu özelleştirmeyi adım adım gösterir
 Java'da HTML'den PDF'ye dönüşürken özel sayfa boyutu ve kenar boşluklarını nasıl ayarlayacağınızı adım adım gösterir.
 ### [Aspose HTML to PDF ile Java’da PDF Sayfa Boyutunu Ayarlama](./set-pdf-page-size-with-aspose-html-to-pdf-in-java/)
 Aspose.HTML kullanarak Java’da PDF sayfa boyutunu nasıl ayarlayacağınızı adım adım gösterir.
+### [HTML'yi PDF'ye Dönüştürme Java’da – Adım‑Adım Kılavuz](./convert-html-to-pdf-in-java-step-by-step-guide/)
+Java’da HTML'yi PDF'ye dönüştürürken adım adım talimatları izleyin.
+### [HTML'yi PDF'ye Dönüştürme Java’da – Tam Kılavuz](./convert-html-to-pdf-with-java-full-guide/)
+Java uygulamanızda HTML'yi PDF'ye dönüştürmek için eksiksiz adım adım rehber.
+### [Aspose HTML to PDF'de JavaScript'i Etkinleştirme (Java)](./how-to-enable-javascript-in-aspose-html-to-pdf-java/)
+Aspose.HTML for Java ile PDF oluştururken JavaScript'in çalışmasını sağlamak için adım adım rehber.
 ### [HTML'yi PDF'ye Dönüştürme Java’da – Sayfa Boyutu ve Kenar Boşluklarını Ayarlama](./convert-html-to-pdf-in-java-set-page-size-margins/)
 Java’da HTML'yi PDF'ye dönüştürürken sayfa boyutu ve kenar boşluklarını nasıl ayarlayacağınızı adım adım gösterir.
 ### [HTML'yi MHTML'ye Dönüştürme](./convert-html-to-mhtml/)
@@ -139,6 +145,8 @@ Aspose.HTML for Java kullanarak Markdown dosyasından tek satırda PDF oluşturm
 Aspose.HTML for Java ile HTML dosyalarını kolayca Markdown formatına dönüştürün. Adım adım rehberimizi izleyin.
 ### [HTML'yi Markdown'a Dönüştürme Java’da – Adım‑Adım Kılavuz](./convert-html-to-markdown-in-java-step-by-step-guide/)
 Aspose.HTML for Java ile HTML dosyalarını Markdown formatına sorunsuz ve adım adım dönüştürün.
+### [HTML'yi Java’da Markdown Olarak Kaydet – Tam Adım‑Adım Kılavuz](./save-html-as-markdown-in-java-complete-step-by-step-guide/)
+Aspose.HTML for Java kullanarak HTML'yi Markdown'a dönüştürmeyi adım adım gösteren eksiksiz rehber.
 ### [SVG'yi Görüntüye Dönüştürme](./convert-svg-to-image/)
 ### [SVG'yi PDF'ye Dönüştürme](./convert-svg-to-pdf/)
 ### [HTML'den MHTML Dosyası Oluşturma – Tam Java Kılavuzu](./create-mhtml-file-from-html-complete-java-guide/)
@@ -265,6 +273,8 @@ Java ExecutorService kullanarak çoklu iş parçacıklı HTML‑PDF dönüşüm�
 
 ### [Java HTML to PDF – Aspose ile HTML'yi PDF/A‑2b'ye Dönüştürme](./java-html-to-pdf-convert-html-to-pdf-a-2b-with-aspose/)
 Aspose.HTML for Java kullanarak HTML dosyalarını PDF/A‑2b standardına uygun şekilde dönüştürün.
+### [HTML'yi PDF olarak Kaydet – Sabit İş Parçacığı Havuzu Kullanarak Paralel Toplu Dönüştürme (Java)](./save-html-as-pdf-parallel-batch-conversion-using-fixed-threa/)
+Java’da sabit iş parçacığı havuzu ile birden çok HTML dosyasını aynı anda PDF’ye dönüştürmeyi öğrenin.
 ### [HTML'yi PDF'ye Dönüştürme – Aspose Paralel Örneği](./convert-html-to-pdf-in-java-aspose-parallel-example/)
 Aspose.HTML kullanarak paralel işleme ile HTML'den PDF'ye hızlı dönüşüm örneği.
 

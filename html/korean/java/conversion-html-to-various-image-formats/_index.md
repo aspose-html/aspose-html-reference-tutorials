@@ -143,6 +143,8 @@ Aspose.HTML for Java를 사용해 SVG에서 다중 페이지 TIFF를 생성하�
 Aspose.HTML for Java를 사용해 SVG 파일을 고해상도 PNG 이미지로 변환하는 단계별 가이드입니다.
 ### [HTML을 WebP로 변환 – Java 완전 가이드](./convert-html-to-webp-in-java-complete-guide/)
 ### [Java에서 SVG를 PNG로 변환 – 고해상도 가이드](./convert-svg-to-png-in-java-high-resolution-guide/)
+### [Aspose.HTML Sandbox로 HTML을 PNG로 렌더링 – 전체 Java 가이드](./render-html-to-png-with-aspose-html-sandbox-full-java-guide/)
+Aspose.HTML Sandbox를 사용해 Java에서 HTML을 PNG 이미지로 변환하는 전체 단계별 가이드입니다.
 ### [SVG를 PNG로 변환 – 배치 변환 가이드](./convert-svg-to-png-in-java-batch-conversion-guide/)
 
 ### [Java에서 HTML을 PNG로 생성 – 전체 단계별 가이드](./create-png-from-html-in-java-full-step-by-step-guide/)

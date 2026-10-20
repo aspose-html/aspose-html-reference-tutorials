@@ -138,6 +138,11 @@ Aspose.HTML for Java 為旨在在 Java 應用程式中無縫處理 HTML 文件�
 學習如何使用 Aspose.HTML for Java 將 Markdown 內容轉換為 HTML，提供完整的逐步說明與範例。
 ### [在 Java 中按類別選取 div – 完整 XPath 指南](./select-div-by-class-in-java-complete-xpath-guide/)
 學習如何使用 XPath 在 Java 中根據類別選取 div 元素，提供完整步驟與範例說明。
+### [在 Java 中搜尋 HTML – 文本搜尋指南](./how-to-search-html-java-guide-for-finding-text/)
+本指南說明如何使用 Aspose.HTML for Java 在 Java 應用程式中搜尋 HTML 內容並找到特定文字，提供逐步示例。
+### [在 Java 中使用 querySelectorAll – 依類別篩選](./how-to-use-queryselectorall-in-java-filter-by-class/)
+學習如何在 Java 中使用 querySelectorAll 方法根據 CSS 類別篩選元素，提升 HTML 解析與操作效率。
+### [如何在 Java 中讀取 XHTML 檔案 – XPath 命名空間範例](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
 ### [使用 Aspose.HTML 查詢 HTML – 完整 Java 指南](./how-to-query-html-with-aspose-html-complete-java-guide/)
 學習如何使用 Aspose.HTML 在 Java 中查詢 HTML，涵蓋選擇器、XPath 與實作範例的完整指南。
 ### [在 Java 中將 Markdown 轉換為 HTML – Aspose 快速指南](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)

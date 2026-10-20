@@ -143,6 +143,11 @@ Java'da Markdown içeriğini hızlıca HTML'ye dönüştürmeyi adım adım öğ
 Java'da sınıf adıyla div öğelerini seçmek ve XPath kullanarak tam yol oluşturmak için adım adım rehber.
 ### [MHTML'den HTML Çıkarma – Tam Java Kılavuzu](./extract-html-from-mhtml-complete-java-guide/)
 Java için Aspose.HTML kullanarak MHTML dosyalarından HTML içeriğini nasıl çıkaracağınızı adım adım öğrenin.
+### [HTML'de Arama – Metin Bulmak İçin Java Rehberi](./how-to-search-html-java-guide-for-finding-text/)
+Java için Aspose.HTML kullanarak HTML içinde metin aramayı adım adım öğrenin.
+### [Java'da XHTML Dosyasını Okuma – XPath Namespace Örneği](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
+Java'da XPath kullanarak namespace içeren XHTML dosyalarını nasıl okuyacağınızı adım adım öğrenin.
+### [Java’da querySelectorAll Kullanımı – Sınıfa Göre Filtreleme](./how-to-use-queryselectorall-in-java-filter-by-class/)
 ### [Java için Aspose.HTML'de HTML Sorgulama – Tam Kılavuz](./how-to-query-html-with-aspose-html-complete-java-guide/)
 Java için Aspose.HTML kullanarak HTML içeriğini nasıl sorgulayacağınızı adım adım öğrenin.
 ### [Java için Aspose ile Markdown'ı HTML'ye Dönüştürme – Hızlı Kılavuz](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)

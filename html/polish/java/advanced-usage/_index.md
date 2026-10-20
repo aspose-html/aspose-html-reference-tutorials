@@ -168,6 +168,8 @@ Dowiedz się, jak ustawić współczynnik pikseli urządzenia w Aspose.HTML dla 
 ### [Java multithreading tutorial: Uruchamianie zadań równolegle przy użyciu stałej puli wątków](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
 ### [Wykonywanie JavaScript w Javie – Kompletny przewodnik po dodawaniu elementów do body](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
 Dowiedz się, jak uruchomić kod JavaScript w aplikacji Java i dynamicznie dodawać elementy do elementu body dokumentu.
+### [Jak ustawić DPI przy konwertowaniu SVG na PNG z Aspose – przewodnik Java](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
+Dowiedz się, jak określić rozdzielczość DPI podczas konwersji plików SVG do PNG przy użyciu Aspose.HTML w Javie.
 ### [Uruchom JavaScript z Javy – Ustaw niestandardowy User-Agent przy użyciu Aspose.HTML](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
 Dowiedz się, jak wykonać kod JavaScript z Javy i ustawić własny nagłówek User-Agent przy użyciu Aspose.HTML.
 

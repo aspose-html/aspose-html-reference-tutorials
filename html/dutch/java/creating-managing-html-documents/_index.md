@@ -143,6 +143,12 @@ Leer hoe u HTML rendert in Java, wacht op paginalading en gebruik query selector
 Leer hoe u Markdown-bestanden converteert naar HTML in Java met Aspose.HTML, inclusief een stapsgewijze handleiding.
 ### [HTML extraheren uit MHTML – Complete Java‑gids](./extract-html-from-mhtml-complete-java-guide/)
 Leer hoe u HTML kunt extraheren uit MHTML‑bestanden met Aspose.HTML voor Java in deze volledige stap‑voor‑stap gids.
+### [Hoe querySelectorAll in Java te gebruiken – Filteren op klasse](./how-to-use-queryselectorall-in-java-filter-by-class/)
+Leer hoe u met querySelectorAll elementen selecteert op basis van CSS‑klasse in Java, met praktische voorbeelden.
+### [Hoe een XHTML-bestand lezen in Java – XPath Namespace-voorbeeld](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
+Leer hoe u een XHTML-bestand in Java kunt lezen met XPath en namespaces, inclusief voorbeeldcode en stapsgewijze uitleg.
+### [Hoe HTML zoeken – Java-gids voor het vinden van tekst](./how-to-search-html-java-guide-for-finding-text/)
+Leer hoe u tekst kunt vinden in HTML met Java, met een stapsgewijze handleiding en praktische voorbeelden.
 
 ### [HTML opvragen met Aspose.HTML – Complete Java-gids](./how-to-query-html-with-aspose-html-complete-java-guide/)
 Leer hoe u HTML kunt query'en met Aspose.HTML in Java met deze volledige stap‑voor‑stap handleiding.

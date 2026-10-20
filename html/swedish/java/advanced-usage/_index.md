@@ -170,6 +170,8 @@ Lär dig hur du aktiverar och kör JavaScript i ett HtmlDocument‑objekt i Java
 Lär dig hur du använder en fast trådpool för att köra flera uppgifter samtidigt i Java med Aspose.HTML.
 ### [Kör JavaScript i Java – Komplett guide för att lägga till element i body](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
 Lär dig hur du exekverar JavaScript i Java och dynamiskt lägger till element i dokumentets body med Aspose.HTML.
+### [Hur du ställer in DPI vid konvertering av SVG till PNG med Aspose – Java‑guide](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
+Lär dig hur du anger DPI för högkvalitativ SVG‑till‑PNG‑konvertering med Aspose.HTML för Java.
 ### [Kör JavaScript från Java – Ställ in anpassad User-Agent med Aspose.HTML](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
 Lär dig hur du kör JavaScript i Java och anger en egen User-Agent‑sträng med Aspose.HTML.
 

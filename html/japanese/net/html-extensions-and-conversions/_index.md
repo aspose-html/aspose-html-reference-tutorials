@@ -113,6 +113,9 @@ Aspose.HTML for .NET を使用して、C# で HTML を Zip に圧縮する手順
 ### [Aspose.HTML を使用して Web ページを ZIP に保存する – 完全 C# チュートリアル](./save-webpage-as-zip-with-aspose-html-complete-c-tutorial/)
 Aspose.HTML for .NET を使用して、Web ページ全体を ZIP アーカイブとして保存する手順をステップバイステップで解説します。
 
+### [HTML を ZIP に保存 – 完全 C# ガイド：HTML を ZIP に変換](./save-html-as-zip-complete-c-guide-to-convert-html-to-zip/)
+Aspose.HTML for .NET を使用し、HTML を ZIP に変換して保存する完全な C# 手順を解説します。
+
 ### [C# で HTML を ZIP に保存 – 完全インメモリ例](./save-html-to-zip-in-c-complete-in-memory-example/)
 Aspose.HTML for .NET を使用して、HTML をメモリ内で ZIP アーカイブに保存する手順をステップバイステップで解説します。
 ### [C# のカスタム リソース ハンドラ – HTML を ZIP に変換するチュートリアル](./custom-resource-handler-in-c-convert-html-to-zip-tutorial/)
@@ -214,6 +217,9 @@ Aspose.HTML for .NET を使用して、C# で HTML を ZIP アーカイブとし
 
 ### [C# で HTML を Zip に圧縮する方法 – カスタム リソース ハンドラ ガイド](./how-to-zip-html-in-c-custom-resource-handler-guide/)
 C# と Aspose.HTML のカスタム リソース ハンドラを使用して、HTML を Zip に圧縮する手順を解説します。
+
+### [DOCX から HTML を ZIP に圧縮する – 完全 C# ガイド](./how-to-zip-html-from-docx-complete-c-guide/)
+Aspose.HTML for .NET を使用し、DOCX から HTML を抽出し ZIP アーカイブに保存する完全な C# 手順を解説します。
 
 ## 結論
 

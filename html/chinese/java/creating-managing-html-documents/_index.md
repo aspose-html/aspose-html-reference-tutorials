@@ -95,6 +95,12 @@ Aspose.HTML for Java 为开发人员提供了功能强大的工具包，旨在�
 本分步指南教您如何在 Java 中使用 Aspose.HTML 查询 XPath 表达式，帮助您高效提取所需数据。
 ### [从 MHTML 中提取 HTML – 完整 Java 指南](./extract-html-from-mhtml-complete-java-guide/)
 本完整指南详细演示如何使用 Aspose.HTML for Java 从 MHTML 文件中提取 HTML 内容，涵盖步骤、示例和最佳实践。
+### [在 Aspose.HTML for Java 中搜索 HTML – 文本查找指南](./how-to-search-html-java-guide-for-finding-text/)
+本教程展示如何使用 Aspose.HTML for Java 在 HTML 中搜索特定文本，包括查询方法和示例代码。
+### [在 Aspose.HTML for Java 中读取 XHTML 文件 – XPath 命名空间示例](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
+本教程演示如何使用 Aspose.HTML for Java 通过 XPath 处理带命名空间的 XHTML 文件，实现精准查询。
+### [在 Java 中使用 querySelectorAll – 按类过滤](./how-to-use-queryselectorall-in-java-filter-by-class/)
+了解如何在 Java 中使用 Aspose.HTML 的 querySelectorAll 方法按 CSS 类过滤元素，提供分步指南和实用技巧。
 ### [在 Aspose.HTML for Java 中创建 HTML 沙盒 – 步骤指南](./create-sandbox-for-html-in-java-step-by-step-guide/)
 ### [在 Java 中统计 HTML 字符 – 使用 Aspose HTML 的完整指南](./count-html-characters-in-java-full-guide-with-aspose-html/)
 本完整指南教您如何使用 Aspose.HTML for Java 统计 HTML 文本字符数，涵盖示例代码和最佳实践。

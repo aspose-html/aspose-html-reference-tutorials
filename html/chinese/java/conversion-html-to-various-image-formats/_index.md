@@ -137,6 +137,7 @@ weight: 24
 
 ### [在 Java 中将 SVG 转换为 PNG – 高分辨率指南](./convert-svg-to-png-in-java-high-resolution-guide/)
 
+### [使用 Aspose.HTML Sandbox 将 HTML 渲染为 PNG – 完整 Java 指南](./render-html-to-png-with-aspose-html-sandbox-full-java-guide/)
 ### [在 Java 中将 SVG 转换为 PNG – 批量转换指南](./convert-svg-to-png-in-java-batch-conversion-guide/)
 使用 Aspose.HTML for Java 批量将 SVG 文件转换为 PNG 图像的完整指南。
 

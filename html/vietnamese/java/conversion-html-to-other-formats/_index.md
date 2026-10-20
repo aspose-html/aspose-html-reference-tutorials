@@ -175,6 +175,16 @@ Hướng dẫn cách thiết lập kích thước trang PDF khi chuyển đổi 
 
 ### [Tạo PDF từ HTML trong Java – Hướng dẫn chuyển đổi hàng loạt đầy đủ](./create-pdf-from-html-in-java-full-batch-conversion-guide/)
 Hướng dẫn chi tiết cách chuyển đổi hàng loạt các tệp HTML thành PDF trong Java bằng Aspose.HTML.
+### [Cách bật JavaScript trong Aspose HTML sang PDF (Java)](./how-to-enable-javascript-in-aspose-html-to-pdf-java/)
+Hướng dẫn bật JavaScript khi chuyển đổi HTML sang PDF bằng Aspose.HTML for Java, đảm bảo nội dung động được render chính xác.
+
+### [Lưu HTML thành PDF – Chuyển đổi hàng loạt song song bằng Fixed Thread Pool trong Java](./save-html-as-pdf-parallel-batch-conversion-using-fixed-threa/)
+Hướng dẫn chuyển đổi nhiều tệp HTML sang PDF đồng thời sử dụng Fixed Thread Pool trong Java để tăng hiệu suất.
+
+### [Chuyển đổi HTML sang PDF với Java – Hướng dẫn đầy đủ](./convert-html-to-pdf-with-java-full-guide/)
+
+### [Chuyển đổi HTML sang PDF trong Java – Hướng dẫn chi tiết từng bước](./convert-html-to-pdf-in-java-step-by-step-guide/)
+
 
 ### [Chuyển đổi HTML sang PDF trong Java – Đặt kích thước trang và lề](./convert-html-to-pdf-in-java-set-page-size-margins/)
 Hướng dẫn cách thiết lập kích thước trang và lề khi chuyển đổi HTML sang PDF trong Java bằng Aspose.HTML.
@@ -217,6 +227,9 @@ Chuyển đổi HTML sang Markdown trong Java, bảo toàn định dạng gốc 
 
 ### [Chuyển đổi HTML sang Markdown trong Java – Hướng dẫn từng bước](./convert-html-to-markdown-in-java-step-by-step-guide/)
 Chuyển đổi HTML sang Markdown trong Java một cách chi tiết, hướng dẫn từng bước để chuyển đổi nội dung HTML thành Markdown.
+
+### [Lưu HTML thành Markdown trong Java – Hướng dẫn chi tiết từng bước](./save-html-as-markdown-in-java-complete-step-by-step-guide/)
+Hướng dẫn chi tiết cách lưu nội dung HTML dưới dạng Markdown trong Java bằng Aspose.HTML, bao gồm các bước cấu hình và ví dụ thực tế.
 
 ### [Chuyển đổi SVG sang Hình ảnh](./convert-svg-to-image/)
 Tìm hiểu cách chuyển đổi SVG sang hình ảnh trong Java với Aspose.HTML. Hướng dẫn toàn diện để có đầu ra chất lượng cao.

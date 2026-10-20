@@ -84,6 +84,8 @@ Lär dig hur du analyserar HTML i Java och extraherar ren text från artiklar me
 Lär dig hur du använder XPath för att söka i HTML med Aspose i Java. En detaljerad steg‑för‑steg‑guide.
 ### [Välj div efter klass i Java – Komplett XPath‑guide](./select-div-by-class-in-java-complete-xpath-guide/)
 Lär dig hur du väljer div‑element efter klass i Java med en komplett XPath‑guide. Steg‑för‑steg‑instruktioner för effektiv selektion.
+### [Hur man söker i HTML – Java-guide för att hitta text](./how-to-search-html-java-guide-for-finding-text/)
+Lär dig hur du söker efter text i HTML-dokument med Java. En steg-för-steg-guide för effektiv textupptäckt.
 ### [Hur du frågar HTML med Aspose.HTML – Komplett Java‑guide](./how-to-query-html-with-aspose-html-complete-java-guide/)
 Lär dig hur du söker och extraherar data från HTML i Java med Aspose.HTML i en komplett steg‑för‑steg‑guide.
 ### [Generera nya HTML-dokument med Aspose.HTML för Java](./generate-new-html-documents/)
@@ -153,6 +155,10 @@ Lär dig hur du kör flera trådar i Java samtidigt som du använder try‑with�
 Lär dig hur du renderar HTML i Java, väntar på att sidan laddas och använder query selector för att extrahera element.
 ### [Konvertera Markdown till HTML i Java – Steg‑för‑steg‑guide](./convert-markdown-to-html-in-java-step-by-step-guide/)
 Lär dig hur du konverterar Markdown till HTML i Java med vår detaljerade steg‑för‑steg‑guide.
+### [Hur man använder querySelectorAll i Java – Filtrera efter klass](./how-to-use-queryselectorall-in-java-filter-by-class/)
+Lär dig hur du använder querySelectorAll i Java för att filtrera element efter klass.
+### [Hur man läser XHTML-fil i Java – XPath‑namnutrymmesexempel](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
+Lär dig läsa en XHTML-fil i Java med XPath och hantera namnrymder i detta praktiska exempel.
 ### [Konvertera Markdown till HTML i Java – Snabbguide med Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
 Lär dig hur du snabbt konverterar Markdown till HTML i Java med Aspose i en steg‑för‑steg‑guide.
 

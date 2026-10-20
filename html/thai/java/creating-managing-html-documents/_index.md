@@ -137,6 +137,12 @@ Aspose.HTML สำหรับ Java นำเสนอชุดเครื่�
 เรียนรู้วิธีเรนเดอร์ HTML ใน Java พร้อมรอให้หน้าโหลดเสร็จและใช้ Query Selector เพื่อดึงข้อมูลอย่างแม่นยำ
 ### [แปลง Markdown เป็น HTML ใน Java – คู่มือทีละขั้นตอน](./convert-markdown-to-html-in-java-step-by-step-guide/)
 เรียนรู้วิธีแปลงไฟล์ Markdown เป็น HTML ใน Java ด้วย Aspose.HTML ผ่านขั้นตอนที่ชัดเจนและง่ายต่อการทำตาม
+### [วิธีการค้นหา HTML – คู่มือ Java สำหรับการค้นหาข้อความ](./how-to-search-html-java-guide-for-finding-text/)
+เรียนรู้วิธีค้นหาและดึงข้อความจากเอกสาร HTML ใน Java ด้วย Aspose.HTML ผ่านคู่มือทีละขั้นตอน
+### [วิธีใช้ querySelectorAll ใน Java – กรองตามคลาส](./how-to-use-queryselectorall-in-java-filter-by-class/)
+เรียนรู้วิธีใช้ querySelectorAll ใน Java เพื่อเลือกองค์ประกอบตามคลาสและกรองผลลัพธ์อย่างแม่นยำใน Aspose.HTML
+### [วิธีอ่านไฟล์ XHTML ใน Java – ตัวอย่าง XPath Namespace](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
+เรียนรู้วิธีอ่านไฟล์ XHTML ใน Java ด้วย XPath พร้อมตัวอย่างการจัดการ Namespace อย่างละเอียด
 ### [วิธีสืบค้น HTML ด้วย Aspose.HTML – คู่มือ Java ฉบับสมบูรณ์](./how-to-query-html-with-aspose-html-complete-java-guide/)
 เรียนรู้วิธีสืบค้นและดึงข้อมูลจาก HTML ด้วย Aspose.HTML ใน Java อย่างละเอียดในคู่มือฉบับสมบูรณ์
 ### [แปลง Markdown เป็น HTML ใน Java – คู่มือเร็วด้วย Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)

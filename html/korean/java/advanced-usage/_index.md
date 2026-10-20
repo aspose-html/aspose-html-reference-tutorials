@@ -159,6 +159,8 @@ Java HTMLDocument에서 JavaScript를 활성화하고 실행하는 방법을 단
 고정된 스레드 풀을 사용해 여러 작업을 동시에 실행하고 효율적인 멀티스레딩을 구현하는 방법을 배웁니다.
 ### [Java에서 JavaScript 실행 – 본문에 요소 추가하는 완전 가이드](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
 Java 애플리케이션에서 JavaScript를 실행하고, body에 요소를 동적으로 추가하는 방법을 단계별로 안내합니다.
+### [Aspose를 사용해 SVG를 PNG로 변환할 때 DPI 설정하기 – Java 가이드](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
+Aspose.HTML for Java를 이용해 SVG 이미지를 PNG로 변환하면서 DPI를 지정하는 방법을 단계별로 안내합니다.
 ### [Java에서 JavaScript 실행하기 – Aspose.HTML로 사용자 지정 User-Agent 설정](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
 Aspose.HTML를 사용해 Java에서 JavaScript를 실행하면서 사용자 정의 User-Agent 헤더를 설정하는 방법을 배웁니다.
 

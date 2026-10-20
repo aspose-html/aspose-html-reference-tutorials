@@ -74,6 +74,10 @@ Learn how to parse HTML in Java with Aspose.HTML to extract article text using a
 Learn how to query XML using XPath in Java with Aspose.HTML, with a clear step‑by‑step guide for efficient data extraction.
 ### [Select div by class in Java – Complete XPath Guide](./select-div-by-class-in-java-complete-xpath-guide/)
 Learn how to select div elements by class using XPath in Java with Aspose.HTML. Step-by-step guide for precise element targeting.
+### [How to Search HTML – Java Guide for Finding Text](./how-to-search-html-java-guide-for-finding-text/)
+Learn how to search HTML content in Java using Aspose.HTML, with step-by-step examples for finding specific text.
+### [How to Use querySelectorAll in Java – Filter by Class](./how-to-use-queryselectorall-in-java-filter-by-class/)
+Learn how to filter HTML elements by class using querySelectorAll in Aspose.HTML for Java with a clear step-by-step guide.
 ### [how to query html with Aspose.HTML – Complete Java Guide](./how-to-query-html-with-aspose-html-complete-java-guide/)
 Master querying HTML in Java using Aspose.HTML with this complete, step-by-step guide.
 ### [Create sandbox for HTML in Java – Step‑by‑Step Guide](./create-sandbox-for-html-in-java-step-by-step-guide/)
@@ -138,6 +142,8 @@ Learn how to run multiple Java threads while safely managing resources using try
 Learn how to render HTML in Java, wait for page load, and use query selectors with Aspose.HTML. Step-by-step guide.
 ### [Convert Markdown to HTML in Java – Step‑by‑Step Guide](./convert-markdown-to-html-in-java-step-by-step-guide/)
 Convert Markdown to HTML in Java using Aspose.HTML. Follow this step‑by‑step guide to transform markdown content into HTML efficiently.
+### [How to Read XHTML File in Java – XPath Namespace Example](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
+Learn how to read an XHTML file in Java using XPath with namespace handling, step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

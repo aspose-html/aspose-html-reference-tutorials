@@ -96,7 +96,6 @@ Erfahren Sie, wie Sie mit Aspose.HTML für .NET ein HTML-Dokument erzeugen und e
 ### [HTML in C# zippen – Tutorial zum benutzerdefinierten Ressourcen‑Handler](./how-to-zip-html-in-c-custom-resource-handler-tutorial/)
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML‑Inhalte mithilfe eines benutzerdefinierten Ressourcen‑Handlers in ein ZIP‑Archiv komprimieren.
 
-### [HTML‑Dokument mit formatiertem Text erstellen und in PDF exportieren – Vollständige Anleitung](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 ### [HTML in C# zippen – Webseite in ZIP exportieren mit Aspose.HTML](./how-to-zip-html-in-c-export-webpage-to-zip-with-aspose-html/)
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET eine komplette Webseite in ein ZIP‑Archiv exportieren.
 Speichern Sie HTML‑Inhalte in ein ZIP‑Archiv komplett im Speicher mit Aspose.HTML für .NET. Schritt‑für‑Schritt‑Anleitung.
@@ -126,7 +125,9 @@ Erfahren Sie, wie Sie mit Aspose in C# PDFs aus HTML generieren – vollständig
 ### [HTML‑Dokument in C# erstellen – Schritt‑für‑Schritt‑Anleitung](./create-html-document-c-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET ein HTML‑Dokument in C# erstellen – eine detaillierte Schritt‑für‑Schritt‑Anleitung.
 ### [HTML als ZIP speichern – Komplettes C#‑Tutorial](./save-html-as-zip-complete-c-tutorial/)
-Erfahren Sie, wie Sie HTML‑Inhalte mit Aspose.HTML für .NET in ein ZIP‑Archiv speichern – vollständige Schritt‑für‑Schritt‑Anleitung in C#.
+Erfahren Sie, wie Sie HTML‑Inhalte mit Aspose.HTML für .NET in eine ZIP‑Datei komprimieren und speichern.
+### [HTML‑Dokument mit formatiertem Text erstellen und in PDF exportieren – Vollständige Anleitung](./create-html-document-with-styled-text-and-export-to-pdf-full/)
+Erfahren Sie, wie Sie ein HTML‑Dokument mit formatiertem Text erstellen und es mit Aspose.HTML für .NET in ein PDF exportieren.
 ### [HTML in ZIP speichern in C# – Komplettes In‑Memory‑Beispiel](./save-html-to-zip-in-c-complete-in-memory-example/)
 ### [Wie man Handler in Aspose.HTML verwendet – HTML laden, als ZIP speichern](./how-to-use-handler-in-aspose-html-load-html-save-as-zip/)
 Erfahren Sie, wie Sie mit Aspose.HTML einen Handler nutzen, HTML laden und das Ergebnis als ZIP‑Archiv speichern.
@@ -193,6 +194,10 @@ Erfahren Sie, wie Sie HTML-Inhalte in C# komplett schrittweise in ein ZIP-Archiv
 Erfahren Sie, wie Sie HTML‑Inhalte mit Aspose.HTML für .NET in ein ZIP‑Archiv speichern – komplette Schritt‑für‑Schritt‑Anleitung in C#.
 ### [Webseite als ZIP speichern – Komplettes C#‑Tutorial mit Aspose.HTML](./save-webpage-as-zip-with-aspose-html-complete-c-tutorial/)
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET eine komplette Webseite als ZIP‑Archiv speichern – vollständige Schritt‑für‑Schritt‑Anleitung in C#.
+### [HTML als ZIP speichern – Komplettes C#‑Guide zur Konvertierung von HTML in ZIP](./save-html-as-zip-complete-c-guide-to-convert-html-to-zip/)
+Erfahren Sie, wie Sie HTML‑Inhalte mit Aspose.HTML für .NET in ein ZIP‑Archiv konvertieren – vollständige Schritt‑für‑Schritt‑Anleitung in C#.
+### [HTML aus DOCX zippen – Vollständiger C#‑Leitfaden](./how-to-zip-html-from-docx-complete-c-guide/)
+Erfahren Sie, wie Sie HTML‑Inhalte aus einer DOCX‑Datei extrahieren und in ein ZIP‑Archiv komprimieren – vollständige C#‑Anleitung.
 
 ## Abschluss
 

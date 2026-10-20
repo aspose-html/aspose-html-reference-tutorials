@@ -136,6 +136,12 @@ Java में Aspose.HTML का उपयोग करके पेज लो�
 Java में Aspose.HTML का उपयोग करके मार्कडाउन को HTML में बदलने की प्रक्रिया सीखें। विस्तृत चरण‑दर‑चरण मार्गदर्शिका।
 ### [MHTML से HTML निकालें – पूर्ण जावा गाइड](./extract-html-from-mhtml-complete-java-guide/)
 Aspose.HTML for Java के साथ MHTML फ़ाइलों से HTML निकालना सीखें। चरण‑दर‑चरण गाइड, टिप्स और सर्वोत्तम प्रथाएँ।
+### [HTML कैसे खोजें – जावा में टेक्स्ट खोजने के लिए गाइड](./how-to-search-html-java-guide-for-finding-text/)
+Aspose.HTML for Java का उपयोग करके HTML दस्तावेज़ में टेक्स्ट खोजने की चरण‑दर‑चरण गाइड।
+### [Java में querySelectorAll का उपयोग – क्लास द्वारा फ़िल्टर करना](./how-to-use-queryselectorall-in-java-filter-by-class/)
+
+### [Java में XHTML फ़ाइल पढ़ना – XPath नेमस्पेस उदाहरण](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
+Java में Aspose.HTML का उपयोग करके XHTML फ़ाइल पढ़ें और XPath नेमस्पेस के साथ क्वेरी करें। चरण‑दर‑चरण गाइड।
 ### [Aspose.HTML के साथ HTML क्वेरी कैसे करें – पूर्ण जावा गाइड](./how-to-query-html-with-aspose-html-complete-java-guide/)
 Aspose.HTML का उपयोग करके जावा में HTML क्वेरी करने की पूरी मार्गदर्शिका, चरण‑दर‑चरण उदाहरण और सर्वोत्तम प्रथाएँ।
 ### [Aspose के साथ जावा में मार्कडाउन को HTML में परिवर्तित करें – त्वरित गाइड](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)

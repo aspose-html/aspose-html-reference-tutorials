@@ -252,6 +252,11 @@ weight: 25
 ### [Δημιουργία Markdown από HTML με Aspose.HTML – Πλήρης Οδηγός Java](./create-markdown-from-html-with-aspose-html-complete-java-gui/)
 ### [java html to pdf – Μετατροπή HTML σε PDF/A‑2b με Aspose](./java-html-to-pdf-convert-html-to-pdf-a-2b-with-aspose/)
 ### [Δημιουργία αρχείου MHTML από HTML – Πλήρης οδηγός Java](./create-mhtml-file-from-html-complete-java-guide/)
+### [Μετατροπή HTML σε PDF σε Java – Οδηγός βήμα‑βήμα](./convert-html-to-pdf-in-java-step-by-step-guide/)
+### [Μετατροπή HTML σε PDF με Java – Πλήρης Οδηγός](./convert-html-to-pdf-with-java-full-guide/)
+### [Πώς να ενεργοποιήσετε τη JavaScript στο Aspose HTML σε PDF (Java)](./how-to-enable-javascript-in-aspose-html-to-pdf-java/)
+### [Αποθήκευση HTML ως PDF – Παράλληλη Μετατροπή σε Παρτίδες με Σταθερό Πισίνα Νημάτων Java](./save-html-as-pdf-parallel-batch-conversion-using-fixed-threa/)
+### [Αποθήκευση HTML ως Markdown σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./save-html-as-markdown-in-java-complete-step-by-step-guide/)
 
 ## Συχνές Ερωτήσεις
 

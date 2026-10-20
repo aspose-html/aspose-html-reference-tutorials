@@ -59,7 +59,6 @@ Ismerje meg, hogyan tölthet be HTML-dokumentumokat adatfolyamokból az Aspose.H
 ### [Hozzon létre HTML-dokumentumokat a Stringből az Aspose.HTML for Java-ban](./create-html-documents-from-string/)
 Ebből a lépésről szóló útmutatóból megtudhatja, hogyan hozhat létre HTML-dokumentumokat karakterláncokból az Aspose.HTML for Java programban.
 ### [Töltsön be HTML dokumentumokat az Aspose.HTML for Java-ban található URL-ből](./load-html-documents-from-url/)
-Fedezze fel, hogyan tölthet be egyszerűen HTML dokumentumokat egy URL-ről Java nyelven az Aspose.HTML segítségével. Lépésről lépésre bemutató oktatóanyag.
 ### [HTML-dokumentum betöltése Aspose – Gyors Java útmutató az oldal címének lekérdezéséhez](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
 Ismerje meg, hogyan tölthet be HTML-dokumentumot és kérdezheti le az oldal címét az Aspose.HTML for Java segítségével.
 ### [HTML betöltése Java-ban – XPath és CSS szelektor összehasonlítása](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
@@ -79,6 +78,8 @@ Ismerje meg, hogyan nyerhet ki szöveget HTML cikkekből Java használatával, l
 ### [XPath lekérdezése Java-ban az Aspose segítségével – Lépésről‑lépésre útmutató](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
 Ismerje meg, hogyan használhatja az Aspose könyvtárat xpath lekérdezéshez Java-ban, részletes, lépésről‑lépésre útmutatóval.
 
+### [HTML keresése – Java útmutató a szöveg megtalálásához](./how-to-search-html-java-guide-for-finding-text/)
+Ismerje meg, hogyan kereshet szöveget HTML-dokumentumokban Java és Aspose.HTML segítségével, lépésről‑lépésre útmutató.
 ### [HTML lekérdezése Aspose.HTML használatával – Teljes Java útmutató](./how-to-query-html-with-aspose-html-complete-java-guide/)
 Ismerje meg, hogyan kérdezhet le HTML-t Aspose.HTML segítségével Java-ban, lépésről lépésre útmutató a hatékony adatkinyeréshez.
 ### [Új HTML-dokumentumok létrehozása az Aspose.HTML for Java használatával](./generate-new-html-documents/)
@@ -137,6 +138,10 @@ Ismerje meg, hogyan alakíthatja át a Markdown tartalmat HTML-re Java nyelven, 
 Tanulja meg, hogyan válassza ki a div elemeket osztályuk alapján Java XPath használatával, részletes, lépésről‑lépésre útmutató.
 ### [HTML kinyerése MHTML-ből – Teljes Java útmutató](./extract-html-from-mhtml-complete-java-guide/)
 Tanulja meg, hogyan nyerhet ki HTML-t MHTML fájlokból Java-ban az Aspose.HTML segítségével, lépésről lépésre útmutató.
+### [Hogyan használja a querySelectorAll-t Java-ban – Szűrés osztály alapján](./how-to-use-queryselectorall-in-java-filter-by-class/)
+Ismerje meg, hogyan szűrhet HTML-elemeket osztály alapján a querySelectorAll metódussal Java-ban az Aspose.HTML segítségével.
+### [Hogyan olvassunk be XHTML fájlt Java-ban – XPath névtér példája](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
+Ismerje meg, hogyan olvashat be XHTML fájlt Java-ban XPath névtérrel, részletes lépésről‑lépésre útmutatóval.
 ### [Markdown konvertálása HTML-re Java-ban – Gyors útmutató az Aspose használatával](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
 Ismerje meg, hogyan konvertálhatja a Markdown fájlokat HTML-re Java-ban az Aspose.HTML segítségével, lépésről‑lépésre útmutató.
 

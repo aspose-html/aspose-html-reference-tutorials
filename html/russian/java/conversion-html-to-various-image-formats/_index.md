@@ -125,7 +125,7 @@ weight: 24
 Узнайте, как пакетно конвертировать SVG‑файлы в PNG с помощью Aspose.HTML for Java. Подробный пошаговый пример.
 
 ### [Преобразование HTML в TIFF](./convert-html-to-tiff/)
-Узнайте, как легко преобразовывать HTML в TIFF с помощью Aspose.HTML для Java. Пошаговое руководство по эффективной обработке документов.
+Узнайте, как легко преобразовывать HTML в TIFF с помощью Aspose.HTML. Пошаговое руководство по эффективной обработке документов.
 
 ### [Преобразование SVG в PNG с высоким разрешением – руководство Java](./convert-svg-to-png-with-high-resolution-java-guide/)
 
@@ -192,6 +192,9 @@ weight: 24
 Узнайте, как преобразовать HTML в WebP в Java с помощью Aspose.HTML. Полное пошаговое руководство.
 
 ### [Преобразование SVG в PNG в Java – Руководство по высокому разрешению](./convert-svg-to-png-in-java-high-resolution-guide/)
+
+### [Рендеринг HTML в PNG с Aspose.HTML Sandbox – Полное руководство Java](./render-html-to-png-with-aspose-html-sandbox-full-java-guide/)
+Полное руководство по рендерингу HTML в PNG с использованием Aspose.HTML Sandbox в Java.
 
 ## Часто задаваемые вопросы
 

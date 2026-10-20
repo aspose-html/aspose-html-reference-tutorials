@@ -132,7 +132,6 @@ Pelajari cara membuat dokumen HTML menggunakan C# dengan panduan langkah demi la
 Pelajari cara membuat arsip HTML dari file DOCX menggunakan Aspose.HTML untuk .NET dengan contoh kode lengkap.
 ### [Simpan HTML sebagai ZIP – Tutorial Lengkap C#](./save-html-as-zip-complete-c-tutorial/)
 Pelajari cara menyimpan file HTML sebagai arsip ZIP menggunakan Aspose.HTML untuk .NET dengan contoh kode C# lengkap.
-
 ### [Simpan HTML ke ZIP di C# – Contoh In‑Memory Lengkap](./save-html-to-zip-in-c-complete-in-memory-example/)
 Pelajari cara menyimpan file HTML ke dalam arsip ZIP secara langsung di memori menggunakan C# dan Aspose.HTML.
 ### [Penangan Sumber Daya Kustom di C# – Mengonversi HTML ke Arsip ZIP dari Memori](./custom-resource-handler-in-c-convert-html-to-zip-archive-fro/)
@@ -209,6 +208,10 @@ Pelajari cara menyimpan file HTML ke dalam arsip ZIP menggunakan penangan sumber
 
 ### [Simpan Halaman Web sebagai ZIP dengan Aspose.HTML – Tutorial Lengkap C#](./save-webpage-as-zip-with-aspose-html-complete-c-tutorial/)
 Pelajari cara menyimpan seluruh halaman web sebagai arsip ZIP menggunakan Aspose.HTML dalam tutorial C# lengkap.
+### [Simpan HTML sebagai ZIP – Panduan Lengkap C# untuk Mengonversi HTML ke ZIP](./save-html-as-zip-complete-c-guide-to-convert-html-to-zip/)
+Panduan lengkap C# untuk mengonversi HTML menjadi arsip ZIP menggunakan Aspose.HTML untuk .NET.
+### [Cara Mengompres HTML dari DOCX – Panduan Lengkap C#](./how-to-zip-html-from-docx-complete-c-guide/)
+Pelajari cara mengompres file HTML yang dihasilkan dari DOCX menjadi arsip ZIP menggunakan C# dan Aspose.HTML.
 
 ## Kesimpulan
 

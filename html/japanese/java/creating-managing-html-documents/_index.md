@@ -35,7 +35,7 @@ HTML ドキュメントを非同期的に作成するのは複雑に聞こえる
 
 ## 新しい HTML ドキュメントを生成し、高度なファイル読み込みを処理する
 
-新しい HTML ドキュメントを生成する場合、Aspose.HTML for Java は、リッチな Web コンテンツをゼロから構築できる強力なソリューションを提供します。コンテンツ管理システムで作業している場合でも、HTML 形式でレポートを生成する必要がある場合でも、新しい HTML ドキュメントの作成方法と管理方法を理解することは重要です。さらに、高度なファイル読み込みテクニックにより、複雑な HTML ドキュメントを操作できるため、大規模なプロジェクトを簡単に処理できます。これらのチュートリアルでは、すべての手順をガイドし、HTML 関連のあらゆる課題に取り組む準備が整います。[続きを読む](./generate-new-html-documents/)
+新しい HTML ドキュメントを生成する場合、Aspose.HTML for Java は、リッチな Web コンテンツをゼロから構築できる強力なソリューションを提供します。コンテンツ管理システムで作業している場合でも、HTML 形式でレポートを生成する必要がある場合でも、新しい HTML ドキュメントの作成方法と管理方法を理解することは重要です。さらに、高度なファイル読み込みテクニックにより、複雑な HTML ドキュメントを操作できるため、大規模なプロジェクトを簡単に処理できます。これらのチュートリアルでは、すべての手順をガイドし、HTML 関連のあらゆる課題に取り組む準備が整ります。[続きを読む](./generate-new-html-documents/)
 
 ## SVG ドキュメントの管理とイベントの処理
 
@@ -75,8 +75,6 @@ Aspose.HTML for Java を使用して、HTML ドキュメントからページタ
 Aspose.HTML for Java を使用して SVG ドキュメントを作成および管理する方法を学びます。この包括的なガイドでは、基本的
 
 ### [Java で HTML のサンドボックスを作成する – ステップバイステップ ガイド](./create-sandbox-for-html-in-java-step-by-step-guide/)
-Java アプリで HTML のサンドボックス環境を構築し、安全にテストする方法
-
 ### [Java で HTML を読み込む方法 – ステップバイステップ ガイド](./how-to-load-html-in-java-step-by-step-guide/)
 Java アプリで HTML を簡単に読み込む手順をステップバイステップで解説します。
 
@@ -137,6 +135,12 @@ Java を使用して Markdown を HTML に変換する方法を、詳細な手�
 Java で XPath を使用し、クラス属性で div 要素を選択する方法をステップバイステップで解説します。完全ガイドで式の作成と実装例を紹介。
 ### [MHTML から HTML を抽出する – 完全 Java ガイド](./extract-html-from-mhtml-complete-java-guide/)
 Aspose.HTML for Java を使用して MHTML ファイルから HTML コンテンツを抽出し、解析や再利用ができる手順をステップバイステップで解説します。
+### [Java で XHTML ファイルを読み込む – XPath 名前空間の例](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
+Java で XHTML ファイルを読み込み、XPath の名前空間を使用して要素を検索する方法をステップバイステップで解説します。
+### [Java で HTML を検索する方法 – テキスト検索ガイド](./how-to-search-html-java-guide-for-finding-text/)
+Java アプリケーションで HTML コンテンツから特定のテキストを検索する手順をステップバイステップで解説します。
+### [Java で querySelectorAll を使用する – クラスでフィルタリング](./how-to-use-queryselectorall-in-java-filter-by-class/)
+Java で querySelectorAll を使い、特定のクラス属性を持つ要素を抽出する手順をステップバイステップで解説します。
 ### [Aspose.HTML を使用して HTML をクエリする方法 – 完全 Java ガイド](./how-to-query-html-with-aspose-html-complete-java-guide/)
 Aspose.HTML for Java を活用し、HTML コンテンツを検索・抽出する完全なステップバイステップガイドです。
 ### [Aspose を使用した Java の Markdown から HTML への変換 – クイックガイド](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)

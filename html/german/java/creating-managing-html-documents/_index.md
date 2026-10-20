@@ -145,6 +145,12 @@ Erfahren Sie, wie Sie mehrere Threads in Java starten und dabei Try‑with‑Res
 Lernen Sie, wie Sie mit XPath Div-Elemente anhand ihrer CSS‑Klasse in Java auswählen und verarbeiten – Schritt‑für‑Schritt‑Anleitung.
 ### [Extrahieren Sie HTML aus MHTML – Vollständiger Java‑Leitfaden](./extract-html-from-mhtml-complete-java-guide/)
 Erfahren Sie, wie Sie HTML aus MHTML-Dateien extrahieren und in Java weiterverarbeiten – Schritt‑für‑Schritt‑Anleitung.
+### [Wie man HTML durchsucht – Java-Leitfaden zum Finden von Text](./how-to-search-html-java-guide-for-finding-text/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java Text in HTML-Dokumenten suchen und extrahieren – Schritt‑für‑Schritt‑Anleitung.
+### [Wie man querySelectorAll in Java verwendet – Filtern nach Klasse](./how-to-use-queryselectorall-in-java-filter-by-class/)
+Erfahren Sie, wie Sie mit querySelectorAll in Aspose.HTML für Java Elemente nach CSS‑Klasse filtern können.
+### [Wie man XHTML-Datei in Java liest – XPath-Namespace-Beispiel](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java eine XHTML-Datei mithilfe von XPath und Namespaces auslesen.
 ### [Wie man HTML mit Aspose.HTML abfragt – Vollständiger Java-Leitfaden](./how-to-query-html-with-aspose-html-complete-java-guide/)
 Erfahren Sie, wie Sie HTML mit Aspose.HTML in Java abfragen und verarbeiten – Schritt‑für‑Schritt‑Anleitung für umfassendes Verständnis.
 ### [Markdown nach HTML in Java konvertieren – Schnellleitfaden mit Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)

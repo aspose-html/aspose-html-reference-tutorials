@@ -162,6 +162,8 @@ Ismerje meg, hogyan értékelhet JavaScript kódot Java alkalmazásokban az Aspo
 ### [Java több szálas oktatóanyag: Feladatok párhuzamos futtatása fix szálkészlettel](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
 Ismerje meg, hogyan futtathat feladatokat párhuzamosan fix méretű szálkészlettel a Java ExecutorService használatával.
 ### [Java-ban JavaScript végrehajtása – Teljes útmutató az elemek body-hoz való hozzáadásához](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
+### [Hogyan állítsuk be a DPI-t SVG‑ről PNG‑re konvertáláskor az Aspose‑val – Java útmutató](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
+Ismerje meg, hogyan állíthatja be a DPI értéket SVG‑k PNG‑re konvertálásakor az Aspose.HTML for Java használatával.
 ### [Java‑ból JavaScript futtatása – Egyéni User-Agent beállítása az Aspose.HTML‑lel](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
 Ismerje meg, hogyan állíthat be egyedi User-Agent fejlécet JavaScript futtatásakor Aspose.HTML segítségével.
 

@@ -115,6 +115,8 @@ Apprenez à convertir HTML en PNG avec contrôle de la couleur d'arrière‑plan
 ### [Conversion d'HTML en PNG – Guide Java pour rendre les tableaux HTML en images](./convert-html-to-png-java-guide-to-rendering-html-tables-as-i/)
 Apprenez à convertir des tableaux HTML en images PNG avec Aspose.HTML for Java, étape par étape.
 ### [Rendu HTML en PNG avec Aspose.HTML – Guide complet Java](./render-html-to-png-with-aspose-html-complete-java-guide/)
+### [Rendu HTML en PNG avec Aspose.HTML Sandbox – Guide complet Java](./render-html-to-png-with-aspose-html-sandbox-full-java-guide/)
+Apprenez à rendre du HTML en PNG en Java en utilisant le bac à sable Aspose.HTML. Guide complet étape par étape.
 ### [Convertir SVG en PNG en Java – Guide de conversion par lots](./convert-svg-to-png-in-java-batch-conversion-guide/)
 Apprenez à convertir des fichiers SVG en PNG en Java avec Aspose.HTML, en mode batch pour traiter de nombreux fichiers rapidement.
 ### [Conversion d'HTML en TIFF](./convert-html-to-tiff/)

@@ -135,6 +135,10 @@ Pelajari cara memilih elemen div berdasarkan kelas menggunakan XPath di Java den
 Pelajari cara mengonversi file Markdown menjadi HTML di Java dengan panduan langkah demi langkah kami.
 ### [Ekstrak HTML dari MHTML – Panduan Lengkap Java](./extract-html-from-mhtml-complete-java-guide/)
 Pelajari cara mengekstrak HTML dari file MHTML menggunakan Aspose.HTML untuk Java dengan panduan langkah demi langkah yang lengkap.
+### [Cara Menggunakan querySelectorAll di Java – Filter berdasarkan Kelas](./how-to-use-queryselectorall-in-java-filter-by-class/)
+### [Cara Membaca File XHTML di Java – Contoh Namespace XPath](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
+### [Cara mencari HTML – Panduan Java untuk Menemukan Teks](./how-to-search-html-java-guide-for-finding-text/)
+Pelajari cara mencari teks dalam dokumen HTML menggunakan Aspose.HTML untuk Java dengan panduan langkah demi langkah yang mudah diikuti.
 ### [Cara Menanyakan HTML dengan Aspose.HTML – Panduan Lengkap Java](./how-to-query-html-with-aspose-html-complete-java-guide/)
 Pelajari cara menanyakan dan mengekstrak data HTML menggunakan Aspose.HTML dalam Java dengan panduan langkah demi langkah lengkap.
 ### [Mengonversi Markdown ke HTML di Java – Panduan Cepat dengan Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)

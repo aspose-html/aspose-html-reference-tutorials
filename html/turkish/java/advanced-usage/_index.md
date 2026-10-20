@@ -168,6 +168,8 @@ Aspose.HTML for Java kullanarak Java HTMLDocument içinde JavaScript çalıştı
 ### [Java Çoklu İş Parçacığı Eğitimi: Sabit İş Parçacığı Havuzu ile Görevleri Paralel Çalıştırma](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
 ### [Java’da JavaScript Çalıştırma – Gövdeye Eleman Ekleme Tam Kılavuzu](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
 Aspose.HTML for Java kullanarak Java içinde JavaScript ile gövdeye yeni elemanlar eklemeyi öğrenin.
+### [Aspose ile SVG'den PNG'ye Dönüştürürken DPI Ayarlama – Java Rehberi](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
+Aspose.HTML for Java kullanarak SVG dosyalarını PNG'ye dönüştürürken DPI değerini nasıl ayarlayacağınızı öğrenin.
 ### [Java’dan JavaScript Çalıştırma – Aspose.HTML ile Özel User-Agent Ayarlama](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
 Aspose.HTML for Java kullanarak Java içinde JavaScript çalıştırırken özel bir User-Agent belirlemeyi öğrenin.
 

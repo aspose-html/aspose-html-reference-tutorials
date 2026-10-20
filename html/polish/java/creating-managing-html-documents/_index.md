@@ -139,6 +139,12 @@ Dowiedz się, jak wybrać elementy div według klasy w Javie przy użyciu pełne
 ### [Konwertuj Markdown na HTML w Javie – przewodnik krok po kroku](./convert-markdown-to-html-in-java-step-by-step-guide/)
 Dowiedz się, jak przekształcić pliki Markdown w HTML w Javie przy użyciu Aspose.HTML, krok po kroku, z praktycznymi przykładami.
 ### [Renderowanie HTML w Javie – Kompletny przewodnik po oczekiwaniu na załadowanie strony i selektorze zapytań](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
+### [Jak odczytać plik XHTML w Javie – przykład XPath z przestrzenią nazw](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
+Dowiedz się, jak odczytywać pliki XHTML w Javie przy użyciu XPath i obsługi przestrzeni nazw.
+### [Jak używać querySelectorAll w Javie – filtrowanie po klasie](./how-to-use-queryselectorall-in-java-filter-by-class/)
+Dowiedz się, jak używać querySelectorAll w Javie do filtrowania elementów po klasie.
+### [Jak wyszukiwać HTML – przewodnik Java do znajdowania tekstu](./how-to-search-html-java-guide-for-finding-text/)
+Dowiedz się, jak efektywnie wyszukiwać i znajdować tekst w dokumentach HTML przy użyciu Aspose.HTML dla Java. Praktyczny przewodnik krok po kroku.
 ### [Jak zapytać HTML przy użyciu Aspose.HTML – Kompletny przewodnik Java](./how-to-query-html-with-aspose-html-complete-java-guide/)
 Dowiedz się, jak efektywnie zapytać i przetwarzać dokumenty HTML w Javie przy użyciu Aspose.HTML.
 ### [Konwersja Markdown do HTML w Javie – szybki przewodnik z Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
