@@ -57,12 +57,18 @@ Ismerje meg, hogyan töltheti fel SEO-ját az Aspose.HTML for .NET segítségév
 Kibontakoztassa az Aspose.HTML-ben rejlő lehetőségeket .NET-hez átfogó útmutatónkkal. Ismerje meg, hogyan importálhat névtereket, hogyan férhet hozzá távoli HTML-dokumentumokhoz stb.
 ### [HTML betöltése URL használatával a .NET-ben az Aspose.HTML-lel](./load-html-using-url/)
 Ismerje meg, hogyan használhatja ki az Aspose.HTML erejét .NET-hez. Fokozza fel webfejlesztését HTML-kezeléssel és -megjelenítéssel.
+### [HTML-dokumentum létrehozása az Aspose.HTML‑el – Lépésről‑lépésre útmutató](./create-html-document-with-aspose-html-step-by-step-guide/)
+Ismerje meg, hogyan hozhat létre HTML-dokumentumot az Aspose.HTML segítségével, részletes lépésekkel és példákkal.
 ### [Dokumentum létrehozása .NET-ben az Aspose.HTML segítségével](./creating-a-document/)
 Engedje szabadjára az Aspose.HTML erejét .NET-hez. Tanuljon meg könnyedén létrehozni, manipulálni és optimalizálni HTML és SVG dokumentumokat. Fedezze fel a lépésről lépésre példákat és a GYIK-et.
+### [HTML létrehozása Aspose-szal – Elem keresése, félkövérre állítása](./how-to-create-html-with-aspose-find-element-apply-bold/)
+Ismerje meg, hogyan hozhat létre HTML-t Aspose-szal, keressen elemet és alkalmazzon félkövér formázást.
 ### [Dokumentum szerkesztése .NET-ben az Aspose.HTML segítségével](./editing-a-document/)
 Hozzon létre lenyűgöző webes tartalmat az Aspose.HTML for .NET segítségével. Tanulja meg a HTML, CSS és egyebek kezelését.
 ### [Dokumentum mentése .NET-ben az Aspose.HTML segítségével](./saving-a-document/)
 Fedezze fel az Aspose.HTML erejét .NET-hez lépésenkénti útmutatónkkal. Ismerje meg a HTML és SVG dokumentumok létrehozását, kezelését és konvertálását
+### [HTML mentése .NET-ben az Aspose.HTML segítségével – Lépésről lépésre útmutató](./how-to-save-html-with-aspose-html-step-by-step-guide/)
+Ismerje meg, hogyan menthet HTML-fájlokat az Aspose.HTML for .NET segítségével, részletes lépésekkel és példákkal.
 ### [Egyesítse a HTML-t Json-val a .NET-ben az Aspose.HTML-lel](./merge-html-with-json/)
 Tanuljon meg dinamikus és webes tartalmat létrehozni az Aspose.HTML for .NET használatával. Erősítse meg online jelenlétét, és vonja be közönségét.
 ### [Egyesítse a HTML-t XML-lel a .NET-ben az Aspose.HTML-lel](./merge-html-with-xml/)
@@ -71,6 +77,23 @@ Tanulja meg az Aspose.HTML használatát .NET-hez. Importáljon névteret, egyes
 Használja ki a webfejlesztésben rejlő lehetőségeket az Aspose.HTML for .NET segítségével. Könnyen hozhat létre, konvertálhat és kezelhet HTML dokumentumokat.
 ### [HTML létrehozása karakterláncból C#-ban – Egyéni erőforráskezelő útmutató](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Ismerje meg, hogyan hozhat létre HTML-t karakterláncból C#-ban egy egyéni erőforráskezelő segítségével.
+### [Szöveg félkövér és dőlt formázása C#-ban – Gyors útmutató a HTML stílusozásához](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
+Ismerje meg, hogyan formázhatja félkövérre és dőlthetre a szöveget C#-ban az Aspose.HTML segítségével.
+### [Elem hozzáadása a body-hoz – Teljes C# útmutató az Aspose.HTML-lel](./append-element-to-body-complete-c-guide-with-aspose-html/)
+Ismerje meg, hogyan adhat hozzá elemeket a HTML body részéhez C#-ban az Aspose.HTML használatával.
+### [HTML létrehozása és CSS stíluselem hozzáadása – Lépésről‑lépésre útmutató](./how-to-create-html-and-add-css-style-element-step-by-step-gu/)
+Ismerje meg, hogyan hozhat létre HTML-fájlt, és adhat hozzá CSS stíluselemeket C#‑ban lépésről‑lépésre.
+### [HTML dokumentum létrehozása C#‑ban – Lépésről‑lépésre útmutató](./create-html-document-c-step-by-step-guide/)
+Ismerje meg, hogyan hozhat létre HTML dokumentumot C#‑ban részletes, lépésről‑lépésre útmutatóval.
+### [HTML létrehozása – Elemek hozzáadása és a szöveg stílusozása](./how-to-create-html-append-elements-and-style-text/)
+Ismerje meg, hogyan hozhat létre HTML-t, elemeket adhat hozzá, és formázhatja a szöveget C#-ban az Aspose.HTML segítségével.
+### [HTML stílusának beállítása Aspose.Html segítségével – Betűstílus C#-ban](./how-to-style-html-with-aspose-html-set-font-style-in-c/)
+Ismerje meg, hogyan állíthat be betűstílust HTML-ben az Aspose.Html C# API-jával.
+### [Félkövér és dőlt kombinálása HTML-ben C#-al – Teljes útmutató](./combine-bold-and-italic-in-html-with-c-complete-guide/)
+### [Betűstílus alkalmazása programozottan – Gyors C# útmutató](./apply-font-style-programmatically-quick-c-guide/)
+Ismerje meg, hogyan alkalmazhat betűstílusokat C#-ban programozottan az Aspose.HTML segítségével.
+### [HTML létrehozása formázott szöveggel – Teljes C# útmutató](./how-to-create-html-with-styled-text-complete-c-guide/)
+Ismerje meg, hogyan hozhat létre HTML-t formázott szöveggel C#-ban, részletes példákkal és magyarázatokkal.
 
 ## Következtetés
 

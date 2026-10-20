@@ -1,0 +1,7 @@
+Title: How to enable streaming when converting HTML to PDF in Python
+Slug: how-to-enable-streaming-when-converting-html-to-pdf-in-pytho
+Category: general
+ProcessedDate: 2026-08-22T22:19:46.622141
+SourceRepo: AI Search API
+Keywords: how to enable streaming, convert html to pdf, html to pdf python, large html to pdf, stream html to pdf
+PRNumber: 249
