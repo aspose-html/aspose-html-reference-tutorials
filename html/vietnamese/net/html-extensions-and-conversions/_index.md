@@ -89,10 +89,11 @@ Tìm hiểu cách chuyển đổi HTML sang Markdown trong .NET bằng Aspose.HT
 Chuyển đổi HTML sang MHTML trong .NET với Aspose.HTML - Hướng dẫn từng bước để lưu trữ nội dung web hiệu quả. Tìm hiểu cách sử dụng Aspose.HTML cho .NET để tạo kho lưu trữ MHTML.
 ### [Chuyển đổi HTML sang PNG trong .NET với Aspose.HTML](./convert-html-to-png/)
 Khám phá cách sử dụng Aspose.HTML cho .NET để thao tác và chuyển đổi tài liệu HTML. Hướng dẫn từng bước để phát triển .NET hiệu quả.
-
 ### [Chuyển đổi HTML sang PNG trong C# – Render HTML thành Hình ảnh](./convert-html-to-png-in-c-render-html-as-image/)
 Khám phá cách chuyển đổi HTML sang PNG trong C# bằng Aspose.HTML, hướng dẫn chi tiết các bước và tùy chọn cấu hình.
 
+### [Chuyển đổi HTML sang hình ảnh trong C# – Hướng dẫn từng bước](./convert-html-to-image-in-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách chuyển đổi HTML sang hình ảnh trong C# bằng Aspose.HTML, bao gồm ví dụ mã và các tùy chọn cấu hình.
 ### [Chuyển đổi HTML sang TIFF trong .NET với Aspose.HTML](./convert-html-to-tiff/)
 Tìm hiểu cách chuyển đổi HTML sang TIFF bằng Aspose.HTML cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để tối ưu hóa nội dung web hiệu quả.
 ### [Chuyển đổi HTML sang XPS trong .NET với Aspose.HTML](./convert-html-to-xps/)
@@ -213,6 +214,10 @@ Hướng dẫn chi tiết cách lưu HTML thành tệp ZIP trong C# bằng Aspos
 Hướng dẫn chi tiết cách lưu tài liệu HTML vào tệp ZIP và chuyển đổi HTML sang PNG bằng C# và Aspose.HTML.
 ### [Lưu HTML dưới dạng ZIP – Hướng dẫn đầy đủ cho Aspose.HTML](./save-html-as-zip-complete-guide-for-aspose-html/)
 Hướng dẫn chi tiết cách lưu tài liệu HTML thành tệp ZIP bằng Aspose.HTML cho .NET, bao gồm ví dụ mã và tùy chọn cấu hình.
+### [Cách Nén HTML – Hướng Dẫn Toàn Diện Xuất Trang Web thành ZIP](./how-to-zip-html-complete-guide-to-exporting-web-pages-as-zip/)
+Hướng dẫn chi tiết cách nén HTML thành tệp ZIP, bao gồm ví dụ mã và các tùy chọn cấu hình.
+### [Chuyển đổi HTML sang PDF trong C# – Lưu trang HTML dưới dạng PDF](./convert-html-to-pdf-in-c-save-html-page-as-pdf/)
+Hướng dẫn chi tiết cách chuyển đổi một trang HTML thành PDF trong C# bằng Aspose.HTML, bao gồm các ví dụ mã và tùy chọn cấu hình.
 
 ## Phần kết luận
 

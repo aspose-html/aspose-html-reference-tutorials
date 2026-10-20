@@ -125,6 +125,8 @@ Naučte se, jak pomocí Aspose.HTML převést HTML soubor na PNG obrázek s nast
 Naučte se převést dokument Word do PNG pomocí Aspose.HTML pro .NET s podrobným krok za krokem návodem.
 ### [Vykreslení HTML do PNG – Kompletní průvodce s vlastními handlery a možnostmi](./render-html-to-png-complete-guide-with-custom-handlers-optio/)
 Naučte se pomocí Aspose.HTML převést HTML na PNG s vlastními handlery a pokročilými možnostmi nastavení.
+### [Vlastní obslužná rutina zdrojů v C# – Vykreslení webové stránky do obrázku](./custom-resource-handler-in-c-render-webpage-to-image/)
+Naučte se vytvořit vlastní handler zdrojů v C# pro vykreslení webové stránky do obrázku pomocí Aspose.HTML.
 
 ## Závěr
 

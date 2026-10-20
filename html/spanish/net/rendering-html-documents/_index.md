@@ -130,6 +130,15 @@ Aprenda a crear un documento HTML a partir de una cadena y renderizarlo a un arc
 ### [Representar HTML como Imagen en C# – Guía completa de programación](./render-html-as-image-in-c-complete-programming-guide/)
 Aprenda a convertir HTML a imágenes usando C# y Aspose.HTML con ejemplos paso a paso y mejores prácticas.
 
+### [Renderizar HTML a Imagen con Aspose.HTML – Guía completa](./render-html-to-image-with-aspose-html-complete-guide/)
+Aprenda paso a paso a convertir HTML en imágenes usando Aspose.HTML para .NET con ejemplos claros y detallados.
+
+### [Devolver HTML como respuesta – Guía completa para capturar y enviar HTML con Aspose.HTML](./return-html-as-response-complete-guide-to-capturing-and-send/)
+Aprenda a capturar HTML y enviarlo como respuesta HTTP usando Aspose.HTML en .NET.
+
+### [Cómo desactivar el antialiasing para obtener imágenes más nítidas – Guía paso a paso](./how-to-disable-antialiasing-for-sharper-images-step-by-step/)
+Aprenda a desactivar el antialiasing en Aspose.HTML para generar imágenes más nítidas paso a paso.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

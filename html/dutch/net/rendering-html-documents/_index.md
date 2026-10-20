@@ -79,6 +79,7 @@ Leer hoe u met Aspose.HTML HTML naar PNG kunt renderen met een duidelijke stap�
 Leer stap voor stap hoe u HTML naar PNG rendert met Aspose.HTML in deze duidelijke gids.
 ### [Hoe HTML te renderen naar PNG met Aspose – Complete gids](./how-to-render-html-to-png-with-aspose-complete-guide/)
 Leer stap voor stap hoe u HTML naar PNG converteert met Aspose.HTML in deze volledige gids.
+
 ### [PNG maken vanuit HTML – Volledige C# Renderinggids](./create-png-from-html-full-c-rendering-guide/)
 Leer hoe u met Aspose.HTML voor .NET HTML naar PNG converteert met een volledige C#-renderinggids.
 ### [HTML naar PNG renderen – Stapsgewijze handleiding](./how-to-render-html-to-png-step-by-step-guide/)
@@ -131,6 +132,15 @@ Leer stap voor stap hoe u een HTML-document maakt en dit naar PNG rendert met C#
 Leer hoe u een HTML-document als string maakt en deze met Aspose.HTML naar een bestand rendert met C#.
 ### [HTML renderen als afbeelding in C# – Complete programmeergids](./render-html-as-image-in-c-complete-programming-guide/)
 Leer stap voor stap hoe u HTML naar een afbeelding rendert met C# en Aspose.HTML in deze volledige programmeergids.
+
+### [HTML retourneren als respons – Complete gids voor het vastleggen en verzenden van HTML met Aspose.HTML](./return-html-as-response-complete-guide-to-capturing-and-send/)
+Leer hoe u HTML kunt vastleggen en als HTTP‑respons verzenden met Aspose.HTML in deze stapsgewijze volledige gids.
+
+### [Hoe antialiasing uitschakelen voor scherpere afbeeldingen – Stapsgewijze gids](./how-to-disable-antialiasing-for-sharper-images-step-by-step/)
+Leer hoe u antialiasing uitschakelt om scherpere afbeeldingen te krijgen met Aspose.HTML in een eenvoudige stap‑voor‑stap handleiding.
+
+### [HTML naar afbeelding renderen met Aspose.HTML – Complete gids](./render-html-to-image-with-aspose-html-complete-guide/)
+Leer hoe u HTML naar afbeelding converteert met Aspose.HTML in deze volledige gids.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

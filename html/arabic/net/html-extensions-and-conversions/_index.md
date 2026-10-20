@@ -57,6 +57,8 @@ url: /ar/net/html-extensions-and-conversions/
 دليل شامل خطوة بخطوة لتحويل ملفات HTML إلى PDF باستخدام C# ومكتبة Aspose.HTML.
 ### [تحويل HTML إلى PDF في C# – دليل كامل خطوة بخطوة](./render-html-as-pdf-in-c-full-step-by-step-guide/)
 دليل شامل يوضح كيفية تحويل مستندات HTML إلى PDF باستخدام C# ومكتبة Aspose.HTML خطوة بخطوة.
+### [تحويل HTML إلى PDF في C# – حفظ صفحة HTML كملف PDF](./convert-html-to-pdf-in-c-save-html-page-as-pdf/)
+تعلم كيفية حفظ صفحة HTML كملف PDF باستخدام Aspose.HTML في C# خطوة بخطوة.
 ### [إنشاء PDF من HTML – دليل خطوة بخطوة بلغة C#](./create-pdf-from-html-c-step-by-step-guide/)
 دليل خطوة بخطوة لإنشاء ملف PDF من HTML باستخدام C# ومكتبة Aspose.HTML.
 ### [إنشاء PDF من HTML باستخدام Aspose.HTML – دليل خطوة بخطوة](./create-pdf-from-html-with-aspose-html-step-by-step-guide/)
@@ -126,6 +128,8 @@ url: /ar/net/html-extensions-and-conversions/
 تعلم كيفية تحويل مستند DOCX إلى أرشيف HTML باستخدام Aspose.HTML خطوة بخطوة.
 ### [كيفية ضغط HTML في C# – دليل كامل لحفظ HTML كملف ZIP](./how-to-zip-html-in-c-complete-guide-to-save-html-as-zip/)
 تعلم خطوة بخطوة كيفية ضغط ملفات HTML وحفظها كملف ZIP باستخدام C# ومكتبة Aspose.HTML.
+### [تحويل HTML إلى صورة في C# – دليل خطوة بخطوة](./convert-html-to-image-in-c-step-by-step-guide/)
+دليل خطوة بخطوة لتحويل مستندات HTML إلى صور باستخدام C# ومكتبة Aspose.HTML.
 ### [كيفية ضغط HTML في C# – حفظ HTML إلى ملف Zip](./how-to-zip-html-in-c-save-html-to-zip/)
 تعلم كيفية ضغط ملفات HTML وحفظها كملف Zip باستخدام C# ومكتبة Aspose.HTML.
 ### [كيفية ضغط HTML في C# – دليل كامل](./how-to-zip-html-in-c-complete-guide/)
@@ -217,6 +221,8 @@ url: /ar/net/html-extensions-and-conversions/
 تعلم كيفية تحويل ملفات HTML إلى PDF بسهولة باستخدام مكتبة Aspose.HTML في .NET.
 ### [حفظ HTML كملف ZIP – دليل كامل لـ Aspose.HTML](./save-html-as-zip-complete-guide-for-aspose-html/)
 دليل شامل يوضح كيفية حفظ مستند HTML كملف ZIP باستخدام Aspose.HTML خطوة بخطوة.
+### [كيفية ضغط HTML – دليل كامل لتصدير صفحات الويب كملف ZIP](./how-to-zip-html-complete-guide-to-exporting-web-pages-as-zip/)
+تعلم كيفية ضغط ملفات HTML وتصدير صفحات الويب كملف ZIP باستخدام Aspose.HTML في C# خطوة بخطوة.
 
 ## خاتمة
 

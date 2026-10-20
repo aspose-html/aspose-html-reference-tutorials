@@ -119,6 +119,8 @@ Aprenda a generar imágenes PNG a partir de contenido HTML usando Aspose.HTML y 
 Aprende a convertir documentos Word a imágenes PNG paso a paso con Aspose.HTML para .NET.
 ### [Renderizar HTML a PNG – Guía completa con controladores personalizados y opciones](./render-html-to-png-complete-guide-with-custom-handlers-optio/)
 Aprenda a renderizar HTML a PNG usando Aspose.HTML con controladores personalizados y opciones avanzadas.
+### [Manejador de recursos personalizado en C# – Renderizar página web a imagen](./custom-resource-handler-in-c-render-webpage-to-image/)
+Aprenda a crear un manejador de recursos personalizado en C# para renderizar páginas web como imágenes usando Aspose.HTML.
 
 ## Conclusión
 

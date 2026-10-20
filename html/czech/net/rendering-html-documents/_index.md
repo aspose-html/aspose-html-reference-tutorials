@@ -154,6 +154,15 @@ Kompletní průvodce v C#, jak vytvořit HTML dokument a převést jej do PNG po
 ### [Vytvořte řetězec HTML dokumentu a vykreslete do souboru – C# průvodce](./create-html-document-string-and-render-to-file-c-guide/)
 Naučte se pomocí Aspose.HTML v .NET vytvořit HTML jako řetězec a uložit jej do souboru pomocí C#.
 
+### [Vrácení HTML jako odpověď – Kompletní průvodce zachycením a odesíláním HTML pomocí Aspose.HTML](./return-html-as-response-complete-guide-to-capturing-and-send/)
+Naučte se, jak zachytit HTML a odeslat jej jako HTTP odpověď pomocí Aspose.HTML v .NET.
+
+### [Jak zakázat antialiasing pro ostřejší obrázky – krok za krokem](./how-to-disable-antialiasing-for-sharper-images-step-by-step/)
+Naučte se, jak v Aspose.HTML vypnout antialiasing, aby byly výstupní obrázky ostřejší a kvalitnější.
+
+### [Vykreslete HTML do obrázku pomocí Aspose.HTML – Kompletní průvodce](./render-html-to-image-with-aspose-html-complete-guide/)
+Kompletní průvodce, jak pomocí Aspose.HTML převést HTML do obrázku s podrobnými ukázkami.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -153,6 +153,15 @@ Aspose.HTML for .NET を使用し、HTML ドキュメントを作成して PNG �
 ### [HTML ドキュメント文字列を作成しファイルにレンダリングする – C# ガイド](./create-html-document-string-and-render-to-file-c-guide/)
 Aspose.HTML for .NET を使用して、HTML ドキュメント文字列を生成し、C# で画像や PDF などのファイルにレンダリングする方法を解説します。
 
+### [HTML をレスポンスとして返す – Aspose.HTML を使用した HTML の取得と送信の完全ガイド](./return-html-as-response-complete-guide-to-capturing-and-send/)
+Aspose.HTML を使って HTML を取得し、HTTP レスポンスとして返す方法をステップバイステップで解説します。
+
+### [アンチエイリアシングを無効にして画像を鮮明にする方法 – ステップバイステップガイド](./how-to-disable-antialiasing-for-sharper-images-step-by-step/)
+Aspose.HTML for .NET でアンチエイリアシングをオフにし、画像の輪郭をくっきりさせる手順を詳しく解説します。
+
+### [Aspose.HTML を使用して HTML を画像にレンダリングする – 完全ガイド](./render-html-to-image-with-aspose-html-complete-guide/)
+Aspose.HTML for .NET を使い、HTML を高品質な画像に変換する手順を完全に解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

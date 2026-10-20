@@ -137,6 +137,12 @@ url: /el/net/rendering-html-documents/
 Μάθετε πώς να δημιουργήσετε μια συμβολοσειρά HTML και να την αποδώσετε σε αρχείο χρησιμοποιώντας C# και Aspose.HTML.
 ### [Απόδοση HTML ως εικόνα σε C# – Πλήρης προγραμματιστικός οδηγός](./render-html-as-image-in-c-complete-programming-guide/)
 Μάθετε πώς να μετατρέψετε HTML σε εικόνα χρησιμοποιώντας C# και το Aspose.HTML σε αυτόν τον πλήρη οδηγό.
+### [Επιστροφή HTML ως Απόκριση – Πλήρης Οδηγός για τη Λήψη και Αποστολή HTML με το Aspose.HTML](./return-html-as-response-complete-guide-to-capturing-and-send/)
+Μάθετε πώς να συλλάβετε και να στέλνετε HTML ως απόκριση χρησιμοποιώντας το Aspose.HTML για .NET σε αυτόν τον πλήρη οδηγό.
+### [Πώς να απενεργοποιήσετε το antialiasing για πιο οξείς εικόνες – Οδηγός βήμα‑βήμα](./how-to-disable-antialiasing-for-sharper-images-step-by-step/)
+Μάθετε πώς να απενεργοποιήσετε το antialiasing για πιο οξείς εικόνες χρησιμοποιώντας το Aspose.HTML για .NET.
+### [Απόδοση HTML σε εικόνα με Aspose.HTML – Πλήρης Οδηγός](./render-html-to-image-with-aspose-html-complete-guide/)
+Μάθετε πώς να μετατρέψετε HTML σε εικόνα χρησιμοποιώντας το Aspose.HTML σε αυτόν τον πλήρη οδηγό!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

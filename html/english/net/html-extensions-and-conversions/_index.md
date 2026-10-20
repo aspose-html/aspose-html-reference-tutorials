@@ -52,6 +52,8 @@ Convert HTML to PDF in C# using Aspose.HTML for .NET. Follow a step‑by‑step 
 Learn how to convert HTML to PDF in C# using Aspose.HTML with a complete step‑by‑step guide and code examples.
 ### [Convert HTML to PDF with Aspose – Step‑by‑Step Guide](./convert-html-to-pdf-with-aspose-step-by-step-guide/)
 Step‑by‑step guide to convert HTML to PDF using Aspose.HTML for .NET, covering setup, code examples, and customization options.
+### [Convert HTML to PDF in C# – Save HTML Page as PDF](./convert-html-to-pdf-in-c-save-html-page-as-pdf/)
+Save an HTML page as PDF using Aspose.HTML for .NET with a clear C# step‑by‑step guide.
 ### [Create PDF from HTML – C# Step‑by‑Step Guide](./create-pdf-from-html-c-step-by-step-guide/)
 Learn how to generate PDF files from HTML using Aspose.HTML for .NET with a detailed C# step‑by‑step guide.
 ### [Create PDF from HTML in C# – Complete Step‑by‑Step Guide](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
@@ -87,14 +89,10 @@ Learn how to convert HTML to PDF using Aspose.HTML for .NET with a step‑by‑s
 Learn how to convert HTML to PDF using C# and Aspose.HTML with a comprehensive step-by-step guide.
 ### [Render HTML as PDF in C# – Full Step‑by‑Step Guide](./render-html-as-pdf-in-c-full-step-by-step-guide/)
 Learn how to render HTML to PDF using C# and Aspose.HTML with a comprehensive step‑by‑step guide.
-### [Convert EPUB to Image in .NET with Aspose.HTML](./convert-epub-to-image/)
-Learn how to convert EPUB to images using Aspose.HTML for .NET. Step‑by‑step tutorial with code examples and customizable options.
-### [Convert EPUB to PDF in .NET with Aspose.HTML](./convert-epub-to-pdf/)
-Learn how to convert EPUB to PDF using Aspose.HTML for .NET. This step‑by‑step guide covers customization options, FAQs, and more for seamless document conversion.
-### [Convert EPUB to XPS in .NET with Aspose.HTML](./convert-epub-to-xps/)
-Learn how to convert EPUB to XPS in .NET using Aspose.HTML for .NET. Follow our step‑by‑step guide for effortless conversions.
 ### [Convert HTML to BMP in .NET with Aspose.HTML](./convert-html-to-bmp/)
 Learn how to convert HTML to BMP in .NET using Aspose.HTML for .NET. Comprehensive guide for web developers for Leveraging Aspose.HTML for .NET.
+### [Convert HTML to Image in C# – Step‑by‑Step Guide](./convert-html-to-image-in-c-step-by-step-guide/)
+Learn how to convert HTML to various image formats in C# using Aspose.HTML with a detailed step‑by‑step guide.
 ### [Convert HTML to DOC and DOCX in .NET with Aspose.HTML](./convert-html-to-doc-docx/)
 Learn how to harness the power of Aspose.HTML for .NET in this step‑by‑step guide. Convert HTML to DOCX effortlessly and level up your .NET projects. Get started today!
 ### [Convert HTML to GIF in .NET with Aspose.HTML](./convert-html-to-gif/)
@@ -209,6 +207,14 @@ Learn how to save HTML as a ZIP archive using Aspose.HTML for .NET with a compre
 Learn how to generate HTML output using Aspose.HTML in C# with a comprehensive step‑by‑step guide.
 ### [Save HTML to ZIP and Render HTML to PNG – Complete C# Guide](./save-html-to-zip-and-render-html-to-png-complete-c-guide/)
 Learn how to zip HTML files and render them to PNG using Aspose.HTML for .NET in a complete C# step‑by‑step guide.
+### [How to Zip HTML – Complete Guide to Exporting Web Pages as ZIP](./how-to-zip-html-complete-guide-to-exporting-web-pages-as-zip/)
+Learn how to zip HTML files and export web pages as a ZIP archive using Aspose.HTML for .NET with a comprehensive step‑by‑step guide.
+### [Convert EPUB to Image in .NET with Aspose.HTML](./convert-epub-to-image/)
+Learn how to convert EPUB to images using Aspose.HTML for .NET. Step‑by‑step tutorial with code examples and customizable options.
+### [Convert EPUB to PDF in .NET with Aspose.HTML](./convert-epub-to-pdf/)
+Learn how to convert EPUB to PDF using Aspose.HTML for .NET. This step‑by‑step guide covers customization options, FAQs, and more for seamless document conversion.
+### [Convert EPUB to XPS in .NET with Aspose.HTML](./convert-epub-to-xps/)
+Learn how to convert EPUB to XPS in .NET using Aspose.HTML for .NET. Follow our step‑by‑step guide for effortless conversions.
 
 ## Conclusion
 

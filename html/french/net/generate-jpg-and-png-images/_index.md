@@ -126,6 +126,8 @@ Apprenez à convertir du HTML en image PNG en utilisant Aspose, avec un guide é
 Apprenez à convertir un document Word en image PNG avec un guide complet, incluant le code C# et les meilleures pratiques.
 ### [Rendu HTML en PNG – Guide complet avec gestionnaires personnalisés et options](./render-html-to-png-complete-guide-with-custom-handlers-optio/)
 Apprenez à rendre du HTML en PNG en utilisant des gestionnaires personnalisés et diverses options avancées.
+### [Gestionnaire de ressources personnalisé en C# – Rendre une page Web en image](./custom-resource-handler-in-c-render-webpage-to-image/)
+Apprenez à créer un gestionnaire de ressources personnalisé en C# pour rendre des pages Web en images avec Aspose.HTML.
 
 ## Conclusion
 

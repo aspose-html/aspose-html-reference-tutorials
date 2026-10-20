@@ -129,6 +129,12 @@ Lär dig steg för steg hur du skapar ett HTML-dokument och renderar det till PN
 Lär dig hur du skapar en HTML-dokumentsträng i C# och renderar den till en fil med Aspose.HTML.
 ### [Rendera HTML som bild i C# – Komplett programmeringsguide](./render-html-as-image-in-c-complete-programming-guide/)
 Lär dig steg för steg hur du renderar HTML till bild i C# med Aspose.HTML i en komplett guide.
+### [Returnera HTML som svar – Komplett guide för att fånga och skicka HTML med Aspose.HTML](./return-html-as-response-complete-guide-to-capturing-and-send/)
+Lär dig hur du med Aspose.HTML för .NET fångar HTML och returnerar den som svar i en webbtjänst. En komplett steg‑för‑steg‑guide.
+### [Hur du inaktiverar kantutjämning för skarpare bilder – steg‑för‑steg‑guide](./how-to-disable-antialiasing-for-sharper-images-step-by-step/)
+Lär dig hur du inaktiverar kantutjämning för att få skarpare bilder med Aspose.HTML för .NET i en detaljerad steg‑för‑steg‑guide.
+### [Rendera HTML till bild med Aspose.HTML – Komplett guide](./render-html-to-image-with-aspose-html-complete-guide/)
+Lär dig hur du med Aspose.HTML för .NET konverterar HTML till bild i en komplett guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

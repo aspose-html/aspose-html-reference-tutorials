@@ -120,6 +120,8 @@ Ismerje meg, hogyan konvertálhat HTML-t PNG képpé az Aspose.HTML for .NET seg
 ### [Word dokumentum konvertálása PNG-re – Teljes programozási útmutató](./convert-word-document-to-png-complete-programming-guide/)
 Ismerje meg, hogyan konvertálhat Word dokumentumokat PNG képekké az Aspose.HTML for .NET segítségével, lépésről lépésre útmutató.
 ### [HTML renderelése PNG-be – Teljes útmutató egyedi kezelőkkel és beállításokkal](./render-html-to-png-complete-guide-with-custom-handlers-optio/)
+### [Egyéni erőforráskezelő C#-ban – Weboldal képpé renderelése](./custom-resource-handler-in-c-render-webpage-to-image/)
+Ismerje meg, hogyan hozhat létre egyéni erőforráskezelőt C#-ban, amely HTML oldalt képpé konvertál az Aspose.HTML segítségével.
 
 ## Következtetés
 

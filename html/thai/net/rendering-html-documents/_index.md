@@ -143,6 +143,15 @@ Aspose.HTML สำหรับ .NET ถือเป็นตัวเลือ�
 ### [เรนเดอร์ HTML เป็นภาพใน C# – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./render-html-as-image-in-c-complete-programming-guide/)
 เรียนรู้วิธีเรนเดอร์ไฟล์ HTML เป็นภาพด้วย C# อย่างละเอียดด้วย Aspose.HTML สำหรับ .NET
 
+### [วิธีปิดการทำ Antialiasing เพื่อให้ได้ภาพคมชัด – คู่มือขั้นตอนต่อขั้นตอน](./how-to-disable-antialiasing-for-sharper-images-step-by-step/)
+เรียนรู้วิธีปิดการทำ Antialiasing ใน Aspose.HTML เพื่อให้ภาพที่เรนเดอร์คมชัดยิ่งขึ้น ด้วยคำแนะนำแบบขั้นตอน
+
+### [ส่งคืน HTML เป็น Response – คู่มือฉบับสมบูรณ์ในการจับและส่ง HTML ด้วย Aspose.HTML](./return-html-as-response-complete-guide-to-capturing-and-send/)
+เรียนรู้วิธีการจับและส่ง HTML เป็น Response ด้วย Aspose.HTML อย่างละเอียดในคู่มือฉบับสมบูรณ์นี้!
+
+### [เรนเดอร์ HTML เป็นภาพด้วย Aspose.HTML – คู่มือฉบับสมบูรณ์](./render-html-to-image-with-aspose-html-complete-guide/)
+เรียนรู้วิธีการเรนเดอร์ HTML เป็นภาพด้วย Aspose.HTML อย่างละเอียดในคู่มือฉบับสมบูรณ์นี้!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

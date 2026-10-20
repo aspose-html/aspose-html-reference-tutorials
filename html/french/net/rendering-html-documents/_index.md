@@ -154,6 +154,15 @@ Apprenez à créer un document HTML à partir d'une chaîne et à le rendre dans
 ### [Rendre le HTML en image en C# – Guide complet de programmation](./render-html-as-image-in-c-complete-programming-guide/)
 Apprenez à convertir du HTML en images avec C# grâce à ce guide complet de programmation.
 
+### [Retourner le HTML en réponse – Guide complet pour capturer et envoyer du HTML avec Aspose.HTML](./return-html-as-response-complete-guide-to-capturing-and-send/)
+Apprenez à capturer du HTML généré et à l’envoyer en tant que réponse HTTP avec Aspose.HTML pour .NET.
+
+### [Comment désactiver l'anticrénelage pour des images plus nettes – Guide étape par étape](./how-to-disable-antialiasing-for-sharper-images-step-by-step/)
+Apprenez à désactiver l'anticrénelage dans Aspose.HTML pour obtenir des images plus nettes grâce à ce guide détaillé.
+
+### [Rendre le HTML en image avec Aspose.HTML – Guide complet](./render-html-to-image-with-aspose-html-complete-guide/)
+Apprenez à convertir du HTML en images avec Aspose.HTML pour .NET grâce à ce guide complet et détaillé.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

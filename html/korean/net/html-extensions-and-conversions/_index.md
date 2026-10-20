@@ -59,6 +59,8 @@ Aspose.HTML for .NET을 사용해 C#에서 HTML을 PDF로 변환하고, 글꼴�
 C#와 Aspose.HTML을 사용해 페이지 크기와 안티앨리어싱 옵션을 적용하여 HTML을 PDF로 변환하는 전체 가이드.
 ### [Aspose를 사용하여 HTML을 PDF로 변환 – 단계별 가이드](./convert-html-to-pdf-with-aspose-step-by-step-guide/)
 Aspose를 사용해 HTML을 PDF로 변환하는 단계별 가이드를 확인하고 변환 과정을 마스터하세요.
+### [C#에서 HTML을 PDF로 변환 – HTML 페이지를 PDF로 저장](./convert-html-to-pdf-in-c-save-html-page-as-pdf/)
+Aspose.HTML for .NET을 사용하여 C#에서 HTML 페이지를 PDF 파일로 저장하는 단계별 가이드입니다.
 ### [HTML에서 PDF 만들기 – C# 단계별 가이드](./create-pdf-from-html-c-step-by-step-guide/)
 Aspose.HTML for .NET을 사용하여 C#에서 HTML을 PDF로 변환하는 단계별 가이드입니다.
 ### [C#에서 Aspose HTML을 사용해 PDF로 변환 – ZIP 아카이브 포함 전체 가이드](./aspose-html-to-pdf-in-c-complete-guide-with-zip-archive/)
@@ -101,6 +103,8 @@ Aspose.HTML for .NET을 사용하여 HTML 문서를 조작하고 변환하는 �
 Aspose.HTML for .NET을 사용하여 C#에서 HTML을 이미지로 변환하는 전체 단계별 가이드.
 ### [C#에서 HTML을 PNG로 변환 – HTML을 이미지로 렌더링](./convert-html-to-png-in-c-render-html-as-image/)
 Aspose.HTML for .NET을 활용해 C#에서 HTML을 PNG 이미지로 렌더링하는 방법을 단계별로 안내합니다.
+### [C#에서 HTML을 이미지로 변환 – 단계별 가이드](./convert-html-to-image-in-c-step-by-step-guide/)
+Aspose.HTML for .NET을 사용하여 C#에서 HTML을 이미지로 변환하는 방법을 단계별로 안내합니다.
 ### [Aspose.HTML을 사용하여 .NET에서 HTML을 TIFF로 변환](./convert-html-to-tiff/)
 Aspose.HTML for .NET을 사용하여 HTML을 TIFF로 변환하는 방법을 알아보세요. 효율적인 웹 콘텐츠 최적화를 위한 단계별 가이드를 따르세요.
 ### [Aspose.HTML을 사용하여 .NET에서 HTML을 XPS로 변환](./convert-html-to-xps/)
@@ -206,6 +210,8 @@ Aspose.HTML for .NET을 활용해 HTML을 PDF로 변환하는 방법을 단계�
 Aspose.HTML for .NET을 사용하여 HTML을 ZIP 파일로 저장하고 PNG 이미지로 렌더링하는 단계별 가이드입니다.
 ### [Aspose.HTML을 사용하여 HTML을 ZIP으로 저장 – 전체 가이드](./save-html-as-zip-complete-guide-for-aspose-html/)
 Aspose.HTML for .NET을 활용해 HTML 파일을 ZIP 압축 파일로 저장하는 전체 단계별 가이드를 제공합니다.
+### [HTML을 ZIP으로 압축하는 방법 – 웹 페이지를 ZIP으로 내보내는 전체 가이드](./how-to-zip-html-complete-guide-to-exporting-web-pages-as-zip/)
+Aspose.HTML과 C#를 활용해 웹 페이지를 ZIP 파일로 내보내는 전체 단계별 가이드를 확인하세요.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

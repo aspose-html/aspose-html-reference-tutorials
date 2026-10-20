@@ -123,6 +123,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML HTML-Inhalte in PNG‑Bilder umwandeln und
 Erfahren Sie, wie Sie Word‑Dokumente mit Aspose.HTML für .NET in PNG‑Bilder umwandeln – Schritt‑für‑Schritt‑Anleitung.
 ### [HTML zu PNG rendern – Vollständiger Leitfaden mit benutzerdefinierten Handlern & Optionen](./render-html-to-png-complete-guide-with-custom-handlers-optio/)
 Erfahren Sie, wie Sie HTML mit benutzerdefinierten Handlern und Optionen in hochwertige PNG‑Bilder konvertieren – umfassende Schritt‑für‑Schritt‑Anleitung.
+### [Benutzerdefinierter Ressourcen-Handler in C# – Webseite zu Bild rendern](./custom-resource-handler-in-c-render-webpage-to-image/)
+Erfahren Sie, wie Sie mit einem benutzerdefinierten Ressourcen-Handler HTML-Inhalte rendern und als Bild speichern.
 
 ## Abschluss
 

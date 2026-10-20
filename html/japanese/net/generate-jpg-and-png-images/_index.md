@@ -122,6 +122,8 @@ Aspose.HTML を利用して、HTML コンテンツを PNG 画像に変換する�
 C# を使用して Word 文書を PNG 画像に変換する手順をステップバイステップで解説します。
 ### [HTML を PNG にレンダリング – カスタムハンドラとオプションを使用した完全ガイド](./render-html-to-png-complete-guide-with-custom-handlers-optio/)
 カスタムハンドラとさまざまなオプションを活用し、HTML を高品質な PNG 画像に変換する手順を詳しく解説します。
+### [C# のカスタムリソースハンドラ – Webページを画像にレンダリング](./custom-resource-handler-in-c-render-webpage-to-image/)
+Aspose.HTML for .NET のカスタムリソースハンドラを使用して、C# で Web ページを画像に変換する方法を学びます。
 
 ## 結論
 

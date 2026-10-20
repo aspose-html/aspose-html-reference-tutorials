@@ -55,6 +55,9 @@ Konwertuj HTML do PDF przy użyciu Aspose – szczegółowy przewodnik krok po k
 Dowiedz się, jak w C# renderować HTML do PDF przy użyciu Aspose.HTML, krok po kroku, z przykładami kodu.
 ### [Konwertuj HTML do PDF w C# – Kompletny przewodnik](./convert-html-to-pdf-with-c-complete-guide/)
 Pełny przewodnik, jak w C# konwertować HTML do PDF przy użyciu Aspose.HTML, z przykładami kodu i wskazówkami.
+### [Konwertuj HTML do PDF w C# – Zapisz stronę HTML jako PDF](./convert-html-to-pdf-in-c-save-html-page-as-pdf/)
+Konwertuj HTML do PDF w C# zapisując stronę HTML jako plik PDF przy użyciu Aspose.HTML.
+
 ### [Utwórz PDF z HTML – przewodnik krok po kroku w C#](./create-pdf-from-html-c-step-by-step-guide/)
 Dowiedz się, jak w C# wygenerować plik PDF z kodu HTML, korzystając z Aspose.HTML – kompletny przewodnik krok po kroku.
 ### [Utwórz PDF z HTML przy użyciu Aspose.HTML – przewodnik krok po kroku](./create-pdf-from-html-with-aspose-html-step-by-step-guide/)
@@ -107,6 +110,8 @@ Dowiedz się, jak spakować plik HTML do archiwum ZIP w C# przy użyciu niestand
 Konwertuj HTML do PDF w C# przy użyciu Aspose.HTML – prosty przewodnik krok po kroku.
 ### [Jak spakować HTML w C# – Kompletny przewodnik zapisywania HTML jako ZIP](./how-to-zip-html-in-c-complete-guide-to-save-html-as-zip/)
 Dowiedz się, jak w C# spakować plik HTML do archiwum ZIP, korzystając z Aspose.HTML – kompletny przewodnik krok po kroku.
+### [Konwertuj HTML na obraz w C# – Przewodnik krok po kroku](./convert-html-to-image-in-c-step-by-step-guide/)
+Dowiedz się, jak w C# konwertować HTML na obrazy przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
 ### [Jak spakować HTML w C# – Zapisz HTML do pliku ZIP](./how-to-zip-html-in-c-save-html-to-zip/)
 Dowiedz się, jak spakować plik HTML do archiwum ZIP w C# przy użyciu Aspose.HTML.
 ### [Utwórz dokument HTML i zapisz jako ZIP – Kompletny przewodnik C#](./create-html-document-and-save-as-zip-complete-c-guide/)
@@ -208,6 +213,8 @@ Dowiedz się, jak łatwo konwertować HTML do PDF przy pomocy Aspose.HTML w .NET
 Zapisz HTML jako archiwum ZIP i przekształć go w PNG w C# – kompletny przewodnik krok po kroku.
 ### [Zapisz HTML jako ZIP – Kompletny przewodnik dla Aspose.HTML](./save-html-as-zip-complete-guide-for-aspose-html/)
 Zapisz HTML jako archiwum ZIP w C# przy użyciu Aspose.HTML – pełny przewodnik krok po kroku.
+### [Jak spakować HTML – Kompletny przewodnik eksportowania stron internetowych jako ZIP](./how-to-zip-html-complete-guide-to-exporting-web-pages-as-zip/)
+Dowiedz się, jak spakować pliki HTML do archiwum ZIP w C# przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
 
 ## Wniosek
 

@@ -152,6 +152,15 @@ url: /ar/net/rendering-html-documents/
 ### [عرض HTML كصورة في C# – دليل برمجة كامل](./render-html-as-image-in-c-complete-programming-guide/)
 تعلم كيفية تحويل HTML إلى صورة باستخدام Aspose.HTML في C# من خلال هذا الدليل البرمجي الكامل.
 
+### [إرجاع HTML كاستجابة – دليل كامل لالتقاط وإرسال HTML باستخدام Aspose.HTML](./return-html-as-response-complete-guide-to-capturing-and-send/)
+تعلم كيفية التقاط محتوى HTML وإرساله كاستجابة باستخدام Aspose.HTML في دليل شامل خطوة بخطوة.
+
+### [كيفية تعطيل التنعيم للحصول على صور أكثر حدة – دليل خطوة بخطوة](./how-to-disable-antialiasing-for-sharper-images-step-by-step/)
+تعلم كيفية إيقاف التنعيم في Aspose.HTML للحصول على صور واضحة وحادة عبر خطوات بسيطة ومفصلة.
+
+### [تحويل HTML إلى صورة باستخدام Aspose.HTML – دليل كامل](./render-html-to-image-with-aspose-html-complete-guide/)
+تعلم خطوة بخطوة كيفية تحويل مستندات HTML إلى صور باستخدام Aspose.HTML في .NET. دليل شامل يغطي جميع الجوانب.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

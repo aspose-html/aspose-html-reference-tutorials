@@ -151,6 +151,15 @@ Aspose.HTML для .NET выделяется как лучший выбор дл
 ### [Рендеринг HTML в виде изображения на C# – Полное руководство по программированию](./render-html-as-image-in-c-complete-programming-guide/)
 Подробный пошаговый учебник по рендерингу HTML в изображение с использованием Aspose.HTML в C#.
 
+### [Возврат HTML в ответе – Полное руководство по захвату и отправке HTML с помощью Aspose.HTML](./return-html-as-response-complete-guide-to-capturing-and-send/)
+Подробное руководство по захвату HTML и отправке его в качестве HTTP‑ответа с использованием Aspose.HTML для .NET.
+
+### [Как отключить сглаживание для более чётких изображений – пошаговое руководство](./how-to-disable-antialiasing-for-sharper-images-step-by-step/)
+Подробное руководство по отключению сглаживания при рендеринге изображений с помощью Aspose.HTML для .NET, чтобы получить более резкие результаты.
+
+### [Рендеринг HTML в изображение с Aspose.HTML – Полное руководство](./render-html-to-image-with-aspose-html-complete-guide/)
+Подробный учебник по рендерингу HTML в изображения с использованием Aspose.HTML для .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

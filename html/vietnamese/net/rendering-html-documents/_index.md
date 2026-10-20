@@ -70,6 +70,8 @@ Học cách render HTML thành PNG trong C# bằng Aspose.HTML, với hướng d
 Tìm hiểu cách render HTML trong Aspose.HTML cho .NET sử dụng trình xử lý tài nguyên tùy chỉnh, bao gồm các ví dụ thực tế và hướng dẫn chi tiết.
 ### [Cách Render HTML thành PNG – Hướng Dẫn Toàn Diện Từng Bước](./how-to-render-html-to-png-complete-step-by-step-guide/)
 Hướng dẫn chi tiết cách render HTML thành PNG bằng Aspose.HTML cho .NET, bao gồm các bước thực hành và mẹo tối ưu.
+### [Cách tắt khử răng cưa để có hình ảnh sắc nét – Hướng dẫn từng bước](./how-to-disable-antialiasing-for-sharper-images-step-by-step/)
+Học cách tắt tính năng khử răng cưa trong Aspose.HTML để tạo ra các hình ảnh rõ nét hơn, kèm hướng dẫn chi tiết từng bước.
 ### [Cách render HTML thành PNG – Hướng dẫn C# đầy đủ](./how-to-render-html-as-png-complete-c-guide/)
 Học cách chuyển đổi HTML sang PNG bằng C# với Aspose.HTML, bao gồm các bước chi tiết và mẹo thực tiễn.
 ### [Cách render HTML thành PNG trong C# – Hướng dẫn đầy đủ](./how-to-render-html-to-png-in-c-complete-guide/)
@@ -134,6 +136,10 @@ Học cách tạo chuỗi tài liệu HTML và render thành file bằng Aspose.
 
 ### [Render HTML thành hình ảnh trong C# – Hướng dẫn lập trình toàn diện](./render-html-as-image-in-c-complete-programming-guide/)
 Học cách chuyển đổi HTML thành hình ảnh bằng C# với Aspose.HTML, bao gồm các bước chi tiết và mẹo thực tiễn.
+### [Trả về HTML dưới dạng Response – Hướng dẫn toàn diện về việc bắt và gửi HTML với Aspose.HTML](./return-html-as-response-complete-guide-to-capturing-and-send/)
+Học cách bắt và trả về nội dung HTML dưới dạng phản hồi HTTP bằng Aspose.HTML trong .NET. Khám phá hướng dẫn chi tiết và ví dụ thực tế.
+### [Render HTML thành hình ảnh với Aspose.HTML – Hướng dẫn toàn diện](./render-html-to-image-with-aspose-html-complete-guide/)
+Học cách chuyển đổi HTML thành hình ảnh với Aspose.HTML cho .NET qua hướng dẫn chi tiết từng bước.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -145,6 +145,15 @@ Aspose.HTML for .NET을 사용해 HTML 문서를 만들고 PNG 이미지로 변�
 Aspose.HTML for .NET을 사용해 HTML 문자열을 만들고 파일로 렌더링하는 방법을 단계별로 안내합니다.
 ### [C#에서 HTML을 이미지로 렌더링 – 완전 프로그래밍 가이드](./render-html-as-image-in-c-complete-programming-guide/)
 
+### [HTML을 응답으로 반환 – Aspose.HTML을 사용한 HTML 캡처 및 전송 완전 가이드](./return-html-as-response-complete-guide-to-capturing-and-send/)
+Aspose.HTML을 활용해 HTML을 캡처하고 HTTP 응답으로 전송하는 전체 과정을 단계별로 안내합니다.
+
+### [안티앨리어싱을 비활성화하여 선명한 이미지 만들기 – 단계별 가이드](./how-to-disable-antialiasing-for-sharper-images-step-by-step/)
+Aspose.HTML for .NET에서 안티앨리어싱을 끄고 이미지 품질을 향상시키는 방법을 단계별로 안내합니다.
+
+### [Aspose.HTML을 사용해 HTML을 이미지로 렌더링하는 완전 가이드](./render-html-to-image-with-aspose-html-complete-guide/)
+.NET용 Aspose.HTML으로 HTML을 다양한 이미지 형식으로 변환하는 전체 과정을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -129,6 +129,8 @@ Leer hoe u met Aspose.HTML HTML-inhoud omzet naar PNG-afbeeldingen via een eenvo
 Leer hoe u een Word-document converteert naar PNG met een volledige programmeergids.
 ### [HTML renderen naar PNG – Complete gids met aangepaste handlers en opties](./render-html-to-png-complete-guide-with-custom-handlers-optio/)
 Leer hoe u HTML naar PNG rendert met aangepaste handlers en diverse opties in een volledige stap‑voor‑stap gids.
+### [Aangepaste resourcehandler in C# – Webpagina renderen naar afbeelding](./custom-resource-handler-in-c-render-webpage-to-image/)
+Leer hoe u een aangepaste resourcehandler implementeert om webpagina's te renderen als afbeeldingen met Aspose.HTML in C#.
 
 ## Conclusie
 

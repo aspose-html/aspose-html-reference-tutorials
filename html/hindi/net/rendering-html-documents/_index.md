@@ -62,8 +62,6 @@ C# में Aspose.HTML का उपयोग करके HTML पैरा�
 ### [HTML को रेंडर करने का तरीका – कस्टम रिसोर्स हैंडलर के साथ पूर्ण गाइड](./how-to-render-html-complete-guide-with-custom-resource-handl/)
 कस्टम रिसोर्स हैंडलर के साथ HTML रेंडर करने की पूरी प्रक्रिया सीखें।
 ### [HTML को PNG के रूप में रेंडर करने का पूर्ण C# गाइड](./how-to-render-html-as-png-complete-c-guide/)
-C# में Aspose.HTML का उपयोग करके HTML को PNG में बदलने के चरण-दर-स्टेप निर्देश।
-
 ### [C# में HTML को PNG में रेंडर करते समय एंटीएलियासिंग कैसे सक्षम करें](./how-to-enable-antialiasing-when-rendering-html-to-png-in-c/)
 C# में Aspose.HTML का उपयोग करके HTML को PNG में रेंडर करते समय एंटीएलियासिंग सक्रिय करने के चरण-दर-चरण निर्देश।
 
@@ -152,6 +150,15 @@ C# में Aspose.HTML का उपयोग करके HTML स्ट्�
 
 ### [C# में HTML को इमेज के रूप में रेंडर करें – पूर्ण प्रोग्रामिंग गाइड](./render-html-as-image-in-c-complete-programming-guide/)
 C# में Aspose.HTML का उपयोग करके HTML को इमेज फ़ॉर्मेट में बदलने के विस्तृत चरण‑दर‑चरण निर्देश।
+
+### [HTML को प्रतिक्रिया के रूप में लौटाएँ – Aspose.HTML के साथ HTML को कैप्चर करने और भेजने की पूर्ण गाइड](./return-html-as-response-complete-guide-to-capturing-and-send/)
+Aspose.HTML का उपयोग करके HTML को कैप्चर करके HTTP प्रतिक्रिया में भेजने की पूरी प्रक्रिया सीखें।
+
+### [तीव्र छवियों के लिए एंटीएलियासिंग कैसे निष्क्रिय करें – चरण‑दर‑चरण गाइड](./how-to-disable-antialiasing-for-sharper-images-step-by-step/)
+Aspose.HTML में एंटीएलियासिंग को निष्क्रिय करके छवियों को तेज़ और स्पष्ट बनाना सीखें।
+
+### [Aspose.HTML के साथ HTML को इमेज में रेंडर करना – पूर्ण गाइड](./render-html-to-image-with-aspose-html-complete-guide/)
+Aspose.HTML का उपयोग करके HTML को विभिन्न इमेज फ़ॉर्मेट में बदलने की पूरी प्रक्रिया, कोड उदाहरण और टिप्स के साथ।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

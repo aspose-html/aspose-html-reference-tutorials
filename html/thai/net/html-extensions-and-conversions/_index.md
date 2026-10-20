@@ -59,6 +59,8 @@ Aspose.HTML สำหรับ .NET ไม่ใช่แค่ไลบรา�
 เรียนรู้วิธีแปลง HTML เป็น PDF ด้วย C# อย่างละเอียดตามขั้นตอนครบถ้วนในคู่มือเต็มของเรา
 ### [เรนเดอร์ HTML เป็น PDF ใน C# – คู่มือเต็มขั้นตอน](./render-html-as-pdf-in-c-full-step-by-step-guide/)
 เรียนรู้วิธีเรนเดอร์ HTML เป็น PDF ด้วย C# อย่างละเอียดตามขั้นตอนครบถ้วนในคู่มือของเรา
+### [แปลง HTML เป็น PDF ใน C# – บันทึกหน้า HTML เป็น PDF](./convert-html-to-pdf-in-c-save-html-page-as-pdf/)
+เรียนรู้วิธีบันทึกหน้า HTML เป็นไฟล์ PDF ด้วย C# โดยใช้ Aspose.HTML สำหรับ .NET อย่างละเอียดและง่ายดาย
 ### [แปลง EPUB เป็นรูปภาพใน .NET ด้วย Aspose.HTML](./convert-epub-to-image/)
 เรียนรู้วิธีการแปลง EPUB เป็นรูปภาพโดยใช้ Aspose.HTML สำหรับ .NET บทช่วยสอนแบบทีละขั้นตอนพร้อมตัวอย่างโค้ดและตัวเลือกที่ปรับแต่งได้
 ### [แปลง EPUB เป็น PDF ใน .NET ด้วย Aspose.HTML](./convert-epub-to-pdf/)
@@ -83,6 +85,8 @@ Aspose.HTML สำหรับ .NET ไม่ใช่แค่ไลบรา�
 เรียนรู้วิธีแปลง HTML เป็นรูปภาพใน C# อย่างละเอียดด้วย Aspose.HTML คู่มือขั้นตอนเต็มสำหรับนักพัฒนา
 ### [แปลง HTML เป็น PNG ใน C# – แสดงผล HTML เป็นภาพ](./convert-html-to-png-in-c-render-html-as-image/)
 เรียนรู้วิธีแปลง HTML เป็น PNG ใน C# ด้วย Aspose.HTML สำหรับ .NET พร้อมคำแนะนำขั้นตอนและตัวอย่างโค้ด
+### [แปลง HTML เป็นรูปภาพใน C# ด้วย Aspose.HTML](./convert-html-to-image-in-c-step-by-step-guide/)
+เรียนรู้วิธีแปลง HTML เป็นรูปภาพใน C# ด้วย Aspose.HTML ตามขั้นตอนที่ชัดเจนและตัวอย่างโค้ดที่ใช้งานได้
 ### [แปลง HTML เป็น TIFF ใน .NET ด้วย Aspose.HTML](./convert-html-to-tiff/)
 เรียนรู้วิธีแปลง HTML เป็น TIFF ด้วย Aspose.HTML สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อเพิ่มประสิทธิภาพเนื้อหาเว็บอย่างมีประสิทธิภาพ
 ### [แปลง HTML เป็น XPS ใน .NET ด้วย Aspose.HTML](./convert-html-to-xps/)
@@ -96,6 +100,8 @@ Aspose.HTML สำหรับ .NET ไม่ใช่แค่ไลบรา�
 เรียนรู้วิธีบีบอัดไฟล์ HTML เป็น ZIP อย่างละเอียดด้วย C# และ Aspose.HTML สำหรับ .NET ตามขั้นตอนครบถ้วน
 ### [วิธีบีบอัด HTML เป็น Zip ใน C# – คู่มือตัวจัดการทรัพยากรแบบกำหนดเอง](./how-to-zip-html-in-c-custom-resource-handler-guide/)
 เรียนรู้วิธีบีบอัดไฟล์ HTML เป็น Zip ด้วย C# โดยใช้ตัวจัดการทรัพยากรแบบกำหนดเองใน Aspose.HTML สำหรับ .NET
+### [วิธีบีบอัด HTML – คู่มือเต็มสำหรับการส่งออกหน้าเว็บเป็น ZIP](./how-to-zip-html-complete-guide-to-exporting-web-pages-as-zip/)
+เรียนรู้วิธีบีบอัดไฟล์ HTML เป็น ZIP อย่างละเอียดด้วย Aspose.HTML สำหรับ .NET พร้อมขั้นตอนและตัวอย่างโค้ด
 ### [สร้างเอกสาร HTML พร้อมข้อความที่มีสไตล์และส่งออกเป็น PDF – คู่มือเต็ม](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 เรียนรู้วิธีสร้างเอกสาร HTML ที่มีข้อความจัดรูปแบบและแปลงเป็น PDF อย่างละเอียดด้วย Aspose.HTML สำหรับ .NET
 ### [สร้าง PDF จาก HTML – คำแนะนำขั้นตอนโดยขั้นตอน C#](./create-pdf-from-html-c-step-by-step-guide/)

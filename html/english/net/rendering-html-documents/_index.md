@@ -88,6 +88,8 @@ Step‑by‑step C# tutorial showing how to render HTML pages to PNG images usin
 Step‑by‑step guide to create an HTML document and render it to PNG using Aspose.HTML for .NET with complete C# code examples.
 ### [Create HTML Document String and Render to File – C# Guide](./create-html-document-string-and-render-to-file-c-guide/)
 Learn how to create an HTML document from a string and render it to a file using Aspose.HTML for .NET in C#.
+### [Render HTML to Image with Aspose.HTML – Complete Guide](./render-html-to-image-with-aspose-html-complete-guide/)
+Learn how to render HTML to various image formats using Aspose.HTML for .NET with a complete step‑by‑step guide.
 ### [Render EPUB as XPS in .NET with Aspose.HTML](./render-epub-as-xps/)
 Learn how to create and render HTML documents with Aspose.HTML for .NET in this comprehensive tutorial. Dive into the world of HTML manipulation, web scraping, and more.
 
@@ -129,6 +131,10 @@ Learn how to create a memory stream in C#, render HTML with Aspose.HTML, and exp
 Learn how to enable antialiasing when converting HTML to PDF using Aspose.HTML for .NET in C#.
 ### [Render HTML as Image in C# – Complete Programming Guide](./render-html-as-image-in-c-complete-programming-guide/)
 Comprehensive guide to rendering HTML as images in C# using Aspose.HTML for .NET, with code examples and best practices.
+### [Return HTML as Response – Complete Guide to Capturing and Sending HTML with Aspose.HTML](./return-html-as-response-complete-guide-to-capturing-and-send/)
+Learn how to capture HTML output and send it as an HTTP response using Aspose.HTML for .NET in this complete guide.
+### [How to Disable Antialiasing for Sharper Images – Step‑by‑Step Guide](./how-to-disable-antialiasing-for-sharper-images-step-by-step/)
+Learn how to disable antialiasing in Aspose.HTML for .NET to produce sharper images. Follow the step‑by‑step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
