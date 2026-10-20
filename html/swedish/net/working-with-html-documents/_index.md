@@ -26,22 +26,55 @@ Innan vi dyker in i detaljerna för att skapa och redigera HTML-dokument i .NET,
 
 ### [Skapa ett dokument i .NET med Aspose.HTML](./creating-a-document/)
 
-Det första steget i vår resa är att lära sig hur man skapar HTML-dokument från grunden eller från webbadresser med Aspose.HTML. Vi guidar dig genom processen och ser till att även nybörjare kan följa med. I slutet av det här avsnittet har du färdigheterna att skapa HTML-dokument utan ansträngning.
-
 ### [Skapa ett enkelt dokument i .NET med Aspose.HTML](./creating-a-simple-document/)
-
-När du har förstått grunderna kommer vi att gräva djupare i skapelseprocessen. I det här avsnittet kommer du att lära dig hur du skapar enkla HTML-dokument med Aspose.HTML, och vi kommer att utforska olika funktioner som möjliggör enkel manipulation. Oavsett om du bygger en webbsida, genererar innehåll eller konverterar data till HTML, kommer denna handledning att förse dig med nödvändig kunskap.
 
 ### [Redigera ett dokument i .NET med Aspose.HTML](./editing-a-document/)
 
 Låt oss nu ta dina färdigheter till nästa nivå. Att redigera HTML-dokument är en vanlig uppgift för webbutvecklare, och Aspose.HTML förenklar denna process avsevärt. I det här avsnittet kommer vi att ta upp dokumentskapande, manipulering och stil. Du kommer att upptäcka hur du förbättrar utseendet och funktionaliteten hos ditt webbinnehåll, vilket gör det engagerande och användarvänligt.
 
+### [Ladda HTML-dokument med Aspose.HTML – Komplett C#‑guide](./load-html-document-with-aspose-html-complete-c-guide/)
+
+Lär dig hur du laddar HTML-dokument med Aspose.HTML i C# med en steg‑för‑steg‑guide.
+
 ### [Hur man sparar HTML i C# – Komplett guide med en anpassad resurs‑hanterare](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 
 Lär dig spara HTML i C# med en anpassad resurs‑hanterare och generera kompletta HTML‑filer programatiskt.
+
+### [Hur du sparar HTML i C# med anpassad resurs‑hanterare](./how-to-save-html-in-c-with-custom-resource-handler/)
+
+Lär dig spara HTML i C# med en anpassad resurs‑hanterare och generera kompletta HTML‑filer programatiskt.
+### [Hur man sparar HTML – Komplett guide för Aspose HTMLDocument](./how-to-save-html-aspose-htmldocument-complete-guide/)
+
+Lär dig spara HTML med Aspose HTMLDocument och skapa kompletta HTML‑filer programatiskt.
+
 ### [Hur du gör rubriker fetstil med CSS & C# – Komplett steg‑för‑steg‑guide](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 
 Lär dig hur du använder CSS och C# för att göra rubriker fetstilta i dina HTML‑dokument med en steg‑för‑steg‑guide.
+### [Hur man sparar HTML i C# – Anpassade resurs‑hanterare & ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
+
+### [Hur man sparar HTML med Aspose.Html – Komplett C#‑guide](./how-to-save-html-with-aspose-html-complete-c-guide/)
+
+Lär dig spara HTML med Aspose.Html i C# med en komplett steg‑för‑steg‑guide.
+
+### [Spara HTML som ZIP i C# – Komplett guide med anpassad resurs‑hanterare](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
+
+Lär dig hur du sparar HTML-filer som ZIP-arkiv i C# med en anpassad resurs‑hanterare.
+
+### [Hur man sparar HTML med Aspose – Komplett C#‑guide](./how-to-save-html-with-aspose-complete-c-guide/)
+
+### [Hur man zippar HTML i C# – Komplett guide för att skapa ZIP‑arkiv](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
+
+### [Skapa HTML-dokument i C# – Komplett guide med anpassad resurs‑hanterare](./create-html-document-c-complete-guide-with-custom-resource-h/)
+
+Lär dig skapa HTML-dokument i C# med en anpassad resurs‑hanterare och generera kompletta HTML‑filer programatiskt.
+
+### [Skapa HTML från sträng i C# – Steg‑för‑steg‑guide](./create-html-from-string-in-c-step-by-step-guide/)
+
+### [Hur du zippar HTML i C# – Komplett steg‑för‑steg‑guide](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+
+### [Skapa HTML från en sträng i C# – Fullständig guide med minnesström](./create-html-from-string-in-c-full-guide-with-memory-stream/)
+
+### [Hur du sparar HTML i C# – Komplett steg‑för‑steg‑guide](./how-to-save-html-in-c-complete-step-by-step-guide/)
 
 ### [Skapa Zip‑arkiv för HTML – Komplett C#‑guide](./create-zip-archive-for-html-complete-c-guide/)
 

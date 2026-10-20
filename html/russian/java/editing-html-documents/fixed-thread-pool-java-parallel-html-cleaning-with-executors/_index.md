@@ -12,7 +12,7 @@ keywords:
 - executorservice example java
 - load html document
 language: ru
-og_description: Освойте фиксированный пул потоков в Java для удаления тегов <script>
+og_description: Освойте фиксированный пул потоков в Java для удаления тегов `script`
   из HTML‑файлов. Полный пример ExecutorService в Java с шагами загрузки HTML‑документа.
 og_title: Фиксированный пул потоков Java – Руководство по параллельной очистке HTML
 tags:

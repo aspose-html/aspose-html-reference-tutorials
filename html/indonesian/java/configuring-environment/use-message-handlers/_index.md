@@ -1,10 +1,16 @@
 ---
-date: 2026-02-10
-description: Pelajari cara menggunakan Aspose untuk menangani tautan rusak di Java,
-  mengonversi HTML ke PNG, dan memuat dokumen HTML Java dengan Aspose.HTML untuk Java.
-linktitle: Use Message Handlers in Aspose.HTML
+date: 2026-05-04
+description: Pelajari cara melakukan konversi HTML ke PNG, menyadap permintaan jaringan
+  Java, dan menangani tautan rusak Java menggunakan Aspose.HTML untuk Java.
+keywords:
+- html to png conversion
+- intercept network requests java
+- html to image conversion
+- load html document java
+- handle broken links java
+linktitle: Gunakan Penangan Pesan di Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
-title: Konversi HTML ke PNG dengan Penangan Pesan Aspose.HTML di Java
+title: Konversi HTML ke PNG dengan Handler Pesan Aspose.HTML di Java
 url: /id/java/configuring-environment/use-message-handlers/
 weight: 12
 ---
@@ -13,36 +19,40 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mengonversi HTML ke PNG dengan Aspose.HTML Message Handlers di Java
+# Konversi HTML ke PNG dengan Penangan Pesan Aspose.HTML di Java
 
-## Pendahuluan
-Dalam tutorial ini Anda akan menemukan **cara mengonversi HTML ke PNG** sambil menangani sumber daya yang hilang secara elegan menggunakan Aspose.HTML untuk Java. Kami akan memandu Anda membuat halaman HTML kecil yang merujuk ke gambar yang tidak ada, menyambungkan **custom message handler** untuk **mencegat permintaan jaringan**, mengonfigurasi **network service**, memuat dokumen, dan akhirnya melakukan **html to image conversion**. Pada akhir tutorial Anda akan memiliki pola yang solid untuk **handle broken links java** serta output PNG berkualitas tinggi—sempurna untuk laporan, thumbnail, atau pratinjau email.
+## Pendahuluan tentang Konversi HTML ke PNG
+Dalam tutorial ini Anda akan menemukan **cara mengonversi HTML ke PNG** sambil menangani sumber daya yang hilang secara elegan menggunakan Aspose.HTML untuk Java. Kami akan memandu Anda membuat halaman HTML kecil yang mengarah ke gambar yang tidak ada, menyambungkan **custom message handler** untuk **menyadap permintaan jaringan**, mengonfigurasi **network service**, memuat dokumen, dan akhirnya melakukan **html to image conversion**. Pada akhir tutorial Anda akan memiliki pola yang solid untuk **handle broken links java** dan output PNG berkualitas tinggi—sempurna untuk laporan, thumbnail, atau pratinjau email.
 
 ## Jawaban Cepat
-- **Apa yang dilakukan message handler?** Ia mencegat operasi jaringan (seperti permintaan gambar) dan memungkinkan Anda merespons kode status seperti 404.  
+- **Apa yang dilakukan penangan pesan?** Ia menyadap operasi jaringan (seperti permintaan gambar) dan memungkinkan Anda merespons kode status seperti 404.  
 - **Apakah Aspose.HTML dapat mengonversi HTML ke PNG?** Ya—`Converter.convertHTML` melakukan konversi dalam satu panggilan.  
 - **Apakah saya memerlukan lisensi untuk contoh ini?** Lisensi sementara menghapus batas evaluasi; lisensi permanen diperlukan untuk penggunaan produksi.  
-- **Versi Java mana yang kompatibel?** Semua JDK 8+ (contoh berjalan pada JDK 11).  
-- **Bisakah saya mengonfigurasi network service?** Tentu—gunakan `configuration.getService(INetworkService.class)` untuk menambahkan handler Anda.
+- **Versi Java mana yang bekerja?** Semua JDK 8+ (contoh berjalan pada JDK 11).  
+- **Bisakah saya mengonfigurasi layanan jaringan?** Tentu—gunakan `configuration.getService(INetworkService.class)` untuk menambahkan penangan Anda.
+
+## Apa Itu Konversi HTML ke PNG?
+Konversi HTML ke PNG merender halaman web (atau fragmen HTML) menjadi gambar raster. Ini berguna ketika Anda memerlukan pratinjau statis dari konten dinamis, menghasilkan thumbnail untuk buletin email, atau mengarsipkan halaman web sebagai gambar.
+
+## Mengapa Menggunakan Penangan Pesan untuk Menyadap Permintaan Jaringan di Java?
+Penangan pesan memberi Anda **kontrol halus** atas setiap permintaan jaringan—baik itu gambar, CSS, JavaScript, atau file font. Dengan menyadap permintaan ini Anda dapat **mencatat aset yang hilang**, menyediakan konten cadangan, atau bahkan mencoba kembali unduhan yang gagal, menjadikan pipeline pemrosesan HTML Anda **tangguh** dan **siap produksi**.
 
 ## Prasyarat
-Sebelum kita mulai, pastikan Anda telah menyiapkan hal‑hal berikut:
-
-1. **Java Development Kit (JDK)** – unduh dari [situs Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).  
-2. **Aspose.HTML for Java** – dapatkan perpustakaan dari [halaman rilis Aspose](https://releases.aspose.com/html/java/).  
-3. **IDE** – IntelliJ IDEA, Eclipse, atau NetBeans dapat digunakan.  
-4. **Pengetahuan dasar Java** – Anda harus nyaman dengan kelas, try‑with‑resources, dan penanganan pengecualian.  
-5. **Lisensi Sementara** – jika Anda masih dalam masa percobaan, dapatkan [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk menghindari watermark.
+1. **Java Development Kit (JDK)** – unduh dari [Oracle website](https://www.oracle.com/java/technologies/javase-downloads.html).  
+2. **Aspose.HTML for Java** – dapatkan perpustakaan dari [Aspose releases page](https://releases.aspose.com/html/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse, atau NetBeans works fine.  
+4. **Basic Java knowledge** – Anda harus nyaman dengan kelas, try‑with‑resources, dan penanganan pengecualian.  
+5. **Temporary License** – jika Anda berada dalam masa percobaan, dapatkan [temporary license](https://purchase.aspose.com/temporary-license/) untuk menghindari watermark.
 
 ## Impor Paket
-Pertama, tarik kelas Java I/O yang akan kita gunakan untuk penanganan file. Sisanya kelas Aspose akan direferensikan dengan nama lengkap nanti, sehingga daftar impor tetap rapi.
+Pertama, tarik kelas Java I/O yang akan kita perlukan untuk penanganan file. Sisanya kelas Aspose direferensikan dengan nama lengkap nanti, menjaga daftar impor tetap rapi.
 
 ```java
 import java.io.IOException;
 ```
 
 ## Langkah 1: Siapkan Kode HTML
-Kami membuat potongan HTML minimal yang secara sengaja merujuk ke gambar yang tidak ada. Ini akan memicu handler kami ketika mesin mencoba mengambil sumber daya tersebut.
+Kami membuat potongan HTML minimal yang sengaja merujuk ke gambar yang tidak ada. Ini akan memicu penangan kami ketika mesin mencoba mengambil sumber daya tersebut.
 
 ```java
 String code = "<img src='missing.jpg'>";
@@ -57,8 +67,8 @@ try (java.io.FileWriter fileWriter = new java.io.FileWriter("document.html")) {
 }
 ```
 
-## Langkah 3: Tulis Message Handler Kustom
-Sekarang kami membangun **custom message handler** yang memeriksa status HTTP setiap permintaan jaringan. Jika respons bukan `200`, kami mencatat peringatan yang bersahabat. Perhatikan pemanggilan `invoke(context);` di akhir—ini meneruskan permintaan ke handler berikutnya dalam rantai, mencegah rekursi.
+## Langkah 3: Tulis Penangan Pesan Kustom
+Sekarang kami membangun **custom message handler** yang memeriksa status HTTP setiap permintaan jaringan. Jika respons bukan `200`, kami mencatat peringatan yang ramah. Perhatikan pemanggilan `invoke(context);` di akhir—ini meneruskan permintaan ke penangan berikutnya dalam rantai, mencegah rekursi.
 
 ```java
 com.aspose.html.net.MessageHandler handler = new com.aspose.html.net.MessageHandler() {
@@ -73,7 +83,7 @@ com.aspose.html.net.MessageHandler handler = new com.aspose.html.net.MessageHand
 ```
 
 ## Langkah 4: Konfigurasikan Layanan Jaringan
-Agar Aspose.HTML menyadari handler kami, kami mengambil **network service** dari instance `Configuration` dan menambahkan handler ke koleksinya. Ini adalah langkah di mana kami **configure network service** untuk perilaku khusus.
+Agar Aspose.HTML menyadari penangan kami, kami mengambil **network service** dari instance `Configuration` dan menambahkan penangan ke koleksinya. Ini adalah langkah di mana kami **configure network service** untuk perilaku khusus.
 
 ```java
 com.aspose.html.Configuration configuration = new com.aspose.html.Configuration();
@@ -83,7 +93,7 @@ try {
 ```
 
 ## Langkah 5: Muat Dokumen HTML
-Dengan konfigurasi siap, kami memuat *document.html*. Mesin kini menggunakan network service kami, sehingga permintaan gambar yang hilang diintersep oleh handler yang baru saja kami tambahkan.
+Dengan konfigurasi siap, kami memuat *document.html*. Mesin kini menggunakan layanan jaringan kami, sehingga permintaan gambar yang hilang disadap oleh penangan yang baru saja kami tambahkan.
 
 ```java
 com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument("document.html", configuration);
@@ -97,7 +107,7 @@ try {
 ```
 
 ## Langkah 6: Konversi HTML ke PNG
-Berikut inti proses **html to image conversion**. Metode `Converter.convertHTML` menerima `HTMLDocument` yang telah dimuat, opsional `ImageSaveOptions` (di mana Anda dapat menyesuaikan DPI atau kualitas), dan nama file output.
+Berikut inti dari proses **html to image conversion**. Metode `Converter.convertHTML` menerima `HTMLDocument` yang telah dimuat, `ImageSaveOptions` opsional (di mana Anda dapat menyesuaikan DPI atau kualitas), dan nama file output.
 
 ```java
 com.aspose.html.converters.Converter.convertHTML(
@@ -118,38 +128,32 @@ Praktik Java yang baik menuntut kita melepaskan semua sumber daya native. Blok `
 }
 ```
 
-## Mengapa Menggunakan Message Handlers?
-Message handlers memberi Anda **kontrol halus** atas setiap permintaan jaringan—baik itu gambar, CSS, JavaScript, atau file font. Alih‑alih membiarkan perpustakaan gagal secara diam‑diam, Anda dapat mencatat aset yang hilang, menyediakan konten fallback, atau bahkan mencoba kembali permintaan. Ini membuat pipeline pemrosesan HTML Anda **robust**, **siap produksi**, dan lebih mudah untuk debug.
-
 ## Masalah Umum dan Solusinya
-- **Rekursi handler** – Panggil `invoke(context);` hanya sekali untuk menghindari loop tak berujung.  
-- **Lisensi tidak ada** – Tanpa lisensi yang valid, PNG output akan berisi watermark.  
-- **Path file tidak tepat** – Gunakan path absolut atau atur direktori kerja dengan benar saat memuat `document.html`.  
-- **Tipe sumber daya tidak didukung** – Pastikan sumber daya yang ingin Anda intercept (gambar, CSS, dll.) memang diminta oleh mesin HTML.
+- **Handler recursion** – Panggil `invoke(context);` hanya sekali untuk menghindari loop tak terbatas.  
+- **Missing license** – Tanpa lisensi yang valid PNG output akan berisi watermark.  
+- **Incorrect file paths** – Gunakan jalur absolut atau atur direktori kerja dengan benar saat memuat `document.html`.  
+- **Unsupported resource types** – Pastikan sumber daya yang ingin Anda sadap (gambar, CSS, dll.) memang diminta oleh mesin HTML.
 
 ## Pertanyaan yang Sering Diajukan
 
-**T: Bisakah saya menambahkan beberapa message handler?**  
-J: Ya, Anda dapat menambahkan beberapa handler ke koleksi `network.getMessageHandlers()`; mereka akan dieksekusi sesuai urutan penambahan.
+**Q: Can I chain multiple message handlers?**  
+A: Yes, you can add several handlers to the `network.getMessageHandlers()` collection; they will be executed in the order added.
 
-**T: Apakah handler bekerja untuk sumber daya CSS atau script juga?**  
-J: Tentu—setiap permintaan jaringan yang dibuat oleh mesin HTML (gambar, CSS, JS, font) melewati handler.
+**Q: Does the handler work for CSS or script resources as well?**  
+A: Absolutely—any network request made by the HTML engine (images, CSS, JS, fonts) passes through the handler.
 
-**T: Bagaimana cara mengubah permintaan HTTP sebelum dikirim?**  
-J: Implementasikan handler yang memodifikasi `context.getRequest()` sebelum memanggil `invoke(context)`.
+**Q: How do I change the HTTP request before it’s sent?**  
+A: Implement a handler that modifies `context.getRequest()` before calling `invoke(context)`.
 
-**T: Apakah ada cara menonaktifkan peringatan untuk URL tertentu?**  
-J: Di dalam handler, periksa `context.getRequest().getRequestUri()` dan lewati pencatatan secara kondisional.
+**Q: Is there a way to suppress the warning for specific URLs?**  
+A: Inside the handler, inspect `context.getRequest().getRequestUri()` and conditionally skip the log.
 
-**T: Versi Aspose.HTML apa yang diperlukan untuk API ini?**  
-J: Kode ini bekerja dengan Aspose.HTML for Java 22.10 ke atas.
-
-## Kesimpulan
-Anda kini memiliki contoh lengkap end‑to‑end tentang **cara mengonversi HTML ke PNG** sambil menggunakan **custom message handler** untuk **mencegat permintaan jaringan** dan **handle broken links java**. Dengan mengonfigurasi network service, memuat dokumen, dan memanggil konverter, Anda dapat secara andal menghasilkan thumbnail PNG atau screenshot halaman penuh dalam aplikasi Java apa pun.
+**Q: What version of Aspose.HTML is required for these APIs?**  
+A: The code works with Aspose.HTML for Java 22.10 and later.
 
 ---
 
-**Terakhir Diperbarui:** 2026-02-10  
+**Terakhir Diperbarui:** 2026-05-04  
 **Diuji Dengan:** Aspose.HTML for Java 24.11  
 **Penulis:** Aspose  
 

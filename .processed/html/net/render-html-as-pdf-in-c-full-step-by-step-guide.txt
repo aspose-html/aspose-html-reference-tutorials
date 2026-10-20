@@ -1,0 +1,7 @@
+Title: Render HTML as PDF in C# – Full Step‑by‑Step Guide
+Slug: render-html-as-pdf-in-c-full-step-by-step-guide
+Category: html-extensions-and-conversions
+ProcessedDate: 2026-05-22T15:19:09.568278
+SourceRepo: AI Search API
+Keywords: render html as pdf, convert html to pdf c#, generate pdf from html file, create pdf from html c#, save html document as pdf
+PRNumber: 159
