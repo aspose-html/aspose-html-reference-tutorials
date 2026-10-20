@@ -115,6 +115,14 @@ Aspose.HTML для .NET предлагает простой метод прео�
 Подробное руководство по стилизации HTML и рендерингу в PNG с использованием Aspose.HTML и C#.
 ### [Установка ширины и высоты изображения при конвертации Word в PNG – Полное руководство](./set-image-width-height-when-converting-word-to-png-full-guid/)
 Подробное руководство по задаванию размеров изображения при преобразовании документов Word в PNG с помощью Aspose.HTML для .NET.
+### [Создание PNG из HTML – Полное пошаговое руководство](./create-png-from-html-full-step-by-step-guide/)
+Подробное руководство по созданию PNG‑изображений из HTML с использованием Aspose.HTML для .NET.
+### [Создание PNG из HTML с Aspose.HTML – рендеринг HTML в PNG](./create-png-from-html-with-aspose-render-html-to-png/)
+Узнайте, как с помощью Aspose.HTML преобразовать HTML‑страницу в PNG‑изображение.
+### [Конвертация Word‑документа в PNG – Полное руководство по программированию](./convert-word-document-to-png-complete-programming-guide/)
+Узнайте, как преобразовать документы Word в PNG‑изображения с помощью Aspose.HTML для .NET, следуя полному пошаговому руководству.
+### [Рендеринг HTML в PNG – Полное руководство с пользовательскими обработчиками и параметрами](./render-html-to-png-complete-guide-with-custom-handlers-optio/)
+Подробное руководство по рендерингу HTML в PNG с использованием пользовательских обработчиков и настройкой параметров вывода.
 
 ## Заключение
 

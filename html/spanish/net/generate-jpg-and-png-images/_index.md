@@ -113,6 +113,12 @@ Aprenda a generar archivos PNG desde HTML con una guía completa paso a paso en 
 Aprenda a aplicar estilos CSS a HTML y generar imágenes PNG usando Aspose.HTML en C# paso a paso.
 ### [Establecer ancho y alto de la imagen al convertir Word a PNG – Guía completa](./set-image-width-height-when-converting-word-to-png-full-guid/)
 Aprenda a definir el ancho y alto de la imagen al convertir documentos Word a PNG usando Aspose.HTML para .NET.
+### [Crear PNG a partir de HTML con Aspose – renderizar HTML a PNG](./create-png-from-html-with-aspose-render-html-to-png/)
+Aprenda a generar imágenes PNG a partir de contenido HTML usando Aspose.HTML y su motor de renderizado.
+### [Convertir documento Word a PNG – Guía completa de programación](./convert-word-document-to-png-complete-programming-guide/)
+Aprende a convertir documentos Word a imágenes PNG paso a paso con Aspose.HTML para .NET.
+### [Renderizar HTML a PNG – Guía completa con controladores personalizados y opciones](./render-html-to-png-complete-guide-with-custom-handlers-optio/)
+Aprenda a renderizar HTML a PNG usando Aspose.HTML con controladores personalizados y opciones avanzadas.
 
 ## Conclusión
 

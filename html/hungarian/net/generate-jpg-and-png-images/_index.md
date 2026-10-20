@@ -115,6 +115,11 @@ Ismerje meg, hogyan hozhat létre képet HTML-ből az Aspose.HTML használatáva
 Ismerje meg, hogyan formázhatja a HTML-t és renderelheti PNG-ként C#-ban az Aspose.HTML segítségével.
 ### [Kép szélesség és magasság beállítása Word PNG konvertálásakor – Teljes útmutató](./set-image-width-height-when-converting-word-to-png-full-guid/)
 Ismerje meg, hogyan állíthatja a kép méretét Word dokumentum PNG-re konvertálásakor az Aspose.HTML for .NET segítségével.
+### [PNG létrehozása HTML-ből Aspose-szal – HTML renderelése PNG-be](./create-png-from-html-with-aspose-render-html-to-png/)
+Ismerje meg, hogyan konvertálhat HTML-t PNG képpé az Aspose.HTML for .NET segítségével.
+### [Word dokumentum konvertálása PNG-re – Teljes programozási útmutató](./convert-word-document-to-png-complete-programming-guide/)
+Ismerje meg, hogyan konvertálhat Word dokumentumokat PNG képekké az Aspose.HTML for .NET segítségével, lépésről lépésre útmutató.
+### [HTML renderelése PNG-be – Teljes útmutató egyedi kezelőkkel és beállításokkal](./render-html-to-png-complete-guide-with-custom-handlers-optio/)
 
 ## Következtetés
 

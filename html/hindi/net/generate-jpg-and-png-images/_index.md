@@ -119,6 +119,14 @@ HTML को PNG में बदलने के लिए C# में पू�
 HTML को स्टाइल करके PNG में बदलने के लिए C# में पूर्ण चरण-दर-चरण मार्गदर्शिका।
 ### [Word को PNG में परिवर्तित करते समय इमेज की चौड़ाई और ऊँचाई सेट करें – पूर्ण गाइड](./set-image-width-height-when-converting-word-to-png-full-guid/)
 Word दस्तावेज़ को PNG में बदलते समय इमेज की चौड़ाई और ऊँचाई कैसे निर्धारित करें, इस पूर्ण गाइड में सीखें।
+### [HTML से PNG बनाएं – पूर्ण चरण-दर-चरण गाइड](./create-png-from-html-full-step-by-step-guide/)
+HTML को PNG इमेज में बदलने की पूरी प्रक्रिया सीखें, सभी आवश्यक चरणों के साथ।
+### [Aspose के साथ HTML से PNG बनाएं – HTML को PNG में रेंडर करें](./create-png-from-html-with-aspose-render-html-to-png/)
+Aspose का उपयोग करके HTML को PNG इमेज में बदलने की प्रक्रिया सीखें।
+### [HTML को PNG में रेंडर करें – कस्टम हैंडलर्स और विकल्पों के साथ पूर्ण गाइड](./render-html-to-png-complete-guide-with-custom-handlers-optio/)
+कस्टम हैंडलर्स और विभिन्न विकल्पों का उपयोग करके HTML को PNG इमेज में बदलने की पूरी प्रक्रिया सीखें।
+### [Word दस्तावेज़ को PNG में परिवर्तित करें – पूर्ण प्रोग्रामिंग गाइड](./convert-word-document-to-png-complete-programming-guide/)
+C# में Word फ़ाइलों को PNG छवियों में बदलने की पूरी प्रक्रिया सीखें, कोड उदाहरण और चरण-दर-चरण निर्देशों के साथ।
 
 ## निष्कर्ष
 
