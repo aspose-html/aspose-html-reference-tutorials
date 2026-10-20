@@ -40,6 +40,9 @@ Ať už jste zkušený vývojář nebo teprve začínáte svou cestu k vykreslov
 
 Nyní, když máte Aspose.HTML pro .NET nastaveno, je čas prozkoumat výukové programy, které vám pomohou zvládnout vykreslování HTML. Níže je uveden seznam výukových programů, které pokrývají různé aspekty vykreslování HTML dokumentů:
 
+### [Renderujte HTML jako obrázek v C# – Kompletní programovací průvodce](./render-html-as-image-in-c-complete-programming-guide/)
+Kompletní průvodce v C#, jak pomocí Aspose.HTML převést HTML do obrázku s podrobnými ukázkami a tipy.
+
 ### [Renderujte HTML jako PNG v .NET pomocí Aspose.HTML](./render-html-as-png/)
 Naučte se pracovat s Aspose.HTML pro .NET: Manipulujte s HTML, převádějte do různých formátů a další. Ponořte se do tohoto komplexního tutoriálu!
 ### [Renderujte HTML do PNG v C# – Kompletní krok‑za‑krokem průvodce](./render-html-to-png-in-c-complete-step-by-step-guide/)
@@ -147,6 +150,9 @@ Rychlý a spolehlivý návod, jak pomocí Aspose.HTML v .NET převést HTML do P
 
 ### [Vytvořte HTML dokument a vykreslete HTML do PNG – Kompletní průvodce C#](./create-html-document-and-render-html-to-png-full-c-guide/)
 Kompletní průvodce v C#, jak vytvořit HTML dokument a převést jej do PNG pomocí Aspose.HTML.
+
+### [Vytvořte řetězec HTML dokumentu a vykreslete do souboru – C# průvodce](./create-html-document-string-and-render-to-file-c-guide/)
+Naučte se pomocí Aspose.HTML v .NET vytvořit HTML jako řetězec a uložit jej do souboru pomocí C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

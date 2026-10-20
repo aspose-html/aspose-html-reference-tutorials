@@ -93,6 +93,8 @@ Aprenda a combinar texto en negrita y cursiva en HTML usando C#. Guía paso a pa
 Aprenda a guardar documentos HTML usando Aspose.HTML con una guía paso a paso.
 ### [Aplicar estilo de fuente programáticamente – Guía rápida de C#](./apply-font-style-programmatically-quick-c-guide/)
 Aprenda a aplicar estilos de fuente a documentos HTML mediante código C# con Aspose.HTML.
+### [Cómo crear HTML con texto con estilo – Guía completa en C#](./how-to-create-html-with-styled-text-complete-c-guide/)
+Aprenda a generar HTML con texto formateado usando Aspose.HTML en C#. Guía paso a paso con ejemplos completos.
 
 ## Conclusión
 

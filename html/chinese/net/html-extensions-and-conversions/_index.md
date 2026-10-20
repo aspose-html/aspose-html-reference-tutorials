@@ -59,6 +59,8 @@ Aspose.HTML for .NET 不仅仅是一个库；它是 Web 开发领域的变革者
 
 ### [使用 Aspose 将 HTML 转换为 PDF – 步骤指南](./convert-html-to-pdf-with-aspose-step-by-step-guide/)
 使用 Aspose 将 HTML 转换为 PDF 的完整分步指南，帮助您轻松实现高质量文档生成。
+### [HTML 转 PDF 教程 – 使用 Aspose 将 HTML 转换为 PDF](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose/)
+通过本教程，学习如何使用 Aspose.HTML 将 HTML 文档转换为高质量的 PDF 文件，包含完整代码示例和步骤说明。
 ### [使用 Aspose.HTML 在 .NET 中将 EPUB 转换为图像](./convert-epub-to-image/)
 了解如何使用 Aspose.HTML for .NET 将 EPUB 转换为图像。带有代码示例和可自定义选项的分步教程。
 
@@ -216,6 +218,10 @@ Aspose.HTML for .NET 不仅仅是一个库；它是 Web 开发领域的变革者
 
 ### [使用 Aspose.HTML 在 C# 中将 HTML 转换为 PDF – 完整分步指南](./create-pdf-from-html-in-c-full-step-by-step-guide/)
 使用 Aspose.HTML for .NET 在 C# 中将 HTML 转换为 PDF 的完整分步指南，包含代码示例与最佳实践。
+### [如何在 C# 中使用 ZipArchive – 将 HTML 保存为 ZIP](./how-to-use-ziparchive-in-c-save-html-as-zip/)
+演示如何使用 C# 的 ZipArchive 将 HTML 内容压缩并保存为 ZIP 文件的完整步骤。
+### [使用 Aspose.HTML 在 .NET 中将 HTML 保存为 ZIP 并渲染为 PNG – 完整 C# 指南](./save-html-to-zip-and-render-html-to-png-complete-c-guide/)
+演示如何使用 Aspose.HTML for .NET 将 HTML 内容压缩为 ZIP 并渲染为 PNG，完整的 C# 示例，包含关键步骤和代码演示。
 
 ## 结论
 

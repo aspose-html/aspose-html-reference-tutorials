@@ -205,6 +205,12 @@ url: /ar/net/html-extensions-and-conversions/
 دليل شامل لكيفية ضغط ملفات HTML المستخرجة من مستند DOCX باستخدام C# ومكتبة Aspose.HTML.
 ### [إنشاء مخرجات HTML باستخدام Aspose.HTML – دليل كامل بلغة C#](./generate-html-output-with-aspose-html-full-c-guide/)
 دليل شامل لإنشاء ملفات HTML باستخدام Aspose.HTML في C# مع أمثلة خطوة بخطوة.
+### [كيفية استخدام ZipArchive في C# – حفظ HTML كملف ZIP](./how-to-use-ziparchive-in-c-save-html-as-zip/)
+تعلم كيفية استخدام ZipArchive لحفظ مستند HTML كملف ZIP في C# باستخدام Aspose.HTML.
+### [حفظ HTML كملف ZIP وتحويل HTML إلى PNG – دليل C# كامل](./save-html-to-zip-and-render-html-to-png-complete-c-guide/)
+دليل شامل يوضح كيفية حفظ مستند HTML كملف ZIP ثم تحويله إلى صورة PNG باستخدام C# و Aspose.HTML.
+### [دروس HTML إلى PDF – تحويل HTML إلى PDF باستخدام Aspose](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose/)
+تعلم كيفية تحويل ملفات HTML إلى PDF بسهولة باستخدام مكتبة Aspose.HTML في .NET.
 
 ## خاتمة
 

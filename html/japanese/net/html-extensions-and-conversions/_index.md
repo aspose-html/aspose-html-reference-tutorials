@@ -38,8 +38,6 @@ Aspose.HTML for .NET は単なるライブラリではありません。Web 開�
 
 ## HTML 拡張と変換のチュートリアル
 ### [Aspose.HTML を使用して .NET で HTML を PDF に変換する](./convert-html-to-pdf/)
-Aspose.HTML for .NET を使用すると、HTML を PDF に簡単に変換できます。ステップ バイ ステップ ガイドに従って、HTML から PDF への変換のパワーを解放しましょう。
-
 ### [C# で HTML を PDF に変換する – 完全 Aspose ガイド](./convert-html-to-pdf-in-c-full-aspose-guide/)
 Aspose.HTML for .NET を使い、C# で HTML を PDF に変換する完全ガイドです。ステップバイステップで手順を解説します。
 
@@ -90,7 +88,6 @@ Aspose.HTML for .NET を使用して、スタイル付きテキストを含む H
 ### [Aspose.HTML を使用して .NET で HTML を GIF に変換する](./convert-html-to-gif/)
 ### [Aspose.HTML を使用して .NET で HTML を JPEG に変換する](./convert-html-to-jpeg/)
 ### [Aspose.HTML を使用して .NET で HTML を Markdown に変換する](./convert-html-to-markdown/)
-効率的なコンテンツ操作のために、Aspose.HTML を使用して、.NET で HTML を Markdown に変換する方法を学びます。シームレスな変換プロセスのためのステップバイステップのガイダンスを入手します。
 ### [Aspose.HTML を使用して .NET で HTML を MHTML に変換する](./convert-html-to-mhtml/)
 Aspose.HTML を使用して、.NET で HTML を MHTML に変換する - 効率的な Web コンテンツのアーカイブ化のためのステップバイステップ ガイド。Aspose.HTML for .NET を使用して MHTML アーカイブを作成する方法を学習します。
 ### [Aspose.HTML を使用して .NET で HTML を PNG に変換する](./convert-html-to-png/)
@@ -227,6 +224,9 @@ Aspose.HTML for .NET を使用して、C# で HTML 出力を生成する手順�
 
 ### [C# で HTML を ZIP に保存 – 完全ガイド](./save-html-as-zip-in-c-complete-guide/)
 Aspose.HTML for .NET を利用し、C# で HTML を ZIP に保存する完全ガイドをステップバイステップで紹介します。
+### [C# で ZipArchive を使用して HTML を ZIP に保存する](./how-to-use-ziparchive-in-c-save-html-as-zip/)
+### [HTML を ZIP に保存し、PNG にレンダリングする – 完全 C# ガイド](./save-html-to-zip-and-render-html-to-png-complete-c-guide/)
+### [HTML を PDF に変換するチュートリアル – Aspose で HTML を PDF に変換](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose/)
 
 ## 結論
 

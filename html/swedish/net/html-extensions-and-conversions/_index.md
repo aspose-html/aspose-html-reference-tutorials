@@ -58,6 +58,8 @@ Lär dig konvertera en webbadress till PDF med en enda rad kod i C# med Aspose.H
 Lär dig konvertera HTML till PDF i C# med Aspose i en komplett steg‑för‑steg‑guide.
 ### [Konvertera HTML till PDF med Aspose – Steg‑för‑steg‑guide](./convert-html-to-pdf-with-aspose-step-by-step-guide/)
 Lär dig hur du konverterar HTML till PDF med Aspose i en detaljerad steg‑för‑steg‑guide.
+### [HTML till PDF‑handledning – Konvertera HTML till PDF med Aspose](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose/)
+Lär dig hur du konverterar HTML till PDF med Aspose i en steg‑för‑steg‑guide.
 ### [Konvertera EPUB till bild i .NET med Aspose.HTML](./convert-epub-to-image/)
 Lär dig hur du konverterar EPUB till bilder med Aspose.HTML för .NET. Steg-för-steg handledning med kodexempel och anpassningsbara alternativ.
 ### [Konvertera EPUB till PDF i .NET med Aspose.HTML](./convert-epub-to-pdf/)
@@ -104,6 +106,8 @@ Lär dig hur du zippar HTML i C# med en tydlig steg‑för‑steg‑guide.
 Lär dig hur du zippar HTML i C# med en komplett steg‑för‑steg‑guide och Aspose.HTML för .NET.
 ### [Hur du zippar HTML i C# – guide för anpassad resurs‑hanterare](./how-to-zip-html-in-c-custom-resource-handler-guide/)
 Lär dig hur du packar HTML-filer i ett ZIP‑arkiv med en anpassad resurs‑hanterare i C# och Aspose.HTML för .NET.
+### [Hur man använder ZipArchive i C# – Spara HTML som ZIP](./how-to-use-ziparchive-in-c-save-html-as-zip/)
+Lär dig hur du använder ZipArchive i C# för att packa HTML-filer i ett ZIP‑arkiv med Aspose.HTML för .NET.
 ### [Skapa HTML-dokument med formaterad text och exportera till PDF – Fullständig guide](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Lär dig skapa ett HTML-dokument med stiliserad text och konvertera det till PDF med Aspose.HTML för .NET i en komplett steg-för-steg-guide.
 ### [Skapa HTML-dokument C# – Steg‑för‑steg‑guide](./create-html-document-c-step-by-step-guide/)
@@ -199,6 +203,8 @@ Lär dig hur du sparar HTML som ZIP i C# med en komplett Aspose.HTML-guide, inkl
 Lär dig konvertera HTML till ZIP med en komplett C#-guide, inklusive kodexempel och steg‑för‑steg‑instruktioner.
 ### [Hur du zippar HTML från DOCX – Komplett C#-guide](./how-to-zip-html-from-docx-complete-c-guide/)
 Lär dig hur du zippar HTML som extraheras från DOCX-filer med en komplett C#‑guide och kodexempel.
+### [Spara HTML till ZIP och rendera HTML till PNG – Komplett C#-guide](./save-html-to-zip-and-render-html-to-png-complete-c-guide/)
+Lär dig hur du sparar HTML som ZIP och renderar HTML till PNG i en komplett C#-handledning med kodexempel.
 
 ## Slutsats
 

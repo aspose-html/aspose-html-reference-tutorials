@@ -134,6 +134,10 @@ Aprenda a ativar antialiasing ao converter HTML para PDF usando Aspose.HTML para
 
 ### [Criar documento HTML e renderizar HTML para PNG – Guia completo em C#](./create-html-document-and-render-html-to-png-full-c-guide/)
 Aprenda a criar documentos HTML e renderizá-los como PNG usando Aspose.HTML para .NET com um guia completo em C#.
+### [Criar String de Documento HTML e Renderizar para Arquivo – Guia C#](./create-html-document-string-and-render-to-file-c-guide/)
+Aprenda a gerar um documento HTML a partir de uma string e renderiz‑lo em um arquivo usando Aspose.HTML para .NET em C#.
+### [Renderizar HTML como Imagem em C# – Guia Completo de Programação](./render-html-as-image-in-c-complete-programming-guide/)
+Aprenda a converter HTML em imagens usando Aspose.HTML para .NET com um guia completo em C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

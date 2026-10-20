@@ -148,6 +148,12 @@ Apprenez à convertir rapidement et de façon fiable du HTML en images PNG avec 
 ### [Rendre le HTML en PNG en C# – Guide complet étape par étape](./render-html-to-png-in-c-complete-step-by-step-guide/)
 Apprenez à convertir du HTML en images PNG en C# grâce à ce guide complet et détaillé.
 
+### [Créer une chaîne de document HTML et la rendre dans un fichier – Guide C#](./create-html-document-string-and-render-to-file-c-guide/)
+Apprenez à créer un document HTML à partir d'une chaîne et à le rendre dans un fichier avec Aspose.HTML pour .NET en C#.
+
+### [Rendre le HTML en image en C# – Guide complet de programmation](./render-html-as-image-in-c-complete-programming-guide/)
+Apprenez à convertir du HTML en images avec C# grâce à ce guide complet de programmation.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

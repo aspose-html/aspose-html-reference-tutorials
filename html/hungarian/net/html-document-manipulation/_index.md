@@ -92,6 +92,8 @@ Ismerje meg, hogyan állíthat be betűstílust HTML-ben az Aspose.Html C# API-j
 ### [Félkövér és dőlt kombinálása HTML-ben C#-al – Teljes útmutató](./combine-bold-and-italic-in-html-with-c-complete-guide/)
 ### [Betűstílus alkalmazása programozottan – Gyors C# útmutató](./apply-font-style-programmatically-quick-c-guide/)
 Ismerje meg, hogyan alkalmazhat betűstílusokat C#-ban programozottan az Aspose.HTML segítségével.
+### [HTML létrehozása formázott szöveggel – Teljes C# útmutató](./how-to-create-html-with-styled-text-complete-c-guide/)
+Ismerje meg, hogyan hozhat létre HTML-t formázott szöveggel C#-ban, részletes példákkal és magyarázatokkal.
 
 ## Következtetés
 

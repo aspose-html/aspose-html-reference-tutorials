@@ -93,6 +93,8 @@ C#와 Aspose.HTML을 활용해 HTML 텍스트를 굵게와 기울임으로 동�
 Aspose.HTML for .NET을 사용해 HTML 파일을 저장하는 방법을 단계별로 안내합니다.
 ### [프로그래밍으로 글꼴 스타일 적용 – 빠른 C# 가이드](./apply-font-style-programmatically-quick-c-guide/)
 Aspose.HTML for .NET을 사용하여 글꼴 스타일을 프로그래밍 방식으로 적용하는 방법을 단계별로 안내합니다.
+### [스타일이 적용된 텍스트로 HTML 만들기 – 완전한 C# 가이드](./how-to-create-html-with-styled-text-complete-c-guide/)
+C#을 사용해 스타일이 적용된 텍스트를 포함한 HTML을 만드는 방법을 단계별로 안내합니다.
 
 ## 결론
 

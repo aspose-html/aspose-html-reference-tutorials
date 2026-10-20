@@ -65,6 +65,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML ein HTML-Dokument erstellen, ein bestimmte
 Erfahren Sie, wie Sie HTML-Dokumente erstellen und ein CSS‑Style‑Element hinzufügen – eine detaillierte Schritt‑für‑Schritt‑Anleitung.
 ### [HTML-Dokument in C# erstellen – Fettdruck und Kursiv mit benutzerdefinierter Schrift](./create-html-document-c-bold-italic-text-with-custom-font/)
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET ein HTML-Dokument in C# erstellen und Text fett, kursiv und mit einer benutzerdefinierten Schrift formatieren.
+### [Wie man HTML mit formatiertem Text erstellt – Vollständiger C#‑Guide](./how-to-create-html-with-styled-text-complete-c-guide/)
+Erfahren Sie, wie Sie mit C# HTML-Inhalte mit stilisiertem Text erstellen und rendern – Schritt‑für‑Schritt‑Anleitung.
 ### [Bearbeiten eines Dokuments in .NET mit Aspose.HTML](./editing-a-document/)
 Erstellen Sie fesselnde Webinhalte mit Aspose.HTML für .NET. Erfahren Sie, wie Sie HTML, CSS und mehr bearbeiten.
 ### [Speichern eines Dokuments in .NET mit Aspose.HTML](./saving-a-document/)

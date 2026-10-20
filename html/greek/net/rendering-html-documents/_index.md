@@ -133,6 +133,10 @@ url: /el/net/rendering-html-documents/
 
 ### [Δημιουργία εγγράφου HTML και απόδοση HTML σε PNG – Πλήρης οδηγός C#](./create-html-document-and-render-html-to-png-full-c-guide/)
 Μάθετε πώς να δημιουργήσετε ένα έγγραφο HTML και να το αποδώσετε σε PNG χρησιμοποιώντας C# και το Aspose.HTML.
+### [Δημιουργία συμβολοσειράς εγγράφου HTML και απόδοση σε αρχείο – Οδηγός C#](./create-html-document-string-and-render-to-file-c-guide/)
+Μάθετε πώς να δημιουργήσετε μια συμβολοσειρά HTML και να την αποδώσετε σε αρχείο χρησιμοποιώντας C# και Aspose.HTML.
+### [Απόδοση HTML ως εικόνα σε C# – Πλήρης προγραμματιστικός οδηγός](./render-html-as-image-in-c-complete-programming-guide/)
+Μάθετε πώς να μετατρέψετε HTML σε εικόνα χρησιμοποιώντας C# και το Aspose.HTML σε αυτόν τον πλήρη οδηγό.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -57,6 +57,9 @@ Kompletny przewodnik w C#, pokazujący, jak przy użyciu Aspose.HTML renderować
 ### [Renderuj HTML jako obraz – Kompletny przewodnik konwersji HTML do JPEG](./render-html-as-image-complete-guide-to-convert-html-to-jpeg/)
 Pełny przewodnik w C#, jak przy użyciu Aspose.HTML konwertować HTML do pliku JPEG krok po kroku.
 
+### [Renderuj HTML jako obraz w C# – Kompletny przewodnik programistyczny](./render-html-as-image-in-c-complete-programming-guide/)
+Naucz się renderować HTML jako obraz w C# przy użyciu Aspose.HTML, krok po kroku, z pełnym przykładem kodu.
+
 ### [Jak renderować HTML jako PNG – Kompletny przewodnik C#](./how-to-render-html-as-png-complete-c-guide/)
 Pełny przewodnik C# pokazujący, jak przy użyciu Aspose.HTML renderować HTML jako PNG, krok po kroku.
 
@@ -137,6 +140,8 @@ Dowiedz się, jak w C# utworzyć strumień pamięci, renderować HTML i zapisywa
 Dowiedz się, jak w C# włączyć antyaliasing przy konwersji HTML do PDF przy użyciu Aspose.HTML.
 ### [Utwórz dokument HTML i renderuj HTML do PNG – Pełny przewodnik C#](./create-html-document-and-render-html-to-png-full-c-guide/)
 Kompletny przewodnik w C#, jak stworzyć dokument HTML i przekształcić go w obraz PNG przy użyciu Aspose.HTML.
+### [Utwórz ciąg dokumentu HTML i renderuj do pliku – przewodnik C#](./create-html-document-string-and-render-to-file-c-guide/)
+Dowiedz się, jak w C# utworzyć dokument HTML jako ciąg znaków i wyrenderować go do pliku przy użyciu Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

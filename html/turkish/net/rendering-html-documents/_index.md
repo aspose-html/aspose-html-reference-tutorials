@@ -128,6 +128,10 @@ C# kullanarak Aspose.HTML ile HTML'den PDF'ye dönüştürürken antialiasing'i 
 C# ile HTML'yi hızlı ve güvenilir bir şekilde PNG'ye dönüştürmeyi adım adım öğrenin.
 ### [HTML Belgesi Oluşturma ve HTML'yi PNG Olarak Render Etme – Tam C# Rehberi](./create-html-document-and-render-html-to-png-full-c-guide/)
 C# ile HTML belgesi oluşturmayı ve bunu PNG'ye dönüştürmeyi adım adım öğrenin. Bu kapsamlı rehberde örnek kodlar ve ipuçları bulacaksınız.
+### [HTML Belge Dizesi Oluşturma ve Dosyaya Render Et – C# Kılavuzu](./create-html-document-string-and-render-to-file-c-guide/)
+C# kullanarak HTML belge dizesi oluşturun ve bunu dosyaya render ederek kaydedin. Adım adım örneklerle öğrenin.
+### [C# ile HTML'yi Görüntü Olarak İşleme – Tam Programlama Kılavuzu](./render-html-as-image-in-c-complete-programming-guide/)
+C# ile HTML'yi görüntüye dönüştürmeyi adım adım öğrenin. Bu kapsamlı rehberde örnek kodlar ve ipuçları bulacaksınız.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -96,10 +96,9 @@ Naučte se, jak pomocí Aspose.HTML nastavit styl písma v HTML dokumentu v jazy
 Naučte se, jak v HTML kombinovat tučný a kurzívní text pomocí C# s podrobným návodem.
 ### [Aplikujte styl písma programově – Rychlý průvodce C#](./apply-font-style-programmatically-quick-c-guide/)
 Naučte se, jak pomocí Aspose.HTML pro .NET nastavit a měnit styly písma v HTML dokumentech pomocí C#.
+### [Jak vytvořit HTML se stylovaným textem – kompletní průvodce v C#](./how-to-create-html-with-styled-text-complete-c-guide/)
+Naučte se pomocí Aspose.HTML v C# vytvářet HTML dokumenty se stylovaným textem krok za krokem.
 
-## Závěr
-
-Závěrem, pokud chcete zvládnout manipulaci s HTML dokumenty pomocí Aspose.HTML pro .NET, jste na správném místě. Naše návody jsou vaší cestou k úspěchu. Připravte se prozkoumat možnosti, odemkněte svou kreativitu a zefektivněte svůj vývoj .NET. Začněte svou cestu ještě dnes a sledujte, jak se vaše dokumenty HTML mění před vašima očima. Ať už jste vývojář nebo nadšenec, Aspose.HTML pro .NET má pro vás něco neuvěřitelného. Tak na co čekáš? Vydejme se společně do tohoto vzrušujícího dobrodružství!
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

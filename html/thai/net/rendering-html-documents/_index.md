@@ -137,6 +137,12 @@ Aspose.HTML สำหรับ .NET ถือเป็นตัวเลือ�
 ### [สร้างเอกสาร HTML และเรนเดอร์ HTML เป็น PNG – คู่มือ C# เต็มรูปแบบ](./create-html-document-and-render-html-to-png-full-c-guide/)
 เรียนรู้วิธีสร้างเอกสาร HTML จากศูนย์และแปลงเป็นไฟล์ PNG ด้วย C# อย่างละเอียดในคู่มือฉบับสมบูรณ์นี้!
 
+### [สร้างสตริงเอกสาร HTML และเรนเดอร์เป็นไฟล์ – คู่มือ C#](./create-html-document-string-and-render-to-file-c-guide/)
+เรียนรู้วิธีสร้างสตริง HTML แล้วเรนเดอร์เป็นไฟล์โดยใช้ Aspose.HTML สำหรับ .NET ด้วย C#
+
+### [เรนเดอร์ HTML เป็นภาพใน C# – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./render-html-as-image-in-c-complete-programming-guide/)
+เรียนรู้วิธีเรนเดอร์ไฟล์ HTML เป็นภาพด้วย C# อย่างละเอียดด้วย Aspose.HTML สำหรับ .NET
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

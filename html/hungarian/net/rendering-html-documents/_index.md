@@ -118,6 +118,10 @@ Ismerje meg, hogyan hozhat létre memóriafolyamot C#-ban, renderelhet HTML-t é
 Tanulja meg, hogyan állíthatja be az antialiasingot az Aspose.HTML for .NET HTML‑PDF konvertálás során C#‑ban.
 ### [HTML dokumentum létrehozása és renderelése PNG‑ként – Teljes C# útmutató](./create-html-document-and-render-html-to-png-full-c-guide/)
 Tanulja meg, hogyan hozhat létre HTML dokumentumot, és renderelheti PNG‑be C#‑ban az Aspose.HTML segítségével.
+### [HTML dokumentum karakterlánc létrehozása és fájlba renderelés – C# útmutató](./create-html-document-string-and-render-to-file-c-guide/)
+Tanulja meg, hogyan hozhat létre HTML dokumentumot karakterláncként, majd renderelheti fájlba C#-ban az Aspose.HTML segítségével.
+### [HTML renderelése képként C#-ban – Teljes programozási útmutató](./render-html-as-image-in-c-complete-programming-guide/)
+Tanulja meg, hogyan renderelhet HTML-t képként C#-ban az Aspose.HTML segítségével, részletes útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -146,6 +146,12 @@ url: /ar/net/rendering-html-documents/
 ### [إنشاء مستند HTML وعرض HTML كصورة PNG – دليل كامل بلغة C#](./create-html-document-and-render-html-to-png-full-c-guide/)
 تعلم كيفية إنشاء مستند HTML وتحويله إلى PNG باستخدام C# و Aspose.HTML خطوة بخطوة في هذا الدليل الشامل.
 
+### [إنشاء سلسلة مستند HTML وعرضه إلى ملف – دليل C#](./create-html-document-string-and-render-to-file-c-guide/)
+تعلم كيفية إنشاء مستند HTML من سلسلة نصية وعرضه إلى ملف باستخدام Aspose.HTML وC# خطوة بخطوة.
+
+### [عرض HTML كصورة في C# – دليل برمجة كامل](./render-html-as-image-in-c-complete-programming-guide/)
+تعلم كيفية تحويل HTML إلى صورة باستخدام Aspose.HTML في C# من خلال هذا الدليل البرمجي الكامل.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

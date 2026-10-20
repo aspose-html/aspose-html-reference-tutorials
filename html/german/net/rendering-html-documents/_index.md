@@ -136,6 +136,11 @@ Erfahren Sie, wie Sie mit Aspose.HTML für .NET Antialiasing beim Rendern von HT
 
 ### [HTML in PNG rendern in C# – Schneller, zuverlässiger Leitfaden](./render-html-to-png-in-c-fast-reliable-guide/)
   Erfahren Sie, wie Sie HTML schnell und zuverlässig in PNG konvertieren – ein kompakter C#‑Leitfaden mit praktischen Beispielen.
+### [HTML-Dokument-String erstellen und in Datei rendern – C#‑Leitfaden](./create-html-document-string-and-render-to-file-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML für .NET einen HTML‑Dokument‑String erstellen und diesen in eine Datei rendern – vollständiger C#‑Leitfaden.
+
+### [Rendern Sie HTML als Bild in C# – Vollständiger Programmierleitfaden](./render-html-as-image-in-c-complete-programming-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML HTML in Bildformate rendern – vollständige Anleitung mit C#‑Beispielen und Schritt‑für‑Schritt‑Erklärung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

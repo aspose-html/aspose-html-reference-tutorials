@@ -45,7 +45,6 @@ Aspose.HTML for .NET은 풍부한 기능, 훌륭한 설명서, 활발한 커뮤�
 ### [HTML을 PNG로 렌더링하는 방법 – 완전 단계별 가이드](./how-to-render-html-to-png-complete-step-by-step-guide/)
 HTML을 PNG 이미지로 변환하는 전체 과정을 단계별로 안내합니다. Aspose.HTML for .NET을 활용한 실전 예제를 확인하세요.
 ### [HTML을 PNG로 렌더링하는 방법 – 완전한 C# 가이드](./how-to-render-html-as-png-complete-c-guide/)
-Aspose.HTML for .NET을 사용해 C#으로 HTML을 PNG 이미지로 변환하는 전체 과정을 단계별로 안내합니다.
 ### [C#에서 HTML을 PNG로 렌더링하는 방법 – 완전 가이드](./how-to-render-html-to-png-in-c-complete-guide/)
 Aspose.HTML for .NET을 활용해 C#으로 HTML을 PNG로 변환하는 모든 과정을 자세히 설명합니다.
 
@@ -142,6 +141,9 @@ C# 메모리 스트림을 생성하고, Aspose.HTML로 HTML을 렌더링한 뒤 
 Aspose.HTML for .NET을 사용해 HTML을 PDF로 변환할 때 안티앨리어싱을 설정하는 단계별 가이드.
 ### [HTML 문서를 생성하고 PNG로 렌더링 – 전체 C# 가이드](./create-html-document-and-render-html-to-png-full-c-guide/)
 Aspose.HTML for .NET을 사용해 HTML 문서를 만들고 PNG 이미지로 변환하는 전체 과정을 단계별로 안내합니다.
+### [HTML 문서 문자열 생성 및 파일로 렌더링 – C# 가이드](./create-html-document-string-and-render-to-file-c-guide/)
+Aspose.HTML for .NET을 사용해 HTML 문자열을 만들고 파일로 렌더링하는 방법을 단계별로 안내합니다.
+### [C#에서 HTML을 이미지로 렌더링 – 완전 프로그래밍 가이드](./render-html-as-image-in-c-complete-programming-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

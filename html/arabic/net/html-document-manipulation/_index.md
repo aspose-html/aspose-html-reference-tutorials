@@ -95,6 +95,8 @@ url: /ar/net/html-document-manipulation/
 اكتشف طريقة حفظ ملفات HTML باستخدام Aspose.HTML خطوة بخطوة مع أمثلة عملية.
 ### [تطبيق نمط الخط برمجيًا – دليل سريع C#](./apply-font-style-programmatically-quick-c-guide/)
 دليل سريع لتطبيق أنماط الخط برمجيًا على مستندات HTML باستخدام Aspose.HTML في C#.
+### [كيفية إنشاء HTML بنص منسق – دليل كامل بلغة C#](./how-to-create-html-with-styled-text-complete-c-guide/)
+تعلم كيفية إنشاء مستندات HTML بنص منسق باستخدام C# مع دليل شامل خطوة بخطوة.
 
 ## خاتمة
 

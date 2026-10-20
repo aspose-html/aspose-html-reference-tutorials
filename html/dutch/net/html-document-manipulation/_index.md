@@ -102,6 +102,8 @@ Leer hoe u met C# zowel vetgedrukte als cursieve tekst in HTML combineert met be
 Leer hoe u HTML kunt opslaan met Aspose.HTML in .NET via een stapsgewijze handleiding.
 ### [Lettertype stijl toepassen via code – Snelle C#-gids](./apply-font-style-programmatically-quick-c-guide/)
 Leer hoe u lettertype stijlen programmatically toepast in C# met Aspose.HTML, inclusief voorbeeldcode en stapsgewijze uitleg.
+### [HTML maken met opgemaakte tekst – Complete C#-gids](./how-to-create-html-with-styled-text-complete-c-guide/)
+Leer stap voor stap hoe u HTML met opgemaakte tekst genereert in C# met Aspose.HTML.
 
 ## Conclusie
 

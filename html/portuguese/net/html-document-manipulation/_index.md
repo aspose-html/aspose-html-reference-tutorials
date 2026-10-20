@@ -91,6 +91,8 @@ Aprenda a definir estilos de fonte em documentos HTML usando Aspose.HTML com C#.
 Aprenda a combinar estilos de negrito e itálico em documentos HTML usando C#. Guia passo a passo com exemplos práticos.
 ### [Aplicar Estilo de Fonte Programaticamente – Guia Rápido em C#](./apply-font-style-programmatically-quick-c-guide/)
 Aprenda a aplicar estilos de fonte programaticamente em C# usando Aspose.HTML. Guia rápido passo a passo.
+### [Como criar HTML com texto estilizado – Guia completo em C#](./how-to-create-html-with-styled-text-complete-c-guide/)
+Aprenda a criar documentos HTML com texto formatado usando C#. Guia passo a passo com exemplos práticos.
 
 ## Conclusão
 

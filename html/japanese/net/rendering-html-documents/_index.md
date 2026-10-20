@@ -46,6 +46,8 @@ Aspose.HTML for .NET の使い方を学びます。HTML の操作、さまざま
 C# で HTML ドキュメントを作成し、Aspose.Html を使って PNG 画像に変換する手順をステップバイステップで解説します。
 ### [C# で HTML を PNG にレンダリング – 高速で信頼できるガイド](./render-html-to-png-in-c-fast-reliable-guide/)
 C# を使用して HTML を PNG 画像に高速かつ確実に変換する手順をステップバイステップで解説します。
+### [C# で HTML を画像としてレンダリング – 完全プログラミングガイド](./render-html-as-image-in-c-complete-programming-guide/)
+C# を使用して HTML を画像に変換する方法をステップバイステップで解説する完全ガイドです。
 
 ### [HTML を PNG にレンダリングする方法 – 完全 C# ガイド](./how-to-render-html-as-png-complete-c-guide/)
 C# を使用して HTML を PNG 画像に変換する手順をステップバイステップで解説します。完全ガイドで初心者も安心です。
@@ -147,6 +149,9 @@ C# で Aspose.HTML を使用し、HTML を PDF に変換する際にアンチエ
 
 ### [HTML ドキュメントを作成し、HTML を PNG にレンダリングする – 完全 C# ガイド](./create-html-document-and-render-html-to-png-full-c-guide/)
 Aspose.HTML for .NET を使用し、HTML ドキュメントを作成して PNG に変換する完全な C# ガイドです。
+
+### [HTML ドキュメント文字列を作成しファイルにレンダリングする – C# ガイド](./create-html-document-string-and-render-to-file-c-guide/)
+Aspose.HTML for .NET を使用して、HTML ドキュメント文字列を生成し、C# で画像や PDF などのファイルにレンダリングする方法を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
