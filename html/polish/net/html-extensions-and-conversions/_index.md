@@ -51,6 +51,10 @@ Dowiedz się, jak w C# wygenerować plik PDF z kodu HTML przy użyciu Aspose –
 Szybko konwertuj stronę internetową do PDF w C# przy użyciu jednego wiersza kodu Aspose.HTML.
 ### [Konwertuj HTML do PDF przy użyciu Aspose – przewodnik krok po kroku](./convert-html-to-pdf-with-aspose-step-by-step-guide/)
 Konwertuj HTML do PDF przy użyciu Aspose – szczegółowy przewodnik krok po kroku, który pokaże Ci, jak łatwo wykonać konwersję.
+### [Renderowanie HTML jako PDF w C# – Pełny przewodnik krok po kroku](./render-html-as-pdf-in-c-full-step-by-step-guide/)
+Dowiedz się, jak w C# renderować HTML do PDF przy użyciu Aspose.HTML, krok po kroku, z przykładami kodu.
+### [Konwertuj HTML do PDF w C# – Kompletny przewodnik](./convert-html-to-pdf-with-c-complete-guide/)
+Pełny przewodnik, jak w C# konwertować HTML do PDF przy użyciu Aspose.HTML, z przykładami kodu i wskazówkami.
 ### [Utwórz PDF z HTML – przewodnik krok po kroku w C#](./create-pdf-from-html-c-step-by-step-guide/)
 Dowiedz się, jak w C# wygenerować plik PDF z kodu HTML, korzystając z Aspose.HTML – kompletny przewodnik krok po kroku.
 ### [Utwórz PDF z HTML przy użyciu Aspose.HTML – przewodnik krok po kroku](./create-pdf-from-html-with-aspose-html-step-by-step-guide/)
@@ -202,6 +206,8 @@ Dowiedz się, jak generować pliki HTML w C# przy użyciu Aspose.HTML – komple
 Dowiedz się, jak łatwo konwertować HTML do PDF przy pomocy Aspose.HTML w .NET.
 ### [Zapisz HTML do ZIP i renderuj HTML do PNG – kompletny przewodnik w C#](./save-html-to-zip-and-render-html-to-png-complete-c-guide/)
 Zapisz HTML jako archiwum ZIP i przekształć go w PNG w C# – kompletny przewodnik krok po kroku.
+### [Zapisz HTML jako ZIP – Kompletny przewodnik dla Aspose.HTML](./save-html-as-zip-complete-guide-for-aspose-html/)
+Zapisz HTML jako archiwum ZIP w C# przy użyciu Aspose.HTML – pełny przewodnik krok po kroku.
 
 ## Wniosek
 

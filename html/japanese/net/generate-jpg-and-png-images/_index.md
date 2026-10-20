@@ -112,6 +112,8 @@ C# で HTML を PNG 画像に変換する手順を詳しく解説します。
 HTML を PNG 画像に変換する完全な C# 手順をステップバイステップで解説します。
 ### [HTML をスタイル設定し PNG にレンダリングする完全 C# ガイド](./how-to-style-html-and-render-it-as-png-complete-c-guide/)
 C# で HTML にスタイルを適用し、PNG 画像としてレンダリングする手順をステップバイステップで解説します。
+### [Word を PNG に変換する際の画像幅と高さの設定 – 完全ガイド](./set-image-width-height-when-converting-word-to-png-full-guid/)
+Word 文書を PNG に変換する際に、画像の幅と高さを指定する方法をステップバイステップで解説します。
 
 ## 結論
 

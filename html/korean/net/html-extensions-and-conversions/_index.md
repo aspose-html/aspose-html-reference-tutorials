@@ -73,6 +73,10 @@ Aspose.HTML for .NET을 사용하여 안티앨리어싱을 적용한 HTML을 PDF
 Aspose.HTML for .NET을 활용해 C#에서 HTML을 PDF로 변환하는 완전한 단계별 가이드를 제공합니다.
 ### [C#에서 HTML을 PDF로 만들기 – 전체 단계별 가이드](./create-pdf-from-html-in-c-full-step-by-step-guide/)
 Aspose.HTML for .NET을 사용하여 C#에서 HTML을 PDF로 변환하는 전체 단계별 가이드입니다.
+### [C#를 사용하여 HTML을 PDF로 변환 – 완전 가이드](./convert-html-to-pdf-with-c-complete-guide/)
+C#와 Aspose.HTML을 활용해 HTML을 PDF로 변환하는 전체 단계별 가이드입니다.
+### [C#에서 HTML을 PDF로 렌더링 – 전체 단계별 가이드](./render-html-as-pdf-in-c-full-step-by-step-guide/)
+Aspose.HTML for .NET을 사용하여 C#에서 HTML을 PDF로 렌더링하는 전체 단계별 가이드를 확인하세요.
 ### [Aspose.HTML을 사용하여 .NET에서 EPUB를 이미지로 변환](./convert-epub-to-image/)
 Aspose.HTML for .NET을 사용하여 EPUB를 이미지로 변환하는 방법을 알아보세요. 코드 예제와 사용자 정의 가능한 옵션이 있는 단계별 튜토리얼.
 ### [Aspose.HTML을 사용하여 .NET에서 EPUB를 PDF로 변환](./convert-epub-to-pdf/)
@@ -200,6 +204,8 @@ Aspose.HTML for .NET을 활용해 HTML을 ZIP 파일을 압축하는 전체 단�
 Aspose.HTML for .NET을 활용해 HTML을 PDF로 변환하는 방법을 단계별로 안내합니다.
 ### [HTML을 ZIP으로 저장하고 PNG로 렌더링 – 완전 C# 가이드](./save-html-to-zip-and-render-html-to-png-complete-c-guide/)
 Aspose.HTML for .NET을 사용하여 HTML을 ZIP 파일로 저장하고 PNG 이미지로 렌더링하는 단계별 가이드입니다.
+### [Aspose.HTML을 사용하여 HTML을 ZIP으로 저장 – 전체 가이드](./save-html-as-zip-complete-guide-for-aspose-html/)
+Aspose.HTML for .NET을 활용해 HTML 파일을 ZIP 압축 파일로 저장하는 전체 단계별 가이드를 제공합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

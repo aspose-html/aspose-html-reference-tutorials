@@ -116,6 +116,8 @@ Apprenez à convertir du HTML en image PNG avec un guide détaillé pour les dé
 Apprenez à générer des images PNG à partir de HTML en utilisant C#, avec un guide complet pas à pas.
 ### [Comment styliser le HTML et le rendre en PNG – Guide complet C#](./how-to-style-html-and-render-it-as-png-complete-c-guide/)
 Apprenez à appliquer des styles CSS à du HTML et à le convertir en image PNG avec un guide complet en C#.
+### [Définir la largeur et la hauteur de l'image lors de la conversion de Word en PNG – Guide complet](./set-image-width-height-when-converting-word-to-png-full-guid/)
+Apprenez à spécifier la largeur et la hauteur lors de la conversion de documents Word en images PNG avec Aspose.HTML pour .NET.
 
 ## Conclusion
 

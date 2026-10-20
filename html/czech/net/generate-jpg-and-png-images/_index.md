@@ -115,6 +115,8 @@ Naučte se, jak pomocí Aspose.HTML pro .NET převést HTML na PNG v podrobném 
 Kompletní průvodce převodem HTML na PNG v C# pomocí Aspose.HTML, krok za krokem.
 ### [Jak stylovat HTML a vykreslit jej jako PNG – Kompletní průvodce C#](./how-to-style-html-and-render-it-as-png-complete-c-guide/)
 Naučte se pomocí Aspose.HTML stylovat HTML a převádět jej do PNG v kompletním C# průvodci.
+### [Nastavte šířku a výšku obrázku při převodu Wordu na PNG – Kompletní průvodce](./set-image-width-height-when-converting-word-to-png-full-guid/)
+Naučte se, jak nastavit šířku a výšku výstupního PNG při konverzi dokumentu Word pomocí Aspose.HTML pro .NET.
 
 ## Závěr
 

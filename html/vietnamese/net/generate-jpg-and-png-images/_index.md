@@ -115,6 +115,8 @@ Hướng dẫn chi tiết cách tạo tệp PNG từ HTML bằng Aspose.HTML cho
 Hướng dẫn chi tiết cách tạo ảnh PNG từ HTML bằng C# với Aspose.HTML, bao gồm các bước cấu hình và tối ưu hoá.
 ### [Cách tạo kiểu HTML và render thành PNG – Hướng dẫn đầy đủ C#](./how-to-style-html-and-render-it-as-png-complete-c-guide/)
 Hướng dẫn chi tiết cách tạo kiểu cho HTML và chuyển đổi thành PNG bằng C# với Aspose.HTML.
+### [Đặt chiều rộng và chiều cao hình ảnh khi chuyển đổi Word sang PNG – Hướng dẫn đầy đủ](./set-image-width-height-when-converting-word-to-png-full-guid/)
+Hướng dẫn chi tiết cách thiết lập kích thước ảnh khi chuyển đổi tài liệu Word sang PNG bằng Aspose.HTML.
 
 ## Phần kết luận
 

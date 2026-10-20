@@ -53,6 +53,10 @@ url: /ar/net/html-extensions-and-conversions/
 دليل شامل لتحويل HTML إلى PDF باستخدام C# مع ضبط حجم الصفحة وتفعيل مضاد التعرّج للحصول على جودة عالية.
 ### [تحويل HTML إلى PDF باستخدام Aspose – دليل خطوة بخطوة](./convert-html-to-pdf-with-aspose-step-by-step-guide/)
 دليل شامل خطوة بخطوة لتحويل ملفات HTML إلى PDF باستخدام Aspose.HTML في .NET.
+### [تحويل HTML إلى PDF باستخدام C# – دليل كامل](./convert-html-to-pdf-with-c-complete-guide/)
+دليل شامل خطوة بخطوة لتحويل ملفات HTML إلى PDF باستخدام C# ومكتبة Aspose.HTML.
+### [تحويل HTML إلى PDF في C# – دليل كامل خطوة بخطوة](./render-html-as-pdf-in-c-full-step-by-step-guide/)
+دليل شامل يوضح كيفية تحويل مستندات HTML إلى PDF باستخدام C# ومكتبة Aspose.HTML خطوة بخطوة.
 ### [إنشاء PDF من HTML – دليل خطوة بخطوة بلغة C#](./create-pdf-from-html-c-step-by-step-guide/)
 دليل خطوة بخطوة لإنشاء ملف PDF من HTML باستخدام C# ومكتبة Aspose.HTML.
 ### [إنشاء PDF من HTML باستخدام Aspose.HTML – دليل خطوة بخطوة](./create-pdf-from-html-with-aspose-html-step-by-step-guide/)
@@ -211,6 +215,8 @@ url: /ar/net/html-extensions-and-conversions/
 دليل شامل يوضح كيفية حفظ مستند HTML كملف ZIP ثم تحويله إلى صورة PNG باستخدام C# و Aspose.HTML.
 ### [دروس HTML إلى PDF – تحويل HTML إلى PDF باستخدام Aspose](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose/)
 تعلم كيفية تحويل ملفات HTML إلى PDF بسهولة باستخدام مكتبة Aspose.HTML في .NET.
+### [حفظ HTML كملف ZIP – دليل كامل لـ Aspose.HTML](./save-html-as-zip-complete-guide-for-aspose-html/)
+دليل شامل يوضح كيفية حفظ مستند HTML كملف ZIP باستخدام Aspose.HTML خطوة بخطوة.
 
 ## خاتمة
 

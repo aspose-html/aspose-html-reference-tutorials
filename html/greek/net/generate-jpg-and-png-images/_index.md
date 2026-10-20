@@ -115,6 +115,8 @@ url: /el/net/generate-jpg-and-png-images/
 Μάθετε πώς να μετατρέψετε HTML σε PNG χρησιμοποιώντας C# με πλήρη βήμα-βήμα οδηγίες.
 ### [Πώς να μορφοποιήσετε HTML και να το αποδώσετε ως PNG – Πλήρης οδηγός C#](./how-to-style-html-and-render-it-as-png-complete-c-guide/)
 Μάθετε πώς να εφαρμόσετε στυλ σε HTML και να το μετατρέψετε σε εικόνα PNG χρησιμοποιώντας C# και Aspose.HTML.
+### [Ορίστε το Πλάτος και το Ύψος της Εικόνας κατά τη Μετατροπή Word σε PNG – Πλήρης Οδηγός](./set-image-width-height-when-converting-word-to-png-full-guid/)
+Μάθετε πώς να ορίσετε προσαρμοσμένες διαστάσεις εικόνας κατά τη μετατροπή εγγράφων Word σε PNG χρησιμοποιώντας Aspose.HTML για .NET.
 
 ## Σύναψη
 

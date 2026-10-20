@@ -119,6 +119,8 @@ Leer hoe u PNG-afbeeldingen genereert vanuit HTML met een stapsgewijze handleidi
 Leer stap voor stap hoe u met C# en Aspose.HTML PNG-afbeeldingen genereert uit HTML, met codevoorbeelden en configuratie.
 ### [HTML stylen en renderen als PNG – Complete C#-gids](./how-to-style-html-and-render-it-as-png-complete-c-guide/)
 Leer hoe u HTML kunt stylen en vervolgens als PNG-afbeelding rendert met een volledige C#-handleiding.
+### [Afbeeldingsbreedte en -hoogte instellen bij conversie van Word naar PNG – Volledige gids](./set-image-width-height-when-converting-word-to-png-full-guid/)
+Leer hoe u de breedte en hoogte van afbeeldingen kunt definiëren bij het converteren van Word-documenten naar PNG met Aspose.HTML.
 
 ## Conclusie
 
