@@ -140,6 +140,12 @@ url: /ar/java/creating-managing-html-documents/
 تعلم كيفية عرض صفحات HTML في Java مع الانتظار حتى اكتمال التحميل واستخدام محددات الاستعلام لمعالجة المحتوى.
 ### [تحويل Markdown إلى HTML في Java – دليل خطوة بخطوة](./convert-markdown-to-html-in-java-step-by-step-guide/)
 تعلم كيفية تحويل ملفات Markdown إلى HTML في Java باستخدام Aspose.HTML من خلال دليل خطوة بخطوة.
+### [كيفية استخدام querySelectorAll في Java – التصفية حسب الفئة](./how-to-use-queryselectorall-in-java-filter-by-class/)
+تعلم كيفية استخدام querySelectorAll في Java لتحديد عناصر HTML وفقًا لفئة معينة خطوة بخطوة.
+### [كيفية قراءة ملف XHTML في Java – مثال على مساحة اسم XPath](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
+تعلم كيفية قراءة ملفات XHTML في Java باستخدام XPath مع معالجة مساحات الأسماء خطوة بخطوة.
+### [كيفية البحث في HTML – دليل Java للعثور على النص](./how-to-search-html-java-guide-for-finding-text/)
+تعلم كيفية البحث عن نص داخل مستندات HTML باستخدام Aspose.HTML for Java من خلال دليل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

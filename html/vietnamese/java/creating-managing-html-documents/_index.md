@@ -49,6 +49,8 @@ Làm chủ việc tạo tài liệu HTML không đồng bộ với Aspose.HTML c
 Tìm hiểu cách tạo tài liệu HTML trống trong Java bằng Aspose.HTML với hướng dẫn từng bước chi tiết của chúng tôi, hoàn hảo cho các nhà phát triển ở mọi cấp độ.
 ### [Tải tài liệu HTML từ tệp trong Aspose.HTML cho Java](./load-html-documents-from-file/)
 Mở khóa sức mạnh của thao tác HTML với Aspose.HTML cho Java. Học cách tải tài liệu HTML từ tệp với hướng dẫn từng bước.
+### [Cách đọc tệp XHTML trong Java – Ví dụ Namespace XPath](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
+Hướng dẫn chi tiết cách đọc tệp XHTML bằng Java sử dụng XPath với namespace, kèm ví dụ thực tế.
 ### [Tải tệp nâng cao cho tài liệu HTML trong Aspose.HTML cho Java](./advanced-file-loading-html-documents/)
 Tìm hiểu cách tải, thao tác và lưu tài liệu HTML bằng Aspose.HTML cho Java trong hướng dẫn từng bước này. Mở khóa xử lý HTML nâng cao trong các dự án Java của bạn.
 ### [Tải tài liệu HTML từ Stream với Aspose.HTML cho Java](./load-html-documents-from-stream/)
@@ -133,6 +135,10 @@ Học cách render HTML trong Java, chờ trang tải hoàn toàn và sử dụn
 Học cách chuyển đổi tài liệu Markdown sang HTML trong Java bằng Aspose.HTML qua hướng dẫn chi tiết từng bước.
 ### [Trích xuất HTML từ MHTML – Hướng dẫn Java đầy đủ](./extract-html-from-mhtml-complete-java-guide/)
 Học cách trích xuất nội dung HTML từ tệp MHTML bằng Aspose.HTML cho Java qua hướng dẫn chi tiết từng bước.
+### [Cách sử dụng querySelectorAll trong Java – Lọc theo lớp](./how-to-use-queryselectorall-in-java-filter-by-class/)
+Hướng dẫn chi tiết cách sử dụng querySelectorAll trong Java để lọc các phần tử HTML theo lớp, kèm ví dụ thực tế.
+### [Cách tìm kiếm HTML – Hướng dẫn Java để tìm văn bản](./how-to-search-html-java-guide-for-finding-text/)
+Khám phá cách tìm kiếm và trích xuất văn bản trong tài liệu HTML bằng Aspose.HTML cho Java với hướng dẫn chi tiết.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

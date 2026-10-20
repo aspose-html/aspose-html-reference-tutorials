@@ -52,6 +52,8 @@ Kompletní návod, jak spouštět asynchronní JavaScript v Javě pomocí Aspose
 Naučte se vytvářet prázdné HTML dokumenty v Javě pomocí Aspose.HTML s naším podrobným návodem krok za krokem, který je ideální pro vývojáře na všech úrovních.
 ### [Načtěte HTML dokumenty ze souboru v Aspose.HTML pro Java](./load-html-documents-from-file/)
 Odemkněte sílu manipulace s HTML pomocí Aspose.HTML pro Java. Naučte se načítat dokumenty HTML ze souborů pomocí výukových programů krok za krokem.
+### [Jak načíst soubor XHTML v Javě – příklad s XPath a jmenným prostorem](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
+Naučte se načíst soubor XHTML v Javě pomocí XPath s podporou jmenných prostorů v tomto praktickém příkladu.
 ### [Pokročilé načítání souborů pro HTML dokumenty v Aspose.HTML pro Java](./advanced-file-loading-html-documents/)
 V tomto podrobném průvodci se dozvíte, jak načítat, manipulovat a ukládat dokumenty HTML pomocí Aspose.HTML for Java. Odemkněte pokročilé zpracování HTML ve svých projektech Java.
 ### [Načtěte HTML dokumenty ze Stream pomocí Aspose.HTML pro Java](./load-html-documents-from-stream/)
@@ -127,6 +129,10 @@ Naučte se pomocí XPath vybrat element <div> podle třídy v Javě s podrobným
 Naučte se, jak renderovat HTML v Javě, čekat na načtení stránky a používat query selector pro získání elementů.
 ### [Extrahování HTML z MHTML – Kompletní průvodce pro Javu](./extract-html-from-mhtml-complete-java-guide/)
 Naučte se, jak z MHTML souborů extrahovat HTML pomocí Aspose.HTML pro Java v tomto podrobném průvodci.
+### [Jak vyhledávat HTML – Java průvodce pro hledání textu](./how-to-search-html-java-guide-for-finding-text/)
+Naučte se pomocí Aspose.HTML v Javě vyhledávat text v HTML dokumentech pomocí praktických příkladů a tipů.
+### [Jak použít querySelectorAll v Javě – filtrování podle třídy](./how-to-use-queryselectorall-in-java-filter-by-class/)
+Naučte se pomocí Aspose.HTML v Javě využít querySelectorAll k výběru elementů podle třídy.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

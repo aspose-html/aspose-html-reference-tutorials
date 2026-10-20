@@ -219,6 +219,9 @@ Aspose.HTML for Java का उपयोग करके HTML को PNG इम�
 
 ### [Java में SVG को PNG में बदलें – हाई‑रेज़ोल्यूशन गाइड](./convert-svg-to-png-in-java-high-resolution-guide/)
 
+### [Aspose.HTML सैंडबॉक्स के साथ HTML को PNG में रेंडर करें – पूर्ण Java गाइड](./render-html-to-png-with-aspose-html-sandbox-full-java-guide/)
+Aspose.HTML सैंडबॉक्स का उपयोग करके Java में HTML को PNG इमेज में रेंडर करने के विस्तृत चरण‑दर‑चरण गाइड।
+
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **प्रश्न: क्या मैं Java का उपयोग करके अतिरिक्त इमेज लाइब्रेरी के बिना HTML को PNG में बदल सकता हूँ?**  

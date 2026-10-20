@@ -89,12 +89,18 @@ Java에서 XPath와 CSS 선택자를 비교하여 HTML을 로드하는 방법을
 Aspose.HTML for Java를 사용해 Java에서 xpath를 쿼리하는 방법을 단계별로 안내합니다.
 ### [Java에서 HTML 렌더링 – 페이지 로드 대기 및 쿼리 셀렉터 완전 가이드](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
 Aspose.HTML for Java를 사용해 HTML을 렌더링하고 페이지 로드 대기 및 쿼리 셀렉터 활용 방법을 단계별로 안내합니다.
+### [Java에서 querySelectorAll 사용 방법 – 클래스별 필터링](./how-to-use-queryselectorall-in-java-filter-by-class/)
+Java용 Aspose.HTML을 사용하여 querySelectorAll로 클래스별 요소를 필터링하는 방법을 단계별로 안내합니다.
+### [HTML 검색 방법 – 텍스트 찾기를 위한 Java 가이드](./how-to-search-html-java-guide-for-finding-text/)
+Java용 Aspose.HTML을 사용하여 HTML 문서에서 텍스트를 검색하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.HTML을 사용하여 새 HTML 문서 생성](./generate-new-html-documents/)
 이 간단한 단계별 가이드를 통해 Aspose.HTML for Java를 사용하여 새 HTML 문서를 만드는 방법을 알아보세요. 동적 HTML 콘텐츠 생성을 시작하세요.
 ### [Java용 Aspose.HTML에서 문서 로드 이벤트 처리](./handle-document-load-events/)
 이 단계별 가이드를 통해 Aspose.HTML for Java에서 문서 로드 이벤트 처리하는 방법을 알아보세요. 웹 애플리케이션을 강화하세요.
 ### [Java용 Aspose.HTML에서 SVG 문서 만들기 및 관리](./create-manage-svg-documents/)
 Java용 Aspose.HTML을 사용하여 SVG 문서를 만들고 관리하는 방법을 알아보세요! 이 포괄적인 가이드는 기본 생성부터 고급 조작까지 모든 것을 다룹니다.
+### [Java용 Aspose.HTML에서 XHTML 파일 읽기 – XPath 네임스페이스 예제](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
+Aspose.HTML for Java를 사용하여 XPath 네임스페이스를 포함한 XHTML 파일을 읽는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.HTML에서 HTML 샌드박스 만들기 – 단계별 가이드](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Aspose.HTML for Java를 사용하여 안전한 HTML 샌드박스를 설정하고 테스트하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.HTML에서 비동기 JavaScript 실행 – 완전 단계별 가이드](./execute-async-javascript-in-java-complete-step-by-step-guide/)

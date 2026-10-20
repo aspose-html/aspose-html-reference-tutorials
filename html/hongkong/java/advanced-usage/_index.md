@@ -189,6 +189,8 @@ A: 不需要。單一的 Aspose.HTML for Java 授權即涵蓋所有輸出格式�
 ### [在 Java 中執行 JavaScript – 完整指南：將元素附加至 Body](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
 學習在 Java 中執行 JavaScript，將元素動態加入 body，提供完整範例與步驟說明。
 
+### [使用 Aspose 將 SVG 轉換為 PNG 時設定 DPI – Java 指南](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
+
 ---
 
 **最後更新日期：** 2025-11-29  

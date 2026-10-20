@@ -80,6 +80,12 @@ Aprenda a comparar XPath e seletores CSS ao carregar documentos HTML em Java com
 Aprenda a consultar e extrair dados usando xpath em Java com Aspose. Tutorial passo a passo incluído.
 ### [Extrair HTML de MHTML – Guia Java Completo](./extract-html-from-mhtml-complete-java-guide/)
 Aprenda a extrair conteúdo HTML de arquivos MHTML usando Aspose.HTML para Java com este tutorial passo a passo.
+### [Como usar querySelectorAll em Java – Filtrar por classe](./how-to-use-queryselectorall-in-java-filter-by-class/)
+Aprenda a usar querySelectorAll em Java para filtrar elementos HTML por classe com Aspose.HTML. Guia passo a passo.
+### [Como pesquisar HTML – Guia Java para Encontrar Texto](./how-to-search-html-java-guide-for-finding-text/)
+Aprenda a pesquisar texto em documentos HTML usando Aspose.HTML para Java com este guia passo a passo.
+### [Como ler arquivo XHTML em Java – Exemplo de namespace XPath](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
+Aprenda a ler arquivos XHTML em Java usando Aspose.HTML com XPath e exemplos de namespace.
 ### [Gerar novos documentos HTML usando Aspose.HTML para Java](./generate-new-html-documents/)
 Aprenda como criar novos documentos HTML usando Aspose.HTML para Java com este guia passo a passo fácil. Comece a gerar conteúdo HTML dinâmico.
 ### [Converter Markdown para HTML em Java – Guia passo a passo](./convert-markdown-to-html-in-java-step-by-step-guide/)

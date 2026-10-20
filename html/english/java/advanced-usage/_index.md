@@ -162,6 +162,8 @@ Learn how to convert EPUB files to DOCX using Aspose with clear steps and code s
 ### [How to Load HTML in Java – Complete Aspose.HTML Async Example](./how-to-load-html-in-java-complete-aspose-html-async-example/)
 Learn how to asynchronously load HTML in Java using Aspose.HTML, covering setup, code examples, and best practices.
 
+### [How to Set DPI When Converting SVG to PNG with Aspose – Java Guide](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
+Learn how to set DPI for SVG‑to‑PNG conversion using Aspose.HTML for Java, achieving high‑resolution raster images.
 ### [How to Run JavaScript in Java – Complete Guide](./how-to-run-javascript-in-java-complete-guide/)
 Learn how to execute JavaScript code within Java applications using Aspose.HTML, covering setup, examples, and best practices.
 ### [set device pixel ratio in Java – Mobile Sandbox Tutorial](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)

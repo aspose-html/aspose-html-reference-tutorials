@@ -189,6 +189,9 @@ Aprenda a executar tarefas simultâneas usando um pool de threads fixo em Java c
 ### [Executar JavaScript em Java – Guia Completo para Anexar Elementos ao Body](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
 Aprenda a executar JavaScript em Java e adicionar elementos ao corpo da página usando Aspose.HTML for Java.
 
+### [Como definir DPI ao converter SVG para PNG com Aspose – Guia Java](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
+Aprenda a definir a resolução DPI ao converter arquivos SVG em PNG usando Aspose.HTML for Java.
+
 ---
 
 **Última atualização:** 2025-11-29  

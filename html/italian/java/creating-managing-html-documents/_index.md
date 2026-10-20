@@ -138,6 +138,12 @@ Impara a selezionare elementi div per classe usando XPath in Java con Aspose.HTM
 Impara a renderizzare HTML in Java, attendere il caricamento della pagina e utilizzare query selector per estrarre contenuti.
 ### [Converti Markdown in HTML in Java – Guida passo‑a‑passo](./convert-markdown-to-html-in-java-step-by-step-guide/)
 Scopri come convertire Markdown in HTML in Java usando Aspose.HTML con questa guida passo‑passo.
+### [Come utilizzare querySelectorAll in Java – Filtrare per classe](./how-to-use-queryselectorall-in-java-filter-by-class/)
+Scopri come usare querySelectorAll in Java per filtrare elementi HTML per classe con Aspose.HTML.
+### [Come leggere un file XHTML in Java – esempio di XPath con namespace](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
+Scopri come leggere file XHTML in Java usando XPath con gestione dei namespace, con esempi pratici passo‑passo.
+### [Come cercare HTML – Guida Java per trovare testo](./how-to-search-html-java-guide-for-finding-text/)
+Impara a cercare testo nei documenti HTML in Java con Aspose.HTML, con esempi pratici passo‑passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

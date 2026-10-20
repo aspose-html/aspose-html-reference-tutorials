@@ -115,6 +115,8 @@ Aspose.HTML for Java का उपयोग करके कई HTML फ़ा�
 Aspose.HTML for Java का उपयोग करके HTML को PDF में बदलने की पूरी प्रक्रिया सीखें। चरण‑दर‑चरण मार्गदर्शन।
 ### [Aspose HTML को PDF में Java – त्वरित चरण‑दर‑चरण गाइड](./aspose-html-to-pdf-in-java-quick-step-by-step-guide/)
 Aspose.HTML for Java का उपयोग करके HTML को PDF में तेज़ी से बदलने के चरण‑बद्ध निर्देश।
+### [Aspose HTML to PDF (Java) में JavaScript को सक्षम कैसे करें](./how-to-enable-javascript-in-aspose-html-to-pdf-java/)
+Aspose.HTML for Java में PDF रूपांतरण के दौरान JavaScript निष्पादन को सक्रिय करने के चरण सीखें।
 
 ### [HTML को MHTML में बदलना](./convert-html-to-mhtml/)
 ### [Java में HTML से PDF बनाएं – पूर्ण Aspose गाइड](./create-pdf-from-html-in-java-complete-aspose-guide/)
@@ -151,6 +153,9 @@ Aspose.HTML for Java का उपयोग करके HTML को Markdown �
 ### [Aspose.HTML के साथ HTML से Markdown बनाएं – पूर्ण जावा गाइड](./create-markdown-from-html-with-aspose-html-complete-java-gui/)
 Aspose.HTML for Java का उपयोग करके HTML को Markdown में बदलने की पूरी प्रक्रिया सीखें। विस्तृत चरण‑बद्ध मार्गदर्शन।
 
+### [Java में HTML को Markdown के रूप में सहेजें – पूर्ण चरण‑दर‑चरण गाइड](./save-html-as-markdown-in-java-complete-step-by-step-guide/)
+Aspose.HTML for Java का उपयोग करके HTML को Markdown में बदलने के विस्तृत चरण‑दर‑चरण गाइड।
+
 ### [SVG को इमेज में बदलना](./convert-svg-to-image/)
 ### [SVG को PDF में बदलना](./convert-svg-to-pdf/)
 ### [SVG को XPS में बदलना](./convert-svg-to-xps/)
@@ -165,6 +170,9 @@ Aspose.HTML for Java का उपयोग करके HTML को PDF मे�
 
 ### [Java में HTML से PDF बनाना – पूर्ण चरण‑दर‑चरण गाइड](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
 Aspose.HTML for Java का उपयोग करके HTML को PDF में बदलने की पूरी प्रक्रिया सीखें, सभी सेटिंग्स और विकल्पों के साथ।
+
+### [Java में HTML को PDF में बदलें – चरण‑दर‑चरण गाइड](./convert-html-to-pdf-in-java-step-by-step-guide/)
+Java में Aspose.HTML का उपयोग करके HTML को PDF में बदलने के लिए विस्तृत चरण‑दर‑चरण गाइड।
 
 ### [Java में HTML को PDF में बदलें – पेज आकार सेटिंग्स के साथ चरण‑दर‑चरण गाइड](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 ### [Java में PDF पेज आकार सेट करें – Java HTML से PDF गाइड](./set-pdf-page-size-in-java-java-html-to-pdf-guide/)
@@ -294,6 +302,10 @@ Aspose.HTML for Java का उपयोग करके HTML को PDF/A‑2b 
 
 ### [Java ExecutorService के साथ HTML को PDF में बदलना – पूर्ण गाइड](./convert-html-to-pdf-with-java-executorservice-complete-guide/)
 Java ExecutorService का उपयोग करके समानांतर रूप से HTML को PDF में बदलने की पूरी प्रक्रिया सीखें।
+### [Java में HTML को PDF में बदलें – पूर्ण गाइड](./convert-html-to-pdf-with-java-full-guide/)
+
+### [HTML को PDF के रूप में सहेजें – स्थिर थ्रेड पूल के साथ समानांतर बैच रूपांतरण (Java)](./save-html-as-pdf-parallel-batch-conversion-using-fixed-threa/)
+स्थिर थ्रेड पूल का उपयोग करके समानांतर बैच रूपांतरण के साथ HTML को PDF में सहेजें।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

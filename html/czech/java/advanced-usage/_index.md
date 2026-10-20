@@ -181,6 +181,7 @@ Naučte se, jak povolit a spouštět JavaScript v objektu HtmlDocument v Javě p
 ### [Java multithreading tutoriál: Spuštění úkolů paralelně s pevnou vlákny](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
 ### [Spuštění JavaScriptu v Javě – Kompletní průvodce přidáváním elementů do těla](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
 Naučte se, jak pomocí Aspose.HTML spustit JavaScript v Javě a dynamicky přidávat elementy do těla dokumentu.
+### [Jak nastavit DPI při převodu SVG na PNG s Aspose – Java průvodce](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
 
 ---
 

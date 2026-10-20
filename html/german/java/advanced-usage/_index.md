@@ -173,6 +173,8 @@ Erfahren Sie, wie Sie JavaScript in einem Java‑HTMLDocument aktivieren und aus
 Erfahren Sie, wie Sie mit einem Fixed Thread Pool mehrere Aufgaben gleichzeitig ausführen und die Multithreading‑Leistung in Java optimieren.
 ### [JavaScript in Java ausführen – Komplettanleitung zum Anhängen von Elementen an den Body](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
 Erfahren Sie, wie Sie JavaScript aus Java ausführen und Elemente dynamisch an den Body der HTML‑Seite anhängen.
+### [Wie man DPI beim Konvertieren von SVG zu PNG mit Aspose – Java‑Leitfaden](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
+Erfahren Sie, wie Sie die DPI‑Einstellung beim SVG‑zu‑PNG‑Export mit Aspose.HTML für Java konfigurieren, um hochwertige Bilder zu erhalten.
 
 ---
 

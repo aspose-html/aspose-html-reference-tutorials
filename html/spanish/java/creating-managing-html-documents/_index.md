@@ -84,6 +84,12 @@ Aprenda a usar XPath en Java para leer HTML y extraer texto fácilmente.
 Aprenda a consultar documentos HTML usando expresiones XPath en Java con Aspose. Guía paso a paso para extraer datos fácilmente.
 ### [Seleccionar div por clase en Java – Guía completa de XPath](./select-div-by-class-in-java-complete-xpath-guide/)
 Aprenda a seleccionar elementos div por su clase en Java usando XPath con esta guía paso a paso completa.
+### [Cómo buscar HTML – Guía Java para encontrar texto](./how-to-search-html-java-guide-for-finding-text/)
+Aprenda a buscar texto dentro de documentos HTML en Java usando Aspose.HTML con esta guía paso a paso.
+### [Cómo usar querySelectorAll en Java – Filtrar por clase](./how-to-use-queryselectorall-in-java-filter-by-class/)
+Aprenda a utilizar querySelectorAll en Java para filtrar elementos por clase con esta guía paso a paso.
+### [Cómo leer un archivo XHTML en Java – Ejemplo de espacio de nombres XPath](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
+Aprenda a leer archivos XHTML en Java utilizando XPath con espacios de nombres en esta guía paso a paso.
 ### [Generar nuevos documentos HTML con Aspose.HTML para Java](./generate-new-html-documents/)
 Aprenda a crear nuevos documentos HTML con Aspose.HTML para Java con esta sencilla guía paso a paso. Comience a generar contenido HTML dinámico.
 ### [Gestión de eventos de carga de documentos en Aspose.HTML para Java](./handle-document-load-events/)

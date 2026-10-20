@@ -185,6 +185,9 @@ weight: 20
 
 ### [تنفيذ JavaScript في Java – دليل كامل لإضافة عناصر إلى الـ Body](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
 
+### [كيفية ضبط DPI عند تحويل SVG إلى PNG باستخدام Aspose – دليل Java](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
+تعلم كيفية ضبط DPI عند تحويل ملفات SVG إلى PNG باستخدام Aspose في بيئة Java.
+
 ---
 
 **آخر تحديث:** 2025-11-29  

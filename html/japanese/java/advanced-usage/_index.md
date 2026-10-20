@@ -167,6 +167,8 @@ Aspose.HTML for Java を使用して、Java でデバイスピクセル比を設
 固定サイズのスレッドプールを使用して、複数のタスクを同時に実行し、効率的な並列処理を実装する方法を学びます。
 ### [Java で JavaScript を実行する – Body に要素を追加する完全ガイド](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
 Aspose.HTML for Java を使い、Java から JavaScript を実行し、Body 要素へ動的に要素を追加する方法を学びます。
+### [Aspose を使用して SVG を PNG に変換する際の DPI 設定方法 – Java ガイド](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
+Aspose.HTML for Java を使用して、SVG を PNG に変換する際に DPI を設定し、高解像度画像を生成する方法を学びます。
 
 ---
 

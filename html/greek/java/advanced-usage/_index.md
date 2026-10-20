@@ -80,7 +80,7 @@ weight: 20
 
 ## Προσαρμογή Μεγέθους Σελίδας PDF και XPS
 
-Κατά τη μετατροπή HTML σε PDF ή XPS, συχνά χρειάζεται να ελέγξετε τις τελικές διαστάσεις της σελίδας. Τα `PdfSaveOptions` και `XpsSaveOptions` του Aspose.HTML εκθέτουν ιδιότητες όπως `PageWidth` και `PageHeight`, επιτρέποντάς σας να **προσαρμόσετε το μέγεθος σελίδας PDF** ή **να μετατρέψετε HTML σε XPS** με ακριβείς μετρήσεις.
+Κατά τη μετατροπή HTML σε PDF ή XPS, συχνά χρειάζεται να ελέγξετε τις τελικές διαστάσεις της σελίδας. Τα `PdfSaveOptions` και `XpsSaveOptions` του Aspose.HTML εκθέτουν ιδιότητες όπως `PageWidth` και `PageHeight`, επιτρέποντας σας να **προσαρμόσετε το μέγεθος σελίδας PDF** ή **να μετατρέψετε HTML σε XPS** με ακριβείς μετρήσεις.
 
 > *Μόνο επεξήγηση – ο κώδικας παραμένει αμετάβλητος.*
 
@@ -162,6 +162,8 @@ weight: 20
 ### [java multithreading tutorial: Εκτέλεση εργασιών παράλληλα με Fixed Thread Pool](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
 ### [Εκτέλεση JavaScript σε Java – Πλήρης Οδηγός για Προσθήκη Στοιχείων στο Body](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
 Μάθετε πώς να εκτελείτε κώδικα JavaScript από Java και να προσθέτετε στοιχεία στο σώμα του εγγράφου HTML.
+### [Πώς να ορίσετε DPI κατά τη μετατροπή SVG σε PNG με το Aspose – Οδηγός Java](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
+Μάθετε πώς να ορίσετε την ανάλυση DPI κατά τη μετατροπή αρχείων SVG σε PNG χρησιμοποιώντας το Aspose.HTML for Java.
 
 ---
 

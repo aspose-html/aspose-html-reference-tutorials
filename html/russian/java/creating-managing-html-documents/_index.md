@@ -83,7 +83,11 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 Узнайте, как загружать HTML, выполнять запросы и подсчитывать элементы в Java с помощью Aspose.HTML.
 ### [Извлечение текста из HTML в Java — полное руководство по программированию](./extract-text-from-html-in-java-complete-programming-guide/)
 Узнайте, как извлекать текстовое содержимое из HTML‑документов в Java с помощью Aspose.HTML, пошаговое полное руководство.
+### [Как использовать querySelectorAll в Java – фильтрация по классу](./how-to-use-queryselectorall-in-java-filter-by-class/)
+Узнайте, как применять метод querySelectorAll в Java для выбора элементов по классу с помощью Aspose.HTML.
 ### [Создание песочницы для HTML в Aspose.HTML для Java – пошаговое руководство](./create-sandbox-for-html-in-java-step-by-step-guide/)
+### [Как прочитать файл XHTML в Java – пример XPath с пространством имён](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
+Узнайте, как загрузить XHTML‑файл в Java и выполнить запросы XPath с учётом пространств имён.
 ### [Как выполнять запросы к HTML в Java – полное руководство](./how-to-query-html-in-java-complete-tutorial/)
 ### [Выполнение асинхронного JavaScript в Java – Полное пошаговое руководство](./execute-async-javascript-in-java-complete-step-by-step-guide/)
 Узнайте, как выполнять асинхронный JavaScript в Java с помощью Aspose.HTML, следуя подробному пошаговому руководству.
@@ -131,6 +135,8 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 Узнайте, как выбирать элементы div по классу в Java с помощью XPath, следуя подробному пошаговому руководству.
 ### [Извлечение HTML из MHTML – Полное руководство по Java](./extract-html-from-mhtml-complete-java-guide/)
 Узнайте, как извлекать HTML из файлов MHTML в Java с помощью Aspose.HTML, пошаговое полное руководство.
+### [Как искать HTML – Руководство Java по поиску текста](./how-to-search-html-java-guide-for-finding-text/)
+Узнайте, как находить нужный текст в HTML с помощью Aspose.HTML для Java. Пошаговое руководство и примеры кода.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

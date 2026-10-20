@@ -173,6 +173,8 @@ Scopri come convertire file SVG in PNG ad alta risoluzione usando Aspose.HTML fo
 
 ### [Renderizza HTML in PNG in Java – Emula dispositivo mobile](./render-html-to-png-in-java-emulate-mobile-device/)
 Scopri come rendere HTML in PNG su Java emulando un dispositivo mobile per ottenere screenshot responsive.
+### [Render HTML in PNG con Aspose.HTML Sandbox – Guida completa Java](./render-html-to-png-with-aspose-html-sandbox-full-java-guide/)
+Scopri come rendere HTML in PNG usando Aspose.HTML Sandbox con una guida completa passo‑passo per Java.
 
 ## Domande frequenti
 

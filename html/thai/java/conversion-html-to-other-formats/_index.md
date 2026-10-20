@@ -122,6 +122,8 @@ Aspose.HTML for Java ทำให้กระบวนการแปลง HTML
 กำหนดขนาดหน้ากระดาษ PDF ระหว่างการแปลง HTML ด้วย Aspose.HTML for Java อย่างละเอียด
 ### [วิธีแปลง HTML เป็น PDF ใน Java – คู่มือเต็ม](./how-to-convert-html-to-pdf-in-java-full-guide/)
 เรียนรู้ขั้นตอนการแปลง HTML เป็น PDF ใน Java อย่างละเอียดด้วยคู่มือเต็มที่ครอบคลุมทุกฟีเจอร์
+### [Convert HTML to PDF in Java – Step‑by‑Step Guide](./convert-html-to-pdf-in-java-step-by-step-guide/)
+เรียนรู้วิธีแปลง HTML เป็น PDF ใน Java อย่างละเอียดด้วยขั้นตอนที่ชัดเจนและตัวอย่างโค้ด
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 ### [Aspose HTML to PDF in Java – Quick Step‑by‑Step Guide](./aspose-html-to-pdf-in-java-quick-step-by-step-guide/)
 เรียนรู้วิธีแปลง HTML เป็น PDF ใน Java อย่างรวดเร็วด้วยขั้นตอนที่ชัดเจนและตัวอย่างโค้ด
@@ -260,6 +262,13 @@ Aspose.HTML for Java ทำให้กระบวนการแปลง HTML
 ### [สร้าง EPUB จาก HTML – คู่มือเต็ม Java สำหรับสร้างและบันทึก eBooks](./create-epub-from-html-full-java-guide-to-build-and-save-eboo/)
 ### [แปลง HTML เป็น PDF ด้วย Java ExecutorService – คู่มือเต็ม](./convert-html-to-pdf-with-java-executorservice-complete-guide/)
 เรียนรู้วิธีใช้ ExecutorService ใน Java เพื่อแปลง HTML เป็น PDF อย่างมีประสิทธิภาพด้วย Aspose.HTML
+### [แปลง HTML เป็น PDF ด้วย Java – คู่มือเต็ม](./convert-html-to-pdf-with-java-full-guide/)
+เรียนรู้วิธีแปลง HTML เป็น PDF อย่างละเอียดใน Java ด้วย Aspose.HTML พร้อมตัวอย่างโค้ดและการตั้งค่าต่าง ๆ
+### [วิธีเปิดใช้งาน JavaScript ใน Aspose HTML to PDF (Java)](./how-to-enable-javascript-in-aspose-html-to-pdf-java/)
+### [บันทึก HTML เป็น PDF – การแปลงแบบแบตช์ขนานโดยใช้ Fixed Thread Pool ใน Java](./save-html-as-pdf-parallel-batch-conversion-using-fixed-threa/)
+เรียนรู้วิธีแปลงหลายไฟล์ HTML เป็น PDF พร้อมกันด้วย Fixed Thread Pool ใน Aspose.HTML for Java เพื่อเพิ่มประสิทธิภาพการประมวลผล
+### [บันทึก HTML เป็น Markdown ใน Java – คู่มือเต็มขั้นตอน‑ต่อ‑ขั้นตอน](./save-html-as-markdown-in-java-complete-step-by-step-guide/)
+เรียนรู้วิธีบันทึกไฟล์ HTML เป็นรูปแบบ Markdown ใน Java ด้วย Aspose.HTML อย่างละเอียดและง่ายต่อการทำตาม
 
 ## คำถามที่พบบ่อย
 
@@ -286,7 +295,7 @@ Aspose.HTML for Java ทำให้กระบวนการแปลง HTML
 **ถาม: เป็นไปได้ไหมที่จะปรับแต่งข้อมูลเมตา PDF ระหว่างการแปลง?**
 ก. ใช่. คุณสามารถตั้งชื่อเรื่อง ผู้แต่ง หัวเรื่อง และคำหลักผ่านออบเจ็กต์ `PdfSaveOptions` ก่อนบันทึก
 **คำถาม: ตรวจสอบเมตาดาต้า PDF สามารถตรวจสอบได้หรือไม่**
-**คำตอบ:** ได้. ตั้งหัวข้อ, ต่อไป, หัวข้อ, และที่สำคัญผ่านอ็อบเจกต์ `PdfSaveOptions` ก่อนบันทึก
+**คำตอบ:** ได้. ตั้งหัวข้อ, ต่อไป, หหัวข้อ, และที่สำคัญผ่านอ็อบเจกต์ `PdfSaveOptions` ก่อนบันทึก
 
 ---
 

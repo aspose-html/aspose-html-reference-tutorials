@@ -167,6 +167,8 @@ Aspose.HTML позволяет прикрепить `DomMutationObserver` к л�
 ### [Java многопоточность: выполнение задач параллельно с фиксированным пулом потоков](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
 Узнайте, как с помощью фиксированного пула потоков выполнять несколько задач одновременно в Java, улучшая производительность приложений.
 ### [Как выполнить JavaScript в Java – Полное руководство по добавлению элементов в body](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
+### [Как установить DPI при конвертации SVG в PNG с Aspose – руководство для Java](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
+Узнайте, как задать разрешение DPI при преобразовании SVG‑изображений в PNG с помощью Aspose.HTML for Java.
 
 ---
 

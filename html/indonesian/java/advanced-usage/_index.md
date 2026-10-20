@@ -175,6 +175,9 @@ Pelajari cara mengaktifkan JavaScript dalam Java HTMLDocument menggunakan Aspose
 ### [Cara Menjalankan JavaScript di Java – Panduan Lengkap Menambahkan Elemen ke Body](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
 Pelajari cara mengeksekusi kode JavaScript dalam aplikasi Java dan menambahkan elemen baru ke elemen body secara dinamis.
 
+### [Cara Mengatur DPI Saat Mengonversi SVG ke PNG dengan Aspose – Panduan Java](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
+Pelajari cara mengatur DPI saat mengonversi file SVG ke PNG menggunakan Aspose.HTML untuk Java.
+
 ---
 
 **Terakhir Diperbarui:** 2025-11-29  

@@ -170,6 +170,8 @@ Aspose.HTML for Java का उपयोग करके Java HTMLDocument म�
 फिक्स्ड थ्रेड पूल का उपयोग करके जावा में टास्क को समानांतर रूप से चलाने की प्रक्रिया सीखें।
 ### [Java में JavaScript चलाना – बॉडी में तत्व जोड़ने का पूर्ण गाइड](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
 Java एप्लिकेशन में JavaScript का उपयोग करके बॉडी में तत्व कैसे जोड़ें, इस पूर्ण गाइड में सीखें।  
+### [Aspose के साथ SVG को PNG में बदलते समय DPI सेट करना – Java गाइड](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
+Aspose का उपयोग करके SVG को PNG में बदलते समय DPI कैसे सेट करें, इस Java गाइड में सीखें।  
 
 ---
 

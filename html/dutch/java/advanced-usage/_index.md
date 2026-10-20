@@ -165,6 +165,8 @@ Leer hoe je JavaScript kunt uitvoeren binnen Java‑applicaties met Aspose.HTML,
 ### [Java multithreading‑tutorial: taken parallel uitvoeren met vaste thread‑pool](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
 ### [JavaScript uitvoeren in Java – Complete gids voor het toevoegen van elementen aan de body](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
 Leer hoe je met Aspose.HTML JavaScript kunt uitvoeren en dynamisch elementen aan de body van een HTML‑document kunt toevoegen.
+### [Hoe DPI in te stellen bij het converteren van SVG naar PNG met Aspose – Java‑gids](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
+Leer hoe je de DPI-waarde instelt bij het omzetten van SVG‑bestanden naar PNG met Aspose.HTML for Java.
 
 ---
 

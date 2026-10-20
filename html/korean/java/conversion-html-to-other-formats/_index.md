@@ -134,6 +134,13 @@ Aspose.HTML를 사용하여 Java에서 PDF 페이지 크기를 지정하는 방�
 Aspose.HTML를 활용해 Java에서 HTML을 PDF로 변환하는 전체 과정을 단계별로 안내합니다.
 ### [Java에서 HTML을 PDF로 변환 – 전체 배치 변환 가이드](./create-pdf-from-html-in-java-full-batch-conversion-guide/)
 Aspose.HTML를 사용하여 Java에서 여러 HTML 파일을 한 번에 PDF로 변환하는 전체 배치 변환 프로세스를 단계별로 안내합니다.
+### [Java로 HTML을 PDF로 변환 – 전체 가이드](./convert-html-to-pdf-with-java-full-guide/)
+Aspose.HTML를 사용하여 Java에서 HTML을 PDF로 변환하는 전체 가이드를 확인하세요.
+### [Java에서 HTML을 PDF로 변환 – 단계별 가이드](./convert-html-to-pdf-in-java-step-by-step-guide/)
+Aspose.HTML를 사용하여 Java에서 HTML을 PDF로 변환하는 단계별 과정을 안내합니다.
+### [HTML을 PDF로 저장 – 고정 스레드 풀을 사용한 병렬 배치 변환 (Java)](./save-html-as-pdf-parallel-batch-conversion-using-fixed-threa/)
+### [Java에서 HTML을 Markdown으로 저장 – 완전 단계별 가이드](./save-html-as-markdown-in-java-complete-step-by-step-guide/)
+Aspose.HTML를 사용하여 Java에서 HTML을 Markdown 형식으로 변환하는 전체 과정을 단계별로 안내합니다.
 ### [HTML을 MHTML로 변환](./convert-html-to-mhtml/)
 Aspose.HTML for Java를 사용하여 HTML을 MHTML로 손쉽게 변환합니다. 효율적인 HTML‑to‑MHTML 변환을 위한 단계별 가이드를 따라 주세요.
 ### [Aspose.HTML를 사용하여 HTML을 MHTML로 변환 – 완전한 Java 가이드](./convert-html-to-mhtml-with-aspose-html-complete-java-guide/)
@@ -225,6 +232,8 @@ Aspose.HTML for Java를 사용하여 HTML을 EPUB 전자책으로 변환하고 �
 Aspose.HTML와 Java ExecutorService를 활용해 멀티스레드 환경에서 HTML을 PDF로 변환하는 전체 가이드를 제공합니다.
 ### [java html to pdf – Aspose를 사용하여 HTML을 PDF/A‑2b로 변환](./java-html-to-pdf-convert-html-to-pdf-a-2b-with-aspose/)
 Aspose.HTML for Java를 사용해 HTML을 PDF/A‑2b 표준으로 변환하는 방법을 단계별로 안내합니다.
+### [Aspose HTML to PDF(Java)에서 JavaScript 활성화 방법](./how-to-enable-javascript-in-aspose-html-to-pdf-java/)
+Aspose.HTML for Java에서 JavaScript를 활성화하여 동적 콘텐츠를 PDF로 변환하는 방법을 안내합니다.
 
 ### [Aspose HTML을 사용하여 PDF 페이지 크기 설정 – 전체 Java 가이드](./set-pdf-page-size-with-aspose-html-full-java-guide/)
 Aspose.HTML를 사용하여 Java에서 PDF 페이지 크기를 설정하는 전체 단계별 가이드를 제공합니다.

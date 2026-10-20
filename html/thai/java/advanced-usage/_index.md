@@ -181,6 +181,8 @@ Aspose.HTML ให้คุณแนบ `DomMutationObserver` ไปยังโ
 ### [บทแนะนำการทำงานหลายเธรด Java: รันงานแบบขนานด้วย Fixed Thread Pool](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
 เรียนรู้วิธีใช้ Fixed Thread Pool ใน Java เพื่อรันงานหลายงานพร้อมกันอย่างมีประสิทธิภาพ  
 ### [รัน JavaScript ใน Java – คู่มือฉบับสมบูรณ์การเพิ่มองค์ประกอบลงใน Body](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
+### [วิธีตั้งค่า DPI เมื่อแปลง SVG เป็น PNG ด้วย Aspose – Java Guide](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
+เรียนรู้วิธีตั้งค่า DPI ขณะแปลงไฟล์ SVG เป็น PNG ด้วย Aspose.HTML for Java เพื่อควบคุมความละเอียดของภาพ  
 
 ---
 
