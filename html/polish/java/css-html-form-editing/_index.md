@@ -103,6 +103,8 @@ Dowiedz się, jak w Javie odczytać style CSS i uzyskać styl obliczony przy uż
 Dowiedz się, jak programowo pobierać style CSS elementów HTML w Javie przy użyciu Aspose.HTML, krok po kroku.
 ### [Jak odczytać CSS w Javie – symulacja ekranu mobilnego i testowanie zapytań medialnych](./how-to-read-css-in-java-simulate-mobile-screen-test-media-qu/)
 Dowiedz się, jak w Javie odczytywać CSS, symulować ekran mobilny i testować zapytania medialne przy użyciu Aspose.HTML.
+### [Jak załadować HTML w Javie – Pełny przewodnik z ekstrakcją kolorów CSS](./how-to-load-html-in-java-full-guide-with-css-color-extractio/)
+Dowiedz się, jak w Javie wczytać HTML i wyodrębnić kolory CSS przy użyciu Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

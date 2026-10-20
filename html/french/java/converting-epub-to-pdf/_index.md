@@ -97,6 +97,8 @@ Apprenez à convertir rapidement vos eBooks EPUB en PDF avec Java grâce à Aspo
 Apprenez à convertir EPUB en PDF en Java en ajoutant une table des matières grâce à un guide complet.
 ### [Conversion d'EPUB en PDF avec des polices intégrées en Java](./convert-epub-to-pdf-with-embedded-fonts-in-java/)
 Apprenez à intégrer des polices lors de la conversion d'EPUB en PDF avec Aspose.HTML for Java pour des documents PDF riches et fidèles.
+### [Conversion d'EPUB en PDF avec taille de police personnalisée – Guide Java](./convert-epub-to-pdf-with-custom-font-size-java-guide/)
+Apprenez à définir une taille de police personnalisée lors de la conversion d'EPUB en PDF avec Aspose.HTML for Java.
 
 ### [Conversion d'EPUB en PDF avec Java – Guide étape par étape](./convert-epub-to-pdf-with-java-step-by-step-guide/)
 Suivez ce guide complet pour convertir des fichiers EPUB en PDF avec Java en quelques étapes simples.

@@ -244,6 +244,10 @@ Dowiedz się, jak przy użyciu Aspose.HTML w Javie konwertować dokumenty HTML d
 Dowiedz się, jak przy użyciu Aspose.HTML w Javie przekształcić HTML w plik EPUB, tworząc e‑booki o wysokiej jakości.
 ### [Konwertowanie HTML do PDF w Javie – Przykład równoległy Aspose](./convert-html-to-pdf-in-java-aspose-parallel-example/)
 Pokaż, jak używać Aspose.HTML w Javie do równoległej konwersji HTML do PDF, zwiększając wydajność przetwarzania.
+### [Samouczek HTML do PDF – Konwertuj HTML do PDF w jednej linii w Javie](./html-to-pdf-tutorial-convert-html-to-pdf-in-one-line-with-ja/)
+Dowiedz się, jak w jednej linii kodu przekształcić HTML w PDF przy użyciu Aspose.HTML for Java.
+### [Tworzenie PDF z HTML przy użyciu wątków Java – Pełny przewodnik](./create-pdf-from-html-with-java-threads-full-guide/)
+Dowiedz się, jak generować pliki PDF z HTML równolegle przy użyciu wątków w Javie, aby zwiększyć wydajność konwersji.
 
 ### [Utwórz PDF z HTML w Javie – Kompletny przewodnik krok po kroku](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
 Dowiedz się, jak utworzyć PDF z HTML w Javie przy użyciu Aspose.HTML. Przejdź przez kompletny przewodnik krok po kroku.

@@ -145,6 +145,17 @@ weight: 24
 ### [使用 Aspose.HTML 沙盒將 HTML 渲染為 PNG – 完整 Java 指南](./render-html-to-png-with-aspose-html-sandbox-full-java-guide/)
 使用 Aspose.HTML 沙盒在 Java 中將 HTML 渲染為 PNG，提供完整步驟與範例代碼，快速上手高品質圖像輸出。
 
+### [將 HTML 轉換為 PNG（完整步驟指南）](./convert-html-to-png-in-java-complete-step-by-step-guide/)
+提供完整步驟指南，教您在 Java 中使用 Aspose.HTML 將 HTML 轉換為 PNG 圖像。
+
+### [如何使用 Aspose 執行 JavaScript 並將 HTML 渲染為 PNG](./how-to-run-javascript-and-render-html-to-png-with-aspose/)
+說明如何在 Java 中執行 JavaScript，並使用 Aspose.HTML 產生 PNG 圖像。
+
+### [在 Java 中將 HTML 渲染為 PNG – 添加 Bearer Token 與自訂標頭](./render-html-to-png-in-java-add-bearer-token-custom-headers/)
+說明如何在 Java 使用 Aspose.HTML 透過 Bearer Token 與自訂 HTTP 標頭取得 HTML，並渲染為 PNG 圖像。
+
+### [如何在將 SVG 轉換為 PNG 時設定 DPI – Java 指南](./how-to-set-dpi-when-converting-svg-to-png-java-guide/)
+
 ### [將 HTML 轉換為 WebP](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 ### [將 HTML 轉換為 WebP（完整步驟指南）](./how-to-convert-html-to-webp-in-java-complete-step-by-step-gu/)
 完整的 Java 教學，說明如何使用 Aspose.HTML 將 HTML 轉換為 WebP 圖像，提供程式碼範例與最佳化技巧。

@@ -127,6 +127,15 @@ weight: 24
 
 ### [使用 Aspose.HTML 将 HTML 渲染为 PNG – 完整 Java 指南](./render-html-to-png-with-aspose-html-complete-java-guide/)
 
+### [如何使用 Aspose 运行 JavaScript 并将 HTML 渲染为 PNG](./how-to-run-javascript-and-render-html-to-png-with-aspose/)
+
+### [Convert HTML to PNG in Java – Complete Step‑by‑Step Guide](./convert-html-to-png-in-java-complete-step-by-step-guide/)
+
+### [在 Java 中渲染 HTML 为 PNG – 添加 Bearer Token 与自定义请求头](./render-html-to-png-in-java-add-bearer-token-custom-headers/)
+
+### [如何在将 SVG 转换为 PNG 时设置 DPI – Java 指南](./how-to-set-dpi-when-converting-svg-to-png-java-guide/)
+了解如何在使用 Aspose.HTML for Java 将 SVG 转换为 PNG 时设置 DPI，以获得所需分辨率的图像。
+
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
 
 ### [将 HTML 转换为 WebP](./convert-html-to-webp-complete-java-guide-with-aspose-html/)

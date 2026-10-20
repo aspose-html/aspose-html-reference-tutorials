@@ -107,6 +107,8 @@ url: /el/java/css-html-form-editing/
 ### [Πώς να διαβάσετε CSS σε Java – Προσομοίωση κινητής οθόνης & Δοκιμή Media Queries](./how-to-read-css-in-java-simulate-mobile-screen-test-media-qu/)
 Μάθετε πώς να διαβάζετε CSS σε Java, να προσομοιώνετε κινητές οθόνες και να ελέγχετε media queries για βέλτιστη απόκριση.
 
+### [Πώς να φορτώσετε HTML σε Java – Πλήρης Οδηγός με Εξαγωγή Χρώματος CSS](./how-to-load-html-in-java-full-guide-with-css-color-extractio/)
+Μάθετε πώς να φορτώνετε HTML σε Java και να εξάγετε χρώματα CSS με έναν πλήρη οδηγό βήμα προς βήμα.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

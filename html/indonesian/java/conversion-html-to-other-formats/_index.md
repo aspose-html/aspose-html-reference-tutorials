@@ -168,8 +168,6 @@ Pelajari cara mengonversi HTML ke XPS dengan mudah menggunakan Aspose.HTML untuk
 ### [Membuat PDF dari Markdown menggunakan Aspose HTML Converter (Java)](./create-pdf-from-markdown-using-aspose-html-converter-java/)
 Pelajari cara mengonversi file Markdown menjadi PDF di Java menggunakan Aspose.HTML Converter.
 
-### [Membuat PDF dari Markdown di Java – Panduan Langkah‑demi‑Langkah](./create-pdf-from-markdown-in-java-step-by-step-guide/)
-Panduan langkah‑demi‑langkah untuk membuat PDF dari file Markdown di Java menggunakan Aspose.HTML.
 ### [Mengonversi HTML ke Markdown di Java – Panduan Lengkap Langkah‑demi‑Langkah](./convert-html-to-markdown-in-java-full-step-by-step-guide/)
 Pelajari cara mengonversi HTML menjadi Markdown di Java dengan panduan langkah demi langkah menggunakan Aspose.HTML.
 
@@ -186,6 +184,9 @@ Pelajari cara mengonversi HTML menjadi Markdown di Java dengan panduan langkah�
 Panduan lengkap untuk menghasilkan file Markdown dari HTML menggunakan Aspose.HTML di Java.
 ### [Simpan HTML sebagai Markdown di Java – Panduan Lengkap Langkah‑demi‑Langkah](./save-html-as-markdown-in-java-complete-step-by-step-guide/)
 Pelajari cara menyimpan HTML sebagai file Markdown di Java dengan panduan langkah demi langkah lengkap menggunakan Aspose.HTML.
+
+### [Buat PDF dari Markdown di Java – Panduan Langkah‑demi‑Langkah](./create-pdf-from-markdown-in-java-step-by-step-guide/)
+Pelajari cara mengonversi file Markdown menjadi PDF di Java dengan panduan langkah demi langkah menggunakan Aspose.HTML.
 
 ### [Mengonversi SVG ke Gambar](./convert-svg-to-image/)
 Pelajari cara mengonversi SVG ke gambar di Java dengan Aspose.HTML. Panduan komprehensif untuk output berkualitas tinggi.
@@ -321,6 +322,12 @@ Pelajari cara mengonversi banyak file HTML menjadi PDF secara paralel menggunaka
 
 ### [Mengonversi HTML ke PDF dengan Java – Panduan Lengkap](./convert-html-to-pdf-with-java-full-guide/)
 Pelajari cara mengonversi HTML ke PDF di Java dengan panduan lengkap kami, mencakup semua opsi konfigurasi.
+
+### [Tutorial html ke pdf – Konversi HTML ke PDF dalam Satu Baris dengan Java](./html-to-pdf-tutorial-convert-html-to-pdf-in-one-line-with-ja/)
+Pelajari cara mengonversi HTML ke PDF dalam satu baris kode menggunakan Aspose.HTML untuk Java.
+
+### [Buat PDF dari HTML dengan Thread Java – Panduan Lengkap](./create-pdf-from-html-with-java-threads-full-guide/)
+Pelajari cara menghasilkan PDF dari HTML secara paralel menggunakan thread Java dengan Aspose.HTML untuk kinerja optimal.
 
 ## Pertanyaan yang Sering Diajukan
 

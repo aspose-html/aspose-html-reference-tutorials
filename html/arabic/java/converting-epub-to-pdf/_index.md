@@ -62,6 +62,8 @@ weight: 27
 تعلم كيفية تضمين الخطوط في ملفات PDF أثناء تحويل EPUB باستخدام Aspose.HTML for Java.
 ### [تحويل EPUB إلى PDF مع تضمين الخطوط في Java](./convert-epub-to-pdf-with-embedded-fonts-in-java/)
 تعلم كيفية تحويل EPUB إلى PDF مع تضمين الخطوط باستخدام Aspose.HTML for Java.
+### [تحويل EPUB إلى PDF مع حجم خط مخصص – دليل Java](./convert-epub-to-pdf-with-custom-font-size-java-guide/)
+تعلم كيفية ضبط حجم الخط أثناء تحويل EPUB إلى PDF باستخدام Aspose.HTML for Java لتخصيص مخرجات المستند.
 
 ### [تحويل EPUB إلى BMP](./convert-epub-to-bmp/)
 تعلم كيفية تحويل EPUB إلى BMP باستخدام Aspose.HTML for Java. دليل خطوة بخطوة لتحويل المحتوى بكفاءة.

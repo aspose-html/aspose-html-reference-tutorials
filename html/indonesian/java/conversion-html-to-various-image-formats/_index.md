@@ -90,6 +90,8 @@ Menggunakan Aspose.HTML for Java menyederhanakan konversi dokumen HTML ke berbag
 ## Konversi - HTML ke Berbagai Tutorial Format Gambar
 ### [Mengonversi HTML ke BMP](./convert-html-to-bmp/)
 Konversikan HTML ke BMP dengan Aspose.HTML untuk Java. Tutorial komprehensif untuk mengkonversi dokumen HTML menjadi gambar BMP dengan mudah menggunakan Aspose.HTML untuk Java.
+### [Cara Menjalankan JavaScript dan Merender HTML ke PNG dengan Aspose](./how-to-run-javascript-and-render-html-to-png-with-aspose/)
+Pelajari cara menjalankan JavaScript dan merender HTML menjadi PNG menggunakan Aspose.HTML for Java.
 ### [Mengonversi HTML ke GIF](./convert-html-to-gif/)
 Pelajari cara mengkonversi HTML ke GIF di Java menggunakan Aspose.HTML. Panduan langkah demi langkah yang komprehensif untuk konversi HTML ke GIF yang efisien.
 ### [Buat GIF dari SVG dengan Java – Panduan Lengkap Langkah‑demi‑Langkah](./create-gif-from-svg-with-java-full-step-by-step-guide/)
@@ -108,6 +110,10 @@ Panduan lengkap mengonversi HTML ke PNG dengan mengatur warna latar dan resolusi
 ### [Mengonversi HTML ke PNG – Panduan Java untuk merender tabel HTML sebagai gambar](./convert-html-to-png-java-guide-to-rendering-html-tables-as-i/)
 ### [Mengonversi SVG ke PNG di Java – Panduan Konversi Batch](./convert-svg-to-png-in-java-batch-conversion-guide/)
 Pelajari cara mengonversi banyak file SVG menjadi PNG secara batch menggunakan Aspose.HTML untuk Java. Panduan langkah demi langkah.
+### [Mengonversi HTML ke PNG di Java – Panduan Lengkap Langkah demi Langkah](./convert-html-to-png-in-java-complete-step-by-step-guide/)
+### [Render HTML ke PNG di Java – Tambahkan Bearer Token & Header Kustom](./render-html-to-png-in-java-add-bearer-token-custom-headers/)
+Pelajari cara merender HTML ke PNG di Java dengan menambahkan Bearer Token dan header kustom menggunakan Aspose.HTML.
+### [Cara Mengatur DPI Saat Mengonversi SVG ke PNG – Panduan Java](./how-to-set-dpi-when-converting-svg-to-png-java-guide/)
 ### [Mengonversi HTML ke TIFF](./convert-html-to-tiff/)
 Pelajari cara mudah mengkonversi HTML ke TIFF menggunakan Aspose.HTML untuk Java. Panduan langkah demi langkah untuk penanganan dokumen yang efisien.
 ### [Mengonversi HTML ke WebP – Panduan Lengkap Java dengan Aspose.HTML](./convert-html-to-webp-complete-java-guide/)

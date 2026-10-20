@@ -105,6 +105,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML für Java den berechneten CSS-Stil eines E
 Erfahren Sie, wie Sie mit Aspose.HTML für Java CSS‑Stile programmgesteuert auslesen und anwenden – eine klare Schritt‑für‑Schritt‑Anleitung.
 ### [CSS in Java lesen – Mobilbildschirm simulieren & Media Queries testen](./how-to-read-css-in-java-simulate-mobile-screen-test-media-qu/)
 Erfahren Sie, wie Sie mit Aspose.HTML für Java CSS auslesen, mobile Bildschirme simulieren und Media Queries testen.
+### [HTML in Java laden – Vollständige Anleitung mit CSS-Farbauswertung](./how-to-load-html-in-java-full-guide-with-css-color-extractio/)
+Erfahren Sie, wie Sie HTML in Java laden und CSS‑Farben extrahieren, um Inhalte dynamisch zu verarbeiten – Schritt‑für‑Schritt‑Guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -65,6 +65,8 @@ Lär dig hur du bäddar in teckensnitt för att behålla korrekt formatering nä
 Lär dig hur du bäddar in teckensnitt i PDF med Aspose.HTML för Java när du konverterar EPUB till PDF, för korrekt formatering och utseende.
 ### [Konvertera EPUB till PDF med inbäddade teckensnitt i Java](./convert-epub-to-pdf-with-embedded-fonts-in-java/)
 Lär dig hur du bäddar in teckensnitt när du konverterar EPUB till PDF i Java med Aspose.HTML.
+### [Konvertera EPUB till PDF med anpassad teckenstorlek – Java‑guide](./convert-epub-to-pdf-with-custom-font-size-java-guide/)
+Lär dig hur du anger en egen teckenstorlek vid EPUB‑till‑PDF‑konvertering i Java med Aspose.HTML.
 ### [Konvertera EPUB till BMP](./convert-epub-to-bmp/)
 Lär dig hur du konverterar EPUB till BMP med Aspose.HTML for Java. Steg‑för‑steg‑guide för effektiv innehållstransformation.
 ### [Konvertera EPUB till GIF](./convert-epub-to-gif/)

@@ -123,6 +123,8 @@ Konvertálja a Markdown‑t HTML‑re Java‑ban zökkenőmentesen az Aspose.HTM
 ### [HTML átalakítása Markdownra Java‑ban – Az eredeti formázás megőrzése](./convert-html-to-markdown-in-java-preserve-original-formattin/)
 ### [HTML‑ből Markdown létrehozása Java‑ban – Lépésről‑lépésre átalakítási útmutató](./create-markdown-from-html-in-java-step-by-step-conversion-gu/)
 Ismerje meg, hogyan hozhat létre Markdown‑t HTML‑ből Java‑ban részletes, lépésről‑lépésre útmutatóval.
+### [Markdown átalakítása PDF-re Java‑ban – Lépésről‑lépésre útmutató](./create-pdf-from-markdown-in-java-step-by-step-guide/)
+Alakítsa a Markdown fájlokat PDF‑re Java‑ban az Aspose.HTML segítségével, részletes lépésről‑lépésre útmutatóval.
 Ismerje meg, hogyan konvertálhatja az SVG‑t képekké Java‑ban az Aspose.HTML‑el. Átfogó útmutató a magas minőségű kimenethez.
 Konvertálja az SVG‑t PDF‑re Java‑ban az Aspose.HTML‑el. Zökkenőmentes megoldás a magas minőségű dokumentumkonverzióhoz.
 Ismerje meg, hogyan konvertálhatja az SVG‑t XPS‑re az Aspose.HTML for Java segítségével. Egyszerű, lépésről‑lépésre útmutató a zökkenőmentes átalakításokhoz.
@@ -156,6 +158,10 @@ Ismerje meg a teljes folyamatot a HTML PDF‑re konvertálásához Java‑ban az
 ### [HTML mentése Markdown‑ként Java‑ban – Teljes lépésről‑lépésre útmutató](./save-html-as-markdown-in-java-complete-step-by-step-guide/)
 ### [HTML átalakítása PDF-re Java‑ban – Aspose párhuzamos példa](./convert-html-to-pdf-in-java-aspose-parallel-example/)
 Fedezze fel, hogyan gyorsíthatja a HTML‑PDF átalakítást párhuzamos feldolgozással Java‑ban az Aspose.HTML‑el.
+### [HTML PDF oktatóanyag – HTML konvertálása PDF‑re egy sorban Java‑val](./html-to-pdf-tutorial-convert-html-to-pdf-in-one-line-with-ja/)
+Ismerje meg, hogyan konvertálhatja a HTML‑t PDF‑re Java‑val egyetlen sor kóddal, gyorsan és egyszerűen.
+### [PDF létrehozása HTML‑ből Java szálakkal – Teljes útmutató](./create-pdf-from-html-with-java-threads-full-guide/)
+Ismerje meg, hogyan hozhat létre PDF-et HTML‑ből több szál használatával Java‑ban a teljes útmutatóban.
 
 ### [PDF létrehozása HTML‑ből Java‑ban – Kötetes konverzió útmutató](./create-pdf-from-html-in-java-batch-conversion-guide/)
 Ismerje meg, hogyan konvertálhat több HTML‑fájlt egyszerre PDF‑re Java‑ban az Aspose.HTML kötegelt feldolgozási funkcióival.
@@ -212,8 +218,6 @@ Ismerje meg, hogyan használhat szálkészletet a HTML‑PDF konvertáláshoz Ja
 ### [Fix szálkészlet létrehozása kötegelt HTML‑PDF átalakításhoz](./create-fixed-thread-pool-for-batch-html-to-pdf-conversion/)
 
 ### [HTML PDF-re konvertálása Aspose HTML‑el – Aszinkron Java útmutató](./how-to-convert-html-to-pdf-with-aspose-html-async-java-guide/)
-### [Markdownból PDF létrehozása Java‑ban – Lépésről‑lépésre útmutató](./create-pdf-from-markdown-in-java-step-by-step-guide/)
-
 ### [Aspose HTML PDF/A oktatóanyag: HTML konvertálása PDF/A‑2b‑re Java-val](./aspose-html-pdf-a-tutorial-convert-html-to-pdf-a-2b-with-jav/)
 
 ### [Hang kinyerése HTML‑ből – Hogyan nyerhet ki média‑ és videót](./extract-audio-from-html-how-to-extract-media-and-video/)

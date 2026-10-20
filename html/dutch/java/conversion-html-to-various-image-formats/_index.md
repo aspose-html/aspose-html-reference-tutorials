@@ -128,6 +128,10 @@ Leer hoe je HTML naar PNG converteert met aangepaste achtergrondkleur en resolut
 Leer hoe je HTML‑tabellen omzet naar PNG‑afbeeldingen met Aspose.HTML for Java in een eenvoudige stap‑voor‑stap gids.
 ### [HTML naar PNG renderen met Aspose.HTML – Complete Java-gids](./render-html-to-png-with-aspose-html-complete-java-guide/)
 Leer hoe je HTML naar PNG rendert met Aspose.HTML in Java. Een volledige stap‑voor‑stap gids voor optimale resultaten.
+### [HTML naar PNG converteren in Java – Complete stap‑voor‑stap gids](./convert-html-to-png-in-java-complete-step-by-step-guide/)
+Leer hoe je HTML naar PNG kunt converteren in Java met Aspose.HTML. Een volledige stap‑voor‑stap gids.
+### [Hoe DPI in te stellen bij het converteren van SVG naar PNG – Java-gids](./how-to-set-dpi-when-converting-svg-to-png-java-guide/)
+Leer hoe je de DPI-waarde kunt aanpassen bij het omzetten van SVG naar PNG met Aspose.HTML for Java.
 ### [HTML naar TIFF converteren](./convert-html-to-tiff/)
 Leer hoe je HTML eenvoudig naar TIFF kunt converteren met Aspose.HTML for Java. Stap‑voor‑stap gids voor efficiënte documentafhandeling.
 ### [HTML naar WebP – Complete Java-gids met Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
@@ -187,6 +191,9 @@ Leer hoe je SVG‑bestanden met hoge resolutie naar PNG kunt omzetten in Java me
 Leer hoe je HTML naar PNG kunt renderen met de Aspose.HTML Sandbox in Java. Een stap‑voor‑stap handleiding voor snelle, veilige conversie.
 ### [SVG naar PNG converteren in Java – Batchconversiegids](./convert-svg-to-png-in-java-batch-conversion-guide/)
 Leer hoe je SVG-bestanden batchgewijs naar PNG kunt converteren in Java met Aspose.HTML. Een stapsgewijze handleiding.
+### [Hoe JavaScript uit te voeren en HTML naar PNG te renderen met Aspose](./how-to-run-javascript-and-render-html-to-png-with-aspose/)
+### [HTML naar PNG renderen in Java – Bearer‑token en aangepaste headers toevoegen](./render-html-to-png-in-java-add-bearer-token-custom-headers/)
+Leer hoe je met Aspose.HTML for Java HTML rendert naar PNG en daarbij een Bearer‑token en aangepaste HTTP‑headers gebruikt.
 
 ## Veelgestelde vragen
 

@@ -67,6 +67,8 @@ Panduan langkah demi langkah menyematkan font ke PDF saat mengonversi EPUB mengg
 Pelajari cara menambahkan daftar isi saat mengonversi EPUB ke PDF di Java dengan panduan lengkap ini.
 ### [Mengonversi EPUB ke PDF dengan Font Tertanam di Java](./convert-epub-to-pdf-with-embedded-fonts-in-java/)
 Pelajari cara menyematkan font saat mengonversi EPUB ke PDF menggunakan Aspose.HTML for Java.
+### [Mengonversi EPUB ke PDF dengan Ukuran Font Kustom – Panduan Java](./convert-epub-to-pdf-with-custom-font-size-java-guide/)
+Pelajari cara mengonversi EPUB ke PDF dengan ukuran font khusus menggunakan Aspose.HTML for Java.
 ### [Mengonversi EPUB ke BMP](./convert-epub-to-bmp/)
 Pelajari cara mengonversi EPUB ke BMP menggunakan Aspose.HTML for Java. Panduan langkah demi langkah untuk transformasi konten yang efisien.
 ### [Mengonversi EPUB ke GIF](./convert-epub-to-gif/)

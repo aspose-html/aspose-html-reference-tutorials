@@ -103,6 +103,8 @@ Scopri come recuperare gli stili CSS di elementi HTML usando Aspose.HTML per Jav
 Scopri come ottenere lo stile calcolato di un elemento HTML usando Aspose.HTML per Java in questa guida passo passo.
 ### [Come leggere CSS in Java – Simulare schermo mobile e testare le media query](./how-to-read-css-in-java-simulate-mobile-screen-test-media-qu/)
 Impara a leggere i CSS in Java, simulare schermi mobili e verificare le media query per garantire un rendering corretto.
+### [Come caricare HTML in Java – Guida completa con estrazione dei colori CSS](./how-to-load-html-in-java-full-guide-with-css-color-extractio/)
+Scopri come caricare pagine HTML in Java e estrarre i colori CSS con Aspose.HTML in questa guida passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

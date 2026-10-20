@@ -338,6 +338,12 @@ Erfahren Sie, wie Sie HTML‑Dateien parallel mit einem Fixed‑Thread‑Pool in
 ### [HTML als Markdown speichern in Java – Vollständige Schritt‑für‑Schritt‑Anleitung](./save-html-as-markdown-in-java-complete-step-by-step-guide/)
 Erfahren Sie, wie Sie HTML in Java mit Aspose.HTML in Markdown konvertieren. Eine vollständige Schritt‑für‑Schritt‑Anleitung.
 
+### [HTML‑zu‑PDF‑Tutorial – HTML in einem Schritt mit Java in PDF konvertieren](./html-to-pdf-tutorial-convert-html-to-pdf-in-one-line-with-ja/)
+Erfahren Sie, wie Sie HTML mit einer einzigen Zeile Java‑Code in ein PDF‑Dokument umwandeln.
+
+### [PDF aus HTML mit Java-Threads erstellen – Vollständige Anleitung](./create-pdf-from-html-with-java-threads-full-guide/)
+Erfahren Sie, wie Sie mit Java-Threads mehrere HTML‑Dateien parallel zu PDFs konvertieren und die Leistung optimieren.
+
 ## Häufig gestellte Fragen
 
 **Q: Kann ich Aspose.HTML für Java in einer kommerziellen Anwendung verwenden?**  

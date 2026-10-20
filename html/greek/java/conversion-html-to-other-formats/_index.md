@@ -258,6 +258,10 @@ weight: 25
 ### [Αποθήκευση HTML ως PDF – Παράλληλη Μετατροπή σε Παρτίδες με Σταθερό Πισίνα Νημάτων Java](./save-html-as-pdf-parallel-batch-conversion-using-fixed-threa/)
 ### [Αποθήκευση HTML ως Markdown σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./save-html-as-markdown-in-java-complete-step-by-step-guide/)
 
+### [Μαθήματα HTML σε PDF – Μετατροπή HTML σε PDF με μία γραμμή κώδικα Java](./html-to-pdf-tutorial-convert-html-to-pdf-in-one-line-with-ja/)
+
+### [Δημιουργία PDF από HTML με νήματα Java – Πλήρης Οδηγός](./create-pdf-from-html-with-java-threads-full-guide/)
+
 ## Συχνές Ερωτήσεις
 
 **Q: Μπορώ να χρησιμοποιήσω το Aspose.HTML for Java σε εμπορική εφαρμογή;**  

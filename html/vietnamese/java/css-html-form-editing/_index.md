@@ -103,6 +103,8 @@ Hướng dẫn chi tiết cách lấy style từ tài liệu HTML trong Java b�
 Tìm hiểu cách lấy style đã tính toán trong Java bằng Aspose.HTML qua hướng dẫn chi tiết và đầy đủ.
 ### [Cách Đọc CSS trong Java – Mô phỏng Màn hình Di động & Kiểm tra Media Queries](./how-to-read-css-in-java-simulate-mobile-screen-test-media-qu/)
 Hướng dẫn cách đọc CSS trong Java, mô phỏng màn hình di động và kiểm tra các media query một cách dễ dàng.
+### [Cách tải HTML trong Java – Hướng dẫn đầy đủ với trích xuất màu CSS](./how-to-load-html-in-java-full-guide-with-css-color-extractio/)
+Hướng dẫn chi tiết cách tải tài liệu HTML trong Java và trích xuất màu sắc từ CSS bằng Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

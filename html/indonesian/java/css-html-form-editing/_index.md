@@ -103,6 +103,8 @@ Pelajari cara membaca CSS di Java dan memperoleh nilai gaya terhitung untuk elem
 Pelajari cara mengambil gaya CSS pada elemen HTML menggunakan Aspose.HTML untuk Java dalam panduan langkah demi langkah ini.
 ### [Cara Membaca CSS di Java – Simulasikan Layar Mobile & Uji Media Queries](./how-to-read-css-in-java-simulate-mobile-screen-test-media-qu/)
 Pelajari cara membaca file CSS di Java, mensimulasikan tampilan seluler, dan menguji media queries secara terprogram.
+### [Cara Memuat HTML di Java – Panduan Lengkap dengan Ekstraksi Warna CSS](./how-to-load-html-in-java-full-guide-with-css-color-extractio/)
+Pelajari cara memuat file HTML di Java dan mengekstrak warna CSS secara terprogram dalam panduan lengkap ini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -109,6 +109,8 @@ Découvrez comment récupérer le style calculé d'un élément HTML en Java ave
 ### [Comment lire le CSS en Java – Simuler un écran mobile et tester les media queries](./how-to-read-css-in-java-simulate-mobile-screen-test-media-qu/)
 Apprenez à analyser les fichiers CSS en Java, à simuler un écran mobile et à vérifier le comportement des media queries.
 
+### [Comment charger du HTML en Java – Guide complet avec extraction de couleur CSS](./how-to-load-html-in-java-full-guide-with-css-color-extractio/)
+Apprenez à charger des fichiers HTML en Java et à extraire les couleurs CSS grâce à Aspose.HTML, avec un guide complet pas à pas.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

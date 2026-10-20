@@ -102,6 +102,8 @@ Ismerje meg, hogyan szerezheti meg a CSS‑stílusokat Java‑ban az Aspose.HTML
 Ismerje meg, hogyan szerezheti meg egy elem számított CSS-stílusát Java-ban az Aspose.HTML segítségével.
 ### [Hogyan olvassuk a CSS-t Java-ban – Mobil képernyő szimulálása és média lekérdezések tesztelése](./how-to-read-css-in-java-simulate-mobile-screen-test-media-qu/)
 Ismerje meg, hogyan olvashatja a CSS-t Java-ban, szimulálhat mobil képernyőt és tesztelheti a média lekérdezéseket.
+### [HTML betöltése Java-ban – Teljes útmutató CSS színkivonattal](./how-to-load-html-in-java-full-guide-with-css-color-extractio/)
+Ismerje meg, hogyan tölthet be HTML-t Java-ban, és hogyan nyerhet ki színeket a CSS-ből lépésről lépésre.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

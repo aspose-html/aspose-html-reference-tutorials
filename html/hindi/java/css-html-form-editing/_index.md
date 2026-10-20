@@ -104,6 +104,8 @@ Java में Aspose.HTML का उपयोग करके स्टाइ�
 Java में Aspose.HTML का उपयोग करके किसी एलिमेंट का गणना किया गया स्टाइल कैसे प्राप्त करें, इस पूर्ण गाइड में सीखें।
 ### [Java में CSS पढ़ना – मोबाइल स्क्रीन सिमुलेशन और मीडिया क्वेरीज़ परीक्षण](./how-to-read-css-in-java-simulate-mobile-screen-test-media-qu/)
 Java में Aspose.HTML का उपयोग करके CSS पढ़ें, मोबाइल स्क्रीन सिमुलेट करें और मीडिया क्वेरीज़ का परीक्षण करें।
+### [Java में HTML लोड करने का तरीका – CSS रंग निष्कर्षण के साथ पूर्ण गाइड](./how-to-load-html-in-java-full-guide-with-css-color-extractio/)
+Java में Aspose.HTML का उपयोग करके HTML लोड करना और CSS से रंग निकालना सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -75,7 +75,7 @@ Hafif Markdown dosyalarını zengin HTML işaretlemesine dönüştürün, web da
 SVG vektörlerinden yüksek çözünürlüklü PNG veya JPEG görüntüler üretin, her türlü sonraki kullanım için.
 
 ### SVG'yi PDF'ye Dönüştürme
-Piksel bozulması olmadan ölçeklenebilen vektör grafikler içeren PDF dosyaları üretin.
+Piksel bozulması olmadan ölçeklenebilen SVG grafikler içeren PDF dosyaları üretin.
 
 ### SVG'yi XPS'ye Dönüştürme
 SVG grafiklerini cihazlar arasında tutarlı baskı için XPS formatına dönüştürün.
@@ -277,6 +277,10 @@ Aspose.HTML for Java kullanarak HTML dosyalarını PDF/A‑2b standardına uygun
 Java’da sabit iş parçacığı havuzu ile birden çok HTML dosyasını aynı anda PDF’ye dönüştürmeyi öğrenin.
 ### [HTML'yi PDF'ye Dönüştürme – Aspose Paralel Örneği](./convert-html-to-pdf-in-java-aspose-parallel-example/)
 Aspose.HTML kullanarak paralel işleme ile HTML'den PDF'ye hızlı dönüşüm örneği.
+### [HTML'den PDF'ye öğretici – Java ile Tek Satırda HTML'yi PDF'ye Dönüştürme](./html-to-pdf-tutorial-convert-html-to-pdf-in-one-line-with-ja/)
+Java kodu ile tek bir satırda HTML dosyasını PDF'ye dönüştürün.
+### [Java İş Parçacıklarıyla HTML'den PDF Oluşturma – Tam Kılavuz](./create-pdf-from-html-with-java-threads-full-guide/)
+Java çoklu iş parçacığı kullanarak HTML'den PDF oluşturmayı adım adım gösteren kapsamlı rehber.
 
 ## Sıkça Sorulan Sorular
 

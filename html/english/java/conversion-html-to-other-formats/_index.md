@@ -178,6 +178,9 @@ Learn how to embed images correctly when converting MHTML files to PDF using Asp
 
 ### [Create MHTML File from HTML – Complete Java Guide](./create-mhtml-file-from-html-complete-java-guide/)
 Step-by-step guide to generate MHTML files from HTML using Aspose.HTML for Java, covering setup, options, and best practices.
+### [Create PDF from HTML with Java Threads – Full Guide](./create-pdf-from-html-with-java-threads-full-guide/)
+Learn how to generate PDFs from HTML using multithreading in Java with Aspose.HTML for improved performance and scalability.
+
 ### [Converting HTML to XPS](./convert-html-to-xps/)
 Learn how to effortlessly convert HTML to XPS using Aspose.HTML for Java. Create cross-platform documents with ease.
 
@@ -325,6 +328,9 @@ Comprehensive guide to converting HTML to PDF using Aspose.HTML for Java, coveri
 Learn how to enable JavaScript execution during HTML to PDF conversion with Aspose.HTML for Java for dynamic content rendering.
 ### [save html as pdf – Parallel Batch Conversion Using Fixed Thread Pool Java](./save-html-as-pdf-parallel-batch-conversion-using-fixed-threa/)
 Learn how to perform parallel batch HTML to PDF conversion using a fixed thread pool in Java with Aspose.HTML.
+
+### [html to pdf tutorial – Convert HTML to PDF in One Line with Java](./html-to-pdf-tutorial-convert-html-to-pdf-in-one-line-with-ja/)
+Convert HTML to PDF in a single line of Java code using Aspose.HTML, simplifying your document generation workflow.
 
 ## Frequently Asked Questions
 

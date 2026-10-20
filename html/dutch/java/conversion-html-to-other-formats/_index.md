@@ -163,6 +163,8 @@ Leer hoe u HTML naar Markdown kunt converteren in Java met een gedetailleerde st
 ### [Markdown maken van HTML met Aspose.HTML – Complete Java-gids](./create-markdown-from-html-with-aspose-html-complete-java-gui/)
 Leer hoe u met Aspose.HTML HTML naar Markdown converteert in Java met een volledige stap‑voor‑stap gids.
 
+### [PDF maken vanuit Markdown in Java – Stapsgewijze gids](./create-pdf-from-markdown-in-java-step-by-step-guide/)
+Leer hoe u Markdown‑bestanden omzet naar PDF in Java met Aspose.HTML, stap voor stap met voorbeeldcode.
 ### [SVG naar afbeelding converteren](./convert-svg-to-image/)
 Leer hoe u SVG naar afbeeldingen kunt converteren in Java met Aspose.HTML. Uitgebreide gids voor output van hoge kwaliteit.
 
@@ -219,8 +221,6 @@ Leer hoe u Aspose gebruikt om HTML batch‑gewijs naar PDF te converteren in Jav
 Leer hoe u met Aspose.HTML for Java HTML‑documenten omzet naar PDF/A‑2b, een ISO‑gestandaardiseerd archiefformaat.
 ### [Audio extraheren uit HTML – Hoe media en video te extraheren](./extract-audio-from-html-how-to-extract-media-and-video/)
 Ontdek hoe u audio‑ en videobestanden uit HTML‑inhoud kunt halen met Aspose.HTML for Java.
-### [PDF maken vanuit Markdown in Java – Stapsgewijze gids](./create-pdf-from-markdown-in-java-step-by-step-guide/)
-
 ### [PDF maken van HTML in Java – Complete stapsgewijze gids](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
 Leer hoe u stap‑voor‑stap een PDF maakt van HTML in Java met Aspose.HTML, inclusief volledige configuratie‑opties.
 ### [Hoe offset instellen bij het converteren van HTML naar Markdown in Java](./how-to-set-offset-when-converting-html-to-markdown-in-java/)
@@ -266,6 +266,9 @@ Leer hoe u met Aspose.HTML HTML converteert naar PDF/A‑2b in Java, inclusief a
 ### [HTML opslaan als Markdown in Java – Complete stapsgewijze gids](./save-html-as-markdown-in-java-complete-step-by-step-guide/)
 ### [HTML naar PDF converteren in Java – Aspose Parallel-voorbeeld](./convert-html-to-pdf-in-java-aspose-parallel-example/)
 Leer hoe u met Aspose.HTML meerdere HTML‑naar‑PDF conversies parallel kunt uitvoeren voor betere prestaties.
+### [HTML naar PDF tutorial – Converteer HTML naar PDF in één regel met Java](./html-to-pdf-tutorial-convert-html-to-pdf-in-one-line-with-ja/)
+Leer hoe u met één regel code HTML naar PDF kunt converteren in Java met Aspose.HTML.
+### [PDF maken vanuit HTML met Java-threads – Volledige gids](./create-pdf-from-html-with-java-threads-full-guide/)
 
 ## Veelgestelde Vragen
 

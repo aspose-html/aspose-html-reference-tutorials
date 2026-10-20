@@ -102,6 +102,8 @@ Naučte se, jak pomocí Aspose.HTML vytvořit PDF z HTML v Javě s podrobným na
 Naučte se, jak pomocí Aspose.HTML v Javě vytvořit PDF z HTML souboru krok za krokem s podrobným nastavením.
 ### [Jak povolit JavaScript v Aspose HTML do PDF (Java)](./how-to-enable-javascript-in-aspose-html-to-pdf-java/)
 Naučte se, jak povolit vykonávání JavaScriptu při konverzi HTML do PDF pomocí Aspose.HTML for Java.
+### [HTML do PDF tutoriál – Převod HTML do PDF jedním řádkem v Javě](./html-to-pdf-tutorial-convert-html-to-pdf-in-one-line-with-ja/)
+Naučte se převést HTML do PDF v jediném řádku kódu pomocí Aspose.HTML for Java.
 ### [Převod HTML do MHTML](./convert-html-to-mhtml/)
 Jednoduše převádějte HTML do MHTML pomocí Aspose.HTML for Java. Postupujte podle našeho krok‑za‑krokem průvodce pro efektivní konverzi HTML‑to‑MHTML.
 ### [Vytvoření PDF z HTML v Javě – Kompletní průvodce Aspose](./create-pdf-from-html-in-java-complete-aspose-guide/)
@@ -266,6 +268,8 @@ Ukazuje, jak pomocí pevného thread poolu provádět paralelní konverzi více 
 Naučte se, jak převést HTML soubory na Markdown v Javě pomocí Aspose.HTML s podrobným návodem krok za krokem.
 ### [Převod HTML do PDF v Javě – nastavení velikosti stránky a okrajů](./convert-html-to-pdf-in-java-set-page-size-margins/)
 ### [Převod HTML do PDF v Javě – Aspose paralelní příklad](./convert-html-to-pdf-in-java-aspose-parallel-example/)
+### [Vytvoření PDF z HTML pomocí vláken v Javě – kompletní průvodce](./create-pdf-from-html-with-java-threads-full-guide/)
+Naučte se generovat PDF z HTML souborů paralelně pomocí více vláken v Javě s Aspose.HTML.
 
 ## Často kladené otázky
 

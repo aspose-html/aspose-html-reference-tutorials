@@ -109,6 +109,8 @@ Aspose.HTML for Java を使って、HTML 要素のスタイル情報を取得す
 この完全ガイドでは、Aspose.HTML for Java を使用して要素の計算済みスタイルを取得する方法をステップバイステップで解説します。
 ### [JavaでCSSを読み取る方法 – モバイル画面をシミュレートしメディアクエリをテスト](./how-to-read-css-in-java-simulate-mobile-screen-test-media-qu/)
 JavaでCSSを解析し、モバイル画面をエミュレートしてメディアクエリの動作を検証する手順を解説します。
+### [JavaでHTMLを読み込む方法 – CSSカラー抽出を含む完全ガイド](./how-to-load-html-in-java-full-guide-with-css-color-extractio/)
+JavaでHTMLをロードし、CSSから色情報を抽出する手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

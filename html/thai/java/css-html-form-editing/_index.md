@@ -105,6 +105,8 @@ url: /th/java/css-html-form-editing/
 เรียนรู้วิธีดึงสไตล์ที่คำนวณจากองค์ประกอบ HTML ด้วย Aspose.HTML สำหรับ Java ในคู่มือที่ครอบคลุมและเป็นขั้นตอน
 ### [วิธีอ่าน CSS ใน Java – จำลองหน้าจอมือถือและทดสอบ Media Queries](./how-to-read-css-in-java-simulate-mobile-screen-test-media-qu/)
 เรียนรู้วิธีอ่านไฟล์ CSS ด้วย Java จำลองหน้าจอมือถือและตรวจสอบ Media Queries เพื่อทดสอบการตอบสนองของเว็บไซต์
+### [วิธีโหลด HTML ใน Java – คู่มือเต็มพร้อมการสกัดสีจาก CSS](./how-to-load-html-in-java-full-guide-with-css-color-extractio/)
+เรียนรู้วิธีโหลดไฟล์ HTML ใน Java พร้อมการสกัดสีจาก CSS อย่างละเอียดในคู่มือฉบับเต็ม
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

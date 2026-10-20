@@ -92,6 +92,8 @@ Learn how to convert eBooks from EPUB to PDF using Java and Aspose.HTML, with st
 Learn how to convert EPUB to PDF in Java while adding a Table of Contents and detailed guide using Aspose.HTML.
 ### [Convert EPUB to PDF with Embedded Fonts in Java](./convert-epub-to-pdf-with-embedded-fonts-in-java/)
 Learn how to embed custom fonts during EPUB to PDF conversion using Aspose.HTML for Java for consistent typography.
+### [Convert EPUB to PDF with Custom Font Size – Java Guide](./convert-epub-to-pdf-with-custom-font-size-java-guide/)
+Learn how to set custom font sizes during EPUB to PDF conversion using Aspose.HTML for Java.
 
 ## Frequently Asked Questions
 

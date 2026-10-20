@@ -109,6 +109,11 @@ weight: 24
 Μάθετε πώς να ορίσετε το DPI κατά τη μετατροπή HTML σε PNG χρησιμοποιώντας το Aspose.HTML for Java για βέλτιστη ποιότητα εικόνας.
 ### [Μετατροπή HTML σε PNG – Πλήρης Οδηγός με Χρώμα Φόντου & Ανάλυση](./convert-html-to-png-full-guide-with-background-color-resolut/)
 Μάθετε πώς να μετατρέψετε HTML σε PNG με προσαρμοσμένο χρώμα φόντου και ρύθμιση ανάλυσης χρησιμοποιώντας το Aspose.HTML for Java.
+### [Απόδοση HTML σε PNG σε Java – Προσθήκη Bearer Token & Προσαρμοσμένων Κεφαλίδων](./render-html-to-png-in-java-add-bearer-token-custom-headers/)
+### [Πώς να εκτελέσετε JavaScript και να αποδώσετε HTML σε PNG με το Aspose](./how-to-run-javascript-and-render-html-to-png-with-aspose/)
+Μάθετε πώς να εκτελέσετε JavaScript κατά την απόδοση HTML και να δημιουργήσετε εικόνα PNG χρησιμοποιώντας Aspose.HTML for Java.
+### [Μετατροπή HTML σε PNG σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./convert-html-to-png-in-java-complete-step-by-step-guide/)
+Μάθετε πώς να μετατρέπετε HTML σε PNG σε Java με το Aspose.HTML. Πλήρης οδηγός βήμα‑βήμα.
 ### [Μετατροπή HTML σε TIFF](./convert-html-to-tiff/)
 Μάθετε πώς να μετατρέπετε εύκολα HTML σε TIFF χρησιμοποιώντας το Aspose.HTML για Java. Οδηγός βήμα‑βήμα για αποτελεσματική διαχείριση εγγράφων.
 ### [Μετατροπή SVG σε GIF σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./svg-to-gif-conversion-in-java-complete-step-by-step-guide/)
@@ -136,6 +141,7 @@ weight: 24
 Οδηγός βήμα‑βήμα για την απόδοση HTML σε PNG χρησιμοποιώντας το Aspose.HTML for Java, με παραδείγματα κώδικα και βέλτιστες πρακτικές.
 ### [Μετατροπή SVG σε PNG σε Java – Οδηγός Υψηλής Ανάλυσης](./convert-svg-to-png-in-java-high-resolution-guide/)
 ### [Μετατροπή SVG σε PNG σε Java – Οδηγός Μαζικής Μετατροπής](./convert-svg-to-png-in-java-batch-conversion-guide/)
+### [Πώς να ορίσετε DPI κατά τη μετατροπή SVG σε PNG – Οδηγός Java](./how-to-set-dpi-when-converting-svg-to-png-java-guide/)
 
 ### [Πώς να αποδώσετε HTML σε PNG σε Java – Πλήρης Οδηγός](./how-to-render-html-to-png-in-java-complete-guide/)
 ### [Πώς να δημιουργήσετε GIF από SVG – Οδηγός Java βήμα‑βήμα](./how-to-create-gif-from-svg-step-by-step-java-guide/)

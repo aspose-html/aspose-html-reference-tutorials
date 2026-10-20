@@ -121,6 +121,11 @@ Aspose.HTML for Java を使用して HTML テーブルを PNG 画像に変換す
 
 ### [Java で SVG を PNG に変換 – 高解像度ガイド](./convert-svg-to-png-in-java-high-resolution-guide/)
 ### [Aspose.HTML Sandbox で HTML を PNG に変換 – 完全な Java ガイド](./render-html-to-png-with-aspose-html-sandbox-full-java-guide/)
+### [Java で HTML を PNG に変換 – 完全ステップバイステップガイド](./convert-html-to-png-in-java-complete-step-by-step-guide/)
+Java で Aspose.HTML を使用し、HTML を PNG 画像に変換する完全なステップバイステップガイドです。
+
+### [HTML を PNG にレンダリング – Bearer トークンとカスタムヘッダーを追加](./render-html-to-png-in-java-add-bearer-token-custom-headers/)
+Aspose.HTML for Java を使用し、Bearer トークンとカスタムヘッダーを設定して HTML を PNG にレンダリングする手順を紹介します。
 
 ### [HTML を TIFF に変換](./convert-html-to-tiff/)
 Aspose.HTML for Java を使用して HTML を TIFF に簡単に変換する方法を学びます。効率的なドキュメント処理のためのステップバイステップガイドです。
@@ -187,21 +192,11 @@ Aspose.HTML for Java を使用して、SVG をマルチページ TIFF に変換�
 Aspose.HTML for Java を使用して HTML を WebP に変換します。Java での WebP 変換手順をステップバイステップで解説する完全ガイドです。
 
 ## よくある質問
+### [Aspose を使用して JavaScript を実行し、HTML を PNG にレンダリングする方法](./how-to-run-javascript-and-render-html-to-png-with-aspose/)
+Aspose.HTML for Java で JavaScript を実行し、HTML を PNG 画像に変換する手順をステップバイステップで解説します。
 
-**Q: 追加の画像ライブラリなしで Java で HTML を PNG に変換できますか？**  
-A: はい、Aspose.HTML for Java は PNG レンダリングを内部で処理するため、追加のライブラリは不要です。
-
-**Q: HTML からアニメーション GIF を生成できますか？**  
-A: Aspose.HTML は静的な GIF 画像を作成できます。アニメーション GIF を作成するには、複数のフレームをレンダリングし、別の GIF エンコーダーで結合する必要があります。
-
-**Q: ライブラリはグラデーションや flexbox などの CSS3 機能をサポートしていますか？**  
-A: もちろんです。Aspose.HTML は最新の CSS3 仕様を完全にサポートし、正確なビジュアル出を保証します。
-
-**Q: メモリ制限を超える大きな HTML ドキュメントを処理するにはどうすればよいですか？**  
-A: ドキュメントをセクションに分割してレンダリングするか、Aspose.HTML が提供するストリーミング API を使用してページを段階的に処理してください。
-
-**Q: 商用プロジェクト向けのライセンスオプションは何がありますか？**  
-A: Aspose は永久ライセンスとサブスクリプションライセンスの両方を提供しています。導入モデルに合ったプランについては営業にお問い合わせください。
+### [SVG を PNG に変換する際の DPI 設定 – Java ガイド](./how-to-set-dpi-when-converting-svg-to-png-java-guide/)
+Aspose.HTML for Java を使用して SVG を PNG に変換する際に DPI を設定する方法をステップバイステップで解説します。
 
 ---
 

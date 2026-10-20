@@ -94,6 +94,7 @@ url: /ar/java/css-html-form-editing/
 تعلم كيفية الحصول على الأنماط المحسوبة لعناصر HTML باستخدام Aspose.HTML لـ Java خطوة بخطوة.
 ### [كيفية قراءة CSS في Java – محاكاة شاشة الجوال واختبار استعلامات الوسائط](./how-to-read-css-in-java-simulate-mobile-screen-test-media-qu/)
 تعلم كيفية قراءة ملفات CSS في Java، محاكاة شاشات الهواتف المحمولة واختبار استعلامات الوسائط بسهولة.
+### [كيفية تحميل HTML في Java – دليل كامل مع استخراج ألوان CSS](./how-to-load-html-in-java-full-guide-with-css-color-extractio/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -134,8 +134,6 @@ Aspose.HTML for Java का उपयोग करके HTML को XPS मे�
 ### [HTML को Markdown में बदलें Java में – मूल स्वरूप बनाए रखें](./convert-html-to-markdown-in-java-preserve-original-formattin/)
 
 ### [Markdown को HTML में बदलना](./convert-markdown-to-html/)
-### [Java में Markdown से PDF बनाएं – चरण‑दर‑चरण गाइड](./create-pdf-from-markdown-in-java-step-by-step-guide/)
-Aspose.HTML for Java का उपयोग करके Markdown फ़ाइल को PDF में बदलने की पूरी प्रक्रिया सीखें।
 ### [HTML को PDF में बदलें – Azure Blob में PDF सहेजने की पूर्ण गाइड](./convert-html-to-pdf-complete-guide-to-saving-pdf-to-azure-bl/)
 Aspose.HTML for Java का उपयोग करके HTML को PDF में बदलें और Azure Blob स्टोरेज में सुरक्षित रूप से सहेजें।
 
@@ -155,6 +153,9 @@ Aspose.HTML for Java का उपयोग करके HTML को Markdown �
 
 ### [Java में HTML को Markdown के रूप में सहेजें – पूर्ण चरण‑दर‑चरण गाइड](./save-html-as-markdown-in-java-complete-step-by-step-guide/)
 Aspose.HTML for Java का उपयोग करके HTML को Markdown में बदलने के विस्तृत चरण‑दर‑चरण गाइड।
+
+### [Java में Markdown से PDF बनाएं – चरण‑दर‑चरण गाइड](./create-pdf-from-markdown-in-java-step-by-step-guide/)
+Aspose.HTML for Java का उपयोग करके Java में Markdown को PDF में बदलें। चरण‑दर‑चरण गाइड के साथ आसान रूपांतरण।
 
 ### [SVG को इमेज में बदलना](./convert-svg-to-image/)
 ### [SVG को PDF में बदलना](./convert-svg-to-pdf/)
@@ -312,6 +313,12 @@ Aspose.HTML for Java के साथ पेज आकार और मार्
 
 ### [Java में HTML को PDF में बदलें – Aspose Parallel उदाहरण](./convert-html-to-pdf-in-java-aspose-parallel-example/)
 Aspose.HTML का उपयोग करके Java में समानांतर प्रोसेसिंग के साथ HTML को PDF में बदलने का उदाहरण।
+
+### [HTML को PDF ट्यूटोरियल – Java के साथ एक लाइन में HTML को PDF में बदलें](./html-to-pdf-tutorial-convert-html-to-pdf-in-one-line-with-ja/)
+एक ही कोड लाइन से Java में HTML को PDF में बदलने का तेज़ गाइड। सरल और प्रभावी रूपांतरण।
+
+### [HTML को Java थ्रेड्स के साथ PDF में बदलें – पूर्ण गाइड](./create-pdf-from-html-with-java-threads-full-guide/)
+Java थ्रेड्स का उपयोग करके HTML से PDF बनाने की पूरी गाइड। मल्टी‑थ्रेडेड रूपांतरण के लिए चरण‑दर‑चरण निर्देश।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
