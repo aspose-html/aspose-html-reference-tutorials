@@ -32,9 +32,6 @@ Việc xây dựng các đường ống xử lý tin nhắn của riêng bạn c
 ## Thực hiện yêu cầu web trong Aspose.HTML cho Java
  Thực hiện các yêu cầu web là một khía cạnh quan trọng khác khi làm việc với Aspose.HTML cho Java. Từ việc tìm nạp nội dung của bên thứ ba đến quản lý tài nguyên từ xa, biết cách thực hiện các hành động này có thể là một bước ngoặt.[Thực hiện yêu cầu web trong Aspose.HTML cho Java](./web-request-execution/)hướng dẫn cung cấp một bản phân tích toàn diện về cách gửi và nhận dữ liệu hiệu quả. Hãy nghĩ về nó giống như việc gọi điện thoại: bạn muốn đảm bảo tin nhắn của mình được truyền tải liền mạch mà không có bất kỳ nhiễu nào. Việc thành thạo kỹ năng này giúp bạn có thể đưa thêm dữ liệu vào ứng dụng của mình, nâng cao khả năng xử lý tài liệu.
 
-### [Lấy dữ liệu API trong Java với Aspose.HTML - Hướng dẫn đầy đủ](./fetch-api-data-in-java-with-aspose-html-complete-guide/)
-Hướng dẫn chi tiết cách sử dụng Aspose.HTML để lấy dữ liệu từ API trong Java, từ cấu hình đến xử lý phản hồi.
-
 ## Chuyển đổi ZIP sang JPG và PDF
  Bạn đã bao giờ cần trích xuất hình ảnh từ một tệp nén một cách nhanh chóng chưa?[Chuyển đổi ZIP sang JPG bằng Aspose.HTML cho Java](./zip-to-jpg/) Và[Chuyển đổi ZIP sang PDF bằng Aspose.HTML cho Java](./zip-to-pdf/) hướng dẫn cung cấp cho bạn các công cụ cho những tác vụ cụ thể này. Việc chuyển đổi tệp không nhất thiết phải là một quá trình phức tạp—nó có thể đơn giản như việc biến một bản phác thảo thành một kiệt tác. Những hướng dẫn này chia nhỏ các bước để giúp bạn chuyển đổi tệp ZIP hiệu quả, thể hiện tính linh hoạt của Aspose.HTML cho Java.
 
@@ -55,6 +52,17 @@ Hướng dẫn chi tiết cách sử dụng Aspose.HTML để lấy dữ liệu 
 Tìm hiểu cách chuyển đổi tệp ZIP sang ảnh JPG bằng Aspose.HTML cho Java với hướng dẫn từng bước này.
 ### [Chuyển đổi ZIP sang PDF bằng Aspose.HTML cho Java](./zip-to-pdf/)
 Dễ dàng chuyển đổi tệp ZIP sang PDF bằng Aspose.HTML cho Java với hướng dẫn từng bước này.
+### [java 11 httpclient authenticator – Hướng dẫn toàn diện cho các yêu cầu bảo mật](./java-11-httpclient-authenticator-complete-guide-to-secure-re/)
+Khám phá cách sử dụng HttpClient Authenticator trong Java 11 để thực hiện các yêu cầu HTTP an toàn và bảo mật.
+### [Cách Fetch API trong Java – Hướng dẫn đầy đủ sử dụng Aspose HTML V8 Engine](./how-to-fetch-api-in-java-complete-guide-using-aspose-html-v8/)
+Hướng dẫn chi tiết cách gọi API trong Java bằng Aspose HTML V8, bao gồm cấu hình, thực thi và xử lý phản hồi một cách hiệu quả.
+### [Lấy JSON JavaScript trong Java với Aspose HTML – Hướng Dẫn Toàn Diện](./fetch-json-javascript-in-java-with-aspose-html-complete-guid/)
+Hướng dẫn chi tiết cách sử dụng Aspose HTML trong Java để fetch dữ liệu JSON từ JavaScript, bao gồm các bước cài đặt và ví dụ thực tế.
+### [Thiết lập Header Ủy quyền trong Java – Hướng Dẫn Toàn Diện để Tải HTML từ URL](./set-authorization-header-in-java-complete-guide-to-load-html/)
+Tìm hiểu cách thiết lập header ủy quyền trong Java để tải HTML từ URL bằng Aspose.HTML, qua hướng dẫn chi tiết từng bước.
+### [Đặt user agent tùy chỉnh trong Java – Hướng dẫn tải trang web trong sandbox](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
+Hướng dẫn cách đặt user agent tùy chỉnh trong Java và tải trang web trong môi trường sandbox bằng Aspose.HTML.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
