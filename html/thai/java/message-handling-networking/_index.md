@@ -60,6 +60,8 @@ Aspose.HTML สำหรับ Java เป็นชุดเครื่อง�
 เรียนรู้วิธีตั้งค่า Authorization Header ใน Java เพื่อโหลด HTML จาก URL อย่างครบถ้วน
 ### [ตั้งค่า User Agent แบบกำหนดเองใน Java – สอนการโหลดหน้าเว็บใน Sandbox](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
 เรียนรู้วิธีตั้งค่า User Agent ของคุณใน Java เพื่อโหลดหน้าเว็บในสภาพแวดล้อม Sandbox อย่างปลอดภัย
+### [ดึงข้อมูล API ใน Java ด้วย Aspose.HTML - คู่มือฉบับสมบูรณ์](./fetch-api-data-in-java-with-aspose-html-complete-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

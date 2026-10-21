@@ -144,6 +144,7 @@ R: No. Una singola licenza di Aspose.HTML for Java copre tutti i formati di outp
 ### [Eseguire JavaScript in Java – Guida completa per aggiungere elementi al body](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
 ### [Come impostare DPI durante la conversione da SVG a PNG con Aspose – Guida Java](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
 ### [Esegui JavaScript da Java – Imposta User-Agent personalizzato con Aspose.HTML](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
+### [Come utilizzare Executor in Java – Guida al pool di thread fisso](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
 
 ---
 

@@ -107,6 +107,8 @@ Java’da CSS dosyalarını okuyarak mobil ekranı taklit edin ve media query’
 Java’da HTML dosyalarını nasıl yükleyeceğinizi ve CSS renklerini nasıl çıkaracağınızı adım adım öğrenin.
 ### [Java’da HTML’den CSS Çıkarma – Tam Programlama Kılavuzu](./extract-css-from-html-in-java-complete-programming-guide/)
 Aspose.HTML for Java kullanarak HTML belgelerinden CSS stillerini nasıl çıkaracağınızı adım adım öğrenin.
+### [Java’da CSS Okuma – Tam Aspose.HTML Kılavuzu](./how-to-read-css-in-java-complete-aspose-html-guide/)
+Aspose.HTML for Java kullanarak CSS dosyalarını nasıl okuyacağınızı ve analiz edeceğinizi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

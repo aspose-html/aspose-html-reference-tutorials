@@ -113,6 +113,8 @@ JavaでCSSを解析し、モバイル画面をエミュレートしてメディ�
 JavaでHTMLをロードし、CSSから色情報を抽出する手順をステップバイステップで解説します。
 ### [JavaでHTMLからCSSを抽出する – 完全プログラミングガイド](./extract-css-from-html-in-java-complete-programming-guide/)
 Javaを使用してHTMLドキュメントからCSSスタイルシートを抽出し、解析・操作する方法をステップバイステップで解説します。
+### [JavaでCSSを読み取る方法 – 完全 Aspose.HTML ガイド](./how-to-read-css-in-java-complete-aspose-html-guide/)
+Aspose.HTML for Java を使用して、CSS を読み取り、解析し、操作する方法をステップバイステップで学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -219,6 +219,8 @@ Aprenda a converter uma página da web em PDF com uma única linha de código us
 ### [Criar PDF tamanho A4 com Java – Guia completo passo a passo](./create-pdf-a4-size-with-java-full-step-by-step-guide/)
 ### [Como Usar Aspose para Conversão Paralela de HTML para PDF em Java](./how-to-use-aspose-for-parallel-html-to-pdf-conversion-in-jav/)
 Descubra como converter múltiplos arquivos HTML para PDF simultaneamente usando Aspose.HTML for Java, otimizando desempenho.
+### [Incorporar fontes em PDF – Guia completo Java usando Aspose HTML](./embed-fonts-in-pdf-complete-java-guide-using-aspose-html/)
+Aprenda a incorporar fontes em PDFs usando Aspose.HTML for Java, garantindo que o texto seja exibido corretamente em qualquer dispositivo.
 
 ### [Incorporar fontes PDF – Guia Completo Aspose HTML para PDF (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
 

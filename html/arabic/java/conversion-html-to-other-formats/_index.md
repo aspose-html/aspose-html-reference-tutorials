@@ -113,6 +113,8 @@ XPS هو صيغة الطباعة الخاصة بمايكروسوفت. باستخ
 ### [تحويل SVG إلى XPS](./convert-svg-to-xps/)
 ### [إنشاء PDF من HTML بحجم صفحة مخصص وخطوط مدمجة](./create-pdf-from-html-with-custom-page-size-and-embedded-font/)
 تعلم كيفية إنشاء ملفات PDF بحجم صفحة مخصص وتضمين الخطوط باستخدام Aspose.HTML for Java.
+### [دمج الخطوط في PDF – دليل Java كامل باستخدام Aspose.HTML](./embed-fonts-in-pdf-complete-java-guide-using-aspose-html/)
+تعلم كيفية تضمين الخطوط داخل ملفات PDF في Java باستخدام Aspose.HTML لضمان عرض النصوص بشكل صحيح.
 ### [تحويل HTML إلى PDF في Java – دليل خطوة بخطوة مع إعدادات حجم الصفحة](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 تعلم تحويل HTML إلى PDF في Java مع إعدادات حجم الصفحة خطوة بخطوة باستخدام Aspose.HTML.
 ### [دروس Aspose HTML PDF/A: تحويل HTML إلى PDF/A‑2b باستخدام Java](./aspose-html-pdf-a-tutorial-convert-html-to-pdf-a-2b-with-jav/)

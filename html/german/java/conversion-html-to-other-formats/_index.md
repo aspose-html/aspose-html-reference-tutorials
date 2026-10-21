@@ -219,6 +219,8 @@ Erfahren Sie, wie Sie Markdown‑Dateien in PDFs umwandeln, indem Sie den Aspose
 Erfahren Sie, wie Sie HTML mit Aspose.HTML in Java in Markdown umwandeln und dabei die ursprüngliche Formatierung erhalten.
 ### [Markdown aus HTML in Java erstellen – Schritt‑für‑Schritt‑Konvertierungsanleitung](./create-markdown-from-html-in-java-step-by-step-conversion-gu/)
 Erfahren Sie, wie Sie HTML in Java zu Markdown konvertieren – eine detaillierte Schritt‑für‑Schritt‑Anleitung.
+### [Markdown zu PDF in Java – Vollständiger Leitfaden](./convert-markdown-to-pdf-in-java-complete-guide/)
+Erfahren Sie, wie Sie Markdown-Dateien in Java mit Aspose.HTML zu PDF konvertieren – umfassende Schritt‑für‑Schritt‑Anleitung.
 
 ### [Konvertierung von SVG zu Bild](./convert-svg-to-image/)
 Erfahren Sie, wie Sie SVG in Java mit Aspose.HTML zu Bildern konvertieren. Umfassende Anleitung für hochwertige Ausgaben.
@@ -241,7 +243,6 @@ Erfahren Sie, wie Sie HTML in C# mit Aspose.HTML in Markdown konvertieren – Sc
 Erfahren Sie, wie Sie PDFs mit individuellen Abmessungen aus HTML in Java generieren.
 ### [HTML‑zu‑PDF‑Tutorial: HTML in Java mit einem einzigen Aufruf in PDF konvertieren](./html-to-pdf-tutorial-convert-html-to-pdf-in-java-in-one-line/)
 Erfahren Sie, wie Sie HTML in Java mit Aspose.HTML in nur einer Zeile in PDF umwandeln.
-### [Konvertierung von Markdown zu PDF in Java – Komplettanleitung](./convert-markdown-to-pdf-in-java-complete-guide/)
 ### [HTML zu PDF in Java – Parallel Fixed Thread Pool Leitfaden](./convert-html-to-pdf-in-java-parallel-fixed-thread-pool-guide/)
 Erfahren Sie, wie Sie HTML in Java parallel mit einem Fixed Thread Pool zu PDF konvertieren.
 ### [HTML zu PDF in Java konvertieren – PDF‑Seitengröße, Auflösung festlegen und HTML als PDF speichern](./convert-html-to-pdf-in-java-set-pdf-page-size-resolution-and/)
@@ -350,6 +351,9 @@ Erfahren Sie, wie Sie mit Java-Threads mehrere HTML‑Dateien parallel zu PDFs k
 ### [PDF im A4-Format mit Java erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-pdf-a4-size-with-java-full-step-by-step-guide/)
 
 ### [Wie man Aspose für parallele HTML‑zu‑PDF‑Konvertierung in Java verwendet](./how-to-use-aspose-for-parallel-html-to-pdf-conversion-in-jav/)
+
+### [Schriftarten in PDF einbetten – Vollständiger Java‑Leitfaden mit Aspose HTML](./embed-fonts-in-pdf-complete-java-guide-using-aspose-html/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java Schriftarten in PDFs einbetten, um konsistente Darstellung sicherzustellen.
 
 ## Häufig gestellte Fragen
 

@@ -170,6 +170,8 @@ Hướng dẫn chi tiết cách thực thi JavaScript trong Java để chèn ph�
 Hướng dẫn cách thiết lập DPI khi chuyển đổi SVG sang PNG bằng Aspose.HTML cho Java.
 ### [Chạy JavaScript từ Java – Đặt User-Agent tùy chỉnh với Aspose.HTML](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
 Hướng dẫn cách thiết lập User-Agent tùy chỉnh khi chạy JavaScript trong Java bằng Aspose.HTML để kiểm soát yêu cầu mạng.
+### [Cách sử dụng Executor trong Java – Hướng dẫn Fixed Thread Pool](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
+Hướng dẫn chi tiết cách tạo và quản lý Fixed Thread Pool bằng Executor trong Java để tối ưu hiệu năng đa luồng.
 
 ---
 

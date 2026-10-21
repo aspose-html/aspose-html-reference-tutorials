@@ -180,6 +180,9 @@ Pelajari cara mengatur DPI saat mengonversi file SVG ke PNG menggunakan Aspose.H
 ### [Jalankan JavaScript dari Java – Atur User-Agent Kustom dengan Aspose.HTML](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
 Pelajari cara mengatur header User-Agent khusus saat mengeksekusi JavaScript menggunakan Aspose.HTML untuk Java.
 
+### [Cara Menggunakan Executor di Java – Panduan Fixed Thread Pool](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
+Pelajari cara menggunakan Executor dengan Fixed Thread Pool di Java untuk mengelola tugas secara efisien.
+
 ---
 
 **Terakhir Diperbarui:** 2025-11-29  

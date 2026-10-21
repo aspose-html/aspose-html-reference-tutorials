@@ -172,6 +172,8 @@ Dowiedz się, jak uruchomić kod JavaScript w aplikacji Java i dynamicznie dodaw
 Dowiedz się, jak określić rozdzielczość DPI podczas konwersji plików SVG do PNG przy użyciu Aspose.HTML w Javie.
 ### [Uruchom JavaScript z Javy – Ustaw niestandardowy User-Agent przy użyciu Aspose.HTML](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
 Dowiedz się, jak wykonać kod JavaScript z Javy i ustawić własny nagłówek User-Agent przy użyciu Aspose.HTML.
+### [Jak używać Executor w Javie – Przewodnik po stałej puli wątków](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
+Dowiedz się, jak skonfigurować i wykorzystywać Executor z stałą pulą wątków w Javie, aby efektywnie zarządzać równoległym przetwarzaniem.
 
 ---
 

@@ -166,6 +166,7 @@ weight: 20
 Μάθετε πώς να ορίσετε την ανάλυση DPI κατά τη μετατροπή αρχείων SVG σε PNG χρησιμοποιώντας το Aspose.HTML for Java.
 ### [Εκτέλεση JavaScript από Java – Ορισμός προσαρμοσμένου User-Agent με Aspose.HTML](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
 Μάθετε πώς να εκτελείτε JavaScript από Java και να ορίζετε προσαρμοσμένο User-Agent χρησιμοποιώντας το Aspose.HTML.
+### [Πώς να Χρησιμοποιήσετε τον Executor στη Java – Οδηγός Σταθερού Πισίνας Νημάτων](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
 
 ---
 

@@ -281,6 +281,7 @@ Aspose.HTML for Java ทำให้กระบวนการแปลง HTML
 ### [สร้าง PDF ขนาด A4 ด้วย Java – คู่มือเต็มขั้นตอน‑โดย‑ขั้นตอน](./create-pdf-a4-size-with-java-full-step-by-step-guide/)
 ### [วิธีใช้ Aspose สำหรับการแปลง HTML เป็น PDF แบบขนานใน Java](./how-to-use-aspose-for-parallel-html-to-pdf-conversion-in-jav/)
 เรียนรู้วิธีแปลงหลายไฟล์ HTML เป็น PDF พร้อมกันด้วย Aspose.HTML for Java เพื่อเพิ่มประสิทธิภาพการประมวลผล
+### [ฝังฟอนต์ใน PDF – คู่มือ Java ฉบับสมบูรณ์โดยใช้ Aspose HTML](./embed-fonts-in-pdf-complete-java-guide-using-aspose-html/)
 
 ## คำถามที่พบบ่อย
 

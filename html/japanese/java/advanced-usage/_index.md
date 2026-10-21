@@ -171,6 +171,8 @@ Aspose.HTML for Java を使い、Java から JavaScript を実行し、Body 要�
 Aspose.HTML for Java を使用して、SVG を PNG に変換する際に DPI を設定し、高解像度画像を生成する方法を学びます。
 ### [Run JavaScript from Java – Set Custom User-Agent with Aspose.HTML](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
 Aspose.HTML for Java を使って Java から JavaScript を実行し、カスタム User-Agent を設定する方法を学びます。
+### [JavaでExecutorを使用する方法 – 固定スレッドプールガイド](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
+Java の Executor と固定スレッドプールの使い方をステップバイステップで解説します。
 
 ---
 

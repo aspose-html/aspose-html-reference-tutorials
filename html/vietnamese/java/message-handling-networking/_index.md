@@ -46,6 +46,8 @@ Tìm hiểu cách quản lý thời gian chờ mạng bằng Aspose.HTML cho Jav
 Tìm hiểu cách tạo đường ống xử lý tin nhắn trong Aspose.HTML cho Java với hướng dẫn chi tiết từng bước này. Chuyển đổi ZIP sang PDF dễ dàng.
 ### [Thực hiện yêu cầu web trong Aspose.HTML cho Java](./web-request-execution/)
 Học cách thực hiện các yêu cầu web bằng Aspose.HTML cho Java với hướng dẫn từng bước toàn diện này. Nâng cao kỹ năng quản lý tài liệu HTML của bạn.
+### [Lấy dữ liệu API trong Java với Aspose.HTML - Hướng dẫn đầy đủ](./fetch-api-data-in-java-with-aspose-html-complete-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose.HTML để lấy dữ liệu từ API trong Java, từ cấu hình đến xử lý phản hồi.
 ### [Chuyển đổi ZIP sang JPG bằng Aspose.HTML cho Java](./zip-to-jpg/)
 Tìm hiểu cách chuyển đổi tệp ZIP sang ảnh JPG bằng Aspose.HTML cho Java với hướng dẫn từng bước này.
 ### [Chuyển đổi ZIP sang PDF bằng Aspose.HTML cho Java](./zip-to-pdf/)

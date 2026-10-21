@@ -190,6 +190,10 @@ Erfahren Sie, wie Sie HTML mit Aspose.HTML for Java in das moderne WebP‑Format
 Erfahren Sie, wie Sie mit Aspose.HTML for Java HTML zu PNG rendern und dabei Bearer‑Token sowie benutzerdefinierte Header für geschützte Ressourcen verwenden.
 ### [JavaScript ausführen und HTML zu PNG rendern mit Aspose](./how-to-run-javascript-and-render-html-to-png-with-aspose/)
 ### [Wie man DPI beim Konvertieren von SVG zu PNG festlegt – Java‑Leitfaden](./how-to-set-dpi-when-converting-svg-to-png-java-guide/)
+### [HTML in WebP konvertieren – Vollständiger Java Aspose.HTML Leitfaden](./convert-html-to-webp-complete-java-aspose-html-guide/)
+Erfahren Sie, wie Sie HTML mit Aspose.HTML for Java vollständig in das WebP‑Format konvertieren – Schritt‑für‑Schritt‑Anleitung.
+### [HTML in PNG rendern – Vollständiges Aspose HTML Tutorial](./render-html-to-png-in-java-full-aspose-html-tutorial/)
+Erfahren Sie, wie Sie HTML mit Aspose.HTML for Java in PNG rendern – vollständige Schritt‑für‑Schritt‑Anleitung.
 
 ## Häufig gestellte Fragen
 

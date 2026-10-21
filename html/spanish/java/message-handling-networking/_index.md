@@ -59,6 +59,8 @@ Aprenda a establecer el encabezado de autorización en Java y cargar HTML desde 
 Aprenda a obtener datos JSON usando JavaScript en Java con Aspose HTML en esta guía paso a paso.
 ### [Establecer agente de usuario personalizado en Java – Cargar página web en sandbox](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
 Aprenda a configurar un agente de usuario personalizado al cargar páginas web en un entorno sandbox con Aspose.HTML para Java.
+### [Obtener datos de API en Java con Aspose.HTML - Guía completa](./fetch-api-data-in-java-with-aspose-html-complete-guide/)
+Aprenda a consumir APIs y procesar sus respuestas en Java usando Aspose.HTML paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

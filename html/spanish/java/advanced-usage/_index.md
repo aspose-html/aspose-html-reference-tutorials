@@ -169,6 +169,8 @@ Aprende a usar un FixedThreadPool en Java para ejecutar múltiples tareas simult
 
 ### [Ejecutar JavaScript desde Java – Establecer User-Agent personalizado con Aspose.HTML](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
 Aprende a ejecutar scripts JavaScript desde Java y configurar un User-Agent personalizado al cargar páginas con Aspose.HTML.
+### [Cómo usar Executor en Java – Guía de pool de hilos fijos](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
+Aprende a crear y gestionar un Executor de pool de hilos fijo en Java para ejecutar tareas concurrentes de forma eficiente.
 
 ---
 

@@ -190,6 +190,9 @@ weight: 20
 ### [تشغيل JavaScript من Java – تعيين User-Agent مخصص باستخدام Aspose.HTML](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
 تعلم كيفية تشغيل JavaScript من Java وتحديد User-Agent مخصص عبر Aspose.HTML.
 
+### [كيفية استخدام Executor في Java – دليل مجموعة الخيوط الثابتة](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
+تعلم كيفية استخدام Executor لإنشاء مجموعة خيوط ثابتة في Java لإدارة المهام المتزامنة بفعالية.
+
 ---
 
 **آخر تحديث:** 2025-11-29  

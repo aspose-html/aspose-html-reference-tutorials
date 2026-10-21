@@ -177,6 +177,9 @@ weight: 24
 ### [วิธีรัน JavaScript และเรนเดอร์ HTML เป็น PNG ด้วย Aspose](./how-to-run-javascript-and-render-html-to-png-with-aspose/)
 ### [วิธีตั้งค่า DPI เมื่อแปลง SVG เป็น PNG – คู่มือ Java](./how-to-set-dpi-when-converting-svg-to-png-java-guide/)
 ### [เรนเดอร์ HTML เป็น PNG ใน Java – เพิ่ม Bearer Token และ Header ที่กำหนดเอง](./render-html-to-png-in-java-add-bearer-token-custom-headers/)
+### [แปลง HTML เป็น WebP – คู่มือ Java Aspose.HTML ฉบับสมบูรณ์](./convert-html-to-webp-complete-java-aspose-html-guide/)
+เรียนรู้วิธีแปลง HTML เป็นรูปแบบ WebP ใน Java ด้วย Aspose.HTML อย่างละเอียดและมีประสิทธิภาพ
+### [เรนเดอร์ HTML เป็น PNG ใน Java – คู่มือ Aspose HTML ฉบับเต็ม](./render-html-to-png-in-java-full-aspose-html-tutorial/)
 
 ## คำถามที่พบบ่อย
 

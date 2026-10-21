@@ -131,6 +131,8 @@ Naučte se, jak spustit JavaScript v HTML a pomocí Aspose.HTML vygenerovat PNG 
 ### [Převod HTML do PNG v Javě – Kompletní krok‑za‑krokem průvodce](./convert-html-to-png-in-java-complete-step-by-step-guide/)
 Naučte se převést HTML do PNG v Javě pomocí Aspose.HTML. Kompletní krok‑za‑krokem průvodce.
 ### [Renderování HTML do PNG v Javě – Přidání Bearer tokenu a vlastních hlaviček](./render-html-to-png-in-java-add-bearer-token-custom-headers/)
+### [Vykreslení HTML do PNG v Javě – Kompletní tutoriál Aspose HTML](./render-html-to-png-in-java-full-aspose-html-tutorial/)
+Kompletní průvodce, jak pomocí Aspose.HTML for Java převést HTML na PNG s podrobnými ukázkami kódu.
 ### [Převod HTML do TIFF](./convert-html-to-tiff/)
 Naučte se snadno převést HTML do TIFF pomocí Aspose.HTML for Java. Krok‑za‑krokem průvodce pro efektivní zpracování dokumentů.
 
@@ -194,6 +196,8 @@ Kompletní návod, jak pomocí Aspose.HTML Sandbox v Javě renderovat HTML do PN
 Naučte se, jak hromadně převádět SVG soubory na PNG v Javě pomocí Aspose.HTML, s podrobným krok‑za‑krokem návodem.
 ### [Vytvořte vysoce rozlišený PNG z HTML – Kompletní průvodce pro Javu](./create-high-resolution-png-from-html-complete-java-guide/)
 Naučte se vytvořit vysoce rozlišené PNG obrázky z HTML pomocí Aspose.HTML for Java. Kompletní krok‑za‑krokem průvodce.
+### [Převod HTML do WebP – Kompletní průvodce Aspose.HTML pro Javu](./convert-html-to-webp-complete-java-aspose-html-guide/)
+Kompletní návod, jak převést HTML do formátu WebP v Javě pomocí Aspose.HTML.
 
 ## Často kladené otázky
 

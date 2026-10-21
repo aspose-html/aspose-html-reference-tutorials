@@ -174,6 +174,8 @@ Java एप्लिकेशन में JavaScript का उपयोग क
 Aspose का उपयोग करके SVG को PNG में बदलते समय DPI कैसे सेट करें, इस Java गाइड में सीखें।  
 ### [Java से JavaScript चलाएँ – Aspose.HTML के साथ कस्टम User-Agent सेट करें](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
 Aspose.HTML for Java का उपयोग करके Java से JavaScript चलाते समय कस्टम User-Agent कैसे सेट करें, सीखें।  
+### [Java में Executor का उपयोग कैसे करें – फिक्स्ड थ्रेड पूल गाइड](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
+Java में ExecutorService के साथ फिक्स्ड थ्रेड पूल सेटअप, टास्क सबमिट करना और प्रबंधन करना सीखें।  
 
 ---
 

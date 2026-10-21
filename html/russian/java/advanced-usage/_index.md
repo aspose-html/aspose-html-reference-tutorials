@@ -171,6 +171,8 @@ Aspose.HTML позволяет прикрепить `DomMutationObserver` к л�
 Узнайте, как задать разрешение DPI при преобразовании SVG‑изображений в PNG с помощью Aspose.HTML for Java.
 ### [Запуск JavaScript из Java – Установка пользовательского User-Agent с Aspose.HTML](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
 Узнайте, как задать пользовательский User-Agent при выполнении JavaScript из Java с помощью Aspose.HTML.
+### [Как использовать Executor в Java – руководство по фиксированному пулу потоков](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
+Узнайте, как создавать и управлять фиксированным пулом потоков с помощью Executor в Java для эффективного выполнения задач.
 
 ---
 

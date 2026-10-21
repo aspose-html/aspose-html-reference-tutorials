@@ -60,6 +60,8 @@ Aspose.HTML для Java — это мощный набор инструмент�
 Узнайте, как установить заголовок авторизации при загрузке HTML из URL с помощью Aspose.HTML для Java.
 ### [Установка пользовательского User-Agent в Java – Загрузка веб-страницы в песочнице](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
 Узнайте, как задать собственный User-Agent при загрузке веб-страницы в безопасной песочнице с помощью Aspose.HTML для Java.
+### [Получение данных API в Java с Aspose.HTML — Полное руководство](./fetch-api-data-in-java-with-aspose-html-complete-guide/)
+Узнайте, как получать данные из API в Java с помощью Aspose.HTML, следуя этому подробному пошаговому руководству.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

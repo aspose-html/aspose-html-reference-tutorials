@@ -219,7 +219,8 @@ Lär dig hur du konverterar Markdown‑dokument till PDF i Java med Aspose.HTML 
 Lär dig hur du genererar PDF‑dokument i A4‑format med Java och Aspose.HTML i en detaljerad steg‑för‑steg‑guide.
 ### [Hur man använder Aspose för parallell HTML‑till‑PDF‑konvertering i Java](./how-to-use-aspose-for-parallel-html-to-pdf-conversion-in-jav/)
 Lär dig hur du utnyttjar Aspose för att konvertera flera HTML‑filer till PDF parallellt i Java för snabbare bearbetning.
-
+### [Bädda in teckensnitt i PDF – Komplett Java‑guide med Aspose HTML](./embed-fonts-in-pdf-complete-java-guide-using-aspose-html/)
+Lär dig hur du bäddar in teckensnitt i PDF‑filer med Aspose.HTML för Java för att säkerställa korrekt visning på alla enheter.
 ### [Konvertera HTML till PDF i Java – Snabb Aspose.HTML‑guide](./convert-html-to-pdf-in-java-quick-aspose-html-guide/)
 Snabb guide för att konvertera HTML till PDF i Java med Aspose.HTML, med enkla steg‑för‑steg‑instruktioner.
 ### [Ställ in enhetens pixelratio i Java – Konvertera HTML till mobil](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)

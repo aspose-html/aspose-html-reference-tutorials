@@ -64,6 +64,9 @@ Lär dig hur du använder Fetch API i Java med Aspose HTML V8-motorn i denna s
 Lär dig hur du hämtar JSON-data med JavaScript i Java med Aspose HTML i denna kompletta guide.
 ### [Ställ in auktoriseringshuvud i Java – Komplett guide för att ladda HTML från URL](./set-authorization-header-in-java-complete-guide-to-load-html/)
 Lär dig hur du sätter auktoriseringshuvuden i Java för att ladda HTML från en URL med Aspose.HTML.
+### [Hämta API-data i Java med Aspose.HTML – Komplett guide](./fetch-api-data-in-java-with-aspose-html-complete-guide/)
+Lär dig hur du hämtar data från API:er i Java med Aspose.HTML i en komplett steg-för-steg-guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

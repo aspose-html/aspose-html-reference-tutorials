@@ -107,6 +107,8 @@ Dowiedz się, jak w Javie odczytywać CSS, symulować ekran mobilny i testować 
 Dowiedz się, jak w Javie wczytać HTML i wyodrębnić kolory CSS przy użyciu Aspose.HTML.
 ### [Wyodrębnianie CSS z HTML w Javie – Kompletny przewodnik programistyczny](./extract-css-from-html-in-java-complete-programming-guide/)
 Dowiedz się, jak wyodrębnić CSS z dokumentu HTML w Javie, korzystając z Aspose.HTML, w pełnym przewodniku programistycznym.
+### [Jak odczytać CSS w Javie – Kompletny przewodnik Aspose.HTML](./how-to-read-css-in-java-complete-aspose-html-guide/)
+Poznaj, jak programowo odczytywać reguły CSS w Javie przy użyciu Aspose.HTML, krok po kroku, z praktycznymi przykładami.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

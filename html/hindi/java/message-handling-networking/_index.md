@@ -57,6 +57,7 @@ Aspose HTML V8 इंजन का उपयोग करके जावा �
 ### [Aspose HTML के साथ Java में JSON जावास्क्रिप्ट प्राप्त करें – पूर्ण गाइड](./fetch-json-javascript-in-java-with-aspose-html-complete-guid/)
 ### [Java में कस्टम यूज़र एजेंट सेट करें – सैंडबॉक्स में वेबपेज लोड करने का ट्यूटोरियल](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
 Java में कस्टम यूज़र एजेंट सेट करके सैंडबॉक्स में वेबपेज लोड करने की प्रक्रिया सीखें।
+### [Java में Aspose.HTML के साथ API डेटा प्राप्त करें - पूर्ण गाइड](./fetch-api-data-in-java-with-aspose-html-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

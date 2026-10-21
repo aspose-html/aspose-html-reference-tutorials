@@ -172,6 +172,8 @@ Aspose.HTML for Java kullanarak Java içinde JavaScript ile gövdeye yeni eleman
 Aspose.HTML for Java kullanarak SVG dosyalarını PNG'ye dönüştürürken DPI değerini nasıl ayarlayacağınızı öğrenin.
 ### [Java’dan JavaScript Çalıştırma – Aspose.HTML ile Özel User-Agent Ayarlama](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
 Aspose.HTML for Java kullanarak Java içinde JavaScript çalıştırırken özel bir User-Agent belirlemeyi öğrenin.
+### [Java’da Executor Kullanımı – Sabit İş Parçacığı Havuzu Rehberi](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
+Java’da Executor ve sabit iş parçacığı havuzu kullanarak çoklu görevleri verimli bir şekilde yönetmeyi öğrenin.
 
 ---
 

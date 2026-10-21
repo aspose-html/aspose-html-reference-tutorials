@@ -177,6 +177,8 @@ Apprenez à exécuter du JavaScript depuis Java et à ajouter dynamiquement des 
 Apprenez à spécifier la résolution DPI lors de la conversion de fichiers SVG en PNG avec Aspose.HTML for Java.  
 ### [Exécuter du JavaScript depuis Java – Définir un User-Agent personnalisé avec Aspose.HTML](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
 Apprenez à définir un User-Agent personnalisé lors de l'exécution de JavaScript depuis Java avec Aspose.HTML.
+### [Comment utiliser Executor en Java – Guide du pool de threads fixe](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
+Apprenez à créer et gérer un pool de threads fixe avec l'API Executor en Java pour optimiser l'exécution concurrente.  
 
 ---
 

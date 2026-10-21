@@ -163,6 +163,8 @@ Java 애플리케이션에서 JavaScript를 실행하고, body에 요소를 동�
 Aspose.HTML for Java를 이용해 SVG 이미지를 PNG로 변환하면서 DPI를 지정하는 방법을 단계별로 안내합니다.
 ### [Java에서 JavaScript 실행하기 – Aspose.HTML로 사용자 지정 User-Agent 설정](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
 Aspose.HTML를 사용해 Java에서 JavaScript를 실행하면서 사용자 정의 User-Agent 헤더를 설정하는 방법을 배웁니다.
+### [Java에서 Executor 사용하기 – 고정 스레드 풀 가이드](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
+Executor와 고정 스레드 풀을 활용해 효율적인 멀티스레드 작업을 구현하는 방법을 단계별로 배웁니다.
 
 ---
 

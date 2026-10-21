@@ -167,6 +167,8 @@ Hướng dẫn render HTML sang PNG trong Java với Aspose.HTML, bao gồm các
 
 ### [Cách thiết lập DPI khi chuyển đổi SVG sang PNG – Hướng dẫn Java](./how-to-set-dpi-when-converting-svg-to-png-java-guide/)
 
+### [Render HTML sang PNG trong Java – Hướng dẫn đầy đủ Aspose.HTML](./render-html-to-png-in-java-full-aspose-html-tutorial/)
+### [Chuyển đổi HTML sang WebP – Hướng dẫn Java đầy đủ với Aspose.HTML](./convert-html-to-webp-complete-java-aspose-html-guide/)
 
 ## Câu hỏi thường gặp
 

@@ -56,6 +56,7 @@ Java용 Aspose.HTML에서 사용자 정의 메시지 핸들러를 구현하여 �
 ### [Java에서 인증 헤더 설정 – URL에서 HTML 로드 완전 가이드](./set-authorization-header-in-java-complete-guide-to-load-html/)
 이 단계별 가이드를 통해 Java에서 Authorization 헤더를 설정하고 URL에서 HTML을 로드하는 방법을 배울 수 있습니다.
 ### [Java에서 사용자 정의 사용자 에이전트 설정 – 샌드박스에서 웹 페이지 로드 튜토리얼](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
+### [Java용 Aspose.HTML을 사용한 API 데이터 가져오기 - 완전 가이드](./fetch-api-data-in-java-with-aspose-html-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

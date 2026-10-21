@@ -129,6 +129,9 @@ weight: 24
 
 ### [Создание PNG высокого разрешения из HTML – Полное руководство Java](./create-high-resolution-png-from-html-complete-java-guide/)
 
+### [Рендеринг HTML в PNG на Java – Полное руководство Aspose HTML](./render-html-to-png-in-java-full-aspose-html-tutorial/)
+Подробное руководство по рендерингу HTML в PNG в Java с использованием Aspose.HTML, включая примеры кода и настройки.
+
 ### [Преобразование HTML в TIFF](./convert-html-to-tiff/)
 Узнайте, как легко преобразовывать HTML в TIFF с помощью Aspose.HTML. Пошаговое руководство по эффективной обработке документов.
 
@@ -208,6 +211,8 @@ weight: 24
 
 ### [Рендеринг HTML в PNG в Java – Добавление Bearer Token и пользовательских заголовков](./render-html-to-png-in-java-add-bearer-token-custom-headers/)
 Узнайте, как добавить Bearer Token и пользовательские заголовки при рендеринге HTML в PNG с помощью Aspose.HTML for Java.
+
+### [Преобразование HTML в WebP – Полное руководство Java Aspose.HTML](./convert-html-to-webp-complete-java-aspose-html-guide/)
 
 ## Часто задаваемые вопросы
 

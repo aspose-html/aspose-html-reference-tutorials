@@ -174,6 +174,7 @@ Lär dig hur du exekverar JavaScript i Java och dynamiskt lägger till element i
 Lär dig hur du anger DPI för högkvalitativ SVG‑till‑PNG‑konvertering med Aspose.HTML för Java.
 ### [Kör JavaScript från Java – Ställ in anpassad User-Agent med Aspose.HTML](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
 Lär dig hur du kör JavaScript i Java och anger en egen User-Agent‑sträng med Aspose.HTML.
+### [Hur du använder Executor i Java – Guide för fast trådpool](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
 
 ---
 

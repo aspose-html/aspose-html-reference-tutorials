@@ -166,6 +166,8 @@ Ismerje meg, hogyan futtathat feladatokat párhuzamosan fix méretű szálkészl
 Ismerje meg, hogyan állíthatja be a DPI értéket SVG‑k PNG‑re konvertálásakor az Aspose.HTML for Java használatával.
 ### [Java‑ból JavaScript futtatása – Egyéni User-Agent beállítása az Aspose.HTML‑lel](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
 Ismerje meg, hogyan állíthat be egyedi User-Agent fejlécet JavaScript futtatásakor Aspose.HTML segítségével.
+### [Hogyan használjuk az Executor‑t Java‑ban – Fix szálkészlet útmutató](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
+Ismerje meg, hogyan hozhat létre és kezelhet fix szálkészletű Executor szolgáltatást Java‑ban a hatékony párhuzamos feldolgozáshoz.
 
 ---
 

@@ -286,6 +286,8 @@ Ejemplo de conversión paralela de HTML a PDF en Java usando Aspose.HTML para me
 Aprende a generar PDFs en formato A4 usando Aspose.HTML para Java con instrucciones detalladas y código listo para usar.
 ### [Cómo usar Aspose para la conversión paralela de HTML a PDF en Java](./how-to-use-aspose-for-parallel-html-to-pdf-conversion-in-jav/)
 Aprende a acelerar la conversión de múltiples archivos HTML a PDF simultáneamente con Aspose.HTML en Java.
+### [Incrustar fuentes en PDF – Guía completa de Java con Aspose HTML](./embed-fonts-in-pdf-complete-java-guide-using-aspose-html/)
+Aprende a incrustar fuentes en archivos PDF con Java usando Aspose.HTML para garantizar que el texto se muestre correctamente en cualquier dispositivo.
 
 ## Preguntas Frecuentes
 

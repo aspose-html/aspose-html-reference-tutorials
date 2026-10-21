@@ -60,6 +60,8 @@ Learn how to fetch JSON via JavaScript in Java using Aspose.HTML in this complet
 Learn how to set the Authorization header in Java to load HTML from a URL using Aspose.HTML in this complete guide.
 ### [Set custom user agent in Java – Load webpage in sandbox tutorial](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
 Learn how to set a custom user agent in Aspose.HTML for Java to load webpages within a sandbox environment.
+### [Fetch API Data in Java with Aspose.HTML - Complete Guide](./fetch-api-data-in-java-with-aspose-html-complete-guide/)
+Learn how to fetch API data in Java using Aspose.HTML with this complete, step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

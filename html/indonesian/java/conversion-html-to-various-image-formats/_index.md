@@ -138,6 +138,9 @@ Pelajari cara merender HTML ke PNG dengan Aspose.HTML di Java. Panduan lengkap l
 Pelajari cara mengonversi HTML ke WebP dengan Aspose.HTML di Java. Panduan lengkap dengan contoh kode.
 ### [Mengonversi SVG ke PNG di Java – Panduan Resolusi Tinggi](./convert-svg-to-png-in-java-high-resolution-guide/)
 ### [Render HTML ke PNG dengan Aspose.HTML Sandbox – Panduan Java Lengkap](./render-html-to-png-with-aspose-html-sandbox-full-java-guide/)
+### [Render HTML ke PNG di Java – Tutorial Lengkap Aspose HTML](./render-html-to-png-in-java-full-aspose-html-tutorial/)
+### [Mengonversi HTML ke WebP – Panduan Lengkap Java Aspose.HTML](./convert-html-to-webp-complete-java-aspose-html-guide/)
+Pelajari cara mengonversi HTML ke format WebP menggunakan Aspose.HTML untuk Java dengan contoh kode lengkap dan langkah‑langkah mudah.
 
 ### [Mengonversi HTML ke WebP – Panduan Lengkap Java dengan Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 ### [Cara merender HTML ke PNG di Java – Pandaan Lengkap](./how-to-render-html-to-png-in-java-complete-guide/)

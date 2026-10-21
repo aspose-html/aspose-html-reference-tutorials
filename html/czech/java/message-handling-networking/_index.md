@@ -59,6 +59,8 @@ Naučte se, jak nastavit autorizační hlavičku při načítání HTML z URL po
 ### [Nastavte vlastní uživatelský agent v Javě – načtení webové stránky v sandboxu](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
 Naučte se, jak nastavit vlastní User-Agent při načítání webových stránek v sandboxu pomocí Aspose.HTML pro Java.
 
+### [Načtení dat z API v Javě pomocí Aspose.HTML – Kompletní průvodce](./fetch-api-data-in-java-with-aspose-html-complete-guide/)
+Kompletní průvodce, jak v Javě pomocí Aspose.HTML načíst data z API a zpracovat je v HTML dokumentech.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

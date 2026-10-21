@@ -59,6 +59,8 @@ url: /ar/java/message-handling-networking/
 تعلم كيفية إعداد رأس Authorization في طلبات Java لتحميل صفحات HTML من عنوان URL بسهولة.
 ### [تعيين وكيل مستخدم مخصص في Java – تحميل صفحة ويب في وضع الحماية](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
 تعلم كيفية تعيين وكيل مستخدم مخصص عند تحميل صفحات الويب في بيئة الحماية باستخدام Aspose.HTML لـ Java.
+### [جلب بيانات API في Java باستخدام Aspose.HTML - دليل كامل](./fetch-api-data-in-java-with-aspose-html-complete-guide/)
+تعلم كيفية جلب بيانات API في Java باستخدام Aspose.HTML خطوة بخطوة في هذا الدليل الشامل.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

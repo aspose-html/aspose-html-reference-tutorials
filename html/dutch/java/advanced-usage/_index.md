@@ -169,6 +169,8 @@ Leer hoe je met Aspose.HTML JavaScript kunt uitvoeren en dynamisch elementen aan
 Leer hoe je de DPI-waarde instelt bij het omzetten van SVG‑bestanden naar PNG met Aspose.HTML for Java.
 ### [JavaScript uitvoeren vanuit Java – Aangepaste User-Agent instellen met Aspose.HTML](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
 Leer hoe je een aangepaste User-Agent instelt bij het uitvoeren van JavaScript vanuit Java met Aspose.HTML.
+### [Hoe Executor te gebruiken in Java – Fixed Thread Pool-gids](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
+Leer hoe je een Executor met een vaste thread‑pool configureert en beheert in Java met Aspose.HTML.
 
 ---
 

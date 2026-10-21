@@ -336,6 +336,8 @@ Convert HTML to PDF in a single line of Java code using Aspose.HTML, simplifying
 ### [html to pdf java: Complete Guide to Convert Webpage to PDF in One Line](./html-to-pdf-java-complete-guide-to-convert-webpage-to-pdf-in/)
 ### [How to Use Aspose for Parallel HTML to PDF Conversion in Java](./how-to-use-aspose-for-parallel-html-to-pdf-conversion-in-jav/)
 Explore how to perform parallel HTML to PDF conversions in Java using Aspose.HTML for faster batch processing.
+### [embed fonts in pdf – Complete Java Guide Using Aspose HTML](./embed-fonts-in-pdf-complete-java-guide-using-aspose-html/)
+Learn how to embed custom fonts into PDF files using Aspose.HTML for Java, ensuring accurate text rendering across platforms.
 
 ## Frequently Asked Questions
 

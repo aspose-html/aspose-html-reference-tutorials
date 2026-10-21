@@ -177,6 +177,8 @@ Erfahren Sie, wie Sie JavaScript aus Java ausführen und Elemente dynamisch an d
 Erfahren Sie, wie Sie die DPI‑Einstellung beim SVG‑zu‑PNG‑Export mit Aspose.HTML für Java konfigurieren, um hochwertige Bilder zu erhalten.
 ### [JavaScript aus Java ausführen – Benutzerdefinierten User-Agent mit Aspose.HTML festlegen](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
 Erfahren Sie, wie Sie mit Aspose.HTML den User-Agent-Header beim Ausführen von JavaScript aus Java setzen können.
+### [Executor in Java verwenden – Leitfaden für Fixed Thread Pool](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
+Erfahren Sie, wie Sie mit dem Executor-Service in Java einen Fixed Thread Pool einrichten und effizient Aufgaben parallel ausführen.
 
 ---
 

@@ -109,6 +109,8 @@ url: /zh/java/css-html-form-editing/
 本完整指南展示如何在 Java 中加载 HTML，并使用 Aspose.HTML 提取 CSS 颜色信息，实现页面渲染与样式分析。
 ### [使用 Aspose.HTML for Java 从 HTML 提取 CSS – 完整编程指南](./extract-css-from-html-in-java-complete-programming-guide/)
 本指南详细说明如何使用 Aspose.HTML for Java 从 HTML 中提取 CSS，涵盖完整的编程步骤与示例。
+### [如何在 Java 中读取 CSS – 完整 Aspose.HTML 指南](./how-to-read-css-in-java-complete-aspose-html-guide/)
+本指南详细讲解如何使用 Aspose.HTML for Java 读取和解析 CSS 文件，帮助开发者实现样式分析。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

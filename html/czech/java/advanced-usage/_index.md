@@ -184,6 +184,8 @@ Naučte se, jak pomocí Aspose.HTML spustit JavaScript v Javě a dynamicky přid
 ### [Jak nastavit DPI při převodu SVG na PNG s Aspose – Java průvodce](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
 ### [Spuštění JavaScriptu z Javy – Nastavení vlastního User-Agentu pomocí Aspose.HTML](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
 Naučte se, jak spustit JavaScript z Javy a nastavit vlastní User-Agent při načítání zdrojů pomocí Aspose.HTML.
+### [Jak používat Executor v Javě – Průvodce pevného poolu vláken](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
+Naučte se, jak vytvořit a spravovat pevný pool vláken pomocí třídy ExecutorService v Javě.
 
 ---
 

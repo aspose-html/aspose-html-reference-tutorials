@@ -66,10 +66,8 @@ Jeśli potrzebujesz **convert HTML to JPEG** dla reprezentacji podobnych do zdj�
 Przekształcanie HTML w obrazy PNG jest idealne dla grafik bezstratnych, zrzutów ekranu lub gdy potrzebna jest przezroczystość. Nasz kompleksowy przewodnik zapewnia jasne instrukcje dla płynnego doświadczenia konwersji.
 
 ### [Converting HTML to BMP](./convert-html-to-bmp/)
-Konwertuj HTML do BMP przy użyciu Aspose.HTML for Java. Kompleksowy samouczek umożliwiający płynne konwertowanie dokumentów HTML na obrazy BMP przy użyciu Aspose.HTML for Java.
 
 ### [Converting HTML to GIF](./convert-html-to-gif/)
-Dowiedz się, jak konwertować HTML do GIF w Javie przy użyciu Aspose.HTML. Kompleksowy przewodnik krok po kroku dla efektywnej konwersji HTML‑to‑GIF.
 
 ### [Jak utworzyć GIF z SVG – Przewodnik Java krok po kroku](./how-to-create-gif-from-svg-step-by-step-java-guide/)
 Dowiedz się, jak w Javie przy użyciu Aspose.HTML utworzyć animowany GIF z pliku SVG – kompletny przewodnik krok po kroku.
@@ -77,10 +75,10 @@ Dowiedz się, jak w Javie przy użyciu Aspose.HTML utworzyć animowany GIF z pli
 Dowiedz się, jak przekształcić plik SVG w animowany GIF w Javie przy użyciu Aspose.HTML – pełny przewodnik krok po kroku.
 
 ### [Converting HTML to JPEG](./convert-html-to-jpeg/)
-Dowiedz się, jak konwertować HTML do JPEG przy użyciu Aspose.HTML for Java. Przewodnik krok po kroku dla płynnego przetwarzania dokumentów.
 
 ### [Converting HTML to PNG](./convert-html-to-png/)
-Dowiedz się, jak konwertować HTML do obrazów PNG w Javie przy użyciu Aspose.HTML. Kompleksowy przewodnik z instrukcjami krok po kroku.
+
+### [Render HTML to PNG in Java – Full Aspose HTML Tutorial](./render-html-to-png-in-java-full-aspose-html-tutorial/)
 
 ### [Convert HTML to PNG – Batch Conversion Guide](./convert-html-to-png-batch-conversion-guide/)
 Dowiedz się, jak przeprowadzić wsadową konwersję HTML do PNG w Javie przy użyciu Aspose.HTML. Praktyczny przewodnik krok po kroku.
@@ -130,7 +128,6 @@ Dowiedz się, jak renderować HTML do PNG przy użyciu sandboxu Aspose.HTML w pe
 Dowiedz się, jak generować obrazy PNG o wysokiej rozdzielczości z HTML w Javie przy użyciu Aspose.HTML – szczegółowy przewodnik krok po kroku.
 
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
-Dowiedz się, jak łatwo konwertować HTML do TIFF przy użyciu Aspose.HTML for Java. Przewodnik krok po kroku dla efektywnego zarządzania dokumentami.
 
 ### [Utwórz baner HTML i renderuj do PNG – Pełny przewodnik Java](./create-html-banner-and-render-to-png-full-java-guide/)
 ### [Jak używać Sandbox do przechwytywania zrzutów ekranu stron internetowych](./how-to-use-sandbox-to-capture-webpage-screenshot/)
@@ -182,6 +179,8 @@ Dowiedz się, jak konwertować HTML do formatu WebP w Javie przy użyciu Aspose.
 ### [Konwertowanie SVG do PNG w Javie – Przewodnik konwersji wsadowej](./convert-svg-to-png-in-java-batch-conversion-guide/)
 
 ### [Jak uruchomić JavaScript i renderować HTML do PNG przy użyciu Aspose](./how-to-run-javascript-and-render-html-to-png-with-aspose/)
+
+### [Konwertowanie HTML do WebP – Kompletny przewodnik Java Aspose.HTML](./convert-html-to-webp-complete-java-aspose-html-guide/)
 
 ## Najczęściej zadawane pytania
 

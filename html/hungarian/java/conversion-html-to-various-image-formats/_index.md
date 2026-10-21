@@ -173,6 +173,10 @@ Ismerje meg, hogyan konvertálhat SVG fájlokat PNG‑be Java‑val az Aspose.HT
 Ismerje meg, hogyan renderelhet HTML‑t PNG formátumba az Aspose.HTML Sandbox környezetben Java‑ban, részletes lépésekkel.
 ### [Magas felbontású PNG létrehozása HTML‑ből – Teljes Java útmutató](./create-high-resolution-png-from-html-complete-java-guide/)
 Ismerje meg, hogyan hozhat létre nagy felbontású PNG képeket HTML‑ből Java‑ban az Aspose.HTML segítségével.
+### [HTML konvertálása WebP‑be – Teljes Java Aspose.HTML útmutató](./convert-html-to-webp-complete-java-aspose-html-guide/)
+Tanulja meg, hogyan konvertálhat HTML‑t WebP‑be Java‑ban az Aspose.HTML segítségével, részletes lépésről‑lépésre útmutatóval.
+### [HTML renderelése PNG‑be Java‑ban – Teljes Aspose HTML útmutató](./render-html-to-png-in-java-full-aspose-html-tutorial/)
+Ismerje meg, hogyan renderelhet HTML‑t PNG képpé Java‑ban az Aspose.HTML segítségével, részletes lépésről‑lépésre útmutatóval.
 
 ### [HTML renderelése PNG-be – Teljes útmutató Java fejlesztőknek](./how-to-render-html-to-png-complete-guide-for-java-developers/)
 Ismerje meg, hogyan renderelhet HTML-t PNG képpé Java‑ban az Aspose.HTML segítségével, részletes, lépésről‑lépésre útmutatóval.

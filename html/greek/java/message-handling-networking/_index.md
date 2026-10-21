@@ -60,6 +60,8 @@ url: /el/java/message-handling-networking/
 Μάθετε πώς να ορίζετε την κεφαλίδα Authorization σε αιτήματα Java για τη φόρτωση HTML από URL με ασφάλεια.
 ### [Ορισμός προσαρμοσμένου user agent σε Java – Φόρτωση ιστοσελίδας σε sandbox στο Aspose.HTML για Java](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
 Μάθετε πώς να ορίσετε προσαρμοσμένο user agent σε Java για τη φόρτωση ιστοσελίδων σε sandbox περιβάλλον, βελτιώνοντας την ασφάλεια και τον έλεγχο.
+### [Ανάκτηση δεδομένων API σε Java με Aspose.HTML - Πλήρης Οδηγός](./fetch-api-data-in-java-with-aspose-html-complete-guide/)
+Μάθετε πώς να ανακτάτε δεδομένα από API χρησιμοποιώντας το Aspose.HTML σε Java, βήμα-βήμα, με παραδείγματα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

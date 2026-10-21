@@ -60,6 +60,8 @@ Bu kapsamlı rehber, Java’da Aspose.HTML kullanarak URL’den HTML yüklerken 
 ### [Java için Aspose.HTML'de Özel Kullanıcı Aracısı Ayarlama – Sandbox'ta Web Sayfası Yükleme öğreticisi](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
 Bu öğreticide Java'da özel bir kullanıcı aracısı ayarlayarak sandbox ortamında bir web sayfası nasıl yükleneceğini öğrenin.
 
+### [Java için Aspose.HTML ile API Verilerini Getirme - Tam Kılavuz](./fetch-api-data-in-java-with-aspose-html-complete-guide/)
+Java için Aspose.HTML kullanarak API'den veri çekmeyi adım adım öğrenin ve uygulamalarınıza entegre edin.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -266,6 +266,8 @@ weight: 25
 ### [html σε pdf java: Πλήρης Οδηγός για τη Μετατροπή Ιστοσελίδας σε PDF με Μία Γραμμή](./html-to-pdf-java-complete-guide-to-convert-webpage-to-pdf-in/)
 Μάθετε πώς να μετατρέψετε μια ιστοσελίδα σε PDF με μία μόνο κλήση κώδικα χρησιμοποιώντας το Aspose.HTML for Java.
 ### [Πώς να χρησιμοποιήσετε το Aspose για παράλληλη μετατροπή HTML σε PDF σε Java](./how-to-use-aspose-for-parallel-html-to-pdf-conversion-in-jav/)
+### [Ενσωμάτωση γραμματοσειρών σε PDF – Πλήρης Οδηγός Java με Aspose HTML](./embed-fonts-in-pdf-complete-java-guide-using-aspose-html/)
+Μάθετε πώς να ενσωματώσετε γραμματοσειρές σε αρχεία PDF χρησιμοποιώντας το Aspose.HTML for Java, εξασφαλίζοντας σωστή εμφάνιση σε όλες τις συσκευές.
 
 ## Συχνές Ερωτήσεις
 

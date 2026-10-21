@@ -194,6 +194,9 @@ Aprenda a definir a resolução DPI ao converter arquivos SVG em PNG usando Aspo
 ### [Como Executar JavaScript a partir de Java – Definir User-Agent Personalizado com Aspose.HTML](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
 Aprenda a definir um User-Agent personalizado ao executar scripts JavaScript a partir de Java usando Aspose.HTML.
 
+### [Como usar Executor em Java – Guia de pool de threads fixo](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
+Aprenda a usar a classe Executor para criar e gerenciar um pool de threads fixo em Java, otimizando tarefas concorrentes.
+
 ---
 
 **Última atualização:** 2025-11-29  

@@ -106,6 +106,8 @@ Ismerje meg, hogyan olvashatja a CSS-t Java-ban, szimulálhat mobil képernyőt 
 Ismerje meg, hogyan tölthet be HTML-t Java-ban, és hogyan nyerhet ki színeket a CSS-ből lépésről lépésre.
 ### [CSS kinyerése HTML-ből Java-ban – Teljes programozási útmutató](./extract-css-from-html-in-java-complete-programming-guide/)
 Ismerje meg, hogyan nyerhet ki CSS-t HTML-fájlokból Java segítségével részletes, lépésről-lépésre útmutatóval.
+### [CSS olvasása Java-ban – Teljes Aspose.HTML útmutató](./how-to-read-css-in-java-complete-aspose-html-guide/)
+Ismerje meg, hogyan olvashatja és elemezheti a CSS-t Java-ban az Aspose.HTML segítségével, részletes lépésről-lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

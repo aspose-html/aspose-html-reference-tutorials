@@ -60,6 +60,8 @@ Leer hoe u JSON-gegevens via JavaScript in Java kunt ophalen en verwerken met As
 ### [Aangepaste user-agent instellen in Java – Webpagina laden in sandbox-tutorial](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
 Leer hoe u een aangepaste user-agent instelt en een webpagina laadt in een sandbox-omgeving met Aspose.HTML voor Java.
 
+### [API-gegevens ophalen in Java met Aspose.HTML - Complete gids](./fetch-api-data-in-java-with-aspose-html-complete-guide/)
+Leer hoe u API-gegevens kunt ophalen en verwerken in Java met Aspose.HTML in deze volledige gids.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

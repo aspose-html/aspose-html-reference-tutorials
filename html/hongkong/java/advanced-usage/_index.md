@@ -193,6 +193,9 @@ A: 不需要。單一的 Aspose.HTML for Java 授權即涵蓋所有輸出格式�
 ### [在 Java 中執行 JavaScript – 設定自訂 User-Agent（使用 Aspose.HTML）](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
 說明如何在 Aspose.HTML for Java 中執行 JavaScript 並自訂 HTTP User-Agent，以控制外部請求行為。
 
+### [如何在 Java 中使用 Executor – 固定執行緒池指南](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
+了解如何使用 Java Executor 建立固定大小的執行緒池，以提升併發效能並有效管理資源。
+
 ---
 
 **最後更新日期：** 2025-11-29  

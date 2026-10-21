@@ -31,6 +31,8 @@ url: /hi/java/css-html-form-editing/
 कस्टम पेज मार्जिन और डायनामिक कंटेंट सहित उन्नत CSS तकनीकों को लागू करने के लिए Java के लिए Aspose.HTML का उपयोग करना सीखें। डेवलपर्स के लिए एक विस्तृत, व्यावहारिक ट्यूटोरियल।
 ### [Java में HTML से CSS निकालें – चरण‑दर‑चरण गाइड](./extract-css-from-html-in-java-step-by-step-guide/)
 Java में Aspose.HTML का उपयोग करके HTML दस्तावेज़ से CSS निकालने की प्रक्रिया को चरण‑दर‑चरण सीखें।
+### [Java में CSS पढ़ना – पूर्ण Aspose.HTML गाइड](./how-to-read-css-in-java-complete-aspose-html-guide/)
+Java में Aspose.HTML का उपयोग करके CSS को पढ़ने और प्रोसेस करने की पूरी प्रक्रिया सीखें।
 ### [Java के लिए Aspose.HTML के साथ HTML फॉर्म संपादन और सबमिशन](./html-form-editing/)
 ### [Java में गणना किया गया CSS प्राप्त करें – पूर्ण Aspose HTML गाइड](./get-computed-css-in-java-complete-aspose-html-guide/)
 Java में Aspose.HTML का उपयोग करके गणना किए गए CSS मानों को प्राप्त करने की पूरी प्रक्रिया सीखें।

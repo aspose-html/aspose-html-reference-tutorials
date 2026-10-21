@@ -131,6 +131,8 @@ Att använda Aspose.HTML for Java förenklar konverteringen av HTML‑dokument t
 ### [Hur man kör JavaScript och renderar HTML till PNG med Aspose](./how-to-run-javascript-and-render-html-to-png-with-aspose/)
 ### [Hur man ställer in DPI vid konvertering av SVG till PNG – Java‑guide](./how-to-set-dpi-when-converting-svg-to-png-java-guide/)
 ### [Skapa högupplöst PNG från HTML – Komplett Java‑guide](./create-high-resolution-png-from-html-complete-java-guide/)
+### [Rendera HTML till PNG i Java – Fullständig Aspose HTML‑handledning](./render-html-to-png-in-java-full-aspose-html-tutorial/)
+### [Konvertera HTML till WebP – Komplett Java Aspose.HTML‑guide](./convert-html-to-webp-complete-java-aspose-html-guide/)
 
 ### [Hur man renderar HTML till PNG – Komplett guide för Java‑utvecklare](./how-to-render-html-to-png-complete-guide-for-java-developers/)
 ### [Skapa PNG från HTML i Java – Fullständig steg‑för‑steg‑guide](./create-png-from-html-in-java-full-step-by-step-guide/)

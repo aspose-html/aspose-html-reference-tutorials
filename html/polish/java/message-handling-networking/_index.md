@@ -59,6 +59,8 @@ Dowiedz się, jak pobierać i przetwarzać dane JSON w aplikacjach Java przy uż
 Dowiedz się, jak ustawić nagłówek autoryzacji w Javie, aby pobierać i wyświetlać strony HTML z zabezpieczonych adresów URL.
 ### [Ustaw niestandardowy user agent w Javie – Ładowanie strony w piaskownicy](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
 Dowiedz się, jak ustawić własny user‑agent przy ładowaniu stron w trybie piaskownicy przy użyciu Aspose.HTML dla Java.
+### [Pobieranie danych API w Javie przy użyciu Aspose.HTML – Kompletny przewodnik](./fetch-api-data-in-java-with-aspose-html-complete-guide/)
+Dowiedz się, jak pobierać dane z API w Javie przy użyciu Aspose.HTML, krok po kroku, aby wzbogacić aplikacje o dynamiczne treści.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

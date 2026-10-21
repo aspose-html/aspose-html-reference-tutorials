@@ -108,6 +108,8 @@ Java를 사용해 CSS를 읽고, 모바일 화면을 시뮬레이션하며, 미�
 Java에서 Aspose.HTML을 사용해 HTML을 로드하고 CSS 색상을 추출하는 방법을 단계별로 안내합니다.
 ### [Java를 사용한 HTML에서 CSS 추출 – 완전 프로그래밍 가이드](./extract-css-from-html-in-java-complete-programming-guide/)
 Aspose.HTML for Java를 활용해 HTML 문서에서 CSS를 추출하는 방법을 단계별로 안내합니다.
+### [Java에서 CSS를 읽는 방법 – 완전 Aspose.HTML 가이드](./how-to-read-css-in-java-complete-aspose-html-guide/)
+이 튜토리얼에서는 Aspose.HTML을 사용해 Java에서 CSS 파일을 읽고 파싱하는 전체 과정을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -117,6 +117,8 @@ Aspose.HTML for Java का उपयोग करके HTML को PDF मे�
 Aspose.HTML for Java का उपयोग करके HTML को PDF में तेज़ी से बदलने के चरण‑बद्ध निर्देश।
 ### [Aspose HTML to PDF (Java) में JavaScript को सक्षम कैसे करें](./how-to-enable-javascript-in-aspose-html-to-pdf-java/)
 Aspose.HTML for Java में PDF रूपांतरण के दौरान JavaScript निष्पादन को सक्रिय करने के चरण सीखें।
+### [PDF में फ़ॉन्ट एम्बेड करना – Aspose HTML का उपयोग करके पूर्ण जावा गाइड](./embed-fonts-in-pdf-complete-java-guide-using-aspose-html/)
+Aspose.HTML for Java के साथ PDF में फ़ॉन्ट एम्बेड करने का विस्तृत चरण‑दर‑चरण गाइड।
 
 ### [HTML को MHTML में बदलना](./convert-html-to-mhtml/)
 ### [Java में HTML से PDF बनाएं – पूर्ण Aspose गाइड](./create-pdf-from-html-in-java-complete-aspose-guide/)

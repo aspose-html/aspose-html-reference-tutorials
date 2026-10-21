@@ -275,6 +275,8 @@ Leer hoe u met één regel code een volledige webpagina naar PDF converteert in 
 Leer hoe u met Aspose.HTML een PDF in A4‑formaat genereert in Java, stap voor stap met voorbeeldcode.
 ### [Hoe Aspose te gebruiken voor parallelle HTML‑naar‑PDF conversie in Java](./how-to-use-aspose-for-parallel-html-to-pdf-conversion-in-jav/)
 Leer hoe u met Aspose.HTML meerdere HTML‑bestanden gelijktijdig naar PDF kunt converteren in Java voor hogere doorvoer.
+### [Lettertypen insluiten in PDF – Complete Java-gids met Aspose HTML](./embed-fonts-in-pdf-complete-java-guide-using-aspose-html/)
+Leer hoe u lettertypen insluit in PDF's met Aspose.HTML for Java voor consistente weergave op alle apparaten.
 
 ## Veelgestelde Vragen
 

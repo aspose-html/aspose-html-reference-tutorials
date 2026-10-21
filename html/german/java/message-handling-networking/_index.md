@@ -62,6 +62,8 @@ Erfahren Sie, wie Sie den Authorization-Header in Java setzen, um HTML von einer
 
 ### [Benutzerdefinierten User-Agent in Java festlegen – Webpage im Sandbox-Tutorial laden](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
 Erfahren Sie, wie Sie in Aspose.HTML für Java einen benutzerdefinierten User-Agent setzen und Webseiten in einer Sandbox laden.
+### [Abrufen von API-Daten in Java mit Aspose.HTML – Komplettanleitung](./fetch-api-data-in-java-with-aspose-html-complete-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

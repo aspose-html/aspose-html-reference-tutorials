@@ -35,6 +35,8 @@ Learn how to edit and submit HTML forms programmatically using Aspose.HTML for J
 Learn how to retrieve computed CSS values in Java using Aspose.HTML in this complete step-by-step guide.
 ### [how to get style in Java – load HTML & query selector](./how-to-get-style-in-java-load-html-query-selector/)
 Learn how to load HTML in Java and retrieve CSS styles using query selectors with Aspose.HTML.
+### [How to Read CSS in Java – Complete Aspose.HTML Guide](./how-to-read-css-in-java-complete-aspose-html-guide/)
+Learn how to read CSS programmatically in Java using Aspose.HTML in this comprehensive step-by-step guide.
 ### [select element by class in Java – Complete How‑To Guide](./select-element-by-class-in-java-complete-how-to-guide/)
 Learn how to select HTML elements by class using Aspose.HTML for Java in this complete step-by-step guide.
 ### [How to query HTML in Java – Select elements, filter by attribute, and get text content](./how-to-query-html-in-java-select-elements-filter-by-attribut/)

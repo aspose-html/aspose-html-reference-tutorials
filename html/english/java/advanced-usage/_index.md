@@ -190,6 +190,8 @@ Learn how to execute tasks concurrently using a fixed thread pool in Java, with 
 Learn how to run JavaScript from Java using Aspose.HTML to dynamically append elements to the document body.
 ### [Run JavaScript from Java – Set Custom User-Agent with Aspose.HTML](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
 Learn how to set a custom User-Agent while executing JavaScript from Java with Aspose.HTML, enabling tailored web requests.
+### [How to Use Executor in Java – Fixed Thread Pool Guide](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
+Learn how to use Java's Executor with a fixed thread pool to manage concurrent tasks efficiently using Aspose.HTML.
 
 ---
 

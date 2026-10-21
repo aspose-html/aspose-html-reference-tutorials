@@ -276,6 +276,7 @@ Naučte se převést webovou stránku do PDF v Javě jedním řádkem kódu pomo
 Naučte se vytvořit PDF ve formátu A4 v Javě pomocí Aspose.HTML s podrobným krok‑za‑krokem návodem.
 ### [Jak použít Aspose pro paralelní konverzi HTML do PDF v Javě](./how-to-use-aspose-for-parallel-html-to-pdf-conversion-in-jav/)
 Naučte se provádět paralelní konverzi více HTML souborů do PDF najednou pomocí Aspose.HTML for Java.
+### [Vložení fontů do PDF – Kompletní průvodce v Javě pomocí Aspose HTML](./embed-fonts-in-pdf-complete-java-guide-using-aspose-html/)
 
 ## Často kladené otázky
 

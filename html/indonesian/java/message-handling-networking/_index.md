@@ -63,6 +63,8 @@ Pelajari cara mengambil data JSON menggunakan JavaScript di Java dengan Aspose H
 ### [Mengatur User Agent Kustom di Java – Tutorial Memuat Halaman Web dalam Sandbox](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
 Pelajari cara mengatur user agent khusus di Java untuk memuat halaman web dalam sandbox menggunakan Aspose.HTML.
 
+### [Mengambil Data API di Java dengan Aspose.HTML - Panduan Lengkap](./fetch-api-data-in-java-with-aspose-html-complete-guide/)
+Pelajari cara mengambil data API menggunakan Java dan Aspose.HTML dalam panduan lengkap ini.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
