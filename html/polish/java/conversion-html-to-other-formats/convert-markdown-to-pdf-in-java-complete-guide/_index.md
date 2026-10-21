@@ -1,54 +1,25 @@
 ---
 category: general
-date: 2026-05-28
-description: Konwertuj markdown na PDF przy użyciu Aspose.HTML dla Javy. Dowiedz się,
-  jak odczytać plik markdown w Javie, wstawić HTML do ciała i wygenerować PDF z markdowna.
+date: 2026-02-13
+description: Konwertuj markdown na PDF przy użyciu Javy i Aspose.HTML w kilka minut.
+  Naucz się konwertować HTML na PDF w Javie, generować PDF z markdown oraz zapisywać
+  PDF z HTML za pomocą jednego skryptu.
 draft: false
 keywords:
 - convert markdown to pdf
+- html to pdf java
 - generate pdf from markdown
-- insert html into body
-- read markdown file java
-- markdown to pdf java
+- save pdf from html
+- render markdown as pdf
 language: pl
-og_description: Konwertuj markdown na PDF przy użyciu Aspose.HTML. Ten samouczek pokazuje,
-  jak odczytać plik markdown w języku Java, wstawić HTML do treści i wygenerować PDF
-  z markdowna.
-og_title: Konwertuj Markdown na PDF w Javie – Przewodnik krok po kroku
-schemas:
-- author: Aspose
-  dateModified: '2026-05-28'
-  description: Convert markdown to PDF using Aspose.HTML for Java. Learn to read markdown
-    file java, insert html into body, and generate pdf from markdown.
-  headline: Convert Markdown to PDF in Java – Complete Guide
-  type: TechArticle
-- description: Convert markdown to PDF using Aspose.HTML for Java. Learn to read markdown
-    file java, insert html into body, and generate pdf from markdown.
-  name: Convert Markdown to PDF in Java – Complete Guide
-  steps:
-  - name: Expected Output
-    text: 'Running the program prints:'
-  - name: 1️⃣ What if my Markdown contains images?
-    text: Aspose.HTML resolves relative image URLs against the location of the source
-      file. Just make sure the images sit next to the `.md` file or provide absolute
-      URLs. If you need to embed images from the classpath, use a custom `ResourceResolver`
-      (see the Aspose docs for a short example).
-  - name: 2️⃣ How do I change page size or margins?
-    text: 'You can create a `PdfConversionOptions` object and pass it to `Converter.convertDocument`.
-      Example:'
-  - name: 3️⃣ My Markdown is huge—will the conversion blow up memory?
-    text: Aspose.HTML streams content, but the entire DOM lives in memory. For extremely
-      large documents (>10 MB), consider splitting the Markdown into sections and
-      converting each to a separate PDF page, then merging them with a PDF library
-      like iText.
-  - name: 4️⃣ Do I need a paid license for production?
-    text: 'A trial license works fine for development; it adds a small watermark.
-      For production, purchase a license to remove the watermark and unlock full API
-      support. The license file is just a `.lic` file you load at startup:'
-  type: HowTo
+og_description: Szybko konwertuj markdown na PDF przy użyciu Javy. Ten przewodnik
+  pokazuje, jak konwertować HTML na PDF w Javie, generować PDF z markdown oraz zapisywać
+  PDF z HTML przy użyciu Aspose.
+og_title: Konwertuj Markdown na PDF w Javie – Kompletny przewodnik
 tags:
 - Java
-- PDF generation
+- PDF
+- Aspose
 - Markdown
 title: Konwertuj Markdown na PDF w Javie – Kompletny przewodnik
 url: /pl/java/conversion-html-to-other-formats/convert-markdown-to-pdf-in-java-complete-guide/
@@ -60,229 +31,197 @@ url: /pl/java/conversion-html-to-other-formats/convert-markdown-to-pdf-in-java-c
 
 # Konwertowanie Markdown do PDF w Javie – Kompletny przewodnik
 
-Zastanawiałeś się kiedyś, jak **konwertować markdown do pdf** bez żonglowania dziesiątką narzędzi wiersza poleceń? Nie jesteś sam. Większość programistów Java napotyka ten sam problem, gdy potrzebują szybkiego, programowego sposobu na przekształcenie pliku `.md` w elegancki PDF.  
+Potrzebujesz **convert markdown to pdf** w Javie? Nie jesteś sam. Wielu programistów napotyka ten sam problem, gdy chcą dostarczyć ładnie sformatowaną dokumentację lub raporty bezpośrednio z plików źródłowych.  
 
-W tym samouczku przeprowadzimy praktyczne rozwiązanie, które **czyta plik markdown w Javie**, opcjonalnie modyfikuje DOM HTML, a następnie **generuje pdf z markdown** przy użyciu biblioteki Aspose.HTML for Java. Po zakończeniu będziesz mieć pojedynczy, samodzielny program, który robi dokładnie to, czego potrzebujesz — bez zewnętrznych konwerterów, bez plików tymczasowych, tylko czysty kod Java.
+W tym samouczku zobaczysz **single‑file solution**, które zamienia plik `.md` w dopracowany PDF bez zapisywania tymczasowego pliku HTML na dysku. Poruszymy także powiązane zadania, takie jak **html to pdf java**, **generate pdf from markdown**, i **save pdf from html** — wszystko przy użyciu tej samej biblioteki Aspose.HTML.
 
-> **Dlaczego się tym przejmować?**  
-> Automatyzacja dokumentacji, tworzenie raportów do druku lub pakowanie notatek wydania — wszystko staje się dziecinnie proste, gdy możesz **konwertować markdown do pdf** bezpośrednio z aplikacji.
+Po zakończeniu przewodnika będziesz mieć działający program, zrozumiesz, dlaczego każdy krok ma znaczenie, i będziesz wiedział, jak dostosować proces do większych projektów.
 
 ---
 
 ## Czego będziesz potrzebować
 
-Zanim zanurkujemy, upewnij się, że masz następujące wymagania:
+| Prerequisite | Why it matters |
+|--------------|----------------|
+| **Java 17+** (or any recent JDK) | Aspose.HTML obsługuje Java 8+, ale użycie nowoczesnego JDK zapewnia lepszą wydajność i wsparcie modułów. |
+| **Maven** (or Gradle) | Upraszcza dodawanie zależności Aspose.HTML. |
+| **Aspose.HTML for Java** license (free trial works for development) | Biblioteka wykonuje ciężką pracę parsowania Markdown i renderowania PDF. |
+| A **Markdown** file you want to convert (e.g., `readme.md`) | Zawartość źródłowa. |
 
-| Wymaganie | Powód |
-|--------------|--------|
-| **Java 17+** (lub dowolny nowoczesny JDK) | Aspose.HTML obsługuje Java 8+, ale użycie najnowszego LTS zapewnia lepszą wydajność. |
-| **Maven** (lub Gradle) do zarządzania zależnościami | Ułatwia pobieranie JAR‑ów Aspose.HTML. |
-| **Licencja Aspose.HTML for Java** (bezpłatna wersja próbna działa w devie) | Biblioteka wykonuje ciężką pracę parsowania Markdown → HTML → PDF. |
-| Prosty **README.md** lub dowolny plik Markdown, który chcesz przekonwertować | Użyjemy go jako dokumentu źródłowego. |
-| IDE lub edytor tekstu (IntelliJ IDEA, VS Code, Eclipse…) | Cokolwiek, co pozwala uruchomić metodę `main` w Javie. |
-
-Jeśli któreś z tych pojęć jest Ci nieznane, nie panikuj — każdy krok poniżej pokazuje dokładnie, gdzie je zdobyć.
-
----
+Jeśli już masz projekt Maven, po prostu dodaj zależność pokazana w następnym kroku. Nie są wymagane żadne dodatkowe narzędzia.
 
 ## Krok 1: Dodaj Aspose.HTML do swojego projektu
 
-Najpierw poinformuj Maven (lub Gradle), aby pobrał bibliotekę Aspose.HTML. W pliku `pom.xml` dodaj następującą zależność wewnątrz `<dependencies>`:
+**Dlaczego ten krok?**  
+Aspose.HTML zapewnia zarówno parser Markdown, jak i renderer PDF. Dodając go przez Maven, automatycznie otrzymujesz wszystkie zależności tranzytywne.
 
 ```xml
-<dependency>
-    <groupId>com.aspose</groupId>
-    <artifactId>aspose-html</artifactId>
-    <version>23.12</version> <!-- check the latest version on Maven Central -->
-</dependency>
+<!-- pom.xml -->
+<dependencies>
+    <dependency>
+        <groupId>com.aspose</groupId>
+        <artifactId>aspose-html</artifactId>
+        <version>23.12</version> <!-- Check the latest version on Maven Central -->
+    </dependency>
+</dependencies>
 ```
 
-> **Pro tip:** Jeśli używasz Gradle, równoważna linia to  
-> `implementation "com.aspose:aspose-html:23.12"`.
+> **Wskazówka:** Jeśli wolisz Gradle, równoważny zapis to  
+> `implementation 'com.aspose:aspose-html:23.12'`.
 
-Po rozwiązaniu zależności będziesz mieć dostęp do klas takich jak `HTMLDocument`, `MarkdownParser` i `Converter`. Nie są wymagane dodatkowe JAR‑y.
+Gdy Maven zakończy pobieranie, jesteś gotowy do kodowania.
 
----
+## Krok 2: Konwertuj Markdown do HTML **In‑Memory**
 
-## Krok 2: Odczytaj plik Markdown w Javie
-
-Teraz naprawdę **odczytać plik markdown w Javie**. Aspose.HTML dostarcza statyczny `MarkdownParser`, który może przyjąć ścieżkę do pliku, `Reader` lub surowy `String`. Oto minimalna metoda zwracająca `HTMLDocument`:
-
-```java
-import com.aspose.html.HTMLDocument;
-import com.aspose.html.parsers.MarkdownParser;
-
-/**
- * Parses a local markdown file into an HTMLDocument.
- *
- * @param markdownPath absolute or relative path to the .md file
- * @return an in‑memory HTMLDocument representation
- * @throws Exception if the file cannot be read or parsed
- */
-public static HTMLDocument parseMarkdown(String markdownPath) throws Exception {
-    // The try‑with‑resources block ensures the document is closed later.
-    return MarkdownParser.parseFile(markdownPath);
-}
-```
-
-> **Dlaczego to ważne:** Konwertując najpierw do `HTMLDocument`, zyskujesz pełną kontrolę nad DOM przed samą konwersją do PDF.
-
----
-
-## Krok 3: Wstaw HTML do ciała (opcjonalnie)
-
-Czasami chcesz dodać tytuł, znak wodny lub własny blok CSS. Wtedy **wstaw html do ciała** naprawdę się przydaje. API `HTMLDocument` odzwierciedla DOM przeglądarki, więc możesz wywołać `insertAdjacentHTML` tak jak w JavaScript.
-
-```java
-/**
- * Prepends a custom header to the HTMLDocument’s body.
- *
- * @param doc the HTMLDocument to modify
- * @param headerHtml raw HTML string (e.g., "<h1>Project Overview</h1>")
- */
-public static void prependHeader(HTMLDocument doc, String headerHtml) {
-    // "afterbegin" inserts right after the opening <body> tag.
-    doc.getBody().insertAdjacentHTML("afterbegin", headerHtml);
-}
-```
-
-Możesz wywołać tę metodę zaraz po parsowaniu markdown. Jeśli nie potrzebujesz dodatkowego markupu, możesz pominąć ten krok — nic się nie zepsuje.
-
----
-
-## Krok 4: Konwertuj HTMLDocument do PDF
-
-Ostatni element układanki to faktyczna operacja **konwertować markdown do pdf**. Klasa `Converter` z Aspose.HTML zajmuje się ciężką pracą. Domyślnie używa rozsądnych opcji konwersji, ale możesz także dostosować rozmiar strony, marginesy, nagłówki/stopki itp.
+Pierwszy krok konwersji tworzy ciąg HTML z Twojego Markdown. Przechowywanie wszystkiego w pamięci unika zagracania systemu plików i przyspiesza proces.
 
 ```java
 import com.aspose.html.converters.Converter;
+import com.aspose.html.converters.MarkdownConvertOptions;
 
 /**
- * Saves the supplied HTMLDocument as a PDF file.
+ * Reads a Markdown file and returns its HTML representation as a String.
  *
- * @param doc         the populated HTMLDocument
- * @param outputPath  where the .pdf should be written
- * @throws Exception  if conversion fails
+ * @param markdownPath Absolute or relative path to the .md file.
+ * @return HTML content generated from the Markdown source.
+ * @throws Exception if the file cannot be read or conversion fails.
  */
-public static void saveAsPdf(HTMLDocument doc, String outputPath) throws Exception {
-    // The static convertDocument method writes directly to the file system.
-    Converter.convertDocument(doc, outputPath);
+public static String markdownToHtml(String markdownPath) throws Exception {
+    // The Converter class does the heavy lifting behind the scenes.
+    return Converter.convertToString(markdownPath, new MarkdownConvertOptions());
 }
 ```
 
-To dosłownie wszystko, czego potrzebujesz, aby **generować pdf z markdown**. Biblioteka wewnętrznie renderuje HTML (w tym CSS, obrazy, czcionki) i przesyła wynik do pliku PDF.
+**Co się dzieje?**  
+`MarkdownConvertOptions` informuje Aspose, aby traktował wejście jako Markdown, a nie zwykły tekst. Zwrócony `String` zawiera w pełni sformatowany dokument HTML, z tagami `<head>` i `<body>`, gotowy do kolejnego etapu.
 
----
+## Krok 3: Renderuj HTML jako PDF
 
-## Krok 5: Złożenie wszystkiego razem – kompletny przykład
-
-Poniżej znajduje się gotowa do uruchomienia klasa `MarkdownToPdfExample`, która łączy poprzednie kroki w jedną całość. Zamień `YOUR_DIRECTORY` na folder, w którym znajduje się Twój plik `.md`.
+Teraz, gdy mamy HTML, przekazujemy go rendererowi PDF Aspose. Ten krok to miejsce, w którym **html to pdf java** naprawdę błyszczy.
 
 ```java
-import com.aspose.html.HTMLDocument;
-import com.aspose.html.parsers.MarkdownParser;
-import com.aspose.html.converters.Converter;
+import com.aspose.html.converters.PdfConvertOptions;
 
 /**
- * End‑to‑end demo: read a Markdown file, optionally tweak the DOM,
- * and convert it to a PDF using Aspose.HTML for Java.
+ * Takes HTML content and writes a PDF file to the supplied path.
  *
- * Requirements:
- *   - Maven dependency on com.aspose:aspose-html
- *   - A valid Aspose.HTML license (optional for trial)
+ * @param htmlContent HTML string generated from Markdown.
+ * @param pdfPath     Destination path for the PDF file (e.g., "output.pdf").
+ * @throws Exception if the conversion fails.
  */
-public class MarkdownToPdfExample {
+public static void htmlToPdf(String htmlContent, String pdfPath) throws Exception {
+    // PdfConvertOptions lets you tweak page size, margins, etc.
+    Converter.convertFromString(htmlContent, pdfPath, new PdfConvertOptions());
+}
+```
 
+**Dlaczego nie zapisywać HTML do tymczasowego pliku?**  
+Zapisywanie na dysk dodaje opóźnienia I/O i zmusza do ręcznego sprzątania. Używając `convertFromString`, biblioteka przesyła HTML bezpośrednio do silnika PDF, co jest szybsze i bezpieczniejsze w środowiskach o ograniczonych uprawnieniach.
+
+## Krok 4: Połącz wszystko – pełny działający przykład
+
+Poniżej znajduje się **kompletny, samodzielny** klas Java, który łączy te trzy elementy. Skopiuj i wklej go do swojego IDE, dostosuj ścieżki plików i uruchom – zobaczysz `readme.pdf` pojawiający się obok pliku źródłowego.
+
+```java
+import com.aspose.html.converters.Converter;
+import com.aspose.html.converters.MarkdownConvertOptions;
+import com.aspose.html.converters.PdfConvertOptions;
+
+/**
+ * Demo: Convert a Markdown file to PDF using Aspose.HTML.
+ *
+ * This class showcases the entire pipeline:
+ *   1. Markdown → HTML (in‑memory)
+ *   2. HTML → PDF (saved to disk)
+ *
+ * Run it with:
+ *   java MdToPdf
+ *
+ * Expected output:
+ *   "Markdown rendered to PDF."
+ *   A file named readme.pdf in the specified directory.
+ */
+public class MdToPdf {
     public static void main(String[] args) throws Exception {
         // -----------------------------------------------------------------
-        // 1️⃣  Read the Markdown file into an HTMLDocument
+        // Step 1: Convert the Markdown file to HTML (in‑memory)
         // -----------------------------------------------------------------
         String markdownPath = "YOUR_DIRECTORY/readme.md";
-        try (HTMLDocument htmlDoc = MarkdownParser.parseFile(markdownPath)) {
+        String htmlContent = Converter.convertToString(
+                markdownPath,
+                new MarkdownConvertOptions());
 
-            // -----------------------------------------------------------------
-            // 2️⃣  (Optional) Insert a custom header into the body
-            // -----------------------------------------------------------------
-            String customHeader = "<h1>Project Overview</h1>";
-            htmlDoc.getBody().insertAdjacentHTML("afterbegin", customHeader);
-            // You could also inject CSS, a logo image, or a table of contents here.
+        // -----------------------------------------------------------------
+        // Step 2: Convert the generated HTML to PDF and save it
+        // -----------------------------------------------------------------
+        String pdfPath = "YOUR_DIRECTORY/readme.pdf";
+        Converter.convertFromString(
+                htmlContent,
+                pdfPath,
+                new PdfConvertOptions());
 
-            // -----------------------------------------------------------------
-            // 3️⃣  Convert the enriched HTMLDocument to PDF
-            // -----------------------------------------------------------------
-            String pdfPath = "YOUR_DIRECTORY/readme.pdf";
-            Converter.convertDocument(htmlDoc, pdfPath);
-
-            System.out.println("✅ PDF generated successfully at: " + pdfPath);
-        } // try‑with‑resources automatically disposes the HTMLDocument
+        // -----------------------------------------------------------------
+        // Step 3: Notify that the conversion completed successfully
+        // -----------------------------------------------------------------
+        System.out.println("Markdown rendered to PDF.");
     }
 }
 ```
 
-### Oczekiwany wynik
+**Weryfikacja**  
+Po zakończeniu programu otwórz `readme.pdf` w dowolnym przeglądarce PDF. Powinieneś zobaczyć swój oryginalny Markdown wyrenderowany z nagłówkami, listami i blokami kodu nienaruszonymi — dokładnie tak, jak wyglądałby podgląd HTML.
 
-Uruchomienie programu wypisuje:
+## Krok 5: Obsługa rzeczywistych wariantów
 
-```
-✅ PDF generated successfully at: YOUR_DIRECTORY/readme.pdf
-```
+### Duże pliki Markdown
 
-Otwórz `readme.pdf` i zobaczysz:
+Jeśli Twój plik źródłowy przekracza kilka megabajtów, możesz napotkać limity pamięci. Proste rozwiązanie to **streamowanie Markdown** w fragmentach i konwertowanie każdego fragmentu do HTML przed przekazaniem go rendererowi PDF. Aspose oferuje API `Document`, które może przyjąć `InputStream` do przetwarzania przyrostowego.
 
-* Oryginalną treść Markdown wyświetloną jako sformatowany tekst.  
-* Pogrubiony tytuł „Project Overview” na samym początku (dzięki naszemu krokowi **wstaw html do ciała**).  
-* Poprawne podziały stron, tekst możliwy do zaznaczenia oraz czcionki wektorowe — dokładnie to, czego oczekujesz od profesjonalnego PDF‑a.
+### Niestandardowe stylowanie
 
----
-
-## Częste pytania i przypadki brzegowe
-
-### 1️⃣ Co jeśli mój Markdown zawiera obrazy?
-
-Aspose.HTML rozwiązuje względne adresy URL obrazów względem lokalizacji pliku źródłowego. Upewnij się, że obrazy znajdują się obok pliku `.md` lub podaj pełne adresy URL. Jeśli musisz osadzić obrazy z classpath, użyj własnego `ResourceResolver` (zobacz krótką przykładową implementację w dokumentacji Aspose).
-
-### 2️⃣ Jak zmienić rozmiar strony lub marginesy?
-
-Możesz utworzyć obiekt `PdfConversionOptions` i przekazać go do `Converter.convertDocument`. Przykład:
+Domyślnie Aspose używa wbudowanego arkusza stylów. Aby **render markdown as pdf** ze swoim własnym wyglądem, osadź plik CSS w ciągu HTML:
 
 ```java
-import com.aspose.html.converters.PdfConversionOptions;
-import com.aspose.html.converters.PdfPageSize;
-
-PdfConversionOptions opts = new PdfConversionOptions();
-opts.setPageSize(PdfPageSize.A4);
-opts.setMargins(new com.aspose.html.drawing.Margin(20, 20, 20, 20));
-Converter.convertDocument(htmlDoc, pdfPath, opts);
+String customCss = "<style>h1 {color:#2E86C1;}</style>";
+String htmlWithStyle = customCss + htmlContent;
+Converter.convertFromString(htmlWithStyle, pdfPath, new PdfConvertOptions());
 ```
 
-### 3️⃣ Mój Markdown jest ogromny — czy konwersja zużyje pamięć?
+### Zapisywanie PDF z HTML w innych scenariuszach
 
-Aspose.HTML strumieniuje zawartość, ale cały DOM mieszka w pamięci. Dla bardzo dużych dokumentów (>10 MB) rozważ podzielenie markdownu na sekcje i konwersję każdej z nich do osobnej strony PDF, a następnie połączenie ich przy pomocy biblioteki PDF, takiej jak iText.
+Jeśli już masz stronę HTML (być może wygenerowaną przez usługę webową) i potrzebujesz tylko **save pdf from html**, pomiń krok Markdown i wywołaj `Converter.convertFromString` bezpośrednio z otrzymanym HTML.
 
-### 4️⃣ Czy potrzebna jest płatna licencja do produkcji?
+## Przegląd wizualny  
 
-Licencja próbna działa w środowisku deweloperskim; dodaje mały znak wodny. W produkcji zakup licencję, aby usunąć znak wodny i odblokować pełne wsparcie API. Plik licencji to po prostu plik `.lic`, który ładujesz przy starcie:
+![Diagram procesu **convert markdown to pdf** – plik markdown → ciąg HTML → plik PDF](https://example.com/markdown-to-pdf-flow.png)
 
-```java
-com.aspose.html.License lic = new com.aspose.html.License();
-lic.setLicense("Aspose.Total.Java.lic");
-```
+*Alt text:* **convert markdown to pdf** diagram przepływu procesu
 
----
+*(Obraz jest ilustracyjny; zamień URL na rzeczywisty diagram przy publikacji.)*
 
-## Porady i najlepsze praktyki
+## Częste pułapki i jak ich uniknąć
 
-| Wskazówka | Dlaczego pomaga |
-|-----|--------------|
-| **Użyj jednej instancji `HTMLDocument`** przy przetwarzaniu wielu plików markdown w partii. | Zmniejsza obciążenie GC. |
-| **Ustaw własny arkusz stylów CSS** jeśli potrzebujesz spójnej identyfikacji wizualnej w PDF‑ach. | Utrzymuje jednolity wygląd. |
-| **Zweryfikuj markdown** przed parsowaniem (np. przy użyciu lintera) |
+| Symptom | Likely Cause | Fix |
+|---------|--------------|-----|
+| **Blank PDF** | `htmlContent` jest pusty (nieprawidłowa ścieżka do pliku) | Sprawdź, czy `markdownPath` wskazuje na czytelny plik `.md`. |
+| **Missing fonts** | Renderer PDF nie może znaleźć domyślnej czcionki | Zainstaluj standardową czcionkę TrueType na hoście lub ustaw `PdfConvertOptions.setDefaultFont("Arial")`. |
+| **Out‑of‑memory error** on huge docs | Cały HTML przechowywany w jednym `String` | Użyj podejścia streamingowego opisanego powyżej lub zwiększ pamięć JVM (`-Xmx2g`). |
+| **Images not showing** | Ścieżki względne do obrazów są nieprawidłowe | Konwertuj URL‑e obrazów na ścieżki bezwzględne przed renderowaniem lub osadź obrazy jako Base64. |
 
-## Powiązane samouczki
+## Podsumowanie
 
-- [Markdown do HTML Java – Konwersja przy użyciu Aspose.HTML](/html/english/java/conversion-html-to-other-formats/convert-markdown-to-html/)
-- [Jak konwertować HTML do PDF w Javie – przy użyciu Aspose.HTML for Java](/html/english/java/conversion-html-to-other-formats/convert-html-to-pdf/)
-- [Konwertuj HTML do PDF w Javie – Konfiguracja środowiska w Aspose.HTML](/html/english/java/configuring-environment/)
+Przeszliśmy przez **complete solution to convert markdown to pdf** w Javie, obejmując wszystko od konfiguracji Maven po obsługę przypadków brzegowych. Główna idea jest prosta: *Markdown → HTML (in‑memory) → PDF*, wszystko napędzane przez Aspose.HTML.  
+
+Zaledwie kilkoma liniami kodu możesz także **html to pdf java**, **generate pdf from markdown** i **save pdf from html** dla dowolnego przepływu pracy.
+
+## Co dalej?
+
+- **Batch conversion** – przeiteruj katalog z plikami `.md` i wygeneruj PDF dla każdego.
+- **Add a table of contents** – użyj API Aspose PDF outline, aby stworzyć klikalne zakładki.
+- **Integrate with Spring Boot** – udostępnij endpoint przyjmujący ładunki Markdown i zwracający strumień PDF.
+- **Explore alternative libraries** – jeśli licencjonowanie jest problemem, sprawdź OpenPDF + flexmark‑java (choć będziesz potrzebował dwóch oddzielnych kroków).
+
+Śmiało eksperymentuj i daj nam znać, które modyfikacje pomogły Ci najbardziej. Szczęśliwego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

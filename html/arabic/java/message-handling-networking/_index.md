@@ -50,6 +50,15 @@ url: /ar/java/message-handling-networking/
 تعرف على كيفية تحويل ملفات ZIP إلى صور JPG باستخدام Aspose.HTML لـ Java من خلال هذا الدليل خطوة بخطوة.
 ### [تحويل ZIP إلى PDF باستخدام Aspose.HTML لـ Java](./zip-to-pdf/)
 يمكنك بسهولة تحويل ملفات ZIP إلى PDF باستخدام Aspose.HTML لـ Java باستخدام هذا الدليل خطوة بخطوة.
+### [java 11 httpclient authenticator – دليل كامل للطلبات الآمنة](./java-11-httpclient-authenticator-complete-guide-to-secure-re/)
+تعلم كيفية استخدام HttpClient Authenticator في Java 11 لإجراء طلبات آمنة ومصادقة موثوقة.
+### [كيفية جلب API في Java – دليل كامل باستخدام محرك Aspose HTML V8](./how-to-fetch-api-in-java-complete-guide-using-aspose-html-v8/)
+### [جلب JSON جافاسكريبت في Java باستخدام Aspose HTML – دليل شامل](./fetch-json-javascript-in-java-with-aspose-html-complete-guid/)
+تعلم كيفية جلب بيانات JSON باستخدام Java و Aspose.HTML عبر جافاسكريبت في دليل شامل.
+### [تعيين رأس الترخيص في Java – دليل شامل لتحميل HTML من URL](./set-authorization-header-in-java-complete-guide-to-load-html/)
+تعلم كيفية إعداد رأس Authorization في طلبات Java لتحميل صفحات HTML من عنوان URL بسهولة.
+### [تعيين وكيل مستخدم مخصص في Java – تحميل صفحة ويب في وضع الحماية](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
+تعلم كيفية تعيين وكيل مستخدم مخصص عند تحميل صفحات الويب في بيئة الحماية باستخدام Aspose.HTML لـ Java.
 ### [جلب بيانات API في Java باستخدام Aspose.HTML - دليل كامل](./fetch-api-data-in-java-with-aspose-html-complete-guide/)
 تعلم كيفية جلب بيانات API في Java باستخدام Aspose.HTML خطوة بخطوة في هذا الدليل الشامل.
 

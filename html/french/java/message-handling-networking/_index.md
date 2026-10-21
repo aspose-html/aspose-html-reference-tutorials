@@ -50,6 +50,14 @@ Apprenez à exécuter des requêtes Web à l'aide d'Aspose.HTML pour Java grâce
 Apprenez à convertir des fichiers ZIP en images JPG à l'aide d'Aspose.HTML pour Java avec ce guide étape par étape.
 ### [Convertir un fichier ZIP en PDF avec Aspose.HTML pour Java](./zip-to-pdf/)
 Convertissez facilement vos fichiers ZIP en PDF à l'aide d'Aspose.HTML pour Java avec ce guide étape par étape.
+### [Java 11 HttpClient Authenticator – Guide complet pour des requêtes sécurisées](./java-11-httpclient-authenticator-complete-guide-to-secure-re/)
+Apprenez à sécuriser vos requêtes HTTP avec l'authentificateur HttpClient de Java 11 grâce à ce guide complet.
+### [Comment récupérer l'API en Java – Guide complet avec le moteur Aspose HTML V8](./how-to-fetch-api-in-java-complete-guide-using-aspose-html-v8/)
+### [Récupérer du JSON JavaScript en Java avec Aspose HTML – Guide complet](./fetch-json-javascript-in-java-with-aspose-html-complete-guid/)
+
+### [Définir l'en-tête d'autorisation en Java – Guide complet pour charger du HTML depuis une URL](./set-authorization-header-in-java-complete-guide-to-load-html/)
+Apprenez à ajouter l'en-tête d'autorisation pour charger du HTML depuis une URL avec Aspose.HTML en Java.
+### [Définir un agent utilisateur personnalisé en Java – Tutoriel de chargement de page Web en sandbox](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
 ### [Récupérer des données d'API en Java avec Aspose.HTML - Guide complet](./fetch-api-data-in-java-with-aspose-html-complete-guide/)
 Apprenez à récupérer des données d'API en Java en utilisant Aspose.HTML grâce à ce guide complet.
 
