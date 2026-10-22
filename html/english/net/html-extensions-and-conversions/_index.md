@@ -123,7 +123,7 @@ Learn how to zip HTML files using Aspose.HTML in a complete step‑by‑step gui
 ### [How to Use ZipArchive – Save HTML and Resources to a ZIP File](./how-to-use-ziparchive-save-html-and-resources-to-a-zip-file/)
 Learn how to use ZipArchive in C# to package HTML files and their resources into a ZIP archive with a step-by-step guide.
 ### [How to Zip HTML in C# – Complete Guide to Save HTML as ZIP](./how-to-zip-html-in-c-complete-guide-to-save-html-as-zip/)
-Learn how to zip HTML files in C# using Aspose.HTML, with a full step‑by‑step guide to saving HTML content as a ZIP archive.
+### [How to save HTML as ZIP with Aspose.HTML and omit resources](./how-to-save-html-as-zip-with-aspose-html-and-omit-resources/)
 ### [custom resource handler – Convert Webpage to ZIP in C#](./custom-resource-handler-convert-webpage-to-zip-in-c/)
 Learn how to convert a webpage to a ZIP archive using a custom resource handler in C# with Aspose.HTML for .NET.
 ### [How to Zip HTML in C# – Step‑by‑Step Guide](./how-to-zip-html-in-c-step-by-step-guide/)

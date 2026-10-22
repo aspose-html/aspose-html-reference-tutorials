@@ -157,7 +157,7 @@ Naučte se, jak v C# vytvořit zip archiv HTML přímo v paměti pomocí Aspose.
 Naučte se převádět HTML soubory do ZIP archivů v C# pomocí Aspose.HTML pro .NET. Podrobný průvodce s ukázkami kódu.
 ### [Jak zipovat HTML v C# – Kompletní průvodce krok za krokem](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.HTML pro .NET zkomprimovat HTML soubory do ZIP archivu v C# s podrobným krok‑za‑krokem návodem.
-### [Uložte HTML jako ZIP v C# – Kompletní průvodce krok za krokem](./save-html-as-zip-in-c-complete-step-by-step-guide/)
+### [Uložte HTML jako ZIP v C# – Kompletní krok‑za‑krokem průvodce](./save-html-as-zip-in-c-complete-step-by-step-guide/)
 Naučte se, jak uložit HTML soubor jako ZIP archiv v C# pomocí Aspose.HTML. Podrobný krok‑za‑krokem průvodce s ukázkami kódu.
 ### [Jedna HTML stránka – Uložte webovou stránku jako jeden HTML soubor v C#](./single-file-html-save-a-web-page-as-one-html-file-in-c/)
 Naučte se pomocí Aspose.HTML v C# uložit celou webovou stránku do jediného HTML souboru.
@@ -222,7 +222,9 @@ Naučte se, jak uložit HTML soubor jako ZIP archiv pomocí Aspose.HTML pro .NET
 ### [Uložte HTML do ZIP v C# – Kompletní příklad v paměti](./save-html-to-zip-in-c-complete-in-memory-example/)
 Naučte se, jak uložit HTML soubor do ZIP archivu v paměti pomocí Aspose.HTML pro .NET v C#.
 ### [Uložte HTML jako ZIP – Kompletní průvodce pro Aspose.HTML](./save-html-as-zip-complete-guide-for-aspose-html/)
-Naučte se, jak uložit HTML soubor jako ZIP archiv pomocí Aspose.HTML v podrobném průvodci.
+Naučte se, jak pomocí Aspose.HTML pro .NET uložit HTML soubor jako ZIP archiv v podrobném průvodci.
+### [Jak uložit HTML jako ZIP s Aspose.HTML a vynechat zdroje](./how-to-save-html-as-zip-with-aspose-html-and-omit-resources/)
+Naučte se uložit HTML soubor jako ZIP archiv s Aspose.HTML a vynechat připojené zdroje pro menší velikost.
 ### [Převod HTML do PDF v C# – Kompletní průvodce](./convert-html-to-pdf-with-c-complete-guide/)
 Kompletní návod, jak v C# převést HTML do PDF pomocí Aspose.HTML, včetně ukázek kódu a nastavení.
 ### [Jak zkomprimovat HTML – Kompletní průvodce exportem webových stránek do ZIP](./how-to-zip-html-complete-guide-to-exporting-web-pages-as-zip/)

@@ -68,7 +68,7 @@ C#와 Aspose.HTML을 활용해 HTML을 PDF로 변환하고 ZIP 아카이브로 �
 ### [Aspose를 사용하여 HTML에서 PDF 만들기 – 단계별 가이드](./create-pdf-from-html-with-aspose-step-by-step-guide/)
 Aspose.HTML for .NET을 사용하여 HTML을 PDF로 변환하는 단계별 가이드를 확인하세요.
 ### [Aspose.HTML을 사용하여 HTML에서 PDF 만들기 – 완전 가이드](./create-pdf-from-html-complete-guide-with-aspose-html/)
-Aspose.HTML을 활용해 HTML을 PDF로 변환하는 전체 단계별 가이드입니다. 모든 설정과 코드 예제를 확인하세요.
+Aspose.HTML을 활용해 HTML을 PDF로 변환하는 전체 단계별 가이드를 확인하세요. 모든 설정과 코드 예제를 확인하세요.
 ### [HTML에서 PDF 만들기 – 전체 C# 가이드 (안티앨리어싱 포함)](./create-pdf-from-html-full-c-guide-with-antialiasing/)
 Aspose.HTML for .NET을 사용하여 안티앨리어싱을 적용한 HTML을 PDF로 변환하는 전체 C# 가이드.
 ### [C#에서 HTML을 PDF로 만들기 – 완전 단계별 가이드](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
@@ -132,7 +132,7 @@ Aspose.HTML for .NET을 사용하여 스타일이 적용된 텍스트가 포함�
 ### [C#에서 HTML 문서 만들기 – 단계별 가이드](./create-html-document-c-step-by-step-guide/)
 Aspose.HTML for .NET을 활용해 C#에서 HTML 문서를 생성하는 방법을 단계별로 안내합니다.
 ### [C#에서 HTML을 ZIP으로 압축하는 방법 – 커스텀 리소스 핸들러 가이드](./how-to-zip-html-in-c-custom-resource-handler-guide/)
-C#와 Aspose.HTML을 사용해 커스텀 리소스 핸들러로 HTML을 ZIP 파일로 저장하는 단계별 가이드.
+C#와 Aspose.HTML을 사용해 커스텀 리소스 핸들러로 HTML을 ZIP 파일로 저장하는 단계별 가이드를 제공합니다.
 ### [Aspose.HTML을 사용하여 .NET에서 HTML 출력 생성 – 전체 C# 가이드](./generate-html-output-with-aspose-html-full-c-guide/)
 Aspose.HTML for .NET을 활용해 C#에서 HTML 출력물을 생성하는 단계별 전체 가이드입니다.
 ### [HTML을 ZIP으로 저장 – 전체 C# 튜토리얼](./save-html-as-zip-complete-c-tutorial/)
@@ -140,7 +140,7 @@ Aspose.HTML for .NET을 활용해 C#에서 HTML 출력물을 생성하는 단계
 Aspose.HTML for .NET을 사용해 HTML 문서를 생성하고 ZIP 파일로 저장하는 전체 C# 가이드.
 ### [C#에서 HTML을 ZIP으로 저장 – 전체 단계별 가이드](./save-html-to-zip-in-c-complete-step-by-step-guide/)
 Aspose.HTML for .NET을 사용해 C#에서 HTML을 ZIP 파일로 저장하는 전체 단계별 가이드를 제공합니다.
-### [C#에서 HTML을 ZIP으로 저장하는 방법 – 전체 Aspose.HTML 가이드](./how-to-save-html-as-zip-in-c-complete-aspose-html-guide/)
+### [C#에서 HTML을 ZIP으로 저장 – 전체 Aspose.HTML 가이드](./how-to-save-html-as-zip-in-c-complete-aspose-html-guide/)
 Aspose.HTML for .NET을 사용해 C#에서 HTML을 ZIP 파일로 저장하는 전체 가이드를 제공합니다.
 ### [C#에서 HTML을 ZIP으로 저장 – 완전 인메모리 예제](./save-html-to-zip-in-c-complete-in-memory-example/)
 Aspose.HTML for .NET을 사용하여 메모리 내에서 HTML을 ZIP 파일로 저장하는 방법을 단계별로 안내합니다.
@@ -149,7 +149,7 @@ Aspose.HTML for .NET을 사용해 C#에서 커스텀 리소스 핸들러로 HTML
 ### [C#로 HTML을 저장하고 파일에 쓰는 방법](./how-to-save-html-and-write-html-to-file-with-c/)
 C#와 Aspose.HTML을 사용해 HTML을 저장하고 파일로 기록하는 단계별 가이드를 확인하세요.
 ### [C#에서 HTML을 ZIP으로 변환 – 완전 단계별 가이드](./convert-html-to-zip-in-c-complete-step-by-step-guide/)
-C#와 Aspose.HTML을 사용해 HTML 파일을 ZIP 압축 파일로 저장하는 전체 단계별 가이드입니다.
+C#와 Aspose.HTML을 사용해 HTML 파일을 ZIP 압축 파일로 저장하는 전체 단계별 가이드를 제공합니다.
 ### [ZipArchive 사용 방법 – HTML 및 리소스를 ZIP 파일로 저장하기](./how-to-use-ziparchive-save-html-and-resources-to-a-zip-file/)
 C#에서 ZipArchive를 활용해 HTML 파일과 관련 리소스를 하나의 ZIP 파일로 저장하는 단계별 가이드입니다.
 ### [C#에서 ZIP 아카이브 만들기 – 임베디드 이미지가 포함된 HTML을 ZIP으로 변환](./create-zip-archive-in-c-convert-html-to-zip-with-embedded-im/)
@@ -159,7 +159,7 @@ Aspose.HTML을 활용해 맞춤형 리소스 핸들러로 HTML을 ZIP 파일로 
 ### [Aspose.HTML을 사용하여 웹페이지를 ZIP으로 저장 – 전체 C# 튜토리얼](./save-webpage-as-zip-with-aspose-html-complete-c-tutorial/)
 Aspose.HTML for .NET을 활용해 웹페이지를 ZIP 파일로 저장하는 전체 C# 단계별 가이드를 제공합니다.
 ### [HTML을 ZIP으로 저장 – 변환을 위한 전체 C# 가이드](./save-html-as-zip-complete-c-guide-to-convert-html-to-zip/)
-Aspose.HTML for .NET을 사용하여 HTML을 ZIP 파일로 변환하고 저장하는 전체 C# 단계별 가이드.
+Aspose.HTML for .NET을 사용하여 HTML을 ZIP 파일로 변환하고 저장하는 전체 C# 단계별 가이드를 제공합니다.
 ### [DOCX에서 HTML을 Zip으로 압축하는 방법 – 완전 C# 가이드](./how-to-zip-html-from-docx-complete-c-guide/)
 Aspose.HTML for .NET을 사용해 DOCX 파일에서 HTML을 추출하고 ZIP 파일로 저장하는 전체 C# 단계별 가이드.
 ### [C#에서 사용자 정의 리소스 핸들러 – 메모리에서 HTML을 ZIP 아카이브로 변환](./custom-resource-handler-in-c-convert-html-to-zip-archive-fro/)
@@ -179,11 +179,11 @@ Aspose.HTML for .NET을 사용하여 C#에서 HTML 파일을 ZIP으로 압축하
 ### [C#에서 HTML을 ZIP으로 저장 – 완전 단계별 가이드](./save-html-as-zip-in-c-complete-step-by-step-guide/)
 Aspose.HTML for .NET을 사용하여 C#에서 HTML을 ZIP 파일로 저장하는 방법을 단계별로 안내합니다.
 ### [C#에서 HTML을 ZIP으로 저장 – 완전 가이드](./save-html-to-zip-in-c-complete-guide/)
-Aspose.HTML for .NET을 사용하여 C#에서 HTML을 ZIP 파일로 저장하는 전체 단계별 가이드.
+Aspose.HTML for .NET을 사용하여 C#에서 HTML을 ZIP 파일로 저장하는 전체 단계별 가이드를 제공합니다.
 ### [단일 파일 HTML – C#에서 웹 페이지를 하나의 HTML 파일로 저장](./single-file-html-save-a-web-page-as-one-html-file-in-c/)
-Aspose.HTML for .NET을 사용하여 C#에서 웹 페이지를 단일 HTML 파일로 저장하는 단계별 가이드.
+Aspose.HTML for .NET을 사용하여 C#에서 웹 페이지를 단일 HTML 파일로 저장하는 단계별 가이드를 제공합니다.
 ### [C#에서 HTML을 Zip으로 압축하는 방법 – 사용자 정의 리소스 핸들러 튜토리얼](./how-to-zip-html-in-c-custom-resource-handler-tutorial/)
-C#와 Aspose.HTML을 사용해 사용자 정의 리소스 핸들러로 HTML을 ZIP 파일로 압축하는 단계별 가이드.
+C#와 Aspose.HTML을 사용해 사용자 정의 리소스 핸들러로 HTML을 ZIP 파일로 압축하는 단계별 가이드를 제공합니다.
 ### [Aspose를 사용하여 C#에서 HTML로부터 PDF 만들기 – 전체 가이드](./create-pdf-from-html-with-aspose-in-c-full-guide/)
 Aspose.HTML for .NET을 활용해 C#에서 HTML을 PDF로 변환하는 전체 단계별 가이드입니다.
 ### [Aspose HTML 저장 옵션: C#에서 HTML을 스트림으로 저장](./aspose-html-save-options-save-html-to-stream-in-c/)
@@ -210,8 +210,16 @@ Aspose.HTML for .NET을 활용해 HTML을 PDF로 변환하는 방법을 단계�
 Aspose.HTML for .NET을 사용하여 HTML을 ZIP 파일로 저장하고 PNG 이미지로 렌더링하는 단계별 가이드입니다.
 ### [Aspose.HTML을 사용하여 HTML을 ZIP으로 저장 – 전체 가이드](./save-html-as-zip-complete-guide-for-aspose-html/)
 Aspose.HTML for .NET을 활용해 HTML 파일을 ZIP 압축 파일로 저장하는 전체 단계별 가이드를 제공합니다.
+### [HTML을 ZIP으로 저장 – 변환을 위한 전체 C# 가이드](./save-html-as-zip-complete-c-guide-to-convert-html-to-zip/)
+Aspose.HTML for .NET을 사용하여 HTML을 ZIP 파일로 변환하고 저장하는 전체 C# 단계별 가이드를 제공합니다.
 ### [HTML을 ZIP으로 압축하는 방법 – 웹 페이지를 ZIP으로 내보내는 전체 가이드](./how-to-zip-html-complete-guide-to-exporting-web-pages-as-zip/)
 Aspose.HTML과 C#를 활용해 웹 페이지를 ZIP 파일로 내보내는 전체 단계별 가이드를 확인하세요.
+### [HTML을 ZIP으로 저장 – 전체 가이드](./save-html-as-zip-complete-guide-for-aspose-html/)
+Aspose.HTML for .NET을 활용해 HTML 파일을 ZIP 압축 파일로 저장하는 전체 단계별 가이드를 제공합니다.
+### [HTML을 ZIP으로 압축하는 방법 – 웹 페이지를 ZIP으로 내보내는 전체 가이드](./how-to-zip-html-complete-guide-to-exporting-web-pages-as-zip/)
+Aspose.HTML과 C#를 활용해 웹 페이지를 ZIP 파일로 내보내는 전체 단계별 가이드를 확인하세요.
+### [Aspose.HTML을 사용하여 HTML을 ZIP으로 저장하고 리소스를 제외하는 방법](./how-to-save-html-as-zip-with-aspose-html-and-omit-resources/)
+Aspose.HTML을 사용해 HTML을 ZIP으로 저장하면서 불필요한 리소스를 제외하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

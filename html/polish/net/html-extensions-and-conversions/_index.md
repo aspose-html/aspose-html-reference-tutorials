@@ -91,7 +91,7 @@ Odkryj moc Aspose.HTML dla .NET: Konwertuj HTML na GIF. Wymagania wstępne, prze
 ### [Konwertuj HTML na obraz w C# – Kompletny przewodnik](./convert-html-to-image-in-c-complete-guide/)
 Dowiedz się, jak konwertować HTML na obrazy w C# przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
 ### [Konwersja HTML do JPEG w .NET za pomocą Aspose.HTML](./convert-html-to-jpeg/)
-Dowiedz się, jak konwertować HTML na JPEG w .NET za pomocą Aspose.HTML dla .NET. Przewodnik krok po kroku, jak wykorzystać moc Aspose.HTML dla .NET. Zoptymalizuj swoje zadania związane z tworzeniem stron internetowych bez wysiłku.
+Dowiedz się, jak konwertować HTML na JPEG w .NET przy użyciu Aspose.HTML dla .NET. Przewodnik krok po kroku, jak wykorzystać moc Aspose.HTML dla .NET. Zoptymalizuj swoje zadania związane z tworzeniem stron internetowych bez wysiłku.
 ### [Konwersja HTML do Markdown w .NET za pomocą Aspose.HTML](./convert-html-to-markdown/)
 Dowiedz się, jak konwertować HTML na Markdown w .NET przy użyciu Aspose.HTML w celu wydajnej manipulacji treścią. Uzyskaj wskazówki krok po kroku dotyczące płynnego procesu konwersji.
 ### [Konwersja HTML do MHTML w .NET za pomocą Aspose.HTML](./convert-html-to-mhtml/)
@@ -215,12 +215,8 @@ Zapisz HTML jako archiwum ZIP i przekształć go w PNG w C# – kompletny przewo
 Zapisz HTML jako archiwum ZIP w C# przy użyciu Aspose.HTML – pełny przewodnik krok po kroku.
 ### [Jak spakować HTML – Kompletny przewodnik eksportowania stron internetowych jako ZIP](./how-to-zip-html-complete-guide-to-exporting-web-pages-as-zip/)
 Dowiedz się, jak spakować pliki HTML do archiwum ZIP w C# przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
+### [Jak zapisać HTML jako ZIP przy użyciu Aspose.HTML i pominąć zasoby](./how-to-save-html-as-zip-with-aspose-html-and-omit-resources/)
 
-## Wniosek
-
-Podsumowując, rozszerzenia i konwersje HTML są niezbędnymi elementami nowoczesnego rozwoju sieci. Aspose.HTML dla .NET upraszcza proces i czyni go dostępnym dla programistów na każdym poziomie. Postępując zgodnie z naszymi samouczkami, będziesz na dobrej drodze do stania się biegłym programistą sieciowym o szerokim zestawie umiejętności.
-
-Więc na co czekasz? Wyruszmy w tę ekscytującą podróż, aby odkryć rozszerzenia HTML i konwersje przy użyciu Aspose.HTML dla .NET. Twoje projekty rozwoju sieci nigdy nie będą takie same!
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
