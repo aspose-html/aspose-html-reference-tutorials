@@ -39,6 +39,9 @@ Az Aspose.HTML for .NET nem csak egy könyvtár; ez egy változás a webfejleszt
 ## HTML-kiterjesztések és -konverziók oktatóanyagok
 
 
+### [How to save HTML as ZIP with Aspose.HTML and omit resources](./how-to-save-html-as-zip-with-aspose-html-and-omit-resources/)
+
+
 ### [PDF létrehozása URL-ből – Teljes C# útmutató](./create-pdf-from-url-complete-c-guide/)
 ### [Konvertálja a HTML-t PDF-be .NET-ben az Aspose.HTML-lel](./convert-html-to-pdf/)
 ### [HTML konvertálása PDF-be C#-ban – Teljes Aspose útmutató](./convert-html-to-pdf-in-c-full-aspose-guide/)
