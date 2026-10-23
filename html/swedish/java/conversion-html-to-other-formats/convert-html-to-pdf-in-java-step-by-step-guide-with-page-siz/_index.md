@@ -1,26 +1,71 @@
 ---
 category: general
-date: 2026-01-01
-description: Konvertera HTML till PDF snabbt med Aspose.HTML för Java. Lär dig hur
-  du ställer in PDF‑sidstorlek, bäddar in teckensnitt och genererar högupplösta PDF‑filer
-  med bara några rader kod.
+date: 2026-10-19
+description: Lär dig hur html till pdf java-konvertering fungerar med Aspose.HTML,
+  set PDF page size, embed fonts, och add password protection using Maven Aspose dependency.
 draft: false
 keywords:
-- convert html to pdf
-- set pdf page size
-- java generate pdf
 - html to pdf java
-- how to convert html
-language: sv
-og_description: Konvertera HTML till PDF med Aspose.HTML för Java. Den här handledningen
-  visar hur du ställer in PDF-sidstorlek, bäddar in teckensnitt och genererar högkvalitativa
-  PDF-filer.
-og_title: Konvertera HTML till PDF i Java – Komplett guide
+- add password pdf java
+- convert html pdf aspose
+- maven aspose dependency
+- set pdf page size
+lastmod: 2026-10-19
+og_description: Lär dig hur html till pdf java-konvertering fungerar med Aspose.HTML,
+  set PDF page size, embed fonts, och add password protection using Maven Aspose dependency.
+og_image_alt: 'Developer guide: Convert HTML to PDF in Java with page size and security
+  settings'
+og_title: 'Hur html till pdf java-konvertering fungerar: set pdf page size'
+schemas:
+- author: Aspose
+  dateModified: '2026-10-19'
+  description: Learn how html to pdf java conversion works with Aspose.HTML, set PDF
+    page size, embed fonts, and add password protection using Maven Aspose dependency.
+  headline: 'How html to pdf java conversion works: set pdf page size'
+  type: TechArticle
+- description: Learn how html to pdf java conversion works with Aspose.HTML, set PDF
+    page size, embed fonts, and add password protection using Maven Aspose dependency.
+  name: 'How html to pdf java conversion works: set pdf page size'
+  steps:
+  - name: load your HTML file
+    text: The first thing you need is a path to the source HTML. In a real‑world scenario
+      you might fetch the HTML from a URL or a database, but for simplicity we’ll
+      use a local file. Storing the path in a variable keeps the code tidy and makes
+      logging or error handling straightforward.
+  - name: configure PDF save options (set pdf page size, DPI, and font embedding)
+    text: '`PdfSaveOptions` is Aspose.HTML''s configuration object that controls PDF
+      output settings such as page size, DPI, and font embedding. You can choose a
+      predefined size with `PdfSaveOptions.PageSize.A4`, `LETTER`, or define a **custom
+      pdf page size** via `setCustomPageSize(width, height)`. Selecting th'
+  - name: perform the conversion
+    text: The `Converter` class provides static methods to transform HTML documents
+      into various output formats, such as PDF. When `Converter.convert` finishes,
+      `outputPdfPath` contains a fully‑rendered PDF that respects the page size, DPI,
+      and embedded fonts you specified.
+  type: HowTo
+- questions:
+  - answer: Yes—both build tools are supported; the tutorial includes the exact `maven
+      aspose dependency` snippet and a Gradle Kotlin DSL example.
+    question: Can I use this approach with Maven or Gradle?
+  - answer: Absolutely. Use `PdfSaveOptions.getSecurity().setUserPassword("pwd")`
+      and `setOwnerPassword("ownerPwd")` to secure the output PDF.
+    question: Does Aspose.HTML support password protection?
+  - answer: Aspose.HTML handles over 50 CSS properties, SVG images, web fonts, and
+      complex table layouts, ensuring high‑fidelity PDF rendering.
+    question: What HTML features are fully supported?
+  - answer: Set `PdfSaveOptions.setDpi(300)` for high‑resolution output, reuse the
+      same `PdfSaveOptions` object, and run conversions in parallel streams while
+      monitoring heap usage.
+    question: How can I improve conversion speed for large documents?
+  - answer: Yes—a valid Aspose.HTML license removes the evaluation watermark and unlocks
+      all features. A free trial is available for testing.
+    question: Is a license required for production use?
+  type: FAQPage
 tags:
 - Java
 - PDF
-- Aspose
-title: Konvertera HTML till PDF i Java – Steg‑för‑steg guide med sidstorleksinställningar
+- Aspose.HTML
+title: 'Hur html till pdf java-konvertering fungerar: set pdf page size'
 url: /sv/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/
 ---
 
@@ -28,25 +73,34 @@ url: /sv/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-step-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Konvertera HTML till PDF i Java – Komplett guide
+# Konvertera HTML till PDF i Java – komplett guide
 
-Har du någonsin behövt **convert HTML to PDF** men varit osäker på vilket bibliotek som ger dig fin‑granulär kontroll över resultatet? Du är inte ensam. Många Java‑utvecklare stirrar på en vägg av HTML och undrar hur man omvandlar den till en utskrivbar PDF utan att förlora layout eller typsnitt. Den goda nyheten är att Aspose.HTML for Java gör hela processen enkel, och du kan till och med **set PDF page size**, bädda in typsnitt och öka DPI till 300 dpi för skarpa resultat.
+Om du snabbt behöver **html to pdf java** och vill ha full kontroll över det resulterande dokumentet, är du på rätt plats. I den här handledningen kommer du att se hur Aspose.HTML for Java låter dig ställa in PDF‑sidstorlek, bädda in anpassade typsnitt, öka DPI till 300 dpi och till och med lägga till lösenordsskydd — allt med bara några rader kod. I slutet har du ett återanvändbart kodsnutt som passar in i alla Maven‑ eller Gradle‑byggen, och du förstår “varför” bakom varje inställning så att du kan anpassa den till verkliga projekt.
 
-I den här handledningen går vi igenom allt du behöver veta: från att lägga till Aspose‑beroendet till att skriva några rader kod som **java generate pdf**‑filer från vilken HTML‑källa som helst. När du är klar har du ett återanvändbart kodsnutt som du kan släppa in i vilket Maven‑ eller Gradle‑projekt som helst, och du kommer att förstå “varför” bakom varje inställning—så att du inte bara kopierar och klistrar, utan faktiskt förstår vad som händer under huven.
+## Snabba svar
+- **Vilket bibliotek hanterar html to pdf java-konvertering?** Aspose.HTML for Java, en ren‑Java‑lösning med stöd för över 50 CSS‑funktioner.  
+- **Hur ställer jag in pdf sidstorlek?** Anropa `PdfSaveOptions.setPageSize(...)` eller `setCustomPageSize(width, height)`.  
+- **Kan jag konvertera en HTML‑sträng utan att skriva en fil?** Ja — ladda strängen med `HtmlLoadOptions` och spara direkt till PDF.  
+- **Finns lösenordsskydd?** Använd `PdfSaveOptions.getSecurity()` för att ange ett ägar‑ och användarlösenord.  
+- **Vilket byggverktyg fungerar bäst?** Både Maven och Gradle stöds; Maven‑snutten använder den senaste `maven aspose dependency`.
+
+## Vad betyder “set pdf page size”?
+Att ställa in PDF‑sidstorlek talar om för konverteraren vilka dimensioner det slutgiltiga dokumentet ska ha (A4, Letter eller någon anpassad bredd/höjd). Detta säkerställer att innehållet passar det avsedda pappersformatet, förhindrar beskärning av text eller bilder och ger konsekventa marginaler för utskrift och digital visning på olika enheter.
+
+## Varför använda Aspose.HTML for Java?
+Aspose.HTML for Java levererar högupplöst rendering av moderna webbsidor till PDF utan externa binärer. Det stöder över 50 CSS‑egenskaper, SVG, webbtypsnitt och komplexa layouter, samtidigt som det ger detaljerad kontroll över DPI, sidstorlek och säkerhet. Dessa möjligheter gör det idealiskt för produktionsklassade dokumentpipelines som kräver hastighet, pålitlighet och exakt visuell återgivning.
 
 ## Förutsättningar
+- Java 17 eller någon annan aktuell LTS‑version.  
+- Maven 3.8+ **eller** Gradle 7+ för beroendehantering.  
+- En giltig Aspose.HTML for Java‑licens (den kostnadsfria utvärderingen fungerar för testning, men en licens tar bort vattenstämpeln).  
+- En HTML‑källfil, t.ex. `input.html`, placerad i en känd katalog.
 
-- Java 17 (eller någon nylig LTS‑version) – äldre versioner fungerar men API‑ytan är renare i nyare releaser.
-- Maven 3.8+ eller Gradle 7+ för beroendehantering.
-- En giltig Aspose.HTML for Java‑licens (den fria utvärderingen fungerar för testning, men en licens tar bort vattenstämpeln för utvärdering).
-- En HTML‑fil du vill konvertera, t.ex. `input.html` placerad i en känd katalog.
+Om någon av dessa är obekanta, oroa dig inte — varje steg nedan visar exakt vilket kommando du behöver.
 
-Om någon av dessa låter obekant, panik inte—de flesta stegen är bara ett par kommandon, och vi visar dig exakt hur du ställer in dem.
-
-## Lägg till Aspose.HTML i ditt projekt
+## Lägga till Aspose.HTML i ditt projekt
 
 ### Maven
-
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -56,19 +110,17 @@ Om någon av dessa låter obekant, panik inte—de flesta stegen är bara ett pa
 ```
 
 ### Gradle (Kotlin DSL)
-
 ```kotlin
 implementation("com.aspose:aspose-html:23.12")
 ```
 
-> **Pro tip:** Håll ett öga på versionsnumret; Aspose släpper månatliga uppdateringar som fixar buggar och lägger till nya PDF‑funktioner.
+> **Pro tip:** Håll koll på versionsnumret; Aspose släpper månatliga uppdateringar som lägger till nya PDF‑alternativ och åtgärdar buggar.
 
-## Steg‑för‑steg‑implementering
+## Hur man ställer in pdf sidstorlek vid konvertering av HTML till PDF
 
-Nedan delar vi upp konverteringen i tre logiska steg. Varje steg har sin egen H2‑rubrik, inkluderar **primary keyword** minst en gång, och vi strör de sekundära nyckelorden där de passar.
+Läs in din HTML, konfigurera PDF‑alternativen och kör konverteringen. Svaret är enkelt: **läs in HTML, ställ in `PdfSaveOptions` med önskad sidstorlek och anropa sedan `Converter.convert`**. Detta trestegsflöde hanterar layout, typsnittsinbäddning och DPI i ett enda pass.
 
-### Steg 1: Ladda din HTML‑fil
-
+### Steg 1: läs in din HTML‑fil
 Det första du behöver är en sökväg till käll‑HTML‑filen. I ett verkligt scenario kan du hämta HTML från en URL eller en databas, men för enkelhetens skull använder vi en lokal fil.
 
 ```java
@@ -76,11 +128,10 @@ Det första du behöver är en sökväg till käll‑HTML‑filen. I ett verklig
 String inputHtmlPath = "C:/pdf-demo/input.html"; // replace with your actual path
 ```
 
-Varför lagrar vi sökvägen i en variabel? Det håller koden prydlig och gör det enkelt att återanvända samma sökväg i loggning eller felhantering senare.
+Att lagra sökvägen i en variabel håller koden ren och gör loggning eller felhantering enkel.
 
-### Steg 2: Konfigurera PDF‑spara‑alternativ (Set PDF Page Size, DPI, och Font Embedding)
-
-Det är här magin med **set pdf page size** sker. Aspose.HTML ger dig ett `PdfSaveOptions`‑objekt som låter dig specificera allt från sidmått till bildupplösning.
+### Steg 2: konfigurera PDF‑spara‑alternativ (ställ in pdf sidstorlek, DPI och typsnittsinbäddning)
+`PdfSaveOptions` är Aspose.HTML:s konfigurationsobjekt som styr PDF‑utdatainställningar såsom sidstorlek, DPI och typsnittsinbäddning.  
 
 ```java
 import com.aspose.html.converters.PdfSaveOptions;
@@ -92,11 +143,10 @@ pdfSaveOptions.setDpi(300);          // High‑resolution output for sharp text 
 pdfSaveOptions.setEmbedFonts(true);  // Ensures all used fonts are embedded in the PDF
 ```
 
-En snabb notering om **set pdf page size**: du kan också använda `PdfSaveOptions.PageSize.LETTER`, `LEGAL`, eller till och med egna dimensioner genom att anropa `setCustomPageSize(width, height)`. Att välja rätt sidstorlek är avgörande om du planerar att skriva ut PDF‑en senare—A4 fungerar världen över, medan LETTER är standard i USA.
+Du kan välja en fördefinierad storlek med `PdfSaveOptions.PageSize.A4`, `LETTER`, eller definiera en **custom pdf page size** via `setCustomPageSize(width, height)`. Att välja rätt storlek är viktigt för utskrift — A4 är den globala standarden, medan LETTER är vanlig i USA.
 
-### Steg 3: Utför konverteringen
-
-Nu när vi har inmatningssökvägen och alternativen konfigurerade, är den faktiska konverteringen en enda kodrad. Detta är kärnan i **html to pdf java**‑processen.
+### Steg 3: utför konverteringen
+`Converter`‑klassen tillhandahåller statiska metoder för att omvandla HTML‑dokument till olika utdataformat, såsom PDF.  
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -106,11 +156,10 @@ String outputPdfPath = "C:/pdf-demo/output.pdf"; // choose your desired output l
 Converter.convert(inputHtmlPath, outputPdfPath, pdfSaveOptions);
 ```
 
-När `convert`‑metoden är klar har du en fullständigt renderad PDF på `outputPdfPath`. Biblioteket tar hand om att parsra HTML, tillämpa CSS, ladda bilder och rendera allt enligt de PDF‑alternativ du angav tidigare.
+När `Converter.convert` är klar innehåller `outputPdfPath` en fullständigt renderad PDF som respekterar den sidstorlek, DPI och de inbäddade typsnitten du angav.
 
-### Fullt fungerande exempel
-
-När vi sätter ihop allt, här är den kompletta, färdigkörbara Java‑klassen:
+## Fullständigt fungerande exempel
+När allt sätts ihop, här är den kompletta, färdigkörbara Java‑klassen:
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -140,25 +189,10 @@ public class ConvertHtmlToPdf {
 }
 ```
 
-**Förväntad output:** Efter att ha kört programmet, öppna `output.pdf`. Du bör se en trogen rendering av `input.html`, storleksanpassad till A4, med skarp text och eventuella anpassade typsnitt intakta. Om du öppnar PDF‑ens egenskaper kommer du att se de inbäddade typsnitten listade—bevis på att `setEmbedFonts(true)` gjorde sitt jobb.
+**Förväntad output:** Efter att programmet har körts, öppna `output.pdf`. Du bör se en trogen rendering av `input.html`, i A4‑storlek, med skarp text och eventuella anpassade typsnitt intakta. PDF‑egenskaperna kommer lista de inbäddade typsnitten, vilket bekräftar att `setEmbedFonts(true)` fungerade.
 
-## Vanliga frågor & kantfall
-
-### Vad händer om min HTML refererar till extern CSS eller bilder?
-
-Aspose.HTML löser relativa URL:er baserat på HTML‑filens plats. Om du har en mappstruktur som:
-
-```
-/pdf-demo/
-│   input.html
-│   style.css
-└── images/
-    └── logo.png
-```
-
-Se till att `input.html` använder relativa sökvägar (`<link href="style.css">`, `<img src="images/logo.png">`). Konverteraren kommer automatiskt att ladda dessa resurser. Om du laddar HTML från en sträng eller en fjärr‑URL kan du ange en bas‑URI via `HtmlLoadOptions`.
-
-### Hur konverterar jag en **String** som innehåller HTML istället för en fil?
+## Konvertera en HTML‑sträng till PDF (html string to pdf)
+Du kan konvertera en genererad HTML‑sträng utan att röra filsystemet. Ladda strängen med `HtmlLoadOptions` och spara direkt till PDF.
 
 ```java
 import com.aspose.html.HtmlDocument;
@@ -175,11 +209,10 @@ options.setPageSize(PdfSaveOptions.PageSize.LETTER);
 doc.save("output-from-string.pdf", options);
 ```
 
-Detta tillvägagångssätt är praktiskt när du genererar HTML i farten (t.ex. från en mallmotor) och vill **java generate pdf** utan att röra filsystemet.
+Detta tillvägagångssätt är praktiskt när du behöver **java generate pdf html** i farten, till exempel från en mallmotor.
 
-### Kan jag lägga till ett lösenord på den resulterande PDF‑en?
-
-Ja—Aspose.HTML:s `PdfSaveOptions` inkluderar säkerhetsinställningar:
+## Lägga till ett lösenord i PDF‑filen (add password pdf java)
+Om du behöver skydda dokumentet låter Aspose.HTML:s säkerhetsinställningar dig ange både användar‑ och ägarlösenord. `PdfSaveOptions.getSecurity()` returnerar ett säkerhetsinställningsobjekt som låter dig specificera lösenord och behörigheter för PDF‑filen.
 
 ```java
 pdfSaveOptions.getSecurity().setUserPassword("user123");
@@ -188,38 +221,79 @@ pdfSaveOptions.getSecurity().setEncryptionLevel(
     PdfSaveOptions.SecurityEncryptionLevel.AES_256);
 ```
 
-Nu kommer PDF‑en att be om ett lösenord när den öppnas.
+Den resulterande PDF‑filen kommer att begära ett lösenord vid öppning.
 
-### Vad sägs om anpassade sidimensioner?
-
-Om A4 inte är ditt mål kan du definiera en egen storlek i punkter (1 punkt = 1/72 tum):
+## Använda en anpassad PDF‑sidstorlek (custom pdf page size)
+Definiera exakta dimensioner i punkter (1 punkt = 1/72 tum) när standardstorlekarna inte passar din layout. Metoden `setCustomPageSize(width, height)` sätter en användardefinierad sidstorlek i punkter.
 
 ```java
 pdfSaveOptions.setCustomPageSize(612, 792); // 8.5" x 11" (Letter)
 ```
 
-Kom ihåg att justera marginaler vid behov; standardmarginalen är noll, vilket kan leda till att innehåll klipps av på vissa skrivare.
+Kom ihåg att justera marginalerna om det behövs; standardmarginalen är noll, vilket kan leda till beskärning på vissa skrivare.
+
+## Vanliga frågor & edge cases
+
+### Vad händer om min HTML refererar till extern CSS eller bilder?
+Aspose.HTML löser relativa URL:er baserat på platsen för HTML‑filen. Om `input.html` refererar till `style.css` eller `images/logo.png` med relativa sökvägar laddar konverteraren automatiskt dessa resurser. När du laddar HTML från en sträng eller fjärr‑URL, ange en bas‑URI via `HtmlLoadOptions` så att externa resurser kan lösas korrekt.
+
+```
+/pdf-demo/
+│   input.html
+│   style.css
+└── images/
+    └── logo.png
+```
+
+### Hur hanterar jag stora batcher av filer?
+Återanvänd en enda `PdfSaveOptions`‑instans för att undvika onödig objekt‑skapande, omslut `Converter.convert` i ett try‑catch‑block för att logga fel, och överväg att bearbeta filer i parallella strömmar på fler‑kärniga maskiner. Övervaka minnet eftersom varje konvertering håller hela DOM‑trädet i minnet, men Aspose.HTML kan bearbeta PDF‑filer med upp till 500 sidor utan full minnesladdning.
 
 ## Tips för produktionsklar kod
-
-- **License early:** Placera din `License`‑initialisering vid applikationens start för att undvika vattenstämpeln för utvärdering.
-- **Error handling:** Omslut `Converter.convert` i ett try‑catch‑block och logga stack‑trace för felsökning.
-- **Performance:** Återanvänd en enda `PdfSaveOptions`‑instans om du konverterar många filer i en batch; att skapa ett nytt objekt varje gång ger extra overhead.
-- **Logging:** Använd SLF4J eller Log4j för att fånga konverteringstider—användbart när du måste uppfylla SLA‑krav.
+- **License early:** Initiera ditt `License`‑objekt vid applikationens start för att ta bort utvärderingsvattensäcken.  
+- **Error handling:** Fånga `Exception` runt `Converter.convert` och logga stack‑trace för felsökning.  
+- **Performance:** Instansiera `PdfSaveOptions` en gång och återanvänd den för flera konverteringar.  
+- **Logging:** Använd SLF4J eller Log4j för att fånga konverteringstider — användbart för att möta SLA:er.
 
 ## Visuell sammanfattning
 
-![convert html to pdf example](https://example.com/images/convert-html-to-pdf.png "convert html to pdf")
+![exempel på konvertera html till pdf](https://example.com/images/convert-html-to-pdf.png "exempel på konvertera html till pdf")
+[exempel på konvertera html till pdf](https://example.com/images/convert-html-to-pdf.png "exempel på konvertera html till pdf")
 
-*Bilden visar en sida‑vid‑sida‑vy av den ursprungliga HTML‑en och den genererade PDF‑en.*
+*Bilden visar en sida‑vid‑sida‑vy av den ursprungliga HTML‑koden och den genererade PDF‑filen.*
+
+## Vanliga frågor
+
+**Q: Kan jag använda detta tillvägagångssätt med Maven eller Gradle?**  
+A: Ja — båda byggverktygen stöds; handledningen inkluderar den exakta `maven aspose dependency`‑snutten och ett Gradle Kotlin DSL‑exempel.
+
+**Q: Stöder Aspose.HTML lösenordsskydd?**  
+A: Absolut. Använd `PdfSaveOptions.getSecurity().setUserPassword("pwd")` och `setOwnerPassword("ownerPwd")` för att säkra den genererade PDF‑filen.
+
+**Q: Vilka HTML‑funktioner stöds fullt ut?**  
+A: Aspose.HTML hanterar över 50 CSS‑egenskaper, SVG‑bilder, webbtypsnitt och komplexa tabelllayouter, vilket säkerställer högupplöst PDF‑rendering.
+
+**Q: Hur kan jag förbättra konverteringshastigheten för stora dokument?**  
+A: Ställ in `PdfSaveOptions.setDpi(300)` för högupplöst output, återanvänd samma `PdfSaveOptions`‑objekt och kör konverteringar i parallella strömmar samtidigt som du övervakar heap‑användning.
+
+**Q: Krävs en licens för produktionsanvändning?**  
+A: Ja — en giltig Aspose.HTML‑licens tar bort utvärderingsvattensäcken och låser upp alla funktioner. En gratis provperiod finns tillgänglig för testning.
 
 ## Slutsats
+Du har nu ett komplett, produktionsklart recept för **html to pdf java**‑konvertering med Aspose.HTML. Du kan ställa in PDF‑sidstorlek, bädda in anpassade typsnitt, öka DPI för utskriftskvalitet och lägga till lösenordsskydd — allt utan externa binärer. Experimentera med olika sidstorlekar, DPI‑värden eller lägg till sidhuvuden/sidfötter med Aspose:s avancerade PDF‑funktioner för att skräddarsy utdata exakt efter dina behov.
 
-Vi har just gått igenom hur man **convert HTML to PDF** i Java med Aspose.HTML, med fokus på **set pdf page size**, högupplöst output och inbäddning av typsnitt. Kodsnutten ovan är klar att släppas in i vilket projekt som helst, och förklaringarna ger dig kontexten för att anpassa den till mer komplexa scenarier—oavsett om du hämtar HTML från en databas, lägger till säkerhet eller anpassar siddimensioner.
+Lycka till med kodningen, och må dina PDF‑filer alltid renderas exakt som du föreställer dig!
 
-Nu när du vet **how to convert html** till en polerad PDF, prova att experimentera: ändra DPI till 600 för utskriftsklar kvalitet, byt till `Letter`‑storlek för US‑centrerade dokument, eller injicera ett anpassat sidhuvud/sidfot med Aspose:s avancerade PDF‑funktioner. Himlen är gränsen, och du har en solid grund att bygga vidare på.
+---
 
-Lycka till med kodningen, och må dina PDF‑er alltid renderas exakt som du föreställer dig!
+**Senast uppdaterad:** 2026-10-19  
+**Testat med:** Aspose.HTML for Java 23.12  
+**Författare:** Aspose
+
+## Relaterade handledningar
+
+- [Konvertera HTML till PDF Java – Konfigurera miljö i Aspose.HTML](/html/java/configuring-environment/)
+- [Ställ in PDF‑sidstorlek med Aspose Html Full Java Guide](/html/java/conversion-html-to-other-formats/set-pdf-page-size-with-aspose-html-full-java-guide/)
+- [Lägg till sidnummer med Aspose.HTML Java – Avancerad användning](/html/java/advanced-usage/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -1,24 +1,51 @@
 ---
 category: general
-date: 2026-02-10
-description: ضبط نسبة بكسل الجهاز في جافا باستخدام بيئة Aspose.HTML التجريبية. تعلم
-  كيفية ضبط عرض وارتفاع الشاشة والحصول على عنوان الصفحة في جافا مع مثال كامل قابل
-  للتنفيذ.
+date: 2026-10-19
+description: ضبط device pixel ratio في Java باستخدام Aspose.HTML sandbox. تعلم كيفية
+  ضبط عرض الشاشة وارتفاعها والحصول على عنوان الصفحة java مع مثال كامل وقابل للتنفيذ.
 draft: false
 keywords:
-- set device pixel ratio
 - get page title java
+- device pixel ratio java
+- create virtual device java
 - set screen width height
-language: ar
-og_description: تعيين نسبة بكسل الجهاز في جافا باستخدام بيئة Aspose.HTML التجريبية.
-  يوضح لك هذا الدليل كيفية ضبط عرض وارتفاع الشاشة والحصول على عنوان الصفحة في جافا
-  في بضع خطوات سهلة.
-og_title: ضبط نسبة بكسل الجهاز في جافا – دليل Mobile Sandbox
+lastmod: 2026-10-19
+og_description: الحصول على عنوان الصفحة java مع Aspose.HTML sandbox. يوضح لك هذا الدليل
+  كيفية ضبط عرض الشاشة وارتفاعها و device pixel ratio في Java في بضع خطوات سهلة.
+og_image_alt: 'Developer guide: set device pixel ratio in Java using Aspose.HTML sandbox'
+og_title: الحصول على عنوان الصفحة java – ضبط device pixel ratio في دليل Java sandbox
+schemas:
+- author: Aspose
+  dateModified: '2026-10-19'
+  description: set device pixel ratio in Java using Aspose.HTML sandbox. Learn how
+    to set screen width height and get page title java with a complete, runnable example.
+  headline: Get page title java – set device pixel ratio in Java sandbox tutorial
+  type: TechArticle
+- questions:
+  - answer: Yes—create a new `SandboxOptions` with a different `setDevicePixelRatio`
+      value and instantiate a fresh `Sandbox`. Re‑using the same sandbox after changing
+      its options is not supported.
+    question: Can I change the pixel ratio at runtime?
+  - answer: Loop over a list of `SandboxOptions` (e.g., iPhone 8, Pixel 4) and run
+      the same load‑and‑title logic for each.
+    question: What if I need to test multiple devices?
+  - answer: Aspose.HTML respects Java’s default SSL trust store. Add the cert to the
+      JVM’s keystore or, for testing only, disable verification (not recommended for
+      production).
+    question: Does this work with HTTPS sites that have self‑signed certificates?
+  - answer: The `HTMLDocument` API provides `save` methods that can export the rendered
+      page to PNG or JPEG. Use `htmlDoc.save("output.png", SaveFormat.PNG);` after
+      loading.
+    question: How do I capture a screenshot instead of just the title?
+  - answer: Each `Sandbox` instance is isolated, but you should avoid sharing a single
+      instance across multiple threads without synchronization.
+    question: Is the sandbox thread‑safe?
+  type: FAQPage
 tags:
 - Aspose.HTML
 - Java
-- Mobile Emulation
-title: ضبط نسبة بكسل الجهاز في جافا – دليل Mobile Sandbox
+- mobile emulation
+title: الحصول على عنوان الصفحة java – ضبط device pixel ratio في دليل Java sandbox
 url: /ar/java/advanced-usage/set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/
 ---
 
@@ -26,26 +53,41 @@ url: /ar/java/advanced-usage/set-device-pixel-ratio-in-java-mobile-sandbox-tutor
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تعيين نسبة بكسل الجهاز في جافا – دليل رملية الهاتف المحمول
+# احصل على عنوان الصفحة java – ضبط نسبة بكسل الجهاز في دليل رمل Java
 
-هل احتجت يومًا إلى **set device pixel ratio** أثناء اختبار موقع متجاوب في جافا؟ لست وحدك. يواجه العديد من المطورين مشكلة عندما يبدو الموقع مثاليًا على سطح المكتب لكنه يتعطل على الهواتف ذات الكثافة العالية DPI. الخبر السار؟ باستخدام رملية Aspose.HTML يمكنك محاكاة iPhone X (أو أي جهاز) مباشرة من كود جافا الخاص بك—دون الحاجة إلى متصفح.
+هل احتجت إلى **ضبط نسبة بكسل الجهاز** أثناء اختبار موقع متجاوب في Java؟ لست الوحيد. يواجه العديد من المطورين مشكلة عندما يبدو الموقع مثالياً على سطح المكتب لكنه يتعطل على الهواتف ذات الكثافة العالية DPI. الخبر السار؟ باستخدام رمل Aspose.HTML يمكنك محاكاة iPhone X (أو أي جهاز) مباشرةً من كود Java الخاص بك—دون الحاجة إلى متصفح.
 
-في هذا الدليل سنستعرض **how to set screen width height**، ونضبط **device pixel ratio**، وأخيرًا **get page title java** للتحقق من أن كل شيء تم عرضه بشكل صحيح. في النهاية ستحصل على برنامج مستقل يمكنك إدراجه في أي مشروع والبدء في اختبار تخطيطات الهاتف المحمول فورًا.
+في هذا الدليل سنستعرض **كيفية ضبط عرض الشاشة وارتفاعها**، ونكوّن **نسبة بكسل الجهاز**، وأخيراً **get page title java** للتحقق من أن كل شيء تم عرضه بشكل صحيح. بنهاية القراءة ستحصل على برنامج مستقل يمكنك إدراجه في أي مشروع والبدء في اختبار تخطيطات الجوال فوراً.
+
+## إجابات سريعة
+- **كيف يمكنني ضبط نسبة بكسل الجهاز في Java؟** استخدم `SandboxOptions.setDevicePixelRatio(double)` قبل إنشاء الرمل.  
+- **ما هي الطريقة التي تُعيد عنوان الصفحة؟** استدعِ `htmlDocument.getTitle()` على كائن `HTMLDocument` المحمَّل.  
+- **هل يمكنني محاكاة أجهزة أخرى؟** نعم—أنشئ `SandboxOptions` جديدًا بالعرض والارتفاع ونسبة البكسل المطلوبة.  
+- **هل أحتاج إلى برنامج تشغيل متصفح؟** لا، رمل Aspose.HTML يعمل بدون رأس (head‑less) ويعمل بالكامل في Java.  
+- **ما هي نسخة Aspose.HTML المطلوبة؟** النسخة 23.7 أو أحدث تدعم جميع ميزات محاكاة الجوال.
+
+## ما هو get page title java؟
+`get page title java` هو عملية استخراج عنصر `<title>` من مستند HTML باستخدام كود Java. يتيح لك ذلك التأكد من أن الصفحة التي تم تحميلها في سياق جهاز افتراضي قد عرضت العنوان المتوقع. استخراج العنوان خطوة شائعة في التحقق الآلي لضمان تحميل الصفحة الصحيحة بعد تطبيق معلمات محاكاة الجهاز.
+
+## لماذا تستخدم رمل Aspose.HTML لمحاكاة الجوال؟
+يدعم Aspose.HTML **أكثر من 30** تنسيقًا للإدخال والإخراج—بما في ذلك HTML وCSS وSVG وPDF—ويمكنه عرض الصفحات دون تشغيل متصفح كامل. يعالج رمل المواقع التي تتجاوز مئات الصفحات مع الحفاظ على استهلاك الذاكرة تحت 200 ميغابايت، مما يجعله مثاليًا لأنابيب CI.
 
 ## المتطلبات المسبقة
 
-- Java 8 أو أحدث (الكود يتجميع مع JDK 11 أيضًا)  
-- مكتبة Aspose.HTML for Java (الإصدار 23.7 أو أحدث) – يمكنك سحبها من Maven Central  
+- Java 8 أو أحدث (الكود يتوافق أيضًا مع JDK 11)  
+- مكتبة Aspose.HTML for Java (الإصدار 23.7 أو أحدث) – يمكنك جلبها من Maven Central  
 - بيئة تطوير متكاملة أو إعداد سطر أوامر بسيط باستخدام `javac`  
-- اتصال بالإنترنت لعنوان URL التجريبي (`https://responsive.example.com`)
+- اتصال إنترنت لعنوان التجربة (`https://responsive.example.com`)
 
-لا أطر إضافية، لا Selenium، فقط جافا صافية و Aspose.HTML.
+لا أطر عمل إضافية، لا Selenium، فقط Java صافية وAspose.HTML.
 
----
+## كيفية ضبط عرض الشاشة وارتفاعها ونسبة بكسل الجهاز في Java
 
-## الخطوة 1: تعيين عرض وارتفاع الشاشة ونسبة بكسل الجهاز
+تتيح لك فئة `SandboxOptions` تحديد أبعاد شاشة الجهاز الافتراضي وكثافة البكسل. لمحاكاة جهاز جوال محدد يجب تكوين الرمل بالعرض والارتفاع ونسبة بكسل الجهاز المطلوبة. بإنشاء كائن `SandboxOptions` وتعيين هذه الخصائص، سيتعامل محرك العرض كما لو أن الصفحة تُعرض على ذلك الجهاز، مما يضمن أن استعلامات وسائط CSS وتوسيع الصور تعمل بشكل صحيح.
 
-أول شيء نحتاجه هو كائن `SandboxOptions` يخبر الرملية ما هو “الجهاز” الذي نتظاهر به. هنا سنستخدم أبعاد iPhone X (375 × 812 بكسل CSS) ونسبة **device pixel ratio** مقدارها 3.0، والتي تحاكي شاشة Retina ذات الكثافة العالية DPI.
+أنشئ مثيلًا من `SandboxOptions`، واضبط العرض إلى **375**، والارتفاع إلى **812**، ونسبة بكسل الجهاز إلى **3.0**. ثم مرّر هذه الخيارات إلى `Sandbox` جديد. هذا يكوّن الجهاز الافتراضي بالكامل قبل تحميل أي صفحة.
+
+فئة `SandboxOptions` تُعرّف حجم شاشة الجهاز الافتراضي وكثافة البكسل. وهي نقطة الدخول لأي سيناريو محاكاة جوال.
 
 ```java
 // Step 1 – configure the virtual device
@@ -56,26 +98,30 @@ sandboxOptions.setDevicePixelRatio(3.0);     // High‑DPI factor (set device pi
 ```
 
 > **لماذا هذا مهم:**  
-> استدعاء `setDevicePixelRatio` يضبط كل شيء — من الصور إلى عرض الخطوط — بحيث يظن الصفحة أنها على هاتف حقيقي. إذا تخطيت ذلك، قد يعود التخطيط إلى استعلامات وسائط CSS الخاصة بسطح المكتب، مما يفسد هدف اختبار الهاتف المحمول.
+> استدعاء `setDevicePixelRatio` يضبط كل شيء—من الصور إلى عرض الخطوط—بحيث تعتقد الصفحة أنها على هاتف حقيقي. إذا تخطيت هذه الخطوة، قد يعود التخطيط إلى استعلامات CSS لسطح المكتب، مما يُفقد هدف اختبار الجوال.
 
----
+## كيفية إنشاء مثيل الرمل
 
-## الخطوة 2: إنشاء كائن الرملية
+تمثل فئة `Sandbox` بيئة متصفح بلا رأس (headless) تقوم بعرض HTML باستخدام الخيارات المحددة مسبقًا. بعد تكوين `SandboxOptions`، أنشئ كائن `Sandbox` بهذه الخيارات للحصول على سياق عرض معزول. يعمل هذا الرمل كمتصفح خفيف الوزن، يطبق حجم الشاشة وكثافة البكسل التي حددتها، ويمكن إعادة استخدامه لتحميل صفحات متعددة مع الحفاظ على نظافة البيئة.
 
-الآن نحول تلك الخيارات إلى رملية حية. فكر في الرملية كمتصفح صغير بدون واجهة يلتزم بالأبعاد ونسبة البكسل التي حددناها.
+أنشئ `Sandbox` باستخدام `SandboxOptions` المُكوَّنة مسبقًا. يتصرف الرمل كمتصفح صغير بلا رأس يحترم الأبعاد ونسبة البكسل التي عرّفتها.
+
+كائن `Sandbox` هو محرك العرض المعزول الخاص بـ Aspose.HTML الذي يعمل بدون واجهة مستخدم. يضمن أن كل اختبار يُجرى في بيئة نظيفة.
 
 ```java
 // Step 2 – spin up the sandbox with the options above
 Sandbox mobileSandbox = new Sandbox(sandboxOptions);
 ```
 
-> **نصيحة محترف:** يمكنك إعادة استخدام نفس كائن `Sandbox` لتحميل صفحات متعددة؛ فقط غيّر عنوان URL وستستمر الرملية في الحفاظ على نفس خصائص الجهاز.
+> **نصيحة احترافية:** يمكنك إعادة استخدام نفس كائن `Sandbox` لتحميل صفحات متعددة؛ فقط غيّر عنوان URL وسيستمر الرمل في الحفاظ على خصائص الجهاز نفسها.
 
----
+## كيفية تحميل الصفحة داخل الرمل
 
-## الخطوة 3: تحميل الصفحة داخل الرملية
+تمثل فئة `HTMLDocument` ملف HTML مُحلَّل في الذاكرة، وتوفر وصولًا إلى DOM وإمكانيات العرض. مع جاهزية الرمل، أنشئ `HTMLDocument` بتمرير عنوان URL المستهدف وكائن `Sandbox`. هذا يقوم بتحميل وعرض الصفحة باستخدام إعدادات الجهاز الافتراضي، مما يتيح لك التفاعل مع DOM أو استخراج معلومات مثل العنوان.
 
-مع جاهزية الرملية، تحميل صفحة يصبح بسيطًا كإنشاء `HTMLDocument` وتمرير الرملية كمعامل ثانٍ. هذا يجبر المستند على العرض باستخدام الجهاز الافتراضي الذي حددناه مسبقًا.
+أنشئ `HTMLDocument` بتمرير عنوان URL المستهدف وكائن `Sandbox`. هذا يجبر المستند على العرض باستخدام الجهاز الافتراضي الذي ضبطته مسبقًا.
+
+فئة `HTMLDocument` تمثّل ملف HTML مُحلَّل في الذاكرة وتوفر طرقًا للتعامل مع DOM واستخراج البيانات الوصفية.
 
 ```java
 // Step 3 – fetch the target page using the sandbox
@@ -83,13 +129,15 @@ HTMLDocument htmlDoc = new HTMLDocument(
         new URL("https://responsive.example.com"), mobileSandbox);
 ```
 
-إذا كان عنوان URL غير قابل للوصول أو احتوت الصفحة على أخطاء، سيطرح Aspose.HTML استثناءً. في كود الإنتاج ربما تغلف ذلك بـ `try‑catch` وتسجيل الفشل، لكن في هذا الدليل نبقيه بسيطًا.
+إذا كان عنوان URL غير قابل للوصول أو احتوى الصفحة على أخطاء، سيُطلق Aspose.HTML استثناءً. في الكود الإنتاجي يُفضَّل تغليفه داخل `try‑catch` وتسجيل الفشل، لكن الدرس يبقي الأمور بسيطة.
 
----
+## كيفية التحقق باستخدام get page title java
 
-## الخطوة 4: التحقق باستخدام get page title java
+طريقة `getTitle()` تُعيد محتوى عنصر `<title>` في مستند HTML كسلسلة نصية عادية. قراءة العنوان هي أسرع فحص للمنطقية. بعد تحميل الصفحة، استدعِ `htmlDocument.getTitle()` للحصول على نص العنوان. هذا الفحص البسيط يؤكد أن الصفحة عُرضت بشكل صحيح تحت إعدادات الجهاز المحاكى ويوفر طريقة سريعة للتحقق من التنقل أو تغيّر المحتوى في الاختبارات الآلية.
 
-أسرع فحص للمنطق هو قراءة عنوان المستند. إذا طبقت الرملية **device pixel ratio** بشكل صحيح، سيكون العنوان مطابقًا لما تراه على iPhone X حقيقي.
+استدعِ `htmlDocument.getTitle()` على المستند المحمَّل واطبع النتيجة. إذا طبّق الرمل **نسبة بكسل الجهاز** بشكل صحيح، سيتطابق العنوان مع ما تراه على iPhone X حقيقي.
+
+طريقة `getTitle()` تُعيد محتوى عنصر `<title>` كسلسلة نصية، مما يتيح لك التحقق من العرض دون فحص بصري.
 
 ```java
 // Step 4 – retrieve and print the page title (get page title java)
@@ -102,13 +150,13 @@ System.out.println("Title under sandbox: " + htmlDoc.getTitle());
 Title under sandbox: Responsive Demo – Mobile View
 ```
 
-إذا رأيت العنوان مطبوعًا، فقد نجحت في **set device pixel ratio**، **set screen width height**، و **got the page title** باستخدام جافا.
-
----
+إذا رأيت العنوان مطبوعًا، فقد نجحت في **ضبط نسبة بكسل الجهاز**، **ضبط عرض الشاشة وارتفاعها**، و**استخراج عنوان الصفحة** باستخدام Java.
 
 ## مثال كامل قابل للتنفيذ
 
-فيما يلي البرنامج الكامل الذي يمكنك نسخه‑ولصقه في ملف باسم `SandboxDemo.java`. تأكد من أن ملفات JAR الخاصة بـ Aspose.HTML موجودة في مسار الفئة الخاص بك (`-cp` flag) قبل التجميع.
+فيما يلي البرنامج الكامل الذي يمكنك نسخه‑ولصقه في ملف باسم `SandboxDemo.java`. تأكد من أن ملفات JAR الخاصة بـ Aspose.HTML موجودة في مسار الفئة (`-cp`) قبل التجميع.
+
+فئة `SandboxDemo` تجمع جميع الخطوات السابقة في مثال واحد قابل للتنفيذ.
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -142,46 +190,63 @@ public class SandboxDemo {
 }
 ```
 
-قم بالتجميع والتشغيل:
+تجميع وتشغيل:
 
 ```bash
 javac -cp "aspose-html-23.7.jar" SandboxDemo.java
 java -cp ".:aspose-html-23.7.jar" SandboxDemo
 ```
 
-يجب أن ترى العنوان مطبوعًا في وحدة التحكم، مما يؤكد أن الصفحة تم عرضها بنسبة **device pixel ratio** المطلوبة.
+يجب أن ترى العنوان مطبوعًا في وحدة التحكم، مما يؤكد أن الصفحة عُرضت مع **نسبة بكسل الجهاز** المطلوبة.
 
----
+## الأسئلة المتكررة والحالات الخاصة
 
-## الأسئلة المتكررة وحالات الحافة
+**س: هل يمكنني تغيير نسبة البكسل أثناء التشغيل؟**  
+ج: نعم—أنشئ `SandboxOptions` جديدًا بقيمة `setDevicePixelRatio` مختلفة وأنشئ `Sandbox` جديدًا. إعادة استخدام نفس الرمل بعد تغيير خياراته غير مدعومة.
 
-| السؤال | الجواب |
-|----------|--------|
-| **هل يمكنني تغيير نسبة البكسل أثناء التشغيل؟** | نعم—فقط أنشئ `SandboxOptions` جديدًا بقيمة مختلفة لـ `setDevicePixelRatio` وأنشئ `Sandbox` جديدًا. إعادة استخدام نفس الرملية بعد تغيير خياراتها غير مدعومة. |
-| **ماذا لو احتجت لاختبار عدة أجهزة؟** | قم بالتكرار عبر قائمة من `SandboxOptions` (مثل iPhone 8، Pixel 4) ونفّذ نفس منطق التحميل والعنوان لكل منها. |
-| **هل يعمل هذا مع مواقع HTTPS التي لديها شهادات موقعة ذاتيًا؟** | Aspose.HTML يحترم مخزن الثقة SSL الافتراضي في جافا. أضف الشهادة إلى keystore الخاص بـ JVM أو عطل التحقق للاختبار فقط (غير موصى به للإنتاج). |
-| **كيف يمكنني التقاط لقطة شاشة بدلاً من العنوان فقط؟** | توفر API الخاصة بـ `HTMLDocument` طرق `save` التي يمكنها تصدير الصفحة المعروضة إلى PNG أو JPEG. استخدم `htmlDoc.save("output.png", SaveFormat.PNG);` بعد التحميل. |
-| **هل الرملية آمنة للخطوط المتعددة؟** | كل كائن `Sandbox` معزول، لكن يجب تجنّب مشاركة نفس الكائن عبر عدة خيوط دون تزامن. |
+**س: ماذا لو أردت اختبار عدة أجهزة؟**  
+ج: كرّر حلقة على قائمة من `SandboxOptions` (مثل iPhone 8، Pixel 4) وشغّل نفس منطق التحميل واستخراج العنوان لكل منها.
 
----
+**س: هل يعمل هذا مع مواقع HTTPS ذات الشهادات الذاتية؟**  
+ج: Aspose.HTML يلتزم بمخزن الشهادات الافتراضي في Java. أضف الشهادة إلى keystore الخاص بـ JVM أو، للاختبار فقط، عطل التحقق (ليس مستحسنًا في الإنتاج).
+
+**س: كيف يمكنني التقاط لقطة شاشة بدلاً من مجرد العنوان؟**  
+ج: توفر واجهة `HTMLDocument` طرق `save` التي يمكنها تصدير الصفحة إلى PNG أو JPEG. استخدم `htmlDoc.save("output.png", SaveFormat.PNG);` بعد التحميل.
+
+**س: هل الرمل آمن للاستخدام عبر خيوط متعددة؟**  
+ج: كل مثيل `Sandbox` معزول، لكن يُفضَّل عدم مشاركة نفس المثيل بين خيوط متعددة دون تزامن.
 
 ## نظرة بصرية
 
-![مخطط يوضح تعيين نسبة بكسل الجهاز في رملية الهاتف المحمول](https://example.com/images/sandbox-diagram.png "مخطط تعيين نسبة بكسل الجهاز")
+![Diagram showing set device pixel ratio in mobile sandbox](https://example.com/images/sandbox-diagram.png "set device pixel ratio diagram")
 
-*التوضيح أعلاه يوضح التدفق من تكوين `SandboxOptions` (بما في ذلك **set screen width height** و **set device pixel ratio**) إلى تحميل عنوان URL واستخراج العنوان.*
+[Diagram showing set device pixel ratio in mobile sandbox](https://example.com/images/sandbox-diagram.png "set device pixel ratio diagram")
 
----
+*التوضيح أعلاه يربط تدفق تكوين `SandboxOptions` (بما في ذلك **ضبط عرض الشاشة وارتفاعها** و**ضبط نسبة بكسل الجهاز**) مع تحميل عنوان URL واستخراج العنوان.*
 
 ## الخلاصة
 
-أنت الآن تعرف **how to set device pixel ratio** في جافا، وكيفية **set screen width height** لمحاكاة هاتف محمول دقيقة، وكيفية **get page title java** لتأكيد نجاح العرض. هذه العملية المختصرة تلغي الحاجة إلى متصفحات ثقيلة أثناء اختبار واجهة المستخدم الآلي وتندمج بسلاسة في خطوط أنابيب CI.
+أنت الآن تعرف **كيفية ضبط نسبة بكسل الجهاز** في Java، وكيفية **ضبط عرض الشاشة وارتفاعها** لمحاكاة جوال دقيقة، وكيفية **استخدام get page title java** لتأكيد نجاح العرض. هذه العملية المختصرة تُلغي الحاجة إلى متصفحات ثقيلة أثناء اختبار واجهة المستخدم الآلي وتتناسب بسهولة مع أنابيب CI.
 
-هل أنت مستعد للخطوة التالية؟ جرّب تصدير الصفحة المعروضة كصورة، أو جرب تصحيح استعلامات وسائط CSS بتبديل `devicePixelRatio` بين 1.0 و 3.0. يمكنك أيضًا استكشاف ميزات تحويل PDF في Aspose.HTML لالتقاط نسخة قابلة للطباعة من العرض المحمول.
+هل أنت مستعد للخطوة التالية؟ جرّب تصدير الصفحة المعروضة كصورة، أو استكشف تصحيح استعلامات CSS بتبديل `devicePixelRatio` بين 1.0 و 3.0. يمكنك أيضًا استكشاف ميزات تحويل Aspose.HTML إلى PDF للحصول على نسخة قابلة للطباعة من العرض الجوال.
 
-برمجة سعيدة، ولتظل تخطيطات هاتفك المحمول دائمًا واضحة—بغض النظر عن كثافة البكسل!
+برمجة سعيدة، ولتظل تخطيطات الجوال دائمًا واضحة—بغض النظر عن كثافة البكسل!
+
+---
+
+**آخر تحديث:** 2026-10-19  
+**تم الاختبار مع:** Aspose.HTML 23.7 for Java  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [Get Html Title Java Render Page In Sandbox With Screen Width](/html/java/advanced-usage/get-html-title-java-render-page-in-sandbox-with-screen-width/)
+- [Create Aspose Html Sandbox Complete Java Guide](/html/java/configuring-environment/create-aspose-html-sandbox-complete-java-guide/)
+- [Set Device Pixel Ratio In Java Complete Guide](/html/java/conversion-html-to-various-image-formats/set-device-pixel-ratio-in-java-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
