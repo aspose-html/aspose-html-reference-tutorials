@@ -110,6 +110,9 @@ Aspose.HTML for Java kullanarak HTML belgelerinden CSS stillerini nasıl çıkar
 ### [Java’da CSS Okuma – Tam Aspose.HTML Kılavuzu](./how-to-read-css-in-java-complete-aspose-html-guide/)
 Aspose.HTML for Java kullanarak CSS dosyalarını nasıl okuyacağınızı ve analiz edeceğinizi adım adım öğrenin.
 
+### [Java’da CSS okuma ve bir HTML dosyasından arka plan rengini çıkarma](./how-to-read-css-and-extract-background-color-from-an-html-fi/)
+Aspose.HTML for Java kullanarak bir HTML dosyasından CSS okuma ve arka plan rengini çıkarma adımlarını öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

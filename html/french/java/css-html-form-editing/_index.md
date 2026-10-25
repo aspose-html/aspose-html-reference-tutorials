@@ -39,7 +39,7 @@ Apprenez à charger un document HTML en Java avec Aspose.HTML et à extraire les
 ### [Sélection d'élément par classe en Java – Guide complet](./select-element-by-class-in-java-complete-how-to-guide/)
 Apprenez à sélectionner des éléments HTML par leur classe en Java avec Aspose.HTML, grâce à ce guide complet pas à pas.
 ### [Comment lire le CSS en Java – Guide complet avec Aspose.HTML](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
-Apprenez à lire et analyser les fichiers CSS en Java à l'aide d'Aspose.HTML grâce à ce guide complet étape par étape.
+Apprenez à lire et analyser les fichiers CSS en Java à l'aide d'Aspose.HTML grâce à un guide complet étape par étape.
 ### [Analyser le HTML avec Java : extraire la propriété CSS et obtenir la taille de police](./parse-html-with-java-extract-css-property-and-get-font-size/)
 Apprenez à analyser un document HTML en Java, extraire des propriétés CSS et récupérer la taille de police des éléments.
 ### [Comment interroger le HTML en Java – charger le HTML, sélectionner avec CSS et extraire les titres](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
@@ -73,7 +73,7 @@ Apprenez à récupérer le style CSS calculé d'un élément en Java à l'aide d
 ### [Comment obtenir le CSS en Java – Guide complet pour extraire les styles avec Aspose.HTML](./how-to-get-css-in-java-complete-guide-to-extract-styles-with/)
 Apprenez à extraire les styles CSS d'une page HTML en Java à l'aide d'Aspose.HTML dans ce guide complet.
 ### [Comment lire le CSS en Java – Guide étape par étape](./how-to-read-css-in-java-step-by-step-guide/)
-Apprenez à lire et analyser les fichiers CSS en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
+Apprenez à lire et analyser les fichiers CSS en Java avec Aspose.HTML grâce à un guide complet étape par étape.
 ### [Comment obtenir le CSS en Java – Utilisation de querySelector et du style calculé](./how-to-get-css-in-java-using-queryselector-and-computed-styl/)
 Apprenez à récupérer les styles CSS d'un élément en Java avec querySelector et la propriété ComputedStyle d'Aspose.HTML.
 ### [Obtenir un élément par ID en Java – Guide complet des styles calculés](./get-element-by-id-java-complete-guide-to-computed-styles/)
@@ -112,9 +112,12 @@ Apprenez à analyser les fichiers CSS en Java, à simuler un écran mobile et à
 ### [Comment charger du HTML en Java – Guide complet avec extraction de couleur CSS](./how-to-load-html-in-java-full-guide-with-css-color-extractio/)
 Apprenez à charger des fichiers HTML en Java et à extraire les couleurs CSS grâce à Aspose.HTML, avec un guide complet pas à pas.
 ### [Extraire le CSS depuis le HTML en Java – Guide complet de programmation](./extract-css-from-html-in-java-complete-programming-guide/)
-Apprenez à extraire les feuilles de style CSS d'un document HTML en Java avec Aspose.HTML, grâce à ce guide complet pas à pas.
+Apprenez à extraire les feuilles de style CSS d'un document HTML en Java avec Aspose.HTML, grâce à un guide complet pas à pas.
 ### [Comment lire le CSS en Java – Guide complet Aspose.HTML](./how-to-read-css-in-java-complete-aspose-html-guide/)
-Apprenez à analyser et extraire les styles CSS d'un document HTML en Java avec Aspose.HTML grâce à ce guide complet.
+Apprenez à analyser et extraire les styles CSS d'un document HTML en Java grâce à Aspose.HTML, étape par étape.
+### [Comment lire le CSS et extraire la couleur d'arrière‑plan d'un fichier HTML en Java](./how-to-read-css-and-extract-background-color-from-an-html-fi/)
+Apprenez à lire les fichiers CSS et à extraire la couleur d'arrière‑plan d'un fichier HTML en Java avec Aspose.HTML.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

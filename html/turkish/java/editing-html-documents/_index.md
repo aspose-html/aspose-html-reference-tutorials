@@ -74,7 +74,7 @@ Java için Aspose.HTML kullanarak HTML belgelerinden scriptleri güvenli bir şe
 HTML belgelerinde belirli metinleri <mark> etiketiyle vurgulamayı öğrenin.
 ### [Java için Aspose.HTML'de Otomatik Kilit Bırakma – Thread‑Safe HTML Düzenleme Öğreticisi](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
 ### [Java'da HTML Çıkarma – Metin Çıkarma ve Kelimeleri Vurgulama](./how-to-extract-html-in-java-extract-text-highlight-words/)
-Java için Aspose.HTML kullanarak HTML'den metin çıkarın ve belirli kelimeleri vurgulayın.
+### [Java için Aspose.HTML ile DOM'u Manipüle Etme](./how-to-manipulate-dom-with-java-using-aspose-html/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

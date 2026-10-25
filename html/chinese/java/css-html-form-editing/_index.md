@@ -44,20 +44,8 @@ url: /zh/java/css-html-form-editing/
 ### [如何在 Java 中查询 HTML – 加载 HTML、CSS 选择器并提取标题](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
 学习如何在 Java 中加载 HTML，使用 CSS 选择器，并提取标题文本的实用指南。
 
-
-
-
-
-
-
 ### [获取计算样式 Java – 从 HTML 中提取背景颜色](./get-computed-style-java-extract-background-color-from-html/)
 学习如何使用 Aspose.HTML for Java 获取计算样式并提取 HTML 中的背景颜色。
-
-
-
-
-
-
 
 ### [在 Java 中获取元素计算样式 – 完整分步指南](./get-element-computed-style-in-java-full-step-by-step-guide/)
 本指南详细演示如何在 Java 中使用 Aspose.HTML 获取元素的计算样式，提供完整的分步说明。
@@ -70,7 +58,7 @@ url: /zh/java/css-html-form-editing/
 ### [如何在 Java 中获取 CSS – 使用 Aspose.HTML 检索计算样式](./how-to-get-css-in-java-retrieve-computed-style-with-aspose-h/)
 本教程演示如何使用 Aspose.HTML 在 Java 中获取元素的计算样式，帮助您读取实际渲染的 CSS 属性。
 ### [如何在 Java 中获取 CSS – 使用 Aspose.HTML 完整提取样式指南](./how-to-get-css-in-java-complete-guide-to-extract-styles-with/)
-本指南详细讲解如何使用 Aspose.HTML 在 Java 中提取页面 CSS 样式，实现完整的样式获取流程。
+本指南详细说明如何使用 Aspose.HTML 在 Java 中提取页面 CSS 样式，实现完整的样式获取流程。
 ### [如何在 Java 中读取 CSS – 步骤指南](./how-to-read-css-in-java-step-by-step-guide/)
 本教程逐步演示如何使用 Aspose.HTML for Java 读取和解析 CSS 文件，帮助开发者轻松获取样式信息。
 ### [如何在 Java 中获取 CSS – 使用 querySelector 和 Computed Style](./how-to-get-css-in-java-using-queryselector-and-computed-styl/)
@@ -111,6 +99,9 @@ url: /zh/java/css-html-form-editing/
 本指南详细说明如何使用 Aspose.HTML for Java 从 HTML 中提取 CSS，涵盖完整的编程步骤与示例。
 ### [如何在 Java 中读取 CSS – 完整 Aspose.HTML 指南](./how-to-read-css-in-java-complete-aspose-html-guide/)
 本指南详细讲解如何使用 Aspose.HTML for Java 读取和解析 CSS 文件，帮助开发者实现样式分析。
+
+### [如何在 Java 中读取 CSS 并从 HTML 文件中提取背景颜色](./how-to-read-css-and-extract-background-color-from-an-html-fi/)
+本教程演示如何使用 Aspose.HTML for Java 读取 CSS 并提取 HTML 文件中的背景颜色。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -67,6 +67,8 @@ url: /ru/java/editing-html-documents/
 ### [Создание нового HTML-элемента с Java – Полное руководство Aspose.HTML](./create-new-html-element-with-java-full-aspose-html-guide/)
 Узнайте, как создавать новые HTML-элементы в Java с помощью Aspose.HTML. Пошаговое полное руководство.
 ### [Как добавить дочерний элемент в Java DOM – Полное руководство Aspose.HTML](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
+### [Как управлять DOM с помощью Java и Aspose.HTML](./how-to-manipulate-dom-with-java-using-aspose-html/)
+Узнайте, как манипулировать DOM-деревом в Java с помощью Aspose.HTML в полном пошаговом руководстве.
 ### [Как удалить скрипты из HTML в Java – Полное руководство](./how-to-remove-scripts-from-html-in-java-complete-guide/)
 Узнайте, как безопасно удалять скрипты из HTML‑документов в Java с помощью Aspose.HTML, следуя пошаговому полному руководству.
 ### [Как подсветить HTML – поиск текста и замена на <mark>](./how-to-highlight-html-search-text-replace-with-mark/)

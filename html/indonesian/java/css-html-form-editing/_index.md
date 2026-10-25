@@ -109,6 +109,8 @@ Pelajari cara memuat file HTML di Java dan mengekstrak warna CSS secara terprogr
 Pelajari cara mengekstrak CSS dari dokumen HTML menggunakan Java dalam panduan pemrograman lengkap ini.
 ### [Cara Membaca CSS di Java – Panduan Lengkap Aspose.HTML](./how-to-read-css-in-java-complete-aspose-html-guide/)
 Pelajari cara membaca file CSS di Java menggunakan Aspose.HTML dalam panduan lengkap langkah demi langkah.
+### [Cara Membaca CSS dan Mengekstrak Warna Latar Belakang dari File HTML di Java](./how-to-read-css-and-extract-background-color-from-an-html-fi/)
+Pelajari cara membaca file CSS dan mengekstrak warna latar belakang elemen HTML menggunakan Aspose.HTML untuk Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

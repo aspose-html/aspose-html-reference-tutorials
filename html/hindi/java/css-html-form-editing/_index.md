@@ -29,8 +29,8 @@ url: /hi/java/css-html-form-editing/
 
 ### [Java के लिए Aspose.HTML के साथ उन्नत CSS एक्सटेंशन तकनीकें](./advanced-css-extension/)
 कस्टम पेज मार्जिन और डायनामिक कंटेंट सहित उन्नत CSS तकनीकों को लागू करने के लिए Java के लिए Aspose.HTML का उपयोग करना सीखें। डेवलपर्स के लिए एक विस्तृत, व्यावहारिक ट्यूटोरियल।
-### [Java में HTML से CSS निकालें – चरण‑दर‑चरण गाइड](./extract-css-from-html-in-java-step-by-step-guide/)
-Java में Aspose.HTML का उपयोग करके HTML दस्तावेज़ से CSS निकालने की प्रक्रिया को चरण‑दर‑चरण सीखें।
+### [Java में HTML से CSS निकालें – चरण‑दर‑दर‑गाइड](./extract-css-from-html-in-java-step-by-step-guide/)
+Java में Aspose.HTML का उपयोग करके HTML दस्तावेज़ से CSS निकालने की प्रक्रिया को चरण‑दर‑गाइड सीखें।
 ### [Java में CSS पढ़ना – पूर्ण Aspose.HTML गाइड](./how-to-read-css-in-java-complete-aspose-html-guide/)
 Java में Aspose.HTML का उपयोग करके CSS को पढ़ने और प्रोसेस करने की पूरी प्रक्रिया सीखें।
 ### [Java के लिए Aspose.HTML के साथ HTML फॉर्म संपादन और सबमिशन](./html-form-editing/)
@@ -41,7 +41,7 @@ Java में Aspose.HTML का उपयोग करके क्लास �
 ### [Java में CSS कैसे प्राप्त करें – Aspose.HTML के साथ गणना किया गया स्टाइल प्राप्त करें](./how-to-get-css-in-java-retrieve-computed-style-with-aspose-h/)
 Aspose.HTML for Java का उपयोग करके किसी तत्व का गणना किया गया CSS स्टाइल कैसे प्राप्त करें, सीखें।
 
-### [Java में CSS पढ़ना – Aspose.HTML के साथ पूर्ण गाइड](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
+### [Java में CSS पढ़ना – Aspose.HTML के साथ पूर्ण गाइड](./how-to-read-css-in-java-complete-aspose-html-guide/)
 Aspose.HTML का उपयोग करके Java में CSS फ़ाइलों को पढ़ने और पार्स करने की पूरी प्रक्रिया सीखें।
 ### [Java के साथ HTML पार्स करें: CSS प्रॉपर्टी निकालें और फ़ॉन्ट आकार प्राप्त करें](./parse-html-with-java-extract-css-property-and-get-font-size/)
 इस ट्यूटोरियल में Java का उपयोग करके HTML से CSS प्रॉपर्टी निकालना और फ़ॉन्ट साइज प्राप्त करना सीखें।
@@ -51,8 +51,8 @@ Java का उपयोग करके HTML लोड करना, CSS से
 Java में Aspose.HTML का उपयोग करके HTML को क्वेरी करना, एलिमेंट चुनना, एट्रिब्यूट से फ़िल्टर करना और टेक्स्ट प्राप्त करना सीखें।
 ### [Java में CSS प्राप्त करने का तरीका – Aspose.HTML के साथ स्टाइल्स निकालने की पूर्ण गाइड](./how-to-get-css-in-java-complete-guide-to-extract-styles-with/)
 Java में Aspose.HTML का उपयोग करके CSS स्टाइल्स को निकालने की पूरी प्रक्रिया सीखें।
-### [Java में CSS पढ़ने का तरीका – चरण‑दर‑चरण गाइड](./how-to-read-css-in-java-step-by-step-guide/)
-Java में Aspose.HTML का उपयोग करके CSS फ़ाइलों को पढ़ने और विश्लेषण करने की चरण‑दर‑चरण प्रक्रिया सीखें।
+### [Java में CSS पढ़ने का तरीका – चरण‑दर‑गाइड](./how-to-read-css-in-java-step-by-step-guide/)
+Java में Aspose.HTML का उपयोग करके CSS फ़ाइलों को पढ़ने और विश्लेषण करने की चरण‑दर‑गाइड प्रक्रिया सीखें।
 
 
 
@@ -110,6 +110,9 @@ Java में Aspose.HTML का उपयोग करके CSS पढ़े�
 Java में Aspose.HTML का उपयोग करके HTML लोड करना और CSS से रंग निकालना सीखें।
 ### [Java में HTML से CSS निकालना – पूर्ण प्रोग्रामिंग गाइड](./extract-css-from-html-in-java-complete-programming-guide/)
 Java में Aspose.HTML का उपयोग करके HTML दस्तावेज़ से CSS निकालने की पूरी प्रक्रिया सीखें।
+
+### [Java में CSS पढ़ना और HTML फ़ाइल से बैकग्राउंड रंग निकालना](./how-to-read-css-and-extract-background-color-from-an-html-fi/)
+Java में Aspose.HTML का उपयोग करके CSS पढ़ें और HTML फ़ाइल से बैकग्राउंड रंग निकालना सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -107,6 +107,14 @@ Hướng dẫn chi tiết cách tải tài liệu HTML trong Java và trích xu�
 Hướng dẫn chi tiết cách trích xuất CSS từ HTML bằng Aspose.HTML cho Java trong hướng dẫn lập trình toàn diện.
 ### [Cách đọc CSS trong Java – Hướng dẫn đầy đủ Aspose.HTML](./how-to-read-css-in-java-complete-aspose-html-guide/)
 Hướng dẫn chi tiết cách đọc và phân tích CSS trong Java bằng Aspose.HTML, bao gồm các ví dụ thực tế và mẹo tối ưu.
+### [Cách đọc CSS trong Java – Lấy kiểu đã tính toán](./how-to-read-css-in-java-get-computed-style/)
+Hướng dẫn chi tiết cách đọc CSS trong Java và trích xuất các kiểu đã tính toán của phần tử.
+### [Cách đọc CSS trong Java – Hướng dẫn đầy đủ sử dụng Aspose.HTML](./how-to-read-css-in-java-complete-guide-using-aspose-html/)
+Hướng dẫn chi tiết cách đọc CSS trong Java bằng Aspose.HTML, cung cấp các bước thực hành đầy đủ.
+### [Cách đọc CSS trong Java – Hướng dẫn đầy đủ Aspose.HTML](./how-to-read-css-in-java-complete-aspose-html-guide/)
+Hướng dẫn chi tiết cách đọc và phân tích CSS trong Java bằng Aspose.HTML, bao gồm các ví dụ thực tế và mẹo tối ưu.
+### [Cách đọc CSS và trích xuất màu nền từ tệp HTML trong Java](./how-to-read-css-and-extract-background-color-from-an-html-fi/)
+Hướng dẫn cách đọc CSS và trích xuất màu nền từ tệp HTML bằng Aspose.HTML cho Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

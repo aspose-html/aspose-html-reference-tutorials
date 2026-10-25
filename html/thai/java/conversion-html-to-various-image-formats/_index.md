@@ -102,7 +102,7 @@ weight: 24
 ### [วิธีเรนเดอร์ HTML เป็น PNG ใน Java – คู่มือฉบับสมบูรณ์](./how-to-render-html-to-png-in-java-complete-guide/)
 ### [วิธีเรนเดอร์ HTML เป็น PNG ด้วย viewport กำหนดเอง](./how-to-render-html-to-png-with-custom-viewport/)
 เรียนรู้วิธีตั้งค่า viewport ที่กำหนดเองเพื่อเรนเดอร์ HTML เป็นไฟล์ PNG ด้วย Aspose.HTML for Java
-### [แปลง HTML เป็น PNG – คู่มือการแปลงแบบชุด](./convert-html-to-png-batch-conversion-guide/)
+### [การแปลง HTML เป็น PNG – คู่มือการแปลงแบบชุด](./convert-html-to-png-batch-conversion-guide/)
 เรียนรู้วิธีแปลงหลายไฟล์ HTML เป็น PNG พร้อมขั้นตอนและตัวอย่างโค้ดใน Java
 ### [สร้างแบนเนอร์ HTML และเรนเดอร์เป็น PNG – คู่มือ Java ฉบับสมบูรณ์](./create-html-banner-and-render-to-png-full-java-guide/)
 ### [วิธีตั้งค่า DPI เมื่อแปลง HTML เป็น PNG – คู่มือ Java ฉบับสมบูรณ์](./how-to-set-dpi-when-converting-html-to-png-complete-java-gui/)
@@ -180,6 +180,9 @@ weight: 24
 ### [แปลง HTML เป็น WebP – คู่มือ Java Aspose.HTML ฉบับสมบูรณ์](./convert-html-to-webp-complete-java-aspose-html-guide/)
 เรียนรู้วิธีแปลง HTML เป็นรูปแบบ WebP ใน Java ด้วย Aspose.HTML อย่างละเอียดและมีประสิทธิภาพ
 ### [เรนเดอร์ HTML เป็น PNG ใน Java – คู่มือ Aspose HTML ฉบับเต็ม](./render-html-to-png-in-java-full-aspose-html-tutorial/)
+
+### [วิธีแปลง SVG เป็น PNG ใน Java ด้วย Aspose](./how-to-convert-svg-to-png-in-java-using-aspose/)
+เรียนรู้ขั้นตอนการแปลงไฟล์ SVG เป็น PNG ใน Java ด้วย Aspose.HTML อย่างละเอียด
 
 ## คำถามที่พบบ่อย
 

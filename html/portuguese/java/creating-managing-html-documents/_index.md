@@ -76,6 +76,8 @@ Aprenda a extrair texto de documentos HTML em Java usando Aspose.HTML com este g
 Aprenda a usar XPath em Java para ler documentos HTML e extrair texto de forma eficiente com Aspose.HTML.
 ### [Como consultar HTML em Java – Extrair URLs de imagens](./how-to-query-html-in-java-extract-image-urls/)
 Aprenda a extrair URLs de imagens de documentos HTML em Java usando Aspose.HTML com este tutorial passo a passo.
+### [Tutorial Java XPath: extrair src da imagem de um arquivo HTML](./java-xpath-tutorial-extract-image-src-from-an-html-file/)
+Aprenda a usar XPath em Java para extrair o atributo src das imagens em arquivos HTML com este tutorial passo a passo.
 ### [Como analisar HTML em Java – Extrair texto de artigos HTML](./how-to-parse-html-in-java-extract-text-from-html-articles/)
 Aprenda a analisar documentos HTML em Java e extrair texto de artigos usando Aspose.HTML com este guia passo a passo.
 ### [Como carregar HTML em Java – Compare XPath e seletor CSS](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
@@ -111,9 +113,8 @@ Aprenda a buscar dados JSON e gerar dinamicamente conteúdo HTML em Java usando 
 ### [Conte caracteres HTML em Java – Guia completo com Aspose.HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Aprenda a contar caracteres em documentos HTML usando Aspose.HTML para Java com este guia passo a passo.
 
-
-
-
+### [Como criar e salvar HTML com Java usando Aspose.HTML](./how-to-create-and-save-html-with-java-using-aspose-html/)
+Aprenda a criar e salvar documentos HTML em Java usando Aspose.HTML com este guia passo a passo.
 
 
 
@@ -127,12 +128,6 @@ Aprenda a gerar HTML a partir de código JavaScript em Java com este guia passo 
 Aprenda a analisar, consultar e contar elementos em documentos HTML usando Aspose.HTML para Java com este guia passo a passo.
 ### [Executar JavaScript assíncrono em Java – Guia completo passo a passo](./execute-async-javascript-in-java-complete-step-by-step-guide/)
 Aprenda a executar JavaScript assíncrono em Java usando Aspose.HTML com este guia passo a passo.
-
-
-
-
-
-
 
 ### [Iterar NodeList em Java – Ler HTML e Obter src da Imagem](./iterate-nodelist-java-read-html-get-image-src/)
 Aprenda a percorrer um NodeList em Java para ler HTML e extrair o atributo src das imagens.

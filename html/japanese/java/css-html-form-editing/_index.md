@@ -19,7 +19,7 @@ Web 開発に取り組む場合、CSS および HTML フォームを習得する
 
 ## 高度な CSS 拡張テクニック
 
-まず最初に、Aspose.HTML for Java を使用した高度な CSS 拡張テクニックについて説明します。Web ページに適切な余白を設定するのに苦労したことはありませんか? あるいは、ユーザーの操作に基づいて変化する動的なコンテンツを含めたいと思ったことはありませんか? このチュートリアルでは、複雑な CSS ルールを簡単に適用するための基本事項を説明します。Aspose を使用すると、スタイルをプログラムで操作して、閲覧者に合わせて視覚的に魅力的なレイアウトを作成できます。静的なページを動的な傑作に変えることを想像してみてください。このガイドでは、その方法を正確に説明します。[続きを読む](./advanced-css-extension/).
+まず最初に、Aspose.HTML for Java を使用した高度な CSS 拡張テクニックについて説明します。Web ページに適切な余白を設定するのに苦労したことはありませんか? あるいは、ユーザーの操作に基づいて変化する動的なコンテンツを含めたいと思ったことはありませんか? このチュートリアルでは、複雑な CSS ルールを簡単に適用するための基本事項を説明します。Aspose を使用すると、スタイルをプログラムで操作して、閲覧者に合わせて視覚的に魅力的なレイアウトを作成できます。静的なページを動的な傑作に変えることが想像してみてください。このガイドでは、その方法を正確に説明します。[続きを読む](./advanced-css-extension/).
 
 ## HTML フォームの編集と送信
 
@@ -98,7 +98,7 @@ Aspose.HTML を活用して、Java で CSS を解析・取得する手順をス�
 Javaコードで要素の背景色などCSSプロパティを取得し、動的に活用する手順を解説します。
 ### [Javaでスタイルを取得する方法 – Aspose.HTMLで計算済みCSSを取得](./how-to-get-style-in-java-retrieve-computed-css-with-aspose-h/)
 Aspose.HTML を使用して、Java で要素の計算済み CSS スタイルを取得する手順を解説します。
-### [Aspose HTML Java でスタイルを取得する方法 – クエリセレクタの使用](./how-to-get-style-in-aspose-html-java-use-query-selector/)
+### [Aspose.HTML を使用した Java でスタイルを取得する方法 – クエリセレクタの使用](./how-to-get-style-in-aspose-html-java-use-query-selector/)
 Aspose.HTML for Java のクエリセレクタを使用して、要素のスタイル情報を取得する手順を解説します。
 ### [JavaでCSSを読み取る – 計算済みスタイルの取得](./how-to-read-css-in-java-get-computed-style/)
 JavaコードでCSSの計算済みスタイルを取得し、要素の実際の表示属性をプログラムで取得する方法を解説します。
@@ -115,6 +115,9 @@ JavaでHTMLをロードし、CSSから色情報を抽出する手順をステッ
 Javaを使用してHTMLドキュメントからCSSスタイルシートを抽出し、解析・操作する方法をステップバイステップで解説します。
 ### [JavaでCSSを読み取る方法 – 完全 Aspose.HTML ガイド](./how-to-read-css-in-java-complete-aspose-html-guide/)
 Aspose.HTML for Java を使用して、CSS を読み取り、解析し、操作する方法をステップバイステップで学びます。
+
+### [JavaでCSSを読み取り、HTMLファイルから背景色を抽出する方法](./how-to-read-css-and-extract-background-color-from-an-html-fi/)
+JavaでHTMLファイルを読み込み、CSSから背景色を抽出する手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

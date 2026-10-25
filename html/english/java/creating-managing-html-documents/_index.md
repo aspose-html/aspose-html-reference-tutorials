@@ -56,6 +56,8 @@ Learn how to load, manipulate, and save HTML documents using Aspose.HTML for Jav
 Learn how to load HTML documents from streams using Aspose.HTML for Java. This guide provides a step-by-step tutorial for seamless HTML manipulation.
 ### [Create HTML Documents from String in Aspose.HTML for Java](./create-html-documents-from-string/)
 Learn how to create HTML documents from strings in Aspose.HTML for Java with this step-by-step guide.
+### [How to create and save HTML with Java using Aspose.HTML](./how-to-create-and-save-html-with-java-using-aspose-html/)
+Learn how to generate and save HTML files in Java using Aspose.HTML with a clear step-by-step guide.
 ### [Create HTML Document with Java – Fetch JSON and Generate Content](./create-html-document-with-java-fetch-json-and-generate-conte/)
 Learn how to fetch JSON in Java and generate HTML content using Aspose.HTML with this step-by-step guide.
 ### [Create HTML from Markdown in Java – Full Step‑by‑Step Guide](./create-html-from-markdown-in-java-full-step-by-step-guide/)
@@ -70,8 +72,9 @@ Learn how to use XPath in Java with Aspose.HTML to read HTML and extract text ef
 Learn how to query HTML in Java using Aspose.HTML to extract image URLs with a clear step-by-step guide.
 ### [How to Parse HTML in Java – Extract Text from HTML Articles](./how-to-parse-html-in-java-extract-text-from-html-articles/)
 Learn how to parse HTML in Java with Aspose.HTML to extract article text using a concise step-by-step guide.
-### [How to query xpath in Java with Aspose – Step‑by‑Step Guide](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
+### [how to query xpath in Java with Aspose – Step‑by‑Step Guide](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
 Learn how to query XML using XPath in Java with Aspose.HTML, with a clear step‑by‑step guide for efficient data extraction.
+### [Java XPath tutorial: extract image src from an HTML file](./java-xpath-tutorial-extract-image-src-from-an-html-file/)
 ### [Select div by class in Java – Complete XPath Guide](./select-div-by-class-in-java-complete-xpath-guide/)
 Learn how to select div elements by class using XPath in Java with Aspose.HTML. Step-by-step guide for precise element targeting.
 ### [How to Search HTML – Java Guide for Finding Text](./how-to-search-html-java-guide-for-finding-text/)
@@ -115,12 +118,8 @@ Learn how to extract text from HTML using Aspose.HTML for Java with this compreh
 
 
 
-
-
 ### [Iterate NodeList Java – Read HTML & Get Image src](./iterate-nodelist-java-read-html-get-image-src/)
 Learn how to iterate a NodeList in Java to read HTML and extract image src attributes using Aspose.HTML.
-
-
 
 
 

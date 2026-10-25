@@ -71,6 +71,7 @@ url: /ar/java/editing-html-documents/
 ### [كيفية إزالة السكريبتات من HTML في Java – دليل شامل](./how-to-remove-scripts-from-html-in-java-complete-guide/)
 تعلم كيفية حذف جميع عناصر `<script>` من مستندات HTML باستخدام Aspose.HTML for Java خطوة بخطوة.
 ### [إصدار القفل التلقائي في Java – دليل تحرير HTML الآمن عبر الخيوط](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
+### [كيفية التلاعب بـ DOM باستخدام Java و Aspose.HTML](./how-to-manipulate-dom-with-java-using-aspose-html/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

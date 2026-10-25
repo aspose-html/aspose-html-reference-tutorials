@@ -65,6 +65,8 @@ Naučte se načítat HTML dokumenty ze streamů pomocí Aspose.HTML for Java. Ta
 Naučte se vytvářet HTML dokumenty z řetězců v Aspose.HTML pro Java pomocí tohoto podrobného průvodce.
 ### [Vytvořte HTML dokument v Javě – načtěte JSON a generujte obsah](./create-html-document-with-java-fetch-json-and-generate-conte/)
 Naučte se v Javě načíst JSON a generovat dynamický HTML obsah pomocí Aspose.HTML.
+### [Jak vytvořit a uložit HTML v Javě pomocí Aspose.HTML](./how-to-create-and-save-html-with-java-using-aspose-html/)
+Naučte se v Javě pomocí Aspose.HTML vytvořit a uložit HTML dokument krok za krokem.
 ### [Načtěte HTML dokumenty z URL v Aspose.HTML pro Java](./load-html-documents-from-url/)
 Objevte, jak snadno načíst HTML dokumenty z URL v Javě pomocí Aspose.HTML. Včetně návodu krok za krokem.
 ### [Generujte nové HTML dokumenty pomocí Aspose.HTML pro Java](./generate-new-html-documents/)
@@ -105,11 +107,13 @@ Naučte se, jak iterovat přes NodeList v Javě pomocí Aspose.HTML v tomto podr
 ### [Extrahujte text z HTML v Javě – Kompletní průvodce krok‑za‑krokem](./extract-text-from-html-with-java-complete-step-by-step-guide/)
 Kompletní návod, jak pomocí Aspose.HTML pro Java extrahovat text z HTML dokumentů, včetně příkladů a tipů.
 ### [Jak používat XPath v Javě – číst HTML a extrahovat text](./how-to-use-xpath-in-java-read-html-and-extract-text/)
-Naučte se, jak pomocí XPath v Javě načíst HTML a extrahovat požadovaný text.
+Naučte se pomocí XPath v Javě načíst HTML a extrahovat požadovaný text.
 ### [Jak dotazovat HTML v Javě – Extrahovat URL obrázků](./how-to-query-html-in-java-extract-image-urls/)
 Naučte se, jak pomocí Aspose.HTML v Javě dotazovat HTML a získávat URL obrázků.
+### [Java XPath tutoriál: extrahujte src obrázku z HTML souboru](./java-xpath-tutorial-extract-image-src-from-an-html-file/)
+Naučte se pomocí XPath v Javě načíst HTML soubor a získat hodnotu atributu src obrázku.
 ### [Jak parsovat HTML v Javě – Extrahovat text z HTML článků](./how-to-parse-html-in-java-extract-text-from-html-articles/)
-Naučte se pomocí Aspose.HTML v Javě parsovat HTML a extrahovat čistý text z článků pro další zpracování.
+Naučte se načíst HTML, dotazovat jej a počítat elementy v Javě pomocí Aspose.HTML v tomto podrobném průvodci.
 ### [Vytvořte HTML z Markdownu v Javě – Kompletní průvodce krok za krokem](./create-html-from-markdown-in-java-full-step-by-step-guide/)
 Naučte se převádět Markdown na HTML v Javě pomocí Aspose.HTML s podrobným návodem krok za krokem.
 ### [JavaScript setTimeout async: Spusťte JavaScript v Javě a aktualizujte HTML](./javascript-settimeout-async-run-javascript-in-java-and-updat/)

@@ -75,6 +75,8 @@ url: /zh-hant/java/editing-html-documents/
 了解如何在 Java 中自動釋放鎖，以確保 HTML 編輯過程的執行緒安全，提升效能與穩定性。
 ### [如何在 Java 中提取 HTML – 提取文字並突出顯示關鍵詞](./how-to-extract-html-in-java-extract-text-highlight-words/)
 了解如何在 Java 中使用 Aspose.HTML 提取 HTML 文字並高亮顯示指定詞彙的逐步指南。
+### [使用 Aspose.HTML 在 Java 中操作 DOM](./how-to-manipulate-dom-with-java-using-aspose-html/)
+本指南說明如何使用 Aspose.HTML 在 Java 中操作 DOM，實現元素新增、修改與刪除。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

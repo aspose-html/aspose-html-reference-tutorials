@@ -90,30 +90,10 @@ Poznaj pełny przewodnik, jak ładować dokumenty HTML w Javie, wykorzystując X
 Dowiedz się, jak liczyć znaki w dokumentach HTML przy użyciu Aspose.HTML w Javie. Praktyczny przewodnik krok po kroku.
 ### [Wyodrębnianie tekstu z HTML w Javie – Kompletny przewodnik programistyczny](./extract-text-from-html-in-java-complete-programming-guide/)
 Dowiedz się, jak skutecznie wyodrębniać tekst z dokumentów HTML w Javie przy użyciu Aspose.HTML, krok po kroku.
-
-
-
-
-
-
-
 ### [Generowanie HTML z JavaScript w Javie – Kompletny przewodnik krok po kroku](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Dowiedz się, jak generować HTML z kodu JavaScript w aplikacji Java, korzystając z pełnego przewodnika krok po kroku.
-
-
-
-
-
-
-
 ### [Iteruj NodeList w Javie – Odczytaj HTML i pobierz src obrazu](./iterate-nodelist-java-read-html-get-image-src/)
 Dowiedz się, jak iterować NodeList w Javie, odczytywać HTML i wyodrębniać atrybut src obrazów.
-
-
-
-
-
-
 ### [Iterowanie po NodeList w Javie – Kompletny przewodnik](./iterate-over-nodelist-java-complete-guide/)
 Poznaj, jak iterować po NodeList w Javie przy użyciu Aspose.HTML, krok po kroku, z praktycznymi przykładami.
 ### [Wyodrębnianie tekstu z HTML w Javie – Kompletny przewodnik krok po kroku](./extract-text-from-html-with-java-complete-step-by-step-guide/)
@@ -122,6 +102,8 @@ Dowiedz się, jak wyodrębnić tekst z dokumentów HTML w Javie przy użyciu Asp
 Naucz się, jak wykorzystać XPath w Javie do odczytu dokumentów HTML i wyciągania potrzebnego tekstu.
 ### [Jak zapytać HTML w Javie – wyodrębnianie adresów URL obrazów](./how-to-query-html-in-java-extract-image-urls/)
 Naucz się wyodrębniać adresy URL obrazów z dokumentów HTML w Javie przy użyciu Aspose.HTML – prosty przewodnik krok po kroku.
+### [Samouczek XPath w Javie: wyodrębnij src obrazu z pliku HTML](./java-xpath-tutorial-extract-image-src-from-an-html-file/)
+Naucz się, jak przy użyciu XPath w Javie wyodrębnić atrybut src obrazów z pliku HTML.
 ### [Jak parsować HTML w Javie – wyodrębnić tekst z artykułów HTML](./how-to-parse-html-in-java-extract-text-from-html-articles/)
 Dowiedz się, jak wyodrębnić tekst z artykułów HTML w Javie przy użyciu Aspose.HTML – prosty przewodnik krok po kroku.
 ### [javascript settimeout async: Uruchom JavaScript w Javie i zaktualizuj HTML](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
@@ -154,7 +136,9 @@ Dowiedz się, jak szybko konwertować pliki Markdown na HTML w Javie przy użyci
 ### [Jak wyszukiwać HTML w Aspose Java – Kompletny przewodnik programistyczny](./how-to-search-html-with-aspose-java-complete-programming-gui/)
 Dowiedz się, jak efektywnie przeszukiwać dokumenty HTML w Javie przy użyciu Aspose.HTML, krok po kroku.
 ### [fetch json javascript – Kompletny przewodnik Java do tworzenia dokumentu HTML](./fetch-json-javascript-complete-java-guide-to-create-html-doc/)
-Poznaj, jak pobierać JSON w JavaScript i tworzyć dokumenty HTML w Javie przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
+
+### [Jak tworzyć i zapisywać HTML w Javie przy użyciu Aspose.HTML](./how-to-create-and-save-html-with-java-using-aspose-html/)
+Dowiedz się, jak tworzyć i zapisywać pliki HTML w Javie przy pomocy Aspose.HTML – kompletny przewodnik krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

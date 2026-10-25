@@ -97,20 +97,8 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 ### [Подсчет символов HTML в Java – Полное руководство с Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Узнайте, как подсчитать количество символов HTML в Java с помощью Aspose.HTML, следуя пошаговому полному руководству.
 
-
-
-
-
-
-
 ### [Генерация HTML из JavaScript в Java — Полное пошаговое руководство](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Узнайте, как генерировать HTML из JavaScript в Java с помощью Aspose.HTML, следуя полному пошаговому руководству.
-
-
-
-
-
-
 
 ### [Итерация по NodeList в Java – Полное руководство](./iterate-over-nodelist-java-complete-guide/)
 Узнайте, как эффективно перебрать элементы NodeList в Java с помощью Aspose.HTML, шаг за шагом.
@@ -145,6 +133,9 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 ### [Как выполнять запросы к HTML с Aspose.HTML – Полное руководство по Java](./how-to-query-html-with-aspose-html-complete-java-guide/)
 Узнайте, как выполнять запросы к HTML в Java с помощью Aspose.HTML, полное пошаговое руководство.
 ### [fetch json javascript – Полное руководство Java по созданию HTML‑документа](./fetch-json-javascript-complete-java-guide-to-create-html-doc/)
+### [Как создать и сохранить HTML с Java, используя Aspose.HTML](./how-to-create-and-save-html-with-java-using-aspose-html/)
+
+### [Java XPath tutorial: извлечение src изображения из HTML‑файла](./java-xpath-tutorial-extract-image-src-from-an-html-file/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

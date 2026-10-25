@@ -75,6 +75,8 @@ Poznaj, jak dodać element potomny do drzewa DOM w Javie przy użyciu Aspose.HTM
 ### [Jak podświetlić HTML – wyszukiwanie tekstu i zamiana na <mark>](./how-to-highlight-html-search-text-replace-with-mark/)
 ### [Automatyczne zwalnianie blokady w Javie – Samouczek edycji HTML w trybie wątkowo‑bezpiecznym](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
 Poznaj technikę automatycznego zwalniania blokady w Javie, zapewniającą bezpieczną edycję HTML w środowisku wielowątkowym.
+### [Jak manipulować DOM w Javie przy użyciu Aspose.HTML](./how-to-manipulate-dom-with-java-using-aspose-html/)
+Dowiedz się, jak manipulować drzewem DOM w aplikacjach Java przy pomocy Aspose.HTML, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

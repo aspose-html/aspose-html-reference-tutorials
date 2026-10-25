@@ -64,6 +64,8 @@ CSS ภายนอกคือจุดที่พลังที่แท้�
 เรียนรู้วิธีสร้างองค์ประกอบ HTML ใหม่ด้วย Aspose.HTML สำหรับ Java ผ่านขั้นตอนละเอียดครบถ้วน
 ### [วิธีเพิ่ม Child ใน Java DOM – คู่มือ Aspose.HTML ฉบับสมบูรณ์](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
 เรียนรู้วิธีเพิ่มโหนดลูกใน DOM ของ Java ด้วย Aspose.HTML ผ่านขั้นตอนที่ชัดเจนและตัวอย่างโค้ด
+### [วิธีจัดการ DOM ด้วย Java โดยใช้ Aspose.HTML](./how-to-manipulate-dom-with-java-using-aspose-html/)
+เรียนรู้วิธีจัดการ DOM ด้วย Java โดยใช้ Aspose.HTML ผ่านคำแนะนำทีละขั้นตอน
 ### [การปล่อยล็อคอัตโนมัติใน Java – บทช่วยสอนการแก้ไข HTML อย่างปลอดภัยต่อเธรด](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
 เรียนรู้วิธีปล่อยล็อคอัตโนมัติใน Java เพื่อแก้ไข HTML อย่างปลอดภัยต่อเธรดด้วย Aspose.HTML
 ### [วิธีดึง HTML ใน Java – ดึงข้อความและไฮไลท์คำ](./how-to-extract-html-in-java-extract-text-highlight-words/)

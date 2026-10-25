@@ -123,6 +123,7 @@ Pelajari cara mengiterasi NodeList di Java dengan panduan lengkap, termasuk cont
 Pelajari cara mengekstrak teks dari dokumen HTML menggunakan Aspose.HTML untuk Java dengan panduan langkah demi langkah yang lengkap.
 ### [Cara Menggunakan XPath di Java – Membaca HTML dan Mengekstrak Teks](./how-to-use-xpath-in-java-read-html-and-extract-text/)
 Pelajari cara menggunakan XPath di Java untuk membaca HTML dan mengekstrak teks dengan mudah.
+### [Tutorial XPath Java: mengekstrak src gambar dari file HTML](./java-xpath-tutorial-extract-image-src-from-an-html-file/)
 ### [Cara Menanyakan HTML di Java – Ekstrak URL Gambar](./how-to-query-html-in-java-extract-image-urls/)
 ### [Cara Mengurai HTML di Java – Ekstrak Teks dari Artikel HTML](./how-to-parse-html-in-java-extract-text-from-html-articles/)
 ### [javascript settimeout async: Jalankan JavaScript di Java dan Perbarui HTML](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
@@ -148,6 +149,9 @@ Pelajari cara menanyakan dan mengekstrak data HTML menggunakan Aspose.HTML dalam
 ### [Mengonversi Markdown ke HTML di Java – Panduan Cepat dengan Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
 Pelajari cara mengonversi file Markdown menjadi HTML di Java menggunakan Aspose.HTML dengan panduan singkat langkah demi langkah.
 ### [Cara Menelusuri HTML dengan Aspose Java – Panduan Pemrograman Lengkap](./how-to-search-html-with-aspose-java-complete-programming-gui/)
+
+### [Cara membuat dan menyimpan HTML dengan Java menggunakan Aspose.HTML](./how-to-create-and-save-html-with-java-using-aspose-html/)
+Pelajari cara membuat dan menyimpan dokumen HTML di Java dengan Aspose.HTML melalui panduan langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

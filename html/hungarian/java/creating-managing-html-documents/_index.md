@@ -77,7 +77,8 @@ Ismerje meg, hogyan nyerheti ki a képek URL-jeit HTML-ből Java használatával
 Ismerje meg, hogyan nyerhet ki szöveget HTML cikkekből Java használatával, lépésről lépésre útmutató.
 ### [XPath lekérdezése Java-ban az Aspose segítségével – Lépésről‑lépésre útmutató](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
 Ismerje meg, hogyan használhatja az Aspose könyvtárat xpath lekérdezéshez Java-ban, részletes, lépésről‑lépésre útmutatóval.
-
+### [Java XPath útmutató: képek src attribútumának kinyerése HTML-fájlból](./java-xpath-tutorial-extract-image-src-from-an-html-file/)
+Ismerje meg, hogyan nyerhet ki képek src attribútumát egy HTML-fájlból Java XPath használatával.
 ### [HTML keresése – Java útmutató a szöveg megtalálásához](./how-to-search-html-java-guide-for-finding-text/)
 Ismerje meg, hogyan kereshet szöveget HTML-dokumentumokban Java és Aspose.HTML segítségével, lépésről‑lépésre útmutató.
 ### [HTML lekérdezése Aspose.HTML használatával – Teljes Java útmutató](./how-to-query-html-with-aspose-html-complete-java-guide/)
@@ -90,6 +91,8 @@ Ismerje meg, hogyan lehet JSON-t lekérni JavaScript‑ben, és teljes körűen 
 Ebből az egyszerű, lépésenkénti útmutatóból megtudhatja, hogyan hozhat létre új HTML-dokumentumokat az Aspose.HTML for Java használatával. Kezdje el a dinamikus HTML-tartalom generálását.
 ### [HTML-dokumentum létrehozása Java-ban – Lépésről‑lépésre útmutató az Aspose.HTML használatával](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
 Tanulja meg, hogyan hozhat létre HTML-dokumentumot Java-ban az Aspose.HTML segítségével egy részletes, lépésről‑lépésre útmutatóban.
+### [HTML létrehozása és mentése Java-val az Aspose.HTML használatával](./how-to-create-and-save-html-with-java-using-aspose-html/)
+Ismerje meg, hogyan hozhat létre és menthet HTML-dokumentumot Java-ban az Aspose.HTML segítségével.
 ### [Kezelje a dokumentumbetöltési eseményeket az Aspose.HTML for Java-ban](./handle-document-load-events/)
 Ezzel a lépésről lépésre útmutatóval ismerkedjen meg a dokumentumbetöltési események kezelésével az Aspose.HTML for Java programban. Bővítse webalkalmazásait.
 ### [Hozzon létre és kezeljen SVG-dokumentumokat az Aspose.HTML for Java-ban](./create-manage-svg-documents/)
@@ -100,22 +103,8 @@ Ismerje meg, hogyan számolhatja meg a HTML karaktereket Java-ban az Aspose.HTML
 Ismerje meg, hogyan hozhat létre biztonságos sandbox környezetet HTML feldolgozáshoz Java-ban, részletes lépésekkel.
 ### [HTML-dokumentum létrehozása Java-val – JSON lekérése és tartalom generálása](./create-html-document-with-java-fetch-json-and-generate-conte/)
 Ismerje meg, hogyan hozhat létre HTML-dokumentumot Java-ban JSON adatok lekérésével és dinamikus tartalom generálásával.
-
-
-
-
-
-
-
 ### [HTML generálása JavaScriptből Java-ban – Teljes lépésről‑lépésre útmutató](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Ismerje meg, hogyan generálhat HTML-t JavaScript kódból Java alkalmazásban, részletes, lépésről‑lépésre útmutatóval.
-
-
-
-
-
-
-
 ### [NodeList bejárása Java – HTML olvasása és képek src lekérése](./iterate-nodelist-java-read-html-get-image-src/)
 Tanulja meg, hogyan járhatja be a NodeList-et Java-ban, olvashat HTML-t és szerezheti meg a képek src attribútumát lépésről lépésre.
 ### [HTML-ből szöveg kinyerése Java-val – Teljes lépésről‑lépésre útmutató](./extract-text-from-html-with-java-complete-step-by-step-guide/)
@@ -133,11 +122,11 @@ Fedezze fel, hogyan tölthet be HTML-t Java alkalmazásba részletes, lépésrő
 ### [JavaScript végrehajtása Java-ban – JS futtatása HTML-en és elemek hozzáadása](./execute-javascript-java-run-js-on-html-append-elements/)
 Ismerje meg, hogyan futtathat JavaScript‑et Java‑alkalmazásban, módosíthatja a HTML‑t és új elemeket adhat hozzá dinamikusan.
 ### [HTML elem létrehozása Java ExecutorService‑vel – Szálbiztos bemutató](./create-html-element-with-java-executorservice-thread-safe-de/)
-Ismerje meg, hogyan hozhat létre szálbiztos HTML elemeket Java ExecutorService használatával, lépésről lépésre bemutató.
+Ismerje meg, hogyan hozhat létre szálbiztos HTML elemeket Java ExecutorService használatával, lépésről‑lépésre bemutató.
 ### [Futtasson több szálat Java-ban – használja a try‑with‑resources-t](./run-multiple-threads-java-use-try-with-resources-java/)
 Ismerje meg, hogyan kezelhet több szálat Java-ban a try‑with‑resources szerkezettel a biztonságos erőforrás-kezelés érdekében.
 ### [HTML renderelése Java-ban – Teljes útmutató az oldal betöltésének várásához és a Query Selector használatához](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
-Tanulja meg, hogyan renderelhet HTML-t Java-ban, várhat az oldal betöltésére, és használhatja a Query Selector-t a tartalom lekérdezéséhez.
+Tanulja meg, hogyan renderelhet HTML-t Java-ban, várhat az oldal betöltésére, és használhatja a Query Selector‑t a tartalom lekérdezéséhez.
 ### [Markdown konvertálása HTML-re Java-ban – Lépésről‑lépésre útmutató](./convert-markdown-to-html-in-java-step-by-step-guide/)
 Ismerje meg, hogyan alakíthatja át a Markdown tartalmat HTML-re Java nyelven, részletes, lépésről‑lépésre útmutatóval.
 ### [Div elem kiválasztása osztály alapján Java-ban – Teljes XPath útmutató](./select-div-by-class-in-java-complete-xpath-guide/)

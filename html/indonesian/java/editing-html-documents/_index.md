@@ -73,6 +73,8 @@ Pelajari cara mengekstrak teks dari dokumen HTML dan menyorot kata kunci menggun
 ### [Buat elemen HTML baru dengan Java – Panduan Lengkap Aspose.HTML](./create-new-html-element-with-java-full-aspose-html-guide/)
 ### [Cara Menambahkan Child di Java DOM – Panduan Lengkap Aspose.HTML](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
 Pelajari cara menambahkan elemen child ke DOM Java menggunakan Aspose.HTML dengan panduan langkah demi langkah.
+### [Cara memanipulasi DOM dengan Java menggunakan Aspose.HTML](./how-to-manipulate-dom-with-java-using-aspose-html/)
+Pelajari cara memanipulasi DOM menggunakan Aspose.HTML untuk Java dengan panduan langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -27,6 +27,9 @@ url: /zh-hant/java/css-html-form-editing/
 
 ## 使用 Aspose.HTML for Java 教學進行 CSS 和 HTML 表單編輯
 
+### [How to read CSS and extract background color from an HTML file in Java](./how-to-read-css-and-extract-background-color-from-an-html-fi/)
+
+
 ### [使用 Aspose.HTML for Java 的高階 CSS 擴充技術](./advanced-css-extension/)
 了解如何使用 Aspose.HTML for Java 來應用進階 CSS 技術，包括自訂頁邊距和動態內容。為開發人員提供的詳細實務教學。
 ### [使用 Aspose.HTML for Java 編輯並提交 HTML 表單](./html-form-editing/)

@@ -109,7 +109,9 @@ Poznaj, jak ustawić DPI przy konwersji HTML do PNG w Javie przy użyciu Aspose.
 ### [How to Set DPI When Converting HTML to PNG – Java Guide](./how-to-set-dpi-when-converting-html-to-png-java-guide/)
 ### [Zapisz stronę HTML jako PNG w Javie – Kompletny samouczek](./save-html-page-as-png-in-java-complete-tutorial/)
 Dowiedz się, jak zapisać stronę HTML jako plik PNG w Javie przy użyciu Aspose.HTML – pełny przewodnik krok po kroku.
+
 ### [Konwertowanie HTML do PNG – Pełny przewodnik z kolorem tła i rozdzielczością](./convert-html-to-png-full-guide-with-background-color-resolut/)
+
 ### [Konwertowanie SVG do PNG w wysokiej rozdzielczości – przewodnik Java](./convert-svg-to-png-with-high-resolution-java-guide/)
 ### [Konwertuj HTML do PNG – przewodnik Java po renderowaniu tabel HTML jako obrazów](./convert-html-to-png-java-guide-to-rendering-html-tables-as-i/)
 ### [Konwertowanie SVG do PNG w Javie – Przewodnik wysokiej rozdzielczości](./convert-svg-to-png-in-java-high-resolution-guide/)
@@ -173,37 +175,9 @@ Pełny przewodnik, jak ustawić współczynnik pikseli urządzenia w Javie przy 
 Dowiedz się, jak utworzyć wielostronicowy plik TIFF z SVG w Javie przy użyciu Aspose.HTML. Kompletny przewodnik krok po kroku.
 
 
-### [Konwertowanie HTML do WebP w Javie – Kompletny przewodnik](./convert-html-to-webp-in-java-complete-guide/)
-Dowiedz się, jak konwertować HTML do formatu WebP w Javie przy użyciu Aspose.HTML. Kompletny przewodnik krok po kroku.
-
-### [Konwertowanie SVG do PNG w Javie – Przewodnik konwersji wsadowej](./convert-svg-to-png-in-java-batch-conversion-guide/)
-
-### [Jak uruchomić JavaScript i renderować HTML do PNG przy użyciu Aspose](./how-to-run-javascript-and-render-html-to-png-with-aspose/)
-
 ### [Konwertowanie HTML do WebP – Kompletny przewodnik Java Aspose.HTML](./convert-html-to-webp-complete-java-aspose-html-guide/)
 
-## Najczęściej zadawane pytania
-
-**Q: Czy mogę konwertować HTML do PNG w Javie bez dodatkowych bibliotek graficznych?**  
-A: Tak, Aspose.HTML for Java obsługuje renderowanie PNG wewnętrznie; nie są wymagane dodatkowe biblioteki.
-
-**Q: Czy można generować animowane GIFy z HTML?**  
-A: Aspose.HTML może tworzyć statyczne obrazy GIF. Aby uzyskać animowane GIFy, należy wyrenderować wiele klatek i połączyć je przy użyciu osobnego enkodera GIF.
-
-**Q: Czy biblioteka obsługuje funkcje CSS3, takie jak gradienty i flexbox?**  
-A: Absolutnie. Aspose.HTML w pełni obsługuje nowoczesne specyfikacje CSS3, zapewniając dokładny wynik wizualny.
-
-**Q: Jak radzić sobie z dużymi dokumentami HTML, które przekraczają limity pamięci?**  
-A: Renderuj dokument w sekcjach lub użyj API strumieniowego udostępnianego przez Aspose.HTML do przetwarzania stron partiami.
-
-**Q: Jakie opcje licencjonowania są dostępne dla projektów komercyjnych?**  
-A: Aspose oferuje zarówno licencje wieczyste, jak i subskrypcyjne; skontaktuj się z działem sprzedaży, aby uzyskać plan dopasowany do Twojego modelu wdrożenia.
-
----
-
-**Ostatnia aktualizacja:** 2025-12-19  
-**Testowane z:** Aspose.HTML for Java 24.12  
-**Autor:** Aspose  
+### [Jak konwertować SVG do PNG w Javie przy użyciu Aspose](./how-to-convert-svg-to-png-in-java-using-aspose/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

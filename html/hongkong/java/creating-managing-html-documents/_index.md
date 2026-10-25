@@ -52,6 +52,8 @@ Aspose.HTML for Java 為旨在在 Java 應用程式中無縫處理 HTML 文件�
 透過我們詳細的分步教程，了解如何使用 Aspose.HTML 在 Java 中建立空 HTML 文檔，非常適合各個層級的開發人員。
 ### [在 Java 中使用 Aspose.HTML 建立 HTML 文檔 – 逐步指南](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
 本指南說明如何在 Java 中使用 Aspose.HTML 建立 HTML 文檔，提供逐步說明與範例。
+### [在 Java 中使用 Aspose.HTML 建立與儲存 HTML](./how-to-create-and-save-html-with-java-using-aspose-html/)
+說明如何使用 Aspose.HTML 在 Java 中建立並儲存 HTML 文件的完整步驟與範例。
 ### [從 Aspose.HTML for Java 中的文件載入 HTML 文檔](./load-html-documents-from-file/)
 使用 Aspose.HTML for Java 釋放 HTML 操作的強大功能。透過逐步教學學習從文件載入 HTML 文件。
 ### [Aspose.HTML for Java 中 HTML 文件的高級文件加載](./advanced-file-loading-html-documents/)
@@ -91,9 +93,6 @@ Aspose.HTML for Java 為旨在在 Java 應用程式中無縫處理 HTML 文件�
 
 
 
-
-
-
 ### [在 Java 中從 JavaScript 產生 HTML – 完整逐步指南](./generate-html-from-javascript-in-java-complete-step-by-step/)
 使用 Aspose.HTML for Java，從 JavaScript 生成 HTML，提供完整的逐步說明與範例，幫助您快速上手。
 ### [如何在 Java 中解析 HTML – 載入、查詢與計數元素](./how-to-parse-html-java-load-query-count-elements/)
@@ -104,17 +103,11 @@ Aspose.HTML for Java 為旨在在 Java 應用程式中無縫處理 HTML 文件�
 
 
 
-
-
-
 ### [遍歷 NodeList（Java）– 讀取 HTML 並取得圖像 src](./iterate-nodelist-java-read-html-get-image-src/)
 學習如何在 Java 中遍歷 NodeList，讀取 HTML 並提取圖像的 src 屬性，適用於網頁解析與資料抓取。
 
-
-
-
-
-
+### [Java XPath 教學：從 HTML 檔案提取圖像 src](./java-xpath-tutorial-extract-image-src-from-an-html-file/)
+說明如何使用 XPath 在 Java 中從 HTML 文件中提取圖像的 src 屬性。
 
 ### [在 Java 中遍歷 NodeList – 完整指南](./iterate-over-nodelist-java-complete-guide/)
 透過此完整指南，了解如何在 Aspose.HTML for Java 中遍歷 NodeList，掌握節點操作技巧。

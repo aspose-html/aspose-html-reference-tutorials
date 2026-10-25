@@ -76,6 +76,7 @@ Aspose.HTML for Java を使用して HTML からテキストを抽出し、特�
 ### [Java で body に子要素を追加 – 完全 Aspose.HTML チュートリアル](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 Aspose.HTML for Java を使用して、HTML ドキュメントの body に子要素を追加する方法をステップバイステップで学びます。
 ### [Java の自動ロック解除 – スレッドセーフ HTML 編集チュートリアル](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
+### [Java で Aspose.HTML を使用して DOM を操作する方法](./how-to-manipulate-dom-with-java-using-aspose-html/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

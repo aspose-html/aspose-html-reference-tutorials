@@ -99,6 +99,8 @@ url: /ar/java/css-html-form-editing/
 تعرف على كيفية استخراج CSS من HTML باستخدام Aspose.HTML لـ Java في هذا الدليل الشامل خطوة بخطوة.
 ### [كيفية قراءة CSS في Java – دليل Aspose.HTML الكامل](./how-to-read-css-in-java-complete-aspose-html-guide/)
 
+### [كيفية قراءة CSS واستخراج لون الخلفية من ملف HTML في Java](./how-to-read-css-and-extract-background-color-from-an-html-fi/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -66,7 +66,7 @@ Leer hoe u de h1-tekst in een MHTML-bestand kunt aanpassen met Aspose.HTML voor 
 ### [Hoe een kind toevoegen in Java DOM – Complete Aspose.HTML-gids](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
 Leer hoe u een child-element toevoegt aan de DOM in Java met Aspose.HTML in deze volledige stap‑voor‑stap gids.
 ### [Hoe scripts uit HTML verwijderen in Java – Complete gids](./how-to-remove-scripts-from-html-in-java-complete-guide/)
-Leer stap voor stap hoe u Java gebruikt om scripts veilig uit HTML-bestanden te verwijderen en de inhoud te saniteren.
+Leer stap voor stap hoe u Java gebruikt om scripts veilig uit HTML-bestanden te verwijderen en de inhoud te santeren.
 ### [Hoe HTML markeren – Tekst zoeken en vervangen door <mark>](./how-to-highlight-html-search-text-replace-with-mark/)
 Leer hoe u specifieke tekst in een HTML-document kunt zoeken en markeren met de <mark>-tag via Aspose.HTML voor Java.
 ### [HTML extraheren in Java – Tekst extraheren en woorden markeren](./how-to-extract-html-in-java-extract-text-highlight-words/)
@@ -75,7 +75,9 @@ Leer hoe u HTML kunt extraheren, tekst kunt ophalen en specifieke woorden kunt m
 ### [Kind toevoegen aan body in Java – volledige Aspose.HTML-tutorial](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 Leer hoe u een kind-element aan de body van een HTML-document toevoegt met Aspose.HTML voor Java.
 ### [Automatische lockrelease in Java – Thread‑veilige HTML-bewerkingshandleiding](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
-Leer hoe u automatisch lockrelease implementeert in Java voor thread‑veilige HTML-bewerking met Aspose.HTML.
+
+### [Hoe DOM te manipuleren met Java met Aspose.HTML](./how-to-manipulate-dom-with-java-using-aspose-html/)
+Leer hoe u de DOM van een HTML-document kunt manipuleren met Java en Aspose.HTML in een stapsgewijze handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

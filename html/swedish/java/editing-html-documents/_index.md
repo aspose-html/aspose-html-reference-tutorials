@@ -61,7 +61,7 @@ Lär dig att implementera intern CSS i HTML-dokument med Aspose.HTML för Java m
 ### [Ändra h1‑text i MHTML med Java – Fullständig steg‑för‑steg‑guide](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
 Lär dig hur du ändrar h1‑text i MHTML-filer med Java i en komplett steg‑för‑steg‑guide.
 ### [Skapa nytt HTML-element med Java – Fullständig Aspose.HTML-guide](./create-new-html-element-with-java-full-aspose-html-guide/)
-Lär dig hur du skapar ett nytt HTML-element i Java med Aspose.HTML i en komplett steg-för-steg-guide.
+Lär dig hur du skapar ett nytt HTML-element i Java med Aspose.HTML i en komplett steg‑för‑steg‑guide.
 ### [Hur man lägger till ett barn i Java DOM – Komplett Aspose.HTML-guide](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
 Lär dig hur du lägger till ett barn-element i ett Java DOM‑träd med Aspose.HTML i en komplett steg‑för‑steg‑guide.
 ### [Fast trådpool i Java – parallell HTML‑rengöring med ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
@@ -72,6 +72,8 @@ Lär dig hur du markerar HTML genom att söka efter text och ersätta den med <m
 ### [Automatiskt låslåsning i Java – Trådsäker HTML-redigeringshandledning](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
 Lär dig hur du automatiskt släpper lås i Java för trådsäker redigering av HTML-dokument med Aspose.HTML.
 ### [Hur man extraherar HTML i Java – Extrahera text och markera ord](./how-to-extract-html-in-java-extract-text-highlight-words/)
+### [Hur man manipulerar DOM med Java med Aspose.HTML](./how-to-manipulate-dom-with-java-using-aspose-html/)
+Lär dig hur du manipulerar DOM i Java med Aspose.HTML i en steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

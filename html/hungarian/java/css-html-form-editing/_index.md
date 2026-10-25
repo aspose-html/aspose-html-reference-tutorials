@@ -69,45 +69,46 @@ Ismerje meg, hogyan nyerhet ki CSS‑stílusokat HTML‑dokumentumból Java‑va
 ### [Hogyan kérdezzen le HTML-t Java-ban – Elemek kiválasztása, szűrés attribútum szerint, és szövegtartalom lekérése](./how-to-query-html-in-java-select-elements-filter-by-attribut/)
 Fedezze fel, hogyan kérdezhet le HTML-t Java-ban, elemeket választhat ki, attribútumok alapján szűrhet, és kinyerheti a szövegtartalmat az Aspose.HTML használatával.
 ### [Hogyan szerezzen CSS-t Java-ban – Számított stílus lekérése az Aspose.HTML segítségével](./how-to-get-css-in-java-retrieve-computed-style-with-aspose-h/)
-Ismerje meg, hogyan kérheti le a számított CSS-stílusokat Java-ban az Aspose.HTML segítségével.
+Ismerje meg, hogyan kérheti le a számított CSS‑stílusokat Java‑ban az Aspose.HTML segítségével.
 ### [Hogyan szerezzen CSS-t Java-ban – Teljes útmutató a stílusok kinyeréséhez az Aspose.HTML segítségével](./how-to-get-css-in-java-complete-guide-to-extract-styles-with/)
-Ismerje meg, hogyan nyerheti ki a CSS-stílusokat Java alkalmazásából az Aspose.HTML használatával, lépésről lépésre útmutató.
+Ismerje meg, hogyan nyerheti ki a CSS‑stílusokat Java alkalmazásából az Aspose.HTML használatával, lépésről lépésre útmutató.
 ### [Hogyan szerezzen CSS-t Java-ban – querySelector és Computed Style használatával](./how-to-get-css-in-java-using-queryselector-and-computed-styl/)
-Ismerje meg, hogyan használhatja a querySelector-t és a Computed Style-t a CSS lekéréséhez Java-ban az Aspose.HTML segítségével.
+Ismerje meg, hogyan használhatja a querySelector‑t és a Computed Style‑t a CSS lekéréséhez Java‑ban az Aspose.HTML segítségével.
 ### [Elem lekérése ID alapján Java – Teljes útmutató a számított stílusokhoz](./get-element-by-id-java-complete-guide-to-computed-styles/)
-Ismerje meg, hogyan szerezheti meg egy elem számított stílusait ID alapján Java-ban az Aspose.HTML segítségével.
+Ismerje meg, hogyan szerezheti meg egy elem számított stílusait ID alapján Java‑ban az Aspose.HTML segítségével.
 ### [Stílus lekérése Java-ban – Elem keresése és háttér olvasása](./how-to-get-style-in-java-find-element-read-background/)
-Ismerje meg, hogyan találhat meg egy elemet Java-ban és olvashatja ki annak háttérstílusát az Aspose.HTML segítségével.
-### [Hogyan kapjuk meg a számított stílust Java-ban – Teljes Aspose.HTML példa](./how-to-get-computed-style-in-java-full-aspose-html-example/)
+Ismerje meg, hogyan találhat meg egy elemet Java‑ban és olvashatja ki annak háttérstílusát az Aspose.HTML segítségével.
+### [Hogyan kapjuk meg a számított stílust Java‑ban – Teljes Aspose.HTML példa](./how-to-get-computed-style-in-java-full-aspose-html-example/)
 Ismerje meg, hogyan szerezhet meg számított CSS‑stílusokat Java‑ban az Aspose.HTML teljes példáján keresztül.
-### [Hogyan szerezze meg a számított stílust Java-ban – Teljes Aspose.HTML útmutató](./how-to-get-computed-style-in-java-complete-aspose-html-guide/)
-Tanulja meg, hogyan kérdezheti le egy elem számított stílusát Java-ban az Aspose.HTML segítségével, részletes, gyakorlati útmutató.
-### [Hogyan olvassuk a CSS-t Java-ban – Számított stílusok kinyerése lépésről lépésre](./how-to-read-css-in-java-extract-computed-styles-step-by-step/)
+### [Hogyan szerezze meg a számított stílust Java‑ban – Teljes Aspose.HTML útmutató](./how-to-get-computed-style-in-java-complete-aspose-html-guide/)
+Tanulja meg, hogyan kérdezheti le egy elem számított stílusát Java‑ban az Aspose.HTML segítségével, részletes, gyakorlati útmutató.
+### [Hogyan olvassuk a CSS‑t Java‑ban – Számított stílusok kinyerése lépésről lépésre](./how-to-read-css-in-java-extract-computed-styles-step-by-step/)
 Tanulja meg, hogyan olvashatja és nyerheti ki a számított CSS‑stílusokat Java‑ban lépésről‑lépésre az Aspose.HTML segítségével.
-### [Elem lekérése azonosítóval Java-ban – Teljes útmutató a számított stílusok lekéréséhez](./get-element-by-id-in-java-full-guide-to-retrieve-computed-st/)
-Ismerje meg, hogyan szerezheti meg egy elem számított stílusait Java-ban az Aspose.HTML segítségével.
-### [query selector div osztály – Hogyan válasszunk ki egy div-et osztály alapján, és kapjuk meg a kiszámított stílust Java-ban](./query-selector-div-class-how-to-select-a-div-by-class-and-ge/)
-Ismerje meg, hogyan használhatja a query selector-t egy div osztályának kiválasztásához, és hogyan olvashatja ki a kiszámított stílusát Java-ban.
-### [Hogyan kapjuk meg a CSS tulajdonságot Java-ban – Elem háttérszínének olvasása](./how-to-get-css-property-in-java-read-element-background-colo/)
-Ismerje meg, hogyan olvashatja ki egy HTML elem háttérszínét Java-ban az Aspose.HTML segítségével.
-### [Stílus lekérése Java-ban – Számított CSS lekérdezése az Aspose.HTML segítségével](./how-to-get-style-in-java-retrieve-computed-css-with-aspose-h/)
+### [Elem lekérése azonosítóval Java‑ban – Teljes útmutató a számított stílusok lekéréséhez](./get-element-by-id-in-java-full-guide-to-retrieve-computed-st/)
+Ismerje meg, hogyan szerezheti meg egy elem számított stílusait Java‑ban az Aspose.HTML segítségével.
+### [query selector div osztály – Hogyan válasszunk ki egy div-et osztály alapján, és kapjuk meg a kiszámított stílust Java‑ban](./query-selector-div-class-how-to-select-a-div-by-class-and-ge/)
+Ismerje meg, hogyan használhatja a query selector‑t egy div osztályának kiválasztásához, és hogyan olvashatja ki a kiszámított stílusát Java‑ban.
+### [Hogyan kapjuk meg a CSS tulajdonságot Java‑ban – Elem háttérszínének olvasása](./how-to-get-css-property-in-java-read-element-background-colo/)
+Ismerje meg, hogyan olvashatja ki egy HTML elem háttérszínét Java‑ban az Aspose.HTML segítségével.
+### [Stílus lekérése Java‑ban – Számított CSS lekérdezése az Aspose.HTML segítségével](./how-to-get-style-in-java-retrieve-computed-css-with-aspose-h/)
 Ismerje meg, hogyan szerezhet be számított CSS‑stílusokat Java‑ban az Aspose.HTML könyvtár segítségével, a dinamikus megjelenítéshez.
-### [Hogyan kapjunk stílust az Aspose HTML Java-ban – Query Selector használata](./how-to-get-style-in-aspose-html-java-use-query-selector/)
-Ismerje meg, hogyan használhatja a query selector-t a stílusok lekérésére az Aspose.HTML for Java-ban.
-### [Hogyan olvassuk a CSS-t Java-ban – Számított stílus lekérése](./how-to-read-css-in-java-get-computed-style/)
-Ismerje meg, hogyan kérheti le egy elem számított CSS-stílusát Java-ban az Aspose.HTML segítségével.
-### [Stílus lekérése Java-ban az Aspose.HTML segítségével – Lépésről‑lépésre útmutató](./how-to-get-style-in-java-with-aspose-html-step-by-step-guide/)
+### [Hogyan kapjunk stílust az Aspose HTML Java‑ban – Query Selector használata](./how-to-get-style-in-aspose-html-java-use-query-selector/)
+Ismerje meg, hogyan használhatja a query selector‑t a stílusok lekérésére az Aspose.HTML for Java‑ban.
+### [Hogyan olvassuk a CSS‑t Java‑ban – Számított stílus lekérése](./how-to-read-css-in-java-get-computed-style/)
+Ismerje meg, hogyan kérheti le egy elem számított CSS‑stílusát Java‑ban az Aspose.HTML segítségével.
+### [Stílus lekérése Java‑ban az Aspose.HTML segítségével – Lépésről‑lépésre útmutató](./how-to-get-style-in-java-with-aspose-html-step-by-step-guide/)
 Ismerje meg, hogyan szerezheti meg a CSS‑stílusokat Java‑ban az Aspose.HTML használatával ebben a részletes lépésről‑lépésre útmutatóban.
-### [Számított stílus lekérése Java-ban – Teljes útmutató](./get-computed-style-in-java-complete-guide/)
-Ismerje meg, hogyan szerezheti meg egy elem számított CSS-stílusát Java-ban az Aspose.HTML segítségével.
-### [Hogyan olvassuk a CSS-t Java-ban – Mobil képernyő szimulálása és média lekérdezések tesztelése](./how-to-read-css-in-java-simulate-mobile-screen-test-media-qu/)
-Ismerje meg, hogyan olvashatja a CSS-t Java-ban, szimulálhat mobil képernyőt és tesztelheti a média lekérdezéseket.
-### [HTML betöltése Java-ban – Teljes útmutató CSS színkivonattal](./how-to-load-html-in-java-full-guide-with-css-color-extractio/)
-Ismerje meg, hogyan tölthet be HTML-t Java-ban, és hogyan nyerhet ki színeket a CSS-ből lépésről lépésre.
-### [CSS kinyerése HTML-ből Java-ban – Teljes programozási útmutató](./extract-css-from-html-in-java-complete-programming-guide/)
-Ismerje meg, hogyan nyerhet ki CSS-t HTML-fájlokból Java segítségével részletes, lépésről-lépésre útmutatóval.
-### [CSS olvasása Java-ban – Teljes Aspose.HTML útmutató](./how-to-read-css-in-java-complete-aspose-html-guide/)
-Ismerje meg, hogyan olvashatja és elemezheti a CSS-t Java-ban az Aspose.HTML segítségével, részletes lépésről-lépésre útmutatóval.
+### [Számított stílus lekérése Java‑ban – Teljes útmutató](./get-computed-style-in-java-complete-guide/)
+Ismerje meg, hogyan szerezheti meg egy elem számított CSS‑stílusát Java‑ban az Aspose.HTML segítségével.
+### [Hogyan olvassuk a CSS‑t Java‑ban – Mobil képernyő szimulálása és média lekérdezések tesztelése](./how-to-read-css-in-java-simulate-mobile-screen-test-media-qu/)
+Ismerje meg, hogyan olvashatja a CSS‑t Java‑ban, szimulálhat mobil képernyőt és tesztelheti a média lekérdezéseket.
+### [HTML betöltése Java‑ban – Teljes útmutató CSS színkivonattal](./how-to-load-html-in-java-full-guide-with-css-color-extractio/)
+Ismerje meg, hogyan tölthet be HTML‑t Java‑ban, és hogyan nyerhet ki színeket a CSS‑ből lépésről‑lépésre.
+### [CSS kinyerése HTML‑ből Java‑ban – Teljes programozási útmutató](./extract-css-from-html-in-java-complete-programming-guide/)
+Ismerje meg, hogyan nyerhet ki CSS‑t HTML‑fájlokból Java‑val részletes, lépésről‑lépésre útmutatóval.
+### [CSS olvasása Java‑ban – Teljes Aspose.HTML útmutató](./how-to-read-css-in-java-complete-aspose-html-guide/)
+Ismerje meg, hogyan olvashatja és elemezheti a CSS‑t Java‑ban az Aspose.HTML segítségével, részletes lépésről‑lépésre útmutatóval.
+### [CSS olvasása és háttérszín kinyerése HTML‑fájlból Java‑ban](./how-to-read-css-and-extract-background-color-from-an-html-fi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
