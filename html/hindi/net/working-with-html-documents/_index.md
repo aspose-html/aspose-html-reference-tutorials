@@ -53,6 +53,9 @@ HTML दस्तावेज़ वेब की रीढ़ हैं, और
 
 ### [HTML के लिए ज़िप आर्काइव बनाना – पूर्ण C# गाइड](./create-zip-archive-for-html-complete-c-guide/)
 
+### [C# में HTML को सहेजना – कस्टम रिसोर्स हैंडलर के साथ](./how-to-save-html-in-c-with-custom-resource-handler/)
+### [C# में ResourceHandler का उपयोग करके HTML को स्ट्रीम में सहेजना](./how-to-use-resourcehandler-and-save-html-to-a-stream-in-c/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

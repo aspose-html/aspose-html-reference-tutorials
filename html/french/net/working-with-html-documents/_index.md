@@ -38,6 +38,8 @@ Apprenez à enregistrer du HTML en C# en utilisant un gestionnaire de ressources
 ### [Comment enregistrer du HTML en C# avec un gestionnaire de ressources personnalisé](./how-to-save-html-in-c-with-custom-resource-handler/)
 
 Apprenez à enregistrer du HTML en C# en utilisant un gestionnaire de ressources personnalisé pour contrôler le flux de sortie.
+### [Comment utiliser ResourceHandler et enregistrer du HTML dans un flux en C#](./how-to-use-resourcehandler-and-save-html-to-a-stream-in-c/)
+
 ### [Comment enregistrer du HTML en ZIP en C# – Guide complet avec un gestionnaire de ressources personnalisé](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
 ### [Créer un document HTML en C# – Guide complet avec un gestionnaire de ressources personnalisé](./create-html-document-c-complete-guide-with-custom-resource-h/)
 
