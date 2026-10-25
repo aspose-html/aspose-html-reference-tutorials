@@ -135,7 +135,6 @@ Apprenez à générer un fichier TIFF multipage à partir de SVG en Java avec As
 Apprenez à convertir HTML en WebP en Java avec Aspose.HTML. Guide complet étape par étape pour une conversion efficace et optimisée.
 ### [Conversion de SVG en WebP](./how-to-use-aspose-to-convert-svg-to-webp-java-guide/)
 Apprenez à convertir des fichiers SVG en images WebP en Java avec Aspose.HTML. Guide complet étape par étape pour une conversion efficace.
-
 ### [Comment générer une miniature à partir de HTML – Guide Java](./how-to-generate-thumbnail-from-html-java-guide/)
 Apprenez à créer des miniatures d'HTML en Java avec Aspose.HTML, étape par étape, pour des aperçus rapides et légers.
 
@@ -172,12 +171,14 @@ Apprenez à utiliser Sandbox pour capturer des captures d'écran de pages Web av
 Apprenez à créer un GIF à partir d'un fichier SVG en Java avec Aspose.HTML. Guide complet étape par étape.
 ### [Convertir SVG en PNG avec haute résolution – Guide Java](./convert-svg-to-png-with-high-resolution-java-guide/)
 Apprenez à convertir des fichiers SVG en PNG haute résolution en Java avec Aspose.HTML. Guide complet étape par étape.
-### [Convertir HTML en WebP en Java – Guide complet](./convert-html-to-webp-in-java-complete-guide/)
+### [Convertir HTML en WebP – Guide complet Java](./convert-html-to-webp-complete-java-guide/)
 Apprenez à convertir HTML en WebP en Java avec Aspose.HTML. Guide complet étape par étape pour une conversion efficace.
 ### [Convertir SVG en PNG en Java – Guide haute résolution](./convert-svg-to-png-in-java-high-resolution-guide/)
 Apprenez à convertir des fichiers SVG en images PNG haute résolution avec Aspose.HTML for Java, étape par étape.
 ### [Comment définir le DPI lors de la conversion SVG en PNG – Guide Java](./how-to-set-dpi-when-converting-svg-to-png-java-guide/)
 Apprenez à spécifier le DPI lors de la conversion de fichiers SVG en PNG avec Aspose.HTML for Java, étape par étape.
+### [Comment convertir SVG en PNG en Java avec Aspose](./how-to-convert-svg-to-png-in-java-using-aspose/)
+Apprenez à convertir des fichiers SVG en images PNG en Java à l'aide d'Aspose.HTML.
 ### [Rendu HTML en PNG en Java – Ajouter un token Bearer et des en‑têtes personnalisés](./render-html-to-png-in-java-add-bearer-token-custom-headers/)
 Apprenez à rendre du HTML en PNG en Java tout en incluant un token Bearer et des en‑têtes HTTP personnalisés avec Aspose.HTML.
 ### [Conversion d'HTML en WebP – Guide complet Java Aspose.HTML](./convert-html-to-webp-complete-java-aspose-html-guide/)

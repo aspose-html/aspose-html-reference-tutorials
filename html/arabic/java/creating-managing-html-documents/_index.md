@@ -97,47 +97,21 @@ url: /ar/java/creating-managing-html-documents/
 ### [استخراج النص من HTML في Java – دليل برمجة كامل](./extract-text-from-html-in-java-complete-programming-guide/)
 تعلم كيفية استخراج النص من مستندات HTML باستخدام Aspose.HTML لـ Java من خلال دليل شامل خطوة بخطوة.
 
-
-
-
-
-
-
 ### [إنشاء HTML من JavaScript في Java – دليل شامل خطوة بخطوة](./generate-html-from-javascript-in-java-complete-step-by-step/)
 تعلم كيفية توليد مستندات HTML من كود JavaScript داخل تطبيق Java باستخدام دليل خطوة بخطوة شامل.
 
-
-
-
-
-
-
 ### [تكرار NodeList في Java – قراءة HTML واستخراج مسار الصورة](./iterate-nodelist-java-read-html-get-image-src/)
 تعلم كيفية تكرار قائمة العقد (NodeList) في Java لقراءة ملفات HTML واستخراج مسار الصور بسهولة.
-
-
-
-
-
-
 
 ### [التكرار على NodeList في Java – دليل كامل](./iterate-over-nodelist-java-complete-guide/)
 ### [استخراج النص من HTML باستخدام Java – دليل خطوة بخطوة كامل](./extract-text-from-html-with-java-complete-step-by-step-guide/)
 تعلم كيفية استخراج النص من مستندات HTML باستخدام Aspose.HTML for Java من خلال دليل شامل خطوة بخطوة.
 ### [كيفية استخدام XPath في Java – قراءة HTML واستخراج النص](./how-to-use-xpath-in-java-read-html-and-extract-text/)
 تعلم كيفية استخدام XPath في Java لقراءة مستندات HTML واستخراج النصوص بسهولة من خلال دليل خطوة بخطوة.
-### [كيفية الاستعلام عن HTML في Java – استخراج عناوين URL للصور](./how-to-query-html-in-java-extract-image-urls/)
-تعلم كيفية استخراج عناوين صور HTML باستخدام Aspose.HTML for Java عبر دليل خطوة بخطوة.
-### [كيفية تحليل HTML في Java – استخراج النص من مقالات HTML](./how-to-parse-html-in-java-extract-text-from-html-articles/)
-تعلم كيفية استخراج النص من مقالات HTML باستخدام Aspose.HTML for Java عبر دليل خطوة بخطوة.
-### [javascript settimeout async: تشغيل JavaScript في Java وتحديث HTML](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
-تعلم كيفية تشغيل كود JavaScript باستخدام setTimeout داخل تطبيق Java وتحديث محتوى HTML بشكل غير متزامن.
-### [إنشاء عنصر HTML باستخدام Java ExecutorService – عرض تجريبي آمن للخيوط](./create-html-element-with-java-executorservice-thread-safe-de/)
-تعلم كيفية إنشاء عنصر HTML بأمان في بيئة متعددة الخيوط باستخدام ExecutorService في Java مع Aspose.HTML.
+### [دليل XPath في Java: استخراج src للصور من ملف HTML](./java-xpath-tutorial-extract-image-src-from-an-html-file/)
+تعلم كيفية استخراج مسار الصورة (src) من ملفات HTML باستخدام XPath في Java عبر دليل خطوة بخطوة.
 ### [كيفية الاستعلام عن XPath في Java باستخدام Aspose – دليل خطوة بخطوة](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
 تعلم كيفية استخدام XPath لاستعلام مستندات HTML في Java باستخدام Aspose من خلال دليل شامل خطوة بخطوة.
-### [تشغيل عدة خيوط في Java – استخدام try-with-resources في Java](./run-multiple-threads-java-use-try-with-resources-java/)
-اكتشف كيفية تشغيل عدة خيوط في Java وإدارة الموارد باستخدام عبارة try‑with‑resources لضمان إغلاق الموارد بشكل آمن.
 ### [اختيار div حسب الفئة في Java – دليل XPath كامل](./select-div-by-class-in-java-complete-xpath-guide/)
 تعلم كيفية اختيار عناصر div حسب الفئة في Java باستخدام XPath من خلال دليل شامل خطوة بخطوة.
 ### [عرض HTML في Java – دليل كامل للانتظار حتى تحميل الصفحة ومحدد الاستعلام](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
@@ -156,6 +130,8 @@ url: /ar/java/creating-managing-html-documents/
 تعلم كيفية جلب بيانات JSON باستخدام JavaScript وإنشاء مستند HTML في Java عبر دليل شامل خطوة بخطوة.
 ### [كيفية البحث في HTML باستخدام Aspose Java – دليل برمجة كامل](./how-to-search-html-with-aspose-java-complete-programming-gui/)
 تعلم كيفية البحث في مستندات HTML باستخدام Aspose Java عبر دليل برمجة شامل خطوة بخطوة.
+
+### [كيفية إنشاء وحفظ HTML باستخدام Java و Aspose.HTML](./how-to-create-and-save-html-with-java-using-aspose-html/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

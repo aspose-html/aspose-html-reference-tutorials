@@ -37,6 +37,9 @@ Aspose.HTML for Java 为开发人员提供了功能强大的工具包，旨在�
 
 在生成新的 HTML 文档方面，Aspose.HTML for Java 提供了一个强大的解决方案，使您能够从头开始构建丰富的 Web 内容。无论您是在使用内容管理系统还是需要生成 HTML 格式的报告，了解如何创建和管理新的 HTML 文档都至关重要。此外，高级文件加载技术允许您处理复杂的 HTML 文档，确保您可以轻松处理大型项目。这些教程将指导您完成每个步骤，确保您能够应对任何与 HTML 相关的挑战。[阅读更多](./generate-new-html-documents/)
 
+### [如何使用 Aspose.HTML 在 Java 中创建并保存 HTML](./how-to-create-and-save-html-with-java-using-aspose-html/)
+本教程演示如何使用 Aspose.HTML 在 Java 中创建 HTML 文档并将其保存到文件。
+
 ## 管理 SVG 文档和处理事件
 
 最后，对于那些希望进一步提高技能的人来说，有大量的高级主题可供探索。了解如何管理 SVG 文档或处理文档加载事件以创建响应式动态 Web 应用程序。这些教程将带您超越 HTML，深入了解可缩放矢量图形 (SVG) 和事件驱动编程的复杂性。[阅读更多](./create-manage-svg-documents/)
@@ -109,29 +112,11 @@ Aspose.HTML for Java 为开发人员提供了功能强大的工具包，旨在�
 ### [在 Java 中统计 HTML 字符 – 使用 Aspose HTML 的完整指南](./count-html-characters-in-java-full-guide-with-aspose-html/)
 本完整指南教您如何使用 Aspose.HTML for Java 统计 HTML 文本字符数，涵盖示例代码和最佳实践。
 
-
-
-
-
-
-
 ### [在 Java 中从 JavaScript 生成 HTML – 完整分步指南](./generate-html-from-javascript-in-java-complete-step-by-step/)
 本指南详细演示如何在 Java 环境中执行 JavaScript 生成 HTML 内容的完整步骤，帮助您轻松实现动态页面渲染。
 
-
-
-
-
-
-
 ### [遍历 NodeList（Java）– 读取 HTML 并获取图像 src](./iterate-nodelist-java-read-html-get-image-src/)
 学习如何在 Java 中遍历 NodeList，读取 HTML 内容并提取图像的 src 属性，适用于网页抓取和解析。
-
-
-
-
-
-
 
 ### [在 Java 中遍历 NodeList – 完整指南](./iterate-over-nodelist-java-complete-guide/)
 本完整指南详细讲解如何在 Java 中使用 Aspose.HTML 遍历 NodeList，包括示例代码和最佳实践。
@@ -140,6 +125,8 @@ Aspose.HTML for Java 为开发人员提供了功能强大的工具包，旨在�
 
 ### [在 Java 中使用 XPath – 读取 HTML 并提取文本](./how-to-use-xpath-in-java-read-html-and-extract-text/)
 本教程详细演示如何在 Java 中使用 XPath 读取 HTML 并提取所需文本，包含代码示例和步骤说明。
+### [Java XPath 教程：从 HTML 文件中提取图像 src](./java-xpath-tutorial-extract-image-src-from-an-html-file/)
+本教程演示如何使用 XPath 在 Java 中解析 HTML 文件并提取图像的 src 属性，提供完整代码示例。
 ### [javascript settimeout 异步：在 Java 中运行 JavaScript 并更新 HTML](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
 学习如何在 Java 环境中使用 setTimeout 实现异步执行 JavaScript，并动态更新 HTML 内容。
 ### [在 Java 中从 Markdown 创建 HTML – 完整分步指南](./create-html-from-markdown-in-java-full-step-by-step-guide/)

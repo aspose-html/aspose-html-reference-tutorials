@@ -52,7 +52,7 @@ Scopri come recuperare lo stile CSS calcolato di un elemento usando Aspose.HTML 
 ### [Come ottenere CSS in Java – Guida completa per estrarre gli stili con Aspose.HTML](./how-to-get-css-in-java-complete-guide-to-extract-styles-with/)
 Scopri come estrarre i CSS da una pagina web usando Aspose.HTML per Java in questa guida completa passo passo.
 ### [Come leggere CSS in Java – Guida passo‑passo](./how-to-read-css-in-java-step-by-step-guide/)
-Scopri come leggere e analizzare i file CSS in Java utilizzando Aspose.HTML, con esempi pratici e consigli passo‑passo.
+Scopri come leggere e analizzare i file CSS in Java utilizzando Aspose.HTML, con esempi pratici e consigli passo‑step.
 
 
 
@@ -105,10 +105,12 @@ Scopri come ottenere lo stile calcolato di un elemento HTML usando Aspose.HTML p
 Impara a leggere i CSS in Java, simulare schermi mobili e verificare le media query per garantire un rendering corretto.
 ### [Come caricare HTML in Java – Guida completa con estrazione dei colori CSS](./how-to-load-html-in-java-full-guide-with-css-color-extractio/)
 Scopri come caricare pagine HTML in Java e estrarre i colori CSS con Aspose.HTML in questa guida passo passo.
-### [Estrai CSS da HTML in Java – Guida completa di programmazione](./extract-css-from-html-in-java-complete-programming-guide/)
-Scopri come estrarre CSS da documenti HTML usando Aspose.HTML per Java in questa guida dettagliata passo passo.
+### [Estrai CSS da HTML in Java – Guida passo‑passo](./extract-css-from-html-in-java-step-by-step-guide/)
+Scopri come estrarre i CSS da un documento HTML usando Aspose.HTML per Java in questa guida dettagliata passo dopo passo.
 ### [Come leggere CSS in Java – Guida completa Aspose.HTML](./how-to-read-css-in-java-complete-aspose-html-guide/)
 Scopri come leggere e analizzare i fogli di stile CSS in Java usando Aspose.HTML in questa guida completa passo passo.
+### [Come leggere CSS e estrarre il colore di sfondo da un file HTML in Java](./how-to-read-css-and-extract-background-color-from-an-html-fi/)
+Scopri come leggere i CSS ed estrarre il colore di sfondo da un file HTML usando Aspose.HTML per Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

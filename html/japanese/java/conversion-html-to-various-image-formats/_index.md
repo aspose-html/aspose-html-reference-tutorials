@@ -96,7 +96,7 @@ Aspose.HTML を使用して Java で HTML を GIF に変換する方法を学び
 Aspose.HTML for Java を使用して HTML を JPEG に変換する方法を学びます。シームレスなドキュメント処理のためのステップバイステップガイドです。
 
 ### [HTML を PNG に変換](./convert-html-to-png/)
-Aspose.HTML を使用して Java で HTML を PNG 画像に変換する方法を学びます。ステップバイステップの包括的なガイドです。
+Aspose.HTML を使用して Java で HTML を PNG 画像に変換する方法を学びます。ステップバイステップの包括的ガイドです。
 
 ### [Java で HTML を PNG にレンダリングする完全ガイド](./how-to-render-html-to-png-in-java-complete-guide/)
 Aspose.HTML を使用して Java で HTML を PNG にレンダリングする手順を詳しく解説します。包括的な完全ガイドです。
@@ -156,6 +156,9 @@ Aspose.HTML for Java で HTML を PNG に変換する際の DPI 指定方法と�
 ### [HTML から PNG を作成 – スレッドプールを使用した高速バッチ変換](./create-png-from-html-fast-batch-conversion-using-a-thread-po/)
 ### [HTML を PNG に変換（最大メモリ使用量設定）](./convert-html-to-png-with-set-max-memory-usage-in-java/)
 Aspose.HTML for Java でメモリ使用上限を設定しながら HTML を PNG に変換する方法を解説します。
+### [Aspose を使用した Java で SVG を PNG に変換する方法](./how-to-convert-svg-to-png-in-java-using-aspose/)
+Aspose.HTML for Java を使用して SVG を PNG 画像に変換する手順を解説します。
+
 ### [Aspose HTML でウェブページのスクリーンショットを取得する – Java ガイド](./how-to-capture-screenshot-of-a-webpage-with-aspose-html-java/)
 Aspose.HTML for Java を使ってウェブページのスクリーンショットを簡単に取得する手順を解説します。
 

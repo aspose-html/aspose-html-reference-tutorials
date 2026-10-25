@@ -76,6 +76,8 @@ url: /el/java/editing-html-documents/
 Μάθετε πώς να απελευθερώνετε αυτόματα κλειδώματα σε Java για ασφαλή επεξεργασία HTML με νήματα, βήμα‑βήμα οδηγός.
 ### [Πώς να εξάγετε HTML σε Java – Εξαγωγή κειμένου & επισήμανση λέξεων](./how-to-extract-html-in-java-extract-text-highlight-words/)
 Μάθετε πώς να εξάγετε κείμενο από HTML σε Java και να επισημάνετε συγκεκριμένες λέξεις χρησιμοποιώντας το Aspose.HTML.
+### [Πώς να χειριστείτε το DOM με Java χρησιμοποιώντας το Aspose.HTML](./how-to-manipulate-dom-with-java-using-aspose-html/)
+Μάθετε πώς να διαχειρίζεστε και να τροποποιείτε το DOM σε έγγραφα HTML με Java και Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

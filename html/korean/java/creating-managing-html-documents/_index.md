@@ -112,6 +112,9 @@ Aspose.HTML for Java를 사용하여 안전한 HTML 샌드박스를 설정하고
 ### [Java용 Aspose.HTML에서 비동기 JavaScript 실행 – 완전 단계별 가이드](./execute-async-javascript-in-java-complete-step-by-step-guide/)
 Aspose.HTML for Java를 활용해 Java에서 비동기 JavaScript를 실행하는 방법을 단계별로 배워보세요.
 
+### [Aspose.HTML을 사용하여 Java로 HTML 만들기 및 저장하기](./how-to-create-and-save-html-with-java-using-aspose-html/)
+Aspose.HTML을 활용해 Java에서 HTML을 생성하고 파일로 저장하는 방법을 단계별로 안내합니다.
+
 ### [Java에서 HTML 문자 수 세기 – Aspose HTML을 활용한 전체 가이드](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Aspose.HTML for Java를 사용하여 HTML 문자열의 문자 수를 정확히 계산하는 방법을 단계별로 안내합니다.
 ### [Java에서 HTML 텍스트 추출 – 완전 프로그래밍 가이드](./extract-text-from-html-in-java-complete-programming-guide/)
@@ -147,11 +150,12 @@ Java에서 여러 스레드를 실행하면서 try-with-resources를 활용해 �
 Aspose.HTML for Java를 사용하여 마크다운을 HTML로 변환하는 방법을 단계별로 안내합니다.
 ### [Java에서 클래스별 div 선택 – 완전 XPath 가이드](./select-div-by-class-in-java-complete-xpath-guide/)
 Java와 XPath를 사용해 클래스 이름으로 div 요소를 선택하는 방법을 단계별로 안내합니다.
-
+### [Java XPath 튜토리얼: HTML 파일에서 이미지 src 추출](./java-xpath-tutorial-extract-image-src-from-an-html-file/)
+Java와 Aspose.HTML을 사용해 XPath로 HTML 파일에서 이미지 src 속성을 추출하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.HTML에서 마크다운을 HTML로 변환 – 빠른 가이드](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
 Aspose.HTML for Java를 사용해 마크다운 파일을 HTML로 손쉽게 변환하는 단계별 가이드입니다.
 ### [fetch json javascript – HTML 문서 생성을 위한 완전 Java 가이드](./fetch-json-javascript-complete-java-guide-to-create-html-doc/)
-Java에서 fetch JSON을 사용해 HTML 문서를 만드는 전체 단계별 가이드를 제공합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

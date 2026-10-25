@@ -63,6 +63,8 @@ Leer hoe u HTML-documenten laadt uit streams met Aspose.HTML voor Java. Deze gid
 Leer hoe u HTML-documenten van strings maakt in Aspose.HTML voor Java met deze stapsgewijze handleiding.
 ### [HTML-document maken in Java – Stapsgewijze handleiding met Aspose.HTML](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
 Leer hoe u een HTML-document maakt in Java met Aspose.HTML via een duidelijke stap‑voor‑stap gids.
+### [HTML maken en opslaan met Java via Aspose.HTML](./how-to-create-and-save-html-with-java-using-aspose-html/)
+Leer stap‑voor‑stap hoe u HTML-documenten maakt en opslaat in Java met Aspose.HTML.
 ### [HTML-documenten laden vanaf URL in Aspose.HTML voor Java](./load-html-documents-from-url/)
 Ontdek hoe u eenvoudig HTML-documenten kunt laden vanaf een URL in Java met Aspose.HTML. Inclusief stapsgewijze tutorial.
 ### [HTML-document maken met Java – JSON ophalen en inhoud genereren](./create-html-document-with-java-fetch-json-and-generate-conte/)
@@ -138,6 +140,10 @@ Leer hoe u xpath‑query's uitvoert in Java met Aspose via een gedetailleerde st
 Leer hoe u meerdere threads in Java kunt uitvoeren en resources veilig beheert met try-with-resources.
 ### [Selecteer div op class in Java – Complete XPath-gids](./select-div-by-class-in-java-complete-xpath-guide/)
 Leer hoe u met Aspose.HTML voor Java een div-element selecteert op basis van class met XPath. Volledige stapsgewijze gids.
+
+### [Java XPath‑tutorial: afbeelding src extraheren uit een HTML‑bestand](./java-xpath-tutorial-extract-image-src-from-an-html-file/)
+Leer hoe u met XPath de src‑attributen van afbeeldingen uit een HTML‑bestand haalt in Java met Aspose.HTML.
+
 ### [HTML renderen in Java – Complete gids voor wachten op paginalading en query selector](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
 Leer hoe u HTML rendert in Java, wacht op paginalading en gebruik query selector met deze volledige stap‑voor‑stap handleiding.
 ### [Markdown naar HTML converteren in Java – Stapsgewijze handleiding](./convert-markdown-to-html-in-java-step-by-step-guide/)

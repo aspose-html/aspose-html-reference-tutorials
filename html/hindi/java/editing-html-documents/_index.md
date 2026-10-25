@@ -80,7 +80,10 @@ Java के लिए Aspose.HTML का उपयोग करके बॉड�
 ### [Java में स्वचालित लॉक रिलीज़ – थ्रेड‑सेफ HTML संपादन ट्यूटोरियल](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
 Java में स्वचालित लॉक रिलीज़ के साथ थ्रेड‑सेफ HTML संपादन कैसे करें, सीखें।
 ### [Java में HTML निकालना – टेक्स्ट निकालें और शब्दों को हाइलाइट करें](./how-to-extract-html-in-java-extract-text-highlight-words/)
-Java में Aspose.HTML का उपयोग करके HTML से टेक्स्ट निकालें और विशिष्ट शब्दों को हाइलाइट करने का चरण-दर-चरण मार्गदर्शन।
+Java में Aspose.HTML का उपयोग करके HTML से टेक्स्ट निकालें और विशिष्ट शब्दों को हाइलाइट करने का चरण-दर-स्टेप मार्गदर्शन।
+
+### [Java के साथ Aspose.HTML का उपयोग करके DOM को कैसे नियंत्रित करें](./how-to-manipulate-dom-with-java-using-aspose-html/)
+Java में Aspose.HTML के साथ DOM को संशोधित करने की चरण‑दर‑स्टेप गाइड।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

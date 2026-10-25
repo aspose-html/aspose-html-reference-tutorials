@@ -65,6 +65,9 @@ Pokud potřebujete **convert HTML to JPEG** pro fotografické reprezentace nebo 
 ## Převod HTML do PNG
 Naučte se převést HTML na PNG obrázky v Javě pomocí Aspose.HTML. Komplexní průvodce s krok‑za‑krokem instrukcemi.
 
+### [How to convert SVG to PNG in Java using Aspose](./how-to-convert-svg-to-png-in-java-using-aspose/)
+
+
 ### [Jak nastavit DPI při převodu HTML na PNG](./how-to-set-dpi-when-converting-html-to-png/)
 Naučte se, jak nastavit DPI při převodu HTML do PNG pomocí Aspose.HTML for Java pro lepší kvalitu výstupu.
 ### [Render HTML v Javě: Převod dlouhé stránky na PNG](./render-html-java-convert-long-page-to-png/)

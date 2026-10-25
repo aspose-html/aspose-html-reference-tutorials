@@ -98,7 +98,7 @@ Erfahren Sie, wie Sie mit Aspose.HTML for Java HTML in hochwertige PNG‑Bilder 
 ### [HTML mit benutzerdefiniertem Viewport nach PNG rendern](./how-to-render-html-to-png-with-custom-viewport/)
 Erfahren Sie, wie Sie mit Aspose.HTML for Java HTML in PNG rendern und dabei einen benutzerdefinierten Viewport festlegen.
 ### [HTML in PNG konvertieren – Batch‑Konvertierungs‑Leitfaden](./convert-html-to-png-batch-conversion-guide/)
-Erfahren Sie, wie Sie mehrere HTML‑Dateien effizient in PNG‑Bilder umwandeln – Schritt‑für‑Schritt‑Anleitung für Batch‑Verarbeitung.
+Erfahren Sie, wie Sie mehrere HTML‑Dateien effizient in PNG‑Bilder umwandeln – Schritt‑für‑Step‑Anleitung für Batch‑Verarbeitung.
 ### [Wie man ExecutorService für parallele HTML‑zu‑PNG‑Batch‑Konvertierung verwendet](./how-to-use-executorservice-for-parallel-html-to-png-batch-co/)
 Erfahren Sie, wie Sie mit ExecutorService mehrere HTML‑Dateien gleichzeitig in PNG‑Bilder konvertieren, um die Verarbeitungsgeschwindigkeit zu erhöhen.
 ### [HTML zu PNG rendern – Vollständiger Java‑Leitfaden](./how-to-render-html-to-png-complete-java-guide/)
@@ -120,7 +120,11 @@ Erfahren Sie, wie Sie HTML mit Aspose.HTML for Java in PNG rendern – ein volls
 ### [HTML mit Aspose.HTML Sandbox zu PNG rendern – Vollständiger Java‑Leitfaden](./render-html-to-png-with-aspose-html-sandbox-full-java-guide/)
 Erfahren Sie, wie Sie HTML mit Aspose.HTML Sandbox in PNG konvertieren – umfassende Schritt‑für‑Schritt‑Anleitung für Java.
 ### [SVG in PNG konvertieren in Java – Batch‑Konvertierungs‑Leitfaden](./convert-svg-to-png-in-java-batch-conversion-guide/)
-Erfahren Sie, wie Sie mit Aspose.HTML for Java mehrere SVG‑Dateien effizient in PNG‑Bilder konvertieren.
+Erfahren Sie, wie Sie mehrere SVG‑Dateien effizient in PNG‑Bilder umwandeln – Schritt‑für‑Step‑Anleitung.
+### [SVG in PNG konvertieren – Hochauflösender Leitfaden für Java](./convert-svg-to-png-in-java-high-resolution-guide/)
+Erfahren Sie, wie Sie SVG‑Dateien mit Aspose.HTML for Java hochauflösend in PNG‑Bilder konvertieren – detaillierte Schritt‑für‑Schritt‑Anleitung.
+### [Wie man SVG in PNG in Java mit Aspose konvertiert](./how-to-convert-svg-to-png-in-java-using-aspose/)
+Erfahren Sie, wie Sie SVG mit Aspose.HTML for Java in PNG konvertieren – kompakte Schritt‑für‑Schritt‑Anleitung.
 ### [Hochauflösende PNG aus HTML erstellen – Vollständiger Java‑Leitfaden](./create-high-resolution-png-from-html-complete-java-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML for Java hochauflösende PNG‑Bilder aus HTML generieren – Schritt‑für‑Schritt‑Anleitung.
 ### [HTML in TIFF konvertieren](./convert-html-to-tiff/)
@@ -137,7 +141,7 @@ Erfahren Sie, wie Sie mit Aspose.HTML for Java PNG‑Bilder aus HTML mit hoher D
 ### [PNG aus SVG in Java erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-png-from-svg-in-java-complete-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML for Java SVG‑Dateien in hochwertige PNG‑Bilder konvertieren – detaillierte Schritt‑für‑Schritt‑Anleitung.
 ### [Wie man DPI beim Konvertieren von HTML zu PNG festlegt – Vollständige Anleitung](./how-to-set-dpi-when-converting-html-to-png-complete-guide/)
-Erfahren Sie, wie Sie die DPI-Einstellungen beim Rendern von HTML zu PNG mit Aspose.HTML for Java präzise steuern.
+Erfahren Sie, wie Sie die DPI‑Einstellungen beim Rendern von HTML zu PNG mit Aspose.HTML for Java präzise steuern.
 ### [High‑DPI‑Rendering in Java – Webseiten‑Screenshots mit benutzerdefiniertem User‑Agent erfassen](./high-dpi-rendering-in-java-capture-webpage-screenshots-with/)
 Erfahren Sie, wie Sie mit Aspose.HTML for Java hochauflösende Screenshots erstellen und dabei einen benutzerdefinierten User‑Agent festlegen.
 ### [PNG aus HTML erstellen – Schnelle Batch‑Konvertierung mit Thread‑Pool](./create-png-from-html-fast-batch-conversion-using-a-thread-po/)
@@ -174,14 +178,14 @@ Erfahren Sie, wie Sie mit Aspose.HTML for Java lange HTML‑Seiten in PNG‑Bild
 Erfahren Sie, wie Sie SVG‑Grafiken mit Aspose.HTML for Java in animierte GIF‑Dateien umwandeln – detaillierte Schritt‑für‑Schritt‑Anleitung.
 ### [Wie man Sandbox verwendet, um einen Webseiten‑Screenshot zu erfassen](./how-to-use-sandbox-to-capture-webpage-screenshot/)
 Erfahren Sie, wie Sie mit der Aspose.HTML Sandbox Webseiten‑Screenshots erstellen – Schritt‑für‑Schritt‑Anleitung.
-### [Mehrseitiges TIFF aus SVG in Java erstellen – Schritt‑für‑Schritt‑Anleitung](./create-multipage-tiff-from-svg-in-java-step-by-step-guide/)
+### [Mehrseitiges TIFF aus SVG in Java erstellen – Schritt‑für‑Step‑Anleitung](./create-multipage-tiff-from-svg-in-java-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML for Java ein mehrseitiges TIFF aus SVG-Dateien erstellen – umfassende Schritt‑für‑Step‑Anleitung.
 ### [SVG in PNG mit hoher Auflösung konvertieren – Java‑Leitfaden](./convert-svg-to-png-with-high-resolution-java-guide/)
 Erfahren Sie, wie Sie SVG‑Dateien mit Aspose.HTML for Java in hochauflösende PNG‑Bilder konvertieren – Schritt‑für‑Schritt‑Anleitung.
 ### [HTML in WebP konvertieren – Komplettanleitung für Java](./convert-html-to-webp-in-java-complete-guide/)
 Kompletter Leitfaden zur Umwandlung von HTML in WebP mit Java und Aspose.HTML – detaillierte Schritte und Best Practices.
 ### [SVG in PNG konvertieren – Hochauflösender Leitfaden für Java](./convert-svg-to-png-in-java-high-resolution-guide/)
-Erfahren Sie, wie Sie SVG-Dateien mit Aspose.HTML for Java hochauflösend in PNG-Bilder umwandeln – Schritt‑für‑Schritt‑Anleitung.
+Erfahren Sie, wie Sie SVG‑Dateien mit Aspose.HTML for Java hochauflösend in PNG‑Bilder umwandeln – Schritt‑für‑Schritt‑Anleitung.
 ### [HTML in PNG mit Java konvertieren – Vollständige Schritt‑für‑Schritt‑Anleitung](./convert-html-to-png-in-java-complete-step-by-step-guide/)
 Erfahren Sie, wie Sie HTML mit Aspose.HTML for Java in PNG konvertieren. Vollständige Schritt‑für‑Schritt‑Anleitung für hochwertige Bildausgabe.
 ### [HTML in WebP konvertieren](./convert-html-to-webp-complete-java-guide-with-aspose/)

@@ -80,7 +80,7 @@ HTML को PNG इमेज में बदलना लॉसलेस ग्
 ### [HTML को PNG में बदलते समय DPI कैसे सेट करें](./how-to-set-dpi-when-converting-html-to-png/)
 Aspose.HTML for Java का उपयोग करके HTML को PNG में बदलते समय DPI सेट करने की प्रक्रिया सीखें।
 ### [HTML को PNG में DPI सेट करना – पूर्ण Java गाइड](./how-to-set-dpi-when-converting-html-to-png-complete-java-gui/)
-Aspose.HTML for Java का उपयोग करके HTML को PNG में बदलते समय DPI सेट करने के चरण‑दर‑चरण निर्देश।
+Aspose.HTML for Java का उपयोग करके HTML को PNG में बदलते समय DPI सेट करने के चरण‑दर‑स्टेप निर्देश।
 ### [HTML को PNG में DPI सेट करना – Java गाइड](./how-to-set-dpi-when-converting-html-to-png-java-guide/)
 Aspose.HTML for Java का उपयोग करके HTML को PNG में बदलते समय DPI सेट करने की प्रक्रिया सीखें।
 
@@ -128,7 +128,7 @@ Aspose.HTML for Java का उपयोग करके कई HTML फ़ा�
 ### [HTML को PNG में रेंडर करने का पूर्ण जावा गाइड](./how-to-render-html-to-png-complete-java-guide/)
 Aspose.HTML for Java के साथ HTML को PNG इमेज में रेंडर करने का विस्तृत चरण‑दर‑चरण गाइड।
 ### [HTML पेज को PNG के रूप में सहेजें Java में – पूर्ण ट्यूटोरियल](./save-html-page-as-png-in-java-complete-tutorial/)
-Aspose.HTML for Java का उपयोग करके HTML पेज को PNG इमेज के रूप में सहेजने के पूर्ण चरण‑दर‑चरण गाइड।
+Aspose.HTML for Java का उपयोग करके HTML पेज को PNG इमेज के रूप में सहेजने का पूर्ण चरण‑दर‑चरण गाइड।
 ### [HTML को PNG में बदलें – बैकग्राउंड रंग और रिज़ॉल्यूशन के साथ पूर्ण गाइड](./convert-html-to-png-full-guide-with-background-color-resolut/)
 Aspose.HTML for Java के साथ बैकग्राउंड रंग और रिज़ॉल्यूशन सेट करके HTML को PNG में बदलने का विस्तृत मार्गदर्शन।
 ### [Java में HTML को PNG में रेंडर करें – बियरर टोकन और कस्टम हेडर जोड़ें](./render-html-to-png-in-java-add-bearer-token-custom-headers/)
@@ -159,7 +159,7 @@ Aspose.HTML for Java का उपयोग करके SVG फ़ाइलो�
 Aspose.HTML for Java के साथ SVG को WebP इमेज में बदलने के चरण‑दर‑चरण निर्देश।
 
 ### [Java में HTML को WebP में कैसे बदलें – पूरी चरण‑दर‑स्टेप गाइड](./how-to-convert-html-to-webp-in-java-complete-step-by-step-gu/)
-Aspose.HTML for Java का उपयोग करके HTML को WebP इमेज में बदलने के विस्तृत चरण‑दर‑स्टेप निर्देश।
+Aspose.HTML for Java का उपयोग करके HTML को WebP इमेज में बदलने की विस्तृत चरण‑दर‑स्टेप निर्देश।
 
 ### [SVG से GIF कैसे बनाएं – चरण‑दर‑चरण जावा गाइड](./how-to-create-gif-from-svg-step-by-step-java-guide/)
 Aspose.HTML for Java का उपयोग करके SVG फ़ाइलों को GIF इमेज में बदलने की पूरी प्रक्रिया सीखें।
@@ -238,6 +238,9 @@ Aspose.HTML for Java का उपयोग करके कई SVG फ़ाइ
 ### [HTML को WebP में बदलें – पूर्ण Java Aspose.HTML गाइड](./convert-html-to-webp-complete-java-aspose-html-guide/)
 Aspose.HTML for Java का उपयोग करके HTML को WebP इमेज में बदलने के विस्तृत चरण‑दर‑चरण निर्देश।
 
+### [Java में Aspose का उपयोग करके SVG को PNG में कैसे बदलें](./how-to-convert-svg-to-png-in-java-using-aspose/)
+Aspose.HTML for Java के साथ SVG फ़ाइल को PNG इमेज में बदलने की चरण‑दर‑चरण प्रक्रिया सीखें।
+
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **प्रश्न: क्या मैं Java का उपयोग करके अतिरिक्त इमेज लाइब्रेरी के बिना HTML को PNG में बदल सकता हूँ?**  
@@ -245,9 +248,6 @@ Aspose.HTML for Java का उपयोग करके HTML को WebP इम
 
 **प्रश्न: क्या HTML से एनिमेटेड GIF बनाना संभव है?**  
 **उत्तर:** Aspose.HTML स्थैतिक GIF इमेज बना सकता है। एनिमेटेड GIF के लिए, आपको कई फ्रेम रेंडर करके उन्हें एक अलग GIF एन्कोडर से संयोजित करना होगा।
-
-**प्रश्न: क्या लाइब्रेरी ग्रेडिएंट्स और फ्लेक्सबॉक्स जैसे CSS3 फीचर्स को सपोर्ट करती है?**  
-**उत्तर:** बिल्कुल। Aspose.HTML आधुनिक CSS3 स्पेसिफिकेशन को पूरी तरह सपोर्ट करता है, जिससे सटीक विज़ुअल आउटपुट सुनिश्चित होता है।
 
 **प्रश्न: मैं बड़े HTML दस्तावेज़ों को जो मेमोरी सीमा से अधिक हैं, कैसे संभालूँ?**  
 **उत्तर:** दस्तावेज़ को सेक्शन में रेंडर करें या Aspose.HTML द्वारा प्रदान किए गए स्ट्रीमिंग API का उपयोग करके पेजों को क्रमिक रूप से प्रोसेस करें।

@@ -76,6 +76,8 @@ Hướng dẫn chi tiết cách xóa các thẻ script khỏi tài liệu HTML b
 Học cách tự động giải phóng khóa trong Java để chỉnh sửa HTML một cách an toàn khi đa luồng.
 ### [Cách trích xuất HTML trong Java – Trích xuất văn bản & Đánh dấu từ](./how-to-extract-html-in-java-extract-text-highlight-words/)
 Hướng dẫn cách sử dụng Aspose.HTML cho Java để trích xuất nội dung HTML, lấy văn bản và làm nổi bật các từ khóa.
+### [Cách thao tác DOM với Java bằng Aspose.HTML](./how-to-manipulate-dom-with-java-using-aspose-html/)
+Hướng dẫn chi tiết cách thao tác DOM trong tài liệu HTML bằng Java và Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

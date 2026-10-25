@@ -70,7 +70,8 @@ Aprenda a agregar un elemento hijo al cuerpo del documento HTML usando Aspose.HT
 Aprenda a modificar el texto del encabezado h1 en archivos MHTML usando Aspose.HTML para Java con esta guía paso a paso.
 ### [Cómo agregar un nodo hijo en el DOM de Java – Guía completa de Aspose.HTML](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
 Aprenda a agregar nodos hijos al DOM en Java usando Aspose.HTML con esta guía paso a paso.
-
+### [Cómo manipular el DOM con Java usando Aspose.HTML](./how-to-manipulate-dom-with-java-using-aspose-html/)
+Aprenda a manipular el DOM en Java con Aspose.HTML mediante ejemplos paso a paso.
 ### [Cómo eliminar scripts de HTML en Java – Guía completa](./how-to-remove-scripts-from-html-in-java-complete-guide/)
 Aprenda a eliminar scripts de documentos HTML usando Aspose.HTML para Java. Guía paso a paso para limpiar su contenido de forma segura.
 ### [Liberación automática de bloqueo en Java – Tutorial de edición HTML segura para subprocesos](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)

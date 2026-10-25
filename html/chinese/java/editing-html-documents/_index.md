@@ -68,6 +68,8 @@ url: /zh/java/editing-html-documents/
 了解如何使用 Aspose.HTML for Java 在 MHTML 文件中更改 h1 文本，完整分步指南帮助您轻松实现。
 ### [如何在 Java DOM 中追加子节点 – 完整 Aspose.HTML 指南](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
 了解如何使用 Aspose.HTML for Java 在 Java DOM 中追加子节点，完整的分步指南。
+### [如何使用 Aspose.HTML 在 Java 中操作 DOM](./how-to-manipulate-dom-with-java-using-aspose-html/)
+本教程演示如何使用 Aspose.HTML for Java 操作 DOM，实现元素查询、修改和删除。
 ### [如何在 Java 中从 HTML 中移除脚本 – 完整指南](./how-to-remove-scripts-from-html-in-java-complete-guide/)
 本完整指南教您使用 Aspose.HTML for Java 安全地删除 HTML 中的脚本标签，防止 XSS 并提升页面性能。
 ### [如何突出显示 HTML – 搜索文本并用 <mark> 替换](./how-to-highlight-html-search-text-replace-with-mark/)

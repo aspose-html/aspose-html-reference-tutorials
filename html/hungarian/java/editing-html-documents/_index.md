@@ -77,6 +77,8 @@ Ismerje meg, hogyan oldhatja fel automatikusan a zárakat Java-ban a szálbiztos
 
 ### [HTML kinyerése Java-ban – Szöveg kinyerése és szavak kiemelése](./how-to-extract-html-in-java-extract-text-highlight-words/)
 Ismerje meg, hogyan nyerhet ki HTML-t Java-ban, szöveget és kiemelheti a szavakat egy egyszerű, lépésről lépésre útmutatóval.
+### [Hogyan manipuláljuk a DOM-ot Java-val az Aspose.HTML használatával](./how-to-manipulate-dom-with-java-using-aspose-html/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

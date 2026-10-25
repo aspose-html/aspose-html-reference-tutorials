@@ -122,7 +122,7 @@ weight: 24
 ### [在 Java 中設定裝置像素比率 – 渲染 HTML 為 PNG](./set-device-pixel-ratio-in-java-render-html-to-png/)
 說明如何在 Java 中設定裝置像素比率，以正確渲染 HTML 為 PNG 圖像。
 
-### [將 HTML 轉換為 PNG 時設定 DPI](./how-to-set-dpi-when-converting-html-to-png-java-guide/)
+### [將 HTML 轉換為 PNG 時設定 DPI](./how-to-set-dpi-when-converting-html-to-png/)
 
 ### [在 Java 中將 HTML 頁面另存為 PNG – 完整教學](./save-html-page-as-png-in-java-complete-tutorial/)
 在 Java 中使用 Aspose.HTML 將 HTML 頁面保存為 PNG 圖像的完整教學，提供詳細步驟與範例程式碼。
@@ -138,7 +138,7 @@ weight: 24
 ### [在 Java 中將 HTML 渲染為 PNG – 模擬行動裝置](./render-html-to-png-in-java-emulate-mobile-device/)
 學習如何在 Java 使用 Aspose.HTML 渲染 HTML 為 PNG，並模擬行動裝置的螢幕尺寸與解析度。
 
-### [將 SVG 轉換為 PNG（Java）– 高解析度指南](./convert-svg-to-png-in-java-high-resolution-guide/)
+### [將 SVG 轉換為 PNG（Java） – 高解析度指南](./convert-svg-to-png-in-java-high-resolution-guide/)
 
 ### [使用 Aspose.HTML 渲染 HTML 為 PNG – 完整 Java 指南](./render-html-to-png-with-aspose-html-complete-java-guide/)
 
@@ -211,6 +211,10 @@ weight: 24
 
 
 ### [將 SVG 轉換為 PNG（Java） – 批次轉換指南](./convert-svg-to-png-in-java-batch-conversion-guide/)
+
+### [如何在 Java 中使用 Aspose 將 SVG 轉換為 PNG](./how-to-convert-svg-to-png-in-java-using-aspose/)
+
+### [將 HTML 轉換為 WebP](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 
 ## 常見問題集
 

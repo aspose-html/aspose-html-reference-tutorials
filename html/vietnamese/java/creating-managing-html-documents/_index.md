@@ -37,7 +37,10 @@ Hãy tưởng tượng bạn cần tạo nội dung HTML ngay lập tức dựa 
 
 Khi nói đến việc tạo tài liệu HTML mới, Aspose.HTML for Java cung cấp giải pháp mạnh mẽ cho phép bạn xây dựng nội dung web phong phú từ đầu. Cho dù bạn đang làm việc trên hệ thống quản lý nội dung hay cần tạo báo cáo ở định dạng HTML, việc hiểu cách tạo và quản lý tài liệu HTML mới là rất quan trọng. Ngoài ra, các kỹ thuật tải tệp nâng cao cho phép bạn làm việc với các tài liệu HTML phức tạp, đảm bảo rằng bạn có thể xử lý các dự án quy mô lớn một cách dễ dàng. Các hướng dẫn này hướng dẫn bạn qua từng bước, đảm bảo bạn được trang bị để giải quyết mọi thách thức liên quan đến HTML.[Đọc thêm](./generate-new-html-documents/)
 
-## Quản lý tài liệu SVG và xử lý sự kiện
+### [Cách tạo và lưu HTML với Java bằng Aspose.HTML](./how-to-create-and-save-html-with-java-using-aspose-html/)
+Hướng dẫn từng bước cách tạo và lưu tài liệu HTML trong Java bằng Aspose.HTML.
+
+## Xử lý sự kiện tải tài liệu
 
  Cuối cùng, đối với những ai muốn nâng cao kỹ năng của mình hơn nữa, có rất nhiều chủ đề nâng cao để khám phá. Tìm hiểu cách quản lý tài liệu SVG hoặc xử lý các sự kiện tải tài liệu để tạo các ứng dụng web phản hồi và động. Các hướng dẫn này đưa bạn vượt ra ngoài HTML, đi sâu vào sự phức tạp của Scalable Vector Graphics (SVG) và lập trình hướng sự kiện.[Đọc thêm](./create-manage-svg-documents/)
 
@@ -86,20 +89,8 @@ Học cách thực thi JavaScript bất đồng bộ trong Java bằng Aspose.HT
 ### [đếm ký tự HTML trong Java – Hướng dẫn đầy đủ với Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Tìm hiểu cách đếm số ký tự HTML trong Java bằng Aspose.HTML qua hướng dẫn chi tiết từng bước.
 
-
-
-
-
-
-
 ### [Tạo HTML từ JavaScript trong Java – Hướng dẫn chi tiết từng bước](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Tìm hiểu cách tạo HTML từ JavaScript trong Java bằng Aspose.HTML với hướng dẫn chi tiết từng bước.
-
-
-
-
-
-
 
 ### [Lặp qua NodeList trong Java – Hướng dẫn đầy đủ](./iterate-over-nodelist-java-complete-guide/)
 Tìm hiểu cách lặp qua NodeList trong Java bằng Aspose.HTML với hướng dẫn chi tiết và ví dụ thực tế.
@@ -127,6 +118,8 @@ Học cách thực thi JavaScript trong Java, chạy mã JS trên tài liệu HT
 Tạo phần tử HTML một cách an toàn đa luồng bằng ExecutorService trong Java.
 ### [Cách truy vấn xpath trong Java với Aspose – Hướng dẫn từng bước](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
 Khám phá cách truy vấn xpath trong tài liệu HTML bằng Java và Aspose.HTML qua hướng dẫn chi tiết, từng bước một.
+### [Hướng dẫn Java XPath: trích xuất src ảnh từ tệp HTML](./java-xpath-tutorial-extract-image-src-from-an-html-file/)
+Hướng dẫn chi tiết cách sử dụng XPath trong Java để trích xuất thuộc tính src của ảnh từ tệp HTML.
 ### [Chạy đa luồng Java – sử dụng try‑with‑resources Java](./run-multiple-threads-java-use-try-with-resources-java/)
 Hướng dẫn cách chạy đa luồng trong Java đồng thời sử dụng try‑with‑resources để quản lý tài nguyên một cách an toàn.
 ### [Chọn div theo lớp trong Java – Hướng dẫn XPath đầy đủ](./select-div-by-class-in-java-complete-xpath-guide/)

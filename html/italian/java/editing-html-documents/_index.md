@@ -76,6 +76,8 @@ Scopri come rimuovere gli script da documenti HTML con Aspose.HTML per Java. Una
 Scopri come evidenziare parti di HTML cercando testo e sostituendolo con il tag <mark> usando Aspose.HTML per Java.
 ### [Rilascio automatico del lock in Java – Tutorial di editing HTML thread‑safe](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
 Scopri come rilasciare automaticamente i lock in Java per modificare documenti HTML in modo thread‑safe.
+### [Come manipolare il DOM con Java usando Aspose.HTML](./how-to-manipulate-dom-with-java-using-aspose-html/)
+Scopri come manipolare il DOM in Java con Aspose.HTML attraverso esempi pratici passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -76,6 +76,8 @@ Naučte se, jak bezpečně odstranit skripty z HTML dokumentů v Javě pomocí A
 Naučte se, jak automaticky uvolňovat zámky při úpravě HTML v Javě, aby byly operace vlákny‑bezpečné.
 ### [Jak extrahovat HTML v Javě – Extrahovat text a zvýraznit slova](./how-to-extract-html-in-java-extract-text-highlight-words/)
 Naučte se, jak v Javě extrahovat text z HTML a zvýraznit vybraná slova pomocí Aspose.HTML.
+### [Jak manipulovat s DOM v Javě pomocí Aspose.HTML](./how-to-manipulate-dom-with-java-using-aspose-html/)
+Naučte se, jak manipulovat s DOM v Javě pomocí Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

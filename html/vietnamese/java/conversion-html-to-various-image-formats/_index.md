@@ -90,6 +90,8 @@ Sử dụng Aspose.HTML for Java đơn giản hoá việc chuyển đổi tài l
 ### [Converting HTML to JPEG](./convert-html-to-jpeg/)
 ### [Converting HTML to PNG](./convert-html-to-png/)
 Tìm hiểu cách convert HTML to PNG trong Java với Aspose.HTML. Một hướng dẫn toàn diện với các bước chi tiết.
+### [Cách chuyển đổi SVG sang PNG trong Java bằng Aspose](./how-to-convert-svg-to-png-in-java-using-aspose/)
+Hướng dẫn chi tiết cách chuyển đổi tệp SVG sang PNG trong Java bằng Aspose.HTML, bao gồm các bước cấu hình và mã mẫu.
 ### [Cách render HTML sang PNG trong Java – Hướng dẫn đầy đủ](./how-to-render-html-to-png-in-java-complete-guide/)
 ### [Cách render HTML sang PNG với viewport tùy chỉnh](./how-to-render-html-to-png-with-custom-viewport/)
 ### [Chuyển đổi HTML sang PNG – Hướng dẫn chuyển đổi hàng loạt](./convert-html-to-png-batch-conversion-guide/)

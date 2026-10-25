@@ -112,6 +112,9 @@ url: /th/java/css-html-form-editing/
 ### [วิธีอ่าน CSS ใน Java – คู่มือ Aspose.HTML ฉบับสมบูรณ์](./how-to-read-css-in-java-complete-aspose-html-guide/)
 เรียนรู้วิธีอ่านและประมวลผลไฟล์ CSS ด้วย Aspose.HTML สำหรับ Java อย่างละเอียดในคู่มือฉบับสมบูรณ์นี้
 
+### [วิธีอ่าน CSS และดึงสีพื้นหลังจากไฟล์ HTML ใน Java](./how-to-read-css-and-extract-background-color-from-an-html-fi/)
+เรียนรู้วิธีอ่านไฟล์ CSS และดึงสีพื้นหลังจากไฟล์ HTML ด้วย Aspose.HTML สำหรับ Java อย่างง่ายและรวดเร็ว
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

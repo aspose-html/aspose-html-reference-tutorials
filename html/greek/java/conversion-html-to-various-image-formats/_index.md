@@ -70,6 +70,9 @@ weight: 24
 
 Η μετατροπή HTML σε PNG είναι ιδανική για γραφικά χωρίς απώλειες, στιγμιότυπα οθόνης ή όταν απαιτείται διαφάνεια. Ο ολοκληρωμένος μας οδηγός παρέχει σαφείς οδηγίες για μια ομαλή εμπειρία μετατροπής.
 
+### [How to convert SVG to PNG in Java using Aspose](./how-to-convert-svg-to-png-in-java-using-aspose/)
+
+
 ### [Μετατροπή HTML σε PNG – Οδηγός Μαζικής Μετατροπής](./convert-html-to-png-batch-conversion-guide/)
 Μάθετε πώς να μετατρέπετε μαζικά HTML σε PNG χρησιμοποιώντας Aspose.HTML for Java, με βήμα‑βήμα οδηγίες για batch επεξεργασία.
 

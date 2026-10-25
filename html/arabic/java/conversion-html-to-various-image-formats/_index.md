@@ -87,6 +87,9 @@ weight: 24
 - **خطوط مفقودة** – ثبّت الخطوط المطلوبة على الخادم أو دمجها في HTML باستخدام `@font-face`.  
 
 ## Conversion - HTML to Various Image Formats Tutorials
+### [How to convert SVG to PNG in Java using Aspose](./how-to-convert-svg-to-png-in-java-using-aspose/)
+
+
 ### [تحويل HTML إلى BMP](./convert-html-to-bmp/)
 Convert HTML to BMP with Aspose.HTML for Java. A comprehensive tutorial to seamlessly convert HTML documents into BMP images using Aspose.HTML for Java.
 
