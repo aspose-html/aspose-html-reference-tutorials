@@ -41,6 +41,7 @@ HTML ドキュメントは Web のバックボーンであり、それを効果�
 Aspose.HTML を使って C# で HTML ドキュメントをロードし、操作する方法をステップバイステップで解説します。
 
 ### [カスタムリソースハンドラを使用した C# での HTML 保存完全ガイド](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
+### [C# で ResourceHandler を使用して HTML をストリームに保存する方法](./how-to-use-resourcehandler-and-save-html-to-a-stream-in-c/)
 ### [C# でカスタムリソースハンドラを使用して HTML を保存する方法](./how-to-save-html-in-c-with-custom-resource-handler/)
 ### [C# で HTML ドキュメントを作成する – カスタムリソースハンドラ完全ガイド](./create-html-document-c-complete-guide-with-custom-resource-h/)
 ### [HTML を保存する方法 – Aspose HTMLDocument 完全ガイド](./how-to-save-html-aspose-htmldocument-complete-guide/)

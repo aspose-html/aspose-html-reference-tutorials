@@ -70,6 +70,8 @@ Hướng dẫn chi tiết cách tạo HTML từ chuỗi trong C# bằng Memory S
 ### [Cách lưu HTML – Hướng dẫn đầy đủ Aspose HTMLDocument](./how-to-save-html-aspose-htmldocument-complete-guide/)
 ### [Tạo tệp Zip cho HTML – Hướng dẫn C# đầy đủ](./create-zip-archive-for-html-complete-c-guide/)
 
+### [Cách sử dụng ResourceHandler và lưu HTML vào luồng trong C#](./how-to-use-resourcehandler-and-save-html-to-a-stream-in-c/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

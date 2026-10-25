@@ -37,6 +37,7 @@ Una vez que haya comprendido los conceptos básicos, profundizaremos en el proce
 Ahora, llevemos tus habilidades al siguiente nivel. Editar documentos HTML es una tarea común para los desarrolladores web, y Aspose.HTML simplifica este proceso significativamente. En esta sección, cubriremos la creación, manipulación y estilo de documentos. Descubrirás cómo mejorar la apariencia y la funcionalidad de tu contenido web, haciéndolo atractivo y fácil de usar.
 
 ### [Cómo guardar HTML en C# – Guía completa usando un controlador de recursos personalizado](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
+
 ### [Cómo guardar HTML en C# con controlador de recursos personalizado](./how-to-save-html-in-c-with-custom-resource-handler/)
 
 Aprenda a guardar HTML en C# utilizando un controlador de recursos personalizado de forma sencilla y eficaz.
@@ -78,6 +79,10 @@ Aprenda a generar documentos HTML directamente desde una cadena en C# con este t
 Aprenda a comprimir archivos HTML en C# usando Aspose.HTML con esta guía paso a paso.
 
 ### [Crear HTML a partir de una cadena en C# – Guía completa con Memory Stream](./create-html-from-string-in-c-full-guide-with-memory-stream/)
+
+### [Cómo usar ResourceHandler y guardar HTML en un stream en C#](./how-to-use-resourcehandler-and-save-html-to-a-stream-in-c/)
+
+Aprenda a usar ResourceHandler para guardar HTML directamente en un flujo en C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -58,6 +58,8 @@ C# kullanarak HTML dosyalarını özel kaynak işleyicileri ve ZIP arşivleriyle
 ### [HTML Kaydetme – Aspose HTMLDocument Tam Kılavuz](./how-to-save-html-aspose-htmldocument-complete-guide/)
 ### [HTML için Zip Arşivi Oluşturma – Tam C# Kılavuzu](./create-zip-archive-for-html-complete-c-guide/)
 
+### [C#'ta ResourceHandler Kullanımı ve HTML'yi Akışa Kaydetme](./how-to-use-resourcehandler-and-save-html-to-a-stream-in-c/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -81,6 +81,8 @@ url: /el/net/working-with-html-documents/
 
 Μάθετε πώς να δημιουργήσετε αρχείο Zip που περιέχει HTML χρησιμοποιώντας C#, βήμα‑βήμα οδηγός.
 
+### [Πώς να χρησιμοποιήσετε το ResourceHandler και να αποθηκεύσετε HTML σε ροή (stream) σε C#](./how-to-use-resourcehandler-and-save-html-to-a-stream-in-c/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

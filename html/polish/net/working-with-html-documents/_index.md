@@ -76,6 +76,8 @@ Dowiedz się, jak zapisać dokument HTML przy użyciu klasy Aspose.HTMLDocument,
 
 ### [Utworzenie archiwum Zip dla HTML – Kompletny przewodnik C#](./create-zip-archive-for-html-complete-c-guide/)
 
+### [Jak używać ResourceHandler i zapisać HTML do strumienia w C#](./how-to-use-resourcehandler-and-save-html-to-a-stream-in-c/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

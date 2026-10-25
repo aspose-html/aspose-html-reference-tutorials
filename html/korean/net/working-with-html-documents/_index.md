@@ -70,7 +70,7 @@ C#에서 HTML을 저장하는 방법을 단계별로 자세히 안내합니다.
 
 ### [HTML용 Zip 아카이브 만들기 – 완전 C# 가이드](./create-zip-archive-for-html-complete-c-guide/)
 
-C#을 사용해 HTML 파일을 Zip 아카이브로 압축하는 방법을 단계별로 안내합니다.
+### [C#에서 ResourceHandler를 사용하고 HTML을 스트림에 저장하는 방법](./how-to-use-resourcehandler-and-save-html-to-a-stream-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

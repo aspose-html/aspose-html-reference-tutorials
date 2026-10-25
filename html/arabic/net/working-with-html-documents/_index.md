@@ -38,6 +38,7 @@ url: /ar/net/working-with-html-documents/
 
 ### [كيفية حفظ HTML في C# – دليل كامل باستخدام معالج موارد مخصص](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 ### [كيفية حفظ HTML في C# باستخدام معالج موارد مخصص](./how-to-save-html-in-c-with-custom-resource-handler/)
+### [كيفية استخدام ResourceHandler وحفظ HTML إلى تدفق في C#](./how-to-use-resourcehandler-and-save-html-to-a-stream-in-c/)
 
 ### [كيفية حفظ HTML كملف ZIP في C# – دليل كامل باستخدام معالج موارد مخصص](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
 ### [إنشاء مستند HTML C# – دليل كامل مع معالج موارد مخصص](./create-html-document-c-complete-guide-with-custom-resource-h/)

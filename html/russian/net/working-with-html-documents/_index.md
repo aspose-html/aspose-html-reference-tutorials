@@ -69,6 +69,8 @@ HTML-документы являются основой Интернета, и �
 
 ### [Создание ZIP-архива для HTML – Полное руководство на C#](./create-zip-archive-for-html-complete-c-guide/)
 
+### [Как использовать ResourceHandler и сохранить HTML в поток в C#](./how-to-use-resourcehandler-and-save-html-to-a-stream-in-c/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

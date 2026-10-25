@@ -42,6 +42,8 @@ Laten we nu uw vaardigheden naar een hoger niveau tillen. Het bewerken van HTML-
 
 Leer hoe u HTML-bestanden opslaat in C# met een gedetailleerde, stap‑voor‑stap handleiding.
 
+### [ResourceHandler gebruiken en HTML opslaan in een stream in C#](./how-to-use-resourcehandler-and-save-html-to-a-stream-in-c/)
+
 ### [Koptekst vet maken met CSS & C# – Complete stapsgewijze handleiding](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 ### [HTML opslaan in C# – Aangepaste resourcehandlers & ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
 ### [HTML opslaan met Aspose.Html – Complete C#‑gids](./how-to-save-html-with-aspose-html-complete-c-guide/)
