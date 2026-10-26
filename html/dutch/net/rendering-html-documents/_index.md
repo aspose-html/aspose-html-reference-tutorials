@@ -146,6 +146,15 @@ Leer hoe u HTML naar PDF converteert met Aspose in deze volledige stap‑voor‑
 ### [HTML renderen naar afbeelding in C# – Complete Aspose.HTML-gids](./render-html-to-image-in-c-complete-aspose-html-guide/)
 Leer stap voor stap hoe u HTML naar afbeeldingen rendert met C# en Aspose.HTML in deze volledige gids.
 
+### [HTML renderen naar afbeelding in C# – Complete programmeergids](./render-html-to-image-in-c-complete-programming-guide/)
+Leer stap voor stap hoe u HTML naar een afbeelding converteert met C# en Aspose.HTML in deze volledige programmeergids.
+
+### [Hoe antialiasing in te schakelen bij het renderen van HTML naar PNG – Stapsgewijze gids](./how-to-enable-antialiasing-when-rendering-html-to-png-step-b/)
+Leer hoe u antialiasing inschakelt bij het renderen van HTML naar PNG met Aspose.HTML in deze stap‑voor‑stap handleiding.
+
+### [Hoe HTML te zippen en als PNG te renderen – Complete C#-gids](./how-to-zip-html-and-render-it-as-png-complete-c-guide/)
+Leer stap voor stap hoe u HTML-bestanden zipt en vervolgens rendert naar PNG met C# en Aspose.HTML.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

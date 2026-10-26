@@ -143,6 +143,12 @@ Học cách chuyển đổi HTML thành hình ảnh với Aspose.HTML cho .NET q
 Học cách chuyển đổi HTML sang PDF bằng Aspose.HTML cho .NET, bao gồm các bước chi tiết và mẹo thực tiễn để tạo tài liệu PDF chất lượng.
 ### [Kết xuất HTML thành hình ảnh trong C# – Hướng dẫn toàn diện Aspose.HTML](./render-html-to-image-in-c-complete-aspose-html-guide/)
 Học cách chuyển đổi HTML thành hình ảnh bằng C# với Aspose.HTML, bao gồm các bước chi tiết và mẹo thực tiễn.
+### [Render HTML thành hình ảnh trong C# – Hướng dẫn lập trình toàn diện](./render-html-to-image-in-c-complete-programming-guide/)
+Học cách chuyển đổi HTML thành hình ảnh trong C# với Aspose.HTML, bao gồm các bước chi tiết và mẹo thực tiễn.
+### [Cách bật khử răng cưa khi render HTML sang PNG – Hướng dẫn từng bước](./how-to-enable-antialiasing-when-rendering-html-to-png-step-b/)
+Tìm hiểu cách kích hoạt khử răng cưa để cải thiện chất lượng hình ảnh PNG khi render HTML bằng Aspose.HTML cho .NET.
+### [Cách nén HTML và render thành PNG – Hướng dẫn C# đầy đủ](./how-to-zip-html-and-render-it-as-png-complete-c-guide/)
+Học cách nén tệp HTML và chuyển đổi thành PNG bằng C# với Aspose.HTML, bao gồm các bước chi tiết và mẹo thực tiễn.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

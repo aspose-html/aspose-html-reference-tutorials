@@ -134,6 +134,8 @@ DOCX を ZIP に変換し、画像レンダリングまで網羅した完全ガ�
 Aspose.HTML を利用して、HTML コンテンツを PNG 画像に変換する手順を詳細に解説します。
 ### [C# で HTML をレンダリングする – ステップバイステップガイド](./how-to-render-html-in-c-step-by-step-guide/)
 Aspose.HTML を使用して C# で HTML をレンダリングし、画像に変換する手順をステップバイステップで解説します。
+### [Aspose.HTML を使用して HTML を PNG にレンダリングする方法](./how-to-render-html-as-png-with-aspose-html/)
+Aspose.HTML for .NET を使い、HTML コンテンツを PNG 画像に変換する手順をステップバイステップで解説します。
 
 ## 結論
 

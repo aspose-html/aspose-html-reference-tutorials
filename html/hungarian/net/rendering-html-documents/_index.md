@@ -132,6 +132,12 @@ Tanulja meg, hogyan renderelhet HTML-t képként az Aspose.HTML segítségével 
 Tanulja meg, hogyan renderelhet HTML-t PDF formátumba az Aspose segítségével .NET környezetben, lépésről lépésre útmutató.
 ### [HTML renderelése képként C#-ban – Teljes Aspose.HTML útmutató](./render-html-to-image-in-c-complete-aspose-html-guide/)
 Tanulja meg, hogyan renderelhet HTML-t képként C#-ban az Aspose.HTML segítségével, lépésről lépésre útmutató.
+### [HTML renderelése képként C#-ban – Teljes programozási útmutató](./render-html-to-image-in-c-complete-programming-guide/)
+Tanulja meg, hogyan renderelhet HTML-t képpé C#-ban az Aspose.HTML segítségével, lépésről lépésre útmutató.
+### [Hogyan engedélyezzük az antialiasingot HTML PNG-re rendereléskor – Lépésről‑lépésre útmutató](./how-to-enable-antialiasing-when-rendering-html-to-png-step-b/)
+Tanulja meg, hogyan aktiválhatja az antialiasingot az Aspose.HTML for .NET használatával HTML PNG-re történő rendereléskor.
+### [HTML tömörítése és PNG-ként való renderelése – Teljes C# útmutató](./how-to-zip-html-and-render-it-as-png-complete-c-guide/)
+Tanulja meg, hogyan tömöríthet HTML-fájlokat, majd renderelheti őket PNG-ként C#-ban az Aspose.HTML segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

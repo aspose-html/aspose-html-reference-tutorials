@@ -50,6 +50,8 @@ url: /el/net/rendering-html-documents/
 Μάθετε βήμα-βήμα πώς να μετατρέψετε HTML σε PNG χρησιμοποιώντας C# και Aspose.HTML.
 ### [Πώς να ενεργοποιήσετε την εξομάλυνση (Antialiasing) κατά την απόδοση HTML σε PNG σε C#](./how-to-enable-antialiasing-when-rendering-html-to-png-in-c/)
 Μάθετε πώς να ενεργοποιήσετε το antialiasing κατά την απόδοση HTML σε PNG χρησιμοποιώντας C# και Aspose.HTML.
+### [Πώς να ενεργοποιήσετε το Antialiasing κατά την απόδοση HTML σε PNG – Οδηγός βήμα‑βήμα](./how-to-enable-antialiasing-when-rendering-html-to-png-step-b/)
+Μάθετε πώς να ενεργοποιήσετε το antialiasing για πιο ομαλές εικόνες κατά τη μετατροπή HTML σε PNG με το Aspose.HTML για .NET.
 ### [Αποδώστε το EPUB ως XPS σε .NET με Aspose.HTML](./render-epub-as-xps/)
 Μάθετε πώς να δημιουργείτε και να αποδίδετε έγγραφα HTML με το Aspose.HTML για .NET σε αυτό το ολοκληρωμένο σεμινάριο. Βουτήξτε στον κόσμο της χειραγώγησης HTML, της απόξεσης ιστού και πολλά άλλα.
 
@@ -146,6 +148,10 @@ url: /el/net/rendering-html-documents/
 Μάθετε πώς να μετατρέψετε HTML σε PDF με το Aspose.HTML για .NET σε αυτόν τον πλήρη οδηγό βήμα‑βήμα.
 ### [Απόδοση HTML σε εικόνα σε C# – Πλήρης οδηγός Aspose.HTML](./render-html-to-image-in-c-complete-aspose-html-guide/)
 Μάθετε πώς να μετατρέψετε HTML σε εικόνα χρησιμοποιώντας C# και το Aspose.HTML σε αυτόν τον πλήρη οδηγό.
+### [Απόδοση HTML σε εικόνα σε C# – Πλήρης προγραμματιστικός οδηγός](./render-html-to-image-in-c-complete-programming-guide/)
+Μάθετε πώς να αποδίδετε HTML σε εικόνα χρησιμοποιώντας C# και το Aspose.HTML σε αυτόν τον πλήρη οδηγό προγραμματισμού.
+### [Πώς να συμπιέσετε HTML σε αρχείο ZIP και να το αποδώσετε ως PNG – Πλήρης οδηγός C#](./how-to-zip-html-and-render-it-as-png-complete-c-guide/)
+Μάθετε πώς να συμπιέσετε HTML σε αρχείο ZIP και να το αποδώσετε ως PNG με το Aspose.HTML για .NET σε αυτόν τον πλήρη οδηγό C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

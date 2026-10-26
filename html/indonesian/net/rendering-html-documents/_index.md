@@ -166,6 +166,15 @@ Pelajari cara mengonversi HTML menjadi PDF menggunakan Aspose dengan panduan lan
 ### [Render HTML ke Gambar dalam C# – Panduan Lengkap Aspose.HTML](./render-html-to-image-in-c-complete-aspose-html-guide/)
 Pelajari cara merender HTML menjadi gambar menggunakan Aspose.HTML untuk .NET dengan contoh kode C# lengkap.
 
+### [Render HTML ke Gambar dalam C# – Panduan Pemrograman Lengkap](./render-html-to-image-in-c-complete-programming-guide/)
+Pelajari cara merender HTML menjadi gambar dengan Aspose.HTML untuk .NET menggunakan contoh kode C# lengkap.
+
+### [Cara Mengompres HTML menjadi ZIP dan Merendernya sebagai PNG – Panduan Lengkap C#](./how-to-zip-html-and-render-it-as-png-complete-c-guide/)
+Pelajari cara mengompres file HTML menjadi ZIP dan merendernya menjadi PNG menggunakan Aspose.HTML untuk .NET dengan contoh kode C# lengkap.
+
+### [Cara Mengaktifkan Antialiasing Saat Merender HTML ke PNG – Panduan Langkah‑demi‑Langkah](./how-to-enable-antialiasing-when-rendering-html-to-png-step-b/)
+Pelajari cara mengaktifkan antialiasing saat merender HTML menjadi PNG menggunakan Aspose.HTML untuk .NET dengan panduan langkah demi langkah.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

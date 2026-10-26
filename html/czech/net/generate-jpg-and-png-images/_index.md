@@ -137,6 +137,8 @@ Naučte se, jak pomocí Aspose.HTML v C# převést HTML na PNG s podrobným náv
 Naučte se, jak pomocí Aspose.HTML převést HTML na PNG pomocí podrobného průvodce krok za krokem.
 ### [Jak vykreslit HTML v C# – krok za krokem průvodce](./how-to-render-html-in-c-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.HTML v C# vykreslit HTML pomocí podrobného krok‑za‑krokem průvodce.
+### [Jak vykreslit HTML jako PNG pomocí Aspose.HTML](./how-to-render-html-as-png-with-aspose-html/)
+Naučte se, jak pomocí Aspose.HTML převést HTML do formátu PNG s vysokou kvalitou.
 
 ## Závěr
 

@@ -139,6 +139,12 @@ Lär dig hur du med Aspose.HTML för .NET konverterar HTML till bild i en komple
 Lär dig hur du med Aspose.HTML för .NET konverterar HTML till PDF i en komplett steg‑för‑steg‑guide.
 ### [Rendera HTML till bild i C# – Komplett Aspose.HTML-guide](./render-html-to-image-in-c-complete-aspose-html-guide/)
 Lär dig steg för steg hur du renderar HTML till bildformat med C# och Aspose.HTML i den här kompletta guiden.
+### [Hur man aktiverar kantutjämning vid rendering av HTML till PNG – Steg‑för‑steg‑guide](./how-to-enable-antialiasing-when-rendering-html-to-png-step-b/)
+Lär dig hur du med Aspose.HTML för .NET aktiverar kantutjämning när du renderar HTML till PNG i en detaljerad steg‑för‑steg‑handledning.
+### [Hur man zippar HTML och renderar det som PNG – Komplett C#‑guide](./how-to-zip-html-and-render-it-as-png-complete-c-guide/)
+Lär dig hur du zippar HTML-filer och renderar dem till PNG med Aspose.HTML i en komplett C#‑guide.
+### [Rendera HTML till bild i C# – Komplett programmeringsguide](./render-html-to-image-in-c-complete-programming-guide/)
+Lär dig hur du med Aspose.HTML för .NET konverterar HTML till bild i C# i en komplett programmeringsguide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
