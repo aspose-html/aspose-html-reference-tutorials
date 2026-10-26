@@ -10,11 +10,9 @@ url: /nl/java/handling-zip-files/
 weight: 31
 ---
 
-.
 
-Be careful with bullet list formatting.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

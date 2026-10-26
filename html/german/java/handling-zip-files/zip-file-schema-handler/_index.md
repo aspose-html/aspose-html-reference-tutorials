@@ -10,13 +10,10 @@ url: /de/java/handling-zip-files/zip-file-schema-handler/
 weight: 11
 ---
 
--Eintrag lesen Java – ZIP-Handler in Aspose.HTML". Keep "Read ZIP Entry Java – ZIP Handler in Aspose.HTML" maybe translate "Read ZIP Entry Java – ZIP Handler in Aspose.HTML" to German: "ZIP-Eintrag lesen Java – ZIP-Handler in Aspose.HTML". We'll translate.
 
-Also "Introduction" -> "Einleitung". "Quick Answers" -> "Schnelle Antworten". "What does the handler do?" etc.
 
-Make sure to keep code block placeholders unchanged.
 
-Let's craft final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

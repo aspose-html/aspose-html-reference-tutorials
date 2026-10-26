@@ -1,0 +1,7 @@
+Title: Create animated gif from svg – Step‑by‑Step Java Guide
+Slug: create-animated-gif-from-svg-step-by-step-java-guide
+Category: conversion-html-to-various-image-formats
+ProcessedDate: 2026-06-07T11:10:27.875711
+SourceRepo: AI Search API
+Keywords: create animated gif from svg, convert svg to animated gif, convert vector image to gif
+PRNumber: 175
