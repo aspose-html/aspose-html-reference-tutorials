@@ -1,0 +1,7 @@
+Title: How to use resource options with Aspose.HTML for Python
+Slug: how-to-use-resource-options-with-aspose-html-for-python
+Category: general
+ProcessedDate: 2026-08-09T22:38:36.626888
+SourceRepo: AI Search API
+Keywords: how to use resource
+PRNumber: 236

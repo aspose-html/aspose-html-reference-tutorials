@@ -10,7 +10,6 @@ url: /ru/java/message-handling-networking/web-request-execution/
 weight: 14
 ---
 
-.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

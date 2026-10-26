@@ -10,25 +10,16 @@ url: /pl/java/handling-zip-files/
 weight: 31
 ---
 
-uguje zaszyfrowane ZIPy; możesz podać hasło przy otwieraniu archiwum."
 
-**Q: What performance impact does removing files have?** -> "**P: Jaki wpływ na wydajność ma usuwanie plików?**"
 
-Answer: "Operacja jest wykonywana w pamięci i zapisuje tylko zmodyfikowane części, minimalizując I/O."
 
-Footer:
 
-**Last Updated:** 2026-02-15 -> "**Ostatnia aktualizacja:** 2026-02-15"
 
-**Tested With:** Aspose.HTML for Java 24.12 -> "**Testowano z:** Aspose.HTML for Java 24.12"
 
-**Author:** Aspose -> "**Autor:** Aspose"
 
-Now close shortcodes.
 
-Make sure we keep all shortcodes exactly as original.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
