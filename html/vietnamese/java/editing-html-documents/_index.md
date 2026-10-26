@@ -58,9 +58,27 @@ Tìm hiểu cách thêm CSS nội tuyến vào tài liệu HTML bằng Aspose.HT
 Tìm hiểu cách quản lý các thuộc tính HTML bên trong và bên ngoài trong Aspose.HTML cho Java với hướng dẫn từng bước này, hoàn hảo cho các nhà phát triển web và người sáng tạo nội dung.
 ### [Triển khai CSS nội bộ trong tài liệu HTML với Aspose.HTML cho Java](./implement-internal-css-html-documents/)
 Học cách triển khai CSS nội bộ trong tài liệu HTML bằng Aspose.HTML cho Java với hướng dẫn từng bước dễ dàng của chúng tôi.
+### [Thay đổi văn bản h1 trong MHTML với Java – Hướng dẫn chi tiết từng bước](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
+Hướng dẫn chi tiết cách thay đổi nội dung thẻ h1 trong tệp MHTML bằng Java.
 ### [Fixed thread pool Java – Làm sạch HTML song song với ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Sử dụng Fixed thread pool trong Java để thực hiện làm sạch HTML song song bằng ExecutorService.
+### [Thêm phần tử con vào body trong Java – Hướng dẫn đầy đủ Aspose.HTML](./append-child-to-body-in-java-full-aspose-html-tutorial/)
+Khám phá cách thêm phần tử con vào thẻ body trong tài liệu HTML bằng Aspose.HTML cho Java qua hướng dẫn chi tiết.
+### [Tạo phần tử HTML mới bằng Java – Hướng dẫn đầy đủ Aspose.HTML](./create-new-html-element-with-java-full-aspose-html-guide/)
+Hướng dẫn chi tiết cách tạo phần tử HTML mới bằng Java sử dụng Aspose.HTML, bao gồm các bước thực hiện và ví dụ thực tế.
+### [Cách Thêm Child trong Java DOM – Hướng Dẫn Toàn Diện Aspose.HTML](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
+Tìm hiểu cách thêm phần tử con vào DOM trong Java bằng Aspose.HTML với hướng dẫn chi tiết từng bước.
+### [Cách làm nổi bật HTML – Tìm kiếm văn bản & Thay thế bằng <mark>](./how-to-highlight-html-search-text-replace-with-mark/)
+Hướng dẫn tìm và thay thế văn bản trong HTML bằng thẻ <mark> để làm nổi bật nội dung.
+### [Cách loại bỏ script khỏi HTML trong Java – Hướng dẫn toàn diện](./how-to-remove-scripts-from-html-in-java-complete-guide/)
+Hướng dẫn chi tiết cách xóa các thẻ script khỏi tài liệu HTML bằng Java, bảo vệ bảo mật và tối ưu hiệu suất.
+### [Giải phóng khóa tự động trong Java – Hướng dẫn chỉnh sửa HTML an toàn đa luồng](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
+Học cách tự động giải phóng khóa trong Java để chỉnh sửa HTML một cách an toàn khi đa luồng.
+### [Cách trích xuất HTML trong Java – Trích xuất văn bản & Đánh dấu từ](./how-to-extract-html-in-java-extract-text-highlight-words/)
+Hướng dẫn cách sử dụng Aspose.HTML cho Java để trích xuất nội dung HTML, lấy văn bản và làm nổi bật các từ khóa.
 
+### [Lấy Thuộc tính Phần tử Java – Hướng dẫn đầy đủ về Lựa chọn SVG và XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
+Hướng dẫn chi tiết cách lấy thuộc tính phần tử trong Java, sử dụng SVG selection và XPath để xử lý tài liệu HTML.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

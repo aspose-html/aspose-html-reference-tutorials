@@ -9,9 +9,8 @@ url: /pl/java/editing-html-documents/implement-internal-css-html-documents/
 weight: 16
 ---
 
-zenie". etc.
 
-Let's produce final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
