@@ -40,12 +40,21 @@ Apprenez à manipuler des documents HTML dans .NET avec Aspose.HTML. Parcourez, 
 Découvrez comment créer du contenu Web dynamique à l'aide d'Aspose.HTML pour .NET. Notre didacticiel couvre les prérequis, les instructions étape par étape et les FAQ pour les débutants.
 ### [Générer un PDF crypté par PdfDevice dans .NET avec Aspose.HTML](./generate-encrypted-pdf-by-pdfdevice/)
 Convertissez du HTML en PDF de manière dynamique avec Aspose.HTML pour .NET. Intégration facile, options personnalisables et performances robustes.
+### [Enregistrer un document en PDF en C# – Guide complet avec prise en charge ZIP](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
+Apprenez à convertir et enregistrer des documents HTML en PDF en C#, incluant la création d'archives ZIP contenant les fichiers générés.
+
 ### [Ajustement précis des convertisseurs dans .NET avec Aspose.HTML](./fine-tuning-converters/)
 Découvrez comment convertir du HTML en PDF, XPS et images avec Aspose.HTML pour .NET. Tutoriel étape par étape avec des exemples de code et des FAQ.
 ### [Utilisation de modèles HTML dans .NET avec Aspose.HTML](./using-html-templates/)
 Découvrez comment utiliser Aspose.HTML pour .NET pour générer dynamiquement des documents HTML à partir de données JSON. Exploitez la puissance de la manipulation HTML dans vos applications .NET.
 ### [Comment combiner des polices programmatiquement en C# – Guide étape par étape](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
 Apprenez à combiner plusieurs polices en C# avec Aspose.HTML, étape par étape, incluant des exemples de code et des FAQ.
+### [Obtenir la version de l'assembly en C# – Guide rapide pour récupérer la version d'une bibliothèque](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
+Apprenez à récupérer la version d'un assembly C# rapidement, avec des exemples de code simples.
+### [Gestionnaire de ressources personnalisé dans Aspose HTML – Guide d’enregistrement dans un flux](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
+Apprenez à implémenter un gestionnaire de ressources personnalisé avec Aspose HTML pour enregistrer le contenu directement dans un flux.
+### [Comment compresser du HTML avec Aspose HTML – Guide complet](./how-to-zip-html-with-aspose-html-complete-guide/)
+Apprenez à compresser des fichiers HTML en archive ZIP avec Aspose HTML, étape par étape, incluant exemples de code et meilleures pratiques.
 
 ## Conclusion
 

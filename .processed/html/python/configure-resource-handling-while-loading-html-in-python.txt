@@ -1,0 +1,7 @@
+Title: Configure resource handling while loading HTML in Python
+Slug: configure-resource-handling-while-loading-html-in-python
+Category: general
+ProcessedDate: 2026-10-22T07:01:57.446347
+SourceRepo: AI Search API
+Keywords: configure resource handling, load html document python
+PRNumber: 311

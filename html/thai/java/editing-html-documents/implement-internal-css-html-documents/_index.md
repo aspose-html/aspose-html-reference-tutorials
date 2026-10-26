@@ -9,7 +9,6 @@ url: /th/java/editing-html-documents/implement-internal-css-html-documents/
 weight: 16
 ---
 
-Let's produce.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

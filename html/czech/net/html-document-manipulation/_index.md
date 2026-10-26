@@ -52,6 +52,8 @@ Aspose.HTML for .NET vyniká svou jednoduchostí a výkonem. Umožňuje vám př
 ### [Načtěte dokumenty HTML asynchronně v .NET pomocí Aspose.HTML](./load-html-doc-asynchronously/)
 Naučte se používat Aspose.HTML pro .NET pro práci s HTML dokumenty. Podrobný průvodce s příklady a často kladenými dotazy pro vývojáře.
 ### [Načtěte dokumenty HTML s pověřeními v .NET pomocí Aspose.HTML](./load-html-doc-with-credentials/)
+
+### [Načtěte dokumenty HTML s pověřeními v .NET pomocí Aspose.HTML](./load-html-with-credentials/)
 Naučte se, jak vylepšit vaše SEO pomocí Aspose.HTML pro .NET. Zvyšte hodnocení, analyzujte obsah webu a optimalizujte pro vyhledávače.
 ### [Načtěte HTML pomocí vzdáleného serveru v .NET s Aspose.HTML](./load-html-using-remote-server/)
 Odemkněte potenciál Aspose.HTML pro .NET pomocí našeho komplexního průvodce. Naučte se importovat jmenné prostory, přistupovat ke vzdáleným dokumentům HTML a další.
@@ -61,22 +63,44 @@ Naučte se, jak využít sílu Aspose.HTML pro .NET. Podpořte svůj vývoj webu
 Uvolněte sílu Aspose.HTML pro .NET. Naučte se snadno vytvářet, manipulovat a optimalizovat dokumenty HTML a SVG. Prozkoumejte příklady krok za krokem a často kladené otázky.
 ### [Úprava dokumentu v .NET pomocí Aspose.HTML](./editing-a-document/)
 Vytvářejte podmanivý webový obsah s Aspose.HTML pro .NET. Naučte se manipulovat s HTML, CSS a dalšími.
+### [Vytvoření HTML s Aspose – Najít prvek, aplikovat tučný text](./how-to-create-html-with-aspose-find-element-apply-bold/)
+Naučte se, jak pomocí Aspose vytvořit HTML, najít prvek a aplikovat tučný styl.
+
 ### [Uložení dokumentu v .NET pomocí Aspose.HTML](./saving-a-document/)
 Odemkněte sílu Aspose.HTML pro .NET pomocí našeho podrobného průvodce. Naučte se vytvářet, manipulovat a převádět dokumenty HTML a SVG
+### [Jak uložit HTML pomocí Aspose.HTML – krok za krokem](./how-to-save-html-with-aspose-html-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.HTML uložit HTML soubory pomocí podrobného průvodce krok za krokem.
 ### [Sloučit HTML s Json v .NET s Aspose.HTML](./merge-html-with-json/)
 Naučte se vytvářet dynamický a webový obsah pomocí Aspose.HTML pro .NET. Posilte svou online přítomnost a zapojte své publikum.
 ### [Sloučit HTML s XML v .NET s Aspose.HTML](./merge-html-with-xml/)
 Naučte se používat Aspose.HTML pro .NET. Importujte jmenný prostor, slučujte HTML s XML a vylepšete své dovednosti v oblasti vývoje webu pomocí tohoto komplexního průvodce.
 ### [Generujte dokumenty XPS pomocí XpsDevice v .NET pomocí Aspose.HTML](./generate-xps-documents-by-xpsdevice/)
 Odemkněte potenciál vývoje webu s Aspose.HTML pro .NET. Snadno vytvářejte, převádějte a manipulujte s dokumenty HTML.
+### [Vytvořte HTML dokument pomocí Aspose.HTML – průvodce krok za krokem](./create-html-document-with-aspose-html-step-by-step-guide/)
+Naučte se krok za krokem vytvářet HTML dokumenty pomocí knihovny Aspose.HTML v .NET.
 ### [Vytvoření HTML ze řetězce v C# – Průvodce vlastním Resource Handlerem](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Naučte se, jak vytvořit HTML dokument z řetězce v C# pomocí vlastního Resource Handleru.
+### [Ztučte a kurzívu textu v C# – Rychlý průvodce stylováním HTML](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
+Naučte se, jak pomocí Aspose.HTML v C# aplikacích aplikovat tučný a kurzívní styl na text v HTML.
+### [Přidání elementu do těla – Kompletní C# průvodce s Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)
+Naučte se, jak pomocí Aspose.HTML v C# přidat element do těla HTML dokumentu.
+### [Jak vytvořit HTML a přidat CSS stylový prvek – krok za krokem](./how-to-create-html-and-add-css-style-element-step-by-step-gu/)
+Naučte se vytvořit HTML dokument a přidat do něj CSS stylový prvek pomocí podrobného krok‑za‑krokem průvodce.
+### [Vytvoření HTML dokumentu v C# – Průvodce krok za krokem](./create-html-document-c-step-by-step-guide/)
+Naučte se, jak vytvořit HTML dokument v C# pomocí Aspose.HTML krok po kroku.
+### [Jak vytvořit HTML – Přidat prvky a stylovat text](./how-to-create-html-append-elements-and-style-text/)
+Naučte se, jak pomocí Aspose.HTML vytvořit HTML dokument, přidávat prvky a aplikovat styly na text.
+### [Jak stylovat HTML pomocí Aspose.HTML – nastavit styl písma v C#](./how-to-style-html-with-aspose-html-set-font-style-in-c/)
+Naučte se, jak pomocí Aspose.HTML nastavit styl písma v HTML dokumentu v jazyce C#.
+### [Kombinace tučného a kurzívního textu v HTML s C# – Kompletní průvodce](./combine-bold-and-italic-in-html-with-c-complete-guide/)
+Naučte se, jak v HTML kombinovat tučný a kurzívní text pomocí C# s podrobným návodem.
+### [Aplikujte styl písma programově – Rychlý průvodce C#](./apply-font-style-programmatically-quick-c-guide/)
+Naučte se, jak pomocí Aspose.HTML pro .NET nastavit a měnit styly písma v HTML dokumentech pomocí C#.
+### [Jak vytvořit HTML se stylovaným textem – kompletní průvodce v C#](./how-to-create-html-with-styled-text-complete-c-guide/)
+Naučte se pomocí Aspose.HTML v C# vytvářet HTML dokumenty se stylovaným textem krok za krokem.
 ### [Vytvoření HTML dokumentu pomocí Aspose.HTML – Kompletní průvodce](./create-html-document-with-aspose-html-full-guide/)
 Kompletní návod, jak vytvořit HTML dokument s Aspose.HTML v .NET, včetně ukázek kódu a tipů.
 
-## Závěr
-
-Závěrem, pokud chcete zvládnout manipulaci s HTML dokumenty pomocí Aspose.HTML pro .NET, jste na správném místě. Naše návody jsou vaší cestou k úspěchu. Připravte se prozkoumat možnosti, odemkněte svou kreativitu a zefektivněte svůj vývoj .NET. Začněte svou cestu ještě dnes a sledujte, jak se vaše dokumenty HTML mění před vašima očima. Ať už jste vývojář nebo nadšenec, Aspose.HTML pro .NET má pro vás něco neuvěřitelného. Tak na co čekáš? Vydejme se společně do tohoto vzrušujícího dobrodružství!
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
