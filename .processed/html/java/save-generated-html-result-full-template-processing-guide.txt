@@ -1,0 +1,7 @@
+Title: Save Generated HTML Result – Full Template Processing Guide
+Slug: save-generated-html-result-full-template-processing-guide
+Category: saving-html-documents
+ProcessedDate: 2026-07-08T22:26:46.080825
+SourceRepo: AI Search API
+Keywords: save generated html result
+PRNumber: 206

@@ -26,12 +26,98 @@ url: /ko/java/css-html-form-editing/
 이제 기어를 바꿔서 Java용 Aspose.HTML을 사용하여 HTML 양식을 효과적으로 편집하고 제출하는 방법을 살펴보겠습니다. 양식은 웹사이트에서 사용자 상호 작용의 핵심이 맞죠? 이 튜토리얼을 통해 양식의 디자인과 기능을 쉽게 변경하는 방법을 배울 수 있습니다. 필드를 미리 채우고, 사용자 지정 논리로 입력을 검증하고, 백엔드로 원활하게 데이터를 제출하는 방법을 알아봅니다. 상상해보세요. 사용자가 사이트에서 양식을 작성하고 정보가 안전하고 건전하다는 것을 알 수 있습니다. 바로 이런 종류의 경험을 만들고 싶기 때문입니다! 이 단계별 가이드에는 실행 가능한 통찰력이 가득 차 있어 모든 개념을 이해할 수 있습니다.[더 읽어보기](./html-form-editing/). 
 
 ## Aspose.HTML for Java 튜토리얼을 사용한 CSS 및 HTML 양식 편집
+
 ### [Java용 Aspose.HTML을 사용한 고급 CSS 확장 기술](./advanced-css-extension/)
 Aspose.HTML for Java를 사용하여 사용자 정의 페이지 여백 및 동적 콘텐츠를 포함한 고급 CSS 기술을 적용하는 방법을 알아보세요. 개발자를 위한 자세하고 실용적인 튜토리얼입니다.
+
 ### [Aspose.HTML for Java를 사용한 HTML 양식 편집 및 제출](./html-form-editing/)
 이 포괄적인 단계별 가이드를 통해 Java용 Aspose.HTML을 사용하여 HTML 양식을 프로그래밍 방식으로 편집하고 제출하는 방법을 알아보세요.
+### [Java에서 계산된 CSS 가져오기 – 완전 Aspose HTML 가이드](./get-computed-css-in-java-complete-aspose-html-guide/)
+Java용 Aspose.HTML을 사용해 요소의 계산된 CSS 값을 추출하고 활용하는 방법을 단계별로 안내합니다.
+### [Java에서 스타일 가져오기 – HTML 로드 및 쿼리 선택자](./how-to-get-style-in-java-load-html-query-selector/)
+Java용 Aspose.HTML을 사용해 HTML을 로드하고 쿼리 선택자로 스타일을 추출하는 방법을 배웁니다.
 ### [Java에서 클래스별 select 요소 선택 – 완전 가이드](./select-element-by-class-in-java-complete-how-to-guide/)
 Java에서 CSS 클래스 이름으로 select 요소를 찾는 방법을 단계별로 안내합니다.
+### [Java에서 CSS 읽기 – Aspose.HTML을 활용한 완전 가이드](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
+Aspose.HTML을 사용하여 Java에서 CSS 파일을 읽고 파싱하는 방법을 단계별로 안내합니다.
+### [Java로 HTML 파싱: CSS 속성 추출 및 글꼴 크기 가져오기](./parse-html-with-java-extract-css-property-and-get-font-size/)
+Java를 사용해 HTML을 파싱하고 CSS 속성을 추출하여 글꼴 크기를 확인하는 방법을 배웁니다.
+### [Java에서 HTML 쿼리하는 방법 – HTML 로드, CSS 선택자, 헤딩 추출](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
+Java를 사용해 HTML을 로드하고 CSS 선택자를 이용해 헤딩을 추출하는 방법을 배웁니다.
+
+
+
+
+
+
+
+### [Java에서 계산된 스타일 가져오기 – HTML에서 배경 색상 추출](./get-computed-style-java-extract-background-color-from-html/)
+Java용 Aspose.HTML을 사용해 HTML 요소의 계산된 스타일을 얻고 배경 색상을 추출하는 방법을 단계별로 안내합니다.
+
+
+
+
+
+
+
+### [Java에서 요소의 계산된 스타일 가져오기 – 전체 단계별 가이드](./get-element-computed-style-in-java-full-step-by-step-guide/)
+Java용 Aspose.HTML을 사용하여 요소의 계산된 CSS 스타일을 추출하고 활용하는 방법을 단계별로 안내합니다.
+### [Java에서 getComputedStyle 사용 방법 – 배경색 및 기타 CSS 속성 추출](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
+Java용 Aspose.HTML을 활용해 getComputedStyle를 호출하고 배경색 및 다양한 CSS 속성을 추출하는 방법을 단계별로 안내합니다.
+### [Java에서 HTML에서 CSS 추출 – 단계별 가이드](./extract-css-from-html-in-java-step-by-step-guide/)
+Java와 Aspose.HTML을 사용하여 HTML 문서에서 CSS를 추출하는 방법을 단계별로 안내합니다.
+### [Java에서 HTML 쿼리하기 – 요소 선택, 속성으로 필터링 및 텍스트 내용 가져오기](./how-to-query-html-in-java-select-elements-filter-by-attribut/)
+Java용 Aspose.HTML을 사용해 HTML을 쿼리하고, 요소를 선택하고, 속성으로 필터링하며, 텍스트 내용을 추출하는 방법을 단계별로 안내합니다.
+### [Java에서 CSS 가져오기 – Aspose.HTML을 사용한 계산된 스타일 검색](./how-to-get-css-in-java-retrieve-computed-style-with-aspose-h/)
+Aspose.HTML for Java를 사용해 현재 적용된 CSS 스타일을 프로그래밍 방식으로 가져오는 방법을 단계별로 안내합니다.
+### [Java에서 CSS 가져오기 – Aspose.HTML을 사용한 스타일 추출 완전 가이드](./how-to-get-css-in-java-complete-guide-to-extract-styles-with/)
+Aspose.HTML을 활용해 Java에서 웹 페이지의 CSS 스타일을 추출하고 활용하는 방법을 단계별로 안내합니다.
+### [Java에서 CSS를 읽는 방법 – 단계별 가이드](./how-to-read-css-in-java-step-by-step-guide/)
+Java에서 CSS 파일을 읽고 파싱하는 방법을 단계별로 자세히 설명합니다.
+### [Java에서 CSS 가져오기 – querySelector와 Computed Style 사용](./how-to-get-css-in-java-using-queryselector-and-computed-styl/)
+Java에서 querySelector와 Computed Style를 활용해 CSS 속성을 추출하고 활용하는 방법을 단계별로 안내합니다.
+### [Java에서 ID로 요소 가져오기 – 계산된 스타일 완전 가이드](./get-element-by-id-java-complete-guide-to-computed-styles/)
+Java에서 요소를 ID로 선택하고, 계산된 스타일을 확인하는 방법을 단계별로 안내합니다.
+### [Java에서 스타일 가져오기 – 요소 찾기 및 배경 읽기](./how-to-get-style-in-java-find-element-read-background/)
+Java용 Aspose.HTML을 사용하여 요소의 스타일을 가져오고 배경 색상을 읽는 방법을 단계별로 안내합니다.
+### [Java에서 계산된 스타일 가져오기 – 전체 Aspose.HTML 예제](./how-to-get-computed-style-in-java-full-aspose-html-example/)
+이 예제에서는 Aspose.HTML for Java를 사용해 요소의 계산된 CSS 스타일을 프로그래밍 방식으로 가져오는 방법을 단계별로 안내합니다.
+### [Java에서 계산된 스타일 가져오기 – 완전 Aspose.HTML 가이드](./how-to-get-computed-style-in-java-complete-aspose-html-guide/)
+Java에서 Aspose.HTML을 사용하여 계산된 스타일을 가져오는 방법을 단계별로 안내합니다.
+### [Java에서 CSS 읽는 방법 – 계산된 스타일을 단계별로 추출](./how-to-read-css-in-java-extract-computed-styles-step-by-step/)
+Java를 사용해 CSS를 읽고, 계산된 스타일을 단계별로 추출하는 방법을 자세히 안내합니다.
+### [Java에서 ID로 요소 가져오기 – 계산된 스타일을 가져오는 완전 가이드](./get-element-by-id-in-java-full-guide-to-retrieve-computed-st/)
+이 가이드에서는 Java에서 요소를 ID로 선택하고, 계산된 CSS 스타일을 추출하는 방법을 단계별로 설명합니다.
+### [쿼리 셀렉터 div 클래스 – Java에서 클래스별 div 선택 및 계산된 스타일 가져오기](./query-selector-div-class-how-to-select-a-div-by-class-and-ge/)
+Java에서 CSS 클래스 이름으로 div 요소를 선택하고 계산된 스타일을 가져오는 방법을 단계별로 안내합니다.
+### [Java에서 CSS 읽는 방법 – Aspose.HTML을 사용한 완전 가이드](./how-to-read-css-in-java-complete-guide-using-aspose-html/)
+Aspose.HTML을 활용해 Java에서 CSS를 읽고 분석하는 방법을 단계별로 안내합니다.
+### [Java에서 CSS 속성 가져오기 – 요소 배경색 읽기](./how-to-get-css-property-in-java-read-element-background-colo/)
+Java에서 Aspose.HTML을 사용해 요소의 배경색과 같은 CSS 속성을 읽는 방법을 단계별로 안내합니다.
+### [Java에서 스타일 가져오기 – Aspose.HTML로 계산된 CSS 검색](./how-to-get-style-in-java-retrieve-computed-css-with-aspose-h/)
+Aspose.HTML를 사용하여 Java에서 계산된 CSS 값을 가져오는 방법을 단계별로 안내합니다.
+### [Aspose HTML Java에서 스타일 가져오기 – 쿼리 선택자 사용](./how-to-get-style-in-aspose-html-java-use-query-selector/)
+Aspose.HTML for Java에서 querySelector를 사용해 요소의 스타일을 프로그래밍 방식으로 가져오는 방법을 단계별로 안내합니다.
+### [Java에서 CSS 읽기 – 계산된 스타일 가져오기](./how-to-read-css-in-java-get-computed-style/)
+Java에서 CSS를 읽고 계산된 스타일을 가져오는 방법을 단계별로 안내합니다.
+### [Java에서 Aspose.HTML을 사용해 스타일 가져오기 – 단계별 가이드](./how-to-get-style-in-java-with-aspose-html-step-by-step-guide/)
+Java용 Aspose.HTML을 활용해 요소의 스타일을 프로그래밍 방식으로 추출하는 방법을 단계별로 안내합니다.
+### [Java에서 CSS 읽기 – 모바일 화면 시뮬레이션 및 미디어 쿼리 테스트](./how-to-read-css-in-java-simulate-mobile-screen-test-media-qu/)
+Java를 사용해 CSS를 읽고, 모바일 화면을 시뮬레이션하며, 미디어 쿼리를 테스트하는 방법을 단계별로 안내합니다.
+### [Java에서 HTML 로드하기 – CSS 색상 추출 포함 전체 가이드](./how-to-load-html-in-java-full-guide-with-css-color-extractio/)
+Java에서 Aspose.HTML을 사용해 HTML을 로드하고 CSS 색상을 추출하는 방법을 단계별로 안내합니다.
+### [Java를 사용한 HTML에서 CSS 추출 – 완전 프로그래밍 가이드](./extract-css-from-html-in-java-complete-programming-guide/)
+Aspose.HTML for Java를 활용해 HTML 문서에서 CSS를 추출하는 방법을 단계별로 안내합니다.
+### [Java에서 CSS를 읽는 방법 – 완전 Aspose.HTML 가이드](./how-to-read-css-in-java-complete-aspose-html-guide/)
+이 튜토리얼에서는 Aspose.HTML을 사용해 Java에서 CSS 파일을 읽고 파싱하는 전체 과정을 단계별로 안내합니다.
+
+### [Aspose.HTML와 함께 Java에서 CSS 속성 값 가져오기 – 완전 가이드](./get-css-property-value-in-java-complete-guide-with-aspose-ht/)
+이 포괄적인 가이드를 통해 Java용 Aspose.HTML을 사용하여 CSS 속성 값을 프로그래밍 방식으로 가져오는 방법을 알아보세요.
+### [Java에서 클래스별 HTML 요소 선택 – 완전 가이드](./select-html-element-by-class-in-java-complete-guide/)
+Java에서 CSS 클래스 이름으로 HTML 요소를 찾고 조작하는 방법을 단계별로 안내합니다.
+### [비활성화되지 않은 버튼을 위한 CSS 선택자 – Java HTML 파싱 가이드](./css-selector-not-disabled-button-java-html-parsing-guide/)
+Java와 Aspose.HTML을 사용해 비활성화되지 않은 버튼을 선택하는 CSS 선택자를 파싱하고 적용하는 방법을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
