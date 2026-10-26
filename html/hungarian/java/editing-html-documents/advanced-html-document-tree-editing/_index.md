@@ -71,8 +71,8 @@ url: /hu/java/editing-html-documents/advanced-html-document-tree-editing/
 weight: 11
 ---
 
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hogyan generáljunk PDF-et HTML-ből az Aspose.HTML for Java használatával
@@ -242,9 +242,8 @@ Most már rendelkezik egy teljes, vég‑a‑vég munkafolyammal a **generating 
 - [PDF létrehozása HTML-ből – Felhasználói stíluslap beállítása az Aspose.HTML for Java-ban](/html/java/configuring-environment/set-user-style-sheet/)
 - [HTML dokumentumfa szerkesztése az Aspose.HTML for Java-ban](/html/java/editing-html-documents/edit-html-document-tree/)
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< blocks/products/pf/main-wrap-class >}}

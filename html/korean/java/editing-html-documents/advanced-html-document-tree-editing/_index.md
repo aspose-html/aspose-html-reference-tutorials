@@ -70,8 +70,8 @@ url: /ko/java/editing-html-documents/advanced-html-document-tree-editing/
 weight: 11
 ---
 
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.HTML for Java를 사용하여 HTML에서 PDF 생성 방법
@@ -242,9 +242,8 @@ A: You can obtain a temporary license from the [Aspose purchase page](https://pu
 - [How to Edit HTML Document Tree in Aspose.HTML for Java](/html/java/editing-html-documents/edit-html-document-tree/)
 
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< blocks/products/pf/main-wrap-class >}}
