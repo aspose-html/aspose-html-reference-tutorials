@@ -183,6 +183,7 @@ Aspose.HTML for Java를 사용해 HTML을 WebP로 변환합니다. HTML 문서�
 Aspose.HTML for Java를 사용해 HTML을 AVIF 이미지로 변환하는 방법을 단계별로 안내합니다.
 ### [Java에서 웹페이지를 PNG로 렌더링할 때 외부 이미지 비활성화](./disable-external-images-while-rendering-webpage-to-png-in-ja/)
 Aspose.HTML for Java를 사용해 렌더링 중 외부 이미지를 차단하고 PNG 스크린샷을 생성하는 방법을 안내합니다.
+### [HTML을 PNG로 변환 – Aspose.HTML와 함께하는 완전한 Java 가이드](./convert-html-to-png-in-java-complete-aspose-html-guide/)
 
 ## 자주 묻는 질문
 

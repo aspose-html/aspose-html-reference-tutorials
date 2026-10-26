@@ -72,13 +72,6 @@ GIF 非常適合小型動畫或需要受限色盤（最多 256 色）的情境�
 
 將 `ImageFormat` 設為 PNG，並可選擇指定 `Resolution` 以提升高 DPI 顯示器上的清晰度。
 
-## 常見使用情境
-- **電子報** – 嵌入動態圖表的 PNG 快照。  
-- **自動化報告** – 為僅接受 BMP 的舊系統產生 BMP 圖像。  
-- **社群媒體預覽** – 從動畫 HTML 橫幅製作 GIF。  
-- **文件產生** – 在 PDF 中插入 JPEG 圖像以加速渲染。
-
-## 將 HTML 轉換為各種圖像格式的教學
 ### [Converting HTML to BMP](./convert-html-to-bmp/)
 了解如何使用 Aspose.HTML for Java 輕鬆將 HTML 轉換為 BMP。提供前置條件與套件匯入的步驟說明，立即探索！
 
@@ -113,6 +106,8 @@ A: 永久授權加上可選的支援合約。亦提供免費的臨時授權供�
 **最後更新：** 2026-03-31  
 **測試環境：** Aspose.HTML for Java 24.11  
 **作者：** Aspose  
+### [HTML 轉圖教學 – 使用 Java 將 HTML 檔案轉換為 PNG 與 JPEG](./html-to-image-tutorial-convert-html-files-to-png-jpeg-with-j/)
+了解如何使用 Aspose.HTML for Java 將 HTML 檔案轉換為 PNG 與 JPEG，提供完整步驟與範例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

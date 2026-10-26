@@ -115,6 +115,10 @@ Learn how to extract CSS from HTML programmatically using Aspose.HTML for Java i
 
 ### [Get CSS Property Value in Java – Complete Guide with Aspose.HTML](./get-css-property-value-in-java-complete-guide-with-aspose-ht/)
 Learn how to retrieve CSS property values programmatically using Aspose.HTML for Java in this comprehensive step-by-step guide.
+### [Select HTML Element by Class in Java – Complete Guide](./select-html-element-by-class-in-java-complete-guide/)
+Learn how to select HTML elements by class using Aspose.HTML for Java in this complete guide.
+### [css selector not disabled button – Java HTML Parsing Guide](./css-selector-not-disabled-button-java-html-parsing-guide/)
+Learn how to locate enabled button elements using CSS selectors with Aspose.HTML for Java in this practical parsing guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

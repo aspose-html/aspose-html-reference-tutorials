@@ -152,6 +152,11 @@ Java와 XPath를 사용해 클래스 이름으로 div 요소를 선택하는 방
 Aspose.HTML for Java를 사용해 마크다운 파일을 HTML로 손쉽게 변환하는 단계별 가이드입니다.
 ### [fetch json javascript – HTML 문서 생성을 위한 완전 Java 가이드](./fetch-json-javascript-complete-java-guide-to-create-html-doc/)
 Java에서 fetch JSON을 사용해 HTML 문서를 만드는 전체 단계별 가이드를 제공합니다.
+### [Java용 Aspose.HTML에서 임베디드 JavaScript가 포함된 HTML 문서 만들기 – Java 예제](./create-html-document-with-embedded-javascript-java-example/)
+Aspose.HTML for Java를 사용해 Java 예제로 임베디드 JavaScript가 포함된 HTML 문서를 생성하는 방법을 단계별로 안내합니다.
+### [Aspose.HTML을 사용한 클래스 java가 있는 div 만들기 – 전체 예제](./create-div-with-class-java-full-example-using-aspose-html/)
+Aspose.HTML for Java를 활용해 클래스가 java인 div 요소를 생성하는 전체 예제를 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

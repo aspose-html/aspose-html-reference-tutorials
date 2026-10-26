@@ -60,6 +60,8 @@ Apprenez à créer des documents HTML à partir de chaînes dans Aspose.HTML pou
 Apprenez à convertir du Markdown en HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
 ### [Créer un document HTML Java – Guide étape par étape avec Aspose.HTML](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
 Apprenez à créer un document HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
+### [Créer un document HTML avec JavaScript intégré – Exemple Java](./create-html-document-with-embedded-javascript-java-example/)
+Apprenez à créer un document HTML contenant du JavaScript intégré en Java avec Aspose.HTML. Guide pas à pas.
 ### [Charger des documents HTML à partir d'une URL dans Aspose.HTML pour Java](./load-html-documents-from-url/)
 Découvrez comment charger facilement des documents HTML à partir d'une URL en Java avec Aspose.HTML. Tutoriel étape par étape inclus.
 ### [Charger un document HTML avec Aspose – Guide rapide Java pour récupérer le titre de la page](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
@@ -156,6 +158,8 @@ Apprenez à transformer du Markdown en HTML en Java avec Aspose.HTML grâce à c
 
 ### [Comment rechercher du HTML avec Aspose Java – Guide complet de programmation](./how-to-search-html-with-aspose-java-complete-programming-gui/)
 Apprenez à interroger et extraire des données HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
+### [Créer une div avec classe java – Exemple complet utilisant Aspose.HTML](./create-div-with-class-java-full-example-using-aspose-html/)
+Apprenez à créer une balise div avec une classe en Java en utilisant Aspose.HTML, exemple complet pas à pas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

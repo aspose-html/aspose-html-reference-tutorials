@@ -93,6 +93,8 @@ JPG เป็นรูปแบบภาพบีบอัดที่ใช้�
 เรียนรู้วิธีแปลง EPUB เป็นภาพด้วย Aspose.HTML for Java คู่มือขั้นตอนสำหรับการแปลงที่ง่ายดาย  
 ### [แปลง EPUB เป็น PNG ด้วย Java – คู่มือขั้นตอน‑โดย‑ขั้นตอนเต็ม](./convert-epub-to-png-with-java-complete-step-by-step-guide/)
 เรียนรู้วิธีแปลง EPUB เป็น PNG ด้วย Aspose.HTML for Java ผ่านขั้นตอนง่าย ๆ นี้
+### [แปลง EPUB เป็น PNG ใน Java – คู่มือ Aspose HTML ฉบับสมบูรณ์](./convert-epub-to-png-in-java-complete-aspose-html-guide/)
+เรียนรู้วิธีแปลงไฟล์ EPUB เป็นภาพ PNG ด้วย Aspose.HTML for Java อย่างละเอียดและง่ายดาย
 
 ## คำถามที่พบบ่อย
 

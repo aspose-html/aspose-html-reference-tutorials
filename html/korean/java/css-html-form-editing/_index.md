@@ -113,6 +113,10 @@ Aspose.HTML for Java를 활용해 HTML 문서에서 CSS를 추출하는 방법�
 
 ### [Aspose.HTML와 함께 Java에서 CSS 속성 값 가져오기 – 완전 가이드](./get-css-property-value-in-java-complete-guide-with-aspose-ht/)
 이 포괄적인 가이드를 통해 Java용 Aspose.HTML을 사용하여 CSS 속성 값을 프로그래밍 방식으로 가져오는 방법을 알아보세요.
+### [Java에서 클래스별 HTML 요소 선택 – 완전 가이드](./select-html-element-by-class-in-java-complete-guide/)
+Java에서 CSS 클래스 이름으로 HTML 요소를 찾고 조작하는 방법을 단계별로 안내합니다.
+### [비활성화되지 않은 버튼을 위한 CSS 선택자 – Java HTML 파싱 가이드](./css-selector-not-disabled-button-java-html-parsing-guide/)
+Java와 Aspose.HTML을 사용해 비활성화되지 않은 버튼을 선택하는 CSS 선택자를 파싱하고 적용하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

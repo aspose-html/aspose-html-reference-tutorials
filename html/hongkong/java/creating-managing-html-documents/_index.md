@@ -157,6 +157,10 @@ Aspose.HTML for Java 為旨在在 Java 應用程式中無縫處理 HTML 文件�
 本完整指南說明如何使用 Aspose Java 在 HTML 中執行搜尋，涵蓋關鍵字匹配、XPath 查詢與範例程式碼。
 ### [fetch json javascript – 完整 Java 教程：建立 HTML 文檔](./fetch-json-javascript-complete-java-guide-to-create-html-doc/)
 本完整指南說明如何在 Java 中使用 fetch JSON 與 JavaScript 來建立 HTML 文檔，提供逐步說明與範例。
+### [使用嵌入式 JavaScript 建立 HTML 文檔 – Java 範例](./create-html-document-with-embedded-javascript-java-example/)
+了解如何在 Java 中使用 Aspose.HTML 建立包含嵌入式 JavaScript 的 HTML 文檔，提供完整步驟與範例。
+### [使用 Aspose.HTML 建立 class 為 java 的 div – 完整範例](./create-div-with-class-java-full-example-using-aspose-html/)
+本教學示範如何使用 Aspose.HTML 在 Java 中建立帶有 class 'java' 的 div 元素，提供完整範例與步驟說明。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

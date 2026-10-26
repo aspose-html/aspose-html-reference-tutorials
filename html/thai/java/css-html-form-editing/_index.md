@@ -114,6 +114,10 @@ url: /th/java/css-html-form-editing/
 
 ### [รับค่า Property ของ CSS ใน Java – คู่มือฉบับสมบูรณ์กับ Aspose.HTML](./get-css-property-value-in-java-complete-guide-with-aspose-ht/)
 เรียนรู้วิธีดึงค่า Property ของ CSS ใน Java ด้วย Aspose.HTML ผ่านคู่มือฉบับสมบูรณ์นี้
+### [เลือกองค์ประกอบ HTML ตามคลาสใน Java – คู่มือฉบับสมบูรณ์](./select-html-element-by-class-in-java-complete-guide/)
+เรียนรู้วิธีเลือกองค์ประกอบ HTML ตามคลาสใน Java อย่างละเอียด พร้อมตัวอย่างและขั้นตอนที่ชัดเจน
+### [ตัวเลือก CSS สำหรับปุ่มที่ไม่ได้ปิดการใช้งาน – คู่มือการแยกวิเคราะห์ HTML ด้วย Java](./css-selector-not-disabled-button-java-html-parsing-guide/)
+เรียนรู้วิธีใช้ตัวเลือก CSS เพื่อค้นหาปุ่มที่ไม่ได้ปิดการใช้งานในเอกสาร HTML ด้วย Aspose.HTML สำหรับ Java
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

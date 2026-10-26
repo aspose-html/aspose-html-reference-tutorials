@@ -67,6 +67,10 @@ Naučte se vytvářet HTML dokumenty z řetězců v Aspose.HTML pro Java pomocí
 Naučte se v Javě načíst JSON a generovat dynamický HTML obsah pomocí Aspose.HTML.
 ### [Načtěte HTML dokumenty z URL v Aspose.HTML pro Java](./load-html-documents-from-url/)
 Objevte, jak snadno načíst HTML dokumenty z URL v Javě pomocí Aspose.HTML. Včetně návodu krok za krokem.
+### [Vytvořte HTML dokument s vloženým JavaScriptem – příklad v Javě](./create-html-document-with-embedded-javascript-java-example/)
+Naučte se vytvořit HTML dokument s vloženým JavaScriptem v Javě pomocí Aspose.HTML.
+### [Vytvořte div s třídou java – kompletní příklad s použitím Aspose.HTML](./create-div-with-class-java-full-example-using-aspose-html/)
+Ukázkový průvodce, jak v Javě vytvořit element div s přiřazenou třídou pomocí Aspose.HTML.
 ### [Generujte nové HTML dokumenty pomocí Aspose.HTML pro Java](./generate-new-html-documents/)
 Naučte se vytvářet nové HTML dokumenty pomocí Aspose.HTML for Java pomocí tohoto jednoduchého průvodce krok za krokem. Začněte generovat dynamický obsah HTML.
 ### [Generujte HTML z JavaScriptu v Javě – Kompletní průvodce krok za krokem](./generate-html-from-javascript-in-java-complete-step-by-step/)

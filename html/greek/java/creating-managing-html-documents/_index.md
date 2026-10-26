@@ -63,6 +63,10 @@ url: /el/java/creating-managing-html-documents/
 Μάθετε πώς να δημιουργήσετε ένα έγγραφο HTML σε Java, λαμβάνοντας δεδομένα JSON και δημιουργώντας δυναμικό περιεχόμενο HTML με οδηγίες βήμα‑βήμα.
 ### [Δημιουργία HTML από Markdown σε Java – Πλήρης οδηγός βήμα‑βήμα](./create-html-from-markdown-in-java-full-step-by-step-guide/)
 Μάθετε πώς να μετατρέψετε αρχεία Markdown σε HTML σε Java με αναλυτικές οδηγίες βήμα‑βήμα.
+### [Δημιουργία div με κλάση java – Πλήρες Παράδειγμα Χρήσης Aspose.HTML](./create-div-with-class-java-full-example-using-aspose-html/)
+Μάθετε πώς να δημιουργήσετε ένα στοιχείο div με κλάση java χρησιμοποιώντας το Aspose.HTML σε πλήρη παράδειγμα βήμα‑βήμα.
+### [Δημιουργία εγγράφου HTML με ενσωματωμένο JavaScript – Παράδειγμα Java](./create-html-document-with-embedded-javascript-java-example/)
+Μάθετε πώς να δημιουργήσετε ένα έγγραφο HTML με ενσωματωμένο JavaScript χρησιμοποιώντας Aspose.HTML για Java σε αυτόν τον βήμα‑βήμα οδηγό.
 ### [Φόρτωση εγγράφων HTML από τη διεύθυνση URL στο Aspose.HTML για Java](./load-html-documents-from-url/)
 Ανακαλύψτε πώς να φορτώνετε εύκολα έγγραφα HTML από μια διεύθυνση URL σε Java με το Aspose.HTML. Περιλαμβάνεται σεμινάριο βήμα προς βήμα.
 ### [Φόρτωση εγγράφου HTML σε Java – Πλήρης οδηγός με XPath & CSS](./load-html-document-java-complete-guide-with-xpath-css/)

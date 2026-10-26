@@ -62,6 +62,8 @@ Aprenda a crear documentos HTML a partir de cadenas en Aspose.HTML para Java con
 Aprenda a convertir documentos Markdown a HTML en Java usando Aspose.HTML con esta guía paso a paso.
 ### [Crear elemento HTML con Java ExecutorService – Demo seguro de subhilos](./create-html-element-with-java-executorservice-thread-safe-de/)
 Aprenda a crear elementos HTML de forma segura usando ExecutorService en Java, evitando condiciones de carrera.
+### [Crear div con clase java – Ejemplo completo usando Aspose.HTML](./create-div-with-class-java-full-example-using-aspose-html/)
+Aprenda a crear un elemento div con una clase en Java usando Aspose.HTML en este ejemplo completo paso a paso.
 ### [Cargar documentos HTML desde una URL en Aspose.HTML para Java](./load-html-documents-from-url/)
 Descubra cómo cargar fácilmente documentos HTML desde una URL en Java con Aspose.HTML. Incluye tutorial paso a paso.
 ### [Cargar documento HTML con Aspose – Guía rápida de Java para obtener el título de la página](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
@@ -156,6 +158,8 @@ Aprenda a extraer contenido HTML de archivos MHTML en Java usando Aspose.HTML, c
 Aprenda a convertir documentos Markdown a HTML en Java usando Aspose.HTML con esta guía paso a paso.
 ### [Obtener JSON con JavaScript – Guía completa de Java para crear documentos HTML](./fetch-json-javascript-complete-java-guide-to-create-html-doc/)
 Aprenda a obtener datos JSON usando JavaScript y crear documentos HTML en Java con esta guía paso a paso.
+### [Crear documento HTML con JavaScript incrustado – Ejemplo Java](./create-html-document-with-embedded-javascript-java-example/)
+Aprenda a crear un documento HTML con JavaScript incrustado en Java usando Aspose.HTML. Guía paso a paso para integrar scripts dinámicos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

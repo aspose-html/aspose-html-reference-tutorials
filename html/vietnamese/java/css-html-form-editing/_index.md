@@ -110,6 +110,10 @@ Hướng dẫn chi tiết cách đọc và phân tích CSS trong Java bằng Asp
 
 ### [Lấy giá trị thuộc tính CSS trong Java – Hướng dẫn đầy đủ với Aspose.HTML](./get-css-property-value-in-java-complete-guide-with-aspose-ht/)
 Hướng dẫn chi tiết cách lấy giá trị thuộc tính CSS từ tài liệu HTML bằng Aspose.HTML trong Java.
+### [Chọn phần tử HTML theo lớp trong Java – Hướng dẫn đầy đủ](./select-html-element-by-class-in-java-complete-guide/)
+Hướng dẫn chi tiết cách chọn phần tử HTML theo class trong Java bằng Aspose.HTML.
+### [Bộ chọn CSS cho nút không bị vô hiệu hoá – Hướng dẫn phân tích HTML Java](./css-selector-not-disabled-button-java-html-parsing-guide/)
+Hướng dẫn cách sử dụng Aspose.HTML cho Java để chọn các nút không bị vô hiệu hoá bằng bộ chọn CSS, hỗ trợ phân tích và thao tác HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

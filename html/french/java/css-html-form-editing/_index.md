@@ -115,6 +115,11 @@ Apprenez à charger des fichiers HTML en Java et à extraire les couleurs CSS gr
 Apprenez à extraire les feuilles de style CSS d'un document HTML en Java avec Aspose.HTML, grâce à ce guide complet pas à pas.
 ### [Comment lire le CSS en Java – Guide complet Aspose.HTML](./how-to-read-css-in-java-complete-aspose-html-guide/)
 Apprenez à analyser et extraire les styles CSS d'un document HTML en Java avec Aspose.HTML grâce à ce guide complet.
+### [Sélection d'élément HTML par classe en Java – Guide complet](./select-html-element-by-class-in-java-complete-guide/)
+Apprenez à sélectionner des éléments HTML par classe en Java avec Aspose.HTML grâce à ce guide complet et détaillé.
+### [Sélecteur CSS bouton non désactivé – Guide d'analyse HTML Java](./css-selector-not-disabled-button-java-html-parsing-guide/)
+Apprenez à identifier et manipuler les boutons actifs à l'aide de sélecteurs CSS dans Aspose.HTML pour Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 ### [Obtenir la valeur d'une propriété CSS en Java – Guide complet avec Aspose.HTML](./get-css-property-value-in-java-complete-guide-with-aspose-ht/)

@@ -98,6 +98,8 @@ Aprenda a pesquisar e extrair dados de documentos HTML em Java usando Aspose.HTM
 Aprenda como criar novos documentos HTML usando Aspose.HTML para Java com este guia passo a passo fácil. Comece a gerar conteúdo HTML dinâmico.
 ### [Converter Markdown para HTML em Java – Guia passo a passo](./convert-markdown-to-html-in-java-step-by-step-guide/)
 Aprenda a converter documentos Markdown em HTML usando Aspose.HTML para Java com este guia passo a passo.
+### [Criar documento HTML com JavaScript incorporado – Exemplo Java](./create-html-document-with-embedded-javascript-java-example/)
+Aprenda a criar um documento HTML com JavaScript incorporado usando Aspose.HTML para Java. Guia passo a passo.
 ### [Manipular eventos de carregamento de documentos em Aspose.HTML para Java](./handle-document-load-events/)
 Aprenda a manipular eventos de carregamento de documentos no Aspose.HTML para Java com este guia passo a passo. Aprimore seus aplicativos da web.
 ### [Crie e gerencie documentos SVG em Aspose.HTML para Java](./create-manage-svg-documents/)
@@ -148,6 +150,8 @@ Aprenda a renderizar HTML em Java, esperar o carregamento da página e usar quer
 Aprenda a selecionar elementos div por classe usando XPath em Java com Aspose.HTML. Guia passo a passo completo.
 ### [Converter Markdown para HTML em Java – Guia rápido com Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
 Aprenda a converter arquivos Markdown em HTML usando Aspose.HTML para Java com este guia rápido passo a passo.
+### [Criar div com classe java – Exemplo completo usando Aspose.HTML](./create-div-with-class-java-full-example-using-aspose-html/)
+Aprenda a criar um elemento div com classe em Java usando Aspose.HTML, com exemplo completo passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

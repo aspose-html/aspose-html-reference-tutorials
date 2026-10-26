@@ -112,6 +112,10 @@ url: /zh-hant/java/css-html-form-editing/
 
 ### [使用 Aspose.HTML 在 Java 中取得 CSS 屬性值 – 完整指南](./get-css-property-value-in-java-complete-guide-with-aspose-ht/)
 本完整指南說明如何使用 Aspose.HTML for Java 取得 CSS 屬性值，涵蓋程式範例與實作步驟。
+### [在 Java 中按類別選取 HTML 元素 – 完整指南](./select-html-element-by-class-in-java-complete-guide/)
+本完整指南教您在 Java 中使用 Aspose.HTML 按類別選取 HTML 元素的步驟與技巧。
+### [CSS 選擇器未禁用按鈕 – Java HTML 解析指南](./css-selector-not-disabled-button-java-html-parsing-guide/)
+本指南說明如何使用 Aspose.HTML for Java 解析 HTML，選取未被禁用的按鈕元素。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

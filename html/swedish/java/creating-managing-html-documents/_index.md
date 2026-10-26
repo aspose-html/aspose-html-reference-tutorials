@@ -61,6 +61,8 @@ Lär dig hur du laddar HTML-dokument från strömmar med Aspose.HTML för Java. 
 Lär dig hur du skapar HTML-dokument från strängar i Aspose.HTML för Java med denna steg-för-steg-guide.
 ### [Skapa HTML-dokument i Java – Steg‑för‑steg‑guide med Aspose.HTML](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
 Lär dig att skapa ett HTML-dokument i Java med Aspose.HTML genom en tydlig steg‑för‑steg‑guide.
+### [Skapa HTML-dokument med inbäddad JavaScript – Java-exempel](./create-html-document-with-embedded-javascript-java-example/)
+Lär dig hur du skapar ett HTML-dokument med inbäddad JavaScript i Java med Aspose.HTML. Steg‑för‑steg‑guide.
 ### [Ladda HTML-dokument från URL i Aspose.HTML för Java](./load-html-documents-from-url/)
 Upptäck hur du enkelt laddar HTML-dokument från en URL i Java med Aspose.HTML. Steg-för-steg handledning ingår.
 ### [Räkna HTML-tecken i Java – Fullständig guide med Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
@@ -165,6 +167,8 @@ Lär dig läsa en XHTML-fil i Java med XPath och hantera namnrymder i detta prak
 Lär dig hur du snabbt konverterar Markdown till HTML i Java med Aspose i en steg‑för‑steg‑guide.
 ### [Hämta JSON med JavaScript – Komplett Java‑guide för att skapa HTML‑dokument](./fetch-json-javascript-complete-java-guide-to-create-html-doc/)
 Lär dig hur du hämtar JSON med JavaScript och skapar HTML‑dokument i Java med Aspose.HTML i en komplett steg‑för‑steg‑guide.
+### [Skapa div med klass java – Fullständigt exempel med Aspose.HTML](./create-div-with-class-java-full-example-using-aspose-html/)
+Lär dig hur du skapar en div med klass i Java med Aspose.HTML i ett komplett exempel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

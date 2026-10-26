@@ -111,6 +111,10 @@ url: /ru/java/css-html-form-editing/
 
 ### [Получить значение свойства CSS в Java – Полное руководство с Aspose.HTML](./get-css-property-value-in-java-complete-guide-with-aspose-ht/)
 Узнайте, как получить значение свойства CSS в Java с помощью Aspose.HTML, в этом подробном пошаговом руководстве.
+### [Выбор HTML-элемента по классу в Java – Полное руководство](./select-html-element-by-class-in-java-complete-guide/)
+Узнайте, как выбрать HTML-элемент по классу в Java с помощью Aspose.HTML, пошаговое руководство от начала до конца.
+### [CSS‑селектор не отключенной кнопки – Руководство по парсингу HTML на Java](./css-selector-not-disabled-button-java-html-parsing-guide/)
+Узнайте, как с помощью Aspose.HTML для Java находить активные кнопки, используя CSS‑селекторы, и обрабатывать их в HTML‑документах.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

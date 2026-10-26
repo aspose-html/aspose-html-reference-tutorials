@@ -123,6 +123,8 @@ Erfahren Sie, wie Sie HTML mit Aspose.HTML Sandbox in PNG konvertieren – umfas
 Erfahren Sie, wie Sie mit Aspose.HTML for Java mehrere SVG‑Dateien effizient in PNG‑Bilder konvertieren.
 ### [Hochauflösende PNG aus HTML erstellen – Vollständiger Java‑Leitfaden](./create-high-resolution-png-from-html-complete-java-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML for Java hochauflösende PNG‑Bilder aus HTML generieren – Schritt‑für‑Schritt‑Anleitung.
+### [HTML in PNG konvertieren – Vollständiger Aspose.HTML Leitfaden für Java](./convert-html-to-png-in-java-complete-aspose-html-guide/)
+Erfahren Sie, wie Sie HTML mit Aspose.HTML for Java in PNG konvertieren – ein vollständiger Schritt‑für‑Schritt‑Leitfaden.
 ### [HTML in TIFF konvertieren](./convert-html-to-tiff/)
 Erfahren Sie, wie Sie HTML einfach mit Aspose.HTML for Java in TIFF konvertieren. Schritt‑für‑Schritt‑Leitfaden für effiziente Dokumentenverarbeitung.
 ### [Thumbnail aus HTML generieren – Java‑Leitfaden](./how-to-generate-thumbnail-from-html-java-guide/)

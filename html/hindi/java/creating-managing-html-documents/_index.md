@@ -152,6 +152,9 @@ Aspose.HTML का उपयोग करके जावा में HTML क�
 Aspose.HTML for Java का उपयोग करके मार्कडाउन को HTML में बदलने की तेज़ चरण‑दर‑चरण प्रक्रिया।
 ### [Aspose Java के साथ HTML खोजें – पूर्ण प्रोग्रामिंग गाइड](./how-to-search-html-with-aspose-java-complete-programming-gui/)
 Aspose Java का उपयोग करके HTML सामग्री को प्रभावी ढंग से खोजने के लिए चरण‑दर‑चरण मार्गदर्शिका। टिप्स और सर्वोत्तम प्रथाएँ।
+### [Java के लिए Aspose.HTML में एंबेडेड JavaScript के साथ HTML दस्तावेज़ बनाएं](./create-html-document-with-embedded-javascript-java-example/)
+### [Aspose.HTML का उपयोग करके क्लास java के साथ div बनाएं – पूर्ण उदाहरण](./create-div-with-class-java-full-example-using-aspose-html/)
+Aspose.HTML for Java में क्लास java वाले div को बनाने की पूरी प्रक्रिया सीखें, कोड उदाहरण और चरण‑दर‑चरण मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

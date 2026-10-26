@@ -112,6 +112,10 @@ Aspose.HTML for Java kullanarak CSS dosyalarını nasıl okuyacağınızı ve an
 
 ### [Java’da CSS Özellik Değerini Alma – Aspose.HTML ile Tam Kılavuz](./get-css-property-value-in-java-complete-guide-with-aspose-ht/)
 Aspose.HTML for Java kullanarak bir CSS özelliğinin değerini nasıl alacağınızı adım adım öğrenin.
+### [Java’da sınıfa göre HTML öğesini seçme – Tam Kılavuz](./select-html-element-by-class-in-java-complete-guide/)
+Java’da sınıfa göre HTML öğelerini seçerek dinamik içerik oluşturmayı öğrenin.
+### [Devre dışı olmayan buton seçicisi – Java HTML Ayrıştırma Kılavuzu](./css-selector-not-disabled-button-java-html-parsing-guide/)
+Bu rehberde, Java ile Aspose.HTML kullanarak devre dışı olmayan butonları CSS seçicileriyle nasıl seçeceğinizi ve işleyeceğinizi öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

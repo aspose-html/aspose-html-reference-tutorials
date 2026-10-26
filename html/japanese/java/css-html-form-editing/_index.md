@@ -19,7 +19,7 @@ Web 開発に取り組む場合、CSS および HTML フォームを習得する
 
 ## 高度な CSS 拡張テクニック
 
-まず最初に、Aspose.HTML for Java を使用した高度な CSS 拡張テクニックについて説明します。Web ページに適切な余白を設定するのに苦労したことはありませんか? あるいは、ユーザーの操作に基づいて変化する動的なコンテンツを含めたいと思ったことはありませんか? このチュートリアルでは、複雑な CSS ルールを簡単に適用するための基本事項を説明します。Aspose を使用すると、スタイルをプログラムで操作して、閲覧者に合わせて視覚的に魅力的なレイアウトを作成できます。静的なページを動的な傑作に変えることを想像してみてください。このガイドでは、その方法を正確に説明します。[続きを読む](./advanced-css-extension/).
+まず最初に、Aspose.HTML for Java を使用した高度な CSS 拡張テクニックについて説明します。Web ページに適切な余白を設定するのに苦労したことはありませんか? あるいは、ユーザーの操作に基づいて変化する動的なコンテンツを含めたいと思ったことはありませんか? このチュートリアルでは、複雑な CSS ルールを簡単に適用するための基本事項を説明します。Aspose を使用すると、スタイルをプログラムで操作して、閲覧者に合わせて視覚的に魅力的なレイアウトを作成できます。静的なページを動的な傑作に変えることが想像してみてください。このガイドでは、その方法を正確に説明します。[続きを読む](./advanced-css-extension/).
 
 ## HTML フォームの編集と送信
 
@@ -118,6 +118,10 @@ Aspose.HTML for Java を使用して、CSS を読み取り、解析し、操作�
 
 ### [JavaでCSSプロパティ値を取得 – Aspose.HTML 完全ガイド](./get-css-property-value-in-java-complete-guide-with-aspose-ht/)
 Aspose.HTML を使用して、Java で CSS プロパティの値を取得する方法をステップバイステップで解説します。
+### [CSS セレクタで無効化されていないボタン – Java HTML パーシングガイド](./css-selector-not-disabled-button-java-html-parsing-guide/)
+Java で Aspose.HTML を使用し、無効化されていないボタンを CSS セレクタで取得する方法をステップバイステップで解説します。
+### [JavaでクラスによるHTML要素の選択 – 完全ガイド](./select-html-element-by-class-in-java-complete-guide/)
+Javaコードでクラス属性を使用してHTML要素を取得し、操作する方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

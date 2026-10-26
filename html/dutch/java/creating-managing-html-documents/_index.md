@@ -63,6 +63,10 @@ Leer hoe u HTML-documenten laadt uit streams met Aspose.HTML voor Java. Deze gid
 Leer hoe u HTML-documenten van strings maakt in Aspose.HTML voor Java met deze stapsgewijze handleiding.
 ### [HTML-document maken in Java – Stapsgewijze handleiding met Aspose.HTML](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
 Leer hoe u een HTML-document maakt in Java met Aspose.HTML via een duidelijke stap‑voor‑stap gids.
+### [HTML-document maken met ingesloten JavaScript – Java-voorbeeld](./create-html-document-with-embedded-javascript-java-example/)
+Leer hoe u een HTML-document maakt met ingebedde JavaScript in Java met Aspose.HTML, inclusief voorbeeldcode.
+### [Div met klasse java maken – Volledig voorbeeld met Aspose.HTML](./create-div-with-class-java-full-example-using-aspose-html/)
+Leer hoe u een div met een Java‑klasse maakt in Aspose.HTML voor Java met een volledig voorbeeld en stapsgewijze uitleg.
 ### [HTML-documenten laden vanaf URL in Aspose.HTML voor Java](./load-html-documents-from-url/)
 Ontdek hoe u eenvoudig HTML-documenten kunt laden vanaf een URL in Java met Aspose.HTML. Inclusief stapsgewijze tutorial.
 ### [HTML-document maken met Java – JSON ophalen en inhoud genereren](./create-html-document-with-java-fetch-json-and-generate-conte/)

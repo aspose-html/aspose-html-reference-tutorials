@@ -127,6 +127,8 @@ Dowiedz się, jak renderować HTML do PNG przy użyciu sandboxu Aspose.HTML w pe
 ### [Utwórz wysokiej rozdzielczości PNG z HTML – kompletny przewodnik Java](./create-high-resolution-png-from-html-complete-java-guide/)
 Dowiedz się, jak generować obrazy PNG o wysokiej rozdzielczości z HTML w Javie przy użyciu Aspose.HTML – szczegółowy przewodnik krok po kroku.
 
+### [Konwertowanie HTML do PNG w Javie – Kompletny przewodnik Aspose.HTML](./convert-html-to-png-in-java-complete-aspose-html-guide/)
+
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
 
 ### [Utwórz baner HTML i renderuj do PNG – Pełny przewodnik Java](./create-html-banner-and-render-to-png-full-java-guide/)

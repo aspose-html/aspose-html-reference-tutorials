@@ -75,23 +75,6 @@ Naučte se renderovat HTML do PNG v Javě pomocí Aspose.HTML. Kompletní krok�
 ### [Uložení HTML stránky jako PNG v Javě – kompletní tutoriál](./save-html-page-as-png-in-java-complete-tutorial/)
 Naučte se, jak pomocí Aspose.HTML for Java uložit HTML stránku jako PNG obrázek s podrobným krok‑za‑krokem návodem.
 
-## Převod HTML do TIFF
-Převod HTML do TIFF je ideální pro tisk ve vysokém rozlišení nebo archivní ukládání. Tento tutoriál popisuje přesné kroky k efektivnímu vytvoření TIFF souborů pomocí Aspose.HTML for Java.
-
-Použití Aspose.HTML for Java zjednodušuje převod HTML dokumentů do různých formátů obrázků. Tyto tutoriály vás vybaví znalostmi a dovednostmi k efektivnímu a účinnému provedení. Vítejte ve světě snadných převodů HTML do formátů obrázků s Aspose.HTML for Java.
-
-## Běžné případy použití a výhody
-- **Automatizovaná tvorba reportů** – Vkládejte živý webový obsah do PDF nebo Word reportů jako obrázky.  
-- **Náhledy e‑mailů** – Generujte náhledové obrázky pro newslettery bez externích služeb.  
-- **Migrace starých systémů** – Převádějte webové UI komponenty na statické obrázky pro starší platformy.  
-- **Archivace obsahu** – Zachovejte přesné vizuální snímky webových stránek pro soulad s předpisy.
-
-## Tipy pro řešení problémů
-- **Prázdný výstup** – Ujistěte se, že je HTML zdroj plně načten; v případě potřeby použijte `renderer.waitForComplete()`.  
-- **Velká velikost souboru (TIFF/BMP)** – Upravte DPI nebo použijte kompresní možnosti dostupné v nastavení ukládání.  
-- **Chybějící písma** – Nainstalujte požadovaná písma na server nebo je vložte do HTML pomocí `@font-face`.  
-
-## Převod - HTML do různých formátů obrázků – Tutoriály
 ### [Převod HTML do BMP](./convert-html-to-bmp/)
 Převod HTML do BMP pomocí Aspose.HTML for Java. Komplexní tutoriál pro bezproblémový převod HTML dokumentů na BMP obrázky pomocí Aspose.HTML for Java.
 
@@ -133,6 +116,9 @@ Naučte se převést HTML do PNG v Javě pomocí Aspose.HTML. Kompletní krok‑
 ### [Renderování HTML do PNG v Javě – Přidání Bearer tokenu a vlastních hlaviček](./render-html-to-png-in-java-add-bearer-token-custom-headers/)
 ### [Vykreslení HTML do PNG v Javě – Kompletní tutoriál Aspose HTML](./render-html-to-png-in-java-full-aspose-html-tutorial/)
 Kompletní průvodce, jak pomocí Aspose.HTML for Java převést HTML na PNG s podrobnými ukázkami kódu.
+### [Převod HTML do PNG v Javě – Kompletní průvodce Aspose.HTML](./convert-html-to-png-in-java-complete-aspose-html-guide/)
+Naučte se převést HTML do PNG v Javě pomocí Aspose.HTML. Kompletní krok‑za‑krokem průvodce.
+
 ### [Převod HTML do TIFF](./convert-html-to-tiff/)
 Naučte se snadno převést HTML do TIFF pomocí Aspose.HTML for Java. Krok‑za‑krokem průvodce pro efektivní zpracování dokumentů.
 

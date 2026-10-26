@@ -102,6 +102,8 @@ Naučte se převést EPUB na JPG pomocí Aspose.HTML pro Java. Postupujte podle 
 Naučte se převést EPUB na PNG v Javě pomocí Aspose.HTML pro Java. Krok‑za‑krokem průvodce pro bezproblémový převod.
 ### [Převod EPUB na PNG v Javě – Kompletní krok‑za‑krokem průvodce](./convert-epub-to-png-with-java-complete-step-by-step-guide/)
 Naučte se převést EPUB na PNG pomocí Aspose.HTML pro Java. Podrobný krok‑za‑krokem návod.
+### [Převod EPUB na PNG v Javě – Kompletní průvodce Aspose HTML](./convert-epub-to-png-in-java-complete-aspose-html-guide/)
+Kompletní návod, jak převést EPUB na PNG v Javě pomocí Aspose.HTML, včetně nastavení kvality a optimalizace výstupu.
 ### [Převod EPUB na TIFF](./convert-epub-to-tiff/)
 Naučte se převést soubory EPUB na TIFF obrázky v Javě s Aspose.HTML, výkonnou knihovnou pro manipulaci s HTML.
 

@@ -156,6 +156,10 @@ url: /ar/java/creating-managing-html-documents/
 تعلم كيفية جلب بيانات JSON باستخدام JavaScript وإنشاء مستند HTML في Java عبر دليل شامل خطوة بخطوة.
 ### [كيفية البحث في HTML باستخدام Aspose Java – دليل برمجة كامل](./how-to-search-html-with-aspose-java-complete-programming-gui/)
 تعلم كيفية البحث في مستندات HTML باستخدام Aspose Java عبر دليل برمجة شامل خطوة بخطوة.
+### [إنشاء مستند HTML مع جافا سكريبت مدمج – مثال Java](./create-html-document-with-embedded-javascript-java-example/)
+تعلم كيفية إنشاء مستند HTML يحتوي على جافا سكريبت مدمج باستخدام Aspose.HTML for Java في مثال عملي خطوة بخطوة.
+### [إنشاء div مع فئة java – مثال كامل باستخدام Aspose.HTML](./create-div-with-class-java-full-example-using-aspose-html/)
+تعلم كيفية إنشاء عنصر div مع فئة Java باستخدام Aspose.HTML في مثال كامل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

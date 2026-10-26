@@ -107,6 +107,8 @@ A: Eine unbefristete Lizenz mit optionalen Supportverträgen. Eine kostenlose te
 **Last Updated:** 2026-03-31  
 **Tested With:** Aspose.HTML for Java 24.11  
 **Author:** Aspose  
+### [HTML-zu-Bild-Tutorial – HTML-Dateien in PNG & JPEG mit Java konvertieren](./html-to-image-tutorial-convert-html-files-to-png-jpeg-with-j/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java HTML-Dateien in PNG und JPEG umwandeln. Schritt‑für‑Schritt‑Anleitung für einfache Konvertierung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -65,21 +65,6 @@ A GIF ideális kis animációkhoz vagy amikor korlátozott színpalettára (max�
 
 A **HTML‑t JPG‑re konvertálás** esetén a kisebb fájlméretet a JPEG veszteséges tömörítése biztosítja. Ez a formátum leginkább fotós tartalmakhoz alkalmas, ahol egy kis részletveszteség elfogadható.
 
-Ne felejtse el beállítani a `Quality` tulajdonságot a `JpegOptions`‑ban, ha finomabb szabályozást szeretne a tömörítési szintek felett.
-
-## HTML konvertálása PNG‑re
-
-Ha a cél **PNG létrehozása HTML-ből**, a PNG veszteségmentes tömörítést és átlátszóságot biztosít – tökéletes logókhoz, UI komponensekhez vagy bármilyen grafikához, amely tiszta háttérrel rendelkezik.
-
-Állítsa be a `ImageFormat`‑ot PNG‑re, és opcionálisan adja meg a `Resolution`‑t a magas DPI‑s kijelzőkön való élesebb megjelenés érdekében.
-
-## Gyakori felhasználási esetek
-- **E‑mail hírlevelek** – PNG pillanatkép beágyazása egy dinamikus diagramhoz.  
-- **Automatizált jelentéskészítés** – BMP képek generálása régi rendszerekhez, amelyek csak BMP‑t fogadnak el.  
-- **Közösségi média előnézetek** – GIF‑ek létrehozása animált HTML bannerekből.  
-- **Dokumentumgenerálás** – JPEG képek beillesztése PDF‑ekbe a gyorsabb renderelés érdekében.
-
-## HTML konvertálása különböző képfájlformátumokra – Oktatóanyagok
 ### [HTML konvertálása BMP‑re](./convert-html-to-bmp/)
 Ismerje meg, hogyan konvertálhat HTML‑t BMP‑re egyszerűen az Aspose.HTML for Java segítségével. Lépésről‑lépésre útmutató előkövetelményekkel és csomagimportokkal. Fedezze fel most!
 ### [HTML konvertálása GIF‑re](./convert-html-to-gif/)
@@ -111,6 +96,8 @@ A: Örökös licenc opcionális támogatási szerződéssel. Ingyenes ideiglenes
 **Utoljára frissítve:** 2026-03-31  
 **Tesztelt verzió:** Aspose.HTML for Java 24.11  
 **Szerző:** Aspose  
+### [HTML képpé konvertálási oktatóanyag – HTML fájlok PNG és JPEG formátumba Java-val](./html-to-image-tutorial-convert-html-files-to-png-jpeg-with-j/)
+Tanulja meg, hogyan konvertálhat HTML fájlokat PNG és JPEG képekké Java segítségével az Aspose.HTML for Java használatával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

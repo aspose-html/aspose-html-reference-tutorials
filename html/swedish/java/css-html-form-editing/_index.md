@@ -111,6 +111,10 @@ Lär dig hur du läser och tolkar CSS i Java med Aspose.HTML i den här komplett
 
 ### [Hämta CSS‑egenskapvärde i Java – Komplett guide med Aspose.HTML](./get-css-property-value-in-java-complete-guide-with-aspose-ht/)
 Lär dig hur du hämtar värdet på en CSS‑egenskap i Java med Aspose.HTML i denna kompletta guide.
+### [Välj HTML‑element efter klass i Java – Komplett guide](./select-html-element-by-class-in-java-complete-guide/)
+Lär dig hur du programatiskt väljer HTML‑element efter klass i Java med Aspose.HTML.
+### [CSS‑väljare för icke inaktiverad knapp – Java HTML‑parsningsguide](./css-selector-not-disabled-button-java-html-parsing-guide/)
+Lär dig hur du med Aspose.HTML för Java identifierar och hanterar knappar som inte är inaktiverade via CSS‑väljare.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

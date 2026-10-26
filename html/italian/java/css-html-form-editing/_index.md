@@ -112,6 +112,10 @@ Scopri come leggere e analizzare i fogli di stile CSS in Java usando Aspose.HTML
 
 ### [Ottieni il valore della proprietà CSS in Java – Guida completa con Aspose.HTML](./get-css-property-value-in-java-complete-guide-with-aspose-ht/)
 Scopri come recuperare il valore di una proprietà CSS in Java usando Aspose.HTML in questa guida completa passo passo.
+### [Selezionare elemento HTML per classe in Java – Guida completa](./select-html-element-by-class-in-java-complete-guide/)
+Impara a selezionare elementi HTML per classe in Java usando Aspose.HTML con esempi pratici passo passo.
+### [Selettore CSS per pulsante non disabilitato – Guida all'analisi HTML in Java](./css-selector-not-disabled-button-java-html-parsing-guide/)
+Scopri come selezionare pulsanti abilitati usando i selettori CSS con Aspose.HTML per Java in questa guida pratica.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

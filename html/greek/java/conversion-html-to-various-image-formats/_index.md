@@ -127,6 +127,7 @@ weight: 24
 ### [Μετατροπή HTML σε PNG – Οδηγός Java για απόδοση πινάκων HTML ως εικόνες](./convert-html-to-png-java-guide-to-rendering-html-tables-as-i/)
 ### [Απόδοση HTML σε PNG με Aspose.HTML Sandbox – Πλήρης Οδηγός Java](./render-html-to-png-with-aspose-html-sandbox-full-java-guide/)
 Μάθετε πώς να αποδίδετε HTML σε PNG χρησιμοποιώντας το Aspose.HTML Sandbox σε Java – πλήρης οδηγός βήμα‑βήμα.
+### [Μετατροπή HTML σε PNG – Πλήρης Οδηγός Java με Aspose.HTML](./convert-html-to-png-in-java-complete-aspose-html-guide/)
 ### [Μετατροπή HTML σε WebP – Πλήρης Οδηγός Java με Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 ### [Μετατροπή HTML σε WebP – Πλήρης Οδηγός Java](./convert-html-to-webp-complete-java-guide/)
 ### [Δημιουργία HTML Banner και Απόδοση σε PNG – Πλήρης Οδηγός Java](./create-html-banner-and-render-to-png-full-java-guide/)

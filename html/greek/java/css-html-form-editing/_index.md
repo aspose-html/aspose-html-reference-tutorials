@@ -116,6 +116,10 @@ url: /el/java/css-html-form-editing/
 
 ### [Λήψη τιμής ιδιότητας CSS σε Java – Πλήρης Οδηγός με Aspose.HTML](./get-css-property-value-in-java-complete-guide-with-aspose-ht/)
 Μάθετε πώς να λαμβάνετε την τιμή μιας ιδιότητας CSS με το Aspose.HTML για Java σε αυτόν τον πλήρη οδηγό.
+### [Επιλογή στοιχείου HTML με κλάση σε Java – Πλήρης Οδηγός](./select-html-element-by-class-in-java-complete-guide/)
+Μάθετε πώς να εντοπίζετε και να επεξεργάζεστε στοιχεία HTML με συγκεκριμένη κλάση χρησιμοποιώντας Aspose.HTML για Java.
+### [CSS selector για μη απενεργοποιημένο κουμπί – Οδηγός Ανάλυσης HTML σε Java](./css-selector-not-disabled-button-java-html-parsing-guide/)
+Μάθετε πώς να εντοπίζετε και να αλληλεπιδράτε με κουμπιά που δεν είναι απενεργοποιημένα χρησιμοποιώντας CSS selectors με Aspose.HTML για Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

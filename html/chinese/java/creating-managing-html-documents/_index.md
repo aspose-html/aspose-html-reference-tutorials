@@ -165,6 +165,10 @@ Aspose.HTML for Java 为开发人员提供了功能强大的工具包，旨在�
 
 ### [fetch json javascript – 完整的 Java 创建 HTML 文档指南](./fetch-json-javascript-complete-java-guide-to-create-html-doc/)
 本完整指南展示如何在 Java 中使用 fetch JSON 和 JavaScript 创建 HTML 文档的步骤和技巧。
+### [在 Aspose.HTML for Java 中创建带嵌入式 JavaScript 的 HTML 文档 – Java 示例](./create-html-document-with-embedded-javascript-java-example/)
+了解如何使用 Aspose.HTML for Java 创建包含嵌入式 JavaScript 的 HTML 文档，提供完整的示例代码。
+### [在 Aspose.HTML for Java 中使用 Java 创建带类的 div – 完整示例](./create-div-with-class-java-full-example-using-aspose-html/)
+本教程展示如何使用 Aspose.HTML for Java 在 HTML 文档中创建带特定 class 的 div 元素的完整示例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

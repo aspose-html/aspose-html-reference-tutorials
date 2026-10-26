@@ -56,6 +56,10 @@ Erfahren Sie, wie Sie mit Aspose.HTML für Java ein HTML‑Dokument erstellen, J
 ### [HTML aus Markdown in Java erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-html-from-markdown-in-java-full-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML für Java Markdown in HTML konvertieren und dabei eine detaillierte Schritt‑für‑Schritt‑Anleitung nutzen.
 
+### [Div mit Klasse java erstellen – Vollständiges Beispiel mit Aspose.HTML](./create-div-with-class-java-full-example-using-aspose-html/)
+Erfahren Sie, wie Sie mit Aspose.HTML in Java ein Div-Element mit der Klasse 'java' erstellen – vollständiges Schritt‑für‑Schritt‑Beispiel.
+### [HTML-Dokument mit eingebettetem JavaScript erstellen – Java-Beispiel](./create-html-document-with-embedded-javascript-java-example/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java ein HTML-Dokument mit eingebettetem JavaScript erstellen, inklusive Beispielcode.
 ### [Laden Sie HTML-Dokumente von einer URL in Aspose.HTML für Java](./load-html-documents-from-url/)
 Entdecken Sie, wie Sie mit Aspose.HTML ganz einfach HTML-Dokumente von einer URL in Java laden. Schritt‑für‑Schritt‑Anleitung inklusive.
 

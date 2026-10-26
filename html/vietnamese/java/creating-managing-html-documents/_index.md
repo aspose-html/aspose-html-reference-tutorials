@@ -61,6 +61,8 @@ Tìm hiểu cách tạo tài liệu HTML từ chuỗi trong Aspose.HTML cho Java
 Hướng dẫn cách lấy dữ liệu JSON và tạo nội dung HTML động trong Java bằng Aspose.HTML.
 ### [Chuyển đổi Markdown sang HTML trong Java – Hướng dẫn nhanh với Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
 Hướng dẫn nhanh cách chuyển đổi tài liệu Markdown thành HTML trong Java bằng Aspose.HTML.
+### [Tạo tài liệu HTML với JavaScript nhúng – Ví dụ Java](./create-html-document-with-embedded-javascript-java-example/)
+Hướng dẫn tạo tài liệu HTML có chứa JavaScript nhúng trong Java bằng Aspose.HTML, kèm ví dụ chi tiết.
 ### [Tải tài liệu HTML từ URL trong Aspose.HTML cho Java](./load-html-documents-from-url/)
 Khám phá cách dễ dàng tải tài liệu HTML từ URL trong Java bằng Aspose.HTML. Có kèm hướng dẫn từng bước.
 ### [Lặp qua NodeList trong Java – Đọc HTML và Lấy src ảnh](./iterate-nodelist-java-read-html-get-image-src/)
@@ -149,6 +151,8 @@ Hướng dẫn chi tiết cách tạo tài liệu HTML trong Java bằng Aspose.
 Khám phá cách fetch JSON bằng JavaScript và tạo tài liệu HTML hoàn chỉnh trong Java với Aspose.HTML.
 ### [Cách tìm kiếm HTML với Aspose Java – Hướng dẫn lập trình đầy đủ](./how-to-search-html-with-aspose-java-complete-programming-gui/)
 Khám phá cách tìm kiếm nội dung HTML trong Java bằng Aspose, kèm hướng dẫn chi tiết từng bước và các mẹo tối ưu.
+### [Tạo div với class java – Ví dụ đầy đủ sử dụng Aspose.HTML](./create-div-with-class-java-full-example-using-aspose-html/)
+Hướng dẫn chi tiết cách tạo thẻ div với class java trong Aspose.HTML cho Java, kèm ví dụ đầy đủ.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

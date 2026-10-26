@@ -88,6 +88,8 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 ### [Как искать HTML с помощью Aspose Java — Полное руководство по программированию](./how-to-search-html-with-aspose-java-complete-programming-gui/)
 Подробное руководство по поиску и извлечению данных из HTML с использованием Aspose.HTML для Java.
 ### [Создание HTML‑документа Java – пошаговое руководство с Aspose.HTML](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
+### [Создание HTML‑документа со встроенным JavaScript – пример на Java](./create-html-document-with-embedded-javascript-java-example/)
+Узнайте, как создать HTML‑документ с встроенным JavaScript в Java, используя Aspose.HTML, с пошаговыми инструкциями и примерами.
 ### [Создание песочницы для HTML в Aspose.HTML для Java – пошаговое руководство](./create-sandbox-for-html-in-java-step-by-step-guide/)
 ### [Как прочитать файл XHTML в Java – пример XPath с пространством имён](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
 Узнайте, как загрузить XHTML‑файл в Java и выполнить запросы XPath с учётом пространств имён.
@@ -145,6 +147,7 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 ### [Как выполнять запросы к HTML с Aspose.HTML – Полное руководство по Java](./how-to-query-html-with-aspose-html-complete-java-guide/)
 Узнайте, как выполнять запросы к HTML в Java с помощью Aspose.HTML, полное пошаговое руководство.
 ### [fetch json javascript – Полное руководство Java по созданию HTML‑документа](./fetch-json-javascript-complete-java-guide-to-create-html-doc/)
+### [Создание div с классом java – полный пример с использованием Aspose.HTML](./create-div-with-class-java-full-example-using-aspose-html/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -100,6 +100,10 @@ url: /ar/java/css-html-form-editing/
 ### [كيفية قراءة CSS في Java – دليل Aspose.HTML الكامل](./how-to-read-css-in-java-complete-aspose-html-guide/)
 
 ### [الحصول على قيمة خاصية CSS في Java – دليل شامل مع Aspose.HTML](./get-css-property-value-in-java-complete-guide-with-aspose-ht/)
+### [تحديد عنصر HTML حسب الفئة في Java – دليل شامل](./select-html-element-by-class-in-java-complete-guide/)
+تعلم كيفية اختيار عناصر HTML باستخدام الفئة في Java باستخدام Aspose.HTML في دليل شامل ومفصل.
+### [محدد CSS للزر غير المعطل – دليل تحليل HTML في Java](./css-selector-not-disabled-button-java-html-parsing-guide/)
+تعلم كيفية اختيار الأزرار غير المعطلة باستخدام محددات CSS في Java مع Aspose.HTML خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

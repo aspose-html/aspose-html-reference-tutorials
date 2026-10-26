@@ -112,6 +112,10 @@ Pelajari cara membaca file CSS di Java menggunakan Aspose.HTML dalam panduan len
 
 ### [Mendapatkan Nilai Properti CSS di Java – Panduan Lengkap dengan Aspose.HTML](./get-css-property-value-in-java-complete-guide-with-aspose-ht/)
 Pelajari cara mengambil nilai properti CSS menggunakan Aspose.HTML untuk Java dalam panduan lengkap dan praktis ini.
+### [Memilih Elemen HTML Berdasarkan Kelas di Java – Panduan Lengkap](./select-html-element-by-class-in-java-complete-guide/)
+Pelajari cara memilih elemen HTML berdasarkan kelas di Java dengan contoh kode lengkap dan penjelasan praktis.
+### [Pemilih CSS untuk Tombol Tidak Dinonaktifkan – Panduan Parsing HTML Java](./css-selector-not-disabled-button-java-html-parsing-guide/)
+Pelajari cara menggunakan selector CSS untuk menemukan tombol yang tidak dinonaktifkan saat mem-parsing HTML dengan Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

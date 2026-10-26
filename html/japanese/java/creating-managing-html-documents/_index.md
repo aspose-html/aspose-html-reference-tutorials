@@ -50,6 +50,9 @@ HTML ドキュメントを非同期的に作成するのは複雑に聞こえる
 ### [Aspose.HTML for Java での HTML ドキュメントの高度なファイル読み込み](./advanced-file-loading-html-documents/)
 ### [Aspose.HTML for Java を使用してストリームから HTML ドキュメントを読み込む](./load-html-documents-from-stream/)
 ### [Aspose.HTML for Java で文字列から HTML ドキュメントを作成する](./create-html-documents-from-string/)
+このステップバイステップ ガイドを使用して、Aspose.HTML for Java で文字列から HTML ドキュメントを作成する方法を学習します。
+### [Java 例で埋め込み JavaScript を使用した HTML ドキュメントの作成](./create-html-document-with-embedded-javascript-java-example/)
+Java で埋め込み JavaScript を含む HTML ドキュメントを作成する手順をステップバイステップで解説します。
 ### [Aspose.HTML for Java で URL から HTML ドキュメントを読み込む](./load-html-documents-from-url/)
 ### [Java で HTML ドキュメントを読み込む – XPath と CSS を使用した完全ガイド](./load-html-document-java-complete-guide-with-xpath-css/)
 Java で XPath と CSS セレクタを活用し、HTML ドキュメントを効率的に読み込む完全ガイドです。ステップバイステップで解説します。
@@ -138,6 +141,8 @@ Aspose.HTML for Java を活用し、HTML コンテンツを検索・抽出する
 ### [Aspose を使用した Java の Markdown から HTML への変換 – クイックガイド](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
 Aspose.HTML を活用し、Java で Markdown を HTML に変換する手順をステップバイステップで解説します。
 ### [Aspose.HTML for Java で HTML を検索する方法 – 完全プログラミングガイド](./how-to-search-html-with-aspose-java-complete-programming-gui/)
+### [Aspose.HTML for Java を使用した div に class java を作成する – 完全例](./create-div-with-class-java-full-example-using-aspose-html/)
+Aspose.HTML for Java を活用し、class "java" を持つ div 要素を作成する手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

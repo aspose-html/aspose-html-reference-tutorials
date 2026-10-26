@@ -150,6 +150,8 @@ Ismerje meg, hogyan szűrhet HTML-elemeket osztály alapján a querySelectorAll 
 Ismerje meg, hogyan olvashat be XHTML fájlt Java-ban XPath névtérrel, részletes lépésről‑lépésre útmutatóval.
 ### [Markdown konvertálása HTML-re Java-ban – Gyors útmutató az Aspose használatával](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
 Ismerje meg, hogyan konvertálhatja a Markdown fájlokat HTML-re Java-ban az Aspose.HTML segítségével, lépésről‑lépésre útmutató.
+### [Div létrehozása java osztállyal – Teljes példa az Aspose.HTML használatával](./create-div-with-class-java-full-example-using-aspose-html/)
+Tanulja meg, hogyan hozhat létre egy div elemet java osztállyal az Aspose.HTML segítségével, részletes, lépésről‑lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

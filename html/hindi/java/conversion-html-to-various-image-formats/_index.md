@@ -115,7 +115,10 @@ Aspose.HTML का उपयोग करके Java में HTML को GIF �
 Aspose.HTML for Java के साथ HTML को JPEG में कैसे बदलें सीखें। सहज दस्तावेज़ प्रोसेसिंग के लिए चरण‑दर‑चरण गाइड।
 
 ### [HTML को PNG में बदलना](./convert-html-to-png/)
-Aspose.HTML के साथ Java में HTML को PNG इमेज में कैसे बदलें सीखें। चरण‑दर‑चरण निर्देशों के साथ एक व्यापक गाइड।
+Aspose.HTML के साथ Java में HTML को PNG इमेज में कैसे बदलें सीखें। चरण‑दर‑क्रम निर्देशों के साथ एक व्यापक गाइड।
+
+### [HTML को PNG में बदलना – पूर्ण Aspose.HTML गाइड](./convert-html-to-png-in-java-complete-aspose-html-guide/)
+Aspose.HTML for Java का उपयोग करके HTML को PNG में बदलने का विस्तृत चरण‑दर‑क्रम गाइड।
 
 ### [Java में HTML को PNG में रेंडर करने का पूर्ण गाइड](./how-to-render-html-to-png-in-java-complete-guide/)
 Aspose.HTML for Java का उपयोग करके HTML को PNG इमेज में रेंडर करने के विस्तृत चरण‑दर‑चरण निर्देश।

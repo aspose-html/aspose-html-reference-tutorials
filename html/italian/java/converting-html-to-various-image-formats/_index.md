@@ -65,21 +65,6 @@ GIF è ideale per piccole animazioni o quando hai bisogno di una palette di colo
 
 Per lo scenario **convert html to jpg**, ottieni il vantaggio di dimensioni file più piccole grazie alla compressione con perdita di JPEG. Questo formato è ideale per contenuti fotografici dove una leggera perdita di dettaglio è accettabile.
 
-Ricorda di impostare la proprietà `Quality` su `JpegOptions` se hai bisogno di un controllo più preciso sui livelli di compressione.
-
-## Conversione HTML in PNG
-
-Se il tuo obiettivo è **create png from html**, PNG ti offre compressione senza perdita e supporta la trasparenza—perfetto per loghi, componenti UI o qualsiasi grafica che richieda uno sfondo trasparente.
-
-Imposta `ImageFormat` su PNG e, facoltativamente, specifica `Resolution` per migliorare la nitidezza su display ad alta DPI.
-
-## Casi d'uso comuni
-- **Newsletter email** – incorpora un'istantanea PNG di un grafico dinamico.  
-- **Reportistica automatizzata** – genera immagini BMP per sistemi legacy che accettano solo BMP.  
-- **Anteprime per i social media** – crea GIF da banner HTML animati.  
-- **Generazione di documenti** – inserisci immagini JPEG nei PDF per una resa più veloce.  
-
-## Tutorial per la conversione HTML in vari formati immagine
 ### [Conversione HTML in BMP](./convert-html-to-bmp/)
 Scopri come convertire HTML in BMP senza sforzo con Aspose.HTML per Java. Una guida passo‑passo con prerequisiti e importazioni di pacchetti. Esplora ora!
 ### [Conversione HTML in GIF](./convert-html-to-gif/)
@@ -111,6 +96,8 @@ R: Una licenza perpetua con contratti di supporto opzionali. È disponibile una 
 **Ultimo aggiornamento:** 2026-03-31  
 **Testato con:** Aspose.HTML for Java 24.11  
 **Autore:** Aspose  
+### [Tutorial html to image – Converti file HTML in PNG e JPEG con Java](./html-to-image-tutorial-convert-html-files-to-png-jpeg-with-j/)
+Scopri come trasformare file HTML in immagini PNG e JPEG usando Aspose.HTML per Java con una guida passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

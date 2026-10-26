@@ -64,6 +64,8 @@ Pelajari cara mengonversi file Markdown menjadi dokumen HTML di Java menggunakan
 Pelajari cara mengambil data JSON menggunakan JavaScript dan menggunakannya untuk membuat dokumen HTML dengan Aspose.HTML untuk Java dalam panduan lengkap ini.
 ### [Buat Dokumen HTML Java – Panduan Langkah‑per‑Langkah dengan Aspose.HTML](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
 Pelajari cara membuat dokumen HTML di Java dengan Aspose.HTML melalui panduan langkah demi langkah yang mudah diikuti.
+### [Buat Dokumen HTML dengan JavaScript Tersemat – Contoh Java](./create-html-document-with-embedded-javascript-java-example/)
+Pelajari cara membuat dokumen HTML yang menyertakan JavaScript tersemat menggunakan Aspose.HTML untuk Java dalam contoh langkah demi langkah.
 ### [Memuat Dokumen HTML dari URL di Aspose.HTML untuk Java](./load-html-documents-from-url/)
 Temukan cara mudah memuat dokumen HTML dari URL di Java dengan Aspose.HTML. Tutorial langkah demi langkah disertakan.
 ### [Memuat Dokumen HTML Java – Panduan Lengkap dengan XPath & CSS](./load-html-document-java-complete-guide-with-xpath-css/)
@@ -148,6 +150,8 @@ Pelajari cara menanyakan dan mengekstrak data HTML menggunakan Aspose.HTML dalam
 ### [Mengonversi Markdown ke HTML di Java – Panduan Cepat dengan Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
 Pelajari cara mengonversi file Markdown menjadi HTML di Java menggunakan Aspose.HTML dengan panduan singkat langkah demi langkah.
 ### [Cara Menelusuri HTML dengan Aspose Java – Panduan Pemrograman Lengkap](./how-to-search-html-with-aspose-java-complete-programming-gui/)
+### [Buat div dengan kelas java – Contoh Lengkap Menggunakan Aspose.HTML](./create-div-with-class-java-full-example-using-aspose-html/)
+Pelajari cara membuat elemen div dengan kelas java menggunakan Aspose.HTML dalam contoh lengkap langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

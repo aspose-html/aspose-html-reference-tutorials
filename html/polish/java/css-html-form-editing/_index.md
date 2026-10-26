@@ -112,6 +112,10 @@ Poznaj, jak programowo odczytywać reguły CSS w Javie przy użyciu Aspose.HTML,
 
 ### [Pobieranie wartości właściwości CSS w Javie – Kompletny przewodnik z Aspose.HTML](./get-css-property-value-in-java-complete-guide-with-aspose-ht/)
 Dowiedz się, jak uzyskać wartość dowolnej właściwości CSS w Javie przy użyciu Aspose.HTML, krok po kroku.
+### [Wybieranie elementu HTML po klasie w Javie – Kompletny przewodnik](./select-html-element-by-class-in-java-complete-guide/)
+Dowiedz się, jak w Javie wybrać element HTML po klasie przy użyciu Aspose.HTML, krok po kroku.
+### [Selektor CSS nie wyłączony przycisk – Przewodnik po parsowaniu HTML w Javie](./css-selector-not-disabled-button-java-html-parsing-guide/)
+Dowiedz się, jak wybrać przycisk nie wyłączony przy użyciu selektora CSS w Aspose.HTML dla Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -111,6 +111,10 @@ Ismerje meg, hogyan olvashatja és elemezheti a CSS-t Java-ban az Aspose.HTML se
 
 ### [CSS tulajdonság értékének lekérése Java-ban – Teljes útmutató az Aspose.HTML segítségével](./get-css-property-value-in-java-complete-guide-with-aspose-ht/)
 Ismerje meg, hogyan kérheti le egy CSS tulajdonság értékét Java-ban az Aspose.HTML használatával, lépésről lépésre útmutató.
+### [HTML elem kiválasztása osztály alapján Java-ban – Teljes útmutató](./select-html-element-by-class-in-java-complete-guide/)
+Ismerje meg, hogyan válassza ki a HTML elemet osztály alapján Java-ban az Aspose.HTML segítségével.
+### [CSS szelektor a nem letiltott gombhoz – Java HTML elemzési útmutató](./css-selector-not-disabled-button-java-html-parsing-guide/)
+Ismerje meg, hogyan válassza ki a nem letiltott gombokat CSS szelektorokkal Java HTML elemzés során.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

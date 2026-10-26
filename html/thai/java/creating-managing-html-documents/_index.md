@@ -27,7 +27,7 @@ Aspose.HTML สำหรับ Java นำเสนอชุดเครื่�
 
 ## การโหลด HTML จากไฟล์และสตรีม
 
- เมื่อคุณคุ้นเคยกับการสร้างเอกสารแล้ว ก็ถึงเวลาที่จะยกระดับการทำงานของคุณด้วยการเรียนรู้วิธีโหลดเอกสาร HTML จากไฟล์และสตรีม บทช่วยสอนเหล่านี้จะช่วยให้คุณมีความรู้ในการดึงเนื้อหา HTML จากแหล่งต่างๆ ทำให้คุณมีความยืดหยุ่นมากขึ้นในการทำโครงการของคุณ ไม่ว่าคุณจะจัดการกับไฟล์ในเครื่องหรือสตรีมข้อมูล Aspose.HTML สำหรับ Java ก็ช่วยคุณได้[อ่านเพิ่มเติม](./load-html-documents-from-file/) [อ่านเพิ่มเติม](./load-html-documents-from-stream/)
+ เมื่อคุณคุ้นเคยกับการสร้างเอกสารแล้วก็ถึงเวลาที่จะยกระดับการทำงานของคุณด้วยการเรียนรู้วิธีโหลดเอกสาร HTML จากไฟล์และสตรีม บทช่วยสอนเหล่านี้จะช่วยให้คุณมีความรู้ในการดึงเนื้อหา HTML จากแหล่งต่างๆ ทำให้คุณมีความยืดหยุ่นมากขึ้นในการทำโครงการของคุณ ไม่ว่าคุณจะจัดการกับไฟล์ในเครื่องหรือสตรีมข้อมูล Aspose.HTML สำหรับ Java ก็ช่วยคุณได้[อ่านเพิ่มเติม](./load-html-documents-from-file/) [อ่านเพิ่มเติม](./load-html-documents-from-stream/)
 
 ## การสร้างเอกสาร HTML จากสตริงและ URL
 
@@ -58,6 +58,8 @@ Aspose.HTML สำหรับ Java นำเสนอชุดเครื่�
 เรียนรู้วิธีสร้างเอกสาร HTML จากสตริงใน Aspose.HTML สำหรับ Java ด้วยคู่มือทีละขั้นตอนนี้
 ### [สร้าง HTML จาก JavaScript ใน Java – คู่มือเต็มแบบทีละขั้นตอน](./generate-html-from-javascript-in-java-complete-step-by-step/)
 เรียนรู้วิธีสร้าง HTML จากโค้ด JavaScript ใน Java ด้วยคู่มือขั้นตอนเต็มที่อธิบายอย่างละเอียด
+### [สร้างเอกสาร HTML พร้อม JavaScript ฝังไว้ – ตัวอย่าง Java](./create-html-document-with-embedded-javascript-java-example/)
+เรียนรู้วิธีสร้างเอกสาร HTML ที่ฝัง JavaScript ด้วย Aspose.HTML สำหรับ Java ผ่านตัวอย่างขั้นตอนที่ชัดเจน
 ### [โหลดเอกสาร HTML จาก URL ใน Aspose.HTML สำหรับ Java](./load-html-documents-from-url/)
 ค้นพบวิธีการโหลดเอกสาร HTML จาก URL ใน Java ได้อย่างง่ายดายด้วย Aspose.HTML พร้อมบทช่วยสอนแบบทีละขั้นตอน
 ### [โหลดเอกสาร HTML ใน Java – คู่มือฉบับสมบูรณ์ด้วย XPath & CSS](./load-html-document-java-complete-guide-with-xpath-css/)
@@ -154,6 +156,8 @@ Aspose.HTML สำหรับ Java นำเสนอชุดเครื่�
 ### [วิธีการค้นหา HTML ด้วย Aspose Java – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./how-to-search-html-with-aspose-java-complete-programming-gui/)
 เรียนรู้วิธีค้นหาและดึงข้อมูลจากเอกสาร HTML ด้วย Aspose Java ผ่านคู่มือการเขียนโปรแกรมฉบับสมบูรณ์
 
+### [สร้าง div พร้อมคลาส java – ตัวอย่างเต็มโดยใช้ Aspose.HTML](./create-div-with-class-java-full-example-using-aspose-html/)
+เรียนรู้วิธีสร้างแท็ก div พร้อมคลาส java อย่างเต็มรูปแบบโดยใช้ Aspose.HTML สำหรับ Java
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

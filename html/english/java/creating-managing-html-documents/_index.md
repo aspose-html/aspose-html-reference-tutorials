@@ -150,6 +150,10 @@ Learn how to create an HTML document in Java using Aspose.HTML with a clear step
 Learn how to fetch JSON using JavaScript and create HTML documents in Java with Aspose.HTML – a complete step-by-step guide.
 ### [How to search HTML with Aspose Java – Complete Programming Guide](./how-to-search-html-with-aspose-java-complete-programming-gui/)
 Learn how to search HTML content using Aspose.HTML for Java in this comprehensive programming guide.
+### [Create HTML Document with Embedded JavaScript – Java Example](./create-html-document-with-embedded-javascript-java-example/)
+Learn how to embed JavaScript into an HTML document using Aspose.HTML for Java with a clear, step-by-step example.
+### [Create div with class java – Full Example Using Aspose.HTML](./create-div-with-class-java-full-example-using-aspose-html/)
+Learn how to create a DIV element with a CSS class in Java using Aspose.HTML in a complete step-by-step example.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

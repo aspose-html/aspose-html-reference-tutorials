@@ -98,11 +98,11 @@ JPG هو صيغة صورة مضغوطة شائعة الاستخدام. لـ **ت
 تعلم كيفية تحويل EPUB إلى PNG في Java باستخدام Aspose.HTML for Java. دليل خطوة بخطوة لتحويل سلس.
 ### [تحويل EPUB إلى PNG باستخدام Java – دليل كامل خطوة بخطوة](./convert-epub-to-png-with-java-complete-step-by-step-guide/)
 تعلم كيفية تحويل EPUB إلى PNG باستخدام Java و Aspose.HTML من خلال دليل شامل خطوة بخطوة.
+### [تحويل EPUB إلى PNG في Java – دليل Aspose HTML الكامل](./convert-epub-to-png-in-java-complete-aspose-html-guide/)
 ### [تحويل EPUB إلى TIFF](./convert-epub-to-tiff/)
 ### [تحديد موفر تدفق مخصص لتحويل EPUB إلى صورة](./convert-epub-to-image-specify-custom-stream-provider/)
 تعلم كيفية تحويل EPUB إلى صور باستخدام Aspose.HTML for Java. دليل خطوة بخطوة لتحويل سلس.
 ### [تحديد خيارات حفظ الصورة لتحويل EPUB إلى صورة](./convert-epub-to-image-specify-image-save-options/)
-تعلم كيفية تحويل ملفات EPUB إلى صور باستخدام Aspose.HTML for Java. يغطي هذا الدليل خطوة بخطوة المتطلبات المسبقة، استيراد الحزم، وعملية التحويل.
 ### [تحويل EPUB إلى صورة بسطر واحد من الكود](./convert-epub-to-image-single-line/)
 تعلم كيفية تحويل EPUB إلى صور باستخدام Aspose.HTML for Java. دليل خطوة بخطوة لتحويلات بلا عناء.
 

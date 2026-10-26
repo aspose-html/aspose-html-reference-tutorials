@@ -37,6 +37,7 @@ Java में Aspose.HTML का उपयोग करके CSS को पढ
 ### [Java में गणना किया गया CSS प्राप्त करें – पूर्ण Aspose HTML गाइड](./get-computed-css-in-java-complete-aspose-html-guide/)
 Java में Aspose.HTML का उपयोग करके गणना किए गए CSS मानों को प्राप्त करने की पूरी प्रक्रिया सीखें।
 ### [Java में क्लास द्वारा एलिमेंट चयन – पूर्ण गाइड](./select-element-by-class-in-java-complete-how-to-guide/)
+### [Java में क्लास द्वारा HTML एलिमेंट चयन – पूर्ण गाइड](./select-html-element-by-class-in-java-complete-guide/)
 Java में Aspose.HTML का उपयोग करके क्लास द्वारा HTML एलिमेंट को चुनने और प्रोसेस करने की पूरी प्रक्रिया सीखें।
 ### [Java में CSS कैसे प्राप्त करें – Aspose.HTML के साथ गणना किया गया स्टाइल प्राप्त करें](./how-to-get-css-in-java-retrieve-computed-style-with-aspose-h/)
 Aspose.HTML for Java का उपयोग करके किसी तत्व का गणना किया गया CSS स्टाइल कैसे प्राप्त करें, सीखें।
@@ -113,6 +114,8 @@ Java में Aspose.HTML का उपयोग करके HTML दस्त
 
 ### [Java में CSS प्रॉपर्टी वैल्यू प्राप्त करें – Aspose.HTML के साथ पूर्ण गाइड](./get-css-property-value-in-java-complete-guide-with-aspose-ht/)
 Aspose.HTML का उपयोग करके Java में CSS प्रॉपर्टी वैल्यू को प्राप्त करने की पूरी प्रक्रिया सीखें।
+### [CSS चयनकर्ता नॉन-डिसेबल्ड बटन – Java HTML पार्सिंग गाइड](./css-selector-not-disabled-button-java-html-parsing-guide/)
+Java में Aspose.HTML का उपयोग करके डिसेबल्ड नहीं बटनों को CSS चयनकर्ता से पहचानने और प्रोसेस करने की पूरी गाइड।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
