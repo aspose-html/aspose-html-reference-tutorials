@@ -97,6 +97,8 @@ url: /ar/net/html-document-manipulation/
 دليل سريع لتطبيق أنماط الخط برمجيًا على مستندات HTML باستخدام Aspose.HTML في C#.
 ### [كيفية إنشاء HTML بنص منسق – دليل كامل بلغة C#](./how-to-create-html-with-styled-text-complete-c-guide/)
 تعلم كيفية إنشاء مستندات HTML بنص منسق باستخدام C# مع دليل شامل خطوة بخطوة.
+### [إنشاء مستند HTML باستخدام Aspose.HTML – دليل كامل](./create-html-document-with-aspose-html-full-guide/)
+تعرف على كيفية إنشاء مستند HTML من الصفر باستخدام Aspose.HTML خطوة بخطوة مع أمثلة عملية.
 
 ## خاتمة
 

@@ -101,6 +101,8 @@ Impara a salvare documenti HTML usando Aspose.HTML con una guida dettagliata pas
 Scopri come applicare stili di font a documenti HTML in C# con Aspose.HTML in pochi passaggi.
 ### [Come creare HTML con testo formattato – Guida completa C#](./how-to-create-html-with-styled-text-complete-c-guide/)
 Impara a generare HTML con testo stilizzato usando C# e Aspose.HTML, passo passo con esempi pratici.
+### [Creare documento HTML con Aspose.HTML – Guida completa](./create-html-document-with-aspose-html-full-guide/)
+Scopri come creare documenti HTML con Aspose.HTML in una guida completa passo passo.
 
 ## Conclusione
 

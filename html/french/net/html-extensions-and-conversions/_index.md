@@ -221,6 +221,8 @@ Apprenez à convertir du HTML en PDF avec Aspose.HTML, guide complet étape par 
 
 ### [Comment zipper du HTML – Guide complet pour exporter des pages Web en ZIP](./how-to-zip-html-complete-guide-to-exporting-web-pages-as-zip/)
 Apprenez à compresser des pages Web en fichiers ZIP avec un guide complet étape par étape.
+### [Comment utiliser ZipHandler – Archiver une page Web en ZIP en C#](./how-to-use-ziphandler-archive-webpage-as-zip-in-c/)
+Apprenez à archiver une page Web en fichier ZIP avec ZipHandler en C# grâce à ce guide étape par étape.
 
 ## Conclusion
 

@@ -163,6 +163,9 @@ Apprenez à désactiver l'anticrénelage dans Aspose.HTML pour obtenir des image
 ### [Rendre le HTML en image avec Aspose.HTML – Guide complet](./render-html-to-image-with-aspose-html-complete-guide/)
 Apprenez à convertir du HTML en images avec Aspose.HTML pour .NET grâce à ce guide complet et détaillé.
 
+### [Rendre le HTML en PDF avec Aspose – Guide complet étape par étape](./render-html-to-pdf-with-aspose-complete-step-by-step-guide/)
+Apprenez à convertir du HTML en PDF avec Aspose en suivant ce guide complet et détaillé, étape par étape, en C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

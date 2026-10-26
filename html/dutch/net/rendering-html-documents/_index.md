@@ -141,6 +141,8 @@ Leer hoe u antialiasing uitschakelt om scherpere afbeeldingen te krijgen met Asp
 
 ### [HTML naar afbeelding renderen met Aspose.HTML – Complete gids](./render-html-to-image-with-aspose-html-complete-guide/)
 Leer hoe u HTML naar afbeelding converteert met Aspose.HTML in deze volledige gids.
+### [HTML renderen naar PDF met Aspose – Complete stap‑voor‑stap gids](./render-html-to-pdf-with-aspose-complete-step-by-step-guide/)
+Leer hoe u HTML naar PDF converteert met Aspose in deze volledige stap‑voor‑stap gids.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

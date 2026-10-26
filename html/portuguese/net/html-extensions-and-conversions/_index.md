@@ -267,6 +267,9 @@ Aprenda a salvar documentos HTML como arquivos ZIP usando Aspose.HTML, com um gu
 ### [Como compactar HTML – Guia completo para exportar páginas da Web como ZIP](./how-to-zip-html-complete-guide-to-exporting-web-pages-as-zip/)
 Aprenda a compactar páginas HTML em arquivos ZIP com um guia passo a passo completo usando Aspose.HTML para .NET.
 
+### [Como usar ZipHandler – Arquivar página da web como ZIP em C#](./how-to-use-ziphandler-archive-webpage-as-zip-in-c/)
+Aprenda a usar ZipHandler para compactar páginas web em arquivos ZIP usando C# com Aspose.HTML.
+
 ## Conclusão
 
 Concluindo, extensões e conversões HTML são elementos essenciais do desenvolvimento web moderno. O Aspose.HTML para .NET simplifica o processo e o torna acessível a desenvolvedores de todos os níveis. Ao seguir nossos tutoriais, você estará no caminho certo para se tornar um desenvolvedor web proficiente com um amplo conjunto de habilidades.

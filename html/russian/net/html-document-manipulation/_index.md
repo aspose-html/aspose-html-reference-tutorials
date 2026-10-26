@@ -95,6 +95,8 @@ Aspose.HTML для .NET выделяется своей простотой и м
 Узнайте, как программно изменить стиль шрифта в HTML с помощью Aspose.HTML для .NET в кратком руководстве на C#.
 ### [Как создать HTML с оформленным текстом – Полное руководство C#](./how-to-create-html-with-styled-text-complete-c-guide/)
 Узнайте, как создавать HTML‑документы со стилизованным текстом в C# с помощью Aspose.HTML. Подробный пошаговый пример.
+### [Создание HTML-документа с Aspose.HTML – Полное руководство](./create-html-document-with-aspose-html-full-guide/)
+Подробное руководство по созданию HTML‑документов с помощью Aspose.HTML в .NET, включая примеры кода и лучшие практики.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

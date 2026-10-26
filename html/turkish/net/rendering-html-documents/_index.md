@@ -45,7 +45,8 @@ Artık Aspose.HTML for .NET'i kurduğunuza göre, HTML işleme konusunda uzmanla
 
 ### [HTML'yi PNG Olarak İşleme – Tam C# Rehberi](./how-to-render-html-as-png-complete-c-guide/)
 C# ile HTML'yi PNG'ye dönüştürmeyi adım adım öğrenin. Bu kapsamlı rehberde örnek kodlar ve ipuçları bulacaksınız.
-
+### [C# ile HTML'yi PNG olarak işleme – Tam Kılavuz](./how-to-render-html-to-png-in-c-complete-guide/)
+C# kullanarak HTML'yi PNG'ye dönüştürmeyi adım adım öğrenin. Bu kapsamlı rehberde örnek kodlar ve ipuçları bulacaksınız.
 ### [Aspose.HTML ile .NET'te EPUB'ı XPS olarak işleyin](./render-epub-as-xps/)
 Bu kapsamlı eğitimde Aspose.HTML for .NET ile HTML belgelerinin nasıl oluşturulacağını ve işleneceğini öğrenin. HTML manipülasyonu, web kazıma ve daha fazlasının dünyasına dalın.
 
@@ -81,9 +82,6 @@ Aspose.HTML for .NET kullanarak HTML dosyalarını PNG formatına dönüştürme
 HTML'den PNG oluşturmayı tam C# render rehberiyle adım adım öğrenin.
 ### [HTML Belgesi Oluşturma C# – Aspose.Html ile PNG Olarak Render Et](./create-html-document-c-render-to-png-with-aspose-html/)
 C# kullanarak HTML belgesi oluşturun ve Aspose.Html ile PNG formatına dönüştürün. Adım adım örneklerle öğrenin.
-
-### [HTML'yi PNG Olarak Render Etme – Tam C# Kılavuzu](./how-to-render-html-to-png-in-c-complete-guide/)
-C# ile HTML'yi PNG'ye dönüştürmenin tüm adımlarını ayrıntılı olarak öğrenin.
 
 ### [Aspose.HTML ile .NET'te HTML'yi PNG Olarak Render Etme – Adım Adım Kılavuz](./how-to-render-html-to-png-step-by-step-guide/)
 HTML'yi PNG'ye dönüştürmeyi adım adım öğrenin, Aspose.HTML for .NET ile örnek kodlar ve ipuçları.
@@ -138,6 +136,8 @@ Aspose.HTML kullanarak HTML içeriğini yakalayın ve HTTP yanıtı olarak gönd
 Aspose.HTML kullanarak antialiasing'i devre dışı bırakarak daha keskin görüntüler elde edin. Adım adım kılavuz.
 ### [Aspose.HTML ile HTML'yi Görüntü Olarak Dönüştürme – Tam Kılavuz](./render-html-to-image-with-aspose-html-complete-guide/)
 Aspose.HTML kullanarak HTML'yi görüntü formatına dönüştürmeyi adım adım öğrenin. Tam kapsamlı rehber.
+### [Aspose ile HTML'yi PDF'ye Dönüştürme – Tam Adım Adım Kılavuz](./render-html-to-pdf-with-aspose-complete-step-by-step-guide/)
+Aspose.HTML for .NET kullanarak HTML'yi PDF'ye dönüştürmeyi adım adım öğrenin. Bu kapsamlı rehberde örnek kodlar ve ipuçları bulacaksınız.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

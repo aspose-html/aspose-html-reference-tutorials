@@ -161,6 +161,9 @@ url: /ar/net/rendering-html-documents/
 ### [تحويل HTML إلى صورة باستخدام Aspose.HTML – دليل كامل](./render-html-to-image-with-aspose-html-complete-guide/)
 تعلم خطوة بخطوة كيفية تحويل مستندات HTML إلى صور باستخدام Aspose.HTML في .NET. دليل شامل يغطي جميع الجوانب.
 
+### [تحويل HTML إلى PDF باستخدام Aspose – دليل كامل خطوة بخطوة](./render-html-to-pdf-with-aspose-complete-step-by-step-guide/)
+تعلم خطوة بخطوة كيفية تحويل مستندات HTML إلى PDF باستخدام Aspose.HTML في .NET. دليل شامل يغطي جميع التفاصيل.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

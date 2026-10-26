@@ -237,6 +237,8 @@ Aspose.HTML for .NET 不仅仅是一个库；它是 Web 开发领域的变革者
 通过完整的分步教程，学习在 C# 中使用 Aspose.HTML 将 HTML 渲染为 PDF，涵盖代码示例和最佳实践。
 ### [使用 Aspose.HTML 将 HTML 保存为 ZIP – 完整指南](./save-html-as-zip-complete-guide-for-aspose-html/)
 使用 Aspose.HTML 将 HTML 内容压缩为 ZIP 文件的完整指南，提供代码示例和关键步骤。
+### [如何使用 ZipHandler – 在 C# 中将网页归档为 ZIP](./how-to-use-ziphandler-archive-webpage-as-zip-in-c/)
+使用 Aspose.HTML for .NET 的 ZipHandler，将网页内容压缩为 ZIP 并保存的完整步骤指南。
 
 ## 结论
 

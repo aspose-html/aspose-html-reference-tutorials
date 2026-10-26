@@ -166,6 +166,9 @@ Aspose.HTML for .NET 因其豐富的功能、優秀的文件和活躍的社群�
 ### [如何停用抗鋸齒以獲得更銳利的圖像 – 步驟指南](./how-to-disable-antialiasing-for-sharper-images-step-by-step/)
 學習如何在 Aspose.HTML for .NET 中停用抗鋸齒，以產生更銳利的圖像，提供完整步驟與最佳實踐。
 
+### [使用 Aspose.HTML 在 .NET 中將 HTML 渲染為 PDF – 完整步驟指南](./render-html-to-pdf-with-aspose-complete-step-by-step-guide/)
+學習使用 Aspose.HTML for .NET 將 HTML 轉換為 PDF，完整步驟與最佳實踐。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

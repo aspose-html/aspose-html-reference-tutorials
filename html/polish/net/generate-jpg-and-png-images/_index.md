@@ -127,6 +127,8 @@ Dowiedz się, jak przekształcić dokumenty Word do formatu PNG przy użyciu Asp
 Poznaj, jak renderować HTML do PNG przy użyciu Aspose.HTML, korzystając z własnych handlerów i zaawansowanych opcji konfiguracyjnych.
 ### [Niestandardowy obsługiwacz zasobów w C# – renderowanie strony internetowej do obrazu](./custom-resource-handler-in-c-render-webpage-to-image/)
 Dowiedz się, jak stworzyć własny handler zasobów w C# i renderować strony HTML jako obrazy przy użyciu Aspose.HTML.
+### [Utwórz PNG z HTML przy użyciu Aspose.HTML – Pełny przewodnik C#](./create-png-from-html-with-aspose-html-full-c-guide/)
+Kompletny przewodnik krok po kroku, jak wygenerować plik PNG z kodu HTML w C# przy użyciu Aspose.HTML.
 
 ## Wniosek
 

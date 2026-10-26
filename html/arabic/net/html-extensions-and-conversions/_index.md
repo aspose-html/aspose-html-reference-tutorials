@@ -223,6 +223,8 @@ url: /ar/net/html-extensions-and-conversions/
 دليل شامل يوضح كيفية حفظ مستند HTML كملف ZIP باستخدام Aspose.HTML خطوة بخطوة.
 ### [كيفية ضغط HTML – دليل كامل لتصدير صفحات الويب كملف ZIP](./how-to-zip-html-complete-guide-to-exporting-web-pages-as-zip/)
 تعلم كيفية ضغط ملفات HTML وتصدير صفحات الويب كملف ZIP باستخدام Aspose.HTML في C# خطوة بخطوة.
+### [كيفية استخدام ZipHandler – أرشفة صفحة الويب كملف ZIP في C#](./how-to-use-ziphandler-archive-webpage-as-zip-in-c/)
+تعلم كيفية ضغط صفحة ويب وحفظها كملف ZIP باستخدام ZipHandler في C#.
 
 ## خاتمة
 

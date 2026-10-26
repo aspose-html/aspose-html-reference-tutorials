@@ -127,6 +127,8 @@ Aspose.HTML for .NET ile Word belgelerini PNG formatına dönüştürerek yükse
 HTML'yi PNG'ye dönüştürürken özel işleyiciler ve çeşitli seçenekleri kullanarak tam kontrol sağlayın.
 ### [C#'da Özel Kaynak İşleyici – Web Sayfasını Görüntüye Dönüştür](./custom-resource-handler-in-c-render-webpage-to-image/)
 C# ile özel kaynak işleyicisi oluşturarak HTML sayfalarını görüntüye dönüştürmeyi öğrenin.
+### [Aspose.HTML ile HTML'den PNG Oluşturun – Tam C# Rehberi](./create-png-from-html-with-aspose-html-full-c-guide/)
+Aspose.HTML kullanarak HTML içeriğinden yüksek kaliteli PNG dosyaları oluşturmayı adım adım öğrenin.
 
 ## Çözüm
 

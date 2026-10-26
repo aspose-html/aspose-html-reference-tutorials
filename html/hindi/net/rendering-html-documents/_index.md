@@ -75,9 +75,6 @@ Aspose.HTML का उपयोग करके HTML को PNG फ़ॉर्�
 ### [HTML दस्तावेज़ बनाएं C# – Aspose.Html के साथ PNG में रेंडर करें](./create-html-document-c-render-to-png-with-aspose-html/)
 C# में Aspose.Html का उपयोग करके HTML दस्तावेज़ बनाना और उसे PNG में रेंडर करना सीखें।
 
-### [HTML को PNG में रेंडर करने का पूर्ण C# गाइड](./how-to-render-html-to-png-in-c-complete-guide/)
-C# में Aspose.HTML का उपयोग करके HTML को PNG में बदलने की पूरी प्रक्रिया सीखें।
-
 ### [HTML को PNG में रेंडर करना – पूर्ण C# गाइड](./how-to-render-html-to-png-complete-c-guide/)
 C# में Aspose.HTML का उपयोग करके HTML को PNG में बदलने की पूरी प्रक्रिया सीखें।
 ### [HTML दस्तावेज़ बनाएं C# – बोल्ड इटैलिक फ़ॉन्ट के साथ PNG में रेंडर करें](./create-html-document-c-render-to-png-with-bold-italic-font/)
@@ -159,6 +156,12 @@ Aspose.HTML में एंटीएलियासिंग को निष�
 
 ### [Aspose.HTML के साथ HTML को इमेज में रेंडर करना – पूर्ण गाइड](./render-html-to-image-with-aspose-html-complete-guide/)
 Aspose.HTML का उपयोग करके HTML को विभिन्न इमेज फ़ॉर्मेट में बदलने की पूरी प्रक्रिया, कोड उदाहरण और टिप्स के साथ।
+
+### [C# में HTML को PNG में रेंडर करने का पूर्ण गाइड](./how-to-render-html-to-png-in-c-complete-guide/)
+C# में Aspose.HTML का उपयोग करके HTML को PNG में बदलने के चरण‑दर‑शरण पूर्ण मार्गदर्शन।
+
+### [Aspose के साथ HTML को PDF में रेंडर करें – पूर्ण चरण‑दर‑चरण गाइड](./render-html-to-pdf-with-aspose-complete-step-by-step-guide/)
+Aspose.HTML for .NET का उपयोग करके HTML को PDF में बदलने के चरण‑दर‑चरण निर्देश।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -223,6 +223,8 @@ Aprenda a usar ZipArchive en C# para guardar HTML en un archivo ZIP con este tut
 Convierta HTML a PDF fácilmente con Aspose. Siga nuestra guía paso a paso y descubra cómo generar PDFs de alta calidad desde HTML.
 ### [Cómo comprimir HTML – Guía completa para exportar páginas web como ZIP](./how-to-zip-html-complete-guide-to-exporting-web-pages-as-zip/)
 Aprenda a exportar páginas web como archivos ZIP con Aspose.HTML para .NET. Guía completa paso a paso con ejemplos de código.
+### [Cómo usar ZipHandler – Archivar página web como ZIP en C#](./how-to-use-ziphandler-archive-webpage-as-zip-in-c/)
+Aprenda a archivar una página web en un archivo ZIP usando ZipHandler y C#. Guía paso a paso con ejemplos de código.
 
 ## Conclusión
 

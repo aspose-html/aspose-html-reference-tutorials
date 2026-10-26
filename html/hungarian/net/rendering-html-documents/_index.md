@@ -128,6 +128,8 @@ Ismerje meg, hogyan rögzítheti és küldheti vissza a HTML-t válaszként az A
 Ismerje meg, hogyan kapcsolhatja ki az antialiasingot az Aspose.HTML-ben, hogy élesebb képeket kapjon.
 ### [HTML képre renderelése az Aspose.HTML‑el – Teljes útmutató](./render-html-to-image-with-aspose-html-complete-guide/)
 Tanulja meg, hogyan renderelhet HTML-t képként az Aspose.HTML segítségével .NET környezetben, lépésről lépésre útmutató.
+### [HTML renderelése PDF-be az Aspose‑szal – Teljes lépésről‑lépésre útmutató](./render-html-to-pdf-with-aspose-complete-step-by-step-guide/)
+Tanulja meg, hogyan renderelhet HTML-t PDF formátumba az Aspose segítségével .NET környezetben, lépésről lépésre útmutató.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

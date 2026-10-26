@@ -127,6 +127,8 @@ Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang định d�
 Hướng dẫn chi tiết cách sử dụng Aspose.HTML để render HTML thành PNG với các trình xử lý tùy chỉnh và các tùy chọn cấu hình.
 ### [Trình xử lý tài nguyên tùy chỉnh trong C# – Kết xuất trang web thành hình ảnh](./custom-resource-handler-in-c-render-webpage-to-image/)
 Hướng dẫn tạo trình xử lý tài nguyên tùy chỉnh trong C# để chuyển đổi trang web thành hình ảnh bằng Aspose.HTML.
+### [Tạo PNG từ HTML với Aspose.HTML – Hướng dẫn đầy đủ C#](./create-png-from-html-with-aspose-html-full-c-guide/)
+Hướng dẫn chi tiết cách tạo tệp PNG từ HTML bằng Aspose.HTML trong C# với các bước thực tế và tối ưu.
 
 ## Phần kết luận
 

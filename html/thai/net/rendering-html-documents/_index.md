@@ -45,13 +45,14 @@ Aspose.HTML สำหรับ .NET ถือเป็นตัวเลือ�
 ### [เรนเดอร์ HTML เป็น PNG ใน C# – คู่มือขั้นตอนเต็ม](./render-html-to-png-in-c-complete-step-by-step-guide/)
 เรียนรู้วิธีเรนเดอร์ไฟล์ HTML เป็นรูป PNG ด้วย C# อย่างละเอียด พร้อมตัวอย่างโค้ดและขั้นตอนที่เข้าใจง่าย
 
-### [วิธีเรนเดอร์ HTML เป็น PNG ใน C# – คู่มือฉบับสมบูรณ์](./how-to-render-html-to-png-in-c-complete-guide/)
-เรียนรู้วิธีการเรนเดอร์ไฟล์ HTML เป็น PNG ด้วย C# อย่างละเอียดในคู่มือฉบับสมบูรณ์นี้!
 ### [สร้างเอกสาร HTML C# – เรนเดอร์เป็น PNG ด้วย Aspose.Html](./create-html-document-c-render-to-png-with-aspose-html/)
 เรียนรู้วิธีสร้างเอกสาร HTML ด้วย C# แล้วเรนเดอร์เป็น PNG อย่างง่ายด้วย Aspose.Html
 
 ### [เรนเดอร์ HTML เป็น PNG ใน C# – คู่มือฉบับสมบูรณ์กับ Aspose.HTML](./render-html-to-png-in-c-complete-guide-with-aspose-html/)
 เรียนรู้วิธีเรนเดอร์ HTML เป็น PNG ด้วย C# อย่างละเอียดด้วย Aspose.HTML ในคู่มือฉบับสมบูรณ์นี้!
+
+### [วิธีเรนเดอร์ HTML เป็น PNG ใน C# – คู่มือฉบับสมบูรณ์](./how-to-render-html-to-png-in-c-complete-guide/)
+เรียนรู้ขั้นตอนการเรนเดอร์ไฟล์ HTML เป็น PNG ด้วย C# อย่างละเอียดในคู่มือฉบับสมบูรณ์นี้
 
 ### [สร้าง PNG จาก HTML – คู่มือการเรนเดอร์ C# เต็มรูปแบบ](./create-png-from-html-full-c-rendering-guide/)
 เรียนรู้วิธีสร้างไฟล์ PNG จาก HTML ด้วย C# อย่างละเอียดด้วย Aspose.HTML สำหรับ .NET
@@ -151,6 +152,8 @@ Aspose.HTML สำหรับ .NET ถือเป็นตัวเลือ�
 
 ### [เรนเดอร์ HTML เป็นภาพด้วย Aspose.HTML – คู่มือฉบับสมบูรณ์](./render-html-to-image-with-aspose-html-complete-guide/)
 เรียนรู้วิธีการเรนเดอร์ HTML เป็นภาพด้วย Aspose.HTML อย่างละเอียดในคู่มือฉบับสมบูรณ์นี้!
+### [เรนเดอร์ HTML เป็น PDF ด้วย Aspose – คู่มือขั้นตอนเต็มรูปแบบ](./render-html-to-pdf-with-aspose-complete-step-by-step-guide/)
+เรียนรู้วิธีการเรนเดอร์ไฟล์ HTML เป็น PDF ด้วย Aspose.HTML สำหรับ .NET อย่างละเอียดในคู่มือขั้นตอนเต็มรูปแบบนี้!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

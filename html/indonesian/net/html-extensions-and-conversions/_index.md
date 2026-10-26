@@ -235,6 +235,8 @@ Pelajari cara menyimpan file HTML ke arsip ZIP dan mengonversinya menjadi PNG me
 Pelajari cara mengonversi HTML menjadi PDF menggunakan Aspose.HTML untuk .NET dengan panduan langkah demi langkah.
 ### [Cara Mengompres HTML menjadi Zip – Panduan Lengkap Mengekspor Halaman Web sebagai ZIP](./how-to-zip-html-complete-guide-to-exporting-web-pages-as-zip/)
 Pelajari cara mengompres halaman HTML menjadi arsip ZIP dengan panduan lengkap menggunakan Aspose.HTML untuk .NET.
+### [Cara Menggunakan ZipHandler – Mengarsipkan Halaman Web sebagai ZIP di C#](./how-to-use-ziphandler-archive-webpage-as-zip-in-c/)
+Pelajari cara mengarsipkan halaman web menjadi file ZIP menggunakan ZipHandler di C# dengan contoh kode lengkap.
 
 ## Kesimpulan
 

@@ -65,6 +65,8 @@ Dowiedz się, jak tworzyć dokumenty HTML i wstawiać style CSS przy użyciu Asp
 Dowiedz się, jak tworzyć dokumenty HTML, dodawać elementy i stosować style tekstu przy użyciu Aspose.HTML dla .NET.
 ### [Jak tworzyć HTML ze stylowanym tekstem – Kompletny przewodnik C#](./how-to-create-html-with-styled-text-complete-c-guide/)
 Dowiedz się, jak generować dokumenty HTML ze stylowanym tekstem w C# przy użyciu Aspose.HTML.
+### [Tworzenie dokumentu HTML za pomocą Aspose.HTML – Pełny przewodnik](./create-html-document-with-aspose-html-full-guide/)
+Kompletny przewodnik krok po kroku, jak tworzyć dokumenty HTML przy użyciu biblioteki Aspose.HTML w .NET.
 ### [Edycja dokumentu w .NET za pomocą Aspose.HTML](./editing-a-document/)
 Twórz wciągające treści internetowe za pomocą Aspose.HTML dla .NET. Dowiedz się, jak manipulować HTML, CSS i nie tylko.
 ### [Dodaj element do ciała – Kompletny przewodnik C# z Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)

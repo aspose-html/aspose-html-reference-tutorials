@@ -54,6 +54,7 @@ Aspose.HTML for .NET 凭借其丰富的功能、出色的文档和活跃的社�
 学习如何使用 Aspose.HTML for .NET 在 C# 中将 HTML 渲染为高质量 PNG，完整步骤与示例代码。
 
 ### [如何使用 Aspose 将 HTML 渲染为 PNG – 完整指南](./how-to-render-html-to-png-with-aspose-complete-guide/)
+### [如何使用 Aspose 将 HTML 渲染为 PNG – 完整指南](./how-to-render-html-to-png-complete-guide/)
 本完整指南详细演示如何使用 Aspose.HTML for .NET 将 HTML 文件转换为高质量 PNG 图像，包含步骤说明和示例代码。
 
 ### [如何使用 Aspose 将 HTML 渲染为 PNG – 步骤指南](./how-to-use-aspose-to-render-html-to-png-step-by-step-guide/)
@@ -164,6 +165,9 @@ Aspose.HTML for .NET 凭借其丰富的功能、出色的文档和活跃的社�
 
 ### [使用 Aspose.HTML 在 .NET 中将 HTML 渲染为图像 – 完整指南](./render-html-to-image-with-aspose-html-complete-guide/)
 本完整指南展示如何使用 Aspose.HTML for .NET 将 HTML 渲染为各种图像格式，提供详细步骤和示例代码。
+
+### [使用 Aspose.HTML 在 .NET 中将 HTML 渲染为 PDF – 完整分步指南](./render-html-to-pdf-with-aspose-complete-step-by-step-guide/)
+学习使用 Aspose.HTML for .NET 将 HTML 渲染为 PDF 的完整步骤指南，涵盖关键设置、代码示例和最佳实践。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

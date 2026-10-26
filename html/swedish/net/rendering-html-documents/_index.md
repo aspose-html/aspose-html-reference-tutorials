@@ -135,6 +135,8 @@ Lär dig hur du med Aspose.HTML för .NET fångar HTML och returnerar den som sv
 Lär dig hur du inaktiverar kantutjämning för att få skarpare bilder med Aspose.HTML för .NET i en detaljerad steg‑för‑steg‑guide.
 ### [Rendera HTML till bild med Aspose.HTML – Komplett guide](./render-html-to-image-with-aspose-html-complete-guide/)
 Lär dig hur du med Aspose.HTML för .NET konverterar HTML till bild i en komplett guide.
+### [Rendera HTML till PDF med Aspose – Komplett steg‑för‑steg‑guide](./render-html-to-pdf-with-aspose-complete-step-by-step-guide/)
+Lär dig hur du med Aspose.HTML för .NET konverterar HTML till PDF i en komplett steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

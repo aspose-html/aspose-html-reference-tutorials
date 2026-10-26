@@ -221,6 +221,8 @@ Erfahren Sie, wie Sie HTML mit Aspose.HTML für .NET in ein ZIP‑Archiv speiche
 Erfahren Sie, wie Sie HTML‑Inhalte mit Aspose.HTML für .NET in ein ZIP‑Archiv komprimieren und speichern – komplette Schritt‑für‑Schritt‑Anleitung.
 ### [HTML als PDF rendern in C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./render-html-as-pdf-in-c-full-step-by-step-guide/)
 Erfahren Sie, wie Sie HTML mit C# und Aspose.HTML in PDF rendern – vollständige Schritt‑für‑Schritt‑Anleitung.
+### [Wie man ZipHandler verwendet – Webseite als ZIP archivieren in C#](./how-to-use-ziphandler-archive-webpage-as-zip-in-c/)
+Erfahren Sie, wie Sie mit ZipHandler Webseiten in ein ZIP‑Archiv komprimieren und speichern – Schritt‑für‑Schritt‑Anleitung in C#.
 
 ## Abschluss
 

@@ -229,6 +229,9 @@ url: /el/net/html-extensions-and-conversions/
 ### [Αποθήκευση HTML ως ZIP – Πλήρης Οδηγός για Aspose.HTML](./save-html-as-zip-complete-guide-for-aspose-html/)
 Μάθετε πώς να αποθηκεύσετε HTML σε αρχείο ZIP με Aspose.HTML – πλήρης οδηγός βήμα‑βήμα.
 
+### [Πώς να χρησιμοποιήσετε το ZipHandler – Αρχειοθέτηση ιστοσελίδας ως ZIP σε C#](./how-to-use-ziphandler-archive-webpage-as-zip-in-c/)
+Μάθετε πώς να χρησιμοποιήσετε το ZipHandler για να συμπιέσετε μια ιστοσελίδα σε αρχείο ZIP χρησιμοποιώντας C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

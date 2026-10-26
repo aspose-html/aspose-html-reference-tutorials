@@ -218,6 +218,8 @@ Hướng dẫn chi tiết cách lưu tài liệu HTML thành tệp ZIP bằng As
 Hướng dẫn chi tiết cách nén HTML thành tệp ZIP, bao gồm ví dụ mã và các tùy chọn cấu hình.
 ### [Chuyển đổi HTML sang PDF trong C# – Lưu trang HTML dưới dạng PDF](./convert-html-to-pdf-in-c-save-html-page-as-pdf/)
 Hướng dẫn chi tiết cách chuyển đổi một trang HTML thành PDF trong C# bằng Aspose.HTML, bao gồm các ví dụ mã và tùy chọn cấu hình.
+### [Cách sử dụng ZipHandler – Lưu trữ trang web dưới dạng ZIP trong C#](./how-to-use-ziphandler-archive-webpage-as-zip-in-c/)
+Hướng dẫn chi tiết cách sử dụng ZipHandler để nén trang web thành tệp ZIP trong C# với Aspose.HTML.
 
 ## Phần kết luận
 
