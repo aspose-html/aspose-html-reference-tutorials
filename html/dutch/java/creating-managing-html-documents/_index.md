@@ -164,6 +164,8 @@ Leer hoe u Markdown naar HTML kunt converteren in Java met Aspose.HTML in deze s
 Leer hoe u JSON-gegevens ophaalt en verwerkt in Java om dynamisch HTML-documenten te genereren met Aspose.HTML.
 ### [HTML doorzoeken met Aspose Java – Complete programmeergids](./how-to-search-html-with-aspose-java-complete-programming-gui/)
 Leer hoe u HTML kunt doorzoeken met Aspose Java in deze volledige programmeergids.
+### [JSON ophalen met JavaScript in Java – Volledige gids](./fetch-json-with-javascript-in-java-full-guide/)
+Leer hoe u JSON kunt ophalen met JavaScript in Java, stap voor stap, inclusief voorbeeldcode en best practices.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

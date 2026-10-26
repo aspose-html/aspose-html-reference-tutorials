@@ -158,6 +158,9 @@ Aspose.HTML สำหรับ Java นำเสนอชุดเครื่�
 
 ### [สร้าง div พร้อมคลาส java – ตัวอย่างเต็มโดยใช้ Aspose.HTML](./create-div-with-class-java-full-example-using-aspose-html/)
 เรียนรู้วิธีสร้างแท็ก div พร้อมคลาส java อย่างเต็มรูปแบบโดยใช้ Aspose.HTML สำหรับ Java
+### [ดึง JSON ด้วย JavaScript ใน Java – คู่มือเต็ม](./fetch-json-with-javascript-in-java-full-guide/)
+เรียนรู้วิธีดึงข้อมูล JSON ด้วย JavaScript ใน Java โดยใช้ Aspose.HTML พร้อมคู่มือทีละขั้นตอนที่เข้าใจง่าย
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

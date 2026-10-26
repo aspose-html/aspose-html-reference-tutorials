@@ -129,6 +129,8 @@ Naučte se převést HTML na markdown v Javě pomocí Aspose.HTML, krok za kroke
 Naučte se převést HTML do Markdown v Javě pomocí Aspose.HTML s podrobným krok‑za‑krokem návodem.
 ### [Převod Markdown do PDF v Javě – Kompletní krok‑za‑krokem průvodce](./convert-markdown-to-pdf-in-java-full-step-by-step-guide/)
 Naučte se převést Markdown do PDF v Javě pomocí Aspose.HTML s podrobným krok‑za‑krokem návodem.
+### [Uložení HTML jako Markdown v Javě – Kompletní průvodce Aspose](./save-html-as-markdown-in-java-complete-aspose-guide/)
+Naučte se převést HTML na Markdown v Javě pomocí Aspose.HTML s podrobným krok‑za‑krokem návodem.
 ### [Převod SVG do obrázku](./convert-svg-to-image/)
 Naučte se převádět SVG na obrázky v Javě s Aspose.HTML. Kompletní průvodce pro výstup vysoké kvality.
 
@@ -286,6 +288,12 @@ Naučte se převést HTML do PDF v Javě pomocí paralelního thread pool pro ry
 Naučte se převést HTML do PDF v Javě pomocí Aspose.HTML s podrobným návodem a nastavením.
 ### [HTML do PDF tutoriál – Převod HTML do PDF v Javě krok za krokem](./html-to-pdf-tutorial-convert-html-to-pdf-in-java-step-by-ste/)
 Naučte se převést HTML do PDF v Javě pomocí podrobného krok‑za‑krokem návodu.
+### [Jak vložit fonty do PDF v Javě – Kompletní průvodce](./how-to-embed-fonts-pdf-in-java-complete-guide/)
+Naučte se, jak v Javě vložit vlastní fonty do PDF pomocí Aspose.HTML a vytvořit dokumenty s přesným vzhledem.
+### [Aspose HtmlDocument – kompletní průvodce ukládáním PDF v Javě](./aspose-htmldocument-save-pdf-complete-java-guide/)
+Naučte se, jak pomocí třídy HtmlDocument v Aspose.HTML uložit PDF v Javě s podrobným krok‑za‑krokem návodem.
+### [Převod HTML do PDF v Javě – Paralelní dávkový průvodce](./convert-html-to-pdf-with-java-parallel-batch-guide/)
+Naučte se, jak provádět hromadný paralelní převod HTML do PDF v Javě pro rychlé zpracování velkých objemů.
 
 ## Často kladené otázky
 

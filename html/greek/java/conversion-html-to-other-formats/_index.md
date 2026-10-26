@@ -277,6 +277,14 @@ weight: 25
 Ακολουθήστε έναν απλό οδηγό βήμα‑βήμα για τη μετατροπή HTML σε PDF σε Java χρησιμοποιώντας το Aspose.HTML, χωρίς πρόσθετες ρυθμίσεις.
 ### [Μετατροπή Markdown σε PDF σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./convert-markdown-to-pdf-in-java-full-step-by-step-guide/)
 Μάθετε πώς να μετατρέψετε αρχεία Markdown σε PDF σε Java με πλήρη οδηγό βήμα‑βήμα, χρησιμοποιώντας το Aspose.HTML.
+### [Aspose HtmlDocument Save PDF – Πλήρης Οδηγός Java](./aspose-htmldocument-save-pdf-complete-java-guide/)
+Μάθετε πώς να αποθηκεύσετε ένα HtmlDocument ως PDF χρησιμοποιώντας Aspose.HTML for Java, βήμα‑βήμα οδηγίες και παραδείγματα.
+### [Πώς να ενσωματώσετε γραμματοσειρές PDF σε Java – Πλήρης Οδηγός](./how-to-embed-fonts-pdf-in-java-complete-guide/)
+Μάθετε πώς να ενσωματώσετε γραμματοσειρές σε αρχεία PDF χρησιμοποιώντας Aspose.HTML for Java, εξασφαλίζοντας σωστή εμφάνιση σε όλες τις συσκευές.
+### [Αποθήκευση HTML ως Markdown σε Java – Πλήρης Οδηγός Aspose](./save-html-as-markdown-in-java-complete-aspose-guide/)
+Μάθετε πώς να μετατρέψετε HTML σε Markdown σε Java χρησιμοποιώντας το Aspose.HTML, βήμα‑βήμα οδηγίες και βέλτιστες πρακτικές.
+### [Μετατροπή HTML σε PDF με Java – Οδηγός Παράλληλης Επεξεργασίας](./convert-html-to-pdf-with-java-parallel-batch-guide/)
+Μάθετε πώς να μετατρέψετε πολλαπλά αρχεία HTML σε PDF ταυτόχρονα χρησιμοποιώντας το Aspose.HTML for Java για βέλτιστη απόδοση.
 
 ## Συχνές Ερωτήσεις
 

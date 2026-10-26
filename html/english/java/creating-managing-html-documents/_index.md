@@ -100,6 +100,8 @@ Learn how to convert Markdown files to HTML in Java using Aspose.HTML with a qui
 Learn to handle document load events in Aspose.HTML for Java with this step-by-step guide. Enhance your web applications.
 ### [execute async javascript in Java – Complete Step‑by‑Step Guide](./execute-async-javascript-in-java-complete-step-by-step-guide/)
 Learn how to execute asynchronous JavaScript in Java using Aspose.HTML with this complete step-by-step guide.
+### [fetch json with javascript in Java – Full Guide](./fetch-json-with-javascript-in-java-full-guide/)
+Learn how to fetch JSON using JavaScript within Java applications with Aspose.HTML. Complete step-by-step guide.
 ### [Create and Manage SVG Documents in Aspose.HTML for Java](./create-manage-svg-documents/)
 Learn to create and manage SVG documents using Aspose.HTML for Java! This comprehensive guide covers everything from basic creation to advanced manipulation.
 ### [How to Parse HTML Java – Load, Query & Count Elements](./how-to-parse-html-java-load-query-count-elements/)

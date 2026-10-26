@@ -155,6 +155,7 @@ Aspose Java का उपयोग करके HTML सामग्री क�
 ### [Java के लिए Aspose.HTML में एंबेडेड JavaScript के साथ HTML दस्तावेज़ बनाएं](./create-html-document-with-embedded-javascript-java-example/)
 ### [Aspose.HTML का उपयोग करके क्लास java के साथ div बनाएं – पूर्ण उदाहरण](./create-div-with-class-java-full-example-using-aspose-html/)
 Aspose.HTML for Java में क्लास java वाले div को बनाने की पूरी प्रक्रिया सीखें, कोड उदाहरण और चरण‑दर‑चरण मार्गदर्शिका।
+### [जावा में जावास्क्रिप्ट के साथ JSON फ़ेच – पूर्ण गाइड](./fetch-json-with-javascript-in-java-full-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

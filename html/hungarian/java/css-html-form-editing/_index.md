@@ -115,6 +115,8 @@ Ismerje meg, hogyan kérheti le egy CSS tulajdonság értékét Java-ban az Aspo
 Ismerje meg, hogyan válassza ki a HTML elemet osztály alapján Java-ban az Aspose.HTML segítségével.
 ### [CSS szelektor a nem letiltott gombhoz – Java HTML elemzési útmutató](./css-selector-not-disabled-button-java-html-parsing-guide/)
 Ismerje meg, hogyan válassza ki a nem letiltott gombokat CSS szelektorokkal Java HTML elemzés során.
+### [Hogyan kapja meg a számított stílust Java-ban – Teljes programozási útmutató](./how-to-get-computed-style-java-complete-programming-guide/)
+Ismerje meg, hogyan olvashatja ki a számított CSS-stílusokat Java-ban az Aspose.HTML segítségével, részletes, lépésről-lépésre útmutató.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

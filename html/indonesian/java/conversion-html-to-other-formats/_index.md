@@ -351,6 +351,18 @@ Pelajari cara mengonversi HTML ke PDF di Java menggunakan Aspose.HTML dengan lan
 ### [Mengonversi Markdown ke PDF di Java – Panduan Lengkap Langkah‑demi‑Langkah](./convert-markdown-to-pdf-in-java-full-step-by-step-guide/)
 Panduan lengkap mengonversi file Markdown menjadi PDF di Java menggunakan Aspose.HTML dengan langkah‑demi‑langkah mudah.
 
+### [Cara Menyematkan Font PDF di Java – Panduan Lengkap](./how-to-embed-fonts-pdf-in-java-complete-guide/)
+Pelajari cara menyematkan font ke dalam file PDF menggunakan Aspose.HTML for Java untuk menghasilkan dokumen dengan tampilan teks yang konsisten.
+
+### [Menyimpan HTML sebagai Markdown di Java – Panduan Lengkap Aspose](./save-html-as-markdown-in-java-complete-aspose-guide/)
+Pelajari cara menyimpan HTML sebagai file Markdown di Java menggunakan Aspose.HTML dengan panduan langkah demi langkah.
+
+### [Aspose HtmlDocument Save PDF – Panduan Lengkap Java](./aspose-htmldocument-save-pdf-complete-java-guide/)
+Pelajari cara menyimpan dokumen HTML sebagai PDF menggunakan Aspose.HtmlDocument di Java dengan panduan langkah demi langkah.
+
+### [Mengonversi HTML ke PDF dengan Java – Panduan Batch Paralel](./convert-html-to-pdf-with-java-parallel-batch-guide/)
+Pelajari cara mengonversi banyak file HTML ke PDF secara paralel di Java menggunakan Aspose.HTML untuk meningkatkan kinerja batch.
+
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bisakah saya menggunakan Aspose.HTML untuk Java dalam aplikasi komersial?**  

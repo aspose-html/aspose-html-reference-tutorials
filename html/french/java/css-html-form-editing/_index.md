@@ -119,6 +119,8 @@ Apprenez à analyser et extraire les styles CSS d'un document HTML en Java avec 
 Apprenez à sélectionner des éléments HTML par classe en Java avec Aspose.HTML grâce à ce guide complet et détaillé.
 ### [Sélecteur CSS bouton non désactivé – Guide d'analyse HTML Java](./css-selector-not-disabled-button-java-html-parsing-guide/)
 Apprenez à identifier et manipuler les boutons actifs à l'aide de sélecteurs CSS dans Aspose.HTML pour Java.
+### [Comment obtenir le style calculé en Java – Guide complet de programmation](./how-to-get-computed-style-java-complete-programming-guide/)
+Apprenez à récupérer le style calculé d'un élément en Java avec Aspose.HTML dans ce guide complet pas à pas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

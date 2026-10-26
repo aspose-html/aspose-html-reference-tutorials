@@ -93,6 +93,8 @@ XPS هو صيغة الطباعة الخاصة بمايكروسوفت. باستخ
 تعلم كيفية تحويل عدة ملفات HTML إلى PDF في وقت واحد باستخدام Aspose.HTML for Java لزيادة الأداء.
 ### [إنشاء PDF بحجم A4 باستخدام Java – دليل كامل خطوة بخطوة](./create-pdf-a4-size-with-java-full-step-by-step-guide/)
 تعلم كيفية إنشاء ملف PDF بحجم A4 في Java خطوة بخطوة باستخدام Aspose.HTML.
+### [تحويل HTML إلى PDF باستخدام Java – دليل الدفعات المتوازية](./convert-html-to-pdf-with-java-parallel-batch-guide/)
+تعلم كيفية تحويل ملفات HTML إلى PDF في Java باستخدام معالجة دفعات متوازية لزيادة السرعة والكفاءة.
 ### [تحويل HTML إلى MHTML](./convert-html-to-mhtml/)
 حوّل HTML إلى MHTML بسهولة باستخدام Aspose.HTML for Java. اتبع دليلنا خطوة بخطوة لتحويل HTML إلى MHTML بكفاءة.
 ### [إنشاء ملف MHTML من HTML – دليل Java كامل](./create-mhtml-file-from-html-complete-java-guide/)
@@ -252,6 +254,11 @@ XPS هو صيغة الطباعة الخاصة بمايكروسوفت. باستخ
 تعلم كيفية تحويل HTML إلى PDF في Java باستخدام مجموعة خيوط متوازية لتحسين الأداء وتسريع المعالجة.
 ### [دليل html إلى pdf – تحويل HTML إلى PDF في Java خطوة بخطوة](./html-to-pdf-tutorial-convert-html-to-pdf-in-java-step-by-ste/)
 ### [تحويل Markdown إلى PDF في Java – دليل كامل خطوة بخطوة](./convert-markdown-to-pdf-in-java-full-step-by-step-guide/)
+### [حفظ HTML كـ Markdown في Java – دليل Aspose الكامل](./save-html-as-markdown-in-java-complete-aspose-guide/)
+تعلم كيفية حفظ ملفات HTML كـ Markdown في Java باستخدام Aspose.HTML من خلال دليل شامل خطوة بخطوة.
+### [كيفية تضمين خطوط PDF في Java – دليل كامل](./how-to-embed-fonts-pdf-in-java-complete-guide/)
+تعلم كيفية تضمين خطوط مخصصة في ملفات PDF باستخدام Aspose.HTML for Java لضمان عرض النصوص بشكل صحيح على جميع الأجهزة.
+### [دليل Java كامل لحفظ PDF باستخدام Aspose HtmlDocument](./aspose-htmldocument-save-pdf-complete-java-guide/)
 
 ## الأسئلة المتكررة
 

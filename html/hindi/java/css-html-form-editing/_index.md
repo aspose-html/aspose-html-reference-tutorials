@@ -116,6 +116,8 @@ Java में Aspose.HTML का उपयोग करके HTML दस्त
 Aspose.HTML का उपयोग करके Java में CSS प्रॉपर्टी वैल्यू को प्राप्त करने की पूरी प्रक्रिया सीखें।
 ### [CSS चयनकर्ता नॉन-डिसेबल्ड बटन – Java HTML पार्सिंग गाइड](./css-selector-not-disabled-button-java-html-parsing-guide/)
 Java में Aspose.HTML का उपयोग करके डिसेबल्ड नहीं बटनों को CSS चयनकर्ता से पहचानने और प्रोसेस करने की पूरी गाइड।
+### [Java में Computed Style कैसे प्राप्त करें – पूर्ण प्रोग्रामिंग गाइड](./how-to-get-computed-style-java-complete-programming-guide/)
+Java में Aspose.HTML का उपयोग करके Computed Style प्राप्त करने की पूरी प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

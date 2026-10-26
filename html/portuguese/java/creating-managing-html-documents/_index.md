@@ -152,6 +152,8 @@ Aprenda a selecionar elementos div por classe usando XPath em Java com Aspose.HT
 Aprenda a converter arquivos Markdown em HTML usando Aspose.HTML para Java com este guia rápido passo a passo.
 ### [Criar div com classe java – Exemplo completo usando Aspose.HTML](./create-div-with-class-java-full-example-using-aspose-html/)
 Aprenda a criar um elemento div com classe em Java usando Aspose.HTML, com exemplo completo passo a passo.
+### [Buscar JSON com JavaScript em Java – Guia Completo](./fetch-json-with-javascript-in-java-full-guide/)
+Aprenda a buscar e processar JSON usando JavaScript dentro de aplicações Java com este guia completo passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

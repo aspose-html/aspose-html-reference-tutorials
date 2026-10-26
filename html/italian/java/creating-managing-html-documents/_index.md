@@ -158,6 +158,8 @@ Scopri come creare un documento HTML in Java con Aspose.HTML grazie a questa gui
 Impara a recuperare JSON con JavaScript e a generare documenti HTML in Java usando Aspose.HTML. Guida passo passo.
 ### [Crea div con classe java – Esempio completo con Aspose.HTML](./create-div-with-class-java-full-example-using-aspose-html/)
 Scopri come creare un elemento div con classe Java usando Aspose.HTML in un esempio completo passo‑passo.
+### [Recupera JSON con JavaScript in Java – Guida completa](./fetch-json-with-javascript-in-java-full-guide/)
+Impara a recuperare dati JSON usando JavaScript all'interno di applicazioni Java con questa guida passo‑passo completa.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

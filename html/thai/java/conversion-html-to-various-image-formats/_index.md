@@ -185,6 +185,9 @@ weight: 24
 
 ### [ปิดการใช้งานรูปภาพภายนอกขณะเรนเดอร์หน้าเว็บเป็น PNG ใน Java](./disable-external-images-while-rendering-webpage-to-png-in-ja/)
 ### [แปลง HTML เป็น AVIF – คู่มือ Java ฉบับสมบูรณ์ด้วย Aspose.HTML](./convert-html-to-avif-with-aspose-html-complete-java-guide/)
+### [สร้าง PNG จาก HTML ใน Java – ตัวอย่างเต็ม](./create-png-from-html-in-java-full-example/)
+### [สร้าง GIF เคลื่อนไหวจาก SVG – คู่มือ Java ทีละขั้นตอน](./create-animated-gif-from-svg-step-by-step-java-guide/)
+### [วิธีเรนเดอร์ HTML – คู่มือ Aspose HTML ไปยัง PNG ฉบับสมบูรณ์](./how-to-render-html-complete-aspose-html-to-png-guide/)
 
 ## คำถามที่พบบ่อย
 

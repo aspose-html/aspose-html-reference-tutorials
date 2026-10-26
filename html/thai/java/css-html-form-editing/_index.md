@@ -118,6 +118,8 @@ url: /th/java/css-html-form-editing/
 เรียนรู้วิธีเลือกองค์ประกอบ HTML ตามคลาสใน Java อย่างละเอียด พร้อมตัวอย่างและขั้นตอนที่ชัดเจน
 ### [ตัวเลือก CSS สำหรับปุ่มที่ไม่ได้ปิดการใช้งาน – คู่มือการแยกวิเคราะห์ HTML ด้วย Java](./css-selector-not-disabled-button-java-html-parsing-guide/)
 เรียนรู้วิธีใช้ตัวเลือก CSS เพื่อค้นหาปุ่มที่ไม่ได้ปิดการใช้งานในเอกสาร HTML ด้วย Aspose.HTML สำหรับ Java
+### [วิธีดึง Computed Style ใน Java – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./how-to-get-computed-style-java-complete-programming-guide/)
+เรียนรู้วิธีดึงค่า Computed Style ขององค์ประกอบ HTML ด้วย Aspose.HTML สำหรับ Java อย่างละเอียดในคู่มือฉบับสมบูรณ์นี้
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

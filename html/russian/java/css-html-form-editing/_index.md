@@ -115,6 +115,8 @@ url: /ru/java/css-html-form-editing/
 Узнайте, как выбрать HTML-элемент по классу в Java с помощью Aspose.HTML, пошаговое руководство от начала до конца.
 ### [CSS‑селектор не отключенной кнопки – Руководство по парсингу HTML на Java](./css-selector-not-disabled-button-java-html-parsing-guide/)
 Узнайте, как с помощью Aspose.HTML для Java находить активные кнопки, используя CSS‑селекторы, и обрабатывать их в HTML‑документах.
+### [Как получить вычисленный стиль в Java – Полное руководство по программированию](./how-to-get-computed-style-java-complete-programming-guide/)
+Узнайте, как получить вычисленный стиль элементов с помощью Aspose.HTML для Java в этом полном руководстве.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

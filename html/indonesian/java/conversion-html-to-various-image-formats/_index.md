@@ -179,6 +179,11 @@ Pelajari cara menangkap screenshot halaman web menggunakan Aspose HTML for Java 
 ### [Buat PNG dari HTML – Konversi Batch Cepat Menggunakan Thread Pool](./create-png-from-html-fast-batch-conversion-using-a-thread-po/)
 ### [Mengonversi HTML ke AVIF – Panduan Lengkap Java dengan Aspose.HTML](./convert-html-to-avif-with-aspose-html-complete-java-guide/)
 ### [Nonaktifkan Gambar Eksternal Saat Merender Halaman Web ke PNG di Java](./disable-external-images-while-rendering-webpage-to-png-in-ja/)
+### [Buat PNG dari HTML di Java – Contoh Lengkap](./create-png-from-html-in-java-full-example/)
+Panduan lengkap untuk membuat file PNG dari HTML menggunakan Aspose.HTML for Java dengan contoh kode lengkap.
+### [Buat GIF animasi dari SVG – Panduan Langkah‑demi‑Langkah Java](./create-animated-gif-from-svg-step-by-step-java-guide/)
+Pelajari cara membuat GIF animasi dari file SVG menggunakan Aspose.HTML untuk Java dengan contoh kode lengkap.
+### [Cara merender HTML – Panduan Lengkap Aspose HTML ke PNG](./how-to-render-html-complete-aspose-html-to-png-guide/)
 
 ## Pertanyaan yang Sering Diajukan
 

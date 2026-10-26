@@ -129,6 +129,8 @@ Konvertera Markdown till HTML i Java sömlöst med Aspose.HTML for Java. Följ v
 Lär dig hur du sparar HTML som Markdown i Java med en komplett steg‑för‑steg‑guide.
 ### [Konvertera Markdown till PDF i Java – Fullständig steg‑för‑steg‑guide](./convert-markdown-to-pdf-in-java-full-step-by-step-guide/)
 Lär dig hur du konverterar Markdown till PDF i Java med en komplett steg‑för‑steg‑guide för högkvalitativ output.
+### [Spara HTML som Markdown i Java – Komplett Aspose‑guide](./save-html-as-markdown-in-java-complete-aspose-guide/)
+Lär dig hur du sparar HTML som Markdown i Java med Aspose.HTML – steg‑för‑steg‑instruktioner för enkel konvertering.
 ### [Konvertera SVG till Bild](./convert-svg-to-image/)
 Lär dig hur du konverterar SVG till bilder i Java med Aspose.HTML. Omfattande guide för högkvalitativ output.
 ### [Konvertera SVG till PDF](./convert-svg-to-pdf/)
@@ -229,6 +231,11 @@ Snabb guide för att konvertera HTML till PDF i Java med Aspose.HTML, med enkla 
 Lär dig hur du justerar enhetens pixelratio för att optimera HTML‑till‑mobilkonvertering med Aspose.HTML i Java.
 ### [HTML till PDF‑tutorial – Konvertera HTML till PDF i Java steg‑för‑steg](./html-to-pdf-tutorial-convert-html-to-pdf-in-java-step-by-ste/)
 Lär dig steg‑för‑steg hur du konverterar HTML till PDF i Java med Aspose.HTML för högkvalitativ output.
+### [Konvertera HTML till PDF med Java – Parallell batchguide](./convert-html-to-pdf-with-java-parallel-batch-guide/)
+Lär dig hur du konverterar HTML till PDF i Java med parallell batchbearbetning för hög prestanda.
+### [Aspose HtmlDocument Spara PDF – Komplett Java‑guide](./aspose-htmldocument-save-pdf-complete-java-guide/)
+Lär dig hur du sparar ett HtmlDocument som PDF i Java med Aspose.HTML – en komplett steg‑för‑steg‑guide.
+### [Bädda in teckensnitt i PDF i Java – Komplett guide](./how-to-embed-fonts-pdf-in-java-complete-guide/)
 
 ### [Konvertera HTML till PDF i Java – Fullständig guide med papperstorlek och DPI](./convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/)
 Omfattande guide för att konvertera HTML till PDF i Java med anpassning av papperstorlek och DPI för bästa utskriftskvalitet.

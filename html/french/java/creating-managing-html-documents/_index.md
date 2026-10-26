@@ -160,6 +160,8 @@ Apprenez à transformer du Markdown en HTML en Java avec Aspose.HTML grâce à c
 Apprenez à interroger et extraire des données HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
 ### [Créer une div avec classe java – Exemple complet utilisant Aspose.HTML](./create-div-with-class-java-full-example-using-aspose-html/)
 Apprenez à créer une balise div avec une classe en Java en utilisant Aspose.HTML, exemple complet pas à pas.
+### [Récupérer du JSON avec JavaScript en Java – Guide complet](./fetch-json-with-javascript-in-java-full-guide/)
+Apprenez à récupérer du JSON via JavaScript dans des applications Java avec Aspose.HTML. Guide complet étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

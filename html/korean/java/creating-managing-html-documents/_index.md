@@ -156,6 +156,8 @@ Java에서 fetch JSON을 사용해 HTML 문서를 만드는 전체 단계별 가
 Aspose.HTML for Java를 사용해 Java 예제로 임베디드 JavaScript가 포함된 HTML 문서를 생성하는 방법을 단계별로 안내합니다.
 ### [Aspose.HTML을 사용한 클래스 java가 있는 div 만들기 – 전체 예제](./create-div-with-class-java-full-example-using-aspose-html/)
 Aspose.HTML for Java를 활용해 클래스가 java인 div 요소를 생성하는 전체 예제를 단계별로 안내합니다.
+### [Java에서 JavaScript를 사용해 JSON 가져오기 – 전체 가이드](./fetch-json-with-javascript-in-java-full-guide/)
+Java 애플리케이션에서 JavaScript를 활용해 JSON 데이터를 가져오고 처리하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

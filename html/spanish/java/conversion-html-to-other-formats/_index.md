@@ -142,6 +142,10 @@ Aprende a generar PDFs desde HTML usando hilos en Java para conversiones simult�
 Aprende a generar un PDF a partir de cualquier página web con una única línea de código usando Aspose.HTML para Java.
 ### [Tutorial de HTML a PDF – Convertir HTML a PDF en Java paso a paso](./html-to-pdf-tutorial-convert-html-to-pdf-in-java-step-by-ste/)
 Aprende a convertir HTML a PDF en Java con una guía paso a paso, cubriendo configuración, opciones de página y mejores prácticas.
+### [Cómo incrustar fuentes en PDF con Java – Guía completa](./how-to-embed-fonts-pdf-in-java-complete-guide/)
+Aprende a incorporar fuentes en archivos PDF usando Aspose.HTML para Java, garantizando que el texto se muestre correctamente en cualquier dispositivo.
+### [Guía completa de Aspose HtmlDocument Save PDF en Java](./aspose-htmldocument-save-pdf-complete-java-guide/)
+Aprende a guardar documentos HTML como PDF usando Aspose.HtmlDocument en Java con ejemplos paso a paso.
 ### [Conversión de HTML a MHTML](./convert-html-to-mhtml/)
 Convierte HTML a MHTML de forma sencilla con Aspose.HTML para Java. Sigue nuestra guía paso a paso para una conversión eficiente de HTML a MHTML.
 
@@ -180,6 +184,8 @@ Aprende a generar archivos Markdown a partir de HTML usando Aspose.HTML en Java 
 Aprende a guardar contenido HTML como archivos Markdown en Java con una guía paso a paso y ejemplos claros.
 ### [Convertir Markdown a PDF en Java – Guía completa paso a paso](./convert-markdown-to-pdf-in-java-full-step-by-step-guide/)
 Aprende a convertir archivos Markdown a PDF en Java con una guía paso a paso, cubriendo configuración y mejores prácticas.
+### [Guardar HTML como Markdown en Java – Guía completa de Aspose](./save-html-as-markdown-in-java-complete-aspose-guide/)
+Aprende a guardar contenido HTML como archivos Markdown en Java usando Aspose.HTML, con ejemplos paso a paso.
 ### [Conversión de SVG a Imagen](./convert-svg-to-image/)
 Aprende a convertir SVG a imágenes en Java con Aspose.HTML. Guía completa para obtener resultados de alta calidad.
 
@@ -195,6 +201,8 @@ Aprende a generar documentos PDF/A‑2b conformes desde HTML usando Aspose.HTML 
 Aprende a generar PDFs de forma asíncrona en Java usando Aspose.HTML, optimizando rendimiento y recursos.
 ### [Extraer audio de HTML – Cómo extraer medios y video](./extract-audio-from-html-how-to-extract-media-and-video/)
 Aprende a extraer audio y video incrustados en páginas HTML usando Aspose.HTML para Java.
+### [Convertir HTML a PDF con Java – Guía de procesamiento por lotes paralelo](./convert-html-to-pdf-with-java-parallel-batch-guide/)
+Aprende a convertir múltiples archivos HTML a PDF simultáneamente usando Aspose.HTML para Java y procesamiento por lotes paralelo.
 
 ### [Guardar HTML como PDF con Java – Guía completa usando Thread Pool y plantillas](./save-html-as-pdf-with-java-complete-guide-using-thread-pool/)
 Aprende a guardar HTML como PDF en Java usando Thread Pool y plantillas para un procesamiento eficiente.

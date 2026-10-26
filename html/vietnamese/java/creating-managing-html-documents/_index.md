@@ -153,6 +153,8 @@ Khám phá cách fetch JSON bằng JavaScript và tạo tài liệu HTML hoàn c
 Khám phá cách tìm kiếm nội dung HTML trong Java bằng Aspose, kèm hướng dẫn chi tiết từng bước và các mẹo tối ưu.
 ### [Tạo div với class java – Ví dụ đầy đủ sử dụng Aspose.HTML](./create-div-with-class-java-full-example-using-aspose-html/)
 Hướng dẫn chi tiết cách tạo thẻ div với class java trong Aspose.HTML cho Java, kèm ví dụ đầy đủ.
+### [Fetch JSON với JavaScript trong Java – Hướng dẫn đầy đủ](./fetch-json-with-javascript-in-java-full-guide/)
+Hướng dẫn chi tiết cách fetch JSON bằng JavaScript trong Java, kèm ví dụ thực tế và mẹo tối ưu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

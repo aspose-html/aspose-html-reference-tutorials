@@ -119,6 +119,8 @@ Aspose.HTML for Java का उपयोग करके HTML को PDF मे�
 Aspose.HTML for Java में PDF रूपांतरण के दौरान JavaScript निष्पादन को सक्रिय करने के चरण सीखें।
 ### [PDF में फ़ॉन्ट एम्बेड करना – Aspose HTML का उपयोग करके पूर्ण जावा गाइड](./embed-fonts-in-pdf-complete-java-guide-using-aspose-html/)
 Aspose.HTML for Java के साथ PDF में फ़ॉन्ट एम्बेड करने का विस्तृत चरण‑दर‑चरण गाइड।
+### [Aspose HtmlDocument PDF सहेजें – पूर्ण Java गाइड](./aspose-htmldocument-save-pdf-complete-java-guide/)
+Aspose.HTML के HtmlDocument को PDF में सहेजने की पूरी प्रक्रिया Java में सीखें। चरण‑दर‑चरण गाइड।
 
 ### [HTML को MHTML में बदलना](./convert-html-to-mhtml/)
 ### [Java में HTML से PDF बनाएं – पूर्ण Aspose गाइड](./create-pdf-from-html-in-java-complete-aspose-guide/)
@@ -134,6 +136,8 @@ Aspose.HTML for Java का उपयोग करके HTML से पूर�
 Aspose.HTML for Java का उपयोग करके HTML को XPS में आसानी से कैसे बदलें सीखें। आसानी से क्रॉस‑प्लेटफ़ॉर्म दस्तावेज़ बनाएं।
 
 ### [HTML को Markdown में बदलें Java में – मूल स्वरूप बनाए रखें](./convert-html-to-markdown-in-java-preserve-original-formattin/)
+### [Java में HTML को Markdown के रूप में सहेजें – पूर्ण Aspose गाइड](./save-html-as-markdown-in-java-complete-aspose-guide/)
+Aspose.HTML for Java का उपयोग करके HTML को Markdown फ़ाइल में बदलने की पूरी प्रक्रिया सीखें।
 
 ### [Markdown को HTML में बदलना](./convert-markdown-to-html/)
 ### [HTML को PDF में बदलें – Azure Blob में PDF सहेजने की पूर्ण गाइड](./convert-html-to-pdf-complete-guide-to-saving-pdf-to-azure-bl/)
@@ -338,6 +342,11 @@ Aspose.HTML for Java का उपयोग करके समानांत�
 ### [HTML को PDF ट्यूटोरियल – Aspose के साथ Java में HTML को PDF में बदलें](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-in-java/)
 ### [HTML को PDF ट्यूटोरियल – जावा में HTML को PDF में चरण‑दर‑चरण बदलें](./html-to-pdf-tutorial-convert-html-to-pdf-in-java-step-by-ste/)
 Aspose.HTML के साथ जावा में HTML को PDF में चरण‑दर‑चरण बदलें। उच्च‑गुणवत्ता वाले PDF बनाने के लिए गाइड।
+
+### [Java में HTML को PDF में बदलें – समानांतर बैच गाइड](./convert-html-to-pdf-with-java-parallel-batch-guide/)
+Java में Aspose.HTML का उपयोग करके समानांतर बैच प्रोसेसिंग के साथ कई HTML फ़ाइलों को PDF में तेज़ी से बदलें।
+
+### [Java में PDF में फ़ॉन्ट एम्बेड करना – पूर्ण गाइड](./how-to-embed-fonts-pdf-in-java-complete-guide/)
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

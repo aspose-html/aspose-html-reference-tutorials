@@ -152,6 +152,8 @@ Ismerje meg, hogyan olvashat be XHTML fájlt Java-ban XPath névtérrel, részle
 Ismerje meg, hogyan konvertálhatja a Markdown fájlokat HTML-re Java-ban az Aspose.HTML segítségével, lépésről‑lépésre útmutató.
 ### [Div létrehozása java osztállyal – Teljes példa az Aspose.HTML használatával](./create-div-with-class-java-full-example-using-aspose-html/)
 Tanulja meg, hogyan hozhat létre egy div elemet java osztállyal az Aspose.HTML segítségével, részletes, lépésről‑lépésre útmutatóval.
+### [JSON lekérése JavaScript-tel Java-ban – Teljes útmutató](./fetch-json-with-javascript-in-java-full-guide/)
+Ismerje meg, hogyan kérhet le JSON adatot JavaScript használatával Java alkalmazásban, lépésről‑lépésre útmutató.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

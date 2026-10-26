@@ -202,6 +202,8 @@ Learn how to generate Markdown from HTML using Aspose.HTML for Java in this comp
 ### [Save HTML as Markdown in Java – Complete Step‑by‑Step Guide](./save-html-as-markdown-in-java-complete-step-by-step-guide/)
 ### [Convert Markdown to PDF in Java – Full Step‑by‑Step Guide](./convert-markdown-to-pdf-in-java-full-step-by-step-guide/)
 Step‑by‑step guide to convert Markdown files to PDF in Java using Aspose.HTML, covering setup, options, and customization.
+### [Save HTML as Markdown in Java – Complete Aspose Guide](./save-html-as-markdown-in-java-complete-aspose-guide/)
+Learn how to convert HTML to Markdown in Java using Aspose.HTML with a comprehensive step‑by‑step guide.
 ### [Converting SVG to Image](./convert-svg-to-image/)
 Learn how to convert SVG to images in Java with Aspose.HTML. Comprehensive guide for high-quality output.
 
@@ -347,6 +349,10 @@ Learn how to embed custom fonts into PDF files using Aspose.HTML for Java, ensur
 Learn how to convert HTML to PDF in Java using a parallel thread pool for faster batch processing with Aspose.HTML.
 ### [html to pdf tutorial – Convert HTML to PDF with Aspose in Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-in-java/)
 Step-by-step guide to convert HTML to PDF using Aspose.HTML for Java, covering setup and customization options.
+### [How to embed fonts pdf in Java – Complete Guide](./how-to-embed-fonts-pdf-in-java-complete-guide/)
+### [Aspose HtmlDocument Save PDF – Complete Java Guide](./aspose-htmldocument-save-pdf-complete-java-guide/)
+### [Convert HTML to PDF with Java – Parallel Batch Guide](./convert-html-to-pdf-with-java-parallel-batch-guide/)
+Learn how to convert multiple HTML files to PDF in parallel using Java and Aspose.HTML for faster batch processing.
 
 ## Frequently Asked Questions
 

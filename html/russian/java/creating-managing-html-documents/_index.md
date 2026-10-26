@@ -148,6 +148,8 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 Узнайте, как выполнять запросы к HTML в Java с помощью Aspose.HTML, полное пошаговое руководство.
 ### [fetch json javascript – Полное руководство Java по созданию HTML‑документа](./fetch-json-javascript-complete-java-guide-to-create-html-doc/)
 ### [Создание div с классом java – полный пример с использованием Aspose.HTML](./create-div-with-class-java-full-example-using-aspose-html/)
+### [Получение JSON с помощью JavaScript в Java — Полное руководство](./fetch-json-with-javascript-in-java-full-guide/)
+Узнайте, как получать JSON-данные с помощью JavaScript в Java, используя Aspose.HTML, с подробными шагами и примерами.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

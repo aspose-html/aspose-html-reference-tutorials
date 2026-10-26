@@ -105,6 +105,8 @@ Aspose.HTML for Java 为开发人员提供了功能强大的工具包，旨在�
 了解如何在 Java 中使用 Aspose.HTML 的 querySelectorAll 方法按 CSS 类过滤元素，提供分步指南和实用技巧。
 ### [在 Aspose Java 中搜索 HTML – 完整编程指南](./how-to-search-html-with-aspose-java-complete-programming-gui/)
 本完整指南详细讲解如何使用 Aspose Java 在 Java 中搜索 HTML 内容，包括查询方法、XPath 与 CSS 选择器等技巧。
+### [在 Java 中使用 JavaScript 获取 JSON – 完整指南](./fetch-json-with-javascript-in-java-full-guide/)
+本完整指南详细讲解如何在 Java 环境中使用 JavaScript 获取 JSON 数据，包括示例代码和最佳实践。
 ### [在 Aspose.HTML for Java 中创建 HTML 沙盒 – 步骤指南](./create-sandbox-for-html-in-java-step-by-step-guide/)
 ### [在 Java 中统计 HTML 字符 – 使用 Aspose HTML 的完整指南](./count-html-characters-in-java-full-guide-with-aspose-html/)
 本完整指南教您如何使用 Aspose.HTML for Java 统计 HTML 文本字符数，涵盖示例代码和最佳实践。

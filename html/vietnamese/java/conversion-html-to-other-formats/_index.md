@@ -101,6 +101,8 @@ Hướng dẫn sử dụng môi trường Sandbox của Aspose.HTML để thực
 Tăng tốc quá trình chuyển đổi HTML sang PDF bằng cách sử dụng Render Song Song, giảm thời gian xử lý đáng kể.
 ### [Chuyển đổi HTML sang PDF trong Java – Ví dụ Parallel của Aspose](./convert-html-to-pdf-in-java-aspose-parallel-example/)
 Hướng dẫn sử dụng Aspose.HTML để chuyển đổi HTML sang PDF trong Java bằng cách thực thi song song, tăng tốc độ xử lý.
+### [Aspose HtmlDocument Lưu PDF – Hướng dẫn Java đầy đủ](./aspose-htmldocument-save-pdf-complete-java-guide/)
+Hướng dẫn chi tiết cách lưu tài liệu HtmlDocument thành PDF trong Java bằng Aspose.HTML.
 
 ### [Chuyển đổi HTML sang PDF trong Java – Hướng dẫn chi tiết với cài đặt kích thước trang](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 ### [Hướng dẫn chuyển đổi HTML sang PDF với Java Fixed Thread Pool](./html-to-pdf-tutorial-convert-html-to-pdf-with-java-fixed-thr/)
@@ -233,6 +235,9 @@ Hướng dẫn chi tiết cách lưu nội dung HTML dưới dạng Markdown tro
 
 ### [Chuyển đổi Markdown sang PDF trong Java – Hướng dẫn hoàn chỉnh](./convert-markdown-to-pdf-in-java-complete-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tài liệu Markdown sang PDF trong Java bằng Aspose.HTML, bao gồm các tùy chọn cấu hình và ví dụ thực tế.
+
+### [Lưu HTML dưới dạng Markdown trong Java – Hướng dẫn đầy đủ của Aspose](./save-html-as-markdown-in-java-complete-aspose-guide/)
+Hướng dẫn chi tiết cách lưu nội dung HTML thành Markdown trong Java bằng Aspose.HTML, bao gồm các bước cấu hình và ví dụ thực tế.
 
 ### [Chuyển đổi SVG sang Hình ảnh](./convert-svg-to-image/)
 Tìm hiểu cách chuyển đổi SVG sang hình ảnh trong Java với Aspose.HTML. Hướng dẫn toàn diện để có đầu ra chất lượng cao.
@@ -374,6 +379,11 @@ Hướng dẫn chi tiết từng bước để chuyển đổi HTML sang PDF tro
 
 ### [Chuyển đổi Markdown sang PDF trong Java – Hướng dẫn chi tiết từng bước](./convert-markdown-to-pdf-in-java-full-step-by-step-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tài liệu Markdown sang PDF trong Java bằng Aspose.HTML, bao gồm cấu hình và tùy chỉnh.
+
+### [Cách nhúng phông chữ PDF trong Java – Hướng dẫn đầy đủ](./how-to-embed-fonts-pdf-in-java-complete-guide/)
+Hướng dẫn chi tiết cách nhúng phông chữ vào PDF trong Java bằng Aspose.HTML, đảm bảo tài liệu hiển thị đúng ký tự và định dạng.
+
+### [Chuyển đổi HTML sang PDF với Java – Hướng dẫn xử lý song song hàng loạt](./convert-html-to-pdf-with-java-parallel-batch-guide/)
 
 ## Câu hỏi thường gặp
 

@@ -160,6 +160,8 @@ Aprenda a convertir documentos Markdown a HTML en Java usando Aspose.HTML con es
 Aprenda a obtener datos JSON usando JavaScript y crear documentos HTML en Java con esta guía paso a paso.
 ### [Crear documento HTML con JavaScript incrustado – Ejemplo Java](./create-html-document-with-embedded-javascript-java-example/)
 Aprenda a crear un documento HTML con JavaScript incrustado en Java usando Aspose.HTML. Guía paso a paso para integrar scripts dinámicos.
+### [Obtener JSON con JavaScript en Java – Guía completa](./fetch-json-with-javascript-in-java-full-guide/)
+Aprenda a obtener JSON con JavaScript en Java usando Aspose.HTML, guía paso a paso completa para integrar datos dinámicos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

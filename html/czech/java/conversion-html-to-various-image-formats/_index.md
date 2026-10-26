@@ -59,6 +59,9 @@ Převod HTML do BMP je častý požadavek pro archivaci webových stránek nebo 
 ## Převod HTML do GIF
 Chcete **convert HTML to GIF** pro animované náhledy nebo lehké grafiky? Aspose.HTML for Java to usnadňuje. Tento tutoriál vás provede procesem a zajistí výstup vysoké kvality s minimálním kódem.
 
+### [Vytvoření animovaného GIF z SVG – krok‑za‑krokem průvodce v Javě](./create-animated-gif-from-svg-step-by-step-java-guide/)
+Naučte se, jak pomocí Aspose.HTML for Java převést SVG do animovaného GIF souboru s podrobnými ukázkami kódu.
+
 ## Převod HTML do JPEG
 Pokud potřebujete **convert HTML to JPEG** pro fotografické reprezentace nebo kompatibilitu se staršími systémy, tento krok‑za‑krokem průvodce zjednoduší pracovní postup a zachová vizuální věrnost.
 
@@ -80,7 +83,6 @@ Převod HTML do BMP pomocí Aspose.HTML for Java. Komplexní tutoriál pro bezpr
 
 ### [Převod HTML do GIF](./convert-html-to-gif/)
 Naučte se, jak převést HTML do GIF v Javě pomocí Aspose.HTML. Komplexní krok‑za‑krokem průvodce pro efektivní převod HTML‑to‑GIF.
-
 ### [Převod HTML do JPEG](./convert-html-to-jpeg/)
 Naučte se převést HTML do JPEG pomocí Aspose.HTML for Java. Krok‑za‑krokem průvodce pro plynulé zpracování dokumentů.
 
@@ -189,6 +191,8 @@ Kompletní návod, jak převést HTML do formátu WebP v Javě pomocí Aspose.HT
 Naučte se převést HTML do formátu AVIF v Javě pomocí Aspose.HTML. Kompletní krok‑za‑krokem průvodce.
 ### [Zakázat externí obrázky při vykreslování webové stránky do PNG v Javě](./disable-external-images-while-rendering-webpage-to-png-in-ja/)
 Naučte se, jak při převodu HTML na PNG v Javě zabránit načítání externích obrázků pro rychlejší a bezpečnější renderování.
+### [Vytvoření PNG z HTML v Javě – Kompletní příklad](./create-png-from-html-in-java-full-example/)
+### [Jak renderovat HTML – Kompletní průvodce Aspose HTML do PNG](./how-to-render-html-complete-aspose-html-to-png-guide/)
 
 ## Často kladené otázky
 

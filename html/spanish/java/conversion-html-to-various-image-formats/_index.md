@@ -139,6 +139,8 @@ Aprenda a renderizar HTML a PNG en Java usando Aspose.HTML, incluyendo token Bea
 Aprenda a generar imágenes PNG de alta resolución desde HTML usando Aspose.HTML for Java con pasos detallados y ejemplos.
 ### [Convertir HTML a PNG en Java – Guía completa de Aspose.HTML](./convert-html-to-png-in-java-complete-aspose-html-guide/)
 Aprenda a convertir HTML a PNG en Java con Aspose.HTML. Guía completa paso a paso para una conversión de alta calidad.
+### [Cómo renderizar HTML – Guía completa de Aspose HTML a PNG](./how-to-render-html-complete-aspose-html-to-png-guide/)
+Aprenda a renderizar HTML a PNG con Aspose.HTML for Java, paso a paso, con ejemplos completos.
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
 Aprenda a convertir HTML a TIFF fácilmente usando Aspose.HTML for Java. Guía paso a paso para un manejo eficiente de documentos.
 ### [Convertir HTML a WebP – Guía completa de Java con Aspose.HTML](./convert-html-to-webp-complete-java-guide/)
@@ -214,6 +216,9 @@ Aprenda a convertir HTML a AVIF en Java usando Aspose.HTML. Guía paso a paso pa
 
 ### [Desactivar imágenes externas al renderizar página web a PNG en Java](./disable-external-images-while-rendering-webpage-to-png-in-ja/)
 Aprenda a desactivar imágenes externas al renderizar una página web a PNG usando Aspose.HTML for Java.
+### [Crear GIF animado a partir de SVG – Guía paso a paso en Java](./create-animated-gif-from-svg-step-by-step-java-guide/)
+### [Crear PNG a partir de HTML en Java – Ejemplo completo](./create-png-from-html-in-java-full-example/)
+Aprenda a crear PNG a partir de HTML en Java con un ejemplo completo usando Aspose.HTML for Java.
 
 ## Preguntas frecuentes
 

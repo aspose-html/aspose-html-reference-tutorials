@@ -136,6 +136,8 @@ Ontdek een stap‑voor‑stap handleiding om HTML naar PDF te converteren in Jav
 Leer hoe u pagina‑grootte en marges kunt configureren bij het converteren van HTML naar PDF in Java met Aspose.HTML.
 ### [HTML naar PDF tutorial – Converteer HTML naar PDF in Java stap‑voor‑stap](./html-to-pdf-tutorial-convert-html-to-pdf-in-java-step-by-ste/)
 Volg een gedetailleerde stap‑voor‑stap handleiding om HTML naar PDF te converteren in Java met Aspose.HTML.
+### [HTML naar PDF converteren met Java – Parallelle batchgids](./convert-html-to-pdf-with-java-parallel-batch-guide/)
+Leer hoe u HTML‑bestanden parallel kunt converteren naar PDF in Java met Aspose.HTML voor snellere batchverwerking.
 ### [HTML naar MHTML converteren](./convert-html-to-mhtml/)
 Converteer HTML moeiteloos naar MHTML met Aspose.HTML for Java. Volg onze stap‑voor‑stap gids voor efficiënte HTML‑naar‑MHTML conversie.
 ### [HTML naar MHTML converteren met Aspose.HTML – Complete Java‑gids](./convert-html-to-mhtml-with-aspose-html-complete-java-guide/)
@@ -286,6 +288,11 @@ Leer hoe u lettertypen insluit in PDF's met Aspose.HTML for Java voor consistent
 Leer hoe u HTML naar PDF converteert in Java met behulp van een parallelle thread‑pool voor snellere batchverwerking.
 ### [HTML naar PDF tutorial – Converteer HTML naar PDF met Aspose in Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-in-java/)
 Leer hoe u HTML naar PDF kunt omzetten in Java met Aspose, stap‑voor‑stap met voorbeeldcode en configuratie‑tips.
+### [Hoe lettertypen in PDF insluiten in Java – Complete gids](./how-to-embed-fonts-pdf-in-java-complete-guide/)
+Leer stap‑voor‑stap hoe u lettertypen in PDF‑bestanden kunt insluiten met Aspose.HTML for Java voor consistente weergave.
+### [HTML opslaan als Markdown in Java – Complete Aspose-gids](./save-html-as-markdown-in-java-complete-aspose-guide/)
+### [Aspose HtmlDocument PDF opslaan – Complete Java-gids](./aspose-htmldocument-save-pdf-complete-java-guide/)
+Leer hoe u met Aspose.HTML for Java een HtmlDocument naar PDF kunt opslaan met volledige configuratie‑opties.
 
 ## Veelgestelde Vragen
 

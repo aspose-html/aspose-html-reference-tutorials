@@ -116,6 +116,8 @@ Aspose.HTML for Java kullanarak bir CSS özelliğinin değerini nasıl alacağı
 Java’da sınıfa göre HTML öğelerini seçerek dinamik içerik oluşturmayı öğrenin.
 ### [Devre dışı olmayan buton seçicisi – Java HTML Ayrıştırma Kılavuzu](./css-selector-not-disabled-button-java-html-parsing-guide/)
 Bu rehberde, Java ile Aspose.HTML kullanarak devre dışı olmayan butonları CSS seçicileriyle nasıl seçeceğinizi ve işleyeceğinizi öğrenin.
+### [Java’da Hesaplanmış Stil Nasıl Alınır – Tam Programlama Kılavuzu](./how-to-get-computed-style-java-complete-programming-guide/)
+Aspose.HTML for Java kullanarak bir öğenin hesaplanmış stilini programlı olarak almayı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

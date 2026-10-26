@@ -169,6 +169,8 @@ Lär dig hur du snabbt konverterar Markdown till HTML i Java med Aspose i en ste
 Lär dig hur du hämtar JSON med JavaScript och skapar HTML‑dokument i Java med Aspose.HTML i en komplett steg‑för‑steg‑guide.
 ### [Skapa div med klass java – Fullständigt exempel med Aspose.HTML](./create-div-with-class-java-full-example-using-aspose-html/)
 Lär dig hur du skapar en div med klass i Java med Aspose.HTML i ett komplett exempel.
+### [Hämta JSON med JavaScript i Java – Fullständig guide](./fetch-json-with-javascript-in-java-full-guide/)
+Lär dig hur du använder JavaScript för att hämta JSON-data i Java-applikationer med en komplett steg-för-steg-guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

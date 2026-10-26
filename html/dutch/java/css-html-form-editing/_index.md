@@ -114,6 +114,8 @@ Leer hoe u met Aspose.HTML voor Java de waarde van een CSS‑eigenschap kunt oph
 Leer hoe u HTML-elementen op basis van een CSS‑klasse kunt selecteren met Aspose.HTML voor Java, inclusief voorbeeldcode en tips.
 ### [CSS-selectie van niet‑uitgeschakelde knop – Java HTML‑parsing‑gids](./css-selector-not-disabled-button-java-html-parsing-guide/)
 Leer hoe u met Aspose.HTML voor Java een CSS‑selector gebruikt om knoppen te vinden die niet zijn uitgeschakeld.
+### [Hoe Computed Style in Java te verkrijgen – Complete programmeergids](./how-to-get-computed-style-java-complete-programming-guide/)
+Leer hoe u met Aspose.HTML voor Java de berekende stijl van een element kunt ophalen in deze volledige programmeergids.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

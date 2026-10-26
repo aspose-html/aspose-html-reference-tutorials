@@ -59,6 +59,8 @@ Convertire HTML in BMP è una necessità comune per l'archiviazione di pagine we
 ## Conversione di HTML in GIF
 Vuoi **convertire HTML in GIF** per anteprime animate o grafiche leggere? Aspose.HTML for Java lo rende semplice. Questo tutorial ti guida attraverso il processo, garantendo un output di alta qualità con un codice minimo.
 
+### [Crea GIF animata da SVG – Guida passo‑passo Java](./create-animated-gif-from-svg-step-by-step-java-guide/)
+
 ## Conversione di HTML in JPEG
 Se hai bisogno di **convertire HTML in JPEG** per rappresentazioni simili a foto o per compatibilità con sistemi legacy, questa guida passo‑step semplifica il flusso di lavoro mantenendo la fedeltà visiva.
 
@@ -132,6 +134,8 @@ Scopri come renderizzare HTML in PNG in Java aggiungendo token Bearer e intestaz
 Impara a generare PNG ad alta risoluzione da HTML con Aspose.HTML for Java. Guida dettagliata passo‑passo per risultati nitidi.
 ### [Converti HTML in PNG in Java – Guida completa Aspose.HTML](./convert-html-to-png-in-java-complete-aspose-html-guide/)
 Scopri come convertire HTML in PNG con Java usando Aspose.HTML, con esempi dettagliati e consigli pratici per risultati ottimali.
+### [Crea PNG da HTML in Java – Esempio completo](./create-png-from-html-in-java-full-example/)
+Guida completa per generare un file PNG da HTML in Java usando Aspose.HTML, con codice pronto all'uso.
 ### [Conversione di HTML in TIFF](./convert-html-to-tiff/)
 Scopri come convertire facilmente HTML in TIFF usando Aspose.HTML for Java. Guida passo‑passo per una gestione efficiente dei documenti.
 
@@ -210,6 +214,7 @@ Scopri come convertire HTML in WebP in Java con Aspose.HTML. Una guida dettaglia
 ### [Converti HTML in AVIF con Aspose.HTML – Guida completa Java](./convert-html-to-avif-with-aspose-html-complete-java-guide/)
 Scopri come convertire HTML in AVIF con Aspose.HTML per Java in questa guida completa passo‑step.
 ### [Disabilita le immagini esterne durante il rendering della pagina web in PNG con Java](./disable-external-images-while-rendering-webpage-to-png-in-ja/)
+### [Come renderizzare HTML – Guida completa Aspose HTML a PNG](./how-to-render-html-complete-aspose-html-to-png-guide/)
 
 ## Domande frequenti
 

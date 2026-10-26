@@ -164,6 +164,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML Markdown-Dateien schnell in HTML umwandeln
 Erfahren Sie, wie Sie HTML‑Inhalte mit Aspose Java effizient durchsuchen und verarbeiten – Schritt‑für‑Schritt‑Anleitung inklusive Beispielen.
 ### [JSON mit JavaScript abrufen – Komplettanleitung für Java zum Erstellen von HTML‑Dokumenten](./fetch-json-javascript-complete-java-guide-to-create-html-doc/)
 Erfahren Sie, wie Sie JSON‑Daten mit JavaScript abrufen und ein HTML‑Dokument mit Aspose.HTML für Java erstellen.
+### [JSON mit JavaScript in Java abrufen – Vollständige Anleitung](./fetch-json-with-javascript-in-java-full-guide/)
+Erfahren Sie, wie Sie JSON‑Daten mit JavaScript in Java abrufen und verarbeiten – Schritt‑für‑Schritt‑Leitfaden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

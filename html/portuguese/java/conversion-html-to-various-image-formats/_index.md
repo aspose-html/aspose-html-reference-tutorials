@@ -77,7 +77,6 @@ Aprenda a gerar GIFs a partir de arquivos SVG usando Java e Aspose.HTML. Guia co
 Aprenda a converter HTML para JPEG com Aspose.HTML for Java. Guia passo a passo para processamento de documentos sem interrupções.
 
 ### [Convertendo HTML para PNG](./convert-html-to-png/)
-Aprenda a converter HTML para imagens PNG em Java com Aspose.HTML. Um guia abrangente com instruções passo a passo.
 ### [Como renderizar HTML para PNG com viewport personalizado](./how-to-render-html-to-png-with-custom-viewport/)
 Aprenda a renderizar HTML para PNG com um viewport personalizado usando Aspose.HTML for Java.
 
@@ -123,6 +122,10 @@ Aprenda a gerar PNG de alta resolução a partir de HTML em Java usando Aspose.H
 ### [Convertendo HTML para PNG em Java – Guia Completo Aspose.HTML](./convert-html-to-png-in-java-complete-aspose-html-guide/)
 Aprenda a converter HTML para PNG em Java usando Aspose.HTML. Guia completo passo a passo para gerar imagens PNG de alta qualidade.
 
+### [Criar PNG a partir de HTML em Java – Exemplo Completo](./create-png-from-html-in-java-full-example/)
+Aprenda a criar PNG a partir de HTML em Java usando Aspose.HTML. Guia passo a passo completo.
+### [Como renderizar HTML – Guia completo Aspose HTML para PNG](./how-to-render-html-complete-aspose-html-to-png-guide/)
+Aprenda a renderizar HTML para PNG usando Aspose.HTML. Guia completo passo a passo para gerar imagens PNG de alta qualidade.
 ### [Convertendo HTML para TIFF](./convert-html-to-tiff/)
 Aprenda a converter HTML para TIFF usando Aspose.HTML for Java de forma fácil. Guia passo a passo para manipulação eficiente de documentos.
 
@@ -197,6 +200,8 @@ Aprenda a renderizar HTML como PNG em Java usando Aspose.HTML. Guia passo a pass
 Aprenda a converter HTML para AVIF em Java usando Aspose.HTML. Guia completo passo a passo para gerar imagens AVIF de alta qualidade.
 ### [Desativar Imagens Externas ao Renderizar Página Web para PNG em Java](./disable-external-images-while-rendering-webpage-to-png-in-ja/)
 Aprenda a impedir o carregamento de imagens externas ao renderizar páginas web em PNG usando Aspose.HTML for Java.
+### [Criar GIF animado a partir de SVG – Guia passo a passo em Java](./create-animated-gif-from-svg-step-by-step-java-guide/)
+Aprenda a gerar GIF animado a partir de SVG usando Aspose.HTML for Java. Guia completo passo a passo para criar animações.
 
 ## Perguntas Frequentes
 

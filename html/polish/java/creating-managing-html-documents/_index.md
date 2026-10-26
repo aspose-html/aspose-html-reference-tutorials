@@ -159,6 +159,8 @@ Dowiedz się, jak szybko konwertować pliki Markdown na HTML w Javie przy użyci
 Dowiedz się, jak efektywnie przeszukiwać dokumenty HTML w Javie przy użyciu Aspose.HTML, krok po kroku.
 ### [fetch json javascript – Kompletny przewodnik Java do tworzenia dokumentu HTML](./fetch-json-javascript-complete-java-guide-to-create-html-doc/)
 Poznaj, jak pobierać JSON w JavaScript i tworzyć dokumenty HTML w Javie przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
+### [Pobieranie JSON za pomocą JavaScript w Javie – Pełny przewodnik](./fetch-json-with-javascript-in-java-full-guide/)
+Dowiedz się, jak pobierać dane JSON przy użyciu JavaScript w aplikacjach Java, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -116,6 +116,8 @@ Naučte se, jak pomocí Aspose.HTML pro Java získat hodnotu libovolné CSS vlas
 Kompletní návod, jak pomocí Aspose.HTML pro Javu vybrat HTML element podle třídy a s ním pracovat.
 ### [Selektor CSS pro nezakázané tlačítko – Průvodce parsováním HTML v Javě](./css-selector-not-disabled-button-java-html-parsing-guide/)
 Naučte se pomocí Aspose.HTML pro Javu vybrat a manipulovat s tlačítky, která nejsou zakázána, pomocí CSS selektorů.
+### [Jak získat vypočítaný styl v Javě – kompletní programovací průvodce](./how-to-get-computed-style-java-complete-programming-guide/)
+Naučte se, jak pomocí Aspose.HTML pro Javu získat vypočítané CSS styly elementů a použít je ve svých aplikacích.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

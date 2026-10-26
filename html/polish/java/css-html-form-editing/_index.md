@@ -116,6 +116,8 @@ Dowiedz się, jak uzyskać wartość dowolnej właściwości CSS w Javie przy u�
 Dowiedz się, jak w Javie wybrać element HTML po klasie przy użyciu Aspose.HTML, krok po kroku.
 ### [Selektor CSS nie wyłączony przycisk – Przewodnik po parsowaniu HTML w Javie](./css-selector-not-disabled-button-java-html-parsing-guide/)
 Dowiedz się, jak wybrać przycisk nie wyłączony przy użyciu selektora CSS w Aspose.HTML dla Java.
+### [Jak uzyskać styl obliczony w Javie – Kompletny przewodnik programistyczny](./how-to-get-computed-style-java-complete-programming-guide/)
+Dowiedz się, jak programowo pobrać obliczony styl elementu w Javie przy użyciu Aspose.HTML, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

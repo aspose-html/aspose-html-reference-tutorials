@@ -143,6 +143,8 @@ Aspose.HTML を活用し、Java で Markdown を HTML に変換する手順を�
 ### [Aspose.HTML for Java で HTML を検索する方法 – 完全プログラミングガイド](./how-to-search-html-with-aspose-java-complete-programming-gui/)
 ### [Aspose.HTML for Java を使用した div に class java を作成する – 完全例](./create-div-with-class-java-full-example-using-aspose-html/)
 Aspose.HTML for Java を活用し、class "java" を持つ div 要素を作成する手順をステップバイステップで解説します。
+### [Java で JavaScript を使用して JSON を取得する – 完全ガイド](./fetch-json-with-javascript-in-java-full-guide/)
+Java アプリケーションで JavaScript を利用し、JSON データを取得して処理する方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

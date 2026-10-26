@@ -140,6 +140,9 @@ Suivez ce guide complet pour convertir HTML en PDF en Java avec Aspose.HTML, inc
 ### [Convertir HTML en PDF avec Java – Guide complet](./convert-html-to-pdf-with-java-full-guide/)
 Apprenez à convertir HTML en PDF en Java avec Aspose.HTML grâce à un guide complet pas à pas.
 
+### [Convertir HTML en PDF avec Java – Guide de traitement par lots parallèle](./convert-html-to-pdf-with-java-parallel-batch-guide/)
+Apprenez à convertir plusieurs fichiers HTML en PDF simultanément avec Aspose.HTML for Java, en utilisant le traitement par lots parallèle.
+
 ### [Convertir HTML en PDF en Java – Guide étape par étape avec réglages de taille de page](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Apprenez à convertir HTML en PDF en Java en suivant chaque étape, incluant la configuration de la taille de page pour des documents précis.
 ### [Convertir HTML en PDF avec Java – comment créer un pool de threads](./convert-html-to-pdf-with-java-how-to-create-thread-pool/)
@@ -263,6 +266,9 @@ Apprenez à convertir des fichiers Markdown en PDF en Java avec Aspose.HTML, ét
 
 ### [Convertir Markdown en PDF en Java – Guide complet étape par étape](./convert-markdown-to-pdf-in-java-full-step-by-step-guide/)
 Apprenez à convertir des fichiers Markdown en PDF en Java avec Aspose.HTML, grâce à un guide complet étape par étape.
+
+### [Enregistrer HTML en Markdown en Java – Guide complet Aspose](./save-html-as-markdown-in-java-complete-aspose-guide/)
+Apprenez à convertir du HTML en Markdown en Java avec Aspose.HTML grâce à ce guide complet et détaillé.
 
 ### [Converting SVG to Image](./convert-svg-to-image/)
 Apprenez à convertir SVG en images en Java avec Aspose.HTML. Guide complet pour une sortie de haute qualité.
@@ -392,6 +398,11 @@ Apprenez à convertir HTML en PDF en Java en utilisant un pool de threads parall
 
 ### [Tutoriel HTML vers PDF – Convertir HTML en PDF en Java étape par étape](./html-to-pdf-tutorial-convert-html-to-pdf-in-java-step-by-ste/)
 Apprenez à convertir HTML en PDF en Java avec un guide détaillé étape par étape, incluant les meilleures pratiques et options de configuration.
+
+### [Comment intégrer des polices PDF en Java – Guide complet](./how-to-embed-fonts-pdf-in-java-complete-guide/)
+
+### [Aspose HtmlDocument – Enregistrement PDF – Guide complet Java](./aspose-htmldocument-save-pdf-complete-java-guide/)
+Apprenez à enregistrer un HtmlDocument au format PDF en Java avec Aspose.HTML. Guide complet pas à pas.
 
 ## Foire aux questions
 

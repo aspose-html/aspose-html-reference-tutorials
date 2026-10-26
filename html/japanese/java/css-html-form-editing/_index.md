@@ -122,6 +122,8 @@ Aspose.HTML を使用して、Java で CSS プロパティの値を取得する�
 Java で Aspose.HTML を使用し、無効化されていないボタンを CSS セレクタで取得する方法をステップバイステップで解説します。
 ### [JavaでクラスによるHTML要素の選択 – 完全ガイド](./select-html-element-by-class-in-java-complete-guide/)
 Javaコードでクラス属性を使用してHTML要素を取得し、操作する方法をステップバイステップで解説します。
+### [Javaで計算済みスタイルを取得する方法 – 完全プログラミングガイド](./how-to-get-computed-style-java-complete-programming-guide/)
+この完全ガイドでは、Aspose.HTML for Java を使用して要素の計算済みスタイルを取得する手順とコード例を詳しく解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

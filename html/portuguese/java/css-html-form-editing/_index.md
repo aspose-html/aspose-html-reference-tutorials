@@ -117,6 +117,8 @@ Aprenda a obter valores de propriedades CSS em Java com Aspose.HTML neste guia c
 Aprenda a selecionar elementos HTML por classe em Java usando Aspose.HTML neste guia completo e prático.
 ### [Seletor CSS para botão não desativado – Guia de análise HTML em Java](./css-selector-not-disabled-button-java-html-parsing-guide/)
 Aprenda a selecionar botões que não estão desativados usando seletores CSS com Aspose.HTML para Java.
+### [Como obter estilo computado Java – Guia completo de programação](./how-to-get-computed-style-java-complete-programming-guide/)
+Aprenda a obter estilos computados de elementos HTML usando Aspose.HTML para Java neste guia completo de programação.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

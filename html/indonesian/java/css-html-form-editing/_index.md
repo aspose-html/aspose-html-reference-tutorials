@@ -116,6 +116,8 @@ Pelajari cara mengambil nilai properti CSS menggunakan Aspose.HTML untuk Java da
 Pelajari cara memilih elemen HTML berdasarkan kelas di Java dengan contoh kode lengkap dan penjelasan praktis.
 ### [Pemilih CSS untuk Tombol Tidak Dinonaktifkan – Panduan Parsing HTML Java](./css-selector-not-disabled-button-java-html-parsing-guide/)
 Pelajari cara menggunakan selector CSS untuk menemukan tombol yang tidak dinonaktifkan saat mem-parsing HTML dengan Java.
+### [Cara Mendapatkan Computed Style di Java – Panduan Pemrograman Lengkap](./how-to-get-computed-style-java-complete-programming-guide/)
+Pelajari cara mengambil nilai computed style elemen HTML menggunakan Aspose.HTML untuk Java dalam panduan pemrograman lengkap ini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

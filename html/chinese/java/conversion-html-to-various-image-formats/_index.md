@@ -92,6 +92,9 @@ weight: 24
 
 ### [使用 Java 从 SVG 创建 GIF – 完整分步指南](./create-gif-from-svg-with-java-full-step-by-step-guide/)
 
+### [从 SVG 创建动画 GIF – Java 分步指南](./create-animated-gif-from-svg-step-by-step-java-guide/)
+使用 Aspose.HTML for Java 将 SVG 转换为动画 GIF。一步步指南，帮助您轻松实现动画图像生成。
+
 ### [Converting HTML to JPEG](./convert-html-to-jpeg/)
 
 ### [Converting HTML to PNG](./convert-html-to-png/)
@@ -144,6 +147,12 @@ weight: 24
 
 ### [在 Java 中将 HTML 转换为 PNG – 完整 Aspose.HTML 指南](./convert-html-to-png-in-java-complete-aspose-html-guide/)
 使用 Aspose.HTML for Java 将 HTML 转换为 PNG 的完整指南，提供详细步骤和示例代码，帮助您轻松实现高质量图像输出。
+
+### [如何渲染 HTML – 完整的 Aspose HTML 到 PNG 指南](./how-to-render-html-complete-aspose-html-to-png-guide/)
+学习如何使用 Aspose.HTML for Java 将 HTML 渲染为 PNG 图像的完整指南，提供完整代码示例。
+
+### [在 Java 中从 HTML 创建 PNG – 完整示例](./create-png-from-html-in-java-full-example/)
+学习如何在 Java 中使用 Aspose.HTML 将 HTML 渲染为 PNG 图像的完整示例，提供完整代码和步骤说明。
 
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
 

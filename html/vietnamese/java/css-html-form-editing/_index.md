@@ -114,6 +114,8 @@ Hướng dẫn chi tiết cách lấy giá trị thuộc tính CSS từ tài li�
 Hướng dẫn chi tiết cách chọn phần tử HTML theo class trong Java bằng Aspose.HTML.
 ### [Bộ chọn CSS cho nút không bị vô hiệu hoá – Hướng dẫn phân tích HTML Java](./css-selector-not-disabled-button-java-html-parsing-guide/)
 Hướng dẫn cách sử dụng Aspose.HTML cho Java để chọn các nút không bị vô hiệu hoá bằng bộ chọn CSS, hỗ trợ phân tích và thao tác HTML.
+### [Cách lấy Computed Style trong Java – Hướng dẫn lập trình đầy đủ](./how-to-get-computed-style-java-complete-programming-guide/)
+Hướng dẫn chi tiết cách lấy computed style trong Java bằng Aspose.HTML, bao gồm ví dụ thực tế và các mẹo tối ưu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

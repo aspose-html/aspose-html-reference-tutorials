@@ -299,6 +299,13 @@ Aspose.HTML for Java kullanarak HTML'yi PDF'ye dönüştürmek için adım adım
 Java’da HTML'yi PDF'ye dönüştürürken paralel iş parçacığı havuzu kullanarak yüksek performanslı toplu dönüşüm yapın.
 ### [HTML'den PDF'ye öğretici – Java'da HTML'yi PDF'ye adım adım dönüştürme](./html-to-pdf-tutorial-convert-html-to-pdf-in-java-step-by-ste/)
 Java’da HTML'yi PDF'ye adım adım dönüştürerek yüksek kaliteli PDF belgeleri oluşturmayı öğrenin.
+### [Java’da PDF’ye Yazı Tipi Gömme – Tam Kılavuz](./how-to-embed-fonts-pdf-in-java-complete-guide/)
+Java uygulamalarınızda PDF dosyalarına özel yazı tipleri eklemeyi adım adım öğrenin.
+### [Java’da HTML'yi Markdown Olarak Kaydetme – Tam Aspose Kılavuzu](./save-html-as-markdown-in-java-complete-aspose-guide/)
+Aspose.HTML for Java kullanarak HTML'yi Markdown formatına dönüştürmeyi adım adım öğrenin.
+### [Aspose HtmlDocument PDF Olarak Kaydet – Tam Java Kılavuzu](./aspose-htmldocument-save-pdf-complete-java-guide/)
+Aspose.HTML ile HtmlDocument nesnesini PDF olarak kaydetmeyi adım adım öğrenin.
+### [Java ile HTML'yi PDF'ye Dönüştürme – Paralel Toplu İş Kılavuzu](./convert-html-to-pdf-with-java-parallel-batch-guide/)
 
 ## Sıkça Sorulan Sorular
 

@@ -162,6 +162,8 @@ Java ile HTML belgesi oluşturmak için JSON verilerini nasıl alıp işleyebile
 Aspose Java kullanarak HTML içinde nasıl arama yapacağınızı adım adım öğrenin. Tam programlama rehberi.
 ### [Java için Aspose.HTML'de class java ile div oluşturma – Tam örnek](./create-div-with-class-java-full-example-using-aspose-html/)
 Aspose.HTML ile Java’da class java içeren bir div oluşturmayı adım adım gösteren tam örnek.
+### [Java'da JavaScript ile JSON Getirme – Tam Kılavuz](./fetch-json-with-javascript-in-java-full-guide/)
+Java için Aspose.HTML kullanarak JavaScript ile JSON verilerini nasıl alacağınızı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

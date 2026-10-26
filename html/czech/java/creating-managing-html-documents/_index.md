@@ -149,6 +149,8 @@ Naučte se vytvořit HTML dokument v Javě pomocí Aspose.HTML v podrobném krok
 Naučte se načíst JSON pomocí JavaScriptu a vytvořit HTML dokument v Javě s kompletním průvodcem krok za krokem.
 ### [Jak vyhledávat HTML pomocí Aspose Java – Kompletní programovací průvodce](./how-to-search-html-with-aspose-java-complete-programming-gui/)
 Kompletní průvodce, jak pomocí Aspose.HTML pro Java vyhledávat a získávat data z HTML dokumentů.
+### [Načtěte JSON pomocí JavaScriptu v Javě – Kompletní průvodce](./fetch-json-with-javascript-in-java-full-guide/)
+Kompletní průvodce, jak načíst JSON pomocí JavaScriptu v Javě pomocí Aspose.HTML, včetně příkladů a tipů.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

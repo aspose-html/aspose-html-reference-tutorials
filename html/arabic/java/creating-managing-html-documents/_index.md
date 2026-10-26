@@ -160,6 +160,8 @@ url: /ar/java/creating-managing-html-documents/
 تعلم كيفية إنشاء مستند HTML يحتوي على جافا سكريبت مدمج باستخدام Aspose.HTML for Java في مثال عملي خطوة بخطوة.
 ### [إنشاء div مع فئة java – مثال كامل باستخدام Aspose.HTML](./create-div-with-class-java-full-example-using-aspose-html/)
 تعلم كيفية إنشاء عنصر div مع فئة Java باستخدام Aspose.HTML في مثال كامل خطوة بخطوة.
+### [جلب JSON باستخدام JavaScript في Java – دليل كامل](./fetch-json-with-javascript-in-java-full-guide/)
+تعلم كيفية جلب بيانات JSON باستخدام JavaScript داخل تطبيقات Java خطوة بخطوة مع Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

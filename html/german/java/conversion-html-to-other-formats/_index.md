@@ -188,6 +188,9 @@ Erfahren Sie, wie Sie mit Aspose.HTML mehrere HTML‑Zu‑PDF‑Konvertierungen 
 ### [HTML zu PDF Java: Komplettanleitung zum Konvertieren einer Webseite in PDF in einer Zeile](./html-to-pdf-java-complete-guide-to-convert-webpage-to-pdf-in/)
 Erfahren Sie, wie Sie mit einer einzigen Zeile Code eine komplette Webseite in ein PDF-Dokument konvertieren.
 
+### [HTML zu PDF mit Java – Parallel‑Batch‑Leitfaden](./convert-html-to-pdf-with-java-parallel-batch-guide/)
+Erfahren Sie, wie Sie mehrere HTML‑Dateien parallel in PDF konvertieren, um die Verarbeitungsgeschwindigkeit in Java zu maximieren.
+
 ### [Konvertierung von HTML zu MHTML](./convert-html-to-mhtml/)
 Konvertieren Sie HTML mühelos zu MHTML mit Aspose.HTML für Java. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung für eine effiziente HTML‑zu‑MHTML‑Konvertierung.
 
@@ -222,6 +225,8 @@ Erfahren Sie, wie Sie HTML in Java zu Markdown konvertieren – eine detailliert
 ### [Markdown zu PDF in Java – Vollständiger Leitfaden](./convert-markdown-to-pdf-in-java-complete-guide/)
 ### [Konvertierung von Markdown zu PDF in Java – Vollständige Schritt‑für‑Schritt‑Anleitung](./convert-markdown-to-pdf-in-java-full-step-by-step-guide/)
 Erfahren Sie, wie Sie Markdown-Dateien in Java mit Aspose.HTML zu PDF konvertieren – umfassende Schritt‑für‑Schritt‑Anleitung.
+### [HTML als Markdown speichern in Java – Vollständige Aspose‑Anleitung](./save-html-as-markdown-in-java-complete-aspose-guide/)
+Erfahren Sie, wie Sie HTML in Java mit Aspose.HTML in Markdown konvertieren – Schritt‑für‑Schritt‑Anleitung.
 
 ### [Konvertierung von SVG zu Bild](./convert-svg-to-image/)
 Erfahren Sie, wie Sie SVG in Java mit Aspose.HTML zu Bildern konvertieren. Umfassende Anleitung für hochwertige Ausgaben.
@@ -364,6 +369,11 @@ Erfahren Sie, wie Sie HTML‑zu‑PDF‑Konvertierungen in Java mithilfe eines P
 
 ### [HTML‑zu‑PDF‑Tutorial – HTML in Java Schritt‑für‑Schritt konvertieren](./html-to-pdf-tutorial-convert-html-to-pdf-in-java-step-by-ste/)
 Lernen Sie, wie Sie HTML in Java mit Aspose.HTML Schritt für Schritt in PDF umwandeln und dabei alle Einstellungen optimieren.
+
+### [Wie man Schriftarten in PDF in Java einbettet – Komplettanleitung](./how-to-embed-fonts-pdf-in-java-complete-guide/)
+
+### [Aspose HtmlDocument Save PDF – Komplett‑Java‑Leitfaden](./aspose-htmldocument-save-pdf-complete-java-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML das HtmlDocument als PDF speichern – Schritt‑für‑Schritt‑Anleitung für Java‑Entwickler.
 
 ## Häufig gestellte Fragen
 

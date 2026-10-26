@@ -161,6 +161,8 @@ url: /el/java/creating-managing-html-documents/
 Μάθετε πώς να δημιουργήσετε ένα έγγραφο HTML σε Java χρησιμοποιώντας το Aspose.HTML με οδηγίες βήμα‑βήμα.
 ### [fetch json javascript – Πλήρης οδηγός Java για τη δημιουργία εγγράφου HTML](./fetch-json-javascript-complete-java-guide-to-create-html-doc/)
 Μάθετε πώς να ανακτάτε JSON με JavaScript και να δημιουργείτε έγγραφα HTML σε Java χρησιμοποιώντας το Aspose.HTML.
+### [Ανάκτηση JSON με JavaScript σε Java – Πλήρης Οδηγός](./fetch-json-with-javascript-in-java-full-guide/)
+Μάθετε πώς να ανακτάτε δεδομένα JSON χρησιμοποιώντας JavaScript σε εφαρμογές Java με το Aspose.HTML, βήμα‑βήμα οδηγός.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

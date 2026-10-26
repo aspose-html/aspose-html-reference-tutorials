@@ -106,6 +106,8 @@ Aspose.HTML の並列レンダリング機能を使用し、HTML から PDF へ�
 Aspose.HTML を使用して、1 行のコードで HTML を PDF に変換する方法を学びます。
 ### [HTML to PDF チュートリアル – Java で HTML を PDF に変換するステップバイステップ](./html-to-pdf-tutorial-convert-html-to-pdf-in-java-step-by-ste/)
 Java で HTML を PDF に変換する手順をステップバイステップで解説します。簡単に高品質な PDF を作成できます。
+### [Java で HTML を PDF に変換 – 並列バッチガイド](./convert-html-to-pdf-with-java-parallel-batch-guide/)
+Java で HTML を PDF に並列バッチ変換する手順を詳しく解説します。
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 Aspose.HTML for Java で HTML を MHTML に簡単に変換します。効率的な HTML‑to‑MHTML 変換の手順をご覧ください。
 
@@ -149,6 +151,8 @@ Aspose.HTML を使用して Java で HTML を Markdown に変換し、保存す�
 Aspose.HTML を使用して Java で Markdown を PDF に変換する方法をステップごとに解説します。
 ### [JavaでMarkdownをPDFに変換 – 完全ステップバイステップガイド](./convert-markdown-to-pdf-in-java-full-step-by-step-guide/)
 Aspose.HTML を使用して Java で Markdown を PDF に変換する完全な手順をご紹介します。
+### [JavaでHTMLをMarkdownに保存 – 完全Asposeガイド](./save-html-as-markdown-in-java-complete-aspose-guide/)
+Aspose.HTML を使用して Java で HTML を Markdown に変換し、保存する方法をステップバイステップで解説します。
 ### [Converting SVG to Image](./convert-svg-to-image/)
 Aspose.HTML を使用して Java で SVG を画像に変換する方法を学びます。高品質出力のための包括的ガイドです。
 
@@ -159,7 +163,6 @@ Aspose.HTML で Java の SVG を PDF に変換します。高品質文書変換�
 Aspose.HTML for Java で SVG を任意のページサイズの PDF に変換する方法を解説します。
 
 ### [Converting SVG to XPS](./convert-svg-to-xps/)
-Aspose.HTML for Java を使用して SVG を XPS に変換する方法を学びます。シンプルでステップバイステップのガイドでシームレスに変換できます。
 ### [Aspose HTML to PDF で PDF を圧縮する方法 – Java ガイド](./how-to-compress-pdf-with-aspose-html-to-pdf-java-guide/)
 Aspose.HTML for Java を使用して PDF を圧縮し、ファイルサイズを削減する手順を解説します。
 ### [JavaでHTMLをPDFに変換 – ページサイズ設定付きステップバイステップガイド](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
@@ -295,6 +298,10 @@ Aspose.HTML を使用して Java で複数の HTML を同時に PDF に変換す
 Aspose.HTML を使って Java で HTML を PDF に変換する手順をステップバイステップで解説します。
 ### [JavaでHTMLをPDFに変換 – 並列スレッドプールガイド](./convert-html-to-pdf-in-java-parallel-thread-pool-guide/)
 Aspose.HTML を使用し、Java の並列スレッドプールで HTML を PDF に高速変換する方法を解説します。
+### [JavaでPDFにフォントを埋め込む – 完全ガイド](./how-to-embed-fonts-pdf-in-java-complete-guide/)
+Aspose.HTML を使用して Java で PDF にフォントを埋め込み、文書の表示互換性を確保する完全ガイドです。
+### [Aspose HtmlDocument を PDF に保存 – 完全 Java ガイド](./aspose-htmldocument-save-pdf-complete-java-guide/)
+Aspose.HTML の HtmlDocument を使用して Java で PDF に保存する手順をステップバイステップで解説します。
 
 ## よくある質問
 
