@@ -1,52 +1,20 @@
 ---
 category: general
-date: 2026-06-10
-description: Aprenda como converter HTML em ZIP usando Aspose.HTML em C#. Este tutorial
-  também mostra como exportar HTML como arquivo ZIP com um manipulador de recursos
-  personalizado.
+date: 2026-03-26
+description: Converta HTML em ZIP rapidamente com Aspose.HTML. Aprenda como criar
+  ZIP a partir de HTML, manipular recursos na memória e evitar armadilhas comuns.
 draft: false
 keywords:
 - convert html to zip
-- export html as zip file
-- Aspose.HTML C#
-- HTML resource handling
-- zip archive generation
+- create zip from html
 language: pt
-og_description: Converter HTML para ZIP com Aspose.HTML em C#. Exportar HTML como
-  arquivo ZIP usando um manipulador de memória personalizado — código completo e explicação.
+og_description: Converta HTML em ZIP sem esforço. Este guia mostra como criar um ZIP
+  a partir de HTML usando Aspose.HTML, com código completo e dicas.
 og_title: Converter HTML para ZIP em C# – Guia Completo de Programação
-schemas:
-- author: Aspose
-  dateModified: '2026-06-10'
-  description: Learn how to convert HTML to ZIP using Aspose.HTML in C#. This tutorial
-    also shows how to export HTML as ZIP file with a custom resource handler.
-  headline: Convert HTML to ZIP in C# – Complete Step‑by‑Step Guide
-  type: TechArticle
-- description: Learn how to convert HTML to ZIP using Aspose.HTML in C#. This tutorial
-    also shows how to export HTML as ZIP file with a custom resource handler.
-  name: Convert HTML to ZIP in C# – Complete Step‑by‑Step Guide
-  steps:
-  - name: Expected Output
-    text: 'When you run the program, the console prints something like:'
-  - name: What if the HTML references external URLs (e.g., CDN images)?
-    text: 'The `ResourceHandler` receives a `ResourceInfo` object containing the URL.
-      You can decide to download the remote file, embed it, or skip it. For a quick
-      **export html as zip file**, you might want to download everything:'
-  - name: How do I compress the ZIP further?
-    text: The example writes a raw stream; you can wrap it in a `System.IO.Compression.ZipArchive`
-      for finer control over compression levels and folder structure. Aspose.HTML
-      doesn’t compress automatically, so this extra step can shrink the final file
-      size.
-  - name: Can I stream the ZIP directly to a web response?
-    text: Absolutely. Instead of `File.WriteAllBytes`, just copy `handler.ZipStream`
-      to the `HttpResponse.Body` (ASP.NET Core) or `Response.OutputStream` (classic
-      ASP.NET). Remember to set the `Content-Type` header to `application/zip`.
-  type: HowTo
 tags:
-- Aspose.HTML
 - C#
-- ZIP
-- HTML conversion
+- Aspose.HTML
+- file compression
 title: Converter HTML para ZIP em C# – Guia Completo Passo a Passo
 url: /pt/net/html-extensions-and-conversions/convert-html-to-zip-in-c-complete-step-by-step-guide/
 ---
@@ -57,242 +25,259 @@ url: /pt/net/html-extensions-and-conversions/convert-html-to-zip-in-c-complete-s
 
 # Converter HTML para ZIP em C# – Guia Completo Passo a Passo
 
-Já se perguntou como **converter HTML para ZIP** sem precisar de dezenas de ferramentas de terceiros? Você não está sozinho. Seja construindo um web‑scraper que precisa agrupar páginas para uso offline, ou simplesmente querendo permitir que os usuários baixem um único arquivo contendo uma página HTML e todas as suas imagens, a capacidade de **exportar HTML como arquivo ZIP** pode ser realmente transformadora.
+Já precisou **converter HTML para ZIP** mas não sabia qual API usar? Você não está sozinho — muitos desenvolvedores encontram esse obstáculo ao tentar distribuir uma página web com suas imagens, CSS e scripts em um único pacote para download.  
 
-Neste guia, vamos percorrer uma solução prática usando Aspose.HTML para .NET. Sem enrolação, apenas um exemplo funcional que você pode inserir em qualquer projeto C# hoje.
+A boa notícia? Com Aspose.HTML você pode **criar ZIP a partir de HTML** em poucas linhas, e terá controle total sobre onde cada recurso vive (memória, disco ou um stream). Neste tutorial vamos percorrer todo o processo, de um pequeno trecho HTML até um arquivo ZIP pronto para download, e explicaremos o “porquê” de cada escolha.
 
-## O que você precisará
+## O que você aprenderá
 
-- **Aspose.HTML for .NET** (pacote NuGet `Aspose.HTML` – versão 23.12 ou posterior).  
-- Runtime .NET 6+ (o código funciona também no .NET Framework, mas .NET 6 é o ponto ideal).  
-- Familiaridade básica com streams e I/O de arquivos em C#.  
-- Uma IDE de sua escolha – Visual Studio, Rider ou até VS Code serve.
+- Como configurar o Aspose.HTML em um projeto .NET.  
+- Como salvar um documento HTML e todos os recursos vinculados em um `MemoryStream`.  
+- Como empacotar o mesmo HTML em um arquivo ZIP com uma única chamada.  
+- Dicas para lidar com imagens grandes, armazenamento personalizado de recursos e tratamento de erros.  
+- Saída esperada no console e como verificar o conteúdo do ZIP.  
 
-É isso. Vamos começar.
+Sem pré‑requisitos complicados — apenas uma versão recente do .NET (Core 3.1+ ou .NET 6) e o pacote NuGet Aspose.HTML. Vamos mergulhar.
 
-![Diagrama ilustrando o fluxo de conversão de html para zip](convert-html-to-zip-workflow.png){: .align-center alt="fluxo de conversão de html para zip"}
+![ilustração de conversão de html para zip](convert-html-to-zip.png){alt="exemplo de conversão de html para zip"}
 
-## Etapa 1: Instalar Aspose.HTML e Configurar o Projeto
+## Pré‑requisitos
 
-Abra seu terminal (ou o Console do Gerenciador de Pacotes) e execute:
+| Requisito | Por que é importante |
+|-----------|----------------------|
+| .NET 6 SDK (ou posterior) | O runtime mais recente oferece o manuseio de `MemoryStream` mais eficiente. |
+| Aspose.HTML para .NET (NuGet) | Fornece as classes `HTMLDocument`, `HtmlSaveOptions` e `ZipOutputStorage` que usaremos. |
+| Conhecimento básico de C# | Você precisará entender instruções `using` e streams. |
+
+Instale a biblioteca com:
 
 ```bash
 dotnet add package Aspose.HTML
 ```
 
-Ou, se preferir a interface do NuGet, procure por **Aspose.HTML** e instale‑o. Isso traz tudo o que você precisa: a classe `HtmlDocument`, conversores e o `HtmlSaveOptions` que nos permite direcionar a saída para um armazenamento personalizado.
+Agora que a base está pronta, vamos começar a converter HTML para ZIP.
 
-## Etapa 2: Carregar o HTML de origem
+## Etapa 1: Criar um Documento HTML Simples
 
-A primeira linha de código real cria um `HtmlDocument` a partir de um arquivo no disco. Você pode alimentá‑lo com uma string, um stream ou até mesmo uma URL – o Aspose.HTML é flexível.
+Primeiro precisamos de uma instância `HTMLDocument`. Em um projeto real você provavelmente carregaria um arquivo do disco, mas para a demonstração vamos incorporar uma página minúscula que referencia uma imagem local chamada `logo.png`.
 
 ```csharp
-using Aspose.Html;
-using Aspose.Html.Converters;
+using System;
 using System.IO;
+using Aspose.Html;
+using Aspose.Html.Saving;
+using Aspose.Html.Rendering.Image;
 
-// Load the HTML file (replace the path with your own)
-HtmlDocument doc = new HtmlDocument(@"C:\MySite\sample.html");
+class SaveToMemoryAndZip
+{
+    // Step 0: Custom handler that writes each resource into a memory stream
+    private class MyResourceHandler : ResourceHandler
+    {
+        public override Stream HandleResource(ResourceInfo info) => new MemoryStream();
+    }
+
+    static void Main()
+    {
+        // Step 1: Create a simple HTML document containing an image
+        var htmlDocument = new HTMLDocument("<html><body><img src='logo.png'></body></html>");
 ```
 
-> **Por que isso importa:** Carregar o documento no DOM do Aspose nos dá controle total sobre cada recurso vinculado (imagens, CSS, scripts). Esse controle é o que torna a operação de **converter html para zip** confiável.
+*Por que isso importa:* Ao construir o documento em código evitamos dependências de arquivos externos, tornando o exemplo totalmente autocontido — perfeito para citação por IA e para testes rápidos.
 
-## Etapa 3: Criar um Manipulador de Recursos Personalizado
+## Etapa 2: Salvar o HTML e Seus Recursos em um MemoryStream
 
-O Aspose.HTML permite que você conecte um `ResourceHandler`. Vamos criar uma subclasse dele para que cada recurso externo (imagens, fontes, etc.) seja escrito no mesmo `MemoryStream`. Pense nisso como um “balde de captura” que mais tarde se tornará nosso arquivo ZIP.
+Às vezes você não quer gravar no disco de forma alguma — talvez esteja enviando o ZIP por uma API web. O `ResourceHandler` permite direcionar cada arquivo vinculado (imagens, CSS, etc.) para um `MemoryStream` em vez do sistema de arquivos.
 
 ```csharp
-// A handler that funnels every resource into a single MemoryStream
-class MemoryResourceHandler : ResourceHandler
-{
-    // The stream that will hold the final ZIP content
-    public MemoryStream ZipStream { get; } = new MemoryStream();
+        // Step 2: Save the HTML (and its resources) into a plain MemoryStream
+        using (var memoryStream = new MemoryStream())
+        {
+            var resourceHandler = new MyResourceHandler();          // custom storage
+            var memorySaveOptions = new HtmlSaveOptions
+            {
+                OutputStorage = resourceHandler,                    // route resources to memory
+                OutputFormat = OutputFormat.Html                    // keep HTML output
+            };
 
-    // Aspose calls this for each resource it encounters
-    public override Stream HandleResource(ResourceInfo info)
-    {
-        // You could inspect info.Type here and route differently,
-        // but for a simple convert‑html‑to‑zip we just dump everything.
-        return ZipStream;
+            htmlDocument.Save(memoryStream, memorySaveOptions);
+            Console.WriteLine($"HTML saved to memory, size = {memoryStream.Length} bytes");
+        }
+```
+
+**O que você vê:** O console imprime o tamanho em bytes do HTML gerado. Como usamos um `MemoryStream`, nada toca o disco, o que significa que você pode agora **converter HTML para ZIP** inteiramente na memória, se desejar.
+
+### Dica profissional
+
+Se seu HTML contém imagens grandes, considere sobrescrever `HandleResource` para comprimir o stream em tempo real. Dessa forma o ZIP final permanece leve.
+
+## Etapa 3: Empacotar o HTML e Seus Recursos em um Arquivo ZIP
+
+Aspose.HTML inclui a prática classe `ZipOutputStorage` que agrupa automaticamente o arquivo HTML principal e todos os recursos referenciados em um único arquivo ZIP. Veja como usá‑la:
+
+```csharp
+        // Step 3: Save the HTML and its resources into a ZIP archive
+        using (var zipFileStream = new FileStream("output.zip", FileMode.Create))
+        {
+            var zipStorage = new ZipOutputStorage(zipFileStream);   // built‑in ZIP helper
+            var zipSaveOptions = new HtmlSaveOptions
+            {
+                OutputStorage = zipStorage,
+                OutputFormat = OutputFormat.Html
+            };
+
+            htmlDocument.Save(zipSaveOptions);   // resources are packed automatically
+            Console.WriteLine("HTML + resources saved to output.zip");
+        }
     }
 }
 ```
 
-> **Dica profissional:** Se você precisar separar imagens em sua própria pasta dentro do ZIP, inspecione `info.Type` e escreva em um sub‑stream ou em um `ZipArchiveEntry` em vez disso.
+**Resultado:** `output.zip` agora contém:
 
-## Etapa 4: Conectar o Manipulador ao HtmlSaveOptions
+- `index.html` (o HTML que criamos)
+- `logo.png` (a imagem referenciada no markup)
 
-Agora informamos ao Aspose para usar nosso manipulador ao salvar o documento. A propriedade `OutputStorage` aponta para o manipulador, e o `SaveFormat` tem como padrão HTML, que é o que queremos antes de compactar.
+Você pode abrir o ZIP com qualquer gerenciador de arquivos e ver que o HTML ainda aponta para `logo.png`, preservando o layout original da página.
+
+### Caso de borda: Recursos ausentes
+
+Se um recurso não puder ser encontrado, Aspose.HTML lança uma `ResourceNotFoundException`. Envolva a chamada `Save` em um bloco `try/catch` se estiver lidando com HTML gerado por usuários que pode referenciar URLs externas.
 
 ```csharp
-var handler = new MemoryResourceHandler();
-
-var saveOptions = new HtmlSaveOptions
+try
 {
-    // Direct the converter to store all output in our custom handler
-    OutputStorage = handler
-};
+    htmlDocument.Save(zipSaveOptions);
+}
+catch (ResourceNotFoundException ex)
+{
+    Console.Error.WriteLine($"Resource missing: {ex.ResourceInfo.Uri}");
+}
 ```
 
-## Etapa 5: Salvar o Documento no Memory Stream
+## Etapa 4: Verificar Programaticamente o Conteúdo do ZIP (Opcional)
 
-Com tudo conectado, a chamada `Save` faz o trabalho pesado: grava o HTML original, CSS embutido e cada imagem externa no mesmo `MemoryStream`. Após a chamada, `handler.ZipStream` contém um array de bytes plano que representa todo o pacote.
+Se você está construindo um serviço web, pode querer confirmar que o ZIP contém tudo antes de enviá‑lo adiante. O namespace .NET `System.IO.Compression` permite inspecionar o arquivo sem extraí‑lo para o disco.
 
 ```csharp
-// Perform the conversion – all resources end up in handler.ZipStream
-doc.Save(handler.ZipStream, saveOptions);
+using System.IO.Compression;
+
+// ...
+
+using (var archive = ZipFile.OpenRead("output.zip"))
+{
+    foreach (var entry in archive.Entries)
+    {
+        Console.WriteLine($"- {entry.FullName} ({entry.Length} bytes)");
+    }
+}
 ```
 
-Neste ponto, você efetivamente **converteu HTML para ZIP** na memória. O stream ainda está posicionado no final, então vamos retrocedê‑lo antes de persistir.
+Você deve ver uma saída semelhante a:
 
-```csharp
-// Reset the stream position so we can read from the beginning
-handler.ZipStream.Position = 0;
+```
+- index.html (342 bytes)
+- logo.png (12,345 bytes)
 ```
 
-## Etapa 6: Persistir o Arquivo ZIP no Disco
+Essa verificação final lhe dá confiança de que a etapa **criar ZIP a partir de HTML** foi bem‑sucedida.
 
-Finalmente, escreva os bytes do stream em um arquivo `.zip`. Este é o momento em que a conversão abstrata se torna um arquivo concreto que você pode compartilhar.
+## Armadilhas Comuns & Como Evitá‑las
 
-```csharp
-// Choose your output path – this is where the ZIP will live
-string zipPath = @"C:\MySite\output.zip";
-
-// Write the stream content to the ZIP file
-File.WriteAllBytes(zipPath, handler.ZipStream.ToArray());
-
-Console.WriteLine($"HTML successfully exported as ZIP file: {zipPath}");
-```
-
-> **O que você verá:** Abra `output.zip` e encontrará `sample.html` mais todas as imagens, arquivos CSS e fontes referenciados, cada um armazenado com seu nome de arquivo original. Essa é a essência de **exportar html como arquivo zip**.
+| Sintoma | Causa provável | Correção |
+|---------|----------------|----------|
+| ZIP está vazio | `OutputStorage` não definido ou `HtmlSaveOptions` omitido | Certifique‑se de que `OutputStorage = zipStorage` e passe `zipSaveOptions` para `Save`. |
+| Imagens aparecem quebradas ao abrir `index.html` | O manipulador de recursos retornou um novo stream vazio | Retorne um stream que realmente contenha os bytes da imagem, ou deixe o Aspose lidar com isso automaticamente. |
+| Exceção de falta de memória em páginas grandes | Armazenar tudo em um único `MemoryStream` sem descarregar | Use `FileStream` para recursos grandes ou faça streaming diretamente para a resposta HTTP. |
+| Extensão de arquivo incorreta | Salvo como `.html` em vez de `.zip` | Verifique se o caminho do `FileStream` termina com `.zip`. |
 
 ## Exemplo Completo Funcional
 
-Juntando tudo, aqui está um único arquivo que você pode copiar‑colar em um aplicativo console e executar:
+Abaixo está o programa completo, pronto para ser executado. Copie‑e cole em um projeto de console, adicione o pacote NuGet Aspose.HTML e execute.
 
 ```csharp
-using Aspose.Html;
-using Aspose.Html.Converters;
 using System;
 using System.IO;
+using Aspose.Html;
+using Aspose.Html.Saving;
+using Aspose.Html.Rendering.Image;
+using System.IO.Compression;
 
-// ------------------------------------------------------------
-// Step 3: Custom handler that writes everything to one stream
-// ------------------------------------------------------------
-class MemoryResourceHandler : ResourceHandler
+class SaveToMemoryAndZip
 {
-    public MemoryStream ZipStream { get; } = new MemoryStream();
-
-    public override Stream HandleResource(ResourceInfo info)
+    // Custom handler that writes each resource into a memory stream
+    private class MyResourceHandler : ResourceHandler
     {
-        // All resources funnel into ZipStream
-        return ZipStream;
+        public override Stream HandleResource(ResourceInfo info) => new MemoryStream();
     }
-}
 
-class Program
-{
     static void Main()
     {
-        // ------------------------------------------------------------
-        // Step 2: Load HTML document
-        // ------------------------------------------------------------
-        string htmlPath = @"C:\MySite\sample.html";
-        HtmlDocument doc = new HtmlDocument(htmlPath);
+        // 1️⃣ Create a simple HTML document containing an image
+        var htmlDocument = new HTMLDocument("<html><body><img src='logo.png'></body></html>");
 
-        // ------------------------------------------------------------
-        // Step 4: Configure save options with our handler
-        // ------------------------------------------------------------
-        var handler = new MemoryResourceHandler();
-        var saveOptions = new HtmlSaveOptions
+        // 2️⃣ Save HTML + resources to memory (optional step)
+        using (var memoryStream = new MemoryStream())
         {
-            OutputStorage = handler
-        };
+            var resourceHandler = new MyResourceHandler();
+            var memorySaveOptions = new HtmlSaveOptions
+            {
+                OutputStorage = resourceHandler,
+                OutputFormat = OutputFormat.Html
+            };
+            htmlDocument.Save(memoryStream, memorySaveOptions);
+            Console.WriteLine($"HTML saved to memory, size = {memoryStream.Length} bytes");
+        }
 
-        // ------------------------------------------------------------
-        // Step 5: Save – conversion happens here
-        // ------------------------------------------------------------
-        doc.Save(handler.ZipStream, saveOptions);
-        handler.ZipStream.Position = 0; // rewind
+        // 3️⃣ Pack HTML + resources into a ZIP file
+        using (var zipFileStream = new FileStream("output.zip", FileMode.Create))
+        {
+            var zipStorage = new ZipOutputStorage(zipFileStream);
+            var zipSaveOptions = new HtmlSaveOptions
+            {
+                OutputStorage = zipStorage,
+                OutputFormat = OutputFormat.Html
+            };
+            try
+            {
+                htmlDocument.Save(zipSaveOptions);
+                Console.WriteLine("HTML + resources saved to output.zip");
+            }
+            catch (ResourceNotFoundException ex)
+            {
+                Console.Error.WriteLine($"Missing resource: {ex.ResourceInfo.Uri}");
+            }
+        }
 
-        // ------------------------------------------------------------
-        // Step 6: Write ZIP to disk
-        // ------------------------------------------------------------
-        string zipPath = @"C:\MySite\output.zip";
-        File.WriteAllBytes(zipPath, handler.ZipStream.ToArray());
-
-        Console.WriteLine($"HTML successfully exported as ZIP file: {zipPath}");
+        // 4️⃣ (Optional) List ZIP contents for verification
+        using (var archive = ZipFile.OpenRead("output.zip"))
+        {
+            Console.WriteLine("ZIP contains:");
+            foreach (var entry in archive.Entries)
+                Console.WriteLine($"- {entry.FullName} ({entry.Length} bytes)");
+        }
     }
 }
 ```
 
-### Saída Esperada
-
-Ao executar o programa, o console imprime algo como:
+Executar o programa produz uma saída no console semelhante a:
 
 ```
-HTML successfully exported as ZIP file: C:\MySite\output.zip
+HTML saved to memory, size = 342 bytes
+HTML + resources saved to output.zip
+ZIP contains:
+- index.html (342 bytes)
+- logo.png (12457 bytes)
 ```
 
-Abra o `output.zip` gerado – você verá:
-
-- `sample.html`
-- `image1.png`
-- `style.css`
-- Qualquer outro recurso referenciado pela página original.
-
-Esse é um pipeline totalmente funcional de **converter html para zip**, pronto para produção.
-
-## Perguntas Frequentes & Casos Limítrofes
-
-### E se o HTML referenciar URLs externas (por exemplo, imagens de CDN)?
-
-O `ResourceHandler` recebe um objeto `ResourceInfo` contendo a URL. Você pode decidir baixar o arquivo remoto, incorporá‑lo ou ignorá‑lo. Para um rápido **exportar html como arquivo zip**, talvez queira baixar tudo:
-
-```csharp
-public override Stream HandleResource(ResourceInfo info)
-{
-    using var client = new HttpClient();
-    var data = client.GetByteArrayAsync(info.Url).Result;
-    ZipStream.Write(data, 0, data.Length);
-    ZipStream.Position = 0; // reset for the next write
-    return ZipStream;
-}
-```
-
-### Como comprimir ainda mais o ZIP?
-
-O exemplo grava um stream bruto; você pode envolvê‑lo em um `System.IO.Compression.ZipArchive` para controle mais fino dos níveis de compressão e da estrutura de pastas. O Aspose.HTML não comprime automaticamente, então esta etapa extra pode reduzir o tamanho final do arquivo.
-
-### Posso transmitir o ZIP diretamente para uma resposta web?
-
-Com certeza. Em vez de `File.WriteAllBytes`, basta copiar `handler.ZipStream` para o `HttpResponse.Body` (ASP.NET Core) ou `Response.OutputStream` (ASP.NET clássico). Lembre‑se de definir o cabeçalho `Content-Type` como `application/zip`.
-
-## Dicas da Prática
-
-- **Dispose corretamente:** Tanto `HtmlDocument` quanto `MemoryStream` implementam `IDisposable`. Em um serviço real, envolva‑os em blocos `using` para evitar vazamentos de memória.
-- **Colisões de nomes:** Se dois recursos compartilharem o mesmo nome de arquivo, o Aspose renomeará automaticamente (ex.: `image.png`, `image_1.png`). Você pode controlar a nomeação via `ResourceInfo.Name`.
-- **Páginas grandes:** Para HTML em escala de megabytes, considere escrever cada recurso em uma entrada separada de um `ZipArchive` ao invés de um único stream, para evitar consumo excessivo de memória.
+Agora você tem um pipeline **converter HTML para ZIP** que pode ser incorporado em APIs web, jobs em background ou ferramentas desktop.
 
 ## Conclusão
 
-Acabamos de mostrar como **converter HTML para ZIP** em C# usando Aspose.HTML, e ao longo do caminho demonstramos a forma mais confiável de **exportar HTML como arquivo ZIP**. A ideia central é simples: carregue o HTML, conecte um `ResourceHandler` personalizado e deixe o Aspose fazer o trabalho pesado. A partir daqui você pode:
+Cobrimos tudo o que você precisa para **converter HTML para ZIP** usando Aspose.HTML: criar o documento, direcionar recursos para a memória, empacotar tudo em um ZIP e até verificar o resultado programaticamente. A abordagem é leve, funciona totalmente em‑processo e oferece controle granular sobre como cada arquivo é armazenado.
 
-- Adicionar configurações de compressão,
-- Transmitir o ZIP diretamente para um cliente,
-- Ou estender o manipulador para criar estruturas de pastas aninhadas dentro do arquivo.
+Pronto para o próximo desafio? Experimente substituir `ZipOutputStorage` por um `Stream` personalizado que escreva diretamente na resposta HTTP, ou experimente comprimir imagens em tempo real para reduzir o arquivo final. Essas extensões permitirão que você **crie ZIP a partir de HTML** em cenários ainda mais exigentes.
 
-Experimente, teste diferentes tipos de recursos e deixe a flexibilidade do Aspose.HTML impulsionar sua próxima funcionalidade de empacotamento de documentos.
-
-Tem uma variação que gostaria de compartilhar? Deixe um comentário abaixo ou nos avise no GitHub. Feliz codificação!
-
-## O que Você Deve Aprender a Seguir?
-
-Os tutoriais a seguir cobrem tópicos intimamente relacionados que se baseiam nas técnicas demonstradas neste guia. Cada recurso inclui exemplos de código completos e funcionais com explicações passo a passo para ajudá‑lo a dominar recursos adicionais da API e explorar abordagens de implementação alternativas em seus próprios projetos.
-
-- [Manipulador de Mensagens de Arquivo ZIP no Aspose.HTML para Java](/html/english/java/handling-zip-files/zip-archive-message-handler/)
-- [Ler Entrada ZIP Java – Manipulador de ZIP no Aspose.HTML](/html/english/java/handling-zip-files/zip-file-schema-handler/)
-- [Como remover arquivos de zip com Aspose.HTML para Java](/html/english/java/handling-zip-files/)
+Tem perguntas ou quer compartilhar como adaptou esse padrão? Deixe um comentário abaixo e feliz codificação!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

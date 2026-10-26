@@ -52,25 +52,63 @@ Aspose.HTML voor .NET valt op door zijn eenvoud en kracht. Het geeft u de volled
 ### [Laad HTML-documenten asynchroon in .NET met Aspose.HTML](./load-html-doc-asynchronously/)
 Leer hoe u Aspose.HTML voor .NET gebruikt om met HTML-documenten te werken. Stapsgewijze handleiding met voorbeelden en FAQ's voor ontwikkelaars.
 ### [Laad HTML-documenten met referenties in .NET met Aspose.HTML](./load-html-doc-with-credentials/)
+### [Laad HTML-documenten met referenties in .NET met Aspose.HTML](./load-html-with-credentials/)
 Ontdek hoe u uw SEO een boost kunt geven met Aspose.HTML voor .NET. Verbeter rankings, analyseer webcontent en optimaliseer voor zoekmachines.
+
 ### [HTML laden met behulp van een externe server in .NET met Aspose.HTML](./load-html-using-remote-server/)
 Ontgrendel het potentieel van Aspose.HTML voor .NET met onze uitgebreide gids. Leer hoe u naamruimten importeert, externe HTML-documenten opent en meer.
+
 ### [HTML laden met URL in .NET met Aspose.HTML](./load-html-using-url/)
 Leer hoe u de kracht van Aspose.HTML voor .NET kunt benutten. Geef uw webontwikkeling een boost met HTML-manipulatie en rendering.
+
 ### [Een document maken in .NET met Aspose.HTML](./creating-a-document/)
 Ontketen de kracht van Aspose.HTML voor .NET. Leer eenvoudig HTML- en SVG-documenten maken, manipuleren en optimaliseren. Bekijk stapsgewijze voorbeelden en veelgestelde vragen.
+### [HTML-document maken in C# – Stapsgewijze gids](./create-html-document-c-step-by-step-guide/)
+Leer hoe u met Aspose.HTML voor .NET een HTML-document in C# maakt, met duidelijke voorbeelden en stap‑voor‑stap instructies.
 ### [HTML maken vanuit een string in C# – Gids voor aangepaste resourcehandler](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Leer hoe u HTML vanuit een string genereert in C# met een aangepaste resourcehandler, inclusief voorbeeldcode en stapsgewijze uitleg.
+### [Hoe HTML te maken en een CSS‑stijl‑element toe te voegen – Stapsgewijze gids](./how-to-create-html-and-add-css-style-element-step-by-step-gu/)
+Leer hoe u HTML-bestanden maakt en een CSS‑stijl‑element toevoegt met een duidelijke stap‑voor‑stap handleiding.
+### [Hoe HTML maken – Elementen toevoegen en tekst opmaken](./how-to-create-html-append-elements-and-style-text/)
+Leer hoe u HTML maakt, elementen toevoegt en tekst opmaakt met Aspose.HTML voor .NET.
 ### [Een document bewerken in .NET met Aspose.HTML](./editing-a-document/)
 Maak boeiende webcontent met Aspose.HTML voor .NET. Leer hoe u HTML, CSS en meer kunt manipuleren.
+
 ### [Een document opslaan in .NET met Aspose.HTML](./saving-a-document/)
 Ontgrendel de kracht van Aspose.HTML voor .NET met onze stapsgewijze handleiding. Leer HTML- en SVG-documenten te maken, te bewerken en te converteren.
+
 ### [Voeg HTML samen met Json in .NET met Aspose.HTML](./merge-html-with-json/)
 Leer dynamische en webinhoud te maken met Aspose.HTML voor .NET. Versterk uw online aanwezigheid en betrek uw publiek.
+
 ### [Voeg HTML samen met XML in .NET met Aspose.HTML](./merge-html-with-xml/)
 Leer Aspose.HTML voor .NET gebruiken. Importeer namespace, voeg HTML samen met XML en verbeter uw webontwikkelingsvaardigheden met deze uitgebreide gids.
+
 ### [Genereer XPS-documenten door XpsDevice in .NET met Aspose.HTML](./generate-xps-documents-by-xpsdevice/)
 Ontgrendel het potentieel van webontwikkeling met Aspose.HTML voor .NET. Maak, converteer en manipuleer eenvoudig HTML-documenten.
+### [Tekst vet en cursief maken in C# – Snelle gids voor het stylen van HTML](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
+Leer hoe u tekst vet en cursief maakt in HTML met C# en Aspose.HTML, inclusief voorbeeldcode en stapsgewijze uitleg.
+### [HTML-document maken met Aspose.HTML – Stapsgewijze gids](./create-html-document-with-aspose-html-step-by-step-guide/)
+Leer hoe u een HTML-document maakt met Aspose.HTML in .NET. Volg deze stapsgewijze gids met voorbeelden en tips.
+### [Element aan body toevoegen – Complete C#-gids met Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)
+Leer hoe u een element aan de body van een HTML-document kunt toevoegen met een volledige C#-gids voor Aspose.HTML.
+### [HTML maken met Aspose – Element vinden, vet toepassen](./how-to-create-html-with-aspose-find-element-apply-bold/)
+Leer hoe u met Aspose.HTML een HTML-document maakt, een element zoekt en tekst vet maakt.
+### [HTML stylen met Aspose.HTML – Lettertype stijl instellen in C#](./how-to-style-html-with-aspose-html-set-font-style-in-c/)
+Leer hoe u met Aspose.HTML de lettertype‑stijl van HTML‑elementen in C# kunt aanpassen.
+### [Combineer vet en cursief in HTML met C# – Volledige gids](./combine-bold-and-italic-in-html-with-c-complete-guide/)
+Leer hoe u met C# zowel vetgedrukte als cursieve tekst in HTML combineert met behulp van Aspose.HTML.
+
+### [Hoe HTML op te slaan met Aspose.HTML – Stapsgewijze gids](./how-to-save-html-with-aspose-html-step-by-step-guide/)
+Leer hoe u HTML kunt opslaan met Aspose.HTML in .NET via een stapsgewijze handleiding.
+### [Lettertype stijl toepassen via code – Snelle C#-gids](./apply-font-style-programmatically-quick-c-guide/)
+Leer hoe u lettertype stijlen programmatically toepast in C# met Aspose.HTML, inclusief voorbeeldcode en stapsgewijze uitleg.
+### [HTML maken met opgemaakte tekst – Complete C#-gids](./how-to-create-html-with-styled-text-complete-c-guide/)
+Leer stap voor stap hoe u HTML met opgemaakte tekst genereert in C# met Aspose.HTML.
+
+### [HTML-document maken met Aspose.HTML – volledige gids](./create-html-document-with-aspose-html-full-guide/)
+Leer hoe u een HTML-document maakt met Aspose.HTML, stap voor stap, inclusief voorbeeldcode en tips.
+### [Stel span innerHTML in C# met Aspose.HTML – Complete gids](./set-span-innerhtml-in-c-with-aspose-html-complete-guide/)
+Leer hoe u met Aspose.HTML voor .NET de innerHTML van een span‑element in C# kunt instellen. Stap‑voor‑stap handleiding.
 ### [Paragraafstijl wijzigen in C# – Complete Aspose.HTML-gids](./change-paragraph-style-in-c-complete-aspose-html-guide/)
 Leer hoe u in C# de stijl van alinea's kunt aanpassen met Aspose.HTML, inclusief voorbeeldcode en stapsgewijze instructies.
 
