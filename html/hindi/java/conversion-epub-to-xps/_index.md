@@ -10,11 +10,9 @@ url: /hi/java/conversion-epub-to-xps/
 weight: 23
 ---
 
-.
 
-Check for any missed items: The link text changed; ensure markdown syntax correct.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -9,7 +9,6 @@ url: /ru/java/handling-zip-files/
 weight: 31
 ---
 
-.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
