@@ -100,6 +100,8 @@ Naučte se, jak pomocí Aspose.HTML pro .NET nastavit a měnit styly písma v HT
 Naučte se pomocí Aspose.HTML v C# vytvářet HTML dokumenty se stylovaným textem krok za krokem.
 ### [Vytvoření HTML dokumentu pomocí Aspose.HTML – Kompletní průvodce](./create-html-document-with-aspose-html-full-guide/)
 Kompletní návod, jak vytvořit HTML dokument s Aspose.HTML v .NET, včetně ukázek kódu a tipů.
+### [Nastavení innerHTML elementu span v C# pomocí Aspose.HTML – Kompletní průvodce](./set-span-innerhtml-in-c-with-aspose-html-complete-guide/)
+Naučte se, jak pomocí Aspose.HTML v C# nastavit innerHTML pro element span a dynamicky upravovat obsah HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

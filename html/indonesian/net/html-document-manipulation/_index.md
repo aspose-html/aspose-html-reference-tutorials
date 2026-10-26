@@ -103,6 +103,8 @@ Pelajari cara menyimpan dokumen HTML menggunakan Aspose.HTML dengan panduan lang
 Pelajari cara menerapkan gaya font secara programatis dalam C# dengan panduan singkat ini.
 ### [Cara Membuat HTML dengan Teks Bergaya – Panduan Lengkap C#](./how-to-create-html-with-styled-text-complete-c-guide/)
 Pelajari cara membuat dokumen HTML dengan teks berformat menggunakan Aspose.HTML di C#. Panduan lengkap langkah demi langkah.
+### [Mengatur innerHTML span di C# dengan Aspose.HTML – Panduan Lengkap](./set-span-innerhtml-in-c-with-aspose-html-complete-guide/)
+Pelajari cara mengatur properti innerHTML pada elemen span menggunakan C# dan Aspose.HTML dengan contoh lengkap.
 
 ## Kesimpulan
 

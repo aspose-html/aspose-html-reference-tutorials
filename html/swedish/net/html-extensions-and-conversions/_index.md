@@ -220,6 +220,8 @@ Lär dig hur du sparar HTML som ZIP och renderar HTML till PNG i en komplett C#-
 Lär dig hur du sparar HTML som ZIP med en komplett guide för Aspose.HTML.
 ### [Konvertera HTML till PDF med C# – Komplett guide](./convert-html-to-pdf-with-c-complete-guide/)
 Lär dig hur du konverterar HTML till PDF med C# i en komplett guide med kodexempel och steg‑för‑steg‑instruktioner.
+### [Spara HTML till ZIP – Komplett Aspose.HTML-guide](./save-html-to-zip-complete-aspose-html-guide/)
+Lär dig hur du sparar HTML till ZIP med en komplett Aspose.HTML-guide och steg‑för‑steg‑exempel.
 
 ## Slutsats
 

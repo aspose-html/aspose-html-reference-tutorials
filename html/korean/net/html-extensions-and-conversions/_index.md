@@ -214,6 +214,7 @@ Aspose.HTML for .NET을 활용해 HTML 파일을 ZIP 압축 파일로 저장하�
 Aspose.HTML과 C#를 활용해 웹 페이지를 ZIP 파일로 내보내는 전체 단계별 가이드를 확인하세요.
 ### [ZipHandler 사용 방법 – C#에서 웹 페이지를 ZIP으로 보관하기](./how-to-use-ziphandler-archive-webpage-as-zip-in-c/)
 C#와 Aspose.HTML을 활용해 ZipHandler로 웹 페이지를 ZIP 파일로 보관하는 단계별 가이드.
+### [HTML을 ZIP으로 저장 – 전체 Aspose.Html 가이드](./save-html-to-zip-complete-aspose-html-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

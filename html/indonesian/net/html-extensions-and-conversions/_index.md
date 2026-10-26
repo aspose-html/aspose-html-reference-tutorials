@@ -237,6 +237,8 @@ Pelajari cara mengonversi HTML menjadi PDF menggunakan Aspose.HTML untuk .NET de
 Pelajari cara mengompres halaman HTML menjadi arsip ZIP dengan panduan lengkap menggunakan Aspose.HTML untuk .NET.
 ### [Cara Menggunakan ZipHandler – Mengarsipkan Halaman Web sebagai ZIP di C#](./how-to-use-ziphandler-archive-webpage-as-zip-in-c/)
 Pelajari cara mengarsipkan halaman web menjadi file ZIP menggunakan ZipHandler di C# dengan contoh kode lengkap.
+### [Simpan HTML ke ZIP – Panduan Lengkap Aspose.HTML](./save-html-to-zip-complete-aspose-html-guide/)
+Pelajari cara menyimpan HTML sebagai arsip ZIP menggunakan Aspose.HTML untuk .NET dengan contoh kode lengkap.
 
 ## Kesimpulan
 

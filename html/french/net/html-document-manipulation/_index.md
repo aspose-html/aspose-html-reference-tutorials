@@ -107,6 +107,9 @@ Apprenez à générer du HTML contenant du texte stylisé en C# avec Aspose.HTML
 ### [Créer un document HTML avec Aspose.HTML – Guide complet](./create-html-document-with-aspose-html-full-guide/)
 Apprenez à créer un document HTML complet avec Aspose.HTML, incluant des exemples détaillés et des conseils pratiques.
 
+### [Définir la propriété innerHTML d'un span en C# avec Aspose.HTML – Guide complet](./set-span-innerhtml-in-c-with-aspose-html-complete-guide/)
+Apprenez à définir la propriété innerHTML d'un élément span en C# à l'aide d'Aspose.HTML, avec des exemples détaillés.
+
 ## Conclusion
 
 En conclusion, si vous souhaitez maîtriser la manipulation de documents HTML à l'aide d'Aspose.HTML pour .NET, vous êtes au bon endroit. Nos tutoriels sont votre feuille de route vers le succès. Préparez-vous à explorer les possibilités, à libérer votre créativité et à rationaliser votre développement .NET. Commencez votre voyage dès aujourd'hui et regardez vos documents HTML se transformer sous vos yeux. Que vous soyez développeur ou passionné, Aspose.HTML pour .NET vous réserve quelque chose d'incroyable. Alors, qu'attendez-vous ? Embarquons ensemble dans cette aventure passionnante !

@@ -248,6 +248,9 @@ Aspose.HTML for .NET を使用して、HTML ページ全体を ZIP アーカイ�
 ### [ZipHandler の使用方法 – C# でウェブページを ZIP アーカイブにする](./how-to-use-ziphandler-archive-webpage-as-zip-in-c/)
 Aspose.HTML for .NET と ZipHandler を使用して、C# でウェブページを ZIP アーカイブに保存する手順を解説します。
 
+### [HTML を ZIP に保存 – 完全 Aspose.HTML ガイド](./save-html-to-zip-complete-aspose-html-guide/)
+Aspose.HTML for .NET を使用して、HTML コンテンツを ZIP アーカイブとして保存する完全ガイドです。
+
 ## 結論
 
 結論として、HTML の拡張と変換は、現代の Web 開発に不可欠な要素です。Aspose.HTML for .NET はプロセスを簡素化し、あらゆるレベルの開発者が利用できるようにします。当社のチュートリアルに従うことで、幅広いスキルを備えた熟練した Web 開発者になるための道を順調に進むことができます。

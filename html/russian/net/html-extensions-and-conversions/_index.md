@@ -231,6 +231,8 @@ Aspose.HTML для .NET — это не просто библиотека; эт�
 Пошаговое руководство по сохранению HTML‑страницы в PDF с помощью Aspose.HTML в C#.
 ### [Как использовать ZipHandler – Архивировать веб-страницу в ZIP в C#](./how-to-use-ziphandler-archive-webpage-as-zip-in-c/)
 Узнайте, как с помощью ZipHandler упаковать веб-страницу в архив ZIP с помощью C# и Aspose.HTML.
+### [Сохранить HTML в ZIP – Полное руководство Aspose.HTML](./save-html-to-zip-complete-aspose-html-guide/)
+Узнайте, как сохранить HTML‑страницу в архив ZIP с помощью Aspose.HTML для .NET, используя C# в полном пошаговом руководстве.
 
 ## Заключение
 

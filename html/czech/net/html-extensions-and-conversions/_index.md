@@ -230,6 +230,8 @@ Naučte se, jak pomocí Aspose.HTML pro .NET exportovat celé webové stránky a
 ### [Jak použít ZipHandler – archivovat webovou stránku jako ZIP v C#](./how-to-use-ziphandler-archive-webpage-as-zip-in-c/)
 Naučte se pomocí ZipHandler archivovat webovou stránku do ZIP souboru v C# s podrobným průvodcem.
 
+### [Uložte HTML do ZIP – Kompletní průvodce Aspose.HTML](./save-html-to-zip-complete-aspose-html-guide/)
+Naučte se, jak pomocí Aspose.HTML pro .NET uložit HTML soubor do ZIP archivu v kompletním průvodci.
 ## Závěr
 
 Závěrem lze říci, že rozšíření a konverze HTML jsou základními prvky moderního vývoje webu. Aspose.HTML for .NET zjednodušuje proces a zpřístupňuje jej vývojářům všech úrovní. Budete-li se řídit našimi návody, budete na dobré cestě stát se zdatným webovým vývojářem se širokou sadou dovedností.

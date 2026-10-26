@@ -98,6 +98,8 @@ Aspose.HTML for .NET を使って HTML を保存する方法を段階的に解�
 C# でフォント スタイルをプログラム的に適用する方法を簡潔に解説します。
 ### [スタイル付きテキストで HTML を作成する – 完全 C# ガイド](./how-to-create-html-with-styled-text-complete-c-guide/)
 C# でスタイル付きテキストを含む HTML を作成する方法を学びます。ステップバイステップの完全ガイドです。
+### [Aspose.HTML を使用して C# で span の innerHTML を設定する – 完全ガイド](./set-span-innerhtml-in-c-with-aspose-html-complete-guide/)
+Aspose.HTML for .NET を使用して C# で span の innerHTML を設定する方法を学びます。
 
 ## 結論
 

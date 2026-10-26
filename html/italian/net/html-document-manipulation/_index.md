@@ -103,6 +103,8 @@ Scopri come applicare stili di font a documenti HTML in C# con Aspose.HTML in po
 Impara a generare HTML con testo stilizzato usando C# e Aspose.HTML, passo passo con esempi pratici.
 ### [Creare documento HTML con Aspose.HTML – Guida completa](./create-html-document-with-aspose-html-full-guide/)
 Scopri come creare documenti HTML con Aspose.HTML in una guida completa passo passo.
+### [Imposta innerHTML di uno span in C# con Aspose.HTML – Guida completa](./set-span-innerhtml-in-c-with-aspose-html-complete-guide/)
+Impara a impostare l'attributo innerHTML di un elemento span in C# usando Aspose.HTML. Guida completa con esempi.
 
 ## Conclusione
 

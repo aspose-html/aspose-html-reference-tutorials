@@ -236,6 +236,9 @@ Aspose.HTML for .NET 不只是一個函式庫；它還是一個函式庫。它�
 ### [如何使用 ZipHandler – 在 C# 中將網頁封存為 ZIP 檔案](./how-to-use-ziphandler-archive-webpage-as-zip-in-c/)
 使用 Aspose.HTML for .NET 的 ZipHandler，在 C# 中將完整網頁壓縮為 ZIP 檔案的完整步驟指南。
 
+### [將 HTML 儲存為 ZIP – 完整 Aspose.HTML 教學](./save-html-to-zip-complete-aspose-html-guide/)
+使用 Aspose.HTML for .NET 完整示範如何將 HTML 壓縮為 ZIP 檔案，提供完整步驟與範例。
+
 ## 結論
 
 總之，HTML 擴充和轉換是現代 Web 開發的基本要素。 Aspose.HTML for .NET 簡化了流程，並使各個層級的開發人員都可以使用它。透過遵循我們的教程，您將順利成為擁有廣泛技能的熟練 Web 開發人員。

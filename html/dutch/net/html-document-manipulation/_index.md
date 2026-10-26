@@ -107,6 +107,8 @@ Leer stap voor stap hoe u HTML met opgemaakte tekst genereert in C# met Aspose.H
 
 ### [HTML-document maken met Aspose.HTML – volledige gids](./create-html-document-with-aspose-html-full-guide/)
 Leer hoe u een HTML-document maakt met Aspose.HTML, stap voor stap, inclusief voorbeeldcode en tips.
+### [Stel span innerHTML in C# met Aspose.HTML – Complete gids](./set-span-innerhtml-in-c-with-aspose-html-complete-guide/)
+Leer hoe u met Aspose.HTML voor .NET de innerHTML van een span‑element in C# kunt instellen. Stap‑voor‑stap handleiding.
 
 ## Conclusie
 

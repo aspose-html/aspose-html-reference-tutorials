@@ -97,6 +97,8 @@ Aspose.HTML для .NET выделяется своей простотой и м
 Узнайте, как создавать HTML‑документы со стилизованным текстом в C# с помощью Aspose.HTML. Подробный пошаговый пример.
 ### [Создание HTML-документа с Aspose.HTML – Полное руководство](./create-html-document-with-aspose-html-full-guide/)
 Подробное руководство по созданию HTML‑документов с помощью Aspose.HTML в .NET, включая примеры кода и лучшие практики.
+### [Установить innerHTML span в C# с Aspose.HTML – Полное руководство](./set-span-innerhtml-in-c-with-aspose-html-complete-guide/)
+Узнайте, как установить innerHTML элемента span в C# с помощью Aspose.HTML и управлять содержимым HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

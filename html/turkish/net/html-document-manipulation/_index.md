@@ -96,6 +96,8 @@ Aspose.HTML for .NET ile HTML belgelerini kaydetmeyi adım adım öğrenin.
 ### [Programlı Olarak Yazı Tipi Stilini Uygulama – Hızlı C# Rehberi](./apply-font-style-programmatically-quick-c-guide/)
 ### [Aspose.HTML ile HTML Belgesi Oluşturma – Tam Kılavuz](./create-html-document-with-aspose-html-full-guide/)
 Aspose.HTML kullanarak sıfırdan tam özellikli bir HTML belgesi oluşturmayı adım adım öğrenin.
+### [Aspose.HTML ile C#'ta span innerHTML Ayarlama – Tam Kılavuz](./set-span-innerhtml-in-c-with-aspose-html-complete-guide/)
+C# kullanarak Aspose.HTML ile span elementinin innerHTML özelliğini nasıl ayarlayacağınızı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

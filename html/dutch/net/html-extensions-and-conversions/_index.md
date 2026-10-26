@@ -220,6 +220,8 @@ Leer hoe u HTML opslaat in een ZIP‑archief en deze vervolgens naar PNG rendert
 Volledige stap‑voor‑stap gids om HTML naar een ZIP‑bestand te bewaren met Aspose.HTML voor .NET.
 ### [Hoe ZipHandler te gebruiken – Webpagina archiveren als ZIP in C#](./how-to-use-ziphandler-archive-webpage-as-zip-in-c/)
 Leer hoe u met ZipHandler een webpagina comprimeert en opslaat als ZIP‑bestand in C# met Aspose.HTML voor .NET.
+### [HTML opslaan naar ZIP – Complete Aspose.HTML-gids](./save-html-to-zip-complete-aspose-html-guide/)
+Leer hoe u HTML-bestanden opslaat in een ZIP‑archief met Aspose.HTML voor .NET – een volledige stap‑voor‑stap gids.
 
 ## Conclusie
 

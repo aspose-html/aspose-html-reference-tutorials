@@ -143,6 +143,8 @@ Aspose.HTML का उपयोग करके C# में HTML को ZIP फ
 ### [Aspose.HTML के साथ .NET में HTML को इमेज में बदलें – चरण‑दर‑स्टेप गाइड](./convert-html-to-image-in-c-step-by-step-guide/)
 C# में Aspose.HTML का उपयोग करके HTML को इमेज में बदलने की चरण‑दर‑स्टेप गाइड।
 
+### [HTML को ZIP में सहेजें – पूर्ण Aspose.Html गाइड](./save-html-to-zip-complete-aspose-html-guide/)
+Aspose.HTML का उपयोग करके HTML को ZIP फ़ाइल में सहेजने की पूरी प्रक्रिया, कोड उदाहरण और अनुकूलन विकल्प।
 
 ### [C# में HTML को ज़िप कैसे करें – HTML को ज़िप में सहेजें](./how-to-zip-html-in-c-save-html-to-zip/)
 .NET के लिए Aspose.HTML का उपयोग करके C# में HTML को ज़िप फ़ाइल में सहेजने का तरीका सीखें।

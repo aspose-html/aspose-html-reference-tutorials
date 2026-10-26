@@ -195,6 +195,8 @@ Tanulja meg, hogyan használja a ZipArchive osztályt C#‑ban HTML-fájlok ZIP�
 Ismerje meg, hogyan mentheti el a HTML-t ZIP-archívumba az Aspose.HTML for .NET segítségével, lépésről‑lépésre útmutatóval.
 ### [ZipHandler használata – Weboldal archiválása ZIP-be C#-ban](./how-to-use-ziphandler-archive-webpage-as-zip-in-c/)
 Ismerje meg, hogyan használhatja a ZipHandler osztályt a weboldalak ZIP-archívumba csomagolásához C#-ban az Aspose.HTML for .NET segítségével.
+### [HTML mentése ZIP-be – Teljes Aspose.Html útmutató](./save-html-to-zip-complete-aspose-html-guide/)
+Ismerje meg, hogyan mentheti a HTML-t ZIP-archívumba az Aspose.HTML for .NET segítségével, részletes lépésről‑lépésre útmutatóval.
 
 ## Következtetés
 

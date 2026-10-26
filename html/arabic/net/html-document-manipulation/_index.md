@@ -99,6 +99,8 @@ url: /ar/net/html-document-manipulation/
 تعلم كيفية إنشاء مستندات HTML بنص منسق باستخدام C# مع دليل شامل خطوة بخطوة.
 ### [إنشاء مستند HTML باستخدام Aspose.HTML – دليل كامل](./create-html-document-with-aspose-html-full-guide/)
 تعرف على كيفية إنشاء مستند HTML من الصفر باستخدام Aspose.HTML خطوة بخطوة مع أمثلة عملية.
+### [تعيين innerHTML للـ span في C# باستخدام Aspose.HTML – دليل شامل](./set-span-innerhtml-in-c-with-aspose-html-complete-guide/)
+تعلم كيفية تعيين خاصية innerHTML لعنصر span في C# باستخدام Aspose.HTML عبر دليل شامل خطوة بخطوة.
 
 ## خاتمة
 

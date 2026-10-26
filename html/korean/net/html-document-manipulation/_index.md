@@ -97,6 +97,8 @@ Aspose.HTML for .NET을 사용하여 글꼴 스타일을 프로그래밍 방식�
 C#을 사용해 스타일이 적용된 텍스트를 포함한 HTML을 만드는 방법을 단계별로 안내합니다.
 ### [Aspose.HTML을 사용하여 HTML 문서 만들기 – 전체 가이드](./create-html-document-with-aspose-html-full-guide/)
 Aspose.HTML for .NET을 사용해 HTML 문서를 생성하고 최적화하는 전체 단계별 가이드를 확인하세요.
+### [Aspose.HTML을 사용하여 C#에서 span innerHTML 설정 – 완전 가이드](./set-span-innerhtml-in-c-with-aspose-html-complete-guide/)
+Aspose.HTML을 활용해 C#에서 span 요소의 innerHTML을 설정하는 방법을 단계별로 안내합니다.
 
 ## 결론
 

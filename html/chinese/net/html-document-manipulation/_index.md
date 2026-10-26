@@ -97,6 +97,8 @@ Aspose.HTML for .NET 以其简单性和强大性脱颖而出。它使您能够�
 了解如何使用 C# 创建带样式的 HTML 文档，提供完整示例和分步指南，帮助您轻松实现文本样式化。
 ### [使用 Aspose.HTML 完整指南创建 HTML 文档](./create-html-document-with-aspose-html-full-guide/)
 本完整指南展示如何使用 Aspose.HTML 从头创建并自定义 HTML 文档，包含示例代码和最佳实践。
+### [使用 Aspose.HTML 在 .NET 中设置 span innerHTML – 完整指南](./set-span-innerhtml-in-c-with-aspose-html-complete-guide/)
+了解如何使用 Aspose.HTML for .NET 在 C# 中设置 span 元素的 innerHTML，实现动态内容更新。
 
 ## 结论
 

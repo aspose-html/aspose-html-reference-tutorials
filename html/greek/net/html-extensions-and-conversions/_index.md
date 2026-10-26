@@ -171,6 +171,8 @@ url: /el/net/html-extensions-and-conversions/
 Μάθετε πώς να συμπιέζετε αρχεία HTML σε ZIP χρησιμοποιώντας τη βιβλιοθήκη ZipArchive σε C#.
 ### [Πώς να συμπιέσετε HTML – Πλήρης οδηγός εξαγωγής ιστοσελίδων ως ZIP](./how-to-zip-html-complete-guide-to-exporting-web-pages-as-zip/)
 Μάθετε πώς να συμπιέζετε αρχεία HTML σε αρχείο ZIP, εξάγοντας ολόκληρες ιστοσελίδες εύκολα με Aspose.HTML για .NET.
+### [Αποθήκευση HTML σε ZIP – Πλήρης Οδηγός Aspose.HTML](./save-html-to-zip-complete-aspose-html-guide/)
+Μάθετε πώς να αποθηκεύετε HTML σε αρχείο ZIP με Aspose.HTML για .NET, βήμα‑βήμα οδηγός σε C#.
 
 ### [Προσαρμοσμένος Διαχειριστής Πόρων σε C# – Φόρτωση HTML και Αποθήκευση ως ZIP](./custom-resource-handler-in-c-load-html-and-save-as-zip/)
 Μάθετε πώς να δημιουργήσετε έναν προσαρμοσμένο διαχειριστή πόρων σε C# για φόρτωση αρχείων HTML και αποθήκευση τους σε αρχείο ZIP.

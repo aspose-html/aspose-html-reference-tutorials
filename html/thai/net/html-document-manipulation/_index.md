@@ -98,6 +98,8 @@ Aspose.HTML สำหรับ .NET โดดเด่นด้วยควา�
 เรียนรู้วิธีสร้างไฟล์ HTML ที่มีข้อความสไตล์ด้วย C# อย่างละเอียด พร้อมตัวอย่างโค้ดและคำอธิบายขั้นตอน
 ### [สร้างเอกสาร HTMLด้วย Aspose.HTML – คู่มือเต็ม](./create-html-document-with-aspose-html-full-guide/)
 เรียนรู้วิธีสร้างเอกสาร HTML อย่างเต็มรูปแบบด้วย Aspose.HTML สำหรับ .NET พร้อมตัวอย่างและขั้นตอนที่ชัดเจน
+### [ตั้งค่า span innerHTML ใน C# ด้วย Aspose.HTML – คู่มือครบถ้วน](./set-span-innerhtml-in-c-with-aspose-html-complete-guide/)
+เรียนรู้วิธีตั้งค่า innerHTML ของแท็ก span ใน C# ด้วย Aspose.HTML อย่างละเอียดและครบถ้วน
 
 ## บทสรุป
 
