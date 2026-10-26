@@ -128,6 +128,8 @@ Lär dig hur du konverterar Word-dokument till PNG-bilder med en komplett progra
 Lär dig hur du implementerar en anpassad resurs‑hanterare i C# för att rendera en webbsida som bild med Aspose.HTML.
 ### [Skapa PNG från HTML med Aspose.HTML – Fullständig C#-guide](./create-png-from-html-with-aspose-html-full-c-guide/)
 Lär dig steg för steg hur du konverterar HTML till PNG med Aspose.HTML i en komplett C#‑guide.
+### [Konvertera DOCX till zip – komplett guide med bildåtergivning](./convert-docx-to-zip-complete-guide-with-image-rendering/)
+Lär dig hur du konverterar DOCX-filer till zip‑arkiv och renderar bilder med en komplett steg‑för‑steg‑guide.
 
 ## Slutsats
 

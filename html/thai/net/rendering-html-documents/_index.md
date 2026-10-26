@@ -154,6 +154,8 @@ Aspose.HTML สำหรับ .NET ถือเป็นตัวเลือ�
 เรียนรู้วิธีการเรนเดอร์ HTML เป็นภาพด้วย Aspose.HTML อย่างละเอียดในคู่มือฉบับสมบูรณ์นี้!
 ### [เรนเดอร์ HTML เป็น PDF ด้วย Aspose – คู่มือขั้นตอนเต็มรูปแบบ](./render-html-to-pdf-with-aspose-complete-step-by-step-guide/)
 เรียนรู้วิธีการเรนเดอร์ไฟล์ HTML เป็น PDF ด้วย Aspose.HTML สำหรับ .NET อย่างละเอียดในคู่มือขั้นตอนเต็มรูปแบบนี้!
+### [เรนเดอร์ HTML เป็นภาพใน C# – คู่มือ Aspose.HTML ฉบับสมบูรณ์](./render-html-to-image-in-c-complete-aspose-html-guide/)
+เรียนรู้วิธีเรนเดอร์ HTML เป็นรูปภาพด้วย C# อย่างละเอียดด้วย Aspose.HTML ในคู่มือฉบับสมบูรณ์นี้
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

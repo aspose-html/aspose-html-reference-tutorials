@@ -129,6 +129,8 @@ Aprenda a renderizar HTML em PNG usando manipuladores personalizados e opções 
 Aprenda a criar um manipulador de recursos personalizado em C# para renderizar páginas web como imagens usando Aspose.HTML.
 ### [Criar PNG a partir de HTML com Aspose.HTML – Guia Completo em C#](./create-png-from-html-with-aspose-html-full-c-guide/)
 Aprenda a gerar imagens PNG a partir de HTML usando Aspose.HTML em C# com este guia completo.
+### [Converter docx para zip – Guia completo com renderização de imagens](./convert-docx-to-zip-complete-guide-with-image-rendering/)
+Aprenda a converter arquivos DOCX em ZIP, renderizando imagens e compactando tudo em um único arquivo usando C# e Aspose.HTML.
 
 ## Conclusão
 

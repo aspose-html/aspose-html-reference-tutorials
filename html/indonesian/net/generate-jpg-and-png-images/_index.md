@@ -129,6 +129,8 @@ Pelajari cara merender HTML menjadi PNG menggunakan penangan kustom dan opsi kon
 Pelajari cara membuat penangan sumber daya kustom di C# untuk merender halaman web menjadi gambar menggunakan Aspose.HTML.
 ### [Buat PNG dari HTML dengan Aspose.HTML – Panduan Lengkap C#](./create-png-from-html-with-aspose-html-full-c-guide/)
 Pelajari cara membuat PNG dari HTML menggunakan Aspose.HTML dengan panduan lengkap C#.
+### [Konversi DOCX ke ZIP – Panduan Lengkap dengan Rendering Gambar](./convert-docx-to-zip-complete-guide-with-image-rendering/)
+Pelajari cara mengonversi file DOCX menjadi arsip ZIP lengkap dengan rendering gambar menggunakan Aspose.HTML.
 
 ## Kesimpulan
 

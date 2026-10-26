@@ -129,6 +129,8 @@ Naučte se pomocí Aspose.HTML převést HTML na PNG s vlastními handlery a pok
 Naučte se vytvořit vlastní handler zdrojů v C# pro vykreslení webové stránky do obrázku pomocí Aspose.HTML.
 ### [Vytvořte PNG z HTML pomocí Aspose.HTML – Kompletní průvodce v C#](./create-png-from-html-with-aspose-html-full-c-guide/)
 Kompletní návod, jak pomocí Aspose.HTML v C# převést HTML na PNG obrázek s podrobným nastavením.
+### [Převod docx do zip – Kompletní průvodce s vykreslováním obrázků](./convert-docx-to-zip-complete-guide-with-image-rendering/)
+Naučte se převést soubory DOCX do ZIP archivu a vykreslit obrázky pomocí Aspose.HTML v C#.
 
 ## Závěr
 

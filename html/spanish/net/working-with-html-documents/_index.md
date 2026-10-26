@@ -79,6 +79,8 @@ Aprenda a comprimir archivos HTML en C# usando Aspose.HTML con esta guía paso a
 
 ### [Crear HTML a partir de una cadena en C# – Guía completa con Memory Stream](./create-html-from-string-in-c-full-guide-with-memory-stream/)
 
+### [Guardar HTML en Zip – Guía completa de C# para archivos en memoria](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

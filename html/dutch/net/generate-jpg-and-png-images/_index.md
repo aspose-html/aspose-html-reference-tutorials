@@ -133,6 +133,8 @@ Leer hoe u een Word-document converteert naar PNG met een volledige programmeerg
 Leer hoe u HTML naar PNG rendert met aangepaste handlers en diverse opties in een volledige stap‑voor‑stap gids.
 ### [Aangepaste resourcehandler in C# – Webpagina renderen naar afbeelding](./custom-resource-handler-in-c-render-webpage-to-image/)
 Leer hoe u een aangepaste resourcehandler implementeert om webpagina's te renderen als afbeeldingen met Aspose.HTML in C#.
+### [docx naar zip converteren – volledige gids met afbeeldingsrendering](./convert-docx-to-zip-complete-guide-with-image-rendering/)
+Leer hoe u een DOCX-bestand converteert, afbeeldingen rendert en de resultaten in een zip‑archief opslaat met Aspose.HTML en C#.
 
 ## Conclusie
 

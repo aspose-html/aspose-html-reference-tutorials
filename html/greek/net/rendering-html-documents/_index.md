@@ -144,6 +144,8 @@ url: /el/net/rendering-html-documents/
 Ανακαλύψτε βήμα‑βήμα πώς να μετατρέψετε HTML σε PNG με C# και Aspose.HTML για .NET σε αυτόν τον ολοκληρωμένο οδηγό.
 ### [Απόδοση HTML σε PDF με το Aspose – Πλήρης Οδηγός Βήμα‑βήμα](./render-html-to-pdf-with-aspose-complete-step-by-step-guide/)
 Μάθετε πώς να μετατρέψετε HTML σε PDF με το Aspose.HTML για .NET σε αυτόν τον πλήρη οδηγό βήμα‑βήμα.
+### [Απόδοση HTML σε εικόνα σε C# – Πλήρης οδηγός Aspose.HTML](./render-html-to-image-in-c-complete-aspose-html-guide/)
+Μάθετε πώς να μετατρέψετε HTML σε εικόνα χρησιμοποιώντας C# και το Aspose.HTML σε αυτόν τον πλήρη οδηγό.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

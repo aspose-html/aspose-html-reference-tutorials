@@ -76,6 +76,10 @@ Dowiedz się, jak zapisać dokument HTML przy użyciu klasy Aspose.HTMLDocument,
 
 ### [Utworzenie archiwum Zip dla HTML – Kompletny przewodnik C#](./create-zip-archive-for-html-complete-c-guide/)
 
+### [Zapisz HTML do ZIP – Kompletny przewodnik C# dla archiwów w pamięci](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
+
+Dowiedz się, jak zapisać dokument HTML bezpośrednio do archiwum ZIP w pamięci przy użyciu C# i Aspose.HTML.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

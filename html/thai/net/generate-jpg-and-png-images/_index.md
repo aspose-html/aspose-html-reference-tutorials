@@ -130,6 +130,7 @@ Aspose.HTML สำหรับ .NET นำเสนอวิธีการง�
 เรียนรู้วิธีสร้างตัวจัดการทรัพยากรแบบกำหนดเองใน C# เพื่อแปลงหน้าเว็บเป็นภาพด้วย Aspose.HTML
 ### [สร้าง PNG จาก HTML ด้วย Aspose.HTML – คู่มือเต็ม C#](./create-png-from-html-with-aspose-html-full-c-guide/)
 เรียนรู้วิธีแปลง HTML เป็นไฟล์ PNG อย่างละเอียดด้วย Aspose.HTML ใน C# พร้อมขั้นตอนและตัวอย่างโค้ด
+### [แปลง DOCX เป็น ZIP – คู่มือฉบับสมบูรณ์พร้อมการเรนเดอร์ภาพ](./convert-docx-to-zip-complete-guide-with-image-rendering/)
 
 ## บทสรุป
 

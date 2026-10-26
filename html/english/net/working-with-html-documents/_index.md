@@ -56,6 +56,7 @@ Now, let's take your skills to the next level. Editing HTML documents is a commo
 
 ### [How to Save HTML – Aspose HTMLDocument Complete Guide](./how-to-save-html-aspose-htmldocument-complete-guide/)
 ### [Create Zip Archive for HTML – Complete C# Guide](./create-zip-archive-for-html-complete-c-guide/)
+### [Save HTML to Zip – Complete C# Guide for In‑Memory Archives](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

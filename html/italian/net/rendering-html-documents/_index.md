@@ -140,6 +140,8 @@ Scopri come catturare e inviare HTML come risposta HTTP usando Aspose.HTML in qu
 
 ### [Come disabilitare l'antialiasing per immagini più nitide – Guida passo‑passo](./how-to-disable-antialiasing-for-sharper-images-step-by-step/)
 Scopri come disattivare l'antialiasing in Aspose.HTML per ottenere immagini più nitide, con istruzioni dettagliate passo dopo passo.
+### [Renderizza HTML in immagine in C# – Guida completa Aspose.HTML](./render-html-to-image-in-c-complete-aspose-html-guide/)
+Scopri come convertire HTML in immagini usando C# con Aspose.HTML, passo passo, con esempi pratici.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

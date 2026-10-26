@@ -166,6 +166,9 @@ Apprenez à convertir du HTML en images avec Aspose.HTML pour .NET grâce à ce 
 ### [Rendre le HTML en PDF avec Aspose – Guide complet étape par étape](./render-html-to-pdf-with-aspose-complete-step-by-step-guide/)
 Apprenez à convertir du HTML en PDF avec Aspose en suivant ce guide complet et détaillé, étape par étape, en C#.
 
+### [Rendre le HTML en image en C# – Guide complet Aspose.HTML](./render-html-to-image-in-c-complete-aspose-html-guide/)
+Apprenez à convertir du HTML en images avec C# grâce à ce guide complet Aspose.HTML.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

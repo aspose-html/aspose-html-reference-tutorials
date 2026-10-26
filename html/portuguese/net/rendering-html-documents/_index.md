@@ -144,6 +144,8 @@ Aprenda a capturar HTML gerado e enviá-lo como resposta HTTP usando Aspose.HTML
 Aprenda a desativar o antialiasing ao renderizar imagens com Aspose.HTML para .NET, obtendo resultados mais nítidos.
 ### [Renderizar HTML para PDF com Aspose – Guia Completo Passo a Passo](./render-html-to-pdf-with-aspose-complete-step-by-step-guide/)
 Aprenda a converter HTML em PDF usando Aspose.HTML para .NET com um guia completo passo a passo.
+### [Renderizar HTML para Imagem em C# – Guia Completo Aspose.HTML](./render-html-to-image-in-c-complete-aspose-html-guide/)
+Aprenda a converter HTML em imagens usando Aspose.HTML para .NET com um guia completo em C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -141,6 +141,8 @@ Học cách bắt và trả về nội dung HTML dưới dạng phản hồi HTT
 Học cách chuyển đổi HTML thành hình ảnh với Aspose.HTML cho .NET qua hướng dẫn chi tiết từng bước.
 ### [Render HTML sang PDF với Aspose – Hướng dẫn chi tiết từng bước](./render-html-to-pdf-with-aspose-complete-step-by-step-guide/)
 Học cách chuyển đổi HTML sang PDF bằng Aspose.HTML cho .NET, bao gồm các bước chi tiết và mẹo thực tiễn để tạo tài liệu PDF chất lượng.
+### [Kết xuất HTML thành hình ảnh trong C# – Hướng dẫn toàn diện Aspose.HTML](./render-html-to-image-in-c-complete-aspose-html-guide/)
+Học cách chuyển đổi HTML thành hình ảnh bằng C# với Aspose.HTML, bao gồm các bước chi tiết và mẹo thực tiễn.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -53,6 +53,8 @@ HTML दस्तावेज़ वेब की रीढ़ हैं, और
 
 ### [HTML के लिए ज़िप आर्काइव बनाना – पूर्ण C# गाइड](./create-zip-archive-for-html-complete-c-guide/)
 
+### [HTML को ज़िप में सहेजें – इन‑मेमोरी आर्काइव के लिए पूर्ण C# गाइड](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

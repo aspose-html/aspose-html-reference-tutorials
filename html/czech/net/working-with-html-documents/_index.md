@@ -58,6 +58,8 @@ Nyní posuňte vaše dovednosti na další úroveň. Úpravy HTML dokumentů jso
 
 ### [Vytvořit zip archiv pro HTML – Kompletní průvodce v C#](./create-zip-archive-for-html-complete-c-guide/)
 
+### [Uložit HTML do ZIP – Kompletní průvodce v C# pro archivaci v paměti](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

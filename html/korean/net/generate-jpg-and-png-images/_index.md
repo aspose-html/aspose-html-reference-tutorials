@@ -129,6 +129,8 @@ C#을 사용해 Word 문서를 PNG 이미지로 변환하는 방법을 단계별
 C#에서 사용자 정의 리소스 핸들러를 구현하여 웹 페이지를 이미지로 변환하는 방법을 단계별로 안내합니다.
 ### [Aspose.HTML을 사용하여 HTML에서 PNG 생성 – 전체 C# 가이드](./create-png-from-html-with-aspose-html-full-c-guide/)
 Aspose.HTML을 활용해 HTML을 PNG 이미지로 변환하는 전체 C# 단계별 가이드를 제공합니다.
+### [DOCX를 ZIP으로 변환 – 이미지 렌더링 포함 완전 가이드](./convert-docx-to-zip-complete-guide-with-image-rendering/)
+DOCX 파일을 이미지로 렌더링하고 ZIP 압축까지 수행하는 전체 과정을 단계별로 안내합니다.
 
 ## 결론
 

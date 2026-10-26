@@ -58,6 +58,8 @@ C# kullanarak HTML dosyalarını özel kaynak işleyicileri ve ZIP arşivleriyle
 ### [HTML Kaydetme – Aspose HTMLDocument Tam Kılavuz](./how-to-save-html-aspose-htmldocument-complete-guide/)
 ### [HTML için Zip Arşivi Oluşturma – Tam C# Kılavuzu](./create-zip-archive-for-html-complete-c-guide/)
 
+### [HTML'yi Zip'e Kaydet – Bellek İçi Arşivler İçin Tam C# Kılavuzu](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

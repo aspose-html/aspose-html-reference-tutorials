@@ -151,6 +151,8 @@ Pełny przewodnik pokazujący, jak przechwycić i zwrócić HTML jako odpowiedź
 Dowiedz się, jak w Aspose.HTML wyłączyć antyaliasing, aby uzyskać wyraźniejsze obrazy przy renderowaniu, krok po kroku.
 ### [Renderuj HTML do PDF za pomocą Aspose – Kompletny przewodnik krok po kroku](./render-html-to-pdf-with-aspose-complete-step-by-step-guide/)
 Pełny przewodnik pokazujący, jak przy użyciu Aspose.HTML renderować HTML do PDF krok po kroku.
+### [Renderowanie HTML do obrazu w C# – Kompletny przewodnik Aspose.HTML](./render-html-to-image-in-c-complete-aspose-html-guide/)
+Pełny przewodnik w C#, jak przy użyciu Aspose.HTML renderować HTML do obrazów, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

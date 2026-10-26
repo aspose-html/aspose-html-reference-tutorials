@@ -166,6 +166,9 @@ Kompletní průvodce, jak pomocí Aspose.HTML převést HTML do obrázku s podro
 ### [Vykreslete HTML do PDF pomocí Aspose – Kompletní průvodce krok za krokem](./render-html-to-pdf-with-aspose-complete-step-by-step-guide/)
 Kompletní průvodce, jak pomocí Aspose.HTML v .NET převést HTML do PDF s podrobnými ukázkami a tipy.
 
+### [Renderujte HTML do obrázku v C# – Kompletní průvodce Aspose.HTML](./render-html-to-image-in-c-complete-aspose-html-guide/)
+Kompletní návod, jak pomocí Aspose.HTML v .NET převést HTML do obrázku v C# s podrobnými ukázkami a tipy.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

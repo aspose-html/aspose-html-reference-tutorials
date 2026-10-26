@@ -162,6 +162,9 @@ Aspose.HTML для .NET выделяется как лучший выбор дл
 ### [Рендеринг HTML в PDF с Aspose – Полное пошаговое руководство](./render-html-to-pdf-with-aspose-complete-step-by-step-guide/)
 Подробный пошаговый учебник по конвертации HTML в PDF с использованием Aspose.HTML для .NET.
 
+### [Рендеринг HTML в изображение на C# – Полное руководство Aspose.HTML](./render-html-to-image-in-c-complete-aspose-html-guide/)
+Подробное руководство по рендерингу HTML в изображения с использованием Aspose.HTML на C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

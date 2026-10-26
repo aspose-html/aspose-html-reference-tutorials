@@ -53,6 +53,8 @@ HTML 文档是 Web 的支柱，能够有效地创建和操作 HTML 文档是任�
 ### [如何在 C# 中保存 HTML – 完整分步指南](./how-to-save-html-in-c-complete-step-by-step-guide/)
 ### [创建 HTML 的 Zip 压缩包 – 完整 C# 指南](./create-zip-archive-for-html-complete-c-guide/)
 
+### [保存 HTML 为 Zip – 完整 C# 内存归档指南](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

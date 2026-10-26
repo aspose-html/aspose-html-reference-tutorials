@@ -80,6 +80,8 @@ Lär dig skapa HTML-dokument i C# med en anpassad resurs‑hanterare och generer
 
 Lär dig hur du skapar ett zip‑arkiv för HTML‑filer med C# i en komplett steg‑för‑steg‑guide.
 
+### [Spara HTML till Zip – Komplett C#‑guide för minnesarkiv](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

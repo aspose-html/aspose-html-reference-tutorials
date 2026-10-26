@@ -165,6 +165,9 @@ Aspose.HTML for .NET を使い、HTML を高品質な画像に変換する手順
 ### [Aspose.HTML を使用して HTML を PDF にレンダリングする – 完全ステップバイステップガイド](./render-html-to-pdf-with-aspose-complete-step-by-step-guide/)
 Aspose.HTML for .NET を使用して、HTML を PDF に変換する完全な手順を解説します。
 
+### [C# で HTML を画像にレンダリング – 完全 Aspose.HTML ガイド](./render-html-to-image-in-c-complete-aspose-html-guide/)
+C# で Aspose.HTML を使用し、HTML を高品質な画像に変換する手順をステップバイステップで解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

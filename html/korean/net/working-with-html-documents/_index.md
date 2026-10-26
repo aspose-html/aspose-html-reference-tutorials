@@ -72,6 +72,10 @@ C#에서 HTML을 저장하는 방법을 단계별로 자세히 안내합니다.
 
 C#을 사용해 HTML 파일을 Zip 아카이브로 압축하는 방법을 단계별로 안내합니다.
 
+### [HTML을 Zip으로 저장 – 인‑메모리 아카이브를 위한 완전 C# 가이드](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
+
+C#에서 메모리 스트림을 사용해 HTML을 ZIP 파일로 저장하는 방법을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

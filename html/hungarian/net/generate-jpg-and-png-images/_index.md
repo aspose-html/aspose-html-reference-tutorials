@@ -123,6 +123,8 @@ Ismerje meg, hogyan konvertálhat Word dokumentumokat PNG képekké az Aspose.HT
 ### [Egyéni erőforráskezelő C#-ban – Weboldal képpé renderelése](./custom-resource-handler-in-c-render-webpage-to-image/)
 Ismerje meg, hogyan hozhat létre egyéni erőforráskezelőt C#-ban, amely HTML oldalt képpé konvertál az Aspose.HTML segítségével.
 ### [PNG létrehozása HTML-ből az Aspose.HTML segítségével – Teljes C# útmutató](./create-png-from-html-with-aspose-html-full-c-guide/)
+### [docx konvertálása zip-re – Teljes útmutató képrendereléssel](./convert-docx-to-zip-complete-guide-with-image-rendering/)
+Ismerje meg, hogyan konvertálhat docx fájlokat zip archívumba, miközben képeket renderel, C# és Aspose.HTML segítségével.
 
 ## Következtetés
 

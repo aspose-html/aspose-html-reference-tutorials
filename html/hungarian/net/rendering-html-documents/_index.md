@@ -130,6 +130,8 @@ Ismerje meg, hogyan kapcsolhatja ki az antialiasingot az Aspose.HTML-ben, hogy �
 Tanulja meg, hogyan renderelhet HTML-t képként az Aspose.HTML segítségével .NET környezetben, lépésről lépésre útmutató.
 ### [HTML renderelése PDF-be az Aspose‑szal – Teljes lépésről‑lépésre útmutató](./render-html-to-pdf-with-aspose-complete-step-by-step-guide/)
 Tanulja meg, hogyan renderelhet HTML-t PDF formátumba az Aspose segítségével .NET környezetben, lépésről lépésre útmutató.
+### [HTML renderelése képként C#-ban – Teljes Aspose.HTML útmutató](./render-html-to-image-in-c-complete-aspose-html-guide/)
+Tanulja meg, hogyan renderelhet HTML-t képként C#-ban az Aspose.HTML segítségével, lépésről lépésre útmutató.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

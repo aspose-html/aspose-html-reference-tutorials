@@ -81,6 +81,8 @@ url: /el/net/working-with-html-documents/
 
 Μάθετε πώς να δημιουργήσετε αρχείο Zip που περιέχει HTML χρησιμοποιώντας C#, βήμα‑βήμα οδηγός.
 
+### [Αποθήκευση HTML σε Zip – Πλήρης οδηγός C# για αρχεία εντός μνήμης](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -77,6 +77,9 @@ url: /th/net/working-with-html-documents/
 ### [สร้างไฟล์ Zip สำหรับ HTML – คู่มือฉบับสมบูรณ์ C#](./create-zip-archive-for-html-complete-c-guide/)
 เรียนรู้วิธีสร้างไฟล์ Zip ที่บรรจุไฟล์ HTML ด้วย C# อย่างละเอียดและครบถ้วน
 
+### [บันทึก HTML เป็น Zip – คู่มือ C# ฉบับสมบูรณ์สำหรับการจัดเก็บในหน่วยความจำ](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
+เรียนรู้วิธีบันทึกไฟล์ HTML ลงในไฟล์ Zip โดยใช้ C# และจัดการเป็น Archive ในหน่วยความจำอย่างเต็มรูปแบบ
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

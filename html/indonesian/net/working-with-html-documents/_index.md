@@ -54,6 +54,7 @@ Sebelum kita menyelami secara spesifik pembuatan dan penyuntingan dokumen HTML d
 ### [Membuat HTML dari string di C# – Panduan Lengkap dengan Memory Stream](./create-html-from-string-in-c-full-guide-with-memory-stream/)
 
 ### [Buat Arsip Zip untuk HTML – Panduan Lengkap C#](./create-zip-archive-for-html-complete-c-guide/)
+### [Menyimpan HTML ke Zip – Panduan Lengkap C# untuk Arsip In‑Memory](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -69,6 +69,8 @@ HTML-документы являются основой Интернета, и �
 
 ### [Создание ZIP-архива для HTML – Полное руководство на C#](./create-zip-archive-for-html-complete-c-guide/)
 
+### [Сохранить HTML в Zip – Полное руководство C# для архивов в памяти](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
