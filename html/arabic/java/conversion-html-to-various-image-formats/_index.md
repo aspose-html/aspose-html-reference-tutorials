@@ -208,6 +208,11 @@ Learn how to easily convert HTML to TIFF using Aspose.HTML for Java. Step-by-ste
 ### [تحويل HTML إلى WebP – دليل Aspose.HTML الكامل للـ Java](./convert-html-to-webp-complete-java-aspose-html-guide/)
 دليل شامل خطوة بخطوة لتحويل HTML إلى صور WebP باستخدام Aspose.HTML للـ Java.
 
+### [تعطيل الصور الخارجية أثناء تصيير صفحة ويب إلى PNG في Java](./disable-external-images-while-rendering-webpage-to-png-in-ja/)
+تعلم كيفية تعطيل تحميل الصور الخارجية أثناء تصيير صفحة ويب إلى PNG باستخدام Aspose.HTML for Java.
+### [تحويل HTML إلى AVIF باستخدام Aspose.HTML – دليل Java كامل](./convert-html-to-avif-with-aspose-html-complete-java-guide/)
+تعلم كيفية تحويل HTML إلى AVIF باستخدام Aspose.HTML for Java. دليل شامل خطوة بخطوة.
+
 ## الأسئلة المتكررة
 
 **س: هل يمكنني تحويل HTML إلى PNG باستخدام Java دون مكتبات صور إضافية؟**  

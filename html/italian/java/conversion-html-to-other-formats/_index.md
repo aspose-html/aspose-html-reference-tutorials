@@ -198,6 +198,9 @@ Imposta le dimensioni della pagina PDF durante la conversione da HTML a PDF in J
 ### [Come utilizzare Aspose per la conversione parallela da HTML a PDF in Java](./how-to-use-aspose-for-parallel-html-to-pdf-conversion-in-jav/)
 ### [Incorporare i font in PDF – Guida completa Java usando Aspose HTML](./embed-fonts-in-pdf-complete-java-guide-using-aspose-html/)
 
+### [Converti HTML in PDF in Java – Guida al Thread Pool Parallelo](./convert-html-to-pdf-in-java-parallel-thread-pool-guide/)
+### [Tutorial html to pdf – Converti HTML in PDF con Aspose in Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-in-java/)
+
 ## Domande frequenti
 
 **Q: Posso usare Aspose.HTML for Java in un'applicazione commerciale?**  

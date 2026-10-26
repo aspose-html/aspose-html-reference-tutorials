@@ -222,6 +222,9 @@ Poznaj, jak używać środowiska Sandbox Aspose.HTML w Javie do bezpiecznej konw
 ### [Włącz wykonywanie skryptów w Javie – Kompletny przewodnik Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
 Dowiedz się, jak włączyć i konfigurować wykonywanie JavaScript w aplikacjach Java przy użyciu Aspose.HTML, krok po kroku.
 
+### [Wykonaj JavaScript w Javie przy użyciu Aspose.HTML](./execute-javascript-in-java-using-aspose-html/)
+Dowiedz się, jak uruchomić kod JavaScript w aplikacji Java przy użyciu Aspose.HTML, krok po kroku.
+
 ---
 
 **Ostatnia aktualizacja:** 2025-11-29  

@@ -78,6 +78,9 @@ Erfahren Sie, wie Sie mit Aspose.HTML für Java Text in HTML markieren, indem Si
 ### [HTML in Java extrahieren – Text extrahieren und Wörter hervorheben](./how-to-extract-html-in-java-extract-text-highlight-words/)
 Entdecken Sie, wie Sie mit Aspose.HTML für Java HTML extrahieren, Text auslesen und bestimmte Wörter hervorheben – Schritt für Schritt.
 
+### [Abrufen von Elementattributen in Java – Komplettanleitung zur SVG-Auswahl und XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java Elementattribute aus SVGs auswählen und per XPath abfragen – Schritt für Schritt.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -110,6 +110,9 @@ Dowiedz się, jak wyodrębnić CSS z dokumentu HTML w Javie, korzystając z Aspo
 ### [Jak odczytać CSS w Javie – Kompletny przewodnik Aspose.HTML](./how-to-read-css-in-java-complete-aspose-html-guide/)
 Poznaj, jak programowo odczytywać reguły CSS w Javie przy użyciu Aspose.HTML, krok po kroku, z praktycznymi przykładami.
 
+### [Pobieranie wartości właściwości CSS w Javie – Kompletny przewodnik z Aspose.HTML](./get-css-property-value-in-java-complete-guide-with-aspose-ht/)
+Dowiedz się, jak uzyskać wartość dowolnej właściwości CSS w Javie przy użyciu Aspose.HTML, krok po kroku.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

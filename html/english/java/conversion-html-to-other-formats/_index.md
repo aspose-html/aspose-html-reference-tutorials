@@ -339,6 +339,11 @@ Explore how to perform parallel HTML to PDF conversions in Java using Aspose.HTM
 ### [embed fonts in pdf – Complete Java Guide Using Aspose HTML](./embed-fonts-in-pdf-complete-java-guide-using-aspose-html/)
 Learn how to embed custom fonts into PDF files using Aspose.HTML for Java, ensuring accurate text rendering across platforms.
 
+### [Convert HTML to PDF in Java – Parallel Thread Pool Guide](./convert-html-to-pdf-in-java-parallel-thread-pool-guide/)
+Learn how to convert HTML to PDF in Java using a parallel thread pool for faster batch processing with Aspose.HTML.
+### [html to pdf tutorial – Convert HTML to PDF with Aspose in Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-in-java/)
+Step-by-step guide to convert HTML to PDF using Aspose.HTML for Java, covering setup and customization options.
+
 ## Frequently Asked Questions
 
 **Q: Can I use Aspose.HTML for Java in a commercial application?**  

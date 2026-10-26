@@ -287,6 +287,11 @@ Java と Aspose.HTML を使用して、A4 サイズの PDF を作成する手順
 Aspose.HTML を使用して Java で複数の HTML を同時に PDF に変換する手順を解説します。
 ### [PDF にフォントを埋め込む – Aspose HTML を使用した完全な Java ガイド](./embed-fonts-in-pdf-complete-java-guide-using-aspose-html/)
 
+### [HTML to PDF チュートリアル – Aspose を使用した Java での HTML から PDF への変換](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-in-java/)
+Aspose.HTML を使って Java で HTML を PDF に変換する手順をステップバイステップで解説します。
+### [JavaでHTMLをPDFに変換 – 並列スレッドプールガイド](./convert-html-to-pdf-in-java-parallel-thread-pool-guide/)
+Aspose.HTML を使用し、Java の並列スレッドプールで HTML を PDF に高速変換する方法を解説します。
+
 ## よくある質問
 
 **Q: Aspose.HTML for Java を商用アプリケーションで使用できますか？**

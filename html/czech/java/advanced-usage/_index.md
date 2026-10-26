@@ -234,6 +234,9 @@ Naučte se, jak využít sandbox prostředí pro bezpečnou konverzi HTML do PDF
 ### [Povolení spouštění skriptů v Javě – Kompletní průvodce Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
 Naučte se, jak povolit a spouštět JavaScript v Javě pomocí Aspose.HTML, včetně nastavení, zabezpečení a praktických příkladů.
 
+### [Spuštění JavaScriptu v Javě pomocí Aspose.HTML](./execute-javascript-in-java-using-aspose-html/)
+Naučte se, jak spustit JavaScript kód v Javě pomocí Aspose.HTML, včetně nastavení a praktických příkladů.
+
 ---
 
 **Poslední aktualizace:** 2025-11-29  

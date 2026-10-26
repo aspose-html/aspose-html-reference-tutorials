@@ -340,6 +340,12 @@ Pelajari cara menyematkan font ke dalam file PDF menggunakan Aspose.HTML for Jav
 
 ### [Mengonversi Markdown ke PDF di Java – Panduan Lengkap](./convert-markdown-to-pdf-in-java-complete-guide/)
 
+### [Mengonversi HTML ke PDF di Java – Panduan Thread Pool Paralel](./convert-html-to-pdf-in-java-parallel-thread-pool-guide/)
+Pelajari cara mempercepat konversi HTML ke PDF di Java dengan menggunakan thread pool paralel untuk pemrosesan batch yang efisien.
+
+### [Tutorial html ke pdf – Mengonversi HTML ke PDF dengan Aspose di Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-in-java/)
+Pelajari cara mengonversi HTML ke PDF di Java menggunakan Aspose.HTML dengan langkah‑demi‑Langkah yang mudah diikuti.
+
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bisakah saya menggunakan Aspose.HTML untuk Java dalam aplikasi komersial?**  

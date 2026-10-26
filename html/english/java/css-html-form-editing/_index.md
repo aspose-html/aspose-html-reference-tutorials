@@ -113,6 +113,9 @@ Learn how to load HTML in Java using Aspose.HTML and extract CSS color values in
 ### [Extract CSS from HTML in Java – Complete Programming Guide](./extract-css-from-html-in-java-complete-programming-guide/)
 Learn how to extract CSS from HTML programmatically using Aspose.HTML for Java in this complete guide.
 
+### [Get CSS Property Value in Java – Complete Guide with Aspose.HTML](./get-css-property-value-in-java-complete-guide-with-aspose-ht/)
+Learn how to retrieve CSS property values programmatically using Aspose.HTML for Java in this comprehensive step-by-step guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

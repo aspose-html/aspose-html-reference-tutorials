@@ -198,6 +198,8 @@ Pelajari cara menggunakan Executor dengan Fixed Thread Pool di Java untuk mengel
 ### [Ekstrak HTML dari MHTML – Panduan Lengkap Java](./extract-html-from-mhtml-complete-java-guide/)
 Pelajari cara mengekstrak konten HTML dari file MHTML menggunakan Aspose.HTML untuk Java dalam panduan lengkap ini.
 
+### [Menjalankan JavaScript di Java menggunakan Aspose.HTML](./execute-javascript-in-java-using-aspose-html/)
+
 ---
 
 **Terakhir Diperbarui:** 2025-11-29  

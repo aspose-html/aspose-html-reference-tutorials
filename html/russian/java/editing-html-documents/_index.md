@@ -76,6 +76,9 @@ url: /ru/java/editing-html-documents/
 ### [Как извлечь HTML в Java – извлечение текста и подсветка слов](./how-to-extract-html-in-java-extract-text-highlight-words/)
 Узнайте, как извлекать HTML в Java, получать текст из документа и подсвечивать выбранные слова с помощью Aspose.HTML.
 
+### [Получение атрибута элемента в Java – Полное руководство по выбору SVG и XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
+Узнайте, как получать атрибуты элементов SVG с помощью XPath в Aspose.HTML для Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

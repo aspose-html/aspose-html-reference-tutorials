@@ -77,6 +77,8 @@ Leer hoe u een kind-element aan de body van een HTML-document toevoegt met Aspos
 ### [Automatische lockrelease in Java – Thread‑veilige HTML-bewerkingshandleiding](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
 Leer hoe u automatisch lockrelease implementeert in Java voor thread‑veilige HTML-bewerking met Aspose.HTML.
 
+### [Elementattribuut ophalen Java – Complete gids voor SVG-selectie en XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
+Leer hoe u met Aspose.HTML voor Java SVG-elementen selecteert en attributen ophaalt via XPath in deze volledige handleiding.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

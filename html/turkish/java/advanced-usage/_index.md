@@ -222,6 +222,9 @@ Aspose.HTML for Java Sandbox ortamını kullanarak HTML dosyalarını güvenli b
 ### [Java’da Betik Çalıştırmayı Etkinleştirme – Tam Aspose.HTML Rehberi](./enable-script-execution-in-java-complete-aspose-html-guide/)
 Aspose.HTML for Java kullanarak Java ortamında betik yürütmeyi nasıl etkinleştireceğinizi ve güvenli bir şekilde çalıştıracağınızı öğrenin.
 
+### [Java’da JavaScript Çalıştırma – Aspose.HTML Kullanarak](./execute-javascript-in-java-using-aspose-html/)
+Aspose.HTML for Java ile Java’da JavaScript yürütme ve entegrasyon adımlarını keşfedin.
+
 ---
 
 **Son Güncelleme:** 2025-11-29  

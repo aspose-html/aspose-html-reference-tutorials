@@ -363,6 +363,12 @@ Hướng dẫn thực hiện chuyển đổi HTML sang PDF đồng thời bằng
 ### [Nhúng phông chữ vào PDF – Hướng dẫn Java hoàn chỉnh sử dụng Aspose HTML](./embed-fonts-in-pdf-complete-java-guide-using-aspose-html/)
 Hướng dẫn chi tiết cách nhúng phông chữ vào PDF trong Java bằng Aspose.HTML, đảm bảo văn bản hiển thị chính xác trên mọi thiết bị.
 
+### [Chuyển đổi HTML sang PDF trong Java – Hướng dẫn Thread Pool song song](./convert-html-to-pdf-in-java-parallel-thread-pool-guide/)
+Hướng dẫn cách chuyển đổi HTML sang PDF trong Java bằng Thread Pool để thực hiện song song, tăng hiệu suất.
+
+### [Hướng dẫn html to pdf – Chuyển đổi HTML sang PDF với Aspose trong Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-in-java/)
+Tìm hiểu cách chuyển đổi HTML sang PDF trong Java bằng Aspose.HTML, tạo PDF chất lượng cao nhanh chóng và dễ dàng.
+
 ## Câu hỏi thường gặp
 
 **Q: Tôi có thể sử dụng Aspose.HTML cho Java trong một ứng dụng thương mại không?**  

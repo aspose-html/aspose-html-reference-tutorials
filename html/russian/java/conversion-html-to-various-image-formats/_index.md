@@ -214,6 +214,10 @@ weight: 24
 
 ### [Преобразование HTML в WebP – Полное руководство Java Aspose.HTML](./convert-html-to-webp-complete-java-aspose-html-guide/)
 
+### [Преобразование HTML в AVIF – Полное руководство Java с Aspose.HTML](./convert-html-to-avif-with-aspose-html-complete-java-guide/)
+
+### [Отключение внешних изображений при рендеринге веб-страницы в PNG на Java](./disable-external-images-while-rendering-webpage-to-png-in-ja/)
+
 ## Часто задаваемые вопросы
 
 **В: Можно ли конвертировать HTML в PNG с помощью Java без дополнительных библиотек для работы с изображениями?**  

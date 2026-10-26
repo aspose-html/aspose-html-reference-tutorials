@@ -108,6 +108,9 @@ Leer hoe u CSS-programma's uit HTML-documenten kunt extraheren met Aspose.HTML v
 ### [Hoe CSS in Java te lezen – Complete Aspose.HTML-gids](./how-to-read-css-in-java-complete-aspose-html-guide/)
 Leer hoe u CSS-bestanden kunt analyseren en lezen in Java met Aspose.HTML in deze stapsgewijze handleiding.
 
+### [CSS-eigenschapwaarde ophalen in Java – Complete gids met Aspose.HTML](./get-css-property-value-in-java-complete-guide-with-aspose-ht/)
+Leer hoe u met Aspose.HTML voor Java de waarde van een CSS‑eigenschap kunt ophalen in deze volledige gids.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

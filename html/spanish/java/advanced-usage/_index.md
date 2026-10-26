@@ -218,6 +218,9 @@ Aprende a utilizar el entorno Sandbox de Aspose.HTML para convertir HTML a PDF e
 ### [Habilitar la ejecución de scripts en Java – Guía completa de Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
 Aprende a ejecutar JavaScript dentro de aplicaciones Java usando Aspose.HTML, con ejemplos paso a paso y mejores prácticas.
 
+### [Ejecutar JavaScript en Java usando Aspose.HTML](./execute-javascript-in-java-using-aspose-html/)
+Aprende a ejecutar código JavaScript dentro de aplicaciones Java mediante Aspose.HTML, facilitando la manipulación dinámica del contenido HTML.
+
 ---
 
 **Última actualización:** 2025-11-29  

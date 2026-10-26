@@ -216,6 +216,9 @@ Ismerje meg, hogyan engedélyezheti a Java-ban a JavaScript futtatását az Aspo
 ### [Hogyan használja a Sandbox-ot HTML‑ről PDF‑re Java‑ban – Lépésről‑lépésre útmutató](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
 Ismerje meg, hogyan használhatja a Sandbox‑ot HTML‑ből PDF‑re konvertáláshoz Java‑ban, részletes lépésről‑lépésre útmutatóval.
 
+### [Java‑ban JavaScript futtatása Aspose.HTML segítségével](./execute-javascript-in-java-using-aspose-html/)
+Ismerje meg, hogyan futtathat JavaScript kódot Java alkalmazásokban az Aspose.HTML könyvtár segítségével.
+
 ---
 
 **Legutóbb frissítve:** 2025-11-29  

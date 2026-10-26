@@ -219,6 +219,9 @@ Học cách nhúng và thực thi mã JavaScript trong ứng dụng Java bằng 
 Hướng dẫn chi tiết cách bật và chạy mã JavaScript trong ứng dụng Java bằng Aspose.HTML, bao gồm cấu hình môi trường và ví dụ thực tế.
 ### [Cách sử dụng Sandbox để chuyển HTML sang PDF Java – Hướng dẫn từng bước](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
 
+### [Thực thi JavaScript trong Java bằng Aspose.HTML](./execute-javascript-in-java-using-aspose-html/)
+Hướng dẫn cách chạy mã JavaScript trong môi trường Java bằng Aspose.HTML, bao gồm cấu hình và ví dụ thực tế.
+
 ---
 
 **Cập nhật lần cuối:** 2025-11-29  

@@ -355,6 +355,12 @@ Erfahren Sie, wie Sie mit Java-Threads mehrere HTML‑Dateien parallel zu PDFs k
 ### [Schriftarten in PDF einbetten – Vollständiger Java‑Leitfaden mit Aspose HTML](./embed-fonts-in-pdf-complete-java-guide-using-aspose-html/)
 Erfahren Sie, wie Sie mit Aspose.HTML für Java Schriftarten in PDFs einbetten, um konsistente Darstellung sicherzustellen.
 
+### [HTML‑zu‑PDF‑Tutorial – HTML mit Aspose in Java in PDF konvertieren](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-in-java/)
+Erfahren Sie, wie Sie HTML mit Aspose in Java in PDF umwandeln – Schritt‑für‑Schritt‑Anleitung für hochwertige PDF‑Ausgaben.
+
+### [HTML zu PDF in Java konvertieren – Parallel‑Thread‑Pool‑Leitfaden](./convert-html-to-pdf-in-java-parallel-thread-pool-guide/)
+Erfahren Sie, wie Sie HTML‑zu‑PDF‑Konvertierungen in Java mithilfe eines Parallel‑Thread‑Pools effizient skalieren.
+
 ## Häufig gestellte Fragen
 
 **Q: Kann ich Aspose.HTML für Java in einer kommerziellen Anwendung verwenden?**  

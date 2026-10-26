@@ -111,6 +111,9 @@ Java में Aspose.HTML का उपयोग करके HTML लोड �
 ### [Java में HTML से CSS निकालना – पूर्ण प्रोग्रामिंग गाइड](./extract-css-from-html-in-java-complete-programming-guide/)
 Java में Aspose.HTML का उपयोग करके HTML दस्तावेज़ से CSS निकालने की पूरी प्रक्रिया सीखें।
 
+### [Java में CSS प्रॉपर्टी वैल्यू प्राप्त करें – Aspose.HTML के साथ पूर्ण गाइड](./get-css-property-value-in-java-complete-guide-with-aspose-ht/)
+Aspose.HTML का उपयोग करके Java में CSS प्रॉपर्टी वैल्यू को प्राप्त करने की पूरी प्रक्रिया सीखें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

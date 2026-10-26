@@ -190,6 +190,11 @@ Aprenda a converter SVG para PNG em Java usando Aspose.HTML. Guia passo a passo 
 ### [Renderizar HTML para PNG em Java – Tutorial Completo Aspose.HTML](./render-html-to-png-in-java-full-aspose-html-tutorial/)
 Aprenda a renderizar HTML como PNG em Java usando Aspose.HTML. Guia passo a passo completo para gerar imagens PNG de alta qualidade.
 
+### [Converter HTML para AVIF com Aspose.HTML – Guia Completo em Java](./convert-html-to-avif-with-aspose-html-complete-java-guide/)
+Aprenda a converter HTML para AVIF em Java usando Aspose.HTML. Guia completo passo a passo para gerar imagens AVIF de alta qualidade.
+### [Desativar Imagens Externas ao Renderizar Página Web para PNG em Java](./disable-external-images-while-rendering-webpage-to-png-in-ja/)
+Aprenda a impedir o carregamento de imagens externas ao renderizar páginas web em PNG usando Aspose.HTML for Java.
+
 ## Perguntas Frequentes
 
 **Q: Posso converter HTML para PNG usando Java sem bibliotecas de imagem adicionais?**  

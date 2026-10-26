@@ -182,6 +182,10 @@ Apprenez à spécifier le DPI lors de la conversion de fichiers SVG en PNG avec 
 Apprenez à rendre du HTML en PNG en Java tout en incluant un token Bearer et des en‑têtes HTTP personnalisés avec Aspose.HTML.
 ### [Conversion d'HTML en WebP – Guide complet Java Aspose.HTML](./convert-html-to-webp-complete-java-aspose-html-guide/)
 
+### [Conversion d'HTML en AVIF](./convert-html-to-avif-with-aspose-html-complete-java-guide/)
+Apprenez à convertir HTML en AVIF en Java avec Aspose.HTML. Guide complet étape par étape pour une conversion efficace.
+### [Désactiver les images externes lors du rendu d'une page Web en PNG en Java](./disable-external-images-while-rendering-webpage-to-png-in-ja/)
+
 ## Questions fréquemment posées
 
 **Q : Puis‑je convertir HTML en PNG avec Java sans bibliothèques d'image supplémentaires ?**  

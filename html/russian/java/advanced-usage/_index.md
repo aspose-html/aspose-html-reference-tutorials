@@ -220,6 +220,9 @@ Aspose.HTML позволяет прикрепить `DomMutationObserver` к л�
 Подробное руководство по использованию Sandbox в Aspose.HTML for Java для безопасного преобразования HTML в PDF.
 ### [Включение выполнения скриптов в Java – Полное руководство Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
 
+### [Выполнение JavaScript в Java с Aspose.HTML](./execute-javascript-in-java-using-aspose-html/)
+Узнайте, как запускать JavaScript‑код из Java‑приложений с помощью Aspose.HTML.
+
 ---
 
 **Последнее обновление:** 2025-11-29  

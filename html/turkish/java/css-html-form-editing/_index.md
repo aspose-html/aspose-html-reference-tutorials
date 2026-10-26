@@ -110,6 +110,9 @@ Aspose.HTML for Java kullanarak HTML belgelerinden CSS stillerini nasıl çıkar
 ### [Java’da CSS Okuma – Tam Aspose.HTML Kılavuzu](./how-to-read-css-in-java-complete-aspose-html-guide/)
 Aspose.HTML for Java kullanarak CSS dosyalarını nasıl okuyacağınızı ve analiz edeceğinizi adım adım öğrenin.
 
+### [Java’da CSS Özellik Değerini Alma – Aspose.HTML ile Tam Kılavuz](./get-css-property-value-in-java-complete-guide-with-aspose-ht/)
+Aspose.HTML for Java kullanarak bir CSS özelliğinin değerini nasıl alacağınızı adım adım öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

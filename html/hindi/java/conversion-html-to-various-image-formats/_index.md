@@ -238,6 +238,12 @@ Aspose.HTML for Java का उपयोग करके कई SVG फ़ाइ
 ### [HTML को WebP में बदलें – पूर्ण Java Aspose.HTML गाइड](./convert-html-to-webp-complete-java-aspose-html-guide/)
 Aspose.HTML for Java का उपयोग करके HTML को WebP इमेज में बदलने के विस्तृत चरण‑दर‑चरण निर्देश।
 
+### [जावा में वेबपेज को PNG में रेंडर करते समय बाहरी छवियों को निष्क्रिय करें](./disable-external-images-while-rendering-webpage-to-png-in-ja/)
+Aspose.HTML for Java का उपयोग करके रेंडरिंग के दौरान बाहरी छवियों को लोड होने से रोकें और केवल स्थानीय सामग्री को PNG में सहेजें।
+
+### [HTML को AVIF में बदलना](./convert-html-to-avif-with-aspose-html-complete-java-guide/)
+Aspose.HTML for Java का उपयोग करके HTML को AVIF इमेज में बदलने की पूरी प्रक्रिया सीखें।
+
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **प्रश्न: क्या मैं Java का उपयोग करके अतिरिक्त इमेज लाइब्रेरी के बिना HTML को PNG में बदल सकता हूँ?**  

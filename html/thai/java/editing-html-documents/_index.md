@@ -76,6 +76,8 @@ CSS ภายนอกคือจุดที่พลังที่แท้�
 ### [วิธีไฮไลท์ HTML – ค้นหาข้อความและแทนที่ด้วย <mark>](./how-to-highlight-html-search-text-replace-with-mark/)
 เรียนรู้วิธีค้นหาข้อความในไฟล์ HTML และเน้นด้วยแท็ก <mark> โดยใช้ Aspose.HTML สำหรับ Java
 
+### [รับแอตทริบิวต์ขององค์ประกอบใน Java – คู่มือครบถ้วนสำหรับการเลือก SVG และ XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

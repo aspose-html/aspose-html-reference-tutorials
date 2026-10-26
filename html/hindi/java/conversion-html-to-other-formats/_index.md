@@ -329,6 +329,11 @@ Java में Aspose.HTML का उपयोग करके A4 आकार �
 ### [जावा में समानांतर HTML से PDF रूपांतरण के लिए Aspose का उपयोग कैसे करें](./how-to-use-aspose-for-parallel-html-to-pdf-conversion-in-jav/)
 जावा में Aspose.HTML का उपयोग करके कई HTML फ़ाइलों को एक साथ PDF में बदलने की चरण‑दर‑चरण प्रक्रिया सीखें।
 
+### [Java में HTML को PDF में बदलना – समानांतर थ्रेड पूल गाइड](./convert-html-to-pdf-in-java-parallel-thread-pool-guide/)
+Aspose.HTML for Java का उपयोग करके समानांतर थ्रेड पूल के साथ तेज़ HTML‑to‑PDF रूपांतरण कैसे करें, सीखें।
+
+### [HTML को PDF ट्यूटोरियल – Aspose के साथ Java में HTML को PDF में बदलें](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-in-java/)
+
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **Q: क्या मैं Aspose.HTML for Java को व्यावसायिक एप्लिकेशन में उपयोग कर सकता हूँ?**  

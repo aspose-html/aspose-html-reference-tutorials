@@ -76,6 +76,9 @@ HTML belgelerinde belirli metinleri <mark> etiketiyle vurgulamayı öğrenin.
 ### [Java'da HTML Çıkarma – Metin Çıkarma ve Kelimeleri Vurgulama](./how-to-extract-html-in-java-extract-text-highlight-words/)
 Java için Aspose.HTML kullanarak HTML'den metin çıkarın ve belirli kelimeleri vurgulayın.
 
+### [Java’da Element Özniteliği Alma – SVG Seçimi ve XPath İçin Tam Kılavuz](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
+Java’da öğe özniteliklerini almayı, SVG seçimini ve XPath kullanımını öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

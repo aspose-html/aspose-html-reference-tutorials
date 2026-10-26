@@ -151,6 +151,9 @@ Lär dig hur du ställer in DPI för PNG‑utdata när du konverterar HTML med A
 ### [Skapa PNG från HTML – Snabb batchkonvertering med en trådpott](./create-png-from-html-fast-batch-conversion-using-a-thread-po/)
 Skapa PNG‑bilder från HTML snabbt i batch med en trådpott. Effektiv konvertering för stora volymer med Aspose.HTML for Java.
 ### [Konvertera HTML till PNG med maxminnesanvändning i Java](./convert-html-to-png-with-set-max-memory-usage-in-java/)
+### [Inaktivera externa bilder vid rendering av webbsida till PNG i Java](./disable-external-images-while-rendering-webpage-to-png-in-ja/)
+### [Konvertera HTML till AVIF – Komplett Java‑guide med Aspose.HTML](./convert-html-to-avif-with-aspose-html-complete-java-guide/)
+
 ## Vanliga frågor
 
 **Q: Kan jag konvertera HTML till PNG med Java utan extra bildbibliotek?**  

@@ -76,6 +76,7 @@ Poznaj, jak dodać element potomny do drzewa DOM w Javie przy użyciu Aspose.HTM
 ### [Automatyczne zwalnianie blokady w Javie – Samouczek edycji HTML w trybie wątkowo‑bezpiecznym](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
 Poznaj technikę automatycznego zwalniania blokady w Javie, zapewniającą bezpieczną edycję HTML w środowisku wielowątkowym.
 
+### [Pobieranie atrybutu elementu w Javie – Kompletny przewodnik po wyborze SVG i XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

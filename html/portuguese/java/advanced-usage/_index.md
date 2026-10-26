@@ -212,6 +212,9 @@ Aprenda a usar a classe Executor para criar e gerenciar um pool de threads fixo 
 ### [Extrair HTML de MHTML – Guia Completo em Java](./extract-html-from-mhtml-complete-java-guide/)
 Aprenda a extrair HTML de arquivos MHTML usando Aspose.HTML for Java, com exemplos completos.
 
+### [Executar JavaScript em Java usando Aspose.HTML](./execute-javascript-in-java-using-aspose-html/)
+Descubra como executar scripts JavaScript em Java com Aspose.HTML, incluindo exemplos práticos e melhores práticas.
+
 ---
 
 **Última atualização:** 2025-11-29  

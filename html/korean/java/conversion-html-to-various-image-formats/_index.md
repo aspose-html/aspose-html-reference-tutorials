@@ -179,6 +179,11 @@ Aspose.HTML for Java를 사용해 HTML을 WebP로 변환합니다. HTML 문서�
 ### [HTML에서 PNG 만들기 – 스레드 풀을 이용한 빠른 배치 변환](./create-png-from-html-fast-batch-conversion-using-a-thread-po/)
 스레드 풀을 활용해 다수의 HTML을 PNG로 빠르게 일괄 변환하는 방법을 단계별로 안내합니다.
 ### [Java에서 최대 메모리 사용량을 설정하여 HTML을 PNG로 변환](./convert-html-to-png-with-set-max-memory-usage-in-java/)
+### [HTML을 AVIF로 변환 – Aspose.HTML와 함께하는 완전한 Java 가이드](./convert-html-to-avif-with-aspose-html-complete-java-guide/)
+Aspose.HTML for Java를 사용해 HTML을 AVIF 이미지로 변환하는 방법을 단계별로 안내합니다.
+### [Java에서 웹페이지를 PNG로 렌더링할 때 외부 이미지 비활성화](./disable-external-images-while-rendering-webpage-to-png-in-ja/)
+Aspose.HTML for Java를 사용해 렌더링 중 외부 이미지를 차단하고 PNG 스크린샷을 생성하는 방법을 안내합니다.
+
 ## 자주 묻는 질문
 
 **Q: Java에서 추가 이미지 라이브러리 없이 HTML을 PNG로 변환할 수 있나요?**  

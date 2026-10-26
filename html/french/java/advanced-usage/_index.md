@@ -227,6 +227,9 @@ Apprenez à exploiter le bac à sable d’Aspose.HTML pour convertir du HTML en 
 ### [Activer l'exécution de scripts en Java – Guide complet Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
 Apprenez à activer l'exécution de scripts JavaScript dans Java avec Aspose.HTML, incluant des exemples détaillés et les meilleures pratiques.  
 
+### [Exécuter du JavaScript en Java avec Aspose.HTML](./execute-javascript-in-java-using-aspose-html/)
+Découvrez comment lancer du code JavaScript depuis Java avec Aspose.HTML, incluant des exemples et des conseils d’utilisation.  
+
 ---
 
 **Dernière mise à jour :** 2025-11-29  

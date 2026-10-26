@@ -303,6 +303,11 @@ Aspose.HTML for Java 简化了 HTML 转 PDF 的工作流。请参阅专门的教
 ### [如何在 Java 中使用 Aspose 实现并行 HTML 转 PDF 转换](./how-to-use-aspose-for-parallel-html-to-pdf-conversion-in-jav/)
 了解如何利用 Aspose.HTML 在 Java 中进行并行处理，实现高效的 HTML 批量转 PDF。
 
+### [HTML 转 PDF 教程 – 使用 Aspose 在 Java 中将 HTML 转换为 PDF](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-in-java/)
+一步步指导如何在 Java 环境下使用 Aspose.HTML 将 HTML 文件转换为高质量 PDF 文档。
+### [在 Java 中将 HTML 转换为 PDF – 并行线程池指南](./convert-html-to-pdf-in-java-parallel-thread-pool-guide/)
+了解如何使用 Aspose.HTML 在 Java 中利用并行线程池批量将 HTML 转换为 PDF，提高转换性能。
+
 ## 常见问题
 
 **问：我可以在商业应用中使用 Aspose.HTML for Java 吗？**  

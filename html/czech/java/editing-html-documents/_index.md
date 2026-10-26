@@ -77,6 +77,9 @@ Naučte se, jak automaticky uvolňovat zámky při úpravě HTML v Javě, aby by
 ### [Jak extrahovat HTML v Javě – Extrahovat text a zvýraznit slova](./how-to-extract-html-in-java-extract-text-highlight-words/)
 Naučte se, jak v Javě extrahovat text z HTML a zvýraznit vybraná slova pomocí Aspose.HTML.
 
+### [Získání atributu prvku v Javě – Kompletní průvodce výběrem SVG a XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
+Naučte se získávat atributy prvků SVG pomocí XPath v Aspose.HTML pro Java s podrobným návodem.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

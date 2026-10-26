@@ -199,6 +199,11 @@ Naučte se vytvořit vysoce rozlišené PNG obrázky z HTML pomocí Aspose.HTML 
 ### [Převod HTML do WebP – Kompletní průvodce Aspose.HTML pro Javu](./convert-html-to-webp-complete-java-aspose-html-guide/)
 Kompletní návod, jak převést HTML do formátu WebP v Javě pomocí Aspose.HTML.
 
+### [Převod HTML do AVIF](./convert-html-to-avif-with-aspose-html-complete-java-guide/)
+Naučte se převést HTML do formátu AVIF v Javě pomocí Aspose.HTML. Kompletní krok‑za‑krokem průvodce.
+### [Zakázat externí obrázky při vykreslování webové stránky do PNG v Javě](./disable-external-images-while-rendering-webpage-to-png-in-ja/)
+Naučte se, jak při převodu HTML na PNG v Javě zabránit načítání externích obrázků pro rychlejší a bezpečnější renderování.
+
 ## Často kladené otázky
 
 **Q: Mohu převést HTML na PNG pomocí Javy bez dalších knihoven pro obrázky?**  

@@ -181,6 +181,9 @@ weight: 24
 เรียนรู้วิธีแปลง HTML เป็นรูปแบบ WebP ใน Java ด้วย Aspose.HTML อย่างละเอียดและมีประสิทธิภาพ
 ### [เรนเดอร์ HTML เป็น PNG ใน Java – คู่มือ Aspose HTML ฉบับเต็ม](./render-html-to-png-in-java-full-aspose-html-tutorial/)
 
+### [ปิดการใช้งานรูปภาพภายนอกขณะเรนเดอร์หน้าเว็บเป็น PNG ใน Java](./disable-external-images-while-rendering-webpage-to-png-in-ja/)
+### [แปลง HTML เป็น AVIF – คู่มือ Java ฉบับสมบูรณ์ด้วย Aspose.HTML](./convert-html-to-avif-with-aspose-html-complete-java-guide/)
+
 ## คำถามที่พบบ่อย
 
 **Q: ฉันสามารถแปลง HTML เป็น PNG ด้วย Java โดยไม่ต้องใช้ไลบรารีภาพเพิ่มเติมได้หรือไม่?**  

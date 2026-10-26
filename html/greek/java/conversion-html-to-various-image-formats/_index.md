@@ -178,6 +178,9 @@ weight: 24
 ### [Πώς να ορίσετε DPI κατά τη μετατροπή HTML σε PNG – Πλήρης Οδηγός](./how-to-set-dpi-when-converting-html-to-png-complete-guide/)
 Μάθετε πώς να ορίσετε το DPI κατά τη μετατροπή HTML σε PNG χρησιμοποιώντας Aspose.HTML for Java.
 ### [Μετατροπή HTML σε PNG με ορισμό μέγιστης χρήσης μνήμης σε Java](./convert-html-to-png-with-set-max-memory-usage-in-java/)
+### [Μετατροπή HTML σε AVIF με Aspose.HTML – Πλήρης Οδηγός Java](./convert-html-to-avif-with-aspose-html-complete-java-guide/)
+### [Απενεργοποίηση Εξωτερικών Εικόνων Κατά τη Σχεδίαση Ιστοσελίδας σε PNG με Java](./disable-external-images-while-rendering-webpage-to-png-in-ja/)
+
 ## Συχνές Ερωτήσεις
 
 **Ε: Μπορώ να μετατρέψω HTML σε PNG χρησιμοποιώντας Java χωρίς πρόσθετες βιβλιοθήκες εικόνας;**  

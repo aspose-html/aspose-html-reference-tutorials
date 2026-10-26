@@ -278,6 +278,11 @@ Leer hoe u met Aspose.HTML meerdere HTML‑bestanden gelijktijdig naar PDF kunt 
 ### [Lettertypen insluiten in PDF – Complete Java-gids met Aspose HTML](./embed-fonts-in-pdf-complete-java-guide-using-aspose-html/)
 Leer hoe u lettertypen insluit in PDF's met Aspose.HTML for Java voor consistente weergave op alle apparaten.
 
+### [HTML naar PDF converteren in Java – Parallelle Thread‑pool gids](./convert-html-to-pdf-in-java-parallel-thread-pool-guide/)
+Leer hoe u HTML naar PDF converteert in Java met behulp van een parallelle thread‑pool voor snellere batchverwerking.
+### [HTML naar PDF tutorial – Converteer HTML naar PDF met Aspose in Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-in-java/)
+Leer hoe u HTML naar PDF kunt omzetten in Java met Aspose, stap‑voor‑stap met voorbeeldcode en configuratie‑tips.
+
 ## Veelgestelde Vragen
 
 **V: Kan ik Aspose.HTML for Java gebruiken in een commerciële applicatie?**  

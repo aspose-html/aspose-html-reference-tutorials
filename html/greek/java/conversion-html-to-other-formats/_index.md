@@ -269,6 +269,11 @@ weight: 25
 ### [Ενσωμάτωση γραμματοσειρών σε PDF – Πλήρης Οδηγός Java με Aspose HTML](./embed-fonts-in-pdf-complete-java-guide-using-aspose-html/)
 Μάθετε πώς να ενσωματώσετε γραμματοσειρές σε αρχεία PDF χρησιμοποιώντας το Aspose.HTML for Java, εξασφαλίζοντας σωστή εμφάνιση σε όλες τις συσκευές.
 
+### [HTML σε PDF μάθημα – Μετατροπή HTML σε PDF με Aspose σε Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-in-java/)
+Μάθετε πώς να μετατρέψετε HTML σε PDF σε Java με το Aspose.HTML, ακολουθώντας βήμα‑βήμα οδηγίες για γρήγορη ενσωμάτωση.
+### [Μετατροπή HTML σε PDF σε Java – Οδηγός Παράλληλης Δέσμης Νημάτων](./convert-html-to-pdf-in-java-parallel-thread-pool-guide/)
+Μάθετε πώς να επιταχύνετε τη μετατροπή HTML σε PDF χρησιμοποιώντας παράλληλο pool νημάτων σε Java με Aspose.HTML.
+
 ## Συχνές Ερωτήσεις
 
 **Q: Μπορώ να χρησιμοποιήσω το Aspose.HTML for Java σε εμπορική εφαρμογή;**  

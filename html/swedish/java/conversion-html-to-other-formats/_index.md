@@ -273,6 +273,10 @@ Lär dig hur du konverterar Markdown till PDF i Java med Aspose.HTML. Skapa hög
 Lär dig steg‑för‑steg hur du konverterar SVG‑filer till olika format med Aspose HTML Converter.
 ### [Konvertera HTML till PDF med Fast Trådpool Java – Steg‑för‑Steg‑guide](./convert-html-to-pdf-with-fixed-thread-pool-java-step-by-step/)
 Lär dig hur du konverterar HTML till PDF i Java med en fast trådpool för effektiv parallell bearbetning.
+### [Konvertera HTML till PDF i Java – Guide för parallell trådpool](./convert-html-to-pdf-in-java-parallel-thread-pool-guide/)
+Lär dig hur du använder en trådpool för att konvertera flera HTML‑filer till PDF parallellt i Java med Aspose.HTML.
+### [HTML till PDF handledning – Konvertera HTML till PDF med Aspose i Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-in-java/)
+Lär dig hur du konverterar HTML till PDF i Java med Aspose, steg för steg.
 ## Vanliga frågor
 
 **Q: Kan jag använda Aspose.HTML for Java i en kommersiell applikation?**  

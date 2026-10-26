@@ -116,6 +116,9 @@ Javaを使用してHTMLドキュメントからCSSスタイルシートを抽出
 ### [JavaでCSSを読み取る方法 – 完全 Aspose.HTML ガイド](./how-to-read-css-in-java-complete-aspose-html-guide/)
 Aspose.HTML for Java を使用して、CSS を読み取り、解析し、操作する方法をステップバイステップで学びます。
 
+### [JavaでCSSプロパティ値を取得 – Aspose.HTML 完全ガイド](./get-css-property-value-in-java-complete-guide-with-aspose-ht/)
+Aspose.HTML を使用して、Java で CSS プロパティの値を取得する方法をステップバイステップで解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

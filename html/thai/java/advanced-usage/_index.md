@@ -227,6 +227,9 @@ Aspose.HTML ให้คุณแนบ `DomMutationObserver` ไปยังโ
 ### [วิธีใช้ Sandbox สำหรับแปลง HTML เป็น PDF ด้วย Java – คู่มือขั้นตอนต่อขั้นตอน](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
 เรียนรู้วิธีใช้ Sandbox เพื่อแปลง HTML เป็น PDF ด้วย Java อย่างละเอียดและปลอดภัย  
 
+### [การรัน JavaScript ใน Java ด้วย Aspose.HTML](./execute-javascript-in-java-using-aspose-html/)
+เรียนรู้วิธีรัน JavaScript ภายในแอปพลิเคชัน Java ด้วย Aspose.HTML อย่างละเอียด  
+
 ---
 
 **อัปเดตล่าสุด:** 2025-11-29  

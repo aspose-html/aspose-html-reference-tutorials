@@ -108,6 +108,9 @@ Hướng dẫn chi tiết cách trích xuất CSS từ HTML bằng Aspose.HTML c
 ### [Cách đọc CSS trong Java – Hướng dẫn đầy đủ Aspose.HTML](./how-to-read-css-in-java-complete-aspose-html-guide/)
 Hướng dẫn chi tiết cách đọc và phân tích CSS trong Java bằng Aspose.HTML, bao gồm các ví dụ thực tế và mẹo tối ưu.
 
+### [Lấy giá trị thuộc tính CSS trong Java – Hướng dẫn đầy đủ với Aspose.HTML](./get-css-property-value-in-java-complete-guide-with-aspose-ht/)
+Hướng dẫn chi tiết cách lấy giá trị thuộc tính CSS từ tài liệu HTML bằng Aspose.HTML trong Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -219,6 +219,9 @@ Leer hoe je de Aspose.HTML Sandbox gebruikt om HTML naar PDF te converteren in J
 ### [Scriptuitvoering inschakelen in Java – Complete Aspose.HTML-gids](./enable-script-execution-in-java-complete-aspose-html-guide/)
 Leer hoe je scriptuitvoering inschakelt in Java met Aspose.HTML, inclusief configuratie en voorbeelden.
 
+### [JavaScript uitvoeren in Java met Aspose.HTML](./execute-javascript-in-java-using-aspose-html/)
+Leer hoe je JavaScript kunt embedden en uitvoeren binnen Java‑applicaties met Aspose.HTML, stap voor stap.
+
 ---
 
 **Laatst bijgewerkt:** 2025-11-29  

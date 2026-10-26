@@ -214,6 +214,10 @@ weight: 24
 ### [将 SVG 转换为高分辨率 PNG – Java 指南](./convert-svg-to-png-with-high-resolution-java-guide/)
 使用 Aspose.HTML for Java 将 SVG 转换为高分辨率 PNG。完整的 Java 指南，提供详细步骤和最佳实践。
 
+### [将 HTML 转换为 AVIF](./convert-html-to-avif-with-aspose-html-complete-java-guide/)
+
+### [在 Java 中渲染网页为 PNG 时禁用外部图像](./disable-external-images-while-rendering-webpage-to-png-in-ja/)
+
 ---
 
 **Last Updated:** 2025-12-19  

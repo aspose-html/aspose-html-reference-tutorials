@@ -254,6 +254,9 @@ Ismerje meg, hogyan hozhat létre egyedi méretű PDF-et HTML-ből Java-ban az A
 ### [HTML PDF-re konvertálása Java‑ban – Párhuzamos fix szálú pool útmutató](./convert-html-to-pdf-in-java-parallel-fixed-thread-pool-guide/)
 ### [Hogyan konvertáljunk SVG-t – Teljes útmutató az Aspose HTML Converter használatával](./how-to-convert-svg-complete-guide-using-aspose-html-converte/)
 ### [HTML PDF-re konvertálása fix szálkészlettel Java – Lépésről‑lépésre útmutató](./convert-html-to-pdf-with-fixed-thread-pool-java-step-by-step/)
+### [HTML konvertálása PDF-re Java-ban – Párhuzamos szálkészlet útmutató](./convert-html-to-pdf-in-java-parallel-thread-pool-guide/)
+### [HTML to PDF oktatóanyag – HTML PDF-re konvertálás Aspose segítségével Java-ban](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-in-java/)
+
 ## Gyakran Ismételt Kérdések
 
 **Q: Használhatom az Aspose.HTML for Java‑t kereskedelmi alkalmazásban?**  

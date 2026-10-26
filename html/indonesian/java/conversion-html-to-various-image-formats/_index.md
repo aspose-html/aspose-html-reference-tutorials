@@ -176,6 +176,9 @@ Pelajari cara menangkap screenshot halaman web menggunakan Aspose HTML for Java 
 ### [Rendering DPI Tinggi di Java – Tangkap Tangkapan Layar Halaman Web dengan User Agent Kustom](./high-dpi-rendering-in-java-capture-webpage-screenshots-with/)
 ### [Cara Mengatur DPI Saat Mengonversi HTML ke PNG – Panduan Lengkap](./how-to-set-dpi-when-converting-html-to-png-complete-guide/)
 ### [Buat PNG dari HTML – Konversi Batch Cepat Menggunakan Thread Pool](./create-png-from-html-fast-batch-conversion-using-a-thread-po/)
+### [Mengonversi HTML ke AVIF – Panduan Lengkap Java dengan Aspose.HTML](./convert-html-to-avif-with-aspose-html-complete-java-guide/)
+### [Nonaktifkan Gambar Eksternal Saat Merender Halaman Web ke PNG di Java](./disable-external-images-while-rendering-webpage-to-png-in-ja/)
+
 ## Pertanyaan yang Sering Diajukan
 
 **T: Bisakah saya mengonversi HTML ke PNG menggunakan Java tanpa perpustakaan gambar tambahan?**  

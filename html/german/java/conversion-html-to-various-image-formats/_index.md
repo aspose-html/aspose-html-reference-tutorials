@@ -195,6 +195,11 @@ Erfahren Sie, wie Sie HTML mit Aspose.HTML for Java vollständig in das WebP‑F
 ### [HTML in PNG rendern – Vollständiges Aspose HTML Tutorial](./render-html-to-png-in-java-full-aspose-html-tutorial/)
 Erfahren Sie, wie Sie HTML mit Aspose.HTML for Java in PNG rendern – vollständige Schritt‑für‑Schritt‑Anleitung.
 
+### [HTML in AVIF konvertieren](./convert-html-to-avif-with-aspose-html-complete-java-guide/)
+Erfahren Sie, wie Sie HTML mit Aspose.HTML for Java in das moderne AVIF‑Format konvertieren – Schritt‑für‑Schritt‑Anleitung für optimale Bildqualität.
+### [Externe Bilder beim Rendern einer Webseite zu PNG in Java deaktivieren](./disable-external-images-while-rendering-webpage-to-png-in-ja/)
+Erfahren Sie, wie Sie mit Aspose.HTML for Java das Laden externer Bilder beim Rendern einer HTML‑Seite zu PNG verhindern.
+
 ## Häufig gestellte Fragen
 
 **Q: Kann ich HTML mit Java in PNG konvertieren, ohne zusätzliche Bildbibliotheken?**  

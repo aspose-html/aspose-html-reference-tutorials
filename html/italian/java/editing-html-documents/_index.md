@@ -77,6 +77,9 @@ Scopri come evidenziare parti di HTML cercando testo e sostituendolo con il tag 
 ### [Rilascio automatico del lock in Java – Tutorial di editing HTML thread‑safe](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
 Scopri come rilasciare automaticamente i lock in Java per modificare documenti HTML in modo thread‑safe.
 
+### [Recuperare l'attributo dell'elemento Java – Guida completa alla selezione SVG e XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
+Scopri come ottenere gli attributi degli elementi SVG usando XPath con Aspose.HTML per Java, passo dopo passo.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

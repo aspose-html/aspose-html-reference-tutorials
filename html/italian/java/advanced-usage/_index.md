@@ -189,6 +189,8 @@ R: No. Una singola licenza di Aspose.HTML for Java copre tutti i formati di outp
 ### [Come utilizzare Sandbox per HTML‑to‑PDF Java – Guida passo‑passo](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
 ### [Abilita l'esecuzione di script in Java – Guida completa Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
 
+### [Eseguire JavaScript in Java con Aspose.HTML](./execute-javascript-in-java-using-aspose-html/)
+
 ---
 
 **Last Updated:** 2025-11-29  

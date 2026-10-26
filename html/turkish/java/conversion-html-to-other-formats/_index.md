@@ -291,6 +291,11 @@ Aspose.HTML for Java ile aynı anda birden çok HTML dosyasını PDF'ye dönüş
 ### [PDF'ye Yazı Tipi Gömme – Aspose HTML Kullanarak Tam Java Kılavuzu](./embed-fonts-in-pdf-complete-java-guide-using-aspose-html/)
 Aspose.HTML for Java ile PDF dosyalarına gömülü font eklemeyi adım adım öğrenin.
 
+### [HTML'den PDF'ye öğretici – Aspose ile Java'da HTML'yi PDF'ye dönüştürme](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-in-java/)
+Aspose.HTML for Java kullanarak HTML'yi PDF'ye dönüştürmek için adım adım öğretici.
+### [HTML'yi PDF'ye Dönüştürme Java’da – Paralel İş Parçacığı Havuzu Rehberi](./convert-html-to-pdf-in-java-parallel-thread-pool-guide/)
+Java’da HTML'yi PDF'ye dönüştürürken paralel iş parçacığı havuzu kullanarak yüksek performanslı toplu dönüşüm yapın.
+
 ## Sıkça Sorulan Sorular
 
 **S: Aspose.HTML for Java'ı ticari bir uygulamada kullanabilir miyim?**  

@@ -74,6 +74,8 @@ Apprenez à ajouter un nœud enfant au DOM Java avec Aspose.HTML grâce à ce gu
 ### [Comment extraire du HTML en Java – Extraire le texte et mettre en évidence les mots](./how-to-extract-html-in-java-extract-text-highlight-words/)
 Apprenez à extraire du texte HTML et à mettre en évidence des mots dans vos documents Java avec Aspose.HTML.
 
+### [Obtenir l'attribut d'élément Java – Guide complet de sélection SVG et XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
+Découvrez comment récupérer les attributs d'éléments SVG en Java en utilisant XPath, avec un guide complet étape par étape.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

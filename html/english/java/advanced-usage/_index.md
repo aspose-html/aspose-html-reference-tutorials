@@ -235,6 +235,9 @@ Learn how to safely sandbox JavaScript execution using Aspose.HTML for Java, pre
 ### [How to Enable JavaScript in Java – Complete Aspose.HTML Guide](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
 Learn how to enable JavaScript execution within Java applications using Aspose.HTML, covering setup, examples, and best practices.
 
+### [execute javascript in java using Aspose.HTML](./execute-javascript-in-java-using-aspose-html/)
+Learn how to execute JavaScript in Java using Aspose.HTML, covering setup, examples, and best practices.
+
 ---
 
 **Last Updated:** 2025-11-29  

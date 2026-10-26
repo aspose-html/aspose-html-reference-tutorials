@@ -73,6 +73,9 @@ Aspose.HTML for Java를 사용해 HTML 문서에서 스크립트를 안전하게
 동시성 문제를 방지하기 위해 자동 잠금 해제 메커니즘을 구현하고 안전하게 HTML을 편집하는 방법을 단계별로 안내합니다.
 ### [Java에서 HTML 추출 – 텍스트 추출 및 단어 강조](./how-to-extract-html-in-java-extract-text-highlight-words/)
 
+### [Java에서 요소 속성 가져오기 – SVG 선택 및 XPath 완전 가이드](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
+Java용 Aspose.HTML을 사용해 SVG 요소를 선택하고 XPath로 속성을 추출하는 방법을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

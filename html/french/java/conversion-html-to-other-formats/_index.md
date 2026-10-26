@@ -381,6 +381,12 @@ Apprenez à enregistrer du HTML au format Markdown en Java avec Aspose.HTML grâ
 ### [HTML vers PDF Java : Guide complet pour convertir une page Web en PDF en une seule ligne](./html-to-pdf-java-complete-guide-to-convert-webpage-to-pdf-in/)
 Apprenez à convertir une page Web en PDF en une seule ligne de code Java avec Aspose.HTML.
 
+### [Tutoriel de conversion HTML en PDF – Convertir HTML en PDF avec Aspose en Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-in-java/)
+Apprenez à convertir HTML en PDF en Java avec Aspose.HTML grâce à un guide complet étape par étape.
+
+### [Convertir HTML en PDF en Java – Guide du pool de threads parallèles](./convert-html-to-pdf-in-java-parallel-thread-pool-guide/)
+Apprenez à convertir HTML en PDF en Java en utilisant un pool de threads parallèles pour optimiser les performances.
+
 ## Foire aux questions
 
 **Q : Puis-je utiliser Aspose.HTML for Java dans une application commerciale ?**  

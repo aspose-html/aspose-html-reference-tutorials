@@ -211,6 +211,8 @@ weight: 20
 
 ### [Ενεργοποίηση Εκτέλεσης Script σε Java – Πλήρης Οδηγός Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
 
+### [Εκτέλεση JavaScript σε Java με Aspose.HTML](./execute-javascript-in-java-using-aspose-html/)
+
 ---
 
 **Τελευταία ενημέρωση:** 2025-11-29  

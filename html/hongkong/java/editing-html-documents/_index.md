@@ -76,6 +76,8 @@ url: /zh-hant/java/editing-html-documents/
 ### [如何在 Java 中提取 HTML – 提取文字並突出顯示關鍵詞](./how-to-extract-html-in-java-extract-text-highlight-words/)
 了解如何在 Java 中使用 Aspose.HTML 提取 HTML 文字並高亮顯示指定詞彙的逐步指南。
 
+### [取得元素屬性 Java – 完整的 SVG 選取與 XPath 指南](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
+了解如何使用 Aspose.HTML for Java 取得 SVG 元素屬性，並透過 XPath 進行精確選取的完整步驟指南。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

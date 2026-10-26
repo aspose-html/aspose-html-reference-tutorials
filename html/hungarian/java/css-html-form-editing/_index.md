@@ -109,6 +109,9 @@ Ismerje meg, hogyan nyerhet ki CSS-t HTML-fájlokból Java segítségével rész
 ### [CSS olvasása Java-ban – Teljes Aspose.HTML útmutató](./how-to-read-css-in-java-complete-aspose-html-guide/)
 Ismerje meg, hogyan olvashatja és elemezheti a CSS-t Java-ban az Aspose.HTML segítségével, részletes lépésről-lépésre útmutatóval.
 
+### [CSS tulajdonság értékének lekérése Java-ban – Teljes útmutató az Aspose.HTML segítségével](./get-css-property-value-in-java-complete-guide-with-aspose-ht/)
+Ismerje meg, hogyan kérheti le egy CSS tulajdonság értékét Java-ban az Aspose.HTML használatával, lépésről lépésre útmutató.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

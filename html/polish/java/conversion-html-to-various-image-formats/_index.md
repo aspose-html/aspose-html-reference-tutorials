@@ -182,6 +182,9 @@ Dowiedz się, jak konwertować HTML do formatu WebP w Javie przy użyciu Aspose.
 
 ### [Konwertowanie HTML do WebP – Kompletny przewodnik Java Aspose.HTML](./convert-html-to-webp-complete-java-aspose-html-guide/)
 
+### [Wyłączanie zewnętrznych obrazów przy renderowaniu strony internetowej do PNG w Javie](./disable-external-images-while-rendering-webpage-to-png-in-ja/)
+### [Konwertowanie HTML do AVIF – Kompletny przewodnik Java z Aspose.HTML](./convert-html-to-avif-with-aspose-html-complete-java-guide/)
+
 ## Najczęściej zadawane pytania
 
 **Q: Czy mogę konwertować HTML do PNG w Javie bez dodatkowych bibliotek graficznych?**  

@@ -212,6 +212,12 @@ weight: 24
 
 ### [將 SVG 轉換為 PNG（Java） – 批次轉換指南](./convert-svg-to-png-in-java-batch-conversion-guide/)
 
+### [在 Java 中渲染網頁為 PNG 時停用外部圖像](./disable-external-images-while-rendering-webpage-to-png-in-ja/)
+在 Java 中使用 Aspose.HTML 渲染網頁為 PNG 時，停用外部圖像以提升安全性與效能。
+
+### [將 HTML 轉換為 AVIF](./convert-html-to-avif-with-aspose-html-complete-java-guide/)
+本教學說明如何使用 Aspose.HTML for Java 將 HTML 轉換為 AVIF 圖像，提供完整步驟與範例程式碼。
+
 ## 常見問題集
 
 **Q: 我可以在 Java 中將 HTML 轉換為 PNG 而不使用額外的圖像函式庫嗎？**  

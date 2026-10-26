@@ -73,6 +73,9 @@ Lär dig hur du markerar HTML genom att söka efter text och ersätta den med <m
 Lär dig hur du automatiskt släpper lås i Java för trådsäker redigering av HTML-dokument med Aspose.HTML.
 ### [Hur man extraherar HTML i Java – Extrahera text och markera ord](./how-to-extract-html-in-java-extract-text-highlight-words/)
 
+### [Hämta elementattribut i Java – Komplett guide till SVG‑val och XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
+Lär dig hur du hämtar elementattribut i Java, samt använder SVG‑val och XPath för exakt elementidentifiering.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

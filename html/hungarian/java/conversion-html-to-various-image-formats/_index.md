@@ -200,6 +200,12 @@ Ismerje meg, hogyan állíthatja be a DPI értéket HTML‑t PNG‑be konvertál
 ### [Magas DPI renderelés Java‑ban – Weboldal képernyőképek készítése egyedi felhasználói ügynökkel](./high-dpi-rendering-in-java-capture-webpage-screenshots-with/)
 Ismerje meg, hogyan állíthat be magas DPI értéket és egyedi User Agent-et a weboldalak képernyőképeinek rögzítéséhez Java‑ban az Aspose.HTML segítségével.
 ### [HTML konvertálása PNG‑be a maximális memóriahasználat beállításával Java‑ban](./convert-html-to-png-with-set-max-memory-usage-in-java/)
+### [Külső képek letiltása a weboldal PNG‑be renderelése közben Java‑ban](./disable-external-images-while-rendering-webpage-to-png-in-ja/)
+Ismerje meg, hogyan tilthatja le a külső képek betöltését a weboldal PNG‑be renderelése során Java‑ban az Aspose.HTML használatával.
+
+### [HTML konvertálása AVIF‑be az Aspose.HTML‑el – Teljes Java útmutató](./convert-html-to-avif-with-aspose-html-complete-java-guide/)
+Fedezze fel, hogyan konvertálhat HTML‑t AVIF‑formátumba Java‑ban az Aspose.HTML segítségével, részletes, lépésről‑lépésre útmutatóval.
+
 ## Gyakran ismételt kérdések
 
 **Q: Konvertálhatok HTML‑t PNG‑be Java‑val anélkül, hogy további képkönyvtárakat használnék?**  

@@ -191,6 +191,11 @@ Aspose.HTML for Java kullanarak HTML'den yüksek çözünürlüklü PNG görünt
 ### [HTML'yi WebP'ye Dönüştür – Tam Java Aspose.HTML Rehberi](./convert-html-to-webp-complete-java-aspose-html-guide/)
 Aspose.HTML for Java kullanarak HTML'yi WebP formatına yüksek kaliteyle dönüştürmeyi adım adım öğrenin.
 
+### [Web Sayfasını PNG'ye Render Ederken Harici Görüntüleri Devre Dışı Bırakma – Java](./disable-external-images-while-rendering-webpage-to-png-in-ja/)
+Java'da Aspose.HTML kullanarak web sayfasını PNG'ye render ederken harici resimleri devre dışı bırakmayı öğrenin.
+### [HTML'yi AVIF'ye Dönüştür – Aspose.HTML ile Tam Java Rehberi](./convert-html-to-avif-with-aspose-html-complete-java-guide/)
+Aspose.HTML for Java kullanarak HTML'yi AVIF formatına yüksek kaliteyle dönüştürmeyi adım adım öğrenin.
+
 ## Sıkça Sorulan Sorular
 
 **S: Java kullanarak ek bir görüntü kütüphanesi olmadan HTML'yi PNG'ye dönüştürebilir miyim?**  

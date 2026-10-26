@@ -223,6 +223,9 @@ Lär dig hur du använder Sandbox för att konvertera HTML till PDF med Java i e
 ### [Aktivera skriptkörning i Java – Komplett Aspose.HTML‑guide](./enable-script-execution-in-java-complete-aspose-html-guide/)
 Lär dig hur du aktiverar och kör JavaScript i Java‑applikationer med Aspose.HTML, inklusive konfiguration och exempel.
 
+### [Kör JavaScript i Java med Aspose.HTML](./execute-javascript-in-java-using-aspose-html/)
+Lär dig hur du exekverar JavaScript‑kod i Java‑applikationer med Aspose.HTML, inklusive konfiguration och exempel.
+
 ---
 
 **Last Updated:** 2025-11-29  

@@ -77,6 +77,8 @@ Aprenda a realçar trechos de HTML substituindo texto por tags <mark> usando Asp
 ### [Liberação automática de bloqueio em Java – Tutorial de edição HTML thread‑safe](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
 Aprenda como liberar bloqueios automaticamente ao editar HTML de forma segura em ambientes multithread com Aspose.HTML para Java.
 
+### [Obter Atributo de Elemento em Java – Guia Completo para Seleção SVG e XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
+Aprenda a obter atributos de elementos SVG usando Java, com seleção avançada via XPath neste guia completo.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -74,6 +74,9 @@ Pelajari cara mengekstrak teks dari dokumen HTML dan menyorot kata kunci menggun
 ### [Cara Menambahkan Child di Java DOM – Panduan Lengkap Aspose.HTML](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
 Pelajari cara menambahkan elemen child ke DOM Java menggunakan Aspose.HTML dengan panduan langkah demi langkah.
 
+### [Dapatkan Atribut Elemen Java – Panduan Lengkap Seleksi SVG dan XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
+Pelajari cara mengambil atribut elemen dalam dokumen SVG menggunakan Java, termasuk teknik seleksi dengan XPath secara lengkap.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

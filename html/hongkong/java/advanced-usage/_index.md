@@ -211,6 +211,8 @@ A: 不需要。單一的 Aspose.HTML for Java 授權即涵蓋所有輸出格式�
 ### [從 MHTML 提取 HTML – 完整 Java 指南](./extract-html-from-mhtml-complete-java-guide/)
 學習如何使用 Aspose.HTML for Java 從 MHTML 檔案中提取原始 HTML 內容，完整步驟與範例代碼。
 
+### [使用 Aspose.HTML 在 Java 中執行 JavaScript](./execute-javascript-in-java-using-aspose-html/)
+
 ---
 
 **最後更新日期：** 2025-11-29  

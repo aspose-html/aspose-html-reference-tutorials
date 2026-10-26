@@ -212,6 +212,9 @@ Aspose.HTML for Java의 샌드박스를 활용해 안전하게 HTML을 PDF로 �
 ### [Java에서 스크립트 실행 활성화 – 완전 Aspose.HTML 가이드](./enable-script-execution-in-java-complete-aspose-html-guide/)
 Java에서 스크립트 실행을 활성화하고 Aspose.HTML와 통합하는 방법을 단계별로 안내합니다.
 
+### [Aspose.HTML를 사용해 Java에서 JavaScript 실행하기](./execute-javascript-in-java-using-aspose-html/)
+Java 애플리케이션에서 Aspose.HTML를 활용해 JavaScript 코드를 실행하고 통합하는 방법을 배웁니다.
+
 ---
 
 **마지막 업데이트:** 2025-11-29  

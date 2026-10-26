@@ -77,6 +77,8 @@ Học cách tự động giải phóng khóa trong Java để chỉnh sửa HTML
 ### [Cách trích xuất HTML trong Java – Trích xuất văn bản & Đánh dấu từ](./how-to-extract-html-in-java-extract-text-highlight-words/)
 Hướng dẫn cách sử dụng Aspose.HTML cho Java để trích xuất nội dung HTML, lấy văn bản và làm nổi bật các từ khóa.
 
+### [Lấy Thuộc tính Phần tử Java – Hướng dẫn đầy đủ về Lựa chọn SVG và XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
+Hướng dẫn chi tiết cách lấy thuộc tính phần tử trong Java, sử dụng SVG selection và XPath để xử lý tài liệu HTML.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

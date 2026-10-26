@@ -72,6 +72,8 @@ url: /ar/java/editing-html-documents/
 تعلم كيفية حذف جميع عناصر `<script>` من مستندات HTML باستخدام Aspose.HTML for Java خطوة بخطوة.
 ### [إصدار القفل التلقائي في Java – دليل تحرير HTML الآمن عبر الخيوط](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
 
+### [الحصول على سمة العنصر Java – دليل شامل لاختيار SVG وXPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
+دليل شامل للحصول على سمة العنصر في Java باستخدام اختيار SVG وXPath.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

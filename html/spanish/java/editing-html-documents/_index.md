@@ -78,6 +78,9 @@ Aprenda a liberar bloqueos automáticamente al editar HTML de forma segura en en
 ### [Cómo extraer HTML en Java – Extraer texto y resaltar palabras](./how-to-extract-html-in-java-extract-text-highlight-words/)
 Descubra cómo extraer texto de documentos HTML y resaltar palabras clave usando Aspose.HTML para Java.
 
+### [Obtener atributo de elemento en Java – Guía completa de selección SVG y XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
+Aprenda a obtener atributos de elementos SVG usando Java, con selección mediante XPath en esta guía paso a paso.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

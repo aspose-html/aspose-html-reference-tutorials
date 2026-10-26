@@ -210,6 +210,9 @@ Erfahren Sie, wie Sie HTML‑Inhalte aus MHTML‑Dateien extrahieren und weiterv
 ### [JavaScript in Java ausführen – Komplett‑Guide zum Ausführen von JS aus Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
 Erfahren Sie, wie Sie JavaScript‑Code aus Java heraus ausführen, Skripte einbinden und Ergebnisse verarbeiten – Schritt für Schritt.
 
+### [JavaScript in Java ausführen mit Aspose.HTML](./execute-javascript-in-java-using-aspose-html/)
+Erfahren Sie, wie Sie JavaScript-Code in Java-Anwendungen mit Aspose.HTML ausführen und nahtlos integrieren können.
+
 ---
 
 **Zuletzt aktualisiert:** 2025-11-29  

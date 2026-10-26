@@ -208,6 +208,9 @@ weight: 20
 ### [استخراج HTML من MHTML – دليل Java الكامل](./extract-html-from-mhtml-complete-java-guide/)
 تعلم كيفية استخراج محتوى HTML من ملفات MHTML باستخدام Aspose.HTML for Java خطوة بخطوة.
 
+### [تنفيذ JavaScript في Java باستخدام Aspose.HTML](./execute-javascript-in-java-using-aspose-html/)
+تعلم كيفية تشغيل كود JavaScript داخل تطبيقات Java باستخدام Aspose.HTML.
+
 ---
 
 **آخر تحديث:** 2025-11-29  

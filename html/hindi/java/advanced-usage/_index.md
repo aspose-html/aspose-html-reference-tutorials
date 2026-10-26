@@ -224,6 +224,9 @@ HTML को PDF में बदलने के लिए सैंडबॉक
 ### [Java में स्क्रिप्ट निष्पादन सक्षम करें – पूर्ण Aspose.HTML गाइड](./enable-script-execution-in-java-complete-aspose-html-guide/)
 Java एप्लिकेशन में Aspose.HTML का उपयोग करके JavaScript चलाने की पूरी प्रक्रिया सीखें।  
 
+### [Java में Aspose.HTML का उपयोग करके JavaScript चलाएँ](./execute-javascript-in-java-using-aspose-html/)
+Aspose.HTML for Java का उपयोग करके Java एप्लिकेशन में JavaScript को एम्बेड और निष्पादित करने के चरण‑दर‑चरण गाइड।
+
 ---
 
 **Last Updated:** 2025-11-29  

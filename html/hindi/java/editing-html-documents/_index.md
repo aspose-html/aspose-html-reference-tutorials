@@ -82,6 +82,9 @@ Java में स्वचालित लॉक रिलीज़ के स�
 ### [Java में HTML निकालना – टेक्स्ट निकालें और शब्दों को हाइलाइट करें](./how-to-extract-html-in-java-extract-text-highlight-words/)
 Java में Aspose.HTML का उपयोग करके HTML से टेक्स्ट निकालें और विशिष्ट शब्दों को हाइलाइट करने का चरण-दर-चरण मार्गदर्शन।
 
+### [Get Element Attribute Java – SVG चयन और XPath के लिए पूर्ण गाइड](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
+Java में Aspose.HTML का उपयोग करके SVG तत्वों के एट्रिब्यूट प्राप्त करने और XPath चयन करने की पूरी प्रक्रिया सीखें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

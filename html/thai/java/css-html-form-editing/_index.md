@@ -112,6 +112,9 @@ url: /th/java/css-html-form-editing/
 ### [วิธีอ่าน CSS ใน Java – คู่มือ Aspose.HTML ฉบับสมบูรณ์](./how-to-read-css-in-java-complete-aspose-html-guide/)
 เรียนรู้วิธีอ่านและประมวลผลไฟล์ CSS ด้วย Aspose.HTML สำหรับ Java อย่างละเอียดในคู่มือฉบับสมบูรณ์นี้
 
+### [รับค่า Property ของ CSS ใน Java – คู่มือฉบับสมบูรณ์กับ Aspose.HTML](./get-css-property-value-in-java-complete-guide-with-aspose-ht/)
+เรียนรู้วิธีดึงค่า Property ของ CSS ใน Java ด้วย Aspose.HTML ผ่านคู่มือฉบับสมบูรณ์นี้
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

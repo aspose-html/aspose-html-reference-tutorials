@@ -202,6 +202,11 @@ Aspose.HTML for Java で JavaScript を実行し、HTML を PNG 画像に変換�
 ### [SVG を PNG に変換する際の DPI 設定 – Java ガイド](./how-to-set-dpi-when-converting-svg-to-png-java-guide/)
 Aspose.HTML for Java を使用して SVG を PNG に変換する際に DPI を設定する方法をステップバイステップで解説します。
 
+### [Java で Web ページを PNG にレンダリングする際に外部画像を無効化](./disable-external-images-while-rendering-webpage-to-png-in-ja/)
+外部画像の読み込みをブロックし、プライバシーとパフォーマンスを向上させた PNG 変換方法を解説します。
+
+### [HTML を AVIF に変換 – Aspose.HTML を使用した完全な Java ガイド](./convert-html-to-avif-with-aspose-html-complete-java-guide/)
+
 ---
 
 **最終更新日:** 2025-12-19  

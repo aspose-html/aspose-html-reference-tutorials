@@ -205,6 +205,10 @@ Impara a configurare il DPI per ottenere PNG di alta qualità dalla conversione 
 ### [Converti HTML in WebP – Guida completa Java Aspose.HTML](./convert-html-to-webp-complete-java-aspose-html-guide/)
 Scopri come convertire HTML in WebP in Java con Aspose.HTML. Una guida dettagliata passo‑step per una conversione ottimale.
 
+### [Converti HTML in AVIF con Aspose.HTML – Guida completa Java](./convert-html-to-avif-with-aspose-html-complete-java-guide/)
+Scopri come convertire HTML in AVIF con Aspose.HTML per Java in questa guida completa passo‑step.
+### [Disabilita le immagini esterne durante il rendering della pagina web in PNG con Java](./disable-external-images-while-rendering-webpage-to-png-in-ja/)
+
 ## Domande frequenti
 
 **Q: Posso convertire HTML in PNG usando Java senza librerie di immagini aggiuntive?**  
