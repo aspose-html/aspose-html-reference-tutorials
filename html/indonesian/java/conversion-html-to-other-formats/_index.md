@@ -363,6 +363,11 @@ Pelajari cara menyimpan dokumen HTML sebagai PDF menggunakan Aspose.HtmlDocument
 ### [Mengonversi HTML ke PDF dengan Java – Panduan Batch Paralel](./convert-html-to-pdf-with-java-parallel-batch-guide/)
 Pelajari cara mengonversi banyak file HTML ke PDF secara paralel di Java menggunakan Aspose.HTML untuk meningkatkan kinerja batch.
 
+### [Cara Menggunakan Sandbox untuk Konversi HTML‑ke‑PDF – Panduan Lengkap Java](./how-to-use-sandbox-for-html-to-pdf-conversion-complete-java/)
+
+### [Gunakan Semua Inti CPU untuk Konversi Batch HTML‑ke‑PDF Paralel](./use-all-cpu-cores-for-parallel-html-to-pdf-batch-conversion/)
+Pelajari cara memanfaatkan semua inti CPU untuk mempercepat konversi batch HTML ke PDF secara paralel dengan Aspose.HTML.
+
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bisakah saya menggunakan Aspose.HTML untuk Java dalam aplikasi komersial?**  

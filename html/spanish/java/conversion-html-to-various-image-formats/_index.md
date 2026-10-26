@@ -147,6 +147,8 @@ Aprenda a convertir HTML a TIFF fácilmente usando Aspose.HTML for Java. Guía p
 Aprenda a convertir HTML a WebP en Java usando Aspose.HTML. Guía paso a paso para una conversión eficiente y de alta calidad.
 
 ### [Convertir HTML a WebP – Guía completa de Java con Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
+Aprende a convertir HTML a WebP en Java usando Aspose.HTML. Guía paso a paso para una conversión eficiente y de alta calidad.
+### [Convertir HTML a WebP – Guía completa de Java](./convert-html-to-webp-in-java-complete-guide/)
 Aprenda a convertir HTML a WebP en Java usando Aspose.HTML. Guía paso a paso para una conversión eficiente y de alta calidad.
 ### [Cómo usar Aspose para convertir SVG a WebP – Guía Java](./how-to-use-aspose-to-convert-svg-to-webp-java-guide/)
 Aprenda a convertir SVG a WebP en Java usando Aspose.HTML. Guía paso a paso para una conversión eficiente y de alta calidad.
@@ -200,8 +202,6 @@ Aprenda a establecer la relación de píxeles del dispositivo al renderizar HTML
 Aprenda a crear GIF a partir de archivos SVG en Java usando Aspose.HTML. Guía paso a paso completa.
 ### [Crear TIFF multipágina a partir de SVG en Java – Guía paso a paso](./create-multipage-tiff-from-svg-in-java-step-by-step-guide/)
 Aprenda a generar archivos TIFF multipágina desde SVG usando Aspose.HTML for Java con instrucciones detalladas paso a paso.
-### [Convertir HTML a WebP en Java – Guía completa](./convert-html-to-webp-in-java-complete-guide/)
-Aprenda a convertir HTML a WebP en Java usando Aspose.HTML. Guía paso a paso para una conversión eficiente y de alta calidad.
 ### [Convertir SVG a PNG en Java – Guía de alta resolución](./convert-svg-to-png-in-java-high-resolution-guide/)
 Aprenda a convertir archivos SVG a PNG de alta resolución en Java usando Aspose.HTML, con pasos claros y código listo para usar.
 ### [Convertir SVG a PNG en Java – Guía de conversión por lotes](./convert-svg-to-png-in-java-batch-conversion-guide/)

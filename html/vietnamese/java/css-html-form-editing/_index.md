@@ -116,6 +116,8 @@ Hướng dẫn chi tiết cách chọn phần tử HTML theo class trong Java b�
 Hướng dẫn cách sử dụng Aspose.HTML cho Java để chọn các nút không bị vô hiệu hoá bằng bộ chọn CSS, hỗ trợ phân tích và thao tác HTML.
 ### [Cách lấy Computed Style trong Java – Hướng dẫn lập trình đầy đủ](./how-to-get-computed-style-java-complete-programming-guide/)
 Hướng dẫn chi tiết cách lấy computed style trong Java bằng Aspose.HTML, bao gồm ví dụ thực tế và các mẹo tối ưu.
+### [Lấy Kiểu Được Tính Toán Java – Hướng Dẫn Toàn Diện về Trích Xuất CSS](./get-computed-style-java-complete-guide-to-css-extraction/)
+Hướng dẫn chi tiết cách lấy style đã tính toán trong Java bằng Aspose.HTML, giúp trích xuất CSS một cách chính xác và hiệu quả.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

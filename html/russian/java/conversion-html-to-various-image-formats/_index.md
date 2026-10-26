@@ -205,9 +205,6 @@ weight: 24
 ### [Создание многостраничного TIFF из SVG в Java – пошаговое руководство](./create-multipage-tiff-from-svg-in-java-step-by-step-guide/)
 Узнайте, как создать многостраничный TIFF из SVG в Java с помощью Aspose.HTML. Подробное пошаговое руководство.
 
-### [Преобразование HTML в WebP в Java – Полное руководство](./convert-html-to-webp-in-java-complete-guide/)
-Узнайте, как преобразовать HTML в WebP в Java с помощью Aspose.HTML. Полное пошаговое руководство.
-
 ### [Преобразование SVG в PNG в Java – Руководство по высокому разрешению](./convert-svg-to-png-in-java-high-resolution-guide/)
 
 ### [Рендеринг HTML в PNG с Aspose.HTML Sandbox – Полное руководство Java](./render-html-to-png-with-aspose-html-sandbox-full-java-guide/)
@@ -230,6 +227,8 @@ weight: 24
 ## Создание анимированного GIF из SVG – пошаговое руководство Java
 
 Узнайте, как создать анимированный GIF из SVG в Java с помощью Aspose.HTML. Пошаговое руководство с примером кода.
+
+### [Преобразование HTML в WebP в Java – Полное руководство](./convert-html-to-webp-in-java-complete-guide/)
 
 ## Часто задаваемые вопросы
 

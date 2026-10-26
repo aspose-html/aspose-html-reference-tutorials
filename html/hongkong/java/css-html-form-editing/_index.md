@@ -118,6 +118,8 @@ url: /zh-hant/java/css-html-form-editing/
 本指南說明如何使用 Aspose.HTML for Java 解析 HTML，選取未被禁用的按鈕元素。
 ### [如何在 Java 中取得計算樣式 – 完整程式設計指南](./how-to-get-computed-style-java-complete-programming-guide/)
 本指南說明如何在 Java 中使用 Aspose.HTML 取得元素的計算樣式，提供完整的程式範例與說明。
+### [取得計算樣式（Java） – CSS 提取完整指南](./get-computed-style-java-complete-guide-to-css-extraction/)
+本完整指南說明如何使用 Aspose.HTML for Java 取得元素的計算樣式，以便進行 CSS 提取與分析。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

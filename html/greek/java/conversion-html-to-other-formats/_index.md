@@ -92,6 +92,8 @@ weight: 25
 Ακολουθήστε τον πλήρη οδηγό βήμα‑βήμα για μετατροπή HTML σε PDF σε Java χρησιμοποιώντας το Aspose.HTML.
 ### [Πώς να χρησιμοποιήσετε το Sandbox για μετατροπή HTML‑σε‑PDF σε Java](./how-to-use-sandbox-for-html-to-pdf-conversion-in-java/)
 Μάθετε πώς να αξιοποιήσετε το Sandbox του Aspose.HTML για ασφαλή μετατροπή HTML σε PDF σε περιβάλλον Java.
+### [Πώς να χρησιμοποιήσετε το sandbox για μετατροπή HTML‑σε‑PDF – Πλήρης οδηγός Java](./how-to-use-sandbox-for-html-to-pdf-conversion-complete-java/)
+Μάθετε πώς να χρησιμοποιήσετε το sandbox του Aspose.HTML για ασφαλή μετατροπή HTML σε PDF σε Java, βήμα‑βήμα οδηγός.
 ### [Μετατροπή HTML σε PDF σε Java – Οδηγός βήμα‑βήμα με ρυθμίσεις μεγέθους σελίδας](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Ακολουθήστε τον πλήρη οδηγό για μετατροπή HTML σε PDF σε Java, με παραμετροποίηση μεγέθους σελίδας για ακριβή έγγραφα.
 ### [Μετατροπή HTML σε PDF σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./convert-html-to-pdf-in-java-complete-step-by-step-guide/)
@@ -285,6 +287,8 @@ weight: 25
 Μάθετε πώς να μετατρέψετε HTML σε Markdown σε Java χρησιμοποιώντας το Aspose.HTML, βήμα‑βήμα οδηγίες και βέλτιστες πρακτικές.
 ### [Μετατροπή HTML σε PDF με Java – Οδηγός Παράλληλης Επεξεργασίας](./convert-html-to-pdf-with-java-parallel-batch-guide/)
 Μάθετε πώς να μετατρέψετε πολλαπλά αρχεία HTML σε PDF ταυτόχρονα χρησιμοποιώντας το Aspose.HTML for Java για βέλτιστη απόδοση.
+### [Χρήση Όλων των Πυρήνων CPU για Παράλληλη Συλλογική Μετατροπή HTML‑σε‑PDF](./use-all-cpu-cores-for-parallel-html-to-pdf-batch-conversion/)
+Μάθετε πώς να αξιοποιήσετε όλους τους πυρήνες CPU για ταχύτερη παρτίδα μετατροπών HTML‑σε‑PDF σε Java με το Aspose.HTML.
 
 ## Συχνές Ερωτήσεις
 

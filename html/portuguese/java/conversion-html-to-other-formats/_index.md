@@ -287,6 +287,9 @@ Aprenda a incorporar fontes em PDFs gerados por Java usando Aspose.HTML, garanti
 
 ### [Aspose HtmlDocument Salvar PDF – Guia Completo em Java](./aspose-htmldocument-save-pdf-complete-java-guide/)
 Aprenda a salvar documentos HTML como PDF usando Aspose.HtmlDocument com opções avançadas em Java.
+### [Como usar sandbox para conversão HTML‑para‑PDF – Guia completo em Java](./how-to-use-sandbox-for-html-to-pdf-conversion-complete-java/)
+### [Use todos os núcleos de CPU para conversão em lote paralela de HTML‑para‑PDF](./use-all-cpu-cores-for-parallel-html-to-pdf-batch-conversion/)
+Aprenda a utilizar todos os núcleos de CPU para acelerar a conversão em lote de HTML para PDF de forma paralela em Java.
 
 ## Perguntas Frequentes
 

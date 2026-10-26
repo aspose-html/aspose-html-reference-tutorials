@@ -176,6 +176,10 @@ Aspose का उपयोग करके SVG को PNG में बदलत
 Aspose.HTML for Java का उपयोग करके Java से JavaScript चलाते समय कस्टम User-Agent कैसे सेट करें, सीखें।  
 ### [Java में Executor का उपयोग कैसे करें – फिक्स्ड थ्रेड पूल गाइड](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
 Java में ExecutorService के साथ फिक्स्ड थ्रेड पूल सेटअप, टास्क सबमिट करना और प्रबंधन करना सीखें।  
+### [Java में EPUB को DOCX में बदलें – पूर्ण चरण‑दर‑चरण गाइड](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
+Java में Aspose.HTML का उपयोग करके EPUB फ़ाइल को DOCX में परिवर्तित करने की पूरी प्रक्रिया सीखें।  
+### [Java के साथ SVG को AVIF में बदलें – पूर्ण चरण‑दर‑चरण गाइड](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
+Java और Aspose.HTML का उपयोग करके SVG फ़ाइलों को उच्च‑गुणवत्ता वाले AVIF इमेज में परिवर्तित करने की पूरी प्रक्रिया सीखें।  
 
 ---
 

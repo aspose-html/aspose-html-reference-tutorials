@@ -236,6 +236,10 @@ Lär dig hur du konverterar HTML till PDF i Java med parallell batchbearbetning 
 ### [Aspose HtmlDocument Spara PDF – Komplett Java‑guide](./aspose-htmldocument-save-pdf-complete-java-guide/)
 Lär dig hur du sparar ett HtmlDocument som PDF i Java med Aspose.HTML – en komplett steg‑för‑steg‑guide.
 ### [Bädda in teckensnitt i PDF i Java – Komplett guide](./how-to-embed-fonts-pdf-in-java-complete-guide/)
+### [Hur du använder sandbox för HTML‑till‑PDF‑konvertering – Komplett Java‑guide](./how-to-use-sandbox-for-html-to-pdf-conversion-complete-java/)
+Lär dig hur du använder Aspose.HTML:s sandbox för säker HTML‑till‑PDF‑konvertering i Java med fullständig guide.
+### [Använd alla CPU‑kärnor för parallell HTML‑till‑PDF batchkonvertering](./use-all-cpu-cores-for-parallel-html-to-pdf-batch-conversion/)
+Lär dig hur du utnyttjar alla CPU‑kärnor för att köra parallella HTML‑till‑PDF konverteringar i batch för maximal prestanda.
 
 ### [Konvertera HTML till PDF i Java – Fullständig guide med papperstorlek och DPI](./convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/)
 Omfattande guide för att konvertera HTML till PDF i Java med anpassning av papperstorlek och DPI för bästa utskriftskvalitet.

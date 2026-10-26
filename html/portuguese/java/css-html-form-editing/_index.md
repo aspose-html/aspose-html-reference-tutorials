@@ -120,6 +120,8 @@ Aprenda a selecionar botões que não estão desativados usando seletores CSS co
 ### [Como obter estilo computado Java – Guia completo de programação](./how-to-get-computed-style-java-complete-programming-guide/)
 Aprenda a obter estilos computados de elementos HTML usando Aspose.HTML para Java neste guia completo de programação.
 
+### [Obter Estilo Computado Java – Guia Completo de Extração de CSS](./get-computed-style-java-complete-guide-to-css-extraction/)
+Aprenda a extrair estilos CSS computados usando Aspose.HTML para Java neste guia completo e prático.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

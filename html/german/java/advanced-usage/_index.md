@@ -179,6 +179,10 @@ Erfahren Sie, wie Sie die DPI‑Einstellung beim SVG‑zu‑PNG‑Export mit Asp
 Erfahren Sie, wie Sie mit Aspose.HTML den User-Agent-Header beim Ausführen von JavaScript aus Java setzen können.
 ### [Executor in Java verwenden – Leitfaden für Fixed Thread Pool](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
 Erfahren Sie, wie Sie mit dem Executor-Service in Java einen Fixed Thread Pool einrichten und effizient Aufgaben parallel ausführen.
+### [EPUB in DOCX konvertieren in Java – Vollständige Schritt‑für‑Schritt‑Anleitung](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
+Erfahren Sie, wie Sie EPUB‑Dateien mit Aspose.HTML für Java in DOCX‑Dokumente konvertieren – eine vollständige Schritt‑für‑Schritt‑Anleitung.
+### [SVG in AVIF mit Java konvertieren – Vollständige Schritt‑für‑Schritt‑Anleitung](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie SVG‑Grafiken mit Aspose.HTML für Java in das AVIF‑Bildformat konvertieren – eine vollständige Schritt‑für‑Schritt‑Anleitung.
 
 ---
 

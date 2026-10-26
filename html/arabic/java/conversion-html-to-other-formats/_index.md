@@ -259,6 +259,8 @@ XPS هو صيغة الطباعة الخاصة بمايكروسوفت. باستخ
 ### [كيفية تضمين خطوط PDF في Java – دليل كامل](./how-to-embed-fonts-pdf-in-java-complete-guide/)
 تعلم كيفية تضمين خطوط مخصصة في ملفات PDF باستخدام Aspose.HTML for Java لضمان عرض النصوص بشكل صحيح على جميع الأجهزة.
 ### [دليل Java كامل لحفظ PDF باستخدام Aspose HtmlDocument](./aspose-htmldocument-save-pdf-complete-java-guide/)
+### [كيفية استخدام Sandbox لتحويل HTML إلى PDF – دليل Java كامل](./how-to-use-sandbox-for-html-to-pdf-conversion-complete-java/)
+### [استخدام جميع أنوية المعالج لتحويل دفعات HTML إلى PDF بالتوازي](./use-all-cpu-cores-for-parallel-html-to-pdf-batch-conversion/)
 
 ## الأسئلة المتكررة
 

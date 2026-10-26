@@ -118,6 +118,8 @@ Java’da sınıfa göre HTML öğelerini seçerek dinamik içerik oluşturmayı
 Bu rehberde, Java ile Aspose.HTML kullanarak devre dışı olmayan butonları CSS seçicileriyle nasıl seçeceğinizi ve işleyeceğinizi öğrenin.
 ### [Java’da Hesaplanmış Stil Nasıl Alınır – Tam Programlama Kılavuzu](./how-to-get-computed-style-java-complete-programming-guide/)
 Aspose.HTML for Java kullanarak bir öğenin hesaplanmış stilini programlı olarak almayı adım adım öğrenin.
+### [Java’da Hesaplanmış Stil Al – CSS Çıkarma Tam Kılavuzu](./get-computed-style-java-complete-guide-to-css-extraction/)
+Aspose.HTML for Java kullanarak bir elementin hesaplanmış stilini almayı ve CSS özelliklerini çıkarmayı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

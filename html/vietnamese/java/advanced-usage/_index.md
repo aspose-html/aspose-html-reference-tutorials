@@ -128,6 +128,8 @@ Tìm hiểu cách tự động điền và gửi biểu mẫu HTML bằng Aspose
 Học cách điều chỉnh kích thước trang PDF với Aspose.HTML for Java. Tạo PDF chất lượng cao từ HTML một cách dễ dàng. Kiểm soát kích thước trang hiệu quả.
 ### [Điều chỉnh kích thước trang XPS với Aspose.HTML cho Java](./adjust-xps-page-size/)
 Học cách điều chỉnh kích thước trang XPS với Aspose.HTML for Java. Kiểm soát kích thước đầu ra của tài liệu XPS một cách dễ dàng.
+### [Chuyển EPUB sang DOCX trong Java – Hướng dẫn chi tiết từng bước](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
+Hướng dẫn cách chuyển đổi tệp EPUB sang DOCX bằng Aspose.HTML for Java, bao gồm các bước chi tiết và mã mẫu.
 ### [Cách chạy JavaScript trong Java – Hướng dẫn toàn diện](./how-to-run-javascript-in-java-complete-guide/)
 Hướng dẫn chi tiết cách thực thi mã JavaScript trong ứng dụng Java bằng Aspose.HTML, bao gồm thiết lập môi trường và ví dụ thực tế.
 ### [Cách chạy JavaScript bất đồng bộ bằng CompletableFuture](./how-to-run-javascript-asynchronously-using-completablefuture/)
@@ -172,6 +174,8 @@ Hướng dẫn cách thiết lập DPI khi chuyển đổi SVG sang PNG bằng A
 Hướng dẫn cách thiết lập User-Agent tùy chỉnh khi chạy JavaScript trong Java bằng Aspose.HTML để kiểm soát yêu cầu mạng.
 ### [Cách sử dụng Executor trong Java – Hướng dẫn Fixed Thread Pool](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
 Hướng dẫn chi tiết cách tạo và quản lý Fixed Thread Pool bằng Executor trong Java để tối ưu hiệu năng đa luồng.
+### [Chuyển đổi SVG sang AVIF với Java – Hướng dẫn chi tiết từng bước](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tệp SVG sang định dạng AVIF bằng Aspose.HTML for Java.
 
 ---
 

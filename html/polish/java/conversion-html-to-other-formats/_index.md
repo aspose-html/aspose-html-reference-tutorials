@@ -311,6 +311,10 @@ Dowiedz się, jak w Java osadzić czcionki w plikach PDF, aby zapewnić prawidł
 Dowiedz się, jak zapisać HTML jako Markdown w Javie przy użyciu Aspose.HTML. Przewodnik krok po kroku.
 ### [Aspose HtmlDocument Save PDF – Kompletny przewodnik w Javie](./aspose-htmldocument-save-pdf-complete-java-guide/)
 Pełny przewodnik, jak zapisać HtmlDocument jako PDF w Javie przy użyciu Aspose.HTML, z przykładami i najlepszymi praktykami.
+### [Jak używać sandboxu do konwersji HTML‑do‑PDF – Kompletny przewodnik w Javie](./how-to-use-sandbox-for-html-to-pdf-conversion-complete-java/)
+Dowiedz się, jak wykorzystać środowisko sandbox do bezpiecznej konwersji HTML‑do‑PDF w Javie przy użyciu Aspose.HTML.
+### [Wykorzystaj wszystkie rdzenie CPU do równoległej konwersji wsadowej HTML‑do‑PDF](./use-all-cpu-cores-for-parallel-html-to-pdf-batch-conversion/)
+Dowiedz się, jak wykorzystać wszystkie rdzenie procesora do przyspieszenia wsadowej konwersji HTML‑do‑PDF w Javie.
 
 ## Często zadawane pytania
 

@@ -106,6 +106,8 @@ url: /ar/java/css-html-form-editing/
 تعلم كيفية اختيار الأزرار غير المعطلة باستخدام محددات CSS في Java مع Aspose.HTML خطوة بخطوة.
 ### [كيفية الحصول على النمط المحسوب في Java – دليل برمجة كامل](./how-to-get-computed-style-java-complete-programming-guide/)
 تعرف على كيفية استخراج النمط المحسوب لعناصر HTML باستخدام Aspose.HTML for Java في هذا الدليل الشامل خطوة بخطوة.
+### [الحصول على النمط المحسوب في Java – دليل شامل لاستخراج CSS](./get-computed-style-java-complete-guide-to-css-extraction/)
+تعرف على كيفية الحصول على النمط المحسوب باستخدام Aspose.HTML لـ Java لاستخراج خصائص CSS بدقة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

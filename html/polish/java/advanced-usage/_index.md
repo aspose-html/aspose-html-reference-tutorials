@@ -174,6 +174,9 @@ Dowiedz się, jak określić rozdzielczość DPI podczas konwersji plików SVG d
 Dowiedz się, jak wykonać kod JavaScript z Javy i ustawić własny nagłówek User-Agent przy użyciu Aspose.HTML.
 ### [Jak używać Executor w Javie – Przewodnik po stałej puli wątków](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
 Dowiedz się, jak skonfigurować i wykorzystywać Executor z stałą pulą wątków w Javie, aby efektywnie zarządzać równoległym przetwarzaniem.
+### [Konwertuj EPUB do DOCX w Javie – Pełny przewodnik krok po kroku](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
+### [Konwertuj SVG do AVIF w Javie – Kompletny przewodnik krok po kroku](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
+Dowiedz się, jak konwertować pliki SVG do formatu AVIF w Javie, korzystając z Aspose.HTML – kompletny przewodnik krok po kroku.
 
 ---
 

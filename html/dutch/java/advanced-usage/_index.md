@@ -171,6 +171,10 @@ Leer hoe je de DPI-waarde instelt bij het omzetten van SVG‑bestanden naar PNG 
 Leer hoe je een aangepaste User-Agent instelt bij het uitvoeren van JavaScript vanuit Java met Aspose.HTML.
 ### [Hoe Executor te gebruiken in Java – Fixed Thread Pool-gids](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
 Leer hoe je een Executor met een vaste thread‑pool configureert en beheert in Java met Aspose.HTML.
+### [EPUB naar DOCX converteren in Java – Volledige stapsgewijze gids](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
+Leer hoe je EPUB-bestanden omzet naar DOCX met Aspose.HTML for Java in een volledige stap‑voor‑stap handleiding.
+### [SVG naar AVIF converteren met Java – Volledige stap‑voor‑stap gids](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
+Leer hoe je SVG-afbeeldingen converteert naar AVIF-formaat met Aspose.HTML for Java in een volledige stap‑voor‑stap handleiding.
 
 ---
 

@@ -103,6 +103,8 @@ Tăng tốc quá trình chuyển đổi HTML sang PDF bằng cách sử dụng R
 Hướng dẫn sử dụng Aspose.HTML để chuyển đổi HTML sang PDF trong Java bằng cách thực thi song song, tăng tốc độ xử lý.
 ### [Aspose HtmlDocument Lưu PDF – Hướng dẫn Java đầy đủ](./aspose-htmldocument-save-pdf-complete-java-guide/)
 Hướng dẫn chi tiết cách lưu tài liệu HtmlDocument thành PDF trong Java bằng Aspose.HTML.
+### [Cách sử dụng sandbox để chuyển đổi HTML sang PDF – Hướng dẫn Java đầy đủ](./how-to-use-sandbox-for-html-to-pdf-conversion-complete-java/)
+Hướng dẫn chi tiết cách dùng sandbox trong Aspose.HTML for Java để thực hiện chuyển đổi HTML sang PDF một cách an toàn và hiệu quả.
 
 ### [Chuyển đổi HTML sang PDF trong Java – Hướng dẫn chi tiết với cài đặt kích thước trang](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 ### [Hướng dẫn chuyển đổi HTML sang PDF với Java Fixed Thread Pool](./html-to-pdf-tutorial-convert-html-to-pdf-with-java-fixed-thr/)
@@ -384,6 +386,9 @@ Hướng dẫn chi tiết cách chuyển đổi tài liệu Markdown sang PDF tr
 Hướng dẫn chi tiết cách nhúng phông chữ vào PDF trong Java bằng Aspose.HTML, đảm bảo tài liệu hiển thị đúng ký tự và định dạng.
 
 ### [Chuyển đổi HTML sang PDF với Java – Hướng dẫn xử lý song song hàng loạt](./convert-html-to-pdf-with-java-parallel-batch-guide/)
+
+### [Sử dụng toàn bộ lõi CPU cho chuyển đổi HTML‑to‑PDF hàng loạt song song](./use-all-cpu-cores-for-parallel-html-to-pdf-batch-conversion/)
+Hướng dẫn cách tận dụng đa lõi CPU để thực hiện chuyển đổi HTML sang PDF hàng loạt một cách song song, tăng tốc độ xử lý.
 
 ## Câu hỏi thường gặp
 

@@ -207,7 +207,6 @@ Aspose.HTML for Java を使用して HTML を WebP に変換します。Java で
 
 ### [SVG からアニメーション GIF を作成 – ステップバイステップ Java ガイド](./create-animated-gif-from-svg-step-by-step-java-guide/)
 
-## よくある質問
 ### [Aspose を使用して JavaScript を実行し、HTML を PNG にレンダリングする方法](./how-to-run-javascript-and-render-html-to-png-with-aspose/)
 Aspose.HTML for Java で JavaScript を実行し、HTML を PNG 画像に変換する手順をステップバイステップで解説します。
 

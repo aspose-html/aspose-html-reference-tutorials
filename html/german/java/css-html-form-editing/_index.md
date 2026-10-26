@@ -120,6 +120,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML für Java HTML-Elemente anhand ihrer CSS�
 Erfahren Sie, wie Sie mit Aspose.HTML für Java CSS‑Selektoren verwenden, um nicht deaktivierte Schaltflächen zu finden und zu verarbeiten.
 ### [Wie man den berechneten Stil in Java abruft – Komplett‑Programmieranleitung](./how-to-get-computed-style-java-complete-programming-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML für Java den berechneten Stil von Elementen programmgesteuert ermitteln und anwenden.
+### [Get Computed Style Java – Komplett‑Anleitung zur CSS‑Extraktion](./get-computed-style-java-complete-guide-to-css-extraction/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java den berechneten Stil von Elementen extrahieren und CSS‑Informationen programmgesteuert nutzen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -175,6 +175,10 @@ Lär dig hur du anger DPI för högkvalitativ SVG‑till‑PNG‑konvertering me
 ### [Kör JavaScript från Java – Ställ in anpassad User-Agent med Aspose.HTML](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
 Lär dig hur du kör JavaScript i Java och anger en egen User-Agent‑sträng med Aspose.HTML.
 ### [Hur du använder Executor i Java – Guide för fast trådpool](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
+### [Konvertera EPUB till DOCX i Java – Fullständig steg‑för‑steg‑guide](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
+Lär dig hur du konverterar EPUB‑filer till DOCX med Aspose.HTML för Java i en komplett steg‑för‑steg‑guide.
+### [Konvertera SVG till AVIF med Java – Komplett steg‑för‑steg‑guide](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
+Lär dig hur du konverterar SVG‑bilder till AVIF‑format med Aspose.HTML för Java i en detaljerad steg‑för‑steg‑guide.
 
 ---
 

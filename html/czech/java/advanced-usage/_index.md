@@ -186,6 +186,10 @@ Naučte se, jak pomocí Aspose.HTML spustit JavaScript v Javě a dynamicky přid
 Naučte se, jak spustit JavaScript z Javy a nastavit vlastní User-Agent při načítání zdrojů pomocí Aspose.HTML.
 ### [Jak používat Executor v Javě – Průvodce pevného poolu vláken](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
 Naučte se, jak vytvořit a spravovat pevný pool vláken pomocí třídy ExecutorService v Javě.
+### [Převod EPUB do DOCX v Javě – Kompletní krok‑za‑krokem průvodce](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
+Naučte se převést soubory EPUB do formátu DOCX pomocí Aspose.HTML pro Java s podrobným návodem.
+### [Převod SVG do AVIF pomocí Javy – Kompletní krok‑za‑krokem průvodce](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
+Naučte se převést soubory SVG do formátu AVIF v Javě pomocí Aspose.HTML, včetně nastavení kvality a optimalizace.
 
 ---
 

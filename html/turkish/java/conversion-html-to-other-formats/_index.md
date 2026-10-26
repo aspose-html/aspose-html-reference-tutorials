@@ -306,6 +306,10 @@ Aspose.HTML for Java kullanarak HTML'yi Markdown formatına dönüştürmeyi ad�
 ### [Aspose HtmlDocument PDF Olarak Kaydet – Tam Java Kılavuzu](./aspose-htmldocument-save-pdf-complete-java-guide/)
 Aspose.HTML ile HtmlDocument nesnesini PDF olarak kaydetmeyi adım adım öğrenin.
 ### [Java ile HTML'yi PDF'ye Dönüştürme – Paralel Toplu İş Kılavuzu](./convert-html-to-pdf-with-java-parallel-batch-guide/)
+### [HTML‑to‑PDF Dönüşümü için Sandbox Kullanımı – Tam Java Kılavuzu](./how-to-use-sandbox-for-html-to-pdf-conversion-complete-java/)
+Sandbox ortamında HTML‑to‑PDF dönüşümünü güvenli ve izole bir şekilde gerçekleştirin.
+### [Paralel HTML‑to‑PDF Toplu Dönüşümde Tüm CPU Çekirdeklerini Kullanma](./use-all-cpu-cores-for-parallel-html-to-pdf-batch-conversion/)
+Aspose.HTML for Java ile çoklu çekirdekleri etkin kullanarak aynı anda birden çok HTML dosyasını PDF'ye dönüştürün.
 
 ## Sıkça Sorulan Sorular
 

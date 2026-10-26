@@ -174,6 +174,9 @@ Aspose.HTML for Java kullanarak SVG dosyalarını PNG'ye dönüştürürken DPI 
 Aspose.HTML for Java kullanarak Java içinde JavaScript çalıştırırken özel bir User-Agent belirlemeyi öğrenin.
 ### [Java’da Executor Kullanımı – Sabit İş Parçacığı Havuzu Rehberi](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
 Java’da Executor ve sabit iş parçacığı havuzu kullanarak çoklu görevleri verimli bir şekilde yönetmeyi öğrenin.
+### [Java’da EPUB’u DOCX’e Dönüştürme – Tam Adım Adım Kılavuz](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
+Aspose.HTML for Java kullanarak EPUB dosyalarını DOCX formatına dönüştürmeyi adım adım öğrenin.
+### [SVG'yi AVIF'e Dönüştürme – Java ile Tam Adım Adım Kılavuz](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
 
 ---
 

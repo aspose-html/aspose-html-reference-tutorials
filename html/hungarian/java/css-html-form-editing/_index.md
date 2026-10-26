@@ -117,6 +117,8 @@ Ismerje meg, hogyan válassza ki a HTML elemet osztály alapján Java-ban az Asp
 Ismerje meg, hogyan válassza ki a nem letiltott gombokat CSS szelektorokkal Java HTML elemzés során.
 ### [Hogyan kapja meg a számított stílust Java-ban – Teljes programozási útmutató](./how-to-get-computed-style-java-complete-programming-guide/)
 Ismerje meg, hogyan olvashatja ki a számított CSS-stílusokat Java-ban az Aspose.HTML segítségével, részletes, lépésről-lépésre útmutató.
+### [Computed Style lekérése Java – Teljes útmutató a CSS kinyeréséhez](./get-computed-style-java-complete-guide-to-css-extraction/)
+Fedezze fel, hogyan nyerheti ki a számított stílusokat Java-ban az Aspose.HTML segítségével, részletes lépésről-lépésre útmutató.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

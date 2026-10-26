@@ -168,6 +168,9 @@ Ismerje meg, hogyan állíthatja be a DPI értéket SVG‑k PNG‑re konvertál�
 Ismerje meg, hogyan állíthat be egyedi User-Agent fejlécet JavaScript futtatásakor Aspose.HTML segítségével.
 ### [Hogyan használjuk az Executor‑t Java‑ban – Fix szálkészlet útmutató](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
 Ismerje meg, hogyan hozhat létre és kezelhet fix szálkészletű Executor szolgáltatást Java‑ban a hatékony párhuzamos feldolgozáshoz.
+### [EPUB konvertálása DOCX-be Java‑ban – Teljes lépésről‑lépésre útmutató](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
+Ismerje meg, hogyan konvertálhatja az EPUB fájlokat DOCX formátumba Java‑val az Aspose.HTML for Java segítségével, részletes lépésekkel.
+### [SVG konvertálása AVIF-re Java‑val – Teljes lépésről‑lépésre útmutató](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
 
 ---
 

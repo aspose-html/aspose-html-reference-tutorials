@@ -196,6 +196,11 @@ A: 不需要。單一的 Aspose.HTML for Java 授權即涵蓋所有輸出格式�
 ### [如何在 Java 中使用 Executor – 固定執行緒池指南](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
 了解如何使用 Java Executor 建立固定大小的執行緒池，以提升併發效能並有效管理資源。
 
+### [使用 Java 將 EPUB 轉換為 DOCX – 完整步驟指南](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
+說明如何使用 Aspose.HTML for Java 將 EPUB 電子書轉換為 DOCX 文件，涵蓋完整程式碼示例與設定說明。
+
+### [使用 Aspose.HTML for Java 將 SVG 轉換為 AVIF – 完整步驟指南](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
+
 ---
 
 **最後更新日期：** 2025-11-29  

@@ -158,7 +158,6 @@ Aspose.HTML for Java का उपयोग करके HTML को TIFF मे
 Aspose.HTML for Java का उपयोग करके HTML को WebP इमेज में बदलने के चरण‑दर‑स्टेप निर्देश।
 
 ### [HTML को WebP में बदलना](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
-Aspose.HTML for Java का उपयोग करके HTML को WebP इमेज में बदलने के चरण‑दर‑चरण निर्देश।
 ### [Java में SVG से मल्टीपेज TIFF बनाना – चरण‑दर‑चरण गाइड](./create-multipage-tiff-from-svg-in-java-step-by-step-guide/)
 Aspose.HTML for Java का उपयोग करके SVG फ़ाइलों से कई पृष्ठों वाला TIFF इमेज कैसे बनाएं, इस गाइड में सीखें।
 

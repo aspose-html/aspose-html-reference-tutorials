@@ -122,6 +122,8 @@ Apprenez à identifier et manipuler les boutons actifs à l'aide de sélecteurs 
 ### [Comment obtenir le style calculé en Java – Guide complet de programmation](./how-to-get-computed-style-java-complete-programming-guide/)
 Apprenez à récupérer le style calculé d'un élément en Java avec Aspose.HTML dans ce guide complet pas à pas.
 
+### [Obtenir le style calculé Java – Guide complet d'extraction CSS](./get-computed-style-java-complete-guide-to-css-extraction/)
+Apprenez à extraire les styles CSS calculés d'éléments HTML en Java avec Aspose.HTML grâce à ce guide complet pas à pas.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 ### [Obtenir la valeur d'une propriété CSS en Java – Guide complet avec Aspose.HTML](./get-css-property-value-in-java-complete-guide-with-aspose-ht/)

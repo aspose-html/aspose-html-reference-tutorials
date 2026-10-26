@@ -196,6 +196,12 @@ Aspose.HTML 允许您将 `DomMutationObserver` 附加到任意节点。这对于
 ### [如何在 Java 中使用 Executor – 固定线程池指南](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
 学习如何在 Java 中使用 Executor 创建固定线程池，管理并发任务，提高性能。
 
+### [在 Java 中将 EPUB 转换为 DOCX – 完整分步指南](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
+学习如何使用 Aspose.HTML for Java 将 EPUB 文件转换为 DOCX 文档，提供完整的步骤和代码示例。
+
+### [使用 Java 将 SVG 转换为 AVIF – 完整分步指南](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
+学习如何使用 Java 将 SVG 图像转换为 AVIF 格式，提供完整的步骤和代码示例。
+
 ---
 **最后更新：** 2025-11-29  
 **测试环境：** Aspose.HTML for Java 24.11  

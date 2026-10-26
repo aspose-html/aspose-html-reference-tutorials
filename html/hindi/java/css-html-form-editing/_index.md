@@ -118,6 +118,8 @@ Aspose.HTML का उपयोग करके Java में CSS प्रॉ�
 Java में Aspose.HTML का उपयोग करके डिसेबल्ड नहीं बटनों को CSS चयनकर्ता से पहचानने और प्रोसेस करने की पूरी गाइड।
 ### [Java में Computed Style कैसे प्राप्त करें – पूर्ण प्रोग्रामिंग गाइड](./how-to-get-computed-style-java-complete-programming-guide/)
 Java में Aspose.HTML का उपयोग करके Computed Style प्राप्त करने की पूरी प्रक्रिया सीखें।
+### [Java में Computed Style प्राप्त करें – CSS निष्कर्षण के लिए पूर्ण गाइड](./get-computed-style-java-complete-guide-to-css-extraction/)
+Java में Aspose.HTML का उपयोग करके CSS से गणना किया गया स्टाइल निकालने की पूरी प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

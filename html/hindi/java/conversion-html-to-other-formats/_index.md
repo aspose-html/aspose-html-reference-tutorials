@@ -348,6 +348,10 @@ Java में Aspose.HTML का उपयोग करके समाना�
 
 ### [Java में PDF में फ़ॉन्ट एम्बेड करना – पूर्ण गाइड](./how-to-embed-fonts-pdf-in-java-complete-guide/)
 
+### [HTML‑to‑PDF रूपांतरण के लिए सैंडबॉक्स का उपयोग कैसे करें – पूर्ण Java गाइड](./how-to-use-sandbox-for-html-to-pdf-conversion-complete-java/)
+
+### [सभी CPU कोर का उपयोग करके समानांतर HTML‑to‑PDF बैच रूपांतरण](./use-all-cpu-cores-for-parallel-html-to-pdf-batch-conversion/)
+
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **Q: क्या मैं Aspose.HTML for Java को व्यावसायिक एप्लिकेशन में उपयोग कर सकता हूँ?**  

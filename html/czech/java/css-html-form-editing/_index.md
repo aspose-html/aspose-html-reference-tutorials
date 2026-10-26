@@ -118,6 +118,8 @@ Kompletní návod, jak pomocí Aspose.HTML pro Javu vybrat HTML element podle t�
 Naučte se pomocí Aspose.HTML pro Javu vybrat a manipulovat s tlačítky, která nejsou zakázána, pomocí CSS selektorů.
 ### [Jak získat vypočítaný styl v Javě – kompletní programovací průvodce](./how-to-get-computed-style-java-complete-programming-guide/)
 Naučte se, jak pomocí Aspose.HTML pro Javu získat vypočítané CSS styly elementů a použít je ve svých aplikacích.
+### [Získání vypočteného stylu v Javě – Kompletní průvodce extrakcí CSS](./get-computed-style-java-complete-guide-to-css-extraction/)
+Naučte se, jak pomocí Aspose.HTML pro Java získat vypočtené CSS styly a extrahovat je z HTML dokumentů.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

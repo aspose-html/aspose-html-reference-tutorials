@@ -173,6 +173,9 @@ Aspose.HTML for Java を使用して、SVG を PNG に変換する際に DPI を
 Aspose.HTML for Java を使って Java から JavaScript を実行し、カスタム User-Agent を設定する方法を学びます。
 ### [JavaでExecutorを使用する方法 – 固定スレッドプールガイド](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
 Java の Executor と固定スレッドプールの使い方をステップバイステップで解説します。
+### [Java で EPUB を DOCX に変換 – 完全ステップバイステップガイド](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
+Aspose.HTML for Java を使用して、EPUB ファイルを DOCX に変換する手順を詳細に解説します。
+### [Java で SVG を AVIF に変換 – 完全ステップバイステップガイド](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
 
 ---
 

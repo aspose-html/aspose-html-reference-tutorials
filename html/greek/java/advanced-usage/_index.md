@@ -167,6 +167,10 @@ weight: 20
 ### [Εκτέλεση JavaScript από Java – Ορισμός προσαρμοσμένου User-Agent με Aspose.HTML](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
 Μάθετε πώς να εκτελείτε JavaScript από Java και να ορίζετε προσαρμοσμένο User-Agent χρησιμοποιώντας το Aspose.HTML.
 ### [Πώς να Χρησιμοποιήσετε τον Executor στη Java – Οδηγός Σταθερού Πισίνας Νημάτων](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
+### [Μετατροπή EPUB σε DOCX με Java – Πλήρης Οδηγός Βήμα‑βήμα](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία EPUB σε DOCX χρησιμοποιώντας το Aspose.HTML for Java, βήμα‑βήμα με παραδείγματα κώδικα.
+### [Μετατροπή SVG σε AVIF με Java – Πλήρης Οδηγός Βήμα‑βήμα](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία SVG σε μορφή AVIF χρησιμοποιώντας το Aspose.HTML for Java, βήμα‑βήμα με παραδείγματα κώδικα.
 
 ---
 

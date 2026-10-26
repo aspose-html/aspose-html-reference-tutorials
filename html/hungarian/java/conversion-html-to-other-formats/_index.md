@@ -267,6 +267,9 @@ Ismerje meg, hogyan mentheti a HTML‑t Markdown‑ként Java‑ban az Aspose.HT
 ### [Aspose HtmlDocument PDF mentése – Teljes Java útmutató](./aspose-htmldocument-save-pdf-complete-java-guide/)
 ### [HTML konvertálása PDF-re Java‑val – Párhuzamos kötegelt útmutató](./convert-html-to-pdf-with-java-parallel-batch-guide/)
 Ismerje meg, hogyan hajthatja végre a HTML‑PDF konvertálást párhuzamos kötegben Java‑val az Aspose.HTML segítségével.
+### [Hogyan használja a sandboxot HTML‑PDF átalakításhoz – Teljes Java útmutató](./how-to-use-sandbox-for-html-to-pdf-conversion-complete-java/)
+Fedezze fel, hogyan használhatja a sandbox környezetet biztonságos HTML‑PDF konverzióhoz Java‑ban az Aspose.HTML‑el.
+### [Az összes CPU mag használata párhuzamos HTML‑PDF kötegelt konverzióhoz](./use-all-cpu-cores-for-parallel-html-to-pdf-batch-conversion/)
 
 ## Gyakran Ismételt Kérdések
 

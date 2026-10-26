@@ -194,6 +194,8 @@ Aspose.HTML ให้คุณแนบ `DomMutationObserver` ไปยังโ
 
 ### [วิธีใช้ Executor ใน Java – คู่มือ Fixed Thread Pool](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
 เรียนรู้วิธีสร้าง Fixed Thread Pool ด้วย Executor ใน Java เพื่อจัดการงานหลายๆ งานพร้อมกันอย่างมีประสิทธิภาพ  
+### [แปลง EPUB เป็น DOCX ใน Java – คู่มือขั้นตอนเต็ม](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
+### [แปลง SVG เป็น AVIF ด้วย Java – คู่มือขั้นตอนเต็ม](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
 
 ---
 

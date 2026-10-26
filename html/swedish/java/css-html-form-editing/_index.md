@@ -117,6 +117,8 @@ Lär dig hur du programatiskt väljer HTML‑element efter klass i Java med Aspo
 Lär dig hur du med Aspose.HTML för Java identifierar och hanterar knappar som inte är inaktiverade via CSS‑väljare.
 ### [Hämta beräknad stil i Java – Komplett guide](./how-to-get-computed-style-java-complete-programming-guide/)
 Lär dig hur du programatiskt hämtar den beräknade CSS‑stilen för element i Java med Aspose.HTML i denna fullständiga guide.
+### [Hämta beräknad stil i Java – Komplett guide till CSS-extraktion](./get-computed-style-java-complete-guide-to-css-extraction/)
+Lär dig hur du extraherar beräknade CSS‑stilar med Aspose.HTML för Java i denna kompletta guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

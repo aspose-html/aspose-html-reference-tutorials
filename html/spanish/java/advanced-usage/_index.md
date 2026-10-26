@@ -171,6 +171,9 @@ Aprende a usar un FixedThreadPool en Java para ejecutar múltiples tareas simult
 Aprende a ejecutar scripts JavaScript desde Java y configurar un User-Agent personalizado al cargar páginas con Aspose.HTML.
 ### [Cómo usar Executor en Java – Guía de pool de hilos fijos](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
 Aprende a crear y gestionar un Executor de pool de hilos fijo en Java para ejecutar tareas concurrentes de forma eficiente.
+### [Convertir EPUB a DOCX en Java – Guía completa paso a paso](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
+### [Convertir SVG a AVIF con Java – Guía completa paso a paso](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
+Aprende a convertir imágenes SVG a formato AVIF usando Java y Aspose.HTML, con pasos detallados y ejemplos claros.
 
 ---
 

@@ -93,6 +93,8 @@ Leer hoe u met één regel code een PDF genereert uit HTML in Java met Aspose.HT
 Leer hoe u de Sandbox‑omgeving van Aspose.HTML gebruikt om veilig HTML naar PDF te converteren in Java.
 ### [PDF maken van HTML in Java – HTML naar PDF converteren](./create-pdf-from-html-in-java-convert-html-to-pdf-java/)
 Leer hoe u HTML naar PDF kunt omzetten in Java met Aspose.HTML, inclusief configuratie‑opties en best practices.
+### [Alle CPU‑kernen gebruiken voor parallelle HTML‑naar‑PDF batchconversie](./use-all-cpu-cores-for-parallel-html-to-pdf-batch-conversion/)
+Leer hoe u alle CPU‑kernen benut om HTML‑naar‑PDF batchconversies parallel uit te voeren met Aspose.HTML for Java.
 ### [HTML naar PDF converteren in Java – Stapsgewijze gids met paginagrootte‑instellingen](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Leer stap voor stap hoe u HTML naar PDF converteert in Java en paginagrootte‑instellingen configureert voor optimale resultaten.
 ### [Hoe een webpagina naar PDF converteren in Java – Stapsgewijze gids](./how-to-convert-webpage-to-pdf-in-java-step-by-step-guide/)
@@ -293,6 +295,8 @@ Leer stap‑voor‑stap hoe u lettertypen in PDF‑bestanden kunt insluiten met 
 ### [HTML opslaan als Markdown in Java – Complete Aspose-gids](./save-html-as-markdown-in-java-complete-aspose-guide/)
 ### [Aspose HtmlDocument PDF opslaan – Complete Java-gids](./aspose-htmldocument-save-pdf-complete-java-guide/)
 Leer hoe u met Aspose.HTML for Java een HtmlDocument naar PDF kunt opslaan met volledige configuratie‑opties.
+### [Hoe de sandbox te gebruiken voor HTML‑naar‑PDF conversie – Complete Java‑gids](./how-to-use-sandbox-for-html-to-pdf-conversion-complete-java/)
+Leer hoe u de sandbox kunt inzetten voor veilige HTML‑naar‑PDF conversie in Java met Aspose.HTML.
 
 ## Veelgestelde Vragen
 

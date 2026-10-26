@@ -193,6 +193,12 @@ weight: 20
 ### [كيفية استخدام Executor في Java – دليل مجموعة الخيوط الثابتة](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
 تعلم كيفية استخدام Executor لإنشاء مجموعة خيوط ثابتة في Java لإدارة المهام المتزامنة بفعالية.
 
+### [تحويل EPUB إلى DOCX في Java – دليل كامل خطوة بخطوة](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
+تعلم كيفية تحويل ملفات EPUB إلى مستندات DOCX باستخدام Aspose.HTML for Java خطوة بخطوة.
+
+### [تحويل SVG إلى AVIF باستخدام Java – دليل كامل خطوة بخطوة](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
+تعلم كيفية تحويل ملفات SVG إلى تنسيق AVIF عالي الجودة باستخدام Aspose.HTML for Java خطوة بخطوة.
+
 ---
 
 **آخر تحديث:** 2025-11-29  

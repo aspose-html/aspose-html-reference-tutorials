@@ -124,6 +124,8 @@ Java で Aspose.HTML を使用し、無効化されていないボタンを CSS 
 Javaコードでクラス属性を使用してHTML要素を取得し、操作する方法をステップバイステップで解説します。
 ### [Javaで計算済みスタイルを取得する方法 – 完全プログラミングガイド](./how-to-get-computed-style-java-complete-programming-guide/)
 この完全ガイドでは、Aspose.HTML for Java を使用して要素の計算済みスタイルを取得する手順とコード例を詳しく解説します。
+### [Javaで取得したスタイル – CSS抽出の完全ガイド](./get-computed-style-java-complete-guide-to-css-extraction/)
+Javaで計算済みスタイルを取得し、CSSから情報を抽出する方法を完全に解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

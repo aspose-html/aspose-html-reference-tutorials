@@ -123,6 +123,8 @@ Aprenda a seleccionar elementos HTML por su clase en Java usando Aspose.HTML con
 Aprenda a seleccionar botones que no están deshabilitados usando selectores CSS con Aspose.HTML para Java.
 ### [Cómo obtener el estilo computado en Java – Guía completa de programación](./how-to-get-computed-style-java-complete-programming-guide/)
 Aprenda a obtener el estilo computado de elementos HTML usando Aspose.HTML para Java en esta guía paso a paso.
+### [Obtener estilo computado en Java – Guía completa de extracción de CSS](./get-computed-style-java-complete-guide-to-css-extraction/)
+Aprenda a extraer estilos CSS calculados de elementos HTML usando Aspose.HTML para Java en esta guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

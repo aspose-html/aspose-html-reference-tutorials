@@ -178,6 +178,7 @@ weight: 24
 ### [將 HTML 轉換為 WebP – 完整 Java 指南](./convert-html-to-webp-complete-java-guide/)
 ### [將 HTML 轉換為 WebP – 完整 Java Aspose.HTML 教學](./convert-html-to-webp-complete-java-aspose-html-guide/)
 
+### [在 Java 中將 HTML 轉換為 WebP – 完整指南](./convert-html-to-webp-in-java-complete-guide/)
 ### [將 HTML 轉換為 TIFF](./convert-html-to-tiff/)
 了解如何使用 Aspose.HTML for Java 輕鬆將 HTML 轉換為 TIFF。提供高效的文件處理步驟說明。
 ### [將長頁面 HTML 轉換為 PNG](./render-html-java-convert-long-page-to-png/)
@@ -215,9 +216,6 @@ weight: 24
 ### [如何使用 Sandbox 捕獲網頁截圖](./how-to-use-sandbox-to-capture-webpage-screenshot/)
 
 ### [在 Java 中從 SVG 建立多頁 TIFF – 步驟說明指南](./create-multipage-tiff-from-svg-in-java-step-by-step-guide/)
-### [將 HTML 轉換為 WebP（Java 完整指南）](./convert-html-to-webp-in-java-complete-guide/)
-
-
 ### [將 SVG 轉換為 PNG（Java） – 批次轉換指南](./convert-svg-to-png-in-java-batch-conversion-guide/)
 
 ### [在 Java 中渲染網頁為 PNG 時停用外部圖像](./disable-external-images-while-rendering-webpage-to-png-in-ja/)

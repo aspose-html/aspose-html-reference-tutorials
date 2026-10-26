@@ -197,6 +197,12 @@ Aprenda a definir um User-Agent personalizado ao executar scripts JavaScript a p
 ### [Como usar Executor em Java – Guia de pool de threads fixo](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
 Aprenda a usar a classe Executor para criar e gerenciar um pool de threads fixo em Java, otimizando tarefas concorrentes.
 
+### [Converter EPUB para DOCX em Java – Guia Completo Passo a Passo](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
+Aprenda a converter arquivos EPUB para DOCX usando Aspose.HTML for Java em um guia passo a passo.
+
+### [Converter SVG para AVIF com Java – Guia Completo Passo a Passo](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
+Aprenda a converter arquivos SVG para AVIF usando Aspose.HTML for Java em um guia passo a passo.
+
 ---
 
 **Última atualização:** 2025-11-29  

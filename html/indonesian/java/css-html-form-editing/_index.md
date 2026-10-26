@@ -118,6 +118,8 @@ Pelajari cara memilih elemen HTML berdasarkan kelas di Java dengan contoh kode l
 Pelajari cara menggunakan selector CSS untuk menemukan tombol yang tidak dinonaktifkan saat mem-parsing HTML dengan Java.
 ### [Cara Mendapatkan Computed Style di Java – Panduan Pemrograman Lengkap](./how-to-get-computed-style-java-complete-programming-guide/)
 Pelajari cara mengambil nilai computed style elemen HTML menggunakan Aspose.HTML untuk Java dalam panduan pemrograman lengkap ini.
+### [Dapatkan Gaya Terhitung Java – Panduan Lengkap untuk Ekstraksi CSS](./get-computed-style-java-complete-guide-to-css-extraction/)
+Pelajari cara mengambil gaya terhitung elemen HTML menggunakan Java untuk mengekstrak properti CSS secara akurat dalam panduan lengkap ini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

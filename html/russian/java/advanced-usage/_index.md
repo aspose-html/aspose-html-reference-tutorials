@@ -173,6 +173,10 @@ Aspose.HTML позволяет прикрепить `DomMutationObserver` к л�
 Узнайте, как задать пользовательский User-Agent при выполнении JavaScript из Java с помощью Aspose.HTML.
 ### [Как использовать Executor в Java – руководство по фиксированному пулу потоков](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
 Узнайте, как создавать и управлять фиксированным пулом потоков с помощью Executor в Java для эффективного выполнения задач.
+### [Конвертировать EPUB в DOCX в Java – Полное пошаговое руководство](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
+Узнайте, как преобразовать файлы EPUB в DOCX с помощью Aspose.HTML for Java, используя пошаговые инструкции и пример кода.
+### [Конвертировать SVG в AVIF с Java – Полное пошаговое руководство](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
+Узнайте, как преобразовать файлы SVG в формат AVIF с помощью Aspose.HTML for Java, следуя пошаговым инструкциям.
 
 ---
 

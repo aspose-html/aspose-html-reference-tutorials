@@ -117,6 +117,8 @@ url: /ru/java/css-html-form-editing/
 Узнайте, как с помощью Aspose.HTML для Java находить активные кнопки, используя CSS‑селекторы, и обрабатывать их в HTML‑документах.
 ### [Как получить вычисленный стиль в Java – Полное руководство по программированию](./how-to-get-computed-style-java-complete-programming-guide/)
 Узнайте, как получить вычисленный стиль элементов с помощью Aspose.HTML для Java в этом полном руководстве.
+### [Получение вычисленного стиля Java – Полное руководство по извлечению CSS](./get-computed-style-java-complete-guide-to-css-extraction/)
+Узнайте, как извлекать вычисленные стили CSS с помощью Aspose.HTML для Java в полном пошаговом руководстве.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

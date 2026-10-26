@@ -179,6 +179,10 @@ Apprenez à spécifier la résolution DPI lors de la conversion de fichiers SVG 
 Apprenez à définir un User-Agent personnalisé lors de l'exécution de JavaScript depuis Java avec Aspose.HTML.
 ### [Comment utiliser Executor en Java – Guide du pool de threads fixe](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
 Apprenez à créer et gérer un pool de threads fixe avec l'API Executor en Java pour optimiser l'exécution concurrente.  
+### [Convertir EPUB en DOCX en Java – Guide complet étape par étape](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
+Apprenez à convertir des fichiers EPUB en DOCX en Java avec Aspose.HTML, étape par étape.  
+### [Convertir SVG en AVIF avec Java – Guide complet étape par étape](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
+Apprenez à convertir des images SVG en AVIF en Java avec Aspose.HTML, étape par étape.  
 
 ---
 

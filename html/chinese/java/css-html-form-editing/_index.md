@@ -120,6 +120,8 @@ url: /zh/java/css-html-form-editing/
 本指南讲解如何使用 Aspose.HTML for Java 通过 CSS 选择器定位未禁用的按钮并进行解析。
 ### [Java 获取计算样式 – 完整编程指南](./how-to-get-computed-style-java-complete-programming-guide/)
 本指南详细讲解如何在 Java 中使用 Aspose.HTML 获取元素的计算样式，提供完整的编程示例。
+### [获取计算样式 Java – CSS 提取完整指南](./get-computed-style-java-complete-guide-to-css-extraction/)
+本指南详细讲解如何使用 Aspose.HTML for Java 获取元素的计算样式，实现 CSS 属性的提取与分析。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

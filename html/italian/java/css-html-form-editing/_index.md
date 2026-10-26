@@ -118,6 +118,8 @@ Impara a selezionare elementi HTML per classe in Java usando Aspose.HTML con ese
 Scopri come selezionare pulsanti abilitati usando i selettori CSS con Aspose.HTML per Java in questa guida pratica.
 ### [Come ottenere lo stile calcolato in Java – Guida completa di programmazione](./how-to-get-computed-style-java-complete-programming-guide/)
 Scopri come recuperare lo stile calcolato di un elemento HTML usando Aspose.HTML per Java in questa guida completa passo passo.
+### [Ottieni lo stile calcolato Java – Guida completa all'estrazione CSS](./get-computed-style-java-complete-guide-to-css-extraction/)
+Scopri come estrarre gli stili CSS calcolati da un documento HTML con Aspose.HTML per Java in questa guida completa.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

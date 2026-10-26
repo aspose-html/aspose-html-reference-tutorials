@@ -297,6 +297,10 @@ Aspose.HTML를 사용하여 Java에서 병렬 스레드 풀을 활용해 HTML을
 Aspose.HTML를 사용하여 Java에서 HTML을 PDF로 단계별 변환하는 방법을 자세히 안내합니다.
 ### [Java에서 PDF에 폰트를 삽입하는 방법 – 완전 가이드](./how-to-embed-fonts-pdf-in-java-complete-guide/)
 Aspose.HTML를 사용하여 Java에서 PDF에 폰트를 포함하는 전체 과정을 단계별로 안내합니다.
+### [HTML‑to‑PDF 변환을 위한 샌드박스 사용 방법 – 완전한 Java 가이드](./how-to-use-sandbox-for-html-to-pdf-conversion-complete-java/)
+Aspose.HTML를 사용하여 Java에서 샌드박스를 활용해 HTML을 PDF로 변환하는 전체 가이드를 확인하세요.
+### [모든 CPU 코어를 사용한 병렬 HTML‑to‑PDF 배치 변환](./use-all-cpu-cores-for-parallel-html-to-pdf-batch-conversion/)
+Aspose.HTML를 사용하여 Java에서 모든 CPU 코어를 활용해 HTML을 PDF로 병렬 배치 변환하는 방법을 배웁니다.
 
 ## 자주 묻는 질문
 

@@ -183,6 +183,12 @@ Pelajari cara mengatur header User-Agent khusus saat mengeksekusi JavaScript men
 ### [Cara Menggunakan Executor di Java – Panduan Fixed Thread Pool](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
 Pelajari cara menggunakan Executor dengan Fixed Thread Pool di Java untuk mengelola tugas secara efisien.
 
+### [Mengonversi EPUB ke DOCX di Java – Panduan Lengkap Langkah demi Langkah](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
+Pelajari cara mengonversi file EPUB menjadi DOCX menggunakan Aspose.HTML untuk Java dengan contoh kode lengkap.
+
+### [Mengonversi SVG ke AVIF dengan Java – Panduan Lengkap Langkah demi Langkah](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
+Pelajari cara mengonversi file SVG menjadi format gambar AVIF menggunakan Aspose.HTML untuk Java dengan contoh kode lengkap.
+
 ---
 
 **Terakhir Diperbarui:** 2025-11-29  

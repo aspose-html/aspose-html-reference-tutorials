@@ -203,6 +203,10 @@ Aprende a generar PDFs de forma asíncrona en Java usando Aspose.HTML, optimizan
 Aprende a extraer audio y video incrustados en páginas HTML usando Aspose.HTML para Java.
 ### [Convertir HTML a PDF con Java – Guía de procesamiento por lotes paralelo](./convert-html-to-pdf-with-java-parallel-batch-guide/)
 Aprende a convertir múltiples archivos HTML a PDF simultáneamente usando Aspose.HTML para Java y procesamiento por lotes paralelo.
+### [Cómo usar sandbox para la conversión de HTML‑a‑PDF – Guía completa de Java](./how-to-use-sandbox-for-html-to-pdf-conversion-complete-java/)
+Aprende a usar el sandbox de Aspose.HTML para convertir HTML a PDF en Java de forma segura y sin instalación local.
+### [Usar todos los núcleos de CPU para la conversión por lotes paralela de HTML a PDF](./use-all-cpu-cores-for-parallel-html-to-pdf-batch-conversion/)
+Aprende a aprovechar todos los núcleos de CPU para convertir múltiples archivos HTML a PDF en paralelo, mejorando el rendimiento.
 
 ### [Guardar HTML como PDF con Java – Guía completa usando Thread Pool y plantillas](./save-html-as-pdf-with-java-complete-guide-using-thread-pool/)
 Aprende a guardar HTML como PDF en Java usando Thread Pool y plantillas para un procesamiento eficiente.

@@ -122,6 +122,8 @@ url: /el/java/css-html-form-editing/
 Μάθετε πώς να εντοπίζετε και να αλληλεπιδράτε με κουμπιά που δεν είναι απενεργοποιημένα χρησιμοποιώντας CSS selectors με Aspose.HTML για Java.
 ### [Πώς να Λάβετε Υπολογισμένο Στυλ Java – Πλήρης Οδηγός Προγραμματισμού](./how-to-get-computed-style-java-complete-programming-guide/)
 Μάθετε πώς να αποκτήσετε το υπολογισμένο στυλ ενός στοιχείου HTML χρησιμοποιώντας Aspose.HTML για Java σε αυτόν τον πλήρη οδηγό.
+### [Λήψη Υπολογιζόμενου Στυλ Java – Πλήρης Οδηγός για Εξαγωγή CSS](./get-computed-style-java-complete-guide-to-css-extraction/)
+Μάθετε πώς να λαμβάνετε το υπολογιζόμενο στυλ σε Java χρησιμοποιώντας Aspose.HTML για εξαγωγή CSS σε αυτόν τον πλήρη οδηγό.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

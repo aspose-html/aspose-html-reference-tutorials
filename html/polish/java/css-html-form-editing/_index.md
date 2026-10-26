@@ -118,6 +118,8 @@ Dowiedz się, jak w Javie wybrać element HTML po klasie przy użyciu Aspose.HTM
 Dowiedz się, jak wybrać przycisk nie wyłączony przy użyciu selektora CSS w Aspose.HTML dla Java.
 ### [Jak uzyskać styl obliczony w Javie – Kompletny przewodnik programistyczny](./how-to-get-computed-style-java-complete-programming-guide/)
 Dowiedz się, jak programowo pobrać obliczony styl elementu w Javie przy użyciu Aspose.HTML, krok po kroku.
+### [Pobieranie stylu obliczonego w Javie – Kompletny przewodnik po ekstrakcji CSS](./get-computed-style-java-complete-guide-to-css-extraction/)
+Dowiedz się, jak programowo uzyskać obliczone style CSS przy użyciu Aspose.HTML w Javie, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
