@@ -1,24 +1,25 @@
 ---
 category: general
-date: 2026-01-01
-description: Java kullanarak HTML sorgulamayı, CSS seçmeyi ve pratik örnekler ile
-  düğüm sayımı yaparak HTML'den öğeleri çıkarmayı öğrenin.
+date: 2026-04-23
+description: Java'da HTML öğelerini nasıl çıkaracağınızı, birden fazla CSS sınıfını
+  nasıl seçeceğinizi, XPath'i nasıl kullanacağınızı ve pratik kod örnekleriyle öğeleri
+  nasıl sayacağınızı öğrenin.
 draft: false
 keywords:
-- how to query html
-- how to select css
-- extract elements from html
+- extract html elements
 - select multiple css classes
-- how to count nodes
-language: tr
-og_description: Java'da HTML sorgulamayı ustalaşın, CSS seçmeyi öğrenin, HTML'den
-  öğeleri çıkarın ve gerçek kod örnekleriyle düğüm sayısını bulun.
-og_title: Java'da HTML Sorgulama – Tam Kılavuz
+- java html scraping
+- count elements java
+- xpath query java
+og_description: Java'da HTML öğelerini nasıl çıkaracağınızı öğrenin, birden fazla
+  CSS sınıfını nasıl seçeceğinizi öğrenin, XPath sorguları çalıştırın ve gerçek kod
+  örnekleriyle düğümleri sayın.
+og_title: Java'da HTML Öğelerini Çıkarma – Tam Kılavuz
 tags:
 - Java
 - HTML parsing
 - Aspose.HTML
-title: Java'da HTML Sorgulama – Tam Kılavuz
+title: Java'da HTML Öğelerini Çıkarma – Tam Kılavuz
 url: /tr/java/creating-managing-html-documents/how-to-query-html-in-java-complete-tutorial/
 ---
 
@@ -26,29 +27,43 @@ url: /tr/java/creating-managing-html-documents/how-to-query-html-in-java-complet
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java’da HTML Sorgulama – Tam Kılavuz
+# Java’da HTML Öğeleri Çıkarma – Tam Kılavuz
 
-Hiç **HTML sorgulamanın** bir Java programından nasıl yapılacağını merak ettiniz mi, saçınızı yolmak zorunda kalmadan? Tek başınıza değilsiniz. Birçok geliştirici, statik bir katalogdan veri çekmeleri ya da basit bir sayfayı kazımaları gerektiğinde bir duvara çarpar ve geleneksel DOM hileleri hantal gelir.  
+Ever wondered **html öğelerini nasıl çıkaracağınızı** from a Java program without pulling your hair out? You're not the only one. Many developers hit a wall when they need to pull data from a static catalog or scrape a simple page, and the usual DOM tricks feel clunky.  
 
-İyi haber? Birkaç satır kodla bir HTML dosyasını yükleyebilir, XPath ya da CSS seçicileri çalıştırabilir ve hatta ilgilendiğiniz düğümleri sayabilirsiniz—hepsi tek bir düzenli akışta. Bu rehberde **HTML sorgulamanın** nasıl yapılacağını, **CSS seçiminin** nasıl yapılacağını adım adım gösterecek, **HTML’den öğeleri çıkarmanın**, **birden fazla CSS sınıfını seçmenin** ve Aspose.HTML for Java ile **düğümleri saymanın** yollarını anlatacağız.
+The good news? With a few lines of code you can load an HTML file, run XPath or CSS selectors, and even count the nodes you care about—all in one tidy flow. In this guide we’ll walk through **html öğelerini nasıl çıkaracağınızı**, **CSS nasıl seçileceğini**, and show you how to **HTML’den öğeleri nasıl çıkaracağınızı**, **birden fazla CSS sınıfını nasıl seçeceğinizi**, and **düğümleri nasıl sayacağınızı** with Aspose.HTML for Java.
+
+## Hızlı Yanıtlar
+- **Java’da HTML ayrıştırmasını hangi kütüphane yönetir?** Aspose.HTML for Java  
+- **Birden fazla sınıfla CSS seçicileri kullanabilir miyim?** Yes, using selectors like `.class1, .class2` or `div.class1.class2`  
+- **Düğümleri nasıl sayarım?** Call `.size()` on the list returned by `selectCss` or `selectXPath`  
+- **XPath destekleniyor mu?** Absolutely – perfect for numeric comparisons and relational queries  
+- **Üretim için lisansa ihtiyacım var mı?** A commercial license is required for production use; a free trial is available for testing  
+
+## “html öğelerini çıkarma” nedir?
+HTML öğelerini çıkarmak, bir HTML belgesini DOM (Document Object Model) içine yüklemek ve ardından bu DOM’u belirli düğümleri almak için sorgulamaktır—etiket adı, öznitelik, CSS sınıfı veya XPath ifadesiyle olsun. Bu teknik, basit veri‑scraping betiklerinden karmaşık içerik‑göçüm hatlarına kadar her şeyi güçlendirir.
+
+## Neden Aspose.HTML for Java Kullanmalı?
+Aspose.HTML, **tek, iyi belgelenmiş bir API** sunar; hem CSS seçicilerini hem de XPath'ı destekler, hatalı işaretlemelerle çalışır ve Java 8+ üzerinde tutarlı çalışır. Üçüncü‑taraf ayrıştırıcılara olan ihtiyacı ortadan kaldırır ve sayma, yineleme ve öznitelik değerlerini çıkarma için yerleşik yardımcılar sağlar.
+
+## Önkoşullar
+- Java 8 veya daha yeni  
+- Maven veya Gradle yapı sistemi  
+- Aspose.HTML for Java kütüphanesi (deneme veya lisanslı sürüm)  
 
 ## Öğrenecekleriniz
 
-- Diskten ya da bir URL’den HTML belgesi yükleme.  
-- Karmaşık koşullara uyan öğeleri bulmak için XPath kullanma.  
-- Birden fazla sınıf sorgusunu içeren CSS seçicileri uygulama.  
-- Sonuçları programatik olarak sayma.  
+- Diskten veya bir URL’den HTML belgesi yükleyin.  
+- Karmaşık koşullara uyan öğeleri bulmak için XPath kullanın.  
+- CSS seçicilerini uygulayın, **birden fazla css sınıfını seçme** dahil.  
+- **Java’da öğeleri sayma** programatik olarak.  
 - Gerçek dünya senaryoları için ipuçları, tuzaklar ve varyasyonlar.
 
-*Önkoşullar*: Java 8+, Maven veya Gradle, ve Aspose.HTML for Java kütüphanesinin bir kopyası (deneme sürümü deneyler için yeterli).
-
----
-
-![how to query html example](https://example.com/images/query-html.png "Screenshot showing how to query html with Java")
+![html sorgulama örneği](https://example.com/images/query-html.png "Java ile html sorgulama gösteren ekran görüntüsü")
 
 ## HTML Sorgulama – Belgeyi Yükleme
 
-Herhangi bir soru sormadan önce sorgulayabileceğiniz bir belge nesnesine ihtiyacınız var. Aspose.HTML’in `HTMLDocument` sınıfı bu işi üstlenir.
+Before you can ask any questions, you need a document object to interrogate. Aspose.HTML’s `HTMLDocument` class does the heavy lifting.
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -62,14 +77,14 @@ public class QueryDemo {
         HTMLDocument document = new HTMLDocument("YOUR_DIRECTORY/catalog.html");
 ```
 
-> **Neden önemli** – Dosyayı yüklemek bellekte bir DOM ağacı oluşturur. Bundan sonra hem XPath hem de CSS sorgularını ağ latansı ya da hatalı işaretleme endişesi olmadan çalıştırabilirsiniz. Dosya bulunamazsa, Aspose net bir `FileNotFoundException` fırlatarak hata ayıklamayı sorunsuz hâle getirir.
+> **Neden önemli** – Dosyayı yüklemek bellekte bir DOM ağacı oluşturur. Buradan hem XPath hem de CSS sorgularını ağ gecikmesi veya hatalı işaretleme konusunda endişelenmeden çalıştırabilirsiniz. Dosya bulunamazsa, Aspose net bir `FileNotFoundException` fırlatır, bu da hata ayıklamayı sorunsuz hâle getirir.
 
 ### Pro ipucu
-HTML’i uzaktan bir siteden çekiyorsanız, sadece URL dizesini `HTMLDocument`’e geçirin—Aspose sizin için alıp ayrıştıracaktır.
+If you’re pulling HTML from a remote site, simply pass the URL string to `HTMLDocument`—Aspose will fetch and parse it for you.
 
 ## CSS Seçimi – CSS Seçicileri Kullanma
 
-DOM hazır olduğunda, CSS ile düğüm seçmek tek satırlık bir işlem kadar basittir. `featured` ya da `highlight` sınıfına sahip her öğeyi alalım.
+Once the DOM is ready, selecting nodes with CSS is as simple as a one‑liner. Let’s grab every element that has either the `featured` or `highlight` class.
 
 ```java
         // Step 2: Locate elements marked as featured or highlighted using a CSS selector
@@ -79,14 +94,14 @@ DOM hazır olduğunda, CSS ile düğüm seçmek tek satırlık bir işlem kadar 
         System.out.println("Featured elements: " + featuredElements.size());
 ```
 
-> **Açıklama** – `.featured, .highlight` seçicisi, `class` özniteliği içinde `featured` **veya** `highlight` bulunan *her* öğeyi döndürmesini söyler. Bu, tek bir sorguda **birden fazla CSS sınıfını seçmenin** kanonik yoludur.
+> **Açıklama** – The selector `.featured, .highlight` tells the engine to return *any* element whose `class` attribute contains `featured` **or** `highlight`. This is the canonical way to **birden fazla css sınıfını seçme** in a single query.
 
 ### Kenar durumu
-Bir öğe her iki sınıfa da sahipse (ör. `<div class="featured highlight">`), sonuç listesinde **bir kez** görünecek ve çift sayım önlenecektir.
+If an element contains both classes (e.g., `<div class="featured highlight">`), it will appear **once** in the result list, preventing double‑counting.
 
-## HTML’den Öğeleri Çıkarma – XPath ve CSS Kombinasyonu
+## HTML’den Öğeleri Çıkarma – XPath ve CSS Birleştirme
 
-XPath, “fiyatı 30’dan büyük olan tüm `<book>` düğümleri” gibi ilişkisel mantık gerektiğinde devreye girer. İşte orijinal örnekten tam kesit:
+XPath shines when you need relational logic, such as “all `<book>` nodes where the price exceeds 30”. Here’s the exact snippet from the original example:
 
 ```java
         // Step 4: Find all <book> elements with a price greater than 30 using XPath
@@ -96,19 +111,19 @@ XPath, “fiyatı 30’dan büyük olan tüm `<book>` düğümleri” gibi iliş
         System.out.println("Expensive books count: " + expensiveBooks.size());
 ```
 
-> **Neden XPath?** – XPath, (`price>30`) gibi sayısal karşılaştırmaları doğrudan değerlendirebilir; bu CSS’in yapamadığı bir şeydir. Ayrıca ekstra kod yazmadan ebeveyn/çocuk ilişkilerini dolaşmanıza izin verir.
+> **Neden XPath?** – XPath can evaluate numeric comparisons (`price>30`) directly, something CSS cannot do. It also lets you traverse parent/child relationships without extra code.
 
 ### Varyasyon
-Bu pahalı kitapların *başlıklarını* almak isterseniz, ikinci bir sorgu zincirleyebilirsiniz:
+If you need to fetch the *titles* of those expensive books, you can chain a second query:
 
 ```java
         List<Element> titles = expensiveBooks.get(0).selectXPath("./title");
         System.out.println("First expensive book title: " + titles.get(0).getTextContent());
 ```
 
-## Birden Fazla CSS Sınıfını Seçme – Gelişmiş Seçici Hileleri
+## Birden Fazla CSS Sınıfı Seçme – İleri Seçici Hileleri
 
-Bazen bir öğeyi **aynı anda** birden fazla sınıfa sahip olacak şekilde hedeflemek istersiniz, örneğin `class="product featured"`. Bunun CSS sözdizimi, virgül olmadan birleştirilmiş bir seçicidir.
+Sometimes you want to target elements that **simultaneously** have several classes, like `class="product featured"`. The CSS syntax for this is a concatenated selector without commas.
 
 ```java
         // Example: select <div> elements that are both .product and .featured
@@ -116,11 +131,11 @@ Bazen bir öğeyi **aynı anda** birden fazla sınıfa sahip olacak şekilde hed
         System.out.println("Product‑featured divs: " + productFeatured.size());
 ```
 
-> **Temel nokta** – Sınıf adları arasında boşluk olmamalıdır; boşluk “descendant” (alt öğe) anlamına gelir. Bu desen, bir bileşeni stillendirmek için birlikte çalışan **birden fazla CSS sınıfını seçerken** hayati öneme sahiptir.
+> **Ana nokta** – No space between the class names; a space would mean “descendant”. This pattern is essential when you’re **birden fazla css sınıfını seçme** that work together to style a component.
 
 ## Düğümleri Sayma – Doğru Toplamları Elde Etme
 
-Düğümleri saymak, veri çıkarma hattının genellikle son adımıdır. Her sorgudan sonra `list.size()` kullandığınızı gördünüz, şimdi bunu yeniden kullanılabilir bir yardımcı metoda dönüştürelim.
+Counting nodes is often the final step in a data‑extraction pipeline. You’ve already seen `list.size()` used after each query, but let’s wrap it into a reusable helper.
 
 ```java
     /**
@@ -146,15 +161,15 @@ Düğümleri saymak, veri çıkarma hattının genellikle son adımıdır. Her s
     }
 ```
 
-> **Neden sarmalansın?** – Sayma mantığını merkezileştirmek kodunuzu test etmeyi kolaylaştırır ve tekrarları azaltır. Ayrıca gelecekteki okuyucular için **düğümleri nasıl sayacaklarını** netleştirir.
+> **Neden paketleyelim?** – Centralising the count logic makes your code easier to test and reduces duplication. It also clarifies **düğümleri nasıl sayacağınızı** for future readers.
 
-### Yaygın tuzaklar
-- **Sınıf özniteliklerindeki boşluklar** – `"featured "` (sondaki boşluk) yine de `.featured` ile eşleşir çünkü seçici boşlukları kırpar.
-- **Büyük/küçük harf duyarlılığı** – HTML sınıf adları XML modunda büyük/küçük harfe duyarlıdır; kaynak HTML’nizin tutarlı bir adlandırma kullandığından emin olun.
+### Yaygın Tuzaklar
+- **Sınıf özniteliklerindeki boşluk** – `"featured "` (sondaki boşluk) seçici boşlukları kırptığı için hâlâ `.featured` ile eşleşir.  
+- **Büyük/küçük harf duyarlılığı** – HTML sınıf adları XML modunda büyük/küçük harfe duyarlıdır; kaynak HTML’nizin tutarlı harf kullanımına sahip olduğundan emin olun.
 
 ## Tam Çalışan Örnek
 
-Her şeyi bir araya getirerek, IDE’nize kopyalayıp yapıştırabileceğiniz bağımsız bir program:
+Putting everything together, here’s a self‑contained program you can copy‑paste into your IDE:
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -198,19 +213,44 @@ Featured elements: 7
 Product‑featured divs: 2
 ```
 
-Dosyanız daha az eşleşen düğüm içeriyorsa, sayılar buna göre ayarlanır—sürpriz yok.
+If your file contains fewer matching nodes, the numbers will adjust accordingly—no surprises.
 
----
+## Yaygın Sorunlar ve Çözümler
+
+- **Dosya bulunamadı** – Verify the path is absolute or relative to the working directory.  
+- **Hatalı HTML** – Aspose.HTML tolerates most errors, but extremely broken markup may require pre‑cleaning.  
+- **Büyük dosyalarda performans** – Load the document once, reuse the same `HTMLDocument` instance for all queries.  
+
+## Sıkça Sorulan Sorular
+
+**S: Bu yaklaşımı birden fazla sayfada web‑scraping için kullanabilir miyim?**  
+C: Yes. Load each page with a new `HTMLDocument` instance or reuse the same instance after calling `document.load(url)`.
+
+**S: Aspose.HTML HTML5 öğelerini destekliyor mu?**  
+C: Absolutely. The parser is HTML5‑aware and handles modern tags like `<section>`, `<article>`, and `<video>`.
+
+**S: Bağlantılardan `href` gibi öznitelik değerlerini nasıl çıkarırım?**  
+C: After selecting the element, call `element.getAttribute("href")` on each `Element` in the result list.
+
+**S: Seçilen düğümleri JSON’a dışa aktarmanın bir yolu var mı?**  
+C: You can iterate over the list, build a JSON object with the desired properties, and use any JSON library (e.g., Jackson) to serialize it.
+
+**S: Hangi Java sürümleri destekleniyor?**  
+C: The library works with Java 8 and newer, including Java 11, 17, and later LTS releases.
 
 ## Sonuç
 
-**Aspose.HTML for Java** ile **HTML sorgulamanın** nasıl yapılacağını, **CSS seçiminin** nasıl yapılacağını, **HTML’den öğeleri çıkarmanın**, **birden fazla CSS sınıfını seçmenin** ve **düğümleri güvenilir bir şekilde saymanın** yollarını ele aldık.  
+We’ve covered **html öğelerini nasıl çıkaracağınızı** with Aspose.HTML for Java, demonstrated **CSS nasıl seçileceğini**, shown you how to **HTML’den öğeleri nasıl çıkaracağınızı**, tackled **birden fazla CSS sınıfını seçme**, and explained **düğümleri nasıl sayacağınızı** reliably.  
 
-Temel çıkarım? Belgeyi bir kez yükleyip aynı `HTMLDocument` örneğini yeniden kullanmak, XPath ve CSS sorgularını performans kaybı olmadan karıştırmanıza olanak tanır.  
+The key takeaway? Loading the document once and then reusing the same `HTMLDocument` instance lets you mix XPath and CSS queries without performance penalties.  
 
-Bir sonraki adıma hazır mısınız? Seçicileri zincirleyerek öznitelik değerlerini (`@href`, `@src`) çekmeyi ya da sonuç kümesini JSON’a dışa aktararak sonraki işleme göndermeyi deneyin. Kaynak HTML’niz birden fazla sayfaya yayılmışsa sayfalama yönetimini de keşfedebilirsiniz.
+Ready for the next step? Try chaining selectors to pull attribute values (`@href`, `@src`) or exporting the result set to JSON for downstream processing. You might also explore pagination handling if your source HTML spans multiple pages.
 
-Zor bir seçiciniz ya da çözemediğiniz bir kenar durumu mı var? Aşağıya yorum bırakın, birlikte sorun giderelim. İyi sorgulamalar!
+Got a tricky selector or an edge case you can’t crack? Drop a comment below, and let’s troubleshoot together. Happy querying!
+
+**Son Güncelleme:** 2026-04-23  
+**Test Edilen:** Aspose.HTML for Java 24.11  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -10,13 +10,9 @@ url: /pt/java/conversion-epub-to-xps/convert-epub-to-xps/
 weight: 10
 ---
 
-; translate the content inside but keep table formatting. Translate issue descriptions etc.
 
-Also translate the FAQ questions and answers.
 
-Make sure to keep markdown links unchanged but translate surrounding text.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

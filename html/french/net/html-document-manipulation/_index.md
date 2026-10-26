@@ -59,6 +59,10 @@ Libérez le potentiel d'Aspose.HTML pour .NET avec notre guide complet. Découvr
 Découvrez comment exploiter la puissance d'Aspose.HTML pour .NET. Boostez votre développement Web grâce à la manipulation et au rendu HTML.
 ### [Créer un document en .NET avec Aspose.HTML](./creating-a-document/)
 Exploitez la puissance d'Aspose.HTML pour .NET. Apprenez à créer, manipuler et optimiser facilement des documents HTML et SVG. Découvrez des exemples étape par étape et des FAQ.
+### [Créer un document HTML en C# – Guide étape par étape](./create-html-document-c-step-by-step-guide/)
+Apprenez à créer un document HTML en C# avec Aspose.HTML grâce à un guide détaillé étape par étape.
+### [Comment créer du HTML – Ajouter des éléments et styliser le texte](./how-to-create-html-append-elements-and-style-text/)
+Apprenez à créer du HTML en ajoutant des éléments et en stylisant le texte avec Aspose.HTML pour .NET.
 ### [Modification d'un document dans .NET avec Aspose.HTML](./editing-a-document/)
 Créez du contenu Web captivant avec Aspose.HTML pour .NET. Apprenez à manipuler HTML, CSS et bien plus encore.
 ### [Enregistrer un document dans .NET avec Aspose.HTML](./saving-a-document/)
@@ -69,9 +73,42 @@ Apprenez à créer du contenu Web dynamique à l'aide d'Aspose.HTML pour .NET. D
 Apprenez à utiliser Aspose.HTML pour .NET. Importez des espaces de noms, fusionnez HTML avec XML et améliorez vos compétences en développement Web avec ce guide complet.
 ### [Générer des documents XPS par XpsDevice dans .NET avec Aspose.HTML](./generate-xps-documents-by-xpsdevice/)
 Libérez le potentiel du développement Web avec Aspose.HTML pour .NET. Créez, convertissez et manipulez facilement des documents HTML.
+### [Créer un document HTML avec Aspose.HTML – Guide étape par étape](./create-html-document-with-aspose-html-step-by-step-guide/)
+Apprenez à créer un document HTML avec Aspose.HTML grâce à un guide détaillé, étape par étape.
 
 ### [Créer du HTML à partir d'une chaîne en C# – Guide du gestionnaire de ressources personnalisé](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Apprenez à générer du HTML à partir d'une chaîne C# en utilisant un gestionnaire de ressources personnalisé avec Aspose.HTML.
+### [Comment créer du HTML avec Aspose – Trouver un élément, appliquer le gras](./how-to-create-html-with-aspose-find-element-apply-bold/)
+Apprenez à localiser un élément HTML et à appliquer le style gras à l'aide d'Aspose.HTML pour .NET.
+
+### [Mettre le texte en gras et italique en C# – Guide rapide pour le style HTML](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
+Apprenez à appliquer du gras et de l'italique au texte HTML en C# avec Aspose.HTML. Guide rapide et exemples pratiques.
+### [Ajouter un élément au corps – Guide complet C# avec Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)
+Apprenez à ajouter dynamiquement un élément au corps d'une page HTML en C# avec Aspose.HTML, étape par étape.
+
+### [Comment créer du HTML et ajouter un élément de style CSS – Guide étape par étape](./how-to-create-html-and-add-css-style-element-step-by-step-gu/)
+Apprenez à générer du HTML et à intégrer un style CSS via un élément `<style>`. Guide complet pas à pas avec exemples de code.
+### [Créer un document HTML C# – Texte gras et italique avec police personnalisée](./create-html-document-c-bold-italic-text-with-custom-font/)
+Apprenez à créer un document HTML en C# avec du texte en gras et italique en utilisant une police personnalisée via Aspose.HTML.
+### [Comment styliser le HTML avec Aspose.HTML – Définir le style de police en C#](./how-to-style-html-with-aspose-html-set-font-style-in-c/)
+Apprenez à appliquer des styles de police aux éléments HTML en utilisant Aspose.HTML avec C#.
+
+### [Combiner le gras et l'italique en HTML avec C# – Guide complet](./combine-bold-and-italic-in-html-with-c-complete-guide/)
+Apprenez à appliquer simultanément le gras et l'italique dans du HTML en C# avec Aspose.HTML. Guide complet pas à pas.
+### [Enregistrer du HTML avec Aspose.HTML – Guide étape par étape](./how-to-save-html-with-aspose-html-step-by-step-guide/)
+Apprenez à enregistrer des fichiers HTML en utilisant Aspose.HTML grâce à un guide détaillé étape par étape.
+
+### [Appliquer le style de police par programme – Guide rapide C#](./apply-font-style-programmatically-quick-c-guide/)
+Apprenez à appliquer des styles de police à vos documents HTML en C# de manière programmatique avec Aspose.HTML.
+
+### [Créer du HTML avec du texte stylisé – Guide complet C#](./how-to-create-html-with-styled-text-complete-c-guide/)
+Apprenez à générer du HTML contenant du texte stylisé en C# avec Aspose.HTML, incluant des exemples détaillés.
+
+### [Créer un document HTML avec Aspose.HTML – Guide complet](./create-html-document-with-aspose-html-full-guide/)
+Apprenez à créer un document HTML complet avec Aspose.HTML, incluant des exemples détaillés et des conseils pratiques.
+
+### [Définir la propriété innerHTML d'un span en C# avec Aspose.HTML – Guide complet](./set-span-innerhtml-in-c-with-aspose-html-complete-guide/)
+Apprenez à définir la propriété innerHTML d'un élément span en C# à l'aide d'Aspose.HTML, avec des exemples détaillés.
 
 ## Conclusion
 
