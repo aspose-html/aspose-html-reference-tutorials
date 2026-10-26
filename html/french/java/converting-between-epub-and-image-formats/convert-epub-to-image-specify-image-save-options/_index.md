@@ -11,17 +11,11 @@ url: /fr/java/converting-between-epub-and-image-formats/convert-epub-to-image-sp
 weight: 16
 ---
 
- "Questions fréquentes". Keep Q/A.
 
-Make sure to keep code placeholders unchanged.
 
-Now produce final content with same structure.
 
-Let's craft translation.
 
-Be careful with apostrophes and French punctuation (space before colon, etc). But not required.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

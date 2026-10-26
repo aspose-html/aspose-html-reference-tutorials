@@ -1,0 +1,7 @@
+Title: How to convert HTML to bytes in C# using Aspose.Html
+Slug: how-to-convert-html-to-bytes-in-c-using-aspose-html
+Category: html-extensions-and-conversions
+ProcessedDate: 2026-08-25T23:14:47.905769
+SourceRepo: AI Search API
+Keywords: convert html to bytes, custom resource handler, save html as stream, save html to stream
+PRNumber: 251

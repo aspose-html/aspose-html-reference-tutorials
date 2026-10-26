@@ -30,6 +30,9 @@ url: /hi/java/html5-canvas-rendering/
 Java के लिए Aspose.HTML के साथ HTML5 कैनवस बनाएँ और रेंडर करें। इस शक्तिशाली Java लाइब्रेरी का उपयोग करके चरण-दर-चरण सीखें कि कैसे ड्रा करें, स्टाइल करें और PDF में निर्यात करें।
 ### [जावा के लिए Aspose.HTML के साथ HTML5 कैनवस में महारत हासिल करना](./html5-canvas/)
 जानें कि Aspose.HTML for Java का उपयोग करके HTML5 कैनवास को PDF में कैसे बनाया और परिवर्तित किया जाए। यह गाइड उन डेवलपर्स के लिए एकदम सही है जो अपने वेब प्रोजेक्ट को बेहतर बनाना चाहते हैं।
+### [Aspose.HTML के साथ iPhone का अनुकरण – पूर्ण गाइड](./how-to-emulate-iphone-complete-guide-with-aspose-html/)
+Aspose.HTML का उपयोग करके iPhone का अनुकरण करने की पूरी गाइड, जिसमें सेटअप, रेंडरिंग और परीक्षण शामिल हैं।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -9,9 +9,7 @@ url: /ko/java/handling-zip-files/zip-file-schema-handler/
 weight: 11
 ---
 
- heading: keep same heading but translate rest.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
