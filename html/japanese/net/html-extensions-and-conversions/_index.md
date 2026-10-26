@@ -125,6 +125,9 @@ Aspose.HTML for .NET を使用して、Web ページ全体を ZIP アーカイ�
 ### [HTML を ZIP に保存 – 完全 C# ガイド：HTML を ZIP に変換](./save-html-as-zip-complete-c-guide-to-convert-html-to-zip/)
 Aspose.HTML for .NET を使用し、HTML を ZIP に変換して保存する完全な C# 手順を解説します。
 
+### [C# で HTML を ZIP に変換する – 完全ステップバイステップ ガイド](./convert-html-to-zip-in-c-complete-step-by-step-guide/)
+Aspose.HTML for .NET を使用して、C# で HTML を ZIP に変換する完全な手順を解説します。
+
 ### [C# で HTML を ZIP に保存 – 完全インメモリ例](./save-html-to-zip-in-c-complete-in-memory-example/)
 Aspose.HTML for .NET を使用して、HTML をメモリ内で ZIP アーカイブに保存する手順をステップバイステップで解説します。
 ### [C# のカスタム リソース ハンドラ – HTML を ZIP に変換するチュートリアル](./custom-resource-handler-in-c-convert-html-to-zip-tutorial/)
@@ -194,8 +197,6 @@ Aspose.HTML を使用して、C# で URL をワンラインコードで PDF に�
 
 ### [C# で HTML を保存し、ファイルに書き込む方法](./how-to-save-html-and-write-html-to-file-with-c/)
 Aspose.HTML for .NET を使用して、HTML コンテンツを保存し、C# でファイルに書き込む手順をステップバイステップで解説します。
-
-### [C# で HTML を ZIP に変換する – 完全ステップバイステップガイド](./convert-html-to-zip-in-c-complete-step-by-step-guide/)
 
 ### [ZipArchive の使用方法 – HTML とリソースを ZIP ファイルに保存する](./how-to-use-ziparchive-save-html-and-resources-to-a-zip-file/)
 C# と Aspose.HTML を使用して、ZipArchive で HTML と関連リソースを ZIP ファイルに保存する手順をステップバイステップで解説します。

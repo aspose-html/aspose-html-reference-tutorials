@@ -99,6 +99,8 @@ Aspose.HTML для .NET выделяется своей простотой и м
 Подробное руководство по созданию HTML‑документов с помощью Aspose.HTML в .NET, включая примеры кода и лучшие практики.
 ### [Установить innerHTML span в C# с Aspose.HTML – Полное руководство](./set-span-innerhtml-in-c-with-aspose-html-complete-guide/)
 Узнайте, как установить innerHTML элемента span в C# с помощью Aspose.HTML и управлять содержимым HTML.
+### [Изменение стиля абзаца в C# – Полное руководство Aspose.HTML](./change-paragraph-style-in-c-complete-aspose-html-guide/)
+Узнайте, как изменить стиль абзаца в C# с помощью Aspose.HTML. Полное пошаговое руководство с примерами.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

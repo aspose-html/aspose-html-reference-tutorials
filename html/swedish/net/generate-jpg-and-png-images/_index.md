@@ -130,6 +130,12 @@ Lär dig hur du implementerar en anpassad resurs‑hanterare i C# för att rende
 Lär dig steg för steg hur du konverterar HTML till PNG med Aspose.HTML i en komplett C#‑guide.
 ### [Konvertera DOCX till zip – komplett guide med bildåtergivning](./convert-docx-to-zip-complete-guide-with-image-rendering/)
 Lär dig hur du konverterar DOCX-filer till zip‑arkiv och renderar bilder med en komplett steg‑för‑steg‑guide.
+### [Rendera HTML till PNG i C# – Komplett guide med Aspose.HTML](./render-html-to-png-in-c-complete-guide-with-aspose-html/)
+Lär dig hur du renderar HTML till PNG i C# med en komplett guide som täcker installation, konfiguration och kodexempel med Aspose.HTML.
+### [Skapa PNG från HTML med Aspose.HTML – Fullständig steg‑för‑steg‑guide](./create-png-from-html-with-aspose-html-full-step-by-step-guid/)
+Lär dig hur du skapar PNG från HTML med Aspose.HTML i en fullständig steg‑för‑steg‑guide.
+### [Hur man renderar HTML i C# – steg‑för‑steg‑guide](./how-to-render-html-in-c-step-by-step-guide/)
+Lär dig hur du renderar HTML i C# med en komplett steg‑för‑steg‑guide med Aspose.HTML.
 
 ## Slutsats
 

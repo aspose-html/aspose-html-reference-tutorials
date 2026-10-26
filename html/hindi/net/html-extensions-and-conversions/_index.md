@@ -128,6 +128,7 @@ Aspose.HTML के साथ .NET में HTML को MHTML में बद�
 .NET के लिए Aspose.HTML के साथ HTML को TIFF में कैसे बदलें, यह जानें। कुशल वेब सामग्री अनुकूलन के लिए हमारे चरण‑दर‑चरण मार्गदर्शिका का पालन करें।
 
 ### [Aspose.HTML के साथ .NET में HTML को XPS में बदलें](./convert-html-to-xps/)
+.NET के लिए Aspose.HTML की शक्ति का पता लगाएं: HTML को XPS में आसानी से बदलें। पूर्वापेक्षाएँ, चरण-दर-स्टेप मार्गदर्शिका और FAQ शामिल हैं।
 ### [HTML को ZIP के रूप में सहेजें – पूर्ण C# ट्यूटोरियल](./save-html-as-zip-complete-c-tutorial/)
 ### [HTML दस्तावेज़ बनाएं और ZIP में सहेजें – पूर्ण C# गाइड](./create-html-document-and-save-as-zip-complete-c-guide/)
 .NET के लिए Aspose.HTML का उपयोग करके C# में HTML दस्तावेज़ बनाकर उसे ZIP फ़ाइल में सहेजने की पूरी प्रक्रिया सीखें।

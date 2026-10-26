@@ -74,7 +74,6 @@ Aspose.HTML for .NET kullanarak dinamik ve web içerikleri oluşturmayı öğren
 ### [.NET'te Aspose.HTML ile XpsDevice ile XPS Belgeleri Oluşturun](./generate-xps-documents-by-xpsdevice/)
 Aspose.HTML for .NET ile web geliştirmenin potansiyelini açığa çıkarın. HTML belgelerini kolayca oluşturun, dönüştürün ve düzenleyin.
 ### [C#'ta Dizeden HTML Oluşturma – Özel Kaynak İşleyici Rehberi](./create-html-from-string-in-c-custom-resource-handler-guide/)
-C# içinde dizeden HTML oluşturmayı ve özel kaynak işleyicisiyle nasıl kullanacağınızı öğrenin.
 ### [C#'ta Metni Kalın ve İtalik Yapma – HTML Stili İçin Hızlı Rehber](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
 C# kullanarak HTML içinde metni kalın ve italik olarak biçimlendirmeyi hızlı bir şekilde öğrenin.
 ### [Aspose ile HTML Oluşturma – Öğeyi Bul ve Kalın Uygula](./how-to-create-html-with-aspose-find-element-apply-bold/)
@@ -98,6 +97,8 @@ Aspose.HTML for .NET ile HTML belgelerini kaydetmeyi adım adım öğrenin.
 Aspose.HTML kullanarak sıfırdan tam özellikli bir HTML belgesi oluşturmayı adım adım öğrenin.
 ### [Aspose.HTML ile C#'ta span innerHTML Ayarlama – Tam Kılavuz](./set-span-innerhtml-in-c-with-aspose-html-complete-guide/)
 C# kullanarak Aspose.HTML ile span elementinin innerHTML özelliğini nasıl ayarlayacağınızı adım adım öğrenin.
+### [C#'ta Paragraf Stilini Değiştirme – Tam Aspose.HTML Kılavuzu](./change-paragraph-style-in-c-complete-aspose-html-guide/)
+C# kullanarak HTML belgelerinde paragraf stillerini nasıl değiştireceğinizi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

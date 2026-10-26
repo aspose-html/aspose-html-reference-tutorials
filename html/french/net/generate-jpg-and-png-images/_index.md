@@ -132,6 +132,12 @@ Apprenez à créer un gestionnaire de ressources personnalisé en C# pour rendre
 Apprenez à générer des images PNG à partir de HTML en utilisant Aspose.HTML avec un guide complet en C#.
 ### [Convertir docx en zip – guide complet avec rendu d'image](./convert-docx-to-zip-complete-guide-with-image-rendering/)
 Apprenez à convertir des fichiers DOCX en archives ZIP tout en rendant les images, avec un guide complet et du code C#.
+### [Rendu HTML en PNG en C# – Guide complet avec Aspose.HTML](./render-html-to-png-in-c-complete-guide-with-aspose-html/)
+Apprenez à convertir du HTML en images PNG en C# en suivant un guide complet utilisant Aspose.HTML.
+### [Créer un PNG à partir de HTML avec Aspose.HTML – Guide complet étape par étape](./create-png-from-html-with-aspose-html-full-step-by-step-guid/)
+Suivez ce guide complet pour convertir du HTML en images PNG avec Aspose.HTML, étape par étape.
+### [Comment rendre le HTML en C# – guide étape par étape](./how-to-render-html-in-c-step-by-step-guide/)
+Apprenez à rendre du HTML en images en C# grâce à un guide complet étape par étape avec Aspose.HTML.
 
 ## Conclusion
 

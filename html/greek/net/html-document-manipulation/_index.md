@@ -65,6 +65,8 @@ url: /el/net/html-document-manipulation/
 Μάθετε πώς να δημιουργήσετε HTML, να προσθέσετε στοιχεία και να μορφοποιήσετε κείμενο με το Aspose.HTML για .NET.
 ### [Δημιουργία HTML από συμβολοσειρά σε C# – Οδηγός προσαρμοσμένου διαχειριστή πόρων](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Μάθετε πώς να δημιουργείτε HTML από συμβολοσειρά χρησιμοποιώντας προσαρμοσμένο διαχειριστή πόρων σε C#.
+### [Αλλαγή στυλ παραγράφου σε C# – Πλήρης οδηγός Aspose.HTML](./change-paragraph-style-in-c-complete-aspose-html-guide/)
+Μάθετε πώς να τροποποιήσετε το στυλ παραγράφων σε C# χρησιμοποιώντας το Aspose.HTML. Οδηγός βήμα-βήμα με παραδείγματα.
 ### [Επεξεργασία εγγράφου σε .NET με Aspose.HTML](./editing-a-document/)
 Δημιουργήστε συναρπαστικό περιεχόμενο ιστού με το Aspose.HTML για .NET. Μάθετε πώς να χειρίζεστε HTML, CSS και άλλα.
 ### [Ορισμός innerHTML του span σε C# με Aspose.HTML – Πλήρης Οδηγός](./set-span-innerhtml-in-c-with-aspose-html-complete-guide/)

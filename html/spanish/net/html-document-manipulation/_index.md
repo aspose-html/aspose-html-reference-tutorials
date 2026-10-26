@@ -99,6 +99,8 @@ Aprenda a generar HTML con texto formateado usando Aspose.HTML en C#. Guía paso
 Aprenda paso a paso a crear documentos HTML usando Aspose.HTML, con ejemplos y mejores prácticas.
 ### [Establecer innerHTML de span en C# con Aspose.HTML – Guía completa](./set-span-innerhtml-in-c-with-aspose-html-complete-guide/)
 Aprenda a establecer el innerHTML de un elemento span en C# usando Aspose.HTML con esta guía completa.
+### [Cambiar estilo de párrafo en C# – Guía completa de Aspose.HTML](./change-paragraph-style-in-c-complete-aspose-html-guide/)
+Aprenda a modificar el estilo de los párrafos en C# con Aspose.HTML. Guía paso a paso con ejemplos claros.
 
 ## Conclusión
 

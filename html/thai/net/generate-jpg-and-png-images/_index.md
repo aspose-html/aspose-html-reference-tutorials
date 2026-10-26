@@ -131,6 +131,12 @@ Aspose.HTML สำหรับ .NET นำเสนอวิธีการง�
 ### [สร้าง PNG จาก HTML ด้วย Aspose.HTML – คู่มือเต็ม C#](./create-png-from-html-with-aspose-html-full-c-guide/)
 เรียนรู้วิธีแปลง HTML เป็นไฟล์ PNG อย่างละเอียดด้วย Aspose.HTML ใน C# พร้อมขั้นตอนและตัวอย่างโค้ด
 ### [แปลง DOCX เป็น ZIP – คู่มือฉบับสมบูรณ์พร้อมการเรนเดอร์ภาพ](./convert-docx-to-zip-complete-guide-with-image-rendering/)
+### [เรนเดอร์ HTML เป็น PNG ใน C# – คู่มือฉบับสมบูรณ์ด้วย Aspose.HTML](./render-html-to-png-in-c-complete-guide-with-aspose-html/)
+เรียนรู้ขั้นตอนการแปลง HTML เป็นไฟล์ PNG ด้วย C# อย่างละเอียดโดยใช้ Aspose.HTML พร้อมเคล็ดลับและตัวอย่างโค้ด
+### [สร้าง PNG จาก HTML ด้วย Aspose.HTML – คู่มือเต็มขั้นตอน](./create-png-from-html-with-aspose-html-full-step-by-step-guid/)
+เรียนรู้วิธีแปลง HTML เป็นไฟล์ PNG อย่างละเอียดด้วย Aspose.HTML พร้อมขั้นตอนและตัวอย่างโค้ด
+### [วิธีเรนเดอร์ HTML ใน C# – คู่มือขั้นตอนต่อขั้นตอน](./how-to-render-html-in-c-step-by-step-guide/)
+เรียนรู้วิธีแปลง HTML เป็นภาพใน C# อย่างละเอียดด้วย Aspose.HTML พร้อมขั้นตอนและตัวอย่างโค้ด
 
 ## บทสรุป
 

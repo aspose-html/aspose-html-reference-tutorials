@@ -99,6 +99,8 @@ Dowiedz się, jak w C# łączyć style pogrubienia i kursywy w HTML, tworząc dy
 Dowiedz się, jak programowo ustawiać style czcionki w dokumentach HTML przy użyciu Aspose.HTML i C#.
 ### [Ustawienie innerHTML elementu span w C# przy użyciu Aspose.HTML – Kompletny przewodnik](./set-span-innerhtml-in-c-with-aspose-html-complete-guide/)
 Dowiedz się, jak w C# ustawić innerHTML elementu span przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
+### [Zmienianie stylu akapitu w C# – Kompletny przewodnik Aspose.HTML](./change-paragraph-style-in-c-complete-aspose-html-guide/)
+Dowiedz się, jak zmienić styl akapitu w dokumentach HTML przy użyciu Aspose.HTML w C#.
 
 ## Wniosek
 

@@ -131,6 +131,12 @@ C#에서 사용자 정의 리소스 핸들러를 구현하여 웹 페이지를 �
 Aspose.HTML을 활용해 HTML을 PNG 이미지로 변환하는 전체 C# 단계별 가이드를 제공합니다.
 ### [DOCX를 ZIP으로 변환 – 이미지 렌더링 포함 완전 가이드](./convert-docx-to-zip-complete-guide-with-image-rendering/)
 DOCX 파일을 이미지로 렌더링하고 ZIP 압축까지 수행하는 전체 과정을 단계별로 안내합니다.
+### [C#에서 HTML을 PNG로 렌더링 – Aspose.HTML 완전 가이드](./render-html-to-png-in-c-complete-guide-with-aspose-html/)
+Aspose.HTML을 사용해 C#에서 HTML을 PNG 이미지로 변환하는 전체 과정과 핵심 설정을 단계별로 안내합니다.
+### [Aspose.HTML을 사용하여 HTML에서 PNG 만들기 – 전체 단계별 가이드](./create-png-from-html-with-aspose-html-full-step-by-step-guid/)
+Aspose.HTML을 활용해 HTML을 PNG 이미지로 변환하는 방법을 단계별로 자세히 설명합니다.
+### [C#에서 HTML을 렌더링 – 단계별 가이드](./how-to-render-html-in-c-step-by-step-guide/)
+Aspose.HTML을 활용해 C#에서 HTML을 렌더링하는 전체 과정과 핵심 설정을 단계별로 안내합니다.
 
 ## 결론
 

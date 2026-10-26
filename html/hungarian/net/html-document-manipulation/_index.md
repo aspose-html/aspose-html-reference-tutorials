@@ -98,6 +98,8 @@ Ismerje meg, hogyan alkalmazhat betűstílusokat C#-ban programozottan az Aspose
 Ismerje meg, hogyan hozhat létre HTML-t formázott szöveggel C#-ban, részletes példákkal és magyarázatokkal.
 ### [Span innerHTML beállítása C#-ban az Aspose.HTML segítségével – Teljes útmutató](./set-span-innerhtml-in-c-with-aspose-html-complete-guide/)
 Ismerje meg, hogyan állíthatja be a span elem innerHTML-jét C#-ban az Aspose.HTML könyvtár segítségével, lépésről lépésre útmutató.
+### [Bekezdés stílusának módosítása C#-ban – Teljes Aspose.HTML útmutató](./change-paragraph-style-in-c-complete-aspose-html-guide/)
+Tanulja meg, hogyan módosíthatja a bekezdés stílusát C#-ban az Aspose.HTML segítségével, lépésről lépésre útmutatóval.
 
 ## Következtetés
 

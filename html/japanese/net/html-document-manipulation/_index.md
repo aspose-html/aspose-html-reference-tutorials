@@ -100,6 +100,8 @@ C# でフォント スタイルをプログラム的に適用する方法を簡�
 C# でスタイル付きテキストを含む HTML を作成する方法を学びます。ステップバイステップの完全ガイドです。
 ### [Aspose.HTML を使用して C# で span の innerHTML を設定する – 完全ガイド](./set-span-innerhtml-in-c-with-aspose-html-complete-guide/)
 Aspose.HTML for .NET を使用して C# で span の innerHTML を設定する方法を学びます。
+### [C# で段落スタイルを変更する – 完全 Aspose.HTML ガイド](./change-paragraph-style-in-c-complete-aspose-html-guide/)
+Aspose.HTML for .NET を使用して、C# で段落のスタイルを変更する方法をステップバイステップで学びます。
 
 ## 結論
 

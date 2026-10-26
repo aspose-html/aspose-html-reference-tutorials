@@ -101,6 +101,8 @@ Learn how to apply font styles programmatically in HTML using Aspose.HTML for .N
 Learn how to create HTML with styled text in C# using Aspose.HTML, featuring step-by-step examples and practical tips.
 ### [Set span innerHTML in C# with Aspose.HTML – Complete Guide](./set-span-innerhtml-in-c-with-aspose-html-complete-guide/)
 Learn how to set the innerHTML of a span element using Aspose.HTML in C#. Step-by-step guide with code examples.
+### [Change Paragraph Style in C# – Complete Aspose.HTML Guide](./change-paragraph-style-in-c-complete-aspose-html-guide/)
+Learn how to modify paragraph styles programmatically using Aspose.HTML for .NET in C#. Step-by-step guide with examples.
 
 ## Conclusion
 

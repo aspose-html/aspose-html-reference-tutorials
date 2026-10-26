@@ -105,6 +105,8 @@ Pelajari cara menerapkan gaya font secara programatis dalam C# dengan panduan si
 Pelajari cara membuat dokumen HTML dengan teks berformat menggunakan Aspose.HTML di C#. Panduan lengkap langkah demi langkah.
 ### [Mengatur innerHTML span di C# dengan Aspose.HTML – Panduan Lengkap](./set-span-innerhtml-in-c-with-aspose-html-complete-guide/)
 Pelajari cara mengatur properti innerHTML pada elemen span menggunakan C# dan Aspose.HTML dengan contoh lengkap.
+### [Mengubah Gaya Paragraf di C# – Panduan Lengkap Aspose.HTML](./change-paragraph-style-in-c-complete-aspose-html-guide/)
+Pelajari cara mengubah gaya paragraf pada dokumen HTML menggunakan C# dengan Aspose.HTML secara lengkap.
 
 ## Kesimpulan
 

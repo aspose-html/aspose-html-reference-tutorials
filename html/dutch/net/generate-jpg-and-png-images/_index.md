@@ -135,6 +135,12 @@ Leer hoe u HTML naar PNG rendert met aangepaste handlers en diverse opties in ee
 Leer hoe u een aangepaste resourcehandler implementeert om webpagina's te renderen als afbeeldingen met Aspose.HTML in C#.
 ### [docx naar zip converteren – volledige gids met afbeeldingsrendering](./convert-docx-to-zip-complete-guide-with-image-rendering/)
 Leer hoe u een DOCX-bestand converteert, afbeeldingen rendert en de resultaten in een zip‑archief opslaat met Aspose.HTML en C#.
+### [Render HTML naar PNG in C# – Complete gids met Aspose.HTML](./render-html-to-png-in-c-complete-guide-with-aspose-html/)
+Leer hoe u HTML naar PNG rendert in C# met Aspose.HTML, stap‑voor‑stap instructies en voorbeeldcode.
+### [PNG maken vanuit HTML met Aspose.HTML – Volledige stapsgewijze gids](./create-png-from-html-with-aspose-html-full-step-by-step-guid/)
+Leer hoe u met Aspose.HTML PNG‑afbeeldingen genereert vanuit HTML met een volledige stap‑voor‑stap handleiding.
+### [Render HTML in C# – Stapsgewijze gids](./how-to-render-html-in-c-step-by-step-guide/)
+Leer hoe u HTML rendert in C# met Aspose.HTML, stap‑voor‑stap instructies en voorbeeldcode.
 
 ## Conclusie
 

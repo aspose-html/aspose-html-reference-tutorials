@@ -122,8 +122,6 @@ Dowiedz się, jak spakować HTML przy użyciu Aspose.HTML – kompletny przewodn
 Dowiedz się, jak spakować plik HTML do archiwum ZIP w C# przy użyciu Aspose.HTML – pełny przewodnik krok po kroku.
 ### [Jak spakować HTML w C# – Eksportuj stronę internetową do ZIP przy użyciu Aspose.HTML](./how-to-zip-html-in-c-export-webpage-to-zip-with-aspose-html/)
 Dowiedz się, jak wyeksportować całą stronę internetową do pliku ZIP w C# przy użyciu Aspose.HTML.
-### [Konwertuj HTML do ZIP w C# – Kompletny przewodnik krok po kroku](./convert-html-to-zip-in-c-complete-step-by-step-guide/)
-Zapisz HTML do archiwum ZIP w C# przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
 ### [Jak spakować HTML w C# – Przewodnik krok po kroku](./how-to-zip-html-in-c-step-by-step-guide/)
 Krok po kroku dowiedz się, jak spakować HTML w C# przy użyciu Aspose.HTML.
 ### [Jak używać ZipArchive w C# – Zapisz HTML jako ZIP](./how-to-use-ziparchive-in-c-save-html-as-zip/)
@@ -219,6 +217,8 @@ Dowiedz się, jak spakować pliki HTML do archiwum ZIP w C# przy użyciu Aspose.
 Dowiedz się, jak przy użyciu ZipHandler spakować stronę internetową do archiwum ZIP w C# przy użyciu Aspose.HTML.
 ### [Zapisz HTML do ZIP – Kompletny przewodnik Aspose.HTML](./save-html-to-zip-complete-aspose-html-guide/)
 Pełny przewodnik, jak zapisać dokument HTML jako archiwum ZIP przy użyciu biblioteki Aspose.HTML w .NET.
+### [Konwertuj HTML do ZIP w C# – Kompletny przewodnik krok po kroku](./convert-html-to-zip-in-c-complete-step-by-step-guide/)
+Zapisz plik HTML jako archiwum ZIP w C# przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
 
 ## Wniosek
 

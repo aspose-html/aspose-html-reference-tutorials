@@ -131,6 +131,12 @@ Hướng dẫn tạo trình xử lý tài nguyên tùy chỉnh trong C# để ch
 Hướng dẫn chi tiết cách tạo tệp PNG từ HTML bằng Aspose.HTML trong C# với các bước thực tế và tối ưu.
 ### [Chuyển đổi DOCX sang ZIP – Hướng dẫn toàn diện với việc hiển thị hình ảnh](./convert-docx-to-zip-complete-guide-with-image-rendering/)
 Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX thành tệp ZIP, bao gồm render hình ảnh và các bước thực hiện bằng C#.
+### [Render HTML sang PNG trong C# – Hướng dẫn toàn diện với Aspose.HTML](./render-html-to-png-in-c-complete-guide-with-aspose-html/)
+Hướng dẫn chi tiết cách chuyển đổi HTML thành hình ảnh PNG bằng C# sử dụng Aspose.HTML, bao gồm các bước cấu hình và tối ưu hóa.
+### [Tạo PNG từ HTML với Aspose.HTML – Hướng dẫn chi tiết từng bước](./create-png-from-html-with-aspose-html-full-step-by-step-guid/)
+Hướng dẫn toàn diện cách chuyển đổi HTML thành hình ảnh PNG bằng Aspose.HTML, bao gồm các bước cấu hình và tối ưu hóa.
+### [Cách render HTML trong C# – hướng dẫn từng bước](./how-to-render-html-in-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách render HTML trong C# bằng Aspose.HTML, bao gồm các bước cấu hình và tối ưu hoá.
 
 ## Phần kết luận
 

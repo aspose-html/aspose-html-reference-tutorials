@@ -100,6 +100,8 @@ Aspose.HTML สำหรับ .NET โดดเด่นด้วยควา�
 เรียนรู้วิธีสร้างเอกสาร HTML อย่างเต็มรูปแบบด้วย Aspose.HTML สำหรับ .NET พร้อมตัวอย่างและขั้นตอนที่ชัดเจน
 ### [ตั้งค่า span innerHTML ใน C# ด้วย Aspose.HTML – คู่มือครบถ้วน](./set-span-innerhtml-in-c-with-aspose-html-complete-guide/)
 เรียนรู้วิธีตั้งค่า innerHTML ของแท็ก span ใน C# ด้วย Aspose.HTML อย่างละเอียดและครบถ้วน
+### [เปลี่ยนสไตล์ย่อหน้าใน C# – คู่มือ Aspose.HTML ฉบับสมบูรณ์](./change-paragraph-style-in-c-complete-aspose-html-guide/)
+เรียนรู้วิธีปรับสไตล์ของย่อหน้าใน C# ด้วย Aspose.HTML อย่างละเอียดและครบถ้วน
 
 ## บทสรุป
 

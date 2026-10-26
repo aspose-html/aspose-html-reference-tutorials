@@ -102,6 +102,8 @@ Hướng dẫn nhanh cách áp dụng kiểu phông chữ trong tài liệu HTML
 Hướng dẫn chi tiết cách tạo tài liệu HTML với văn bản có định dạng bằng C#, bao gồm ví dụ thực tế và các bước thực hiện.
 ### [Đặt innerHTML cho thẻ span trong C# với Aspose.HTML – Hướng dẫn toàn diện](./set-span-innerhtml-in-c-with-aspose-html-complete-guide/)
 Tìm hiểu cách thiết lập thuộc tính innerHTML cho thẻ span trong C# bằng Aspose.HTML. Hướng dẫn chi tiết từng bước.
+### [Thay đổi kiểu đoạn văn trong C# – Hướng dẫn đầy đủ Aspose.HTML](./change-paragraph-style-in-c-complete-aspose-html-guide/)
+Tìm hiểu cách thay đổi kiểu đoạn văn trong C# bằng Aspose.HTML. Hướng dẫn chi tiết từng bước cho nhà phát triển.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

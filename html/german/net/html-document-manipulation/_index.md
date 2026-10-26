@@ -101,6 +101,8 @@ Erfahren Sie, wie Sie HTML mit Aspose.HTML speichern. Eine klare Schritt‑für�
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET Schriftstile programmgesteuert anwenden und HTML-Inhalte in C# formatieren.
 ### [Setzen des span‑innerHTML in C# mit Aspose.HTML – Komplett‑Leitfaden](./set-span-innerhtml-in-c-with-aspose-html-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML in C# den innerHTML von span-Elementen setzen und dynamische Inhalte erstellen.
+### [Absatzstil in C# ändern – Vollständige Aspose.HTML-Anleitung](./change-paragraph-style-in-c-complete-aspose-html-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML für .NET den Stil von Absätzen in C# ändern. Schritt-für-Schritt-Anleitung mit Beispielen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

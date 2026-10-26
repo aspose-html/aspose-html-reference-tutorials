@@ -97,6 +97,8 @@ Aprenda a aplicar estilos de fonte programaticamente em C# usando Aspose.HTML. G
 Aprenda a criar documentos HTML com texto formatado usando C#. Guia passo a passo com exemplos práticos.
 ### [Criar documento HTML com Aspose.HTML – Guia completo](./create-html-document-with-aspose-html-full-guide/)
 Aprenda a criar documentos HTML usando Aspose.HTML com um guia passo a passo completo.
+### [Alterar Estilo de Parágrafo em C# – Guia Completo do Aspose.HTML](./change-paragraph-style-in-c-complete-aspose-html-guide/)
+Aprenda a alterar o estilo de parágrafos em C# usando Aspose.HTML com este guia completo.
 
 ## Conclusão
 

@@ -111,6 +111,8 @@ Aspose.HTML for .NET 因其簡單性和強大功能而脫穎而出。它使您�
 了解如何使用 Aspose.HTML for .NET 從頭建立完整的 HTML 文件，涵蓋設定、內容加入與儲存等步驟。
 ### [在 C# 中使用 Aspose.HTML 設定 span innerHTML – 完整指南](./set-span-innerhtml-in-c-with-aspose-html-complete-guide/)
 了解如何在 C# 使用 Aspose.HTML 設定 span 元素的 innerHTML，並掌握完整的操作步驟與範例。
+### [在 C# 中變更段落樣式 – 完整 Aspose.HTML 指南](./change-paragraph-style-in-c-complete-aspose-html-guide/)
+了解如何在 C# 使用 Aspose.HTML 完整地變更段落樣式，提升文件排版與呈現效果。
 
 ## 結論
 

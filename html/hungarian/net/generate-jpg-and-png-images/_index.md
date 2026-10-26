@@ -125,6 +125,11 @@ Ismerje meg, hogyan hozhat létre egyéni erőforráskezelőt C#-ban, amely HTML
 ### [PNG létrehozása HTML-ből az Aspose.HTML segítségével – Teljes C# útmutató](./create-png-from-html-with-aspose-html-full-c-guide/)
 ### [docx konvertálása zip-re – Teljes útmutató képrendereléssel](./convert-docx-to-zip-complete-guide-with-image-rendering/)
 Ismerje meg, hogyan konvertálhat docx fájlokat zip archívumba, miközben képeket renderel, C# és Aspose.HTML segítségével.
+### [HTML renderelése PNG-be C#-ban – Teljes útmutató az Aspose.HTML segítségével](./render-html-to-png-in-c-complete-guide-with-aspose-html/)
+Ismerje meg, hogyan konvertálhat HTML-t PNG képpé C#-ban az Aspose.HTML teljes körű útmutatója segítségével.
+### [PNG létrehozása HTML-ből az Aspose.HTML segítségével – Teljes lépésről lépésre útmutató](./create-png-from-html-with-aspose-html-full-step-by-step-guid/)
+### [HTML renderelése C#-ban – lépésről lépésre útmutató](./how-to-render-html-in-c-step-by-step-guide/)
+Ismerje meg, hogyan renderelhet HTML-t C#-ban az Aspose.HTML segítségével, részletes, lépésről lépésre útmutatóval.
 
 ## Következtetés
 

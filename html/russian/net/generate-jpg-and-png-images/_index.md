@@ -129,6 +129,12 @@ Aspose.HTML для .NET предлагает простой метод прео�
 Подробное руководство по конвертации HTML в PNG с использованием Aspose.HTML в C#, включая настройку параметров и примеры кода.
 ### [Конвертация DOCX в ZIP – Полное руководство с рендерингом изображений](./convert-docx-to-zip-complete-guide-with-image-rendering/)
 Узнайте, как полностью преобразовать DOCX в ZIP-архив с рендерингом изображений, используя Aspose.HTML для .NET.
+### [Рендеринг HTML в PNG на C# – Полное руководство с Aspose.HTML](./render-html-to-png-in-c-complete-guide-with-aspose-html/)
+Подробное руководство по рендерингу HTML в PNG с помощью Aspose.HTML в C#, включая настройки и примеры кода.
+### [Создание PNG из HTML с Aspose.HTML – Полное пошаговое руководство](./create-png-from-html-with-aspose-html-full-step-by-step-guid/)
+Подробное руководство по созданию PNG‑изображений из HTML с помощью Aspose.HTML, включая настройку, примеры кода и лучшие практики.
+### [Как рендерить HTML в C# – пошаговое руководство](./how-to-render-html-in-c-step-by-step-guide/)
+Подробное пошаговое руководство по рендерингу HTML в C# с использованием Aspose.HTML.
 
 ## Заключение
 
