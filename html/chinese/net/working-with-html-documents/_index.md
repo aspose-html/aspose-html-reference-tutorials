@@ -31,8 +31,27 @@ HTML 文档是 Web 的支柱，能够有效地创建和操作 HTML 文档是任�
 ### [使用 Aspose.HTML 在 .NET 中编辑文档](./editing-a-document/)
 
 ### [如何在 C# 中保存 HTML – 使用自定义资源处理程序的完整指南](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
+### [如何使用 Aspose.Html 保存 HTML – 完整 C# 指南](./how-to-save-html-with-aspose-html-complete-c-guide/)
+
+### [如何在 C# 中保存 HTML – 使用自定义资源处理程序](./how-to-save-html-in-c-with-custom-resource-handler/)
+### [在 C# 中将 HTML 保存为 ZIP – 使用自定义资源处理程序的完整指南](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
+### [如何保存 HTML – Aspose HTMLDocument 完整指南](./how-to-save-html-aspose-htmldocument-complete-guide/)
 
 ### [使用 CSS 和 C# 加粗标题 – 完整分步指南](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+### [如何在 C# 中保存 HTML – 自定义资源处理程序和 ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
+
+### [如何在 C# 中压缩 HTML – 完整分步指南](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+### [如何使用 Aspose 保存 HTML – 完整 C# 指南](./how-to-save-html-with-aspose-complete-c-guide/)
+### [如何在 C# 中压缩 HTML – 完整创建 ZIP 档案指南](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
+
+### [使用 C# 创建 HTML 文档 – 使用自定义资源处理程序的完整指南](./create-html-document-c-complete-guide-with-custom-resource-h/)
+### [在 C# 中从字符串创建 HTML – 完整分步指南](./create-html-from-string-in-c-step-by-step-guide/)
+### [使用 CSS 和 C# 加粗标题 – 完整分步指南](./how-to-bold-heading-with-cs-complete-step-by-step-guide/)
+### [使用 Aspose.HTML 加载 HTML 文档 – 完整 C# 指南](./load-html-document-with-aspose-html-complete-c-guide/)
+### [使用 CSS 和 C# 加粗标题 – 完整分步指南](./how-to-bold-heading-with-c-complete-step-by-step-guide/)
+### [在 C# 中从字符串创建 HTML – 使用内存流的完整指南](./create-html-from-string-in-c-full-guide-with-memory-stream/)
+### [如何在 C# 中保存 HTML – 完整分步指南](./how-to-save-html-in-c-complete-step-by-step-guide/)
+### [创建 HTML 的 Zip 压缩包 – 完整 C# 指南](./create-zip-archive-for-html-complete-c-guide/)
 
 ### [保存 HTML 为 Zip – 完整 C# 内存归档指南](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
 

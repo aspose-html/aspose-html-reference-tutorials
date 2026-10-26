@@ -10,15 +10,11 @@ url: /cs/java/handling-zip-files/zip-file-schema-handler/
 weight: 11
 ---
 
-ováno s:** Aspose.HTML for Java 24.11 (nejnovější v době psaní)"
 
-**Author:** Aspose -> "**Autor:** Aspose"
 
-Then closing shortcodes.
 
-Also note step about proper RTL formatting if needed - not needed.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

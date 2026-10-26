@@ -1,0 +1,7 @@
+Title: How to configure HTML resource handling in Python and load an HTML document
+Slug: how-to-configure-html-resource-handling-in-python-and-load-a
+Category: general
+ProcessedDate: 2026-09-07T14:41:47.930389
+SourceRepo: AI Search API
+Keywords: configure html resource handling, load html document python
+PRNumber: 257

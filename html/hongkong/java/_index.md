@@ -1,9 +1,64 @@
 ---
-date: 2025-11-30
-description: 學習如何使用 Java 與 Aspose.HTML 將 HTML 轉換為 PDF。探索將 HTML 轉換為 SVG、TIFF、Markdown，自動化
-  HTML 表單填寫，以及將 HTML Canvas 轉換為 PDF。
-linktitle: Aspose.HTML Tutorials
-title: HTML 轉 PDF（Java）– Aspose.HTML 完整教學
+date: 2026-08-28
+description: 使用 Aspose.HTML for Java 進行 Html to pdf java 轉換：了解如何將 HTML 轉換為 PDF、將 canvas
+  匯出為 PDF、將 epub 轉換為 PDF 等等。
+keywords:
+- html to pdf java
+- export canvas to pdf
+- convert epub to pdf
+- convert html to pdf
+- html to pdf aspose
+lastmod: 2026-08-28
+linktitle: Aspose.HTML 教程
+og_description: 使用 Aspose.HTML for Java 的 Html to pdf java 教程。將 HTML 轉換為 PDF、將 canvas
+  匯出為 PDF，並以高保真度將 EPUB 轉換為 PDF。
+og_image_alt: Developer guide showing html to pdf java conversion with Aspose.HTML
+  for Java
+og_title: Html to pdf java – 全面 Aspose.HTML 指南
+schemas:
+- author: Aspose
+  dateModified: '2026-08-28'
+  description: 'Html to pdf java conversion with Aspose.HTML for Java: learn how to
+    convert HTML to PDF, export canvas to PDF, convert epub to PDF, and more.'
+  headline: Html to pdf java – comprehensive Aspose.HTML tutorials
+  type: TechArticle
+- description: 'Html to pdf java conversion with Aspose.HTML for Java: learn how to
+    convert HTML to PDF, export canvas to PDF, convert epub to PDF, and more.'
+  name: Html to pdf java – comprehensive Aspose.HTML tutorials
+  steps:
+  - name: '**Load the HTML source** – from a file, URL, or string.'
+    text: '**Load the HTML source** – from a file, URL, or string.'
+  - name: '**Configure conversion options** – such as page size, margins, or font
+      embedding.'
+    text: '**Configure conversion options** – such as page size, margins, or font
+      embedding.'
+  - name: '**Save the result as PDF** – using the `PdfSaveOptions` class.'
+    text: '**Save the result as PDF** – using the `PdfSaveOptions` class.'
+  type: HowTo
+- questions:
+  - answer: A free trial is available for evaluation, but a commercial license is
+      required for production deployments.
+    question: Can I convert HTML to PDF without a license?
+  - answer: Yes, the rendering engine supports most CSS3 properties, including flexbox,
+      grid, and transitions.
+    question: Does Aspose.HTML support CSS3 features?
+  - answer: Use the `Form` API to load a document, set field values programmatically,
+      and then save the result. The API lets you loop over a collection of forms and
+      generate PDFs in bulk.
+    question: How do I automate filling out multiple HTML forms?
+  - answer: Absolutely – the `HtmlToSvgConverter` class handles this conversion with
+      high fidelity, preserving vector paths and text.
+    question: Is it possible to convert an HTML page directly to SVG?
+  - answer: Render the canvas to a bitmap first, then use `PdfSaveOptions` to embed
+      the image, or use the built‑in canvas‑to‑PDF method for vector output, which
+      yields smaller files and sharper rendering.
+    question: What is the best way to convert a large HTML canvas to PDF?
+  type: FAQPage
+tags:
+- html to pdf
+- aspose.html
+- java document processing
+title: Html to pdf java – 全面 Aspose.HTML 教程
 url: /zh-hant/java/
 weight: 10
 ---
@@ -12,173 +67,178 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# HTML 轉 PDF Java – Aspose.HTML 完整教學
+# Html to pdf java – Aspose.HTML 全面教學
 
-Aspose.HTML for Java 是一套功能多元的程式庫，提供廣泛的能力來加強您的 HTML 處理工作。**如果您想執行 html to pdf java 轉換，本指南已為您備妥。** 本文將深入探討 Aspose.HTML for Java 的各種面向，並透過一系列完整的教學示範其進階用法。
+如果您需要在 Java 應用程式中快速且可靠地執行 **html to pdf java**，您來對地方了。本指南將帶您逐步了解最常見的情境——從簡單的 HTML 轉 PDF 轉換，到自動填寫 HTML 表單、匯出 Canvas 元素，甚至將 EPUB 檔案轉換為 PDF 等進階任務。完成後，您將清楚了解 Aspose.HTML for Java 如何成為文件產生流程的核心，無論是構建微服務還是大型批次處理器。
 
-## 快速答覆
+## 快速解答
 - **Aspose.HTML for Java 的主要用途是什麼？** 轉換與操作 HTML，包括 html to pdf java 轉換。  
-- **我可以使用此程式庫將 HTML 轉成 SVG 嗎？** 可以 – 使用 `HtmlToSvgConverter` 類別。  
-- **是否支援自動填寫表單？** 當然；程式庫提供 API 以程式方式填寫 HTML 表單。  
-- **我要如何把 HTML canvas 變成 PDF？** 使用 canvas 呈現 API，然後將結果儲存為 PDF（html canvas to pdf）。  
-- **除了 PDF，還能匯出哪些格式？** SVG、TIFF、PNG、JPEG、Markdown、XPS 等等。
+- **我可以使用此函式庫將 HTML 轉換為 SVG 嗎？** 可以 – 使用 `HtmlToSvgConverter` 類別。  
+- **是否支援自動填寫表單？** 絕對支援；此函式庫提供 API 以程式方式填寫 HTML 表單。  
+- **如何將 HTML Canvas 轉換為 PDF？** 使用 Canvas 渲染 API，然後將結果儲存為 PDF（export canvas to pdf）。  
+- **除了 PDF，HTML 還能匯出為哪些格式？** SVG、TIFF、PNG、JPEG、Markdown、XPS 等等。  
+- **我可以在同一工作流程中將 EPUB 轉換為 PDF 嗎？** 可以 – Aspose.HTML 支援以單一方法呼叫將 epub 轉換為 pdf。  
+- **生產環境是否需要授權？** 商業授權在生產環境中是必須的；亦提供免費試用供評估使用。
+
+## 如何使用 Aspose.HTML for Java 轉換 html 為 pdf？
+
+載入您的 HTML，設定轉換參數，然後儲存為 PDF——這就是完整的三步驟工作流程。對於一般的網頁，您可以在不到一分鐘的時間內完成整個操作，且函式庫會自動處理 CSS3、JavaScript 以及嵌入字型。
+
+**直接回答（40‑70 字）：**  
+建立一個 `HtmlDocument`（或從 URL 載入），建立 `PdfSaveOptions` 物件以定義頁面大小、邊距與字型嵌入，然後呼叫 `document.save("output.pdf", saveOptions)`。Aspose.HTML 會如同現代瀏覽器般精確渲染頁面，保留版面配置、影像與互動腳本，並直接將 PDF 寫入磁碟，無需暫存檔案。
+
+`PdfSaveOptions` 類別讓您微調 PDF 輸出。  
+*定義錨點:* `PdfSaveOptions` 設定 PDF 專屬的參數，例如頁面尺寸、壓縮等級以及產生文件的字型嵌入。
+
+1. **載入 HTML 來源** – 從檔案、URL 或字串。  
+2. **設定轉換選項** – 例如頁面大小、邊距或字型嵌入。  
+3. **將結果儲存為 PDF** – 使用 `PdfSaveOptions` 類別。
+
+這些步驟讓您在保持程式碼簡潔易維護的同時，獲得精細的控制。
 
 ## 什麼是「html to pdf java」？
-「html to pdf java」指的是使用 Java 程式碼將 HTML 內容轉換為 PDF 文件的過程。Aspose.HTML for Java 能可靠地完成此轉換，保留版面配置、CSS 與 JavaScript 執行結果。
 
-## 為什麼選擇 Aspose.HTML for Java 進行轉換？
-- **高保真度** – 產生的 PDF 與原始 HTML 渲染引擎的呈現結果相符。  
-- **廣泛格式支援** – 可轉成 PDF、SVG、TIFF、PNG、JPEG、Markdown 等等。  
-- **自動化就緒** – 可程式化填寫表單、操作 DOM，並在批次工作中產生 PDF。  
-- **無外部相依** – 在任何 Java 平台上皆可執行，無需瀏覽器或原生函式庫。
+「Html to pdf java」描述了使用 Java 程式碼將 HTML 內容轉換為 PDF 文件的過程。Aspose.HTML for Java 以像素級的精確度執行此轉換，確保 CSS3 版面、網頁字型與客戶端腳本在最終 PDF 中忠實再現。
+
+## 為什麼在轉換時使用 Aspose.HTML for Java？
+
+Aspose.HTML for Java 提供業界領先的精確度與效能。它支援 **50 多種輸入與輸出格式**（包括 PDF、SVG、TIFF、PNG、JPEG、BMP、GIF、MHTML、XPS、Markdown），且能在一般伺服器上於 5 秒內處理 300 頁的 HTML 文件，且不需要瀏覽器引擎或原生相依性。
 
 ## 前置條件
-- Java 8 或更新版本。  
+
+- Java 8 或更高版本。  
 - Aspose.HTML for Java 程式庫（從 Aspose 官方網站下載）。  
-- 用於正式環境的有效 Aspose.HTML 授權（提供免費試用版）。
+- 有效的 Aspose.HTML 生產授權（提供免費試用）。
 
 ## 自訂 HTML 頁面邊距
-HTML 文件處理的一項重要工作是控制頁面版面。Aspose.HTML for Java 讓您輕鬆自訂 HTML 頁面的邊距。無論您需要精確的間距控制，或是想建立具特殊格式的文件，本教學都會一步步帶您完成。
 
-## 實作 DOM Mutation Observer
-了解 Document Object Model（DOM）變化對許多 Web 應用程式而言相當關鍵。使用 Aspose.HTML for Java，您可以實作 DOM Mutation Observer，偵測並回應 HTML 結構的變動。此功能對動態 Web 內容與互動式應用程式特別有用。
+在需要符合企業品牌的可列印 PDF 時，控制頁面邊距至關重要。使用 `PdfSaveOptions` 的 margin 屬性以點 (point) 為單位設定上、下、左、右的偏移。例如，1 吋的邊距等於 72 點。
+
+## 實作 DOM 變更觀察器
+
+DOM 變更觀察器讓您能對文件結構的變化（例如 JavaScript 新增的節點）作出回應。Aspose.HTML 提供 API 以註冊回呼函式，當 DOM 發生變更時即觸發，讓您在轉換前捕捉動態內容。
 
 ## 操作 HTML5 Canvas
-HTML5 Canvas 是製作圖形與動畫的強大工具。透過 Aspose.HTML for Java，您可以操作 HTML5 Canvas，打造視覺上吸引人的 Web 內容。本教學將帶您一步步發揮 Canvas 元素的全部潛能。
+
+HTML5 Canvas 是用於圖表、簽名與自訂圖形的強大繪圖表面。使用 Aspose.HTML，您可以將 Canvas 元素渲染為影像緩衝區，然後將該影像嵌入 PDF，或直接使用內建的 canvas‑to‑PDF 方法將 Canvas 匯出為向量 PDF（export canvas to pdf）。
 
 ## 自動化 HTML 表單填寫
-大量文件的 HTML 表單填寫往往相當繁瑣。Aspose.HTML for Java 提供自動化工具，讓您快速且有效率地填寫 HTML 表單。透過本教學，您將告別手動輸入資料的困擾。
+
+手動填寫 HTML 表單容易出錯且效率低下。`Form` API 讓您載入 HTML 文件、以程式方式設定欄位值，然後將完成的表單渲染為 PDF。這非常適合產生發票、合約或任何來源於網頁表單的文件。
 
 ## 轉換 – Canvas 轉 PDF（html canvas to pdf）
-在現代數位環境中，掌握數位轉換的技巧至關重要。Aspose.HTML for Java 讓您能無縫將 HTML Canvas 轉為 PDF。本完整指南將提供產出高品質 PDF 文件所需的知識與技能。
+
+Aspose.HTML 讓將 Canvas 元素轉換為高品質 PDF 變得簡單。函式庫會捕捉 Canvas 的繪圖指令，並以向量圖形寫入，確保在任何縮放層級下皆保持可伸縮性與清晰度。
 
 ## 轉換 – EPUB 轉圖像與 PDF
-使用 Aspose.HTML for Java，您可以輕鬆將 EPUB 檔案轉換為圖像，同時學習如何執行 EPUB 轉 PDF。此步驟說明指南簡化整個流程，適合新手與有經驗的開發者。
+
+您可以將 EPUB 的每一頁提取為點陣圖（PNG、JPEG 或 TIFF），再將這些影像合併成單一 PDF。此兩步驟流程在需要製作可列印的電子書版本且保留原始版面時非常有用。
 
 ## 轉換 – EPUB 轉 XPS
-了解如何使用 Aspose.HTML for Java 將 EPUB 轉為 XPS。本教學提供詳細的步驟說明與程式碼範例，並說明如何自訂串流提供者與 XPS 儲存選項，以取得更高的控制權。
 
-## 轉換 – HTML 轉各種圖像格式
-學習如何使用 Aspose.HTML for Java 將 HTML 內容轉換為 BMP、GIF、JPEG、PNG、TIFF 等多種圖像格式。本完整教學將讓您具備高效文件處理的能力，從 HTML 文件產出高品質圖像。
+Aspose.HTML 亦支援將 EPUB 檔案轉換為 XPS，這是一種在 Windows 列印流程中使用的固定版面格式。API 允許您指定自訂的串流提供者與 XPS 儲存選項，以微調輸出。
+
+## 轉換 – HTML 轉多種影像格式
+
+當您需要網頁的快照時，Aspose.HTML 能直接將 HTML 渲染為 BMP、GIF、JPEG、PNG 或 TIFF。`ImageSaveOptions` 類別讓您控制 DPI、色彩深度與壓縮，輕鬆產生縮圖或高解析度列印品。
 
 ## 轉換 – HTML 轉其他格式
-Aspose.HTML for Java 讓您輕鬆將 HTML 轉為 PDF、MHTML、XPS、Markdown、SVG 等多種格式。本教學將一步步指引您完成高品質文件轉換。
 
-## EPUB 與圖像格式之間的相互轉換
-使用 Aspose.HTML for Java，您可以毫不費力地將 EPUB 檔案轉換為多種圖像格式。此步驟說明指南簡化了轉換流程，讓 EPUB 與各種圖像格式之間的切換變得順暢。
+除了 PDF，Aspose.HTML 還能將 HTML 匯出為 MHTML、XPS、Markdown、SVG 等等。每種格式都有對應的儲存選項類別，讓您依需求客製化輸出（例如在 MHTML 中嵌入資源或在 SVG 中保留向量路徑）。
+
+## 在 EPUB 與影像格式之間轉換
+
+若需從電子書製作視覺資產，可一次性將 EPUB 頁面轉換為 PNG、JPEG 或 TIFF。此功能方便為線上目錄產生預覽圖，或將頁面導入出版工作流程。
 
 ## EPUB 轉 PDF
-利用 Aspose.HTML for Java 的強大功能，輕鬆將 EPUB 轉換為 PDF，快速產生可存取的 PDF 內容。
+
+`EpubToPdfConverter` 類別負責完整的轉換流程，保留嵌入字型、影像與 CSS 樣式。產生的 PDF 可搜尋、可選取，且完整分頁，適合發佈或存檔。
 
 ## HTML 轉 SVG（convert html to svg）
-若需要可縮放向量圖形，Aspose.HTML for Java 可直接將 HTML 頁面轉為 SVG 檔案。此格式在任何解析度下皆保持清晰，適合標誌與圖表使用。
 
-## 將 HTML 儲存為 Markdown（save html as markdown）
-在文件流程中，您可以將 HTML 內容匯出為 Markdown，保留標題與清單，同時去除繁重樣式，方便與靜態網站產生器整合。
+SVG 輸出保留向量品質，對於標誌、圖表與 UI 原型圖至關重要。`HtmlToSvgConverter` 類別會解析 HTML DOM、套用 CSS，並寫入可於 Adobe Illustrator 等工具編輯的可伸縮向量圖形。
+
+## HTML 另存為 Markdown（save html as markdown）
+
+Markdown 是文件平台的通用語言。Aspose.HTML 的 `HtmlToMarkdownConverter` 會去除樣式，同時保留標題、清單、表格與程式碼區塊，讓網頁內容順利遷移至靜態網站生成器。
 
 ## HTML 轉 TIFF（convert html to tiff）
-當需要高解析度點陣圖時，Aspose.HTML 能將 HTML 頁面渲染為 TIFF 檔案，並支援多頁 TIFF，適合複雜報表。
 
-## html to pdf java – 所有轉換功能概覽
-以下是本指南涵蓋的轉換功能快速參考：
+TIFF 因支援無損壓縮與多頁文件，常被用於存檔列印。使用 `TiffSaveOptions` 定義位元深度、壓縮演算法，以及產生單頁或多頁 TIFF。
+
+## Html to pdf java – 所有轉換概覽
+
+以下是本指南中涵蓋的轉換功能快速參考表：
 
 | 來源 | 目標格式 |
 |--------|----------------|
-| HTML   | PDF、SVG、TIFF、PNG、JPEG、BMP、GIF、MHTML、XPS、Markdown |
-| EPUB   | PDF、XPS、PNG、JPEG、TIFF、BMP、GIF |
-| Canvas | PDF（html canvas to pdf） |
+| HTML   | PDF, SVG, TIFF, PNG, JPEG, BMP, GIF, MHTML, XPS, Markdown |
+| EPUB   | PDF, XPS, PNG, JPEG, TIFF, BMP, GIF |
+| Canvas | PDF（export canvas to pdf） |
 
 ## 常見問題與解決方案
-- **PDF 中缺少字型** – 確認伺服器已安裝所需字型，或使用 `PdfSaveOptions` 內嵌字型。  
-- **大型 EPUB 檔案導致記憶體壓力** – 採用串流處理（`MemoryStream` → `FileStream`）以降低堆積使用量。  
-- **Canvas 渲染為空白** – 確認在呼叫轉換 API 前，canvas 已完整繪製。
+- **PDF 中缺少字型** – 確保伺服器已安裝所需字型，或使用 `PdfSaveOptions` 進行嵌入。  
+- **大型 EPUB 檔案導致記憶體壓力** – 使用串流處理（`InputStream` → `FileOutputStream`）以降低堆積使用量。  
+- **Canvas 渲染呈現空白** – 確認 Canvas 已完整繪製後再呼叫轉換 API；可能需要呼叫 `canvas.flush()` 或等待 `onload` 事件。  
+- **CSS Grid 版面轉換失敗** – 升級至最新的 Aspose.HTML 版本（24.11），該版本已加入完整的 CSS Grid 支援。  
+- **批次作業效能瓶頸** – 重複使用單一 `HtmlDocument` 實例進行多次儲存，並啟用 `PdfSaveOptions.setCompress(true)`。
 
 ## 常見問答
 
-**Q: 可以在沒有授權的情況下將 HTML 轉成 PDF 嗎？**  
-A: 提供免費試用供評估使用，但正式上線必須購買商業授權。
+**Q: 我可以在沒有授權的情況下將 HTML 轉換為 PDF 嗎？**  
+**A:** 提供免費試用供評估使用，但在生產部署時必須擁有商業授權。
 
 **Q: Aspose.HTML 支援 CSS3 功能嗎？**  
-A: 支援，大部分 CSS3 屬性皆可正確渲染，包括 flexbox 與 grid 版面。
+**A:** 是的，渲染引擎支援大多數 CSS3 屬性，包括 flexbox、grid 與 transitions。
 
-**Q: 如何自動化填寫多個 HTML 表單？**  
-A: 使用 `Form` API 載入文件、以程式方式設定欄位值，最後儲存結果。
+**Q: 我該如何自動化填寫多個 HTML 表單？**  
+**A:** 使用 `Form` API 載入文件、以程式方式設定欄位值，然後儲存結果。該 API 允許您遍歷多個表單集合，批量產生 PDF。
 
-**Q: 可以直接將 HTML 頁面轉成 SVG 嗎？**  
-A: 當然可以 – `HtmlToSvgConverter` 類別可高保真度完成此轉換。
+**Q: 是否可以直接將 HTML 頁面轉換為 SVG？**  
+**A:** 當然可以 – `HtmlToSvgConverter` 類別以高保真度執行此轉換，保留向量路徑與文字。
 
-**Q: 大型 HTML canvas 轉 PDF 的最佳做法是什麼？**  
-A: 先將 canvas 轉為位圖，再使用 `PdfSaveOptions` 嵌入影像；或直接使用內建的 canvas‑to‑PDF 方法取得向量輸出。
+**Q: 將大型 HTML Canvas 轉換為 PDF 的最佳方法是什麼？**  
+**A:** 先將 Canvas 渲染為點陣圖，然後使用 `PdfSaveOptions` 嵌入影像；或使用內建的 canvas‑to‑PDF 方法產生向量輸出，這樣可得到較小檔案且渲染更銳利。
 
-## Aspose.HTML for Java 教學
-### [Advanced Usage of Aspose.HTML Java](./advanced-usage/)
-了解如何自訂 HTML 頁面邊距、實作 DOM Mutation Observer、操作 HTML5 Canvas、自動化 HTML 表單填寫等，盡在 Aspose.HTML Java。
+**Q: 我可以在 Linux 容器上使用 Aspose.HTML for Java 嗎？**  
+**A:** 可以，該函式庫與平台無關，能在任何相容 Java 的環境中運作，包括 Docker 容器。
 
-### [Conversion - Canvas to PDF](./conversion-canvas-to-pdf/)
-學習如何使用 Aspose.HTML for Java 將 HTML Canvas 轉成 PDF，完整指南教您掌握數位轉換的技巧！
-
-### [Conversion - EPUB to Image and PDF](./conversion-epub-to-image-and-pdf/)
-使用 Aspose.HTML for Java 高效將 EPUB 轉為圖像，並學習 EPUB 轉 PDF 的步驟說明。
-
-### [Conversion - EPUB to XPS](./conversion-epub-to-xps/)
-了解如何使用 Aspose.HTML for Java 將 EPUB 轉為 XPS，提供步驟說明與程式碼範例，深入探索 Aspose.HTML 的功能。
-
-### [Conversion - HTML to Various Image Formats](./conversion-html-to-various-image-formats/)
-學習使用 Aspose.HTML for Java 將 HTML 轉成 BMP、GIF、JPEG、PNG、TIFF 等多種圖像格式，完整教學助您有效文件處理。
-
-### [Conversion - HTML to Other Formats](./conversion-html-to-other-formats/)
-學會使用 Aspose.HTML for Java 將 HTML 轉成 PDF、MHTML、XPS、Markdown、SVG 等格式，輕鬆完成高品質文件轉換。
-
-### [Converting Between EPUB and Image Formats](./converting-between-epub-and-image-formats/)
-使用 Aspose.HTML for Java 無縫將 EPUB 檔案轉換為多種圖像格式，步驟說明讓轉換變得簡單。
-
-### [Converting EPUB to PDF](./converting-epub-to-pdf/)
-利用 Aspose.HTML for Java 強大的 Java 程式庫，輕鬆將 EPUB 轉為 PDF，打造可存取的內容。
-
-### [Converting EPUB to XPS](./converting-epub-to-xps/)
-探索使用 Aspose.HTML Java 將 EPUB 轉為 XPS 的完整流程，學習自訂串流提供者與 XPS 儲存選項。
-
-### [Converting HTML to Various Image Formats](./converting-html-to-various-image-formats/)
-深入教學如何使用 Aspose.HTML for Java 將 HTML 轉成 BMP、GIF、JPG、PNG 等圖像，輕鬆產出精美圖片。
-
-### [HTML5 and Canvas Rendering with Aspose.HTML for Java](./html5-canvas-rendering/)
-完整教學涵蓋 Aspose.HTML for Java 的 HTML5 與 Canvas 呈現，提升您的網頁開發技能。
-
-### [CSS and HTML Form Editing with Aspose.HTML for Java](./css-html-form-editing/)
-快速學會使用 Aspose.HTML for Java 編輯 CSS 與 HTML 表單，掌握進階開發技巧。
-
-### [Data Handling and Stream Management in Aspose.HTML for Java](./data-handling-stream-management/)
-探索 Aspose.HTML for Java 教學，了解如何將記憶體串流轉為檔案，以及將 HTML 轉成 JPEG 圖片。
-
-### [Mutation Observers and Handlers in Aspose.HTML for Java](./mutation-observers-handlers/)
-深入 Aspose.HTML for Java 教學，涵蓋進階 Mutation Observers 與安全 Credential Handlers，提升您的 Web 應用程式。
-
-### [Custom Schema and Message Handling in Aspose.HTML for Java](./custom-schema-message-handling/)
-學習使用 Aspose.HTML for Java 的自訂 Schema 訊息過濾與處理，打造客製化應用程式。
-
-### [Message Handling and Networking in Aspose.HTML for Java](./message-handling-networking/)
-掌握 Aspose.HTML for Java 的訊息處理與網路功能，提升文件處理能力。
-
-### [Creating and Managing HTML Documents in Aspose.HTML for Java](./creating-managing-html-documents/)
-探索 Aspose.HTML for Java 的頂級教學，學習如何建立與管理 HTML 文件，適合 Java 開發者深入學習。
-
-### [Editing HTML Documents in Aspose.HTML for Java](./editing-html-documents/)
-完整教學涵蓋 HTML 文件編輯、CSS 實作與內容管理，提供逐步指引。
-
-### [Configuring Environment in Aspose.HTML for Java](./configuring-environment/)
-了解如何在 Aspose.HTML for Java 中設定環境，學習字元集、字型設定與訊息處理器的使用。
-
-### [Saving HTML Documents in Aspose.HTML for Java](./saving-html-documents/)
-發掘 Aspose.HTML for Java 的完整教學，指導您儲存 HTML 文件、轉換為 Markdown 等操作。
-
-### [Handling ZIP Files in Aspose.HTML for Java](./handling-zip-files/)
-解鎖 Aspose.HTML for Java 的強大功能，學習 ZIP 檔案處理技巧，輕鬆管理 ZIP 壓縮檔。
+**Q: 我該如何處理包含嵌入字型的 EPUB 檔案？**  
+**A:** Aspose.HTML 會在轉換為 PDF 或 XPS 時自動提取並嵌入這些字型，保留原始版面與排版。
 
 ---
 
-**最後更新：** 2025-11-30  
+**最後更新：** 2026-08-28  
 **測試環境：** Aspose.HTML for Java 24.11  
 **作者：** Aspose  
+
+### Aspose.HTML for Java 教學
+- [Aspose.HTML Java 進階使用](./advanced-usage/)
+- [轉換 - Canvas 至 PDF](./conversion-canvas-to-pdf/)
+- [轉換 - EPUB 至影像與 PDF](./conversion-epub-to-image-and-pdf/)
+- [轉換 - EPUB 至 XPS](./conversion-epub-to-xps/)
+- [轉換 - HTML 至多種影像格式](./conversion-html-to-various-image-formats/)
+- [轉換 - HTML 至其他格式](./conversion-html-to-other-formats/)
+- [在 EPUB 與影像格式之間轉換](./converting-between-epub-and-image-formats/)
+- [EPUB 轉 PDF](./converting-epub-to-pdf/)
+- [EPUB 轉 XPS](./converting-epub-to-xps/)
+- [HTML 轉多種影像格式](./converting-html-to-various-image-formats/)
+- [使用 Aspose.HTML for Java 的 HTML5 與 Canvas 渲染](./html5-canvas-rendering/)
+- [使用 Aspose.HTML for Java 的 CSS 與 HTML 表單編輯](./css-html-form-editing/)
+- [Aspose.HTML for Java 的資料處理與串流管理](./data-handling-stream-management/)
+- [Aspose.HTML for Java 的變更觀察器與處理程序](./mutation-observers-handlers/)
+- [Aspose.HTML for Java 的自訂結構與訊息處理](./custom-schema-message-handling/)
+- [Aspose.HTML for Java 的訊息處理與網路](./message-handling-networking/)
+- [在 Aspose.HTML for Java 中建立與管理 HTML 文件](./creating-managing-html-documents/)
+- [在 Aspose.HTML for Java 中編輯 HTML 文件](./editing-html-documents/)
+- [設定 Aspose.HTML for Java 環境](./configuring-environment/)
+- [在 Aspose.HTML for Java 中儲存 HTML 文件](./saving-html-documents/)
+- [在 Aspose.HTML for Java 中處理 ZIP 檔案](./handling-zip-files/)
+
+## 相關教學
+- [將 HTML 轉 PDF Java – 設定 Aspose.HTML 環境](/html/java/configuring-environment/)
+- [使用 Aspose.HTML for Java 從 Canvas 建立 PDF](/html/java/conversion-canvas-to-pdf/canvas-to-pdf/)
+- [如何將 HTML 轉 PDF Java - 使用 Aspose.HTML 設定頁面邊距](/html/java/advanced-usage/css-extensions-adding-title-page-number/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -9,25 +9,15 @@ url: /vi/java/editing-html-documents/implement-internal-css-html-documents/
 weight: 16
 ---
 
- Vietnamese.
 
-We need to translate headings as well.
 
-Let's produce translation.
 
-Make sure to keep code block placeholders unchanged.
 
-Also keep markdown links unchanged.
 
-Let's translate.
 
-Start with shortcodes unchanged.
 
-Then "# Create html document java with internal CSS using Aspose.HTML" => Vietnamese: "# Tạo tài liệu html java với CSS nội bộ sử dụng Aspose.HTML"
 
-Proceed.
 
-I'll write translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

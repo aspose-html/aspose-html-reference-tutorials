@@ -118,7 +118,21 @@ A: การแซนด์บ็อกซ์จำกัด API บางอย
 ### [Set User Style Sheet in Aspose.HTML for Java](./set-user-style-sheet/)
 เรียนรู้วิธีตั้งค่า stylesheet ผู้ใช้ใน Aspose.HTML for Java, ปรับปรุงการจัดรูปแบบเอกสารของคุณและแปลง HTML เป็น PDF อย่างง่ายดาย
 
+### [สร้าง Aspose HTML Sandbox – คู่มือฉบับสมบูรณ์สำหรับ Java](./create-aspose-html-sandbox-complete-java-guide/)
+เรียนรู้วิธีสร้าง sandbox สำหรับ Aspose.HTML ด้วย Java อย่างละเอียด ตั้งค่าความปลอดภัยและแปลง HTML เป็น PDF อย่างมั่นใจ
+### [Get Library Version in Java – Quick Guide to Show Library Version](./get-library-version-in-java-quick-guide-to-show-library-vers/)
+เรียนรู้วิธีดึงและแสดงเวอร์ชันของ Aspose.HTML for Java อย่างรวดเร็ว
+### [วิธีสร้าง Sandbox ใน Java – คู่มือเต็ม](./how-to-create-sandbox-in-java-full-guide/)
+เรียนรู้ขั้นตอนการสร้าง sandbox ใน Java อย่างละเอียดเพื่อความปลอดภัยในการประมวลผล HTML และแปลงเป็น PDF
+### [ดึงหัวเรื่องจาก HTML ใน Java – คู่มือ Sandbox ฉบับสมบูรณ์](./extract-title-from-html-in-java-complete-sandbox-guide/)
+เรียนรู้วิธีดึงชื่อเรื่องจากไฟล์ HTML ใน Java โดยใช้ sandbox เพื่อความปลอดภัยและการทำงานที่แม่นยำ
+### [วิธีตั้งค่า DPI ใน Aspose.HTML Sandbox – คู่มือ Java ฉบับสมบูรณ์](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
+เรียนรู้วิธีตั้งค่า DPI ใน sandbox ของ Aspose.HTML ด้วย Java เพื่อควบคุมความละเอียดของ PDF/PNG ที่แปลง
+### [วิธีใช้ Sandbox – ตั้งค่า User Agent และรับขนาด Viewport](./how-to-use-sandbox-set-user-agent-get-viewport-size/)
+
 ---
+### [ตั้งค่า User Agent สำหรับการเรนเดอร์ HTML แบบ Headless – คู่มือฉบับสมบูรณ์](./set-user-agent-for-headless-html-rendering-complete-guide/)
+เรียนรู้วิธีตั้งค่า User Agent ใน Aspose.HTML for Java เพื่อควบคุมการดึงข้อมูลและการเรนเดอร์ HTML แบบ headless อย่างแม่นยำ
 
 **Last Updated:** 2025-12-03  
 **Tested With:** Aspose.HTML for Java 24.12 (latest)  

@@ -1,26 +1,24 @@
 ---
 category: general
-date: 2026-01-01
-description: Jak osadzić czcionki podczas konwersji EPUB do PDF w Javie. Dowiedz się,
-  jak ustawić rozmiar strony PDF i używać Aspose HTML do płynnej konwersji epub na
-  PDF w Javie.
+date: 2026-04-12
+description: Dowiedz się, jak ustawić rozmiar strony PDF i osadzić czcionki w PDF
+  podczas konwersji EPUB do PDF w Javie przy użyciu Aspose.HTML. Ten przewodnik przeprowadzi
+  Cię przez kompletny proces konwersji Java EPUB do PDF.
 draft: false
 keywords:
-- how to embed fonts
-- convert epub to pdf
-- how to convert epub
 - set pdf page size
-- epub to pdf java
-language: pl
-og_description: Jak osadzać czcionki podczas konwertowania EPUB na PDF w Javie. Ten
-  przewodnik pokazuje krok po kroku, jak ustawić rozmiar strony PDF i wykonać niezawodną
-  konwersję EPUB do PDF w Javie.
-og_title: Jak osadzać czcionki przy konwertowaniu EPUB na PDF w Javie
+- embed fonts pdf
+- convert epub to pdf
+- java epub to pdf
+- custom pdf page size
+og_description: Dowiedz się, jak ustawić rozmiar strony PDF i osadzić czcionki w PDF
+  podczas konwertowania EPUB na PDF w Javie przy użyciu Aspose.HTML.
+og_title: Ustaw rozmiar strony PDF i osadź czcionki przy konwersji EPUB do PDF w Javie
 tags:
 - Java
 - PDF
 - EPUB
-title: Jak osadzić czcionki przy konwertowaniu EPUB na PDF w Javie
+title: Ustaw rozmiar strony PDF i osadź czcionki przy konwersji EPUB na PDF w Javie
 url: /pl/java/converting-epub-to-pdf/how-to-embed-fonts-when-converting-epub-to-pdf-in-java/
 ---
 
@@ -28,24 +26,31 @@ url: /pl/java/converting-epub-to-pdf/how-to-embed-fonts-when-converting-epub-to-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak osadzić czcionki przy konwersji EPUB do PDF w Javie
+# Ustaw rozmiar strony PDF i osadź czcionki przy konwersji EPUB do PDF w Javie
 
-Zastanawiałeś się kiedyś **jak osadzić czcionki**, aby przekonwertowany PDF wyglądał dokładnie tak jak oryginalny EPUB? Nie jesteś sam — wielu programistów napotyka problem brakujących czcionek już po pierwszej próbie konwersji. Dobrą wiadomością jest to, że Aspose.HTML for Java pozwala kontrolować osadzanie czcionek, rozmiar strony i cały proces konwersji w zaledwie kilku linijkach kodu.
+Jeśli potrzebujesz **ustawić rozmiar strony PDF** podczas **konwersji EPUB do PDF** i zapewnić, że powstały dokument wygląda dokładnie tak jak źródło, jesteś we właściwym miejscu. W tym samouczku przeprowadzimy Cię przez kompletny, gotowy do produkcji przykład w Javie, który pokazuje, jak **osadzić czcionki w PDF**, wybrać **niestandardowy rozmiar strony PDF** i uruchomić konwersję przy użyciu Aspose.HTML. Po zakończeniu będziesz mieć gotowy do uruchomienia program, który za każdym razem generuje wierny PDF.
 
-W tym tutorialu przejdziemy przez kompletny proces **konwersji epub do pdf** przy użyciu Javy, pokażemy jak **ustawić rozmiar strony PDF**, oraz wyjaśnimy, dlaczego osadzanie czcionek ma znaczenie dla zachowania zgodności między platformami. Po zakończeniu będziesz mieć gotowy do uruchomienia program, który zamieni dowolny plik EPUB w perfekcyjnie renderowany PDF, z osadzonymi czcionkami i wybranym rozmiarem strony.
+## Szybkie odpowiedzi
+- **Jaki jest główny cel?** Ustawić rozmiar strony PDF i osadzić czcionki przy konwersji EPUB do PDF w Javie.  
+- **Którą bibliotekę powinienem użyć?** Aspose.HTML for Java (dostępna darmowa wersja próbna).  
+- **Czy potrzebuję licencji do produkcji?** Tak – licencja usuwa znak wodny oceny.  
+- **Czy mogę użyć niestandardowego rozmiaru strony?** Absolutnie – możesz podać dokładne wymiary lub użyć wbudowanych enumów takich jak A4, LETTER itp.  
+- **Jaka wersja Javy jest wymagana?** Zalecana jest Java 17 lub nowsza.
 
-> **Wymagania wstępne**  
-> * Java 17 lub nowsza (API działa również ze starszymi wersjami, ale 17 to optymalny wybór).  
-> * Biblioteka Aspose.HTML for Java – możesz ją pobrać z Maven Central.  
-> * Przykładowy plik EPUB do testów.  
+### Wymagania wstępne
+- Zainstalowany Java 17+.  
+- Aspose.HTML for Java dodany do projektu (Maven, Gradle lub ręczny JAR).  
+- Plik EPUB, który chcesz przekształcić.
 
-Jeśli jesteś zaznajomiony z Mavenem lub Gradle, jesteś gotowy. W przeciwnym razie po prostu pobierz plik JAR i dodaj go do classpath — nic skomplikowanego.
+> Jeśli wolisz Gradle, po prostu zamień fragment Maven na równoważne współrzędne Gradle.
 
 ---
 
-## Jak osadzić czcionki w wyjściowym PDF
+## Dlaczego osadzać czcionki w PDF?
 
-Osadzanie czcionek zapewnia, że PDF wyświetla tę samą typografię na każdym urządzeniu, nawet jeśli przeglądarka nie ma zainstalowanej oryginalnej czcionki. Aspose.HTML oferuje jedno przełącznik, aby to włączyć.
+Osadzanie czcionek utrwala wizualny projekt źródłowego EPUB, dzięki czemu PDF renderuje się poprawnie na każdym urządzeniu — nawet jeśli przeglądarka nie ma zainstalowanych oryginalnych krojów pisma. Bez osadzania nagłówki mogą przejść na domyślne czcionki, takie jak Arial, co psuje układ, nad którym ciężko pracowałeś.
+
+**Pro tip:** Jeśli znasz dokładne czcionki użyte w EPUB, wskaż Aspose folder zawierający te pliki `.ttf` lub `.otf` za pomocą `pdfOptions.setFontsFolder("path/to/fonts")`. Przyspieszy to konwersję i zmniejszy ostateczny rozmiar pliku.
 
 ```java
 // Configure PDF save options
@@ -53,15 +58,11 @@ PdfSaveOptions pdfOptions = new PdfSaveOptions();
 pdfOptions.setEmbedFonts(true);               // <-- This line embeds all used fonts
 ```
 
-Dlaczego to ważne? Wyobraź sobie, że wysyłasz PDF do klienta, który ma tylko domyślne czcionki systemowe. Bez osadzania nagłówki mogą przejść na Arial lub Times New Roman, psując układ. Dzięki osadzeniu zamykasz projekt wizualny w miejscu, czyniąc PDF naprawdę przenośnym.
-
-> **Pro tip:** Jeśli znasz dokładne czcionki używane w Twoim EPUB, możesz również podać własny folder czcionek za pomocą `pdfOptions.setFontsFolder("path/to/fonts")`. Przyspieszy to konwersję i uniknie niepotrzebnego osadzania czcionek.
-
 ---
 
-## Konwersja EPUB do PDF w Javie – pełny przepływ pracy
+## Jak konwertować EPUB do PDF w Javie – pełny przepływ pracy
 
-Poniżej znajduje się minimalny, a jednocześnie kompletny, kod, którego potrzebujesz. Obejmuje trzy kluczowe kroki: lokalizację źródłowego EPUB, konfigurację opcji PDF (w tym rozmiar strony) oraz wywołanie konwersji.
+Poniżej znajduje się minimalny, a jednocześnie kompletny kod, którego potrzebujesz. Obejmuje trzy kluczowe kroki: zlokalizowanie źródłowego EPUB, skonfigurowanie opcji PDF (w tym **ustawienie rozmiaru strony PDF**), oraz wywołanie konwersji.
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -87,28 +88,27 @@ public class EpubToPdfDemo {
 }
 ```
 
-### Co się dzieje „pod maską”?
+### Co się dzieje pod maską?
 
-1. **Źródłowy EPUB** – Zmienna `epubPath` informuje Aspose, skąd odczytać kontener EPUB.  
-2. **Opcje PDF** – `PdfSaveOptions` pozwala przełączać osadzanie czcionek (`setEmbedFonts`) oraz definiować wymiary strony (`setPageSize`). Enum `PageSize.LETTER` jest przydatny dla formatu US‑letter; możesz także wybrać `A4`, `A5` itp.  
-3. **Wywołanie konwersji** – `Converter.convert` wykonuje ciężką pracę. Parsuje EPUB, renderuje każdą stronę XHTML na stronę PDF, stosuje opcje i zapisuje wynik.
+1. **Source EPUB** – `epubPath` informuje Aspose, gdzie odczytać kontener EPUB.  
+2. **PDF Options** – `PdfSaveOptions` pozwala przełączać osadzanie czcionek (`setEmbedFonts`) oraz definiować wymiary strony (`setPageSize`). Enum `PageSize.LETTER` jest przydatny dla formatu US‑letter; możesz także wybrać `A4`, `A5` itp.  
+3. **Conversion Call** – `Converter.convert` parsuje EPUB, renderuje każdą stronę XHTML na stronę PDF, stosuje opcje i zapisuje wynik.
 
-Metoda rzuca ogólnym `Exception` dla zwięzłości; w produkcji warto łapać konkretne podklasy (np. `IOException`, `FileNotFoundException`) i obsługiwać je odpowiednio.
+Metoda rzuca ogólnym `Exception` dla zwięzłości; w produkcji powinieneś przechwytywać konkretne podklasy (np. `IOException`, `FileNotFoundException`) i obsługiwać je w odpowiedni sposób.
 
 ---
 
-## Ustaw rozmiar strony PDF dla wyniku
+## Jak ustawić rozmiar strony PDF dla wyniku
 
-Wybór odpowiedniego rozmiaru strony to nie tylko kwestia estetyki; wpływa na paginację, skalowanie obrazów i układ do druku. Aspose.HTML udostępnia wygodny enum, ale możesz także podać własny rozmiar, jeśli domyślne nie pasują.
+Wybór odpowiedniego rozmiaru strony wpływa na paginację, skalowanie obrazów i układ wydruku. Aspose.HTML udostępnia wygodny enum, ale możesz także podać własny rozmiar, jeśli domyślne nie spełniają Twoich potrzeb.
 
 ```java
 // Example: Custom size – 6" x 9"
 pdfOptions.setPageSize(new PdfSaveOptions.PageSize(6.0, 9.0));
 ```
 
-Dlaczego możesz potrzebować własnego rozmiaru? Być może tworzysz książki kieszonkowe lub drukowany broszurę o określonym rozmiarze przycięcia. API akceptuje cale (lub możesz samodzielnie przeliczyć milimetry), dając pełną kontrolę.
-
----
+**Kiedy możesz potrzebować niestandardowego rozmiaru?**  
+Może generujesz książki elektroniczne w rozmiarze kieszonkowym, drukowalny broszurę lub raport, który ma określony rozmiar przycięcia. API akceptuje cale (lub możesz przeliczyć z milimetrów), dając pełną kontrolę.
 
 ## Kompletny działający przykład (z zależnością Maven)
 
@@ -175,37 +175,52 @@ Uruchomienie programu wypisuje linię potwierdzającą:
 
 Otwórz wygenerowany PDF w dowolnym przeglądarce (Adobe Reader, Chrome itp.) i zobaczysz:
 
-* Wszystkie elementy tekstowe zachowują oryginalne stylizacje czcionek.  
-* Wymiary strony odpowiadają wybranemu rozmiarowi **Letter**.  
+* Wszystkie elementy tekstowe zachowują oryginalne formatowanie czcionek.  
+* Wymiary strony odpowiadają wybranemu rozmiarowi **Letter** (lub dowolnemu niestandardowemu rozmiarowi, który ustawisz).  
 * Obrazy, tabele i hiperłącza z EPUB są zachowane.
 
 Jeśli sprawdzisz właściwości PDF (Plik → Właściwości → Czcionki), zauważysz, że każda czcionka jest wymieniona jako **Embedded Subset**, co potwierdza, że wywołanie `setEmbedFonts(true)` wykonało swoją pracę.
 
 ---
 
-## Najczęściej zadawane pytania i przypadki brzegowe
+## Najczęściej zadawane pytania
 
-| Pytanie | Odpowiedź |
-|----------|--------|
-| **Co zrobić, jeśli mój EPUB używa własnej czcionki, której nie ma na serwerze?** | Umieść pliki `.ttf` lub `.otf` w folderze i wskaż go Aspose za pomocą `pdfOptions.setFontsFolder("path/to/custom/fonts")`. Konwerter załaduje i osadzi je automatycznie. |
-| **Czy mogę konwertować wiele EPUB‑ów w jednym uruchomieniu?** | Oczywiście. Umieść logikę konwersji w pętli, zmieniając `epubPath` i `outputPdf` dla każdego pliku. Aspose jest bezpieczny wątkowo, więc możesz nawet równolegle przetwarzać zadania przy użyciu `ExecutorService`. |
-| **Czy istnieje limit rozmiaru wejściowego EPUB?** | Nie ma sztywnego limitu, ale bardzo duże EPUB‑y (setki MB) będą zużywać więcej pamięci. Rozważ zwiększenie sterty JVM (`-Xmx2g` lub więcej) dla bardzo obszernych książek. |
-| **Jak wyłączyć osadzanie czcionek, aby uzyskać mniejszy PDF?** | Ustaw `pdfOptions.setEmbedFonts(false)`. Wynikowy PDF będzie polegał na czcionkach zainstalowanych u odbiorcy, co zmniejsza rozmiar pliku, ale może zmienić wygląd. |
-| **Czy potrzebna jest licencja na Aspose.HTML?** | Bezpłatna licencja ewaluacyjna działa do testów, ale dodaje znak wodny. Do produkcji zakup licencję i wywołaj `License license = new License(); license.setLicense("path/to/license.xml");` przed konwersją. |
+**Q: Co jeśli mój EPUB używa niestandardowej czcionki, której nie ma zainstalowanej na serwerze?**  
+A: Umieść pliki `.ttf` lub `.otf` w folderze i wskaż go Aspose za pomocą `pdfOptions.setFontsFolder("path/to/custom/fonts")`. Konwerter załaduje i automatycznie osadzi te czcionki.
+
+**Q: Czy mogę konwertować wiele plików EPUB w jednym uruchomieniu?**  
+A: Tak. Owiń logikę konwersji w pętli, zmień `epubPath` i `outputPdf` dla każdego pliku, i opcjonalnie uruchom pętlę równolegle przy użyciu `ExecutorService`, ponieważ Aspose jest bezpieczny wątkowo.
+
+**Q: Czy istnieje limit rozmiaru dla wejściowego EPUB?**  
+A: Nie ma sztywnego limitu, ale bardzo duże EPUBy (setki MB) mogą zużywać dużo pamięci. Zwiększ przydział pamięci JVM (`-Xmx2g` lub więcej) dla ogromnych książek.
+
+**Q: Jak wyłączyć osadzanie czcionek, aby zmniejszyć rozmiar PDF?**  
+A: Wywołaj `pdfOptions.setEmbedFonts(false)`. PDF będzie polegał na czcionkach zainstalowanych w przeglądarce, co zmniejsza rozmiar pliku, ale może zmienić wygląd.
+
+**Q: Czy potrzebuję licencji na Aspose.HTML?**  
+A: Darmowa licencja ewaluacyjna działa do testów, ale dodaje znak wodny. Do użytku produkcyjnego zakup licencję i załaduj ją przy pomocy `License license = new License(); license.setLicense("path/to/license.xml");`.
 
 ---
 
-## Zakończenie
+## Podsumowanie
 
-Teraz wiesz **jak osadzić czcionki** przy **konwersji EPUB do PDF** w Javie, **jak ustawić rozmiar strony PDF** oraz jak połączyć wszystko razem przy użyciu Aspose.HTML. Powyższy, kompletny przykład powinien działać od razu — wystarczy podmienić ścieżki na własne pliki i gotowe.
+Teraz wiesz, **jak ustawić rozmiar strony PDF** i **osadzić czcionki w PDF**, gdy **konwertujesz EPUB do PDF** w Javie przy użyciu Aspose.HTML. Pełny, gotowy do uruchomienia przykład powyżej powinien działać od razu — wystarczy zamienić ścieżki zastępcze na własne pliki.
 
-Co dalej? Wypróbuj inne formaty stron, takie jak **A4** lub własny rozmiar 6×9, zbadaj właściwości `PdfSaveOptions` pod kątem kompresji obrazów lub dodaj programowo stronę tytułową. Ten sam schemat działa również dla innych formatów źródłowych (HTML, Markdown), ponieważ Aspose.HTML traktuje je jednolicie.
+Następne kroki? Wypróbuj różne formaty stron, takie jak **A4** lub niestandardowy rozmiar 6×9, zbadaj inne `PdfSaveOptions` (kompresja obrazów, zgodność PDF/A) lub dodaj programowo stronę tytułową. Ten sam schemat działa dla innych formatów źródłowych (HTML, Markdown), ponieważ Aspose.HTML traktuje je jednolicie.
 
-Miłego kodowania i niech Twoje PDF‑y zawsze wyglądają dokładnie tak, jak tego oczekujesz! 
+Miłego kodowania i niech Twoje PDF-y zawsze wyglądają dokładnie tak, jak zamierzałeś! 
 
 ![Jak osadzić czcionki w konwersji PDF](https://example.com/images/embed-fonts.png "Jak osadzić czcionki w konwersji PDF")
 
+---
+
+**Ostatnia aktualizacja:** 2026-04-12  
+**Testowano z:** Aspose.HTML for Java 23.10  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
