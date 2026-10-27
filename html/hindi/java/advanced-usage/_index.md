@@ -180,6 +180,8 @@ Java में ExecutorService के साथ फिक्स्ड थ्र�
 Java में Aspose.HTML का उपयोग करके EPUB फ़ाइल को DOCX में परिवर्तित करने की पूरी प्रक्रिया सीखें।  
 ### [Java के साथ SVG को AVIF में बदलें – पूर्ण चरण‑दर‑चरण गाइड](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
 Java और Aspose.HTML का उपयोग करके SVG फ़ाइलों को उच्च‑गुणवत्ता वाले AVIF इमेज में परिवर्तित करने की पूरी प्रक्रिया सीखें।  
+### [Aspose में Java के साथ डिवाइस DPI सेट करें – पूर्ण सैंडबॉक्स गाइड](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
+Aspose.HTML for Java में डिवाइस DPI सेट करने और सैंडबॉक्स वातावरण में पूर्ण गाइड के साथ रेंडरिंग गुणवत्ता नियंत्रित करें।
 
 ---
 

@@ -201,6 +201,8 @@ A: 不需要。單一的 Aspose.HTML for Java 授權即涵蓋所有輸出格式�
 
 ### [使用 Aspose.HTML for Java 將 SVG 轉換為 AVIF – 完整步驟指南](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
 
+### [在 Java 中設定裝置 DPI – 完整沙盒指南](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
+
 ---
 
 **最後更新日期：** 2025-11-29  

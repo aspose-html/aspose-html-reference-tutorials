@@ -203,6 +203,9 @@ Aprenda a converter arquivos EPUB para DOCX usando Aspose.HTML for Java em um gu
 ### [Converter SVG para AVIF com Java – Guia Completo Passo a Passo](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
 Aprenda a converter arquivos SVG para AVIF usando Aspose.HTML for Java em um guia passo a passo.
 
+### [Definir DPI do dispositivo no Aspose em Java – Guia Completo de Sandbox](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
+Aprenda a configurar o DPI do dispositivo ao gerar PDFs com Aspose.HTML for Java em um ambiente sandbox completo.
+
 ---
 
 **Última atualização:** 2025-11-29  

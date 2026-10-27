@@ -118,6 +118,10 @@ Hướng dẫn cách sử dụng Aspose.HTML cho Java để chọn các nút kh�
 Hướng dẫn chi tiết cách lấy computed style trong Java bằng Aspose.HTML, bao gồm ví dụ thực tế và các mẹo tối ưu.
 ### [Lấy Kiểu Được Tính Toán Java – Hướng Dẫn Toàn Diện về Trích Xuất CSS](./get-computed-style-java-complete-guide-to-css-extraction/)
 Hướng dẫn chi tiết cách lấy style đã tính toán trong Java bằng Aspose.HTML, giúp trích xuất CSS một cách chính xác và hiệu quả.
+### [Lấy nền CSS trong Java – Hướng dẫn đầy đủ Aspose.HTML](./get-css-background-in-java-complete-aspose-html-guide/)
+Hướng dẫn chi tiết cách lấy thuộc tính nền CSS trong Java bằng Aspose.HTML, bao gồm ví dụ thực tế và các mẹo tối ưu.
+### [Cách sử dụng CSS trong Java – Tải HTML, Đếm liên kết và Đánh giá XPath](./how-to-use-css-in-java-load-html-count-links-evaluate-xpath/)
+Hướng dẫn cách tải tài liệu HTML, đếm số liên kết và thực hiện truy vấn XPath bằng Aspose.HTML cho Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

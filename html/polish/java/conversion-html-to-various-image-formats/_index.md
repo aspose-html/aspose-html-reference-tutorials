@@ -140,6 +140,9 @@ Pełny przykład tworzenia pliku PNG z kodu HTML w Javie przy użyciu Aspose.HTM
 ### [Utwórz baner HTML i renderuj do PNG – Pełny przewodnik Java](./create-html-banner-and-render-to-png-full-java-guide/)
 ### [Jak używać Sandbox do przechwytywania zrzutów ekranu stron internetowych](./how-to-use-sandbox-to-capture-webpage-screenshot/)
 
+### [Konwertowanie HTML do TIFF w Javie – Kompletny przewodnik programistyczny](./convert-html-to-tiff-in-java-complete-programming-guide/)
+Pełny przewodnik, jak konwertować HTML do TIFF w Javie przy użyciu Aspose.HTML. Szczegółowe instrukcje krok po kroku.
+
 ### [Konwertowanie HTML do WebP – Kompletny przewodnik Java z Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 ### [Konwertowanie HTML do WebP – Kompletny przewodnik Java z Aspose.HTML](./convert-html-to-webp-complete-java-guide/)
 Dowiedz się, jak konwertować HTML do formatu WebP w Javie przy użyciu Aspose.HTML. Kompletny przewodnik krok po kroku.

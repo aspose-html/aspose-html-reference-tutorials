@@ -118,6 +118,10 @@ Leer hoe u met Aspose.HTML voor Java een CSS‑selector gebruikt om knoppen te v
 Leer hoe u met Aspose.HTML voor Java de berekende stijl van een element kunt ophalen in deze volledige programmeergids.
 ### [Get Computed Style Java – Complete gids voor CSS-extractie](./get-computed-style-java-complete-guide-to-css-extraction/)
 Leer hoe u met Aspose.HTML voor Java de berekende CSS‑stijlen van elementen kunt ophalen en analyseren in deze volledige handleiding.
+### [CSS-achtergrond ophalen in Java – Complete Aspose.HTML-gids](./get-css-background-in-java-complete-aspose-html-guide/)
+Leer hoe u met Aspose.HTML voor Java de CSS‑achtergrond van elementen kunt ophalen en gebruiken in uw toepassingen.
+### [Hoe CSS in Java te gebruiken – HTML laden, links tellen en XPath evalueren](./how-to-use-css-in-java-load-html-count-links-evaluate-xpath/)
+Leer hoe u CSS in Java kunt toepassen, HTML laadt, links telt en XPath‑expressies evalueert met Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

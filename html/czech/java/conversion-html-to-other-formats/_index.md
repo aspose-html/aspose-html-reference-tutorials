@@ -104,6 +104,8 @@ Naučte se, jak pomocí Aspose.HTML v Javě vytvořit PDF z HTML souboru krok za
 Naučte se, jak povolit vykonávání JavaScriptu při konverzi HTML do PDF pomocí Aspose.HTML for Java.
 ### [HTML do PDF tutoriál – Převod HTML do PDF jedním řádkem v Javě](./html-to-pdf-tutorial-convert-html-to-pdf-in-one-line-with-ja/)
 Naučte se převést HTML do PDF v jediném řádku kódu pomocí Aspose.HTML for Java.
+### [Převod HTML do PDF s Aspose HTML pro Java – Kompletní průvodce](./convert-html-to-pdf-with-aspose-html-for-java-full-guide/)
+Kompletní průvodce převodem HTML do PDF v Javě pomocí Aspose.HTML, včetně pokročilých nastavení a optimalizací.
 ### [Převod HTML do MHTML](./convert-html-to-mhtml/)
 Jednoduše převádějte HTML do MHTML pomocí Aspose.HTML for Java. Postupujte podle našeho krok‑za‑krokem průvodce pro efektivní konverzi HTML‑to‑MHTML.
 ### [Vytvoření PDF z HTML v Javě – Kompletní průvodce Aspose](./create-pdf-from-html-in-java-complete-aspose-guide/)
@@ -131,6 +133,8 @@ Naučte se převést HTML do Markdown v Javě pomocí Aspose.HTML s podrobným k
 Naučte se převést Markdown do PDF v Javě pomocí Aspose.HTML s podrobným krok‑za‑krokem návodem.
 ### [Uložení HTML jako Markdown v Javě – Kompletní průvodce Aspose](./save-html-as-markdown-in-java-complete-aspose-guide/)
 Naučte se převést HTML na Markdown v Javě pomocí Aspose.HTML s podrobným krok‑za‑krokem návodem.
+### [Převod HTML do Markdownu v Javě – Kompletní programovací průvodce](./convert-html-to-markdown-in-java-complete-programming-guide/)
+Naučte se převést HTML do Markdownu v Javě s Aspose.HTML. Jednoduchý průvodce pro konverzi a úpravu obsahu.
 ### [Převod SVG do obrázku](./convert-svg-to-image/)
 Naučte se převádět SVG na obrázky v Javě s Aspose.HTML. Kompletní průvodce pro výstup vysoké kvality.
 
@@ -297,6 +301,10 @@ Naučte se, jak provádět hromadný paralelní převod HTML do PDF v Javě pro 
 ### [Jak používat sandbox pro konverzi HTML‑to‑PDF – Kompletní průvodce v Javě](./how-to-use-sandbox-for-html-to-pdf-conversion-complete-java/)
 ### [Využijte všechny jádra CPU pro paralelní dávkovou konverzi HTML‑to‑PDF](./use-all-cpu-cores-for-parallel-html-to-pdf-batch-conversion/)
 Zrychlete hromadnou konverzi HTML do PDF využitím všech procesorových jader pomocí Aspose.HTML for Java.
+### [HTML do PDF tutoriál: Jednořádkový Aspose převodník](./html-to-pdf-tutorial-one-line-aspose-converter/)
+Jednoduchý jednorázový převod HTML do PDF pomocí Aspose.HTML v jediném řádku kódu.
+### [Převod HTML do PDF v Javě – Průvodce paralelním dávkovým převodem](./convert-html-to-pdf-in-java-parallel-batch-conversion-guide/)
+Naučte se provádět paralelní dávkové převody HTML do PDF v Javě pomocí Aspose.HTML pro zvýšení výkonu.
 
 ## Často kladené otázky
 

@@ -68,6 +68,8 @@ Odkryj, jak łatwo ładować dokumenty HTML z adresu URL w Javie za pomocą Aspo
 Dowiedz się, jak szybko pobrać tytuł strony z dokumentu HTML przy użyciu Aspose.HTML w Javie.
 ### [Wyodrębnianie HTML z MHTML – Kompletny przewodnik Java](./extract-html-from-mhtml-complete-java-guide/)
 Kompletny przewodnik krok po kroku, jak wyodrębnić HTML z plików MHTML w Javie przy użyciu Aspose.HTML.
+### [Ładowanie JSON za pomocą Fetch w Javie – Kompletny przewodnik](./load-json-with-fetch-in-java-complete-guide/)
+Dowiedz się, jak używać Fetch do pobierania danych JSON w Javie, krok po kroku, z praktycznymi przykładami.
 ### [Generuj nowe dokumenty HTML za pomocą Aspose.HTML dla Java](./generate-new-html-documents/)
 Dowiedz się, jak tworzyć nowe dokumenty HTML za pomocą Aspose.HTML dla Java dzięki temu prostemu przewodnikowi krok po kroku. Zacznij generować dynamiczną zawartość HTML.
 ### [Utwórz dokument HTML w Javie – pobierz JSON i wygeneruj zawartość](./create-html-document-with-java-fetch-json-and-generate-conte/)

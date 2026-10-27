@@ -156,6 +156,8 @@ Aspose Java का उपयोग करके HTML सामग्री क�
 ### [Aspose.HTML का उपयोग करके क्लास java के साथ div बनाएं – पूर्ण उदाहरण](./create-div-with-class-java-full-example-using-aspose-html/)
 Aspose.HTML for Java में क्लास java वाले div को बनाने की पूरी प्रक्रिया सीखें, कोड उदाहरण और चरण‑दर‑चरण मार्गदर्शिका।
 ### [जावा में जावास्क्रिप्ट के साथ JSON फ़ेच – पूर्ण गाइड](./fetch-json-with-javascript-in-java-full-guide/)
+### [Java में Fetch के साथ JSON लोड करें – पूर्ण गाइड](./load-json-with-fetch-in-java-complete-guide/)
+Java में Fetch API का उपयोग करके JSON डेटा लोड करने और प्रोसेस करने की पूरी चरण‑दर‑चरण मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

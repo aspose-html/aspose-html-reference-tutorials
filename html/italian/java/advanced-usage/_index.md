@@ -147,6 +147,7 @@ R: No. Una singola licenza di Aspose.HTML for Java copre tutti i formati di outp
 ### [Come utilizzare Executor in Java – Guida al pool di thread fisso](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
 ### [Converti EPUB in DOCX in Java – Guida completa passo passo](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
 ### [Converti SVG in AVIF con Java – Guida completa passo passo](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
+### [Imposta DPI del dispositivo con Aspose in Java – Guida completa Sandbox](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
 
 ---
 

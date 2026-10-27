@@ -132,6 +132,12 @@ Aspose.HTML for Java ile PDF oluştururken JavaScript'in çalışmasını sağla
 Java’da HTML'yi PDF'ye dönüştürürken sayfa boyutu ve kenar boşluklarını nasıl ayarlayacağınızı adım adım gösterir.
 ### [Java ile A4 Boyutunda PDF Oluşturma – Tam Adım‑Adım Kılavuz](./create-pdf-a4-size-with-java-full-step-by-step-guide/)
 Java kullanarak A4 boyutunda PDF dosyaları oluşturmayı adım adım öğrenin.
+### [Aspose HTML for Java ile HTML'yi PDF'ye Dönüştürme – Tam Kılavuz](./convert-html-to-pdf-with-aspose-html-for-java-full-guide/)
+Aspose.HTML for Java kullanarak HTML'den PDF'ye tam adım adım dönüşüm sürecini öğrenin.
+### [HTML'den PDF'ye Tek Satır Aspose Dönüştürücü Öğreticisi](./html-to-pdf-tutorial-one-line-aspose-converter/)
+Aspose HTML to PDF dönüşümünü tek satır kodla nasıl yapacağınızı gösterir.
+### [HTML'yi PDF'ye Dönüştürme Java’da – Paralel Toplu Dönüşüm Kılavuzu](./convert-html-to-pdf-in-java-parallel-batch-conversion-guide/)
+Java’da birden çok HTML dosyasını aynı anda PDF’ye dönüştürmek için paralel işleme yöntemlerini öğrenin.
 ### [HTML'yi MHTML'ye Dönüştürme](./convert-html-to-mhtml/)
 Aspose.HTML for Java ile HTML'yi MHTML'ye kolayca dönüştürün. Verimli HTML‑to‑MHTML dönüşümü için adım adım rehberimizi izleyin.
 ### [Aspose.HTML ile HTML'yi MHTML'ye Dönüştürme – Tam Java Kılavuzu](./convert-html-to-mhtml-with-aspose-html-complete-java-guide/)
@@ -152,6 +158,8 @@ Aspose.HTML for Java kullanarak HTML'yi Markdown'a dönüştürmeyi adım adım 
 Aspose.HTML for Java kullanarak Markdown dosyalarını yüksek kaliteli PDF'lere dönüştürmeyi adım adım öğrenin.
 ### [Markdown'ı PDF'ye Dönüştürme Java’da – Tam Adım‑Adım Kılavuz](./convert-markdown-to-pdf-in-java-full-step-by-step-guide/)
 Aspose.HTML for Java ile Markdown dosyalarını PDF'ye sorunsuz bir şekilde dönüştürün. Adım adım rehberimizle yüksek kaliteli PDF'ler oluşturun.
+### [HTML'yi Markdown'a Dönüştürme Java’da – Tam Programlama Kılavuzu](./convert-html-to-markdown-in-java-complete-programming-guide/)
+Aspose.HTML for Java ile HTML'yi Markdown formatına dönüştürerek tam bir programlama rehberi izleyin.
 ### [SVG'yi Görüntüye Dönüştürme](./convert-svg-to-image/)
 ### [SVG'yi PDF'ye Dönüştürme](./convert-svg-to-pdf/)
 ### [HTML'den MHTML Dosyası Oluşturma – Tam Java Kılavuzu](./create-mhtml-file-from-html-complete-java-guide/)

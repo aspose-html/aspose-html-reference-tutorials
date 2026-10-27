@@ -201,6 +201,8 @@ Aspose.HTML 允许您将 `DomMutationObserver` 附加到任意节点。这对于
 
 ### [使用 Java 将 SVG 转换为 AVIF – 完整分步指南](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
 学习如何使用 Java 将 SVG 图像转换为 AVIF 格式，提供完整的步骤和代码示例。
+### [在 Java 中设置设备 DPI – 完整沙盒指南](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
+
 
 ---
 **最后更新：** 2025-11-29  

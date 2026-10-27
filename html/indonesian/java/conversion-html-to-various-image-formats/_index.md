@@ -142,6 +142,8 @@ Pelajari cara mengonversi HTML ke WebP dengan Aspose.HTML di Java. Panduan lengk
 ### [Mengonversi HTML ke WebP – Panduan Lengkap Java Aspose.HTML](./convert-html-to-webp-complete-java-aspose-html-guide/)
 Pelajari cara mengonversi HTML ke format WebP menggunakan Aspose.HTML untuk Java dengan contoh kode lengkap dan langkah‑langkah mudah.
 
+### [Mengonversi HTML ke TIFF di Java – Panduan Pemrograman Lengkap](./convert-html-to-tiff-in-java-complete-programming-guide/)
+Panduan lengkap untuk mengonversi HTML ke format TIFF menggunakan Aspose.HTML for Java, dengan contoh kode langkah demi langkah.
 ### [Mengonversi HTML ke WebP – Panduan Lengkap Java dengan Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 ### [Cara merender HTML ke PNG di Java – Pandaan Lengkap](./how-to-render-html-to-png-in-java-complete-guide/)
 ### [Cara merender HTML ke PNG dengan viewport khusus](./how-to-render-html-to-png-with-custom-viewport/)

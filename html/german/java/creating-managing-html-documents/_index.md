@@ -71,6 +71,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML für Java HTML-Inhalte laden und schnell i
 Lernen Sie, wie Sie mit Aspose.HTML für Java Markdown‑Dateien in HTML umwandeln – einfache Schritt‑für‑Schritt‑Anleitung.
 ### [HTML in Java rendern – Komplettanleitung zum Warten auf das Laden der Seite und Query Selector](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
 Erfahren Sie, wie Sie HTML in Java rendern, auf das Laden der Seite warten und den Query Selector verwenden.
+### [JSON mit Fetch in Java laden – Komplett‑Guide](./load-json-with-fetch-in-java-complete-guide/)
+Erfahren Sie, wie Sie JSON-Daten mit Fetch in Java laden – Schritt‑für‑Schritt‑Anleitung inklusive.
 ### [Generieren Sie neue HTML-Dokumente mit Aspose.HTML für Java](./generate-new-html-documents/)
 Erfahren Sie in dieser einfachen Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.HTML für Java neue HTML-Dokumente erstellen. Beginnen Sie mit der Generierung dynamischer HTML-Inhalte.
 ### [Behandeln von Dokumentladeereignissen in Aspose.HTML für Java](./handle-document-load-events/)

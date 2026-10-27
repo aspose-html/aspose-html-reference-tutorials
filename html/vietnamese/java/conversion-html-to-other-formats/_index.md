@@ -195,6 +195,11 @@ Hướng dẫn cách thiết lập kích thước trang và lề khi chuyển đ
 
 ### [Tạo PDF từ HTML với Java Threads – Hướng dẫn đầy đủ](./create-pdf-from-html-with-java-threads-full-guide/)
 Hướng dẫn chi tiết cách tạo PDF từ HTML bằng đa luồng Java, tối ưu hiệu suất và tài nguyên.
+### [Chuyển đổi HTML sang PDF với Aspose HTML cho Java – Hướng dẫn đầy đủ](./convert-html-to-pdf-with-aspose-html-for-java-full-guide/)
+Hướng dẫn chi tiết cách chuyển đổi HTML sang PDF bằng Aspose.HTML cho Java, bao gồm các tùy chọn cấu hình và ví dụ thực tế.
+
+### [Chuyển đổi HTML sang PDF trong Java – Hướng dẫn chuyển đổi hàng loạt song song](./convert-html-to-pdf-in-java-parallel-batch-conversion-guide/)
+Hướng dẫn cách thực hiện chuyển đổi HTML sang PDF đồng thời xử lý nhiều tệp trong Java bằng Aspose.HTML.
 
 ### [Chuyển đổi HTML sang MHTML](./convert-html-to-mhtml/)
 Chuyển đổi HTML sang MHTML một cách dễ dàng bằng Aspose.HTML for Java. Thực hiện theo hướng dẫn từng bước để chuyển đổi HTML‑to‑MHTML hiệu quả.
@@ -208,6 +213,10 @@ Hướng dẫn chi tiết cách tạo tệp MHTML từ HTML trong Java bằng As
 
 ### [Chuyển đổi HTML sang XPS](./convert-html-to-xps/)
 Tìm hiểu cách chuyển đổi HTML sang XPS một cách dễ dàng bằng Aspose.HTML for Java. Tạo tài liệu đa nền tảng một cách nhanh chóng.
+
+### [Chuyển đổi HTML sang Markdown trong Java – Hướng dẫn lập trình đầy đủ](./convert-html-to-markdown-in-java-complete-programming-guide/)
+Hướng dẫn chi tiết cách chuyển đổi HTML sang Markdown trong Java bằng Aspose.HTML, bao gồm các tùy chọn cấu hình và ví dụ thực tế.
+
 ### [Chuyển đổi Markdown sang HTML](./convert-markdown-to-html/)
 Chuyển đổi Markdown sang HTML trong Java một cách liền mạch với Aspose.HTML for Java. Thực hiện theo hướng dẫn từng bước để tối ưu nhu cầu chuyển đổi tài liệu của bạn.
 ### [Cách thiết lập offset khi chuyển đổi HTML sang Markdown trong Java](./how-to-set-offset-when-converting-html-to-markdown-in-java/)
@@ -389,6 +398,9 @@ Hướng dẫn chi tiết cách nhúng phông chữ vào PDF trong Java bằng A
 
 ### [Sử dụng toàn bộ lõi CPU cho chuyển đổi HTML‑to‑PDF hàng loạt song song](./use-all-cpu-cores-for-parallel-html-to-pdf-batch-conversion/)
 Hướng dẫn cách tận dụng đa lõi CPU để thực hiện chuyển đổi HTML sang PDF hàng loạt một cách song song, tăng tốc độ xử lý.
+
+### [Chuyển đổi HTML sang PDF: Trình chuyển đổi một dòng Aspose](./html-to-pdf-tutorial-one-line-aspose-converter/)
+Hướng dẫn nhanh cách chuyển đổi HTML sang PDF chỉ với một dòng mã sử dụng Aspose.HTML for Java.
 
 ## Câu hỏi thường gặp
 

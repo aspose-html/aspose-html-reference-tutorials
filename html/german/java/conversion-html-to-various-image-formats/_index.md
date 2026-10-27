@@ -165,6 +165,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML for Java SVG‑Grafiken in das moderne Web
 Erfahren Sie, wie Sie SVG mit Aspose.HTML for Java in das moderne WebP‑Format konvertieren – Schritt‑für‑Schritt‑Anleitung für optimale Bildqualität.
 ### [Geräte-Pixel-Verhältnis in Java festlegen – Vollständiger Leitfaden](./set-device-pixel-ratio-in-java-complete-guide/)
 Erfahren Sie, wie Sie das Device Pixel Ratio in Aspose.HTML for Java einstellen, um hochauflösende Renderings zu erzielen.
+### [HTML in TIFF konvertieren – Vollständiger Programmierleitfaden](./convert-html-to-tiff-in-java-complete-programming-guide/)
+Erfahren Sie, wie Sie HTML mit Aspose.HTML for Java in TIFF konvertieren – vollständiger Leitfaden mit Schritt‑für‑Schritt‑Anweisungen.
 ### [HTML in WebP konvertieren](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 Erfahren Sie, wie Sie HTML mit Aspose.HTML for Java in das moderne WebP‑Format konvertieren – Schritt‑für‑Schritt‑Anleitung für optimale Bildqualität.
 ### [HTML in WebP konvertieren – Vollständiger Java‑Leitfaden](./convert-html-to-webp-complete-java-guide/)

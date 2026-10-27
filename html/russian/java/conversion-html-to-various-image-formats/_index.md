@@ -230,6 +230,9 @@ weight: 24
 
 ### [Преобразование HTML в WebP в Java – Полное руководство](./convert-html-to-webp-in-java-complete-guide/)
 
+### [Преобразование HTML в TIFF в Java – Полное руководство по программированию](./convert-html-to-tiff-in-java-complete-programming-guide/)
+Узнайте, как преобразовать HTML в TIFF в Java с помощью Aspose.HTML. Полное пошаговое руководство.
+
 ## Часто задаваемые вопросы
 
 **В: Можно ли конвертировать HTML в PNG с помощью Java без дополнительных библиотек для работы с изображениями?**  

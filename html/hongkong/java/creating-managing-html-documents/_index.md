@@ -66,6 +66,8 @@ Aspose.HTML for Java 為旨在在 Java 應用程式中無縫處理 HTML 文件�
 了解如何使用 Aspose.HTML 從 Java 中的 URL 輕鬆載入 HTML 文件。包括逐步教程。
 ### [如何在 Java 中載入 HTML – 逐步指南](./how-to-load-html-in-java-step-by-step-guide/)
 透過此逐步指南，學習如何在 Java 中使用 Aspose.HTML 載入 HTML 文件。
+### [在 Java 中使用 Fetch 載入 JSON – 完整指南](./load-json-with-fetch-in-java-complete-guide/)
+使用 Aspose.HTML for Java 透過 Fetch API 在 Java 中載入 JSON 資料的完整步驟與範例。
 ### [使用 Aspose.HTML for Java 產生新的 HTML 文檔](./generate-new-html-documents/)
 透過這個簡單的逐步指南，了解如何使用 Aspose.HTML for Java 建立新的 HTML 文件。開始產生動態 HTML 內容。
 ### [使用 Java 建立 HTML 文檔 – 抓取 JSON 並生成內容](./create-html-document-with-java-fetch-json-and-generate-conte/)

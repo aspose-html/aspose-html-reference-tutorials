@@ -101,6 +101,12 @@ Aspose.HTML for Java упрощает процесс конвертации HTML
 ### [Конвертация HTML в PDF с помощью Java ExecutorService – Полное руководство](./convert-html-to-pdf-with-java-executorservice-complete-guide/)
 Подробное руководство по использованию ExecutorService в Java для параллельной конвертации HTML в PDF с Aspose.HTML.
 
+### [Конвертация HTML в PDF с Aspose HTML для Java – Полное руководство](./convert-html-to-pdf-with-aspose-html-for-java-full-guide/)
+Полное руководство по конвертации HTML в PDF с использованием Aspose.HTML for Java, включая настройку параметров и примеры кода.
+
+### [Учебник HTML в PDF: однострочный конвертер Aspose](./html-to-pdf-tutorial-one-line-aspose-converter/)
+Быстро конвертируйте HTML в PDF в Java с помощью однострочного кода Aspose.HTML.
+
 ### [Конвертация HTML в MHTML](./convert-html-to-mhtml/)
 Легко конвертируйте HTML в MHTML с помощью Aspose.HTML for Java. Следуйте нашему пошаговому руководству для эффективной конвертации HTML в MHTML.
 ### [Конвертация HTML в XPS](./convert-html-to-xps/)
@@ -126,6 +132,8 @@ Aspose.HTML for Java упрощает процесс конвертации HTML
 ### [Конвертация HTML в Markdown в Java – Пошаговое руководство](./convert-html-to-markdown-in-java-step-by-step-guide/)
 Бесшовно конвертируйте HTML в Markdown в Java с помощью Aspose.HTML. Следуйте нашему пошаговому руководству для простого преобразования.
 Полное руководство по конвертации Markdown в PDF в Java с помощью Aspose.HTML.
+### [Конвертация HTML в Markdown в Java – Полное руководство](./convert-html-to-markdown-in-java-complete-programming-guide/)
+Полное руководство по конвертации HTML в Markdown в Java с использованием Aspose.HTML, включая примеры кода и настройки.
 
 ### [Конвертация SVG в изображение](./convert-svg-to-image/)
 Узнайте, как конвертировать SVG в изображения в Java с помощью Aspose.HTML. Полное руководство для получения высококачественного результата.
@@ -370,6 +378,9 @@ Aspose.HTML for Java упрощает процесс конвертации HTML
 
 ### [Использовать все ядра процессора для параллельного пакетного преобразования HTML‑в‑PDF](./use-all-cpu-cores-for-parallel-html-to-pdf-batch-conversion/)
 Пошаговое руководство по ускорению пакетной конвертации HTML в PDF с помощью многопоточной обработки на всех ядрах CPU.
+
+### [Конвертация HTML в PDF в Java – Руководство по параллельному пакетному преобразованию](./convert-html-to-pdf-in-java-parallel-batch-conversion-guide/)
+Узнайте, как выполнять параллельную пакетную конвертацию HTML в PDF в Java с помощью Aspose.HTML, повышая производительность.
 
 ## Часто задаваемые вопросы
 

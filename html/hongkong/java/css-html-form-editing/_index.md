@@ -120,6 +120,10 @@ url: /zh-hant/java/css-html-form-editing/
 本指南說明如何在 Java 中使用 Aspose.HTML 取得元素的計算樣式，提供完整的程式範例與說明。
 ### [取得計算樣式（Java） – CSS 提取完整指南](./get-computed-style-java-complete-guide-to-css-extraction/)
 本完整指南說明如何使用 Aspose.HTML for Java 取得元素的計算樣式，以便進行 CSS 提取與分析。
+### [在 Java 中取得 CSS 背景 – 完整 Aspose.HTML 指南](./get-css-background-in-java-complete-aspose-html-guide/)
+本完整指南說明如何使用 Aspose.HTML for Java 取得網頁元素的 CSS 背景屬性。
+### [如何在 Java 中使用 CSS – 載入 HTML、計算連結並評估 XPath](./how-to-use-css-in-java-load-html-count-links-evaluate-xpath/)
+本教學示範如何在 Java 中載入 HTML、使用 CSS、統計連結數量以及評估 XPath 表達式。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

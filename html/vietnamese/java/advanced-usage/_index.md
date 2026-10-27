@@ -176,6 +176,8 @@ Hướng dẫn cách thiết lập User-Agent tùy chỉnh khi chạy JavaScript
 Hướng dẫn chi tiết cách tạo và quản lý Fixed Thread Pool bằng Executor trong Java để tối ưu hiệu năng đa luồng.
 ### [Chuyển đổi SVG sang AVIF với Java – Hướng dẫn chi tiết từng bước](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tệp SVG sang định dạng AVIF bằng Aspose.HTML for Java.
+### [Cài đặt DPI thiết bị Aspose trong Java – Hướng dẫn Sandbox toàn diện](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
+Hướng dẫn chi tiết cách thiết lập DPI cho thiết bị khi sử dụng Aspose.HTML trong Java, bao gồm các bước trong môi trường Sandbox.
 
 ---
 

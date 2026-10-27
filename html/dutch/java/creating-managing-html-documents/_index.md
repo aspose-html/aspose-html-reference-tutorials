@@ -166,6 +166,8 @@ Leer hoe u JSON-gegevens ophaalt en verwerkt in Java om dynamisch HTML-documente
 Leer hoe u HTML kunt doorzoeken met Aspose Java in deze volledige programmeergids.
 ### [JSON ophalen met JavaScript in Java – Volledige gids](./fetch-json-with-javascript-in-java-full-guide/)
 Leer hoe u JSON kunt ophalen met JavaScript in Java, stap voor stap, inclusief voorbeeldcode en best practices.
+### [JSON laden met Fetch in Java – Complete tutorial](./load-json-with-fetch-in-java-complete-guide/)
+Leer hoe u JSON kunt laden met Fetch in Java, inclusief stap‑voor‑stap handleiding en voorbeeldcode.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -162,6 +162,8 @@ Apprenez à interroger et extraire des données HTML en Java avec Aspose.HTML gr
 Apprenez à créer une balise div avec une classe en Java en utilisant Aspose.HTML, exemple complet pas à pas.
 ### [Récupérer du JSON avec JavaScript en Java – Guide complet](./fetch-json-with-javascript-in-java-full-guide/)
 Apprenez à récupérer du JSON via JavaScript dans des applications Java avec Aspose.HTML. Guide complet étape par étape.
+### [Charger JSON avec Fetch en Java – Guide complet](./load-json-with-fetch-in-java-complete-guide/)
+Apprenez à charger des données JSON en Java en utilisant Fetch, avec un guide complet étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

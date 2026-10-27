@@ -37,7 +37,6 @@ Java용 Aspose.HTML을 사용해 요소의 계산된 CSS 값을 추출하고 활
 ### [Java에서 스타일 가져오기 – HTML 로드 및 쿼리 선택자](./how-to-get-style-in-java-load-html-query-selector/)
 Java용 Aspose.HTML을 사용해 HTML을 로드하고 쿼리 선택자로 스타일을 추출하는 방법을 배웁니다.
 ### [Java에서 클래스별 select 요소 선택 – 완전 가이드](./select-element-by-class-in-java-complete-how-to-guide/)
-Java에서 CSS 클래스 이름으로 select 요소를 찾는 방법을 단계별로 안내합니다.
 ### [Java에서 CSS 읽기 – Aspose.HTML을 활용한 완전 가이드](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
 Aspose.HTML을 사용하여 Java에서 CSS 파일을 읽고 파싱하는 방법을 단계별로 안내합니다.
 ### [Java로 HTML 파싱: CSS 속성 추출 및 글꼴 크기 가져오기](./parse-html-with-java-extract-css-property-and-get-font-size/)
@@ -121,6 +120,9 @@ Java와 Aspose.HTML을 사용해 비활성화되지 않은 버튼을 선택하�
 Java용 Aspose.HTML을 활용해 요소의 계산된 CSS 스타일을 프로그래밍 방식으로 추출하는 방법을 단계별로 안내합니다.
 ### [Java에서 계산된 스타일 가져오기 – CSS 추출 완전 가이드](./get-computed-style-java-complete-guide-to-css-extraction/)
 Java용 Aspose.HTML을 사용하여 요소의 계산된 CSS 스타일을 추출하는 방법을 단계별로 안내합니다.
+### [Java에서 CSS 배경 가져오기 – 완전 Aspose.HTML 가이드](./get-css-background-in-java-complete-aspose-html-guide/)
+### [Java에서 CSS 사용하기 – HTML 로드, 링크 수 세기 및 XPath 평가](./how-to-use-css-in-java-load-html-count-links-evaluate-xpath/)
+Java용 Aspose.HTML을 사용해 CSS를 적용하고 HTML을 로드한 뒤, 링크 수를 세고 XPath를 평가하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

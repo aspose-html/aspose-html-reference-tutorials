@@ -156,6 +156,9 @@ weight: 24
 
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
 
+### [在 Java 中将 HTML 转换为 TIFF – 完整编程指南](./convert-html-to-tiff-in-java-complete-programming-guide/)
+使用 Aspose.HTML for Java 将 HTML 转换为 TIFF 的完整编程指南，提供详细步骤和最佳实践。
+
 ### [将 HTML 转换为 WebP](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 
 ### [如何从 SVG 创建 GIF – Java 步骤指南](./how-to-create-gif-from-svg-step-by-step-java-guide/)

@@ -145,6 +145,8 @@ Aspose.HTML を活用し、Java で Markdown を HTML に変換する手順を�
 Aspose.HTML for Java を活用し、class "java" を持つ div 要素を作成する手順をステップバイステップで解説します。
 ### [Java で JavaScript を使用して JSON を取得する – 完全ガイド](./fetch-json-with-javascript-in-java-full-guide/)
 Java アプリケーションで JavaScript を利用し、JSON データを取得して処理する方法をステップバイステップで解説します。
+### [Java で Fetch を使用して JSON をロードする – 完全ガイド](./load-json-with-fetch-in-java-complete-guide/)
+Java アプリで Fetch API を利用し、JSON データを取得・処理する手順を詳しく解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

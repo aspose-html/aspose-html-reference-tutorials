@@ -100,7 +100,7 @@ Aspose.HTML for Java ile EPUB'tan PDF'ye dönüştürürken fontları gömmeyi a
 Aspose.HTML for Java kullanarak eKitapları PDF'ye dönüştürmeyi adım adım öğrenin.
 ## Sıkça Sorulan Sorular
 
-**Q:** *Korunan EPUB dosyalarını PDF'ye dönüştürebilir miyim?*  
+**Q:** *Korunan EPUB dosalarını PDF'ye dönüştürebilir miyim?*  
 **A:** Evet. Aspose.HTML for Java, uygun şifre çözme parolasını sağladığınızda şifreli EPUB'ları açabilir.
 
 **Q:** *PDF'nin PDF/A uyumlu olması gerekiyorsa ne yapmalıyım?*  

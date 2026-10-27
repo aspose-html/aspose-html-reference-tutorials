@@ -122,6 +122,10 @@ url: /th/java/css-html-form-editing/
 เรียนรู้วิธีดึงค่า Computed Style ขององค์ประกอบ HTML ด้วย Aspose.HTML สำหรับ Java อย่างละเอียดในคู่มือฉบับสมบูรณ์นี้
 ### [รับสไตล์ที่คำนวณแล้วใน Java – คู่มือฉบับสมบูรณ์สำหรับการสกัด CSS](./get-computed-style-java-complete-guide-to-css-extraction/)
 เรียนรู้วิธีดึงสไตล์ที่คำนวณจากองค์ประกอบ HTML ด้วย Aspose.HTML สำหรับ Java อย่างละเอียดในคู่มือฉบับสมบูรณ์นี้
+### [ดึงพื้นหลัง CSS ใน Java – คู่มือฉบับสมบูรณ์ Aspose.HTML](./get-css-background-in-java-complete-aspose-html-guide/)
+เรียนรู้วิธีดึงพื้นหลัง CSS ใน Java ด้วย Aspose.HTML อย่างละเอียดในคู่มือฉบับสมบูรณ์นี้
+### [วิธีใช้ CSS ใน Java – โหลด HTML, นับลิงก์ และประเมิน XPath](./how-to-use-css-in-java-load-html-count-links-evaluate-xpath/)
+เรียนรู้วิธีใช้ CSS ใน Java เพื่อโหลด HTML, นับลิงก์และประเมิน XPath ด้วย Aspose.HTML
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

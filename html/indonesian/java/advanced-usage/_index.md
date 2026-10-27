@@ -189,6 +189,8 @@ Pelajari cara mengonversi file EPUB menjadi DOCX menggunakan Aspose.HTML untuk J
 ### [Mengonversi SVG ke AVIF dengan Java – Panduan Lengkap Langkah demi Langkah](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
 Pelajari cara mengonversi file SVG menjadi format gambar AVIF menggunakan Aspose.HTML untuk Java dengan contoh kode lengkap.
 
+### [Atur DPI Perangkat Aspose di Java – Panduan Sandbox Lengkap](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
+
 ---
 
 **Terakhir Diperbarui:** 2025-11-29  

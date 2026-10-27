@@ -119,6 +119,10 @@ url: /ru/java/css-html-form-editing/
 Узнайте, как получить вычисленный стиль элементов с помощью Aspose.HTML для Java в этом полном руководстве.
 ### [Получение вычисленного стиля Java – Полное руководство по извлечению CSS](./get-computed-style-java-complete-guide-to-css-extraction/)
 Узнайте, как извлекать вычисленные стили CSS с помощью Aspose.HTML для Java в полном пошаговом руководстве.
+### [Получить фон CSS в Java – Полное руководство по Aspose.HTML](./get-css-background-in-java-complete-aspose-html-guide/)
+Узнайте, как извлечь свойства фонового изображения CSS из HTML с помощью Aspose.HTML для Java в этом полном руководстве.
+### [Как использовать CSS в Java – загрузить HTML, подсчитать ссылки и выполнить XPath](./how-to-use-css-in-java-load-html-count-links-evaluate-xpath/)
+Узнайте, как загрузить HTML, подсчитать ссылки и выполнить XPath запросы с помощью CSS в Java, используя Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

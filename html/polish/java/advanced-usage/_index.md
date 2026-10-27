@@ -177,6 +177,8 @@ Dowiedz się, jak skonfigurować i wykorzystywać Executor z stałą pulą wątk
 ### [Konwertuj EPUB do DOCX w Javie – Pełny przewodnik krok po kroku](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
 ### [Konwertuj SVG do AVIF w Javie – Kompletny przewodnik krok po kroku](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
 Dowiedz się, jak konwertować pliki SVG do formatu AVIF w Javie, korzystając z Aspose.HTML – kompletny przewodnik krok po kroku.
+### [Ustaw DPI urządzenia w Aspose w Javie – Kompletny przewodnik sandbox](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
+Dowiedz się, jak skonfigurować DPI urządzenia w Aspose.HTML dla Javy w środowisku sandbox, aby uzyskać wysoką jakość renderowania.
 
 ---
 

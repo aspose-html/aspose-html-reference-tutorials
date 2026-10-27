@@ -124,6 +124,11 @@ Apprenez à récupérer le style calculé d'un élément en Java avec Aspose.HTM
 
 ### [Obtenir le style calculé Java – Guide complet d'extraction CSS](./get-computed-style-java-complete-guide-to-css-extraction/)
 Apprenez à extraire les styles CSS calculés d'éléments HTML en Java avec Aspose.HTML grâce à ce guide complet pas à pas.
+### [Obtenir le fond CSS en Java – Guide complet Aspose.HTML](./get-css-background-in-java-complete-aspose-html-guide/)
+Apprenez à récupérer et manipuler le fond CSS d'une page en Java avec Aspose.HTML grâce à ce guide complet.
+### [Comment utiliser le CSS en Java – Charger du HTML, compter les liens et évaluer XPath](./how-to-use-css-in-java-load-html-count-links-evaluate-xpath/)
+Apprenez à charger une page HTML, compter les liens et évaluer des expressions XPath avec Aspose.HTML pour Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 ### [Obtenir la valeur d'une propriété CSS en Java – Guide complet avec Aspose.HTML](./get-css-property-value-in-java-complete-guide-with-aspose-ht/)

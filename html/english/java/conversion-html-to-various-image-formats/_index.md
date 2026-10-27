@@ -165,6 +165,8 @@ Full example showing how to generate PNG from HTML in Java with Aspose.HTML, inc
 ### [Converting HTML to TIFF]({{< relref "convert-html-to-tiff/_index.md" >}})
 Learn how to easily convert HTML to TIFF using Aspose.HTML for Java. Step-by-step guide for efficient document handling.
 ### [Convert HTML to WebP – Complete Java Guide with Aspose.HTML]({{< relref "convert-html-to-webp-complete-java-guide-with-aspose-html/_index.md" >}})
+### [Convert HTML to TIFF in Java – Complete Programming Guide](./convert-html-to-tiff-in-java-complete-programming-guide/)
+Convert HTML to TIFF in Java using Aspose.HTML. A complete programming guide covering setup, options, and best practices.
 ### [Convert HTML to WebP – Complete Java Guide with Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 Convert HTML to WebP using Aspose.HTML for Java. A comprehensive guide for efficient HTML‑to‑WebP image conversion.
 ### [How to Generate Thumbnail from HTML – Java Guide](./how-to-generate-thumbnail-from-html-java-guide/)

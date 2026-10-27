@@ -169,6 +169,12 @@ Step‑by‑step tutorial to convert HTML to PDF in Java using Aspose.HTML, cove
 Explore how to use Aspose.HTML sandbox for secure HTML‑to‑PDF conversion in Java, with a complete step‑by‑step guide.
 ### [Use All CPU Cores for Parallel HTML‑to‑PDF Batch Conversion](./use-all-cpu-cores-for-parallel-html-to-pdf-batch-conversion/)
 Leverage all CPU cores to perform parallel batch HTML‑to‑PDF conversions in Java, boosting throughput with Aspose.HTML.
+### [Convert HTML to PDF in Java – Parallel Batch Conversion Guide](./convert-html-to-pdf-in-java-parallel-batch-conversion-guide/)
+Learn how to perform parallel batch HTML to PDF conversions in Java using Aspose.HTML for high-performance processing.
+### [Convert HTML to PDF with Aspose HTML for Java – Full Guide](./convert-html-to-pdf-with-aspose-html-for-java-full-guide/)
+Comprehensive guide to converting HTML to PDF using Aspose.HTML for Java, covering setup, options, and advanced features.
+### [HTML to PDF Tutorial: One‑Line Aspose Converter](./html-to-pdf-tutorial-one-line-aspose-converter/)
+Convert HTML to PDF with a single line of code using Aspose.HTML's simple converter.
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 Effortlessly convert HTML to MHTML using Aspose.HTML for Java. Follow our step-by-step guide for efficient HTML-to-MHTML conversion.
 ### [Create PDF from HTML in Java – Complete Aspose Guide](./create-pdf-from-html-in-java-complete-aspose-guide/)
@@ -191,7 +197,7 @@ Learn how to generate PDFs from HTML using multithreading in Java with Aspose.HT
 
 ### [Converting HTML to XPS](./convert-html-to-xps/)
 Learn how to effortlessly convert HTML to XPS using Aspose.HTML for Java. Create cross-platform documents with ease.
-
+### [Convert HTML to Markdown in Java – Complete Programming Guide](./convert-html-to-markdown-in-java-complete-programming-guide/)
 ### [Converting Markdown to HTML](./convert-markdown-to-html/)
 Convert Markdown to HTML in Java seamlessly with Aspose.HTML for Java. Follow our step-by-step guide to streamline your document conversion needs.
 ### [Create PDF from Markdown in Java – Step‑by‑Step Guide](./create-pdf-from-markdown-in-java-step-by-step-guide/)

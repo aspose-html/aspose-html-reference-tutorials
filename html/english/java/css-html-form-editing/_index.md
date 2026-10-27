@@ -123,6 +123,10 @@ Learn how to locate enabled button elements using CSS selectors with Aspose.HTML
 Learn how to retrieve computed CSS styles in Java using Aspose.HTML in this complete programming guide.
 ### [Get Computed Style Java – Complete Guide to CSS Extraction](./get-computed-style-java-complete-guide-to-css-extraction/)
 Learn how to extract computed CSS styles using Aspose.HTML for Java in this complete step-by-step guide.
+### [Get CSS Background in Java – Complete Aspose.HTML Guide](./get-css-background-in-java-complete-aspose-html-guide/)
+Learn how to retrieve and manipulate CSS background properties in Java using Aspose.HTML in this complete step-by-step guide.
+### [How to Use CSS in Java – Load HTML, Count Links & Evaluate XPath](./how-to-use-css-in-java-load-html-count-links-evaluate-xpath/)
+Learn how to load HTML, count hyperlinks, and evaluate XPath expressions using CSS in Java with Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

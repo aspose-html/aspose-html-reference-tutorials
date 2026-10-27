@@ -125,6 +125,10 @@ Aprenda a seleccionar botones que no están deshabilitados usando selectores CSS
 Aprenda a obtener el estilo computado de elementos HTML usando Aspose.HTML para Java en esta guía paso a paso.
 ### [Obtener estilo computado en Java – Guía completa de extracción de CSS](./get-computed-style-java-complete-guide-to-css-extraction/)
 Aprenda a extraer estilos CSS calculados de elementos HTML usando Aspose.HTML para Java en esta guía paso a paso.
+### [Obtener fondo CSS en Java – Guía completa de Aspose.HTML](./get-css-background-in-java-complete-aspose-html-guide/)
+Aprenda a obtener el fondo CSS en Java usando Aspose.HTML con ejemplos claros y paso a paso.
+### [Cómo usar CSS en Java – Cargar HTML, contar enlaces y evaluar XPath](./how-to-use-css-in-java-load-html-count-links-evaluate-xpath/)
+Aprenda a cargar HTML, contar enlaces y evaluar expresiones XPath usando CSS en Java con Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

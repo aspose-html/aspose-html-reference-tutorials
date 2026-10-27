@@ -177,6 +177,8 @@ Aspose.HTML позволяет прикрепить `DomMutationObserver` к л�
 Узнайте, как преобразовать файлы EPUB в DOCX с помощью Aspose.HTML for Java, используя пошаговые инструкции и пример кода.
 ### [Конвертировать SVG в AVIF с Java – Полное пошаговое руководство](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
 Узнайте, как преобразовать файлы SVG в формат AVIF с помощью Aspose.HTML for Java, следуя пошаговым инструкциям.
+### [Установка DPI устройства в Aspose Java – Полное руководство по песочнице](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
+Узнайте, как задать DPI устройства при работе с Aspose.HTML в Java в изолированной среде.
 
 ---
 

@@ -199,6 +199,9 @@ weight: 20
 ### [تحويل SVG إلى AVIF باستخدام Java – دليل كامل خطوة بخطوة](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
 تعلم كيفية تحويل ملفات SVG إلى تنسيق AVIF عالي الجودة باستخدام Aspose.HTML for Java خطوة بخطوة.
 
+### [ضبط DPI للجهاز باستخدام Aspose في Java – دليل شامل في Sandbox](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
+تعلم كيفية ضبط DPI للجهاز عند تحويل HTML إلى PDF/XPS باستخدام Aspose.HTML for Java في بيئة Sandbox.
+
 ---
 
 **آخر تحديث:** 2025-11-29  

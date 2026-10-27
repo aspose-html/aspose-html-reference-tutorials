@@ -196,6 +196,8 @@ Aspose.HTML ให้คุณแนบ `DomMutationObserver` ไปยังโ
 เรียนรู้วิธีสร้าง Fixed Thread Pool ด้วย Executor ใน Java เพื่อจัดการงานหลายๆ งานพร้อมกันอย่างมีประสิทธิภาพ  
 ### [แปลง EPUB เป็น DOCX ใน Java – คู่มือขั้นตอนเต็ม](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
 ### [แปลง SVG เป็น AVIF ด้วย Java – คู่มือขั้นตอนเต็ม](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
+### [ตั้งค่า DPI ของอุปกรณ์ใน Aspose ด้วย Java – คู่มือ Sandbox ฉบับสมบูรณ์](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
+เรียนรู้วิธีกำหนดค่า DPI ของอุปกรณ์ใน Aspose.HTML for Java ภายใน Sandbox อย่างละเอียดเพื่อการแปลงที่แม่นยำ  
 
 ---
 

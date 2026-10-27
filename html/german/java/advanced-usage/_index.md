@@ -183,6 +183,8 @@ Erfahren Sie, wie Sie mit dem Executor-Service in Java einen Fixed Thread Pool e
 Erfahren Sie, wie Sie EPUB‑Dateien mit Aspose.HTML für Java in DOCX‑Dokumente konvertieren – eine vollständige Schritt‑für‑Schritt‑Anleitung.
 ### [SVG in AVIF mit Java konvertieren – Vollständige Schritt‑für‑Schritt‑Anleitung](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
 Erfahren Sie, wie Sie SVG‑Grafiken mit Aspose.HTML für Java in das AVIF‑Bildformat konvertieren – eine vollständige Schritt‑für‑Schritt‑Anleitung.
+### [Geräte‑DPI mit Aspose in Java festlegen – Komplett‑Sandbox‑Leitfaden](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
+Erfahren Sie, wie Sie die DPI‑Einstellungen von Geräten in Aspose.HTML für Java konfigurieren und in einer Sandbox‑Umgebung testen.
 
 ---
 

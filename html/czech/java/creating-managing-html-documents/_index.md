@@ -71,6 +71,8 @@ Objevte, jak snadno načíst HTML dokumenty z URL v Javě pomocí Aspose.HTML. V
 Naučte se vytvořit HTML dokument s vloženým JavaScriptem v Javě pomocí Aspose.HTML.
 ### [Vytvořte div s třídou java – kompletní příklad s použitím Aspose.HTML](./create-div-with-class-java-full-example-using-aspose-html/)
 Ukázkový průvodce, jak v Javě vytvořit element div s přiřazenou třídou pomocí Aspose.HTML.
+### [Načtěte JSON pomocí Fetch v Javě – Kompletní průvodce](./load-json-with-fetch-in-java-complete-guide/)
+Kompletní průvodce načítáním JSON dat pomocí Fetch API v Javě s Aspose.HTML, včetně příkladů a tipů.
 ### [Generujte nové HTML dokumenty pomocí Aspose.HTML pro Java](./generate-new-html-documents/)
 Naučte se vytvářet nové HTML dokumenty pomocí Aspose.HTML for Java pomocí tohoto jednoduchého průvodce krok za krokem. Začněte generovat dynamický obsah HTML.
 ### [Generujte HTML z JavaScriptu v Javě – Kompletní průvodce krok za krokem](./generate-html-from-javascript-in-java-complete-step-by-step/)

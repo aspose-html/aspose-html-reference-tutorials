@@ -144,10 +144,11 @@ Aprenda a renderizar HTML a PNG con Aspose.HTML for Java, paso a paso, con ejemp
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
 Aprenda a convertir HTML a TIFF fácilmente usando Aspose.HTML for Java. Guía paso a paso para un manejo eficiente de documentos.
 ### [Convertir HTML a WebP – Guía completa de Java con Aspose.HTML](./convert-html-to-webp-complete-java-guide/)
+### [Convertir HTML a TIFF en Java – Guía completa de programación](./convert-html-to-tiff-in-java-complete-programming-guide/)
+Aprenda a convertir HTML a TIFF en Java con Aspose.HTML. Guía completa paso a paso para una conversión eficiente y de alta calidad.
+### [Convertir HTML a WebP – Guía completa de Java con Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 Aprenda a convertir HTML a WebP en Java usando Aspose.HTML. Guía paso a paso para una conversión eficiente y de alta calidad.
 
-### [Convertir HTML a WebP – Guía completa de Java con Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
-Aprende a convertir HTML a WebP en Java usando Aspose.HTML. Guía paso a paso para una conversión eficiente y de alta calidad.
 ### [Convertir HTML a WebP – Guía completa de Java](./convert-html-to-webp-in-java-complete-guide/)
 Aprenda a convertir HTML a WebP en Java usando Aspose.HTML. Guía paso a paso para una conversión eficiente y de alta calidad.
 ### [Cómo usar Aspose para convertir SVG a WebP – Guía Java](./how-to-use-aspose-to-convert-svg-to-webp-java-guide/)

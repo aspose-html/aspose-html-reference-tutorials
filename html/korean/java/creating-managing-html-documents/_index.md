@@ -71,6 +71,8 @@ Aspose.HTML for Java를 사용해 Java에서 HTML을 로드하는 방법을 단�
 Aspose.HTML for Java를 사용하여 HTML 문서에서 페이지 제목을 빠르게 추출하는 방법을 단계별로 안내합니다.
 ### [MHTML에서 HTML 추출 – 완전 Java 가이드](./extract-html-from-mhtml-complete-java-guide/)
 Aspose.HTML for Java를 활용해 MHTML 파일에서 HTML을 추출하는 전체 가이드를 제공합니다.
+### [Java에서 Fetch를 사용하여 JSON 로드 – 완전 가이드](./load-json-with-fetch-in-java-complete-guide/)
+Java에서 Fetch API를 활용해 JSON 데이터를 로드하고 처리하는 방법을 단계별로 안내합니다.
 ### [Java에서 HTML을 쿼리하는 방법 – 완전 튜토리얼](./how-to-query-html-in-java-complete-tutorial/)
 Java용 Aspose.HTML을 사용하여 HTML을 효율적으로 쿼리하는 방법을 단계별로 안내합니다.
 ### [Java용 HTML 파싱 방법 – 로드, 쿼리 및 요소 개수 세기](./how-to-parse-html-java-load-query-count-elements/)

@@ -154,6 +154,8 @@ Ismerje meg, hogyan konvertálhatja a Markdown fájlokat HTML-re Java-ban az Asp
 Tanulja meg, hogyan hozhat létre egy div elemet java osztállyal az Aspose.HTML segítségével, részletes, lépésről‑lépésre útmutatóval.
 ### [JSON lekérése JavaScript-tel Java-ban – Teljes útmutató](./fetch-json-with-javascript-in-java-full-guide/)
 Ismerje meg, hogyan kérhet le JSON adatot JavaScript használatával Java alkalmazásban, lépésről‑lépésre útmutató.
+### [JSON betöltése Fetch segítségével Java-ban – Teljes útmutató](./load-json-with-fetch-in-java-complete-guide/)
+Ismerje meg, hogyan használja a Fetch API-t JSON adatok betöltésére Java alkalmazásokban, részletes, lépésről‑lépésre útmutató.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

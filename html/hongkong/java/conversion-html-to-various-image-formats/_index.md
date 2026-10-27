@@ -226,6 +226,9 @@ weight: 24
 
 ### [從 SVG 建立動畫 GIF – 步驟說明 Java 教學](./create-animated-gif-from-svg-step-by-step-java-guide/)
 說明如何使用 Aspose.HTML for Java 將 SVG 轉換為動畫 GIF，提供完整範例與步驟。
+### [將 HTML 轉換為 TIFF（Java 完整程式設計指南）](./convert-html-to-tiff-in-java-complete-programming-guide/)
+
+完整指南說明如何在 Java 中使用 Aspose.HTML 將 HTML 轉換為 TIFF，提供完整程式碼範例與最佳化技巧。
 
 ## 常見問題集
 

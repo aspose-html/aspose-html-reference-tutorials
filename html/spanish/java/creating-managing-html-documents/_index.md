@@ -70,6 +70,8 @@ Descubra cómo cargar fácilmente documentos HTML desde una URL en Java con Aspo
 Aprenda a cargar un documento HTML y extraer el título de la página usando Aspose.HTML en Java con esta guía paso a paso.
 ### [Cómo cargar HTML en Java – Guía paso a paso](./how-to-load-html-in-java-step-by-step-guide/)
 Aprenda a cargar documentos HTML en Java con Aspose.HTML mediante una guía paso a paso, ideal para principiantes y desarrolladores avanzados.
+### [Cargar JSON con Fetch en Java – Guía completa](./load-json-with-fetch-in-java-complete-guide/)
+Aprenda a cargar datos JSON usando Fetch en Java con esta guía completa paso a paso.
 ### [Cómo consultar HTML en Java – Tutorial completo](./how-to-query-html-in-java-complete-tutorial/)
 Aprenda a consultar documentos HTML en Java usando Aspose.HTML con esta guía paso a paso completa.
 ### [Cómo consultar HTML en Java – Extraer URLs de imágenes](./how-to-query-html-in-java-extract-image-urls/)

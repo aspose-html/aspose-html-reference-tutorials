@@ -66,6 +66,8 @@ Aspose.HTML สำหรับ Java นำเสนอชุดเครื่�
 เรียนรู้วิธีโหลดเอกสาร HTML ใน Java พร้อมการใช้ XPath และ CSS อย่างละเอียดในคู่มือฉบับสมบูรณ์
 ### [สกัด HTML จาก MHTML – คู่มือฉบับสมบูรณ์สำหรับ Java](./extract-html-from-mhtml-complete-java-guide/)
 เรียนรู้วิธีสกัดเนื้อหา HTML จากไฟล์ MHTML ด้วย Aspose.HTML สำหรับ Java ผ่านคู่มือขั้นตอนเต็มรูปแบบ
+### [โหลด JSON ด้วย Fetch ใน Java – คู่มือฉบับสมบูรณ์](./load-json-with-fetch-in-java-complete-guide/)
+เรียนรู้วิธีโหลดไฟล์ JSON ด้วย Fetch ใน Java อย่างละเอียดผ่านคู่มือฉบับสมบูรณ์นี้
 ### [สร้างเอกสาร HTML ใหม่โดยใช้ Aspose.HTML สำหรับ Java](./generate-new-html-documents/)
 เรียนรู้วิธีสร้างเอกสาร HTML ใหม่โดยใช้ Aspose.HTML สำหรับ Java ด้วยคู่มือทีละขั้นตอนง่ายๆ นี้ เริ่มต้นสร้างเนื้อหา HTML แบบไดนามิก
 ### [จัดการเหตุการณ์การโหลดเอกสารใน Aspose.HTML สำหรับ Java](./handle-document-load-events/)

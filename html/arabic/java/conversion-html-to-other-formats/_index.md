@@ -110,6 +110,8 @@ XPS هو صيغة الطباعة الخاصة بمايكروسوفت. باستخ
 تعلم كيفية تحويل ملفات HTML إلى صيغة Markdown في Java باستخدام Aspose.HTML خطوة بخطوة.
 ### [إنشاء PDF من Markdown في Java – دليل خطوة بخطوة](./create-pdf-from-markdown-in-java-step-by-step-guide/)
 تعلم كيفية تحويل ملفات Markdown إلى PDF في Java باستخدام Aspose.HTML خطوة بخطوة.
+### [تحويل HTML إلى Markdown في Java – دليل برمجة كامل](./convert-html-to-markdown-in-java-complete-programming-guide/)
+دليل شامل يشرح كيفية تحويل HTML إلى Markdown في Java باستخدام Aspose.HTML خطوة بخطوة.
 ### [تحويل SVG إلى صورة](./convert-svg-to-image/)
 ### [تحويل SVG إلى PDF](./convert-svg-to-pdf/)
 ### [تحويل SVG إلى XPS](./convert-svg-to-xps/)
@@ -261,6 +263,11 @@ XPS هو صيغة الطباعة الخاصة بمايكروسوفت. باستخ
 ### [دليل Java كامل لحفظ PDF باستخدام Aspose HtmlDocument](./aspose-htmldocument-save-pdf-complete-java-guide/)
 ### [كيفية استخدام Sandbox لتحويل HTML إلى PDF – دليل Java كامل](./how-to-use-sandbox-for-html-to-pdf-conversion-complete-java/)
 ### [استخدام جميع أنوية المعالج لتحويل دفعات HTML إلى PDF بالتوازي](./use-all-cpu-cores-for-parallel-html-to-pdf-batch-conversion/)
+### [تحويل HTML إلى PDF باستخدام Aspose HTML لـ Java – دليل كامل](./convert-html-to-pdf-with-aspose-html-for-java-full-guide/)
+دليل شامل يشرح خطوة بخطوة كيفية تحويل ملفات HTML إلى PDF باستخدام Aspose.HTML for Java.
+### [تحويل HTML إلى PDF في Java – دليل التحويل المتوازي للدفعات](./convert-html-to-pdf-in-java-parallel-batch-conversion-guide/)
+تعلم كيفية تحويل عدة ملفات HTML إلى PDF في Java بشكل متوازي لزيادة الأداء وتقليل وقت المعالجة.
+### [دروس HTML إلى PDF: محول Aspose في سطر واحد](./html-to-pdf-tutorial-one-line-aspose-converter/)
 
 ## الأسئلة المتكررة
 

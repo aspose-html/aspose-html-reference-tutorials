@@ -176,6 +176,8 @@ Java の Executor と固定スレッドプールの使い方をステップバ�
 ### [Java で EPUB を DOCX に変換 – 完全ステップバイステップガイド](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
 Aspose.HTML for Java を使用して、EPUB ファイルを DOCX に変換する手順を詳細に解説します。
 ### [Java で SVG を AVIF に変換 – 完全ステップバイステップガイド](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
+### [Java で Aspose のデバイス DPI を設定 – 完全サンドボックスガイド](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
+Java 環境で Aspose のデバイス DPI を設定し、サンドボックス内で正確なレンダリングを実現する手順を解説します。
 
 ---
 

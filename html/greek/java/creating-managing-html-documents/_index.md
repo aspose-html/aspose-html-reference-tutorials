@@ -163,6 +163,8 @@ url: /el/java/creating-managing-html-documents/
 Μάθετε πώς να ανακτάτε JSON με JavaScript και να δημιουργείτε έγγραφα HTML σε Java χρησιμοποιώντας το Aspose.HTML.
 ### [Ανάκτηση JSON με JavaScript σε Java – Πλήρης Οδηγός](./fetch-json-with-javascript-in-java-full-guide/)
 Μάθετε πώς να ανακτάτε δεδομένα JSON χρησιμοποιώντας JavaScript σε εφαρμογές Java με το Aspose.HTML, βήμα‑βήμα οδηγός.
+### [Φόρτωση JSON με Fetch σε Java – Πλήρης οδηγός](./load-json-with-fetch-in-java-complete-guide/)
+Μάθετε πώς να φορτώνετε JSON χρησιμοποιώντας Fetch σε Java με αυτόν τον πλήρη οδηγό βήμα‑βήμα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

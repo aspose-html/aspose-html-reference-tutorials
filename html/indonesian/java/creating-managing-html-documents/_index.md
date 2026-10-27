@@ -78,6 +78,8 @@ Pelajari cara membuat dokumen HTML baru menggunakan Aspose.HTML untuk Java denga
 Pelajari cara menangani peristiwa pemuatan dokumen di Aspose.HTML untuk Java dengan panduan langkah demi langkah ini. Tingkatkan aplikasi web Anda.
 ### [Membuat dan Mengelola Dokumen SVG di Aspose.HTML untuk Java](./create-manage-svg-documents/)
 Pelajari cara membuat dan mengelola dokumen SVG menggunakan Aspose.HTML untuk Java! Panduan komprehensif ini mencakup semuanya, mulai dari pembuatan dasar hingga manipulasi tingkat lanjut.
+### [Muat JSON dengan Fetch di Java – Panduan Lengkap](./load-json-with-fetch-in-java-complete-guide/)
+Pelajari cara memuat data JSON menggunakan Fetch API di Java dengan panduan lengkap langkah demi langkah.
 ### [Buat Sandbox untuk HTML di Java – Panduan Langkah‑per‑Langkah](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Pelajari cara membuat sandbox HTML di Java dengan panduan langkah demi langkah untuk pengujian dan pengembangan yang aman.
 ### [Ekstrak Teks dari HTML di Java – Panduan Pemrograman Lengkap](./extract-text-from-html-in-java-complete-programming-guide/)

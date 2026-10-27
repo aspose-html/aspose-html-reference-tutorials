@@ -94,9 +94,7 @@ weight: 24
 
 ## Μετατροπή - Εκμάθηση HTML σε διάφορες μορφές εικόνας
 ### [Μετατροπή HTML σε BMP](./convert-html-to-bmp/)
-Μετατρέψτε HTML σε BMP με το Aspose.HTML για Java. Ένας ολοκληρωμένος οδηγός για την αδιάλειπτη μετατροπή εγγράφων HTML σε εικόνες BMP χρησιμοποιώντας το Aspose.HTML for Java.
 ### [Μετατροπή HTML σε GIF](./convert-html-to-gif/)
-Μάθετε πώς να μετατρέψετε HTML σε GIF σε Java χρησιμοποιώντας το Aspose.HTML. Ένας πλήρης οδηγός βήμα‑βήμα για αποδοτική μετατροπή HTML‑σε‑GIF.
 ### [Δημιουργία GIF από SVG με Java – Πλήρης Οδηγός Βήμα‑Βήμα](./create-gif-from-svg-with-java-full-step-by-step-guide/)
 Μάθετε πώς να μετατρέψετε αρχεία SVG σε GIF χρησιμοποιώντας Java και Aspose.HTML, με πλήρη βήμα‑βήμα οδηγίες.
 ### [Μετατροπή HTML σε JPEG](./convert-html-to-jpeg/)
@@ -130,6 +128,8 @@ weight: 24
 ### [Απόδοση HTML σε PNG με Aspose.HTML Sandbox – Πλήρης Οδηγός Java](./render-html-to-png-with-aspose-html-sandbox-full-java-guide/)
 Μάθετε πώς να αποδίδετε HTML σε PNG χρησιμοποιώντας το Aspose.HTML Sandbox σε Java – πλήρης οδηγός βήμα‑βήμα.
 ### [Μετατροπή HTML σε PNG – Πλήρης Οδηγός Java με Aspose.HTML](./convert-html-to-png-in-java-complete-aspose-html-guide/)
+### [Μετατροπή HTML σε TIFF σε Java – Πλήρης Οδηγός Προγραμματισμού](./convert-html-to-tiff-in-java-complete-programming-guide/)
+Μάθετε πώς να μετατρέπετε HTML σε TIFF σε Java με έναν πλήρη προγραμματιστικό οδηγό βήμα‑βήμα.
 ### [Μετατροπή HTML σε WebP – Πλήρης Οδηγός Java με Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 ### [Μετατροπή HTML σε WebP – Πλήρης Οδηγός Java](./convert-html-to-webp-complete-java-guide/)
 ### [Δημιουργία HTML Banner και Απόδοση σε PNG – Πλήρης Οδηγός Java](./create-html-banner-and-render-to-png-full-java-guide/)

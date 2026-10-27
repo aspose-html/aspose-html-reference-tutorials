@@ -196,6 +196,8 @@ Learn how to use Java's Executor with a fixed thread pool to manage concurrent t
 Learn how to convert EPUB files to DOCX using Aspose.HTML for Java. Follow a complete step‑by‑step guide.
 ### [Convert SVG to AVIF with Java – Complete Step‑by‑Step Guide](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
 Learn how to convert SVG images to AVIF format using Aspose.HTML for Java in this comprehensive step‑by‑step tutorial.
+### [set device dpi aspose in Java – Complete Sandbox Guide](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
+Learn how to set device DPI in Aspose.HTML for Java using the sandbox, ensuring correct rendering and PDF generation.
 
 ---
 

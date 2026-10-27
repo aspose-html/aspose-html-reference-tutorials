@@ -32,7 +32,6 @@ Tanulja meg, hogyan használhatja az Aspose.HTML for Java-t fejlett CSS-technik�
 ### [CSS olvasása Java-ban – Lépésről‑lépésre útmutató](./how-to-read-css-in-java-step-by-step-guide/)
 Ismerje meg, hogyan olvashatja be és elemezheti a CSS‑fájlokat Java‑alkalmazásokban az Aspose.HTML segítségével.
 ### [HTML űrlap szerkesztése és benyújtása Aspose.HTML for Java segítségével](./html-form-editing/)
-Ebből az átfogó, lépésenkénti útmutatóból megtudhatja, hogyan szerkeszthet és küldhet be programozott HTML-űrlapokat az Aspose.HTML for Java használatával.
 ### [Számított CSS lekérése Java-ban – Teljes Aspose HTML útmutató](./get-computed-css-in-java-complete-aspose-html-guide/)
 Ismerje meg, hogyan kérheti le a számított CSS értékeket Java-ban az Aspose.HTML segítségével.
 ### [Hogyan kapja meg a stílust Java-ban – HTML betöltése és lekérdező szelektor](./how-to-get-style-in-java-load-html-query-selector/)
@@ -119,6 +118,10 @@ Ismerje meg, hogyan válassza ki a nem letiltott gombokat CSS szelektorokkal Jav
 Ismerje meg, hogyan olvashatja ki a számított CSS-stílusokat Java-ban az Aspose.HTML segítségével, részletes, lépésről-lépésre útmutató.
 ### [Computed Style lekérése Java – Teljes útmutató a CSS kinyeréséhez](./get-computed-style-java-complete-guide-to-css-extraction/)
 Fedezze fel, hogyan nyerheti ki a számított stílusokat Java-ban az Aspose.HTML segítségével, részletes lépésről-lépésre útmutató.
+### [CSS háttér lekérése Java-ban – Teljes Aspose.HTML útmutató](./get-css-background-in-java-complete-aspose-html-guide/)
+Ismerje meg, hogyan szerezheti meg a CSS háttér értékét Java-ban az Aspose.HTML segítségével, részletes, lépésről‑lépésre útmutató.
+### [CSS használata Java-ban – HTML betöltése, linkek számlálása és XPath kiértékelése](./how-to-use-css-in-java-load-html-count-links-evaluate-xpath/)
+Ismerje meg, hogyan tölthet be HTML-t, számolhatja meg a linkeket és értékelheti ki az XPath kifejezéseket Java-ban az Aspose.HTML segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

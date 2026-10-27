@@ -177,6 +177,8 @@ Java’da Executor ve sabit iş parçacığı havuzu kullanarak çoklu görevler
 ### [Java’da EPUB’u DOCX’e Dönüştürme – Tam Adım Adım Kılavuz](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
 Aspose.HTML for Java kullanarak EPUB dosyalarını DOCX formatına dönüştürmeyi adım adım öğrenin.
 ### [SVG'yi AVIF'e Dönüştürme – Java ile Tam Adım Adım Kılavuz](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
+### [Aspose ile Java’da cihaz DPI ayarlama – Tam Sandbox Kılavuzu](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
+Aspose.HTML for Java kullanarak cihaz DPI değerini nasıl ayarlayacağınızı ve sandbox ortamında tam bir örnekle nasıl uygulayacağınızı öğrenin.
 
 ---
 

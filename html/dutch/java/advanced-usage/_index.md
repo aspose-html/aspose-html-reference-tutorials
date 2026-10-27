@@ -175,6 +175,8 @@ Leer hoe je een Executor met een vaste thread‑pool configureert en beheert in 
 Leer hoe je EPUB-bestanden omzet naar DOCX met Aspose.HTML for Java in een volledige stap‑voor‑stap handleiding.
 ### [SVG naar AVIF converteren met Java – Volledige stap‑voor‑stap gids](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
 Leer hoe je SVG-afbeeldingen converteert naar AVIF-formaat met Aspose.HTML for Java in een volledige stap‑voor‑stap handleiding.
+### [Apparaat DPI instellen met Aspose in Java – Complete Sandbox-gids](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
+Leer hoe je de DPI van het renderingsapparaat instelt in Aspose.HTML for Java binnen een sandbox‑omgeving voor nauwkeurige PDF‑output.
 
 ---
 

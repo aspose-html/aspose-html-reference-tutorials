@@ -115,19 +115,13 @@ R: No. Una única licencia de Aspose.HTML para Java cubre todos los formatos de 
 
 
 ### [Personalizar márgenes de página HTML con Aspose.HTML](./css-extensions-adding-title-page-number/)
-Aprende a personalizar los márgenes de página, añadir números de página y títulos a documentos HTML usando Aspose.HTML para Java.
 ### [Observador de mutación DOM con Aspose.HTML para Java](./dom-mutation-observer-observing-node-additions/)
 Aprende a usar un Observador de Mutación DOM en esta guía paso a paso. Monitorea y reacciona a los cambios del DOM de manera eficaz.
 ### [Manipulación de HTML5 Canvas con Aspose.HTML para Java](./html5-canvas-manipulation-using-code/)
-Aprende la manipulación de HTML5 Canvas usando Aspose.HTML para Java. Crea gráficos interactivos con guía paso a paso.
 ### [Manipulación de HTML5 Canvas con Aspose.HTML para Java](./html5-canvas-manipulation-using-javascript/)
-Aprende a manipular HTML5 Canvas con JavaScript usando Aspose.HTML para Java. Crea gráficos dinámicos y conviértelos a PDF.
 ### [Automatizar el llenado de formularios HTML con Aspose.HTML para Java](./html-form-editor-filling-submitting-forms/)
-Aprende a automatizar el llenado y envío de formularios HTML con Aspose.HTML para Java. Simplifica la interacción web con este tutorial.
 ### [Ajustar tamaño de página PDF con Aspose.HTML para Java](./adjust-pdf-page-size/)
-Aprende a ajustar el tamaño de página PDF con Aspose.HTML para Java. Crea PDFs de alta calidad a partir de HTML sin esfuerzo. Controla las dimensiones de la página de manera eficaz.
 ### [Ajustar tamaño de página XPS con Aspose.HTML para Java](./adjust-xps-page-size/)
-Aprende a ajustar el tamaño de página XPS con Aspose.HTML para Java. Controla fácilmente las dimensiones de salida de tus documentos XPS.
 ### [Establecer la relación de píxeles del dispositivo en Java – Tutorial de Sandbox móvil](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
 Aprende a configurar la relación de píxeles del dispositivo en entornos móviles usando Aspose.HTML para Java.
 ### [Llamar a Java desde JavaScript – Guía completa de Fetch asíncrono y ejecución del motor JS](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
@@ -139,6 +133,7 @@ Aprende a extraer el título de una página HTML y renderizarla en un sandbox es
 Aprende a ejecutar código JavaScript dentro de Java usando Aspose.HTML, ejecutando scripts embebidos en HTML de forma sencilla.
 ### [Cómo establecer DPI al convertir SVG a PNG con Aspose – Guía Java](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
 Aprende a configurar la resolución DPI al convertir archivos SVG a PNG con Aspose.HTML para Java, garantizando imágenes nítidas.
+### [Establecer DPI del dispositivo Aspose en Java – Guía completa de Sandbox](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
 ### [Cómo ejecutar JavaScript en Java – Guía completa](./how-to-run-javascript-in-java-complete-guide/)
 ### [Cómo habilitar JavaScript en Aspose HTML – Cargar HTML y obtener texto](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
 ### [Cómo ejecutar scripts en Java – Guía completa para ejecutar JavaScript y extraer datos](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)

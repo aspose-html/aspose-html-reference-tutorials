@@ -94,6 +94,8 @@ weight: 25
 Μάθετε πώς να αξιοποιήσετε το Sandbox του Aspose.HTML για ασφαλή μετατροπή HTML σε PDF σε περιβάλλον Java.
 ### [Πώς να χρησιμοποιήσετε το sandbox για μετατροπή HTML‑σε‑PDF – Πλήρης οδηγός Java](./how-to-use-sandbox-for-html-to-pdf-conversion-complete-java/)
 Μάθετε πώς να χρησιμοποιήσετε το sandbox του Aspose.HTML για ασφαλή μετατροπή HTML σε PDF σε Java, βήμα‑βήμα οδηγός.
+### [Μετατροπή HTML σε PDF με Aspose HTML για Java – Πλήρης Οδηγός](./convert-html-to-pdf-with-aspose-html-for-java-full-guide/)
+Μάθετε πώς να μετατρέψετε HTML σε PDF χρησιμοποιώντας το Aspose.HTML for Java με πλήρη οδηγίες βήμα‑βήμα.
 ### [Μετατροπή HTML σε PDF σε Java – Οδηγός βήμα‑βήμα με ρυθμίσεις μεγέθους σελίδας](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Ακολουθήστε τον πλήρη οδηγό για μετατροπή HTML σε PDF σε Java, με παραμετροποίηση μεγέθους σελίδας για ακριβή έγγραφα.
 ### [Μετατροπή HTML σε PDF σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./convert-html-to-pdf-in-java-complete-step-by-step-guide/)
@@ -289,6 +291,11 @@ weight: 25
 Μάθετε πώς να μετατρέψετε πολλαπλά αρχεία HTML σε PDF ταυτόχρονα χρησιμοποιώντας το Aspose.HTML for Java για βέλτιστη απόδοση.
 ### [Χρήση Όλων των Πυρήνων CPU για Παράλληλη Συλλογική Μετατροπή HTML‑σε‑PDF](./use-all-cpu-cores-for-parallel-html-to-pdf-batch-conversion/)
 Μάθετε πώς να αξιοποιήσετε όλους τους πυρήνες CPU για ταχύτερη παρτίδα μετατροπών HTML‑σε‑PDF σε Java με το Aspose.HTML.
+### [Μετατροπή HTML σε PDF – Μία Γραμμή Aspose Converter](./html-to-pdf-tutorial-one-line-aspose-converter/)
+Μάθετε πώς να μετατρέψετε HTML σε PDF με μία μόνο γραμμή κώδικα χρησιμοποιώντας το Aspose.HTML for Java.
+### [Μετατροπή HTML σε PDF σε Java – Οδηγός Παράλληλης Μαζικής Μετατροπής](./convert-html-to-pdf-in-java-parallel-batch-conversion-guide/)
+Μάθετε πώς να μετατρέψετε πολλαπλά αρχεία HTML σε PDF ταυτόχρονα με το Aspose.HTML for Java, βελτιώνοντας την απόδοση.
+### [Μετατροπή HTML σε Markdown σε Java – Πλήρης Οδηγός Προγραμματισμού](./convert-html-to-markdown-in-java-complete-programming-guide/)
 
 ## Συχνές Ερωτήσεις
 

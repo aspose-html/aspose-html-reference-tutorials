@@ -120,6 +120,10 @@ Pelajari cara menggunakan selector CSS untuk menemukan tombol yang tidak dinonak
 Pelajari cara mengambil nilai computed style elemen HTML menggunakan Aspose.HTML untuk Java dalam panduan pemrograman lengkap ini.
 ### [Dapatkan Gaya Terhitung Java – Panduan Lengkap untuk Ekstraksi CSS](./get-computed-style-java-complete-guide-to-css-extraction/)
 Pelajari cara mengambil gaya terhitung elemen HTML menggunakan Java untuk mengekstrak properti CSS secara akurat dalam panduan lengkap ini.
+### [Mendapatkan Latar Belakang CSS di Java – Panduan Lengkap Aspose.HTML](./get-css-background-in-java-complete-aspose-html-guide/)
+Pelajari cara mendapatkan latar belakang CSS di Java menggunakan Aspose.HTML dalam panduan lengkap ini.
+### [Cara Menggunakan CSS di Java – Memuat HTML, Menghitung Tautan & Mengevaluasi XPath](./how-to-use-css-in-java-load-html-count-links-evaluate-xpath/)
+Pelajari cara memuat HTML, menghitung tautan, dan mengevaluasi XPath menggunakan CSS di Java dengan Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

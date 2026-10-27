@@ -162,6 +162,8 @@ url: /ar/java/creating-managing-html-documents/
 تعلم كيفية إنشاء عنصر div مع فئة Java باستخدام Aspose.HTML في مثال كامل خطوة بخطوة.
 ### [جلب JSON باستخدام JavaScript في Java – دليل كامل](./fetch-json-with-javascript-in-java-full-guide/)
 تعلم كيفية جلب بيانات JSON باستخدام JavaScript داخل تطبيقات Java خطوة بخطوة مع Aspose.HTML.
+### [تحميل JSON باستخدام Fetch في Java – دليل كامل](./load-json-with-fetch-in-java-complete-guide/)
+تعلم كيفية تحميل ملفات JSON باستخدام Fetch في Java عبر دليل خطوة بخطوة شامل.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

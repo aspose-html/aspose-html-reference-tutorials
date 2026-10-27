@@ -168,6 +168,7 @@ Executor와 고정 스레드 풀을 활용해 효율적인 멀티스레드 작�
 ### [Java에서 EPUB을 DOCX로 변환하기 – 전체 단계별 가이드](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
 ### [Java로 SVG를 AVIF로 변환 – 완전 단계별 가이드](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
 Java와 Aspose.HTML을 사용해 SVG 이미지를 AVIF 형식으로 변환하는 방법을 단계별로 안내합니다.
+### [Aspose.HTML로 디바이스 DPI 설정 – 완전 샌드박스 가이드](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
 
 ---
 

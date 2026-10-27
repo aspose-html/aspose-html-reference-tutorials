@@ -90,6 +90,8 @@ Learn how to load HTML in Java using Aspose.HTML with this comprehensive step‑
 Learn how to load HTML in Java using Aspose.HTML and compare XPath and CSS selector approaches for effective element selection.
 ### [Extract HTML from MHTML – Complete Java Guide](./extract-html-from-mhtml-complete-java-guide/)
 Learn how to extract HTML content from MHTML files using Aspose.HTML for Java in this comprehensive step-by-step guide.
+### [Load JSON with Fetch in Java – Complete Guide](./load-json-with-fetch-in-java-complete-guide/)
+Learn how to fetch and load JSON data in Java using Aspose.HTML's Fetch API. Complete step-by-step guide.
 ### [Generate New HTML Documents using Aspose.HTML for Java](./generate-new-html-documents/)
 Learn how to create new HTML documents using Aspose.HTML for Java with this easy step-by-step guide. Start generating dynamic HTML content.
 ### [Generate HTML from JavaScript in Java – Complete Step‑by‑Step Guide](./generate-html-from-javascript-in-java-complete-step-by-step/)

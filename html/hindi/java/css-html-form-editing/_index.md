@@ -120,6 +120,10 @@ Java में Aspose.HTML का उपयोग करके डिसेब�
 Java में Aspose.HTML का उपयोग करके Computed Style प्राप्त करने की पूरी प्रक्रिया सीखें।
 ### [Java में Computed Style प्राप्त करें – CSS निष्कर्षण के लिए पूर्ण गाइड](./get-computed-style-java-complete-guide-to-css-extraction/)
 Java में Aspose.HTML का उपयोग करके CSS से गणना किया गया स्टाइल निकालने की पूरी प्रक्रिया सीखें।
+### [Java में CSS बैकग्राउंड प्राप्त करें – पूर्ण Aspose.HTML गाइड](./get-css-background-in-java-complete-aspose-html-guide/)
+Java में Aspose.HTML का उपयोग करके CSS बैकग्राउंड को प्राप्त करने और प्रबंधित करने की पूरी गाइड।
+### [Java में CSS का उपयोग कैसे करें – HTML लोड करें, लिंक गिनें और XPath का मूल्यांकन करें](./how-to-use-css-in-java-load-html-count-links-evaluate-xpath/)
+Java में Aspose.HTML का उपयोग करके CSS लागू करना, HTML लोड करना, लिंक गिनना और XPath अभिव्यक्तियों का मूल्यांकन करना सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

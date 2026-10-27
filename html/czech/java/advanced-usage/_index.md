@@ -190,6 +190,8 @@ Naučte se, jak vytvořit a spravovat pevný pool vláken pomocí třídy Execut
 Naučte se převést soubory EPUB do formátu DOCX pomocí Aspose.HTML pro Java s podrobným návodem.
 ### [Převod SVG do AVIF pomocí Javy – Kompletní krok‑za‑krokem průvodce](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
 Naučte se převést soubory SVG do formátu AVIF v Javě pomocí Aspose.HTML, včetně nastavení kvality a optimalizace.
+### [Nastavení DPI zařízení v Aspose.HTML pro Java – Kompletní sandbox průvodce](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
+Naučte se, jak nastavit DPI zařízení při generování PDF/XPS pomocí Aspose.HTML v Javě v sandboxovém prostředí.
 
 ---
 

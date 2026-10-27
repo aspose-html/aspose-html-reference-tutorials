@@ -171,6 +171,7 @@ weight: 20
 Μάθετε πώς να μετατρέψετε αρχεία EPUB σε DOCX χρησιμοποιώντας το Aspose.HTML for Java, βήμα‑βήμα με παραδείγματα κώδικα.
 ### [Μετατροπή SVG σε AVIF με Java – Πλήρης Οδηγός Βήμα‑βήμα](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
 Μάθετε πώς να μετατρέψετε αρχεία SVG σε μορφή AVIF χρησιμοποιώντας το Aspose.HTML for Java, βήμα‑βήμα με παραδείγματα κώδικα.
+### [Ορισμός DPI συσκευής Aspose σε Java – Πλήρης Οδηγός Sandbox](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
 
 ---
 
