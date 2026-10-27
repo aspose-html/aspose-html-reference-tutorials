@@ -49,7 +49,15 @@ Java용 Aspose.HTML에서 사용자 정의 메시지 핸들러를 구현하여 �
 ### [Java용 Aspose.HTML을 사용하여 ZIP을 JPG로 변환](./zip-to-jpg/)
 이 단계별 가이드를 통해 Java용 Aspose.HTML을 사용하여 ZIP 파일을 JPG 이미지로 변환하는 방법을 알아보세요.
 ### [Java용 Aspose.HTML을 사용하여 ZIP을 PDF로 변환](./zip-to-pdf/)
-이 단계별 가이드에 따라 Java용 Aspose.HTML을 사용하여 ZIP 파일을 PDF로 쉽게 변환하세요.
+### [Java 11 HttpClient 인증자 – 보안 요청을 위한 완전 가이드](./java-11-httpclient-authenticator-complete-guide-to-secure-re/)
+### [Java에서 API 가져오기 – Aspose HTML V8 엔진을 사용한 완전 가이드](./how-to-fetch-api-in-java-complete-guide-using-aspose-html-v8/)
+### [Aspose HTML을 사용한 Java에서 JSON JavaScript 가져오기 – 완전 가이드](./fetch-json-javascript-in-java-with-aspose-html-complete-guid/)
+이 단계별 가이드를 통해 Aspose HTML for Java를 사용하여 Java에서 JSON JavaScript를 가져오는 방법을 배울 수 있습니다.
+### [Java에서 인증 헤더 설정 – URL에서 HTML 로드 완전 가이드](./set-authorization-header-in-java-complete-guide-to-load-html/)
+이 단계별 가이드를 통해 Java에서 Authorization 헤더를 설정하고 URL에서 HTML을 로드하는 방법을 배울 수 있습니다.
+### [Java에서 사용자 정의 사용자 에이전트 설정 – 샌드박스에서 웹 페이지 로드 튜토리얼](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
+### [Java용 Aspose.HTML을 사용한 API 데이터 가져오기 - 완전 가이드](./fetch-api-data-in-java-with-aspose-html-complete-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

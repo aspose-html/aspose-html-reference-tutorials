@@ -1,45 +1,22 @@
 ---
 category: general
-date: 2026-06-16
-description: 学习如何在 Java 中将 EPUB 转换为 PDF，并使用 Aspose.HTML 转换特定的 EPUB 页面。完整代码、技巧以及边缘情况处理。
+date: 2026-01-10
+description: 使用 Java 和 Aspose.HTML 将 EPUB 转换为 PDF。了解如何将 EPUB 转换为 DOCX，提供完整代码和 EPUB
+  转 PDF Java 项目的技巧。
 draft: false
 keywords:
 - convert epub to pdf
-- convert specific epub pages
+- convert epub to docx
+- epub to pdf java
+- how to convert epub to pdf
+- how to convert epub to docx
 language: zh
-og_description: 使用 Aspose.HTML 在 Java 中将 EPUB 转换为 PDF。本指南还展示了如何转换特定的 EPUB 页面，以实现精确的文档输出。
-og_title: 在 Java 中将 EPUB 转换为 PDF – 完整编程指南
-schemas:
-- author: Aspose
-  dateModified: '2026-06-16'
-  description: Learn how to convert EPUB to PDF in Java and also convert specific
-    EPUB pages using Aspose.HTML. Complete code, tips, and edge‑case handling.
-  headline: Convert EPUB to PDF with Java – Step‑by‑Step Guide
-  type: TechArticle
-- description: Learn how to convert EPUB to PDF in Java and also convert specific
-    EPUB pages using Aspose.HTML. Complete code, tips, and edge‑case handling.
-  name: Convert EPUB to PDF with Java – Step‑by‑Step Guide
-  steps:
-  - name: '**Page count** – open the PDF and confirm it matches the range you set.'
-    text: '**Page count** – open the PDF and confirm it matches the range you set.'
-  - name: '**Graphics fidelity** – zoom in on any diagrams; they should stay crisp.'
-    text: '**Graphics fidelity** – zoom in on any diagrams; they should stay crisp.'
-  - name: '**Text encoding** – special characters from the EPUB should render correctly.'
-    text: '**Text encoding** – special characters from the EPUB should render correctly.'
-  - name: Create `PdfConversionOptions`.
-    text: Create `PdfConversionOptions`.
-  - name: Set a page range to **convert specific EPUB pages**.
-    text: Set a page range to **convert specific EPUB pages**.
-  - name: Preserve vector graphics for a professional finish.
-    text: Preserve vector graphics for a professional finish.
-  - name: Call `Converter.convert` and handle any exceptions.
-    text: Call `Converter.convert` and handle any exceptions.
-  type: HowTo
+og_description: 在 Java 中轻松将 epub 转换为 pdf。本指南展示了如何将 epub 转换为 docx，并涵盖了您所需的所有细节。
+og_title: 使用 Java 将 EPUB 转换为 PDF – 完整教程
 tags:
-- Java
-- Aspose.HTML
-- PDF conversion
-- EPUB processing
+- epub
+- java
+- document-conversion
 title: 使用 Java 将 EPUB 转换为 PDF – 步骤指南
 url: /zh/java/converting-epub-to-pdf/convert-epub-to-pdf-with-java-step-by-step-guide/
 ---
@@ -48,169 +25,182 @@ url: /zh/java/converting-epub-to-pdf/convert-epub-to-pdf-with-java-step-by-step-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Java 将 EPUB 转换为 PDF – 步骤指南
+# 将 epub 转换为 pdf – 完整 Java 教程
 
-是否曾需要 **将 EPUB 转换为 PDF**，但又不确定如何只针对少数章节进行转换？你并不孤单。在许多出版流程中，只想要电子书的第 2‑4 页，而不是整本书——因此你也必须 **转换特定的 EPUB 页面**。  
+有没有想过如何在不寻找第三方网络服务的情况下**convert epub to pdf**？你并不是唯一有此需求的人——开发者经常需要一种可靠的、可编程的方式将电子书转换为可打印的 PDF，尤其是在构建出版流水线时。在本教程中，我们将演示如何使用 Aspose.HTML for Java 将 EPUB 文件转换为 PDF **并** 转换为 DOCX。完成后，你将拥有一个可直接运行的 Java 类，一次调用即可完成两种转换。
 
-在本教程中，我们将逐步演示一个完整、可运行的示例，正好实现上述需求。完成后，你将拥有一个 Java 程序，能够读取 EPUB 文件、提取你关心的页面，并在保持矢量图形完整的前提下生成精美的 PDF。
+我们还将涉及 **convert epub to docx** 这一配套任务，讨论为何 Aspose 库是 *epub to pdf java* 项目的可靠选择，并回答常见的“how to convert epub to pdf”和“how to convert epub to docx”问题。
 
-## 你将学到
+## 你将学到的内容
 
-- 为 Java 配置 Aspose.HTML 并添加必要的 Maven/Gradle 依赖。  
-- 创建 `PdfConversionOptions` 并配置页面范围，以 **转换特定的 EPUB 页面**。  
-- 保留 SVG 等矢量图形，使 PDF 在任何设备上都保持清晰。  
-- 运行转换、处理异常并验证输出。  
+- Aspose.HTML 的前置条件和 Maven 设置。
+- 如何在保持布局的情况下**convert epub to pdf**。
+- 如何使用流式文本布局**convert epub to docx**。
+- 处理大型 EPUB 的技巧以及排查常见问题的建议。
+- 预期的控制台输出和验证步骤。
 
-不需要任何 Aspose 经验——只要具备基本的 Java 知识和 JDK 8+ 运行时即可。  
+不需要任何 Aspose 经验；只要具备基本的 Java 背景即可。
 
 ---
 
-## 使用 Aspose.HTML 将 EPUB 转换为 PDF（主要目标）
+## 前置条件 – 准备你的环境
 
-整个过程的核心是 `Converter.convert` 方法。可以把它看作是一行代码，在你告诉它要做什么后完成所有繁重的工作。下面是完整的源文件，你可以直接粘贴到任意 IDE 中。
+在我们开始编写代码之前，请确保你已经拥有：
+
+| 要求 | 重要原因 |
+|------|----------|
+| Java 17（或更高） | Aspose.HTML 支持 JDK 8+；更新的 JDK 可提供更佳性能。 |
+| Maven 3.6+ | 简化依赖管理。 |
+| 一个 EPUB 文件（`input.epub`） | 你想要转换的源电子书。 |
+| 网络访问（首次运行） | Maven 将下载 Aspose.HTML 库。 |
+
+> **专业提示：** 如果你使用的是 IntelliJ IDEA 或 Eclipse 等 IDE，请创建一个新的 Maven 项目，让 IDE 为你处理 `pom.xml`。
+
+---
+
+## 步骤 1 – 添加 Aspose.HTML 依赖（“epub to pdf java” 核心）
+
+打开项目的 `pom.xml`，在 `<dependencies>` 标签内插入以下依赖：
+
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-html</artifactId>
+    <version>23.12</version> <!-- Check for the latest version on Maven Central -->
+</dependency>
+```
+
+这行代码会一次性引入读取 EPUB 文件并写入 PDF 或 DOCX 所需的全部内容。Aspose.HTML 抽象了底层渲染细节，你无需担心 CSS、字体或图像提取。
+
+> **为什么选择 Aspose？** 它是商业库，但提供无水印的免费试用版，并且在处理复杂 EPUB 布局方面远优于大多数开源替代方案。
+
+---
+
+## 步骤 2 – 创建 Java 类（convert epub to pdf & docx）
+
+在 `src/main/java/com/example/` 目录下创建一个名为 `EpubConvert.java` 的新文件。下面是完整的可直接运行的源代码。保存后，返回进行逐行讲解。
 
 ```java
-import com.aspose.html.converters.Converter;
-import com.aspose.html.converters.PdfConversionOptions;
-import com.aspose.html.converters.ConverterException;
+package com.example;
 
-/**
- * Demonstrates how to convert a subset of pages from an EPUB file to PDF.
- *
- * Requirements:
- * - Aspose.HTML for Java (download from https://products.aspose.com/html/java)
- * - JDK 8 or higher
- *
- * Update the YOUR_DIRECTORY placeholders with the actual path on your machine.
- */
-public class ConvertEpubPartial {
-    public static void main(String[] args) throws ConverterException {
-        // Step 1: Create PDF conversion options
-        PdfConversionOptions pdfOptions = new PdfConversionOptions();
+import com.aspose.html.*;
+import com.aspose.html.converters.*;
 
-        // Step 2: Specify the page range to convert (pages 2‑4)
-        // This is where we "convert specific EPUB pages".
-        pdfOptions.setPageRange("2-4");
+public class EpubConvert {
+    public static void main(String[] args) throws Exception {
+        // 1️⃣ Specify where your source EPUB lives
+        String epubFilePath = "YOUR_DIRECTORY/input.epub";
 
-        // Step 3: Preserve vector graphics (e.g., SVG) in the resulting PDF
-        pdfOptions.setPreserveVectorGraphics(true);
-
-        // Step 4: Convert the selected pages of the EPUB to a PDF file
-        // The first argument is the source EPUB, the second is the target PDF.
+        // 2️⃣ Convert the EPUB to PDF – layout is preserved exactly
         Converter.convert(
-            "YOUR_DIRECTORY/book.epub",
-            "YOUR_DIRECTORY/chapter_subset.pdf",
-            pdfOptions
+                epubFilePath,
+                "YOUR_DIRECTORY/book.pdf",
+                new PdfSaveOptions()
         );
 
-        System.out.println("Conversion completed successfully!");
+        // 3️⃣ Convert the same EPUB to DOCX – results in a flowing, editable document
+        Converter.convert(
+                epubFilePath,
+                "YOUR_DIRECTORY/book.docx",
+                new DocxSaveOptions()
+        );
+
+        // 4️⃣ Let the user know everything went fine
+        System.out.println("EPUB conversion completed.");
     }
 }
 ```
 
-> **为什么这样可行：**  
-> *`PdfConversionOptions`* 包含了在转换运行前可以调节的所有参数。设置页面范围后，Aspose 会跳过 2‑4 之外的所有内容，这正是 **转换特定的 EPUB 页面** 的实现方式。启用矢量图形保留可确保任何 SVG 插图保持锐利，而不是被栅格化成模糊的位图。
+### 各部分说明
 
-### 预期输出
+1. **文件路径** – 将 `YOUR_DIRECTORY` 替换为 `input.epub` 所在的绝对或相对路径。保持路径可配置可使代码在 CI 流水线中复用。
 
-运行程序后，你将在同一文件夹中看到 `chapter_subset.pdf`。使用任意 PDF 阅读器打开——你应该只看到原 EPUB 第 2、3、4 页的内容，且所有图像均以清晰方式渲染。
+2. **PDF 转换** – `PdfSaveOptions` 告诉 Aspose 按照电子阅读器中的显示方式渲染 EPUB，保留分页、图像和 CSS 样式。这是 *convert epub to pdf* 操作的核心。
+
+3. **DOCX 转换** – `DocxSaveOptions` 生成一个文本自由流动的 Microsoft Word 文档。这在完成 *convert epub to docx* 步骤后需要可编辑版本时非常有用。
+
+4. **反馈** – 简单的 `println` 用于确认成功；在实际应用中你可能会记录到文件或触发事件。
 
 ---
 
-## 指定页面范围以转换特定的 EPUB 页面（次要关注点）
+## 步骤 3 – 运行转换并验证输出
 
-如果你想了解页面范围字符串的工作方式，它遵循大多数 PDF 工具的相同语法：`"start‑end"`。你也可以传入逗号分隔的列表，如 `"1,3,5-7"`，以选择不连续的页面。  
+编译并执行程序：
 
-```java
-pdfOptions.setPageRange("1,3,5-7"); // converts pages 1, 3, 5, 6, and 7
+```bash
+mvn compile exec:java -Dexec.mainClass="com.example.EpubConvert"
 ```
 
-**专业提示：** 处理大型 EPUB 时，将转换限制在少数页面可以显著降低内存消耗并加快处理速度。  
+如果一切配置正确，你将看到：
 
----
-
-## 保留矢量图形以获得高质量输出
-
-矢量图形是可伸缩图表、图形和图标的关键。通过调用 `setPreserveVectorGraphics(true)`，Aspose 会在 PDF 中保留这些元素为矢量形式。  
-
-如果省略此步骤，库会以 72 dpi 将 SVG 栅格化，虽然在屏幕上看起来还行，但打印效果会很差。  
-
-```java
-pdfOptions.setPreserveVectorGraphics(true);
+```
+EPUB conversion completed.
 ```
 
+### 预期结果
+
+- `book.pdf` 将与原始 EPUB 完全相同，所有图像和格式均保持完整。
+- `book.docx` 将包含相同的文本内容，但布局会适应 Word 的流式排版（便于编辑）。
+
+在各自的原生查看器中打开每个文件（PDF 用 Adobe Reader，DOCX 用 Microsoft Word），以确认转换成功。
+
 ---
 
-## 运行转换并验证结果
+## 步骤 4 – 常见问题与边缘情况
 
-配置好选项后，实际的转换只需一次静态调用。如果出现问题，它会抛出 `ConverterException`——你可以捕获它，或像上面示例那样在方法签名中声明。  
+### 如何处理大型 EPUB（数百 MB）？
 
-```java
-try {
-    Converter.convert(sourcePath, targetPath, pdfOptions);
-    System.out.println("PDF created at: " + targetPath);
-} catch (ConverterException ex) {
-    System.err.println("Conversion failed: " + ex.getMessage());
-}
+Aspose 会惰性处理页面，但仍可能遇到内存限制。请增大 JVM 堆大小：
+
+```bash
+export _JAVA_OPTIONS="-Xmx4g"
 ```
 
-**转换后需检查的要点**
+### 如果 EPUB 包含自定义字体怎么办？
 
-1. **页数** – 打开 PDF，确认页数与设置的范围相符。  
-2. **图形保真度** – 放大任意图表，确保仍保持清晰。  
-3. **文本编码** – EPUB 中的特殊字符应正确渲染。
+Aspose.HTML 会自动将引用的字体嵌入 PDF。对于 DOCX，字体仅被引用；请确保目标机器已安装这些字体，或使用 `DocxSaveOptions.setEmbedFonts(true)` 手动嵌入。
 
-如果上述任意检查未通过，请重新检查 `PdfConversionOptions` 设置或确认源 EPUB 未受 DRM 保护。
+### 我可以批量转换多个文件吗？
+
+将 `Converter.convert` 调用包装在遍历 EPUB 目录的循环中。记得为每个输出文件提供唯一名称，例如 `book1.pdf`、`book2.pdf`。
+
+### 该库是否支持受 DRM 保护的 EPUB？
+
+不支持。必须先移除 DRM，否则转换时会抛出异常。
 
 ---
 
-## 常见陷阱与专业技巧（包含次要关键词）
+## 图片示例
 
-| 问题 | 产生原因 | 解决方案 |
+下面是转换流程的简要示意图。（*如果你添加实际截图，请替换占位符 URL。*）
+
+<img src="https://example.com/convert-epub-to-pdf-diagram.png" alt="convert epub to pdf example diagram">
+
+该示意图强调了 **convert epub to pdf** 流程：EPUB → Aspose.HTML → PDF/DOCX。
+
+---
+
+## 故障排查清单
+
+| 症状 | 可能原因 | 解决办法 |
 |------|----------|----------|
-| **出现空白页** | 页面范围字符串格式错误。 | 使用简单的 `"2-4"` 格式，或检查非连续页面的逗号分隔。 |
-| **图片缺失** | 矢量图形未被保留。 | 调用 `pdfOptions.setPreserveVectorGraphics(true)`。 |
-| **内存溢出** | 在未设置页面范围的情况下转换大型 EPUB。 | 尽可能 **转换特定的 EPUB 页面**，并分批处理。 |
-| **不支持的字体** | 字体未嵌入 EPUB。 | 使用 `pdfOptions.setEmbedFonts(true)` 启用字体嵌入（额外选项）。 |
+| `ClassNotFoundException: com.aspose.html.converters.Converter` | 依赖未下载 | 运行 `mvn clean install` 或检查 Maven Central 是否有正确的版本。 |
+| PDF 空白输出 | 缺少字体或图像不可访问 | 确保 EPUB 引用了本地资源，或设置 `PdfSaveOptions.setResourcesRootPath(...)`。 |
+| DOCX 文件打开时缺少样式 | Aspose 版本过旧 | 升级到最新的 `aspose-html` 版本。 |
 
 ---
 
-## 可视化概览  
+## 结论
 
-![Flow diagram showing convert epub to pdf process](/images/convert-epub-to-pdf-flow.png "Diagram of the convert epub to pdf workflow")
+现在，你已经拥有一个使用 Java 将 **convert epub to pdf** 和 **convert epub to docx** 的完整端到端解决方案。关键要点如下：
 
-*Alt text:* *展示 Java 程序如何将 EPUB 转换为 PDF 的流程图，突出显示了转换特定 EPUB 页面这一步骤。*
+- 添加 `aspose-html` Maven 依赖（任何 *epub to pdf java* 项目的核心）。
+- 使用 `Converter.convert` 并配合相应的 `SaveOptions` 进行目标格式的转换。
+- 验证生成的文件，并通过 JVM 调优处理大型或字体密集的 EPUB。
 
----
+接下来，你可以探索批量处理、为 PDF 添加水印，或将此逻辑集成到 Web 服务中。可能性无限，而核心模式保持不变。
 
-## 小结
-
-我们已经演示了如何在 Java 中 **将 EPUB 转换为 PDF**，并完全控制要转换的页面。关键步骤如下：
-
-1. 创建 `PdfConversionOptions`。  
-2. 设置页面范围以 **转换特定的 EPUB 页面**。  
-3. 保留矢量图形以获得专业效果。  
-4. 调用 `Converter.convert` 并处理可能的异常。
-
-欢迎自行实验——更改页面范围、关闭矢量保留，或使用 `pdfOptions.setTitle("My Chapter Subset")` 为 PDF 添加自定义标题。
-
----
-
-## 接下来可以做什么？
-
-- **批量处理：** 循环遍历 EPUB 列表，为每章生成 PDF。  
-- **自定义样式：** 在转换前注入 CSS，以更改字体或颜色。  
-- **安全性：** 通过 `PdfEncryptionOptions` 为输出 PDF 添加密码保护。  
-
-如果本指南对你有帮助，请分享或在评论中留下你的使用案例。祝编码愉快，享受清晰的 PDF！
-
-## 接下来该学习什么？
-
-以下教程涵盖了与本指南技术密切相关的主题，帮助你进一步掌握 API 功能并探索在项目中的其他实现方式。每篇资源都提供完整的可运行代码示例和逐步解释。
-
-- [Convert EPUB to PDF and Images with Aspose.HTML for Java](/html/english/java/conversion-epub-to-image-and-pdf/)
-- [Convert EPUB to Images Using Aspose HTML for Java](/html/english/java/converting-epub-to-pdf/convert-epub-to-image/)
-- [Aspose HTML Java – Convert EPUB to XPS Tutorial](/html/english/java/conversion-epub-to-xps/)
+对 *how to convert epub to pdf* 或 *how to convert epub to docx* 还有疑问吗？欢迎留言或查阅 Aspose.HTML 文档获取高级设置。祝转换愉快！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

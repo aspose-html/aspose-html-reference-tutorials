@@ -9,21 +9,13 @@ url: /zh/java/converting-between-epub-and-image-formats/convert-epub-to-image-sp
 weight: 15
 ---
 
- translate, preserving code snippets.
 
-Then the footer lines: "Last Updated", "Tested With", "Author". Translate.
 
-Then closing shortcodes.
 
-Also keep the backtop button shortcode.
 
-Let's produce final markdown.
 
-Be careful to keep code block placeholders as they are.
 
-Also ensure we keep markdown formatting.
 
-Let's write translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

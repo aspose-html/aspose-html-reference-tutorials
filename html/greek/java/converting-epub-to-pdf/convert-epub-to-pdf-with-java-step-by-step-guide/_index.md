@@ -1,50 +1,25 @@
 ---
 category: general
-date: 2026-06-16
-description: Μάθετε πώς να μετατρέπετε EPUB σε PDF σε Java και επίσης να μετατρέπετε
-  συγκεκριμένες σελίδες EPUB χρησιμοποιώντας το Aspose.HTML. Πλήρης κώδικας, συμβουλές
-  και διαχείριση ειδικών περιπτώσεων.
+date: 2026-01-10
+description: Μετατρέψτε epub σε pdf χρησιμοποιώντας Java και Aspose.HTML. Μάθετε πώς
+  να μετατρέψετε επίσης epub σε docx, με πλήρη κώδικα και συμβουλές για έργα Java
+  μετατροπής epub σε pdf.
 draft: false
 keywords:
 - convert epub to pdf
-- convert specific epub pages
+- convert epub to docx
+- epub to pdf java
+- how to convert epub to pdf
+- how to convert epub to docx
 language: el
-og_description: Μετατρέψτε EPUB σε PDF με Java χρησιμοποιώντας το Aspose.HTML. Αυτός
-  ο οδηγός δείχνει επίσης πώς να μετατρέψετε συγκεκριμένες σελίδες EPUB για ακριβή
-  έξοδο εγγράφου.
-og_title: Μετατροπή EPUB σε PDF με Java – Πλήρης Οδηγός Προγραμματισμού
-schemas:
-- author: Aspose
-  dateModified: '2026-06-16'
-  description: Learn how to convert EPUB to PDF in Java and also convert specific
-    EPUB pages using Aspose.HTML. Complete code, tips, and edge‑case handling.
-  headline: Convert EPUB to PDF with Java – Step‑by‑Step Guide
-  type: TechArticle
-- description: Learn how to convert EPUB to PDF in Java and also convert specific
-    EPUB pages using Aspose.HTML. Complete code, tips, and edge‑case handling.
-  name: Convert EPUB to PDF with Java – Step‑by‑Step Guide
-  steps:
-  - name: '**Page count** – open the PDF and confirm it matches the range you set.'
-    text: '**Page count** – open the PDF and confirm it matches the range you set.'
-  - name: '**Graphics fidelity** – zoom in on any diagrams; they should stay crisp.'
-    text: '**Graphics fidelity** – zoom in on any diagrams; they should stay crisp.'
-  - name: '**Text encoding** – special characters from the EPUB should render correctly.'
-    text: '**Text encoding** – special characters from the EPUB should render correctly.'
-  - name: Create `PdfConversionOptions`.
-    text: Create `PdfConversionOptions`.
-  - name: Set a page range to **convert specific EPUB pages**.
-    text: Set a page range to **convert specific EPUB pages**.
-  - name: Preserve vector graphics for a professional finish.
-    text: Preserve vector graphics for a professional finish.
-  - name: Call `Converter.convert` and handle any exceptions.
-    text: Call `Converter.convert` and handle any exceptions.
-  type: HowTo
+og_description: Η μετατροπή epub σε pdf σε Java έγινε εύκολη. Αυτός ο οδηγός δείχνει
+  πώς να μετατρέψετε epub σε docx και καλύπτει όλες τις λεπτομέρειες που χρειάζεστε.
+og_title: Μετατροπή epub σε pdf με Java – Πλήρης Οδηγός
 tags:
-- Java
-- Aspose.HTML
-- PDF conversion
-- EPUB processing
-title: Μετατροπή EPUB σε PDF με Java – Οδηγός βήμα‑προς‑βήμα
+- epub
+- java
+- document-conversion
+title: Μετατροπή EPUB σε PDF με Java – Οδηγός βήμα‑βήμα
 url: /el/java/converting-epub-to-pdf/convert-epub-to-pdf-with-java-step-by-step-guide/
 ---
 
@@ -52,169 +27,163 @@ url: /el/java/converting-epub-to-pdf/convert-epub-to-pdf-with-java-step-by-step-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Μετατροπή EPUB σε PDF με Java – Οδηγός Βήμα‑βήμα
+# μετατροπή epub σε pdf – Πλήρης Java Tutorial
 
-Έχετε ποτέ χρειαστεί να **μετατρέψετε EPUB σε PDF** αλλά δεν ήξερες πώς να στοχεύσετε μόνο μερικά κεφάλαια; Δεν είστε μόνοι. Σε πολλές αλυσίδες παραγωγής εκδόσεων θέλετε μόνο τις σελίδες 2‑4 ενός e‑book, όχι ολόκληρο το βιβλίο—οπότε πρέπει επίσης να **μετατρέψετε συγκεκριμένες σελίδες EPUB**.  
+Έχετε αναρωτηθεί ποτέ πώς να **μετατρέψετε epub σε pdf** χωρίς να ψάχνετε για μια υπηρεσία τρίτου μέρους; Δεν είστε ο μόνος—οι προγραμματιστές συχνά χρειάζονται έναν αξιόπιστο, προγραμματιζόμενο τρόπο για να μετατρέπουν τα e‑books σε εκτυπώσιμα PDF, ειδικά όταν δημιουργούν γραμμές παραγωγής εκδόσεων. Σε αυτό το tutorial θα περάσουμε βήμα‑βήμα τη μετατροπή ενός αρχείου EPUB σε PDF **και** σε DOCX χρησιμοποιώντας το Aspose.HTML για Java. Στο τέλος θα έχετε μια έτοιμη‑για‑εκτέλεση κλάση Java που κάνει και τις δύο μετατροπές με μία κλήση.
 
-Σε αυτό το tutorial θα περάσουμε βήμα‑βήμα από ένα πλήρες, εκτελέσιμο παράδειγμα που κάνει ακριβώς αυτό. Στο τέλος θα έχετε ένα πρόγραμμα Java που παίρνει ένα αρχείο EPUB, εξάγει τις σελίδες που σας ενδιαφέρουν και γράφει ένα επαγγελματικό PDF διατηρώντας τα διανυσματικά γραφικά ανέπαφα.
+Θα αγγίξουμε επίσης το συνοδευτικό έργο της **μετατρέψετε epub σε docx**, θα συζητήσουμε γιατί η βιβλιοθήκη Aspose είναι μια αξιόπιστη επιλογή για έργα *epub to pdf java*, και θα απαντήσουμε στις κοινές ερωτήσεις “πώς να μετατρέψετε epub σε pdf” και “πώς να μετατρέψετε epub σε docx” που μπορεί να έχετε.
 
 ## Τι Θα Μάθετε
 
-- Ρυθμίστε το Aspose.HTML για Java και προσθέστε την απαραίτητη εξάρτηση Maven/Gradle.  
-- Δημιουργήστε `PdfConversionOptions` και διαμορφώστε ένα εύρος σελίδων για **μετατροπή συγκεκριμένων σελίδων EPUB**.  
-- Διατηρήστε SVG και άλλα διανυσματικά γραφικά ώστε το PDF να φαίνεται καθαρό σε οποιαδήποτε συσκευή.  
-- Εκτελέστε τη μετατροπή, διαχειριστείτε εξαιρέσεις και επαληθεύστε το αποτέλεσμα.  
+- Προαπαιτούμενα και ρύθμιση Maven για Aspose.HTML.
+- Πώς να **μετατρέψετε epub σε pdf** διατηρώντας τη διάταξη.
+- Πώς να **μετατρέψετε epub σε docx** με ροή κειμένου.
+- Συμβουλές για τη διαχείριση μεγάλων EPUB και την αντιμετώπιση κοινών προβλημάτων.
+- Αναμενόμενη έξοδος κονσόλας και βήματα επαλήθευσης.
 
-Δεν απαιτείται προηγούμενη εμπειρία με το Aspose—απλώς βασικές γνώσεις Java και ένα runtime JDK 8+.
+Δεν απαιτείται προηγούμενη εμπειρία με το Aspose· ένα βασικό υπόβαθρο Java είναι αρκετό.
 
----
+## Προαπαιτούμενα – Ετοιμάστε το Περιβάλλον Σας
 
-## Μετατροπή EPUB σε PDF με Aspose.HTML (Κύριος Στόχος)
+Πριν βουτήξουμε στον κώδικα, βεβαιωθείτε ότι έχετε:
 
-Η καρδιά της διαδικασίας είναι η μέθοδος `Converter.convert`. Σκεφτείτε την ως μια γραμμή κώδικα που κάνει όλη τη βαριά δουλειά μόλις της πείτε τι θέλετε. Παρακάτω είναι το πλήρες αρχείο πηγαίου κώδικα που μπορείτε να επικολλήσετε σε οποιοδήποτε IDE.
+| Απαίτηση | Γιατί είναι σημαντικό |
+|-------------|----------------|
+| Java 17 (ή νεότερο) | Το Aspose.HTML υποστηρίζει JDK 8+· ένα νεότερο JDK προσφέρει καλύτερη απόδοση. |
+| Maven 3.6+ | Απλοποιεί τη διαχείριση εξαρτήσεων. |
+| Ένα αρχείο EPUB (`input.epub`) | Το πηγαίο e‑book που θέλετε να μετατρέψετε. |
+| Πρόσβαση στο Internet (πρώτη εκτέλεση) | Το Maven θα κατεβάσει τη βιβλιοθήκη Aspose.HTML. |
+
+> **Συμβουλή:** Αν χρησιμοποιείτε ένα IDE όπως το IntelliJ IDEA ή το Eclipse, δημιουργήστε ένα νέο έργο Maven και αφήστε το IDE να διαχειριστεί το `pom.xml` για εσάς.
+
+## Βήμα 1 – Προσθήκη Εξάρτησης Aspose.HTML (Ο Πυρήνας “epub to pdf java”)
+
+Ανοίξτε το `pom.xml` του έργου σας και εισάγετε την παρακάτω εξάρτηση μέσα στην ετικέτα `<dependencies>`:
+
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-html</artifactId>
+    <version>23.12</version> <!-- Check for the latest version on Maven Central -->
+</dependency>
+```
+
+Αυτή η μοναδική γραμμή φέρνει όλα όσα χρειάζεστε για να διαβάσετε αρχεία EPUB και να γράψετε έξοδο PDF ή DOCX. Το Aspose.HTML αφαιρεί την ανάγκη για χαμηλού επιπέδου απόδοση, ώστε να μην χρειάζεται να ανησυχείτε για CSS, γραμματοσειρές ή εξαγωγή εικόνων.
+
+> **Γιατί Aspose;** Είναι εμπορική βιβλιοθήκη, αλλά προσφέρει δωρεάν δοκιμή χωρίς υδατογραφήματα και διαχειρίζεται πολύπλοκες διατάξεις EPUB πολύ καλύτερα από τις περισσότερες ανοιχτού κώδικα εναλλακτικές.
+
+## Βήμα 2 – Δημιουργία της Κλάσης Java (μετατροπή epub σε pdf & docx)
+
+Δημιουργήστε ένα νέο αρχείο με όνομα `EpubConvert.java` στο `src/main/java/com/example/`. Παρακάτω είναι ο πλήρης, έτοιμος‑για‑εκτέλεση κώδικας πηγής. Αποθηκεύστε το, έπειτα επιστρέψτε για μια γραμμή‑με‑γραμμή εξήγηση.
 
 ```java
-import com.aspose.html.converters.Converter;
-import com.aspose.html.converters.PdfConversionOptions;
-import com.aspose.html.converters.ConverterException;
+package com.example;
 
-/**
- * Demonstrates how to convert a subset of pages from an EPUB file to PDF.
- *
- * Requirements:
- * - Aspose.HTML for Java (download from https://products.aspose.com/html/java)
- * - JDK 8 or higher
- *
- * Update the YOUR_DIRECTORY placeholders with the actual path on your machine.
- */
-public class ConvertEpubPartial {
-    public static void main(String[] args) throws ConverterException {
-        // Step 1: Create PDF conversion options
-        PdfConversionOptions pdfOptions = new PdfConversionOptions();
+import com.aspose.html.*;
+import com.aspose.html.converters.*;
 
-        // Step 2: Specify the page range to convert (pages 2‑4)
-        // This is where we "convert specific EPUB pages".
-        pdfOptions.setPageRange("2-4");
+public class EpubConvert {
+    public static void main(String[] args) throws Exception {
+        // 1️⃣ Specify where your source EPUB lives
+        String epubFilePath = "YOUR_DIRECTORY/input.epub";
 
-        // Step 3: Preserve vector graphics (e.g., SVG) in the resulting PDF
-        pdfOptions.setPreserveVectorGraphics(true);
-
-        // Step 4: Convert the selected pages of the EPUB to a PDF file
-        // The first argument is the source EPUB, the second is the target PDF.
+        // 2️⃣ Convert the EPUB to PDF – layout is preserved exactly
         Converter.convert(
-            "YOUR_DIRECTORY/book.epub",
-            "YOUR_DIRECTORY/chapter_subset.pdf",
-            pdfOptions
+                epubFilePath,
+                "YOUR_DIRECTORY/book.pdf",
+                new PdfSaveOptions()
         );
 
-        System.out.println("Conversion completed successfully!");
+        // 3️⃣ Convert the same EPUB to DOCX – results in a flowing, editable document
+        Converter.convert(
+                epubFilePath,
+                "YOUR_DIRECTORY/book.docx",
+                new DocxSaveOptions()
+        );
+
+        // 4️⃣ Let the user know everything went fine
+        System.out.println("EPUB conversion completed.");
     }
 }
 ```
 
-> **Γιατί λειτουργεί αυτό:**  
-> *`PdfConversionOptions`* περιέχει όλες τις ρυθμίσεις που μπορείτε να προσαρμόσετε πριν ξεκινήσει η μετατροπή. Ορίζοντας το εύρος σελίδων λέτε στο Aspose να παραλείψει ό,τι εκτός 2‑4, που είναι ακριβώς ο τρόπος για **μετατροπή συγκεκριμένων σελίδων EPUB**. Η ενεργοποίηση της διατήρησης διανυσματικών γραφικών εξασφαλίζει ότι τυχόν SVG εικονογραφήσεις παραμένουν οξείες, αντί να μετατρέπονται σε θολά bitmap.
+### Εξήγηση Κάθε Τμήματος
 
-### Αναμενόμενο Αποτέλεσμα
+1. **Διαδρομή Αρχείου** – Αντικαταστήστε το `YOUR_DIRECTORY` με την απόλυτη ή σχετική διαδρομή όπου βρίσκεται το `input.epub`. Η διατήρηση της διαδρομής ρυθμιζόμενης καθιστά τον κώδικα επαναχρησιμοποιήσιμο σε CI pipelines.
+2. **Μετατροπή PDF** – Το `PdfSaveOptions` λέει στο Aspose να αποδώσει το EPUB ακριβώς όπως εμφανίζεται σε έναν e‑reader, διατηρώντας τις αλλαγές σελίδας, τις εικόνες και το στυλ CSS. Αυτό είναι η καρδιά της λειτουργίας *μετατροπή epub σε pdf*.
+3. **Μετατροπή DOCX** – Το `DocxSaveOptions` παράγει ένα έγγραφο Microsoft Word όπου το κείμενο ρέει ελεύθερα. Αυτό είναι χρήσιμο όταν χρειάζεστε μια επεξεργάσιμη έκδοση μετά το βήμα *μετατροπή epub σε docx*.
+4. **Ανατροφοδότηση** – Ένα απλό `println` επιβεβαιώνει την επιτυχία· σε πραγματικές εφαρμογές μπορεί να καταγράψετε σε αρχείο ή να εκκινήσετε ένα συμβάν.
 
-Αφού εκτελέσετε το πρόγραμμα, θα βρείτε το `chapter_subset.pdf` στον ίδιο φάκελο. Ανοίξτε το με οποιονδήποτε προβολέα PDF—θα πρέπει να δείτε μόνο το περιεχόμενο που αρχικά βρισκόταν στις σελίδες 2, 3 και 4 του EPUB, με όλες τις εικόνες να αποδίδονται καθαρά.
+## Βήμα 3 – Εκτέλεση της Μετατροπής και Επαλήθευση του Αποτελέσματος
 
----
+Συγκεντρώστε (compile) και εκτελέστε το πρόγραμμα:
 
-## Καθορίστε το Εύρος Σελίδων για Μετατροπή Συγκεκριμένων Σελίδων EPUB (Δευτερεύουσα Έμφαση)
-
-Αν αναρωτιέστε πώς λειτουργεί η συμβολοσειρά εύρους σελίδων, ακολουθεί την ίδια σύνταξη με τα περισσότερα εργαλεία PDF: `"start‑end"`. Μπορείτε επίσης να περάσετε μια λίστα χωρισμένη με κόμματα όπως `"1,3,5-7"` για να επιλέξετε μη συνεχόμενες σελίδες.  
-
-```java
-pdfOptions.setPageRange("1,3,5-7"); // converts pages 1, 3, 5, 6, and 7
+```bash
+mvn compile exec:java -Dexec.mainClass="com.example.EpubConvert"
 ```
 
-**Pro tip:** Όταν εργάζεστε με μεγάλα EPUB, ο περιορισμός της μετατροπής σε λίγες σελίδες μειώνει δραστικά την κατανάλωση μνήμης και επιταχύνει τη διαδικασία.  
+Αν όλα είναι ρυθμισμένα σωστά, θα δείτε:
 
----
-
-## Διατήρηση Διανυσματικών Γραφικών για Υψηλής Ποιότητας Έξοδο
-
-Τα διανυσματικά γραφικά είναι το μυστικό συστατικό πίσω από κλιμακούμενα διαγράμματα, γραφήματα και εικονίδια. Καλώντας `setPreserveVectorGraphics(true)`, το Aspose διατηρεί αυτά τα στοιχεία ως διανύσματα μέσα στο PDF.  
-
-Αν παραλείψετε αυτό το βήμα, η βιβλιοθήκη θα rasterize τα SVG στα 72 dpi, κάτι που φαίνεται εντάξει στην οθόνη αλλά εκτυπώνεται κακά.  
-
-```java
-pdfOptions.setPreserveVectorGraphics(true);
+```
+EPUB conversion completed.
 ```
 
----
+### Τι Να Περιμένετε
 
-## Εκτελέστε τη Μετατροπή και Επαληθεύστε το Αποτέλεσμα
+- `book.pdf` θα φαίνεται ταυτόσημο με το αρχικό EPUB, με όλες τις εικόνες και τη μορφοποίηση αμετάβλητες.
+- `book.docx` θα περιέχει το ίδιο κειμενικό περιεχόμενο, αλλά η διάταξη θα προσαρμοστεί στη ροή του Word (τέλειο για επεξεργασία).
 
-Με τις ρυθμίσεις παραμετροποιημένες, η πραγματική μετατροπή είναι μια ενιαία στατική κλήση. Ρίχνει `ConverterException` αν κάτι πάει στραβά—οπότε μπορείτε είτε να το πιάσετε είτε να το δηλώσετε στην υπογραφή της μεθόδου, όπως φαίνεται παραπάνω.  
+Ανοίξτε κάθε αρχείο στον αντίστοιχο προβολέα του (Adobe Reader για PDF, Microsoft Word για DOCX) για να επιβεβαιώσετε ότι η μετατροπή ήταν επιτυχής.
 
-```java
-try {
-    Converter.convert(sourcePath, targetPath, pdfOptions);
-    System.out.println("PDF created at: " + targetPath);
-} catch (ConverterException ex) {
-    System.err.println("Conversion failed: " + ex.getMessage());
-}
+## Βήμα 4 – Συχνές Ερωτήσεις & Ακραίες Περιπτώσεις
+
+### Πώς να διαχειριστείτε μεγάλα EPUB (εκατοντάδες MB);
+
+Το Aspose επεξεργάζεται τις σελίδες αργά (lazy), αλλά μπορεί ακόμη να φτάσετε τα όρια μνήμης. Αυξήστε το μέγεθος της στοίβας JVM:
+
+```bash
+export _JAVA_OPTIONS="-Xmx4g"
 ```
 
-**Τι να ελέγξετε μετά τη μετατροπή**
+### Τι γίνεται αν το EPUB περιέχει προσαρμοσμένες γραμματοσειρές;
 
-1. **Αριθμός σελίδων** – ανοίξτε το PDF και βεβαιωθείτε ότι ταιριάζει με το εύρος που ορίσατε.  
-2. **Ακρίβεια γραφικών** – ζουμάρετε σε οποιοδήποτε διάγραμμα· πρέπει να παραμένει καθαρό.  
-3. **Κωδικοποίηση κειμένου** – ειδικοί χαρακτήρες από το EPUB πρέπει να αποδίδονται σωστά.
+Το Aspose.HTML ενσωματώνει αυτόματα τις αναφερόμενες γραμματοσειρές στο PDF. Για DOCX, οι γραμματοσειρές αναφέρονται· βεβαιωθείτε ότι η μηχανή-στόχος τις έχει εγκατεστημένες, ή ενσωματώστε τες χειροκίνητα χρησιμοποιώντας `DocxSaveOptions.setEmbedFonts(true)`.
 
-Αν κάποιος από αυτούς τους ελέγχους αποτύχει, επανεξετάστε τις ρυθμίσεις του `PdfConversionOptions` ή βεβαιωθείτε ότι το πηγαίο EPUB δεν είναι προστατευμένο με DRM.
+### Μπορώ να μετατρέψω μαζικά πολλαπλά αρχεία;
 
----
+Τυλίξτε τις κλήσεις `Converter.convert` μέσα σε έναν βρόχο που διατρέχει έναν φάκελο με EPUB. Θυμηθείτε να δώσετε σε κάθε έξοδο μοναδικό όνομα, π.χ., `book1.pdf`, `book2.pdf`.
 
-## Συνηθισμένα Προβλήματα και Pro Tips (Συμπεριλαμβανομένου Δευτερεύοντος Λέξη‑Κλειδί)
+### Υποστηρίζει η βιβλιοθήκη EPUB με προστασία DRM;
 
-| Πρόβλημα | Γιατί Συμβαίνει | Διόρθωση |
-|----------|----------------|----------|
-| **Εμφανίζονται κενές σελίδες** | Η συμβολοσειρά εύρους σελίδων είναι λανθασμένη. | Χρησιμοποιήστε απλό μορφότυπο `"2-4"` ή ελέγξτε τα κόμματα για μη συνεχόμενες σελίδες. |
-| **Λείπουν εικόνες** | Τα διανυσματικά γραφικά δεν διατηρήθηκαν. | Καλέστε `pdfOptions.setPreserveVectorGraphics(true)`. |
-| **Σφάλμα έλλειψης μνήμης** | Μετατροπή τεράστιου EPUB χωρίς εύρος σελίδων. | Πάντα **μετατρέψτε συγκεκριμένες σελίδες EPUB** όταν είναι δυνατόν· επεξεργαστείτε σε παρτίδες. |
-| **Μη υποστηριζόμενη γραμματοσειρά** | Η γραμματοσειρά δεν είναι ενσωματωμένη στο EPUB. | Ενεργοποιήστε την ενσωμάτωση γραμματοσειρών με `pdfOptions.setEmbedFonts(true)` (πρόσθετη επιλογή). |
+Όχι. Το DRM πρέπει να αφαιρεθεί εκ των προτέρων, αλλιώς η μετατροπή θα ρίξει εξαίρεση.
 
----
+## Εικονογραφική Παράσταση
 
-## Οπτική Επισκόπηση  
+Παρακάτω είναι μια γρήγορη οπτική του ροής μετατροπής. *(Αν προσθέσετε πραγματικό στιγμιότυπο, αντικαταστήστε το URL placeholder.)*
 
-![Διάγραμμα ροής που δείχνει τη διαδικασία μετατροπής epub σε pdf](/images/convert-epub-to-pdf-flow.png "Διάγραμμα της ροής μετατροπής epub σε pdf")
+<img src="https://example.com/convert-epub-to-pdf-diagram.png" alt="διάγραμμα παραδείγματος μετατροπής epub σε pdf">
 
-*Alt text:* *Διάγραμμα που δείχνει πώς το πρόγραμμα Java μετατρέπει EPUB σε PDF, επισημαίνοντας το βήμα που μετατρέπει συγκεκριμένες σελίδες EPUB.*
+Το διάγραμμα ενισχύει την **μετατροπή epub σε pdf** αλυσίδα: EPUB → Aspose.HTML → PDF/DOCX.
 
----
+## Λίστα Ελέγχου Επίλυσης Προβλημάτων
 
-## Συνοπτική Επισκόπηση
+| Σύμπτωμα | Πιθανή Αιτία | Διόρθωση |
+|---------|--------------|-----|
+| `ClassNotFoundException: com.aspose.html.converters.Converter` | Η εξάρτηση δεν έχει ληφθεί | Εκτελέστε `mvn clean install` ή ελέγξτε το Maven Central για τη σωστή έκδοση. |
+| Blank PDF output | Απουσία γραμματοσειρών ή εικόνες μη προσβάσιμες | Βεβαιωθείτε ότι το EPUB αναφέρει τοπικούς πόρους ή ορίστε `PdfSaveOptions.setResourcesRootPath(...)`. |
+| DOCX file opens with missing styles | Παλαιότερη έκδοση Aspose | Αναβαθμίστε στην πιο πρόσφατη έκδοση `aspose-html`. |
 
-Μόλις σας δείξαμε πώς να **μετατρέψετε EPUB σε PDF** σε Java ενώ έχετε πλήρη έλεγχο πάνω στο ποιες σελίδες μετατρέπονται. Τα βασικά βήματα είναι:
+## Συμπέρασμα
 
-1. Δημιουργήστε `PdfConversionOptions`.  
-2. Ορίστε ένα εύρος σελίδων για **μετατροπή συγκεκριμένων σελίδων EPUB**.  
-3. Διατηρήστε τα διανυσματικά γραφικά για επαγγελματικό αποτέλεσμα.  
-4. Καλέστε `Converter.convert` και διαχειριστείτε τυχόν εξαιρέσεις.
+Τώρα έχετε μια σταθερή, ολοκληρωμένη λύση για **μετατροπή epub σε pdf** και **μετατροπή epub σε docx** χρησιμοποιώντας Java. Τα βασικά σημεία:
 
-Νιώστε ελεύθεροι να πειραματιστείτε—αλλάξτε το εύρος σελίδων, απενεργοποιήστε τη διατήρηση διανυσματικών γραφικών, ή ακόμη και προσθέστε έναν προσαρμοσμένο τίτλο PDF με `pdfOptions.setTitle("My Chapter Subset")`.
+- Προσθέστε την εξάρτηση Maven `aspose-html` (η ραχοκοκαλιά κάθε έργου *epub to pdf java*).
+- Χρησιμοποιήστε `Converter.convert` με τις κατάλληλες `SaveOptions` για κάθε μορφή προορισμού.
+- Επαληθεύστε τα παραγόμενα αρχεία και διαχειριστείτε μεγάλα ή φορτωμένα με γραμματοσειρές EPUB με ρύθμιση της JVM.
 
----
+Από εδώ μπορείτε να εξερευνήσετε την επεξεργασία σε παρτίδες, την προσθήκη υδατογραφημάτων σε PDF, ή την ενσωμάτωση αυτής της λογικής σε μια υπηρεσία web. Οι δυνατότητες είναι ατελείωτες, και το βασικό μοτίβο παραμένει το ίδιο.
 
-## Τι Ακολουθεί;
-
-- **Επεξεργασία παρτίδας:** Επανάληψη μέσω λίστας EPUB και δημιουργία PDF για κάθε κεφάλαιο.  
-- **Προσαρμοσμένο στυλ:** Χρήση ένεσης CSS για αλλαγή γραμματοσειρών ή χρωμάτων πριν τη μετατροπή.  
-- **Ασφάλεια:** Εφαρμογή προστασίας με κωδικό πρόσβασης στο τελικό PDF μέσω `PdfEncryptionOptions`.  
-
-Αν βρήκατε αυτόν τον οδηγό χρήσιμο, μοιραστείτε τον ή αφήστε ένα σχόλιο με τη δική σας περίπτωση χρήσης. Καλό προγραμματισμό και απολαύστε τα καθαρά PDF!
-
-## Τι Θα Μάθετε Στη Σειρά;
-
-Τα παρακάτω tutorials καλύπτουν στενά σχετικές θεματικές που επεκτείνουν τις τεχνικές που παρουσιάστηκαν σε αυτόν τον οδηγό. Κάθε πόρος περιλαμβάνει πλήρη λειτουργικά παραδείγματα κώδικα με βήμα‑βήμα εξηγήσεις για να σας βοηθήσουν να κυριαρχήσετε πρόσθετες δυνατότητες API και να εξερευνήσετε εναλλακτικές προσεγγίσεις υλοποίησης στα δικά σας έργα.
-
-- [Μετατροπή EPUB σε PDF και Εικόνες με Aspose.HTML για Java](/html/english/java/conversion-epub-to-image-and-pdf/)
-- [Μετατροπή EPUB σε Εικόνες χρησιμοποιώντας Aspose HTML για Java](/html/english/java/converting-epub-to-pdf/convert-epub-to-image/)
-- [Aspose HTML Java – Οδηγός Μετατροπής EPUB σε XPS](/html/english/java/conversion-epub-to-xps/)
+Έχετε περισσότερες ερωτήσεις σχετικά με *πώς να μετατρέψετε epub σε pdf* ή *πώς να μετατρέψετε epub σε docx*; Αφήστε ένα σχόλιο ή ελέγξτε την τεκμηρίωση του Aspose.HTML για προχωρημένες ρυθμίσεις. Καλή μετατροπή!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

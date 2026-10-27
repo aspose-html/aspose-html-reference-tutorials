@@ -9,7 +9,7 @@ url: /sv/java/handling-zip-files/
 weight: 31
 ---
 
- craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

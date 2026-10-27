@@ -1,0 +1,7 @@
+Title: Load html string in C# – complete guide with custom handler
+Slug: load-html-string-in-c-complete-guide-with-custom-handler
+Category: working-with-html-documents
+ProcessedDate: 2026-08-03T14:33:47.739900
+SourceRepo: AI Search API
+Keywords: load html string, create custom handler, how to save htmldocument, custom resource handling
+PRNumber: 229
