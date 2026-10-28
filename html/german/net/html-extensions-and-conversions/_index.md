@@ -36,7 +36,10 @@ Sind Sie bereit, loszulegen? Die Tutorials von Aspose.HTML für .NET richten sic
 
 Aspose.HTML für .NET ist nicht nur eine Bibliothek; es verändert die Welt der Webentwicklung grundlegend. Es bietet eine umfassende Palette an Funktionen und Tools, die Ihre HTML‑bezogenen Aufgaben rationalisieren. Am Ende dieser Tutorials verfügen Sie über das Wissen und die Fähigkeiten, um das Potenzial von Aspose.HTML für .NET optimal zu nutzen.
 
-## Tutorials zu HTML-Erweiterungen und -Konvertierungen
+## Tutorials
+### [How to zip HTML in C# with Aspose.HTML](./how-to-zip-html-in-c-with-aspose-html/)
+
+ zu HTML-Erweiterungen und -Konvertierungen
 
 
 ### [Konvertieren Sie HTML in .NET in PDF mit Aspose.HTML](./convert-html-to-pdf/)

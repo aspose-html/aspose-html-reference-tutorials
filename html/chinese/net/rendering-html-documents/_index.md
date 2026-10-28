@@ -134,10 +134,25 @@ Aspose.HTML for .NET 凭借其丰富的功能、出色的文档和活跃的社�
 ### [使用 C# 创建 HTML 文档 – 将 HTML 渲染为 PNG](./create-html-document-c-render-html-to-png/)
 
 ### [如何在 C# 中将 HTML 渲染为 PNG 时启用抗锯齿](./how-to-enable-antialiasing-when-rendering-html-to-png-in-c/)
-学习在使用 Aspose.HTML for .NET 将 HTML 渲染为 PNG 时，如何启用抗锯齿以获得更平滑的图像质量。
+学习在 Aspose.HTML for .NET 将 HTML 渲染为 PNG 时，如何启用抗锯齿以获得更平滑的图像质量。
 
-### [如何在 C# 中将 HTML 渲染为 PNG – 步骤指南](./how-to-render-html-to-png-in-c-step-by-step-guide/)
-学习在 C# 中使用 Aspose.HTML 将 HTML 渲染为 PNG 的完整步骤，包含关键设置和示例代码。
+### [如何在 C# 中将 HTML 渲染为 PNG – 步骤指南](./how-to-render-html-as-png-step-by-step-guide/)
+本指南详细演示使用 Aspose.HTML for .NET 将 HTML 渲染为 PNG 的逐步操作，帮助您轻松完成转换。
+
+### [如何在 C# 中将 HTML 渲染为 PNG – 完整 C# 指南](./how-to-render-html-to-png-complete-c-guide/)
+学习使用 Aspose.HTML for .NET 将 HTML 渲染为 PNG，提供完整的 C# 示例和详细步骤。
+
+### [在 C# 中将 HTML 渲染为图像 – 完整分步指南](./render-html-to-image-in-c-complete-step-by-step-guide/)
+学习使用 Aspose.HTML for .NET 在 C# 中将 HTML 渲染为图像的完整分步教程，涵盖关键设置和最佳实践。
+
+### [在 C# 中将 HTML 渲染为 PNG – 完整分步指南](./render-html-to-png-in-c-step-by-step-guide/)
+学习使用 Aspose.HTML for .NET 在 C# 中将 HTML 渲染为 PNG 的完整步骤和最佳实践。
+
+### [使用 C# 将 HTML 渲染为 PNG 并保存为 ZIP – 完整指南](./render-html-to-png-and-save-to-zip-with-c-complete-guide/)
+学习使用 Aspose.HTML for .NET 将 HTML 渲染为 PNG 并压缩为 ZIP，提供完整的 C# 示例和最佳实践。
+
+### [使用 C# 从 HTML 创建图像 – 完整分步指南](./create-image-from-html-in-c-complete-step-by-step-guide/)
+完整的 C# 示例，演示如何使用 Aspose.HTML 将 HTML 渲染为图像，涵盖关键步骤和最佳实践。
 
 ### [使用 Aspose.HTML 在 .NET 中将 HTML 渲染为 PDF（C#）](./create-pdf-document-c-render-html-to-pdf-with-aspose/)
 学习如何使用 Aspose.HTML for .NET 将 HTML 内容渲染为 PDF 文档，提供完整的 C# 示例和关键步骤。
@@ -183,6 +198,9 @@ Aspose.HTML for .NET 凭借其丰富的功能、出色的文档和活跃的社�
 
 ### [使用 Aspose.HTML 将 HTML 渲染为图像 – 完整 C# 指南](./render-html-to-image-with-aspose-html-complete-c-guide/)
 完整的 C# 示例，展示如何使用 Aspose.HTML 将 HTML 渲染为图像，涵盖关键步骤和最佳实践。
+
+### [如何在 C# 中创建 HTML 文档并将 HTML 渲染为带抗锯齿的图像](./how-to-create-html-document-and-render-html-to-image-with-an/)
+学习在 C# 中使用 Aspose.HTML 创建 HTML 文档并渲染为带抗锯齿的图像的完整示例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

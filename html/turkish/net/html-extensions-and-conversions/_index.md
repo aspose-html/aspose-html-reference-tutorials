@@ -39,6 +39,9 @@ Aspose.HTML for .NET yalnızca bir kütüphane değil; web geliştirme dünyası
 ## HTML Uzantıları ve Dönüşümleri Eğitimleri
 
 
+### [How to zip HTML in C# with Aspose.HTML](./how-to-zip-html-in-c-with-aspose-html/)
+
+
 ### [Aspose.HTML ile .NET'te HTML'yi PDF'ye dönüştürün](./convert-html-to-pdf/)
 ### [Aspose.HTML ile .NET'te HTML'den PDF Oluşturma – Adım Adım Kılavuz](./create-pdf-from-html-with-aspose-step-by-step-guide/)
 

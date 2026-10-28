@@ -164,6 +164,9 @@ Pełny przewodnik w C# pokazujący, jak przy użyciu Aspose.HTML renderować HTM
 ### [Jak włączyć antyaliasing podczas renderowania HTML do PNG – przewodnik krok po kroku](./how-to-enable-antialiasing-when-rendering-html-to-png-step-b/)
 Dowiedz się, jak w Aspose.HTML włączyć antyaliasing przy renderowaniu HTML do PNG, aby uzyskać wyraźniejsze obrazy.
 
+### [Jak utworzyć dokument HTML i wyrenderować HTML do obrazu z antyaliasingiem w C#](./how-to-create-html-document-and-render-html-to-image-with-an/)
+Naucz się, jak przy użyciu Aspose.HTML w C# utworzyć dokument HTML i renderować go do obrazu z włączonym antyaliasingiem.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

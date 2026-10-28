@@ -39,6 +39,9 @@ Aspose.HTML for .NET không chỉ là một thư viện; mà còn là một côn
 ## Hướng dẫn về phần mở rộng và chuyển đổi HTML
 
 
+### [How to zip HTML in C# with Aspose.HTML](./how-to-zip-html-in-c-with-aspose-html/)
+
+
 ### [Chuyển đổi HTML sang PDF trong .NET với Aspose.HTML](./convert-html-to-pdf/)
 Chuyển đổi HTML sang PDF dễ dàng với Aspose.HTML cho .NET. Làm theo hướng dẫn từng bước của chúng tôi và giải phóng sức mạnh của việc chuyển đổi HTML sang PDF.
 ### [Tạo PDF từ URL – Hướng dẫn C# đầy đủ](./create-pdf-from-url-complete-c-guide/)

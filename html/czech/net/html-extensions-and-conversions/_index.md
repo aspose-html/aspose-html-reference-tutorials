@@ -135,11 +135,11 @@ Naučte se, jak pomocí Aspose.HTML v C# exportovat webovou stránku do ZIP arch
 ### [Jak zkomprimovat HTML pomocí Aspose.HTML – Kompletní průvodce](./how-to-zip-html-with-aspose-html-complete-guide/)
 Kompletní průvodce, jak pomocí Aspose.HTML zkomprimovat HTML soubor do ZIP archivu v .NET.
 ### [Jak zkomprimovat HTML v C# – krok za krokem průvodce](./how-to-zip-html-in-c-step-by-step-guide/)
-Naučte se, jak pomocí Aspose.HTML pro .NET zabalit HTML soubor do ZIP archivu v C# krok za krokem.
+Naučte se, jak pomocí Aspose.HTML pro .NET zabalit HTML soubor do ZIP archivu krok za krokem.
 ### [Vytvořte HTML dokument v C# – průvodce krok za krokem](./create-html-document-c-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.HTML v C# vytvořit HTML dokument krok za krokem s podrobnými ukázkami kódu.
 ### [Jak zkomprimovat HTML v C# – Kompletní průvodce](./how-to-zip-html-in-c-complete-guide/)
-Kompletní návod, jak v C# pomocí Aspose.HTML zabalit HTML soubory do ZIP archivu.
+Kompletní návod, jak v C# pomocí Aspose.HTML zkomprimovat HTML soubory do ZIP archivu.
 ### [Uložte HTML do ZIP v C# – Kompletní průvodce](./save-html-to-zip-in-c-complete-guide/)
 Naučte se kompletně ukládat HTML soubory do ZIP archivů v C# pomocí Aspose.HTML pro .NET.
 ### [Aspose HTML do PDF v C# – Kompletní průvodce se ZIP archivem](./aspose-html-to-pdf-in-c-complete-guide-with-zip-archive/)
@@ -233,6 +233,9 @@ Naučte se pomocí ZipHandler archivovat webovou stránku do ZIP souboru v C# s 
 Naučte se, jak pomocí Aspose.HTML v C# převést HTML do ZIP archivu pomocí podrobného průvodce krok za krokem.
 ### [Uložte HTML do ZIP – Kompletní průvodce Aspose.HTML](./save-html-to-zip-complete-aspose-html-guide/)
 Naučte se, jak pomocí Aspose.HTML pro .NET uložit HTML soubor do ZIP archivu v kompletním průvodci.
+### [Jak zkomprimovat HTML v C# pomocí Aspose.HTML](./how-to-zip-html-in-c-with-aspose-html/)
+Naučte se v C# pomocí Aspose.HTML zkomprimovat HTML soubory do ZIP archivu.
+
 ## Závěr
 
 Závěrem lze říci, že rozšíření a konverze HTML jsou základními prvky moderního vývoje webu. Aspose.HTML for .NET zjednodušuje proces a zpřístupňuje jej vývojářům všech úrovní. Budete-li se řídit našimi návody, budete na dobré cestě stát se zdatným webovým vývojářem se širokou sadou dovedností.

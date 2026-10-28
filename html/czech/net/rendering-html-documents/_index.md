@@ -112,7 +112,7 @@ Kompletní průvodce v C#, jak pomocí Aspose.HTML převést HTML na obrázek s 
 ### [Renderujte HTML do PDF pomocí Aspose.HTML – krok za krokem](./render-html-to-pdf-with-aspose-html-step-by-step-guide/)
 Kompletní průvodce, jak převést HTML do PDF pomocí Aspose.HTML v .NET s podrobnými ukázkami a tipy.
 
-### [Vytvořte HTML dokument v C# – Renderujte do PNG pomocí Aspose.HTML](./create-html-document-c-render-to-png-with-aspose-html/)
+### [Vytvořte HTML dokument v C# – Renderujte do PNG s Aspose.HTML](./create-html-document-c-render-to-png-with-aspose-html/)
 Naučte se vytvořit HTML dokument v C# a pomocí Aspose.HTML jej převést do formátu PNG.
 
 ### [Vykreslení HTML do obrázku v C# – Kompletní průvodce krok za krokem](./render-html-to-image-in-c-complete-step-by-step-guide/)
@@ -126,6 +126,9 @@ Naučte se vytvořit HTML dokument v C# a pomocí Aspose.HTML jej převést na P
 
 ### [Jak povolit antialiasing při vykreslování HTML do PNG v C#](./how-to-enable-antialiasing-when-rendering-html-to-png-in-c/)
 Naučte se, jak zapnout antialiasing pro hladší výstup PNG při vykreslování HTML pomocí Aspose.HTML v C#.
+
+### [Jak vytvořit HTML dokument a vykreslit HTML do obrázku s antialiasingem v C#](./how-to-create-html-document-and-render-html-to-image-with-an/)
+Kompletní průvodce v C#, jak vytvořit HTML dokument a vykreslit jej do obrázku s antialiasingem pro vyšší kvalitu.
 
 ### [Vytvořte PDF dokument C# – Vykreslete HTML do PDF pomocí Aspose](./create-pdf-document-c-render-html-to-pdf-with-aspose/)
 Naučte se, jak pomocí Aspose.HTML v .NET převést HTML do PDF v C# s podrobnými ukázkami.

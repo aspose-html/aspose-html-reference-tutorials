@@ -39,6 +39,9 @@ Aspose.HTML voor .NET is niet zomaar een bibliotheek; het is een game-changer in
 ## HTML-extensies en conversiehandleidingen
 
 
+### [How to zip HTML in C# with Aspose.HTML](./how-to-zip-html-in-c-with-aspose-html/)
+
+
 ### [PDF maken van URL – Complete C#-gids](./create-pdf-from-url-complete-c-guide/)
 Leer hoe u met Aspose.HTML voor .NET een PDF genereert vanuit een URL met een volledige C#-stapsgewijze handleiding.
 ### [Converteer HTML naar PDF in .NET met Aspose.HTML](./convert-html-to-pdf/)
