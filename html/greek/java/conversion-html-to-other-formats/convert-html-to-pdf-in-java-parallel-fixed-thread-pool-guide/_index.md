@@ -1,26 +1,52 @@
 ---
 category: general
-date: 2026-02-13
-description: Μετατρέψτε το HTML σε PDF γρήγορα χρησιμοποιώντας μια σταθερή ομάδα νημάτων
-  Java. Μάθετε πώς να δημιουργείτε PDF από HTML και να επεξεργάζεστε αρχεία παράλληλα
-  με το Aspose.HTML.
+date: 2026-10-25
+description: Μάθετε πώς να μετατρέπετε html σε pdf java χρησιμοποιώντας ένα σταθερό
+  thread pool. Αυτός ο οδηγός παρουσιάζει κώδικα βήμα‑βήμα για τη δημιουργία PDF από
+  HTML, την επεξεργασία αρχείων παράλληλα και τη βελτιστοποίηση της απόδοσης με Aspose.HTML.
 draft: false
 keywords:
-- convert html to pdf
+- html to pdf java
 - fixed thread pool java
 - generate pdf from html
-- process files in parallel
-- html to pdf java
-language: el
-og_description: Μετατρέψτε γρήγορα HTML σε PDF χρησιμοποιώντας μια σταθερή ομάδα νημάτων
-  σε Java. Μάθετε πώς να δημιουργείτε PDF από HTML και να επεξεργάζεστε αρχεία παράλληλα
-  με το Aspose.HTML.
-og_title: Μετατροπή HTML σε PDF σε Java – Οδηγός για Παράλληλο Σταθερό Πισίνα Νημάτων
+- convert multiple html pdf
+- batch convert html pdf
+lastmod: 2026-10-25
+og_description: Μάθετε πώς να μετατρέψετε HTML σε PDF σε Java χρησιμοποιώντας ένα
+  σταθερό thread pool. Αυτός ο οδηγός σας καθοδηγεί στη δημιουργία PDF από HTML, στην
+  επεξεργασία αρχείων παράλληλα και στη βελτιστοποίηση της απόδοσης με Aspose.HTML.
+og_image_alt: Diagram showing a fixed thread pool handling parallel HTML‑to‑PDF conversions
+  in Java
+og_title: Html σε pdf java – Οδηγός μετατροπής με σταθερό thread pool
+schemas:
+- author: Aspose
+  dateModified: '2026-10-25'
+  description: Learn how to convert html to pdf java using a fixed thread pool. This
+    guide shows step‑by‑step code to generate PDF from HTML, process files in parallel,
+    and optimise performance with Aspose.HTML.
+  headline: Convert html to pdf java with a fixed thread pool
+  type: TechArticle
+- questions:
+  - answer: Yes. Aspose.HTML does not require a graphical environment; it works fully
+      headless.
+    question: Can I run this on a headless Linux server?
+  - answer: The practical limit depends on CPU cores and available memory; a pool
+      size equal to `availableProcessors()` is a safe default for most servers.
+    question: How many files can I convert at once?
+  - answer: No. Aspose.HTML is a pure Java library and ships with all required binaries.
+    question: Do I need to install any native libraries?
+  - answer: The exception is caught inside the task (if you add a try‑catch) and logged;
+      the pool continues processing the remaining files.
+    question: What happens if a single conversion fails?
+  - answer: You can increment an `AtomicInteger` inside each task and print the value
+      after each successful conversion.
+    question: Is there a way to monitor progress?
+  type: FAQPage
 tags:
 - Java
 - PDF
 - Concurrency
-title: Μετατροπή HTML σε PDF σε Java – Οδηγός για Παράλληλο Σταθερό Πισίνα Νημάτων
+title: Μετατροπή html σε pdf java με σταθερό thread pool
 url: /el/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-parallel-fixed-thread-pool-guide/
 ---
 
@@ -28,21 +54,34 @@ url: /el/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-paral
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Convert HTML to PDF in Java – Parallel Fixed Thread Pool Guide
+# Μετατροπή html σε pdf java με σταθερό thread pool
 
-Έχετε χρειαστεί ποτέ να **μετατρέψετε HTML σε PDF** αλλά η μονονηματική προσέγγισή σας να «πνίγεται» με δεκάδες αρχεία; Δεν είστε μόνοι. Σε πολλά web‑κεντρικά έργα καταλήγουμε με έναν φάκελο γεμάτο αναφορές HTML που πρέπει να μετατραπούν σε PDF για αρχειοθέτηση, αποστολή email ή συμμόρφωση. Τα καλά νέα; Χρησιμοποιώντας ένα **fixed thread pool java**, μπορείτε να **process files in parallel**, μειώνοντας δραστικά το συνολικό χρόνο μετατροπής.
+Αν χρειάζεστε **convert html to pdf java** και το τρέχον μονό‑νήμα σενάριό σας κολλάει σε δεκάδες αρχεία, βρίσκεστε στο σωστό μέρος. Σε πολλές web‑κεντρικές εφαρμογές παράγουμε μια παρτίδα HTML αναφορών που πρέπει να αρχειοθετηθούν, να σταλούν μέσω email ή να αποθηκευτούν ως PDF για συμμόρφωση. Εκμεταλλευόμενοι ένα **fixed thread pool java**, μπορείτε να **επεξεργαστείτε αρχεία παράλληλα**, μειώνοντας δραστικά τον χρόνο μετατροπής ενώ διατηρείτε τη χρήση μνήμης προβλέψιμη.
 
-Σε αυτό το tutorial θα περάσουμε βήμα‑βήμα από ένα πλήρες, έτοιμο‑για‑εκτέλεση παράδειγμα που **generates PDF from HTML** με τη χρήση του Aspose.HTML, θα εξηγήσουμε γιατί ένα fixed‑size thread pool είναι η ιδανική λύση, και θα δείξουμε πώς να προσαρμόσετε τον κώδικα για πραγματικές περιπτώσεις. Χωρίς ελλείψεις, χωρίς συντομεύσεις «δείτε τα docs» — μόνο μια αυτόνομη λύση που μπορείτε να αντιγράψετε‑επικολλήσετε και να τρέξετε σήμερα.
+Σε αυτό το tutorial θα περάσουμε βήμα‑βήμα από ένα πλήρες, έτοιμο‑για‑εκτέλεση παράδειγμα που **δημιουργεί PDF από HTML** χρησιμοποιώντας το Aspose.HTML, εξηγούμε γιατί ένα fixed‑size thread pool είναι η ιδανική λύση, και σας δείχνουμε πώς να αντιμετωπίσετε κοινές περιπτώσεις άκρων. Μπορείτε να αντιγράψετε‑και‑επικολλήσετε τον κώδικα, να ρυθμίσετε το μέγεθος του pool, και να τον τρέξετε σήμερα.
 
-## What You’ll Need
+## Γρήγορες απαντήσεις
+- **Ποια βιβλιοθήκη διαχειρίζεται τη μετατροπή;** Aspose.HTML for Java.
+- **Πόσα νήματα πρέπει να χρησιμοποιήσω;** Συνήθως ο αριθμός των πυρήνων CPU ή ο αριθμός των αρχείων, όποιος είναι μικρότερος.
+- **Χρειάζομαι άδεια;** Μια δωρεάν δοκιμή λειτουργεί για ανάπτυξη· απαιτείται εμπορική άδεια για παραγωγή.
+- **Θα λειτουργήσει σε Linux και Windows;** Ναι – ο κώδικας χρησιμοποιεί μόνο τυπικά Java APIs και Aspose.HTML.
+- **Μπορώ να μετατρέψω εκατοντάδες αρχεία;** Απόλυτα – απλώς ρυθμίστε το μέγεθος του thread‑pool και το χρονικό όριο.
 
-- **Java 17** (ή οποιοδήποτε πρόσφατο JDK) – ο κώδικας χρησιμοποιεί το τυπικό πακέτο `java.util.concurrent`.
-- **Aspose.HTML for Java** βιβλιοθήκη (έκδοση 23.10 ή νεότερη). Προσθέστε το Maven artifact `com.aspose:aspose-html:23.10` στο project σας.
-- Μια μικρή συλλογή **HTML files** που θέλετε να μετατρέψετε. Για το demo θα υποθέσουμε τρία αρχεία στο `YOUR_DIRECTORY/`.
-- Μια μέτρια ποσότητα RAM (η μετατροπή είναι ελαφριά· το thread pool θα διαχειριστεί την παράλληλη χρήση CPU).
+## Τι είναι η μετατροπή html σε pdf java;
+`html to pdf java` είναι η διαδικασία λήψης ενός HTML εγγράφου και απόδοσής του ως αρχείο PDF χρησιμοποιώντας βιβλιοθήκες Java. Το Aspose.HTML εκτελεί την απόδοση στο server side, διατηρώντας CSS, εικόνες και διάταξη χωρίς την ανάγκη προγράμματος περιήγησης. Υποστηρίζει σύγχρονα χαρακτηριστικά HTML5, στυλ CSS3 και ενσωματωμένους πόρους, εξασφαλίζοντας ότι το παραγόμενο PDF φαίνεται ακριβώς όπως η αρχική ιστοσελίδα.
 
-> **Pro tip:** Αν χρησιμοποιείτε Maven, προσθέστε την εξάρτηση ως εξής:
-> ```xml
+## Γιατί να χρησιμοποιήσετε ένα σταθερό thread pool java;
+Ένα **fixed thread pool java** δημιουργεί έναν καθορισμένο αριθμό worker threads που επαναχρησιμοποιούνται για κάθε υποβληθείσα εργασία. Αυτό το μοντέλο εξαλείφει το κόστος δημιουργίας και καταστροφής νημάτων συνεχώς και αποτρέπει την «εκρήξη νήματος» που μπορεί να εξαντλήσει τους πόρους CPU και μνήμης. Στην πράξη, ένα σταθερό pool προσφέρει προβλέψιμη απόδοση: σε μηχάνημα με 4‑πυρήνες, ένα pool 4 νημάτων συνήθως δίνει τη βέλτιστη απόδοση για CPU‑βασισμένες μετατροπές.
+
+## Προαπαιτούμενα
+- **Java 17** (ή οποιοδήποτε πρόσφατο JDK).  
+- **Aspose.HTML for Java** 23.10+ (`com.aspose:aspose-html:23.10` Maven artifact).  
+- Ένας φάκελος που περιέχει τα HTML αρχεία που θέλετε να μετατρέψετε.  
+- Επαρκής RAM για τον αριθμό των ταυτόχρονων μετατροπών (η βιβλιοθήκη μεταφέρει δεδομένα σε ροές, έτσι η πίεση μνήμης παραμένει χαμηλή).
+
+> **Pro tip:** Αν χρησιμοποιείτε Maven, προσθέστε την εξάρτηση όπως φαίνεται παρακάτω.
+
+```xml
 > <dependency>
 >     <groupId>com.aspose</groupId>
 >     <artifactId>aspose-html</artifactId>
@@ -50,9 +89,11 @@ url: /el/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-paral
 > </dependency>
 > ```
 
-## Step 1 – List the HTML Files You Want to Convert
+## Πώς βελτιώνει ένα σταθερό thread pool την ταχύτητα μετατροπής;
+Ένα σταθερό thread pool περιορίζει τα ενεργά νήματα σε γνωστό αριθμό, επιτρέποντας στο OS να προγραμματίσει τον χρόνο CPU αποδοτικά. Κάθε νήμα επεξεργάζεται μία μετατροπή, έτσι πολλά αρχεία τρέχουν ταυτόχρονα χωρίς να υπερφορτώνουν το CPU. Σε διακομιστή με 8‑πυρήνες, ορίζοντας το μέγεθος του pool σε οκτώ μπορεί να μειώσει το συνολικό χρόνο επεξεργασίας έως και 80 % σε σχέση με έναν βρόχο μονό‑νήματος.
 
-Πρώτα απ’ όλα: χρειαζόμαστε μια συλλογή αρχείων πηγής. Η σκληρή κωδικοποίηση ενός πίνακα λειτουργεί για ένα γρήγορο demo, αλλά σε παραγωγή πιθανότατα θα σαρώσετε έναν φάκελο ή θα διαβάσετε από μια βάση δεδομένων.
+## Βήμα 1 – λίστα των html αρχείων που θέλετε να μετατρέψετε
+Πρώτα χρειαζόμαστε μια συλλογή πηγών αρχείων. Για μια γρήγορη επίδειξη θα χρησιμοποιήσουμε έναν απλό πίνακα, αλλά στην παραγωγή θα σκανάρετε έναν φάκελο ή θα κάνετε ερώτημα σε βάση δεδομένων.
 
 ```java
 // Step 1: Define the HTML files to be processed
@@ -63,22 +104,24 @@ String[] htmlFiles = {
 };
 ```
 
-*Why this matters:* Κρατώντας τη λίστα αρχείων σε έναν απλό πίνακα, μπορούμε εύκολα να την περάσουμε στο thread pool αργότερα, και ο κώδικας παραμένει ευανάγνωστος.
+*Γιατί είναι σημαντικό:* Η διατήρηση της λίστας αρχείων σε απλό πίνακα το κάνει εύκολο να παραδοθεί στον executor, και ο κώδικας παραμένει αναγνώσιμος.
 
-## Step 2 – Create a Fixed‑Size Thread Pool
+## Βήμα 2 – δημιουργία σταθερού μεγέθους thread pool
+Το **fixed thread pool java** δημιουργείται με `Executors.newFixedThreadPool`. Ορίζουμε το pool στο μέγεθος του αριθμού των αρχείων, ή στο αριθμό των διαθέσιμων επεξεργαστών αν ο αριθμός των αρχείων είναι πολύ μεγάλος.
 
-Ένα **fixed thread pool java** δημιουργεί ακριβώς όσους worker threads καθορίζετε και τους επαναχρησιμοποιεί για κάθε υποβληθείσα εργασία. Αυτό αποφεύγει το κόστος δημιουργίας νέων νημάτων συνεχώς και εμποδίζει την ανεπιθύμητη «εξέγερση νημάτων» όταν έχετε πολλά αρχεία.
+`Executors` είναι μια βοηθητική κλάση που παρέχει μεθόδους κατασκευής για διαφορετικούς τύπους υλοποιήσεων `ExecutorService`, όπως ένα fixed thread pool.
 
 ```java
 // Step 2: Build a fixed‑size executor (one thread per file)
 ExecutorService executor = Executors.newFixedThreadPool(htmlFiles.length);
 ```
 
-*Note:* Η χρήση του `htmlFiles.length` εξασφαλίζει αντιστοίχιση ένας‑προς‑έναν μεταξύ αρχείων και νημάτων, κάτι ιδανικό όταν κάθε μετατροπή είναι CPU‑bound αλλά όχι εξαιρετικά βαριά. Αν τρέχετε σε μηχάνημα με λιγότερους πυρήνες, μπορείτε να περιορίσετε το μέγεθος του pool στο `Runtime.getRuntime().availableProcessors()`.
+*Σημείωση:* Η χρήση του `htmlFiles.length` δίνει μια αντιστοίχηση ένας‑προς‑έναν μεταξύ αρχείων και νημάτων, που λειτουργεί καλά όταν κάθε μετατροπή είναι CPU‑βασισμένη αλλά όχι εξαιρετικά βαριά. Σε μηχανήματα με λιγότερους πυρήνες μπορεί να προτιμήσετε `Runtime.getRuntime().availableProcessors()`.
 
-## Step 3 – Submit a Conversion Task for Each HTML File
+## Βήμα 3 – υποβολή εργασίας μετατροπής για κάθε html αρχείο
+Κάθε αρχείο παραδίδεται στο pool μέσω `executor.submit`. Μέσα στη λάμβδα καλούμε το Aspose.HTML για να εκτελέσει τη λειτουργία **convert html to pdf**, δημιουργούμε τη διαδρομή εξόδου, και καταγράφουμε ένα σύντομο μήνυμα.
 
-Τώρα παραδίδουμε κάθε αρχείο στο pool. Μέσα στο lambda εκτελούμε την ενέργεια **convert html to pdf**, δημιουργούμε τη διαδρομή εξόδου και εκτυπώνουμε μια μικρή γραμμή καταγραφής.
+`executor.submit` προγραμματίζει μια εργασία `Callable` ή `Runnable` για εκτέλεση από το thread pool και επιστρέφει ένα `Future` που αντιπροσωπεύει το αποτέλεσμά της.
 
 ```java
 // Step 3: Dispatch a conversion job for every HTML source
@@ -97,13 +140,13 @@ for (String htmlPath : htmlFiles) {
 }
 ```
 
-### Why a Lambda?
+### Γιατί μια lambda;
+Η λάμβδα κρατά τον κώδικα σύντομο ενώ συλλαμβάνει το `htmlPath` από τον εξωτερικό βρόχο. Κάθε εργασία εκτελείται στο δικό της νήμα, έτσι οι μετατροπές συμβαίνουν πραγματικά **παράλληλα**. Μπορείτε να τυλίξετε το σώμα σε μπλοκ `try‑catch` αν χρειάζεστε προσαρμοσμένη διαχείριση σφαλμάτων.
 
-Το lambda κρατά τον κώδικα σύντομο ενώ εξακολουθεί να «πιάσει» το `htmlPath` από το εξωτερικό βρόχο. Κάθε εργασία τρέχει στο δικό της νήμα, έτσι οι μετατροπές συμβαίνουν πραγματικά **in parallel**. Αν προκύψει εξαίρεση, το thread pool θα την καταγράψει, αλλά μπορείτε επίσης να τυλίξετε το σώμα σε `try‑catch` για πιο λεπτομερή διαχείριση σφαλμάτων.
+## Βήμα 4 – τερματισμός του pool και αναμονή ολοκλήρωσης
+Αφού όλες οι εργασίες προγραμματιστούν, σταματάμε τον executor από το να δέχεται νέα έργα και περιμένουμε μέχρι να ολοκληρωθεί κάθε μετατροπή. Ένα χρονικό όριο ενός λεπτού είναι γενναιόδωρο για μερικά μικρά αρχεία· αυξήστε το για μεγαλύτερες παρτίδες.
 
-## Step 4 – Shut Down the Pool and Wait for Completion
-
-Μόλις υποβληθούν όλες οι εργασίες, λέμε στον executor να σταματήσει να δέχεται νέα έργα και περιμένουμε μέχρι να ολοκληρωθεί τα πάντα. Ένα timeout ενός λεπτού είναι γενναιόδωρο για λίγα μικρά αρχεία· προσαρμόστε το για μεγαλύτερα φορτία.
+`executor.shutdown` ξεκινά μια τακτοποιημένη διακοπή, αποτρέποντας νέες εργασίες ενώ επιτρέπει στις ήδη προγραμματισμένες να ολοκληρωθούν.
 
 ```java
 // Step 4: Gracefully shut down the executor
@@ -115,15 +158,13 @@ if (!finished) {
 }
 ```
 
-### Edge Cases & Variations
+### Περιπτώσεις άκρων & παραλλαγές
+- **Μεγάλες παρτίδες:** Για εκατοντάδες αρχεία, χρησιμοποιήστε μέγεθος pool `availableProcessors()` ώστε να μην υπερφορτώνετε το CPU.  
+- **Διαχείριση σφαλμάτων:** Τυλίξτε την κλήση μετατροπής σε `try { … } catch (Exception e) { … }` και καταγράψτε το προβληματικό αρχείο.  
+- **Δυναμική ανακάλυψη:** Αντικαταστήστε τον στατικό πίνακα με `Files.list(Paths.get("YOUR_DIRECTORY"))` και φιλτράρετε για `*.html`.
 
-- **Large batches:** Για εκατοντάδες αρχεία, ίσως προτιμήσετε μέγεθος pool το `availableProcessors()` αντί του `htmlFiles.length` ώστε να μην υπερφορτώνετε το CPU.
-- **Error handling:** Τυλίξτε την κλήση μετατροπής σε `try { … } catch (Exception e) { … }` και καταγράψτε το προβληματικό αρχείο.
-- **Dynamic file discovery:** Αντικαταστήστε τον στατικό πίνακα με `Files.list(Paths.get("YOUR_DIRECTORY"))` και φιλτράρετε τα `*.html`.
-
-## Full, Runnable Example
-
-Συνδυάζοντας όλα τα παραπάνω, εδώ είναι το πλήρες πρόγραμμα που μπορείτε να πετάξετε σε ένα IDE και να τρέξετε αμέσως:
+## Πλήρες, εκτελέσιμο παράδειγμα
+Παρακάτω είναι το πλήρες πρόγραμμα που μπορείτε να επικολλήσετε σε ένα IDE και να τρέξετε αμέσως. Όλα τα placeholders (`CODE_BLOCK_PLACEHOLDER_X_END`) αντιστοιχούν στα αποσπάσματα που εμφανίστηκαν στα προηγούμενα βήματα.
 
 ```java
 import com.aspose.html.*;
@@ -170,9 +211,8 @@ public class ParallelConversionTutorial {
 }
 ```
 
-### Expected Output
-
-Όταν τρέξετε το πρόγραμμα, η κονσόλα θα εμφανίσει γραμμές παρόμοιες με:
+### Αναμενόμενη έξοδος
+Όταν εκτελέσετε το πρόγραμμα, η κονσόλα εκτυπώνει γραμμές παρόμοιες με:
 
 ```
 YOUR_DIRECTORY/a.html → PDF created at YOUR_DIRECTORY/output/a.pdf
@@ -180,57 +220,64 @@ YOUR_DIRECTORY/b.html → PDF created at YOUR_DIRECTORY/output/b.pdf
 YOUR_DIRECTORY/c.html → PDF created at YOUR_DIRECTORY/output/c.pdf
 ```
 
-Κάθε PDF θα αναπαράγει τη διάταξη, το CSS και τις εικόνες του πηγαίου HTML, χάρη στη πιστή μηχανή απόδοσης του Aspose.HTML.
+Κάθε παραγόμενο PDF αντικατοπτρίζει τη διάταξη, το CSS και τις εικόνες της πηγαίας HTML, χάρη στη πιστή μηχανή απόδοσης του Aspose.HTML.
 
-## Step‑by‑Step Recap (with Keywords)
+## Συχνές ερωτήσεις & παγίδες
+- **Λειτουργεί αυτό σε Windows και Linux;**  
+  Ναι. Ο κώδικας βασίζεται μόνο σε τυπικά Java APIs και Aspose.HTML, τα οποία είναι ανεξάρτητα από την πλατφόρμα.  
+- **Τι γίνεται με εξωτερικούς πόρους (εικόνες, γραμματοσειρές) που αναφέρονται από το HTML;**  
+  Βεβαιωθείτε ότι αυτά τα στοιχεία είναι προσβάσιμα από το μηχάνημα που εκτελεί τη μετατροπή. Το Aspose.HTML επιλύει σχετικές URL βάσει του καταλόγου του αρχείου HTML.  
+- **Μπορώ να περιορίσω τη χρήση μνήμης;**  
+  Ναι. Χρησιμοποιήστε `PdfConvertOptions` όπως `setCompressImages(true)` για να κρατήσετε τα μεγέθη των εξόδων μικρά.  
+- **Είναι πάντα το σταθερό thread pool η καλύτερη επιλογή για εργασίες CPU‑έντονες;**  
+  Γενικά, ναι. Περιορίζει τη σύγκρουση σε γνωστό επίπεδο, ταιριάζοντας με τον αριθμό των πυρήνων που έχετε, μεγιστοποιώντας τη διαπερατότητα χωρίς υπερφόρτωση του CPU.
 
-| Step | What We Did | Why It Helps |
-|------|-------------|--------------|
-| **1** | **List HTML files** – the source set for conversion. | Provides a clear input list for the **process files in parallel** stage. |
-| **2** | **Create a fixed thread pool java** sized to the file count. | Guarantees a predictable number of threads, avoiding resource exhaustion. |
-| **3** | **Submit a conversion task** that **generate pdf from html** using Aspose. | Each task runs concurrently, achieving true **html to pdf java** parallelism. |
-| **4** | **Shutdown and await termination** to ensure all PDFs are written. | Clean shutdown prevents orphaned threads and resource leaks. |
+## Επόμενα βήματα & σχετικά θέματα
+Τώρα που μπορείτε να **convert html to pdf java** παράλληλα, μπορείτε να εξερευνήσετε:
 
-## Common Questions & Gotchas
-
-- **Does this work on Windows and Linux?**  
-  Ναι. Ο κώδικας χρησιμοποιεί μόνο τυπικά Java APIs και Aspose.HTML, και τα δύο είναι ανεξάρτητα από πλατφόρμα.
-
-- **What if my HTML references external resources (images, fonts)?**  
-  Βεβαιωθείτε ότι αυτά τα assets είναι προσβάσιμα από το μηχάνημα που εκτελεί τη μετατροπή. Το Aspose.HTML θα επιλύσει τις σχετικές URLs βάσει του καταλόγου του αρχείου.
-
-- **Can I limit memory usage?**  
-  Μπορείτε να ορίσετε ιδιότητες του `PdfConvertOptions` όπως `setCompressImages(true)` για να κρατήσετε το μέγεθος του εξόδου μικρό.
-
-- **Is a fixed thread pool the best choice for CPU‑intensive work?**  
-  Γενικά, ναι. Περιορίζει το επίπεδο ταυτόχρονης εκτέλεσης σε γνωστό αριθμό, ταιριάζοντας με τους πυρήνες που έχετε, μεγιστοποιώντας τη ροή εργασίας χωρίς να υπερφορτώνει το CPU.
-
-## Next Steps & Related Topics
-
-Τώρα που μπορείτε να **convert HTML to PDF** παράλληλα, εξετάστε τα εξής:
-
-- **Streaming conversion** για τεράστια αρχεία HTML (χρησιμοποιήστε `HtmlLoadOptions` με stream).  
-- **Dynamic thread pool sizing** βάσει μετρικών χρόνου εκτέλεσης (`Executors.newWorkStealingPool`).  
-- **Batch error reporting** – συλλέξτε τα ονόματα των αρχείων που απέτυχαν σε λίστα και γράψτε μια αναφορά σύνοψης.  
-- **Integrating with a message queue** (π.χ., RabbitMQ) για ασύγχρονη επεξεργασία μετατροπών σε αρχιτεκτονική μικροϋπηρεσιών.
+- **Streaming conversion** για πολύ μεγάλα HTML αρχεία (`HtmlLoadOptions` με ροή).  
+- **Dynamic pool sizing** χρησιμοποιώντας `Executors.newWorkStealingPool` για προσαρμοστικά φορτία εργασίας.  
+- **Batch error reporting** – συλλέξτε τα ονόματα των αρχείων που απέτυχαν σε λίστα και δημιουργήστε μια αναφορά σύνοψης.  
+- **Message‑queue integration** – στείλτε αιτήματα μετατροπής σε RabbitMQ ή Kafka και επεξεργαστείτε τα ασύγχρονα σε μικροϋπηρεσία.
 
 Κάθε μία από αυτές τις επεκτάσεις βασίζεται στις βασικές έννοιες που μόλις μάθατε: **fixed thread pool java**, **process files in parallel**, και **generate pdf from html**.
 
 ---
 
-![Diagram of a fixed thread pool handling multiple HTML-to-PDF tasks in parallel](image-placeholder.png "fixed thread pool java diagram")
+![Διάγραμμα ενός σταθερού thread pool που διαχειρίζεται πολλαπλές εργασίες HTML‑to‑PDF παράλληλα](image-placeholder.png "διάγραμμα σταθερού thread pool java")
 
-*Image alt text:* “fixed thread pool java diagram showing parallel convert html to pdf tasks”
+*Image alt text:* “διάγραμμα σταθερού thread pool java που δείχνει παράλληλες εργασίες convert html to pdf”
 
----
+## Συχνές ερωτήσεις
 
-### Wrap‑Up
+**Q: Μπορώ να τρέξω αυτόν τον κώδικα σε έναν headless Linux server;**  
+A: Ναι. Το Aspose.HTML δεν απαιτεί γραφικό περιβάλλον· λειτουργεί πλήρως headless.
 
-Τώρα έχετε ένα σταθερό, έτοιμο‑για‑παραγωγή πρότυπο για **convert html to pdf** χρησιμοποιώντας τις δυνατότητες σύγκλισης του Java. Το tutorial κάλυψε το *τι*, το *γιατί* και το *πώς* — από τη δημιουργία της λίστας αρχείων μέχρι το καλοπροαίρετο κλείσιμο του executor. Εκμεταλλευόμενοι ένα **fixed thread pool java**, μπορείτε να **process files in parallel**, μειώνοντας δραστικά το συνολικό χρόνο μετατροπής ενώ διατηρείτε την κατανάλωση πόρων προβλέψιμη.
+**Q: Πόσα αρχεία μπορώ να μετατρέψω ταυτόχρονα;**  
+A: Το πρακτικό όριο εξαρτάται από τους πυρήνες CPU και τη διαθέσιμη μνήμη· ένα μέγεθος pool ίσο με `availableProcessors()` είναι ασφαλές προεπιλογή για τους περισσότερους διακομιστές.
 
-Δοκιμάστε το, ρυθμίστε το μέγεθος του pool, και παρακολουθήστε την κλίμακα της γραμμής παραγωγής PDF σας. Έχετε ερωτήσεις ή θέλετε να μοιραστείτε τις δικές σας βελτιώσεις; Αφήστε ένα σχόλιο παρακάτω — καλή προγραμματιστική!
+**Q: Χρειάζεται να εγκαταστήσω κάποια native libraries;**  
+A: Όχι. Το Aspose.HTML είναι καθαρά βιβλιοθήκη Java και περιλαμβάνει όλα τα απαραίτητα binaries.
+
+**Q: Τι συμβαίνει αν αποτύχει μια μεμονωμένη μετατροπή;**  
+A: Η εξαίρεση πιάστηκε μέσα στην εργασία (αν προσθέσετε try‑catch) και καταγράφηκε· το pool συνεχίζει να επεξεργάζεται τα υπόλοιπα αρχεία.
+
+**Q: Υπάρχει τρόπος να παρακολουθώ την πρόοδο;**  
+A: Μπορείτε να αυξήσετε έναν `AtomicInteger` μέσα σε κάθε εργασία και να εκτυπώνετε την τιμή μετά από κάθε επιτυχημένη μετατροπή.
+
+**Τελευταία ενημέρωση:** 2026-10-25  
+**Δοκιμή με:** Aspose.HTML for Java 23.10  
+**Συγγραφέας:** Aspose
+
+## Σχετικά Μαθήματα
+
+- [Δημιουργία Fixed Thread Pool για Παράλληλη Μετατροπή Html σε Pdf](/html/java/conversion-html-to-other-formats/create-fixed-thread-pool-for-parallel-html-to-pdf-conversion/)
+- [Java Thread Pool Tutorial: Μετατροπή Πολλαπλών Html Αρχείων σε Pdf](/html/java/conversion-html-to-other-formats/java-thread-pool-tutorial-convert-multiple-html-files-to-pdf/)
+- [Aspose Html To Pdf σε Java: Γρήγορος Οδηγός Βήμα‑Βήμα](/html/java/conversion-html-to-other-formats/aspose-html-to-pdf-in-java-quick-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
