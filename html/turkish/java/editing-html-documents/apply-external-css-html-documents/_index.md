@@ -9,15 +9,10 @@ url: /tr/java/editing-html-documents/apply-external-css-html-documents/
 weight: 12
 ---
 
-.
 
-I'll translate paragraphs.
 
-Make sure to keep markdown formatting.
 
-Also code block placeholders remain as is.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

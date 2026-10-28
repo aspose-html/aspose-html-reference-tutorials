@@ -1,0 +1,7 @@
+Title: How to create PDF from HTML in Python with Aspose.HTML
+Slug: how-to-create-pdf-from-html-in-python-with-aspose-html
+Category: general
+ProcessedDate: 2026-09-29T18:54:13.813079
+SourceRepo: AI Search API
+Keywords: create pdf from html, html to pdf python, convert html to pdf, save html as pdf, aspose html to pdf
+PRNumber: 280
