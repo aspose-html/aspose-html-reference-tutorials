@@ -130,6 +130,9 @@ A: 沙盒會限制某些 API（例如 `window.open`），但一般的 DOM 操作
 ### [在 Aspose.HTML 沙盒中設定 DPI – 完整 Java 指南](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
 學習如何在 Aspose.HTML for Java 的沙盒環境中設定 DPI，以確保 PDF/PNG 輸出解析度符合需求。
 
+### [在 Java 中建立 HTML 渲染沙盒環境](./how-to-create-sandbox-environment-for-html-rendering-in-java/)
+學習如何在 Aspose.HTML for Java 中建立沙盒環境，以安全地渲染 HTML 並防止惡意腳本執行。
+
 ---
 
 **最後更新：** 2025-12-03  

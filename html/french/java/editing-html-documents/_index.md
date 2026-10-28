@@ -78,6 +78,9 @@ Apprenez à extraire du texte HTML et à mettre en évidence des mots dans vos d
 
 ### [Obtenir l'attribut d'élément Java – Guide complet de sélection SVG et XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
 Découvrez comment récupérer les attributs d'éléments SVG en Java en utilisant XPath, avec un guide complet étape par étape.
+### [Comment ouvrir des liens dans un nouvel onglet avec Java](./how-to-open-links-in-a-new-tab-with-java/)
+Apprenez à ouvrir des liens dans un nouvel onglet en utilisant Aspose.HTML pour Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

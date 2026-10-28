@@ -78,9 +78,10 @@ url: /el/java/editing-html-documents/
 Μάθετε πώς να απελευθερώνετε αυτόματα κλειδώματα σε Java για ασφαλή επεξεργασία HTML με νήματα, βήμα‑βήμα οδηγός.
 ### [Πώς να εξάγετε HTML σε Java – Εξαγωγή κειμένου & επισήμανση λέξεων](./how-to-extract-html-in-java-extract-text-highlight-words/)
 Μάθετε πώς να εξάγετε κείμενο από HTML σε Java και να επισημάνετε συγκεκριμένες λέξεις χρησιμοποιώντας το Aspose.HTML.
-
 ### [Απόκτηση Ιδιότητας Στοιχείου Java – Πλήρης Οδηγός για Επιλογή SVG και XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
 Μάθετε πώς να ανακτάτε ιδιότητες στοιχείων SVG χρησιμοποιώντας Java, XPath και το Aspose.HTML.
+### [Πώς να ανοίξετε συνδέσμους σε νέα καρτέλα με Java](./how-to-open-links-in-a-new-tab-with-java/)
+Μάθετε πώς να ανοίγετε συνδέσμους σε νέα καρτέλα χρησιμοποιώντας Aspose.HTML για Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -276,7 +276,7 @@ Aspose.HTML を使用して、Java で複数の HTML ファイルを一括で PD
 Aspose.HTML for Java で PDF のページサイズをカスタマイズする手順をステップバイステップで解説します。
 ### [JavaでAspose HTMLを使用してPDFに変換 – ページ余白とPDF/A‑2bの追加](./aspose-html-to-pdf-in-java-add-page-margins-pdf-a-2b/)
 ページ余白とPDF/A‑2b準拠を設定しながら、JavaでHTMLをPDFに変換する手順を解説します。
-### [JavaでHTMLをPDFに変換する方法 – 完全ガイド](./how-to-convert-html-to-pdf-in-java-full-guide/)
+### [JavaでHTMLをPDFに変換 – 完全ガイド](./how-to-convert-html-to-pdf-in-java-full-guide/)
 Aspose.HTML を使用して、Java で HTML を PDF に変換する手順を詳細に解説します。設定やベストプラクティスも網羅。
 ### [JavaでHTMLからPDFを作成 – バッチ変換完全ガイド](./create-pdf-from-html-in-java-full-batch-conversion-guide/)
 Aspose.HTML を使用して、Java で大量の HTML を一括で PDF に変換する手順を詳しく解説します。
@@ -303,7 +303,7 @@ Java と Aspose.HTML を使用して、A4 サイズの PDF を作成する手順
 ### [HTML to PDF Java: ワンラインでウェブページを PDF に変換する完全ガイド](./html-to-pdf-java-complete-guide-to-convert-webpage-to-pdf-in/)
 1 行のコードでウェブページ全体を PDF に変換する手順を詳しく解説します。
 ### [Java で Aspose を使用した並列 HTML から PDF への変換方法](./how-to-use-aspose-for-parallel-html-to-pdf-conversion-in-jav/)
-Aspose.HTML を使用して Java で複数の HTML を同時に PDF に変換する手順を解説します。
+Aspose.HTML を使用して Java で�数の HTML を同時に PDF に変換する手順を解説します。
 ### [PDF にフォントを埋め込む – Aspose HTML を使用した完全な Java ガイド](./embed-fonts-in-pdf-complete-java-guide-using-aspose-html/)
 
 ### [HTML to PDF チュートリアル – Aspose を使用した Java での HTML から PDF への変換](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-in-java/)
@@ -318,6 +318,9 @@ Aspose.HTML の HtmlDocument を使用して Java で PDF に保存する手順�
 Aspose.HTML を使用して、Java で複数の HTML を同時に PDF に変換するバッチ処理方法を解説します。
 ### [JavaでHTMLをPDFに変換 – 完全ステップバイステップガイド](./convert-html-to-pdf-in-java-full-step-by-step-guide/)
 Aspose.HTML を使用して、Java で HTML を PDF に変換する手順を詳細に解説します。完全なステップバイステップガイドです。
+
+### [JavaでHTMLを読み取りテキストを抽出する方法 – ステップバイステップガイド](./how-to-read-html-and-extract-text-in-java-a-step-by-step-gui/)
+JavaでHTMLからテキストを抽出する手順を詳しく解説します。簡単なコード例で実装方法を学べます。
 
 ## よくある質問
 

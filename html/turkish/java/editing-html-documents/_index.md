@@ -80,6 +80,7 @@ Java için Aspose.HTML kullanarak HTML'den metin çıkarın ve belirli kelimeler
 Java’da öğe özniteliklerini almayı, SVG seçimini ve XPath kullanımını öğrenin.
 ### [Java için Aspose.HTML ile HTML'de JavaScript Çalıştırma – Tam Kılavuz](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
 Java için Aspose.HTML ile HTML belgelerinde JavaScript çalıştırmayı adım adım öğrenin. Tam rehber.
+### [Java ile yeni sekmede bağlantı açma](./how-to-open-links-in-a-new-tab-with-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

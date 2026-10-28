@@ -66,49 +66,9 @@ When processing HTML from untrusted sources, sandboxing isolates script executio
 
 [Learn how to implement sandboxing in Aspose.HTML for Java.](./implement-sandboxing/)
 
-## 일반적인 함정 및 팁
+### [Java에서 HTML 렌더링을 위한 샌드박스 환경 만들기](./how-to-create-sandbox-environment-for-html-rendering-in-java/)
+Aspose.HTML for Java에서 HTML 렌더링을 안전하게 수행하기 위해 샌드박스 환경을 설정하는 방법을 단계별로 안내합니다.
 
-- **문자 집합 설정을 잊었나요?** 출력 PDF에 � 기호가 표시됩니다. 특별한 필요가 없는 한 항상 UTF‑8을 지정하세요.  
-- **맞춤 폰트가 누락되었나요?** 폰트 경로를 확인하고 Java 프로세스가 폰트 파일에 접근할 수 있는지 확인하세요.  
-- **네트워크 타임아웃이 발생했나요?** `NetworkService`의 타임아웃 설정을 조정하여 불완전한 렌더링을 방지하세요.  
-- **스크립트가 많은 페이지인가요?** `RuntimeService`를 사용해 실행 시간을 제한하고 정지를 방지하세요.
-
-## 자주 묻는 질문
-
-**Q: 라이선스 없이 HTML을 PDF(Java)로 변환할 수 있나요?**  
-A: 무료 체험판으로 평가할 수 있지만, 프로덕션 사용을 위해서는 유효한 Aspose.HTML 라이선스가 필요합니다.
-
-**Q: HTTPS에 호스팅된 이미지를 로드하려면 어떻게 해야 하나요?**  
-A: 원격 서버의 인증서를 수락하도록 적절한 SSL 인증서 또는 트러스트 매니저와 함께 `NetworkService`를 구성하세요.
-
-**Q: 맞춤 폰트를 PDF에 임베드할 수 있나요?**  
-A: 네—`FontSettings` API를 사용해 폰트를 임베드하면 PDF가 모든 디바이스에서 올바르게 렌더링됩니다.
-
-**Q: 지원되는 Java 버전은 무엇인가요?**  
-A: Aspose.HTML for Java는 Java 8 및 그 이후 런타임을 지원합니다.
-
-**Q: 샌드박싱이 스크립트 출력에 영향을 미치나요?**  
-A: 샌드박싱은 특정 API(e.g., `window.open`)를 제한하지만 일반적인 DOM 조작 및 CSS 렌더링은 정상적으로 동작합니다.
-
-## 결론
-
-Configuring your environment is the foundation for successful **convert HTML to PDF Java** projects. By setting the character set, configuring fonts, handling messages, and fine‑tuning network, runtime, and sandbox settings, you create a robust pipeline that produces accurate, high‑quality PDFs (and PNGs) every time. Ready to put it all together? Dive into the linked tutorials for step‑by‑step code samples and start converting your HTML content today!
-
-[Explore more tutorials on Aspose.HTML for Java.](https://reference.aspose.com/words/net/)
-
-## Aspose.HTML for Java 환경 구성 튜토리얼
-### [Set Character Set in Aspose.HTML for Java](./set-character-set/)
-Aspose.HTML for Java에서 문자 집합을 설정하고 HTML을 PDF로 변환하는 방법을 단계별로 배웁니다. 올바른 텍스트 인코딩 및 렌더링을 보장합니다.
-### [Configure Fonts in Aspose.HTML for Java](./configure-fonts/)
-Aspose.HTML for Java에서 폰트를 구성하는 방법을 자세하고 단계별로 배웁니다. 맞춤 폰트와 스타일을 활용해 HTML을 PDF로 변환하는 품질을 향상시키세요.
-### [Use Message Handlers in Aspose.HTML for Java](./use-message-handlers/)
-Aspose.HTML for Java에서 메시지 핸들러를 사용해 누락된 이미지 및 기타 네트워크 작업을 효과적으로 처리하는 방법을 배웁니다.
-### [Set Up Network Service in Aspose.HTML for Java](./setup-network-service/)
-Aspose.HTML for Java에서 네트워크 서비스를 설정하고, 네트워크 리소스를 관리하며, 맞춤 오류 처리를 통해 HTML을 PNG로 변환하는 방법을 배웁니다.
-### [Configure Runtime Service in Aspose.HTML for Java](./configure-runtime-service/)
-Aspose.HTML for Java에서 런타임 서비스를 구성해 스크립트 실행을 최적화하고, 무한 루프를 방지하며, 애플리케이션 성능을 향상시키는 방법을 배웁니다.
-### [Implement Sandboxing in Aspose.HTML for Java](./implement-sandboxing/)
-Aspose.HTML for Java에서 샌드박스를 구현해 HTML 문서의 스크립트 실행을 안전하게 제어하고 PDF로 변환하는 방법을 배웁니다.
 ### [Java에서 샌드박스 만들기 – 전체 가이드](./how-to-create-sandbox-in-java-full-guide/)
 Aspose.HTML for Java에서 샌드박스를 구현하는 전체 단계와 모범 사례를 자세히 안내합니다.
 ### [Set User Style Sheet in Aspose.HTML for Java](./set-user-style-sheet/)

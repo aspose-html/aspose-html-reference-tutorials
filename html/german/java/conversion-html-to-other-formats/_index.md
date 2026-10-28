@@ -181,7 +181,7 @@ Erfahren Sie, wie Sie HTML in Java zu PDF konvertieren, mit einer klaren Schritt
 Erfahren Sie, wie Sie Seitenränder festlegen und PDF/A‑2b‑konforme PDFs mit Aspose.HTML in Java erzeugen.
 
 ### [PDF aus HTML in Java erstellen – Vollständiger Batch‑Konvertierungsleitfaden](./create-pdf-from-html-in-java-full-batch-conversion-guide/)
-Erfahren Sie, wie Sie mehrere HTML-Dateien in Java stapelweise zu PDFs konvertieren.
+Erfahren Sie, wie Sie mehrere HTML‑Dateien in Java stapelweise zu PDFs konvertieren.
 
 ### [HTML zu PDF in Java – Schritt‑für‑Schritt‑Anleitung](./convert-html-to-pdf-in-java-step-by-step-guide/)
 Erfahren Sie, wie Sie HTML in Java zu PDF konvertieren, Schritt für Schritt.
@@ -194,13 +194,16 @@ Erfahren Sie, wie Sie die Seitengröße und Ränder beim Konvertieren von HTML z
 ### [HTML zu PDF in Java – Aspose Parallel‑Beispiel](./convert-html-to-pdf-in-java-aspose-parallel-example/)
 Erfahren Sie, wie Sie mit Aspose.HTML mehrere HTML‑Zu‑PDF‑Konvertierungen parallel in Java ausführen.
 
-### [HTML zu PDF Java: Komplettanleitung zum Konvertieren einer Webseite in PDF in einer Zeile](./html-to-pdf-java-complete-guide-to-convert-webpage-to-pdf-in/)
-Erfahren Sie, wie Sie mit einer einzigen Zeile Code eine komplette Webseite in ein PDF-Dokument konvertieren.
+### [HTML‑zu‑PDF‑Tutorial: HTML in Java zu PDF konvertieren](./html-to-pdf-tutorial-convert-html-to-pdf-in-java/)
+Lernen Sie, wie Sie HTML mit Aspose.HTML in Java schnell und einfach in PDF umwandeln.
 
-### [HTML zu PDF mit Java – Parallel‑Batch‑Leitfaden](./convert-html-to-pdf-with-java-parallel-batch-guide/)
-Erfahren Sie, wie Sie mehrere HTML‑Dateien parallel in PDF konvertieren, um die Verarbeitungsgeschwindigkeit in Java zu maximieren.
+### [HTML‑zu‑PDF‑Tutorial: Webseiten mit Java in PDF konvertieren](./html-to-pdf-tutorial-convert-web-pages-to-pdf-with-java/)
+Lernen Sie, wie Sie mit Aspose.HTML für Java Webseiten in hochwertige PDF‑Dateien umwandeln – Schritt für Schritt Anleitung.
 
-### [HTML zu PDF in Java – Vollständige Schritt‑für‑Schritt‑Anleitung](./convert-html-to-pdf-in-java-full-step-by-step-guide/)
+### [HTML‑zu‑PDF‑Tutorial: HTML in Java zu PDF konvertieren (mit Seitengrößeneinstellungen)](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
+Erfahren Sie, wie Sie HTML in Java zu PDF konvertieren und dabei die Seitengröße präzise festlegen.
+
+### [HTML‑zu‑PDF‑Tutorial: HTML in Java zu PDF konvertieren – Vollständige Anleitung](./convert-html-to-pdf-in-java-full-step-by-step-guide/)
 Erfahren Sie, wie Sie HTML in Java mit Aspose.HTML vollständig und Schritt für Schritt in PDF konvertieren.
 
 ### [Konvertierung von HTML zu MHTML](./convert-html-to-mhtml/)
@@ -396,12 +399,15 @@ Erfahren Sie, wie Sie alle CPU‑Kerne nutzen, um HTML‑zu‑PDF‑Batches para
 Erfahren Sie, wie Sie mit einem einzigen Aufruf HTML in PDF konvertieren.
 
 ### [HTML zu PDF in Java – Parallel‑Batch‑Konvertierungs‑Leitfaden](./convert-html-to-pdf-in-java-parallel-batch-conversion-guide/)
-Erfahren Sie, wie Sie mehrere HTML‑Dateien parallel in Java zu PDF konvertieren und dabei die Leistung optimieren.
+Erfahren Sie, wie Sie mehrere HTML‑Dateien parallel in Java zu PDFs konvertieren und dabei die Leistung optimieren.
+
+### [Wie man HTML liest und Text in Java extrahiert – eine Schritt‑für‑Schritt‑Anleitung](./how-to-read-html-and-extract-text-in-java-a-step-by-step-gui/)
+Erfahren Sie, wie Sie HTML‑Inhalte in Java einlesen und den Text extrahieren – eine detaillierte Schritt‑für‑Schritt‑Anleitung.
 
 ## Häufig gestellte Fragen
 
 **Q: Kann ich Aspose.HTML für Java in einer kommerziellen Anwendung verwenden?**  
-A: Ja. Eine gültige kommerzielle Lizenz ist für den Produktionseinsatz erforderlich; ein kostenloser Testzeitraum steht für Evaluierungen zur Verfügung.
+A: Ja. Eine gültige kommerzielle Lizenz ist für den Einsatz außerhalb der Evaluation erforderlich; ein kostenloser Testzeitraum steht für Evaluierungen zur Verfügung.
 
 **Q: Welche Java‑Versionen werden unterstützt?**  
 A: Aspose.HTML für Java unterstützt Java 8, 11 und spätere Versionen.

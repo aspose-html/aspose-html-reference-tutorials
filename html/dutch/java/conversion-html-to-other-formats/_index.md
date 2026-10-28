@@ -308,6 +308,8 @@ Leer hoe u meerdere HTML‑bestanden tegelijk naar PDF kunt converteren met Aspo
 Leer hoe u HTML naar PDF kunt omzetten in Java met een stapsgewijze tutorial en Aspose.HTML.
 ### [HTML naar PDF converteren in Java – Volledige stapsgewijze gids](./convert-html-to-pdf-in-java-full-step-by-step-guide/)
 
+### [Hoe HTML te lezen en tekst te extraheren in Java – een stapsgewijze gids](./how-to-read-html-and-extract-text-in-java-a-step-by-step-gui/)
+
 ## Veelgestelde Vragen
 
 **V: Kan ik Aspose.HTML for Java gebruiken in een commerciële applicatie?**  

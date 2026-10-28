@@ -103,7 +103,7 @@ Aspose.HTML를 사용하여 Java에서 HTML을 PDF로 변환하는 전체 단계
 ### [Aspose 사용 방법 – Java에서 HTML을 배치 변환하여 PDF로 만들기](./how-to-use-aspose-batch-convert-html-to-pdf-in-java/)
 Aspose.HTML를 활용해 Java에서 여러 HTML 파일을 한 번에 PDF로 변환하는 배치 처리 방법을 안내합니다.
 ### [Java에서 HTML을 PDF로 변환 – 빠른 Aspose.HTML 가이드](./convert-html-to-pdf-in-java-quick-aspose-html-guide/)
-Aspose.HTML를 사용하여 Java에서 HTML을 PDF로 빠르게 변환하는 간단 가이드입니다.
+Aspose.HTML를 사용하여 Java에서 HTML을 PDF를 빠르게 변환하는 간단 가이드입니다.
 ### [Java에서 HTML을 PDF로 변환 – 페이지 크기 및 DPI 전체 가이드](./convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/)
 Aspose.HTML를 사용하여 Java에서 페이지 크기와 DPI를 지정해 HTML을 PDF로 변환하는 전체 가이드를 제공합니다.
 ### [PDF에 폰트 포함 – Aspose HTML to PDF 완전 가이드 (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
@@ -128,7 +128,7 @@ Aspose.HTML를 활용해 Java에서 HTML을 PDF로 변환하는 단계별 과정
 Aspose.HTML를 활용해 Java 환경에서 전체 샌드박스 예제로 HTML을 PDF로 변환하는 방법을 단계별로 안내합니다.
 ### [Java에서 HTML을 PDF로 변환 – PDF, PNG, DOCX 및 Markdown 전체 가이드](./convert-html-to-pdf-with-java-full-guide-to-pdf-png-docx-mar/)
 Aspose.HTML를 사용하여 Java에서 HTML을 PDF, PNG, DOCX 및 Markdown으로 변환하는 전체 가이드를 확인하세요.
-### [Java에서 HTML‑to‑PDF 변환을 위한 샌드박스 사용 방법](./how-to-use-sandbox-for-html-to-pdf-conversion-in-java/)
+### [Java‑HTML‑to‑PDF 변환을 위한 샌드박스 사용 방법](./how-to-use-sandbox-for-html-to-pdf-conversion-in-java/)
 Aspose.HTML와 샌드박스를 이용해 Java에서 안전하게 HTML을 PDF로 변환하는 방법을 단계별로 안내합니다.
 ### [HTML을 PDF로 변환 – Java에서 사용자 정의 페이지 크기 및 여백](./convert-html-to-pdf-custom-page-size-margins-in-java/)
 Aspose.HTML를 사용하여 Java에서 페이지 크기와 여백을 맞춤 설정하여 HTML을 PDF로 변환하는 방법을 단계별로 안내합니다.
@@ -232,7 +232,7 @@ Aspose.HTML를 사용하여 Java에서 HTML을 PDF로 변환하는 전체 가이
 Aspose.HTML를 사용하여 Java에서 여러 HTML 파일을 동시에 PDF로 변환하는 병렬 배치 처리 방법을 단계별로 안내합니다.
 ### [Java에서 HTML을 Markdown으로 만들기 – 단계별 변환 가이드](./create-markdown-from-html-in-java-step-by-step-conversion-gu/)
 Aspose.HTML를 사용하여 Java에서 HTML을 Markdown으로 변환하는 단계별 가이드를 제공합니다.
-### [HTML을 PDF로 변환 튜토리얼 – Java Fixed Thread Pool으로 HTML을 PDF 변환](./html-to-pdf-tutorial-convert-html-to-pdf-with-java-fixed-thr/)
+### [HTML을 PDF 튜토리얼 – Java Fixed Thread Pool으로 HTML을 PDF 변환](./html-to-pdf-tutorial-convert-html-to-pdf-with-java-fixed-thr/)
 Java Fixed Thread Pool을 사용해 다중 스레드 환경에서 HTML을 PDF로 효율적으로 변환하는 방법을 단계별로 안내합니다.
 ### [MHTML을 PDF로 변환할 때 이미지를 삽입하는 방법 – Aspose 가이드](./how-to-embed-images-when-converting-mhtml-to-pdf-aspose-guid/)
 Aspose.HTML를 사용하여 MHTML을 PDF로 변환하면서 이미지가 올바르게 포함되도록 설정하는 방법을 단계별로 안내합니다.
@@ -259,11 +259,11 @@ Aspose.HTML를 사용하여 Java에서 A4 페이지 크기의 PDF를 생성하�
 ### [Java에서 병렬 HTML을 PDF로 변환하기 위한 Aspose 사용 방법](./how-to-use-aspose-for-parallel-html-to-pdf-conversion-in-jav/)
 Aspose.HTML를 활용해 Java에서 여러 HTML 파일을 동시에 PDF로 변환하는 방법을 단계별로 안내합니다.
 ### [PDF에 폰트 임베드 – Aspose HTML을 사용한 완전 Java 가이드](./embed-fonts-in-pdf-complete-java-guide-using-aspose-html/)
-
+Aspose.HTML를 사용하여 Java에서 PDF에 폰트를 포함하는 전체 과정을 단계별로 안내합니다.
 ### [Aspose HTML을 사용하여 PDF 페이지 크기 설정 – 전체 Java 가이드](./set-pdf-page-size-with-aspose-html-full-java-guide/)
 Aspose.HTML를 사용하여 Java에서 PDF 페이지 크기를 설정하는 전체 단계별 가이드를 제공합니다.
 ### [고정 스레드 풀을 사용한 HTML을 PDF로 변환 Java – 단계별 가이드](./convert-html-to-pdf-with-fixed-thread-pool-java-step-by-step/)
-고정 스레드 풀을 활용해 다중 HTML 파일을 효율적으로 PDF로 변환하는 방법을 단계별로 안내합니다.
+고정 스레드 풀 활용해 다중 HTML 파일을 효율적으로 PDF로 변환하는 방법을 단계별로 안내합니다.
 ### [Java에서 HTML을 PDF로 변환 – PDF 페이지 크기 및 해상도 설정, HTML을 PDF로 저장](./convert-html-to-pdf-in-java-set-pdf-page-size-resolution-and/)
 Java에서 HTML을 PDF로 변환하면서 페이지 크기와 해상도를 지정하고, HTML 파일을 직접 PDF로 저장하는 방법을 안내합니다.
 ### [Java에서 HTML을 Markdown으로 변환할 때 오프셋 설정 방법](./how-to-set-offset-when-converting-html-to-markdown-in-java/)
@@ -277,7 +277,6 @@ Aspose.HTML를 사용하여 Java에서 스레드 풀과 템플릿을 활용해 H
 Aspose.HTML를 사용하여 Java에서 PDF 페이지 크기를 지정하고 HTML을 PDF로 변환하는 전체 가이드를 제공합니다.
 ### [HTML을 PDF 튜토리얼: Java로 웹 페이지를 PDF로 변환](./html-to-pdf-tutorial-convert-web-pages-to-pdf-with-java/)
 Aspose.HTML를 사용하여 Java에서 웹 페이지를 PDF 파일로 변환하는 방법을 단계별로 안내합니다.
-
 ### [Java에서 HTML을 PDF로 만들기 – 완전 단계별 가이드](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
 Aspose.HTML를 사용하여 Java에서 HTML을 PDF로 변환하는 전체 단계별 가이드를 제공합니다.
 ### [HTML을 Markdown으로 변환 – 완전한 C# 가이드](./convert-html-to-markdown-complete-c-guide/)
@@ -309,6 +308,8 @@ Aspose.HTML를 사용하여 Java에서 모든 CPU 코어를 활용해 HTML을 PD
 ### [Aspose HTML for Java를 사용한 HTML → PDF 변환 전체 가이드](./convert-html-to-pdf-with-aspose-html-for-java-full-guide/)
 ### [HTML을 PDF로 변환 튜토리얼: Java에서 HTML을 PDF로 변환](./html-to-pdf-tutorial-convert-html-to-pdf-in-java/)
 Aspose.HTML를 사용하여 Java에서 HTML을 PDF로 변환하는 전체 튜토리얼을 확인하세요. 단계별 예제로 쉽게 따라 할 수 있습니다.
+### [Java에서 HTML을 읽고 텍스트를 추출하는 방법 – 단계별 가이드](./how-to-read-html-and-extract-text-in-java-a-step-by-step-gui/)
+Aspose.HTML를 사용하여 Java에서 HTML 파일을 읽고 텍스트를 추출하는 과정을 단계별로 안내합니다.
 
 ## 자주 묻는 질문
 

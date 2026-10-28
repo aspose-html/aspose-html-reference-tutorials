@@ -92,8 +92,12 @@ Ismerd meg, hogyan állítható be egy egyedi felhasználói stíluslap az Aspos
 Ismerd meg, hogyan hozhatsz létre biztonságos sandboxot az Aspose.HTML for Java-ban, részletes lépésekkel és példakóddal.
 ### [How to Create Sandbox in Java – Full Guide](./how-to-create-sandbox-in-java-full-guide/)
 
-**Hogyan hozhatsz létre sandbox környezetet Java-ban – Teljes útmutató**  
-Ismerd meg, hogyan hozhatsz létre sandbox környezetet Java-ban a biztonságos HTML konverziókhoz.
+**Hogyan hozhatsz létre sandbox környezetet Java-ban a biztonságos HTML konverziókhoz.**
+
+### [How to create sandbox environment for HTML rendering in Java](./how-to-create-sandbox-environment-for-html-rendering-in-java/)
+
+**Hogyan hozhatsz létre sandbox környezetet HTML rendereléshez Java-ban.**
+
 ### [Set User Agent for Headless HTML Rendering – Complete Guide](./set-user-agent-for-headless-html-rendering-complete-guide/)
 
 **Felhasználói ügynök beállítása fej nélküli HTML rendereléshez – Teljes útmutató**  

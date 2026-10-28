@@ -80,6 +80,9 @@ CSS ภายนอกคือจุดที่พลังที่แท้�
 
 ### [รับแอตทริบิวต์ขององค์ประกอบใน Java – คู่มือครบถ้วนสำหรับการเลือก SVG และ XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
 
+### [วิธีเปิดลิงก์ในแท็บใหม่ด้วย Java](./how-to-open-links-in-a-new-tab-with-java/)
+เรียนรู้วิธีเปิดลิงก์ในแท็บใหม่ด้วย Java
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

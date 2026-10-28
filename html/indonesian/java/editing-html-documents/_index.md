@@ -78,6 +78,9 @@ Pelajari cara menambahkan elemen child ke DOM Java menggunakan Aspose.HTML denga
 Pelajari cara mengambil atribut elemen dalam dokumen SVG menggunakan Java, termasuk teknik seleksi dengan XPath secara lengkap.
 ### [Jalankan JavaScript dalam HTML dengan Aspose.HTML untuk Java – Panduan Lengkap](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
 
+### [Cara Membuka Tautan di Tab Baru dengan Java](./how-to-open-links-in-a-new-tab-with-java/)
+Pelajari cara membuka tautan di tab baru menggunakan Aspose.HTML untuk Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

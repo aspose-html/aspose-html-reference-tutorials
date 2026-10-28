@@ -52,8 +52,8 @@ url: /ru/java/editing-html-documents/
 Узнайте, как применять внешний CSS к HTML-документам с помощью Aspose.HTML для Java! Следуйте этому пошаговому руководству для полного руководства.
 ### [Расширенное внешнее редактирование CSS с помощью Aspose.HTML для Java](./advanced-external-css-editing/)
 Освойте искусство редактирования внешнего CSS с помощью Aspose.HTML для Java. Это подробное пошаговое руководство проведет вас через создание динамических стилизованных HTML-документов.
-### [Добавьте встроенный CSS в HTML-документы в Aspose.HTML для Java](./add-inline-css-html-documents/)
-Узнайте, как добавлять встроенный CSS в HTML-документы с помощью Aspose.HTML для Java. Это пошаговое руководство поможет вам стилизовать HTML и с легкостью преобразовать его в PDF.
+### [Добавьте встроенный CSS в HTML документы в Aspose.HTML для Java](./add-inline-css-html-documents/)
+Узнайте, как добавлять встроенный CSS в HTML документы с помощью Aspose.HTML для Java. Это пошаговое руководство поможет вам стилизовать HTML и с легкостью преобразовать его в PDF.
 ### [Добавление дочернего элемента в body в Java – Полное руководство Aspose.HTML](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 Узнайте, как добавить элемент в тело HTML‑документа с помощью Aspose.HTML для Java в полном пошаговом руководстве.
 ### [Управление внутренними и внешними свойствами HTML в Aspose.HTML для Java](./manage-inner-outer-html-properties/)
@@ -75,11 +75,12 @@ url: /ru/java/editing-html-documents/
 Узнайте, как автоматически освобождать блокировки при потокобезопасном редактировании HTML в Java с помощью Aspose.HTML.
 ### [Как извлечь HTML в Java – извлечение текста и подсветка слов](./how-to-extract-html-in-java-extract-text-highlight-words/)
 Узнайте, как извлекать HTML в Java, получать текст из документа и подсвечивать выбранные слова с помощью Aspose.HTML.
-
 ### [Получение атрибута элемента в Java – Полное руководство по выбору SVG и XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
 Узнайте, как получать атрибуты элементов SVG с помощью XPath в Aspose.HTML для Java.
 ### [Запуск JavaScript в HTML с Aspose.HTML для Java – Полное руководство](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
-Узнайте, как выполнять JavaScript в HTML-документах с помощью Aspose.HTML для Java. Пошаговое полное руководство.
+Узнайте, как выполнять JavaScript в HTML‑документах с помощью Aspose.HTML для Java. Пошаговое полное руководство.
+### [Как открыть ссылки в новой вкладке с помощью Java](./how-to-open-links-in-a-new-tab-with-java/)
+Узнайте, как открывать ссылки в новой вкладке в Java с помощью Aspose.HTML. Пошаговое руководство.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

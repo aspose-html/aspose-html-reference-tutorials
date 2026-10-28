@@ -133,6 +133,9 @@ Aprende a configurar la resolución DPI en el sandbox de Aspose.HTML usando Java
 ### [Cómo usar Sandbox – Establecer agente de usuario y obtener tamaño del viewport](./how-to-use-sandbox-set-user-agent-get-viewport-size/)
 Aprende cómo usar Sandbox para establecer el agente de usuario y obtener el tamaño del viewport en Aspose.HTML para Java.
 
+### [Cómo crear un entorno sandbox para renderizado HTML en Java](./how-to-create-sandbox-environment-for-html-rendering-in-java/)
+Aprende cómo crear un entorno sandbox para renderizar HTML en Java de forma segura y eficiente.
+
 ---
 
 **Last Updated:** 2025-12-03  
