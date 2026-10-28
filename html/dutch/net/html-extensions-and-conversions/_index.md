@@ -222,6 +222,8 @@ Volledige stap‑voor‑stap gids om HTML naar een ZIP‑bestand te bewaren met 
 Leer hoe u met ZipHandler een webpagina comprimeert en opslaat als ZIP‑bestand in C# met Aspose.HTML voor .NET.
 ### [HTML opslaan naar ZIP – Complete Aspose.HTML-gids](./save-html-to-zip-complete-aspose-html-guide/)
 Leer hoe u HTML-bestanden opslaat in een ZIP‑archief met Aspose.HTML voor .NET – een volledige stap‑voor‑stap gids.
+### [HTML naar PDF converteren in C# – Complete gids met tips voor tekstduidelijkheid](./convert-html-to-pdf-in-c-complete-guide-with-text-clarity-ti/)
+Leer hoe u HTML naar PDF converteert in C# met volledige gids en tips voor duidelijke tekstweergave.
 
 ## Conclusie
 

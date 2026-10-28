@@ -104,6 +104,8 @@ Kompletní návod, jak vytvořit HTML dokument s Aspose.HTML v .NET, včetně uk
 Naučte se, jak pomocí Aspose.HTML v C# nastavit innerHTML pro element span a dynamicky upravovat obsah HTML.
 ### [Změna stylu odstavce v C# – Kompletní průvodce Aspose.HTML](./change-paragraph-style-in-c-complete-aspose-html-guide/)
 Naučte se měnit styl odstavců v C# pomocí Aspose.HTML. Kompletní průvodce s příklady a tipy.
+### [Vytvoření tučného a kurzívního písma v C# – Kompletní průvodce](./create-font-bold-italic-in-c-complete-guide/)
+Naučte se, jak v C# pomocí Aspose.HTML vytvořit písmo s tučným a kurzívním stylem a aplikovat jej na HTML dokumenty.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

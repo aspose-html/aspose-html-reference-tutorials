@@ -178,6 +178,9 @@ Apprenez à activer l'anticrénelage pour améliorer la qualité des rendus PNG 
 ### [Comment zipper du HTML et le rendre au format PNG – Guide complet C#](./how-to-zip-html-and-render-it-as-png-complete-c-guide/)
 Apprenez à compresser du HTML dans une archive ZIP puis à le rendre en image PNG avec Aspose.HTML pour .NET en C#.
 
+### [Rendre le HTML en image avec Aspose.HTML – Guide complet C#](./render-html-to-image-with-aspose-html-complete-c-guide/)
+Apprenez à convertir du HTML en images avec Aspose.HTML en C# grâce à ce guide complet.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

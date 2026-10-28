@@ -104,6 +104,8 @@ Hướng dẫn chi tiết cách tạo tài liệu HTML với văn bản có đ�
 Tìm hiểu cách thiết lập thuộc tính innerHTML cho thẻ span trong C# bằng Aspose.HTML. Hướng dẫn chi tiết từng bước.
 ### [Thay đổi kiểu đoạn văn trong C# – Hướng dẫn đầy đủ Aspose.HTML](./change-paragraph-style-in-c-complete-aspose-html-guide/)
 Tìm hiểu cách thay đổi kiểu đoạn văn trong C# bằng Aspose.HTML. Hướng dẫn chi tiết từng bước cho nhà phát triển.
+### [Tạo phông chữ in đậm nghiêng trong C# – Hướng dẫn đầy đủ](./create-font-bold-italic-in-c-complete-guide/)
+Hướng dẫn chi tiết cách tạo phông chữ in đậm và nghiêng trong C# bằng Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

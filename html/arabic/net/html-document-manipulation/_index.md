@@ -103,6 +103,8 @@ url: /ar/net/html-document-manipulation/
 تعلم كيفية تعيين خاصية innerHTML لعنصر span في C# باستخدام Aspose.HTML عبر دليل شامل خطوة بخطوة.
 ### [تغيير نمط الفقرة في C# – دليل Aspose.HTML الكامل](./change-paragraph-style-in-c-complete-aspose-html-guide/)
 تعلم كيفية تعديل نمط الفقرة في مستندات HTML باستخدام C# و Aspose.HTML خطوة بخطوة.
+### [إنشاء خط عريض ومائل في C# – دليل كامل](./create-font-bold-italic-in-c-complete-guide/)
+تعلم كيفية إنشاء خطوط عريضة ومائلة في C# باستخدام Aspose.HTML خطوة بخطوة.
 
 ## خاتمة
 

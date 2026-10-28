@@ -178,6 +178,9 @@ Naučte se, jak pomocí Aspose.HTML v .NET povolit antialiasing při převodu HT
 ### [Jak zabalit HTML do ZIP a vykreslit jej jako PNG – Kompletní průvodce v C#](./how-to-zip-html-and-render-it-as-png-complete-c-guide/)
 Kompletní návod, jak pomocí Aspose.HTML v .NET zabalit HTML do ZIP a převést jej na PNG s podrobnými ukázkami.
 
+### [Renderujte HTML do obrázku pomocí Aspose.HTML – Kompletní průvodce C#](./render-html-to-image-with-aspose-html-complete-c-guide/)
+Kompletní průvodce v C#, jak pomocí Aspose.HTML převést HTML do obrázku s podrobnými ukázkami.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

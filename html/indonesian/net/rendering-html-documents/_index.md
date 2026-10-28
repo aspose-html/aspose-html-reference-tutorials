@@ -175,6 +175,9 @@ Pelajari cara mengompres file HTML menjadi ZIP dan merendernya menjadi PNG mengg
 ### [Cara Mengaktifkan Antialiasing Saat Merender HTML ke PNG – Panduan Langkah‑demi‑Langkah](./how-to-enable-antialiasing-when-rendering-html-to-png-step-b/)
 Pelajari cara mengaktifkan antialiasing saat merender HTML menjadi PNG menggunakan Aspose.HTML untuk .NET dengan panduan langkah demi langkah.
 
+### [Render HTML ke Gambar dengan Aspose.HTML – Panduan Lengkap C#](./render-html-to-image-with-aspose-html-complete-c-guide/)
+Pelajari cara merender HTML menjadi gambar menggunakan Aspose.HTML untuk .NET dengan panduan lengkap C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

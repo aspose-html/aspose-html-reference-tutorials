@@ -99,6 +99,8 @@ Aspose.HTML kullanarak sıfırdan tam özellikli bir HTML belgesi oluşturmayı 
 C# kullanarak Aspose.HTML ile span elementinin innerHTML özelliğini nasıl ayarlayacağınızı adım adım öğrenin.
 ### [C#'ta Paragraf Stilini Değiştirme – Tam Aspose.HTML Kılavuzu](./change-paragraph-style-in-c-complete-aspose-html-guide/)
 C# kullanarak HTML belgelerinde paragraf stillerini nasıl değiştireceğinizi adım adım öğrenin.
+### [C#'ta Kalın İtalik Yazı Tipi Oluşturma – Tam Kılavuz](./create-font-bold-italic-in-c-complete-guide/)
+C# ile Aspose.HTML kullanarak kalın ve italik yazı tipleri oluşturmayı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

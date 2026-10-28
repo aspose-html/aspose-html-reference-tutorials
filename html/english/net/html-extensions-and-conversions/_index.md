@@ -89,6 +89,9 @@ Learn how to convert HTML to PDF using Aspose.HTML for .NET with a step‑by‑s
 Learn how to convert HTML to PDF using C# and Aspose.HTML with a comprehensive step-by-step guide.
 ### [Render HTML as PDF in C# – Full Step‑by‑Step Guide](./render-html-as-pdf-in-c-full-step-by-step-guide/)
 Learn how to render HTML to PDF using C# and Aspose.HTML with a comprehensive step‑by‑step guide.
+### [Convert HTML to PDF in C# – Complete Guide with Text Clarity Tips](./convert-html-to-pdf-in-c-complete-guide-with-text-clarity-ti/)
+Learn how to convert HTML to PDF in C# with detailed steps and tips for improving text clarity.
+
 ### [Convert HTML to BMP in .NET with Aspose.HTML](./convert-html-to-bmp/)
 Learn how to convert HTML to BMP in .NET using Aspose.HTML for .NET. Comprehensive guide for web developers for Leveraging Aspose.HTML for .NET.
 ### [Convert HTML to Image in C# – Step‑by‑Step Guide](./convert-html-to-image-in-c-step-by-step-guide/)

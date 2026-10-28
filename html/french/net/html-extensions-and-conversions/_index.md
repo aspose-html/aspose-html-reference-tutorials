@@ -64,6 +64,8 @@ Apprenez à convertir du HTML en PDF en C# avec Aspose.HTML grâce à un guide c
 ### [Convertir HTML en PDF avec C# – Guide complet](./convert-html-to-pdf-with-c-complete-guide/)
 Convertissez du HTML en PDF avec C# grâce à notre guide complet étape par étape.
 
+### [Convertir HTML en PDF en C# – Guide complet avec conseils de clarté du texte](./convert-html-to-pdf-in-c-complete-guide-with-text-clarity-ti/)
+Apprenez à convertir du HTML en PDF en C# avec un guide complet incluant des astuces pour améliorer la lisibilité du texte.
 ### [Créer un PDF à partir de HTML – Guide étape par étape en C#](./create-pdf-from-html-c-step-by-step-guide/)
 Apprenez à créer un PDF à partir de HTML en C# avec Aspose.HTML, guide complet pas à pas.
 ### [Créer un PDF à partir de HTML – Guide étape par étape pour les développeurs](./create-pdf-from-html-step-by-step-guide-for-developers/)

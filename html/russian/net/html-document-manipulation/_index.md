@@ -101,6 +101,8 @@ Aspose.HTML для .NET выделяется своей простотой и м
 Узнайте, как установить innerHTML элемента span в C# с помощью Aspose.HTML и управлять содержимым HTML.
 ### [Изменение стиля абзаца в C# – Полное руководство Aspose.HTML](./change-paragraph-style-in-c-complete-aspose-html-guide/)
 Узнайте, как изменить стиль абзаца в C# с помощью Aspose.HTML. Полное пошаговое руководство с примерами.
+### [Создание полужирного курсивного шрифта в C# – Полное руководство](./create-font-bold-italic-in-c-complete-guide/)
+Узнайте, как создать полужирный курсивный шрифт в C# с помощью Aspose.HTML. Пошаговое руководство с примерами.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

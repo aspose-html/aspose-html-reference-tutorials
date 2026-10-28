@@ -176,6 +176,9 @@ url: /ar/net/rendering-html-documents/
 ### [كيفية ضغط HTML وعرضه كصورة PNG – دليل كامل C#](./how-to-zip-html-and-render-it-as-png-complete-c-guide/)
 تعلم خطوة بخطوة كيفية ضغط ملفات HTML وتحويلها إلى صور PNG باستخدام Aspose.HTML وC# في دليل شامل.
 
+### [تحويل HTML إلى صورة باستخدام Aspose.HTML – دليل كامل C#](./render-html-to-image-with-aspose-html-complete-c-guide/)
+تعلم خطوة بخطوة كيفية تحويل مستندات HTML إلى صور باستخدام Aspose.HTML في .NET مع دليل شامل بلغة C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

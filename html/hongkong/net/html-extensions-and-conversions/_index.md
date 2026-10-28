@@ -64,6 +64,9 @@ Aspose.HTML for .NET 不只是一個函式庫；它還是一個函式庫。它�
 使用 Aspose.HTML for .NET，在 C# 中將 HTML 轉換為 PDF 的完整步驟說明與範例。
 ### [在 C# 中將 HTML 轉換為 PDF – 將 HTML 頁面儲存為 PDF](./convert-html-to-pdf-in-c-save-html-page-as-pdf/)
 使用 Aspose.HTML for .NET 在 C# 中將 HTML 頁面轉換為 PDF，提供完整步驟與程式碼範例。
+### [在 C# 中將 HTML 轉換為 PDF – 完整指南與文字清晰度技巧](./convert-html-to-pdf-in-c-complete-guide-with-text-clarity-ti/)
+本完整指南說明如何在 C# 中使用 Aspose.HTML 將 HTML 轉換為 PDF，並提供提升文字清晰度的技巧。
+
 ### [使用 C# 從 HTML 建立 PDF – 完整步驟指南](./create-pdf-from-html-c-step-by-step-guide/)
 使用 Aspose.HTML for .NET，透過 C# 將 HTML 轉換為 PDF 的完整步驟說明與範例。
 ### [使用 Aspose 從 HTML 建立 PDF – 完整步驟指南](./create-pdf-from-html-with-aspose-step-by-step-guide/)

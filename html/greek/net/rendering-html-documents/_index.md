@@ -152,6 +152,8 @@ url: /el/net/rendering-html-documents/
 Μάθετε πώς να αποδίδετε HTML σε εικόνα χρησιμοποιώντας C# και το Aspose.HTML σε αυτόν τον πλήρη οδηγό προγραμματισμού.
 ### [Πώς να συμπιέσετε HTML σε αρχείο ZIP και να το αποδώσετε ως PNG – Πλήρης οδηγός C#](./how-to-zip-html-and-render-it-as-png-complete-c-guide/)
 Μάθετε πώς να συμπιέσετε HTML σε αρχείο ZIP και να το αποδώσετε ως PNG με το Aspose.HTML για .NET σε αυτόν τον πλήρη οδηγό C#.
+### [Απόδοση HTML σε εικόνα με το Aspose.HTML – Πλήρης οδηγός C#](./render-html-to-image-with-aspose-html-complete-c-guide/)
+Μάθετε πώς να μετατρέψετε HTML σε εικόνα χρησιμοποιώντας C# και το Aspose.HTML για .NET σε αυτόν τον ολοκληρωμένο οδηγό.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

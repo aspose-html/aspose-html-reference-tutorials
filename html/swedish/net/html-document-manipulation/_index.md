@@ -96,6 +96,8 @@ Lär dig hur du programatiskt ändrar teckensnittsstil i HTML med en kort C#-gui
 Lär dig hur du sätter innerHTML för ett span‑element i C# med Aspose.HTML i en komplett guide.
 ### [Ändra styckeformat i C# – Komplett Aspose.HTML-guide](./change-paragraph-style-in-c-complete-aspose-html-guide/)
 Lär dig hur du ändrar styckeformat i HTML med Aspose.HTML för .NET i C#. Steg‑för‑steg‑guide med exempel.
+### [Skapa fet kursiv font i C# – Komplett guide](./create-font-bold-italic-in-c-complete-guide/)
+Lär dig hur du skapar fet och kursiv text i C# med Aspose.HTML – steg-för-steg guide.
 
 ### [Gör text fet och kursiv i C# – Snabbguide för att styla HTML](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
 Lär dig hur du gör text fet och kursiv i HTML med C#. En snabbguide med kodexempel och steg‑för‑steg‑instruktioner.

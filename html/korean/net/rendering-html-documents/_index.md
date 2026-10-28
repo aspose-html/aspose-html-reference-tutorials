@@ -167,6 +167,8 @@ HTML을 PNG 이미지로 렌더링할 때 안티앨리어싱을 적용하여 부
 
 ### [HTML을 ZIP으로 압축하고 PNG로 렌더링하는 방법 – 완전 C# 가이드](./how-to-zip-html-and-render-it-as-png-complete-c-guide/)
 Aspose.HTML for .NET을 사용해 HTML 파일을 ZIP으로 압축한 뒤 PNG 이미지로 렌더링하는 전체 과정을 단계별로 안내합니다.
+### [Aspose.HTML을 사용하여 HTML을 이미지로 렌더링 – 완전 C# 가이드](./render-html-to-image-with-aspose-html-complete-c-guide/)
+Aspose.HTML for .NET을 활용해 C#으로 HTML을 이미지로 변환하는 전체 과정을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

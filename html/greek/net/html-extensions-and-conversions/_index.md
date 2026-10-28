@@ -179,6 +179,8 @@ url: /el/net/html-extensions-and-conversions/
 Μάθετε πώς να μετατρέψετε HTML σε συμβολοσειρά σε C# χρησιμοποιώντας το Aspose.HTML με πλήρη βήμα‑βήμα οδηγίες.
 ### [Δημιουργία αρχείου HTML από DOCX – Οδηγός βήμα‑βήμα](./create-html-archive-from-docx-step-by-step-guide/)
 Μάθετε πώς να δημιουργήσετε αρχείο HTML από έγγραφο DOCX χρησιμοποιώντας το Aspose.HTML για .NET, βήμα‑βήμα με παραδείγματα κώδικα.
+### [Μετατροπή HTML σε PDF σε C# – Πλήρης Οδηγός με Συμβουλές για Καθαρό Κείμενο](./convert-html-to-pdf-in-c-complete-guide-with-text-clarity-ti/)
+Μάθετε πώς να μετατρέπετε HTML σε PDF σε C# με πλήρη οδηγό και βελτιστοποιημένες συμβουλές για καθαρό κείμενο.
 
 ### [Πώς να συμπιέσετε HTML με Aspose.HTML – Πλήρης Οδηγός](./how-to-zip-html-with-aspose-html-complete-guide/)
 Μάθετε πώς να δημιουργείτε αρχείο ZIP από HTML χρησιμοποιώντας το Aspose.HTML σε .NET – βήμα‑βήμα οδηγός.

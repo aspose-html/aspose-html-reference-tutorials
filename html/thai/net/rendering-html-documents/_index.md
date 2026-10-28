@@ -165,6 +165,8 @@ Aspose.HTML สำหรับ .NET ถือเป็นตัวเลือ�
 
 ### [วิธีบีบอัด HTML แล้วเรนเดอร์เป็น PNG – คู่มือ C# ฉบับสมบูรณ์](./how-to-zip-html-and-render-it-as-png-complete-c-guide/)
 เรียนรู้วิธีบีบอัดไฟล์ HTML แล้วเรนเดอร์เป็น PNG ด้วย C# อย่างละเอียด
+### [เรนเดอร์ HTML เป็นภาพด้วย Aspose.HTML – คู่มือ C# ฉบับสมบูรณ์](./render-html-to-image-with-aspose-html-complete-c-guide/)
+เรียนรู้วิธีเรนเดอร์ HTML เป็นภาพด้วย Aspose.HTML สำหรับ .NET ด้วย C# อย่างละเอียดในคู่มือฉบับสมบูรณ์
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

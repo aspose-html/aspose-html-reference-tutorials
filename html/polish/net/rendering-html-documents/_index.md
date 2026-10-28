@@ -92,6 +92,9 @@ Pełny przewodnik C# pokazujący, jak w pamięci renderować HTML do PNG oraz sp
 Szybki i niezawodny przewodnik pokazujący, jak przy użyciu Aspose.HTML renderować HTML do PNG w C#.
 ### [Renderowanie HTML do PNG w C# – Kompletny przewodnik krok po kroku](./render-html-to-png-in-c-complete-step-by-step-guide/)
 Pełny przewodnik w C#, pokazujący, jak przy użyciu Aspose.HTML renderować HTML do PNG, krok po kroku.
+### [Renderowanie HTML do obrazu z Aspose.HTML – kompletny przewodnik C#](./render-html-to-image-with-aspose-html-complete-c-guide/)
+Pełny przewodnik C# pokazujący, jak przy użyciu Aspose.HTML renderować HTML do obrazu, krok po kroku.
+
 ### [Renderuj EPUB jako XPS w .NET za pomocą Aspose.HTML](./render-epub-as-xps/)
 Dowiedz się, jak tworzyć i renderować dokumenty HTML za pomocą Aspose.HTML dla .NET w tym kompleksowym samouczku. Zanurz się w świecie manipulacji HTML, web scrapingu i nie tylko.
 

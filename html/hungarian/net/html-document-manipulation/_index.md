@@ -100,6 +100,8 @@ Ismerje meg, hogyan hozhat létre HTML-t formázott szöveggel C#-ban, részlete
 Ismerje meg, hogyan állíthatja be a span elem innerHTML-jét C#-ban az Aspose.HTML könyvtár segítségével, lépésről lépésre útmutató.
 ### [Bekezdés stílusának módosítása C#-ban – Teljes Aspose.HTML útmutató](./change-paragraph-style-in-c-complete-aspose-html-guide/)
 Tanulja meg, hogyan módosíthatja a bekezdés stílusát C#-ban az Aspose.HTML segítségével, lépésről lépésre útmutatóval.
+### [Betűtípus félkövér dőlt létrehozása C#-ban – Teljes útmutató](./create-font-bold-italic-in-c-complete-guide/)
+Ismerje meg, hogyan hozhat létre félkövér és dőlt betűtípust C#-ban az Aspose.HTML segítségével.
 
 ## Következtetés
 

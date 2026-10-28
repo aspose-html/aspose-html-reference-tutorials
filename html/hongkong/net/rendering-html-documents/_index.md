@@ -53,6 +53,9 @@ Aspose.HTML for .NET 因其豐富的功能、優秀的文件和活躍的社群�
 ### [建立 HTML 文件字串並渲染至檔案 – C# 指南](./create-html-document-string-and-render-to-file-c-guide/)
 學習如何使用 Aspose.HTML for .NET 在 C# 中建立 HTML 字串，並將其渲染為檔案，涵蓋完整步驟與設定。
 
+### [使用 Aspose.HTML 將 HTML 渲染為圖像 – 完整 C# 指南](./render-html-to-image-with-aspose-html-complete-c-guide/)
+學習使用 Aspose.HTML for .NET 在 C# 中將 HTML 渲染為圖像，涵蓋完整步驟與最佳實踐。
+
 ### [如何將 HTML 渲染為 PNG – 完整 C# 指南](./how-to-render-html-as-png-complete-c-guide/)
 學習使用 Aspose.HTML for .NET 在 C# 中將 HTML 渲染為 PNG，涵蓋完整步驟與最佳實踐。
 

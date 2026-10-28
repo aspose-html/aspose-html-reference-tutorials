@@ -101,6 +101,8 @@ Aspose.HTML for .NET 以其简单性和强大性脱颖而出。它使您能够�
 了解如何使用 Aspose.HTML for .NET 在 C# 中设置 span 元素的 innerHTML，实现动态内容更新。
 ### [在 C# 中更改段落样式 – 完整 Aspose.HTML 指南](./change-paragraph-style-in-c-complete-aspose-html-guide/)
 了解如何在 C# 中使用 Aspose.HTML 更改段落样式的完整指南。
+### [在 C# 中创建粗体斜体字体 – 完整指南](./create-font-bold-italic-in-c-complete-guide/)
+了解如何在 C# 中使用 Aspose.HTML 创建粗体和斜体字体的完整步骤和示例。
 
 ## 结论
 

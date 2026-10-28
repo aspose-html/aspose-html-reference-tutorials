@@ -84,6 +84,8 @@ Kompletní průvodce, jak v C# pomocí Aspose.HTML převést HTML do PDF, včetn
 Naučte se převést HTML do PDF pomocí Aspose v podrobném průvodci.
 ### [Převod HTML do PDF v C# – Uložení HTML stránky jako PDF](./convert-html-to-pdf-in-c-save-html-page-as-pdf/)
 Naučte se v C# pomocí Aspose.HTML převést HTML stránku do PDF a uložit ji jako PDF soubor.
+### [Převod HTML do PDF v C# – Kompletní průvodce s tipy na čitelnost textu](./convert-html-to-pdf-in-c-complete-guide-with-text-clarity-ti/)
+Kompletní průvodce převodem HTML do PDF v C# s tipy pro zvýšení čitelnosti textu.
 ### [Převeďte EPUB na obrázek v .NET pomocí Aspose.HTML](./convert-epub-to-image/)
 Přečtěte si, jak převést EPUB na obrázky pomocí Aspose.HTML pro .NET. Výukový program krok za krokem s příklady kódu a přizpůsobitelnými možnostmi.
 

@@ -112,6 +112,9 @@ Apprenez à créer un document HTML complet avec Aspose.HTML, incluant des exemp
 ### [Définir la propriété innerHTML d'un span en C# avec Aspose.HTML – Guide complet](./set-span-innerhtml-in-c-with-aspose-html-complete-guide/)
 Apprenez à définir la propriété innerHTML d'un élément span en C# à l'aide d'Aspose.HTML, avec des exemples détaillés.
 
+### [Créer une police en gras italique en C# – Guide complet](./create-font-bold-italic-in-c-complete-guide/)
+Apprenez à créer des polices en gras et italique en C# avec Aspose.HTML. Guide complet avec exemples pas à pas.
+
 ## Conclusion
 
 En conclusion, si vous souhaitez maîtriser la manipulation de documents HTML à l'aide d'Aspose.HTML pour .NET, vous êtes au bon endroit. Nos tutoriels sont votre feuille de route vers le succès. Préparez-vous à explorer les possibilités, à libérer votre créativité et à rationaliser votre développement .NET. Commencez votre voyage dès aujourd'hui et regardez vos documents HTML se transformer sous vos yeux. Que vous soyez développeur ou passionné, Aspose.HTML pour .NET vous réserve quelque chose d'incroyable. Alors, qu'attendez-vous ? Embarquons ensemble dans cette aventure passionnante !

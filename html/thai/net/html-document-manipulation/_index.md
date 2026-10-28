@@ -102,6 +102,8 @@ Aspose.HTML สำหรับ .NET โดดเด่นด้วยควา�
 เรียนรู้วิธีตั้งค่า innerHTML ของแท็ก span ใน C# ด้วย Aspose.HTML อย่างละเอียดและครบถ้วน
 ### [เปลี่ยนสไตล์ย่อหน้าใน C# – คู่มือ Aspose.HTML ฉบับสมบูรณ์](./change-paragraph-style-in-c-complete-aspose-html-guide/)
 เรียนรู้วิธีปรับสไตล์ของย่อหน้าใน C# ด้วย Aspose.HTML อย่างละเอียดและครบถ้วน
+### [สร้างฟอนต์หนาและเอียงใน C# – คู่มือฉบับสมบูรณ์](./create-font-bold-italic-in-c-complete-guide/)
+เรียนรู้วิธีสร้างฟอนต์หนาและเอียงใน C# ด้วย Aspose.HTML อย่างละเอียดและครบถ้วน
 
 ## บทสรุป
 

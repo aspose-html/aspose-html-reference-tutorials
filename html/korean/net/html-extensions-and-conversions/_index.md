@@ -61,6 +61,8 @@ C#와 Aspose.HTML을 사용해 페이지 크기와 안티앨리어싱 옵션을 
 Aspose를 사용해 HTML을 PDF로 변환하는 단계별 가이드를 확인하고 변환 과정을 마스터하세요.
 ### [C#에서 HTML을 PDF로 변환 – HTML 페이지를 PDF로 저장](./convert-html-to-pdf-in-c-save-html-page-as-pdf/)
 Aspose.HTML for .NET을 사용하여 C#에서 HTML 페이지를 PDF 파일로 저장하는 단계별 가이드입니다.
+### [C#에서 HTML을 PDF로 변환 – 텍스트 선명도 팁을 포함한 완전 가이드](./convert-html-to-pdf-in-c-complete-guide-with-text-clarity-ti/)
+Aspose.HTML for .NET을 사용하여 C#에서 HTML을 PDF로 변환하고 텍스트 선명도를 최적화하는 단계별 가이드.
 ### [HTML에서 PDF 만들기 – C# 단계별 가이드](./create-pdf-from-html-c-step-by-step-guide/)
 Aspose.HTML for .NET을 사용하여 C#에서 HTML을 PDF로 변환하는 단계별 가이드입니다.
 ### [C#에서 Aspose HTML을 사용해 PDF로 변환 – ZIP 아카이브 포함 전체 가이드](./aspose-html-to-pdf-in-c-complete-guide-with-zip-archive/)

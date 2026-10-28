@@ -103,6 +103,8 @@ url: /el/net/html-document-manipulation/
 Μάθετε πώς να δημιουργήσετε HTML με μορφοποιημένο κείμενο χρησιμοποιώντας C# σε πλήρη βήμα-βήμα οδηγό.
 ### [Δημιουργία εγγράφου HTML με Aspose.HTML – Πλήρης Οδηγός](./create-html-document-with-aspose-html-full-guide/)
 Μάθετε πώς να δημιουργήσετε πλήρως ένα έγγραφο HTML χρησιμοποιώντας το Aspose.HTML με βήμα‑βήμα οδηγίες.
+### [Δημιουργία γραμματοσειράς Bold Italic σε C# – Πλήρης Οδηγός](./create-font-bold-italic-in-c-complete-guide/)
+Μάθετε πώς να δημιουργήσετε γραμματοσειρά Bold Italic σε C# με το Aspose.HTML, βήμα-βήμα οδηγίες και παραδείγματα.
 
 ## Σύναψη
 

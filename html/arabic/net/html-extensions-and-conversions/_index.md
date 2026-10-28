@@ -59,6 +59,8 @@ url: /ar/net/html-extensions-and-conversions/
 دليل شامل يوضح كيفية تحويل مستندات HTML إلى PDF باستخدام C# ومكتبة Aspose.HTML خطوة بخطوة.
 ### [تحويل HTML إلى PDF في C# – حفظ صفحة HTML كملف PDF](./convert-html-to-pdf-in-c-save-html-page-as-pdf/)
 تعلم كيفية حفظ صفحة HTML كملف PDF باستخدام Aspose.HTML في C# خطوة بخطوة.
+### [تحويل HTML إلى PDF في C# – دليل كامل مع نصائح وضوح النص](./convert-html-to-pdf-in-c-complete-guide-with-text-clarity-ti/)
+دليل شامل لتحويل HTML إلى PDF باستخدام C# مع نصائح لتحسين وضوح النص.
 ### [إنشاء PDF من HTML – دليل خطوة بخطوة بلغة C#](./create-pdf-from-html-c-step-by-step-guide/)
 دليل خطوة بخطوة لإنشاء ملف PDF من HTML باستخدام C# ومكتبة Aspose.HTML.
 ### [إنشاء PDF من HTML باستخدام Aspose.HTML – دليل خطوة بخطوة](./create-pdf-from-html-with-aspose-html-step-by-step-guide/)

@@ -107,6 +107,8 @@ Pelajari cara membuat dokumen HTML dengan teks berformat menggunakan Aspose.HTML
 Pelajari cara mengatur properti innerHTML pada elemen span menggunakan C# dan Aspose.HTML dengan contoh lengkap.
 ### [Mengubah Gaya Paragraf di C# – Panduan Lengkap Aspose.HTML](./change-paragraph-style-in-c-complete-aspose-html-guide/)
 Pelajari cara mengubah gaya paragraf pada dokumen HTML menggunakan C# dengan Aspose.HTML secara lengkap.
+### [Buat Font Tebal Miring di C# – Panduan Lengkap](./create-font-bold-italic-in-c-complete-guide/)
+Pelajari cara membuat font tebal miring di C# menggunakan Aspose.HTML dengan contoh langkah demi langkah.
 
 ## Kesimpulan
 

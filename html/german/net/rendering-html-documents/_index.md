@@ -162,6 +162,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML für .NET Antialiasing aktivieren, um hoch
 
 ### [Wie Sie HTML zippen und als PNG rendern – Vollständiger C#‑Leitfaden](./how-to-zip-html-and-render-it-as-png-complete-c-guide/)
 Erfahren Sie, wie Sie HTML-Dateien zippen und mit Aspose.HTML in PNG konvertieren – vollständiger C#‑Leitfaden.
+### [HTML in Bild rendern mit Aspose.HTML – Vollständiger C#‑Leitfaden](./render-html-to-image-with-aspose-html-complete-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in Bildformate konvertieren, inklusive vollständigem C#‑Beispiel und Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -101,6 +101,8 @@ Aprenda paso a paso a crear documentos HTML usando Aspose.HTML, con ejemplos y m
 Aprenda a establecer el innerHTML de un elemento span en C# usando Aspose.HTML con esta guía completa.
 ### [Cambiar estilo de párrafo en C# – Guía completa de Aspose.HTML](./change-paragraph-style-in-c-complete-aspose-html-guide/)
 Aprenda a modificar el estilo de los párrafos en C# con Aspose.HTML. Guía paso a paso con ejemplos claros.
+### [Crear fuente en negrita y cursiva en C# – Guía completa](./create-font-bold-italic-in-c-complete-guide/)
+Aprenda a generar texto con estilo negrita y cursiva en C# usando Aspose.HTML. Guía paso a paso con ejemplos claros.
 
 ## Conclusión
 

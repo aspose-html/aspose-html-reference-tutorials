@@ -111,6 +111,8 @@ Leer hoe u een HTML-document maakt met Aspose.HTML, stap voor stap, inclusief vo
 Leer hoe u met Aspose.HTML voor .NET de innerHTML van een span‑element in C# kunt instellen. Stap‑voor‑stap handleiding.
 ### [Paragraafstijl wijzigen in C# – Complete Aspose.HTML-gids](./change-paragraph-style-in-c-complete-aspose-html-guide/)
 Leer hoe u in C# de stijl van alinea's kunt aanpassen met Aspose.HTML, inclusief voorbeeldcode en stapsgewijze instructies.
+### [Lettertype vet en cursief maken in C# – Complete gids](./create-font-bold-italic-in-c-complete-guide/)
+Leer hoe u vet en cursief lettertype maakt in C# met Aspose.HTML. Stapsgewijze handleiding met voorbeelden.
 
 ## Conclusie
 

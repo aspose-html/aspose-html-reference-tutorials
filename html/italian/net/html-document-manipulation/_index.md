@@ -107,6 +107,8 @@ Scopri come creare documenti HTML con Aspose.HTML in una guida completa passo pa
 Impara a impostare l'attributo innerHTML di un elemento span in C# usando Aspose.HTML. Guida completa con esempi.
 ### [Modifica lo stile del paragrafo in C# – Guida completa Aspose.HTML](./change-paragraph-style-in-c-complete-aspose-html-guide/)
 Scopri come modificare lo stile dei paragrafi in C# usando Aspose.HTML, con esempi pratici e istruzioni dettagliate.
+### [Creare Font Grassetto Italico in C# – Guida Completa](./create-font-bold-italic-in-c-complete-guide/)
+Scopri come creare font in grassetto e corsivo in C# con Aspose.HTML, passo passo con esempi pratici.
 
 ## Conclusione
 

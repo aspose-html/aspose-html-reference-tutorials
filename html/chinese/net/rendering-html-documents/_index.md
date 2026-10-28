@@ -181,6 +181,9 @@ Aspose.HTML for .NET 凭借其丰富的功能、出色的文档和活跃的社�
 ### [如何压缩 HTML 并将其渲染为 PNG – 完整 C# 指南](./how-to-zip-html-and-render-it-as-png-complete-c-guide/)
 学习使用 Aspose.HTML for .NET 将压缩的 HTML 文件渲染为 PNG，提供完整的 C# 示例和关键步骤。
 
+### [使用 Aspose.HTML 将 HTML 渲染为图像 – 完整 C# 指南](./render-html-to-image-with-aspose-html-complete-c-guide/)
+完整的 C# 示例，展示如何使用 Aspose.HTML 将 HTML 渲染为图像，涵盖关键步骤和最佳实践。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
