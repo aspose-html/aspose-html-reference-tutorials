@@ -78,9 +78,10 @@ url: /zh/java/editing-html-documents/
 了解如何在 Java 中使用自动锁释放实现线程安全的 HTML 编辑，提高并发处理效率。
 ### [如何在 Java 中提取 HTML – 提取文本并高亮单词](./how-to-extract-html-in-java-extract-text-highlight-words/)
 了解如何使用 Aspose.HTML for Java 提取 HTML 内容、获取文本并对指定单词进行高亮显示的完整步骤。
-
 ### [获取元素属性 Java – 完整的 SVG 选择和 XPath 指南](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
 了解如何使用 Aspose.HTML for Java 获取元素属性，选择 SVG 元素并通过 XPath 完整操作指南。
+### [如何在 Java 中打开链接到新标签页](./how-to-open-links-in-a-new-tab-with-java/)
+了解如何使用 Aspose.HTML for Java 将链接设置为在新标签页打开的完整步骤指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

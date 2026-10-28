@@ -136,6 +136,9 @@ Aspose.HTML のサンドボックス環境で DPI を設定し、PDF や PNG の
 
 ### [Aspose.HTML for Java でサンドボックスを使用する – ユーザーエージェントの設定とビューポートサイズの取得](./how-to-use-sandbox-set-user-agent-get-viewport-size/)
 
+### [Aspose.HTML for Java で HTML レンダリング用サンドボックス環境を作成する方法](./how-to-create-sandbox-environment-for-html-rendering-in-java/)
+Aspose.HTML for Java を使用して、HTML の安全なレンダリングのためにサンドボックス環境を構築する手順を解説します。
+
 ---
 
 **最終更新日:** 2025-12-03  

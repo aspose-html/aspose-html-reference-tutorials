@@ -73,10 +73,16 @@ Dowiedz się, jak w Javie utworzyć nowy element HTML przy użyciu Aspose.HTML, 
 Poznaj, jak dodać element potomny do drzewa DOM w Javie przy użyciu Aspose.HTML, krok po kroku, z przykładami kodu.
 ### [Jak usunąć skrypty z HTML w Javie – kompletny przewodnik](./how-to-remove-scripts-from-html-in-java-complete-guide/)
 ### [Jak podświetlić HTML – wyszukiwanie tekstu i zamiana na <mark>](./how-to-highlight-html-search-text-replace-with-mark/)
+Zamień znaleziony tekst w HTML na znacznik <mark> w celu podświetlenia.
+
+### [Jak otworzyć linki w nowej karcie w Javie](./how-to-open-links-in-a-new-tab-with-java/)
+Dowiedz się, jak w Javie otwierać linki w nowej karcie przeglądarki, używając Aspose.HTML.
+
 ### [Automatyczne zwalnianie blokady w Javie – Samouczek edycji HTML w trybie wątkowo‑bezpiecznym](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
 Poznaj technikę automatycznego zwalniania blokady w Javie, zapewniającą bezpieczną edycję HTML w środowisku wielowątkowym.
 
 ### [Pobieranie atrybutu elementu w Javie – Kompletny przewodnik po wyborze SVG i XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
+Dowiedz się, jak zarządzać wewnętrznymi i zewnętrznymi właściwościami HTML w Aspose.HTML dla Java dzięki temu przewodnikowi krok po kroku, idealnemu dla programistów stron internetowych i twórców treści.
 ### [Uruchamianie JavaScript w HTML przy użyciu Aspose.HTML dla Java – Pełny przewodnik](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

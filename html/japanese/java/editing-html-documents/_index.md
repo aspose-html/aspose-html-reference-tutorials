@@ -80,7 +80,8 @@ Aspose.HTML for Java を使用して、HTML ドキュメントの body に子要
 ### [Java の自動ロック解除 – スレッドセーフ HTML 編集チュートリアル](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
 
 ### [Javaで要素属性取得 – SVG選択とXPathの完全ガイド](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
-Javaを使用してSVG要素の属性を取得し、XPathで選択する方法をステップバイステップで解説します。
+### [Java でリンクを新しいタブで開く方法](./how-to-open-links-in-a-new-tab-with-java/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -243,6 +243,7 @@ Aspose.HTML for Java ทำให้กระบวนการแปลง HTML
 
 ### [ตั้งขนาดหน้า PDF ด้วย Aspose HTML – คู่มือเต็มสำหรับ Java](./set-pdf-page-size-with-aspose-html-full-java-guide/)
 เรียนรู้วิธีตั้งขนาดหน้า PDF อย่างละเอียดใน Java ด้วย Aspose.HTML
+
 ### [วิธีตั้งค่า Offset เมื่อแปลง HTML เป็น Markdown ใน Java](./how-to-set-offset-when-converting-html-to-markdown-in-java/)
 เรียนรู้วิธีกำหนดค่า offset ในการแปลง HTML ไปเป็น Markdown ด้วย Aspose.HTML for Java อย่างละเอียด
 ### [แปลง HTML เป็น Markdown – คู่มือฉบับสมบูรณ์สำหรับ C#](./convert-html-to-markdown-complete-c-guide/)
@@ -313,11 +314,15 @@ Aspose.HTML for Java ทำให้กระบวนการแปลง HTML
 ### [แปลง HTML เป็น PDF ด้วย Aspose HTML สำหรับ Java – คู่มือเต็ม](./convert-html-to-pdf-with-aspose-html-for-java-full-guide/)
 คู่มือเต็มขั้นตอนการแปลง HTML เป็น PDF ด้วย Aspose.HTML for Java พร้อมตัวอย่างโค้ดและการตั้งค่าต่าง ๆ
 ### [แปลง HTML เป็น Markdown ใน Java – คู่มือการเขียนโปรแกรมเต็ม](./convert-html-to-markdown-in-java-complete-programming-guide/)
+### [วิธีอ่าน HTML และดึงข้อความใน Java – คู่มือขั้นตอน‑ต่อ‑ขั้นตอน](./how-to-read-html-and-extract-text-in-java-a-step-by-step-gui/)
+เรียนรู้วิธีอ่านไฟล์ HTML และดึงข้อความออกใน Java ด้วยขั้นตอนที่ชัดเจน
+### [convert-html-to-markdown-in-java-complete-programming-guide/]
 
 ## คำถามที่พบบ่อย
 
 **ถาม: ฉันสามารถใช้ Aspose.HTML สำหรับ Java ในแอปพลิเคชันเชิงพาณิชย์ได้หรือไม่**
 ก. ใช่. ต้องมีใบอนุญาตเชิงพาณิชย์ที่ถูกต้องสำหรับการใช้งานการผลิต มีการทดลองใช้ฟรีสำหรับการประเมินผล
+
 **คำถาม: ฉันสามารถใช้ Aspose.HTML สำหรับ Java ในแอปพลิเคชันได้หรือไม่?**
 **คำตอบ:** เป็นไปได้ การดำเนินการด้านลิขสิทธิ์โดยตรงสำหรับการผลิต; มีรุ่นทดลองฟรีสำหรับหุ่นยนต์
 
@@ -340,8 +345,6 @@ Aspose.HTML for Java ทำให้กระบวนการแปลง HTML
 ก. ใช่. คุณสามารถตั้งชื่อเรื่อง ผู้แต่ง หัวเรื่อง และคำหลักผ่านออบเจ็กต์ `PdfSaveOptions` ก่อนบันทึก
 **คำถาม: ตรวจสอบเมตาดาต้า PDF สามารถตรวจสอบได้หรือไม่**
 **คำตอบ:** ได้. ตั้งหัวข้อ, ต่อไป, หหัวข้อ, และที่สำคัญผ่านอ็อบเจกต์ `PdfSaveOptions` ก่อนบันทึก
-
----
 
 **Last Updated:** 2025-12-18  
 **Tested With:** Aspose.HTML for Java 24.12  

@@ -80,6 +80,10 @@ url: /zh-hant/java/editing-html-documents/
 
 ### [取得元素屬性 Java – 完整的 SVG 選取與 XPath 指南](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
 了解如何使用 Aspose.HTML for Java 取得 SVG 元素屬性，並透過 XPath 進行精確選取的完整步驟指南。
+
+### [如何使用 Java 在新分頁中開啟連結](./how-to-open-links-in-a-new-tab-with-java/)
+本指南說明如何使用 Aspose.HTML for Java 在 HTML 中將連結設定為於新分頁開啟的完整步驟。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

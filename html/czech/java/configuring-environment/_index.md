@@ -137,6 +137,9 @@ Naučte se, jak pomocí Aspose.HTML v Javě extrahovat název stránky a bezpeč
 ### [Jak používat sandbox – nastavit User Agent a získat velikost viewportu](./how-to-use-sandbox-set-user-agent-get-viewport-size/)
 Naučte se, jak nastavit User Agent a získat velikost viewportu v sandboxu Aspose.HTML pro Java.
 
+### [Jak vytvořit sandboxové prostředí pro renderování HTML v Javě](./how-to-create-sandbox-environment-for-html-rendering-in-java/)
+Naučte se, jak nastavit bezpečné sandboxové prostředí pro renderování HTML v Javě pomocí Aspose.HTML.
+
 ---
 
 **Last Updated:** 2025-12-03  

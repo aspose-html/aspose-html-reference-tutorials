@@ -82,6 +82,8 @@ Entdecken Sie, wie Sie mit Aspose.HTML für Java HTML extrahieren, Text auslesen
 Erfahren Sie, wie Sie mit Aspose.HTML für Java Elementattribute aus SVGs auswählen und per XPath abfragen – Schritt für Schritt.
 ### [JavaScript in HTML mit Aspose.HTML für Java ausführen – Vollständige Anleitung](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
 Erfahren Sie, wie Sie JavaScript in HTML-Dokumenten mit Aspose.HTML für Java ausführen – Schritt-für-Schritt-Anleitung.
+### [Wie man Links in Java in einem neuen Tab öffnet](./how-to-open-links-in-a-new-tab-with-java/)
+Erfahren Sie, wie Sie mit Java Links in einem neuen Tab öffnen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

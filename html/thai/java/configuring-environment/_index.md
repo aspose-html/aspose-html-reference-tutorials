@@ -129,7 +129,7 @@ A: การแซนด์บ็อกซ์จำกัด API บางอย
 ### [วิธีตั้งค่า DPI ใน Aspose.HTML Sandbox – คู่มือ Java ฉบับสมบูรณ์](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
 เรียนรู้วิธีตั้งค่า DPI ใน sandbox ของ Aspose.HTML ด้วย Java เพื่อควบคุมความละเอียดของ PDF/PNG ที่แปลง
 ### [วิธีใช้ Sandbox – ตั้งค่า User Agent และรับขนาด Viewport](./how-to-use-sandbox-set-user-agent-get-viewport-size/)
-
+### [วิธีสร้างสภาพแวดล้อม sandbox สำหรับการเรนเดอร์ HTML ใน Java](./how-to-create-sandbox-environment-for-html-rendering-in-java/)
 ---
 ### [ตั้งค่า User Agent สำหรับการเรนเดอร์ HTML แบบ Headless – คู่มือฉบับสมบูรณ์](./set-user-agent-for-headless-html-rendering-complete-guide/)
 เรียนรู้วิธีตั้งค่า User Agent ใน Aspose.HTML for Java เพื่อควบคุมการดึงข้อมูลและการเรนเดอร์ HTML แบบ headless อย่างแม่นยำ

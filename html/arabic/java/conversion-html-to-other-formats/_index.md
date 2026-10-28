@@ -93,7 +93,7 @@ XPS هو صيغة الطباعة الخاصة بمايكروسوفت. باستخ
 تعلم كيفية تحويل عدة ملفات HTML إلى PDF في وقت واحد باستخدام Aspose.HTML for Java لزيادة الأداء.
 ### [إنشاء PDF بحجم A4 باستخدام Java – دليل كامل خطوة بخطوة](./create-pdf-a4-size-with-java-full-step-by-step-guide/)
 تعلم كيفية إنشاء ملف PDF بحجم A4 في Java خطوة بخطوة باستخدام Aspose.HTML.
-### [تحويل HTML إلى PDF باستخدام Java – دليل الدفعات المتوازية](./convert-html-to-pdf-with-java-parallel-batch-guide/)
+### [تحويل HTML إلى PDF مع Java – دليل الدفعات المتوازية](./convert-html-to-pdf-with-java-parallel-batch-guide/)
 تعلم كيفية تحويل ملفات HTML إلى PDF في Java باستخدام معالجة دفعات متوازية لزيادة السرعة والكفاءة.
 ### [تحويل HTML إلى MHTML](./convert-html-to-mhtml/)
 حوّل HTML إلى MHTML بسهولة باستخدام Aspose.HTML for Java. اتبع دليلنا خطوة بخطوة لتحويل HTML إلى MHTML بكفاءة.
@@ -212,17 +212,13 @@ XPS هو صيغة الطباعة الخاصة بمايكروسوفت. باستخ
 ### [دروس HTML إلى PDF – تحويل HTML إلى PDF بسطر واحد باستخدام Java](./html-to-pdf-tutorial-convert-html-to-pdf-in-one-line-with-ja/)
 ### [إنشاء PDF من HTML باستخدام خيوط Java – دليل كامل](./create-pdf-from-html-with-java-threads-full-guide/)
 ### [html إلى pdf java: دليل كامل لتحويل صفحة الويب إلى PDF بسطر واحد](./html-to-pdf-java-complete-guide-to-convert-webpage-to-pdf-in/)
-تعلم كيفية تحويل صفحة ويب إلى PDF في Java باستخدام سطر واحد من الكود عبر Aspose.HTML.
-
+تعلم كيفية تحويل صفحة ويب إلى PDF في Java باستخدام سطر واحد فقط من كود Aspose.HTML.
 ### [كيفية ضغط PDF باستخدام Aspose HTML إلى PDF – دليل Java](./how-to-compress-pdf-with-aspose-html-to-pdf-java-guide/)
 تعلم كيفية تقليل حجم ملف PDF باستخدام Aspose.HTML إلى PDF في Java مع إرشادات خطوة بخطوة.
-
 ### [تحويل HTML ديناميكي إلى PDF باستخدام Aspose HTML for Java](./convert-dynamic-html-pdf-with-aspose-html-for-java/)
 تعلم كيفية تحويل صفحات HTML الديناميكية إلى ملفات PDF باستخدام Aspose HTML for Java.
-
 ### [كيفية استخدام Aspose – تحويل دفعة HTML إلى PDF في Java](./how-to-use-aspose-batch-convert-html-to-pdf-in-java/)
 تعلم كيفية تحويل مجموعة من ملفات HTML إلى PDF دفعة واحدة باستخدام Aspose.HTML for Java.
-
 ### [تحويل HTML إلى PDF في سطر واحد](./html-to-pdf-tutorial-convert-html-to-pdf-in-java-in-one-line/)
 تعلم كيفية تحويل HTML إلى PDF في Java باستخدام سطر برمجي واحد فقط.
 ### [إنشاء PDF بحجم مخصص من HTML في Java – دليل كامل](./create-pdf-custom-size-from-html-in-java-full-guide/)
@@ -236,7 +232,6 @@ XPS هو صيغة الطباعة الخاصة بمايكروسوفت. باستخ
 تعلم كيفية حفظ HTML كملف PDF في Java باستخدام مجموعة الخيوط والقوالب لتحقيق أداء عالي وإدارة موارد فعّالة.
 ### [تحويل HTML إلى PDF: تحويل صفحات الويب إلى PDF باستخدام Java](./html-to-pdf-tutorial-convert-web-pages-to-pdf-with-java/)
 ### [تعيين حجم صفحة PDF في Java – دليل كامل لتحويل HTML إلى PDF](./set-pdf-page-size-in-java-complete-html-to-pdf-guide/)
-
 ### [تعيين حجم صفحة PDF باستخدام Aspose HTML – دليل Java كامل](./set-pdf-page-size-with-aspose-html-full-java-guide/)
 تعلم كيفية ضبط حجم صفحة PDF أثناء التحويل باستخدام Aspose.HTML في Java خطوة بخطوة.
 ### [كيفية تعيين الإزاحة عند تحويل HTML إلى Markdown في Java](./how-to-set-offset-when-converting-html-to-markdown-in-java/)
@@ -267,10 +262,12 @@ XPS هو صيغة الطباعة الخاصة بمايكروسوفت. باستخ
 دليل شامل يشرح خطوة بخطوة كيفية تحويل ملفات HTML إلى PDF باستخدام Aspose.HTML for Java.
 ### [تحويل HTML إلى PDF في Java – دليل التحويل المتوازي للدفعات](./convert-html-to-pdf-in-java-parallel-batch-conversion-guide/)
 تعلم كيفية تحويل عدة ملفات HTML إلى PDF في Java بشكل متوازي لزيادة الأداء وتقليل وقت المعالجة.
-### [دروس HTML إلى PDF: محول Aspose في سطر واحد](./html-to-pdf-tutorial-one-line-aspose-converter/)
+### [دروس HTML إلى PDF – محول Aspose في سطر واحد](./html-to-pdf-tutorial-one-line-aspose-converter/)
 ### [تحويل HTML إلى PDF في Java – دليل خطوة بخطوة](./html-to-pdf-tutorial-convert-html-to-pdf-in-java/)
 تعلم كيفية تحويل HTML إلى PDF في Java باستخدام Aspose.HTML. دليل شامل لإنشاء ملفات PDF عالية الجودة.
 ### [تحويل HTML إلى PDF في Java – دليل كامل خطوة بخطوة](./convert-html-to-pdf-in-java-full-step-by-step-guide/)
+
+### [كيفية قراءة HTML واستخراج النص في Java – دليل خطوة بخطوة](./how-to-read-html-and-extract-text-in-java-a-step-by-step-gui/)
 
 ## الأسئلة المتكررة
 

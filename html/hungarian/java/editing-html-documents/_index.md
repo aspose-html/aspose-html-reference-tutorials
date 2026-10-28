@@ -81,7 +81,9 @@ Ismerje meg, hogyan nyerhet ki HTML-t Java-ban, szöveget és kiemelheti a szava
 ### [Elem attribútum lekérése Java – Teljes útmutató az SVG kiválasztáshoz és XPath-hez](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
 Fedezze fel, hogyan kérheti le az elem attribútumait Java-ban, SVG kiválasztással és XPath használatával.
 ### [JavaScript futtatása HTML-ben az Aspose.HTML for Java segítségével – Teljes útmutató](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
-Ismerje meg, hogyan futtathat JavaScript kódot HTML-dokumentumokban az Aspose.HTML for Java segítségével, lépésről lépésre útmutató.
+
+### [Hogyan nyissunk meg linkeket új lapon Java-val](./how-to-open-links-in-a-new-tab-with-java/)
+Ismerje meg, hogyan nyithat meg linkeket új böngészőablakban Java kóddal az Aspose.HTML segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -66,6 +66,9 @@ Java में Aspose.HTML का उपयोग करके HTML दस्त
 ### [HTML को हाइलाइट कैसे करें – टेक्स्ट खोजें और <mark> से बदलें](./how-to-highlight-html-search-text-replace-with-mark/)
 Java के लिए Aspose.HTML का उपयोग करके HTML में टेक्स्ट खोजें और <mark> टैग से हाइलाइट करने की चरण-दर-चरण गाइड।
 
+### [Java के साथ नई टैब में लिंक खोलना कैसे करें](./how-to-open-links-in-a-new-tab-with-java/)
+Java में Aspose.HTML का उपयोग करके लिंक को नई टैब में खोलने की चरण‑दर‑स्टेप गाइड।
+
 ### [Java DOM में चाइल्ड जोड़ना – पूर्ण Aspose.HTML गाइड](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
 Java DOM में नया चाइल्ड नोड जोड़ने की चरण-दर-चरण प्रक्रिया सीखें, Aspose.HTML का उपयोग करके।
 

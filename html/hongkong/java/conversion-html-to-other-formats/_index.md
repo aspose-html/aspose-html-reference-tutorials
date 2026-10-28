@@ -252,7 +252,7 @@ Aspose.HTML for Java 簡化了 HTML‑to‑PDF 工作流程。請參考專屬教
 ### [使用 Java 將 HTML 轉換為 PDF – 完整指南：PDF、PNG、DOCX 與 Markdown](./convert-html-to-pdf-with-java-full-guide-to-pdf-png-docx-mar/)
 全面說明如何在 Java 中使用 Aspose.HTML 將 HTML 轉換為 PDF、PNG、DOCX 以及 Markdown，提供完整步驟與範例。
 ### [如何在 Java 中使用 Sandbox 進行 HTML‑to‑PDF 轉換](./how-to-use-sandbox-for-html-to-pdf-conversion-in-java/)
-說明如何在 Java 環境下利用 Aspose.HTML Sandbox 安全執行 HTML 轉 PDF 的步驟與設定。
+說明如何在 Java 環境下利用 Aspose.HTML Sandbox 安全執行 HTML‑to‑PDF 轉換的步驟與設定。
 ### [Java 執行緒池教學 – 將多個 HTML 檔案轉換為 PDF](./java-thread-pool-tutorial-convert-multiple-html-files-to-pdf/)
 說明如何使用 Java 執行緒池同時將多個 HTML 檔案批次轉換為 PDF，提高效能與資源利用。
 ### [將 MHTML 轉換為 PDF 時嵌入圖像 – Aspose 指南](./how-to-embed-images-when-converting-mhtml-to-pdf-aspose-guid/)
@@ -295,7 +295,7 @@ Aspose.HTML for Java 簡化了 HTML‑to‑PDF 工作流程。請參考專屬教
 ### [使用所有 CPU 核心進行平行 HTML‑to‑PDF 批次轉換](./use-all-cpu-cores-for-parallel-html-to-pdf-batch-conversion/)
 說明如何利用多核心 CPU 進行平行批次 HTML 轉 PDF，提高轉換效能。
 ### [如何使用沙盒進行 HTML‑to‑PDF 轉換 – 完整 Java 指南](./how-to-use-sandbox-for-html-to-pdf-conversion-complete-java/)
-說明如何在 Java 中使用 Aspose.HTML 沙盒功能安全地將 HTML 轉換為 PDF，提供完整步驟與範例。
+說明如何在 Java 中使用 Aspose.HTML Sandbox 安全地將 HTML 轉換為 PDF，提供完整步驟與範例。
 ### [HTML 轉 PDF 教學：一行 Aspose 轉換器](./html-to-pdf-tutorial-one-line-aspose-converter/)
 只需一行程式碼，即可使用 Aspose.HTML 完成 HTML 轉 PDF 的快速轉換示範。
 ### [使用 Aspose HTML for Java 轉換 HTML 為 PDF – 完整指南](./convert-html-to-pdf-with-aspose-html-for-java-full-guide/)
@@ -303,6 +303,9 @@ Aspose.HTML for Java 簡化了 HTML‑to‑PDF 工作流程。請參考專屬教
 ### [在 Java 中將 HTML 轉換為 PDF – 平行批次轉換指南](./convert-html-to-pdf-in-java-parallel-batch-conversion-guide/)
 ### [HTML 轉 PDF 教學：在 Java 中將 HTML 轉換為 PDF](./html-to-pdf-tutorial-convert-html-to-pdf-in-java/)
 使用 Aspose.HTML 在 Java 中將 HTML 轉換為 PDF，提供完整步驟與最佳實踐。
+
+### [如何在 Java 中讀取 HTML 並提取文字 – 步驟說明指南](./how-to-read-html-and-extract-text-in-java-a-step-by-step-gui/)
+說明如何在 Java 中讀取 HTML 並提取純文字內容的完整步驟與範例程式碼。
 
 ## 常見問題
 

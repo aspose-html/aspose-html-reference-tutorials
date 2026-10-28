@@ -256,7 +256,7 @@ Convert SVG to PDF in Java with Aspose.HTML. A seamless solution for high-qualit
 ### [Converting SVG to XPS]({{< relref "./convert-svg-to-xps" >}})
 Learn how to convert SVG to XPS with Aspose.HTML for Java. Simple, step-by-step guide for seamless conversions.
 ### [Create docx from html – Java guide to convert HTML to DOCX](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
-### [Create PDF from HTML in Java – One‑Line Aspose Guide](./create-pdf-from-html-in-java-one-line-aspose-guide/)
+### [Create PDF from HTML in Java – One‑Line Aspose.HTML Guide](./create-pdf-from-html-in-java-one-line-aspose-guide/)
 Generate a PDF from HTML in a single line of Java code using Aspose.HTML.
 ### [Set Device Pixel Ratio in Java – Convert HTML to Mobile](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)
 Learn how to set device pixel ratio in Java for mobile‑optimized HTML conversion with Aspose.HTML.
@@ -333,6 +333,9 @@ Learn how to convert HTML documents to Markdown format in Java using Aspose.HTML
 
 ### [Create PDF from HTML in Java – Parallel Batch Conversion Guide]({{< relref "./create-pdf-from-html-in-java-parallel-batch-conversion-guide" >}})
 Learn how to convert multiple HTML files to PDF simultaneously in Java using Aspose.HTML for efficient parallel batch processing.
+
+### [How to read HTML and extract text in Java – a step‑by‑step guide](./how-to-read-html-and-extract-text-in-java-a-step-by-step-gui/)
+Learn how to parse HTML files and extract plain text using Java with Aspose.HTML in a step‑by‑step tutorial.
 
 ## Frequently asked questions
 ### [java thread pool tutorial – Convert Multiple HTML Files to PDF](./java-thread-pool-tutorial-convert-multiple-html-files-to-pdf/)

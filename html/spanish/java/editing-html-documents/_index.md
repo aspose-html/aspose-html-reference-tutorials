@@ -82,6 +82,8 @@ Descubra cómo extraer texto de documentos HTML y resaltar palabras clave usando
 Aprenda a obtener atributos de elementos SVG usando Java, con selección mediante XPath en esta guía paso a paso.
 ### [Ejecutar JavaScript en HTML con Aspose.HTML para Java – Guía completa](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
 Aprenda a ejecutar scripts JavaScript dentro de documentos HTML usando Aspose.HTML para Java con esta guía paso a paso.
+### [Cómo abrir enlaces en una nueva pestaña con Java](./how-to-open-links-in-a-new-tab-with-java/)
+Aprenda a abrir enlaces en una nueva pestaña usando Aspose.HTML para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

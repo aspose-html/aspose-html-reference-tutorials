@@ -110,6 +110,8 @@ Konfiguracja środowiska jest fundamentem udanych projektów **convert HTML to P
 Dowiedz się, jak szybko uzyskać i wyświetlić wersję biblioteki Aspose.HTML w Javie.
 ### [Jak utworzyć sandbox w Javie – pełny przewodnik](./how-to-create-sandbox-in-java-full-guide/)
 Dowiedz się, jak utworzyć sandbox w Javie, aby bezpiecznie izolować wykonywanie skryptów podczas konwersji HTML do PDF.
+### [Jak utworzyć środowisko sandbox dla renderowania HTML w Javie](./how-to-create-sandbox-environment-for-html-rendering-in-java/)
+Dowiedz się, jak skonfigurować sandbox do renderowania HTML w Javie.
 ### [Ustaw User Agent dla renderowania HTML w trybie headless – Kompletny przewodnik](./set-user-agent-for-headless-html-rendering-complete-guide/)
 Dowiedz się, jak ustawić własny User Agent w Aspose.HTML for Java, aby kontrolować renderowanie w trybie headless i unikać blokad serwerów.
 ### [Wyodrębnij tytuł z HTML w Javie – Kompletny przewodnik sandbox](./extract-title-from-html-in-java-complete-sandbox-guide/)

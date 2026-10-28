@@ -328,6 +328,9 @@ Dowiedz się, jak wykorzystać wszystkie rdzenie procesora do przyspieszenia wsa
 ### [Samouczek HTML do PDF: Jednolinijkowy konwerter Aspose](./html-to-pdf-tutorial-one-line-aspose-converter/)
 Poznaj, jak w jednej linii kodu przekształcić HTML w PDF przy użyciu Aspose.HTML w Javie.
 
+### [Jak odczytać HTML i wyodrębnić tekst w Javie – przewodnik krok po kroku](./how-to-read-html-and-extract-text-in-java-a-step-by-step-gui/)
+Dowiedz się, jak w Javie odczytać plik HTML i wyodrębnić z niego tekst przy użyciu Aspose.HTML – krok po kroku.
+
 ## Często zadawane pytania
 
 **P: Czy mogę używać Aspose.HTML for Java w aplikacji komercyjnej?**

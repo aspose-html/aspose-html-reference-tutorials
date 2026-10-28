@@ -112,6 +112,7 @@ Lär dig hur du implementerar sandboxing i Aspose.HTML för Java för att säker
 ### [Hämta biblioteksversion i Java – Snabbguide för att visa biblioteksversion](./get-library-version-in-java-quick-guide-to-show-library-vers/)
 Lär dig hur du snabbt visar Aspose.HTML‑bibliotekets version i Java med en enkel kodexempel.
 ### [How to Create Sandbox in Java – Full Guide](./how-to-create-sandbox-in-java-full-guide/)
+### [Hur man skapar sandbox‑miljö för HTML‑rendering i Java](./how-to-create-sandbox-environment-for-html-rendering-in-java/)
 ### [Ställ in User Agent för huvudlös HTML-rendering – Komplett guide](./set-user-agent-for-headless-html-rendering-complete-guide/)
 Lär dig hur du konfigurerar User Agent för huvudlös HTML-rendering i Aspose.HTML för Java för att säkerställa korrekt resurshämtning.
 ### [Extrahera titel från HTML i Java – Komplett sandbox‑guide](./extract-title-from-html-in-java-complete-sandbox-guide/)

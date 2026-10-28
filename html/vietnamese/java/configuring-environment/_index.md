@@ -116,11 +116,14 @@ Tìm hiểu cách cấu hình Runtime Service trong Aspose.HTML for Java để t
 ### [Implement Sandboxing in Aspose.HTML for Java](./implement-sandboxing/)
 Tìm hiểu cách triển khai sandboxing trong Aspose.HTML for Java để kiểm soát an toàn việc thực thi script trong tài liệu HTML và chuyển đổi chúng sang PDF.
 
+### [Cách tạo môi trường sandbox cho việc render HTML trong Java](./how-to-create-sandbox-environment-for-html-rendering-in-java/)
+Tìm hiểu cách tạo sandbox cho việc render HTML trong Java, bảo vệ môi trường thực thi và đảm bảo chuyển đổi an toàn.
+
 ### [Set User Style Sheet in Aspose.HTML for Java](./set-user-style-sheet/)
 Tìm hiểu cách thiết lập stylesheet người dùng tùy chỉnh trong Aspose.HTML for Java, nâng cao phong cách tài liệu và chuyển đổi HTML sang PDF một cách dễ dàng.
 
 ### [Tạo Sandbox Aspose HTML – Hướng dẫn Java toàn diện](./create-aspose-html-sandbox-complete-java-guide/)
-### [Lấy Phiên Bản Thư Viện trong Java – Hướng Dẫn Nhanh để Hiển Thị Phiên Bản Thư Viện](./get-library-version-in-java-quick-guide-to-show-library-vers/)
+### [Lấy Phiên Bản Thư Viện trong Java – Hướng dẫn Nhanh để Hiển Thị Phiên Bản Thư Viện](./get-library-version-in-java-quick-guide-to-show-library-vers/)
 ### [Cách tạo Sandbox trong Java – Hướng dẫn đầy đủ](./how-to-create-sandbox-in-java-full-guide/)
 Tìm hiểu cách tạo sandbox trong Java một cách chi tiết, bảo vệ môi trường thực thi khi chuyển đổi HTML sang PDF.
 ### [Set User Agent for Headless HTML Rendering – Complete Guide](./set-user-agent-for-headless-html-rendering-complete-guide/)

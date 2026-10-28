@@ -93,6 +93,9 @@ weight: 29
 ### [Πώς να δημιουργήσετε sandbox σε Java – Πλήρης οδηγός](./how-to-create-sandbox-in-java-full-guide/)
 Μάθετε πώς να δημιουργήσετε sandbox σε Java με αυτόν τον πλήρη οδηγό, εξασφαλίζοντας ασφαλή εκτέλεση κώδικα κατά τη μετατροπή HTML.
 
+### [Πώς να δημιουργήσετε περιβάλλον sandbox για απόδοση HTML σε Java](./how-to-create-sandbox-environment-for-html-rendering-in-java/)
+Μάθετε πώς να δημιουργήσετε περιβάλλον sandbox για την απόδοση HTML σε Java, εξασφαλίζοντας ασφαλή και αξιόπιστη μετατροπή.
+
 ### [Ορισμός Προσαρμοσμένου User Style Sheet στο Aspose.HTML για Java](./set-user-style-sheet/)
 Μάθετε πώς να ορίσετε ένα προσαρμοσμένο φύλλο στυλ χρήστη στο Aspose.HTML για Java, βελτιώνοντας το στυλ του εγγράφου σας και μετατρέποντας HTML σε PDF με ευκολία.
 
