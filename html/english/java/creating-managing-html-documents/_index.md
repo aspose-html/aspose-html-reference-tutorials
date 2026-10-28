@@ -80,6 +80,8 @@ Learn how to search HTML content in Java using Aspose.HTML, with step-by-step ex
 Learn how to filter HTML elements by class using querySelectorAll in Aspose.HTML for Java with a clear step-by-step guide.
 ### [how to query html with Aspose.HTML – Complete Java Guide](./how-to-query-html-with-aspose-html-complete-java-guide/)
 Master querying HTML in Java using Aspose.HTML with this complete, step-by-step guide.
+### [Extract Page Title with Java – Full Guide Using Aspose.HTML](./extract-page-title-with-java-full-guide-using-aspose-html/)
+Learn how to extract page titles in Java using Aspose.HTML with this comprehensive step-by-step guide.
 ### [Create sandbox for HTML in Java – Step‑by‑Step Guide](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Learn how to set up a secure HTML sandbox in Java using Aspose.HTML with this detailed step-by-step guide.
 ### [Load HTML Documents from URL in Aspose.HTML for Java](./load-html-documents-from-url/)
@@ -158,6 +160,8 @@ Learn how to search HTML content using Aspose.HTML for Java in this comprehensiv
 Learn how to embed JavaScript into an HTML document using Aspose.HTML for Java with a clear, step-by-step example.
 ### [Create div with class java – Full Example Using Aspose.HTML](./create-div-with-class-java-full-example-using-aspose-html/)
 Learn how to create a DIV element with a CSS class in Java using Aspose.HTML in a complete step-by-step example.
+### [How to start thread in Java – Complete Guide](./how-to-start-thread-in-java-complete-guide/)
+Learn how to start threads in Java with this complete step‑by‑step guide, covering basics, best practices, and common pitfalls.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

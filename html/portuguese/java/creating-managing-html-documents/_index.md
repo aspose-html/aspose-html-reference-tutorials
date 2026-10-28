@@ -96,6 +96,8 @@ Aprenda a ler arquivos XHTML em Java usando Aspose.HTML com XPath e exemplos de 
 Aprenda a consultar HTML usando Aspose.HTML em Java com este guia completo passo a passo.
 ### [Como pesquisar HTML com Aspose Java – Guia de Programação Completo](./how-to-search-html-with-aspose-java-complete-programming-gui/)
 Aprenda a pesquisar e extrair dados de documentos HTML em Java usando Aspose.HTML com este guia passo a passo completo.
+### [Extrair o título da página com Java – Guia completo usando Aspose.HTML](./extract-page-title-with-java-full-guide-using-aspose-html/)
+Aprenda a extrair o título de páginas HTML em Java usando Aspose.HTML com este guia passo a passo.
 ### [Gerar novos documentos HTML usando Aspose.HTML para Java](./generate-new-html-documents/)
 Aprenda como criar novos documentos HTML usando Aspose.HTML para Java com este guia passo a passo fácil. Comece a gerar conteúdo HTML dinâmico.
 ### [Converter Markdown para HTML em Java – Guia passo a passo](./convert-markdown-to-html-in-java-step-by-step-guide/)
@@ -156,6 +158,8 @@ Aprenda a converter arquivos Markdown em HTML usando Aspose.HTML para Java com e
 Aprenda a criar um elemento div com classe em Java usando Aspose.HTML, com exemplo completo passo a passo.
 ### [Buscar JSON com JavaScript em Java – Guia Completo](./fetch-json-with-javascript-in-java-full-guide/)
 Aprenda a buscar e processar JSON usando JavaScript dentro de aplicações Java com este guia completo passo a passo.
+### [Como iniciar thread em Java – Guia completo](./how-to-start-thread-in-java-complete-guide/)
+Aprenda a iniciar threads em Java com este guia passo a passo, cobrindo criação, gerenciamento e boas práticas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

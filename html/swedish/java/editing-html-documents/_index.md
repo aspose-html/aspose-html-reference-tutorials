@@ -64,6 +64,8 @@ Lär dig hur du ändrar h1‑text i MHTML-filer med Java i en komplett steg‑f�
 Lär dig hur du skapar ett nytt HTML-element i Java med Aspose.HTML i en komplett steg-för-steg-guide.
 ### [Hur man lägger till ett barn i Java DOM – Komplett Aspose.HTML-guide](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
 Lär dig hur du lägger till ett barn-element i ett Java DOM‑träd med Aspose.HTML i en komplett steg‑för‑steg‑guide.
+### [Kör JavaScript i HTML med Aspose.HTML för Java – Fullständig guide](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
+Lär dig hur du kör JavaScript i HTML-dokument med Aspose.HTML för Java i en komplett steg‑för‑steg‑guide.
 ### [Fast trådpool i Java – parallell HTML‑rengöring med ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 ### [Lägg till ett barn till body i Java – Fullständig Aspose.HTML-handledning](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 ### [Hur man markerar HTML – sök text och ersätt med <mark>](./how-to-highlight-html-search-text-replace-with-mark/)

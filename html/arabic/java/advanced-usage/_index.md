@@ -202,6 +202,9 @@ weight: 20
 ### [ضبط DPI للجهاز باستخدام Aspose في Java – دليل شامل في Sandbox](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
 تعلم كيفية ضبط DPI للجهاز عند تحويل HTML إلى PDF/XPS باستخدام Aspose.HTML for Java في بيئة Sandbox.
 
+### [XPath مع مساحات الأسماء في Java – دليل كامل لاختيار عناصر SVG](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
+تعلم كيفية استخدام XPath مع مساحات الأسماء في Java لاختيار ومعالجة عناصر SVG بدقة في مستندات HTML.
+
 ---
 
 **آخر تحديث:** 2025-11-29  

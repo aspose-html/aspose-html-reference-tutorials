@@ -166,6 +166,10 @@ Aspose.HTML ile Java’da class java içeren bir div oluşturmayı adım adım g
 Java için Aspose.HTML kullanarak JavaScript ile JSON verilerini nasıl alacağınızı adım adım öğrenin.
 ### [Java'da Fetch ile JSON Yükleme – Tam Kılavuz](./load-json-with-fetch-in-java-complete-guide/)
 Java'da Fetch ile JSON verilerini nasıl yükleyeceğinizi adım adım öğrenin.
+### [Java ile Sayfa Başlığını Çıkarma – Aspose.HTML Kullanarak Tam Kılavuz](./extract-page-title-with-java-full-guide-using-aspose-html/)
+Java için Aspose.HTML kullanarak bir HTML belgesinden sayfa başlığını nasıl çıkaracağınızı adım adım öğrenin.
+### [Java'da Thread Başlatma – Tam Kılavuz](./how-to-start-thread-in-java-complete-guide/)
+Java'da çoklu iş parçacığı oluşturmayı ve yönetmeyi adım adım öğrenin. Başlangıçtan ileri seviyeye kadar kapsamlı rehber.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

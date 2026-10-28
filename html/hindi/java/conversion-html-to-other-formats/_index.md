@@ -353,6 +353,9 @@ Java में Aspose.HTML का उपयोग करके समाना�
 ### [HTML को PDF ट्यूटोरियल: एक‑लाइन Aspose कनवर्टर](./html-to-pdf-tutorial-one-line-aspose-converter/)
 ### [Java में HTML को PDF में बदलें – समानांतर बैच रूपांतरण गाइड](./convert-html-to-pdf-in-java-parallel-batch-conversion-guide/)
 ### [Java में HTML को Markdown में बदलें – पूर्ण प्रोग्रामिंग गाइड](./convert-html-to-markdown-in-java-complete-programming-guide/)
+### [HTML से PDF ट्यूटोरियल: Java में HTML को PDF में बदलें](./html-to-pdf-tutorial-convert-html-to-pdf-in-java/)
+
+### [Java में HTML को PDF में बदलें – पूर्ण चरण‑दर‑चरण गाइड](./convert-html-to-pdf-in-java-full-step-by-step-guide/)
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

@@ -66,6 +66,11 @@ HTML を PNG 画像に変換することは、ロスレスグラフィック、�
 
 ### [HTML バナーを作成し PNG にレンダリング – 完全な Java ガイド](./create-html-banner-and-render-to-png-full-java-guide/)
 Aspose.HTML for Java を使用して、HTML バナーを作成し、高品質な PNG 画像としてレンダリングする手順を詳しく解説します。
+### [HTML を PNG に変換 – カスタム解像度の完全 Java ガイド](./create-png-from-html-complete-java-guide-with-custom-resolut/)
+Aspose.HTML for Java を使用して、カスタム解像度で HTML を PNG に変換する手順を詳しく解説します。
+
+### [SVG を AVIF に変換 – 完全 Java ガイド](./how-to-convert-svg-to-avif-with-java-step-by-step-guide/)
+Aspose.HTML for Java を使用して、SVG を AVIF 形式に変換する手順をステップバイステップで解説します。
 
 ## HTML を TIFF に変換
 HTML を TIFF に変換することは、高解像度印刷やアーカイブ保存に最適です。このチュートリアルでは、Aspose.HTML for Java を使用して TIFF ファイルを効率的に生成する正確な手順を示します。

@@ -155,6 +155,10 @@ Pelajari cara mengonversi file Markdown menjadi HTML di Java menggunakan Aspose.
 ### [Buat div dengan kelas java – Contoh Lengkap Menggunakan Aspose.HTML](./create-div-with-class-java-full-example-using-aspose-html/)
 Pelajari cara membuat elemen div dengan kelas java menggunakan Aspose.HTML dalam contoh lengkap langkah demi langkah.
 ### [Mengambil JSON dengan JavaScript di Java – Panduan Lengkap](./fetch-json-with-javascript-in-java-full-guide/)
+### [Ekstrak Judul Halaman dengan Java – Panduan Lengkap Menggunakan Aspose.HTML](./extract-page-title-with-java-full-guide-using-aspose-html/)
+Pelajari cara mengekstrak judul halaman web secara efisien menggunakan Aspose.HTML untuk Java dalam panduan langkah demi langkah.
+### [Cara Memulai Thread di Java – Panduan Lengkap](./how-to-start-thread-in-java-complete-guide/)
+Pelajari cara memulai thread di Java dengan panduan lengkap ini, termasuk contoh kode dan praktik terbaik.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

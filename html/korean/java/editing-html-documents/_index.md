@@ -75,6 +75,8 @@ Aspose.HTML for Java를 사용해 HTML 문서에서 스크립트를 안전하게
 
 ### [Java에서 요소 속성 가져오기 – SVG 선택 및 XPath 완전 가이드](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
 Java용 Aspose.HTML을 사용해 SVG 요소를 선택하고 XPath로 속성을 추출하는 방법을 단계별로 안내합니다.
+### [Aspose.HTML for Java로 HTML에서 JavaScript 실행 – 전체 가이드](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
+Aspose.HTML for Java를 사용하여 HTML 문서에서 JavaScript 코드를 실행하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

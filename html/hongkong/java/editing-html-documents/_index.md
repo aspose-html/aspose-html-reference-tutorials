@@ -64,6 +64,8 @@ url: /zh-hant/java/editing-html-documents/
 了解如何使用 Aspose.HTML for Java 在 HTML 文件中建立新元素，並將其轉換為 PDF 的完整步驟指南。
 ### [如何在 Java DOM 中追加子節點 – 完整 Aspose.HTML 指南](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
 了解如何使用 Aspose.HTML for Java 在 DOM 中追加子節點，完整步驟指南助您輕鬆操作 HTML 結構。
+### [使用 Aspose.HTML for Java 在 HTML 中執行 JavaScript – 完整指南](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
+了解如何使用 Aspose.HTML for Java 在 HTML 文件中執行 JavaScript，從設定到執行的完整步驟指南。
 ### [固定執行緒池 Java – 使用 ExecutorService 進行平行 HTML 清理](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 ### [在 Java 中向 body 附加子節點 – 完整 Aspose.HTML 教程](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 了解如何在 Java 中使用 Aspose.HTML 向 HTML 文檔的 body 添加子元素的完整步驟。

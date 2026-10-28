@@ -203,6 +203,8 @@ A: 不需要。單一的 Aspose.HTML for Java 授權即涵蓋所有輸出格式�
 
 ### [在 Java 中設定裝置 DPI – 完整沙盒指南](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
 
+### [XPath 與命名空間於 Java – 完整指南：選取 SVG 元素](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
+
 ---
 
 **最後更新日期：** 2025-11-29  

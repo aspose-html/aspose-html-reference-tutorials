@@ -179,6 +179,8 @@ Aspose.HTML позволяет прикрепить `DomMutationObserver` к л�
 Узнайте, как преобразовать файлы SVG в формат AVIF с помощью Aspose.HTML for Java, следуя пошаговым инструкциям.
 ### [Установка DPI устройства в Aspose Java – Полное руководство по песочнице](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
 Узнайте, как задать DPI устройства при работе с Aspose.HTML в Java в изолированной среде.
+### [XPath с пространствами имён в Java – Полное руководство по выбору элементов SVG](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
+Узнайте, как использовать XPath с пространствами имён в Java для точного выбора SVG‑элементов при работе с Aspose.HTML.
 
 ---
 

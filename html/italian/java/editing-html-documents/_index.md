@@ -79,6 +79,8 @@ Scopri come rilasciare automaticamente i lock in Java per modificare documenti H
 
 ### [Recuperare l'attributo dell'elemento Java – Guida completa alla selezione SVG e XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
 Scopri come ottenere gli attributi degli elementi SVG usando XPath con Aspose.HTML per Java, passo dopo passo.
+### [Esegui JavaScript in HTML con Aspose.HTML per Java – Guida completa](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
+Scopri come eseguire JavaScript in documenti HTML usando Aspose.HTML per Java con questa guida completa passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

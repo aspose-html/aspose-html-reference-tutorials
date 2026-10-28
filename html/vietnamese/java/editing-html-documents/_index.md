@@ -60,6 +60,8 @@ Tìm hiểu cách quản lý các thuộc tính HTML bên trong và bên ngoài 
 Học cách triển khai CSS nội bộ trong tài liệu HTML bằng Aspose.HTML cho Java với hướng dẫn từng bước dễ dàng của chúng tôi.
 ### [Thay đổi văn bản h1 trong MHTML với Java – Hướng dẫn chi tiết từng bước](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
 Hướng dẫn chi tiết cách thay đổi nội dung thẻ h1 trong tệp MHTML bằng Java.
+### [Chạy JavaScript trong HTML với Aspose.HTML cho Java – Hướng dẫn đầy đủ](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
+Hướng dẫn chi tiết cách thực thi JavaScript trong tài liệu HTML bằng Aspose.HTML cho Java, bao gồm các ví dụ thực tế.
 ### [Fixed thread pool Java – Làm sạch HTML song song với ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Sử dụng Fixed thread pool trong Java để thực hiện làm sạch HTML song song bằng ExecutorService.
 ### [Thêm phần tử con vào body trong Java – Hướng dẫn đầy đủ Aspose.HTML](./append-child-to-body-in-java-full-aspose-html-tutorial/)

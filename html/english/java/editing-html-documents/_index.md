@@ -60,6 +60,8 @@ Learn how to add inline CSS to HTML documents using Aspose.HTML for Java. This s
 Learn how to manage inner and outer HTML properties in Aspose.HTML for Java with this step-by-step guide, perfect for web developers and content creators.
 ### [How to Extract HTML in Java – Extract Text & Highlight Words](./how-to-extract-html-in-java-extract-text-highlight-words/)
 Learn how to extract HTML content, retrieve text, and highlight specific words using Aspose.HTML for Java in this step-by-step guide.
+### [Run JavaScript in HTML with Aspose.HTML for Java – Full Guide](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
+Learn how to execute JavaScript within HTML documents using Aspose.HTML for Java, with step-by-step examples and best practices.
 ### [Implement Internal CSS in HTML Documents with Aspose.HTML for Java](./implement-internal-css-html-documents/)
 Learn to implement internal CSS in HTML documents using Aspose.HTML for Java with our easy step-by-step tutorial.
 ### [Change h1 Text in MHTML with Java – Full Step‑By‑Step Guide](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)

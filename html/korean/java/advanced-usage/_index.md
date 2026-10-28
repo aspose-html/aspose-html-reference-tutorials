@@ -118,6 +118,8 @@ A: 필요 없습니다. 하나의 Aspose.HTML for Java 라이선스로 PDF와 XP
 Aspose.HTML for Java를 활용해 단계별로 DOM Mutation Observer를 구현하는 방법을 배웁니다. DOM 변화를 효과적으로 감시하고 대응하세요.
 ### [Aspose.HTML for Java에서 XPath 전체 필터링 가이드 사용하기](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
 Aspose.HTML for Java에서 XPath 필터링을 전체적으로 활용하는 방법을 단계별로 안내합니다.
+### [Java에서 네임스페이스가 포함된 XPath – SVG 요소 선택 완전 가이드](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
+Java에서 네임스페이스를 고려한 XPath를 사용해 SVG 요소를 정확히 선택하는 방법을 단계별로 안내합니다.
 ### [Aspose.HTML for Java로 HTML5 Canvas 조작하기 (코드 사용)](./html5-canvas-manipulation-using-code/)
 ### [Aspose.HTML for Java로 HTML5 Canvas 조작하기 (JavaScript 사용)](./html5-canvas-manipulation-using-javascript/)
 ### [Aspose.HTML for Java로 HTML 양식 자동 채우기](./html-form-editor-filling-submitting-forms/)

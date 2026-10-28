@@ -206,6 +206,9 @@ Aprenda a converter arquivos SVG para AVIF usando Aspose.HTML for Java em um gui
 ### [Definir DPI do dispositivo no Aspose em Java – Guia Completo de Sandbox](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
 Aprenda a configurar o DPI do dispositivo ao gerar PDFs com Aspose.HTML for Java em um ambiente sandbox completo.
 
+### [XPath com Namespaces em Java – Guia Completo para Selecionar Elementos SVG](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
+Aprenda a usar XPath com namespaces em Java para selecionar elementos SVG de forma precisa usando Aspose.HTML for Java.
+
 ---
 
 **Última atualização:** 2025-11-29  

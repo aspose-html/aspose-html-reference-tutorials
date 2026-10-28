@@ -123,6 +123,8 @@ Java용 Aspose.HTML을 사용하여 요소의 계산된 CSS 스타일을 추출�
 ### [Java에서 CSS 배경 가져오기 – 완전 Aspose.HTML 가이드](./get-css-background-in-java-complete-aspose-html-guide/)
 ### [Java에서 CSS 사용하기 – HTML 로드, 링크 수 세기 및 XPath 평가](./how-to-use-css-in-java-load-html-count-links-evaluate-xpath/)
 Java용 Aspose.HTML을 사용해 CSS를 적용하고 HTML을 로드한 뒤, 링크 수를 세고 XPath를 평가하는 방법을 단계별로 안내합니다.
+### [Java에서 요소 계산된 스타일 – 완전 Aspose.HTML 가이드](./element-computed-style-in-java-complete-aspose-html-guide/)
+이 가이드를 통해 Java용 Aspose.HTML로 요소의 계산된 스타일을 가져오고 활용하는 방법을 단계별로 배웁니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

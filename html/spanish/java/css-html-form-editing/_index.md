@@ -129,6 +129,8 @@ Aprenda a extraer estilos CSS calculados de elementos HTML usando Aspose.HTML pa
 Aprenda a obtener el fondo CSS en Java usando Aspose.HTML con ejemplos claros y paso a paso.
 ### [Cómo usar CSS en Java – Cargar HTML, contar enlaces y evaluar XPath](./how-to-use-css-in-java-load-html-count-links-evaluate-xpath/)
 Aprenda a cargar HTML, contar enlaces y evaluar expresiones XPath usando CSS en Java con Aspose.HTML.
+### [Estilo computado del elemento en Java – Guía completa de Aspose.HTML](./element-computed-style-in-java-complete-aspose-html-guide/)
+Aprenda a obtener y utilizar el estilo computado de los elementos en Java con Aspose.HTML en esta guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

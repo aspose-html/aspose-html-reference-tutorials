@@ -182,6 +182,8 @@ Java में Aspose.HTML का उपयोग करके EPUB फ़ाइ
 Java और Aspose.HTML का उपयोग करके SVG फ़ाइलों को उच्च‑गुणवत्ता वाले AVIF इमेज में परिवर्तित करने की पूरी प्रक्रिया सीखें।  
 ### [Aspose में Java के साथ डिवाइस DPI सेट करें – पूर्ण सैंडबॉक्स गाइड](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
 Aspose.HTML for Java में डिवाइस DPI सेट करने और सैंडबॉक्स वातावरण में पूर्ण गाइड के साथ रेंडरिंग गुणवत्ता नियंत्रित करें।
+### [Java में नेमस्पेस के साथ XPath – SVG तत्वों का चयन करने का पूर्ण गाइड](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
+Java में नेमस्पेस वाले XML में SVG तत्वों को XPath से चुनने की पूरी प्रक्रिया सीखें।  
 
 ---
 

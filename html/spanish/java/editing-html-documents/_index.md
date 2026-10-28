@@ -80,6 +80,8 @@ Descubra cómo extraer texto de documentos HTML y resaltar palabras clave usando
 
 ### [Obtener atributo de elemento en Java – Guía completa de selección SVG y XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
 Aprenda a obtener atributos de elementos SVG usando Java, con selección mediante XPath en esta guía paso a paso.
+### [Ejecutar JavaScript en HTML con Aspose.HTML para Java – Guía completa](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
+Aprenda a ejecutar scripts JavaScript dentro de documentos HTML usando Aspose.HTML para Java con esta guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

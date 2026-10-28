@@ -164,6 +164,10 @@ url: /ar/java/creating-managing-html-documents/
 تعلم كيفية جلب بيانات JSON باستخدام JavaScript داخل تطبيقات Java خطوة بخطوة مع Aspose.HTML.
 ### [تحميل JSON باستخدام Fetch في Java – دليل كامل](./load-json-with-fetch-in-java-complete-guide/)
 تعلم كيفية تحميل ملفات JSON باستخدام Fetch في Java عبر دليل خطوة بخطوة شامل.
+### [استخراج عنوان الصفحة باستخدام Java – دليل كامل باستخدام Aspose.HTML](./extract-page-title-with-java-full-guide-using-aspose-html/)
+تعلم كيفية استخراج عنوان صفحة HTML باستخدام Aspose.HTML في Java من خلال دليل شامل خطوة بخطوة.
+### [كيفية بدء الخيط في Java – دليل كامل](./how-to-start-thread-in-java-complete-guide/)
+تعلم كيفية إنشاء وتشغيل الخيوط في Java خطوة بخطوة مع دليل شامل يغطي الأساسيات والمتقدم.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

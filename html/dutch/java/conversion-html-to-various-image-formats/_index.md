@@ -218,6 +218,10 @@ Leer hoe je PNG uit HTML kunt maken in Java met een compleet voorbeeld.
 
 ### [Geanimeerde GIF van SVG maken – Stapsgewijze Java-gids](./create-animated-gif-from-svg-step-by-step-java-guide/)
 Leer hoe je met Aspose.HTML for Java een geanimeerde GIF genereert vanuit een SVG-bestand, stap voor stap.
+### [PNG maken vanuit HTML – Complete Java‑gids met aangepaste resolutie](./create-png-from-html-complete-java-guide-with-custom-resolut/)
+Leer hoe je PNG‑afbeeldingen met aangepaste resolutie kunt genereren vanuit HTML met Aspose.HTML for Java.
+### [Hoe SVG naar AVIF converteren met Java – Stapsgewijze gids](./how-to-convert-svg-to-avif-with-java-step-by-step-guide/)
+Leer hoe je SVG‑bestanden naar AVIF‑afbeeldingen converteert met Aspose.HTML for Java in een eenvoudige stap‑voor‑stap handleiding.
 
 ## Veelgestelde vragen
 

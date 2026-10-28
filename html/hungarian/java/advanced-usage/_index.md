@@ -172,6 +172,7 @@ Ismerje meg, hogyan hozhat létre és kezelhet fix szálkészletű Executor szol
 Ismerje meg, hogyan konvertálhatja az EPUB fájlokat DOCX formátumba Java‑val az Aspose.HTML for Java segítségével, részletes lépésekkel.
 ### [SVG konvertálása AVIF-re Java‑val – Teljes lépésről‑lépésre útmutató](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
 ### [Eszköz DPI beállítása Aspose Java‑val – Teljes Sandbox útmutató](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
+### [XPath névtérrel Java‑ban – Teljes útmutató SVG elemek kiválasztásához](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
 
 ---
 

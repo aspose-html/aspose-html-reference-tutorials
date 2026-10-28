@@ -127,6 +127,8 @@ Learn how to extract computed CSS styles using Aspose.HTML for Java in this comp
 Learn how to retrieve and manipulate CSS background properties in Java using Aspose.HTML in this complete step-by-step guide.
 ### [How to Use CSS in Java – Load HTML, Count Links & Evaluate XPath](./how-to-use-css-in-java-load-html-count-links-evaluate-xpath/)
 Learn how to load HTML, count hyperlinks, and evaluate XPath expressions using CSS in Java with Aspose.HTML.
+### [Element Computed Style in Java – Complete Aspose.HTML Guide](./element-computed-style-in-java-complete-aspose-html-guide/)
+Learn how to retrieve and work with computed CSS styles of HTML elements using Aspose.HTML for Java in this comprehensive guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -206,6 +206,10 @@ Aprenda a converter HTML para AVIF em Java usando Aspose.HTML. Guia completo pas
 Aprenda a impedir o carregamento de imagens externas ao renderizar páginas web em PNG usando Aspose.HTML for Java.
 ### [Criar GIF animado a partir de SVG – Guia passo a passo em Java](./create-animated-gif-from-svg-step-by-step-java-guide/)
 Aprenda a gerar GIF animado a partir de SVG usando Aspose.HTML for Java. Guia completo passo a passo para criar animações.
+### [Criar PNG a partir de HTML – Guia Completo em Java com Resolução Personalizada](./create-png-from-html-complete-java-guide-with-custom-resolut/)
+Aprenda a criar PNG a partir de HTML em Java usando Aspose.HTML com resolução personalizada. Guia passo a passo completo.
+### [Convertendo SVG para AVIF com Java – Guia Passo a Passo](./how-to-convert-svg-to-avif-with-java-step-by-step-guide/)
+Aprenda a converter SVG para AVIF em Java usando Aspose.HTML. Guia completo passo a passo para gerar imagens AVIF de alta qualidade.
 
 ## Perguntas Frequentes
 

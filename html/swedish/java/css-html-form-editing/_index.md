@@ -123,6 +123,8 @@ Lär dig hur du extraherar beräknade CSS‑stilar med Aspose.HTML för Java i d
 Lär dig hur du programatiskt hämtar och hanterar CSS-bakgrundsbilder i Java med Aspose.HTML i denna fullständiga guide.
 ### [Hur du använder CSS i Java – Ladda HTML, räkna länkar och utvärdera XPath](./how-to-use-css-in-java-load-html-count-links-evaluate-xpath/)
 Lär dig hur du laddar HTML, räknar länkar och utvärderar XPath med CSS i Java med Aspose.HTML.
+### [Elementets beräknade stil i Java – Komplett Aspose.HTML-guide](./element-computed-style-in-java-complete-aspose-html-guide/)
+Lär dig hur du hämtar och analyserar det beräknade CSS‑stilen för ett HTML‑element med Aspose.HTML för Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

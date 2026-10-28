@@ -128,6 +128,8 @@ Erfahren Sie, wie Sie HTML mit Aspose.HTML for Java in PNG konvertieren – ein 
 ### [HTML rendern – Vollständiger Aspose‑HTML‑zu‑PNG‑Leitfaden](./how-to-render-html-complete-aspose-html-to-png-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML for Java HTML rendern und als PNG‑Bild speichern – Schritt‑für‑Schritt‑Anleitung.
 ### [PNG aus HTML in Java erstellen – Vollständiges Beispiel](./create-png-from-html-in-java-full-example/)
+### [PNG aus HTML erstellen – Vollständiger Java‑Leitfaden mit benutzerdefinierter Auflösung](./create-png-from-html-complete-java-guide-with-custom-resolut/)
+Erfahren Sie, wie Sie HTML mit Aspose.HTML for Java in PNG mit benutzerdefinierter Auflösung konvertieren. Schritt‑für‑Schritt‑Anleitung.
 ### [HTML in TIFF konvertieren](./convert-html-to-tiff/)
 Erfahren Sie, wie Sie HTML einfach mit Aspose.HTML for Java in TIFF konvertieren. Schritt‑für‑Schritt‑Leitfaden für effiziente Dokumentenverarbeitung.
 ### [Thumbnail aus HTML generieren – Java‑Leitfaden](./how-to-generate-thumbnail-from-html-java-guide/)
@@ -208,6 +210,8 @@ Erfahren Sie, wie Sie HTML mit Aspose.HTML for Java in das moderne AVIF‑Format
 Erfahren Sie, wie Sie mit Aspose.HTML for Java das Laden externer Bilder beim Rendern einer HTML‑Seite zu PNG verhindern.
 ### [Animiertes GIF aus SVG erstellen – Schritt‑für‑Schritt Java‑Leitfaden](./create-animated-gif-from-svg-step-by-step-java-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML for Java ein animiertes GIF aus einer SVG-Datei erzeugen – vollständige Schritt‑für‑Schritt‑Anleitung.
+### [SVG in AVIF konvertieren mit Java – Schritt‑für‑Schritt‑Leitfaden](./how-to-convert-svg-to-avif-with-java-step-by-step-guide/)
+Erfahren Sie, wie Sie SVG‑Dateien mit Aspose.HTML for Java in das moderne AVIF‑Format konvertieren – vollständige Schritt‑für‑Schritt‑Anleitung.
 
 ## Häufig gestellte Fragen
 

@@ -185,6 +185,8 @@ Erfahren Sie, wie Sie EPUB‑Dateien mit Aspose.HTML für Java in DOCX‑Dokumen
 Erfahren Sie, wie Sie SVG‑Grafiken mit Aspose.HTML für Java in das AVIF‑Bildformat konvertieren – eine vollständige Schritt‑für‑Schritt‑Anleitung.
 ### [Geräte‑DPI mit Aspose in Java festlegen – Komplett‑Sandbox‑Leitfaden](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
 Erfahren Sie, wie Sie die DPI‑Einstellungen von Geräten in Aspose.HTML für Java konfigurieren und in einer Sandbox‑Umgebung testen.
+### [XPath mit Namespaces in Java – Komplettanleitung zur Auswahl von SVG‑Elementen](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
+Erfahren Sie, wie Sie mit XPath und Namespaces SVG‑Elemente in Java präzise auswählen und verarbeiten.
 
 ---
 

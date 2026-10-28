@@ -112,6 +112,8 @@ Java で HTML を PDF に並列バッチ変換する手順を詳しく解説し�
 Aspose.HTML for Java を使い、HTML を PDF に変換する手順を詳細に解説したフルガイドです。高度な設定やベストプラクティスも紹介します。
 ### [HTML to PDF チュートリアル：ワンライン Aspose コンバータ](./html-to-pdf-tutorial-one-line-aspose-converter/)
 Aspose.HTML を使って、1 行のコードで HTML を PDF に変換する方法を紹介します。
+### [HTML to PDF チュートリアル: Java で HTML を PDF に変換](./html-to-pdf-tutorial-convert-html-to-pdf-in-java/)
+Aspose.HTML を使用して Java で HTML を PDF に変換する手順を詳しく解説します。シンプルなコードで高品質な PDF を生成できます。
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 Aspose.HTML for Java で HTML を MHTML に簡単に変換します。効率的な HTML‑to‑MHTML 変換の手順をご覧ください。
 
@@ -314,6 +316,8 @@ Aspose.HTML を使用して Java で PDF にフォントを埋め込み、文書
 Aspose.HTML の HtmlDocument を使用して Java で PDF に保存する手順をステップバイステップで解説します。
 ### [JavaでHTMLをPDFに変換 – 並列バッチ変換ガイド](./convert-html-to-pdf-in-java-parallel-batch-conversion-guide/)
 Aspose.HTML を使用して、Java で複数の HTML を同時に PDF に変換するバッチ処理方法を解説します。
+### [JavaでHTMLをPDFに変換 – 完全ステップバイステップガイド](./convert-html-to-pdf-in-java-full-step-by-step-guide/)
+Aspose.HTML を使用して、Java で HTML を PDF に変換する手順を詳細に解説します。完全なステップバイステップガイドです。
 
 ## よくある質問
 

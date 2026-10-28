@@ -175,6 +175,10 @@ Learn how to perform parallel batch HTML to PDF conversions in Java using Aspose
 Comprehensive guide to converting HTML to PDF using Aspose.HTML for Java, covering setup, options, and advanced features.
 ### [HTML to PDF Tutorial: One‑Line Aspose Converter](./html-to-pdf-tutorial-one-line-aspose-converter/)
 Convert HTML to PDF with a single line of code using Aspose.HTML's simple converter.
+### [html to pdf tutorial: Convert HTML to PDF in Java](./html-to-pdf-tutorial-convert-html-to-pdf-in-java/)
+Step-by-step tutorial on converting HTML to PDF in Java using Aspose.HTML, covering setup, code examples, and customization options.
+### [Convert HTML to PDF in Java – Full Step‑by‑Step Guide](./convert-html-to-pdf-in-java-full-step-by-step-guide/)
+Comprehensive step‑by‑step tutorial for converting HTML to PDF in Java using Aspose.HTML, covering setup, code, and customization.
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 Effortlessly convert HTML to MHTML using Aspose.HTML for Java. Follow our step-by-step guide for efficient HTML-to-MHTML conversion.
 ### [Create PDF from HTML in Java – Complete Aspose Guide](./create-pdf-from-html-in-java-complete-aspose-guide/)

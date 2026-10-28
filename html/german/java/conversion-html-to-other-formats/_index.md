@@ -119,7 +119,10 @@ Erfahren Sie, wie Sie die Sandbox von Aspose.HTML für die HTML‑zu‑PDF‑Kon
 ### [HTML zu PDF mit Aspose HTML für Java – Vollständige Anleitung](./convert-html-to-pdf-with-aspose-html-for-java-full-guide/)
 Erfahren Sie, wie Sie HTML mit Aspose HTML für Java vollständig in PDF konvertieren – Schritt für Schritt.
 
-### [HTML zu PDF in Java – Schritt‑für‑Schritt‑Anleitung mit Seitengrößeneinstellungen](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
+### [HTML‑zu‑PDF‑Tutorial: HTML in Java zu PDF konvertieren](./html-to-pdf-tutorial-convert-html-to-pdf-in-java/)
+Lernen Sie, wie Sie HTML mit Aspose.HTML in Java schnell und einfach in PDF umwandeln.
+
+### [Konvertierung von HTML zu PDF in Java – Schritt‑für‑Schritt‑Anleitung mit Seitengrößeneinstellungen](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Erfahren Sie, wie Sie HTML in Java zu PDF konvertieren und dabei die Seitengröße präzise festlegen.
 ### [PDF‑Seitengröße festlegen mit Aspose HTML – Vollständige Java‑Anleitung](./set-pdf-page-size-with-aspose-html-full-java-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML die Seitengröße von PDFs in Java präzise einstellen – komplette Schritt‑für‑Schritt‑Anleitung.
@@ -196,6 +199,9 @@ Erfahren Sie, wie Sie mit einer einzigen Zeile Code eine komplette Webseite in e
 
 ### [HTML zu PDF mit Java – Parallel‑Batch‑Leitfaden](./convert-html-to-pdf-with-java-parallel-batch-guide/)
 Erfahren Sie, wie Sie mehrere HTML‑Dateien parallel in PDF konvertieren, um die Verarbeitungsgeschwindigkeit in Java zu maximieren.
+
+### [HTML zu PDF in Java – Vollständige Schritt‑für‑Schritt‑Anleitung](./convert-html-to-pdf-in-java-full-step-by-step-guide/)
+Erfahren Sie, wie Sie HTML in Java mit Aspose.HTML vollständig und Schritt für Schritt in PDF konvertieren.
 
 ### [Konvertierung von HTML zu MHTML](./convert-html-to-mhtml/)
 Konvertieren Sie HTML mühelos zu MHTML mit Aspose.HTML für Java. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung für eine effiziente HTML‑zu‑MHTML‑Konvertierung.

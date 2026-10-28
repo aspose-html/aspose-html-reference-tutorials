@@ -78,6 +78,8 @@ url: /ru/java/editing-html-documents/
 
 ### [Получение атрибута элемента в Java – Полное руководство по выбору SVG и XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
 Узнайте, как получать атрибуты элементов SVG с помощью XPath в Aspose.HTML для Java.
+### [Запуск JavaScript в HTML с Aspose.HTML для Java – Полное руководство](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
+Узнайте, как выполнять JavaScript в HTML-документах с помощью Aspose.HTML для Java. Пошаговое полное руководство.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

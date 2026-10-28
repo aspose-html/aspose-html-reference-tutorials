@@ -162,6 +162,10 @@ Aspose.HTML สำหรับ Java นำเสนอชุดเครื่�
 เรียนรู้วิธีสร้างแท็ก div พร้อมคลาส java อย่างเต็มรูปแบบโดยใช้ Aspose.HTML สำหรับ Java
 ### [ดึง JSON ด้วย JavaScript ใน Java – คู่มือเต็ม](./fetch-json-with-javascript-in-java-full-guide/)
 เรียนรู้วิธีดึงข้อมูล JSON ด้วย JavaScript ใน Java โดยใช้ Aspose.HTML พร้อมคู่มือทีละขั้นตอนที่เข้าใจง่าย
+### [สกัดชื่อหน้าใน Java – คู่มือเต็มโดยใช้ Aspose.HTML](./extract-page-title-with-java-full-guide-using-aspose-html/)
+เรียนรู้วิธีสกัดชื่อหน้า (Page Title) จากเอกสาร HTML ด้วย Aspose.HTML สำหรับ Java ผ่านคู่มือเต็มขั้นตอน
+### [วิธีเริ่มต้น Thread ใน Java – คู่มือฉบับสมบูรณ์](./how-to-start-thread-in-java-complete-guide/)
+เรียนรู้ขั้นตอนการสร้างและจัดการ Thread ใน Java อย่างละเอียด พร้อมตัวอย่างและเคล็ดลับการใช้งานที่มีประสิทธิภาพ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

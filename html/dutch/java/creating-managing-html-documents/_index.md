@@ -79,6 +79,8 @@ Leer hoe u met Aspose.HTML in Java een HTML-document laadt en de paginatitel eff
 Leer hoe u JavaScript uitvoert binnen een HTML-document in Java en dynamisch elementen toevoegt.
 ### [HTML-element maken met Java ExecutorService – Thread‑Safe demo](./create-html-element-with-java-executorservice-thread-safe-de/)
 Leer hoe u met ExecutorService thread‑veilige HTML-elementen maakt in Java met Aspose.HTML.
+### [Pagina-titel extraheren met Java – volledige gids met Aspose.HTML](./extract-page-title-with-java-full-guide-using-aspose-html/)
+Leer hoe u met Aspose.HTML voor Java de paginatitel uit HTML kunt halen. Stapsgewijze handleiding voor snelle implementatie.
 ### [Genereer nieuwe HTML-documenten met Aspose.HTML voor Java](./generate-new-html-documents/)
 Leer hoe u nieuwe HTML-documenten maakt met Aspose.HTML voor Java met deze eenvoudige stapsgewijze handleiding. Begin met het genereren van dynamische HTML-inhoud.
 ### [HTML genereren vanuit JavaScript in Java – Complete stapsgewijze handleiding](./generate-html-from-javascript-in-java-complete-step-by-step/)
@@ -168,6 +170,8 @@ Leer hoe u HTML kunt doorzoeken met Aspose Java in deze volledige programmeergid
 Leer hoe u JSON kunt ophalen met JavaScript in Java, stap voor stap, inclusief voorbeeldcode en best practices.
 ### [JSON laden met Fetch in Java – Complete tutorial](./load-json-with-fetch-in-java-complete-guide/)
 Leer hoe u JSON kunt laden met Fetch in Java, inclusief stap‑voor‑stap handleiding en voorbeeldcode.
+### [Hoe een thread in Java te starten – Complete gids](./how-to-start-thread-in-java-complete-guide/)
+Leer stap voor stap hoe u threads start in Java met Aspose.HTML, inclusief voorbeelden en best practices.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

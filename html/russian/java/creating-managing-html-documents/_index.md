@@ -92,6 +92,8 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 ### [Создание HTML‑документа Java – пошаговое руководство с Aspose.HTML](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
 ### [Создание HTML‑документа со встроенным JavaScript – пример на Java](./create-html-document-with-embedded-javascript-java-example/)
 Узнайте, как создать HTML‑документ с встроенным JavaScript в Java, используя Aspose.HTML, с пошаговыми инструкциями и примерами.
+### [Извлечение заголовка страницы с Java – Полное руководство с использованием Aspose.HTML](./extract-page-title-with-java-full-guide-using-aspose-html/)
+Узнайте, как извлечь заголовок HTML‑страницы в Java с помощью Aspose.HTML в полном пошаговом руководстве.
 ### [Создание песочницы для HTML в Aspose.HTML для Java – пошаговое руководство](./create-sandbox-for-html-in-java-step-by-step-guide/)
 ### [Как прочитать файл XHTML в Java – пример XPath с пространством имён](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
 Узнайте, как загрузить XHTML‑файл в Java и выполнить запросы XPath с учётом пространств имён.
@@ -152,6 +154,8 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 ### [Создание div с классом java – полный пример с использованием Aspose.HTML](./create-div-with-class-java-full-example-using-aspose-html/)
 ### [Получение JSON с помощью JavaScript в Java — Полное руководство](./fetch-json-with-javascript-in-java-full-guide/)
 Узнайте, как получать JSON-данные с помощью JavaScript в Java, используя Aspose.HTML, с подробными шагами и примерами.
+### [Как запустить поток в Java – Полное руководство](./how-to-start-thread-in-java-complete-guide/)
+Подробное руководство по запуску потоков в Java, включающее примеры и лучшие практики.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

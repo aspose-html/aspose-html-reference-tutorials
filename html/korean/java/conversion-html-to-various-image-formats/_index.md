@@ -116,6 +116,8 @@ Aspose.HTML for Java를 사용해 HTML을 PNG 이미지로 변환하는 전체 �
 ### [Java에서 HTML을 PNG로 렌더링 – Bearer 토큰 및 사용자 정의 헤더 추가](./render-html-to-png-in-java-add-bearer-token-custom-headers/)
 Aspose.HTML for Java를 사용해 인증이 필요한 웹 페이지를 Bearer 토큰과 커스텀 헤더를 설정하여 PNG 이미지로 변환하는 방법을 안내합니다.
 ### [Java에서 HTML을 PNG로 렌더링 – 전체 Aspose HTML 튜토리얼](./render-html-to-png-in-java-full-aspose-html-tutorial/)
+### [HTML을 PNG로 변환 – 사용자 지정 해상도를 포함한 완전한 Java 가이드](./create-png-from-html-complete-java-guide-with-custom-resolut/)
+Aspose.HTML for Java를 사용해 HTML을 PNG로 변환하고 해상도를 직접 지정하는 단계별 완전 가이드입니다.
 ### [HTML을 TIFF로 변환](./convert-html-to-tiff/)
 Aspose.HTML for Java를 사용해 HTML을 TIFF로 쉽게 변환하는 방법을 배웁니다. 효율적인 문서 처리를 위한 단계별 가이드입니다.
 ### [HTML을 TIFF로 변환 – Java 완전 프로그래밍 가이드](./convert-html-to-tiff-in-java-complete-programming-guide/)
@@ -191,6 +193,8 @@ Aspose.HTML for Java를 사용해 렌더링 중 외부 이미지를 차단하고
 ### [SVG를 애니메이션 GIF로 변환 – 단계별 Java 가이드](./create-animated-gif-from-svg-step-by-step-java-guide/)
 ### [HTML 렌더링 방법 – Aspose HTML을 사용한 PNG 완전 가이드](./how-to-render-html-complete-aspose-html-to-png-guide/)
 Aspose.HTML를 사용해 HTML을 PNG 이미지로 렌더링하는 전체 단계별 가이드.
+### [Java로 SVG를 AVIF로 변환](./how-to-convert-svg-to-avif-with-java-step-by-step-guide/)
+Aspose.HTML for Java를 사용해 SVG를 AVIF 이미지로 변환하는 단계별 가이드입니다.
 
 ## 자주 묻는 질문
 

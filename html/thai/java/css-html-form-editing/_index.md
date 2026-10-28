@@ -126,6 +126,8 @@ url: /th/java/css-html-form-editing/
 เรียนรู้วิธีดึงพื้นหลัง CSS ใน Java ด้วย Aspose.HTML อย่างละเอียดในคู่มือฉบับสมบูรณ์นี้
 ### [วิธีใช้ CSS ใน Java – โหลด HTML, นับลิงก์ และประเมิน XPath](./how-to-use-css-in-java-load-html-count-links-evaluate-xpath/)
 เรียนรู้วิธีใช้ CSS ใน Java เพื่อโหลด HTML, นับลิงก์และประเมิน XPath ด้วย Aspose.HTML
+### [สไตล์คอมพิวท์ขององค์ประกอบใน Java – คู่มือ Aspose.HTML ฉบับสมบูรณ์](./element-computed-style-in-java-complete-aspose-html-guide/)
+เรียนรู้วิธีดึงสไตล์คอมพิวท์ขององค์ประกอบ HTML ด้วย Aspose.HTML สำหรับ Java ในคู่มือฉบับสมบูรณ์นี้
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -198,6 +198,8 @@ Aspose.HTML ให้คุณแนบ `DomMutationObserver` ไปยังโ
 ### [แปลง SVG เป็น AVIF ด้วย Java – คู่มือขั้นตอนเต็ม](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
 ### [ตั้งค่า DPI ของอุปกรณ์ใน Aspose ด้วย Java – คู่มือ Sandbox ฉบับสมบูรณ์](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
 เรียนรู้วิธีกำหนดค่า DPI ของอุปกรณ์ใน Aspose.HTML for Java ภายใน Sandbox อย่างละเอียดเพื่อการแปลงที่แม่นยำ  
+### [XPath พร้อมเนมสเปซใน Java – คู่มือฉบับสมบูรณ์สำหรับการเลือกองค์ประกอบ SVG](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
+เรียนรู้วิธีใช้ XPath กับเนมสเปซใน Java เพื่อเลือกและจัดการองค์ประกอบ SVG อย่างแม่นยำ  
 
 ---
 

@@ -141,6 +141,9 @@ weight: 24
 ### [Преобразование HTML в PNG в Java – Полное руководство Aspose.HTML](./convert-html-to-png-in-java-complete-aspose-html-guide/)
 Узнайте, как преобразовать HTML в PNG в Java с помощью Aspose.HTML. Полное пошаговое руководство.
 
+### [Создание PNG из HTML – Полное руководство Java с пользовательским разрешением](./create-png-from-html-complete-java-guide-with-custom-resolut/)
+Подробное руководство по созданию PNG из HTML в Java с настройкой пользовательского разрешения.
+
 ### [Преобразование HTML в TIFF](./convert-html-to-tiff/)
 Узнайте, как легко преобразовывать HTML в TIFF с помощью Aspose.HTML. Пошаговое руководство по эффективной обработке документов.
 
@@ -232,6 +235,8 @@ weight: 24
 
 ### [Преобразование HTML в TIFF в Java – Полное руководство по программированию](./convert-html-to-tiff-in-java-complete-programming-guide/)
 Узнайте, как преобразовать HTML в TIFF в Java с помощью Aspose.HTML. Полное пошаговое руководство.
+
+### [Как конвертировать SVG в AVIF с помощью Java – пошаговое руководство](./how-to-convert-svg-to-avif-with-java-step-by-step-guide/)
 
 ## Часто задаваемые вопросы
 

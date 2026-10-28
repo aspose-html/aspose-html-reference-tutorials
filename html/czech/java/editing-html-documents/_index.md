@@ -79,6 +79,8 @@ Naučte se, jak v Javě extrahovat text z HTML a zvýraznit vybraná slova pomoc
 
 ### [Získání atributu prvku v Javě – Kompletní průvodce výběrem SVG a XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
 Naučte se získávat atributy prvků SVG pomocí XPath v Aspose.HTML pro Java s podrobným návodem.
+### [Spusťte JavaScript v HTML pomocí Aspose.HTML pro Javu – Kompletní průvodce](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
+Naučte se, jak spouštět JavaScript v HTML dokumentech pomocí Aspose.HTML pro Javu v tomto podrobném průvodci.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

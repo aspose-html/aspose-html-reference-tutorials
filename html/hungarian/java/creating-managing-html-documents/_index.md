@@ -86,6 +86,8 @@ Ismerje meg, hogyan kérdezhet le HTML-t Aspose.HTML segítségével Java-ban, l
 Ismerje meg, hogyan kereshet HTML tartalomban az Aspose Java segítségével, lépésről‑lépésre útmutató a hatékony adatkinyeréshez.
 ### [fetch json javascript – Teljes Java útmutató HTML-dokumentum létrehozásához](./fetch-json-javascript-complete-java-guide-to-create-html-doc/)
 Ismerje meg, hogyan lehet JSON-t lekérni JavaScript‑ben, és teljes körűen létrehozni HTML-dokumentumot Java segítségével.
+### [HTML oldal címének kinyerése Java-val – Teljes útmutató az Aspose.HTML használatával](./extract-page-title-with-java-full-guide-using-aspose-html/)
+Ismerje meg, hogyan nyerheti ki egy HTML oldal címét Java és az Aspose.HTML könyvtár segítségével, lépésről lépésre.
 ### [Új HTML-dokumentumok létrehozása az Aspose.HTML for Java használatával](./generate-new-html-documents/)
 Ebből az egyszerű, lépésenkénti útmutatóból megtudhatja, hogyan hozhat létre új HTML-dokumentumokat az Aspose.HTML for Java használatával. Kezdje el a dinamikus HTML-tartalom generálását.
 ### [HTML-dokumentum létrehozása Java-ban – Lépésről‑lépésre útmutató az Aspose.HTML használatával](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
@@ -156,6 +158,8 @@ Tanulja meg, hogyan hozhat létre egy div elemet java osztállyal az Aspose.HTML
 Ismerje meg, hogyan kérhet le JSON adatot JavaScript használatával Java alkalmazásban, lépésről‑lépésre útmutató.
 ### [JSON betöltése Fetch segítségével Java-ban – Teljes útmutató](./load-json-with-fetch-in-java-complete-guide/)
 Ismerje meg, hogyan használja a Fetch API-t JSON adatok betöltésére Java alkalmazásokban, részletes, lépésről‑lépésre útmutató.
+### [Hogyan indítsunk szálat Java-ban – Teljes útmutató](./how-to-start-thread-in-java-complete-guide/)
+Ismerje meg, hogyan hozhat létre és indíthat el szálakat Java-ban lépésről lépésre, a teljes útmutatóban.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

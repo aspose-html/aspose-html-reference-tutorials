@@ -135,6 +135,8 @@ Kompletny przewodnik, jak renderować HTML i zapisywać go jako PNG przy użyciu
 ### [Utwórz PNG z HTML w Javie – Pełny przykład](./create-png-from-html-in-java-full-example/)
 Pełny przykład tworzenia pliku PNG z kodu HTML w Javie przy użyciu Aspose.HTML.
 
+### [Utwórz PNG z HTML – Kompletny przewodnik Java z niestandardową rozdzielczością](./create-png-from-html-complete-java-guide-with-custom-resolut/)
+
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
 
 ### [Utwórz baner HTML i renderuj do PNG – Pełny przewodnik Java](./create-html-banner-and-render-to-png-full-java-guide/)
@@ -197,6 +199,8 @@ Dowiedz się, jak utworzyć wielostronicowy plik TIFF z SVG w Javie przy użyciu
 
 ### [Konwertowanie HTML do WebP w Javie – Kompletny przewodnik](./convert-html-to-webp-in-java-complete-guide/)
 Dowiedz się, jak konwertować HTML do formatu WebP w Javie przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
+
+### [Jak konwertować SVG do AVIF w Javie – przewodnik krok po kroku](./how-to-convert-svg-to-avif-with-java-step-by-step-guide/)
 
 ## Najczęściej zadawane pytania
 

@@ -128,6 +128,8 @@ url: /el/java/css-html-form-editing/
 Μάθετε πώς να εξάγετε το CSS background από έγγραφα HTML χρησιμοποιώντας Aspose.HTML για Java σε αυτόν τον ολοκληρωμένο οδηγό.
 ### [Πώς να χρησιμοποιήσετε CSS σε Java – Φόρτωση HTML, Καταμέτρηση Συνδέσμων & Αξιολόγηση XPath](./how-to-use-css-in-java-load-html-count-links-evaluate-xpath/)
 Μάθετε πώς να φορτώνετε HTML, να μετράτε συνδέσμους και να αξιολογείτε XPath χρησιμοποιώντας CSS με Aspose.HTML για Java.
+### [Στυλ Υπολογιζόμενου Στοιχείου σε Java – Πλήρης Οδηγός Aspose.HTML](./element-computed-style-in-java-complete-aspose-html-guide/)
+Μάθετε πώς να λαμβάνετε και να χρησιμοποιείτε το υπολογιζόμενο στυλ ενός στοιχείου HTML σε Java με το Aspose.HTML σε αυτόν τον πλήρη οδηγό.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

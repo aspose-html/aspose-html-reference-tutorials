@@ -122,6 +122,8 @@ Fedezze fel, hogyan nyerheti ki a számított stílusokat Java-ban az Aspose.HTM
 Ismerje meg, hogyan szerezheti meg a CSS háttér értékét Java-ban az Aspose.HTML segítségével, részletes, lépésről‑lépésre útmutató.
 ### [CSS használata Java-ban – HTML betöltése, linkek számlálása és XPath kiértékelése](./how-to-use-css-in-java-load-html-count-links-evaluate-xpath/)
 Ismerje meg, hogyan tölthet be HTML-t, számolhatja meg a linkeket és értékelheti ki az XPath kifejezéseket Java-ban az Aspose.HTML segítségével.
+### [Elem számított stílus Java-ban – Teljes Aspose.HTML útmutató](./element-computed-style-in-java-complete-aspose-html-guide/)
+Ismerje meg, hogyan érheti el és használhatja az elemek számított stílusát Java-ban az Aspose.HTML segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

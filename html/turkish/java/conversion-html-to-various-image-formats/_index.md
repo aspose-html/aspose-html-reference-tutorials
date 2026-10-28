@@ -209,6 +209,10 @@ Java'da Aspose.HTML kullanarak web sayfasını PNG'ye render ederken harici resi
 ### [HTML'yi AVIF'ye Dönüştür – Aspose.HTML ile Tam Java Rehberi](./convert-html-to-avif-with-aspose-html-complete-java-guide/)
 Aspose.HTML for Java kullanarak HTML'yi AVIF formatına yüksek kaliteyle dönüştürmeyi adım adım öğrenin.
 ### [SVG'den animasyonlu GIF oluşturma – Adım‑adım Java Rehberi](./create-animated-gif-from-svg-step-by-step-java-guide/)
+### [HTML'den PNG Oluşturma – Özel Çözünürlük ile Tam Java Rehberi](./create-png-from-html-complete-java-guide-with-custom-resolut/)
+Aspose.HTML for Java kullanarak HTML'den özel çözünürlükte PNG oluşturmayı adım adım öğrenin.
+### [Java ile SVG'yi AVIF'e Dönüştürme – Adım Adım Rehber](./how-to-convert-svg-to-avif-with-java-step-by-step-guide/)
+Aspose.HTML for Java kullanarak SVG dosyalarını yüksek kalite AVIF görüntülerine dönüştürmeyi adım adım öğrenin.
 
 ## Sıkça Sorulan Sorular
 

@@ -186,6 +186,8 @@ weight: 24
 ### [Πώς να αποδώσετε HTML – Πλήρης Οδηγός Aspose HTML σε PNG](./how-to-render-html-complete-aspose-html-to-png-guide/)
 Μάθετε πώς να αποδίδετε HTML σε PNG με το Aspose.HTML, βήμα‑βήμα οδηγίες για ακριβή απόδοση εικόνας.
 ### [Δημιουργία animated gif από SVG – Οδηγός βήμα‑βήμα Java](./create-animated-gif-from-svg-step-by-step-java-guide/)
+### [Δημιουργία PNG από HTML – Πλήρης Οδηγός Java με Προσαρμοσμένη Ανάλυση](./create-png-from-html-complete-java-guide-with-custom-resolut/)
+### [Πώς να μετατρέψετε SVG σε AVIF με Java – Οδηγός βήμα‑βήμα](./how-to-convert-svg-to-avif-with-java-step-by-step-guide/)
 
 ## Συχνές Ερωτήσεις
 

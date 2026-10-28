@@ -58,6 +58,8 @@ Scopri come creare documenti HTML da stringhe in Aspose.HTML per Java con questa
 Scopri come estrarre testo da documenti HTML in Java usando Aspose.HTML con questa guida passo‑passo completa.
 ### [Crea sandbox per HTML in Java – Guida passo‑a‑passo](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Impara a creare un ambiente sandbox per HTML in Java, garantendo sicurezza e isolamento durante lo sviluppo.
+### [Estrai il titolo della pagina con Java – Guida completa usando Aspose.HTML](./extract-page-title-with-java-full-guide-using-aspose-html/)
+Scopri come estrarre il titolo di una pagina HTML in Java con Aspose.HTML in questa guida dettagliata passo‑passo.
 ### [Carica documenti HTML dall'URL in Aspose.HTML per Java](./load-html-documents-from-url/)
 Scopri come caricare facilmente documenti HTML da un URL in Java con Aspose.HTML. Tutorial passo dopo passo incluso.
 ### [Carica documento HTML Java – Guida completa con XPath e CSS](./load-html-document-java-complete-guide-with-xpath-css/)
@@ -162,6 +164,8 @@ Scopri come creare un elemento div con classe Java usando Aspose.HTML in un esem
 Impara a recuperare dati JSON usando JavaScript all'interno di applicazioni Java con questa guida passo‑passo completa.
 ### [Carica JSON con Fetch in Java – Guida completa](./load-json-with-fetch-in-java-complete-guide/)
 Scopri come caricare dati JSON usando Fetch in Java con Aspose.HTML. Guida passo‑passo completa per integrare contenuti dinamici.
+### [Come avviare un thread in Java – Guida completa](./how-to-start-thread-in-java-complete-guide/)
+Impara a creare e gestire thread in Java con Aspose.HTML, passo dopo passo, includendo esempi pratici e consigli utili.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

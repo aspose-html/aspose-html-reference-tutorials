@@ -157,6 +157,10 @@ Hướng dẫn chi tiết cách tạo thẻ div với class java trong Aspose.HT
 Hướng dẫn chi tiết cách fetch JSON bằng JavaScript trong Java, kèm ví dụ thực tế và mẹo tối ưu.
 ### [Tải JSON bằng Fetch trong Java – Hướng dẫn đầy đủ](./load-json-with-fetch-in-java-complete-guide/)
 Hướng dẫn chi tiết cách tải dữ liệu JSON bằng Fetch trong Java, bao gồm các ví dụ thực tế và các mẹo tối ưu.
+### [Trích xuất tiêu đề trang với Java – Hướng dẫn đầy đủ sử dụng Aspose.HTML](./extract-page-title-with-java-full-guide-using-aspose-html/)
+Học cách lấy tiêu đề trang HTML trong Java bằng Aspose.HTML qua hướng dẫn chi tiết từng bước.
+### [Cách bắt đầu thread trong Java – Hướng dẫn đầy đủ](./how-to-start-thread-in-java-complete-guide/)
+Hướng dẫn chi tiết cách tạo và quản lý thread trong Java, bao gồm các ví dụ thực tế và mẹo tối ưu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

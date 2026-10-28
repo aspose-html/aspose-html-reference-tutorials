@@ -124,6 +124,8 @@ Naučte se, jak pomocí Aspose.HTML pro Java získat vypočtené CSS styly a ext
 Naučte se, jak pomocí Aspose.HTML pro Java získat a manipulovat s CSS pozadím ve vašich webových stránkách.
 ### [Jak používat CSS v Javě – Načíst HTML, spočítat odkazy a vyhodnotit XPath](./how-to-use-css-in-java-load-html-count-links-evaluate-xpath/)
 Naučte se pomocí Aspose.HTML pro Java načíst HTML, spočítat odkazy a vyhodnotit XPath s využitím CSS.
+### [Element Computed Style v Javě – kompletní průvodce Aspose.HTML](./element-computed-style-in-java-complete-aspose-html-guide/)
+Naučte se získávat vypočtené styly HTML elementů v Javě pomocí Aspose.HTML a aplikovat je ve svých projektech.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -179,6 +179,8 @@ Dowiedz się, jak skonfigurować i wykorzystywać Executor z stałą pulą wątk
 Dowiedz się, jak konwertować pliki SVG do formatu AVIF w Javie, korzystając z Aspose.HTML – kompletny przewodnik krok po kroku.
 ### [Ustaw DPI urządzenia w Aspose w Javie – Kompletny przewodnik sandbox](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
 Dowiedz się, jak skonfigurować DPI urządzenia w Aspose.HTML dla Javy w środowisku sandbox, aby uzyskać wysoką jakość renderowania.
+### [XPath z przestrzeniami nazw w Javie – Kompletny przewodnik po wybieraniu elementów SVG](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
+Poznaj, jak używać XPath z przestrzeniami nazw w Javie, aby precyzyjnie wybierać elementy SVG w dokumentach HTML.
 
 ---
 

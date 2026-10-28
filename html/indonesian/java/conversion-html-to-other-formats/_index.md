@@ -377,6 +377,12 @@ Pelajari cara memanfaatkan semua inti CPU untuk mempercepat konversi batch HTML 
 ### [Tutorial HTML ke PDF: Konverter Aspose Satu Baris](./html-to-pdf-tutorial-one-line-aspose-converter/)
 Pelajari cara mengonversi HTML ke PDF dengan satu baris kode menggunakan Aspose.HTML.
 
+### [Tutorial html ke pdf: Mengonversi HTML ke PDF di Java](./html-to-pdf-tutorial-convert-html-to-pdf-in-java/)
+Pelajari cara mengonversi HTML ke PDF di Java dengan Aspose.HTML melalui contoh langkah‑demi‑langkah yang mudah diikuti.
+
+### [Mengonversi HTML ke PDF di Java – Panduan Lengkap Langkah‑demi‑Langkah](./convert-html-to-pdf-in-java-full-step-by-step-guide/)
+Panduan lengkap langkah demi langkah untuk mengonversi HTML ke PDF di Java menggunakan Aspose.HTML dengan pengaturan kustom.
+
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bisakah saya menggunakan Aspose.HTML untuk Java dalam aplikasi komersial?**  

@@ -61,6 +61,8 @@ Java で XPath と CSS セレクタを活用し、HTML ドキュメントを効�
 Java で JSON データを取得し、動的に HTML コンテンツを生成する方法をステップバイステップで解説します。
 ### [Aspose.HTML for Java で HTML ドキュメントを読み込み、ページタイトルを取得するクイックガイド](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
 Aspose.HTML for Java を使用して、HTML ドキュメントからページタイトルを簡単に取得する方法をステップバイステップで解説します。
+### [Java でページタイトルを抽出する – Aspose.HTML を使用した完全ガイド](./extract-page-title-with-java-full-guide-using-aspose-html/)
+Aspose.HTML for Java を活用し、HTML ドキュメントからページタイトルを抽出する手順を詳しく解説します。
 ### [Aspose.HTML for Java を使用して新しい HTML ドキュメントを生成する](./generate-new-html-documents/)
 この簡単なステップバイステップ ガイドで、Aspose.HTML for Java を使用して新しい HTML ドキュメントを作成する方法を学びます。動的な HTML コンテンツの生成を開始します。
 ### [Java で JavaScript から HTML を生成する – 完全ステップバイステップガイド](./generate-html-from-javascript-in-java-complete-step-by-step/)
@@ -147,6 +149,8 @@ Aspose.HTML for Java を活用し、class "java" を持つ div 要素を作成�
 Java アプリケーションで JavaScript を利用し、JSON データを取得して処理する方法をステップバイステップで解説します。
 ### [Java で Fetch を使用して JSON をロードする – 完全ガイド](./load-json-with-fetch-in-java-complete-guide/)
 Java アプリで Fetch API を利用し、JSON データを取得・処理する手順を詳しく解説します。
+### [Java でスレッドを開始する方法 – 完全ガイド](./how-to-start-thread-in-java-complete-guide/)
+Aspose.HTML を使用せずに、Java でスレッドを作成し管理する手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

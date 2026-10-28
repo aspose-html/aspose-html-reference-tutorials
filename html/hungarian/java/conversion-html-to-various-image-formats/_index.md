@@ -134,6 +134,8 @@ Ismerje meg, hogyan állíthatja be a DPI értéket SVG‑t PNG‑re konvertál�
 Ismerje meg, hogyan konvertálhat HTML‑t PNG‑be Java‑ban az Aspose.HTML‑el. Teljes, lépésről‑lépésre útmutató a hatékony konverzióhoz.
 ### [HTML renderelése – Teljes Aspose HTML‑t PNG‑be útmutató](./how-to-render-html-complete-aspose-html-to-png-guide/)
 Ismerje meg, hogyan renderelhet HTML‑t PNG‑képpé az Aspose.HTML segítségével részletes, lépésről‑lépés útmutatóval.
+### [PNG létrehozása HTML‑ből – Teljes Java útmutató egyedi felbontással](./create-png-from-html-complete-java-guide-with-custom-resolut/)
+Ismerje meg, hogyan hozhat létre egyedi felbontású PNG képeket HTML‑ből Java‑ban az Aspose.HTML segítségével.
 ### [HTML átalakítása TIFF‑be](./convert-html-to-tiff/)
 Tanulja meg, hogyan konvertálhat HTML‑t TIFF‑be az Aspose.HTML for Java segítségével. Lépésről‑lépésre útmutató a hatékony dokumentumkezeléshez.
 ### [HTML konvertálása TIFF‑be Java‑ban – Teljes programozási útmutató](./convert-html-to-tiff-in-java-complete-programming-guide/)
@@ -215,6 +217,8 @@ Ismerje meg, hogyan tilthatja le a külső képek betöltését a weboldal PNG�
 Fedezze fel, hogyan konvertálhat HTML‑t AVIF‑formátumba Java‑ban az Aspose.HTML segítségével, részletes, lépésről‑lépésre útmutatóval.
 ### [PNG létrehozása HTML‑ből Java‑ban – Teljes példa](./create-png-from-html-in-java-full-example/)
 Ismerje meg, hogyan hozhat létre PNG képet HTML‑ből Java‑ban egy részletes, teljes példán keresztül.
+### [SVG konvertálása AVIF‑be Java‑val – Lépésről‑lépésre útmutató](./how-to-convert-svg-to-avif-with-java-step-by-step-guide/)
+Ismerje meg, hogyan konvertálhat SVG‑t AVIF‑be Java‑ban az Aspose.HTML használatával. Részletes, lépésről‑lépésre útmutató a hatékony konverzióhoz.
 
 ## Gyakran ismételt kérdések
 

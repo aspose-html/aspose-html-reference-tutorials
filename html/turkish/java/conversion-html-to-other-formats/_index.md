@@ -318,6 +318,8 @@ Aspose.HTML ile HtmlDocument nesnesini PDF olarak kaydetmeyi adım adım öğren
 Sandbox ortamında HTML‑to‑PDF dönüşümünü güvenli ve izole bir şekilde gerçekleştirin.
 ### [Paralel HTML‑to‑PDF Toplu Dönüşümde Tüm CPU Çekirdeklerini Kullanma](./use-all-cpu-cores-for-parallel-html-to-pdf-batch-conversion/)
 Aspose.HTML for Java ile çoklu çekirdekleri etkin kullanarak aynı anda birden çok HTML dosyasını PDF'ye dönüştürün.
+### [HTML'den PDF'ye öğretici: Java'da HTML'yi PDF'ye dönüştürme](./html-to-pdf-tutorial-convert-html-to-pdf-in-java/)
+Java uygulamanızda HTML'yi PDF'ye dönüştürmek için adım adım öğretici.
 
 ## Sıkça Sorulan Sorular
 

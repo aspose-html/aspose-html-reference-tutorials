@@ -158,6 +158,10 @@ Aspose.HTML for Java में क्लास java वाले div को ब�
 ### [जावा में जावास्क्रिप्ट के साथ JSON फ़ेच – पूर्ण गाइड](./fetch-json-with-javascript-in-java-full-guide/)
 ### [Java में Fetch के साथ JSON लोड करें – पूर्ण गाइड](./load-json-with-fetch-in-java-complete-guide/)
 Java में Fetch API का उपयोग करके JSON डेटा लोड करने और प्रोसेस करने की पूरी चरण‑दर‑चरण मार्गदर्शिका।
+### [Java के साथ Aspose.HTML का उपयोग करके पृष्ठ शीर्षक निकालें – पूर्ण गाइड](./extract-page-title-with-java-full-guide-using-aspose-html/)
+Aspose.HTML for Java का उपयोग करके HTML पृष्ठ से शीर्षक निकालने की पूरी प्रक्रिया सीखें। चरण‑दर‑चरण मार्गदर्शिका।
+### [Java में थ्रेड कैसे शुरू करें – पूर्ण गाइड](./how-to-start-thread-in-java-complete-guide/)
+Java में थ्रेड शुरू करने की पूरी प्रक्रिया सीखें, चरण‑दर‑चरण मार्गदर्शिका और सर्वोत्तम प्रथाएँ।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

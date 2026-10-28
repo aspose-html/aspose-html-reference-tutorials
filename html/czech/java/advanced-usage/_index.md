@@ -192,6 +192,8 @@ Naučte se převést soubory EPUB do formátu DOCX pomocí Aspose.HTML pro Java 
 Naučte se převést soubory SVG do formátu AVIF v Javě pomocí Aspose.HTML, včetně nastavení kvality a optimalizace.
 ### [Nastavení DPI zařízení v Aspose.HTML pro Java – Kompletní sandbox průvodce](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
 Naučte se, jak nastavit DPI zařízení při generování PDF/XPS pomocí Aspose.HTML v Javě v sandboxovém prostředí.
+### [XPath s jmennými prostory v Javě – Kompletní průvodce výběrem SVG elementů](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
+Naučte se používat XPath s jmennými prostory v Javě pro výběr SVG elementů a efektivní manipulaci s vektorovou grafikou.
 
 ---
 

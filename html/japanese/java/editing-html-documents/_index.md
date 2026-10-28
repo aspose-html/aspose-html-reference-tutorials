@@ -72,6 +72,8 @@ Aspose.HTML for Java を使用して、テキストを検索し <mark> タグで
 Aspose.HTML for Java を使用して HTML ドキュメントから不要なスクリプトを安全に除去する手順を解説します。
 ### [Java で HTML を抽出する方法 – テキスト抽出と単語ハイライト](./how-to-extract-html-in-java-extract-text-highlight-words/)
 Aspose.HTML for Java を使用して HTML からテキストを抽出し、特定の単語をハイライトする手順を学びます。
+### [Aspose.HTML for Java を使用して HTML で JavaScript を実行する – 完全ガイド](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
+Aspose.HTML for Java を使い、HTML ドキュメント内で JavaScript を実行する手順をステップバイステップで解説します。
 ### [Fixed Thread Pool Java – ExecutorService を使用した並列 HTML クリーンアップ](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 ### [Java で body に子要素を追加 – 完全 Aspose.HTML チュートリアル](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 Aspose.HTML for Java を使用して、HTML ドキュメントの body に子要素を追加する方法をステップバイステップで学びます。

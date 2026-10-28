@@ -153,6 +153,10 @@ Naučte se načíst JSON pomocí JavaScriptu a vytvořit HTML dokument v Javě s
 Kompletní průvodce, jak pomocí Aspose.HTML pro Java vyhledávat a získávat data z HTML dokumentů.
 ### [Načtěte JSON pomocí JavaScriptu v Javě – Kompletní průvodce](./fetch-json-with-javascript-in-java-full-guide/)
 Kompletní průvodce, jak načíst JSON pomocí JavaScriptu v Javě pomocí Aspose.HTML, včetně příkladů a tipů.
+### [Extrahování názvu stránky v Javě – kompletní průvodce s Aspose.HTML](./extract-page-title-with-java-full-guide-using-aspose-html/)
+Naučte se, jak pomocí Aspose.HTML v Javě extrahovat název stránky z HTML dokumentu v tomto podrobném průvodci.
+### [Jak spustit vlákno v Javě – Kompletní průvodce](./how-to-start-thread-in-java-complete-guide/)
+Naučte se, jak spustit vlákno v Javě pomocí podrobného průvodce krok za krokem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

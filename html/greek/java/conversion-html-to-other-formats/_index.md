@@ -114,6 +114,10 @@ weight: 25
 Μάθετε πώς να επιταχύνετε τη μετατροπή HTML σε PDF σε Java με παράλληλη εκτέλεση χρησιμοποιώντας Aspose.
 ### [Δημιουργία PDF A4 με Java – Πλήρης Οδηγός Βήμα‑βήμα](./create-pdf-a4-size-with-java-full-step-by-step-guide/)
 Μάθετε πώς να δημιουργήσετε PDF σε μέγεθος A4 σε Java χρησιμοποιώντας Aspose.HTML, με πλήρη βήμα‑βήμα οδηγίες και ρυθμίσεις σελίδας.
+### [Μάθημα html σε pdf: Μετατροπή HTML σε PDF σε Java](./html-to-pdf-tutorial-convert-html-to-pdf-in-java/)
+Μάθετε πώς να μετατρέψετε HTML σε PDF σε Java με το Aspose.HTML, βήμα‑βήμα οδηγίες για γρήγορη ενσωμάτωση.
+### [Μετατροπή HTML σε PDF σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./convert-html-to-pdf-in-java-full-step-by-step-guide/)
+Αναλυτικός οδηγός για τη μετατροπή HTML σε PDF σε Java με το Aspose.HTML, βήμα‑βήμα από την αρχή μέχρι το τελικό PDF.
 ### [Μετατροπή HTML σε MHTML](./convert-html-to-mhtml/)
 Μετατρέψτε εύκολα HTML σε MHTML χρησιμοποιώντας το Aspose.HTML for Java. Ακολουθήστε τον βήμα‑βήμα οδηγό μας για αποδοτική μετατροπή HTML‑σε‑MHTML.
 ### [Μετατροπή HTML σε MHTML με Aspose.HTML – Πλήρης Οδηγός Java](./convert-html-to-mhtml-with-aspose-html-complete-java-guide/)

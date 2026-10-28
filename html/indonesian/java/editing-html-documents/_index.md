@@ -76,6 +76,7 @@ Pelajari cara menambahkan elemen child ke DOM Java menggunakan Aspose.HTML denga
 
 ### [Dapatkan Atribut Elemen Java – Panduan Lengkap Seleksi SVG dan XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
 Pelajari cara mengambil atribut elemen dalam dokumen SVG menggunakan Java, termasuk teknik seleksi dengan XPath secara lengkap.
+### [Jalankan JavaScript dalam HTML dengan Aspose.HTML untuk Java – Panduan Lengkap](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

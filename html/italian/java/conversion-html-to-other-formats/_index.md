@@ -100,6 +100,7 @@ In conclusione, padroneggiare **html to pdf java** e l'insieme più ampio di con
 ### [Converti HTML in PDF in Java – Imposta dimensione pagina e margini](./convert-html-to-pdf-in-java-set-page-size-margins/)
 ### [Converti HTML in PDF con Aspose HTML per Java – Guida completa](./convert-html-to-pdf-with-aspose-html-for-java-full-guide/)
 ### [Converti HTML in PDF in Java – Guida alla conversione batch parallela](./convert-html-to-pdf-in-java-parallel-batch-conversion-guide/)
+### [Converti HTML in PDF in Java – Guida completa passo‑a‑passo](./convert-html-to-pdf-in-java-full-step-by-step-guide/)
 ### [Conversione da HTML a MHTML](./convert-html-to-mhtml/)
 ### [Converti HTML in MHTML con Aspose.HTML – Guida completa Java](./convert-html-to-mhtml-with-aspose-html-complete-java-guide/)
 ### [Converti HTML in PDF con Java – Guida completa a PDF, PNG, DOCX e Markdown](./convert-html-to-pdf-with-java-full-guide-to-pdf-png-docx-mar/)
@@ -212,6 +213,7 @@ Imposta le dimensioni della pagina PDF durante la conversione da HTML a PDF in J
 ### [Utilizza tutti i core CPU per la conversione batch parallela da HTML a PDF](./use-all-cpu-cores-for-parallel-html-to-pdf-batch-conversion/)
 ### [Converti HTML in Markdown in Java – Guida completa di programmazione](./convert-html-to-markdown-in-java-complete-programming-guide/)
 ### [Tutorial HTML to PDF: Convertitore Aspose in una riga](./html-to-pdf-tutorial-one-line-aspose-converter/)
+### [Tutorial html to pdf: Converti HTML in PDF in Java](./html-to-pdf-tutorial-convert-html-to-pdf-in-java/)
 
 ## Domande frequenti
 

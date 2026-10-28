@@ -99,6 +99,8 @@ Java용 Aspose.HTML을 사용하여 HTML 문서에서 텍스트를 검색하는 
 Aspose.HTML for Java를 사용해 HTML을 효율적으로 쿼리하는 전체 단계별 가이드를 제공합니다.
 ### [Java용 Aspose.HTML에서 HTML 검색하는 방법 – 완전 프로그래밍 가이드](./how-to-search-html-with-aspose-java-complete-programming-gui/)
 Aspose.HTML for Java를 사용해 HTML을 검색하고 활용하는 완전 프로그래밍 가이드를 단계별로 제공합니다.
+### [Java로 페이지 제목 추출 – Aspose.HTML을 활용한 완전 가이드](./extract-page-title-with-java-full-guide-using-aspose-html/)
+Aspose.HTML for Java를 사용하여 HTML 문서에서 페이지 제목을 추출하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.HTML을 사용하여 새 HTML 문서 생성](./generate-new-html-documents/)
 이 간단한 단계별 가이드를 통해 Aspose.HTML for Java를 사용하여 새 HTML 문서를 만드는 방법을 알아보세요. 동적 HTML 콘텐츠 생성을 시작하세요.
 ### [Java용 Aspose.HTML에서 HTML 문서 만들기 – 단계별 가이드](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
@@ -160,6 +162,8 @@ Aspose.HTML for Java를 사용해 Java 예제로 임베디드 JavaScript가 포�
 Aspose.HTML for Java를 활용해 클래스가 java인 div 요소를 생성하는 전체 예제를 단계별로 안내합니다.
 ### [Java에서 JavaScript를 사용해 JSON 가져오기 – 전체 가이드](./fetch-json-with-javascript-in-java-full-guide/)
 Java 애플리케이션에서 JavaScript를 활용해 JSON 데이터를 가져오고 처리하는 방법을 단계별로 안내합니다.
+### [Java에서 스레드 시작하기 – 완전 가이드](./how-to-start-thread-in-java-complete-guide/)
+Java에서 스레드를 시작하는 방법을 단계별로 안내하는 완전 가이드입니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

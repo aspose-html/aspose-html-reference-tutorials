@@ -111,6 +111,8 @@ url: /ar/java/css-html-form-editing/
 ### [الحصول على خلفية CSS في Java – دليل Aspose.HTML الكامل](./get-css-background-in-java-complete-aspose-html-guide/)
 ### [كيفية استخدام CSS في Java – تحميل HTML، عد الروابط وتقييم XPath](./how-to-use-css-in-java-load-html-count-links-evaluate-xpath/)
 تعلم كيفية تحميل مستند HTML، استخدام CSS، عد الروابط وتطبيق تعبيرات XPath باستخدام Aspose.HTML لـ Java.
+### [نمط العنصر المحسوب في Java – دليل شامل لـ Aspose.HTML](./element-computed-style-in-java-complete-aspose-html-guide/)
+اكتشف كيفية الحصول على الأنماط المحسوبة للعناصر في Java باستخدام Aspose.HTML وتطبيقها في تطبيقاتك.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

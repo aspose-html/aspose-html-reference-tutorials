@@ -76,6 +76,8 @@ Aprenda a remover scripts de documentos HTML em Java com Aspose.HTML. Guia passo
 Aprenda a realçar trechos de HTML substituindo texto por tags <mark> usando Aspose.HTML para Java.
 ### [Liberação automática de bloqueio em Java – Tutorial de edição HTML thread‑safe](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
 Aprenda como liberar bloqueios automaticamente ao editar HTML de forma segura em ambientes multithread com Aspose.HTML para Java.
+### [Executar JavaScript em HTML com Aspose.HTML para Java – Guia Completo](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
+Aprenda a executar scripts JavaScript em documentos HTML usando Aspose.HTML para Java com este guia passo a passo.
 
 ### [Obter Atributo de Elemento em Java – Guia Completo para Seleção SVG e XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
 Aprenda a obter atributos de elementos SVG usando Java, com seleção avançada via XPath neste guia completo.

@@ -60,6 +60,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML für Java Markdown in HTML konvertieren un
 Erfahren Sie, wie Sie mit Aspose.HTML in Java ein Div-Element mit der Klasse 'java' erstellen – vollständiges Schritt‑für‑Schritt‑Beispiel.
 ### [HTML-Dokument mit eingebettetem JavaScript erstellen – Java-Beispiel](./create-html-document-with-embedded-javascript-java-example/)
 Erfahren Sie, wie Sie mit Aspose.HTML für Java ein HTML-Dokument mit eingebettetem JavaScript erstellen, inklusive Beispielcode.
+### [Seiten­titel mit Java extrahieren – Vollständiger Leitfaden mit Aspose.HTML](./extract-page-title-with-java-full-guide-using-aspose-html/)
+Lernen Sie, wie Sie mit Aspose.HTML für Java den Titel einer HTML‑Seite auslesen und verarbeiten – Schritt‑für‑Schritt‑Anleitung.
 ### [Laden Sie HTML-Dokumente von einer URL in Aspose.HTML für Java](./load-html-documents-from-url/)
 Entdecken Sie, wie Sie mit Aspose.HTML ganz einfach HTML-Dokumente von einer URL in Java laden. Schritt‑für‑Schritt‑Anleitung inklusive.
 
@@ -88,7 +90,8 @@ Erfahren Sie, wie Sie HTML in Java laden und dabei XPath‑ und CSS‑Selektoren
 Erfahren Sie, wie Sie mit Aspose.HTML für Java ein HTML‑Dokument Schritt‑für‑Schritt erstellen und anpassen.
 ### [Sandbox für HTML in Java erstellen – Schritt‑für‑Schritt‑Anleitung](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Erfahren Sie, wie Sie in Aspose.HTML für Java eine sichere Sandbox für HTML erstellen und verwalten – Schritt‑für‑Schritt‑Anleitung.
-
+### [Wie man einen Thread in Java startet – Vollständiger Leitfaden](./how-to-start-thread-in-java-complete-guide/)
+Erfahren Sie, wie Sie in Java Threads starten, verwalten und synchronisieren – Schritt‑für‑Schritt‑Anleitung.
 ### [Wie man HTML in Java abfragt – Komplettes Tutorial](./how-to-query-html-in-java-complete-tutorial/)
 ### [Wie man HTML in Java abfragt – Bild‑URLs extrahieren](./how-to-query-html-in-java-extract-image-urls/)
 Erfahren Sie, wie Sie Bild‑URLs aus HTML in Java extrahieren – Schritt‑für‑Schritt‑Anleitung mit praktischen Beispielen.

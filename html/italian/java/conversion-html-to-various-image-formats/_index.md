@@ -217,6 +217,11 @@ Scopri come convertire HTML in AVIF con Aspose.HTML per Java in questa guida com
 ### [Disabilita le immagini esterne durante il rendering della pagina web in PNG con Java](./disable-external-images-while-rendering-webpage-to-png-in-ja/)
 ### [Come renderizzare HTML – Guida completa Aspose HTML a PNG](./how-to-render-html-complete-aspose-html-to-png-guide/)
 
+### [Crea PNG da HTML – Guida completa Java con risoluzione personalizzata](./create-png-from-html-complete-java-guide-with-custom-resolut/)
+
+### [Come convertire SVG in AVIF con Java – Guida passo‑passo](./how-to-convert-svg-to-avif-with-java-step-by-step-guide/)
+Scopri come trasformare file SVG in immagini AVIF di alta qualità usando Aspose.HTML for Java, con esempi di codice passo‑passo.
+
 ## Domande frequenti
 
 **Q: Posso convertire HTML in PNG usando Java senza librerie di immagini aggiuntive?**  

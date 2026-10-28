@@ -124,6 +124,8 @@ Aspose.HTML for Java kullanarak CSS arka planını nasıl alacağınızı ve iş
 ### [Java’da CSS Kullanımı – HTML Yükleme, Bağlantıları Sayma ve XPath Değerlendirme](./how-to-use-css-in-java-load-html-count-links-evaluate-xpath/)
 Aspose.HTML for Java ile CSS'i nasıl kullanacağınızı, HTML'i nasıl yükleyeceğinizi, bağlantıları nasıl sayıp XPath'i nasıl değerlendireceğinizi öğrenin.
 
+### [Java’da Element Hesaplanmış Stili – Tam Aspose.HTML Kılavuzu](./element-computed-style-in-java-complete-aspose-html-guide/)
+Aspose.HTML for Java ile bir elementin hesaplanmış stilini alıp incelemeyi adım adım öğrenin.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

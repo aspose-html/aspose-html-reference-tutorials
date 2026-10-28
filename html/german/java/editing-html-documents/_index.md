@@ -80,6 +80,8 @@ Entdecken Sie, wie Sie mit Aspose.HTML für Java HTML extrahieren, Text auslesen
 
 ### [Abrufen von Elementattributen in Java – Komplettanleitung zur SVG-Auswahl und XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
 Erfahren Sie, wie Sie mit Aspose.HTML für Java Elementattribute aus SVGs auswählen und per XPath abfragen – Schritt für Schritt.
+### [JavaScript in HTML mit Aspose.HTML für Java ausführen – Vollständige Anleitung](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
+Erfahren Sie, wie Sie JavaScript in HTML-Dokumenten mit Aspose.HTML für Java ausführen – Schritt-für-Schritt-Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

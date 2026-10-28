@@ -60,6 +60,8 @@ Apprenez à gérer les propriétés HTML internes et externes dans Aspose.HTML p
 Apprenez à implémenter du CSS interne dans des documents HTML à l'aide d'Aspose.HTML pour Java avec notre didacticiel simple étape par étape.
 ### [Modifier le texte h1 dans un MHTML avec Java – Guide complet étape par étape](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
 Apprenez à modifier le texte h1 d'un fichier MHTML en Java grâce à un guide détaillé étape par étape.
+### [Exécuter du JavaScript dans HTML avec Aspose.HTML pour Java – Guide complet](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
+Apprenez à exécuter du JavaScript dans des documents HTML à l'aide d'Aspose.HTML pour Java grâce à ce guide complet étape par étape.
 
 ### [Libération automatique du verrou en Java – Tutoriel d'édition HTML thread‑safe](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
 Apprenez à libérer automatiquement les verrous lors de l'édition HTML thread‑safe avec Aspose.HTML pour Java.

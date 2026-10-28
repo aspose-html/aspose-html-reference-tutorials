@@ -178,6 +178,8 @@ Hướng dẫn chi tiết cách tạo và quản lý Fixed Thread Pool bằng Ex
 Hướng dẫn chi tiết cách chuyển đổi tệp SVG sang định dạng AVIF bằng Aspose.HTML for Java.
 ### [Cài đặt DPI thiết bị Aspose trong Java – Hướng dẫn Sandbox toàn diện](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
 Hướng dẫn chi tiết cách thiết lập DPI cho thiết bị khi sử dụng Aspose.HTML trong Java, bao gồm các bước trong môi trường Sandbox.
+### [XPath với Namespaces trong Java – Hướng dẫn toàn diện để chọn các phần tử SVG](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
+Tìm hiểu cách sử dụng XPath với namespaces trong Java để chọn và thao tác các phần tử SVG một cách chính xác.
 
 ---
 

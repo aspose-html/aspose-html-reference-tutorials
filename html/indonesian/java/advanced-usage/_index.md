@@ -191,6 +191,9 @@ Pelajari cara mengonversi file SVG menjadi format gambar AVIF menggunakan Aspose
 
 ### [Atur DPI Perangkat Aspose di Java – Panduan Sandbox Lengkap](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
 
+### [XPath dengan Namespace di Java – Panduan Lengkap Memilih Elemen SVG](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
+Pelajari cara menggunakan XPath dengan namespace di Java untuk memilih elemen SVG secara akurat.
+
 ---
 
 **Terakhir Diperbarui:** 2025-11-29  

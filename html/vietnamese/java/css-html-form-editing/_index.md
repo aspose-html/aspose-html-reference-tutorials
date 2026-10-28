@@ -122,6 +122,8 @@ Hướng dẫn chi tiết cách lấy style đã tính toán trong Java bằng A
 Hướng dẫn chi tiết cách lấy thuộc tính nền CSS trong Java bằng Aspose.HTML, bao gồm ví dụ thực tế và các mẹo tối ưu.
 ### [Cách sử dụng CSS trong Java – Tải HTML, Đếm liên kết và Đánh giá XPath](./how-to-use-css-in-java-load-html-count-links-evaluate-xpath/)
 Hướng dẫn cách tải tài liệu HTML, đếm số liên kết và thực hiện truy vấn XPath bằng Aspose.HTML cho Java.
+### [Kiểu tính toán của phần tử trong Java – Hướng dẫn đầy đủ Aspose.HTML](./element-computed-style-in-java-complete-aspose-html-guide/)
+Hướng dẫn chi tiết cách lấy và sử dụng kiểu tính toán của phần tử HTML trong Java bằng Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -62,6 +62,8 @@ Aspose.HTML for Java 為旨在在 Java 應用程式中無縫處理 HTML 文件�
 透過此逐步指南，了解如何從 Aspose.HTML for Java 中的字串建立 HTML 文件。
 ### [在 Java 中從 Markdown 建立 HTML – 完整逐步指南](./create-html-from-markdown-in-java-full-step-by-step-guide/)
 使用 Aspose.HTML for Java 從 Markdown 轉換為 HTML，提供完整的逐步教學，幫助您快速上手。
+### [使用 Aspose.HTML for Java 提取頁面標題 – 完整指南](./extract-page-title-with-java-full-guide-using-aspose-html/)
+了解如何使用 Aspose.HTML for Java 從 HTML 文件中提取頁面標題的完整步驟與技巧。
 ### [從 Aspose.HTML for Java 中的 URL 載入 HTML 文檔](./load-html-documents-from-url/)
 了解如何使用 Aspose.HTML 從 Java 中的 URL 輕鬆載入 HTML 文件。包括逐步教程。
 ### [如何在 Java 中載入 HTML – 逐步指南](./how-to-load-html-in-java-step-by-step-guide/)
@@ -165,6 +167,8 @@ Aspose.HTML for Java 為旨在在 Java 應用程式中無縫處理 HTML 文件�
 本教學示範如何使用 Aspose.HTML 在 Java 中建立帶有 class 'java' 的 div 元素，提供完整範例與步驟說明。
 ### [在 Java 中使用 JavaScript 抓取 JSON – 完整指南](./fetch-json-with-javascript-in-java-full-guide/)
 了解如何在 Java 應用程式中使用 JavaScript 抓取 JSON 資料的完整步驟與技巧。
+### [如何在 Java 中啟動執行緒 – 完整指南](./how-to-start-thread-in-java-complete-guide/)
+了解如何在 Java 中建立與管理執行緒的完整步驟與技巧，提升多執行緒程式設計能力。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

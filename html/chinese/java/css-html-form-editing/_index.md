@@ -126,6 +126,8 @@ url: /zh/java/css-html-form-editing/
 本教程详细讲解如何使用 Aspose.HTML for Java 获取 CSS 背景属性，实现完整的背景处理流程。
 ### [如何在 Java 中使用 CSS – 加载 HTML、统计链接并评估 XPath](./how-to-use-css-in-java-load-html-count-links-evaluate-xpath/)
 本教程演示如何在 Java 中使用 Aspose.HTML 加载 HTML、统计页面链接数量并使用 XPath 进行查询。
+### [Java 中的元素计算样式 – 完整 Aspose.HTML 指南](./element-computed-style-in-java-complete-aspose-html-guide/)
+本指南详细说明如何使用 Aspose.HTML for Java 获取元素的计算样式，包括属性解析和实际渲染结果。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

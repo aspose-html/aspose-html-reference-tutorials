@@ -194,6 +194,9 @@ Naučte se převést HTML do formátu AVIF v Javě pomocí Aspose.HTML. Kompletn
 Naučte se, jak při převodu HTML na PNG v Javě zabránit načítání externích obrázků pro rychlejší a bezpečnější renderování.
 ### [Vytvoření PNG z HTML v Javě – Kompletní příklad](./create-png-from-html-in-java-full-example/)
 ### [Jak renderovat HTML – Kompletní průvodce Aspose HTML do PNG](./how-to-render-html-complete-aspose-html-to-png-guide/)
+### [Jak převést SVG na AVIF pomocí Javy – krok za krokem průvodce](./how-to-convert-svg-to-avif-with-java-step-by-step-guide/)
+Naučte se převést SVG soubory do formátu AVIF v Javě pomocí Aspose.HTML, s podrobnými kroky a ukázkovým kódem.
+### [Vytvoření PNG z HTML – Kompletní průvodce pro Javu s vlastním rozlišením](./create-png-from-html-complete-java-guide-with-custom-resolut/)
 
 ## Často kladené otázky
 

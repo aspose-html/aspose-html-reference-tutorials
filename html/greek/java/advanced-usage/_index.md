@@ -172,6 +172,7 @@ weight: 20
 ### [Μετατροπή SVG σε AVIF με Java – Πλήρης Οδηγός Βήμα‑βήμα](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
 Μάθετε πώς να μετατρέψετε αρχεία SVG σε μορφή AVIF χρησιμοποιώντας το Aspose.HTML for Java, βήμα‑βήμα με παραδείγματα κώδικα.
 ### [Ορισμός DPI συσκευής Aspose σε Java – Πλήρης Οδηγός Sandbox](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
+### [XPath με Ονοματοχώρους σε Java – Πλήρης Οδηγός για την Επιλογή Στοιχείων SVG](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
 
 ---
 

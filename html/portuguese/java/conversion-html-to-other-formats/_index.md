@@ -298,6 +298,8 @@ Aprenda a salvar documentos HTML como PDF usando Aspose.HtmlDocument com opçõe
 Aprenda a utilizar todos os núcleos de CPU para acelerar a conversão em lote de HTML para PDF de forma paralela em Java.
 ### [Tutorial HTML para PDF: Conversor Aspose em Uma Linha](./html-to-pdf-tutorial-one-line-aspose-converter/)
 Aprenda a converter HTML para PDF com apenas uma linha de código usando Aspose.HTML for Java.
+### [Tutorial HTML para PDF: Converter HTML para PDF em Java](./html-to-pdf-tutorial-convert-html-to-pdf-in-java/)
+Aprenda a converter HTML para PDF em Java com Aspose.HTML através de um tutorial passo a passo.
 
 ## Perguntas Frequentes
 

@@ -275,6 +275,9 @@ Fedezze fel, hogyan használhatja a sandbox környezetet biztonságos HTML‑PDF
 ### [HTML konvertálása PDF-re az Aspose HTML for Java segítségével – Teljes útmutató](./convert-html-to-pdf-with-aspose-html-for-java-full-guide/)
 ### [HTML PDF oktatóanyag: egy‑soros Aspose konverter](./html-to-pdf-tutorial-one-line-aspose-converter/)
 ### [HTML átalakítása Markdownra Java‑ban – Teljes programozási útmutató](./convert-html-to-markdown-in-java-complete-programming-guide/)
+### [HTML to PDF oktatóanyag: HTML konvertálása PDF-re Java-ban](./html-to-pdf-tutorial-convert-html-to-pdf-in-java/)
+Ismerje meg, hogyan konvertálhatja a HTML-t PDF formátumba Java-ban az Aspose.HTML segítségével, részletes lépésekkel.
+### [HTML konvertálása PDF-re Java‑ban – Teljes lépésről‑lépésre útmutató](./convert-html-to-pdf-in-java-full-step-by-step-guide/)
 
 ## Gyakran Ismételt Kérdések
 

@@ -179,6 +179,8 @@ Aspose.HTML for Java kullanarak EPUB dosyalarını DOCX formatına dönüştürm
 ### [SVG'yi AVIF'e Dönüştürme – Java ile Tam Adım Adım Kılavuz](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
 ### [Aspose ile Java’da cihaz DPI ayarlama – Tam Sandbox Kılavuzu](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
 Aspose.HTML for Java kullanarak cihaz DPI değerini nasıl ayarlayacağınızı ve sandbox ortamında tam bir örnekle nasıl uygulayacağınızı öğrenin.
+### [Java’da namespace’li XPath – SVG Öğelerini Seçme Tam Kılavuzu](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
+Java’da namespace içeren XPath ifadeleriyle SVG öğelerini nasıl seçeceğinizi adım adım öğrenin.
 
 ---
 

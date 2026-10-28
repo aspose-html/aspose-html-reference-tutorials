@@ -163,6 +163,10 @@ Dowiedz się, jak efektywnie przeszukiwać dokumenty HTML w Javie przy użyciu A
 Poznaj, jak pobierać JSON w JavaScript i tworzyć dokumenty HTML w Javie przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
 ### [Pobieranie JSON za pomocą JavaScript w Javie – Pełny przewodnik](./fetch-json-with-javascript-in-java-full-guide/)
 Dowiedz się, jak pobierać dane JSON przy użyciu JavaScript w aplikacjach Java, krok po kroku.
+### [Wyodrębnianie tytułu strony w Javie – pełny przewodnik przy użyciu Aspose.HTML](./extract-page-title-with-java-full-guide-using-aspose-html/)
+Dowiedz się, jak wyodrębnić tytuł strony HTML w Javie przy użyciu Aspose.HTML w tym kompletnym przewodniku krok po kroku.
+### [Jak uruchomić wątek w Javie – Kompletny przewodnik](./how-to-start-thread-in-java-complete-guide/)
+Dowiedz się, jak uruchomić wątek w Javie, krok po kroku, z praktycznymi przykładami i najlepszymi praktykami.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -165,6 +165,10 @@ url: /el/java/creating-managing-html-documents/
 Μάθετε πώς να ανακτάτε δεδομένα JSON χρησιμοποιώντας JavaScript σε εφαρμογές Java με το Aspose.HTML, βήμα‑βήμα οδηγός.
 ### [Φόρτωση JSON με Fetch σε Java – Πλήρης οδηγός](./load-json-with-fetch-in-java-complete-guide/)
 Μάθετε πώς να φορτώνετε JSON χρησιμοποιώντας Fetch σε Java με αυτόν τον πλήρη οδηγό βήμα‑βήμα.
+### [Εξαγωγή τίτλου σελίδας με Java – Πλήρης οδηγός χρησιμοποιώντας το Aspose.HTML](./extract-page-title-with-java-full-guide-using-aspose-html/)
+Μάθετε πώς να εξάγετε τον τίτλο μιας σελίδας HTML σε Java με το Aspose.HTML, βήμα‑βήμα οδηγός.
+### [Πώς να ξεκινήσετε νήμα σε Java – Πλήρης οδηγός](./how-to-start-thread-in-java-complete-guide/)
+Μάθετε πώς να ξεκινήσετε και να διαχειριστείτε νήματα σε Java με αυτόν τον πλήρη οδηγό βήμα‑βήμα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

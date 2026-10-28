@@ -204,6 +204,8 @@ Aspose.HTML 允许您将 `DomMutationObserver` 附加到任意节点。这对于
 ### [在 Java 中设置设备 DPI – 完整沙盒指南](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
 
 
+### [XPath 与命名空间在 Java 中 – 选择 SVG 元素的完整指南](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
+
 ---
 **最后更新：** 2025-11-29  
 **测试环境：** Aspose.HTML for Java 24.11  

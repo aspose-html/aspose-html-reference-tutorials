@@ -187,6 +187,8 @@ Pelajari cara membuat GIF animasi dari file SVG menggunakan Aspose.HTML untuk Ja
 ### [Cara merender HTML – Panduan Lengkap Aspose HTML ke PNG](./how-to-render-html-complete-aspose-html-to-png-guide/)
 ### [Mengonversi HTML ke WebP di Java – Panduan Lengkap](./convert-html-to-webp-in-java-complete-guide/)
 Panduan lengkap mengonversi HTML ke format WebP menggunakan Aspose.HTML untuk Java dengan contoh kode langkah demi langkah.
+### [Buat PNG dari HTML – Panduan Lengkap Java dengan Resolusi Kustom](./create-png-from-html-complete-java-guide-with-custom-resolut/)
+### [Mengonversi SVG ke AVIF dengan Java – Panduan Langkah‑demi‑Langkah](./how-to-convert-svg-to-avif-with-java-step-by-step-guide/)
 
 ## Pertanyaan yang Sering Diajukan
 

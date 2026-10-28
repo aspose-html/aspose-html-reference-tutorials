@@ -68,6 +68,8 @@ CSS ภายนอกคือจุดที่พลังที่แท้�
 เรียนรู้วิธีปล่อยล็อคอัตโนมัติใน Java เพื่อแก้ไข HTML อย่างปลอดภัยต่อเธรดด้วย Aspose.HTML
 ### [วิธีดึง HTML ใน Java – ดึงข้อความและไฮไลท์คำ](./how-to-extract-html-in-java-extract-text-highlight-words/)
 เรียนรู้วิธีดึงข้อมูลจากไฟล์ HTML ด้วย Java พร้อมการสกัดข้อความและไฮไลท์คำสำคัญในเอกสาร
+### [เรียกใช้ JavaScript ใน HTML ด้วย Aspose.HTML สำหรับ Java – คู่มือเต็ม](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
+เรียนรู้วิธีการรัน JavaScript ในเอกสาร HTML ด้วย Aspose.HTML สำหรับ Java ผ่านคู่มือขั้นตอนเต็มรูปแบบ
 ### [Fixed thread pool Java – การทำความสะอาด HTML แบบขนานด้วย ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 ### [เพิ่ม child ไปยัง body ใน Java – บทช่วยสอนเต็ม Aspose.HTML](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 เรียนรู้วิธีเพิ่ม child element ลงใน body ของเอกสาร HTML ด้วย Aspose.HTML สำหรับ Java อย่างละเอียด

@@ -124,6 +124,8 @@ Dowiedz się, jak programowo uzyskać obliczone style CSS przy użyciu Aspose.HT
 Poznaj, jak pobrać i zastosować tło CSS w dokumentach HTML przy użyciu Aspose.HTML w Javie – praktyczny, krok po kroku przewodnik.
 ### [Jak używać CSS w Javie – ładowanie HTML, liczenie linków i ocena XPath](./how-to-use-css-in-java-load-html-count-links-evaluate-xpath/)
 Dowiedz się, jak w Javie ładować dokumenty HTML, używać CSS, liczyć linki i oceniać wyrażenia XPath przy pomocy Aspose.HTML.
+### [Obliczony styl elementu w Javie – Kompletny przewodnik Aspose.HTML](./element-computed-style-in-java-complete-aspose-html-guide/)
+Dowiedz się, jak w Javie uzyskać obliczony styl elementu przy użyciu Aspose.HTML, w praktycznym przewodniku krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

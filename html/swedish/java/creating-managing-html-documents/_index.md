@@ -95,6 +95,8 @@ Lär dig hur du söker efter text i HTML-dokument med Java. En steg-för-steg-gu
 Lär dig hur du söker och extraherar data från HTML i Java med Aspose.HTML i en komplett steg‑för‑steg‑guide.
 ### [Hur man söker i HTML med Aspose Java – Komplett programmeringsguide](./how-to-search-html-with-aspose-java-complete-programming-gui/)
 Lär dig hur du söker i HTML med Aspose Java i en komplett steg‑för‑steg‑guide.
+### [Extrahera sidtitel med Java – Fullständig guide med Aspose.HTML](./extract-page-title-with-java-full-guide-using-aspose-html/)
+Lär dig hur du extraherar sidtiteln från HTML-dokument i Java med Aspose.HTML i en komplett steg‑för‑steg‑guide.
 ### [Generera nya HTML-dokument med Aspose.HTML för Java](./generate-new-html-documents/)
 Lär dig hur du skapar nya HTML-dokument med Aspose.HTML för Java med denna enkla steg-för-steg-guide. Börja generera dynamiskt HTML-innehåll.
 
@@ -173,6 +175,8 @@ Lär dig hur du hämtar JSON med JavaScript och skapar HTML‑dokument i Java me
 Lär dig hur du skapar en div med klass i Java med Aspose.HTML i ett komplett exempel.
 ### [Hämta JSON med JavaScript i Java – Fullständig guide](./fetch-json-with-javascript-in-java-full-guide/)
 Lär dig hur du använder JavaScript för att hämta JSON-data i Java-applikationer med en komplett steg-för-steg-guide.
+### [Hur du startar tråd i Java – Komplett guide](./how-to-start-thread-in-java-complete-guide/)
+Lär dig hur du startar och hanterar trådar i Java med en komplett steg-för-steg-guide för effektiv samtidighet.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
