@@ -70,7 +70,7 @@ C#와 Aspose.HTML을 활용해 HTML을 PDF로 변환하고 ZIP 아카이브로 �
 ### [Aspose를 사용하여 HTML에서 PDF 만들기 – 단계별 가이드](./create-pdf-from-html-with-aspose-step-by-step-guide/)
 Aspose.HTML for .NET을 사용하여 HTML을 PDF로 변환하는 단계별 가이드를 확인하세요.
 ### [Aspose.HTML을 사용하여 HTML에서 PDF 만들기 – 완전 가이드](./create-pdf-from-html-complete-guide-with-aspose-html/)
-Aspose.HTML을 활용해 HTML을 PDF로 변환하는 전체 단계별 가이드입니다. 모든 설정과 코드 예제를 확인하세요.
+Aspose.HTML 활용해 HTML을 PDF로 변환하는 전체 단계별 가이드입니다. 모든 설정과 코드 예제를 확인하세요.
 ### [HTML에서 PDF 만들기 – 전체 C# 가이드 (안티앨리어싱 포함)](./create-pdf-from-html-full-c-guide-with-antialiasing/)
 Aspose.HTML for .NET을 사용하여 안티앨리어싱을 적용한 HTML을 PDF로 변환하는 전체 C# 가이드.
 ### [C#에서 HTML을 PDF로 만들기 – 완전 단계별 가이드](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
@@ -78,7 +78,7 @@ Aspose.HTML for .NET을 활용해 C#에서 HTML을 PDF로 변환하는 완전한
 ### [C#에서 HTML을 PDF로 만들기 – 전체 단계별 가이드](./create-pdf-from-html-in-c-full-step-by-step-guide/)
 Aspose.HTML for .NET을 사용하여 C#에서 HTML을 PDF로 변환하는 전체 단계별 가이드입니다.
 ### [C#를 사용하여 HTML을 PDF로 변환 – 완전 가이드](./convert-html-to-pdf-with-c-complete-guide/)
-C#와 Aspose.HTML을 활용해 HTML을 PDF로 변환하는 전체 단계별 가이드입니다.
+C#와 Aspose.HTML을 활용해 HTML을 PDF로 변환하는 전체 단계별 가이드를 제공합니다.
 ### [C#에서 HTML을 PDF로 렌더링 – 전체 단계별 가이드](./render-html-as-pdf-in-c-full-step-by-step-guide/)
 Aspose.HTML for .NET을 사용하여 C#에서 HTML을 PDF로 렌더링하는 전체 단계별 가이드를 확인하세요.
 ### [Aspose.HTML을 사용하여 .NET에서 EPUB를 이미지로 변환](./convert-epub-to-image/)
@@ -125,7 +125,7 @@ Aspose.HTML을 활용해 C#에서 웹 페이지를 ZIP 파일로 내보내는 �
 C#와 Aspose.HTML을 사용해 HTML 파일을 ZIP 압축 파일로 저장하는 단계별 가이드를 제공합니다.
 ### [맞춤 리소스 핸들러 – C#에서 웹 페이지를 ZIP으로 변환](./custom-resource-handler-convert-webpage-to-zip-in-c/)
 C#와 Aspose.HTML을 사용해 맞춤 리소스 핸들러로 웹 페이지를 ZIP 파일로 저장하는 방법을 단계별로 안내합니다.
-### [C#에서 HTML을 Zip으로 압축하는 방법 – 단계별 가이드](./how-to-zip-html-in-c-step-by-step-guide/)
+### [C#에서 HTML을 ZIP으로 압축하는 방법 – 단계별 가이드](./how-to-zip-html-in-c-step-by-step-guide/)
 Aspose.HTML for .NET과 C#를 활용해 HTML 파일을 ZIP 압축 파일로 저장하는 자세한 단계별 가이드를 제공합니다.
 ### [C#에서 ZipArchive 사용 방법 – HTML을 ZIP으로 저장](./how-to-use-ziparchive-in-c-save-html-as-zip/)
 C#의 ZipArchive 클래스를 활용해 HTML을 ZIP 파일로 저장하는 단계별 가이드를 제공합니다.
@@ -142,7 +142,7 @@ Aspose.HTML for .NET을 활용해 C#에서 HTML 출력물을 생성하는 단계
 Aspose.HTML for .NET을 사용해 HTML 문서를 생성하고 ZIP 파일로 저장하는 전체 C# 가이드.
 ### [C#에서 HTML을 ZIP으로 저장 – 전체 단계별 가이드](./save-html-to-zip-in-c-complete-step-by-step-guide/)
 Aspose.HTML for .NET을 사용해 C#에서 HTML을 ZIP 파일로 저장하는 전체 단계별 가이드를 제공합니다.
-### [C#에서 HTML을 ZIP으로 저장하는 방법 – 전체 Aspose.HTML 가이드](./how-to-save-html-as-zip-in-c-complete-aspose-html-guide/)
+### [C#에서 HTML을 ZIP으로 저장 – 전체 Aspose.HTML 가이드](./how-to-save-html-as-zip-in-c-complete-aspose-html-guide/)
 Aspose.HTML for .NET을 사용해 C#에서 HTML을 ZIP 파일로 저장하는 전체 가이드를 제공합니다.
 ### [C#에서 HTML을 ZIP으로 저장 – 완전 인메모리 예제](./save-html-to-zip-in-c-complete-in-memory-example/)
 Aspose.HTML for .NET을 사용하여 메모리 내에서 HTML을 ZIP 파일로 저장하는 방법을 단계별로 안내합니다.
@@ -181,7 +181,7 @@ Aspose.HTML for .NET을 사용하여 C#에서 HTML 파일을 ZIP으로 압축하
 ### [C#에서 HTML을 ZIP으로 저장 – 완전 단계별 가이드](./save-html-as-zip-in-c-complete-step-by-step-guide/)
 Aspose.HTML for .NET을 사용하여 C#에서 HTML을 ZIP 파일로 저장하는 방법을 단계별로 안내합니다.
 ### [C#에서 HTML을 ZIP으로 저장 – 완전 가이드](./save-html-to-zip-in-c-complete-guide/)
-Aspose.HTML for .NET을 사용하여 C#에서 HTML을 ZIP 파일로 저장하는 전체 단계별 가이드.
+Aspose.HTML for .NET을 사용하여 C#에서 HTML을 ZIP 파일로 저장하는 전체 단계별 가이드를 확인합니다.
 ### [단일 파일 HTML – C#에서 웹 페이지를 하나의 HTML 파일로 저장](./single-file-html-save-a-web-page-as-one-html-file-in-c/)
 Aspose.HTML for .NET을 사용하여 C#에서 웹 페이지를 단일 HTML 파일로 저장하는 단계별 가이드.
 ### [C#에서 HTML을 Zip으로 압축하는 방법 – 사용자 정의 리소스 핸들러 튜토리얼](./how-to-zip-html-in-c-custom-resource-handler-tutorial/)
@@ -217,6 +217,9 @@ Aspose.HTML과 C#를 활용해 웹 페이지를 ZIP 파일로 내보내는 전�
 ### [ZipHandler 사용 방법 – C#에서 웹 페이지를 ZIP으로 보관하기](./how-to-use-ziphandler-archive-webpage-as-zip-in-c/)
 C#와 Aspose.HTML을 활용해 ZipHandler로 웹 페이지를 ZIP 파일로 보관하는 단계별 가이드.
 ### [HTML을 ZIP으로 저장 – 전체 Aspose.Html 가이드](./save-html-to-zip-complete-aspose-html-guide/)
+
+### [C#에서 Aspose.HTML을 사용해 HTML을 Zip으로 압축하는 방법](./how-to-zip-html-in-c-with-aspose-html/)
+Aspose.HTML을 사용해 C#에서 HTML을 ZIP 파일로 압축하는 단계별 가이드를 제공합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

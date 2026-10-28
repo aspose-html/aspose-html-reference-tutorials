@@ -39,6 +39,9 @@ url: /ar/net/html-extensions-and-conversions/
 ## دروس حول امتدادات HTML وتحويلاتها
 
 
+### [How to zip HTML in C# with Aspose.HTML](./how-to-zip-html-in-c-with-aspose-html/)
+
+
 ### [تحويل HTML إلى PDF في .NET باستخدام Aspose.HTML](./convert-html-to-pdf/)
 قم بتحويل HTML إلى PDF بسهولة باستخدام Aspose.HTML for .NET. اتبع دليلنا خطوة بخطوة واكتشف قوة تحويل HTML إلى PDF.
 ### [إنشاء PDF من URL – دليل C# كامل](./create-pdf-from-url-complete-c-guide/)

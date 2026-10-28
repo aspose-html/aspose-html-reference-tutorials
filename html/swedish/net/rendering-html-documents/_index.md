@@ -76,7 +76,7 @@ Lås upp kraften i Aspose.HTML för .NET! Lär dig hur du renderar SVG-dokument 
 Lär dig att rendera HTML i C# med stilfulla styckeformat. En komplett guide för att anpassa och förbättra dina HTML-paragrafer.
 
 ### [Hur man renderar HTML – Komplett guide med anpassad resurs‑hanterare](./how-to-render-html-complete-guide-with-custom-resource-handl/)
-Lär dig att rendera HTML med en anpassad resurs‑hanterare i Aspose.HTML för .NET. Steg‑för‑steg‑exempel och bästa praxis.
+Lär dig rendera HTML med en anpassad resurs‑hanterare i Aspose.HTML för .NET. Steg‑för‑steg‑exempel och bästa praxis.
 ### [Hur man använder Aspose för att rendera HTML till PNG – Steg‑för‑steg‑guide](./how-to-use-aspose-to-render-html-to-png-step-by-step-guide/)
 Lär dig hur du med Aspose.HTML för .NET konverterar HTML till PNG i en detaljerad steg‑för‑steg‑handledning.
 ### [Hur man renderar HTML som PNG i C# – Steg‑för‑steg‑guide](./how-to-render-html-as-png-in-c-step-by-step-guide/)
@@ -87,7 +87,7 @@ Följ en tydlig steg‑för‑steg‑process för att konvertera HTML till PNG m
 Lär dig hur du med Aspose.HTML för .NET konverterar HTML till PNG i en komplett guide.
 ### [Skapa HTML-dokument i C# – Rendera till PNG med fet kursiv teckensnitt](./create-html-document-c-render-to-png-with-bold-italic-font/)
 Lär dig att skapa ett HTML-dokument i C# och rendera det till PNG med fet kursiv teckensnitt.
-### [Rendera HTML till PNG i C# med Aspose](./how-to-use-aspose-to-render-html-to-png-in-c/)
+### [Rendera HTML till PNG i C# med Aspose.HTML](./how-to-use-aspose-to-render-html-to-png-in-c/)
 Lär dig hur du med Aspose.HTML renderar HTML till PNG i C# med enkla steg och kodexempel.
 ### [Hur du renderar HTML till en bild med C# – Komplett guide](./how-to-render-html-to-an-image-with-c-complete-guide/)
 Lär dig steg för steg hur du med Aspose.HTML renderar HTML till en bild i C# med praktiska kodexempel.
@@ -105,12 +105,12 @@ Lär dig hur du med Aspose.HTML för .NET konverterar HTML till bild i en komple
 Lär dig hur du med Aspose.HTML för .NET konverterar HTML till PNG i en komplett steg‑för‑steg‑guide.
 ### [Hur du aktiverar kantutjämning vid rendering av HTML till PNG i C#](./how-to-enable-antialiasing-when-rendering-html-to-png-in-c/)
 Lär dig hur du aktiverar kantutjämning för att förbättra bildkvaliteten när du renderar HTML till PNG med Aspose.HTML i C#.
-### [Skapa HTML-dokument C# – Rendera HTML till PNG](./create-html-document-c-render-html-to-png/)
-Lär dig hur du skapar ett HTML-dokument i C# och renderar det till PNG med Aspose.HTML.
-### [Skapa PDF-dokument C# – Rendera HTML till PDF med Aspose](./create-pdf-document-c-render-html-to-pdf-with-aspose/)
-Lär dig hur du med Aspose.HTML för .NET konverterar HTML till PDF i en detaljerad guide.
-### [Rendera HTML till PDF och zippa det – Komplett C#-guide](./render-html-to-pdf-and-zip-it-complete-c-guide/)
-Lär dig hur du med Aspose.HTML för .NET konverterar HTML till PDF och packar dem i en zip-fil i en komplett guide.
+### [Hur du inaktiverar kantutjämning för skarpare bilder – steg‑för‑steg‑guide](./how-to-disable-antialiasing-for-sharper-images-step-by-step/)
+Lär dig hur du inaktiverar kantutjämning för att få skarpare bilder med Aspose.HTML för .NET i en detaljerad steg‑för‑steg‑guide.
+### [Hur du aktiverar kantutjämning för HTML‑till‑PDF i C#](./how-to-enable-antialiasing-for-html-to-pdf-in-c/)
+Lär dig hur du med Aspose.HTML för .NET aktiverar kantutjämning när du konverterar HTML till PDF i C#.
+### [Hur man skapar HTML-dokument och renderar HTML till bild med kantutjämning i C#](./how-to-create-html-document-and-render-html-to-image-with-an/)
+Lär dig hur du med Aspose.HTML för .NET skapar ett HTML-dokument och renderar det till en bild med kantutjämning i C#.
 ### [Rendera HTML till PNG i C# – Komplett guide med Aspose.HTML](./render-html-to-png-in-c-complete-guide-with-aspose-html/)
 Lär dig steg för steg hur du konverterar HTML till PNG i C# med Aspose.HTML i denna kompletta guide.
 ### [Rendera HTML som bild – Komplett guide för att konvertera HTML till JPEG](./render-html-as-image-complete-guide-to-convert-html-to-jpeg/)

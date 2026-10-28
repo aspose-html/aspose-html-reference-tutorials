@@ -63,7 +63,7 @@ C# में Aspose.HTML का उपयोग करके HTML पैरा�
 कस्टम रिसोर्स हैंडलर के साथ HTML रेंडर करने की पूरी प्रक्रिया सीखें।
 ### [HTML को PNG के रूप में रेंडर करने का पूर्ण C# गाइड](./how-to-render-html-as-png-complete-c-guide/)
 ### [C# में HTML को PNG में रेंडर करते समय एंटीएलियासिंग कैसे सक्षम करें](./how-to-enable-antialiasing-when-rendering-html-to-png-in-c/)
-C# में Aspose.HTML का उपयोग करके HTML को PNG में रेंडर करते समय एंटीएलियासिंग सक्रिय करने के चरण-दर-चरण निर्देश।
+C# में Aspose.HTML का उपयोग करके HTML को PNG में रेंडर करते समय एंटीएलियासिंग सक्रिय करने के चरण-दर-स्टेप निर्देश।
 
 ### [Aspose का उपयोग करके HTML को PNG में रेंडर करने का चरण‑दर‑स्टेप गाइड](./how-to-use-aspose-to-render-html-to-png-step-by-step-guide/)
 Aspose.HTML के साथ HTML को PNG फ़ॉर्मेट में बदलने की पूरी प्रक्रिया सीखें, कोड उदाहरण और टिप्स के साथ।
@@ -177,6 +177,8 @@ C# में Aspose.HTML का उपयोग करके HTML को ज़�
 
 ### [Aspose.HTML के साथ HTML को इमेज में रेंडर करें – पूर्ण C# गाइड](./render-html-to-image-with-aspose-html-complete-c-guide/)
 Aspose.HTML का उपयोग करके HTML को इमेज फ़ॉर्मेट में बदलने के चरण‑दर‑चरण निर्देश, C# कोड उदाहरणों के साथ।
+
+### [C# में HTML दस्तावेज़ बनाना और एंटीएलियासिंग के साथ HTML को इमेज में रेंडर करना](./how-to-create-html-document-and-render-html-to-image-with-an/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

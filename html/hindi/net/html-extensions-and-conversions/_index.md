@@ -39,6 +39,9 @@ Aspose.HTML for .NET सिर्फ़ एक लाइब्रेरी न�
 ## HTML एक्सटेंशन और रूपांतरण ट्यूटोरियल
 
 
+### [How to zip HTML in C# with Aspose.HTML](./how-to-zip-html-in-c-with-aspose-html/)
+
+
 ### [Aspose.HTML के साथ .NET में HTML को PDF में बदलें](./convert-html-to-pdf/)
 ### [C# में PDF पेज आकार सेट करें – HTML को PDF में बदलें](./set-pdf-page-size-in-c-convert-html-to-pdf/)
 HTML को PDF में बदलते समय PDF पेज आकार को कस्टमाइज़ करने के लिए चरण‑दर‑चरण मार्गदर्शन।

@@ -98,7 +98,7 @@ Hướng dẫn chi tiết cách sử dụng Aspose.HTML để chuyển đổi t�
 ### [Cách render HTML thành hình ảnh với C# – Hướng dẫn toàn diện](./how-to-render-html-to-an-image-with-c-complete-guide/)
 Hướng dẫn chi tiết cách chuyển đổi HTML thành hình ảnh bằng C# sử dụng Aspose.HTML, bao gồm các bước và ví dụ thực tế.
 ### [Cách render HTML thành PNG trong C# – Hướng dẫn từng bước](./how-to-render-html-to-png-in-c-step-by-step-guide/)
-Học cách chuyển đổi HTML sang PNG bằng C# với Aspose.HTML, hướng dẫn chi tiết từng bước để đạt kết quả tối ưu.
+Học cách chuyển đổi HTML sang PNG trong C# với Aspose.HTML, hướng dẫn chi tiết từng bước để đạt kết quả tối ưu.
 ### [Render HTML thành PNG và lưu vào ZIP với C# – Hướng dẫn toàn diện](./render-html-to-png-and-save-to-zip-with-c-complete-guide/)
 Học cách chuyển đổi HTML sang PNG và nén thành tệp ZIP bằng C# với Aspose.HTML, bao gồm các bước chi tiết và mẹo thực tiễn.
 ### [Tạo ảnh từ HTML trong C# – Hướng dẫn chi tiết từng bước](./create-image-from-html-in-c-complete-step-by-step-guide/)
@@ -151,6 +151,8 @@ Tìm hiểu cách kích hoạt khử răng cưa để cải thiện chất lư�
 Học cách nén tệp HTML và chuyển đổi thành PNG bằng C# với Aspose.HTML, bao gồm các bước chi tiết và mẹo thực tiễn.
 ### [Render HTML thành hình ảnh với Aspose.HTML – Hướng dẫn C# đầy đủ](./render-html-to-image-with-aspose-html-complete-c-guide/)
 Học cách chuyển đổi HTML thành hình ảnh bằng C# với Aspose.HTML, bao gồm các bước chi tiết và mẹo thực tiễn.
+### [Cách tạo tài liệu HTML và render HTML thành hình ảnh với khử răng cưa trong C#](./how-to-create-html-document-and-render-html-to-image-with-an/)
+Học cách tạo tài liệu HTML và chuyển đổi thành hình ảnh với khử răng cưa bằng C# và Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

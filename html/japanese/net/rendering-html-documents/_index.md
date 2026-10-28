@@ -64,6 +64,10 @@ C# で HTML ドキュメントを作成し、Aspose.HTML を使用して PNG 画
 
 ### [C# で HTML を PNG にレンダリングする際のアンチエイリアシングの有効化方法](./how-to-enable-antialiasing-when-rendering-html-to-png-in-c/)
 C# と Aspose.HTML を使用して、HTML を PNG にレンダリングする際にアンチエイリアシングを有効にする手順を解説します。
+
+### [C# で HTML ドキュメントを作成し、アンチエイリアシング付きで画像にレンダリングする方法](./how-to-create-html-document-and-render-html-to-image-with-an/)
+C# で HTML ドキュメントを作成し、アンチエイリアシングを有効にして画像にレンダリングする手順を解説します。
+
 ### [HTML を PNG にレンダリングする方法 – ステップバイステップ ガイド](./how-to-render-html-as-png-step-by-step-guide/)
 Aspose.HTML for .NET を使用して、HTML を PNG 画像に変換する手順をステップバイステップで解説します。
 

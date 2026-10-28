@@ -148,11 +148,13 @@ Erfahren Sie, wie Sie mit Aspose.HTML HTML in Bildformate rendern – vollständ
 Erfahren Sie, wie Sie HTML‑Inhalte erfassen und als HTTP‑Antwort mit Aspose.HTML zurücksenden – Schritt‑für‑Schritt‑Anleitung.
 
 ### [Wie Sie Antialiasing deaktivieren, um schärfere Bilder zu erhalten – Schritt‑für‑Schritt‑Leitfaden](./how-to-disable-antialiasing-for-sharper-images-step-by-step/)
-Erfahren Sie, wie Sie Antialiasing in Aspose.HTML deaktivieren, um beim Rendern schärfere Bilder zu erhalten.
+
+### [HTML-Dokument erstellen und HTML mit Antialiasing in C# zu Bild rendern](./how-to-create-html-document-and-render-html-to-image-with-an/)
+Erfahren Sie, wie Sie mit Aspose.HTML für .NET ein HTML‑Dokument erstellen und mit Antialiasing als Bild rendern.
 
 ### [HTML zu Bild rendern mit Aspose.HTML – Komplett‑Leitfaden](./render-html-to-image-with-aspose-html-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML HTML in Bildformate konvertieren – Schritt‑für‑Schritt‑Anleitung.
-### [HTML in PNG rendern in C# – Vollständiger Leitfaden](./how-to-render-html-to-png-in-c-complete-guide/)
+### [HTML in Bild rendern in C# – Vollständiger Leitfaden](./how-to-render-html-to-png-in-c-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in PNG konvertieren – vollständige C#‑Beispiele und Schritt‑für‑Schritt‑Anleitung.
 
 ### [HTML mit Aspose zu PDF rendern – Vollständiger Schritt‑für‑Schritt‑Leitfaden](./render-html-to-pdf-with-aspose-complete-step-by-step-guide/)

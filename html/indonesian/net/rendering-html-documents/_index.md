@@ -178,6 +178,11 @@ Pelajari cara mengaktifkan antialiasing saat merender HTML menjadi PNG menggunak
 ### [Render HTML ke Gambar dengan Aspose.HTML – Panduan Lengkap C#](./render-html-to-image-with-aspose-html-complete-c-guide/)
 Pelajari cara merender HTML menjadi gambar menggunakan Aspose.HTML untuk .NET dengan panduan lengkap C#.
 
+### [Cara membuat dokumen HTML dan merender HTML menjadi gambar dengan antialiasing di C#](./how-to-create-html-document-and-render-html-to-image-with-an/)
+Pelajari cara membuat dokumen HTML dan merendernya menjadi gambar dengan antialiasing menggunakan C# dan Aspose.HTML.
+
+### [Render HTML dengan Aspose.HTML – Panduan Lengkap C#](./render-html-with-aspose-html-complete-c-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

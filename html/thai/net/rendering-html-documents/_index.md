@@ -43,7 +43,7 @@ Aspose.HTML สำหรับ .NET ถือเป็นตัวเลือ�
 ### [เรนเดอร์ HTML เป็น PNG ใน .NET ด้วย Aspose.HTML](./render-html-as-png/)
 เรียนรู้การใช้งาน Aspose.HTML สำหรับ .NET: จัดการ HTML แปลงเป็นรูปแบบต่างๆ และอื่นๆ อีกมากมาย เจาะลึกบทช่วยสอนที่ครอบคลุมนี้!
 ### [เรนเดอร์ HTML เป็น PNG ใน C# – คู่มือขั้นตอนเต็ม](./render-html-to-png-in-c-complete-step-by-step-guide/)
-เรียนรู้วิธีเรนเดอร์ไฟล์ HTML เป็นรูป PNG ด้วย C# อย่างละเอียด พร้อมตัวอย่างโค้ดและขั้นตอนที่เข้าใจง่าย
+เรียนรู้วิธีเรนเดอร์ไฟล์ HTML เป็น PNG ด้วย C# อย่างละเอียด พร้อมตัวอย่างโค้ดและขั้นตอนที่เข้าใจง่าย
 
 ### [สร้างเอกสาร HTML C# – เรนเดอร์เป็น PNG ด้วย Aspose.Html](./create-html-document-c-render-to-png-with-aspose-html/)
 เรียนรู้วิธีสร้างเอกสาร HTML ด้วย C# แล้วเรนเดอร์เป็น PNG อย่างง่ายด้วย Aspose.Html
@@ -155,7 +155,7 @@ Aspose.HTML สำหรับ .NET ถือเป็นตัวเลือ�
 ### [เรนเดอร์ HTML เป็น PDF ด้วย Aspose – คู่มือขั้นตอนเต็มรูปแบบ](./render-html-to-pdf-with-aspose-complete-step-by-step-guide/)
 เรียนรู้วิธีการเรนเดอร์ไฟล์ HTML เป็น PDF ด้วย Aspose.HTML สำหรับ .NET อย่างละเอียดในคู่มือขั้นตอนเต็มรูปแบบนี้!
 ### [เรนเดอร์ HTML เป็นภาพใน C# – คู่มือ Aspose.HTML ฉบับสมบูรณ์](./render-html-to-image-in-c-complete-aspose-html-guide/)
-เรียนรู้วิธีเรนเดอร์ HTML เป็นรูปภาพด้วย C# อย่างละเอียดด้วย Aspose.HTML ในคู่มือฉบับสมบูรณ์นี้
+เรียนรู้วิธีเรนเดอร์ HTML เป็นภาพด้วย C# อย่างละเอียดด้วย Aspose.HTML ในคู่มือฉบับสมบูรณ์นี้
 
 ### [เรนเดอร์ HTML เป็นภาพใน C# – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./render-html-to-image-in-c-complete-programming-guide/)
 เรียนรู้วิธีเรนเดอร์ไฟล์ HTML เป็นรูปภาพด้วย C# อย่างละเอียดด้วย Aspose.HTML สำหรับ .NET
@@ -168,6 +168,8 @@ Aspose.HTML สำหรับ .NET ถือเป็นตัวเลือ�
 ### [เรนเดอร์ HTML เป็นภาพด้วย Aspose.HTML – คู่มือ C# ฉบับสมบูรณ์](./render-html-to-image-with-aspose-html-complete-c-guide/)
 เรียนรู้วิธีเรนเดอร์ HTML เป็นภาพด้วย Aspose.HTML สำหรับ .NET ด้วย C# อย่างละเอียดในคู่มือฉบับสมบูรณ์
 
+### [วิธีสร้างเอกสาร HTML และเรนเดอร์ HTML เป็นภาพพร้อม Antialiasing ด้วย C#](./how-to-create-html-document-and-render-html-to-image-with-an/)
+ 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
