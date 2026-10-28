@@ -1,0 +1,7 @@
+Title: Open Links New Tab – Complete Guide to Updating HTML Anchors
+Slug: open-links-new-tab-complete-guide-to-updating-html-anchors
+Category: general
+ProcessedDate: 2026-07-05T20:44:16.043115
+SourceRepo: AI Search API
+Keywords: open links new tab, add target blank, change link target, attribute contains selector, save modified html
+PRNumber: 204

@@ -31,7 +31,7 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 
 ## Создание HTML-документов из строк и URL-адресов
 
-Представьте, что вам нужно генерировать HTML-контент на лету на основе ввода пользователя или данных, полученных из Интернета. Вот где создание HTML-документов из строк или загрузка их напрямую из URL-адресов становится бесценным. Aspose.HTML для Java позволяет вам легко создавать HTML-документы с использованием необработанных HTML-строк или загружать их с любого веб-адреса. Эти руководства предоставляют вам инструменты для динамического создания и управления веб-контентом, делая ваши Java-приложения более гибкими и отзывчивыми.[Читать далее](./create-html-documents-from-string/)
+Представьте, что вам нужно генерировать HTML-контент на лету на основе ввода пользователя или данных, полученных из Интернета. Вот где создание HTML-документов из строк или загрузка их напрямую из URL-адресов становится бесценным. Aspose.HTML для Java позволяет вам легко создавать HTML документы с использованием необработанных HTML-строк или загружать их с любого веб-адреса. Эти руководства предоставляют вам инструменты для динамического создания и управления веб-контентом, делая ваши Java-приложения более гибкими и отзывчивыми.[Читать далее](./create-html-documents-from-string/)
 
 ## Создание новых HTML-документов и обработка расширенной загрузки файлов
 
@@ -42,30 +42,118 @@ Aspose.HTML для Java предлагает мощный набор инстр�
  Наконец, для тех, кто хочет еще больше продвинуть свои навыки, есть множество продвинутых тем для изучения. Узнайте, как управлять документами SVG или обрабатывать события загрузки документов для создания адаптивных и динамических веб-приложений. Эти руководства выведут вас за рамки HTML, погрузившись в тонкости масштабируемой векторной графики (SVG) и событийно-управляемого программирования.[Читать далее](./create-manage-svg-documents/)
 
 ## Создание и управление HTML-документами в Aspose.HTML для Java Tutorials
+
 ### [Асинхронное создание HTML-документов в Aspose.HTML для Java](./create-html-documents-async/)
 Освойте асинхронное создание HTML-документов с помощью Aspose.HTML для Java. Пошаговое руководство, советы и часто задаваемые вопросы включены для быстрого обучения.
 ### [Создание пустых HTML-документов в Aspose.HTML для Java](./create-empty-html-documents/)
-Узнайте, как создавать пустые HTML-документы на Java с помощью Aspose.HTML, с помощью нашего подробного пошагового руководства, которое идеально подойдет разработчикам всех уровней.
+Узнайте, как создавать пустые HTML документы на Java с помощью Aspose.HTML, с помощью нашего подробного пошагового руководства, которое идеально подойдет разработчикам всех уровней.
 ### [Загрузка HTML-документов из файла в Aspose.HTML для Java](./load-html-documents-from-file/)
 Откройте для себя мощь манипуляции HTML с Aspose.HTML для Java. Научитесь загружать HTML-документы из файлов с помощью пошаговых руководств.
 ### [Расширенная загрузка файлов для HTML-документов в Aspose.HTML для Java](./advanced-file-loading-html-documents/)
 Узнайте, как загружать, изменять и сохранять HTML-документы с помощью Aspose.HTML для Java в этом пошаговом руководстве. Откройте для себя расширенную обработку HTML в своих проектах Java.
 ### [Загрузка HTML-документов из потока с помощью Aspose.HTML для Java](./load-html-documents-from-stream/)
-Узнайте, как загружать HTML-документы из потоков с помощью Aspose.HTML для Java. Это руководство содержит пошаговое руководство по бесшовной обработке HTML.
+Узнайте, как загружать HTML документы из потоков с помощью Aspose.HTML для Java. Это руководство содержит пошаговое руководство по бесшовной обработке HTML.
 ### [Создание HTML-документов из строки в Aspose.HTML для Java](./create-html-documents-from-string/)
-Узнайте, как создавать HTML-документы из строк в Aspose.HTML для Java с помощью этого пошагового руководства.
+Узнайте, как создавать HTML документы из строк в Aspose.HTML для Java с помощью этого пошагового руководства.
+### [Создание HTML-документа с Java – получение JSON и генерация контента](./create-html-document-with-java-fetch-json-and-generate-conte/)
+Узнайте, как получать JSON в Java и генерировать HTML‑контент с помощью Aspose.HTML, пошаговое руководство.
+### [Создание HTML из Markdown в Java – Полное пошаговое руководство](./create-html-from-markdown-in-java-full-step-by-step-guide/)
+Узнайте, как преобразовать Markdown в HTML в Java с помощью Aspose.HTML, следуя полному пошаговому руководству.
 ### [Загрузка HTML-документов из URL в Aspose.HTML для Java](./load-html-documents-from-url/)
 Узнайте, как легко загружать HTML-документы из URL в Java с помощью Aspose.HTML. Пошаговое руководство включено.
+### [Итерация NodeList Java – чтение HTML и получение src изображения](./iterate-nodelist-java-read-html-get-image-src/)
+Узнайте, как проходить по NodeList в Java, читать HTML и извлекать атрибут src изображений с помощью Aspose.HTML.
+### [Загрузка HTML-документа Java – Полное руководство с XPath и CSS](./load-html-document-java-complete-guide-with-xpath-css/)
+Узнайте, как загружать HTML-документы в Java с помощью Aspose.HTML, используя XPath и CSS для точного выбора и стилизации.
+### [Загрузка HTML-документа Aspose – Быстрое руководство Java по получению заголовка страницы](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
+Узнайте, как быстро получить заголовок страницы из HTML-документа с помощью Aspose.HTML в Java.
+### [Загрузка JSON с помощью Fetch в Java — полное руководство](./load-json-with-fetch-in-java-complete-guide/)
+Узнайте, как загружать JSON-данные с помощью Fetch API в Java, пошаговое полное руководство.
 ### [Создание новых HTML-документов с помощью Aspose.HTML для Java](./generate-new-html-documents/)
-Узнайте, как создавать новые HTML-документы с помощью Aspose.HTML для Java с помощью этого простого пошагового руководства. Начните создавать динамический HTML-контент.
+Узнайте, как создавать новые HTML документы с помощью Aspose.HTML для Java с помощью этого простого пошагового руководства. Начните создавать динамический HTML-контент.
+### [Как загрузить HTML в Java – сравнение XPath и CSS‑селекторов](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
+Узнайте, как загружать HTML в Java и сравните использование XPath и CSS‑селекторов для выбора элементов.
+### [Создание HTML‑элемента с помощью Java ExecutorService – демонстрация потокобезопасности](./create-html-element-with-java-executorservice-thread-safe-de/)
+Показано, как безопасно создавать HTML‑элементы в многопоточной среде Java с использованием ExecutorService.
 ### [Обработка событий загрузки документа в Aspose.HTML для Java](./handle-document-load-events/)
 Изучите обработку событий загрузки документов в Aspose.HTML для Java с помощью этого пошагового руководства. Улучшите свои веб-приложения.
+### [Как использовать XPath в Java – чтение HTML и извлечение текста](./how-to-use-xpath-in-java-read-html-and-extract-text/)
+Узнайте, как применять XPath в Java для чтения HTML‑документов и извлечения нужного текста с помощью Aspose.HTML.
 ### [Создание и управление документами SVG в Aspose.HTML для Java](./create-manage-svg-documents/)
 Научитесь создавать и управлять документами SVG с помощью Aspose.HTML для Java! Это всеобъемлющее руководство охватывает все: от базового создания до продвинутой манипуляции.
+### [Как парсить HTML в Java – загрузка, запрос и подсчет элементов](./how-to-parse-html-java-load-query-count-elements/)
+Узнайте, как загружать HTML, выполнять запросы и подсчитывать элементы в Java с помощью Aspose.HTML.
+### [Извлечение текста из HTML в Java — полное руководство по программированию](./extract-text-from-html-in-java-complete-programming-guide/)
+Узнайте, как извлекать текстовое содержимое из HTML‑документов в Java с помощью Aspose.HTML, пошаговое полное руководство.
+### [Как использовать querySelectorAll в Java – фильтрация по классу](./how-to-use-queryselectorall-in-java-filter-by-class/)
+Узнайте, как применять метод querySelectorAll в Java для выбора элементов по классу с помощью Aspose.HTML.
+### [Как искать HTML с помощью Aspose Java — Полное руководство по программированию](./how-to-search-html-with-aspose-java-complete-programming-gui/)
+Подробное руководство по поиску и извлечению данных из HTML с использованием Aspose.HTML для Java.
+### [Создание HTML‑документа Java – пошаговое руководство с Aspose.HTML](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
+### [Создание HTML‑документа со встроенным JavaScript – пример на Java](./create-html-document-with-embedded-javascript-java-example/)
+Узнайте, как создать HTML‑документ с встроенным JavaScript в Java, используя Aspose.HTML, с пошаговыми инструкциями и примерами.
 ### [Извлечение заголовка страницы с Java – Полное руководство с использованием Aspose.HTML](./extract-page-title-with-java-full-guide-using-aspose-html/)
 Узнайте, как извлечь заголовок HTML‑страницы в Java с помощью Aspose.HTML в полном пошаговом руководстве.
 ### [Создание песочницы для HTML в Aspose.HTML для Java – пошаговое руководство](./create-sandbox-for-html-in-java-step-by-step-guide/)
+### [Как прочитать файл XHTML в Java – пример XPath с пространством имён](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
+Узнайте, как загрузить XHTML‑файл в Java и выполнить запросы XPath с учётом пространств имён.
 ### [Как выполнять запросы к HTML в Java – полное руководство](./how-to-query-html-in-java-complete-tutorial/)
+### [Выполнение асинхронного JavaScript в Java – Полное пошаговое руководство](./execute-async-javascript-in-java-complete-step-by-step-guide/)
+Узнайте, как выполнять асинхронный JavaScript в Java с помощью Aspose.HTML, следуя подробному пошаговому руководству.
+### [Подсчет символов HTML в Java – Полное руководство с Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
+Узнайте, как подсчитать количество символов HTML в Java с помощью Aspose.HTML, следуя пошаговому полному руководству.
+
+
+
+
+
+
+
+### [Генерация HTML из JavaScript в Java — Полное пошаговое руководство](./generate-html-from-javascript-in-java-complete-step-by-step/)
+Узнайте, как генерировать HTML из JavaScript в Java с помощью Aspose.HTML, следуя полному пошаговому руководству.
+
+
+
+
+
+
+
+### [Итерация по NodeList в Java – Полное руководство](./iterate-over-nodelist-java-complete-guide/)
+Узнайте, как эффективно перебрать элементы NodeList в Java с помощью Aspose.HTML, шаг за шагом.
+### [Извлечение текста из HTML с помощью Java – Полное пошаговое руководство](./extract-text-from-html-with-java-complete-step-by-step-guide/)
+Узнайте, как извлекать текст из HTML‑документов в Java с помощью Aspose.HTML, следуя подробному пошаговому руководству.
+### [Как выполнять запросы к HTML в Java – извлечение URL изображений](./how-to-query-html-in-java-extract-image-urls/)
+Узнайте, как извлекать URL изображений из HTML с помощью Aspose.HTML для Java. Пошаговое руководство.
+### [Как парсить HTML в Java – извлечение текста из HTML‑статей](./how-to-parse-html-in-java-extract-text-from-html-articles/)
+Узнайте, как с помощью Aspose.HTML для Java извлекать текст из HTML‑статей, используя парсинг и обработку контента.
+### [JavaScript setTimeout async: запуск JavaScript в Java и обновление HTML](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
+Узнайте, как выполнять асинхронный JavaScript с помощью setTimeout в Java и динамически обновлять HTML‑страницы.
+### [Как загрузить HTML в Java – пошаговое руководство](./how-to-load-html-in-java-step-by-step-guide/)
+Узнайте, как загружать HTML в Java с Aspose.HTML, следуя пошаговому руководству и практическим примерам.
+### [Выполнение JavaScript в Java – Запуск JS в HTML и добавление элементов](./execute-javascript-java-run-js-on-html-append-elements/)
+Узнайте, как выполнить JavaScript в Java, запустить скрипт в HTML и добавить новые элементы в документ с помощью Aspose.HTML.
+### [Как выполнять запросы XPath в Java с Aspose – пошаговое руководство](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
+Узнайте, как выполнять запросы XPath в Java с помощью Aspose.HTML, пошаговое руководство.
+### [Запуск нескольких потоков в Java – использование try-with-resources](./run-multiple-threads-java-use-try-with-resources-java/)
+Узнайте, как эффективно управлять несколькими потоками в Java, используя конструкцию try-with-resources для безопасного освобождения ресурсов.
+### [Отображение HTML в Java – Полное руководство по ожиданию загрузки страницы и использованию query selector](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
+Узнайте, как рендерить HTML в Java, ждать полной загрузки страницы и использовать query selector для извлечения элементов.
+### [Конвертировать Markdown в HTML в Java – пошаговое руководство](./convert-markdown-to-html-in-java-step-by-step-guide/)
+Узнайте, как преобразовать Markdown в HTML в Java с помощью Aspose.HTML, следуя пошаговым инструкциям.
+### [Выбор div по классу в Java – Полное руководство по XPath](./select-div-by-class-in-java-complete-xpath-guide/)
+Узнайте, как выбирать элементы div по классу в Java с помощью XPath, следуя подробному пошаговому руководству.
+### [Извлечение HTML из MHTML – Полное руководство по Java](./extract-html-from-mhtml-complete-java-guide/)
+Узнайте, как извлекать HTML из файлов MHTML в Java с помощью Aspose.HTML, пошаговое полное руководство.
+### [Как искать HTML – Руководство Java по поиску текста](./how-to-search-html-java-guide-for-finding-text/)
+Узнайте, как находить нужный текст в HTML с помощью Aspose.HTML для Java. Пошаговое руководство и примеры кода.
+### [Конвертировать Markdown в HTML в Java – Быстрое руководство с Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
+Узнайте, как быстро преобразовать Markdown в HTML в Java с помощью Aspose.HTML, следуя простому пошаговому руководству.
+### [Как выполнять запросы к HTML с Aspose.HTML – Полное руководство по Java](./how-to-query-html-with-aspose-html-complete-java-guide/)
+Узнайте, как выполнять запросы к HTML в Java с помощью Aspose.HTML, полное пошаговое руководство.
+### [fetch json javascript – Полное руководство Java по созданию HTML‑документа](./fetch-json-javascript-complete-java-guide-to-create-html-doc/)
+### [Создание div с классом java – полный пример с использованием Aspose.HTML](./create-div-with-class-java-full-example-using-aspose-html/)
+### [Получение JSON с помощью JavaScript в Java — Полное руководство](./fetch-json-with-javascript-in-java-full-guide/)
+Узнайте, как получать JSON-данные с помощью JavaScript в Java, используя Aspose.HTML, с подробными шагами и примерами.
 ### [Как запустить поток в Java – Полное руководство](./how-to-start-thread-in-java-complete-guide/)
 Подробное руководство по запуску потоков в Java, включающее примеры и лучшие практики.
 
