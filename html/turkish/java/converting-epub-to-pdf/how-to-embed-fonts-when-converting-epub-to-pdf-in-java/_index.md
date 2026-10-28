@@ -1,26 +1,24 @@
 ---
 category: general
-date: 2026-01-01
-description: Java’da EPUB’yi PDF’ye dönüştürürken nasıl font gömülür. PDF sayfa boyutunu
-  ayarlamayı öğrenin ve sorunsuz bir EPUB‑to‑PDF Java dönüşümü için Aspose HTML’yi
-  kullanın.
+date: 2026-04-12
+description: Java’da Aspose.HTML kullanarak EPUB’i PDF’ye dönüştürürken PDF sayfa
+  boyutunu nasıl ayarlayacağınızı ve yazı tiplerini nasıl gömeceğinizi öğrenin. Bu
+  rehber, tam Java EPUB’tan PDF’ye iş akışını adım adım size gösterir.
 draft: false
 keywords:
-- how to embed fonts
-- convert epub to pdf
-- how to convert epub
 - set pdf page size
-- epub to pdf java
-language: tr
-og_description: Java'da EPUB'u PDF'ye dönüştürürken yazı tiplerini nasıl gömülür.
-  Bu rehber, PDF sayfa boyutunu nasıl ayarlayacağınızı ve güvenilir bir EPUB‑to‑PDF
-  Java dönüşümünü adım adım gösterir.
-og_title: Java'da EPUB'ten PDF'ye Dönüştürürken Yazı Tiplerini Nasıl Gömülür
+- embed fonts pdf
+- convert epub to pdf
+- java epub to pdf
+- custom pdf page size
+og_description: Java'da Aspose.HTML ile EPUB'yi PDF'ye dönüştürürken PDF sayfa boyutunu
+  ayarlamayı ve fontları gömmeyi öğrenin.
+og_title: Java'da EPUB'ten PDF'ye PDF Sayfa Boyutunu Ayarlayın ve Yazı Tiplerini Gömün
 tags:
 - Java
 - PDF
 - EPUB
-title: Java'da EPUB'tan PDF'ye Dönüştürürken Yazı Tiplerini Nasıl Gömülür?
+title: Java'da EPUB'ten PDF'ye PDF Sayfa Boyutunu Ayarlama ve Yazı Tiplerini Gömme
 url: /tr/java/converting-epub-to-pdf/how-to-embed-fonts-when-converting-epub-to-pdf-in-java/
 ---
 
@@ -28,24 +26,31 @@ url: /tr/java/converting-epub-to-pdf/how-to-embed-fonts-when-converting-epub-to-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java’da EPUB’yi PDF’ye Dönüştürürken Fontları Nasıl Gömülür
+# PDF Sayfa Boyutunu Ayarlama ve EPUB'ten PDF'ye Java'da Yazı Tipi Gömme
 
-**Fontları nasıl gömeceğinizi** merak ettiniz mi, böylece dönüştürülen PDF, orijinal EPUB gibi görünür? Tek başınıza değilsiniz—birçok geliştirici ilk dönüşüm denemesinden hemen sonra font eksikliği sorunuyla karşılaşıyor. İyi haber şu ki, Aspose.HTML for Java ile sadece birkaç satır kodla font gömme, sayfa boyutu ve tüm dönüşüm hattını kontrol edebilirsiniz.
+Eğer **PDF sayfa boyutunu ayarlamanız** ve **EPUB'ten PDF'ye dönüştürürken** ortaya çıkan belgenin kaynak dosyayla tam olarak aynı görünmesini garanti etmek istiyorsanız doğru yerdesiniz. Bu öğreticide, **pdf yazı tiplerini gömme**, **özel pdf sayfa boyutu** seçme ve Aspose.HTML ile dönüşümü çalıştırma konularını gösteren eksiksiz, üretime hazır bir Java örneği üzerinden adım adım ilerleyeceğiz. Sonunda, her seferinde doğru bir PDF üreten çalıştırılabilir bir programınız olacak.
 
-Bu öğreticide **epub to pdf** dönüşüm sürecini Java ile adım adım inceleyecek, **pdf sayfa boyutunu nasıl ayarlayacağınızı** gösterecek ve font gömmenin platformlar arası tutarlılık için neden önemli olduğunu açıklayacağız. Sonunda, gömülü fontlar ve seçtiğiniz sayfa boyutuyla herhangi bir EPUB dosyasını kusursuz bir PDF’ye dönüştüren, çalıştırmaya hazır bir programınız olacak.
+## Hızlı Yanıtlar
+- **Ana hedef nedir?** Java'da EPUB'ten PDF'ye dönüştürürken PDF sayfa boyutunu ayarlamak ve yazı tiplerini gömmek.  
+- **Hangi kütüphane kullanılmalı?** Aspose.HTML for Java (ücretsiz deneme sürümü mevcut).  
+- **Üretim için lisansa ihtiyacım var mı?** Evet – lisans, değerlendirme filigranını kaldırır.  
+- **Özel bir sayfa boyutu kullanabilir miyim?** Kesinlikle – tam boyutları geçebilir veya A4, LETTER gibi yerleşik enum'ları kullanabilirsiniz.  
+- **Hangi Java sürümü gerekiyor?** Java 17 veya daha yenisi önerilir.
 
-> **Önkoşullar**  
-> * Java 17 veya daha yeni bir sürüm (API daha eski sürümlerle de çalışır ancak 17 önerilir).  
-> * Aspose.HTML for Java kütüphanesi – Maven Central’dan temin edebilirsiniz.  
-> * Test etmek için bir örnek EPUB dosyası.  
+### Önkoşullar
+- Java 17+ yüklü.  
+- Projeye Aspose.HTML for Java eklenmiş (Maven, Gradle veya manuel JAR).  
+- Dönüştürmek istediğiniz bir EPUB dosyası.
 
-Maven ya da Gradle kullanıyorsanız hazırsınız. Aksi takdirde JAR dosyasını indirip sınıf yolunuza ekleyin—hiç sorun değil.
+> Gradle tercih ediyorsanız, Maven kod parçacığını eşdeğer Gradle koordinatlarıyla değiştirmeniz yeterlidir.
 
 ---
 
-## PDF Çıktısında Fontları Nasıl Gömülür
+## Neden PDF'de Yazı Tipi Gömülür?
 
-Fontları gömmek, PDF’nin herhangi bir cihazda aynı tipografiyi göstermesini sağlar; izleyicide orijinal font yüklü olmasa bile. Aspose.HTML bu işlemi tek bir anahtarla açmanıza izin verir.
+Yazı tiplerini gömmek, kaynak EPUB'un görsel tasarımını kilitler; böylece PDF, izleyicide orijinal tipografi yüklü olmasa bile doğru şekilde görüntülenir. Gömme yapılmazsa, başlıklar Arial gibi varsayılan yazı tiplerine geri dönebilir ve uzun süredir üzerinde çalıştığınız düzen bozulur.
+
+**Pro tip:** EPUB'ta kullanılan tam yazı tiplerini biliyorsanız, Aspose'a bu `.ttf` veya `.otf` dosyalarını içeren bir klasörü `pdfOptions.setFontsFolder("path/to/fonts")` ile gösterin. Bu, dönüşümü hızlandırır ve nihai dosya boyutunu azaltır.
 
 ```java
 // Configure PDF save options
@@ -53,15 +58,11 @@ PdfSaveOptions pdfOptions = new PdfSaveOptions();
 pdfOptions.setEmbedFonts(true);               // <-- This line embeds all used fonts
 ```
 
-Bu neden önemli? PDF’yi yalnızca sistemin varsayılan fontlarına sahip bir müşteriye gönderdiğinizi hayal edin. Font gömülmemişse başlıklar Arial ya da Times New Roman’a düşebilir ve tasarımınız bozulur. Fontları gömerek görsel tasarımı sabitlemiş ve PDF’yi gerçekten taşınabilir hâle getirmiş olursunuz.
-
-> **İpucu:** EPUB’unuzun kullandığı kesin fontları biliyorsanız, `pdfOptions.setFontsFolder("path/to/fonts")` ile özel bir font klasörü de belirtebilirsiniz. Bu, dönüşümü hızlandırır ve gereksiz font gömmesini önler.
-
 ---
 
-## Java’da EPUB’u PDF’ye Dönüştürme – Tam İş Akışı
+## Java'da EPUB'ten PDF'ye Dönüştürme – Tam İş Akışı
 
-Aşağıda ihtiyacınız olan minimal fakat eksiksiz kod yer alıyor. Üç temel adımı kapsar: kaynak EPUB’un konumunu bulma, PDF seçeneklerini (sayfa boyutu dahil) yapılandırma ve dönüşümü başlatma.
+Aşağıda ihtiyacınız olan minimal ama eksiksiz kod yer alıyor. Üç temel adımı kapsar: kaynak EPUB'u bulma, PDF seçeneklerini yapılandırma (**PDF sayfa boyutunu ayarlama** dahil) ve dönüşümü başlatma.
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -89,30 +90,29 @@ public class EpubToPdfDemo {
 
 ### Arkada Ne Oluyor?
 
-1. **Kaynak EPUB** – `epubPath` değişkeni, Aspose’a EPUB konteynerini nereden okuyacağını söyler.  
-2. **PDF Seçenekleri** – `PdfSaveOptions`, font gömme (`setEmbedFonts`) ve sayfa boyutlarını (`setPageSize`) ayarlamanızı sağlar. `PageSize.LETTER` enum’u ABD‑letter için uygundur; ayrıca `A4`, `A5` gibi seçenekleri de tercih edebilirsiniz.  
-3. **Düşüm Çağrısı** – `Converter.convert`, dönüşümün ağır işini yapar. EPUB’u ayrıştırır, her XHTML sayfasını bir PDF sayfasına render eder, seçenekleri uygular ve sonucu yazar.
+1. **Kaynak EPUB** – `epubPath`, Aspose'a EPUB konteynerini nereden okuyacağını söyler.  
+2. **PDF Seçenekleri** – `PdfSaveOptions`, yazı tipi gömme (`setEmbedFonts`) ve sayfa boyutlarını (`setPageSize`) ayarlamanıza imkan verir. `PageSize.LETTER` enum'u ABD mektup boyutu için kullanışlıdır; ayrıca `A4`, `A5` gibi seçenekleri de tercih edebilirsiniz.  
+3. **Dönüşüm Çağrısı** – `Converter.convert`, EPUB'u ayrıştırır, her XHTML sayfasını bir PDF sayfasına render eder, seçenekleri uygular ve sonucu yazar.
 
-Metod, açıklık sağlamak amacıyla genel bir `Exception` fırlatır; üretim ortamında `IOException`, `FileNotFoundException` gibi daha spesifik istisnaları yakalayıp uygun şekilde ele almanız gerekir.
+Metod, açıklık sağlamak amacıyla genel bir `Exception` fırlatır; üretimde `IOException`, `FileNotFoundException` gibi daha spesifik alt sınıfları yakalayıp uygun şekilde ele almanız önerilir.
 
 ---
 
-## Sonuç PDF’si İçin PDF Sayfa Boyutunu Ayarlama
+## Sonuç İçin PDF Sayfa Boyutunu Ayarlama
 
-Doğru sayfa boyutunu seçmek sadece estetik değildir; sayfalama, görüntü ölçekleme ve baskı düzeni üzerinde etkili olur. Aspose.HTML kullanışlı bir enum sunar, ancak varsayılanlar yeterli gelmezse özel bir boyut da geçirebilirsiniz.
+Doğru sayfa boyutunu seçmek, sayfalama, görüntü ölçekleme ve baskı düzeni üzerinde doğrudan etkilidir. Aspose.HTML kullanışlı bir enum sunar, ancak varsayılanlar ihtiyaçlarınıza uymuyorsa özel bir boyut da geçirebilirsiniz.
 
 ```java
 // Example: Custom size – 6" x 9"
 pdfOptions.setPageSize(new PdfSaveOptions.PageSize(6.0, 9.0));
 ```
 
-Neden özel bir boyut gerekebilir? Belki cep boyutunda e‑kitaplar ya da belirli bir kırpma ölçüsüne sahip bir baskı kitapçığı üretiyorsunuzdur. API inç cinsinden değer alır (veya kendiniz milimetreye çevirerek) ve tam kontrol sağlar.
+**Özel bir boyuta ne zaman ihtiyaç duyarsınız?**  
+Küçük cep kitapları, basılabilir bir broşür ya da belirli bir kırpma ölçüsüne sahip bir rapor oluşturuyorsanız. API, inç cinsinden (veya milimetreden dönüştürerek) değer alır, bu da tam kontrol sağlar.
 
----
+## Tam Çalışan Örnek (Maven Bağımlılığı Dahil)
 
-## Çalışan Tam Örnek (Maven Bağımlılığıyla)
-
-Maven kullanıyorsanız, `pom.xml` dosyanıza aşağıdaki bağımlılığı ekleyin. Böylece `Converter` ve `PdfSaveOptions` sınıfları sınıf yolunda bulunur.
+Maven kullanıyorsanız, aşağıdaki bağımlılığı `pom.xml` dosyanıza ekleyin. Böylece `Converter` ve `PdfSaveOptions` sınıfları sınıf yolunda bulunur.
 
 ```xml
 <dependency>
@@ -167,45 +167,58 @@ public class EpubToPdfDemo {
 
 ### Beklenen Çıktı
 
-Program çalıştırıldığında onay satırı yazdırır:
+Programı çalıştırdığınızda bir onay satırı yazdırılır:
 
 ```
 ✅ Success! PDF created at: C:/Docs/output.pdf
 ```
 
-Oluşturulan PDF’yi herhangi bir görüntüleyicide (Adobe Reader, Chrome vb.) açtığınızda şunları görürsünüz:
+Oluşturulan PDF'i herhangi bir görüntüleyicide (Adobe Reader, Chrome vb.) açtığınızda şunları görürsünüz:
 
-* Tüm metin öğeleri orijinal font stilini korur.  
-* Sayfa boyutları seçtiğiniz **Letter** boyutuna eşittir.  
-* EPUB’tan gelen görseller, tablolar ve hiperlinkler korunur.
+* Tüm metin öğeleri orijinal yazı tipi stilini korur.  
+* Sayfa boyutları seçtiğiniz **Letter** boyutuna (veya ayarladığınız özel boyuta) eşittir.  
+* EPUB'tan gelen görseller, tablolar ve hiperlinkler korunur.
 
-PDF özelliklerini (File → Properties → Fonts) incelediğinizde her fontun **Embedded Subset** olarak listelendiğini göreceksiniz; bu, `setEmbedFonts(true)` çağrısının işe yaradığını kanıtlar.
-
----
-
-## Sık Sorulan Sorular & Kenar Durumları
-
-| Soru | Cevap |
-|------|-------|
-| **EPUB’um sunucuda yüklü olmayan özel bir font kullanıyorsa ne yapmalıyım?** | `.ttf` veya `.otf` dosyalarını bir klasöre koyup `pdfOptions.setFontsFolder("path/to/custom/fonts")` ile Aspose’a yönlendirin. Dönüştürücü otomatik olarak yükler ve gömer. |
-| **Birden fazla EPUB’u tek seferde dönüştürebilir miyim?** | Kesinlikle. Dönüşüm mantığını bir döngüye alın, her dosya için `epubPath` ve `outputPdf` değerlerini değiştirin. Aspose thread‑safe olduğundan `ExecutorService` ile paralel çalıştırabilirsiniz. |
-| **Giriş EPUB’u için bir boyut sınırlaması var mı?** | Katı bir limit yok, ancak yüzlerce MB büyüklüğündeki EPUB’lar daha fazla bellek tüketir. Büyük kitaplar için JVM heap’ini (`-Xmx2g` veya daha yüksek) artırmayı düşünün. |
-| **Daha küçük bir PDF için font gömeyi nasıl devre dışı bırakırım?** | `pdfOptions.setEmbedFonts(false)` ayarlayın. Sonuç PDF, izleyicinin yüklü fontlarına dayanır; bu dosya boyutunu düşürür ancak görünüm değişebilir. |
-| **Aspose.HTML için lisansa ihtiyacım var mı?** | Ücretsiz değerlendirme lisansı test için çalışır, ancak filigran ekler. Üretim için bir lisans satın alıp `License license = new License(); license.setLicense("path/to/license.xml");` kodunu dönüşümden önce çalıştırın. |
+PDF özelliklerini (Dosya → Özellikler → Yazı Tipleri) incelediğinizde her yazı tipinin **Embedded Subset** olarak listelendiğini göreceksiniz; bu, `setEmbedFonts(true)` çağrısının görevini yerine getirdiğinin kanıtıdır.
 
 ---
+
+## Sıkça Sorulan Sorular
+
+**Q:** EPUB'um sunucuda yüklü olmayan özel bir yazı tipi kullanıyorsa ne yapmalıyım?  
+**A:** `.ttf` veya `.otf` dosyalarını bir klasöre koyun ve Aspose'a `pdfOptions.setFontsFolder("path/to/custom/fonts")` ile gösterin. Dönüştürücü bu yazı tiplerini otomatik olarak yükleyip gömecektir.
+
+**Q:** Tek bir çalıştırmada birden fazla EPUB dosyasını dönüştürebilir miyim?  
+**A:** Evet. Dönüşüm mantığını bir döngüye alın, her dosya için `epubPath` ve `outputPdf` değerlerini değiştirin ve Aspose'ın thread‑safe olması sayesinde `ExecutorService` ile paralel çalıştırabilirsiniz.
+
+**Q:** Giriş EPUB'u için bir boyut sınırı var mı?  
+**A:** Katı bir sınır yok, ancak yüzlerce MB büyüklüğündeki EPUB'lar önemli miktarda bellek tüketebilir. Çok büyük kitaplar için JVM yığın boyutunu (`-Xmx2g` veya daha fazla) artırmanız önerilir.
+
+**Q:** PDF boyutunu azaltmak için yazı tipi gömmesini nasıl devre dışı bırakırım?  
+**A:** `pdfOptions.setEmbedFonts(false)` çağrısını yapın. PDF, izleyicinin yüklü yazı tiplerine dayanacak, bu da dosya boyutunu düşürür ancak görünümde değişikliklere yol açabilir.
+
+**Q:** Aspose.HTML için lisansa ihtiyacım var mı?  
+**A:** Ücretsiz bir değerlendirme lisansı test için çalışır ancak filigran ekler. Üretim için bir lisans satın alıp `License license = new License(); license.setLicense("path/to/license.xml");` kodu ile yüklemeniz gerekir.
 
 ## Sonuç
 
-Java’da **EPUB’u PDF’ye dönüştürürken fontları nasıl gömeceğinizi**, **PDF sayfa boyutunu nasıl ayarlayacağınızı** ve Aspose.HTML ile her şeyi nasıl bir araya getireceğinizi artık biliyorsunuz. Yukarıdaki tam, çalıştırılabilir örnek, sadece yer tutucu yolları kendi dosyalarınızla değiştirmeniz koşuluyla sorunsuz çalışacaktır.
+Artık **PDF sayfa boyutunu nasıl ayarlayacağınızı** ve **EPUB'ten PDF'ye Java ile dönüştürürken yazı tiplerini nasıl gömeceğinizi** Aspose.HTML kullanarak biliyorsunuz. Yukarıdaki eksiksiz, çalıştırılabilir örnek, sadece yer tutucu yolları kendi dosyalarınızla değiştirmeniz koşuluyla doğrudan işe yarayacaktır.
 
-Sonraki adımlar? **A4** gibi başka sayfa formatları ya da özel 6×9 ölçüsüyle denemeler yapın, `PdfSaveOptions` özellikleriyle görüntü sıkıştırmasını keşfedin ya da programlı olarak bir kapak sayfası ekleyin. Aynı desen, HTML veya Markdown gibi diğer kaynak formatları için de geçerlidir; çünkü Aspose.HTML bunları tutarlı bir şekilde işler.
+Sonraki adımlar? **A4** gibi farklı sayfa formatlarını deneyin ya da özel 6×9 boyutunu test edin, `PdfSaveOptions`'ın diğer özelliklerini (görsel sıkıştırma, PDF/A uyumluluğu) keşfedin veya programatik olarak bir kapak sayfası ekleyin. Aynı desen, HTML veya Markdown gibi diğer kaynak formatları için de geçerlidir çünkü Aspose.HTML bunları tek tipte işler.
 
-Keyifli kodlamalar ve PDF’leriniz her zaman istediğiniz gibi görünsün!
+İyi kodlamalar, ve PDF'leriniz her zaman istediğiniz gibi görünsün!
 
-![PDF dönüşümünde fontları nasıl gömeceksiniz](https://example.com/images/embed-fonts.png "PDF dönüşümünde fontları nasıl gömeceksiniz")
+![PDF dönüşümünde yazı tiplerini gömme nasıl yapılır](https://example.com/images/embed-fonts.png "PDF dönüşümünde yazı tiplerini gömme nasıl yapılır")
+
+---
+
+**Son Güncelleme:** 2026-04-12  
+**Test Edilen Sürüm:** Aspose.HTML for Java 23.10  
+**Yazar:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

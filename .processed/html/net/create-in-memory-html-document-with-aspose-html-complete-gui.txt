@@ -1,0 +1,7 @@
+Title: Create In-Memory HTML Document with Aspose.HTML – Complete Guide
+Slug: create-in-memory-html-document-with-aspose-html-complete-gui
+Category: working-with-html-documents
+ProcessedDate: 2026-07-25T06:12:19.447298
+SourceRepo: AI Search API
+Keywords: create in-memory html document, convert html to stream
+PRNumber: 220

@@ -9,23 +9,14 @@ url: /sv/java/handling-zip-files/zip-file-schema-handler/
 weight: 11
 ---
 
-Start with shortcodes at top unchanged.
 
-Then heading "# Read ZIP Entry Java – ZIP Handler in Aspose.HTML" translate to Swedish: "# Läs ZIP‑post Java – ZIP‑hanterare i Aspose.HTML". Keep dash.
 
-Similarly subheadings.
 
-Proceed.
 
-Make sure to keep bullet points.
 
-Translate bullet list items.
 
-Translate table content.
 
-Translate FAQs.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

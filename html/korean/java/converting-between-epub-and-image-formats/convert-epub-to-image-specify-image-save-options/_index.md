@@ -9,9 +9,7 @@ url: /ko/java/converting-between-epub-and-image-formats/convert-epub-to-image-sp
 weight: 16
 ---
 
- placeholders or URLs. We kept URLs unchanged. Good.
 
-Now produce final content with same markdown.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
