@@ -60,6 +60,10 @@ Konwertuj HTML do PDF w C# zapisując stronę HTML jako plik PDF przy użyciu As
 
 ### [Konwertuj HTML do PDF w C# – Kompletny przewodnik z wskazówkami dotyczącymi czytelności tekstu](./convert-html-to-pdf-in-c-complete-guide-with-text-clarity-ti/)
 Pełny przewodnik konwersji HTML do PDF w C# z praktycznymi poradami, jak poprawić czytelność tekstu w wygenerowanych dokumentach.
+### [Renderowanie HTML do PDF w C# – Pełny przewodnik Aspose.HTML](./render-html-to-pdf-in-c-full-aspose-html-guide/)
+Kompletny przewodnik, jak w C# renderować HTML do PDF przy użyciu Aspose.HTML, krok po kroku z przykładami kodu.
+### [Konwertuj HTML do PDF w C# – Kompletny przewodnik Aspose](./convert-html-to-pdf-in-c-complete-aspose-guide/)
+Kompletny przewodnik, jak w C# konwertować HTML do PDF przy użyciu Aspose.HTML, z przykładami kodu i szczegółowymi instrukcjami.
 ### [Utwórz PDF z HTML – przewodnik krok po kroku w C#](./create-pdf-from-html-c-step-by-step-guide/)
 Dowiedz się, jak w C# wygenerować plik PDF z kodu HTML, korzystając z Aspose.HTML – kompletny przewodnik krok po kroku.
 ### [Utwórz PDF z HTML przy użyciu Aspose.HTML – przewodnik krok po kroku](./create-pdf-from-html-with-aspose-html-step-by-step-guide/)
@@ -233,6 +237,8 @@ Dowiedz się, jak zapisać dokument HTML jako archiwum ZIP w C# przy użyciu Asp
 Konwertuj lokalny plik HTML do PDF w C# przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
 ### [Jak włączyć antyaliasing w konwersji Aspose HTML do PDF (C#)](./how-to-enable-antialiasing-in-aspose-html-to-pdf-conversion/)
 Dowiedz się, jak w C# włączyć antyaliasing podczas konwersji HTML do PDF przy użyciu Aspose.HTML, aby uzyskać wyraźniejsze renderowanie.
+### [Zapisz HTML do ZIP przy użyciu Aspose – Kompletny przewodnik](./save-html-to-zip-with-aspose-complete-guide/)
+Zapisz dokument HTML do archiwum ZIP przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
 
 ## Wniosek
 

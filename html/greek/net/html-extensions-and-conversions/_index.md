@@ -81,6 +81,8 @@ url: /el/net/html-extensions-and-conversions/
 Μάθετε πώς να μετατρέπετε HTML σε PDF με το Aspose σε βήμα‑βήμα οδηγό, απλοποιώντας τη διαδικασία δημιουργίας PDF.
 ### [Δημιουργία PDF από HTML σε C# – Πλήρης Οδηγός Προγραμματισμού](./create-pdf-from-html-in-c-complete-programming-guide/)
 Μάθετε πώς να δημιουργήσετε PDF από HTML σε C# με πλήρη οδηγό προγραμματισμού, βήμα‑βήμα, χρησιμοποιώντας το Aspose.HTML.
+### [Απόδοση HTML σε PDF σε C# – Πλήρης Οδηγός Aspose.HTML](./render-html-to-pdf-in-c-full-aspose-html-guide/)
+Μάθετε πώς να αποδίδετε HTML σε PDF χρησιμοποιώντας C# και Aspose.HTML με πλήρη βήμα‑βήμα οδηγίες.
 ### [Μετατρέψτε το EPUB σε Εικόνα στο .NET με το Aspose.HTML](./convert-epub-to-image/)
 Μάθετε πώς να μετατρέπετε το EPUB σε εικόνες χρησιμοποιώντας το Aspose.HTML για .NET. Βήμα προς βήμα μάθημα με παραδείγματα κώδικα και προσαρμόσιμες επιλογές.
 ### [Μετατροπή EPUB σε PDF σε .NET με Aspose.HTML](./convert-epub-to-pdf/)
@@ -193,6 +195,10 @@ url: /el/net/html-extensions-and-conversions/
 Μάθετε πώς να αποθηκεύετε HTML ως αρχείο ZIP χρησιμοποιώντας Aspose.HTML σε πλήρη οδηγό C#.
 ### [Πώς να ενεργοποιήσετε το Antialiasing στη μετατροπή Aspose HTML σε PDF (C#)](./how-to-enable-antialiasing-in-aspose-html-to-pdf-conversion/)
 Μάθετε πώς να ενεργοποιήσετε το antialiasing κατά τη μετατροπή HTML σε PDF με Aspose.HTML σε C# για ομαλότερη απόδοση.
+### [Αποθήκευση HTML σε ZIP με Aspose – Πλήρης Οδηγός](./save-html-to-zip-with-aspose-complete-guide/)
+Μάθετε πώς να αποθηκεύετε αρχεία HTML σε αρχείο ZIP χρησιμοποιώντας το Aspose.HTML για .NET σε πλήρη βήμα‑βήμα οδηγό.
+### [Μετατροπή HTML σε PDF με C# – Πλήρης Οδηγός Aspose](./convert-html-to-pdf-in-c-complete-aspose-guide/)
+Μάθετε πώς να μετατρέψετε HTML σε PDF με C# χρησιμοποιώντας το Aspose.HTML σε πλήρη βήμα‑βήμα οδηγό.
 
 ### [Πώς να συμπιέσετε HTML με Aspose.HTML – Πλήρης Οδηγός](./how-to-zip-html-with-aspose-html-complete-guide/)
 Μάθετε πώς να δημιουργείτε αρχείο ZIP από HTML χρησιμοποιώντας το Aspose.HTML σε .NET – βήμα‑βήμα οδηγός.

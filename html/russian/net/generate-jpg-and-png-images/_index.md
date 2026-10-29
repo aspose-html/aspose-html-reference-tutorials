@@ -55,6 +55,8 @@ Aspose.HTML для .NET предлагает простой метод прео�
 
 ### [Создание PNG из HTML с Aspose.HTML – Полное руководство](./create-png-from-html-with-aspose-html-complete-guide/)
 Подробное руководство по созданию PNG‑изображений из HTML‑кода с помощью Aspose.HTML для .NET.
+### [Создание PNG из HTML – Полное руководство по Aspose.HTML](./create-png-from-html-complete-aspose-html-guide/)
+Полное руководство по созданию PNG‑изображений из HTML с использованием Aspose.HTML для .NET.
 ### [Как включить сглаживание при конвертации DOCX в PNG/JPG](./how-to-enable-antialiasing-when-converting-docx-to-png-jpg/)
 Узнайте, как включить сглаживание при преобразовании DOCX в PNG или JPG с помощью Aspose.HTML для .NET.
 ### [Как включить сглаживание – рендеринг HTML в PNG на C#](./how-to-enable-antialiasing-render-html-to-png-in-c/)
@@ -137,6 +139,8 @@ Aspose.HTML для .NET предлагает простой метод прео�
 Подробное пошаговое руководство по рендерингу HTML в C# с использованием Aspose.HTML.
 ### [Как отобразить HTML в PNG с помощью Aspose.HTML](./how-to-render-html-as-png-with-aspose-html/)
 Узнайте, как преобразовать HTML в PNG с помощью Aspose.HTML, используя простые шаги и настройки рендеринга.
+### [Пользовательский обработчик ресурсов в C# – Эффективное преобразование Word в PNG](./custom-resource-handler-in-c-convert-word-to-png-efficiently/)
+Узнайте, как создать собственный обработчик ресурсов в C# для быстрой конвертации документов Word в PNG с помощью Aspose.HTML.
 
 ## Заключение
 

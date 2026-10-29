@@ -191,6 +191,10 @@ C# में Aspose.HTML का उपयोग करके HTML को ZIP फ
 ### [C# में HTML को ZIP के रूप में सहेजें – कस्टम स्टोरेज के लिए पूर्ण गाइड](./save-html-as-zip-in-c-complete-guide-to-custom-storage/)
 C# में Aspose.HTML का उपयोग करके HTML को ZIP फ़ाइल में कस्टम स्टोरेज के साथ सहेजने की पूरी गाइड।
 
+
+### [Aspose के साथ HTML को ZIP में सहेजें – पूर्ण गाइड](./save-html-to-zip-with-aspose-complete-guide/)
+Aspose.HTML का उपयोग करके C# में HTML को ZIP फ़ाइल में सहेजने का पूर्ण चरण‑दर‑चरण मार्गदर्शन।
+
 ### [स्टाइल्ड टेक्स्ट के साथ HTML दस्तावेज़ बनाएं और PDF में निर्यात करें – पूर्ण गाइड](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Aspose.HTML for .NET का उपयोग करके स्टाइल्ड टेक्ट वाले HTML दस्तावेज़ को बनाएं और उसे PDF में निर्यात करने की पूरी गाइड।
 .NET के लिए Aspose.HTML की शक्ति का पता लगाएं: HTML को XPS में आसानी से बदलें। पूर्वापेक्षाएँ, चरण-दर-स्टेप मार्गदर्शिका और FAQ शामिल हैं।
@@ -302,6 +306,12 @@ Aspose.HTML का उपयोग करके C# में HTML को ZIP फ
 
 ### [Aspose.HTML के साथ .NET में HTML को PDF रूपांतरण में एंटीएलियासिंग सक्षम करें (C#)](./how-to-enable-antialiasing-in-aspose-html-to-pdf-conversion/)
 C# में Aspose.HTML का उपयोग करके PDF रूपांतरण के दौरान एंटीएलियासिंग को सक्षम करने के चरण‑दर‑चरण मार्गदर्शन।
+
+### [C# में HTML को PDF में रेंडर करें – पूर्ण Aspose.HTML गाइड](./render-html-to-pdf-in-c-full-aspose-html-guide/)
+C# में Aspose.HTML का उपयोग करके HTML को PDF में रेंडर करने की पूरी गाइड। चरण‑दर‑चरण उदाहरण और विकल्प।
+
+### [C# में HTML को PDF में बदलें – पूर्ण Aspose गाइड](./convert-html-to-pdf-in-c-complete-aspose-guide/)
+C# में Aspose.HTML का उपयोग करके HTML को PDF में बदलने की पूरी गाइड। चरण‑दर‑चरण उदाहरण और सेटिंग्स।
 
 ## निष्कर्ष
 

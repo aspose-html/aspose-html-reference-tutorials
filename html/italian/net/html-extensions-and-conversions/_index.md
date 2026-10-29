@@ -74,6 +74,12 @@ Converti HTML in PDF in C# con consigli per migliorare la chiarezza del testo. S
 Scopri come attivare l'antialiasing durante la conversione da HTML a PDF con Aspose HTML in C# per migliorare la qualità dell'immagine.
 ### [Convertire file HTML locale in PDF con C# – guida passo‑a‑passo](./convert-local-html-file-to-pdf-with-c-step-by-step-guide/)
 Impara a convertire un file HTML locale in PDF usando Aspose.HTML per .NET con C# in pochi semplici passaggi.
+### [Renderizza HTML in PDF in C# – Guida completa Aspose.HTML](./render-html-to-pdf-in-c-full-aspose-html-guide/)
+Scopri come renderizzare HTML in PDF usando Aspose.HTML per .NET in C#. Segui la guida passo passo per una conversione completa.
+
+### [Converti HTML in PDF in C# – Guida completa Aspose](./convert-html-to-pdf-in-c-complete-aspose-guide/)
+Scopri come convertire HTML in PDF usando Aspose.HTML per .NET in C#. Segui la guida passo passo per una conversione completa.
+
 ### [Crea documento HTML con testo formattato ed esporta in PDF – Guida completa](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Impara a creare un documento HTML con testo stilizzato e a convertirlo in PDF usando Aspose.HTML per .NET, passo dopo passo.
 ### [Imposta la dimensione della pagina PDF in C# – Converti HTML in PDF](./set-pdf-page-size-in-c-convert-html-to-pdf/)
@@ -241,6 +247,9 @@ Scopri come salvare HTML in un file ZIP e renderizzarlo in PNG con Aspose.HTML p
 Impara a salvare documenti HTML in archivi ZIP personalizzati usando Aspose.HTML per .NET in C#, con esempi di codice e opzioni avanzate.
 ### [Salva HTML come ZIP con Aspose.HTML – Guida completa C#](./save-html-as-zip-with-aspose-html-complete-c-guide/)
 Salva HTML come archivio ZIP usando Aspose.HTML per .NET. Guida passo passo completa in C#.
+
+### [Salva HTML in ZIP con Aspose – Guida completa](./save-html-to-zip-with-aspose-complete-guide/)
+Scopri come comprimere file HTML in archivi ZIP usando Aspose.HTML per .NET, con esempi di codice e opzioni avanzate.
 
 ## Conclusione
 

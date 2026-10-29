@@ -55,6 +55,11 @@ Aprenda a converter HTML para PDF usando C# com Aspose.HTML, seguindo um guia pa
 Aprenda a renderizar HTML como PDF usando C# com Aspose.HTML, seguindo um guia passo a passo completo.
 ### [Converter HTML para PDF em C# – Guia Completo com Dicas de Clareza de Texto](./convert-html-to-pdf-in-c-complete-guide-with-text-clarity-ti/)
 Aprenda a converter HTML para PDF em C# com um guia completo e dicas para melhorar a clareza do texto.
+### [Converter HTML para PDF em C# – Guia Completo Aspose](./convert-html-to-pdf-in-c-complete-aspose-guide/)
+Aprenda a converter HTML para PDF em C# usando Aspose.HTML, passo a passo, com exemplos completos.
+
+### [Renderizar HTML para PDF em C# – Guia Completo Aspose.HTML](./render-html-to-pdf-in-c-full-aspose-html-guide/)
+Aprenda a renderizar HTML em PDF usando C# com Aspose.HTML, passo a passo, com exemplos completos.
 
 ### [Criar PDF a partir de HTML – Guia passo a passo em C#](./create-pdf-from-html-c-step-by-step-guide/)
 Aprenda a criar um PDF a partir de HTML usando C# com Aspose.HTML, seguindo um guia passo a passo.
@@ -287,6 +292,9 @@ Aprenda a converter HTML em arquivos ZIP com Aspose.HTML para .NET usando C# em 
 Aprenda a converter HTML em arquivos ZIP usando Aspose.HTML para .NET em C# com um guia completo.
 ### [Manipulador de Recurso Personalizado em C# – Converter HTML para Stream](./custom-resource-handler-in-c-convert-html-to-stream/)
 Aprenda a usar um manipulador de recurso personalizado em C# para converter HTML em um fluxo de dados usando Aspose.HTML.
+
+### [Salvar HTML em ZIP com Aspose – Guia Completo](./save-html-to-zip-with-aspose-complete-guide/)
+Aprenda a salvar documentos HTML em arquivos ZIP usando Aspose.HTML, passo a passo, com exemplos completos em C#.
 
 ## Conclusão
 

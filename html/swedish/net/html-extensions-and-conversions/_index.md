@@ -236,6 +236,12 @@ Lär dig steg‑för‑steg hur du konverterar HTML till PDF i C# med fokus på 
 Lär dig skapa en anpassad resurs‑hanterare i C# för att konvertera HTML direkt till en ström med Aspose.HTML.
 ### [Konvertera lokal HTML-fil till PDF med C# – steg‑för‑steg‑guide](./convert-local-html-file-to-pdf-with-c-step-by-step-guide/)
 Lär dig hur du konverterar en lokal HTML‑fil till PDF med C# och Aspose.HTML i en steg‑för‑steg‑guide.
+### [Spara HTML till ZIP med Aspose – Komplett guide](./save-html-to-zip-with-aspose-complete-guide/)
+Lär dig hur du sparar HTML-filer i ett ZIP‑arkiv med Aspose i en komplett steg‑för‑steg‑guide.
+### [Rendera HTML till PDF i C# – Fullständig Aspose.HTML-guide](./render-html-to-pdf-in-c-full-aspose-html-guide/)
+Lär dig steg‑för‑steg hur du renderar HTML till PDF i C# med Aspose.HTML i en komplett guide.
+### [Konvertera HTML till PDF i C# – Komplett Aspose-guide](./convert-html-to-pdf-in-c-complete-aspose-guide/)
+Lär dig steg‑för‑steg hur du konverterar HTML till PDF i C# med en komplett Aspose.HTML‑guide.
 
 ## Slutsats
 

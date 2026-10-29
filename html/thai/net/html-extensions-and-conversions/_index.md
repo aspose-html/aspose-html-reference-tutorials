@@ -66,6 +66,10 @@ Aspose.HTML สำหรับ .NET ไม่ใช่แค่ไลบรา�
 
 ### [วิธีเปิดใช้งาน Antialiasing ในการแปลง Aspose HTML เป็น PDF (C#)](./how-to-enable-antialiasing-in-aspose-html-to-pdf-conversion/)
 เรียนรู้วิธีเปิดใช้งาน Antialiasing เพื่อปรับปรุงคุณภาพ PDF จาก HTML ด้วย Aspose.HTML สำหรับ .NET
+### [เรนเดอร์ HTML เป็น PDF ใน C# – คู่มือเต็ม Aspose.HTML](./render-html-to-pdf-in-c-full-aspose-html-guide/)
+เรียนรู้วิธีเรนเดอร์ HTML เป็น PDF ด้วย C# โดยใช้ Aspose.HTML อย่างละเอียดตามขั้นตอนครบถ้วน
+### [แปลง HTML เป็น PDF ใน C# – คู่มือเต็ม Aspose](./convert-html-to-pdf-in-c-complete-aspose-guide/)
+เรียนรู้วิธีแปลง HTML เป็น PDF ด้วย C# อย่างละเอียดตามขั้นตอนครบถ้วนด้วย Aspose
 ### [แปลง EPUB เป็นรูปภาพใน .NET ด้วย Aspose.HTML](./convert-epub-to-image/)
 เรียนรู้วิธีการแปลง EPUB เป็นรูปภาพโดยใช้ Aspose.HTML สำหรับ .NET บทช่วยสอนแบบทีละขั้นตอนพร้อมตัวอย่างโค้ดและตัวเลือกที่ปรับแต่งได้
 ### [แปลง EPUB เป็น PDF ใน .NET ด้วย Aspose.HTML](./convert-epub-to-pdf/)
@@ -236,6 +240,8 @@ Aspose.HTML สำหรับ .NET ไม่ใช่แค่ไลบรา�
 เรียนรู้วิธีบันทึกไฟล์ HTML เป็น ZIP อย่างครบถ้วนด้วย Aspose.HTML สำหรับ .NET ในคู่มือ C# ฉบับเต็มของเรา
 ### [แปลงไฟล์ HTML ในเครื่องเป็น PDF ด้วย C# – คู่มือขั้นตอนต่อขั้นตอน](./convert-local-html-file-to-pdf-with-c-step-by-step-guide/)
 เรียนรู้วิธีแปลงไฟล์ HTML ที่อยู่ในเครื่องเป็น PDF ด้วย C# อย่างละเอียดตามขั้นตอน
+### [บันทึก HTML เป็น ZIP ด้วย Aspose – คู่มือเต็ม](./save-html-to-zip-with-aspose-complete-guide/)
+เรียนรู้วิธีบันทึกไฟล์ HTML เป็น ZIP ด้วย Aspose อย่างละเอียดตามขั้นตอนครบถ้วน
 
 ## บทสรุป
 

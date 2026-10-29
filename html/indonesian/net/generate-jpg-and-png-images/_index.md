@@ -139,6 +139,10 @@ Pelajari cara merender HTML menjadi PNG menggunakan C# dengan Aspose.HTML dalam 
 Panduan lengkap untuk mengonversi HTML menjadi gambar PNG menggunakan Aspose.HTML dengan langkah‑langkah detail.
 ### [Cara Merender HTML menjadi PNG dengan Aspose.HTML](./how-to-render-html-as-png-with-aspose-html/)
 Pelajari cara merender halaman HTML menjadi gambar PNG menggunakan Aspose.HTML dalam tutorial langkah demi langkah.
+### [Buat PNG dari HTML – Panduan Lengkap Aspose.HTML](./create-png-from-html-complete-aspose-html-guide/)
+Pelajari cara membuat file PNG dari HTML secara lengkap menggunakan Aspose.HTML dengan contoh kode dan langkah-langkah detail.
+### [Penangan Sumber Daya Kustom di C# – Mengonversi Word ke PNG Secara Efisien](./custom-resource-handler-in-c-convert-word-to-png-efficiently/)
+Pelajari cara menggunakan Custom Resource Handler di C# untuk mengonversi dokumen Word menjadi gambar PNG dengan performa tinggi menggunakan Aspose.HTML.
 
 ## Kesimpulan
 

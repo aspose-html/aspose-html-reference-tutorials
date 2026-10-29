@@ -69,6 +69,12 @@ Aspose.HTML for .NET 不只是一個函式庫；它還是一個函式庫。它�
 
 ### [使用 C# 將本機 HTML 檔案轉換為 PDF – 完整步驟指南](./convert-local-html-file-to-pdf-with-c-step-by-step-guide/)
 使用 Aspose.HTML for .NET，透過 C# 將本機 HTML 檔案轉換為 PDF 的完整步驟說明與範例。
+### [在 C# 中將 HTML 渲染為 PDF – 完整 Aspose.HTML 指南](./render-html-to-pdf-in-c-full-aspose-html-guide/)
+使用 Aspose.HTML for .NET，在 C# 中完整示範如何將 HTML 渲染為 PDF 的步驟與範例。
+
+### [在 C# 中將 HTML 轉換為 PDF – 完整 Aspose 指南](./convert-html-to-pdf-in-c-complete-aspose-guide/)
+使用 Aspose.HTML for .NET，在 C# 中完整說明將 HTML 轉換為 PDF 的流程與程式碼示例。
+
 ### [使用 C# 從 HTML 建立 PDF – 完整步驟指南](./create-pdf-from-html-c-step-by-step-guide/)
 使用 Aspose.HTML for .NET，透過 C# 將 HTML 轉換為 PDF 的完整步驟說明與範例。
 ### [使用 Aspose 從 HTML 建立 PDF – 完整步驟指南](./create-pdf-from-html-with-aspose-step-by-step-guide/)
@@ -253,6 +259,8 @@ Aspose.HTML for .NET 不只是一個函式庫；它還是一個函式庫。它�
 使用 Aspose.HTML for .NET 在 C# 中完整示範如何將 HTML 壓縮為 ZIP，提供詳細步驟與範例。
 ### [如何在 Aspose HTML 到 PDF 轉換中啟用抗鋸齒 (C#)](./how-to-enable-antialiasing-in-aspose-html-to-pdf-conversion/)
 在 C# 中使用 Aspose.HTML 轉 PDF 時啟用抗鋸齒，提升渲染品質的簡易步驟說明。
+### [使用 Aspose.HTML 將 HTML 儲存為 ZIP – 完整指南](./save-html-to-zip-with-aspose-complete-guide/)
+使用 Aspose.HTML for .NET 將 HTML 壓縮為 ZIP 檔案，提供完整的步驟說明與範例。
 
 ## 結論
 
