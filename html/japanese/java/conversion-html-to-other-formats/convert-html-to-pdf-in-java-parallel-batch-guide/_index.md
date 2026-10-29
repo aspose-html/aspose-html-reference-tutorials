@@ -39,11 +39,7 @@ schemas:
 
       - [Convert HTML to PDF Java – Configuring Environment in Aspose.HTML](/html/english/java/configuring-environment/)
       - [How to Convert HTML to PDF Java – Using Aspose.HTML for Java](/html/english/java/conversion-html-to-other-formats/convert-html-to-pdf/)
-      - [Convert HTML to PDF in Java – Step‑by‑Step Guide with Page Size Settings](/html/english/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
-
-      {{< /blocks/products/pf/tutorial-page-section >}} {{< /blocks/products/pf/main-container
-      >}} {{< /blocks/products/pf/main-wrap-class >}} {{< blocks/products/products-backtop-button
-      >}}'
+      - [Convert HTML to PDF in Java – Step‑by‑Step Guide with Page Size Settings](/html/english/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)'
     question: What if I need to convert to other formats, like PNG?
   type: FAQPage
 tags:

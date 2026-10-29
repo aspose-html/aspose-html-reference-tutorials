@@ -1,0 +1,7 @@
+Title: Create PDF from HTML – Complete Step‑by‑Step Guide
+Slug: create-pdf-from-html-complete-step-by-step-guide
+Category: general
+ProcessedDate: 2026-07-05T20:44:12.346562
+SourceRepo: AI Search API
+Keywords: create pdf from html, convert html to pdf, html to pdf conversion, safe html to pdf, html to pdf tutorial
+PRNumber: 204

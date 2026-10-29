@@ -11,11 +11,9 @@ url: /el/java/converting-between-epub-and-image-formats/convert-epub-to-image-sp
 weight: 16
 ---
 
- headings, lists, etc.
 
-Check any inline code like `ImageSaveOptions` remain unchanged.
 
-Now produce final output with only translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
