@@ -57,6 +57,8 @@ Tanulja meg, hogyan tömörítheti a HTML-fájlokat az Aspose HTML segítségév
 Ismerje meg, hogyan menthet HTML-dokumentumot PDF-be C#-ban, ZIP-fájlba csomagolva, lépésről lépésre útmutatóval.
 ### [Word dokumentum PDF-re konvertálása – Tiszta szöveges útmutató (C#)](./convert-word-document-to-pdf-clear-text-guide-c/)
 Ismerje meg, hogyan konvertálhat Word dokumentumot PDF-be C#-ban az Aspose.HTML segítségével, egyszerű, tiszta szöveges útmutatóval.
+### [HTML mentése zip-be C#-al – zip archívum létrehozása C#-ban az Aspose segítségével](./save-html-to-zip-with-c-create-zip-archive-c-using-aspose/)
+Ismerje meg, hogyan menthet HTML-fájlokat zip-archívumba C#-ban az Aspose HTML segítségével.
 
 ## Következtetés
 

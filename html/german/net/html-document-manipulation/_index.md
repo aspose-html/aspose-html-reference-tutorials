@@ -72,7 +72,7 @@ Erfahren Sie, wie Sie mit Aspose.HTML ein komplettes HTML-Dokument von Grund auf
 ### [Bearbeiten eines Dokuments in .NET mit Aspose.HTML](./editing-a-document/)
 Erstellen Sie fesselnde Webinhalte mit Aspose.HTML für .NET. Erfahren Sie, wie Sie HTML, CSS und mehr bearbeiten.
 ### [Speichern eines Dokuments in .NET mit Aspose.HTML](./saving-a-document/)
-Entfesseln Sie die Leistungsfähigkeit von Aspose.HTML für .NET mit unserer Schritt-für-Schritt-Anleitung. Lernen Sie, HTML- und SVG-Dokumente zu erstellen, zu bearbeiten und zu konvertieren
+Entfesseln Sie die Leistungsfähigkeit von Aspose.HTML für .NET mit unserer Schritt‑für‑Schritt‑Anleitung. Lernen Sie, HTML- und SVG-Dokumente zu erstellen, zu bearbeiten und zu konvertieren
 ### [Zusammenführen von HTML mit Json in .NET mit Aspose.HTML](./merge-html-with-json/)
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET dynamische Webinhalte erstellen. Stärken Sie Ihre Onlinepräsenz und begeistern Sie Ihr Publikum.
 ### [Zusammenführen von HTML und XML in .NET mit Aspose.HTML](./merge-html-with-xml/)
@@ -107,6 +107,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML für .NET den Stil von Absätzen in C# än
 Erfahren Sie, wie Sie in C# fette und kursive Schriftarten erstellen und anwenden – Schritt-für-Schritt-Anleitung.
 ### [HTML-Dokument im Speicher erstellen mit Aspose.HTML – Komplettanleitung](./create-html-document-memory-with-aspose-html-complete-guide/)
 Erfahren Sie, wie Sie HTML-Dokumente vollständig im Speicher erstellen und verwalten, ohne Dateisystem, mit Aspose.HTML.
+### [HTML-Dokument in C# erstellen – Vollständiger Programmierleitfaden](./create-html-document-in-c-complete-programming-guide/)
+Erfahren Sie, wie Sie in C# ein HTML-Dokument von Grund auf erstellen und anpassen – Schritt‑für‑Schritt‑Anleitung mit Beispielen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -105,6 +105,8 @@ Tìm hiểu cách thay đổi kiểu đoạn văn trong C# bằng Aspose.HTML. H
 Hướng dẫn chi tiết cách tạo phông chữ in đậm và nghiêng trong C# bằng Aspose.HTML.
 ### [Tạo tài liệu HTML trong bộ nhớ với Aspose.HTML – Hướng dẫn đầy đủ](./create-html-document-memory-with-aspose-html-complete-guide/)
 Khám phá cách tạo tài liệu HTML trong bộ nhớ bằng Aspose.HTML, hướng dẫn chi tiết từng bước cho nhà phát triển.
+### [Tạo tài liệu HTML trong C# – Hướng dẫn lập trình hoàn chỉnh](./create-html-document-in-c-complete-programming-guide/)
+Học cách tạo tài liệu HTML trong C# bằng Aspose.HTML với hướng dẫn chi tiết và ví dụ thực tế.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

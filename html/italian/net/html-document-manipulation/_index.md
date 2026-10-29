@@ -108,6 +108,8 @@ Scopri come modificare lo stile dei paragrafi in C# usando Aspose.HTML, con esem
 Scopri come creare font in grassetto e corsivo in C# con Aspose.HTML, passo passo con esempi pratici.
 ### [Creare documento HTML in memoria con Aspose.HTML – Guida completa](./create-html-document-memory-with-aspose-html-complete-guide/)
 Impara a creare documenti HTML direttamente in memoria usando Aspose.HTML, con esempi pratici e consigli dettagliati.
+### [Creare documento HTML in C# – Guida completa alla programmazione](./create-html-document-in-c-complete-programming-guide/)
+Impara a creare documenti HTML in C# con una guida passo‑passo completa, esempi pratici e consigli di programmazione.
 
 ## Conclusione
 

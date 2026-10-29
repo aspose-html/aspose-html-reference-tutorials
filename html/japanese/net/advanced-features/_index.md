@@ -58,6 +58,8 @@ Aspose HTML を利用して HTML ファイルを Zip アーカイブに圧縮す
 Clear Type とスムージング モードを有効にし、.NET アプリケーションでテキスト表示を滑らかにする手順を解説します。
 ### [Word 文書を PDF に変換 – クリアテキスト ガイド (C#)](./convert-word-document-to-pdf-clear-text-guide-c/)
 C# を使用して Word 文書を PDF に変換する手順を、クリアテキストで分かりやすく解説します。
+### [C# で HTML を ZIP に保存 – Aspose を使用した ZIP アーカイブ作成](./save-html-to-zip-with-c-create-zip-archive-c-using-aspose/)
+Aspose.HTML を使用して HTML コンテンツを ZIP アーカイブに圧縮し、C# で保存する方法をステップバイステップで解説します。
 
 ## 結論
 

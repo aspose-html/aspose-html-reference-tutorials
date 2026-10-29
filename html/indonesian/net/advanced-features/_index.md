@@ -57,6 +57,8 @@ Pelajari cara mengompres file HTML menjadi arsip ZIP menggunakan Aspose HTML den
 Pelajari cara menyimpan dokumen HTML sebagai PDF di C# dengan dukungan kompresi ZIP, termasuk contoh kode lengkap dan langkah‑langkah praktis.
 ### [Cara Mengaktifkan Clear Type – Mengaktifkan Mode Penghalusan di .NET](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
 Pelajari cara mengaktifkan Clear Type dan mode smoothing pada rendering teks di .NET menggunakan Aspose.HTML untuk meningkatkan kualitas tampilan.
+### [Simpan HTML ke ZIP dengan C# – Membuat Arsip ZIP C# menggunakan Aspose](./save-html-to-zip-with-c-create-zip-archive-c-using-aspose/)
+Pelajari cara menyimpan file HTML ke dalam arsip ZIP menggunakan Aspose.HTML di C#, lengkap dengan contoh kode langkah demi langkah.
 
 ## Kesimpulan
 

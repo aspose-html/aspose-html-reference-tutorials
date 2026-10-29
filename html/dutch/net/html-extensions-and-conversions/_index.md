@@ -77,6 +77,10 @@ Volledige gids voor het converteren van HTML naar PDF in C# met Aspose.HTML. Sta
 
 ### [Render HTML naar PDF in C# – Volledige Aspose.HTML-gids](./render-html-to-pdf-in-c-full-aspose-html-guide/)
 Render HTML naar PDF in C# met Aspose.HTML. Volg onze volledige stap‑voor‑stap gids voor optimale resultaten.
+### [Render HTML naar PDF in C# – Verbeter PDF-tekstkwaliteit](./render-html-to-pdf-in-c-improve-pdf-text-quality/)
+Leer hoe u met Aspose.HTML voor .NET HTML rendert naar PDF in C# en de tekstkwaliteit van de PDF verbetert.
+### [HTML renderen naar PDF in C# – html‑string naar pdf‑gids](./render-html-to-pdf-in-c-html-string-to-pdf-guide/)
+Leer hoe u met Aspose.HTML voor .NET een HTML‑string rendert naar PDF in C#, inclusief code‑voorbeelden en optimalisatietips.
 ### [Converteer EPUB naar afbeelding in .NET met Aspose.HTML](./convert-epub-to-image/)
 Leer hoe u EPUB naar afbeeldingen converteert met Aspose.HTML voor .NET. Stapsgewijze tutorial met codevoorbeelden en aanpasbare opties.
 ### [Converteer EPUB naar PDF in .NET met Aspose.HTML](./convert-epub-to-pdf/)

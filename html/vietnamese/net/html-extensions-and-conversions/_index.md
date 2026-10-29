@@ -242,6 +242,11 @@ Hướng dẫn chi tiết cách lưu HTML thành tệp ZIP bằng Aspose.HTML ch
 Hướng dẫn chi tiết cách chuyển đổi HTML sang PDF bằng C# sử dụng Aspose.HTML, bao gồm ví dụ mã và các tùy chọn cấu hình.
 ### [Tạo PDF từ HTML trong C# – Hướng dẫn đầy đủ từng bước](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
 Hướng dẫn chi tiết toàn bộ quy trình tạo PDF từ HTML trong C# bằng Aspose.HTML, bao gồm các bước và tùy chọn cấu hình.
+### [Kết xuất HTML sang PDF trong C# – Cải thiện chất lượng văn bản PDF](./render-html-to-pdf-in-c-improve-pdf-text-quality/)
+Cải thiện chất lượng văn bản khi chuyển đổi HTML sang PDF bằng C# và Aspose.HTML. Hướng dẫn chi tiết các bước tối ưu.
+
+### [Kết xuất HTML sang PDF trong C# – hướng dẫn chuyển đổi chuỗi HTML thành PDF](./render-html-to-pdf-in-c-html-string-to-pdf-guide/)
+Hướng dẫn chi tiết cách chuyển đổi chuỗi HTML thành tệp PDF trong C# bằng Aspose.HTML, bao gồm ví dụ mã và các tùy chọn cấu hình.
 
 ## Phần kết luận
 

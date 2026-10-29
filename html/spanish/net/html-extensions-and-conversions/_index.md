@@ -68,6 +68,10 @@ Aprenda a convertir HTML a PDF en C# con una guía paso a paso y consejos para o
 Aprenda a activar el antialiasing al convertir HTML a PDF con Aspose.HTML en C# para obtener resultados más nítidos.
 ### [Convertir archivo HTML local a PDF con C# – guía paso a paso](./convert-local-html-file-to-pdf-with-c-step-by-step-guide/)
 Aprenda a convertir un archivo HTML local a PDF usando C# y Aspose.HTML con esta guía paso a paso.
+### [Renderizar HTML a PDF en C# – Mejorar la calidad del texto del PDF](./render-html-to-pdf-in-c-improve-pdf-text-quality/)
+Aprenda a renderizar HTML a PDF en C# y optimizar la calidad del texto para obtener documentos nítidos y legibles.
+### [Renderizar HTML a PDF en C# – guía de cadena HTML a PDF](./render-html-to-pdf-in-c-html-string-to-pdf-guide/)
+Aprenda a convertir una cadena HTML directamente a PDF en C# usando Aspose.HTML, con ejemplos de código paso a paso.
 ### [Crear PDF a partir de HTML – Guía paso a paso en C#](./create-pdf-from-html-c-step-by-step-guide/)
 Aprenda a generar un PDF desde HTML usando C# y Aspose.HTML con esta guía paso a paso.
 ### [Crear PDF a partir de HTML con Aspose.HTML – Guía paso a paso](./create-pdf-from-html-with-aspose-html-step-by-step-guide/)

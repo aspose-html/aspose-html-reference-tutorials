@@ -107,6 +107,8 @@ Learn how to create HTML with styled text in C# using Aspose.HTML, featuring ste
 Learn how to set the innerHTML of a span element using Aspose.HTML in C#. Step-by-step guide with code examples.
 ### [Change Paragraph Style in C# – Complete Aspose.HTML Guide](./change-paragraph-style-in-c-complete-aspose-html-guide/)
 Learn how to modify paragraph styles programmatically using Aspose.HTML for .NET in C#. Step-by-step guide with examples.
+### [Create HTML Document in C# – Complete Programming Guide](./create-html-document-in-c-complete-programming-guide/)
+Learn how to create HTML documents in C# using Aspose.HTML with a step-by-step programming guide.
 
 ## Conclusion
 

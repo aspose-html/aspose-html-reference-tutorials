@@ -58,6 +58,12 @@ Save an HTML page as PDF using Aspose.HTML for .NET with a clear C# step‑by‑
 Learn how to convert HTML to PDF in C# using Aspose.HTML with a complete step‑by‑step guide.
 ### [Render HTML to PDF in C# – Full Aspose.HTML Guide](./render-html-to-pdf-in-c-full-aspose-html-guide/)
 Learn how to render HTML to PDF using Aspose.HTML in C# with a comprehensive step‑by‑step guide.
+### [Render HTML to PDF in C# – Improve PDF Text Quality](./render-html-to-pdf-in-c-improve-pdf-text-quality/)
+Learn how to render HTML to PDF in C# with Aspose.HTML, focusing on techniques to enhance PDF text quality for sharper output.
+
+### [Render HTML to PDF in C# – html string to pdf guide](./render-html-to-pdf-in-c-html-string-to-pdf-guide/)
+Learn how to convert an HTML string to PDF in C# using Aspose.HTML for .NET with a clear step‑by‑step guide.
+
 ### [Create PDF from HTML – C# Step‑by‑Step Guide](./create-pdf-from-html-c-step-by-step-guide/)
 Learn how to generate PDF files from HTML using Aspose.HTML for .NET with a detailed C# step‑by‑step guide.
 ### [Create PDF from HTML in C# – Complete Step‑by‑Step Guide](./create-pdf-from-html-in-c-complete-step-by-step-guide/)

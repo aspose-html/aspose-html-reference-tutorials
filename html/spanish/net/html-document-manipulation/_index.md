@@ -105,6 +105,8 @@ Aprenda a modificar el estilo de los párrafos en C# con Aspose.HTML. Guía paso
 Aprenda a generar texto con estilo negrita y cursiva en C# usando Aspose.HTML. Guía paso a paso con ejemplos claros.
 ### [Crear documento HTML en memoria con Aspose.HTML – Guía completa](./create-html-document-memory-with-aspose-html-complete-guide/)
 Aprenda a crear documentos HTML en memoria usando Aspose.HTML con ejemplos paso a paso y mejores prácticas.
+### [Crear documento HTML en C# – Guía completa de programación](./create-html-document-in-c-complete-programming-guide/)
+Aprenda a crear documentos HTML en C# con Aspose.HTML mediante una guía paso a paso de programación completa.
 
 ## Conclusión
 

@@ -61,6 +61,10 @@ Kompletní průvodce, jak v C# pomocí Aspose.HTML převést HTML na PDF, s podr
 ### [Jak povolit antialiasing při konverzi Aspose HTML do PDF (C#)](./how-to-enable-antialiasing-in-aspose-html-to-pdf-conversion/)
 Naučte se, jak v C# zapnout antialiasing při převodu HTML do PDF pomocí Aspose.HTML pro .NET.
 
+### [Vykreslete HTML do PDF v C# – Zlepšete kvalitu textu PDF](./render-html-to-pdf-in-c-improve-pdf-text-quality/)
+Naučte se, jak pomocí Aspose.HTML v C# převést HTML do PDF a optimalizovat kvalitu textu v PDF.
+### [Vykreslete HTML do PDF v C# – průvodce převodem řetězce HTML na PDF](./render-html-to-pdf-in-c-html-string-to-pdf-guide/)
+Naučte se, jak v C# pomocí Aspose.HTML převést řetězec HTML na PDF pomocí podrobného průvodce.
 ### [Vytvořte PDF z HTML v C# – průvodce krok za krokem](./create-pdf-from-html-c-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.HTML v C# převést HTML dokument do PDF pomocí podrobného průvodce krok za krokem.
 ### [Vytvořte PDF z HTML v C# – Kompletní průvodce krok za krokem](./create-pdf-from-html-in-c-complete-step-by-step-guide/)

@@ -107,6 +107,8 @@ url: /el/net/html-document-manipulation/
 Μάθετε πώς να δημιουργήσετε γραμματοσειρά Bold Italic σε C# με το Aspose.HTML, βήμα-βήμα οδηγίες και παραδείγματα.
 ### [Δημιουργία μνήμης εγγράφου HTML με Aspose.HTML – Πλήρης Οδηγός](./create-html-document-memory-with-aspose-html-complete-guide/)
 Μάθετε πώς να δημιουργήσετε έγγραφα HTML στη μνήμη χρησιμοποιώντας το Aspose.HTML με πλήρη βήμα-βήμα οδηγίες.
+### [Δημιουργία εγγράφου HTML σε C# – Πλήρης οδηγός προγραμματισμού](./create-html-document-in-c-complete-programming-guide/)
+Μάθετε πώς να δημιουργήσετε έγγραφα HTML σε C# με πλήρη οδηγό βήμα-βήμα και παραδείγματα κώδικα.
 
 ## Σύναψη
 

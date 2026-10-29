@@ -145,6 +145,8 @@ Hướng dẫn chi tiết cách tạo PNG từ HTML bằng Aspose.HTML, bao gồ
 Hướng dẫn tạo trình xử lý tài nguyên tùy chỉnh trong C# để chuyển đổi tài liệu Word sang PNG nhanh chóng và tối ưu.
 ### [Tạo JPEG từ Word – Hướng dẫn C# đầy đủ](./create-jpeg-from-word-complete-c-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang ảnh JPEG bằng C# và Aspose.HTML, bao gồm các bước cài đặt và mã mẫu.
+### [Kết xuất HTML sang PNG – Hướng dẫn chi tiết từng bước](./render-html-to-png-complete-step-by-step-guide/)
+Hướng dẫn chi tiết cách chuyển đổi HTML thành PNG bằng Aspose.HTML cho .NET, bao gồm các bước cấu hình và tối ưu hoá.
 
 ## Phần kết luận
 

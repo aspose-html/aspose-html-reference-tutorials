@@ -105,6 +105,8 @@ Aspose.HTML для .NET выделяется своей простотой и м
 Узнайте, как создать полужирный курсивный шрифт в C# с помощью Aspose.HTML. Пошаговое руководство с примерами.
 ### [Создание HTML-документа в памяти с Aspose.HTML – Полное руководство](./create-html-document-memory-with-aspose-html-complete-guide/)
 Узнайте, как создавать HTML-документы в памяти с помощью Aspose.HTML, используя полный пошаговый гид.
+### [Создание HTML-документа в C# – Полное руководство по программированию](./create-html-document-in-c-complete-programming-guide/)
+Полное руководство по созданию HTML-документов в C# с использованием Aspose.HTML, включая примеры кода и лучшие практики.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

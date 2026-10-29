@@ -67,6 +67,10 @@ Konvertera en HTML-sida till PDF i C# med Aspose.HTML. Följ vår steg‑för‑
 
 ### [Hur du aktiverar kantutjämning i Aspose HTML till PDF-konvertering (C#)](./how-to-enable-antialiasing-in-aspose-html-to-pdf-conversion/)
 Lär dig hur du aktiverar kantutjämning för skarpare PDF-utdata vid konvertering med Aspose HTML i C#.
+### [Rendera HTML till PDF i C# – Förbättra PDF‑textkvaliteten](./render-html-to-pdf-in-c-improve-pdf-text-quality/)
+Rendera HTML till PDF i C# och förbättra textkvaliteten med Aspose.HTML för .NET. Följ vår steg‑för‑steg‑guide.
+### [Rendera HTML till PDF i C# – guide för HTML‑sträng till PDF](./render-html-to-pdf-in-c-html-string-to-pdf-guide/)
+Lär dig hur du konverterar en HTML‑sträng till PDF i C# med Aspose.HTML för .NET i en steg‑för‑steg‑guide.
 ### [Konvertera EPUB till bild i .NET med Aspose.HTML](./convert-epub-to-image/)
 Lär dig hur du konverterar EPUB till bilder med Aspose.HTML för .NET. Steg-för-steg handledning med kodexempel och anpassningsbara alternativ.
 ### [Konvertera EPUB till PDF i .NET med Aspose.HTML](./convert-epub-to-pdf/)

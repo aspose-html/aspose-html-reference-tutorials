@@ -58,6 +58,8 @@ C# と Aspose.HTML を使用して、SVG ファイルを高品質な PNG 画像�
 HTML コンテンツを PNG 画像に変換する手順を詳細に解説した完全ガイドです。
 ### [C# で HTML を PNG にレンダリングする – Aspose.HTML 完全ガイド](./render-html-to-png-in-c-complete-guide-with-aspose-html/)
 Aspose.HTML を使用して C# で HTML を PNG 画像に変換する手順をステップバイステップで解説します。
+### [Aspose.HTML を使用して HTML を PNG にレンダリングする – 完全ステップバイステップガイド](./render-html-to-png-complete-step-by-step-guide/)
+Aspose.HTML for .NET を使って、HTML コンテンツを PNG 画像に変換する手順を詳しく解説します。
 ### [DOCX を PNG/JPG に変換する際のアンチエイリアシングの有効化方法](./how-to-enable-antialiasing-when-converting-docx-to-png-jpg/)
 DOCX 文書を PNG または JPG 画像に変換する際に、アンチエイリアシングを有効にして高品質な出力を得る手順を解説します。
 ### [C# で HTML を PNG にレンダリングする際のアンチエイリアシング有効化方法](./how-to-enable-antialiasing-render-html-to-png-in-c/)

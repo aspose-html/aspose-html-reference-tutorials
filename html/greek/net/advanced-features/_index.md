@@ -67,6 +67,8 @@ url: /el/net/advanced-features/
 
 ### [Μετατροπή εγγράφου Word σε PDF – Οδηγός καθαρού κειμένου (C#)](./convert-word-document-to-pdf-clear-text-guide-c/)
 Μάθετε πώς να μετατρέψετε έγγραφα Word σε PDF χρησιμοποιώντας Aspose.HTML για .NET με καθαρό κείμενο σε C#.
+### [Αποθήκευση HTML σε zip με C# – δημιουργία αρχείου zip c# χρησιμοποιώντας Aspose](./save-html-to-zip-with-c-create-zip-archive-c-using-aspose/)
+Μάθετε πώς να αποθηκεύετε αρχεία HTML σε αρχείο ZIP χρησιμοποιώντας το Aspose.HTML με C#.
 
 ## Σύναψη
 

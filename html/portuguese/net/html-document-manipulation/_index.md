@@ -61,6 +61,8 @@ Aprenda como aproveitar o poder do Aspose.HTML para .NET. Impulsione seu desenvo
 Libere o poder do Aspose.HTML para .NET. Aprenda a criar, manipular e otimizar documentos HTML e SVG com facilidade. Explore exemplos passo a passo e perguntas frequentes.
 ### [Como criar HTML – Anexar elementos e estilizar texto](./how-to-create-html-append-elements-and-style-text/)
 Aprenda a criar HTML adicionando elementos e aplicando estilos de texto com Aspose.HTML para .NET.
+### [Criar documento HTML em C# – Guia de programação completo](./create-html-document-in-c-complete-programming-guide/)
+Aprenda a criar documentos HTML em C# usando Aspose.HTML, com exemplos completos e passo a passo.
 ### [Editando um documento no .NET com Aspose.HTML](./editing-a-document/)
 Crie conteúdo web cativante com Aspose.HTML para .NET. Aprenda a manipular HTML, CSS e muito mais.
 ### [Definir innerHTML de span em C# com Aspose.HTML – Guia Completo](./set-span-innerhtml-in-c-with-aspose-html-complete-guide/)

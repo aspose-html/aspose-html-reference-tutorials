@@ -59,6 +59,8 @@ Impara a salvare documenti HTML come PDF in C# con supporto per archivi ZIP, inc
 Scopri come attivare Clear Type e la modalità di smoothing per migliorare la resa del testo nelle applicazioni .NET con Aspose.HTML.
 ### [Converti documento Word in PDF – Guida chiara (C#)](./convert-word-document-to-pdf-clear-text-guide-c/)
 Impara a convertire documenti Word in PDF usando Aspose.HTML per .NET con esempi chiari e passo passo.
+### [Salva HTML in zip con C# – crea archivio zip C# usando Aspose](./save-html-to-zip-with-c-create-zip-archive-c-using-aspose/)
+Impara a comprimere file HTML in un archivio ZIP usando Aspose.HTML per .NET con C#.
 
 ## Conclusione
 

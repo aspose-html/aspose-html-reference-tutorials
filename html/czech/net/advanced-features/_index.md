@@ -59,6 +59,8 @@ Naučte se, jak pomocí Aspose.HTML zkomprimovat HTML soubory do ZIP archivu v k
 Naučte se, jak v .NET povolit ClearType a nastavit režim vyhlazování pro ostřejší vykreslování textu.
 ### [Převod dokumentu Word do PDF – Průvodce jasným textem (C#)](./convert-word-document-to-pdf-clear-text-guide-c/)
 Naučte se převádět soubory Word do PDF pomocí Aspose.HTML v C# s podrobným návodem a ukázkami kódu.
+### [Uložte HTML do ZIP pomocí C# – vytvořte ZIP archiv v C# pomocí Aspose](./save-html-to-zip-with-c-create-zip-archive-c-using-aspose/)
+Naučte se, jak pomocí Aspose.HTML v C# uložit HTML soubor do ZIP archivu a spravovat kompresi.
 
 ## Závěr
 

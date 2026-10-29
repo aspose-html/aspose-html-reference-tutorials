@@ -86,6 +86,10 @@ Erfahren Sie, wie Sie HTML mit Aspose.HTML für .NET in PDF rendern. Schritt‑f
 ### [HTML in PDF konvertieren in C# – Vollständiger Aspose‑Guide](./convert-html-to-pdf-in-c-complete-aspose-guide/)
 Erfahren Sie, wie Sie HTML mit Aspose.HTML in C# vollständig in PDF konvertieren – detaillierte Schritt‑für‑Schritt‑Anleitung.
 
+### [HTML zu PDF rendern in C# – PDF-Textqualität verbessern](./render-html-to-pdf-in-c-improve-pdf-text-quality/)
+Verbessern Sie die Textqualität von PDFs, die aus HTML mit Aspose.HTML für .NET gerendert werden. Schritt‑für‑Schritt‑Anleitung.
+### [HTML in PDF rendern in C# – HTML-String zu PDF Anleitung](./render-html-to-pdf-in-c-html-string-to-pdf-guide/)
+Erfahren Sie, wie Sie HTML-Strings in C# mit Aspose.HTML in PDFs umwandeln – Schritt‑für‑Schritt‑Anleitung.
 ### [Konvertieren Sie EPUB in .NET mit Aspose.HTML in ein Bild](./convert-epub-to-image/)
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET EPUB in Bilder konvertieren. Schritt‑für‑Schritt‑Anleitung mit Codebeispielen und anpassbaren Optionen.
 ### [Konvertieren Sie EPUB in .NET mit Aspose.HTML in PDF](./convert-epub-to-pdf/)
@@ -96,7 +100,6 @@ Erfahren Sie, wie Sie mit Aspose.HTML für .NET EPUB in XPS in .NET konvertieren
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in BMP in .NET konvertieren. Umfassender Leitfaden für Webentwickler zur Nutzung von Aspose.HTML für .NET.
 
 ### [Konvertieren Sie HTML in .NET in DOC und DOCX mit Aspose.HTML](./convert-html-to-doc-docx/)
-Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie die Leistung von Aspose.HTML für .NET nutzen. Konvertieren Sie HTML mühelos in DOCX und verbessern Sie Ihre .NET‑Projekte. Legen Sie noch heute los!
 ### [Konvertieren Sie HTML in GIF in .NET mit Aspose.HTML](./convert-html-to-gif/)
 Entdecken Sie die Leistungsfähigkeit von Aspose.HTML für .NET: Eine Schritt‑für‑Schritt‑Anleitung zur Konvertierung von HTML in GIF. Voraussetzungen, Codebeispiele, FAQs und mehr! Optimieren Sie Ihre HTML‑Manipulation mit Aspose.HTML.
 ### [Konvertieren Sie HTML in JPEG in .NET mit Aspose.HTML](./convert-html-to-jpeg/)

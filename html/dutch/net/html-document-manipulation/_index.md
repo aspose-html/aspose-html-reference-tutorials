@@ -114,6 +114,8 @@ Leer hoe u in C# de stijl van alinea's kunt aanpassen met Aspose.HTML, inclusief
 Leer hoe u vet en cursief lettertype maakt in C# met Aspose.HTML. Stapsgewijze handleiding met voorbeelden.
 ### [HTML-document in geheugen maken met Aspose.HTML – Complete gids](./create-html-document-memory-with-aspose-html-complete-guide/)
 Leer hoe u een HTML-document in het geheugen kunt maken en beheren met Aspose.HTML, inclusief voorbeeldcode en stapsgewijze uitleg.
+### [HTML-document maken in C# – Complete programmeergids](./create-html-document-in-c-complete-programming-guide/)
+Leer hoe u een HTML-document maakt in C# met een volledige programmeergids, inclusief voorbeelden en stapsgewijze instructies.
 
 ## Conclusie
 

@@ -68,6 +68,8 @@ Apprenez à compresser des fichiers HTML en archive ZIP avec Aspose HTML, étape
 Apprenez à activer ClearType et le mode de lissage pour améliorer le rendu du texte dans vos applications .NET avec Aspose.HTML.
 ### [Conversion d'un document Word en PDF – Guide texte clair (C#)](./convert-word-document-to-pdf-clear-text-guide-c/)
 Apprenez à convertir des documents Word en PDF en C# avec Aspose.HTML, grâce à un guide clair et détaillé.
+### [Enregistrer le HTML dans un zip avec C# – créer une archive zip C# avec Aspose](./save-html-to-zip-with-c-create-zip-archive-c-using-aspose/)
+Apprenez à sauvegarder des fichiers HTML dans une archive ZIP en C# avec Aspose.HTML. Tutoriel pas à pas avec exemples de code.
 
 ## Conclusion
 

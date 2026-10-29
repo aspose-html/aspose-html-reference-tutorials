@@ -104,6 +104,8 @@ Tanulja meg, hogyan módosíthatja a bekezdés stílusát C#-ban az Aspose.HTML 
 Ismerje meg, hogyan hozhat létre félkövér és dőlt betűtípust C#-ban az Aspose.HTML segítségével.
 ### [HTML-dokumentum memória létrehozása az Aspose.HTML-lel – Teljes útmutató](./create-html-document-memory-with-aspose-html-complete-guide/)
 Ismerje meg, hogyan hozhat létre memóriában tárolt HTML-dokumentumot az Aspose.HTML segítségével, lépésről lépésre útmutató.
+### [HTML-dokumentum létrehozása C#-ban – Teljes programozási útmutató](./create-html-document-in-c-complete-programming-guide/)
+Ismerje meg, hogyan hozhat létre HTML-dokumentumot C#-ban a teljes útmutató segítségével, lépésről lépésre példákkal.
 
 ## Következtetés
 

@@ -65,6 +65,9 @@ Erfahren Sie, wie Sie Clear Type aktivieren und den Glättungsmodus in .NET mit 
 ### [Word-Dokument in PDF konvertieren – Klartext‑Leitfaden (C#)](./convert-word-document-to-pdf-clear-text-guide-c/)
 Erfahren Sie, wie Sie mit Aspose.HTML ein Word‑Dokument in ein PDF‑Datei konvertieren und dabei den Klartext erhalten.
 
+### [HTML in ZIP speichern mit C# – ZIP-Archiv mit Aspose erstellen](./save-html-to-zip-with-c-create-zip-archive-c-using-aspose/)
+Erfahren Sie, wie Sie mit Aspose.HTML HTML in ein ZIP-Archiv komprimieren und in C# speichern.
+
 ## Abschluss
 
 Aspose.HTML für .NET öffnet Ihnen die Tür zu einer Welt voller Möglichkeiten, wenn es um die Arbeit mit HTML-Dokumenten in Ihren .NET-Anwendungen geht. Diese Tutorials zu erweiterten Funktionen vermitteln Ihnen das Wissen und die Fähigkeiten, die Sie benötigen, um das volle Potenzial von Aspose.HTML auszuschöpfen. Verbessern Sie Ihre Entwicklungsprojekte, sparen Sie Zeit und erstellen Sie bemerkenswerte Lösungen mit Aspose.HTML für .NET. Beginnen Sie noch heute mit unseren Tutorials und bringen Sie Ihre Webentwicklung auf die nächste Stufe.

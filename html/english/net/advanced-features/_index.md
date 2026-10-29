@@ -66,6 +66,8 @@ Learn how to compress HTML files into ZIP archives using Aspose.HTML, with step-
 Learn how to save HTML as PDF in C# using Aspose.HTML, including ZIP packaging support, with step-by-step examples and best practices.
 ### [How to Enable Clear Type – Enable Smoothing Mode in .NET](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
 Learn how to enable ClearType and set smoothing mode in .NET using Aspose.HTML for improved text rendering. Step-by-step guide and examples.
+### [save html to zip with C# – create zip archive c# using Aspose](./save-html-to-zip-with-c-create-zip-archive-c-using-aspose/)
+Learn how to save HTML content into a ZIP archive using Aspose.HTML in C#, with step-by-step code examples.
 
 ## Conclusion
 

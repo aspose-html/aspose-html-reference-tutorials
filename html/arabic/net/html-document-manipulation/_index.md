@@ -104,6 +104,8 @@ url: /ar/net/html-document-manipulation/
 تعلم كيفية إنشاء خطوط عريضة ومائلة في C# باستخدام Aspose.HTML خطوة بخطوة.
 ### [إنشاء مستند HTML في الذاكرة باستخدام Aspose.HTML – دليل شامل](./create-html-document-memory-with-aspose-html-complete-guide/)
 تعرف على كيفية إنشاء مستند HTML في الذاكرة باستخدام Aspose.HTML مع دليل شامل خطوة بخطوة.
+### [إنشاء مستند HTML في C# – دليل برمجة كامل](./create-html-document-in-c-complete-programming-guide/)
+تعلم كيفية إنشاء مستند HTML باستخدام C# من خلال دليل برمجة شامل خطوة بخطوة.
 
 ## خاتمة
 

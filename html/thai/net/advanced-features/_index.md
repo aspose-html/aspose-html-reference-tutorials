@@ -45,13 +45,14 @@ Aspose.HTML สำหรับ .NET เป็นเครื่องมือ�
 ### [การใช้เทมเพลต HTML ใน .NET ด้วย Aspose.HTML](./using-html-templates/)
 เรียนรู้วิธีใช้ Aspose.HTML สำหรับ .NET เพื่อสร้างเอกสาร HTML แบบไดนามิกจากข้อมูล JSON ใช้ประโยชน์จากพลังของการจัดการ HTML ในแอปพลิเคชัน .NET ของคุณ
 ### [วิธีรวมฟอนต์โดยใช้โปรแกรมใน C# – คู่มือขั้นตอนต่อขั้นตอน](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
-เรียนรู้วิธีรวมฟอนต์หลายแบบใน C# ด้วย Aspose.HTML อย่างละเอียด พร้อมตัวอย่างโค้ดและคำแนะนำทีละขั้นตอน
 ### [รับเวอร์ชัน Assembly ใน C# – คู่มือด่วนเพื่อดึงเวอร์ชันไลบรารี](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
 เรียนรู้วิธีดึงเวอร์ชันของ Assembly ใน C# อย่างรวดเร็วเพื่อระบุเวอร์ชันของไลบรารีที่ใช้งาน
 ### [ตัวจัดการทรัพยากรแบบกำหนดเองใน Aspose HTML – คู่มือบันทึกลงสตรีม](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
 เรียนรู้วิธีใช้ตัวจัดการทรัพยากรแบบกำหนดเองใน Aspose.HTML เพื่อบันทึกเนื้อหาไปยังสตรีมอย่างง่ายดาย
 ### [วิธีบีบอัด HTML ด้วย Aspose HTML – คู่มือฉบับสมบูรณ์](./how-to-zip-html-with-aspose-html-complete-guide/)
 เรียนรู้วิธีบีบอัดไฟล์ HTML เป็น ZIP ด้วย Aspose.HTML สำหรับ .NET อย่างละเอียดและครบถ้วน
+### [บันทึก HTML เป็น ZIP ด้วย C# – สร้างไฟล์ ZIP ด้วย C# โดยใช้ Aspose](./save-html-to-zip-with-c-create-zip-archive-c-using-aspose/)
+เรียนรู้วิธีบันทึกไฟล์ HTML เป็นไฟล์ ZIP ด้วย C# โดยใช้ Aspose.HTML เพื่อสร้างและจัดการอาร์ไคฟ์ ZIP อย่างง่าย
 
 ### [บันทึกเอกสารเป็น PDF ใน C# – คู่มือฉบับสมบูรณ์พร้อมการสนับสนุน ZIP](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
 เรียนรู้วิธีบันทึกไฟล์ HTML เป็น PDF ใน C# พร้อมการบีบอัดเป็นไฟล์ ZIP อย่างละเอียด

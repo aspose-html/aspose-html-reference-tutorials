@@ -97,6 +97,8 @@ Lär dig hur du ändrar styckeformat i HTML med Aspose.HTML för .NET i C#. Steg
 Lär dig hur du skapar fet och kursiv text i C# med Aspose.HTML – steg-för-steg guide.
 ### [Skapa HTML-dokument i minnet med Aspose.HTML – Komplett guide](./create-html-document-memory-with-aspose-html-complete-guide/)
 Lär dig hur du skapar och hanterar HTML-dokument i minnet med Aspose.HTML i .NET, steg‑för‑steg med exempel.
+### [Skapa HTML-dokument i C# – Komplett programmeringsguide](./create-html-document-in-c-complete-programming-guide/)
+Lär dig att skapa HTML-dokument i C# med en komplett guide som täcker alla steg och bästa praxis.
 
 ### [Gör text fet och kursiv i C# – Snabbguide för att styla HTML](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
 Lär dig hur du gör text fet och kursiv i HTML med C#. En snabbguide med kodexempel och steg‑för‑steg‑instruktioner.

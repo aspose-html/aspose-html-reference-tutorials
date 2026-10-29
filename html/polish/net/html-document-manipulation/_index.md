@@ -105,6 +105,8 @@ Dowiedz się, jak zmienić styl akapitu w dokumentach HTML przy użyciu Aspose.H
 Dowiedz się, jak w C# tworzyć czcionki pogrubione i kursywne przy użyciu Aspose.HTML.
 ### [Tworzenie pamięci dokumentu HTML przy użyciu Aspose.HTML – Kompletny przewodnik](./create-html-document-memory-with-aspose-html-complete-guide/)
 Dowiedz się, jak tworzyć dokument HTML w pamięci przy użyciu Aspose.HTML w .NET – pełny przewodnik krok po kroku.
+### [Tworzenie dokumentu HTML w C# – Kompletny przewodnik programistyczny](./create-html-document-in-c-complete-programming-guide/)
+Dowiedz się, jak w pełni wykorzystać Aspose.HTML w C# do tworzenia dokumentów HTML od podstaw, z przykładami i praktycznymi wskazówkami.
 
 ## Wniosek
 

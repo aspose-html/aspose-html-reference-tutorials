@@ -51,7 +51,7 @@ Aspose.HTML for .NET vyniká svou jednoduchostí a výkonem. Umožňuje vám př
 ### [Načtěte dokumenty HTML asynchronně v .NET pomocí Aspose.HTML](./load-html-doc-asynchronously/)
 Naučte se používat Aspose.HTML pro .NET pro práci s HTML dokumenty. Podrobný průvodce s příklady a často kladenými dotazy pro vývojáře.
 ### [Načtěte dokumenty HTML s pověřeními v .NET pomocí Aspose.HTML](./load-html-doc-with-credentials/)
-
+Naučte se, jak vylepšit vaše SEO pomocí Aspose.HTML pro .NET. Zvyšte hodnocení, analyzujte obsah webu a optimalizujte pro vyhledávače.
 ### [Načtěte HTML pomocí vzdáleného serveru v .NET s Aspose.HTML](./load-html-using-remote-server/)
 Odemkněte potenciál Aspose.HTML pro .NET pomocí našeho komplexního průvodce. Naučte se importovat jmenné prostory, přistupovat ke vzdáleným dokumentům HTML a další.
 ### [Načíst HTML pomocí URL v .NET s Aspose.HTML](./load-html-using-url/)
@@ -105,6 +105,8 @@ Naučte se měnit styl odstavců v C# pomocí Aspose.HTML. Kompletní průvodce 
 Naučte se, jak v C# pomocí Aspose.HTML vytvořit písmo s tučným a kurzívním stylem a aplikovat jej na HTML dokumenty.
 ### [Vytvoření HTML dokumentu v paměti pomocí Aspose.HTML – Kompletní průvodce](./create-html-document-memory-with-aspose-html-complete-guide/)
 Naučte se, jak pomocí Aspose.HTML vytvořit HTML dokument přímo v paměti a pracovat s ním bez souborového systému.
+### [Vytvořte HTML dokument v C# – Kompletní programovací průvodce](./create-html-document-in-c-complete-programming-guide/)
+Naučte se, jak pomocí Aspose.HTML v C# vytvořit HTML dokument od začátku s podrobnými ukázkami a tipy.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -70,6 +70,10 @@ Pelajari cara mengonversi file HTML lokal menjadi PDF menggunakan C# dengan pand
 Panduan lengkap mengonversi HTML ke PDF menggunakan C# dan Aspose.HTML dengan contoh kode langkah demi langkah.
 ### [Render HTML ke PDF dalam C# – Panduan Lengkap Aspose.HTML](./render-html-to-pdf-in-c-full-aspose-html-guide/)
 Pelajari cara merender HTML menjadi PDF menggunakan C# dengan panduan lengkap Aspose.HTML.
+### [Render HTML ke PDF dalam C# – Tingkatkan Kualitas Teks PDF](./render-html-to-pdf-in-c-improve-pdf-text-quality/)
+Pelajari cara merender HTML ke PDF dengan kualitas teks yang lebih baik menggunakan Aspose.HTML untuk .NET.
+### [Render HTML ke PDF dalam C# – panduan html string ke pdf](./render-html-to-pdf-in-c-html-string-to-pdf-guide/)
+Pelajari cara merender HTML menjadi PDF langsung dari string HTML menggunakan Aspose.HTML untuk .NET dengan contoh kode C#.
 ### [Buat PDF dari HTML – Panduan Langkah‑demi‑Langkah C#](./create-pdf-from-html-c-step-by-step-guide/)
 Pelajari cara membuat PDF dari HTML menggunakan C# dengan panduan langkah demi langkah menggunakan Aspose.HTML.
 ### [Buat PDF dari HTML dengan Aspose.HTML – Panduan Langkah‑demi‑Langkah](./create-pdf-from-html-with-aspose-html-step-by-step-guide/)

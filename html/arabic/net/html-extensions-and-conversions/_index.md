@@ -67,6 +67,9 @@ url: /ar/net/html-extensions-and-conversions/
 دليل شامل خطوة بخطوة لتحويل HTML إلى PDF باستخدام C# ومكتبة Aspose.HTML.
 ### [تحويل HTML إلى PDF في C# – دليل Aspose الكامل](./convert-html-to-pdf-in-c-complete-aspose-guide/)
 دليل شامل خطوة بخطوة لتحويل HTML إلى PDF باستخدام C# ومكتبة Aspose.HTML، مع أمثلة وتخصيصات متقدمة.
+### [تحويل HTML إلى PDF في C# – دليل تحويل سلسلة HTML إلى PDF](./render-html-to-pdf-in-c-html-string-to-pdf-guide/)
+دليل خطوة بخطوة لتحويل سلسلة HTML إلى ملف PDF باستخدام C# ومكتبة Aspose.HTML.
+
 ### [إنشاء PDF من HTML – دليل خطوة بخطوة بلغة C#](./create-pdf-from-html-c-step-by-step-guide/)
 دليل خطوة بخطوة لإنشاء ملف PDF من HTML باستخدام C# ومكتبة Aspose.HTML.
 ### [إنشاء PDF من HTML باستخدام Aspose.HTML – دليل خطوة بخطوة](./create-pdf-from-html-with-aspose-html-step-by-step-guide/)
@@ -247,6 +250,8 @@ url: /ar/net/html-extensions-and-conversions/
 تعلم كيفية تحسين جودة التحويل إلى PDF عبر تمكين خاصية التنعيم في Aspose.HTML باستخدام C#.
 ### [حفظ HTML إلى ملف ZIP باستخدام Aspose – دليل كامل](./save-html-to-zip-with-aspose-complete-guide/)
 دليل شامل خطوة بخطوة لحفظ ملفات HTML كملفات ZIP باستخدام Aspose في C#.
+### [تحويل HTML إلى PDF في C# – تحسين جودة نص PDF](./render-html-to-pdf-in-c-improve-pdf-text-quality/)
+تعلم كيفية تحسين جودة النص في ملفات PDF الناتجة عند تحويل HTML باستخدام Aspose.HTML في C#.
 
 ## خاتمة
 

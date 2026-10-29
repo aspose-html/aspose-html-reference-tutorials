@@ -58,6 +58,8 @@ Dowiedz się, jak zapisać dokument HTML jako PDF w C# z obsługą kompresji ZIP
 Dowiedz się, jak w .NET włączyć ClearType i tryb wygładzania, aby uzyskać wyraźny i płynny tekst w dokumentach HTML.
 ### [Konwertuj dokument Word do PDF – Przewodnik w czystym tekście (C#)](./convert-word-document-to-pdf-clear-text-guide-c/)
 Dowiedz się, jak konwertować dokumenty Word do PDF w C# przy użyciu Aspose.HTML, krok po kroku.
+### [Zapisz HTML do zip w C# – utwórz archiwum zip w C# przy użyciu Aspose](./save-html-to-zip-with-c-create-zip-archive-c-using-aspose/)
+Dowiedz się, jak zapisać plik HTML do archiwum ZIP w C# przy użyciu biblioteki Aspose, krok po kroku.
 
 ## Wniosek
 

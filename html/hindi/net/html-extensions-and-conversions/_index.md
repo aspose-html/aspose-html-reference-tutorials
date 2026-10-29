@@ -109,6 +109,12 @@ C# में Aspose.HTML के साथ पेज साइज और एं�
 ### [C# में HTML से PDF बनाएं – पूर्ण प्रोग्रामिंग गाइड](./create-pdf-from-html-in-c-complete-programming-guide/)
 C# में Aspose.HTML का उपयोग करके HTML से PDF बनाने की पूरी प्रोग्रामिंग गाइड। चरण‑दर‑स्टेप कोड उदाहरण और व्याख्याएँ।
 
+### [C# में HTML को PDF में रेंडर करें – PDF टेक्स्ट क्वालिटी सुधारें](./render-html-to-pdf-in-c-improve-pdf-text-quality/)
+C# में Aspose.HTML का उपयोग करके HTML को PDF में रेंडर करें और टेक्स्ट की गुणवत्ता बढ़ाएँ।
+
+### [C# में HTML को PDF में रेंडर करें – HTML स्ट्रिंग से PDF गाइड](./render-html-to-pdf-in-c-html-string-to-pdf-guide/)
+C# में HTML स्ट्रिंग को PDF में बदलने के चरण‑दर‑चरण मार्गदर्शन। Aspose.HTML के साथ तेज़ रूपांतरण।
+
 ### [Aspose.HTML के साथ .NET में EPUB को छवि में बदलें](./convert-epub-to-image/)
 ### [Aspose.HTML के साथ .NET में EPUB को PDF में बदलें](./convert-epub-to-pdf/)
 जानें कि .NET के लिए Aspose.HTML का उपयोग करके EPUB को PDF में कैसे बदलें। यह चरण‑दर‑स्टेप मार्गदर्शिका सहज दस्तावेज़ रूपांतरण के लिए अनुकूलन विकल्प, FAQ और बहुत कुछ शामिल करती है।

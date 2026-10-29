@@ -65,6 +65,12 @@ Aspose.HTML for .NET を使用して、C# で HTML ページを PDF に変換し
 ### [C# で HTML を PDF に変換する – テキストの明瞭性に関する完全ガイド](./convert-html-to-pdf-in-c-complete-guide-with-text-clarity-ti/)
 Aspose.HTML for .NET を使用して、C# で HTML を PDF に変換し、テキストの明瞭性を向上させる完全ガイドです。
 
+### [C# で HTML を PDF にレンダリング – PDF テキスト品質を向上させる](./render-html-to-pdf-in-c-improve-pdf-text-quality/)
+Aspose.HTML for .NET を使用して、C# で HTML を PDF にレンダリングし、テキスト品質を向上させる方法をステップバイステップで解説します。
+
+### [C# で HTML を PDF にレンダリング – HTML 文字列から PDF へのガイド](./render-html-to-pdf-in-c-html-string-to-pdf-guide/)
+C# と Aspose.HTML を利用し、HTML 文字列を直接 PDF に変換する手順を詳しく紹介します。
+
 ### [HTML から PDF を作成する – C# ステップバイステップ ガイド](./create-pdf-from-html-c-step-by-step-guide/)
 Aspose.HTML for .NET を使用して、C# で HTML から PDF を作成する手順をステップバイステップで解説します。
 

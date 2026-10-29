@@ -144,6 +144,8 @@ Lär dig hur du skapar PNG-bilder från HTML med en komplett guide för Aspose.H
 Lär dig hur du använder en anpassad resurs‑hanterare i C# för att konvertera Word‑dokument till PNG‑bilder på ett effektivt sätt.
 ### [Skapa JPEG från Word – Komplett C#-guide](./create-jpeg-from-word-complete-c-guide/)
 Lär dig hur du konverterar Word-dokument till JPEG-bilder med en komplett C#-guide och Aspose.HTML.
+### [Rendera HTML till PNG – Komplett steg‑för‑steg‑guide](./render-html-to-png-complete-step-by-step-guide/)
+Lär dig hur du renderar HTML till PNG med en komplett steg‑för‑steg‑guide.
 
 ## Slutsats
 

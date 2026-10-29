@@ -58,6 +58,8 @@ Aprenda a compactar arquivos HTML em um arquivo ZIP usando Aspose HTML, com exem
 Aprenda a salvar documentos HTML como PDF em C#, incluindo como compactar o resultado em um arquivo ZIP, passo a passo.
 ### [Converter documento Word para PDF – Guia de texto claro (C#)](./convert-word-document-to-pdf-clear-text-guide-c/)
 Aprenda a converter documentos Word em PDFs usando Aspose.HTML para .NET, mantendo o texto claro e a formatação, com exemplos passo a passo.
+### [Salvar HTML em ZIP com C# – criar arquivo ZIP em C# usando Aspose](./save-html-to-zip-with-c-create-zip-archive-c-using-aspose/)
+Aprenda a salvar documentos HTML em um arquivo ZIP usando C# e Aspose.HTML, com exemplos passo a passo.
 
 ## Conclusão
 
