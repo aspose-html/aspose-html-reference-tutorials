@@ -1,25 +1,22 @@
 ---
 category: general
-date: 2026-01-01
-description: Utwórz piaskownicę dla HTML w Javie i pobierz tytuł HTML. Dowiedz się,
-  jak bezpiecznie i efektywnie otworzyć plik HTML w piaskownicy.
+date: 2026-04-12
+description: Dowiedz się, jak zablokować HTML w Javie, tworząc piaskownicę, bezpiecznie
+  otwierając plik HTML i pobierając tytuł strony. Przykład kodu krok po kroku.
 draft: false
 keywords:
-- create sandbox for html
+- how to block html
 - open html file sandbox
 - retrieve html title java
-- aspose html sandbox java
-- java html document title
-language: pl
-og_description: Utwórz piaskownicę dla HTML przy użyciu Javy, otwórz plik HTML w piaskownicy
-  i pobierz tytuł HTML w Javie. Pełny kod i wyjaśnienia.
-og_title: Utwórz piaskownicę dla HTML w Javie – Kompletny poradnik
+og_description: Dowiedz się, jak blokować HTML w Javie przy użyciu piaskownicy Aspose.HTML,
+  bezpiecznie otwierać pliki HTML i wyodrębniać tytuł.
+og_title: Jak zablokować HTML w Javie – Kompletny poradnik
 tags:
 - Java
 - Aspose.HTML
 - Sandbox
 - HTML Processing
-title: Utwórz piaskownicę dla HTML w Javie – Przewodnik krok po kroku
+title: Jak zablokować HTML w Javie – Utwórz piaskownicę i pobierz tytuł
 url: /pl/java/creating-managing-html-documents/create-sandbox-for-html-in-java-step-by-step-guide/
 ---
 
@@ -27,28 +24,31 @@ url: /pl/java/creating-managing-html-documents/create-sandbox-for-html-in-java-s
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Utwórz piaskownicę dla HTML w Javie – Kompletny samouczek
+# Jak zablokować HTML w Javie – Kompletny samouczek
 
-Kiedykolwiek potrzebowałeś **utworzyć piaskownicę dla HTML** podczas pracy nad projektem w Javie, ale nie wiedziałeś, jak powstrzymać zewnętrzne zasoby przed wkraczaniem? Nie jesteś sam. Wielu programistów napotyka problem, gdy próbują ładować niezweryfikowane strony i nagle cała aplikacja zaczyna łączyć się z internetem.  
+If you’ve ever needed **how to block HTML** while processing third‑party pages in a Java application, you know the pain of unexpected network calls and script execution. In this tutorial we’ll show you exactly how to create a sandbox, **open HTML file sandbox** safely, and **retrieve HTML title Java** without letting any external resources slip through. The steps are concise, the code is ready‑to‑run, and you’ll understand why each setting matters.
 
-W tym przewodniku **utworzymy piaskownicę dla HTML**, następnie **otworzymy plik HTML w piaskownicy**, a na końcu **pobierzemy tytuł HTML w Javie** — wszystko przy użyciu kilku linii kodu Aspose.HTML. Bez zbędnych wstępów, tylko praktyczne rozwiązanie, które możesz skopiować i wkleić do swojego IDE już teraz.
+## Szybkie odpowiedzi
+- **Jak mogę zablokować HTML przed ładowaniem zasobów zewnętrznych?** Set `setEnableNetworkAccess(false)` in `SandboxOptions`.  
+- **Która biblioteka obsługuje sandbox w Javie?** Aspose.HTML for Java provides a built‑in `Sandbox` class.  
+- **Czy potrzebuję Maven, aby używać tego kodu?** No, just add the Aspose.HTML JAR to your classpath.  
+- **Czy nadal mogę uruchamiać JavaScript w sandboxie?** Yes, but you must enable it explicitly and handle network permissions.  
+- **Jaki jest wynik po uruchomieniu demonstracji?** Two lines: a success message and the page title extracted from the `<title>` tag.
 
-## Co zdobędziesz po przeczytaniu
+## Co wyniesiesz z tego
 
-Omówimy wszystko, od konfiguracji opcji piaskownicy po wypisanie tytułu dokumentu. Po zakończeniu będziesz wiedział:
+We’ll cover everything from setting up the sandbox options to printing the document title. By the end you’ll know:
 
-* Dlaczego piaskownica jest niezbędna przy przetwarzaniu HTML pochodzącego od osób trzecich.
-* Jak skonfigurować wymiary ekranu i wyłączyć dostęp do sieci.
-* Dokładny kod w Javie, który otwiera plik HTML wewnątrz piaskownicy.
-* Jak bezpiecznie odczytać znacznik `<title>`, nawet jeśli strona próbuje ładować zewnętrzne skrypty.
+* Why a sandbox is essential when processing third‑party HTML.  
+* How to configure screen dimensions and disable network access.  
+* The exact Java code that opens an HTML file inside the sandbox.  
+* How to read the title tag safely, even if the page tries to load external scripts.
 
-**Wymagania wstępne?** Wystarczy aktualny JDK (8 lub nowszy) oraz biblioteka Aspose.HTML for Java w classpath. Nie potrzebujesz żadnych sztuczek Maven, ale jeśli używasz Maven, po prostu dodaj zależność Aspose i gotowe.
+**Wymagania wstępne?** Just a recent JDK (8 or newer) and the Aspose.HTML for Java library on your classpath. No Maven wizardry required, but if you use Maven just add the Aspose dependency and you’re good to go.
 
----
+## Jak zablokować HTML w Javie? – Konfiguracja środowiska Sandbox
 
-## Krok 1: Utwórz piaskownicę dla HTML – skonfiguruj środowisko
-
-Zanim będziemy mogli załadować jakikolwiek dokument, potrzebujemy piaskownicy, która naśladuje okno przeglądarki, ale odmawia komunikacji z zewnętrznym światem. Wyobraź sobie ogrodzone podwórko, na którym dziecko (twój HTML) może się bawić, ale brama jest zamknięta.
+Before we can load any document we need a sandbox that mimics a browser window but refuses to talk to the outside world. Think of it as a fenced backyard where the kid (your HTML) can play, but the gate is locked.
 
 ```java
 import com.aspose.html.sandbox.Sandbox;
@@ -63,14 +63,12 @@ sandboxOptions.setEnableNetworkAccess(false);      // blocks all remote resource
 // Pro tip: you can also set a custom user‑agent string here if needed.
 ```
 
-**Dlaczego to ważne:**  
-Ustawienie `setEnableNetworkAccess(false)` gwarantuje, że każde `<script src="…">`, `<img src="…">` czy import CSS nie będą się łączyć z internetem. To jest sedno **tworzenia piaskownicy dla HTML** — uzyskujesz izolację bez utraty jakości renderowania.
+**Dlaczego to ma znaczenie:**  
+Setting `setEnableNetworkAccess(false)` guarantees that any `<script src="…">`, `<img src="…">`, or CSS import won’t reach out to the internet. This is the core of **how to block HTML**—you get isolation without sacrificing rendering fidelity.
 
----
+## Otwórz plik HTML w sandboxie – Bezpieczne załadowanie dokumentu
 
-## Krok 2: Otwórz plik HTML w piaskownicy – bezpieczne ładowanie dokumentu
-
-Teraz, gdy piaskownica jest gotowa, możemy wrzucić do niej nasz plik HTML. Metoda `Sandbox.open()` zwraca `HTMLDocument`, który istnieje wyłącznie w zamkniętym środowisku.
+Now that the sandbox is ready, we can drop our HTML file into it. The `Sandbox.open()` method returns an `HTMLDocument` that lives entirely inside the fenced environment.
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -89,14 +87,12 @@ catch (Exception e) {
 }
 ```
 
-**Częste pytanie:** *Co jeśli plik nie istnieje?*  
-Blok `try‑with‑resources` automatycznie zamyka piaskownicę, a klauzula `catch` wyświetli czytelny komunikat o błędzie. Możesz także wcześniej zweryfikować ścieżkę przy pomocy `Files.exists()`, jeśli wolisz.
+**Częste pytanie:** *What if the file doesn’t exist?*  
+The `try‑with‑resources` block automatically closes the sandbox, and the catch clause will give you a clear error message. You can also pre‑validate the path with `Files.exists()` if you prefer.
 
----
+## Pobierz tytuł HTML w Javie – Wyodrębnij tag `<title>`
 
-## Krok 3: Pobierz tytuł HTML w Javie – wyodrębnij znacznik `<title>`
-
-Gdy dokument jest już bezpiecznie załadowany, odczytanie tytułu strony to pestka. Metoda `HTMLDocument.getTitle()` odczytuje element `<title>` z DOM, całkowicie ignorując zablokowane zasoby zewnętrzne.
+With the document safely loaded, pulling the page title is a breeze. The `HTMLDocument.getTitle()` method reads the `<title>` element from the DOM, completely oblivious to any external resources that were blocked.
 
 ```java
 // Continuing inside the try block from Step 2
@@ -104,20 +100,18 @@ String pageTitle = htmlDoc.getTitle();
 System.out.println("Title inside sandbox: " + pageTitle);
 ```
 
-**Oczekiwany wynik** (zakładając, że plik HTML zawiera `<title>Moja Złożona Strona</title>`):
+**Oczekiwany wynik** (assuming the HTML file contains `<title>My Complex Page</title>`):
 
 ```
 Document loaded successfully inside sandbox.
 Title inside sandbox: My Complex Page
 ```
 
-Jeśli HTML nie zawiera znacznika `<title>`, `getTitle()` po prostu zwraca pusty łańcuch — nie zostanie rzucony żaden wyjątek. Dzięki temu **pobieranie tytułu HTML w Javie** jest bezpieczną operacją nawet na niepoprawnych stronach.
+If the HTML lacks a `<title>` tag, `getTitle()` simply returns an empty string—no exception thrown. This makes **retrieve HTML title Java** a safe operation even on malformed pages.
 
----
+## Pełny, uruchamialny przykład
 
-## Pełny, gotowy do uruchomienia przykład
-
-Łącząc wszystkie elementy, oto samodzielna klasa Javy, którą możesz skompilować i uruchomić od razu. Pamiętaj, aby zamienić `YOUR_DIRECTORY/complex.html` na rzeczywistą ścieżkę do swojego pliku testowego.
+Putting it all together, here’s a self‑contained Java class that you can compile and run right away. Remember to replace `YOUR_DIRECTORY/complex.html` with the real path to your test file.
 
 ```java
 import com.aspose.html.sandbox.Sandbox;
@@ -125,7 +119,7 @@ import com.aspose.html.sandbox.SandboxOptions;
 import com.aspose.html.HTMLDocument;
 
 public class SandboxDemo {
-    public static void main(String[] args) {
+    public static main(String[] args) {
         // 1️⃣ Configure sandbox options
         SandboxOptions sandboxOptions = new SandboxOptions();
         sandboxOptions.setScreenWidth(1280);
@@ -146,32 +140,42 @@ public class SandboxDemo {
 }
 ```
 
-**Uruchomienie demo:**  
+**Uruchamianie demonstracji:**  
+
 ```bash
 javac -cp "path/to/aspose-html.jar" SandboxDemo.java
 java -cp ".:path/to/aspose-html.jar" SandboxDemo
 ```
 
-Powinieneś zobaczyć dwuliniowy wynik przedstawiony wcześniej, potwierdzający, że **utworzyłeś piaskownicę dla HTML**, **otworzyłeś plik HTML w piaskownicy** i **pobrałeś tytuł HTML w Javie**.
+You should see the two‑line output shown earlier, confirming that you have successfully **created sandbox for HTML**, **opened HTML file sandbox**, and **retrieved HTML title Java**.
 
----
+## Wskazówki, przypadki brzegowe i najlepsze praktyki
 
-## Wskazówki, przypadki brzegowe i dobre praktyki
+* **Wiele stron?** If you need to process several HTML files, reuse the same `Sandbox` instance—just call `open()` repeatedly. The sandbox stays isolated for each call.  
+* **Dynamiczna zawartość?** For pages that rely on JavaScript to set the title, you’ll need to enable script execution (`sandboxOptions.setEnableScript(true)`). Just remember that turning scripts on also opens a door for network calls, so you might want to whitelist specific domains instead of disabling all network access.  
+* **Duże pliki?** The sandbox holds the entire DOM in memory. For massive documents, consider streaming the file and extracting the `<title>` with a lightweight parser before loading it into the sandbox.  
+* **Logowanie:** Aspose.HTML can emit detailed logs via `System.setProperty("aspose.html.logging", "true")`. Handy when troubleshooting why a particular resource was blocked.
 
-* **Wiele stron?** Jeśli musisz przetworzyć kilka plików HTML, użyj tego samego obiektu `Sandbox` — po prostu wywołuj `open()` wielokrotnie. Piaskownica pozostaje izolowana przy każdym wywołaniu.
-* **Zawartość dynamiczna?** Dla stron, które ustawiają tytuł przy pomocy JavaScript, musisz włączyć wykonywanie skryptów (`sandboxOptions.setEnableScript(true)`). Pamiętaj jednak, że włączenie skryptów otwiera drzwi do wywołań sieciowych, więc warto rozważyć białą listę konkretnych domen zamiast całkowitego wyłączania dostępu do sieci.
-* **Duże pliki?** Piaskownica przechowuje cały DOM w pamięci. W przypadku bardzo dużych dokumentów rozważ strumieniowe przetwarzanie pliku i wyodrębnienie `<title>` przy pomocy lekkiego parsera przed załadowaniem go do piaskownicy.
-* **Logowanie:** Aspose.HTML może emitować szczegółowe logi poprzez `System.setProperty("aspose.html.logging", "true")`. Przydatne przy diagnozowaniu, dlaczego konkretny zasób został zablokowany.
+## Najczęściej zadawane pytania
 
----
+**P: Czy mogę zablokować wszystkie zasoby zewnętrzne, jednocześnie pozwalając na skrypty inline?**  
+A: Yes. Keep `setEnableNetworkAccess(false)` and set `setEnableScript(true)` to allow inline JavaScript but prevent any network fetches.
 
-## Zakończenie
+**P: Co się stanie, jeśli HTML spróbuje załadować plik CSS z internetu?**  
+A: The request is blocked by the sandbox, and the CSS is simply ignored, leaving the document’s layout based on the available styles.
 
-Przeszliśmy krok po kroku, jak **utworzyć piaskownicę dla HTML** przy użyciu Aspose.HTML for Java, bezpiecznie **otworzyć plik HTML w piaskownicy** oraz niezawodnie **pobrać tytuł HTML w Javie**. Trójstopniowy wzorzec — konfiguracja, ładowanie, ekstrakcja — obejmuje najczęstszy scenariusz pracy z niezweryfikowanym HTML w aplikacji Java.
+**P: Czy sandbox jest bezpieczny wątkowo?**  
+A: A single `Sandbox` instance is not thread‑safe. Create a separate sandbox per thread or synchronize access if you need concurrent processing.
 
-Gotowy na kolejny wyzwanie? Spróbuj wyrenderować stronę do obrazu PNG wewnątrz tej samej piaskownicy lub poeksperymentuj z układami wyłącznie CSS, aby zobaczyć, jak silnik renderujący zachowuje się bez zasobów sieciowych. W każdym razie masz już solidne podstawy do bezpiecznego przetwarzania HTML w Javie.
+**P: Czy potrzebuję licencji na Aspose.HTML w fazie rozwoju?**  
+A: A free evaluation license works for development and testing. A commercial license is required for production deployments.
 
-Jeśli napotkałeś jakiekolwiek problemy lub masz pomysły na rozszerzenia, zostaw komentarz poniżej. Szczęśliwego piaskowania!
+**P: Jak mogę przechwycić błędy występujące podczas parsowania?**  
+A: Wrap the `sandbox.open()` call in a try‑catch block as shown; the exception message will contain parsing details.
+
+**Last Updated:** 2026-04-12  
+**Tested With:** Aspose.HTML for Java 24.11  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -10,9 +10,8 @@ url: /id/java/conversion-html-to-other-formats/convert-html-to-pdf/
 weight: 10
 ---
 
- table header translation: we need to keep markdown table format.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
