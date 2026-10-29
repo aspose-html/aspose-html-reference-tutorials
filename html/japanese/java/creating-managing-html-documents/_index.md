@@ -63,6 +63,8 @@ Java で JSON データを取得し、動的に HTML コンテンツを生成す
 Aspose.HTML for Java を使用して、HTML ドキュメントからページタイトルを簡単に取得する方法をステップバイステップで解説します。
 ### [Java でページタイトルを抽出する – Aspose.HTML を使用した完全ガイド](./extract-page-title-with-java-full-guide-using-aspose-html/)
 Aspose.HTML for Java を活用し、HTML ドキュメントからページタイトルを抽出する手順を詳しく解説します。
+### [Java で URL から HTML を読み込む – CSS と XPath を使用した完全ガイド](./load-html-from-url-in-java-complete-guide-with-css-xpath/)
+Java で URL から HTML を取得し、CSS セレクタと XPath で要素を抽出する方法をステップバイステップで解説します。
 ### [Aspose.HTML for Java を使用して新しい HTML ドキュメントを生成する](./generate-new-html-documents/)
 この簡単なステップバイステップ ガイドで、Aspose.HTML for Java を使用して新しい HTML ドキュメントを作成する方法を学びます。動的な HTML コンテンツの生成を開始します。
 ### [Java で JavaScript から HTML を生成する – 完全ステップバイステップガイド](./generate-html-from-javascript-in-java-complete-step-by-step/)
@@ -153,6 +155,10 @@ Java アプリで Fetch API を利用し、JSON データを取得・処理す�
 Aspose.HTML を使用せずに、Java でスレッドを作成し管理する手順をステップバイステップで解説します。
 ### [Aspose.HTML を使用した Java の HTML ファイル読み取り – 完全ガイド](./read-html-file-java-complete-guide-using-aspose-html/)
 Aspose.HTML for Java を使って HTML ファイルを読み込む方法をステップバイステップで解説します。初心者にも分かりやすい完全ガイドです。
+### [Java で計算済みスタイルを取得 – 完全プログラミングガイド](./get-computed-style-java-complete-programming-guide/)
+Java で計算済みスタイルを取得する方法をステップバイステップで解説します。実践的な例とヒントが含まれています。
+### [Aspose.HTML で HTML ドキュメントを作成する – 完全 Java ガイド](./create-html-document-with-aspose-html-complete-java-guide/)
+Aspose.HTML for Java を使い、HTML ドキュメントを最初から作成する手順を詳細に解説した完全ガイドです。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

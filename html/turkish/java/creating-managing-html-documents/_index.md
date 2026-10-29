@@ -64,6 +64,8 @@ Aspose.HTML ile Java'da bir URL'den HTML belgelerinin nasıl kolayca yüklenece�
 Java için Aspose.HTML kullanarak HTML nasıl yükleneceğini adım adım öğrenin.
 ### [Java için Aspose.HTML'de XPath ve CSS Seçicileri Karşılaştırarak HTML Yükleme](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
 Java için Aspose.HTML kullanarak HTML yüklerken XPath ve CSS seçicilerini karşılaştırın. Detaylı adım adım rehber.
+### [Java için Aspose.HTML'de URL'den HTML Yükleme – CSS ve XPath ile Tam Kılavuz](./load-html-from-url-in-java-complete-guide-with-css-xpath/)
+Java için Aspose.HTML kullanarak bir URL'den HTML içeriğini CSS seçicileri ve XPath ifadeleriyle nasıl yükleyeceğinizi ve analiz edeceğinizi öğrenin.
 ### [Java için Aspose.HTML kullanarak Yeni HTML Belgeleri Oluşturun](./generate-new-html-documents/)
 Bu kolay adım adım kılavuzla Aspose.HTML for Java kullanarak yeni HTML belgelerinin nasıl oluşturulacağını öğrenin. Dinamik HTML içeriği oluşturmaya başlayın.
 ### [Java için Aspose.HTML'de Belge Yükleme Olaylarını Yönetme](./handle-document-load-events/)
@@ -172,6 +174,10 @@ Java için Aspose.HTML kullanarak bir HTML belgesinden sayfa başlığını nas�
 Java'da çoklu iş parçacığı oluşturmayı ve yönetmeyi adım adım öğrenin. Başlangıçtan ileri seviyeye kadar kapsamlı rehber.
 ### [Java’da HTML Dosyasını Okuma – Aspose.HTML Kullanarak Tam Kılavuz](./read-html-file-java-complete-guide-using-aspose-html/)
 Aspose.HTML for Java ile HTML dosyalarını nasıl okuyacağınızı adım adım öğrenin.
+### [Java için Hesaplanmış Stili Al – Tam Programlama Kılavuzu](./get-computed-style-java-complete-programming-guide/)
+Java için Aspose.HTML kullanarak hesaplanmış stil değerlerini nasıl alacağınızı adım adım öğrenin.
+### [Java için Aspose.HTML'de HTML Belgesi Oluşturma – Tam Java Kılavuzu](./create-html-document-with-aspose-html-complete-java-guide/)
+Aspose.HTML kullanarak Java'da HTML belgesi oluşturmayı adım adım öğrenin. Tam kapsamlı rehber, örnek kodlar ve ipuçları içerir.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

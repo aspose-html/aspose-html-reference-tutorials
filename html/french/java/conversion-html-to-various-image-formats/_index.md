@@ -136,11 +136,11 @@ Apprenez à créer un PNG à partir de HTML en Java avec Aspose.HTML, en défini
 ### [Conversion d'HTML en PNG – Guide d'exportation par lots pour Java](./convert-html-to-png-batch-export-guide-for-java/)
 Apprenez à exporter en masse des pages HTML vers des images PNG avec Aspose.HTML for Java, en automatisant le processus de conversion.
 ### [Comment définir le DPI lors de la conversion HTML en PNG – Guide complet Aspose HTML](./how-to-set-dpi-when-converting-html-to-png-complete-aspose-h/)
+### [Convertir HTML en PNG en Java – Guide complet étape par étape](./convert-html-to-png-in-java-complete-step-by-step-guide/)
+Apprenez à convertir HTML en PNG en Java avec Aspose.HTML. Guide complet étape par étape pour une conversion précise et efficace.
 ### [Conversion d'HTML en TIFF](./convert-html-to-tiff/)
 Apprenez à convertir facilement HTML en TIFF avec Aspose.HTML for Java. Guide étape par étape pour une gestion efficace des documents.
 ### [Rendu HTML Java : Convertir une page longue en PNG](./render-html-java-convert-long-page-to-png/)
-### [Convertir HTML en PNG en Java – Guide complet étape par étape](./convert-html-to-png-in-java-complete-step-by-step-guide/)
-Apprenez à convertir HTML en PNG avec Java en suivant un guide complet et détaillé, étape par étape, utilisant Aspose.HTML.
 ### [Comment exécuter du JavaScript et rendre le HTML en PNG avec Aspose](./how-to-run-javascript-and-render-html-to-png-with-aspose/)
 Apprenez à exécuter du JavaScript et à convertir du HTML en image PNG avec Aspose.HTML for Java, étape par étape.
 ### [Conversion d'HTML en TIFF – Guide complet de programmation](./convert-html-to-tiff-in-java-complete-programming-guide/)
@@ -208,6 +208,8 @@ Apprenez à convertir HTML en AVIF en Java avec Aspose.HTML. Guide complet étap
 Apprenez à convertir HTML en WebP en Java avec Aspose.HTML. Guide complet étape par étape pour une conversion efficace et optimisée.
 
 ### [convertir svg en webp – Guide complet Java pour SVG animés](./convert-svg-to-webp-full-java-guide-for-animated-svgs/)
+### [Rendu HTML en image en Java – Guide complet Aspose.HTML](./render-html-to-image-in-java-complete-aspose-html-guide/)
+Apprenez à rendre du HTML en image en Java avec Aspose.HTML. Guide complet étape par étape pour une conversion optimale.
 
 ## Questions fréquemment posées
 

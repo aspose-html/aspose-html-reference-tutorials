@@ -208,6 +208,8 @@ Naučte se převést HTML do WebP v Javě pomocí Aspose.HTML. Kompletní krok�
 Naučte se převést animované SVG soubory do formátu WebP v Javě pomocí Aspose.HTML. Kompletní krok‑za‑krokem průvodce.
 ### [Jak nastavit DPI při převodu HTML na PNG – Kompletní průvodce Aspose HTML](./how-to-set-dpi-when-converting-html-to-png-complete-aspose-h/)
 Naučte se nastavit DPI při převodu HTML na PNG pomocí Aspose.HTML for Java. Kompletní krok‑za‑krokem průvodce.
+### [Vykreslení HTML na obrázek v Javě – Kompletní průvodce Aspose.HTML](./render-html-to-image-in-java-complete-aspose-html-guide/)
+Kompletní návod, jak pomocí Aspose.HTML v Javě převést HTML na různé formáty obrázků s podrobnými ukázkami kódu.
 
 ## Často kladené otázky
 

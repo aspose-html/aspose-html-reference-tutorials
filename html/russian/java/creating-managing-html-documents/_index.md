@@ -72,11 +72,12 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 ### [Загрузка JSON с помощью Fetch в Java — полное руководство](./load-json-with-fetch-in-java-complete-guide/)
 Узнайте, как загружать JSON-данные с помощью Fetch API в Java, пошаговое полное руководство.
 ### [Создание новых HTML-документов с помощью Aspose.HTML для Java](./generate-new-html-documents/)
-Узнайте, как создавать новые HTML документы с помощью Aspose.HTML для Java с помощью этого простого пошагового руководства. Начните создавать динамический HTML-контент.
 ### [Как загрузить HTML в Java – сравнение XPath и CSS‑селекторов](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
 Узнайте, как загружать HTML в Java и сравните использование XPath и CSS‑селекторов для выбора элементов.
 ### [Создание HTML‑элемента с помощью Java ExecutorService – демонстрация потокобезопасности](./create-html-element-with-java-executorservice-thread-safe-de/)
 Показано, как безопасно создавать HTML‑элементы в многопоточной среде Java с использованием ExecutorService.
+### [Создание HTML-документа с Aspose.HTML – Полное руководство Java](./create-html-document-with-aspose-html-complete-java-guide/)
+Полное пошаговое руководство по созданию HTML-документа с использованием Aspose.HTML в Java.
 ### [Обработка событий загрузки документа в Aspose.HTML для Java](./handle-document-load-events/)
 Изучите обработку событий загрузки документов в Aspose.HTML для Java с помощью этого пошагового руководства. Улучшите свои веб-приложения.
 ### [Как использовать XPath в Java – чтение HTML и извлечение текста](./how-to-use-xpath-in-java-read-html-and-extract-text/)
@@ -158,6 +159,8 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 Узнайте, как получать JSON-данные с помощью JavaScript в Java, используя Aspose.HTML, с подробными шагами и примерами.
 ### [Как запустить поток в Java – Полное руководство](./how-to-start-thread-in-java-complete-guide/)
 Подробное руководство по запуску потоков в Java, включающее примеры и лучшие практики.
+### [Получить вычисленный стиль Java – Полное руководство по программированию](./get-computed-style-java-complete-programming-guide/)
+### [Загрузка HTML из URL в Aspose.HTML для Java – Полное руководство с CSS и XPath](./load-html-from-url-in-java-complete-guide-with-css-xpath/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

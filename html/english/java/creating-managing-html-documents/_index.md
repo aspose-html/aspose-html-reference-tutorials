@@ -46,14 +46,19 @@ Finally, for those looking to push their skills even further, there’s a wealth
 
 ### [Create HTML Documents Asynchronously in Aspose.HTML for Java](./create-html-documents-async/)
 Master HTML document creation asynchronously with Aspose.HTML for Java. Step-by-step guide, tips, and FAQs included for swift learning.
+
 ### [Create Empty HTML Documents in Aspose.HTML for Java](./create-empty-html-documents/)
 Learn how to create empty HTML documents in Java using Aspose.HTML with our detailed step-by-step tutorial, perfect for developers of all levels.
+
 ### [Load HTML Documents from File in Aspose.HTML for Java](./load-html-documents-from-file/)
 Unlock the power of HTML manipulation with Aspose.HTML for Java. Learn to load HTML documents from files with step-by-step tutorials.
+
 ### [Advanced File Loading for HTML Documents in Aspose.HTML for Java](./advanced-file-loading-html-documents/)
 Learn how to load, manipulate, and save HTML documents using Aspose.HTML for Java in this step-by-step guide. Unlock advanced HTML processing in your Java projects.
+
 ### [Load HTML Documents from Stream with Aspose.HTML for Java](./load-html-documents-from-stream/)
 Learn how to load HTML documents from streams using Aspose.HTML for Java. This guide provides a step-by-step tutorial for seamless HTML manipulation.
+
 ### [Create HTML Documents from String in Aspose.HTML for Java](./create-html-documents-from-string/)
 Learn how to create HTML documents from strings in Aspose.HTML for Java with this step-by-step guide.
 ### [Create HTML Document with Java – Fetch JSON and Generate Content](./create-html-document-with-java-fetch-json-and-generate-conte/)
@@ -82,8 +87,15 @@ Learn how to filter HTML elements by class using querySelectorAll in Aspose.HTML
 Master querying HTML in Java using Aspose.HTML with this complete, step-by-step guide.
 ### [Extract Page Title with Java – Full Guide Using Aspose.HTML](./extract-page-title-with-java-full-guide-using-aspose-html/)
 Learn how to extract page titles in Java using Aspose.HTML with this comprehensive step-by-step guide.
+### [Create HTML Document with Aspose.HTML - Complete Java Guide](./create-html-document-with-aspose-html-complete-java-guide/)
+Learn how to create an HTML document using Aspose.HTML in Java with this comprehensive step‑by‑step guide.
+
+### [Get Computed Style Java – Complete Programming Guide](./get-computed-style-java-complete-programming-guide/)
+Learn how to retrieve computed CSS styles in Java using Aspose.HTML with this complete programming guide.
+
 ### [Create sandbox for HTML in Java – Step‑by‑Step Guide](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Learn how to set up a secure HTML sandbox in Java using Aspose.HTML with this detailed step-by-step guide.
+
 ### [Load HTML Documents from URL in Aspose.HTML for Java](./load-html-documents-from-url/)
 Discover how to easily load HTML documents from a URL in Java with Aspose.HTML. Step-by-step tutorial included.
 ### [How to Load HTML in Java – Step‑by‑Step Guide](./how-to-load-html-in-java-step-by-step-guide/)
@@ -106,6 +118,9 @@ Learn to handle document load events in Aspose.HTML for Java with this step-by-s
 Learn how to execute asynchronous JavaScript in Java using Aspose.HTML with this complete step-by-step guide.
 ### [fetch json with javascript in Java – Full Guide](./fetch-json-with-javascript-in-java-full-guide/)
 Learn how to fetch JSON using JavaScript within Java applications with Aspose.HTML. Complete step-by-step guide.
+### [Load HTML from URL in Java – Complete Guide with CSS & XPath](./load-html-from-url-in-java-complete-guide-with-css-xpath/)
+Learn how to load HTML from a URL in Java using Aspose.HTML, with CSS selectors and XPath queries. Step‑by‑step guide.
+
 ### [Create and Manage SVG Documents in Aspose.HTML for Java](./create-manage-svg-documents/)
 Learn to create and manage SVG documents using Aspose.HTML for Java! This comprehensive guide covers everything from basic creation to advanced manipulation.
 ### [How to Parse HTML Java – Load, Query & Count Elements](./how-to-parse-html-java-load-query-count-elements/)

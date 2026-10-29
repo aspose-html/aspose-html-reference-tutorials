@@ -86,16 +86,22 @@ Ismerje meg, hogyan kereshet HTML tartalomban az Aspose Java segítségével, l�
 Ismerje meg, hogyan lehet JSON-t lekérni JavaScript‑ben, és teljes körűen létrehozni HTML-dokumentumot Java segítségével.
 ### [HTML oldal címének kinyerése Java-val – Teljes útmutató az Aspose.HTML használatával](./extract-page-title-with-java-full-guide-using-aspose-html/)
 Ismerje meg, hogyan nyerheti ki egy HTML oldal címét Java és az Aspose.HTML könyvtár segítségével, lépésről lépésre.
+### [HTML betöltése URL-ről Java-ban – Teljes útmutató CSS és XPath használatával](./load-html-from-url-in-java-complete-guide-with-css-xpath/)
+Ismerje meg, hogyan tölthet be HTML-t URL-ről Java-ban, és használhat CSS‑szelektorokat és XPath‑kifejezéseket a tartalom feldolgozásához.
+### [Computed Style lekérése Java-ban – Teljes programozási útmutató](./get-computed-style-java-complete-programming-guide/)
+Fedezze fel, hogyan kérheti le egy HTML elem számított stílusát Java-ban az Aspose.HTML segítségével, részletes, lépésről‑lépésre útmutatóval.
 ### [Új HTML-dokumentumok létrehozása az Aspose.HTML for Java használatával](./generate-new-html-documents/)
 Ebből az egyszerű, lépésenkénti útmutatóból megtudhatja, hogyan hozhat létre új HTML-dokumentumokat az Aspose.HTML for Java használatával. Kezdje el a dinamikus HTML-tartalom generálását.
 ### [HTML-dokumentum létrehozása Java-ban – Lépésről‑lépésre útmutató az Aspose.HTML használatával](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
 Tanulja meg, hogyan hozhat létre HTML-dokumentumot Java-ban az Aspose.HTML segítségével egy részletes, lépésről‑lépésre útmutatóban.
 ### [Kezelje a dokumentumbetöltési eseményeket az Aspose.HTML for Java-ban](./handle-document-load-events/)
-Ezzel a lépésről lépésre útmutatóval ismerkedjen meg a dokumentumbetöltési események kezelésével az Aspose.HTML for Java programban. Bővítse webalkalmazásait.
+Ezzel a lépésről‑lépésre útmutatóval ismerkedjen meg a dokumentumbetöltési események kezelésével az Aspose.HTML for Java programban. Bővítse webalkalmazásait.
 ### [Hozzon létre és kezeljen SVG-dokumentumokat az Aspose.HTML for Java-ban](./create-manage-svg-documents/)
 Ismerje meg az SVG dokumentumok létrehozását és kezelését az Aspose.HTML for Java segítségével! Ez az átfogó útmutató az alapvető alkotástól a haladó manipulációig mindent lefed.
 ### [HTML karakterek számlálása Java-ban – Teljes útmutató az Aspose HTML-lel](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Ismerje meg, hogyan számolhatja meg a HTML karaktereket Java-ban az Aspose.HTML segítségével, részletes, lépésről‑lépésre útmutatóval.
+### [HTML-dokumentum létrehozása az Aspose.HTML segítségével – Teljes Java útmutató](./create-html-document-with-aspose-html-complete-java-guide/)
+Lépésről‑lépésre bemutató, amely részletesen ismerteti, hogyan hozhat létre HTML-dokumentumot az Aspose.HTML Java könyvtárral.
 ### [HTML sandbox létrehozása Java-ban – Lépésről‑lépésre útmutató](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Ismerje meg, hogyan hozhat létre biztonságos sandbox környezetet HTML feldolgozáshoz Java-ban, részletes lépésekkel.
 ### [HTML-dokumentum létrehozása Java-val – JSON lekérése és tartalom generálása](./create-html-document-with-java-fetch-json-and-generate-conte/)

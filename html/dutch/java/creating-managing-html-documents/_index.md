@@ -82,6 +82,8 @@ Leer hoe u JavaScript uitvoert binnen een HTML-document in Java en dynamisch ele
 Leer hoe u met ExecutorService thread‑veilige HTML-elementen maakt in Java met Aspose.HTML.
 ### [Pagina-titel extraheren met Java – volledige gids met Aspose.HTML](./extract-page-title-with-java-full-guide-using-aspose-html/)
 Leer hoe u met Aspose.HTML voor Java de paginatitel uit HTML kunt halen. Stapsgewijze handleiding voor snelle implementatie.
+### [HTML laden vanaf URL in Java – Complete gids met CSS & XPath](./load-html-from-url-in-java-complete-guide-with-css-xpath/)
+Leer hoe u HTML van een URL laadt in Java met CSS‑selectoren en XPath, inclusief stapsgewijze handleiding.
 ### [Genereer nieuwe HTML-documenten met Aspose.HTML voor Java](./generate-new-html-documents/)
 Leer hoe u nieuwe HTML-documenten maakt met Aspose.HTML voor Java met deze eenvoudige stapsgewijze handleiding. Begin met het genereren van dynamische HTML-inhoud.
 ### [HTML genereren vanuit JavaScript in Java – Complete stapsgewijze handleiding](./generate-html-from-javascript-in-java-complete-step-by-step/)
@@ -173,6 +175,10 @@ Leer hoe u JSON kunt ophalen met JavaScript in Java, stap voor stap, inclusief v
 Leer hoe u JSON kunt laden met Fetch in Java, inclusief stap‑voor‑stap handleiding en voorbeeldcode.
 ### [Hoe een thread in Java te starten – Complete gids](./how-to-start-thread-in-java-complete-guide/)
 Leer stap voor stap hoe u threads start in Java met Aspose.HTML, inclusief voorbeelden en best practices.
+### [Computed Style ophalen in Java – Complete programmeergids](./get-computed-style-java-complete-programming-guide/)
+Leer hoe u de berekende stijl van HTML‑elementen opvraagt met Aspose.HTML voor Java in deze volledige stap‑voor‑stap gids.
+### [HTML-document maken met Aspose.HTML - Complete Java-gids](./create-html-document-with-aspose-html-complete-java-guide/)
+Leer stap voor stap hoe u een HTML-document maakt met Aspose.HTML in Java, inclusief volledige codevoorbeelden en best practices.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

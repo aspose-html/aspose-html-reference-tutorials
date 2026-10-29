@@ -196,6 +196,7 @@ weight: 24
 ### [Μετατροπή HTML σε WebP σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./convert-html-to-webp-in-java-complete-step-by-step-guide/)
 
 ### [Μετατροπή SVG σε WebP – Πλήρης Οδηγός Java για Κινούμενα SVG](./convert-svg-to-webp-full-java-guide-for-animated-svgs/)
+### [Απόδοση HTML σε εικόνα σε Java – Πλήρης οδηγός Aspose.HTML](./render-html-to-image-in-java-complete-aspose-html-guide/)
 
 ## Συχνές Ερωτήσεις
 

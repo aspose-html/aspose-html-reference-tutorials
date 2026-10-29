@@ -75,6 +75,10 @@ Naučte se vytvořit HTML dokument s vloženým JavaScriptem v Javě pomocí Asp
 Ukázkový průvodce, jak v Javě vytvořit element div s přiřazenou třídou pomocí Aspose.HTML.
 ### [Načtěte JSON pomocí Fetch v Javě – Kompletní průvodce](./load-json-with-fetch-in-java-complete-guide/)
 Kompletní průvodce načítáním JSON dat pomocí Fetch API v Javě s Aspose.HTML, včetně příkladů a tipů.
+### [Vytvořte HTML dokument s Aspose.HTML – kompletní průvodce pro Javu](./create-html-document-with-aspose-html-complete-java-guide/)
+Kompletní průvodce vytvářením HTML dokumentu v Javě pomocí Aspose.HTML, krok za krokem s ukázkami kódu.
+### [Načtěte HTML z URL v Javě – Kompletní průvodce s CSS a XPath](./load-html-from-url-in-java-complete-guide-with-css-xpath/)
+Kompletní průvodce načítáním HTML z URL v Javě pomocí Aspose.HTML, včetně práce s CSS a XPath dotazy.
 ### [Generujte nové HTML dokumenty pomocí Aspose.HTML pro Java](./generate-new-html-documents/)
 Naučte se vytvářet nové HTML dokumenty pomocí Aspose.HTML for Java pomocí tohoto jednoduchého průvodce krok za krokem. Začněte generovat dynamický obsah HTML.
 ### [Generujte HTML z JavaScriptu v Javě – Kompletní průvodce krok za krokem](./generate-html-from-javascript-in-java-complete-step-by-step/)
@@ -159,6 +163,8 @@ Kompletní průvodce, jak načíst JSON pomocí JavaScriptu v Javě pomocí Aspo
 Naučte se, jak pomocí Aspose.HTML v Javě extrahovat název stránky z HTML dokumentu v tomto podrobném průvodci.
 ### [Jak spustit vlákno v Javě – Kompletní průvodce](./how-to-start-thread-in-java-complete-guide/)
 Naučte se, jak spustit vlákno v Javě pomocí podrobného průvodce krok za krokem.
+### [Získání vypočteného stylu v Javě – Kompletní programovací průvodce](./get-computed-style-java-complete-programming-guide/)
+Naučte se, jak získat vypočtené CSS styly v Javě pomocí Aspose.HTML s podrobným krok‑za‑krokem průvodcem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -231,6 +231,8 @@ Aprenda a convertir HTML a WebP en Java con Aspose.HTML. Guía paso a paso compl
 ### [Convertir SVG a WebP – Guía completa de Java para SVG animados](./convert-svg-to-webp-full-java-guide-for-animated-svgs/)
 ### [Cómo establecer DPI al convertir HTML a PNG – Guía completa de Aspose HTML](./how-to-set-dpi-when-converting-html-to-png-complete-aspose-h/)
 Aprenda a configurar el DPI al convertir HTML a PNG con Aspose.HTML, mejorando la calidad y el tamaño de la imagen.
+### [Renderizar HTML a Imagen en Java – Guía completa de Aspose.HTML](./render-html-to-image-in-java-complete-aspose-html-guide/)
+Aprenda a renderizar HTML como imágenes en Java usando Aspose.HTML. Guía paso a paso completa para obtener resultados de alta calidad.
 
 ## Preguntas frecuentes
 

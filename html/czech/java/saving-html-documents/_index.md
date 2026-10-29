@@ -53,7 +53,10 @@ Snadno převeďte HTML na Markdown pomocí Aspose.HTML pro Java. Postupujte podl
 ### [Uložit HTML do MHTML v Aspose.HTML pro Java](./save-html-to-mhtml/)
 Naučte se ukládat HTML dokumenty jako MHTML pomocí Aspose.HTML for Java pomocí tohoto podrobného průvodce, doplněného příklady kódu a praktickými tipy.
 ### [Uložte dokument SVG v Aspose.HTML pro Java](./save-svg-document/)
-Naučte se ukládat dokumenty SVG pomocí Aspose.HTML for Java pomocí tohoto jednoduchého podrobného průvodce plného příkladů.
+Naučte se ukládat dokumenty SVG pomocí Aspose.HTML pro Java pomocí tohoto jednoduchého podrobného průvodce plného příkladů.
+### [Uložit webovou stránku jako MHTML v Aspose.HTML pro Java – krok za krokem](./save-webpage-as-mhtml-with-aspose-html-for-java-step-by-step/)
+Naučte se, jak uložit webovou stránku jako soubor MHTML pomocí Aspose.HTML pro Java v podrobném průvodci krok za krokem.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

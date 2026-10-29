@@ -231,6 +231,9 @@ Apprenez à incorporer des polices dans vos PDF en Java avec Aspose.HTML pour ga
 ### [Comment convertir un fichier HTML en PDF en Java – Guide complet](./how-to-convert-html-file-to-pdf-in-java-full-guide/)
 Apprenez à convertir un fichier HTML en PDF avec Aspose.HTML for Java grâce à ce guide complet pas à pas.
 
+### [Convertir HTML en PDF en Java – Guide complet de haute qualité](./convert-html-to-pdf-in-java-complete-high-quality-guide/)
+Découvrez un guide complet pour convertir HTML en PDF en Java avec Aspose.HTML, garantissant une qualité supérieure et des options avancées.
+
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 Convertissez facilement HTML en MHTML avec Aspose.HTML for Java. Suivez notre guide étape par étape pour une conversion HTML‑vers‑MHTML efficace.
 
@@ -284,6 +287,9 @@ Apprenez à convertir du HTML en Markdown en Java avec Aspose.HTML grâce à ce 
 
 ### [Convertir HTML en Markdown en Java – Guide complet de programmation](./convert-html-to-markdown-in-java-complete-programming-guide/)
 Apprenez à convertir du HTML en Markdown en Java avec Aspose.HTML, incluant les options avancées et les meilleures pratiques.
+
+### [Créer un PDF à partir de Markdown en Java – Guide complet](./create-pdf-from-markdown-in-java-complete-guide/)
+Apprenez à créer des PDF à partir de fichiers Markdown en Java avec Aspose.HTML. Guide complet pour une conversion précise et de haute qualité.
 
 ### [Converting SVG to Image](./convert-svg-to-image/)
 Apprenez à convertir SVG en images en Java avec Aspose.HTML. Guide complet pour une sortie de haute qualité.

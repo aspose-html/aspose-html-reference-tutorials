@@ -189,6 +189,9 @@ weight: 24
 ### [将 SVG 转换为 WebP – 完整的 Java 动画 SVG 指南](./convert-svg-to-webp-full-java-guide-for-animated-svgs/)
 使用 Aspose.HTML for Java 将动画 SVG 转换为 WebP。完整步骤指南，帮助您轻松生成高质量的 WebP 动画图像。
 
+### [在 Java 中渲染 HTML 为图像 – 完整 Aspose.HTML 指南](./render-html-to-image-in-java-complete-aspose-html-guide/)
+学习使用 Aspose.HTML for Java 将 HTML 渲染为多种图像格式，提供完整的代码示例和步骤说明。
+
 ## 常见问题解答
 
 ### [如何从 HTML 生成缩略图 – Java 指南](./how-to-generate-thumbnail-from-html-java-guide/)

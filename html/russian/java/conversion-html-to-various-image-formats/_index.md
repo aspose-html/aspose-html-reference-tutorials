@@ -130,9 +130,6 @@ weight: 24
 ### [Преобразование SVG в PNG в Java – Руководство по пакетному преобразованию](./convert-svg-to-png-in-java-batch-conversion-guide/)
 Узнайте, как пакетно конвертировать SVG‑файлы в PNG с помощью Aspose.HTML for Java. Подробный пошаговый пример.
 
-### [Преобразование HTML в PNG в Java – Полное пошаговое руководство](./convert-html-to-png-in-java-complete-step-by-step-guide/)
-Полное пошаговое руководство по конвертации HTML в PNG в Java с использованием Aspose.HTML.
-
 ### [Создание PNG высокого разрешения из HTML – Полное руководство Java](./create-high-resolution-png-from-html-complete-java-guide/)
 
 ### [Рендеринг HTML в PNG на Java – Полное руководство Aspose HTML](./render-html-to-png-in-java-full-aspose-html-tutorial/)
@@ -146,6 +143,9 @@ weight: 24
 
 ### [Преобразование HTML в PNG – Руководство по пакетному экспорту для Java](./convert-html-to-png-batch-export-guide-for-java/)
 Узнайте, как пакетно экспортировать HTML в PNG в Java с помощью Aspose.HTML. Подробное пошаговое руководство.
+
+### [Преобразование HTML в PNG в Java – Полное пошаговое руководство](./convert-html-to-png-in-java-complete-step-by-step-guide/)
+Узнайте, как преобразовать HTML в PNG в Java с помощью Aspose.HTML. Полное пошаговое руководство.
 
 ### [Преобразование HTML в TIFF](./convert-html-to-tiff/)
 Узнайте, как легко преобразовывать HTML в TIFF с помощью Aspose.HTML. Пошаговое руководство по эффективной обработке документов.
@@ -248,6 +248,9 @@ weight: 24
 
 ### [Как установить DPI при преобразовании HTML в PNG – Полное руководство Aspose HTML](./how-to-set-dpi-when-converting-html-to-png-complete-aspose-h/)
 Узнайте, как задать DPI при конвертации HTML в PNG с помощью Aspose.HTML для Java. Подробное пошаговое руководство.
+
+### [Рендеринг HTML в изображение в Java – Полное руководство Aspose.HTML](./render-html-to-image-in-java-complete-aspose-html-guide/)
+Подробное пошаговое руководство по рендерингу HTML в различные форматы изображений в Java с использованием Aspose.HTML.
 
 ## Часто задаваемые вопросы
 

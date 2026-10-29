@@ -131,8 +131,6 @@ Leer hoe je HTML naar PNG converteert met aangepaste achtergrondkleur en resolut
 Leer hoe je HTML‑tabellen omzet naar PNG‑afbeeldingen met Aspose.HTML for Java in een eenvoudige stap‑voor‑stap gids.
 ### [HTML naar PNG renderen met Aspose.HTML – Complete Java-gids](./render-html-to-png-with-aspose-html-complete-java-guide/)
 Leer hoe je HTML naar PNG rendert met Aspose.HTML in Java. Een volledige stap‑voor‑stap gids voor optimale resultaten.
-### [HTML naar PNG converteren in Java – Complete stap‑voor‑stap gids](./convert-html-to-png-in-java-complete-step-by-step-guide/)
-Leer hoe je HTML naar PNG kunt converteren in Java met Aspose.HTML. Een volledige stap‑voor‑stap gids.
 ### [Hoe DPI in te stellen bij het converteren van SVG naar PNG – Java-gids](./how-to-set-dpi-when-converting-svg-to-png-java-guide/)
 Leer hoe je de DPI-waarde kunt aanpassen bij het omzetten van SVG naar PNG met Aspose.HTML for Java.
 ### [HTML renderen naar PNG in Java – Volledige Aspose HTML‑tutorial](./render-html-to-png-in-java-full-aspose-html-tutorial/)
@@ -229,6 +227,12 @@ Leer hoe je SVG‑bestanden naar AVIF‑afbeeldingen converteert met Aspose.HTML
 Converteer HTML naar WebP met Aspose.HTML for Java. Een uitgebreide tutorial om HTML‑documenten moeiteloos om te zetten naar WebP‑afbeeldingen met Aspose.HTML for Java.
 ### [svg naar webp converteren – Volledige Java-gids voor geanimeerde SVG's](./convert-svg-to-webp-full-java-guide-for-animated-svgs/)
 Leer hoe je geanimeerde SVG's naar WebP kunt converteren met Aspose.HTML for Java in een volledige stap‑voor‑stap gids.
+
+### [HTML naar afbeelding renderen in Java – Complete Aspose.HTML-gids](./render-html-to-image-in-java-complete-aspose-html-guide/)
+Leer hoe je HTML naar verschillende afbeeldingsformaten rendert in Java met een volledige Aspose.HTML-gids.
+
+### [HTML naar PNG converteren in Java – Complete stap‑voor‑stap gids](./convert-html-to-png-in-java-complete-step-by-step-guide/)
+Ontdek een volledige stap‑voor‑stap handleiding om HTML naar PNG te converteren met Aspose.HTML for Java.
 
 ## Veelgestelde vragen
 

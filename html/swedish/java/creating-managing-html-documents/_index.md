@@ -99,6 +99,10 @@ Lär dig hur du söker i HTML med Aspose Java i en komplett steg‑för‑steg�
 Lär dig hur du extraherar sidtiteln från HTML-dokument i Java med Aspose.HTML i en komplett steg‑för‑steg‑guide.
 ### [Extrahera text från HTML i Java – Komplett programmeringsguide](./extract-text-from-html-in-java-complete-programming-guide/)
 Lär dig hur du extraherar text från HTML i Java med Aspose.HTML i denna kompletta steg‑för‑steg‑guide.
+### [Ladda HTML från URL i Java – Komplett guide med CSS & XPath](./load-html-from-url-in-java-complete-guide-with-css-xpath/)
+Lär dig hur du laddar HTML från en URL i Java med stöd för CSS‑ och XPath‑frågor. Fullständig steg‑för‑steg‑guide.
+### [Hämta beräknad stil i Java – Komplett programmeringsguide](./get-computed-style-java-complete-programming-guide/)
+Lär dig hur du hämtar beräknad CSS‑stil för HTML‑element i Java med Aspose.HTML. Steg‑för‑steg‑guide med exempel och tips.
 ### [Generera nya HTML-dokument med Aspose.HTML för Java](./generate-new-html-documents/)
 Lär dig hur du skapar nya HTML-dokument med Aspose.HTML för Java med denna enkla steg-för-steg-guide. Börja generera dynamiskt HTML-innehåll.
 
@@ -107,7 +111,8 @@ Lär dig att hantera dokumentladdningshändelser i Aspose.HTML för Java med den
 
 ### [Skapa och hantera SVG-dokument i Aspose.HTML för Java](./create-manage-svg-documents/)
 Lär dig att skapa och hantera SVG-dokument med Aspose.HTML för Java! Den här omfattande guiden täcker allt från grundläggande skapande till avancerad manipulation.
-
+### [Skapa HTML-dokument med Aspose.HTML – Komplett Java-guide](./create-html-document-with-aspose-html-complete-java-guide/)
+Lär dig att skapa HTML-dokument med Aspose.HTML i Java genom en komplett steg-för-steg-guide med exempel och bästa praxis.
 ### [Skapa sandlåda för HTML i Java – Steg‑för‑steg‑guide](./create-sandbox-for-html-in-java-step-by-step-guide/)
 ### [Skapa HTML-dokument med Java – Hämta JSON och generera innehåll](./create-html-document-with-java-fetch-json-and-generate-conte/)
 Lär dig hur du hämtar JSON-data i Java och genererar dynamiskt HTML-innehåll med Aspose.HTML.

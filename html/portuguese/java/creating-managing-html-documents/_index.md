@@ -70,6 +70,8 @@ Aprenda a carregar documentos HTML em Java usando Aspose.HTML com este guia pass
 Aprenda a carregar um documento HTML e extrair o título da página usando Aspose.HTML em Java em poucos passos.
 ### [Carregar JSON com Fetch em Java – Guia Completo](./load-json-with-fetch-in-java-complete-guide/)
 Aprenda a carregar JSON usando Fetch em Java com este guia passo a passo.
+### [Carregar HTML de URL em Java – Guia completo com CSS e XPath](./load-html-from-url-in-java-complete-guide-with-css-xpath/)
+Aprenda a carregar HTML de URLs, aplicar CSS e usar XPath em Java com Aspose.HTML. Guia passo a passo completo.
 ### [Como consultar HTML em Java – Tutorial completo](./how-to-query-html-in-java-complete-tutorial/)
 Aprenda a consultar e extrair dados de documentos HTML em Java usando Aspose.HTML com este tutorial passo a passo.
 ### [Carregar documento HTML Java – Guia completo com XPath e CSS](./load-html-document-java-complete-guide-with-xpath-css/)
@@ -106,6 +108,8 @@ Aprenda como criar novos documentos HTML usando Aspose.HTML para Java com este g
 Aprenda a converter documentos Markdown em HTML usando Aspose.HTML para Java com este guia passo a passo.
 ### [Criar documento HTML com JavaScript incorporado – Exemplo Java](./create-html-document-with-embedded-javascript-java-example/)
 Aprenda a criar um documento HTML com JavaScript incorporado usando Aspose.HTML para Java. Guia passo a passo.
+### [Criar documento HTML com Aspose.HTML - Guia completo Java](./create-html-document-with-aspose-html-complete-java-guide/)
+Aprenda a criar documentos HTML usando Aspose.HTML com este guia passo a passo completo para Java.
 ### [Manipular eventos de carregamento de documentos em Aspose.HTML para Java](./handle-document-load-events/)
 Aprenda a manipular eventos de carregamento de documentos no Aspose.HTML para Java com este guia passo a passo. Aprimore seus aplicativos da web.
 ### [Crie e gerencie documentos SVG em Aspose.HTML para Java](./create-manage-svg-documents/)
@@ -162,6 +166,8 @@ Aprenda a criar um elemento div com classe em Java usando Aspose.HTML, com exemp
 Aprenda a buscar e processar JSON usando JavaScript dentro de aplicações Java com este guia completo passo a passo.
 ### [Como iniciar thread em Java – Guia completo](./how-to-start-thread-in-java-complete-guide/)
 Aprenda a iniciar threads em Java com este guia passo a passo, cobrindo criação, gerenciamento e boas práticas.
+### [Obtenha o estilo computado em Java – Guia completo de programação](./get-computed-style-java-complete-programming-guide/)
+Aprenda a recuperar estilos computados de elementos HTML em Java usando Aspose.HTML. Guia passo a passo completo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

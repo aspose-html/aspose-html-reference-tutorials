@@ -72,6 +72,10 @@ Dowiedz się, jak szybko pobrać tytuł strony z dokumentu HTML przy użyciu Asp
 Kompletny przewodnik krok po kroku, jak wyodrębnić HTML z plików MHTML w Javie przy użyciu Aspose.HTML.
 ### [Ładowanie JSON za pomocą Fetch w Javie – Kompletny przewodnik](./load-json-with-fetch-in-java-complete-guide/)
 Dowiedz się, jak używać Fetch do pobierania danych JSON w Javie, krok po kroku, z praktycznymi przykładami.
+### [Ładowanie HTML z adresu URL w Javie – Kompletny przewodnik z CSS i XPath](./load-html-from-url-in-java-complete-guide-with-css-xpath/)
+Dowiedz się, jak ładować dokumenty HTML z adresu URL i przetwarzać je przy użyciu CSS i XPath w Javie z Aspose.HTML.
+### [Utwórz dokument HTML za pomocą Aspose.HTML – Kompletny przewodnik Java](./create-html-document-with-aspose-html-complete-java-guide/)
+Dowiedz się, jak utworzyć dokument HTML przy użyciu Aspose.HTML w Javie, krok po kroku.
 ### [Generuj nowe dokumenty HTML za pomocą Aspose.HTML dla Java](./generate-new-html-documents/)
 Dowiedz się, jak tworzyć nowe dokumenty HTML za pomocą Aspose.HTML dla Java dzięki temu prostemu przewodnikowi krok po kroku. Zacznij generować dynamiczną zawartość HTML.
 ### [Utwórz dokument HTML w Javie – pobierz JSON i wygeneruj zawartość](./create-html-document-with-java-fetch-json-and-generate-conte/)
@@ -169,6 +173,8 @@ Dowiedz się, jak pobierać dane JSON przy użyciu JavaScript w aplikacjach Java
 Dowiedz się, jak wyodrębnić tytuł strony HTML w Javie przy użyciu Aspose.HTML w tym kompletnym przewodniku krok po kroku.
 ### [Jak uruchomić wątek w Javie – Kompletny przewodnik](./how-to-start-thread-in-java-complete-guide/)
 Dowiedz się, jak uruchomić wątek w Javie, krok po kroku, z praktycznymi przykładami i najlepszymi praktykami.
+### [Pobierz styl obliczony w Javie – Kompletny przewodnik programistyczny](./get-computed-style-java-complete-programming-guide/)
+Dowiedz się, jak uzyskać obliczony styl elementu HTML w Javie przy użyciu Aspose.HTML. Przewodnik krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

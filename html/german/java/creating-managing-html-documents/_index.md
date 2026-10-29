@@ -90,6 +90,10 @@ Erfahren Sie, wie Sie mit dem Java ExecutorService HTML‑Elemente thread‑sich
 Erfahren Sie, wie Sie HTML in Java laden und dabei XPath‑ und CSS‑Selektoren zum Parsen vergleichen.
 ### [HTML‑Dokument in Java erstellen – Schritt‑für‑Schritt‑Anleitung mit Aspose.HTML](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
 Erfahren Sie, wie Sie mit Aspose.HTML für Java ein HTML‑Dokument Schritt‑für‑Schritt erstellen und anpassen.
+### [Erstellen Sie ein HTML-Dokument mit Aspose.HTML – Vollständiger Java‑Leitfaden](./create-html-document-with-aspose-html-complete-java-guide/)
+Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.HTML ein HTML‑Dokument in Java komplett erstellen.
+### [HTML von URL in Java laden – Vollständiger Leitfaden mit CSS & XPath](./load-html-from-url-in-java-complete-guide-with-css-xpath/)
+Entdecken Sie, wie Sie mit Aspose.HTML für Java HTML von einer URL laden und dabei CSS und XPath nutzen. Schritt‑für‑Schritt‑Anleitung.
 ### [Sandbox für HTML in Java erstellen – Schritt‑für‑Schritt‑Anleitung](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Erfahren Sie, wie Sie in Aspose.HTML für Java eine sichere Sandbox für HTML erstellen und verwalten – Schritt‑für‑Schritt‑Anleitung.
 ### [Wie man einen Thread in Java startet – Vollständiger Leitfaden](./how-to-start-thread-in-java-complete-guide/)
@@ -172,6 +176,8 @@ Erfahren Sie, wie Sie JSON‑Daten mit JavaScript abrufen und ein HTML‑Dokumen
 Erfahren Sie, wie Sie JSON‑Daten mit JavaScript in Java abrufen und verarbeiten – Schritt‑für‑Schritt‑Leitfaden.
 ### [HTML-Datei in Java lesen – Komplett‑Anleitung mit Aspose.HTML](./read-html-file-java-complete-guide-using-aspose-html/)
 Erfahren Sie, wie Sie HTML-Dateien in Java mit Aspose.HTML vollständig lesen und verarbeiten – Schritt‑für‑Schritt‑Anleitung.
+### [Berechneten Stil in Java abrufen – Komplettes Programmierhandbuch](./get-computed-style-java-complete-programming-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java den berechneten CSS‑Stil von HTML‑Elementen ermitteln – Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

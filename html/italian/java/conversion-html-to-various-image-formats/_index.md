@@ -227,6 +227,9 @@ Scopri come esportare in batch HTML in PNG usando Aspose.HTML per Java. Una guid
 ### [Come impostare DPI durante la conversione da HTML a PNG – Guida completa Aspose HTML](./how-to-set-dpi-when-converting-html-to-png-complete-aspose-h/)
 Impara a configurare il DPI per la conversione da HTML a PNG usando Aspose.HTML for Java, con esempi passo‑step.
 
+### [Render HTML in immagine in Java – Guida completa Aspose.HTML](./render-html-to-image-in-java-complete-aspose-html-guide/)
+Scopri come rendere pagine HTML in immagini con Aspose.HTML for Java, passo‑passo, con esempi completi per tutti i formati supportati.
+
 ## Domande frequenti
 
 **Q: Posso convertire HTML in PNG usando Java senza librerie di immagini aggiuntive?**  

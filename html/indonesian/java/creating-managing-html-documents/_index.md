@@ -74,6 +74,8 @@ Temukan cara mudah memuat dokumen HTML dari URL di Java dengan Aspose.HTML. Tuto
 Pelajari cara memuat dokumen HTML di Java dengan Aspose.HTML, lengkap dengan contoh penggunaan XPath dan CSS untuk manipulasi yang kuat.
 ### [Cara Memuat HTML di Java – Bandingkan XPath dan CSS Selector](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
 Pelajari cara memuat HTML di Java dan bandingkan penggunaan XPath dengan CSS Selector dalam tutorial langkah demi langkah.
+### [Memuat HTML dari URL di Java – Panduan Lengkap dengan CSS & XPath](./load-html-from-url-in-java-complete-guide-with-css-xpath/)
+Panduan lengkap memuat HTML dari URL di Java menggunakan Aspose.HTML, termasuk penggunaan CSS selector dan XPath untuk ekstraksi data.
 ### [Hasilkan Dokumen HTML Baru menggunakan Aspose.HTML untuk Java](./generate-new-html-documents/)
 Pelajari cara membuat dokumen HTML baru menggunakan Aspose.HTML untuk Java dengan panduan langkah demi langkah yang mudah ini. Mulai buat konten HTML yang dinamis.
 ### [Menangani Peristiwa Pemuatan Dokumen di Aspose.HTML untuk Java](./handle-document-load-events/)
@@ -161,6 +163,12 @@ Pelajari cara mengekstrak judul halaman web secara efisien menggunakan Aspose.HT
 Pelajari cara memulai thread di Java dengan panduan lengkap ini, termasuk contoh kode dan praktik terbaik.
 ### [Ekstrak Teks dari HTML di Java – Panduan Pemrograman Lengkap](./extract-text-from-html-in-java-complete-programming-guide/)
 Pelajari cara mengekstrak teks dari dokumen HTML menggunakan Aspose.HTML untuk Java dengan panduan pemrograman lengkap langkah demi langkah.
+
+### [Dapatkan Computed Style Java – Panduan Pemrograman Lengkap](./get-computed-style-java-complete-programming-guide/)
+Pelajari cara mendapatkan gaya terhitung pada elemen HTML menggunakan Aspose.HTML untuk Java dengan panduan lengkap.
+
+### [Buat Dokumen HTML dengan Aspose.HTML – Panduan Lengkap Java](./create-html-document-with-aspose-html-complete-java-guide/)
+Panduan lengkap untuk membuat dokumen HTML menggunakan Aspose.HTML di Java, langkah demi langkah dengan contoh kode.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

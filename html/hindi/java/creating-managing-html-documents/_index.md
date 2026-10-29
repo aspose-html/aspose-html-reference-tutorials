@@ -64,6 +64,10 @@ Aspose.HTML for Java का उपयोग करके HTML में JavaScri
 Java ExecutorService का उपयोग करके थ्रेड‑सेफ़ तरीके से HTML तत्व बनाना सीखें। चरण‑दर‑चरण डेमो।
 ### [fetch json जावास्क्रिप्ट – HTML दस्तावेज़ बनाने के लिए पूर्ण जावा गाइड](./fetch-json-javascript-complete-java-guide-to-create-html-doc/)
 Java में Aspose.HTML का उपयोग करके JSON डेटा फ़ेच कर HTML दस्तावेज़ बनाने की पूरी चरण‑दर‑चरण गाइड।
+### [Java में URL से HTML लोड करें – CSS और XPath के साथ पूर्ण गाइड](./load-html-from-url-in-java-complete-guide-with-css-xpath/)
+CSS और XPath का उपयोग करके Java में URL से HTML लोड करने की पूरी चरण‑दर‑चरण मार्गदर्शिका।
+### [Aspose.HTML के साथ HTML दस्तावेज़ बनाना - पूर्ण जावा गाइड](./create-html-document-with-aspose-html-complete-java-guide/)
+Aspose.HTML का उपयोग करके जावा में HTML दस्तावेज़ बनाने की पूरी मार्गदर्शिका। चरण‑दर‑चरण निर्देश, कोड उदाहरण और सर्वोत्तम प्रथाएँ।
 ### [Java के लिए Aspose.HTML का उपयोग करके नए HTML दस्तावेज़ बनाएं](./generate-new-html-documents/)
 नए HTML दस्तावेज़ बनाना सीखें। गतिशील सामग्री बनाना शुरू करें।
 ### [Java के लिए Aspose.HTML में HTML दस्तावेज़ बनाएं – चरण‑दर‑चरण गाइड](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
@@ -163,6 +167,8 @@ Aspose.HTML for Java का उपयोग करके HTML पृष्ठ �
 ### [Java में थ्रेड कैसे शुरू करें – पूर्ण गाइड](./how-to-start-thread-in-java-complete-guide/)
 Java में थ्रेड शुरू करने की पूरी प्रक्रिया सीखें, चरण‑दर‑चरण मार्गदर्शिका और सर्वोत्तम प्रथाएँ।
 ### [Java के लिए Aspose.HTML में HTML फ़ाइल पढ़ें – पूर्ण गाइड](./read-html-file-java-complete-guide-using-aspose-html/)
+### [Java में Computed Style प्राप्त करें – पूर्ण प्रोग्रामिंग गाइड](./get-computed-style-java-complete-programming-guide/)
+Java में Computed Style प्राप्त करने के लिए चरण‑दर‑चरण मार्गदर्शिका, विस्तृत कोड उदाहरण और सर्वोत्तम प्रथाएँ।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

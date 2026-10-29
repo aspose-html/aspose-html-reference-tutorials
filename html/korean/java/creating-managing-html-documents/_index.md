@@ -55,6 +55,8 @@ Aspose.HTML for Java로 HTML 조작의 힘을 잠금 해제하세요. 단계별 
 Aspose.HTML for Java를 사용하여 HTML 파일을 읽는 방법을 단계별로 안내합니다. 완전 가이드로 모든 세부 정보를 확인하세요.
 ### [Java용 Aspose.HTML에서 HTML 문서에 대한 고급 파일 로딩](./advanced-file-loading-html-documents/)
 이 단계별 가이드에서 Aspose.HTML for Java를 사용하여 HTML 문서를 로드, 조작 및 저장하는 방법을 알아보세요. Java 프로젝트에서 고급 HTML 처리를 잠금 해제하세요.
+### [Java용 Aspose.HTML에서 HTML 문서 만들기 – 완전 Java 가이드](./create-html-document-with-aspose-html-complete-java-guide/)
+Aspose.HTML for Java를 활용해 HTML 문서를 처음부터 완전하게 만드는 단계별 가이드입니다.
 ### [Aspose.HTML for Java를 사용하여 스트림에서 HTML 문서 로드](./load-html-documents-from-stream/)
 Aspose.HTML for Java를 사용하여 스트림에서 HTML 문서를 로드하는 방법을 알아보세요. 이 가이드는 원활한 HTML 조작을 위한 단계별 튜토리얼을 제공합니다.
 ### [Java용 Aspose.HTML에서 문자열로부터 HTML 문서 만들기](./create-html-documents-from-string/)
@@ -75,6 +77,8 @@ Aspose.HTML for Java를 사용하여 HTML 문서에서 페이지 제목을 빠�
 Aspose.HTML for Java를 활용해 MHTML 파일에서 HTML을 추출하는 전체 가이드를 제공합니다.
 ### [Java에서 Fetch를 사용하여 JSON 로드 – 완전 가이드](./load-json-with-fetch-in-java-complete-guide/)
 Java에서 Fetch API를 활용해 JSON 데이터를 로드하고 처리하는 방법을 단계별로 안내합니다.
+### [Java용 Aspose.HTML에서 URL에서 HTML 로드 – CSS 및 XPath 완전 가이드](./load-html-from-url-in-java-complete-guide-with-css-xpath/)
+CSS 선택자와 XPath를 활용해 URL에서 HTML을 로드하고 분석하는 방법을 단계별로 안내합니다.
 ### [Java에서 HTML을 쿼리하는 방법 – 완전 튜토리얼](./how-to-query-html-in-java-complete-tutorial/)
 Java용 Aspose.HTML을 사용하여 HTML을 효율적으로 쿼리하는 방법을 단계별로 안내합니다.
 ### [Java용 HTML 파싱 방법 – 로드, 쿼리 및 요소 개수 세기](./how-to-parse-html-java-load-query-count-elements/)
@@ -159,6 +163,8 @@ Aspose.HTML for Java를 활용해 클래스가 java인 div 요소를 생성하�
 Java 애플리케이션에서 JavaScript를 활용해 JSON 데이터를 가져오고 처리하는 방법을 단계별로 안내합니다.
 ### [Java에서 스레드 시작하기 – 완전 가이드](./how-to-start-thread-in-java-complete-guide/)
 Java에서 스레드를 시작하는 방법을 단계별로 안내하는 완전 가이드입니다.
+### [Java용 Aspose.HTML에서 Computed Style 가져오기 – 완전 프로그래밍 가이드](./get-computed-style-java-complete-programming-guide/)
+Aspose.HTML for Java를 사용하여 Computed Style을 가져오는 방법을 단계별로 안내합니다. 완전한 프로그래밍 가이드.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -69,7 +69,6 @@ url: /el/java/creating-managing-html-documents/
 ### [Δημιουργία εγγράφου HTML με ενσωματωμένο JavaScript – Παράδειγμα Java](./create-html-document-with-embedded-javascript-java-example/)
 Μάθετε πώς να δημιουργήσετε ένα έγγραφο HTML με ενσωματωμένο JavaScript χρησιμοποιώντας Aspose.HTML για Java σε αυτόν τον βήμα‑βήμα οδηγό.
 ### [Φόρτωση εγγράφων HTML από τη διεύθυνση URL στο Aspose.HTML για Java](./load-html-documents-from-url/)
-Ανακαλύψτε πώς να φορτώνετε εύκολα έγγραφα HTML από μια διεύθυνση URL σε Java με το Aspose.HTML. Περιλαμβάνεται σεμινάριο βήμα προς βήμα.
 ### [Φόρτωση εγγράφου HTML σε Java – Πλήρης οδηγός με XPath & CSS](./load-html-document-java-complete-guide-with-xpath-css/)
 Μάθετε πώς να φορτώνετε έγγραφα HTML σε Java χρησιμοποιώντας Aspose.HTML, με πλήρη κάλυψη XPath και CSS για ακριβή ερωτήματα.
 
@@ -84,6 +83,10 @@ url: /el/java/creating-managing-html-documents/
 ### [Δημιουργήστε νέα έγγραφα HTML χρησιμοποιώντας το Aspose.HTML για Java](./generate-new-html-documents/)
 Μάθετε πώς να δημιουργείτε νέα έγγραφα HTML χρησιμοποιώντας το Aspose.HTML για Java με αυτόν τον εύκολο, βήμα προς βήμα οδηγό. Ξεκινήστε τη δημιουργία δυναμικού περιεχομένου HTML.
 
+### [Φόρτωση HTML από URL σε Java – Πλήρης οδηγός με CSS & XPath](./load-html-from-url-in-java-complete-guide-with-css-xpath/)
+Μάθετε πώς να φορτώνετε HTML από URL, να εφαρμόζετε CSS και να εκτελείτε ερωτήματα XPath με το Aspose.HTML για Java.
+### [Δημιουργία εγγράφου HTML με Aspose.HTML - Πλήρης οδηγός Java](./create-html-document-with-aspose-html-complete-java-guide/)
+Μάθετε πώς να δημιουργήσετε ένα έγγραφο HTML χρησιμοποιώντας το Aspose.HTML σε Java με αυτόν τον πλήρη οδηγό βήμα‑βήμα.
 ### [Δημιουργία sandbox για HTML σε Java – Οδηγός βήμα‑βήμα](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Μάθετε πώς να δημιουργήσετε ένα sandbox HTML σε Java με οδηγίες βήμα‑βήμα, για ασφαλή και απομονωμένη επεξεργασία HTML.
 ### [Εκτέλεση πολλαπλών νημάτων στην Java – χρήση try‑with‑resources](./run-multiple-threads-java-use-try-with-resources-java/)
@@ -170,6 +173,8 @@ url: /el/java/creating-managing-html-documents/
 Μάθετε πώς να εξάγετε τον τίτλο μιας σελίδας HTML σε Java με το Aspose.HTML, βήμα‑βήμα οδηγός.
 ### [Πώς να ξεκινήσετε νήμα σε Java – Πλήρης οδηγός](./how-to-start-thread-in-java-complete-guide/)
 Μάθετε πώς να ξεκινήσετε και να διαχειριστείτε νήματα σε Java με αυτόν τον πλήρη οδηγό βήμα‑βήμα.
+### [Απόκτηση Υπολογισμένου Στυλ Java – Πλήρης Οδηγός Προγραμματισμού](./get-computed-style-java-complete-programming-guide/)
+Μάθετε πώς να λαμβάνετε το υπολογισμένο στυλ στοιχείων HTML σε Java με το Aspose.HTML, βήμα‑βήμα πλήρης οδηγός προγραμματισμού.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -68,6 +68,10 @@ Découvrez comment charger facilement des documents HTML à partir d'une URL en 
 Apprenez à charger un document HTML avec Aspose.HTML en Java et à extraire le titre de la page grâce à ce guide rapide.
 ### [Comment lire un fichier XHTML en Java – Exemple d'espace de noms XPath](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
 Apprenez à lire un fichier XHTML en Java en utilisant XPath avec gestion des espaces de noms. Guide étape par étape.
+### [Créer un document HTML avec Aspose.HTML – Guide complet Java](./create-html-document-with-aspose-html-complete-java-guide/)
+Apprenez à créer un document HTML avec Aspose.HTML en Java grâce à ce guide complet étape par étape.
+### [Charger du HTML depuis une URL en Java – Guide complet avec CSS et XPath](./load-html-from-url-in-java-complete-guide-with-css-xpath/)
+Apprenez à charger des documents HTML depuis une URL en Java avec Aspose.HTML, en utilisant CSS et XPath. Guide complet étape par étape.
 ### [Générer de nouveaux documents HTML à l'aide d'Aspose.HTML pour Java](./generate-new-html-documents/)
 Apprenez à créer de nouveaux documents HTML à l'aide d'Aspose.HTML pour Java grâce à ce guide étape par étape simple. Commencez à générer du contenu HTML dynamique.
 ### [Gérer les événements de chargement de documents dans Aspose.HTML pour Java](./handle-document-load-events/)
@@ -170,6 +174,8 @@ Apprenez à extraire le titre d'une page HTML en Java avec Aspose.HTML grâce à
 Apprenez à créer et gérer des threads en Java avec Aspose.HTML, guide complet étape par étape pour une exécution multithread efficace.
 ### [Lire un fichier HTML en Java – Guide complet avec Aspose.HTML](./read-html-file-java-complete-guide-using-aspose-html/)
 Apprenez à lire des fichiers HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
+### [Obtenir le style calculé en Java – Guide complet de programmation](./get-computed-style-java-complete-programming-guide/)
+Apprenez à récupérer le style calculé d'un élément HTML en Java avec Aspose.HTML. Guide complet étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

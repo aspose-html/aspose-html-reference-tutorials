@@ -113,6 +113,8 @@ Aspose.HTML for Java を使い、HTML を PDF に変換する手順を詳細に�
 Aspose.HTML を使って、1 行のコードで HTML を PDF に変換する方法を紹介します。
 ### [HTML to PDF チュートリアル: Java で HTML を PDF に変換](./html-to-pdf-tutorial-convert-html-to-pdf-in-java/)
 Aspose.HTML を使用して Java で HTML を PDF に変換する手順を詳しく解説します。シンプルなコードで高品質な PDF を生成できます。
+### [HTMLをPDFに変換 – 完全高品質ガイド（Java）](./convert-html-to-pdf-in-java-complete-high-quality-guide/)
+Aspose.HTML を使用して、Java で HTML を高品質な PDF に変換する完全ガイドです。設定方法やベストプラクティスを網羅しています。
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 Aspose.HTML for Java で HTML を MHTML に簡単に変換します。効率的な HTML‑to‑MHTML 変換の手順をご覧ください。
 
@@ -160,6 +162,8 @@ Aspose.HTML を使用して Java で Markdown を PDF に変換する完全な�
 Aspose.HTML を使用して Java で HTML を Markdown に変換し、保存する方法をステップバイステップで解説します。
 ### [JavaでHTMLをMarkdownに変換する完全プログラミングガイド](./convert-html-to-markdown-in-java-complete-programming-guide/)
 Aspose.HTML を使用して Java で HTML を Markdown に変換する方法を学びます。完全なプログラミングガイドです。
+### [JavaでMarkdownからPDFを作成 – 完全ガイド](./create-pdf-from-markdown-in-java-complete-guide/)
+Aspose.HTML を使用して Java で Markdown を PDF に変換する方法をステップバイステップで解説します。
 ### [Converting SVG to Image](./convert-svg-to-image/)
 Aspose.HTML を使用して Java で SVG を画像に変換する方法を学びます。高品質出力のための包括的ガイドです。
 

@@ -226,6 +226,8 @@ Ismerje meg, hogyan konvertálhat SVG‑t AVIF‑be Java‑ban az Aspose.HTML ha
 ### [HTML konvertálása WebP‑be Java‑ban – Teljes lépésről‑lépésre útmutató](./convert-html-to-webp-in-java-complete-step-by-step-guide/)
 Ismerje meg, hogyan konvertálhat HTML‑t WebP‑be Java‑ban az Aspose.HTML segítségével. Részletes, lépésről‑lépésre útmutató a WebP konverzióhoz.
 ### [SVG konvertálása WebP‑be – Teljes Java útmutató animált SVG‑khez](./convert-svg-to-webp-full-java-guide-for-animated-svgs/)
+### [HTML renderelése képpé Java‑ban – Teljes Aspose.HTML útmutató](./render-html-to-image-in-java-complete-aspose-html-guide/)
+Ismerje meg, hogyan renderelhet HTML‑t képként Java‑ban az Aspose.HTML teljes útmutatója segítségével.
 
 ## Gyakran ismételt kérdések
 

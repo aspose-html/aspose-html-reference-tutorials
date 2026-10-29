@@ -72,6 +72,8 @@ Aspose.HTML for Java 為旨在在 Java 應用程式中無縫處理 HTML 文件�
 透過此逐步指南，學習如何在 Java 中使用 Aspose.HTML 載入 HTML 文件。
 ### [在 Java 中使用 Fetch 載入 JSON – 完整指南](./load-json-with-fetch-in-java-complete-guide/)
 使用 Aspose.HTML for Java 透過 Fetch API 在 Java 中載入 JSON 資料的完整步驟與範例。
+### [在 Java 中從 URL 載入 HTML – 完整指南（含 CSS 與 XPath）](./load-html-from-url-in-java-complete-guide-with-css-xpath/)
+學習如何在 Java 中使用 Aspose.HTML 從 URL 載入 HTML，並結合 CSS 選擇器與 XPath 進行查詢的完整步驟。
 ### [使用 Aspose.HTML for Java 產生新的 HTML 文檔](./generate-new-html-documents/)
 透過這個簡單的逐步指南，了解如何使用 Aspose.HTML for Java 建立新的 HTML 文件。開始產生動態 HTML 內容。
 ### [使用 Java 建立 HTML 文檔 – 抓取 JSON 並生成內容](./create-html-document-with-java-fetch-json-and-generate-conte/)
@@ -171,6 +173,10 @@ Aspose.HTML for Java 為旨在在 Java 應用程式中無縫處理 HTML 文件�
 了解如何在 Java 應用程式中使用 JavaScript 抓取 JSON 資料的完整步驟與技巧。
 ### [如何在 Java 中啟動執行緒 – 完整指南](./how-to-start-thread-in-java-complete-guide/)
 了解如何在 Java 中建立與管理執行緒的完整步驟與技巧，提升多執行緒程式設計能力。
+### [在 Java 中取得計算樣式 – 完整程式設計指南](./get-computed-style-java-complete-programming-guide/)
+使用 Aspose.HTML for Java，學習在 Java 中取得元素的計算樣式，提供完整步驟與範例說明。
+### [使用 Aspose.HTML 建立 HTML 文件 - 完整 Java 指南](./create-html-document-with-aspose-html-complete-java-guide/)
+本完整指南帶您一步步使用 Aspose.HTML 在 Java 中建立 HTML 文件，涵蓋所有關鍵步驟與最佳實踐。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

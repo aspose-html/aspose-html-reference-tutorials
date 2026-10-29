@@ -189,6 +189,8 @@ Hướng dẫn chi tiết cách tạo PNG từ HTML trong Java bằng Aspose.HTM
 ### [Cách Chuyển Đổi SVG sang AVIF với Java – Hướng Dẫn Từng Bước](./how-to-convert-svg-to-avif-with-java-step-by-step-guide/)
 ### [Chuyển đổi HTML sang WebP trong Java – Hướng dẫn đầy đủ từng bước](./convert-html-to-webp-in-java-complete-step-by-step-guide/)
 ### [Chuyển đổi SVG sang WebP – Hướng dẫn Java đầy đủ cho SVG động](./convert-svg-to-webp-full-java-guide-for-animated-svgs/)
+### [Render HTML sang Hình ảnh trong Java – Hướng dẫn đầy đủ Aspose.HTML](./render-html-to-image-in-java-complete-aspose-html-guide/)
+Hướng dẫn chi tiết cách render HTML thành hình ảnh trong Java bằng Aspose.HTML, bao gồm các bước cấu hình và ví dụ thực tế.
 
 ## Câu hỏi thường gặp
 

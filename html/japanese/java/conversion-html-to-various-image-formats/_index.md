@@ -201,8 +201,6 @@ Aspose.HTML for Java を使用して HTML を WebP に変換する方法を学�
 
 ### [SVG を WebP に変換 – アニメーション SVG 用の完全 Java ガイド](./convert-svg-to-webp-full-java-guide-for-animated-svgs/)
 
-## よくある質問
-
 ### [サンドボックスを使用してウェブページのスクリーンショットを取得する方法](./how-to-use-sandbox-to-capture-webpage-screenshot/)
 ### [Java で SVG からマルチページ TIFF を作成 – ステップバイステップガイド](./create-multipage-tiff-from-svg-in-java-step-by-step-guide/)
 Aspose.HTML for Java を使用して、SVG をマルチページ TIFF に変換する方法を学びます。実践的な手順で簡単に実装できます。
@@ -228,6 +226,8 @@ Aspose.HTML for Java を使用して SVG を PNG に変換する際に DPI を�
 ### [HTML を AVIF に変換 – Aspose.HTML を使用した完全な Java ガイド](./convert-html-to-avif-with-aspose-html-complete-java-guide/)
 
 ### [HTML を TIFF に変換 – 完全な Java ガイド](./convert-html-to-tiff-in-java-complete-programming-guide/)
+### [Java で HTML を画像にレンダリング – 完全な Aspose.HTML ガイド](./render-html-to-image-in-java-complete-aspose-html-guide/)
+Aspose.HTML for Java を使用して HTML を画像にレンダリングする完全ガイドです。ステップバイステップで解説します。
 
 ---
 

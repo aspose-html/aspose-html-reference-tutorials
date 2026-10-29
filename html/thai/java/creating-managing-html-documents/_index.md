@@ -63,13 +63,14 @@ Aspose.HTML สำหรับ Java นำเสนอชุดเครื่�
 ### [สร้างเอกสาร HTML พร้อม JavaScript ฝังไว้ – ตัวอย่าง Java](./create-html-document-with-embedded-javascript-java-example/)
 เรียนรู้วิธีสร้างเอกสาร HTML ที่ฝัง JavaScript ด้วย Aspose.HTML สำหรับ Java ผ่านตัวอย่างขั้นตอนที่ชัดเจน
 ### [โหลดเอกสาร HTML จาก URL ใน Aspose.HTML สำหรับ Java](./load-html-documents-from-url/)
-ค้นพบวิธีการโหลดเอกสาร HTML จาก URL ใน Java ได้อย่างง่ายดายด้วย Aspose.HTML พร้อมบทช่วยสอนแบบทีละขั้นตอน
 ### [โหลดเอกสาร HTML ใน Java – คู่มือฉบับสมบูรณ์ด้วย XPath & CSS](./load-html-document-java-complete-guide-with-xpath-css/)
 เรียนรู้วิธีโหลดเอกสาร HTML ใน Java พร้อมการใช้ XPath และ CSS อย่างละเอียดในคู่มือฉบับสมบูรณ์
 ### [สกัด HTML จาก MHTML – คู่มือฉบับสมบูรณ์สำหรับ Java](./extract-html-from-mhtml-complete-java-guide/)
 เรียนรู้วิธีสกัดเนื้อหา HTML จากไฟล์ MHTML ด้วย Aspose.HTML สำหรับ Java ผ่านคู่มือขั้นตอนเต็มรูปแบบ
 ### [โหลด JSON ด้วย Fetch ใน Java – คู่มือฉบับสมบูรณ์](./load-json-with-fetch-in-java-complete-guide/)
 เรียนรู้วิธีโหลดไฟล์ JSON ด้วย Fetch ใน Java อย่างละเอียดผ่านคู่มือฉบับสมบูรณ์นี้
+### [โหลด HTML จาก URL ใน Java – คู่มือฉบับสมบูรณ์พร้อม CSS & XPath](./load-html-from-url-in-java-complete-guide-with-css-xpath/)
+เรียนรู้วิธีโหลดเอกสาร HTML จาก URL พร้อมการใช้ CSS และ XPath ใน Java ด้วย Aspose.HTML อย่างละเอียด
 ### [สร้างเอกสาร HTML ใหม่โดยใช้ Aspose.HTML สำหรับ Java](./generate-new-html-documents/)
 เรียนรู้วิธีสร้างเอกสาร HTML ใหม่โดยใช้ Aspose.HTML สำหรับ Java ด้วยคู่มือทีละขั้นตอนง่ายๆ นี้ เริ่มต้นสร้างเนื้อหา HTML แบบไดนามิก
 ### [จัดการเหตุการณ์การโหลดเอกสารใน Aspose.HTML สำหรับ Java](./handle-document-load-events/)
@@ -168,6 +169,10 @@ Aspose.HTML สำหรับ Java นำเสนอชุดเครื่�
 เรียนรู้วิธีสกัดชื่อหน้า (Page Title) จากเอกสาร HTML ด้วย Aspose.HTML สำหรับ Java ผ่านคู่มือเต็มขั้นตอน
 ### [วิธีเริ่มต้น Thread ใน Java – คู่มือฉบับสมบูรณ์](./how-to-start-thread-in-java-complete-guide/)
 เรียนรู้ขั้นตอนการสร้างและจัดการ Thread ใน Java อย่างละเอียด พร้อมตัวอย่างและเคล็ดลับการใช้งานที่มีประสิทธิภาพ
+### [รับสไตล์ที่คำนวณใน Java – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./get-computed-style-java-complete-programming-guide/)
+เรียนรู้วิธีดึงสไตล์ที่คำนวณจากเอกสาร HTML ด้วย Aspose.HTML สำหรับ Java ผ่านคู่มือขั้นตอนเต็มรูปแบบ
+### [สร้างเอกสาร HTML ด้วย Aspose.HTML - คู่มือ Java ฉบับสมบูรณ์](./create-html-document-with-aspose-html-complete-java-guide/)
+เรียนรู้วิธีสร้างเอกสาร HTML อย่างเต็มรูปแบบด้วย Aspose.HTML ใน Java ผ่านคู่มือขั้นตอนละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

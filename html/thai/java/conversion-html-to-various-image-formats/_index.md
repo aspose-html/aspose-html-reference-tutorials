@@ -187,6 +187,8 @@ weight: 24
 แปลง HTML เป็น WebP ด้วย Aspose.HTML for Java อย่างละเอียด พร้อมตัวอย่างโค้ดขั้นตอนต่อขั้นตอน
 ### [แปลง SVG เป็น WebP – คู่มือเต็ม Java สำหรับ SVG เคลื่อนไหว](./convert-svg-to-webp-full-java-guide-for-animated-svgs/)
 เรียนรู้วิธีแปลง SVG เคลื่อนไหวเป็น WebP ด้วย Aspose.HTML for Java อย่างละเอียดในคู่มือขั้นตอนต่อขั้นตอน
+### [เรนเดอร์ HTML เป็นภาพใน Java – คู่มือ Aspose.HTML ฉบับสมบูรณ์](./render-html-to-image-in-java-complete-aspose-html-guide/)
+เรียนรู้วิธีเรนเดอร์ HTML เป็นภาพใน Java อย่างละเอียดด้วย Aspose.HTML พร้อมตัวอย่างโค้ดครบถ้วน
 
 ## คำถามที่พบบ่อย
 

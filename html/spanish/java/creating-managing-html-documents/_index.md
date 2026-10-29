@@ -45,6 +45,9 @@ Cuando se trata de generar nuevos documentos HTML, Aspose.HTML para Java ofrece 
 ### [Cree documentos HTML de forma asincrónica en Aspose.HTML para Java](./create-html-documents-async/)
 Domine la creación de documentos HTML de forma asincrónica con Aspose.HTML para Java. Guía paso a paso, consejos y preguntas frecuentes incluidas para un aprendizaje rápido.
 
+### [Crear documento HTML con Aspose.HTML – Guía completa de Java](./create-html-document-with-aspose-html-complete-java-guide/)
+Aprenda a crear documentos HTML con Aspose.HTML en Java mediante esta guía paso a paso completa.
+
 ### [Crear documentos HTML vacíos en Aspose.HTML para Java](./create-empty-html-documents/)
 Aprenda a crear documentos HTML vacíos en Java usando Aspose.HTML con nuestro detallado tutorial paso a paso, perfecto para desarrolladores de todos los niveles.
 
@@ -78,6 +81,10 @@ Aprenda a cargar un documento HTML y extraer el título de la página usando Asp
 Aprenda a cargar documentos HTML en Java con Aspose.HTML mediante una guía paso a paso, ideal para principiantes y desarrolladores avanzados.
 ### [Cargar JSON con Fetch en Java – Guía completa](./load-json-with-fetch-in-java-complete-guide/)
 Aprenda a cargar datos JSON usando Fetch en Java con esta guía completa paso a paso.
+### [Cargar HTML desde URL en Java – Guía completa con CSS y XPath](./load-html-from-url-in-java-complete-guide-with-css-xpath/)
+Aprenda a cargar HTML desde una URL en Java usando Aspose.HTML, con ejemplos de CSS y XPath. Guía paso a paso completa.
+### [Obtener estilo computado en Java – Guía completa de programación](./get-computed-style-java-complete-programming-guide/)
+Aprenda a obtener estilos computados en Java usando Aspose.HTML con esta guía paso a paso completa.
 ### [Cómo consultar HTML en Java – Tutorial completo](./how-to-query-html-in-java-complete-tutorial/)
 Aprenda a consultar documentos HTML en Java usando Aspose.HTML con esta guía paso a paso completa.
 ### [Cómo consultar HTML en Java – Extraer URLs de imágenes](./how-to-query-html-in-java-extract-image-urls/)

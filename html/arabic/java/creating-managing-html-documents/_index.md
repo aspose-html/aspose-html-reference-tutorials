@@ -74,6 +74,8 @@ url: /ar/java/creating-managing-html-documents/
 اكتشف كيفية تحميل مستندات HTML في Java ومقارنة استخدام XPath ومحددات CSS لاستخراج العناصر بدقة.
 ### [استخراج HTML من MHTML – دليل Java كامل](./extract-html-from-mhtml-complete-java-guide/)
 تعلم كيفية استخراج محتوى HTML من ملفات MHTML باستخدام Aspose.HTML لـ Java من خلال دليل شامل خطوة بخطوة.
+### [تحميل HTML من URL في Aspose.HTML لـ Java – دليل كامل مع CSS و XPath](./load-html-from-url-in-java-complete-guide-with-css-xpath/)
+اكتشف كيفية تحميل HTML من عنوان URL في Java باستخدام Aspose.HTML، مع شرح شامل لاستخدام CSS و XPath.
 ### [إنشاء مستندات HTML جديدة باستخدام Aspose.HTML لـ Java](./generate-new-html-documents/)
 تعرف على كيفية إنشاء مستندات HTML جديدة باستخدام Aspose.HTML for Java من خلال هذا الدليل السهل خطوة بخطوة. ابدأ في إنشاء محتوى HTML ديناميكي.
 ### [تحويل Markdown إلى HTML في Java – دليل سريع باستخدام Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
@@ -87,7 +89,6 @@ url: /ar/java/creating-managing-html-documents/
 ### [إنشاء بيئة تجريبية لـ HTML في Java – دليل خطوة بخطوة](./create-sandbox-for-html-in-java-step-by-step-guide/)
 تعلم كيفية إنشاء بيئة تجريبية لمعالجة HTML في Java باستخدام Aspose.HTML من خلال دليل خطوة بخطوة.
 ### [كيفية الاستعلام عن HTML في Java – دليل كامل](./how-to-query-html-in-java-complete-tutorial/)
-تعلم كيفية استعلام ومعالجة مستندات HTML في Java باستخدام Aspose.HTML من خلال دليل شامل خطوة بخطوة.
 ### [كيفية تحليل HTML في Java – التحميل، الاستعلام وعدّ العناصر](./how-to-parse-html-java-load-query-count-elements/)
 تعلم كيفية تحميل مستندات HTML، استعلامها وعدّ العناصر باستخدام Aspose.HTML for Java في دليل خطوة بخطوة.
 ### [تنفيذ JavaScript غير متزامن في Java – دليل شامل خطوة بخطوة](./execute-async-javascript-in-java-complete-step-by-step-guide/)
@@ -170,6 +171,10 @@ url: /ar/java/creating-managing-html-documents/
 تعلم كيفية إنشاء وتشغيل الخيوط في Java خطوة بخطوة مع دليل شامل يغطي الأساسيات والمتقدم.
 ### [قراءة ملف HTML في Java – دليل كامل باستخدام Aspose.HTML](./read-html-file-java-complete-guide-using-aspose-html/)
 تعلم كيفية قراءة ملفات HTML في Java باستخدام Aspose.HTML من خلال دليل شامل خطوة بخطوة.
+### [الحصول على النمط المحسوب في Java – دليل برمجة كامل](./get-computed-style-java-complete-programming-guide/)
+تعلم كيفية الحصول على النمط المحسوب في Java باستخدام Aspose.HTML عبر دليل شامل خطوة بخطوة.
+### [إنشاء مستند HTML باستخدام Aspose.HTML - دليل Java كامل](./create-html-document-with-aspose-html-complete-java-guide/)
+تعلم كيفية إنشاء مستند HTML باستخدام Aspose.HTML في Java من خلال دليل شامل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
