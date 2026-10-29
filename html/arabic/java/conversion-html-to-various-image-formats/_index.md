@@ -225,6 +225,10 @@ Learn how to easily convert HTML to TIFF using Aspose.HTML for Java. Step-by-ste
 تعلم كيفية إنشاء صور GIF متحركة من ملفات SVG باستخدام Aspose.HTML for Java. دليل تفصيلي خطوة بخطوة.
 ### [كيفية تحويل SVG إلى AVIF باستخدام Java – دليل خطوة بخطوة](./how-to-convert-svg-to-avif-with-java-step-by-step-guide/)
 تعلم كيفية تحويل SVG إلى AVIF في Java باستخدام Aspose.HTML. دليل خطوة بخطوة للتحويل الفعال.
+### [تحويل HTML إلى WebP في Java – دليل شامل خطوة بخطوة](./convert-html-to-webp-in-java-complete-step-by-step-guide/)
+تعلم كيفية تحويل HTML إلى WebP باستخدام Aspose.HTML for Java عبر دليل خطوة بخطوة شامل.
+### [تحويل SVG إلى WebP – دليل Java كامل للرسوم المتحركة SVG](./convert-svg-to-webp-full-java-guide-for-animated-svgs/)
+دليل شامل لتحويل ملفات SVG المتحركة إلى WebP باستخدام Aspose.HTML for Java.
 
 ## الأسئلة المتكررة
 

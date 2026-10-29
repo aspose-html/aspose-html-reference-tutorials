@@ -221,6 +221,9 @@ Scopri come convertire HTML in AVIF con Aspose.HTML per Java in questa guida com
 
 ### [Come convertire SVG in AVIF con Java – Guida passo‑passo](./how-to-convert-svg-to-avif-with-java-step-by-step-guide/)
 Scopri come trasformare file SVG in immagini AVIF di alta qualità usando Aspose.HTML for Java, con esempi di codice passo‑passo.
+### [Converti HTML in WebP in Java – Guida completa passo‑passo](./convert-html-to-webp-in-java-complete-step-by-step-guide/)
+Scopri come convertire HTML in WebP in Java con Aspose.HTML, passo dopo passo, per ottenere immagini ottimizzate e di alta qualità.
+### [Converti SVG in WebP – Guida completa Java per SVG animati](./convert-svg-to-webp-full-java-guide-for-animated-svgs/)
 
 ## Domande frequenti
 

@@ -160,6 +160,8 @@ Skapa PNG‑bilder från HTML snabbt i batch med en trådpott. Effektiv konverte
 ### [Hur du renderar HTML – Komplett Aspose HTML till PNG-guide](./how-to-render-html-complete-aspose-html-to-png-guide/)
 ### [Skapa PNG från HTML – Komplett Java‑guide med anpassad upplösning](./create-png-from-html-complete-java-guide-with-custom-resolut/)
 ### [Hur man konverterar SVG till AVIF med Java – Steg‑för‑steg‑guide](./how-to-convert-svg-to-avif-with-java-step-by-step-guide/)
+### [Konvertera HTML till WebP – Komplett steg‑för‑steg‑guide i Java](./convert-html-to-webp-in-java-complete-step-by-step-guide/)
+### [Konvertera SVG till WebP – Fullständig Java‑guide för animerade SVG‑filer](./convert-svg-to-webp-full-java-guide-for-animated-svgs/)
 
 ## Vanliga frågor
 

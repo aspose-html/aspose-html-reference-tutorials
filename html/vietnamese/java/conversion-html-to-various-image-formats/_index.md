@@ -183,6 +183,8 @@ Hướng dẫn chi tiết cách tạo ảnh PNG từ HTML trong Java bằng Aspo
 ### [Tạo PNG từ HTML – Hướng dẫn Java đầy đủ với độ phân giải tùy chỉnh](./create-png-from-html-complete-java-guide-with-custom-resolut/)
 Hướng dẫn chi tiết cách tạo PNG từ HTML trong Java bằng Aspose.HTML, bao gồm cách thiết lập độ phân giải tùy chỉnh.
 ### [Cách Chuyển Đổi SVG sang AVIF với Java – Hướng Dẫn Từng Bước](./how-to-convert-svg-to-avif-with-java-step-by-step-guide/)
+### [Chuyển đổi HTML sang WebP trong Java – Hướng dẫn đầy đủ từng bước](./convert-html-to-webp-in-java-complete-step-by-step-guide/)
+### [Chuyển đổi SVG sang WebP – Hướng dẫn Java đầy đủ cho SVG động](./convert-svg-to-webp-full-java-guide-for-animated-svgs/)
 
 ## Câu hỏi thường gặp
 

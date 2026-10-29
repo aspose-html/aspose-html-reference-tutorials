@@ -150,6 +150,7 @@ Aspose.HTML를 사용하여 Java에서 HTML을 Markdown 형식으로 변환하�
 ### [Java에서 HTML을 PDF로 변환 – 페이지 크기 및 여백 설정](./convert-html-to-pdf-in-java-set-page-size-margins/)
 Aspose.HTML를 사용하여 Java에서 페이지 크기와 여백을 지정하며 HTML을 PDF로 변환하는 방법을 단계별로 안내합니다.
 ### [Java에서 HTML을 PDF로 변환 – 병렬 배치 변환 가이드](./convert-html-to-pdf-in-java-parallel-batch-conversion-guide/)
+### [Java에서 HTML을 PDF로 변환 – 병렬 배치 가이드](./convert-html-to-pdf-in-java-parallel-batch-guide/)
 Aspose.HTML를 사용하여 Java에서 HTML을 PDF로 병렬 배치 변환하는 방법을 단계별로 안내합니다.
 ### [HTML을 MHTML로 변환](./convert-html-to-mhtml/)
 Aspose.HTML for Java를 사용하여 HTML을 MHTML로 손쉽게 변환합니다. 효율적인 HTML‑to‑MHTML 변환을 위한 단계별 가이드를 따라 주세요.
@@ -182,6 +183,8 @@ Aspose.HTML를 사용하여 Java에서 Markdown을 PDF로 변환하는 전체 �
 Aspose.HTML를 사용하여 Java에서 HTML을 Markdown 파일로 저장하는 전체 과정을 단계별로 안내합니다.
 ### [Java에서 HTML을 Markdown으로 변환 – 완전 프로그래밍 가이드](./convert-html-to-markdown-in-java-complete-programming-guide/)
 Aspose.HTML를 사용하여 Java에서 HTML을 Markdown으로 변환하는 전체 가이드를 단계별로 안내합니다.
+### [Java에서 Aspose HTML을 사용하여 Markdown 변환 – 전체 단계별 가이드](./aspose-html-to-markdown-in-java-complete-step-by-step-guide/)
+Aspose.HTML for Java를 활용해 HTML을 Markdown으로 변환하는 전체 단계별 과정을 안내합니다.
 ### [SVG를 이미지로 변환](./convert-svg-to-image/)
 Aspose.HTML를 사용하여 Java에서 SVG를 이미지로 변환하는 방법을 배우세요. 고품질 출력에 대한 포괄적인 가이드입니다.
 ### [SVG를 PDF로 변환](./convert-svg-to-pdf/)
@@ -309,6 +312,9 @@ Aspose.HTML를 사용하여 Java에서 모든 CPU 코어를 활용해 HTML을 PD
 ### [Aspose HTML for Java를 사용한 HTML → PDF 변환 전체 가이드](./convert-html-to-pdf-with-aspose-html-for-java-full-guide/)
 ### [HTML을 PDF로 변환 튜토리얼: Java에서 HTML을 PDF로 변환](./html-to-pdf-tutorial-convert-html-to-pdf-in-java/)
 Aspose.HTML를 사용하여 Java에서 HTML을 PDF로 변환하는 전체 튜토리얼을 확인하세요. 단계별 예제로 쉽게 따라 할 수 있습니다.
+### [Aspose HTML for Java를 사용하여 PDF/A-2b 문서 만들기 – 전체 가이드](./create-pdf-a-2b-document-with-aspose-html-for-java-full-guid/)
+Aspose.HTML for Java를 활용해 PDF/A‑2b 표준 문서를 생성하는 전체 단계별 가이드를 확인하세요.
+### [Aspose를 사용하여 HTML을 DOCX로 변환 – Java HTML to DOCX 가이드](./convert-html-to-docx-with-aspose-java-html-to-docx-guide/)
 
 ## 자주 묻는 질문
 

@@ -126,6 +126,10 @@ Pelajari cara mendapatkan latar belakang CSS di Java menggunakan Aspose.HTML dal
 Pelajari cara memuat HTML, menghitung tautan, dan mengevaluasi XPath menggunakan CSS di Java dengan Aspose.HTML.
 ### [Gaya Computed Elemen di Java – Panduan Lengkap Aspose.HTML](./element-computed-style-in-java-complete-aspose-html-guide/)
 Pelajari cara mendapatkan dan menggunakan gaya computed elemen di Java dengan Aspose.HTML dalam panduan lengkap ini.
+### [Dapatkan Gaya Terhitung di Java – Debug CSS Grid dengan Aspose.HTML](./get-computed-style-in-java-debug-css-grid-with-aspose-html/)
+Pelajari cara mengambil gaya terhitung elemen untuk men-debug tata letak CSS Grid menggunakan Aspose.HTML di Java.
+### [Dapatkan Nilai Display Elemen di Java – Panduan Sandbox Aspose HTML](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
+Pelajari cara mengambil nilai properti display elemen HTML menggunakan Aspose.HTML di Java dalam lingkungan sandbox.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

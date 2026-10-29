@@ -197,6 +197,10 @@ Naučte se, jak při převodu HTML na PNG v Javě zabránit načítání extern�
 ### [Jak převést SVG na AVIF pomocí Javy – krok za krokem průvodce](./how-to-convert-svg-to-avif-with-java-step-by-step-guide/)
 Naučte se převést SVG soubory do formátu AVIF v Javě pomocí Aspose.HTML, s podrobnými kroky a ukázkovým kódem.
 ### [Vytvoření PNG z HTML – Kompletní průvodce pro Javu s vlastním rozlišením](./create-png-from-html-complete-java-guide-with-custom-resolut/)
+### [Převod HTML do WebP v Javě – Kompletní krok‑za‑krokem průvodce](./convert-html-to-webp-in-java-complete-step-by-step-guide/)
+Naučte se převést HTML do WebP v Javě pomocí Aspose.HTML. Kompletní krok‑za‑krokem průvodce.
+### [Převod SVG do WebP – Kompletní průvodce v Javě pro animované SVG](./convert-svg-to-webp-full-java-guide-for-animated-svgs/)
+Naučte se převést animované SVG soubory do formátu WebP v Javě pomocí Aspose.HTML. Kompletní krok‑za‑krokem průvodce.
 
 ## Často kladené otázky
 

@@ -130,6 +130,10 @@ Apprenez à récupérer et manipuler le fond CSS d'une page en Java avec Aspose.
 Apprenez à charger une page HTML, compter les liens et évaluer des expressions XPath avec Aspose.HTML pour Java.
 ### [Style calculé d'un élément en Java – Guide complet Aspose.HTML](./element-computed-style-in-java-complete-aspose-html-guide/)
 Apprenez à récupérer le style calculé d'un élément en Java avec Aspose.HTML, grâce à ce guide complet pas à pas.
+### [Obtenir le style calculé en Java – Déboguer la grille CSS avec Aspose.HTML](./get-computed-style-in-java-debug-css-grid-with-aspose-html/)
+Apprenez à récupérer le style calculé d'un élément et à déboguer les grilles CSS en Java avec Aspose.HTML.
+### [Obtenir la valeur d'affichage d'un élément en Java – Guide Sandbox Aspose HTML](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
+Apprenez à récupérer la propriété CSS display d'un élément avec Aspose.HTML en Java dans ce guide pratique.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

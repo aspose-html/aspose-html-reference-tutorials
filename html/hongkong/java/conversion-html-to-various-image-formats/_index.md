@@ -185,6 +185,8 @@ weight: 24
 ### [如何使用 Java 將 SVG 轉換為 AVIF – 步驟指南](./how-to-convert-svg-to-avif-with-java-step-by-step-guide/)
 本教學說明如何使用 Aspose.HTML for Java 將 SVG 圖形轉換為高效的 AVIF 圖像，提供完整步驟與範例程式碼。
 
+### [將 HTML 轉換為 WebP（Java）完整步驟指南](./convert-html-to-webp-in-java-complete-step-by-step-guide/)
+### [將 SVG 轉換為 WebP – 完整 Java 動畫 SVG 教學](./convert-svg-to-webp-full-java-guide-for-animated-svgs/)
 ### [將 HTML 轉換為 TIFF](./convert-html-to-tiff/)
 了解如何使用 Aspose.HTML for Java 輕鬆將 HTML 轉換為 TIFF。提供高效的文件處理步驟說明。
 ### [將長頁面 HTML 轉換為 PNG](./render-html-java-convert-long-page-to-png/)

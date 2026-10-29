@@ -126,6 +126,10 @@ Poznaj, jak pobrać i zastosować tło CSS w dokumentach HTML przy użyciu Aspos
 Dowiedz się, jak w Javie ładować dokumenty HTML, używać CSS, liczyć linki i oceniać wyrażenia XPath przy pomocy Aspose.HTML.
 ### [Obliczony styl elementu w Javie – Kompletny przewodnik Aspose.HTML](./element-computed-style-in-java-complete-aspose-html-guide/)
 Dowiedz się, jak w Javie uzyskać obliczony styl elementu przy użyciu Aspose.HTML, w praktycznym przewodniku krok po kroku.
+### [Pobierz obliczony styl w Javie – debugowanie siatki CSS z Aspose.HTML](./get-computed-style-in-java-debug-css-grid-with-aspose-html/)
+Dowiedz się, jak uzyskać obliczone style elementów i debugować układy CSS Grid w Javie przy użyciu Aspose.HTML.
+### [Pobierz wartość wyświetlania elementu w Javie – Przewodnik po piaskownicy Aspose HTML](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
+Dowiedz się, jak odczytać właściwość display elementu HTML w Javie przy użyciu Aspose.HTML w środowisku sandbox.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -195,6 +195,10 @@ Aspose.HTML for Java를 사용해 렌더링 중 외부 이미지를 차단하고
 Aspose.HTML를 사용해 HTML을 PNG 이미지로 렌더링하는 전체 단계별 가이드.
 ### [Java로 SVG를 AVIF로 변환](./how-to-convert-svg-to-avif-with-java-step-by-step-guide/)
 Aspose.HTML for Java를 사용해 SVG를 AVIF 이미지로 변환하는 단계별 가이드입니다.
+### [HTML을 WebP로 변환 – Java 완전 단계별 가이드](./convert-html-to-webp-in-java-complete-step-by-step-guide/)
+Aspose.HTML for Java를 사용해 HTML을 WebP 이미지로 변환하는 단계별 가이드입니다.
+### [SVG를 WebP로 변환 – 애니메이션 SVG용 전체 Java 가이드](./convert-svg-to-webp-full-java-guide-for-animated-svgs/)
+Aspose.HTML for Java를 사용해 애니메이션 SVG를 WebP 이미지로 변환하는 방법을 단계별로 안내합니다.
 
 ## 자주 묻는 질문
 

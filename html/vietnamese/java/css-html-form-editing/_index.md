@@ -124,6 +124,10 @@ Hướng dẫn chi tiết cách lấy thuộc tính nền CSS trong Java bằng 
 Hướng dẫn cách tải tài liệu HTML, đếm số liên kết và thực hiện truy vấn XPath bằng Aspose.HTML cho Java.
 ### [Kiểu tính toán của phần tử trong Java – Hướng dẫn đầy đủ Aspose.HTML](./element-computed-style-in-java-complete-aspose-html-guide/)
 Hướng dẫn chi tiết cách lấy và sử dụng kiểu tính toán của phần tử HTML trong Java bằng Aspose.HTML.
+### [Lấy Kiểu Được Tính Toán trong Java – Gỡ lỗi CSS Grid với Aspose.HTML](./get-computed-style-in-java-debug-css-grid-with-aspose-html/)
+Hướng dẫn cách lấy kiểu đã tính toán trong Java để gỡ lỗi bố cục CSS Grid bằng Aspose.HTML.
+### [Lấy Giá Trị Hiển Thị của Phần Tử trong Java – Hướng Dẫn Sandbox Aspose HTML](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
+Hướng dẫn cách lấy giá trị thuộc tính display của phần tử HTML trong Java bằng Aspose.HTML trong môi trường sandbox.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

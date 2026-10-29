@@ -192,6 +192,12 @@ Aspose.HTML for Java を使用して、HTML を PNG に変換する際に DPI �
 ### [Java で HTML ページを PNG に保存 – 完全チュートリアル](./save-html-page-as-png-in-java-complete-tutorial/)
 ### [Java で SVG から GIF を作成 – 完全ステップバイステップガイド](./create-gif-from-svg-with-java-full-step-by-step-guide/)
 Aspose.HTML for Java を使用して、SVG ファイルを GIF アニメーションに変換する手順を詳しく解説します。
+### [HTML を WebP に変換 – 完全ステップバイステップガイド（Java）](./convert-html-to-webp-in-java-complete-step-by-step-guide/)
+Aspose.HTML for Java を使用して HTML を WebP に変換する方法を学びます。完全なステップバイステップガイドです。
+
+### [SVG を WebP に変換 – アニメーション SVG 用の完全 Java ガイド](./convert-svg-to-webp-full-java-guide-for-animated-svgs/)
+
+## よくある質問
 
 ### [サンドボックスを使用してウェブページのスクリーンショットを取得する方法](./how-to-use-sandbox-to-capture-webpage-screenshot/)
 ### [Java で SVG からマルチページ TIFF を作成 – ステップバイステップガイド](./create-multipage-tiff-from-svg-in-java-step-by-step-guide/)

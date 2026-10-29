@@ -194,6 +194,8 @@ Naučte se převést soubory SVG do formátu AVIF v Javě pomocí Aspose.HTML, v
 Naučte se, jak nastavit DPI zařízení při generování PDF/XPS pomocí Aspose.HTML v Javě v sandboxovém prostředí.
 ### [XPath s jmennými prostory v Javě – Kompletní průvodce výběrem SVG elementů](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
 Naučte se používat XPath s jmennými prostory v Javě pro výběr SVG elementů a efektivní manipulaci s vektorovou grafikou.
+### [Spustit JavaScript v Javě – Kompletní Aspose.HTML průvodce](./execute-javascript-in-java-complete-aspose-html-guide/)
+Naučte se, jak spouštět JavaScript v Javě pomocí Aspose.HTML, včetně nastavení, integrace a praktických ukázek.
 
 ---
 

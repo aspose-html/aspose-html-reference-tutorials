@@ -214,6 +214,10 @@ Imposta le dimensioni della pagina PDF durante la conversione da HTML a PDF in J
 ### [Converti HTML in Markdown in Java – Guida completa di programmazione](./convert-html-to-markdown-in-java-complete-programming-guide/)
 ### [Tutorial HTML to PDF: Convertitore Aspose in una riga](./html-to-pdf-tutorial-one-line-aspose-converter/)
 ### [Tutorial html to pdf: Converti HTML in PDF in Java](./html-to-pdf-tutorial-convert-html-to-pdf-in-java/)
+### [Crea documento PDF/A-2b con Aspose HTML per Java – Guida completa](./create-pdf-a-2b-document-with-aspose-html-for-java-full-guid/)
+### [Converti HTML in PDF in Java – Guida batch parallela](./convert-html-to-pdf-in-java-parallel-batch-guide/)
+### [Aspose HTML to Markdown in Java – Guida completa passo‑passo](./aspose-html-to-markdown-in-java-complete-step-by-step-guide/)
+### [Converti HTML in DOCX con Aspose – Guida Java html to docx](./convert-html-to-docx-with-aspose-java-html-to-docx-guide/)
 
 ## Domande frequenti
 

@@ -187,6 +187,8 @@ Erfahren Sie, wie Sie SVG‑Grafiken mit Aspose.HTML für Java in das AVIF‑Bil
 Erfahren Sie, wie Sie die DPI‑Einstellungen von Geräten in Aspose.HTML für Java konfigurieren und in einer Sandbox‑Umgebung testen.
 ### [XPath mit Namespaces in Java – Komplettanleitung zur Auswahl von SVG‑Elementen](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
 Erfahren Sie, wie Sie mit XPath und Namespaces SVG‑Elemente in Java präzise auswählen und verarbeiten.
+### [JavaScript in Java ausführen – Komplett‑Aspose.HTML‑Leitfaden](./execute-javascript-in-java-complete-aspose-html-guide/)
+Erfahren Sie, wie Sie JavaScript in Java ausführen und dabei Aspose.HTML vollständig nutzen können.
 
 ---
 

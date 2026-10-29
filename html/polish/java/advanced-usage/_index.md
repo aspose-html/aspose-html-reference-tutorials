@@ -181,6 +181,8 @@ Dowiedz się, jak konwertować pliki SVG do formatu AVIF w Javie, korzystając z
 Dowiedz się, jak skonfigurować DPI urządzenia w Aspose.HTML dla Javy w środowisku sandbox, aby uzyskać wysoką jakość renderowania.
 ### [XPath z przestrzeniami nazw w Javie – Kompletny przewodnik po wybieraniu elementów SVG](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
 Poznaj, jak używać XPath z przestrzeniami nazw w Javie, aby precyzyjnie wybierać elementy SVG w dokumentach HTML.
+### [Wykonaj JavaScript w Javie – Kompletny przewodnik Aspose.HTML](./execute-javascript-in-java-complete-aspose-html-guide/)
+Poznaj, jak uruchamiać kod JavaScript w aplikacji Java przy użyciu Aspose.HTML, od konfiguracji po wywołanie skryptu.
 
 ---
 

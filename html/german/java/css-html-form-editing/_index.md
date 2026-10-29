@@ -128,6 +128,10 @@ Erfahren Sie, wie Sie mit Aspose.HTML für Java den CSS‑Hintergrund einer Seit
 Erfahren Sie, wie Sie mit Aspose.HTML für Java CSS laden, HTML einlesen, Links zählen und XPath‑Ausdrücke auswerten.
 ### [Element berechneter Stil in Java – Komplett‑Anleitung](./element-computed-style-in-java-complete-aspose-html-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML für Java den berechneten Stil von Elementen auslesen und nutzen – Schritt‑für‑Schritt‑Anleitung.
+### [Berechneten Stil in Java abrufen – CSS‑Grid debuggen mit Aspose.HTML](./get-computed-style-in-java-debug-css-grid-with-aspose-html/)
+Lernen Sie, wie Sie mit Aspose.HTML den berechneten CSS‑Stil auslesen und CSS‑Grids effektiv debuggen können.
+### [Anzeige‑Wert des Elements in Java abrufen – Aspose HTML Sandbox‑Leitfaden](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML den Anzeigewert eines Elements in Java auslesen – Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -187,6 +187,8 @@ Apprenez à convertir des images SVG en AVIF en Java avec Aspose.HTML, étape pa
 Apprenez à configurer le DPI du dispositif dans Aspose.HTML for Java à l’aide d’un guide complet et d’un environnement sandbox.  
 ### [XPath avec espaces de noms en Java – Guide complet pour sélectionner des éléments SVG](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
 Apprenez à utiliser XPath avec des espaces de noms en Java pour sélectionner précisément des éléments SVG dans vos documents HTML.  
+### [Exécuter du JavaScript en Java – Guide complet Aspose.HTML](./execute-javascript-in-java-complete-aspose-html-guide/)
+Apprenez à exécuter du code JavaScript depuis Java avec Aspose.HTML, incluant des exemples détaillés et les meilleures pratiques.  
 
 ---
 

@@ -132,6 +132,10 @@ Aspose.HTML for Java を使用して、CSS の背景画像や色を取得する�
 Aspose.HTML for Java を使って CSS を適用し、HTML を読み込み、リンク数を取得し、XPath クエリで要素を評価する手順を解説します。
 ### [Java の要素計算スタイル – 完全 Aspose.HTML ガイド](./element-computed-style-in-java-complete-aspose-html-guide/)
 Aspose.HTML for Java を使用して、要素の計算済みスタイルを取得し操作する方法をステップバイステップで解説します。
+### [Javaで計算済みスタイルを取得 – Aspose.HTMLでCSSグリッドをデバッグ](./get-computed-style-in-java-debug-css-grid-with-aspose-html/)
+Aspose.HTML for Java を使用して、要素の計算済みスタイルを取得し、CSS Grid のレイアウト問題をデバッグする方法を学びます。
+### [Javaで要素の表示値を取得 – Aspose HTML サンドボックスガイド](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
+Aspose.HTML for Java を使用して、要素の display プロパティ値を取得し、レイアウトのデバッグや表示制御に活用する方法を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -205,6 +205,9 @@ A: 不需要。單一的 Aspose.HTML for Java 授權即涵蓋所有輸出格式�
 
 ### [XPath 與命名空間於 Java – 完整指南：選取 SVG 元素](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
 
+### [在 Java 中執行 JavaScript – 完整 Aspose.HTML 指南](./execute-javascript-in-java-complete-aspose-html-guide/)
+本指南說明如何在 Java 應用程式中使用 Aspose.HTML 執行 JavaScript，涵蓋 Rhino、Nashorn 與 GraalVM 等引擎。
+
 ---
 
 **最後更新日期：** 2025-11-29  

@@ -129,6 +129,10 @@ Learn how to retrieve and manipulate CSS background properties in Java using Asp
 Learn how to load HTML, count hyperlinks, and evaluate XPath expressions using CSS in Java with Aspose.HTML.
 ### [Element Computed Style in Java – Complete Aspose.HTML Guide](./element-computed-style-in-java-complete-aspose-html-guide/)
 Learn how to retrieve and work with computed CSS styles of HTML elements using Aspose.HTML for Java in this comprehensive guide.
+### [Get Computed Style in Java – Debug CSS Grid with Aspose.HTML](./get-computed-style-in-java-debug-css-grid-with-aspose-html/)
+Learn how to retrieve computed CSS styles in Java using Aspose.HTML to debug and troubleshoot CSS Grid layouts effectively.
+### [Get Element Display Value in Java – Aspose HTML Sandbox Guide](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
+Learn how to retrieve an element's display property in Java using Aspose.HTML within the sandbox environment.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

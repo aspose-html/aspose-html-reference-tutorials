@@ -130,6 +130,10 @@ url: /el/java/css-html-form-editing/
 Μάθετε πώς να φορτώνετε HTML, να μετράτε συνδέσμους και να αξιολογείτε XPath χρησιμοποιώντας CSS με Aspose.HTML για Java.
 ### [Στυλ Υπολογιζόμενου Στοιχείου σε Java – Πλήρης Οδηγός Aspose.HTML](./element-computed-style-in-java-complete-aspose-html-guide/)
 Μάθετε πώς να λαμβάνετε και να χρησιμοποιείτε το υπολογιζόμενο στυλ ενός στοιχείου HTML σε Java με το Aspose.HTML σε αυτόν τον πλήρη οδηγό.
+### [Απόκτηση Υπολογιζόμενου Στυλ σε Java – Εντοπισμός Σφαλμάτων CSS Grid με Aspose.HTML](./get-computed-style-in-java-debug-css-grid-with-aspose-html/)
+Μάθετε πώς να λαμβάνετε το υπολογιζόμενο στυλ στοιχείων και να εντοπίζετε σφάλματα σε CSS Grid χρησιμοποιώντας Aspose.HTML για Java.
+### [Λήψη τιμής εμφάνισης στοιχείου σε Java – Οδηγός Sandbox Aspose.HTML](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
+Μάθετε πώς να αποκτήσετε την τιμή display ενός στοιχείου HTML χρησιμοποιώντας Aspose.HTML για Java σε αυτόν τον πρακτικό οδηγό sandbox.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

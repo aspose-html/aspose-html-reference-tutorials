@@ -183,6 +183,8 @@ Lär dig hur du konverterar EPUB‑filer till DOCX med Aspose.HTML för Java i e
 Lär dig hur du konverterar SVG‑bilder till AVIF‑format med Aspose.HTML för Java i en detaljerad steg‑för‑steg‑guide.
 ### [Ställ in enhetens DPI med Aspose i Java – Komplett sandbox‑guide](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
 Lär dig hur du konfigurerar DPI för enheter i Aspose.HTML för Java i en sandbox‑miljö för exakt rendering.
+### [Kör JavaScript i Java – Komplett Aspose.HTML‑guide](./execute-javascript-in-java-complete-aspose-html-guide/)
+Lär dig hur du kör JavaScript‑kod i Java‑applikationer med Aspose.HTML, med steg‑för‑steg‑instruktioner och exempel.
 
 ---
 

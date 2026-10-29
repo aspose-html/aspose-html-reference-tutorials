@@ -184,6 +184,8 @@ Java और Aspose.HTML का उपयोग करके SVG फ़ाइल�
 Aspose.HTML for Java में डिवाइस DPI सेट करने और सैंडबॉक्स वातावरण में पूर्ण गाइड के साथ रेंडरिंग गुणवत्ता नियंत्रित करें।
 ### [Java में नेमस्पेस के साथ XPath – SVG तत्वों का चयन करने का पूर्ण गाइड](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
 Java में नेमस्पेस वाले XML में SVG तत्वों को XPath से चुनने की पूरी प्रक्रिया सीखें।  
+### [Java में JavaScript चलाना – पूर्ण Aspose.HTML गाइड](./execute-javascript-in-java-complete-aspose-html-guide/)
+Aspose.HTML for Java का उपयोग करके Java एप्लिकेशन में JavaScript को एम्बेड और निष्पादित करने का पूर्ण गाइड।  
 
 ---
 

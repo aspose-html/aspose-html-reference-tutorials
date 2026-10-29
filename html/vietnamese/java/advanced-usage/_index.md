@@ -180,6 +180,8 @@ Hướng dẫn chi tiết cách chuyển đổi tệp SVG sang định dạng AV
 Hướng dẫn chi tiết cách thiết lập DPI cho thiết bị khi sử dụng Aspose.HTML trong Java, bao gồm các bước trong môi trường Sandbox.
 ### [XPath với Namespaces trong Java – Hướng dẫn toàn diện để chọn các phần tử SVG](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
 Tìm hiểu cách sử dụng XPath với namespaces trong Java để chọn và thao tác các phần tử SVG một cách chính xác.
+### [Thực thi JavaScript trong Java – Hướng dẫn toàn diện Aspose.HTML](./execute-javascript-in-java-complete-aspose-html-guide/)
+Hướng dẫn chi tiết cách thực thi mã JavaScript trong ứng dụng Java bằng Aspose.HTML, bao gồm thiết lập môi trường và ví dụ thực tế.
 
 ---
 

@@ -205,6 +205,9 @@ weight: 20
 ### [XPath مع مساحات الأسماء في Java – دليل كامل لاختيار عناصر SVG](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
 تعلم كيفية استخدام XPath مع مساحات الأسماء في Java لاختيار ومعالجة عناصر SVG بدقة في مستندات HTML.
 
+### [تنفيذ JavaScript في Java – دليل Aspose.HTML الكامل](./execute-javascript-in-java-complete-aspose-html-guide/)
+تعلم كيفية تشغيل كود JavaScript داخل تطبيقات Java باستخدام Aspose.HTML خطوة بخطوة.
+
 ---
 
 **آخر تحديث:** 2025-11-29  

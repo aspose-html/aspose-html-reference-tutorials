@@ -116,10 +116,10 @@ Aspose.HTML for Java का उपयोग करके HTML दस्ताव
 Aspose.HTML for Java के साथ HTML को BMP में बदलें। एक व्यापक ट्यूटोरियल जो Aspose.HTML for Java का उपयोग करके HTML दस्तावेज़ों को BMP इमेज में सहजता से बदलने की प्रक्रिया बताता है।
 
 ### [HTML को GIF में बदलना](./convert-html-to-gif/)
-Aspose.HTML का उपयोग करके Java में HTML को GIF में कैसे बदलें सीखें। प्रभावी HTML‑to‑GIF रूपांतरण के लिए एक व्यापक चरण‑दर‑चरण गाइड।
+Aspose.HTML का उपयोग करके Java में HTML को GIF में कैसे बदलें सीखें। प्रभावी HTML‑to‑GIF रूपांतरण के लिए एक व्यापक चरण‑दर‑स्टेप गाइड।
 
 ### [HTML को JPEG में बदलना](./convert-html-to-jpeg/)
-Aspose.HTML for Java के साथ HTML को JPEG में कैसे बदलें सीखें। सहज दस्तावेज़ प्रोसेसिंग के लिए चरण‑दर‑चरण गाइड।
+Aspose.HTML for Java के साथ HTML को JPEG में कैसे बदलें सीखें। सहज दस्तावेज़ प्रोसेसिंग के लिए चरण‑दर‑स्टेप गाइड।
 
 ### [HTML को PNG में बदलना](./convert-html-to-png/)
 Aspose.HTML के साथ Java में HTML को PNG इमेज में कैसे बदलें सीखें। चरण‑दर‑क्रम निर्देशों के साथ एक व्यापक गाइड।
@@ -154,7 +154,7 @@ Aspose.HTML for Java का उपयोग करके HTML से उच्�
 Aspose.HTML for Java के साथ HTML को PNG इमेज में रेंडर करने के पूर्ण चरण‑दर‑चरण गाइड।
 
 ### [HTML को TIFF में बदलना](./convert-html-to-tiff/)
-Aspose.HTML for Java का उपयोग करके HTML को TIFF में आसानी से कैसे बदलें सीखें। प्रभावी दस्तावेज़ हैंडलिंग के लिए चरण‑दर‑चरण गाइड।
+Aspose.HTML for Java का उपयोग करके HTML को TIFF में आसानी से कैसे बदलें सीखें। प्रभावी दस्तावेज़ हैंडलिंग के लिए चरण‑दर‑स्टेप गाइड।
 
 ### [HTML को WebP में बदलना](./convert-html-to-webp-complete-java-guide/)
 Aspose.HTML for Java का उपयोग करके HTML को WebP इमेज में बदलने के चरण‑दर‑स्टेप निर्देश।
@@ -260,6 +260,11 @@ Aspose.HTML for Java के साथ HTML को PNG में रेंडर 
 
 ### [Java के साथ SVG को AVIF में बदलने का चरण‑दर‑चरण गाइड](./how-to-convert-svg-to-avif-with-java-step-by-step-guide/)
 Aspose.HTML for Java का उपयोग करके Java में SVG को AVIF इमेज में बदलने के चरण‑दर‑चरण निर्देश।
+### [Java में HTML को WebP में बदलना – पूर्ण चरण‑दर‑चरण गाइड](./convert-html-to-webp-in-java-complete-step-by-step-guide/)
+Aspose.HTML for Java का उपयोग करके HTML को WebP इमेज में बदलने के विस्तृत चरण‑दर‑चरण निर्देश।
+
+### [SVG को WebP में बदलना – एनिमेटेड SVGs के लिए पूर्ण Java गाइड](./convert-svg-to-webp-full-java-guide-for-animated-svgs/)
+Aspose.HTML for Java का उपयोग करके एनिमेटेड SVG को WebP इमेज में बदलने के पूर्ण चरण‑दर‑स्टेप गाइड।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

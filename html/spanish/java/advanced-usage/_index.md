@@ -170,6 +170,7 @@ Aprende a crear y gestionar un Executor de pool de hilos fijo en Java para ejecu
 ### [Convertir SVG a AVIF con Java – Guía completa paso a paso](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
 Aprende a convertir imágenes SVG a formato AVIF usando Java y Aspose.HTML, con pasos detallados y ejemplos claros.
 ### [XPath con espacios de nombres en Java – Guía completa para seleccionar elementos SVG](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
+### [Ejecutar JavaScript en Java – Guía completa de Aspose.HTML](./execute-javascript-in-java-complete-aspose-html-guide/)
 
 ---
 

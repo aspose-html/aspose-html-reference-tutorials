@@ -126,6 +126,10 @@ url: /zh-hant/java/css-html-form-editing/
 本教學示範如何在 Java 中載入 HTML、使用 CSS、統計連結數量以及評估 XPath 表達式。
 ### [在 Java 中的元素計算樣式 – 完整 Aspose.HTML 指南](./element-computed-style-in-java-complete-aspose-html-guide/)
 本指南說明如何使用 Aspose.HTML for Java 取得元素的計算樣式，提供完整步驟與範例。
+### [在 Java 中取得計算樣式 – 使用 Aspose.HTML 偵錯 CSS Grid](./get-computed-style-in-java-debug-css-grid-with-aspose-html/)
+本教學說明如何在 Java 中使用 Aspose.HTML 取得元素的計算樣式，協助偵錯 CSS Grid 版面配置。
+### [在 Java 中取得元素顯示值 – Aspose HTML 沙盒指南](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
+本指南說明如何在 Java 中使用 Aspose.HTML 取得元素的顯示屬性值，協助前端顯示調整與除錯。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

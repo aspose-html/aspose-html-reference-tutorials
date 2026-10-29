@@ -179,6 +179,8 @@ Leer hoe je SVG-afbeeldingen converteert naar AVIF-formaat met Aspose.HTML for J
 Leer hoe je de DPI van het renderingsapparaat instelt in Aspose.HTML for Java binnen een sandbox‑omgeving voor nauwkeurige PDF‑output.
 ### [XPath met namespaces in Java – Complete gids voor het selecteren van SVG‑elementen](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
 Leer hoe je met XPath en namespaces SVG‑elementen kunt selecteren in Java‑code met Aspose.HTML.
+### [JavaScript uitvoeren in Java – Complete Aspose.HTML-gids](./execute-javascript-in-java-complete-aspose-html-guide/)
+Leer hoe je JavaScript kunt embedden en uitvoeren binnen Java‑applicaties met Aspose.HTML, stap voor stap.
 
 ---
 

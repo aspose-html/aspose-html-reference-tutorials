@@ -113,6 +113,8 @@ url: /ar/java/css-html-form-editing/
 تعلم كيفية تحميل مستند HTML، استخدام CSS، عد الروابط وتطبيق تعبيرات XPath باستخدام Aspose.HTML لـ Java.
 ### [نمط العنصر المحسوب في Java – دليل شامل لـ Aspose.HTML](./element-computed-style-in-java-complete-aspose-html-guide/)
 اكتشف كيفية الحصول على الأنماط المحسوبة للعناصر في Java باستخدام Aspose.HTML وتطبيقها في تطبيقاتك.
+### [الحصول على النمط المحسوب في Java – تصحيح شبكة CSS باستخدام Aspose.HTML](./get-computed-style-in-java-debug-css-grid-with-aspose-html/)
+### [الحصول على قيمة عرض العنصر في Java – دليل Aspose HTML Sandbox](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

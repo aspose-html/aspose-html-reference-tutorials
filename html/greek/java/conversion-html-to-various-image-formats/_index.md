@@ -189,6 +189,10 @@ weight: 24
 ### [Δημιουργία PNG από HTML – Πλήρης Οδηγός Java με Προσαρμοσμένη Ανάλυση](./create-png-from-html-complete-java-guide-with-custom-resolut/)
 ### [Πώς να μετατρέψετε SVG σε AVIF με Java – Οδηγός βήμα‑βήμα](./how-to-convert-svg-to-avif-with-java-step-by-step-guide/)
 
+### [Μετατροπή HTML σε WebP σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./convert-html-to-webp-in-java-complete-step-by-step-guide/)
+
+### [Μετατροπή SVG σε WebP – Πλήρης Οδηγός Java για Κινούμενα SVG](./convert-svg-to-webp-full-java-guide-for-animated-svgs/)
+
 ## Συχνές Ερωτήσεις
 
 **Ε: Μπορώ να μετατρέψω HTML σε PNG χρησιμοποιώντας Java χωρίς πρόσθετες βιβλιοθήκες εικόνας;**  

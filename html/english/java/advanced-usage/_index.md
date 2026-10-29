@@ -201,6 +201,8 @@ Learn how to set device DPI in Aspose.HTML for Java using the sandbox, ensuring 
 
 ### [XPath with Namespaces in Java – Complete Guide to Selecting SVG Elements](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
 Learn how to use XPath with namespaces in Java to accurately select SVG elements using Aspose.HTML.
+### [Execute JavaScript in Java – Complete Aspose.HTML Guide](./execute-javascript-in-java-complete-aspose-html-guide/)
+Learn how to run JavaScript code within Java using Aspose.HTML, covering setup, examples, and best practices.
 
 ---
 

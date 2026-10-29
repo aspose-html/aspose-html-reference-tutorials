@@ -85,7 +85,6 @@ SVG グラフィックを XPS フォーマットに変換し、デバイス間�
 
 ## Conversion - HTML to Other Formats Tutorials
 ### [Converting HTML to PDF](./convert-html-to-pdf/)
-Aspose.HTML を使用して Java で HTML を PDF に変換する方法を学びます。HTML コンテンツから高品質な PDF を手軽に作成できます。
 ### [Aspose の使用方法 – Java で HTML をバッチ変換して PDF にする](./how-to-use-aspose-batch-convert-html-to-pdf-in-java/)
 Aspose.HTML を利用して、Java で複数の HTML ファイルを一括で PDF に変換する手順を解説します。
 ### [HTML を一括で PDF に変換 – Java NIO と並列処理ガイド](./convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/)
@@ -318,6 +317,10 @@ Aspose.HTML の HtmlDocument を使用して Java で PDF に保存する手順�
 Aspose.HTML を使用して、Java で複数の HTML を同時に PDF に変換するバッチ処理方法を解説します。
 ### [JavaでHTMLをPDFに変換 – 完全ステップバイステップガイド](./convert-html-to-pdf-in-java-full-step-by-step-guide/)
 Aspose.HTML を使用して、Java で HTML を PDF に変換する手順を詳細に解説します。完全なステップバイステップガイドです。
+### [Java で Aspose HTML を使用して Markdown に変換 – 完全ステップバイステップガイド](./aspose-html-to-markdown-in-java-complete-step-by-step-guide/)
+### [Aspose HTML for Java で PDF/A-2b ドキュメントを作成する – 完全ガイド](./create-pdf-a-2b-document-with-aspose-html-for-java-full-guid/)
+### [JavaでHTMLをPDFに変換 – 並列バッチガイド](./convert-html-to-pdf-in-java-parallel-batch-guide/)
+### [Aspose を使用した HTML から DOCX への変換 – Java ガイド](./convert-html-to-docx-with-aspose-java-html-to-docx-guide/)
 
 ## よくある質問
 

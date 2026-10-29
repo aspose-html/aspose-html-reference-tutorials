@@ -149,6 +149,7 @@ R: No. Una singola licenza di Aspose.HTML for Java copre tutti i formati di outp
 ### [Converti SVG in AVIF con Java – Guida completa passo passo](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
 ### [Imposta DPI del dispositivo con Aspose in Java – Guida completa Sandbox](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
 ### [XPath con Namespace in Java – Guida completa alla selezione di elementi SVG](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
+### [Esegui JavaScript in Java – Guida completa Aspose.HTML](./execute-javascript-in-java-complete-aspose-html-guide/)
 
 ---
 

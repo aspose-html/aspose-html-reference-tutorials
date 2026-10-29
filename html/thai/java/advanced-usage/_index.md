@@ -200,6 +200,8 @@ Aspose.HTML ให้คุณแนบ `DomMutationObserver` ไปยังโ
 เรียนรู้วิธีกำหนดค่า DPI ของอุปกรณ์ใน Aspose.HTML for Java ภายใน Sandbox อย่างละเอียดเพื่อการแปลงที่แม่นยำ  
 ### [XPath พร้อมเนมสเปซใน Java – คู่มือฉบับสมบูรณ์สำหรับการเลือกองค์ประกอบ SVG](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
 เรียนรู้วิธีใช้ XPath กับเนมสเปซใน Java เพื่อเลือกและจัดการองค์ประกอบ SVG อย่างแม่นยำ  
+### [ดำเนินการ JavaScript ใน Java – คู่มือ Aspose.HTML ฉบับสมบูรณ์](./execute-javascript-in-java-complete-aspose-html-guide/)
+เรียนรู้วิธีดำเนินการ JavaScript ภายในแอปพลิเคชัน Java ด้วย Aspose.HTML อย่างครบถ้วน  
 
 ---
 

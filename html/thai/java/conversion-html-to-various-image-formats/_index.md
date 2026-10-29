@@ -180,6 +180,10 @@ weight: 24
 ### [วิธีเรนเดอร์ HTML – คู่มือ Aspose HTML ไปยัง PNG ฉบับสมบูรณ์](./how-to-render-html-complete-aspose-html-to-png-guide/)
 ### [วิธีแปลง SVG เป็น AVIF ด้วย Java – คู่มือขั้นตอนโดยละเอียด](./how-to-convert-svg-to-avif-with-java-step-by-step-guide/)
 เรียนรู้วิธีแปลงไฟล์ SVG เป็นรูปแบบภาพ AVIF ด้วย Aspose.HTML for Java อย่างละเอียดในขั้นตอนเดียว
+### [แปลง HTML เป็น WebP – คู่มือขั้นตอนเต็มใน Java](./convert-html-to-webp-in-java-complete-step-by-step-guide/)
+แปลง HTML เป็น WebP ด้วย Aspose.HTML for Java อย่างละเอียด พร้อมตัวอย่างโค้ดขั้นตอนต่อขั้นตอน
+### [แปลง SVG เป็น WebP – คู่มือเต็ม Java สำหรับ SVG เคลื่อนไหว](./convert-svg-to-webp-full-java-guide-for-animated-svgs/)
+เรียนรู้วิธีแปลง SVG เคลื่อนไหวเป็น WebP ด้วย Aspose.HTML for Java อย่างละเอียดในคู่มือขั้นตอนต่อขั้นตอน
 
 ## คำถามที่พบบ่อย
 

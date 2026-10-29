@@ -128,6 +128,10 @@ url: /th/java/css-html-form-editing/
 เรียนรู้วิธีใช้ CSS ใน Java เพื่อโหลด HTML, นับลิงก์และประเมิน XPath ด้วย Aspose.HTML
 ### [สไตล์คอมพิวท์ขององค์ประกอบใน Java – คู่มือ Aspose.HTML ฉบับสมบูรณ์](./element-computed-style-in-java-complete-aspose-html-guide/)
 เรียนรู้วิธีดึงสไตล์คอมพิวท์ขององค์ประกอบ HTML ด้วย Aspose.HTML สำหรับ Java ในคู่มือฉบับสมบูรณ์นี้
+### [รับสไตล์ที่คำนวณแล้วใน Java – ดีบัก CSS Grid ด้วย Aspose.HTML](./get-computed-style-in-java-debug-css-grid-with-aspose-html/)
+เรียนรู้วิธีดึงสไตล์ที่คำนวณขององค์ประกอบใน Java เพื่อแก้ไขและดีบัก CSS Grid ด้วย Aspose.HTML
+### [รับค่า Display ขององค์ประกอบใน Java – คู่มือ Sandbox Aspose HTML](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
+เรียนรู้วิธีดึงค่า display ขององค์ประกอบ HTML ด้วย Aspose.HTML สำหรับ Java ในสภาพแวดล้อม Sandbox
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

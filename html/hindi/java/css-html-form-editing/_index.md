@@ -126,6 +126,10 @@ Java में Aspose.HTML का उपयोग करके CSS बैकग�
 Java में Aspose.HTML का उपयोग करके CSS लागू करना, HTML लोड करना, लिंक गिनना और XPath अभिव्यक्तियों का मूल्यांकन करना सीखें।
 ### [जावा में एलिमेंट का कम्प्यूटेड स्टाइल – पूर्ण Aspose.HTML गाइड](./element-computed-style-in-java-complete-aspose-html-guide/)
 Aspose.HTML for Java का उपयोग करके एलिमेंट के कम्प्यूटेड स्टाइल को प्राप्त करने और विश्लेषण करने की पूरी प्रक्रिया सीखें।
+### [Java में गणना किया गया स्टाइल प्राप्त करें – Aspose.HTML के साथ CSS ग्रिड डिबग करें](./get-computed-style-in-java-debug-css-grid-with-aspose-html/)
+Aspose.HTML for Java का उपयोग करके CSS ग्रिड की गणना किए गए स्टाइल को प्राप्त करें और डिबगिंग के लिए विश्लेषण करें।
+### [Java में एलिमेंट डिस्प्ले वैल्यू प्राप्त करें – Aspose HTML सैंडबॉक्स गाइड](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
+Java में Aspose.HTML का उपयोग करके किसी एलिमेंट का डिस्प्ले मान कैसे प्राप्त करें, इस गाइड में सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

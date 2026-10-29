@@ -178,6 +178,12 @@ weight: 24
 
 ### [如何使用 Java 将 SVG 转换为 AVIF – 步骤指南](./how-to-convert-svg-to-avif-with-java-step-by-step-guide/)
 
+### [在 Java 中将 HTML 转换为 WebP – 完整分步指南](./convert-html-to-webp-in-java-complete-step-by-step-guide/)
+使用 Aspose.HTML for Java 在 Java 环境下将 HTML 转换为 WebP，提供完整的分步指南，帮助您快速生成高质量图像。
+
+### [将 SVG 转换为 WebP – 完整的 Java 动画 SVG 指南](./convert-svg-to-webp-full-java-guide-for-animated-svgs/)
+使用 Aspose.HTML for Java 将动画 SVG 转换为 WebP。完整步骤指南，帮助您轻松生成高质量的 WebP 动画图像。
+
 ## 常见问题解答
 
 ### [如何从 HTML 生成缩略图 – Java 指南](./how-to-generate-thumbnail-from-html-java-guide/)

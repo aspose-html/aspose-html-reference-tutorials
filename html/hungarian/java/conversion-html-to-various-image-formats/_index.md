@@ -219,6 +219,9 @@ Fedezze fel, hogyan konvertálhat HTML‑t AVIF‑formátumba Java‑ban az Aspo
 Ismerje meg, hogyan hozhat létre PNG képet HTML‑ből Java‑ban egy részletes, teljes példán keresztül.
 ### [SVG konvertálása AVIF‑be Java‑val – Lépésről‑lépésre útmutató](./how-to-convert-svg-to-avif-with-java-step-by-step-guide/)
 Ismerje meg, hogyan konvertálhat SVG‑t AVIF‑be Java‑ban az Aspose.HTML használatával. Részletes, lépésről‑lépésre útmutató a hatékony konverzióhoz.
+### [HTML konvertálása WebP‑be Java‑ban – Teljes lépésről‑lépésre útmutató](./convert-html-to-webp-in-java-complete-step-by-step-guide/)
+Ismerje meg, hogyan konvertálhat HTML‑t WebP‑be Java‑ban az Aspose.HTML segítségével. Részletes, lépésről‑lépésre útmutató a WebP konverzióhoz.
+### [SVG konvertálása WebP‑be – Teljes Java útmutató animált SVG‑khez](./convert-svg-to-webp-full-java-guide-for-animated-svgs/)
 
 ## Gyakran ismételt kérdések
 

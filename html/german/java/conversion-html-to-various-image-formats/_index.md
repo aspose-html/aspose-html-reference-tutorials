@@ -212,6 +212,10 @@ Erfahren Sie, wie Sie mit Aspose.HTML for Java das Laden externer Bilder beim Re
 Erfahren Sie, wie Sie mit Aspose.HTML for Java ein animiertes GIF aus einer SVG-Datei erzeugen – vollständige Schritt‑für‑Schritt‑Anleitung.
 ### [SVG in AVIF konvertieren mit Java – Schritt‑für‑Schritt‑Leitfaden](./how-to-convert-svg-to-avif-with-java-step-by-step-guide/)
 Erfahren Sie, wie Sie SVG‑Dateien mit Aspose.HTML for Java in das moderne AVIF‑Format konvertieren – vollständige Schritt‑für‑Schritt‑Anleitung.
+### [HTML in WebP konvertieren – Komplett‑Anleitung Schritt für Schritt in Java](./convert-html-to-webp-in-java-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie HTML mit Aspose.HTML for Java in das WebP‑Format konvertieren – vollständige Schritt‑für‑Schritt‑Anleitung.
+### [SVG in WebP konvertieren – Vollständige Java‑Anleitung für animierte SVGs](./convert-svg-to-webp-full-java-guide-for-animated-svgs/)
+Erfahren Sie, wie Sie animierte SVG‑Dateien mit Aspose.HTML for Java in das WebP‑Format konvertieren – Schritt‑für‑Schritt‑Leitfaden.
 
 ## Häufig gestellte Fragen
 

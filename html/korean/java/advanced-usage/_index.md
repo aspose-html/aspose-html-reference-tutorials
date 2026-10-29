@@ -171,6 +171,8 @@ Executor와 고정 스레드 풀을 활용해 효율적인 멀티스레드 작�
 ### [Java로 SVG를 AVIF로 변환 – 완전 단계별 가이드](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
 Java와 Aspose.HTML을 사용해 SVG 이미지를 AVIF 형식으로 변환하는 방법을 단계별로 안내합니다.
 ### [Aspose.HTML로 디바이스 DPI 설정 – 완전 샌드박스 가이드](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
+### [Java에서 JavaScript 실행하기 – Aspose.HTML 완전 가이드](./execute-javascript-in-java-complete-aspose-html-guide/)
+Aspose.HTML for Java를 사용해 Java 애플리케이션에서 JavaScript 코드를 실행하고 통합하는 방법을 단계별로 안내합니다.
 
 ---
 

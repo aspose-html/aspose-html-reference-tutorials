@@ -251,6 +251,13 @@ Lär dig hur du konverterar flera HTML‑filer till PDF parallellt i Java med As
 ### [HTML till PDF‑handledning: En‑rad Aspose‑konverterare](./html-to-pdf-tutorial-one-line-aspose-converter/)
 ### [Konvertera HTML till PDF i Java – Fullständig steg‑för‑steg‑guide](./convert-html-to-pdf-in-java-full-step-by-step-guide/)
 Detaljerad guide som visar hur du konverterar HTML till PDF i Java med alla nödvändiga steg och inställningar.
+### [Skapa PDF/A-2b-dokument med Aspose HTML för Java – Fullständig guide](./create-pdf-a-2b-document-with-aspose-html-for-java-full-guid/)
+Lär dig hur du genererar PDF/A‑2b‑dokument i Java med Aspose.HTML, inklusive konfiguration och bästa praxis.
+### [Konvertera HTML till PDF i Java – Parallell batchguide](./convert-html-to-pdf-in-java-parallel-batch-guide/)
+Lär dig hur du konverterar flera HTML‑filer till PDF parallellt i Java för snabb batch‑bearbetning.
+### [Aspose HTML till Markdown i Java – Komplett steg‑för‑steg‑guide](./aspose-html-to-markdown-in-java-complete-step-by-step-guide/)
+### [Konvertera HTML till DOCX med Aspose – Java HTML‑till‑DOCX‑guide](./convert-html-to-docx-with-aspose-java-html-to-docx-guide/)
+Lär dig hur du konverterar HTML till DOCX i Java med Aspose.HTML. En steg‑för‑steg‑guide för högkvalitativ DOCX‑output.
 
 ### [Konvertera HTML till PDF i Java – Fullständig guide med papperstorlek och DPI](./convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/)
 Omfattande guide för att konvertera HTML till PDF i Java med anpassning av papperstorlek och DPI för bästa utskriftskvalitet.

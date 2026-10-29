@@ -118,6 +118,10 @@ weight: 25
 Μάθετε πώς να μετατρέψετε HTML σε PDF σε Java με το Aspose.HTML, βήμα‑βήμα οδηγίες για γρήγορη ενσωμάτωση.
 ### [Μετατροπή HTML σε PDF σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./convert-html-to-pdf-in-java-full-step-by-step-guide/)
 Αναλυτικός οδηγός για τη μετατροπή HTML σε PDF σε Java με το Aspose.HTML, βήμα‑βήμα από την αρχή μέχρι το τελικό PDF.
+### [Μετατροπή HTML σε DOCX με Aspose – Οδηγός Java html σε docx](./convert-html-to-docx-with-aspose-java-html-to-docx-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία HTML σε DOCX σε Java χρησιμοποιώντας το Aspose.HTML, βήμα‑βήμα οδηγίες και παραμετροποίηση.
+### [Μετατροπή HTML σε PDF σε Java – Οδηγός Παράλληλης Παρτίδας](./convert-html-to-pdf-in-java-parallel-batch-guide/)
+Μάθετε πώς να μετατρέψετε πολλαπλά αρχεία HTML σε PDF ταυτόχρονα χρησιμοποιώντας το Aspose.HTML for Java για βέλτιστη απόδοση.
 ### [Μετατροπή HTML σε MHTML](./convert-html-to-mhtml/)
 Μετατρέψτε εύκολα HTML σε MHTML χρησιμοποιώντας το Aspose.HTML for Java. Ακολουθήστε τον βήμα‑βήμα οδηγό μας για αποδοτική μετατροπή HTML‑σε‑MHTML.
 ### [Μετατροπή HTML σε MHTML με Aspose.HTML – Πλήρης Οδηγός Java](./convert-html-to-mhtml-with-aspose-html-complete-java-guide/)
@@ -300,6 +304,10 @@ weight: 25
 ### [Μετατροπή HTML σε PDF σε Java – Οδηγός Παράλληλης Μαζικής Μετατροπής](./convert-html-to-pdf-in-java-parallel-batch-conversion-guide/)
 Μάθετε πώς να μετατρέψετε πολλαπλά αρχεία HTML σε PDF ταυτόχρονα με το Aspose.HTML for Java, βελτιώνοντας την απόδοση.
 ### [Μετατροπή HTML σε Markdown σε Java – Πλήρης Οδηγός Προγραμματισμού](./convert-html-to-markdown-in-java-complete-programming-guide/)
+### [Δημιουργία εγγράφου PDF/A-2b με Aspose HTML για Java – Πλήρης Οδηγός](./create-pdf-a-2b-document-with-aspose-html-for-java-full-guid/)
+Μάθετε πώς να δημιουργήσετε έγγραφα PDF/A‑2b συμμορφωμένα με πρότυπα αρχειοθέτησης χρησιμοποιώντας Aspose.HTML for Java.
+### [Aspose HTML σε Markdown σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./aspose-html-to-markdown-in-java-complete-step-by-step-guide/)
+Μάθετε πώς να μετατρέψετε HTML σε Markdown σε Java με πλήρη βήμα‑βήμα οδηγίες.
 
 ## Συχνές Ερωτήσεις
 

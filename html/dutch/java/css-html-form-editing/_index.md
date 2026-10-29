@@ -124,6 +124,10 @@ Leer hoe u met Aspose.HTML voor Java de CSS‑achtergrond van elementen kunt oph
 Leer hoe u CSS in Java kunt toepassen, HTML laadt, links telt en XPath‑expressies evalueert met Aspose.HTML.
 ### [Element berekende stijl in Java – Complete Aspose.HTML-gids](./element-computed-style-in-java-complete-aspose-html-guide/)
 Leer hoe u met Aspose.HTML voor Java de berekende stijl van een element kunt ophalen en gebruiken in uw webtoepassingen.
+### [Berekende stijl ophalen in Java – CSS‑grid debuggen met Aspose.HTML](./get-computed-style-in-java-debug-css-grid-with-aspose-html/)
+Leer hoe u met Aspose.HTML voor Java de berekende CSS‑stijlen van elementen kunt ophalen om CSS‑grid lay-outs te debuggen.
+### [Elementweergavewaarde ophalen in Java – Aspose HTML Sandbox‑gids](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
+Leer hoe u met Aspose.HTML voor Java de weergave‑waarde van een element kunt ophalen in de sandbox‑omgeving.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

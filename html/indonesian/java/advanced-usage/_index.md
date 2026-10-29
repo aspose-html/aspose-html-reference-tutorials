@@ -194,6 +194,9 @@ Pelajari cara mengonversi file SVG menjadi format gambar AVIF menggunakan Aspose
 ### [XPath dengan Namespace di Java – Panduan Lengkap Memilih Elemen SVG](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
 Pelajari cara menggunakan XPath dengan namespace di Java untuk memilih elemen SVG secara akurat.
 
+### [Jalankan JavaScript di Java – Panduan Lengkap Aspose.HTML](./execute-javascript-in-java-complete-aspose-html-guide/)
+Pelajari cara mengeksekusi kode JavaScript dalam aplikasi Java menggunakan Aspose.HTML secara menyeluruh.
+
 ---
 
 **Terakhir Diperbarui:** 2025-11-29  

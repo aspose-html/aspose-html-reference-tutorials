@@ -128,6 +128,10 @@ url: /zh/java/css-html-form-editing/
 本教程演示如何在 Java 中使用 Aspose.HTML 加载 HTML、统计页面链接数量并使用 XPath 进行查询。
 ### [Java 中的元素计算样式 – 完整 Aspose.HTML 指南](./element-computed-style-in-java-complete-aspose-html-guide/)
 本指南详细说明如何使用 Aspose.HTML for Java 获取元素的计算样式，包括属性解析和实际渲染结果。
+### [在 Java 中获取计算样式 – 使用 Aspose.HTML 调试 CSS Grid](./get-computed-style-in-java-debug-css-grid-with-aspose-html/)
+本教程演示如何在 Java 中使用 Aspose.HTML 获取元素的计算样式，以便调试 CSS Grid 布局。
+### [在 Java 中获取元素显示值 – Aspose HTML 沙盒指南](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
+本指南展示如何使用 Aspose.HTML 在 Java 中获取元素的 display 属性值，以便进行布局调试和动态样式控制。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

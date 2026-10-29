@@ -126,6 +126,11 @@ Aspose.HTML for Java ile CSS'i nasıl kullanacağınızı, HTML'i nasıl yükley
 
 ### [Java’da Element Hesaplanmış Stili – Tam Aspose.HTML Kılavuzu](./element-computed-style-in-java-complete-aspose-html-guide/)
 Aspose.HTML for Java ile bir elementin hesaplanmış stilini alıp incelemeyi adım adım öğrenin.
+### [Java’da Hesaplanmış Stili Al – Aspose.HTML ile CSS Grid Hata Ayıklama](./get-computed-style-in-java-debug-css-grid-with-aspose-html/)
+Aspose.HTML for Java kullanarak bir öğenin hesaplanmış stilini alıp CSS Grid düzeninizi hata ayıklamayı öğrenin.
+### [Java’da Element Görüntüleme Değerini Al – Aspose HTML Sandbox Kılavuzu](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
+Aspose.HTML for Java kullanarak bir öğenin display (görünürlük) değerini almayı ve analiz etmeyi öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

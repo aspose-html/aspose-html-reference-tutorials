@@ -309,6 +309,14 @@ Jednoduchý jednorázový převod HTML do PDF pomocí Aspose.HTML v jediném ř�
 Naučte se provádět paralelní dávkové převody HTML do PDF v Javě pomocí Aspose.HTML pro zvýšení výkonu.
 ### [html to pdf tutoriál: Převod HTML do PDF v Javě](./html-to-pdf-tutorial-convert-html-to-pdf-in-java/)
 Podrobný návod, jak převést HTML do PDF v Javě pomocí Aspose.HTML s ukázkovým kódem a nastavením.
+### [Převod HTML do PDF v Javě – Paralelní dávkový průvodce](./convert-html-to-pdf-in-java-parallel-batch-guide/)
+Naučte se, jak provádět hromadný paralelní převod HTML do PDF v Javě pomocí Aspose.HTML.
+### [Vytvoření PDF/A-2b dokumentu pomocí Aspose HTML pro Java – Kompletní průvodce](./create-pdf-a-2b-document-with-aspose-html-for-java-full-guid/)
+Naučte se generovat PDF/A‑2b soubory v Javě s Aspose.HTML a splňte požadavky archivace dokumentů.
+### [Aspose HTML do Markdown v Javě – Kompletní krok‑za‑krokem průvodce](./aspose-html-to-markdown-in-java-complete-step-by-step-guide/)
+Naučte se převádět HTML na Markdown v Javě pomocí Aspose.HTML s podrobným krok‑za‑krokem návodem.
+### [Převod HTML do DOCX s Aspose – Java HTML do DOCX průvodce](./convert-html-to-docx-with-aspose-java-html-to-docx-guide/)
+Naučte se převádět HTML do DOCX v Javě pomocí Aspose.HTML. Vytvářejte editovatelné dokumenty DOCX z HTML obsahu.
 
 ## Často kladené otázky
 

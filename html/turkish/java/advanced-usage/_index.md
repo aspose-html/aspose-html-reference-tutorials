@@ -181,6 +181,8 @@ Aspose.HTML for Java kullanarak EPUB dosyalarını DOCX formatına dönüştürm
 Aspose.HTML for Java kullanarak cihaz DPI değerini nasıl ayarlayacağınızı ve sandbox ortamında tam bir örnekle nasıl uygulayacağınızı öğrenin.
 ### [Java’da namespace’li XPath – SVG Öğelerini Seçme Tam Kılavuzu](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
 Java’da namespace içeren XPath ifadeleriyle SVG öğelerini nasıl seçeceğinizi adım adım öğrenin.
+### [Java’da JavaScript Çalıştırma – Tam Aspose.HTML Kılavuzu](./execute-javascript-in-java-complete-aspose-html-guide/)
+Aspose.HTML for Java kullanarak Java içinde JavaScript kodu çalıştırmayı ve entegrasyonu öğrenin.
 
 ---
 

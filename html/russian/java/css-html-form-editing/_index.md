@@ -125,6 +125,10 @@ url: /ru/java/css-html-form-editing/
 Узнайте, как загрузить HTML, подсчитать ссылки и выполнить XPath запросы с помощью CSS в Java, используя Aspose.HTML.
 ### [Вычисленный стиль элемента в Java – Полное руководство Aspose.HTML](./element-computed-style-in-java-complete-aspose-html-guide/)
 Узнайте, как получить вычисленные стили элементов в Java с помощью Aspose.HTML, в полном пошаговом руководстве.
+### [Получить вычисленный стиль в Java – отладка CSS‑Grid с Aspose.HTML](./get-computed-style-in-java-debug-css-grid-with-aspose-html/)
+Узнайте, как получить вычисленные стили элементов и отлаживать сетки CSS Grid в Java с помощью Aspose.HTML.
+### [Получить значение display элемента в Java – Руководство по песочнице Aspose HTML](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
+Узнайте, как получить значение свойства display у HTML‑элементов в Java с помощью песочницы Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

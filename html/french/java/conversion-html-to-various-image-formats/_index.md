@@ -84,11 +84,13 @@ Utiliser Aspose.HTML for Java simplifie la conversion de documents HTML en diver
 ## Conversion - HTML vers différents formats d'image – Tutoriels
 ### [Conversion d'HTML en BMP](./convert-html-to-bmp/)
 Convertir HTML en BMP avec Aspose.HTML for Java. Un tutoriel complet pour convertir sans effort les documents HTML en images BMP à l'aide d'Aspose.HTML for Java.
+
 ### [Conversion d'HTML en GIF](./convert-html-to-gif/)
 Apprenez à convertir HTML en GIF en Java avec Aspose.HTML. Un guide complet étape par étape pour une conversion efficace HTML‑vers‑GIF.
 ### [Comment créer un GIF à partir de SVG – Guide Java étape par étape](./how-to-create-gif-from-svg-step-by-step-java-guide/)
 ### [Conversion d'HTML en JPEG](./convert-html-to-jpeg/)
 Apprenez à convertir HTML en JPEG avec Aspose.HTML for Java. Guide étape par étape pour un traitement de documents fluide.
+
 ### [Conversion d'HTML en PNG](./convert-html-to-png/)
 Apprenez à convertir HTML en images PNG en Java avec Aspose.HTML. Un guide complet avec des instructions étape par étape.
 ### [Comment utiliser ExecutorService pour la conversion par lots parallèle de HTML en PNG](./how-to-use-executorservice-for-parallel-html-to-png-batch-co/)
@@ -198,6 +200,11 @@ Apprenez à rendre du HTML en PNG en Java tout en incluant un token Bearer et de
 Apprenez à convertir HTML en AVIF en Java avec Aspose.HTML. Guide complet étape par étape pour une conversion efficace.
 ### [Désactiver les images externes lors du rendu d'une page Web en PNG en Java](./disable-external-images-while-rendering-webpage-to-png-in-ja/)
 ### [Comment convertir SVG en AVIF avec Java – Guide étape par étape](./how-to-convert-svg-to-avif-with-java-step-by-step-guide/)
+
+### [Conversion d'HTML en WebP en Java – Guide complet étape par étape](./convert-html-to-webp-in-java-complete-step-by-step-guide/)
+Apprenez à convertir HTML en WebP en Java avec Aspose.HTML. Guide complet étape par étape pour une conversion efficace et optimisée.
+
+### [convertir svg en webp – Guide complet Java pour SVG animés](./convert-svg-to-webp-full-java-guide-for-animated-svgs/)
 
 ## Questions fréquemment posées
 

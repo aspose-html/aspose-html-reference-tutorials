@@ -224,6 +224,9 @@ Aprenda a desactivar imágenes externas al renderizar una página web a PNG usan
 ### [Crear GIF animado a partir de SVG – Guía paso a paso en Java](./create-animated-gif-from-svg-step-by-step-java-guide/)
 ### [Crear PNG a partir de HTML en Java – Ejemplo completo](./create-png-from-html-in-java-full-example/)
 Aprenda a crear PNG a partir de HTML en Java con un ejemplo completo usando Aspose.HTML for Java.
+### [Convertir HTML a WebP en Java – Guía completa paso a paso](./convert-html-to-webp-in-java-complete-step-by-step-guide/)
+Aprenda a convertir HTML a WebP en Java con Aspose.HTML. Guía paso a paso completa para lograr conversiones eficientes y de alta calidad.
+### [Convertir SVG a WebP – Guía completa de Java para SVG animados](./convert-svg-to-webp-full-java-guide-for-animated-svgs/)
 
 ## Preguntas frecuentes
 

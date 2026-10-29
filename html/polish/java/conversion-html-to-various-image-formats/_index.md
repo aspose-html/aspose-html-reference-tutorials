@@ -202,6 +202,11 @@ Dowiedz się, jak konwertować HTML do formatu WebP w Javie przy użyciu Aspose.
 
 ### [Jak konwertować SVG do AVIF w Javie – przewodnik krok po kroku](./how-to-convert-svg-to-avif-with-java-step-by-step-guide/)
 
+### [Konwertowanie HTML do WebP w Javie – Kompletny przewodnik krok po kroku](./convert-html-to-webp-in-java-complete-step-by-step-guide/)
+Dowiedz się, jak konwertować HTML do WebP w Javie przy użyciu Aspose.HTML. Kompletny przewodnik krok po kroku.
+
+### [Konwertowanie SVG do WebP – Pełny przewodnik Java dla animowanych SVG](./convert-svg-to-webp-full-java-guide-for-animated-svgs/)
+
 ## Najczęściej zadawane pytania
 
 **Q: Czy mogę konwertować HTML do PNG w Javie bez dodatkowych bibliotek graficznych?**  

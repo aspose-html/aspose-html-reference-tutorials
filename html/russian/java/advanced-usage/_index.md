@@ -181,6 +181,8 @@ Aspose.HTML позволяет прикрепить `DomMutationObserver` к л�
 Узнайте, как задать DPI устройства при работе с Aspose.HTML в Java в изолированной среде.
 ### [XPath с пространствами имён в Java – Полное руководство по выбору элементов SVG](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
 Узнайте, как использовать XPath с пространствами имён в Java для точного выбора SVG‑элементов при работе с Aspose.HTML.
+### [Как выполнить JavaScript в Java – Полное руководство Aspose.HTML](./execute-javascript-in-java-complete-aspose-html-guide/)
+Узнайте, как запускать JavaScript‑код из Java‑приложений с помощью Aspose.HTML.
 
 ---
 

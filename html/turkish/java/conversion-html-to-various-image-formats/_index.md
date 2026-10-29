@@ -213,6 +213,11 @@ Aspose.HTML for Java kullanarak HTML'yi AVIF formatına yüksek kaliteyle dönü
 Aspose.HTML for Java kullanarak HTML'den özel çözünürlükte PNG oluşturmayı adım adım öğrenin.
 ### [Java ile SVG'yi AVIF'e Dönüştürme – Adım Adım Rehber](./how-to-convert-svg-to-avif-with-java-step-by-step-guide/)
 Aspose.HTML for Java kullanarak SVG dosyalarını yüksek kalite AVIF görüntülerine dönüştürmeyi adım adım öğrenin.
+### [HTML'yi WebP'ye Dönüştür – Java Tam Adım‑Adım Rehberi](./convert-html-to-webp-in-java-complete-step-by-step-guide/)
+Aspose.HTML for Java kullanarak HTML'yi WebP formatına yüksek kaliteyle dönüştürmeyi adım adım öğrenin.
+
+### [SVG'yi WebP'ye Dönüştür – Animasyonlu SVG'ler İçin Tam Java Rehberi](./convert-svg-to-webp-full-java-guide-for-animated-svgs/)
+Aspose.HTML for Java kullanarak animasyonlu SVG dosyalarını yüksek kalite WebP formatına dönüştürmeyi adım adım öğrenin.
 
 ## Sıkça Sorulan Sorular
 

@@ -126,6 +126,10 @@ Scopri come ottenere e gestire lo sfondo CSS nei documenti HTML usando Aspose.HT
 Impara a caricare un documento HTML, contare i collegamenti e valutare espressioni XPath usando CSS in Java con Aspose.HTML.
 ### [Stile calcolato dell'elemento in Java – Guida completa Aspose.HTML](./element-computed-style-in-java-complete-aspose-html-guide/)
 Scopri come ottenere e utilizzare lo stile calcolato di un elemento HTML con Aspose.HTML per Java in questa guida dettagliata passo passo.
+### [Ottieni lo stile calcolato in Java – Debug della griglia CSS con Aspose.HTML](./get-computed-style-in-java-debug-css-grid-with-aspose-html/)
+Scopri come ottenere lo stile calcolato di un elemento e diagnosticare layout CSS Grid usando Aspose.HTML per Java.
+### [Ottieni il valore di visualizzazione dell'elemento in Java – Guida Sandbox Aspose HTML](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
+Scopri come ottenere il valore di visualizzazione di un elemento HTML in Java usando la sandbox di Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
