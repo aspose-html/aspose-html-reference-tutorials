@@ -1,56 +1,24 @@
 ---
 category: general
-date: 2026-07-02
-description: Vytvořte PDF z HTML rychle pomocí C#. Tento tutoriál převodu HTML na
-  PDF vám ukáže, jak převést soubor HTML na PDF s minimálním kódem.
+date: 2026-01-09
+description: Rychle vytvořte PDF z HTML pomocí Aspose.HTML v C#. Naučte se, jak převést
+  HTML na PDF, uložit HTML jako PDF a získat vysoce kvalitní konverzi PDF.
 draft: false
 keywords:
 - create pdf from html
 - convert html to pdf
 - html to pdf c#
-- convert html file pdf
-- html to pdf tutorial
+- save html as pdf
+- high quality pdf conversion
 language: cs
-og_description: Vytvořte PDF z HTML pomocí C#. Sledujte tento stručný návod na převod
-  HTML do PDF a získejte připravený příklad, který převádí soubor HTML na PDF dokument.
-og_title: Vytvořte PDF z HTML v C# – Kompletní programovací průvodce
-schemas:
-- author: Aspose
-  dateModified: '2026-07-02'
-  description: Create PDF from HTML quickly using C#. This convert html to pdf tutorial
-    shows you how to turn an HTML file into a PDF with minimal code.
-  headline: Create PDF from HTML in C# – Complete Step‑by‑Step Guide
-  type: TechArticle
-- description: Create PDF from HTML quickly using C#. This convert html to pdf tutorial
-    shows you how to turn an HTML file into a PDF with minimal code.
-  name: Create PDF from HTML in C# – Complete Step‑by‑Step Guide
-  steps:
-  - name: Pro tip
-    text: If you’re converting many files in a loop, reuse the same `HtmlConverter`
-      instance. It reduces memory churn and speeds up the process.
-  - name: Common question
-    text: '*“Do I need to set a page size manually?”* Usually no—the converter picks
-      A4 for you. If you need Letter or a custom size, set `pdfOptions.PageSize =
-      PageSize.Letter;`.'
-  - name: Edge case handling
-    text: If your HTML references external resources (images, fonts, CSS), make sure
-      those files are reachable from the running process. You can set `pdfOptions.BaseUrl
-      = "file:///YOUR_DIRECTORY/";` to help the converter locate relative paths.
-  - name: Pro tip
-    text: If you need the PDF as a byte array (for API responses, for example), call
-      `converter.Save(Stream)` instead of the file overload.
-  - name: Wrap‑up
-    text: We’ve walked through how to **create PDF from HTML** using C#, explained
-      the *why* behind each line, and gave you a ready‑to‑run code sample. Whether
-      you’re building a reporting engine, an invoice generator, or a simple “Save
-      as PDF” button on a web app, this pattern will get you there quickly.
-  type: HowTo
+og_description: Vytvořte PDF z HTML v C# pomocí Aspose.HTML. Sledujte tento návod
+  pro vysoce kvalitní konverzi PDF, krok‑za‑krokem kód a praktické tipy.
+og_title: Vytvořte PDF z HTML v C# – kompletní návod
 tags:
 - C#
-- HTML
 - PDF
-- conversion
-title: Vytvořte PDF z HTML v C# – Kompletní průvodce krok po kroku
+- Aspose.HTML
+title: Vytvoření PDF z HTML v C# – Kompletní krok‑za‑krokem průvodce
 url: /cs/net/html-extensions-and-conversions/create-pdf-from-html-in-c-complete-step-by-step-guide/
 ---
 
@@ -60,169 +28,127 @@ url: /cs/net/html-extensions-and-conversions/create-pdf-from-html-in-c-complete-
 
 # Vytvoření PDF z HTML v C# – Kompletní průvodce krok za krokem
 
-Už jste někdy potřebovali **vytvořit PDF z HTML**, ale nebyli jste si jisti, kterou knihovnu zvolit? Nejste v tom sami. Mnoho vývojářů narazí na stejný problém, když chtějí převést webovou stránku, e‑mailovou šablonu nebo jednoduchou zprávu na tisknutelné PDF, aniž by museli načítat těžký prohlížečový engine.
+Už jste se někdy zamýšleli, jak **create PDF from HTML** bez boje s nešikovnými nástroji třetích stran? Nejste sami. Ať už budujete fakturační systém, dashboard pro reporty nebo generátor statických stránek, převod HTML na upravené PDF je běžná potřeba. V tomto tutoriálu projdeme čisté, vysoce kvalitní řešení, které **convert html to pdf** pomocí Aspose.HTML pro .NET.
 
-Je to jednoduché: s několika řádky C# můžete **převést HTML na PDF** pomocí moderní, plně spravované knihovny. V tomto tutoriálu projdeme malý, samostatný příklad, který vezme *input.html* a vytvoří *output.pdf* – bez další konfigurace, bez tajemné magie.
-
-Také přidáme několik tipů na osvědčené postupy, probereme okrajové případy a ukážeme, jak přizpůsobit kód pro různé scénáře. Na konci budete mít funkční úryvek **html to pdf c#**, který můžete vložit do libovolného .NET projektu.
+Probereme vše od načtení HTML souboru, úpravy možností renderování pro **high quality pdf conversion**, až po finální uložení výsledku jako **save html as pdf**. Na konci budete mít připravenou konzolovou aplikaci, která vytvoří ostré PDF z libovolné HTML šablony.
 
 ## Co budete potřebovat
 
-- .NET 6.0 SDK nebo novější (kód funguje také s .NET Core a .NET Framework)
-- NuGet‑kompatibilní knihovnu HTML‑to‑PDF – v tomto průvodci použijeme **Aspose.Pdf for .NET**, protože její třída `HtmlConverter` odpovídá uvedenému úryvku.
-- IDE nebo editor dle vašeho výběru (Visual Studio, VS Code, Rider… libovolný)
-- Jednoduchý HTML soubor v `YOUR_DIRECTORY/input.html` (klidně později zkopírujte příklad)
+- .NET 6 (nebo .NET Framework 4.7+). Kód funguje na jakémkoli aktuálním runtime.
+- Visual Studio 2022 (nebo váš oblíbený editor). Nepotřebujete žádný speciální typ projektu.
+- Licence pro **Aspose.HTML** (pro testování stačí bezplatná zkušební verze).
+- HTML soubor, který chcete převést – například `Invoice.html` umístěný ve složce, na kterou můžete odkazovat.
 
-To je vše. Žádné další nástroje, žádné COM interop, jen čisté C#.
+> **Tip:** Udržujte HTML a jeho prostředky (CSS, obrázky) ve stejném adresáři; Aspose.HTML automaticky řeší relativní URL.
 
-## Krok 1: Vytvoření PDF z HTML – Inicializace HtmlConverter
+## Krok 1: Načtení HTML dokumentu (Create PDF from HTML)
 
-První věc, kterou musíte udělat, je vytvořit instanci `HtmlConverter`. Představte si ji jako motor, který umí číst HTML značky, CSS a obrázky a poté je vykreslit na stránky PDF.
-
-```csharp
-using Aspose.Pdf;
-using Aspose.Pdf.HtmlConversion;
-
-// Step 1: Create an HtmlConverter instance
-HtmlConverter converter = new HtmlConverter();
-```
-
-> **Proč je tento krok důležitý:** `HtmlConverter` obsahuje vnitřní nastavení (jako velikost stránky, okraje a vkládání fontů). Vytvořením instance předem udržujete konverzní pipeline čistou a znovupoužitelnou.
-
-### Pro tip
-Pokud převádíte mnoho souborů ve smyčce, znovu použijte stejnou instanci `HtmlConverter`. Snižuje to spotřebu paměti a urychluje proces.
-
-## Krok 2: Převod HTML na PDF pomocí C# – Nastavení možností uložení
-
-Dále řekneme konvertoru *jak* má PDF vypadat. `PdfSaveOptions` vám umožňuje zvolit výstupní formát, úroveň komprese a zda vložit fonty. Výchozí hodnoty jsou již pro většinu případů dostačující, ale ukážeme vám pár úprav.
-
-```csharp
-// Step 2: Define PDF save options (optional customizations)
-PdfSaveOptions pdfOptions = new PdfSaveOptions
-{
-    // Example: compress images to reduce file size
-    CompressionLevel = PdfCompressionLevel.High,
-    // Example: embed all fonts for maximum compatibility
-    EmbedFullFonts = true
-};
-```
-
-> **Proč je tento krok důležitý:** Bez explicitních `PdfSaveOptions` by knihovna stále vytvořila PDF, ale můžete skončit s velkými soubory nebo chybějícími glyfy ve starších čtečkách. Úpravou těchto možností získáte kontrolu nad kvalitou versus velikostí.
-
-### Často kladená otázka
-*„Musím ručně nastavit velikost stránky?“*  
-Obvykle ne – konvertor pro vás vybere A4. Pokud potřebujete Letter nebo vlastní velikost, nastavte `pdfOptions.PageSize = PageSize.Letter;`.
-
-## Krok 3: Převod HTML souboru na PDF – Jádro procesu
-
-Nyní přichází jádro tutoriálu: převod HTML souboru na objekt PDF dokumentu. Tento krok používá metodu `Convert`, kterou jste viděli v původním úryvku.
-
-```csharp
-// Step 3: Convert the HTML file to a PDF document using the options above
-converter.Convert("YOUR_DIRECTORY/input.html", pdfOptions);
-```
-
-> **Proč je tento krok důležitý:** Převod probíhá kompletně v paměti. Metoda načte *input.html*, parsuje značky, aplikuje CSS a vytvoří objekt `Document`, který představuje PDF. Žádné mezilehlé soubory nejsou vytvořeny, pokud je výslovně neuložíte.
-
-### Zpracování okrajových případů
-Pokud váš HTML odkazuje na externí zdroje (obrázky, fonty, CSS), ujistěte se, že jsou tyto soubory dostupné z běžícího procesu. Můžete nastavit `pdfOptions.BaseUrl = "file:///YOUR_DIRECTORY/";`, aby konvertor našel relativní cesty.
-
-## Krok 4: Uložení PDF souboru – Dokončení tutoriálu html to pdf
-
-Nakonec uložíme vygenerované PDF na disk. Metoda `Save` zapíše `Document` z paměti do souboru, který určíte.
-
-```csharp
-// Step 4: Save the resulting PDF to a file
-converter.Save("YOUR_DIRECTORY/output.pdf");
-```
-
-> **Proč je tento krok důležitý:** Dokud nevoláte `Save`, PDF existuje jen v RAM. Uložením získáte hmatatelný artefakt, který můžete otevřít, poslat e‑mailem nebo naservírovat přes HTTP.
-
-### Pro tip
-Pokud potřebujete PDF jako pole bajtů (např. pro API odpovědi), zavolejte `converter.Save(Stream)` místo přetížení pro soubor.
-
-## Kompletní funkční příklad
-
-Spojením všech částí získáte minimální konzolovou aplikaci, kterou můžete zkopírovat a spustit:
+Prvním krokem je vytvořit objekt `HTMLDocument`, který ukazuje na zdrojový soubor. Tento objekt parsuje značky, aplikuje CSS a připraví layout engine.
 
 ```csharp
 using System;
-using Aspose.Pdf;
-using Aspose.Pdf.HtmlConversion;
+using Aspose.Html;
+using Aspose.Html.Saving;
 
-class Program
+class HtmlToPdf
 {
     static void Main()
     {
-        // 1️⃣ Create the converter
-        HtmlConverter converter = new HtmlConverter();
+        // 👉 Load the source HTML document – this is where we *create pdf from html*.
+        var htmlPath = @"C:\MyDocs\Invoice.html"; // adjust to your folder
+        var htmlDoc = new HTMLDocument(htmlPath);
+```
 
-        // 2️⃣ Prepare save options (feel free to tweak)
-        PdfSaveOptions pdfOptions = new PdfSaveOptions
+**Proč je to důležité:** Načtením HTML do Aspose DOM získáte plnou kontrolu nad renderováním – něco, co nedostanete, když jen pošlete soubor do tiskového ovladače.
+
+## Krok 2: Nastavení možností uložení PDF (Convert HTML to PDF)
+
+Dále vytvoříme instanci `PDFSaveOptions`. Tento objekt říká Aspose, jak má finální PDF fungovat. Je to jádro procesu **convert html to pdf**.
+
+```csharp
+        // 👉 Configure PDF saving – we’ll use the classic API for flexibility.
+        var pdfOptions = new PDFSaveOptions();
+```
+
+Můžete také použít novější třídu `PdfSaveOptions`, ale klasické API poskytuje přímý přístup k nastavením renderování, která zvyšují kvalitu.
+
+## Krok 3: Povolení antialiasingu a textového hintingu (High Quality PDF Conversion)
+
+Ostré PDF není jen o velikosti stránky; jde o to, jak rasterizér kreslí křivky a text. Povolení antialiasingu a hintingu zajišťuje, že výstup bude ostrý na jakémkoli displeji nebo tiskárně.
+
+```csharp
+        // 👉 Enhance rendering quality – this is the secret sauce for a *high quality pdf conversion*.
+        pdfOptions.RenderingOptions = new RenderingOptions
         {
-            CompressionLevel = PdfCompressionLevel.High,
-            EmbedFullFonts = true
+            UseAntialiasing = true,
+            TextOptions = new TextOptions { UseHinting = true }
         };
+```
 
-        // 3️⃣ Perform the conversion
-        string htmlPath = @"YOUR_DIRECTORY\input.html";
-        converter.Convert(htmlPath, pdfOptions);
+**Co se děje pod kapotou?** Antialiasing vyhlazuje hrany vektorové grafiky, zatímco textový hinting zarovnává glyfy k pixelovým hranám, čímž snižuje rozmazání – zvláště patrné na monitorech s nízkým rozlišením.
 
-        // 4️⃣ Write the PDF to disk
-        string pdfPath = @"YOUR_DIRECTORY\output.pdf";
-        converter.Save(pdfPath);
+## Krok 4: Uložení dokumentu jako PDF (Save HTML as PDF)
 
-        Console.WriteLine($"✅ Successfully created PDF from HTML at: {pdfPath}");
+Nyní předáme `HTMLDocument` a nakonfigurované možnosti metodě `Save`. Tento jediný volání provede celou operaci **save html as pdf**.
+
+```csharp
+        // 👉 Perform the actual conversion – *create pdf from html* in one line.
+        var pdfPath = @"C:\MyDocs\Invoice.pdf"; // output location
+        htmlDoc.Save(pdfPath, pdfOptions);
+```
+
+Pokud potřebujete vložit záložky, nastavit okraje stránky nebo přidat heslo, `PDFSaveOptions` nabízí vlastnosti i pro tyto scénáře.
+
+## Krok 5: Potvrzení úspěchu a úklid
+
+Přátelská zpráva v konzoli vás informuje, že úloha je dokončena. V produkční aplikaci byste pravděpodobně přidali ošetření chyb, ale pro rychlou ukázku to stačí.
+
+```csharp
+        Console.WriteLine($"Successfully saved PDF to: {pdfPath}");
     }
 }
 ```
 
-**Očekávaný výstup**
+Spusťte program (`dotnet run` ze složky projektu) a otevřete `Invoice.pdf`. Měli byste vidět věrné vykreslení původního HTML, včetně CSS stylů a vložených obrázků.
 
-- Soubor s názvem `output.pdf` se objeví v `YOUR_DIRECTORY`.
-- Otevřením PDF uvidíte vykreslené HTML – nadpisy, odstavce, obrázky a základní CSS by měly vypadat identicky jako v prohlížeči.
-- Velikost souboru je skromná díky vysoké úrovni komprese.
+### Očekávaný výstup
 
-## Často kladené otázky (FAQ)
+```
+Successfully saved PDF to: C:\MyDocs\Invoice.pdf
+```
+
+Otevřete soubor v libovolném PDF prohlížeči – Adobe Reader, Foxit nebo dokonce v prohlížeči – a všimnete si hladkých fontů a ostré grafiky, což potvrzuje, že **high quality pdf conversion** proběhla podle očekávání.
+
+## Často kladené otázky a okrajové případy
 
 | Question | Answer |
 |----------|--------|
-| **Mohu převést řetězec HTML místo souboru?** | Ano. Použijte `converter.Convert(new MemoryStream(Encoding.UTF8.GetBytes(htmlString)), pdfOptions);` |
-| **Co s JavaScriptem na stránce?** | `HtmlConverter` **ne**spouští JS. Používejte statické HTML/CSS pro spolehlivé výsledky. |
-| **Potřebuji licenci pro Aspose.Pdf?** | Bezplatná evaluační verze funguje pro testování, ale licence odstraňuje vodoznak a odemyká všechny funkce. |
-| **Jak přidám záhlaví/zápatí na každou stránku?** | Po konverzi můžete iterovat `converter.Document.Pages` a přidat objekty `HeaderFooter`. |
-| **Je tento přístup multiplatformní?** | Ano. Aspose.Pdf běží na Windows, Linuxu i macOS, pokud máte nainstalovaný .NET Core/5+. |
+| *What if my HTML references external images?* | Umístěte obrázky do stejné složky jako HTML nebo použijte absolutní URL. Aspose.HTML řeší obojí. |
+| *Can I convert a string of HTML instead of a file?* | Ano – použijte `new HTMLDocument("<html>…</html>", new DocumentUrlResolver("base/path"))`. |
+| *Do I need a license for production?* | Plná licence odstraní vodoznak hodnocení a odemkne prémiové možnosti renderování. |
+| *How do I set PDF metadata (author, title)?* | Po vytvoření `pdfOptions` nastavte `pdfOptions.Metadata.Title = "My Invoice"` (podobně pro Author, Subject). |
+| *Is there a way to add a password?* | Nastavte `pdfOptions.Encryption = new PdfEncryptionOptions { OwnerPassword = "owner", UserPassword = "user" };`. |
 
-## Další kroky a související témata
+## Vizuální přehled
 
-Nyní, když ovládáte základní workflow **convert html file pdf**, můžete chtít prozkoumat:
+![Diagram showing create pdf from html workflow – load HTML, configure rendering, save as PDF](https://example.com/images/pdf-from-html-workflow.png)
 
-- **Pokročilé stylování** – vkládání vlastních fontů, zpracování media queries nebo použití externích CSS souborů.
-- **Dávkový převod** – procházení složky s HTML zprávami a generování zipu PDF souborů.
-- **Streamování PDF** – odeslání PDF přímo webovému klientovi pomocí `Response.Body.WriteAsync`.
-- **Sloučení PDF** – spojení nově vytvořeného PDF s dalšími dokumenty pomocí metody `Document`’s `AppendDocument`.
+*Alt text:* **create pdf from html workflow diagram**
 
-Všechna tato témata navazují na základní koncepty, které jsme pokryli v tomto **html to pdf tutorial**.
+## Závěr
 
----
+Právě jsme prošli kompletním, připraveným příkladem, jak **create PDF from HTML** pomocí Aspose.HTML v C#. Klíčové kroky – načtení dokumentu, konfigurace `PDFSaveOptions`, povolení antialiasingu a finální uložení – vám poskytují spolehlivý **convert html to pdf** pipeline, která vždy dodá **high quality pdf conversion**.
 
-![Vytvoření PDF z HTML příklad](/images/create-pdf-from-html.png "Snímek obrazovky ukazující PDF vygenerované z HTML souboru – create pdf from html")
+### Co dál?
 
-*Text obrázku:* **create pdf from html** – ukázkový výstup převodu
+- **Dávkový převod:** Procházejte složku s HTML soubory a generujte PDF najednou.
+- **Dynamický obsah:** Vložte data do HTML šablony pomocí Razor nebo Scriban před převodem.
+- **Pokročilé stylování:** Použijte CSS media queries (`@media print`) k úpravě vzhledu PDF.
+- **Další formáty:** Aspose.HTML může také exportovat do PNG, JPEG nebo dokonce EPUB – skvělé pro publikování v různých formátech.
 
-### Závěr
+Nebojte se experimentovat s nastavením renderování; malá úprava může mít velký vizuální dopad. Pokud narazíte na problémy, zanechte komentář níže nebo si prostudujte dokumentaci Aspose.HTML pro podrobnější informace.
 
-Prošli jsme, jak **vytvořit PDF z HTML** pomocí C#, vysvětlili *proč* za každým řádkem a poskytli vám připravený ukázkový kód. Ať už budujete reportingový engine, generátor faktur nebo jednoduché tlačítko „Uložit jako PDF“ ve webové aplikaci, tento vzor vás rychle dovede k cíli.
-
-Vyzkoušejte to, upravte `PdfSaveOptions` podle svých potřeb a neváhejte experimentovat s dalšími funkcemi, jako jsou vodoznaky nebo šifrování. Šťastné programování a ať se vaše PDF vždy vykreslí přesně tak, jak jste si představovali!
-
-## Co byste se měli naučit dál?
-
-Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, které vám pomohou zvládnout další funkce API a prozkoumat alternativní přístupy k implementaci ve vašich projektech.
-
-- [Vytvoření PDF z HTML – C# Průvodce krok za krokem](/html/english/net/html-extensions-and-conversions/create-pdf-from-html-c-step-by-step-guide/)
-- [Převod HTML na PDF v .NET s Aspose.HTML](/html/english/net/html-extensions-and-conversions/convert-html-to-pdf/)
-- [Vytvoření HTML dokumentu se stylovaným textem a export do PDF – Kompletní průvodce](/html/english/net/html-extensions-and-conversions/create-html-document-with-styled-text-and-export-to-pdf-full/)
+Šťastné kódování a užívejte si ty ostré PDF!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

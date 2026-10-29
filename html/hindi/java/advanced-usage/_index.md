@@ -112,6 +112,8 @@ A: `HtmlLoadOptions` को `PageSetup` मार्जिन के साथ �
 A: नहीं। एक ही Aspose.HTML for Java लाइसेंस सभी आउटपुट फ़ॉर्मैट्स को कवर करता है, जिसमें PDF और XPS शामिल हैं।
 
 ## Aspose.HTML Java ट्यूटोरियल्स का उन्नत उपयोग
+
+
 ### [Aspose.HTML के साथ HTML पेज मार्जिन को अनुकूलित करें](./css-extensions-adding-title-page-number/)
 HTML दस्तावेज़ों में पेज मार्जिन, पेज नंबर और शीर्षक को Aspose.HTML for Java का उपयोग करके कैसे अनुकूलित करें, जानें।  
 ### [Aspose.HTML for Java के साथ DOM म्यूटेशन ऑब्ज़र्वर](./dom-mutation-observer-observing-node-additions/)
@@ -127,13 +129,123 @@ Aspose.HTML for Java का उपयोग करके PDF पेज आका
 ### [Aspose.HTML for Java के साथ XPS पेज आकार समायोजित करें](./adjust-xps-page-size/)
 Aspose.HTML for Java का उपयोग करके XPS पेज आकार को कैसे समायोजित करें, जानें। अपने XPS दस्तावेज़ों के आउटपुट आयाम को आसानी से नियंत्रित करें।  
 ### [Java में JavaScript चलाना – पूर्ण गाइड](./how-to-run-javascript-in-java-complete-guide/)
-Java एप्लिकेशन में JavaScript को एम्बेड और निष्पादित करने के चरण‑दर‑चरण निर्देश।  
+### [Java में डिवाइस पिक्सेल रेशियो सेट करें – मोबाइल सैंडबॉक्स ट्यूटोरियल](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
+Java में मोबाइल सैंडबॉक्स का उपयोग करके डिवाइस पिक्सेल रेशियो को कैसे सेट करें, सीखें।  
+### [Aspose HTML में JavaScript सक्षम करना – HTML लोड करें और टेक्स्ट प्राप्त करें](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+Aspose.HTML में JavaScript सक्रिय करके HTML लोड करें और टेक्स्ट निकालें, इस चरण‑दर‑चरण गाइड में देखें।
+### [Java में स्क्रिप्ट चलाना कैसे – JavaScript निष्पादित करने और डेटा निकालने की पूर्ण गाइड](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
+Java एप्लिकेशन में JavaScript चलाने, स्क्रिप्ट निष्पादन और डेटा निष्कर्षण के चरण‑दर‑चरण निर्देश।
+### [Aspose का उपयोग करके EPUB को DOCX में बदलना – चरण‑दर‑चरण गाइड](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
+Aspose लाइब्रेरी से EPUB फ़ाइल को DOCX में परिवर्तित करने के सभी चरणों को सीखें।
+### [CompletableFuture का उपयोग करके JavaScript को असिंक्रोनस रूप से चलाना कैसे करें](./how-to-run-javascript-asynchronously-using-completablefuture/)
+Java में CompletableFuture के साथ JavaScript को असिंक्रोनस रूप से निष्पादित करने के चरण‑दर‑चरण निर्देश।  
+### [HTML को लोड करना, डिवाइस DPI सेट करना और बैकग्राउंड रंग पढ़ना कैसे करें](./how-to-load-html-set-device-dpi-read-background-color/)
+Aspose.HTML for Java का उपयोग करके HTML लोड करें, डिवाइस DPI सेट करें और बैकग्राउंड रंग पढ़ें।
+### [JavaScript को सैंडबॉक्स कैसे करें – Aspose.HTML पूर्ण गाइड](./how-to-sandbox-javascript-complete-aspose-html-guide/)
+Aspose.HTML में JavaScript को सुरक्षित रूप से चलाने के लिए सैंडबॉक्स सेटअप और उपयोग के चरण‑दर‑चरण निर्देश।  
+
+### [Java में JavaScript को सक्षम करने का तरीका – पूर्ण Aspose.HTML गाइड](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
+Java एप्लिकेशन में JavaScript को एम्बेड और चलाने के चरण‑दर‑चरण निर्देश, Aspose.HTML के साथ पूर्ण गाइड।
+### [JavaScript से Java को कॉल करें – असिंक्रोनस फ़ेच और JS इंजन निष्पादन की पूर्ण गाइड](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
+JavaScript से Java मेथड कॉल करना, असिंक्रोनस फ़ेच उपयोग करना और JS इंजन में निष्पादन के चरण‑दर‑चरण निर्देश।  
+### [Java में Aspose HTML का उपयोग कैसे करें – पूर्ण XPath फ़िल्टरिंग गाइड](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
+Java में Aspose HTML का उपयोग करके पूर्ण XPath फ़िल्टरिंग कैसे लागू करें, इस गाइड में सीखें।  
+### [जावास्क्रिप्ट से जावा को कॉल करें – होस्ट ऑब्जेक्ट जोड़ें और जावा में जावास्क्रिप्ट चलाएँ](./call-java-from-javascript-add-host-object-and-run-javascript/)
+जावा एप्लिकेशन में जावास्क्रिप्ट चलाने और होस्ट ऑब्जेक्ट के माध्यम से जावा मेथड्स को एक्सेस करने की प्रक्रिया सीखें।  
+### [HTML शीर्षक प्राप्त करें Java – स्क्रीन चौड़ाई के साथ सैंडबॉक्स में पेज रेंडर करें](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
+Java में Aspose.HTML का उपयोग करके HTML पेज का शीर्षक प्राप्त करें और स्क्रीन चौड़ाई सेट करके सैंडबॉक्स में पेज रेंडर करें।  
+### [टॉप‑लेवल await उदाहरण – JavaScript में await delay का उपयोग](./top-level-await-example-using-await-delay-in-javascript/)
+JavaScript में टॉप‑लेवल await का उपयोग करके await delay को कैसे लागू करें, इस ट्यूटोरियल में सीखें।  
+### [Java में JavaScript निष्पादित करें – HTML से JS चलाएँ](./execute-javascript-in-java-run-js-from-html/)
+Java एप्लिकेशन में HTML से JavaScript को चलाने के चरण‑दर‑चरण निर्देश।  
+### [Java में HTML लोड करना – Aspose.HTML असिंक्रोनस उदाहरण (पूर्ण गाइड)](./how-to-load-html-in-java-complete-aspose-html-async-example/)
+Java में Aspose.HTML का उपयोग करके असिंक्रोनस रूप से HTML लोड करने और प्रोसेस करने का पूरा उदाहरण देखें।  
+### [Java में JavaScript का मूल्यांकन – Aspose.HTML के साथ पूर्ण गाइड](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
+Aspose.HTML के साथ Java में JavaScript को मूल्यांकन करने के विस्तृत चरण‑दर‑चरण निर्देश।
+### [Java में डिवाइस पिक्सेल अनुपात सेट करें – मोबाइल सिमुलेशन गाइड](./set-device-pixel-ratio-in-java-mobile-simulation-guide/)
+Java में डिवाइस पिक्सेल अनुपात को सेट करके मोबाइल डिवाइस की स्क्रीन रेज़ोल्यूशन का सिमुलेशन कैसे करें, सीखें।  
+### [Java HTMLDocument में JavaScript को सक्षम करने का तरीका – चरण‑दर‑चरण गाइड](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
+Aspose.HTML for Java का उपयोग करके Java HTMLDocument में JavaScript निष्पादन को कैसे सक्षम करें, चरण‑दर‑चरण सीखें।  
+### [जावा मल्टीथ्रेडिंग ट्यूटोरियल: फिक्स्ड थ्रेड पूल के साथ टास्क समानांतर चलाएँ](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
+फिक्स्ड थ्रेड पूल का उपयोग करके जावा में टास्क को समानांतर रूप से चलाने की प्रक्रिया सीखें।
+### [Java में JavaScript चलाना – बॉडी में तत्व जोड़ने का पूर्ण गाइड](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
+Java एप्लिकेशन में JavaScript का उपयोग करके बॉडी में तत्व कैसे जोड़ें, इस पूर्ण गाइड में सीखें।  
+### [Aspose के साथ SVG को PNG में बदलते समय DPI सेट करना – Java गाइड](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
+Aspose का उपयोग करके SVG को PNG में बदलते समय DPI कैसे सेट करें, इस Java गाइड में सीखें।  
+### [Java से JavaScript चलाएँ – Aspose.HTML के साथ कस्टम User-Agent सेट करें](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
+Aspose.HTML for Java का उपयोग करके Java से JavaScript चलाते समय कस्टम User-Agent कैसे सेट करें, सीखें।  
+### [Java में Executor का उपयोग कैसे करें – फिक्स्ड थ्रेड पूल गाइड](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
+Java में ExecutorService के साथ फिक्स्ड थ्रेड पूल सेटअप, टास्क सबमिट करना और प्रबंधन करना सीखें।  
+### [Java में EPUB को DOCX में बदलें – पूर्ण चरण‑दर‑चरण गाइड](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
+Java में Aspose.HTML का उपयोग करके EPUB फ़ाइल को DOCX में परिवर्तित करने की पूरी प्रक्रिया सीखें।  
+### [Java के साथ SVG को AVIF में बदलें – पूर्ण चरण‑दर‑चरण गाइड](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
+Java और Aspose.HTML का उपयोग करके SVG फ़ाइलों को उच्च‑गुणवत्ता वाले AVIF इमेज में परिवर्तित करने की पूरी प्रक्रिया सीखें।  
+### [Aspose में Java के साथ डिवाइस DPI सेट करें – पूर्ण सैंडबॉक्स गाइड](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
+Aspose.HTML for Java में डिवाइस DPI सेट करने और सैंडबॉक्स वातावरण में पूर्ण गाइड के साथ रेंडरिंग गुणवत्ता नियंत्रित करें।
+### [Java में नेमस्पेस के साथ XPath – SVG तत्वों का चयन करने का पूर्ण गाइड](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
+Java में नेमस्पेस वाले XML में SVG तत्वों को XPath से चुनने की पूरी प्रक्रिया सीखें।  
+### [Java में JavaScript चलाना – पूर्ण Aspose.HTML गाइड](./execute-javascript-in-java-complete-aspose-html-guide/)
+Aspose.HTML for Java का उपयोग करके Java एप्लिकेशन में JavaScript को एम्बेड और निष्पादित करने का पूर्ण गाइड।  
+### [Aspose के साथ JavaScript निष्पादन सक्षम करें – पूर्ण Java गाइड](./enable-javascript-execution-aspose-complete-java-guide/)
+Java एप्लिकेशन में Aspose का उपयोग करके JavaScript को एम्बेड और चलाने के विस्तृत चरण‑दर‑चरण निर्देश।  
+### [Java में HTML के लिए सैंडबॉक्स बनाएं – पूर्ण चरण‑दर‑चरण गाइड](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
+Java में Aspose.HTML का उपयोग करके सुरक्षित सैंडबॉक्स सेटअप और HTML को प्रोसेस करने की पूरी प्रक्रिया सीखें।  
 
 ---
 
 **Last Updated:** 2025-11-29  
 **Tested With:** Aspose.HTML for Java 24.11  
 **Author:** Aspose  
+
+
+
+
+
+
+
+### [MHTML से HTML निकालें – पूर्ण Java गाइड](./extract-html-from-mhtml-complete-java-guide/)
+MHTML फ़ाइल से HTML सामग्री निकालने और प्रोसेस करने के लिए Aspose.HTML for Java का उपयोग कैसे करें, सीखें।  
+
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.HTML for Java 24.11  
+**Author:** Aspose  
+
+
+
+
+
+
+
+### [Java में JavaScript निष्पादित करें – Java से JS चलाने की पूर्ण गाइड](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+Java से JavaScript को कैसे चलाएँ, Aspose.HTML for Java का उपयोग करके पूर्ण मार्गदर्शिका।  
+
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.HTML for Java 24.11  
+**Author:** Aspose  
+
+
+
+
+
+
+
+### [HTML से PDF Java के लिए सैंडबॉक्स का उपयोग कैसे करें – चरण‑दर‑चरण गाइड](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+HTML को PDF में बदलने के लिए सैंडबॉक्स सेटअप, कॉन्फ़िगरेशन और उपयोग के चरणों को सीखें।  
+### [Java में स्क्रिप्ट निष्पादन सक्षम करें – पूर्ण Aspose.HTML गाइड](./enable-script-execution-in-java-complete-aspose-html-guide/)
+Java एप्लिकेशन में Aspose.HTML का उपयोग करके JavaScript चलाने की पूरी प्रक्रिया सीखें।  
+
+### [Java में Aspose.HTML का उपयोग करके JavaScript चलाएँ](./execute-javascript-in-java-using-aspose-html/)
+Aspose.HTML for Java का उपयोग करके Java एप्लिकेशन में JavaScript को एम्बेड और निष्पादित करने के चरण‑दर‑चरण गाइड।
+
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.HTML for Java 24.11  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

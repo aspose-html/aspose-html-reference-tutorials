@@ -9,13 +9,10 @@ url: /sv/java/converting-epub-to-pdf/convert-epub-to-bmp/
 weight: 10
 ---
 
-Conclusion" -> "Slutsats". Good.
 
-"Frequently Asked Questions" -> "Vanliga frågor". Good.
 
-Make sure to keep bold formatting.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

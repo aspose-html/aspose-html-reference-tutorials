@@ -58,8 +58,28 @@ url: /zh-hant/java/editing-html-documents/
 透過此逐步指南，了解如何在 Aspose.HTML for Java 中管理內部和外部 HTML 屬性，非常適合 Web 開發人員和內容創作者。
 ### [使用 Aspose.HTML for Java 在 HTML 文件中實作內部 CSS](./implement-internal-css-html-documents/)
 透過我們簡單的逐步教程，學習使用 Aspose.HTML for Java 在 HTML 文件中實現內部 CSS。
+### [使用 Java 在 MHTML 中更改 h1 文本 – 完整步驟指南](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
+本指南逐步說明如何使用 Aspose.HTML for Java 在 MHTML 文件中修改 h1 標題文字。
+### [使用 Java 建立新 HTML 元素 – 完整 Aspose.HTML 指南](./create-new-html-element-with-java-full-aspose-html-guide/)
+了解如何使用 Aspose.HTML for Java 在 HTML 文件中建立新元素，並將其轉換為 PDF 的完整步驟指南。
+### [如何在 Java DOM 中追加子節點 – 完整 Aspose.HTML 指南](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
+了解如何使用 Aspose.HTML for Java 在 DOM 中追加子節點，完整步驟指南助您輕鬆操作 HTML 結構。
+### [使用 Aspose.HTML for Java 在 HTML 中執行 JavaScript – 完整指南](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
+了解如何使用 Aspose.HTML for Java 在 HTML 文件中執行 JavaScript，從設定到執行的完整步驟指南。
 ### [固定執行緒池 Java – 使用 ExecutorService 進行平行 HTML 清理](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
+### [在 Java 中向 body 附加子節點 – 完整 Aspose.HTML 教程](./append-child-to-body-in-java-full-aspose-html-tutorial/)
+了解如何在 Java 中使用 Aspose.HTML 向 HTML 文檔的 body 添加子元素的完整步驟。
+### [如何在 Java 中從 HTML 移除腳本 – 完整指南](./how-to-remove-scripts-from-html-in-java-complete-guide/)
+本完整指南教您使用 Aspose.HTML for Java 移除 HTML 中的腳本標籤，提升安全性與效能。
+### [如何在 HTML 中加亮 – 搜尋文字並以 <mark> 標籤取代](./how-to-highlight-html-search-text-replace-with-mark/)
+本教學說明如何在 HTML 中搜尋特定文字，並使用 <mark> 標籤將其高亮顯示，提升可讀性。
+### [Java 中的自動鎖釋放 – 執行緒安全 HTML 編輯教學](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
+了解如何在 Java 中自動釋放鎖，以確保 HTML 編輯過程的執行緒安全，提升效能與穩定性。
+### [如何在 Java 中提取 HTML – 提取文字並突出顯示關鍵詞](./how-to-extract-html-in-java-extract-text-highlight-words/)
+了解如何在 Java 中使用 Aspose.HTML 提取 HTML 文字並高亮顯示指定詞彙的逐步指南。
 
+### [取得元素屬性 Java – 完整的 SVG 選取與 XPath 指南](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
+了解如何使用 Aspose.HTML for Java 取得 SVG 元素屬性，並透過 XPath 進行精確選取的完整步驟指南。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

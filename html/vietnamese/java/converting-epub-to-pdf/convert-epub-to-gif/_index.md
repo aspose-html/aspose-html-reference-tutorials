@@ -9,9 +9,8 @@ url: /vi/java/converting-epub-to-pdf/convert-epub-to-gif/
 weight: 11
 ---
 
- inside code fences. In original they are just placeholders. Keep same.
 
-Let's produce final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
