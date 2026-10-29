@@ -1,55 +1,23 @@
 ---
 category: general
-date: 2026-06-29
-description: HTML szöveg kinyerése Java-ban egy egyszerű kódlépésről‑lépésre útmutatóval.
-  Tanulja meg, hogyan olvasson be HTML‑fájlt Java‑ban, kezelje a Java HTML‑renderelést,
-  és hatékonyan nyomtassa ki a HTML‑oldal számát.
+date: 2026-02-19
+description: Szöveg kinyerése HTML-ből Java és Aspose.HTML használatával. Tanulja
+  meg, hogyan töltsön be HTML-dokumentumot Java-ban, és hogyan kérdezzen le XPath-szel
+  a gyors eredményekért.
 draft: false
 keywords:
 - extract text from html
-- read html file java
-- java html rendering
-- print html page number
-- read html pages
+- load html document java
 language: hu
-og_description: Gyorsan szöveget nyerjen ki HTML-ből Java-ban. Ez az útmutató bemutatja,
-  hogyan olvassunk HTML-fájlt Java-ban, kezeljük a Java HTML renderelést, és nyomtassuk
-  ki az egyes oldalak HTML oldal számát.
+og_description: Szöveg kinyerése HTML-ből Java-val. Ez az útmutató bemutatja, hogyan
+  töltsünk be HTML-dokumentumot Java-ban, futtassunk XPath-et, és kapjunk tiszta eredményeket.
 og_title: HTML-ből szöveg kinyerése Java-ban – Lépésről lépésre útmutató
-schemas:
-- author: Aspose
-  dateModified: '2026-06-29'
-  description: Extract text from HTML in Java with a simple code walkthrough. Learn
-    to read HTML file Java, handle java html rendering, and print html page number
-    efficiently.
-  headline: Extract Text from HTML in Java – Complete Programming Guide
-  type: TechArticle
-- description: Extract text from HTML in Java with a simple code walkthrough. Learn
-    to read HTML file Java, handle java html rendering, and print html page number
-    efficiently.
-  name: Extract Text from HTML in Java – Complete Programming Guide
-  steps:
-  - name: Load the HTML Document
-    text: First, we need to read the raw HTML file into memory. Using **jsoup** gives
-      us a tidy DOM without launching a full browser.
-  - name: Simulate Java HTML Rendering & Determine Page Count
-    text: Real browsers paginate content based on viewport height. For a pure‑Java
-      solution we can approximate pagination using **openhtmltopdf**’s layout engine,
-      which tells us how many “pages” the document would occupy at a given height
-      (e.g., 800 px).
-  - name: Iterate Over Pages and Extract Their Text
-    text: Now that we have a page count, we loop from `1` to `totalPages`. For each
-      iteration we extract the text that belongs to that slice.
-  - name: Print the Page Number and Its Text
-    text: Finally, we output each page’s number and its extracted text to the console.
-      This satisfies the **print html page number** requirement.
-  type: HowTo
 tags:
 - Java
-- HTML
-- File I/O
-- Text Extraction
-title: Szöveg kinyerése HTML-ből Java-ban – Teljes programozási útmutató
+- Aspose.HTML
+- XPath
+- HTML parsing
+title: HTML-ből szöveg kinyerése Java-ban – Teljes programozási útmutató
 url: /hu/java/creating-managing-html-documents/extract-text-from-html-in-java-complete-programming-guide/
 ---
 
@@ -57,196 +25,200 @@ url: /hu/java/creating-managing-html-documents/extract-text-from-html-in-java-co
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# HTML szöveg kinyerése Java‑ban – Teljes programozási útmutató
+# HTML‑ből szöveg kinyerése Java‑ban – Teljes programozási útmutató
 
-Valaha is elgondolkodtál, hogyan **kivonhatod a szöveget a HTML‑ből** egyszerű Java‑val? Lehet, hogy egy hatalmas jelentésed van, amely egy hosszú HTML‑fájlban van elmentve, és a nyers szöveget indexeléshez, elemzéshez vagy csak egy gyors előnézethez szeretnéd. Ebben az útmutatóban egy gyakorlati módszert mutatunk be, hogyan olvassunk be egy HTML‑fájlt Java‑ban, hagyjuk, hogy a renderelő motor lapozzon, majd **print html page number** együtt a szövegtartalommal.  
+Valaha is szükséged volt **HTML‑ből szöveg kinyerésére**, de nem tudtad, melyik könyvtár ad tiszta, megbízható eredményt? Nem vagy egyedül – a legtöbb Java fejlesztő a „extract text from html” kifejezést googlizva végül törékeny reguláris kifejezésekkel vagy nehézkes böngészőkkel veszi fel a harcot.  
 
-Ha emellett **read html file java** keresel anélkül, hogy nehéz böngészőket vonnál be, jó helyen vagy. A végére egy önálló programod lesz, amelyet bármely projektbe beilleszthetsz és azonnal futtathatsz.
+A jó hír? Az Aspose.HTML‑el **load HTML document Java** egyetlen sorban megteheted, majd egy erőteljes XPath lekérdezéssel pontosan azt a szöveget nyerheted ki, amire szükséged van. Ebben az útmutatóban végigvezetünk a teljes folyamaton, a könyvtár beállításától a végső terméknevek kiírásáig, hogy már ma be tudj másolni egy kész, futtatható példát a projektedbe.
 
----
+## Amit megtanulsz
 
-![Extract text from HTML example](extract-text-from-html.png "extract text from html example")
+- Hogyan adhatod hozzá az Aspose.HTML‑t egy Maven/Gradle projekthez.
+- A pontos kód, amellyel **load an HTML document** Java‑ban.
+- Egy XPath kifejezés, amely kinyeri a „Pro” szót tartalmazó (kis‑nagybetű érzéketlen) termékneveket.
+- Hogyan iterálhatsz az eredményeken és adhatod ki a tiszta szöveget.
+- Tippek a szélhelyzetek kezelésére, például hiányzó csomópontok vagy nagy fájlok esetén.
 
-## Mit fed le ez az útmutató
-
-- HTML dokumentum betöltése lemezről egy könnyű súlyú parserrel.
-- Megérteni, hogyan tud **java html rendering** egy hosszú dokumentumot virtuális oldalakra bontani.
-- Az egyes renderelt oldalak bejárása, a tiszta szöveg kinyerése, és az oldal számának kiírása.
-- Szélsőséges esetek kezelése, mint például hiányzó oldalak vagy szokatlanul nagy fájlok.
-- Egy teljes, futtatható kódminta, amelyet másolhatsz‑beilleszthetsz.
-
-Nincs külső szolgáltatás, nincs rejtett varázslat — csak tiszta Java és néhány jól megválasztott könyvtár.
-
-## Előkövetelmények
-
-Mielőtt belevágnánk, győződj meg róla, hogy a következők rendelkezésedre állnak:
-
-1. **JDK 17** vagy újabb telepítve (a kód a `var` kulcsszót használja a tömörség kedvéért, de le lehet cserélni JDK 11‑re, ha úgy kényelmes).
-2. Egy Maven vagy Gradle projekt, ahol egyetlen függőséget adhatunk hozzá: **jsoup** (HTML elemzéshez) és **openhtmltopdf** (opcionális, valódi lapozáshoz).  
-   ```xml
-   <!-- Maven snippet -->
-   <dependency>
-       <groupId>org.jsoup</groupId>
-       <artifactId>jsoup</artifactId>
-       <version>1.17.2</version>
-   </dependency>
-   <dependency>
-       <groupId>com.openhtmltopdf</groupId>
-       <artifactId>openhtmltopdf-pdfbox</artifactId>
-       <version>1.0.10</version>
-   </dependency>
-   ```
-3. `long.html` nevű minta HTML‑fájl, amelyet valahol a lemezen helyezel el (az útvonal a kódban lesz használva).
-
-Ha újonc vagy a Maven‑ben, egyszerűen hozz létre egy `pom.xml`‑t a fenti két függőséggel, és futtasd a `mvn compile` parancsot. Ez az egész beállítás, amire szükséged van.
+Az Aspose.HTML előzetes ismerete nem szükséges; egy alap Java és XPath tudás elegendő.
 
 ---
 
-## HTML‑szöveg kinyerése – Lépésről‑lépésre megvalósítás
+![Diagram showing the flow of loading an HTML file and extracting text](extract-text-from-html.png){alt="HTML szöveg kinyerése"}
 
-Alább a megoldást öt logikai lépésre bontjuk. Minden lépés rövid magyarázatot, a pontos Java‑kódot és egy megjegyzést tartalmaz, hogy miért fontos a lépés.
+## Előfeltételek
 
-### 1. lépés: HTML dokumentum betöltése
+Mielőtt belevágnánk, győződj meg róla, hogy rendelkezel a következőkkel:
 
-Először be kell olvasnunk a nyers HTML‑fájlt a memóriába. A **jsoup** használatával rendezett DOM‑ot kapunk anélkül, hogy teljes böngészőt indítanánk.
+1. **JDK 8 vagy újabb** – az Aspose.HTML támogatja a Java 8+ verziókat.
+2. **Maven vagy Gradle** – a Maven függőséget mutatjuk be; a Gradle felhasználók könnyen átültethetik.
+3. Egy kis HTML fájl (`catalog.html`), amely `<product>` elemeket tartalmaz.  
+   (Ha nincs, a tutorial a végén egy gyors példát biztosít.)
 
-```java
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import java.io.File;
-import java.io.IOException;
+Megvan minden? Remek – kezdjünk is.
 
-// Step 1: Load the HTML file from disk
-public static Document loadHtml(String filePath) throws IOException {
-    File input = new File(filePath);
-    // Jsoup parses the file using UTF‑8 by default; you can specify another charset if needed.
-    return Jsoup.parse(input, "UTF-8");
-}
+## 1. lépés: Az Aspose.HTML hozzáadása a projekthez (Load HTML Document Java)
+
+Az első dolog, amire szükséged van, az az Aspose.HTML könyvtár. Ha Maven‑t használsz, illeszd be ezt a kódrészletet a `pom.xml`‑be:
+
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-html</artifactId>
+    <version>23.12</version> <!-- Use the latest version available -->
+</dependency>
 ```
 
-*Miért fontos*: A fájl közvetlen stringként való olvasása csak a címkéket és entitásokat hagyná meg. A Jsoup eltávolítja a kommenteket, normalizálja a szóközöket, és egy fát épít, amelyet később lekérdezhetsz.
+Gradle esetén így néz ki:
 
-### 2. lépés: Java HTML renderelés szimulálása és az oldalszám meghatározása
-
-A valódi böngészők a viewport magassága alapján lapozzák a tartalmat. Egy tisztán Java megoldáshoz közelíthetjük a lapozást a **openhtmltopdf** layout motorjával, amely megmondja, hány “oldal” foglalna el a dokumentum egy adott magasságon (pl. 800 px).
-
-```java
-import com.openhtmltopdf.pdfboxout.PdfRendererBuilder;
-import com.openhtmltopdf.render.Box;
-import com.openhtmltopdf.render.PageBox;
-
-// Step 2: Compute how many virtual pages the document would occupy
-public static int getPageCount(Document doc, int pageHeightPx) {
-    // Render the document to a hidden PDF; the renderer also builds page boxes.
-    PdfRendererBuilder builder = new PdfRendererBuilder();
-    builder.withHtmlContent(doc.html(), null);
-    // The builder needs a target, but we can direct output to a ByteArrayOutputStream we discard.
-    try (var out = new java.io.ByteArrayOutputStream()) {
-        builder.toStream(out);
-        builder.run();
-        // After rendering, the layout tree is accessible via the builder's internal state.
-        // For brevity, we’ll use a simplified approach: assume each 800 px slice = 1 page.
-        // In a real app you could inspect PageBox objects for exact counts.
-        int totalHeight = doc.body().outerHtml().length(); // rough proxy for height
-        return Math.max(1, (int) Math.ceil((double) totalHeight / pageHeightPx));
-    } catch (Exception e) {
-        throw new RuntimeException("Failed to render HTML for pagination", e);
-    }
-}
+```gradle
+implementation 'com.aspose:aspose-html:23.12'
 ```
 
-*Miért fontos*: A **print html page number** ismerete minden darabhoz segít a kimenet rendezésében, az oldalak külön tárolásában vagy downstream szolgáltatásokba való betáplálásában, amelyek lapozott bemenetet várnak.
+> **Pro tipp:** Tartsd naprakészen a függőségeket; az újabb kiadások gyakran tartalmaznak teljesítményjavításokat nagy HTML fájlokhoz.
 
-> **Pro tipp:** Ha nincs szükséged pontos lapozásra, egyszerűen oszd fel a dokumentumot egy fix karakter szám alapján (pl. 5 000). Az alábbi kód a pontosabb renderelés‑alapú módszert mutatja, de az egyszerűbb felosztás a legtöbb log‑fájl‑stílusú HTML‑hez elegendő.
+Miután a függőség feloldódott, készen állsz a **load the HTML document in Java** lépésre.
 
-### 3. lépés: Oldalak bejárása és a szövegük kinyerése
+## 2. lépés: Java kód megírása a HTML fájl betöltéséhez
 
-Miután megvan az oldalszám, egy `1`‑től `totalPages`‑ig terjedő ciklust futtatunk. Minden iterációban kinyerjük a szöveget, amely az adott szelethez tartozik.
-
-```java
-import org.jsoup.select.Elements;
-
-// Step 3: Extract plain text for a given page number
-public static String getPageText(Document doc, int pageNumber, int pageHeightPx) {
-    // In a real rendering scenario you would ask the layout engine for the box range.
-    // Here we simulate by taking a substring of the body’s text.
-    String fullText = doc.body().text(); // all visible text, no tags
-    int charsPerPage = pageHeightPx * 10; // arbitrary factor to mimic density
-    int start = (pageNumber - 1) * charsPerPage;
-    int end = Math.min(start + charsPerPage, fullText.length());
-    if (start >= fullText.length()) {
-        return "";
-    }
-    return fullText.substring(start, end).trim();
-}
-```
-
-*Miért fontos*: A módszer csak azokat a karaktereket izolálja, amelyek a vizuális oldalon megjelennek, utánozva, amit a felhasználó lát **java html rendering** után.
-
-### 4. lépés: Az oldal számának és szövegének kiírása
-
-Végül minden oldal számát és a kinyert szöveget a konzolra írjuk. Ez teljesíti a **print html page number** követelményt.
+Hozz létre egy új Java osztályt `ExampleXPath30` néven. Az alábbi kód egy komplett, önálló program, amely mindent elvégez a fájl betöltésétől az eredmények kiírásáig.
 
 ```java
-public static void main(String[] args) {
-    String path = "YOUR_DIRECTORY/long.html"; // adjust to your environment
-    try {
-        Document doc = loadHtml(path);
-        int pageHeightPx = 800;                     // height we consider per page
-        int totalPages = getPageCount(doc, pageHeightPx);
-        System.out.println("Total pages (estimated): " + totalPages);
-        for (int page = 1; page <= totalPages; page++) {
-            String pageText = getPageText(doc, page, pageHeightPx);
-            System.out.println("\n--- Page " + page + " ---");
-            System.out.println(pageText);
+import com.aspose.html.HTMLDocument;
+import com.aspose.html.dom.NodeList;
+
+public class ExampleXPath30 {
+    public static void main(String[] args) throws Exception {
+
+        // --------------------------------------------------------------
+        // Step 2.1: Load the HTML document.
+        // --------------------------------------------------------------
+        // Replace "YOUR_DIRECTORY/catalog.html" with the actual path to your file.
+        HTMLDocument document = new HTMLDocument("YOUR_DIRECTORY/catalog.html");
+
+        // --------------------------------------------------------------
+        // Step 2.2: Define an XPath that selects product names containing "Pro"
+        //            (case‑insensitive). The matches() function is XPath 3.0.
+        // --------------------------------------------------------------
+        String xpathExpression = "//product/name[matches(., '(?i)Pro')]";
+
+        // --------------------------------------------------------------
+        // Step 2.3: Execute the XPath query and collect matching nodes.
+        // --------------------------------------------------------------
+        NodeList matchingNames = document.selectNodes(xpathExpression);
+
+        // --------------------------------------------------------------
+        // Step 2.4: Print the found product names.
+        // --------------------------------------------------------------
+        System.out.println("Products containing \"Pro\":");
+        for (int i = 0; i < matchingNames.getLength(); i++) {
+            System.out.println(" - " + matchingNames.item(i).getTextContent());
         }
-    } catch (IOException e) {
-        System.err.println("Failed to read HTML file: " + e.getMessage());
     }
 }
 ```
 
-**Várható konzolkimenet (rövidítve):**
+### Miért működik ez
+
+- **`HTMLDocument`** beolvassa a teljes HTML fájlt egy DOM fára, amely megbízható, szabványos ábrázolást biztosít.
+- **XPath 3.0** (`matches`) lehetővé teszi a kis‑nagybetű érzéketlen keresést extra Java kód nélkül.
+- **`selectNodes`** egy `NodeList`‑et ad vissza, amelyet ugyanúgy iterálhatsz, mint egy szokásos `ArrayList`‑et.
+
+Ha a programot egy megfelelően felépített `catalog.html`‑lel futtatod, a kimenet valahogy így néz ki:
 
 ```
-Total pages (estimated): 4
-
---- Page 1 ---
-Welcome to our annual report... (first 800 px worth of text)
-
---- Page 2 ---
-Section 2: Market Overview... (next slice)
-
---- Page 3 ---
-Financial Highlights... (and so on)
-
---- Page 4 ---
-Appendix and References... (final chunk)
+Products containing "Pro":
+ - SuperPro Camera
+ - ProMax Laptop
+ - UltraPro Headphones
 ```
 
-Ha a fájl rövidebb, mint egy oldal, a ciklus még mindig egyszer lefut, és kiírja a teljes szöveget – nincs szükség külön esetkezelésre.
+## 3. lépés: Az XPath kifejezés megértése
 
-## Szélsőséges esetek kezelése és gyakori buktatók
+A megoldás szíve az XPath karakterlánc:
 
-| Helyzet | Mire figyelj | Javasolt javítás |
-|-----------|-------------------|---------------|
-| **Üres vagy hiányzó fájl** | `FileNotFoundException` dobja a Jsoup | Ellenőrizd az útvonalat a `loadHtml` hívása előtt, és adj barátságos hibajelzést. |
-| **Nagyon nagy HTML (≥ 100 MB)** | Memóriahiány a teljes dokumentum betöltésekor | Használd a **jsoup streaming parser**‑t (`Jsoup.parse(InputStream, ...)`) és lapozz menet közben. |
-| **Nem‑ASCII karakterek** | Torzuló kimenet, ha rossz karakterkészletet használsz | Explicit módon add meg a helyes karakterkészletet (`UTF‑8` a legbiztonságosabb). |
-| **Dinamikus tartalom (JavaScript‑generált)** | A Jsoup nem hajtja végre a szkripteket, így a renderelt szöveg hiányozhat | Válts fej nélküli böngészőre, mint a **Playwright** vagy **Selenium**, ha valóban szkriptvégrehajtásra van szükség. |
-| **Precíz lapozás szükséges** | Az egyszerű karakter‑alapú felosztás eltérhet a vizuális oldalaktól | Mélyedj el a **openhtmltopdf** által biztosított `PageBox` objektumokban; ezek pontos határolókat adnak. |
+```xpath
+//product/name[matches(., '(?i)Pro')]
+```
 
-## Teljes működő példa (minden rész együtt)
+- `//product/name` minden `<name>` elemet kiválaszt, amely `<product>` gyermek.
+- `[matches(., '(?i)Pro')]` szűri ezeket a csomópontokat, csak azokat tartva meg, amelyek szövege a „Pro” szót tartalmazza, függetlenül a betűmérettől (`(?i)` a kis‑nagybetű érzéketlen flag).
 
+**Alternatív megközelítések**  
+Ha egy régebbi Aspose.HTML verziót használsz, amely csak XPath 1.0‑t támogat, cseréld le a kifejezést erre:
 
+```xpath
+//product/name[contains(translate(., 'PRO', 'pro'), 'pro')]
+```
 
-## Mit érdemes még megtanulni?
+Ez a `translate`‑t használja a kis‑nagybetű összehasonlításra – kicsit verbosabb, de még mindig hatékony.
 
-Az alábbi oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás tartalmaz teljes működő kódpéldákat lépésről‑lépésre magyarázatokkal, hogy segítsenek elsajátítani további API‑funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeidben.
+## 4. lépés: Gyakori szélhelyzetek kezelése
 
-- [HTML dokumentumok betöltése fájlból az Aspose.HTML for Java‑ban](/html/english/java/creating-managing-html-documents/load-html-documents-from-file/)
-- [Haladó fájlbetöltés HTML dokumentumokhoz az Aspose.HTML for Java‑ban](/html/english/java/creating-managing-html-documents/advanced-file-loading-html-documents/)
-- [HTML dokumentum mentése fájlba az Aspose.HTML for Java‑ban](/html/english/java/saving-html-documents/save-html-to-file/)
+| Helyzet                                 | Mit kell tenni                                                                                              |
+|----------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| **Fájl nem található**                | A `new HTMLDocument(...)` hívást tedd `try/catch` blokkba, és logold a teljes elérési utat.                |
+| **Nincs egyező termék**               | A ciklus után ellenőrizd, hogy `matchingNames.getLength() == 0`, és írj ki egy barátságos üzenetet.      |
+| **Óriási HTML fájlok ( > 100 MB )**    | Használd a `HTMLDocument` streaming API‑ját (`HTMLDocument.loadAsync`), hogy elkerüld az OOM hibákat.      |
+| **Namespace‑érzékeny XML HTML‑ben**   | Regisztráld a névtérkép a `document.getNamespaces().add(...)` hívással a lekérdezés előtt.                |
+
+Ezek a védelmi intézkedések a kódot production‑készre emelik, és azt mutatják, hogy a „boldog út” mellett is gondolkodtál.
+
+## 5. lépés: Teszt egy mintával `catalog.html`
+
+Ha nincs valós katalógusod, hozz létre egy apró `catalog.html` fájlt ugyanabban a könyvtárban, ahol a Java osztályod van:
+
+```html
+<!DOCTYPE html>
+<html>
+<head><title>Sample Catalog</title></head>
+<body>
+    <product>
+        <name>SuperPro Camera</name>
+        <price>299</price>
+    </product>
+    <product>
+        <name>Basic Phone</name>
+        <price>49</price>
+    </product>
+    <product>
+        <name>ProMax Laptop</name>
+        <price>1199</price>
+    </product>
+</body>
+</html>
+```
+
+A `ExampleXPath30` futtatása most kiírja a két „Pro” terméket, ezzel megerősítve, hogy a **extract text from html** a várt módon működik.
+
+---
+
+## Összefoglalás és további lépések
+
+Áttekintettük a teljes munkafolyamatot a **HTML‑ből szöveg kinyeréséhez Java‑ban**:
+
+1. Add hozzá az Aspose.HTML‑t a buildhez (a „load html document java” lépés).  
+2. Hozz létre egy `HTMLDocument` példányt, amely a fájlra mutat.  
+3. Készíts egy kis‑nagybetű érzéketlen XPath‑et, amely pontosan a szükséges szöveget hozza.  
+4. Iterálj a `NodeList`‑en és írd ki a tiszta karakterláncokat.
+
+Ez a megoldás körülbelül 40 sor kódban megvalósítható.
+
+### Hová tovább?
+
+- **Kötegelt feldolgozás** – iterálj egy könyvtár HTML fájljain és aggregáld az eredményeket CSV‑be.  
+- **Haladó XPath** – használj predikátumokat ár, kategória vagy attribútum érték alapján történő szűréshez.  
+- **Teljesítményhangolás** – engedélyezd a `HTMLDocument.setLazyLoading(true)`‑t hatalmas fájlok esetén.  
+- **Alternatív parserek** – ha nem tudsz kereskedelmi könyvtárat használni, nézd meg a JSoup‑ot (nyílt forráskódú) és hasonlítsd össze az API‑kat.
+
+Kísérletezz ezekkel az ötletekkel, és engedd, hogy a kód a projekted igényeihez igazodjon.
+
+---
+
+### Záró gondolat
+
+A HTML‑ből szöveg kinyerése nem kell, hogy nehézkes feladat legyen. Az **loading the HTML document Java** Aspose.HTML‑el és az XPath használatával egy tömör, karbantartható megoldást kapsz, amely egy apró snippet‑től egészen vállalati szintű adatkinyerésig skálázható. Próbáld ki, finomítsd az XPath‑et a saját markup‑odra, és meglátod, milyen gyorsan tudsz rendezetlen weboldalakat tiszta, felhasználható adatokra átalakítani.
+
+Boldog kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

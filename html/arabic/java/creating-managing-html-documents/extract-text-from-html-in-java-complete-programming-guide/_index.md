@@ -1,53 +1,22 @@
 ---
 category: general
-date: 2026-06-29
-description: استخراج النص من HTML في جافا عبر شرح شفرة بسيط. تعلّم كيفية قراءة ملف
-  HTML في جافا، ومعالجة عرض HTML في جافا، وطباعة رقم صفحة HTML بكفاءة.
+date: 2026-02-19
+description: استخراج النص من HTML باستخدام Java و Aspose.HTML. تعلم كيفية تحميل مستند
+  HTML في Java والاستعلام باستخدام XPath للحصول على نتائج سريعة.
 draft: false
 keywords:
 - extract text from html
-- read html file java
-- java html rendering
-- print html page number
-- read html pages
+- load html document java
 language: ar
-og_description: استخراج النص من HTML في جافا بسرعة. يوضح هذا الدرس كيفية قراءة ملف
-  HTML في جافا، وإدارة عرض HTML في جافا، وطباعة رقم صفحة HTML لكل صفحة.
+og_description: استخراج النص من HTML باستخدام جافا. يوضح هذا الدرس كيفية تحميل مستند
+  HTML في جافا، تشغيل XPath، والحصول على نتائج نظيفة.
 og_title: استخراج النص من HTML في جافا – دليل خطوة بخطوة
-schemas:
-- author: Aspose
-  dateModified: '2026-06-29'
-  description: Extract text from HTML in Java with a simple code walkthrough. Learn
-    to read HTML file Java, handle java html rendering, and print html page number
-    efficiently.
-  headline: Extract Text from HTML in Java – Complete Programming Guide
-  type: TechArticle
-- description: Extract text from HTML in Java with a simple code walkthrough. Learn
-    to read HTML file Java, handle java html rendering, and print html page number
-    efficiently.
-  name: Extract Text from HTML in Java – Complete Programming Guide
-  steps:
-  - name: Load the HTML Document
-    text: First, we need to read the raw HTML file into memory. Using **jsoup** gives
-      us a tidy DOM without launching a full browser.
-  - name: Simulate Java HTML Rendering & Determine Page Count
-    text: Real browsers paginate content based on viewport height. For a pure‑Java
-      solution we can approximate pagination using **openhtmltopdf**’s layout engine,
-      which tells us how many “pages” the document would occupy at a given height
-      (e.g., 800 px).
-  - name: Iterate Over Pages and Extract Their Text
-    text: Now that we have a page count, we loop from `1` to `totalPages`. For each
-      iteration we extract the text that belongs to that slice.
-  - name: Print the Page Number and Its Text
-    text: Finally, we output each page’s number and its extracted text to the console.
-      This satisfies the **print html page number** requirement.
-  type: HowTo
 tags:
 - Java
-- HTML
-- File I/O
-- Text Extraction
-title: استخراج النص من HTML في جافا – دليل برمجة شامل
+- Aspose.HTML
+- XPath
+- HTML parsing
+title: استخراج النص من HTML في جافا – دليل برمجي كامل
 url: /ar/java/creating-managing-html-documents/extract-text-from-html-in-java-complete-programming-guide/
 ---
 
@@ -57,196 +26,196 @@ url: /ar/java/creating-managing-html-documents/extract-text-from-html-in-java-co
 
 # استخراج النص من HTML في جافا – دليل برمجة كامل
 
-هل تساءلت يومًا كيف **extract text from HTML** باستخدام جافا العادية؟ ربما لديك تقرير ضخم محفوظ كملف HTML طويل وتحتاج إلى النص الخام للفهرسة أو التحليل أو مجرد معاينة سريعة. في هذا الدرس سنستعرض طريقة عملية لقراءة ملف HTML في جافا، السماح لمحرك العرض بتقسيمه إلى صفحات، ثم **print html page number** مع محتواه النصي.  
+هل احتجت يومًا إلى **extract text from HTML** لكن لم تكن متأكدًا أي مكتبة ستعطيك نتيجة نظيفة وموثوقة؟ لست وحدك—معظم مطوري جافا يبدأون بالبحث في جوجل عن “extract text from html” وينتهي بهم الأمر بالتعامل مع تعبيرات regex هشة أو متصفحات ثقيلة.  
 
-إذا كنت تبحث أيضًا عن **read html file java** دون استدعاء متصفحات ثقيلة، فأنت في المكان الصحيح. في النهاية ستحصل على برنامج مستقل يمكنك إدراجه في أي مشروع وتشغيله فورًا.
+الأخبار السارة؟ مع Aspose.HTML يمكنك **load HTML document Java** في سطر واحد ثم تشغيل استعلام XPath قوي يجلب النص الذي تحتاجه بالضبط. في هذا الدليل سنستعرض العملية بالكامل، من إعداد المكتبة إلى طباعة أسماء المنتجات النهائية، حتى تتمكن من نسخ‑لصق مثال جاهز للتنفيذ في مشروعك اليوم.
 
----
+## ما ستتعلمه
 
-![مثال على استخراج النص من HTML](extract-text-from-html.png "مثال على استخراج النص من html")
+- كيفية إضافة Aspose.HTML إلى مشروع Maven/Gradle.
+- الكود الدقيق لـ **load an HTML document** باستخدام Java.
+- تعبير XPath الذي يستخرج أسماء المنتجات التي تحتوي على “Pro” (بدون حساسية لحالة الأحرف).
+- كيفية التكرار على النتائج وإخراج نص نظيف.
+- نصائح للتعامل مع الحالات الحدية مثل العقد المفقودة أو الملفات الكبيرة.
 
-## ما يغطيه هذا الدليل
+لا تحتاج إلى خبرة سابقة مع Aspose.HTML؛ فهم أساسي لـ Java وXPath سيؤهلك لذلك.
 
-- تحميل مستند HTML من القرص باستخدام محلل خفيف الوزن.
-- فهم كيف يمكن لـ **java html rendering** تقسيم مستند طويل إلى صفحات افتراضية.
-- التكرار عبر كل صفحة مُعَرضة، استخراج نصها العادي، وطباعة رقم الصفحة.
-- معالجة الحالات الحدية مثل الصفحات المفقودة أو الملفات الكبيرة غير المعتادة.
-- مثال كامل وقابل للتنفيذ يمكنك نسخه‑ولصقه.
-
-لا خدمات خارجية، لا سحر مخفي—فقط جافا صافية وبعض المكتبات المختارة بعناية.
+![Diagram showing the flow of loading an HTML file and extracting text](extract-text-from-html.png){alt="extract text from html"}
 
 ## المتطلبات المسبقة
 
-قبل أن نبدأ، تأكد من أن لديك:
+قبل أن نغوص، تأكد من أن لديك:
 
-1. **JDK 17** أو أحدث مثبت (الكود يستخدم كلمة المفتاح `var` للاختصار، لكن يمكنك الرجوع إلى JDK 11 إذا فضلت).
-2. مشروع Maven أو Gradle حيث يمكنك إضافة تبعية واحدة: **jsoup** (لتحليل HTML) و **openhtmltopdf** (اختياري، للترقيم الحقيقي).  
-   ```xml
-   <!-- Maven snippet -->
-   <dependency>
-       <groupId>org.jsoup</groupId>
-       <artifactId>jsoup</artifactId>
-       <version>1.17.2</version>
-   </dependency>
-   <dependency>
-       <groupId>com.openhtmltopdf</groupId>
-       <artifactId>openhtmltopdf-pdfbox</artifactId>
-       <version>1.0.10</version>
-   </dependency>
-   ```
-3. ملف HTML تجريبي اسمه `long.html` موجود في مكان ما على قرصك (سيتم استخدام المسار في الكود).
+1. **JDK 8 أو أحدث** – Aspose.HTML يدعم Java 8+.
+2. **Maven أو Gradle** – سنعرض تبعية Maven؛ يمكن لمستخدمي Gradle ترجمتها بسهولة.
+3. ملف HTML صغير (`catalog.html`) يحتوي على عناصر `<product>`.  
+   (إذا لم يكن لديك، يوفر الدليل مثالًا سريعًا في النهاية.)
 
-إذا كنت جديدًا على Maven، فقط أنشئ ملف `pom.xml` مع التبعيتين المذكورتين أعلاه وشغّل `mvn compile`. هذا كل ما تحتاجه من إعداد.
+هل لديك ذلك؟ رائع—لنبدأ.
 
----
+## الخطوة 1: إضافة Aspose.HTML إلى مشروعك (Load HTML Document Java)
 
-## استخراج النص من HTML – تنفيذ خطوة بخطوة
+أول شيء تحتاجه هو مكتبة Aspose.HTML. إذا كنت تستخدم Maven، ضع هذا المقتطف في ملف `pom.xml` الخاص بك:
 
-فيما يلي نقسم الحل إلى خمس خطوات منطقية. كل خطوة تحتوي على شرح مختصر، الكود الجافا الدقيق، وملاحظة حول سبب أهمية الخطوة.
-
-### الخطوة 1: تحميل مستند HTML
-
-أولاً، نحتاج إلى قراءة ملف HTML الخام إلى الذاكرة. استخدام **jsoup** يمنحنا DOM منظم دون تشغيل متصفح كامل.
-
-```java
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import java.io.File;
-import java.io.IOException;
-
-// Step 1: Load the HTML file from disk
-public static Document loadHtml(String filePath) throws IOException {
-    File input = new File(filePath);
-    // Jsoup parses the file using UTF‑8 by default; you can specify another charset if needed.
-    return Jsoup.parse(input, "UTF-8");
-}
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-html</artifactId>
+    <version>23.12</version> <!-- Use the latest version available -->
+</dependency>
 ```
 
-*لماذا هذا مهم*: قراءة الملف كسلسلة نصية مباشرة سيترك لك العلامات والكيانات. Jsoup يزيل التعليقات، يطبع المسافات بشكل موحد، ويبني شجرة يمكنك الاستعلام عنها لاحقًا.
+بالنسبة لـ Gradle، سيبدو هكذا:
 
-### الخطوة 2: محاكاة Java HTML Rendering وتحديد عدد الصفحات
-
-المتصفحات الحقيقية تقسم المحتوى إلى صفحات بناءً على ارتفاع نافذة العرض. لحل كامل بـ Java يمكننا تقريب التقسيم باستخدام محرك التخطيط الخاص بـ **openhtmltopdf**، الذي يخبرنا بعدد “الصفحات” التي سيشغلها المستند عند ارتفاع معين (مثلاً 800 px).
-
-```java
-import com.openhtmltopdf.pdfboxout.PdfRendererBuilder;
-import com.openhtmltopdf.render.Box;
-import com.openhtmltopdf.render.PageBox;
-
-// Step 2: Compute how many virtual pages the document would occupy
-public static int getPageCount(Document doc, int pageHeightPx) {
-    // Render the document to a hidden PDF; the renderer also builds page boxes.
-    PdfRendererBuilder builder = new PdfRendererBuilder();
-    builder.withHtmlContent(doc.html(), null);
-    // The builder needs a target, but we can direct output to a ByteArrayOutputStream we discard.
-    try (var out = new java.io.ByteArrayOutputStream()) {
-        builder.toStream(out);
-        builder.run();
-        // After rendering, the layout tree is accessible via the builder's internal state.
-        // For brevity, we’ll use a simplified approach: assume each 800 px slice = 1 page.
-        // In a real app you could inspect PageBox objects for exact counts.
-        int totalHeight = doc.body().outerHtml().length(); // rough proxy for height
-        return Math.max(1, (int) Math.ceil((double) totalHeight / pageHeightPx));
-    } catch (Exception e) {
-        throw new RuntimeException("Failed to render HTML for pagination", e);
-    }
-}
+```gradle
+implementation 'com.aspose:aspose-html:23.12'
 ```
 
-*لماذا هذا مهم*: معرفة **print html page number** لكل جزء يتيح لك تنظيم المخرجات، تخزين الصفحات بشكل منفصل، أو تمريرها إلى الخدمات اللاحقة التي تتوقع مدخلات مقسمة إلى صفحات.
+> **نصيحة احترافية:** حافظ على تحديث تبعياتك؛ الإصدارات الأحدث غالبًا ما تتضمن تحسينات في الأداء للملفات HTML الكبيرة.
 
-> **نصيحة احترافية:** إذا لم تكن بحاجة إلى تقسيم دقيق، يمكنك ببساطة تقسيم المستند بعدد ثابت من الأحرف (مثلاً 5 000). الكود أدناه يوضح الطريقة الأكثر دقة المعتمدة على العرض، لكن التقسيم الأبسط يعمل لمعظم HTML على نمط ملفات السجل.
+بعد حل التبعية، ستكون جاهزًا لـ **load the HTML document in Java**.
 
-### الخطوة 3: التكرار عبر الصفحات واستخراج نصها
+## الخطوة 2: كتابة كود Java لتحميل ملف HTML
 
-الآن بعد أن حصلنا على عدد الصفحات، نكرر من `1` إلى `totalPages`. في كل تكرار نستخرج النص الذي يخص تلك الشريحة.
-
-```java
-import org.jsoup.select.Elements;
-
-// Step 3: Extract plain text for a given page number
-public static String getPageText(Document doc, int pageNumber, int pageHeightPx) {
-    // In a real rendering scenario you would ask the layout engine for the box range.
-    // Here we simulate by taking a substring of the body’s text.
-    String fullText = doc.body().text(); // all visible text, no tags
-    int charsPerPage = pageHeightPx * 10; // arbitrary factor to mimic density
-    int start = (pageNumber - 1) * charsPerPage;
-    int end = Math.min(start + charsPerPage, fullText.length());
-    if (start >= fullText.length()) {
-        return "";
-    }
-    return fullText.substring(start, end).trim();
-}
-```
-
-*لماذا هذا مهم*: الطريقة تعزل فقط الأحرف التي ستظهر على الصفحة المرئية، محاكاةً ما يراه المستخدم بعد **java html rendering**.
-
-### الخطوة 4: طباعة رقم الصفحة ونصها
-
-أخيرًا، نطبع رقم كل صفحة ونصها المستخرج إلى وحدة التحكم. هذا يفي بمتطلب **print html page number**.
+أنشئ فئة Java جديدة تسمى `ExampleXPath30`. الكود أدناه برنامج كامل ومستقل يقوم بكل شيء من تحميل الملف إلى طباعة النتائج.
 
 ```java
-public static void main(String[] args) {
-    String path = "YOUR_DIRECTORY/long.html"; // adjust to your environment
-    try {
-        Document doc = loadHtml(path);
-        int pageHeightPx = 800;                     // height we consider per page
-        int totalPages = getPageCount(doc, pageHeightPx);
-        System.out.println("Total pages (estimated): " + totalPages);
-        for (int page = 1; page <= totalPages; page++) {
-            String pageText = getPageText(doc, page, pageHeightPx);
-            System.out.println("\n--- Page " + page + " ---");
-            System.out.println(pageText);
+import com.aspose.html.HTMLDocument;
+import com.aspose.html.dom.NodeList;
+
+public class ExampleXPath30 {
+    public static void main(String[] args) throws Exception {
+
+        // --------------------------------------------------------------
+        // Step 2.1: Load the HTML document.
+        // --------------------------------------------------------------
+        // Replace "YOUR_DIRECTORY/catalog.html" with the actual path to your file.
+        HTMLDocument document = new HTMLDocument("YOUR_DIRECTORY/catalog.html");
+
+        // --------------------------------------------------------------
+        // Step 2.2: Define an XPath that selects product names containing "Pro"
+        //            (case‑insensitive). The matches() function is XPath 3.0.
+        // --------------------------------------------------------------
+        String xpathExpression = "//product/name[matches(., '(?i)Pro')]";
+
+        // --------------------------------------------------------------
+        // Step 2.3: Execute the XPath query and collect matching nodes.
+        // --------------------------------------------------------------
+        NodeList matchingNames = document.selectNodes(xpathExpression);
+
+        // --------------------------------------------------------------
+        // Step 2.4: Print the found product names.
+        // --------------------------------------------------------------
+        System.out.println("Products containing \"Pro\":");
+        for (int i = 0; i < matchingNames.getLength(); i++) {
+            System.out.println(" - " + matchingNames.item(i).getTextContent());
         }
-    } catch (IOException e) {
-        System.err.println("Failed to read HTML file: " + e.getMessage());
     }
 }
 ```
 
-**مخرجات وحدة التحكم المتوقعة (مقتصرة للوجز):**
+### لماذا يعمل هذا
+
+- **`HTMLDocument`** يقوم بتحليل ملف HTML بالكامل إلى شجرة DOM، مما يمنحك تمثيلًا موثوقًا ومتوافقًا مع المعايير.
+- **XPath 3.0** (`matches`) يتيح لك إجراء بحث غير حساس لحالة الأحرف دون الحاجة إلى كود Java إضافي.
+- **`selectNodes`** تُعيد `NodeList`، والتي يمكنك التكرار عليها كما لو كانت `ArrayList` عادية.
+
+إذا شغلت البرنامج مع `catalog.html` مُهيأ بشكل صحيح، سترى مخرجات مشابهة لـ:
 
 ```
-Total pages (estimated): 4
-
---- Page 1 ---
-Welcome to our annual report... (first 800 px worth of text)
-
---- Page 2 ---
-Section 2: Market Overview... (next slice)
-
---- Page 3 ---
-Financial Highlights... (and so on)
-
---- Page 4 ---
-Appendix and References... (final chunk)
+Products containing "Pro":
+ - SuperPro Camera
+ - ProMax Laptop
+ - UltraPro Headphones
 ```
 
-إذا كان الملف أقصر من صفحة واحدة، سيظل الحلقة تُنفّذ مرة واحدة وتطبع النص بالكامل—لا حاجة لحالة خاصة.
+## الخطوة 3: فهم تعبير XPath
+
+جوهر الحل هو سلسلة XPath:
+
+```xpath
+//product/name[matches(., '(?i)Pro')]
+```
+
+- `//product/name` يختار كل عنصر `<name>` يكون طفلاً لـ `<product>`.
+- `[matches(., '(?i)Pro')]` يفلتر تلك العقد، محتفظًا فقط بالعقد التي يتطابق نصها مع “Pro” بغض النظر عن الحالة (`(?i)` هو علم عدم الحساسية لحالة الأحرف).
+
+**نهج بديل**  
+إذا كنت تستخدم نسخة أقدم من Aspose.HTML تدعم فقط XPath 1.0، يمكنك استبدال التعبير بـ:
+
+```xpath
+//product/name[contains(translate(., 'PRO', 'pro'), 'pro')]
+```
+
+هذا يستخدم `translate` لفرض مقارنة بحروف صغيرة—أكثر تفصيلاً قليلاً لكنه لا يزال فعالًا.
+
+## الخطوة 4: معالجة الحالات الحدية الشائعة
+
+| الحالة | ما الذي يجب القيام به |
+|---|---|
+| **File not found** | غلف استدعاء `new HTMLDocument(...)` بـ `try/catch` وسجّل المسار المطلق. |
+| **No matching products** | بعد الحلقة، تحقق من `matchingNames.getLength() == 0` واطبع رسالة ودية. |
+| **Huge HTML files ( > 100 MB )** | استخدم API البث لـ `HTMLDocument` (`HTMLDocument.loadAsync`) لتجنب أخطاء OOM. |
+| **Namespace‑aware XML inside HTML** | سجّل مساحة الاسم باستخدام `document.getNamespaces().add(...)` قبل الاستعلام. |
+
+هذه الضمانات تجعل كودك جاهزًا للإنتاج وتظهر أنك فكرت بما يتجاوز المسار السلس.
+
+## الخطوة 5: اختبار مع مثال `catalog.html`
+
+إذا لم يكن لديك كتالوج حقيقي، أنشئ ملفًا صغيرًا باسم `catalog.html` في نفس الدليل مع فئة Java الخاصة بك:
+
+```html
+<!DOCTYPE html>
+<html>
+<head><title>Sample Catalog</title></head>
+<body>
+    <product>
+        <name>SuperPro Camera</name>
+        <price>299</price>
+    </product>
+    <product>
+        <name>Basic Phone</name>
+        <price>49</price>
+    </product>
+    <product>
+        <name>ProMax Laptop</name>
+        <price>1199</price>
+    </product>
+</body>
+</html>
+```
+
+تشغيل `ExampleXPath30` الآن يطبع المنتجين “Pro”، مؤكدًا أن **extract text from html** يعمل كما هو متوقع.
 
 ---
 
-## معالجة الحالات الحدية والمشكلات الشائعة
+## ملخص وخطوات مستقبلية
 
-| الحالة | ما الذي يجب مراقبته | الإصلاح المقترح |
-|-----------|-------------------|---------------|
-| **ملف فارغ أو مفقود** | استثناء `FileNotFoundException` يُرمى من قبل Jsoup | تحقق من صحة المسار قبل استدعاء `loadHtml` وقدم رسالة خطأ ودية. |
-| **HTML كبير جدًا (≥ 100 MB)** | نفاد الذاكرة عند تحميل المستند بالكامل | استخدم **محلل التدفق الخاص بـ jsoup** (`Jsoup.parse(InputStream, ...)`) وقم بالترقيم أثناء التحميل. |
-| **حروف غير ASCII** | مخرجات مشوشة إذا تم استخدام مجموعة أحرف خاطئة | مرّر صراحةً مجموعة الأحرف الصحيحة (`UTF‑8` هي الأكثر أمانًا). |
-| **محتوى ديناميكي (مُولد بجافاسكريبت)** | Jsoup لا ينفّذ السكريبتات، لذا قد يكون النص المعروض مفقودًا | انتقل إلى متصفح بدون رأس مثل **Playwright** أو **Selenium** إذا كنت بحاجة فعلًا إلى تنفيذ السكريبتات. |
-| **الحاجة إلى ترقيم دقيق** | قد يختلف التقسيم البسيط القائم على الأحرف عن الصفحات المرئية | تعمّق في كائنات `PageBox` التي يوفرها **openhtmltopdf**؛ فهي تُظهر الصناديق الحدودية الدقيقة. |
+لقد غطينا سير العمل الكامل لـ **extracting text from HTML in Java**:
 
-## مثال كامل يعمل (جميع الأجزاء معًا)
+1. أضف Aspose.HTML إلى عملية البناء (خطوة “load html document java”).  
+2. أنشئ كائن `HTMLDocument` يشير إلى ملفك.  
+3. صغ XPath غير حساس لحالة الأحرف لاستخراج النص الدقيق الذي تحتاجه.  
+4. تكرّر على `NodeList` واطبع سلاسل نصية نظيفة.
 
+هذه هي الحل الأساسي في حوالي 40 سطرًا من الكود.  
 
+### إلى أين من هنا؟
 
-## ماذا يجب أن تتعلم بعد ذلك؟
+- **Batch processing** – تكرار عبر دليل يحتوي على ملفات HTML وتجميع النتائج في CSV.  
+- **Advanced XPath** – استخدم المتنبئات لتصفية حسب السعر أو الفئة أو قيم السمات.  
+- **Performance tuning** – فعّل `HTMLDocument.setLazyLoading(true)` للملفات الضخمة.  
+- **Alternative parsers** – إذا لم تستطع استخدام مكتبة تجارية، انظر إلى JSoup (مفتوح المصدر) وقارن واجهة البرمجة.
 
-الدروس التالية تغطي مواضيع ذات صلة وثيقة تبني على التقنيات الموضحة في هذا الدليل. كل مصدر يتضمن أمثلة كود كاملة مع شروحات خطوة بخطوة لمساعدتك على إتقان ميزات API إضافية واستكشاف أساليب تنفيذ بديلة في مشاريعك.
+لا تتردد في تجربة هذه الأفكار، ودع الكود يتطور ليتناسب مع احتياجات مشروعك.
 
-- [تحميل مستندات HTML من ملف في Aspose.HTML لجافا](/html/english/java/creating-managing-html-documents/load-html-documents-from-file/)
-- [تحميل متقدم للملفات لمستندات HTML في Aspose.HTML لجافا](/html/english/java/creating-managing-html-documents/advanced-file-loading-html-documents/)
-- [حفظ مستند HTML إلى ملف في Aspose.HTML لجافا](/html/english/java/saving-html-documents/save-html-to-file/)
+---
+
+### فكرة نهائية
+
+استخراج النص من HTML لا يجب أن يكون مهمة شاقة. من خلال **loading the HTML document Java** باستخدام Aspose.HTML والاستفادة من XPath، ستحصل على حل مختصر وقابل للصيانة يتوسع من مقتطف صغير إلى استخراج بيانات على مستوى المؤسسة. جرّبه، عدّل XPath ليناسب بنية HTML الخاصة بك، وسترى مدى السرعة التي يمكنك بها تحويل صفحات الويب الفوضوية إلى بيانات نظيفة قابلة للاستخدام.
+
+برمجة سعيدة!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

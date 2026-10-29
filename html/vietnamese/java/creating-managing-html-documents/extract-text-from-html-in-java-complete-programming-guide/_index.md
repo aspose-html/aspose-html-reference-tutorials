@@ -1,54 +1,21 @@
 ---
 category: general
-date: 2026-06-29
-description: Trích xuất văn bản từ HTML trong Java với hướng dẫn mã đơn giản. Học
-  cách đọc tệp HTML bằng Java, xử lý việc render HTML trong Java và in số trang HTML
-  một cách hiệu quả.
+date: 2026-02-19
+description: Trích xuất văn bản từ HTML bằng Java và Aspose.HTML. Tìm hiểu cách tải
+  tài liệu HTML trong Java và truy vấn bằng XPath để có kết quả nhanh chóng.
 draft: false
 keywords:
 - extract text from html
-- read html file java
-- java html rendering
-- print html page number
-- read html pages
+- load html document java
 language: vi
-og_description: Trích xuất văn bản từ HTML trong Java nhanh chóng. Hướng dẫn này chỉ
-  cách đọc tệp HTML bằng Java, quản lý việc render HTML trong Java và in số trang
-  HTML cho mỗi trang.
+og_description: Trích xuất văn bản từ HTML bằng Java. Hướng dẫn này cho thấy cách
+  tải tài liệu HTML trong Java, chạy XPath và nhận kết quả sạch.
 og_title: Trích xuất văn bản từ HTML trong Java – Hướng dẫn từng bước
-schemas:
-- author: Aspose
-  dateModified: '2026-06-29'
-  description: Extract text from HTML in Java with a simple code walkthrough. Learn
-    to read HTML file Java, handle java html rendering, and print html page number
-    efficiently.
-  headline: Extract Text from HTML in Java – Complete Programming Guide
-  type: TechArticle
-- description: Extract text from HTML in Java with a simple code walkthrough. Learn
-    to read HTML file Java, handle java html rendering, and print html page number
-    efficiently.
-  name: Extract Text from HTML in Java – Complete Programming Guide
-  steps:
-  - name: Load the HTML Document
-    text: First, we need to read the raw HTML file into memory. Using **jsoup** gives
-      us a tidy DOM without launching a full browser.
-  - name: Simulate Java HTML Rendering & Determine Page Count
-    text: Real browsers paginate content based on viewport height. For a pure‑Java
-      solution we can approximate pagination using **openhtmltopdf**’s layout engine,
-      which tells us how many “pages” the document would occupy at a given height
-      (e.g., 800 px).
-  - name: Iterate Over Pages and Extract Their Text
-    text: Now that we have a page count, we loop from `1` to `totalPages`. For each
-      iteration we extract the text that belongs to that slice.
-  - name: Print the Page Number and Its Text
-    text: Finally, we output each page’s number and its extracted text to the console.
-      This satisfies the **print html page number** requirement.
-  type: HowTo
 tags:
 - Java
-- HTML
-- File I/O
-- Text Extraction
+- Aspose.HTML
+- XPath
+- HTML parsing
 title: Trích xuất văn bản từ HTML trong Java – Hướng dẫn lập trình toàn diện
 url: /vi/java/creating-managing-html-documents/extract-text-from-html-in-java-complete-programming-guide/
 ---
@@ -57,200 +24,200 @@ url: /vi/java/creating-managing-html-documents/extract-text-from-html-in-java-co
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Trích xuất Văn bản từ HTML trong Java – Hướng dẫn Lập trình Toàn diện
+# Trích xuất văn bản từ HTML trong Java – Hướng dẫn lập trình đầy đủ
 
-Bạn đã bao giờ tự hỏi làm thế nào để **trích xuất văn bản từ HTML** chỉ bằng Java thuần? Có thể bạn có một báo cáo khổng lồ được lưu dưới dạng tệp HTML dài và cần văn bản thô để lập chỉ mục, phân tích, hoặc chỉ để xem nhanh. Trong hướng dẫn này, chúng ta sẽ đi qua cách thực tế để đọc một tệp HTML trong Java, để công cụ render phân trang nó, và sau đó **in số trang html** cùng với nội dung văn bản của nó.  
+Bạn đã bao giờ cần **trích xuất văn bản từ HTML** nhưng không chắc thư viện nào sẽ cho kết quả sạch sẽ, đáng tin cậy? Bạn không đơn độc—hầu hết các nhà phát triển Java bắt đầu bằng cách tìm kiếm “extract text from html” và cuối cùng phải vật lộn với các regex dễ gãy hoặc các trình duyệt nặng.  
 
-Nếu bạn cũng đang tìm cách **đọc tệp html java** mà không cần kéo vào các trình duyệt nặng, bạn đã đến đúng nơi. Khi kết thúc, bạn sẽ có một chương trình tự chứa mà bạn có thể đưa vào bất kỳ dự án nào và chạy ngay lập tức.
+Tin tốt là gì? Với Aspose.HTML, bạn có thể **load HTML document Java** chỉ trong một dòng và sau đó chạy một truy vấn XPath mạnh mẽ để lấy chính xác văn bản bạn cần. Trong hướng dẫn này, chúng tôi sẽ đi qua toàn bộ quy trình, từ cài đặt thư viện đến in ra tên sản phẩm cuối cùng, để bạn có thể sao chép‑dán một ví dụ sẵn sàng chạy vào dự án ngay hôm nay.
+
+## Những gì bạn sẽ học
+
+- Cách thêm Aspose.HTML vào dự án Maven/Gradle.  
+- Mã chính xác để **load một tài liệu HTML** bằng Java.  
+- Biểu thức XPath trích xuất tên sản phẩm chứa “Pro” (không phân biệt chữ hoa/thường).  
+- Cách lặp qua kết quả và xuất ra văn bản sạch.  
+- Mẹo xử lý các trường hợp đặc biệt như nút thiếu hoặc tệp lớn.
+
+Bạn không cần kinh nghiệm trước với Aspose.HTML; chỉ cần hiểu cơ bản về Java và XPath là đủ.
 
 ---
 
-![Ví dụ trích xuất văn bản từ HTML](extract-text-from-html.png "ví dụ trích xuất văn bản từ html")
-
-## Những gì Hướng dẫn này Bao gồm
-
-- Tải tài liệu HTML từ đĩa bằng một trình phân tích nhẹ.
-- Hiểu cách **java html rendering** có thể chia một tài liệu dài thành các trang ảo.
-- Lặp qua từng trang đã render, trích xuất văn bản thuần và in số trang.
-- Xử lý các trường hợp đặc biệt như trang thiếu hoặc tệp quá lớn.
-- Một mẫu mã hoàn chỉnh, có thể chạy được mà bạn có thể sao chép‑dán.
-
-Không có dịch vụ bên ngoài, không có phép màu ẩn—chỉ Java thuần và một vài thư viện được chọn kỹ.
+![Diagram showing the flow of loading an HTML file and extracting text](extract-text-from-html.png){alt="extract text from html"}
 
 ## Yêu cầu trước
 
 Trước khi bắt đầu, hãy chắc chắn rằng bạn có:
 
-1. **JDK 17** trở lên đã được cài đặt (mã sử dụng từ khóa `var` để ngắn gọn, nhưng bạn có thể hạ cấp xuống JDK 11 nếu muốn).
-2. Một dự án Maven hoặc Gradle nơi bạn có thể thêm một phụ thuộc duy nhất: **jsoup** (để phân tích HTML) và **openhtmltopdf** (tùy chọn, để phân trang thực tế).  
-   ```xml
-   <!-- Maven snippet -->
-   <dependency>
-       <groupId>org.jsoup</groupId>
-       <artifactId>jsoup</artifactId>
-       <version>1.17.2</version>
-   </dependency>
-   <dependency>
-       <groupId>com.openhtmltopdf</groupId>
-       <artifactId>openhtmltopdf-pdfbox</artifactId>
-       <version>1.0.10</version>
-   </dependency>
-   ```
-3. Một tệp HTML mẫu có tên `long.html` được đặt ở đâu đó trên đĩa của bạn (đường dẫn sẽ được sử dụng trong mã).
+1. **JDK 8 trở lên** – Aspose.HTML hỗ trợ Java 8+.  
+2. **Maven hoặc Gradle** – chúng tôi sẽ hiển thị phụ thuộc Maven; người dùng Gradle có thể chuyển đổi dễ dàng.  
+3. Một tệp HTML nhỏ (`catalog.html`) chứa các phần tử `<product>`.  
+   (Nếu bạn chưa có, phần cuối của tutorial sẽ cung cấp một ví dụ nhanh.)
 
-Nếu bạn mới với Maven, chỉ cần tạo một `pom.xml` với hai phụ thuộc ở trên và chạy `mvn compile`. Đó là toàn bộ thiết lập bạn cần.
+Đã có đủ? Tuyệt—bây giờ chúng ta bắt đầu.
 
----
+## Bước 1: Thêm Aspose.HTML vào dự án của bạn (Load HTML Document Java)
 
-## Trích xuất Văn bản từ HTML – Triển khai Từng Bước
+Điều đầu tiên bạn cần là thư viện Aspose.HTML. Nếu bạn dùng Maven, chèn đoạn sau vào `pom.xml` của bạn:
 
-Dưới đây chúng tôi chia giải pháp thành năm bước logic. Mỗi bước bao gồm một giải thích ngắn, mã Java chính xác, và một ghi chú về lý do bước đó quan trọng.
-
-### Bước 1: Tải Tài liệu HTML
-
-Đầu tiên, chúng ta cần đọc tệp HTML thô vào bộ nhớ. Sử dụng **jsoup** cho chúng ta một DOM gọn gàng mà không cần khởi chạy trình duyệt đầy đủ.
-
-```java
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import java.io.File;
-import java.io.IOException;
-
-// Step 1: Load the HTML file from disk
-public static Document loadHtml(String filePath) throws IOException {
-    File input = new File(filePath);
-    // Jsoup parses the file using UTF‑8 by default; you can specify another charset if needed.
-    return Jsoup.parse(input, "UTF-8");
-}
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-html</artifactId>
+    <version>23.12</version> <!-- Use the latest version available -->
+</dependency>
 ```
 
-*Lý do quan trọng*: Đọc trực tiếp tệp dưới dạng chuỗi sẽ để lại các thẻ và thực thể. Jsoup loại bỏ các bình luận, chuẩn hoá khoảng trắng, và xây dựng một cây mà bạn có thể truy vấn sau này.
+Đối với Gradle, nó sẽ trông như sau:
 
-### Bước 2: Mô phỏng Java HTML Rendering & Xác định Số Trang
-
-Các trình duyệt thực tế phân trang nội dung dựa trên chiều cao viewport. Đối với giải pháp thuần‑Java, chúng ta có thể ước tính phân trang bằng **openhtmltopdf**’s layout engine, công cụ này cho biết tài liệu sẽ chiếm bao nhiêu “trang” ở một chiều cao nhất định (ví dụ, 800 px).
-
-```java
-import com.openhtmltopdf.pdfboxout.PdfRendererBuilder;
-import com.openhtmltopdf.render.Box;
-import com.openhtmltopdf.render.PageBox;
-
-// Step 2: Compute how many virtual pages the document would occupy
-public static int getPageCount(Document doc, int pageHeightPx) {
-    // Render the document to a hidden PDF; the renderer also builds page boxes.
-    PdfRendererBuilder builder = new PdfRendererBuilder();
-    builder.withHtmlContent(doc.html(), null);
-    // The builder needs a target, but we can direct output to a ByteArrayOutputStream we discard.
-    try (var out = new java.io.ByteArrayOutputStream()) {
-        builder.toStream(out);
-        builder.run();
-        // After rendering, the layout tree is accessible via the builder's internal state.
-        // For brevity, we’ll use a simplified approach: assume each 800 px slice = 1 page.
-        // In a real app you could inspect PageBox objects for exact counts.
-        int totalHeight = doc.body().outerHtml().length(); // rough proxy for height
-        return Math.max(1, (int) Math.ceil((double) totalHeight / pageHeightPx));
-    } catch (Exception e) {
-        throw new RuntimeException("Failed to render HTML for pagination", e);
-    }
-}
+```gradle
+implementation 'com.aspose:aspose-html:23.12'
 ```
 
-*Lý do quan trọng*: Biết **print html page number** cho mỗi đoạn giúp bạn tổ chức đầu ra, lưu các trang riêng biệt, hoặc đưa chúng vào các dịch vụ downstream yêu cầu đầu vào đã phân trang.
+> **Mẹo chuyên nghiệp:** Giữ các phụ thuộc luôn cập nhật; các phiên bản mới thường bao gồm cải tiến hiệu năng cho các tệp HTML lớn.
 
-> **Mẹo chuyên nghiệp:** Nếu bạn không cần phân trang chính xác, chỉ cần chia tài liệu bằng một số ký tự cố định (ví dụ, 5 000). Đoạn mã dưới đây hiển thị phương pháp dựa trên render chính xác, nhưng cách chia đơn giản vẫn đủ cho hầu hết các HTML dạng log‑file.
+Sau khi phụ thuộc được giải quyết, bạn đã sẵn sàng **load tài liệu HTML trong Java**.
 
-### Bước 3: Lặp qua Các Trang và Trích xuất Văn bản của Chúng
+## Bước 2: Viết mã Java để load tệp HTML
 
-Bây giờ chúng ta đã có số trang, chúng ta lặp từ `1` tới `totalPages`. Với mỗi vòng lặp, chúng ta trích xuất văn bản thuộc phần đó.
-
-```java
-import org.jsoup.select.Elements;
-
-// Step 3: Extract plain text for a given page number
-public static String getPageText(Document doc, int pageNumber, int pageHeightPx) {
-    // In a real rendering scenario you would ask the layout engine for the box range.
-    // Here we simulate by taking a substring of the body’s text.
-    String fullText = doc.body().text(); // all visible text, no tags
-    int charsPerPage = pageHeightPx * 10; // arbitrary factor to mimic density
-    int start = (pageNumber - 1) * charsPerPage;
-    int end = Math.min(start + charsPerPage, fullText.length());
-    if (start >= fullText.length()) {
-        return "";
-    }
-    return fullText.substring(start, end).trim();
-}
-```
-
-*Lý do quan trọng*: Phương pháp này chỉ lấy các ký tự sẽ xuất hiện trên trang trực quan, mô phỏng những gì người dùng thấy sau **java html rendering**.
-
-### Bước 4: In Số Trang và Văn bản của Nó
-
-Cuối cùng, chúng ta xuất số trang và văn bản đã trích xuất ra console. Điều này đáp ứng yêu cầu **print html page number**.
+Tạo một lớp Java mới có tên `ExampleXPath30`. Đoạn mã dưới đây là một chương trình hoàn chỉnh, tự chứa, thực hiện mọi việc từ việc load tệp đến in kết quả.
 
 ```java
-public static void main(String[] args) {
-    String path = "YOUR_DIRECTORY/long.html"; // adjust to your environment
-    try {
-        Document doc = loadHtml(path);
-        int pageHeightPx = 800;                     // height we consider per page
-        int totalPages = getPageCount(doc, pageHeightPx);
-        System.out.println("Total pages (estimated): " + totalPages);
-        for (int page = 1; page <= totalPages; page++) {
-            String pageText = getPageText(doc, page, pageHeightPx);
-            System.out.println("\n--- Page " + page + " ---");
-            System.out.println(pageText);
+import com.aspose.html.HTMLDocument;
+import com.aspose.html.dom.NodeList;
+
+public class ExampleXPath30 {
+    public static void main(String[] args) throws Exception {
+
+        // --------------------------------------------------------------
+        // Step 2.1: Load the HTML document.
+        // --------------------------------------------------------------
+        // Replace "YOUR_DIRECTORY/catalog.html" with the actual path to your file.
+        HTMLDocument document = new HTMLDocument("YOUR_DIRECTORY/catalog.html");
+
+        // --------------------------------------------------------------
+        // Step 2.2: Define an XPath that selects product names containing "Pro"
+        //            (case‑insensitive). The matches() function is XPath 3.0.
+        // --------------------------------------------------------------
+        String xpathExpression = "//product/name[matches(., '(?i)Pro')]";
+
+        // --------------------------------------------------------------
+        // Step 2.3: Execute the XPath query and collect matching nodes.
+        // --------------------------------------------------------------
+        NodeList matchingNames = document.selectNodes(xpathExpression);
+
+        // --------------------------------------------------------------
+        // Step 2.4: Print the found product names.
+        // --------------------------------------------------------------
+        System.out.println("Products containing \"Pro\":");
+        for (int i = 0; i < matchingNames.getLength(); i++) {
+            System.out.println(" - " + matchingNames.item(i).getTextContent());
         }
-    } catch (IOException e) {
-        System.err.println("Failed to read HTML file: " + e.getMessage());
     }
 }
 ```
 
-**Kết quả console dự kiến (rút gọn để ngắn gọn):**
+### Tại sao cách này hoạt động
+
+- **`HTMLDocument`** phân tích toàn bộ tệp HTML thành cây DOM, cung cấp cho bạn một biểu diễn tuân thủ chuẩn, đáng tin cậy.  
+- **XPath 3.0** (`matches`) cho phép bạn thực hiện tìm kiếm không phân biệt chữ hoa/thường mà không cần mã Java bổ sung.  
+- **`selectNodes`** trả về một `NodeList`, bạn có thể lặp qua nó giống như một `ArrayList` thông thường.
+
+Nếu bạn chạy chương trình với một `catalog.html` được cấu trúc đúng, đầu ra sẽ giống như:
 
 ```
-Total pages (estimated): 4
-
---- Page 1 ---
-Welcome to our annual report... (first 800 px worth of text)
-
---- Page 2 ---
-Section 2: Market Overview... (next slice)
-
---- Page 3 ---
-Financial Highlights... (and so on)
-
---- Page 4 ---
-Appendix and References... (final chunk)
+Products containing "Pro":
+ - SuperPro Camera
+ - ProMax Laptop
+ - UltraPro Headphones
 ```
 
-Nếu tệp ngắn hơn một trang, vòng lặp vẫn chạy một lần và in toàn bộ văn bản—không cần xử lý trường hợp đặc biệt.
+## Bước 3: Hiểu biểu thức XPath
+
+Trọng tâm của giải pháp là chuỗi XPath:
+
+```xpath
+//product/name[matches(., '(?i)Pro')]
+```
+
+- `//product/name` chọn mọi phần tử `<name>` là con của `<product>`.  
+- `[matches(., '(?i)Pro')]` lọc các nút này, chỉ giữ lại những nút có văn bản khớp “Pro” bất kể chữ hoa/thường (`(?i)` là cờ không phân biệt chữ).
+
+**Các cách tiếp cận thay thế**  
+Nếu bạn đang dùng một phiên bản cũ hơn của Aspose.HTML chỉ hỗ trợ XPath 1.0, bạn có thể thay thế biểu thức bằng:
+
+```xpath
+//product/name[contains(translate(., 'PRO', 'pro'), 'pro')]
+```
+
+Biểu thức này dùng `translate` để ép so sánh dạng chữ thường—hơi dài hơn một chút nhưng vẫn hiệu quả.
+
+## Bước 4: Xử lý các trường hợp đặc biệt thường gặp
+
+| Tình huống                                 | Cách xử lý                                                                                                   |
+|-------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| **File không tồn tại**                    | Bao quanh lời gọi `new HTMLDocument(...)` bằng `try/catch` và ghi log đường dẫn tuyệt đối.                  |
+| **Không có sản phẩm phù hợp**             | Sau vòng lặp, kiểm tra `matchingNames.getLength() == 0` và in ra thông báo thân thiện.                     |
+| **HTML rất lớn ( > 100 MB )**             | Sử dụng API streaming của `HTMLDocument` (`HTMLDocument.loadAsync`) để tránh lỗi OOM.                       |
+| **XML có namespace trong HTML**           | Đăng ký namespace bằng `document.getNamespaces().add(...)` trước khi thực hiện truy vấn.                    |
+
+Những biện pháp bảo vệ này giúp mã của bạn sẵn sàng cho môi trường production và thể hiện bạn đã suy nghĩ vượt ra ngoài kịch bản “đẹp”.
+
+## Bước 5: Kiểm tra với một mẫu `catalog.html`
+
+Nếu bạn chưa có catalog thực, tạo một tệp nhỏ tên `catalog.html` trong cùng thư mục với lớp Java của bạn:
+
+```html
+<!DOCTYPE html>
+<html>
+<head><title>Sample Catalog</title></head>
+<body>
+    <product>
+        <name>SuperPro Camera</name>
+        <price>299</price>
+    </product>
+    <product>
+        <name>Basic Phone</name>
+        <price>49</price>
+    </product>
+    <product>
+        <name>ProMax Laptop</name>
+        <price>1199</price>
+    </product>
+</body>
+</html>
+```
+
+Chạy `ExampleXPath30` ngay bây giờ sẽ in ra hai sản phẩm “Pro”, xác nhận rằng **extract text from html** hoạt động như mong đợi.
 
 ---
 
-## Xử lý Các Trường hợp Đặc biệt & Những Cạm bẫy Thông thường
+## Tóm tắt & Các bước tiếp theo
 
-| Tình huống | Điều cần chú ý | Giải pháp đề xuất |
-|-----------|-------------------|---------------|
-| **Tệp rỗng hoặc không tồn tại** | `FileNotFoundException` được Jsoup ném ra | Kiểm tra đường dẫn trước khi gọi `loadHtml` và đưa ra thông báo lỗi thân thiện. |
-| **HTML rất lớn (≥ 100 MB)** | Hết bộ nhớ khi tải toàn bộ tài liệu | Sử dụng **jsoup’s streaming parser** (`Jsoup.parse(InputStream, ...)`) và phân trang ngay khi đọc. |
-| **Ký tự không phải ASCII** | Kết quả bị rối nếu charset sai | Rõ ràng truyền charset đúng (`UTF‑8` là an toàn nhất). |
-| **Nội dung động (tạo bởi JavaScript)** | Jsoup không thực thi script, vì vậy văn bản render có thể thiếu | Chuyển sang trình duyệt không giao diện như **Playwright** hoặc **Selenium** nếu thực sự cần thực thi script. |
-| **Cần phân trang chính xác** | Phương pháp chia dựa trên ký tự có thể lệch so với trang trực quan | Đi sâu hơn vào các đối tượng `PageBox` do **openhtmltopdf** cung cấp; chúng cho biết các bounding box chính xác. |
+Chúng ta đã đi qua toàn bộ quy trình **trích xuất văn bản từ HTML trong Java**:
+
+1. Thêm Aspose.HTML vào quá trình build (bước “load html document java”).  
+2. Tạo một thể hiện `HTMLDocument` trỏ tới tệp của bạn.  
+3. Viết XPath không phân biệt chữ để lấy đúng văn bản cần.  
+4. Lặp qua `NodeList` và xuất ra các chuỗi sạch.
+
+Đó là giải pháp cốt lõi chỉ trong khoảng 40 dòng mã.  
+
+### Bạn có thể làm gì tiếp theo?
+
+- **Xử lý hàng loạt** – lặp qua một thư mục các tệp HTML và tổng hợp kết quả vào file CSV.  
+- **XPath nâng cao** – dùng các predicate để lọc theo giá, danh mục hoặc giá trị thuộc tính.  
+- **Tối ưu hiệu năng** – bật `HTMLDocument.setLazyLoading(true)` cho các tệp cực lớn.  
+- **Bộ phân tích thay thế** – nếu không thể dùng thư viện thương mại, hãy xem xét JSoup (mã nguồn mở) và so sánh API.
+
+Hãy tự do thử nghiệm các ý tưởng này, và để mã phát triển phù hợp với nhu cầu dự án của bạn.
 
 ---
 
-## Ví dụ Hoàn chỉnh (Tất cả các Phần Gộp lại)
+### Lời kết
 
+Việc trích xuất văn bản từ HTML không cần phải là một công việc nặng nhọc. Bằng cách **load the HTML document Java** với Aspose.HTML và tận dụng XPath, bạn có được một giải pháp ngắn gọn, dễ bảo trì và có khả năng mở rộng từ đoạn mã nhỏ đến việc trích xuất dữ liệu cấp doanh nghiệp. Hãy thử ngay, tùy chỉnh XPath cho cấu trúc markup của riêng bạn, và bạn sẽ thấy mình có thể biến những trang web lộn xộn thành dữ liệu sạch, có thể sử dụng được.
 
-
-## Bạn Nên Học Gì Tiếp Theo?
-
-Các hướng dẫn sau đây đề cập đến các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật được trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã hoàn chỉnh với giải thích từng bước để giúp bạn làm chủ các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
-
-- [Load HTML Documents from File in Aspose.HTML for Java](/html/english/java/creating-managing-html-documents/load-html-documents-from-file/)
-- [Advanced File Loading for HTML Documents in Aspose.HTML for Java](/html/english/java/creating-managing-html-documents/advanced-file-loading-html-documents/)
-- [Save HTML Document to File in Aspose.HTML for Java](/html/english/java/saving-html-documents/save-html-to-file/)
+Chúc bạn lập trình vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

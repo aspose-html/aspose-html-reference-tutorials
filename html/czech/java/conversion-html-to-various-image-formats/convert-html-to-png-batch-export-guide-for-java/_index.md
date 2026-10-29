@@ -61,10 +61,7 @@ schemas:
 
       - [Convert HTML to PNG with Aspose.HTML for Java](/html/english/java/conversion-html-to-various-image-formats/convert-html-to-png/)
       - [How to Convert HTML to PDF Java – Using Aspose.HTML for Java](/html/english/java/conversion-html-to-other-formats/convert-html-to-pdf/)
-      - [Convert HTML to PNG with Aspose.HTML Message Handlers in Java](/html/english/java/configuring-environment/use-message-handlers/)
-
-      {{< /blocks/products/pf/tutorial-page-section >}} {{< /blocks/products/pf/main-container
-      >}} {{< /blocks/products/pf/main-wrap-class >}} {{< bloc'
+      - [Convert HTML to PNG with Aspose.HTML Message Handlers in Java](/html/english/java/configuring-environment/use-message-handlers/)'
     question: Does the thread pool respect hyper‑threading?
   type: FAQPage
 tags:

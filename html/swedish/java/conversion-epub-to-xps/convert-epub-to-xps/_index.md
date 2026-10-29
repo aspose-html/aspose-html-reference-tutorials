@@ -9,11 +9,8 @@ url: /sv/java/conversion-epub-to-xps/convert-epub-to-xps/
 weight: 10
 ---
 
-.
 
-Also keep markdown links.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
