@@ -1,0 +1,7 @@
+Title: How to create markdown from HTML using Python
+Slug: how-to-create-markdown-from-html-using-python
+Category: general
+ProcessedDate: 2026-08-22T22:19:38.531765
+SourceRepo: AI Search API
+Keywords: create markdown from html, convert html to markdown, how to convert html, export html to markdown, html to markdown python
+PRNumber: 249

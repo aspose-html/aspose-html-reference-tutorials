@@ -1,0 +1,7 @@
+Title: How to embed images in HTML‑to‑Markdown conversion
+Slug: how-to-embed-images-in-html-to-markdown-conversion
+Category: general
+ProcessedDate: 2026-07-05T20:44:06.375809
+SourceRepo: AI Search API
+Keywords: how to embed images, convert html to markdown, html to markdown conversion, python html to markdown, convert html page
+PRNumber: 204

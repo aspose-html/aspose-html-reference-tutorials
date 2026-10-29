@@ -1,0 +1,7 @@
+Title: How to parse HTML with depth limiting using Python
+Slug: how-to-parse-html-with-depth-limiting-using-python
+Category: general
+ProcessedDate: 2026-09-13T22:56:02.221686
+SourceRepo: AI Search API
+Keywords: how to parse html, load html document, how to limit depth, prevent infinite recursion
+PRNumber: 264
