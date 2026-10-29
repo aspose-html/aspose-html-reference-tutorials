@@ -13,7 +13,6 @@ url: /vi/net/html-document-manipulation/
 
 # Thao tác tài liệu HTML
 
-
 Bạn đã sẵn sàng khai thác toàn bộ tiềm năng của thao tác tài liệu HTML trong khuôn khổ .NET chưa? Với Aspose.HTML cho .NET, bạn có khả năng chuyển đổi, nâng cao và thao tác các tài liệu HTML như chưa từng có trước đây. Bài viết này sẽ đưa bạn vào hành trình qua danh sách hướng dẫn toàn diện của chúng tôi, trang bị cho bạn kiến thức và công cụ cần thiết để thành thạo thao tác tài liệu HTML một cách dễ dàng.
 
 ## Ra mắt Aspose.HTML cho .NET
@@ -59,6 +58,10 @@ Mở khóa tiềm năng của Aspose.HTML cho .NET với hướng dẫn toàn di
 Tìm hiểu cách khai thác sức mạnh của Aspose.HTML cho .NET. Tăng cường phát triển web của bạn bằng cách xử lý và hiển thị HTML.
 ### [Tạo một tài liệu trong .NET với Aspose.HTML](./creating-a-document/)
 Giải phóng sức mạnh của Aspose.HTML cho .NET. Học cách tạo, thao tác và tối ưu hóa tài liệu HTML và SVG một cách dễ dàng. Khám phá các ví dụ từng bước và câu hỏi thường gặp.
+### [Tạo tài liệu HTML với Aspose.HTML – Hướng dẫn từng bước](./create-html-document-with-aspose-html-step-by-step-guide/)
+Khám phá cách tạo tài liệu HTML bằng Aspose.HTML qua hướng dẫn chi tiết từng bước.
+### [Tạo tài liệu HTML với Aspose.HTML – Hướng dẫn đầy đủ](./create-html-document-with-aspose-html-full-guide/)
+Hướng dẫn chi tiết cách tạo tài liệu HTML từ đầu bằng Aspose.HTML, bao gồm các ví dụ thực tế và mẹo tối ưu.
 ### [Chỉnh sửa tài liệu trong .NET với Aspose.HTML](./editing-a-document/)
 Tạo nội dung web hấp dẫn với Aspose.HTML cho .NET. Tìm hiểu cách thao tác HTML, CSS và nhiều hơn nữa.
 ### [Lưu tài liệu trong .NET với Aspose.HTML](./saving-a-document/)
@@ -71,6 +74,37 @@ Học cách sử dụng Aspose.HTML cho .NET. Nhập không gian tên, hợp nh�
 Mở khóa tiềm năng phát triển web với Aspose.HTML cho .NET. Tạo, chuyển đổi và thao tác tài liệu HTML dễ dàng.
 ### [Tạo HTML từ chuỗi trong C# – Hướng dẫn Trình xử lý tài nguyên tùy chỉnh](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Tìm hiểu cách tạo tài liệu HTML từ chuỗi trong C# bằng trình xử lý tài nguyên tùy chỉnh của Aspose.HTML.
+### [Tạo chữ in đậm và in nghiêng trong C# – Hướng dẫn nhanh về định dạng HTML](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
+Học cách áp dụng kiểu chữ đậm và nghiêng cho nội dung HTML bằng Aspose.HTML trong C# một cách nhanh chóng.
+### [Thêm phần tử vào Body – Hướng dẫn C# đầy đủ với Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)
+Hướng dẫn chi tiết cách thêm phần tử vào phần thân HTML bằng C# và Aspose.HTML.
+### [Cách tạo HTML với Aspose – Tìm phần tử, áp dụng in đậm](./how-to-create-html-with-aspose-find-element-apply-bold/)
+Hướng dẫn cách sử dụng Aspose.HTML để tìm một phần tử trong tài liệu HTML và áp dụng định dạng in đậm.
+### [Cách tạo HTML và thêm phần tử CSS Style – Hướng dẫn từng bước](./how-to-create-html-and-add-css-style-element-step-by-step-gu/)
+Hướng dẫn chi tiết cách tạo tài liệu HTML và chèn phần tử CSS Style bằng Aspose.HTML cho .NET.
+### [Tạo tài liệu HTML C# – Hướng dẫn từng bước](./create-html-document-c-step-by-step-guide/)
+Học cách tạo tài liệu HTML trong C# bằng Aspose.HTML qua các bước chi tiết và ví dụ thực tế.
+
+### [Cách tạo HTML – Thêm phần tử và Định dạng văn bản](./how-to-create-html-append-elements-and-style-text/)
+Hướng dẫn cách tạo tài liệu HTML, thêm phần tử và áp dụng kiểu cho văn bản bằng Aspose.HTML cho .NET.
+### [Cách định dạng HTML với Aspose.HTML – Đặt kiểu phông chữ trong C#](./how-to-style-html-with-aspose-html-set-font-style-in-c/)
+Hướng dẫn cách sử dụng Aspose.HTML trong C# để thiết lập kiểu phông chữ cho tài liệu HTML, bao gồm các ví dụ thực tế.
+### [Kết hợp chữ đậm và chữ nghiêng trong HTML với C# – Hướng dẫn đầy đủ](./combine-bold-and-italic-in-html-with-c-complete-guide/)
+Học cách áp dụng định dạng đậm và nghiêng trong HTML bằng C# với Aspose.HTML qua các ví dụ thực tế và hướng dẫn chi tiết.
+### [Cách lưu HTML với Aspose.HTML – Hướng dẫn từng bước](./how-to-save-html-with-aspose-html-step-by-step-guide/)
+Hướng dẫn chi tiết cách lưu tài liệu HTML bằng Aspose.HTML trong .NET, kèm ví dụ thực tế và các mẹo quan trọng.
+### [Áp dụng kiểu phông chữ bằng lập trình – Hướng dẫn nhanh C#](./apply-font-style-programmatically-quick-c-guide/)
+Hướng dẫn nhanh cách áp dụng kiểu phông chữ trong tài liệu HTML bằng C# sử dụng Aspose.HTML.
+### [Cách tạo HTML với văn bản có định dạng – Hướng dẫn C# đầy đủ](./how-to-create-html-with-styled-text-complete-c-guide/)
+Hướng dẫn chi tiết cách tạo tài liệu HTML với văn bản có định dạng bằng C#, bao gồm ví dụ thực tế và các bước thực hiện.
+### [Đặt innerHTML cho thẻ span trong C# với Aspose.HTML – Hướng dẫn toàn diện](./set-span-innerhtml-in-c-with-aspose-html-complete-guide/)
+Tìm hiểu cách thiết lập thuộc tính innerHTML cho thẻ span trong C# bằng Aspose.HTML. Hướng dẫn chi tiết từng bước.
+### [Thay đổi kiểu đoạn văn trong C# – Hướng dẫn đầy đủ Aspose.HTML](./change-paragraph-style-in-c-complete-aspose-html-guide/)
+Tìm hiểu cách thay đổi kiểu đoạn văn trong C# bằng Aspose.HTML. Hướng dẫn chi tiết từng bước cho nhà phát triển.
+### [Tạo phông chữ in đậm nghiêng trong C# – Hướng dẫn đầy đủ](./create-font-bold-italic-in-c-complete-guide/)
+Hướng dẫn chi tiết cách tạo phông chữ in đậm và nghiêng trong C# bằng Aspose.HTML.
+### [Tạo tài liệu HTML trong bộ nhớ với Aspose.HTML – Hướng dẫn đầy đủ](./create-html-document-memory-with-aspose-html-complete-guide/)
+Khám phá cách tạo tài liệu HTML trong bộ nhớ bằng Aspose.HTML, hướng dẫn chi tiết từng bước cho nhà phát triển.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -78,3 +112,4 @@ Tìm hiểu cách tạo tài liệu HTML từ chuỗi trong C# bằng trình x�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+

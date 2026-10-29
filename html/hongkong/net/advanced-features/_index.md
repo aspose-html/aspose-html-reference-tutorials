@@ -40,12 +40,24 @@ Aspose.HTML for .NET 是一個功能強大的工具，可讓開發人員以程�
 了解如何使用 Aspose.HTML for .NET 建立動態 Web 內容。我們的教程涵蓋了針對初學者的先決條件、逐步說明和常見問題解答。
 ### [使用 Aspose.HTML 在 .NET 中透過 PdfDevice 產生加密 PDF](./generate-encrypted-pdf-by-pdfdevice/)
 使用 Aspose.HTML for .NET 將 HTML 動態轉換為 PDF。輕鬆整合、可自訂選項和強大的效能。
+### [在 C# 中將文件儲存為 PDF – 完整指南（支援 ZIP）](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
+了解如何使用 Aspose.HTML 在 C# 中將 HTML 轉換為 PDF，並支援將 PDF 打包為 ZIP 檔案的完整步驟指南。
 ### [使用 Aspose.HTML 微調 .NET 中的轉換器](./fine-tuning-converters/)
 了解如何使用 Aspose.HTML for .NET 將 HTML 轉換為 PDF、XPS 和映像。包含程式碼範例和常見問題的逐步教學。
 ### [在 .NET 中透過 Aspose.HTML 使用 HTML 模板](./using-html-templates/)
 了解如何使用 Aspose.HTML for .NET 從 JSON 資料動態產生 HTML 文件。在 .NET 應用程式中利用 HTML 操作的強大功能。
 ### [如何在 C# 中以程式方式合併字型 – 步驟指南](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
 本指南逐步說明如何在 C# 中使用程式碼合併多個字型檔案，打造自訂字型資源。
+### [在 C# 中取得組件版本 – 快速指南取得程式庫版本](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
+了解如何在 C# 中使用程式碼取得組件的版本資訊，快速掌握庫版本檢查方法。
+### [Aspose HTML 中的自訂資源處理程式 – 儲存至串流指南](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
+說明如何在 Aspose HTML 中實作自訂資源處理程式，將資源直接儲存至串流。
+### [使用 Aspose HTML 壓縮 HTML – 完整指南](./how-to-zip-html-with-aspose-html-complete-guide/)
+了解如何使用 Aspose.HTML 將 HTML 文件壓縮為 ZIP 檔案，提供完整步驟與範例。
+### [如何在 .NET 中啟用 Clear Type – 啟用平滑模式](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
+了解如何在 .NET 應用程式中啟用 Clear Type 及平滑模式，以提升文字渲染品質。
+### [將 Word 文件轉換為 PDF – 純文字指南（C#）](./convert-word-document-to-pdf-clear-text-guide-c/)
+了解如何使用 Aspose.HTML 在 C# 中將 Word 文件轉換為 PDF，保持純文字內容的完整性。
 
 ## 結論
 

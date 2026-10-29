@@ -1,46 +1,22 @@
 ---
 category: general
-date: 2026-07-02
-description: Převod HTML na PNG pomocí Javy a Aspose.HTML. Naučte se, jak vykreslit
-  HTML jako obrázek, nastavit možnosti konverze a rychle uložit HTML jako PNG.
+date: 2026-05-06
+description: Rychle převádějte HTML na PNG pomocí Aspose.HTML. Naučte se, jak renderovat
+  HTML jako PNG, zakázat externí zdroje a získat čistý obrázek jakékoli webové stránky.
 draft: false
 keywords:
 - convert html to png
-- render html as image
-- html to image java
-- save html as png
-- html file to image
+- render html as png
+- render webpage to image
+- how to convert html to png
+- aspose html to png
 language: cs
-og_description: Převod HTML na PNG pomocí Javy. Tento tutoriál ukazuje, jak renderovat
-  HTML jako obrázek, konfigurovat možnosti a efektivně uložit HTML jako PNG.
-og_title: Převod HTML na PNG v Javě – Kompletní průvodce
-schemas:
-- author: Aspose
-  dateModified: '2026-07-02'
-  description: Convert HTML to PNG using Java and Aspose.HTML. Learn how to render
-    HTML as image, set conversion options, and save HTML as PNG quickly.
-  headline: Convert HTML to PNG in Java – Complete Step‑by‑Step Guide
-  type: TechArticle
-- description: Convert HTML to PNG using Java and Aspose.HTML. Learn how to render
-    HTML as image, set conversion options, and save HTML as PNG quickly.
-  name: Convert HTML to PNG in Java – Complete Step‑by‑Step Guide
-  steps:
-  - name: Maven
-    text: '```xml <dependency> <groupId>com.aspose</groupId> <artifactId>aspose-html</artifactId>
-      <version>23.10</version> <!-- Check for the latest version --> </dependency>
-      ```'
-  - name: Gradle (Groovy DSL)
-    text: '```gradle implementation ''com.aspose:aspose-html:23.10'' // Verify the
-      newest release ```'
-  - name: What the code does (and why)
-    text: 1. **Loading** – The `HTMLDocument` constructor automatically decides whether
-      `source` is a URL or a file path. This flexibility makes the method reusable
-      for any *html file to image* scenario. 2. **Option building** – We only set
-      width/height when the caller provides non‑zero values. Otherwise we f
-  type: HowTo
+og_description: Převod HTML na PNG pomocí Aspose.HTML. Tento průvodce ukazuje, jak
+  vykreslit HTML jako PNG, řídit nastavení sandboxu a vytvořit spolehlivý obrázek.
+og_title: Převod HTML na PNG v Javě – kompletní návod
 tags:
-- Java
 - Aspose.HTML
+- Java
 - Image Conversion
 title: Převod HTML na PNG v Javě – Kompletní průvodce krok za krokem
 url: /cs/java/conversion-html-to-various-image-formats/convert-html-to-png-in-java-complete-step-by-step-guide/
@@ -50,227 +26,191 @@ url: /cs/java/conversion-html-to-various-image-formats/convert-html-to-png-in-ja
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Převod HTML na PNG v Javě – Kompletní průvodce krok za krokem
+# Převod HTML na PNG – Kompletní Java tutoriál
 
-Už jste se někdy zamýšleli, jak **převést HTML na PNG** bez nasazení těžkopádného prohlížeče? Nejste v tom sami. Mnoho vývojářů v Javě potřebuje *renderovat HTML jako obrázek* pro zprávy, náhledy nebo vložení do e‑mailů a chtějí spolehlivý programovatelný způsob, jak to udělat.
+Už jste někdy potřebovali **převést HTML na PNG**, ale nebyli jste si jisti, která knihovna vám poskytne pixel‑dokonalé výsledky? Nejste v tom sami. Mnoho vývojářů bojuje s vykreslením webové stránky do obrázku, který vypadá přesně tak, jako v prohlížeči — zejména když externí zdroje jako fonty nebo reklamy mohou výstup narušit.
 
-V tomto průvodci projdeme vše, co potřebujete k **převodu HTML na PNG** pomocí Aspose.HTML pro Java. Na konci budete vědět, jak načíst soubor HTML nebo URL, upravit velikost a kvalitu obrázku a **uložit HTML jako PNG** pomocí několika řádků kódu. Žádná magie, jen jasné kroky a praktické tipy.
+V tomto průvodci vás provedeme čistým, reprodukovatelným způsobem, jak **vykreslit HTML jako PNG** pomocí Aspose.HTML pro Java. Na konci budete mít připravený program, který převádí libovolnou URL na ostrý PNG soubor, přičemž externí zdroje jsou uzamčeny pro konzistenci.
 
-## Co se naučíte
-
-- Jak přidat knihovnu Aspose.HTML do projektu Maven nebo Gradle.  
-- Rozdíl mezi *render html as image* z vzdálené URL a lokálního souboru.  
-- Nastavení `ImageConversionOptions` pro ovládání rozměrů, formátu a kvality.  
-- Provedení převodu a řešení běžných problémů (např. chybějící zdroje, velké stránky).  
-- Ověření výstupu a rozšíření kódu pro další formáty.
-
-Vše toto funguje s projekty **html to image java** běžícími na Java 8 nebo novější.
+> **Co získáte:** plně funkční třídu v Javě, vysvětlení každého nastavení, tipy na běžné úskalí a rychlý způsob, jak výsledek ověřit.
 
 ---
 
-## Požadavky
-
-Než se ponoříme dál, ujistěte se, že máte:
+## Co budete potřebovat
 
 | Požadavek | Proč je důležitý |
-|-----------|-------------------|
-| **Java 8+** (JDK) | Aspose.HTML vyžaduje alespoň Java 8. |
-| **Maven** nebo **Gradle** | Zjednodušuje správu závislostí. |
-| **Přístup k internetu** (pokud načítáte vzdálenou URL) | Převodník stahuje externí CSS, obrázky, fonty. |
-| **Malý HTML soubor** (nebo živá webová stránka) | Použijeme jej jako zdroj pro převod. |
+|--------------|----------------|
+| **Java 17+** (nebo jakýkoli aktuální JDK) | Aspose.HTML cílí na moderní Java runtimey. |
+| **Aspose.HTML for Java** knihovna (stáhněte z [oficiální stránky](https://products.aspose.com/html/java/)) | Poskytuje třídy `Sandbox`, `Converter` a možnosti, které použijeme. |
+| **IDE** (IntelliJ IDEA, Eclipse, VS Code, atd.) | Usnadňuje úpravy a spouštění kódu. |
+| **Přístup k internetu** (pro ukázkovou URL) | Demo načítá `https://example.com/sample.html`. Můžete ji nahradit libovolnou stránkou, kterou vlastníte. |
 
-Pokud vám něco chybí, stáhněte si JDK od Oracle nebo OpenJDK a nainstalujte Maven (`brew install maven` na macOS nebo použijte správce balíčků). Žádné další nástroje nejsou potřeba.
-
----
-
-## Krok 1 – Přidání Aspose.HTML do vašeho projektu
-
-### Maven
-
-```xml
-<dependency>
-    <groupId>com.aspose</groupId>
-    <artifactId>aspose-html</artifactId>
-    <version>23.10</version> <!-- Check for the latest version -->
-</dependency>
-```
-
-### Gradle (Groovy DSL)
-
-```gradle
-implementation 'com.aspose:aspose-html:23.10' // Verify the newest release
-```
-
-> **Tip:** Aspose nabízí bezplatnou zkušební licenci, která funguje 30 dnů. Umístěte soubor `Aspose.Total.lic` do složky `src/main/resources` a knihovna jej automaticky načte.
-
-Přidání závislosti je první krok k převodu **html to image java**. Knihovna abstrahuje těžkou práci s renderováním DOM, aplikací CSS a rasterizací výsledku.
+Pro tento úryvek není vyžadováno nastavení Maven/Gradle, ale pokud dáváte přednost nástroji pro sestavení, stačí přidat Aspose.HTML JAR do classpathu.
 
 ---
 
-## Krok 2 – Načtení HTML dokumentu (Render HTML as Image Source)
+## Krok 1 – Vytvoření sandboxu, který simuluje obrazovku
 
-Můžete předat konstruktoru `HTMLDocument` vzdálenou URL, lokální cestu k souboru nebo dokonce řetězec obsahující surové HTML. Zde jsou tři běžné vzory:
+Prvním krokem je nastavení **sandboxu**. Představte si jej jako malý virtuální monitor, který říká Aspose.HTML, jak velká má být oblast vykreslování a jaké DPI použít. To je zásadní, pokud chcete **vykreslit webovou stránku do obrázku** s předvídatelnými rozměry.
 
 ```java
 import com.aspose.html.*;
-
-public class HtmlLoader {
-    // Load from a remote URL
-    public static HTMLDocument fromUrl(String url) throws Exception {
-        return new HTMLDocument(url);
-    }
-
-    // Load from a local file on disk
-    public static HTMLDocument fromFile(String path) throws Exception {
-        return new HTMLDocument(path);
-    }
-
-    // Load from a raw HTML string
-    public static HTMLDocument fromString(String html) throws Exception {
-        // The second argument is a base URI for resolving relative resources
-        return new HTMLDocument(html, "file:///");
-    }
-}
-```
-
-> **Proč je to důležité:** Když *render html as image*, převodník musí vyřešit CSS, obrázky a fonty relativně k základní URI. Správné nastavení základu zabraňuje poškozeným odkazům ve finálním PNG.
-
----
-
-## Krok 3 – Konfigurace možností převodu obrazu
-
-`ImageConversionOptions` vám umožňuje jemně doladit výstup. Níže je typická konfigurace, která odpovídá dříve ukázanému úryvku kódu, ale s dalšími bezpečnostními kontrolami.
-
-```java
+import com.aspose.html.rendering.*;
 import com.aspose.html.converters.*;
-import com.aspose.html.saving.*;
 
-public class ConversionSettings {
-    public static ImageConversionOptions pngOptions(int width, int height, int quality) {
-        ImageConversionOptions opts = new ImageConversionOptions();
-        opts.setFormat(ImageFormat.PNG);          // Primary output format
-        opts.setWidth(width);                     // Desired width in pixels
-        opts.setHeight(height);                   // Desired height in pixels
-        opts.setJpegQuality(quality);             // Ignored for PNG but required by the API
-        // Optional: preserve aspect ratio if you only set one dimension
-        opts.setPreserveAspectRatio(true);
-        return opts;
-    }
-}
-```
-
-**Klíčové body, které si zapamatovat:**
-
-- **`setFormat`** určuje finální typ obrázku (`PNG`, `JPEG`, `BMP` atd.).  
-- **`setWidth` / `setHeight`** řídí velikost rastru. Pokud jeden vynecháte, knihovna zachová původní poměr stran.  
-- **`setJpegQuality`** je povinné i při výstupu PNG; API jej ignoruje, ale pokud není nastaveno, vyvolá výjimku.  
-- **`setPreserveAspectRatio`** zajišťuje, že obrázek nebude roztažen, když nastavíte jen šířku *nebo* výšku.
-
----
-
-## Krok 4 – Provedení převodu (HTML soubor na obrázek)
-
-Nyní vše spojíme dohromady. Následující třída demonstruje kompletní workflow **convert html to png**, který zvládá jak vzdálené URL, tak lokální soubory.
-
-```java
-import com.aspose.html.*;
-import com.aspose.html.converters.*;
-import com.aspose.html.saving.*;
-
-public class HtmlToPngConverter {
-    /**
-     * Converts the supplied HTML source to a PNG file.
-     *
-     * @param source   Either a URL (http/https) or a local file path.
-     * @param output   Destination PNG file (including .png extension).
-     * @param width    Desired width in pixels (set 0 to keep original width).
-     * @param height   Desired height in pixels (set 0 to keep original height).
-     * @throws Exception if conversion fails.
-     */
-    public static void convert(String source, String output, int width, int height) throws Exception {
-        // Load the document – the constructor auto‑detects URL vs file path
-        HTMLDocument doc = new HTMLDocument(source);
-
-        // Build conversion options
-        ImageConversionOptions opts = new ImageConversionOptions();
-        opts.setFormat(ImageFormat.PNG);
-        opts.setWidth(width > 0 ? width : doc.getDefaultView().getComputedStyle().getWidth());
-        opts.setHeight(height > 0 ? height : doc.getDefaultView().getComputedStyle().getHeight());
-        opts.setJpegQuality(85); // Required placeholder
-
-        // Perform conversion
-        Converter.convertDocument(doc, output, opts);
-
-        System.out.println("Conversion complete: " + output);
-    }
-
-    // Demo entry point
+public class HtmlToPngWithSandbox {
     public static void main(String[] args) throws Exception {
-        // Example: remote page → PNG
-        convert("https://example.com", "output_remote.png", 1024, 768);
 
-        // Example: local HTML file → PNG (keep original dimensions)
-        convert("C:/temp/sample.html", "output_local.png", 0, 0);
+        // Step 1: Create a sandbox that simulates a 1024×768 screen at 96 dpi
+        Sandbox renderingSandbox = new Sandbox();
+        renderingSandbox.setDeviceWidth(1024);   // width in pixels
+        renderingSandbox.setDeviceHeight(768);   // height in pixels
+        renderingSandbox.setDeviceDpi(96);       // screen density
+```
+
+**Proč sandbox?**  
+Bez něj by Aspose.HTML se pokusil odhadnout velikost z CSS stránky, což může vést k nekonzistentním snímkům během různých běhů. Pevným nastavením šířky, výšky a DPI zařízení garantujeme stejný výstup pokaždé — ideální pro automatizované pipeline.
+
+---
+
+## Krok 2 – Zakázání externích zdrojů pro reprodukovatelné výsledky
+
+Externí fonty, reklamy nebo analytické skripty mohou během běhů měnit vzhled stránky. Pro zachování deterministické konverze vypneme načítání jakýchkoli vzdálených zdrojů.
+
+```java
+        // Step 2: Disable loading of external resources for reproducible results
+        renderingSandbox.setEnableExternalResources(false);
+```
+
+**Tip:** Pokud *potřebujete* externí obrázky (např. fotografii produktu), nastavte tento příznak na `true` a ujistěte se, že URL jsou dostupné. Jinak se místo zdrojů zobrazí zástupné symboly.
+
+---
+
+## Krok 3 – Příprava možností konverze na PNG
+
+Aspose.HTML přichází s rozumnými výchozími nastaveními pro výstup PNG, ale můžete upravit úroveň komprese, barvu pozadí a podobně. Ve většině případů funguje výchozí `ImageConversionOptions` bez problémů.
+
+```java
+        // Step 3: Prepare conversion options (default PNG settings)
+        ImageConversionOptions pngOptions = new ImageConversionOptions();
+        // Example: pngOptions.setBackgroundColor(java.awt.Color.WHITE);
+```
+
+**Jak to souvisí s otázkou „jak převést html na png“?**  
+Explicitně říkáte knihovně *jaký* formát chcete (PNG) a *jak* má být vykreslen (pomocí sandboxu). Úpravou `pngOptions` můžete odpovědět na různé varianty této otázky — např. nastavit kvalitu nebo přidat průhledné pozadí.
+
+---
+
+## Krok 4 – Provedení konverze
+
+Nyní zavoláme statickou metodu `Converter.convertHtmlToPng`, předáme jí zdrojovou URL, cestu k výstupnímu souboru, naše možnosti a nakonfigurovaný sandbox.
+
+```java
+        // Step 4: Convert the HTML page to a PNG image using the configured sandbox
+        Converter.convertHtmlToPng(
+                "https://example.com/sample.html",   // source HTML page
+                "output/output.png",                 // target PNG file
+                pngOptions,                          // conversion settings
+                renderingSandbox);                   // sandbox with device specs
+```
+
+Po provedení tohoto řádku najdete na disku `output/output.png` — pixel‑dokonalý snímek stránky, jak by se zobrazila na monitoru 1024×768.
+
+---
+
+## Krok 5 – Ověření výstupu
+
+Rychlá kontrola vám ušetří pozdější honbu za chybami. Otevřete PNG v libovolném prohlížeči obrázků; měli byste vidět stránku vykreslenou přesně podle očekávání. Pokud je obrázek prázdný nebo chybí některé prvky, vraťte se k **kroku 2** — možná potřebujete povolit externí zdroje, nebo stránka spoléhá na JavaScript, který Aspose.HTML neprovádí.
+
+```java
+        System.out.println("Conversion complete! Check the file at output/output.png");
     }
 }
 ```
 
-### Co kód dělá (a proč)
-
-1. **Načítání** – Konstruktor `HTMLDocument` automaticky rozhodne, zda je `source` URL nebo cesta k souboru. Tato flexibilita dělá metodu znovupoužitelnou pro jakýkoli scénář *html file to image*.  
-2. **Sestavování možností** – Šířku/výšku nastavujeme jen tehdy, když volající poskytne nenulové hodnoty. Jinak se použije původní velikost dokumentu, čímž se zabrání nechtěnému škálování.  
-3. **Převod** – `Converter.convertDocument` je jednorázová metoda, která provede veškerou těžkou práci: rozvržení, renderování CSS, rasterizaci fontů a generování pixelů.  
-4. **Zpětná vazba** – Jednoduchý `System.out.println` vás informuje, že PNG je připraveno, čímž splňuje krok „označit, že převod byl dokončen“ z původního úryvku.
-
 ---
 
-## Krok 5 – Ověření výstupu (Co očekávat)
+## Kompletní funkční příklad
 
-Po spuštění metody `main` byste ve svém projektovém adresáři měli vidět dva PNG soubory:
+Níže je kompletní, připravená ke spuštění třída. Stačí ji zkopírovat do svého IDE, případně upravit výstupní složku, a stisknout **Run**.
 
+```java
+import com.aspose.html.*;
+import com.aspose.html.rendering.*;
+import com.aspose.html.converters.*;
+
+public class HtmlToPngWithSandbox {
+    public static void main(String[] args) throws Exception {
+
+        // Step 1: Create a sandbox that simulates a 1024×768 screen at 96 dpi
+        Sandbox renderingSandbox = new Sandbox();
+        renderingSandbox.setDeviceWidth(1024);
+        renderingSandbox.setDeviceHeight(768);
+        renderingSandbox.setDeviceDpi(96);
+
+        // Step 2: Disable loading of external resources for reproducible results
+        renderingSandbox.setEnableExternalResources(false);
+
+        // Step 3: Prepare conversion options (default PNG settings)
+        ImageConversionOptions pngOptions = new ImageConversionOptions();
+
+        // Step 4: Convert the HTML page to a PNG image using the configured sandbox
+        Converter.convertHtmlToPng(
+                "https://example.com/sample.html",
+                "output/output.png",
+                pngOptions,
+                renderingSandbox);
+
+        System.out.println("Conversion complete! Check the file at output/output.png");
+    }
+}
 ```
-output_remote.png   → 1024×768 pixels (as requested)
-output_local.png    → Original dimensions of sample.html
+
+> **Očekávaný výstup:** soubor pojmenovaný `output.png` (nebo jakýkoli jiný název), který obsahuje PNG vykreslení `sample.html` v rozlišení 1024 × 768.
+
+---
+
+## Časté otázky a okrajové případy
+
+### 1. *Co když stránka používá CSS media queries?*  
+Protože jsme nastavili pevnou šířku/výšku zařízení, media queries zaměřené na konkrétní breakpointy se spustí přesně tak, jako by na skutečné obrazovce této velikosti. Pokud potřebujete jiný layout, stačí změnit `setDeviceWidth`/`setDeviceHeight`.
+
+### 2. *Mohu vykreslit lokální HTML soubor?*  
+Ano. Nahraďte URL URI ve formátu `file:///`, např. `"file:///C:/cesta/k/strance.html"`.
+
+### 3. *Jak přidat průhledné pozadí?*  
+Nastavte barvu pozadí na `java.awt.Color.TRANSPARENT` v `pngOptions`:
+
+```java
+pngOptions.setBackgroundColor(new java.awt.Color(0,0,0,0));
 ```
 
-Otevřete je libovolným prohlížečem obrázků; všimnete si, že stránka vypadá přesně jako snímek obrazovky renderovaného HTML, ale uložena jako bezztrátový PNG. To je podstata **save html as png**.
+### 4. *Existuje způsob, jak zachytit celou posouvatelnou stránku?*  
+Aspose.HTML může vykreslit celou výšku dokumentu nastavením výšky sandboxu na velkou hodnotu (např. `renderingSandbox.setDeviceHeight(5000)`). Sledujte spotřebu paměti u velmi vysokých stránek.
 
-**Běžný kontrolní seznam ověření**
-
-- ✅ Rozměry obrázku odpovídají nastaveným možnostem.  
-- ✅ Text, barvy CSS a pozadí se vykreslují správně.  
-- ✅ Žádné ikony poškozených obrázků – pokud vidíte zástupce, zkontrolujte, že jsou všechny externí zdroje dostupné z počítače, na kterém převod probíhá.  
+### 5. *Co s weby, které silně používají JavaScript?*  
+Aspose.HTML podporuje podmnožinu JavaScriptu. Pokud stránka spoléhá na složité klientské frameworky, zvažte předběžné vykreslení stránky (např. pomocí headless Chrome) před předáním statického HTML knihovně Aspose.
 
 ---
 
-## Řešení okrajových případů a pokročilé tipy
+## Pro tipy pro produkční nasazení
 
-| Situace | Jak to řešit |
-|---------|--------------|
-| **Velké HTML stránky ( > 10 MB )** | Zvyšte haldu JVM (`-Xmx2g`) nebo streamujte převod pomocí `Converter.convertDocumentAsync`. |
-| **Chybějící fonty** | Nainstalujte požadované fonty do OS, nebo je vložte pomocí `HTMLDocument.setUserStyleSheet` před převodem. |
-| **Potřeba JPEG místo PNG** | Změňte `opts.setFormat(ImageFormat.JPEG)` a upravte `setJpegQuality` na požadovanou úroveň (0‑100). |
-| **Požadujete průhledné pozadí** | PNG podporuje průhlednost ve výchozím nastavení; ujistěte se, že vaše CSS nenastavuje neprůhlednou barvu pozadí. |
-| **Dávkový převod** | Procházejte seznam URL/souborů a opakovaně používejte jedinou instanci `HTMLDocument` pro vyšší výkon. |
-| **Běh na serveru bez grafického rozhraní** | Aspose.HTML funguje i bez grafického prostředí, ale možná budete muset nastavit `java.awt.headless=true`. |
-
-Tyto úvahy dělají vaše řešení **html to image java** dostatečně robustní pro produkční nasazení.
+- **Dávkové zpracování:** Procházejte seznam URL a znovu použijte stejnou instanci `Sandbox`, abyste snížili režii.
+- **Ošetření chyb:** Zabalte `Converter.convertHtmlToPng` do try‑catch bloku a logujte `ConversionException` pro diagnostiku.
+- **Výkon:** Pro scénáře s vysokým průtokem zvyšujte DPI sandboxu jen tehdy, když je vyšší rozlišení skutečně potřeba; vyšší DPI zvyšuje spotřebu paměti.
+- **Bezpečnost:** Nechte `setEnableExternalResources(false)`, pokud výslovně nedůvěřujete zdroji, aby se předešlo vektorům vzdáleného spouštění kódu.
 
 ---
 
-## Kompletní funkční příklad (vše v jednom)
+## Závěr
 
-Níže je jediný Java soubor, který můžete zkopírovat‑vložit do nového Maven projektu a okamžitě spustit.
+Probrali jsme vše, co potřebujete k **převodu HTML na PNG** pomocí Aspose.HTML v Javě — od nastavení sandboxu, který napodobuje obrazovku, přes zakázání externích zdrojů, konfiguraci PNG možností až po zápis obrázku na disk. Tento přístup vám poskytuje deterministický, opakovatelný způsob, jak **vykreslit HTML jako PNG**, a lze jej zapojit do větších automatizačních pipeline.
 
+Dále můžete zkusit **vykreslit webovou stránku do obrázku** v jiných formátech (JPEG, BMP) změnou vlastnosti `setFormat` v `ImageConversionOptions`, nebo se ponořit do generování PDF pomocí stejné knihovny. V každém případě máte nyní pevný základ pro programové vykreslování obrázků v Javě.
 
+Šťastné programování a nebojte se experimentovat — někdy nejlepší výsledky přicházejí úpravou rozměrů sandboxu nebo nastavením DPI. Pokud narazíte na problémy, zanechte komentář níže; rád pomohu! 
 
-## Co byste se měli naučit dál?
-
-Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, aby vám pomohl zvládnout další funkce API a prozkoumat alternativní implementační přístupy ve vlastních projektech.
-
-- [Convert HTML to PNG with Aspose.HTML for Java](/html/english/java/conversion-html-to-various-image-formats/convert-html-to-png/)
-- [HTML to Image Java – Convert HTML to TIFF with Aspose.HTML](/html/english/java/conversion-html-to-various-image-formats/convert-html-to-tiff/)
-- [Convert HTML to PNG with Aspose.HTML Message Handlers in Java](/html/english/java/configuring-environment/use-message-handlers/)
+![příklad převodu html na png](https://example.com/placeholder-image.png "výsledek převodu html na png")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
