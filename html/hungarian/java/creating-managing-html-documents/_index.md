@@ -69,8 +69,6 @@ Ismerje meg, hogyan kérdezhet le HTML-t Java használatával, lépésről lép�
 Ismerje meg, hogyan tölthet be, kérdezhet le és számolhat meg HTML elemeket Java nyelven az Aspose.HTML segítségével.
 ### [HTML-dokumentum betöltése Java-ban – Teljes útmutató XPath és CSS használatával](./load-html-document-java-complete-guide-with-xpath-css/)
 Fedezze fel, hogyan tölthet be HTML-dokumentumokat Java-ban, és használhatja az XPath és CSS szelektorokat a tartalom lekérdezéséhez.
-### [HTML szöveg kinyerése Java-ban – Teljes programozási útmutató](./extract-text-from-html-in-java-complete-programming-guide/)
-Ismerje meg, hogyan nyerhet ki szöveget HTML-ből Java használatával, lépésről lépésre útmutató a hatékony adatkinyeréshez.
 ### [HTML lekérdezése Java-ban – Képek URL-jeinek kinyerése](./how-to-query-html-in-java-extract-image-urls/)
 Ismerje meg, hogyan nyerheti ki a képek URL-jeit HTML-ből Java használatával, lépésről lépésre útmutató.
 ### [HTML elemzése Java-ban – Szöveg kinyerése HTML cikkekből](./how-to-parse-html-in-java-extract-text-from-html-articles/)
@@ -160,6 +158,10 @@ Ismerje meg, hogyan kérhet le JSON adatot JavaScript használatával Java alkal
 Ismerje meg, hogyan használja a Fetch API-t JSON adatok betöltésére Java alkalmazásokban, részletes, lépésről‑lépésre útmutató.
 ### [Hogyan indítsunk szálat Java-ban – Teljes útmutató](./how-to-start-thread-in-java-complete-guide/)
 Ismerje meg, hogyan hozhat létre és indíthat el szálakat Java-ban lépésről lépésre, a teljes útmutatóban.
+### [HTML fájl olvasása Java – Teljes útmutató az Aspose.HTML használatával](./read-html-file-java-complete-guide-using-aspose-html/)
+Fedezze fel, hogyan olvashat be HTML fájlokat Java-ban az Aspose.HTML segítségével, részletes, lépésről‑lépésre útmutató.
+### [HTML-ből szöveg kinyerése Java-ban – Teljes programozási útmutató](./extract-text-from-html-in-java-complete-programming-guide/)
+Fedezze fel, hogyan nyerhet ki szöveget HTML-dokumentumokból Java használatával az Aspose.HTML segítségével, lépésről lépésre útmutató.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

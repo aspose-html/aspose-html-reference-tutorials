@@ -181,6 +181,10 @@ Leer hoe je de DPI van het renderingsapparaat instelt in Aspose.HTML for Java bi
 Leer hoe je met XPath en namespaces SVG‑elementen kunt selecteren in Java‑code met Aspose.HTML.
 ### [JavaScript uitvoeren in Java – Complete Aspose.HTML-gids](./execute-javascript-in-java-complete-aspose-html-guide/)
 Leer hoe je JavaScript kunt embedden en uitvoeren binnen Java‑applicaties met Aspose.HTML, stap voor stap.
+### [JavaScript‑uitvoering inschakelen met Aspose – Complete Java‑gids](./enable-javascript-execution-aspose-complete-java-guide/)
+Leer hoe je JavaScript kunt inschakelen en uitvoeren in Aspose.HTML for Java, stap voor stap, voor volledige functionaliteit.
+### [HTML‑sandbox maken in Java – Complete stapsgewijze gids](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
+Leer hoe je een veilige HTML‑sandbox opzet in Java met Aspose.HTML, stap voor stap.
 
 ---
 

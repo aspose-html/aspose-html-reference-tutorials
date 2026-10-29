@@ -183,6 +183,10 @@ Aspose.HTML позволяет прикрепить `DomMutationObserver` к л�
 Узнайте, как использовать XPath с пространствами имён в Java для точного выбора SVG‑элементов при работе с Aspose.HTML.
 ### [Как выполнить JavaScript в Java – Полное руководство Aspose.HTML](./execute-javascript-in-java-complete-aspose-html-guide/)
 Узнайте, как запускать JavaScript‑код из Java‑приложений с помощью Aspose.HTML.
+### [Включение выполнения JavaScript Aspose – Полное руководство по Java](./enable-javascript-execution-aspose-complete-java-guide/)
+Узнайте, как включить выполнение JavaScript в Aspose.HTML для Java с полным руководством.
+### [Создание песочницы для HTML в Java – Полное пошаговое руководство](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
+Узнайте, как создать безопасную среду выполнения HTML‑кода в Java с помощью Aspose.HTML, шаг за шагом.
 
 ---
 

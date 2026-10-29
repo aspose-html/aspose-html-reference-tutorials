@@ -150,6 +150,8 @@ R: No. Una singola licenza di Aspose.HTML for Java copre tutti i formati di outp
 ### [Imposta DPI del dispositivo con Aspose in Java – Guida completa Sandbox](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
 ### [XPath con Namespace in Java – Guida completa alla selezione di elementi SVG](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
 ### [Esegui JavaScript in Java – Guida completa Aspose.HTML](./execute-javascript-in-java-complete-aspose-html-guide/)
+### [Abilitare l'esecuzione di JavaScript con Aspose – Guida completa](./enable-javascript-execution-aspose-complete-java-guide/)
+### [Crea sandbox per HTML in Java – Guida completa passo‑a‑passo](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
 
 ---
 

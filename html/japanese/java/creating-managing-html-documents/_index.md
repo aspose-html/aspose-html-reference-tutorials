@@ -151,6 +151,8 @@ Java アプリケーションで JavaScript を利用し、JSON データを取�
 Java アプリで Fetch API を利用し、JSON データを取得・処理する手順を詳しく解説します。
 ### [Java でスレッドを開始する方法 – 完全ガイド](./how-to-start-thread-in-java-complete-guide/)
 Aspose.HTML を使用せずに、Java でスレッドを作成し管理する手順をステップバイステップで解説します。
+### [Aspose.HTML を使用した Java の HTML ファイル読み取り – 完全ガイド](./read-html-file-java-complete-guide-using-aspose-html/)
+Aspose.HTML for Java を使って HTML ファイルを読み込む方法をステップバイステップで解説します。初心者にも分かりやすい完全ガイドです。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

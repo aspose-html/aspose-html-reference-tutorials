@@ -397,6 +397,11 @@ Aspose.HTML for Java упрощает процесс конвертации HTML
 
 ### [Конвертация HTML в DOCX с Aspose – Руководство Java html to docx](./convert-html-to-docx-with-aspose-java-html-to-docx-guide/)
 
+### [Как конвертировать HTML‑файл в PDF в Java – Полное руководство](./how-to-convert-html-file-to-pdf-in-java-full-guide/)
+
+### [Создание PDF из Markdown в Java – Полное пошаговое руководство](./create-pdf-from-markdown-in-java-full-step-by-step-guide/)
+Узнайте, как создать PDF из файлов Markdown в Java с помощью Aspose.HTML, следуя полному пошаговому руководству.
+
 ## Часто задаваемые вопросы
 
 **Q: Можно ли использовать Aspose.HTML for Java в коммерческом приложении?**  

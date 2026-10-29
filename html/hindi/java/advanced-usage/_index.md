@@ -186,6 +186,10 @@ Aspose.HTML for Java में डिवाइस DPI सेट करने औ
 Java में नेमस्पेस वाले XML में SVG तत्वों को XPath से चुनने की पूरी प्रक्रिया सीखें।  
 ### [Java में JavaScript चलाना – पूर्ण Aspose.HTML गाइड](./execute-javascript-in-java-complete-aspose-html-guide/)
 Aspose.HTML for Java का उपयोग करके Java एप्लिकेशन में JavaScript को एम्बेड और निष्पादित करने का पूर्ण गाइड।  
+### [Aspose के साथ JavaScript निष्पादन सक्षम करें – पूर्ण Java गाइड](./enable-javascript-execution-aspose-complete-java-guide/)
+Java एप्लिकेशन में Aspose का उपयोग करके JavaScript को एम्बेड और चलाने के विस्तृत चरण‑दर‑चरण निर्देश।  
+### [Java में HTML के लिए सैंडबॉक्स बनाएं – पूर्ण चरण‑दर‑चरण गाइड](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
+Java में Aspose.HTML का उपयोग करके सुरक्षित सैंडबॉक्स सेटअप और HTML को प्रोसेस करने की पूरी प्रक्रिया सीखें।  
 
 ---
 

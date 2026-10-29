@@ -152,6 +152,8 @@ Aspose.HTML를 사용하여 Java에서 페이지 크기와 여백을 지정하�
 ### [Java에서 HTML을 PDF로 변환 – 병렬 배치 변환 가이드](./convert-html-to-pdf-in-java-parallel-batch-conversion-guide/)
 ### [Java에서 HTML을 PDF로 변환 – 병렬 배치 가이드](./convert-html-to-pdf-in-java-parallel-batch-guide/)
 Aspose.HTML를 사용하여 Java에서 HTML을 PDF로 병렬 배치 변환하는 방법을 단계별로 안내합니다.
+### [Java에서 HTML 파일을 PDF로 변환하는 방법 – 전체 가이드](./how-to-convert-html-file-to-pdf-in-java-full-guide/)
+Aspose.HTML를 사용하여 Java에서 HTML 파일을 PDF로 변환하는 전체 가이드를 확인하세요.
 ### [HTML을 MHTML로 변환](./convert-html-to-mhtml/)
 Aspose.HTML for Java를 사용하여 HTML을 MHTML로 손쉽게 변환합니다. 효율적인 HTML‑to‑MHTML 변환을 위한 단계별 가이드를 따라 주세요.
 ### [Aspose.HTML를 사용하여 HTML을 MHTML로 변환 – 완전한 Java 가이드](./convert-html-to-mhtml-with-aspose-html-complete-java-guide/)
@@ -315,6 +317,7 @@ Aspose.HTML를 사용하여 Java에서 HTML을 PDF로 변환하는 전체 튜토
 ### [Aspose HTML for Java를 사용하여 PDF/A-2b 문서 만들기 – 전체 가이드](./create-pdf-a-2b-document-with-aspose-html-for-java-full-guid/)
 Aspose.HTML for Java를 활용해 PDF/A‑2b 표준 문서를 생성하는 전체 단계별 가이드를 확인하세요.
 ### [Aspose를 사용하여 HTML을 DOCX로 변환 – Java HTML to DOCX 가이드](./convert-html-to-docx-with-aspose-java-html-to-docx-guide/)
+### [Java에서 Markdown으로부터 PDF 만들기 – 전체 단계별 가이드](./create-pdf-from-markdown-in-java-full-step-by-step-guide/)
 
 ## 자주 묻는 질문
 

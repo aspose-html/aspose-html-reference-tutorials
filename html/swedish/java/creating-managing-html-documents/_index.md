@@ -97,6 +97,8 @@ Lär dig hur du söker och extraherar data från HTML i Java med Aspose.HTML i e
 Lär dig hur du söker i HTML med Aspose Java i en komplett steg‑för‑steg‑guide.
 ### [Extrahera sidtitel med Java – Fullständig guide med Aspose.HTML](./extract-page-title-with-java-full-guide-using-aspose-html/)
 Lär dig hur du extraherar sidtiteln från HTML-dokument i Java med Aspose.HTML i en komplett steg‑för‑steg‑guide.
+### [Extrahera text från HTML i Java – Komplett programmeringsguide](./extract-text-from-html-in-java-complete-programming-guide/)
+Lär dig hur du extraherar text från HTML i Java med Aspose.HTML i denna kompletta steg‑för‑steg‑guide.
 ### [Generera nya HTML-dokument med Aspose.HTML för Java](./generate-new-html-documents/)
 Lär dig hur du skapar nya HTML-dokument med Aspose.HTML för Java med denna enkla steg-för-steg-guide. Börja generera dynamiskt HTML-innehåll.
 
@@ -107,9 +109,6 @@ Lär dig att hantera dokumentladdningshändelser i Aspose.HTML för Java med den
 Lär dig att skapa och hantera SVG-dokument med Aspose.HTML för Java! Den här omfattande guiden täcker allt från grundläggande skapande till avancerad manipulation.
 
 ### [Skapa sandlåda för HTML i Java – Steg‑för‑steg‑guide](./create-sandbox-for-html-in-java-step-by-step-guide/)
-### [Extrahera text från HTML i Java – Komplett programmeringsguide](./extract-text-from-html-in-java-complete-programming-guide/)
-Lär dig hur du extraherar text från HTML-dokument i Java med en komplett steg‑för‑steg‑guide.
-
 ### [Skapa HTML-dokument med Java – Hämta JSON och generera innehåll](./create-html-document-with-java-fetch-json-and-generate-conte/)
 Lär dig hur du hämtar JSON-data i Java och genererar dynamiskt HTML-innehåll med Aspose.HTML.
 ### [Ladda HTML-dokument i Java – Komplett guide med XPath och CSS](./load-html-document-java-complete-guide-with-xpath-css/)
@@ -177,6 +176,8 @@ Lär dig hur du skapar en div med klass i Java med Aspose.HTML i ett komplett ex
 Lär dig hur du använder JavaScript för att hämta JSON-data i Java-applikationer med en komplett steg-för-steg-guide.
 ### [Hur du startar tråd i Java – Komplett guide](./how-to-start-thread-in-java-complete-guide/)
 Lär dig hur du startar och hanterar trådar i Java med en komplett steg-för-steg-guide för effektiv samtidighet.
+### [Läs HTML-fil i Java – Komplett guide med Aspose.HTML](./read-html-file-java-complete-guide-using-aspose-html/)
+Lär dig hur du läser HTML-filer i Java med Aspose.HTML i denna kompletta steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

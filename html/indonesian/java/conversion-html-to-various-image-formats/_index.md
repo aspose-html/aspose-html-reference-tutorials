@@ -118,6 +118,9 @@ Pelajari cara merender HTML ke PNG di Java dengan menambahkan Bearer Token dan h
 ### [Buat PNG Resolusi Tinggi dari HTML – Panduan Lengkap Java](./create-high-resolution-png-from-html-complete-java-guide/)
 Pelajari cara menghasilkan gambar PNG beresolusi tinggi dari HTML menggunakan Aspose.HTML untuk Java dengan langkah‑langkah lengkap.
 ### [Mengonversi HTML ke PNG di Java – Panduan Lengkap Aspose.HTML](./convert-html-to-png-in-java-complete-aspose-html-guide/)
+### [Mengonversi HTML ke PNG – Panduan Ekspor Batch untuk Java](./convert-html-to-png-batch-export-guide-for-java/)
+### [Cara Mengatur DPI Saat Mengonversi HTML ke PNG – Panduan Lengkap Aspose HTML](./how-to-set-dpi-when-converting-html-to-png-complete-aspose-h/)
+Panduan lengkap cara mengatur DPI saat mengonversi HTML ke PNG menggunakan Aspose.HTML untuk Java, termasuk contoh kode dan tips optimalisasi.
 ### [Mengonversi HTML ke TIFF](./convert-html-to-tiff/)
 Pelajari cara mudah mengkonversi HTML ke TIFF menggunakan Aspose.HTML untuk Java. Panduan langkah demi langkah untuk penanganan dokumen yang efisien.
 ### [Mengonversi HTML ke WebP – Panduan Lengkap Java dengan Aspose.HTML](./convert-html-to-webp-complete-java-guide/)

@@ -51,6 +51,8 @@ Java 환경에서 setTimeout을 사용해 비동기 JavaScript를 실행하고, 
 모든 수준의 개발자에게 적합한 자세한 단계별 튜토리얼을 통해 Aspose.HTML을 사용하여 Java로 빈 HTML 문서를 만드는 방법을 알아보세요.
 ### [Java용 Aspose.HTML에서 파일에서 HTML 문서 로드](./load-html-documents-from-file/)
 Aspose.HTML for Java로 HTML 조작의 힘을 잠금 해제하세요. 단계별 튜토리얼로 파일에서 HTML 문서를 로드하는 방법을 배우세요.
+### [Java용 Aspose.HTML에서 HTML 파일 읽기 – 완전 가이드](./read-html-file-java-complete-guide-using-aspose-html/)
+Aspose.HTML for Java를 사용하여 HTML 파일을 읽는 방법을 단계별로 안내합니다. 완전 가이드로 모든 세부 정보를 확인하세요.
 ### [Java용 Aspose.HTML에서 HTML 문서에 대한 고급 파일 로딩](./advanced-file-loading-html-documents/)
 이 단계별 가이드에서 Aspose.HTML for Java를 사용하여 HTML 문서를 로드, 조작 및 저장하는 방법을 알아보세요. Java 프로젝트에서 고급 HTML 처리를 잠금 해제하세요.
 ### [Aspose.HTML for Java를 사용하여 스트림에서 HTML 문서 로드](./load-html-documents-from-stream/)
@@ -101,6 +103,8 @@ Aspose.HTML for Java를 사용해 HTML을 효율적으로 쿼리하는 전체 �
 Aspose.HTML for Java를 사용해 HTML을 검색하고 활용하는 완전 프로그래밍 가이드를 단계별로 제공합니다.
 ### [Java로 페이지 제목 추출 – Aspose.HTML을 활용한 완전 가이드](./extract-page-title-with-java-full-guide-using-aspose-html/)
 Aspose.HTML for Java를 사용하여 HTML 문서에서 페이지 제목을 추출하는 방법을 단계별로 안내합니다.
+### [Java에서 HTML 텍스트 추출 – 완전 프로그래밍 가이드](./extract-text-from-html-in-java-complete-programming-guide/)
+Aspose.HTML for Java를 사용하여 HTML에서 텍스트를 추출하는 방법을 단계별로 안내합니다. 완전 가이드로 모든 세부 정보를 확인하세요.
 ### [Java용 Aspose.HTML을 사용하여 새 HTML 문서 생성](./generate-new-html-documents/)
 이 간단한 단계별 가이드를 통해 Aspose.HTML for Java를 사용하여 새 HTML 문서를 만드는 방법을 알아보세요. 동적 HTML 콘텐츠 생성을 시작하세요.
 ### [Java용 Aspose.HTML에서 HTML 문서 만들기 – 단계별 가이드](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
@@ -118,15 +122,6 @@ Aspose.HTML for Java를 활용해 Java에서 비동기 JavaScript를 실행하�
 
 ### [Java에서 HTML 문자 수 세기 – Aspose HTML을 활용한 전체 가이드](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Aspose.HTML for Java를 사용하여 HTML 문자열의 문자 수를 정확히 계산하는 방법을 단계별로 안내합니다.
-### [Java에서 HTML 텍스트 추출 – 완전 프로그래밍 가이드](./extract-text-from-html-in-java-complete-programming-guide/)
-Aspose.HTML for Java를 활용해 Java에서 HTML 텍스트를 추출하는 완전 가이드를 제공합니다.
-
-
-
-
-
-
-
 ### [Java에서 JavaScript로 HTML 생성 – 완전 단계별 가이드](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Aspose.HTML for Java를 사용하여 Java에서 JavaScript를 실행하고 HTML을 생성하는 방법을 단계별로 안내합니다.
 

@@ -185,6 +185,10 @@ Lär dig hur du konverterar SVG‑bilder till AVIF‑format med Aspose.HTML för
 Lär dig hur du konfigurerar DPI för enheter i Aspose.HTML för Java i en sandbox‑miljö för exakt rendering.
 ### [Kör JavaScript i Java – Komplett Aspose.HTML‑guide](./execute-javascript-in-java-complete-aspose-html-guide/)
 Lär dig hur du kör JavaScript‑kod i Java‑applikationer med Aspose.HTML, med steg‑för‑steg‑instruktioner och exempel.
+### [Aktivera JavaScript‑exekvering med Aspose – Komplett Java‑guide](./enable-javascript-execution-aspose-complete-java-guide/)
+Lär dig hur du aktiverar JavaScript‑exekvering i Java‑applikationer med Aspose.HTML, inklusive konfiguration och exempel.
+### [Skapa sandlåda för HTML i Java – Komplett steg‑för‑steg‑guide](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
+Lär dig hur du skapar en säker sandlådemiljö för att bearbeta HTML i Java med Aspose.HTML, steg för steg.
 
 ---
 

@@ -162,6 +162,8 @@ Learn how to embed JavaScript into an HTML document using Aspose.HTML for Java w
 Learn how to create a DIV element with a CSS class in Java using Aspose.HTML in a complete step-by-step example.
 ### [How to start thread in Java – Complete Guide](./how-to-start-thread-in-java-complete-guide/)
 Learn how to start threads in Java with this complete step‑by‑step guide, covering basics, best practices, and common pitfalls.
+### [Read HTML File Java – Complete Guide Using Aspose.HTML](./read-html-file-java-complete-guide-using-aspose-html/)
+Comprehensive guide to reading HTML files in Java with Aspose.HTML, covering loading, parsing, and handling content efficiently.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

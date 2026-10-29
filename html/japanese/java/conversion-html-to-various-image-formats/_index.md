@@ -132,6 +132,10 @@ Aspose.HTML for Java を使用し、Bearer トークンとカスタムヘッダ�
 ### [HTML を PNG にレンダリング – 完全な Aspose HTML チュートリアル](./render-html-to-png-in-java-full-aspose-html-tutorial/)
 Aspose.HTML を使用して Java で HTML を PNG にレンダリングする完全ガイドです。ステップバイステップで解説します。
 ### [HTML を PNG に変換 – Aspose.HTML を使用した完全な Java ガイド](./convert-html-to-png-in-java-complete-aspose-html-guide/)
+### [HTML を PNG に変換 – バッチエクスポートガイド（Java）](./convert-html-to-png-batch-export-guide-for-java/)
+
+### [HTML を PNG に変換する際の DPI 設定方法 – 完全な Aspose HTML ガイド](./how-to-set-dpi-when-converting-html-to-png-complete-aspose-h/)
+HTML を PNG に変換する際の DPI 設定手順を詳しく解説します。高品質な画像出力のための設定方法を学びましょう。
 
 ### [HTML を TIFF に変換](./convert-html-to-tiff/)
 

@@ -321,6 +321,9 @@ Aspose.HTML を使用して、Java で HTML を PDF に変換する手順を詳�
 ### [Aspose HTML for Java で PDF/A-2b ドキュメントを作成する – 完全ガイド](./create-pdf-a-2b-document-with-aspose-html-for-java-full-guid/)
 ### [JavaでHTMLをPDFに変換 – 並列バッチガイド](./convert-html-to-pdf-in-java-parallel-batch-guide/)
 ### [Aspose を使用した HTML から DOCX への変換 – Java ガイド](./convert-html-to-docx-with-aspose-java-html-to-docx-guide/)
+### [JavaでMarkdownからPDFを作成する – 完全ステップバイステップガイド](./create-pdf-from-markdown-in-java-full-step-by-step-guide/)
+Aspose.HTML を使用して Java で Markdown を PDF に変換する方法を学びます。詳細な手順で高品質な PDF を作成できます。
+### [HTML ファイルを Java で PDF に変換する方法 – 完全ガイド](./how-to-convert-html-file-to-pdf-in-java-full-guide/)
 
 ## よくある質問
 

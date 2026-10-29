@@ -50,6 +50,8 @@ Kuasai pembuatan dokumen HTML secara asinkron dengan Aspose.HTML untuk Java. Pan
 Pelajari cara membuat dokumen HTML kosong di Java menggunakan Aspose.HTML dengan tutorial langkah demi langkah terperinci kami, cocok untuk pengembang di semua tingkat.
 ### [Memuat Dokumen HTML dari File di Aspose.HTML untuk Java](./load-html-documents-from-file/)
 Manfaatkan kekuatan manipulasi HTML dengan Aspose.HTML untuk Java. Pelajari cara memuat dokumen HTML dari file dengan tutorial langkah demi langkah.
+### [Baca File HTML Java – Panduan Lengkap Menggunakan Aspose.HTML](./read-html-file-java-complete-guide-using-aspose-html/)
+Pelajari cara membaca file HTML di Java menggunakan Aspose.HTML dengan panduan langkah demi langkah yang lengkap.
 ### [Pemuatan File Lanjutan untuk Dokumen HTML di Aspose.HTML untuk Java](./advanced-file-loading-html-documents/)
 Pelajari cara memuat, memanipulasi, dan menyimpan dokumen HTML menggunakan Aspose.HTML untuk Java dalam panduan langkah demi langkah ini. Dapatkan pemrosesan HTML tingkat lanjut dalam proyek Java Anda.
 ### [Memuat Dokumen HTML dari Stream dengan Aspose.HTML untuk Java](./load-html-documents-from-stream/)
@@ -82,8 +84,6 @@ Pelajari cara membuat dan mengelola dokumen SVG menggunakan Aspose.HTML untuk Ja
 Pelajari cara memuat data JSON menggunakan Fetch API di Java dengan panduan lengkap langkah demi langkah.
 ### [Buat Sandbox untuk HTML di Java – Panduan Langkah‑per‑Langkah](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Pelajari cara membuat sandbox HTML di Java dengan panduan langkah demi langkah untuk pengujian dan pengembangan yang aman.
-### [Ekstrak Teks dari HTML di Java – Panduan Pemrograman Lengkap](./extract-text-from-html-in-java-complete-programming-guide/)
-Pelajari cara mengekstrak teks dari dokumen HTML menggunakan Aspose.HTML untuk Java dengan panduan langkah demi langkah yang lengkap.
 ### [Eksekusi JavaScript di Java – Jalankan JS pada HTML & Tambahkan Elemen](./execute-javascript-java-run-js-on-html-append-elements/)
 Pelajari cara mengeksekusi JavaScript dalam aplikasi Java, menjalankan skrip pada dokumen HTML, dan menambahkan elemen secara dinamis.
 ### [Buat Elemen HTML dengan Java ExecutorService – Demo Thread‑Safe](./create-html-element-with-java-executorservice-thread-safe-de/)
@@ -159,6 +159,8 @@ Pelajari cara membuat elemen div dengan kelas java menggunakan Aspose.HTML dalam
 Pelajari cara mengekstrak judul halaman web secara efisien menggunakan Aspose.HTML untuk Java dalam panduan langkah demi langkah.
 ### [Cara Memulai Thread di Java – Panduan Lengkap](./how-to-start-thread-in-java-complete-guide/)
 Pelajari cara memulai thread di Java dengan panduan lengkap ini, termasuk contoh kode dan praktik terbaik.
+### [Ekstrak Teks dari HTML di Java – Panduan Pemrograman Lengkap](./extract-text-from-html-in-java-complete-programming-guide/)
+Pelajari cara mengekstrak teks dari dokumen HTML menggunakan Aspose.HTML untuk Java dengan panduan pemrograman lengkap langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

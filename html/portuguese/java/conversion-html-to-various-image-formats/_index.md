@@ -129,6 +129,8 @@ Aprenda a converter HTML para PNG em Java usando Aspose.HTML. Guia completo pass
 Aprenda a criar PNG a partir de HTML em Java usando Aspose.HTML. Guia passo a passo completo.
 ### [Como renderizar HTML – Guia completo Aspose HTML para PNG](./how-to-render-html-complete-aspose-html-to-png-guide/)
 Aprenda a renderizar HTML para PNG usando Aspose.HTML. Guia completo passo a passo para gerar imagens PNG de alta qualidade.
+### [Converter HTML para PNG – Guia de Exportação em Lote para Java](./convert-html-to-png-batch-export-guide-for-java/)
+Aprenda a exportar HTML para PNG em lote usando Aspose.HTML for Java. Guia passo a passo para conversões em massa.
 ### [Convertendo HTML para TIFF](./convert-html-to-tiff/)
 Aprenda a converter HTML para TIFF usando Aspose.HTML for Java de forma fácil. Guia passo a passo para manipulação eficiente de documentos.
 ### [Convertendo HTML para TIFF em Java – Guia Completo de Programação](./convert-html-to-tiff-in-java-complete-programming-guide/)
@@ -214,6 +216,8 @@ Aprenda a converter SVG para AVIF em Java usando Aspose.HTML. Guia completo pass
 Aprenda a converter HTML para WebP em Java com Aspose.HTML. Guia detalhado passo a passo para criar imagens WebP otimizadas.
 ### [Converter SVG para WebP – Guia Completo em Java para SVGs Animados](./convert-svg-to-webp-full-java-guide-for-animated-svgs/)
 Aprenda a converter SVG animado para WebP em Java usando Aspose.HTML. Guia completo passo a passo para gerar imagens WebP animadas.
+### [Como Definir DPI ao Converter HTML para PNG – Guia Completo Aspose HTML](./how-to-set-dpi-when-converting-html-to-png-complete-aspose-h/)
+Aprenda a definir o DPI ao converter HTML para PNG usando Aspose.HTML for Java, garantindo qualidade e tamanho adequados.
 
 ## Perguntas Frequentes
 

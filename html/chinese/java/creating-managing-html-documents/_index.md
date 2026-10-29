@@ -178,6 +178,8 @@ Aspose.HTML for Java 为开发人员提供了功能强大的工具包，旨在�
 
 ### [在 Java 中启动线程 – 完整指南](./how-to-start-thread-in-java-complete-guide/)
 本完整指南详细讲解如何在 Java 中创建和启动线程，涵盖线程生命周期、示例代码和最佳实践。
+### [在 Java 中读取 HTML 文件 – 使用 Aspose.HTML 完整指南](./read-html-file-java-complete-guide-using-aspose-html/)
+本完整指南详细说明如何使用 Aspose.HTML for Java 读取 HTML 文件，包括示例代码和最佳实践。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

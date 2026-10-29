@@ -118,6 +118,9 @@ Aspose.HTML for Java를 사용해 인증이 필요한 웹 페이지를 Bearer �
 ### [Java에서 HTML을 PNG로 렌더링 – 전체 Aspose HTML 튜토리얼](./render-html-to-png-in-java-full-aspose-html-tutorial/)
 ### [HTML을 PNG로 변환 – 사용자 지정 해상도를 포함한 완전한 Java 가이드](./create-png-from-html-complete-java-guide-with-custom-resolut/)
 Aspose.HTML for Java를 사용해 HTML을 PNG로 변환하고 해상도를 직접 지정하는 단계별 완전 가이드입니다.
+### [HTML을 PNG로 변환 – Java 배치 내보내기 가이드](./convert-html-to-png-batch-export-guide-for-java/)
+Aspose.HTML for Java를 사용해 여러 HTML 파일을 한 번에 PNG 이미지로 배치 변환하는 방법을 단계별로 안내합니다.
+### [HTML을 PNG로 변환할 때 DPI 설정 방법 – 완전한 Aspose HTML 가이드](./how-to-set-dpi-when-converting-html-to-png-complete-aspose-h/)
 ### [HTML을 TIFF로 변환](./convert-html-to-tiff/)
 Aspose.HTML for Java를 사용해 HTML을 TIFF로 쉽게 변환하는 방법을 배웁니다. 효율적인 문서 처리를 위한 단계별 가이드입니다.
 ### [HTML을 TIFF로 변환 – Java 완전 프로그래밍 가이드](./convert-html-to-tiff-in-java-complete-programming-guide/)

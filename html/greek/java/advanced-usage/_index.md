@@ -175,6 +175,10 @@ weight: 20
 ### [XPath με Ονοματοχώρους σε Java – Πλήρης Οδηγός για την Επιλογή Στοιχείων SVG](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
 ### [Εκτέλεση JavaScript σε Java – Πλήρης Οδηγός Aspose.HTML](./execute-javascript-in-java-complete-aspose-html-guide/)
 Μάθετε πώς να τρέχετε κώδικα JavaScript σε εφαρμογές Java με τη βοήθεια του Aspose.HTML.
+### [Ενεργοποίηση Εκτέλεσης JavaScript με Aspose – Πλήρης Οδηγός Java](./enable-javascript-execution-aspose-complete-java-guide/)
+Μάθετε πώς να ενεργοποιήσετε και να εκτελέσετε κώδικα JavaScript σε εφαρμογές Java χρησιμοποιώντας το Aspose.HTML.
+### [Δημιουργία sandbox για HTML σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε ένα ασφαλές sandbox για HTML σε Java, βήμα‑βήμα, χρησιμοποιώντας το Aspose.HTML.
 
 ---
 

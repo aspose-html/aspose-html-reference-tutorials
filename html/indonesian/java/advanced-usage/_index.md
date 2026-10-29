@@ -197,6 +197,11 @@ Pelajari cara menggunakan XPath dengan namespace di Java untuk memilih elemen SV
 ### [Jalankan JavaScript di Java – Panduan Lengkap Aspose.HTML](./execute-javascript-in-java-complete-aspose-html-guide/)
 Pelajari cara mengeksekusi kode JavaScript dalam aplikasi Java menggunakan Aspose.HTML secara menyeluruh.
 
+### [Mengaktifkan Eksekusi JavaScript Aspose – Panduan Lengkap Java](./enable-javascript-execution-aspose-complete-java-guide/)
+Pelajari cara mengaktifkan eksekusi JavaScript dalam aplikasi Java menggunakan Aspose.HTML secara menyeluruh.
+
+### [Buat sandbox untuk HTML di Java – Panduan Lengkap Langkah‑per‑Langkah](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
+
 ---
 
 **Terakhir Diperbarui:** 2025-11-29  

@@ -96,6 +96,8 @@ weight: 25
 Μάθετε πώς να χρησιμοποιήσετε το sandbox του Aspose.HTML για ασφαλή μετατροπή HTML σε PDF σε Java, βήμα‑βήμα οδηγός.
 ### [Μετατροπή HTML σε PDF με Aspose HTML για Java – Πλήρης Οδηγός](./convert-html-to-pdf-with-aspose-html-for-java-full-guide/)
 Μάθετε πώς να μετατρέψετε HTML σε PDF χρησιμοποιώντας το Aspose.HTML for Java με πλήρη οδηγίες βήμα‑βήμα.
+### [Πώς να μετατρέψετε αρχείο HTML σε PDF σε Java – Πλήρης οδηγός](./how-to-convert-html-file-to-pdf-in-java-full-guide/)
+Μάθετε βήμα‑βήμα πώς να μετατρέψετε ένα αρχείο HTML σε PDF χρησιμοποιώντας το Aspose.HTML for Java, με πλήρεις ρυθμίσεις.
 ### [Μετατροπή HTML σε PDF σε Java – Οδηγός βήμα‑βήμα με ρυθμίσεις μεγέθους σελίδας](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Ακολουθήστε τον πλήρη οδηγό για μετατροπή HTML σε PDF σε Java, με παραμετροποίηση μεγέθους σελίδας για ακριβή έγγραφα.
 ### [Μετατροπή HTML σε PDF σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./convert-html-to-pdf-in-java-complete-step-by-step-guide/)
@@ -308,6 +310,8 @@ weight: 25
 Μάθετε πώς να δημιουργήσετε έγγραφα PDF/A‑2b συμμορφωμένα με πρότυπα αρχειοθέτησης χρησιμοποιώντας Aspose.HTML for Java.
 ### [Aspose HTML σε Markdown σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./aspose-html-to-markdown-in-java-complete-step-by-step-guide/)
 Μάθετε πώς να μετατρέψετε HTML σε Markdown σε Java με πλήρη βήμα‑βήμα οδηγίες.
+### [Δημιουργία PDF από Markdown σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./create-pdf-from-markdown-in-java-full-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε PDF από Markdown σε Java χρησιμοποιώντας το Aspose.HTML. Αναλυτικός οδηγός βήμα‑βήμα.
 
 ## Συχνές Ερωτήσεις
 

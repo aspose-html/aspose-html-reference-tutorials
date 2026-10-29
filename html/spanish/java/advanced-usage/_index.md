@@ -171,6 +171,10 @@ Aprende a crear y gestionar un Executor de pool de hilos fijo en Java para ejecu
 Aprende a convertir imágenes SVG a formato AVIF usando Java y Aspose.HTML, con pasos detallados y ejemplos claros.
 ### [XPath con espacios de nombres en Java – Guía completa para seleccionar elementos SVG](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
 ### [Ejecutar JavaScript en Java – Guía completa de Aspose.HTML](./execute-javascript-in-java-complete-aspose-html-guide/)
+### [Habilitar la ejecución de JavaScript con Aspose – Guía completa de Java](./enable-javascript-execution-aspose-complete-java-guide/)
+Aprende a ejecutar código JavaScript dentro de Aspose.HTML usando Java, con ejemplos paso a paso y mejores prácticas.
+### [Crear sandbox para HTML en Java – Guía completa paso a paso](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
+Aprende a crear un entorno sandbox para HTML en Java, paso a paso, y ejecuta contenido de forma segura.
 
 ---
 

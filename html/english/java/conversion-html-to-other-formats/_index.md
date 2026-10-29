@@ -178,6 +178,8 @@ Convert HTML to PDF with a single line of code using Aspose.HTML's simple conver
 Step-by-step tutorial on converting HTML to PDF in Java using Aspose.HTML, covering setup, code examples, and customization options.
 ### [Convert HTML to PDF in Java – Full Step‑by‑Step Guide](./convert-html-to-pdf-in-java-full-step-by-step-guide/)
 Comprehensive step‑by‑step tutorial for converting HTML to PDF in Java using Aspose.HTML, covering setup, code, and customization.
+### [How to Convert HTML File to PDF in Java – Full Guide](./how-to-convert-html-file-to-pdf-in-java-full-guide/)
+Step-by-step guide to convert an HTML file to PDF in Java using Aspose.HTML, covering setup, options, and best practices.
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 Effortlessly convert HTML to MHTML using Aspose.HTML for Java. Follow our step-by-step guide for efficient HTML-to-MHTML conversion.
 ### [Create PDF from HTML in Java – Complete Aspose Guide](./create-pdf-from-html-in-java-complete-aspose-guide/)
@@ -217,6 +219,7 @@ Learn how to generate Markdown from HTML using Aspose.HTML for Java in this comp
 Step‑by‑step guide to convert Markdown files to PDF in Java using Aspose.HTML, covering setup, options, and customization.
 ### [Save HTML as Markdown in Java – Complete Aspose Guide](./save-html-as-markdown-in-java-complete-aspose-guide/)
 Learn how to convert HTML to Markdown in Java using Aspose.HTML with a comprehensive step‑by‑step guide.
+### [Create PDF from Markdown in Java – Full Step‑by‑Step Guide](./create-pdf-from-markdown-in-java-full-step-by-step-guide/)
 ### [Converting SVG to Image](./convert-svg-to-image/)
 Learn how to convert SVG to images in Java with Aspose.HTML. Comprehensive guide for high-quality output.
 

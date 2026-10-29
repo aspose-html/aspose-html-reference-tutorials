@@ -189,6 +189,10 @@ Erfahren Sie, wie Sie die DPI‑Einstellungen von Geräten in Aspose.HTML für J
 Erfahren Sie, wie Sie mit XPath und Namespaces SVG‑Elemente in Java präzise auswählen und verarbeiten.
 ### [JavaScript in Java ausführen – Komplett‑Aspose.HTML‑Leitfaden](./execute-javascript-in-java-complete-aspose-html-guide/)
 Erfahren Sie, wie Sie JavaScript in Java ausführen und dabei Aspose.HTML vollständig nutzen können.
+### [JavaScript‑Ausführung mit Aspose aktivieren – Komplettanleitung für Java](./enable-javascript-execution-aspose-complete-java-guide/)
+Erfahren Sie, wie Sie JavaScript-Code in Java-Anwendungen mit Aspose ausführen und integrieren können.
+### [Sandbox für HTML in Java erstellen – Komplett‑Schritt‑für‑Schritt‑Anleitung](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java eine sichere Sandbox‑Umgebung einrichten, um HTML sicher zu verarbeiten.
 
 ---
 

@@ -96,6 +96,7 @@ Att använda Aspose.HTML for Java förenklar konverteringen av HTML‑dokument t
 ### [Konvertera HTML till PNG – Java‑guide för att rendera HTML‑tabeller som bilder](./convert-html-to-png-java-guide-to-rendering-html-tables-as-i/)
 ### [Rendera HTML till PNG med Aspose.HTML Sandbox – Fullständig Java‑guide](./render-html-to-png-with-aspose-html-sandbox-full-java-guide/)
 ### [Konvertera HTML till PNG i Java – Komplett Java‑guide med Aspose.HTML](./convert-html-to-png-in-java-complete-aspose-html-guide/)
+### [Konvertera HTML till PNG – batch‑exportguide för Java](./convert-html-to-png-batch-export-guide-for-java/)
 ### [Konvertera HTML till TIFF](./convert-html-to-tiff/)
 ### [Konvertera HTML till TIFF i Java – Komplett programmeringsguide](./convert-html-to-tiff-in-java-complete-programming-guide/)
 ### [Konvertera HTML till WebP – Komplett Java‑guide med Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
@@ -162,6 +163,7 @@ Skapa PNG‑bilder från HTML snabbt i batch med en trådpott. Effektiv konverte
 ### [Hur man konverterar SVG till AVIF med Java – Steg‑för‑steg‑guide](./how-to-convert-svg-to-avif-with-java-step-by-step-guide/)
 ### [Konvertera HTML till WebP – Komplett steg‑för‑steg‑guide i Java](./convert-html-to-webp-in-java-complete-step-by-step-guide/)
 ### [Konvertera SVG till WebP – Fullständig Java‑guide för animerade SVG‑filer](./convert-svg-to-webp-full-java-guide-for-animated-svgs/)
+### [Hur du anger DPI vid konvertering av HTML till PNG – Komplett Aspose HTML‑guide](./how-to-set-dpi-when-converting-html-to-png-complete-aspose-h/)
 
 ## Vanliga frågor
 

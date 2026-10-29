@@ -65,6 +65,7 @@ Jeśli potrzebujesz **convert HTML to JPEG** dla reprezentacji podobnych do zdj�
 ## Konwertowanie HTML do PNG
 Przekształcanie HTML w obrazy PNG jest idealne dla grafik bezstratnych, zrzutów ekranu lub gdy potrzebna jest przezroczystość. Nasz kompleksowy przewodnik zapewnia jasne instrukcje dla płynnego doświadczenia konwersji.
 
+## Konwersja - HTML do różnych formatów obrazu – samouczki
 ### [Converting HTML to BMP](./convert-html-to-bmp/)
 
 ### [Converting HTML to GIF](./convert-html-to-gif/)
@@ -137,6 +138,11 @@ Pełny przykład tworzenia pliku PNG z kodu HTML w Javie przy użyciu Aspose.HTM
 
 ### [Utwórz PNG z HTML – Kompletny przewodnik Java z niestandardową rozdzielczością](./create-png-from-html-complete-java-guide-with-custom-resolut/)
 
+### [Konwertowanie HTML do PNG – Przewodnik eksportu wsadowego w Javie](./convert-html-to-png-batch-export-guide-for-java/)
+Dowiedz się, jak masowo konwertować HTML do PNG w Javie przy użyciu Aspose.HTML. Przewodnik krok po kroku dla eksportu wsadowego.
+
+### [Jak ustawić DPI przy konwertowaniu HTML do PNG – Kompletny przewodnik Aspose HTML](./how-to-set-dpi-when-converting-html-to-png-complete-aspose-h/)
+
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
 
 ### [Utwórz baner HTML i renderuj do PNG – Pełny przewodnik Java](./create-html-banner-and-render-to-png-full-java-guide/)
@@ -206,6 +212,17 @@ Dowiedz się, jak konwertować HTML do formatu WebP w Javie przy użyciu Aspose.
 Dowiedz się, jak konwertować HTML do WebP w Javie przy użyciu Aspose.HTML. Kompletny przewodnik krok po kroku.
 
 ### [Konwertowanie SVG do WebP – Pełny przewodnik Java dla animowanych SVG](./convert-svg-to-webp-full-java-guide-for-animated-svgs/)
+
+## Typowe przypadki użycia i korzyści
+- **Automatyczne generowanie raportów** – Osadzaj dynamiczną zawartość internetową w raportach PDF lub Word jako obrazy.  
+- **Miniatury e‑mail** – Generuj obrazy podglądu do newsletterów bez usług zewnętrznych.  
+- **Migracja systemów legacy** – Konwertuj komponenty UI oparte na sieci do statycznych obrazów dla starszych platform.  
+- **Archiwizacja treści** – Zachowaj dokładne wizualne migawki stron internetowych w celach zgodności.
+
+## Porady dotyczące rozwiązywania problemów
+- **Pusty wynik** – Upewnij się, że źródło HTML jest w pełni załadowane; w razie potrzeby użyj `renderer.waitForComplete()`.  
+- **Duży rozmiar pliku (TIFF/BMP)** – Dostosuj DPI lub użyj opcji kompresji dostępnych w ustawieniach zapisu.  
+- **Brakujące czcionki** – Zainstaluj wymagane czcionki na serwerze lub osadź je w HTML przy użyciu `@font-face`.
 
 ## Najczęściej zadawane pytania
 

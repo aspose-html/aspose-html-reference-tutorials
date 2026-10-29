@@ -208,6 +208,12 @@ A: 不需要。單一的 Aspose.HTML for Java 授權即涵蓋所有輸出格式�
 ### [在 Java 中執行 JavaScript – 完整 Aspose.HTML 指南](./execute-javascript-in-java-complete-aspose-html-guide/)
 本指南說明如何在 Java 應用程式中使用 Aspose.HTML 執行 JavaScript，涵蓋 Rhino、Nashorn 與 GraalVM 等引擎。
 
+### [啟用 JavaScript 執行 Aspose – 完整 Java 指南](./enable-javascript-execution-aspose-complete-java-guide/)
+完整指南說明如何在 Aspose.HTML for Java 中啟用 JavaScript 執行，涵蓋設定、範例與最佳實踐。
+
+### [在 Java 中建立 HTML 沙盒 – 完整步驟指南](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
+說明如何在 Java 環境中使用 Aspose.HTML 建立安全的 HTML 沙盒，完整步驟指引。
+
 ---
 
 **最後更新日期：** 2025-11-29  

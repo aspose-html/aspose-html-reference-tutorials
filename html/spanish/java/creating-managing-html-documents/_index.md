@@ -54,7 +54,8 @@ Aprenda a crear un entorno sandbox para HTML en Java con esta guía paso a paso,
 Aprenda a crear un documento HTML en Java con Aspose.HTML siguiendo una guía paso a paso, ideal para principiantes y expertos.
 ### [Cargar documentos HTML desde un archivo en Aspose.HTML para Java](./load-html-documents-from-file/)
 Descubra el poder de la manipulación de HTML con Aspose.HTML para Java. Aprenda a cargar documentos HTML desde archivos con tutoriales paso a paso.
-
+### [Leer archivo HTML en Java – Guía completa usando Aspose.HTML](./read-html-file-java-complete-guide-using-aspose-html/)
+Aprenda a leer archivos HTML en Java con Aspose.HTML mediante esta guía paso a paso completa.
 ### [Carga avanzada de archivos para documentos HTML en Aspose.HTML para Java](./advanced-file-loading-html-documents/)
 Aprenda a cargar, manipular y guardar documentos HTML con Aspose.HTML para Java en esta guía paso a paso. Descubra el procesamiento avanzado de HTML en sus proyectos Java.
 

@@ -202,6 +202,9 @@ Pelajari cara mengonversi HTML ke Markdown di Java dengan Aspose.HTML, lengkap d
 ### [Aspose HTML ke Markdown di Java – Panduan Lengkap Langkah‑demi‑Langkah](./aspose-html-to-markdown-in-java-complete-step-by-step-guide/)
 Pelajari cara mengonversi HTML menjadi Markdown di Java menggunakan Aspose.HTML dengan panduan langkah‑demi‑langkah lengkap.
 
+### [Membuat PDF dari Markdown di Java – Panduan Lengkap Langkah‑demi‑Langkah](./create-pdf-from-markdown-in-java-full-step-by-step-guide/)
+Panduan lengkap membuat PDF dari file Markdown di Java menggunakan Aspose.HTML dengan contoh kode langkah demi langkah.
+
 ### [Mengonversi SVG ke Gambar](./convert-svg-to-image/)
 Pelajari cara mengonversi SVG ke gambar di Java dengan Aspose.HTML. Panduan komprehensif untuk output berkualitas tinggi.
 
@@ -393,6 +396,9 @@ Panduan lengkap membuat dokumen PDF/A‑2b menggunakan Aspose.HTML for Java, mem
 
 ### [Mengonversi HTML ke DOCX dengan Aspose – Panduan Java html ke docx](./convert-html-to-docx-with-aspose-java-html-to-docx-guide/)
 Pelajari cara mengonversi HTML ke DOCX di Java menggunakan Aspose.HTML. Buat dokumen DOCX berkualitas tinggi dari konten HTML Anda dengan mudah.
+
+### [Cara Mengonversi File HTML ke PDF di Java – Panduan Lengkap](./how-to-convert-html-file-to-pdf-in-java-full-guide/)
+Panduan lengkap mengonversi file HTML menjadi PDF di Java menggunakan Aspose.HTML dengan contoh kode langkah demi langkah.
 
 ## Pertanyaan yang Sering Diajukan
 

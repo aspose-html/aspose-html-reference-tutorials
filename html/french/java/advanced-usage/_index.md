@@ -189,6 +189,10 @@ Apprenez à configurer le DPI du dispositif dans Aspose.HTML for Java à l’aid
 Apprenez à utiliser XPath avec des espaces de noms en Java pour sélectionner précisément des éléments SVG dans vos documents HTML.  
 ### [Exécuter du JavaScript en Java – Guide complet Aspose.HTML](./execute-javascript-in-java-complete-aspose-html-guide/)
 Apprenez à exécuter du code JavaScript depuis Java avec Aspose.HTML, incluant des exemples détaillés et les meilleures pratiques.  
+### [Activer l'exécution JavaScript avec Aspose – Guide complet Java](./enable-javascript-execution-aspose-complete-java-guide/)
+Apprenez à activer l'exécution de JavaScript avec Aspose.HTML en Java, avec des exemples détaillés et les meilleures pratiques.  
+### [Créer un bac à sable pour HTML en Java – Guide complet étape par étape](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
+Apprenez à créer un environnement sandbox pour le HTML en Java avec Aspose.HTML, étape par étape.  
 
 ---
 

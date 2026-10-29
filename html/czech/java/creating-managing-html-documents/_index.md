@@ -57,6 +57,8 @@ Naučte se vytvářet prázdné HTML dokumenty v Javě pomocí Aspose.HTML s na�
 Odemkněte sílu manipulace s HTML pomocí Aspose.HTML pro Java. Naučte se načítat dokumenty HTML ze souborů pomocí výukových programů krok za krokem.
 ### [Jak načíst soubor XHTML v Javě – příklad s XPath a jmenným prostorem](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
 Naučte se načíst soubor XHTML v Javě pomocí XPath s podporou jmenných prostorů v tomto praktickém příkladu.
+### [Načtěte HTML soubor v Javě – Kompletní průvodce pomocí Aspose.HTML](./read-html-file-java-complete-guide-using-aspose-html/)
+Kompletní průvodce načítáním HTML souboru v Javě pomocí Aspose.HTML, s praktickými ukázkami a tipy.
 ### [Pokročilé načítání souborů pro HTML dokumenty v Aspose.HTML pro Java](./advanced-file-loading-html-documents/)
 V tomto podrobném průvodci se dozvíte, jak načítat, manipulovat a ukládat dokumenty HTML pomocí Aspose.HTML for Java. Odemkněte pokročilé zpracování HTML ve svých projektech Java.
 ### [Načtěte HTML dokumenty ze Stream pomocí Aspose.HTML pro Java](./load-html-documents-from-stream/)

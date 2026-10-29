@@ -128,6 +128,8 @@ Dowiedz się, jak krok po kroku konwertować HTML do PDF w Javie przy użyciu As
 Dowiedz się, jak ustawić rozmiar strony i marginesy przy konwersji HTML do PDF w Javie przy użyciu Aspose.HTML.
 ### [Konwersja HTML do PDF w Javie – Przewodnik równoległego przetwarzania wsadowego](./convert-html-to-pdf-with-java-parallel-batch-guide/)
 Dowiedz się, jak przetwarzać wiele plików HTML jednocześnie w Javie, generując PDF w trybie równoległym dla zwiększenia wydajności.
+### [Jak przekonwertować plik HTML do PDF w Javie – Pełny przewodnik](./how-to-convert-html-file-to-pdf-in-java-full-guide/)
+Kompletny przewodnik, jak w Javie konwertować plik HTML na PDF przy użyciu Aspose.HTML.
 ### [Konwertowanie HTML do PDF w Javie – Przewodnik krok po kroku z ustawieniami rozmiaru strony](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Dowiedz się, jak konwertować HTML do PDF w Javie, ustawiając rozmiar strony krok po kroku.
 ### [Konwertowanie HTML do PDF w Javie – Kompletny przewodnik z osadzaniem czcionek](./convert-html-to-pdf-in-java-complete-guide-with-font-embeddi/)
@@ -201,6 +203,8 @@ Dowiedz się, jak konwertować Markdown do PDF w Javie przy użyciu Aspose.HTML.
 Pełny przewodnik, jak w Javie konwertować HTML na Markdown przy użyciu Aspose.HTML, z przykładami i najlepszymi praktykami.
 ### [Aspose HTML do Markdown w Javie – Kompletny przewodnik krok po kroku](./aspose-html-to-markdown-in-java-complete-step-by-step-guide/)
 Konwertuj HTML do Markdown w Javie przy użyciu Aspose.HTML. Kompletny przewodnik krok po kroku.
+### [Utwórz PDF z Markdown w Javie – Pełny przewodnik krok po kroku](./create-pdf-from-markdown-in-java-full-step-by-step-guide/)
+Dowiedz się, jak w Javie przekształcić plik Markdown w PDF przy użyciu Aspose.HTML, krok po kroku.
 ### [Converting SVG to Image](./convert-svg-to-image/)
 Learn how to convert SVG to images in Java with Aspose.HTML. Comprehensive guide for high-quality output.
 

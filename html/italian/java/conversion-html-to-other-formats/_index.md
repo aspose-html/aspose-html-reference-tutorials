@@ -84,6 +84,7 @@ In conclusione, padroneggiare **html to pdf java** e l'insieme più ampio di con
 ## Conversione - Tutorial su HTML in Altri Formati
 ### [Conversione da HTML a PDF](./convert-html-to-pdf/)
 ### [Render HTML in PDF con rendering parallelo – più veloce](./render-html-to-pdf-with-parallel-rendering-faster/)
+### [Come Convertire un File HTML in PDF in Java – Guida Completa](./how-to-convert-html-file-to-pdf-in-java-full-guide/)
 ### [Converti HTML in PDF in Java – Guida passo‑passo con impostazioni della dimensione della pagina](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 ### [Converti HTML in PDF in Java – Guida completa con incorporamento dei font](./convert-html-to-pdf-in-java-complete-guide-with-font-embeddi/)
 ### [Converti HTML in PDF in Java – Guida completa passo‑step](./convert-html-to-pdf-in-java-complete-step-by-step-guide/)
@@ -108,6 +109,7 @@ In conclusione, padroneggiare **html to pdf java** e l'insieme più ampio di con
 ### [Conversione da HTML a XPS](./convert-html-to-xps/)
 ### [Conversione da Markdown a HTML](./convert-markdown-to-html/)
 ### [Come utilizzare Aspose per convertire HTML in Markdown in Java](./how-to-use-aspose-to-convert-html-to-markdown-in-java/)
+### [Crea PDF da Markdown in Java – Guida completa passo‑passo](./create-pdf-from-markdown-in-java-full-step-by-step-guide/)
 ### [Conversione da SVG a Immagine](./convert-svg-to-image/)
 ### [Conversione da SVG a PDF](./convert-svg-to-pdf/)
 ### [Conversione da SVG a XPS](./convert-svg-to-xps/)

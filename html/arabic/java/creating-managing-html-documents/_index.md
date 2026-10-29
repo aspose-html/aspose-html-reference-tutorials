@@ -168,6 +168,8 @@ url: /ar/java/creating-managing-html-documents/
 تعلم كيفية استخراج عنوان صفحة HTML باستخدام Aspose.HTML في Java من خلال دليل شامل خطوة بخطوة.
 ### [كيفية بدء الخيط في Java – دليل كامل](./how-to-start-thread-in-java-complete-guide/)
 تعلم كيفية إنشاء وتشغيل الخيوط في Java خطوة بخطوة مع دليل شامل يغطي الأساسيات والمتقدم.
+### [قراءة ملف HTML في Java – دليل كامل باستخدام Aspose.HTML](./read-html-file-java-complete-guide-using-aspose-html/)
+تعلم كيفية قراءة ملفات HTML في Java باستخدام Aspose.HTML من خلال دليل شامل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

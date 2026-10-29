@@ -183,6 +183,10 @@ Aspose.HTML for Java kullanarak cihaz DPI değerini nasıl ayarlayacağınızı 
 Java’da namespace içeren XPath ifadeleriyle SVG öğelerini nasıl seçeceğinizi adım adım öğrenin.
 ### [Java’da JavaScript Çalıştırma – Tam Aspose.HTML Kılavuzu](./execute-javascript-in-java-complete-aspose-html-guide/)
 Aspose.HTML for Java kullanarak Java içinde JavaScript kodu çalıştırmayı ve entegrasyonu öğrenin.
+### [Aspose ile JavaScript Çalıştırma – Tam Java Kılavuzu](./enable-javascript-execution-aspose-complete-java-guide/)
+Aspose.HTML for Java kullanarak Java içinde JavaScript kodunu çalıştırmayı ve tam kontrol sağlamayı öğrenin.
+### [Java’da HTML için sandbox oluşturma – Tam Adım‑Adım Kılavuz](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
+Aspose.HTML for Java kullanarak HTML sandbox'ı oluşturmayı, izole ortamda çalıştırmayı ve güvenli test senaryoları geliştirmeyi öğrenin.
 
 ---
 

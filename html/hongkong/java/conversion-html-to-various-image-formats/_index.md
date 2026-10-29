@@ -173,6 +173,12 @@ weight: 24
 ### [從 HTML 建立 PNG – 完整 Java 指南，含自訂解析度](./create-png-from-html-complete-java-guide-with-custom-resolut/)
 學習如何使用 Aspose.HTML for Java 從 HTML 產生 PNG，並自訂解析度以符合不同需求的完整指南。
 
+### [將 HTML 轉換為 PNG – Java 批次匯出指南](./convert-html-to-png-batch-export-guide-for-java/)
+說明如何使用 Aspose.HTML for Java 批次將多個 HTML 檔案轉換為 PNG 圖像，提高效率。
+
+### [將 HTML 轉換為 PNG 時設定 DPI – 完整 Aspose HTML 指南](./how-to-set-dpi-when-converting-html-to-png-complete-aspose-h/)
+說明如何在使用 Aspose.HTML for Java 時，設定輸出 PNG 圖像的 DPI 以獲得所需解析度。
+
 ### [將 HTML 轉換為 WebP](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 ### [將 HTML 轉換為 WebP（完整步驟指南）](./how-to-convert-html-to-webp-in-java-complete-step-by-step-gu/)
 完整的 Java 教學，說明如何使用 Aspose.HTML 將 HTML 轉換為 WebP 圖像，提供程式碼範例與最佳化技巧。

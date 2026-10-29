@@ -175,6 +175,9 @@ Ismerje meg, hogyan konvertálhatja az EPUB fájlokat DOCX formátumba Java‑va
 ### [XPath névtérrel Java‑ban – Teljes útmutató SVG elemek kiválasztásához](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
 ### [JavaScript futtatása Java-ban – Teljes Aspose.HTML útmutató](./execute-javascript-in-java-complete-aspose-html-guide/)
 Ismerje meg, hogyan futtathat JavaScript kódot Java‑ban az Aspose.HTML segítségével.
+### [JavaScript végrehajtás engedélyezése Aspose – Teljes Java útmutató](./enable-javascript-execution-aspose-complete-java-guide/)
+Ismerje meg, hogyan engedélyezheti a JavaScript futtatását Aspose.HTML-ben Java környezetben, lépésről‑lépésre útmutatóval.
+### [HTML sandbox létrehozása Java‑ban – Teljes lépésről‑lépésre útmutató](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
 
 ---
 

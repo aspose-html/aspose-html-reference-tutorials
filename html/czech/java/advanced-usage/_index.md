@@ -196,6 +196,10 @@ Naučte se, jak nastavit DPI zařízení při generování PDF/XPS pomocí Aspos
 Naučte se používat XPath s jmennými prostory v Javě pro výběr SVG elementů a efektivní manipulaci s vektorovou grafikou.
 ### [Spustit JavaScript v Javě – Kompletní Aspose.HTML průvodce](./execute-javascript-in-java-complete-aspose-html-guide/)
 Naučte se, jak spouštět JavaScript v Javě pomocí Aspose.HTML, včetně nastavení, integrace a praktických ukázek.
+### [Povolení spouštění JavaScriptu v Aspose – Kompletní průvodce pro Javu](./enable-javascript-execution-aspose-complete-java-guide/)
+Naučte se, jak povolit a spouštět JavaScript kód v Javě pomocí Aspose.HTML, včetně nastavení a praktických ukázek.
+### [Vytvořit sandbox pro HTML v Javě – Kompletní průvodce krok‑za‑krokem](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
+Naučte se vytvořit bezpečné sandbox prostředí pro zpracování HTML v Javě pomocí Aspose.HTML, krok za krokem.
 
 ---
 

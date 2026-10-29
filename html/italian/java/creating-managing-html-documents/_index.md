@@ -48,14 +48,14 @@ Padroneggia la creazione di documenti HTML in modo asincrono con Aspose.HTML per
 Scopri come creare documenti HTML vuoti in Java utilizzando Aspose.HTML con il nostro dettagliato tutorial passo dopo passo, perfetto per sviluppatori di tutti i livelli.
 ### [Carica documenti HTML da file in Aspose.HTML per Java](./load-html-documents-from-file/)
 Sblocca la potenza della manipolazione HTML con Aspose.HTML per Java. Impara a caricare documenti HTML da file con tutorial passo dopo passo.
+### [Leggi file HTML Java – Guida completa usando Aspose.HTML](./read-html-file-java-complete-guide-using-aspose-html/)
+Scopri come leggere file HTML in Java con Aspose.HTML attraverso una guida passo‑passo completa e dettagliata.
 ### [Caricamento file avanzato per documenti HTML in Aspose.HTML per Java](./advanced-file-loading-html-documents/)
 Scopri come caricare, manipolare e salvare documenti HTML usando Aspose.HTML per Java in questa guida passo-passo. Sblocca l'elaborazione HTML avanzata nei tuoi progetti Java.
 ### [Carica documenti HTML da Stream con Aspose.HTML per Java](./load-html-documents-from-stream/)
 Scopri come caricare documenti HTML da flussi usando Aspose.HTML per Java. Questa guida fornisce un tutorial passo dopo passo per una manipolazione HTML senza soluzione di continuità.
 ### [Crea documenti HTML da stringhe in Aspose.HTML per Java](./create-html-documents-from-string/)
 Scopri come creare documenti HTML da stringhe in Aspose.HTML per Java con questa guida dettagliata.
-### [Estrai testo da HTML in Java – Guida completa di programmazione](./extract-text-from-html-in-java-complete-programming-guide/)
-Scopri come estrarre testo da documenti HTML in Java usando Aspose.HTML con questa guida passo‑passo completa.
 ### [Crea sandbox per HTML in Java – Guida passo‑a‑passo](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Impara a creare un ambiente sandbox per HTML in Java, garantendo sicurezza e isolamento durante lo sviluppo.
 ### [Estrai il titolo della pagina con Java – Guida completa usando Aspose.HTML](./extract-page-title-with-java-full-guide-using-aspose-html/)
@@ -166,6 +166,8 @@ Impara a recuperare dati JSON usando JavaScript all'interno di applicazioni Java
 Scopri come caricare dati JSON usando Fetch in Java con Aspose.HTML. Guida passo‑passo completa per integrare contenuti dinamici.
 ### [Come avviare un thread in Java – Guida completa](./how-to-start-thread-in-java-complete-guide/)
 Impara a creare e gestire thread in Java con Aspose.HTML, passo dopo passo, includendo esempi pratici e consigli utili.
+### [Estrai testo da HTML in Java – Guida completa di programmazione](./extract-text-from-html-in-java-complete-programming-guide/)
+Scopri come estrarre testo da documenti HTML in Java usando Aspose.HTML con una guida passo‑passo completa.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

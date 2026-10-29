@@ -168,6 +168,8 @@ Apprenez à charger des données JSON en Java en utilisant Fetch, avec un guide 
 Apprenez à extraire le titre d'une page HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
 ### [Comment démarrer un thread en Java – Guide complet](./how-to-start-thread-in-java-complete-guide/)
 Apprenez à créer et gérer des threads en Java avec Aspose.HTML, guide complet étape par étape pour une exécution multithread efficace.
+### [Lire un fichier HTML en Java – Guide complet avec Aspose.HTML](./read-html-file-java-complete-guide-using-aspose-html/)
+Apprenez à lire des fichiers HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

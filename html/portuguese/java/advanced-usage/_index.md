@@ -212,6 +212,11 @@ Aprenda a usar XPath com namespaces em Java para selecionar elementos SVG de for
 ### [Executar JavaScript em Java – Guia Completo Aspose.HTML](./execute-javascript-in-java-complete-aspose-html-guide/)
 Aprenda a executar código JavaScript dentro de aplicações Java usando Aspose.HTML.
 
+### [Habilitar Execução de JavaScript Aspose – Guia Completo Java](./enable-javascript-execution-aspose-complete-java-guide/)
+
+### [Criar sandbox para HTML em Java – Guia completo passo a passo](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
+Aprenda a criar um ambiente sandbox seguro para executar HTML em Java, passo a passo, usando Aspose.HTML.
+
 ---
 
 **Última atualização:** 2025-11-29  

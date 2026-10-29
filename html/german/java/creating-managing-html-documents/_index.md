@@ -75,6 +75,8 @@ Lernen Sie, wie Sie mit Aspose.HTML für Java Markdown‑Dateien in HTML umwande
 Erfahren Sie, wie Sie HTML in Java rendern, auf das Laden der Seite warten und den Query Selector verwenden.
 ### [JSON mit Fetch in Java laden – Komplett‑Guide](./load-json-with-fetch-in-java-complete-guide/)
 Erfahren Sie, wie Sie JSON-Daten mit Fetch in Java laden – Schritt‑für‑Schritt‑Anleitung inklusive.
+### [Text aus HTML in Java extrahieren – Vollständiger Programmierleitfaden](./extract-text-from-html-in-java-complete-programming-guide/)
+Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.HTML für Java Text aus HTML‑Dokumenten extrahieren.
 ### [Generieren Sie neue HTML-Dokumente mit Aspose.HTML für Java](./generate-new-html-documents/)
 Erfahren Sie in dieser einfachen Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.HTML für Java neue HTML-Dokumente erstellen. Beginnen Sie mit der Generierung dynamischer HTML-Inhalte.
 ### [Behandeln von Dokumentladeereignissen in Aspose.HTML für Java](./handle-document-load-events/)
@@ -101,9 +103,6 @@ Erfahren Sie, wie Sie HTML in Java analysieren und Text aus HTML‑Artikeln extr
 
 ### [Wie man XPath in Java verwendet – HTML lesen und Text extrahieren](./how-to-use-xpath-in-java-read-html-and-extract-text/)
 Lernen Sie, wie Sie mit Aspose.HTML für Java XPath einsetzen, um HTML zu lesen und gezielt Textinhalte zu extrahieren.
-
-### [Text aus HTML in Java extrahieren – Vollständiger Programmierleitfaden](./extract-text-from-html-in-java-complete-programming-guide/)
-Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.HTML für Java Text aus HTML extrahieren.
 
 ### [HTML-Dokument in Java laden – Komplett‑Leitfaden mit XPath & CSS](./load-html-document-java-complete-guide-with-xpath-css/)
 Lernen Sie, HTML-Dokumente in Java zu laden und mit XPath und CSS zu analysieren – Schritt‑für‑Schritt‑Anleitung.
@@ -171,6 +170,8 @@ Erfahren Sie, wie Sie HTML‑Inhalte mit Aspose Java effizient durchsuchen und v
 Erfahren Sie, wie Sie JSON‑Daten mit JavaScript abrufen und ein HTML‑Dokument mit Aspose.HTML für Java erstellen.
 ### [JSON mit JavaScript in Java abrufen – Vollständige Anleitung](./fetch-json-with-javascript-in-java-full-guide/)
 Erfahren Sie, wie Sie JSON‑Daten mit JavaScript in Java abrufen und verarbeiten – Schritt‑für‑Schritt‑Leitfaden.
+### [HTML-Datei in Java lesen – Komplett‑Anleitung mit Aspose.HTML](./read-html-file-java-complete-guide-using-aspose-html/)
+Erfahren Sie, wie Sie HTML-Dateien in Java mit Aspose.HTML vollständig lesen und verarbeiten – Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
