@@ -51,17 +51,44 @@ url: /hi/java/editing-html-documents/
 ### [Java के लिए Aspose.HTML में HTML दस्तावेज़ों पर बाह्य CSS लागू करें](./apply-external-css-html-documents/)
 जानें कि Java के लिए Aspose.HTML का उपयोग करके HTML दस्तावेज़ों पर बाहरी CSS कैसे लागू करें! संपूर्ण ट्यूटोरियल के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें।
 ### [Java के लिए Aspose.HTML के साथ उन्नत बाह्य CSS संपादन](./advanced-external-css-editing/)
-Aspose.HTML for Java के साथ बाहरी CSS को संपादित करने की कला में महारत हासिल करें। यह विस्तृत, चरण-दर-चरण मार्गदर्शिका आपको गतिशील, स्टाइल वाले HTML दस्तावेज़ बनाने में मार्गदर्शन करती है।
+Aspose.HTML for Java के साथ बाहरी CSS को संपादित करने की कला में महारत हासिल करें। यह विस्तृत, चरण-दर-चरण मार्गदर्शन आपको गतिशील, स्टाइल वाले HTML दस्तावेज़ बनाने में मार्गदर्शन करती है।
 ### [Java के लिए Aspose.HTML में HTML दस्तावेज़ों में इनलाइन CSS जोड़ें](./add-inline-css-html-documents/)
 Java के लिए Aspose.HTML का उपयोग करके HTML दस्तावेज़ों में इनलाइन CSS जोड़ना सीखें। यह चरण-दर-चरण मार्गदर्शिका आपको HTML को स्टाइल करने और इसे आसानी से PDF में बदलने में मदद करती है।
 ### [Java के लिए Aspose.HTML में आंतरिक और बाहरी HTML गुण प्रबंधित करें](./manage-inner-outer-html-properties/)
-इस चरण-दर-स्तर मार्गदर्शिका के साथ Java के लिए Aspose.HTML में आंतरिक और बाहरी HTML गुणों को प्रबंधित करना सीखें, जो वेब डेवलपर्स और सामग्री निर्माताओं के लिए एकदम सही है।
+इस चरण-दर-श... (description)
 ### [Java के लिए Aspose.HTML के साथ HTML दस्तावेज़ों में आंतरिक CSS लागू करें](./implement-internal-css-html-documents/)
 हमारे आसान चरण-दर-चरण ट्यूटोरियल के साथ Java के लिए Aspose.HTML का उपयोग करके HTML दस्तावेज़ों में आंतरिक CSS को लागू करना सीखें।
 ### [Java के लिए Aspose.HTML में HTML टेम्पलेट लोड करें – पूर्ण गाइड](./load-html-template-java-complete-aspose-html-guide/)
 Java के लिए Aspose.HTML का उपयोग करके HTML टेम्पलेट लोड करने की पूरी प्रक्रिया सीखें। चरण-दर-चरण गाइड।
 ### [Fixed thread pool java – ExecutorService के साथ समानांतर HTML सफाई](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 ExecutorService के साथ Fixed Thread Pool का उपयोग करके समानांतर रूप से HTML को साफ़ करने की प्रक्रिया सीखें।
+### [Java के लिए Aspose.HTML में HTML से स्क्रिप्ट हटाने की पूरी गाइड](./how-to-remove-scripts-from-html-in-java-complete-guide/)
+Java में Aspose.HTML का उपयोग करके HTML दस्तावेज़ों से सभी स्क्रिप्ट टैग को सुरक्षित रूप से हटाने के चरण-दर-स्टेप मार्गदर्शन।
+
+### [HTML को हाइलाइट कैसे करें – टेक्स्ट खोजें और <mark> से बदलें](./how-to-highlight-html-search-text-replace-with-mark/)
+Java के लिए Aspose.HTML का उपयोग करके HTML में टेक्स्ट खोजें और <mark> टैग से हाइलाइट करने की चरण-दर-चरण गाइड।
+
+### [Java DOM में चाइल्ड जोड़ना – पूर्ण Aspose.HTML गाइड](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
+Java DOM में नया चाइल्ड नोड जोड़ने की चरण-दर-चरण प्रक्रिया सीखें, Aspose.HTML का उपयोग करके।
+
+### [Java के साथ नया HTML तत्व बनाएं – पूर्ण Aspose.HTML गाइड](./create-new-html-element-with-java-full-aspose-html-guide/)
+Java के लिए Aspose.HTML का उपयोग करके नया HTML तत्व बनाने की पूरी प्रक्रिया सीखें। चरण-दर-चरण मार्गदर्शिका।
+
+### [Java के साथ MHTML में h1 टेक्स्ट बदलें – पूर्ण चरण‑दर‑चरण गाइड](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
+Java का उपयोग करके MHTML फ़ाइल में h1 टैग का टेक्स्ट बदलने की पूरी चरण‑दर‑चरण प्रक्रिया सीखें।
+
+### [Java में बॉडी में चाइल्ड जोड़ें – पूर्ण Aspose.HTML ट्यूटोरियल](./append-child-to-body-in-java-full-aspose-html-tutorial/)
+Java के लिए Aspose.HTML का उपयोग करके बॉडी में नया तत्व जोड़ने की पूरी चरण-दर-चरण गाइड।
+### [Java में स्वचालित लॉक रिलीज़ – थ्रेड‑सेफ HTML संपादन ट्यूटोरियल](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
+Java में स्वचालित लॉक रिलीज़ के साथ थ्रेड‑सेफ HTML संपादन कैसे करें, सीखें।
+### [Java में HTML निकालना – टेक्स्ट निकालें और शब्दों को हाइलाइट करें](./how-to-extract-html-in-java-extract-text-highlight-words/)
+Java में Aspose.HTML का उपयोग करके HTML से टेक्स्ट निकालें और विशिष्ट शब्दों को हाइलाइट करने का चरण-दर-चरण मार्गदर्शन।
+
+### [Get Element Attribute Java – SVG चयन और XPath के लिए पूर्ण गाइड](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
+Java में Aspose.HTML का उपयोग करके SVG तत्वों के एट्रिब्यूट प्राप्त करने और XPath चयन करने की पूरी प्रक्रिया सीखें।
+### [Aspose.HTML for Java के साथ HTML में JavaScript चलाएँ – पूर्ण गाइड](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
+Aspose.HTML for Java का उपयोग करके HTML में JavaScript को एम्बेड और निष्पादित करने के चरण‑दर‑चरण पूर्ण मार्गदर्शन।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -9,9 +9,7 @@ url: /vi/java/converting-between-epub-and-image-formats/convert-epub-to-tiff/
 weight: 14
 ---
 
- characters like non-breaking spaces? Not needed.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

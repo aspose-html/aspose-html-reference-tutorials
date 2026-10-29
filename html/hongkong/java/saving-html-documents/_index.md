@@ -52,6 +52,8 @@ url: /zh-hant/java/saving-html-documents/
 使用 Aspose.HTML for Java 輕鬆將 HTML 轉換為 Markdown。請按照此逐步指南進行順利的內容轉換和操作。
 ### [在 Aspose.HTML for Java 中將 HTML 儲存為 MHTML](./save-html-to-mhtml/)
 透過本逐步指南（包含程式碼範例和實用技巧），了解如何使用 Aspose.HTML for Java 將 HTML 文件儲存為 MHTML。
+### [使用 Aspose HTML for Java 將網頁儲存為 MHTML – 逐步指南](./save-webpage-as-mhtml-with-aspose-html-for-java-step-by-step/)
+透過本逐步指南，了解如何使用 Aspose.HTML for Java 將網頁儲存為 MHTML，包含範例程式碼與實用技巧。
 ### [在 Aspose.HTML for Java 中儲存 SVG 文檔](./save-svg-document/)
 透過這個包含範例的簡單逐步指南，了解如何使用 Aspose.HTML for Java 儲存 SVG 文件。
 {{< /blocks/products/pf/tutorial-page-section >}}

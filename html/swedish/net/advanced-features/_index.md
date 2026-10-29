@@ -45,7 +45,22 @@ Lär dig hur du konverterar HTML till PDF, XPS och bilder med Aspose.HTML för .
 ### [Använda HTML-mallar i .NET med Aspose.HTML](./using-html-templates/)
 Lär dig hur du använder Aspose.HTML för .NET för att dynamiskt generera HTML-dokument från JSON-data. Utnyttja kraften i HTML-manipulation i dina .NET-applikationer.
 ### [Hur du kombinerar teckensnitt programatiskt i C# – Steg‑för‑steg‑guide](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
-Lär dig att kombinera flera teckensnitt i ett HTML-dokument med C# och Aspose.HTML i en enkel steg‑för‑steg‑guide.
+### [Hur du zippar HTML med Aspose HTML – Komplett guide](./how-to-zip-html-with-aspose-html-complete-guide/)
+Lär dig hur du komprimerar HTML-filer till zip‑arkiv med Aspose HTML i en komplett steg‑för‑steg‑guide.
+
+### [Hämta Assembly-version i C# – Snabbguide för att hämta biblioteksversion](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
+Lär dig hur du snabbt får fram versionen av ett .NET‑assembly i C# med enkla kodexempel.
+### [Anpassad resurs‑hanterare i Aspose HTML – Guide för att spara till ström](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
+Lär dig hur du implementerar en anpassad resurs‑hanterare i Aspose HTML för att spara HTML‑innehåll till en ström.
+### [Spara dokument som PDF i C# – Komplett guide med ZIP‑stöd](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
+Lär dig hur du sparar HTML som PDF i C# med stöd för ZIP‑arkiv, inklusive steg‑för‑steg‑exempel och konfigurationsalternativ.
+### [Hur du aktiverar Clear Type – Aktivera jämningsläge i .NET](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
+Lär dig hur du aktiverar Clear Type och jämningsläge för skarpare textrendering i dina .NET-applikationer.
+### [Konvertera Word-dokument till PDF – Klartextguide (C#)](./convert-word-document-to-pdf-clear-text-guide-c/)
+Lär dig hur du konverterar Word-dokument till PDF med Aspose.HTML i C#, steg‑för‑steg och tydliga exempel.
+
+### [Spara HTML till zip med C# – skapa zip‑arkiv i C# med Aspose](./save-html-to-zip-with-c-create-zip-archive-c-using-aspose/)
+Lär dig hur du sparar HTML-filer i ett zip‑arkiv med C# och Aspose.HTML, inklusive kodexempel och steg‑för‑steg‑instruktioner.
 
 ## Slutsats
 
