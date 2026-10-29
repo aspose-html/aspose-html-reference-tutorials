@@ -91,6 +91,8 @@ Aprenda a gerar PDFs a partir de HTML em C#, incorporando fontes para garantir r
 Aprenda a criar um PDF a partir de HTML em C# com um guia completo passo a passo usando Aspose.HTML para .NET.
 ### [Criar PDF a partir de HTML em C# – Guia completo passo a passo](./create-pdf-from-html-in-c-full-step-by-step-guide/)
 Aprenda a gerar PDFs a partir de HTML usando C# com Aspose.HTML, seguindo um guia completo passo a passo.
+### [Criar PDF a partir de HTML em C# – Guia de Programação Completo](./create-pdf-from-html-in-c-complete-programming-guide/)
+Aprenda a gerar PDFs a partir de HTML usando C# com Aspose.HTML, seguindo um guia completo de programação passo a passo.
 
 ### [Criar documento HTML com texto estilizado e exportar para PDF – Guia completo](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Aprenda a criar um documento HTML com texto formatado e exportá-lo para PDF usando Aspose.HTML para .NET. Guia passo a passo.
@@ -273,6 +275,8 @@ Aprenda a converter HTML em arquivos ZIP com Aspose.HTML para .NET usando C# em 
 
 ### [Converter HTML para ZIP em C# – Guia completo](./convert-html-to-zip-in-c-complete-guide/)
 Aprenda a converter HTML em arquivos ZIP usando Aspose.HTML para .NET em C# com um guia completo.
+### [Manipulador de Recurso Personalizado em C# – Converter HTML para Stream](./custom-resource-handler-in-c-convert-html-to-stream/)
+Aprenda a usar um manipulador de recurso personalizado em C# para converter HTML em um fluxo de dados usando Aspose.HTML.
 
 ## Conclusão
 

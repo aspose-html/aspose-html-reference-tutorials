@@ -146,9 +146,6 @@ Pelajari cara mengaktifkan antialiasing saat mengonversi HTML ke PDF menggunakan
 ### [Render HTML ke PNG dalam C# – Panduan Cepat dan Andal](./render-html-to-png-in-c-fast-reliable-guide/)
 Pelajari cara cepat dan andal merender HTML menjadi PNG menggunakan C# dengan contoh kode lengkap.
 
-### [Render HTML ke PNG dalam C# – Panduan Lengkap Langkah‑demi‑Langkah](./render-html-to-png-in-c-complete-step-by-step-guide/)
-Pelajari cara merender HTML menjadi PNG menggunakan C# dengan panduan langkah demi langkah yang lengkap.
-
 ### [Render HTML sebagai Gambar di C# – Panduan Pemrograman Lengkap](./render-html-as-image-in-c-complete-programming-guide/)
 Pelajari cara merender HTML menjadi gambar dengan Aspose.HTML untuk .NET menggunakan panduan pemrograman lengkap.
 
@@ -177,6 +174,9 @@ Pelajari cara mengaktifkan antialiasing saat merender HTML menjadi PNG menggunak
 
 ### [Render HTML ke Gambar dengan Aspose.HTML – Panduan Lengkap C#](./render-html-to-image-with-aspose-html-complete-c-guide/)
 Pelajari cara merender HTML menjadi gambar menggunakan Aspose.HTML untuk .NET dengan panduan lengkap C#.
+
+### [Render HTML ke PNG dalam C# – Panduan Lengkap Langkah‑demi‑Langkah](./render-html-to-png-in-c-complete-step-by-step-guide/)
+Pelajari cara merender HTML menjadi PNG menggunakan C# dengan panduan langkah demi langkah yang lengkap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

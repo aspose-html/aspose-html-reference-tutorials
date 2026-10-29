@@ -78,6 +78,8 @@ Dowiedz się, jak w C# wygenerować plik PDF z kodu HTML przy użyciu Aspose –
 Pełny przewodnik, jak w C# konwertować HTML do PDF przy pomocy biblioteki Aspose.HTML, krok po kroku.
 ### [Utwórz PDF z HTML w C# – Pełny przewodnik krok po kroku](./create-pdf-from-html-in-c-full-step-by-step-guide/)
 Pełny przewodnik, jak w C# przekształcić HTML w PDF przy użyciu Aspose.HTML, z przykładami kodu i wskazówkami konfiguracyjnymi.
+### [Utwórz PDF z HTML w C# – Kompletny przewodnik programistyczny](./create-pdf-from-html-in-c-complete-programming-guide/)
+Kompletny przewodnik programistyczny, jak w C# przekształcić HTML w PDF przy użyciu Aspose.HTML.
 ### [Konwersja EPUB do obrazu w .NET za pomocą Aspose.HTML](./convert-epub-to-image/)
 Dowiedz się, jak konwertować EPUB na obrazy za pomocą Aspose.HTML dla .NET. Samouczek krok po kroku z przykładami kodu i opcjami dostosowywania.
 ### [Konwertuj EPUB do PDF w .NET za pomocą Aspose.HTML](./convert-epub-to-pdf/)
@@ -221,6 +223,8 @@ Dowiedz się, jak przy użyciu ZipHandler spakować stronę internetową do arch
 Pełny przewodnik, jak zapisać dokument HTML jako archiwum ZIP przy użyciu biblioteki Aspose.HTML w .NET.
 ### [Konwertuj HTML do ZIP w C# – Kompletny przewodnik krok po kroku](./convert-html-to-zip-in-c-complete-step-by-step-guide/)
 Zapisz plik HTML jako archiwum ZIP w C# przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
+### [Niestandardowy obsługiwacz zasobów w C# – Konwertuj HTML do strumienia](./custom-resource-handler-in-c-convert-html-to-stream/)
+Dowiedz się, jak używać własnego obsługiwacza zasobów w C# do konwersji HTML bezpośrednio do strumienia przy pomocy Aspose.HTML.
 
 ## Wniosek
 

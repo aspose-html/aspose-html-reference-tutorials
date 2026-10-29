@@ -95,6 +95,8 @@ Apprenez à créer un PDF à partir de HTML en C# avec antialiasing grâce à ce
 Guide complet pour créer un PDF à partir de HTML en C# avec Aspose.HTML, incluant exemples de code et meilleures pratiques.
 ### [Convertir HTML en PDF en C# – Enregistrer la page HTML en PDF](./convert-html-to-pdf-in-c-save-html-page-as-pdf/)
 Apprenez à convertir une page HTML en PDF avec C# en utilisant Aspose.HTML, guide complet pas à pas.
+### [Créer un PDF à partir de HTML en C# – Guide complet de programmation](./create-pdf-from-html-in-c-complete-programming-guide/)
+Apprenez à générer un PDF à partir de HTML en C# avec Aspose.HTML grâce à un guide complet et détaillé.
 ### [Convertir EPUB en image dans .NET avec Aspose.HTML](./convert-epub-to-image/)
 Découvrez comment convertir un EPUB en images à l'aide d'Aspose.HTML pour .NET. Tutoriel étape par étape avec des exemples de code et des options personnalisables.
 ### [Convertir EPUB en PDF dans .NET avec Aspose.HTML](./convert-epub-to-pdf/)
@@ -227,6 +229,8 @@ Apprenez à compresser des pages Web en fichiers ZIP avec un guide complet étap
 Apprenez à archiver une page Web en fichier ZIP avec ZipHandler en C# grâce à ce guide étape par étape.
 ### [Enregistrer le HTML en ZIP – Guide complet Aspose.HTML](./save-html-to-zip-complete-aspose-html-guide/)
 Apprenez à enregistrer un document HTML dans un fichier ZIP avec Aspose.HTML, guide complet étape par étape.
+### [Gestionnaire de ressources personnalisé en C# – Convertir le HTML en flux](./custom-resource-handler-in-c-convert-html-to-stream/)
+Apprenez à créer un gestionnaire de ressources personnalisé en C# pour convertir du HTML directement en flux avec Aspose.HTML.
 
 ## Conclusion
 

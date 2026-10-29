@@ -92,6 +92,8 @@ Learn how to render HTML to PDF using C# and Aspose.HTML with a comprehensive st
 ### [Convert HTML to PDF in C# – Complete Guide with Text Clarity Tips](./convert-html-to-pdf-in-c-complete-guide-with-text-clarity-ti/)
 Learn how to convert HTML to PDF in C# with detailed steps and tips for improving text clarity.
 
+### [Create PDF from HTML in C# – Complete Programming Guide](./create-pdf-from-html-in-c-complete-programming-guide/)
+Comprehensive guide to creating PDFs from HTML in C# using Aspose.HTML for .NET, covering full programming workflow.
 ### [Convert HTML to BMP in .NET with Aspose.HTML](./convert-html-to-bmp/)
 Learn how to convert HTML to BMP in .NET using Aspose.HTML for .NET. Comprehensive guide for web developers for Leveraging Aspose.HTML for .NET.
 ### [Convert HTML to Image in C# – Step‑by‑Step Guide](./convert-html-to-image-in-c-step-by-step-guide/)
@@ -223,6 +225,8 @@ Learn how to zip HTML files and render them to PNG using Aspose.HTML for .NET in
 Learn how to zip HTML files and export web pages as a ZIP archive using Aspose.HTML for .NET with a comprehensive step‑by‑step guide.
 ### [Save HTML to ZIP – Complete Aspose.Html Guide](./save-html-to-zip-complete-aspose-html-guide/)
 Learn how to save HTML content into a ZIP archive using Aspose.HTML for .NET with a comprehensive step-by-step guide.
+### [Custom Resource Handler in C# – Convert HTML to Stream](./custom-resource-handler-in-c-convert-html-to-stream/)
+Learn how to implement a custom resource handler in C# to convert HTML content directly to a stream using Aspose.HTML.
 
 ## Conclusion
 

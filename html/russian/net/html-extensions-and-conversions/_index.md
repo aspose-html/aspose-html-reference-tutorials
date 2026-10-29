@@ -80,6 +80,8 @@ Aspose.HTML для .NET — это не просто библиотека; эт�
 Полное пошаговое руководство по конвертации HTML в PDF с использованием C# и Aspose.HTML для .NET.
 ### [Отобразите HTML в PDF в C# – Полное пошаговое руководство](./render-html-as-pdf-in-c-full-step-by-step-guide/)
 Пошаговое руководство по рендерингу HTML в PDF с помощью C# и Aspose.HTML.
+### [Создайте PDF из HTML в C# – Полное руководство по программированию](./create-pdf-from-html-in-c-complete-programming-guide/)
+Полное пошаговое руководство по созданию PDF из HTML в C# с использованием Aspose.HTML.
 ### [Конвертируйте EPUB в изображение в .NET с помощью Aspose.HTML](./convert-epub-to-image/)
 Узнайте, как конвертировать EPUB в изображения с помощью Aspose.HTML для .NET. Пошаговое руководство с примерами кода и настраиваемыми параметрами.
 
@@ -235,6 +237,8 @@ Aspose.HTML для .NET — это не просто библиотека; эт�
 Узнайте, как с помощью ZipHandler упаковать веб-страницу в архив ZIP с помощью C# и Aspose.HTML.
 ### [Сохранить HTML в ZIP – Полное руководство Aspose.HTML](./save-html-to-zip-complete-aspose-html-guide/)
 Узнайте, как сохранить HTML‑страницу в архив ZIP с помощью Aspose.HTML для .NET, используя C# в полном пошаговом руководстве.
+### [Пользовательский обработчик ресурсов в C# – Конвертировать HTML в поток](./custom-resource-handler-in-c-convert-html-to-stream/)
+Узнайте, как создать собственный обработчик ресурсов в C# для конвертации HTML в поток с помощью Aspose.HTML.
 
 ## Заключение
 

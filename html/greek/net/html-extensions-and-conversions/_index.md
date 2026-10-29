@@ -77,6 +77,8 @@ url: /el/net/html-extensions-and-conversions/
 Μάθετε πώς να μετατρέψετε HTML σε PDF με C# χρησιμοποιώντας το Aspose.HTML, ακολουθώντας έναν πλήρη οδηγό βήμα‑βήμα.
 ### [HTML σε PDF – Μετατροπή HTML σε PDF με το Aspose](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose/)
 Μάθετε πώς να μετατρέπετε HTML σε PDF με το Aspose σε βήμα‑βήμα οδηγό, απλοποιώντας τη διαδικασία δημιουργίας PDF.
+### [Δημιουργία PDF από HTML σε C# – Πλήρης Οδηγός Προγραμματισμού](./create-pdf-from-html-in-c-complete-programming-guide/)
+Μάθετε πώς να δημιουργήσετε PDF από HTML σε C# με πλήρη οδηγό προγραμματισμού, βήμα‑βήμα, χρησιμοποιώντας το Aspose.HTML.
 ### [Μετατρέψτε το EPUB σε Εικόνα στο .NET με το Aspose.HTML](./convert-epub-to-image/)
 Μάθετε πώς να μετατρέπετε το EPUB σε εικόνες χρησιμοποιώντας το Aspose.HTML για .NET. Βήμα προς βήμα μάθημα με παραδείγματα κώδικα και προσαρμόσιμες επιλογές.
 ### [Μετατροπή EPUB σε PDF σε .NET με Aspose.HTML](./convert-epub-to-pdf/)
@@ -181,6 +183,8 @@ url: /el/net/html-extensions-and-conversions/
 Μάθετε πώς να δημιουργήσετε αρχείο HTML από έγγραφο DOCX χρησιμοποιώντας το Aspose.HTML για .NET, βήμα‑βήμα με παραδείγματα κώδικα.
 ### [Μετατροπή HTML σε PDF σε C# – Πλήρης Οδηγός με Συμβουλές για Καθαρό Κείμενο](./convert-html-to-pdf-in-c-complete-guide-with-text-clarity-ti/)
 Μάθετε πώς να μετατρέπετε HTML σε PDF σε C# με πλήρη οδηγό και βελτιστοποιημένες συμβουλές για καθαρό κείμενο.
+### [Προσαρμοσμένος Διαχειριστής Πόρων σε C# – Μετατροπή HTML σε Ροή](./custom-resource-handler-in-c-convert-html-to-stream/)
+Μάθετε πώς να δημιουργήσετε προσαρμοσμένο διαχειριστή πόρων σε C# για τη μετατροπή HTML σε ροή με το Aspose.HTML.
 
 ### [Πώς να συμπιέσετε HTML με Aspose.HTML – Πλήρης Οδηγός](./how-to-zip-html-with-aspose-html-complete-guide/)
 Μάθετε πώς να δημιουργείτε αρχείο ZIP από HTML χρησιμοποιώντας το Aspose.HTML σε .NET – βήμα‑βήμα οδηγός.

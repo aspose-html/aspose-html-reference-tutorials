@@ -91,6 +91,8 @@ Aspose.HTML for .NET 不只是一個函式庫；它還是一個函式庫。它�
 
 ### [HTML 轉 PDF 教學 – 使用 Aspose 將 HTML 轉換為 PDF](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose/)
 使用 Aspose.HTML for .NET 輕鬆將 HTML 轉換為 PDF，提供完整步驟與程式碼範例。
+### [使用 C# 從 HTML 建立 PDF – 完整程式設計指南](./create-pdf-from-html-in-c-complete-programming-guide/)
+使用 Aspose.HTML for .NET，透過 C# 完整程式範例將 HTML 轉換為 PDF，涵蓋所有關鍵步驟與最佳實踐。
 ### [使用 Aspose.HTML 將 EPUB 轉換為 .NET 中的映像](./convert-epub-to-image/)
 了解如何使用 Aspose.HTML for .NET 將 EPUB 轉換為映像。包含程式碼範例和可自訂選項的逐步教學。
 
@@ -241,6 +243,8 @@ Aspose.HTML for .NET 不只是一個函式庫；它還是一個函式庫。它�
 
 ### [將 HTML 儲存為 ZIP – 完整 Aspose.HTML 教學](./save-html-to-zip-complete-aspose-html-guide/)
 使用 Aspose.HTML for .NET 完整示範如何將 HTML 壓縮為 ZIP 檔案，提供完整步驟與範例。
+### [C# 中的自訂資源處理程式 – 將 HTML 轉換為串流](./custom-resource-handler-in-c-convert-html-to-stream/)
+使用 Aspose.HTML for .NET 在 C# 中自訂資源處理程式，將 HTML 直接轉換為串流。
 
 ## 結論
 

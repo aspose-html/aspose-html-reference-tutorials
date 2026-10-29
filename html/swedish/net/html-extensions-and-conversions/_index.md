@@ -135,6 +135,8 @@ Lär dig skapa PDF från HTML med Aspose i en detaljerad steg‑för‑steg‑gu
 Lär dig hur du genererar HTML-utdata med Aspose.HTML i en komplett C#-handledning.
 ### [Skapa PDF från HTML i C# – Fullständig steg‑för‑steg‑guide](./create-pdf-from-html-in-c-full-step-by-step-guide/)
 Lär dig skapa PDF från HTML i C# med Aspose.HTML för .NET i en komplett steg‑för‑steg‑handledning.
+### [Skapa PDF från HTML i C# – Komplett programmeringsguide](./create-pdf-from-html-in-c-complete-programming-guide/)
+Lär dig skapa PDF från HTML i C# med en komplett guide. Steg‑för‑steg‑exempel och detaljerade instruktioner för smidig implementering.
 ### [Spara HTML som ZIP – Komplett C#-handledning](./save-html-as-zip-complete-c-tutorial/)
 Lär dig hur du sparar HTML som en ZIP-fil med en komplett C#-kodexempel och steg-för-steg-instruktioner.
 ### [Skapa HTML-dokument och spara som zip – Komplett C#‑guide](./create-html-document-and-save-as-zip-complete-c-guide/)
@@ -224,6 +226,8 @@ Lär dig hur du konverterar HTML till PDF med C# i en komplett guide med kodexem
 Lär dig hur du sparar HTML till ZIP med en komplett Aspose.HTML-guide och steg‑för‑steg‑exempel.
 ### [Konvertera HTML till PDF i C# – Komplett guide med tips för tydlig text](./convert-html-to-pdf-in-c-complete-guide-with-text-clarity-ti/)
 Lär dig steg‑för‑steg hur du konverterar HTML till PDF i C# med fokus på tydlig text och bästa praxis.
+### [Anpassad resurs‑hanterare i C# – Konvertera HTML till ström](./custom-resource-handler-in-c-convert-html-to-stream/)
+Lär dig skapa en anpassad resurs‑hanterare i C# för att konvertera HTML direkt till en ström med Aspose.HTML.
 
 ## Slutsats
 

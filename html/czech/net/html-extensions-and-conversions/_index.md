@@ -86,6 +86,8 @@ Naučte se převést HTML do PDF pomocí Aspose v podrobném průvodci.
 Naučte se v C# pomocí Aspose.HTML převést HTML stránku do PDF a uložit ji jako PDF soubor.
 ### [Převod HTML do PDF v C# – Kompletní průvodce s tipy na čitelnost textu](./convert-html-to-pdf-in-c-complete-guide-with-text-clarity-ti/)
 Kompletní průvodce převodem HTML do PDF v C# s tipy pro zvýšení čitelnosti textu.
+### [Vytvořte PDF z HTML v C# – kompletní programovací průvodce](./create-pdf-from-html-in-c-complete-programming-guide/)
+Kompletní programovací průvodce ukazuje, jak v C# pomocí Aspose.HTML převést HTML do PDF s podrobnými ukázkami kódu.
 ### [Převeďte EPUB na obrázek v .NET pomocí Aspose.HTML](./convert-epub-to-image/)
 Přečtěte si, jak převést EPUB na obrázky pomocí Aspose.HTML pro .NET. Výukový program krok za krokem s příklady kódu a přizpůsobitelnými možnostmi.
 
@@ -233,6 +235,9 @@ Naučte se pomocí ZipHandler archivovat webovou stránku do ZIP souboru v C# s 
 Naučte se, jak pomocí Aspose.HTML v C# převést HTML do ZIP archivu pomocí podrobného průvodce krok za krokem.
 ### [Uložte HTML do ZIP – Kompletní průvodce Aspose.HTML](./save-html-to-zip-complete-aspose-html-guide/)
 Naučte se, jak pomocí Aspose.HTML pro .NET uložit HTML soubor do ZIP archivu v kompletním průvodci.
+### [Vlastní obslužná rutina zdrojů v C# – Převod HTML do proudu](./custom-resource-handler-in-c-convert-html-to-stream/)
+Naučte se, jak pomocí Aspose.HTML v C# vytvořit vlastní handler zdrojů a převést HTML do streamu.
+
 ## Závěr
 
 Závěrem lze říci, že rozšíření a konverze HTML jsou základními prvky moderního vývoje webu. Aspose.HTML for .NET zjednodušuje proces a zpřístupňuje jej vývojářům všech úrovní. Budete-li se řídit našimi návody, budete na dobré cestě stát se zdatným webovým vývojářem se širokou sadou dovedností.
