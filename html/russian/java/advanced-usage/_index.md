@@ -112,6 +112,8 @@ Aspose.HTML позволяет прикрепить `DomMutationObserver` к л�
 О: Нет. Одна лицензия Aspose.HTML for Java покрывает все форматы вывода, включая PDF и XPS.
 
 ## Расширенные руководства по Aspose.HTML Java
+
+
 ### [Настройка полей HTML‑страницы с Aspose.HTML](./css-extensions-adding-title-page-number/)
 Узнайте, как настраивать поля страницы, добавлять номера страниц и заголовки в HTML‑документы с помощью Aspose.HTML for Java.
 ### [Наблюдатель изменений DOM с Aspose.HTML for Java](./dom-mutation-observer-observing-node-additions/)
@@ -121,19 +123,125 @@ Aspose.HTML позволяет прикрепить `DomMutationObserver` к л�
 ### [Манипуляции с HTML5 Canvas с Aspose.HTML for Java](./html5-canvas-manipulation-using-javascript/)
 Узнайте, как управлять HTML5 Canvas с помощью JavaScript и Aspose.HTML for Java. Создавайте динамическую графику и конвертируйте её в PDF.
 ### [Автоматизация заполнения HTML‑форм с Aspose.HTML for Java](./html-form-editor-filling-submitting-forms/)
-Изучите, как автоматизировать заполнение и отправку HTML‑форм с помощью Aspose.HTML for Java. Упростите взаимодействие с веб‑формами с помощью этого руководства.
+Изучите, как автоматизировать заполнение и отправку HTML‑форм с помощью Aspose.HTML for Java. Упростите взаимодействие с веб‑формами с этим руководством.
 ### [Регулировка размера PDF‑страницы с Aspose.HTML for Java](./adjust-pdf-page-size/)
 Узнайте, как изменять размер страниц PDF с помощью Aspose.HTML for Java. Создавайте высококачественные PDF из HTML без усилий, эффективно контролируя размеры страниц.
 ### [Регулировка размера XPS‑страницы с Aspose.HTML for Java](./adjust-xps-page-size/)
 Узнайте, как изменять размер страниц XPS с помощью Aspose.HTML for Java. Легко контролируйте размеры выводимых XPS‑документов.
 ### [Как выполнить JavaScript в Java – Полное руководство](./how-to-run-javascript-in-java-complete-guide/)
 Узнайте, как запускать JavaScript‑код из Java‑приложений с помощью Aspose.HTML for Java.
+### [Установка коэффициента пикселей устройства в Java – Руководство по мобильной песочнице](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
+Узнайте, как задать device pixel ratio в Java при работе в мобильной песочнице Aspose.HTML, обеспечивая корректный рендеринг на разных экранах.
+### [Как включить JavaScript в Aspose HTML – загрузить HTML и получить текст](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+Узнайте, как включить выполнение JavaScript при загрузке HTML и извлечь текстовое содержимое с помощью Aspose.HTML for Java.
+### [Как запускать скрипты в Java – Полное руководство по выполнению JavaScript и извлечению данных](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
+Узнайте, как запускать JavaScript в Java, выполнять скрипты и извлекать данные с помощью Aspose.HTML for Java.
+### [Как использовать Aspose для конвертации EPUB в DOCX – пошаговое руководство](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
+Узнайте, как преобразовать файлы EPUB в DOCX с помощью Aspose, используя пошаговые инструкции и примеры кода.
+### [Как выполнить JavaScript асинхронно с использованием CompletableFuture](./how-to-run-javascript-asynchronously-using-completablefuture/)
+Узнайте, как запускать JavaScript‑код асинхронно в Java с помощью CompletableFuture и Aspose.HTML.
+### [Как загрузить HTML, установить DPI устройства и прочитать цвет фона](./how-to-load-html-set-device-dpi-read-background-color/)
+Узнайте, как загрузить HTML, установить DPI устройства и прочитать цвет фона с помощью Aspose.HTML for Java.
+### [Как изолировать JavaScript – Полное руководство Aspose.HTML](./how-to-sandbox-javascript-complete-aspose-html-guide/)
+Узнайте, как безопасно выполнять JavaScript в изолированной среде с помощью Aspose.HTML for Java.
+### [Как включить JavaScript в Java – Полное руководство](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
+Узнайте, как включить выполнение JavaScript в Java‑приложениях с помощью Aspose.HTML.
+### [Вызов Java из JavaScript – Полное руководство по асинхронному fetch и выполнению кода в JS‑движке](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
+### [Как использовать Aspose HTML в Java – Полное руководство по фильтрации XPath](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
+Узнайте, как применять XPath‑фильтры в Aspose HTML for Java для точного выбора элементов при обработке HTML.
+### [Вызов Java из JavaScript – Добавление хост‑объекта и выполнение JavaScript в Java](./call-java-from-javascript-add-host-object-and-run-javascript/)
+Узнайте, как добавить хост‑объект Java и запускать JavaScript‑код из Java с помощью Aspose.HTML.
+### [Получить заголовок HTML в Java – рендер страницы в песочнице с шириной экрана](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
+Узнайте, как получить заголовок HTML и отрендерить страницу в песочнице, задав ширину экрана, используя Aspose.HTML for Java.
+### [Пример top‑level await – использование await delay в JavaScript](./top-level-await-example-using-await-delay-in-javascript/)
+Узнайте, как применять top‑level await с функцией задержки await delay в JavaScript для упрощения асинхронного кода.
+### [Выполнение JavaScript в Java – Запуск JS из HTML](./execute-javascript-in-java-run-js-from-html/)
+Узнайте, как запускать JavaScript‑код из HTML в Java‑приложениях с помощью Aspose.HTML for Java.
+### [Как загрузить HTML в Java – Полный пример асинхронного Aspose.HTML](./how-to-load-html-in-java-complete-aspose-html-async-example/)
+Узнайте, как асинхронно загружать HTML‑документы в Java с помощью Aspose.HTML, используя полные примеры кода.
+### [Оценка JavaScript в Java – Полное руководство с Aspose.HTML](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
+Узнайте, как запускать и отлаживать JavaScript‑код из Java‑приложений с помощью Aspose.HTML.
+### [Установка device pixel ratio в Java – Руководство по мобильной симуляции](./set-device-pixel-ratio-in-java-mobile-simulation-guide/)
+Узнайте, как задать device pixel ratio при рендеринге HTML в Java, имитируя мобильные устройства для точного отображения.
+### [Как включить JavaScript в Java HTMLDocument – пошаговое руководство](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
+### [Java многопоточность: выполнение задач параллельно с фиксированным пулом потоков](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
+Узнайте, как с помощью фиксированного пула потоков выполнять несколько задач одновременно в Java, улучшая производительность приложений.
+### [Как выполнить JavaScript в Java – Полное руководство по добавлению элементов в body](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
+### [Как установить DPI при конвертации SVG в PNG с Aspose – руководство для Java](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
+Узнайте, как задать разрешение DPI при преобразовании SVG‑изображений в PNG с помощью Aspose.HTML for Java.
+### [Запуск JavaScript из Java – Установка пользовательского User-Agent с Aspose.HTML](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
+Узнайте, как задать пользовательский User-Agent при выполнении JavaScript из Java с помощью Aspose.HTML.
+### [Как использовать Executor в Java – руководство по фиксированному пулу потоков](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
+Узнайте, как создавать и управлять фиксированным пулом потоков с помощью Executor в Java для эффективного выполнения задач.
+### [Конвертировать EPUB в DOCX в Java – Полное пошаговое руководство](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
+Узнайте, как преобразовать файлы EPUB в DOCX с помощью Aspose.HTML for Java, используя пошаговые инструкции и пример кода.
+### [Конвертировать SVG в AVIF с Java – Полное пошаговое руководство](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
+Узнайте, как преобразовать файлы SVG в формат AVIF с помощью Aspose.HTML for Java, следуя пошаговым инструкциям.
+### [Установка DPI устройства в Aspose Java – Полное руководство по песочнице](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
+Узнайте, как задать DPI устройства при работе с Aspose.HTML в Java в изолированной среде.
+### [XPath с пространствами имён в Java – Полное руководство по выбору элементов SVG](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
+Узнайте, как использовать XPath с пространствами имён в Java для точного выбора SVG‑элементов при работе с Aspose.HTML.
+### [Как выполнить JavaScript в Java – Полное руководство Aspose.HTML](./execute-javascript-in-java-complete-aspose-html-guide/)
+Узнайте, как запускать JavaScript‑код из Java‑приложений с помощью Aspose.HTML.
+### [Включение выполнения JavaScript Aspose – Полное руководство по Java](./enable-javascript-execution-aspose-complete-java-guide/)
+Узнайте, как включить выполнение JavaScript в Aspose.HTML для Java с полным руководством.
+### [Создание песочницы для HTML в Java – Полное пошаговое руководство](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
+Узнайте, как создать безопасную среду выполнения HTML‑кода в Java с помощью Aspose.HTML, шаг за шагом.
 
 ---
 
 **Последнее обновление:** 2025-11-29  
 **Тестировано с:** Aspose.HTML for Java 24.11  
 **Автор:** Aspose  
+
+
+
+
+
+
+
+### [Извлечение HTML из MHTML – Полное руководство по Java](./extract-html-from-mhtml-complete-java-guide/)
+Узнайте, как извлечь HTML‑контент из MHTML‑файлов с помощью Aspose.HTML for Java.
+
+---
+
+**Последнее обновление:** 2025-11-29  
+**Тестировано с:** Aspose.HTML for Java 24.11  
+**Автор:** Aspose  
+
+
+
+
+
+
+
+### [Выполнение JavaScript в Java – Полное руководство по запуску JS из Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+Узнайте, как выполнять JavaScript из Java с помощью Aspose.HTML for Java, включая настройку среды и примеры кода.
+
+---
+
+**Последнее обновление:** 2025-11-29  
+**Тестировано с:** Aspose.HTML for Java 24.11  
+**Автор:** Aspose  
+
+
+
+
+
+
+
+### [Как использовать Sandbox для конвертации HTML в PDF Java – пошаговое руководство](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+Подробное руководство по использованию Sandbox в Aspose.HTML for Java для безопасного преобразования HTML в PDF.
+### [Включение выполнения скриптов в Java – Полное руководство Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
+
+### [Выполнение JavaScript в Java с Aspose.HTML](./execute-javascript-in-java-using-aspose-html/)
+Узнайте, как запускать JavaScript‑код из Java‑приложений с помощью Aspose.HTML.
+
+---
+
+**Последнее обновление:** 2025-11-29  
+**Тестировано с:** Aspose.HTML for Java 24.11  
+**Автор:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

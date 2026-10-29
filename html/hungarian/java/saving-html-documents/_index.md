@@ -49,11 +49,14 @@ Tanulja meg, hogyan menthet HTML-dokumentumokat az Aspose.HTML for Java használ
 ### [Mentse a HTML-dokumentumot fájlba az Aspose.HTML for Java-ban](./save-html-to-file/)
 Ismerje meg, hogyan menthet HTML-dokumentumot fájlba az Aspose.HTML for Java használatával, amely tökéletes több összekapcsolt erőforrás egyszerű kezeléséhez.
 ### [Konvertálja a HTML-t Markdown-ra az Aspose.HTML for Java-ban](./convert-html-to-markdown/)
-Könnyen konvertálhatja a HTML-t Markdown-ba az Aspose.HTML for Java segítségével. Kövesse ezt a lépésenkénti útmutatót a tartalom zökkenőmentes átalakításához és manipulálásához.
+Könnyen konvertálhatja a HTML-t Markdown-ba az Aspose.HTML for Java segítségével. Kövesse ezt a lépésről lépésre útmutatót a tartalom zökkenőmentes átalakításához és manipulálásához.
 ### [Mentse a HTML-t MHTML-be az Aspose.HTML for Java-ban](./save-html-to-mhtml/)
 Ebből a lépésről-lépésre kódpéldákkal és gyakorlati tippekkel kiegészített útmutatóból megtudhatja, hogyan menthet HTML-dokumentumokat MHTML-ként az Aspose.HTML for Java használatával.
 ### [Mentse az SVG-dokumentumot az Aspose.HTML for Java-ba](./save-svg-document/)
 Ebből az egyszerű, példákat tartalmazó útmutatóból megtudhatja, hogyan menthet SVG-dokumentumokat az Aspose.HTML for Java használatával.
+### [Weboldal mentése MHTML-ként az Aspose.HTML for Java-val – Lépésről lépésre útmutató](./save-webpage-as-mhtml-with-aspose-html-for-java-step-by-step/)
+Fedezze fel, hogyan menthet weboldalakat MHTML formátumban az Aspose.HTML for Java segítségével, részletes lépésről‑lépésre útmutatóval.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
