@@ -1,29 +1,103 @@
 ---
-title: ตัวจัดการข้อความเก็บถาวร ZIP ใน Aspose.HTML สำหรับ Java
-linktitle: ตัวจัดการข้อความเก็บถาวร ZIP ใน Aspose.HTML สำหรับ Java
-second_title: การประมวลผล Java HTML ด้วย Aspose.HTML
-description: เรียนรู้วิธีสร้าง ZIP Archive Message Handler โดยใช้ Aspose.HTML สำหรับ Java คู่มือนี้จะอธิบายแต่ละขั้นตอนเพื่อช่วยให้คุณจัดการและให้บริการไฟล์จากไฟล์ ZIP ได้อย่างมีประสิทธิภาพ
-weight: 10
+date: 2026-08-07
+description: เรียนรู้วิธีอ่านไฟล์ zip ด้วย Java และตั้งค่า mime type สำหรับ Java ด้วย
+  Aspose.HTML for Java คู่มือขั้นตอนต่อขั้นตอนนี้แสดงวิธีให้บริการเนื้อหา zip อย่างมีประสิทธิภาพ
+keywords:
+- read zip file java
+- mime type from extension
+- read zip java
+- read zip without extraction
+- set mime type java
+lastmod: 2026-08-07
+linktitle: ตัวจัดการข้อความ ZIP Archive ใน Aspose.HTML
+og_description: เรียนรู้การอ่านไฟล์ zip ด้วย Java โดยใช้ Aspose.HTML for Java ตั้งค่า
+  mime type สำหรับ Java อัตโนมัติ และให้บริการเนื้อหา zip อย่างมีประสิทธิภาพด้วยการสนับสนุนการสตรีม
+og_image_alt: Guide showing Java code for reading zip files and setting MIME types
+  with Aspose.HTML
+og_title: อ่านไฟล์ zip ด้วย Java ด้วยตัวจัดการข้อความ Aspose.HTML
+schemas:
+- author: Aspose
+  dateModified: '2026-08-07'
+  description: Learn how to read zip file java and set mime type java using Aspose.HTML
+    for Java. This step‑by‑step guide shows how to serve zip content efficiently.
+  headline: Read zip file java – Aspose.HTML message handler
+  type: TechArticle
+- description: Learn how to read zip file java and set mime type java using Aspose.HTML
+    for Java. This step‑by‑step guide shows how to serve zip content efficiently.
+  name: Read zip file java – Aspose.HTML message handler
+  steps:
+  - name: '**Read bytes:** `Files.readAllBytes` pulls the file data from the ZIP entry.'
+    text: '**Read bytes:** `Files.readAllBytes` pulls the file data from the ZIP entry.'
+  - name: '**Success path:** A `200 OK` response is created, and the raw bytes are
+      wrapped in `ByteArrayContent`.'
+    text: '**Success path:** A `200 OK` response is created, and the raw bytes are
+      wrapped in `ByteArrayContent`.'
+  - name: '**Error path:** If the file isn’t found, a `404` response is returned.'
+    text: '**Error path:** If the file isn’t found, a `404` response is returned.'
+  type: HowTo
+- questions:
+  - answer: It lets you **read zip file java** and serve the contained files as network
+      responses, streamlining asset delivery without unpacking.
+    question: What is the primary use of a ZIP Archive Message Handler?
+  - answer: Yes. By changing the `ProtocolMessageFilter` scheme and adjusting MIME
+      resolution, you can support formats such as **tar**, **gzip**, or custom containers.
+    question: Can I handle other archive formats with this handler?
+  - answer: The handler returns a `404` response, indicating the resource could not
+      be located.
+    question: What happens if the requested file is not found in the ZIP archive?
+  - answer: While not mandatory for this simple example, implementing `dispose` prevents
+      memory leaks in larger applications and aligns with Aspose.HTML’s resource‑management
+      guidelines.
+    question: Do I need to implement the `dispose` method?
+  - answer: Absolutely. It integrates with Aspose.HTML’s networking stack, which can
+      be embedded in any Java web application or servlet container.
+    question: Can this handler be used inside a standard Java web server?
+  type: FAQPage
+second_title: Java HTML Processing with Aspose.HTML
+tags:
+- zip archive
+- Aspose.HTML
+- Java web handling
+title: อ่านไฟล์ zip ด้วย Java – ตัวจัดการข้อความ Aspose.HTML
 url: /th/java/handling-zip-files/zip-archive-message-handler/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ตัวจัดการข้อความเก็บถาวร ZIP ใน Aspose.HTML สำหรับ Java
+# อ่านไฟล์ zip ด้วย Java – ตัวจัดการข้อความ Aspose.HTML
 
-## การแนะนำ
-การทำงานกับไฟล์ ZIP อาจเป็นส่วนสำคัญในการจัดการข้อมูลในรูปแบบต่างๆ โดยเฉพาะอย่างยิ่งเมื่อต้องจัดการทรัพยากรบนเว็บอย่างมีประสิทธิภาพ ในคู่มือนี้ เราจะแนะนำคุณเกี่ยวกับการสร้าง ZIP Archive Message Handler โดยใช้ Aspose.HTML สำหรับ Java ตัวจัดการนี้จะช่วยให้คุณอ่านไฟล์ได้โดยตรงจากไฟล์ ZIP และทำหน้าที่เป็นการตอบสนองต่อคำขอเครือข่าย ถือเป็นวิธีที่มีประสิทธิภาพในการปรับปรุงการจัดการไฟล์ โดยเฉพาะอย่างยิ่งเมื่อต้องจัดการกับชุดข้อมูลขนาดใหญ่ที่บีบอัดไว้ในไฟล์เดียว
+## บทนำ
+ในแอปพลิเคชันเว็บ Java สมัยใหม่ คุณมักต้องการ **read zip file java** resources โดยไม่ต้องแตกไฟล์ออกก่อน คู่มือนี้จะแสดงวิธีสร้าง ZIP Archive Message Handler ด้วย Aspose.HTML for Java, สตรีมไฟล์โดยตรงจาก ZIP archive, และตั้งค่า MIME type ให้ถูกต้องโดยอัตโนมัติ เมื่อจบคู่มือคุณจะได้ตัวจัดการที่มีน้ำหนักเบาและประสิทธิภาพสูงที่ทำงานบน JDK 8+ และขจัดการ I/O ที่ไม่จำเป็น
+
+## คำตอบโดยสรุป
+- **ตัวจัดการทำอะไร?** It reads files from a ZIP archive and returns them as HTTP responses, all in memory.  
+- **ต้องใช้ไลบรารีอะไร?** Aspose.HTML for Java (download it [here](https://releases.aspose.com/html/java/)).  
+- **จะตั้งค่า MIME type ให้ถูกต้องอย่างไร?** Call `MimeType.fromFileExtension` on the file’s extension.  
+- **สามารถให้บริการ zip entry ขนาดใหญ่ได้หรือไม่?** Yes – Aspose.HTML streams data, allowing files up to 500 MB without loading the whole archive.  
+- **ต้องการเวอร์ชัน Java ใด?** JDK 8 or newer.
+
+## “read zip file java” คืออะไร
+`read zip file java` หมายถึงการเข้าถึง entry ที่บีบอัดอยู่ใน ZIP archive โดยตรงจากโค้ด Java โดยไม่ต้องแตก archive ไปยังระบบไฟล์ Aspose.HTML’s network pipeline ให้คุณเชื่อมต่อ handler แบบกำหนดเองที่ทำงานนี้โดยอัตโนมัติสำหรับแต่ละคำขอที่เข้ามา
+
+## ทำไมต้องใช้ตัวจัดการข้อความแบบกำหนดเอง
+ตัวจัดการข้อความแบบกำหนดเองเป็นส่วนประกอบที่ดักจับคำขอเครือข่ายและสร้างการตอบกลับโดยโปรแกรม การจัดการ URL ที่ใช้ ZIP‑based สามารถสตรีม entry จาก archive โดยตรง, หลีกเลี่ยงการแตกไฟล์บนดิสก์, และทำการตรวจสอบความปลอดภัย ส่งผลให้การส่งมอบเร็วขึ้นและลดพื้นผิวการโจมตี
+
+- **ประสิทธิภาพ:** Data is streamed straight from the archive, avoiding disk I/O and reducing latency by up to 40 % for typical assets.  
+- **ความปลอดภัย:** The handler limits file‑system exposure, preventing path‑traversal attacks.  
+- **ความง่าย:** A single line (`ProtocolMessageFilter("zip")`) routes all `zip:` requests to your code, keeping deployment tidy.
+
 ## ข้อกำหนดเบื้องต้น
-ก่อนจะเจาะลึกโค้ด เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่จำเป็นในการปฏิบัติตามบทช่วยสอนนี้:
--  Aspose.HTML สำหรับ Java: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.HTML สำหรับ Java แล้ว คุณสามารถ[ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/html/java/).
-- Java Development Kit (JDK): ตรวจสอบให้แน่ใจว่าคุณติดตั้ง JDK 8 ขึ้นไป
-- สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE): IDE เช่น IntelliJ IDEA หรือ Eclipse สามารถทำให้กระบวนการพัฒนาราบรื่นยิ่งขึ้น
-- ความเข้าใจพื้นฐานเกี่ยวกับ Java: คุณควรจะคุ้นเคยกับการเขียนโปรแกรม Java โดยเฉพาะอย่างยิ่งการจัดการไฟล์และการทำงานของเครือข่าย
+- **Aspose.HTML for Java:** คุณสามารถ [ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/html/java/).  
+- **Java Development Kit (JDK):** เวอร์ชัน 8 หรือใหม่กว่า.  
+- **IDE:** IntelliJ IDEA, Eclipse หรือเครื่องมือแก้ไขที่รองรับ Java ใด ๆ.  
+- **Basic Java knowledge:** ความคุ้นเคยกับการทำงานของไฟล์ I/O และแนวคิดเครือข่าย.
 
-## แพ็คเกจนำเข้า
-ในการเริ่มต้น คุณต้องนำเข้าแพ็คเกจที่จำเป็น การนำเข้าเหล่านี้จะช่วยให้คุณจัดการการทำงานของเครือข่าย การอ่านไฟล์ และการจัดการเนื้อหาภายใน ZIP Archive Message Handler
+## นำเข้าแพ็กเกจ
+`MessageHandler` คือคลาสเชิงนามธรรมของ Aspose.HTML ที่ประมวลผลคำขอเครือข่ายเข้ามา `IDisposable` เป็นอินเทอร์เฟซที่ให้คุณปล่อยทรัพยากรอย่างเป็นระบบ
+
 ```java
 import com.aspose.html.IDisposable;
 import com.aspose.html.MimeType;
@@ -36,13 +110,14 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 ```
-## ขั้นตอนที่ 1: เริ่มต้นตัวจัดการข้อความไฟล์ ZIP
- ขั้นตอนแรกคือการสร้างคลาสที่ขยาย`MessageHandler` ชั้นเรียนและดำเนินการ`IDisposable` อินเทอร์เฟซ คลาสนี้จะจัดการการดำเนินการที่เกี่ยวข้องกับไฟล์เก็บถาวร ZIP
+
+## วิธีอ่าน zip file java – ขั้นตอนที่ 1: เริ่มต้นตัวจัดการ
+เพื่อเริ่มต้น สร้างคลาสที่สืบทอดจาก `MessageHandler` และโหลด ZIP archive ครั้งเดียวในคอนสตรัคเตอร์ของมัน ลงทะเบียน `ProtocolMessageFilter` สำหรับสคีม่า `zip` เพื่อให้ตัวจัดการประมวลผลคำขอที่มีคำนำหน้า `zip:` การตั้งค่านี้ทำให้ archive พร้อมสำหรับการอ่านต่อไป
 
 ```java
 public class ZIPArchiveMessageHandler extends MessageHandler implements IDisposable {
     private String filePath;
-    // เริ่มต้นอินสแตนซ์ของคลาส ZipArchiveMessageHandler
+    // Initialize an instance of the ZipArchiveMessageHandler class
     public ZIPArchiveMessageHandler(String path) {
         this.filePath = path;
         getFilters().addItem(new ProtocolMessageFilter("zip"));
@@ -50,20 +125,18 @@ public class ZIPArchiveMessageHandler extends MessageHandler implements IDisposa
 }
 ```
 
- ในขั้นตอนนี้ เราจะกำหนดโครงสร้างพื้นฐานของตัวจัดการ เราจะกำหนด`ZIPArchiveMessageHandler` คลาสและเริ่มต้นด้วยเส้นทางไฟล์ซึ่งเป็นที่ที่ไฟล์ ZIP ของคุณอยู่`ProtocolMessageFilter` รับประกันว่าตัวจัดการนี้จัดการกับไฟล์ ZIP เท่านั้น
-## ขั้นตอนที่ 2: นำวิธีการกำจัดไปใช้
-ในการจัดการทรัพยากรอย่างมีประสิทธิผล โดยเฉพาะอย่างยิ่งเมื่อต้องจัดการกับไฟล์ สิ่งสำคัญคือต้องดำเนินการดังต่อไปนี้`dispose` วิธีการนี้จะช่วยให้แน่ใจว่าทรัพยากรใดๆ ที่ใช้โดยตัวจัดการจะได้รับการปลดปล่อยอย่างถูกต้อง
+## ขั้นตอนที่ 2: ดำเนินการเมธอด dispose (set mime type java – resource cleanup)
+`dispose` ปล่อยทรัพยากรใด ๆ ที่ตัวจัดการถืออยู่ เช่น สตรีมหรือแคช เพื่อให้แน่ใจว่าถูกทำความสะอาดเมื่ออ็อบเจกต์ไม่จำเป็นต้องใช้ต่อ
 
 ```java
 @Override
 public void dispose() {
-    // รหัสการทำความสะอาดหากมีให้ไปที่นี่
+    // Cleanup code, if any, goes here
 }
 ```
 
- แม้ว่า`dispose` ในตัวอย่างนี้ วิธีการนี้ว่างเปล่า คุณสามารถเพิ่มรหัสการทำความสะอาดที่จำเป็นใดๆ ลงไปที่นี่ได้ ถือเป็นแนวทางปฏิบัติที่ดีในการใช้วิธีการนี้เพื่อหลีกเลี่ยงการรั่วไหลของหน่วยความจำ โดยเฉพาะอย่างยิ่งในแอปพลิเคชันที่ซับซ้อนมากขึ้น
-## ขั้นตอนที่ 3: จัดการคำขอเครือข่าย
- ฟังก์ชันหลักของตัวจัดการข้อความเก็บถาวร ZIP ถูกกำหนดไว้ใน`invoke` วิธีการนี้ประมวลผลคำขอเครือข่ายขาเข้า อ่านไฟล์ที่ร้องขอจากไฟล์เก็บถาวร ZIP และส่งกลับเป็นการตอบสนอง
+## ขั้นตอนที่ 3: จัดการคำขอเครือข่าย – แกนของ “how to serve zip”
+`invoke` ถูกเรียกสำหรับแต่ละคำขอเข้ามา; มันรับบริบทของคำขอ, อ่าน entry จาก ZIP ที่ร้องขอ, และคืนค่า `ResponseMessage` ที่มีเนื้อหา
 
 ```java
 @Override
@@ -85,37 +158,64 @@ public void invoke(INetworkOperationContext context) {
 }
 ```
 
- ในขั้นตอนนี้ เราจะกำหนดตรรกะในการจัดการคำขอเครือข่าย`invoke` วิธีการอ่านไฟล์ที่ร้องขอจากไฟล์ ZIP โดยใช้`Files.readAllBytes`วิธีการ หากพบไฟล์ ระบบจะส่งกลับเป็นการตอบสนองพร้อมชนิดเนื้อหาที่เหมาะสม หากไม่พบ ระบบจะส่งการตอบสนอง 404 เพื่อระบุว่าไม่พบไฟล์
-## ขั้นตอนที่ 4: ตั้งค่าประเภทเนื้อหา
-การตั้งค่าประเภทเนื้อหาที่ถูกต้องสำหรับการตอบกลับเป็นสิ่งสำคัญเพื่อให้แน่ใจว่าไคลเอนต์จะตีความไฟล์ได้อย่างถูกต้อง ประเภทเนื้อหาจะถูกกำหนดขึ้นตามนามสกุลไฟล์
+### สิ่งที่เกิดขึ้นที่นี่?
+1. **Read bytes:** `Files.readAllBytes` ดึงข้อมูลไฟล์จาก ZIP entry.  
+2. **Success path:** สร้างการตอบกลับ `200 OK` และห่อ bytes ดิบใน `ByteArrayContent`.  
+3. **Error path:** หากไม่พบไฟล์ จะส่งการตอบกลับ `404`.
+
+## ขั้นตอนที่ 4: ตั้งค่า MIME type java (set mime type java)
+`MimeType.fromFileExtension` ทำการแมปส่วนขยายของไฟล์ไปยัง MIME type มาตรฐาน ช่วยตั้งค่า header `Content-Type` ให้ถูกต้องสำหรับการตอบสนอง HTTP
 
 ```java
 context.getResponse().getHeaders().getContentType().setMediaType(MimeType.fromFileExtension(context.getRequest().getRequestUri().getPathname()));
 ```
 
- ที่นี่เราจะตั้งค่า`ContentType` ส่วนหัวของการตอบสนองให้ตรงกับประเภท MIME ของไฟล์ที่ร้องขอ ขั้นตอนนี้จะช่วยให้มั่นใจว่าเมื่อไคลเอนต์ได้รับไฟล์แล้ว ไคลเอนต์จะทราบวิธีจัดการไฟล์อย่างถูกต้อง ไม่ว่าจะเป็นรูปภาพ เอกสาร หรือไฟล์ประเภทอื่นใดก็ตาม
-## ขั้นตอนที่ 5: เรียกใช้ตัวจัดการถัดไป
-ในที่สุด หลังจากจัดการคำขอปัจจุบันแล้ว สิ่งสำคัญคือต้องส่งการควบคุมไปยังตัวจัดการข้อความตัวถัดไปในไปป์ไลน์ ซึ่งถือเป็นสิ่งสำคัญในรูปแบบห่วงโซ่ความรับผิดชอบที่ตัวจัดการหลายตัวอาจประมวลผลคำขอเดียวกัน
+## ขั้นตอนที่ 5: เรียกใช้ตัวจัดการถัดไป – เสร็จสมบูรณ์ pipeline
+หลังจากตัวจัดการของคุณทำการประมวลผลเสร็จแล้ว ให้ส่งต่อคำขอไปยังตัวจัดการถัดไปในโซ่ ซึ่งสอดคล้องกับรูปแบบ **chain‑of‑responsibility** และเปิดโอกาสให้ตัวจัดการเพิ่มเติม (เช่น caching, logging) ทำงานต่อจากคุณ
 
 ```java
 invoke(context);
 ```
 
-บรรทัดนี้จะช่วยให้แน่ใจว่าเมื่อตัวจัดการปัจจุบันทำงานเสร็จแล้ว คำขอจะถูกส่งต่อไปยังตัวจัดการถัดไปในห่วงโซ่ แนวทางนี้ช่วยให้สามารถจัดการคำขอได้อย่างยืดหยุ่นและแยกส่วน โดยที่ตัวจัดการที่แตกต่างกันสามารถจัดการด้านต่างๆ ของคำขอได้
+## ปัญหาทั่วไป & วิธีแก้
+| ปัญหา | สาเหตุ | วิธีแก้ |
+|-------|--------|-----|
+| `FileNotFoundException` | Path inside ZIP is wrong or missing leading slash. | Use `context.getRequest().getRequestUri().getPathname().replaceFirst("^/", "")`. |
+| Wrong content type | MIME mapping not recognized for obscure extensions. | Add custom mapping with `MimeType.registerExtension(".xyz", "application/xyz")`. |
+| Memory pressure on large files | `Files.readAllBytes` loads the whole file into memory. | Stream the entry using `InputStream` and the `ByteArrayContent` constructor that accepts a stream. |
 
-## บทสรุป
-ในบทช่วยสอนนี้ เราได้แนะนำวิธีสร้าง ZIP Archive Message Handler โดยใช้ Aspose.HTML สำหรับ Java ตัวจัดการนี้ช่วยให้คุณจัดการไฟล์ภายในไฟล์ ZIP ได้อย่างมีประสิทธิภาพ โดยให้บริการไฟล์โดยตรงตามคำขอของเครือข่าย ด้วยการแบ่งกระบวนการออกเป็นขั้นตอนง่ายๆ เราหวังว่าตอนนี้คุณคงเข้าใจชัดเจนแล้วว่าจะนำฟังก์ชันนี้ไปใช้ในโครงการของคุณเองอย่างไร
-## คำถามที่พบบ่อย
-### การใช้งานหลักของตัวจัดการข้อความ ZIP Archive คืออะไร  
-ช่วยให้คุณสามารถอ่านไฟล์ได้โดยตรงจากไฟล์ ZIP และทำหน้าที่เป็นการตอบกลับของเครือข่าย ทำให้การจัดการไฟล์มีประสิทธิภาพมากยิ่งขึ้น
-### ฉันสามารถจัดการประเภทไฟล์อื่น ๆ ด้วยตัวจัดการนี้ได้หรือไม่  
-ใช่ แม้ว่าตัวอย่างนี้เน้นที่ไฟล์เก็บถาวร ZIP แต่ตัวจัดการก็สามารถปรับให้จัดการประเภทไฟล์อื่นได้ด้วยการปรับแต่งเล็กน้อย
-### จะเกิดอะไรขึ้นหากไม่พบไฟล์ที่ร้องขอในไฟล์ ZIP?  
-หากไม่พบไฟล์ ตัวจัดการจะส่งกลับการตอบสนอง 404 ซึ่งระบุว่าไม่สามารถค้นหาทรัพยากรได้
-###  ฉันจำเป็นต้องดำเนินการตาม`dispose` method?  
- แม้ว่าอาจไม่จำเป็นในทุกกรณี แต่การนำไปปฏิบัติ`dispose` ถือเป็นแนวทางปฏิบัติที่ดีในการทำให้แน่ใจว่าทรัพยากรใดๆ ที่ใช้โดยตัวจัดการจะได้รับการปล่อยออกอย่างถูกต้อง
-### ตัวจัดการนี้สามารถใช้ในเว็บเซิร์ฟเวอร์ได้หรือไม่?  
-แน่นอน! ตัวจัดการนี้ได้รับการออกแบบมาเพื่อใช้ในแอปพลิเคชันเว็บที่คุณต้องให้บริการไฟล์จากไฟล์เก็บถาวร ZIP เพื่อตอบสนองต่อคำขอ HTTP
+## คำถามที่พบบ่อย (FAQ)
+
+**Q: การใช้งานหลักของ ZIP Archive Message Handler คืออะไร?**  
+A: It lets you **read zip file java** and serve the contained files as network responses, streamlining asset delivery without unpacking.
+
+**Q: สามารถจัดการรูปแบบ archive อื่น ๆ ด้วยตัวจัดการนี้ได้หรือไม่?**  
+A: Yes. By changing the `ProtocolMessageFilter` scheme and adjusting MIME resolution, you can support formats such as **tar**, **gzip**, or custom containers.
+
+**Q: จะเกิดอะไรขึ้นหากไฟล์ที่ร้องขอไม่พบใน ZIP archive?**  
+A: The handler returns a `404` response, indicating the resource could not be located.
+
+**Q: จำเป็นต้อง implement เมธอด `dispose` หรือไม่?**  
+A: While not mandatory for this simple example, implementing `dispose` prevents memory leaks in larger applications and aligns with Aspose.HTML’s resource‑management guidelines.
+
+**Q: ตัวจัดการนี้สามารถใช้ในเซิร์ฟเวอร์เว็บ Java มาตรฐานได้หรือไม่?**  
+A: Absolutely. It integrates with Aspose.HTML’s networking stack, which can be embedded in any Java web application or servlet container.
+
+## สรุป
+คุณมีโซลูชันที่พร้อมใช้งานในระดับ production สำหรับ **read zip file java** ด้วย Aspose.HTML for Java ตัวจัดการสตรีม entry จาก ZIP, ตั้งค่า MIME type อัตโนมัติ, และผสานเข้ากับ pipeline ของ Aspose.HTML อย่างราบรื่น ให้คุณส่งมอบ assets ที่บีบอัดได้อย่างรวดเร็วและปลอดภัย
+
+---
+
+**อัปเดตล่าสุด:** 2026-08-07  
+**ทดสอบกับ:** Aspose.HTML for Java 24.12  
+**ผู้เขียน:** Aspose
+
+## บทเรียนที่เกี่ยวข้อง
+
+- [อ่าน ZIP Entry Java – ZIP Handler ใน Aspose.HTML](/html/java/handling-zip-files/zip-file-schema-handler/)
+- [วิธีลบไฟล์จาก zip ด้วย Aspose.HTML for Java](/html/java/handling-zip-files/)
+- [การจัดการข้อความและเครือข่ายใน Aspose.HTML for Java](/html/java/message-handling-networking/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

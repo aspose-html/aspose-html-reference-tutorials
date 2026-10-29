@@ -25,6 +25,7 @@ Aspose.HTML for .NET は、開発者が HTML ドキュメントをプログラ�
 チュートリアルに進む前に、なぜ Aspose.HTML for .NET が開発者にとって好ましい選択肢であるかを理解しましょう。Aspose.HTML を使用すると、HTML ドキュメントを簡単に操作および管理できます。豊富な機能セットにより、HTML ドキュメントの解析、レンダリング、変換などのタスクを効率的に実行できます。熟練した開発者でも、初心者でも、Aspose.HTML はワークフローを合理化し、時間と労力を節約します。
 
 ## 高度な機能のチュートリアル
+
 .NET 開発の分野では、高度な機能を習得することで無限の可能性が広がります。Aspose.HTML は、HTML 操作の可能性を最大限に引き出すツールを提供します。この記事では、さまざまなチュートリアルを紹介しながら、さまざまなタスクに Aspose.HTML を活用する方法を説明します。
 ### [Aspose.HTML を使用した .NET の環境構成](./environment-configuration/)
 スクリプト管理、カスタム スタイル、JavaScript 実行制御などのタスクに Aspose.HTML を使用して .NET で HTML ドキュメントを操作する方法を学習します。この包括的なチュートリアルでは、開始するためのステップバイステップの例と FAQ を提供します。
@@ -32,19 +33,29 @@ Aspose.HTML for .NET は、開発者が HTML ドキュメントをプログラ�
 Aspose.HTML for .NET を使用して HTML ドキュメントを効率的に操作する方法を学びます。開発者向けのステップバイステップのチュートリアルです。
 ### [Aspose.HTML を使用した .NET のメモリ ストリーム プロバイダー](./memory-stream-provider/)
 Aspose.HTML を使用して .NET で魅力的な HTML ドキュメントを作成する方法を学びます。ステップバイステップのチュートリアルに従って、HTML 操作のパワーを解き放ちましょう。
-### [Aspose.HTML を使用した .NET での Web スクレイピング](./web-scraping/)
+### [Aspose.HTML を使用した .NET の Web スクレイピング](./web-scraping/)
 Aspose.HTML を使用して .NET で HTML ドキュメントを操作する方法を学びます。要素を効果的にナビゲート、フィルター処理、クエリ、選択して、Web 開発を強化します。
 ### [Aspose.HTML を使用して .NET で拡張コンテンツ プロパティを使用する](./use-extended-content-property/)
 Aspose.HTML for .NET を使用して動的な Web コンテンツを作成する方法を学びます。このチュートリアルでは、前提条件、ステップバイステップの手順、および初心者向けの FAQ について説明します。
 ### [Aspose.HTML を使用して .NET で PdfDevice によって暗号化された PDF を生成する](./generate-encrypted-pdf-by-pdfdevice/)
 Aspose.HTML for .NET を使用して HTML を PDF に動的に変換します。簡単な統合、カスタマイズ可能なオプション、堅牢なパフォーマンスを実現します。
+### [C# でドキュメントを PDF に保存 – ZIP 対応 完全ガイド](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
+C# で HTML ドキュメントを PDF に変換し、ZIP 圧縮して保存する方法をステップバイステップで解説します。
 ### [Aspose.HTML を使用した .NET のコンバーターの微調整](./fine-tuning-converters/)
 Aspose.HTML for .NET を使用して HTML を PDF、XPS、画像に変換する方法を学びます。コード例と FAQ を含むステップバイステップのチュートリアルです。
 ### [Aspose.HTML を使用して .NET で HTML テンプレートを使用する](./using-html-templates/)
 Aspose.HTML for .NET を使用して JSON データから HTML ドキュメントを動的に生成する方法を学びます。.NET アプリケーションで HTML 操作のパワーを活用します。
 ### [C# のメモリ ストリーム作成 – カスタム ストリーム作成ガイド](./create-memory-stream-c-custom-stream-creation-guide/)
 C# でカスタム メモリ ストリームを作成し、Aspose.HTML での HTML 操作に活用する方法をステップバイステップで学びます。
-
+### [C# でフォントをプログラム的に結合する方法 – ステップバイステップガイド](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
+### [C# でアセンブリ バージョンを取得 – ライブラリ バージョン取得のクイック ガイド](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
+C# でアセンブリのバージョン情報を取得し、ライブラリのバージョンを確認する手順をステップバイステップで解説します。
+### [Aspose HTML のカスタム リソース ハンドラ – ストリームへの保存ガイド](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
+Aspose.HTML でカスタム リソース ハンドラを実装し、HTML コンテンツをストリームに保存する方法をステップバイステップで解説します。
+### [Aspose HTML で HTML を Zip 圧縮する完全ガイド](./how-to-zip-html-with-aspose-html-complete-guide/)
+Aspose HTML を利用して HTML ファイルを Zip アーカイブに圧縮する手順をステップバイステップで解説します。
+### [Clear Type の有効化 – .NET でスムージング モードを有効にする方法](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
+Clear Type とスムージング モードを有効にし、.NET アプリケーションでテキスト表示を滑らかにする手順を解説します。
 
 ## 結論
 

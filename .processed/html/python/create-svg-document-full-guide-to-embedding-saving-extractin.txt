@@ -1,0 +1,7 @@
+Title: Create SVG Document – Full Guide to Embedding, Saving & Extracting SVG
+Slug: create-svg-document-full-guide-to-embedding-saving-extractin
+Category: general
+ProcessedDate: 2026-06-29T11:45:16.113675
+SourceRepo: AI Search API
+Keywords: create svg document, embed svg in html, save svg file, how to embed svg, how to extract svg
+PRNumber: 197
