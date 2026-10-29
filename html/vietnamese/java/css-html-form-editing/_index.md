@@ -128,6 +128,8 @@ Hướng dẫn chi tiết cách lấy và sử dụng kiểu tính toán của p
 Hướng dẫn cách lấy kiểu đã tính toán trong Java để gỡ lỗi bố cục CSS Grid bằng Aspose.HTML.
 ### [Lấy Giá Trị Hiển Thị của Phần Tử trong Java – Hướng Dẫn Sandbox Aspose HTML](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
 Hướng dẫn cách lấy giá trị thuộc tính display của phần tử HTML trong Java bằng Aspose.HTML trong môi trường sandbox.
+### [Cách lấy CSS từ một phần tử HTML trong Java – Hướng dẫn đầy đủ](./how-to-get-css-from-an-html-element-in-java-complete-guide/)
+Hướng dẫn chi tiết cách truy xuất CSS của phần tử HTML trong Java bằng Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

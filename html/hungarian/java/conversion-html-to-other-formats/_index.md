@@ -305,6 +305,10 @@ Ismerje meg, hogyan konvertálhatja a HTML-t PDF formátumba Java-ban az Aspose.
 Fedezze fel, hogyan konvertálhatja a HTML‑t Markdown‑formátumba Java‑ban az Aspose.HTML segítségével, részletes lépésekkel.
 ### [HTML átalakítása DOCX-re Aspose‑szal – Java HTML‑to‑DOCX útmutató](./convert-html-to-docx-with-aspose-java-html-to-docx-guide/)
 Ismerje meg, hogyan konvertálhatja a HTML‑t DOCX‑formátumba Java‑ban az Aspose.HTML segítségével.
+### [PDF létrehozása HTML-ből Java-ban – Teljes Aspose.HTML útmutató](./create-pdf-from-html-in-java-full-aspose-html-guide/)
+### [HTML PDF-re konvertálása fix szálkészlettel Java-ban](./convert-html-to-pdf-with-fixed-thread-pool-java/)
+### [Weboldal PDF-re konvertálása Java-ban – Aspose HTML útmutató](./convert-webpage-to-pdf-in-java-aspose-html-guide/)
+### [Markdown konvertálása PDF-re Java-ban – Teljes Aspose útmutató](./convert-markdown-to-pdf-in-java-complete-aspose-guide/)
 
 ## Gyakran Ismételt Kérdések
 

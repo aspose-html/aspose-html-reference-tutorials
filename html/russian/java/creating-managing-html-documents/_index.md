@@ -97,6 +97,8 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 Узнайте, как создать HTML‑документ с встроенным JavaScript в Java, используя Aspose.HTML, с пошаговыми инструкциями и примерами.
 ### [Извлечение заголовка страницы с Java – Полное руководство с использованием Aspose.HTML](./extract-page-title-with-java-full-guide-using-aspose-html/)
 Узнайте, как извлечь заголовок HTML‑страницы в Java с помощью Aspose.HTML в полном пошаговом руководстве.
+### [Загрузка HTML-документа Java – Полное руководство с CSS и XPath запросами](./load-html-document-java-complete-guide-with-css-xpath-querie/)
+Узнайте, как загружать HTML-документы в Java с помощью Aspose.HTML и выполнять запросы CSS и XPath в полном руководстве.
 ### [Создание песочницы для HTML в Aspose.HTML для Java – пошаговое руководство](./create-sandbox-for-html-in-java-step-by-step-guide/)
 ### [Как прочитать файл XHTML в Java – пример XPath с пространством имён](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
 Узнайте, как загрузить XHTML‑файл в Java и выполнить запросы XPath с учётом пространств имён.

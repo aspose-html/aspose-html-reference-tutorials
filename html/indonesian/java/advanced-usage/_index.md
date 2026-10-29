@@ -202,6 +202,9 @@ Pelajari cara mengaktifkan eksekusi JavaScript dalam aplikasi Java menggunakan A
 
 ### [Buat sandbox untuk HTML di Java – Panduan Lengkap Langkah‑per‑Langkah](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
 
+### [Menjalankan JavaScript di Java Menggunakan Aspose.HTML – Panduan Lengkap](./execute-javascript-in-java-using-aspose-html-complete-guide/)
+Panduan lengkap mengeksekusi JavaScript di dalam aplikasi Java menggunakan Aspose.HTML untuk Java.
+
 ---
 
 **Terakhir Diperbarui:** 2025-11-29  

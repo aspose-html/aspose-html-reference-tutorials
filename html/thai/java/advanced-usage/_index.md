@@ -206,6 +206,8 @@ Aspose.HTML ให้คุณแนบ `DomMutationObserver` ไปยังโ
 เรียนรู้วิธีเปิดใช้งานการทำงานของ JavaScript ใน Aspose.HTML for Java อย่างละเอียดในคู่มือฉบับสมบูรณ์นี้  
 ### [สร้าง sandbox สำหรับ HTML ใน Java – คู่มือขั้นตอนโดยละเอียด](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
 เรียนรู้วิธีสร้าง sandbox เพื่อประมวลผล HTML อย่างปลอดภัยใน Java ด้วย Aspose.HTML อย่างละเอียด  
+### [รัน JavaScript ใน Java ด้วย Aspose.HTML – คู่มือฉบับสมบูรณ์](./execute-javascript-in-java-using-aspose-html-complete-guide/)
+เรียนรู้วิธีฝังและรัน JavaScript ในแอปพลิเคชัน Java ด้วย Aspose.HTML อย่างครบถ้วน  
 
 ---
 

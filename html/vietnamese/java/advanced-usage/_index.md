@@ -186,6 +186,8 @@ Hướng dẫn chi tiết cách thực thi mã JavaScript trong ứng dụng Jav
 Hướng dẫn chi tiết cách bật và chạy JavaScript trong Aspose.HTML for Java, bao gồm cấu hình môi trường và ví dụ thực tế.
 ### [Tạo sandbox cho HTML trong Java – Hướng dẫn chi tiết từng bước](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
 Hướng dẫn toàn diện cách tạo môi trường sandbox cho HTML trong Java, giúp chạy và kiểm thử mã an toàn.
+### [Thực thi JavaScript trong Java bằng Aspose.HTML – Hướng dẫn toàn diện](./execute-javascript-in-java-using-aspose-html-complete-guide/)
+Hướng dẫn chi tiết cách chạy JavaScript trong Java bằng Aspose.HTML, bao gồm cấu hình, API và ví dụ thực tế.
 
 ---
 

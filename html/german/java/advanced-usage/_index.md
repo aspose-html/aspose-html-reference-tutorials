@@ -193,6 +193,8 @@ Erfahren Sie, wie Sie JavaScript in Java ausführen und dabei Aspose.HTML vollst
 Erfahren Sie, wie Sie JavaScript-Code in Java-Anwendungen mit Aspose ausführen und integrieren können.
 ### [Sandbox für HTML in Java erstellen – Komplett‑Schritt‑für‑Schritt‑Anleitung](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML für Java eine sichere Sandbox‑Umgebung einrichten, um HTML sicher zu verarbeiten.
+### [JavaScript in Java ausführen mit Aspose.HTML – Komplettanleitung](./execute-javascript-in-java-using-aspose-html-complete-guide/)
+Erfahren Sie, wie Sie JavaScript in Java-Anwendungen mit Aspose.HTML ausführen und integrieren.
 
 ---
 

@@ -129,6 +129,8 @@ Java용 Aspose.HTML을 사용해 CSS를 적용하고 HTML을 로드한 뒤, 링�
 Aspose.HTML을 사용해 Java에서 계산된 스타일을 가져와 CSS Grid 레이아웃을 효과적으로 디버깅하는 방법을 배웁니다.
 ### [Java에서 요소 표시 값을 가져오기 – Aspose HTML 샌드박스 가이드](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
 Aspose.HTML을 사용해 Java에서 요소의 display 속성 값을 추출하는 방법을 단계별로 안내합니다.
+### [Java에서 HTML 요소의 CSS 가져오기 – 완전 가이드](./how-to-get-css-from-an-html-element-in-java-complete-guide/)
+이 가이드에서는 Java와 Aspose.HTML을 사용해 HTML 요소에서 CSS 스타일을 추출하는 방법을 단계별로 설명합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

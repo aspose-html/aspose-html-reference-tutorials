@@ -130,6 +130,8 @@ Aspose.HTML for Java का उपयोग करके एलिमेंट �
 Aspose.HTML for Java का उपयोग करके CSS ग्रिड की गणना किए गए स्टाइल को प्राप्त करें और डिबगिंग के लिए विश्लेषण करें।
 ### [Java में एलिमेंट डिस्प्ले वैल्यू प्राप्त करें – Aspose HTML सैंडबॉक्स गाइड](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
 Java में Aspose.HTML का उपयोग करके किसी एलिमेंट का डिस्प्ले मान कैसे प्राप्त करें, इस गाइड में सीखें।
+### [Java में HTML एलिमेंट से CSS प्राप्त करने का पूर्ण गाइड](./how-to-get-css-from-an-html-element-in-java-complete-guide/)
+Java में Aspose.HTML का उपयोग करके किसी HTML एलिमेंट की CSS शैली को प्रोग्रामेटिक रूप से निकालना सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

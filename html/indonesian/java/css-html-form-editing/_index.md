@@ -130,6 +130,8 @@ Pelajari cara mendapatkan dan menggunakan gaya computed elemen di Java dengan As
 Pelajari cara mengambil gaya terhitung elemen untuk men-debug tata letak CSS Grid menggunakan Aspose.HTML di Java.
 ### [Dapatkan Nilai Display Elemen di Java – Panduan Sandbox Aspose HTML](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
 Pelajari cara mengambil nilai properti display elemen HTML menggunakan Aspose.HTML di Java dalam lingkungan sandbox.
+### [Cara Mendapatkan CSS dari Elemen HTML di Java – Panduan Lengkap](./how-to-get-css-from-an-html-element-in-java-complete-guide/)
+Pelajari cara mengekstrak properti CSS dari elemen HTML menggunakan Java dengan contoh kode lengkap dan penjelasan praktis.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

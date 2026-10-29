@@ -175,6 +175,8 @@ url: /ar/java/creating-managing-html-documents/
 تعلم كيفية الحصول على النمط المحسوب في Java باستخدام Aspose.HTML عبر دليل شامل خطوة بخطوة.
 ### [إنشاء مستند HTML باستخدام Aspose.HTML - دليل Java كامل](./create-html-document-with-aspose-html-complete-java-guide/)
 تعلم كيفية إنشاء مستند HTML باستخدام Aspose.HTML في Java من خلال دليل شامل خطوة بخطوة.
+### [تحميل مستند HTML في Java – دليل كامل مع استعلامات CSS و XPath](./load-html-document-java-complete-guide-with-css-xpath-querie/)
+تعلم كيفية تحميل مستند HTML في Java واستخدام استعلامات CSS و XPath لمعالجة المحتوى بفعالية.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

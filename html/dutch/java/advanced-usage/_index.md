@@ -185,6 +185,8 @@ Leer hoe je JavaScript kunt embedden en uitvoeren binnen Java‑applicaties met 
 Leer hoe je JavaScript kunt inschakelen en uitvoeren in Aspose.HTML for Java, stap voor stap, voor volledige functionaliteit.
 ### [HTML‑sandbox maken in Java – Complete stapsgewijze gids](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
 Leer hoe je een veilige HTML‑sandbox opzet in Java met Aspose.HTML, stap voor stap.
+### [JavaScript uitvoeren in Java met Aspose.HTML – Complete gids](./execute-javascript-in-java-using-aspose-html-complete-guide/)
+Leer hoe je JavaScript kunt embedden en uitvoeren binnen Java‑applicaties met Aspose.HTML, stap voor stap.
 
 ---
 

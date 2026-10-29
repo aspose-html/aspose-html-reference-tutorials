@@ -193,6 +193,8 @@ Apprenez à exécuter du code JavaScript depuis Java avec Aspose.HTML, incluant 
 Apprenez à activer l'exécution de JavaScript avec Aspose.HTML en Java, avec des exemples détaillés et les meilleures pratiques.  
 ### [Créer un bac à sable pour HTML en Java – Guide complet étape par étape](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
 Apprenez à créer un environnement sandbox pour le HTML en Java avec Aspose.HTML, étape par étape.  
+### [Exécuter du JavaScript en Java avec Aspose.HTML – Guide complet](./execute-javascript-in-java-using-aspose-html-complete-guide/)
+Apprenez à exécuter du code JavaScript depuis Java avec Aspose.HTML, incluant des exemples détaillés et les meilleures pratiques.  
 
 ---
 

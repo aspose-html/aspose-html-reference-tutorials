@@ -104,6 +104,10 @@ Java’da HTML'den PDF oluşturmayı adım adım öğrenin, yüksek kalite ve ta
 Paralel render özelliğiyle HTML'den PDF'ye dönüşüm süresini önemli ölçüde azaltın.
 ### [HTML'yi PDF'yi Java’da – Tam Yüksek Kaliteli Kılavuz](./convert-html-to-pdf-in-java-complete-high-quality-guide/)
 Java’da HTML'yi PDF'ye yüksek kaliteyle dönüştürmek için eksiksiz adım adım rehber.
+### [Web Sayfasını PDF'ye Dönüştürme Java’da – Aspose HTML Kılavuzu](./convert-webpage-to-pdf-in-java-aspose-html-guide/)
+Aspose.HTML for Java kullanarak bir web sayfasını PDF'ye dönüştürmeyi adım adım gösteren kapsamlı rehber.
+### [Java’da HTML'den PDF Oluşturma – Tam Aspose.HTML Kılavuzu](./create-pdf-from-html-in-java-full-aspose-html-guide/)
+Java uygulamalarınızda HTML'den PDF oluşturmayı adım adım gösteren kapsamlı Aspose.HTML rehberi.
 ### [HTML'yi PDF'ye Dönüştürme Java’da – Sayfa Boyutu Ayarlarıyla Adım‑Adım Kılavuz](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Java’da HTML'yi PDF'ye dönüştürürken sayfa boyutu ayarlarını nasıl yapılandıracağınızı adım adım gösterir.
 ### [Özel Sayfa Boyutu ve Gömülü Yazı Tipleriyle HTML'den PDF Oluşturma](./create-pdf-from-html-with-custom-page-size-and-embedded-font/)
@@ -335,6 +339,10 @@ Aspose.HTML for Java kullanarak HTML dosyalarını DOCX formatına dönüştürm
 Java uygulamanızda HTML dosyalarını yüksek kaliteli PDF'lere dönüştürmek için adım adım rehber.
 ### [Java’da Markdown’dan PDF Oluşturma – Tam Adım‑Adım Kılavuz](./create-pdf-from-markdown-in-java-full-step-by-step-guide/)
 Java’da Markdown dosyalarını yüksek kaliteli PDF'lere dönüştürmek için adım adım rehber.
+### [HTML'yi Sabit İş Parçacığı Havuzu Kullanarak PDF'ye Dönüştürme (Java)](./convert-html-to-pdf-with-fixed-thread-pool-java/)
+HTML'yi PDF'ye dönüştürürken sabit iş parçacığı havuzu kullanarak çoklu dönüşüm işlemlerini nasıl yöneteceğinizi öğrenin.
+### [Java'da Markdown'ı PDF'ye Dönüştürme – Tam Aspose Kılavuzu](./convert-markdown-to-pdf-in-java-complete-aspose-guide/)
+Aspose.HTML for Java kullanarak Markdown dosyalarını yüksek kaliteli PDF'lere dönüştürmeyi adım adım öğrenin.
 
 ## Sıkça Sorulan Sorular
 

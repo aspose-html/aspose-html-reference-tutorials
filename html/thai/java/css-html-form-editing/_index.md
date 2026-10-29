@@ -132,6 +132,8 @@ url: /th/java/css-html-form-editing/
 เรียนรู้วิธีดึงสไตล์ที่คำนวณขององค์ประกอบใน Java เพื่อแก้ไขและดีบัก CSS Grid ด้วย Aspose.HTML
 ### [รับค่า Display ขององค์ประกอบใน Java – คู่มือ Sandbox Aspose HTML](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
 เรียนรู้วิธีดึงค่า display ขององค์ประกอบ HTML ด้วย Aspose.HTML สำหรับ Java ในสภาพแวดล้อม Sandbox
+### [วิธีดึง CSS จากองค์ประกอบ HTML ใน Java – คู่มือฉบับสมบูรณ์](./how-to-get-css-from-an-html-element-in-java-complete-guide/)
+เรียนรู้วิธีดึงสไตล์ CSS ขององค์ประกอบ HTML ด้วย Aspose.HTML สำหรับ Java อย่างละเอียดในคู่มือฉบับสมบูรณ์นี้
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

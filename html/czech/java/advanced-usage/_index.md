@@ -200,6 +200,8 @@ Naučte se, jak spouštět JavaScript v Javě pomocí Aspose.HTML, včetně nast
 Naučte se, jak povolit a spouštět JavaScript kód v Javě pomocí Aspose.HTML, včetně nastavení a praktických ukázek.
 ### [Vytvořit sandbox pro HTML v Javě – Kompletní průvodce krok‑za‑krokem](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
 Naučte se vytvořit bezpečné sandbox prostředí pro zpracování HTML v Javě pomocí Aspose.HTML, krok za krokem.
+### [Spustit JavaScript v Javě pomocí Aspose.HTML – Kompletní průvodce](./execute-javascript-in-java-using-aspose-html-complete-guide/)
+Naučte se, jak spouštět JavaScript v Javě s Aspose.HTML, včetně integrace, nastavení a praktických příkladů.
 
 ---
 

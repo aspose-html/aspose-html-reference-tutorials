@@ -214,6 +214,9 @@ weight: 20
 ### [إنشاء بيئة عزل لـ HTML في Java – دليل شامل خطوة بخطوة](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
 تعلم كيفية إنشاء بيئة sandbox لمعالجة HTML في Java باستخدام Aspose.HTML خطوة بخطوة.
 
+### [تنفيذ JavaScript في Java باستخدام Aspose.HTML – دليل شامل](./execute-javascript-in-java-using-aspose-html-complete-guide/)
+تعلم كيفية تنفيذ جافا سكريبت داخل تطبيقات Java باستخدام Aspose.HTML في دليل شامل خطوة بخطوة.
+
 ---
 
 **آخر تحديث:** 2025-11-29  

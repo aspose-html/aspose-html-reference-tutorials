@@ -77,7 +77,6 @@ Aspose.HTML का उपयोग करके Java में HTML दस्त
 ### [Java के लिए Aspose.HTML में SVG दस्तावेज़ बनाएँ और प्रबंधित करें](./create-manage-svg-documents/)
 SVG दस्तावेज़ बनाना और प्रबंधित करना सीखें। बुनियादी से उन्नत हेरफेर तक।
 ### [Java में HTML के लिए सैंडबॉक्स बनाएं – चरण‑दर‑चरण गाइड](./create-sandbox-for-html-in-java-step-by-step-guide/)
-Java में HTML सैंडबॉक्स बनाने की प्रक्रिया सीखें, सुरक्षित परीक्षण और विकास के लिए चरण‑दर‑...
 ### [Java में HTML क्वेरी कैसे करें – पूर्ण ट्यूटोरियल](./how-to-query-html-in-java-complete-tutorial/)
 ### [Java में XPath का उपयोग कैसे करें – HTML पढ़ें और टेक्स्ट निकालें](./how-to-use-xpath-in-java-read-html-and-extract-text/)
 Java में Aspose.HTML का उपयोग करके XPath के माध्यम से HTML से टेक्स्ट निकालने की चरण‑दर‑चरण मार्गदर्शिका।
@@ -169,6 +168,8 @@ Java में थ्रेड शुरू करने की पूरी प
 ### [Java के लिए Aspose.HTML में HTML फ़ाइल पढ़ें – पूर्ण गाइड](./read-html-file-java-complete-guide-using-aspose-html/)
 ### [Java में Computed Style प्राप्त करें – पूर्ण प्रोग्रामिंग गाइड](./get-computed-style-java-complete-programming-guide/)
 Java में Computed Style प्राप्त करने के लिए चरण‑दर‑चरण मार्गदर्शिका, विस्तृत कोड उदाहरण और सर्वोत्तम प्रथाएँ।
+### [Java में HTML दस्तावेज़ लोड करें – CSS और XPath क्वेरी के साथ पूर्ण गाइड](./load-html-document-java-complete-guide-with-css-xpath-querie/)
+Aspose.HTML के साथ Java में HTML दस्तावेज़ लोड करना सीखें, CSS सेलेक्टर और XPath क्वेरी के साथ उन्नत डेटा निकालें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

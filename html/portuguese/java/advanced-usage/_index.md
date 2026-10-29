@@ -217,6 +217,9 @@ Aprenda a executar código JavaScript dentro de aplicações Java usando Aspose.
 ### [Criar sandbox para HTML em Java – Guia completo passo a passo](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
 Aprenda a criar um ambiente sandbox seguro para executar HTML em Java, passo a passo, usando Aspose.HTML.
 
+### [Executar JavaScript em Java usando Aspose.HTML – Guia Completo](./execute-javascript-in-java-using-aspose-html-complete-guide/)
+Aprenda a executar código JavaScript dentro de aplicações Java com Aspose.HTML, cobrindo configuração, execução e melhores práticas.
+
 ---
 
 **Última atualização:** 2025-11-29  

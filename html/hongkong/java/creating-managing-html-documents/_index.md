@@ -177,6 +177,8 @@ Aspose.HTML for Java 為旨在在 Java 應用程式中無縫處理 HTML 文件�
 使用 Aspose.HTML for Java，學習在 Java 中取得元素的計算樣式，提供完整步驟與範例說明。
 ### [使用 Aspose.HTML 建立 HTML 文件 - 完整 Java 指南](./create-html-document-with-aspose-html-complete-java-guide/)
 本完整指南帶您一步步使用 Aspose.HTML 在 Java 中建立 HTML 文件，涵蓋所有關鍵步驟與最佳實踐。
+### [在 Java 中載入 HTML 文檔 – 完整教學，含 CSS 與 XPath 查詢](./load-html-document-java-complete-guide-with-css-xpath-querie/)
+透過此完整指南學習如何在 Java 中使用 Aspose.HTML 載入 HTML 文檔，並使用 CSS 與 XPath 進行查詢。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

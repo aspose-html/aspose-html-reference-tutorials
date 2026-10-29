@@ -132,6 +132,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML für Java den berechneten Stil von Element
 Lernen Sie, wie Sie mit Aspose.HTML den berechneten CSS‑Stil auslesen und CSS‑Grids effektiv debuggen können.
 ### [Anzeige‑Wert des Elements in Java abrufen – Aspose HTML Sandbox‑Leitfaden](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML den Anzeigewert eines Elements in Java auslesen – Schritt‑für‑Schritt‑Anleitung.
+### [Wie man CSS von einem HTML-Element in Java abruft – Komplett‑Anleitung](./how-to-get-css-from-an-html-element-in-java-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java das CSS eines HTML-Elements programmgesteuert auslesen und nutzen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

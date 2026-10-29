@@ -214,6 +214,9 @@ Aspose.HTML 允许您将 `DomMutationObserver` 附加到任意节点。这对于
 
 ### [在 Java 中创建 HTML 沙盒 – 完整分步指南](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
 
+### [使用 Aspose.HTML 在 Java 中执行 JavaScript – 完整指南](./execute-javascript-in-java-using-aspose-html-complete-guide/)
+学习如何在 Java 环境中运行 JavaScript 代码，涵盖 Aspose.HTML 的集成、脚本执行以及常见引擎的使用。
+
 ---
 **最后更新：** 2025-11-29  
 **测试环境：** Aspose.HTML for Java 24.11  

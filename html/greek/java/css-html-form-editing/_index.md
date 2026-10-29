@@ -134,6 +134,8 @@ url: /el/java/css-html-form-editing/
 Μάθετε πώς να λαμβάνετε το υπολογιζόμενο στυλ στοιχείων και να εντοπίζετε σφάλματα σε CSS Grid χρησιμοποιώντας Aspose.HTML για Java.
 ### [Λήψη τιμής εμφάνισης στοιχείου σε Java – Οδηγός Sandbox Aspose.HTML](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
 Μάθετε πώς να αποκτήσετε την τιμή display ενός στοιχείου HTML χρησιμοποιώντας Aspose.HTML για Java σε αυτόν τον πρακτικό οδηγό sandbox.
+### [Πώς να Λάβετε CSS από ένα Στοιχείο HTML σε Java – Πλήρης Οδηγός](./how-to-get-css-from-an-html-element-in-java-complete-guide/)
+Μάθετε πώς να εξάγετε τα στυλ CSS ενός στοιχείου HTML χρησιμοποιώντας Aspose.HTML για Java σε αυτόν τον πλήρη οδηγό.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

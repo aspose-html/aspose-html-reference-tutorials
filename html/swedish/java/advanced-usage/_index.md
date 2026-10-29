@@ -189,6 +189,8 @@ Lär dig hur du kör JavaScript‑kod i Java‑applikationer med Aspose.HTML, me
 Lär dig hur du aktiverar JavaScript‑exekvering i Java‑applikationer med Aspose.HTML, inklusive konfiguration och exempel.
 ### [Skapa sandlåda för HTML i Java – Komplett steg‑för‑steg‑guide](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
 Lär dig hur du skapar en säker sandlådemiljö för att bearbeta HTML i Java med Aspose.HTML, steg för steg.
+### [Kör JavaScript i Java med Aspose.HTML – Komplett guide](./execute-javascript-in-java-using-aspose-html-complete-guide/)
+Lär dig hur du kör JavaScript i Java‑applikationer med Aspose.HTML, med exempel och konfigurationssteg.
 
 ---
 

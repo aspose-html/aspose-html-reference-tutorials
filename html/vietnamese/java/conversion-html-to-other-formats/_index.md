@@ -107,6 +107,8 @@ Hướng dẫn chi tiết cách lưu tài liệu HtmlDocument thành PDF trong J
 Hướng dẫn chi tiết cách dùng sandbox trong Aspose.HTML for Java để thực hiện chuyển đổi HTML sang PDF một cách an toàn và hiệu quả.
 ### [Cách chuyển đổi tệp HTML sang PDF trong Java – Hướng dẫn đầy đủ](./how-to-convert-html-file-to-pdf-in-java-full-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tệp HTML sang PDF trong Java bằng Aspose.HTML, bao gồm các bước cấu hình và tùy chỉnh.
+### [Chuyển đổi HTML sang PDF với Fixed Thread Pool trong Java](./convert-html-to-pdf-with-fixed-thread-pool-java/)
+Hướng dẫn sử dụng Fixed Thread Pool để chuyển đổi đồng thời nhiều tệp HTML sang PDF trong Java bằng Aspose.HTML.
 
 ### [Chuyển đổi HTML sang PDF trong Java – Hướng dẫn chi tiết với cài đặt kích thước trang](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 ### [Hướng dẫn chuyển đổi HTML sang PDF với Java Fixed Thread Pool](./html-to-pdf-tutorial-convert-html-to-pdf-with-java-fixed-thr/)
@@ -260,6 +262,9 @@ Hướng dẫn chi tiết cách lưu nội dung HTML thành Markdown trong Java 
 
 ### [Tạo PDF từ Markdown trong Java – Hướng dẫn toàn diện](./create-pdf-from-markdown-in-java-complete-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tài liệu Markdown thành PDF trong Java bằng Aspose.HTML, bao gồm cấu hình và mẹo tối ưu.
+
+### [Chuyển đổi Markdown sang PDF trong Java – Hướng dẫn đầy đủ Aspose](./convert-markdown-to-pdf-in-java-complete-aspose-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu Markdown sang PDF trong Java bằng Aspose.HTML, bao gồm cấu hình và ví dụ thực tế.
 
 ### [Chuyển đổi SVG sang Hình ảnh](./convert-svg-to-image/)
 Tìm hiểu cách chuyển đổi SVG sang hình ảnh trong Java với Aspose.HTML. Hướng dẫn toàn diện để có đầu ra chất lượng cao.
@@ -430,6 +435,12 @@ Hướng dẫn chi tiết cách chuyển đổi HTML sang DOCX trong Java bằng
 
 ### [Tạo PDF từ Markdown trong Java – Hướng dẫn chi tiết từng bước](./create-pdf-from-markdown-in-java-full-step-by-step-guide/)
 Hướng dẫn chi tiết cách tạo PDF từ tệp Markdown trong Java bằng Aspose.HTML, bao gồm các bước cấu hình và tùy chỉnh.
+
+### [Tạo PDF từ HTML trong Java – Hướng dẫn đầy đủ Aspose.HTML](./create-pdf-from-html-in-java-full-aspose-html-guide/)
+Hướng dẫn chi tiết cách tạo PDF từ HTML trong Java bằng Aspose.HTML, bao gồm các tùy chọn cấu hình và ví dụ thực tế.
+
+### [Chuyển đổi trang web sang PDF trong Java – Hướng dẫn Aspose HTML](./convert-webpage-to-pdf-in-java-aspose-html-guide/)
+Hướng dẫn chi tiết cách chuyển đổi một trang web thành PDF trong Java bằng Aspose.HTML, bao gồm các tùy chọn cấu hình và ví dụ thực tế.
 
 ## Câu hỏi thường gặp
 

@@ -136,6 +136,10 @@ Aspose.HTML を使用して Java で HTML を PNG にレンダリングする完
 
 ### [HTML を PNG に変換する際の DPI 設定方法 – 完全な Aspose HTML ガイド](./how-to-set-dpi-when-converting-html-to-png-complete-aspose-h/)
 HTML を PNG に変換する際の DPI 設定手順を詳しく解説します。高品質な画像出力のための設定方法を学びましょう。
+### [HTML を画像に変換するチュートリアル: Aspose を使用して HTML を PNG に変換](./html-to-image-tutorial-convert-html-to-png-using-aspose/)
+Aspose を使用して HTML を PNG 画像に変換する手順を詳しく解説したチュートリアルです。
+
+### [Java で HTML ページを PNG として保存 – 完全ガイド](./save-html-page-as-png-with-java-complete-guide/)
 
 ### [HTML を TIFF に変換](./convert-html-to-tiff/)
 

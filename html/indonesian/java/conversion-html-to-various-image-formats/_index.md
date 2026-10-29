@@ -199,6 +199,8 @@ Panduan lengkap langkah demi langkah mengonversi HTML ke format WebP menggunakan
 ### [Mengonversi SVG ke WebP – Panduan Lengkap Java untuk SVG Animasi](./convert-svg-to-webp-full-java-guide-for-animated-svgs/)
 Panduan lengkap mengonversi file SVG animasi menjadi WebP menggunakan Aspose.HTML untuk Java, dengan contoh kode dan pengaturan optimal.
 ### [Render HTML ke Gambar di Java – Panduan Lengkap Aspose.HTML](./render-html-to-image-in-java-complete-aspose-html/)
+### [Menyimpan Halaman HTML sebagai PNG dengan Java – Panduan Lengkap](./save-html-page-as-png-with-java-complete-guide/)
+### [Tutorial Html ke Gambar: Mengonversi HTML ke PNG menggunakan Aspose](./html-to-image-tutorial-convert-html-to-png-using-aspose/)
 
 ## Pertanyaan yang Sering Diajukan
 

@@ -169,6 +169,8 @@ Khám phá cách trích xuất văn bản từ tài liệu HTML trong Java bằn
 Khám phá cách lấy computed style trong Java bằng Aspose.HTML với hướng dẫn chi tiết từng bước.
 ### [Tạo tài liệu HTML với Aspose.HTML - Hướng dẫn Java đầy đủ](./create-html-document-with-aspose-html-complete-java-guide/)
 Khám phá hướng dẫn toàn diện để tạo tài liệu HTML bằng Aspose.HTML trong Java, bao gồm các bước chi tiết và mẹo thực tiễn.
+### [Tải tài liệu HTML Java – Hướng dẫn đầy đủ với CSS & XPath](./load-html-document-java-complete-guide-with-css-xpath-querie/)
+Khám phá cách tải tài liệu HTML trong Java, kèm hướng dẫn chi tiết sử dụng CSS và truy vấn XPath để xử lý nội dung hiệu quả.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

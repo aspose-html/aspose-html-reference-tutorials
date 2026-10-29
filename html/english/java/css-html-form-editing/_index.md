@@ -133,6 +133,8 @@ Learn how to retrieve and work with computed CSS styles of HTML elements using A
 Learn how to retrieve computed CSS styles in Java using Aspose.HTML to debug and troubleshoot CSS Grid layouts effectively.
 ### [Get Element Display Value in Java – Aspose HTML Sandbox Guide](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
 Learn how to retrieve an element's display property in Java using Aspose.HTML within the sandbox environment.
+### [How to Get CSS from an HTML Element in Java – Complete Guide](./how-to-get-css-from-an-html-element-in-java-complete-guide/)
+Learn how to retrieve CSS styles from an HTML element using Aspose.HTML for Java in this comprehensive step‑by‑step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

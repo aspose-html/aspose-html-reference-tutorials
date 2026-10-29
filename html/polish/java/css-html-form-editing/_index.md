@@ -130,6 +130,8 @@ Dowiedz się, jak w Javie uzyskać obliczony styl elementu przy użyciu Aspose.H
 Dowiedz się, jak uzyskać obliczone style elementów i debugować układy CSS Grid w Javie przy użyciu Aspose.HTML.
 ### [Pobierz wartość wyświetlania elementu w Javie – Przewodnik po piaskownicy Aspose HTML](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
 Dowiedz się, jak odczytać właściwość display elementu HTML w Javie przy użyciu Aspose.HTML w środowisku sandbox.
+### [Jak uzyskać CSS z elementu HTML w Javie – Kompletny przewodnik](./how-to-get-css-from-an-html-element-in-java-complete-guide/)
+Dowiedz się, jak pobrać style CSS z elementu HTML w Javie, korzystając z Aspose.HTML, w tym kompletnym przewodniku krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

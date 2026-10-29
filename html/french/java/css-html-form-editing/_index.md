@@ -134,6 +134,8 @@ Apprenez à récupérer le style calculé d'un élément en Java avec Aspose.HTM
 Apprenez à récupérer le style calculé d'un élément et à déboguer les grilles CSS en Java avec Aspose.HTML.
 ### [Obtenir la valeur d'affichage d'un élément en Java – Guide Sandbox Aspose HTML](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
 Apprenez à récupérer la propriété CSS display d'un élément avec Aspose.HTML en Java dans ce guide pratique.
+### [Comment obtenir le CSS d'un élément HTML en Java – Guide complet](./how-to-get-css-from-an-html-element-in-java-complete-guide/)
+Apprenez à extraire les styles CSS d'un élément HTML en Java avec Aspose.HTML grâce à ce guide complet et pratique.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

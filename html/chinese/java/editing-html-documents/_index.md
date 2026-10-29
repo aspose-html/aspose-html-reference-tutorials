@@ -62,6 +62,8 @@ url: /zh/java/editing-html-documents/
 通过我们简单的分步教程学习使用 Aspose.HTML for Java 在 HTML 文档中实现内部 CSS。
 ### [在 Aspose.HTML for Java 中运行 JavaScript – 完整指南](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
 了解如何使用 Aspose.HTML for Java 在 HTML 中执行 JavaScript，实现动态交互和脚本处理的完整步骤指南。
+### [加载 HTML 模板 Java – 完整 Aspose.HTML 指南](./load-html-template-java-complete-aspose-html-guide/)
+了解如何使用 Aspose.HTML for Java 加载 HTML 模板并完成全流程操作的完整指南。
 ### [固定线程池 Java – 使用 ExecutorService 并行 HTML 清理](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 了解如何使用 Java 固定线程池和 ExecutorService 实现并行 HTML 清理，提高处理效率。
 ### [在 Java 中向 body 追加子元素 – 完整 Aspose.HTML 教程](./append-child-to-body-in-java-full-aspose-html-tutorial/)

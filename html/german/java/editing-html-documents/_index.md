@@ -82,6 +82,8 @@ Entdecken Sie, wie Sie mit Aspose.HTML für Java HTML extrahieren, Text auslesen
 Erfahren Sie, wie Sie mit Aspose.HTML für Java Elementattribute aus SVGs auswählen und per XPath abfragen – Schritt für Schritt.
 ### [JavaScript in HTML mit Aspose.HTML für Java ausführen – Vollständige Anleitung](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
 Erfahren Sie, wie Sie JavaScript in HTML-Dokumenten mit Aspose.HTML für Java ausführen – Schritt-für-Schritt-Anleitung.
+### [HTML-Vorlage laden in Java – Vollständige Aspose.HTML-Anleitung](./load-html-template-java-complete-aspose-html-guide/)
+Lernen Sie, wie Sie mit Aspose.HTML für Java HTML-Vorlagen laden und anpassen – ein umfassendes Schritt-für-Schritt-Tutorial.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -69,6 +69,9 @@ weight: 24
 
 การแปลง HTML เป็น PNG เหมาะสำหรับกราฟิกแบบไม่มีการสูญเสีย, ภาพหน้าจอ, หรือเมื่อคุณต้องการความโปร่งใส คู่มือฉบับเต็มของเราจะให้คำแนะนำที่ชัดเจนสำหรับการแปลงที่ราบรื่น
 
+### [บันทึกหน้า HTML เป็น PNG ด้วย Java – คู่มือฉบับสมบูรณ์](./save-html-page-as-png-with-java-complete-guide/)
+เรียนรู้วิธีบันทึกหน้า HTML เป็นไฟล์ PNG ด้วย Java โดยใช้ Aspose.HTML คู่มือเต็มขั้นตอนสำหรับการแปลงที่แม่นยำและรวดเร็ว
+
 ## การแปลง HTML เป็น TIFF
 
 การแปลง HTML เป็น TIFF เหมาะสำหรับการพิมพ์ความละเอียดสูงหรือการเก็บสำเนาแบบถาวร บทเรียนนี้อธิบายขั้นตอนที่จำเป็นเพื่อสร้างไฟล์ TIFF อย่างมีประสิทธิภาพด้วย Aspose.HTML for Java
@@ -112,6 +115,7 @@ weight: 24
 ### [การแปลง HTML เป็น PNG – คู่มือการส่งออกแบบเป็นชุดสำหรับ Java](./convert-html-to-png-batch-export-guide-for-java/)
 ### [วิธีตั้งค่า DPI เมื่อแปลง HTML เป็น PNG – คู่มือ Aspose HTML ฉบับสมบูรณ์](./how-to-set-dpi-when-converting-html-to-png-complete-aspose-h/)
 วิธีตั้งค่า DPI สำหรับการแปลง HTML เป็น PNG ด้วย Aspose.HTML ใน Java เพื่อควบคุมความละเอียดของภาพอย่างแม่นยำ
+### [การแปลง HTML เป็น PNG ด้วย Aspose](./html-to-image-tutorial-convert-html-to-png-using-aspose/)
 ### [การแปลง HTML เป็น TIFF](./convert-html-to-tiff/)
 เรียนรู้วิธีการแปลง HTML เป็น TIFF ได้อย่างง่ายดายโดยใช้ Aspose.HTML สำหรับ Java คู่มือทีละขั้นตอนเพื่อการจัดการเอกสารอย่างมีประสิทธิภาพ
 ### [วิธีใช้ ExecutorService เพื่อแปลง HTML เป็น PNG แบบแบตช์ขนาน](./how-to-use-executorservice-for-parallel-html-to-png-batch-co/)

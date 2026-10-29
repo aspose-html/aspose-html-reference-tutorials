@@ -190,6 +190,8 @@ Aspose.HTML for Java का उपयोग करके Java एप्लिक
 Java एप्लिकेशन में Aspose का उपयोग करके JavaScript को एम्बेड और चलाने के विस्तृत चरण‑दर‑चरण निर्देश।  
 ### [Java में HTML के लिए सैंडबॉक्स बनाएं – पूर्ण चरण‑दर‑चरण गाइड](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
 Java में Aspose.HTML का उपयोग करके सुरक्षित सैंडबॉक्स सेटअप और HTML को प्रोसेस करने की पूरी प्रक्रिया सीखें।  
+### [Java में Aspose.HTML का उपयोग करके JavaScript चलाएँ – पूर्ण गाइड](./execute-javascript-in-java-using-aspose-html-complete-guide/)
+Aspose.HTML for Java के साथ Java एप्लिकेशन में JavaScript को एम्बेड और चलाने के विस्तृत चरण।  
 
 ---
 

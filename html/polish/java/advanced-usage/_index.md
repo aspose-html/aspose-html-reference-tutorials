@@ -187,6 +187,8 @@ Poznaj, jak uruchamiać kod JavaScript w aplikacji Java przy użyciu Aspose.HTML
 Dowiedz się, jak włączyć i uruchomić kod JavaScript w aplikacji Java przy użyciu Aspose.HTML, krok po kroku, od konfiguracji po wykonanie skryptu.
 ### [Utwórz piaskownicę dla HTML w Javie – Kompletny przewodnik krok po kroku](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
 Dowiedz się, jak stworzyć bezpieczną piaskownicę dla HTML w Javie, krok po kroku, wykorzystując Aspose.HTML.
+### [Wykonaj JavaScript w Javie przy użyciu Aspose.HTML – Kompletny przewodnik](./execute-javascript-in-java-using-aspose-html-complete-guide/)
+Kompletny przewodnik po uruchamianiu skryptów JavaScript w Javie przy pomocy Aspose.HTML, z przykładami i najlepszymi praktykami.
 
 ---
 

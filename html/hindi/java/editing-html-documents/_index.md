@@ -58,6 +58,8 @@ Java के लिए Aspose.HTML का उपयोग करके HTML द�
 इस चरण-दर-श... (description)
 ### [Java के लिए Aspose.HTML के साथ HTML दस्तावेज़ों में आंतरिक CSS लागू करें](./implement-internal-css-html-documents/)
 हमारे आसान चरण-दर-चरण ट्यूटोरियल के साथ Java के लिए Aspose.HTML का उपयोग करके HTML दस्तावेज़ों में आंतरिक CSS को लागू करना सीखें।
+### [Java के लिए Aspose.HTML में HTML टेम्पलेट लोड करें – पूर्ण गाइड](./load-html-template-java-complete-aspose-html-guide/)
+Java के लिए Aspose.HTML का उपयोग करके HTML टेम्पलेट लोड करने की पूरी प्रक्रिया सीखें। चरण-दर-चरण गाइड।
 ### [Fixed thread pool java – ExecutorService के साथ समानांतर HTML सफाई](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 ExecutorService के साथ Fixed Thread Pool का उपयोग करके समानांतर रूप से HTML को साफ़ करने की प्रक्रिया सीखें।
 ### [Java के लिए Aspose.HTML में HTML से स्क्रिप्ट हटाने की पूरी गाइड](./how-to-remove-scripts-from-html-in-java-complete-guide/)

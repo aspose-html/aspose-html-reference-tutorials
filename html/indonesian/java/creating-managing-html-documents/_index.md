@@ -169,6 +169,7 @@ Pelajari cara mendapatkan gaya terhitung pada elemen HTML menggunakan Aspose.HTM
 
 ### [Buat Dokumen HTML dengan Aspose.HTML – Panduan Lengkap Java](./create-html-document-with-aspose-html-complete-java-guide/)
 Panduan lengkap untuk membuat dokumen HTML menggunakan Aspose.HTML di Java, langkah demi langkah dengan contoh kode.
+### [Muat Dokumen HTML Java – Panduan Lengkap dengan CSS & XPath](./load-html-document-java-complete-guide-with-css-xpath-querie/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

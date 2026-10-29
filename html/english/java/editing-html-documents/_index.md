@@ -78,6 +78,8 @@ Learn how to remove script tags from HTML using Aspose.HTML for Java. This step-
 Learn how to search for text and replace it with the &lt;mark&gt; tag to highlight HTML using Aspose.HTML for Java. Step-by-step guide.
 ### [Automatic lock release in Java – Thread‑Safe HTML Editing Tutorial](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
 Learn how to automatically release locks in Java for thread‑safe HTML editing using Aspose.HTML. Step‑by‑step guide.
+### [Load HTML Template Java – Complete Aspose.HTML Guide](./load-html-template-java-complete-aspose-html-guide/)
+Learn how to load and work with HTML templates in Java using Aspose.HTML with a comprehensive step-by-step guide.
 
 ### [Get Element Attribute Java – Complete Guide to SVG Selection and XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
 Learn how to retrieve element attributes, select SVG elements, and use XPath with Aspose.HTML for Java in this comprehensive guide.

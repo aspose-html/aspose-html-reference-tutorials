@@ -175,6 +175,7 @@ Aprende a convertir imágenes SVG a formato AVIF usando Java y Aspose.HTML, con 
 Aprende a ejecutar código JavaScript dentro de Aspose.HTML usando Java, con ejemplos paso a paso y mejores prácticas.
 ### [Crear sandbox para HTML en Java – Guía completa paso a paso](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
 Aprende a crear un entorno sandbox para HTML en Java, paso a paso, y ejecuta contenido de forma segura.
+### [Ejecutar JavaScript en Java usando Aspose.HTML – Guía completa](./execute-javascript-in-java-using-aspose-html-complete-guide/)
 
 ---
 

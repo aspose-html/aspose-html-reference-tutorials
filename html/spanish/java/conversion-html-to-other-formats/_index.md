@@ -155,6 +155,12 @@ Aprende a convertir múltiples archivos HTML a PDF simultáneamente usando Aspos
 Aprende a convertir múltiples archivos HTML a PDF simultáneamente en Java usando Aspose.HTML, optimizando el rendimiento con procesamiento por lotes.
 ### [Convertir HTML a PDF en Java – Guía completa de alta calidad](./convert-html-to-pdf-in-java-complete-high-quality-guide/)
 Guía completa para convertir HTML a PDF en Java con Aspose.HTML, garantizando alta calidad y control total del proceso.
+### [Convertir HTML a PDF con Thread Pool Fijo en Java](./convert-html-to-pdf-with-fixed-thread-pool-java/)
+Aprende a convertir HTML a PDF en Java usando un Thread Pool fijo para procesar múltiples conversiones concurrentes de forma eficiente.
+### [Crear PDF a partir de HTML en Java – Guía completa de Aspose.HTML](./create-pdf-from-html-in-java-full-aspose-html-guide/)
+Aprende a generar PDFs desde HTML en Java usando Aspose.HTML con ejemplos paso a paso y configuraciones avanzadas.
+### [Convertir página web a PDF en Java – Guía Aspose HTML](./convert-webpage-to-pdf-in-java-aspose-html-guide/)
+Aprende a convertir cualquier página web a PDF en Java usando Aspose.HTML con ejemplos claros y configuraciones personalizables.
 ### [Conversión de HTML a MHTML](./convert-html-to-mhtml/)
 Convierte HTML a MHTML de forma sencilla con Aspose.HTML para Java. Sigue nuestra guía paso a paso para una conversión eficiente de HTML a MHTML.
 
@@ -203,6 +209,8 @@ Aprende a convertir HTML a Markdown en Java usando Aspose.HTML con una guía det
 Aprende a generar archivos PDF desde documentos Markdown en Java usando Aspose.HTML, con instrucciones detalladas paso a paso.
 ### [Crear PDF a partir de Markdown en Java – Guía completa](./create-pdf-from-markdown-in-java-complete-guide/)
 Guía paso a paso para generar PDFs de alta calidad a partir de archivos Markdown usando Aspose.HTML for Java.
+### [Conversión de Markdown a PDF en Java – Guía completa de Aspose.HTML](./convert-markdown-to-pdf-in-java-complete-aspose-guide/)
+Aprende a transformar archivos Markdown en PDFs de alta calidad en Java usando Aspose.HTML con ejemplos paso a paso y configuraciones avanzadas.
 ### [Conversión de SVG a Imagen](./convert-svg-to-image/)
 Aprende a convertir SVG a imágenes en Java con Aspose.HTML. Guía completa para obtener resultados de alta calidad.
 

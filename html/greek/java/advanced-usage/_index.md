@@ -179,6 +179,8 @@ weight: 20
 Μάθετε πώς να ενεργοποιήσετε και να εκτελέσετε κώδικα JavaScript σε εφαρμογές Java χρησιμοποιώντας το Aspose.HTML.
 ### [Δημιουργία sandbox για HTML σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
 Μάθετε πώς να δημιουργήσετε ένα ασφαλές sandbox για HTML σε Java, βήμα‑βήμα, χρησιμοποιώντας το Aspose.HTML.
+### [Εκτέλεση JavaScript σε Java χρησιμοποιώντας Aspose.HTML – Πλήρης Οδηγός](./execute-javascript-in-java-using-aspose-html-complete-guide/)
+Μάθετε πώς να εκτελείτε κώδικα JavaScript σε εφαρμογές Java με το Aspose.HTML for Java.
 
 ---
 

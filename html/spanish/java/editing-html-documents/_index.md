@@ -62,6 +62,8 @@ Aprenda a buscar texto en documentos HTML y resaltarlo usando la etiqueta <mark>
 Aprenda a implementar CSS interno en documentos HTML usando Aspose.HTML para Java con nuestro sencillo tutorial paso a paso.
 ### [Crear nuevo elemento HTML con Java – Guía completa de Aspose.HTML](./create-new-html-element-with-java-full-aspose-html-guide/)
 Aprenda a crear nuevos elementos HTML en Java usando Aspose.HTML con una guía paso a paso.
+### [Cargar plantilla HTML en Java – Guía completa de Aspose.HTML](./load-html-template-java-complete-aspose-html-guide/)
+Aprenda a cargar una plantilla HTML en Java usando Aspose.HTML con esta guía paso a paso.
 ### [Pool de hilos fijo en Java – Limpieza paralela de HTML con ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Aprenda a usar un pool de hilos fijo y ExecutorService para limpiar HTML en paralelo con Aspose.HTML para Java.
 ### [Agregar un hijo al cuerpo en Java – Tutorial completo de Aspose.HTML](./append-child-to-body-in-java-full-aspose-html-tutorial/)

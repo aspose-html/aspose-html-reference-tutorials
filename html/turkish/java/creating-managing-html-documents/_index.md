@@ -178,6 +178,8 @@ Aspose.HTML for Java ile HTML dosyalarını nasıl okuyacağınızı adım adım
 Java için Aspose.HTML kullanarak hesaplanmış stil değerlerini nasıl alacağınızı adım adım öğrenin.
 ### [Java için Aspose.HTML'de HTML Belgesi Oluşturma – Tam Java Kılavuzu](./create-html-document-with-aspose-html-complete-java-guide/)
 Aspose.HTML kullanarak Java'da HTML belgesi oluşturmayı adım adım öğrenin. Tam kapsamlı rehber, örnek kodlar ve ipuçları içerir.
+### [Java için Aspose.HTML'de HTML Belgesi Yükleme – CSS ve XPath Sorgularıyla Tam Kılavuz](./load-html-document-java-complete-guide-with-css-xpath-querie/)
+Java için Aspose.HTML kullanarak CSS ve XPath sorgularıyla HTML belgelerini nasıl yükleyeceğinizi ve sorgulayacağınızı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

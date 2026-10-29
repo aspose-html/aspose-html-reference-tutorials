@@ -81,6 +81,8 @@ url: /el/java/editing-html-documents/
 
 ### [Απόκτηση Ιδιότητας Στοιχείου Java – Πλήρης Οδηγός για Επιλογή SVG και XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
 Μάθετε πώς να ανακτάτε ιδιότητες στοιχείων SVG χρησιμοποιώντας Java, XPath και το Aspose.HTML.
+### [Φόρτωση προτύπου HTML Java – Πλήρης οδηγός Aspose.HTML](./load-html-template-java-complete-aspose-html-guide/)
+Μάθετε πώς να φορτώνετε πρότυπο HTML σε Java με το Aspose.HTML, βήμα‑βήμα, για γρήγορη δημιουργία δυναμικών εγγράφων.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -55,7 +55,7 @@ Aspose.HTML สำหรับ Java นำเสนอชุดเครื่�
 ### [การโหลดไฟล์ขั้นสูงสำหรับเอกสาร HTML ใน Aspose.HTML สำหรับ Java](./advanced-file-loading-html-documents/)
 เรียนรู้วิธีการโหลด จัดการและบันทึกเอกสาร HTML โดยใช้ Aspose.HTML สำหรับ Java ในคู่มือทีละขั้นตอนนี้ ปลดล็อกการประมวลผล HTML ขั้นสูงในโปรเจ็กต์ Java ของคุณ
 ### [โหลดเอกสาร HTML จาก Stream ด้วย Aspose.HTML สำหรับ Java](./load-html-documents-from-stream/)
-เรียนรู้วิธีโหลดเอกสาร HTML จากสตรีมโดยใช้ Aspose.HTML สำหรับ Java คู่มือนี้ประกอบด้วยบทช่วยสอนทีละขั้นตอนสำหรับการจัดการ HTML ได้อย่างราบรื่น
+เรียนรู้วิธีโหลดเdocument HTML จากสตรีมโดยใช้ Aspose.HTML สำหรับ Java คู่มือนี้ประกอบด้วยบทช่วยสอนทีละขั้นตอนสำหรับการจัดการ HTML ได้อย่างราบรื่น
 ### [สร้างเอกสาร HTML จากสตริงใน Aspose.HTML สำหรับ Java](./create-html-documents-from-string/)
 เรียนรู้วิธีสร้างเอกสาร HTML จากสตริงใน Aspose.HTML สำหรับ Java ด้วยคู่มือทีละขั้นตอนนี้
 ### [สร้าง HTML จาก JavaScript ใน Java – คู่มือเต็มแบบทีละขั้นตอน](./generate-html-from-javascript-in-java-complete-step-by-step/)
@@ -174,6 +174,8 @@ Aspose.HTML สำหรับ Java นำเสนอชุดเครื่�
 ### [สร้างเอกสาร HTML ด้วย Aspose.HTML - คู่มือ Java ฉบับสมบูรณ์](./create-html-document-with-aspose-html-complete-java-guide/)
 เรียนรู้วิธีสร้างเอกสาร HTML อย่างเต็มรูปแบบด้วย Aspose.HTML ใน Java ผ่านคู่มือขั้นตอนละเอียด
 
+### [โหลดเอกสาร HTML ใน Java – คู่มือฉบับสมบูรณ์พร้อมการสืบค้น CSS & XPath](./load-html-document-java-complete-guide-with-css-xpath-querie/)
+เรียนรู้วิธีโหลดเอกสาร HTML ใน Java พร้อมการสืบค้นด้วย CSS และ XPath อย่างละเอียดในคู่มือขั้นตอนเดียว
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -56,7 +56,8 @@ Ontgrendel de kracht van HTML-manipulatie met Aspose.HTML voor Java. Leer HTML-d
 Leer hoe u HTML-bestanden kunt lezen in Java met Aspose.HTML in deze volledige stap‑voor‑stap handleiding.
 ### [Geavanceerd laden van bestanden voor HTML-documenten in Aspose.HTML voor Java](./advanced-file-loading-html-documents/)
 Leer hoe u HTML-documenten laadt, bewerkt en opslaat met Aspose.HTML voor Java in deze stapsgewijze handleiding. Ontgrendel geavanceerde HTML-verwerking in uw Java-projecten.
-
+### [HTML-document laden in Aspose.HTML voor Java – Complete gids met CSS- en XPath-query's](./load-html-document-java-complete-guide-with-css-xpath-querie/)
+Leer hoe u HTML-documenten laadt en query's uitvoert met CSS en XPath in Aspose.HTML voor Java.
 ### [Laad HTML-documenten uit de stream met Aspose.HTML voor Java](./load-html-documents-from-stream/)
 Leer hoe u HTML-documenten laadt uit streams met Aspose.HTML voor Java. Deze gids biedt een stapsgewijze tutorial voor naadloze HTML-manipulatie.
 

@@ -130,6 +130,8 @@ url: /zh-hant/java/css-html-form-editing/
 本教學說明如何在 Java 中使用 Aspose.HTML 取得元素的計算樣式，協助偵錯 CSS Grid 版面配置。
 ### [在 Java 中取得元素顯示值 – Aspose HTML 沙盒指南](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
 本指南說明如何在 Java 中使用 Aspose.HTML 取得元素的顯示屬性值，協助前端顯示調整與除錯。
+### [在 Java 中從 HTML 元素獲取 CSS – 完整指南](./how-to-get-css-from-an-html-element-in-java-complete-guide/)
+本完整指南說明如何使用 Aspose.HTML for Java 從 HTML 元素提取 CSS 樣式，涵蓋程式碼示例與最佳實踐。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

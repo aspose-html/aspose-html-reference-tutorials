@@ -85,6 +85,8 @@ Aprenda a cargar datos JSON usando Fetch en Java con esta guía completa paso a 
 Aprenda a cargar HTML desde una URL en Java usando Aspose.HTML, con ejemplos de CSS y XPath. Guía paso a paso completa.
 ### [Obtener estilo computado en Java – Guía completa de programación](./get-computed-style-java-complete-programming-guide/)
 Aprenda a obtener estilos computados en Java usando Aspose.HTML con esta guía paso a paso completa.
+### [Cargar documento HTML Java – Guía completa con consultas CSS y XPath](./load-html-document-java-complete-guide-with-css-xpath-querie/)
+Descubra cómo cargar documentos HTML en Java con Aspose.HTML, incluyendo consultas CSS y XPath, en esta guía paso a paso.
 ### [Cómo consultar HTML en Java – Tutorial completo](./how-to-query-html-in-java-complete-tutorial/)
 Aprenda a consultar documentos HTML en Java usando Aspose.HTML con esta guía paso a paso completa.
 ### [Cómo consultar HTML en Java – Extraer URLs de imágenes](./how-to-query-html-in-java-extract-image-urls/)

@@ -78,6 +78,7 @@ Aspose.HTML for Java を使い、HTML ドキュメント内で JavaScript を実
 ### [Java で body に子要素を追加 – 完全 Aspose.HTML チュートリアル](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 Aspose.HTML for Java を使用して、HTML ドキュメントの body に子要素を追加する方法をステップバイステップで学びます。
 ### [Java の自動ロック解除 – スレッドセーフ HTML 編集チュートリアル](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
+### [Java で HTML テンプレートを読み込む – 完全な Aspose.HTML ガイド](./load-html-template-java-complete-aspose-html-guide/)
 
 ### [Javaで要素属性取得 – SVG選択とXPathの完全ガイド](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
 Javaを使用してSVG要素の属性を取得し、XPathで選択する方法をステップバイステップで解説します。

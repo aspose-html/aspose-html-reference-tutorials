@@ -130,6 +130,8 @@ Aspose.HTML for Java ile bir elementin hesaplanmış stilini alıp incelemeyi ad
 Aspose.HTML for Java kullanarak bir öğenin hesaplanmış stilini alıp CSS Grid düzeninizi hata ayıklamayı öğrenin.
 ### [Java’da Element Görüntüleme Değerini Al – Aspose HTML Sandbox Kılavuzu](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
 Aspose.HTML for Java kullanarak bir öğenin display (görünürlük) değerini almayı ve analiz etmeyi öğrenin.
+### [Java’da bir HTML öğesinden CSS nasıl alınır – Tam Kılavuz](./how-to-get-css-from-an-html-element-in-java-complete-guide/)
+Aspose.HTML for Java kullanarak bir HTML öğesinin CSS stilini programatik olarak nasıl alacağınızı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

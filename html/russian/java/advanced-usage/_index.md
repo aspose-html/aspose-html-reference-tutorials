@@ -187,6 +187,8 @@ Aspose.HTML позволяет прикрепить `DomMutationObserver` к л�
 Узнайте, как включить выполнение JavaScript в Aspose.HTML для Java с полным руководством.
 ### [Создание песочницы для HTML в Java – Полное пошаговое руководство](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
 Узнайте, как создать безопасную среду выполнения HTML‑кода в Java с помощью Aspose.HTML, шаг за шагом.
+### [Выполнение JavaScript в Java с использованием Aspose.HTML – Полное руководство](./execute-javascript-in-java-using-aspose-html-complete-guide/)
+Узнайте, как запускать JavaScript‑код из Java‑приложений с помощью Aspose.HTML for Java.
 
 ---
 

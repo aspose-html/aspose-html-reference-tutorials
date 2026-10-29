@@ -63,6 +63,8 @@ Dowiedz się, jak zmienić tekst elementu h1 w pliku MHTML przy użyciu Aspose.H
 
 ### [Jak wyodrębnić HTML w Javie – wyodrębnić tekst i podświetlić słowa](./how-to-extract-html-in-java-extract-text-highlight-words/)
 Dowiedz się, jak wyodrębnić tekst z dokumentów HTML w Javie i podświetlić wybrane słowa przy użyciu Aspose.HTML.
+### [Ładowanie szablonu HTML w Javie – Kompletny przewodnik Aspose.HTML](./load-html-template-java-complete-aspose-html-guide/)
+Dowiedz się, jak załadować szablon HTML w Javie przy użyciu Aspose.HTML w tym kompletnym przewodniku krok po kroku.
 ### [Fixed thread pool Java – równoległe czyszczenie HTML przy użyciu ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Dowiedz się, jak używać Fixed Thread Pool w Javie do równoległego czyszczenia HTML przy pomocy ExecutorService.
 ### [Utwórz nowy element HTML w Javie – Pełny przewodnik Aspose.HTML](./create-new-html-element-with-java-full-aspose-html-guide/)

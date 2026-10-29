@@ -134,6 +134,7 @@ Erfahren Sie, wie Sie HTML mit Aspose.HTML for Java in PNG mit benutzerdefiniert
 Erfahren Sie, wie Sie mehrere HTML‑Dateien in PNG‑Bilder batchweise mit Aspose.HTML for Java exportieren.
 ### [Wie man DPI beim Konvertieren von HTML zu PNG festlegt – Vollständige Aspose HTML Anleitung](./how-to-set-dpi-when-converting-html-to-png-complete-aspose-h/)
 Erfahren Sie, wie Sie die DPI beim Rendern von HTML zu PNG mit Aspose.HTML for Java einstellen, um Bildqualität und Größe zu steuern.
+### [HTML in PNG konvertieren – Html‑zu‑Bild‑Tutorial mit Aspose](./html-to-image-tutorial-convert-html-to-png-using-aspose/)
 ### [HTML in TIFF konvertieren](./convert-html-to-tiff/)
 Erfahren Sie, wie Sie HTML einfach mit Aspose.HTML for Java in TIFF konvertieren. Schritt‑für‑Schritt‑Leitfaden für effiziente Dokumentenverarbeitung.
 ### [Thumbnail aus HTML generieren – Java‑Leitfaden](./how-to-generate-thumbnail-from-html-java-guide/)
@@ -222,6 +223,8 @@ Erfahren Sie, wie Sie HTML mit Aspose.HTML for Java in das WebP‑Format konvert
 Erfahren Sie, wie Sie animierte SVG‑Dateien mit Aspose.HTML for Java in das WebP‑Format konvertieren – Schritt‑für‑Schritt‑Leitfaden.
 ### [HTML in Bild rendern in Java – Vollständiger Aspose.HTML Leitfaden](./render-html-to-image-in-java-complete-aspose-html-guide/)
 Erfahren Sie, wie Sie HTML mit Aspose.HTML for Java in verschiedene Bildformate rendern – umfassende Schritt‑für‑Schritt‑Anleitung.
+### [HTML‑Seite als PNG speichern – Komplettanleitung für Java](./save-html-page-as-png-with-java-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML for Java eine HTML‑Seite vollständig als PNG‑Bild speichern – Schritt‑für‑Schritt‑Anleitung.
 
 ## Häufig gestellte Fragen
 

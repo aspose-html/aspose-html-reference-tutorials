@@ -102,6 +102,8 @@ Aprenda a consultar HTML usando Aspose.HTML em Java com este guia completo passo
 Aprenda a pesquisar e extrair dados de documentos HTML em Java usando Aspose.HTML com este guia passo a passo completo.
 ### [Extrair o título da página com Java – Guia completo usando Aspose.HTML](./extract-page-title-with-java-full-guide-using-aspose-html/)
 Aprenda a extrair o título de páginas HTML em Java usando Aspose.HTML com este guia passo a passo.
+### [Carregar documento HTML em Java – Guia completo com consultas CSS e XPath](./load-html-document-java-complete-guide-with-css-xpath-querie/)
+Aprenda a carregar documentos HTML em Java e executar consultas avançadas usando CSS e XPath com este guia passo a passo.
 ### [Gerar novos documentos HTML usando Aspose.HTML para Java](./generate-new-html-documents/)
 Aprenda como criar novos documentos HTML usando Aspose.HTML para Java com este guia passo a passo fácil. Comece a gerar conteúdo HTML dinâmico.
 ### [Converter Markdown para HTML em Java – Guia passo a passo](./convert-markdown-to-html-in-java-step-by-step-guide/)

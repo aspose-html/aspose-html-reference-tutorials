@@ -175,6 +175,8 @@ url: /el/java/creating-managing-html-documents/
 Μάθετε πώς να ξεκινήσετε και να διαχειριστείτε νήματα σε Java με αυτόν τον πλήρη οδηγό βήμα‑βήμα.
 ### [Απόκτηση Υπολογισμένου Στυλ Java – Πλήρης Οδηγός Προγραμματισμού](./get-computed-style-java-complete-programming-guide/)
 Μάθετε πώς να λαμβάνετε το υπολογισμένο στυλ στοιχείων HTML σε Java με το Aspose.HTML, βήμα‑βήμα πλήρης οδηγός προγραμματισμού.
+### [Φόρτωση εγγράφου HTML Java – Πλήρης οδηγός με ερωτήματα CSS & XPath](./load-html-document-java-complete-guide-with-css-xpath-querie/)
+Μάθετε πώς να φορτώνετε έγγραφα HTML σε Java και να εκτελείτε ερωτήματα CSS και XPath με το Aspose.HTML, βήμα‑βήμα οδηγίες.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

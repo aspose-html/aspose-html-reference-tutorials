@@ -176,6 +176,8 @@ Apprenez à créer et gérer des threads en Java avec Aspose.HTML, guide complet
 Apprenez à lire des fichiers HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
 ### [Obtenir le style calculé en Java – Guide complet de programmation](./get-computed-style-java-complete-programming-guide/)
 Apprenez à récupérer le style calculé d'un élément HTML en Java avec Aspose.HTML. Guide complet étape par étape.
+### [Charger un document HTML en Java – Guide complet avec CSS et requêtes XPath](./load-html-document-java-complete-guide-with-css-xpath-querie/)
+Apprenez à charger des documents HTML en Java, à appliquer du CSS et à interroger le contenu avec XPath grâce à ce guide complet.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -111,6 +111,7 @@ Aspose.HTML for Java 为开发人员提供了功能强大的工具包，旨在�
 本完整指南详细讲解如何在 Java 环境中使用 JavaScript 获取 JSON 数据，包括示例代码和最佳实践。
 ### [使用 Aspose.HTML 在 Java 中提取页面标题 – 完整指南](./extract-page-title-with-java-full-guide-using-aspose-html/)
 本完整指南教您使用 Aspose.HTML for Java 在 Java 中提取网页标题，提供示例代码和实用技巧。
+### [在 Java 中加载 HTML 文档 – 完整指南，包含 CSS 与 XPath 查询](./load-html-document-java-complete-guide-with-css-xpath-querie/)
 ### [在 Aspose.HTML for Java 中创建 HTML 沙盒 – 步骤指南](./create-sandbox-for-html-in-java-step-by-step-guide/)
 ### [在 Java 中统计 HTML 字符 – 使用 Aspose HTML 的完整指南](./count-html-characters-in-java-full-guide-with-aspose-html/)
 本完整指南教您如何使用 Aspose.HTML for Java 统计 HTML 文本字符数，涵盖示例代码和最佳实践。

@@ -116,6 +116,10 @@ weight: 24
 Μάθετε πώς να μετατρέπετε HTML σε PNG σε Java με το Aspose.HTML. Πλήρης οδηγός βήμα‑βήμα.
 ### [Δημιουργία PNG Υψηλής Ανάλυσης από HTML – Πλήρης Οδηγός Java](./create-high-resolution-png-from-html-complete-java-guide/)
 Μάθετε πώς να δημιουργείτε PNG υψηλής ανάλυσης από HTML σε Java με Aspose.HTML. Οδηγός βήμα‑βήμα για βέλτιστη ποιότητα.
+### [Οδηγός Html σε Εικόνα: Μετατροπή HTML σε PNG με Aspose](./html-to-image-tutorial-convert-html-to-png-using-aspose/)
+Μάθετε πώς να μετατρέπετε HTML σε PNG με το Aspose.HTML. Οδηγός βήμα‑βήμα για γρήγορη και ακριβή απόδοση.
+### [Αποθήκευση σελίδας HTML ως PNG με Java – Πλήρης Οδηγός](./save-html-page-as-png-with-java-complete-guide/)
+Μάθετε πώς να αποθηκεύσετε μια σελίδα HTML ως PNG χρησιμοποιώντας Java και Aspose.HTML – πλήρης οδηγός βήμα‑βήμα.
 ### [Μετατροπή HTML σε TIFF](./convert-html-to-tiff/)
 Μάθετε πώς να μετατρέπετε εύκολα HTML σε TIFF χρησιμοποιώντας το Aspose.HTML για Java. Οδηγός βήμα‑βήμα για αποτελεσματική διαχείριση εγγράφων.
 ### [Μετατροπή SVG σε GIF σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./svg-to-gif-conversion-in-java-complete-step-by-step-guide/)

@@ -325,6 +325,13 @@ Naučte se převádět HTML do DOCX v Javě pomocí Aspose.HTML. Vytvářejte ed
 Kompletní návod, jak v Javě převést HTML soubor do PDF s podrobným nastavením a ukázkovým kódem.
 ### [Převod HTML do PDF v Javě – Kompletní průvodce vysoké kvality](./convert-html-to-pdf-in-java-complete-high-quality-guide/)
 Kompletní průvodce převodem HTML do PDF v Javě s tipy pro vysokou kvalitu výstupu.
+### [Vytvoření PDF z HTML v Javě – Kompletní průvodce Aspose.HTML](./create-pdf-from-html-in-java-full-aspose-html-guide/)
+Naučte se kompletně převést HTML na PDF v Javě pomocí Aspose.HTML s podrobným nastavením a příklady.
+### [Převod webové stránky do PDF v Javě – Aspose HTML průvodce](./convert-webpage-to-pdf-in-java-aspose-html-guide/)
+Naučte se převést webovou stránku do PDF v Javě pomocí Aspose.HTML s podrobným krok‑za‑krokem návodem.
+### [Převod HTML do PDF s pevnou vláknovou skupinou v Javě](./convert-html-to-pdf-with-fixed-thread-pool-java/)
+Naučte se provádět konverzi HTML do PDF v Javě pomocí pevného thread poolu pro efektivní paralelní zpracování.
+### [Převod Markdown do PDF v Javě – Kompletní průvodce Aspose](./convert-markdown-to-pdf-in-java-complete-aspose-guide/)
 
 ## Často kladené otázky
 

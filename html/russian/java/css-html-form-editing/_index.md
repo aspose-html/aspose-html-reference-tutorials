@@ -129,6 +129,8 @@ url: /ru/java/css-html-form-editing/
 Узнайте, как получить вычисленные стили элементов и отлаживать сетки CSS Grid в Java с помощью Aspose.HTML.
 ### [Получить значение display элемента в Java – Руководство по песочнице Aspose HTML](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
 Узнайте, как получить значение свойства display у HTML‑элементов в Java с помощью песочницы Aspose.HTML.
+### [Как получить CSS из HTML‑элемента в Java – Полное руководство](./how-to-get-css-from-an-html-element-in-java-complete-guide/)
+Узнайте, как извлечь CSS‑стили из HTML‑элемента с помощью Aspose.HTML для Java в этом подробном руководстве.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -130,6 +130,8 @@ Naučte se získávat vypočtené styly HTML elementů v Javě pomocí Aspose.HT
 Naučte se, jak získat vypočtené CSS styly v Javě a ladit rozvržení CSS Grid pomocí Aspose.HTML.
 ### [Získání hodnoty display elementu v Javě – průvodce sandboxem Aspose HTML](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
 Naučte se, jak získat hodnotu CSS vlastnosti display pro HTML element v Javě pomocí sandboxu Aspose.HTML.
+### [Jak získat CSS z HTML elementu v Javě – kompletní průvodce](./how-to-get-css-from-an-html-element-in-java-complete-guide/)
+Kompletní průvodce získáním CSS stylů z HTML elementu v Javě pomocí Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

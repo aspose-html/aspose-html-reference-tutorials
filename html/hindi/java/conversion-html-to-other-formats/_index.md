@@ -166,6 +166,8 @@ Aspose.HTML for Java का उपयोग करके Java में Markdown
 
 ### [Markdown को PDF में बदलें (Java) – पूर्ण चरण‑दर‑चरण गाइड](./convert-markdown-to-pdf-in-java-full-step-by-step-guide/)
 Java में Aspose.HTML का उपयोग करके Markdown को PDF में बदलने की पूरी चरण‑दर‑चरण गाइड।
+### [Java में Markdown को PDF में बदलना – पूर्ण Aspose गाइड](./convert-markdown-to-pdf-in-java-complete-aspose-guide/)
+Aspose.HTML for Java का उपयोग करके Markdown को उच्च‑गुणवत्ता वाले PDF में बदलने की पूरी प्रक्रिया सीखें।
 
 ### [SVG को इमेज में बदलना](./convert-svg-to-image/)
 ### [SVG को PDF में बदलना](./convert-svg-to-pdf/)
@@ -377,6 +379,14 @@ Java में Aspose.HTML का उपयोग करके Markdown को P
 Aspose.HTML for Java के साथ HTML को PDF में उच्च‑गुणवत्ता रूप में बदलने का संपूर्ण गाइड।
 
 ### [Java में Markdown से PDF बनाना – पूर्ण गाइड](./create-pdf-from-markdown-in-java-complete-guide/)
+
+### [Java में HTML से PDF बनाना – पूर्ण Aspose.HTML गाइड](./create-pdf-from-html-in-java-full-aspose-html-guide/)
+
+### [Java में वेबपेज को PDF में बदलना – Aspose HTML गाइड](./convert-webpage-to-pdf-in-java-aspose-html-guide/)
+Aspose.HTML for Java का उपयोग करके वेबपेज को सीधे PDF में बदलने की चरण‑दर‑चरण प्रक्रिया सीखें।
+
+### [स्थिर थ्रेड पूल जावा के साथ HTML को PDF में बदलें](./convert-html-to-pdf-with-fixed-thread-pool-java/)
+स्थिर थ्रेड पूल का उपयोग करके कई HTML फ़ाइलों को समानांतर PDF में बदलने की प्रक्रिया सीखें।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

@@ -78,6 +78,8 @@ Hướng dẫn chi tiết cách xóa các thẻ script khỏi tài liệu HTML b
 Học cách tự động giải phóng khóa trong Java để chỉnh sửa HTML một cách an toàn khi đa luồng.
 ### [Cách trích xuất HTML trong Java – Trích xuất văn bản & Đánh dấu từ](./how-to-extract-html-in-java-extract-text-highlight-words/)
 Hướng dẫn cách sử dụng Aspose.HTML cho Java để trích xuất nội dung HTML, lấy văn bản và làm nổi bật các từ khóa.
+### [Tải mẫu HTML Java – Hướng dẫn đầy đủ Aspose.HTML](./load-html-template-java-complete-aspose-html-guide/)
+Hướng dẫn chi tiết cách tải và sử dụng mẫu HTML trong Java với Aspose.HTML.
 
 ### [Lấy Thuộc tính Phần tử Java – Hướng dẫn đầy đủ về Lựa chọn SVG và XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
 Hướng dẫn chi tiết cách lấy thuộc tính phần tử trong Java, sử dụng SVG selection và XPath để xử lý tài liệu HTML.

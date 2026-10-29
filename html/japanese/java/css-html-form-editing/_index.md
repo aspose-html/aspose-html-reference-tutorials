@@ -136,6 +136,8 @@ Aspose.HTML for Java を使用して、要素の計算済みスタイルを取�
 Aspose.HTML for Java を使用して、要素の計算済みスタイルを取得し、CSS Grid のレイアウト問題をデバッグする方法を学びます。
 ### [Javaで要素の表示値を取得 – Aspose HTML サンドボックスガイド](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
 Aspose.HTML for Java を使用して、要素の display プロパティ値を取得し、レイアウトのデバッグや表示制御に活用する方法を解説します。
+### [JavaでHTML要素からCSSを取得する – 完全ガイド](./how-to-get-css-from-an-html-element-in-java-complete-guide/)
+このチュートリアルでは、Java と Aspose.HTML を使用して、HTML 要素から CSS スタイルを抽出する手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

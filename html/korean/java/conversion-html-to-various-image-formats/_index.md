@@ -204,6 +204,8 @@ Aspose.HTML for Java를 사용해 HTML을 WebP 이미지로 변환하는 단계�
 Aspose.HTML for Java를 사용해 애니메이션 SVG를 WebP 이미지로 변환하는 방법을 단계별로 안내합니다.
 ### [Java에서 HTML을 이미지로 렌더링 – Aspose.HTML 완전 가이드](./render-html-to-image-in-java-complete-aspose-html-guide/)
 Aspose.HTML for Java를 활용해 HTML을 이미지로 변환하는 전체 과정을 단계별로 설명합니다.
+### [HTML을 이미지로 변환 튜토리얼: Aspose를 사용하여 HTML을 PNG로 변환](./html-to-image-tutorial-convert-html-to-png-using-aspose/)
+### [Java로 HTML 페이지를 PNG로 저장 – 완전 가이드](./save-html-page-as-png-with-java-complete-guide/)
 
 ## 자주 묻는 질문
 

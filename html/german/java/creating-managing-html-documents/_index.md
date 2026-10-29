@@ -178,6 +178,8 @@ Erfahren Sie, wie Sie JSON‑Daten mit JavaScript in Java abrufen und verarbeite
 Erfahren Sie, wie Sie HTML-Dateien in Java mit Aspose.HTML vollständig lesen und verarbeiten – Schritt‑für‑Schritt‑Anleitung.
 ### [Berechneten Stil in Java abrufen – Komplettes Programmierhandbuch](./get-computed-style-java-complete-programming-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML für Java den berechneten CSS‑Stil von HTML‑Elementen ermitteln – Schritt‑für‑Schritt‑Anleitung.
+### [HTML-Dokument in Java laden – Komplett‑Leitfaden mit CSS‑ und XPath‑Abfragen](./load-html-document-java-complete-guide-with-css-xpath-querie/)
+Lernen Sie, HTML‑Dokumente in Java zu laden und mit CSS‑Selektoren sowie XPath‑Abfragen zu durchsuchen – Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -41,7 +41,7 @@ Ha már megtanulta a HTML-dokumentumszerkesztés alapjait, ideje feljebb lépni!
 
 ## Inline és belső CSS hozzáadása
 
-Néha a stílusokat közvetlenül a HTML-dokumentumban kell alkalmazni. Itt jön képbe az inline és a belső CSS. Az inline és a belső CSS hozzáadásával kapcsolatos oktatóanyagok tökéletesek azok számára, akik gyors és egyszerű stílusmegoldásokat keresnek. Képzelje el ezt: olyan dokumentumon dolgozik, amely speciális stílust igényel, és azt szeretné alkalmazni anélkül, hogy ez más dokumentumokat érintene. Az Inline és a belső CSS lehetővé teszi ezt. Akár egy kis projekten, akár egy nagyszabású alkalmazáson dolgozik, ezek az útmutatók segítenek a munka hatékony elvégzésében.[Olvass tovább](./add-inline-css-html-documents/) és[Olvass tovább](./implement-internal-css-html-documents/)
+Néha a stílusokat közvetlenül a HTML-dokumentumban kell alkalmazni. Itt jön képbe az inline és a belső CSS. Az inline és a belső CSS hozzáadásával kapcsolatos oktatóanyagok tökéletesek azok számára, akik gyors és egyszerű stílusmegoldásokat keresnek. Képzelje el ezt: olyan dokumentumon dolgozik, amely speciális stílust igényel, és azt szeretné alkalmazni anélkül, hogy ez más dokumentumokat érintene. Az Inline és a belső CSS lehetővé teszi ezt. Akár egy kis projekten, akár egy nagyszabású alkalmazáson dolgozik, ezek a útmutatók segítenek a munka hatékony elvégzésében.[Olvass tovább](./add-inline-css-html-documents/) és[Olvass tovább](./implement-internal-css-html-documents/)
 
 ## HTML-dokumentumok szerkesztése az Aspose.HTML for Java oktatóanyagokban
 ### [Szerkessze a HTML-dokumentumfát az Aspose.HTML for Java-ban](./edit-html-document-tree/)
@@ -82,6 +82,8 @@ Ismerje meg, hogyan nyerhet ki HTML-t Java-ban, szöveget és kiemelheti a szava
 Fedezze fel, hogyan kérheti le az elem attribútumait Java-ban, SVG kiválasztással és XPath használatával.
 ### [JavaScript futtatása HTML-ben az Aspose.HTML for Java segítségével – Teljes útmutató](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
 Ismerje meg, hogyan futtathat JavaScript kódot HTML-dokumentumokban az Aspose.HTML for Java segítségével, lépésről lépésre útmutató.
+### [HTML sablon betöltése Java – Teljes Aspose.HTML útmutató](./load-html-template-java-complete-aspose-html-guide/)
+Ismerje meg, hogyan tölthet be HTML sablonokat Java-ban az Aspose.HTML segítségével, lépésről lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

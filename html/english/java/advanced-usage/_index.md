@@ -207,6 +207,8 @@ Learn how to run JavaScript code within Java using Aspose.HTML, covering setup, 
 Learn how to enable and run JavaScript within Java applications using Aspose.HTML, with setup, examples, and best practices.
 ### [Create sandbox for HTML in Java – Complete Step‑by‑Step Guide](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
 Learn how to set up a secure HTML sandbox in Java using Aspose.HTML, with step‑by‑step instructions.
+### [Execute JavaScript in Java Using Aspose.HTML – Complete Guide](./execute-javascript-in-java-using-aspose-html-complete-guide/)
+Learn how to execute JavaScript within Java using Aspose.HTML, covering setup, code examples, and best practices.
 
 ---
 

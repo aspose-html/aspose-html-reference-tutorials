@@ -93,6 +93,8 @@ Learn how to create an HTML document using Aspose.HTML in Java with this compreh
 ### [Get Computed Style Java – Complete Programming Guide](./get-computed-style-java-complete-programming-guide/)
 Learn how to retrieve computed CSS styles in Java using Aspose.HTML with this complete programming guide.
 
+### [Load HTML Document Java – Complete Guide with CSS & XPath Queries](./load-html-document-java-complete-guide-with-css-xpath-querie/)
+Comprehensive guide to loading HTML documents in Java with Aspose.HTML, covering CSS selectors and XPath queries for effective data extraction.
 ### [Create sandbox for HTML in Java – Step‑by‑Step Guide](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Learn how to set up a secure HTML sandbox in Java using Aspose.HTML with this detailed step-by-step guide.
 

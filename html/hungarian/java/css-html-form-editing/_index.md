@@ -128,6 +128,8 @@ Ismerje meg, hogyan érheti el és használhatja az elemek számított stílusá
 Tanulja meg, hogyan kérheti le a számított stílusokat Java-ban, és hibakeresse a CSS Grid elrendezéseket az Aspose.HTML használatával.
 ### [Elem megjelenítési érték lekérése Java-ban – Aspose HTML Sandbox útmutató](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
 Tanulja meg, hogyan kérheti le egy elem display értékét Java-ban az Aspose.HTML Sandbox segítségével.
+### [Hogyan nyerjen ki CSS-t egy HTML elemből Java-ban – Teljes útmutató](./how-to-get-css-from-an-html-element-in-java-complete-guide/)
+Ismerje meg, hogyan olvashatja ki egy HTML elem CSS-stílusait Java segítségével, részletes, gyakorlati útmutató.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

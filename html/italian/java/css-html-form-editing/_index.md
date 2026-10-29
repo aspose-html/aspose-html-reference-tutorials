@@ -130,6 +130,8 @@ Scopri come ottenere e utilizzare lo stile calcolato di un elemento HTML con Asp
 Scopri come ottenere lo stile calcolato di un elemento e diagnosticare layout CSS Grid usando Aspose.HTML per Java.
 ### [Ottieni il valore di visualizzazione dell'elemento in Java – Guida Sandbox Aspose HTML](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
 Scopri come ottenere il valore di visualizzazione di un elemento HTML in Java usando la sandbox di Aspose.HTML.
+### [Come ottenere CSS da un elemento HTML in Java – Guida completa](./how-to-get-css-from-an-html-element-in-java-complete-guide/)
+Scopri come estrarre le regole CSS da un elemento HTML usando Aspose.HTML per Java in questa guida completa passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

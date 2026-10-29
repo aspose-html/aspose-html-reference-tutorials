@@ -81,6 +81,8 @@ Naučte se, jak v Javě extrahovat text z HTML a zvýraznit vybraná slova pomoc
 Naučte se získávat atributy prvků SVG pomocí XPath v Aspose.HTML pro Java s podrobným návodem.
 ### [Spusťte JavaScript v HTML pomocí Aspose.HTML pro Javu – Kompletní průvodce](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
 Naučte se, jak spouštět JavaScript v HTML dokumentech pomocí Aspose.HTML pro Javu v tomto podrobném průvodci.
+### [Načtení HTML šablony v Javě – kompletní průvodce Aspose.HTML](./load-html-template-java-complete-aspose-html-guide/)
+Naučte se načíst HTML šablonu v Javě s Aspose.HTML a generovat dynamické dokumenty snadno a rychle.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

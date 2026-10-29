@@ -95,6 +95,8 @@ XPS هو صيغة الطباعة الخاصة بمايكروسوفت. باستخ
 تعلم كيفية إنشاء ملف PDF بحجم A4 في Java خطوة بخطوة باستخدام Aspose.HTML.
 ### [تحويل HTML إلى PDF باستخدام Java – دليل الدفعات المتوازية](./convert-html-to-pdf-with-java-parallel-batch-guide/)
 تعلم كيفية تحويل ملفات HTML إلى PDF في Java باستخدام معالجة دفعات متوازية لزيادة السرعة والكفاءة.
+### [إنشاء PDF من HTML في Java – دليل Aspose.HTML الكامل](./create-pdf-from-html-in-java-full-aspose-html-guide/)
+دليل شامل لإنشاء ملفات PDF من HTML في Java باستخدام Aspose.HTML مع شرح كامل للخيارات والإعدادات.
 ### [تحويل HTML إلى MHTML](./convert-html-to-mhtml/)
 حوّل HTML إلى MHTML بسهولة باستخدام Aspose.HTML for Java. اتبع دليلنا خطوة بخطوة لتحويل HTML إلى MHTML بكفاءة.
 ### [إنشاء ملف MHTML من HTML – دليل Java كامل](./create-mhtml-file-from-html-complete-java-guide/)
@@ -112,6 +114,7 @@ XPS هو صيغة الطباعة الخاصة بمايكروسوفت. باستخ
 تعلم كيفية تحويل ملفات Markdown إلى PDF في Java باستخدام Aspose.HTML خطوة بخطوة.
 ### [تحويل HTML إلى Markdown في Java – دليل برمجة كامل](./convert-html-to-markdown-in-java-complete-programming-guide/)
 دليل شامل يشرح كيفية تحويل HTML إلى Markdown في Java باستخدام Aspose.HTML خطوة بخطوة.
+### [تحويل Markdown إلى PDF في Java – دليل Aspose الكامل](./convert-markdown-to-pdf-in-java-complete-aspose-guide/)
 ### [تحويل SVG إلى صورة](./convert-svg-to-image/)
 ### [تحويل SVG إلى PDF](./convert-svg-to-pdf/)
 ### [تحويل SVG إلى XPS](./convert-svg-to-xps/)
@@ -281,6 +284,10 @@ XPS هو صيغة الطباعة الخاصة بمايكروسوفت. باستخ
 ### [تحويل HTML إلى PDF في Java – دليل عالي الجودة كامل](./convert-html-to-pdf-in-java-complete-high-quality-guide/)
 دليل شامل وعالي الجودة لتحويل HTML إلى PDF في Java باستخدام Aspose.HTML، يغطي جميع الإعدادات المتقدمة.
 ### [إنشاء PDF من Markdown في Java – دليل كامل](./create-pdf-from-markdown-in-java-complete-guide/)
+### [تحويل صفحة ويب إلى PDF في Java – دليل Aspose HTML](./convert-webpage-to-pdf-in-java-aspose-html-guide/)
+تعلم تحويل صفحة ويب إلى PDF في Java باستخدام Aspose.HTML بخطوات بسيطة وجودة عالية.
+### [تحويل HTML إلى PDF باستخدام مجموعة الخيوط الثابتة في Java](./convert-html-to-pdf-with-fixed-thread-pool-java/)
+تعلم كيفية تحويل HTML إلى PDF في Java باستخدام مجموعة خيوط ثابتة لتحسين الأداء وإدارة المهام المتعددة.
 
 ## الأسئلة المتكررة
 

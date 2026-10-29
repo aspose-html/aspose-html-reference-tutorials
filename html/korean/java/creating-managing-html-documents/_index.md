@@ -109,6 +109,8 @@ Aspose.HTML for Java를 사용해 HTML을 검색하고 활용하는 완전 프�
 Aspose.HTML for Java를 사용하여 HTML 문서에서 페이지 제목을 추출하는 방법을 단계별로 안내합니다.
 ### [Java에서 HTML 텍스트 추출 – 완전 프로그래밍 가이드](./extract-text-from-html-in-java-complete-programming-guide/)
 Aspose.HTML for Java를 사용하여 HTML에서 텍스트를 추출하는 방법을 단계별로 안내합니다. 완전 가이드로 모든 세부 정보를 확인하세요.
+### [Java에서 HTML 문서 로드 – CSS 및 XPath 쿼리 완전 가이드](./load-html-document-java-complete-guide-with-css-xpath-querie/)
+CSS 선택자와 XPath 쿼리를 활용해 Java에서 HTML 문서를 로드하고 탐색하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.HTML을 사용하여 새 HTML 문서 생성](./generate-new-html-documents/)
 이 간단한 단계별 가이드를 통해 Aspose.HTML for Java를 사용하여 새 HTML 문서를 만드는 방법을 알아보세요. 동적 HTML 콘텐츠 생성을 시작하세요.
 ### [Java용 Aspose.HTML에서 HTML 문서 만들기 – 단계별 가이드](./create-html-document-java-step-by-step-guide-with-aspose-htm/)

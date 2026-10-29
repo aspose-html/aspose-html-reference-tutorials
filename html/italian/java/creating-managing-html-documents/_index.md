@@ -174,6 +174,8 @@ Scopri come caricare dati JSON usando Fetch in Java con Aspose.HTML. Guida passo
 Impara a creare e gestire thread in Java con Aspose.HTML, passo dopo passo, includendo esempi pratici e consigli utili.
 ### [Estrai testo da HTML in Java – Guida completa di programmazione](./extract-text-from-html-in-java-complete-programming-guide/)
 Scopri come estrarre testo da documenti HTML in Java usando Aspose.HTML con una guida passo‑passo completa.
+### [Carica documento HTML Java – Guida completa con query CSS e XPath](./load-html-document-java-complete-guide-with-css-xpath-querie/)
+Scopri come caricare documenti HTML in Java usando Aspose.HTML, con esempi di query CSS e XPath per estrarre dati in modo efficace.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

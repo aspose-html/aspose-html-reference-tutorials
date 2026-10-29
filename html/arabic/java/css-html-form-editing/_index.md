@@ -115,6 +115,7 @@ url: /ar/java/css-html-form-editing/
 اكتشف كيفية الحصول على الأنماط المحسوبة للعناصر في Java باستخدام Aspose.HTML وتطبيقها في تطبيقاتك.
 ### [الحصول على النمط المحسوب في Java – تصحيح شبكة CSS باستخدام Aspose.HTML](./get-computed-style-in-java-debug-css-grid-with-aspose-html/)
 ### [الحصول على قيمة عرض العنصر في Java – دليل Aspose HTML Sandbox](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
+### [كيفية الحصول على CSS من عنصر HTML في Java – دليل شامل](./how-to-get-css-from-an-html-element-in-java-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

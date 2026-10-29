@@ -128,6 +128,8 @@ Leer hoe u met Aspose.HTML voor Java de berekende stijl van een element kunt oph
 Leer hoe u met Aspose.HTML voor Java de berekende CSS‑stijlen van elementen kunt ophalen om CSS‑grid lay-outs te debuggen.
 ### [Elementweergavewaarde ophalen in Java – Aspose HTML Sandbox‑gids](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
 Leer hoe u met Aspose.HTML voor Java de weergave‑waarde van een element kunt ophalen in de sandbox‑omgeving.
+### [Hoe CSS van een HTML-element in Java op te halen – Complete gids](./how-to-get-css-from-an-html-element-in-java-complete-guide/)
+Leer hoe u met Aspose.HTML voor Java de CSS‑stijlen van een HTML‑element kunt ophalen in deze complete gids.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

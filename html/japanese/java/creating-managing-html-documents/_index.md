@@ -159,6 +159,8 @@ Aspose.HTML for Java を使って HTML ファイルを読み込む方法をス�
 Java で計算済みスタイルを取得する方法をステップバイステップで解説します。実践的な例とヒントが含まれています。
 ### [Aspose.HTML で HTML ドキュメントを作成する – 完全 Java ガイド](./create-html-document-with-aspose-html-complete-java-guide/)
 Aspose.HTML for Java を使い、HTML ドキュメントを最初から作成する手順を詳細に解説した完全ガイドです。
+### [Java で HTML ドキュメントを読み込む – CSS と XPath クエリの完全ガイド](./load-html-document-java-complete-guide-with-css-xpath-querie/)
+CSS と XPath を活用して、Java で HTML ドキュメントを読み込み、クエリする方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

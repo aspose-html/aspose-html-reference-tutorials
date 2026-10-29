@@ -214,6 +214,9 @@ A: 不需要。單一的 Aspose.HTML for Java 授權即涵蓋所有輸出格式�
 ### [在 Java 中建立 HTML 沙盒 – 完整步驟指南](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
 說明如何在 Java 環境中使用 Aspose.HTML 建立安全的 HTML 沙盒，完整步驟指引。
 
+### [在 Java 中使用 Aspose.HTML 執行 JavaScript – 完整指南](./execute-javascript-in-java-using-aspose-html-complete-guide/)
+學習如何透過 Aspose.HTML for Java 在 Java 環境中執行 JavaScript 程式碼，涵蓋設定與範例。
+
 ---
 
 **最後更新日期：** 2025-11-29  

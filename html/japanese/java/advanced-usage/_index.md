@@ -184,6 +184,8 @@ Aspose.HTML for Java を使用して、Java アプリケーション内で JavaS
 ### [Aspose で JavaScript 実行を有効にする – 完全 Java ガイド](./enable-javascript-execution-aspose-complete-java-guide/)
 ### [Java で HTML のサンドボックスを作成 – 完全ステップバイステップガイド](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
 Aspose.HTML for Java を使用して、HTML のサンドボックス環境を構築し、コードの安全な実行とテスト方法を学びます。
+### [Execute JavaScript in Java Using Aspose.HTML – Complete Guide](./execute-javascript-in-java-using-aspose-html-complete-guide/)
+Aspose.HTML for Java を使用して、Java アプリケーション内で JavaScript を実行し、動的コンテンツやロジックを統合する方法を学びます。
 
 ---
 

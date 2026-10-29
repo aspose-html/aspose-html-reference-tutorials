@@ -65,6 +65,8 @@ url: /ar/java/editing-html-documents/
 تعلم استخراج محتوى HTML، استخراج النص وتظليل الكلمات باستخدام Aspose.HTML for Java في دليل خطوة بخطوة.
 ### [تشغيل JavaScript في HTML باستخدام Aspose.HTML للـ Java – دليل كامل](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
 تعلم كيفية تنفيذ JavaScript داخل مستندات HTML باستخدام Aspose.HTML للـ Java خطوة بخطوة.
+### [تحميل قالب HTML في Java – دليل Aspose.HTML الكامل](./load-html-template-java-complete-aspose-html-guide/)
+تعلم كيفية تحميل قالب HTML في Java باستخدام Aspose.HTML خطوة بخطوة لإنشاء مستندات ديناميكية.
 ### [مجموعة مؤشرات ثابتة Java – تنظيف HTML متوازي باستخدام ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 ### [إضافة عنصر فرعي إلى الجسم في Java – دليل Aspose.HTML الكامل](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 ### [كيفية إلحاق عنصر فرعي في DOM Java – دليل Aspose.HTML الكامل](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)

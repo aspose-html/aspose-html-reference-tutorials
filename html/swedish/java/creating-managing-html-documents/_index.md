@@ -103,6 +103,8 @@ Lär dig hur du extraherar text från HTML i Java med Aspose.HTML i denna komple
 Lär dig hur du laddar HTML från en URL i Java med stöd för CSS‑ och XPath‑frågor. Fullständig steg‑för‑steg‑guide.
 ### [Hämta beräknad stil i Java – Komplett programmeringsguide](./get-computed-style-java-complete-programming-guide/)
 Lär dig hur du hämtar beräknad CSS‑stil för HTML‑element i Java med Aspose.HTML. Steg‑för‑steg‑guide med exempel och tips.
+### [Ladda HTML-dokument i Java – Komplett guide med CSS‑ och XPath‑frågor](./load-html-document-java-complete-guide-with-css-xpath-querie/)
+Lär dig hur du laddar HTML-dokument i Java och använder CSS‑ och XPath‑frågor för att extrahera data. Steg‑för‑steg‑guide.
 ### [Generera nya HTML-dokument med Aspose.HTML för Java](./generate-new-html-documents/)
 Lär dig hur du skapar nya HTML-dokument med Aspose.HTML för Java med denna enkla steg-för-steg-guide. Börja generera dynamiskt HTML-innehåll.
 

@@ -164,6 +164,8 @@ Aspose.HTML を使用して Java で HTML を Markdown に変換し、保存す�
 Aspose.HTML を使用して Java で HTML を Markdown に変換する方法を学びます。完全なプログラミングガイドです。
 ### [JavaでMarkdownからPDFを作成 – 完全ガイド](./create-pdf-from-markdown-in-java-complete-guide/)
 Aspose.HTML を使用して Java で Markdown を PDF に変換する方法をステップバイステップで解説します。
+### [JavaでMarkdownをPDFに変換 – 完全な Aspose ガイド](./convert-markdown-to-pdf-in-java-complete-aspose-guide/)
+Aspose.HTML for Java を使用して Markdown を PDF に変換する完全ガイドです。シンプルな手順で高品質な PDF を生成できます。
 ### [Converting SVG to Image](./convert-svg-to-image/)
 Aspose.HTML を使用して Java で SVG を画像に変換する方法を学びます。高品質出力のための包括的ガイドです。
 
@@ -328,6 +330,12 @@ Aspose.HTML を使用して、Java で HTML を PDF に変換する手順を詳�
 ### [JavaでMarkdownからPDFを作成する – 完全ステップバイステップガイド](./create-pdf-from-markdown-in-java-full-step-by-step-guide/)
 Aspose.HTML を使用して Java で Markdown を PDF に変換する方法を学びます。詳細な手順で高品質な PDF を作成できます。
 ### [HTML ファイルを Java で PDF に変換する方法 – 完全ガイド](./how-to-convert-html-file-to-pdf-in-java-full-guide/)
+### [固定スレッドプールで HTML を PDF に変換する Java](./convert-html-to-pdf-with-fixed-thread-pool-java/)
+固定スレッドプールを活用し、マルチスレッド環境で効率的に HTML を PDF に変換する方法を解説します。
+### [JavaでHTMLからPDFを作成 – 完全な Aspose.HTML ガイド](./create-pdf-from-html-in-java-full-aspose-html-guide/)
+JavaでHTMLからPDFを作成する完全ガイドです。Aspose.HTML の全機能と高度な設定方法を詳しく解説します。
+### [JavaでウェブページをPDFに変換 – Aspose HTML ガイド](./convert-webpage-to-pdf-in-java-aspose-html-guide/)
+Aspose.HTML を使って Java でウェブページ全体を PDF に変換する手順を解説します。簡単に高品質な PDF を生成できます。
 
 ## よくある質問
 

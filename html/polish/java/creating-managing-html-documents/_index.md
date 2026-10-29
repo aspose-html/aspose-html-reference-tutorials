@@ -175,6 +175,8 @@ Dowiedz się, jak wyodrębnić tytuł strony HTML w Javie przy użyciu Aspose.HT
 Dowiedz się, jak uruchomić wątek w Javie, krok po kroku, z praktycznymi przykładami i najlepszymi praktykami.
 ### [Pobierz styl obliczony w Javie – Kompletny przewodnik programistyczny](./get-computed-style-java-complete-programming-guide/)
 Dowiedz się, jak uzyskać obliczony styl elementu HTML w Javie przy użyciu Aspose.HTML. Przewodnik krok po kroku.
+### [Ładowanie dokumentu HTML w Javie – Kompletny przewodnik z zapytaniami CSS i XPath](./load-html-document-java-complete-guide-with-css-xpath-querie/)
+Kompletny przewodnik, jak ładować dokumenty HTML w Javie oraz wykonywać zapytania CSS i XPath w Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

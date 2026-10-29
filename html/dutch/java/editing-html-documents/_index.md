@@ -73,6 +73,8 @@ Leer hoe u specifieke tekst in een HTML-document kunt zoeken en markeren met de 
 Leer hoe u HTML kunt extraheren, tekst kunt ophalen en specifieke woorden kunt markeren met Aspose.HTML voor Java.
 ### [JavaScript uitvoeren in HTML met Aspose.HTML voor Java – volledige gids](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
 Leer hoe u JavaScript in HTML-documenten kunt uitvoeren met Aspose.HTML voor Java via een stapsgewijze volledige handleiding.
+### [HTML-sjabloon laden in Java – Complete Aspose.HTML-gids](./load-html-template-java-complete-aspose-html-guide/)
+Leer hoe u een HTML-sjabloon laadt met Aspose.HTML voor Java. Een volledige stap‑voor‑stap gids.
 ### [Fixed thread pool Java – Parallelle HTML-reiniging met ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 ### [Kind toevoegen aan body in Java – volledige Aspose.HTML-tutorial](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 Leer hoe u een kind-element aan de body van een HTML-document toevoegt met Aspose.HTML voor Java.

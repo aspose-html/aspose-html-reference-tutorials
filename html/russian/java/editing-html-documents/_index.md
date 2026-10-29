@@ -80,6 +80,8 @@ url: /ru/java/editing-html-documents/
 Узнайте, как получать атрибуты элементов SVG с помощью XPath в Aspose.HTML для Java.
 ### [Запуск JavaScript в HTML с Aspose.HTML для Java – Полное руководство](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
 Узнайте, как выполнять JavaScript в HTML-документах с помощью Aspose.HTML для Java. Пошаговое полное руководство.
+### [Загрузка шаблона HTML в Java – Полное руководство Aspose.HTML](./load-html-template-java-complete-aspose-html-guide/)
+Узнайте, как загрузить шаблон HTML в Java с помощью Aspose.HTML. Полное пошаговое руководство.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

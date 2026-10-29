@@ -187,6 +187,8 @@ Aspose.HTML for Java kullanarak Java içinde JavaScript kodu çalıştırmayı v
 Aspose.HTML for Java kullanarak Java içinde JavaScript kodunu çalıştırmayı ve tam kontrol sağlamayı öğrenin.
 ### [Java’da HTML için sandbox oluşturma – Tam Adım‑Adım Kılavuz](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
 Aspose.HTML for Java kullanarak HTML sandbox'ı oluşturmayı, izole ortamda çalıştırmayı ve güvenli test senaryoları geliştirmeyi öğrenin.
+### [Java’da JavaScript Çalıştırma – Tam Kılavuz](./execute-javascript-in-java-using-aspose-html-complete-guide/)
+Aspose.HTML for Java kullanarak Java içinde JavaScript kodu çalıştırmayı ve tam entegrasyonu öğrenin.
 
 ---
 
