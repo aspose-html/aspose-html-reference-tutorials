@@ -11,9 +11,7 @@ url: /pt/java/message-handling-networking/network-timeout/
 weight: 12
 ---
 
- block placeholders unchanged.
 
-Let's produce.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

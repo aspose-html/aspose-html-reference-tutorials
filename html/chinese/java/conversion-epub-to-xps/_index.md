@@ -8,9 +8,7 @@ url: /zh/java/conversion-epub-to-xps/
 weight: 23
 ---
 
- with shortcodes unchanged.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

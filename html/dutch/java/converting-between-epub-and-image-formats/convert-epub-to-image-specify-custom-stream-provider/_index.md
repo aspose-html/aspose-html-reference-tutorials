@@ -10,11 +10,9 @@ url: /nl/java/converting-between-epub-and-image-formats/convert-epub-to-image-sp
 weight: 15
 ---
 
- Questions" -> "## Veelgestelde vragen"
 
-Make sure bullet list formatting stays.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

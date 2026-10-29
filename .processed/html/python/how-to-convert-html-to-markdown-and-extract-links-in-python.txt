@@ -1,0 +1,7 @@
+Title: How to convert HTML to Markdown and extract links in Python
+Slug: how-to-convert-html-to-markdown-and-extract-links-in-python
+Category: general
+ProcessedDate: 2026-10-28T15:55:18.339447
+SourceRepo: AI Search API
+Keywords: convert html to markdown, extract links from html, how to convert html document
+PRNumber: 318

@@ -9,13 +9,10 @@ url: /tr/java/conversion-epub-to-image-and-pdf/convert-epub-to-pdf/
 weight: 11
 ---
 
-quote >. Keep translation inside.
 
-Also the "## Quick Answers" etc.
 
-Make sure not to translate URLs.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

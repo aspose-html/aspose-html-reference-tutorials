@@ -58,8 +58,30 @@ Erfahren Sie, wie Sie mit Aspose.HTML für Java Inline-CSS zu HTML-Dokumenten hi
 Erfahren Sie mit dieser Schritt-für-Schritt-Anleitung, wie Sie innere und äußere HTML-Eigenschaften in Aspose.HTML für Java verwalten – ideal für Webentwickler und Inhaltsersteller.
 ### [Implementieren Sie internes CSS in HTML-Dokumenten mit Aspose.HTML für Java](./implement-internal-css-html-documents/)
 Lernen Sie mit unserem einfachen Schritt-für-Schritt-Tutorial, mit Aspose.HTML für Java internes CSS in HTML-Dokumenten zu implementieren.
+### [Automatisches Freigeben von Sperren in Java – Thread‑sicheres HTML‑Bearbeitungstutorial](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java Sperren automatisch freigeben und gleichzeitig thread‑sichere HTML‑Bearbeitung gewährleisten.
 ### [Fixed Thread Pool Java – Parallel HTML-Bereinigung mit ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Erfahren Sie, wie Sie mit einem Fixed Thread Pool und ExecutorService HTML-Dokumente parallel bereinigen und die Leistung steigern.
+### [Wie man ein Kind-Element im Java DOM anhängt – Vollständige Aspose.HTML-Anleitung](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java ein Kind-Element zum DOM hinzufügen – Schritt-für-Schritt-Anleitung.
+
+### [Kind-Element an den Body anhängen in Java – Vollständiges Aspose.HTML-Tutorial](./append-child-to-body-in-java-full-aspose-html-tutorial/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java ein Kind-Element zum Body hinzufügen und das Dokument weiter verarbeiten.
+### [Ändern Sie den h1-Text in MHTML mit Java – Vollständige Schritt‑für‑Schritt‑Anleitung](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
+Erfahren Sie, wie Sie den h1-Text in MHTML-Dateien mit Aspose.HTML für Java ändern – detaillierte Schritt‑für‑Schritt‑Anleitung.
+### [Neues HTML-Element mit Java erstellen – Vollständige Aspose.HTML-Anleitung](./create-new-html-element-with-java-full-aspose-html-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java ein neues HTML-Element erstellen – Schritt-für-Schritt-Anleitung.
+### [Entfernen Sie Skripte aus HTML in Java – Komplettanleitung](./how-to-remove-scripts-from-html-in-java-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java alle Skripte aus HTML-Dateien entfernen – Schritt-für-Schritt-Anleitung.
+### [Wie man HTML hervorhebt – Text suchen & mit <mark> ersetzen](./how-to-highlight-html-search-text-replace-with-mark/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java Text in HTML markieren, indem Sie das <mark>-Tag verwenden – Schritt-für-Schritt-Anleitung.
+### [HTML in Java extrahieren – Text extrahieren und Wörter hervorheben](./how-to-extract-html-in-java-extract-text-highlight-words/)
+Entdecken Sie, wie Sie mit Aspose.HTML für Java HTML extrahieren, Text auslesen und bestimmte Wörter hervorheben – Schritt für Schritt.
+
+### [Abrufen von Elementattributen in Java – Komplettanleitung zur SVG-Auswahl und XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java Elementattribute aus SVGs auswählen und per XPath abfragen – Schritt für Schritt.
+### [JavaScript in HTML mit Aspose.HTML für Java ausführen – Vollständige Anleitung](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
+Erfahren Sie, wie Sie JavaScript in HTML-Dokumenten mit Aspose.HTML für Java ausführen – Schritt-für-Schritt-Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

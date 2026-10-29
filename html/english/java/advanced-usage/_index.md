@@ -1,8 +1,8 @@
 ---
-title: Add page numbers with Aspose.HTML Java – Advanced Usage
+title: Learn how to add page numbers – Advanced Usage
 linktitle: Advanced Usage of Aspose.HTML Java
 second_title: Java HTML Processing with Aspose.HTML
-description: Learn how to add page numbers, set margins, adjust PDF page size, generate PDF from HTML, monitor DOM changes, and convert HTML to XPS using Aspose.HTML for Java.
+description: Explore how to add page numbers, set margins, adjust PDF page size, generate PDFs from HTML, monitor DOM changes, and convert HTML to XPS.
 weight: 20
 url: /java/advanced-usage/
 date: 2025-11-29
@@ -41,22 +41,44 @@ Adding page numbers means inserting a running footer (or header) that automatica
 ### Step 1: Load your HTML document
 First, load the source HTML file using `HtmlDocument`. This gives you full DOM access.
 
-> *No code block is added here to preserve the original code‑block count.*
+```java
+// Load the HTML document
+String htmlPath = "input.html";
+HtmlDocument document = new HtmlDocument(htmlPath);
+```
 
 ### Step 2: Define page margins
-Use the `PageSetup` object to specify top, bottom, left, and right margins. This is where the **how to set margins** phrase naturally appears.
+Use the `PageSetup` object to specify top, bottom, left, and right margins.
 
-> *Explanation only – code unchanged.*
+```java
+// Set up page margins (in points)
+PageSetup pageSetup = document.getPageSetup();
+pageSetup.setMarginTop(Length.fromInches(1));
+pageSetup.setMarginBottom(Length.fromInches(1));
+pageSetup.setMarginLeft(Length.fromInches(0.75));
+pageSetup.setMarginRight(Length.fromInches(0.75));
+```
 
 ### Step 3: Insert a footer with a page‑number placeholder
 Create a footer element that contains the `{page-number}` token. Aspose.HTML replaces this token with the actual page number during PDF/XPS generation.
 
-> *Explanation only – code unchanged.*
+```java
+// Create a footer element with the page-number placeholder
+Element footer = document.createElement("div");
+footer.setInnerHtml("Page {page-number} of {page-count}");
+footer.getStyle().setProperty("text-align", "center");
+pageSetup.setFooter(footer);
+```
 
 ### Step 4: Save as PDF (or XPS) with custom page size
 When you call `save`, pass a `PdfSaveOptions` (or `XpsSaveOptions`) instance. Here you can also **adjust PDF page size** or **convert HTML to XPS** by setting the `PageSize` property.
 
-> *Explanation only – code unchanged.*
+```java
+// Save as PDF with custom page size
+PdfSaveOptions pdfOptions = new PdfSaveOptions();
+pdfOptions.setPageSize(PageSize.A4);
+document.save("output.pdf", pdfOptions);
+```
 
 ## Observing DOM changes – “monitor dom changes”
 
@@ -64,13 +86,13 @@ Aspose.HTML lets you attach a `DomMutationObserver` to any node. This is perfect
 
 > *Explanation only – code unchanged.*
 
-## Manipulating HTML5 Canvas
+## Manipulating HTML5 canvas
 
 Whether you’re building games, dashboards, or data visualizations, the HTML5 Canvas API is a powerful tool. With Aspose.HTML you can render canvas content server‑side and then export it directly to PDF. This eliminates the need for client‑side screenshots and ensures pixel‑perfect output.
 
 > *Explanation only – code unchanged.*
 
-## Automating HTML Form Filling
+## Automating HTML form filling
 
 Filling out repetitive web forms can be tedious. Aspose.HTML provides a `Form` API that lets you programmatically set input values, select options, and submit the form—all from Java. This automation is especially useful for bulk data entry or testing.
 
@@ -82,7 +104,7 @@ When converting HTML to PDF or XPS, you often need to control the final page dim
 
 > *Explanation only – code unchanged.*
 
-## Common Use Cases
+## Common use cases
 
 | Use Case | Why It Matters |
 |---|---|
@@ -92,7 +114,7 @@ When converting HTML to PDF or XPS, you often need to control the final page dim
 | **Server‑side chart rendering** | Generate PDFs of canvas charts without client interaction. |
 | **Legal document archiving** | Consistent page size when converting to PDF/XPS. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I add page numbers to a document that already has a custom header?**  
 A: Yes. Aspose.HTML lets you define separate header and footer sections, so you can keep your existing header while adding page numbers in the footer.
@@ -110,28 +132,126 @@ A: Use `HtmlLoadOptions` with `PageSetup` margins and enable `EnableCssLayout` t
 A: No. A single Aspose.HTML for Java license covers all output formats, including PDF and XPS.
 
 ## Advanced Usage of Aspose.HTML Java Tutorials
+
+
 ### [Customize HTML Page Margins with Aspose.HTML](./css-extensions-adding-title-page-number/)
 Learn how to customize page margins, add page numbers, and titles to HTML documents using Aspose.HTML for Java.
+
 ### [DOM Mutation Observer with Aspose.HTML for Java](./dom-mutation-observer-observing-node-additions/)
 Learn how to use Aspose.HTML for Java to implement a DOM Mutation Observer in this step-by-step guide. Monitor and react to DOM changes effectively.
+### [How to Use Aspose HTML in Java – Full XPath Filtering Guide](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
+Learn how to apply full XPath filtering with Aspose.HTML for Java to select and manipulate HTML nodes efficiently.
 ### [HTML5 Canvas Manipulation with Aspose.HTML for Java](./html5-canvas-manipulation-using-code/)
 Learn HTML5 Canvas manipulation using Aspose.HTML for Java. Create interactive graphics with step-by-step guidance.
+
 ### [HTML5 Canvas Manipulation with Aspose.HTML for Java](./html5-canvas-manipulation-using-javascript/)
 Learn how to manipulate HTML5 Canvas with JavaScript using Aspose.HTML for Java. Create dynamic graphics and convert to PDF.
+
 ### [Automate HTML Form Filling with Aspose.HTML for Java](./html-form-editor-filling-submitting-forms/)
 Learn how to automate HTML form filling and submission with Aspose.HTML for Java. Simplify web interaction with this tutorial.
+
 ### [Adjust PDF Page Size with Aspose.HTML for Java](./adjust-pdf-page-size/)
 Learn how to adjust PDF page size with Aspose.HTML for Java. Create high-quality PDFs from HTML effortlessly. Control page dimensions effectively.
+
 ### [Adjust XPS Page Size with Aspose.HTML for Java](./adjust-xps-page-size/)
 Learn how to adjust XPS page size with Aspose.HTML for Java. Control the output dimensions of your XPS documents easily.
+### [Extract HTML from MHTML – Complete Java Guide](./extract-html-from-mhtml-complete-java-guide/)
+Learn how to extract HTML content from MHTML files with Aspose.HTML for Java, handling embedded resources and preserving layout.
+### [How to Use Aspose to Convert EPUB to DOCX – Step‑by‑Step Guide](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
+Learn how to convert EPUB files to DOCX using Aspose with clear steps and code samples.
+### [How to Load HTML in Java – Complete Aspose.HTML Async Example](./how-to-load-html-in-java-complete-aspose-html-async-example/)
+Learn how to asynchronously load HTML in Java using Aspose.HTML, covering setup, code examples, and best practices.
+
+### [How to Set DPI When Converting SVG to PNG with Aspose – Java Guide](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
+Learn how to set DPI for SVG‑to‑PNG conversion using Aspose.HTML for Java, achieving high‑resolution raster images.
 ### [How to Run JavaScript in Java – Complete Guide](./how-to-run-javascript-in-java-complete-guide/)
 Learn how to execute JavaScript code within Java applications using Aspose.HTML, covering setup, examples, and best practices.
+### [set device pixel ratio in Java – Mobile Sandbox Tutorial](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
+Learn how to set the device pixel ratio in Java using Aspose.HTML's mobile sandbox for accurate rendering on high‑DPI devices.
+### [How to Run Scripts in Java – Complete Guide to Execute JavaScript & Extract Data](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
+Learn how to execute JavaScript in Java, run scripts, and extract data using Aspose.HTML for Java.
+### [Call Java from JavaScript – Complete Guide to Async Fetch & JS Engine Execution](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
+Learn how to invoke Java methods from JavaScript, handle async fetch calls, and execute code using Aspose.HTML's JavaScript engine.
+### [Call Java from JavaScript – Add Host Object and Run JavaScript in Java](./call-java-from-javascript-add-host-object-and-run-javascript/)
+Learn how to expose Java objects to JavaScript and execute JavaScript code from Java using Aspose.HTML for Java.
+### [Get HTML Title Java – Render Page in Sandbox with Screen Width](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
+Learn how to retrieve the HTML title in Java, render a page in a sandbox with a specific screen width using Aspose.HTML.
+### [Execute JavaScript in Java – Run JS from HTML](./execute-javascript-in-java-run-js-from-html/)
+Learn how to execute JavaScript embedded in HTML from Java using Aspose.HTML, covering setup, code examples, and best practices.
+### [Evaluate JavaScript in Java – Complete Guide with Aspose.HTML](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
+Learn how to evaluate JavaScript code within Java using Aspose.HTML, covering setup, execution, and best practices.
+### [set device pixel ratio in Java – Mobile simulation guide](./set-device-pixel-ratio-in-java-mobile-simulation-guide/)
+Learn how to set the device pixel ratio in Java to simulate mobile devices with Aspose.HTML.
+### [How to Enable JavaScript in Java HTMLDocument – Step‑by‑Step Guide](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
+Learn how to enable and run JavaScript within a Java HtmlDocument using Aspose.HTML, with step‑by‑step instructions.
+### [java multithreading tutorial: Run Tasks Parallel with Fixed Thread Pool](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
+Learn how to execute tasks concurrently using a fixed thread pool in Java, with code examples and best practices.
+### [Execute JavaScript in Java – Complete Guide to Appending Elements to the Body](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
+Learn how to run JavaScript from Java using Aspose.HTML to dynamically append elements to the document body.
+### [Run JavaScript from Java – Set Custom User-Agent with Aspose.HTML](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
+Learn how to set a custom User-Agent while executing JavaScript from Java with Aspose.HTML, enabling tailored web requests.
+### [How to Use Executor in Java – Fixed Thread Pool Guide](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
+Learn how to use Java's Executor with a fixed thread pool to manage concurrent tasks efficiently using Aspose.HTML.
+### [Convert EPUB to DOCX in Java – Full Step‑by‑Step Guide](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
+Learn how to convert EPUB files to DOCX using Aspose.HTML for Java. Follow a complete step‑by‑step guide.
+### [Convert SVG to AVIF with Java – Complete Step‑by‑Step Guide](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
+Learn how to convert SVG images to AVIF format using Aspose.HTML for Java in this comprehensive step‑by‑step tutorial.
+### [set device dpi aspose in Java – Complete Sandbox Guide](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
+Learn how to set device DPI in Aspose.HTML for Java using the sandbox, ensuring correct rendering and PDF generation.
+
+### [XPath with Namespaces in Java – Complete Guide to Selecting SVG Elements](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
+Learn how to use XPath with namespaces in Java to accurately select SVG elements using Aspose.HTML.
 
 ---
 
 **Last Updated:** 2025-11-29  
 **Tested With:** Aspose.HTML for Java 24.11  
 **Author:** Aspose  
+
+
+
+
+
+
+
+### [Execute JavaScript in Java – Complete Guide to Running JS from Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+Learn how to run JavaScript from Java using Aspose.HTML, covering script evaluation, engine setup, and practical integration examples.
+
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.HTML for Java 24.11  
+**Author:** Aspose  
+
+
+
+
+
+
+
+### [How to Use Sandbox for HTML to PDF Java – Step‑by‑Step Guide](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+Step‑by‑step guide on using the Aspose.HTML sandbox to convert HTML to PDF in Java, covering setup, execution, and best practices.
+### [Enable Script Execution in Java – Complete Aspose.HTML Guide](./enable-script-execution-in-java-complete-aspose-html-guide/)
+Learn how to enable JavaScript execution in Java using Aspose.HTML, covering setup, security, and practical examples.
+### [How to Enable JavaScript in Aspose HTML – Load HTML & Get Text](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+Learn how to enable JavaScript when loading HTML with Aspose.HTML for Java and extract text from the page.
+### [How to Run JavaScript Asynchronously Using CompletableFuture](./how-to-run-javascript-asynchronously-using-completablefuture/)
+Learn how to execute JavaScript asynchronously in Java using CompletableFuture with Aspose.HTML.
+### [How to Load HTML, Set Device DPI & Read Background Color](./how-to-load-html-set-device-dpi-read-background-color/)
+Learn how to load HTML, configure device DPI, and retrieve the background color using Aspose.HTML for Java.
+### [How to Sandbox JavaScript – Complete Aspose.HTML Guide](./how-to-sandbox-javascript-complete-aspose-html-guide/)
+Learn how to safely sandbox JavaScript execution using Aspose.HTML for Java, preventing unsafe code from affecting your application.
+### [How to Enable JavaScript in Java – Complete Aspose.HTML Guide](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
+Learn how to enable JavaScript execution within Java applications using Aspose.HTML, covering setup, examples, and best practices.
+
+### [execute javascript in java using Aspose.HTML](./execute-javascript-in-java-using-aspose-html/)
+Learn how to execute JavaScript in Java using Aspose.HTML, covering setup, examples, and best practices.
+
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.HTML for Java 24.11  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

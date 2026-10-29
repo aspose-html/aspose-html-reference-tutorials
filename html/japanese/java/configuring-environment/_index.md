@@ -115,8 +115,26 @@ Learn how to configure the Runtime Service in Aspose.HTML for Java to optimize s
 ### [Aspose.HTML for Java でサンドボックスを実装する](./implement-sandboxing/)
 Learn how to implement sandboxing in Aspose.HTML for Java to securely control script execution in your HTML documents and convert them to PDF.
 
+### [Java でサンドボックスを作成する方法 – 完全ガイド](./how-to-create-sandbox-in-java-full-guide/)
+Java でサンドボックスを作成する方法を完全ガイドで学び、HTML の安全な処理と変換を実現します。
+### [Java で HTML からタイトルを抽出する – 完全サンドボックスガイド](./extract-title-from-html-in-java-complete-sandbox-guide/)
+Aspose.HTML のサンドボックス機能を使用して、Java で HTML のタイトルタグを安全に抽出する方法を学びます。
+
 ### [Aspose.HTML for Java でユーザースタイルシートを設定する](./set-user-style-sheet/)
-Learn how to set a custom user stylesheet in Aspose.HTML for Java, enhancing your document styling and converting HTML to PDF with ease.
+Learn how to set a custom user stylesheet in Aspose.HTML for Java, enhancing your document styling and converting HTML to PDF with ease。
+
+### [Aspose HTML サンドボックスの作成 – 完全な Java ガイド](./create-aspose-html-sandbox-complete-java-guide/)
+Aspose.HTML のサンドボックスを Java で構築し、セキュアに HTML を PDF や PNG に変換する手順を詳しく解説します。
+### [Aspose.HTML for Java でライブラリバージョンを取得する](./get-library-version-in-java-quick-guide-to-show-library-vers/)
+Aspose.HTML for Java のライブラリバージョンを取得し、表示する方法を簡潔に解説します。
+
+### [Aspose.HTML for Java でヘッドレス HTML レンダリングのためのユーザーエージェントを設定する – 完全ガイド](./set-user-agent-for-headless-html-rendering-complete-guide/)
+ヘッドレス HTML のレンダリング時に使用するユーザーエージェントを設定し、正確なページ取得と描画を実現する方法を解説します。
+
+### [Aspose.HTML for Java でサンドボックスの DPI を設定する](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
+Aspose.HTML のサンドボックス環境で DPI を設定し、PDF や PNG の解像度を最適化する方法をステップバイステップで解説します。
+
+### [Aspose.HTML for Java でサンドボックスを使用する – ユーザーエージェントの設定とビューポートサイズの取得](./how-to-use-sandbox-set-user-agent-get-viewport-size/)
 
 ---
 

@@ -37,35 +37,126 @@ Představte si, že potřebujete generovat obsah HTML za chodu na základě vstu
 
  Pokud jde o generování nových dokumentů HTML, Aspose.HTML for Java nabízí robustní řešení, které vám umožní vytvářet bohatý webový obsah od začátku. Ať už pracujete na redakčním systému nebo potřebujete generovat sestavy ve formátu HTML, pochopení toho, jak vytvářet a spravovat nové HTML dokumenty, je zásadní. Pokročilé techniky načítání souborů vám navíc umožňují pracovat se složitými dokumenty HTML a zajišťují, že snadno zvládnete rozsáhlé projekty. Tyto výukové programy vás provedou každým krokem a zajistí, že budete připraveni vypořádat se s jakoukoli výzvou související s HTML.[Přečtěte si více](./generate-new-html-documents/)
 
+### [Převod Markdownu na HTML v Javě – rychlý průvodce s Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
+Rychlý návod, jak převést Markdown na HTML v Javě pomocí Aspose.HTML.
+
 ## Správa dokumentů SVG a zpracování událostí
 
  A konečně, pro ty, kteří chtějí své dovednosti posouvat ještě dále, je tu spousta pokročilých témat k prozkoumání. Naučte se spravovat dokumenty SVG nebo zpracovávat události načítání dokumentů a vytvářet citlivé a dynamické webové aplikace. Tyto výukové programy vás zavedou za hranice HTML, ponoříte se do složitostí škálovatelné vektorové grafiky (SVG) a programování řízeného událostmi.[Přečtěte si více](./create-manage-svg-documents/)
 
 ## Vytváření a správa HTML dokumentů v Aspose.HTML pro Java tutoriály
+
+
 ### [Vytvářejte dokumenty HTML asynchronně v Aspose.HTML pro Java](./create-html-documents-async/)
 Hlavní vytváření HTML dokumentů asynchronně s Aspose.HTML pro Java. Součástí je podrobný průvodce, tipy a často kladené otázky pro rychlé učení.
+### [Spusťte asynchronní JavaScript v Javě – Kompletní průvodce krok za krokem](./execute-async-javascript-in-java-complete-step-by-step-guide/)
+Kompletní návod, jak spouštět asynchronní JavaScript v Javě pomocí Aspose.HTML, včetně praktických příkladů a tipů.
 ### [Vytvořte prázdné HTML dokumenty v Aspose.HTML pro Java](./create-empty-html-documents/)
 Naučte se vytvářet prázdné HTML dokumenty v Javě pomocí Aspose.HTML s naším podrobným návodem krok za krokem, který je ideální pro vývojáře na všech úrovních.
 ### [Načtěte HTML dokumenty ze souboru v Aspose.HTML pro Java](./load-html-documents-from-file/)
 Odemkněte sílu manipulace s HTML pomocí Aspose.HTML pro Java. Naučte se načítat dokumenty HTML ze souborů pomocí výukových programů krok za krokem.
+### [Jak načíst soubor XHTML v Javě – příklad s XPath a jmenným prostorem](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
+Naučte se načíst soubor XHTML v Javě pomocí XPath s podporou jmenných prostorů v tomto praktickém příkladu.
 ### [Pokročilé načítání souborů pro HTML dokumenty v Aspose.HTML pro Java](./advanced-file-loading-html-documents/)
 V tomto podrobném průvodci se dozvíte, jak načítat, manipulovat a ukládat dokumenty HTML pomocí Aspose.HTML for Java. Odemkněte pokročilé zpracování HTML ve svých projektech Java.
 ### [Načtěte HTML dokumenty ze Stream pomocí Aspose.HTML pro Java](./load-html-documents-from-stream/)
 Naučte se načítat HTML dokumenty ze streamů pomocí Aspose.HTML for Java. Tato příručka poskytuje podrobný návod pro bezproblémovou manipulaci s HTML.
 ### [Vytvořte HTML dokumenty z String v Aspose.HTML pro Java](./create-html-documents-from-string/)
 Naučte se vytvářet HTML dokumenty z řetězců v Aspose.HTML pro Java pomocí tohoto podrobného průvodce.
+### [Vytvořte HTML dokument v Javě – načtěte JSON a generujte obsah](./create-html-document-with-java-fetch-json-and-generate-conte/)
+Naučte se v Javě načíst JSON a generovat dynamický HTML obsah pomocí Aspose.HTML.
 ### [Načtěte HTML dokumenty z URL v Aspose.HTML pro Java](./load-html-documents-from-url/)
 Objevte, jak snadno načíst HTML dokumenty z URL v Javě pomocí Aspose.HTML. Včetně návodu krok za krokem.
+### [Vytvořte HTML dokument s vloženým JavaScriptem – příklad v Javě](./create-html-document-with-embedded-javascript-java-example/)
+Naučte se vytvořit HTML dokument s vloženým JavaScriptem v Javě pomocí Aspose.HTML.
+### [Vytvořte div s třídou java – kompletní příklad s použitím Aspose.HTML](./create-div-with-class-java-full-example-using-aspose-html/)
+Ukázkový průvodce, jak v Javě vytvořit element div s přiřazenou třídou pomocí Aspose.HTML.
+### [Načtěte JSON pomocí Fetch v Javě – Kompletní průvodce](./load-json-with-fetch-in-java-complete-guide/)
+Kompletní průvodce načítáním JSON dat pomocí Fetch API v Javě s Aspose.HTML, včetně příkladů a tipů.
 ### [Generujte nové HTML dokumenty pomocí Aspose.HTML pro Java](./generate-new-html-documents/)
 Naučte se vytvářet nové HTML dokumenty pomocí Aspose.HTML for Java pomocí tohoto jednoduchého průvodce krok za krokem. Začněte generovat dynamický obsah HTML.
+### [Generujte HTML z JavaScriptu v Javě – Kompletní průvodce krok za krokem](./generate-html-from-javascript-in-java-complete-step-by-step/)
+Naučte se generovat HTML pomocí JavaScriptu v Javě pomocí podrobného průvodce krok za krokem.
+### [Převod Markdownu na HTML v Javě – krok‑za‑krokem průvodce](./convert-markdown-to-html-in-java-step-by-step-guide/)
+Naučte se převádět Markdown na HTML v Javě pomocí Aspose.HTML s podrobným návodem krok za krokem.
 ### [Zvládejte události načítání dokumentu v Aspose.HTML pro Java](./handle-document-load-events/)
 Naučte se zvládat události načítání dokumentů v Aspose.HTML pro Java pomocí tohoto podrobného průvodce. Vylepšete své webové aplikace.
+### [Spuštění JavaScriptu v Javě – Spusťte JS na HTML a přidejte elementy](./execute-javascript-java-run-js-on-html-append-elements/)
+Naučte se spouštět JavaScript v Aspose.HTML pro Java, manipulovat s HTML a přidávat nové elementy.
 ### [Vytvořte sandbox pro HTML v Javě – krok‑za‑krokem průvodce](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Naučte se, jak vytvořit sandboxové prostředí pro bezpečnou manipulaci s HTML v Javě pomocí Aspose.HTML.
 ### [Vytvářejte a spravujte dokumenty SVG v Aspose.HTML pro Javu](./create-manage-svg-documents/)
 Naučte se vytvářet a spravovat dokumenty SVG pomocí Aspose.HTML pro Javu! Tento komplexní průvodce pokrývá vše od základní tvorby až po pokročilou manipulaci.
 ### [Jak dotazovat HTML v Javě – Kompletní tutoriál](./how-to-query-html-in-java-complete-tutorial/)
 Kompletní průvodce, jak v Javě dotazovat a získávat data z HTML pomocí Aspose.HTML, včetně příkladů a tipů.
+### [Jak parsovat HTML v Javě – načíst, dotazovat a počítat prvky](./how-to-parse-html-java-load-query-count-elements/)
+Naučte se načíst HTML, dotazovat jej a počítat elementy v Javě pomocí Aspose.HTML v tomto podrobném průvodci.
+### [Načtení HTML dokumentu v Javě – Kompletní průvodce s XPath a CSS](./load-html-document-java-complete-guide-with-xpath-css/)
+Kompletní návod, jak načíst HTML dokument v Javě pomocí Aspose.HTML, včetně použití XPath a CSS selektorů.
+### [Počítání znaků HTML v Javě – Kompletní průvodce s Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
+Naučte se, jak pomocí Aspose.HTML v Javě spočítat počet znaků v HTML dokumentu, včetně praktických příkladů a tipů.
+### [Extrahujte text z HTML v Javě – Kompletní programovací průvodce](./extract-text-from-html-in-java-complete-programming-guide/)
+Naučte se extrahovat text z HTML v Javě pomocí Aspose.HTML s podrobným krok‑za‑krokem průvodcem.
+
+
+
+
+
+
+
+### [Iterace NodeList v Javě – čtení HTML a získání src obrázku](./iterate-nodelist-java-read-html-get-image-src/)
+Naučte se, jak iterovat přes NodeList v Javě, číst HTML a získat atribut src obrázku pomocí Aspose.HTML.
+### [Iterace přes NodeList v Javě – Kompletní průvodce](./iterate-over-nodelist-java-complete-guide/)
+Naučte se, jak iterovat přes NodeList v Javě pomocí Aspose.HTML v tomto podrobném průvodci.
+### [Extrahujte text z HTML v Javě – Kompletní průvodce krok‑za‑krokem](./extract-text-from-html-with-java-complete-step-by-step-guide/)
+Kompletní návod, jak pomocí Aspose.HTML pro Java extrahovat text z HTML dokumentů, včetně příkladů a tipů.
+### [Jak používat XPath v Javě – číst HTML a extrahovat text](./how-to-use-xpath-in-java-read-html-and-extract-text/)
+Naučte se, jak pomocí XPath v Javě načíst HTML a extrahovat požadovaný text.
+### [Jak dotazovat HTML v Javě – Extrahovat URL obrázků](./how-to-query-html-in-java-extract-image-urls/)
+Naučte se, jak pomocí Aspose.HTML v Javě dotazovat HTML a získávat URL obrázků.
+### [Jak parsovat HTML v Javě – Extrahovat text z HTML článků](./how-to-parse-html-in-java-extract-text-from-html-articles/)
+Naučte se pomocí Aspose.HTML v Javě parsovat HTML a extrahovat čistý text z článků pro další zpracování.
+### [Vytvořte HTML z Markdownu v Javě – Kompletní průvodce krok za krokem](./create-html-from-markdown-in-java-full-step-by-step-guide/)
+Naučte se převádět Markdown na HTML v Javě pomocí Aspose.HTML s podrobným návodem krok za krokem.
+### [JavaScript setTimeout async: Spusťte JavaScript v Javě a aktualizujte HTML](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
+Naučte se spouštět JavaScript pomocí setTimeout asynchronně v Javě a dynamicky aktualizovat HTML obsah.
+### [Načtení HTML dokumentu Aspose – Rychlý průvodce v Javě pro získání názvu stránky](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
+Rychlý návod, jak pomocí Aspose.HTML v Javě načíst HTML dokument a získat titulek stránky.
+### [Jak načíst HTML v Javě – krok‑za‑krokem průvodce](./how-to-load-html-in-java-step-by-step-guide/)
+Podrobný návod, jak pomocí Aspose.HTML načíst HTML dokument v Javě krok za krokem.
+### [Jak načíst HTML v Javě – Porovnání XPath a CSS selektoru](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
+Porovnejte používání XPath a CSS selektorů při načítání HTML v Javě s Aspose.HTML a zjistěte, který přístup je vhodnější pro vaše projekty.
+### [Vytvořte HTML element s Java ExecutorService – Thread‑Safe demo](./create-html-element-with-java-executorservice-thread-safe-de/)
+Ukázka, jak bezpečně vytvářet HTML elementy v multi‑vláknovém prostředí pomocí ExecutorService v Javě.
+### [Jak dotazovat XPath v Javě – krok‑za‑krokem průvodce](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
+Kompletní průvodce, jak v Javě dotazovat XPath pomocí Aspose.HTML, včetně příkladů a tipů.
+### [Spusťte více vláken v Javě – použijte try‑with‑resources v Javě](./run-multiple-threads-java-use-try-with-resources-java/)
+Naučte se, jak spustit více vláken v Javě a správně spravovat zdroje pomocí konstrukce try‑with‑resources.
+### [Výběr divu podle třídy v Javě – Kompletní průvodce XPath](./select-div-by-class-in-java-complete-xpath-guide/)
+Naučte se pomocí XPath vybrat element <div> podle třídy v Javě s podrobným krok‑za‑krokem průvodcem.
+### [Renderování HTML v Javě – Kompletní průvodce čekáním na načtení stránky a query selector](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
+Naučte se, jak renderovat HTML v Javě, čekat na načtení stránky a používat query selector pro získání elementů.
+### [Extrahování HTML z MHTML – Kompletní průvodce pro Javu](./extract-html-from-mhtml-complete-java-guide/)
+Naučte se, jak z MHTML souborů extrahovat HTML pomocí Aspose.HTML pro Java v tomto podrobném průvodci.
+### [Jak vyhledávat HTML – Java průvodce pro hledání textu](./how-to-search-html-java-guide-for-finding-text/)
+Naučte se pomocí Aspose.HTML v Javě vyhledávat text v HTML dokumentech pomocí praktických příkladů a tipů.
+### [Jak použít querySelectorAll v Javě – filtrování podle třídy](./how-to-use-queryselectorall-in-java-filter-by-class/)
+Naučte se pomocí Aspose.HTML v Javě využít querySelectorAll k výběru elementů podle třídy.
+
+### [Jak dotazovat HTML s Aspose.HTML – Kompletní průvodce pro Javu](./how-to-query-html-with-aspose-html-complete-java-guide/)
+Kompletní průvodce, jak v Javě dotazovat HTML pomocí Aspose.HTML, včetně příkladů a tipů.
+### [Vytvořte HTML dokument v Javě – krok‑za‑krokem průvodce s Aspose.HTML](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
+Naučte se vytvořit HTML dokument v Javě pomocí Aspose.HTML v podrobném krok‑za‑krokem průvodci.
+### [fetch json javascript – Kompletní Java průvodce vytvořením HTML dokumentu](./fetch-json-javascript-complete-java-guide-to-create-html-doc/)
+Naučte se načíst JSON pomocí JavaScriptu a vytvořit HTML dokument v Javě s kompletním průvodcem krok za krokem.
+### [Jak vyhledávat HTML pomocí Aspose Java – Kompletní programovací průvodce](./how-to-search-html-with-aspose-java-complete-programming-gui/)
+Kompletní průvodce, jak pomocí Aspose.HTML pro Java vyhledávat a získávat data z HTML dokumentů.
+### [Načtěte JSON pomocí JavaScriptu v Javě – Kompletní průvodce](./fetch-json-with-javascript-in-java-full-guide/)
+Kompletní průvodce, jak načíst JSON pomocí JavaScriptu v Javě pomocí Aspose.HTML, včetně příkladů a tipů.
+### [Extrahování názvu stránky v Javě – kompletní průvodce s Aspose.HTML](./extract-page-title-with-java-full-guide-using-aspose-html/)
+Naučte se, jak pomocí Aspose.HTML v Javě extrahovat název stránky z HTML dokumentu v tomto podrobném průvodci.
+### [Jak spustit vlákno v Javě – Kompletní průvodce](./how-to-start-thread-in-java-complete-guide/)
+Naučte se, jak spustit vlákno v Javě pomocí podrobného průvodce krok za krokem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
