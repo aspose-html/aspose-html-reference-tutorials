@@ -1,0 +1,7 @@
+Title: How to use ResourceHandler and save HTML to a stream in C#
+Slug: how-to-use-resourcehandler-and-save-html-to-a-stream-in-c
+Category: working-with-html-documents
+ProcessedDate: 2026-10-25T10:12:12.398508
+SourceRepo: AI Search API
+Keywords: how to use resourcehandler, how to save html to stream
+PRNumber: 313

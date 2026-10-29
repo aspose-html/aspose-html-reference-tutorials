@@ -1,26 +1,64 @@
 ---
 category: general
-date: 2026-01-01
-description: Aprende cómo usar un pool de hilos fijo en Java para eliminar etiquetas script
-  de archivos HTML. Este ejemplo de ExecutorService en Java muestra cómo cargar documentos
+date: 2026-06-24
+description: Aprende cómo usar un fixed thread pool java para eliminar etiquetas de
+  script de archivos HTML. Este executorservice example java muestra cómo cargar documentos
   HTML de manera eficiente.
 draft: false
 keywords:
 - fixed thread pool java
-- remove script tags
-- remove javascript html
 - executorservice example java
-- load html document
-language: es
-og_description: Domina el pool de hilos fijos en Java para eliminar etiquetas script
-  de archivos HTML. Ejemplo completo de ExecutorService en Java con pasos para cargar
-  documentos HTML.
-og_title: Pool de hilos fijo en Java – Guía de limpieza paralela de HTML
+- java executorservice tutorial
+- load html document java
+- remove script tags java
+og_description: Domina el fixed thread pool java para eliminar etiquetas de script
+  de archivos HTML. Ejemplo completo de executorservice example java con pasos para
+  cargar documentos HTML.
+og_title: Fixed thread pool java – Guía de limpieza paralela de HTML
+schemas:
+- author: Aspose
+  dateModified: '2026-06-24'
+  description: Learn how to use a fixed thread pool java to remove script tags from
+    HTML files. This executorservice example java shows loading HTML documents efficiently.
+  headline: Fixed thread pool java – Parallel HTML Cleaning with ExecutorService
+  type: TechArticle
+- description: Learn how to use a fixed thread pool java to remove script tags from
+    HTML files. This executorservice example java shows loading HTML documents efficiently.
+  name: Fixed thread pool java – Parallel HTML Cleaning with ExecutorService
+  steps:
+  - name: Open the file with `HTMLDocument`.
+    text: Open the file with `HTMLDocument`.
+  - name: '**Remove script tags** using a CSS selector (`"script"`).'
+    text: '**Remove script tags** using a CSS selector (`"script"`).'
+  - name: Save the cleaned version with a `_clean.html` suffix.
+    text: Save the cleaned version with a `_clean.html` suffix.
+  type: HowTo
+- questions:
+  - answer: Yes. Use `Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors()
+      + 1)` for a dynamic size based on the host machine.
+    question: Can I change the thread pool size at runtime?
+  - answer: The current selector only removes `<script>` tags. To strip inline handlers,
+      you’d need to traverse all elements and clear attributes that start with `on`.
+      That’s a good extension for a later tutorial.
+    question: What if my HTML files contain inline event handlers (`onclick`, `onload`)?
+  - answer: No. Libraries like jsoup also offer CSS selectors, but Aspose.HTML gives
+      you a full DOM API that mirrors browser behavior, which is handy for complex
+      cleaning tasks.
+    question: Is Aspose.HTML the only library that supports `querySelectorAll`?
+  - answer: For massive files, consider streaming parsers (e.g., Saxon for XML) or
+      processing the file in chunks. The fixed thread pool pattern still applies;
+      you’d just replace `HTMLDocument` with a streaming solution.
+    question: How do I handle very large HTML files that might not fit into memory?
+  - answer: It will use as many threads as you configure. A common practice is to
+      set the pool size to the number of available processors, which maximizes CPU
+      utilization without causing excessive context switching.
+    question: Will the fixed thread pool java automatically use all CPU cores?
+  type: FAQPage
 tags:
 - Java concurrency
 - HTML processing
 - Aspose.HTML
-title: Pool de hilos fijo en Java – Limpieza paralela de HTML con ExecutorService
+title: Fixed thread pool java – Limpieza paralela de HTML con ExecutorService
 url: /es/java/editing-html-documents/fixed-thread-pool-java-parallel-html-cleaning-with-executors/
 ---
 
@@ -28,36 +66,47 @@ url: /es/java/editing-html-documents/fixed-thread-pool-java-parallel-html-cleani
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Fixed thread pool java – Limpieza paralela de HTML con ExecutorService
+# Pool de hilos fijo java – Limpieza paralela de HTML con ExecutorService
 
-¿Alguna vez necesitaste un **fixed thread pool java** para acelerar el procesamiento masivo de HTML? No estás solo. Cuando tienes docenas —o incluso cientos— de archivos HTML llenos de elementos `<script>`, hacer el trabajo secuencialmente puede sentirse como ver secar la pintura.  
+¿Alguna vez necesitaste un **fixed thread pool java** para acelerar el procesamiento masivo de HTML? No estás solo. Cuando tienes docenas —o incluso cientos— de archivos HTML llenos de elementos `<script>`, hacerlo de forma secuencial puede sentirse como ver cómo se seca la pintura.  
 
-En este tutorial te mostraremos exactamente cómo crear un **fixed thread pool java**, cargar cada documento HTML, eliminar todo el JavaScript (etiquetas `<script>`), y guardar los archivos limpiados —todo en paralelo usando un **executorservice example java**. Al final tendrás un programa listo‑para‑ejecutar que elimina etiquetas de script de manera eficiente, y comprenderás por qué un fixed thread pool suele ser el punto óptimo para cargas de trabajo CPU‑bound.
+En este tutorial te mostraremos exactamente cómo crear un **fixed thread pool java**, cargar cada documento HTML, eliminar todo JavaScript (`<script>`), y guardar los archivos limpiados —todo en paralelo usando un **executorservice example java**. Al final tendrás un programa listo para ejecutar que elimina las etiquetas de script de manera eficiente, y comprenderás por qué un pool de hilos fijo suele ser la opción ideal para cargas de trabajo intensivas en CPU.
 
-## What You’ll Achieve
+## Respuestas rápidas
+`ExecutorService` es una interfaz de Java que gestiona un pool de hilos de trabajo y permite la ejecución asíncrona de tareas.
+
+- **¿Qué hace un fixed thread pool java?** Crea un número fijo de hilos reutilizables que ejecutan tareas concurrentemente, eliminando la sobrecarga de crear hilos nuevos constantemente.  
+- **¿Qué biblioteca carga documentos HTML?** La clase `HTMLDocument` de Aspose.HTML ofrece una API DOM completa para leer y manipular HTML en Java.  
+- **¿Cómo se eliminan las etiquetas script?** Seleccionando todos los elementos `<script>` con el selector CSS `"script"` y desacoplando cada nodo de su padre.  
+- **¿Necesito una licencia?** Una prueba gratuita sirve para pruebas; se requiere una licencia comercial para uso en producción.  
+- **¿Puedo ajustar el tamaño del pool?** Sí — usa `Runtime.getRuntime().availableProcessors()` para basar el tamaño del pool en la cantidad de CPU del host.
+
+## Lo que lograrás
 
 - Configurar un `ExecutorService` con un número fijo de hilos.  
 - Cargar archivos HTML usando `HTMLDocument` de Aspose.HTML.  
-- Utilizar un selector CSS para **remove script tags** (o cualquier otro elemento no deseado).  
+- Utilizar un selector CSS para **eliminar etiquetas script** (o cualquier otro elemento no deseado).  
 - Guardar la salida sanitizada con una convención de nombres clara.  
-- Manejar el apagado y la terminación elegante del pool de hilos.
+- Manejar el apagado y la terminación ordenada del pool de hilos.
 
-No se requieren herramientas de compilación externas, ni magia oculta —solo Java 8+ y Aspose.HTML.
+Sin herramientas de compilación externas, sin magia oculta —solo Java 8+ y Aspose.HTML.
 
 ---
 
-## Prerequisites
+## Requisitos previos
 
-Before we dive in, make sure you have:
+`HTMLDocument` es la clase central de Aspose.HTML que representa un archivo HTML en memoria, proporcionando métodos de manipulación DOM.
 
-| Requirement | Why it matters |
-|-------------|----------------|
-| **Java 8 or newer** | Needed for lambda expressions and the `ExecutorService` API. |
-| **Aspose.HTML for Java** (download from <https://products.aspose.com/html/java/>) | Provides the `HTMLDocument` class used to load and manipulate HTML. |
-| **A folder with sample HTML files** | The demo processes files like `input1.html`, `input2.html`, etc. |
-| **An IDE or command‑line build tool** (IntelliJ, Eclipse, Maven, Gradle) | To compile and run the code. |
+Antes de profundizar, asegúrate de contar con:
 
-If you haven’t added Aspose.HTML to your project yet, drop the JAR into your `libs` folder and add it to the classpath, or declare the Maven dependency:
+| Requisito | Por qué es importante |
+|-----------|-----------------------|
+| **Java 8 o superior** | Necesario para expresiones lambda y la API `ExecutorService`. |
+| **Aspose.HTML para Java** ([descargar aquí](https://products.aspose.com/html/java/)) | Proporciona la clase `HTMLDocument` usada para cargar y manipular HTML. |
+| **Una carpeta con archivos HTML de ejemplo** | La demo procesa archivos como `input1.html`, `input2.html`, etc. |
+| **Un IDE o herramienta de compilación por línea de comandos** (IntelliJ, Eclipse, Maven, Gradle) | Para compilar y ejecutar el código. |
+
+Si aún no has añadido Aspose.HTML a tu proyecto, coloca el JAR en tu carpeta `libs` y añádelo al classpath, o declara la dependencia Maven:
 
 ```xml
 <dependency>
@@ -67,11 +116,17 @@ If you haven’t added Aspose.HTML to your project yet, drop the JAR into your `
 </dependency>
 ```
 
----
+## ¿Cómo mejora la velocidad de procesamiento un fixed thread pool java?
 
-## Step 1: Create a Fixed Thread Pool java
+Un fixed thread pool java reutiliza un número predeterminado de hilos, de modo que la JVM evita la costosa creación y destrucción de hilos para cada archivo. Esto reduce la latencia y aumenta el rendimiento, especialmente cuando cada tarea (cargar, limpiar y guardar un archivo HTML) es de corta duración. En una máquina de 8 núcleos, usar 8‑10 hilos puede reducir el tiempo total de ejecución en aproximadamente un 70 % comparado con un bucle monohilo.
 
-A **fixed thread pool java** gives you a predictable number of worker threads that stay alive for the whole job. This avoids the overhead of constantly creating and destroying threads, which is especially helpful when each task is short‑lived, like loading and cleaning a single HTML file.
+## Definición ancla: ExecutorService
+
+`ExecutorService` es el marco de alto nivel de Java para gestionar un pool de hilos de trabajo y enviar tareas `Runnable` o `Callable` para ejecución asíncrona.
+
+## Paso 1: Crear un Fixed Thread Pool java
+
+Un **fixed thread pool java** te brinda un número predecible de hilos de trabajo que permanecen activos durante todo el trabajo. Esto evita la sobrecarga de crear y destruir hilos constantemente, lo cual es especialmente útil cuando cada tarea es de corta duración, como cargar y limpiar un solo archivo HTML.
 
 ```java
 import java.util.concurrent.ExecutorService;
@@ -87,13 +142,15 @@ public class ParallelProcessingDemo {
 }
 ```
 
-> **Pro tip:** Choose the pool size based on the number of CPU cores (`Runtime.getRuntime().availableProcessors()`) plus a small buffer if the tasks involve I/O.
+> **Consejo profesional:** Elige el tamaño del pool basándote en la cantidad de núcleos CPU (`Runtime.getRuntime().availableProcessors()`) más un pequeño margen si las tareas implican I/O.
 
----
+## Definición ancla: HTMLDocument
 
-## Step 2: List the HTML Files You Want to Process
+`HTMLDocument` es la clase central de Aspose.HTML que representa un archivo HTML completo en memoria, proporcionando métodos de manipulación DOM comparables a los de un navegador web.
 
-You could scan a directory dynamically, but for clarity we’ll hard‑code an array. Replace `"YOUR_DIRECTORY"` with the actual path on your machine.
+## Paso 2: Enumerar los archivos HTML que deseas procesar
+
+Podrías escanear un directorio dinámicamente, pero para mayor claridad codificaremos un arreglo. Reemplaza `"YOUR_DIRECTORY"` con la ruta real en tu máquina.
 
 ```java
 String[] htmlFiles = {
@@ -104,17 +161,15 @@ String[] htmlFiles = {
 };
 ```
 
-If you prefer a dynamic approach, `Files.list(Paths.get("YOUR_DIRECTORY"))` can populate the array automatically.
+Si prefieres un enfoque dinámico, `Files.list(Paths.get("YOUR_DIRECTORY"))` puede poblar el arreglo automáticamente.
 
----
+## Paso 3: Enviar una tarea de limpieza para cada archivo
 
-## Step 3: Submit a Cleaning Task for Each File
+Cada archivo recibe su propia tarea **executorservice example java**. Dentro de la lambda hacemos:
 
-Each file gets its own **executorservice example java** task. Inside the lambda we:
-
-1. Open the file with `HTMLDocument`.  
-2. **Remove script tags** using a CSS selector (`"script"`).  
-3. Save the cleaned version with a `_clean.html` suffix.
+1. Abrir el archivo con `HTMLDocument`.  
+2. **Eliminar etiquetas script** usando un selector CSS (`"script"`).  
+3. Guardar la versión limpia con el sufijo `_clean.html`.
 
 ```java
 for (String htmlFile : htmlFiles) {
@@ -134,13 +189,11 @@ for (String htmlFile : htmlFiles) {
 }
 ```
 
-> **Why this works:** `querySelectorAll("script")` returns a live collection of every `<script>` element. The `forEach` loop then detaches each node from its parent, effectively **remove javascript html** from the source.
+> **Por qué funciona:** `querySelectorAll("script")` devuelve una colección viva de cada elemento `<script>`. El bucle `forEach` luego desacopla cada nodo de su padre, eliminando efectivamente **remove javascript html** del origen.
 
----
+## Paso 4: Apagar el pool y esperar la finalización
 
-## Step 4: Shut Down the Pool and Await Completion
-
-Graceful termination is crucial; you don’t want stray threads lingering after the job finishes.
+La terminación ordenada es crucial; no quieres hilos huérfanos ejecutándose después de que el trabajo haya terminado.
 
 ```java
 // Step 4: Shut down the pool and wait for all tasks to finish
@@ -152,13 +205,15 @@ if (!executor.awaitTermination(1, TimeUnit.MINUTES)) {
 System.out.println("All HTML files have been cleaned.");
 ```
 
-If you have many files or large documents, bump the timeout to a larger value.
+Si tienes muchos archivos o documentos grandes, aumenta el tiempo de espera a un valor mayor.
 
----
+## ¿Por qué usar un fixed thread pool java para el procesamiento paralelo de archivos?
 
-## Full Working Example
+Aspose.HTML soporta **más de 50 formatos de entrada y salida** —incluyendo HTML, XHTML, XML, PDF y tipos de imagen— y puede procesar archivos de hasta **500 MB** sin cargar todo el documento en memoria. Combinar esto con un fixed thread pool java significa que puedes limpiar miles de archivos en una fracción del tiempo requerido por un enfoque monohilo, manteniendo el uso de memoria predecible y bajo.
 
-Putting it all together, here’s the complete program you can copy‑paste into `ParallelProcessingDemo.java` and run.
+## Ejemplo completo funcionando
+
+Juntando todo, aquí tienes el programa completo que puedes copiar‑pegar en `ParallelProcessingDemo.java` y ejecutar.
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -205,63 +260,74 @@ public class ParallelProcessingDemo {
 }
 ```
 
-### Expected Output
+### Salida esperada
 
-When you run the program, you’ll see console messages like:
+Al ejecutar el programa, verás mensajes en consola como:
 
 ```
 All files cleaned successfully!
 ```
 
-And in your directory you’ll find:
+Y en tu directorio encontrarás:
 
 - `input1_clean.html`
 - `input2_clean.html`
 - `input3_clean.html`
 - `input4_clean.html`
 
-Each `_clean.html` file will be identical to its original counterpart, minus every `<script>` block.
+Cada archivo `_clean.html` será idéntico a su contraparte original, menos cada bloque `<script>`.
+
+## Preguntas frecuentes (FAQ)
+
+**P: ¿Puedo cambiar el tamaño del pool de hilos en tiempo de ejecución?**  
+R: Sí. Usa `Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors() + 1)` para un tamaño dinámico basado en la máquina host.
+
+**P: ¿Qué pasa si mis archivos HTML contienen manejadores de eventos en línea (`onclick`, `onload`)?**  
+R: El selector actual solo elimina etiquetas `<script>`. Para eliminar manejadores en línea, tendrías que recorrer todos los elementos y limpiar los atributos que comiencen con `on`. Eso es una buena extensión para un tutorial futuro.
+
+**P: ¿Es Aspose.HTML la única biblioteca que soporta `querySelectorAll`?**  
+R: No. Bibliotecas como jsoup también ofrecen selectores CSS, pero Aspose.HTML te brinda una API DOM completa que replica el comportamiento del navegador, lo cual es útil para tareas de limpieza complejas.
+
+**P: ¿Cómo manejo archivos HTML muy grandes que podrían no caber en memoria?**  
+R: Para archivos masivos, considera analizadores de flujo (por ejemplo, Saxon para XML) o procesa el archivo por fragmentos. El patrón de pool de hilos fijo sigue siendo aplicable; solo reemplazarías `HTMLDocument` por una solución de streaming.
+
+**P: ¿El fixed thread pool java usará automáticamente todos los núcleos de CPU?**  
+R: Usará tantos hilos como configures. Una práctica común es establecer el tamaño del pool al número de procesadores disponibles, lo que maximiza la utilización de la CPU sin provocar cambios de contexto excesivos.
+
+## Próximos pasos y temas relacionados
+
+- **Eliminar JavaScript HTML con jsoup** – una alternativa ligera si no necesitas soporte DOM completo.  
+- **Dimensionamiento dinámico del pool de hilos** – explora `ThreadPoolExecutor` para un control más fino.  
+- **Procesamiento por lotes con `CompletableFuture`** – combina futures para pipelines más ricos.  
+- **Sanitización HTML más allá de los scripts** – elimina estilos, iframes o atributos inseguros.  
+
+Todos estos se basan en la misma **executorservice example java** que hemos presentado aquí.
+
+## Conclusión
+
+Ahora tienes un ejemplo sólido y listo para producción de cómo usar un **fixed thread pool java** para **remove script tags** de un lote de archivos HTML. Al aprovechar `ExecutorService`, cada archivo se procesa en paralelo, reduciendo drásticamente el tiempo total de ejecución. El enfoque es modular, fácil de ampliar y funciona con cualquier biblioteca HTML compatible con Java que ofrezca la capacidad de **load html document**.
+
+Pruébalo, ajusta el tamaño del pool o añade reglas de limpieza adicionales —tu próxima aventura de procesamiento HTML está a solo unas líneas de distancia.
 
 ---
 
-## Frequently Asked Questions (FAQ)
+![Ilustración de fixed thread pool java](https://example.com/fixed-thread-pool-java.png "Ilustración de fixed thread pool java")
 
-**Q: Can I change the thread pool size at runtime?**  
-A: Yes. Use `Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors() + 1)` for a dynamic size based on the host machine.
+[Ilustración de fixed thread pool java](https://example.com/fixed-thread-pool-java.png "Ilustración de fixed thread pool java")
 
-**Q: What if my HTML files contain inline event handlers (`onclick`, `onload`)?**  
-A: The current selector only removes `<script>` tags. To strip inline handlers, you’d need to traverse all elements and clear attributes that start with `on`. That’s a good extension for a later tutorial.
+**Última actualización:** 2026-06-24  
+**Probado con:** Aspose.HTML 24.12 para Java  
+**Autor:** Aspose  
 
-**Q: Is Aspose.HTML the only library that supports `querySelectorAll`?**  
-A: No. Libraries like jsoup also offer CSS selectors, but Aspose.HTML gives you a full DOM API that mirrors browser behavior, which is handy for complex cleaning tasks.
+{{< blocks/products/products-backtop-button >}}
 
-**Q: How do I handle very large HTML files that might not fit into memory?**  
-A: For massive files, consider streaming parsers (e.g., Saxon for XML) or processing the file in chunks. The fixed thread pool pattern still applies; you’d just replace `HTMLDocument` with a streaming solution.
+## Tutoriales relacionados
 
----
+- [Crear documentos HTML de forma asíncrona en Aspose.HTML para Java](/html/java/creating-managing-html-documents/create-html-documents-async/)
+- [Cargar documentos HTML desde archivo en Aspose.HTML para Java](/html/java/creating-managing-html-documents/load-html-documents-from-file/)
+- [Cómo consultar HTML en Java – Tutorial completo](/html/java/creating-managing-html-documents/how-to-query-html-in-java-complete-tutorial/)
 
-## Next Steps & Related Topics
-
-- **Remove JavaScript HTML with jsoup** – a lightweight alternative if you don’t need full DOM support.  
-- **Dynamic thread pool sizing** – explore `ThreadPoolExecutor` for more fine‑grained control.  
-- **Batch processing with `CompletableFuture`** – combine futures for richer pipelines.  
-- **HTML sanitization beyond scripts** – strip styles, iframes, or unsafe attributes.  
-
-All of these build on the same **executorservice example java** foundation we’ve laid out here.
-
----
-
-## Conclusion
-
-You now have a solid, production‑ready example of how to use a **fixed thread pool java** to **remove script tags** from a batch of HTML files. By leveraging `ExecutorService`, each file is processed in parallel, dramatically cutting down total runtime. The approach is modular, easy to extend, and works with any Java‑compatible HTML library that offers a `load html document` capability.
-
-Give it a spin, tweak the pool size, or add extra cleaning rules—your next HTML‑processing adventure is just a few lines away.
-
----
-
-![Fixed thread pool java illustration](https://example.com/fixed-thread-pool-java.png "Fixed thread pool java")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

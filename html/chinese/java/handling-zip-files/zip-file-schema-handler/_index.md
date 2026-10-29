@@ -9,17 +9,12 @@ url: /zh/java/handling-zip-files/zip-file-schema-handler/
 weight: 11
 ---
 
-问题", Why it Happens => "原因", Fix => "解决方案". Keep rows content translate.
 
-## Frequently Asked Questions => "## 常见问题解答"
 
-Then each Q&A translate.
 
-At end: "**Last Updated:** 2026-02-15" keep date. "Last Updated" translate "最后更新". "Tested With:" translate "测试环境". "Author:" translate "作者".
 
-Now ensure shortcodes remain.
 
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

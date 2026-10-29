@@ -25,6 +25,7 @@ Aspose.HTML for .NET은 개발자가 HTML 문서를 프로그래밍 방식으로
 튜토리얼을 살펴보기 전에 Aspose.HTML for .NET이 개발자에게 선호되는 선택인 이유를 알아보겠습니다. Aspose.HTML은 HTML 문서를 손쉽게 조작하고 관리할 수 있는 기능을 제공합니다. 광범위한 기능 세트를 통해 HTML 문서를 구문 분석, 렌더링 및 변환하는 등의 작업을 효율적으로 수행할 수 있습니다. 노련한 개발자이든 초보자이든 Aspose.HTML은 워크플로를 간소화하여 시간과 노력을 절약합니다.
 
 ## 고급 기능 튜토리얼
+
 .NET 개발의 영역에서 고급 기능을 마스터하면 무한한 가능성의 문이 열릴 수 있습니다. Aspose.HTML은 HTML 조작의 모든 잠재력을 활용할 수 있는 도구를 제공합니다. 이 문서에서는 다양한 작업에 Aspose.HTML을 활용하는 방법을 공개하는 여러 튜토리얼을 안내합니다.
 ### [Aspose.HTML을 사용한 .NET 환경 구성](./environment-configuration/)
 Aspose.HTML을 사용하여 .NET에서 HTML 문서를 다루는 방법을 알아보세요. 스크립트 관리, 사용자 지정 스타일, JavaScript 실행 제어 등의 작업을 위해. 이 포괄적인 튜토리얼은 여러분이 시작할 수 있도록 단계별 예제와 FAQ를 제공합니다.
@@ -32,7 +33,7 @@ Aspose.HTML을 사용하여 .NET에서 HTML 문서를 다루는 방법을 알아
 .NET용 Aspose.HTML을 사용하여 HTML 문서를 효율적으로 조작하는 방법을 알아보세요. 개발자를 위한 단계별 튜토리얼.
 ### [Aspose.HTML을 사용한 .NET의 메모리 스트림 공급자](./memory-stream-provider/)
 Aspose.HTML로 .NET에서 멋진 HTML 문서를 만드는 방법을 알아보세요. 단계별 튜토리얼을 따라 HTML 조작의 힘을 풀어보세요.
-### [Aspose.HTML을 사용한 .NET에서의 웹 스크래핑](./web-scraping/)
+### [Aspose.HTML을 사용한 .NET에서 웹 스크래핑](./web-scraping/)
 Aspose.HTML을 사용하여 .NET에서 HTML 문서를 조작하는 방법을 배우세요. 향상된 웹 개발을 위해 요소를 효과적으로 탐색, 필터링, 쿼리 및 선택합니다.
 ### [Aspose.HTML을 사용하여 .NET에서 확장된 콘텐츠 속성 사용](./use-extended-content-property/)
 Aspose.HTML for .NET을 사용하여 동적 웹 콘텐츠를 만드는 방법을 알아보세요. 튜토리얼에서는 초보자를 위한 필수 조건, 단계별 지침 및 FAQ를 다룹니다.
@@ -44,6 +45,16 @@ Aspose.HTML for .NET을 사용하여 HTML을 PDF, XPS 및 이미지로 변환하
 .NET용 Aspose.HTML을 사용하여 JSON 데이터에서 HTML 문서를 동적으로 생성하는 방법을 알아보세요. .NET 애플리케이션에서 HTML 조작의 힘을 활용하세요.
 ### [c# 메모리 스트림 만들기 – 맞춤 스트림 생성 가이드](./create-memory-stream-c-custom-stream-creation-guide/)
 Aspose.HTML을 사용하여 .NET에서 메모리 스트림을 직접 생성하고 활용하는 방법을 단계별로 안내합니다.
+### [Aspose.HTML을 사용하여 HTML 압축하기 – 완전 가이드](./how-to-zip-html-with-aspose-html-complete-guide/)
+Aspose.HTML을 사용해 HTML 파일을 ZIP 압축하는 방법을 단계별 예제로 안내합니다.
+
+### [C#에서 프로그래밍 방식으로 글꼴 결합하기 – 단계별 가이드](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
+### [C#에서 어셈블리 버전 가져오기 – 라이브러리 버전 조회 빠른 가이드](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
+C# 코드를 사용해 어셈블리의 버전 정보를 간단히 추출하는 방법을 단계별로 안내합니다.
+### [Aspose HTML에서 사용자 지정 리소스 핸들러 – 스트림 저장 가이드](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
+Aspose HTML에서 사용자 지정 리소스 핸들러를 구현하고, HTML 콘텐츠를 스트림에 저장하는 방법을 단계별로 안내합니다.
+### [C#에서 문서를 PDF로 저장하기 – ZIP 지원 포함 완전 가이드](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
+C#을 사용해 HTML 문서를 PDF로 변환하고, ZIP 압축을 지원하는 방법을 단계별로 안내합니다.
 ### [Clear Type 활성화 – .NET에서 스무딩 모드 사용](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
 Clear Type와 스무딩 모드를 사용하여 .NET 애플리케이션의 텍스트 렌더링 품질을 향상시키는 방법을 단계별로 안내합니다.
 

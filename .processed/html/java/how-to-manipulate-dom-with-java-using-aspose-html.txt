@@ -1,0 +1,7 @@
+Title: How to manipulate DOM with Java using Aspose.HTML
+Slug: how-to-manipulate-dom-with-java-using-aspose-html
+Category: editing-html-documents
+ProcessedDate: 2026-10-25T10:41:15.583081
+SourceRepo: AI Search API
+Keywords: how to manipulate dom with java, how to execute javascript in java
+PRNumber: 314
