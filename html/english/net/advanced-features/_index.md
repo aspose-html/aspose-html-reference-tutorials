@@ -63,6 +63,8 @@ Learn how to implement a custom resource handler in Aspose.HTML to save resource
 Learn how to compress HTML files into ZIP archives using Aspose.HTML, with step-by-step examples and best practices.
 ### [save document as pdf in C# – Complete Guide with ZIP support](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
 Learn how to save HTML as PDF in C# using Aspose.HTML, including ZIP packaging support, with step-by-step examples and best practices.
+### [How to Enable Clear Type – Enable Smoothing Mode in .NET](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
+Learn how to enable ClearType and set smoothing mode in .NET using Aspose.HTML for improved text rendering. Step-by-step guide and examples.
 
 ## Conclusion
 

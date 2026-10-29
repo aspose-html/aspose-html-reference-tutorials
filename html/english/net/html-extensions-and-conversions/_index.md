@@ -94,6 +94,10 @@ Learn how to convert HTML to PDF in C# with detailed steps and tips for improvin
 
 ### [Create PDF from HTML in C# – Complete Programming Guide](./create-pdf-from-html-in-c-complete-programming-guide/)
 Comprehensive guide to creating PDFs from HTML in C# using Aspose.HTML for .NET, covering full programming workflow.
+### [convert local html file to pdf with C# – step‑by‑step guide](./convert-local-html-file-to-pdf-with-c-step-by-step-guide/)
+Convert local HTML file to PDF using C# and Aspose.HTML for .NET. Follow our step‑by‑step guide for effortless conversion.
+### [How to Enable Antialiasing in Aspose HTML to PDF Conversion (C#)](./how-to-enable-antialiasing-in-aspose-html-to-pdf-conversion/)
+Learn how to enable antialiasing during HTML to PDF conversion using Aspose.HTML for .NET in C#.
 ### [Convert HTML to BMP in .NET with Aspose.HTML](./convert-html-to-bmp/)
 Learn how to convert HTML to BMP in .NET using Aspose.HTML for .NET. Comprehensive guide for web developers for Leveraging Aspose.HTML for .NET.
 ### [Convert HTML to Image in C# – Step‑by‑Step Guide](./convert-html-to-image-in-c-step-by-step-guide/)
@@ -227,6 +231,10 @@ Learn how to zip HTML files and export web pages as a ZIP archive using Aspose.H
 Learn how to save HTML content into a ZIP archive using Aspose.HTML for .NET with a comprehensive step-by-step guide.
 ### [Custom Resource Handler in C# – Convert HTML to Stream](./custom-resource-handler-in-c-convert-html-to-stream/)
 Learn how to implement a custom resource handler in C# to convert HTML content directly to a stream using Aspose.HTML.
+### [Save HTML as ZIP with Aspose.HTML – Complete C# Guide](./save-html-as-zip-with-aspose-html-complete-c-guide/)
+Learn how to save HTML files as a ZIP archive using Aspose.HTML for .NET in a comprehensive C# tutorial.
+### [Save HTML as ZIP in C# – Complete Guide to Custom Storage](./save-html-as-zip-in-c-complete-guide-to-custom-storage/)
+Learn how to save HTML content as a ZIP archive with custom storage options using Aspose.HTML for .NET in C#.
 
 ## Conclusion
 

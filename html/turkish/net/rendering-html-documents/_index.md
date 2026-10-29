@@ -149,6 +149,9 @@ Aspose.HTML kullanarak HTML'yi yüksek kaliteli görüntülere dönüştürmeyi 
 ### [C# ile HTML'yi PNG Olarak İşleme – Tam Adım‑Adım Kılavuz](./render-html-to-png-in-c-complete-step-by-step-guide/)
 C# ile HTML'yi PNG'ye dönüştürmeyi eksiksiz adım adım öğrenin. Örnek kodlar ve detaylı açıklamalar içerir.
 
+### [HTML'yi PNG'ye Renderlarken Antialiasing'i Etkinleştirme – Tam Kılavuz](./how-to-enable-antialiasing-when-rendering-html-to-png-comple/)
+HTML'yi PNG'ye renderlarken antialiasing'i etkinleştirmenin adımlarını öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

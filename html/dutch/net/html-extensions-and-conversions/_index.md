@@ -68,6 +68,10 @@ Leer hoe u HTML rendert naar PDF met C# en Aspose.HTML voor .NET via een volledi
 Volledige stap‑voor‑stap gids om HTML naar PDF te converteren met C# en Aspose.HTML voor .NET.
 ### [HTML naar PDF converteren in C# – HTML-pagina opslaan als PDF](./convert-html-to-pdf-in-c-save-html-page-as-pdf/)
 Leer hoe u een HTML-pagina opslaat als PDF met C# en Aspose.HTML voor .NET. Stapsgewijze handleiding met codevoorbeelden.
+### [Hoe antialiasing in te schakelen bij Aspose HTML naar PDF-conversie (C#)](./how-to-enable-antialiasing-in-aspose-html-to-pdf-conversion/)
+Leer hoe u antialiasing inschakelt tijdens HTML‑naar‑PDF conversie met Aspose.HTML in C# voor scherpere weergave.
+### [Converteer lokaal HTML‑bestand naar PDF met C# – stapsgewijze handleiding](./convert-local-html-file-to-pdf-with-c-step-by-step-guide/)
+Leer hoe u een lokaal HTML‑bestand omzet naar PDF in C# met Aspose.HTML, inclusief code‑voorbeelden en stapsgewijze instructies.
 ### [Converteer EPUB naar afbeelding in .NET met Aspose.HTML](./convert-epub-to-image/)
 Leer hoe u EPUB naar afbeeldingen converteert met Aspose.HTML voor .NET. Stapsgewijze tutorial met codevoorbeelden en aanpasbare opties.
 ### [Converteer EPUB naar PDF in .NET met Aspose.HTML](./convert-epub-to-pdf/)
@@ -134,6 +138,11 @@ Leer hoe u een aangepaste resourcehandler implementeert om HTML-bestanden te zip
 Leer hoe u met ZipArchive HTML-bestanden comprimeert en opslaat als ZIP in C# met Aspose.HTML voor .NET.
 ### [HTML zippen – Complete gids voor het exporteren van webpagina’s als ZIP](./how-to-zip-html-complete-guide-to-exporting-web-pages-as-zip/)
 Leer stap‑voor‑stap hoe u HTML‑pagina’s comprimeert en exporteert als ZIP‑archief met Aspose.HTML voor .NET.
+### [HTML opslaan als ZIP met Aspose.HTML – Complete C#‑gids](./save-html-as-zip-with-aspose-html-complete-c-guide/)
+Leer hoe u HTML opslaat als ZIP‑archief met Aspose.HTML in een volledige C#‑handleiding.
+Leer hoe u HTML-inhoud in het geheugen comprimeert en opslaat als ZIP-bestand met Aspose.HTML voor .NET in C#.
+### [HTML opslaan als ZIP in C# – Complete gids voor aangepaste opslag](./save-html-as-zip-in-c-complete-guide-to-custom-storage/)
+Leer hoe u HTML opslaat als ZIP met aangepaste opslag in C# met Aspose.HTML voor .NET.
 ### [Maak HTML-document met opgemaakte tekst en exporteer naar PDF – Volledige gids](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Leer hoe u een HTML-document met opgemaakte tekst maakt en deze volledig naar PDF exporteert met Aspose.HTML voor .NET.
 ### [Maak PDF van HTML – C# Stapsgewijze handleiding](./create-pdf-from-html-c-step-by-step-guide/)

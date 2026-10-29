@@ -36,6 +36,8 @@ Aprenda a criar documentos HTML impressionantes em .NET com Aspose.HTML. Siga no
 Aprenda a criar e usar fluxos de memória personalizados em C# com Aspose.HTML, passo a passo e exemplos práticos.
 ### [Web Scraping em .NET com Aspose.HTML](./web-scraping/)
 Aprenda a manipular documentos HTML em .NET com Aspose.HTML. Navegue, filtre, consulte e selecione elementos de forma eficaz para desenvolvimento web aprimorado.
+### [Como habilitar Clear Type – Ativar modo de suavização no .NET](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
+Aprenda a melhorar a renderização de texto no .NET ativando o Clear Type e o modo de suavização para fontes mais nítidas.
 ### [Use a propriedade de conteúdo estendido no .NET com Aspose.HTML](./use-extended-content-property/)
 Aprenda a criar conteúdo web dinâmico usando Aspose.HTML para .NET. Nosso tutorial abrange pré-requisitos, instruções passo a passo e FAQs para iniciantes.
 ### [Gerar PDF criptografado por PdfDevice em .NET com Aspose.HTML](./generate-encrypted-pdf-by-pdfdevice/)

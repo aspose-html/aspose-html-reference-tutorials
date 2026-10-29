@@ -96,6 +96,8 @@ Comprehensive C# guide to render HTML to images using Aspose.HTML for .NET, cove
 Learn how to enable antialiasing when rendering HTML to PNG with Aspose.HTML for .NET. Follow a step‑by‑step guide and best practices.
 ### [How to Zip HTML and Render It as PNG – Complete C# Guide](./how-to-zip-html-and-render-it-as-png-complete-c-guide/)
 Learn how to zip HTML files and render them as PNG images using Aspose.HTML for .NET with a complete C# guide.
+### [How to Enable Antialiasing When Rendering HTML to PNG – Complete Guide](./how-to-enable-antialiasing-when-rendering-html-to-png-comple/)
+Learn how to enable antialiasing for high‑quality PNG output when rendering HTML with Aspose.HTML for .NET. Follow step‑by‑step guide!
 ### [Render EPUB as XPS in .NET with Aspose.HTML](./render-epub-as-xps/)
 Learn how to create and render HTML documents with Aspose.HTML for .NET in this comprehensive tutorial. Dive into the world of HTML manipulation, web scraping, and more.
 

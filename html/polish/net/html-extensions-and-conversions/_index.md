@@ -225,6 +225,14 @@ Pełny przewodnik, jak zapisać dokument HTML jako archiwum ZIP przy użyciu bib
 Zapisz plik HTML jako archiwum ZIP w C# przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
 ### [Niestandardowy obsługiwacz zasobów w C# – Konwertuj HTML do strumienia](./custom-resource-handler-in-c-convert-html-to-stream/)
 Dowiedz się, jak używać własnego obsługiwacza zasobów w C# do konwersji HTML bezpośrednio do strumienia przy pomocy Aspose.HTML.
+### [Zapisz HTML jako ZIP w C# – Kompletny przewodnik po niestandardowym przechowywaniu](./save-html-as-zip-in-c-complete-guide-to-custom-storage/)
+Zapisz dokument HTML jako archiwum ZIP w C# z niestandardowym przechowywaniem – kompletny przewodnik krok po kroku.
+### [Zapisz HTML jako ZIP przy użyciu Aspose.HTML – Kompletny przewodnik C#](./save-html-as-zip-with-aspose-html-complete-c-guide/)
+Dowiedz się, jak zapisać dokument HTML jako archiwum ZIP w C# przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
+### [Konwertuj lokalny plik HTML do PDF w C# – przewodnik krok po kroku](./convert-local-html-file-to-pdf-with-c-step-by-step-guide/)
+Konwertuj lokalny plik HTML do PDF w C# przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
+### [Jak włączyć antyaliasing w konwersji Aspose HTML do PDF (C#)](./how-to-enable-antialiasing-in-aspose-html-to-pdf-conversion/)
+Dowiedz się, jak w C# włączyć antyaliasing podczas konwersji HTML do PDF przy użyciu Aspose.HTML, aby uzyskać wyraźniejsze renderowanie.
 
 ## Wniosek
 

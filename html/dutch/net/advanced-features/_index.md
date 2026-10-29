@@ -54,6 +54,8 @@ Leer hoe u de versie van een assembly in C# kunt ophalen met een eenvoudig codev
 Leer hoe u HTML-bestanden comprimeert met Aspose HTML, inclusief stapsgewijze instructies en voorbeeldcode.
 ### [Document opslaan als PDF in C# – Complete gids met ZIP-ondersteuning](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
 Leer hoe u met Aspose.HTML documenten naar PDF converteert in C#, inclusief ondersteuning voor ZIP-compressie.
+### [Hoe Clear Type in te schakelen – Smoothing-modus inschakelen in .NET](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
+Leer hoe u Clear Type en de smoothing-modus inschakelt voor scherpere tekstweergave in .NET met Aspose.HTML.
 
 ## Conclusie
 

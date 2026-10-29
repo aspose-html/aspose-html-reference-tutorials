@@ -178,6 +178,9 @@ HTML を PNG に変換する際、アンチエイリアシングを有効にす�
 ### [HTML を Zip して PNG にレンダリングする方法 – 完全 C# ガイド](./how-to-zip-html-and-render-it-as-png-complete-c-guide/)
 HTML ファイルを Zip 圧縮し、Aspose.HTML for .NET を使用して PNG 画像に変換する手順をステップバイステップで解説します。
 
+### [HTML を PNG にレンダリングする際のアンチエイリアシングの有効化 – 完全ガイド](./how-to-enable-antialiasing-when-rendering-html-to-png-comple/)
+HTML を PNG に変換する際にアンチエイリアシングを有効にする手順をステップバイステップで解説します。高品質な画像を実現する完全ガイドです。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

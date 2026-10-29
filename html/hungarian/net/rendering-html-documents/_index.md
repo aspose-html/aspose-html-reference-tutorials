@@ -140,6 +140,8 @@ Tanulja meg, hogyan aktiválhatja az antialiasingot az Aspose.HTML for .NET hasz
 Tanulja meg, hogyan tömöríthet HTML-fájlokat, majd renderelheti őket PNG-ként C#-ban az Aspose.HTML segítségével.
 ### [HTML renderelése PNG-be C#-ban – Teljes lépésről lépésre útmutató](./render-html-to-png-in-c-complete-step-by-step-guide/)
 Ismerje meg, hogyan renderelhet HTML-t PNG formátumba C#-ban az Aspose.HTML segítségével, részletes, lépésről lépésre útmutató.
+### [Hogyan engedélyezzük az antialiasingot HTML PNG-be rendereléskor – Teljes útmutató](./how-to-enable-antialiasing-when-rendering-html-to-png-comple/)
+Tanulja meg, hogyan aktiválhatja az antialiasingot az Aspose.HTML segítségével HTML PNG-be történő rendereléskor.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

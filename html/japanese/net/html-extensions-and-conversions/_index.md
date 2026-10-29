@@ -260,6 +260,18 @@ Aspose.HTML for .NET を使用して、HTML コンテンツを ZIP アーカイ�
 ### [C# カスタム リソース ハンドラ – HTML をストリームに変換](./custom-resource-handler-in-c-convert-html-to-stream/)
 Aspose.HTML for .NET を使用して、カスタム リソース ハンドラで HTML をストリームに変換する方法をステップバイステップで解説します。
 
+### [C# で HTML を ZIP として保存 – カスタムストレージ完全ガイド](./save-html-as-zip-in-c-complete-guide-to-custom-storage/)
+Aspose.HTML for .NET と C# を使用して、カスタムストレージに HTML を ZIP アーカイブとして保存する完全な手順を解説します。
+
+### [Aspose.HTML を使用して HTML を ZIP に保存する – 完全 C# ガイド](./save-html-as-zip-with-aspose-html-complete-c-guide/)
+Aspose.HTML for .NET と C# を使用して、HTML を ZIP アーカイブとして保存する完全ガイドです。
+
+### [C# でローカル HTML ファイルを PDF に変換する – ステップバイステップ ガイド](./convert-local-html-file-to-pdf-with-c-step-by-step-guide/)
+Aspose.HTML for .NET を使用し、C# でローカルの HTML ファイルを PDF に変換する手順を詳しく解説します。
+
+### [Aspose.HTML の PDF 変換でアンチエイリアシングを有効にする方法 (C#)](./how-to-enable-antialiasing-in-aspose-html-to-pdf-conversion/)
+Aspose.HTML for .NET で PDF 変換時にアンチエイリアシングを有効にし、出力品質を向上させる手順をステップバイステップで解説します。
+
 ## 結論
 
 結論として、HTML の拡張と変換は、現代の Web 開発に不可欠な要素です。Aspose.HTML for .NET はプロセスを簡素化し、あらゆるレベルの開発者が利用できるようにします。当社のチュートリアルに従うことで、幅広いスキルを備えた熟練した Web 開発者になるための道を順調に進むことができます。

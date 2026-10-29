@@ -54,6 +54,8 @@ C# でアセンブリのバージョン情報を取得し、ライブラリの�
 Aspose.HTML でカスタム リソース ハンドラを実装し、HTML コンテンツをストリームに保存する方法をステップバイステップで解説します。
 ### [Aspose HTML で HTML を Zip 圧縮する完全ガイド](./how-to-zip-html-with-aspose-html-complete-guide/)
 Aspose HTML を利用して HTML ファイルを Zip アーカイブに圧縮する手順をステップバイステップで解説します。
+### [Clear Type の有効化 – .NET でスムージング モードを有効にする方法](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
+Clear Type とスムージング モードを有効にし、.NET アプリケーションでテキスト表示を滑らかにする手順を解説します。
 
 ## 結論
 

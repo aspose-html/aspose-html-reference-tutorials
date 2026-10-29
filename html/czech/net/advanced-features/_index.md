@@ -55,6 +55,8 @@ Naučte se, jak v C# programově spojovat více písem do jednoho souboru pomoc�
 Naučte se, jak v C# získat verzi sestavení knihovny pomocí reflexe.
 ### [Jak zipovat HTML pomocí Aspose HTML – Kompletní průvodce](./how-to-zip-html-with-aspose-html-complete-guide/)
 Naučte se, jak pomocí Aspose.HTML zkomprimovat HTML soubory do ZIP archivu v kompletním průvodci.
+### [Jak povolit Clear Type – povolit režim vyhlazování v .NET](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
+Naučte se, jak v .NET povolit ClearType a nastavit režim vyhlazování pro ostřejší vykreslování textu.
 
 ## Závěr
 

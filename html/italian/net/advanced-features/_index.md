@@ -55,6 +55,8 @@ Scopri come implementare un gestore di risorse personalizzato in Aspose HTML p
 Impara a comprimere file HTML in archivi ZIP usando Aspose HTML, con esempi passo passo e consigli pratici.
 ### [Salva documento come PDF in C# – Guida completa con supporto ZIP](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
 Impara a salvare documenti HTML come PDF in C# con supporto per archivi ZIP, includendo esempi passo passo e consigli pratici.
+### [Come abilitare Clear Type – Abilitare la modalità di smoothing in .NET](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
+Scopri come attivare Clear Type e la modalità di smoothing per migliorare la resa del testo nelle applicazioni .NET con Aspose.HTML.
 
 ## Conclusione
 

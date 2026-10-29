@@ -58,6 +58,9 @@ Převeďte HTML do PDF v C# pomocí Aspose v kompletním průvodci s podrobnými
 Naučte se převádět HTML do PDF pomocí Aspose v podrobném krok‑za‑krokem průvodci.
 ### [Vykreslete HTML jako PDF v C# – Kompletní průvodce krok za krokem](./render-html-as-pdf-in-c-full-step-by-step-guide/)
 Kompletní průvodce, jak v C# pomocí Aspose.HTML převést HTML na PDF, s podrobnými ukázkami kódu a nastavením.
+### [Jak povolit antialiasing při konverzi Aspose HTML do PDF (C#)](./how-to-enable-antialiasing-in-aspose-html-to-pdf-conversion/)
+Naučte se, jak v C# zapnout antialiasing při převodu HTML do PDF pomocí Aspose.HTML pro .NET.
+
 ### [Vytvořte PDF z HTML v C# – průvodce krok za krokem](./create-pdf-from-html-c-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.HTML v C# převést HTML dokument do PDF pomocí podrobného průvodce krok za krokem.
 ### [Vytvořte PDF z HTML v C# – Kompletní průvodce krok za krokem](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
@@ -237,6 +240,12 @@ Naučte se, jak pomocí Aspose.HTML v C# převést HTML do ZIP archivu pomocí p
 Naučte se, jak pomocí Aspose.HTML pro .NET uložit HTML soubor do ZIP archivu v kompletním průvodci.
 ### [Vlastní obslužná rutina zdrojů v C# – Převod HTML do proudu](./custom-resource-handler-in-c-convert-html-to-stream/)
 Naučte se, jak pomocí Aspose.HTML v C# vytvořit vlastní handler zdrojů a převést HTML do streamu.
+### [Uložte HTML jako ZIP v C# – Kompletní průvodce vlastním úložištěm](./save-html-as-zip-in-c-complete-guide-to-custom-storage/)
+Naučte se, jak uložit HTML jako ZIP s vlastním úložištěm pomocí Aspose.HTML pro .NET v C#.
+### [Uložte HTML jako ZIP s Aspose.HTML – Kompletní C# průvodce](./save-html-as-zip-with-aspose-html-complete-c-guide/)
+Naučte se, jak uložit HTML soubor jako ZIP archiv pomocí Aspose.HTML v C# – kompletní průvodce.
+### [Převod lokálního HTML souboru do PDF v C# – průvodce krok za krokem](./convert-local-html-file-to-pdf-with-c-step-by-step-guide/)
+Naučte se, jak v C# převést lokální HTML soubor do PDF pomocí Aspose.HTML krok za krokem s ukázkovým kódem.
 
 ## Závěr
 

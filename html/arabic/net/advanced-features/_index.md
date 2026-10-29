@@ -54,6 +54,8 @@ Aspose.HTML for .NET هي أداة قوية تتيح للمطورين العمل
 تعلم كيفية ضغط ملفات HTML إلى أرشيف ZIP باستخدام Aspose.HTML خطوة بخطوة في دليل شامل.
 ### [حفظ المستند كملف PDF في C# – دليل كامل مع دعم ZIP](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
 تعلم كيفية حفظ مستندات HTML كملفات PDF في C# مع دعم ضغط ZIP لتقليل حجم الملفات وتسهيل النقل.
+### [كيفية تمكين Clear Type – تمكين وضع التنعيم في .NET](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
+تعلم كيفية تفعيل تقنية Clear Type وتحسين جودة النصوص في تطبيقات .NET عبر تمكين وضع التنعيم.
 
 ## خاتمة
 

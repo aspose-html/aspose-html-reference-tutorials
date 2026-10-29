@@ -55,6 +55,8 @@ Aspose.HTML สำหรับ .NET เป็นเครื่องมือ�
 
 ### [บันทึกเอกสารเป็น PDF ใน C# – คู่มือฉบับสมบูรณ์พร้อมการสนับสนุน ZIP](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
 เรียนรู้วิธีบันทึกไฟล์ HTML เป็น PDF ใน C# พร้อมการบีบอัดเป็นไฟล์ ZIP อย่างละเอียด
+### [วิธีเปิดใช้งาน Clear Type – เปิดโหมดการทำให้เรียบใน .NET](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
+เรียนรู้วิธีเปิดใช้งาน Clear Type และโหมดการทำให้เรียบใน .NET เพื่อปรับปรุงคุณภาพการแสดงผลข้อความ
 
 ## บทสรุป
 

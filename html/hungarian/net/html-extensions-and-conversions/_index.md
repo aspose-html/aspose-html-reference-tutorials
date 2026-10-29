@@ -61,6 +61,10 @@ Lépésről‑lépésre útmutató a HTML PDF‑be konvertálásához C#‑ban a
 Részletes útmutató a HTML PDF‑be konvertálásához C#‑ban az Aspose.HTML for .NET használatával.
 ### [HTML konvertálása PDF-be C#‑ban – HTML oldal mentése PDF‑ként](./convert-html-to-pdf-in-c-save-html-page-as-pdf/)
 ### [HTML konvertálása PDF-be C#‑ban – Teljes útmutató szövegtisztasági tippekkel](./convert-html-to-pdf-in-c-complete-guide-with-text-clarity-ti/)
+### [Hogyan engedélyezze az antialiasingot az Aspose HTML PDF konverzióban (C#)](./how-to-enable-antialiasing-in-aspose-html-to-pdf-conversion/)
+Ismerje meg, hogyan kapcsolhatja be az antialiasingot az Aspose.HTML PDF konverzió során C#-ban a jobb minőségű kimenetért.
+### [Helyi HTML-fájl PDF-be konvertálása C#‑val – lépésről‑lépésre útmutató](./convert-local-html-file-to-pdf-with-c-step-by-step-guide/)
+Ismerje meg, hogyan konvertálhat helyi HTML-fájlt PDF formátumba C#‑ban az Aspose.HTML for .NET segítségével.
 ### [Az Aspose.HTML segítségével EPUB-t konvertáljon képpé .NET-ben](./convert-epub-to-image/)
 ### [Konvertálja az EPUB-t PDF-be .NET-ben az Aspose.HTML segítségével](./convert-epub-to-pdf/)
 ### [Konvertálja az EPUB-t XPS-re .NET-ben az Aspose.HTML segítségével](./convert-epub-to-xps/)
@@ -202,6 +206,8 @@ Ismerje meg, hogyan mentheti a HTML-t ZIP-archívumba az Aspose.HTML for .NET se
 Részletes útmutató a PDF generálásához HTML-ből C#‑ban az Aspose.HTML for .NET használatával, minden lépés bemutatva.
 ### [Egyéni erőforráskezelő C#‑ban – HTML konvertálása stream‑be](./custom-resource-handler-in-c-convert-html-to-stream/)
 Ismerje meg, hogyan használhat egyéni erőforráskezelőt a HTML stream‑ként történő konvertálásához C#‑ban az Aspose.HTML for .NET segítségével.
+### [HTML mentése ZIP-be C#‑ban – Teljes útmutató egyedi tároláshoz](./save-html-as-zip-in-c-complete-guide-to-custom-storage/)
+### [HTML mentése ZIP-be az Aspose.HTML segítségével – Teljes C# útmutató](./save-html-as-zip-with-aspose-html-complete-c-guide/)
 
 ## Következtetés
 

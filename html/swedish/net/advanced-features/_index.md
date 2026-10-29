@@ -54,6 +54,8 @@ Lär dig hur du snabbt får fram versionen av ett .NET‑assembly i C# med enkla
 Lär dig hur du implementerar en anpassad resurs‑hanterare i Aspose HTML för att spara HTML‑innehåll till en ström.
 ### [Spara dokument som PDF i C# – Komplett guide med ZIP‑stöd](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
 Lär dig hur du sparar HTML som PDF i C# med stöd för ZIP‑arkiv, inklusive steg‑för‑steg‑exempel och konfigurationsalternativ.
+### [Hur du aktiverar Clear Type – Aktivera jämningsläge i .NET](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
+Lär dig hur du aktiverar Clear Type och jämningsläge för skarpare textrendering i dina .NET-applikationer.
 
 ## Slutsats
 

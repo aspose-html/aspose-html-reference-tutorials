@@ -55,6 +55,8 @@ Aspose.HTML для .NET — это мощный инструмент, позво
 Узнайте, как упаковать HTML‑файлы в ZIP‑архивы с помощью Aspose.HTML, используя пошаговые примеры и рекомендации.
 ### [Сохранение документа как PDF в C# – Полное руководство с поддержкой ZIP](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
 Узнайте, как сохранять HTML‑документы в PDF в C# с поддержкой архивов ZIP, используя Aspose.HTML.
+### [Как включить Clear Type – включить режим сглаживания в .NET](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
+Узнайте, как активировать Clear Type и режим сглаживания в .NET с помощью Aspose.HTML для улучшения качества отображения текста.
 
 ## Заключение
 

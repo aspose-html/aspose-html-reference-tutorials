@@ -184,6 +184,9 @@ Aspose.HTML for .NET 因其豐富的功能、優秀的文件和活躍的社群�
 ### [在 C# 中將 HTML 渲染為 PNG – 完整步驟指南](./render-html-to-png-in-c-complete-step-by-step-guide/)
 學習使用 Aspose.HTML for .NET 在 C# 中將 HTML 渲染為 PNG，提供完整步驟與最佳實踐。
 
+### [如何在將 HTML 渲染為 PNG 時啟用抗鋸齒 – 完整指南](./how-to-enable-antialiasing-when-rendering-html-to-png-comple/)
+學習在 Aspose.HTML for .NET 中渲染 HTML 為 PNG 時啟用抗鋸齒，以提升圖像品質的完整步驟指南。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

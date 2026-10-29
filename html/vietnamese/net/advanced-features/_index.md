@@ -55,6 +55,9 @@ Hướng dẫn cách tạo trình xử lý tài nguyên tùy chỉnh trong Aspos
 Tìm hiểu cách nén các tệp HTML thành file zip bằng Aspose.HTML, bao gồm các ví dụ thực tế và hướng dẫn từng bước.
 ### [Lưu tài liệu dưới dạng PDF trong C# – Hướng dẫn đầy đủ với hỗ trợ ZIP](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
 Hướng dẫn chi tiết cách lưu tài liệu HTML thành PDF trong C# với khả năng nén ZIP, bao gồm các ví dụ và mẹo thực tế.
+### [Cách bật Clear Type – Kích hoạt chế độ làm mịn trong .NET](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
+Hướng dẫn bật Clear Type và chế độ làm mịn để cải thiện chất lượng hiển thị văn bản trong các ứng dụng .NET sử dụng Aspose.HTML.
+
 
 ## Phần kết luận
 
