@@ -13,7 +13,6 @@ url: /it/net/html-document-manipulation/
 
 # Manipolazione dei documenti HTML
 
-
 Siete pronti a sfruttare tutto il potenziale della manipolazione dei documenti HTML nel framework .NET? Con Aspose.HTML per .NET, avete il potere di trasformare, migliorare e manipolare i documenti HTML come mai prima. Questo articolo vi accompagna in un viaggio attraverso il nostro elenco completo di tutorial, dotandovi delle conoscenze e degli strumenti necessari per padroneggiare la manipolazione dei documenti HTML senza sforzo.
 
 ## Presentazione di Aspose.HTML per .NET
@@ -51,11 +50,9 @@ Aspose.HTML per .NET si distingue per la sua semplicità e potenza. Ti consente 
 ## Tutorial sulla manipolazione dei documenti HTML
 ### [Caricare documenti HTML in modo asincrono in .NET con Aspose.HTML](./load-html-doc-asynchronously/)
 Scopri come usare Aspose.HTML per .NET per lavorare con documenti HTML. Guida passo passo con esempi e FAQ per sviluppatori.
-### [Caricare documenti HTML con credenziali in .NET con Aspose.HTML](./load-html-with-credentials/)
-Scopri come potenziare la tua SEO con Aspose.HTML per .NET. Aumenta le classifiche, analizza i contenuti web e ottimizzali per i motori di ricerca.
-
 ### [Caricare documenti HTML con credenziali in .NET con Aspose.HTML](./load-html-doc-with-credentials/)
 Scopri come potenziare la tua SEO con Aspose.HTML per .NET. Aumenta le classifiche, analizza i contenuti web e ottimizzali per i motori di ricerca.
+
 ### [Carica HTML utilizzando un server remoto in .NET con Aspose.HTML](./load-html-using-remote-server/)
 Sblocca il potenziale di Aspose.HTML per .NET con la nostra guida completa. Scopri come importare namespace, accedere a documenti HTML remoti e altro ancora.
 ### [Carica HTML usando URL in .NET con Aspose.HTML](./load-html-using-url/)
@@ -109,6 +106,8 @@ Impara a impostare l'attributo innerHTML di un elemento span in C# usando Aspose
 Scopri come modificare lo stile dei paragrafi in C# usando Aspose.HTML, con esempi pratici e istruzioni dettagliate.
 ### [Creare Font Grassetto Italico in C# – Guida Completa](./create-font-bold-italic-in-c-complete-guide/)
 Scopri come creare font in grassetto e corsivo in C# con Aspose.HTML, passo passo con esempi pratici.
+### [Creare documento HTML in memoria con Aspose.HTML – Guida completa](./create-html-document-memory-with-aspose-html-complete-guide/)
+Impara a creare documenti HTML direttamente in memoria usando Aspose.HTML, con esempi pratici e consigli dettagliati.
 
 ## Conclusione
 

@@ -56,6 +56,8 @@ Dowiedz się, jak kompresować pliki HTML do formatu ZIP przy użyciu Aspose HTM
 Dowiedz się, jak zapisać dokument HTML jako PDF w C# z obsługą kompresji ZIP i dodatkowymi opcjami.
 ### [Jak włączyć Clear Type – włącz tryb wygładzania w .NET](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
 Dowiedz się, jak w .NET włączyć ClearType i tryb wygładzania, aby uzyskać wyraźny i płynny tekst w dokumentach HTML.
+### [Konwertuj dokument Word do PDF – Przewodnik w czystym tekście (C#)](./convert-word-document-to-pdf-clear-text-guide-c/)
+Dowiedz się, jak konwertować dokumenty Word do PDF w C# przy użyciu Aspose.HTML, krok po kroku.
 
 ## Wniosek
 

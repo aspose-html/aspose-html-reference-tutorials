@@ -143,6 +143,8 @@ Naučte se, jak pomocí Aspose.HTML převést HTML do formátu PNG s vysokou kva
 Kompletní návod, jak pomocí Aspose.HTML převést HTML na PNG s podrobným nastavením a optimalizací.
 ### [Vlastní obslužná rutina zdrojů v C# – Efektivní převod Wordu na PNG](./custom-resource-handler-in-c-convert-word-to-png-efficiently/)
 Naučte se vytvořit vlastní obslužnou rutinu zdrojů v C#, která rychle a efektivně převádí dokumenty Word na PNG pomocí Aspose.HTML.
+### [Vytvořte JPEG z Wordu – Kompletní průvodce C#](./create-jpeg-from-word-complete-c-guide/)
+Kompletní návod, jak pomocí Aspose.HTML pro .NET převést dokument Word do formátu JPEG v jazyce C#.
 
 ## Závěr
 

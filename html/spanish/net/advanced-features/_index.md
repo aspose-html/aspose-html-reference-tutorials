@@ -56,6 +56,8 @@ Aprenda a crear un controlador de recursos personalizado en Aspose HTML y guar
 Aprenda a guardar documentos HTML como PDF en C# con Aspose.HTML, incluyendo la generación de archivos ZIP para recursos adjuntos.
 ### [Cómo habilitar Clear Type – Activar el modo de suavizado en .NET](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
 Aprenda a activar Clear Type y el modo de suavizado en .NET para mejorar la calidad de renderizado de texto en sus aplicaciones.
+### [Convertir documento Word a PDF – Guía de texto claro (C#)](./convert-word-document-to-pdf-clear-text-guide-c/)
+Aprenda a convertir documentos Word a PDF en C# usando Aspose.HTML, con pasos claros y ejemplos prácticos.
 
 ## Conclusión
 

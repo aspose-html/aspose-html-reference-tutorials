@@ -139,6 +139,8 @@ Aspose.HTML for .NET 提供了一種將 HTML 轉換為映像的簡單方法。�
 本完整教學說明如何使用 Aspose.HTML for .NET 將 HTML 轉換為 PNG 圖像，涵蓋設定、參數與最佳化技巧。
 ### [在 C# 中使用自訂資源處理程式 – 高效將 Word 轉換為 PNG](./custom-resource-handler-in-c-convert-word-to-png-efficiently/)
 了解如何透過自訂資源處理程式，在 C# 中高效將 Word 文件轉換為 PNG 圖像，提升效能與品質。
+### [使用 C# 完整指南將 Word 轉換為 JPEG](./create-jpeg-from-word-complete-c-guide/)
+本教學說明如何使用 Aspose.HTML for .NET 將 Word 文件轉換為 JPEG 圖像，提供完整的 C# 範例與步驟說明。
 
 ## 結論
 

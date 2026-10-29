@@ -56,6 +56,8 @@ Leer hoe u HTML-bestanden comprimeert met Aspose HTML, inclusief stapsgewijze in
 Leer hoe u met Aspose.HTML documenten naar PDF converteert in C#, inclusief ondersteuning voor ZIP-compressie.
 ### [Hoe Clear Type in te schakelen – Smoothing-modus inschakelen in .NET](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
 Leer hoe u Clear Type en de smoothing-modus inschakelt voor scherpere tekstweergave in .NET met Aspose.HTML.
+### [Word-document converteren naar PDF – Duidelijke tekstgids (C#)](./convert-word-document-to-pdf-clear-text-guide-c/)
+Leer hoe u Word-documenten in C# naar PDF converteert met een duidelijke, stap‑voor‑stap handleiding.
 
 ## Conclusie
 

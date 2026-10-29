@@ -105,6 +105,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML in C# den innerHTML von span-Elementen set
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET den Stil von Absätzen in C# ändern. Schritt-für-Schritt-Anleitung mit Beispielen.
 ### [Fett- und Kursivschrift in C# erstellen – Vollständiger Leitfaden](./create-font-bold-italic-in-c-complete-guide/)
 Erfahren Sie, wie Sie in C# fette und kursive Schriftarten erstellen und anwenden – Schritt-für-Schritt-Anleitung.
+### [HTML-Dokument im Speicher erstellen mit Aspose.HTML – Komplettanleitung](./create-html-document-memory-with-aspose-html-complete-guide/)
+Erfahren Sie, wie Sie HTML-Dokumente vollständig im Speicher erstellen und verwalten, ohne Dateisystem, mit Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -56,6 +56,8 @@ Aprenda a criar um manipulador de recursos personalizado no Aspose HTML e salv
 Aprenda a compactar arquivos HTML em um arquivo ZIP usando Aspose HTML, com exemplos passo a passo e dicas práticas.
 ### [Salvar documento como PDF em C# – Guia completo com suporte a ZIP](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
 Aprenda a salvar documentos HTML como PDF em C#, incluindo como compactar o resultado em um arquivo ZIP, passo a passo.
+### [Converter documento Word para PDF – Guia de texto claro (C#)](./convert-word-document-to-pdf-clear-text-guide-c/)
+Aprenda a converter documentos Word em PDFs usando Aspose.HTML para .NET, mantendo o texto claro e a formatação, com exemplos passo a passo.
 
 ## Conclusão
 

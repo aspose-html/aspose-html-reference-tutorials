@@ -13,7 +13,6 @@ url: /cs/net/html-document-manipulation/
 
 # Manipulace s HTML dokumenty
 
-
 Jste připraveni využít plný potenciál manipulace s HTML dokumenty v rámci .NET? S Aspose.HTML for .NET máte sílu transformovat, vylepšovat a manipulovat s HTML dokumenty jako nikdy předtím. Tento článek vás provede naším komplexním seznamem výukových programů a vybaví vás znalostmi a nástroji potřebnými k snadnému zvládnutí manipulace s HTML dokumenty.
 
 ## Odhalení Aspose.HTML pro .NET
@@ -53,8 +52,6 @@ Aspose.HTML for .NET vyniká svou jednoduchostí a výkonem. Umožňuje vám př
 Naučte se používat Aspose.HTML pro .NET pro práci s HTML dokumenty. Podrobný průvodce s příklady a často kladenými dotazy pro vývojáře.
 ### [Načtěte dokumenty HTML s pověřeními v .NET pomocí Aspose.HTML](./load-html-doc-with-credentials/)
 
-### [Načtěte dokumenty HTML s pověřeními v .NET pomocí Aspose.HTML](./load-html-with-credentials/)
-Naučte se, jak vylepšit vaše SEO pomocí Aspose.HTML pro .NET. Zvyšte hodnocení, analyzujte obsah webu a optimalizujte pro vyhledávače.
 ### [Načtěte HTML pomocí vzdáleného serveru v .NET s Aspose.HTML](./load-html-using-remote-server/)
 Odemkněte potenciál Aspose.HTML pro .NET pomocí našeho komplexního průvodce. Naučte se importovat jmenné prostory, přistupovat ke vzdáleným dokumentům HTML a další.
 ### [Načíst HTML pomocí URL v .NET s Aspose.HTML](./load-html-using-url/)
@@ -106,6 +103,8 @@ Naučte se, jak pomocí Aspose.HTML v C# nastavit innerHTML pro element span a d
 Naučte se měnit styl odstavců v C# pomocí Aspose.HTML. Kompletní průvodce s příklady a tipy.
 ### [Vytvoření tučného a kurzívního písma v C# – Kompletní průvodce](./create-font-bold-italic-in-c-complete-guide/)
 Naučte se, jak v C# pomocí Aspose.HTML vytvořit písmo s tučným a kurzívním stylem a aplikovat jej na HTML dokumenty.
+### [Vytvoření HTML dokumentu v paměti pomocí Aspose.HTML – Kompletní průvodce](./create-html-document-memory-with-aspose-html-complete-guide/)
+Naučte se, jak pomocí Aspose.HTML vytvořit HTML dokument přímo v paměti a pracovat s ním bez souborového systému.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

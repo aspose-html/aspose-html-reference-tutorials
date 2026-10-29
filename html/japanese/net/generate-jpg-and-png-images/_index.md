@@ -140,6 +140,8 @@ Aspose.HTML for .NET を使い、HTML コンテンツを PNG 画像に変換す�
 HTML を PNG 画像に変換する完全な手順とベストプラクティスを解説します。
 ### [C# のカスタムリソースハンドラ – Word を PNG に効率的に変換する](./custom-resource-handler-in-c-convert-word-to-png-efficiently/)
 C# のカスタムリソースハンドラを使用して、Word 文書を高速かつ高品質な PNG 画像に変換する方法を解説します。
+### [Word から JPEG を作成する – 完全 C# ガイド](./create-jpeg-from-word-complete-c-guide/)
+C# を使用して Word 文書から JPEG 画像を生成する手順をステップバイステップで解説します。
 
 ## 結論
 

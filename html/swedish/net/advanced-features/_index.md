@@ -56,6 +56,8 @@ Lär dig hur du implementerar en anpassad resurs‑hanterare i Aspose HTML fö
 Lär dig hur du sparar HTML som PDF i C# med stöd för ZIP‑arkiv, inklusive steg‑för‑steg‑exempel och konfigurationsalternativ.
 ### [Hur du aktiverar Clear Type – Aktivera jämningsläge i .NET](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
 Lär dig hur du aktiverar Clear Type och jämningsläge för skarpare textrendering i dina .NET-applikationer.
+### [Konvertera Word-dokument till PDF – Klartextguide (C#)](./convert-word-document-to-pdf-clear-text-guide-c/)
+Lär dig hur du konverterar Word-dokument till PDF med Aspose.HTML i C#, steg‑för‑steg och tydliga exempel.
 
 ## Slutsats
 

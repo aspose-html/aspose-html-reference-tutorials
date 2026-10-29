@@ -43,8 +43,6 @@ Aspose.HTML for .NET yalnızca bir kütüphane değil; web geliştirme dünyası
 ### [Aspose.HTML ile .NET'te HTML'den PDF Oluşturma – Adım Adım Kılavuz](./create-pdf-from-html-with-aspose-step-by-step-guide/)
 
 ### [URL'den PDF Oluştur – Tam C# Kılavuzu](./create-pdf-from-url-complete-c-guide/)
-### [C# ile HTML'den PDF Oluşturma – Tam Adım‑Adım Kılavuz](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
-C# ve Aspose.HTML kullanarak HTML'den PDF'ye nasıl dönüştüreceğinizi adım adım öğrenin.
 ### [C#'ta HTML'yi PDF'ye Dönüştürme – Tam Aspose Kılavuzu](./convert-html-to-pdf-in-c-full-aspose-guide/)
 Aspose.HTML for .NET kullanarak C# ile HTML'yi PDF'ye nasıl dönüştüreceğinizi adım adım öğrenin.
 ### [Aspose.HTML ile C#'ta HTML'den PDF Oluşturun – Tam Kılavuz](./create-pdf-from-html-with-aspose-in-c-full-guide/)
@@ -101,6 +99,8 @@ Aspose.HTML for .NET ile HTML'den PDF'ye dönüştürmeyi ayrıntılı olarak ö
 Aspose.HTML for .NET kullanarak C# içinde HTML'yi sayfa boyutu ve anti‑aliasing ayarlarıyla PDF'ye dönüştürün. Adım adım kılavuz.
 ### [HTML'den PDF Oluşturma – C# Tam Adım‑Adım Kılavuz](./create-pdf-from-html-in-c-full-step-by-step-guide/)
 Aspose.HTML for .NET kullanarak HTML'den PDF'ye tam kapsamlı, adım adım bir rehberle nasıl dönüştüreceğinizi öğrenin.
+### [HTML'den PDF Oluşturma – C# Tam Adım Adım Kılavuz](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
+Aspose.HTML for .NET kullanarak C# ile HTML'den PDF'ye tam adım adım nasıl dönüştürüleceğini öğrenin.
 ### [C#'ta HTML'i Zip Dosyasına Sıkıştırma](./how-to-zip-html-in-c-save-html-to-zip/)
 ### [C#'ta HTML'i Zip Dosyasına Sıkıştırma – Özel Kaynak İşleyicisi Öğreticisi](./how-to-zip-html-in-c-custom-resource-handler-tutorial/)
 ### [C#'ta HTML'yi Zip'e Sıkıştırma – Tam Kılavuz](./how-to-zip-html-in-c-complete-guide/)

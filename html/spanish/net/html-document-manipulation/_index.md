@@ -51,7 +51,7 @@ Aspose.HTML para .NET destaca por su simplicidad y potencia. Te permite tomar el
 ## Tutoriales de manipulación de documentos HTML
 ### [Cargar documentos HTML de forma asincrónica en .NET con Aspose.HTML](./load-html-doc-asynchronously/)
 Aprenda a utilizar Aspose.HTML para .NET para trabajar con documentos HTML. Guía paso a paso con ejemplos y preguntas frecuentes para desarrolladores.
-### [Cómo cargar documentos HTML con credenciales en .NET con Aspose.HTML](./load-html-with-credentials/)
+### [Cómo cargar documentos HTML con credenciales en .NET con Aspose.HTML](./load-html-doc-with-credentials/)
 Aprenda a potenciar su SEO con Aspose.HTML para .NET. Mejore sus clasificaciones, analice el contenido web y optimice para los motores de búsqueda.
 ### [Cargar HTML mediante un servidor remoto en .NET con Aspose.HTML](./load-html-using-remote-server/)
 Descubra el potencial de Aspose.HTML para .NET con nuestra guía completa. Aprenda a importar espacios de nombres, acceder a documentos HTML remotos y más.
@@ -103,6 +103,8 @@ Aprenda a establecer el innerHTML de un elemento span en C# usando Aspose.HTML c
 Aprenda a modificar el estilo de los párrafos en C# con Aspose.HTML. Guía paso a paso con ejemplos claros.
 ### [Crear fuente en negrita y cursiva en C# – Guía completa](./create-font-bold-italic-in-c-complete-guide/)
 Aprenda a generar texto con estilo negrita y cursiva en C# usando Aspose.HTML. Guía paso a paso con ejemplos claros.
+### [Crear documento HTML en memoria con Aspose.HTML – Guía completa](./create-html-document-memory-with-aspose-html-complete-guide/)
+Aprenda a crear documentos HTML en memoria usando Aspose.HTML con ejemplos paso a paso y mejores prácticas.
 
 ## Conclusión
 

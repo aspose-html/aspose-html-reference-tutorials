@@ -56,6 +56,8 @@ Aspose.HTML for .NET 是一款功能强大的工具，允许开发人员以编�
 了解如何使用 Aspose.HTML 在 C# 中将 HTML 文档保存为 PDF，并支持将输出压缩为 ZIP 文件的完整步骤。
 ### [如何在 .NET 中启用 Clear Type – 启用平滑模式](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
 了解如何在 .NET 中启用 Clear Type 和平滑模式，以提升文本渲染质量。提供步骤示例和常见问题解答。
+### [将 Word 文档转换为 PDF – 清晰文本指南（C#）](./convert-word-document-to-pdf-clear-text-guide-c/)
+了解如何使用 Aspose.HTML 将 Word 文档转换为 PDF，确保文本清晰可读。本教程提供分步示例和常见问题解答。
 
 ## 结论
 

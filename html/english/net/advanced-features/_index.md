@@ -47,7 +47,8 @@ Convert HTML to PDF dynamically with Aspose.HTML for .NET. Easy integration, cus
 
 ### [Fine-Tuning Converters in .NET with Aspose.HTML](./fine-tuning-converters/)
 Learn how to convert HTML to PDF, XPS, and images with Aspose.HTML for .NET. Step-by-step tutorial with code examples and FAQs.
-
+### [Convert Word Document to PDF – Clear Text Guide (C#)](./convert-word-document-to-pdf-clear-text-guide-c/)
+Learn how to convert Word documents to PDF using Aspose.HTML for .NET with clear, step-by-step C# examples.
 ### [Using HTML Templates in .NET with Aspose.HTML](./using-html-templates/)
 Learn how to use Aspose.HTML for .NET to dynamically generate HTML documents from JSON data. Harness the power of HTML manipulation in your .NET applications.
 

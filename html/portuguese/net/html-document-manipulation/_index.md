@@ -101,6 +101,8 @@ Aprenda a criar documentos HTML usando Aspose.HTML com um guia passo a passo com
 Aprenda a alterar o estilo de parágrafos em C# usando Aspose.HTML com este guia completo.
 ### [Criar fonte negrito itálico em C# – Guia completo](./create-font-bold-italic-in-c-complete-guide/)
 Aprenda a criar texto em negrito e itálico usando Aspose.HTML para .NET em C#. Guia passo a passo com exemplos.
+### [Criar Documento HTML na Memória com Aspose.HTML – Guia Completo](./create-html-document-memory-with-aspose-html-complete-guide/)
+Aprenda a criar documentos HTML diretamente na memória usando Aspose.HTML, com exemplos completos e passo a passo.
 
 ## Conclusão
 

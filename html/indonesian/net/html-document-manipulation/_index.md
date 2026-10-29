@@ -13,7 +13,6 @@ url: /id/net/html-document-manipulation/
 
 # Manipulasi Dokumen HTML
 
-
 Apakah Anda siap memanfaatkan potensi penuh manipulasi dokumen HTML dalam kerangka .NET? Dengan Aspose.HTML untuk .NET, Anda memiliki kekuatan untuk mengubah, menyempurnakan, dan memanipulasi dokumen HTML seperti yang belum pernah ada sebelumnya. Artikel ini mengajak Anda menjelajahi daftar tutorial lengkap kami, membekali Anda dengan pengetahuan dan alat yang dibutuhkan untuk menguasai manipulasi dokumen HTML dengan mudah.
 
 ## Meluncurkan Aspose.HTML untuk .NET
@@ -51,11 +50,9 @@ Aspose.HTML untuk .NET menonjol karena kesederhanaan dan kekuatannya. Aplikasi i
 ## Tutorial Manipulasi Dokumen HTML
 ### [Memuat Dokumen HTML Secara Asinkron di .NET dengan Aspose.HTML](./load-html-doc-asynchronously/)
 Pelajari cara menggunakan Aspose.HTML for .NET untuk bekerja dengan dokumen HTML. Panduan langkah demi langkah dengan contoh dan Tanya Jawab Umum untuk pengembang.
-### [Memuat Dokumen HTML dengan Kredensial di .NET dengan Aspose.HTML](./load-html-with-credentials/)
-Pelajari cara meningkatkan SEO Anda dengan Aspose.HTML untuk .NET. Tingkatkan peringkat, analisis konten web, dan optimalkan untuk mesin pencari.
-
 ### [Memuat Dokumen HTML dengan Kredensial di .NET dengan Aspose.HTML](./load-html-doc-with-credentials/)
 Pelajari cara meningkatkan SEO Anda dengan Aspose.HTML untuk .NET. Tingkatkan peringkat, analisis konten web, dan optimalkan untuk mesin pencari.
+
 ### [Memuat HTML Menggunakan Server Jarak Jauh di .NET dengan Aspose.HTML](./load-html-using-remote-server/)
 Manfaatkan potensi Aspose.HTML untuk .NET dengan panduan lengkap kami. Pelajari cara mengimpor namespace, mengakses dokumen HTML jarak jauh, dan banyak lagi.
 ### [Memuat HTML Menggunakan URL di .NET dengan Aspose.HTML](./load-html-using-url/)
@@ -109,6 +106,8 @@ Pelajari cara mengatur properti innerHTML pada elemen span menggunakan C# dan As
 Pelajari cara mengubah gaya paragraf pada dokumen HTML menggunakan C# dengan Aspose.HTML secara lengkap.
 ### [Buat Font Tebal Miring di C# – Panduan Lengkap](./create-font-bold-italic-in-c-complete-guide/)
 Pelajari cara membuat font tebal miring di C# menggunakan Aspose.HTML dengan contoh langkah demi langkah.
+### [Buat Memori Dokumen HTML dengan Aspose.HTML – Panduan Lengkap](./create-html-document-memory-with-aspose-html-complete-guide/)
+Pelajari cara membuat dokumen HTML di memori menggunakan Aspose.HTML dengan contoh lengkap dan langkah-langkah praktis.
 
 ## Kesimpulan
 

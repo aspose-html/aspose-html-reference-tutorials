@@ -103,6 +103,8 @@ Aspose.HTML을 활용해 C#에서 span 요소의 innerHTML을 설정하는 방�
 Aspose.HTML for .NET을 사용해 C#에서 단락 스타일을 변경하는 방법을 단계별로 안내합니다.
 ### [C#에서 굵은 기울임꼴 글꼴 만들기 – 완전 가이드](./create-font-bold-italic-in-c-complete-guide/)
 C#에서 Aspose.HTML을 사용해 굵은 기울임꼴 글꼴을 적용하고 생성하는 방법을 단계별로 안내합니다.
+### [Aspose.HTML을 사용하여 HTML 문서 메모리 만들기 – 완전 가이드](./create-html-document-memory-with-aspose-html-complete-guide/)
+Aspose.HTML을 활용해 메모리 내에서 HTML 문서를 생성하고 조작하는 방법을 단계별로 안내합니다.
 
 ## 결론
 

@@ -58,6 +58,8 @@ Hướng dẫn chi tiết cách lưu tài liệu HTML thành PDF trong C# với 
 ### [Cách bật Clear Type – Kích hoạt chế độ làm mịn trong .NET](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
 Hướng dẫn bật Clear Type và chế độ làm mịn để cải thiện chất lượng hiển thị văn bản trong các ứng dụng .NET sử dụng Aspose.HTML.
 
+### [Chuyển đổi tài liệu Word sang PDF – Hướng dẫn chi tiết (C#)](./convert-word-document-to-pdf-clear-text-guide-c/)
+Hướng dẫn từng bước chuyển đổi tài liệu Word sang PDF bằng Aspose.HTML trong C#, với nội dung rõ ràng và dễ hiểu.
 
 ## Phần kết luận
 

@@ -143,6 +143,8 @@ url: /el/net/generate-jpg-and-png-images/
 Μάθετε πώς να μετατρέψετε HTML σε PNG με πλήρη οδηγό και παραδείγματα χρησιμοποιώντας το Aspose.HTML.
 ### [Προσαρμοσμένος Διαχειριστής Πόρων σε C# – Αποδοτική Μετατροπή Word σε PNG](./custom-resource-handler-in-c-convert-word-to-png-efficiently/)
 Μάθετε πώς να χρησιμοποιήσετε προσαρμοσμένο διαχειριστή πόρων σε C# για αποδοτική μετατροπή αρχείων Word σε PNG.
+### [Δημιουργία JPEG από Word – Πλήρης οδηγός C#](./create-jpeg-from-word-complete-c-guide/)
+Μάθετε πώς να μετατρέψετε έγγραφα Word σε εικόνες JPEG χρησιμοποιώντας C# και Aspose.HTML για .NET.
 
 ## Σύναψη
 

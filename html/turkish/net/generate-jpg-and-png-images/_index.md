@@ -143,6 +143,8 @@ Aspose.HTML kullanarak HTML içeriğini PNG formatına dönüştürmeyi adım ad
 HTML içeriğini yüksek kalitede PNG dosyasına dönüştürmek için adım adım tam rehber.
 ### [C#'ta Özel Kaynak İşleyicisi – Word'ü Verimli Şekilde PNG'ye Dönüştürün](./custom-resource-handler-in-c-convert-word-to-png-efficiently/)
 C# ile özel bir kaynak işleyicisi oluşturarak Word belgelerini hızlı ve etkili bir şekilde PNG görüntülerine dönüştürmeyi öğrenin.
+### [Word'den JPEG Oluşturma – Tam C# Rehberi](./create-jpeg-from-word-complete-c-guide/)
+C# kullanarak Word belgelerinden JPEG resimleri oluşturmayı adım adım öğrenin.
 
 ## Çözüm
 

@@ -115,6 +115,8 @@ Aspose.HTML for .NET 因其簡單性和強大功能而脫穎而出。它使您�
 了解如何在 C# 使用 Aspose.HTML 完整地變更段落樣式，提升文件排版與呈現效果。
 ### [在 C# 中建立粗體斜體字型 – 完整指南](./create-font-bold-italic-in-c-complete-guide/)
 了解如何在 C# 中使用 Aspose.HTML 為文字設定粗體與斜體樣式，完整步驟與範例說明。
+### [使用 Aspose.HTML 建立 HTML 文件記憶體 – 完整指南](./create-html-document-memory-with-aspose-html-complete-guide/)
+了解如何使用 Aspose.HTML for .NET 在記憶體中建立 HTML 文件，並進行後續操作與轉換。
 
 ## 結論
 

@@ -66,6 +66,8 @@ Apprenez à compresser des fichiers HTML en archive ZIP avec Aspose HTML, étape
 
 ### [Comment activer Clear Type – Activer le mode de lissage en .NET](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
 Apprenez à activer ClearType et le mode de lissage pour améliorer le rendu du texte dans vos applications .NET avec Aspose.HTML.
+### [Conversion d'un document Word en PDF – Guide texte clair (C#)](./convert-word-document-to-pdf-clear-text-guide-c/)
+Apprenez à convertir des documents Word en PDF en C# avec Aspose.HTML, grâce à un guide clair et détaillé.
 
 ## Conclusion
 

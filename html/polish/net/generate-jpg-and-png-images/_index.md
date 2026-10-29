@@ -143,6 +143,8 @@ Dowiedz się, jak przekształcić kod HTML w obraz PNG przy pomocy Aspose.HTML w
 Poznaj pełny proces konwersji HTML do pliku PNG przy użyciu Aspose.HTML, od konfiguracji po optymalizację wynikowego obrazu.
 ### [Niestandardowy obsługiwacz zasobów w C# – Efektywne konwertowanie dokumentów Word do PNG](./custom-resource-handler-in-c-convert-word-to-png-efficiently/)
 Dowiedz się, jak używać własnego obsługiwacza zasobów w C# do szybkiej konwersji dokumentów Word na obrazy PNG przy pomocy Aspose.HTML.
+### [Utwórz JPEG z Word – Kompletny przewodnik C#](./create-jpeg-from-word-complete-c-guide/)
+Pełny przewodnik, jak konwertować dokumenty Word do formatu JPEG w C# przy użyciu Aspose.HTML.
 
 ## Wniosek
 

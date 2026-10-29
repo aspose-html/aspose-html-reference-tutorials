@@ -56,6 +56,8 @@ Aspose.HTML for .NET هي أداة قوية تتيح للمطورين العمل
 تعلم كيفية حفظ مستندات HTML كملفات PDF في C# مع دعم ضغط ZIP لتقليل حجم الملفات وتسهيل النقل.
 ### [كيفية تمكين Clear Type – تمكين وضع التنعيم في .NET](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
 تعلم كيفية تفعيل تقنية Clear Type وتحسين جودة النصوص في تطبيقات .NET عبر تمكين وضع التنعيم.
+### [تحويل مستند Word إلى PDF – دليل النص الواضح (C#)](./convert-word-document-to-pdf-clear-text-guide-c/)
+تعلم كيفية تحويل مستندات Word إلى PDF باستخدام Aspose.HTML في C# مع إرشادات واضحة خطوة بخطوة.
 
 ## خاتمة
 

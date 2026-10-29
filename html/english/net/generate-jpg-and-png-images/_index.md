@@ -143,6 +143,8 @@ Learn how to render HTML content directly to PNG images using Aspose.HTML for .N
 Step-by-step guide to generate PNG images from HTML using Aspose.HTML for .NET, covering setup, rendering options, and optimization.
 ### [Custom Resource Handler in C# – Convert Word to PNG Efficiently](./custom-resource-handler-in-c-convert-word-to-png-efficiently/)
 Learn how to implement a custom resource handler in C# to efficiently convert Word documents to PNG images using Aspose.HTML.
+### [Create JPEG from Word – Complete C# Guide](./create-jpeg-from-word-complete-c-guide/)
+Learn how to convert Word documents to JPEG images using Aspose.HTML for .NET in a comprehensive C# tutorial.
 
 ## Conclusion
 

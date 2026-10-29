@@ -57,6 +57,8 @@ Naučte se, jak v C# získat verzi sestavení knihovny pomocí reflexe.
 Naučte se, jak pomocí Aspose.HTML zkomprimovat HTML soubory do ZIP archivu v kompletním průvodci.
 ### [Jak povolit Clear Type – povolit režim vyhlazování v .NET](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
 Naučte se, jak v .NET povolit ClearType a nastavit režim vyhlazování pro ostřejší vykreslování textu.
+### [Převod dokumentu Word do PDF – Průvodce jasným textem (C#)](./convert-word-document-to-pdf-clear-text-guide-c/)
+Naučte se převádět soubory Word do PDF pomocí Aspose.HTML v C# s podrobným návodem a ukázkami kódu.
 
 ## Závěr
 

@@ -104,6 +104,8 @@ Aspose.HTML for .NET を使用して C# で span の innerHTML を設定する�
 Aspose.HTML for .NET を使用して、C# で段落のスタイルを変更する方法をステップバイステップで学びます。
 ### [C# でフォントの太字斜体を作成する – 完全ガイド](./create-font-bold-italic-in-c-complete-guide/)
 C# でフォントを太字かつ斜体に設定する方法をステップバイステップで解説します。
+### [Aspose.HTML を使用した HTML ドキュメント メモリの作成 – 完全ガイド](./create-html-document-memory-with-aspose-html-complete-guide/)
+Aspose.HTML を利用して、HTML ドキュメントをメモリ上に作成し操作する方法をステップバイステップで解説します。
 
 ## 結論
 

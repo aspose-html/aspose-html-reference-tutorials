@@ -13,7 +13,6 @@ url: /sv/net/html-document-manipulation/
 
 # HTML-dokumentmanipulation
 
-
 Är du redo att utnyttja den fulla potentialen av HTML-dokumentmanipulation i .NET-ramverket? Med Aspose.HTML för .NET har du kraften att transformera, förbättra och manipulera HTML-dokument som aldrig förr. Den här artikeln tar dig med på en resa genom vår omfattande självstudielista, och utrustar dig med kunskapen och verktygen som behövs för att bemästra HTML-dokumentmanipulation utan ansträngning.
 
 ## Avtäckning av Aspose.HTML för .NET
@@ -51,11 +50,9 @@ Aspose.HTML för .NET utmärker sig för sin enkelhet och kraft. Det ger dig mö
 ## Handledning för HTML-dokumenthantering
 ### [Ladda HTML-dokument asynkront i .NET med Aspose.HTML](./load-html-doc-asynchronously/)
 Lär dig hur du använder Aspose.HTML för .NET för att arbeta med HTML-dokument. Steg-för-steg-guide med exempel och vanliga frågor för utvecklare.
-### [Ladda HTML-dokument med referenser i .NET med Aspose.HTML](./load-html-with-credentials/)
-Lär dig hur du laddar upp din SEO med Aspose.HTML för .NET. Öka rankingen, analysera webbinnehåll och optimera för sökmotorer.
-
 ### [Ladda HTML-dokument med referenser i .NET med Aspose.HTML](./load-html-doc-with-credentials/)
 Lär dig hur du laddar upp din SEO med Aspose.HTML för .NET. Öka rankingen, analysera webbinnehåll och optimera för sökmotorer.
+
 ### [Ladda HTML med hjälp av en fjärrserver i .NET med Aspose.HTML](./load-html-using-remote-server/)
 Lås upp potentialen hos Aspose.HTML för .NET med vår omfattande guide. Lär dig hur du importerar namnområden, kommer åt fjärranslutna HTML-dokument och mer.
 ### [Ladda HTML med URL i .NET med Aspose.HTML](./load-html-using-url/)
@@ -98,6 +95,8 @@ Lär dig hur du sätter innerHTML för ett span‑element i C# med Aspose.HTML i
 Lär dig hur du ändrar styckeformat i HTML med Aspose.HTML för .NET i C#. Steg‑för‑steg‑guide med exempel.
 ### [Skapa fet kursiv font i C# – Komplett guide](./create-font-bold-italic-in-c-complete-guide/)
 Lär dig hur du skapar fet och kursiv text i C# med Aspose.HTML – steg-för-steg guide.
+### [Skapa HTML-dokument i minnet med Aspose.HTML – Komplett guide](./create-html-document-memory-with-aspose-html-complete-guide/)
+Lär dig hur du skapar och hanterar HTML-dokument i minnet med Aspose.HTML i .NET, steg‑för‑steg med exempel.
 
 ### [Gör text fet och kursiv i C# – Snabbguide för att styla HTML](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
 Lär dig hur du gör text fet och kursiv i HTML med C#. En snabbguide med kodexempel och steg‑för‑steg‑instruktioner.

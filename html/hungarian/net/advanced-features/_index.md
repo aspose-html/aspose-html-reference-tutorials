@@ -55,6 +55,8 @@ Ismerje meg, hogyan kérheti le egy .NET könyvtár verziószámát C#‑ban egy
 Tanulja meg, hogyan tömörítheti a HTML-fájlokat az Aspose HTML segítségével, lépésről lépésre útmutatóval.
 ### [Dokumentum mentése PDF-ként C#-ban – Teljes útmutató ZIP támogatással](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
 Ismerje meg, hogyan menthet HTML-dokumentumot PDF-be C#-ban, ZIP-fájlba csomagolva, lépésről lépésre útmutatóval.
+### [Word dokumentum PDF-re konvertálása – Tiszta szöveges útmutató (C#)](./convert-word-document-to-pdf-clear-text-guide-c/)
+Ismerje meg, hogyan konvertálhat Word dokumentumot PDF-be C#-ban az Aspose.HTML segítségével, egyszerű, tiszta szöveges útmutatóval.
 
 ## Következtetés
 

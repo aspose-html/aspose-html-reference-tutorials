@@ -63,6 +63,8 @@ Exploitez la puissance d'Aspose.HTML pour .NET. Apprenez à créer, manipuler et
 Apprenez à créer un document HTML en C# avec Aspose.HTML grâce à un guide détaillé étape par étape.
 ### [Comment créer du HTML – Ajouter des éléments et styliser le texte](./how-to-create-html-append-elements-and-style-text/)
 Apprenez à créer du HTML en ajoutant des éléments et en stylisant le texte avec Aspose.HTML pour .NET.
+### [Créer un document HTML en mémoire avec Aspose.HTML – Guide complet](./create-html-document-memory-with-aspose-html-complete-guide/)
+Apprenez à créer et gérer des documents HTML en mémoire avec Aspose.HTML, étape par étape.
 ### [Modification d'un document dans .NET avec Aspose.HTML](./editing-a-document/)
 Créez du contenu Web captivant avec Aspose.HTML pour .NET. Apprenez à manipuler HTML, CSS et bien plus encore.
 ### [Modifier le style de paragraphe en C# – Guide complet Aspose.HTML](./change-paragraph-style-in-c-complete-aspose-html-guide/)

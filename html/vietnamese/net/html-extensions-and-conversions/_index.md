@@ -59,8 +59,6 @@ Chuyển đổi nhanh URL thành PDF chỉ với một dòng mã bằng Aspose.H
 Hướng dẫn chi tiết cách chuyển đổi HTML sang PDF trong C# bằng Aspose, bao gồm các bước thực hiện và tùy chọn tùy chỉnh.
 ### [Tạo PDF từ HTML trong C# – Nhúng phông chữ & Chuyển đổi sang PDF](./create-pdf-from-html-in-c-embed-fonts-convert-to-pdf/)
 Hướng dẫn chi tiết cách nhúng phông chữ khi tạo PDF từ HTML trong C# bằng Aspose.HTML, đảm bảo nội dung hiển thị chính xác.
-### [Tạo PDF từ HTML trong C# – Hướng dẫn chi tiết từng bước](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
-Hướng dẫn chi tiết cách tạo PDF từ HTML bằng C# và Aspose.HTML, bao gồm các bước thực hiện, ví dụ mã và tùy chọn cấu hình.
 ### [Chuyển đổi HTML sang PDF với Aspose – Hướng dẫn từng bước](./convert-html-to-pdf-with-aspose-step-by-step-guide/)
 Hướng dẫn chi tiết từng bước để chuyển đổi HTML sang PDF bằng Aspose, tối ưu hoá quy trình và nâng cao hiệu quả phát triển.
 ### [Hướng dẫn HTML sang PDF – Chuyển đổi HTML sang PDF với Aspose](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose/)
@@ -242,6 +240,8 @@ Hướng dẫn bật khử răng cưa trong quá trình chuyển đổi HTML san
 Hướng dẫn chi tiết cách lưu HTML thành tệp ZIP bằng Aspose.HTML cho .NET, bao gồm ví dụ mã và tùy chọn cấu hình.
 ### [Chuyển đổi HTML sang PDF trong C# – Hướng dẫn đầy đủ Aspose](./convert-html-to-pdf-in-c-complete-aspose-guide/)
 Hướng dẫn chi tiết cách chuyển đổi HTML sang PDF bằng C# sử dụng Aspose.HTML, bao gồm ví dụ mã và các tùy chọn cấu hình.
+### [Tạo PDF từ HTML trong C# – Hướng dẫn đầy đủ từng bước](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
+Hướng dẫn chi tiết toàn bộ quy trình tạo PDF từ HTML trong C# bằng Aspose.HTML, bao gồm các bước và tùy chọn cấu hình.
 
 ## Phần kết luận
 

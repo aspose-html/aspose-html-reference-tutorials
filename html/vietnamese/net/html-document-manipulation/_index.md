@@ -13,7 +13,6 @@ url: /vi/net/html-document-manipulation/
 
 # Thao tác tài liệu HTML
 
-
 Bạn đã sẵn sàng khai thác toàn bộ tiềm năng của thao tác tài liệu HTML trong khuôn khổ .NET chưa? Với Aspose.HTML cho .NET, bạn có khả năng chuyển đổi, nâng cao và thao tác các tài liệu HTML như chưa từng có trước đây. Bài viết này sẽ đưa bạn vào hành trình qua danh sách hướng dẫn toàn diện của chúng tôi, trang bị cho bạn kiến thức và công cụ cần thiết để thành thạo thao tác tài liệu HTML một cách dễ dàng.
 
 ## Ra mắt Aspose.HTML cho .NET
@@ -86,8 +85,6 @@ Hướng dẫn chi tiết cách tạo tài liệu HTML và chèn phần tử CSS
 ### [Tạo tài liệu HTML C# – Hướng dẫn từng bước](./create-html-document-c-step-by-step-guide/)
 Học cách tạo tài liệu HTML trong C# bằng Aspose.HTML qua các bước chi tiết và ví dụ thực tế.
 
-### [Tải tài liệu HTML có thông tin xác thực trong .NET với Aspose.HTML](./load-html-with-credentials/)
-Tìm hiểu cách tăng cường SEO của bạn với Aspose.HTML cho .NET. Tăng thứ hạng, phân tích nội dung web và tối ưu hóa cho công cụ tìm kiếm.
 ### [Cách tạo HTML – Thêm phần tử và Định dạng văn bản](./how-to-create-html-append-elements-and-style-text/)
 Hướng dẫn cách tạo tài liệu HTML, thêm phần tử và áp dụng kiểu cho văn bản bằng Aspose.HTML cho .NET.
 ### [Cách định dạng HTML với Aspose.HTML – Đặt kiểu phông chữ trong C#](./how-to-style-html-with-aspose-html-set-font-style-in-c/)
@@ -106,6 +103,8 @@ Tìm hiểu cách thiết lập thuộc tính innerHTML cho thẻ span trong C# 
 Tìm hiểu cách thay đổi kiểu đoạn văn trong C# bằng Aspose.HTML. Hướng dẫn chi tiết từng bước cho nhà phát triển.
 ### [Tạo phông chữ in đậm nghiêng trong C# – Hướng dẫn đầy đủ](./create-font-bold-italic-in-c-complete-guide/)
 Hướng dẫn chi tiết cách tạo phông chữ in đậm và nghiêng trong C# bằng Aspose.HTML.
+### [Tạo tài liệu HTML trong bộ nhớ với Aspose.HTML – Hướng dẫn đầy đủ](./create-html-document-memory-with-aspose-html-complete-guide/)
+Khám phá cách tạo tài liệu HTML trong bộ nhớ bằng Aspose.HTML, hướng dẫn chi tiết từng bước cho nhà phát triển.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
