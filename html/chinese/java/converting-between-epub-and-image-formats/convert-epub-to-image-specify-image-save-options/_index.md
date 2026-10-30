@@ -8,17 +8,11 @@ url: /zh/java/converting-between-epub-and-image-formats/convert-epub-to-image-sp
 weight: 16
 ---
 
-.
 
-Similarly other link texts: "Aspose.HTML for Java page" -> translate.
 
-Also "Last Updated:" etc.
 
-Make sure to keep list items bullet points.
 
-Now produce final content.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

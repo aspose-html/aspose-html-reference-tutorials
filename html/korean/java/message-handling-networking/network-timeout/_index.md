@@ -9,11 +9,8 @@ url: /ko/java/message-handling-networking/network-timeout/
 weight: 12
 ---
 
-." -> "`new Configuration()`이 성공했는지, 라이브러리 JAR이 클래스패스에 포함되어 있는지 확인하십시오."
 
-FAQs translate.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

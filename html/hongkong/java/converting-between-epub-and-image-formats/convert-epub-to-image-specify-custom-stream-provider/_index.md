@@ -9,9 +9,8 @@ url: /zh-hant/java/converting-between-epub-and-image-formats/convert-epub-to-ima
 weight: 15
 ---
 
-Make sure to keep code block placeholders unchanged.
 
-Now craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

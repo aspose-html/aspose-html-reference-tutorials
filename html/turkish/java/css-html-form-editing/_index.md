@@ -26,12 +26,113 @@ Web geliştirmeye daldığınızda, CSS ve HTML formlarında ustalaşmak bisikle
 Şimdi vites değiştirelim ve Aspose.HTML for Java kullanarak HTML formlarını etkili bir şekilde nasıl düzenleyeceğinizi ve göndereceğinizi inceleyelim. Formlar, web sitelerindeki kullanıcı etkileşiminin kalbidir, değil mi? Bu eğitimle, formların tasarımını ve işlevselliğini kolayca nasıl değiştireceğinizi öğreneceksiniz. Alanları önceden doldurmayı, girdileri özel mantıkla doğrulamayı ve arka ucunuza sorunsuz veri gönderimlerini nasıl kolaylaştıracağınızı keşfedeceksiniz. Şunu hayal edin: kullanıcılarınız sitenizde bir formu doldurabilir ve bilgilerinin güvende ve sağlam olduğunu bilebilir; çünkü yaratmak istediğiniz deneyim türü budur! Bu adım adım kılavuz, her kavramı yol boyunca kavramanızı sağlayan eyleme geçirilebilir içgörülerle doludur.[Devamını oku](./html-form-editing/). 
 
 ## Java için Aspose.HTML ile CSS ve HTML Form Düzenleme Eğitimleri
+
 ### [Java için Aspose.HTML ile Gelişmiş CSS Uzantı Teknikleri](./advanced-css-extension/)
 Özel sayfa kenar boşlukları ve dinamik içerik dahil olmak üzere gelişmiş CSS tekniklerini uygulamak için Aspose.HTML for Java'yı nasıl kullanacağınızı öğrenin. Geliştiriciler için ayrıntılı, uygulamalı bir eğitim.
 ### [Aspose.HTML for Java ile HTML Form Düzenleme ve Gönderimi](./html-form-editing/)
-Bu kapsamlı adım adım kılavuzda, Aspose.HTML for Java'yı kullanarak HTML formlarını programlı olarak nasıl düzenleyeceğinizi ve göndereceğinizi öğrenin.
+### [Java'da Hesaplanmış CSS Almak – Tam Aspose HTML Rehberi](./get-computed-css-in-java-complete-aspose-html-guide/)
+Aspose.HTML for Java ile bir öğenin hesaplanmış CSS stilini nasıl alacağınızı adım adım öğrenin.
+### [Java’da Stil Almak – HTML Yükleme ve Sorgu Seçicisi](./how-to-get-style-in-java-load-html-query-selector/)
+Aspose.HTML for Java kullanarak HTML'den stil bilgilerini yükleyip sorgu seçicileriyle nasıl alacağınızı öğrenin.
 ### [Java’da sınıfa göre öğe seçimi – Tam Kılavuz](./select-element-by-class-in-java-complete-how-to-guide/)
-Java’da belirli bir sınıfa sahip HTML öğelerini seçmeyi ve işlemeyi adım adım öğrenin.
+### [Java’da CSS Okuma – Aspose.HTML ile Tam Kılavuz](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
+Aspose.HTML for Java kullanarak CSS dosyalarını nasıl okuyacağınızı ve analiz edeceğinizi adım adım öğrenin.
+### [Java'da HTML Sorgulama – HTML Yükleme, CSS Seçici ve Başlıkları Çıkarma](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
+Bu eğitimde, Java kullanarak HTML dosyasını yükleyip CSS seçicileriyle başlıkları nasıl çıkaracağınızı öğrenin.
+### [Java ile HTML Ayrıştırma: CSS Özelliğini Çıkar ve Yazı Boyutunu Al](./parse-html-with-java-extract-css-property-and-get-font-size/)
+
+
+
+
+
+
+
+### [Get Computed Style Java – HTML'den Arka Plan Rengini Çıkar](./get-computed-style-java-extract-background-color-from-html/)
+Aspose.HTML for Java kullanarak bir HTML öğesinin hesaplanmış stilinden arka plan rengini nasıl alacağınızı öğrenin.
+
+
+
+
+
+
+### [Java'da Elementin Hesaplanmış Stilini Al – Tam Adım‑Adım Kılavuz](./get-element-computed-style-in-java-full-step-by-step-guide/)
+Aspose.HTML for Java kullanarak bir elementin hesaplanmış stilini nasıl alacağınızı adım adım öğrenin.
+### [Java'da getComputedStyle Kullanımı – Arka Plan Rengini ve Diğer CSS Özelliklerini Çıkarma](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
+Java'da getComputedStyle kullanarak arka plan rengini ve diğer CSS özelliklerini nasıl çıkaracağınızı öğrenin.
+### [Java’da HTML’den CSS Çıkarma – Adım Adım Kılavuz](./extract-css-from-html-in-java-step-by-step-guide/)
+Aspose.HTML for Java kullanarak bir HTML belgesinden CSS stillerini nasıl çıkaracağınızı adım adım öğrenin.
+### [Java’da HTML sorgulama – Öğeleri seçme, öznitelik ile filtreleme ve metin içeriğini alma](./how-to-query-html-in-java-select-elements-filter-by-attribut/)
+Bu eğitimde, Aspose.HTML for Java kullanarak HTML öğelerini seçmeyi, özniteliklerine göre filtrelemeyi ve metin içeriklerini almayı öğrenin.
+### [Java’da CSS Nasıl Alınır – Aspose.HTML ile Hesaplanmış Stil Getirme](./how-to-get-css-in-java-retrieve-computed-style-with-aspose-h/)
+Aspose.HTML for Java kullanarak bir öğenin hesaplanmış stilini elde etmeyi ve CSS değerlerini programatik olarak okumayı öğrenin.
+
+### [Java’da CSS Nasıl Alınır – Aspose.HTML ile Stil Çıkarma Tam Kılavuzu](./how-to-get-css-in-java-complete-guide-to-extract-styles-with/)
+Aspose.HTML for Java kullanarak bir web sayfasından CSS stillerini nasıl çıkaracağınızı adım adım öğrenin.
+### [Java’da CSS okuma – Adım Adım Kılavuz](./how-to-read-css-in-java-step-by-step-guide/)
+Aspose.HTML for Java kullanarak CSS dosyalarını nasıl okuyacağınızı ve analiz edeceğinizi adım adım öğrenin.
+### [Java’da CSS Nasıl Alınır – querySelector ve Computed Style Kullanarak](./how-to-get-css-in-java-using-queryselector-and-computed-styl/)
+querySelector ve computed style kullanarak bir öğenin CSS özelliklerini Java’da programatik olarak elde etmeyi öğrenin.
+
+### [Java’da ID ile öğe al – Hesaplanmış Stillerin Tam Kılavuzu](./get-element-by-id-java-complete-guide-to-computed-styles/)
+Java’da ID ile bir öğenin hesaplanmış stillerini nasıl alacağınızı adım adım öğrenin.
+### [Java’da Stil Almak – Öğeyi Bul ve Arka Planı Oku](./how-to-get-style-in-java-find-element-read-background/)
+Aspose.HTML for Java kullanarak bir öğenin stilini bulup arka plan rengini nasıl okuyacağınızı öğrenin.
+### [Java’da Hesaplanmış Stili Alma – Tam Aspose.HTML Örneği](./how-to-get-computed-style-in-java-full-aspose-html-example/)
+Aspose.HTML for Java kullanarak bir öğenin hesaplanmış stilini elde etmeyi adım adım gösteren tam örnek.
+### [Java’da Hesaplanmış Stil Nasıl Alınır – Tam Aspose.HTML Kılavuzu](./how-to-get-computed-style-in-java-complete-aspose-html-guide/)
+Aspose.HTML for Java kullanarak bir öğenin hesaplanmış stilini nasıl alacağınızı adım adım öğrenin.
+### [Java’da CSS Okuma – Hesaplanmış Stilleri Adım Adım Çıkarma](./how-to-read-css-in-java-extract-computed-styles-step-by-step/)
+Aspose.HTML for Java kullanarak CSS kurallarını okuyup, hesaplanmış stilleri adım adım nasıl çıkaracağınızı öğrenin.
+### [Java’da ID ile öğe alımı – Hesaplanmış stilleri elde etmek için tam rehber](./get-element-by-id-in-java-full-guide-to-retrieve-computed-st/)
+Bu kapsamlı rehberde, Java’da bir öğeyi ID’siyle seçip, hesaplanmış CSS stillerini adım adım nasıl alacağınızı öğrenin.
+### [Sorgu seçici div sınıfı – Java’da bir div’i sınıfına göre seçme ve Hesaplanmış Stili alma](./query-selector-div-class-how-to-select-a-div-by-class-and-ge/)
+Java’da Aspose.HTML kullanarak bir div elementini sınıfına göre seçmeyi ve hesaplanmış stilini elde etmeyi öğrenin.
+### [Java’da CSS Özelliğini Almak – Elemanın Arka Plan Rengini Okuma](./how-to-get-css-property-in-java-read-element-background-colo/)
+Aspose.HTML for Java ile bir öğenin arka plan rengini nasıl okuyacağınızı öğrenin.
+### [Java’da Stil Nasıl Alınır – Aspose.HTML ile Hesaplanmış CSS’yi Getirme](./how-to-get-style-in-java-retrieve-computed-css-with-aspose-h/)
+Aspose.HTML for Java kullanarak bir öğenin hesaplanmış CSS stilini programatik olarak nasıl alacağınızı öğrenin.
+### [Aspose HTML Java’da Stil Alma – Query Selector Kullanımı](./how-to-get-style-in-aspose-html-java-use-query-selector/)
+Aspose.HTML for Java’da querySelector kullanarak bir öğenin stilini nasıl alacağınızı adım adım öğrenin.
+### [Java’da CSS Okuma – Hesaplanmış Stili Al](./how-to-read-css-in-java-get-computed-style/)
+Bu eğitimde, Aspose.HTML for Java ile bir öğenin hesaplanmış CSS stilini nasıl okuyacağınızı öğrenin.
+
+### [Java’da Aspose.HTML ile Stil Alma – Adım Adım Kılavuz](./how-to-get-style-in-java-with-aspose-html-step-by-step-guide/)
+Aspose.HTML for Java kullanarak bir HTML öğesinin stilini nasıl alacağınızı adım adım öğrenin.
+### [Java’da Hesaplanmış Stili Al – Tam Kılavuz](./get-computed-style-in-java-complete-guide/)
+Bu kapsamlı rehberde, Aspose.HTML for Java kullanarak bir öğenin hesaplanmış stilini nasıl alacağınızı öğrenin.
+### [Java’da CSS Okuma – Mobil Ekranı Simüle Etme ve Media Queries Test Etme](./how-to-read-css-in-java-simulate-mobile-screen-test-media-qu/)
+Java’da CSS dosyalarını okuyarak mobil ekranı taklit edin ve media query’leri test edin.
+### [Java’da HTML Yükleme – CSS Renk Çıkarma ile Tam Kılavuz](./how-to-load-html-in-java-full-guide-with-css-color-extractio/)
+Java’da HTML dosyalarını nasıl yükleyeceğinizi ve CSS renklerini nasıl çıkaracağınızı adım adım öğrenin.
+### [Java’da HTML’den CSS Çıkarma – Tam Programlama Kılavuzu](./extract-css-from-html-in-java-complete-programming-guide/)
+Aspose.HTML for Java kullanarak HTML belgelerinden CSS stillerini nasıl çıkaracağınızı adım adım öğrenin.
+### [Java’da CSS Okuma – Tam Aspose.HTML Kılavuzu](./how-to-read-css-in-java-complete-aspose-html-guide/)
+Aspose.HTML for Java kullanarak CSS dosyalarını nasıl okuyacağınızı ve analiz edeceğinizi adım adım öğrenin.
+
+### [Java’da CSS Özellik Değerini Alma – Aspose.HTML ile Tam Kılavuz](./get-css-property-value-in-java-complete-guide-with-aspose-ht/)
+Aspose.HTML for Java kullanarak bir CSS özelliğinin değerini nasıl alacağınızı adım adım öğrenin.
+### [Java’da sınıfa göre HTML öğesini seçme – Tam Kılavuz](./select-html-element-by-class-in-java-complete-guide/)
+Java’da sınıfa göre HTML öğelerini seçerek dinamik içerik oluşturmayı öğrenin.
+### [Devre dışı olmayan buton seçicisi – Java HTML Ayrıştırma Kılavuzu](./css-selector-not-disabled-button-java-html-parsing-guide/)
+Bu rehberde, Java ile Aspose.HTML kullanarak devre dışı olmayan butonları CSS seçicileriyle nasıl seçeceğinizi ve işleyeceğinizi öğrenin.
+### [Java’da Hesaplanmış Stil Nasıl Alınır – Tam Programlama Kılavuzu](./how-to-get-computed-style-java-complete-programming-guide/)
+Aspose.HTML for Java kullanarak bir öğenin hesaplanmış stilini programlı olarak almayı adım adım öğrenin.
+### [Java’da Hesaplanmış Stil Al – CSS Çıkarma Tam Kılavuzu](./get-computed-style-java-complete-guide-to-css-extraction/)
+Aspose.HTML for Java kullanarak bir elementin hesaplanmış stilini almayı ve CSS özelliklerini çıkarmayı adım adım öğrenin.
+### [Java’da CSS Arka Planını Al – Tam Aspose.HTML Kılavuzu](./get-css-background-in-java-complete-aspose-html-guide/)
+Aspose.HTML for Java kullanarak CSS arka planını nasıl alacağınızı ve işleyeceğinizi adım adım öğrenin.
+### [Java’da CSS Kullanımı – HTML Yükleme, Bağlantıları Sayma ve XPath Değerlendirme](./how-to-use-css-in-java-load-html-count-links-evaluate-xpath/)
+Aspose.HTML for Java ile CSS'i nasıl kullanacağınızı, HTML'i nasıl yükleyeceğinizi, bağlantıları nasıl sayıp XPath'i nasıl değerlendireceğinizi öğrenin.
+
+### [Java’da Element Hesaplanmış Stili – Tam Aspose.HTML Kılavuzu](./element-computed-style-in-java-complete-aspose-html-guide/)
+Aspose.HTML for Java ile bir elementin hesaplanmış stilini alıp incelemeyi adım adım öğrenin.
+### [Java’da Hesaplanmış Stili Al – Aspose.HTML ile CSS Grid Hata Ayıklama](./get-computed-style-in-java-debug-css-grid-with-aspose-html/)
+Aspose.HTML for Java kullanarak bir öğenin hesaplanmış stilini alıp CSS Grid düzeninizi hata ayıklamayı öğrenin.
+### [Java’da Element Görüntüleme Değerini Al – Aspose HTML Sandbox Kılavuzu](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
+Aspose.HTML for Java kullanarak bir öğenin display (görünürlük) değerini almayı ve analiz etmeyi öğrenin.
+### [Java’da bir HTML öğesinden CSS nasıl alınır – Tam Kılavuz](./how-to-get-css-from-an-html-element-in-java-complete-guide/)
+Aspose.HTML for Java kullanarak bir HTML öğesinin CSS stilini programatik olarak nasıl alacağınızı adım adım öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -41,7 +41,7 @@ You might be wondering, how does this work in practice? Well, it starts with und
 
 Speaking of convenience, have you ever considered using MHTML? Saving your HTML document as MHTML can be a lifesaver, especially for sharing content that retains its formatting and links effortlessly across platforms. It’s akin to creating a self-contained book where all the chapters and illustrations are bound together. With Aspose.HTML for Java, this process is straightforward and efficient.
 
-If you’re ready to step into the realm of MHTML, our guide on how to [Save HTML to MHTML in Aspose.HTML for Java](./save-html-to-mhtml/) will walk you through the steps. You’ll not only learn about the syntax but also gain insights into practical usage scenarios that can enhance your projects. 
+If you're ready to step into the realm of MHTML, our guide on how to [Save HTML to MHTML in Aspose.HTML for Java](./save-html-to-mhtml/) will walk you through the steps. You'll not only learn about the syntax but also gain insights into practical usage scenarios that can enhance your projects. 
 
 ## Saving HTML Documents in Aspose.HTML for Java Tutorials
 ### [Save HTML Document in Aspose.HTML for Java](./save-html-document/)
@@ -52,6 +52,8 @@ Learn how to save an HTML document to a file using Aspose.HTML for Java, perfect
 Easily convert HTML to Markdown using Aspose.HTML for Java. Follow this step-by-step guide for smooth content conversion and manipulation.
 ### [Save HTML to MHTML in Aspose.HTML for Java](./save-html-to-mhtml/)
 Learn how to save HTML documents as MHTML using Aspose.HTML for Java with this step-by-step guide, complete with code examples and practical tips.
+### [save webpage as mhtml with Aspose HTML for Java – Step‑by‑Step Guide](./save-webpage-as-mhtml-with-aspose-html-for-java-step-by-step/)
+Step-by-step guide to saving a webpage as MHTML using Aspose.HTML for Java, covering code examples and best practices.
 ### [Save SVG Document in Aspose.HTML for Java](./save-svg-document/)
 Learn how to save SVG documents using Aspose.HTML for Java with this easy step-by-step guide packed with examples.
 {{< /blocks/products/pf/tutorial-page-section >}}
