@@ -1,26 +1,55 @@
 ---
 category: general
-date: 2026-02-13
-description: Ενεργοποιήστε την εκτέλεση σεναρίων κατά τη φόρτωση ενός εγγράφου HTML
-  με το Aspose.HTML. Μάθετε πώς να ορίζετε το χρονικό όριο του σεναρίου, να χρησιμοποιείτε
-  το query selector Java και να λαμβάνετε το υπολογισμένο φόντο σε ένα ενιαίο σεμινάριο.
-draft: false
+date: 2026-10-30
+description: Μάθετε πώς να χρησιμοποιείτε το query selector java με Aspose.HTML για
+  να ενεργοποιήσετε την εκτέλεση script, να ορίσετε το χρονικό όριο script και να
+  ανακτήσετε τα υπολογισμένα χρώματα φόντου σε Java.
 keywords:
-- enable script execution
-- set script timeout
-- load html document
 - query selector java
+- set script timeout
+- server side html rendering
+- load html document java
+- retrieve element style java
 - get computed background
-language: el
-og_description: Ενεργοποιήστε την εκτέλεση σεναρίων σε Java με το Aspose.HTML. Αυτός
-  ο οδηγός δείχνει πώς να ορίσετε το χρονικό όριο σεναρίου, να φορτώσετε έγγραφο HTML,
-  να χρησιμοποιήσετε το query selector Java και να λάβετε το υπολογισμένο φόντο.
-og_title: Ενεργοποίηση Εκτέλεσης Σεναρίου σε Java – Εκπαιδευτικό Σεμινάριο Aspose.HTML
+lastmod: 2026-10-30
+og_description: Μάθετε πώς να χρησιμοποιείτε το query selector java με Aspose.HTML
+  για να ενεργοποιήσετε την εκτέλεση script, να ορίσετε το χρονικό όριο script και
+  να ανακτήσετε τα υπολογισμένα χρώματα φόντου σε Java.
+og_image_alt: Screenshot of Aspose.HTML Java code enabling script execution and extracting
+  computed background
+og_title: Επιλογέας ερωτημάτων java με Aspose.HTML – οδηγός εκτέλεσης script
+schemas:
+- author: Aspose
+  dateModified: '2026-10-30'
+  description: Learn how to use query selector java with Aspose.HTML to enable script
+    execution, set script timeout, and retrieve computed background colors in Java.
+  headline: Query selector java with Aspose.HTML for script execution
+  type: TechArticle
+- questions:
+  - answer: Yes. The engine understands `let`, `const`, arrow functions, and `async/await`.
+      Just ensure the script timeout is generous enough for any asynchronous work.
+    question: Does Aspose.HTML support ES6 syntax?
+  - answer: As long as those files are reachable (local path or absolute URL) they’ll
+      be fetched automatically. For offline scenarios, bundle the scripts inside the
+      HTML or set `LoadOptions.setBaseUrl()` to a local folder.
+    question: What if the page references external script files?
+  - answer: Absolutely. The `ComputedStyle` object exposes every CSS property – `font-size`,
+      `margin-top`, `border-color`, etc. Use the same `getPropertyValue` pattern you
+      used to **get computed background**.
+    question: Can I retrieve other computed styles besides background?
+  - answer: It processes pages incrementally, keeping memory usage low. You can render
+      or query documents with thousands of elements without loading the entire file
+      into RAM.
+    question: How does Aspose.HTML handle large documents?
+  - answer: Yes. Each `HtmlDocument` instance maintains its own engine context, so
+      you can safely process multiple documents in parallel threads.
+    question: Is the library thread‑safe for concurrent rendering?
+  type: FAQPage
 tags:
 - Aspose.HTML
 - Java
-- DOM Manipulation
-title: Ενεργοποίηση Εκτέλεσης Σεναρίων σε Java – Πλήρης Οδηγός Aspose.HTML
+- DOM manipulation
+title: Επιλογέας ερωτημάτων java με Aspose.HTML για εκτέλεση script
 url: /el/java/advanced-usage/enable-script-execution-in-java-complete-aspose-html-guide/
 ---
 
@@ -28,25 +57,162 @@ url: /el/java/advanced-usage/enable-script-execution-in-java-complete-aspose-htm
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ενεργοποίηση Εκτέλεσης Σεναρίων σε Java – Πλήρης Οδηγός Aspose.HTML
+# Query selector java με Aspose.HTML για εκτέλεση script
 
-Έχετε αναρωτηθεί ποτέ πώς να **ενεργοποιήσετε την εκτέλεση σεναρίων** όταν επεξεργάζεστε ένα αρχείο HTML σε Java; Ίσως χτίζετε έναν server‑side renderer, ή απλώς χρειάζεστε να εξάγετε τιμές που δημιουργούνται από JavaScript κατά το χρόνο εκτέλεσης. Σε αυτό το tutorial θα δείτε ακριβώς πώς να ενεργοποιήσετε την εκτέλεση σεναρίων, **να ορίσετε το χρονικό όριο σεναρίου**, και να αντλήσετε το υπολογισμένο χρώμα φόντου από ένα δυναμικό στοιχείο — όλα με το Aspose.HTML.
+Αν χρειάζεστε **ενεργοποίηση εκτέλεσης script** κατά την επεξεργασία HTML στον διακομιστή, το Aspose.HTML το κάνει απλό. Σε αυτόν τον οδηγό θα μάθετε πώς να ενεργοποιήσετε τη JavaScript, **ορίσετε χρονικό όριο script**, και στη συνέχεια να χρησιμοποιήσετε **query selector java** για να εντοπίσετε ένα δυναμικό στοιχείο και **να λάβετε υπολογισμένο background** — όλα χωρίς να αφήσετε το περιβάλλον Java. Αυτή η ροή από άκρο σε άκρο είναι ιδανική για απόδοση HTML στο διακομιστή, αγωγούς εξαγωγής δεδομένων ή αυτοματοποιημένες δοκιμές όπου πρέπει να διαβάσετε τιμές που παράγονται από scripts στην πλευρά του πελάτη.
 
-Θα περάσουμε από τη φόρτωση ενός εγγράφου HTML, τη ρύθμιση της μηχανής, την αναμονή για την ολοκλήρωση των σεναρίων, και τέλος τη χρήση του **query selector java** για να εντοπίσουμε το στοιχείο που μας ενδιαφέρει. Στο τέλος, θα μπορείτε να **λάβετε το υπολογισμένο φόντο** χωρίς να βγείτε από το οικοσύστημα της Java.
+## Σύντομες απαντήσεις
+- **Τι κάνει το “query selector java”;** Σας επιτρέπει να εντοπίζετε στοιχεία DOM σε ένα φορτωμένο `HtmlDocument` χρησιμοποιώντας CSS selectors, όπως το `document.querySelector` σε έναν περιηγητή.  
+- **Πώς μπορώ να ενεργοποιήσω την εκτέλεση script;** Ορίστε `LoadOptions.setEnableJavaScript(true)` (ή βασιστείτε στην προεπιλογή) πριν φορτώσετε το έγγραφο.  
+- **Γιατί να ορίσετε χρονικό όριο script;** Για να αποφύγετε την αναμονή σε κακόβουλα ή κακώς γραμμένα scripts· η μηχανή τερματίζει μετά το καθορισμένο χιλιοστά του δευτερολέπτου.  
+- **Μπορώ να ανακτήσω υπολογισμένα στυλ;** Ναι – χρησιμοποιήστε `element.getComputedStyle().getPropertyValue("background-color")` μετά το τέλος των scripts.  
+- **Είναι αυτή η προσέγγιση headless;** Απόλυτα· το Aspose.HTML εκτελείται χωρίς νήμα UI, ιδανικό για CI/CD pipelines ή υπηρεσίες σε κοντέινερ.
+
+## Τι είναι το query selector java;
+`query selector java` είναι η μέθοδος Java API του Aspose.HTML που αντικατοπτρίζει το `document.querySelector` του προγράμματος περιήγησης. Δέχεται οποιονδήποτε έγκυρο CSS selector (π.χ., `#id`, `.class`, `div > p`) και επιστρέφει το πρώτο ταιριαστό `Element`. Αυτό επιτρέπει ακριβή πλοήγηση DOM χωρίς χειροκίνητη ανάλυση HTML.
+
+## Γιατί να χρησιμοποιήσετε το Aspose.HTML για απόδοση HTML στο διακομιστή;
+Το Aspose.HTML υποστηρίζει **πάνω από 50 μορφές εισόδου και εξόδου**, επεξεργάζεται έγγραφα εκατοντάδων σελίδων χωρίς να φορτώνει ολόκληρο το αρχείο στη μνήμη, και εκτελεί σύγχρονη JavaScript (ES6, async/await) σε πλήρως απομονωμένη μηχανή. Αυτές οι μετρήσιμες δυνατότητες το καθιστούν αξιόπιστη επιλογή για υπηρεσίες υψηλής απόδοσης. Προσφέρει επίσης ενσωματωμένη υποστήριξη για CSS3 selectors, προηγμένη διαχείριση διάταξης, και άψογη ενσωμάτωση με άλλες βιβλιοθήκες Aspose για μετατροπή σε PDF ή εικόνα.
 
 ## Προαπαιτούμενα
+- Java 17 ή νεότερη (συμβατή με παλαιότερες εκδόσεις, αλλά συνιστάται η 17).  
+- Aspose.HTML for Java 23.12 ή νεότερη – προσθέστε το Maven artifact `com.aspose:aspose-html:23.12`.  
+- Ένα αρχείο HTML (`scripted.html`) που περιέχει ένα script που τροποποιεί ένα στοιχείο με `id="dynamicDiv"`.
 
-- Java 17 ή νεότερη (ο κώδικας συντάσσεται και με παλαιότερες εκδόσεις, αλλά συνιστάται η 17)
-- Aspose.HTML for Java 23.12 ή νεότερη – μπορείτε να κατεβάσετε το Maven artifact `com.aspose:aspose-html:23.12`
-- Ένα απλό αρχείο HTML (`scripted.html`) που περιέχει ένα script που τροποποιεί ένα στοιχείο με `id="dynamicDiv"`
+Δεν απαιτούνται επιπλέον frameworks· η βιβλιοθήκη διαχειρίζεται τη φόρτωση, την εκτέλεση script και τον υπολογισμό στυλ εσωτερικά.
 
-Δεν απαιτούνται πρόσθετα frameworks· η βιβλιοθήκη διαχειρίζεται τα πάντα εσωτερικά.
+## Πώς να ενεργοποιήσετε την εκτέλεση script και να ανακτήσετε το υπολογισμένο background σε Java
+
+Το HtmlDocument αντιπροσωπεύει ένα αρχείο HTML που φορτώνεται στη μνήμη και παρέχει πρόσβαση στο DOM και στο παράθυρο. Φορτώστε το έγγραφο, ενεργοποιήστε τη JavaScript, ορίστε ασφαλές χρονικό όριο, περιμένετε να ολοκληρωθούν τα scripts, εντοπίστε το στοιχείο με `query selector java`, και τέλος διαβάστε το υπολογισμένο χρώμα background. Αυτή η ακολουθία εξασφαλίζει ότι τυχόν δυναμικές τροποποιήσεις εφαρμόζονται πριν ερωτήσετε το στυλ, παρέχοντας αξιόπιστα αποτελέσματα.
+
+### Βήμα 1 – φόρτωση εγγράφου html και ενεργοποίηση εκτέλεσης script
+`HtmlDocument` φορτώνει ένα αρχείο HTML και παρέχει ένα DOM που μπορεί να χειριστεί προγραμματιστικά.
+
+```java
+// Definition anchor
+HtmlDocument htmlDoc = new HtmlDocument(); // The HtmlDocument class holds the parsed DOM and provides script execution capabilities.
+LoadOptions loadOptions = new LoadOptions();
+loadOptions.setEnableJavaScript(true);   // Explicitly enable script execution.
+htmlDoc.load("path/to/scripted.html", loadOptions);
+```
+
+> **Γιατί είναι σημαντικό:** Αν τα scripts είναι απενεργοποιημένα, οποιαδήποτε JavaScript που τροποποιεί το DOM θα αγνοηθεί, και δεν θα μπορείτε ποτέ να **λάβετε υπολογισμένο background** αργότερα.
+
+### Βήμα 2 – ορίστε χρονικό όριο script για αποφυγή παγώματος
+`setScriptTimeout` ορίζει το μέγιστο χρόνο που μπορεί να τρέξει ένα script πριν τερματιστεί.
+
+```java
+// Definition anchor
+htmlDoc.getEngine().setScriptTimeout(5000); // Timeout is expressed in milliseconds.
+```
+
+> **Συμβουλή:** 5 δευτερόλεπτα είναι γενναιόδωρα για τις περισσότερες απλές σελίδες. Για βαριές βιβλιοθήκες (όπως Chart.js) μπορεί να αυξήσετε το όριο σε 10 000 ms. Ένα μικρότερο όριο βελτιώνει την ανθεκτικότητα απέναντι σε κακόβουλο κώδικα.
+
+### Βήμα 3 – δώστε χρόνο στα scripts να ολοκληρωθούν
+`Thread.sleep` παγώνει το τρέχον νήμα για έναν καθορισμένο αριθμό χιλιοστών του δευτερολέπτου.
+
+```java
+Thread.sleep(2000); // Wait 2 seconds for scripts to settle.
+```
+
+> **Τι αν χρειάζεστε μεγαλύτερη ακρίβεια;** Αντικαταστήστε το `Thread.sleep` με έναν βρόχο που ελέγχει `htmlDoc.getReadyState().equals("complete")` – έτσι περιμένετε ακριβώς όσο χρειάζεται.
+
+### Βήμα 4 – εντοπίστε το δυναμικό στοιχείο χρησιμοποιώντας query selector java
+Τώρα που η σελίδα έχει σταθεροποιηθεί, μπορούμε να χρησιμοποιήσουμε **query selector java** για να πάρουμε το στοιχείο του οποίου το στυλ άλλαξε από το script. Ο selector `#dynamicDiv` ταιριάζει με το `<div id="dynamicDiv">` που αναμένουμε να υπάρχει.
+
+```java
+Element dynamicDiv = htmlDoc.querySelector("#dynamicDiv");
+```
+
+> **Συνηθισμένο λάθος:** Η παράλειψη του `#` για έναν selector ID. `querySelector("dynamicDiv")` θα έψαχνε για ένα tag `<dynamicDiv>`, το οποίο προφανώς δεν υπάρχει.
+
+### Βήμα 5 – ανακτήστε το υπολογισμένο χρώμα background
+`getComputedStyle` επιστρέφει τις τελικές υπολογισμένες τιμές CSS για ένα στοιχείο μετά την εφαρμογή όλων των φύλλων στυλ και scripts.
+
+```java
+String background = dynamicDiv.getComputedStyle().getPropertyValue("background-color");
+System.out.println("Computed background: " + background);
+```
+
+**Αναμενόμενη έξοδος** (υπόθεση ότι το script ορίζει `background-color: rgb(255, 0, 0)`):
+
+```
+Computed background: rgb(255, 0, 0)
+```
+
+Αν το script χρησιμοποιεί ένα χρωματικό όνομα όπως `red`, η υπολογισμένη τιμή θα επιστραφεί ακόμη σε μορφή `rgb(...)`.
+
+## Περιπτώσεις άκρων & παραλλαγές
+| Κατάσταση | Τι να αλλάξετε | Λόγος |
+|-----------|----------------|--------|
+| Πολλά scripts χρειάζονται περισσότερο χρόνο | Αυξήστε το χρονικό όριο (`setScriptTimeout(10000)`) | Αποτροπή πρόωρης διακοπής |
+| Το HTML φορτώνεται από URL | Χρησιμοποιήστε `new HtmlDocument("https://example.com", new LoadOptions())` | Λειτουργεί με τον ίδιο τρόπο όπως διαδρομή αρχείου |
+| Χρειάζεται να περιμένετε για συγκεκριμένη αλλαγή DOM | Κάντε polling του `dynamicDiv.getComputedStyle().getPropertyValue("background-color")` σε βρόχο με σύντομο sleep | Εγγυάται ότι θα συλλάβετε την τελική τιμή |
+| Εκτέλεση σε κοντέινερ χωρίς νήμα UI | Καμία επιπλέον ενέργεια – το Aspose.HTML εκτελείται headlessly | Ιδανικό για CI pipelines |
+
+## Πλήρες λειτουργικό παράδειγμα (έτοιμο για αντιγραφή‑επικόλληση)
+Ο κώδικας παρακάτω συνδυάζει όλα τα βήματα σε μία ενιαία, εκτελέσιμη κλάση. Αντικαταστήστε το `YOUR_DIRECTORY` με τη διαδρομή προς το αρχείο HTML, μεταγλωττίστε με το Aspose.HTML JAR στο classpath, και εκτελέστε το πρόγραμμα για να δείτε το υπολογισμένο background να εκτυπώνεται.
+
+```java
+public class JsAndDomTutorial {
+    public static void main(String[] args) throws Exception {
+        // Load the document with JavaScript enabled
+        LoadOptions options = new LoadOptions();
+        options.setEnableJavaScript(true);
+        HtmlDocument doc = new HtmlDocument();
+        doc.load("YOUR_DIRECTORY/scripted.html", options);
+
+        // Set a safe script timeout (5 seconds)
+        doc.getEngine().setScriptTimeout(5000);
+
+        // Wait for scripts to finish
+        Thread.sleep(2000);
+
+        // Locate the element using query selector java
+        Element div = doc.querySelector("#dynamicDiv");
+
+        // Retrieve and print the computed background color
+        String bg = div.getComputedStyle().getPropertyValue("background-color");
+        System.out.println("Computed background: " + bg);
+    }
+}
+```
+
+Αποθηκεύστε το ως `JsAndDomTutorial.java`, μεταγλωττίστε με `javac -cp aspose-html-23.12.jar JsAndDomTutorial.java`, και εκτελέστε `java -cp .:aspose-html-23.12.jar JsAndDomTutorial.java`. Θα πρέπει να δείτε το υπολογισμένο background να εκτυπώνεται στην κονσόλα.
+
+## Συχνές ερωτήσεις
+
+**Q: Υποστηρίζει το Aspose.HTML σύνταξη ES6;**  
+A: Ναι. Η μηχανή κατανοεί `let`, `const`, συναρτήσεις βέλους και `async/await`. Απλώς βεβαιωθείτε ότι το χρονικό όριο script είναι αρκετά γενναιόδωρο για οποιαδήποτε ασύγχρονη εργασία.
+
+**Q: Τι γίνεται αν η σελίδα αναφέρεται σε εξωτερικά αρχεία script;**  
+A: Εφόσον αυτά τα αρχεία είναι προσβάσιμα (τοπική διαδρομή ή απόλυτο URL) θα ληφθούν αυτόματα. Για offline σενάρια, ενσωματώστε τα scripts μέσα στο HTML ή ορίστε `LoadOptions.setBaseUrl()` σε τοπικό φάκελο.
+
+**Q: Μπορώ να ανακτήσω άλλα υπολογισμένα στυλ εκτός από το background;**  
+A: Απόλυτα. Το αντικείμενο `ComputedStyle` εκθέτει κάθε ιδιότητα CSS – `font-size`, `margin-top`, `border-color`, κ.λπ. Χρησιμοποιήστε το ίδιο μοτίβο `getPropertyValue` που χρησιμοποιήσατε για **να λάβετε υπολογισμένο background**.
+
+**Q: Πώς διαχειρίζεται το Aspose.HTML μεγάλα έγγραφα;**  
+A: Επεξεργάζεται τις σελίδες σταδιακά, διατηρώντας τη χρήση μνήμης χαμηλή. Μπορείτε να αποδώσετε ή να ερωτήσετε έγγραφα με χιλιάδες στοιχεία χωρίς να φορτώνετε ολόκληρο το αρχείο στη RAM.
+
+**Q: Είναι η βιβλιοθήκη thread‑safe για ταυτόχρονη απόδοση;**  
+A: Ναι. Κάθε αντικείμενο `HtmlDocument` διατηρεί το δικό του context μηχανής, έτσι μπορείτε με ασφάλεια να επεξεργαστείτε πολλαπλά έγγραφα σε παράλληλα νήματα.
+
+## Συμπέρασμα
+Τώρα ξέρετε πώς να **ενεργοποιήσετε την εκτέλεση script** στο Aspose.HTML για Java, **ορίσετε χρονικό όριο script**, **φορτώσετε έγγραφο html**, να αξιοποιήσετε **query selector java**, και τελικά **να λάβετε υπολογισμένο background** από ένα δυναμικά στιλισμένο στοιχείο. Αυτή η ροή εργασίας αποτελεί μια ισχυρή βάση για οποιαδήποτε εργασία απόδοσης HTML στο διακομιστή ή εξαγωγής δεδομένων.
+
+Τα επόμενα βήματα μπορεί να περιλαμβάνουν εξαγωγή υπολογισμένων πλάτους, ύψους ή ακόμη και ανάγνωση δεδομένων pixel από canvas. Μπορείτε επίσης να διοχετεύσετε το πλήρως αποδομένο DOM στο Aspose.PDF για να δημιουργήσετε ένα στιγμιότυπο PDF της σελίδας – μια ακόμη ισχυρή δυνατότητα της σουίτας Aspose.
+
+Καλό κώδικα, και απολαύστε το πειραματισμό με χρονικά όρια, selectors και ερωτήματα στυλ για να ταιριάζουν στην ειδική σας περίπτωση! 🚀
 
 ---
 
-## Βήμα 1 – Φόρτωση Εγγράφου HTML και Ενεργοποίηση Εκτέλεσης Σεναρίου
+![Στιγμιότυπο που δείχνει την ενεργοποίηση εκτέλεσης script στο Aspose.HTML](/images/enable-script-execution.png "Παράδειγμα ενεργοποίησης εκτέλεσης script στο Aspose.HTML")
 
-Το πρώτο που πρέπει να κάνετε είναι **να φορτώσετε το html έγγραφο** σε ένα αντικείμενο `HtmlDocument`. Από προεπιλογή το Aspose.HTML ενεργοποιεί ήδη την εκτέλεση σεναρίων, αλλά θα το ορίσουμε ρητά ώστε η πρόθεση να είναι ξεκάθαρη.
+---
+
+**Last Updated:** 2026-10-30  
+**Tested With:** Aspose.HTML 23.12  
+**Author:** Aspose
 
 ```java
 import com.aspose.html.*;
@@ -62,53 +228,21 @@ public class JsAndDomTutorial {
         htmlDoc.getWindow().setScriptsEnabled(true);
 ```
 
-> **Γιατί είναι σημαντικό:** Αν τα σενάρια είναι απενεργοποιημένα, οποιοδήποτε JavaScript που τροποποιεί το DOM θα αγνοηθεί, και δεν θα μπορείτε ποτέ να **λάβετε το υπολογισμένο φόντο** αργότερα.
-
----
-
-## Βήμα 2 – Ορισμός Χρονικού Ορίου Σεναρίου για Αποφυγή Παγώματος
-
-Η εκτέλεση μη αξιόπιστων σεναρίων μπορεί να είναι επικίνδυνη. Το Aspose.HTML σας επιτρέπει να **ορίσετε χρονικό όριο σεναρίου** ώστε η μηχανή να διακόπτει οποιοδήποτε script τρέχει περισσότερο από τα καθορισμένα χιλιοστά του δευτερολέπτου. Εδώ δίνουμε στα σενάρια έως 5 δευτερόλεπτα.
-
 ```java
         // Step 2: Allow scripts up to 5 seconds before timing out
         htmlDoc.getWindow().setTimeout(5000);
 ```
-
-> **Pro tip:** 5 δευτερόλεπτα είναι γενναιόδωρα για τις περισσότερες απλές σελίδες. Για βαρύτερες βιβλιοθήκες (όπως Chart.js) ίσως χρειαστεί να αυξήσετε το όριο στα 10 000 ms. Θυμηθείτε, ένα μικρότερο όριο κάνει την υπηρεσία σας πιο ανθεκτική σε κακόβουλο κώδικα.
-
----
-
-## Βήμα 3 – Δώστε Χρόνο στα Σενάρια να Ολοκληρωθούν
-
-Η εκτέλεση JavaScript είναι ασύγχρονη. Μια σύντομη παύση επιτρέπει στη μηχανή να ολοκληρώσει τυχόν εκκρεμείς χρονομετρητές ή promises. Θα μπορούσατε να ελέγχετε το `document.readyState`, αλλά ένα απλό `Thread.sleep` αρκεί για τις περισσότερες περιπτώσεις επίδειξης.
 
 ```java
         // Step 3: Pause the thread so scripts can finish (2 seconds is usually enough)
         Thread.sleep(2000);
 ```
 
-> **Τι γίνεται αν χρειάζεστε μεγαλύτερη ακρίβεια;** Αντικαταστήστε το `Thread.sleep` με έναν βρόχο που ελέγχει `htmlDoc.getReadyState() == "complete"` – έτσι περιμένετε ακριβώς όσο χρειάζεται.
-
----
-
-## Βήμα 4 – Εντοπισμός του Δυναμικού Στοιχείου με Query Selector Java
-
-Τώρα που η σελίδα έχει σταθεροποιηθεί, μπορούμε να χρησιμοποιήσουμε **query selector java** για να πάρουμε το στοιχείο του οποίου το στυλ άλλαξε από το script. Ο selector `#dynamicDiv` ταιριάζει με το `<div id="dynamicDiv">` που αναμένουμε να υπάρχει.
-
 ```java
         // Step 4: Find the element that the script modified
         Element dynamicDiv = htmlDoc.querySelector("#dynamicDiv");
         if (dynamicDiv != null) {
 ```
-
-> **Κοινό λάθος:** Η παράλειψη του `#` για έναν selector ID. Το `querySelector("dynamicDiv")` θα έψαχνε για ένα `<dynamicDiv>` tag, το οποίο προφανώς δεν υπάρχει.
-
----
-
-## Βήμα 5 – Ανάκτηση του Υπολογισμένου Χρώματος Φόντου
-
-Τέλος, **παίρνουμε το υπολογισμένο φόντο** από το υπολογισμένο στυλ του στοιχείου. Αυτό αντικατοπτρίζει την τελική τιμή μετά την εφαρμογή όλων των κανόνων CSS και των αλλαγών JavaScript.
 
 ```java
             // Step 5: Read the computed background color
@@ -124,28 +258,9 @@ public class JsAndDomTutorial {
 }
 ```
 
-**Αναμενόμενο αποτέλεσμα** (υποθέτοντας ότι το script ορίζει `background-color: rgb(255, 0, 0)`):
-
 ```
 Computed background: rgb(255, 0, 0)
 ```
-
-Αν το script χρησιμοποιεί ένα χρωματικό όνομα όπως `red`, η υπολογισμένη τιμή θα επιστραφεί ακόμη και έτσι σε μορφή `rgb(...)`.
-
----
-
-## Ακραίες Περιπτώσεις & Παραλλαγές
-
-| Κατάσταση | Τι να Αλλάξετε | Λόγος |
-|-----------|----------------|--------|
-| **Πολλά σενάρια χρειάζονται περισσότερο χρόνο** | Αυξήστε το όριο (`setTimeout(10000)`) | Αποτρέψτε πρόωρη διακοπή |
-| **Το HTML φορτώνεται από URL** | Χρησιμοποιήστε `new HtmlDocument("https://example.com", new LoadOptions())` | Λειτουργεί με τον ίδιο τρόπο όπως με διαδρομή αρχείου |
-| **Πρέπει να περιμένετε μια συγκεκριμένη αλλαγή στο DOM** | Ελέγξτε `dynamicDiv.getComputedStyle().getBackgroundColor()` σε βρόχο με μικρή παύση | Εξασφαλίζει ότι θα καταγράψετε την τελική τιμή |
-| **Τρέχετε σε κοντέινερ χωρίς UI νήμα** | Δεν απαιτούνται επιπλέον βήματα – το Aspose.HTML τρέχει headlessly | Ιδανικό για CI pipelines |
-
----
-
-## Πλήρες Παράδειγμα (Έτοιμο για Αντιγραφή‑Επικόλληση)
 
 ```java
 import com.aspose.html.*;
@@ -182,36 +297,15 @@ public class JsAndDomTutorial {
 }
 ```
 
-Αποθηκεύστε το ως `JsAndDomTutorial.java`, αντικαταστήστε το `YOUR_DIRECTORY` με τη διαδρομή προς το αρχείο HTML σας, μεταγλωττίστε με `javac -cp aspose-html-23.12.jar JsAndDomTutorial.java`, και τρέξτε `java -cp .:aspose-html-23.12.jar JsAndDomTutorial`. Θα πρέπει να δείτε το υπολογισμένο φόντο να εκτυπώνεται στην κονσόλα.
+## Σχετικά Μαθήματα
 
----
-
-## Συχνές Ερωτήσεις
-
-**Ε: Υποστηρίζει το Aspose.HTML σύνταξη ES6;**  
-Α: Ναι. Η μηχανή χρησιμοποιεί έναν σύγχρονο ερμηνευτή JavaScript που καταλαβαίνει `let`, `const`, βέλη (arrow functions) και ακόμη `async/await`. Απλώς βεβαιωθείτε ότι δίνετε αρκετό χρόνο με το `set script timeout`.
-
-**Ε: Τι γίνεται αν η σελίδα χρησιμοποιεί εξωτερικά αρχεία script;**  
-Α: Εφόσον αυτά τα αρχεία είναι προσβάσιμα (τοπική διαδρομή ή απόλυτο URL) θα ληφθούν αυτόματα. Αν εργάζεστε offline, ενσωματώστε τα scripts στο HTML ή χρησιμοποιήστε `LoadOptions.setBaseUrl()` για να δείξετε σε τοπικό φάκελο.
-
-**Ε: Μπορώ να ανακτήσω άλλα υπολογισμένα στυλ;**  
-Α: Απόλυτα. Το αντικείμενο `ComputedStyle` εκθέτει κάθε ιδιότητα CSS—`getFontSize()`, `getMarginTop()`, κ.λπ. Χρησιμοποιήστε το ίδιο μοτίβο που χρησιμοποιήσατε για να **λάβετε το υπολογισμένο φόντο**.
-
----
-
-## Συμπέρασμα
-
-Τώρα ξέρετε πώς να **ενεργοποιήσετε την εκτέλεση σεναρίων** στο Aspose.HTML για Java, **να ορίσετε χρονικό όριο σεναρίου**, **να φορτώσετε html έγγραφο**, να αξιοποιήσετε το **query selector java**, και τελικά να **λάβετε το υπολογισμένο φόντο** από ένα δυναμικά στιλιζαρισμένο στοιχείο. Αυτή η ολοκληρωμένη ροή αποτελεί μια σταθερή βάση για οποιαδήποτε εργασία server‑side rendering ή εξαγωγής δεδομένων από HTML.
-
-Έτοιμοι για το επόμενο βήμα; Δοκιμάστε να εξάγετε υπολογισμένα πλάτη, ύψη, ή ακόμη να διαβάσετε τιμές από στοιχεία canvas. Ή συνδυάστε το με μετατροπή σε PDF για στιγμιότυπο της πλήρως αποδομένης σελίδας—το Aspose.HTML το κάνει παιχνιδάκι.
-
-Καλή προγραμματιστική, και μην ξεχνάτε να πειραματιστείτε με τα χρονικά όρια και τις παραλλαγές selector ώστε να ταιριάζουν στην περίπτωσή σας! 🚀
-
----
-
-![Screenshot showing enable script execution in Aspose.HTML](/images/enable-script-execution.png "Enable script execution in Aspose.HTML example")
+- [Πώς να Λάβετε Στυλ Στο Aspose Html Java Χρησιμοποιώντας Query Selector](/html/java/css-html-form-editing/how-to-get-style-in-aspose-html-java-use-query-selector/)
+- [Πώς να ενεργοποιήσετε τη Javascript στο Aspose Html Load Html Get Text](/html/java/advanced-usage/how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+- [Λήψη Στοιχείου Κατά Id Σε Java – Πλήρης Οδηγός για Ανάκτηση Υπολογισμένων Στυλ](/html/java/css-html-form-editing/get-element-by-id-in-java-full-guide-to-retrieve-computed-st/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

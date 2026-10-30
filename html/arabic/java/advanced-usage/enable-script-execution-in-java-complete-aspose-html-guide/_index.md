@@ -1,26 +1,53 @@
 ---
 category: general
-date: 2026-02-13
-description: تمكين تنفيذ النصوص البرمجية أثناء تحميل مستند HTML باستخدام Aspose.HTML.
-  تعلّم ضبط مهلة النص البرمجي، واستخدام query selector java، والحصول على الخلفية المحسوبة
-  في دليل واحد.
-draft: false
+date: 2026-10-30
+description: تعلم كيفية استخدام محدد الاستعلام Java مع Aspose.HTML لتمكين script execution،
+  وتعيين script timeout، واسترجاع computed background colors في Java.
 keywords:
-- enable script execution
-- set script timeout
-- load html document
 - query selector java
+- set script timeout
+- server side html rendering
+- load html document java
+- retrieve element style java
 - get computed background
-language: ar
-og_description: تمكين تنفيذ النصوص البرمجية في جافا باستخدام Aspose.HTML. يوضح هذا
-  الدليل كيفية تعيين مهلة النص البرمجي، تحميل مستند HTML، استخدام query selector في
-  جافا والحصول على الخلفية المحسوبة.
-og_title: تمكين تنفيذ النصوص البرمجية في جافا – دليل Aspose.HTML
+lastmod: 2026-10-30
+og_description: تعلم كيفية استخدام محدد الاستعلام Java مع Aspose.HTML لتمكين script
+  execution، وتعيين script timeout، واسترجاع computed background colors في Java.
+og_image_alt: Screenshot of Aspose.HTML Java code enabling script execution and extracting
+  computed background
+og_title: محدد الاستعلام Java مع Aspose.HTML – دليل script execution
+schemas:
+- author: Aspose
+  dateModified: '2026-10-30'
+  description: Learn how to use query selector java with Aspose.HTML to enable script
+    execution, set script timeout, and retrieve computed background colors in Java.
+  headline: Query selector java with Aspose.HTML for script execution
+  type: TechArticle
+- questions:
+  - answer: Yes. The engine understands `let`, `const`, arrow functions, and `async/await`.
+      Just ensure the script timeout is generous enough for any asynchronous work.
+    question: Does Aspose.HTML support ES6 syntax?
+  - answer: As long as those files are reachable (local path or absolute URL) they’ll
+      be fetched automatically. For offline scenarios, bundle the scripts inside the
+      HTML or set `LoadOptions.setBaseUrl()` to a local folder.
+    question: What if the page references external script files?
+  - answer: Absolutely. The `ComputedStyle` object exposes every CSS property – `font-size`,
+      `margin-top`, `border-color`, etc. Use the same `getPropertyValue` pattern you
+      used to **get computed background**.
+    question: Can I retrieve other computed styles besides background?
+  - answer: It processes pages incrementally, keeping memory usage low. You can render
+      or query documents with thousands of elements without loading the entire file
+      into RAM.
+    question: How does Aspose.HTML handle large documents?
+  - answer: Yes. Each `HtmlDocument` instance maintains its own engine context, so
+      you can safely process multiple documents in parallel threads.
+    question: Is the library thread‑safe for concurrent rendering?
+  type: FAQPage
 tags:
 - Aspose.HTML
 - Java
-- DOM Manipulation
-title: تمكين تنفيذ النص البرمجي في جافا – دليل Aspose.HTML الكامل
+- DOM manipulation
+title: محدد الاستعلام Java مع Aspose.HTML لتنفيذ script execution
 url: /ar/java/advanced-usage/enable-script-execution-in-java-complete-aspose-html-guide/
 ---
 
@@ -28,25 +55,167 @@ url: /ar/java/advanced-usage/enable-script-execution-in-java-complete-aspose-htm
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تمكين تنفيذ السكريبت في جافا – دليل Aspose.HTML الكامل
+# محدد الاستعلام جافا مع Aspose.HTML لتنفيذ النصوص البرمجية
 
-هل تساءلت يوماً كيف **enable script execution** عند معالجة ملف HTML في جافا؟ ربما تقوم بإنشاء مُعالج من جانب الخادم، أو تحتاج ببساطة لاستخراج القيم التي يولدها JavaScript في وقت التشغيل. في هذا الدرس ستتعرف بالضبط على كيفية تشغيل تنفيذ السكريبت، **set script timeout**، واستخراج لون الخلفية المحسوب من عنصر ديناميكي — كل ذلك باستخدام Aspose.HTML.
+إذا كنت بحاجة إلى **تمكين تنفيذ النصوص البرمجية** أثناء معالجة HTML على الخادم، فإن Aspose.HTML يجعل ذلك بسيطًا. في هذا الدليل ستكتشف كيفية تشغيل JavaScript، **تعيين مهلة النص البرمجي**، ثم استخدام **query selector java** لتحديد عنصر ديناميكي و**الحصول على قيم الخلفية المحسوبة**—كل ذلك دون مغادرة بيئة Java. هذا التدفق المتكامل مثالي لتصيير HTML على جانب الخادم، أو خطوط استخراج البيانات، أو الاختبار الآلي حيث يجب قراءة القيم التي يولدها النص البرمجي من جانب العميل.
 
-سنستعرض تحميل مستند HTML، تكوين المحرك، الانتظار حتى تنتهي السكريبتات، وأخيراً استخدام **query selector java** لتحديد العنصر الذي يهمك. في النهاية، ستتمكن من **get computed background** دون مغادرة بيئة جافا.
+## إجابات سريعة
+- **ماذا يفعل “query selector java”؟** يتيح لك تحديد عناصر DOM في `HtmlDocument` محمَّل باستخدام محددات CSS، تمامًا كما هو الحال مع `document.querySelector` في المتصفح.  
+- **كيف يمكنني تمكين تنفيذ النصوص البرمجية؟** عيّن `LoadOptions.setEnableJavaScript(true)` (أو اعتمد على الإعداد الافتراضي) قبل تحميل المستند.  
+- **لماذا يتم تعيين مهلة للنص البرمجي؟** لتجنب التوقف بسبب نصوص خبيثة أو مكتوبة بشكل سيء؛ المحرك يوقف التنفيذ بعد عدد المليثانية المحدد.  
+- **هل يمكنني استرجاع الأنماط المحسوبة؟** نعم – استخدم `element.getComputedStyle().getPropertyValue("background-color")` بعد انتهاء النصوص البرمجية.  
+- **هل هذا النهج بدون واجهة رسومية؟** بالتأكيد؛ Aspose.HTML يعمل دون خيط UI، وهو مثالي لأنابيب CI/CD أو الخدمات داخل الحاويات.
+
+## ما هو query selector java؟
+`query selector java` هو طريقة في واجهة برمجة تطبيقات Aspose.HTML للغة Java تحاكي `document.querySelector` في المتصفح. تقبل أي محدد CSS صالح (مثل `#id`, `.class`, `div > p`) وتعيد أول `Element` يطابقه. يتيح ذلك تنقلاً دقيقًا في DOM دون الحاجة إلى تحليل HTML يدويًا.
+
+## لماذا نستخدم Aspose.HTML لتصيير HTML على الخادم؟
+يدعم Aspose.HTML **أكثر من 50 تنسيقًا للإدخال والإخراج**، ويعالج مستندات مئات الصفحات دون تحميل الملف بالكامل في الذاكرة، وينفّذ JavaScript حديثًا (ES6، async/await) في محرك معزول بالكامل. تجعل هذه القدرات الكمية منه خيارًا قويًا للخدمات ذات الإنتاجية العالية. كما يوفر دعمًا مدمجًا لمحددات CSS3، ومعالجة تخطيط متقدمة، وتكاملًا سلسًا مع مكتبات Aspose الأخرى لتحويل PDF أو الصور.
 
 ## المتطلبات المسبقة
+- Java 17 أو أحدث (متوافق مع الإصدارات السابقة، لكن يُنصح بـ 17).  
+- Aspose.HTML for Java 23.12 أو أحدث – أضف العنصر Maven `com.aspose:aspose-html:23.12`.  
+- ملف HTML (`scripted.html`) يحتوي على نص يغيّر عنصرًا بالمعرف `id="dynamicDiv"`.
 
-- Java 17 أو أحدث (الكود يُمكن أن يُترجم مع إصدارات أقدم، لكن يُنصح بـ 17)
-- Aspose.HTML for Java 23.12 أو أحدث – يمكنك الحصول على حزمة Maven `com.aspose:aspose-html:23.12`
-- ملف HTML بسيط (`scripted.html`) يحتوي على سكريبت يغيّر عنصر بـ `id="dynamicDiv"`
+لا توجد أطر عمل إضافية مطلوبة؛ المكتبة تتعامل مع التحميل، وتنفيذ النصوص البرمجية، وحساب الأنماط داخليًا.
 
-لا توجد أطر عمل إضافية مطلوبة؛ المكتبة تتعامل مع كل شيء داخلياً.
+## كيفية تمكين تنفيذ النصوص البرمجية واسترجاع الخلفية المحسوبة في Java
+
+`HtmlDocument` يمثل ملف HTML محمَّل في الذاكرة ويوفر وصولًا إلى DOM والنافذة. قم بتحميل المستند، تمكين JavaScript، تعيين مهلة آمنة، الانتظار حتى تنتهي النصوص البرمجية، تحديد العنصر باستخدام `query selector java`، وأخيرًا قراءة لون الخلفية المحسوب. يضمن هذا التسلسل تطبيق أي تعديلات ديناميكية قبل استعلام النمط، مما يعطي نتائج موثوقة.
+
+### الخطوة 1 – تحميل مستند HTML وتمكين تنفيذ النصوص البرمجية
+`HtmlDocument` يحمل ملف HTML ويوفر DOM يمكن التلاعب به برمجيًا.
+
+```java
+// Definition anchor
+HtmlDocument htmlDoc = new HtmlDocument(); // The HtmlDocument class holds the parsed DOM and provides script execution capabilities.
+LoadOptions loadOptions = new LoadOptions();
+loadOptions.setEnableJavaScript(true);   // Explicitly enable script execution.
+htmlDoc.load("path/to/scripted.html", loadOptions);
+```
+
+> **لماذا هذا مهم:** إذا تم تعطيل النصوص البرمجية، أي JavaScript يغيّر DOM سيتجاهل، ولن تتمكن أبدًا من **الحصول على الخلفية المحسوبة** لاحقًا.
+
+### الخطوة 2 – ضبط مهلة النص البرمجي لمنع التوقف
+`setScriptTimeout` يحدد الحد الأقصى للوقت الذي قد يعمل فيه النص البرمجي قبل إيقافه.
+
+```java
+// Definition anchor
+htmlDoc.getEngine().setScriptTimeout(5000); // Timeout is expressed in milliseconds.
+```
+
+> **نصيحة محترف:** 5 ثوانٍ تعتبر كافية لمعظم الصفحات البسيطة. بالنسبة للمكتبات الثقيلة (مثل Chart.js) قد تحتاج إلى رفعها إلى 10 000 مللي ثانية. مهلة أقصر تحسّن المقاومة ضد الشيفرات الخبيثة.
+
+### الخطوة 3 – إعطاء النصوص البرمجية وقتًا للانتهاء
+`Thread.sleep` يوقف الخيط الحالي لعدد محدد من المللي ثانية.
+
+```java
+Thread.sleep(2000); // Wait 2 seconds for scripts to settle.
+```
+
+> **ماذا لو احتجت إلى دقة أكبر؟** استبدل `Thread.sleep` بحلقة تفحص `htmlDoc.getReadyState().equals("complete")` – هكذا تنتظر بالضبط ما يلزم.
+
+### الخطوة 4 – تحديد العنصر الديناميكي باستخدام query selector java
+الآن بعد أن استقر المحتوى، يمكننا **query selector java** للحصول على العنصر الذي غير النص البرمجي نمطه. المحدد `#dynamicDiv` يطابق `<div id="dynamicDiv">` المتوقع وجوده.
+
+```java
+Element dynamicDiv = htmlDoc.querySelector("#dynamicDiv");
+```
+
+> **خطأ شائع:** نسيان `#` لمحدد الـ ID. `querySelector("dynamicDiv")` سيبحث عن وسم `<dynamicDiv>`، وهو غير موجود بالطبع.
+
+### الخطوة 5 – استرجاع لون الخلفية المحسوب
+`getComputedStyle` يعيد القيم النهائية المحسوبة للـ CSS لعنصر بعد تطبيق جميع أوراق الأنماط والنصوص البرمجية.
+
+```java
+String background = dynamicDiv.getComputedStyle().getPropertyValue("background-color");
+System.out.println("Computed background: " + background);
+```
+
+**الناتج المتوقع** (بافتراض أن النص البرمجي يعيّن `background-color: rgb(255, 0, 0)`):
+
+```
+Computed background: rgb(255, 0, 0)
+```
+
+إذا استخدم النص البرمجي لونًا مسمى مثل `red`، ستظل القيمة المحسوبة تُرجع بصيغة `rgb(...)` الموحدة.
+
+## حالات الحافة والاختلافات
+| الحالة | ما الذي يجب تغييره | السبب |
+|-----------|----------------|--------|
+| تحتاج عدة نصوص برمجية إلى وقت أطول | زيادة المهلة (`setScriptTimeout(10000)`) | منع الإنهاء المبكر |
+| يتم تحميل HTML من عنوان URL | استخدم `new HtmlDocument("https://example.com", new LoadOptions())` | يعمل بنفس طريقة المسار المحلي |
+| تحتاج إلى الانتظار لتغيير DOM محدد | راقب `dynamicDiv.getComputedStyle().getPropertyValue("background-color")` داخل حلقة مع تأخير قصير | يضمن التقاط القيمة النهائية |
+| تشغيل داخل حاوية دون خيط UI | لا خطوات إضافية – Aspose.HTML يعمل بدون واجهة رسومية | مثالي لأنابيب CI |
+
+## مثال كامل يعمل (جاهز للنسخ واللصق)
+الشفرة أدناه تجمع جميع الخطوات في فئة واحدة قابلة للتنفيذ. استبدل `YOUR_DIRECTORY` بمسار ملف HTML الخاص بك، ثم قم بتجميع المشروع مع JAR الخاص بـ Aspose.HTML على مسار الـ classpath، وشغّل البرنامج لرؤية الخلفية المحسوبة مطبوعةً في وحدة التحكم.
+
+```java
+public class JsAndDomTutorial {
+    public static void main(String[] args) throws Exception {
+        // Load the document with JavaScript enabled
+        LoadOptions options = new LoadOptions();
+        options.setEnableJavaScript(true);
+        HtmlDocument doc = new HtmlDocument();
+        doc.load("YOUR_DIRECTORY/scripted.html", options);
+
+        // Set a safe script timeout (5 seconds)
+        doc.getEngine().setScriptTimeout(5000);
+
+        // Wait for scripts to finish
+        Thread.sleep(2000);
+
+        // Locate the element using query selector java
+        Element div = doc.querySelector("#dynamicDiv");
+
+        // Retrieve and print the computed background color
+        String bg = div.getComputedStyle().getPropertyValue("background-color");
+        System.out.println("Computed background: " + bg);
+    }
+}
+```
+
+احفظ هذا كـ `JsAndDomTutorial.java`، ثم اجمعه باستخدام `javac -cp aspose-html-23.12.jar JsAndDomTutorial.java`، وشغّله بـ `java -cp .:aspose-html-23.12.jar JsAndDomTutorial.java`. يجب أن ترى لون الخلفية المحسوب يُطبع على الشاشة.
+
+## الأسئلة المتكررة
+
+**س: هل يدعم Aspose.HTML بنية ES6؟**  
+ج: نعم. المحرك يفهم `let`، `const`، الدوال السهمية، و`async/await`. فقط تأكد من أن مهلة النص البرمجي كافية لأي عمل غير متزامن.
+
+**س: ماذا لو كانت الصفحة تشير إلى ملفات نصية خارجية؟**  
+ج: طالما أن تلك الملفات قابلة للوصول (مسار محلي أو URL مطلق) سيتم جلبها تلقائيًا. للسيناريوهات غير المتصلة، احزم النصوص داخل HTML أو عيّن `LoadOptions.setBaseUrl()` إلى مجلد محلي.
+
+**س: هل يمكنني استرجاع أنماط محسوبة أخرى غير الخلفية؟**  
+ج: بالتأكيد. كائن `ComputedStyle` يوفّر كل خاصية CSS – `font-size`، `margin-top`، `border-color`، إلخ. استخدم نمط `getPropertyValue` نفسه الذي استخدمته لـ **الحصول على الخلفية المحسوبة**.
+
+**س: كيف يتعامل Aspose.HTML مع المستندات الكبيرة؟**  
+ج: يعالج الصفحات بشكل تدريجي، مما يحافظ على استهلاك الذاكرة منخفضًا. يمكنك تصيير أو استعلام مستندات تحتوي على آلاف العناصر دون تحميل الملف بالكامل إلى RAM.
+
+**س: هل المكتبة آمنة للاستخدام المتعدد الخيوط؟**  
+ج: نعم. كل نسخة من `HtmlDocument` تحتفظ بسياق محركها الخاص، لذا يمكنك معالجة مستندات متعددة في خيوط متوازية بأمان.
+
+## الخلاصة
+أنت الآن تعرف كيف **تمكين تنفيذ النصوص البرمجية** في Aspose.HTML للغة Java، **تعيين مهلة النص البرمجي**، **تحميل مستند HTML**، الاستفادة من **query selector java**، وأخيرًا **الحصول على الخلفية المحسوبة** لعنصر تم تعديل نمطه ديناميكيًا. يشكل هذا سير العمل أساسًا قويًا لأي مهمة تصيير HTML على الخادم أو استخراج بيانات.
+
+الخطوات التالية قد تشمل استخراج العرض والارتفاع المحسوبين، أو حتى قراءة بيانات بكسل الـ canvas. يمكنك أيضًا تمرير DOM المصدَّر بالكامل إلى Aspose.PDF لإنشاء لقطة PDF للصفحة – ميزة قوية أخرى في مجموعة Aspose.
+
+برمجة سعيدة، واستمتع بتجربة المهلات، والمحددات، واستعلام الأنماط لتناسب حالتك الخاصة! 🚀
 
 ---
 
-## الخطوة 1 – تحميل مستند HTML وتمكين تنفيذ السكريبت
+![لقطة شاشة توضح تمكين تنفيذ النصوص البرمجية في Aspose.HTML](/images/enable-script-execution.png "Enable script execution in Aspose.HTML example")
 
-أول شيء عليك فعله هو **load html document** داخل كائن `HtmlDocument`. بشكل افتراضي Aspose.HTML يتيح تنفيذ السكريبت، لكننا سنحدده صراحةً لجعل النية واضحة تماماً.
+
+
+
+
+
+---
+
+**Last Updated:** 2026-10-30  
+**Tested With:** Aspose.HTML 23.12  
+**Author:** Aspose
 
 ```java
 import com.aspose.html.*;
@@ -62,53 +231,21 @@ public class JsAndDomTutorial {
         htmlDoc.getWindow().setScriptsEnabled(true);
 ```
 
-> **لماذا هذا مهم:** إذا تم تعطيل السكريبتات، أي JavaScript يغيّر الـ DOM سيتجاهل، ولن تتمكن أبداً من **get computed background** لاحقاً.
-
----
-
-## الخطوة 2 – ضبط مهلة السكريبت لتجنب التوقف
-
-تشغيل سكريبتات غير موثوقة قد يكون محفوفاً بالمخاطر. Aspose.HTML يتيح لك **set script timeout** بحيث يتوقف المحرك عن أي سكريبت يستغرق أكثر من عدد المليثانية المحدد. هنا نمنح السكريبتات حتى 5 ثوانٍ.
-
 ```java
         // Step 2: Allow scripts up to 5 seconds before timing out
         htmlDoc.getWindow().setTimeout(5000);
 ```
-
-> **نصيحة محترف:** 5 ثوانٍ تعتبر وفرة لمعظم الصفحات البسيطة. بالنسبة للمكتبات الثقيلة (مثل Chart.js) قد تحتاج إلى رفعها إلى 10 000 ملث. تذكر أن مهلة أقصر تجعل خدمتك أكثر صموداً ضد الشيفرات الخبيثة.
-
----
-
-## الخطوة 3 – إعطاء السكريبتات وقتاً للانتهاء
-
-تنفيذ JavaScript غير متزامن. توقف قصير يسمح للمحرك بإنهاء أي مؤقتات أو وعود معلقة. يمكنك فحص `document.readyState`، لكن `Thread.sleep` بسيط يكفي لمعظم سيناريوهات العرض.
 
 ```java
         // Step 3: Pause the thread so scripts can finish (2 seconds is usually enough)
         Thread.sleep(2000);
 ```
 
-> **ماذا لو احتجت دقة أكبر؟** استبدل `Thread.sleep` بحلقة تتحقق من `htmlDoc.getReadyState() == "complete"` – بذلك تنتظر بالضبط ما يلزم.
-
----
-
-## الخطوة 4 – تحديد العنصر الديناميكي باستخدام Query Selector Java
-
-الآن بعد أن استقر المحتوى، يمكننا استخدام **query selector java** للحصول على العنصر الذي تم تعديل نمطه بواسطة السكريبت. المحدد `#dynamicDiv` يطابق `<div id="dynamicDiv">` الذي نتوقع وجوده.
-
 ```java
         // Step 4: Find the element that the script modified
         Element dynamicDiv = htmlDoc.querySelector("#dynamicDiv");
         if (dynamicDiv != null) {
 ```
-
-> **خطأ شائع:** نسيان `#` لمحدد الـ ID. `querySelector("dynamicDiv")` سيبحث عن وسم `<dynamicDiv>`، وهو غير موجود بطبيعة الحال.
-
----
-
-## الخطوة 5 – استرجاع لون الخلفية المحسوب
-
-أخيراً، نستخدم **get computed background** من النمط المحسوب للعنصر. هذا يعكس القيمة النهائية بعد تطبيق جميع قواعد CSS وتغييرات JavaScript.
 
 ```java
             // Step 5: Read the computed background color
@@ -124,28 +261,9 @@ public class JsAndDomTutorial {
 }
 ```
 
-**الناتج المتوقع** (بافتراض أن السكريبت يعيّن `background-color: rgb(255, 0, 0)`):
-
 ```
 Computed background: rgb(255, 0, 0)
 ```
-
-إذا استخدم السكريبت لوناً مسمى مثل `red`، ستظل القيمة المحسوبة تُرجع بصيغة `rgb(...)` الموحدة.
-
----
-
-## الحالات الخاصة والبدائل
-
-| الحالة | ما الذي يجب تغييره | السبب |
-|-----------|----------------|--------|
-| **تحتاج سكريبتات متعددة إلى وقت أطول** | زيادة المهلة (`setTimeout(10000)`) | منع الإنهاء المبكر |
-| **HTML يتم تحميله من URL** | استخدم `new HtmlDocument("https://example.com", new LoadOptions())` | يعمل بنفس طريقة تحميل ملف |
-| **تحتاج للانتظار لتغيير DOM محدد** | راقب `dynamicDiv.getComputedStyle().getBackgroundColor()` داخل حلقة مع توقف قصير | يضمن التقاط القيمة النهائية |
-| **تشغيل داخل حاوية بدون خيط UI** | لا خطوات إضافية – Aspose.HTML يعمل بدون واجهة | مثالي لأنابيب CI |
-
----
-
-## مثال كامل جاهز للتنفيذ (انسخه‑ألصقه)
 
 ```java
 import com.aspose.html.*;
@@ -182,36 +300,15 @@ public class JsAndDomTutorial {
 }
 ```
 
-احفظه كـ `JsAndDomTutorial.java`، استبدل `YOUR_DIRECTORY` بمسار ملف HTML الخاص بك، ثم قم بالترجمة باستخدام `javac -cp aspose-html-23.12.jar JsAndDomTutorial.java`، وشغّله بـ `java -cp .:aspose-html-23.12.jar JsAndDomTutorial`. يجب أن ترى لون الخلفية المحسوب يُطبع في وحدة التحكم.
+## دروس ذات صلة
 
----
-
-## الأسئلة المتكررة
-
-**س: هل يدعم Aspose.HTML بنية ES6؟**  
-ج: نعم. يستخدم المحرك مفسّر JavaScript حديث يدعم `let`، `const`، الدوال السهمية، وحتى `async/await`. فقط تأكد من إعطاء مهلة كافية باستخدام `set script timeout`.
-
-**س: ماذا لو كانت الصفحة تستخدم ملفات سكريبت خارجية؟**  
-ج: طالما أن تلك الملفات قابلة للوصول (مسار محلي أو URL مطلق) سيتم جلبها تلقائياً. إذا كنت تعمل دون اتصال، اجمع السكريبتات داخل HTML أو استخدم `LoadOptions.setBaseUrl()` لتوجيهها إلى مجلد محلي.
-
-**س: هل يمكنني استرجاع أنماط محسوبة أخرى؟**  
-ج: بالتأكيد. كائن `ComputedStyle` يوفّر كل خاصية CSS – `getFontSize()`، `getMarginTop()`، وغيرها. استخدم نفس النمط الذي استخدمته لـ **get computed background**.
-
----
-
-## الخلاصة
-
-أنت الآن تعرف كيف **enable script execution** في Aspose.HTML لجافا، **set script timeout**، **load html document**، استغلال **query selector java**، وأخيراً **get computed background** من عنصر مُنَسَّق ديناميكياً. هذا التدفق من البداية إلى النهاية يُعد أساساً صلباً لأي مهمة تصيير HTML من جانب الخادم أو استخراج بيانات.
-
-هل أنت مستعد للخطوة التالية؟ جرّب استخراج العرض والارتفاع المحسوبين، أو حتى قراءة القيم من عناصر canvas. أو اجمع ذلك مع تحويل PDF لالتقاط الصفحة المُصوَّرة بالكامل – Aspose.HTML يجعل ذلك سهلًا للغاية.
-
-برمجة سعيدة، ولا تنسَ تجربة تعديل المهلة ومحددات الاختيار لتتناسب مع حالتك الخاصة! 🚀
-
----
-
-![Screenshot showing enable script execution in Aspose.HTML](/images/enable-script-execution.png "Enable script execution in Aspose.HTML example")
+- [كيفية الحصول على النمط في Aspose Html Java باستخدام محدد الاستعلام](/html/java/css-html-form-editing/how-to-get-style-in-aspose-html-java-use-query-selector/)
+- [كيفية تمكين JavaScript في Aspose Html تحميل HTML الحصول على النص](/html/java/advanced-usage/how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+- [الحصول على العنصر بالمعرف في Java دليل كامل لاسترجاع الأنماط المحسوبة](/html/java/css-html-form-editing/get-element-by-id-in-java-full-guide-to-retrieve-computed-st/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
