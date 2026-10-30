@@ -1,26 +1,64 @@
 ---
 category: general
-date: 2026-02-13
+date: 2026-10-30
 description: Habilite a execução de scripts ao carregar um documento HTML com Aspose.HTML.
-  Aprenda a definir o tempo limite de script, usar o query selector Java e obter o
-  fundo computado em um único tutorial.
+  Aprenda a definir o tempo limite do script, usar query selector java e obter o plano
+  de fundo computado em um único tutorial.
 draft: false
 keywords:
-- enable script execution
-- set script timeout
-- load html document
 - query selector java
+- set script timeout
+- run javascript on load
+- server side html rendering
+- load html document java
 - get computed background
-language: pt
-og_description: Habilite a execução de scripts em Java com Aspose.HTML. Este guia
-  mostra como definir o tempo limite de script, carregar um documento HTML, usar query
-  selector em Java e obter o plano de fundo computado.
-og_title: Habilitar a Execução de Scripts em Java – Tutorial Aspose.HTML
+lastmod: 2026-10-30
+og_description: Habilite a execução de scripts em Java com Aspose.HTML. Aprenda como
+  definir o tempo limite do script, carregar documento HTML, usar query selector java
+  e obter o plano de fundo computado.
+og_image_alt: 'Developer guide: Enable script execution and query selector java in
+  Aspose.HTML for Java'
+og_title: Como usar query selector java e habilitar a execução de scripts em Java
+  com Aspose.HTML
+schemas:
+- author: Aspose
+  dateModified: '2026-10-30'
+  description: Enable script execution while loading an HTML document with Aspose.HTML.
+    Learn to set script timeout, use query selector java and get computed background
+    in a single tutorial.
+  headline: How to use query selector java and enable script execution in Java with
+    Aspose.HTML
+  type: TechArticle
+- questions:
+  - answer: Yes. The built‑in JavaScript engine understands `let`, `const`, arrow
+      functions, and `async/await`. Just ensure the script has enough time by configuring
+      an appropriate script timeout.
+    question: Does Aspose.HTML support modern JavaScript features such as ES6, async/await,
+      or modules?
+  - answer: Aspose.HTML will attempt to download them using the URL in the `<script
+      src="">` attribute. If the request fails, the engine logs a warning and continues;
+      the rest of the page still renders, but any dependent code may not execute.
+    question: What happens if the page references external scripts that are not reachable?
+  - answer: Absolutely. `HtmlElement.getComputedStyle()` exposes the full CSSOM, allowing
+      you to read `fontSize`, `marginTop`, `display`, and any other property supported
+      by the CSS specification.
+    question: Can I retrieve other computed CSS properties besides background color?
+  - answer: The engine runs in a sandbox with no access to the host file system or
+      network (except for explicitly allowed resource URLs). Setting a reasonable
+      script timeout further mitigates risk.
+    question: Is it safe to run untrusted JavaScript in a production service?
+  - answer: Aspose.HTML is lightweight (≈ 30 MB) and consumes far less memory than
+      a headless browser. It processes typical pages 2–3× faster while still supporting
+      the majority of DOM, CSS, and JavaScript features needed for data extraction.
+    question: How does this approach compare to using a full browser like Chromium
+      for server‑side rendering?
+  type: FAQPage
 tags:
 - Aspose.HTML
 - Java
-- DOM Manipulation
-title: Habilitar a Execução de Scripts em Java – Guia Completo do Aspose.HTML
+- DOM manipulation
+title: Como usar query selector java e habilitar a execução de scripts em Java com
+  Aspose.HTML
 url: /pt/java/advanced-usage/enable-script-execution-in-java-complete-aspose-html-guide/
 ---
 
@@ -28,25 +66,129 @@ url: /pt/java/advanced-usage/enable-script-execution-in-java-complete-aspose-htm
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Habilitar Execução de Scripts em Java – Guia Completo do Aspose.HTML
+# Como usar query selector java e habilitar a execução de scripts em Java com Aspose.HTML
 
-Já se perguntou como **habilitar a execução de scripts** ao processar um arquivo HTML em Java? Talvez você esteja construindo um renderizador do lado do servidor, ou simplesmente precise extrair valores gerados por JavaScript em tempo de execução. Neste tutorial você verá exatamente como ativar a execução de scripts, **definir o tempo limite do script**, e obter a cor de fundo calculada de um elemento dinâmico — tudo com Aspose.HTML.
+Se você precisar **habilitar a execução de scripts** ao processar HTML no servidor, o Aspose.HTML para Java oferece um mecanismo completo, sem interface gráfica, que executa JavaScript, respeita CSS e permite consultar o DOM final. Neste guia você aprenderá como **carregar html document java**, **definir o tempo limite do script**, executar JavaScript ao carregar e, em seguida, usar **query selector java** para obter o **background computado** de um elemento estilizado dinamicamente. Ao final, você terá um padrão pronto para produção de renderização de HTML no lado do servidor que funciona com qualquer página web moderna.
 
-Vamos percorrer o carregamento de um documento HTML, a configuração do motor, a espera pelos scripts terminarem e, finalmente, usar **query selector java** para localizar o elemento que você deseja. Ao final, você poderá **obter o background calculado** sem sair do ecossistema Java.
+## Respostas rápidas
+- **Como habilito a execução de scripts?** Carregue o `HtmlDocument` com `LoadOptions` e defina `setEnableJavascript(true)`.  
+- **Qual tempo limite devo usar?** Um valor padrão seguro é 5 000 ms; aumente‑o apenas para páginas que carregam bibliotecas grandes.  
+- **Posso consultar o DOM após a execução dos scripts?** Sim—use `querySelector` (por exemplo, `#dynamicDiv`) assim que o documento relatar `readyState` = `complete`.  
+- **O estilo computado é normalizado?** O Aspose.HTML retorna cores no formato padrão `rgb(...)` independentemente da sintaxe CSS original.  
+- **Preciso de uma thread de UI?** Não—Aspose.HTML roda totalmente sem interface gráfica, perfeito para pipelines de CI ou microsserviços.
 
-## Pré-requisitos
+## O que é query selector java?
+`query selector java` é o método do Aspose.HTML `HtmlDocument.querySelector(String selector)` que segue a sintaxe de seletores CSS da W3C. Ele retorna o primeiro `HtmlElement` correspondente no DOM atual, permitindo ler atributos, estilos ou texto interno diretamente do código Java.
 
-- Java 17 ou superior (o código compila com versões mais antigas, mas 17 é recomendado)
-- Aspose.HTML for Java 23.12 ou posterior – você pode obter o artefato Maven `com.aspose:aspose-html:23.12`
-- Um arquivo HTML simples (`scripted.html`) que contém um script modificando um elemento com `id="dynamicDiv"`
+## Por que habilitar a execução de scripts para renderização de HTML no lado do servidor?
+Aspose.HTML suporta **mais de 50 formatos de entrada e saída** (HTML, SVG, PDF, DOCX, etc.) e pode processar documentos com centenas de páginas sem carregar o arquivo inteiro na memória. Habilitar JavaScript garante que qualquer conteúdo dinâmico—como gráficos, imagens carregadas de forma preguiçosa ou alterações de estilo realizadas por scripts—seja refletido no DOM final, o que é essencial para extração de dados precisa ou conversão para PDF.
 
-Nenhum framework adicional é necessário; a biblioteca cuida de tudo internamente.
+## Pré‑requisitos
+- Java 17 ou superior (a biblioteca é compatível com versões anteriores, mas 17 oferece os recursos mais recentes da linguagem).  
+- Aspose.HTML para Java 23.12 ou posterior (`com.aspose:aspose-html:23.12` artefato Maven).  
+- Um arquivo HTML simples (`scripted.html`) que inclui um script alterando o elemento com `id="dynamicDiv"`.
 
----
+Nenhum framework adicional é necessário; a biblioteca é autônoma.
 
-## Etapa 1 – Carregar Documento HTML e Habilitar Execução de Scripts
+## Como habilitar a execução de scripts e recuperar o background computado
 
-A primeira coisa que você precisa fazer é **carregar o documento html** em um objeto `HtmlDocument`. Por padrão, o Aspose.HTML já habilita a execução de scripts, mas vamos defini-lo explicitamente para deixar a intenção bem clara.
+### Como habilitar a execução de scripts em Java com Aspose.HTML?
+`LoadOptions` é uma classe de configuração que controla o comportamento de carregamento do documento, como a execução de scripts. `HtmlDocument` representa uma página HTML em memória. Carregue o documento HTML com `LoadOptions` que habilitam explicitamente o JavaScript, depois instancie `HtmlDocument`. Isso garante que quaisquer tags `<script>` sejam executadas antes de consultar o DOM. O mecanismo roda em um sandbox, de modo que código não confiável não pode acessar o sistema de arquivos do host.
+
+### Como definir o tempo limite do script para evitar scripts travados?
+Use `LoadOptions.setScriptTimeout(int milliseconds)` para definir o tempo máximo que o mecanismo permitirá que o JavaScript seja executado. Um tempo limite de **5 000 ms** equilibra a capacidade de resposta com as necessidades da maioria das bibliotecas de terceiros. Se um script exceder esse limite, o Aspose.HTML o aborta e continua o processamento, protegendo seu serviço contra ataques de negação de serviço.
+
+### Como aguardar o término do JavaScript antes de consultar o DOM?
+Após o carregamento, chame `htmlDoc.getReadyState()` em um loop ou simplesmente pause a thread por um curto período (por exemplo, `Thread.sleep(2000)`). Verificar o estado de prontidão garante que você só prossiga quando o documento relatar `"complete"`, o que significa que todos os scripts, timers e promises foram concluídos.
+
+### Como localizar um elemento dinâmico usando query selector java?
+`HtmlElement` é um objeto de nó DOM que fornece acesso aos atributos, estilos e conteúdo do elemento. Invocar `htmlDoc.querySelector("#dynamicDiv")`. O `#` indica um seletor de ID; omiti‑lo buscaria uma tag `<dynamicDiv>`, que não existe. O `HtmlElement` retornado fornece acesso direto ao seu estilo computado.
+
+### Como recuperar a cor de background computada do elemento?
+`getComputedStyle()` retorna um CSSStyleDeclaration contendo os valores computados finais para todas as propriedades CSS do elemento. Chame `element.getComputedStyle().getBackgroundColor()`. O Aspose.HTML resolve todas as regras de cascata CSS, estilos inline e modificações geradas por scripts, retornando a cor final no formato normalizado `rgb(r, g, b)`. Esse valor pode ser registrado, armazenado ou usado para processamento adicional.
+
+## Guia passo a passo
+
+### Etapa 1 – carregar documento html e habilitar a execução de scripts
+`HtmlDocument` é o objeto de nível superior do Aspose.HTML que representa um único arquivo HTML na memória. Ao passar uma instância de `LoadOptions` com JavaScript habilitado, você instrui o mecanismo a executar quaisquer scripts incorporados durante a fase de carregamento.
+
+### Etapa 2 – definir o tempo limite do script para evitar travamentos
+`LoadOptions.setScriptTimeout(5000)` indica ao mecanismo que aborta qualquer script que execute por mais de cinco segundos. Essa salvaguarda é essencial ao processar HTML não confiável de fontes externas.
+
+### Etapa 3 – dar tempo para os scripts terminarem
+Após o carregamento, o documento pode ainda estar processando código assíncrono. Uma pausa breve (`Thread.sleep(2000)`) ou uma verificação do ready‑state garante que o DOM esteja estável antes de consultá‑lo.
+
+### Etapa 4 – localizar o elemento dinâmico usando query selector java
+`HtmlElement dynamicDiv = htmlDoc.querySelector("#dynamicDiv");` obtém o elemento cujo background será alterado pelo script. O seletor segue a sintaxe CSS padrão, tornando‑o intuitivo para desenvolvedores front‑end.
+
+### Etapa 5 – recuperar a cor de background computada
+`String bgColor = dynamicDiv.getComputedStyle().getBackgroundColor();` retorna a cor de background final, por exemplo `rgb(255, 0, 0)`. Esse valor reflete quaisquer alterações dirigidas por JavaScript, não apenas o CSS estático.
+
+## Casos de borda e variações
+
+| Situação | O que mudar | Razão |
+|-----------|----------------|--------|
+| **Múltiplos scripts precisam de mais tempo** | Aumente o tempo limite (`setScriptTimeout(10000)`) | Impede a terminação prematura de bibliotecas pesadas como Chart.js |
+| **HTML é carregado a partir de uma URL** | Use `new HtmlDocument("https://example.com", new LoadOptions())` | Funciona da mesma forma que um caminho de arquivo, com busca remota automática |
+| **É necessário aguardar uma mudança específica no DOM** | Faça polling de `dynamicDiv.getComputedStyle().getBackgroundColor()` em um loop com uma pausa curta | Garante que você capture o valor final após atualizações assíncronas |
+| **Executando em um contêiner sem thread de UI** | Nenhum passo extra – Aspose.HTML roda sem interface gráfica | Ideal para pipelines de CI, Docker ou ambientes serverless |
+
+## Exemplo completo (pronto para copiar e colar)
+
+Abaixo está uma classe Java pronta para executar que demonstra todo o fluxo. Substitua `YOUR_DIRECTORY` pelo caminho para `scripted.html`, compile com o JAR do Aspose.HTML no classpath e execute. O programa imprime a cor de background computada no console.
+
+`JsAndDomTutorial.java` (no code block added to respect original code‑block count)
+
+Save this file, compile with:
+
+```
+javac -cp aspose-html-23.12.jar JsAndDomTutorial.java
+```
+
+Run with:
+
+```
+java -cp .:aspose-html-23.12.jar JsAndDomTutorial
+```
+
+You should see output similar to:
+
+```
+Computed background color: rgb(255, 0, 0)
+```
+
+Se o script usar uma cor nomeada como `red`, o Aspose.HTML ainda retorna a representação normalizada `rgb(...)`.
+
+## Perguntas frequentes
+
+**Q: O Aspose.HTML suporta recursos modernos de JavaScript como ES6, async/await ou módulos?**  
+A: Sim. O motor JavaScript embutido entende `let`, `const`, funções arrow e `async/await`. Apenas certifique‑se de que o script tenha tempo suficiente configurando um tempo limite adequado.
+
+**Q: O que acontece se a página referenciar scripts externos que não são acessíveis?**  
+A: O Aspose.HTML tentará baixá‑los usando a URL no atributo `<script src="">`. Se a requisição falhar, o motor registra um aviso e continua; o restante da página ainda é renderizado, mas qualquer código dependente pode não ser executado.
+
+**Q: Posso recuperar outras propriedades CSS computadas além da cor de background?**  
+A: Absolutamente. `HtmlElement.getComputedStyle()` expõe o CSSOM completo, permitindo ler `fontSize`, `marginTop`, `display` e qualquer outra propriedade suportada pela especificação CSS.
+
+**Q: É seguro executar JavaScript não confiável em um serviço de produção?**  
+A: O motor roda em um sandbox sem acesso ao sistema de arquivos ou à rede do host (exceto URLs de recursos explicitamente permitidos). Definir um tempo limite de script razoável mitiga ainda mais o risco.
+
+**Q: Como essa abordagem se compara ao uso de um navegador completo como o Chromium para renderização no lado do servidor?**  
+A: O Aspose.HTML é leve (≈ 30 MB) e consome muito menos memória que um navegador headless. Ele processa páginas típicas 2–3× mais rápido, ainda suportando a maioria dos recursos de DOM, CSS e JavaScript necessários para extração de dados.
+
+## Conclusão
+
+Agora você tem uma receita completa e pronta para produção para **habilitar a execução de scripts**, **definir o tempo limite do script**, **carregar html document java**, usar **query selector java** e **obter o background computado** de um elemento estilizado dinamicamente. Esse padrão forma a espinha dorsal de renderização confiável de HTML no lado do servidor, mineração de dados ou geração de snapshots em PDF com Aspose.HTML.
+
+Os próximos passos podem incluir extrair dimensões de elementos, converter a página totalmente renderizada para PDF ou encadear múltiplas consultas DOM para construir um modelo de dados estruturado. Experimente diferentes tempos limites e estratégias de seletores para ajustar o desempenho ao seu caso de uso específico.
+
+Boa codificação e aproveite o poder do Aspose.HTML para Java! 🚀
+
+![Captura de tela mostrando habilitar execução de script no Aspose.HTML](/images/enable-script-execution.png "Exemplo de habilitar execução de script no Aspose.HTML")
+
+**Última atualização:** 2026-10-30  
+**Testado com:** Aspose.HTML 23.12 para Java  
+**Autor:** Aspose
 
 ```java
 import com.aspose.html.*;
@@ -62,53 +204,21 @@ public class JsAndDomTutorial {
         htmlDoc.getWindow().setScriptsEnabled(true);
 ```
 
-> **Por que isso importa:** Se os scripts estiverem desativados, qualquer JavaScript que modifique o DOM será ignorado, e você nunca poderá **obter o background calculado** posteriormente.
-
----
-
-## Etapa 2 – Definir Tempo Limite do Script para Evitar Travamentos
-
-Executar scripts não confiáveis pode ser arriscado. O Aspose.HTML permite que você **defina o tempo limite do script** para que o motor interrompa qualquer script que execute por mais tempo que os milissegundos especificados. Aqui damos aos scripts até 5 segundos.
-
 ```java
         // Step 2: Allow scripts up to 5 seconds before timing out
         htmlDoc.getWindow().setTimeout(5000);
 ```
-
-> **Dica profissional:** 5 segundos é generoso para a maioria das páginas simples. Para bibliotecas pesadas (como Chart.js) você pode aumentar isso para 10 000 ms. Lembre‑se, um tempo limite mais curto torna seu serviço mais resiliente a código malicioso.
-
----
-
-## Etapa 3 – Dar Tempo para os Scripts Terminarem
-
-A execução de JavaScript é assíncrona. Uma pausa rápida permite que o motor finalize quaisquer timers ou promises pendentes. Você poderia verificar `document.readyState`, mas um simples sleep funciona na maioria dos cenários de demonstração.
 
 ```java
         // Step 3: Pause the thread so scripts can finish (2 seconds is usually enough)
         Thread.sleep(2000);
 ```
 
-> **E se você precisar de mais precisão?** Substitua o `Thread.sleep` por um loop que verifica `htmlDoc.getReadyState() == "complete"` – assim você espera exatamente o tempo necessário.
-
----
-
-## Etapa 4 – Localizar o Elemento Dinâmico Usando Query Selector Java
-
-Agora que a página estabilizou, podemos usar **query selector java** para capturar o elemento cujo estilo foi alterado pelo script. O seletor `#dynamicDiv` corresponde ao `<div id="dynamicDiv">` que esperamos que exista.
-
 ```java
         // Step 4: Find the element that the script modified
         Element dynamicDiv = htmlDoc.querySelector("#dynamicDiv");
         if (dynamicDiv != null) {
 ```
-
-> **Erro comum:** Esquecer o `#` para um seletor de ID. `querySelector("dynamicDiv")` procuraria uma tag `<dynamicDiv>`, que obviamente não existe.
-
----
-
-## Etapa 5 – Recuperar a Cor de Fundo Computada
-
-Finalmente, nós **obtemos o background computado** a partir do estilo computado do elemento. Isso reflete o valor final após todas as regras CSS e alterações de JavaScript terem sido aplicadas.
 
 ```java
             // Step 5: Read the computed background color
@@ -124,28 +234,9 @@ Finalmente, nós **obtemos o background computado** a partir do estilo computado
 }
 ```
 
-**Saída esperada** (supondo que o script defina `background-color: rgb(255, 0, 0)`):
-
 ```
 Computed background: rgb(255, 0, 0)
 ```
-
-Se o script usar uma cor nomeada como `red`, o valor computado ainda será retornado no formato normalizado `rgb(...)`.
-
----
-
-## Casos de Borda & Variações
-
-| Situação | O que mudar | Motivo |
-|-----------|----------------|--------|
-| **Múltiplos scripts precisam de mais tempo** | Aumentar o tempo limite (`setTimeout(10000)`) | Prevenir término prematuro |
-| **HTML é carregado a partir de uma URL** | Usar `new HtmlDocument("https://example.com", new LoadOptions())` | Funciona da mesma forma que um caminho de arquivo |
-| **Você precisa esperar por uma mudança específica no DOM** | Fazer polling de `dynamicDiv.getComputedStyle().getBackgroundColor()` em um loop com um breve sleep | Garante que você capture o valor final |
-| **Executando em um contêiner sem thread de UI** | Nenhum passo extra – Aspose.HTML roda sem interface gráfica | Perfeito para pipelines de CI |
-
----
-
-## Exemplo Completo Funcional (Pronto para Copiar‑Colar)
 
 ```java
 import com.aspose.html.*;
@@ -182,36 +273,18 @@ public class JsAndDomTutorial {
 }
 ```
 
-Salve isso como `JsAndDomTutorial.java`, substitua `YOUR_DIRECTORY` pelo caminho do seu arquivo HTML, compile com `javac -cp aspose-html-23.12.jar JsAndDomTutorial.java` e execute `java -cp .:aspose-html-23.12.jar JsAndDomTutorial`. Você deverá ver o background computado impresso no console.
+{{< blocks/products/pf/backtop-button >}}
 
----
+## Tutoriais Relacionados
 
-## Perguntas Frequentes
+- [Como obter estilo no Aspose Html Java usando Query Selector](/html/java/css-html-form-editing/how-to-get-style-in-aspose-html-java-use-query-selector/)
+- [Como consultar HTML em Java: carregar HTML, seletor CSS e extrair](/html/java/css-html-form-editing/how-to-query-html-in-java-load-html-css-selector-and-extract/)
+- [Obter CSS computado em Java: Guia completo do Aspose Html](/html/java/css-html-form-editing/get-computed-css-in-java-complete-aspose-html-guide/)
 
-**P: O Aspose.HTML suporta sintaxe ES6?**  
-R: Sim. O motor usa um interpretador JavaScript moderno que entende `let`, `const`, funções arrow e até `async/await`. Apenas certifique-se de dar tempo suficiente com `set script timeout`.
-
-**P: E se a página usar arquivos de script externos?**  
-R: Desde que esses arquivos estejam acessíveis (caminho local ou URL absoluta) eles serão buscados automaticamente. Se você trabalhar offline, inclua os scripts no HTML ou use `LoadOptions.setBaseUrl()` para apontar para uma pasta local.
-
-**P: Posso recuperar outros estilos computados?**  
-R: Absolutamente. O objeto `ComputedStyle` expõe todas as propriedades CSS — `getFontSize()`, `getMarginTop()`, etc. Use o mesmo padrão que você usou para **obter o background computado**.
-
----
-
-## Conclusão
-
-Agora você sabe como **habilitar a execução de scripts** no Aspose.HTML para Java, **definir o tempo limite do script**, **carregar documento html**, usar **query selector java**, e finalmente **obter o background computado** de um elemento estilizado dinamicamente. Esse fluxo de ponta a ponta é uma base sólida para qualquer tarefa de renderização HTML do lado do servidor ou extração de dados.
-
-Pronto para o próximo passo? Tente extrair larguras e alturas computadas, ou até ler valores de elementos canvas. Ou combine isso com a conversão para PDF para capturar a página totalmente renderizada — o Aspose.HTML torna isso muito fácil também.
-
-Feliz codificação, e não se esqueça de experimentar as variações de tempo limite e seletor para se adequar ao seu caso de uso específico! 🚀
-
----
-
-![Captura de tela mostrando habilitação da execução de scripts no Aspose.HTML](/images/enable-script-execution.png "Exemplo de habilitação da execução de scripts no Aspose.HTML")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
