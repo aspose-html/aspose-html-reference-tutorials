@@ -51,7 +51,9 @@ Java के लिए Aspose.HTML का उपयोग करके HTML द�
 ### [Java के लिए Aspose.HTML में HTML को Markdown में बदलें](./convert-html-to-markdown/)
 Java के लिए Aspose.HTML का उपयोग करके HTML को आसानी से Markdown में बदलें। सहज सामग्री रूपांतरण और हेरफेर के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें।
 ### [Java के लिए Aspose.HTML में HTML को MHTML में सहेजें](./save-html-to-mhtml/)
-इस चरण-दर-स्टेप मार्गदर्शिका के साथ, कोड उदाहरणों और व्यावहारिक युक्तियों के साथ, Java के लिए Aspose.HTML का उपयोग करके HTML दस्तावेज़ों को MHTML के रूप में सहेजना सीखें।
+इस चरण-दर-चरण मार्गदर्शिका के साथ, कोड उदाहरणों और व्यावहारिक युक्तियों के साथ, Java के लिए Aspose.HTML का उपयोग करके HTML दस्तावेज़ों को MHTML के रूप में सहेजना सीखें।
+### [Java के लिए Aspose.HTML के साथ वेबपेज को MHTML में सहेजें – चरण‑दर‑चरण मार्गदर्शिका](./save-webpage-as-mhtml-with-aspose-html-for-java-step-by-step/)
+Aspose.HTML for Java का उपयोग करके वेबपेज को MHTML फ़ॉर्मेट में सहेजने की पूरी प्रक्रिया सीखें।
 ### [Java के लिए Aspose.HTML में SVG दस्तावेज़ सहेजें](./save-svg-document/)
 उदाहरणों से भरपूर इस आसान चरण-दर-चरण मार्गदर्शिका के साथ Java के लिए Aspose.HTML का उपयोग करके SVG दस्तावेज़ों को सहेजना सीखें।
 ### [Java के लिए Aspose.HTML में उत्पन्न HTML परिणाम सहेजें – पूर्ण टेम्पलेट प्रोसेसिंग गाइड](./save-generated-html-result-full-template-processing-guide/)

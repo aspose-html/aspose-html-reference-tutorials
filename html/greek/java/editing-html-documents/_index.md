@@ -58,8 +58,32 @@ url: /el/java/editing-html-documents/
 Μάθετε πώς να διαχειρίζεστε τις εσωτερικές και εξωτερικές ιδιότητες HTML στο Aspose.HTML για Java με αυτόν τον οδηγό βήμα προς βήμα, ιδανικό για προγραμματιστές ιστού και δημιουργούς περιεχομένου.
 ### [Εφαρμογή εσωτερικού CSS σε έγγραφα HTML με το Aspose.HTML για Java](./implement-internal-css-html-documents/)
 Μάθετε να εφαρμόζετε εσωτερικό CSS σε έγγραφα HTML χρησιμοποιώντας το Aspose.HTML για Java με τον εύκολο βήμα προς βήμα εκμάθησή μας.
+### [Εκτέλεση JavaScript σε HTML με Aspose.HTML για Java – Πλήρης Οδηγός](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
+Μάθετε πώς να εκτελείτε JavaScript σε έγγραφα HTML χρησιμοποιώντας το Aspose.HTML για Java, βήμα προς βήμα.
 ### [Σταθερό thread pool Java – Παράλληλος καθαρισμός HTML με ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Μάθετε πώς να χρησιμοποιήσετε ένα σταθερό thread pool σε Java για να εκτελείτε παράλληλο καθαρισμό HTML με την κλάση ExecutorService.
+### [Προσθήκη στοιχείου child στο σώμα σε Java – Πλήρες σεμινάριο Aspose.HTML](./append-child-to-body-in-java-full-aspose-html-tutorial/)
+Μάθετε πώς να προσθέσετε ένα στοιχείο child στο σώμα ενός εγγράφου HTML χρησιμοποιώντας Aspose.HTML για Java.
+### [Αλλαγή κειμένου h1 σε MHTML με Java – Πλήρης Οδηγός Βήμα‑Βήμα](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
+Μάθετε πώς να αλλάξετε το κείμενο h1 σε αρχεία MHTML χρησιμοποιώντας το Aspose.HTML για Java με αυτόν τον πλήρη οδηγό βήμα‑βήμα.
+### [Δημιουργία νέου στοιχείου HTML με Java – Πλήρης οδηγός Aspose.HTML](./create-new-html-element-with-java-full-aspose-html-guide/)
+Μάθετε πώς να δημιουργήσετε ένα νέο στοιχείο HTML χρησιμοποιώντας το Aspose.HTML για Java σε έναν πλήρη βήμα-βήμα οδηγό.
+### [Πώς να Προσθέσετε Στοιχείο Child στο Java DOM – Πλήρης Οδηγός Aspose.HTML](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
+Μάθετε πώς να προσθέσετε ένα στοιχείο child σε ένα DOM Java χρησιμοποιώντας το Aspose.HTML σε έναν πλήρη βήμα-προς-βήμα οδηγό.
+### [Πώς να αφαιρέσετε τα scripts από HTML σε Java – Πλήρης οδηγός](./how-to-remove-scripts-from-html-in-java-complete-guide/)
+Μάθετε πώς να αφαιρέσετε όλα τα scripts από έγγραφα HTML χρησιμοποιώντας Aspose.HTML για Java σε αυτόν τον πλήρη οδηγό.
+### [Πώς να επισημάνετε HTML – Αναζήτηση κειμένου & αντικατάσταση με <mark>](./how-to-highlight-html-search-text-replace-with-mark/)
+Μάθετε πώς να εντοπίζετε κείμενο σε HTML και να το επισημαίνετε χρησιμοποιώντας το στοιχείο <mark> με Aspose.HTML για Java.
+### [Αυτόματη απελευθέρωση κλειδώματος σε Java – Σεμινάριο ασφαλούς επεξεργασίας HTML](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
+Μάθετε πώς να απελευθερώνετε αυτόματα κλειδώματα σε Java για ασφαλή επεξεργασία HTML με νήματα, βήμα‑βήμα οδηγός.
+### [Πώς να εξάγετε HTML σε Java – Εξαγωγή κειμένου & επισήμανση λέξεων](./how-to-extract-html-in-java-extract-text-highlight-words/)
+Μάθετε πώς να εξάγετε κείμενο από HTML σε Java και να επισημάνετε συγκεκριμένες λέξεις χρησιμοποιώντας το Aspose.HTML.
+
+### [Απόκτηση Ιδιότητας Στοιχείου Java – Πλήρης Οδηγός για Επιλογή SVG και XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
+Μάθετε πώς να ανακτάτε ιδιότητες στοιχείων SVG χρησιμοποιώντας Java, XPath και το Aspose.HTML.
+### [Φόρτωση προτύπου HTML Java – Πλήρης οδηγός Aspose.HTML](./load-html-template-java-complete-aspose-html-guide/)
+Μάθετε πώς να φορτώνετε πρότυπο HTML σε Java με το Aspose.HTML, βήμα‑βήμα, για γρήγορη δημιουργία δυναμικών εγγράφων.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

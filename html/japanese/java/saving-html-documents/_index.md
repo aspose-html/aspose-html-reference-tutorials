@@ -46,12 +46,19 @@ SVGドキュメントを忘れないでください。これらはデザイン�
 ## Aspose.HTML for Java チュートリアルで HTML ドキュメントを保存する
 ### [Aspose.HTML for Java で HTML ドキュメントを保存する](./save-html-document/)
 初心者と専門家向けに設計されたこの包括的なステップバイステップ ガイドを使用して、Aspose.HTML for Java を使用して HTML ドキュメントを保存する方法を学習します。
+
 ### [Aspose.HTML for Java で HTML ドキュメントをファイルに保存する](./save-html-to-file/)
 複数のリンクされたリソースを簡単に処理するのに最適な Aspose.HTML for Java を使用して HTML ドキュメントをファイルに保存する方法を学習します。
+
 ### [Aspose.HTML for Java で HTML を Markdown に変換する](./convert-html-to-markdown/)
 Aspose.HTML for Java を使用して、HTML を Markdown に簡単に変換できます。このステップ バイ ステップ ガイドに従って、コンテンツをスムーズに変換および操作してください。
+
 ### [Aspose.HTML for Java で HTML を MHTML に保存する](./save-html-to-mhtml/)
 コード例と実用的なヒントが満載のこのステップバイステップ ガイドで、Aspose.HTML for Java を使用して HTML ドキュメントを MHTML として保存する方法を学びます。
+
+### [Aspose.HTML for Java で Web ページを MHTML に保存する](./save-webpage-as-mhtml-with-aspose-html-for-java-step-by-step/)
+Aspose.HTML for Java を使用して、Web ページを MHTML 形式で保存する手順を詳しく解説します。
+
 ### [Aspose.HTML for Java で SVG ドキュメントを保存する](./save-svg-document/)
 例が満載の簡単なステップバイステップ ガイドを使用して、Aspose.HTML for Java を使用して SVG ドキュメントを保存する方法を学びます。
 ### [生成された HTML 結果の保存 – 完全テンプレート処理ガイド](./save-generated-html-result-full-template-processing-guide/)
