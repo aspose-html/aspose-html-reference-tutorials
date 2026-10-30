@@ -153,6 +153,8 @@ Học cách chuyển đổi HTML thành hình ảnh bằng C# với Aspose.HTML,
 Học cách render HTML thành PNG trong C# với Aspose.HTML qua hướng dẫn chi tiết từng bước, bao gồm các mẹo và ví dụ thực tế.
 ### [Cách bật khử răng cưa khi render HTML sang PNG – Hướng dẫn toàn diện](./how-to-enable-antialiasing-when-rendering-html-to-png-comple/)
 Học cách bật khử răng cưa khi chuyển đổi HTML sang PNG bằng Aspose.HTML, bao gồm các bước chi tiết và mẹo thực tiễn.
+### [Cách bật khử răng cưa khi render HTML thành PNG](./how-to-enable-antialiasing-rendering-html-to-png/)
+Hướng dẫn bật tính năng khử răng cưa để cải thiện chất lượng PNG khi render HTML bằng Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

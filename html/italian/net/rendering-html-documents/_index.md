@@ -154,6 +154,8 @@ Scopri come abilitare l'antialiasing per migliorare la qualità delle immagini P
 
 ### [Come comprimere HTML in zip e renderizzarlo come PNG – Guida completa C#](./how-to-zip-html-and-render-it-as-png-complete-c-guide/)
 Scopri come comprimere file HTML in un archivio zip e convertirli in PNG usando Aspose.HTML per .NET con una guida passo passo.
+### [Come abilitare l'anti-aliasing nel rendering di HTML in PNG](./how-to-enable-antialiasing-rendering-html-to-png/)
+Scopri come attivare l'anti-aliasing per migliorare la qualità delle immagini PNG generate da HTML con Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -203,6 +203,8 @@ url: /el/net/html-extensions-and-conversions/
 Απόδοση HTML σε PDF σε C# με βελτιωμένη ποιότητα κειμένου χρησιμοποιώντας Aspose.HTML. Ακολουθήστε τον βήμα‑βήμα οδηγό για καλύτερο PDF.
 ### [Απόδοση HTML σε PDF σε C# – οδηγός μετατροπής html string σε pdf](./render-html-to-pdf-in-c-html-string-to-pdf-guide/)
 Μάθετε πώς να μετατρέψετε μια συμβολοσειρά HTML σε PDF με C# και Aspose.HTML.
+### [Πώς να αποθηκεύσετε HTML ως ZIP – Πλήρης οδηγός Aspose.HTML](./how-to-save-html-as-zip-complete-aspose-html-guide/)
+Μάθετε πώς να αποθηκεύετε HTML σε αρχείο ZIP χρησιμοποιώντας το Aspose.HTML με πλήρη οδηγίες βήμα‑βήμα.
 
 ### [Πώς να συμπιέσετε HTML με Aspose.HTML – Πλήρης Οδηγός](./how-to-zip-html-with-aspose-html-complete-guide/)
 Μάθετε πώς να δημιουργείτε αρχείο ZIP από HTML χρησιμοποιώντας το Aspose.HTML σε .NET – βήμα‑βήμα οδηγός.

@@ -216,6 +216,8 @@ Ismerje meg, hogyan használhat egyéni erőforráskezelőt a HTML stream‑kén
 ### [HTML mentése ZIP-be az Aspose.HTML segítségével – Teljes C# útmutató](./save-html-as-zip-with-aspose-html-complete-c-guide/)
 ### [HTML mentése ZIP-be az Aspose-szal – Teljes útmutató](./save-html-to-zip-with-aspose-complete-guide/)
 Ismerje meg, hogyan menthet HTML-fájlokat ZIP-archívumba az Aspose.HTML .NET használatával, lépésről‑lépésre útmutatóval.
+### [HTML mentése ZIP-be – Teljes Aspose.HTML útmutató](./how-to-save-html-as-zip-complete-aspose-html-guide/)
+Részletes útmutató az HTML fájlok ZIP-archívumba mentéséhez az Aspose.HTML for .NET használatával.
 
 ## Következtetés
 

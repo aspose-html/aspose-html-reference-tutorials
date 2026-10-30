@@ -257,6 +257,8 @@ Aspose.HTML для .NET — это не просто библиотека; эт�
 Узнайте, как сохранить HTML‑страницу в архив ZIP с помощью Aspose.HTML в полном руководстве.
 ### [Рендеринг HTML в PDF на C# – Полное руководство Aspose.HTML](./render-html-to-pdf-in-c-full-aspose-html-guide/)
 Полное пошаговое руководство по рендерингу HTML в PDF с помощью Aspose.HTML в C#.
+### [Как сохранить HTML в ZIP – Полное руководство Aspose.HTML](./how-to-save-html-as-zip-complete-aspose-html-guide/)
+Узнайте, как сохранить HTML‑страницу в архив ZIP с помощью Aspose.HTML, используя C# в полном пошаговом руководстве.
 
 ## Заключение
 

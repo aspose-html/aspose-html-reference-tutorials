@@ -265,6 +265,8 @@ Aspose.HTML for .NET 不只是一個函式庫；它還是一個函式庫。它�
 在 C# 中使用 Aspose.HTML 轉 PDF 時啟用抗鋸齒，提升渲染品質的簡易步驟說明。
 ### [使用 Aspose.HTML 將 HTML 儲存為 ZIP – 完整指南](./save-html-to-zip-with-aspose-complete-guide/)
 使用 Aspose.HTML for .NET 將 HTML 壓縮為 ZIP 檔案，提供完整的步驟說明與範例。
+### [如何將 HTML 保存為 ZIP – 完整 Aspose.HTML 教學](./how-to-save-html-as-zip-complete-aspose-html-guide/)
+使用 Aspose.HTML for .NET 在 C# 中將 HTML 壓縮為 ZIP，提供完整步驟與範例說明。
 
 ## 結論
 

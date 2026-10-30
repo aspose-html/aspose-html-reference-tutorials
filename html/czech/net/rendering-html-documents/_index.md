@@ -185,6 +185,9 @@ Kompletní návod v C#, jak převést HTML do PNG pomocí Aspose.HTML s podrobn�
 ### [Jak povolit antialiasing při vykreslování HTML do PNG – Kompletní průvodce](./how-to-enable-antialiasing-when-rendering-html-to-png-comple/)
 Naučte se, jak pomocí Aspose.HTML pro .NET povolit antialiasing při převodu HTML do PNG a získat hladké výstupy.
 
+### [Jak povolit antialiasing při vykreslování HTML do PNG](./how-to-enable-antialiasing-rendering-html-to-png/)
+Naučte se, jak povolit antialiasing pro hladší výstup PNG při vykreslování HTML pomocí Aspose.HTML.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -243,6 +243,8 @@ Zapisz dokument HTML do archiwum ZIP przy użyciu Aspose.HTML – kompletny prze
 Dowiedz się, jak renderować HTML do PDF w C# i uzyskać wyższą jakość tekstu w wygenerowanym dokumencie PDF.
 ### [Renderowanie HTML do PDF w C# – przewodnik konwersji ciągu HTML do PDF](./render-html-to-pdf-in-c-html-string-to-pdf-guide/)
 Dowiedz się, jak w C# przekształcić ciąg HTML w plik PDF przy użyciu Aspose.HTML – krok po kroku.
+### [Zapisz HTML jako ZIP – Kompletny przewodnik Aspose.HTML](./how-to-save-html-as-zip-complete-aspose-html-guide/)
+Zapisz dokument HTML jako archiwum ZIP przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
 
 ## Wniosek
 

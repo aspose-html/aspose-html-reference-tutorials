@@ -255,6 +255,8 @@ Aspose.HTML for .NET을 사용해 HTML을 ZIP 파일로 저장하는 전체 C# �
 C#와 Aspose.HTML for .NET을 사용해 로컬 HTML 파일을 PDF로 변환하는 단계별 가이드를 제공합니다.
 ### [Aspose를 사용하여 HTML을 ZIP으로 저장 – 완전 가이드](./save-html-to-zip-with-aspose-complete-guide/)
 Aspose.HTML for .NET을 활용해 C#에서 HTML을 ZIP 파일로 저장하는 단계별 완전 가이드입니다.
+### [HTML을 ZIP으로 저장하는 방법 – 전체 Aspose.HTML 가이드](./how-to-save-html-as-zip-complete-aspose-html-guide/)
+Aspose.HTML for .NET을 사용하여 HTML을 ZIP 파일로 저장하는 전체 단계별 가이드를 확인하세요.
 
 ## 결론
 

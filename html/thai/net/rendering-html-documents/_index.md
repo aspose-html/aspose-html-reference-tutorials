@@ -169,6 +169,8 @@ Aspose.HTML สำหรับ .NET ถือเป็นตัวเลือ�
 
 ### [วิธีเปิดใช้งาน Antialiasing เมื่อเรนเดอร์ HTML เป็น PNG – คู่มือฉบับสมบูรณ์](./how-to-enable-antialiasing-when-rendering-html-to-png-comple/)
 เรียนรู้วิธีเปิดใช้งาน Antialiasing ในการเรนเดอร์ HTML เป็น PNG อย่างละเอียดด้วย Aspose.HTML สำหรับ .NET
+### [วิธีเปิดใช้งาน Antialiasing ในการเรนเดอร์ HTML เป็น PNG](./how-to-enable-antialiasing-rendering-html-to-png/)
+เรียนรู้วิธีเปิดใช้งาน Antialiasing เพื่อปรับปรุงคุณภาพการเรนเดอร์ HTML เป็น PNG ด้วย Aspose.HTML สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

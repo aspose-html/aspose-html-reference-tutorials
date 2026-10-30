@@ -8,11 +8,12 @@ url: /tr/net/html-extensions-and-conversions/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # HTML Uzantıları ve Dönüşümleri
-
 
 Web geliştirme becerilerinizi geliştirmek ve HTML uzantılarının ve dönüşümlerinin gücünü açığa çıkarmak için can atıyor musunuz? Başka yere bakmayın! Bu kapsamlı kılavuzda, .NET için Aspose.HTML kullanarak HTML uzantıları ve dönüşümleri öğreticilerinin dünyasına dalacağız.
 
@@ -37,7 +38,6 @@ Başlamaya hazır mısınız? Aspose.HTML for .NET eğitimleri hem yeni başlaya
 Aspose.HTML for .NET yalnızca bir kütüphane değil; web geliştirme dünyasında oyunun kurallarını değiştiren bir araçtır. HTML ile ilgili görevlerinizi kolaylaştıran kapsamlı bir özellik ve araç yelpazesi sunar. Bu eğitimlerin sonunda, Aspose.HTML for .NET'in potansiyelini en üst düzeye çıkarmak için gereken bilgi ve becerilerle donatılmış olacaksınız.
 
 ## HTML Uzantıları ve Dönüşümleri Eğitimleri
-
 
 ### [Aspose.HTML ile .NET'te HTML'yi PDF'ye dönüştürün](./convert-html-to-pdf/)
 ### [Aspose.HTML ile .NET'te HTML'den PDF Oluşturma – Adım Adım Kılavuz](./create-pdf-from-html-with-aspose-step-by-step-guide/)
@@ -211,14 +211,17 @@ C# ve Aspose.HTML for .NET kullanarak yerel bir HTML dosyasını PDF'ye nasıl d
 ### [Aspose HTML'den PDF'ye Dönüştürmede Antialiasing'i Etkinleştirme (C#)](./how-to-enable-antialiasing-in-aspose-html-to-pdf-conversion/)
 Aspose.HTML for .NET kullanarak HTML'den PDF'ye dönüşüm sırasında antialiasing'i nasıl etkinleştireceğinizi adım adım öğrenin.
 ### [Aspose.HTML ile HTML'yi ZIP'e Kaydet – Tam Kılavuz](./save-html-to-zip-with-aspose-complete-guide/)
+### [HTML'yi ZIP Olarak Kaydet – Tam Aspose.HTML Kılavuzu](./how-to-save-html-as-zip-complete-aspose-html-guide/)
+Aspose.HTML for .NET ile HTML dosyalarını ZIP arşivine kaydetmeyi ayrıntılı olarak öğrenin.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Aspose.HTML ile .NET'te HTML'yi PDF'ye Dönüştürün – Tam Adım‑Adım Kılavuz](./convert-html-to-pdf-with-aspose-html-full-step-by-step-guide/)
 Aspose.HTML for .NET ile HTML'yi PDF'ye tam adım‑adım dönüştürün. Ayrıntılı örnekler ve ipuçlarıyla süreci kolaylaştırın.
 ### [C# ile Zip Dosyası Oluşturma – Bellekte HTML'yi Zip'lemek için Adım Adım Kılavuz](./create-zip-file-c-step-by-step-guide-to-zip-html-in-memory/)
 C# kullanarak bellek içindeki HTML içeriğini zip dosyasına dönüştürmeyi adım adım öğrenin.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

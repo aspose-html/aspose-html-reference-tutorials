@@ -151,6 +151,8 @@ C# ile HTML'yi PNG'ye dönüştürmeyi eksiksiz adım adım öğrenin. Örnek ko
 
 ### [HTML'yi PNG'ye Renderlarken Antialiasing'i Etkinleştirme – Tam Kılavuz](./how-to-enable-antialiasing-when-rendering-html-to-png-comple/)
 HTML'yi PNG'ye renderlarken antialiasing'i etkinleştirmenin adımlarını öğrenin.
+### [HTML'yi PNG'ye Render ederken Antialiasing'i Etkinleştirme](./how-to-enable-antialiasing-rendering-html-to-png/)
+HTML'yi PNG'ye dönüştürürken antialiasing'i nasıl etkinleştireceğinizi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

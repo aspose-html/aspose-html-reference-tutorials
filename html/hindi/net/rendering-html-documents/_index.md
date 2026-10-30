@@ -181,6 +181,9 @@ Aspose.HTML का उपयोग करके HTML को इमेज फ़�
 ### [HTML को PNG में रेंडर करते समय एंटीएलियासिंग सक्षम करने का तरीका – पूर्ण गाइड](./how-to-enable-antialiasing-when-rendering-html-to-png-comple/)
 Aspose.HTML का उपयोग करके HTML को PNG में रेंडर करते समय एंटीएलियासिंग कैसे सक्षम करें, चरण‑दर‑शरण निर्देश।
 
+### [HTML को PNG में रेंडर करने के लिए एंटीएलियासिंग सक्षम करने का तरीका](./how-to-enable-antialiasing-rendering-html-to-png/)
+Aspose.HTML के साथ HTML को PNG में रेंडर करते समय एंटीएलियासिंग को सक्षम करने के चरण‑दर‑चरण निर्देश।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
