@@ -56,6 +56,8 @@ Bu adım adım kılavuzla, kod örnekleri ve pratik ipuçlarıyla birlikte Aspos
 Örneklerle dolu bu kolay adım adım kılavuzla Java için Aspose.HTML kullanarak SVG belgelerinin nasıl kaydedileceğini öğrenin.
 ### [Aspose HTML for Java ile Web Sayfasını MHTML Olarak Kaydetme – Adım Adım Kılavuz](./save-webpage-as-mhtml-with-aspose-html-for-java-step-by-step/)
 Aspose.HTML for Java kullanarak bir web sayfasını MHTML formatında kaydetmeyi adım adım öğrenin.
+### [Oluşturulan HTML Sonucunu Kaydet – Tam Şablon İşleme Kılavuzu](./save-generated-html-result-full-template-processing-guide/)
+Java için Aspose.HTML kullanarak tam şablon işleme ile oluşturulan HTML sonucunu kaydetmeyi öğrenin.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -56,6 +56,8 @@ url: /el/java/saving-html-documents/
 Μάθετε πώς να αποθηκεύετε έγγραφα SVG χρησιμοποιώντας το Aspose.HTML για Java με αυτόν τον εύκολο βήμα προς βήμα οδηγό γεμάτο με παραδείγματα.
 ### [Αποθήκευση ιστοσελίδας ως MHTML με Aspose HTML για Java – Οδηγός βήμα‑βήμα](./save-webpage-as-mhtml-with-aspose-html-for-java-step-by-step/)
 Μάθετε πώς να αποθηκεύετε μια ιστοσελίδα ως αρχείο MHTML χρησιμοποιώντας το Aspose.HTML για Java με λεπτομερείς οδηγίες και παραδείγματα.
+### [Αποθήκευση παραγόμενου αποτελέσματος HTML – Οδηγός πλήρους επεξεργασίας προτύπου](./save-generated-html-result-full-template-processing-guide/)
+Μάθετε πώς να αποθηκεύετε το παραγόμενο HTML αποτέλεσμα χρησιμοποιώντας πλήρη επεξεργασία προτύπου με το Aspose.HTML για Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

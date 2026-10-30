@@ -56,6 +56,9 @@ Découvrez comment enregistrer des documents HTML au format MHTML à l'aide d'As
 Apprenez à sauvegarder une page Web au format MHTML avec Aspose.HTML pour Java grâce à ce guide complet pas à pas.
 ### [Enregistrer un document SVG dans Aspose.HTML pour Java](./save-svg-document/)
 Apprenez à enregistrer des documents SVG à l'aide d'Aspose.HTML pour Java avec ce guide étape par étape simple rempli d'exemples.
+### [Enregistrer le résultat HTML généré – Guide complet du traitement de modèle](./save-generated-html-result-full-template-processing-guide/)
+Apprenez à enregistrer le résultat HTML généré après le traitement complet d'un modèle avec Aspose.HTML pour Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

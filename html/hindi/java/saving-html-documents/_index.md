@@ -56,6 +56,9 @@ Java के लिए Aspose.HTML का उपयोग करके HTML क�
 Aspose.HTML for Java का उपयोग करके वेबपेज को MHTML फ़ॉर्मेट में सहेजने की पूरी प्रक्रिया सीखें।
 ### [Java के लिए Aspose.HTML में SVG दस्तावेज़ सहेजें](./save-svg-document/)
 उदाहरणों से भरपूर इस आसान चरण-दर-चरण मार्गदर्शिका के साथ Java के लिए Aspose.HTML का उपयोग करके SVG दस्तावेज़ों को सहेजना सीखें।
+### [Java के लिए Aspose.HTML में उत्पन्न HTML परिणाम सहेजें – पूर्ण टेम्पलेट प्रोसेसिंग गाइड](./save-generated-html-result-full-template-processing-guide/)
+Java के लिए Aspose.HTML का उपयोग करके पूर्ण टेम्पलेट प्रोसेसिंग के साथ उत्पन्न HTML परिणाम को सहेजने का चरण-दर-चरण मार्गदर्शन।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

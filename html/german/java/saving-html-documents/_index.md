@@ -56,6 +56,9 @@ Erfahren Sie in dieser Schritt-für-Schritt-Anleitung mit Codebeispielen und pra
 Erfahren Sie, wie Sie mit Aspose.HTML für Java eine komplette Webseite als MHTML speichern – detaillierte Anleitung mit Beispielcode.
 ### [SVG-Dokument in Aspose.HTML für Java speichern](./save-svg-document/)
 Erfahren Sie mit dieser einfachen Schritt-für-Schritt-Anleitung voller Beispiele, wie Sie SVG-Dokumente mit Aspose.HTML für Java speichern.
+### [Generiertes HTML-Ergebnis speichern – Vollständige Vorlagenverarbeitungsanleitung](./save-generated-html-result-full-template-processing-guide/)
+Erfahren Sie, wie Sie das generierte HTML-Ergebnis mit Aspose.HTML für Java vollständig verarbeiten und speichern.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

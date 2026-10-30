@@ -56,6 +56,8 @@ Lär dig hur du sparar HTML-dokument som MHTML med Aspose.HTML för Java med den
 Lär dig hur du sparar SVG-dokument med Aspose.HTML för Java med denna enkla steg-för-steg-guide fullpackad med exempel.
 ### [Spara webbsida som MHTML med Aspose.HTML för Java – steg‑för‑steg‑guide](./save-webpage-as-mhtml-with-aspose-html-for-java-step-by-step/)
 Lär dig hur du sparar en webbsida som MHTML med Aspose.HTML för Java i en tydlig steg‑för‑steg‑guide.
+### [Spara genererat HTML-resultat – Full guide för mallbearbetning](./save-generated-html-result-full-template-processing-guide/)
+Lär dig hur du sparar genererat HTML-resultat med full mallbearbetning i Aspose.HTML för Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

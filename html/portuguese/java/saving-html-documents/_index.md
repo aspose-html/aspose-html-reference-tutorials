@@ -56,6 +56,8 @@ Aprenda como salvar documentos HTML como MHTML usando Aspose.HTML para Java com 
 Aprenda a salvar uma página da web como MHTML usando Aspose HTML para Java com este guia passo a passo detalhado.
 ### [Salvar documento SVG em Aspose.HTML para Java](./save-svg-document/)
 Aprenda como salvar documentos SVG usando Aspose.HTML para Java com este guia passo a passo fácil e repleto de exemplos.
+### [Salvar Resultado HTML Gerado – Guia Completo de Processamento de Modelo](./save-generated-html-result-full-template-processing-guide/)
+Aprenda a salvar o resultado HTML gerado usando o Aspose.HTML para Java, com um guia completo de processamento de modelos.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

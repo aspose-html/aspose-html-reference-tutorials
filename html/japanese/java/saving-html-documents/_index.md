@@ -61,6 +61,9 @@ Aspose.HTML for Java を使用して、Web ページを MHTML 形式で保存す
 
 ### [Aspose.HTML for Java で SVG ドキュメントを保存する](./save-svg-document/)
 例が満載の簡単なステップバイステップ ガイドを使用して、Aspose.HTML for Java を使用して SVG ドキュメントを保存する方法を学びます。
+### [生成された HTML 結果の保存 – 完全テンプレート処理ガイド](./save-generated-html-result-full-template-processing-guide/)
+テンプレート全体を処理し、生成された HTML 結果を保存する方法をステップバイステップで解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

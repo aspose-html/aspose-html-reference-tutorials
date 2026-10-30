@@ -57,6 +57,8 @@ Ebből az egyszerű, példákat tartalmazó útmutatóból megtudhatja, hogyan m
 ### [Weboldal mentése MHTML-ként az Aspose.HTML for Java-val – Lépésről lépésre útmutató](./save-webpage-as-mhtml-with-aspose-html-for-java-step-by-step/)
 Fedezze fel, hogyan menthet weboldalakat MHTML formátumban az Aspose.HTML for Java segítségével, részletes lépésről‑lépésre útmutatóval.
 
+### [Generált HTML eredmény mentése – Teljes sablonfeldolgozási útmutató](./save-generated-html-result-full-template-processing-guide/)
+Ismerje meg, hogyan menthet generált HTML eredményeket, és használhatja a teljes sablonfeldolgozási útmutatót az Aspose.HTML for Java-ban.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
