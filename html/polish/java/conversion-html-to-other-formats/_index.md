@@ -136,6 +136,8 @@ Kompletny przewodnik wysokiej jakości konwersji HTML do PDF w Javie.
 Dowiedz się, jak konwertować HTML do PDF równolegle przy użyciu stałej puli wątków w Javie, zwiększając wydajność przetwarzania.
 ### [Utwórz PDF z HTML w Javie – Pełny przewodnik Aspose.HTML](./create-pdf-from-html-in-java-full-aspose-html-guide/)
 Kompletny przewodnik, jak wygenerować PDF z HTML w Javie przy użyciu Aspose.HTML, krok po kroku.
+### [Samouczek html do pdf – Konwertuj HTML do PDF przy użyciu Aspose HTML dla Javy](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-fo/)
+Dowiedz się, jak przy użyciu Aspose HTML dla Javy konwertować pliki HTML do PDF w prostych krokach.
 ### [Konwertowanie HTML do PDF w Javie – Przewodnik krok po kroku z ustawieniami rozmiaru strony](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Dowiedz się, jak konwertować HTML do PDF w Javie, ustawiając rozmiar strony krok po kroku.
 ### [Konwertowanie HTML do PDF w Javie – Kompletny przewodnik z osadzaniem czcionek](./convert-html-to-pdf-in-java-complete-guide-with-font-embeddi/)

@@ -332,6 +332,8 @@ Naučte se převést webovou stránku do PDF v Javě pomocí Aspose.HTML s podro
 ### [Převod HTML do PDF s pevnou vláknovou skupinou v Javě](./convert-html-to-pdf-with-fixed-thread-pool-java/)
 Naučte se provádět konverzi HTML do PDF v Javě pomocí pevného thread poolu pro efektivní paralelní zpracování.
 ### [Převod Markdown do PDF v Javě – Kompletní průvodce Aspose](./convert-markdown-to-pdf-in-java-complete-aspose-guide/)
+### [html to pdf tutoriál – Převod HTML do PDF pomocí Aspose HTML pro Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-fo/)
+Naučte se převést HTML do PDF v Javě pomocí Aspose.HTML s podrobným průvodcem a nastavením.
 
 ## Často kladené otázky
 

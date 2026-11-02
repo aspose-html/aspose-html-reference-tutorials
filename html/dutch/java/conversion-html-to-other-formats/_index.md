@@ -95,6 +95,8 @@ Leer hoe u de Sandbox‑omgeving van Aspose.HTML gebruikt om veilig HTML naar PD
 Leer hoe u HTML naar PDF kunt omzetten in Java met Aspose.HTML, inclusief configuratie‑opties en best practices.
 ### [Alle CPU‑kernen gebruiken voor parallelle HTML‑naar‑PDF batchconversie](./use-all-cpu-cores-for-parallel-html-to-pdf-batch-conversion/)
 Leer hoe u alle CPU‑kernen benut om HTML‑naar‑PDF batchconversies parallel uit te voeren met Aspose.HTML for Java.
+### [HTML naar PDF tutorial – Converteer HTML naar PDF met Aspose HTML voor Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-fo/)
+Leer stap‑voor‑stap hoe u HTML naar PDF converteert met Aspose HTML voor Java.
 ### [HTML naar PDF converteren in Java – Stapsgewijze gids met paginagrootte‑instellingen](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Leer stap voor stap hoe u HTML naar PDF converteert in Java en paginagrootte‑instellingen configureert voor optimale resultaten.
 ### [Hoe een webpagina naar PDF converteren in Java – Stapsgewijze gids](./how-to-convert-webpage-to-pdf-in-java-step-by-step-guide/)

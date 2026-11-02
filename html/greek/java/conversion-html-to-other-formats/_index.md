@@ -320,6 +320,8 @@ weight: 25
 ### [Μετατροπή Markdown σε PDF σε Java – Πλήρης Οδηγός Aspose](./convert-markdown-to-pdf-in-java-complete-aspose-guide/)
 ### [Μετατροπή ιστοσελίδας σε PDF σε Java – Οδηγός Aspose HTML](./convert-webpage-to-pdf-in-java-aspose-html-guide/)
 ### [Μετατροπή HTML σε PDF με Fixed Thread Pool σε Java](./convert-html-to-pdf-with-fixed-thread-pool-java/)
+### [html to pdf tutorial – Μετατροπή HTML σε PDF με Aspose HTML για Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-fo/)
+Μάθετε πώς να μετατρέψετε HTML σε PDF σε Java με το Aspose.HTML, ακολουθώντας έναν απλό, βήμα‑βήμα οδηγό.
 
 ## Συχνές Ερωτήσεις
 

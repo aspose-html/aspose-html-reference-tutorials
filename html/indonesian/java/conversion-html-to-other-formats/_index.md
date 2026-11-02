@@ -413,6 +413,9 @@ Pelajari cara mengonversi HTML ke DOCX di Java menggunakan Aspose.HTML. Buat dok
 Panduan lengkap mengonversi file HTML menjadi PDF di Java menggunakan Aspose.HTML dengan contoh kode langkah demi langkah.
 ### [Buat PDF dari HTML di Java – Panduan Lengkap Aspose.HTML](./create-pdf-from-html-in-java-full-aspose-html-guide/)
 
+### [Tutorial html ke pdf – Mengonversi HTML ke PDF dengan Aspose HTML untuk Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-fo/)
+Panduan lengkap untuk mengonversi HTML menjadi PDF menggunakan Aspose HTML for Java dengan contoh kode dan pengaturan lanjutan.
+
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bisakah saya menggunakan Aspose.HTML untuk Java dalam aplikasi komersial?**  

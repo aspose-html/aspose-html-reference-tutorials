@@ -158,6 +158,8 @@ Lär dig hur du med Aspose.HTML for Java omvandlar HTML‑innehåll till DOCX‑
 ### [Konvertera dynamisk HTML till PDF med Aspose HTML för Java](./convert-dynamic-html-pdf-with-aspose-html-for-java/)
 ### [Komprimera PDF med Aspose HTML till PDF – Java‑guide](./how-to-compress-pdf-with-aspose-html-to-pdf-java-guide/)
 Lär dig hur du minskar PDF‑filstorlek med Aspose HTML till PDF i Java för effektiv lagring och snabbare överföring.
+### [HTML till PDF handledning – Konvertera HTML till PDF med Aspose HTML för Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-fo/)
+En steg‑för‑steg‑guide som visar hur du använder Aspose HTML för Java för att konvertera HTML‑filer till PDF‑dokument.
 ### [Konvertera HTML till PDF i Java – Steg‑för‑steg‑guide med sidstorleksinställningar](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Lär dig konvertera HTML till PDF i Java med detaljerade steg och anpassa sidstorlek för optimal utskrift.
 ### [Hur man konverterar en webbsida till PDF i Java – Steg‑för‑steg‑guide](./how-to-convert-webpage-to-pdf-in-java-step-by-step-guide/)

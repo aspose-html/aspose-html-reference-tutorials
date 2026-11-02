@@ -343,6 +343,8 @@ Java’da Markdown dosyalarını yüksek kaliteli PDF'lere dönüştürmek için
 HTML'yi PDF'ye dönüştürürken sabit iş parçacığı havuzu kullanarak çoklu dönüşüm işlemlerini nasıl yöneteceğinizi öğrenin.
 ### [Java'da Markdown'ı PDF'ye Dönüştürme – Tam Aspose Kılavuzu](./convert-markdown-to-pdf-in-java-complete-aspose-guide/)
 Aspose.HTML for Java kullanarak Markdown dosyalarını yüksek kaliteli PDF'lere dönüştürmeyi adım adım öğrenin.
+### [HTML'den PDF'ye öğretici – Aspose HTML for Java ile HTML'yi PDF'ye dönüştürme](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-fo/)
+Aspose.HTML for Java kullanarak HTML'yi PDF'ye dönüştürmek için adım adım rehber.
 
 ## Sıkça Sorulan Sorular
 

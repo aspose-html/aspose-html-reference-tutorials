@@ -109,6 +109,8 @@ Hướng dẫn chi tiết cách dùng sandbox trong Aspose.HTML for Java để t
 Hướng dẫn chi tiết cách chuyển đổi tệp HTML sang PDF trong Java bằng Aspose.HTML, bao gồm các bước cấu hình và tùy chỉnh.
 ### [Chuyển đổi HTML sang PDF với Fixed Thread Pool trong Java](./convert-html-to-pdf-with-fixed-thread-pool-java/)
 Hướng dẫn sử dụng Fixed Thread Pool để chuyển đổi đồng thời nhiều tệp HTML sang PDF trong Java bằng Aspose.HTML.
+### [Hướng dẫn html to pdf – Chuyển đổi HTML sang PDF với Aspose HTML cho Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-fo/)
+Hướng dẫn chi tiết cách chuyển đổi HTML sang PDF trong Java bằng Aspose.HTML, bao gồm các tùy chọn cấu hình và mẹo tối ưu.
 
 ### [Chuyển đổi HTML sang PDF trong Java – Hướng dẫn chi tiết với cài đặt kích thước trang](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 ### [Hướng dẫn chuyển đổi HTML sang PDF với Java Fixed Thread Pool](./html-to-pdf-tutorial-convert-html-to-pdf-with-java-fixed-thr/)

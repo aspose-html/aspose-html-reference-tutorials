@@ -240,6 +240,8 @@ Aprende a generar documentos PDF/A‑2b conformes usando Aspose.HTML for Java, p
 Aprende a transformar archivos HTML en documentos DOCX usando Aspose.HTML para Java, con ejemplos paso a paso.
 ### [Cómo convertir un archivo HTML a PDF en Java – Guía completa](./how-to-convert-html-file-to-pdf-in-java-full-guide/)
 Aprende paso a paso a convertir archivos HTML a PDF en Java usando Aspose.HTML, con ejemplos y configuraciones avanzadas.
+### [Tutorial html a pdf – Convertir HTML a PDF con Aspose HTML para Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-fo/)
+Aprende paso a paso a convertir HTML a PDF usando Aspose HTML para Java, con ejemplos claros y opciones de configuración.
 
 ### [Guardar HTML como PDF con Java – Guía completa usando Thread Pool y plantillas](./save-html-as-pdf-with-java-complete-guide-using-thread-pool/)
 Aprende a guardar HTML como PDF en Java usando Thread Pool y plantillas para un procesamiento eficiente.

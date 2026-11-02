@@ -388,6 +388,9 @@ Aspose.HTML for Java का उपयोग करके वेबपेज क�
 ### [स्थिर थ्रेड पूल जावा के साथ HTML को PDF में बदलें](./convert-html-to-pdf-with-fixed-thread-pool-java/)
 स्थिर थ्रेड पूल का उपयोग करके कई HTML फ़ाइलों को समानांतर PDF में बदलने की प्रक्रिया सीखें।
 
+### [HTML को PDF ट्यूटोरियल – Aspose HTML for Java के साथ HTML को PDF में बदलें](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-fo/)
+Aspose.HTML for Java का उपयोग करके HTML को PDF में बदलने की विस्तृत चरण‑दर‑चरण मार्गदर्शिका।
+
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **Q: क्या मैं Aspose.HTML for Java को व्यावसायिक एप्लिकेशन में उपयोग कर सकता हूँ?**  

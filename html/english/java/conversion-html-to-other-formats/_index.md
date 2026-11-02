@@ -385,6 +385,8 @@ Learn how to convert multiple HTML files to PDF in parallel using Java and Aspos
 Comprehensive guide to generating PDFs from HTML in Java using Aspose.HTML, covering setup, options, and advanced features.
 ### [Convert HTML to PDF with Fixed Thread Pool Java](./convert-html-to-pdf-with-fixed-thread-pool-java/)
 Learn how to convert HTML to PDF in Java using a fixed thread pool for efficient parallel processing.
+### [html to pdf tutorial – Convert HTML to PDF with Aspose HTML for Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-fo/)
+Step-by-step guide to convert HTML to PDF using Aspose.HTML for Java, covering setup, options, and best practices.
 
 ## Frequently Asked Questions
 

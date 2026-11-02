@@ -416,6 +416,8 @@ Aspose.HTML for Java упрощает процесс конвертации HTML
 
 ### [Конвертация HTML в PDF с фиксированным пулом потоков Java](./convert-html-to-pdf-with-fixed-thread-pool-java/)
 
+### [Учебник html to pdf – Конвертировать HTML в PDF с Aspose HTML для Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-fo/)
+
 ## Часто задаваемые вопросы
 
 **Q: Можно ли использовать Aspose.HTML for Java в коммерческом приложении?**  
