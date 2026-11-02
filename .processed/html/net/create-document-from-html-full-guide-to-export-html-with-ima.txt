@@ -1,0 +1,7 @@
+Title: Create Document from HTML – Full Guide to Export HTML with Images and Save as ZIP
+Slug: create-document-from-html-full-guide-to-export-html-with-ima
+Category: html-extensions-and-conversions
+ProcessedDate: 2026-07-18T22:32:34.098427
+SourceRepo: AI Search API
+Keywords: create document from html, export html with images, convert html to zip, save document as zip, save html as zip
+PRNumber: 213

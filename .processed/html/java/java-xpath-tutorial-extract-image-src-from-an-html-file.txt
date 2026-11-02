@@ -1,0 +1,7 @@
+Title: Java XPath tutorial: extract image src from an HTML file
+Slug: java-xpath-tutorial-extract-image-src-from-an-html-file
+Category: creating-managing-html-documents
+ProcessedDate: 2026-10-25T10:41:11.394693
+SourceRepo: AI Search API
+Keywords: java xpath tutorial, read html file java, load html document java, get attribute xpath java, extract image src java
+PRNumber: 314
