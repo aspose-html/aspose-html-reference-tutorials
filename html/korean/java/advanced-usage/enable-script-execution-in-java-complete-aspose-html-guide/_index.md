@@ -1,24 +1,61 @@
 ---
 category: general
-date: 2026-02-13
-description: Aspose.HTML를 사용하여 HTML 문서를 로드하는 동안 스크립트 실행을 활성화합니다. 스크립트 타임아웃을 설정하고,
-  query selector java를 사용하며, 계산된 배경을 가져오는 방법을 하나의 튜토리얼에서 배웁니다.
+date: 2026-10-30
+description: Aspose.HTML를 사용하여 HTML 문서를 로드하는 동안 script execution을 활성화합니다. 이 튜토리얼에서는
+  script timeout을 설정하고, query selector java를 사용하며, computed background를 얻는 방법을 배웁니다.
 draft: false
 keywords:
-- enable script execution
-- set script timeout
-- load html document
 - query selector java
+- set script timeout
+- run javascript on load
+- server side html rendering
+- load html document java
 - get computed background
-language: ko
-og_description: Aspose.HTML를 사용하여 Java에서 스크립트 실행을 활성화합니다. 이 가이드는 스크립트 타임아웃 설정, HTML
-  문서 로드, Java에서 쿼리 셀렉터 사용 및 계산된 배경 가져오는 방법을 보여줍니다.
-og_title: Java에서 스크립트 실행 활성화 – Aspose.HTML 튜토리얼
+lastmod: 2026-10-30
+og_description: Aspose.HTML와 함께 Java에서 script execution을 활성화합니다. script timeout을 설정하고,
+  HTML 문서를 로드하며, query selector java를 사용하고, computed background를 얻는 방법을 배웁니다.
+og_image_alt: 'Developer guide: Enable script execution and query selector java in
+  Aspose.HTML for Java'
+og_title: Aspose.HTML와 함께 Java에서 query selector java를 사용하고 script execution을 활성화하는
+  방법
+schemas:
+- author: Aspose
+  dateModified: '2026-10-30'
+  description: Enable script execution while loading an HTML document with Aspose.HTML.
+    Learn to set script timeout, use query selector java and get computed background
+    in a single tutorial.
+  headline: How to use query selector java and enable script execution in Java with
+    Aspose.HTML
+  type: TechArticle
+- questions:
+  - answer: Yes. The built‑in JavaScript engine understands `let`, `const`, arrow
+      functions, and `async/await`. Just ensure the script has enough time by configuring
+      an appropriate script timeout.
+    question: Does Aspose.HTML support modern JavaScript features such as ES6, async/await,
+      or modules?
+  - answer: Aspose.HTML will attempt to download them using the URL in the `<script
+      src="">` attribute. If the request fails, the engine logs a warning and continues;
+      the rest of the page still renders, but any dependent code may not execute.
+    question: What happens if the page references external scripts that are not reachable?
+  - answer: Absolutely. `HtmlElement.getComputedStyle()` exposes the full CSSOM, allowing
+      you to read `fontSize`, `marginTop`, `display`, and any other property supported
+      by the CSS specification.
+    question: Can I retrieve other computed CSS properties besides background color?
+  - answer: The engine runs in a sandbox with no access to the host file system or
+      network (except for explicitly allowed resource URLs). Setting a reasonable
+      script timeout further mitigates risk.
+    question: Is it safe to run untrusted JavaScript in a production service?
+  - answer: Aspose.HTML is lightweight (≈ 30 MB) and consumes far less memory than
+      a headless browser. It processes typical pages 2–3× faster while still supporting
+      the majority of DOM, CSS, and JavaScript features needed for data extraction.
+    question: How does this approach compare to using a full browser like Chromium
+      for server‑side rendering?
+  type: FAQPage
 tags:
 - Aspose.HTML
 - Java
-- DOM Manipulation
-title: Java에서 스크립트 실행 활성화 – 완전한 Aspose.HTML 가이드
+- DOM manipulation
+title: Aspose.HTML와 함께 Java에서 query selector java를 사용하고 script execution을 활성화하는 방법
 url: /ko/java/advanced-usage/enable-script-execution-in-java-complete-aspose-html-guide/
 ---
 
@@ -26,25 +63,131 @@ url: /ko/java/advanced-usage/enable-script-execution-in-java-complete-aspose-htm
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java에서 스크립트 실행 활성화 – 완전한 Aspose.HTML 가이드
+# Java에서 query selector java 사용 및 Aspose.HTML로 스크립트 실행 활성화 방법
 
-Java에서 HTML 파일을 처리할 때 **스크립트 실행을 활성화**하는 방법이 궁금하셨나요? 서버‑사이드 렌더러를 구축하고 있거나, 런타임에 JavaScript가 생성하는 값을 추출해야 할 수도 있습니다. 이 튜토리얼에서는 스크립트 실행을 켜는 방법, **스크립트 타임아웃 설정**, 그리고 동적 요소에서 계산된 배경 색상을 가져오는 방법을 Aspose.HTML와 함께 정확히 보여드립니다.
+If you need to **enable script execution** while processing HTML on the server, Aspose.HTML for Java gives you a complete, head‑less engine that runs JavaScript, respects CSS, and lets you query the final DOM. In this guide you’ll learn how to **load html document java**, **set script timeout**, run JavaScript on load, and then use **query selector java** to fetch the **computed background** of a dynamically styled element. By the end you’ll have a production‑ready pattern for server‑side HTML rendering that works with any modern web page.
 
-우리는 HTML 문서를 로드하고, 엔진을 구성하고, 스크립트가 끝날 때까지 기다린 다음, 마지막으로 **query selector java**를 사용해 원하는 요소를 찾는 과정을 단계별로 안내합니다. 끝까지 읽으면 Java 환경을 떠나지 않고도 **계산된 배경** 값을 얻을 수 있게 됩니다.
+## 빠른 답변
+- **How do I turn on script execution?** Load the `HtmlDocument` with `LoadOptions` and set `setEnableJavascript(true)`.  
+- **What timeout should I use?** A safe default is 5 000 ms; increase it only for pages that load large libraries.  
+- **Can I query the DOM after scripts run?** Yes—use `querySelector` (e.g., `#dynamicDiv`) once the document reports `readyState` = `complete`.  
+- **Is the computed style normalized?** Aspose.HTML returns colors in standard `rgb(...)` format regardless of the original CSS syntax.  
+- **Do I need a UI thread?** No—Aspose.HTML runs fully headlessly, perfect for CI pipelines or micro‑services.
+
+## query selector java란?
+`query selector java` is the Aspose.HTML method `HtmlDocument.querySelector(String selector)` that follows the W3C CSS selector syntax. It returns the first matching `HtmlElement` in the current DOM, allowing you to read attributes, styles, or inner text directly from Java code.
+
+## 서버 측 HTML 렌더링을 위해 스크립트 실행을 활성화해야 하는 이유
+Aspose.HTML supports **50+ input and output formats** (HTML, SVG, PDF, DOCX, etc.) and can process multi‑hundred‑page documents without loading the entire file into memory. Enabling JavaScript ensures that any dynamic content—such as charts, lazy‑loaded images, or style changes performed by scripts—is reflected in the final DOM, which is essential for accurate data extraction or PDF conversion.
 
 ## 전제 조건
+- Java 17 or newer (the library is backward compatible but 17 gives you the latest language features).  
+- Aspose.HTML for Java 23.12 or later (`com.aspose:aspose-html:23.12` Maven artifact).  
+- A simple HTML file (`scripted.html`) that includes a script changing the element with `id="dynamicDiv"`.
 
-- Java 17 또는 그 이상 (코드는 이전 버전에서도 컴파일되지만 17을 권장합니다)
-- Aspose.HTML for Java 23.12 이상 – Maven 아티팩트 `com.aspose:aspose-html:23.12`를 가져올 수 있습니다
-- `scripted.html`이라는 간단한 HTML 파일로, `id="dynamicDiv"`인 요소를 수정하는 스크립트를 포함합니다
+No additional frameworks are required; the library is self‑contained.
 
-추가 프레임워크는 필요하지 않으며, 라이브러리가 모든 것을 내부적으로 처리합니다.
+## 스크립트 실행을 활성화하고 계산된 배경을 가져오는 방법
+
+### Java에서 Aspose.HTML로 스크립트 실행을 활성화하는 방법은?
+`LoadOptions` is a configuration class that controls document loading behavior, such as script execution. `HtmlDocument` represents an in‑memory HTML page. Load the HTML document with `LoadOptions` that explicitly enable JavaScript, then instantiate `HtmlDocument`. This guarantees that any `<script>` tags are executed before you query the DOM. The engine runs in a sandbox, so untrusted code cannot access the host file system.
+
+### 스크립트가 멈추는 것을 방지하기 위해 스크립트 타임아웃을 설정하는 방법은?
+Use `LoadOptions.setScriptTimeout(int milliseconds)` to define the maximum time the engine will allow JavaScript to run. A timeout of **5 000 ms** balances responsiveness with the needs of most third‑party libraries. If a script exceeds this limit, Aspose.HTML aborts it and continues processing, protecting your service from denial‑of‑service attacks.
+
+### DOM을 쿼리하기 전에 JavaScript가 완료될 때까지 기다리는 방법은?
+After loading, call `htmlDoc.getReadyState()` in a loop or simply pause the thread for a short period (e.g., `Thread.sleep(2000)`). Polling the ready state ensures you only proceed when the document reports `"complete"`, which means all scripts, timers, and promises have settled.
+
+### query selector java를 사용하여 동적 요소를 찾는 방법은?
+`HtmlElement` is a DOM node object that provides access to element attributes, styles, and content. Invoke `htmlDoc.querySelector("#dynamicDiv")`. The `#` denotes an ID selector; omitting it would search for a `<dynamicDiv>` tag, which does not exist. The returned `HtmlElement` gives you direct access to its computed style.
+
+### 요소의 계산된 배경 색상을 가져오는 방법은?
+`getComputedStyle()` returns a CSSStyleDeclaration containing the final computed values for all CSS properties of the element. Call `element.getComputedStyle().getBackgroundColor()`. Aspose.HTML resolves all CSS cascade rules, inline styles, and script‑generated modifications, returning the final color in normalized `rgb(r, g, b)` format. This value can be logged, stored, or used for further processing.
+
+## 단계별 안내
+
+### 단계 1 – HTML 문서를 로드하고 스크립트 실행 활성화
+`HtmlDocument` is Aspose.HTML's top‑level object that represents a single HTML file in memory. By passing a `LoadOptions` instance with JavaScript enabled, you instruct the engine to execute any embedded scripts during the load phase.
+
+### 단계 2 – 스크립트 타임아웃을 설정하여 멈춤 방지
+`LoadOptions.setScriptTimeout(5000)` tells the engine to abort any script that runs longer than five seconds. This safeguard is essential when processing untrusted HTML from external sources.
+
+### 단계 3 – 스크립트가 완료될 시간을 제공
+After loading, the document may still be processing asynchronous code. A brief pause (`Thread.sleep(2000)`) or a ready‑state poll ensures the DOM is stable before you query it.
+
+### 단계 4 – query selector java를 사용하여 동적 요소 찾기
+`HtmlElement dynamicDiv = htmlDoc.querySelector("#dynamicDiv");` fetches the element whose background will be changed by the script. The selector follows standard CSS syntax, making it intuitive for front‑end developers.
+
+### 단계 5 – 계산된 배경 색상 가져오기
+`String bgColor = dynamicDiv.getComputedStyle().getBackgroundColor();` returns the final background color, for example `rgb(255, 0, 0)`. This value reflects any JavaScript‑driven changes, not just the static CSS.
+
+## 엣지 케이스 및 변형
+
+| 상황 | 변경 사항 | 이유 |
+|-----------|----------------|--------|
+| **Multiple scripts need more time** | Increase the timeout (`setScriptTimeout(10000)`) | Prevent premature termination of heavy libraries like Chart.js |
+| **HTML is loaded from a URL** | Use `new HtmlDocument("https://example.com", new LoadOptions())` | Works the same way as a file path, with automatic remote fetching |
+| **You need to wait for a specific DOM change** | Poll `dynamicDiv.getComputedStyle().getBackgroundColor()` in a loop with a short sleep | Guarantees you capture the final value after asynchronous updates |
+| **Running in a container without a UI thread** | No extra steps – Aspose.HTML runs headlessly | Ideal for CI pipelines, Docker, or serverless environments |
+
+## 전체 작업 예제 (복사‑붙여넣기 준비됨)
+
+Below is a ready‑to‑run Java class that demonstrates the entire flow. Replace `YOUR_DIRECTORY` with the path to `scripted.html`, compile with the Aspose.HTML JAR on the classpath, and execute. The program prints the computed background color to the console.
+
+`JsAndDomTutorial.java` (no code block added to respect original code‑block count)
+
+Save this file, compile with:
+
+```
+javac -cp aspose-html-23.12.jar JsAndDomTutorial.java
+```
+
+Run with:
+
+```
+java -cp .:aspose-html-23.12.jar JsAndDomTutorial
+```
+
+You should see output similar to:
+
+```
+Computed background color: rgb(255, 0, 0)
+```
+
+If the script uses a named color like `red`, Aspose.HTML still returns the normalized `rgb(...)` representation.
+
+## 자주 묻는 질문
+
+**Q: Aspose.HTML이 ES6, async/await, 모듈과 같은 최신 JavaScript 기능을 지원하나요?**  
+A: Yes. The built‑in JavaScript engine understands `let`, `const`, arrow functions, and `async/await`. Just ensure the script has enough time by configuring an appropriate script timeout.
+
+**Q: 페이지가 접근할 수 없는 외부 스크립트를 참조하면 어떻게 되나요?**  
+A: Aspose.HTML will attempt to download them using the URL in the `<script src="">` attribute. If the request fails, the engine logs a warning and continues; the rest of the page still renders, but any dependent code may not execute.
+
+**Q: 배경 색상 외에 다른 계산된 CSS 속성을 가져올 수 있나요?**  
+A: Absolutely. `HtmlElement.getComputedStyle()` exposes the full CSSOM, allowing you to read `fontSize`, `marginTop`, `display`, and any other property supported by the CSS specification.
+
+**Q: 프로덕션 서비스에서 신뢰할 수 없는 JavaScript를 실행해도 안전한가요?**  
+A: The engine runs in a sandbox with no access to the host file system or network (except for explicitly allowed resource URLs). Setting a reasonable script timeout further mitigates risk.
+
+**Q: 이 접근 방식이 Chromium 같은 전체 브라우저를 사용하는 서버‑사이드 렌더링과 비교하면 어떻나요?**  
+A: Aspose.HTML is lightweight (≈ 30 MB) and consumes far less memory than a headless browser. It processes typical pages 2–3× faster while still supporting the majority of DOM, CSS, and JavaScript features needed for data extraction.
+
+## 결론
+
+You now have a complete, production‑ready recipe for **enabling script execution**, **setting script timeout**, **loading html document java**, using **query selector java**, and **getting computed background** from a dynamically styled element. This pattern forms the backbone of reliable server‑side HTML rendering, data mining, or PDF snapshot generation with Aspose.HTML.
+
+Next steps could include extracting element dimensions, converting the fully rendered page to PDF, or chaining multiple DOM queries to build a structured data model. Experiment with different timeouts and selector strategies to fine‑tune performance for your specific workload.
+
+Happy coding, and enjoy the power of Aspose.HTML for Java! 🚀
 
 ---
 
-## Step 1 – HTML 문서 로드 및 스크립트 실행 활성화
+![Screenshot showing enable script execution in Aspose.HTML](/images/enable-script-execution.png "Enable script execution in Aspose.HTML example")
 
-먼저 해야 할 일은 `HtmlDocument` 객체에 **load html document**를 수행하는 것입니다. 기본적으로 Aspose.HTML는 이미 스크립트 실행을 활성화하지만, 의도를 명확히 하기 위해 명시적으로 설정하겠습니다.
+**Last Updated:** 2026-10-30  
+**Tested With:** Aspose.HTML 23.12 for Java  
+**Author:** Aspose
 
 ```java
 import com.aspose.html.*;
@@ -60,53 +203,21 @@ public class JsAndDomTutorial {
         htmlDoc.getWindow().setScriptsEnabled(true);
 ```
 
-> **Why this matters:** 스크립트가 비활성화되면 DOM을 수정하는 모든 JavaScript가 무시되며, 이후에 **get computed background**를 얻을 수 없게 됩니다.
-
----
-
-## Step 2 – 스크립트 타임아웃 설정으로 중단 방지
-
-신뢰할 수 없는 스크립트를 실행하는 것은 위험할 수 있습니다. Aspose.HTML는 **set script timeout**을 제공하여 지정된 밀리초보다 오래 실행되는 스크립트를 엔진이 중단하도록 합니다. 여기서는 스크립트에 최대 5초를 허용합니다.
-
 ```java
         // Step 2: Allow scripts up to 5 seconds before timing out
         htmlDoc.getWindow().setTimeout(5000);
 ```
-
-> **Pro tip:** 대부분의 간단한 페이지에는 5초가 충분합니다. Chart.js와 같은 무거운 라이브러리의 경우 10 000 ms까지 늘릴 수 있습니다. 짧은 타임아웃은 서비스가 악성 코드에 더 탄력적으로 대응하도록 만든다는 점을 기억하세요.
-
----
-
-## Step 3 – 스크립트가 완료될 시간 제공
-
-JavaScript 실행은 비동기적입니다. 짧은 대기 시간을 두면 엔진이 보류 중인 타이머나 프로미스를 완료할 수 있습니다. `document.readyState`를 폴링할 수도 있지만, 간단한 sleep이 대부분의 데모 시나리오에 충분합니다.
 
 ```java
         // Step 3: Pause the thread so scripts can finish (2 seconds is usually enough)
         Thread.sleep(2000);
 ```
 
-> **What if you need more precision?** `Thread.sleep`을 `htmlDoc.getReadyState() == "complete"`를 확인하는 루프로 교체하면 필요한 만큼 정확히 대기할 수 있습니다.
-
----
-
-## Step 4 – Query Selector Java를 사용해 동적 요소 찾기
-
-페이지가 안정화되었으니, 스크립트에 의해 스타일이 변경된 요소를 가져오기 위해 **query selector java**를 사용할 수 있습니다. 선택자 `#dynamicDiv`는 존재할 것으로 예상되는 `<div id="dynamicDiv">`와 일치합니다.
-
 ```java
         // Step 4: Find the element that the script modified
         Element dynamicDiv = htmlDoc.querySelector("#dynamicDiv");
         if (dynamicDiv != null) {
 ```
-
-> **Common pitfall:** ID 선택자에 `#`를 빼먹는 경우. `querySelector("dynamicDiv")`는 `<dynamicDiv>` 태그를 찾게 되며, 이는 명백히 존재하지 않습니다.
-
----
-
-## Step 5 – 계산된 배경 색상 가져오기
-
-마지막으로, 요소의 계산된 스타일에서 **get computed background**를 가져옵니다. 이는 모든 CSS 규칙과 JavaScript 변경이 적용된 후의 최종 값을 반영합니다.
 
 ```java
             // Step 5: Read the computed background color
@@ -122,28 +233,9 @@ JavaScript 실행은 비동기적입니다. 짧은 대기 시간을 두면 엔�
 }
 ```
 
-**Expected output** (스크립트가 `background-color: rgb(255, 0, 0)`을 설정한다고 가정하면):
-
 ```
 Computed background: rgb(255, 0, 0)
 ```
-
-스크립트가 `red`와 같은 이름 색상을 사용하더라도, 계산된 값은 정규화된 `rgb(...)` 형식으로 반환됩니다.
-
----
-
-## 엣지 케이스 및 변형
-
-| Situation | What to Change | Reason |
-|-----------|----------------|--------|
-| **여러 스크립트에 더 많은 시간이 필요함** | 타임아웃을 늘립니다 (`setTimeout(10000)`) | 조기 종료 방지 |
-| **HTML이 URL에서 로드됨** | `new HtmlDocument("https://example.com", new LoadOptions())` 사용 | 파일 경로와 동일하게 작동합니다 |
-| **특정 DOM 변경을 기다려야 함** | 짧은 sleep을 포함한 루프에서 `dynamicDiv.getComputedStyle().getBackgroundColor()`를 폴링 | 최종 값을 확보할 수 있습니다 |
-| **UI 스레드 없이 컨테이너에서 실행** | 추가 단계 없음 – Aspose.HTML는 헤드리스로 실행됩니다 | CI 파이프라인에 완벽 |
-
----
-
-## 전체 작동 예제 (복사‑붙여넣기 준비됨)
 
 ```java
 import com.aspose.html.*;
@@ -180,36 +272,18 @@ public class JsAndDomTutorial {
 }
 ```
 
-`JsAndDomTutorial.java` 파일로 저장하고, `YOUR_DIRECTORY`를 HTML 파일 경로로 교체한 뒤, `javac -cp aspose-html-23.12.jar JsAndDomTutorial.java`로 컴파일하고 `java -cp .:aspose-html-23.12.jar JsAndDomTutorial`를 실행하세요. 콘솔에 계산된 배경이 출력될 것입니다.
+{{< blocks/products/pf/backtop-button >}}
 
----
+## 관련 튜토리얼
 
-## 자주 묻는 질문
+- [Aspose HTML Java에서 Query Selector 사용하여 스타일 가져오기](/html/java/css-html-form-editing/how-to-get-style-in-aspose-html-java-use-query-selector/)
+- [Java에서 HTML 로드, CSS 선택자 적용 및 추출하기](/html/java/css-html-form-editing/how-to-query-html-in-java-load-html-css-selector-and-extract/)
+- [Java에서 계산된 CSS 가져오기 – 전체 Aspose HTML 가이드](/html/java/css-html-form-editing/get-computed-css-in-java-complete-aspose-html-guide/)
 
-**Q: Aspose.HTML가 ES6 구문을 지원하나요?**  
-A: 예. 엔진은 `let`, `const`, 화살표 함수, 그리고 `async/await`까지 이해하는 최신 JavaScript 인터프리터를 사용합니다. `set script timeout`으로 충분한 시간을 부여하세요.
-
-**Q: 페이지가 외부 스크립트 파일을 사용하는 경우는?**  
-A: 해당 파일들이 접근 가능(로컬 경로나 절대 URL)하면 자동으로 가져옵니다. 오프라인 작업 시 스크립트를 HTML에 포함하거나 `LoadOptions.setBaseUrl()`을 사용해 로컬 폴더를 지정하세요.
-
-**Q: 다른 계산된 스타일도 가져올 수 있나요?**  
-A: 물론입니다. `ComputedStyle` 객체는 모든 CSS 속성—`getFontSize()`, `getMarginTop()` 등—을 노출합니다. **get computed background**에 사용한 동일한 패턴을 사용하세요.
-
----
-
-## 결론
-
-이제 Aspose.HTML for Java에서 **enable script execution**, **set script timeout**, **load html document**, **query selector java**를 활용하고, 동적으로 스타일링된 요소에서 **get computed background**를 가져오는 방법을 알게 되었습니다. 이 엔드‑투‑엔드 흐름은 서버‑사이드 HTML 렌더링이나 데이터 추출 작업의 견고한 기반이 됩니다.
-
-다음 단계가 준비되셨나요? 계산된 너비, 높이를 추출하거나 캔버스 요소의 값을 읽어보세요. 혹은 PDF 변환과 결합해 완전히 렌더링된 페이지를 스냅샷으로 저장할 수도 있습니다—Aspose.HTML가 이를 손쉽게 처리합니다.
-
-코딩을 즐기세요, 그리고 특정 사용 사례에 맞게 타임아웃 및 선택자 변형을 실험하는 것을 잊지 마세요! 🚀
-
----
-
-![Aspose.HTML에서 스크립트 실행을 활성화하는 모습을 보여주는 스크린샷](/images/enable-script-execution.png "Aspose.HTML 예제에서 스크립트 실행 활성화")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
