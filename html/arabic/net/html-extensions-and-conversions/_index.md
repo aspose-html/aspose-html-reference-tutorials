@@ -254,6 +254,8 @@ url: /ar/net/html-extensions-and-conversions/
 تعلم كيفية تحسين جودة النص في ملفات PDF الناتجة عند تحويل HTML باستخدام Aspose.HTML في C#.
 ### [حفظ HTML كملف ZIP – دليل كامل Aspose.HTML](./how-to-save-html-as-zip-complete-aspose-html-guide/)
 دليل خطوة بخطوة لحفظ مستند HTML كملف ZIP باستخدام Aspose.HTML في C#.
+### [تحويل HTML إلى PDF باستخدام Aspose.HTML – دليل شامل خطوة بخطوة](./convert-html-to-pdf-with-aspose-html-complete-step-by-step-g/)
+دليل شامل يوضح كيفية تحويل HTML إلى PDF باستخدام Aspose.HTML خطوة بخطوة مع أمثلة عملية.
 
 ## خاتمة
 
