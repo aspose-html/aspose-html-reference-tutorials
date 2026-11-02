@@ -9,15 +9,11 @@ url: /ja/java/conversion-html-to-other-formats/convert-markdown-to-html/
 weight: 13
 ---
 
-Author". Translate labels but keep values.
 
-- Closing shortcodes.
 
-- Backtop button shortcode stays.
 
-Make sure to keep markdown formatting.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

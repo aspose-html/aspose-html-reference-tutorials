@@ -1,0 +1,7 @@
+Title: How to limit resources for HTML to PDF and Markdown
+Slug: how-to-limit-resources-for-html-to-pdf-and-markdown
+Category: general
+ProcessedDate: 2026-08-09T22:38:44.877794
+SourceRepo: AI Search API
+Keywords: how to limit resources, convert html to pdf, convert html to markdown, extract links from html, how to export pdf
+PRNumber: 236

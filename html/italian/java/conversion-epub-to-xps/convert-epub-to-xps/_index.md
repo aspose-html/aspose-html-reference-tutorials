@@ -10,7 +10,7 @@ url: /it/java/conversion-epub-to-xps/convert-epub-to-xps/
 weight: 10
 ---
 
- write.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
