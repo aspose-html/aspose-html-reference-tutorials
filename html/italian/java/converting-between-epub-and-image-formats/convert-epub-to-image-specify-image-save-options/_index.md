@@ -11,13 +11,10 @@ url: /it/java/converting-between-epub-and-image-formats/convert-epub-to-image-sp
 weight: 16
 ---
 
- unchanged.
 
-Also "image format JPEG" and "image format PNG" keep unchanged.
 
-Make sure no stray spaces.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

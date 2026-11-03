@@ -23,9 +23,8 @@ title: การจัดการทรัพยากรแบบกำหน�
 url: /th/net/html-extensions-and-conversions/custom-resource-handler-in-c-convert-html-to-zip-tutorial/
 ---
 
-all shortcodes unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

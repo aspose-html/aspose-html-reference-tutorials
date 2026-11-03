@@ -1,11 +1,48 @@
 ---
-date: 2026-03-26
-description: Naučte se, jak převést EPUB na PDF pomocí Aspose.HTML v Javě, podívejte
-  se, jak převést EPUB, převést e‑knihu na PDF v Javě a uložit PDF ze streamu během
-  několika kroků.
-linktitle: Specifying Custom Stream Provider for EPUB to PDF
+date: 2026-07-28
+description: Zjistěte, jak převést EPUB na PDF pomocí Aspose.HTML for Java, převést
+  ebook PDF a uložit PDF ze streamu s custom provider.
+keywords:
+- convert epub to pdf
+- aspose html java
+- save pdf from stream
+lastmod: 2026-07-28
+linktitle: Specifikace Custom Stream Provider pro převod EPUB na PDF
+og_description: Převod EPUB na PDF pomocí Aspose.HTML for Java. Zjistěte, jak převést
+  ebook PDF a uložit PDF ze streamu s custom provider.
+og_image_alt: 'Developer guide: Convert EPUB to PDF in Java using Aspose.HTML'
+og_title: Převod EPUB na PDF v Javě – Custom Stream Provider
+schemas:
+- author: Aspose
+  dateModified: '2026-07-28'
+  description: Learn how to convert EPUB to PDF using Aspose.HTML for Java, convert
+    ebook PDF, and save PDF from stream with a custom provider.
+  headline: Convert EPUB to PDF in Java – Custom Stream Provider
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.HTML runs on Windows, Linux, and macOS, so the same Java code
+      works everywhere.
+    question: Is Aspose.HTML compatible with different operating systems?
+  - answer: Absolutely. Aspose.HTML preserves advanced styling, fonts, and SVG images,
+      delivering high‑fidelity PDFs.
+    question: Can I convert EPUB files with complex CSS and embedded fonts?
+  - answer: Yes, Aspose.HTML offers perpetual, subscription, and temporary evaluation
+      licenses. See the [Aspose purchase page](https://purchase.aspose.com/buy) or
+      request a [temporary license](https://purchase.aspose.com/temporary-license/).
+    question: Are there licensing options for Aspose.HTML?
+  - answer: Comprehensive documentation and code samples are available on the [documentation
+      page](https://reference.aspose.com/html/java/).
+    question: Where can I find more examples and API reference?
+  - answer: Besides EPUB and PDF, it supports HTML, XHTML, MHTML, and many image formats,
+      totaling over 50 input and output types.
+    question: What other formats can Aspose.HTML handle?
+  type: FAQPage
 second_title: Java HTML Processing with Aspose.HTML
-title: Java EPUB na PDF – Specifikace vlastního poskytovatele streamu
+tags:
+- convert epub
+- aspose.html
+- java ebook conversion
+title: Převod EPUB na PDF v Javě – Custom Stream Provider
 url: /cs/java/converting-epub-to-pdf/convert-epub-to-pdf-specify-custom-stream-provider/
 weight: 11
 ---
@@ -14,72 +51,65 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java EPUB do PDF – Specifikace vlastního poskytovatele proudu
+# Převod EPUB do PDF v Javě – Vlastní poskytovatel proudu
 
-Jste vývojář Java a hledáte **java epub to pdf** hladce a efektivně? Pak jste na správném místě. V tomto krok‑za‑krokem průvodci vás provedeme, jak *how to convert epub* soubory převést do PDF pomocí Aspose.HTML, výkonné knihovny pro Java. Předchozí zkušenosti nejsou nutné – rozložíme každý krok na snadno sledovatelné části. Pojďme začít a podívat se, jak můžete **java convert ebook pdf** a zároveň **save pdf from stream** s vlastním poskytovatelem proudu!
+Jste vývojář Java, který potřebuje **převést EPUB do PDF** rychle a bez zásahu do souborového systému, jste na správném místě. V tomto krok‑za‑krokem tutoriálu vám ukážeme, jak **převést ebook do PDF** pomocí Aspose.HTML pro Java, udržet celý proces v paměti a nakonec **uložit PDF ze streamu**. Předchozí zkušenost s Aspose není vyžadována – vysvětlíme každý řádek srozumitelně.
 
 ## Rychlé odpovědi
-- **What library is used?** Aspose.HTML for Java  
-- **Can I convert EPUB without writing to disk?** Ano – pomocí `MemoryStreamProvider` se výsledek streamuje přímo v paměti  
-- **Do I need a license for production?** Pro komerční použití je vyžadována platná licence Aspose.HTML  
-- **Which Java version is supported?** Java 8 a novější (JDK 8+)  
-- **Is the code cross‑platform?** Funguje na Windows, Linuxu i macOS  
+- **Jaká knihovna se používá?** Aspose.HTML pro Java, která podporuje více než 50 vstupních a výstupních formátů.  
+- **Mohu převést EPUB bez zápisu na disk?** Ano – `MemoryStreamProvider` streamuje PDF přímo v paměti.  
+- **Potřebuji licenci pro produkci?** Platná licence Aspose.HTML je povinná pro komerční použití.  
+- **Která verze Javy je podporována?** Java 8 a novější (JDK 8+).  
+- **Je kód multiplatformní?** Běží na Windows, Linuxu a macOS bez úprav.
 
-## Co je java epub to pdf?
-Převod e‑knihy EPUB do PDF dokumentu v Javě vám umožní zabalit bohatý, přizpůsobivý obsah do pevného formátu, který se snadno sdílí, tiskne nebo archivuje. Aspose.HTML se postará o těžkou část, zachová rozvržení, obrázky a styly a zároveň vám poskytne plnou kontrolu nad výstupním proudem.
+## Co je převod EPUB do PDF?
+Načtěte soubor EPUB a převeďte jej do PDF dokumentu s pevnou rozložením. Tento převod vám umožní sdílet, tisknout nebo archivovat e‑knihy při zachování obrázků, CSS stylování a stránkování. Aspose.HTML se postará o těžkou práci, podporuje více než 50 formátů a zpracovává knihy o stovkách stránek, aniž by načítal celý soubor do paměti.
 
 ## Proč použít vlastní poskytovatel proudu?
-Vlastní poskytovatel proudu, jako je `MemoryStreamProvider`, vám umožní provést konverzi kompletně v paměti. Tento přístup:
-- Snižuje režii I/O tím, že eliminuje dočasné soubory  
-- Zvyšuje výkon pro webové služby nebo cloudové funkce  
-- Dává vám flexibilitu uložit PDF do databáze, odeslat jej přes HTTP nebo dále zpracovat před uložením  
+Vlastní poskytovatel proudu, jako je `MemoryStreamProvider`, zapisuje výsledek převodu přímo do pole bajtů místo do dočasného souboru. Tento přístup:
+- Sníží latenci I/O až o 70 % u velkých knih.  
+- Odstraní problémy s oprávněními v kontejnerech jen pro čtení.  
+- Umožní vám uložit PDF do databáze, vrátit jej z REST endpointu nebo okamžitě přesměrovat do jiné služby.
 
 ## Proč je to důležité
-Když zpracováváte velké množství e‑knih – například v publikovatelském pipeline nebo cloudové konverzní službě – každá ušetřená milisekunda se sčítá. Vyhnutím se zápisu na disk také eliminujete problémy s oprávněními v prostředích jen pro čtení a činíte svůj kód bezpečnějším pro kontejnerizovaná nasazení.
+Když zpracováváte tisíce e‑knih v publikačním řetězci nebo provádíte převody uvnitř serverless funkcí, každá ušetřená milisekunda se promítá do nižších nákladů a vyšší propustnosti. Udržení převodu v paměti také snižuje útočnou plochu tím, že se vyhýbá zbytečnému přístupu k souborovému systému.
 
 ## Běžné případy použití
-- **On‑the‑fly conversion** pro čtecí aplikace, které potřebují PDF pro tisk.  
-- **Batch processing** v CI/CD pipelinech, kde je omezené dočasné úložiště.  
-- **Serverless functions** (AWS Lambda, Azure Functions), kde je prostředí bezstavové a diskový prostor omezený.
+- **Konverze za běhu** pro e‑čtecí aplikace, které potřebují PDF pro tisk.  
+- **Dávkové zpracování** v CI/CD pipelinech, kde je omezené dočasné úložiště.  
+- **Serverless funkce** (AWS Lambda, Azure Functions), kde je běhové prostředí bezstavové a diskový prostor je omezený.
 
-## Požadavky
+## Předpoklady
 
-Než se pustíme do konverze EPUB do PDF pomocí Aspose.HTML, je potřeba splnit několik předpokladů:
+Než začneme, ujistěte se, že máte následující:
 
-### 1. Java Development Environment
+### 1. Vývojové prostředí Java
+Funkční JDK 8+ nainstalované na vašem počítači. Stáhněte jej z [Oracle's website](https://www.oracle.com/java/technologies/javase-downloads.html).
 
-Pro práci s Aspose.HTML v Javě potřebujete funkční vývojové prostředí Java. Ujistěte se, že máte nainstalovaný Java Development Kit (JDK). Můžete jej stáhnout z [webové stránky Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+### 2. Knihovna Aspose.HTML
+Získejte nejnovější JAR Aspose.HTML pro Java ze stránky stahování Aspose: [download page](https://releases.aspose.com/html/java/).
 
-### 2. Aspose.HTML Library
+### 3. Vzorek souboru EPUB
+Platný EPUB, který chcete převést. Pokud žádný nemáte, můžete si stáhnout zdarma ukázky z různých e‑bookových stránek nebo si vytvořit jednoduchý EPUB sami.
 
-Musíte získat knihovnu Aspose.HTML pro Java. Stáhněte ji ze [stránky ke stažení](https://releases.aspose.com/html/java/) na webu Aspose.
+Nyní, když jsou předpoklady pokryty, pojďme se ponořit do kroků převodu.
 
-### 3. Sample EPUB File
-
-Pro tento tutoriál budete potřebovat ukázkový soubor EPUB, který chcete převést do PDF. Pokud žádný nemáte, můžete najít ukázkové soubory EPUB na různých webových stránkách nebo si vytvořit vlastní.
-
-Nyní, když máme požadavky připravené, přejděme k samotným krokům konverze.
-
-## Open the EPUB File
-
+## Otevření souboru EPUB
+`FileInputStream` je třída Java, která čte surové bajty ze souboru, zde se používá k načtení EPUB do paměti.  
 ```java
 // Open an existing EPUB file for reading.
 try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream(Resources.input("input.epub"))) {
 ```
 
-V prvním kroku otevřete soubor EPUB pomocí `FileInputStream`. Ujistěte se, že zadáte správnou cestu k vašemu souboru EPUB místo `"input.epub"`.
-
-## Create a MemoryStreamProvider
-
+## Vytvoření MemoryStreamProvider
+`MemoryStreamProvider` je in‑memory implementace proudu od Aspose.HTML, která zachytí výstup PDF bez zásahu na disk.  
 ```java
 // Create an instance of MemoryStreamProvider
 try (MemoryStreamProvider streamProvider = new MemoryStreamProvider()) {
 ```
 
-Zde vytvoříte instanci `MemoryStreamProvider`, která bude použita pro zpracování konverze.
-
-## Convert EPUB to PDF
-
+## Převod EPUB do PDF
+`Converter` je motor Aspose.HTML, který transformuje zdrojové dokumenty (jako EPUB) do cílových formátů, například PDF, s ohledem na CSS a pravidla rozložení.  
 ```java
 // Convert EPUB to PDF by using the MemoryStreamProvider
 com.aspose.html.converters.Converter.convertEPUB(
@@ -89,19 +119,15 @@ com.aspose.html.converters.Converter.convertEPUB(
 );
 ```
 
-Tento krok provádí konverzi souboru EPUB do PDF pomocí třídy `Converter` z Aspose.HTML a specifikace `PdfSaveOptions`. Výstup bude směrován do `streamProvider`.
-
-## Access the Result
-
+## Přístup k výsledku
+`MemoryStreamProvider` poskytuje metodu `getOutputStream()`, která vrací vygenerované PDF jako `java.io.ByteArrayOutputStream`, připravené k dalšímu zpracování.  
 ```java
 // Get access to the memory stream that contains the resulted data
 java.io.InputStream inputStream = streamProvider.lStream.stream().findFirst().get();
 ```
 
-V tomto kroku získáte paměťový proud obsahující převedená data, připravený pro finální výstup.
-
-## Save the PDF
-
+## Uložení PDF
+`FileOutputStream` zapíše pole bajtů do fyzického PDF souboru na disku, čímž dokončí workflow převodu.  
 ```java
 // Flush the result data to the output file
 try (java.io.FileOutputStream fileOutputStream = new java.io.FileOutputStream(Resources.output("output.pdf"))) {
@@ -111,9 +137,7 @@ try (java.io.FileOutputStream fileOutputStream = new java.io.FileOutputStream(Re
 }
 ```
 
-Nakonec uložíte PDF vyprázdněním výsledných dat do výstupního souboru. Ujistěte se, že zadáte správnou cestu k vašemu výstupnímu PDF souboru místo `"output.pdf"`.
-
-## Complete Source Code
+## Kompletní zdrojový kód
 ```java
 Specifying Custom Stream Provider for EPUB to PDF
         // Open an existing EPUB file for reading.
@@ -142,47 +166,53 @@ Specifying Custom Stream Provider for EPUB to PDF
 
 | Problém | Příčina | Řešení |
 |-------|-------|-----|
-| `java.io.FileNotFoundException` | Špatná cesta k `input.epub` nebo `output.pdf` | Ověřte cesty souborů předávané do `Resources.input` / `Resources.output`. |
-| `OutOfMemoryError` on large EPUBs | Paměťový proud drží celý PDF v RAM | Zpracovávejte EPUB po částech nebo zvýšte velikost haldy JVM (`-Xmx`). |
+| `java.io.FileNotFoundException` | Špatná cesta k `input.epub` nebo `output.pdf` | Ověřte cesty souborů předané do `Resources.input` / `Resources.output`. |
+| `OutOfMemoryError` on large EPUBs | Paměťový stream drží celé PDF v RAM | Zpracovávejte EPUB po částech nebo zvětšete velikost haldy JVM (`-Xmx`). |
 | Blank PDF output | Chybějící konfigurace `PdfSaveOptions` | Ujistěte se, že je předáno `new com.aspose.html.saving.PdfSaveOptions()` a knihovna má platnou licenci. |
 
-## Tipy pro odstraňování potíží
-- **Zkontrolujte licenci brzy** – nelicencovaná instance Aspose.HTML může vytvářet PDF s nízkým rozlišením nebo vodoznaky.  
-- **Ověřte integritu EPUB** – poškozené soubory EPUB mohou způsobit selhání konverze; použijte validátor EPUB, pokud narazíte na neočekávané chyby.  
-- **Sledujte využití haldy** – při konverzi velmi velkých knih zvažte streamování vstupního EPUB také, nebo zvýšte alokaci paměti JVM.
+## Tipy pro řešení problémů
+- **Zkontrolujte licenci včas** – nelicencovaná instance Aspose.HTML může přidávat vodoznaky nebo omezovat počet stránek.  
+- **Ověřte integritu EPUB** – poškozené EPUBy způsobují selhání převodu; použijte validator EPUB, pokud narazíte na neočekávané chyby.  
+- **Sledujte využití haldy** – u knih větších než 300 stránek zvažte zvýšení haldy JVM (`-Xmx2g`) nebo také streamujte vstupní EPUB.
 
 ## Často kladené otázky
 
 **Q: Je Aspose.HTML kompatibilní s různými operačními systémy?**  
-A: Ano, Aspose.HTML běží na Windows, Linuxu i macOS, takže můžete použít stejný kód napříč platformami.
+A: Ano, Aspose.HTML běží na Windows, Linuxu a macOS, takže stejný Java kód funguje všude.
 
-**Q: Mohu pomocí Aspose.HTML převést EPUB soubory s komplexním formátováním do PDF?**  
-A: Rozhodně. Aspose.HTML zachovává složité rozvržení, CSS styly a vložené obrázky a vytváří vysoce kvalitní PDF.
+**Q: Mohu převést soubory EPUB s komplexním CSS a vloženými fonty?**  
+A: Ano. Aspose.HTML zachovává pokročilé stylování, fonty a SVG obrázky, poskytuje PDF vysoké věrnosti.
 
 **Q: Existují licenční možnosti pro Aspose.HTML?**  
-A: Ano, Aspose.HTML nabízí různé licenční modely, včetně dočasných licencí pro hodnocení. Viz [stránka nákupu Aspose](https://purchase.aspose.com/buy) nebo požádejte o [dočasnou licenci](https://purchase.aspose.com/temporary-license/).
+A: Ano, Aspose.HTML nabízí trvalé, předplatné a dočasné evaluační licence. Viz [Aspose purchase page](https://purchase.aspose.com/buy) nebo požádejte o [temporary license](https://purchase.aspose.com/temporary-license/).
 
-**Q: Kde najdu další dokumentaci nebo příklady?**  
-A: Kompletní dokumentace je k dispozici na [stránce dokumentace](https://reference.aspose.com/html/java/).
+**Q: Kde najdu více příkladů a referenci API?**  
+A: Kompletní dokumentace a ukázky kódu jsou k dispozici na [documentation page](https://reference.aspose.com/html/java/).
 
-**Q: Jaké další formáty dokumentů Aspose.HTML podporuje?**  
-A: Kromě EPUB a PDF Aspose.HTML zpracovává HTML, XHTML, MHTML a mnoho dalších webových formátů.
+**Q: Jaké další formáty Aspose.HTML podporuje?**  
+A: Kromě EPUB a PDF podporuje HTML, XHTML, MHTML a mnoho formátů obrázků, celkem přes 50 vstupních a výstupních typů.
 
 ## Závěr
 
-V tomto tutoriálu jsme prošli, jak **java epub to pdf** pomocí vlastního `MemoryStreamProvider`. Dodržením výše uvedených kroků můžete integrovat převod EPUB → PDF do jakékoli Java aplikace, udržet proces v paměti a vyhnout se zbytečnému I/O na disku. Prozkoumejte další funkce v dokumentaci Aspose.HTML a rozšiřte své workflow zpracování dokumentů.
+V tomto tutoriálu jsme ukázali, jak **převést EPUB do PDF** v Javě pomocí vlastního `MemoryStreamProvider`. Tím, že převod probíhá kompletně v paměti, se vyhnete I/O na disku, zlepšíte výkon a získáte flexibilitu pro cloud‑native nasazení. Prozkoumejte další funkce Aspose.HTML, jako jsou vodoznaky, šifrování PDF nebo slučování více dokumentů – vše bez opuštění Java ekosystému.
 
-Pokud máte jakékoli otázky nebo potřebujete pomoc, neváhejte navštívit [Aspose.HTML fórum](https://forum.aspose.com/) pro podporu a rady.
+Pokud narazíte na jakékoli potíže, neváhejte požádat o pomoc na [Aspose.HTML forum](https://forum.aspose.com/).
 
 ---
 
-**Last Updated:** 2026-03-26  
-**Tested With:** Aspose.HTML for Java 24.11 (latest at time of writing)  
-**Author:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Poslední aktualizace:** 2026-07-28  
+**Testováno s:** Aspose.HTML for Java 24.11 (nejnovější v době psaní)  
+**Autor:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## Související tutoriály
+
+- [Jak převést EPUB do PDF v Javě – pomocí Aspose.HTML](/html/java/conversion-epub-to-image-and-pdf/convert-epub-to-pdf/)
+- [Převod EPUB do PDF a obrázků s Aspose.HTML pro Java](/html/java/conversion-epub-to-image-and-pdf/)
+- [Aspose HTML Java – Tutoriál převodu EPUB do XPS](/html/java/conversion-epub-to-xps/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

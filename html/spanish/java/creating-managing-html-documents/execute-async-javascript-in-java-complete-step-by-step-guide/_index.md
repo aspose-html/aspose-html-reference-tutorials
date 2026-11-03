@@ -23,9 +23,8 @@ title: Ejecutar JavaScript asíncrono en Java – Guía completa paso a paso
 url: /es/java/creating-managing-html-documents/execute-async-javascript-in-java-complete-step-by-step-guide/
 ---
 
-keep all placeholders unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
