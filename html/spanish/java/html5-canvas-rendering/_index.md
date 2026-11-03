@@ -30,6 +30,9 @@ En primer lugar, hablemos del elemento Canvas de HTML5. Piense en él como un li
 Cree y renderice HTML5 Canvas con Aspose.HTML para Java. Aprenda paso a paso a dibujar, aplicar estilo y exportar a PDF utilizando esta potente biblioteca de Java.
 ### [Dominando el Canvas de HTML5 con Aspose.HTML para Java](./html5-canvas/)
 Aprenda a crear y convertir HTML5 Canvas a PDF con Aspose.HTML para Java. Esta guía es perfecta para desarrolladores que buscan mejorar sus proyectos web.
+### [Cómo emular iPhone – Guía completa con Aspose.HTML](./how-to-emulate-iphone-complete-guide-with-aspose-html/)
+Aprenda a simular la visualización de un iPhone en sus páginas HTML usando Aspose.HTML, paso a paso y con ejemplos prácticos.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

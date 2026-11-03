@@ -11,17 +11,12 @@ url: /hu/java/message-handling-networking/network-timeout/
 weight: 12
 ---
 
- Why it Happens, Fix headings.
 
-Also translate FAQ Q/A.
 
-Also translate "Last Updated", "Tested With", "Author".
 
-Let's do.
 
-Also translate "Pro tip:" => "Pro tipp:".
 
-Now produce final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

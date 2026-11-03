@@ -1,39 +1,69 @@
 ---
-title: Documentlaadgebeurtenissen afhandelen in Aspose.HTML voor Java
-linktitle: Documentlaadgebeurtenissen afhandelen in Aspose.HTML voor Java
-second_title: Java HTML-verwerking met Aspose.HTML
-description: Leer hoe u documentlaadgebeurtenissen in Aspose.HTML voor Java kunt verwerken met deze stapsgewijze handleiding. Verbeter uw webapplicaties.
-weight: 18
+date: 2026-04-23
+description: Leer hoe u de outer HTML kunt ophalen en kunt wachten op het laden van
+  het document met Aspose.HTML voor Java in deze stapsgewijze handleiding.
+keywords:
+- get outer html
+- wait for document load
+- java html processing
+- navigate html document
+- aspose html example
+linktitle: Documentlaadgebeurtenissen afhandelen in Aspose.HTML
+second_title: Java HTML Processing with Aspose.HTML
+title: Outer HTML ophalen & laadevenementen afhandelen in Aspose.HTML voor Java
 url: /nl/java/creating-managing-html-documents/handle-document-load-events/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Documentlaadgebeurtenissen afhandelen in Aspose.HTML voor Java
+# Haal Outer HTML op & verwerk laad‑events in Aspose.HTML voor Java
 
-## Invoering
-Als het gaat om webontwikkeling, is het verwerken van documentlaadgebeurtenissen cruciaal om ervoor te zorgen dat uw applicatie soepel en efficiënt draait. Als u met HTML-documenten in Java werkt, biedt Aspose.HTML een krachtige bibliotheek waarmee u HTML-documenten eenvoudig kunt manipuleren. In deze tutorial onderzoeken we hoe u documentlaadgebeurtenissen kunt verwerken met Aspose.HTML voor Java. Of u nu een beginner of een ervaren ontwikkelaar bent, deze gids leidt u stap voor stap door het proces.
+## Introductie
+Wanneer je **outer html** moet ophalen van een externe pagina en direct wilt reageren zodra het document klaar is met laden, wordt het afhandelen van document‑laadevents essentieel. In Java biedt Aspose.HTML een nette API om zowel naar een URL te navigeren als te luisteren naar het `OnLoad`‑event, zodat je veilig toegang krijgt tot de HTML zodra deze gereed is. Deze tutorial leidt je door het volledige proces — van het opzetten van de omgeving tot het afdrukken van de outer HTML van een geladen pagina — zodat je het kunt integreren in elke web‑gerichte Java‑applicatie.
+
+## Snelle antwoorden
+- **Wat betekent “get outer html”?** Het retourneert de volledige HTML‑markup van het root‑element van het document.  
+- **Welke bibliotheek handelt laadevents af?** Aspose.HTML voor Java biedt het `OnLoad`‑event.  
+- **Heb ik een licentie nodig voor testen?** Een gratis proefversie is beschikbaar; een commerciële licentie is vereist voor productie.  
+- **Hoe kan ik wachten tot het document is geladen?** Gebruik de `OnLoad`‑handler of een eenvoudige slaap‑opdracht voor demonstratiedoeleinden.  
+- **Is deze aanpak async‑veilig?** Ja, het event wordt getriggerd nadat het document klaar is met laden, waardoor de HTML beschikbaar is.
+
+## Wat is “get outer html”?
+`document.getDocumentElement().getOuterHTML()` retourneert de volledige HTML‑string van het root‑element van het document, inclusief de openings‑ en sluit‑tags. Dit is handig wanneer je de ruwe markup nodig hebt voor verdere verwerking, opslag of transformatie.
+
+## Waarom Aspose.HTML voor Java gebruiken?
+- **Robuuste HTML‑parsing** zonder dat een browser‑engine nodig is.  
+- **Event‑gedreven model** laat je precies reageren wanneer het document gereed is.  
+- **Cross‑platform** ondersteuning voor Windows, Linux en macOS.  
+- **Rijke API** voor navigatie, manipulatie en conversie naar PDF, afbeelding, enz.
+
 ## Vereisten
-Voordat we beginnen met coderen, zijn er een paar voorwaarden waaraan je moet voldoen:
-1.  Java Development Kit (JDK): Zorg ervoor dat u JDK op uw machine hebt geïnstalleerd. U kunt het downloaden van[Website van Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Aspose.HTML voor Java: U moet de Aspose.HTML-bibliotheek hebben. U kunt de nieuwste versie downloaden van de[Aspose releases pagina](https://releases.aspose.com/html/java/).
-3. IDE: Een Integrated Development Environment (IDE) zoals IntelliJ IDEA of Eclipse zorgt ervoor dat uw codeerervaring soepeler verloopt.
-4. Basiskennis van Java: Kennis van Java-programmering en concepten voor gebeurtenisafhandeling zijn nuttig.
-5. Internetverbinding: Omdat we naar een onlinedocument gaan navigeren, is het belangrijk dat u een stabiele internetverbinding hebt.
-Zodra u aan deze vereisten voldoet, bent u klaar om te beginnen met coderen!
+Voordat we in de code duiken, zorg dat je het volgende hebt:
 
-Nu we alles hebben ingesteld, kunnen we het proces voor het verwerken van documentlaadgebeurtenissen opsplitsen in beheersbare stappen.
-## Stap 1: Initialiseer een HTML-document
- De eerste stap is het maken van een exemplaar van de`HTMLDocument` klasse. Deze klasse vertegenwoordigt het HTML-document waarmee u gaat werken.
+1. **Java Development Kit (JDK)** – Installeer vanaf [Oracle's website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+2. **Aspose.HTML for Java** – Download de nieuwste JAR vanaf de [Aspose releases page](https://releases.aspose.com/html/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse of een andere editor naar keuze.  
+4. **Basiskennis van Java** – Begrip van klassen, methoden en event‑handling.  
+5. **Internetverbinding** – Het voorbeeld laadt een online HTML‑pagina.
+
+Zodra alles klaar is, kun je direct beginnen met coderen!
+
+## Stapsgewijze gids
+
+### Stap 1: Initialiseer een HTML‑document
+Eerst maak je een `HTMLDocument`‑instantie aan. We stellen ook een `AtomicBoolean` in om de laadstatus bij te houden.
+
 ```java
 com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument();
 java.util.concurrent.atomic.AtomicBoolean isLoading = new java.util.concurrent.atomic.AtomicBoolean(false);
 ```
- In dit fragment maken we ook een`AtomicBoolean` variabele genaamd`isLoading`Met deze variabele kunnen we bijhouden of het document momenteel wordt geladen.
-## Stap 2: Abonneer je op het 'OnLoad'-evenement
-Vervolgens moeten we ons abonneren op de`OnLoad` gebeurtenis van het document. Deze gebeurtenis wordt geactiveerd wanneer het document volledig is geladen. 
+
+### Stap 2: Abonneer op het **OnLoad**‑event
+Koppel een handler die de `isLoading`‑vlag omschakelt zodra het document klaar is met laden. Hier weten we dat het veilig is om **get outer html** aan te roepen.
+
 ```java
 document.OnLoad.add(new DOMEventHandler() {
     @Override
@@ -42,39 +72,61 @@ document.OnLoad.add(new DOMEventHandler() {
     }
 });
 ```
- Hier voegen we een nieuwe gebeurtenis-handler toe die instelt`isLoading` naar`true` wanneer het document volledig geladen is. Dit stelt ons in staat om acties uit te voeren zodra het document gereed is.
-## Stap 3: Navigeer naar het document
-Nu is het tijd om naar het HTML-document te navigeren dat u wilt laden. In dit voorbeeld laden we een document van een opgegeven URI.
+
+### Stap 3: Navigeer naar het document (laad html van url)
+Geef de `HTMLDocument` door welke pagina opgehaald moet worden. In dit voorbeeld laden we een openbare Aspose‑documentatiepagina.
+
 ```java
 document.navigate("https://docs.aspose.com/html/net/creating-a-document/document.html");
 ```
-Deze regel code vertelt het document om de content van de opgegeven URL te laden. Houd er echter rekening mee dat het document mogelijk niet onmiddellijk wordt geladen.
-## Stap 4: Wacht tot het document is geladen
-Omdat het laden van een document via een URL een asynchrone bewerking is, moeten we een paar seconden wachten om er zeker van te zijn dat het document voldoende tijd heeft om te laden. 
+
+### Stap 4: Wacht tot het document is geladen
+Het laden van een externe pagina gebeurt asynchroon. Voor demonstratie pauzeren we de thread enkele seconden; in productie zou je vertrouwen op de `OnLoad`‑vlag of een meer geavanceerde synchronisatietechniek.
+
 ```java
 Thread.sleep(5000);
 ```
- In dit geval gebruiken we`Thread.sleep(5000)`om de uitvoering 5 seconden te pauzeren. Dit is een eenvoudige manier om te wachten, maar in productiecode wilt u misschien een robuustere oplossing implementeren met behulp van callbacks of toekomstige taken.
-## Stap 5: Toegang tot het geladen document
-Ten slotte, zodra het document is geladen, kunt u de inhoud ervan benaderen. We kunnen bijvoorbeeld de buitenste HTML van het document naar de console afdrukken:
+
+### Stap 5: Toegang tot het geladen document en **Get Outer HTML**
+Nu `isLoading` true is, haal je de volledige markup van het root‑element van het document op.
+
 ```java
 System.out.println("outerHTML = " + document.getDocumentElement().getOuterHTML());
 ```
-Deze regel haalt de buitenste HTML van het document op en drukt deze af. U kunt deze HTML verder manipuleren op basis van de behoeften van uw toepassing.
-## Conclusie
-Het verwerken van documentlaadgebeurtenissen in Aspose.HTML voor Java is een eenvoudig proces dat het initialiseren van een HTML-document, het abonneren op laadgebeurtenissen, het navigeren naar een URL en het openen van de geladen inhoud omvat. Door de stappen in deze tutorial te volgen, kunt u het laden van documenten in uw Java-toepassingen effectief beheren.
-Aspose.HTML is een krachtige bibliotheek die talloze mogelijkheden biedt voor het werken met HTML-documenten. Of u nu een webapplicatie bouwt of HTML-inhoud verwerkt, deze bibliotheek kan uw workflow aanzienlijk vereenvoudigen.
+
+Je zou de complete HTML van de geladen pagina in de console moeten zien afgedrukt.
+
+## Veelvoorkomende problemen en oplossingen
+| Probleem | Reden | Oplossing |
+|----------|-------|-----------|
+| **`isLoading` wordt nooit true** | De `OnLoad`‑handler was niet gekoppeld vóór `navigate()` | Koppel de handler **voordat** je `navigate()` aanroept. |
+| **`NullPointerException` bij `getDocumentElement()`** | Document nog niet volledig geladen bij toegang | Gebruik een juiste wacht‑mechanisme (bijv. een lus op `isLoading.get()` of een `CountDownLatch`). |
+| **SSLHandshakeException** bij het laden van HTTPS‑URL's | Ontbrekende vertrouwde certificaten | Voeg het juiste certificaat toe aan je Java‑keystore of gebruik `-Djsse.enableSNIExtension=false`. |
+| **Trage laadtijd veroorzaakt time‑out** | Grote pagina of netwerk‑latentie | Verhoog de slaapduur of implementeer een timeout‑bewuste listener. |
+
 ## Veelgestelde vragen
-### Wat is Aspose.HTML voor Java?
-Aspose.HTML voor Java is een bibliotheek waarmee ontwikkelaars HTML-documenten in Java-toepassingen kunnen maken, bewerken en converteren.
-### Hoe download ik Aspose.HTML voor Java?
- Je kunt het downloaden van de[Aspose releases pagina](https://releases.aspose.com/html/java/).
-### Kan ik Aspose.HTML gratis gebruiken?
- Ja, u kunt Aspose.HTML gratis uitproberen door een proefversie te downloaden van de[Aspose-website](https://releases.aspose.com/).
-### Is er ondersteuning beschikbaar voor Aspose.HTML?
- Ja, u kunt ondersteuning vinden en vragen stellen op de[Aspose-forum](https://forum.aspose.com/c/html/29).
-### Hoe krijg ik een tijdelijke licentie voor Aspose.HTML?
- U kunt een tijdelijke vergunning aanvragen door naar de website te gaan[Aspose tijdelijke licentiepagina](https://purchase.aspose.com/temporary-license/).
+
+**Q: Wat is Aspose.HTML voor Java?**  
+A: Aspose.HTML voor Java is een bibliotheek die ontwikkelaars in staat stelt HTML‑documenten te maken, manipuleren en converteren in Java‑applicaties.
+
+**Q: Hoe download ik Aspose.HTML voor Java?**  
+A: Je kunt het downloaden vanaf de [Aspose releases page](https://releases.aspose.com/html/java/).
+
+**Q: Kan ik Aspose.HTML gratis gebruiken?**  
+A: Ja, je kunt Aspose.HTML gratis uitproberen door een proefversie te downloaden vanaf de [Aspose website](https://releases.aspose.com/).
+
+**Q: Is er ondersteuning beschikbaar voor Aspose.HTML?**  
+A: Ja, je kunt ondersteuning vinden en vragen stellen op het [Aspose forum](https://forum.aspose.com/c/html/29).
+
+**Q: Hoe krijg ik een tijdelijke licentie voor Aspose.HTML?**  
+A: Je kunt een tijdelijke licentie aanvragen via de [Aspose temporary license page](https://purchase.aspose.com/temporary-license/).
+
+---
+
+**Laatst bijgewerkt:** 2026-04-23  
+**Getest met:** Aspose.HTML for Java 24.11  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

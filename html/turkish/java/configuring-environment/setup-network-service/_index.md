@@ -1,10 +1,16 @@
 ---
-date: 2026-02-07
+date: 2026-04-23
 description: Aspose.HTML for Java kullanarak özel bir hata işleyicisi ile HTML dosyası
   oluşturmayı, ağ kaynaklarını yönetmeyi ve HTML'yi PNG'ye dönüştürmeyi öğrenin.
-linktitle: Set Up Network Service in Aspose.HTML
+keywords:
+- create html file java
+- convert html to png
+- generate image from html
+- html to image conversion
+- html thumbnail generator
+linktitle: Aspose.HTML'de Ağ Hizmetini Kurun
 second_title: Java HTML Processing with Aspose.HTML
-title: Java ile HTML Dosyası Oluştur ve Ağ Servisini Kur (Aspose.HTML)
+title: Java ile HTML Dosyası Oluşturma ve Ağ Servisini Kurma (Aspose.HTML)
 url: /tr/java/configuring-environment/setup-network-service/
 weight: 13
 ---
@@ -13,42 +19,41 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java HTML Dosyası Oluşturun ve Ağ Hizmetini Kurun (Aspose.HTML)
+# HTML Dosyası Oluştur Java & Ağ Servisini Kur (Aspose.HTML)
 
-## Giriiş
-Web'den resmi büyütüp ardından bu yapılandırın bir görsele dönüştürülen **html dosyası oluştur java**'ya ihtiyacınız varsa doğru yerdesiniz. Bu öğreticide, Aspose.HTML for Java'yı özetlemek, **ağ kaynaklarının yapısı**, eksik varlıkları **özel bir hata işleyicisi** ile ele almak, **html'yi png'ye dönüştürmek** ve sonunda **kaynakları temizlemek** için gereken tüm adımları adım adım başlatırz. Raporlama motoru, otomatik küçük resim oluşturucu ya da sadece HTML'den görüntüye yapılan işlemlerle deneme yapılıyor, burada kayıtlı desen zaman ve başlangıç ​​tasarrufu tasarrufu sağlayacak.
+## Giriş
+Web'den resimleri çeken ve ardından bu sayfayı bir resme dönüştüren **create html file java**'a ihtiyacınız varsa, doğru yerdesiniz. Bu öğreticide, Aspose.HTML for Java'ı yapılandırmak, **manage network resources**, eksik varlıkları **custom error handler** ile ele almak, **convert html to png** ve sonunda **clean up resources** için gereken tüm adımları göstereceğiz, böylece uygulamanız sağlıklı kalır. İster bir raporlama motoru, ister otomatik küçük resim oluşturucu, ister sadece HTML‑to‑image dönüşümüyle deneme yapıyor olun, burada gösterilen desen zaman ve baş ağrısını tasarruf ettirecek.
 
 ## Hızlı Yanıtlar
-- **İlk adım nedir?** Ağda barındırılan görüntülere başvuran bir HTML dosyası oluşturun.
-- **Ağ iletişimini hangi sınıf yapılandırır?** `com.aspose.html.Configuration`.
-- **Yükleme hatalarını nasıl yakalarım?** 'INetworkService'e özel bir 'MessageHandler' ekleyin.
-- **Bu örnek hangi çıktı biçimini üretiyor?** Bir PNG resmi ("output.png").
-- **Nesneleri serbest bırakmam gerekiyor mu?** Evet – hem belgede hem de yapılandırmada `dispose()' çağrısını yapın.
+- **İlk adım nedir?** Ağ‑barındırmalı görüntülere referans veren küçük bir HTML dosyası yazın.  
+- **Hangi sınıf ağ yapılandırmasını yapar?** `com.aspose.html.Configuration`.  
+- **Yükleme hatalarını nasıl yakalarım?** `INetworkService`'e özel bir `MessageHandler` ekleyin.  
+- **Bu örnek hangi çıktı formatını üretir?** PNG resmi (`output.png`).  
+- **Nesneleri serbest bırakmam gerekiyor mu?** Evet – hem belge hem de yapılandırma üzerinde `dispose()` çağırın.
 
-## “Html dosyası oluşturma java” nedir?
-Aspose.HTML dünyasında **create html file java**, bir Java taşıdığın HTML belgesi oluşturmak anlamına gelir. Bu dosyanın, kurulumunun render sırasında ağ üzerinden çekileceği dış varlıkları (resimler, CSS, scriptler) referans gösterilebilir.
+## “create html file java” nedir?
+Aspose.HTML dünyasında, **create html file java** sadece bir Java uygulamasından HTML belgesi oluşturmak anlamına gelir. Bu dosya, kütüphanenin render sırasında ağ üzerinden çekeceği harici varlıklara (görseller, CSS, betikler) referans verebilir.
 
-## Neden bir ağ hizmeti yapılandırmalısınız?
-Bir ağ servisi yazılımık, **ağ kaynaklarını yönetmenizi** (zaman aşımları, proxy ayarları, hata işleme) sağlar. Uzaktaki resimler ve diğer varlıkların tam kontrol üzerinde nasıl indirileceği; bu da üretim ortamında güvenilir HTML‑to‑image işlemleri için kritiktir.
+## Neden bir ağ servisi yapılandırmalısınız?
+Bir ağ servisi yapılandırmak, zaman aşımı, proxy ayarları ve hata yönetimi gibi **manage network resources**'ı yönetmenizi sağlar. Uzaktaki görsellerin ve diğer varlıkların nasıl indirileceği üzerinde tam kontrol sunar; bu, üretim ortamlarında güvenilir HTML‑to‑image dönüşümü için gereklidir.
 
 ## Önkoşullar
-Gerçek kurulum aşamasına geçmeden önce, başlatmanız için gereken her şeye sahip olduğunuzdan emin olun:
-- **Java Development Kit (JDK)**1.8 veya üzeri.
-- **Aspose.HTML for Java** kütüphanesi – en son sürümü [resmi sürüm sayfası](https://releases.aspose.com/html/java/) adresinden indirilir.
-- **IDE** tercihiniz (IntelliJ IDEA, Eclipse, NetBeans vb.).
-- Java söz dizimi ve Maven/Gradle proje kurulumu konusunda temel bilgi.
+- **Java Development Kit (JDK)** 1.8 veya üzeri.  
+- **Aspose.HTML for Java** kütüphanesi – en son sürümü [official release page](https://releases.aspose.com/html/java/) adresinden indirin.  
+- **IDE** tercihiniz (IntelliJ IDEA, Eclipse, NetBeans, vb.).  
+- Java sözdizimi ve Maven/Gradle proje kurulumu konusunda temel bilgi.
 
-## Paketleri İçe Aktar
-İlk olarak, Java projenize gerekli paketleri içe aktarmanız gerekir. Bu paketler, Aspose.HTML for Java'nın çeşitli kullanımlarını sağlar.
+## Paketleri İçe Aktarın
+İlk olarak, Java projenize gerekli paketleri içe aktarmanız gerekir. Bu paketler, Aspose.HTML for Java'ın çeşitli işlevlerini kullanmanızı sağlar.
 
 ```java
 import java.io.IOException;
 ```
 
-Bu import'lar tartışacağımız işlevselliğin temelini oluşturur; bu yüzden Java dosyanızın başında doğru konumda olduklarından emin olun.
+Bu içe aktarmalar, tartışacağımız işlevselliğin temelini oluşturur, bu yüzden Java dosyanızın başında doğru konumlandırıldıklarından emin olun.
 
-## Adım 1: Ağ Bağımlı Görüntüler İçeren Bir HTML Dosyası Oluşturun
-**create html file java**'yu **dış kaynakları referans gösterecek** şekilde oluşturmak için, halka açık **resimlere** işaret eden birkaç `<img>` etiketi ekleyen küçük bir kod parçası yazın.
+## Adım 1: Ağ‑Bağlı Görseller İçeren Bir HTML Dosyası Oluşturun
+Harici kaynaklara referans veren **create html file java** oluşturmak için, halka açık görüntülere işaret eden birkaç `<img>` etiketi ekleyen küçük bir kod parçacığı yazın.
 
 ```java
 String code = "<img src=\"https://docs.aspose.com/svg/net/drawing-basics/filters-and-gradients/park.jpg\" >\r\n" +
@@ -59,19 +64,15 @@ try (java.io.FileWriter fileWriter = new java.io.FileWriter("document.html")) {
 }
 ```
 
-Bu HTML dosyası, network servisinin giriş noktasıdır; belge yüklendiğinde resimler HTTP üzerinden çekilecektir.
-
-## Adım 2: Yapılandırma Nesnesini Başlatın
-Şimdi network‑service ayarlarımızı barındıracak **configuration** nesnesini oluşturalım.
+## Adım 2: Configuration Nesnesini Başlatın
+Şimdi ağ‑servisi ayarlarımızı barındıracak **configuration**'ı oluşturalım.
 
 ```java
 com.aspose.html.Configuration configuration = new com.aspose.html.Configuration();
 ```
 
-`Configuration` nesnesi, Aspose.HTML'nin network trafiğini, loglamayı ve hata işleme davranışını nasıl yöneteceğini belirttiğiniz yerdir.
-
-## Adım 3: Özel Bir Hata Mesajı İşleyici Ekleyin
-Özel bir `MessageHandler`, eksik resimler veya zaman aşımları gibi sorunları görmenizi sağlar.
+## Adım 3: Özel Bir Hata Mesajı İşleyicisi Ekleyin
+Özel bir `MessageHandler`, eksik görseller veya zaman aşımı gibi sorunları görmenizi sağlar.
 
 ```java
 com.aspose.html.services.INetworkService network = configuration.getService(com.aspose.html.services.INetworkService.class);
@@ -79,19 +80,15 @@ com.aspose.html.net.MessageHandler logHandler = new LogMessageHandler();
 network.getMessageHandlers().addItem(logHandler);
 ```
 
-`LogMessageHandler`'ı ekleyerek, her network‑ile ilgili uyarı ya da hata yakalanır ve hata ayıklama çok daha basit hale gelir.
-
-## Adım 4: Yapılandırma ile HTML Belgesini Yükleyin
-Network servisi hazır olduğunda, daha önce oluşturduğumuz HTML dosyasını yükleyelim.
+## Adım 4: HTML Belgesini Configuration ile Yükleyin
+Ağ servisi hazır olduğunda, daha önce oluşturduğumuz HTML dosyasını yükleyin.
 
 ```java
 com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument("document.html", configuration);
 ```
 
-Belge yüklendiğinde, Aspose.HTML özel network yapılandırmasını kullanır ve oluşabilecek sorunlar için mesaj işleyicimizi devreye sokar.
-
 ## Adım 5: HTML'yi PNG'ye Dönüştürün
-Şimdi **convert html to png** işlemini gerçekleştireceğiz; yüklenen sayfayı (başarıyla çekilen resimler dahil) bir raster görüntüye dönüştüreceğiz.
+Şimdi **convert html to png** yapacağız, yüklenen sayfayı (başarıyla alınan görseller dahil) raster bir görüntüye dönüştürerek.
 
 ```java
 com.aspose.html.converters.Converter.convertHTML(
@@ -101,10 +98,8 @@ com.aspose.html.converters.Converter.convertHTML(
 );
 ```
 
-Sonuç, başka bir yerde gömebileceğiniz ya da kullanıcılara sunabileceğiniz tek bir PNG dosyası (`output.png`) olur.
-
 ## Adım 6: Kaynakları Temizleyin
-Doğru kaynak yönetimi çok önemlidir. Dönüştürme işleminden sonra, **clean up resources** yapmak ve bellek sızıntılarını önlemek için nesneleri serbest bırakın.
+Doğru kaynak yönetimi esastır. Dönüştürmeden sonra nesneleri **clean up resources** için serbest bırakın ve bellek sızıntılarını önleyin.
 
 ```java
 if (document != null) {
@@ -115,40 +110,41 @@ if (configuration != null) {
 }
 ```
 
-Bunu, bir öğünden sonra bulaşıkları yıkamaya benzetebiliriz—kaynakların etrafta takılı kalması ileride performans sorunlarına yol açabilir.
+Bunu bir öğün sonrası bulaşıkları yıkamak gibi düşünün—kaynakların etrafta kalması ileride performans sorunlarına yol açabilir.
 
-## Sık Karşılaşılan Sorunlar ve Çözümler
-| Sorun | Neden Oluşur | Nasıl Düzeltilir |
+## Yaygın Kullanım Durumları
+- **Web sayfaları veya PDF'ler için otomatik küçük resim oluşturucu**.  
+- **E-posta ekleri için HTML faturaları PNG görüntülere dönüştüren toplu raporlama motoru**.  
+- **HTML şablonlarının anında render edildiği web servislerinde dinamik görüntü oluşturma**.
 
+## Yaygın Sorunlar ve Çözümleri
+| Issue | Why it Happens | How to Fix |
 |-------|----------------|------------|
-
-| Görüntüler yüklenemiyor | Ağ zaman aşımı veya yanlış URL | URL'leri doğrulayın, `NetworkService` ayarları aracılığıyla zaman aşımını artırın veya `LogMessageHandler`'a yedek mantık ekleyin. |
-
-| PNG boş | Dönüştürmeden önce belge tam olarak yüklenmedi | `HTMLDocument`'ın özel işleyiciyi içeren yapılandırmayla başlatıldığından emin olun; eşzamansız yükleme kullanıyorsanız isteğe bağlı olarak `document.waitForLoad()`'ı çağırın. |
-
-| Bellek yetersizliği hatası | Çok büyük HTML veya çok sayıda yüksek çözünürlüklü görüntü | Çıktı boyutunu sınırlamak için `ImageSaveOptions.setMaxWidth/MaxHeight` kullanın veya ara nesneleri hemen atın. |
+| Görseller yüklenemedi | Ağ zaman aşımı veya hatalı URL | URL'leri doğrulayın, `NetworkService` ayarlarıyla zaman aşımını artırın veya `LogMessageHandler` içinde geri dönüş mantığı ekleyin. |
+| PNG boş | Dönüştürmeden önce belge tam olarak yüklenmedi | `HTMLDocument`'in özel işleyiciyi içeren yapılandırma ile oluşturulduğundan emin olun; isteğe bağlı olarak asenkron yükleme kullanıyorsanız `document.waitForLoad()` çağırın. |
+| Bellek yetersiz hatası | Çok büyük HTML veya çok sayıda yüksek çözünürlüklü görsel | Çıktı boyutunu sınırlamak için `ImageSaveOptions.setMaxWidth/MaxHeight` kullanın veya ara nesneleri hemen serbest bırakın. |
 
 ## Sıkça Sorulan Sorular
 
-**S: Aspose.HTML for Java'da ağ hizmeti kurmanın temel amacı nedir?**
-C: Uzaktan resimler, komut dosyaları veya stil sayfaları gibi **ağ kaynaklarını** yönetmenizi sağlar ve hata işleme ve günlük kaydı üzerinde kontrol sahibi olmanızı sağlar.
+**Q: Aspose.HTML for Java'da bir ağ servisi kurmanın temel amacı nedir?**  
+A: Bu, uzaktaki görseller, betikler veya stil sayfaları gibi **manage network resources**'ı yönetmenizi sağlar ve hata yönetimi ile günlük kaydı üzerinde kontrol verir.
 
-**S: Bu kurulumu diğer resim formatlarını (örneğin JPEG, BMP) oluşturmak için kullanabilir miyim?**
-C: Evet—sadece `ImageSaveOptions` format özelliğini istediğiniz çıktı türüne değiştirin.
+**Q: Bu kurulumu diğer görüntü formatlarını (ör. JPEG, BMP) üretmek için kullanabilir miyim?**  
+A: Evet—`ImageSaveOptions` format özelliğini istediğiniz çıktı türüne değiştirmeniz yeterlidir.
 
-**S: Özel `MessageHandler` varsayılan günlük kaydediciden nasıl farklıdır?**
-C: Özel işleyici, mesajları kendi günlük kaydı çerçevesine yönlendirmenize, belirli uyarıları filtrelemenize veya uyarıları tetiklemenize olanak tanırken, varsayılan günlük kaydedici yalnızca konsola yazar.
+**Q: Özel `MessageHandler` varsayılan günlükçüden nasıl farklıdır?**  
+A: Özel işleyici, mesajları kendi günlük çerçevenize yönlendirmenize, belirli uyarıları filtrelemenize veya uyarılar tetiklemenize olanak tanır; varsayılan günlükçü ise sadece konsola yazar.
 
-**S: Hem belge hem de yapılandırma üzerinde `dispose()` çağırmak gerekli midir?**
-C: Kesinlikle. Kaynakların serbest bırakılması, yerel kaynakları serbest bırakır ve kütüphanenin dahili olarak tuttuğu kaynakları **temizler**.
+**Q: Belge ve yapılandırma üzerinde `dispose()` çağırmak gerekli mi?**  
+A: Kesinlikle. Serbest bırakma, yerel kaynakları ve kütüphanenin içsel olarak tuttuğu **clean up resources**'ı serbest bırakır.
 
-**S: Java'da HTML'yi resimlere dönüştürmenin daha fazla örneğini nerede bulabilirim?**
-C: PDF dönüştürme, SVG oluşturma ve toplu işleme gibi ek kullanım durumları için Aspose.HTML for Java dokümantasyonuna ve resmi GitHub örnekleri sayfasına bakın.
+**Q: Java'da HTML'yi görüntülere dönüştürme örneklerini nereden bulabilirim?**  
+A: Aspose.HTML for Java belgelerini ve resmi GitHub örnek sayfasını PDF dönüşümü, SVG renderleme ve toplu işleme gibi ek kullanım durumları için inceleyin.
 
 ---
 
-**Son Güncelleme:** 2026-02-07
-**Test Edilen Sürüm:** Aspose.HTML for Java 24.12 (en son sürüm)
+**Son Güncelleme:** 2026-04-23  
+**Test Edilen Versiyon:** Aspose.HTML for Java 24.12 (latest)  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

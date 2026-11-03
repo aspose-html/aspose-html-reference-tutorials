@@ -8,11 +8,8 @@ url: /zh/java/converting-between-epub-and-image-formats/convert-epub-to-gif/
 weight: 11
 ---
 
- unchanged.
 
-Also in FAQ, translate Q and A but keep links unchanged.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
