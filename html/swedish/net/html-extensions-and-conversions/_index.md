@@ -260,6 +260,8 @@ Lär dig steg‑för‑steg hur du konverterar HTML till PDF i C# med en komplet
 Lär dig hur du skapar ett dokument från HTML, exporterar med bilder och sparar som ZIP‑arkiv med Aspose.HTML för .NET.
 ### [Anpassad resurs‑hanterare i C# – Så skapar du ZIP av HTML](./custom-resource-handler-in-c-how-to-create-zip-of-html/)
 Lär dig hur du packar HTML-filer i ett ZIP‑arkiv med en anpassad resurs‑hanterare i C# och Aspose.HTML för .NET.
+### [Spara HTML till ZIP med Aspose.HTML – komplett guide](./save-html-to-zip-with-aspose-html-complete-guide/)
+Lär dig steg för steg hur du sparar HTML-filer i ett ZIP‑arkiv med Aspose.HTML för .NET i en komplett guide.
 
 ## Slutsats
 

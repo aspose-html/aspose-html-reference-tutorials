@@ -250,6 +250,7 @@ Leer hoe u HTML-bestanden comprimeert en opslaat als ZIP‑archief met Aspose in
 ### [HTML opslaan als ZIP – Complete Aspose.HTML-gids](./how-to-save-html-as-zip-complete-aspose-html-guide/)
 ### [Document maken vanuit HTML – Volledige gids voor exporteren van HTML met afbeeldingen en opslaan als ZIP](./create-document-from-html-full-guide-to-export-html-with-ima/)
 Leer hoe u een HTML-document met afbeeldingen maakt en deze als ZIP opslaat met Aspose.HTML voor .NET.
+### [HTML opslaan als ZIP – volledige gids](./save-html-to-zip-with-aspose-html-complete-guide/)
 
 ## Conclusie
 

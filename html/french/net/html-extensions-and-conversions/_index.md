@@ -266,6 +266,8 @@ Apprenez à créer un document à partir de HTML, inclure les images et le sauve
 Apprenez à créer un gestionnaire de ressources personnalisé en C# pour compresser du HTML dans un fichier ZIP.
 ### [Convertir HTML en ZIP avec Aspose.HTML – Guide complet C#](./convert-html-to-zip-with-aspose-html-complete-c-guide/)
 Apprenez à compresser du HTML en fichier ZIP avec Aspose.HTML en C#, guide complet étape par étape.
+### [Enregistrer le HTML en ZIP avec Aspose.HTML – guide complet](./save-html-to-zip-with-aspose-html-complete-guide/)
+Apprenez à enregistrer un document HTML dans un fichier ZIP avec Aspose.HTML, guide complet étape par étape.
 
 ## Conclusion
 

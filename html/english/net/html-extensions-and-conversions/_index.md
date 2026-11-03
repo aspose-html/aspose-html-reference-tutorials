@@ -260,6 +260,8 @@ Learn how to save HTML content into a ZIP archive using Aspose.HTML for .NET wit
 Learn how to create a document from HTML with images and save it as a ZIP archive using Aspose.HTML for .NET. Step‑by‑step guide.
 ### [Convert EPUB to XPS in .NET with Aspose.HTML](./convert-epub-to-xps/)
 Learn how to convert EPUB to XPS in .NET using Aspose.HTML for .NET. Follow our step‑by‑step guide for effortless conversions.
+### [Save HTML to ZIP with Aspose.HTML – complete guide](./save-html-to-zip-with-aspose-html-complete-guide/)
+Learn how to save HTML files as a ZIP archive using Aspose.HTML for .NET in this complete guide.
 
 ## Conclusion
 

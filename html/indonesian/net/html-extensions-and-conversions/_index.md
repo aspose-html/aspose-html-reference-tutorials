@@ -276,6 +276,7 @@ Pelajari cara membuat handler sumber daya khusus di C# untuk mengompres file HTM
 Pelajari cara mengonversi HTML menjadi arsip ZIP menggunakan Aspose.HTML dalam panduan lengkap C#.
 ### [Konversi HTML ke PDF di C# – mengatur gaya font secara programatis](./convert-html-to-pdf-in-c-set-font-style-programmatically/)
 Pelajari cara mengonversi HTML ke PDF di C# sambil mengatur gaya font secara programatis menggunakan Aspose.HTML.
+### [Simpan HTML ke ZIP dengan Aspose.HTML – panduan lengkap](./save-html-to-zip-with-aspose-html-complete-guide/)
 
 ## Kesimpulan
 

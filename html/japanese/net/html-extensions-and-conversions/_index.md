@@ -309,6 +309,9 @@ Aspose.HTML を使用して、C# でカスタム リソース ハンドラを作
 ### [Aspose.HTML を使用して .NET で HTML を ZIP に変換する – 完全 C# ガイド](./convert-html-to-zip-with-aspose-html-complete-c-guide/)
 Aspose.HTML for .NET を利用し、HTML を ZIP アーカイブに変換する手順を完全な C# ガイドで解説します。
 
+### [Aspose.HTML を使用して HTML を ZIP に保存する – 完全ガイド](./save-html-to-zip-with-aspose-html-complete-guide/)
+Aspose.HTML for .NET を使用して、HTML を ZIP アーカイブとして保存する完全ガイドです。
+
 ## 結論
 
 結論として、HTML の拡張と変換は、現代の Web 開発に不可欠な要素です。Aspose.HTML for .NET はプロセスを簡素化し、あらゆるレベルの開発者が利用できるようにします。当社のチュートリアルに従うことで、幅広いスキルを備えた熟練した Web 開発者になるための道を順調に進むことができます。

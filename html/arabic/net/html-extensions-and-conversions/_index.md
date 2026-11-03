@@ -147,7 +147,6 @@ url: /ar/net/html-extensions-and-conversions/
 ### [كيفية ضغط HTML في C# – دليل كامل](./how-to-zip-html-in-c-complete-guide/)
 دليل شامل لضغط ملفات HTML وحفظها كملف ZIP باستخدام C# ومكتبة Aspose.HTML.
 ### [حفظ HTML كملف ZIP – دليل C# كامل](./save-html-as-zip-complete-c-tutorial/)
-تعلم كيفية حفظ مستند HTML كملف ZIP باستخدام Aspose.HTML في C# خطوة بخطوة.
 ### [حفظ HTML كملف ZIP – دليل C# كامل لتحويل HTML إلى ZIP](./save-html-as-zip-complete-c-guide-to-convert-html-to-zip/)
 تعلم كيفية حفظ مستند HTML كملف ZIP وتحويله إلى ZIP باستخدام Aspose.HTML في C# خطوة بخطوة.
 ### [حفظ HTML إلى ZIP في C# – مثال كامل في الذاكرة](./save-html-to-zip-in-c-complete-in-memory-example/)
@@ -263,6 +262,8 @@ url: /ar/net/html-extensions-and-conversions/
 تعلم كيفية إنشاء معالج موارد مخصص في C# لضغط ملفات HTML وحفظها كملف ZIP بسهولة.
 ### [تحويل HTML إلى ZIP باستخدام Aspose.HTML – دليل C# كامل](./convert-html-to-zip-with-aspose-html-complete-c-guide/)
 ### [تحويل HTML إلى PDF في C# – تعيين نمط الخط برمجيًا](./convert-html-to-pdf-in-c-set-font-style-programmatically/)
+### [حفظ HTML إلى ZIP باستخدام Aspose.HTML – دليل كامل](./save-html-to-zip-with-aspose-html-complete-guide/)
+دليل شامل لحفظ ملفات HTML كملفات ZIP باستخدام Aspose.HTML في .NET.
 
 ## خاتمة
 
