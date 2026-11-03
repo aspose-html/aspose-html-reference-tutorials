@@ -37,17 +37,17 @@ Ha már megtanulta a HTML-dokumentumszerkesztés alapjait, ideje feljebb lépni!
 
 ## Külső CSS alkalmazása profiként
 
- külső CSS az, ahol a webdesign valódi ereje lép működésbe. A megfelelő CSS segítségével egy egyszerű HTML-oldalt gyönyörű stílusú dokumentummá alakíthat. A speciális külső CSS-szerkesztésről szóló oktatóanyag tökéletes azok számára, akik szeretnék elsajátítani a dinamikus, reszponzív tervezés művészetét. Képzelje el, hogy könnyedén alkalmazhat összetett stílusokat több HTML-dokumentumban – ez az oktatóanyag ezt kínálja. Ez az Ön átjárója az elegáns, modern weboldalak létrehozásához, amelyek kiemelkednek. Ne hagyja ki ezt az értékes forrást![Olvass tovább](./advanced-external-css-editing/)
+ külső CSS az, ahol a webdesign valódi ereje lép működésbe. A megfelelő CSS segítségével egy egyszerű HTML-oldalt gyönyörű stílusú dokumentummá alakíthat. A speciális külső CSS-szerkesztésről szóló oktatóanyag tökéletes azok számára, akik szeretnék elsajátítani a dinamikus, reszponzív tervezés művészetét. Képzelje el, hogy könnyedén alkalmazhat összetett stílusokat több HTML-dokumentumban – ez az oktatóanyag ezt kínálja. Ez a Ön átjárója az elegáns, modern weboldalak létrehozásához, amelyek kiemelkednek. Ne hagyja ki ezt az értékes forrást![Olvass tovább](./advanced-external-css-editing/)
 
 ## Inline és belső CSS hozzáadása
 
-Néha a stílusokat közvetlenül a HTML-dokumentumban kell alkalmazni. Itt jön képbe az inline és a belső CSS. Az inline és a belső CSS hozzáadásával kapcsolatos oktatóanyagok tökéletesek azok számára, akik gyors és egyszerű stílusmegoldásokat keresnek. Képzelje el ezt: olyan dokumentumon dolgozik, amely speciális stílust igényel, és azt szeretné alkalmazni anélkül, hogy ez más dokumentumokat érintene. Az Inline és a belső CSS lehetővé teszi ezt. Akár egy kis projekten, akár egy nagyszabású alkalmazáson dolgozik, ezek az útmutatók segítenek a munka hatékony elvégzésében.[Olvass tovább](./add-inline-css-html-documents/) és[Olvass tovább](./implement-internal-css-html-documents/)
+Néha a stílusokat közvetlenül a HTML-dokumentumban kell alkalmazni. Itt jön képbe az inline és a belső CSS. Az inline és a belső CSS hozzáadásával kapcsolatos oktatóanyagok tökéletesek azok számára, akik gyors és egyszerű stílusmegoldásokat keresnek. Képzelje el ezt: olyan dokumentumon dolgozik, amely speciális stílust igényel, és azt szeretné alkalmazni anélkül, hogy ez más dokumentumokat érintene. Az Inline és a belső CSS lehetővé teszi ezt. Akár egy kis projekten, akár egy nagyszabású alkalmazáson dolgozik, ezek a útmutatók segítenek a munka hatékony elvégzésében.[Olvass tovább](./add-inline-css-html-documents/) és[Olvass tovább](./implement-internal-css-html-documents/)
 
 ## HTML-dokumentumok szerkesztése az Aspose.HTML for Java oktatóanyagokban
 ### [Szerkessze a HTML-dokumentumfát az Aspose.HTML for Java-ban](./edit-html-document-tree/)
 Fedezze fel, hogyan kezelhet HTML-dokumentumokat az Aspose.HTML for Java használatával. Lépésről lépésre szóló útmutató a hatékony tartalomkezeléshez.
 ### [Fejlett HTML-dokumentumfa-szerkesztés az Aspose.HTML for Java-ban](./advanced-html-document-tree-editing/)
-Fedezze fel, hogyan szerkeszthet HTML-dokumentumokat az Aspose.HTML for Java használatával ezzel a lépésenkénti útmutatóval, beleértve a stílusok, bekezdések létrehozását és a PDF-be konvertálást.
+Fedezze fel, hogyan szerkeszthet HTML-dokumentumokat az Aspose.HTML for Java használatával ezzel a lépésről lépésre útmutatóval, beleértve a stílusok, bekezdések létrehozását és a PDF-be konvertálást.
 ### [Alkalmazzon külső CSS-t a HTML-dokumentumokra az Aspose.HTML for Java-ban](./apply-external-css-html-documents/)
 Fedezze fel, hogyan alkalmazhat külső CSS-t HTML-dokumentumokra az Aspose.HTML for Java használatával! Kövesse ezt a lépésről lépésre szóló útmutatót a teljes oktatóanyaghoz.
 ### [Fejlett külső CSS-szerkesztés az Aspose.HTML for Java segítségével](./advanced-external-css-editing/)
@@ -58,8 +58,33 @@ Ismerje meg, hogyan adhat hozzá soron belüli CSS-t HTML-dokumentumokhoz az Asp
 Ezzel a lépésről lépésre szóló útmutatóval megtudhatja, hogyan kezelheti a belső és külső HTML-tulajdonságokat az Aspose.HTML for Java programban, amely tökéletes webfejlesztők és tartalomkészítők számára.
 ### [Valósítsa meg a belső CSS-t HTML-dokumentumokban az Aspose.HTML for Java segítségével](./implement-internal-css-html-documents/)
 Ismerje meg a belső CSS-t HTML-dokumentumokban az Aspose.HTML for Java használatával az egyszerű, lépésről lépésre oktatóanyagunk segítségével.
+### [Hogyan emeljük ki a HTML-t – Szöveg keresése és <mark> cseréje](./how-to-highlight-html-search-text-replace-with-mark/)
+
 ### [Fixed thread pool Java – Párhuzamos HTML tisztítás ExecutorService használatával](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Ismerje meg, hogyan használhatja a FixedThreadPool-t a HTML dokumentumok párhuzamos tisztításához az ExecutorService segítségével.
+### [Hogyan távolítsa el a szkripteket a HTML-ből Java-ban – Teljes útmutató](./how-to-remove-scripts-from-html-in-java-complete-guide/)
+
+### [Gyermek elem hozzáadása a body-hoz Java-ban – Teljes Aspose.HTML oktatóanyag](./append-child-to-body-in-java-full-aspose-html-tutorial/)
+Ismerje meg, hogyan adhat hozzá új elemet a HTML body részéhez Java-ban az Aspose.HTML segítségével, lépésről lépésre.
+### [h1 szöveg módosítása MHTML-ben Java-val – Teljes lépésről‑lépésre útmutató](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
+Ismerje meg, hogyan módosíthatja az MHTML fájlok h1 címkéjének szövegét Java segítségével részletes, lépésről‑lépésre útmutatóval.
+### [Új HTML elem létrehozása Java-val – Teljes Aspose.HTML útmutató](./create-new-html-element-with-java-full-aspose-html-guide/)
+Ismerje meg, hogyan hozhat létre új HTML elemet Java segítségével az Aspose.HTML teljes útmutatójában.
+### [Gyermek elem hozzáadása a Java DOM-ban – Teljes Aspose.HTML útmutató](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
+Fedezze fel, hogyan adhat hozzá gyermek elemet a Java DOM-hoz az Aspose.HTML használatával, részletes, lépésről lépésre útmutató.
+### [Automatikus zár feloldása Java-ban – Szálbiztos HTML szerkesztési útmutató](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
+Ismerje meg, hogyan oldhatja fel automatikusan a zárakat Java-ban a szálbiztos HTML szerkesztéshez.
+
+### [HTML kinyerése Java-ban – Szöveg kinyerése és szavak kiemelése](./how-to-extract-html-in-java-extract-text-highlight-words/)
+Ismerje meg, hogyan nyerhet ki HTML-t Java-ban, szöveget és kiemelheti a szavakat egy egyszerű, lépésről lépésre útmutatóval.
+
+### [Elem attribútum lekérése Java – Teljes útmutató az SVG kiválasztáshoz és XPath-hez](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
+Fedezze fel, hogyan kérheti le az elem attribútumait Java-ban, SVG kiválasztással és XPath használatával.
+### [JavaScript futtatása HTML-ben az Aspose.HTML for Java segítségével – Teljes útmutató](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
+Ismerje meg, hogyan futtathat JavaScript kódot HTML-dokumentumokban az Aspose.HTML for Java segítségével, lépésről lépésre útmutató.
+### [HTML sablon betöltése Java – Teljes Aspose.HTML útmutató](./load-html-template-java-complete-aspose-html-guide/)
+Ismerje meg, hogyan tölthet be HTML sablonokat Java-ban az Aspose.HTML segítségével, lépésről lépésre útmutatóval.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

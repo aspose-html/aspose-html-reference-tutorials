@@ -9,11 +9,9 @@ url: /pt/java/conversion-epub-to-image-and-pdf/convert-epub-to-pdf/
 weight: 11
 ---
 
-/products/products-backtop-button >}}
 
-Make sure to preserve all shortcodes exactly.
 
-Now produce final output with translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -10,15 +10,11 @@ url: /nl/java/conversion-epub-to-xps/
 weight: 23
 ---
 
-< blocks/products/products-backtop-button >}}
 
-All good.
 
-Check for any code blocks: none.
 
-Make sure to keep all shortcodes exactly.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

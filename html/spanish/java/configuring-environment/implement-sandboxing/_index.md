@@ -9,7 +9,6 @@ url: /es/java/configuring-environment/implement-sandboxing/
 weight: 15
 ---
 
- with all translations.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

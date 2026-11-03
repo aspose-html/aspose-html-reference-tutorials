@@ -10,15 +10,10 @@ url: /el/java/conversion-epub-to-xps/
 weight: 23
 ---
 
-./convert-epub-to-xps/) keep link unchanged but translate visible text.
 
-All other text translate.
 
-Make sure to keep markdown formatting (#, ##, ###, lists, etc.)
 
-Also keep shortcodes at end.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
