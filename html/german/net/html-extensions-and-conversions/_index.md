@@ -93,6 +93,8 @@ Erfahren Sie, wie Sie HTML-Strings in C# mit Aspose.HTML in PDFs umwandeln – S
 ### [Konvertieren Sie HTML in PDF mit Aspose.HTML – Vollständige Schritt‑für‑Schritt‑Anleitung](./convert-html-to-pdf-with-aspose-html-complete-step-by-step-g/)
 Erfahren Sie, wie Sie HTML mit Aspose.HTML für .NET vollständig in PDF umwandeln – detaillierte Schritt‑für‑Schritt‑Anleitung.
 
+### [HTML in PDF konvertieren – Vollständige C#‑Anleitung mit benutzerdefiniertem Rendering](./convert-html-to-pdf-complete-c-guide-with-custom-rendering/)
+Erfahren Sie, wie Sie HTML mit Aspose.HTML für .NET in PDF konvertieren und dabei benutzerdefinierte Rendering‑Optionen nutzen.
 ### [Konvertieren Sie EPUB in .NET mit Aspose.HTML in ein Bild](./convert-epub-to-image/)
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET EPUB in Bilder konvertieren. Schritt‑für‑Schritt‑Anleitung mit Codebeispielen und anpassbaren Optionen.
 ### [Konvertieren Sie EPUB in .NET mit Aspose.HTML in PDF](./convert-epub-to-pdf/)
@@ -258,6 +260,8 @@ Erfahren Sie, wie Sie HTML mit Aspose.HTML für .NET in ein ZIP‑Archiv speiche
 Erfahren Sie, wie Sie HTML mit Aspose.HTML für .NET in ZIP-Dateien speichern und benutzerdefinierte Speicheroptionen nutzen.
 ### [HTML als ZIP speichern – Vollständige Aspose.HTML‑Anleitung](./how-to-save-html-as-zip-complete-aspose-html-guide/)
 Erfahren Sie, wie Sie HTML‑Inhalte mit Aspose.HTML in ein ZIP‑Archiv komprimieren und speichern – vollständige Schritt‑für‑Schritt‑Anleitung.
+### [Dokument aus HTML erstellen – Vollständige Anleitung zum Exportieren von HTML mit Bildern und Speichern als ZIP](./create-document-from-html-full-guide-to-export-html-with-ima/)
+Erfahren Sie, wie Sie mit Aspose.HTML für .NET ein HTML‑Dokument mit Bildern erstellen und als ZIP‑Archiv speichern.
 
 ## Abschluss
 

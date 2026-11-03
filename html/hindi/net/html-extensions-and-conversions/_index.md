@@ -79,6 +79,9 @@ C# में Aspose.HTML का उपयोग करके HTML को PDF म
 ### [C# के साथ स्थानीय HTML फ़ाइल को PDF में बदलें – चरण‑दर‑चरण गाइड](./convert-local-html-file-to-pdf-with-c-step-by-step-guide/)
 C# और Aspose.HTML का उपयोग करके स्थानीय HTML फ़ाइल को PDF में बदलने के चरण‑दर‑चरण मार्गदर्शन।
 
+### [HTML को PDF में बदलें – कस्टम रेंडरिंग के साथ पूर्ण C# गाइड](./convert-html-to-pdf-complete-c-guide-with-custom-rendering/)
+कस्टम रेंडरिंग विकल्पों के साथ C# में HTML को PDF में बदलने की पूरी मार्गदर्शिका।
+
 ### [HTML से PDF बनाएं – C# चरण‑दर‑चरण गाइड](./create-pdf-from-html-c-step-by-step-guide/)
 ### [Aspose के साथ HTML से PDF बनाएं – चरण‑दर‑चरण गाइड](./create-pdf-from-html-with-aspose-step-by-step-guide/)
 C# में Aspose.HTML का उपयोग करके HTML को PDF में बदलने के विस्तृत चरण‑दर‑चरण मार्गदर्शन।
@@ -325,6 +328,9 @@ C# में Aspose.HTML का उपयोग करके HTML को PDF म
 
 ### [Aspose.HTML के साथ HTML को PDF में बदलें – पूर्ण चरण‑दर‑चरण गाइड](./convert-html-to-pdf-with-aspose-html-complete-step-by-step-g/)
 Aspose.HTML का उपयोग करके HTML को PDF में बदलें। इस पूर्ण चरण‑दर‑चरण गाइड से रूपांतरण प्रक्रिया को आसानी से समझें।
+
+### [HTML से दस्तावेज़ बनाएं – इमेज के साथ HTML निर्यात करने और ZIP के रूप में सहेजने की पूर्ण गाइड](./create-document-from-html-full-guide-to-export-html-with-ima/)
+HTML को इमेज सहित ZIP फ़ाइल में सहेजने के लिए पूर्ण चरण‑दर‑चरण मार्गदर्शिका।
 
 ## निष्कर्ष
 

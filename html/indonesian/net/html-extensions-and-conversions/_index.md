@@ -76,6 +76,8 @@ Pelajari cara merender HTML ke PDF dengan kualitas teks yang lebih baik mengguna
 Pelajari cara merender HTML menjadi PDF langsung dari string HTML menggunakan Aspose.HTML untuk .NET dengan contoh kode C#.
 ### [Mengonversi HTML ke PDF dengan Aspose.HTML – Panduan Lengkap Langkah‑demi‑Langkah](./convert-html-to-pdf-with-aspose-html-complete-step-by-step-g/)
 Panduan lengkap untuk mengonversi HTML ke PDF menggunakan Aspose.HTML dalam .NET dengan contoh kode dan langkah detail.
+### [Konversi HTML ke PDF – Panduan Lengkap C# dengan Rendering Kustom](./convert-html-to-pdf-complete-c-guide-with-custom-rendering/)
+Panduan lengkap C# untuk mengonversi HTML ke PDF dengan rendering kustom menggunakan Aspose.HTML.
 ### [Buat PDF dari HTML – Panduan Langkah‑demi‑Langkah C#](./create-pdf-from-html-c-step-by-step-guide/)
 Pelajari cara membuat PDF dari HTML menggunakan C# dengan panduan langkah demi langkah menggunakan Aspose.HTML.
 ### [Buat PDF dari HTML dengan Aspose.HTML – Panduan Langkah‑demi‑Langkah](./create-pdf-from-html-with-aspose-html-step-by-step-guide/)
@@ -266,6 +268,8 @@ Pelajari cara menyimpan HTML ke arsip ZIP menggunakan Aspose.HTML dalam C# denga
 Panduan lengkap menyimpan file HTML ke dalam arsip ZIP menggunakan Aspose.HTML dan C#.
 ### [Cara Menyimpan HTML sebagai ZIP – Panduan Lengkap Aspose.HTML](./how-to-save-html-as-zip-complete-aspose-html-guide/)
 Pelajari cara menyimpan HTML sebagai arsip ZIP secara lengkap menggunakan Aspose.HTML dengan contoh kode C#.
+### [Buat Dokumen dari HTML – Panduan Lengkap Mengekspor HTML dengan Gambar dan Menyimpannya sebagai ZIP](./create-document-from-html-full-guide-to-export-html-with-ima/)
+Pelajari cara membuat dokumen dari HTML, mengekspor gambar, dan menyimpan semuanya dalam arsip ZIP dengan panduan lengkap Aspose.HTML.
 
 ## Kesimpulan
 

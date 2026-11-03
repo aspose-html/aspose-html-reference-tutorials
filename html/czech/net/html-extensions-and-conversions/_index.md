@@ -65,6 +65,8 @@ Naučte se, jak v C# zapnout antialiasing při převodu HTML do PDF pomocí Aspo
 Naučte se, jak pomocí Aspose.HTML v C# převést HTML do PDF a optimalizovat kvalitu textu v PDF.
 ### [Vykreslete HTML do PDF v C# – průvodce převodem řetězce HTML na PDF](./render-html-to-pdf-in-c-html-string-to-pdf-guide/)
 Naučte se, jak v C# pomocí Aspose.HTML převést řetězec HTML na PDF pomocí podrobného průvodce.
+### [Převod HTML do PDF – Kompletní průvodce C# s vlastním vykreslováním](./convert-html-to-pdf-complete-c-guide-with-custom-rendering/)
+Kompletní návod v C# pro převod HTML do PDF s možností vlastního vykreslování a přizpůsobení výstupu.
 ### [Vytvořte PDF z HTML v C# – průvodce krok za krokem](./create-pdf-from-html-c-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.HTML v C# převést HTML dokument do PDF pomocí podrobného průvodce krok za krokem.
 ### [Vytvořte PDF z HTML v C# – Kompletní průvodce krok za krokem](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
@@ -260,6 +262,8 @@ Naučte se, jak pomocí Aspose.HTML uložit HTML soubor do ZIP archivu v komplet
 Naučte se, jak pomocí Aspose.HTML pro .NET uložit HTML soubor jako ZIP archiv v kompletním průvodci.
 ### [Převod HTML do PDF pomocí Aspose.HTML – Kompletní průvodce krok za krokem](./convert-html-to-pdf-with-aspose-html-complete-step-by-step-g/)
 Kompletní průvodce převodem HTML do PDF pomocí Aspose.HTML v .NET s podrobnými ukázkami kódu a tipy.
+### [Vytvořte dokument z HTML – Kompletní průvodce exportem HTML s obrázky a uložením do ZIP](./create-document-from-html-full-guide-to-export-html-with-ima/)
+Naučte se vytvořit dokument z HTML, exportovat jej s obrázky a uložit jako ZIP archiv pomocí Aspose.HTML pro .NET.
 
 ## Závěr
 

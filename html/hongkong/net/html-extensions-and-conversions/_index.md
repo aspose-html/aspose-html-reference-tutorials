@@ -81,6 +81,8 @@ Aspose.HTML for .NET 不只是一個函式庫；它還是一個函式庫。它�
 使用 Aspose.HTML for .NET 在 C# 中將 HTML 字串渲染為 PDF 的完整步驟指南。
 ### [使用 Aspose.HTML 完整步驟指南將 HTML 轉換為 PDF](./convert-html-to-pdf-with-aspose-html-complete-step-by-step-g/)
 使用 Aspose.HTML for .NET，透過完整的步驟說明將 HTML 轉換為 PDF，快速掌握轉換技巧。
+### [將 HTML 轉換為 PDF – 完整 C# 指南（自訂渲染）](./convert-html-to-pdf-complete-c-guide-with-custom-rendering/)
+使用 Aspose.HTML for .NET 的完整 C# 教程，展示如何自訂渲染將 HTML 轉換為 PDF。
 
 ### [使用 C# 從 HTML 建立 PDF – 完整步驟指南](./create-pdf-from-html-c-step-by-step-guide/)
 使用 Aspose.HTML for .NET，透過 C# 將 HTML 轉換為 PDF 的完整步驟說明與範例。
@@ -270,6 +272,8 @@ Aspose.HTML for .NET 不只是一個函式庫；它還是一個函式庫。它�
 使用 Aspose.HTML for .NET 將 HTML 壓縮為 ZIP 檔案，提供完整的步驟說明與範例。
 ### [如何將 HTML 保存為 ZIP – 完整 Aspose.HTML 教學](./how-to-save-html-as-zip-complete-aspose-html-guide/)
 使用 Aspose.HTML for .NET 在 C# 中將 HTML 壓縮為 ZIP，提供完整步驟與範例說明。
+### [從 HTML 建立文件 – 完整指南：匯出含圖片的 HTML 並儲存為 ZIP](./create-document-from-html-full-guide-to-export-html-with-ima/)
+使用 Aspose.HTML for .NET，從 HTML 建立文件，匯出包含圖片的內容並壓縮為 ZIP 檔案的完整步驟指南。
 
 ## 結論
 

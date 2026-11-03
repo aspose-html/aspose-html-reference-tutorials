@@ -71,6 +71,8 @@ Hướng dẫn chi tiết cách chuyển đổi HTML thành PDF trong C# bằng 
 Hướng dẫn chi tiết cách chuyển đổi HTML sang PDF trong C# cùng các mẹo cải thiện độ rõ nét của văn bản.
 ### [Render HTML sang PDF trong C# – Hướng dẫn đầy đủ Aspose.HTML](./render-html-to-pdf-in-c-full-aspose-html-guide/)
 Hướng dẫn chi tiết cách kết xuất HTML sang PDF bằng C# và Aspose.HTML, bao gồm các bước, ví dụ mã và tùy chọn cấu hình.
+### [Chuyển đổi HTML sang PDF – Hướng dẫn C# đầy đủ với tùy chỉnh Rendering](./convert-html-to-pdf-complete-c-guide-with-custom-rendering/)
+Hướng dẫn chi tiết cách chuyển đổi HTML sang PDF trong .NET bằng C#, bao gồm tùy chỉnh quá trình render để đạt kết quả tối ưu.
 ### [Chuyển đổi EPUB sang hình ảnh trong .NET với Aspose.HTML](./convert-epub-to-image/)
 Tìm hiểu cách chuyển đổi EPUB sang hình ảnh bằng Aspose.HTML cho .NET. Hướng dẫn từng bước với các ví dụ về mã và tùy chọn có thể tùy chỉnh.
 ### [Chuyển đổi EPUB sang PDF trong .NET với Aspose.HTML](./convert-epub-to-pdf/)
@@ -251,6 +253,8 @@ Hướng dẫn chi tiết cách chuyển đổi chuỗi HTML thành tệp PDF tr
 Hướng dẫn chi tiết cách lưu tài liệu HTML thành tệp ZIP bằng Aspose.HTML, bao gồm ví dụ mã và tùy chọn cấu hình.
 ### [Chuyển đổi HTML sang PDF với Aspose.HTML – Hướng dẫn chi tiết từng bước](./convert-html-to-pdf-with-aspose-html-complete-step-by-step-g/)
 Hướng dẫn chi tiết từng bước để chuyển đổi HTML sang PDF bằng Aspose.HTML cho .NET, bao gồm mã mẫu và các tùy chọn cấu hình.
+### [Tạo tài liệu từ HTML – Hướng dẫn đầy đủ để xuất HTML có hình ảnh và lưu dưới dạng ZIP](./create-document-from-html-full-guide-to-export-html-with-ima/)
+Hướng dẫn chi tiết cách tạo tài liệu HTML, xuất ra với hình ảnh và lưu dưới dạng tệp ZIP bằng Aspose.HTML cho .NET.
 
 ## Phần kết luận
 

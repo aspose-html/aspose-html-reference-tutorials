@@ -71,6 +71,8 @@ Lépésről‑lépésre bemutatjuk, hogyan renderelhet HTML‑t PDF‑be C#‑ba
 Részletes útmutató a HTML PDF‑be konvertálásához C#‑ban az Aspose.HTML segítségével.
 ### [HTML konvertálása PDF-be az Aspose.HTML segítségével – Teljes lépésről‑lépésre útmutató](./convert-html-to-pdf-with-aspose-html-complete-step-by-step-g/)
 Részletes útmutató a HTML PDF-be konvertálásához az Aspose.HTML .NET könyvtárral, minden lépés bemutatva.
+### [HTML konvertálása PDF-be – Teljes C# útmutató egyedi rendereléssel](./convert-html-to-pdf-complete-c-guide-with-custom-rendering/)
+Lépésről‑lépésre bemutatjuk, hogyan konvertáljon HTML‑t PDF‑be C#‑ban egyedi rendereléssel az Aspose.HTML segítségével.
 ### [Az Aspose.HTML segítségével EPUB-t konvertáljon képpé .NET-ben](./convert-epub-to-image/)
 ### [Konvertálja az EPUB-t PDF-be .NET-ben az Aspose.HTML segítségével](./convert-epub-to-pdf/)
 ### [Konvertálja az EPUB-t XPS-re .NET-ben az Aspose.HTML segítségével](./convert-epub-to-xps/)
@@ -220,6 +222,8 @@ Ismerje meg, hogyan használhat egyéni erőforráskezelőt a HTML stream‑kén
 Ismerje meg, hogyan menthet HTML-fájlokat ZIP-archívumba az Aspose.HTML .NET használatával, lépésről‑lépésre útmutatóval.
 ### [HTML mentése ZIP-be – Teljes Aspose.HTML útmutató](./how-to-save-html-as-zip-complete-aspose-html-guide/)
 Részletes útmutató az HTML fájlok ZIP-archívumba mentéséhez az Aspose.HTML for .NET használatával.
+### [HTML-ből dokumentum létrehozása – Teljes útmutató a képekkel együtt exportáláshoz és ZIP-be mentéshez](./create-document-from-html-full-guide-to-export-html-with-ima/)
+Lépésről‑lépésre bemutatjuk, hogyan hozhat létre HTML‑dokumentumot képekkel, majd mentheti ZIP‑archívumba C#‑ban az Aspose.HTML for .NET használatával.
 
 ## Következtetés
 
