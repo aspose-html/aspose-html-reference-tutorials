@@ -311,6 +311,9 @@ Aprenda a salvar HTML como ZIP usando Aspose.HTML, com um guia completo passo a 
 ### [Criar documento a partir de HTML – Guia completo para exportar HTML com imagens e salvar como ZIP](./create-document-from-html-full-guide-to-export-html-with-ima/)
 Aprenda a criar um documento HTML com imagens incorporadas e salvá-lo como arquivo ZIP usando Aspose.HTML para .NET.
 
+### [Manipulador de Recurso Personalizado em C# – Como Criar ZIP de HTML](./custom-resource-handler-in-c-how-to-create-zip-of-html/)
+Aprenda a criar um manipulador de recurso personalizado em C# para gerar arquivos ZIP contendo documentos HTML usando Aspose.HTML.
+
 ## Conclusão
 
 Concluindo, extensões e conversões HTML são elementos essenciais do desenvolvimento web moderno. O Aspose.HTML para .NET simplifica o processo e o torna acessível a desenvolvedores de todos os níveis. Ao seguir nossos tutoriais, você estará no caminho certo para se tornar um desenvolvedor web proficiente com um amplo conjunto de habilidades.

@@ -260,6 +260,8 @@ url: /ar/net/html-extensions-and-conversions/
 دليل شامل يوضح كيفية تحويل HTML إلى PDF باستخدام Aspose.HTML خطوة بخطوة مع أمثلة عملية.
 ### [إنشاء مستند من HTML – دليل كامل لتصدير HTML مع الصور وحفظه كملف ZIP](./create-document-from-html-full-guide-to-export-html-with-ima/)
 دليل خطوة بخطوة لإنشاء مستند HTML يحتوي على صور وتصديره كملف ZIP باستخدام Aspose.HTML.
+### [معالج موارد مخصص في C# – كيفية إنشاء ملف ZIP من HTML](./custom-resource-handler-in-c-how-to-create-zip-of-html/)
+تعلم كيفية إنشاء معالج موارد مخصص في C# لضغط ملفات HTML وحفظها كملف ZIP بسهولة.
 
 ## خاتمة
 

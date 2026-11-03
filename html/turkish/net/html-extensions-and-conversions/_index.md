@@ -119,6 +119,7 @@ C#'ta özel kaynak işleyicisi kullanarak HTML dosyalarını ZIP arşivine nası
 Aspose.HTML for .NET kullanarak C#'ta ZipArchive ile HTML dosalarını ZIP arşivine kaydetmeyi adım adım öğrenin.
 ### [HTML'yi ZIP'e Sıkıştırma – Web Sayfalarını ZIP Olarak Dışa Aktarma Tam Kılavuzu](./how-to-zip-html-complete-guide-to-exporting-web-pages-as-zip/)
 Aspose.HTML for .NET kullanarak HTML dosyalarını ZIP arşivine dışa aktarmayı adım adım öğrenin.
+### [C#'ta Özel Kaynak İşleyicisi – HTML'yi ZIP Olarak Oluşturma](./custom-resource-handler-in-c-how-to-create-zip-of-html/)
 ### [Stil Verilmiş Metinle HTML Belgesi Oluşturma ve PDF'ye Dışa Aktarma – Tam Kılavuz](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 ### [C# ile HTML Belgesi Oluşturma – Adım Adım Kılavuz](./create-html-document-c-step-by-step-guide/)
 Aspose.HTML for .NET kullanarak C# ile adım adım HTML belgesi oluşturmayı öğrenin.

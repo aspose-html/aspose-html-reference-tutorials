@@ -278,6 +278,8 @@ Aspose.HTML for .NET 不仅仅是一个库；它是 Web 开发领域的变革者
 使用 Aspose.HTML for .NET 将 HTML 保存为 ZIP 的完整指南，提供代码示例和详细步骤。
 ### [使用 Aspose.HTML 在 .NET 中从 HTML 创建文档并导出为 ZIP（含图片）](./create-document-from-html-full-guide-to-export-html-with-ima/)
 本完整指南展示如何使用 Aspose.HTML for .NET 从 HTML 创建文档，导出包含图片的 HTML 并保存为 ZIP 文件。
+### [在 C# 中的自定义资源处理程序 – 如何创建 HTML 的 ZIP](./custom-resource-handler-in-c-how-to-create-zip-of-html/)
+使用 Aspose.HTML for .NET 在 C# 中创建自定义资源处理程序，将 HTML 内容压缩为 ZIP 文件的完整示例。
 
 ## 结论
 

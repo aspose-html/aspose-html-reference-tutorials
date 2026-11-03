@@ -141,6 +141,8 @@ Aprenda a crear un controlador de recursos personalizado en C# para convertir do
 Aprenda a generar imágenes JPEG a partir de documentos Word usando Aspose.HTML para .NET con un ejemplo completo en C#.
 ### [Renderizar HTML a PNG – Guía completa paso a paso](./render-html-to-png-complete-step-by-step-guide/)
 Aprenda a convertir HTML en imágenes PNG con Aspose.HTML para .NET siguiendo una guía detallada paso a paso.
+### [Crear PNG a partir de HTML con Aspose.HTML – Guía .NET](./create-png-from-html-with-aspose-html-net-guide/)
+Aprenda a generar imágenes PNG desde código HTML usando Aspose.HTML para .NET en este tutorial paso a paso.
 
 ## Conclusión
 

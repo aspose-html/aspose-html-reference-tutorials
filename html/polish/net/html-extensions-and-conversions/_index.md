@@ -90,30 +90,39 @@ Pełny przewodnik, jak w C# przekształcić HTML w PDF przy użyciu Aspose.HTML,
 Kompletny przewodnik programistyczny, jak w C# przekształcić HTML w PDF przy użyciu Aspose.HTML.
 ### [Konwersja EPUB do obrazu w .NET za pomocą Aspose.HTML](./convert-epub-to-image/)
 Dowiedz się, jak konwertować EPUB na obrazy za pomocą Aspose.HTML dla .NET. Samouczek krok po kroku z przykładami kodu i opcjami dostosowywania.
+
 ### [Konwertuj EPUB do PDF w .NET za pomocą Aspose.HTML](./convert-epub-to-pdf/)
 Dowiedz się, jak przekonwertować EPUB na PDF za pomocą Aspose.HTML dla .NET. Ten przewodnik krok po kroku obejmuje opcje dostosowywania, FAQ i inne informacje dotyczące płynnej konwersji dokumentów.
+
 ### [Konwertuj EPUB do XPS w .NET za pomocą Aspose.HTML](./convert-epub-to-xps/)
 Dowiedz się, jak przekonwertować EPUB na XPS w .NET za pomocą Aspose.HTML dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby bezproblemowo przeprowadzić konwersję.
+
 ### [Konwersja HTML do BMP w .NET za pomocą Aspose.HTML](./convert-html-to-bmp/)
 Dowiedz się, jak przekonwertować HTML na BMP w .NET przy użyciu Aspose.HTML dla .NET. Kompleksowy przewodnik dla programistów stron internetowych dotyczący wykorzystania Aspose.HTML dla .NET.
+
 ### [Konwertuj HTML na DOC i DOCX w .NET za pomocą Aspose.HTML](./convert-html-to-doc-docx/)
 Dowiedz się, jak wykorzystać moc Aspose.HTML dla .NET w tym przewodniku krok po kroku. Konwertuj HTML do DOCX bez wysiłku i podnieś poziom swoich projektów .NET. Zacznij już dziś!
+
 ### [Konwertuj HTML na GIF w .NET za pomocą Aspose.HTML](./convert-html-to-gif/)
 Odkryj moc Aspose.HTML dla .NET: Konwertuj HTML na GIF. Wymagania wstępne, przewodnik krok po kroku i FAQ. Zoptymalizuj manipulację HTML za pomocą Aspose.HTML.
 ### [Konwertuj HTML na obraz w C# – Kompletny przewodnik](./convert-html-to-image-in-c-complete-guide/)
 Dowiedz się, jak konwertować HTML na obrazy w C# przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
 ### [Konwersja HTML do JPEG w .NET za pomocą Aspose.HTML](./convert-html-to-jpeg/)
 Dowiedz się, jak konwertować HTML na JPEG w .NET za pomocą Aspose.HTML dla .NET. Przewodnik krok po kroku, jak wykorzystać moc Aspose.HTML dla .NET. Zoptymalizuj swoje zadania związane z tworzeniem stron internetowych bez wysiłku.
+
 ### [Konwersja HTML do Markdown w .NET za pomocą Aspose.HTML](./convert-html-to-markdown/)
 Dowiedz się, jak konwertować HTML na Markdown w .NET przy użyciu Aspose.HTML w celu wydajnej manipulacji treścią. Uzyskaj wskazówki krok po kroku dotyczące płynnego procesu konwersji.
+
 ### [Konwersja HTML do MHTML w .NET za pomocą Aspose.HTML](./convert-html-to-mhtml/)
 Konwertuj HTML na MHTML w .NET za pomocą Aspose.HTML — przewodnik krok po kroku dotyczący wydajnej archiwizacji treści internetowych. Dowiedz się, jak używać Aspose.HTML dla .NET do tworzenia archiwów MHTML.
+
 ### [Konwersja HTML do PNG w .NET za pomocą Aspose.HTML](./convert-html-to-png/)
 Dowiedz się, jak używać Aspose.HTML dla .NET do manipulowania dokumentami HTML i konwertowania ich. Przewodnik krok po kroku do efektywnego rozwoju .NET.
 ### [Konwertuj HTML do PNG w C# – Renderuj HTML jako obraz](./convert-html-to-png-in-c-render-html-as-image/)
 Dowiedz się, jak w C# renderować HTML jako obraz PNG przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
 ### [Konwertuj HTML do TIFF w .NET za pomocą Aspose.HTML](./convert-html-to-tiff/)
 Dowiedz się, jak konwertować HTML do TIFF za pomocą Aspose.HTML dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać skuteczną optymalizację treści internetowych.
+
 ### [Konwersja HTML do XPS w .NET za pomocą Aspose.HTML](./convert-html-to-xps/)
 Odkryj moc Aspose.HTML dla .NET: Konwertuj HTML na XPS bez wysiłku. Zawiera wymagania wstępne, przewodnik krok po kroku i FAQ.
 ### [Jak spakować HTML w C# – Samouczek z niestandardowym obsługiwaczem zasobów](./how-to-zip-html-in-c-custom-resource-handler-tutorial/)
@@ -251,6 +260,9 @@ Dowiedz się, jak w C# przekształcić ciąg HTML w plik PDF przy użyciu Aspose
 Zapisz dokument HTML jako archiwum ZIP przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
 ### [Utwórz dokument z HTML – Pełny przewodnik eksportu HTML z obrazami i zapisania jako ZIP](./create-document-from-html-full-guide-to-export-html-with-ima/)
 Dowiedz się, jak utworzyć dokument HTML, wyeksportować go z obrazami i zapisać jako archiwum ZIP przy użyciu Aspose.HTML dla .NET.
+
+### [Niestandardowy obsługiwacz zasobów w C# – Jak utworzyć ZIP z HTML](./custom-resource-handler-in-c-how-to-create-zip-of-html/)
+Dowiedz się, jak w C# stworzyć własny handler zasobów, aby spakować plik HTML do archiwum ZIP przy użyciu Aspose.HTML.
 
 ## Wniosek
 

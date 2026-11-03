@@ -151,6 +151,8 @@ Leer hoe u met een aangepaste resourcehandler Word-documenten efficiënt naar PN
 Leer hoe u met Aspose.HTML voor .NET Word-documenten naar JPEG-afbeeldingen converteert met een volledige C#-stapsgewijze handleiding.
 ### [HTML renderen naar PNG – Complete stapsgewijze handleiding](./render-html-to-png-complete-step-by-step-guide/)
 Leer hoe u HTML naar PNG rendert met een volledige stap‑voor‑stap gids.
+### [PNG maken vanuit HTML met Aspose.HTML – .NET-gids](./create-png-from-html-with-aspose-html-net-guide/)
+Leer hoe u PNG-afbeeldingen genereert vanuit HTML met Aspose.HTML voor .NET in deze stapsgewijze gids.
 
 ## Conclusie
 

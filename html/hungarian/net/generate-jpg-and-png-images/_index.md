@@ -140,6 +140,8 @@ Ismerje meg, hogyan használhat egyedi erőforráskezelőt a Word dokumentumok P
 Ismerje meg, hogyan konvertálhat Word dokumentumokat JPEG képekké C#-ban az Aspose.HTML for .NET segítségével.
 ### [HTML renderelése PNG-be – Teljes lépésről‑lépésre útmutató](./render-html-to-png-complete-step-by-step-guide/)
 Ismerje meg, hogyan konvertálhat HTML-t PNG képpé a részletes, lépésről‑lépésre útmutató segítségével az Aspose.HTML for .NET használatával.
+### [PNG létrehozása HTML-ből az Aspose.HTML segítségével – .NET útmutató](./create-png-from-html-with-aspose-html-net-guide/)
+Ismerje meg, hogyan konvertálhat HTML-t PNG képpé az Aspose.HTML for .NET használatával, lépésről lépésre útmutató.
 
 ## Következtetés
 

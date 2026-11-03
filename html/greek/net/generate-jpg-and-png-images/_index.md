@@ -147,6 +147,8 @@ url: /el/net/generate-jpg-and-png-images/
 Μάθετε πώς να μετατρέψετε έγγραφα Word σε εικόνες JPEG χρησιμοποιώντας C# και Aspose.HTML για .NET.
 ### [Απόδοση HTML σε PNG – Πλήρης Οδηγός Βήμα‑Βήμα](./render-html-to-png-complete-step-by-step-guide/)
 Μάθετε πώς να μετατρέψετε HTML σε PNG χρησιμοποιώντας Aspose.HTML για .NET με πλήρη οδηγό βήμα‑βήμα.
+### [Δημιουργία PNG από HTML με Aspose.HTML – .NET Οδηγός](./create-png-from-html-with-aspose-html-net-guide/)
+Μάθετε πώς να μετατρέψετε HTML σε PNG χρησιμοποιώντας το Aspose.HTML για .NET σε αυτό το βήμα-βήμα σεμινάριο.
 
 ## Σύναψη
 

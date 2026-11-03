@@ -201,6 +201,12 @@ Learn how to save HTML files as a ZIP archive using Aspose.HTML for .NET with a 
 Learn how to save HTML files as a ZIP archive using Aspose.HTML for .NET in this comprehensive guide.
 ### [How to Save HTML as ZIP – Complete Aspose.HTML Guide](./how-to-save-html-as-zip-complete-aspose-html-guide/)
 Learn how to save HTML as a ZIP archive using Aspose.HTML for .NET with a comprehensive step‑by‑step guide.
+### [Custom Resource Handler in C# – How to Create ZIP of HTML](./custom-resource-handler-in-c-how-to-create-zip-of-html/)
+Learn how to create a custom resource handler in C# to zip HTML content using Aspose.HTML for .NET. Step-by-step guide with code examples.
+### [Convert EPUB to Image in .NET with Aspose.HTML](./convert-epub-to-image/)
+Learn how to convert EPUB to images using Aspose.HTML for .NET. Step-by-step tutorial with code examples and customizable options.
+### [Convert EPUB to PDF in .NET with Aspose.HTML](./convert-epub-to-pdf/)
+Learn how to convert EPUB to PDF using Aspose.HTML for .NET. This step-by-step guide covers customization options, FAQs, and more for seamless document conversion.
 ### [Save HTML to ZIP in C# – Complete In‑Memory Example](./save-html-to-zip-in-c-complete-in-memory-example/)
 ### [Aspose HTML Save Options: Save HTML to Stream in C#](./aspose-html-save-options-save-html-to-stream-in-c/)
 Learn how to save an HTML document directly to a stream using Aspose.HTML in C# with a clear, step-by-step tutorial.
@@ -248,10 +254,6 @@ Learn how to save HTML content as a ZIP archive with custom storage options usin
 Learn how to save HTML content into a ZIP archive using Aspose.HTML for .NET with a complete step‑by‑step guide.
 ### [Create Document from HTML – Full Guide to Export HTML with Images and Save as ZIP](./create-document-from-html-full-guide-to-export-html-with-ima/)
 Learn how to create a document from HTML with images and save it as a ZIP archive using Aspose.HTML for .NET. Step‑by‑step guide.
-### [Convert EPUB to Image in .NET with Aspose.HTML](./convert-epub-to-image/)
-Learn how to convert EPUB to images using Aspose.HTML for .NET. Step‑by‑step tutorial with code examples and customizable options.
-### [Convert EPUB to PDF in .NET with Aspose.HTML](./convert-epub-to-pdf/)
-Learn how to convert EPUB to PDF using Aspose.HTML for .NET. This step‑by‑step guide covers customization options, FAQs, and more for seamless document conversion.
 ### [Convert EPUB to XPS in .NET with Aspose.HTML](./convert-epub-to-xps/)
 Learn how to convert EPUB to XPS in .NET using Aspose.HTML for .NET. Follow our step‑by‑step guide for effortless conversions.
 

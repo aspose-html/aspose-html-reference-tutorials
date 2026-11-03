@@ -254,6 +254,8 @@ url: /el/net/html-extensions-and-conversions/
 Μάθετε πώς να συμπιέσετε HTML σε ZIP με προσαρμοσμένο διαχειριστή πόρων σε C# χρησιμοποιώντας το Aspose.HTML.
 ### [Δημιουργία εγγράφου από HTML – Πλήρης οδηγός εξαγωγής HTML με εικόνες και αποθήκευση ως ZIP](./create-document-from-html-full-guide-to-export-html-with-ima/)
 Μάθετε πώς να δημιουργήσετε έγγραφο HTML, να εξάγετε εικόνες και να το αποθηκεύσετε σε αρχείο ZIP με πλήρη οδηγό.
+### [Προσαρμοσμένος Διαχειριστής Πόρων σε C# – Δημιουργία ZIP του HTML](./custom-resource-handler-in-c-how-to-create-zip-of-html/)
+Μάθετε πώς να δημιουργήσετε προσαρμοσμένο διαχειριστή πόρων σε C# για τη συμπίεση HTML σε αρχείο ZIP με Aspose.HTML.
 
 ## Σύναψη
 

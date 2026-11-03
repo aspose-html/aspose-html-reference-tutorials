@@ -255,6 +255,8 @@ Hướng dẫn chi tiết cách lưu tài liệu HTML thành tệp ZIP bằng As
 Hướng dẫn chi tiết từng bước để chuyển đổi HTML sang PDF bằng Aspose.HTML cho .NET, bao gồm mã mẫu và các tùy chọn cấu hình.
 ### [Tạo tài liệu từ HTML – Hướng dẫn đầy đủ để xuất HTML có hình ảnh và lưu dưới dạng ZIP](./create-document-from-html-full-guide-to-export-html-with-ima/)
 Hướng dẫn chi tiết cách tạo tài liệu HTML, xuất ra với hình ảnh và lưu dưới dạng tệp ZIP bằng Aspose.HTML cho .NET.
+### [Trình xử lý tài nguyên tùy chỉnh trong C# – Cách tạo ZIP của HTML](./custom-resource-handler-in-c-how-to-create-zip-of-html/)
+Hướng dẫn chi tiết cách tạo trình xử lý tài nguyên tùy chỉnh trong C# để nén HTML thành tệp ZIP bằng Aspose.HTML.
 
 ## Phần kết luận
 

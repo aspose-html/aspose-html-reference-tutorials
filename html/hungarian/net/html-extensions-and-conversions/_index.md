@@ -102,6 +102,8 @@ Ismerje meg, hogyan használhat egyéni erőforráskezelőt HTML zip-archívumok
 Ismerje meg, hogyan csomagolhatja be a DOCX-ből származó HTML-t ZIP-archívumba C#-ban az Aspose.HTML for .NET segítségével.
 ### [HTML zip-elése – Teljes útmutató a weboldalak ZIP-be exportálásához](./how-to-zip-html-complete-guide-to-exporting-web-pages-as-zip/)
 Ismerje meg, hogyan exportálhatja a weboldalakat ZIP-archívumba C#‑ban az Aspose.HTML for .NET használatával.
+### [Egyedi erőforrás-kezelő C#-ban – HTML ZIP létrehozása](./custom-resource-handler-in-c-how-to-create-zip-of-html/)
+Ismerje meg, hogyan hozhat létre egy egyedi erőforrás-kezelőt C#-ban, amely ZIP-archívumba csomagolja a HTML-t.
 Hozzon létre HTML-dokumentumot formázott szöveggel, majd exportálja PDF-be az Aspose.HTML for .NET segítségével. Lépésről lépésre útmutató.
 Ismerje meg, hogyan hozhat létre PDF-et HTML-ből C#‑ban az Aspose.HTML for .NET segítségével, részletes lépésről‑lépésre útmutatóval.
 ### [HTML mentése ZIP-be – Teljes C# útmutató a HTML ZIP-re konvertálásához](./save-html-as-zip-complete-c-guide-to-convert-html-to-zip/)
