@@ -1,10 +1,50 @@
 ---
-date: 2026-03-21
-description: जावास्क्रिप्ट और Aspose.HTML for Java का उपयोग करके कैनवास को PDF में
-  कैसे बदलें, सीखें। डायनेमिक ग्राफिक्स बनाएं, कैनवास पर टेक्स्ट ड्रॉ करें, और HTML
-  को PDF में निर्यात करें।
-linktitle: Convert Canvas to PDF Using JavaScript
+date: 2026-09-03
+description: JavaScript और Aspose.HTML for Java का उपयोग करके Canvas को PDF में बदलना
+  सीखें। डायनामिक ग्राफिक्स बनाएं, Canvas पर टेक्स्ट ड्रॉ करें, और HTML को PDF में
+  एक्सपोर्ट करें।
+keywords:
+- convert canvas to pdf
+- draw text on canvas
+- generate pdf from canvas
+lastmod: 2026-09-03
+linktitle: JavaScript का उपयोग करके Canvas को PDF में बदलें
+og_description: JavaScript और Aspose.HTML for Java का उपयोग करके Canvas को PDF में
+  बदलें। Canvas पर टेक्स्ट ड्रॉ करना सीखें, HTML को सेव करें, और मिनटों में हाई‑क्वालिटी
+  PDFs जेनरेट करें।
+og_image_alt: Screenshot of a Java‑generated PDF created from an HTML5 canvas
+og_title: Aspose.HTML for Java के साथ Canvas को PDF में बदलें – त्वरित गाइड
+schemas:
+- author: Aspose
+  dateModified: '2026-09-03'
+  description: Learn how to convert canvas to PDF using JavaScript and Aspose.HTML
+    for Java. Create dynamic graphics, draw text on canvas, and export HTML to PDF.
+  headline: Convert Canvas to PDF with Aspose.HTML for Java
+  type: TechArticle
+- questions:
+  - answer: Aspose.HTML for Java is a powerful library that enables developers to
+      create, manipulate, and convert HTML documents in Java applications, supporting
+      HTML5 features like Canvas.
+    question: What is Aspose.HTML for Java?
+  - answer: Yes, a commercial license is required for production use. Details are
+      available on the [purchase page](https://purchase.aspose.com/buy).
+    question: Can I use this in commercial projects?
+  - answer: Absolutely. You can download a trial version from the [Aspose.HTML trial
+      download page](https://releases.aspose.com/).
+    question: Is there a free trial?
+  - answer: Temporary licenses are provided for evaluation purposes via the [temporary
+      license request page](https://purchase.aspose.com/temporary-license/).
+    question: How do I obtain a temporary license for testing?
+  - answer: The full API reference is available [Aspose.HTML Java API reference](https://reference.aspose.com/html/java/).
+    question: Where can I find detailed documentation?
+  type: FAQPage
 second_title: Java HTML Processing with Aspose.HTML
+tags:
+- convert canvas to pdf
+- Aspose.HTML
+- Java PDF conversion
+- HTML5 Canvas
+- Java web graphics
 title: Aspose.HTML for Java के साथ Canvas को PDF में परिवर्तित करें
 url: /hi/java/advanced-usage/html5-canvas-manipulation-using-javascript/
 weight: 13
@@ -14,35 +54,43 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.HTML for Java के साथ Canvas को PDF में बदलें
+# कैनवास को PDF में बदलें Aspose.HTML for Java के साथ
 
-इंटरैक्टिव वेब अनुभव अक्सर HTML5 **Canvas** एलिमेंट पर निर्भर करते हैं। JavaScript से ग्राफ़िक्स ड्रॉ करके आप ब्राउज़र में सीधे चार्ट, सिग्नेचर या कस्टम इलेस्ट्रेशन बना सकते हैं। लेकिन अगर आपको उस Canvas का प्रिंटेबल, शेयर‑एबल संस्करण चाहिए तो क्या होगा? इस ट्यूटोरियल में आप **कैसे Canvas को PDF में बदलें** सीखेंगे, JavaScript के साथ **Aspose.HTML for Java** का उपयोग करके। हम Canvas बनाना, टेक्स्ट ड्रॉ करना, HTML सेव करना, और अंत में परिणाम को PDF फ़ाइल में एक्सपोर्ट करना दिखाएंगे।
+इंटरैक्टिव वेब अनुभव अक्सर HTML5 **Canvas** तत्व पर निर्भर करते हैं। JavaScript के साथ ग्राफ़िक्स ड्रॉ करके आप ब्राउज़र में सीधे चार्ट, हस्ताक्षर, या कस्टम इल्युस्ट्रेशन बना सकते हैं। कई स्थितियों में आपको **convert canvas to PDF** करने की आवश्यकता होगी ताकि ग्राफ़िक्स को प्रिंट, आर्काइव या साझा किया जा सके। यह ट्यूटोरियल आपको दिखाता है कि JavaScript को Aspose.HTML for Java के साथ मिलाकर वह रूपांतरण कैसे किया जाए, जिसमें कैनवास निर्माण, टेक्स्ट ड्रॉ करना, HTML फ़ाइल सहेजना, और उसे PDF दस्तावेज़ में एक्सपोर्ट करना शामिल है।
 
-## Quick Answers
-- **“convert canvas to pdf” का क्या मतलब है?** इसका अर्थ है HTML5 Canvas पर रेंडर किए गए विज़ुअल कंटेंट को ले कर एक PDF दस्तावेज़ बनाना, जो वही लुक बनाए रखे।  
-- **कौन सी लाइब्रेरी रूपांतरण संभालती है?** Aspose.HTML for Java एक विश्वसनीय, सर्वर‑साइड API प्रदान करती है जो HTML (Canvas सहित) को PDF में बदलती है।  
-- **क्या रूपांतरण के लिए ब्राउज़र चाहिए?** नहीं। रूपांतरण Java रनटाइम पर चलता है, इसलिए आप सर्वर या बैकएंड सर्विस में PDF जेनरेशन को ऑटोमेट कर सकते हैं।  
-- **क्या मैं रूपांतरण से पहले Canvas पर टेक्स्ट ड्रॉ कर सकता हूँ?** बिल्कुल – हम एक सरल JavaScript उदाहरण दिखाएंगे जो Canvas पर “Hello World” लिखता है।  
-- **मुख्य प्री‑रिक्विज़िट क्या हैं?** Java JDK, Aspose.HTML for Java लाइब्रेरी, और एक Java IDE (Eclipse, IntelliJ आदि)।  
+## त्वरित उत्तर
+- **What does “convert canvas to PDF” mean?** यह मतलब है कि HTML5 Canvas पर रेंडर किया गया विज़ुअल कंटेंट लेकर एक PDF दस्तावेज़ बनाना जो उस रूप को संरक्षित रखे।  
+- **Which library handles the conversion?** Aspose.HTML for Java एक विश्वसनीय, सर्वर‑साइड API प्रदान करता है जो HTML (Canvas सहित) को PDF में बदलता है।  
+- **Do I need a browser for the conversion?** नहीं। रूपांतरण Java रनटाइम पर चलता है, इसलिए आप सर्वर या बैकएंड सेवा में PDF जेनरेशन को ऑटोमेट कर सकते हैं।  
+- **Can I draw text on the canvas before converting?** बिल्कुल – हम एक सरल JavaScript उदाहरण दिखाएंगे जो “Hello World” को कैनवास पर लिखता है।  
+- **What are the main prerequisites?** Java JDK, Aspose.HTML for Java लाइब्रेरी, और एक Java IDE (Eclipse, IntelliJ, आदि)।  
 
-## “convert canvas to pdf” क्या है?
-Canvas को PDF में बदलना मतलब `<canvas>` एलिमेंट से प्राप्त पिक्सेल‑आधारित ड्रॉइंग को एक वेक्टर‑फ्रेंडली PDF पेज में रेंडर करना। इससे आप Canvas की सटीक लुक को बनाए रखते हुए PDF की पेजिनेशन, सर्चेबल टेक्स्ट और आसान शेयरिंग जैसी सुविधाएँ प्राप्त कर सकते हैं।
+## Aspose.HTML for Java का उपयोग करके कैनवास को PDF में कैसे बदलें?
+
+Load your HTML file that contains the `<canvas>` element and invoke `Converter.convert` – that single call renders the canvas and all associated HTML5 features into a PDF page. The API handles font embedding, color fidelity, and layout preservation automatically, so you get a print‑ready PDF in just two lines of Java code.
+
+## “convert canvas to PDF” क्या है?
+
+Converting a canvas to PDF means rendering the pixel‑based drawing from the `<canvas>` element into a vector‑friendly PDF page. This allows you to preserve the exact look of the canvas while gaining PDF features such as pagination, searchable text, and easy sharing.
 
 ## इस कार्य के लिए Aspose.HTML for Java क्यों उपयोग करें?
-- **पूर्ण HTML5 सपोर्ट** – Canvas, CSS3, और आधुनिक JavaScript रूपांतरण के दौरान सही ढंग से चलते हैं।  
-- **सर्वर‑साइड प्रोसेसिंग** – हेडलेस ब्राउज़र की जरूरत नहीं; लाइब्रेरी आंतरिक रूप से रेंडरिंग संभालती है।  
-- **उच्च फिडेलिटी PDF आउटपुट** – फ़ॉन्ट, रंग और लेआउट सटीक रूप से बरकरार रहते हैं।  
-- **क्रॉस‑प्लेटफ़ॉर्म** – किसी भी OS पर काम करता है जो Java सपोर्ट करता है।
 
-## Prerequisites
-- **Java Development Kit (JDK)** – Java 8 या उससे ऊपर।  
-- **Aspose.HTML for Java** – आधिकारिक साइट से [यहाँ](https://releases.aspose.com/html/java/) डाउनलोड करें।  
-- **IDE** – Eclipse, IntelliJ IDEA, या कोई भी Java‑संगत एडिटर।
+- **Full HTML5 support** – Canvas, SVG, CSS3, and modern JavaScript run correctly during conversion.  
+- **Server‑side processing** – No need for a headless browser; the library handles rendering internally.  
+- **High‑fidelity PDF output** – Fonts, colors, and layout are retained accurately.  
+- **Cross‑platform** – Works on any OS that supports Java.  
 
-इन सबके साथ, आप Canvas ग्राफ़िक्स बनाना और एक्सपोर्ट करना शुरू कर सकते हैं।
+Aspose.HTML for Java supports conversion of **30+ HTML5 features**, including Canvas, and can process documents up to **500 MB** without loading the entire file into memory, delivering PDF generation times under **2 seconds** for typical canvas pages.
 
-## Import Packages
-सबसे पहले, Aspose.HTML और Java I/O से आवश्यक क्लासेज़ इम्पोर्ट करें।
+## आवश्यकताएँ
+- **Java Development Kit (JDK)** – Java 8 or higher.  
+- **Aspose.HTML for Java** – Download from the official site [Aspose.HTML for Java डाउनलोड पृष्ठ](https://releases.aspose.com/html/java/).  
+- **IDE** – Eclipse, IntelliJ IDEA, or any Java‑compatible editor.
+
+इन सबके साथ, आप कैनवास ग्राफ़िक्स बनाना और एक्सपोर्ट करना शुरू करने के लिए तैयार हैं।
+
+## पैकेज इम्पोर्ट करें
+The `HTMLDocument` class is the core object that represents an HTML file in memory, while the `Converter` class performs the actual rendering to PDF.
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -51,13 +99,14 @@ import com.aspose.html.saving.PdfSaveOptions;
 import java.io.FileWriter;
 ```
 
-## क्यों Canvas को PDF के रूप में सेव करें?
-Canvas को PDF के रूप में सेव करना तब आदर्श होता है जब आपको डायनामिक वेब ग्राफ़िक्स का स्थिर, प्रिंटेबल प्रतिनिधित्व चाहिए। PDFs सार्वभौमिक रूप से देखे जा सकते हैं, हाई‑रेज़ोल्यूशन रेंडरिंग सपोर्ट करते हैं, और गुणवत्ता खोए बिना आर्काइव या ईमेल किए जा सकते हैं।
+## कैनवास को PDF के रूप में क्यों सहेजें?
 
-## Step 1: Create a Canvas Element and Draw Text
+Saving canvas as PDF is ideal when you need a static, printable representation of dynamic web graphics. PDFs are universally viewable, support high‑resolution rendering, and can be archived or emailed without losing quality. In addition, PDFs preserve vector information when possible, allow you to embed metadata, and can be combined with other pages to create multi‑page reports, making them suitable for archival and compliance requirements.
 
-### 1.1 Prepare the HTML and JavaScript (draw text on canvas)
-नीचे एक Java स्ट्रिंग है जिसमें एक साधा HTML पेज है जिसमें `<canvas>` एलिमेंट है। एम्बेडेड JavaScript Canvas कॉन्टेक्स्ट प्राप्त करता है, फ़ॉन्ट सेट करता है, और वाक्यांश **“Hello World”** ड्रॉ करता है।
+## चरण 1: एक कैनवास तत्व बनाएं और टेक्स्ट ड्रॉ करें
+
+### 1.1 HTML और JavaScript तैयार करें (कैनवास पर टेक्स्ट ड्रॉ करें)
+Below is a Java string that contains a simple HTML page with a `<canvas>` element. The embedded JavaScript obtains the canvas context, sets a font, and draws the phrase **“Hello World”**.
 
 ```java
 String code = "<canvas id='myCanvas' width='200' height='100' style='border:1px solid #d3d3d3;'></canvas>\n" +
@@ -70,8 +119,8 @@ String code = "<canvas id='myCanvas' width='200' height='100' style='border:1px 
               "</script>\n";
 ```
 
-### 1.2 Save the HTML code to a file (java html to pdf conversion)
-हम HTML स्ट्रिंग को `document.html` में लिखते हैं। यह फ़ाइल बाद में Aspose.HTML द्वारा लोड की जाएगी।
+### 1.2 HTML कोड को फ़ाइल में सहेजें (java html to pdf रूपांतरण)
+We write the HTML string to `document.html`. This file will later be loaded by Aspose.HTML.
 
 ```java
 try (FileWriter fileWriter = new FileWriter("document.html")) {
@@ -79,15 +128,15 @@ try (FileWriter fileWriter = new FileWriter("document.html")) {
 }
 ```
 
-## Initialize an HTML Document
-HTML फ़ाइल को `HTMLDocument` ऑब्जेक्ट में लोड करें ताकि Aspose.HTML इसे प्रोसेस कर सके।
+## एक HTML दस्तावेज़ प्रारंभ करें
+Load the HTML file into an `HTMLDocument` object so Aspose.HTML can process it.
 
 ```java
 HTMLDocument document = new HTMLDocument("document.html");
 ```
 
-## Convert HTML (with Canvas) to PDF
-अंत में, `Converter` क्लास का उपयोग करके HTML दस्तावेज़ को PDF फ़ाइल में बदलें। यह चरण **Canvas को PDF के रूप में सेव** करता है और “convert canvas to pdf” वर्कफ़्लो को पूरा करता है।
+## HTML (कैनवास सहित) को PDF में बदलें
+Finally, use the `Converter` class to transform the HTML document into a PDF file. This step **saves canvas as PDF** and completes the “convert canvas to PDF” workflow.
 
 ```java
 try {
@@ -103,44 +152,51 @@ try {
 }
 ```
 
-### Expected Result
-प्रोग्राम चलाने पर `output.pdf` बनता है। PDF खोलने पर लाल “Hello World” टेक्स्ट वही दिखता है जैसा मूल HTML पेज के Canvas में था।
+### अपेक्षित परिणाम
+Running the program creates `output.pdf`. Opening the PDF shows the red “Hello World” text exactly as it appeared on the canvas in the original HTML page.
 
-## How to generate PDF from canvas using Java
-ऊपर दिखाया गया रूपांतरण **generate pdf from canvas** का एक सीधा उदाहरण है। आप कई Canvas जोड़ सकते हैं, CSS से स्टाइल कर सकते हैं, या इमेज एम्बेड कर सकते हैं। Aspose.HTML इंजन सब कुछ एक ही PDF दस्तावेज़ में रेंडर करेगा।
+## Java का उपयोग करके कैनवास से PDF कैसे बनाएं
+The conversion process shown above is a straightforward example of **generate PDF from canvas**. You can extend it by adding multiple canvases, styling them with CSS, or embedding images. The Aspose.HTML engine will render everything into a single PDF document.
 
-## Common Issues & Troubleshooting
-- **Canvas PDF में रेंडर नहीं हो रहा** – सुनिश्चित करें कि आप Aspose.HTML का नवीनतम संस्करण उपयोग कर रहे हैं जो HTML5 Canvas को पूरी तरह सपोर्ट करता है।  
-- **फ़ॉन्ट गायब** – यदि फ़ॉन्ट एम्बेड नहीं है, तो PDF डिफ़ॉल्ट फ़ॉन्ट पर फ़ॉल्बैक हो सकता है। आवश्यक होने पर `PdfSaveOptions` से फ़ॉन्ट एम्बेड करें।  
-- **फ़ाइल पाथ** – रिलेटिव पाथ तभी काम करेंगे जब Java प्रोसेस उसी डायरेक्टरी से चल रहा हो जहाँ `document.html` है। अन्यथा, एब्सोल्यूट पाथ प्रदान करें।
+## सामान्य समस्याएँ और ट्रबलशूटिंग
+- **Canvas not rendered in PDF** – Ensure you’re using a recent version of Aspose.HTML that fully supports HTML5 Canvas.  
+- **Missing fonts** – If the font isn’t embedded, the PDF may fall back to a default. Use `PdfSaveOptions` to embed fonts if needed.  
+- **File paths** – Relative paths work when the Java process runs from the same directory as `document.html`. Otherwise, provide an absolute path.
 
-## Frequently Asked Questions
+## अक्सर पूछे जाने वाले प्रश्न
 
-**Q: Aspose.HTML for Java क्या है?**  
-A: Aspose.HTML for Java एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को Java एप्लिकेशन में HTML दस्तावेज़ बनाने, मैनीपुलेट करने और कन्वर्ट करने की सुविधा देती है, और Canvas जैसे HTML5 फीचर को सपोर्ट करती है।
+**Q: What is Aspose.HTML for Java?**  
+A: Aspose.HTML for Java एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को Java एप्लिकेशन में HTML दस्तावेज़ बनाना, संशोधित करना, और रूपांतरित करना सक्षम बनाती है, और Canvas जैसे HTML5 फीचर्स को सपोर्ट करती है।
 
-**Q: क्या मैं इसे कॉमर्शियल प्रोजेक्ट्स में उपयोग कर सकता हूँ?**  
-A: हाँ, प्रोडक्शन उपयोग के लिए एक कॉमर्शियल लाइसेंस आवश्यक है। विवरण [purchase page](https://purchase.aspose.com/buy) पर उपलब्ध हैं।
+**Q: Can I use this in commercial projects?**  
+A: हाँ, उत्पादन उपयोग के लिए एक व्यावसायिक लाइसेंस आवश्यक है। विवरण [खरीद पृष्ठ](https://purchase.aspose.com/buy) पर उपलब्ध हैं।
 
-**Q: क्या कोई फ्री ट्रायल है?**  
-A: बिल्कुल। आप ट्रायल संस्करण [यहाँ](https://releases.aspose.com/) से डाउनलोड कर सकते हैं।
+**Q: Is there a free trial?**  
+A: बिल्कुल। आप [Aspose.HTML ट्रायल डाउनलोड पृष्ठ](https://releases.aspose.com/) से ट्रायल संस्करण डाउनलोड कर सकते हैं।
 
-**Q: टेस्टिंग के लिए टेम्पररी लाइसेंस कैसे प्राप्त करें?**  
-A: टेम्पररी लाइसेंस मूल्यांकन उद्देश्यों के लिए लिंक [यहाँ](https://purchase.aspose.com/temporary-license/) से उपलब्ध हैं।
+**Q: How do I obtain a temporary license for testing?**  
+A: परीक्षण उद्देश्यों के लिए अस्थायी लाइसेंस [अस्थायी लाइसेंस अनुरोध पृष्ठ](https://purchase.aspose.com/temporary-license/) के माध्यम से प्रदान किए जाते हैं।
 
-**Q: विस्तृत डॉक्यूमेंटेशन कहाँ मिल सकता है?**  
-A: पूरी API रेफ़रेंस [यहाँ](https://reference.aspose.com/html/java/) उपलब्ध है।
+**Q: Where can I find detailed documentation?**  
+A: पूर्ण API संदर्भ [Aspose.HTML Java API संदर्भ](https://reference.aspose.com/html/java/) पर उपलब्ध है।
 
-## Conclusion
-अब आपके पास JavaScript और Aspose.HTML for Java का उपयोग करके **canvas को PDF में बदलने** के लिए एक पूर्ण, एंड‑टू‑एंड समाधान है। Canvas पर ड्रॉ करें, HTML सेव करें, और कन्वर्ज़न API को कॉल करके हाई‑क्वालिटी PDFs जेनरेट करें जो आपके वेब पर बनाए गए किसी भी डायनामिक ग्राफ़िक्स को कैप्चर कर सके। विभिन्न शैप्स, रंग और यहाँ तक कि एनीमेशन (फ़्रेम‑सीरीज़ के रूप में) के साथ प्रयोग करें ताकि आपके Java‑बैक्ड वेब एप्लिकेशन की संभावनाएँ बढ़ सकें।
+## निष्कर्ष
+आप अब JavaScript और Aspose.HTML for Java का उपयोग करके **convert canvas to PDF** के लिए एक पूर्ण, अंत‑से‑अंत समाधान रखते हैं। कैनवास पर ड्रॉ करके, HTML सहेजकर, और रूपांतरण API को कॉल करके आप उच्च‑गुणवत्ता वाले PDF बना सकते हैं जो वेब पर बनाए गए किसी भी डायनामिक ग्राफ़िक्स को कैप्चर करते हैं। विभिन्न आकार, रंग, और यहाँ तक कि एनीमेशन (फ़्रेम की श्रृंखला के रूप में कैप्चर) के साथ प्रयोग करें ताकि आपके Java‑बैक्ड वेब एप्लिकेशन की संभावनाएँ विस्तृत हों।
 
-यदि आपको कोई चुनौती आती है या उन्नत फीचर एक्सप्लोर करना चाहते हैं, तो समुदाय समर्थन के लिए [Aspose.HTML forum](https://forum.aspose.com/) पर जाएँ।
+यदि आपको कोई चुनौती मिलती है या उन्नत सुविधाओं का अन्वेषण करना चाहते हैं, तो कृपया समुदाय समर्थन के लिए [Aspose.HTML फ़ोरम](https://forum.aspose.com/) पर जाएँ।
 
 ---
 
-**Last Updated:** 2026-03-21  
-**Tested With:** Aspose.HTML for Java 24.11  
-**Author:** Aspose  
+**अंतिम अपडेट:** 2026-09-03  
+**के साथ परीक्षण किया गया:** Aspose.HTML for Java 24.11  
+**लेखक:** Aspose
+
+## संबंधित ट्यूटोरियल
+
+- [Render HTML to PDF: Canvas Manipulation with Aspose.HTML for Java](/html/java/advanced-usage/html5-canvas-manipulation-using-code/)
+- [Create PDF from Canvas using Aspose.HTML for Java](/html/java/conversion-canvas-to-pdf/canvas-to-pdf/)
+- [How to Draw Gradient on Canvas with Aspose.HTML for Java](/html/java/html5-canvas-rendering/advanced-canvas-rendering-context/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

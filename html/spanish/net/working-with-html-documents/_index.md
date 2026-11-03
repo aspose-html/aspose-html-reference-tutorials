@@ -26,20 +26,63 @@ Antes de profundizar en los detalles de la creación y edición de documentos HT
 
 ### [Creación de un documento en .NET con Aspose.HTML](./creating-a-document/)
 
-El primer paso de nuestro recorrido es aprender a crear documentos HTML desde cero o a partir de URL utilizando Aspose.HTML. Te guiaremos a lo largo del proceso, asegurándonos de que incluso los principiantes puedan seguirlo. Al finalizar esta sección, tendrás las habilidades necesarias para generar documentos HTML sin esfuerzo.
-
 ### [Creación de un documento sencillo en .NET con Aspose.HTML](./creating-a-simple-document/)
-
-Una vez que haya comprendido los conceptos básicos, profundizaremos en el proceso de creación. En esta sección, aprenderá a crear documentos HTML simples con Aspose.HTML y exploraremos varias funciones que permiten una fácil manipulación. Ya sea que esté creando una página web, generando contenido o convirtiendo datos a HTML, este tutorial le brindará los conocimientos necesarios.
 
 ### [Edición de un documento en .NET con Aspose.HTML](./editing-a-document/)
 
-Ahora, llevemos tus habilidades al siguiente nivel. Editar documentos HTML es una tarea común para los desarrolladores web, y Aspose.HTML simplifica este proceso significativamente. En esta sección, cubriremos la creación, manipulación y estilo de documentos. Descubrirás cómo mejorar la apariencia y la funcionalidad de tu contenido web, haciéndolo atractivo y fácil de usar.
-
 ### [Cómo guardar HTML en C# – Guía completa usando un controlador de recursos personalizado](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
+### [Cómo guardar HTML en C# con controlador de recursos personalizado](./how-to-save-html-in-c-with-custom-resource-handler/)
+
+Aprenda a guardar HTML en C# utilizando un controlador de recursos personalizado de forma sencilla y eficaz.
+### [Cómo guardar HTML con Aspose – Guía completa de C#](./how-to-save-html-with-aspose-complete-c-guide/)
+Aprenda a guardar archivos HTML usando Aspose en C# con esta guía paso a paso.
+### [Cómo guardar HTML en C# – Guía completa paso a paso](./how-to-save-html-in-c-complete-step-by-step-guide/)
+Aprenda a guardar archivos HTML en C# con una guía detallada paso a paso.
+
+### [Cómo guardar HTML – Guía completa de Aspose HTMLDocument](./how-to-save-html-aspose-htmldocument-complete-guide/)
+Aprenda a guardar documentos HTML usando Aspose.HTMLDocument con una guía paso a paso.
+### [Cómo guardar HTML en C# – Guía completa con almacenamiento de salida personalizado](./how-to-save-html-in-c-complete-guide-with-custom-output-stor/)
+
+Aprenda a guardar contenido HTML en C# utilizando un almacenamiento de salida personalizado para mayor flexibilidad.
+
 ### [Cómo poner en negrita un encabezado con CSS y C# – Guía completa paso a paso](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+### [Crear archivo Zip para HTML – Guía completa en C#](./create-zip-archive-for-html-complete-c-guide/)
 
 Aprenda a aplicar estilo negrita a encabezados usando CSS y C# con este tutorial detallado.
+### [Cómo guardar HTML en C# – Controladores de recursos personalizados y ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
+
+Aprenda a guardar documentos HTML en C# usando controladores de recursos personalizados y empaquetarlos en archivos ZIP.
+
+### [Cómo guardar HTML con Aspose.Html – Guía completa en C#](./how-to-save-html-with-aspose-html-complete-c-guide/)
+
+### [Guardar HTML como ZIP en C# – Guía completa con controlador de recursos personalizado](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
+
+Aprenda a comprimir documentos HTML en archivos ZIP y guardarlos usando un controlador de recursos personalizado en C#.
+
+### [Cómo comprimir HTML en C# – Guía completa para crear archivo ZIP](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
+Aprenda a crear archivos ZIP de contenido HTML usando C# con esta guía paso a paso.
+
+### [Crear documento HTML en C# – Guía completa con controlador de recursos personalizado](./create-html-document-c-complete-guide-with-custom-resource-h/)
+Aprenda a crear documentos HTML en C# usando un controlador de recursos personalizado en esta guía completa.
+
+### [Crear HTML a partir de una cadena en C# – Guía paso a paso](./create-html-from-string-in-c-step-by-step-guide/)
+
+Aprenda a generar documentos HTML directamente desde una cadena en C# con este tutorial detallado.
+
+### [Cargar documento HTML con Aspose.HTML – Guía completa en C#](./load-html-document-with-aspose-html-complete-c-guide/)
+
+### [Cómo comprimir HTML en C# – Guía completa paso a paso](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+
+Aprenda a comprimir archivos HTML en C# usando Aspose.HTML con esta guía paso a paso.
+
+### [Crear HTML a partir de una cadena en C# – Guía completa con Memory Stream](./create-html-from-string-in-c-full-guide-with-memory-stream/)
+
+### [Guardar HTML en Zip – Guía completa de C# para archivos en memoria](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
+
+### [Crear documento HTML en memoria con Aspose.HTML – Guía completa](./create-in-memory-html-document-with-aspose-html-complete-gui/)
+Aprenda a generar documentos HTML completamente en memoria usando Aspose.HTML sin necesidad de archivos físicos.
+
+### [Cargar cadena HTML en C# – Guía completa con controlador personalizado](./load-html-string-in-c-complete-guide-with-custom-handler/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
