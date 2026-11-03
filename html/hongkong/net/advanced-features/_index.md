@@ -34,18 +34,36 @@ Aspose.HTML for .NET 是一個功能強大的工具，可讓開發人員以程�
 了解如何使用 Aspose.HTML 在 .NET 中建立令人驚嘆的 HTML 文件。遵循我們的分步教程並釋放 HTML 操作的力量。
 ### [在 C# 中建立記憶體串流 – 自訂串流建立指南](./create-memory-stream-c-custom-stream-creation-guide/)
 了解如何在 C# 中使用 Aspose.HTML 建立自訂記憶體串流，以提升 HTML 處理效能。
+### [在 C# 中使用自訂資源處理程式將 HTML 儲存為 ZIP](./save-html-as-zip-with-a-custom-resource-handler-in-c/)
+學習如何在 C# 中使用自訂資源處理程式，將 HTML 內容打包為 ZIP 檔案。
 ### [使用 Aspose.HTML 在 .NET 中進行網頁抓取](./web-scraping/)
 學習使用 Aspose.HTML 操作 .NET 中的 HTML 文件。有效地導航、過濾、查詢和選擇元素以增強 Web 開發。
 ### [將 .NET 中的擴充內容屬性與 Aspose.HTML 結合使用](./use-extended-content-property/)
 了解如何使用 Aspose.HTML for .NET 建立動態 Web 內容。我們的教程涵蓋了針對初學者的先決條件、逐步說明和常見問題解答。
 ### [使用 Aspose.HTML 在 .NET 中透過 PdfDevice 產生加密 PDF](./generate-encrypted-pdf-by-pdfdevice/)
 使用 Aspose.HTML for .NET 將 HTML 動態轉換為 PDF。輕鬆整合、可自訂選項和強大的效能。
+### [在 C# 中將文件儲存為 PDF – 完整指南（支援 ZIP）](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
+了解如何使用 Aspose.HTML 在 C# 中將 HTML 轉換為 PDF，並支援將 PDF 打包為 ZIP 檔案的完整步驟指南。
 ### [使用 Aspose.HTML 微調 .NET 中的轉換器](./fine-tuning-converters/)
 了解如何使用 Aspose.HTML for .NET 將 HTML 轉換為 PDF、XPS 和映像。包含程式碼範例和常見問題的逐步教學。
 ### [在 .NET 中透過 Aspose.HTML 使用 HTML 模板](./using-html-templates/)
 了解如何使用 Aspose.HTML for .NET 從 JSON 資料動態產生 HTML 文件。在 .NET 應用程式中利用 HTML 操作的強大功能。
 ### [如何在 C# 中以程式方式合併字型 – 步驟指南](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
 本指南逐步說明如何在 C# 中使用程式碼合併多個字型檔案，打造自訂字型資源。
+### [在 C# 中取得組件版本 – 快速指南取得程式庫版本](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
+了解如何在 C# 中使用程式碼取得組件的版本資訊，快速掌握庫版本檢查方法。
+### [Aspose HTML 中的自訂資源處理程式 – 儲存至串流指南](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
+說明如何在 Aspose HTML 中實作自訂資源處理程式，將資源直接儲存至串流。
+### [使用 Aspose HTML 壓縮 HTML – 完整指南](./how-to-zip-html-with-aspose-html-complete-guide/)
+了解如何使用 Aspose.HTML 將 HTML 文件壓縮為 ZIP 檔案，提供完整步驟與範例。
+### [如何在 .NET 中啟用 Clear Type – 啟用平滑模式](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
+了解如何在 .NET 應用程式中啟用 Clear Type 及平滑模式，以提升文字渲染品質。
+### [將 Word 文件轉換為 PDF – 純文字指南（C#）](./convert-word-document-to-pdf-clear-text-guide-c/)
+了解如何使用 Aspose.HTML 在 C# 中將 Word 文件轉換為 PDF，保持純文字內容的完整性。
+### [使用 C# 將 HTML 儲存為 ZIP – 使用 Aspose 建立 ZIP 壓縮檔](./save-html-to-zip-with-c-create-zip-archive-c-using-aspose/)
+了解如何使用 Aspose.HTML 在 C# 中將 HTML 文件壓縮為 ZIP 檔案，並示範建立與管理壓縮檔的步驟。
+### [在 C# 中建立粗斜體字型 – 步驟指南](./create-bold-italic-font-in-c-step-by-step-guide/)
+本指南逐步說明如何在 C# 中建立粗斜體字型，以提升字型樣式的呈現。
 
 ## 結論
 
