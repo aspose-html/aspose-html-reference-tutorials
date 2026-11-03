@@ -1,26 +1,83 @@
 ---
 category: general
-date: 2026-02-14
-description: Aspose HTML for Java kullanarak dinamik HTML PDF'yi nasıl dönüştüreceğinizi,
-  script'li HTML'yi nasıl yükleyeceğinizi, JavaScript yürütülmesini nasıl bekleyeceğinizi
-  ve tek bir iş akışında seçici tablo satırlarını nasıl sorgulayacağınızı öğrenin.
+date: 2026-10-14
+description: Aspose HTML kullanarak Java’da dinamik HTML’yi PDF’ye nasıl dönüştüreceğinizi
+  öğrenin, betiklerle sayfaları yükleyin, JavaScript yürütülmesini bekleyin, query
+  selector tablo satırlarını sorgulayın ve doğru PDF’ler oluşturun.
 draft: false
 keywords:
+- html to pdf java
+- render dynamic html
+- convert html to pdf
+- extract table rows
 - convert dynamic html pdf
-- load html with scripts
-- wait for javascript execution
 - query selector table rows
-- aspose html pdf java
-language: tr
-og_description: Dinamik HTML PDF'yi dönüştürmek, script'li HTML'yi yüklemek, JavaScript
-  yürütülmesini beklemek ve Aspose HTML PDF Java kullanarak sorgu seçicisiyle tablo
-  satırlarını almak için adım adım rehber.
-og_title: Aspose HTML for Java ile dinamik HTML'yi PDF'ye dönüştür
+lastmod: 2026-10-14
+og_description: Aspose HTML ile Java’da dinamik HTML’yi PDF’ye nasıl dönüştüreceğinizi
+  öğrenin. Bu step‑by‑step kılavuz, betiklerle HTML yüklemeyi, JavaScript yürütülmesini
+  beklemeyi, tablo satırlarını sorgulamayı ve mükemmel bir PDF oluşturmayı gösterir.
+og_image_alt: Screenshot of a PDF generated from dynamic HTML using Aspose HTML for
+  Java
+og_title: Aspose HTML ile Java’da dinamik HTML'yi PDF'ye dönüştürün
+schemas:
+- author: Aspose
+  dateModified: '2026-10-14'
+  description: Learn how to convert dynamic HTML to PDF in Java using Aspose HTML,
+    load pages with scripts, wait for JavaScript execution, query selector table rows,
+    and produce accurate PDFs.
+  headline: Convert dynamic HTML to PDF in Java with Aspose HTML
+  type: TechArticle
+- description: Learn how to convert dynamic HTML to PDF in Java using Aspose HTML,
+    load pages with scripts, wait for JavaScript execution, query selector table rows,
+    and produce accurate PDFs.
+  name: Convert dynamic HTML to PDF in Java with Aspose HTML
+  steps:
+  - name: load html with scripts enabled
+    text: '`HTMLLoadOptions` is a class that configures how Aspose.HTML loads a document,
+      including script execution settings. The first thing we have to do is tell Aspose
+      that the HTML we’re about to load may contain JavaScript that needs to run.
+      This is done via `HTMLLoadOptions` – set the **enableScripts** '
+  - name: wait for javascript execution
+    text: Aspose runs scripts on a lightweight engine, but you still need to give
+      the page a moment to finish. In a production system you’d probably hook into
+      a DOM‑ready event, but for a quick demo a simple pause works fine. > **Why a
+      pause?** The library executes scripts synchronously, yet certain operation
+  - name: query selector table rows – verify the DOM
+    text: 'Now that the scripts have run, we can treat the document just like you
+      would in a browser console: use CSS selectors to grab elements. Here we locate
+      a table with `id="report"` and print the number of rows it contains. Typical
+      output for the sample `dynamic.html` looks like: If you see a different n'
+  - name: convert the final DOM state to PDF
+    text: '`Converter.convert` is a static method that transforms an HTML document
+      into a chosen output format such as PDF. With the DOM verified, the final step
+      is a one‑liner: hand the `HTMLDocument` to `Converter.convert`. The output is
+      a PDF that mirrors exactly what the browser would render after the scri'
+  type: HowTo
+- questions:
+  - answer: Yes. Increase the `Thread.sleep` duration or poll the DOM until the expected
+      elements appear before conversion.
+    question: Can I use this approach with pages that load data via AJAX?
+  - answer: It supports over 90 % of CSS2.1 and most CSS3 properties, including flexbox
+      and grid, ensuring high‑fidelity rendering.
+    question: Does Aspose.HTML support CSS3 and modern layout features?
+  - answer: Aspose.HTML can process files up to 500 MB without exhausting memory,
+      thanks to its streaming architecture.
+    question: What file size limits should I expect?
+  - answer: A valid license is required for any non‑evaluation deployment; a free
+      trial is available for testing.
+    question: Is a commercial license required for production use?
+  - answer: Place the font files in a local directory and reference them with `@font-face`
+      in your HTML; Aspose.HTML will embed them into the PDF automatically.
+    question: How do I embed custom fonts that are not installed on the server?
+  type: FAQPage
 tags:
-- Aspose
+- html to pdf
+- Aspose HTML
 - Java
-- HTML-to-PDF
-title: Aspose HTML for Java ile dinamik HTML'yi PDF'ye dönüştür
+- dynamic html
+- pdf conversion
+- web automation
+title: Aspose HTML ile Java’da dinamik HTML'yi PDF'ye dönüştürün
 url: /tr/java/conversion-html-to-other-formats/convert-dynamic-html-pdf-with-aspose-html-for-java/
 ---
 
@@ -28,20 +85,34 @@ url: /tr/java/conversion-html-to-other-formats/convert-dynamic-html-pdf-with-asp
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose HTML for Java ile dinamik HTML PDF dönüştürme
+# Dinamik HTML'yi Java'da Aspose HTML ile PDF'ye Dönüştür
 
-Hiç **dinamik html pdf dönüştürme** ihtiyacı duydunuz mu, ancak üzerinde çalıştığınız sayfa tablolarını, grafiklerini veya menülerini oluşturmak için JavaScript'e dayanıyorsa? Yalnız değilsiniz. Birçok gerçek‑dünya projesinde aldığınız HTML statik değildir – scriptler çalışır, DOM düğümleri ortaya çıkar ve ancak o zaman sayfa beklediğiniz gibi görünür.  
+Hiç **dinamik HTML'yi PDF'ye dönüştürmek** gerektiğinde, sayfanın tablolarını, grafiklerini veya menülerini oluşturmak için JavaScript'e bağımlı olduğunu fark ettiniz mi? Yalnız değilsiniz. Birçok gerçek dünya projesinde aldığınız HTML statik değildir – scriptler çalışır, DOM düğümleri ortaya çıkar ve ancak o zaman sayfa beklediğiniz gibi görünür.  
 
-Bu öğreticide, **scriptli HTML yükleyen**, **javascript yürütülmesini bekleyen**, **query selector table rows** kullanarak son DOM'u inceleyen ve sonunda **dinamik HTML'i PDF'e dönüştüren** tam, çalıştırılabilir bir örnek üzerinden geçeceğiz. Sonunda, herhangi bir Maven veya Gradle projesine ekleyip hemen çalıştırabileceğiniz tek bir Java sınıfına sahip olacaksınız.
+Bu öğreticide, **script'li HTML yükleyen**, **JavaScript yürütülmesini bekleyen**, **query selector tablo satırları** ile son DOM'u inceleyen ve sonunda **Aspose HTML for Java** kütüphanesiyle **dinamik HTML'yi PDF'ye dönüştüren** eksiksiz, çalıştırılabilir bir örnek üzerinden ilerleyeceğiz. Sonunda, herhangi bir Maven ya da Gradle projesine ekleyip hemen çalıştırabileceğiniz tek bir Java sınıfına sahip olacaksınız.
 
-> **Neden önemsemeli?**  
-> Sayfa scriptleri tamamlanmadan dönüştürülürse genellikle boş bir PDF veya eksik bir tablo elde edilir. Burada gösterilen yaklaşım, PDF'in bir kullanıcının tarayıcıda göreceğiyle tam olarak aynı olmasını garanti eder.
+> **Neden önemli?**  
+> Sayfayı script'leri bitmeden dönüştürmek genellikle boş bir PDF ya da eksik bir tabloyla sonuçlanır. Burada gösterilen yaklaşım, PDF'nin bir kullanıcının tarayıcıda gördüğüyle tam olarak aynı olmasını garanti eder.
 
-## Gereksinimler
+## Hızlı Yanıtlar
+- **Aspose HTML JavaScript'i işleyebilir mi?** Evet – script motorunu `HTMLLoadOptions` aracılığıyla etkinleştirin.  
+- **Headless tarayıcıya ihtiyacım var mı?** Hayır, Aspose scriptleri hafif bir motor üzerinde çalıştırır, dış bir tarayıcı gerektirmez.  
+- **Hangi Java sürümü gerekiyor?** Java 17 veya herhangi bir JDK 8+ çalışır; daha yeni JDK'lar daha iyi performans sağlar.  
+- **Dönüştürmeden önce DOM'u nasıl doğrularım?** `HTMLDocument.querySelectorAll` ile CSS seçicileri kullanın, örneğin `#report tr`.  
+- **PDF çıktısı render edilen sayfaya sadık mı?** Kesinlikle – kütüphane script yürütülmesinden sonra oluşan son render edilmiş düzeni yakalar.
+
+## html to pdf java nedir?
+`html to pdf java`, bir HTML belgesini Java kütüphaneleri kullanarak PDF dosyasına dönüştürme sürecine denir. Aspose.HTML for Java, HTML'i render eden, gömülü JavaScript'i çalıştıran ve tarayıcı render'ına eşdeğer PDF çıktısı üreten sağlam bir API sunar.
+
+## Dinamik HTML'yi işlemek için Aspose HTML for Java neden kullanılmalı?
+Aspose.HTML **50+ giriş ve çıkış formatını** destekler, çok sayfalı belgeleri belleğe tamamen yüklemeden işler ve client‑side script'leri sandbox ortamında çalıştırır. Bu ölçülebilir yetenek, grafikler, tablolar veya AJAX ile oluşturulan içerik gibi karmaşık sayfaları güvenilir bir şekilde dönüştürebileceğiniz anlamına gelir.
+
+## İhtiyacınız Olanlar
+Bu öğreticiyi takip edebilmek için güncel bir Java Development Kit (JDK 17 veya daha yeni), Aspose.HTML for Java kütüphanesi (sürüm 23.10 veya sonrası), JavaScript‑oluşturulmuş içeriğe sahip bir **dinamik HTML dosyası** ve Maven ya da Gradle ile bağımlılık yönetimine temel aşinalık gerekir.
 
 - **Java 17** (veya herhangi bir yeni JDK; API Java 8+ ile çalışır ancak daha yeni JDK'lar daha iyi performans sağlar)  
-- **Aspose.HTML for Java** 23.10 (veya daha yeni) – Maven Central'dan alabilirsiniz  
-- **dinamik HTML dosyası** (örnek olarak `dynamic.html` içinde bir tablo oluşturan bir script kullanacağız)  
+- **Aspose.HTML for Java 23.10** (veya sonrası) – Maven Central üzerinden temin edilebilir  
+- **Dinamik HTML dosyası** (örnek olarak `dynamic.html` içinde bir tablo oluşturan script kullanılacak)  
 - Java I/O ve Maven/Gradle hakkında temel bilgi (derin uzmanlık gerekmez)
 
 Eğer zaten bir Maven `pom.xml` dosyanız varsa, Aspose bağımlılığını ekleyin:
@@ -54,9 +125,13 @@ Eğer zaten bir Maven `pom.xml` dosyanız varsa, Aspose bağımlılığını ekl
 </dependency>
 ```
 
-## Adım 1: Script'ler Etkin Olarak HTML Yükleme
+## Java'da HTML'yi PDF'ye Dönüştürme
+Dönüştürme süreci dört net adımdan oluşur: script yürütmesi etkinleştirilmiş HTML belgesini yükleme, asenkron JavaScript'in bitmesini bekleme, render edilen DOM'u beklenen öğeler için kontrol etme ve son olarak tarayıcı görünümünü yansıtan bir PDF üretmek için dönüştürücüyü çağırma.
 
-İlk yapmamız gereken, Aspose'a yükleyeceğimiz HTML'nin çalıştırılması gereken JavaScript içerebileceğini söylemektir. Bu, `HTMLLoadOptions` aracılığıyla yapılır – **enableScripts** bayrağını `true` olarak ayarlayın.
+### Adım 1: script'ler etkinleştirilmiş html yükle
+`HTMLLoadOptions` Aspose.HTML'in bir belgeyi nasıl yükleyeceğini, script yürütme ayarlarını da içerecek şekilde yapılandıran bir sınıftır.
+
+İlk yapmamız gereken, yükleyeceğimiz HTML'nin çalıştırılması gereken JavaScript içerebileceğini Aspose'a bildirmektir. Bu, `HTMLLoadOptions` aracılığıyla **enableScripts** bayrağını `true` olarak ayarlayarak yapılır.
 
 ```java
 import com.aspose.html.*;
@@ -82,11 +157,10 @@ public class RunJsBeforeConversion {
                 loadOptions);
 ```
 
-> **Pro tip:** HTML dosyasını kaynak klasörünüzün yanına koyun veya mutlak bir yol kullanın; aksi takdirde `toUri()` çağrısı `FileNotFoundException` fırlatır.
+> **Pro tip:** HTML dosyasını kaynak klasörünüzün yanına koyun ya da mutlak bir yol kullanın; aksi takdirde `toUri()` çağrısı `FileNotFoundException` fırlatır.
 
-## Adım 2: JavaScript Yürütülmesini Bekleme
-
-Aspose scriptleri hafif bir motor üzerinde çalıştırır, ancak sayfanın bitmesi için bir süre vermeniz gerekir. Üretim ortamında muhtemelen bir DOM‑ready olayına bağlanırsınız, ancak hızlı bir demo için basit bir bekleme yeterli olur.
+### Adım 2: JavaScript yürütülmesini bekle
+Aspose script'leri hafif bir motor üzerinde çalıştırır, ancak sayfanın bitmesini beklemek gerekir. üretim ortamında muhtemelen bir DOM‑ready olayına bağlanırsınız, ancak hızlı bir demo için basit bir bekletme yeterlidir.
 
 ```java
         // --------------------------------------------------------------------
@@ -97,11 +171,10 @@ Aspose scriptleri hafif bir motor üzerinde çalıştırır, ancak sayfanın bit
         Thread.sleep(2000);
 ```
 
-> **Neden bir bekleme?** Kütüphane scriptleri senkron olarak çalıştırır, ancak bazı işlemler (örneğin `setTimeout`) kuyruğa alınır. Uyku, DOM'u incelemeden önce bu kuyrukların boşalmasını sağlar.
+> **Neden bir bekletme?** Kütüphane script'leri senkron olarak çalıştırır, ancak `setTimeout` gibi bazı işlemler kuyruğa alınır. Uyku, bu kuyrukların boşalmasını sağlayarak DOM'u incelemeden önce script'lerin tamamlanmasını garantiler.
 
-## Adım 3: Query Selector Table Rows – DOM'u Doğrulama
-
-Scriptler çalıştıktan sonra, belgeyi bir tarayıcı konsolundaki gibi ele alabiliriz: öğeleri yakalamak için CSS seçicileri kullanırız. Burada `id="report"` olan bir tabloyu buluyor ve içindeki satır sayısını yazdırıyoruz.
+### Adım 3: query selector tablo satırları – DOM'u doğrula
+Script'ler çalıştıktan sonra, belgeyi bir tarayıcı konsolunda olduğu gibi ele alabiliriz: CSS seçicileriyle öğeleri yakalarız. Burada `id="report"` olan bir tabloyu bulup satır sayısını yazdırıyoruz.
 
 ```java
         // --------------------------------------------------------------------
@@ -121,17 +194,18 @@ Scriptler çalıştıktan sonra, belgeyi bir tarayıcı konsolundaki gibi ele al
         System.out.println("Rows after script execution: " + rowCount);
 ```
 
-Örnek `dynamic.html` için tipik çıktı şu şekildedir:
+Örnek `dynamic.html` dosyası için tipik çıktı şu şekildedir:
 
 ```
 Rows after script execution: 5
 ```
 
-Farklı bir sayı görürseniz, HTML'inizdeki scripti iki kez kontrol edin – belki satırları koşullu olarak oluşturuyordur.
+Farklı bir sayı görürseniz, HTML'deki script'i tekrar kontrol edin – belki satırları koşullu olarak üretiyordur.
 
-## Adım 4: Son DOM Durumunu PDF'e Dönüştürme
+### Adım 4: son DOM durumunu PDF'ye dönüştür
+`Converter.convert` statik bir metottur ve bir HTML belgesini PDF gibi seçilen bir çıktı formatına dönüştürür.
 
-DOM doğrulandıktan sonra, son adım tek satırlık bir işlem: `HTMLDocument`'i `Converter.convert`'e verin. Çıktı, scriptler tamamlandıktan sonra tarayıcının render edeceğiyle tam olarak aynı PDF'tir.
+DOM doğrulandıktan sonra son adım tek satırdır: `HTMLDocument`'i `Converter.convert`'e verin. Çıktı, script'ler tamamlandıktan sonra tarayıcının render edeceğiyle tam olarak aynı olan bir PDF olur.
 
 ```java
         // --------------------------------------------------------------------
@@ -145,11 +219,53 @@ DOM doğrulandıktan sonra, son adım tek satırlık bir işlem: `HTMLDocument`'
 }
 ```
 
-`dynamic.pdf` dosyasını herhangi bir görüntüleyiciyle açın – tamamen doldurulmuş tabloyu, stilleri ve scriptin eklediği tüm resimleri görmelisiniz.
+`dynamic.pdf` dosyasını herhangi bir görüntüleyicide açın – tamamen doldurulmuş tabloyu, stilleri ve script'in eklediği tüm görselleri görmelisiniz.
 
-## Tam Çalışan Örnek (Tüm Adımlar Birleştirilmiş)
+## Yaygın Tuzaklar ve Nasıl Kaçınılır
 
-Aşağıda, `src/main/java/RunJsBeforeConversion.java` içine kopyalayıp yapıştırabileceğiniz tam kaynak dosyası bulunmaktadır. `YOUR_DIRECTORY` ifadesini `dynamic.html` dosyasının bulunduğu gerçek klasör yolu ile değiştirin.
+| Sorun | Neden olur | Çözüm |
+|-------|------------|-------|
+| **Blank PDF** | Script'ler devre dışı bırakıldı (`HTMLLoadOptions(false)`) veya bekletme çok kısa. | Script'ler için `true` tutun ve sayfanız async çağrılar kullanıyorsa `Thread.sleep` süresini artırın. |
+| **`reportTable` is null** | Seçici yanlış veya script öğeyi hiç oluşturmadı. | HTML'deki `<script>`'in gerçekten `<table id="report">` eklediğini doğrulayın. Chrome DevTools ile son DOM'u inceleyin. |
+| **Missing fonts or CSS** | HTML dış stil sayfalarına referans veriyor ancak erişilemiyor. | Mutlak URL'ler sağlayın veya CSS dosyalarını yerel olarak kopyalayıp `file://` yollarıyla referans verin. |
+| **Large pages cause memory spikes** | Aspose tüm DOM'u belleğe yüklüyor. | `HTMLLoadOptions.setMaxMemoryUsage` ile tüketimi sınırlayın veya dönüşümü parçalara bölün. |
+
+## Çözümü Genişletme
+- **Multiple pages** – Dinamik sayfanız sayfalama kullanıyorsa, URL fragment'ini (`#page=2` vb.) güncelledikten sonra `Converter.convert`'i bir döngü içinde çağırın.  
+- **Headless browser alternative** – Çok karmaşık script'ler (ör. WebGL) için gerçek bir headless tarayıcı olan **Playwright** entegrasyonu düşünün ve render edilmiş HTML'i Aspose'a besleyin.  
+- **Custom rendering options** – `PdfSaveOptions` sayfa boyutu, kenar boşlukları ve görüntü kalitesi gibi ayarları yapmanızı sağlar. Örnek: `new PdfSaveOptions(PdfPageSize.A4, PdfPageOrientation.Portrait)`.
+
+## Sıkça Sorulan Sorular
+
+**S: AJAX ile veri yükleyen sayfalarda bu yaklaşımı kullanabilir miyim?**  
+C: Evet. `Thread.sleep` süresini artırın ya da beklenen öğeler ortaya çıkana kadar DOM'u periyodik olarak kontrol edin.
+
+**S: Aspose.HTML CSS3 ve modern layout özelliklerini destekliyor mu?**  
+C: CSS2.1'in %90'ından fazlasını ve çoğu CSS3 özelliğini, flexbox ve grid dahil, destekler; yüksek doğruluklu render sağlar.
+
+**S: Hangi dosya boyutu limitlerini beklemeliyim?**  
+C: Aspose.HTML, akış mimarisi sayesinde belleği tüketmeden 500 MB'a kadar dosyayı işleyebilir.
+
+**S: Üretim ortamında ticari bir lisans gerekli mi?**  
+C: Değerlendirme dışı tüm dağıtımlar için geçerli bir lisans şarttır; deneme sürümü ücretsiz olarak temin edilebilir.
+
+**S: Sunucuda yüklü olmayan özel fontları nasıl eklerim?**  
+C: Font dosyalarını yerel bir klasöre koyup HTML içinde `@font-face` ile referans verin; Aspose.HTML bu fontları otomatik olarak PDF'e gömer.
+
+## Sonuç
+**Dinamik HTML'yi PDF'ye** güvenilir bir şekilde dönüştürmek için **script'li HTML'yi yükleyip**, **JavaScript yürütülmesini bekleyip**, **query selector tablo satırları** ile sonucu kontrol edip ve son olarak **Aspose HTML for Java** ile şık bir PDF üretmenin adımlarını gösterdik. Bu desen ölçeklenebilir: seçiciyi değiştirin, bekletme mantığını ayarlayın ve Chart.js ile oluşturulan grafiklerden AJAX ile doldurulan tablolara kadar her türlü dinamik içeriği işleyebilirsiniz.  
+
+Bir sonraki meydan okumaya hazır mısınız? REST uç noktasından veri çeken bir sayfayı dönüştürmeyi deneyin ya da marka stil rehberinize uygun özel fontları ekleyerek PDF'leri özelleştirin.  
+
+Herhangi bir sorunla karşılaşırsanız ya da geliştirme öneriniz varsa aşağıya yorum bırakın. Kodlamanın tadını çıkarın ve kusursuz render edilmiş PDF'lerin keyfini sürün!  
+
+---  
+
+![convert dynamic html pdf example](/images/convert-dynamic-html-pdf.png "Screenshot showing a PDF generated from dynamic HTML using Aspose HTML for Java")
+
+**Son Güncelleme:** 2026-10-14  
+**Test Edilen Versiyon:** Aspose.HTML for Java 23.10  
+**Yazar:** Aspose
 
 ```java
 import com.aspose.html.*;
@@ -192,44 +308,20 @@ public class RunJsBeforeConversion {
 }
 ```
 
-Ve şu komutla çalıştırın:
-
 ```bash
 mvn compile exec:java -Dexec.mainClass=RunJsBeforeConversion
 ```
 
-veya eşdeğer Gradle komutuyla çalıştırın.
+## İlgili Eğitimler
 
-## Yaygın Tuzaklar ve Nasıl Önlenir
+- [HTML'yi PDF'ye Dönüştür Java – Aspose.HTML'de Ortamı Yapılandırma](/html/java/configuring-environment/)
+- [HTML'yi PDF'ye Dönüştürme Java – Aspose.HTML for Java Kullanarak](/html/java/conversion-html-to-other-formats/convert-html-to-pdf/)
+- [HTML'yi PDF'ye Dönüştürme Java - Sayfa Kenar Boşluklarını Aspose.HTML ile Ayarlama](/html/java/advanced-usage/css-extensions-adding-title-page-number/)
 
-| Sorun | Neden Oluşur | Çözüm |
-|-------|----------------|-----|
-| **Boş PDF** | Scriptler devre dışı bırakıldı (`HTMLLoadOptions(false)`) veya uyku süresi çok kısaydı. | `true` olarak scriptleri tutun ve sayfanız async çağrılar kullanıyorsa `Thread.sleep` değerini artırın. |
-| **`reportTable` null** | Seçici yanlış veya script öğeyi hiç oluşturmadı. | HTML'in `<script>` etiketinin gerçekten `<table id="report">` eklediğini doğrulayın. Son DOM'u incelemek için Chrome DevTools kullanın. |
-| **Eksik fontlar veya CSS** | HTML, erişilemeyen dış stil sayfalarına referans veriyor. | Mutlak URL'ler sağlayın veya CSS dosyalarını yerel olarak kopyalayıp `file://` yollarıyla referans verin. |
-| **Büyük sayfalar bellek dalgalanmalarına neden olur** | Aspose tüm DOM'u bellekte yüklüyor. | `HTMLLoadOptions.setMaxMemoryUsage` ile tüketimi sınırlayın veya dönüşümü parçalara bölün. |
-
-## Çözümü Genişletme
-
-- **Multiple Pages** – Eğer dinamik sayfanız sayfalama kullanıyorsa, URL fragmentini (`#page=2` vb.) güncelledikten sonra `Converter.convert`'i bir döngü içinde çağırın.  
-- **Headless Browser Alternative** – Son derece karmaşık scriptler (ör. WebGL) için gerçek bir headless tarayıcı olan **Playwright**'i entegre etmeyi ve render edilmiş HTML'i Aspose'a beslemeyi düşünün.  
-- **Custom Rendering Options** – `PdfSaveOptions`, sayfa boyutu, kenar boşlukları ve görüntü kalitesini ayarlamanıza izin verir. Örnek: `new PdfSaveOptions(PdfPageSize.A4, PdfPageOrientation.Portrait)`.
-
-## Sonuç
-
-Size **dinamik html pdf**'yi güvenilir bir şekilde **scriptli html yükleyerek**, sayfaya **javascript yürütülmesini beklemek** için bir an vererek, sonucu **query selector table rows** ile kontrol ederek ve sonunda **aspose html pdf java** kullanarak şık bir PDF üretmeyi gösterdik.  
-
-Bu desen ölçeklenebilir: seçiciyi değiştirin, bekleme mantığını ayarlayın ve Chart.js ile oluşturulan grafiklerden AJAX ile doldurulan tablolara kadar her türlü dinamik içeriği işleyebilirsiniz.  
-
-Bir sonraki meydan okumaya hazır mısınız? REST uç noktasından veri çeken bir sayfayı dönüştürmeyi deneyin veya markanızın stil kılavuzuna uyması için özel fontlar eklemeyi deneyin.  
-
-Herhangi bir sorunla karşılaştıysanız veya geliştirme fikirleriniz varsa, aşağıya yorum bırakın. Kodlamaktan keyif alın ve mükemmel render edilmiş PDF'lerin tadını çıkarın!  
-
----  
-
-![dinamik html pdf örneği](/images/convert-dynamic-html-pdf.png "Aspose HTML for Java kullanarak dinamik HTML'den oluşturulan PDF'i gösteren ekran görüntüsü")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

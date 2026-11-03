@@ -1,24 +1,75 @@
 ---
 category: general
-date: 2026-02-14
-description: 使用 Aspose.HTML for Java 快速将 HTML 转换为 PDF。了解如何从 HTML 生成 PDF、将 PDF 保存到文件以及处理常见陷阱。
+date: 2026-10-14
+description: 了解如何使用 Aspose.HTML 在 Java 中将 HTML 转换为 PDF 并自定义 PDF 页面尺寸。本指南涵盖 HTML 转
+  PDF 的 Java 转换、文件保存以及常见陷阱。
 draft: false
 keywords:
-- convert html to pdf
+- custom pdf page size
+- html to pdf java
 - generate pdf from html
-- save pdf to file
-- pdf from html java
-- java pdf from html
-language: zh
-og_description: 使用 Aspose.HTML for Java 将 HTML 转换为 PDF。本指南展示了如何从 HTML 生成 PDF、将 PDF
-  保存到文件以及避免常见错误。
-og_title: 在 Java 中将 HTML 转换为 PDF – 完整编程教程
+- save pdf file java
+- html pdf example java
+lastmod: 2026-10-14
+og_description: 了解如何使用 Aspose.HTML 在 Java 中将 HTML 转换为 PDF 并自定义 PDF 页面尺寸。本指南涵盖 HTML
+  转 PDF 的 Java 转换、文件保存以及常见陷阱。
+og_image_alt: Tutorial showing how to convert HTML to PDF with custom page size in
+  Java using Aspise.HTML
+og_title: 如何在 Java 中使用自定义 PDF 页面尺寸将 HTML 转换为 PDF
+schemas:
+- author: Aspose
+  dateModified: '2026-10-14'
+  description: Learn how to convert HTML to PDF with custom pdf page size in Java
+    using Aspose.HTML. This guide covers html to pdf java conversion, saving files,
+    and common pitfalls.
+  headline: How to convert HTML to PDF with custom pdf page size in Java
+  type: TechArticle
+- description: Learn how to convert HTML to PDF with custom pdf page size in Java
+    using Aspose.HTML. This guide covers html to pdf java conversion, saving files,
+    and common pitfalls.
+  name: How to convert HTML to PDF with custom pdf page size in Java
+  steps:
+  - name: '**Batch conversion** – loop over a directory of HTML files and produce
+      a PDF per file.'
+    text: '**Batch conversion** – loop over a directory of HTML files and produce
+      a PDF per file.'
+  - name: '**Merging PDFs** – use Aspose.PDF to combine the generated PDFs into a
+      single document.'
+    text: '**Merging PDFs** – use Aspose.PDF to combine the generated PDFs into a
+      single document.'
+  - name: '**Adding headers/footers** – customize the PDF output with page numbers
+      or watermarks.'
+    text: '**Adding headers/footers** – customize the PDF output with page numbers
+      or watermarks.'
+  - name: '**Streaming conversion** – convert HTML from an `InputStream` directly
+      to an `OutputStream` for web services.'
+    text: '**Streaming conversion** – convert HTML from an `InputStream` directly
+      to an `OutputStream` for web services.'
+  type: HowTo
+- questions:
+  - answer: Yes, the same API works in servlet containers or Spring Boot services;
+      just stream the output to the HTTP response.
+    question: Can I use this approach in a web application?
+  - answer: It supports over 95 % of HTML5 elements and most CSS3 properties, including
+      flexbox and grid layouts.
+    question: Does Aspose.HTML support HTML5 and modern CSS?
+  - answer: Use `Converter.convert` with a `PdfDevice` that enables incremental saving;
+      this keeps memory usage low.
+    question: How do I handle very large HTML files?
+  - answer: A valid Aspose.HTML license removes the evaluation watermark and unlocks
+      full performance optimizations.
+    question: Is a license required for production use?
+  - answer: Yes, pass the remote URL as the source `URI` to `Converter.convert`; the
+      library fetches the content automatically.
+    question: Can I convert directly from a URL without downloading the file first?
+  type: FAQPage
 tags:
-- Java
-- PDF
-- Aspose
-- HTML conversion
-title: 在 Java 中将 HTML 转换为 PDF – 完整分步指南
+- custom pdf page size
+- HTML to PDF
+- Aspose.HTML
+- Java conversion
+- pdf generation
+title: 如何在 Java 中使用自定义 PDF 页面尺寸将 HTML 转换为 PDF
 url: /zh/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-complete-step-by-step-guide/
 ---
 
@@ -26,24 +77,31 @@ url: /zh/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-compl
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Java 中将 HTML 转换为 PDF – 完整分步指南
+# 如何在 Java 中使用自定义 PDF 页面尺寸将 HTML 转换为 PDF
 
-是否曾经需要**将 HTML 转换为 PDF**，但不确定哪个库能够提供干净、可直接打印的结果？你并不孤单。许多 Java 开发者盯着浏览器渲染的页面，想知道如何在不丢失 CSS 样式的情况下，将这些标记转换为可移植的文档。
+是否曾经需要**将 HTML 转换为具有自定义 PDF 页面尺寸的 PDF**，但不确定哪个库能提供干净、可打印的结果？你并不孤单。许多 Java 开发者盯着浏览器渲染的页面，想知道如何将这些标记转换为便携文档而不失去 CSS 样式。
 
-在本教程中，我们将演示一个**完整、可运行的示例**，它读取 `input.html` 文件，调用 Aspose.HTML for Java，并在一行代码中**将 PDF 保存到文件**。完成后，你将了解如何**从 HTML 生成 PDF**，处理文件缺失，以及在需要自定义页面尺寸时调整转换。
+在本教程中，我们将演示一个**完整、可运行的示例**，它读取 `input.html` 文件，调用 Aspose.HTML for Java，并在一行代码中**将 PDF 保存到文件**。完成后，你将了解如何**从 HTML 生成 PDF**、处理文件缺失情况，以及在需要自定义页面尺寸时如何微调转换。
 
-## 你需要的环境
+## 快速答案
+- **我可以设置自定义页面尺寸吗？** Yes – use `PdfDevice` options when calling `Converter.convert`.
+- **哪个库是 html 转 pdf java 的最佳选择？** Aspose.HTML for Java offers the most complete CSS support.
+- **我需要安装浏览器吗？** No, the conversion runs entirely in the Java runtime.
+- **我该如何保存 PDF 文件？** Provide a target `URI` to `Converter.convert` and the file is written automatically.
+- **生产环境是否需要许可证？** Yes, a valid Aspose.HTML license removes the evaluation watermark.
+
+## 您需要的条件
 
 - **Java 17**（或任何近期的 JDK；API 与 Java 8+ 兼容）
-- **Aspose.HTML for Java** JAR 包 – 你可以从 Maven Central 或 Aspose 官方站点获取。
-- 一个简单的 `input.html` 文件，放在磁盘的任意位置。
-- 你喜欢的 IDE 或普通的文本编辑器——都可以，代码很直观。
+- **Aspose.HTML for Java** JAR 包 – 您可以从 Maven Central 或 Aspose 网站获取。
+- 一个简单的 `input.html` 文件，放置在磁盘的某处。
+- 您喜欢的 IDE 或普通文本编辑器——都可以，代码很直观。
 
-> **技巧提示：** 如果你使用 Maven，只需在*先决条件*部分添加所示的依赖；否则将 JAR 包放入 `libs/` 文件夹并添加到类路径中。
+> **专业提示：** 如果您使用 Maven，只需在*先决条件*部分添加显示的依赖；否则将 JAR 放入 `libs/` 文件夹并添加到类路径。
 
-## 先决条件 – 将 Aspose.HTML 添加到项目中
+## 先决条件 – 将 aspose.html 添加到项目中
 
-如果你使用 Maven 管理依赖，请将以下代码片段粘贴到 `pom.xml` 中：
+如果您使用 Maven，在 `pom.xml` 中粘贴以下代码片段：
 
 ```xml
 <dependency>
@@ -59,51 +117,55 @@ url: /zh/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-compl
 implementation 'com.aspose:aspose-html:24.10'
 ```
 
-如果你更喜欢手动方式，请从 Aspose 下载页面获取 JAR 并将其添加到类路径中：
+如果您更喜欢手动方式，从 Aspose 下载页面获取 JAR 并将其添加到类路径：
 
 ```bash
 javac -cp "libs/*" ConvertHtmlToPdfTutorial.java
 java  -cp ".:libs/*" ConvertHtmlToPdfTutorial
 ```
 
-库已准备就绪，接下来我们深入实际的转换步骤。
+库准备就绪后，让我们深入实际的转换步骤。
 
 ## 步骤 1 – 定位源 HTML 文件
 
-首先，你需要一个指向要转换的 HTML 的**URI**。使用 `java.nio.file.Paths` 可以让代码跨平台，避免硬编码分隔符。
+首先需要一个指向要转换的 HTML 的**URI**。URI（统一资源标识符）指定资源的位置。使用 `java.nio.file.Paths` 可以使代码跨平台，避免硬编码分隔符。
 
 ```java
 // Step 1: Locate the source HTML file
 URI sourceHtml = Paths.get("YOUR_DIRECTORY/input.html").toUri();
 ```
 
-> **为什么重要：** 将路径转换为 `URI` 后，Aspose 的 `Converter` 可以接受本地文件和远程 URL（例如 `http://example.com/page.html`）。当你以后切换到 Web 服务来源时，这种灵活性非常有用。
+> **为什么这很重要：** 将路径转换为 `URI` 后，Aspose `Converter` 可以接受本地文件和远程 URL（例如 `http://example.com/page.html`）。当你以后切换到 Web 服务来源时，这种灵活性非常有用。
 
 ## 步骤 2 – 定义 PDF 保存位置
 
-与读取 HTML 同等重要的是告诉转换器**输出写入的位置**。我们同样使用 `URI` 来保持一致性。
+与读取 HTML 同样重要的是告诉转换器**将输出写到哪里**。这里同样使用 `URI` 以保持一致性。URI（统一资源标识符）指定资源的位置。
 
 ```java
 // Step 2: Define the target PDF file location
 URI targetPdf = Paths.get("YOUR_DIRECTORY/output.pdf").toUri();
 ```
 
-> **边缘情况：** 如果目标目录不存在，`Converter.convert` 会抛出异常。你可以使用 `Files.createDirectories(Paths.get("YOUR_DIRECTORY"))` 预先创建文件夹。
+> **边缘情况：** 如果目标目录不存在，`Converter.convert` 将抛出异常。你可以使用 `Files.createDirectories(Paths.get("YOUR_DIRECTORY"))` 预先创建文件夹。
 
 ## 步骤 3 – 一次调用完成转换
 
-Aspose.HTML 的 `Converter` 类负责繁重的工作。静态的 `convert` 方法读取 HTML，应用 CSS，解析图像，并直接将结果流式输出为 PDF 文件。
+`Converter` 类执行 HTML 到 PDF 的转换。`Converter` 是 Aspose.HTML 的核心类，可将 HTML 内容转换为包括 PDF 在内的多种输出格式。
 
 ```java
 // Step 3: Convert the HTML document to PDF in a single call
 Converter.convert(sourceHtml, targetPdf);
 ```
 
-就这样——除非你想自定义页面设置，否则无需额外操作。默认页面尺寸为 A4，且转换支持大多数现代 CSS 特性。
+就这么简单——除非你想自行设置页面，否则无需额外操作。默认页面尺寸为 A4，且转换会尊重大多数现代 CSS 特性。
 
-### 完整工作示例
+## 如何在 Java 中将 HTML 转换为 PDF 时设置自定义 PDF 页面尺寸？
 
-将所有内容组合在一起，下面是**完整、独立的程序**，你可以复制粘贴到 `ConvertHtmlToPdfTutorial.java` 并立即运行。
+提供一个带有所需尺寸的 `PdfDevice` 并将其传递给 `Converter.convert`。`PdfDevice` 表示 PDF 输出设置，如页面尺寸和方向。例如，指定 6 × 9 英寸的纵向页面，然后调用转换方法。此方法让你在不进行后期处理的情况下控制精确的输出尺寸，库会自动调整布局以适应新页面尺寸。
+
+## 完整工作示例
+
+`ConvertHtmlToPdfTutorial` 类包含运行转换的 `main` 方法。
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -136,13 +198,13 @@ public class ConvertHtmlToPdfTutorial {
 }
 ```
 
-**预期结果：** 执行后，你会在与 `input.html` 同一文件夹中找到 `output.pdf`。使用任意 PDF 查看器打开——你的 HTML 将与浏览器渲染的效果完全相同，包含字体、图像和样式。
+**预期结果：** 执行后，你会在与 `input.html` 同一文件夹中找到 `output.pdf`。使用任意 PDF 查看器打开——你的 HTML 应该与浏览器渲染的效果完全一致，包含字体、图像和样式。
 
-## 处理常见问题
+## 处理常见陷阱
 
 ### 1. 文件未找到错误
 
-如果 `input.html` 缺失，`Converter.convert` 会抛出 `java.io.FileNotFoundException`。将调用包装在 try‑catch 块中，以提供友好的提示信息：
+当指定的文件找不到时会抛出 `FileNotFoundException`。如果 `input.html` 缺失，`Converter.convert` 会抛出 `java.io.FileNotFoundException`。将调用包装在 try‑catch 块中以提供友好提示：
 
 ```java
 try {
@@ -152,9 +214,9 @@ try {
 }
 ```
 
-### 2. 外部资源（图片、CSS）未加载
+### 2. 外部资源（图像、css）未加载
 
-Aspose.HTML 根据 HTML 文件的位置解析相对 URL。如果你的 HTML 引用了不同文件夹中的资源，请确保这些路径正确或提供绝对 URL。或者，在转换前设置**基础 URI**：
+Aspose.HTML 根据 HTML 文件的位置解析相对 URL。如果你的 HTML 引用了位于其他文件夹的资源，请确保路径正确或提供绝对 URL。或者，在转换前设置**基础 URI**：
 
 ```java
 Converter.convert(sourceHtml, targetPdf, new ConverterOptions()
@@ -163,7 +225,7 @@ Converter.convert(sourceHtml, targetPdf, new ConverterOptions()
 
 ### 3. 自定义页面尺寸或方向
 
-默认是 A4 纵向。若要生成横向 PDF 或自定义尺寸，请传入带有相应选项的 `PdfDevice`：
+默认是 A4 纵向。若要生成横向 PDF 或自定义尺寸，只需传入带有所需选项的 `PdfDevice`：
 
 ```java
 PdfDevice device = new PdfDevice(targetPdf);
@@ -174,44 +236,65 @@ Converter.convert(sourceHtml, device);
 
 ### 4. 许可证
 
-Aspose 库在评估模式下可使用 30 天，期间会在 PDF 上添加水印。要**移除水印**，请在转换前加载你的许可证文件：
+Aspose 库在评估模式下可用 30 天，会在 PDF 上添加水印。要**移除水印**，请在转换前应用你的许可证文件：
 
 ```java
 com.aspose.html.License license = new com.aspose.html.License();
 license.setLicense("Aspose.Total.Java.lic");
 ```
 
-将 `.lic` 文件放在可访问的位置，并相应地更新路径。
+## 为什么选择 aspose.html for java？
 
-## 为什么选择 Aspose.HTML for Java？
-
-- **完整的 CSS 支持** – 与许多轻量级转换器不同，Aspose 能够遵循现代布局规则。
-- **无需外部浏览器** – 引擎完全在 Java 中运行，无需安装 Chrome 或 wkhtmltopdf。
-- **高性能** – 批量转换数百页是可行的，且不会产生过多内存开销。
-
-如果你在构建需要实时生成发票、报告或电子书的 SaaS，这个库能够提供所需的可靠性和控制力。
+Aspose.HTML for Java 提供全面的 CSS 支持，无需外部浏览器即可运行，并在批量转换时表现出色。它能够准确渲染现代布局，包括 flexbox 和 grid，并能快速处理大文档且内存占用低。这些特性使其非常适合按需生成发票、报告或电子书的 SaaS 应用。
 
 ## 快速回顾
 
-- **主要目标：** 使用单一、简洁的 API 调用*将 html 转换为 pdf*。
-- 你已经学习了如何**从 html 生成 pdf**、**将 pdf 保存到文件**，以及为自定义页面尺寸调整过程。
-- 本教程涵盖了**pdf from html java**的细节，包括处理文件缺失、外部资源和许可证。
-- 你现在拥有一个**完整、可运行的示例**，可以直接放入任何 Java 项目中。
+- **主要目标：** *convert html to pdf* 使用单一、简洁的 API 调用，同时可选地应用自定义 PDF 页面尺寸。
+- 你已经学会了如何**从 HTML 生成 PDF**、**将 PDF 保存到文件**，以及在需要自定义页面尺寸时如何微调流程。
+- 本教程涵盖了 **pdf from html java** 的细节，包括处理文件缺失、外部资源和许可证问题。
+- 现在你拥有一个**完整、可运行的示例**，可以直接放入任何 Java 项目中使用。
 
-## 后续步骤与相关主题
+## 下一步 & 相关主题
 
-1. **批量转换** – 遍历 HTML 文件目录，为每个文件生成 PDF。
-2. **合并 PDF** – 使用 Aspose.PDF 将生成的 PDF 合并为一个文档。
-3. **添加页眉/页脚** – 自定义 PDF 输出，加入页码或水印。
-4. **流式转换** – 将来自 `InputStream` 的 HTML 直接转换为 `OutputStream`，用于 Web 服务。
+1. **批量转换** – 循环遍历一个 HTML 文件目录，为每个文件生成 PDF。
+2. **合并 PDF** – 使用 Aspose.PDF 将生成的 PDF 合并为单个文档。
+3. **添加页眉/页脚** – 自定义 PDF 输出，添加页码或水印。
+4. **流式转换** – 将 `InputStream` 中的 HTML 直接转换为 `OutputStream`，适用于 Web 服务。
 
-随意尝试：使用不同的 CSS 主题、嵌入字体，或从运行时构建的 HTML 字符串生成 PDF。可能性无限，而你已经拥有了探索它们的基础。
+随意尝试：更换不同的 CSS 主题、嵌入字体，或从运行时构建的 HTML 字符串生成 PDF。可能性无限，而你已经拥有探索的基础。
 
 ---
 
-*祝编码愉快！如果遇到任何问题，欢迎在下方留言或访问 Aspose 论坛——有活跃的社区随时提供帮助。*
+## 常见问题
+
+**Q: 我可以在 Web 应用中使用这种方法吗？**  
+A: 可以，相同的 API 在 servlet 容器或 Spring Boot 服务中均可工作，只需将输出流写入 HTTP 响应即可。
+
+**Q: Aspose.HTML 是否支持 HTML5 和现代 CSS？**  
+A: 支持超过 95 % 的 HTML5 元素和大多数 CSS3 属性，包括 flexbox 和 grid 布局。
+
+**Q: 如何处理非常大的 HTML 文件？**  
+A: 使用带有增量保存功能的 `PdfDevice` 调用 `Converter.convert`，可保持低内存占用。
+
+**Q: 生产环境是否需要许可证？**  
+A: 有效的 Aspose.HTML 许可证可移除评估水印并解锁全部性能优化。
+
+**Q: 能否直接从 URL 转换而无需先下载文件？**  
+A: 可以，将远程 URL 作为源 `URI` 传递给 `Converter.convert`，库会自动获取内容。
+
+**最后更新：** 2026-10-14  
+**测试环境：** Aspose.HTML for Java 24.10  
+**作者：** Aspose
+
+## 相关教程
+
+- [在 Aspose.HTML 中配置环境的 HTML 转 PDF Java](/html/java/configuring-environment/)
+- [使用 Aspose.HTML for Java 将 HTML 转换为 PDF Java](/html/java/conversion-html-to-other-formats/convert-html-to-pdf/)
+- [使用 Aspose.HTML 设置页面边距的 HTML 转 PDF Java](/html/java/advanced-usage/css-extensions-adding-title-page-number/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

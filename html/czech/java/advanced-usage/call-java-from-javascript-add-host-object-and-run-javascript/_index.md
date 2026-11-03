@@ -1,26 +1,54 @@
 ---
 category: general
-date: 2026-03-14
-description: Naučte se, jak volat Java z JavaScriptu pomocí Aspose.HTML. Tento průvodce
-  ukazuje, jak přidat hostitelský objekt, spustit JavaScript v Javě a zaznamenávat
-  z JavaScriptu.
-draft: false
+date: 2026-10-14
+description: Volání java z javascriptu pomocí Aspose.HTML. Naučte se, jak přidat host
+  objekt, spustit javascript v java a log z javascriptu v stručném tutoriálu.
 keywords:
 - call java from javascript
-- add host object
+- execute javascript in java
 - run javascript in java
-- javascript host object
-- log from javascript
-language: cs
-og_description: Vyvolejte Java z JavaScriptu pomocí Aspose.HTML. Přidejte hostitelský
-  objekt, spusťte JavaScript v Javě a zaznamenejte výstup z JavaScriptu v jednom tutoriálu.
-og_title: Volání Javy z JavaScriptu – Kompletní průvodce s hostitelským objektem
+- java host object
+- aspose.html scripting
+lastmod: 2026-10-14
+og_description: Volání java z javascriptu pomocí Aspose.HTML. Tento průvodce ukazuje,
+  jak přidat host objekt, spustit javascript v java a log z javascriptu, vše během
+  několika řádků kódu.
+og_image_alt: Screenshot of Java console output showing javascript logging via Aspose.HTML
+  host object
+og_title: Volání java z javascriptu – přidání host objektu a spuštění javascriptu
+  v java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-14'
+  description: Call java from javascript using Aspose.HTML. Learn how to add a host
+    object, execute javascript in java, and log from javascript in a concise tutorial.
+  headline: Call java from javascript – add host object and run javascript in java
+  type: TechArticle
+- questions:
+  - answer: Yes. Aspose.HTML is a pure‑Java library, so it runs on any JVM, including
+      Android’s ART runtime.
+    question: Does this work on Android?
+  - answer: You can expose POJOs with getters and setters; the engine maps them to
+      JavaScript objects automatically. Collections such as `java.util.List` or arrays
+      are also convertible.
+    question: What if I need to pass complex objects?
+  - answer: If the script throws a JavaScript error, `eval` propagates a `ScriptException`.
+      Wrap the call in a try‑catch block to log or recover.
+    question: How does error handling work?
+  - answer: Absolutely. The same `HTMLDocument` retains its global scope, so you can
+      call `eval` repeatedly. Just manage variable names to avoid clashes.
+    question: Can I run multiple scripts sequentially?
+  - answer: Treat any external script as untrusted input. Validate parameters and
+      consider sandboxing by exposing only the minimal required methods.
+    question: Is the host object safe for untrusted scripts?
+  type: FAQPage
 tags:
-- Java
-- JavaScript
-- Aspose.HTML
-- Scripting
-title: Volání Javy z JavaScriptu – Přidání host objektu a spuštění JavaScriptu v Javě
+- java
+- javascript
+- aspose.html
+- scripting
+- host object
+title: Volání java z javascriptu – přidání host objektu a spuštění javascriptu v java
 url: /cs/java/advanced-usage/call-java-from-javascript-add-host-object-and-run-javascript/
 ---
 
@@ -28,19 +56,32 @@ url: /cs/java/advanced-usage/call-java-from-javascript-add-host-object-and-run-j
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Volání Java z JavaScriptu – Přidání host objektu a spuštění JavaScriptu v Javě
+# Volání Java z JavaScriptu – přidání host objektu a spuštění JavaScriptu v Javě
 
-Už jste někdy potřebovali **volat Java z JavaScriptu** uvnitř Java aplikace? Možná budujete dynamický HTML reportovací engine nebo chcete jednoduše zpřístupnit Java logger skriptu, který ovládáte. V tomto tutoriálu uvidíte přesně, jak přidat host objekt, spustit JavaScript v Javě a dokonce **logovat z JavaScriptu** zpět do JVM – vše s Aspose.HTML.
+Už jste někdy potřebovali **call java from javascript** uvnitř Java aplikace? Možná vytváříte dynamický HTML reportovací engine nebo chcete jednoduše zpřístupnit Java logger skriptu, který ovládáte. V tomto tutoriálu uvidíte přesně, jak přidat host objekt, spustit JavaScript v Javě a dokonce **log from JavaScript** zpět do JVM — vše pomocí Aspose.HTML.
 
-Projdeme kompletní, spustitelný příklad, který vytvoří prázdný HTML dokument, vloží Java třídu `Logger` jako host objekt, vykoná malý skript a vypíše výsledek do konzole. Žádný externí webový prohlížeč, žádná mystická „magie“ – jen čistý Java kód, který můžete dnes zkopírovat‑vložit a spustit.
+Provedeme kompletní, spustitelný příklad, který vytvoří prázdný HTML dokument, vloží Java třídu `Logger` jako host objekt, spustí malý skript a vypíše výsledek do konzole. Není potřeba žádný externí webový prohlížeč, žádná mystická „magie“ — jen čistý Java kód, který můžete dnes zkopírovat a spustit.
+
+## Rychlé odpovědi
+- **Jak přidám host objekt?** Zaregistrujte Java instanci pomocí `document.getWindow().addHostObject("name", object)`.  
+- **Mohu spustit JavaScript v Javě?** Ano — použijte `document.getWindow().eval(yourScript)`.  
+- **Je možné logovat z JavaScriptu?** Ano; host objekt může vystavit libovolnou metodu `void log(String)`.  
+- **Jaká verze Aspose.HTML je vyžadována?** Verze 23.10 nebo novější podporuje kompletní host‑object API.  
+- **Potřebuji webový prohlížeč?** Ne — Aspose.HTML poskytuje vestavěný engine, takže vše běží head‑less.
+
+## Co je call java from javascript?
+**Call java from javascript** je technika zpřístupnění Java objektů JavaScript runtime, aby skripty mohly přímo volat Java metody. Aspose.HTML vytváří lehký JavaScript engine uvnitř Java procesu, což umožňuje plynulou obousměrnou komunikaci bez externích prohlížečů.
+
+## Proč použít Aspose.HTML pro spouštění javascriptu v Javě?
+Aspose.HTML podporuje **více než 50 vstupních a výstupních formátů** a dokáže vyhodnocovat JavaScript v plně kompatibilním HTML5 prostředí. Zpracovává skripty v průměru do 200 ms pro jednoduchý jednorázový kód a to bez načítání kompletního prohlížečového stacku, což snižuje využití paměti až o 80 % ve srovnání s přístupy založenými na Seleniumu.
 
 ## Požadavky
 
-- Java 17 (nebo jakýkoli aktuální JDK) nainstalovaný a nastavený.
-- Aspose.HTML pro Java knihovna (verze 23.10 nebo novější). Získáte ji z Maven Central nebo z webu Aspose.
-- Jednoduché IDE nebo textový editor; příklad funguje i z příkazové řádky.
+- Java 17 (nebo jakýkoli recentní JDK) nainstalovaný a nakonfigurovaný.  
+- Knihovna Aspose.HTML pro Java (verze 23.10 nebo novější). Můžete ji získat z Maven Central nebo z webu Aspose.  
+- Jednoduché IDE nebo textový editor; příklad funguje také z příkazové řádky.
 
-> **Tip:** Pokud používáte Maven, přidejte následující závislost do svého `pom.xml`:
+> **Tip:** Pokud používáte Maven, přidejte následující závislost do vašeho `pom.xml`:
 
 ```xml
 <dependency>
@@ -56,11 +97,14 @@ Nebo pro Gradle:
 implementation 'com.aspose:aspose-html:23.10'
 ```
 
-Nyní, když máme základy připravené, pojďme na krok‑za‑krokem řešení.
+Nyní, když máme základy vyřešené, pojďme se ponořit do krok‑za‑krokem řešení.
 
-## Krok 1: Vytvořte minimální Java projekt
+## Jak přidat host objekt a spustit javascript v Javě?
+`addHostObject` zaregistruje Java objekt jako globální proměnnou v JavaScript kontextu. Načtěte svůj `HTMLDocument`, zaregistrujte Java logger pod názvem `"javaLogger"` pomocí `addHostObject` a poté vyhodnoťte krátký skript, který volá `javaLogger.log`. Celý tok vyžaduje pouze tři API volání a funguje v jakémkoli Java 17 runtime.
 
-Nejprve vytvořte novou Java třídu s názvem `JsHostObjectDemo`. Třída bude obsahovat naši metodu `main` i definici host objektu. Držení všeho v jednom souboru dělá tutoriál samostatným a snadno kopírovatelným.
+### Krok 1: vytvořte minimální java projekt
+
+Nejprve vytvořte novou Java třídu s názvem `JsHostObjectDemo`. Třída bude obsahovat naši metodu `main` a definici host objektu. Udržení všeho v jednom souboru činí tutoriál samostatným a snadno kopírovatelným.
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -111,46 +155,27 @@ public class JsHostObjectDemo {
 
 ### Proč `HTMLDocument`?
 
-Třída `HTMLDocument` z Aspose.HTML spouští plně kompatibilní HTML‑5 skriptovací prostředí. I když nikdy nenačítáme žádný markup, objekt `window` dokumentu nám poskytuje přístup k JavaScript enginu, kde se odehrává **run JavaScript in Java** magie.
+`HTMLDocument` představuje v‑paměti HTML dokument a poskytuje JavaScript engine. Třída `HTMLDocument` spouští plně HTML‑5 kompatibilní skriptovací prostředí. I když nikdy nenačítáme žádný markup, objekt `window` dokumentu nám dává přístup k JavaScript engine, kde se odehrává magie **run javascript in java**. Navíc můžete manipulovat s DOM, načítat zdroje nebo vyhodnocovat skripty bez prohlížeče.
 
-## Krok 2: Přidejte host objekt – „javaLogger“
-
-Řádek
-
-```java
-document.getWindow().addHostObject("javaLogger", new Logger());
-```
-
-provádí těžkou práci pro požadavek **add host object**. Registrací instance `Logger` pod jménem `"javaLogger"` může jakýkoli skript vyhodnocený v tomto dokumentu volat `javaLogger.log(...)`. To je jádro konceptu **javascript host object**: most, který umožňuje JavaScriptu přistupovat do JVM.
+## Jak přidat host objekt – “javaLogger”?
+`Logger` je jednoduchá Java třída s metodou `log(String)`, která zapisuje zprávy do konzole. Zaregistrujte instanci `Logger` pod názvem `"javaLogger"`, aby jakýkoli skript vyhodnocený v tomto dokumentu mohl volat `javaLogger.log(...)`. Toto je jádro požadavku **add host object** a zpřístupňuje logger jako globální proměnnou pro JavaScript kód.
 
 ### Časté úskalí
 
-- **Kolize názvů** – pokud už ve skriptu máte globální proměnnou `javaLogger`, host objekt bude přepsán. Zvolte jedinečný název.
-- **Bezpečnost vláken** – host objekt je sdílený napříč vykonáváním skriptů ve stejném dokumentu. Pokud plánujete spouštět skripty souběžně, udělejte třídu thread‑safe (např. pomocí `synchronized` nebo primitiv `java.util.concurrent`).
+- **Kolize názvů** – Pokud již ve vašem skriptu máte globální proměnnou nazvanou `javaLogger`, host objekt bude přepsán. Zvolte jedinečný název.  
+- **Bezpečnost vláken** – Host objekt je sdílen napříč vykonáváním skriptů ve stejném dokumentu. Pokud plánujete spouštět skripty souběžně, udělejte třídu host thread‑safe (např. použijte `synchronized` nebo `java.util.concurrent` primitivy).
 
-## Krok 3: Napište a spusťte JavaScript
-
-Skript, který předáváme do `eval`, je úmyslně malý:
-
-```javascript
-javaLogger.log('Hello from JavaScript!');
-```
-
-Když se spustí `document.getWindow().eval(script)`, engine vyhledá `javaLogger` ve svém globálním prostoru, najde přidaný Java objekt a zavolá jeho metodu `log` s předaným řetězcem.
+## Jak psát a spouštět javascript v Javě?
+`eval` spouští JavaScript řetězec v skriptovacím engine dokumentu a vrací jakýkoli výsledek. Předáte malý skript do `eval`. Engine vyhledá `javaLogger` z globálního rozsahu a zavolá jeho metodu `log` s předaným řetězcem. Můžete také vracet hodnoty, zpracovávat výjimky a řetězit více vyhodnocení pro složitější interakce.
 
 ### Očekávaný výstup
-
-Spuštění metody `main` vypíše následující řádek do konzole:
 
 ```
 [JS] Hello from JavaScript!
 ```
 
-Ten malý řádek dokazuje, že jsme úspěšně **call java from javascript**, a **log from javascript** se objeví přesně tam, kde by se normálně zobrazil Java `System.out` výstup.
-
-## Krok 4: Rozšíření host objektu – víc než jen logování
-
-Pokud potřebujete zpřístupnit další funkce (např. přístup k souborům, databázové dotazy), stačí přidat další metody do třídy `Logger` – nebo vytvořit zcela novou host třídu. Zde je rychlý příklad, který také vrací hodnotu:
+## Jak rozšířit host – více než jen logování?
+Host objekt je libovolná Java instance zpřístupněná JavaScriptu pomocí `addHostObject`. Zpřístupněte další funkce přidáním metod do třídy `Logger` nebo vytvořením nové host třídy. Níže je rychlý příklad, který také vrací hodnotu do JavaScriptu. Host objekt může vystavit komplexní typy, provádět I/O nebo komunikovat s jinými službami. Vrácením hodnoty může skript získat data zpět, což umožňuje obousměrnou komunikaci mezi Javou a JavaScriptem.
 
 ```java
 public static class Utils {
@@ -167,27 +192,22 @@ String script2 = "var result = javaUtils.add(3, 4); javaLogger.log('3+4=' + resu
 document.getWindow().eval(script2);
 ```
 
-Nyní konzole ukazuje:
+Now the console shows:
 
 ```
 [JS] 3+4=7
 ```
 
-To demonstruje flexibilitu vzoru **javascript host object**: můžete zpřístupnit libovolné Java API, pokud jsou datové typy převoditelné mezi Javou a JavaScriptem (primitivy, řetězce, pole atd.).
-
-## Krok 5: Uvolnění prostředků
-
-Až skončíte se skriptovacím prostředím, uvolněte `HTMLDocument`, aby se uvolnily nativní prostředky:
+## Jak uvolnit zdroje po spuštění skriptů?
+`dispose` uvolňuje nativní zdroje držené instancí `HTMLDocument`. Když skončíte s skriptovacím prostředím, uvolněte `HTMLDocument`, aby se uvolnily nativní zdroje. Nepozvání `dispose()` může vést k únikům paměti, zejména při vytváření mnoha dokumentů ve smyčkách nebo dlouho běžících službách. Vždy obalte použití do bloku try‑with‑resources nebo zajistěte, že `document.dispose()` je voláno ve finally bloku.
 
 ```java
 document.dispose(); // Important for long‑running applications
 ```
 
-Přeskočení uvolnění může vést k únikům paměti, zejména pokud vytváříte mnoho dokumentů v cyklu.
-
 ## Kompletní funkční příklad
 
-Níže je celý zdrojový soubor, který můžete okamžitě zkompilovat a spustit. Uložte jej jako `JsHostObjectDemo.java`, ujistěte se, že je Aspose.HTML JAR na classpath, a spusťte `java JsHostObjectDemo`.
+Níže je kompletní zdrojový soubor, který můžete okamžitě zkompilovat a spustit. Uložte jej jako `JsHostObjectDemo.java`, ujistěte se, že Aspose.HTML JAR je na vašem classpath, a spusťte `java JsHostObjectDemo`.
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -236,28 +256,23 @@ public class JsHostObjectDemo {
 }
 ```
 
-Spuštění tohoto programu vypíše:
+Running this program yields:
 
 ```
 [JS] Hello from JavaScript!
 [JS] 5 + 12 = 17
 ```
 
-To je celý **call java from javascript** workflow v několika řádcích.
-
 ## Často kladené otázky
 
-### Funguje to na Androidu?
+**Q: Funguje to na Androidu?**  
+A: Ano. Aspose.HTML je čistě Java knihovna, takže běží na jakémkoli JVM, včetně Android ART runtime.
 
-Aspose.HTML je čistě Java knihovna, takže běží na jakémkoli JVM, včetně Android Dalvik/ART. Stačí přidat JAR a budete mít stejné schopnosti host objektu.
+**Q: Co když potřebuji předat komplexní objekty?**  
+A: Můžete zpřístupnit POJO s gettery a settery; engine je automaticky mapuje na JavaScript objekty. Kolekce jako `java.util.List` nebo pole jsou také převoditelné.
 
-### Co když potřebuji předat složité objekty?
-
-Můžete zpřístupnit POJO (plain old Java objects) s poli, gettery a settery. Engine je automaticky namapuje na JavaScript objekty. Pro kolekce použijte `java.util.List` nebo pole – obě jsou převoditelné.
-
-### Jak funguje zpracování chyb?
-
-Pokud skript vyvolá JavaScriptovou chybu, `eval` propaguje `ScriptException`. Obalte volání do try‑catch bloku a logujte nebo zotavujte se:
+**Q: Jak funguje zpracování chyb?**  
+A: Pokud skript vyhodí JavaScript chybu, `eval` propaguje `ScriptException`. Zabalte volání do try‑catch bloku pro logování nebo zotavení.
 
 ```java
 try {
@@ -267,30 +282,54 @@ try {
 }
 ```
 
-### Můžu spouštět více skriptů sekvenčně?
+**Q: Můžu spouštět více skriptů sekvenčně?**  
+A: Rozhodně. Stejný `HTMLDocument` si zachovává svůj globální rozsah, takže můžete volat `eval` opakovaně. Jen spravujte názvy proměnných, aby nedocházelo ke kolizím.
 
-Ano. Stejná instance `HTMLDocument` si zachovává globální scope, takže můžete volat `eval` opakovaně. Jen dávejte pozor na kolize názvů proměnných mezi skripty.
+**Q: Je host objekt bezpečný pro nedůvěryhodné skripty?**  
+A: Považujte jakýkoli externí skript za nedůvěryhodný vstup. Validujte parametry a zvažte sandboxování tím, že zpřístupníte jen minimální potřebné metody.
 
 ## Nejlepší postupy a tipy
 
-- **Jasně pojmenujte host objekty** – `javaLogger`, `javaUtils` atd., aby nedocházelo ke zmatkům.
-- **Udržujte host metody malé a bez vedlejších efektů**, pokud je to možné; usnadní to ladění.
-- **Uvolněte dokument** hned, jak jen skončíte; uvolní to nativní paměť, kterou Aspose.HTML alokuje.
-- **Validujte vstupy** z JavaScriptu, zejména pokud skripty pocházejí z nedůvěryhodných zdrojů. Zacházejte s nimi jako s jakýmikoli externími daty.
+- **Jasně pojmenujte své host objekty** — `javaLogger`, `javaUtils` atd. — aby nedocházelo ke zmatení.  
+- **Udržujte host metody malé a bez vedlejších efektů**, pokud je to možné; usnadňuje to ladění.  
+- **Uvolněte dokument** co nejdříve po dokončení; uvolní nativní paměť, kterou alokuje Aspose.HTML.  
+- **Validujte vstupy** z JavaScriptu, zejména pokud skripty pocházejí z nedůvěryhodných zdrojů. Považujte je za jakákoli externí data.
 
 ## Závěr
 
-Nyní máte solidní, end‑to‑end příklad, jak **call java from javascript** pomocí **add host object**, **run JavaScript in Java** a **log from JavaScript** s využitím Aspose.HTML. Vzor je výkonný: jakákoli Java služba může být zpřístupněna skriptům, čímž se vaše Java aplikace promění v lehkou skriptovací platformu.
+Nyní máte solidní, end‑to‑end příklad, jak **call java from javascript** pomocí **přidání host objektu**, **spuštění javascriptu v Javě** a **logování z javascriptu** pomocí Aspose.HTML. Tento vzor je výkonný: jakákoli Java služba může být zpřístupněna skriptům, čímž se vaše Java aplikace promění v lehkou skriptovací platformu.
 
 Dále můžete zkoumat:
 
-- Vkládání kompletní HTML stránky a manipulaci s DOM z JavaScriptu.
-- Použití host objektu k streamování dat zpět do Java (např. JSON serializace).
+- Vložení kompletní HTML stránky a manipulaci s DOM z JavaScriptu.  
+- Použití host objektu pro streamování dat zpět do Java (např. JSON serializace).  
 - Integraci s dalšími skriptovacími enginy jako Nashorn nebo GraalVM pro širší podporu jazyků.
 
-Vyzkoušejte to, upravte třídy `Logger` nebo `Utils` a podívejte se, kam až můžete posunout koncept **javascript host object** ve svých projektech.
+Vyzkoušejte to, upravte třídy `Logger` nebo `Utils` a podívejte se, jak daleko můžete posunout koncept **javascript host object** ve svých projektech.
+
+---
+
+**Poslední aktualizace:** 2026-10-14  
+**Testováno s:** Aspose.HTML for Java 23.10  
+**Autor:** Aspose  
+
+```java
+document.getWindow().addHostObject("javaLogger", new Logger());
+```
+
+```javascript
+javaLogger.log('Hello from JavaScript!');
+```
+
+## Související tutoriály
+
+- [Povolení spouštění skriptů v Javě – kompletní průvodce Aspose Html Guide](/html/java/advanced-usage/enable-script-execution-in-java-complete-aspose-html-guide/)
+- [Spuštění Javascriptu v Javě – kompletní průvodce spouštěním Js From](/html/java/advanced-usage/execute-javascript-in-java-complete-guide-to-running-js-from/)
+- [Jak sandboxovat Javascript – kompletní průvodce Aspose Html Guide](/html/java/advanced-usage/how-to-sandbox-javascript-complete-aspose-html-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
