@@ -9,7 +9,7 @@ url: /ko/java/configuring-environment/implement-sandboxing/
 weight: 15
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -9,15 +9,10 @@ url: /th/java/converting-between-epub-and-image-formats/convert-epub-to-bmp/
 weight: 10
 ---
 
- "Last Updated", "Tested With", "Author". The requirement says translate all text content naturally to Thai, keep technical terms. So we translate those labels.
 
-Now closing shortcodes.
 
-Make sure we keep all shortcodes unchanged.
 
-Now produce final content.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

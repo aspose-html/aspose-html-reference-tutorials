@@ -11,7 +11,6 @@ url: /ru/java/converting-between-epub-and-image-formats/convert-epub-to-image-sp
 weight: 16
 ---
 
- output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
