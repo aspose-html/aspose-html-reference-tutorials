@@ -1,0 +1,7 @@
+Title: Convert docx to markdown with selective features using Python
+Slug: convert-docx-to-markdown-with-selective-features-using-pytho
+Category: general
+ProcessedDate: 2026-09-10T19:16:02.985602
+SourceRepo: AI Search API
+Keywords: convert docx to markdown, export word as markdown, convert html to markdown, save document as markdown, convert word with links
+PRNumber: 261
