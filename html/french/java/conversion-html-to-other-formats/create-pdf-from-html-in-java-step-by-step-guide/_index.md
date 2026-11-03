@@ -1,66 +1,25 @@
 ---
 category: general
-date: 2026-08-09
-description: Créer un PDF à partir de HTML en Java avec Aspose.HTML. Découvrez comment
-  convertir du HTML en PDF, enregistrer du HTML en PDF et gérer la conversion de HTML
-  en PDF en Java.
+date: 2026-02-13
+description: Créez un PDF à partir de HTML rapidement avec Java. Apprenez à convertir
+  HTML en PDF, à gérer les URL et à personnaliser les options dans un seul tutoriel.
 draft: false
-images:
-- PLACEHOLDER_URL/og-image.png
 keywords:
 - create pdf from html
-- html to pdf java
 - convert html to pdf
+- html to pdf java
 - java html to pdf
-- save html as pdf
+- convert url to pdf
 language: fr
-lastmod: 2026-08-09
-og_description: Créer un PDF à partir de HTML en Java avec Aspose.HTML. Ce guide vous
-  montre comment convertir du HTML en PDF, enregistrer du HTML en PDF et gérer les
-  cas limites courants.
-og_image_alt: Screenshot showing Java code that creates PDF from HTML with Aspose.HTML
-og_title: Créer un PDF à partir de HTML en Java – tutoriel complet de conversion
-schemas:
-- author: Aspose
-  dateModified: '2026-08-09'
-  description: Create PDF from HTML in Java with Aspose.HTML. Learn how to convert
-    HTML to PDF, save HTML as PDF, and handle Java HTML to PDF conversion.
-  headline: Create PDF from HTML in Java – step‑by‑step guide
-  type: TechArticle
-- description: Create PDF from HTML in Java with Aspose.HTML. Learn how to convert
-    HTML to PDF, save HTML as PDF, and handle Java HTML to PDF conversion.
-  name: Create PDF from HTML in Java – step‑by‑step guide
-  steps:
-  - name: Explanation of each block
-    text: '* **Loading the HTML** – `new Document(path)` reads the file and builds
-      an internal representation. If the HTML references external CSS, images, or
-      fonts, the library resolves those paths relative to the file location. * **PDF
-      options** – `PdfSaveOptions` lets you tweak the output (e.g., `setPageSiz'
-  - name: Expected output
-    text: '``` PDF successfully created at YOUR_DIRECTORY/output.pdf ```'
-  - name: 4.1 Converting a URL instead of a local file
-    text: 'If you need to **convert html to pdf** from a web address, replace the
-      `Document` constructor:'
-  - name: 4.2 Controlling page size and orientation
-    text: 'You can customize `PdfSaveOptions` to match specific paper formats:'
-  - name: 4.3 Handling large HTML files
-    text: 'When converting very large documents, consider increasing the JVM heap
-      size:'
-  - name: 4.4 Adding a password to the PDF
-    text: 'Security can be added directly through the options:'
-  - name: 4.5 Batch processing multiple files
-    text: 'Wrap the conversion logic in a loop:'
-  - name: Next steps
-    text: '* Explore advanced `PdfSaveOptions` (e.g., custom headers/footers) – a
-      natural extension of the **html to pdf java** workflow. * Combine this conversion
-      with a REST endpoint to provide on‑the‑fly PDF generation for web services.
-      * Look into Aspose.PDF for post‑processing tasks like merging PDFs or a'
-  type: HowTo
+og_description: Créer un PDF à partir de HTML avec Java. Ce tutoriel montre comment
+  convertir du HTML en PDF, gérer les URL et ajuster les paramètres pour des résultats
+  parfaits.
+og_title: Créer un PDF à partir de HTML en Java – Guide complet
 tags:
-- Aspose.HTML
-- Java PDF conversion
-- HTML rendering
-title: Créer un PDF à partir de HTML en Java – guide étape par étape
+- Java
+- PDF
+- HTML conversion
+title: Créer un PDF à partir de HTML en Java – Guide étape par étape
 url: /fr/java/conversion-html-to-other-formats/create-pdf-from-html-in-java-step-by-step-guide/
 ---
 
@@ -68,218 +27,216 @@ url: /fr/java/conversion-html-to-other-formats/create-pdf-from-html-in-java-step
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Créer un PDF à partir de HTML en Java – guide étape par étape
+# Créer un PDF à partir de HTML en Java – Guide complet
 
-Si vous devez **créer PDF from HTML** dans une application Java, ce tutoriel vous montre une solution complète, prête à l'emploi. Vous verrez comment charger un fichier HTML, configurer les options PDF, effectuer la conversion et nettoyer les ressources — le tout avec la bibliothèque Aspose.HTML for Java.
+Vous avez déjà eu besoin de **créer un PDF à partir de HTML** sans savoir quelle bibliothèque ferait le gros du travail ? Vous n'êtes pas seul. Que vous construisiez un générateur de rapports, un service de facturation, ou que vous ayez simplement besoin d'archiver une page web, transformer du HTML en fichier PDF est un obstacle fréquent pour les développeurs Java.
 
-Convertir des pages web en documents imprimables est une exigence fréquente pour les systèmes de reporting, la génération de factures ou l'archivage. Dans ce guide, nous aborderons également des tâches connexes telles que la conversion **html to pdf java** et comment **save html as pdf** en utilisant la même API.
+Bonne nouvelle : avec quelques lignes de code, vous pouvez **convertir du HTML en PDF** — et même récupérer la source depuis une URL — en utilisant la bibliothèque Aspose.HTML for Java. Dans ce tutoriel, nous passerons en revue tout ce dont vous avez besoin, de la configuration de la dépendance aux options de conversion, afin que vous obteniez un PDF prêt à l'emploi sans mystère.
 
-## Ce que vous apprendrez
+## Ce que vous allez apprendre
 
-* Configurer un projet Java avec la dépendance Aspose.HTML.  
-* Charger un document HTML depuis le disque.  
-* Utiliser `PdfSaveOptions` pour contrôler la sortie.  
-* Appeler `Converter.convert` pour **convert html to pdf**.  
-* Libérer les ressources en toute sécurité afin d'éviter les fuites de mémoire.  
+- Comment ajouter le package Aspose.HTML for Java à votre projet.  
+- Les différentes manières d’alimenter le convertisseur avec un fichier local, une URL distante ou un `InputStream`.  
+- Quelles options vous pouvez ajuster lors de la **conversion html en pdf**.  
+- Comment vérifier que le PDF a été généré avec succès.  
 
-Aucune expérience préalable avec Aspose.HTML n'est requise — il suffit d'une compréhension de base de Java et d'un runtime JDK 8+.
+À la fin de ce guide, vous serez capable d’écrire un petit programme Java qui **crée un PDF à partir de HTML** en quelques secondes.
 
 ## Prérequis
 
-| Exigence | Raison |
-|----------|--------|
-| JDK 8 ou plus récent | Nécessaire pour compiler et exécuter l'exemple. |
-| Maven ou Gradle (optionnel) | Simplifie l'ajout de la bibliothèque Aspose.HTML. |
-| Un fichier HTML (`input.html`) | La source que vous souhaitez transformer en PDF. |
-| Permission d'écriture sur le dossier de sortie | Nécessaire pour l'étape **save html as pdf**. |
+- Java 8 ou supérieur (la bibliothèque prend en charge JDK 8+).  
+- Maven ou Gradle pour la gestion des dépendances (nous montrerons l’extrait Maven).  
+- Une compréhension basique de la syntaxe Java — aucune connaissance approfondie du PDF n’est requise.  
 
-> **Astuce :** Si vous n'utilisez pas d'outil de construction, vous pouvez télécharger le JAR Aspose.HTML depuis le [Aspose website](https://products.aspose.com/html/java/) et l'ajouter manuellement à votre classpath.
+Si vous avez déjà un projet Maven ouvert, tant mieux ; sinon, créez‑en un nouveau avec `mvn archetype:generate` et nous ajouterons la bibliothèque sous peu.
 
-## Étape 1 : Ajouter la bibliothèque Aspose.HTML
+---
 
-Si vous utilisez Maven, ajoutez la dépendance suivante à votre `pom.xml` :
+## Étape 1 : Ajouter Aspose.HTML for Java à votre build
+
+Pour commencer, vous avez besoin des JARs Aspose.HTML. Le moyen le plus simple est via Maven Central :
 
 ```xml
+<!-- pom.xml -->
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-html</artifactId>
-    <version>23.10</version> <!-- Use the latest stable version -->
+    <version>23.12</version> <!-- Check for the latest version -->
 </dependency>
 ```
 
-Pour Gradle, placez ceci dans `build.gradle` :
+Si vous préférez Gradle, l’équivalent est :
 
-```gradle
-implementation 'com.aspose:aspose-html:23.10'
+```groovy
+implementation 'com.aspose:aspose-html:23.12'
 ```
 
-> **Pourquoi cette étape est importante :** La bibliothèque contient les classes `Document`, `PdfSaveOptions` et `Converter` qui effectuent le travail lourd pour la conversion **html to pdf java**.
+> **Astuce :** Aspose propose une licence d’évaluation gratuite qui ajoute un filigrane au PDF généré. Pour la production, obtenez une licence appropriée afin de supprimer le filigrane et de débloquer toutes les fonctionnalités.
 
-## Étape 2 : Préparer la classe Java
-
-Créez une nouvelle classe Java nommée `ConvertHtmlToPdf`. La classe contiendra une méthode `main` qui orchestre la conversion.
+Une fois la dépendance résolue, vous pouvez importer les classes dont nous aurons besoin :
 
 ```java
-package com.example.pdfconverter;
-
-import com.aspose.html.Document;
 import com.aspose.html.converters.Converter;
-import com.aspose.html.saving.PdfSaveOptions;
+import com.aspose.html.converters.PdfConvertOptions;
+```
 
-/**
- * Demonstrates how to create PDF from HTML using Aspose.HTML for Java.
- */
+## Étape 2 : Choisir votre source HTML – Fichier, URL ou InputStream
+
+Le convertisseur est flexible. Voici trois façons courantes de fournir le HTML :
+
+### 2.1 Fichier HTML local
+
+```java
+String htmlFilePath = "C:/myproject/input.html";
+```
+
+### 2.2 Page web distante (Convertir une URL en PDF)
+
+```java
+String htmlUrl = "https://example.com/report.html";
+```
+
+### 2.3 InputStream (par ex., HTML généré à la volée)
+
+```java
+InputStream htmlStream = new ByteArrayInputStream("<html><body>Hello</body></html>".getBytes(StandardCharsets.UTF_8));
+```
+
+Vous pouvez choisir celle qui correspond à votre scénario. Pour le reste du tutoriel, nous resterons sur l’exemple du fichier local, mais le même appel `Converter.convert` fonctionne avec une URL ou un flux — il suffit de remplacer le premier argument.
+
+## Étape 3 : Définir l’emplacement du PDF
+
+Choisissez un chemin de destination où votre processus Java pourra écrire. Sous Windows, vous pourriez utiliser `C:/myproject/result.pdf` ; sous Linux/macOS, quelque chose comme `/home/user/result.pdf` fonctionne tout aussi bien.
+
+```java
+String pdfFilePath = "C:/myproject/result.pdf";
+```
+
+Assurez‑vous que le répertoire existe ; sinon vous obtiendrez une `IOException`.
+
+## Étape 4 : Configurer les options de conversion PDF (facultatif)
+
+`PdfConvertOptions` vous permet d’ajuster la sortie : taille de page, marges, incorporation de polices, etc. Les paramètres par défaut produisent généralement un rendu fidèle, mais voici un exemple rapide qui force le format A4 et désactive l’exécution JavaScript pour des raisons de sécurité :
+
+```java
+PdfConvertOptions pdfOptions = new PdfConvertOptions();
+pdfOptions.setPageSize(com.aspose.html.drawing.PageSize.A4);
+pdfOptions.setEnableJavaScript(false);
+```
+
+> **Pourquoi faire ?** Ajuster les options peut réduire la taille du fichier, améliorer la compatibilité avec les imprimantes, ou imposer des directives de branding d’entreprise.
+
+Si vous n’avez pas besoin de réglages personnalisés, créez simplement `new PdfConvertOptions()` et continuez.
+
+## Étape 5 : Effectuer la conversion
+
+Maintenant, la magie opère. La méthode statique `Converter.convert` réalise tout le travail lourd :
+
+```java
 public class ConvertHtmlToPdf {
     public static void main(String[] args) throws Exception {
-        // --------------------------------------------------------------------
-        // Step 2.1: Load the HTML document from a file.
-        // --------------------------------------------------------------------
-        // Replace YOUR_DIRECTORY with the absolute or relative path that
-        // contains input.html. The Document class parses the HTML and builds
-        // a DOM that Aspose.HTML can render.
-        Document htmlDoc = new Document("YOUR_DIRECTORY/input.html");
+        // 1️⃣ Source HTML (file, URL, or stream)
+        String htmlFilePath = "C:/myproject/input.html";
 
-        // --------------------------------------------------------------------
-        // Step 2.2: Configure PDF save options (default settings are fine for
-        // most scenarios, but you can customize page size, margins, etc.).
-        // --------------------------------------------------------------------
-        PdfSaveOptions pdfOptions = new PdfSaveOptions();
+        // 2️⃣ Destination PDF
+        String pdfFilePath = "C:/myproject/result.pdf";
 
-        // --------------------------------------------------------------------
-        // Step 2.3: Convert the HTML document to PDF and write the file.
-        // --------------------------------------------------------------------
-        // The convert method performs rendering and writes the result to
-        // output.pdf. This is the core of the **convert html to pdf** operation.
-        Converter.convert(htmlDoc, pdfOptions, "YOUR_DIRECTORY/output.pdf");
+        // 3️⃣ Conversion options (default or customized)
+        PdfConvertOptions pdfOptions = new PdfConvertOptions();
 
-        // --------------------------------------------------------------------
-        // Step 2.4: Release native resources held by the Document instance.
-        // --------------------------------------------------------------------
-        // Disposing is important on the JVM because the library allocates
-        // unmanaged memory for rendering.
-        htmlDoc.dispose();
+        // 4️⃣ Convert!
+        Converter.convert(htmlFilePath, pdfFilePath, pdfOptions);
 
-        System.out.println("PDF successfully created at YOUR_DIRECTORY/output.pdf");
+        // 5️⃣ Let the user know we’re done
+        System.out.println("Conversion finished.");
     }
 }
 ```
 
-### Explication de chaque bloc
+Exécutez la classe depuis votre IDE ou avec `mvn exec:java`. Lorsque la console affiche **« Conversion finished. »**, vous devriez voir `result.pdf` dans le dossier indiqué. Ouvrez‑le avec n’importe quel lecteur PDF pour vérifier que la mise en page correspond au HTML d’origine.
 
-* **Chargement du HTML** – `new Document(path)` lit le fichier et construit une représentation interne. Si le HTML fait référence à des CSS, images ou polices externes, la bibliothèque résout ces chemins de façon relative à l'emplacement du fichier.
-* **Options PDF** – `PdfSaveOptions` vous permet d'ajuster la sortie (par ex., `setPageSize`, `setCompress`). La configuration par défaut produit une copie visuelle fidèle du HTML source.
-* **Conversion** – `Converter.convert` gère le rendu, la mise en page et l'écriture du PDF en un seul appel. C’est la ligne qui **create pdf from html** réellement.
-* **Libération** – `htmlDoc.dispose()` libère les tampons natifs. Ignorer cela peut entraîner une croissance de la mémoire lors de la conversion de nombreux fichiers dans une boucle.
+### Cas particuliers & Questions fréquentes
 
-## Étape 3 : Exécuter le programme
+- **Et si le HTML fait référence à des CSS ou images externes ?**  
+  Le convertisseur suit les URL relatives en fonction de l’emplacement du fichier HTML. Pour les ressources distantes, assurez‑vous que la machine dispose d’un accès Internet ou regroupez les actifs localement.
 
-Compilez et exécutez la classe :
+- **Puis‑je convertir un site complet ?**  
+  Pas directement avec un seul appel, mais vous pouvez parcourir une liste d’URL et invoquer `Converter.convert` pour chacune — effectuant ainsi un **convert url to pdf** en lot.
 
-```bash
-# Using Maven
-mvn compile exec:java -Dexec.mainClass="com.example.pdfconverter.ConvertHtmlToPdf"
+- **Comment gérer de très gros fichiers HTML ?**  
+  La bibliothèque diffuse les données en interne, de sorte que l’utilisation mémoire reste modeste. Cependant, surveillez les images extrêmement volumineuses ; envisagez de les réduire avant la conversion.
 
-# Or with Gradle
-gradle run --args="com.example.pdfconverter.ConvertHtmlToPdf"
-```
+- **Et si j’ai besoin de PDFs protégés par mot de passe ?**  
+  `PdfConvertOptions` expose `setPassword(String)` et `setOwnerPassword(String)` pour le chiffrement.
 
-Après la fin du programme, vérifiez `YOUR_DIRECTORY/output.pdf`. L'ouverture du fichier doit afficher un PDF qui ressemble exactement à `input.html`.
+## Étape 6 : Vérifier le résultat (facultatif mais recommandé)
 
-### Résultat attendu
-
-```
-PDF successfully created at YOUR_DIRECTORY/output.pdf
-```
-
-Le PDF généré contiendra tout le texte, les images et le style CSS du fichier HTML original.
-
-## Étape 4 : Variantes courantes et cas limites
-
-### 4.1 Conversion d'une URL au lieu d'un fichier local
-
-Si vous devez **convert html to pdf** depuis une adresse web, remplacez le constructeur `Document` :
+Un petit contrôle de cohérence peut vous éviter du temps de débogage plus tard. Voici un extrait minuscule qui utilise Apache PDFBox pour lire le texte de la première page :
 
 ```java
-Document htmlDoc = new Document("https://example.com/report.html");
-```
+import org.apache.pdfbox.pdmodel.PDDocument;
+import org.apache.pdfbox.text.PDFTextStripper;
 
-La bibliothèque télécharge automatiquement la page, résout les ressources relatives et la rend.
-
-### 4.2 Contrôle de la taille et de l'orientation de la page
-
-Vous pouvez personnaliser `PdfSaveOptions` pour correspondre à des formats de papier spécifiques :
-
-```java
-PdfSaveOptions pdfOptions = new PdfSaveOptions();
-pdfOptions.setPageSize(com.aspose.html.saving.PdfPageSize.A4);
-pdfOptions.setPageOrientation(com.aspose.html.saving.PdfPageOrientation.Landscape);
-```
-
-### 4.3 Gestion des fichiers HTML volumineux
-
-Lors de la conversion de documents très volumineux, envisagez d'augmenter la taille du tas JVM :
-
-```bash
-java -Xmx2g -cp target/classes:dependency/* com.example.pdfconverter.ConvertHtmlToPdf
-```
-
-### 4.4 Ajout d'un mot de passe au PDF
-
-La sécurité peut être ajoutée directement via les options :
-
-```java
-pdfOptions.setEncryptionPassword("MySecret123");
-pdfOptions.setEncryptionAlgorithm(com.aspose.html.saving.PdfEncryptionAlgorithm.RC4_128);
-```
-
-### 4.5 Traitement par lots de plusieurs fichiers
-
-Enveloppez la logique de conversion dans une boucle :
-
-```java
-for (String htmlPath : htmlFiles) {
-    Document doc = new Document(htmlPath);
-    String pdfPath = htmlPath.replace(".html", ".pdf");
-    Converter.convert(doc, pdfOptions, pdfPath);
-    doc.dispose();
+try (PDDocument doc = PDDocument.load(new File(pdfFilePath))) {
+    PDFTextStripper stripper = new PDFTextStripper();
+    stripper.setStartPage(1);
+    stripper.setEndPage(1);
+    String firstPage = stripper.getText(doc);
+    System.out.println("First page contains: " + firstPage.trim());
 }
 ```
 
-Ce modèle est utile pour les pipelines **java html to pdf** qui génèrent des rapports chaque nuit.
+Si la sortie contient un fragment de votre HTML original (par ex., un titre ou un paragraphe), vous avez réussi la **convert html to pdf**.
 
-## Étape 5 : Vérifier le résultat programmatique (facultatif)
+---
 
-Si vous devez confirmer que le PDF a été créé avec succès, vous pouvez utiliser Aspose.PDF (une bibliothèque distincte) pour ouvrir le fichier et vérifier le nombre de pages :
+## Variations fréquemment demandées
+
+### Conversion directe d’une URL
+
+Remplacez le chemin du fichier par une chaîne URL :
 
 ```java
-import com.aspose.pdf.Document as PdfDocument;
-
-PdfDocument pdf = new PdfDocument("YOUR_DIRECTORY/output.pdf");
-System.out.println("Number of pages: " + pdf.getPages().size());
-pdf.dispose();
+String htmlUrl = "https://example.com/report.html";
+Converter.convert(htmlUrl, pdfFilePath, pdfOptions);
 ```
 
-Un nombre de pages supérieur à zéro indique que l'étape **save html as pdf** a réussi.
+C’est la façon la plus simple de **convert url to pdf** sans télécharger vous‑même la page.
+
+### Utilisation d’un InputStream
+
+Lorsque votre HTML est généré à la volée (peut‑être depuis un moteur de templates), alimentez le flux :
+
+```java
+InputStream htmlStream = new ByteArrayInputStream(generatedHtml.getBytes(StandardCharsets.UTF_8));
+Converter.convert(htmlStream, pdfFilePath, pdfOptions);
+```
+
+### Style avancé
+
+Si vous devez incorporer des polices personnalisées, définissez‑les dans la balise `<style>` du HTML ou utilisez `@font-face`. Le convertisseur respecte le CSS moderne, donc la plupart des mises en page sont rendues fidèlement — idéal pour les projets **html to pdf java** qui exigent une sortie pixel‑perfect.
+
+---
 
 ## Conclusion
 
-Vous disposez maintenant d'un exemple complet, prêt pour la production, qui **create pdf from html** en Java en utilisant Aspose.HTML. Le guide a couvert la configuration du projet, le chargement du HTML, la configuration des options PDF, l'exécution de l'opération **convert html to pdf**, et le nettoyage des ressources. Vous avez également vu comment gérer les variantes courantes telles que la conversion d'URL, l'ajustement des paramètres de page, l'ajout de chiffrement et le traitement de fichiers par lots.
+Nous avons couvert tout ce qu’il faut pour **créer un PDF à partir de HTML** avec Java :
 
-### Prochaines étapes
+1. Ajouter la dépendance Aspose.HTML for Java.  
+2. Choisir une source (fichier, URL ou flux).  
+3. Définir le chemin de destination du PDF.  
+4. (Facultatif) Ajuster `PdfConvertOptions`.  
+5. Appeler `Converter.convert` et célébrer quand « Conversion finished. » apparaît.  
 
-* Explorer les `PdfSaveOptions` avancés (par ex., en-têtes/pieds de page personnalisés) – une extension naturelle du flux de travail **html to pdf java**.  
-* Combiner cette conversion avec un point de terminaison REST pour fournir une génération de PDF à la volée pour les services web.  
-* Examiner Aspose.PDF pour les tâches de post‑traitement comme la fusion de PDFs ou l'ajout de signatures numériques.
+Vous pouvez maintenant intégrer cette logique dans des services web, des jobs batch ou des utilitaires de bureau. Ensuite, explorez les fonctionnalités **html to pdf java** comme l’ajout de filigranes, la fusion de plusieurs PDFs, ou la conversion de graphiques SVG intégrés dans votre HTML.
 
-N'hésitez pas à expérimenter avec différents entrées HTML, styles CSS et paramètres PDF. Lorsque vous maîtrisez ces bases, l'intégration de la génération de PDF dans n'importe quel backend Java devient simple. Bon codage !
+Vous avez d’autres questions sur **convert html to pdf**, les licences ou les optimisations de performance ? Laissez un commentaire ci‑dessous — bon codage !  
 
-## Que devriez‑vous apprendre ensuite ?
+---
 
-Les tutoriels suivants couvrent des sujets étroitement liés qui s'appuient sur les techniques démontrées dans ce guide. Chaque ressource comprend des exemples de code complets et fonctionnels avec des explications étape par étape pour vous aider à maîtriser des fonctionnalités API supplémentaires et explorer des approches d'implémentation alternatives dans vos propres projets.
+<img src="https://example.com/assets/create-pdf-from-html.png" alt="Diagramme d’exemple de création de PDF à partir de HTML" width="600"/>
 
-- [Convertir HTML en PDF Java – Configurer l'environnement dans Aspose.HTML](/html/english/java/configuring-environment/)
-- [Comment convertir HTML en PDF Java – Utiliser Aspose.HTML pour Java](/html/english/java/conversion-html-to-other-formats/convert-html-to-pdf/)
-- [Créer un PDF à partir de HTML – Définir la feuille de style utilisateur dans Aspose.HTML pour Java](/html/english/java/configuring-environment/set-user-style-sheet/)
+*Image : Vue d’ensemble visuelle du pipeline de conversion — du source HTML au PDF généré.*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

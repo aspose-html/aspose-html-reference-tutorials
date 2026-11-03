@@ -9,11 +9,8 @@ url: /de/java/converting-between-epub-and-image-formats/convert-epub-to-gif/
 weight: 11
 ---
 
- content like `ImageFormat` unchanged.
 
-Also the FAQ: translate Q/A but keep links unchanged.
 
-Let's produce.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

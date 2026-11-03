@@ -30,6 +30,8 @@ url: /ko/java/html5-canvas-rendering/
 Aspose.HTML for Java로 HTML5 Canvas를 만들고 렌더링합니다. 이 강력한 Java 라이브러리를 사용하여 그리기, 스타일 지정 및 PDF로 내보내기 방법을 단계별로 학습합니다.
 ### [Aspose.HTML for Java로 HTML5 Canvas 마스터하기](./html5-canvas/)
 Aspose.HTML for Java를 사용하여 HTML5 Canvas를 PDF로 만들고 변환하는 방법을 알아보세요. 이 가이드는 웹 프로젝트를 개선하려는 개발자에게 완벽합니다.
+### [iPhone 에뮬레이트하는 방법 – Aspose.HTML을 활용한 완전 가이드](./how-to-emulate-iphone-complete-guide-with-aspose-html/)
+Aspose.HTML을 사용해 iPhone 환경을 에뮬레이트하고 웹 페이지를 테스트하는 방법을 단계별로 안내합니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

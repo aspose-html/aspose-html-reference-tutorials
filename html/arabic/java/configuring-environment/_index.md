@@ -119,6 +119,19 @@ HTML الديناميكي غالبًا ما يحتوي على سكريبتات �
 ### [ضبط ورقة الأنماط المخصصة في Aspose.HTML for Java](./set-user-style-sheet/)
 تعلم كيفية ضبط ورقة أنماط مخصصة في Aspose.HTML for Java، تحسين تنسيق المستندات، وتحويل HTML إلى PDF بسهولة.
 
+### [إنشاء رملية Aspose HTML – دليل Java كامل](./create-aspose-html-sandbox-complete-java-guide/)
+تعلم خطوة بخطوة كيفية إنشاء رملية Aspose HTML في Java لضمان تحويلات آمنة ومحمية.
+### [الحصول على إصدار المكتبة في Java – دليل سريع لإظهار إصدار المكتبة](./get-library-version-in-java-quick-guide-to-show-library-vers/)
+### [كيفية إنشاء بيئة عزل في Java – دليل كامل](./how-to-create-sandbox-in-java-full-guide/)
+تعلم خطوة بخطوة كيفية إنشاء بيئة عزل (Sandbox) في Java لضمان أمان تنفيذ الكود أثناء تحويل HTML إلى PDF.
+### [ضبط وكيل المستخدم لتص rendering HTML بدون رأس – دليل شامل](./set-user-agent-for-headless-html-rendering-complete-guide/)
+تعلم كيفية تعيين وكيل المستخدم عند تشغيل Aspose.HTML في وضع headless لضمان تحميل الموارد بشكل صحيح.
+### [استخراج العنوان من HTML في Java – دليل العزل الكامل](./extract-title-from-html-in-java-complete-sandbox-guide/)
+تعلم كيفية استخراج عنوان الصفحة من مستند HTML باستخدام Aspose.HTML for Java ضمن بيئة عزل آمنة خطوة بخطوة.
+### [كيفية تعيين DPI في Aspose.HTML Sandbox – دليل Java كامل](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
+### [كيفية استخدام العزل – تعيين وكيل المستخدم والحصول على حجم نافذة العرض](./how-to-use-sandbox-set-user-agent-get-viewport-size/)
+تعلم كيفية تعيين وكيل المستخدم والحصول على حجم نافذة العرض عند استخدام العزل في Aspose.HTML for Java.
+
 ---
 
 **آخر تحديث:** 2025-12-03  
