@@ -127,7 +127,8 @@ Aspose.HTML for .NET 不仅仅是一个库；它是 Web 开发领域的变革者
 
 ### [使用 Aspose.HTML 在 .NET 中将 HTML 转换为 XPS](./convert-html-to-xps/)
 探索 Aspose.HTML for .NET 的强大功能：轻松将 HTML 转换为 XPS。包含先决条件、分步指南和常见问题解答。
-
+### [如何在 C# 中使用 Aspose.HTML 将 HTML 转换为字节](./how-to-convert-html-to-bytes-in-c-using-aspose-html/)
+使用 Aspose.HTML for .NET 在 C# 中将 HTML 转换为字节数组的完整步骤指南。
 ### [如何在 C# 中压缩 HTML – 将 HTML 保存为 Zip](./how-to-zip-html-in-c-save-html-to-zip/)
 使用 Aspose.HTML for .NET 在 C# 中将 HTML 打包并保存为 Zip 文件的分步教程。
 ### [在 C# 中将 HTML 打包为 ZIP – 自定义资源处理程序教程](./how-to-zip-html-in-c-custom-resource-handler-tutorial/)

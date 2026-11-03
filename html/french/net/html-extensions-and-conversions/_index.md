@@ -273,6 +273,9 @@ Apprenez à enregistrer un document HTML dans un fichier ZIP avec Aspose.HTML, g
 
 ### [Comment enregistrer du HTML en tant que bundle ZIP avec Aspose.HTML en C#](./how-to-save-html-as-a-zip-bundle-using-aspose-html-in-c/)
 Apprenez à sauvegarder du HTML dans un fichier ZIP en utilisant Aspose.HTML avec C#.
+### [Comment convertir du HTML en octets en C# avec Aspose.HTML](./how-to-convert-html-to-bytes-in-c-using-aspose-html/)
+Apprenez à convertir du HTML en tableau d'octets en C# avec Aspose.HTML, guide étape par étape.
+
 ## Conclusion
 
 En conclusion, les extensions et conversions HTML sont des éléments essentiels du développement Web moderne. Aspose.HTML pour .NET simplifie le processus et le rend accessible aux développeurs de tous niveaux. En suivant nos tutoriels, vous serez sur la bonne voie pour devenir un développeur Web compétent doté d'un large éventail de compétences.

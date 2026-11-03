@@ -157,6 +157,8 @@ Hướng dẫn chi tiết cách kết xuất HTML thành hình ảnh PNG bằng 
 Hướng dẫn chi tiết cách tạo ảnh PNG từ mã HTML bằng C# và Aspose.HTML.
 ### [Cách sử dụng Aspose để render HTML thành PNG trong C#](./how-to-use-aspose-to-render-html-to-png-in-c/)
 Hướng dẫn chi tiết cách sử dụng Aspose để chuyển đổi HTML sang PNG trong C#.
+### [Cách render HTML sang PNG trong C# với Aspose.HTML](./how-to-render-html-to-png-in-c-with-aspose-html/)
+Hướng dẫn chi tiết cách chuyển đổi HTML thành ảnh PNG trong C# bằng Aspose.HTML.
 
 ## Phần kết luận
 

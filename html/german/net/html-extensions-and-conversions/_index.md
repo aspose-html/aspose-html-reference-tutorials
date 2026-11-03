@@ -188,9 +188,8 @@ Erfahren Sie, wie Sie mit einem benutzerdefinierten Ressourcen‑Handler HTML‑
 ### [HTML in PDF konvertieren mit Aspose.HTML – Vollständige Schritt‑für‑Schritt‑Anleitung](./convert-html-to-pdf-with-aspose-html-full-step-by-step-guide/)
 Konvertieren Sie HTML mühelos in PDF mit Aspose.HTML. Folgen Sie unserer vollständigen Schritt‑für‑Schritt‑Anleitung.
 ### [Erstellen Sie eine ZIP-Datei in C# – Schritt‑für‑Schritt‑Anleitung zum Zippen von HTML im Speicher](./create-zip-file-c-step-by-step-guide-to-zip-html-in-memory/)
-Erfahren Sie, wie Sie HTML-Inhalte im Speicher mit C# in eine ZIP-Datei komprimieren – komplette Schritt‑für‑Schritt‑Anleitung.
+Erfahren Sie, wie Sie HTML‑Inhalte im Speicher mit C# in eine ZIP‑Datei komprimieren – komplette Schritt‑für‑Schritt‑Anleitung.
 ### [Konvertieren Sie HTML in ZIP in C# – Komplettanleitung](./convert-html-to-zip-in-c-complete-guide/)
-Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in ZIP-Archive konvertieren. Schritt-für-Schritt-Anleitung mit Codebeispielen.
 ### [PDF aus HTML in C# erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in PDF konvertieren. Eine vollständige Schritt‑für‑Schritt‑Anleitung mit Codebeispielen.
 ### [HTML als ZIP in C# speichern – Komplett‑Schritt‑für‑Schritt‑Anleitung](./save-html-as-zip-in-c-complete-step-by-step-guide/)
@@ -275,6 +274,8 @@ Erfahren Sie, wie Sie HTML mit Aspose.HTML für .NET in ein ZIP‑Archiv konvert
 Erfahren Sie, wie Sie HTML-Inhalte mit Aspose.HTML in ein ZIP-Archiv speichern – vollständige Schritt‑für‑Schritt‑Anleitung.
 ### [HTML als ZIP-Bündel mit Aspose.HTML in C# speichern](./how-to-save-html-as-a-zip-bundle-using-aspose-html-in-c/)
 Erfahren Sie, wie Sie HTML‑Inhalte mit Aspose.HTML für .NET als ZIP‑Bündel speichern. Schritt‑für‑Schritt‑Anleitung mit Codebeispielen.
+### [HTML in Bytes konvertieren in C# mit Aspose.HTML](./how-to-convert-html-to-bytes-in-c-using-aspose-html/)
+Erfahren Sie, wie Sie HTML‑Inhalte in ein Byte‑Array konvertieren und in C# weiterverarbeiten.
 
 ## Abschluss
 

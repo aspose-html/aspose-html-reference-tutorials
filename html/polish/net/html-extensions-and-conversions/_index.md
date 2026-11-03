@@ -133,6 +133,8 @@ Konwertuj HTML do PDF w C# przy użyciu Aspose.HTML – prosty przewodnik krok p
 Dowiedz się, jak w C# spakować plik HTML do archiwum ZIP, korzystając z Aspose.HTML – kompletny przewodnik krok po kroku.
 ### [Konwertuj HTML na obraz w C# – Przewodnik krok po kroku](./convert-html-to-image-in-c-step-by-step-guide/)
 Dowiedz się, jak w C# konwertować HTML na obrazy przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
+### [Jak przekonwertować HTML na bajty w C# przy użyciu Aspose.HTML](./how-to-convert-html-to-bytes-in-c-using-aspose-html/)
+Dowiedz się, jak w C# zamienić zawartość HTML na tablicę bajtów przy użyciu biblioteki Aspose.HTML.
 ### [Jak spakować HTML w C# – Zapisz HTML do pliku ZIP](./how-to-zip-html-in-c-save-html-to-zip/)
 Dowiedz się, jak spakować plik HTML do archiwum ZIP w C# przy użyciu Aspose.HTML.
 ### [Utwórz dokument HTML i zapisz jako ZIP – Kompletny przewodnik C#](./create-html-document-and-save-as-zip-complete-c-guide/)

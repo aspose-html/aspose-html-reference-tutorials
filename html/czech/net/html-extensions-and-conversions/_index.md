@@ -143,6 +143,8 @@ Naučte se, jak v C# pomocí Aspose.HTML převést HTML na obrázek v podrobném
 Naučte se, jak pomocí Aspose.HTML v C# zkomprimovat HTML soubor z DOCX do ZIP archivu v kompletním průvodci.
 ### [Převod HTML na obrázek v C# – průvodce krok za krokem](./convert-html-to-image-in-c-step-by-step-guide/)
 Naučte se převádět HTML na obrázek v C# pomocí Aspose.HTML – podrobný průvodce krok za krokem.
+### [Jak převést HTML na bajty v C# pomocí Aspose.HTML](./how-to-convert-html-to-bytes-in-c-using-aspose-html/)
+Naučte se, jak v C# pomocí Aspose.HTML převést HTML obsah na pole bajtů.
 ### [Jak zkomprimovat HTML v C# – Uložit HTML do ZIP](./how-to-zip-html-in-c-save-html-to-zip/)
 Naučte se, jak pomocí Aspose.HTML pro .NET zabalit HTML soubor do ZIP archivu v C#.
 ### [Jak zkomprimovat HTML v C# – Exportovat webovou stránku do ZIP pomocí Aspose.HTML](./how-to-zip-html-in-c-export-webpage-to-zip-with-aspose-html/)

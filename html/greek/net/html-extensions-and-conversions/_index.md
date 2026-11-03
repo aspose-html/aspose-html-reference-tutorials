@@ -288,6 +288,8 @@ url: /el/net/html-extensions-and-conversions/
 Μάθετε πώς να χρησιμοποιήσετε το ZipHandler για να συμπιέσετε μια ιστοσελίδα σε αρχείο ZIP χρησιμοποιώντας C#.
 ### [Πώς να αποθηκεύσετε HTML ως πακέτο ZIP χρησιμοποιώντας το Aspose.HTML σε C#](./how-to-save-html-as-a-zip-bundle-using-aspose-html-in-c/)
 Μάθετε πώς να αποθηκεύσετε αρχεία HTML σε αρχείο ZIP με C# και Aspose.HTML, βήμα‑βήμα οδηγίες.
+### [Πώς να μετατρέψετε HTML σε bytes σε C# χρησιμοποιώντας το Aspose.Html](./how-to-convert-html-to-bytes-in-c-using-aspose-html/)
+Μάθετε πώς να μετατρέψετε HTML σε πίνακα byte σε C# με το Aspose.HTML για .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

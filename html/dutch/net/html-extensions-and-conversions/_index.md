@@ -255,6 +255,8 @@ Leer hoe u een HTML-document met afbeeldingen maakt en deze als ZIP opslaat met 
 ### [HTML opslaan als ZIP – volledige gids](./save-html-to-zip-with-aspose-html-complete-guide/)
 ### [HTML opslaan als ZIP in C# – stapsgewijze handleiding](./save-html-as-zip-in-c-step-by-step-guide/)
 Leer hoe u HTML opslaat als ZIP in C# met een stapsgewijze handleiding.
+### [HTML naar bytes converteren in C# met Aspose.HTML](./how-to-convert-html-to-bytes-in-c-using-aspose-html/)
+Leer hoe u HTML-inhoud omzet naar een byte‑array in C# met behulp van Aspose.HTML.
 
 ## Conclusie
 

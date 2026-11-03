@@ -265,6 +265,8 @@ Lär dig steg för steg hur du sparar HTML-filer i ett ZIP‑arkiv med Aspose.HT
 ### [Spara HTML som ZIP i C# – steg‑för‑steg‑guide](./save-html-as-zip-in-c-step-by-step-guide/)
 Lär dig hur du sparar HTML-filer i ett ZIP‑arkiv med C# och Aspose.HTML i en detaljerad steg‑för‑steg‑guide.
 ### [Hur man sparar HTML som ett ZIP-paket med Aspose.HTML i C#](./how-to-save-html-as-a-zip-bundle-using-aspose-html-in-c/)
+### [Hur man konverterar HTML till bytes i C# med Aspose.HTML](./how-to-convert-html-to-bytes-in-c-using-aspose-html/)
+Lär dig konvertera HTML till en byte-array i C# med Aspose.HTML.
 
 ## Slutsats
 

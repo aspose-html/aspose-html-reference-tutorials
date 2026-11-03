@@ -267,6 +267,8 @@ Hướng dẫn chi tiết cách nén HTML thành tệp ZIP bằng Aspose.HTML tr
 Hướng dẫn chi tiết cách lưu tài liệu HTML vào tệp ZIP bằng Aspose.HTML trong .NET, bao gồm ví dụ mã và tùy chọn cấu hình.
 ### [Cách lưu HTML thành gói ZIP bằng Aspose.HTML trong C#](./how-to-save-html-as-a-zip-bundle-using-aspose-html-in-c/)
 Hướng dẫn chi tiết cách lưu tài liệu HTML thành gói ZIP bằng Aspose.HTML trong C#.
+### [Cách chuyển đổi HTML thành byte trong C# bằng Aspose.Html](./how-to-convert-html-to-bytes-in-c-using-aspose-html/)
+Hướng dẫn chi tiết cách chuyển đổi HTML thành mảng byte trong C# sử dụng Aspose.Html.
 
 ## Phần kết luận
 

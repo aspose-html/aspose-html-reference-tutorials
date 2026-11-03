@@ -99,6 +99,9 @@ Aspose.HTML for .NET ile C# içinde HTML'yi PNG'ye dönüştürün, görüntü o
 Aspose.HTML for .NET kullanarak C# ile HTML'yi görsele dönüştürün. Adım adım örnekler ve özelleştirilebilir seçenekler.
 ### [Aspose.HTML ile .NET'te HTML'yi TIFF'e dönüştürün](./convert-html-to-tiff/)
 ### [Aspose.HTML ile .NET'te HTML'yi XPS'e dönüştürün](./convert-html-to-xps/)
+.NET için Aspose.HTML'nin gücünü keşfedin: HTML'yi XPS'e zahmetsizce dönüştürün. Ön koşullar, adım adım kılavuz ve SSS dahildir.
+### [C# ile Aspose.HTML kullanarak HTML'yi baytlara dönüştürün](./how-to-convert-html-to-bytes-in-c-using-aspose-html/)
+Aspose.HTML for .NET ile HTML içeriğini byte dizisine dönüştürmeyi adım adım öğrenin.
 ### [HTML'den PDF Oluşturma – C# Adım Adım Kılavuz](./create-pdf-from-html-c-step-by-step-guide/)
 Aspose.HTML for .NET kullanarak HTML'den PDF'ye nasıl dönüştüreceğinizi adım adım öğrenin.
 ### [HTML'den PDF Oluşturma – Aspose.Html ile Tam Kılavuz](./create-pdf-from-html-complete-guide-with-aspose-html/)

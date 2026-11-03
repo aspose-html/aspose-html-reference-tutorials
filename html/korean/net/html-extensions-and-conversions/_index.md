@@ -277,6 +277,8 @@ Aspose.HTML을 사용해 HTML을 ZIP 파일로 저장하는 전체 가이드를 
 ### [Aspose.HTML을 사용하여 C#에서 HTML을 ZIP 번들로 저장하는 방법](./how-to-save-html-as-a-zip-bundle-using-aspose-html-in-c/)
 Aspose.HTML for .NET을 활용해 C#에서 HTML 파일을 ZIP 번들로 저장하는 단계별 가이드입니다.
 
+### [Aspose.Html을 사용하여 C#에서 HTML을 바이트로 변환하는 방법](./how-to-convert-html-to-bytes-in-c-using-aspose-html/)
+Aspose.Html을 사용해 C#에서 HTML을 바이트 배열로 변환하는 단계별 가이드입니다.
 ## 결론
 
 결론적으로 HTML 확장 및 변환은 현대 웹 개발의 필수 요소입니다. Aspose.HTML for .NET은 프로세스를 단순화하고 모든 레벨의 개발자가 접근할 수 있도록 합니다. 튜토리얼을 따르면 광범위한 기술 세트를 갖춘 유능한 웹 개발자가 되는 길에 한 걸음 더 다가갈 수 있습니다.

@@ -272,6 +272,8 @@ Aprenda a crear un manejador de recursos personalizado en C# para generar archiv
 Aprenda a convertir HTML a PDF en C# estableciendo el estilo de fuente mediante código con Aspose.HTML.
 ### [Guardar HTML en ZIP con Aspose.HTML – guía completa](./save-html-to-zip-with-aspose-html-complete-guide/)
 Aprenda a guardar HTML en un archivo ZIP usando Aspose.HTML para .NET con una guía paso a paso.
+### [Cómo convertir HTML a bytes en C# usando Aspose.HTML](./how-to-convert-html-to-bytes-in-c-using-aspose-html/)
+Aprenda a convertir contenido HTML a una matriz de bytes en C# con Aspose.HTML paso a paso.
 
 ## Conclusión
 

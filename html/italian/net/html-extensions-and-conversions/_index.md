@@ -275,6 +275,8 @@ Scopri come implementare un gestore di risorse personalizzato in C# per comprime
 Scopri come convertire un documento HTML in un archivio ZIP usando Aspose.HTML per .NET con una guida completa in C#.
 ### [Salva HTML in ZIP con Aspose.HTML – guida completa](./save-html-to-zip-with-aspose-html-complete-guide/)
 Scopri come comprimere un documento HTML in un archivio ZIP usando Aspose.HTML per .NET, con esempi passo‑passo.
+### [Come convertire HTML in byte in C# usando Aspose.HTML](./how-to-convert-html-to-bytes-in-c-using-aspose-html/)
+Scopri come trasformare un documento HTML in un array di byte in C# con Aspose.HTML.
 
 ## Conclusione
 
