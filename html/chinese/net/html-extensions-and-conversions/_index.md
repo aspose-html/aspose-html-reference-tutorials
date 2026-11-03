@@ -166,6 +166,9 @@ Aspose.HTML for .NET 不仅仅是一个库；它是 Web 开发领域的变革者
 使用 Aspose.HTML for .NET 在 C# 中完整演示如何将 HTML 打包为 ZIP 文件的步骤与代码示例。
 ### [在 C# 中将 HTML 保存为 ZIP – 完整的自定义存储指南](./save-html-as-zip-in-c-complete-guide-to-custom-storage/)
 使用 Aspose.HTML for .NET 在 C# 中将 HTML 打包为 ZIP，并实现自定义存储的完整步骤指南。
+### [使用 Aspose.HTML 将 HTML 转换为 ZIP – 完整的 C# 教程](./convert-html-to-zip-with-aspose-html-complete-c-guide/)
+使用 Aspose.HTML for .NET 在 C# 中将 HTML 转换为 ZIP 的完整分步指南。
+
 ### [在 C# 中将 HTML 保存为 ZIP – 完整内存示例](./save-html-to-zip-in-c-complete-in-memory-example/)
 ### [如何压缩 HTML – 导出网页为 ZIP 的完整指南](./how-to-zip-html-complete-guide-to-exporting-web-pages-as-zip/)
 使用 Aspose.HTML for .NET 在 C# 中将 HTML 页面打包为 ZIP 文件的完整分步指南，涵盖代码示例和关键要点。

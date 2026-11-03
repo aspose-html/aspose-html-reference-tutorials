@@ -262,6 +262,7 @@ url: /ar/net/html-extensions-and-conversions/
 دليل خطوة بخطوة لإنشاء مستند HTML يحتوي على صور وتصديره كملف ZIP باستخدام Aspose.HTML.
 ### [معالج موارد مخصص في C# – كيفية إنشاء ملف ZIP من HTML](./custom-resource-handler-in-c-how-to-create-zip-of-html/)
 تعلم كيفية إنشاء معالج موارد مخصص في C# لضغط ملفات HTML وحفظها كملف ZIP بسهولة.
+### [تحويل HTML إلى ZIP باستخدام Aspose.HTML – دليل C# كامل](./convert-html-to-zip-with-aspose-html-complete-c-guide/)
 
 ## خاتمة
 

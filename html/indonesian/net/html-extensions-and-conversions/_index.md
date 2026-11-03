@@ -272,6 +272,8 @@ Pelajari cara menyimpan HTML sebagai arsip ZIP secara lengkap menggunakan Aspose
 Pelajari cara membuat dokumen dari HTML, mengekspor gambar, dan menyimpan semuanya dalam arsip ZIP dengan panduan lengkap Aspose.HTML.
 ### [Penangan Sumber Daya Kustom di C# – Cara Membuat ZIP dari HTML](./custom-resource-handler-in-c-how-to-create-zip-of-html/)
 Pelajari cara membuat handler sumber daya khusus di C# untuk mengompres file HTML menjadi arsip ZIP menggunakan Aspose.HTML.
+### [Konversi HTML ke ZIP dengan Aspose.HTML – Panduan Lengkap C#](./convert-html-to-zip-with-aspose-html-complete-c-guide/)
+Pelajari cara mengonversi HTML menjadi arsip ZIP menggunakan Aspose.HTML dalam panduan lengkap C#.
 
 ## Kesimpulan
 

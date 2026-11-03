@@ -267,6 +267,8 @@ Aspose.HTML для .NET — это не просто библиотека; эт�
 Полное руководство по созданию документа из HTML, экспорту с изображениями и сохранению в архив ZIP с помощью Aspose.HTML для .NET.
 ### [Пользовательский обработчик ресурсов в C# – Как создать ZIP из HTML](./custom-resource-handler-in-c-how-to-create-zip-of-html/)
 Узнайте, как реализовать пользовательский обработчик ресурсов в C# для упаковки HTML‑страниц в ZIP‑архив с помощью Aspose.HTML.
+### [Конвертируйте HTML в ZIP с Aspose.HTML – Полный учебник C#](./convert-html-to-zip-with-aspose-html-complete-c-guide/)
+Подробное руководство по упаковке HTML‑страниц в архив ZIP с помощью Aspose.HTML и C#.
 
 ## Заключение
 

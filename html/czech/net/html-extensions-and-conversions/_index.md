@@ -266,6 +266,8 @@ Kompletní průvodce převodem HTML do PDF pomocí Aspose.HTML v .NET s podrobn�
 Naučte se vytvořit dokument z HTML, exportovat jej s obrázky a uložit jako ZIP archiv pomocí Aspose.HTML pro .NET.
 ### [Vlastní handler zdrojů v C# – Jak vytvořit ZIP HTML](./custom-resource-handler-in-c-how-to-create-zip-of-html/)
 Naučte se pomocí Aspose.HTML v C# vytvořit ZIP archiv HTML souborů s vlastním handlerem zdrojů.
+### [Převod HTML do ZIP pomocí Aspose.HTML – Kompletní C# průvodce](./convert-html-to-zip-with-aspose-html-complete-c-guide/)
+Naučte se, jak pomocí Aspose.HTML v C# převést HTML soubor do ZIP archivu pomocí podrobného průvodce.
 
 ## Závěr
 
