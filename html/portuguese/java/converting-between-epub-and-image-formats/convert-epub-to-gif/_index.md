@@ -9,21 +9,13 @@ url: /pt/java/converting-between-epub-and-image-formats/convert-epub-to-gif/
 weight: 11
 ---
 
- 2026-03-13" keep.
 
-"**Tested With:** Aspose.HTML for Java (latest at time of writing)" translate "Testado com:" maybe keep English? Should translate.
 
-"**Author:** Aspose" keep.
 
-Then closing shortcodes.
 
-Also final backtop button shortcode unchanged.
 
-Now produce final content.
 
-Be careful to keep markdown formatting exactly.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

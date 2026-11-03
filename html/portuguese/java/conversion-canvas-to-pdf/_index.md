@@ -27,7 +27,7 @@ Você está pronto para explorar o fascinante mundo de **criar pdf a partir de c
 
 ## O que é “criar PDF a partir de canvas”?
 
-Criar um PDF a partir de canvas significa pegar a saída visual gerada pelo elemento HTML `<canvas>` — seja um gráfico, diagrama ou desenho à mão livre — e exportá‑la para um documento PDF portátil. PDFs preservam layout, fontes e gráficos em todos os dispositivos, tornando‑os ideais para relatórios, impressão e arquivamento.
+Criar um PDF a partir de canvas significa pegar a saída visual gerada pelo elemento HTML `<canvas>` — seja um gráfico, diagrama ou desenho à mão livre — e exportá‑la para um documento PDF portátil. PDFs preservam layout, fontes e gráficos em todos os dispositivos, tornando‑‑os ideais para relatórios, impressão e arquivamento.
 
 ## Por que converter canvas para PDF?
 
@@ -59,11 +59,11 @@ Com o ambiente pronto, o processo de conversão é direto. Aspose.HTML renderiza
 1. **Carregar a fonte HTML** – Forneça o caminho ou URL do arquivo HTML que contém o canvas.  
 2. **Configurar opções de PDF** – Defina tamanho da página, margens e quaisquer configurações adicionais de renderização.  
 3. **Renderizar para PDF** – Chame a API Aspose.HTML para gerar o arquivo PDF.  
-4. **Salvar a saída** – Grave o PDF resultante no disco ou envie‑o como stream ao cliente.
+4. **Salvar a saída** – Grave o PDF resultante no disco ou envie‑‑o como stream ao cliente.
 
 ### Casos de Uso Comuns
 
-- **Gerar gráficos para relatórios empresariais** – Renderize visualizações Chart.js ou D3 no canvas e exporte‑as como páginas PDF.  
+- **Gerar gráficos para relatórios empresariais** – Renderize visualizações Chart.js ou D3 no canvas e exporte‑‑as como páginas PDF.  
 - **Criar faturas imprimíveis** – Desenhe layouts de fatura personalizados no canvas e produza uma fatura PDF para os clientes.  
 - **Arquivar gráficos interativos** – Preserve esboços ou assinaturas feitos pelo usuário como registros PDF imutáveis.
 
@@ -82,6 +82,8 @@ Depois de seguir este guia, você agora sabe como **criar PDF a partir de canvas
 ### [Convert HTML Canvas to PDF with Aspose.HTML for Java](./canvas-to-pdf/)
 Aprenda a converter HTML Canvas para PDF com Aspose.HTML para Java neste guia passo a passo.
 
+### [Como Converter SVG para PDF/A‑2b com Java – Guia Completo](./how-to-convert-svg-to-pdf-a-2b-with-java-complete-guide/)
+
 ## Perguntas Frequentes
 
 **Q: Posso usar este método em uma aplicação Spring Boot?**  
@@ -94,7 +96,7 @@ A: A API renderiza a página HTML inteira, portanto todos os canvases são captu
 A: Sim. Aspose.HTML permite definir opções de criptografia, incluindo senhas de proprietário e usuário, ao salvar o PDF.
 
 **Q: E se meu canvas contiver imagens externas?**  
-A: Certifique‑se de que as URLs das imagens estejam acessíveis (URLs absolutas ou data URIs incorporados) para que o renderizador possa recuperá‑las durante a geração do PDF.
+A: Certifique‑se de que as URLs das imagens estejam acessíveis (URLs absolutas ou data URIs incorporados) para que o renderizador possa recuperá‑‑las durante a geração do PDF.
 
 **Q: A biblioteca oferece suporte a conformidade PDF/A para arquivamento?**  
 A: Aspose.HTML fornece opções para criar documentos compatíveis com PDF/A‑1b ou PDF/A‑2b quando necessário.

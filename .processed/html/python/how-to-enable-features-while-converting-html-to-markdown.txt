@@ -1,0 +1,7 @@
+Title: How to enable features while converting HTML to Markdown
+Slug: how-to-enable-features-while-converting-html-to-markdown
+Category: general
+ProcessedDate: 2026-09-20T06:30:55.157625
+SourceRepo: AI Search API
+Keywords: how to enable features, convert html to markdown, how to convert html, convert html document, save html as markdown
+PRNumber: 271
