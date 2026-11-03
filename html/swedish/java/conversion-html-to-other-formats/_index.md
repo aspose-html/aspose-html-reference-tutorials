@@ -285,6 +285,8 @@ Lär dig steg‑för‑steg hur du konverterar en lokal HTML‑fil till PDF i Ja
 En fullständig guide för att konvertera HTML till PDF i Java med Aspose HTML Converter.
 ### [HTML till PDF-handledning: Konvertera HTML till PDF med Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-java/)
 Lär dig hur du konverterar HTML till PDF i Java med Aspose.HTML på ett enkelt sätt.
+### [Konvertera HTML‑mall med Aspose – steg‑för‑steg‑guide](./convert-html-template-with-aspose-step-by-step-guide/)
+Lär dig hur du använder en HTML‑mall med Aspose för att skapa dokument steg för steg.
 
 ### [Konvertera HTML till PDF i Java – Fullständig guide med papperstorlek och DPI](./convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/)
 Omfattande guide för att konvertera HTML till PDF i Java med anpassning av papperstorlek och DPI för bästa utskriftskvalitet.

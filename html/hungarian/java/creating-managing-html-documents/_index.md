@@ -92,6 +92,10 @@ Ismerje meg, hogyan tölthet be HTML-t URL-ről Java-ban, és használhat CSS‑
 Fedezze fel, hogyan kérheti le egy HTML elem számított stílusát Java-ban az Aspose.HTML segítségével, részletes, lépésről‑lépésre útmutatóval.
 ### [HTML-dokumentum betöltése Java-ban – Teljes útmutató CSS és XPath lekérdezésekkel](./load-html-document-java-complete-guide-with-css-xpath-querie/)
 Fedezze fel, hogyan tölthet be HTML-dokumentumot Java-ban, és végezhet CSS‑ és XPath‑lekérdezéseket lépésről‑lépésre.
+### [HTML sablon konvertálása – lépésről‑lépésre útmutató Java fejlesztőknek](./convert-html-template-step-by-step-guide-for-java-developers/)
+Ismerje meg, hogyan konvertálhat HTML sablonokat Java-ban az Aspose.HTML segítségével, részletes lépésekkel.
+### [HTML táblázat adatkapcsolás – dinamikus HTML táblázat létrehozása](./html-table-data-binding-tutorial-create-a-dynamic-html-table/)
+Ismerje meg, hogyan kötheti össze az adatokat egy dinamikus HTML táblázattal Java-ban az Aspose.HTML segítségével.
 ### [Új HTML-dokumentumok létrehozása az Aspose.HTML for Java használatával](./generate-new-html-documents/)
 Ebből az egyszerű, lépésenkénti útmutatóból megtudhatja, hogyan hozhat létre új HTML-dokumentumokat az Aspose.HTML for Java használatával. Kezdje el a dinamikus HTML-tartalom generálását.
 ### [HTML-dokumentum létrehozása Java-ban – Lépésről‑lépésre útmutató az Aspose.HTML használatával](./create-html-document-java-step-by-step-guide-with-aspose-htm/)

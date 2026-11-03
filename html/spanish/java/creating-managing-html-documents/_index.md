@@ -73,6 +73,10 @@ Aprenda a convertir documentos Markdown a HTML en Java usando Aspose.HTML con es
 Aprenda a crear elementos HTML de forma segura usando ExecutorService en Java, evitando condiciones de carrera.
 ### [Crear div con clase java – Ejemplo completo usando Aspose.HTML](./create-div-with-class-java-full-example-using-aspose-html/)
 Aprenda a crear un elemento div con una clase en Java usando Aspose.HTML en este ejemplo completo paso a paso.
+### [Convertir plantilla HTML – guía paso a paso para desarrolladores Java](./convert-html-template-step-by-step-guide-for-java-developers/)
+Aprenda a convertir plantillas HTML en Java paso a paso con Aspose.HTML, facilitando la personalización y generación dinámica de contenido.
+### [Tutorial de enlace de datos de tabla HTML – crear una tabla HTML dinámica](./html-table-data-binding-tutorial-create-a-dynamic-html-table/)
+Aprenda a enlazar datos a una tabla HTML y crear tablas dinámicas en Java con Aspose.HTML.
 ### [Cargar documentos HTML desde una URL en Aspose.HTML para Java](./load-html-documents-from-url/)
 Descubra cómo cargar fácilmente documentos HTML desde una URL en Java con Aspose.HTML. Incluye tutorial paso a paso.
 ### [Cargar documento HTML con Aspose – Guía rápida de Java para obtener el título de la página](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)

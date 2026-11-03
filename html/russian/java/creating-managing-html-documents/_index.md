@@ -163,6 +163,9 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 Подробное руководство по запуску потоков в Java, включающее примеры и лучшие практики.
 ### [Получить вычисленный стиль Java – Полное руководство по программированию](./get-computed-style-java-complete-programming-guide/)
 ### [Загрузка HTML из URL в Aspose.HTML для Java – Полное руководство с CSS и XPath](./load-html-from-url-in-java-complete-guide-with-css-xpath/)
+### [Учебник по привязке данных таблицы HTML – создание динамической HTML‑таблицы](./html-table-data-binding-tutorial-create-a-dynamic-html-table/)
+Узнайте, как привязывать данные к HTML‑таблице и создавать динамические таблицы в Java с помощью Aspose.HTML.
+### [Конвертировать HTML‑шаблон — пошаговое руководство для разработчиков Java](./convert-html-template-step-by-step-guide-for-java-developers/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

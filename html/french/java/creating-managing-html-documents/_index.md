@@ -62,6 +62,8 @@ Apprenez à convertir du Markdown en HTML en Java avec Aspose.HTML grâce à ce 
 Apprenez à créer un document HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
 ### [Créer un document HTML avec JavaScript intégré – Exemple Java](./create-html-document-with-embedded-javascript-java-example/)
 Apprenez à créer un document HTML contenant du JavaScript intégré en Java avec Aspose.HTML. Guide pas à pas.
+### [Convertir un modèle HTML – guide étape par étape pour les développeurs Java](./convert-html-template-step-by-step-guide-for-java-developers/)
+Apprenez à convertir un modèle HTML en Java avec Aspose.HTML grâce à ce guide complet.
 ### [Charger des documents HTML à partir d'une URL dans Aspose.HTML pour Java](./load-html-documents-from-url/)
 Découvrez comment charger facilement des documents HTML à partir d'une URL en Java avec Aspose.HTML. Tutoriel étape par étape inclus.
 ### [Charger un document HTML avec Aspose – Guide rapide Java pour récupérer le titre de la page](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
@@ -178,6 +180,7 @@ Apprenez à lire des fichiers HTML en Java avec Aspose.HTML grâce à ce guide c
 Apprenez à récupérer le style calculé d'un élément HTML en Java avec Aspose.HTML. Guide complet étape par étape.
 ### [Charger un document HTML en Java – Guide complet avec CSS et requêtes XPath](./load-html-document-java-complete-guide-with-css-xpath-querie/)
 Apprenez à charger des documents HTML en Java, à appliquer du CSS et à interroger le contenu avec XPath grâce à ce guide complet.
+### [Tutoriel de liaison de données de tableau HTML – créer un tableau HTML dynamique](./html-table-data-binding-tutorial-create-a-dynamic-html-table/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

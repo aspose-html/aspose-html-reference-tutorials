@@ -187,6 +187,9 @@ Aspose.HTML for Java 为开发人员提供了功能强大的工具包，旨在�
 本完整指南教您如何使用 Aspose.HTML for Java 获取元素的计算样式，包括示例代码和最佳实践。
 ### [使用 Aspose.HTML 创建 HTML 文档 - 完整 Java 指南](./create-html-document-with-aspose-html-complete-java-guide/)
 本完整指南详细演示如何使用 Aspose.HTML 在 Java 中创建 HTML 文档，涵盖代码示例和最佳实践。
+### [HTML 表格数据绑定教程 – 创建动态 HTML 表格](./html-table-data-binding-tutorial-create-a-dynamic-html-table/)
+学习如何使用 Aspose.HTML for Java 将数据绑定到 HTML 表格并实现动态更新。
+### [在 Aspose.HTML for Java 中转换 HTML 模板 – Java 开发者分步指南](./convert-html-template-step-by-step-guide-for-java-developers/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

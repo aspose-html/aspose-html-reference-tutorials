@@ -403,6 +403,9 @@ Aspose HTML कनवर्टर का उपयोग करके जाव�
 ### [Java में HTML से PDF बनाना – चरण‑दर‑चरण गाइड](./create-pdf-from-html-in-java-step-by-step-guide/)
 Aspose.HTML for Java का उपयोग करके HTML को PDF में बदलने की विस्तृत चरण‑दर‑चरण प्रक्रिया सीखें।
 
+### [Aspose के साथ HTML टेम्पलेट बदलें – चरण‑दर‑चरण गाइड](./convert-html-template-with-aspose-step-by-step-guide/)
+Aspose का उपयोग करके HTML टेम्पलेट को विभिन्न फ़ॉर्मेट में बदलने के लिए विस्तृत चरण‑दर‑चरण मार्गदर्शिका।
+
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **Q: क्या मैं Aspose.HTML for Java को व्यावसायिक एप्लिकेशन में उपयोग कर सकता हूँ?**  

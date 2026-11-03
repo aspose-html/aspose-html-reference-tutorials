@@ -80,12 +80,16 @@ url: /ar/java/creating-managing-html-documents/
 تعرف على كيفية إنشاء مستندات HTML جديدة باستخدام Aspose.HTML for Java من خلال هذا الدليل السهل خطوة بخطوة. ابدأ في إنشاء محتوى HTML ديناميكي.
 ### [تحويل Markdown إلى HTML في Java – دليل سريع باستخدام Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
 تعلم كيفية تحويل ملفات Markdown إلى HTML في Java باستخدام Aspose.HTML في دليل سريع خطوة بخطوة.
+### [تحويل قالب HTML – دليل خطوة بخطوة لمطوري Java](./convert-html-template-step-by-step-guide-for-java-developers/)
+تعلم كيفية تحويل قوالب HTML إلى مستندات جاهزة باستخدام Aspose.HTML لـ Java عبر دليل شامل خطوة بخطوة.
 ### [التعامل مع أحداث تحميل المستندات في Aspose.HTML لـ Java](./handle-document-load-events/)
 تعلم كيفية التعامل مع أحداث تحميل المستندات في Aspose.HTML for Java باستخدام هذا الدليل خطوة بخطوة. قم بتحسين تطبيقات الويب الخاصة بك.
 ### [إنشاء وإدارة مستندات SVG في Aspose.HTML لـ Java](./create-manage-svg-documents/)
 تعلم كيفية إنشاء مستندات SVG وإدارتها باستخدام Aspose.HTML لـ Java! يغطي هذا الدليل الشامل كل شيء بدءًا من الإنشاء الأساسي وحتى المعالجة المتقدمة.
 ### [إنشاء HTML من Markdown في Java – دليل خطوة بخطوة كامل](./create-html-from-markdown-in-java-full-step-by-step-guide/)
 تعلم كيفية تحويل ملفات Markdown إلى مستندات HTML في Java باستخدام Aspose.HTML من خلال دليل شامل خطوة بخطوة.
+### [دليل ربط بيانات جدول HTML – إنشاء جدول HTML ديناميكي](./html-table-data-binding-tutorial-create-a-dynamic-html-table/)
+تعلم كيفية ربط بيانات جدول HTML وإنشاء جدول ديناميكي باستخدام Aspose.HTML لـ Java.
 ### [إنشاء بيئة تجريبية لـ HTML في Java – دليل خطوة بخطوة](./create-sandbox-for-html-in-java-step-by-step-guide/)
 تعلم كيفية إنشاء بيئة تجريبية لمعالجة HTML في Java باستخدام Aspose.HTML من خلال دليل خطوة بخطوة.
 ### [كيفية الاستعلام عن HTML في Java – دليل كامل](./how-to-query-html-in-java-complete-tutorial/)

@@ -89,6 +89,8 @@ Leer hoe u HTML van een URL laadt in Java met CSS‑selectoren en XPath, inclusi
 Leer hoe u nieuwe HTML-documenten maakt met Aspose.HTML voor Java met deze eenvoudige stapsgewijze handleiding. Begin met het genereren van dynamische HTML-inhoud.
 ### [HTML genereren vanuit JavaScript in Java – Complete stapsgewijze handleiding](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Leer hoe u HTML genereert vanuit JavaScript-code in Java met een volledige stap‑voor‑stap handleiding.
+### [HTML-sjabloon converteren – stapsgewijze handleiding voor Java‑ontwikkelaars](./convert-html-template-step-by-step-guide-for-java-developers/)
+Leer hoe u een HTML‑sjabloon omzet naar een dynamisch document met Aspose.HTML voor Java, stap voor stap uitgelegd.
 ### [Documentlaadgebeurtenissen afhandelen in Aspose.HTML voor Java](./handle-document-load-events/)
 Leer hoe u documentlaadgebeurtenissen in Aspose.HTML voor Java kunt verwerken met deze stapsgewijze handleiding. Verbeter uw webapplicaties.
 
@@ -180,6 +182,8 @@ Leer stap voor stap hoe u threads start in Java met Aspose.HTML, inclusief voorb
 Leer hoe u de berekende stijl van HTML‑elementen opvraagt met Aspose.HTML voor Java in deze volledige stap‑voor‑stap gids.
 ### [HTML-document maken met Aspose.HTML - Complete Java-gids](./create-html-document-with-aspose-html-complete-java-guide/)
 Leer stap voor stap hoe u een HTML-document maakt met Aspose.HTML in Java, inclusief volledige codevoorbeelden en best practices.
+### [HTML-tabelgegevensbinding tutorial – maak een dynamische HTML-tabel](./html-table-data-binding-tutorial-create-a-dynamic-html-table/)
+Leer hoe u dynamische HTML-tabellen bindt aan gegevens met Aspose.HTML voor Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

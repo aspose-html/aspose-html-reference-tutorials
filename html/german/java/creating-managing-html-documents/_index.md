@@ -94,6 +94,10 @@ Erfahren Sie, wie Sie mit Aspose.HTML für Java ein HTML‑Dokument Schritt‑f�
 Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.HTML ein HTML‑Dokument in Java komplett erstellen.
 ### [HTML von URL in Java laden – Vollständiger Leitfaden mit CSS & XPath](./load-html-from-url-in-java-complete-guide-with-css-xpath/)
 Entdecken Sie, wie Sie mit Aspose.HTML für Java HTML von einer URL laden und dabei CSS und XPath nutzen. Schritt‑für‑Schritt‑Anleitung.
+### [HTML-Tabellendatenbindung – Erstellen einer dynamischen HTML‑Tabelle](./html-table-data-binding-tutorial-create-a-dynamic-html-table/)
+Lernen Sie, wie Sie mit Aspose.HTML für Java dynamische HTML‑Tabellen erstellen und Datenbindung implementieren.
+### [HTML-Vorlage konvertieren – Schritt‑für‑Schritt‑Anleitung für Java‑Entwickler](./convert-html-template-step-by-step-guide-for-java-developers/)
+Erfahren Sie, wie Sie HTML‑Vorlagen in Aspose.HTML für Java konvertieren – detaillierte Schritt‑für‑Schritt‑Anleitung für Entwickler.
 ### [Sandbox für HTML in Java erstellen – Schritt‑für‑Schritt‑Anleitung](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Erfahren Sie, wie Sie in Aspose.HTML für Java eine sichere Sandbox für HTML erstellen und verwalten – Schritt‑für‑Schritt‑Anleitung.
 ### [Wie man einen Thread in Java startet – Vollständiger Leitfaden](./how-to-start-thread-in-java-complete-guide/)

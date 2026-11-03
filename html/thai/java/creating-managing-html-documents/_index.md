@@ -62,6 +62,8 @@ Aspose.HTML สำหรับ Java นำเสนอชุดเครื่�
 เรียนรู้วิธีสร้าง HTML จากโค้ด JavaScript ใน Java ด้วยคู่มือขั้นตอนเต็มที่อธิบายอย่างละเอียด
 ### [สร้างเอกสาร HTML พร้อม JavaScript ฝังไว้ – ตัวอย่าง Java](./create-html-document-with-embedded-javascript-java-example/)
 เรียนรู้วิธีสร้างเอกสาร HTML ที่ฝัง JavaScript ด้วย Aspose.HTML สำหรับ Java ผ่านตัวอย่างขั้นตอนที่ชัดเจน
+### [บทแนะนำการผูกข้อมูลตาราง HTML – สร้างตาราง HTML แบบไดนามิก](./html-table-data-binding-tutorial-create-a-dynamic-html-table/)
+เรียนรู้วิธีผูกข้อมูลและสร้างตาราง HTML ที่อัปเดตแบบไดนามิกด้วย Aspose.HTML สำหรับ Java
 ### [โหลดเอกสาร HTML จาก URL ใน Aspose.HTML สำหรับ Java](./load-html-documents-from-url/)
 ### [โหลดเอกสาร HTML ใน Java – คู่มือฉบับสมบูรณ์ด้วย XPath & CSS](./load-html-document-java-complete-guide-with-xpath-css/)
 เรียนรู้วิธีโหลดเอกสาร HTML ใน Java พร้อมการใช้ XPath และ CSS อย่างละเอียดในคู่มือฉบับสมบูรณ์
@@ -176,6 +178,9 @@ Aspose.HTML สำหรับ Java นำเสนอชุดเครื่�
 
 ### [โหลดเอกสาร HTML ใน Java – คู่มือฉบับสมบูรณ์พร้อมการสืบค้น CSS & XPath](./load-html-document-java-complete-guide-with-css-xpath-querie/)
 เรียนรู้วิธีโหลดเอกสาร HTML ใน Java พร้อมการสืบค้นด้วย CSS และ XPath อย่างละเอียดในคู่มือขั้นตอนเดียว
+### [แปลงเทมเพลต HTML – คู่มือขั้นตอนต่อขั้นสำหรับนักพัฒนา Java](./convert-html-template-step-by-step-guide-for-java-developers/)
+เรียนรู้วิธีแปลงเทมเพลต HTML เป็นเอกสารที่ปรับแต่งได้สำหรับนักพัฒนา Java ด้วย Aspose.HTML อย่างละเอียด
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

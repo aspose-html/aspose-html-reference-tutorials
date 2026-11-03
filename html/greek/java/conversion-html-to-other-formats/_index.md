@@ -332,6 +332,7 @@ weight: 25
 Μάθετε βήμα‑βήμα πώς να μετατρέψετε HTML σε PDF σε Java χρησιμοποιώντας το Aspose HTML Converter.
 ### [HTML σε PDF Εκπαιδευτικό: Μετατροπή HTML σε PDF με Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-java/)
 Μάθετε πώς να μετατρέψετε HTML σε PDF χρησιμοποιώντας Java και το Aspose.HTML με βήμα‑βήμα οδηγίες.
+### [Μετατροπή προτύπου HTML με Aspose – οδηγός βήμα‑βήμα](./convert-html-template-with-aspose-step-by-step-guide/)
 
 ## Συχνές Ερωτήσεις
 

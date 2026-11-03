@@ -61,6 +61,8 @@ Naučte se načíst soubor XHTML v Javě pomocí XPath s podporou jmenných pros
 Kompletní průvodce načítáním HTML souboru v Javě pomocí Aspose.HTML, s praktickými ukázkami a tipy.
 ### [Pokročilé načítání souborů pro HTML dokumenty v Aspose.HTML pro Java](./advanced-file-loading-html-documents/)
 V tomto podrobném průvodci se dozvíte, jak načítat, manipulovat a ukládat dokumenty HTML pomocí Aspose.HTML for Java. Odemkněte pokročilé zpracování HTML ve svých projektech Java.
+### [Převod HTML šablony – krok‑za‑krokem průvodce pro vývojáře Java](./convert-html-template-step-by-step-guide-for-java-developers/)
+Naučte se převádět HTML šablony v Javě pomocí Aspose.HTML pomocí podrobného průvodce krok za krokem.
 ### [Načtěte HTML dokumenty ze Stream pomocí Aspose.HTML pro Java](./load-html-documents-from-stream/)
 Naučte se načítat HTML dokumenty ze streamů pomocí Aspose.HTML for Java. Tato příručka poskytuje podrobný návod pro bezproblémovou manipulaci s HTML.
 ### [Vytvořte HTML dokumenty z String v Aspose.HTML pro Java](./create-html-documents-from-string/)
@@ -167,6 +169,7 @@ Naučte se, jak pomocí Aspose.HTML v Javě extrahovat název stránky z HTML do
 Naučte se, jak spustit vlákno v Javě pomocí podrobného průvodce krok za krokem.
 ### [Získání vypočteného stylu v Javě – Kompletní programovací průvodce](./get-computed-style-java-complete-programming-guide/)
 Naučte se, jak získat vypočtené CSS styly v Javě pomocí Aspose.HTML s podrobným krok‑za‑krokem průvodcem.
+### [Tutoriál vazby dat tabulky HTML – vytvoření dynamické HTML tabulky](./html-table-data-binding-tutorial-create-a-dynamic-html-table/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

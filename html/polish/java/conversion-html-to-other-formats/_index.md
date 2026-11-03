@@ -362,6 +362,8 @@ Pełny przewodnik, jak w Javie konwertować lokalny plik HTML do PDF przy użyci
 ### [Samouczek HTML do PDF: Konwertuj HTML do PDF w Javie](./html-to-pdf-tutorial-convert-html-to-pdf-with-java/)
 Dowiedz się, jak konwertować HTML do PDF w Javie przy użyciu Aspose.HTML.
 ### [Konwertowanie HTML do PDF przy użyciu Aspose HTML Converter w Javie – Kompletny przewodnik](./convert-html-to-pdf-with-aspose-html-converter-in-java-compl/)
+### [Konwertowanie szablonu HTML przy użyciu Aspose – przewodnik krok po kroku](./convert-html-template-with-aspose-step-by-step-guide/)
+Dowiedz się, jak konwertować szablony HTML przy użyciu Aspose w prostym przewodniku krok po kroku.
 
 ## Często zadawane pytania
 

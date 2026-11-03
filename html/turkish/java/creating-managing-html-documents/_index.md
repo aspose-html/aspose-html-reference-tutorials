@@ -180,6 +180,10 @@ Java için Aspose.HTML kullanarak hesaplanmış stil değerlerini nasıl alacağ
 Aspose.HTML kullanarak Java'da HTML belgesi oluşturmayı adım adım öğrenin. Tam kapsamlı rehber, örnek kodlar ve ipuçları içerir.
 ### [Java için Aspose.HTML'de HTML Belgesi Yükleme – CSS ve XPath Sorgularıyla Tam Kılavuz](./load-html-document-java-complete-guide-with-css-xpath-querie/)
 Java için Aspose.HTML kullanarak CSS ve XPath sorgularıyla HTML belgelerini nasıl yükleyeceğinizi ve sorgulayacağınızı adım adım öğrenin.
+### [Java için Aspose.HTML'de HTML tablo veri bağlama öğreticisi – dinamik bir HTML tablo oluşturma](./html-table-data-binding-tutorial-create-a-dynamic-html-table/)
+Java için Aspose.HTML kullanarak dinamik bir HTML tablo oluşturmayı ve veri bağlamayı adım adım öğrenin.
+### [HTML şablonunu dönüştür – Java geliştiricileri için adım adım kılavuz](./convert-html-template-step-by-step-guide-for-java-developers/)
+Java için Aspose.HTML kullanarak HTML şablonlarını nasıl dönüştüreceğinizi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

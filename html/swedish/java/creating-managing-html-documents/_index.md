@@ -63,6 +63,8 @@ Lär dig hur du skapar HTML-dokument från strängar i Aspose.HTML för Java med
 Lär dig att skapa ett HTML-dokument i Java med Aspose.HTML genom en tydlig steg‑för‑steg‑guide.
 ### [Skapa HTML-dokument med inbäddad JavaScript – Java-exempel](./create-html-document-with-embedded-javascript-java-example/)
 Lär dig hur du skapar ett HTML-dokument med inbäddad JavaScript i Java med Aspose.HTML. Steg‑för‑steg‑guide.
+### [Konvertera HTML-mall – steg‑för‑steg‑guide för Java‑utvecklare](./convert-html-template-step-by-step-guide-for-java-developers/)
+Lär dig hur du konverterar HTML‑mallar i Java med Aspose.HTML i en tydlig steg‑för‑steg‑guide.
 ### [Ladda HTML-dokument från URL i Aspose.HTML för Java](./load-html-documents-from-url/)
 Upptäck hur du enkelt laddar HTML-dokument från en URL i Java med Aspose.HTML. Steg-för-steg handledning ingår.
 ### [Räkna HTML-tecken i Java – Fullständig guide med Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
@@ -185,6 +187,8 @@ Lär dig hur du använder JavaScript för att hämta JSON-data i Java-applikatio
 Lär dig hur du startar och hanterar trådar i Java med en komplett steg-för-steg-guide för effektiv samtidighet.
 ### [Läs HTML-fil i Java – Komplett guide med Aspose.HTML](./read-html-file-java-complete-guide-using-aspose-html/)
 Lär dig hur du läser HTML-filer i Java med Aspose.HTML i denna kompletta steg‑för‑steg‑guide.
+### [HTML-tabellbindning – skapa en dynamisk HTML-tabell](./html-table-data-binding-tutorial-create-a-dynamic-html-table/)
+Lär dig att binda data till HTML-tabeller och skapa dynamiska tabeller i Java med Aspose.HTML. Steg-för-steg-guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

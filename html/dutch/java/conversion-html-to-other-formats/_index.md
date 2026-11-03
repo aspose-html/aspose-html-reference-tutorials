@@ -162,7 +162,8 @@ Leer stap‑voor‑stap hoe u met Aspose.HTML een MHTML‑bestand genereert vanu
 
 ### [HTML naar XPS converteren](./convert-html-to-xps/)
 Leer hoe u HTML moeiteloos naar XPS kunt converteren met Aspose.HTML for Java. Maak cross‑platform documenten met gemak.
-
+### [HTML‑template converteren met Aspose – stapsgewijze gids](./convert-html-template-with-aspose-step-by-step-guide/)
+Leer hoe u een HTML‑template stap voor stap kunt converteren met Aspose in Java.
 ### [Markdown naar HTML converteren](./convert-markdown-to-html/)
 Converteer Markdown naar HTML in Java naadloos met Aspose.HTML for Java. Volg onze stap‑voor‑stap gids om uw documentconversiebehoeften te stroomlijnen.
 ### [PDF maken vanuit Markdown met Aspose HTML Converter (Java)](./create-pdf-from-markdown-using-aspose-html-converter-java/)

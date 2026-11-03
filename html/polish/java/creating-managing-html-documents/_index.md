@@ -177,6 +177,10 @@ Dowiedz się, jak uruchomić wątek w Javie, krok po kroku, z praktycznymi przyk
 Dowiedz się, jak uzyskać obliczony styl elementu HTML w Javie przy użyciu Aspose.HTML. Przewodnik krok po kroku.
 ### [Ładowanie dokumentu HTML w Javie – Kompletny przewodnik z zapytaniami CSS i XPath](./load-html-document-java-complete-guide-with-css-xpath-querie/)
 Kompletny przewodnik, jak ładować dokumenty HTML w Javie oraz wykonywać zapytania CSS i XPath w Aspose.HTML.
+### [Samouczek wiązania danych tabeli HTML – tworzenie dynamicznej tabeli HTML](./html-table-data-binding-tutorial-create-a-dynamic-html-table/)
+Dowiedz się, jak powiązać dane z tabelą HTML i dynamicznie generować jej zawartość w Javie przy użyciu Aspose.HTML.
+### [Konwertuj szablon HTML – przewodnik krok po kroku dla programistów Java](./convert-html-template-step-by-step-guide-for-java-developers/)
+Dowiedz się, jak konwertować szablony HTML w Javie przy użyciu Aspose.HTML, krok po kroku, z praktycznymi przykładami.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

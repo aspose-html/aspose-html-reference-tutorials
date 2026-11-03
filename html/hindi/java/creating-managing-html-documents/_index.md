@@ -170,6 +170,8 @@ Java में थ्रेड शुरू करने की पूरी प
 Java में Computed Style प्राप्त करने के लिए चरण‑दर‑चरण मार्गदर्शिका, विस्तृत कोड उदाहरण और सर्वोत्तम प्रथाएँ।
 ### [Java में HTML दस्तावेज़ लोड करें – CSS और XPath क्वेरी के साथ पूर्ण गाइड](./load-html-document-java-complete-guide-with-css-xpath-querie/)
 Aspose.HTML के साथ Java में HTML दस्तावेज़ लोड करना सीखें, CSS सेलेक्टर और XPath क्वेरी के साथ उन्नत डेटा निकालें।
+### [HTML तालिका डेटा बाइंडिंग ट्यूटोरियल – गतिशील HTML तालिका बनाएं](./html-table-data-binding-tutorial-create-a-dynamic-html-table/)
+### [Java के लिए Aspose.HTML में HTML टेम्प्लेट रूपांतरण – चरण‑दर‑चरण गाइड](./convert-html-template-step-by-step-guide-for-java-developers/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

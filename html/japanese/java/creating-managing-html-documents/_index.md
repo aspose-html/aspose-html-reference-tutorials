@@ -73,6 +73,9 @@ Java で URL から HTML を取得し、CSS セレクタと XPath で要素を�
 ### [fetch json javascript – HTML ドキュメント作成の完全 Java ガイド](./fetch-json-javascript-complete-java-guide-to-create-html-doc/)
 ### [Aspose.HTML for Java でドキュメント読み込みイベントを処理する](./handle-document-load-events/)
 ### [Aspose.HTML for Java で SVG ドキュメントを作成および管理する](./create-manage-svg-documents/)
+Aspose.HTML for Java を使用して SVG ドキュメントを作成および管理する方法を学びます。この包括的なガイドでは、基本的な作成から高度な操作まですべてをカバーしています。
+### [HTML テンプレートの変換 – Java 開発者向けステップバイステップ ガイド](./convert-html-template-step-by-step-guide-for-java-developers/)
+HTML テンプレートを変換し、Java アプリケーションで再利用する方法を段階的に解説します。
 ### [Java で HTML のサンドボックスを作成する – ステップバイステップ ガイド](./create-sandbox-for-html-in-java-step-by-step-guide/)
 ### [Java で HTML を読み込む方法 – ステップバイステップ ガイド](./how-to-load-html-in-java-step-by-step-guide/)
 Java アプリで HTML を簡単に読み込む手順をステップバイステップで解説します。
@@ -161,6 +164,8 @@ Java で計算済みスタイルを取得する方法をステップバイステ
 Aspose.HTML for Java を使い、HTML ドキュメントを最初から作成する手順を詳細に解説した完全ガイドです。
 ### [Java で HTML ドキュメントを読み込む – CSS と XPath クエリの完全ガイド](./load-html-document-java-complete-guide-with-css-xpath-querie/)
 CSS と XPath を活用して、Java で HTML ドキュメントを読み込み、クエリする方法をステップバイステップで解説します。
+### [HTML テーブル データ バインディング チュートリアル – 動的 HTML テーブルの作成](./html-table-data-binding-tutorial-create-a-dynamic-html-table/)
+HTML テーブルにデータをバインドし、動的に生成・更新する方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

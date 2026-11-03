@@ -176,6 +176,10 @@ Impara a creare e gestire thread in Java con Aspose.HTML, passo dopo passo, incl
 Scopri come estrarre testo da documenti HTML in Java usando Aspose.HTML con una guida passo‑passo completa.
 ### [Carica documento HTML Java – Guida completa con query CSS e XPath](./load-html-document-java-complete-guide-with-css-xpath-querie/)
 Scopri come caricare documenti HTML in Java usando Aspose.HTML, con esempi di query CSS e XPath per estrarre dati in modo efficace.
+### [Tutorial di binding dei dati di una tabella HTML – crea una tabella HTML dinamica](./html-table-data-binding-tutorial-create-a-dynamic-html-table/)
+Impara a collegare dati a una tabella HTML e generare tabelle dinamiche in Java con Aspose.HTML.
+### [Converti modello HTML – guida passo‑a‑passo per sviluppatori Java](./convert-html-template-step-by-step-guide-for-java-developers/)
+Impara a convertire template HTML in Java con Aspose.HTML, seguendo una guida dettagliata passo‑a‑passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

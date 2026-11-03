@@ -346,6 +346,8 @@ Aspose.HTML を使用して C# で HTML ファイルを PDF に変換する手�
 ### [JavaでHTMLファイルをPDFに変換する方法 – 完全ガイド](./how-to-convert-html-file-to-pdf-in-java-complete-guide/)
 ### [ローカルHTMLファイルをPDFに変換 – 完全Javaガイド](./convert-local-html-file-to-pdf-complete-java-guide/)
 Aspose.HTML を使用して Java でローカル HTML ファイルを PDF に変換する完全ガイドです。
+### [Aspose を使用した HTML テンプレート変換 – ステップバイステップガイド](./convert-html-template-with-aspose-step-by-step-guide/)
+Aspose.HTML を使って HTML テンプレートを変換する手順を詳しく解説します。
 
 ## よくある質問
 

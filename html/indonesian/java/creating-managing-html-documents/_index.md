@@ -171,6 +171,11 @@ Pelajari cara mendapatkan gaya terhitung pada elemen HTML menggunakan Aspose.HTM
 Panduan lengkap untuk membuat dokumen HTML menggunakan Aspose.HTML di Java, langkah demi langkah dengan contoh kode.
 ### [Muat Dokumen HTML Java – Panduan Lengkap dengan CSS & XPath](./load-html-document-java-complete-guide-with-css-xpath-querie/)
 
+### [Tutorial Pengikatan Data Tabel HTML – Buat Tabel HTML Dinamis di Aspose.HTML untuk Java](./html-table-data-binding-tutorial-create-a-dynamic-html-table/)
+Pelajari cara mengikat data ke tabel HTML dan membuat tabel dinamis menggunakan Aspose.HTML untuk Java dalam panduan langkah demi langkah.
+
+### [Mengonversi templat HTML – panduan langkah‑per‑langkah untuk pengembang Java](./convert-html-template-step-by-step-guide-for-java-developers/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -167,6 +167,9 @@ Java 애플리케이션에서 JavaScript를 활용해 JSON 데이터를 가져�
 Java에서 스레드를 시작하는 방법을 단계별로 안내하는 완전 가이드입니다.
 ### [Java용 Aspose.HTML에서 Computed Style 가져오기 – 완전 프로그래밍 가이드](./get-computed-style-java-complete-programming-guide/)
 Aspose.HTML for Java를 사용하여 Computed Style을 가져오는 방법을 단계별로 안내합니다. 완전한 프로그래밍 가이드.
+### [HTML 테이블 데이터 바인딩 튜토리얼 – 동적 HTML 테이블 만들기](./html-table-data-binding-tutorial-create-a-dynamic-html-table/)
+### [HTML 템플릿 변환 – Java 개발자를 위한 단계별 가이드](./convert-html-template-step-by-step-guide-for-java-developers/)
+Java 개발자를 위한 HTML 템플릿 변환 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
