@@ -62,6 +62,8 @@ Leer hoe u Clear Type en de smoothing-modus inschakelt voor scherpere tekstweerg
 Leer hoe u Word-documenten in C# naar PDF converteert met een duidelijke, stap‑voor‑stap handleiding.
 ### [Maak vet cursief lettertype in C# – stapsgewijze handleiding](./create-bold-italic-font-in-c-step-by-step-guide/)
 Leer hoe u een vet cursief lettertype maakt in C# met Aspose.HTML, stap voor stap.
+### [HTML opslaan als ZIP met een aangepaste resourcehandler in C#](./save-html-as-zip-with-a-custom-resource-handler-in-c/)
+Leer hoe u HTML-documenten als ZIP-bestand opslaat met een aangepaste resourcehandler in C#, inclusief voorbeeldcode en implementatietips.
 
 ## Conclusie
 

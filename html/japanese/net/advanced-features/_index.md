@@ -61,6 +61,9 @@ C# を使用して Word 文書を PDF に変換する手順を、クリアテキ
 ### [C# で HTML を ZIP に保存 – Aspose を使用した ZIP アーカイブ作成](./save-html-to-zip-with-c-create-zip-archive-c-using-aspose/)
 Aspose.HTML を使用して HTML コンテンツを ZIP アーカイブに圧縮し、C# で保存する方法をステップバイステップで解説します。
 ### [C# で太字斜体フォントを作成する – ステップバイステップ ガイド](./create-bold-italic-font-in-c-step-by-step-guide/)
+### [C# でカスタム リソース ハンドラを使用して HTML を ZIP として保存する](./save-html-as-zip-with-a-custom-resource-handler-in-c/)
+C# でカスタム リソース ハンドラを使用して HTML を ZIP 形式で保存する方法を学びます。
+
 
 ## 結論
 

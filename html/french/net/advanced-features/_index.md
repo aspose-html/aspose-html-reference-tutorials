@@ -72,6 +72,8 @@ Apprenez à convertir des documents Word en PDF en C# avec Aspose.HTML, grâce �
 Apprenez à sauvegarder des fichiers HTML dans une archive ZIP en C# avec Aspose.HTML. Tutoriel pas à pas avec exemples de code.
 ### [Créer une police gras italique en C# – guide étape par étape](./create-bold-italic-font-in-c-step-by-step-guide/)
 Apprenez à créer une police en gras et italique en C# avec Aspose.HTML, grâce à un guide détaillé pas à pas.
+### [Enregistrer le HTML en ZIP avec un gestionnaire de ressources personnalisé en C#](./save-html-as-zip-with-a-custom-resource-handler-in-c/)
+Apprenez à sauvegarder des documents HTML en archive ZIP en utilisant un gestionnaire de ressources personnalisé avec Aspose.HTML pour .NET.
 
 ## Conclusion
 

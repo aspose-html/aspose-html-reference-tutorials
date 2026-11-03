@@ -61,6 +61,9 @@ Ismerje meg, hogyan konvertálhat Word dokumentumot PDF-be C#-ban az Aspose.HTML
 Ismerje meg, hogyan menthet HTML-fájlokat zip-archívumba C#-ban az Aspose HTML segítségével.
 ### [Félkövér dőlt betű létrehozása C#‑ban – lépésről‑lépésre útmutató](./create-bold-italic-font-in-c-step-by-step-guide/)
 Tanulja meg, hogyan hozhat létre félkövér és dőlt betűstílusú szöveget C#‑ban az Aspose.HTML segítségével, részletes lépésekkel.
+### [HTML mentése ZIP-fájlba egy egyedi erőforráskezelővel C#-ban](./save-html-as-zip-with-a-custom-resource-handler-in-c/)
+Mentse el a HTML-t ZIP-archívumba egy egyedi erőforráskezelő segítségével C#-ban.
+
 
 ## Következtetés
 

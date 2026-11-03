@@ -70,6 +70,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML HTML in ein ZIP-Archiv komprimieren und in
 ### [Erstellen Sie fette und kursive Schrift in C# – Schritt‑für‑Schritt‑Anleitung](./create-bold-italic-font-in-c-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML fette und kursive Schriftarten in C# programmieren – kompakte Anleitung mit Beispielen.
 
+### [HTML als ZIP speichern mit einem benutzerdefinierten Ressourcen-Handler in C#](./save-html-as-zip-with-a-custom-resource-handler-in-c/)
+
 ## Abschluss
 
 Aspose.HTML für .NET öffnet Ihnen die Tür zu einer Welt voller Möglichkeiten, wenn es um die Arbeit mit HTML-Dokumenten in Ihren .NET-Anwendungen geht. Diese Tutorials zu erweiterten Funktionen vermitteln Ihnen das Wissen und die Fähigkeiten, die Sie benötigen, um das volle Potenzial von Aspose.HTML auszuschöpfen. Verbessern Sie Ihre Entwicklungsprojekte, sparen Sie Zeit und erstellen Sie bemerkenswerte Lösungen mit Aspose.HTML für .NET. Beginnen Sie noch heute mit unseren Tutorials und bringen Sie Ihre Webentwicklung auf die nächste Stufe.

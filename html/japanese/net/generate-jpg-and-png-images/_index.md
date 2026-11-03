@@ -150,6 +150,8 @@ Aspose.HTML for .NET を利用し、HTML から高品質な PNG 画像を生成�
 ### [C# で HTML を PNG にレンダリングする完全ガイド](./render-html-to-png-in-c-complete-guide/)
 ### [Aspose.HTML を使用して C# で HTML から PNG を作成する](./create-png-from-html-in-c-using-aspose-html/)
 Aspose.HTML for .NET を使用して C# で HTML を PNG 画像に変換する方法を学びます。
+### [C# で Aspose を使用して HTML を PNG にレンダリングする方法](./how-to-use-aspose-to-render-html-to-png-in-c/)
+C# で Aspose.HTML を利用し、HTML を PNG 画像に変換する手順を解説します。
 
 ## 結論
 

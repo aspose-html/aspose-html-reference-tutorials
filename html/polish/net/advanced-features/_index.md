@@ -62,6 +62,8 @@ Dowiedz się, jak konwertować dokumenty Word do PDF w C# przy użyciu Aspose.HT
 Dowiedz się, jak zapisać plik HTML do archiwum ZIP w C# przy użyciu biblioteki Aspose, krok po kroku.
 ### [Utwórz pogrubioną i kursywną czcionkę w C# – przewodnik krok po kroku](./create-bold-italic-font-in-c-step-by-step-guide/)
 Dowiedz się, jak programowo tworzyć czcionki pogrubione i kursywne w C# przy użyciu Aspose.HTML.
+### [Zapisz HTML jako ZIP z niestandardowym obsługiwaczem zasobów w C#](./save-html-as-zip-with-a-custom-resource-handler-in-c/)
+Dowiedz się, jak zapisać dokument HTML jako plik ZIP, korzystając z własnego obsługiwacza zasobów w C#.
 
 ## Wniosek
 

@@ -62,6 +62,8 @@ Aspose.HTML for .NET 是一款功能强大的工具，允许开发人员以编�
 了解如何使用 Aspose.HTML for .NET 将 HTML 内容压缩为 ZIP 文件，并在 C# 中创建归档。
 ### [在 C# 中创建粗斜体字体 – 步骤指南](./create-bold-italic-font-in-c-step-by-step-guide/)
 了解如何在 C# 中使用 Aspose.HTML 创建粗斜体字体的步骤指南。
+### [在 C# 中使用自定义资源处理程序将 HTML 保存为 ZIP](./save-html-as-zip-with-a-custom-resource-handler-in-c/)
+学习如何在 C# 中使用自定义资源处理程序将 HTML 内容打包为 ZIP 文件，以便更高效地管理资源。
 
 ## 结论
 

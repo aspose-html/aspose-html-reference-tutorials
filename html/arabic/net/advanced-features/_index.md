@@ -63,6 +63,8 @@ Aspose.HTML for .NET هي أداة قوية تتيح للمطورين العمل
 
 ### [إنشاء خط عريض مائل في C# – دليل خطوة بخطوة](./create-bold-italic-font-in-c-step-by-step-guide/)
 تعلم كيفية إنشاء خطوط عريضة ومائلة برمجيًا في C# باستخدام Aspose.HTML لتصميم مستندات HTML غنية.
+### [حفظ HTML كملف ZIP مع معالج موارد مخصص في C#](./save-html-as-zip-with-a-custom-resource-handler-in-c/)
+تعلم كيفية حفظ مستند HTML كملف ZIP باستخدام معالج موارد مخصص في C# مع Aspose.HTML.
 
 ## خاتمة
 

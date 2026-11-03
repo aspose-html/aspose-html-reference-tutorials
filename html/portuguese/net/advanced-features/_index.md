@@ -62,6 +62,8 @@ Aprenda a converter documentos Word em PDFs usando Aspose.HTML para .NET, manten
 Aprenda a salvar documentos HTML em um arquivo ZIP usando C# e Aspose.HTML, com exemplos passo a passo.
 ### [Criar fonte negrito itálico em C# – guia passo a passo](./create-bold-italic-font-in-c-step-by-step-guide/)
 Aprenda a criar fontes em negrito e itálico programaticamente em C# usando Aspose.HTML, com exemplos passo a passo.
+### [Salvar HTML como ZIP com um manipulador de recursos personalizado em C#](./save-html-as-zip-with-a-custom-resource-handler-in-c/)
+Aprenda a salvar documentos HTML como arquivos ZIP usando um manipulador de recursos personalizado em C# com Aspose.HTML.
 
 ## Conclusão
 

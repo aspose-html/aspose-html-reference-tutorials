@@ -64,6 +64,9 @@ Hướng dẫn từng bước chuyển đổi tài liệu Word sang PDF bằng A
 Hướng dẫn cách lưu tài liệu HTML vào tệp ZIP bằng C# và Aspose, bao gồm các bước tạo và nén tệp zip một cách hiệu quả.
 ### [Tạo phông chữ in đậm nghiêng trong C# – hướng dẫn từng bước](./create-bold-italic-font-in-c-step-by-step-guide/)
 Hướng dẫn chi tiết cách tạo phông chữ in đậm và nghiêng trong C# bằng Aspose.HTML, bao gồm các bước thực hiện và ví dụ thực tế.
+### [Lưu HTML dưới dạng ZIP với trình xử lý tài nguyên tùy chỉnh trong C#](./save-html-as-zip-with-a-custom-resource-handler-in-c/)
+Hướng dẫn cách lưu tài liệu HTML thành tệp ZIP và sử dụng trình xử lý tài nguyên tùy chỉnh trong C# bằng Aspose.HTML.
+
 
 ## Phần kết luận
 

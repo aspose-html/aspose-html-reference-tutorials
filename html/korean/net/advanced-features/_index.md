@@ -63,6 +63,7 @@ Aspose.HTML을 사용하여 C#에서 Word 문서를 PDF로 변환하는 방법�
 Aspose.HTML를 사용하여 C#에서 HTML 파일을 ZIP 아카이브로 압축하는 방법을 단계별로 안내합니다.
 ### [C#에서 굵은 이탤릭 글꼴 만들기 – 단계별 가이드](./create-bold-italic-font-in-c-step-by-step-guide/)
 C#을 사용해 굵은 이탤릭체 글꼴을 생성하는 방법을 단계별로 안내합니다.
+### [C#에서 사용자 지정 리소스 핸들러로 HTML을 ZIP으로 저장](./save-html-as-zip-with-a-custom-resource-handler-in-c/)
 
 ## 결론
 

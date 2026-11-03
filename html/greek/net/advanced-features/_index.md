@@ -51,7 +51,8 @@ url: /el/net/advanced-features/
 
 ### [Χρήση προτύπων HTML σε .NET με Aspose.HTML](./using-html-templates/)
 Μάθετε πώς να χρησιμοποιείτε το Aspose.HTML για .NET για τη δυναμική δημιουργία εγγράφων HTML από δεδομένα JSON. Αξιοποιήστε τη δύναμη του χειρισμού HTML στις εφαρμογές σας .NET.
-
+### [Αποθήκευση HTML ως ZIP με προσαρμοσμένο διαχειριστή πόρων σε C#](./save-html-as-zip-with-a-custom-resource-handler-in-c/)
+Μάθετε πώς να αποθηκεύετε HTML σε αρχείο ZIP χρησιμοποιώντας προσαρμοσμένο διαχειριστή πόρων με Aspose.HTML για .NET σε C#.
 ### [Πώς να συνδυάσετε γραμματοσειρές προγραμματιστικά σε C# – Οδηγός βήμα‑βήμα](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
 ### [Λήψη έκδοσης συναρμολόγησης σε C# – Σύντομος οδηγός για ανάκτηση έκδοσης βιβλιοθήκης](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
 Μάθετε πώς να διαβάζετε την έκδοση μιας βιβλιοθήκης .NET χρησιμοποιώντας C#.

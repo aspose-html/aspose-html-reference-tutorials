@@ -70,6 +70,8 @@ Learn how to enable ClearType and set smoothing mode in .NET using Aspose.HTML f
 Learn how to save HTML content into a ZIP archive using Aspose.HTML in C#, with step-by-step code examples.
 ### [Create bold italic font in C# – step‑by‑step guide](./create-bold-italic-font-in-c-step-by-step-guide/)
 Learn how to generate bold and italic fonts in C# using Aspose.HTML, with step‑by‑step code examples and best practices.
+### [Save HTML as ZIP with a custom resource handler in C#](./save-html-as-zip-with-a-custom-resource-handler-in-c/)
+Learn how to save HTML output as a ZIP archive using a custom resource handler in C# with Aspose.HTML.
 
 ## Conclusion
 

@@ -61,6 +61,8 @@ Pelajari cara mengaktifkan Clear Type dan mode smoothing pada rendering teks di 
 Pelajari cara menyimpan file HTML ke dalam arsip ZIP menggunakan Aspose.HTML di C#, lengkap dengan contoh kode langkah demi langkah.
 ### [Buat Font Tebal Miring di C# – Panduan Langkah‑demi‑Langkah](./create-bold-italic-font-in-c-step-by-step-guide/)
 Pelajari cara membuat font tebal miring di C# dengan panduan langkah demi langkah menggunakan Aspose.HTML.
+### [Simpan HTML sebagai ZIP dengan penangan sumber daya khusus di C#](./save-html-as-zip-with-a-custom-resource-handler-in-c/)
+Pelajari cara menyimpan dokumen HTML sebagai file ZIP menggunakan penangan sumber daya khusus di C# dengan Aspose.HTML.
 
 ## Kesimpulan
 

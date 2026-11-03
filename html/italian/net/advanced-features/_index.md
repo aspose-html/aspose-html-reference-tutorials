@@ -63,6 +63,7 @@ Impara a convertire documenti Word in PDF usando Aspose.HTML per .NET con esempi
 Impara a comprimere file HTML in un archivio ZIP usando Aspose.HTML per .NET con C#.
 ### [Crea font grassetto corsivo in C# – guida passo‑a‑passo](./create-bold-italic-font-in-c-step-by-step-guide/)
 Impara a creare font grassetto e corsivo in C# con Aspose.HTML, passo dopo passo, con esempi pratici.
+### [Salva HTML come ZIP con un gestore di risorse personalizzato in C#](./save-html-as-zip-with-a-custom-resource-handler-in-c/)
 
 ## Conclusione
 

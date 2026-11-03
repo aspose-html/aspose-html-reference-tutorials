@@ -63,6 +63,8 @@ Naučte se převádět soubory Word do PDF pomocí Aspose.HTML v C# s podrobným
 Naučte se, jak pomocí Aspose.HTML v C# uložit HTML soubor do ZIP archivu a spravovat kompresi.
 ### [Vytvořte tučné kurzívní písmo v C# – krok za krokem](./create-bold-italic-font-in-c-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.HTML v C# vytvořit text s tučným a kurzívním stylem.
+### [Uložte HTML jako ZIP s vlastním manipulátorem zdrojů v C#](./save-html-as-zip-with-a-custom-resource-handler-in-c/)
+Naučte se pomocí Aspose.HTML vytvořit ZIP archiv HTML s vlastním handlerem pro zdroje v C#.
 
 ## Závěr
 
