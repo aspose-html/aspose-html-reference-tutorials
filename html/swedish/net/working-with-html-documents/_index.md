@@ -46,6 +46,9 @@ Lär dig spara HTML i C# med en anpassad resurs‑hanterare och generera komplet
 ### [Hur man sparar HTML – Komplett guide för Aspose HTMLDocument](./how-to-save-html-aspose-htmldocument-complete-guide/)
 
 Lär dig spara HTML med Aspose HTMLDocument och skapa kompletta HTML‑filer programatiskt.
+### [Hur man sparar HTML i C# – Komplett guide med anpassad output‑lagring](./how-to-save-html-in-c-complete-guide-with-custom-output-stor/)
+
+Lär dig spara HTML i C# med en anpassad output‑lagring och generera kompletta HTML‑filer programatiskt.
 
 ### [Hur du gör rubriker fetstil med CSS & C# – Komplett steg‑för‑steg‑guide](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 

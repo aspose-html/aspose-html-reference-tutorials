@@ -149,6 +149,8 @@ C#을 사용해 Word 문서를 JPEG 이미지로 변환하는 전체 단계별 �
 HTML을 PNG 이미지로 변환하는 전체 과정을 단계별로 안내합니다.
 ### [Aspose.HTML을 사용하여 HTML에서 PNG 생성 – .NET 가이드](./create-png-from-html-with-aspose-html-net-guide/)
 Aspose.HTML for .NET을 사용해 HTML을 PNG 이미지로 변환하는 방법을 단계별로 안내합니다.
+### [Aspose.Html으로 HTML에서 PNG 생성 – 완전한 C# 가이드](./create-png-from-html-with-aspose-html-complete-c-guide/)
+Aspose.Html을 사용해 HTML을 PNG 이미지로 변환하는 전체 C# 가이드를 단계별로 안내합니다.
 
 ## 결론
 

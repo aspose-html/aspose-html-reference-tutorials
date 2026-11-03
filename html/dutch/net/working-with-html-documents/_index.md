@@ -41,6 +41,9 @@ Laten we nu uw vaardigheden naar een hoger niveau tillen. Het bewerken van HTML-
 ### [HTML opslaan in C# – Complete stapsgewijze handleiding](./how-to-save-html-in-c-complete-step-by-step-guide/)
 
 Leer hoe u HTML-bestanden opslaat in C# met een gedetailleerde, stap‑voor‑stap handleiding.
+### [HTML opslaan in C# – Complete gids met aangepaste outputopslag](./how-to-save-html-in-c-complete-guide-with-custom-output-stor/)
+
+Leer hoe u HTML-bestanden opslaat in C# met een aangepaste opslagoplossing, stap voor stap met voorbeeldcode.
 
 ### [Koptekst vet maken met CSS & C# – Complete stapsgewijze handleiding](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 ### [HTML opslaan in C# – Aangepaste resourcehandlers & ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)

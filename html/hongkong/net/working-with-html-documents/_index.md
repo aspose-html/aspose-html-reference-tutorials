@@ -69,6 +69,8 @@ HTML 文件是網路的支柱，能夠有效地創建和操作它們對於任何
 
 本教學說明如何在記憶體中使用 Aspose.HTML 建立和操作 HTML 文件，無需寫入磁碟。
 
+### [如何在 C# 中保存 HTML – 使用自訂輸出儲存的完整指南](./how-to-save-html-in-c-complete-guide-with-custom-output-stor/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

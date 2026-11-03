@@ -149,6 +149,8 @@ Pelajari cara mengonversi dokumen Word menjadi gambar JPEG menggunakan C# dengan
 Pelajari cara merender HTML menjadi gambar PNG dengan panduan lengkap langkah demi langkah menggunakan Aspose.HTML untuk .NET.
 ### [Buat PNG dari HTML dengan Aspose.HTML – Panduan .NET](./create-png-from-html-with-aspose-html-net-guide/)
 Pelajari cara mengonversi HTML menjadi gambar PNG menggunakan Aspose.HTML untuk .NET dalam panduan langkah demi langkah.
+### [Buat PNG dari HTML dengan Aspose.Html – Panduan Lengkap C#](./create-png-from-html-with-aspose-html-complete-c-guide/)
+Pelajari cara mengonversi HTML menjadi gambar PNG menggunakan Aspose.HTML dengan contoh kode lengkap dalam C#.
 
 ## Kesimpulan
 

@@ -48,6 +48,7 @@ Aspose.HTML を使って C# で HTML ドキュメントをロードし、操作�
 
 Aspose.HTML を使ってメモリ上に HTML ドキュメントを作成し、保存せずに操作する方法をステップバイステップで解説します。
 
+### [C# で HTML を保存する方法 – カスタム出力ストレージ完全ガイド](./how-to-save-html-in-c-complete-guide-with-custom-output-stor/)
 
 ### [CSS と C# で見出しを太字にする方法 – 完全ステップバイステップガイド](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 ### [C# で HTML を保存する方法 – カスタム リソース ハンドラと ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)

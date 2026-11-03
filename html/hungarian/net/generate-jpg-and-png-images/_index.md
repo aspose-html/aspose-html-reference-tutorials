@@ -142,6 +142,8 @@ Ismerje meg, hogyan konvertálhat Word dokumentumokat JPEG képekké C#-ban az A
 Ismerje meg, hogyan konvertálhat HTML-t PNG képpé a részletes, lépésről‑lépésre útmutató segítségével az Aspose.HTML for .NET használatával.
 ### [PNG létrehozása HTML-ből az Aspose.HTML segítségével – .NET útmutató](./create-png-from-html-with-aspose-html-net-guide/)
 Ismerje meg, hogyan konvertálhat HTML-t PNG képpé az Aspose.HTML for .NET használatával, lépésről lépésre útmutató.
+### [PNG létrehozása HTML-ből az Aspose.Html segítségével – Teljes C# útmutató](./create-png-from-html-with-aspose-html-complete-c-guide/)
+Ismerje meg, hogyan konvertálhat HTML-t PNG képpé C#-ban az Aspose.Html teljes körű útmutatója segítségével.
 
 ## Következtetés
 

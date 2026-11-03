@@ -42,6 +42,9 @@ Apprenez à enregistrer du HTML en C# en utilisant un gestionnaire de ressources
 ### [Créer un document HTML en C# – Guide complet avec un gestionnaire de ressources personnalisé](./create-html-document-c-complete-guide-with-custom-resource-h/)
 
 Apprenez à créer un document HTML en C# en utilisant un gestionnaire de ressources personnalisé pour contrôler le flux de sortie et les ressources liées.
+### [Comment enregistrer du HTML en C# – Guide complet avec un stockage de sortie personnalisé](./how-to-save-html-in-c-complete-guide-with-custom-output-stor/)
+
+Apprenez à enregistrer du HTML en C# en utilisant un stockage de sortie personnalisé pour gérer le flux et les ressources associées.
 
 ### [Comment mettre en gras un titre avec CSS & C# – Guide complet étape par étape](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 ### [Comment zipper du HTML en C# – Guide complet pour créer une archive ZIP](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)

@@ -147,6 +147,8 @@ Aspose.HTML для .NET предлагает простой метод прео�
 Подробное руководство по преобразованию HTML в PNG с использованием Aspose.HTML для .NET, включая настройки и примеры кода.
 ### [Создание PNG из HTML с Aspose.HTML – руководство для .NET](./create-png-from-html-with-aspose-html-net-guide/)
 Узнайте, как преобразовать HTML в PNG с помощью Aspose.HTML в .NET, следуя пошаговым инструкциям.
+### [Создание PNG из HTML с Aspose.HTML – Полное руководство на C#](./create-png-from-html-with-aspose-html-complete-c-guide/)
+Подробное руководство по созданию PNG из HTML с помощью Aspose.HTML в C#, включая настройку, параметры и примеры кода.
 
 ## Заключение
 

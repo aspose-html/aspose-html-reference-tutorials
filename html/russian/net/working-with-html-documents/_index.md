@@ -42,9 +42,9 @@ HTML-документы являются основой Интернета, и �
 ### [Создание HTML‑документа в памяти с Aspose.HTML – Полное руководство](./create-in-memory-html-document-with-aspose-html-complete-gui/)
 
 ### [Как сохранить HTML в C# – Полное руководство с использованием пользовательского обработчика ресурсов](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
-
 ### [Как сохранить HTML в C# с пользовательским обработчиком ресурсов](./how-to-save-html-in-c-with-custom-resource-handler/)
 
+### [Как сохранить HTML в C# – Полное руководство с пользовательским хранилищем вывода](./how-to-save-html-in-c-complete-guide-with-custom-output-stor/)
 ### [Как сделать заголовок жирным с помощью CSS и C# – Полное пошаговое руководство](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 ### [Как сохранить HTML в C# – Пользовательские обработчики ресурсов и ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
 

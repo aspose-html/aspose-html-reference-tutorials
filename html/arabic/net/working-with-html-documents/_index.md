@@ -41,6 +41,7 @@ url: /ar/net/working-with-html-documents/
 
 ### [كيفية حفظ HTML كملف ZIP في C# – دليل كامل باستخدام معالج موارد مخصص](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
 ### [إنشاء مستند HTML C# – دليل كامل مع معالج موارد مخصص](./create-html-document-c-complete-guide-with-custom-resource-h/)
+### [كيفية حفظ HTML في C# – دليل كامل مع تخزين مخرجات مخصص](./how-to-save-html-in-c-complete-guide-with-custom-output-stor/)
 
 ### [كيفية جعل العنوان غامقًا باستخدام CSS و C# – دليل خطوة بخطوة كامل](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 ### [كيفية حفظ HTML في C# – معالجات الموارد المخصصة وZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)

@@ -82,6 +82,10 @@ Dowiedz się, jak zapisać dokument HTML bezpośrednio do archiwum ZIP w pamięc
 
 ### [Tworzenie dokumentu HTML w pamięci przy użyciu Aspose.HTML – Kompletny przewodnik](./create-in-memory-html-document-with-aspose-html-complete-gui/)
 
+### [Jak zapisać HTML w C# – Kompletny przewodnik z własnym magazynem wyjściowym](./how-to-save-html-in-c-complete-guide-with-custom-output-stor/)
+
+Poznaj metodę zapisu HTML w C# z własnym magazynem wyjściowym, dającą pełną kontrolę nad przechowywaniem wyników.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

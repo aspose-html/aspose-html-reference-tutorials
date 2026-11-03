@@ -149,6 +149,8 @@ Pełny przewodnik, jak konwertować dokumenty Word do formatu JPEG w C# przy uż
 Pełny przewodnik, jak przekształcić kod HTML w obraz PNG przy użyciu Aspose.HTML dla .NET.
 ### [Utwórz PNG z HTML przy użyciu Aspose.HTML – przewodnik .NET](./create-png-from-html-with-aspose-html-net-guide/)
 Dowiedz się, jak konwertować HTML na obrazy PNG w .NET przy użyciu Aspose.HTML w kilku prostych krokach.
+### [Utwórz PNG z HTML przy użyciu Aspose.HTML – Kompletny przewodnik C#](./create-png-from-html-with-aspose-html-complete-c-guide/)
+Krok po kroku pokażemy, jak wygenerować plik PNG z kodu HTML w C# przy użyciu biblioteki Aspose.HTML.
 
 ## Wniosek
 

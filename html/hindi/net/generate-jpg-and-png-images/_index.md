@@ -151,6 +151,8 @@ Word दस्तावेज़ को JPEG इमेज में बदलन
 HTML को PNG में बदलने के लिए पूर्ण चरण‑दर‑चरण मार्गदर्शिका, जिसमें सेटअप, कोड उदाहरण और सर्वोत्तम प्रथाएँ शामिल हैं।
 ### [Aspose.HTML के साथ HTML से PNG बनाएं – .NET गाइड](./create-png-from-html-with-aspose-html-net-guide/)
 Aspose.HTML का उपयोग करके HTML को PNG इमेज में बदलने की प्रक्रिया को चरण-दर-चरण सीखें।
+### [Aspose.Html के साथ HTML से PNG बनाएं – पूर्ण C# गाइड](./create-png-from-html-with-aspose-html-complete-c-guide/)
+Aspose.HTML का उपयोग करके C# में HTML को PNG में बदलने की पूरी प्रक्रिया सीखें। चरण-दर-चरण मार्गदर्शिका।
 
 ## निष्कर्ष
 
