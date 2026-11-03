@@ -9,13 +9,10 @@ url: /hu/java/editing-html-documents/edit-html-document-tree/
 weight: 10
 ---
 
- Hungarian translation.
 
-Note: Keep technical terms like "HTMLDocument", "setAttribute", "appendChild", etc.
 
-Also keep code block placeholders.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
