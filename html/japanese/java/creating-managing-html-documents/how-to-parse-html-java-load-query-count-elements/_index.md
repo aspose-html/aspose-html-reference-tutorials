@@ -20,13 +20,9 @@ title: HTMLをJavaで解析する方法 – 読み込み、クエリ、要素の
 url: /ja/java/creating-managing-html-documents/how-to-parse-html-java-load-query-count-elements/
 ---
 
-* italic. We can keep italic markup: *理由*.
 
-In blockquote: "explanations of *why* each line exists". We translated to "各行が存在する *理由* の説明". Good.
 
-In conclusion: "*load → query → count*" we kept italic? Actually original had *load → query → count* italic. We kept same.
 
-Now produce final content with all translations.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

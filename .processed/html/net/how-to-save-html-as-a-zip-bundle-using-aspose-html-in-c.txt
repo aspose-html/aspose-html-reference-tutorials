@@ -1,0 +1,7 @@
+Title: How to save HTML as a ZIP bundle using Aspose.HTML in C#
+Slug: how-to-save-html-as-a-zip-bundle-using-aspose-html-in-c
+Category: html-extensions-and-conversions
+ProcessedDate: 2026-08-22T21:15:36.942410
+SourceRepo: AI Search API
+Keywords: how to save html, convert html to zip, save html as zip, how to export html, how to bundle resources
+PRNumber: 248

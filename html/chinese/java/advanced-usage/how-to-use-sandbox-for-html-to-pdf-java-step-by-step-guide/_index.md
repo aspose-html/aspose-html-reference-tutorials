@@ -21,11 +21,9 @@ title: 如何在 Java 中使用 Sandbox 将 HTML 转换为 PDF – 步骤指南
 url: /zh/java/advanced-usage/how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/
 ---
 
-kept them.
 
-Make sure markdown formatting preserved.
 
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

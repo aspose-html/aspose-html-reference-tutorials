@@ -24,7 +24,7 @@ title: Chuyển đổi HTML sang PNG với thiết lập mức sử dụng bộ 
 url: /vi/java/conversion-html-to-various-image-formats/convert-html-to-png-with-set-max-memory-usage-in-java/
 ---
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

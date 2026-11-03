@@ -1,0 +1,7 @@
+Title: Create HTML from string and export to Markdown (Python)
+Slug: create-html-from-string-and-export-to-markdown-python
+Category: general
+ProcessedDate: 2026-09-17T03:00:32.758869
+SourceRepo: AI Search API
+Keywords: create html from string, convert html to markdown, export html to markdown, include links in markdown, save html as markdown
+PRNumber: 268

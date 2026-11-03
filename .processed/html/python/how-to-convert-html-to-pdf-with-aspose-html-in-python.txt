@@ -1,0 +1,7 @@
+Title: How to convert HTML to PDF with Aspose.HTML in Python
+Slug: how-to-convert-html-to-pdf-with-aspose-html-in-python
+Category: general
+ProcessedDate: 2026-09-13T22:55:57.889447
+SourceRepo: AI Search API
+Keywords: convert html to pdf, generate pdf from html, html to pdf python, aspose html to pdf, html file to pdf
+PRNumber: 264

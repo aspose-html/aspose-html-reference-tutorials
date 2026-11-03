@@ -1,0 +1,7 @@
+Title: How to create sandbox environment for HTML rendering in Java
+Slug: how-to-create-sandbox-environment-for-html-rendering-in-java
+Category: configuring-environment
+ProcessedDate: 2026-10-28T15:25:19.238202
+SourceRepo: AI Search API
+Keywords: create sandbox environment, set viewport size, how to create sandbox, how to set viewport, how to load html
+PRNumber: 317

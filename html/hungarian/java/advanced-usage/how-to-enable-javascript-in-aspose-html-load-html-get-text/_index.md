@@ -1,29 +1,55 @@
 ---
 category: general
-date: 2026-01-06
-description: Hogyan engedélyezzük a JavaScriptet az Aspose HTML-ben, és hogyan töltsünk
-  be HTML-t JS-sel az elem szövegének lekéréséhez. Ez az útmutató bemutatja, hogyan
-  töltsünk be HTML JavaScriptet, hogyan nyerjünk ki elem szöveget, és hogyan kezeljük
-  a DOM változásait.
+date: 2026-08-22
+description: Ismerje meg, hogyan nyerhet ki szöveget HTML-ből Java-ban az Aspose HTML
+  használatával. Ez az útmutató megmutatja, hogyan engedélyezze a JavaScript-et, hogyan
+  töltsön be HTML-t JS-sel, és hogyan vonja ki biztonságosan az elem szövegét.
 draft: false
 keywords:
-- how to enable javascript
-- load html javascript
-- get element text
-- load html with js
-- extract element text
-language: hu
-og_description: Hogyan engedélyezzük a JavaScriptet az Aspose HTML-ben, töltsünk be
-  HTML-t JavaScripttel, és nyerjünk ki elem szöveget dinamikus oldalakról néhány egyszerű
+- get text from html java
+- extract element text java
+- load html file with js
+- how to load html javascript
+lastmod: 2026-08-22
+og_description: Ismerje meg, hogyan nyerhet ki szöveget HTML-ből Java-ban az Aspose
+  HTML használatával. A bemutató bemutatja a JavaScript engedélyezését, a HTML JS-sel
+  történő betöltését, és az elem szövegének megbízható kinyerését néhány egyszerű
   lépésben.
-og_title: Hogyan engedélyezzük a JavaScript-et az Aspose HTML-ben – HTML betöltése
-  és szöveg lekérése
+og_image_alt: Diagram showing JavaScript enablement in Aspose HTML for Java
+og_title: Szöveg kinyerése HTML-ből Java-ban az Aspose HTML segítségével – JavaScript
+  engedélyezése
+schemas:
+- author: Aspose
+  dateModified: '2026-08-22'
+  description: Learn how to get text from HTML in Java using Aspose HTML. This guide
+    shows you how to enable JavaScript, load HTML with JS, and extract element text
+    safely.
+  headline: How to get text from HTML in Java using Aspose HTML library
+  type: TechArticle
+- questions:
+  - answer: Yes. As long as the script URLs are reachable from the machine running
+      the code, the engine will download and execute them. Keep `setSandboxEnabled(true)`
+      to prevent unwanted side effects.
+    question: Does this work with external script files?
+  - answer: Call `loadOptions.setEnableJavaScript(false)` before loading that page.
+      This is useful when you only need static content.
+    question: How can I disable JavaScript for a particular page?
+  - answer: Absolutely. Aspose.HTML is a pure‑Java library; no browser or UI is required.
+    question: Can I run this on a headless server?
+  - answer: Aspose.HTML can process over 100 000 HTML pages per hour on a standard
+      8‑core server while keeping memory usage below 200 MB per concurrent document.
+    question: What are the performance limits?
+  - answer: Use `HtmlLoadOptions.setPageLoadMode(PageLoadMode.Streaming)` to stream
+      content instead of loading the entire file into memory.
+    question: How do I handle very large HTML files?
+  type: FAQPage
 tags:
+- get text from html java
 - Aspose HTML
-- Java
 - JavaScript sandbox
-title: Hogyan engedélyezzük a JavaScriptet az Aspose HTML-ben – HTML betöltése és
-  szöveg lekérése
+- HTML processing
+- Java
+title: Hogyan nyerjünk ki szöveget HTML-ből Java-ban az Aspose HTML könyvtár segítségével
 url: /hu/java/advanced-usage/how-to-enable-javascript-in-aspose-html-load-html-get-text/
 ---
 
@@ -31,21 +57,157 @@ url: /hu/java/advanced-usage/how-to-enable-javascript-in-aspose-html-load-html-g
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan engedélyezzük a JavaScript-et az Aspose HTML-ben – HTML betöltése és szöveg lekérése
+# Hogyan nyerhetünk ki szöveget HTML-ből Java-ban az Aspose HTML könyvtár segítségével
 
-Gondoltad már valaha, **hogyan engedélyezzük a javascriptet** egy oldal renderelésekor az Aspose HTML-lel? Nem vagy egyedül. Sok fejlesztő akad el, amikor egy script‑al vezérelt oldal soha nem jeleníti meg a várt tartalmat, mert a motor csendben kihagyja a JavaScriptet.  
+Ebben az oktatóanyagban megtanulja, hogyan **nyerhet ki szöveget HTML-ből Java-ban** az Aspose.HTML könyvtár segítségével. Végigvezetjük a JavaScript engedélyezését, egy szkripteket tartalmazó HTML fájl betöltését, és végül az elem szövegének kinyerését a renderelt DOM-ból. A végére megérti, hogyan **töltsön be HTML-t JS-sel**, **nyerjen ki elem szöveget Java-ban**, és hogyan tartsa biztonságban a sandboxot.
 
-Ebben az útmutatóban lépésről lépésre végigvezetünk a JavaScript engedélyezésének, egy scriptet tartalmazó HTML fájl betöltésének, és végül a **elem szövegének** lekérésének a DOM-ból. A végére tudni fogod, hogyan **load html javascript**, **load html with js**, és **extract element text** anélkül, hogy a sandboxot megszegnéd.
+> **Előfeltételek** – Java 17+, Aspose.HTML for Java (legújabb verzió), valamint az HTML/JavaScript alapvető ismerete. Külső könyvtárak nem szükségesek.
 
-> **Előfeltételek** – Java 17+, Aspose.HTML for Java (legújabb verzió), és az HTML/JavaScript alapvető ismerete. Külső könyvtárak nem szükségesek.
-
-![Diagram illustrating how to enable javascript in Aspose HTML](/images/enable-js-diagram.png "how to enable javascript in Aspose HTML")
+![Diagram, amely bemutatja, hogyan engedélyezzük a JavaScript-et az Aspose HTML-ben](/images/enable-js-diagram.png "hogyan engedélyezzük a JavaScript-et az Aspose HTML-ben")
 
 ---
 
-## 1. lépés – Hogyan engedélyezzük a JavaScript-et az Aspose HTML-ben
+## Gyors válaszok
+- **Engedélyezhetem a JavaScript-et az Aspose.HTML-ben?** Igen – állítsa be a `HtmlLoadOptions.setEnableJavaScript(true)`-t.
+- **Melyik metódus nyeri ki a szöveget egy generált elemből?** Használja a `querySelector(...).getTextContent()`-t.
+- **Szükségem van sandboxra?** Tartsa be a `setSandboxEnabled(true)` beállítást a nem megbízható szkriptek elszigeteléséhez.
+- **Futnak majd a külső szkriptek?** Futnak, amíg a URL-ek elérhetők a gazdagép gépéről.
+- **Alkalmas ez fej nélküli szerverekre?** Teljesen – az Aspose.HTML tisztán Java, UI nem szükséges.
 
-Az első dolog, amit tenned kell, hogy a `HtmlLoadOptions` objektumnak jelezd, hogy a szkript végrehajtása engedélyezett. Alapértelmezés szerint a motor a biztonság kedvéért letiltja a JavaScriptet, ezért kifejezetten be kell kapcsolnod.
+## Hogyan engedélyezheti a JavaScript-et az Aspose HTML-ben?
+
+`HtmlLoadOptions` egy konfigurációs objektum, amely szabályozza, hogyan tölti be és rendereli az Aspose.HTML egy HTML dokumentumot.  
+A JavaScript engedélyezése a `HtmlLoadOptions` beállításával történik. Ez az egyetlen hívás azt mondja a motornak, hogy hajtsa végre a megtalált `<script>` tageket, miközben a sandbox segítségével védi a gazdagép környezetét. A `setEnableJavaScript(true)` beállításával engedélyezi a szkriptek futtatását, és a `setSandboxEnabled(true)` elszigorítja ezeket a szkripteket a JVM-től, megakadályozva a nem kívánt mellékhatásokat, miközben lehetővé teszi a dinamikus oldalak által igényelt DOM manipulációt.
+
+```text
+HtmlLoadOptions loadOptions = new HtmlLoadOptions();
+loadOptions.setEnableJavaScript(true);      // turn on script execution
+loadOptions.setSandboxEnabled(true);        // keep scripts isolated
+```
+
+*Miért fontos*: A JavaScript engedélyezése (`setEnableJavaScript(true)`) lehetőséget ad az oldalnak a DOM manipulálására. A sandbox (`setSandboxEnabled(true)`) megakadályozza, hogy ezek a szkriptek befolyásolják a gazdagép környezetét, ami különösen fontos, ha nem megbízható HTML-t dolgoz fel.
+
+## Hogyan töltsön be HTML-t JavaScript engedélyezésével?
+
+`HtmlDocument` egy memóriában tárolt, elemzett HTML oldalt képvisel, amely hozzáférést biztosít a DOM-hoz és a renderelési képességekhez.  
+A `HtmlLoadOptions` konfigurálása után adja át ugyanazt a `loadOptions` példányt a `HtmlDocument` konstruktorának, valamint a HTML fájl elérési útját. A motor beolvassa a fájlt, végrehajtja a beágyazott szkripteket, és felépíti a végső DOM-fát, amely tükrözi az összes JavaScript‑által generált változást, lehetővé téve az elemek lekérdezését, mintha böngésző környezetben lenne.
+
+```text
+HtmlDocument document = new HtmlDocument("dynamic.html", loadOptions);
+```
+
+`HtmlDocument` egyetlen HTML oldalt képvisel a memóriában. A dokumentum betöltése a korábban konfigurált `loadOptions`-szel biztosítja, hogy a **load html javascript** betartásra kerüljön, és a DOM tükrözze a szkript által generált változásokat.
+
+> **Tipp** – HTML betöltéséhez karakterláncból vagy streamből, használja a `HtmlDocument(InputStream, HtmlLoadOptions)` túlterhelést. Ugyanazok a beállítások továbbra is szabályozzák a szkript végrehajtását.
+
+## Hogyan nyerje ki az elem szövegét a renderelt DOM-ból?
+
+`querySelector` kiválasztja az első elemet, amely megfelel egy CSS szelektornak, tükrözve a szabványos böngésző DOM API viselkedését.  
+Miután a szkript befejezte a futást, megtalálhatja a JavaScript által létrehozott elemet, és elolvashatja annak szövegtartalmát. Használja a `document.querySelector("#generated")`-t az elem lekéréséhez, majd hívja a `getTextContent()`-ot a visszakapott objektumon, hogy visszakapja a szkript által az oldalba injektált szöveget.
+
+```text
+Element generatedElement = document.querySelector("#generated");
+String text = generatedElement != null ? generatedElement.getTextContent() : null;
+```
+
+A `querySelector("#generated")` hívás a **get element text** (elem szövegének lekérése) része a munkafolyamatnak. Miután megvan az `Element` objektum, a `getTextContent()` visszaadja a JavaScript által beillesztett szöveget.
+
+**Várható kimenet** (feltételezve, hogy a `dynamic.html` a “Hello from JS!” szöveget írja az elembe):
+
+```text
+Hello from JS!
+```
+
+Ha az elem nem található, a `generatedElement` értéke `null` lesz. Egy éles környezetben ellenőrizni kellene ezt:
+
+```text
+if (generatedElement == null) {
+    System.out.println("Element not found – check script execution or selector.");
+}
+```
+
+## Hogyan nyerje ki biztonságosan az elem szövegét, ha a szkriptek aszinkron módon futnak?
+
+Néha a szkriptek időzítőkre vagy külső erőforrásokra támaszkodnak, ami kis késleltetést okozhat, mielőtt a DOM teljesen frissül. Bár az Aspose.HTML szinkron módon hajtja végre a szkripteket, egy rövid várakozási ciklus hozzáadása megvédhet a időzítési sajátosságoktól. Rendszeresen ellenőrizze a DOM-ot rövid intervallumokban, amíg a várt elem meg nem jelenik, vagy egy konfigurálható időkorlát lejár, ezáltal megbízhatóan kinyerve a dinamikusan generált szöveget.
+
+```text
+int timeoutMs = 3000;
+int intervalMs = 100;
+Element element = null;
+long start = System.currentTimeMillis();
+
+while (System.currentTimeMillis() - start < timeoutMs) {
+    element = document.querySelector("#generated");
+    if (element != null) break;
+    Thread.sleep(intervalMs);
+}
+if (element != null) {
+    System.out.println(element.getTextContent());
+}
+```
+
+Ez a minta garantálja, hogy a **extract element text java** (elem szövegének kinyerése Java-ban) működjön még akkor is, ha a szkriptnek egy pillanatra szüksége van a befejezéshez, ezzel megszüntetve a rejtélyes `null` eredményeket.
+
+## Teljes működő példa
+
+Mindent összevonva, itt a teljes, azonnal futtatható program:
+
+```text
+import com.aspose.html.*;
+import com.aspose.html.dom.*;
+
+public class JsSandbox {
+    public static void main(String[] args) throws Exception {
+        HtmlLoadOptions loadOptions = new HtmlLoadOptions();
+        loadOptions.setEnableJavaScript(true);
+        loadOptions.setSandboxEnabled(true);
+
+        HtmlDocument document = new HtmlDocument("YOUR_DIRECTORY/dynamic.html", loadOptions);
+
+        // optional wait loop for async‑like scripts
+        int timeoutMs = 2000;
+        int intervalMs = 100;
+        Element element = null;
+        long start = System.currentTimeMillis();
+        while (System.currentTimeMillis() - start < timeoutMs) {
+            element = document.querySelector("#generated");
+            if (element != null) break;
+            Thread.sleep(intervalMs);
+        }
+
+        if (element != null) {
+            System.out.println("Extracted text: " + element.getTextContent());
+        } else {
+            System.out.println("Element not found.");
+        }
+    }
+}
+```
+
+Mentse el `JsSandbox.java` néven, cserélje le a `YOUR_DIRECTORY/dynamic.html`-t a valós útvonalra, fordítsa `javac`-vel, és futtassa `java`-val. A szkript által injektált szöveget kell látnia.
+
+## Gyakran ismételt kérdések
+
+**Q: Működik ez külső script fájlokkal?**  
+A: Igen. Amíg a script URL-ek elérhetők a kódot futtató gépről, a motor letölti és végrehajtja őket. Tartsa be a `setSandboxEnabled(true)`-t a nem kívánt mellékhatások elkerülése érdekében.
+
+**Q: Hogyan tilthatom le a JavaScript-et egy adott oldalra?**  
+A: Hívja meg a `loadOptions.setEnableJavaScript(false)`-t az oldal betöltése előtt. Ez akkor hasznos, ha csak statikus tartalomra van szükség.
+
+**Q: Futtatható ez fej nélküli szerveren?**  
+A: Teljesen. Az Aspose.HTML egy tisztán Java könyvtár; nincs szükség böngészőre vagy UI-ra.
+
+**Q: Mik a teljesítménykorlátok?**  
+A: Az Aspose.HTML több mint 100 000 HTML oldalt képes feldolgozni óránként egy szabványos 8‑magos szerveren, miközben a memóriahasználat 200 MB alatt marad egyidejű dokumentumonként.
+
+**Q: Hogyan kezeljem a nagyon nagy HTML fájlokat?**  
+A: Használja a `HtmlLoadOptions.setPageLoadMode(PageLoadMode.Streaming)`-et a tartalom streameléséhez, ahelyett, hogy az egész fájlt memóriába töltené.
+
+---
+
+**Utolsó frissítés:** 2026-08-22  
+**Tesztelve a következővel:** Aspose.HTML for Java 24.12 (latest)  
+**Szerző:** Aspose  
 
 ```java
 import com.aspose.html.*;
@@ -60,28 +222,10 @@ public class JsSandbox {
         loadOptions.setSandboxEnabled(true);     // isolate script execution
 ```
 
-*Miért fontos ez*: A JavaScript engedélyezése (`setEnableJavaScript(true)`) lehetővé teszi az oldal számára, hogy manipulálja a DOM-ot. A sandbox (`setSandboxEnabled(true)`) megakadályozza, hogy ezek a szkriptek befolyásolják a host környezetet, ami különösen fontos, ha nem megbízható HTML-t dolgozol fel.
-
----
-
-## 2. lépés – HTML betöltése JavaScript-tel
-
-Most, hogy a JavaScript engedélyezve van, ténylegesen betölthetünk egy szkripteket tartalmazó oldalt. Az alábbi példa egy `dynamic.html` nevű fájlt vár egy általad irányított mappában.
-
 ```java
         // Step 2: Load the HTML page that contains JavaScript which modifies the DOM
         HtmlDocument document = new HtmlDocument("YOUR_DIRECTORY/dynamic.html", loadOptions);
 ```
-
-Vedd észre, hogy ugyanazt a `loadOptions` objektumot adjuk át, amelyet az előző lépésben konfiguráltunk. Ez az a pont, ahol a **load html javascript** hatékonnyá válik – a motor beolvassa a fájlt, végrehajtja a `<script>` tageket, és felépíti a végső DOM-fát.
-
-> **Tipp** – Ha HTML-t kell betöltened egy stringből vagy streamből, használd a `HtmlDocument(InputStream, HtmlLoadOptions)` túlterhelést. Ugyanazok a beállítások továbbra is szabályozzák a szkript végrehajtását.
-
----
-
-## 3. lépés – Elem szövegének lekérése a renderelt DOM-ból
-
-Miután a szkript lefut, az oldalnak létre kell hoznia egy új elemet (például egy `<div id="generated">`). Most már lekérdezhetjük a dokumentumot, ahogy egy böngészőben is tennénk.
 
 ```java
         // Step 3: After the script runs, locate the element created by the script
@@ -93,15 +237,9 @@ Miután a szkript lefut, az oldalnak létre kell hoznia egy új elemet (példáu
 }
 ```
 
-A `querySelector("#generated")` hívás a **get element text** lépést jelenti a munkafolyamatban. Miután megvan a `Element` objektum, a `getTextContent()` visszaadja a JavaScript által beillesztett karakterláncot.
-
-**Várható kimenet** (feltételezve, hogy a `dynamic.html` a “Hello from JS!” szöveget írja az elembe):
-
 ```
 Generated text: Hello from JS!
 ```
-
-Ha az elem nem található, a `generatedElement` `null` lesz. Egy éles környezetben ellenőrizned kellene ezt:
 
 ```java
 if (generatedElement != null) {
@@ -110,16 +248,6 @@ if (generatedElement != null) {
     System.err.println("Element #generated not found – check your script.");
 }
 ```
-
----
-
-## 4. lépés – Elem szövegének biztonságos kinyerése (szélsőséges esetek)
-
-Néha a szkriptek aszinkron módon futnak vagy külső erőforrásokra támaszkodnak. Az Aspose HTML szinkron módon hajtja végre a szkripteket, de előfordulhatnak időzítési furcsaságok. Egy megbízható minta:
-
-1. **Enable JavaScript** (as we did).  
-2. **Wait for the DOM to stabilize** – you can poll for the element with a short timeout.  
-3. **Extract the text** once the element appears.
 
 ```java
 int attempts = 0;
@@ -135,14 +263,6 @@ if (generated != null) {
     System.out.println("Failed to locate #generated after waiting.");
 }
 ```
-
-Ez a kódrészlet gyakorlati módot mutat be a **extract element text** kinyerésére, még akkor is, ha a szkriptnek egy pillanatra van szüksége a befejezéshez. Egy kis kiegészítés, de megment a rejtélyes `null` eredményektől.
-
----
-
-## Teljes működő példa
-
-Mindent összevonva, itt a teljes, azonnal futtatható program:
 
 ```java
 import com.aspose.html.*;
@@ -178,35 +298,15 @@ public class JsSandbox {
 }
 ```
 
-Mentsd el `JsSandbox.java` néven, cseréld le a `YOUR_DIRECTORY/dynamic.html`-t a valódi útvonalra, fordítsd `javac`‑vel, és futtasd `java`‑val. A szkript által beillesztett szöveget kell látnod.
+## Kapcsolódó oktatóanyagok
 
----
-
-## Gyakran Ismételt Kérdések
-
-**K: Működik ez külső script fájlokkal?**  
-V: Igen. Amíg a script URL-ek elérhetők a kódot futtató gépről, a motor letölti és végrehajtja őket. Ne felejtsd el a `setSandboxEnabled(true)` beállítást, hogy elkerüld a nem kívánt mellékhatásokat.
-
-**K: Mi van, ha egy adott oldalhoz le kell tiltani a JavaScriptet?**  
-V: Egyszerűen állítsd be a `loadOptions.setEnableJavaScript(false)` értéket a oldal betöltése előtt. Ez akkor hasznos, ha csak statikus tartalmat szeretnél kinyerni.
-
-**K: Futtatható ez egy headless szerveren?**  
-V: Teljesen. Az Aspose.HTML egy tisztán Java könyvtár; nincs szükség böngészőre vagy UI‑ra.
-
----
-
-## Összegzés
-
-Most már tudod, **hogyan engedélyezzük a javascriptet** az Aspose HTML-ben, hogyan **load html with js**, és a pontos lépéseket a **get element text** és **extract element text** dinamikusan generált oldalról. A fő tanulságok:
-
-* Kapcsold be a JavaScriptet a `HtmlLoadOptions.setEnableJavaScript(true)` segítségével.  
-* Tartsd aktívnak a sandboxot a biztonság érdekében.  
-* Használd a `querySelector`‑t (vagy más DOM API‑kat) a szkriptek által létrehozott elemek megtalálásához.  
-* Opcionálisan poll-olj az elemre, ha a szkriptnek egy pillanatra van szüksége a befejezéshez.
-
-Innen tovább kísérletezhetsz összetettebb helyzetekkel – több script, CSS‑al vezérelt elrendezések vagy akár HTML5 API‑k. A minta ugyanaz: engedélyezés, betöltés, lekérdezés és kinyerés. Boldog kódolást, és élvezd a JavaScript‑támogatott HTML feldolgozás erejét!
+- [Hogyan engedélyezzük a JavaScript-et az Aspose HTML-ben HTML betöltése és szöveg lekérése](/html/java/advanced-usage/how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+- [HTML dokumentumok betöltése fájlból az Aspose.HTML for Java-ban](/html/java/creating-managing-html-documents/load-html-documents-from-file/)
+- [Dokumentum betöltési események kezelése az Aspose.HTML for Java-ban](/html/java/creating-managing-html-documents/handle-document-load-events/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

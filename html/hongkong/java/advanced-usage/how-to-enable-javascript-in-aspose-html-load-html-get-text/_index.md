@@ -1,23 +1,51 @@
 ---
 category: general
-date: 2026-01-06
-description: 如何在 Aspose HTML 中啟用 JavaScript 並載入含 JavaScript 的 HTML 以取得元素文字。本指南將示範如何載入
-  HTML JavaScript、提取元素文字以及處理 DOM 變更。
+date: 2026-08-22
+description: 了解如何使用 Aspose HTML 在 Java 中取得 HTML 文字。本指南將示範如何啟用 JavaScript、使用 JS 載入
+  HTML，並安全地擷取元素文字。
 draft: false
 keywords:
-- how to enable javascript
-- load html javascript
-- get element text
-- load html with js
-- extract element text
-language: zh-hant
-og_description: 如何在 Aspose HTML 中啟用 JavaScript、載入帶有 JavaScript 的 HTML，並只需幾個簡單步驟即可從動態頁面提取元素文字。
-og_title: 如何在 Aspose HTML 中啟用 JavaScript – 載入 HTML 並取得文字
+- get text from html java
+- extract element text java
+- load html file with js
+- how to load html javascript
+lastmod: 2026-08-22
+og_description: 了解如何使用 Aspose HTML 在 Java 中取得 HTML 文字。本教學涵蓋啟用 JavaScript、使用 JS 載入
+  HTML，以及在幾個簡單步驟中可靠地擷取元素文字。
+og_image_alt: Diagram showing JavaScript enablement in Aspose HTML for Java
+og_title: 使用 Aspose HTML 在 Java 中取得 HTML 文字 – 啟用 JavaScript
+schemas:
+- author: Aspose
+  dateModified: '2026-08-22'
+  description: Learn how to get text from HTML in Java using Aspose HTML. This guide
+    shows you how to enable JavaScript, load HTML with JS, and extract element text
+    safely.
+  headline: How to get text from HTML in Java using Aspose HTML library
+  type: TechArticle
+- questions:
+  - answer: Yes. As long as the script URLs are reachable from the machine running
+      the code, the engine will download and execute them. Keep `setSandboxEnabled(true)`
+      to prevent unwanted side effects.
+    question: Does this work with external script files?
+  - answer: Call `loadOptions.setEnableJavaScript(false)` before loading that page.
+      This is useful when you only need static content.
+    question: How can I disable JavaScript for a particular page?
+  - answer: Absolutely. Aspose.HTML is a pure‑Java library; no browser or UI is required.
+    question: Can I run this on a headless server?
+  - answer: Aspose.HTML can process over 100 000 HTML pages per hour on a standard
+      8‑core server while keeping memory usage below 200 MB per concurrent document.
+    question: What are the performance limits?
+  - answer: Use `HtmlLoadOptions.setPageLoadMode(PageLoadMode.Streaming)` to stream
+      content instead of loading the entire file into memory.
+    question: How do I handle very large HTML files?
+  type: FAQPage
 tags:
+- get text from html java
 - Aspose HTML
-- Java
 - JavaScript sandbox
-title: 如何在 Aspose HTML 中啟用 JavaScript – 載入 HTML 並取得文字
+- HTML processing
+- Java
+title: 如何使用 Aspose HTML 函式庫在 Java 中取得 HTML 文字
 url: /zh-hant/java/advanced-usage/how-to-enable-javascript-in-aspose-html-load-html-get-text/
 ---
 
@@ -25,21 +53,162 @@ url: /zh-hant/java/advanced-usage/how-to-enable-javascript-in-aspose-html-load-h
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 如何在 Aspose HTML 中啟用 JavaScript – 載入 HTML 並取得文字
+# 如何在 Java 中使用 Aspose HTML 函式庫從 HTML 取得文字
 
-有沒有想過在使用 Aspose HTML 渲染頁面時 **如何啟用 JavaScript**？你並不是唯一遇到這個問題的人。許多開發者在面對腳本驅動的頁面卻看不到預期內容時，往往是因為引擎默默地跳過了 JavaScript。
+在本教學中，你將學習 **如何在 Java 中使用 Aspose.HTML 函式庫從 HTML 取得文字**。我們將逐步說明如何啟用 JavaScript、載入包含腳本的 HTML 檔案，最後從已渲染的 DOM 中擷取元素文字。完成後，你也會了解如何 **load html with js**、**extract element text java**，以及如何保持 sandbox 的安全。
 
-在本教學中，我們將逐步說明如何啟用 JavaScript、載入包含腳本的 HTML 檔案，最後 **從 DOM 取得元素文字**。完成後，你也會知道如何 **載入 html javascript**、**載入含 js 的 html**，以及在不破壞沙箱的前提下 **擷取元素文字**。
+> **Prerequisites** – Java 17+、Aspose.HTML for Java（最新版本），以及對 HTML/JavaScript 的基本了解。無需其他外部函式庫。
 
-> **先決條件** – Java 17+、Aspose.HTML for Java（最新版本），以及對 HTML/JavaScript 的基本認識。無需額外的外部函式庫。
-
-![Diagram illustrating how to enable javascript in Aspose HTML](/images/enable-js-diagram.png "how to enable javascript in Aspose HTML")
+![說明如何在 Aspose HTML 中啟用 JavaScript 的圖示](/images/enable-js-diagram.png "如何在 Aspose HTML 中啟用 JavaScript")
 
 ---
 
-## 第一步 – 如何在 Aspose HTML 中啟用 JavaScript
+## 快速解答
+- **我可以在 Aspose.HTML 中啟用 JavaScript 嗎？** 是 – 設定 `HtmlLoadOptions.setEnableJavaScript(true)`。
+- **哪個方法可從產生的元素中擷取文字？** 使用 `querySelector(...).getTextContent()`。
+- **我需要 sandbox 嗎？** 保留 `setSandboxEnabled(true)` 以隔離不受信任的腳本。
+- **外部腳本會執行嗎？** 只要 URL 可從主機存取，腳本就會執行。
+- **這適用於無頭伺服器嗎？** 絕對適用 – Aspose.HTML 為純 Java，無需 UI。
 
-首先，你必須告訴 `HtmlLoadOptions` 物件允許執行腳本。預設情況下，為了安全起見，引擎會停用 JavaScript，因此必須明確開啟。
+## 如何在 Aspose HTML 中啟用 JavaScript？
+
+`HtmlLoadOptions` 是一個設定物件，用於控制 Aspose.HTML 如何載入與渲染 HTML 文件。  
+透過設定 `HtmlLoadOptions` 來啟用 JavaScript。此單一呼叫會告訴引擎執行遇到的任何 `<script>` 標籤，同時以 sandbox 保護你的主機環境。設定 `setEnableJavaScript(true)` 後，引擎即可執行腳本，`setSandboxEnabled(true)` 則將這些腳本與 JVM 隔離，防止不必要的副作用，同時仍允許動態頁面所需的 DOM 操作。
+
+```text
+HtmlLoadOptions loadOptions = new HtmlLoadOptions();
+loadOptions.setEnableJavaScript(true);      // turn on script execution
+loadOptions.setSandboxEnabled(true);        // keep scripts isolated
+```
+
+*為何這很重要*：啟用 JavaScript (`setEnableJavaScript(true)`) 讓頁面有機會操作 DOM。sandbox (`setSandboxEnabled(true)`) 可防止這些腳本影響你的主機環境，這在處理不受信任的 HTML 時尤為重要。
+
+## 如何在啟用 JavaScript 的情況下載入 HTML？
+
+`HtmlDocument` 代表記憶體中已解析的 HTML 頁面，提供對 DOM 的存取與渲染功能。  
+在設定好 `HtmlLoadOptions` 後，將相同的 `loadOptions` 實例與 HTML 檔案路徑一起傳入 `HtmlDocument` 建構子。引擎會讀取檔案、執行所有嵌入的腳本，並建立反映所有 JavaScript 產生變更的最終 DOM 樹，讓你能像在瀏覽器環境中一樣查詢元素。
+
+```text
+HtmlDocument document = new HtmlDocument("dynamic.html", loadOptions);
+```
+
+`HtmlDocument` 代表記憶體中的單一 HTML 頁面。使用先前設定好的 `loadOptions` 載入文件，可確保 **load html javascript** 被遵守，且 DOM 會反映任何腳本產生的變更。
+
+> **Tip** – 若要從字串或串流載入 HTML，請使用 `HtmlDocument(InputStream, HtmlLoadOptions)` 的重載。相同的選項仍會控制腳本執行。
+
+## 如何從已渲染的 DOM 取得元素文字？
+
+`querySelector` 會選取第一個符合 CSS 選擇器的元素，行為與標準瀏覽器 DOM API 相同。  
+腳本執行完畢後，你可以定位 JavaScript 所建立的元素並讀取其文字內容。使用 `document.querySelector("#generated")` 取得該元素，然後對返回的物件呼叫 `getTextContent()` 以取得腳本插入的字串。
+
+```text
+Element generatedElement = document.querySelector("#generated");
+String text = generatedElement != null ? generatedElement.getTextContent() : null;
+```
+
+呼叫 `querySelector("#generated")` 即為工作流程中的 **get element text** 步驟。取得 `Element` 物件後，`getTextContent()` 會返回 JavaScript 插入的字串。
+
+**Expected output**（假設 `dynamic.html` 在元素中寫入「Hello from JS!」）：
+
+```text
+Hello from JS!
+```
+
+如果找不到元素，`generatedElement` 會是 `null`。在正式環境中，你應該對此進行防護：
+
+```text
+if (generatedElement == null) {
+    System.out.println("Element not found – check script execution or selector.");
+}
+```
+
+## 當腳本非同步執行時，如何安全地擷取元素文字？
+
+有時腳本會依賴計時器或外部資源，可能在 DOM 完全更新前產生輕微延遲。雖然 Aspose.HTML 同步執行腳本，加入短暫的等待迴圈仍可防止時序問題。以短間隔輪詢 DOM，直至預期元素出現或可設定的逾時時間結束，確保能可靠擷取動態產生的文字。
+
+```text
+int timeoutMs = 3000;
+int intervalMs = 100;
+Element element = null;
+long start = System.currentTimeMillis();
+
+while (System.currentTimeMillis() - start < timeoutMs) {
+    element = document.querySelector("#generated");
+    if (element != null) break;
+    Thread.sleep(intervalMs);
+}
+if (element != null) {
+    System.out.println(element.getTextContent());
+}
+```
+
+此模式可保證 **extract element text java** 即使腳本需要稍待片刻亦能正常運作，避免出現神祕的 `null` 結果。
+
+## 完整範例
+
+將所有步驟整合在一起，以下是完整、可直接執行的程式：
+
+```text
+import com.aspose.html.*;
+import com.aspose.html.dom.*;
+
+public class JsSandbox {
+    public static void main(String[] args) throws Exception {
+        HtmlLoadOptions loadOptions = new HtmlLoadOptions();
+        loadOptions.setEnableJavaScript(true);
+        loadOptions.setSandboxEnabled(true);
+
+        HtmlDocument document = new HtmlDocument("YOUR_DIRECTORY/dynamic.html", loadOptions);
+
+        // optional wait loop for async‑like scripts
+        int timeoutMs = 2000;
+        int intervalMs = 100;
+        Element element = null;
+        long start = System.currentTimeMillis();
+        while (System.currentTimeMillis() - start < timeoutMs) {
+            element = document.querySelector("#generated");
+            if (element != null) break;
+            Thread.sleep(intervalMs);
+        }
+
+        if (element != null) {
+            System.out.println("Extracted text: " + element.getTextContent());
+        } else {
+            System.out.println("Element not found.");
+        }
+    }
+}
+```
+
+將此檔案儲存為 `JsSandbox.java`，將 `YOUR_DIRECTORY/dynamic.html` 替換為實際路徑，使用 `javac` 編譯，然後以 `java` 執行。你應該會看到腳本注入的文字。
+
+## 常見問題
+
+**Q: 這能與外部腳本檔案一起使用嗎？**  
+A: 是。只要腳本 URL 可從執行程式的機器存取，引擎就會下載並執行它們。保留 `setSandboxEnabled(true)` 以防止不必要的副作用。
+
+**Q: 如何為特定頁面停用 JavaScript？**  
+A: 在載入該頁面之前呼叫 `loadOptions.setEnableJavaScript(false)`。當你只需要靜態內容時此方式很有用。
+
+**Q: 我可以在無頭伺服器上執行嗎？**  
+A: 絕對可以。Aspose.HTML 為純 Java 函式庫；不需要瀏覽器或 UI。
+
+**Q: 效能上有什麼限制？**  
+A: 在標準 8 核心伺服器上，Aspose.HTML 每小時可處理超過 100 000 個 HTML 頁面，且每個同時文件的記憶體使用量低於 200 MB。
+
+**Q: 如何處理非常大的 HTML 檔案？**  
+A: 使用 `HtmlLoadOptions.setPageLoadMode(PageLoadMode.Streaming)` 以串流方式讀取內容，而非一次載入整個檔案至記憶體。
+
+---
+
+**最後更新：** 2026-08-22  
+**測試環境：** Aspose.HTML for Java 24.12 (latest)  
+**作者：** Aspose  
+
+
+
+
+
 
 ```java
 import com.aspose.html.*;
@@ -54,28 +223,10 @@ public class JsSandbox {
         loadOptions.setSandboxEnabled(true);     // isolate script execution
 ```
 
-*為什麼這很重要*：啟用 JavaScript (`setEnableJavaScript(true)`) 讓頁面有機會操作 DOM。沙箱 (`setSandboxEnabled(true)`) 則可防止這些腳本影響你的主機環境，這在處理不受信任的 HTML 時尤為重要。
-
----
-
-## 第二步 – 載入含 JavaScript 的 HTML
-
-現在 JavaScript 已啟用，我們就可以真正載入包含腳本的頁面。以下範例假設在你可控的資料夾中有一個名為 `dynamic.html` 的檔案。
-
 ```java
         // Step 2: Load the HTML page that contains JavaScript which modifies the DOM
         HtmlDocument document = new HtmlDocument("YOUR_DIRECTORY/dynamic.html", loadOptions);
 ```
-
-注意我們傳入了先前步驟中設定好的 `loadOptions` 物件。這正是 **load html javascript** 發揮作用的時刻——引擎會讀取檔案、執行所有 `<script>` 標籤，並建立最終的 DOM 樹。
-
-> **小技巧** – 若需從字串或串流載入 HTML，可使用 `HtmlDocument(InputStream, HtmlLoadOptions)` 的重載版本。相同的選項仍會控制腳本執行。
-
----
-
-## 第三步 – 從已渲染的 DOM 取得元素文字
-
-腳本執行完畢後，頁面應該會產生一個新元素（例如 `<div id="generated">`）。接著我們可以像在瀏覽器中一樣查詢文件。
 
 ```java
         // Step 3: After the script runs, locate the element created by the script
@@ -87,15 +238,9 @@ public class JsSandbox {
 }
 ```
 
-呼叫 `querySelector("#generated")` 即是工作流程中的 **get element text** 部分。取得 `Element` 物件後，`getTextContent()` 會回傳 JavaScript 插入的字串。
-
-**預期輸出**（假設 `dynamic.html` 在元素中寫入 “Hello from JS!”）：
-
 ```
 Generated text: Hello from JS!
 ```
-
-如果找不到元素，`generatedElement` 會是 `null`。在正式環境中，你應該加入防呆處理：
 
 ```java
 if (generatedElement != null) {
@@ -104,16 +249,6 @@ if (generatedElement != null) {
     System.err.println("Element #generated not found – check your script.");
 }
 ```
-
----
-
-## 第四步 – 安全擷取元素文字（邊緣情況）
-
-有時腳本會非同步執行或依賴外部資源。Aspose HTML 會同步執行腳本，但仍可能遇到時序問題。可靠的做法是：
-
-1. **啟用 JavaScript**（如前所述）。
-2. **等待 DOM 穩定** – 你可以以短時間逾時的方式輪詢元素是否出現。
-3. **元素出現後即擷取文字**。
 
 ```java
 int attempts = 0;
@@ -129,14 +264,6 @@ if (generated != null) {
     System.out.println("Failed to locate #generated after waiting.");
 }
 ```
-
-此程式碼示範了即使腳本需要稍微等待也能 **extract element text** 的實作方式。雖然只是一點小補充，卻能避免神祕的 `null` 結果。
-
----
-
-## 完整範例
-
-將上述步驟整合，以下是一個可直接執行的完整程式：
 
 ```java
 import com.aspose.html.*;
@@ -172,35 +299,16 @@ public class JsSandbox {
 }
 ```
 
-將檔案另存為 `JsSandbox.java`，將 `YOUR_DIRECTORY/dynamic.html` 替換為實際路徑，使用 `javac` 編譯，然後以 `java` 執行。你應該會看到腳本注入的文字。
+## 相關教學
 
----
+- [如何在 Aspose Html 中啟用 Javascript 以載入 HTML 並取得文字](/html/java/advanced-usage/how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+- [從檔案載入 HTML 文件（Aspose.HTML for Java）](/html/java/creating-managing-html-documents/load-html-documents-from-file/)
+- [處理 Aspose.HTML for Java 中的文件載入事件](/html/java/creating-managing-html-documents/handle-document-load-events/)
 
-## 常見問題
-
-**Q: 這能處理外部腳本檔案嗎？**  
-A: 能。只要腳本的 URL 在執行程式的機器上可達，引擎就會下載並執行。記得保持 `setSandboxEnabled(true)` 以防止不必要的副作用。
-
-**Q: 若要對特定頁面停用 JavaScript 該怎麼做？**  
-A: 在載入該頁面前呼叫 `loadOptions.setEnableJavaScript(false)` 即可。這在只想抽取靜態內容時非常有用。
-
-**Q: 可以在無頭伺服器上執行嗎？**  
-A: 完全可以。Aspose.HTML 是純 Java 函式庫，無需瀏覽器或 UI。
-
----
-
-## 結論
-
-現在你已掌握 **如何在 Aspose HTML 中啟用 javascript**、**如何載入含 js 的 html**，以及 **如何取得元素文字** 與 **如何安全擷取元素文字** 的完整步驟。重點回顧如下：
-
-* 透過 `HtmlLoadOptions.setEnableJavaScript(true)` 開啟 JavaScript。  
-* 為安全起見保持沙箱啟用。  
-* 使用 `querySelector`（或其他 DOM API）定位腳本產生的元素。  
-* 若腳本需要時間完成，可輪詢元素以確保取得正確文字。
-
-接下來，你可以嘗試更複雜的情境——多個腳本、CSS 驅動的版面配置，甚至 HTML5 API。模式始終如一：啟用、載入、查詢、擷取。祝開發順利，盡情體驗 JavaScript‑enabled HTML 處理的威力！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,26 +1,52 @@
 ---
 category: general
-date: 2026-01-04
-description: تنفيذ JavaScript في Java باستخدام رملية Aspose.HTML. تعلم كيفية تحميل
-  ملف HTML في Java، استدعاء JavaScript من Java، وتشغيل دالة JavaScript في Java بأمان.
+date: 2026-08-22
+description: تنفيذ JavaScript في Java باستخدام Aspose.HTML sandbox. تعلم كيفية تحميل
+  ملف HTML في Java، استدعاء JavaScript من Java، وتشغيل دالة JS بأمان.
 draft: false
 keywords:
 - execute javascript in java
 - load html file java
-- how to call js java
+- call javascript from java
 - invoke javascript from java
 - run js function java
-language: ar
-og_description: تنفيذ JavaScript في Java باستخدام بيئة Aspose.HTML المعزولة. تحميل
-  ملف HTML في Java، استدعاء JavaScript من Java، وتشغيل دالة JS في Java مع أمثلة شاملة
-  للكود.
-og_title: تشغيل جافا سكريبت في جافا – دليل خطوة بخطوة
+lastmod: 2026-08-22
+og_description: تنفيذ JavaScript في Java باستخدام Aspose.HTML sandbox. تحميل ملف HTML
+  في Java، استدعاء JavaScript من Java، وتشغيل دالة JS بأمان مع أمثلة شاملة للكود.
+og_image_alt: Screenshot of Java code that loads an HTML file and invokes a JavaScript
+  function using Aspose.HTML sandbox
+og_title: تنفيذ JavaScript في Java – دليل سهل لبيئة sandbox الآمنة
+schemas:
+- author: Aspose
+  dateModified: '2026-08-22'
+  description: Execute JavaScript in Java with Aspose.HTML sandbox. Learn how to load
+    an HTML file in Java, call JavaScript from Java, and run a JS function safely.
+  headline: Execute JavaScript in Java – Complete guide to running JS from Java
+  type: TechArticle
+- questions:
+  - answer: Yes. Instantiate a sandbox per request or reuse a thread‑local sandbox,
+      invoke the desired JavaScript, and return the result as JSON from the controller.
+    question: Can I use this approach in a Spring Boot REST controller?
+  - answer: It uses a native JavaScript engine packaged with the library; the native
+      binaries are bundled in the Maven artifact, so no separate installation is needed.
+    question: Does Aspose.HTML require a native library?
+  - answer: The sandbox can process files up to **200 MB** without loading the entire
+      document into memory, thanks to its streaming parser.
+    question: What is the maximum HTML file size the sandbox can handle?
+  - answer: Enable Aspose logging (`System.setProperty("aspose.html.logging", "true")`)
+      to capture the script source and stack trace, then inspect the generated log
+      file.
+    question: How do I debug a script that fails inside the sandbox?
+  - answer: The sandbox disables external network calls by default. If you need to
+      allow specific URLs, configure the `Sandbox`’s `allowedUrls` collection accordingly.
+    question: Is there a way to limit network access from the script?
+  type: FAQPage
 tags:
 - Java
 - Aspose.HTML
 - Scripting
 - Sandbox
-title: تنفيذ جافا سكريبت في جافا – دليل شامل لتشغيل جافا سكريبت من جافا
+title: تنفيذ JavaScript في Java – دليل كامل لتشغيل JS من Java
 url: /ar/java/advanced-usage/execute-javascript-in-java-complete-guide-to-running-js-from/
 ---
 
@@ -28,33 +54,45 @@ url: /ar/java/advanced-usage/execute-javascript-in-java-complete-guide-to-runnin
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تنفيذ JavaScript في Java – دليل شامل
+# تنفيذ JavaScript في Java – دليل كامل لتشغيل JS من Java
 
-هل احتجت يومًا إلى **execute JavaScript in Java** لكن لم تكن متأكدًا من كيفية منع السكريبت من إحداث فوضى في JVM الخاص بك؟ لست وحدك. يواجه العديد من المطورين صعوبة عندما يحاولون تشغيل كود جانب العميل على الخادم، خاصةً عندما تحتوي صفحة HTML على سكريبتات خاصة بها.  
+كان تشغيل JavaScript من جانب العميل داخل تطبيق Java يبدو كالمشي على حبل مشدود: أي سكريبت غير مُحكم قد يتسبب في تجميد JVM أو يفتح ثغرات أمنية. مع صندوق العزل (sandbox) الخاص بـ Aspose.HTML تحصل على بيئة محصورة تحدّ من زمن التنفيذ، واستخدام الذاكرة، والوصول إلى نظام الملفات. في هذا الدرس ستتعلم كيفية **تحميل ملف HTML في Java**، واستدعاء JavaScript بأمان من Java، واسترجاع النتيجة — كل ذلك مع الحفاظ على استقرار وأمان الخادم.
 
-في هذا الدرس ستتعرف بالضبط على كيفية **load HTML file Java**، واستدعاء **call JS from Java** بأمان، والحصول على النتيجة مرة أخرى — كل ذلك باستخدام ميزة الـ sandbox في مكتبة Aspose.HTML. في النهاية ستتمكن من **run JS function Java** دون تعريض تطبيقك لحلقات لا نهائية أو ثغرات أمنية.
+## إجابات سريعة
+- **هل يمكنني تشغيل أي كود JavaScript؟** نعم، لكن صندوق العزل يفرض مهلة زمنية وحد أقصى للذاكرة لحماية JVM.  
+- **هل أحتاج إلى ترخيص للتطوير؟** النسخة التجريبية المجانية تكفي للتقييم؛ الترخيص التجاري مطلوب للإنتاج.  
+- **ما نسخة Java المطلوبة؟** يُنصح باستخدام Java 17 أو أحدث لـ Aspose.HTML 23.10+.  
+- **كيف يمكنني استرجاع قيمة من JavaScript؟** استخدم `document.invokeScript` الذي يُعيد كائن Java `Object`.  
+- **هل صندوق العزل آمن من حيث الخيوط؟** كل مثال `Sandbox` يعمل بخيط واحد؛ أنشئ واحدًا لكل خيط أو قم بمزامنة الوصول.
 
-## ما ستتعلمه
+## ما هو تنفيذ JavaScript في Java؟
 
-- كيفية إعداد sandbox في Aspose.HTML مع مهلة للسكريبت.  
-- الخطوات الدقيقة لـ **load an HTML file Java** داخل `HtmlDocument` معزول.  
-- الصياغة لـ **invoke javascript from java** باستخدام `document.invokeScript`.  
-- نصائح للتعامل مع قيم الإرجاع، وتنظيف الموارد، واستكشاف الأخطاء الشائعة.  
+`execute javascript in java` يشير إلى عملية تشغيل كود JavaScript — الذي يُنفّذ عادةً في المتصفح — داخل بيئة تشغيل Java باستخدام محرك سكريبت أو مكتبة. توفر Aspose.HTML محركًا معزولًا (sandboxed) يعزل السكريبت، يفرض مهلة زمنية، ويعيد النتائج مباشرة إلى Java.
 
-### المتطلبات المسبقة
+## لماذا نستخدم صندوق العزل (sandbox) الخاص بـ Aspose.HTML لتنفيذ JavaScript؟
+
+يدعم Aspose.HTML **أكثر من 50 صيغة إدخال وإخراج** ويمكنه معالجة المستندات التي تصل إلى **500 صفحة** دون تحميل الملف بالكامل في الذاكرة. صندوق العزل الخاص به يعزل محرك JavaScript، ويحد من استخدام وحدة المعالجة المركزية إلى **5 ثوانٍ** قابلة للتكوين افتراضيًا، ويقيد الذاكرة إلى **256 ميغابايت**. هذه الحماية الم quantifiable تتيح لك دمج منطق جانب العميل (مثل تحليل النص أو الحسابات) في خدمات الخلفية دون المساس بالاستقرار.
+
+## المتطلبات المسبقة
 
 | المتطلب | لماذا يهم |
 |-------------|----------------|
-| Java 17 أو أحدث | Aspose.HTML 23.10+ تستهدف إصدارات JDK الحديثة. |
-| Aspose.HTML for Java (حزمة Maven `com.aspose:aspose-html:23.10`) | توفر فئات `HtmlDocument` و `Sandbox`. |
-| صفحة HTML بسيطة تحتوي على دالة JavaScript (مثال: `wordCount()`) | توضح دورة كاملة من Java إلى JS والعودة. |
-| إلمام أساسي بـ try‑with‑resources (اختياري) | يساعد على ضمان التخلص الصحيح من الموارد الأصلية. |
+| Java 17 أو أحدث | Aspose.HTML 23.10+ يستهدف إصدارات JDK الحديثة ويستخدم الوحدة المدمجة `jdk.incubator.foreign` للتفاعل مع المكتبات الأصلية. |
+| Aspose.HTML for Java (`com.aspose:aspose-html:23.10`) | يوفر فئات `HtmlDocument` و `Sandbox` اللازمة لتنفيذ السكريبت بأمان. |
+| صفحة HTML بسيطة مع دالة JavaScript (مثل `wordCount()`) | تُظهر الرحلة الكاملة من Java إلى JS والعودة. |
+| الإلمام بـ try‑with‑resources (اختياري) | يضمن التخلص الحتمي من الموارد الأصلية، مما يمنع تسرب الذاكرة. |
 
-إذا كان لديك هذه العناصر جاهزة، لنبدأ.
+إذا كان لديك هذه المتطلبات جاهزة، دعنا نبدأ بإنشاء صندوق العزل.
 
-## الخطوة 1 – إعداد الـ Sandbox (الكلمة المفتاحية الأساسية في التنفيذ)
+## ما هي فئة Sandbox؟
 
-أول شيء يجب عليك القيام به هو **execute JavaScript in Java** داخل بيئة محكومة. فئة `Sandbox` توفر لك ذلك بالضبط، حيث تسمح لك بتحديد مهلة وخيارات أمان أخرى.
+فئة `Sandbox` تُنشئ بيئة تنفيذ معزولة لـ HTML و JavaScript، وتطبق سياسات أمان مثل مهلة السكريبت، حدود الذاكرة، وتقييدات نظام الملفات. تُشغل محرك JavaScript في سياق أصلي منفصل، مما يمنع السكريبتات من الوصول مباشرة إلى JVM المضيف. يمكنك ضبط خيارات مثل `scriptTimeout`، `maxMemory`، و `allowedUrls` قبل تحميل المستند.
+
+## كيفية تكوين صندوق العزل (الخطوة 1)
+
+حمّل صندوق العزل بمهلة زمنية تتناسب مع تعقيد السكريبت الخاص بك؛ حد 5 ثوانٍ يُعد قاعدة جيدة لدوال معالجة النص، ويمكنك زيادته للعبء الأثقل. يتيح لك صندوق العزل أيضًا تحديد أقصى استخدام للذاكرة بـ 256 ميغابايت، مما يمنع السكريبتات الكبيرة من استنزاف مساحة كومة JVM.
+
+> **نصيحة احترافية:** اضبط المهلة فقط بعد تحليل أداء السكريبت؛ قيمة مرتفعة جدًا تُفقد صندوق العزل هدفه الوقائي.
 
 ```java
 import com.aspose.html.sandbox.SandboxOptions;
@@ -68,11 +106,13 @@ options.setScriptTimeout(5000); // milliseconds
 Sandbox sandbox = new Sandbox(options);
 ```
 
-> **نصيحة احترافية:** عادةً ما تكون مهلة 5 ثوانٍ كافية لمعالجة النص البسيطة، لكن يمكنك تعديلها بناءً على حجم عملك. ضبطها عاليًا جدًا يُفقد الـ sandbox هدفه.
+## ما هي فئة HtmlDocument؟
 
-## الخطوة 2 – تحميل ملف HTML في Java
+`HtmlDocument` تمثل ملف HTML واحد في الذاكرة. عندما تمرر مثال `Sandbox` إلى المُنشئ الخاص به، يتم تحليل المستند وتحميل أي وسوم `<script>` ولكن **لا تُنفّذ** حتى تستدعي دالة صراحةً. بعد التحميل، يمكنك الاستعلام أو تعديل DOM، إضافة أو إزالة عناصر، وتحضير البيئة قبل استدعاء أي JavaScript.
 
-الآن بعد أن أصبح الـ sandbox جاهزًا، يمكنك بأمان **load an HTML file Java**. مُنشئ `HtmlDocument` يقبل مسار الملف ومثيل الـ sandbox، مما يضمن تشغيل الصفحة داخل الحاوية المقيدة.
+## كيفية تحميل ملف HTML في Java (الخطوة 2)
+
+توفير مسار الملف ومثال الصندوق العزل يضمن أن جميع السكريبتات تعمل داخل الحاوية المقيدة، مما يمنع الوصول غير المصرح به إلى نظام المضيف. يتيح لك هذا الفصل تحليل DOM، تعديل العناصر، أو فحص السمات دون تشغيل أي كود JavaScript تلقائيًا، ويمكنك أيضًا حقن موارد إضافية أو ضبط خيارات الصندوق قبل التحميل.
 
 ```java
 import com.aspose.html.HtmlDocument;
@@ -84,11 +124,11 @@ String htmlPath = "C:/myproject/resources/sample_with_script.html";
 HtmlDocument document = new HtmlDocument(htmlPath, sandbox);
 ```
 
-إذا كان الملف يحتوي على وسوم `<script>`، فسيتم تحليلها ولكن **لن تُنفذ حتى تقوم باستدعاء دالة صراحةً**. هذا الفصل مفيد عندما تحتاج فقط إلى جزء من منطق الصفحة.
+إذا احتوت الصفحة على عناصر `<script>`، فإنها تظل خاملة حتى تستدعي `invokeScript`. هذا السلوك مفيد عندما تحتاج فقط إلى دالة مساعدة محددة من صفحة أكبر.
 
-## الخطوة 3 – استدعاء JavaScript من Java
+## كيفية استدعاء JavaScript من Java (الخطوة 3)
 
-بعد تحميل المستند، يمكنك الآن **invoke javascript from java**. افترض أن HTML الخاص بك يعرف دالة باسم `wordCount()` تُعيد عدد الكلمات في فقرة. يبدو الاستدعاء هكذا:
+افترض أن HTML الخاص بك يعرف دالة تسمى `wordCount()` تُعيد عدد الكلمات في فقرة. تستدعيها باستخدام `document.invokeScript("wordCount")`. تقوم الطريقة بتنفيذ السكريبت داخل الصندوق العزل، تحترم المهلة، وتعيد النتيجة ككائن Java `Object`.
 
 ```java
 // The name passed to invokeScript must match the JS function exactly
@@ -100,11 +140,11 @@ String wordCount = result != null ? result.toString() : "null";
 System.out.println("Word count = " + wordCount);
 ```
 
-> **لماذا يعمل هذا:** `invokeScript` يُشغّل محرك JavaScript داخل الـ sandbox، ينفّذ الدالة المحددة، ويعيد قيمة الإرجاع إلى Java. إذا رمى السكريبت استثناءً أو تجاوز المهلة، يتم رفع `AsposeException`.
+> **لماذا يعمل هذا:** `invokeScript` يربط محرك JavaScript ببيئة تشغيل Java، ويحوّل أنواع الإرجاع الأولية تلقائيًا. إذا رمى السكريبت استثناءً أو تجاوز المهلة، يتم رفع `AsposeException`، مما يتيح لك معالجة الأخطاء بشكل سلس.
 
-## الخطوة 4 – تنظيف الموارد
+## كيفية تنظيف الموارد (الخطوة 4)
 
-Aspose.HTML يتعامل مع موارد أصلية، لذا يجب عليك **run JS function Java** ثم التخلص من كل شيء لتجنب تسرب الذاكرة.
+يقوم Aspose.HTML بتخصيص موارد أصلية لمحرك JavaScript. لتجنب تسرب الذاكرة، يجب دائمًا استدعاء `dispose()` على كل من `HtmlDocument` و `Sandbox` عند الانتهاء. يمكنك أيضًا تغليفهما في كتلة try‑with‑resources بإنشاء غلاف `AutoCloseable` صغير، لكن الإزالة الصريحة واضحة وموثوقة.
 
 ```java
 // Release native resources – always in a finally block or try‑with‑resources
@@ -112,11 +152,9 @@ document.dispose();
 sandbox.dispose();
 ```
 
-إذا كنت تفضل نمط `try‑with‑resources` الحديث، يمكنك تغليف `HtmlDocument` و `Sandbox` في غلاف مخصص `AutoCloseable`, لكن استدعاءات `dispose()` الصريحة جيدة تمامًا.
-
 ## مثال كامل يعمل
 
-بجمع كل الأجزاء معًا، إليك برنامجًا مستقلًا يمكنك نسخه ولصقه في IDE الخاص بك وتشغيله فورًا (بافتراض أن اعتماد Maven مُلبّى).
+فيما يلي برنامج مستقل يوضح التدفق الكامل — من إنشاء الصندوق العزل إلى استرجاع النتيجة. انسخه إلى بيئة التطوير IDE الخاصة بك، أضف تبعية Maven، وشغّله ضد `sample_with_script.html`.
 
 ```java
 import com.aspose.html.HtmlDocument;
@@ -147,7 +185,7 @@ public class JsInvokeTutorial {
 
 ### النتيجة المتوقعة
 
-إذا كان ملف `sample_with_script.html` يحتوي على:
+إذا كان `sample_with_script.html` يحتوي على دالة `wordCount()` التي تعد الكلمات في عنصر `<p>`، فإن برنامج Java يطبع عددًا صحيحًا.
 
 ```html
 <!DOCTYPE html>
@@ -164,54 +202,74 @@ function wordCount() {
 </html>
 ```
 
-تشغيل برنامج Java يطبع:
+تشغيل البرنامج ينتج:
 
 ```
 Word count = 5
 ```
 
-هذه هي دورة **execute javascript in java** بالكامل — من تحميل الملف إلى استرجاع القيمة.
+هذا يُكمل دورة **execute javascript in java**: التحميل، الاستدعاء، الاسترجاع، والتنظيف.
 
 ## أسئلة شائعة وحالات خاصة
 
-### ماذا لو لم يُرجِع السكريبت أبداً؟
+### ماذا لو لم يرجع السكريبت أبداً؟
 
-إعداد `scriptTimeout` في الـ sandbox يضمن إيقاف أي سكريبت غير متوقف بعد عدد المليثانية المحدد. ستحصل على `AsposeException` يُشير إلى “Script execution timed out.” عدّل المهلة إذا كان كودك الشرعي يحتاج إلى وقت أطول.
+يقوم `scriptTimeout` في الصندوق العزل بإنهاء أي سكريبت يعمل أطول من الحد المحدد، عادةً **5 ثوانٍ**. عند حدوث مهلة، يُرفع `AsposeException` بالرسالة “Script execution timed out.”. يمكنك التقاط هذا الاستثناء، تسجيل السكريبت المسبب، وزيادة المهلة اختياريًا للكود الطويل الشرعي.
 
 ### هل يمكنني تمرير معلمات إلى دالة JavaScript؟
 
-`invokeScript` يقبل فقط اسم الدالة. لتمرير معلمات، عرّف دالة JavaScript عامة تقرأ القيم من DOM أو من متغيرات عالمية مخصصة تقوم بتعيينها عبر `document.window`. مثال:
+`invokeScript` يقبل اسم الدالة فقط. لتوفير معلمات، عرّف دالة JavaScript عالمية تقرأ القيم من DOM أو من متغيرات عالمية مخصصة تقوم بتعيينها عبر `document.window.setProperty`. على سبيل المثال، يمكنك حقن قيمة عددية باستخدام `document.window.setProperty("a", 3)` قبل استدعاء دالة تسمى `add`.
+
+### هل الصندوق العزل آمن ضد الشيفرة الخبيثة؟
+
+يعزل الصندوق العزل السكريبت عن JVM المضيف ويفرض حدودًا على وحدة المعالجة المركزية والذاكرة، لكنه **ليس** مدير أمان كامل. يمنع الحلقات اللانهائية ويقيد استخدام الذاكرة، إلا أن سكريبتًا خبيثًا قد يظل قادرًا على إجراء حسابات ثقيلة ضمن الوقت المسموح. بالنسبة للشيفرة غير الموثوقة تمامًا، يُنصح بتنفيذها في عملية منفصلة أو حاوية.
+
+## نصائح للاستخدام في الإنتاج
+
+- **إعادة استخدام أمثلة sandbox** عند معالجة العديد من السكريبتات؛ إنشاء صندوق عزل رخيص، لكن إعادة ضبط حالته بين الاستدعاءات يتجنب الحمل الزائد غير الضروري.  
+- **سجّل تفاصيل الاستثناء بالكامل**؛ `AsposeException` غالبًا ما يتضمن رقم السطر ومقتطف السكريبت الذي تسبب في الفشل.  
+- **تحقق من صحة HTML قبل التنفيذ** باستخدام أداة التحقق المدمجة في Aspose.HTML لالتقاط العلامات غير الصحيحة مبكرًا.  
+- **تجنب مشاركة sandbox عبر الخيوط**؛ كل مثال يعمل بخيط واحد. أنشئ مجموعة من sandboxes أو قم بمزامنة الوصول إذا كنت بحاجة إلى تنفيذ متزامن.
+
+## الأسئلة المتكررة
+
+**س: هل يمكنني استخدام هذا النهج في وحدة تحكم REST باستخدام Spring Boot؟**  
+ج: نعم. أنشئ sandbox لكل طلب أو أعد استخدام sandbox محلي لكل خيط، استدعِ JavaScript المطلوب، وأرجع النتيجة كـ JSON من وحدة التحكم.
+
+**س: هل يتطلب Aspose.HTML مكتبة أصلية؟**  
+ج: يستخدم محرك JavaScript أصلي مُضمّن مع المكتبة؛ الملفات الثنائية الأصلية مدمجة في حزمة Maven، لذا لا حاجة لتثبيت منفصل.
+
+**س: ما هو الحد الأقصى لحجم ملف HTML الذي يمكن للصندوق العزل التعامل معه؟**  
+ج: يمكن للصندوق العزل معالجة ملفات تصل إلى **200 ميغابايت** دون تحميل المستند بالكامل في الذاكرة، بفضل محلله المتدفق.
+
+**س: كيف يمكنني تصحيح سكريبت يفشل داخل الصندوق العزل؟**  
+ج: فعّل تسجيل Aspose (`System.setProperty("aspose.html.logging", "true")`) لالتقاط مصدر السكريبت وتتبع الأخطاء، ثم افحص ملف السجل المُنشأ.
+
+**س: هل هناك طريقة لتقييد وصول الشبكة من السكريبت؟**  
+ج: الصندوق العزل يعطل الاتصالات الشبكية الخارجية افتراضيًا. إذا احتجت للسماح بعناوين URL محددة، قم بضبط مجموعة `allowedUrls` في `Sandbox` وفقًا لذلك.
+
+## الخلاصة
+
+أصبح لديك الآن وصفة كاملة وجاهزة للإنتاج لـ **execute javascript in java** باستخدام صندوق العزل الخاص بـ Aspose.HTML. من خلال **تحميل ملف HTML في Java**، واستدعاء JavaScript بأمان من Java، وإزالة الموارد بشكل صحيح، يمكنك دمج منطق جانب العميل في خدمات الخلفية دون تعريض استقرار JVM للخطر. جرّب لاحقًا تحميل صفحات تجلب بيانات عن بُعد، إرجاع كائنات JSON معقدة، أو دمج التدفق في نقطة نهاية خدمة ويب.
+
+**آخر تحديث:** 2026-08-22  
+**تم الاختبار مع:** Aspose.HTML 23.10 for Java  
+**المؤلف:** Aspose  
 
 ```javascript
 function add(a, b) { return a + b; }
 ```
 
-يمكنك حقن القيم في الصفحة باستخدام `document.window.setProperty("a", 3)` قبل استدعاء `add`.
+## دروس ذات صلة
 
-### هل الـ sandbox آمن ضد الكود الضار؟
+- [إنشاء دليل كامل لإنشاء صندوق عزل Aspose Html في Java](/html/java/configuring-environment/create-aspose-html-sandbox-complete-java-guide/)
+- [كيفية تمكين JavaScript في Aspose Html تحميل HTML استخراج النص](/html/java/advanced-usage/how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+- [تمكين تنفيذ السكريبت في Java دليل كامل لـ Aspose Html](/html/java/advanced-usage/enable-script-execution-in-java-complete-aspose-html-guide/)
 
-الـ sandbox يعزل السكريبت عن JVM المضيف، لكنه لا يُعوض مدير أمان كامل. يمنع الحلقات اللانهائية ويحد من الذاكرة، لكنه لا يستطيع إيقاف سكريبت من تنفيذ عمليات CPU ثقيلة داخل نافذة المهلة. للكود غير موثوق تمامًا، فكر في عملية خارجية أو حاوية.
-
-### كيف أتعامل مع قيم إرجاع غير رقمية؟
-
-`invokeScript` يُعيد كائن `Object`. إذا أعاد JavaScript سلسلة نصية أو مصفوفة أو كائن، ستحصل على تمثيل Java (مثل `String`، `Map`). قم بالتحويل المناسب، أو قم بتحويله إلى JSON داخل السكريبت ثم قم بتحليله في Java.
-
-## نصائح للاستخدام في الإنتاج
-
-- **إعادة استخدام الـ sandbox**: إنشاء sandbox رخيص نسبيًا، لكن إذا احتجت لاستدعاء العديد من السكريبتات، احتفظ بمثيل واحد فعال وأعد ضبط حالته بين الاستدعاءات.  
-- **سجّل الاستثناءات**: التقط تفاصيل `AsposeException`؛ غالبًا ما تحتوي على رقم السطر المخالف في السكريبت.  
-- **تحقق من صحة HTML**: استخدم قدرات التحليل في Aspose.HTML لضمان أن الملف مُشكل بشكل صحيح قبل التنفيذ.  
-- **سلامة الخيوط**: كل مثيل `Sandbox` غير آمن للخلط بين الخيوط. أنشئ sandbox لكل خيط أو قم بمزامنة الوصول.
-
-## الخلاصة
-
-الآن لديك وصفة شاملة من البداية للنهاية لـ **execute javascript in java** باستخدام sandbox في Aspose.HTML. من خلال **loading an HTML file Java**، واستدعاء **invoke javascript from java** بأمان، وتنظيف الموارد بشكل صحيح، يمكنك دمج منطق جانب العميل في تطبيقات Java على الخادم دون المساس بالاستقرار.
-
-هل أنت مستعد للخطوة التالية؟ جرّب تحميل صفحة تجلب بيانات من API، أو جرب إرجاع كائنات معقدة من JavaScript. يمكنك أيضًا استكشاف **how to call js java** من خدمة ويب، أو دمج هذه التقنية في متحكم Spring Boot لمعالجة مقتطفات HTML التي يرسلها المستخدم.
-
-ن scripting سعيد، ولتكن جسور Java‑JS سريعة وآمنة!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

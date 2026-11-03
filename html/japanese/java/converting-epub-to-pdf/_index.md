@@ -60,6 +60,13 @@ Aspose.HTML を使用して Java で EPUB を PDF に簡単に変換し、ドキ
 ### [JavaでEPUBをPDFに変換する際のフォント埋め込み方法](./how-to-embed-fonts-when-converting-epub-to-pdf-in-java/)
 JavaでEPUBをPDFに変換する際にフォントを埋め込む方法を解説します。文書の表示互換性を確保できます。
 
+### [Aspose HTML を使用して PDF にフォントを埋め込む方法 – EPUB から PDF への変換ガイド](./how-to-embed-fonts-in-pdf-using-aspose-html-convert-epub-to/)
+Aspose.HTML for Java を使って PDF にフォントを埋め込み、EPUB からの変換時に文字表示を保証する方法を解説します。
+### [Javaで埋め込みフォント付きEPUBをPDFに変換](./convert-epub-to-pdf-with-embedded-fonts-in-java/)
+Aspose.HTML for Java を使用して、フォントを埋め込んだ状態で EPUB を PDF に変換する方法を学びます。
+### [カスタムフォントサイズで EPUB を PDF に変換する – Java ガイド](./convert-epub-to-pdf-with-custom-font-size-java-guide/)
+Java でフォントサイズを指定して EPUB を PDF に変換する方法を解説します。レイアウト調整が簡単に行えます。
+
 ### [EPUB を BMP に変換](./convert-epub-to-bmp/)
 Aspose.HTML for Java を使用して EPUB を BMP に変換する方法を学びます。効率的なコンテンツ変換のためのステップバイステップガイドです。
 
@@ -84,8 +91,18 @@ Aspose.HTML for Java の使用方法を学びます：EPUB を画像に変換な
 ### [EPUB を画像に変換](./convert-epub-to-image/)
 Aspose.HTML for Java を使用して EPUB を画像に変換する方法を学びます。デジタルコンテンツを簡単に変換できます。ステップバイステップガイドが含まれています。
 
+### [JavaでEPUBをPDFに変換 – ステップバイステップガイド](./convert-epub-to-pdf-with-java-step-by-step-guide/)
 ### [EPUB を PDF に変換する際のフォント埋め込み方法 – Java ガイド](./how-to-embed-fonts-when-converting-epub-to-pdf-java-guide/)
 Aspose.HTML for Java を使用して、EPUB から PDF へ変換する際にフォントを埋め込む方法を学びます。
+### [EPUB から PDF を作成 – ステップバイステップ Java ガイド](./create-pdf-from-epub-step-by-step-java-guide/)
+Aspose.HTML for Java を使用して、EPUB を PDF に変換する手順を詳細に解説します。
+### [epub to pdf チュートリアル – Javaで数分でeBookを変換](./epub-to-pdf-tutorial-convert-your-ebooks-with-java-in-minute/)
+### [epub to pdf チュートリアル: Java と Aspose で eBook を変換](./epub-to-pdf-tutorial-convert-ebooks-with-java-aspose/)
+Java と Aspose.HTML for Java を使用して、EPUB を PDF に変換する方法をステップバイステップで解説します。
+### [JavaでEPUBをPDFに変換 – 目次の追加と完全ガイド](./convert-epub-to-pdf-in-java-add-toc-and-full-guide/)
+Aspose.HTML for Java を使用して、EPUB から PDF への変換時に目次を追加し、完全なガイドを提供します。
+### [JavaでEPUBをPDFに変換する完全プログラミングガイド](./convert-epub-to-pdf-with-java-complete-programming-guide/)
+Java と Aspose.HTML を使用して、EPUB を PDF に変換する完全な手順を解説します。
 
 ## よくある質問
 
