@@ -165,6 +165,8 @@ Pelajari cara mengatur ukuran halaman dan margin saat mengonversi HTML ke PDF di
 Panduan lengkap langkah‑demi‑langkah mengonversi HTML ke PDF di Java dengan Aspose.HTML, termasuk pengaturan ukuran halaman dan opsi penyimpanan.
 ### [Mengonversi HTML ke PDF di Java – Panduan Batch Paralel](./convert-html-to-pdf-in-java-parallel-batch-guide/)
 Panduan langkah‑demi‑langkah untuk mengonversi banyak file HTML ke PDF secara paralel menggunakan Aspose.HTML for Java, meningkatkan kecepatan proses batch.
+### [Membuat PDF dari HTML di Java – Panduan Langkah‑demi‑Langkah](./create-pdf-from-html-in-java-step-by-step-guide/)
+Panduan lengkap untuk membuat PDF dari HTML di Java menggunakan Aspose.HTML dengan langkah‑demi‑langkah mudah.
 
 ### [Mengonversi HTML ke MHTML](./convert-html-to-mhtml/)
 Konversi HTML ke MHTML dengan mudah menggunakan Aspose.HTML untuk Java. Ikuti panduan langkah‑demi‑Langkah kami untuk konversi HTML‑ke‑MHTML yang efisien.
@@ -258,8 +260,6 @@ Pelajari cara mengonversi HTML ke PDF di Java hanya dengan satu baris kode mengg
 Pelajari cara menghasilkan PDF dengan ukuran kustom dari HTML menggunakan Aspose.HTML for Java dalam panduan langkah demi langkah.
 ### [Mengonversi HTML ke PDF di Java – Panduan Thread Pool Tetap Paralel](./convert-html-to-pdf-in-java-parallel-fixed-thread-pool-guide/)
 Pelajari cara mengonversi HTML ke PDF secara paralel menggunakan Fixed Thread Pool di Java dengan Aspose.HTML untuk meningkatkan kinerja.
-### [Membuat PDF dari HTML di Java – Panduan Langkah‑demi‑Langkah](./create-pdf-from-html-in-java-step-by-step-guide/)
-Pelajari cara membuat PDF dari HTML di Java dengan langkah‑demi‑langkah mudah menggunakan Aspose.HTML.
 ### [Mengonversi HTML ke PDF di Java – Atur Ukuran Halaman PDF, Resolusi, dan Simpan HTML sebagai PDF](./convert-html-to-pdf-in-java-set-pdf-page-size-resolution-and/)
 Pelajari cara mengatur ukuran halaman, resolusi, dan menyimpan HTML sebagai PDF menggunakan Aspose.HTML untuk Java.
 ### [Cara Mengonversi SVG – Panduan Lengkap Menggunakan Aspose HTML Converter](./how-to-convert-svg-complete-guide-using-aspose-html-converte/)

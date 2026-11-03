@@ -143,6 +143,8 @@ Aprenda a converter HTML para PDF em Java com um guia completo, cobrindo configu
 Aprenda a converter HTML para PDF usando o Aspose HTML Converter em Java com este guia completo.
 ### [Tutorial HTML para PDF: Converta HTML para PDF com Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-java/)
 Aprenda a converter HTML para PDF em Java de forma simples e eficaz usando Aspose.HTML.
+### [Criar PDF a partir de HTML em Java – guia passo a passo](./create-pdf-from-html-in-java-step-by-step-guide/)
+Aprenda a gerar PDFs a partir de HTML em Java com um guia detalhado passo a passo usando Aspose.HTML.
 ### [Convertendo HTML para MHTML](./convert-html-to-mhtml/)
 ### [Aspose HTML para PDF em Java – Guia rápido passo a passo](./aspose-html-to-pdf-in-java-quick-step-by-step-guide/)
 Aprenda rapidamente a converter HTML para PDF em Java usando Aspose.HTML com um guia passo a passo conciso.
@@ -275,7 +277,6 @@ Aprenda a configurar o tamanho da página PDF ao converter HTML usando Aspose.HT
 Aprenda a definir tamanho de página, resolução e salvar HTML como PDF usando Aspose.HTML for Java.
 ### [Converter HTML para PDF com pool de threads fixo em Java – Guia passo a passo](./convert-html-to-pdf-with-fixed-thread-pool-java-step-by-step/)
 Aprenda a converter HTML para PDF usando um pool de threads fixo em Java, otimizando desempenho em processamento paralelo.
-### [Criar PDF a partir de HTML em Java – Guia passo a passo](./create-pdf-from-html-in-java-step-by-step-guide/)
 ### [Como Definir Offset ao Converter HTML para Markdown em Java](./how-to-set-offset-when-converting-html-to-markdown-in-java/)
 Aprenda a ajustar o offset ao converter HTML para Markdown usando Aspose.HTML for Java, garantindo formatação correta.
 ### [Converter markdown para html – Guia Java com saída PDF](./convert-markdown-to-html-java-guide-with-pdf-output/)

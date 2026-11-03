@@ -285,9 +285,6 @@ Java में Aspose.HTML का उपयोग करके HTML को Markd
 ### [MHTML को PDF में बदलते समय इमेज एम्बेड कैसे करें – Aspose गाइड](./how-to-embed-images-when-converting-mhtml-to-pdf-aspose-guid/)
 MHTML फ़ाइल को PDF में बदलते समय इमेज को सही ढंग से एम्बेड करने के चरण‑दर‑चरण निर्देश।
 
-### [Java में HTML को PDF में बदलें – चरण‑दर‑चरण गाइड](./create-pdf-from-html-in-java-step-by-step-guide/)
-Aspose.HTML for Java का उपयोग करके HTML को PDF में बदलने की पूरी प्रक्रिया, कोड उदाहरण और सेटिंग्स के साथ सीखें।
-
 ### [Java में HTML को PDF में बदलना – पूर्ण सैंडबॉक्स गाइड](./convert-html-to-pdf-in-java-full-sandbox-guide/)
 Aspose.HTML का उपयोग करके Java में पूर्ण सैंडबॉक्स वातावरण में HTML को PDF में बदलने की विस्तृत प्रक्रिया सीखें।
 
@@ -402,6 +399,9 @@ Aspose.HTML के साथ C# में HTML फ़ाइल को PDF मे
 Aspose HTML कनवर्टर का उपयोग करके जावा में HTML को PDF में बदलने की पूरी प्रक्रिया सीखें।
 
 ### [HTML को PDF ट्यूटोरियल: Java के साथ HTML को PDF में बदलें](./html-to-pdf-tutorial-convert-html-to-pdf-with-java/)
+
+### [Java में HTML से PDF बनाना – चरण‑दर‑चरण गाइड](./create-pdf-from-html-in-java-step-by-step-guide/)
+Aspose.HTML for Java का उपयोग करके HTML को PDF में बदलने की विस्तृत चरण‑दर‑चरण प्रक्रिया सीखें।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
