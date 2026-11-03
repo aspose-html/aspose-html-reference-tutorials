@@ -262,6 +262,8 @@ Lär dig hur du skapar ett dokument från HTML, exporterar med bilder och sparar
 Lär dig hur du packar HTML-filer i ett ZIP‑arkiv med en anpassad resurs‑hanterare i C# och Aspose.HTML för .NET.
 ### [Spara HTML till ZIP med Aspose.HTML – komplett guide](./save-html-to-zip-with-aspose-html-complete-guide/)
 Lär dig steg för steg hur du sparar HTML-filer i ett ZIP‑arkiv med Aspose.HTML för .NET i en komplett guide.
+### [Spara HTML som ZIP i C# – steg‑för‑steg‑guide](./save-html-as-zip-in-c-step-by-step-guide/)
+Lär dig hur du sparar HTML-filer i ett ZIP‑arkiv med C# och Aspose.HTML i en detaljerad steg‑för‑steg‑guide.
 
 ## Slutsats
 

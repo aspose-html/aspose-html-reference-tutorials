@@ -262,6 +262,8 @@ Aspose.HTML สำหรับ .NET ไม่ใช่แค่ไลบรา�
 เรียนรู้วิธีบันทึกไฟล์ HTML เป็น ZIP ด้วย Aspose.HTML สำหรับ .NET ผ่านคู่มือ C# อย่างละเอียด
 ### [บันทึก HTML เป็น ZIP ด้วย Aspose.HTML – คู่มือเต็ม](./save-html-to-zip-with-aspose-html-complete-guide/)
 เรียนรู้วิธีบันทึกไฟล์ HTML เป็นไฟล์ ZIP อย่างครบถ้วนด้วย Aspose.HTML สำหรับ .NET พร้อมตัวอย่างโค้ดและขั้นตอนละเอียด
+### [บันทึก HTML เป็น ZIP ใน C# – คู่มือแบบทีละขั้นตอน](./save-html-as-zip-in-c-step-by-step-guide/)
+เรียนรู้วิธีบันทึกไฟล์ HTML เป็น ZIP ด้วย C# อย่างละเอียดตามขั้นตอน
 
 ## บทสรุป
 

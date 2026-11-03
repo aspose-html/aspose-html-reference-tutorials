@@ -53,6 +53,8 @@ Pelajari cara mengonversi HTML menjadi gambar PNG menggunakan C# dengan Aspose.H
 ### [Buat PNG dari HTML di C# – Render HTML ke PNG](./create-png-from-html-in-c-render-html-to-png/)
 Pelajari cara mengonversi HTML menjadi gambar PNG menggunakan C# dengan Aspose.HTML.
 
+### [Buat PNG dari HTML di C# menggunakan Aspose.HTML](./create-png-from-html-in-c-using-aspose-html/)
+Pelajari cara mengonversi HTML menjadi gambar PNG menggunakan Aspose.HTML dengan C# dalam tutorial langkah demi langkah.
 ### [Cara Mengaktifkan Antialiasing Saat Mengonversi DOCX ke PNG/JPG](./how-to-enable-antialiasing-when-converting-docx-to-png-jpg/)
 Pelajari cara mengaktifkan antialiasing untuk meningkatkan kualitas gambar PNG atau JPG saat mengonversi dokumen DOCX menggunakan Aspose.HTML.
 ### [Konversi DOCX ke PNG – Membuat Arsip ZIP dengan C# Tutorial](./convert-docx-to-png-create-zip-archive-c-tutorial/)

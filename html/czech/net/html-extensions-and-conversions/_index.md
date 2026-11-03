@@ -272,6 +272,8 @@ Naučte se, jak pomocí Aspose.HTML v C# převést HTML soubor do ZIP archivu po
 Naučte se, jak programově nastavit styl písma při převodu HTML do PDF v C# pomocí Aspose.HTML.
 ### [Uložte HTML do ZIP pomocí Aspose.HTML – kompletní průvodce](./save-html-to-zip-with-aspose-html-complete-guide/)
 Naučte se, jak pomocí Aspose.HTML pro .NET uložit HTML do ZIP archivu – kompletní průvodce.
+### [Uložte HTML jako ZIP v C# – krok za krokem](./save-html-as-zip-in-c-step-by-step-guide/)
+Naučte se, jak v C# krok po kroku uložit HTML soubor do ZIP archivu pomocí Aspose.HTML pro .NET.
 
 ## Závěr
 

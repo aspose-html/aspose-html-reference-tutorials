@@ -172,6 +172,9 @@ Erfahren Sie, wie Sie mit ZipArchive HTML‑Inhalte in C# komprimieren und als Z
 ### [PDF aus HTML in C# – Vollständiger Programmierleitfaden](./create-pdf-from-html-in-c-complete-programming-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET PDFs aus HTML in C# erstellen – umfassende Schritt‑für‑Schritt‑Anleitung.
 ### [HTML als ZIP speichern – Komplettes C#‑Tutorial](./save-html-as-zip-complete-c-tutorial/)
+Erfahren Sie, wie Sie HTML‑Inhalte mit Aspose.HTML für .NET in ein ZIP‑Archiv speichern – vollständige Schritt‑für‑Schritt‑Anleitung in C#.
+### [HTML in ZIP speichern in C# – Schritt‑für‑Schritt‑Anleitung](./save-html-as-zip-in-c-step-by-step-guide/)
+Erfahren Sie, wie Sie HTML-Inhalte mit Aspose.HTML für .NET in ein ZIP-Archiv speichern – detaillierte Schritt‑für‑Schritt‑Anleitung in C#.
 ### [HTML in ZIP speichern in C# – Komplettes In‑Memory‑Beispiel](./save-html-to-zip-in-c-complete-in-memory-example/)
 ### [Wie man Handler in Aspose.HTML verwendet – HTML laden, als ZIP speichern](./how-to-use-handler-in-aspose-html-load-html-save-as-zip/)
 Erfahren Sie, wie Sie mit Aspose.HTML einen Handler nutzen, HTML laden und das Ergebnis als ZIP‑Archiv speichern.

@@ -264,6 +264,8 @@ url: /ar/net/html-extensions-and-conversions/
 ### [تحويل HTML إلى PDF في C# – تعيين نمط الخط برمجيًا](./convert-html-to-pdf-in-c-set-font-style-programmatically/)
 ### [حفظ HTML إلى ZIP باستخدام Aspose.HTML – دليل كامل](./save-html-to-zip-with-aspose-html-complete-guide/)
 دليل شامل لحفظ ملفات HTML كملفات ZIP باستخدام Aspose.HTML في .NET.
+### [حفظ HTML كملف ZIP في C# – دليل خطوة بخطوة](./save-html-as-zip-in-c-step-by-step-guide/)
+تعلم كيفية حفظ مستند HTML كملف ZIP باستخدام C# ومكتبة Aspose.HTML خطوة بخطوة.
 
 ## خاتمة
 

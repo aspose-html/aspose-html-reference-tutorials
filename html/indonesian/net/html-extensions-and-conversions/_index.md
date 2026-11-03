@@ -171,6 +171,8 @@ Pelajari cara menyimpan file HTML sebagai arsip ZIP menggunakan Aspose.HTML untu
 Pelajari cara menyimpan HTML sebagai arsip ZIP menggunakan C# dan Aspose.HTML dalam panduan lengkap.
 ### [Simpan HTML sebagai ZIP – Panduan Lengkap untuk Aspose.HTML](./save-html-as-zip-complete-guide-for-aspose-html/)
 Panduan lengkap menyimpan HTML ke arsip ZIP menggunakan Aspose.HTML untuk .NET dengan contoh kode C#.
+### [Simpan HTML sebagai ZIP di C# – panduan langkah‑demi‑langkah](./save-html-as-zip-in-c-step-by-step-guide/)
+Pelajari cara menyimpan file HTML ke arsip ZIP secara bertahap menggunakan C# dan Aspose.HTML.
 ### [Simpan HTML ke ZIP di C# – Contoh In‑Memory Lengkap](./save-html-to-zip-in-c-complete-in-memory-example/)
 ### [Penangan Sumber Daya Kustom di C# – Mengonversi HTML ke Arsip ZIP dari Memori](./custom-resource-handler-in-c-convert-html-to-zip-archive-fro/)
 Pelajari cara menggunakan Custom Resource Handler di C# untuk mengonversi HTML menjadi arsip ZIP langsung dari memori dengan Aspose.HTML.
