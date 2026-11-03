@@ -88,6 +88,8 @@ Poznaj metodę zapisu HTML w C# z własnym magazynem wyjściowym, dającą pełn
 
 ### [Ładowanie ciągu HTML w C# – kompletny przewodnik z własnym obsługiwaczem](./load-html-string-in-c-complete-guide-with-custom-handler/)
 
+### [Utwórz własny obsługiwacz zasobów w C# do ładowania HTML](./create-custom-resource-handler-in-c-for-html-loading/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

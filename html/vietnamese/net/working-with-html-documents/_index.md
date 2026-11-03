@@ -81,6 +81,7 @@ Hướng dẫn chi tiết cách sử dụng CSS và C# để làm tiêu đề in
 
 ### [Tạo tài liệu HTML trong bộ nhớ với Aspose.HTML – Hướng dẫn đầy đủ](./create-in-memory-html-document-with-aspose-html-complete-gui/)
 Hướng dẫn chi tiết cách tạo tài liệu HTML trong bộ nhớ bằng Aspose.HTML, kèm ví dụ mã và các bước thực hiện.
+### [Tạo trình xử lý tài nguyên tùy chỉnh trong C# để tải HTML](./create-custom-resource-handler-in-c-for-html-loading/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -61,6 +61,8 @@ Naučte se, jak v .NET povolit ClearType a nastavit režim vyhlazování pro ost
 Naučte se převádět soubory Word do PDF pomocí Aspose.HTML v C# s podrobným návodem a ukázkami kódu.
 ### [Uložte HTML do ZIP pomocí C# – vytvořte ZIP archiv v C# pomocí Aspose](./save-html-to-zip-with-c-create-zip-archive-c-using-aspose/)
 Naučte se, jak pomocí Aspose.HTML v C# uložit HTML soubor do ZIP archivu a spravovat kompresi.
+### [Vytvořte tučné kurzívní písmo v C# – krok za krokem](./create-bold-italic-font-in-c-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.HTML v C# vytvořit text s tučným a kurzívním stylem.
 
 ## Závěr
 

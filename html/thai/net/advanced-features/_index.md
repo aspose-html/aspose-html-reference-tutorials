@@ -53,6 +53,7 @@ Aspose.HTML สำหรับ .NET เป็นเครื่องมือ�
 เรียนรู้วิธีบีบอัดไฟล์ HTML เป็น ZIP ด้วย Aspose.HTML สำหรับ .NET อย่างละเอียดและครบถ้วน
 ### [บันทึก HTML เป็น ZIP ด้วย C# – สร้างไฟล์ ZIP ด้วย C# โดยใช้ Aspose](./save-html-to-zip-with-c-create-zip-archive-c-using-aspose/)
 เรียนรู้วิธีบันทึกไฟล์ HTML เป็นไฟล์ ZIP ด้วย C# โดยใช้ Aspose.HTML เพื่อสร้างและจัดการอาร์ไคฟ์ ZIP อย่างง่าย
+### [สร้างฟอนต์หนาเอียงใน C# – คู่มือขั้นตอนต่อขั้นตอน](./create-bold-italic-font-in-c-step-by-step-guide/)
 
 ### [บันทึกเอกสารเป็น PDF ใน C# – คู่มือฉบับสมบูรณ์พร้อมการสนับสนุน ZIP](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
 เรียนรู้วิธีบันทึกไฟล์ HTML เป็น PDF ใน C# พร้อมการบีบอัดเป็นไฟล์ ZIP อย่างละเอียด

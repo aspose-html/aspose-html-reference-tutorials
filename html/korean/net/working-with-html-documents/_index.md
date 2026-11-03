@@ -83,6 +83,10 @@ C#에서 메모리 스트림을 사용해 HTML을 ZIP 파일로 저장하는 방
 
 ### [C#에서 HTML 문자열 로드 – 사용자 정의 핸들러를 활용한 완전 가이드](./load-html-string-in-c-complete-guide-with-custom-handler/)
 
+### [HTML 로딩을 위한 C# 사용자 정의 리소스 핸들러 만들기](./create-custom-resource-handler-in-c-for-html-loading/)
+
+HTML 로딩 시 사용자 정의 리소스 핸들러를 구현하는 방법을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

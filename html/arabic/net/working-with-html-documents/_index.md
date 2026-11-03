@@ -63,6 +63,8 @@ url: /ar/net/working-with-html-documents/
 ### [إنشاء مستند HTML في الذاكرة باستخدام Aspose.HTML – دليل كامل](./create-in-memory-html-document-with-aspose-html-complete-gui/)
 ### [تحميل سلسلة HTML في C# – دليل كامل مع معالج مخصص](./load-html-string-in-c-complete-guide-with-custom-handler/)
 
+### [إنشاء معالج موارد مخصص في C# لتحميل HTML](./create-custom-resource-handler-in-c-for-html-loading/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

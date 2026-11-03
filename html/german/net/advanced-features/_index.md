@@ -67,6 +67,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML ein Word‑Dokument in ein PDF‑Datei kon
 
 ### [HTML in ZIP speichern mit C# – ZIP-Archiv mit Aspose erstellen](./save-html-to-zip-with-c-create-zip-archive-c-using-aspose/)
 Erfahren Sie, wie Sie mit Aspose.HTML HTML in ein ZIP-Archiv komprimieren und in C# speichern.
+### [Erstellen Sie fette und kursive Schrift in C# – Schritt‑für‑Schritt‑Anleitung](./create-bold-italic-font-in-c-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML fette und kursive Schriftarten in C# programmieren – kompakte Anleitung mit Beispielen.
 
 ## Abschluss
 

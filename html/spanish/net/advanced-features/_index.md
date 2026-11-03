@@ -60,6 +60,8 @@ Aprenda a activar Clear Type y el modo de suavizado en .NET para mejorar la cali
 Aprenda a convertir documentos Word a PDF en C# usando Aspose.HTML, con pasos claros y ejemplos prácticos.
 ### [Guardar HTML en zip con C# – crear archivo zip con Aspose](./save-html-to-zip-with-c-create-zip-archive-c-using-aspose/)
 Aprenda a guardar archivos HTML en un archivo ZIP usando C# y Aspose.HTML, con ejemplos paso a paso.
+### [Crear fuente en negrita y cursiva en C# – guía paso a paso](./create-bold-italic-font-in-c-step-by-step-guide/)
+Aprenda a crear fuentes en negrita y cursiva en C# con ejemplos claros y paso a paso.
 
 ## Conclusión
 

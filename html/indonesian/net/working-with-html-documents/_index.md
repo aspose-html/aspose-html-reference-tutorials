@@ -34,6 +34,8 @@ Sebelum kita menyelami secara spesifik pembuatan dan penyuntingan dokumen HTML d
 ### [Cara Menyimpan HTML di C# – Panduan Lengkap Langkah demi Langkah](./how-to-save-html-in-c-complete-step-by-step-guide/)
 ### [Cara Menyimpan HTML – Panduan Lengkap Aspose HTMLDocument](./how-to-save-html-aspose-htmldocument-complete-guide/)
 ### [Cara Menyimpan HTML di C# – Panduan Lengkap dengan Penyimpanan Output Kustom](./how-to-save-html-in-c-complete-guide-with-custom-output-stor/)
+### [Cara Membuat Penangan Sumber Daya Kustom di C# untuk Memuat HTML](./create-custom-resource-handler-in-c-for-html-loading/)
+
 ### [Cara Membuat Heading Tebal dengan CSS & C# – Panduan Lengkap Langkah demi Langkah](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 ### [Cara Menyimpan HTML di C# – Penangan Sumber Daya Kustom & ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
 

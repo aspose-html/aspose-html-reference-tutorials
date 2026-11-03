@@ -92,6 +92,8 @@ url: /el/net/working-with-html-documents/
 
 ### [Φόρτωση συμβολοσειράς HTML σε C# – πλήρης οδηγός με προσαρμοσμένο διαχειριστή](./load-html-string-in-c-complete-guide-with-custom-handler/)
 
+### [Δημιουργία προσαρμοσμένου διαχειριστή πόρων σε C# για φόρτωση HTML](./create-custom-resource-handler-in-c-for-html-loading/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

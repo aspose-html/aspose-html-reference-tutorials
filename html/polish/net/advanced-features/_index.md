@@ -60,6 +60,8 @@ Dowiedz się, jak w .NET włączyć ClearType i tryb wygładzania, aby uzyskać 
 Dowiedz się, jak konwertować dokumenty Word do PDF w C# przy użyciu Aspose.HTML, krok po kroku.
 ### [Zapisz HTML do zip w C# – utwórz archiwum zip w C# przy użyciu Aspose](./save-html-to-zip-with-c-create-zip-archive-c-using-aspose/)
 Dowiedz się, jak zapisać plik HTML do archiwum ZIP w C# przy użyciu biblioteki Aspose, krok po kroku.
+### [Utwórz pogrubioną i kursywną czcionkę w C# – przewodnik krok po kroku](./create-bold-italic-font-in-c-step-by-step-guide/)
+Dowiedz się, jak programowo tworzyć czcionki pogrubione i kursywne w C# przy użyciu Aspose.HTML.
 
 ## Wniosek
 

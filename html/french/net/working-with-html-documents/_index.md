@@ -83,6 +83,10 @@ Apprenez à enregistrer du HTML en utilisant Aspose.HTMLDocument, avec des optio
 
 ### [Charger une chaîne HTML en C# – guide complet avec gestionnaire personnalisé](./load-html-string-in-c-complete-guide-with-custom-handler/)
 
+### [Créer un gestionnaire de ressources personnalisé en C# pour le chargement du HTML](./create-custom-resource-handler-in-c-for-html-loading/)
+
+Apprenez à créer un gestionnaire de ressources personnalisé en C# pour charger du HTML de manière contrôlée.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

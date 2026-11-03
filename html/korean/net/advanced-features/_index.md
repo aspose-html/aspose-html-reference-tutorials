@@ -61,6 +61,8 @@ Clear Type와 스무딩 모드를 사용하여 .NET 애플리케이션의 텍스
 Aspose.HTML을 사용하여 C#에서 Word 문서를 PDF로 변환하는 방법을 단계별로 안내합니다.
 ### [C#으로 HTML을 ZIP에 저장 – Aspose를 사용한 ZIP 아카이브 만들기](./save-html-to-zip-with-c-create-zip-archive-c-using-aspose/)
 Aspose.HTML를 사용하여 C#에서 HTML 파일을 ZIP 아카이브로 압축하는 방법을 단계별로 안내합니다.
+### [C#에서 굵은 이탤릭 글꼴 만들기 – 단계별 가이드](./create-bold-italic-font-in-c-step-by-step-guide/)
+C#을 사용해 굵은 이탤릭체 글꼴을 생성하는 방법을 단계별로 안내합니다.
 
 ## 결론
 

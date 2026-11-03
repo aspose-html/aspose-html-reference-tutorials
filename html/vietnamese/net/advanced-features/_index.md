@@ -62,6 +62,8 @@ Hướng dẫn bật Clear Type và chế độ làm mịn để cải thiện c
 Hướng dẫn từng bước chuyển đổi tài liệu Word sang PDF bằng Aspose.HTML trong C#, với nội dung rõ ràng và dễ hiểu.
 ### [Lưu HTML vào zip với C# – tạo tệp zip bằng C# sử dụng Aspose](./save-html-to-zip-with-c-create-zip-archive-c-using-aspose/)
 Hướng dẫn cách lưu tài liệu HTML vào tệp ZIP bằng C# và Aspose, bao gồm các bước tạo và nén tệp zip một cách hiệu quả.
+### [Tạo phông chữ in đậm nghiêng trong C# – hướng dẫn từng bước](./create-bold-italic-font-in-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách tạo phông chữ in đậm và nghiêng trong C# bằng Aspose.HTML, bao gồm các bước thực hiện và ví dụ thực tế.
 
 ## Phần kết luận
 

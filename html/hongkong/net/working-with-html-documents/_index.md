@@ -73,6 +73,8 @@ HTML 文件是網路的支柱，能夠有效地創建和操作它們對於任何
 
 ### [在 C# 中載入 HTML 字串 – 使用自訂處理程式的完整指南](./load-html-string-in-c-complete-guide-with-custom-handler/)
 
+### [在 C# 中建立自訂資源處理程式以載入 HTML](./create-custom-resource-handler-in-c-for-html-loading/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

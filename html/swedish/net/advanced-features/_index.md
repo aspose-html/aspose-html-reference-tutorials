@@ -61,6 +61,7 @@ Lär dig hur du konverterar Word-dokument till PDF med Aspose.HTML i C#, steg‑
 
 ### [Spara HTML till zip med C# – skapa zip‑arkiv i C# med Aspose](./save-html-to-zip-with-c-create-zip-archive-c-using-aspose/)
 Lär dig hur du sparar HTML-filer i ett zip‑arkiv med C# och Aspose.HTML, inklusive kodexempel och steg‑för‑steg‑instruktioner.
+### [Skapa fet kursiv font i C# – steg‑för‑steg‑guide](./create-bold-italic-font-in-c-step-by-step-guide/)
 
 ## Slutsats
 

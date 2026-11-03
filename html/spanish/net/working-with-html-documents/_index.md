@@ -44,6 +44,7 @@ Aprenda a guardar documentos HTML usando Aspose.HTMLDocument con una guía paso 
 ### [Cómo guardar HTML en C# – Guía completa con almacenamiento de salida personalizado](./how-to-save-html-in-c-complete-guide-with-custom-output-stor/)
 
 Aprenda a guardar contenido HTML en C# utilizando un almacenamiento de salida personalizado para mayor flexibilidad.
+### [Crear controlador de recursos personalizado en C# para cargar HTML](./create-custom-resource-handler-in-c-for-html-loading/)
 
 ### [Cómo poner en negrita un encabezado con CSS y C# – Guía completa paso a paso](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 ### [Crear archivo Zip para HTML – Guía completa en C#](./create-zip-archive-for-html-complete-c-guide/)

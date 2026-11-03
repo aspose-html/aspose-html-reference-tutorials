@@ -93,6 +93,10 @@ Lär dig hur du skapar HTML-dokument helt i minnet med Aspose.HTML utan att skri
 
 Lär dig hur du laddar HTML‑strängar i C# med en anpassad hanterare för smidig bearbetning.
 
+### [Skapa en anpassad resurs‑hanterare i C# för HTML‑laddning](./create-custom-resource-handler-in-c-for-html-loading/)
+
+Lär dig skapa en anpassad resurs‑hanterare i C# för att ladda HTML‑dokument.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

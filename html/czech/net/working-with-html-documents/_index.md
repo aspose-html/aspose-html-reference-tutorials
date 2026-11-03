@@ -64,6 +64,7 @@ Nyní posuňte vaše dovednosti na další úroveň. Úpravy HTML dokumentů jso
 
 ### [Vytvoření HTML dokumentu v paměti pomocí Aspose.HTML – Kompletní průvodce](./create-in-memory-html-document-with-aspose-html-complete-gui/)
 Naučte se, jak pomocí Aspose.HTML vytvořit HTML dokument přímo v paměti bez ukládání na disk, krok za krokem.
+### [Vytvořit vlastní resource handler v C# pro načítání HTML](./create-custom-resource-handler-in-c-for-html-loading/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

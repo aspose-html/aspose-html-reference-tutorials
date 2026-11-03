@@ -57,6 +57,8 @@ Antes de mergulharmos nas especificidades da criação e edição de documentos 
 
 ### [Como carregar string HTML em C# – Guia completo com manipulador personalizado](./load-html-string-in-c-complete-guide-with-custom-handler/)
 
+### [Criar manipulador de recursos personalizado em C# para carregamento de HTML](./create-custom-resource-handler-in-c-for-html-loading/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

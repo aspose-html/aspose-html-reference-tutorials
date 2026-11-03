@@ -61,6 +61,8 @@ Scopri come attivare Clear Type e la modalità di smoothing per migliorare la re
 Impara a convertire documenti Word in PDF usando Aspose.HTML per .NET con esempi chiari e passo passo.
 ### [Salva HTML in zip con C# – crea archivio zip C# usando Aspose](./save-html-to-zip-with-c-create-zip-archive-c-using-aspose/)
 Impara a comprimere file HTML in un archivio ZIP usando Aspose.HTML per .NET con C#.
+### [Crea font grassetto corsivo in C# – guida passo‑a‑passo](./create-bold-italic-font-in-c-step-by-step-guide/)
+Impara a creare font grassetto e corsivo in C# con Aspose.HTML, passo dopo passo, con esempi pratici.
 
 ## Conclusione
 

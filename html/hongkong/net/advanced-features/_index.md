@@ -60,6 +60,8 @@ Aspose.HTML for .NET 是一個功能強大的工具，可讓開發人員以程�
 了解如何使用 Aspose.HTML 在 C# 中將 Word 文件轉換為 PDF，保持純文字內容的完整性。
 ### [使用 C# 將 HTML 儲存為 ZIP – 使用 Aspose 建立 ZIP 壓縮檔](./save-html-to-zip-with-c-create-zip-archive-c-using-aspose/)
 了解如何使用 Aspose.HTML 在 C# 中將 HTML 文件壓縮為 ZIP 檔案，並示範建立與管理壓縮檔的步驟。
+### [在 C# 中建立粗斜體字型 – 步驟指南](./create-bold-italic-font-in-c-step-by-step-guide/)
+本指南逐步說明如何在 C# 中建立粗斜體字型，以提升字型樣式的呈現。
 
 ## 結論
 

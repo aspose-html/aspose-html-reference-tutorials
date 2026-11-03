@@ -55,6 +55,10 @@ Erfahren Sie, wie Sie HTML in C# Schritt für Schritt speichern können.
 ### [HTML in C# speichern – Vollständige Anleitung mit benutzerdefiniertem Ausgabespeicher](./how-to-save-html-in-c-complete-guide-with-custom-output-stor/)
 
 Erfahren Sie, wie Sie HTML in C# mit einem benutzerdefinierten Ausgabespeicher speichern können.
+### [Erstellen eines benutzerdefinierten Ressourcen-Handlers in C# für das Laden von HTML](./create-custom-resource-handler-in-c-for-html-loading/)
+
+Lernen Sie, wie Sie in C# einen eigenen Ressourcen-Handler implementieren, um HTML zu laden.
+
 ### [Überschrift mit CSS & C# fett formatieren – Komplett‑Schritt‑für‑Schritt‑Anleitung](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 ### [HTML in C# speichern – benutzerdefinierte Ressourcen-Handler & ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
 

@@ -60,6 +60,8 @@ Leer hoe u met Aspose.HTML documenten naar PDF converteert in C#, inclusief onde
 Leer hoe u Clear Type en de smoothing-modus inschakelt voor scherpere tekstweergave in .NET met Aspose.HTML.
 ### [Word-document converteren naar PDF – Duidelijke tekstgids (C#)](./convert-word-document-to-pdf-clear-text-guide-c/)
 Leer hoe u Word-documenten in C# naar PDF converteert met een duidelijke, stap‑voor‑stap handleiding.
+### [Maak vet cursief lettertype in C# – stapsgewijze handleiding](./create-bold-italic-font-in-c-step-by-step-guide/)
+Leer hoe u een vet cursief lettertype maakt in C# met Aspose.HTML, stap voor stap.
 
 ## Conclusie
 

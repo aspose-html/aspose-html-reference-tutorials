@@ -63,6 +63,7 @@ C# kullanarak HTML dosyalarını özel kaynak işleyicileri ve ZIP arşivleriyle
 
 ### [HTML'yi Zip'e Kaydet – Bellek İçi Arşivler İçin Tam C# Kılavuzu](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
 ### [Aspose.HTML ile Bellek İçi HTML Belgesi Oluşturma – Tam Kılavuz](./create-in-memory-html-document-with-aspose-html-complete-gui/)
+### [C#'ta HTML Yükleme İçin Özel Kaynak İşleyicisi Oluşturma](./create-custom-resource-handler-in-c-for-html-loading/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

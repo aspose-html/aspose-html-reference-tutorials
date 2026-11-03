@@ -56,6 +56,8 @@ Clear Type ve Düzleştirme Modu özelliklerini .NET uygulamalarınızda nasıl 
 C# ile Word belgelerini temiz metin olarak PDF'ye dönüştürmeyi adım adım öğrenin.
 ### [C# ile HTML'yi Zip'e kaydet – Aspose kullanarak Zip arşivi oluşturma](./save-html-to-zip-with-c-create-zip-archive-c-using-aspose/)
 Aspose kullanarak C# ile HTML dosyalarını zip arşivine nasıl kaydedeceğinizi adım adım öğrenin.
+### [C#'ta kalın ve italik yazı tipi oluşturma – adım adım kılavuz](./create-bold-italic-font-in-c-step-by-step-guide/)
+C# kullanarak kalın ve italik yazı tiplerini programlı şekilde oluşturmanın adımlarını öğrenin.
 
 ### [C# ile belgeyi PDF olarak kaydet – ZIP desteğiyle Tam Kılavuz](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
 C# kullanarak HTML belgelerini PDF'ye dönüştürün, ZIP arşivleme özelliğiyle çıktı dosyalarını sıkıştırın ve yönetin.

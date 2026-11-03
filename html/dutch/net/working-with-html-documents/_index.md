@@ -44,6 +44,7 @@ Leer hoe u HTML-bestanden opslaat in C# met een gedetailleerde, stap‑voor‑st
 ### [HTML opslaan in C# – Complete gids met aangepaste outputopslag](./how-to-save-html-in-c-complete-guide-with-custom-output-stor/)
 
 Leer hoe u HTML-bestanden opslaat in C# met een aangepaste opslagoplossing, stap voor stap met voorbeeldcode.
+### [Aangepaste resourcehandler maken in C# voor HTML laden](./create-custom-resource-handler-in-c-for-html-loading/)
 
 ### [Koptekst vet maken met CSS & C# – Complete stapsgewijze handleiding](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 ### [HTML opslaan in C# – Aangepaste resourcehandlers & ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)

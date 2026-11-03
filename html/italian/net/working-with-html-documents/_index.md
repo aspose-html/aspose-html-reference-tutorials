@@ -58,6 +58,7 @@ Ora, portiamo le tue competenze al livello successivo. La modifica di documenti 
 ### [Creare un documento HTML in memoria con Aspose.HTML – Guida completa](./create-in-memory-html-document-with-aspose-html-complete-gui/)
 ### [Come salvare HTML in C# – Guida completa con archiviazione di output personalizzata](./how-to-save-html-in-c-complete-guide-with-custom-output-stor/)
 ### [Carica stringa HTML in C# – guida completa con gestore personalizzato](./load-html-string-in-c-complete-guide-with-custom-handler/)
+### [Creare un gestore di risorse personalizzato in C# per il caricamento di HTML](./create-custom-resource-handler-in-c-for-html-loading/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
