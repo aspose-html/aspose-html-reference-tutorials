@@ -1,0 +1,7 @@
+Title: How to read HTML and extract text in Java – a step‑by‑step guide
+Slug: how-to-read-html-and-extract-text-in-java-a-step-by-step-gui
+Category: conversion-html-to-other-formats
+ProcessedDate: 2026-10-28T15:25:10.873059
+SourceRepo: AI Search API
+Keywords: how to read html, extract text from html, convert html to text, html to text java, read html from file
+PRNumber: 317

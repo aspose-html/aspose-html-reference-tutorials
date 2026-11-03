@@ -10,9 +10,7 @@ url: /hi/java/message-handling-networking/network-timeout/
 weight: 12
 ---
 
- formatting.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
