@@ -9,13 +9,10 @@ url: /hi/java/converting-between-epub-and-image-formats/convert-epub-to-bmp/
 weight: 10
 ---
 
- file paths, code block placeholders. Good.
 
-Check for any stray markdown formatting: Ensure tables have correct pipe counts.
 
-Original table had three columns. We'll keep same.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

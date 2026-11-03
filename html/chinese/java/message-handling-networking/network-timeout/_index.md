@@ -8,17 +8,11 @@ url: /zh/java/message-handling-networking/network-timeout/
 weight: 12
 ---
 
- translate them to Chinese, but keep technical terms like "TimeoutMessageHandler". So translate.
 
-Also FAQ: Q and A. Translate Q and A text, keep links unchanged.
 
-Also bullet lists.
 
-Let's produce final content.
 
-Be careful to preserve markdown formatting.
 
-Let's start constructing.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -26,6 +26,10 @@ Primeiro, vamos falar sobre o que são fluxos de memória. Imagine um fluxo de m
 ## Manipulação de dados e gerenciamento de fluxo em Aspose.HTML para tutoriais Java
 ### [Converter fluxo de memória em arquivo usando Aspose.HTML para Java](./memory-stream-to-file/)
 Converta HTML para JPEG com Aspose.HTML para Java usando fluxos de memória. Siga este guia passo a passo para conversão perfeita de HTML para imagem.
+
+### [Pool de threads fixas Java: contar imagens em arquivos paralelos](./java-fixed-thread-pool-count-images-in-parallel-files/)
+Use um pool de threads fixas para contar imagens em múltiplos arquivos simultaneamente com Aspose.HTML para Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -61,7 +61,7 @@ När miljön är klar är konverteringsprocessen enkel. Aspose.HTML renderar hel
 
 - **Generera diagram för affärsrapporter** – Rendera Chart.js‑ eller D3‑visualiseringar på canvas och exportera dem som PDF‑sidor.  
 - **Skapa utskrivbara fakturor** – Rita anpassade fakturalayouter på canvas och producera en PDF‑faktura för kunder.  
-- **Arkivera interaktiva grafik** – Bevara användargjorda skisser eller signaturer som oföränderliga PDF‑poster.
+- **Arkivera interaktiv grafik** – Bevara användargjorda skisser eller signaturer som oföränderliga PDF‑poster.
 
 ## Tips & bästa praxis
 
@@ -77,6 +77,9 @@ Efter att ha följt den här guiden vet du nu hur du **create PDF from canvas** 
 
 ### [Konvertera HTML Canvas till PDF med Aspose.HTML för Java](./canvas-to-pdf/)
 Lär dig hur du konverterar HTML Canvas till PDF med Aspose.HTML för Java i denna steg‑för‑steg‑guide.
+
+### [Hur man konverterar SVG till PDF/A‑2b med Java – Komplett guide](./how-to-convert-svg-to-pdf-a-2b-with-java-complete-guide/)
+Lär dig steg‑för‑steg hur du konverterar SVG‑filer till PDF/A‑2b‑format med Aspose.HTML för Java.
 
 ## Vanliga frågor
 

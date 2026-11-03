@@ -9,11 +9,8 @@ url: /ko/java/converting-between-epub-and-image-formats/convert-epub-to-image-sp
 weight: 15
 ---
 
- The phrase is a reference; we can keep English phrase. We'll translate surrounding text.
 
-Also ensure bullet points keep formatting.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
