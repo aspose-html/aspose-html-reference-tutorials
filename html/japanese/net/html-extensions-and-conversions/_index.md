@@ -134,6 +134,8 @@ Aspose.HTML for .NET のパワーを発見してください: HTML を XPS に�
 
 ### [HTML を ZIP に保存 – 完全 C# チュートリアル](./save-html-as-zip-complete-c-tutorial/)
 Aspose.HTML for .NET を使用して、HTML コンテンツを ZIP アーカイブとして保存する方法をステップバイステップで解説します。
+### [Aspose.HTML を使用して C# で HTML を ZIP バンドルとして保存する方法](./how-to-save-html-as-a-zip-bundle-using-aspose-html-in-c/)
+Aspose.HTML for .NET を使用して、HTML を ZIP バンドルとして保存する手順をステップバイステップで解説します。
 ### [C# で HTML を Zip に圧縮する方法 – HTML を Zip に保存](./how-to-zip-html-in-c-save-html-to-zip/)
 C# と Aspose.HTML を使用して、HTML コンテンツを Zip アーカイブに保存する手順をステップバイステップで解説します。
 

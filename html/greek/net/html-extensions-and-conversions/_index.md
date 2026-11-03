@@ -108,7 +108,6 @@ url: /el/net/html-extensions-and-conversions/
 
 ### [Μετατροπή HTML σε JPEG σε .NET με Aspose.HTML](./convert-html-to-jpeg/)
 Μάθετε πώς να μετατρέπετε HTML σε JPEG σε .NET με το Aspose.HTML για .NET. Ένας βήμα προς βήμα οδηγός για την αξιοποίηση της ισχύος του Aspose.HTML για .NET. Βελτιστοποιήστε τις εργασίες ανάπτυξης Ιστού σας χωρίς κόπο.
-
 ### [Μετατροπή HTML σε Markdown στο .NET με το Aspose.HTML](./convert-html-to-markdown/)
 Μάθετε πώς να μετατρέπετε HTML σε Markdown στο .NET χρησιμοποιώντας το Aspose.HTML για αποτελεσματική διαχείριση περιεχομένου. Λάβετε οδηγίες βήμα προς βήμα για μια απρόσκοπτη διαδικασία μετατροπής.
 
@@ -287,6 +286,8 @@ url: /el/net/html-extensions-and-conversions/
 
 ### [Πώς να χρησιμοποιήσετε το ZipHandler – Αρχειοθέτηση ιστοσελίδας ως ZIP σε C#](./how-to-use-ziphandler-archive-webpage-as-zip-in-c/)
 Μάθετε πώς να χρησιμοποιήσετε το ZipHandler για να συμπιέσετε μια ιστοσελίδα σε αρχείο ZIP χρησιμοποιώντας C#.
+### [Πώς να αποθηκεύσετε HTML ως πακέτο ZIP χρησιμοποιώντας το Aspose.HTML σε C#](./how-to-save-html-as-a-zip-bundle-using-aspose-html-in-c/)
+Μάθετε πώς να αποθηκεύσετε αρχεία HTML σε αρχείο ZIP με C# και Aspose.HTML, βήμα‑βήμα οδηγίες.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

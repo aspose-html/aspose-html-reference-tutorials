@@ -267,6 +267,8 @@ url: /ar/net/html-extensions-and-conversions/
 ### [حفظ HTML كملف ZIP في C# – دليل خطوة بخطوة](./save-html-as-zip-in-c-step-by-step-guide/)
 تعلم كيفية حفظ مستند HTML كملف ZIP باستخدام C# ومكتبة Aspose.HTML خطوة بخطوة.
 
+### [كيفية حفظ HTML كحزمة ZIP باستخدام Aspose.HTML في C#](./how-to-save-html-as-a-zip-bundle-using-aspose-html-in-c/)
+تعلم خطوة بخطوة كيفية حفظ مستند HTML كحزمة ZIP باستخدام مكتبة Aspose.HTML في C#.
 ## خاتمة
 
 في الختام، تعد امتدادات HTML وتحويلاتها عناصر أساسية لتطوير الويب الحديث. يعمل Aspose.HTML for .NET على تبسيط العملية وجعلها في متناول المطورين من جميع المستويات. باتباع دروسنا التعليمية، ستكون على الطريق الصحيح لتصبح مطور ويب ماهرًا يتمتع بمجموعة واسعة من المهارات.

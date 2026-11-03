@@ -273,6 +273,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML für .NET einen benutzerdefinierten Ressou
 Erfahren Sie, wie Sie HTML mit Aspose.HTML für .NET in ein ZIP‑Archiv konvertieren – vollständige Schritt‑für‑Schritt‑Anleitung in C#.
 ### [HTML in ZIP speichern – vollständige Anleitung](./save-html-to-zip-with-aspose-html-complete-guide/)
 Erfahren Sie, wie Sie HTML-Inhalte mit Aspose.HTML in ein ZIP-Archiv speichern – vollständige Schritt‑für‑Schritt‑Anleitung.
+### [HTML als ZIP-Bündel mit Aspose.HTML in C# speichern](./how-to-save-html-as-a-zip-bundle-using-aspose-html-in-c/)
+Erfahren Sie, wie Sie HTML‑Inhalte mit Aspose.HTML für .NET als ZIP‑Bündel speichern. Schritt‑für‑Schritt‑Anleitung mit Codebeispielen.
 
 ## Abschluss
 

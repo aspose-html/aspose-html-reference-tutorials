@@ -217,7 +217,6 @@ Aspose.HTML का उपयोग करके C# में HTML को ZIP फ
 ### [स्टाइल्ड टेक्स्ट के साथ HTML दस्तावेज़ बनाएं और PDF में निर्यात करें – पूर्ण गाइड](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Aspose.HTML for .NET का उपयोग करके स्टाइल्ड टेक्ट वाले HTML दस्तावेज़ को बनाएं और उसे PDF में निर्यात करने की पूरी गाइड।
 .NET के लिए Aspose.HTML की शक्ति का पता लगाएं: HTML को XPS में आसानी से बदलें। पूर्वापेक्षाएँ, चरण-दर-स्टेप मार्गदर्शिका और FAQ शामिल हैं।
-
 ### [C# में HTML को ZIP में सहेजें – पूर्ण इन‑मेमोरी उदाहरण](./save-html-to-zip-in-c-complete-in-memory-example/)
 C# में इन‑मेमोरी में HTML को ZIP फ़ाइल में सहेजने का पूरा उदाहरण देखें।
 ### [C# में HTML दस्तावेज़ बनाएं – चरण‑दर‑चरण गाइड](./create-html-document-c-step-by-step-guide/)
@@ -345,6 +344,8 @@ C# में Aspose.HTML का उपयोग करके HTML को ZIP फ
 
 ### [Aspose.HTML के साथ HTML को ZIP में सहेजें – पूर्ण गाइड](./save-html-to-zip-with-aspose-html-complete-guide/)
 Aspose.HTML का उपयोग करके HTML को ZIP फ़ाइल में सहेजने की पूरी प्रक्रिया सीखें। चरण‑दर‑स्टेप कोड उदाहरण और विकल्प।
+### [Aspose.HTML के साथ C# में HTML को ZIP बंडल के रूप में सहेजें](./how-to-save-html-as-a-zip-bundle-using-aspose-html-in-c/)
+C# में Aspose.HTML का उपयोग करके HTML को ZIP फ़ाइल में सहेजने की चरण‑दर‑स्टेप गाइड।
 
 ## निष्कर्ष
 
