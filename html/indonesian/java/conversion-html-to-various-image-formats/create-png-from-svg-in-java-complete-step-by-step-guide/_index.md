@@ -24,7 +24,7 @@ title: Buat PNG dari SVG di Java – Panduan Lengkap Langkah demi Langkah
 url: /id/java/conversion-html-to-various-image-formats/create-png-from-svg-in-java-complete-step-by-step-guide/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

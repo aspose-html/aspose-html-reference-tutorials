@@ -25,13 +25,10 @@ title: PDF oldalméret beállítása az Aspose HTML segítségével – Teljes J
 url: /hu/java/conversion-html-to-other-formats/set-pdf-page-size-with-aspose-html-full-java-guide/
 ---
 
-Now produce final content with all translations.
 
-Check we didn't translate any code block placeholders.
 
-Make sure we keep markdown formatting.
 
-Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

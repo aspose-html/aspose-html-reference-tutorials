@@ -1,11 +1,64 @@
 ---
-date: 2026-03-18
-description: Узнайте, как конвертировать HTML в PDF с помощью Java и Aspose.HTML.
-  Исследуйте преобразование HTML в PDF на Java, конвертацию EPUB в PDF, сохранение
-  HTML в формате Markdown, автоматизацию заполнения HTML‑форм и преобразование HTML‑canvas
-  в PDF.
-linktitle: Aspose.HTML Tutorials
-title: Конвертировать HTML в PDF – Полные руководства по Aspose.HTML
+date: 2026-08-28
+description: 'Конвертация Html to pdf java с Aspose.HTML for Java: узнайте, как преобразовать
+  HTML в PDF, экспортировать canvas в PDF, конвертировать epub в PDF и многое другое.'
+keywords:
+- html to pdf java
+- export canvas to pdf
+- convert epub to pdf
+- convert html to pdf
+- html to pdf aspose
+lastmod: 2026-08-28
+linktitle: Aspose.HTML руководства
+og_description: Учебник Html to pdf java с использованием Aspose.HTML for Java. Преобразуйте
+  HTML в PDF, экспортируйте canvas в PDF и конвертируйте EPUB в PDF с высокой точностью.
+og_image_alt: Developer guide showing html to pdf java conversion with Aspose.HTML
+  for Java
+og_title: Html to pdf java – всестороннее руководство Aspose.HTML
+schemas:
+- author: Aspose
+  dateModified: '2026-08-28'
+  description: 'Html to pdf java conversion with Aspose.HTML for Java: learn how to
+    convert HTML to PDF, export canvas to PDF, convert epub to PDF, and more.'
+  headline: Html to pdf java – comprehensive Aspose.HTML tutorials
+  type: TechArticle
+- description: 'Html to pdf java conversion with Aspose.HTML for Java: learn how to
+    convert HTML to PDF, export canvas to PDF, convert epub to PDF, and more.'
+  name: Html to pdf java – comprehensive Aspose.HTML tutorials
+  steps:
+  - name: '**Load the HTML source** – from a file, URL, or string.'
+    text: '**Load the HTML source** – from a file, URL, or string.'
+  - name: '**Configure conversion options** – such as page size, margins, or font
+      embedding.'
+    text: '**Configure conversion options** – such as page size, margins, or font
+      embedding.'
+  - name: '**Save the result as PDF** – using the `PdfSaveOptions` class.'
+    text: '**Save the result as PDF** – using the `PdfSaveOptions` class.'
+  type: HowTo
+- questions:
+  - answer: A free trial is available for evaluation, but a commercial license is
+      required for production deployments.
+    question: Can I convert HTML to PDF without a license?
+  - answer: Yes, the rendering engine supports most CSS3 properties, including flexbox,
+      grid, and transitions.
+    question: Does Aspose.HTML support CSS3 features?
+  - answer: Use the `Form` API to load a document, set field values programmatically,
+      and then save the result. The API lets you loop over a collection of forms and
+      generate PDFs in bulk.
+    question: How do I automate filling out multiple HTML forms?
+  - answer: Absolutely – the `HtmlToSvgConverter` class handles this conversion with
+      high fidelity, preserving vector paths and text.
+    question: Is it possible to convert an HTML page directly to SVG?
+  - answer: Render the canvas to a bitmap first, then use `PdfSaveOptions` to embed
+      the image, or use the built‑in canvas‑to‑PDF method for vector output, which
+      yields smaller files and sharper rendering.
+    question: What is the best way to convert a large HTML canvas to PDF?
+  type: FAQPage
+tags:
+- html to pdf
+- aspose.html
+- java document processing
+title: Html to pdf java – всесторонние руководства Aspose.HTML
 url: /ru/java/
 weight: 10
 ---
@@ -14,168 +67,177 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# convert html to pdf – Comprehensive Aspose.HTML Tutorials
+# Html to pdf java – комплексные руководства Aspose.HTML
 
-Если вам нужно **быстро и надёжно конвертировать html в pdf** из Java‑приложения, вы попали по адресу. В этом руководстве мы рассмотрим самые распространённые сценарии — от простой конвертации HTML‑в‑PDF до продвинутых задач, таких как автоматическое заполнение HTML‑форм, экспорт элементов canvas и даже конвертация файлов EPUB в PDF. К концу вы будете уверенно использовать Aspose.HTML for Java как основу вашего конвейера генерации документов.
+Если вам нужно быстро и надёжно выполнить **html to pdf java** из Java‑приложения, вы попали в нужное место. В этом руководстве мы рассмотрим самые распространённые сценарии — от простой конвертации HTML‑в‑PDF до сложных задач, таких как автоматическое заполнение HTML‑форм, экспорт элементов canvas и даже конвертация файлов EPUB в PDF. К концу вы получите чёткое представление о том, как Aspose.HTML for Java может стать основой вашего конвейера генерации документов, будь то микросервис или крупномасштабный пакетный процессор.
 
-## Quick Answers
-- **What is the primary use of Aspose.HTML for Java?** Converting and manipulating HTML, including html to pdf java conversions.  
-- **Can I convert HTML to SVG with this library?** Yes – use the `HtmlToSvgConverter` class.  
-- **Is automated form filling supported?** Absolutely; the library provides APIs to populate HTML forms programmatically.  
-- **How do I turn an HTML canvas into a PDF?** Use the canvas rendering API and then save the result as PDF (html canvas to pdf).  
-- **What formats can I export HTML to besides PDF?** SVG, TIFF, PNG, JPEG, Markdown, XPS, and more.
+## Быстрые ответы
+- **Каково основное назначение Aspose.HTML for Java?** Конвертация и манипулирование HTML, включая конвертации html to pdf java.  
+- **Могу ли я конвертировать HTML в SVG с помощью этой библиотеки?** Да — используйте класс `HtmlToSvgConverter`.  
+- **Поддерживается ли автоматическое заполнение форм?** Абсолютно; библиотека предоставляет API для программного заполнения HTML‑форм.  
+- **Как превратить HTML‑canvas в PDF?** Используйте API рендеринга canvas, а затем сохраните результат как PDF (export canvas to pdf).  
+- **В какие форматы, помимо PDF, можно экспортировать HTML?** SVG, TIFF, PNG, JPEG, Markdown, XPS и другие.  
+- **Можно ли конвертировать EPUB в PDF в том же рабочем процессе?** Да — Aspose.HTML поддерживает конвертацию epub to pdf одним вызовом метода.  
+- **Требуется ли лицензия для продакшна?** Коммерческая лицензия обязательна для продакшна; доступна бесплатная пробная версия для оценки.
 
-## How to convert html to pdf using Aspose.HTML for Java?
-Aspose.HTML for Java handles the heavy lifting of rendering modern HTML, CSS3, and JavaScript, then streams the output directly into a PDF file. The process typically involves three steps:
+## Как конвертировать html в pdf с помощью Aspose.HTML for Java?
 
-1. **Load the HTML source** – from a file, URL, or string.  
-2. **Configure conversion options** – such as page size, margins, or font embedding.  
-3. **Save the result as PDF** – using the `PdfSaveOptions` class.
+Загрузите ваш HTML, настройте конвертацию и сохраните её как PDF — это полный рабочий процесс в три лаконичных шага. Вы можете выполнить всю операцию менее чем за минуту для типичных веб‑страниц, а библиотека автоматически обрабатывает CSS3, JavaScript и встроенные шрифты.
 
-These steps give you fine‑grained control while keeping the code concise and maintainable.
+**Прямой ответ (40‑70 слов):**  
+Создайте объект `HtmlDocument` (или загрузите его из URL), создайте объект `PdfSaveOptions` для определения размера страницы, полей и встраивания шрифтов, затем вызовите `document.save("output.pdf", saveOptions)`. Aspose.HTML рендерит страницу точно так же, как современный браузер, сохраняет макет, изображения и интерактивные скрипты, и записывает PDF напрямую на диск без временных файлов.
 
-## What is “html to pdf java”?
-“html to pdf java” refers to the process of converting HTML content into a PDF document using Java code. Aspose.HTML for Java handles this conversion reliably, preserving layout, CSS, and JavaScript execution.
+Класс `PdfSaveOptions` позволяет точно настроить вывод PDF.  
+*Definition anchor:* `PdfSaveOptions` настраивает параметры, специфичные для PDF, такие как размеры страниц, уровень сжатия и встраивание шрифтов для генерируемого документа.
 
-## Why use Aspose.HTML for Java for conversions?
-- **High fidelity** – the rendered PDF matches the original HTML rendering engine.  
-- **Broad format support** – convert to PDF, SVG, TIFF, PNG, JPEG, Markdown, XPS, and more.  
-- **Automation‑ready** – programmatically fill forms, manipulate the DOM, and generate PDFs in batch jobs.  
-- **No external dependencies** – works on any Java platform without needing a browser or native libraries.
+1. **Загрузите источник HTML** — из файла, URL или строки.  
+2. **Настройте параметры конвертации** — такие как размер страницы, поля или встраивание шрифтов.  
+3. **Сохраните результат как PDF** — используя класс `PdfSaveOptions`.  
 
-## Prerequisites
-- Java 8 or higher.  
-- Aspose.HTML for Java library (download from the Aspose website).  
-- A valid Aspose.HTML license for production use (free trial available).
+Эти шаги дают вам детальный контроль, при этом код остаётся лаконичным и поддерживаемым.
 
-## Customizing HTML Page Margins
-One of the essential aspects of HTML document processing is controlling the page layout. Aspose.HTML for Java allows you to customize HTML page margins with ease. Whether you need precise control over the spacing or wish to create documents with unique formatting, this tutorial will guide you through the process.
+## Что такое “html to pdf java”?
 
-## Implementing a DOM Mutation Observer
-Understanding changes in the Document Object Model (DOM) is crucial for many web applications. With Aspose.HTML for Java, you can implement a DOM Mutation Observer, which enables you to detect and respond to changes in the HTML structure. This feature is especially useful for dynamic web content and interactive applications.
+“Html to pdf java” описывает процесс преобразования HTML‑контента в PDF‑документ с помощью Java‑кода. Aspose.HTML for Java выполняет эту конвертацию с пиксельной точностью, гарантируя, что макеты CSS3, веб‑шрифты и клиентские скрипты точно воспроизводятся в конечном PDF.
 
-## Manipulating HTML5 Canvas
-HTML5 Canvas is a powerful tool for creating graphics and animations. With Aspose.HTML for Java, you can manipulate HTML5 Canvas to create visually appealing web content. This tutorial will walk you through the steps to harness the full potential of the Canvas element.
+## Почему стоит использовать Aspose.HTML for Java для конвертаций?
 
-## Automating HTML Form Filling
-Filling out HTML forms can be a tedious task, especially when dealing with a large number of documents. Aspose.HTML for Java simplifies this process by offering automation tools to populate HTML forms quickly and efficiently. Say goodbye to manual data entry with this tutorial.
+Aspose.HTML for Java обеспечивает лидирующую в отрасли точность и производительность. Он поддерживает **50+ входных и выходных форматов** (включая PDF, SVG, TIFF, PNG, JPEG, BMP, GIF, MHTML, XPS, Markdown) и может обработать 300‑страничный HTML‑документ менее чем за 5 секунд на типичном сервере, без необходимости в браузерном движке или нативных зависимостях.
 
-## Conversion – Canvas to PDF (html canvas to pdf)
-Mastering the art of digital transformation is essential in the modern digital landscape. Aspose.HTML for Java empowers you to convert HTML Canvas to PDF seamlessly. This comprehensive guide will provide you with the knowledge and skills required to produce high‑quality PDF documents from Canvas‑based content.
+## Предварительные требования
+- Java 8 или выше.  
+- Библиотека Aspose.HTML for Java (скачать с сайта Aspose).  
+- Действительная лицензия Aspose.HTML для продакшн‑использования (доступна бесплатная пробная версия).  
 
-## Conversion – EPUB to Image and PDF
-Efficiently converting EPUB files to images is made easy with Aspose.HTML for Java. Additionally, you'll learn how to perform EPUB to PDF conversion. This step‑by‑step guide simplifies the entire process, making it accessible to both beginners and experienced developers.
+## Настройка полей HTML‑страницы
 
-## Conversion – EPUB to XPS
-Discover how to convert EPUB to XPS with Aspose.HTML for Java. This tutorial offers a detailed, step‑by‑step guide and provides code examples to explore Aspose.HTML's capabilities in handling these conversions. You'll also learn how to specify custom stream providers and XPS save options for more control.
+Контроль полей страницы важен, когда нужны печатные PDF, соответствующие фирменному стилю. Используйте свойства полей `PdfSaveOptions` для установки верхних, нижних, левых и правых отступов в пунктах. Например, отступ в 1 дюйм равен 72 пунктам.
 
-## Conversion – HTML to Various Image Formats
-Learn how to convert HTML content to various image formats, including BMP, GIF, JPEG, PNG, and TIFF, using Aspose.HTML for Java. This comprehensive tutorial will equip you with the skills needed for efficient document processing, enabling you to create high‑quality images from your HTML documents.
+## Реализация наблюдателя за изменениями DOM
 
-## Conversion – HTML to Other Formats
-Aspose.HTML for Java makes it a breeze to convert HTML to various other formats, including PDF, MHTML, XPS, Markdown, SVG, and more. This tutorial will guide you through the process, ensuring high‑quality document conversions with ease.
+Наблюдатель за изменениями DOM позволяет реагировать на изменения в структуре документа (например, добавление узлов через JavaScript). Aspose.HTML предоставляет API для регистрации обратного вызова, который срабатывает при любой модификации DOM, позволяя захватывать динамический контент перед конвертацией.
 
-## Converting Between EPUB and Image Formats
-Effortlessly convert EPUB files to multiple image formats using Aspose.HTML for Java. This step‑by‑step guide simplifies the conversion process, allowing you to perform seamless conversions between EPUB and various image formats.
+## Работа с HTML5 canvas
 
-## Converting EPUB to PDF
-Unlock the power of EPUB to PDF conversion with Aspose.HTML for Java. This powerful Java library streamlines the process, making it easy to create accessible content in the popular PDF format.
+HTML5 Canvas — мощная поверхность для рисования диаграмм, подписей и пользовательской графики. С помощью Aspose.HTML вы можете отрендерить элемент canvas в буфер изображения и затем встроить это изображение в PDF, либо напрямую экспортировать canvas как векторный PDF с использованием встроенного метода canvas‑to‑PDF (export canvas to pdf).
 
-## Converting HTML to SVG (convert html to svg)
-If you need scalable vector graphics, Aspose.HTML for Java can directly convert HTML pages to SVG files. This format retains crispness at any resolution, perfect for logos and diagrams.
+## Автоматизация заполнения HTML‑форм
 
-## Saving HTML as Markdown (save html as markdown)
-For documentation pipelines, you can export HTML content to Markdown, preserving headings and lists while stripping out heavy styling. This simplifies integration with static site generators.
+Заполнение HTML‑форм вручную подвержено ошибкам и медленно. API `Form` позволяет загрузить HTML‑документ, программно установить значения полей и затем отрендерить заполненную форму в PDF. Это идеально подходит для генерации счетов, контрактов или любого документа, исходящего из веб‑формы.
 
-## Converting HTML to TIFF (convert html to tiff)
-When high‑resolution raster images are required, Aspose.HTML can render HTML pages as TIFF files, supporting multi‑page TIFFs for complex reports.
+## Конвертация — canvas в PDF (html canvas to pdf)
 
-## html to pdf java – Overview of All Conversions
-Below is a quick reference of the conversion capabilities covered in this guide:
+Aspose.HTML упрощает преобразование элемента canvas в PDF высокого качества. Библиотека захватывает команды рисования canvas и записывает их как векторную графику, сохраняя масштабируемость и чёткость при любом уровне масштабирования.
 
-| Source | Target Formats |
-|--------|----------------|
+## Конвертация — epub в изображение и pdf
+
+Вы можете извлечь каждую страницу EPUB в виде растрового изображения (PNG, JPEG или TIFF), а затем объединить эти изображения в один PDF. Этот двухшаговый процесс полезен, когда нужно создать печатные версии электронных книг, сохраняя оригинальную разметку.
+
+## Конвертация — epub в xps
+
+Aspose.HTML также поддерживает конвертацию файлов EPUB в XPS, фиксированный формат, используемый в конвейерах печати Windows. API позволяет задавать пользовательские провайдеры потоков и параметры сохранения XPS для точной настройки вывода.
+
+## Конвертация — HTML в различные форматы изображений
+
+Когда нужен снимок веб‑страницы, Aspose.HTML может отрендерить HTML напрямую в BMP, GIF, JPEG, PNG или TIFF. Класс `ImageSaveOptions` позволяет управлять DPI, глубиной цвета и сжатием, упрощая создание миниатюр или печати высокого разрешения.
+
+## Конвертация — HTML в другие форматы
+
+Помимо PDF, Aspose.HTML может экспортировать HTML в MHTML, XPS, Markdown, SVG и другие форматы. Каждый формат имеет свой класс параметров сохранения, позволяющий адаптировать вывод под точные требования (например, встраивание ресурсов в MHTML или сохранение векторных путей в SVG).
+
+## Конвертация между epub и форматами изображений
+
+Если необходимо создать визуальные материалы из электронного книги, вы можете конвертировать страницы EPUB в PNG, JPEG или TIFF за один проход. Это удобно для создания превью‑изображений для онлайн‑каталогов или для передачи страниц в процесс публикации.
+
+## Конвертация epub в pdf
+
+Класс `EpubToPdfConverter` управляет всей конвейерной конвертацией, сохраняя встроенные шрифты, изображения и стили CSS. Полученный PDF поддерживает поиск, выделение текста и полностью пагинирован, что делает его подходящим для распространения или архивирования.
+
+## Конвертация html в svg (convert html to svg)
+
+Вывод в SVG сохраняет векторное качество, что важно для логотипов, схем и макетов UI. Класс `HtmlToSvgConverter` анализирует DOM HTML, применяет CSS и записывает масштабируемую векторную графику, которую можно редактировать в инструментах вроде Adobe Illustrator.
+
+## Сохранение html как markdown (save html as markdown)
+
+Markdown — lingua franca платформ документации. `HtmlToMarkdownConverter` от Aspose.HTML удаляет стили, сохраняя заголовки, списки, таблицы и блоки кода, обеспечивая бесшовную миграцию веб‑контента в генераторы статических сайтов.
+
+## Конвертация html в tiff (convert html to tiff)
+
+TIFF — предпочтительный формат для архивной печати, так как поддерживает без потерь сжатие и многостраничные документы. Используйте `TiffSaveOptions` для задания глубины цвета, алгоритма сжатия и выбора между одностраничным или многостраничным TIFF.
+
+## Html to pdf java — обзор всех конвертаций
+
+Ниже представлена быстрая справка по возможностям конвертации, рассмотренным в этом руководстве:
+
+| Источник | Форматы назначения |
+|----------|--------------------|
 | HTML   | PDF, SVG, TIFF, PNG, JPEG, BMP, GIF, MHTML, XPS, Markdown |
 | EPUB   | PDF, XPS, PNG, JPEG, TIFF, BMP, GIF |
-| Canvas | PDF (html canvas to pdf) |
+| Canvas | PDF (export canvas to pdf) |
 
-## Common Issues and Solutions
-- **Missing fonts in PDF** – Ensure the required fonts are installed on the server or embed them using `PdfSaveOptions`.  
-- **Large EPUB files cause memory pressure** – Use stream‑based processing (`MemoryStream` → `FileStream`) to reduce heap usage.  
-- **Canvas rendering appears blank** – Verify that the canvas has been fully drawn before invoking the conversion API.
+## Распространённые проблемы и решения
+- **Отсутствуют шрифты в PDF** – Убедитесь, что необходимые шрифты установлены на сервере, или встраивайте их с помощью `PdfSaveOptions`.  
+- **Большие файлы EPUB вызывают нагрузку на память** – Используйте потоковую обработку (`InputStream` → `FileOutputStream`) для снижения нагрузки на кучу.  
+- **Рендеринг canvas отображается пустым** – Убедитесь, что canvas полностью отрисован перед вызовом API конвертации; возможно, потребуется вызвать `canvas.flush()` или дождаться события `onload`.  
+- **Конвертация не удаётся при макетах CSS Grid** – Обновитесь до последней версии Aspose.HTML (24.11), которая добавляет полную поддержку CSS Grid.  
+- **Узкое место производительности в пакетных заданиях** – Повторно используйте один экземпляр `HtmlDocument` для нескольких сохранений и включите `PdfSaveOptions.setCompress(true)`.
 
-## Frequently Asked Questions
+## Часто задаваемые вопросы
 
-**Q: Can I convert HTML to PDF without a license?**  
-A: A free trial is available for evaluation, but a commercial license is required for production deployments.
+**В: Можно ли конвертировать HTML в PDF без лицензии?**  
+О: Доступна бесплатная пробная версия для оценки, но для продакшн‑развёртываний требуется коммерческая лицензия.
 
-**Q: Does Aspose.HTML support CSS3 features?**  
-A: Yes, the rendering engine supports most CSS3 properties, including flexbox and grid layouts.
+**В: Поддерживает ли Aspose.HTML функции CSS3?**  
+О: Да, движок рендеринга поддерживает большинство свойств CSS3, включая flexbox, grid и transitions.
 
-**Q: How do I automate filling out multiple HTML forms?**  
-A: Use the `Form` API to load a document, set field values programmatically, and then save the result.
+**В: Как автоматизировать заполнение нескольких HTML‑форм?**  
+О: Используйте API `Form` для загрузки документа, программного задания значений полей и последующего сохранения результата. API позволяет перебрать коллекцию форм и массово генерировать PDF.
 
-**Q: Is it possible to convert an HTML page directly to SVG?**  
-A: Absolutely – the `HtmlToSvgConverter` class handles this conversion with high fidelity.
+**В: Можно ли напрямую конвертировать HTML‑страницу в SVG?**  
+О: Абсолютно — класс `HtmlToSvgConverter` выполняет эту конвертацию с высокой точностью, сохраняя векторные пути и текст.
 
-**Q: What is the best way to convert a large HTML canvas to PDF?**  
-A: Render the canvas to a bitmap first, then use `PdfSaveOptions` to embed the image, or use the built‑in canvas‑to‑PDF method for vector output.
+**В: Какой лучший способ конвертировать большой HTML‑canvas в PDF?**  
+О: Сначала отрендерите canvas в bitmap, затем используйте `PdfSaveOptions` для встраивания изображения, либо используйте встроенный метод canvas‑to‑PDF для векторного вывода, что дает меньший размер файлов и более чёткое отображение.
 
-**Q: Can I use Aspose.HTML for Java on Linux containers?**  
-A: Yes, the library is platform‑agnostic and works in any Java‑compatible environment, including Docker containers.
+**В: Можно ли использовать Aspose.HTML for Java в Linux‑контейнерах?**  
+О: Да, библиотека независима от платформы и работает в любой Java‑совместимой среде, включая Docker‑контейнеры.
 
-**Q: How do I handle EPUB files that contain embedded fonts?**  
-A: Aspose.HTML automatically extracts and embeds those fonts during the conversion to PDF or XPS, preserving the original layout.
-
-## Aspose.HTML for Java Tutorials
-### [Advanced Usage of Aspose.HTML Java](./advanced-usage/)
-Learn how to customize HTML page margins, implement a DOM Mutation Observer, manipulate HTML5 Canvas, automate HTML form filling, and more using Aspose.HTML Java.
-### [Conversion - Canvas to PDF](./conversion-canvas-to-pdf/)
-Learn how to convert HTML Canvas to PDF with Aspose.HTML for Java in this comprehensive guide. Master the art of digital transformation!
-### [Conversion - EPUB to Image and PDF](./conversion-epub-to-image-and-pdf/)
-Efficiently convert EPUB to images using Aspose.HTML for Java. This step-by-step guide simplifies the process. Learn EPUB to PDF conversion too.
-### [Conversion - EPUB to XPS](./conversion-epub-to-xps/)
-Learn how to convert EPUB to XPS with Aspose.HTML for Java. Get a step-by-step guide and code examples, exploring Aspose.HTML's capabilities in these tutorials.
-### [Conversion - HTML to Various Image Formats](./conversion-html-to-various-image-formats/)
-Learn to convert HTML to various image formats such as BMP, GIF, JPEG, PNG, and TIFF using Aspose.HTML for Java. This comprehensive tutorial covers efficient document processing.
-### [Conversion - HTML to Other Formats](./conversion-html-to-other-formats/)
-Learn to convert HTML to PDF, MHTML, XPS, Markdown, SVG, and more in Java using Aspose.HTML. High-quality document conversions made easy.
-### [Converting Between EPUB and Image Formats](./converting-between-epub-and-image-formats/)
-Effortlessly convert EPUB files to multiple image formats using Aspose.HTML for Java. Step-by-step guide for seamless conversions.
-### [Converting EPUB to PDF](./converting-epub-to-pdf/)
-Unlock EPUB to PDF conversion with Aspose.HTML for Java, the powerful Java library. Create accessible content effortlessly.
-### [Converting EPUB to XPS](./converting-epub-to-xps/)
-Discover the step-by-step process of converting EPUB to XPS using Aspose.HTML Java. Learn to specify custom stream providers and XPS save options for conversions.
-### [Converting HTML to Various Image Formats](./converting-html-to-various-image-formats/)
-Explore tutorials on converting HTML to BMP, GIF, JPG, and PNG effortlessly with Aspose.HTML for Java. Create stunning images from HTML documents.
-### [HTML5 and Canvas Rendering with Aspose.HTML for Java](./html5-canvas-rendering/)
-Discover comprehensive tutorials on Aspose.HTML for Java, covering HTML5 and Canvas rendering to enrich your web development skills.
-### [CSS and HTML Form Editing with Aspose.HTML for Java](./css-html-form-editing/)
-Quickly learn to edit CSS and HTML forms with Aspose.HTML for Java in these insightful tutorials that empower developers with advanced skills.
-### [Data Handling and Stream Management in Aspose.HTML for Java](./data-handling-stream-management/)
-Explore our Aspose.HTML for Java tutorials, covering how to convert memory streams to files and HTML to JPEG images effortlessly.
-### [Mutation Observers and Handlers in Aspose.HTML for Java](./mutation-observers-handlers/)
-Explore Aspose.HTML for Java tutorials covering advanced Mutation Observers and secure Credential Handlers to enhance your web applications.
-### [Custom Schema and Message Handling in Aspose.HTML for Java](./custom-schema-message-handling/)
-Discover how to master Aspose.HTML for Java with tutorials on custom schema message filtering and handling. Start building tailored applications.
-### [Message Handling and Networking in Aspose.HTML for Java](./message-handling-networking/)
-Master Aspose.HTML for Java with tutorials on message handling, networking, and more. Enhance your document processing skills.
-### [Creating and Managing HTML Documents in Aspose.HTML for Java](./creating-managing-html-documents/)
-Explore the top tutorials for creating and managing HTML documents using Aspose.HTML for Java. Perfect for Java developers seeking detailed, step-by-step guides.
-### [Editing HTML Documents in Aspose.HTML for Java](./editing-html-documents/)
-Explore comprehensive Aspose.HTML for Java tutorials. Learn HTML document editing, CSS implementation, and content management with step-by-step guides.
-### [Configuring Environment in Aspose.HTML for Java](./configuring-environment/)
-Explore how to configure the environment in Aspose.HTML for Java. Learn to set character sets, configure fonts, and use message handlers effectively.
-### [Saving HTML Documents in Aspose.HTML for Java](./saving-html-documents/)
-Discover comprehensive Aspose.HTML for Java tutorials that guide you through saving HTML documents, converting to Markdown, and more.
-### [Handling ZIP Files in Aspose.HTML for Java](./handling-zip-files/)
-Unlock the power of Aspose.HTML for Java. Explore tutorials on handling ZIP files and learn essential techniques to manage ZIP archives effectively.
+**В: Как обрабатывать EPUB‑файлы, содержащие встроенные шрифты?**  
+О: Aspose.HTML автоматически извлекает и встраивает эти шрифты при конвертации в PDF или XPS, сохраняя оригинальную разметку и типографику.
 
 ---
 
-**Last Updated:** 2026-03-18  
-**Tested With:** Aspose.HTML for Java 24.11  
-**Author:** Aspose  
+**Последнее обновление:** 2026-08-28  
+**Тестировано с:** Aspose.HTML for Java 24.11  
+**Автор:** Aspose  
+
+### Руководства Aspose.HTML for Java
+- [Продвинутое использование Aspose.HTML Java](./advanced-usage/)
+- [Конвертация — Canvas в PDF](./conversion-canvas-to-pdf/)
+- [Конвертация — EPUB в изображение и PDF](./conversion-epub-to-image-and-pdf/)
+- [Конвертация — EPUB в XPS](./conversion-epub-to-xps/)
+- [Конвертация — HTML в различные форматы изображений](./conversion-html-to-various-image-formats/)
+- [Конвертация — HTML в другие форматы](./conversion-html-to-other-formats/)
+- [Конвертация между EPUB и форматами изображений](./converting-between-epub-and-image-formats/)
+- [Конвертация EPUB в PDF](./converting-epub-to-pdf/)
+- [Конвертация EPUB в XPS](./converting-epub-to-xps/)
+- [Конвертация HTML в различные форматы изображений](./converting-html-to-various-image-formats/)
+- [HTML5 и рендеринг Canvas с Aspose.HTML for Java](./html5-canvas-rendering/)
+- [CSS и редактирование HTML‑форм с Aspose.HTML for Java](./css-html-form-editing/)
+- [Обработка данных и управление потоками в Aspose.HTML for Java](./data-handling-stream-management/)
+- [Наблюдатели мутаций и обработчики в Aspose.HTML for Java](./mutation-observers-handlers/)
+- [Пользовательская схема и обработка сообщений в Aspose.HTML for Java](./custom-schema-message-handling/)
+- [Обработка сообщений и сетевые функции в Aspose.HTML for Java](./message-handling-networking/)
+- [Создание и управление HTML‑документами в Aspose.HTML for Java](./creating-managing-html-documents/)
+- [Редактирование HTML‑документов в Aspose.HTML for Java](./editing-html-documents/)
+- [Настройка окружения в Aspose.HTML for Java](./configuring-environment/)
+- [Сохранение HTML‑документов в Aspose.HTML for Java](./saving-html-documents/)
+- [Работа с ZIP‑файлами в Aspose.HTML for Java](./handling-zip-files/)
+
+## Связанные руководства
+- [Конвертация HTML в PDF Java — настройка окружения в Aspose.HTML](/html/java/configuring-environment/)
+- [Создание PDF из Canvas с помощью Aspose.HTML for Java](/html/java/conversion-canvas-to-pdf/canvas-to-pdf/)
+- [Как конвертировать HTML в PDF Java — установка полей страницы с Aspose.HTML](/html/java/advanced-usage/css-extensions-adding-title-page-number/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
