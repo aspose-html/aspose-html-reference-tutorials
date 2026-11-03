@@ -25,9 +25,7 @@ title: NodeList in Java durchlaufen – Vollständiger Leitfaden
 url: /de/java/creating-managing-html-documents/iterate-over-nodelist-java-complete-guide/
 ---
 
-them.
 
-Let's produce.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

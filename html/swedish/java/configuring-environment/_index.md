@@ -104,8 +104,20 @@ Att konfigurera din miljö är grunden för framgångsrika **convert HTML to PDF
 ### [Set Up Network Service in Aspose.HTML for Java](./setup-network-service/)
 ### [Configure Runtime Service in Aspose.HTML for Java](./configure-runtime-service/)
 ### [Implement Sandboxing in Aspose.HTML for Java](./implement-sandboxing/)
+Lär dig hur du implementerar sandboxing i Aspose.HTML för Java för att säkert kontrollera skriptkörning i dina HTML‑dokument och konvertera dem till PDF.
+### [Hur man använder sandbox – Ställ in användaragents & hämta viewport‑storlek](./how-to-use-sandbox-set-user-agent-get-viewport-size/)
 ### [Set User Style Sheet in Aspose.HTML for Java](./set-user-style-sheet/)
 ### [Skapa Aspose HTML Sandbox – Komplett Java‑guide](./create-aspose-html-sandbox-complete-java-guide/)
+
+### [Hämta biblioteksversion i Java – Snabbguide för att visa biblioteksversion](./get-library-version-in-java-quick-guide-to-show-library-vers/)
+Lär dig hur du snabbt visar Aspose.HTML‑bibliotekets version i Java med en enkel kodexempel.
+### [How to Create Sandbox in Java – Full Guide](./how-to-create-sandbox-in-java-full-guide/)
+### [Ställ in User Agent för huvudlös HTML-rendering – Komplett guide](./set-user-agent-for-headless-html-rendering-complete-guide/)
+Lär dig hur du konfigurerar User Agent för huvudlös HTML-rendering i Aspose.HTML för Java för att säkerställa korrekt resurshämtning.
+### [Extrahera titel från HTML i Java – Komplett sandbox‑guide](./extract-title-from-html-in-java-complete-sandbox-guide/)
+Lär dig hur du extraherar titeln från HTML i Java med en komplett sandbox‑guide för säker bearbetning.
+### [Hur du ställer in DPI i Aspose.HTML Sandbox – Komplett Java‑guide](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
+Lär dig hur du konfigurerar DPI‑inställningar i Aspose.HTML Sandbox för Java för att förbättra bildkvaliteten i dina PDF‑ och PNG‑utdata.
 
 ---
 

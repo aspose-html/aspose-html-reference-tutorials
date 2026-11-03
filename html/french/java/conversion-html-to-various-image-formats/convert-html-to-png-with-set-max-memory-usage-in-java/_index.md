@@ -25,11 +25,9 @@ title: Convertir HTML en PNG avec une utilisation maximale de mémoire définie 
 url: /fr/java/conversion-html-to-various-image-formats/convert-html-to-png-with-set-max-memory-usage-in-java/
 ---
 
-any code block placeholders: CODE_BLOCK_0 to CODE_BLOCK_6. Keep them unchanged.
 
-Also ensure we keep any markdown formatting like > blockquotes.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

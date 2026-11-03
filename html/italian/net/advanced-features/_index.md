@@ -49,6 +49,22 @@ Scopri come creare uno stream di memoria personalizzato in C# usando Aspose.HTML
 Scopri come unire più font in C# usando Aspose.HTML, con esempi pratici e istruzioni dettagliate passo‑passo.
 ### [Recupera la versione dell'assembly in C# – Guida rapida per ottenere la versione della libreria](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
 Scopri come ottenere la versione di un assembly C# in modo rapido, usando Aspose.HTML per identificare la versione della libreria.
+### [Gestore di risorse personalizzato in Aspose HTML – Guida al salvataggio su stream](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
+Scopri come implementare un gestore di risorse personalizzato in Aspose HTML per salvare contenuti direttamente su stream.
+### [Come comprimere HTML con Aspose HTML – Guida completa](./how-to-zip-html-with-aspose-html-complete-guide/)
+Impara a comprimere file HTML in archivi ZIP usando Aspose HTML, con esempi passo passo e consigli pratici.
+### [Salva documento come PDF in C# – Guida completa con supporto ZIP](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
+Impara a salvare documenti HTML come PDF in C# con supporto per archivi ZIP, includendo esempi passo passo e consigli pratici.
+### [Come abilitare Clear Type – Abilitare la modalità di smoothing in .NET](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
+Scopri come attivare Clear Type e la modalità di smoothing per migliorare la resa del testo nelle applicazioni .NET con Aspose.HTML.
+### [Converti documento Word in PDF – Guida chiara (C#)](./convert-word-document-to-pdf-clear-text-guide-c/)
+Impara a convertire documenti Word in PDF usando Aspose.HTML per .NET con esempi chiari e passo passo.
+### [Salva HTML in zip con C# – crea archivio zip C# usando Aspose](./save-html-to-zip-with-c-create-zip-archive-c-using-aspose/)
+Impara a comprimere file HTML in un archivio ZIP usando Aspose.HTML per .NET con C#.
+### [Crea font grassetto corsivo in C# – guida passo‑a‑passo](./create-bold-italic-font-in-c-step-by-step-guide/)
+Impara a creare font grassetto e corsivo in C# con Aspose.HTML, passo dopo passo, con esempi pratici.
+### [Salva HTML come ZIP con un gestore di risorse personalizzato in C#](./save-html-as-zip-with-a-custom-resource-handler-in-c/)
+
 ## Conclusione
 
 Aspose.HTML per .NET apre le porte a un mondo di possibilità quando si tratta di lavorare con documenti HTML nelle tue applicazioni .NET. Questi tutorial sulle funzionalità avanzate ti forniranno le conoscenze e le competenze necessarie per sfruttare appieno il potenziale di Aspose.HTML. Porta i tuoi progetti di sviluppo, risparmia tempo e crea soluzioni straordinarie con Aspose.HTML per .NET. Inizia subito con i nostri tutorial e porta il tuo sviluppo web al livello successivo.

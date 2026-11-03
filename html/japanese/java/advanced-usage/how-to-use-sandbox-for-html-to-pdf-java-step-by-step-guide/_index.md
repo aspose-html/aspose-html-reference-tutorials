@@ -22,19 +22,13 @@ title: HTMLからPDFへのJava用サンドボックスの使い方 – ステッ
 url: /ja/java/advanced-usage/how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/
 ---
 
-/products/products-backtop-button >}}
 
-We keep them unchanged.
 
-Now produce final output with all translations.
 
-Check we didn't miss any text.
 
-Also note the note: "For Japanese, ensure proper RTL formatting if needed" Not needed.
 
-Make sure we preserve code block placeholders exactly.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -47,6 +47,8 @@ Dowiedz się, jak przekonwertować SVG do XPS za pomocą Aspose.HTML dla .NET. P
 Dowiedz się, jak w C# włączyć antyaliasing, aby uzyskać płynne krawędzie w renderowanych grafikach.
 ### [Tworzenie tekstu na płótnie – Pełny przewodnik renderowania tekstu na obrazach](./create-canvas-text-full-guide-to-rendering-text-on-images/)
 Poznaj, jak renderować tekst na obrazach przy użyciu płótna w Aspose.HTML dla .NET – krok po kroku od podstaw do zaawansowanych technik.
+### [Jak włączyć antyaliasing w C# – Kompletny przewodnik po stylach czcionek](./how-to-enable-antialiasing-in-c-complete-font-style-guide/)
+Dowiedz się, jak w C# włączyć antyaliasing i kontrolować style czcionek, aby uzyskać wyraźny i płynny tekst w renderowanych grafikach.
 
 ## Wniosek
 
