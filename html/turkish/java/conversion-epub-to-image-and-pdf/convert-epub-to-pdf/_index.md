@@ -200,7 +200,6 @@ C: Temel `convertEPUB` yöntemi doğrudan filigranları desteklemez, ancak oluş
 **Test Edilen Versiyon:** Aspose.HTML for Java (latest version)  
 **Yazar:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
 
 ## İlgili Öğreticiler
 
@@ -212,3 +211,4 @@ C: Temel `convertEPUB` yöntemi doğrudan filigranları desteklemez, ancak oluş
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

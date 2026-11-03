@@ -200,7 +200,6 @@ A: Embora o método básico `convertEPUB` não suporte marcas d'água diretament
 **Testado com:** Aspose.HTML for Java (última versão)  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
 
 ## Tutoriais Relacionados
 
@@ -212,3 +211,4 @@ A: Embora o método básico `convertEPUB` não suporte marcas d'água diretament
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

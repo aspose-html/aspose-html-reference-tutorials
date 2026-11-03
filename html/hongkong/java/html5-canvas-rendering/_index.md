@@ -30,6 +30,8 @@ url: /zh-hant/java/html5-canvas-rendering/
 使用 Aspose.HTML for Java 建立和渲染 HTML5 Canvas。逐步學習如何使用這個功能強大的 Java 程式庫進行繪圖、設計樣式以及匯出為 PDF。
 ### [使用 Aspose.HTML for Java 掌握 HTML5 Canvas](./html5-canvas/)
 了解如何使用 Aspose.HTML for Java 建立 HTML5 Canvas 並將其轉換為 PDF。本指南非常適合希望增強 Web 專案的開發人員。
+### [如何模擬 iPhone – 使用 Aspose.HTML 的完整指南](./how-to-emulate-iphone-complete-guide-with-aspose-html/)
+了解如何使用 Aspose.HTML 模擬 iPhone 瀏覽器環境，並將渲染結果匯出為 PDF 或圖像。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,0 +1,7 @@
+Title: How to export links while converting HTML to Markdown
+Slug: how-to-export-links-while-converting-html-to-markdown
+Category: general
+ProcessedDate: 2026-08-22T22:19:40.518726
+SourceRepo: AI Search API
+Keywords: how to export links, convert html to markdown, how to convert html, how to extract paragraphs, html to markdown file
+PRNumber: 249

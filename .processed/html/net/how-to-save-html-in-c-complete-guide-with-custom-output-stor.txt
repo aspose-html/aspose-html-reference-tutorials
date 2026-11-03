@@ -1,0 +1,7 @@
+Title: How to Save HTML in C# – Complete Guide with Custom Output Storage
+Slug: how-to-save-html-in-c-complete-guide-with-custom-output-stor
+Category: working-with-html-documents
+ProcessedDate: 2026-07-28T06:20:00.934636
+SourceRepo: AI Search API
+Keywords: how to save html, load html document c#
+PRNumber: 221

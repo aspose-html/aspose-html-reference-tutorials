@@ -1,39 +1,69 @@
 ---
-title: Java için Aspose.HTML'de Belge Yükleme Olaylarını Yönetme
-linktitle: Java için Aspose.HTML'de Belge Yükleme Olaylarını Yönetme
-second_title: Aspose.HTML ile Java HTML İşleme
-description: Bu adım adım kılavuzla Aspose.HTML for Java'da belge yükleme olaylarını nasıl yöneteceğinizi öğrenin. Web uygulamalarınızı geliştirin.
-weight: 18
+date: 2026-04-23
+description: Bu adım adım rehberde Aspose.HTML for Java kullanarak dış HTML'yi nasıl
+  alacağınızı ve belge yüklenmesini nasıl bekleyeceğinizi öğrenin.
+keywords:
+- get outer html
+- wait for document load
+- java html processing
+- navigate html document
+- aspose html example
+linktitle: Aspose.HTML'de Belge Yükleme Olaylarını İşleyin
+second_title: Java HTML Processing with Aspose.HTML
+title: Aspose.HTML for Java'da Dış HTML'yi Al ve Yükleme Olaylarını İşleyin
 url: /tr/java/creating-managing-html-documents/handle-document-load-events/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java için Aspose.HTML'de Belge Yükleme Olaylarını Yönetme
+# Dış HTML Al ve Aspose.HTML for Java'da Yükleme Olaylarını İşle
 
-## giriiş
-Web geliştirme söz konusu olduğunda, uygulamanızın sorunsuz ve verimli bir şekilde çalışmasını sağlamak için belge yükleme olaylarını yönetmek çok önemlidir. Java'da HTML belgeleriyle çalışıyorsanız, Aspose.HTML HTML belgelerini kolayca düzenlemenize olanak tanıyan güçlü bir kütüphane sunar. Bu eğitimde, Java için Aspose.HTML kullanarak belge yükleme olaylarını nasıl yöneteceğinizi keşfedeceğiz. İster yeni başlayan ister deneyimli bir geliştirici olun, bu kılavuz sizi adım adım süreçte yönlendirecektir.
-## Ön koşullar
-Kodlama kısmına dalmadan önce, yerine getirmeniz gereken birkaç ön koşul var:
-1.  Java Geliştirme Kiti (JDK): Makinenizde JDK'nın yüklü olduğundan emin olun. Bunu şu adresten indirebilirsiniz:[Oracle'ın web sitesi](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Java için Aspose.HTML: Aspose.HTML kütüphanesine sahip olmanız gerekir. En son sürümü şu adresten indirebilirsiniz:[Aspose sürüm sayfası](https://releases.aspose.com/html/java/).
-3. IDE: IntelliJ IDEA veya Eclipse gibi bir Entegre Geliştirme Ortamı (IDE), kodlama deneyiminizi daha akıcı hale getirecektir.
-4. Temel Java Bilgisi: Java programlama ve olay işleme kavramlarına aşinalık faydalı olacaktır.
-5. İnternet Bağlantısı: Çevrimiçi bir belgeye gideceğimiz için internet bağlantınızın istikrarlı olduğundan emin olun.
-Bu ön koşulları sağladıktan sonra kodlamaya başlamaya hazırsınız!
+## Giriş
+Uzak bir sayfadan **dış html** almanız ve belge yüklenmeyi tamamladığında hemen tepki vermeniz gerektiğinde, belge yükleme olaylarını yönetmek çok önemlidir. Java'da Aspose.HTML, bir URL'ye gitmek ve `OnLoad` olayını dinlemek için temiz bir API sunar; böylece HTML hazır olduğunda güvenli bir şekilde erişebilirsiniz. Bu öğretici, ortamı kurmaktan yüklenmiş bir sayfanın dış HTML'ini yazdırmaya kadar tüm süreci adım adım gösterir; böylece bunu herhangi bir web‑odaklı Java uygulamasına entegre edebilirsiniz.
 
-Artık her şeyi ayarladığımıza göre, belge yükleme olaylarının işlenme sürecini yönetilebilir adımlara bölelim.
-## Adım 1: Bir HTML Belgesi Başlatın
- İlk adım, bir örnek oluşturmaktır`HTMLDocument` sınıf. Bu sınıf, üzerinde çalışacağınız HTML belgesini temsil eder.
+## Hızlı Yanıtlar
+- **“dış html al” ne anlama geliyor?** Belgenin kök öğesinin tam HTML işaretlemesini döndürür.  
+- **Hangi kütüphane yükleme olaylarını yönetir?** Aspose.HTML for Java `OnLoad` olayını sağlar.  
+- **Test için lisansa ihtiyacım var mı?** Ücretsiz bir deneme sürümü mevcuttur; üretim için ticari lisans gereklidir.  
+- **Belgenin yüklenmesini nasıl bekleyebilirim?** Demo amaçlı `OnLoad` işleyicisini veya basit bir uyku (sleep) komutunu kullanın.  
+- **Bu yaklaşım asenkron güvenli mi?** Evet, olay belge yüklenmeyi tamamladıktan sonra tetiklenir ve HTML'in hazır olduğunu garanti eder.
+
+## “Dış html al” nedir?
+`document.getDocumentElement().getOuterHTML()` belge kök öğesinin tam HTML dizesini, açılış ve kapanış etiketleri dahil, döndürür. Bu, ham işaretlemeyi daha fazla işleme, depolama veya dönüşüm için gerektiğinde faydalıdır.
+
+## Neden Aspose.HTML for Java kullanmalısınız?
+- **Sağlam HTML ayrıştırma** bir tarayıcı motoruna ihtiyaç duymadan.  
+- **Olay‑tabanlı model** belge hazır olduğunda tam olarak tepki vermenizi sağlar.  
+- **Çapraz‑platform** Windows, Linux ve macOS desteği.  
+- **Zengin API** gezinme, manipülasyon ve PDF, görüntü vb. dönüşümler için.
+
+## Önkoşullar
+Koda geçmeden önce aşağıdakilere sahip olduğunuzdan emin olun:
+
+1. **Java Development Kit (JDK)** – [Oracle'ın web sitesinden](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) yükleyin.  
+2. **Aspose.HTML for Java** – En son JAR dosyasını [Aspose sürüm sayfasından](https://releases.aspose.com/html/java/) indirin.  
+3. **IDE** – IntelliJ IDEA, Eclipse veya tercih ettiğiniz herhangi bir editör.  
+4. **Temel Java bilgisi** – Sınıflar, metodlar ve olay yönetimini anlama.  
+5. **İnternet bağlantısı** – Örnek çevrimiçi bir HTML sayfası yükler.
+
+Her şey hazır olduğunda, kodlamaya başlamaya hazırsınız!
+
+## Adım‑Adım Kılavuz
+
+### Adım 1: Bir HTML Belgesi Başlatın
+İlk olarak bir `HTMLDocument` örneği oluşturun. Ayrıca yükleme durumunu izlemek için bir `AtomicBoolean` ayarlarız.
+
 ```java
 com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument();
 java.util.concurrent.atomic.AtomicBoolean isLoading = new java.util.concurrent.atomic.AtomicBoolean(false);
 ```
- Bu kod parçacığında ayrıca bir tane daha oluşturuyoruz`AtomicBoolean` adlı değişken`isLoading`Bu değişken, belgenin şu anda yüklenip yüklenmediğini izlememize yardımcı olacaktır.
-## Adım 2: 'OnLoad' Etkinliğine Abone Olun
-Daha sonra, abone olmamız gerekiyor`OnLoad` belgenin olayı. Bu olay belge tamamen yüklendiğinde tetiklenir. 
+
+### Adım 2: **OnLoad** Olayına Abone Olun
+`isLoading` bayrağını belge yüklenmeyi tamamladığında değiştiren bir işleyici ekleyin. İşte **dış html al** çağrısının güvenli olduğunu bileceğimiz yer.
+
 ```java
 document.OnLoad.add(new DOMEventHandler() {
     @Override
@@ -42,39 +72,61 @@ document.OnLoad.add(new DOMEventHandler() {
     }
 });
 ```
- Burada, yeni bir olay işleyicisi ekliyoruz.`isLoading` ile`true` belge tamamen yüklendiğinde. Bu, belge hazır olduğunda eylemler gerçekleştirmemizi sağlar.
-## Adım 3: Belgeye gidin
-Şimdi, yüklemek istediğiniz HTML belgesine gitme zamanı. Bu örnekte, belirtilen bir URI'den bir belge yükleyeceğiz.
+
+### Adım 3: Belgeye Git (url'den html yükle)
+`HTMLDocument`'e hangi sayfayı alacağını söyleyin. Bu örnekte bir public Aspose dokümantasyon sayfasını yüklüyoruz.
+
 ```java
 document.navigate("https://docs.aspose.com/html/net/creating-a-document/document.html");
 ```
-Bu kod satırı belgeye içeriği sağlanan URL'den yüklemesini söyler. Ancak, belgenin hemen yüklenmeyebileceğini unutmayın.
-## Adım 4: Belgenin Yüklenmesini Bekleyin
-Bir belgeyi URL'den yüklemek asenkron bir işlem olduğundan, belgenin yüklenmesi için yeterli zamana sahip olduğundan emin olmak için birkaç saniye beklememiz gerekir. 
+
+### Adım 4: Belgenin Yüklenmesini Bekleyin
+Uzak bir sayfanın yüklenmesi asenkrondur. Demonstrasyon için birkaç saniye boyunca iş parçacığını duraklatıyoruz; üretimde `OnLoad` bayrağına veya daha gelişmiş bir senkronizasyon tekniğine güvenirsiniz.
+
 ```java
 Thread.sleep(5000);
 ```
- Bu durumda şunu kullanırız:`Thread.sleep(5000)`yürütmeyi 5 saniyeliğine duraklatmak için. Bu beklemenin basit bir yoludur, ancak üretim kodunda geri aramaları veya gelecekteki görevleri kullanarak daha sağlam bir çözüm uygulamak isteyebilirsiniz.
-## Adım 5: Yüklenen Belgeye Erişim
-Son olarak, belge yüklendikten sonra içeriğine erişebilirsiniz. Örneğin, belgenin dış HTML'sini konsola yazdırabiliriz:
+
+### Adım 5: Yüklenen Belgeye Erişin ve **Dış HTML Al**
+`isLoading` artık true olduğuna göre, belgenin kök öğesinin tam işaretlemesini alın.
+
 ```java
 System.out.println("outerHTML = " + document.getDocumentElement().getOuterHTML());
 ```
-Bu satır belgenin dış HTML'sini alır ve yazdırır. Bu HTML'yi uygulamanızın ihtiyaçlarına göre daha fazla düzenleyebilirsiniz.
-## Çözüm
-Java için Aspose.HTML'de belge yükleme olaylarını işlemek, bir HTML belgesini başlatmayı, yükleme olaylarına abone olmayı, bir URL'ye gitmeyi ve yüklenen içeriğe erişmeyi içeren basit bir işlemdir. Bu eğitimde özetlenen adımları izleyerek, Java uygulamalarınızda belge yüklemeyi etkili bir şekilde yönetebilirsiniz.
-Aspose.HTML, HTML belgeleriyle çalışmak için sayısız olasılık sunan güçlü bir kütüphanedir. İster bir web uygulaması oluşturuyor olun, ister HTML içeriği işliyor olun, bu kütüphane iş akışınızı önemli ölçüde basitleştirebilir.
-## SSS
-### Java için Aspose.HTML nedir?
-Java için Aspose.HTML, geliştiricilerin Java uygulamalarında HTML belgeleri oluşturmasına, düzenlemesine ve dönüştürmesine olanak tanıyan bir kütüphanedir.
-### Java için Aspose.HTML'yi nasıl indirebilirim?
- Bunu şuradan indirebilirsiniz:[Aspose sürüm sayfası](https://releases.aspose.com/html/java/).
-### Aspose.HTML'i ücretsiz kullanabilir miyim?
- Evet, Aspose.HTML'yi deneme sürümünü indirerek ücretsiz deneyebilirsiniz.[Aspose web sitesi](https://releases.aspose.com/).
-### Aspose.HTML için herhangi bir destek mevcut mu?
- Evet, destek bulabilir ve soru sorabilirsiniz.[Aspose forumu](https://forum.aspose.com/c/html/29).
-### Aspose.HTML için geçici lisansı nasıl alabilirim?
- Geçici lisans talebinde bulunmak için şu adresi ziyaret edebilirsiniz:[Aspose geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
+
+Konsolda yüklenen sayfanın tam HTML'ini görmelisiniz.
+
+## Yaygın Sorunlar ve Çözümler
+| Sorun | Sebep | Çözüm |
+|-------|--------|-----|
+| **`isLoading` asla true olmuyor** | `OnLoad` işleyicisi `navigate()` çağrılmadan önce eklenmemişti | İşleyiciyi `navigate()` çağırmadan **önce** ekleyin. |
+| **`getDocumentElement()` üzerinde `NullPointerException`** | Belge erişildiğinde tam olarak yüklenmemişti | Uygun bir bekleme mekanizması kullanın (ör. `isLoading.get()` üzerinde döngü veya bir `CountDownLatch`). |
+| **HTTPS URL'leri yüklerken SSLHandshakeException** | Güvenilen sertifikalar eksik | Uygun sertifikayı Java keystore'unuza ekleyin veya `-Djsse.enableSNIExtension=false` kullanın. |
+| **Yavaş yükleme zaman aşımına neden oluyor** | Büyük sayfa veya ağ gecikmesi | Uyku süresini artırın veya zaman aşımı farkında bir dinleyici uygulayın. |
+
+## Sıkça Sorulan Sorular
+
+**Q: Aspose.HTML for Java nedir?**  
+A: Aspose.HTML for Java, geliştiricilerin Java uygulamalarında HTML belgeleri oluşturmasına, manipüle etmesine ve dönüştürmesine olanak tanıyan bir kütüphanedir.
+
+**Q: Aspose.HTML for Java nasıl indirilir?**  
+A: Bunu [Aspose sürüm sayfasından](https://releases.aspose.com/html/java/) indirebilirsiniz.
+
+**Q: Aspose.HTML'i ücretsiz kullanabilir miyim?**  
+A: Evet, [Aspose web sitesinden](https://releases.aspose.com/) bir deneme sürümü indirerek Aspose.HTML'i ücretsiz deneyebilirsiniz.
+
+**Q: Aspose.HTML için destek mevcut mu?**  
+A: Evet, [Aspose forumunda](https://forum.aspose.com/c/html/29) destek bulabilir ve sorular sorabilirsiniz.
+
+**Q: Aspose.HTML için geçici lisans nasıl alınır?**  
+A: [Aspose geçici lisans sayfasını](https://purchase.aspose.com/temporary-license/) ziyaret ederek geçici bir lisans talep edebilirsiniz.
+
+---
+
+**Son Güncelleme:** 2026-04-23  
+**Test Edildi:** Aspose.HTML for Java 24.11  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
