@@ -339,6 +339,9 @@ Lär dig hur du konverterar HTML till PDF i Java med en fast trådpool för effe
 Lär dig hur du använder en trådpool för att konvertera flera HTML‑filer till PDF parallellt i Java med Aspose.HTML.
 ### [HTML till PDF handledning – Konvertera HTML till PDF med Aspose i Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-in-java/)
 Lär dig hur du konverterar HTML till PDF i Java med Aspose, steg för steg.
+### [Aspose HTML till PDF i Java – komplett steg‑för‑steg‑guide](./aspose-html-to-pdf-in-java-complete-step-by-step-guide/)
+Lär dig hur du konverterar HTML till PDF i Java med en detaljerad steg‑för‑steg‑guide.
+
 ## Vanliga frågor
 
 **Q: Kan jag använda Aspose.HTML for Java i en kommersiell applikation?**  

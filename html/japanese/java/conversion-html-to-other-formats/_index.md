@@ -251,6 +251,8 @@ Aspose.HTML を使用して Java で PDF のページサイズを設定し、HTM
 
 ### [JavaでHTMLからPDFを作成する – 完全ステップバイステップガイド](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
 Aspose.HTML を使用して、Java で HTML から PDF を作成する手順を詳細に解説します。初心者でも簡単に実装可能です。
+### [Aspose HTML を Java で PDF に変換する – 完全ステップバイステップガイド](./aspose-html-to-pdf-in-java-complete-step-by-step-guide/)
+Aspose.HTML を使用して、Java で HTML を PDF に変換する完全な手順を解説します。
 ### [Aspose HTML で PDF ページサイズを設定 – 完全 Java ガイド](./set-pdf-page-size-with-aspose-html-full-java-guide/)
 Aspose.HTML を使用して Java で PDF のページサイズを設定する方法をステップバイステップで解説します。
 ### [並列 HTML から PDF 変換のための固定スレッドプールの作成](./create-fixed-thread-pool-for-parallel-html-to-pdf-conversion/)

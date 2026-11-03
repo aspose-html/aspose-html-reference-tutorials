@@ -301,6 +301,7 @@ XPS هو صيغة الطباعة الخاصة بمايكروسوفت. باستخ
 ### [تحويل ملف HTML محلي إلى PDF – دليل Java كامل](./convert-local-html-file-to-pdf-complete-java-guide/)
 تعلم تحويل ملف HTML محلي إلى PDF في Java باستخدام Aspose.HTML. دليل كامل خطوة بخطوة لإنتاج ملفات PDF عالية الجودة.
 ### [تحويل قالب HTML باستخدام Aspose – دليل خطوة بخطوة](./convert-html-template-with-aspose-step-by-step-guide/)
+### [Aspose HTML إلى PDF في Java – دليل خطوة بخطوة كامل](./aspose-html-to-pdf-in-java-complete-step-by-step-guide/)
 
 ## الأسئلة المتكررة
 

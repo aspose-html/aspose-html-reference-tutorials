@@ -236,6 +236,9 @@ Ismerje meg, hogyan konvertálhatja a weboldalt PDF‑re Java‑ban részletes, 
 Részletes útmutató a HTML PDF‑re konvertálásához Java‑ban az Aspose.HTML‑el, lépésről‑lépésre, beállításokkal és példakóddal.
 ### [HTML átalakítása PDF-re – Teljes útmutató a PDF Azure Blob‑ba mentéséhez](./convert-html-to-pdf-complete-guide-to-saving-pdf-to-azure-bl/)
 ### [Hogyan ágyazzunk be képeket HTML‑ből PDF‑be az Aspose‑val – Java útmutató](./how-to-embed-images-in-html-to-pdf-with-aspose-java-guide/)
+### [Aspose HTML PDF-re Java‑ban – teljes lépésről‑lépésre útmutató](./aspose-html-to-pdf-in-java-complete-step-by-step-guide/)
+Részletes útmutató az Aspose.HTML használatához HTML PDF-re konvertálásához Java‑ban, minden lépésben.
+
 ### [HTML átalakítása MHTML-re](./convert-html-to-mhtml/)
 ### [HTML átalakítása XPS-re](./convert-html-to-xps/)
 ### [Markdown átalakítása HTML-re](./convert-markdown-to-html/)

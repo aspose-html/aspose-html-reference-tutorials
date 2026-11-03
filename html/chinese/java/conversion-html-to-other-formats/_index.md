@@ -305,8 +305,6 @@ Aspose.HTML for Java 简化了 HTML 转 PDF 的工作流。请参阅专门的教
 演示如何在 Java 环境下使用 Aspose.HTML API 自定义 PDF 的页面尺寸，实现精确排版。
 
 ### [在 Java 中从 HTML 创建 PDF – 完整分步指南](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
-提供详细的逐步说明，帮助您使用 Aspose.HTML for Java 将 HTML 转换为 PDF，并自定义页面设置。
-
 ### [在 Java 中将 HTML 转换为 Markdown – 分步指南](./convert-html-to-markdown-in-java-step-by-step-guide/)
 详细步骤演示如何在 Java 使用 Aspose.HTML 将 HTML 转换为 Markdown，实现高质量文档转换。
 ### [Aspose HTML 转 PDF（Java） – 添加页面边距和 PDF/A‑2b](./aspose-html-to-pdf-in-java-add-page-margins-pdf-a-2b/)
@@ -372,6 +370,8 @@ Aspose.HTML for Java 简化了 HTML 转 PDF 的工作流。请参阅专门的教
 详细演示如何在 Java 中使用 Aspose.HTML 将本地 HTML 文件转换为 PDF，涵盖完整步骤与最佳实践。
 ### [使用 Aspose 将 HTML 模板转换 – 分步指南](./convert-html-template-with-aspose-step-by-step-guide/)
 了解如何使用 Aspose 将 HTML 模板转换为所需格式的完整分步指南。
+### [Aspose HTML 在 Java 中转 PDF – 完整分步指南](./aspose-html-to-pdf-in-java-complete-step-by-step-guide/)
+提供在 Java 中使用 Aspose.HTML 将 HTML 完整转换为 PDF 的详细分步指南。
 
 ## 常见问题
 

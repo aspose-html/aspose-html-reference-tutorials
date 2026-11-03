@@ -128,6 +128,9 @@ weight: 25
 Μάθετε πώς να μετατρέψετε αρχεία HTML σε DOCX σε Java χρησιμοποιώντας το Aspose.HTML, βήμα‑βήμα οδηγίες και παραμετροποίηση.
 ### [Μετατροπή HTML σε PDF σε Java – Οδηγός Παράλληλης Παρτίδας](./convert-html-to-pdf-in-java-parallel-batch-guide/)
 Μάθετε πώς να μετατρέψετε πολλαπλά αρχεία HTML σε PDF ταυτόχρονα χρησιμοποιώντας το Aspose.HTML for Java για βέλτιστη απόδοση.
+### [Aspose HTML σε PDF σε Java – πλήρης οδηγός βήμα‑βήμα](./aspose-html-to-pdf-in-java-complete-step-by-step-guide/)
+Μάθετε πώς να μετατρέψετε HTML σε PDF σε Java με πλήρη, βήμα‑βήμα καθοδήγηση.
+
 ### [Μετατροπή HTML σε MHTML](./convert-html-to-mhtml/)
 Μετατρέψτε εύκολα HTML σε MHTML χρησιμοποιώντας το Aspose.HTML for Java. Ακολουθήστε τον βήμα‑βήμα οδηγό μας για αποδοτική μετατροπή HTML‑σε‑MHTML.
 ### [Μετατροπή HTML σε MHTML με Aspose.HTML – Πλήρης Οδηγός Java](./convert-html-to-mhtml-with-aspose-html-complete-java-guide/)

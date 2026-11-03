@@ -141,6 +141,8 @@ Aspose.HTML for Java ทำให้กระบวนการแปลง HTML
 เรียนรู้วิธีแปลงไฟล์ HTML เป็น PDF ใน Java อย่างละเอียดด้วยขั้นตอนครบถ้วนและการตั้งค่าต่าง ๆ
 ### [แปลง HTML เป็น PDF ใน Java – คู่มือคุณภาพสูงครบถ้วน](./convert-html-to-pdf-in-java-complete-high-quality-guide/)
 เรียนรู้วิธีแปลง HTML เป็น PDF ใน Java อย่างละเอียดด้วยคุณภาพสูงและเคล็ดลับการปรับแต่งขั้นสูง
+### [Aspose HTML to PDF ใน Java – คู่มือขั้นตอน‑โดย‑ขั้นตอนแบบครบถ้วน](./aspose-html-to-pdf-in-java-complete-step-by-step-guide/)
+เรียนรู้วิธีแปลง HTML เป็น PDF ด้วย Aspose HTML for Java อย่างละเอียดและครบถ้วน
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 ### [Aspose HTML to PDF in Java – Quick Step‑by‑Step Guide](./aspose-html-to-pdf-in-java-quick-step-by-step-guide/)
 เรียนรู้วิธีแปลง HTML เป็น PDF ใน Java อย่างรวดเร็วด้วยขั้นตอนที่ชัดเจนและตัวอย่างโค้ด

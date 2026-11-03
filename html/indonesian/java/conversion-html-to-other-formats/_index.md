@@ -431,6 +431,9 @@ Pelajari cara mengonversi file HTML lokal ke PDF di Java menggunakan Aspose.HTML
 ### [Mengonversi HTML ke PDF dengan Aspose HTML Converter di Java – Panduan Lengkap](./convert-html-to-pdf-with-aspose-html-converter-in-java-compl/)
 Panduan lengkap mengonversi HTML ke PDF menggunakan Aspose HTML Converter di Java, mencakup langkah‑demi‑step dan konfigurasi penting.
 
+### [Aspose HTML ke PDF di Java – panduan lengkap langkah demi langkah](./aspose-html-to-pdf-in-java-complete-step-by-step-guide/)
+Panduan lengkap langkah demi langkah untuk mengonversi HTML ke PDF menggunakan Aspose.HTML di Java.
+
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bisakah saya menggunakan Aspose.HTML untuk Java dalam aplikasi komersial?**  

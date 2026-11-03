@@ -461,6 +461,8 @@ Hướng dẫn chi tiết cách chuyển đổi tệp HTML sang PDF trong C# b�
 ### [Chuyển đổi mẫu HTML với Aspose – hướng dẫn từng bước](./convert-html-template-with-aspose-step-by-step-guide/)
 Hướng dẫn chi tiết cách chuyển đổi mẫu HTML sang các định dạng bằng Aspose trong Java.
 
+### [Aspose HTML sang PDF trong Java – Hướng dẫn chi tiết từng bước](./aspose-html-to-pdf-in-java-complete-step-by-step-guide/)
+
 ## Câu hỏi thường gặp
 
 **Q: Tôi có thể sử dụng Aspose.HTML cho Java trong một ứng dụng thương mại không?**  
