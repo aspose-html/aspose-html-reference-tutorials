@@ -115,6 +115,10 @@ Aspose.HTML を使って、1 行のコードで HTML を PDF に変換する方�
 Aspose.HTML を使用して Java で HTML を PDF に変換する手順を詳しく解説します。シンプルなコードで高品質な PDF を生成できます。
 ### [HTMLをPDFに変換 – 完全高品質ガイド（Java）](./convert-html-to-pdf-in-java-complete-high-quality-guide/)
 Aspose.HTML を使用して、Java で HTML を高品質な PDF に変換する完全ガイドです。設定方法やベストプラクティスを網羅しています。
+### [HTML to PDF チュートリアル: Java で HTML を PDF に変換する方法](./html-to-pdf-tutorial-convert-html-to-pdf-with-java/)
+Java で HTML を PDF に変換する手順を詳しく解説します。
+### [Aspose HTML コンバータを使用した Java の HTML から PDF への変換 – 完全ガイド](./convert-html-to-pdf-with-aspose-html-converter-in-java-compl/)
+Aspose HTML コンバータを使って Java で HTML を PDF に変換する手順を詳しく解説します。
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 Aspose.HTML for Java で HTML を MHTML に簡単に変換します。効率的な HTML‑to‑MHTML 変換の手順をご覧ください。
 

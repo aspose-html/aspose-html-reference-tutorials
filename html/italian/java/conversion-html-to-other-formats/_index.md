@@ -85,6 +85,8 @@ In conclusione, padroneggiare **html to pdf java** e l'insieme più ampio di con
 ### [Conversione da HTML a PDF](./convert-html-to-pdf/)
 ### [Render HTML in PDF con rendering parallelo – più veloce](./render-html-to-pdf-with-parallel-rendering-faster/)
 ### [Come Convertire un File HTML in PDF in Java – Guida Completa](./how-to-convert-html-file-to-pdf-in-java-full-guide/)
+### [Tutorial HTML to PDF: Converti HTML in PDF con Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-java/)
+### [Converti HTML in PDF con Aspose HTML Converter in Java – Guida completa](./convert-html-to-pdf-with-aspose-html-converter-in-java-compl/)
 ### [Converti HTML in PDF in Java – Guida passo‑passo con impostazioni della dimensione della pagina](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 ### [Converti HTML in PDF in Java – Guida completa con incorporamento dei font](./convert-html-to-pdf-in-java-complete-guide-with-font-embeddi/)
 ### [Converti HTML in PDF in Java – Guida completa passo‑step](./convert-html-to-pdf-in-java-complete-step-by-step-guide/)

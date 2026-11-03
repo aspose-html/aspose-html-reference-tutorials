@@ -97,6 +97,10 @@ XPS هو صيغة الطباعة الخاصة بمايكروسوفت. باستخ
 تعلم كيفية تحويل ملفات HTML إلى PDF في Java باستخدام معالجة دفعات متوازية لزيادة السرعة والكفاءة.
 ### [إنشاء PDF من HTML في Java – دليل Aspose.HTML الكامل](./create-pdf-from-html-in-java-full-aspose-html-guide/)
 دليل شامل لإنشاء ملفات PDF من HTML في Java باستخدام Aspose.HTML مع شرح كامل للخيارات والإعدادات.
+### [دروس HTML إلى PDF: تحويل HTML إلى PDF باستخدام Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-java/)
+دليل شامل لتحويل HTML إلى PDF باستخدام Aspose.HTML في Java خطوة بخطوة.
+### [تحويل HTML إلى PDF باستخدام محول Aspose HTML في Java – دليل كامل](./convert-html-to-pdf-with-aspose-html-converter-in-java-compl/)
+دليل شامل لتحويل HTML إلى PDF باستخدام محول Aspose HTML في Java.
 ### [تحويل HTML إلى MHTML](./convert-html-to-mhtml/)
 حوّل HTML إلى MHTML بسهولة باستخدام Aspose.HTML for Java. اتبع دليلنا خطوة بخطوة لتحويل HTML إلى MHTML بكفاءة.
 ### [إنشاء ملف MHTML من HTML – دليل Java كامل](./create-mhtml-file-from-html-complete-java-guide/)

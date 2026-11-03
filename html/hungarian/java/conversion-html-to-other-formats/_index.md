@@ -148,6 +148,11 @@ Ismerje meg, hogyan konvertálhatja a Markdown‑t PDF‑re Java‑ban az Aspose
 Ismerje meg, hogyan konvertálhatja a Markdown fájlokat PDF‑re Java‑ban az Aspose.HTML segítségével, részletes lépésekkel és beállítási tippekkel.
 ### [PDF létrehozása Markdownból Java‑ban – Teljes útmutató](./create-pdf-from-markdown-in-java-complete-guide/)
 Készítsen PDF-et Markdown fájlból Java‑ban az Aspose.HTML segítségével, részletes lépésekkel és tippekkel.
+### [HTML konvertálása PDF-re az Aspose HTML Converterrel Java‑ban – Teljes útmutató](./convert-html-to-pdf-with-aspose-html-converter-in-java-compl/)
+Részletes útmutató az Aspose.HTML konverterrel történő HTML‑PDF átalakításhoz Java‑ban, minden beállítás és tippek bemutatásával.
+Könnyedén konvertálja a HTML‑t MHTML‑re az Aspose.HTML for Java segítségével. Kövesse lépésről‑lépésre útmutatásunkat a hatékony HTML‑MHTML átalakításhoz.
+Ismerje meg, hogyan konvertálhatja könnyedén a HTML‑t XPS‑re az Aspose.HTML for Java használatával. Készítsen többplatformos dokumentumokat egyszerűen.
+Konvertálja a Markdown‑t HTML‑re Java‑ban zökkenőmentesen az Aspose.HTML for Java segítségével. Kövesse lépésről‑lépésre útmutatásunkat, hogy egyszerűsítse dokumentumkonverziós igényeit.
 Ismerje meg, hogyan konvertálhatja az SVG‑t képekké Java‑ban az Aspose.HTML‑el. Átfogó útmutató a magas minőségű kimenethez.
 Konvertálja az SVG‑t PDF‑re Java‑ban az Aspose.HTML‑el. Zökkenőmentes megoldás a magas minőségű dokumentumkonverzióhoz.
 ### [HTML fájl PDF-re konvertálása Java-ban – Teljes útmutató](./how-to-convert-html-file-to-pdf-in-java-full-guide/)
@@ -316,6 +321,8 @@ Ismerje meg, hogyan konvertálhatja a HTML‑t DOCX‑formátumba Java‑ban az 
 ### [Markdown konvertálása PDF-re Java-ban – Teljes Aspose útmutató](./convert-markdown-to-pdf-in-java-complete-aspose-guide/)
 ### [HTML PDF oktatóanyag – HTML PDF-re konvertálás az Aspose HTML for Java-val](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-fo/)
 ### [HTML fájl PDF-re konvertálása Java-ban – Teljes útmutató](./how-to-convert-html-file-to-pdf-in-java-complete-guide/)
+### [HTML to PDF oktatóanyag: HTML konvertálása PDF-re Java-val](./html-to-pdf-tutorial-convert-html-to-pdf-with-java/)
+Lépésről‑lépésre útmutató a HTML PDF-re konvertálásához Java‑ban az Aspose.HTML segítségével.
 
 ## Gyakran Ismételt Kérdések
 

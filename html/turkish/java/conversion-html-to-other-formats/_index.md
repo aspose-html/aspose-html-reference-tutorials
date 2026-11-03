@@ -351,6 +351,10 @@ C# ile HTML dosyasını PDF'ye dönüştürmek için adım adım rehber.
 Java uygulamanızda HTML dosyalarını yüksek kaliteli PDF'lere dönüştürmek için adım adım rehber.
 ### [Yerel HTML Dosyasını PDF'ye Dönüştürme – Tam Java Kılavuzu](./convert-local-html-file-to-pdf-complete-java-guide/)
 Java kullanarak yerel bir HTML dosyasını yüksek kaliteli PDF'ye dönüştürmek için adım adım rehber.
+### [Aspose HTML Converter ile Java'da HTML'yi PDF'ye Dönüştürme – Tam Kılavuz](./convert-html-to-pdf-with-aspose-html-converter-in-java-compl/)
+Aspose HTML Converter kullanarak Java'da HTML'yi PDF'ye dönüştürmenin tüm adımlarını ayrıntılı olarak öğrenin.
+### [HTML'den PDF'ye Öğretici: Java ile HTML'yi PDF'ye Dönüştürme](./html-to-pdf-tutorial-convert-html-to-pdf-with-java/)
+Java kullanarak HTML dosyalarını PDF'ye dönüştürmenin adım adım rehberi.
 
 ## Sıkça Sorulan Sorular
 

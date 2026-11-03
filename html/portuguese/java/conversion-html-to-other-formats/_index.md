@@ -139,6 +139,10 @@ Aprenda a converter múltiplos arquivos HTML em PDFs simultaneamente usando proc
 Aprenda a converter múltiplos arquivos HTML para PDF simultaneamente usando Aspose.HTML for Java, otimizando desempenho em lote.
 ### [Converter HTML para PDF em Java – Guia Completo de Alta Qualidade](./convert-html-to-pdf-in-java-complete-high-quality-guide/)
 Aprenda a converter HTML para PDF em Java com um guia completo, cobrindo configurações avançadas e geração de PDFs de alta qualidade.
+### [Converter HTML para PDF com o Conversor Aspose HTML em Java – Guia Completo](./convert-html-to-pdf-with-aspose-html-converter-in-java-compl/)
+Aprenda a converter HTML para PDF usando o Aspose HTML Converter em Java com este guia completo.
+### [Tutorial HTML para PDF: Converta HTML para PDF com Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-java/)
+Aprenda a converter HTML para PDF em Java de forma simples e eficaz usando Aspose.HTML.
 ### [Convertendo HTML para MHTML](./convert-html-to-mhtml/)
 ### [Aspose HTML para PDF em Java – Guia rápido passo a passo](./aspose-html-to-pdf-in-java-quick-step-by-step-guide/)
 Aprenda rapidamente a converter HTML para PDF em Java usando Aspose.HTML com um guia passo a passo conciso.
