@@ -168,7 +168,6 @@ Met Aspose.HTML voor Java wordt het converteren van **epub to xps** een eenvoudi
 **Tested With:** Aspose.HTML for Java 24.12  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
 
 ## Gerelateerde tutorials
 
@@ -180,3 +179,4 @@ Met Aspose.HTML voor Java wordt het converteren van **epub to xps** een eenvoudi
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

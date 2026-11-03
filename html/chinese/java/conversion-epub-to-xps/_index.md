@@ -168,7 +168,6 @@ A: 生产部署需要商业 Aspose.HTML 许可证；免费试用足以用于开�
 **测试环境：** Aspose.HTML for Java 24.12  
 **作者：** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
 
 ## 相关教程
 
@@ -179,3 +178,4 @@ A: 生产部署需要商业 Aspose.HTML 许可证；免费试用足以用于开�
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

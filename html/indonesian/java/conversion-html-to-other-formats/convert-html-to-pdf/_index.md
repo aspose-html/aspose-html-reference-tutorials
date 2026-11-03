@@ -213,7 +213,6 @@ A: Ya, Aspose.HTML untuk Java dapat diintegrasikan ke dalam aplikasi web untuk m
 **Diuji Dengan:** Aspose.HTML for Java 24.12  
 **Penulis:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
 
 ## Tutorial Terkait
 
@@ -225,3 +224,4 @@ A: Ya, Aspose.HTML untuk Java dapat diintegrasikan ke dalam aplikasi web untuk m
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

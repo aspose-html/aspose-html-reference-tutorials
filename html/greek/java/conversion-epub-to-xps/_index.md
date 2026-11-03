@@ -170,7 +170,6 @@ A: Απαιτείται εμπορική άδεια Aspose.HTML για παρα�
 **Δοκιμάστηκε Με:** Aspose.HTML for Java 24.12  
 **Συγγραφέας:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
 
 ## Σχετικά Μαθήματα
 
@@ -181,3 +180,4 @@ A: Απαιτείται εμπορική άδεια Aspose.HTML για παρα�
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

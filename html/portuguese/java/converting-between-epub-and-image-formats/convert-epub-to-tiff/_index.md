@@ -9,7 +9,6 @@ url: /pt/java/converting-between-epub-and-image-formats/convert-epub-to-tiff/
 weight: 14
 ---
 
-.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

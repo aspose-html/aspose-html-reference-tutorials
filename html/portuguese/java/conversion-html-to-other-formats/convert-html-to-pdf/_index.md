@@ -208,7 +208,6 @@ A: Yes, Aspose.HTML for Java can be integrated into web applications to perform 
 **Testado com:** Aspose.HTML for Java 24.12  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
 
 ## Tutoriais Relacionados
 
@@ -220,3 +219,4 @@ A: Yes, Aspose.HTML for Java can be integrated into web applications to perform 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

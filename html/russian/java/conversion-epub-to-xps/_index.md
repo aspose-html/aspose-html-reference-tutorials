@@ -170,7 +170,6 @@ A: A commercial Aspose.HTML license is required for production deployments; a fr
 **Тестировано с:** Aspose.HTML for Java 24.12  
 **Автор:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
 
 ## Связанные учебники
 
@@ -182,3 +181,4 @@ A: A commercial Aspose.HTML license is required for production deployments; a fr
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}
