@@ -9,9 +9,8 @@ url: /nl/java/conversion-html-to-other-formats/convert-markdown-to-html/
 weight: 13
 ---
 
-.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

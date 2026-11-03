@@ -9,11 +9,9 @@ url: /pt/java/conversion-epub-to-xps/
 weight: 23
 ---
 
-. Keep same.
 
-Make sure we didn't translate code snippets like `HtmlDocument.load()`, `HtmlLoadOptions`. Good.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

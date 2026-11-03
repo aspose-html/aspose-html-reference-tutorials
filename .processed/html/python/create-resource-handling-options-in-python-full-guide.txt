@@ -1,0 +1,7 @@
+Title: Create Resource handling options in Python – Full Guide
+Slug: create-resource-handling-options-in-python-full-guide
+Category: general
+ProcessedDate: 2026-07-22T02:42:35.338218
+SourceRepo: AI Search API
+Keywords: create resource handling options, how to set max handling depth
+PRNumber: 218
