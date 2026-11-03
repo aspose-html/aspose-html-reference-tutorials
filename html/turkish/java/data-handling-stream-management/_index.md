@@ -26,6 +26,8 @@ Java için Aspose.HTML ile HTML veri işleme sırlarını açığa çıkarmaya h
 ## Java için Aspose.HTML'de Veri İşleme ve Akış Yönetimi Eğitimleri
 ### [Java için Aspose.HTML kullanarak Bellek Akışını Dosyaya Dönüştürme](./memory-stream-to-file/)
 Bellek akışlarını kullanarak Aspose.HTML for Java ile HTML'yi JPEG'e dönüştürün. Sorunsuz HTML'den görüntüye dönüştürme için bu adım adım kılavuzu izleyin.
+### [Java sabit iş parçacığı havuzu: Paralel Dosyalarda Görüntüleri Sayma](./java-fixed-thread-pool-count-images-in-parallel-files/)
+Java sabit iş parçacığı havuzunu kullanarak birden çok dosyada aynı anda görüntüleri sayın.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

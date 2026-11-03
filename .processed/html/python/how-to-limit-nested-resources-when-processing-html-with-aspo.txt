@@ -1,0 +1,7 @@
+Title: How to limit nested resources when processing HTML with Aspose.HTML for Python
+Slug: how-to-limit-nested-resources-when-processing-html-with-aspo
+Category: general
+ProcessedDate: 2026-09-20T06:30:49.066437
+SourceRepo: AI Search API
+Keywords: limit nested resources
+PRNumber: 271
