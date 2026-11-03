@@ -44,6 +44,9 @@ Hướng dẫn chi tiết cách tạo tài liệu HTML trong C# sử dụng Trì
 Hướng dẫn chi tiết cách lưu tài liệu HTML bằng C#, bao gồm các bước thực hiện và ví dụ mã.
 ### [Cách lưu HTML trong C# – Hướng dẫn đầy đủ với lưu trữ đầu ra tùy chỉnh](./how-to-save-html-in-c-complete-guide-with-custom-output-stor/)
 Hướng dẫn chi tiết cách lưu tài liệu HTML bằng C# sử dụng bộ lưu trữ đầu ra tùy chỉnh.
+### [Tải chuỗi HTML trong C# – hướng dẫn đầy đủ với trình xử lý tùy chỉnh](./load-html-string-in-c-complete-guide-with-custom-handler/)
+
+Hướng dẫn chi tiết cách tải một chuỗi HTML trong C# bằng Aspose.HTML sử dụng trình xử lý tùy chỉnh.
 
 ### [Cách làm tiêu đề đậm bằng CSS & C# – Hướng dẫn chi tiết từng bước](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 

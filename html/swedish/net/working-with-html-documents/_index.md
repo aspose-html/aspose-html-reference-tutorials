@@ -89,6 +89,10 @@ Lär dig hur du skapar ett zip‑arkiv för HTML‑filer med C# i en komplett st
 
 Lär dig hur du skapar HTML-dokument helt i minnet med Aspose.HTML utan att skriva till disk.
 
+### [Ladda HTML‑sträng i C# – komplett guide med anpassad hanterare](./load-html-string-in-c-complete-guide-with-custom-handler/)
+
+Lär dig hur du laddar HTML‑strängar i C# med en anpassad hanterare för smidig bearbetning.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

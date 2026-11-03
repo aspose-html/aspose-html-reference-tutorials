@@ -71,6 +71,8 @@ HTML 文件是網路的支柱，能夠有效地創建和操作它們對於任何
 
 ### [如何在 C# 中保存 HTML – 使用自訂輸出儲存的完整指南](./how-to-save-html-in-c-complete-guide-with-custom-output-stor/)
 
+### [在 C# 中載入 HTML 字串 – 使用自訂處理程式的完整指南](./load-html-string-in-c-complete-guide-with-custom-handler/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

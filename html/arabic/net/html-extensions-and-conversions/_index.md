@@ -40,7 +40,6 @@ url: /ar/net/html-extensions-and-conversions/
 
 
 ### [تحويل HTML إلى PDF في .NET باستخدام Aspose.HTML](./convert-html-to-pdf/)
-قم بتحويل HTML إلى PDF بسهولة باستخدام Aspose.HTML for .NET. اتبع دليلنا خطوة بخطوة واكتشف قوة تحويل HTML إلى PDF.
 ### [إنشاء PDF من URL – دليل C# كامل](./create-pdf-from-url-complete-c-guide/)
 دليل شامل لإنشاء PDF من عنوان URL باستخدام C# و Aspose.HTML
 ### [دليل تحويل HTML إلى PDF – تحويل HTML إلى PDF في C#](./html-to-pdf-tutorial-convert-html-to-pdf-in-c/)
@@ -263,6 +262,7 @@ url: /ar/net/html-extensions-and-conversions/
 ### [معالج موارد مخصص في C# – كيفية إنشاء ملف ZIP من HTML](./custom-resource-handler-in-c-how-to-create-zip-of-html/)
 تعلم كيفية إنشاء معالج موارد مخصص في C# لضغط ملفات HTML وحفظها كملف ZIP بسهولة.
 ### [تحويل HTML إلى ZIP باستخدام Aspose.HTML – دليل C# كامل](./convert-html-to-zip-with-aspose-html-complete-c-guide/)
+### [تحويل HTML إلى PDF في C# – تعيين نمط الخط برمجيًا](./convert-html-to-pdf-in-c-set-font-style-programmatically/)
 
 ## خاتمة
 

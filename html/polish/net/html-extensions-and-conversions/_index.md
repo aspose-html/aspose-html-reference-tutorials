@@ -265,6 +265,8 @@ Dowiedz się, jak utworzyć dokument HTML, wyeksportować go z obrazami i zapisa
 
 ### [Niestandardowy obsługiwacz zasobów w C# – Jak utworzyć ZIP z HTML](./custom-resource-handler-in-c-how-to-create-zip-of-html/)
 Dowiedz się, jak w C# stworzyć własny handler zasobów, aby spakować plik HTML do archiwum ZIP przy użyciu Aspose.HTML.
+### [Konwertuj HTML do PDF w C# – ustaw styl czcionki programowo](./convert-html-to-pdf-in-c-set-font-style-programmatically/)
+Dowiedz się, jak programowo ustawić styl czcionki przy konwersji HTML do PDF w C# przy użyciu Aspose.HTML.
 
 ## Wniosek
 

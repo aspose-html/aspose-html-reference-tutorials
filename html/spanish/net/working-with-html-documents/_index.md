@@ -82,6 +82,8 @@ Aprenda a comprimir archivos HTML en C# usando Aspose.HTML con esta guía paso a
 ### [Crear documento HTML en memoria con Aspose.HTML – Guía completa](./create-in-memory-html-document-with-aspose-html-complete-gui/)
 Aprenda a generar documentos HTML completamente en memoria usando Aspose.HTML sin necesidad de archivos físicos.
 
+### [Cargar cadena HTML en C# – Guía completa con controlador personalizado](./load-html-string-in-c-complete-guide-with-custom-handler/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

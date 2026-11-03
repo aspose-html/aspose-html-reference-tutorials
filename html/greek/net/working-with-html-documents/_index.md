@@ -90,6 +90,8 @@ url: /el/net/working-with-html-documents/
 
 Μάθετε πώς να δημιουργήσετε έγγραφο HTML εν εντός μνήμης χρησιμοποιώντας το Aspose.HTML, βήμα‑βήμα οδηγός.
 
+### [Φόρτωση συμβολοσειράς HTML σε C# – πλήρης οδηγός με προσαρμοσμένο διαχειριστή](./load-html-string-in-c-complete-guide-with-custom-handler/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -66,6 +66,7 @@ Aspose.HTML を使ってメモリ上に HTML ドキュメントを作成し、�
 
 C# を使用して HTML コンテンツを Zip アーカイブに圧縮する方法をステップバイステップで解説します。
 ### [HTML を Zip に保存 – インメモリ アーカイブの完全 C# ガイド](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
+### [カスタムハンドラを使用した C# で HTML 文字列をロードする完全ガイド](./load-html-string-in-c-complete-guide-with-custom-handler/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

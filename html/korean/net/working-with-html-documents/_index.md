@@ -81,6 +81,8 @@ C#에서 메모리 스트림을 사용해 HTML을 ZIP 파일로 저장하는 방
 
 ### [Aspose.HTML을 사용하여 .NET에서 메모리 내 HTML 문서 만들기 – 완전 가이드](./create-in-memory-html-document-with-aspose-html-complete-gui/)
 
+### [C#에서 HTML 문자열 로드 – 사용자 정의 핸들러를 활용한 완전 가이드](./load-html-string-in-c-complete-guide-with-custom-handler/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

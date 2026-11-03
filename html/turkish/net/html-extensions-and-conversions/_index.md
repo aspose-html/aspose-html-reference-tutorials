@@ -79,6 +79,8 @@ C# kullanarak HTML dizesini PDF'ye dönüştürmeyi adım adım öğrenin.
 Aspose.HTML kullanarak HTML'yi PDF'ye dönüştürmenin tam adım adım rehberi. Kolay örnekler ve özelleştirme seçenekleri.
 ### [HTML'yi PDF'ye Dönüştür – Özel Renderlama ile Tam C# Rehberi](./convert-html-to-pdf-complete-c-guide-with-custom-rendering/)
 Aspose.HTML for .NET ile özel render ayarlarıyla C# kullanarak HTML'yi PDF'ye tamamen dönüştürün.
+### [Aspose.HTML ile .NET'te C#'ta HTML'yi PDF'ye Dönüştür – Yazı Tipi Stilini Programlı Olarak Ayarlama](./convert-html-to-pdf-in-c-set-font-style-programmatically/)
+Aspose.HTML for .NET kullanarak C# kodunda HTML'yi PDF'ye dönüştürürken yazı tipi stilini programlı olarak ayarlamayı öğrenin.
 ### [Aspose.HTML ile .NET'te EPUB'ı Görüntüye Dönüştürme](./convert-epub-to-image/)
 ### [Aspose.HTML ile .NET'te EPUB'ı PDF'ye dönüştürün](./convert-epub-to-pdf/)
 ### [Aspose.HTML ile .NET'te EPUB'ı XPS'e dönüştürün](./convert-epub-to-xps/)

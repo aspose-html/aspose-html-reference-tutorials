@@ -258,6 +258,8 @@ url: /el/net/html-extensions-and-conversions/
 Μάθετε πώς να δημιουργήσετε προσαρμοσμένο διαχειριστή πόρων σε C# για τη συμπίεση HTML σε αρχείο ZIP με Aspose.HTML.
 ### [Μετατροπή HTML σε ZIP με Aspose.HTML – Πλήρης Οδηγός C#](./convert-html-to-zip-with-aspose-html-complete-c-guide/)
 Μάθετε πώς να συμπιέζετε αρχεία HTML σε ZIP χρησιμοποιώντας Aspose.HTML σε C# με πλήρη παράδειγμα.
+### [Μετατροπή HTML σε PDF σε C# – ορισμός στυλ γραμματοσειράς προγραμματιστικά](./convert-html-to-pdf-in-c-set-font-style-programmatically/)
+Μάθετε πώς να ορίσετε το στυλ γραμματοσειράς κατά τη μετατροπή HTML σε PDF με C# χρησιμοποιώντας το Aspose.HTML.
 
 ## Σύναψη
 

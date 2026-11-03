@@ -73,6 +73,8 @@ Hướng dẫn chi tiết cách chuyển đổi HTML sang PDF trong C# cùng cá
 Hướng dẫn chi tiết cách kết xuất HTML sang PDF bằng C# và Aspose.HTML, bao gồm các bước, ví dụ mã và tùy chọn cấu hình.
 ### [Chuyển đổi HTML sang PDF – Hướng dẫn C# đầy đủ với tùy chỉnh Rendering](./convert-html-to-pdf-complete-c-guide-with-custom-rendering/)
 Hướng dẫn chi tiết cách chuyển đổi HTML sang PDF trong .NET bằng C#, bao gồm tùy chỉnh quá trình render để đạt kết quả tối ưu.
+### [Chuyển đổi HTML sang PDF trong C# – thiết lập kiểu phông chữ bằng mã](./convert-html-to-pdf-in-c-set-font-style-programmatically/)
+Thiết lập kiểu phông chữ khi chuyển đổi HTML sang PDF bằng C# và Aspose.HTML.
 ### [Chuyển đổi EPUB sang hình ảnh trong .NET với Aspose.HTML](./convert-epub-to-image/)
 Tìm hiểu cách chuyển đổi EPUB sang hình ảnh bằng Aspose.HTML cho .NET. Hướng dẫn từng bước với các ví dụ về mã và tùy chọn có thể tùy chỉnh.
 ### [Chuyển đổi EPUB sang PDF trong .NET với Aspose.HTML](./convert-epub-to-pdf/)

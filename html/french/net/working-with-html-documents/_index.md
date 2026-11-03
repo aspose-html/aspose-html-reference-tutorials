@@ -81,6 +81,8 @@ Apprenez à enregistrer du HTML en utilisant Aspose.HTMLDocument, avec des optio
 
 ### [Créer un document HTML en mémoire avec Aspose.HTML – Guide complet](./create-in-memory-html-document-with-aspose-html-complete-gui/)
 
+### [Charger une chaîne HTML en C# – guide complet avec gestionnaire personnalisé](./load-html-string-in-c-complete-guide-with-custom-handler/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

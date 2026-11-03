@@ -77,6 +77,8 @@ Aspose.HTML for .NET을 사용해 C#에서 HTML 문자열을 PDF로 변환하는
 Aspose.HTML을 활용해 HTML을 PDF로 변환하는 완전한 단계별 가이드를 제공합니다.
 ### [HTML을 PDF로 변환 – 사용자 지정 렌더링이 포함된 완전 C# 가이드](./convert-html-to-pdf-complete-c-guide-with-custom-rendering/)
 Aspose.HTML for .NET을 사용해 C#에서 사용자 지정 렌더링 옵션으로 HTML을 PDF로 변환하는 전체 가이드.
+### [C#에서 HTML을 PDF로 변환 – 프로그래밍으로 글꼴 스타일 설정](./convert-html-to-pdf-in-c-set-font-style-programmatically/)
+C# 코드에서 글꼴 스타일을 프로그래밍 방식으로 지정하여 HTML을 PDF로 변환하는 방법을 안내합니다.
 ### [HTML에서 PDF 만들기 – C# 단계별 가이드](./create-pdf-from-html-c-step-by-step-guide/)
 Aspose.HTML for .NET을 사용하여 C#에서 HTML을 PDF로 변환하는 단계별 가이드입니다.
 ### [C#에서 Aspose HTML을 사용해 PDF로 변환 – ZIP 아카이브 포함 전체 가이드](./aspose-html-to-pdf-in-c-complete-guide-with-zip-archive/)

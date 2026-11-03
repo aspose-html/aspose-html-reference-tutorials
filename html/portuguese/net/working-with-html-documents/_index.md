@@ -55,6 +55,8 @@ Antes de mergulharmos nas especificidades da criação e edição de documentos 
 ### [Criar Documento HTML em Memória com Aspose.HTML – Guia Completo](./create-in-memory-html-document-with-aspose-html-complete-gui/)
 ### [Como salvar HTML em C# – Guia completo com armazenamento de saída personalizado](./how-to-save-html-in-c-complete-guide-with-custom-output-stor/)
 
+### [Como carregar string HTML em C# – Guia completo com manipulador personalizado](./load-html-string-in-c-complete-guide-with-custom-handler/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

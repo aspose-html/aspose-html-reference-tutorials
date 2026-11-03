@@ -86,6 +86,8 @@ Dowiedz się, jak zapisać dokument HTML bezpośrednio do archiwum ZIP w pamięc
 
 Poznaj metodę zapisu HTML w C# z własnym magazynem wyjściowym, dającą pełną kontrolę nad przechowywaniem wyników.
 
+### [Ładowanie ciągu HTML w C# – kompletny przewodnik z własnym obsługiwaczem](./load-html-string-in-c-complete-guide-with-custom-handler/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

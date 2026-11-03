@@ -118,6 +118,9 @@ C# में Aspose.HTML का उपयोग करके HTML को PDF म
 ### [C# में HTML को PDF में रेंडर करें – HTML स्ट्रिंग से PDF गाइड](./render-html-to-pdf-in-c-html-string-to-pdf-guide/)
 C# में HTML स्ट्रिंग को PDF में बदलने के चरण‑दर‑चरण मार्गदर्शन। Aspose.HTML के साथ तेज़ रूपांतरण।
 
+### [C# में HTML को PDF में बदलें – प्रोग्रामेटिक रूप से फ़ॉन्ट शैली सेट करें](./convert-html-to-pdf-in-c-set-font-style-programmatically/)
+.NET के लिए Aspose.HTML का उपयोग करके C# में HTML को PDF में बदलते समय फ़ॉन्ट शैली को प्रोग्रामेटिकली सेट करने का तरीका सीखें।
+
 ### [Aspose.HTML के साथ .NET में EPUB को छवि में बदलें](./convert-epub-to-image/)
 ### [Aspose.HTML के साथ .NET में EPUB को PDF में बदलें](./convert-epub-to-pdf/)
 जानें कि .NET के लिए Aspose.HTML का उपयोग करके EPUB को PDF में कैसे बदलें। यह चरण‑दर‑स्टेप मार्गदर्शिका सहज दस्तावेज़ रूपांतरण के लिए अनुकूलन विकल्प, FAQ और बहुत कुछ शामिल करती है।

@@ -68,6 +68,8 @@ Learn how to convert an HTML string to PDF in C# using Aspose.HTML for .NET with
 Learn how to convert HTML to PDF using Aspose.HTML in a comprehensive step‑by‑step guide for .NET developers.
 ### [Convert HTML to PDF – Complete C# Guide with Custom Rendering](./convert-html-to-pdf-complete-c-guide-with-custom-rendering/)
 Learn how to convert HTML to PDF in C# using Aspose.HTML with custom rendering options in this comprehensive guide.
+### [Convert HTML to PDF in C# – set font style programmatically](./convert-html-to-pdf-in-c-set-font-style-programmatically/)
+Learn how to set font styles programmatically when converting HTML to PDF using Aspose.HTML in C#.
 ### [Create PDF from HTML – C# Step‑by‑Step Guide](./create-pdf-from-html-c-step-by-step-guide/)
 Learn how to generate PDF files from HTML using Aspose.HTML for .NET with a detailed C# step‑by‑step guide.
 ### [Create PDF from HTML in C# – Complete Step‑by‑Step Guide](./create-pdf-from-html-in-c-complete-step-by-step-guide/)

@@ -57,6 +57,7 @@ Ora, portiamo le tue competenze al livello successivo. La modifica di documenti 
 ### [Salva HTML in Zip – Guida completa C# per archivi in memoria](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
 ### [Creare un documento HTML in memoria con Aspose.HTML – Guida completa](./create-in-memory-html-document-with-aspose-html-complete-gui/)
 ### [Come salvare HTML in C# – Guida completa con archiviazione di output personalizzata](./how-to-save-html-in-c-complete-guide-with-custom-output-stor/)
+### [Carica stringa HTML in C# – guida completa con gestore personalizzato](./load-html-string-in-c-complete-guide-with-custom-handler/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

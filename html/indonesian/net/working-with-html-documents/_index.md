@@ -59,6 +59,10 @@ Sebelum kita menyelami secara spesifik pembuatan dan penyuntingan dokumen HTML d
 
 ### [Buat Dokumen HTML In-Memory dengan Aspose.HTML – Panduan Lengkap](./create-in-memory-html-document-with-aspose-html-complete-gui/)
 
+### [Muat string HTML di C# – Panduan Lengkap dengan Penangan Kustom](./load-html-string-in-c-complete-guide-with-custom-handler/)
+
+Pelajari cara memuat string HTML secara langsung di C# menggunakan Aspose.HTML dengan penangan sumber daya khusus untuk kontrol penuh.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

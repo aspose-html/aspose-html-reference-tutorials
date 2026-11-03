@@ -95,6 +95,8 @@ Erfahren Sie, wie Sie HTML mit Aspose.HTML für .NET vollständig in PDF umwande
 
 ### [HTML in PDF konvertieren – Vollständige C#‑Anleitung mit benutzerdefiniertem Rendering](./convert-html-to-pdf-complete-c-guide-with-custom-rendering/)
 Erfahren Sie, wie Sie HTML mit Aspose.HTML für .NET in PDF konvertieren und dabei benutzerdefinierte Rendering‑Optionen nutzen.
+### [HTML in PDF konvertieren in C# – Schriftstil programmgesteuert festlegen](./convert-html-to-pdf-in-c-set-font-style-programmatically/)
+Erfahren Sie, wie Sie mit Aspose.HTML für .NET den Schriftstil beim HTML‑zu‑PDF‑Export in C# programmgesteuert festlegen.
 ### [Konvertieren Sie EPUB in .NET mit Aspose.HTML in ein Bild](./convert-epub-to-image/)
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET EPUB in Bilder konvertieren. Schritt‑für‑Schritt‑Anleitung mit Codebeispielen und anpassbaren Optionen.
 ### [Konvertieren Sie EPUB in .NET mit Aspose.HTML in PDF](./convert-epub-to-pdf/)

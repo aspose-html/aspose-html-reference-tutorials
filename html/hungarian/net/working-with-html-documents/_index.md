@@ -39,6 +39,7 @@ Most emeljük tudását a következő szintre. A HTML-dokumentumok szerkesztése
 ### [HTML dokumentum betöltése Aspose.HTML‑vel – Teljes C# útmutató](./load-html-document-with-aspose-html-complete-c-guide/)
 
 Ismerje meg, hogyan tölthet be HTML‑dokumentumokat az Aspose.HTML könyvtárral C#‑ban, lépésről‑lépésre útmutatóval.
+### [HTML string betöltése C#-ban – Teljes útmutató egyéni kezelővel](./load-html-string-in-c-complete-guide-with-custom-handler/)
 
 ### [HTML mentése C#-ban – Teljes útmutató egy egyéni erőforráskezelő használatával](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 ### [HTML mentése Aspose.Html segítségével – Teljes C# útmutató](./how-to-save-html-with-aspose-html-complete-c-guide/)

@@ -269,6 +269,8 @@ Aspose.HTML для .NET — это не просто библиотека; эт�
 Узнайте, как реализовать пользовательский обработчик ресурсов в C# для упаковки HTML‑страниц в ZIP‑архив с помощью Aspose.HTML.
 ### [Конвертируйте HTML в ZIP с Aspose.HTML – Полный учебник C#](./convert-html-to-zip-with-aspose-html-complete-c-guide/)
 Подробное руководство по упаковке HTML‑страниц в архив ZIP с помощью Aspose.HTML и C#.
+### [Конвертировать HTML в PDF в C# – установить стиль шрифта программно](./convert-html-to-pdf-in-c-set-font-style-programmatically/)
+Узнайте, как задать стиль шрифта при конвертации HTML в PDF в C# с помощью Aspose.HTML.
 
 ## Заключение
 

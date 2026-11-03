@@ -75,6 +75,8 @@ Lär dig hur du konverterar en HTML‑sträng till PDF i C# med Aspose.HTML för
 Lär dig konvertera HTML till PDF med Aspose.HTML i en komplett steg‑för‑steg‑guide för .NET-utvecklare.
 ### [Konvertera HTML till PDF – Komplett C#-guide med anpassad rendering](./convert-html-to-pdf-complete-c-guide-with-custom-rendering/)
 Lär dig att konvertera HTML till PDF i C# med fullständig guide och anpassad rendering för bästa resultat.
+### [Konvertera HTML till PDF i C# – ange teckensnittsstil programatiskt](./convert-html-to-pdf-in-c-set-font-style-programmatically/)
+Lär dig hur du programatiskt ställer in teckensnittsstil när du konverterar HTML till PDF i C# med Aspose.HTML.
 ### [Konvertera EPUB till bild i .NET med Aspose.HTML](./convert-epub-to-image/)
 Lär dig hur du konverterar EPUB till bilder med Aspose.HTML för .NET. Steg-för-steg handledning med kodexempel och anpassningsbara alternativ.
 ### [Konvertera EPUB till PDF i .NET med Aspose.HTML](./convert-epub-to-pdf/)

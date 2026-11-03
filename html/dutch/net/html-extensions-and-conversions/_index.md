@@ -42,7 +42,6 @@ Aspose.HTML voor .NET is niet zomaar een bibliotheek; het is een game-changer in
 ### [PDF maken van URL – Complete C#-gids](./create-pdf-from-url-complete-c-guide/)
 Leer hoe u met Aspose.HTML voor .NET een PDF genereert vanuit een URL met een volledige C#-stapsgewijze handleiding.
 ### [Converteer HTML naar PDF in .NET met Aspose.HTML](./convert-html-to-pdf/)
-Converteer moeiteloos HTML naar PDF met Aspose.HTML voor .NET. Volg onze stapsgewijze handleiding en ontketen de kracht van HTML-naar-PDF-conversie.
 ### [HTML opslaan als PDF in C# – Complete gids met lettertypen](./save-html-as-pdf-in-c-complete-guide-with-fonts/)
 Leer hoe u HTML naar PDF converteert in C# met volledige ondersteuning voor lettertypen. Volg de stapsgewijze handleiding.
 
@@ -86,24 +85,18 @@ Leer hoe u HTML naar PDF converteert met Aspose.HTML voor .NET via een volledige
 
 ### [HTML naar PDF converteren – Complete C#-gids met aangepaste rendering](./convert-html-to-pdf-complete-c-guide-with-custom-rendering/)
 Leer hoe u HTML naar PDF converteert met Aspose.HTML in C#, inclusief aangepaste renderopties en volledige codevoorbeelden.
+### [Converteer HTML naar PDF in C# – stel lettertype stijl in via code](./convert-html-to-pdf-in-c-set-font-style-programmatically/)
 ### [Converteer EPUB naar afbeelding in .NET met Aspose.HTML](./convert-epub-to-image/)
-Leer hoe u EPUB naar afbeeldingen converteert met Aspose.HTML voor .NET. Stapsgewijze tutorial met codevoorbeelden en aanpasbare opties.
 ### [Converteer EPUB naar PDF in .NET met Aspose.HTML](./convert-epub-to-pdf/)
-Leer hoe u EPUB naar PDF converteert met Aspose.HTML voor .NET. Deze stapsgewijze handleiding behandelt aanpassingsopties, veelgestelde vragen en meer voor naadloze documentconversie.
 ### [Converteer EPUB naar XPS in .NET met Aspose.HTML](./convert-epub-to-xps/)
-Leer hoe EPUB naar XPS converteert in .NET met Aspose.HTML voor .NET. Volg onze stapsgewijze handleiding voor moeiteloze conversies.
 ### [Converteer HTML naar BMP in .NET met Aspose.HTML](./convert-html-to-bmp/)
 Leer hoe HTML naar BMP converteert in .NET met Aspose.HTML voor .NET. Uitgebreide handleiding voor webontwikkelaars voor het benutten van Aspose.HTML voor .NET.
 ### [Converteer HTML naar DOC en DOCX in .NET met Aspose.HTML](./convert-html-to-doc-docx/)
 Leer de kracht van Aspose.HTML voor .NET kunt benutten in deze stapsgewijze handleiding. Converteer moeiteloos HTML naar DOCX en breng uw .NET-projecten naar een hoger niveau. Ga vandaag nog aan de slag!
 ### [Converteer HTML naar GIF in .NET met Aspose.HTML](./convert-html-to-gif/)
-Ontdek de kracht van Aspose.HTML voor .NET: een stapsgewijze handleiding voor het converteren van HTML naar GIF. Vereisten, codevoorbeelden, FAQ's en meer! Optimaliseer uw HTML-manipulatie met Aspose.HTML.
 ### [Converteer HTML naar JPEG in .NET met Aspose.HTML](./convert-html-to-jpeg/)
-Leer hoe u HTML naar JPEG converteert in .NET met Aspose.HTML voor .NET. Een stapsgewijze handleiding om de kracht van Aspose.HTML voor .NET te benutten. Optimaliseer uw webontwikkelingstaken moeiteloos.
 ### [Converteer HTML naar Markdown in .NET met Aspose.HTML](./convert-html-to-markdown/)
-Leer hoe u HTML naar Markdown converteert in .NET met Aspose.HTML voor efficiënte contentmanipulatie. Krijg stapsgewijze begeleiding voor een naadloos conversieproces.
 ### [Converteer HTML naar MHTML in .NET met Aspose.HTML](./convert-html-to-mhtml/)
-Converteer HTML naar MHTML in .NET met Aspose.HTML - Een stapsgewijze handleiding voor efficiënte archivering van webinhoud. Leer hoe u Aspose.HTML voor .NET gebruikt om MHTML-archieven te maken.
 ### [Converteer HTML naar PNG in .NET met Aspose.HTML](./convert-html-to-png/)
 Ontdek hoe u Aspose.HTML voor .NET kunt gebruiken om HTML-documenten te manipuleren en converteren. Stapsgewijze handleiding voor effectieve .NET-ontwikkeling.
 ### [HTML naar PNG converteren in C# – HTML renderen als afbeelding](./convert-html-to-png-in-c-render-html-as-image/)
@@ -111,9 +104,7 @@ Leer hoe u HTML naar PNG rendert in C# met Aspose.HTML. Stapsgewijze handleiding
 ### [Converteer HTML naar afbeelding in C# – Stapsgewijze handleiding](./convert-html-to-image-in-c-step-by-step-guide/)
 Leer hoe u HTML naar afbeeldingen converteert in C# met Aspose.HTML via een duidelijke stap‑voor‑stap handleiding.
 ### [Converteer HTML naar TIFF in .NET met Aspose.HTML](./convert-html-to-tiff/)
-Leer hoe u HTML naar TIFF converteert met Aspose.HTML voor .NET. Volg onze stapsgewijze handleiding voor efficiënte optimalisatie van webinhoud.
 ### [Converteer HTML naar XPS in .NET met Aspose.HTML](./convert-html-to-xps/)
-Ontdek de kracht van Aspose.HTML voor .NET: Converteer HTML moeiteloos naar XPS. Vereisten, stapsgewijze handleiding en veelgestelde vragen inbegrepen.
 ### [PDF-paginagrootte instellen in C# – HTML naar PDF converteren](./set-pdf-page-size-in-c-convert-html-to-pdf/)
 Stel de paginagrootte van PDF in C# in bij het converteren van HTML naar PDF met Aspose.HTML.
 ### [HTML naar PDF-tutorial – Converteer HTML naar PDF in C#](./html-to-pdf-tutorial-convert-html-to-pdf-in-c/)
@@ -162,7 +153,6 @@ Leer hoe u met een aangepaste resourcehandler HTML-bestanden comprimeert en opsl
 ### [Converteer HTML naar ZIP met Aspose.HTML – Complete C#‑gids](./convert-html-to-zip-with-aspose-html-complete-c-guide/)
 Leer hoe u HTML-bestanden comprimeert naar een ZIP‑archief met Aspose.HTML voor .NET in een volledige C#‑handleiding.
 ### [Maak HTML-document met opgemaakte tekst en exporteer naar PDF – Volledige gids](./create-html-document-with-styled-text-and-export-to-pdf-full/)
-Leer hoe u een HTML-document met opgemaakte tekst maakt en deze volledig naar PDF exporteert met Aspose.HTML voor .NET.
 ### [Maak PDF van HTML – C# Stapsgewijze handleiding](./create-pdf-from-html-c-step-by-step-guide/)
 Leer hoe u met Aspose.HTML voor .NET PDF's genereert vanuit HTML met een duidelijke C# stap‑voor‑stap handleiding.
 ### [PDF maken van HTML – Stapsgewijze handleiding voor ontwikkelaars](./create-pdf-from-html-step-by-step-guide-for-developers/)

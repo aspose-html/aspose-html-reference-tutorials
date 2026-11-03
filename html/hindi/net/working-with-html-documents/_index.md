@@ -34,6 +34,7 @@ HTML दस्तावेज़ वेब की रीढ़ हैं, और
 ### [Aspose.Html के साथ HTML को सहेजना – पूर्ण C# गाइड](./how-to-save-html-with-aspose-html-complete-c-guide/)
 ### [C# में HTML को सहेजना – कस्टम रिसोर्स हैंडलर के साथ](./how-to-save-html-in-c-with-custom-resource-handler/)
 ### [C# में HTML दस्तावेज़ बनाना – कस्टम रिसोर्स हैंडलर के साथ पूर्ण गाइड](./create-html-document-c-complete-guide-with-custom-resource-h/)
+### [C# में HTML स्ट्रिंग लोड करना – कस्टम हैंडलर के साथ पूर्ण गाइड](./load-html-string-in-c-complete-guide-with-custom-handler/)
 
 ### [CSS और C# के साथ हेडिंग को बोल्ड कैसे बनाएं – पूर्ण चरण-दर-चरण गाइड](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 ### [Aspose के साथ HTML को सहेजना – पूर्ण C# गाइड](./how-to-save-html-with-aspose-complete-c-guide/)

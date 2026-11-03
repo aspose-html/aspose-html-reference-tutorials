@@ -89,6 +89,10 @@ Erfahren Sie, wie Sie HTML-Inhalte direkt im Speicher in ein ZIP‑Archiv speich
 
 ### [Erstellen eines In‑Memory‑HTML‑Dokuments mit Aspose.HTML – Komplett‑Anleitung](./create-in-memory-html-document-with-aspose-html-complete-gui/)
 
+### [HTML-String in C# laden – vollständige Anleitung mit benutzerdefiniertem Handler](./load-html-string-in-c-complete-guide-with-custom-handler/)
+
+Erfahren Sie, wie Sie HTML-Strings in C# mit einem benutzerdefinierten Handler laden können.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
