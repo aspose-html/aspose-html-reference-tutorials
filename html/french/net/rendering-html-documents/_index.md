@@ -187,6 +187,9 @@ Apprenez à compresser du HTML dans une archive ZIP puis à le rendre en image P
 ### [Rendre le HTML en image avec Aspose.HTML – Guide complet C#](./render-html-to-image-with-aspose-html-complete-c-guide/)
 Apprenez à convertir du HTML en images avec Aspose.HTML en C# grâce à ce guide complet.
 
+### [Rendre le HTML en image en C# – Guide complet](./render-html-to-image-in-c-complete-guide/)
+Apprenez à convertir du HTML en images avec C# grâce à ce guide complet et détaillé.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

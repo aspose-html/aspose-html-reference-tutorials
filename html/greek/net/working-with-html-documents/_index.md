@@ -83,6 +83,10 @@ url: /el/net/working-with-html-documents/
 
 ### [Αποθήκευση HTML σε Zip – Πλήρης οδηγός C# για αρχεία εντός μνήμης](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
 
+### [Δημιουργία εγγράφου HTML στη μνήμη με Aspose.HTML – Πλήρης οδηγός](./create-in-memory-html-document-with-aspose-html-complete-gui/)
+
+Μάθετε πώς να δημιουργήσετε έγγραφο HTML εν εντός μνήμης χρησιμοποιώντας το Aspose.HTML, βήμα‑βήμα οδηγός.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -56,6 +56,8 @@ Ismerje meg, hogyan csomagolhatja be HTML-fájljait ZIP-archívumba C#‑ban, r�
 ### [HTML mentése ZIP‑ként C#‑ban – Teljes útmutató egy egyéni erőforráskezelővel](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
 ### [HTML létrehozása karakterláncból C#-ban – Lépésről‑lépésre útmutató](./create-html-from-string-in-c-step-by-step-guide/)
 
+### [In-Memory HTML dokumentum létrehozása az Aspose.HTML segítségével – Teljes útmutató](./create-in-memory-html-document-with-aspose-html-complete-gui/)
+
 Ismerje meg, hogyan formázhatja félkövérre a HTML‑címeket CSS‑sel és C#‑kóddal, részletes példákkal.
 ### [HTML mentése Aspose‑szal – Teljes C# útmutató](./how-to-save-html-with-aspose-complete-c-guide/)
 

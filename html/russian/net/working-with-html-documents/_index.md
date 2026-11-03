@@ -39,6 +39,7 @@ HTML-документы являются основой Интернета, и �
 ### [Как сохранить HTML с Aspose – Полное руководство на C#](./how-to-save-html-with-aspose-complete-c-guide/)
 
 Подробное руководство по сохранению HTML-файлов с помощью Aspose.HTML в C#, включая настройку обработчиков ресурсов.
+### [Создание HTML‑документа в памяти с Aspose.HTML – Полное руководство](./create-in-memory-html-document-with-aspose-html-complete-gui/)
 
 ### [Как сохранить HTML в C# – Полное руководство с использованием пользовательского обработчика ресурсов](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 

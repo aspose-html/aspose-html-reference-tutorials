@@ -76,6 +76,8 @@ Apprenez à enregistrer du HTML en utilisant Aspose.HTMLDocument, avec des optio
 
 ### [Enregistrer du HTML dans un Zip – Guide complet C# pour les archives en mémoire](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
 
+### [Créer un document HTML en mémoire avec Aspose.HTML – Guide complet](./create-in-memory-html-document-with-aspose-html-complete-gui/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

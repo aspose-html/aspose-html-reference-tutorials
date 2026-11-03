@@ -59,6 +59,8 @@ url: /ar/net/working-with-html-documents/
 ### [إنشاء أرشيف Zip للـ HTML – دليل كامل C#](./create-zip-archive-for-html-complete-c-guide/)
 ### [حفظ HTML إلى Zip – دليل كامل C# للأرشيفات في الذاكرة](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
 
+### [إنشاء مستند HTML في الذاكرة باستخدام Aspose.HTML – دليل كامل](./create-in-memory-html-document-with-aspose-html-complete-gui/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -84,6 +84,8 @@ Erfahren Sie, wie Sie HTML mit Aspose HTMLDocument vollständig speichern könne
 ### [HTML in Zip speichern – Vollständige C#‑Anleitung für In‑Memory‑Archive](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
 Erfahren Sie, wie Sie HTML-Inhalte direkt im Speicher in ein ZIP‑Archiv speichern können.
 
+### [Erstellen eines In‑Memory‑HTML‑Dokuments mit Aspose.HTML – Komplett‑Anleitung](./create-in-memory-html-document-with-aspose-html-complete-gui/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

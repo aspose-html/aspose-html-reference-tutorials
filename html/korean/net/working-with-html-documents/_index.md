@@ -76,6 +76,8 @@ C#을 사용해 HTML 파일을 Zip 아카이브로 압축하는 방법을 단계
 
 C#에서 메모리 스트림을 사용해 HTML을 ZIP 파일로 저장하는 방법을 단계별로 안내합니다.
 
+### [Aspose.HTML을 사용하여 .NET에서 메모리 내 HTML 문서 만들기 – 완전 가이드](./create-in-memory-html-document-with-aspose-html-complete-gui/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

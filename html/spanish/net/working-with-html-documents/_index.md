@@ -81,6 +81,9 @@ Aprenda a comprimir archivos HTML en C# usando Aspose.HTML con esta guía paso a
 
 ### [Guardar HTML en Zip – Guía completa de C# para archivos en memoria](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
 
+### [Crear documento HTML en memoria con Aspose.HTML – Guía completa](./create-in-memory-html-document-with-aspose-html-complete-gui/)
+Aprenda a generar documentos HTML completamente en memoria usando Aspose.HTML sin necesidad de archivos físicos.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

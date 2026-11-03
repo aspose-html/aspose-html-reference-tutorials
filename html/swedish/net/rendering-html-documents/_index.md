@@ -151,6 +151,8 @@ Lär dig hur du med Aspose.HTML för .NET konverterar HTML till bild i en komple
 Lär dig steg för steg hur du aktiverar kantutjämning för skarpa PNG‑bilder när du renderar HTML med Aspose.HTML för .NET.
 ### [Hur man aktiverar kantutjämning vid rendering av HTML till PNG](./how-to-enable-antialiasing-rendering-html-to-png/)
 Lär dig hur du aktiverar kantutjämning när du renderar HTML till PNG med Aspose.HTML för .NET.
+### [Rendera HTML till bild i C# – Komplett guide](./render-html-to-image-in-c-complete-guide/)
+Lär dig hur du med Aspose.HTML för .NET konverterar HTML till bild i en komplett guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

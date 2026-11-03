@@ -158,6 +158,8 @@ Leer stap voor stap hoe u HTML-bestanden zipt en vervolgens rendert naar PNG met
 Leer stap voor stap hoe u HTML naar PNG converteert met C# en Aspose.HTML in deze complete gids.
 ### [Hoe antialiasing in te schakelen bij het renderen van HTML naar PNG – Complete gids](./how-to-enable-antialiasing-when-rendering-html-to-png-comple/)
 Leer stap voor stap hoe u antialiasing inschakelt bij het renderen van HTML naar PNG met Aspose.HTML voor .NET.
+### [HTML renderen naar afbeelding in C# – Complete gids](./render-html-to-image-in-c-complete-guide/)
+Leer stap voor stap hoe u HTML naar afbeelding converteert met C# en Aspose.HTML in deze volledige gids.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

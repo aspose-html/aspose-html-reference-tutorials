@@ -65,6 +65,10 @@ HTML 文件是網路的支柱，能夠有效地創建和操作它們對於任何
 
 ### [將 HTML 保存至 Zip – 完整 C# 指南（內存存檔）](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
 
+### [使用 Aspose.HTML 在記憶體中建立 HTML 文件 – 完整指南](./create-in-memory-html-document-with-aspose-html-complete-gui/)
+
+本教學說明如何在記憶體中使用 Aspose.HTML 建立和操作 HTML 文件，無需寫入磁碟。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

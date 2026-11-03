@@ -52,6 +52,7 @@ Antes de mergulharmos nas especificidades da criação e edição de documentos 
 ### [Criar arquivo Zip para HTML – Guia completo em C#](./create-zip-archive-for-html-complete-c-guide/)
 
 ### [Salvar HTML em Zip – Guia completo em C# para arquivos em memória](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
+### [Criar Documento HTML em Memória com Aspose.HTML – Guia Completo](./create-in-memory-html-document-with-aspose-html-complete-gui/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

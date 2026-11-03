@@ -80,6 +80,9 @@ url: /th/net/working-with-html-documents/
 ### [บันทึก HTML เป็น Zip – คู่มือ C# ฉบับสมบูรณ์สำหรับการจัดเก็บในหน่วยความจำ](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
 เรียนรู้วิธีบันทึกไฟล์ HTML ลงในไฟล์ Zip โดยใช้ C# และจัดการเป็น Archive ในหน่วยความจำอย่างเต็มรูปแบบ
 
+### [สร้างเอกสาร HTML ในหน่วยความจำด้วย Aspose.HTML – คู่มือฉบับสมบูรณ์](./create-in-memory-html-document-with-aspose-html-complete-gui/)
+เรียนรู้วิธีสร้างเอกสาร HTML ในหน่วยความจำโดยใช้ Aspose.HTML อย่างละเอียดและครบถ้วน
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

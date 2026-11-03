@@ -80,6 +80,8 @@ Dowiedz się, jak zapisać dokument HTML przy użyciu klasy Aspose.HTMLDocument,
 
 Dowiedz się, jak zapisać dokument HTML bezpośrednio do archiwum ZIP w pamięci przy użyciu C# i Aspose.HTML.
 
+### [Tworzenie dokumentu HTML w pamięci przy użyciu Aspose.HTML – Kompletny przewodnik](./create-in-memory-html-document-with-aspose-html-complete-gui/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

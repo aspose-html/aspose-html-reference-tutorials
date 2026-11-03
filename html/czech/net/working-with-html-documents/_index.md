@@ -60,6 +60,9 @@ Nyní posuňte vaše dovednosti na další úroveň. Úpravy HTML dokumentů jso
 
 ### [Uložit HTML do ZIP – Kompletní průvodce v C# pro archivaci v paměti](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
 
+### [Vytvoření HTML dokumentu v paměti pomocí Aspose.HTML – Kompletní průvodce](./create-in-memory-html-document-with-aspose-html-complete-gui/)
+Naučte se, jak pomocí Aspose.HTML vytvořit HTML dokument přímo v paměti bez ukládání na disk, krok za krokem.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

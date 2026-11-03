@@ -73,6 +73,10 @@ Hướng dẫn chi tiết cách tạo HTML từ chuỗi trong C# bằng Memory S
 ### [Lưu HTML vào Zip – Hướng dẫn C# đầy đủ cho lưu trữ trong bộ nhớ](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
 
 Hướng dẫn chi tiết cách sử dụng CSS và C# để làm tiêu đề in đậm, kèm ví dụ mã và các bước thực hiện cụ thể.
+
+### [Tạo tài liệu HTML trong bộ nhớ với Aspose.HTML – Hướng dẫn đầy đủ](./create-in-memory-html-document-with-aspose-html-complete-gui/)
+Hướng dẫn chi tiết cách tạo tài liệu HTML trong bộ nhớ bằng Aspose.HTML, kèm ví dụ mã và các bước thực hiện.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

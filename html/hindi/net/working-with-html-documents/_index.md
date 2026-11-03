@@ -55,6 +55,8 @@ HTML दस्तावेज़ वेब की रीढ़ हैं, और
 
 ### [HTML को ज़िप में सहेजें – इन‑मेमोरी आर्काइव के लिए पूर्ण C# गाइड](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
 
+### [Aspose.HTML के साथ इन‑मेमोरी HTML दस्तावेज़ बनाना – पूर्ण गाइड](./create-in-memory-html-document-with-aspose-html-complete-gui/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

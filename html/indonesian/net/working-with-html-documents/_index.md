@@ -56,6 +56,8 @@ Sebelum kita menyelami secara spesifik pembuatan dan penyuntingan dokumen HTML d
 ### [Buat Arsip Zip untuk HTML – Panduan Lengkap C#](./create-zip-archive-for-html-complete-c-guide/)
 ### [Menyimpan HTML ke Zip – Panduan Lengkap C# untuk Arsip In‑Memory](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
 
+### [Buat Dokumen HTML In-Memory dengan Aspose.HTML – Panduan Lengkap](./create-in-memory-html-document-with-aspose-html-complete-gui/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

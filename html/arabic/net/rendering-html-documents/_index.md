@@ -186,6 +186,9 @@ url: /ar/net/rendering-html-documents/
 ### [كيفية تمكين مضاد التعرج عند تصيير HTML إلى PNG – دليل شامل](./how-to-enable-antialiasing-when-rendering-html-to-png-comple/)
 تعلم كيفية تمكين مضاد التعرج عند تصيير HTML إلى PNG باستخدام Aspose.HTML في دليل شامل خطوة بخطوة.
 
+### [تحويل HTML إلى صورة في C# – دليل كامل](./render-html-to-image-in-c-complete-guide/)
+تعلم خطوة بخطوة كيفية تحويل HTML إلى صورة باستخدام Aspose.HTML في .NET مع C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

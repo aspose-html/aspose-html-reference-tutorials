@@ -184,6 +184,9 @@ Aspose.HTML для .NET выделяется как лучший выбор дл
 ### [Как включить сглаживание при рендеринге HTML в PNG](./how-to-enable-antialiasing-rendering-html-to-png/)
 Узнайте, как активировать антиалиасинг при конвертации HTML в PNG с помощью Aspose.HTML для .NET.
 
+### [Рендеринг HTML в изображение на C# – Полное руководство](./render-html-to-image-in-c-complete-guide/)
+Подробный учебник по конвертации HTML в различные форматы изображений с помощью Aspose.HTML в C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
