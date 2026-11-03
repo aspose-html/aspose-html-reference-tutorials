@@ -457,6 +457,8 @@ Erfahren Sie, wie Sie eine lokale HTML‑Datei mit Aspose.HTML für Java vollst�
 
 ### [HTML mit Aspose HTML Converter in Java zu PDF konvertieren – Komplettanleitung](./convert-html-to-pdf-with-aspose-html-converter-in-java-compl/)
 Erfahren Sie, wie Sie mit dem Aspose HTML Converter HTML in Java vollständig zu PDF konvertieren – Schritt für Schritt erklärt.
+### [Wie man ein HTML‑PDF‑Tutorial in Java mit Aspose.HTML befolgt](./how-to-follow-an-html-pdf-tutorial-in-java-using-aspose-html/)
+Erfahren Sie, wie Sie Schritt für Schritt ein HTML‑PDF‑Tutorial in Java mit Aspose.HTML umsetzen.
 
 ## Häufig gestellte Fragen
 

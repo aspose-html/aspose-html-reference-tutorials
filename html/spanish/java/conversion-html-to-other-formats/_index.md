@@ -357,6 +357,8 @@ Aprende a incrustar fuentes en archivos PDF con Java usando Aspose.HTML para gar
 Aprende a convertir HTML a PDF en Java usando Aspose.HTML con ejemplos paso a paso y opciones de configuración.
 ### [Convertir HTML a PDF en Java – Guía de Pool de Hilos Paralelos](./convert-html-to-pdf-in-java-parallel-thread-pool-guide/)
 Aprende a convertir HTML a PDF en Java utilizando un pool de hilos paralelos para mejorar el rendimiento de procesamiento por lotes.
+### [Cómo seguir un tutorial de HTML PDF en Java usando Aspose.HTML](./how-to-follow-an-html-pdf-tutorial-in-java-using-aspose-html/)
+
 ## Preguntas Frecuentes
 
 **Q:** ¿Puedo usar Aspose.HTML para Java en una aplicación comercial?  

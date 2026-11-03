@@ -101,6 +101,8 @@ Leer stap‑voor‑stap hoe u HTML naar PDF converteert met Aspose HTML voor Jav
 Leer hoe u HTML naar PDF converteert met Aspose HTML Converter in Java met een volledige gids.
 ### [Aspose HTML naar PDF in Java – Complete stapsgewijze gids](./aspose-html-to-pdf-in-java-complete-step-by-step-guide/)
 Leer hoe u Aspose HTML gebruikt om HTML naar PDF te converteren in Java met een volledige stap‑voor‑stap gids.
+### [Hoe een HTML‑PDF‑tutorial in Java te volgen met Aspose.HTML](./how-to-follow-an-html-pdf-tutorial-in-java-using-aspose-html/)
+Leer stap‑voor‑stap hoe u een HTML‑naar‑PDF‑tutorial in Java kunt volgen met Aspose.HTML.
 ### [HTML naar PDF converteren in Java – Stapsgewijze gids met paginagrootte‑instellingen](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Leer stap voor stap hoe u HTML naar PDF converteert in Java en paginagrootte‑instellingen configureert voor optimale resultaten.
 ### [Hoe een webpagina naar PDF converteren in Java – Stapsgewijze gids](./how-to-convert-webpage-to-pdf-in-java-step-by-step-guide/)

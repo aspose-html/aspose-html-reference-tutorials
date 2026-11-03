@@ -261,6 +261,8 @@ Aspose.HTML を使用して Java で並列に HTML を PDF に変換するため
 Aspose.HTML を使用して C# で HTML を Markdown に変換する完全ガイドです。
 ### [HTML to PDF チュートリアル: Java で HTML をワンラインで PDF に変換](./html-to-pdf-tutorial-convert-html-to-pdf-in-java-in-one-line/)
 Aspose.HTML を使用して、Java のコード1行で HTML を PDF に変換するシンプルな方法を紹介します。
+### [Aspose.HTML を使用した Java の HTML PDF チュートリアルの進め方](./how-to-follow-an-html-pdf-tutorial-in-java-using-aspose-html/)
+Aspose.HTML を使って Java で HTML から PDF への変換手順を学びます。
 ### [Create PDF Custom Size from HTML in Java – Full Guide](./create-pdf-custom-size-from-html-in-java-full-guide/)
 ### [JavaでHTMLをPDFに変換 – 並列固定スレッドプールガイド](./convert-html-to-pdf-in-java-parallel-fixed-thread-pool-guide/)
 Aspose.HTML を使用して Java で HTML を PDF に変換する際、固定スレッドプールを活用した並列処理の手順を解説します。

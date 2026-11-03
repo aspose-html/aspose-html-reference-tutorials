@@ -141,7 +141,6 @@ Scopri come convertire HTML in Markdown usando C# con Aspose.HTML. Guida passo�
 ### [Tutorial HTML to PDF: Converti HTML in PDF in Java in una sola riga](./html-to-pdf-tutorial-convert-html-to-pdf-in-one-line/)
 Scopri come convertire HTML in PDF con una singola riga di codice Java usando Aspose.HTML.
 ### [Crea PDF a Dimensione Personalizzata da HTML in Java – Guida Completa](./create-pdf-custom-size-from-html-in-java-full-guide/)
-Impara a generare PDF con dimensioni personalizzate da HTML in Java usando Aspose.HTML, con esempi passo‑passo.
 ### [Conversione da Markdown a PDF in Java – Guida completa](./convert-markdown-to-pdf-in-java-complete-guide/)
 ### [Converti HTML in PDF in Java – Guida al pool di thread fisso parallelo](./convert-html-to-pdf-in-java-parallel-fixed-thread-pool-guide/)
 ### [Come Convertire SVG – Guida Completa Utilizzando Aspose HTML Converter](./how-to-convert-svg-complete-guide-using-aspose-html-converte/)
@@ -234,6 +233,7 @@ Imposta le dimensioni della pagina PDF durante la conversione da HTML a PDF in J
 ### [Come convertire un file HTML in PDF con Java – Guida completa](./how-to-convert-html-file-to-pdf-in-java-complete-guide/)
 ### [Converti file HTML locale in PDF – Guida completa Java](./convert-local-html-file-to-pdf-complete-java-guide/)
 ### [Converti modello HTML con Aspose – guida passo‑a‑passo](./convert-html-template-with-aspose-step-by-step-guide/)
+### [Come seguire un tutorial HTML PDF in Java usando Aspose.HTML](./how-to-follow-an-html-pdf-tutorial-in-java-using-aspose-html/)
 
 ## Domande frequenti
 

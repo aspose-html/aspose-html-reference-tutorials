@@ -342,6 +342,8 @@ Aspose HTML 변환기를 활용해 Java에서 HTML을 PDF로 변환하는 전체
 Aspose를 활용해 HTML 템플릿을 변환하는 방법을 단계별로 안내합니다.
 ### [Aspose HTML을 사용한 Java PDF 변환 – 완전 단계별 가이드](./aspose-html-to-pdf-in-java-complete-step-by-step-guide/)
 Aspose.HTML를 활용해 Java에서 HTML을 PDF로 변환하는 전체 단계별 과정을 안내합니다.
+### [Java에서 Aspose.HTML를 사용해 HTML PDF 튜토리얼을 따라하는 방법](./how-to-follow-an-html-pdf-tutorial-in-java-using-aspose-html/)
+Aspose.HTML를 활용해 Java에서 HTML PDF 튜토리얼을 단계별로 진행하는 방법을 안내합니다.
 
 ## 자주 묻는 질문
 

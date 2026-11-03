@@ -372,6 +372,8 @@ Aspose.HTML for Java 简化了 HTML 转 PDF 的工作流。请参阅专门的教
 了解如何使用 Aspose 将 HTML 模板转换为所需格式的完整分步指南。
 ### [Aspose HTML 在 Java 中转 PDF – 完整分步指南](./aspose-html-to-pdf-in-java-complete-step-by-step-guide/)
 提供在 Java 中使用 Aspose.HTML 将 HTML 完整转换为 PDF 的详细分步指南。
+### [如何在 Java 中使用 Aspose.HTML 跟随 HTML PDF 教程](./how-to-follow-an-html-pdf-tutorial-in-java-using-aspose-html/)
+本教程演示如何在 Java 环境下使用 Aspose.HTML 完成 HTML 转 PDF 的完整步骤。
 
 ## 常见问题
 

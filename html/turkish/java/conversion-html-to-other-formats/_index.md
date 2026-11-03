@@ -148,6 +148,8 @@ Aspose HTML to PDF dönüşümünü tek satır kodla nasıl yapacağınızı gö
 Java’da birden çok HTML dosyasını aynı anda PDF’ye dönüştürmek için paralel işleme yöntemlerini öğrenin.
 ### [Java’da HTML'yi PDF'ye Dönüştürme – Paralel Toplu İş Kılavuzu](./convert-html-to-pdf-in-java-parallel-batch-guide/)
 Java’da büyük miktarda HTML dosyasını aynı anda PDF’ye dönüştürmek için paralel işleme adımlarını gösterir.
+### [Aspose.HTML kullanarak Java'da HTML PDF öğreticisini nasıl izlersiniz](./how-to-follow-an-html-pdf-tutorial-in-java-using-aspose-html/)
+Bu öğretici, Aspose.HTML ile Java’da HTML PDF dönüşüm sürecini adım adım takip etmenizi sağlar.
 ### [HTML'yi MHTML'ye Dönüştürme](./convert-html-to-mhtml/)
 Aspose.HTML for Java ile HTML'yi MHTML'ye kolayca dönüştürün. Verimli HTML‑to‑MHTML dönüşümü için adım adım rehberimizi izleyin.
 ### [Aspose.HTML ile HTML'yi MHTML'ye Dönüştürme – Tam Java Kılavuzu](./convert-html-to-mhtml-with-aspose-html-complete-java-guide/)
