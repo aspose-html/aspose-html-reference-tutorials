@@ -393,6 +393,7 @@ Aspose.HTML for Java का उपयोग करके HTML को PDF मे�
 
 ### [C# में HTML फ़ाइल को PDF में बदलने का चरण‑दर‑चरण गाइड](./how-to-convert-html-file-to-pdf-in-c-step-by-step-guide/)
 Aspose.HTML के साथ C# में HTML फ़ाइल को PDF में बदलें। आसान चरण‑दर‑चरण गाइड।
+### [जावा में HTML फ़ाइल को PDF में बदलने का पूर्ण गाइड](./how-to-convert-html-file-to-pdf-in-java-complete-guide/)
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

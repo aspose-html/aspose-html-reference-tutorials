@@ -127,6 +127,8 @@ Panduan menyeluruh untuk mengonversi HTML ke PDF menggunakan Aspose HTML for Jav
 Panduan lengkap untuk mengonversi HTML ke PDF di Java dengan kualitas tinggi menggunakan Aspose.HTML.
 ### [Mengonversi HTML ke PDF dengan Fixed Thread Pool Java](./convert-html-to-pdf-with-fixed-thread-pool-java/)
 Pelajari cara mengonversi HTML ke PDF secara paralel menggunakan Fixed Thread Pool di Java dengan Aspose.HTML.
+### [Cara Mengonversi File HTML ke PDF di Java – Panduan Lengkap](./how-to-convert-html-file-to-pdf-in-java-complete-guide/)
+Pelajari cara mengonversi file HTML menjadi PDF di Java dengan panduan lengkap dan contoh kode.
 
 ### [Mengonversi HTML ke PDF di Java – Panduan Langkah‑demi‑Langkah dengan Pengaturan Ukuran Halaman](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Panduan lengkap mengonversi HTML ke PDF di Java dengan pengaturan ukuran halaman yang dapat disesuaikan.

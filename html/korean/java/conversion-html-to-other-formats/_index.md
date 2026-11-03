@@ -332,6 +332,8 @@ Aspose.HTML for Java를 활용해 PDF/A‑2b 표준 문서를 생성하는 전�
 ### [Java에서 Markdown으로부터 PDF 만들기 – 전체 단계별 가이드](./create-pdf-from-markdown-in-java-full-step-by-step-guide/)
 ### [HTML을 고정 스레드 풀로 PDF 변환](./convert-html-to-pdf-with-fixed-thread-pool-java/)
 ### [HTML을 PDF로 변환 튜토리얼 – Aspose HTML for Java를 사용하여 HTML을 PDF로 변환](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-fo/)
+### [Java에서 HTML 파일을 PDF로 변환하는 방법 – 완전 가이드](./how-to-convert-html-file-to-pdf-in-java-complete-guide/)
+Aspose.HTML를 사용하여 Java에서 HTML 파일을 PDF로 변환하는 전체 단계별 가이드를 확인하세요.
 
 ## 자주 묻는 질문
 

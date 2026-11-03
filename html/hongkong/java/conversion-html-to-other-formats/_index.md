@@ -329,6 +329,8 @@ Aspose.HTML for Java 簡化了 HTML‑to‑PDF 工作流程。請參考專屬教
 完整教學說明如何使用 Aspose.HTML for Java 將 HTML 轉換為 PDF，涵蓋設定、樣式與最佳化技巧。
 ### [如何在 C# 中將 HTML 檔案轉換為 PDF – 逐步指南](./how-to-convert-html-file-to-pdf-in-c-step-by-step-guide/)
 了解如何使用 Aspose.HTML 在 C# 中將 HTML 檔案轉換為 PDF，提供完整的逐步說明。
+### [如何在 Java 中將 HTML 檔案轉換為 PDF – 完整指南](./how-to-convert-html-file-to-pdf-in-java-complete-guide/)
+完整指南說明如何在 Java 中使用 Aspose.HTML 將 HTML 檔案轉換為 PDF，步驟詳盡。
 
 ## 常見問題
 
