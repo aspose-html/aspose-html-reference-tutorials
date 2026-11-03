@@ -9,21 +9,13 @@ url: /vi/java/converting-between-epub-and-image-formats/convert-epub-to-bmp/
 weight: 10
 ---
 
- sang BMP bằng Aspose.HTML cho Java"
 
-Similarly other headings.
 
-Proceed.
 
-We need to translate bullet list under Quick Answers.
 
-Translate each bullet.
 
-Also table.
 
-Make sure to keep markdown formatting.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

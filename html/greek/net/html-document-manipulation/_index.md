@@ -59,10 +59,18 @@ url: /el/net/html-document-manipulation/
 Μάθετε πώς να αξιοποιήσετε τη δύναμη του Aspose.HTML για .NET. Ενισχύστε την ανάπτυξη Ιστού σας με χειρισμό και απόδοση HTML.
 ### [Δημιουργία εγγράφου σε .NET με Aspose.HTML](./creating-a-document/)
 Απελευθερώστε το Power of Aspose.HTML για .NET. Μάθετε να δημιουργείτε, να χειρίζεστε και να βελτιστοποιείτε έγγραφα HTML και SVG με ευκολία. Εξερευνήστε Βήμα-Βήμα Παραδείγματα και Συχνές Ερωτήσεις.
+### [Προσθήκη στοιχείου στο σώμα – Πλήρης οδηγός C# με Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)
+Μάθετε πώς να προσθέτετε στοιχεία στο σώμα του HTML χρησιμοποιώντας C# και Aspose.HTML με βήμα‑βήμα παραδείγματα.
+### [Πώς να δημιουργήσετε HTML – Προσθήκη στοιχείων και μορφοποίηση κειμένου](./how-to-create-html-append-elements-and-style-text/)
+Μάθετε πώς να δημιουργήσετε HTML, να προσθέσετε στοιχεία και να μορφοποιήσετε κείμενο με το Aspose.HTML για .NET.
 ### [Δημιουργία HTML από συμβολοσειρά σε C# – Οδηγός προσαρμοσμένου διαχειριστή πόρων](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Μάθετε πώς να δημιουργείτε HTML από συμβολοσειρά χρησιμοποιώντας προσαρμοσμένο διαχειριστή πόρων σε C#.
+### [Αλλαγή στυλ παραγράφου σε C# – Πλήρης οδηγός Aspose.HTML](./change-paragraph-style-in-c-complete-aspose-html-guide/)
+Μάθετε πώς να τροποποιήσετε το στυλ παραγράφων σε C# χρησιμοποιώντας το Aspose.HTML. Οδηγός βήμα-βήμα με παραδείγματα.
 ### [Επεξεργασία εγγράφου σε .NET με Aspose.HTML](./editing-a-document/)
 Δημιουργήστε συναρπαστικό περιεχόμενο ιστού με το Aspose.HTML για .NET. Μάθετε πώς να χειρίζεστε HTML, CSS και άλλα.
+### [Ορισμός innerHTML του span σε C# με Aspose.HTML – Πλήρης Οδηγός](./set-span-innerhtml-in-c-with-aspose-html-complete-guide/)
+Μάθετε πώς να ορίσετε το innerHTML ενός στοιχείου span σε C# με τη χρήση του Aspose.HTML.
 ### [Αποθήκευση εγγράφου σε .NET με Aspose.HTML](./saving-a-document/)
 Ξεκλειδώστε τη δύναμη του Aspose.HTML για .NET με τον αναλυτικό οδηγό μας. Μάθετε να δημιουργείτε, να χειρίζεστε και να μετατρέπετε έγγραφα HTML και SVG
 ### [Συγχώνευση HTML με Json στο .NET με Aspose.HTML](./merge-html-with-json/)
@@ -71,6 +79,36 @@ url: /el/net/html-document-manipulation/
 Μάθετε να χρησιμοποιείτε το Aspose.HTML για .NET. Εισαγάγετε χώρο ονομάτων, συγχώνευση HTML με XML και βελτιώστε τις δεξιότητές σας στην ανάπτυξη ιστού με αυτόν τον περιεκτικό οδηγό.
 ### [Δημιουργήστε έγγραφα XPS από το XpsDevice σε .NET με Aspose.HTML](./generate-xps-documents-by-xpsdevice/)
 Ξεκλειδώστε τις δυνατότητες ανάπτυξης ιστού με το Aspose.HTML για .NET. Δημιουργήστε, μετατρέψτε και χειριστείτε εύκολα έγγραφα HTML.
+### [Κάντε το κείμενο έντονο πλάγιο σε C# – Σύντομος οδηγός στυλιζάρισματος HTML](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
+Μάθετε πώς να εφαρμόζετε έντονη και πλάγια μορφοποίηση σε κείμενο HTML χρησιμοποιώντας C# και Aspose.HTML.
+### [Δημιουργία εγγράφου HTML με Aspose.HTML – Οδηγός βήμα‑βήμα](./create-html-document-with-aspose-html-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε έγγραφα HTML χρησιμοποιώντας το Aspose.HTML με αναλυτικές οδηγίες βήμα‑βήμα.
+
+### [Πώς να δημιουργήσετε HTML με Aspose – Εύρεση στοιχείου, Εφαρμογή έντονου](./how-to-create-html-with-aspose-find-element-apply-bold/)
+Μάθετε πώς να εντοπίζετε ένα στοιχείο HTML και να το κάνετε έντονο χρησιμοποιώντας το Aspose.HTML για .NET.
+### [Πώς να δημιουργήσετε HTML και να προσθέσετε στοιχείο CSS Style – Οδηγός βήμα‑βήμα](./how-to-create-html-and-add-css-style-element-step-by-step-gu/)
+Μάθετε πώς να δημιουργήσετε ένα έγγραφο HTML και να ενσωματώσετε ένα στοιχείο CSS Style με οδηγίες βήμα‑βήμα.
+### [Δημιουργία εγγράφου HTML C# – Οδηγός βήμα‑βήμα](./create-html-document-c-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε έγγραφο HTML σε C# με οδηγίες βήμα‑βήμα.
+### [Πώς να μορφοποιήσετε το HTML με Aspose.HTML – Ορισμός στυλ γραμματοσειράς σε C#](./how-to-style-html-with-aspose-html-set-font-style-in-c/)
+Μάθετε πώς να ορίσετε στυλ γραμματοσειράς σε έγγραφα HTML χρησιμοποιώντας Aspose.HTML με C#.
+### [Συνδυασμός έντονου και πλάγιου κειμένου σε HTML με C# – Πλήρης Οδηγός](./combine-bold-and-italic-in-html-with-c-complete-guide/)
+Μάθετε πώς να εφαρμόζετε ταυτόχρονα έντονη και πλάγια μορφοποίηση σε στοιχεία HTML χρησιμοποιώντας C# και Aspose.HTML.
+
+### [Πώς να αποθηκεύσετε HTML με το Aspose.Html – Οδηγός βήμα‑βήμα](./how-to-save-html-with-aspose-html-step-by-step-guide/)
+Μάθετε πώς να αποθηκεύσετε αρχεία HTML χρησιμοποιώντας το Aspose.HTML με έναν απλό οδηγό βήμα‑βήμα.
+### [Εφαρμογή στυλ γραμματοσειράς προγραμματιστικά – Γρήγορος οδηγός C#](./apply-font-style-programmatically-quick-c-guide/)
+Μάθετε πώς να εφαρμόζετε στυλ γραμματοσειράς σε έγγραφα HTML προγραμματιστικά με C# χρησιμοποιώντας το Aspose.HTML.
+### [Πώς να δημιουργήσετε HTML με μορφοποιημένο κείμενο – Πλήρης οδηγός C#](./how-to-create-html-with-styled-text-complete-c-guide/)
+Μάθετε πώς να δημιουργήσετε HTML με μορφοποιημένο κείμενο χρησιμοποιώντας C# σε πλήρη βήμα-βήμα οδηγό.
+### [Δημιουργία εγγράφου HTML με Aspose.HTML – Πλήρης Οδηγός](./create-html-document-with-aspose-html-full-guide/)
+Μάθετε πώς να δημιουργήσετε πλήρως ένα έγγραφο HTML χρησιμοποιώντας το Aspose.HTML με βήμα‑βήμα οδηγίες.
+### [Δημιουργία γραμματοσειράς Bold Italic σε C# – Πλήρης Οδηγός](./create-font-bold-italic-in-c-complete-guide/)
+Μάθετε πώς να δημιουργήσετε γραμματοσειρά Bold Italic σε C# με το Aspose.HTML, βήμα-βήμα οδηγίες και παραδείγματα.
+### [Δημιουργία μνήμης εγγράφου HTML με Aspose.HTML – Πλήρης Οδηγός](./create-html-document-memory-with-aspose-html-complete-guide/)
+Μάθετε πώς να δημιουργήσετε έγγραφα HTML στη μνήμη χρησιμοποιώντας το Aspose.HTML με πλήρη βήμα-βήμα οδηγίες.
+### [Δημιουργία εγγράφου HTML σε C# – Πλήρης οδηγός προγραμματισμού](./create-html-document-in-c-complete-programming-guide/)
+Μάθετε πώς να δημιουργήσετε έγγραφα HTML σε C# με πλήρη οδηγό βήμα-βήμα και παραδείγματα κώδικα.
 
 ## Σύναψη
 

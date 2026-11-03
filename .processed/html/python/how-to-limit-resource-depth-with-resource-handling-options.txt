@@ -1,0 +1,7 @@
+Title: How to limit resource depth with resource handling options
+Slug: how-to-limit-resource-depth-with-resource-handling-options
+Category: general
+ProcessedDate: 2026-10-25T10:49:04.179738
+SourceRepo: AI Search API
+Keywords: limit resource depth, apply resource handling
+PRNumber: 315
