@@ -1,11 +1,46 @@
 ---
-date: 2026-03-26
-description: เรียนรู้วิธีใช้ Aspose เพื่อแปลง EPUB เป็นภาพด้วย Aspose.HTML สำหรับ
-  Java คู่มือขั้นตอนต่อขั้นตอนสำหรับการแปลงที่ง่ายดาย
-linktitle: Converting EPUB to Image with a Single Line of Code
+date: 2026-07-23
+description: เรียนรู้วิธีใช้ Aspose เพื่อแปลงไฟล์ EPUB เป็นภาพ JPG ด้วย Aspose.HTML
+  สำหรับ Java คู่มือขั้นตอนนี้แสดงการแปลง EPUB เป็น JPG อย่างง่ายดาย
+keywords:
+- how to use aspose
+- convert epub to jpg
+- java image conversion library
+lastmod: 2026-07-23
+linktitle: แปลง EPUB เป็นภาพด้วยบรรทัดโค้ดเดียว
+og_description: วิธีใช้ Aspose สำหรับ Java เพื่อแปลงไฟล์ EPUB เป็นภาพ JPG อย่างรวดเร็ว
+  เรียนรู้การแปลงด้วยบรรทัดเดียวด้วย Aspose.HTML ซึ่งเป็นไลบรารีการแปลงภาพ Java ชั้นนำ
+og_image_alt: 'Guide: Convert EPUB to JPG using Aspose.HTML for Java'
+og_title: วิธีใช้ Aspose – แปลง EPUB เป็นภาพ JPG ใน Java
+schemas:
+- author: Aspose
+  dateModified: '2026-07-23'
+  description: Learn how to use Aspose to convert EPUB to JPG images with Aspose.HTML
+    for Java. This step‑by‑step guide shows effortless convert epub to jpg conversion.
+  headline: How to Use Aspose - EPUB to Image Conversion in Java
+  type: TechArticle
+- questions:
+  - answer: Aspose.HTML for Java is a commercial product. Pricing and licensing details
+      are available on the [Aspose website](https://purchase.aspose.com/buy).
+    question: Is Aspose.HTML for Java a free library?
+  - answer: Yes, you can download a free trial from [here](https://releases.aspose.com/html/java).
+    question: Can I try Aspose.HTML for Java before buying?
+  - answer: JPEG, PNG, BMP, GIF, and several others are supported.
+    question: What image formats can I export to?
+  - answer: A temporary license can be requested from [this link](https://purchase.aspose.com/temporary-license/).
+    question: How do I obtain a temporary license for evaluation?
+  - answer: Visit the [Aspose.HTML forum](https://forum.aspose.com/) to ask questions
+      and share experiences.
+    question: Where can I get community support?
+  type: FAQPage
 second_title: Java HTML Processing with Aspose.HTML
+tags:
+- convert epub
+- Aspose.HTML
+- Java image conversion
+- EPUB to image
+- java convert epub png
 title: วิธีใช้ Aspose - การแปลง EPUB เป็นภาพใน Java
-url: /th/java/converting-between-epub-and-image-forms/convert-epub-to-image-single-line/
 weight: 17
 ---
 
@@ -13,34 +48,33 @@ weight: 17
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การแปลง EPUB เป็นรูปภาพด้วย Aspose.HTML สำหรับ Java
+# การแปลง EPUB เป็นภาพด้วย Aspose.HTML สำหรับ Java
 
-หากคุณกำลังสงสัย **วิธีใช้ Aspose** เพื่อแปลงเอกสาร EPUB ให้เป็นรูปภาพ คุณมาถูกที่แล้ว ในบทแนะนำนี้เราจะพาคุณผ่านกระบวนการทั้งหมด ตั้งแต่การตั้งค่าสภาพแวดล้อม Java ของคุณจนถึงการสร้างภาพ JPEG (หรือ PNG) เพียงไม่กี่บรรทัดของโค้ด เมื่อเสร็จแล้วคุณจะสามารถ **แปลง EPUB เป็น JPG** หรือแม้แต่ **java convert EPUB PNG** ได้ทุกครั้งที่ต้องการดูตัวอย่างภาพอย่างรวดเร็วของ e‑book ของคุณ
+หากคุณกำลังสงสัย **how to use Aspose** เพื่อแปลงเอกสาร EPUB เป็นรูปภาพ คุณมาถูกที่แล้ว ในบทเรียนนี้เราจะอธิบายขั้นตอนทั้งหมด ตั้งแต่การตั้งค่าสภาพแวดล้อม Java ของคุณจนถึงการสร้างภาพ JPEG (หรือ PNG) ด้วยเพียงไม่กี่บรรทัดของโค้ด เมื่อเสร็จคุณจะสามารถ **convert EPUB to JPG** หรือแม้กระทั่ง **java convert EPUB PNG** ได้ทุกครั้งที่ต้องการดูตัวอย่างภาพอย่างรวดเร็วของ e‑books ของคุณ
 
-## คำตอบอย่างรวดเร็ว
+## คำตอบเร็ว
 - **ต้องใช้ไลบรารีอะไร?** Aspose.HTML for Java  
-- **รูปแบบภาพที่รองรับ?** JPEG, PNG, BMP, และอื่น ๆ  
-- **ต้องใช้กี่บรรทัดของโค้ด?** เพียงสามบรรทัดหลังจากการ import  
-- **ต้องการไลเซนส์หรือไม่?** ใช่ จำเป็นต้องมีไลเซนส์ทดลองหรือไลเซนส์ถาวรสำหรับการใช้งานจริง  
-- **สามารถรันบนระบบปฏิบัติการใดก็ได้หรือไม่?** ใช่ ทุกแพลตฟอร์มที่รองรับ Java  
+- **รูปแบบภาพที่รองรับ?** JPEG, PNG, BMP, and more  
+- **ต้องใช้กี่บรรทัดของโค้ด?** Only three lines after imports  
+- **ต้องการไลเซนส์หรือไม่?** Yes, a trial or permanent license is required for production  
+- **สามารถรันบนระบบปฏิบัติการใดก็ได้หรือไม่?** Yes, any platform that supports Java  
 
-## วิธีใช้ Aspose สำหรับการแปลง EPUB เป็นรูปภาพ
-ส่วนนี้ตอบคำถามหลักของบทแนะนำ: วิธีใช้คลาส `Converter` ของ Aspose เพื่อแปลงไฟล์ EPUB ให้เป็นไฟล์รูปภาพ การเข้าใจขั้นตอนนี้จะทำให้คุณปรับโค้ดให้เข้ากับรูปแบบอื่นหรือสถานการณ์การประมวลผลเป็นชุดได้ง่ายขึ้น
+## วิธีใช้ Aspose สำหรับการแปลง EPUB เป็นภาพ
 
-## ข้อกำหนดเบื้องต้น
+โหลดไฟล์ EPUB ด้วย `FileInputStream` ตั้งค่า `ImageSaveOptions` สำหรับ JPEG และเรียก `Converter.convertEPUB` รูปแบบสามบรรทัดนี้จะจัดการการเรนเดอร์ การฝังฟอนต์ และการรักษาเลย์เอาต์โดยอัตโนมัติ ทำให้คุณได้ภาพคุณภาพสูงด้วยโค้ดเพียงเล็กน้อย
 
-ก่อนที่จะเริ่มกระบวนการแปลง ให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
+### ข้อกำหนดเบื้องต้น
 
-1. **สภาพแวดล้อมการพัฒนา Java** – จำเป็นต้องติดตั้ง Java บนเครื่องของคุณ หากต้องการดาวน์โหลดได้จาก [Java's website](https://www.java.com/en/download/).  
-2. **Aspose.HTML for Java** – ดาวน์โหลด JAR เวอร์ชันล่าสุดจากหน้าดาวน์โหลดอย่างเป็นทางการที่ [here](https://releases.aspose.com/html/java/).  
-3. **ไฟล์ EPUB** – มีไฟล์ EPUB ที่พร้อมแปลงเป็นรูปภาพ.  
-4. **ความรู้พื้นฐาน Java** – คุณควรคุ้นเคยกับการคอมไพล์และรันโปรแกรม Java.
+ก่อนที่คุณจะลงลึกเข้าสู่กระบวนการแปลง ให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
-## การนำเข้าแพ็กเกจ
+1. **Java Development Environment** – Java ต้องติดตั้งบนเครื่องของคุณ หากต้องการ สามารถดาวน์โหลดได้จาก [เว็บไซต์ของ Java](https://www.java.com/en/download/).  
+2. **Aspose.HTML for Java** – ดาวน์โหลด JAR ล่าสุดจากหน้าดาวน์โหลดอย่างเป็นทางการที่ [ที่นี่](https://releases.aspose.com/html/java/).  
+3. **EPUB File** – มีไฟล์ EPUB ที่พร้อมที่คุณต้องการแปลงเป็นภาพ.  
+4. **Basic Java Knowledge** – คุณควรคุ้นเคยกับการคอมไพล์และรันโปรแกรม Java.
 
-ก่อนอื่น ให้นำเข้าคลาสของ Aspose.HTML ที่จัดการการแปลงและการบันทึกรูปภาพ
+## นำเข้าแพ็กเกจ
 
-### ขั้นตอนที่ 1: นำเข้าแพ็กเกจ Aspose.HTML
+คลาส `Converter` เป็นส่วนประกอบหลักของ Aspose.HTML ที่แปลงเอกสาร EPUB, HTML หรือ SVG ให้เป็นภาพเรสเตอร์
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -50,19 +84,19 @@ import com.aspose.html.rendering.image.ImageFormat;
 
 ## การแยกโค้ดการแปลง
 
-เราจะแบ่งตัวอย่างออกเป็นขั้นตอนที่ชัดเจนและจัดการได้ง่าย เพื่อให้คุณเห็นว่าทุกส่วนทำอะไร
+เรามาแบ่งตัวอย่างเป็นขั้นตอนที่ชัดเจนและจัดการได้ง่าย เพื่อให้คุณเห็นว่าทุกส่วนทำอะไร
 
 ### ขั้นตอนที่ 2: เปิดไฟล์ EPUB
 
-เราเปิดไฟล์ EPUB ด้วย `FileInputStream` มาตรฐาน แทนที่ `"input.epub"` ด้วยเส้นทางของไฟล์ของคุณเอง
+`FileInputStream` อ่านข้อมูลไบนารีของไฟล์ EPUB เข้าไปในหน่วยความจำเพื่อประมวลผล แทนที่ `"input.epub"` ด้วยเส้นทางของไฟล์ของคุณเอง.
 
 ```java
 try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream("input.epub")) {
 ```
 
-### ขั้นตอนที่ 3: แปลง EPUB เป็นรูปภาพ
+### ขั้นตอนที่ 3: แปลง EPUB เป็นภาพ
 
-ที่นี่เราจะเรียก `Converter.convertEPUB` ตัวเลือก `ImageSaveOptions` ให้คุณเลือกรูปแบบการส่งออก — JPEG ในตัวอย่างนี้ ซึ่งตอบสนองต่อกรณีการใช้ **convert epub to jpg** หากต้องการ PNG ให้เปลี่ยน `ImageFormat.Jpeg` เป็น `ImageFormat.Png` (มีประโยชน์สำหรับสถานการณ์ **java convert epub png**)
+`ImageSaveOptions` กำหนดรูปแบบภาพที่ส่งออก ความละเอียด และขนาดสำหรับการแปลง เมธอด `Converter.convertEPUB` จะเรนเดอร์หน้า EPUB ทีละหน้าเป็นรูปแบบเรสเตอร์ที่เลือก
 
 ```java
     Converter.convertEPUB(
@@ -75,66 +109,72 @@ try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream("inpu
 
 และเท่านี้! ด้วยสามบรรทัดนี้คุณได้แปลง EPUB เป็นภาพคุณภาพสูงแล้ว
 
-## การแปลง HTML เป็นรูปภาพใน Java คืออะไร?
+## HTML to Image Conversion ใน Java คืออะไร?
 
-**html to image java** อธิบายกระบวนการเรนเดอร์เนื้อหาแบบ HTML — เช่น EPUB, ไฟล์ HTML หรือ SVG — โดยตรงเป็นรูปแบบภาพราสเตอร์โดยใช้ไลบรารี Java Aspose.HTML มี API ระดับสูงที่ซ่อนรายละเอียดของเอนจินการเรนเดอร์ ทำให้คุณโฟกัสที่ตัวเลือกการป้อนข้อมูลและการส่งออกแทนการจัดการพิกเซล
+การแปลง HTML เป็นภาพใน Java ทำการเรนเดอร์เนื้อหาเว็บเช่น EPUB, HTML หรือ SVG ให้เป็นรูปแบบเรสเตอร์เช่น JPEG หรือ PNG ด้วยเครื่องยนต์เรนเดอร์ ทำให้ได้ภาพสแนปช็อตที่พิกเซลสมบูรณ์ของเลย์เอาต์ต้นฉบับ มันอธิบายกระบวนการแปลงเนื้อหาแบบ HTML โดยตรงเป็นภาพเรสเตอร์ ซึ่งช่วยให้นักพัฒนาสามารถจับภาพการแสดงผลที่แม่นยำของเอกสารได้
 
 ## ทำไมต้องใช้ Aspose.HTML สำหรับงานนี้?
 
-- **การแปลงในบรรทัดเดียว** – ไม่จำเป็นต้องเรนเดอร์หน้าเอง  
-- **รองรับหลายรูปแบบ** – ทำงานกับ EPUB, HTML, SVG, และอื่น ๆ  
-- **ความแม่นยำสูง** – ผลลัพธ์รักษาเลย์เอาต์, ฟอนต์, และสไตล์เดิมไว้  
-- **ข้ามแพลตฟอร์ม** – ทำงานได้ทุกที่ที่ Java ทำงาน ทำให้เหมาะสำหรับงานแบตช์บนเซิร์ฟเวอร์  
-- **เวิร์กโฟลว์ html to image java ที่สะดวก** – การเรียกเมธอดเดียวจัดการกระบวนการเรนเดอร์ทั้งหมด  
+Aspose.HTML มี API แบบเมธอดเดียวที่ทรงพลัง รองรับรูปแบบอินพุตมากกว่า 30 รูปแบบและหลายประเภทของเอาต์พุตเรสเตอร์ ให้การเรนเดอร์ความละเอียดสูงพร้อมการจัดการฟอนต์, CSS, และเลย์เอาต์ซับซ้อนโดยอัตโนมัติ ความเข้ากันได้กับ Java แบบข้ามแพลตฟอร์ม โมเดลการให้ลิขสิทธิ์ที่ง่าย และการปรับประสิทธิภาพในตัวทำให้เหมาะสำหรับการแปลง EPUB เป็นภาพเป็นชุดและการประมวลผลฝั่งเซิร์ฟเวอร์
+
+- **การแปลงในบรรทัดเดียว** – ไม่จำเป็นต้องเรนเดอร์หน้าด้วยตนเอง.  
+- **รองรับรูปแบบกว้าง** – ทำงานกับรูปแบบอินพุตกว่า 30 แบบ (EPUB, HTML, SVG ฯลฯ) และส่งออกเป็น JPEG, PNG, BMP, GIF และอื่นๆ.  
+- **ความแม่นยำสูง** – ผลลัพธ์รักษาเลย์เอาต์, ฟอนต์, และสไตล์เดิมไว้.  
+- **ข้ามแพลตฟอร์ม** – ทำงานได้ทุกที่ที่ Java ทำงาน ทำให้เหมาะกับงานแบชฝั่งเซิร์ฟเวอร์.  
+- **เวิร์กโฟลว์ html to image java ที่สะดวก** – การเรียกเมธอดเดียวจัดการกระบวนการเรนเดอร์ทั้งหมด.
 
 ## กรณีการใช้งานทั่วไป
 
-- สร้างภาพตัวอย่างขนาดย่อสำหรับแคตาล็อก e‑book  
-- แปลงบทของ EPUB เป็นรูปภาพเพื่อแชร์บนโซเชียลมีเดีย  
-- เตรียมทรัพยากรสำหรับการสร้าง PDF หรือกระบวนการพิมพ์  
+- สร้างภาพตัวอย่างขนาดย่อสำหรับแคตาล็อก e‑book.  
+- แปลงบทของ EPUB เป็นภาพเพื่อแชร์บนโซเชียลมีเดีย.  
+- เตรียมทรัพยากรสำหรับการสร้าง PDF หรือกระบวนการพิมพ์.
 
-## ปัญหาที่พบบ่อยและวิธีแก้
+## ปัญหาทั่วไปและวิธีแก้
 
-- **ฟอนต์หาย** – ตรวจสอบให้แน่ใจว่าฟอนต์ที่ใช้ใน EPUB มีอยู่บนเครื่องโฮสต์หรือฝังฟอนต์ด้วย `FontSettings`  
-- **ไฟล์ EPUB ขนาดใหญ่** – ประมวลผลหน้าแต่ละหน้าเพื่อรักษาการใช้หน่วยความจำให้ต่ำ; คุณสามารถวนลูป `Converter.convertEPUB` ด้วยช่วงหน้าต่าง ๆ ที่แตกต่างกันได้  
-- **ขนาดภาพไม่ถูกต้อง** – ปรับ `ImageSaveOptions` โดยตั้งค่า `PageWidth` และ `PageHeight` ก่อนการแปลง  
+- **Missing fonts** – ตรวจสอบให้แน่ใจว่าฟอนต์ที่ใช้ใน EPUB มีอยู่บนเครื่องโฮสต์หรือฝังฟอนต์โดยใช้ `FontSettings`.  
+- **Large EPUB files** – ประมวลผลหน้าแบบหนึ่งต่อหนึ่งเพื่อรักษาการใช้หน่วยความจำน้อย; คุณสามารถวนลูป `Converter.convertEPUB` กับช่วงหน้าต่างๆ Aspose.HTML สามารถจัดการ EPUB ขนาด 500 หน้าโดยใช้ RAM น้อยกว่า 200 MB.  
+- **Incorrect image dimensions** – ปรับ `ImageSaveOptions` โดยตั้งค่า `PageWidth` และ `PageHeight` ก่อนการแปลง.  
 
 ## สรุป
 
-ในคู่มือนี้เราได้อธิบายทุกอย่างที่คุณต้องการเพื่อ **how to use Aspose** สำหรับการแปลงไฟล์ EPUB เป็นภาพโดยใช้ Java กระบวนการนี้ตรงไปตรงมา ต้องการเพียงไม่กี่บรรทัดของโค้ด และสามารถขยายไปยังรูปแบบภาพอื่นหรือการทำงานเป็นชุดได้ สำหรับการปรับแต่งเชิงลึก ให้สำรวจเอกสารเต็มของ [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/) เพื่อค้นหาตัวเลือกการเรนเดอร์เพิ่มเติมและการปรับประสิทธิภาพ
+ในคู่มือนี้เราได้ครอบคลุมทุกอย่างที่คุณต้องการ **how to use Aspose** สำหรับการแปลงไฟล์ EPUB เป็นภาพด้วย Java กระบวนการนี้ตรงไปตรงมา ต้องการเพียงไม่กี่บรรทัดของโค้ดและสามารถขยายไปยังรูปแบบภาพอื่นหรือการดำเนินการแบบแบชได้ สำหรับการปรับแต่งที่ลึกขึ้น ให้สำรวจเอกสาร [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/) เพื่อค้นหาตัวเลือกการเรนเดอร์เพิ่มเติมและการปรับประสิทธิภาพ
 
 ## คำถามที่พบบ่อย
 
-**ถาม: Aspose.HTML for Java เป็นไลบรารีฟรีหรือไม่?**  
-ตอบ: Aspose.HTML for Java เป็นผลิตภัณฑ์เชิงพาณิชย์ รายละเอียดราคาและไลเซนส์สามารถดูได้ที่ [Aspose website](https://purchase.aspose.com/buy).
+**Q: Aspose.HTML for Java เป็นไลบรารีฟรีหรือไม่?**  
+A: Aspose.HTML for Java เป็นผลิตภัณฑ์เชิงพาณิชย์ รายละเอียดราคาและลิขสิทธิ์สามารถดูได้บน [เว็บไซต์ Aspose](https://purchase.aspose.com/buy).
 
-**ถาม: ฉันสามารถทดลองใช้ Aspose.HTML for Java ก่อนซื้อได้หรือไม่?**  
-ตอบ: ได้ คุณสามารถดาวน์โหลดรุ่นทดลองฟรีจาก [here](https://releases.aspose.com/html/java).
+**Q: ฉันสามารถลองใช้ Aspose.HTML for Java ก่อนซื้อได้หรือไม่?**  
+A: ใช่ คุณสามารถดาวน์โหลดรุ่นทดลองฟรีได้จาก [ที่นี่](https://releases.aspose.com/html/java).
 
-**ถาม: ฉันสามารถส่งออกเป็นรูปแบบภาพใดได้บ้าง?**  
-ตอบ: รองรับ JPEG, PNG, BMP, GIF และรูปแบบอื่น ๆ อีกหลายรูปแบบ
+**Q: ฉันสามารถส่งออกเป็นรูปแบบภาพอะไรได้บ้าง?**  
+A: รองรับ JPEG, PNG, BMP, GIF และรูปแบบอื่นๆ อีกหลายรูปแบบ.
 
-**ถาม: ฉันจะขอไลเซนส์ชั่วคราวเพื่อการประเมินได้อย่างไร?**  
-ตอบ: สามารถขอไลเซนส์ชั่วคราวได้จาก [this link](https://purchase.aspose.com/temporary-license/).
+**Q: ฉันจะขอรับไลเซนส์ชั่วคราวสำหรับการประเมินได้อย่างไร?**  
+A: สามารถขอไลเซนส์ชั่วคราวได้จาก [ลิงก์นี้](https://purchase.aspose.com/temporary-license/).
 
-**ถาม: ฉันจะหาแหล่งสนับสนุนจากชุมชนได้จากที่ไหน?**  
-ตอบ: เยี่ยมชม [Aspose.HTML forum](https://forum.aspose.com/) เพื่อถามคำถามและแบ่งปันประสบการณ์
+**Q: ฉันจะหาแหล่งสนับสนุนจากชุมชนได้จากที่ไหน?**  
+A: เยี่ยมชม [ฟอรั่ม Aspose.HTML](https://forum.aspose.com/) เพื่อถามคำถามและแบ่งปันประสบการณ์.
 
-**ถาม: ฉันสามารถแปลงหลายหน้าของ EPUB ในการทำงานเดียวได้หรือไม่?**  
-ตอบ: ได้ ให้วนลูปผ่านหน้าและเรียก `Converter.convertEPUB` พร้อมชื่อไฟล์ผลลัพธ์ที่ต่างกัน
+**Q: ฉันสามารถแปลงหลายหน้าของ EPUB ในการทำงานครั้งเดียวได้หรือไม่?**  
+A: ใช่ คุณสามารถวนลูปผ่านหน้าและเรียก `Converter.convertEPUB` พร้อมชื่อไฟล์ผลลัพธ์ที่แตกต่างกัน.
 
-**ถาม: ไลบรารีนี้รองรับการส่งออกแบบ high‑DPI สำหรับคุณภาพการพิมพ์หรือไม่?**  
-ตอบ: แน่นอน – ตั้งค่าคุณสมบัติ `Resolution` ใน `ImageSaveOptions` เพื่อควบคุม DPI
+**Q: ไลบรารีนี้รองรับการส่งออกแบบ high‑DPI สำหรับคุณภาพการพิมพ์หรือไม่?**  
+A: แน่นอน – ตั้งค่าคุณสมบัติ `Resolution` ใน `ImageSaveOptions` เพื่อควบคุม DPI.
 
 ---
 
-**อัปเดตล่าสุด:** 2026-03-26  
-**ทดสอบด้วย:** Aspose.HTML for Java (รุ่นล่าสุด ณ เวลาที่เขียน)  
+**อัปเดตล่าสุด:** 2026-07-23  
+**ทดสอบด้วย:** Aspose.HTML for Java (latest at time of writing)  
 **ผู้เขียน:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## การสอนที่เกี่ยวข้อง
+
+- [Aspose HTML แปลง EPUB เป็น PNG ใน Java – คู่มือขั้นตอนโดยละเอียด](/html/java/converting-between-epub-and-image-formats/convert-epub-to-png/)
+- [แปลง EPUB เป็น JPG ด้วย Aspose.HTML สำหรับ Java](/html/java/converting-between-epub-and-image-formats/convert-epub-to-jpg/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -1,26 +1,24 @@
 ---
 category: general
-date: 2026-01-01
-description: Hogyan ágyazz be betűtípusokat, miközben EPUB-ot PDF-re konvertálsz Java-ban.
-  Tanuld meg beállítani a PDF oldalméretét, és használd az Aspose HTML-t egy zökkenőmentes
-  epub‑pdf Java konverzióhoz.
+date: 2026-04-12
+description: Ismerje meg, hogyan állíthatja be a PDF oldalméretét és ágyazhat be betűtípusokat
+  PDF-be, amikor Java-ban az Aspose.HTML segítségével EPUB-ot konvertál PDF-re. Ez
+  az útmutató végigvezet a teljes Java EPUB‑PDF munkafolyamaton.
 draft: false
 keywords:
-- how to embed fonts
-- convert epub to pdf
-- how to convert epub
 - set pdf page size
-- epub to pdf java
-language: hu
-og_description: Hogyan ágyazzunk be betűtípusokat EPUB PDF-re konvertálásakor Java-ban.
-  Ez az útmutató lépésről lépésre bemutatja, hogyan állítsuk be a PDF oldalméretét,
-  és hajtsunk végre egy megbízható EPUB‑PDF Java konverziót.
-og_title: Hogyan ágyazzunk be betűtípusokat EPUB PDF-re konvertálásakor Java-ban
+- embed fonts pdf
+- convert epub to pdf
+- java epub to pdf
+- custom pdf page size
+og_description: Ismerje meg, hogyan állíthatja be a PDF oldalméretét és ágyazhat be
+  betűtípusokat PDF-be, amikor EPUB-ot konvertál PDF-re Java-ban az Aspose.HTML segítségével.
+og_title: PDF oldalméret beállítása és betűk beágyazása EPUB‑ból PDF‑be Java‑ban
 tags:
 - Java
 - PDF
 - EPUB
-title: Hogyan ágyazzunk be betűtípusokat EPUB PDF-re konvertálásakor Java-ban
+title: PDF oldalméret beállítása és betűtípusok beágyazása EPUB‑ból PDF‑be Java‑ban
 url: /hu/java/converting-epub-to-pdf/how-to-embed-fonts-when-converting-epub-to-pdf-in-java/
 ---
 
@@ -28,24 +26,31 @@ url: /hu/java/converting-epub-to-pdf/how-to-embed-fonts-when-converting-epub-to-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan ágyazzuk be a betűtípusokat EPUB PDF-re konvertálásakor Java-ban
+# PDF oldalméret beállítása és betűtípusok beágyazása EPUB‑ból PDF‑be Java‑ban
 
-Valaha is elgondolkodtál azon, **hogyan ágyazzuk be a betűtípusokat**, hogy a konvertált PDF pontosan úgy nézzen ki, mint az eredeti EPUB? Nem vagy egyedül – sok fejlesztő már az első konverziós kísérlet után a betűtípus‑hiány falába ütközik. A jó hír, hogy az Aspose.HTML for Java segítségével néhány sor kóddal vezérelheted a betűtípus beágyazását, az oldalméretet és az egész konverziós folyamatot.
+Ha **PDF oldalméretet** kell beállítanod, miközben **EPUB‑ot PDF‑be konvertálsz**, és garantálni szeretnéd, hogy a kapott dokumentum pontosan úgy nézzen ki, mint a forrás, jó helyen vagy. Ebben a bemutatóban egy teljes, termelés‑kész Java példán keresztül mutatjuk be, hogyan **ágyazz be betűtípusokat pdf**, válassz **egyedi pdf oldalméretet**, és futtasd a konverziót az Aspose.HTML‑lel. A végére egy kész‑programod lesz, amely minden alkalommal hű PDF‑et állít elő.
 
-Ebben az útmutatóban végigvezetünk a **convert epub to pdf** teljes folyamatán Java használatával, megmutatjuk, hogyan **set pdf page size**, és elmagyarázzuk, miért fontos a betűtípusok beágyazása a platformközi hűség érdekében. A végére egy kész‑futásra alkalmas programod lesz, amely bármely EPUB fájlt tökéletesen renderelt PDF‑vé alakít, beágyazott betűtípusokkal és a választott oldalmérettel.
+## Gyors válaszok
+- **Mi a fő cél?** PDF oldalméret beállítása és betűtípusok beágyazása EPUB‑ból PDF‑be Java‑ban.  
+- **Melyik könyvtárat használjam?** Aspose.HTML for Java (ingyenes próba elérhető).  
+- **Szükségem van licencre a termeléshez?** Igen – a licenc eltávolítja a kiértékelési vízjelet.  
+- **Használhatok egyedi oldalméretet?** Természetesen – megadhatsz pontos méreteket vagy használhatsz beépített enumokat, mint A4, LETTER stb.  
+- **Milyen Java verzió szükséges?** Java 17 vagy újabb ajánlott.
 
-> **Prerequisites**  
-> * Java 17 vagy újabb (az API régebbi verziókkal is működik, de a 17 a legoptimálisabb).  
-> * Aspose.HTML for Java könyvtár – letöltheted a Maven Central‑ból.  
-> * Egy mintapéldány EPUB fájl a teszteléshez.  
+### Előfeltételek
+- Java 17+ telepítve.  
+- Aspose.HTML for Java hozzáadva a projektedhez (Maven, Gradle vagy manuális JAR).  
+- Egy EPUB fájl, amelyet át szeretnél alakítani.
 
-Ha jártas vagy a Maven vagy Gradle használatában, már készen is vagy. Ellenkező esetben csak töltsd le a JAR‑t, és add hozzá a classpath‑odhoz – semmi nagy ügy.
+> Ha a Gradle‑t részesíted előnyben, egyszerűen cseréld le a Maven‑kódrészletet a megfelelő Gradle koordinátákra.
 
 ---
 
-## Hogyan ágyazzuk be a betűtípusokat a PDF kimenetben
+## Miért ágyazzuk be a betűtípusokat PDF‑be?
 
-A betűtípusok beágyazása biztosítja, hogy a PDF ugyanazt a tipográfiát jelenítse meg minden eszközön, még akkor is, ha a megjelenítőnek nincs telepítve az eredeti betűtípus. Az Aspose.HTML egyetlen kapcsolóval teszi ezt lehetővé.
+A betűtípusok beágyazása rögzíti a forrás EPUB vizuális megjelenését, így a PDF minden eszközön helyesen jelenik meg – még akkor is, ha a megjelenítőnek nincs telepítve az eredeti betűkészlet. Beágyazás nélkül a címsorok visszaeshetnek alapértelmezett betűtípusokra, például Arialra, ami tönkreteheti a gondosan kialakított elrendezést.
+
+**Pro tipp:** Ha pontosan tudod, mely betűtípusok vannak használatban az EPUB‑ban, irányítsd az Aspose‑t egy olyan mappára, amely tartalmazza ezeket a `.ttf` vagy `.otf` fájlokat a `pdfOptions.setFontsFolder("path/to/fonts")` hívással. Ez felgyorsítja a konverziót és csökkenti a végleges fájlméretet.
 
 ```java
 // Configure PDF save options
@@ -53,15 +58,11 @@ PdfSaveOptions pdfOptions = new PdfSaveOptions();
 pdfOptions.setEmbedFonts(true);               // <-- This line embeds all used fonts
 ```
 
-Miért fontos ez? Képzeld el, hogy egy PDF‑et küldesz egy ügyfélnek, akinek csak az alapértelmezett rendszerbetűtípusok vannak. Beágyazás nélkül a címsorok visszaeshetnek Arial vagy Times New Roman betűtípusra, ami felborítja a layoutot. A beágyazással rögzíted a vizuális megjelenést, így a PDF valóban hordozható lesz.
-
-> **Pro tip:** Ha pontosan tudod, mely betűtípusokat használja az EPUB, megadhatsz egy egyedi betűtípus‑mappát a `pdfOptions.setFontsFolder("path/to/fonts")` hívással. Ez felgyorsítja a konverziót, és elkerüli a felesleges betűtípus‑beágyazást.
-
 ---
 
-## Convert EPUB to PDF in Java – Full Workflow
+## Hogyan konvertáljuk az EPUB‑t PDF‑be Java‑ban – Teljes munkafolyamat
 
-Az alábbi minimális, de teljes kódot kell használnod. Három alapvető lépést fed le: az EPUB forrás megtalálása, a PDF beállítások konfigurálása (beleértve az oldalméretet), és a konverzió meghívása.
+Az alábbi minimális, mégis teljes kódot kell használnod. Három alapvető lépést fed le: a forrás EPUB megtalálása, a PDF beállítások konfigurálása (beleértve a **PDF oldalméret beállítását**), és a konverzió meghívása.
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -87,30 +88,31 @@ public class EpubToPdfDemo {
 }
 ```
 
-### Mi történik a háttérben?
+### Mi zajlik a háttérben?
 
-1. **Source EPUB** – Az `epubPath` változó megmondja az Aspose‑nak, hogy hol olvassa be az EPUB konténert.  
-2. **PDF Options** – A `PdfSaveOptions` lehetővé teszi a betűtípus‑beágyazás (`setEmbedFonts`) és az oldalméretek (`setPageSize`) beállítását. A `PageSize.LETTER` enum praktikus az US‑letterhez; választhatsz `A4`, `A5` stb. is.  
-3. **Conversion Call** – A `Converter.convert` végzi a nehéz munkát. Elemzi az EPUB‑et, minden XHTML oldalt PDF‑oldallá renderel, alkalmazza a beállításokat, és kiírja az eredményt.
+1. **Forrás EPUB** – `epubPath` megmondja az Aspose‑nak, hol olvassa be az EPUB konténert.  
+2. **PDF beállítások** – `PdfSaveOptions` lehetővé teszi a betűtípus beágyazásának kapcsolását (`setEmbedFonts`) és az oldal méretének meghatározását (`setPageSize`). A `PageSize.LETTER` enum hasznos az US‑letterhez; választható az `A4`, `A5`, stb.  
+3. **Konvertálás hívás** – `Converter.convert` beolvassa az EPUB‑ot, minden XHTML oldalt PDF oldalra renderel, alkalmazza a beállításokat, és kiírja az eredményt.
 
-A metódus egyszerűség kedvéért általános `Exception`‑t dob; éles környezetben konkrétabb alosztályokat (pl. `IOException`, `FileNotFoundException`) kellene elkapni és megfelelően kezelni.
+A metódus egyszerűség kedvéért általános `Exception`‑t dob; termelésben konkrét alosztályokat (pl. `IOException`, `FileNotFoundException`) kellene elkapni és megfelelően kezelni.
 
 ---
 
-## Set PDF Page Size for the Result
+## Hogyan állítsuk be a PDF oldalméretet az eredményhez
 
-A megfelelő oldalméret kiválasztása több, mint esztétika; befolyásolja a lapozást, a képek méretezését és a nyomtatási elrendezést. Az Aspose.HTML kényelmes enum‑t biztosít, de egyedi méretet is megadhatsz, ha az alapértelmezések nem felelnek meg.
+A megfelelő oldalméret kiválasztása befolyásolja a lapozást, a képek méretezését és a nyomtatási elrendezést. Az Aspose.HTML kényelmes enumot kínál, de egyedi méretet is megadhatsz, ha az alapértelmezések nem felelnek meg az igényeidnek.
 
 ```java
 // Example: Custom size – 6" x 9"
 pdfOptions.setPageSize(new PdfSaveOptions.PageSize(6.0, 9.0));
 ```
 
-Miért lehet szükséged egyedi méretre? Lehet, hogy zsebméretű e‑könyveket vagy egy nyomtatható füzetet generálsz, amely egy meghatározott vágómérettel rendelkezik. Az API hüvelykben (vagy saját magad által konvertált milliméterben) fogadja a méreteket, teljes kontrollt biztosítva.
+**Mikor lenne szükség egyedi méretre?**  
+Lehet, hogy zsebméretű e‑könyveket, nyomtatható füzetet vagy egy olyan jelentést generálsz, amely egy meghatározott vágási méretet követ. Az API hüvelykben (vagy milliméterből átváltva) fogadja a méreteket, így teljes kontrollt biztosít.
 
 ---
 
-## Complete Working Example (Including Maven Dependency)
+## Teljes működő példa (Maven függőséggel)
 
 Ha Maven‑t használsz, add hozzá a következő függőséget a `pom.xml`‑hez. Ez biztosítja, hogy a `Converter` és a `PdfSaveOptions` osztályok a classpath‑on legyenek.
 
@@ -122,7 +124,7 @@ Ha Maven‑t használsz, add hozzá a következő függőséget a `pom.xml`‑he
 </dependency>
 ```
 
-**Full source file (`EpubToPdfDemo.java`)**
+**Teljes forrásfájl (`EpubToPdfDemo.java`)**
 
 ```java
 package com.example.epubtopdf;
@@ -165,7 +167,7 @@ public class EpubToPdfDemo {
 }
 ```
 
-### Expected output
+### Várható kimenet
 
 A program futtatása egy megerősítő sort ír ki:
 
@@ -175,37 +177,52 @@ A program futtatása egy megerősítő sort ír ki:
 
 Nyisd meg a létrehozott PDF‑et bármely megjelenítőben (Adobe Reader, Chrome stb.), és a következőket fogod látni:
 
-* Minden szöveges elem megtartja az eredeti betűtípus‑stílusát.  
-* Az oldalméretek megegyeznek a kiválasztott **Letter** mérettel.  
-* Az EPUB‑ből származó képek, táblázatok és hiperhivatkozások megmaradnak.
+* Minden szöveges elem megőrzi az eredeti betűstílust.  
+* Az oldal méretei megegyeznek a kiválasztott **Letter** mérettel (vagy bármely egyedi mérettel, amit beállítottál).  
+* A képek, táblázatok és hiperhivatkozások az EPUB‑ból megmaradnak.
 
-Ha megnézed a PDF tulajdonságait (File → Properties → Fonts), minden betűtípus **Embedded Subset**‑ként lesz felsorolva, ami megerősíti, hogy a `setEmbedFonts(true)` hívás a kívánt eredményt hozta.
-
----
-
-## Frequently Asked Questions & Edge Cases
-
-| Question | Answer |
-|----------|--------|
-| **Mi a teendő, ha az EPUB egy egyedi betűtípust használ, amely nincs telepítve a szerveren?** | Helyezd a `.ttf` vagy `.otf` fájlokat egy mappába, és mutasd meg az Aspose‑nak a `pdfOptions.setFontsFolder("path/to/custom/fonts")` hívással. A konverter automatikusan betölti és beágyazza őket. |
-| **Több EPUB‑ot is konvertálhatok egy futtatás során?** | Természetesen. Csomagold a konverziós logikát egy ciklusba, és minden fájlhoz módosítsd az `epubPath` és `outputPdf` értékeket. Az Aspose szálbiztos, így akár egy `ExecutorService`‑el is párhuzamosíthatod a feladatot. |
-| **Van méretkorlátja a bemeneti EPUB‑nek?** | Nincs szigorú korlát, de a nagyon nagy EPUB‑ok (százak MB) több memóriát fogyasztanak. Nagy könyvek esetén érdemes növelni a JVM heap‑et (`-Xmx2g` vagy nagyobb). |
-| **Hogyan tilthatom le a betűtípus‑beágyazást a kisebb PDF érdekében?** | Állítsd be a `pdfOptions.setEmbedFonts(false)` értéket. Az eredményül kapott PDF a megjelenítő által telepített betűtípusokra támaszkodik, ami csökkenti a fájlméretet, de megváltoztathatja a megjelenést. |
-| **Szükségem van licencre az Aspose.HTML‑hez?** | Egy ingyenes értékelő licenc teszteléshez működik, de vízjelet ad hozzá. Production környezetben vásárolj licencet, és hívd meg a `License license = new License(); license.setLicense("path/to/license.xml");` kódot a konverzió előtt. |
+Ha megnézed a PDF tulajdonságait (Fájl → Tulajdonságok → Betűtípusok), minden betűtípus **Embedded Subset**‑ként lesz felsorolva, ami megerősíti, hogy a `setEmbedFonts(true)` hívás a kívánt eredményt hozta.
 
 ---
 
-## Conclusion
+## Gyakran ismételt kérdések
 
-Most már tudod, **hogyan ágyazzuk be a betűtípusokat**, amikor **convert EPUB to PDF** Java‑ban, hogyan **set PDF page size**, és hogyan kössük össze mindezt az Aspose.HTML‑el. A fenti, teljesen futtatható példa azonnal működnie kell – csak cseréld ki a helyőrző útvonalakat a saját fájljaidra, és már indulhat a munka.
+**K: Mi van, ha az EPUB‑om egy egyedi betűtípust használ, amely nincs telepítve a szerveren?**  
+V: Helyezd a `.ttf` vagy `.otf` fájlokat egy mappába, és irányítsd az Aspose‑t a `pdfOptions.setFontsFolder("path/to/custom/fonts")` hívással. A konverter automatikusan betölti és beágyazza ezeket a betűtípusokat.
 
-Mi a következő lépés? Kísérletezz más oldalformátumokkal, például **A4** vagy egy egyedi 6×9 mérettel, fedezd fel a `PdfSaveOptions` beállításait képtömörítéshez, vagy akár programozottan adj hozzá egy borítóoldalt. Ugyanez a minta más forrásformátumokra (HTML, Markdown) is működik, mivel az Aspose.HTML egységesen kezeli őket.
+**K: Konvertálhatok több EPUB fájlt egy futtatás során?**  
+V: Igen. A konvertálási logikát egy ciklusba helyezheted, minden fájlhoz módosítva az `epubPath`‑t és az `outputPdf`‑t, és opcionálisan párhuzamosan futtathatod egy `ExecutorService`‑el, mivel az Aspose szálbiztos.
 
-Boldog kódolást, és legyenek a PDF‑eid mindig úgy, ahogy elképzelted!
+**K: Van méretkorlát a bemeneti EPUB‑ra?**  
+V: Nincs szigorú korlát, de nagyon nagy EPUB‑ok (százak MB) jelentős memóriát igényelhetnek. Nagy könyvek esetén növeld a JVM heap‑et (`-Xmx2g` vagy nagyobb).
+
+**K: Hogyan tilthatom le a betűtípus beágyazását a PDF méretének csökkentése érdekében?**  
+V: Hívd meg a `pdfOptions.setEmbedFonts(false)`‑t. A PDF a megjelenítő által telepített betűtípusokra támaszkodik, ami csökkenti a fájlméretet, de megváltoztathatja a megjelenést.
+
+**K: Szükségem van licencre az Aspose.HTML‑hez?**  
+V: Egy ingyenes értékelő licenc teszteléshez működik, de vízjelet ad. Termeléshez vásárolj licencet, és töltsd be a `License license = new License(); license.setLicense("path/to/license.xml");` kóddal.
+
+---
+
+## Összegzés
+
+Most már tudod, **hogyan állítsd be a PDF oldalméretet** és **hogyan ágyazz be betűtípusokat pdf**, amikor **EPUB‑ot PDF‑be konvertálsz** Java‑ban az Aspose.HTML‑lel. A fenti, futtatható példa azonnal működnie kell – csak cseréld ki a helyőrző útvonalakat a saját fájljaidra.
+
+Mi a következő lépés? Próbálj ki különböző oldalformátumokat, például **A4**‑et vagy egy egyedi 6×9‑es méretet, fedezd fel a `PdfSaveOptions` további beállításait (képtömörítés, PDF/A megfelelőség), vagy programozottan adj hozzá egy borítóoldalt. Ugyanez a minta más forrásformátumokra is működik (HTML, Markdown), mivel az Aspose.HTML egységesen kezeli őket.
+
+Boldog kódolást, és legyenek a PDF‑eid mindig úgy, ahogy elképzelted! 
 
 ![How to embed fonts in PDF conversion](https://example.com/images/embed-fonts.png "How to embed fonts in PDF conversion")
 
+---
+
+**Utoljára frissítve:** 2026-04-12  
+**Tesztelve a következővel:** Aspose.HTML for Java 23.10  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

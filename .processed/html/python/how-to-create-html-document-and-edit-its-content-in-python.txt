@@ -1,0 +1,7 @@
+Title: How to create html document and edit its content in Python
+Slug: how-to-create-html-document-and-edit-its-content-in-python
+Category: general
+ProcessedDate: 2026-08-26T00:22:01.770198
+SourceRepo: AI Search API
+Keywords: create html document, select element css, modify html text, save html file, how to edit html
+PRNumber: 252
