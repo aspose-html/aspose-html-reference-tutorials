@@ -91,6 +91,8 @@ Ismerje meg, hogyan hozhat létre PDF‑et HTML‑ből Java‑ban egyetlen kóds
 Ismerje meg, hogyan hozhat létre PDF/A‑2b szabványnak megfelelő PDF‑et Java‑ban az Aspose.HTML segítségével.
 ### [HTML konvertálása PDF-re Java‑ban – Teljes, magas minőségű útmutató](./convert-html-to-pdf-in-java-complete-high-quality-guide/)
 Fedezze fel, hogyan konvertálhatja a HTML‑t PDF‑re Java‑ban a legmagasabb minőség eléréséhez, részletes lépésekkel és tippekkel.
+### [HTML fájl PDF‑re konvertálása C#‑ban – Lépésről‑lépésre útmutató](./how-to-convert-html-file-to-pdf-in-c-step-by-step-guide/)
+Ismerje meg, hogyan konvertálhatja a HTML‑t PDF‑re C#‑ban az Aspose.HTML segítségével. Készítsen magas minőségű PDF‑eket egyszerűen.
 ### [HTML átalakítása PDF-re – Lépésről‑lépésre útmutató oldalméret beállításokkal](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Ismerje meg, hogyan konvertálhatja a HTML‑t PDF‑re Java‑ban részletesen, oldalméret beállításokkal.
 ### [HTML átalakítása PDF-re Java‑ban – Teljes útmutató papírmérettel és DPI‑val](./convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/)

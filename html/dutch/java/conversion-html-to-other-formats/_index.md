@@ -332,6 +332,7 @@ Leer stap‑voor‑stap hoe u een HTML‑bestand naar PDF converteert in Java me
 ### [PDF maken van HTML in Java – Volledige Aspose.HTML-gids](./create-pdf-from-html-in-java-full-aspose-html-guide/)
 ### [Webpagina naar PDF converteren in Java – Aspose HTML‑gids](./convert-webpage-to-pdf-in-java-aspose-html-guide/)
 Leer hoe u een webpagina naar PDF converteert in Java met Aspose.HTML in deze stapsgewijze gids.
+### [Hoe HTML‑bestand naar PDF converteren in C# – Stapsgewijze gids](./how-to-convert-html-file-to-pdf-in-c-step-by-step-guide/)
 
 ## Veelgestelde Vragen
 

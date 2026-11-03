@@ -353,6 +353,8 @@ Kompletny przewodnik tworzenia dokumentów PDF/A-2b w Javie przy użyciu Aspose.
 Dowiedz się, jak konwertować pliki HTML do formatu DOCX w Javie przy użyciu Aspose.HTML, krok po kroku.
 ### [Konwertuj stronę internetową do PDF w Javie – przewodnik Aspose HTML](./convert-webpage-to-pdf-in-java-aspose-html-guide/)
 Dowiedz się, jak w prosty sposób konwertować strony internetowe do formatu PDF w Javie przy użyciu Aspose.HTML.
+### [Jak przekonwertować plik HTML na PDF w C# – Przewodnik krok po kroku](./how-to-convert-html-file-to-pdf-in-c-step-by-step-guide/)
+Dowiedz się, jak w C# konwertować plik HTML na PDF przy użyciu Aspose.HTML, krok po kroku.
 
 ## Często zadawane pytania
 

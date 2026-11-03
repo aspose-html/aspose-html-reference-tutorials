@@ -337,6 +337,8 @@ JavaでHTMLからPDFを作成する完全ガイドです。Aspose.HTML の全機
 ### [JavaでウェブページをPDFに変換 – Aspose HTML ガイド](./convert-webpage-to-pdf-in-java-aspose-html-guide/)
 Aspose.HTML を使って Java でウェブページ全体を PDF に変換する手順を解説します。簡単に高品質な PDF を生成できます。
 ### [HTML to PDF チュートリアル – Aspose HTML for Java で HTML を PDF に変換](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-fo/)
+### [C#でHTMLファイルをPDFに変換する方法 – ステップバイステップガイド](./how-to-convert-html-file-to-pdf-in-c-step-by-step-guide/)
+Aspose.HTML を使用して C# で HTML ファイルを PDF に変換する手順を詳しく解説します。
 
 ## よくある質問
 

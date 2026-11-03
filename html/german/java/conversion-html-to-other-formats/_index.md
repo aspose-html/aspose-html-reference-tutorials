@@ -434,6 +434,9 @@ Erfahren Sie, wie Sie mit Aspose.HTML für Java PDFs aus HTML generieren – umf
 ### [HTML‑zu‑PDF‑Tutorial – HTML mit Aspose HTML für Java in PDF konvertieren](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-fo/)
 Erfahren Sie, wie Sie HTML mit Aspose HTML für Java in PDF umwandeln – Schritt‑für‑Schritt‑Anleitung.
 
+### [Wie man HTML‑Datei in PDF in C# konvertiert – Schritt‑für‑Schritt‑Anleitung](./how-to-convert-html-file-to-pdf-in-c-step-by-step-guide/)
+Erfahren Sie, wie Sie HTML‑Dateien in C# mit Aspose.HTML zu PDF konvertieren. Eine klare Schritt‑für‑Schritt‑Anleitung.
+
 ## Häufig gestellte Fragen
 
 **Q: Kann ich Aspose.HTML für Java in einer kommerziellen Anwendung verwenden?**  

@@ -322,6 +322,8 @@ weight: 25
 ### [Μετατροπή HTML σε PDF με Fixed Thread Pool σε Java](./convert-html-to-pdf-with-fixed-thread-pool-java/)
 ### [html to pdf tutorial – Μετατροπή HTML σε PDF με Aspose HTML για Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-fo/)
 Μάθετε πώς να μετατρέψετε HTML σε PDF σε Java με το Aspose.HTML, ακολουθώντας έναν απλό, βήμα‑βήμα οδηγό.
+### [Πώς να μετατρέψετε αρχείο HTML σε PDF σε C# – Οδηγός βήμα‑βήμα](./how-to-convert-html-file-to-pdf-in-c-step-by-step-guide/)
+Μάθετε πώς να μετατρέψετε αρχείο HTML σε PDF σε C# με το Aspose.HTML, ακολουθώντας έναν απλό οδηγό βήμα‑βήμα.
 
 ## Συχνές Ερωτήσεις
 

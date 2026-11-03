@@ -444,6 +444,9 @@ Hướng dẫn chi tiết cách tạo PDF từ HTML trong Java bằng Aspose.HTM
 ### [Chuyển đổi trang web sang PDF trong Java – Hướng dẫn Aspose HTML](./convert-webpage-to-pdf-in-java-aspose-html-guide/)
 Hướng dẫn chi tiết cách chuyển đổi một trang web thành PDF trong Java bằng Aspose.HTML, bao gồm các tùy chọn cấu hình và ví dụ thực tế.
 
+### [Cách chuyển đổi tệp HTML sang PDF trong C# – Hướng dẫn từng bước](./how-to-convert-html-file-to-pdf-in-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tệp HTML sang PDF trong C# bằng Aspose.HTML, bao gồm các bước cấu hình và tối ưu.
+
 ## Câu hỏi thường gặp
 
 **Q: Tôi có thể sử dụng Aspose.HTML cho Java trong một ứng dụng thương mại không?**  

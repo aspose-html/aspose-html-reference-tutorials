@@ -465,6 +465,9 @@ Apprenez à convertir des fichiers HTML en documents DOCX en Java avec Aspose.HT
 ### [Tutoriel HTML vers PDF – Convertir HTML en PDF avec Aspose HTML pour Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-fo/)
 Apprenez à convertir HTML en PDF en Java avec Aspose.HTML grâce à ce tutoriel complet.
 
+### [Comment convertir un fichier HTML en PDF en C# – Guide étape par étape](./how-to-convert-html-file-to-pdf-in-c-step-by-step-guide/)
+Apprenez à convertir un fichier HTML en PDF en C# avec Aspose.HTML, en suivant un guide détaillé étape par étape.
+
 ## Foire aux questions
 
 **Q : Puis-je utiliser Aspose.HTML for Java dans une application commerciale ?**  
