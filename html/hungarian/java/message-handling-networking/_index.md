@@ -32,6 +32,9 @@ Saját üzenetkezelő csővezetékek felépítése olyan érzés lehet, mint egy
 ## Webes kérés végrehajtása Aspose.HTML for Java-ban
  A webes kérések végrehajtása az Aspose.HTML for Java szoftverrel való munka másik döntő szempontja. Harmadik féltől származó tartalom lekérésétől a távoli erőforrások kezeléséig, ezeknek a műveleteknek a végrehajtásának ismerete megváltoztathatja a játékot. A[Webes kérés végrehajtása Aspose.HTML for Java-ban](./web-request-execution/)Az oktatóanyag átfogó részletezést kínál az adatok hatékony küldésére és fogadására. Tekintsd úgy, mint egy telefonhívást: azt szeretnéd elérni, hogy üzeneted zökkenőmentesen, statikusság nélkül eljusson. Ennek a készségnek az elsajátítása lehetővé teszi, hogy további adatokat vigyen be alkalmazásaiba, javítva ezzel a dokumentumfeldolgozási képességeket.
 
+### [API adatok lekérése Java-ban az Aspose.HTML segítségével - Teljes útmutató](./fetch-api-data-in-java-with-aspose-html-complete-guide/)
+Ismerje meg, hogyan lehet az Aspose.HTML használatával Java-ban API adatokat lekérni és feldolgozni.
+
 ## ZIP konvertálása JPG és PDF formátumba
  Szüksége volt már arra, hogy gyorsan kivonja a képeket egy tömörített fájlból? A[Konvertálja a ZIP-t JPG-be az Aspose.HTML for Java segítségével](./zip-to-jpg/) és[Konvertálja a ZIP-t PDF-be az Aspose.HTML for Java segítségével](./zip-to-pdf/) az oktatóanyagok eszközöket biztosítanak ezekhez a konkrét feladatokhoz. A fájlok konvertálásának nem kell nehézkes folyamatnak lennie – olyan egyszerű is lehet, mint egy vázlatot remekművé alakítani. Ezek az útmutatók lebontják a ZIP-fájlok hatékony konvertálásának lépéseit, bemutatva az Aspose.HTML for Java sokoldalúságát.
 
@@ -51,7 +54,6 @@ Ezzel az átfogó, lépésenkénti útmutatóval megtudhatja, hogyan hajthat vé
 ### [Konvertálja a ZIP-t JPG-be az Aspose.HTML for Java segítségével](./zip-to-jpg/)
 Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan konvertálhat ZIP-fájlokat JPG-képekké az Aspose.HTML for Java használatával.
 ### [Konvertálja a ZIP-t PDF-be az Aspose.HTML for Java segítségével](./zip-to-pdf/)
-Könnyen konvertálhatja ZIP-fájljait PDF-be az Aspose.HTML for Java segítségével ezzel a lépésről lépésre szóló útmutatóval.
 ### [java 11 httpclient authenticator – Teljes útmutató a biztonságos kérésekhez](./java-11-httpclient-authenticator-complete-guide-to-secure-re/)
 Fedezze fel, hogyan használhatja a Java 11 HttpClient authenticator-t a biztonságos HTTP kérésekhez, lépésről lépésre útmutatóval.
 ### [API lekérése Java-ban – Teljes útmutató az Aspose HTML V8 motor használatával](./how-to-fetch-api-in-java-complete-guide-using-aspose-html-v8/)
@@ -59,6 +61,8 @@ Fedezze fel, hogyan hívhat meg API-kat Java-ban az Aspose HTML V8 motor segí
 ### [JSON lekérése JavaScriptből Java-ban az Aspose HTML segítségével – Teljes útmutató](./fetch-json-javascript-in-java-with-aspose-html-complete-guid/)
 Ismerje meg, hogyan lehet Java-ban JSON adatot lekérni JavaScriptből az Aspose HTML könyvtár használatával.
 
+### [Egyéni felhasználói ügynök beállítása Java-ban – Weboldal betöltése sandboxban](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
+Ismerje meg, hogyan állíthat be egyedi felhasználói ügynököt Java-ban, és hogyan tölthet be weboldalakat biztonságos sandbox környezetben.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

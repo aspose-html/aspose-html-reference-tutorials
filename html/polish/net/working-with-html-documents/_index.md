@@ -47,6 +47,9 @@ Dowiedz się, jak zapisać dokument HTML w C# przy użyciu biblioteki Aspose.Htm
 
 Dowiedz się, jak zapisać dokument HTML jako archiwum ZIP w C# przy użyciu własnego obsługiwacza zasobów.
 ### [Utwórz dokument HTML w C# – Kompletny przewodnik z własnym obsługiwaczem zasobów](./create-html-document-c-complete-guide-with-custom-resource-h/)
+### [Jak zapisać HTML w C# – Kompletny przewodnik krok po kroku](./how-to-save-html-in-c-complete-step-by-step-guide/)
+
+Dowiedz się, jak zapisać plik HTML w C# krok po kroku, korzystając z podstawowych metod bez dodatkowych rozszerzeń.
 
 ### [Jak pogrubić nagłówek za pomocą CSS i C# – Kompletny przewodnik krok po kroku](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 
@@ -64,6 +67,26 @@ Dowiedz się, jak w C# wygenerować dokument HTML bezpośrednio z łańcucha zna
 ### [Ładowanie dokumentu HTML za pomocą Aspose.HTML – Kompletny przewodnik C#](./load-html-document-with-aspose-html-complete-c-guide/)
 
 ### [Jak spakować HTML w C# – Kompletny przewodnik krok po kroku](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+
+### [Tworzenie HTML z ciągu znaków w C# – Kompletny przewodnik z użyciem strumienia pamięci](./create-html-from-string-in-c-full-guide-with-memory-stream/)
+
+### [Jak zapisać HTML – Kompletny przewodnik po Aspose HTMLDocument](./how-to-save-html-aspose-htmldocument-complete-guide/)
+
+Dowiedz się, jak zapisać dokument HTML przy użyciu klasy Aspose.HTMLDocument, krok po kroku, z przykładami kodu.
+
+### [Utworzenie archiwum Zip dla HTML – Kompletny przewodnik C#](./create-zip-archive-for-html-complete-c-guide/)
+
+### [Zapisz HTML do ZIP – Kompletny przewodnik C# dla archiwów w pamięci](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
+
+Dowiedz się, jak zapisać dokument HTML bezpośrednio do archiwum ZIP w pamięci przy użyciu C# i Aspose.HTML.
+
+### [Tworzenie dokumentu HTML w pamięci przy użyciu Aspose.HTML – Kompletny przewodnik](./create-in-memory-html-document-with-aspose-html-complete-gui/)
+
+### [Jak zapisać HTML w C# – Kompletny przewodnik z własnym magazynem wyjściowym](./how-to-save-html-in-c-complete-guide-with-custom-output-stor/)
+
+Poznaj metodę zapisu HTML w C# z własnym magazynem wyjściowym, dającą pełną kontrolę nad przechowywaniem wyników.
+
+### [Ładowanie ciągu HTML w C# – kompletny przewodnik z własnym obsługiwaczem](./load-html-string-in-c-complete-guide-with-custom-handler/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

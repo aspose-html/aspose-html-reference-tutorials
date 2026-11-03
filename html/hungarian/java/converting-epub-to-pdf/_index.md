@@ -39,6 +39,9 @@ Testreszabhatod tovább az EPUB‑PDF konvertálást a PDF mentési beállítás
 ### [Hogyan ágyazzunk be betűtípusokat EPUB PDF konvertáláskor Java-ban](./how-to-embed-fonts-when-converting-epub-to-pdf-in-java/)
 Tanulja meg, hogyan ágyazhat be egyedi betűtípusokat az EPUB‑PDF konvertálás során az Aspose.HTML for Java használatával.
 
+### [EPUB konvertálása PDF‑be egyedi betűmérettel – Java útmutató](./convert-epub-to-pdf-with-custom-font-size-java-guide/)
+Tanulja meg, hogyan állíthatja be az egyedi betűméretet az EPUB‑PDF konvertálás során Java‑ban az Aspose.HTML segítségével.
+
 ## Digitális tartalom átalakítása
 Az EPUB‑PDF konvertálás csak a kezdet. Az Aspose.HTML for Java egy világot nyit meg a digitális tartalmad számára. Készíts könnyen hozzáférhető, vizuálisan vonzó és nagyon funkcionális dokumentumokat. Ugyanazt a motort kiterjesztheted **epub to jpg conversion** vagy **epub to png conversion** kezelésére is, ha képek kinyerésére van szükség e-könyvekből.
 
@@ -54,6 +57,8 @@ Nyisd meg az EPUB‑PDF konvertálást az Aspose.HTML for Java-val, a hatékony 
 
 ### [epub to pdf oktatóanyag – Konvertálja e-könyveit Java-val percek alatt](./epub-to-pdf-tutorial-convert-your-ebooks-with-java-in-minute/)
 Fedezze fel, hogyan konvertálhat EPUB fájlokat PDF‑be Java‑val percek alatt.
+### [EPUB konvertálása PDF-re Java-val – Lépésről‑lépésre útmutató](./convert-epub-to-pdf-with-java-step-by-step-guide/)
+Tanulja meg, hogyan konvertáljon EPUB‑t PDF‑re Java‑val részletes, lépésről‑lépésre útmutatóval.
 
 ### [Egyedi Stream Provider megadása EPUB‑PDF konvertáláshoz](./convert-epub-to-pdf-specify-custom-stream-provider/)
 Tanuld meg, hogyan konvertálj EPUB‑t PDF‑be Java‑ban könnyedén az Aspose.HTML segítségével, növelve dokumentumfeldolgozási képességeidet.
@@ -91,9 +96,6 @@ Ismerje meg, hogyan konvertálhat EPUB fájlokat PDF‑be Java és Aspose segít
 ### [Hogyan ágyazzunk be betűtípusokat PDF-be az Aspose HTML használatával – EPUB PDF konvertálási útmutató](./how-to-embed-fonts-in-pdf-using-aspose-html-convert-epub-to/)
 Tanulja meg, hogyan ágyazhat be egyedi betűtípusokat PDF-be az Aspose.HTML segítségével az EPUB‑PDF konvertálás során.
 
-### [EPUB konvertálása PDF‑be Java‑val – Lépésről‑lépésre útmutató](./convert-epub-to-pdf-with-java-step-by-step-guide/)
-Tanulja meg, hogyan konvertáljon EPUB‑t PDF‑be Java‑val részletes, lépésről‑lépésre útmutatóval.
-
 ### [Hogyan ágyazzunk be betűtípusokat az EPUB‑PDF konvertálásakor – Java útmutató](./how-to-embed-fonts-when-converting-epub-to-pdf-java-guide/)
 Ismerje meg, hogyan ágyazhat be egyedi betűtípusokat az EPUB‑PDF konvertálás során az Aspose.HTML for Java használatával.
 
@@ -102,6 +104,12 @@ Tanulja meg, hogyan konvertálja az e‑könyveket PDF‑be az Aspose.HTML for J
 
 ### [EPUB konvertálása PDF-be Java‑ban – Tartalomjegyzék hozzáadása és teljes útmutató](./convert-epub-to-pdf-in-java-add-toc-and-full-guide/)
 Ismerje meg, hogyan adhat hozzá tartalomjegyzéket az EPUB‑PDF konvertáláshoz Java‑ban, részletes lépésekkel.
+
+### [EPUB konvertálása PDF-be beágyazott betűtípusokkal Java-ban](./convert-epub-to-pdf-with-embedded-fonts-in-java/)
+Tanulja meg, hogyan ágyazhat be egyedi betűtípusokat az EPUB‑PDF konvertálás során Java‑ban az Aspose.HTML segítségével.
+
+### [EPUB konvertálása PDF-be Java-val – Teljes programozási útmutató](./convert-epub-to-pdf-with-java-complete-programming-guide/)
+Részletes útmutató az EPUB fájlok Java-val történő PDF-re konvertálásához az Aspose.HTML használatával.
 
 ## Gyakran Ismételt Kérdések
 

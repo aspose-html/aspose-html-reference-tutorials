@@ -150,6 +150,36 @@ Ismerje meg, hogyan engedélyezheti a JavaScript futtatását Java alkalmazások
 ### [Hogyan használjuk az Aspose HTML-t Java‑ban – Teljes XPath szűrési útmutató](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
 ### [Java hívása JavaScript‑ből – Host objektum hozzáadása és Java‑ban JavaScript futtatása](./call-java-from-javascript-add-host-object-and-run-javascript/)
 Tanulja meg, hogyan adhat hozzá host objektumot, és futtathat JavaScript‑et Java környezetben az Aspose.HTML for Java segítségével.
+### [top level await példa – Await delay használata JavaScriptben](./top-level-await-example-using-await-delay-in-javascript/)
+Ismerje meg, hogyan használhatja a top‑level await‑ot és az await delay‑t JavaScriptben az Aspose.HTML segítségével.
+### [JavaScript futtatása Java-ban – JS futtatása HTML‑ből](./execute-javascript-in-java-run-js-from-html/)
+Tanulja meg, hogyan futtathat JavaScript kódot Java‑ban HTML‑ből az Aspose.HTML for Java segítségével.
+### [HTML betöltése Java-ban – Teljes Aspose.HTML aszinkron példa](./how-to-load-html-in-java-complete-aspose-html-async-example/)
+### [JavaScript kiértékelése Java-ban – Teljes útmutató az Aspose.HTML‑vel](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
+Ismerje meg, hogyan értékelhet JavaScript kódot Java alkalmazásokban az Aspose.HTML segítségével, lépésről‑lépésre útmutatóval.
+### [Eszköz pixelarány beállítása Java‑ban – Mobil szimulációs útmutató](./set-device-pixel-ratio-in-java-mobile-simulation-guide/)
+### [Hogyan engedélyezzük a JavaScriptet a Java HTMLDocument‑ben – Lépésről‑lépésre útmutató](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
+### [Java több szálas oktatóanyag: Feladatok párhuzamos futtatása fix szálkészlettel](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
+Ismerje meg, hogyan futtathat feladatokat párhuzamosan fix méretű szálkészlettel a Java ExecutorService használatával.
+### [Java-ban JavaScript végrehajtása – Teljes útmutató az elemek body-hoz való hozzáadásához](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
+### [Hogyan állítsuk be a DPI-t SVG‑ről PNG‑re konvertáláskor az Aspose‑val – Java útmutató](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
+Ismerje meg, hogyan állíthatja be a DPI értéket SVG‑k PNG‑re konvertálásakor az Aspose.HTML for Java használatával.
+### [Java‑ból JavaScript futtatása – Egyéni User-Agent beállítása az Aspose.HTML‑lel](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
+Ismerje meg, hogyan állíthat be egyedi User-Agent fejlécet JavaScript futtatásakor Aspose.HTML segítségével.
+### [Hogyan használjuk az Executor‑t Java‑ban – Fix szálkészlet útmutató](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
+Ismerje meg, hogyan hozhat létre és kezelhet fix szálkészletű Executor szolgáltatást Java‑ban a hatékony párhuzamos feldolgozáshoz.
+### [EPUB konvertálása DOCX-be Java‑ban – Teljes lépésről‑lépésre útmutató](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
+Ismerje meg, hogyan konvertálhatja az EPUB fájlokat DOCX formátumba Java‑val az Aspose.HTML for Java segítségével, részletes lépésekkel.
+### [SVG konvertálása AVIF-re Java‑val – Teljes lépésről‑lépésre útmutató](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
+### [Eszköz DPI beállítása Aspose Java‑val – Teljes Sandbox útmutató](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
+### [XPath névtérrel Java‑ban – Teljes útmutató SVG elemek kiválasztásához](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
+### [JavaScript futtatása Java-ban – Teljes Aspose.HTML útmutató](./execute-javascript-in-java-complete-aspose-html-guide/)
+Ismerje meg, hogyan futtathat JavaScript kódot Java‑ban az Aspose.HTML segítségével.
+### [JavaScript végrehajtás engedélyezése Aspose – Teljes Java útmutató](./enable-javascript-execution-aspose-complete-java-guide/)
+Ismerje meg, hogyan engedélyezheti a JavaScript futtatását Aspose.HTML-ben Java környezetben, lépésről‑lépésre útmutatóval.
+### [HTML sandbox létrehozása Java‑ban – Teljes lépésről‑lépésre útmutató](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
+### [JavaScript futtatása Java-ban az Aspose.HTML használatával – Teljes útmutató](./execute-javascript-in-java-using-aspose-html-complete-guide/)
+Ismerje meg, hogyan futtathat JavaScript kódot Java környezetben az Aspose.HTML segítségével, lépésről‑lépésre útmutató.
 
 ---
 
@@ -197,6 +227,9 @@ Tanulja meg, hogyan hívhat meg és futtathat JavaScript kódot közvetlenül Ja
 Ismerje meg, hogyan engedélyezheti a Java-ban a JavaScript futtatását az Aspose.HTML segítségével, és használja ki a teljes funkcionalitást.
 ### [Hogyan használja a Sandbox-ot HTML‑ről PDF‑re Java‑ban – Lépésről‑lépésre útmutató](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
 Ismerje meg, hogyan használhatja a Sandbox‑ot HTML‑ből PDF‑re konvertáláshoz Java‑ban, részletes lépésről‑lépésre útmutatóval.
+
+### [Java‑ban JavaScript futtatása Aspose.HTML segítségével](./execute-javascript-in-java-using-aspose-html/)
+Ismerje meg, hogyan futtathat JavaScript kódot Java alkalmazásokban az Aspose.HTML könyvtár segítségével.
 
 ---
 

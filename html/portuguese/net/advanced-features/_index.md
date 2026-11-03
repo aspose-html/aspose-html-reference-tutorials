@@ -36,6 +36,8 @@ Aprenda a criar documentos HTML impressionantes em .NET com Aspose.HTML. Siga no
 Aprenda a criar e usar fluxos de memória personalizados em C# com Aspose.HTML, passo a passo e exemplos práticos.
 ### [Web Scraping em .NET com Aspose.HTML](./web-scraping/)
 Aprenda a manipular documentos HTML em .NET com Aspose.HTML. Navegue, filtre, consulte e selecione elementos de forma eficaz para desenvolvimento web aprimorado.
+### [Como habilitar Clear Type – Ativar modo de suavização no .NET](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
+Aprenda a melhorar a renderização de texto no .NET ativando o Clear Type e o modo de suavização para fontes mais nítidas.
 ### [Use a propriedade de conteúdo estendido no .NET com Aspose.HTML](./use-extended-content-property/)
 Aprenda a criar conteúdo web dinâmico usando Aspose.HTML para .NET. Nosso tutorial abrange pré-requisitos, instruções passo a passo e FAQs para iniciantes.
 ### [Gerar PDF criptografado por PdfDevice em .NET com Aspose.HTML](./generate-encrypted-pdf-by-pdfdevice/)
@@ -54,6 +56,10 @@ Aprenda a criar um manipulador de recursos personalizado no Aspose HTML e salv
 Aprenda a compactar arquivos HTML em um arquivo ZIP usando Aspose HTML, com exemplos passo a passo e dicas práticas.
 ### [Salvar documento como PDF em C# – Guia completo com suporte a ZIP](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
 Aprenda a salvar documentos HTML como PDF em C#, incluindo como compactar o resultado em um arquivo ZIP, passo a passo.
+### [Converter documento Word para PDF – Guia de texto claro (C#)](./convert-word-document-to-pdf-clear-text-guide-c/)
+Aprenda a converter documentos Word em PDFs usando Aspose.HTML para .NET, mantendo o texto claro e a formatação, com exemplos passo a passo.
+### [Salvar HTML em ZIP com C# – criar arquivo ZIP em C# usando Aspose](./save-html-to-zip-with-c-create-zip-archive-c-using-aspose/)
+Aprenda a salvar documentos HTML em um arquivo ZIP usando C# e Aspose.HTML, com exemplos passo a passo.
 
 ## Conclusão
 

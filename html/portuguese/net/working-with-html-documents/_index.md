@@ -46,6 +46,16 @@ Antes de mergulharmos nas especificidades da criação e edição de documentos 
 ### [Carregar documento HTML com Aspose.HTML – Guia completo em C#](./load-html-document-with-aspose-html-complete-c-guide/)
 
 ### [Como compactar HTML em C# – Guia completo passo a passo](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+### [Criar HTML a partir de string em C# – Guia completo com Memory Stream](./create-html-from-string-in-c-full-guide-with-memory-stream/)
+### [Como salvar HTML em C# – Guia completo passo a passo](./how-to-save-html-in-c-complete-step-by-step-guide/)
+### [Como salvar HTML – Guia completo do Aspose HTMLDocument](./how-to-save-html-aspose-htmldocument-complete-guide/)
+### [Criar arquivo Zip para HTML – Guia completo em C#](./create-zip-archive-for-html-complete-c-guide/)
+
+### [Salvar HTML em Zip – Guia completo em C# para arquivos em memória](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
+### [Criar Documento HTML em Memória com Aspose.HTML – Guia Completo](./create-in-memory-html-document-with-aspose-html-complete-gui/)
+### [Como salvar HTML em C# – Guia completo com armazenamento de saída personalizado](./how-to-save-html-in-c-complete-guide-with-custom-output-stor/)
+
+### [Como carregar string HTML em C# – Guia completo com manipulador personalizado](./load-html-string-in-c-complete-guide-with-custom-handler/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

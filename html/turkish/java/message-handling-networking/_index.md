@@ -57,7 +57,11 @@ Java için Aspose.HTML V8 motoru ile API'leri nasıl çekeceğinizi adım adım 
 ### [Java için Aspose.HTML'de Yetkilendirme Başlığını Ayarlama – URL’den HTML Yükleme Tam Kılavuzu](./set-authorization-header-in-java-complete-guide-to-load-html/)
 Bu kapsamlı rehber, Java’da Aspose.HTML kullanarak URL’den HTML yüklerken yetkilendirme başlığını nasıl ayarlayacağınızı adım adım gösterir.
 ### [Java’da Aspose HTML ile JSON JavaScript Getirme – Tam Kılavuz](./fetch-json-javascript-in-java-with-aspose-html-complete-guid/)
+### [Java için Aspose.HTML'de Özel Kullanıcı Aracısı Ayarlama – Sandbox'ta Web Sayfası Yükleme öğreticisi](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
+Bu öğreticide Java'da özel bir kullanıcı aracısı ayarlayarak sandbox ortamında bir web sayfası nasıl yükleneceğini öğrenin.
 
+### [Java için Aspose.HTML ile API Verilerini Getirme - Tam Kılavuz](./fetch-api-data-in-java-with-aspose-html-complete-guide/)
+Java için Aspose.HTML kullanarak API'den veri çekmeyi adım adım öğrenin ve uygulamalarınıza entegre edin.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

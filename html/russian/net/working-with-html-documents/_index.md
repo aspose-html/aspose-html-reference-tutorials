@@ -39,11 +39,13 @@ HTML-документы являются основой Интернета, и �
 ### [Как сохранить HTML с Aspose – Полное руководство на C#](./how-to-save-html-with-aspose-complete-c-guide/)
 
 Подробное руководство по сохранению HTML-файлов с помощью Aspose.HTML в C#, включая настройку обработчиков ресурсов.
+### [Создание HTML‑документа в памяти с Aspose.HTML – Полное руководство](./create-in-memory-html-document-with-aspose-html-complete-gui/)
+### [Как загрузить HTML-строку в C# – полное руководство с пользовательским обработчиком](./load-html-string-in-c-complete-guide-with-custom-handler/)
 
 ### [Как сохранить HTML в C# – Полное руководство с использованием пользовательского обработчика ресурсов](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
-
 ### [Как сохранить HTML в C# с пользовательским обработчиком ресурсов](./how-to-save-html-in-c-with-custom-resource-handler/)
 
+### [Как сохранить HTML в C# – Полное руководство с пользовательским хранилищем вывода](./how-to-save-html-in-c-complete-guide-with-custom-output-stor/)
 ### [Как сделать заголовок жирным с помощью CSS и C# – Полное пошаговое руководство](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 ### [Как сохранить HTML в C# – Пользовательские обработчики ресурсов и ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
 
@@ -60,6 +62,16 @@ HTML-документы являются основой Интернета, и �
 ### [Загрузка HTML-документа с Aspose.HTML – Полное руководство на C#](./load-html-document-with-aspose-html-complete-c-guide/)
 
 ### [Как заархивировать HTML в C# – Полное пошаговое руководство](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+
+### [Создать HTML из строки в C# – Полное руководство с Memory Stream](./create-html-from-string-in-c-full-guide-with-memory-stream/)
+
+### [Как сохранить HTML в C# – Полное пошаговое руководство](./how-to-save-html-in-c-complete-step-by-step-guide/)
+
+### [Как сохранить HTML – Полное руководство по Aspose HTMLDocument](./how-to-save-html-aspose-htmldocument-complete-guide/)
+
+### [Создание ZIP-архива для HTML – Полное руководство на C#](./create-zip-archive-for-html-complete-c-guide/)
+
+### [Сохранить HTML в Zip – Полное руководство C# для архивов в памяти](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

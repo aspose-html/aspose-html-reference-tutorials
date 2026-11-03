@@ -83,6 +83,30 @@ Aspose.HTML для .NET выделяется своей простотой и м
 Узнайте, как создавать HTML‑документы и добавлять CSS‑стили с помощью Aspose.HTML в .NET, следуя пошаговым инструкциям.
 ### [Создание HTML‑документа C# – пошаговое руководство](./create-html-document-c-step-by-step-guide/)
 Узнайте, как создавать HTML‑документы в C# с помощью Aspose.HTML, следуя пошаговым инструкциям и примерам.
+### [Как создать HTML – Добавление элементов и стилизация текста](./how-to-create-html-append-elements-and-style-text/)
+Узнайте, как создавать HTML, добавлять элементы и стилизовать текст с помощью Aspose.HTML для .NET.
+### [Как стилизовать HTML с Aspose.HTML – Установить стиль шрифта в C#](./how-to-style-html-with-aspose-html-set-font-style-in-c/)
+Узнайте, как задать стиль шрифта для HTML‑элементов с помощью Aspose.HTML в C#.
+### [Объединение жирного и курсивного в HTML с C# – Полное руководство](./combine-bold-and-italic-in-html-with-c-complete-guide/)
+Узнайте, как с помощью Aspose.HTML для .NET применять одновременно жирный и курсивный стили к элементам HTML в C#.
+### [Как сохранить HTML с Aspose.HTML – пошаговое руководство](./how-to-save-html-with-aspose-html-step-by-step-guide/)
+Узнайте, как сохранять HTML‑документы с помощью Aspose.HTML в .NET. Пошаговое руководство с примерами кода.
+### [Применение стиля шрифта программно – Быстрое руководство C#](./apply-font-style-programmatically-quick-c-guide/)
+Узнайте, как программно изменить стиль шрифта в HTML с помощью Aspose.HTML для .NET в кратком руководстве на C#.
+### [Как создать HTML с оформленным текстом – Полное руководство C#](./how-to-create-html-with-styled-text-complete-c-guide/)
+Узнайте, как создавать HTML‑документы со стилизованным текстом в C# с помощью Aspose.HTML. Подробный пошаговый пример.
+### [Создание HTML-документа с Aspose.HTML – Полное руководство](./create-html-document-with-aspose-html-full-guide/)
+Подробное руководство по созданию HTML‑документов с помощью Aspose.HTML в .NET, включая примеры кода и лучшие практики.
+### [Установить innerHTML span в C# с Aspose.HTML – Полное руководство](./set-span-innerhtml-in-c-with-aspose-html-complete-guide/)
+Узнайте, как установить innerHTML элемента span в C# с помощью Aspose.HTML и управлять содержимым HTML.
+### [Изменение стиля абзаца в C# – Полное руководство Aspose.HTML](./change-paragraph-style-in-c-complete-aspose-html-guide/)
+Узнайте, как изменить стиль абзаца в C# с помощью Aspose.HTML. Полное пошаговое руководство с примерами.
+### [Создание полужирного курсивного шрифта в C# – Полное руководство](./create-font-bold-italic-in-c-complete-guide/)
+Узнайте, как создать полужирный курсивный шрифт в C# с помощью Aspose.HTML. Пошаговое руководство с примерами.
+### [Создание HTML-документа в памяти с Aspose.HTML – Полное руководство](./create-html-document-memory-with-aspose-html-complete-guide/)
+Узнайте, как создавать HTML-документы в памяти с помощью Aspose.HTML, используя полный пошаговый гид.
+### [Создание HTML-документа в C# – Полное руководство по программированию](./create-html-document-in-c-complete-programming-guide/)
+Полное руководство по созданию HTML-документов в C# с использованием Aspose.HTML, включая примеры кода и лучшие практики.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

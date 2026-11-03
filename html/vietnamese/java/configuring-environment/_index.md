@@ -125,6 +125,10 @@ Tìm hiểu cách thiết lập stylesheet người dùng tùy chỉnh trong Asp
 Tìm hiểu cách tạo sandbox trong Java một cách chi tiết, bảo vệ môi trường thực thi khi chuyển đổi HTML sang PDF.
 ### [Set User Agent for Headless HTML Rendering – Complete Guide](./set-user-agent-for-headless-html-rendering-complete-guide/)
 Tìm hiểu cách cấu hình User Agent khi render HTML không giao diện trong Aspose.HTML for Java để kiểm soát yêu cầu mạng và tránh lỗi.
+### [Trích xuất tiêu đề từ HTML trong Java – Hướng dẫn Sandbox đầy đủ](./extract-title-from-html-in-java-complete-sandbox-guide/)
+Tìm hiểu cách trích xuất tiêu đề từ tài liệu HTML trong Java và áp dụng sandbox để bảo mật quá trình xử lý.
+### [Cách thiết lập DPI trong Aspose.HTML Sandbox – Hướng dẫn Java đầy đủ](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
+### [Cách sử dụng Sandbox – Đặt User Agent và Lấy kích thước Viewport](./how-to-use-sandbox-set-user-agent-get-viewport-size/)
 
 ---
 

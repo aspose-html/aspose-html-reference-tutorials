@@ -58,10 +58,20 @@ Apprenez à charger des documents HTML en Java avec Aspose.HTML, en utilisant XP
 Apprenez à créer des documents HTML à partir de chaînes dans Aspose.HTML pour Java avec ce guide étape par étape.
 ### [Créer du HTML à partir de Markdown en Java – Guide complet étape par étape](./create-html-from-markdown-in-java-full-step-by-step-guide/)
 Apprenez à convertir du Markdown en HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
+### [Créer un document HTML Java – Guide étape par étape avec Aspose.HTML](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
+Apprenez à créer un document HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
+### [Créer un document HTML avec JavaScript intégré – Exemple Java](./create-html-document-with-embedded-javascript-java-example/)
+Apprenez à créer un document HTML contenant du JavaScript intégré en Java avec Aspose.HTML. Guide pas à pas.
 ### [Charger des documents HTML à partir d'une URL dans Aspose.HTML pour Java](./load-html-documents-from-url/)
 Découvrez comment charger facilement des documents HTML à partir d'une URL en Java avec Aspose.HTML. Tutoriel étape par étape inclus.
 ### [Charger un document HTML avec Aspose – Guide rapide Java pour récupérer le titre de la page](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
 Apprenez à charger un document HTML avec Aspose.HTML en Java et à extraire le titre de la page grâce à ce guide rapide.
+### [Comment lire un fichier XHTML en Java – Exemple d'espace de noms XPath](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
+Apprenez à lire un fichier XHTML en Java en utilisant XPath avec gestion des espaces de noms. Guide étape par étape.
+### [Créer un document HTML avec Aspose.HTML – Guide complet Java](./create-html-document-with-aspose-html-complete-java-guide/)
+Apprenez à créer un document HTML avec Aspose.HTML en Java grâce à ce guide complet étape par étape.
+### [Charger du HTML depuis une URL en Java – Guide complet avec CSS et XPath](./load-html-from-url-in-java-complete-guide-with-css-xpath/)
+Apprenez à charger des documents HTML depuis une URL en Java avec Aspose.HTML, en utilisant CSS et XPath. Guide complet étape par étape.
 ### [Générer de nouveaux documents HTML à l'aide d'Aspose.HTML pour Java](./generate-new-html-documents/)
 Apprenez à créer de nouveaux documents HTML à l'aide d'Aspose.HTML pour Java grâce à ce guide étape par étape simple. Commencez à générer du contenu HTML dynamique.
 ### [Gérer les événements de chargement de documents dans Aspose.HTML pour Java](./handle-document-load-events/)
@@ -128,6 +138,46 @@ Apprenez à charger du HTML en Java et comparez XPath et sélecteurs CSS pour ex
 Apprenez à exécuter du code JavaScript dans un document HTML avec Aspose.HTML pour Java et à ajouter dynamiquement des éléments.
 ### [Créer un élément HTML avec Java ExecutorService – Démonstration thread‑safe](./create-html-element-with-java-executorservice-thread-safe-de/)
 Apprenez à créer un élément HTML en toute sécurité avec ExecutorService en Java, démonstration de gestion multithread avec Aspose.HTML.
+### [Comment interroger xpath en Java avec Aspose – Guide étape par étape](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
+Apprenez à interroger des documents HTML avec XPath en Java en utilisant Aspose.HTML grâce à ce guide complet étape par étape.
+### [Exécuter plusieurs threads Java – utiliser try-with-resources Java](./run-multiple-threads-java-use-try-with-resources-java/)
+Apprenez à gérer plusieurs threads en Java avec l'instruction try-with-resources pour une gestion sûre des ressources.
+### [Sélectionner un div par classe en Java – Guide complet XPath](./select-div-by-class-in-java-complete-xpath-guide/)
+Apprenez à sélectionner des éléments div par classe en Java en utilisant XPath avec ce guide complet étape par étape.
+### [Rendu HTML en Java – Guide complet pour attendre le chargement de la page et le sélecteur de requête](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
+Apprenez à rendre du HTML en Java, à attendre le chargement complet de la page et à utiliser querySelector pour extraire du contenu.
+### [Convertir le Markdown en HTML en Java – Guide étape par étape](./convert-markdown-to-html-in-java-step-by-step-guide/)
+Apprenez à convertir du Markdown en HTML en Java avec Aspose.HTML. Guide complet étape par étape pour transformer facilement votre contenu.
+### [Extraire le HTML d'un MHTML – Guide complet Java](./extract-html-from-mhtml-complete-java-guide/)
+Apprenez à extraire le contenu HTML d'un fichier MHTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
+### [Comment rechercher du HTML – Guide Java pour trouver du texte](./how-to-search-html-java-guide-for-finding-text/)
+Apprenez à rechercher du texte dans des documents HTML en Java avec Aspose.HTML grâce à ce guide étape par étape.
+### [Comment utiliser querySelectorAll en Java – Filtrer par classe](./how-to-use-queryselectorall-in-java-filter-by-class/)
+Apprenez à utiliser querySelectorAll en Java pour sélectionner des éléments HTML en filtrant par classe, avec un guide étape par étape.
+### [Comment interroger le HTML avec Aspose.HTML – Guide complet Java](./how-to-query-html-with-aspose-html-complete-java-guide/)
+Apprenez à interroger le HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
+### [Convertir le Markdown en HTML en Java – Guide rapide avec Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
+Apprenez à transformer du Markdown en HTML en Java avec Aspose.HTML grâce à ce guide rapide et pratique.
+### [Récupérer JSON JavaScript – Guide complet Java pour créer un document HTML](./fetch-json-javascript-complete-java-guide-to-create-html-doc/)
+
+### [Comment rechercher du HTML avec Aspose Java – Guide complet de programmation](./how-to-search-html-with-aspose-java-complete-programming-gui/)
+Apprenez à interroger et extraire des données HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
+### [Créer une div avec classe java – Exemple complet utilisant Aspose.HTML](./create-div-with-class-java-full-example-using-aspose-html/)
+Apprenez à créer une balise div avec une classe en Java en utilisant Aspose.HTML, exemple complet pas à pas.
+### [Récupérer du JSON avec JavaScript en Java – Guide complet](./fetch-json-with-javascript-in-java-full-guide/)
+Apprenez à récupérer du JSON via JavaScript dans des applications Java avec Aspose.HTML. Guide complet étape par étape.
+### [Charger JSON avec Fetch en Java – Guide complet](./load-json-with-fetch-in-java-complete-guide/)
+Apprenez à charger des données JSON en Java en utilisant Fetch, avec un guide complet étape par étape.
+### [Extraire le titre de page avec Java – Guide complet utilisant Aspose.HTML](./extract-page-title-with-java-full-guide-using-aspose-html/)
+Apprenez à extraire le titre d'une page HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
+### [Comment démarrer un thread en Java – Guide complet](./how-to-start-thread-in-java-complete-guide/)
+Apprenez à créer et gérer des threads en Java avec Aspose.HTML, guide complet étape par étape pour une exécution multithread efficace.
+### [Lire un fichier HTML en Java – Guide complet avec Aspose.HTML](./read-html-file-java-complete-guide-using-aspose-html/)
+Apprenez à lire des fichiers HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
+### [Obtenir le style calculé en Java – Guide complet de programmation](./get-computed-style-java-complete-programming-guide/)
+Apprenez à récupérer le style calculé d'un élément HTML en Java avec Aspose.HTML. Guide complet étape par étape.
+### [Charger un document HTML en Java – Guide complet avec CSS et requêtes XPath](./load-html-document-java-complete-guide-with-css-xpath-querie/)
+Apprenez à charger des documents HTML en Java, à appliquer du CSS et à interroger le contenu avec XPath grâce à ce guide complet.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -60,6 +60,10 @@ Scopri come gestire le proprietà HTML interne ed esterne in Aspose.HTML per Jav
 Impara a implementare CSS interni nei documenti HTML utilizzando Aspose.HTML per Java con il nostro semplice tutorial passo dopo passo.
 ### [Modifica il testo h1 in MHTML con Java – Guida completa passo‑passo](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
 Scopri come cambiare il contenuto dell'elemento h1 in un file MHTML usando Aspose.HTML per Java, con istruzioni dettagliate passo dopo passo.
+### [Estrai HTML in Java – Estrai testo e evidenzia parole](./how-to-extract-html-in-java-extract-text-highlight-words/)
+Scopri come estrarre testo da HTML in Java e evidenziare parole chiave con Aspose.HTML.
+### [Caricamento modello HTML Java – Guida completa Aspose.HTML](./load-html-template-java-complete-aspose-html-guide/)
+Scopri come caricare un modello HTML in Java usando Aspose.HTML, con esempi completi passo passo.
 ### [Pool di thread fisso Java – Pulizia HTML parallela con ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Scopri come utilizzare un pool di thread fisso per pulire documenti HTML in parallelo con ExecutorService in Aspose.HTML per Java.
 ### [Aggiungere un figlio al body in Java – Tutorial completo Aspose.HTML](./append-child-to-body-in-java-full-aspose-html-tutorial/)
@@ -72,6 +76,13 @@ Scopri come aggiungere un nodo figlio al DOM in Java usando Aspose.HTML. Una gui
 Scopri come rimuovere gli script da documenti HTML con Aspose.HTML per Java. Una guida completa passo passo per una pulizia sicura.
 ### [Come evidenziare HTML – Cerca testo e sostituisci con <mark>](./how-to-highlight-html-search-text-replace-with-mark/)
 Scopri come evidenziare parti di HTML cercando testo e sostituendolo con il tag <mark> usando Aspose.HTML per Java.
+### [Rilascio automatico del lock in Java – Tutorial di editing HTML thread‑safe](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
+Scopri come rilasciare automaticamente i lock in Java per modificare documenti HTML in modo thread‑safe.
+
+### [Recuperare l'attributo dell'elemento Java – Guida completa alla selezione SVG e XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
+Scopri come ottenere gli attributi degli elementi SVG usando XPath con Aspose.HTML per Java, passo dopo passo.
+### [Esegui JavaScript in HTML con Aspose.HTML per Java – Guida completa](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
+Scopri come eseguire JavaScript in documenti HTML usando Aspose.HTML per Java con questa guida completa passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

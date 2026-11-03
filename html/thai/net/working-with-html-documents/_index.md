@@ -38,7 +38,16 @@ url: /th/net/working-with-html-documents/
 
 ### [วิธีบันทึก HTML ใน C# – คู่มือฉบับสมบูรณ์โดยใช้ Custom Resource Handler](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 ### [วิธีบันทึก HTML ใน C# ด้วย Custom Resource Handler](./how-to-save-html-in-c-with-custom-resource-handler/)
+### [วิธีบันทึก HTML ใน C# – คู่มือขั้นตอนเต็ม](./how-to-save-html-in-c-complete-step-by-step-guide/)
+เรียนรู้วิธีบันทึกไฟล์ HTML ด้วย C# อย่างละเอียดตามขั้นตอนเต็มรูปแบบเพื่อให้คุณสามารถจัดการและบันทึกเนื้อหาเว็บได้อย่างง่ายดาย
+### [วิธีบันทึก HTML – คู่มือฉบับสมบูรณ์ของ Aspose HTMLDocument](./how-to-save-html-aspose-htmldocument-complete-guide/)
+เรียนรู้วิธีบันทึกไฟล์ HTML อย่างครบถ้วนด้วย Aspose HTMLDocument พร้อมตัวอย่างโค้ดและเคล็ดลับสำคัญ
+### [วิธีบันทึก HTML ใน C# – คู่มือฉบับสมบูรณ์ด้วยการจัดเก็บผลลัพธ์แบบกำหนดเอง](./how-to-save-html-in-c-complete-guide-with-custom-output-stor/)
+เรียนรู้วิธีบันทึกไฟล์ HTML ด้วย C# พร้อมการจัดเก็บผลลัพธ์แบบกำหนดเองอย่างละเอียด
+
 ### [วิธีทำให้หัวเรื่องเป็นตัวหนาด้วย CSS & C# – คู่มือขั้นตอนเต็ม](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+### [โหลดสตริง HTML ใน C# – คู่มือฉบับสมบูรณ์ด้วยตัวจัดการแบบกำหนดเอง](./load-html-string-in-c-complete-guide-with-custom-handler/)
+
 เรียนรู้วิธีทำให้หัวเรื่องเป็นตัวหนาด้วย CSS ใน C# อย่างละเอียด พร้อมขั้นตอนครบถ้วนเพื่อปรับปรุงการออกแบบเว็บของคุณ
 ### [วิธีบันทึก HTML ใน C# – ตัวจัดการทรัพยากรแบบกำหนดเอง & ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
 
@@ -65,6 +74,18 @@ url: /th/net/working-with-html-documents/
 
 ### [วิธีบีบอัด HTML ใน C# – คู่มือขั้นตอนเต็ม](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 เรียนรู้วิธีบีบอัดไฟล์ HTML ด้วย C# อย่างละเอียด พร้อมขั้นตอนและตัวอย่างโค้ดเพื่อเพิ่มประสิทธิภาพการจัดเก็บ
+
+### [สร้าง HTML จากสตริงใน C# – คู่มือฉบับเต็มด้วย Memory Stream](./create-html-from-string-in-c-full-guide-with-memory-stream/)
+เรียนรู้วิธีสร้าง HTML จากสตริงใน C# ด้วย Memory Stream อย่างละเอียดและครบถ้วน
+
+### [สร้างไฟล์ Zip สำหรับ HTML – คู่มือฉบับสมบูรณ์ C#](./create-zip-archive-for-html-complete-c-guide/)
+เรียนรู้วิธีสร้างไฟล์ Zip ที่บรรจุไฟล์ HTML ด้วย C# อย่างละเอียดและครบถ้วน
+
+### [บันทึก HTML เป็น Zip – คู่มือ C# ฉบับสมบูรณ์สำหรับการจัดเก็บในหน่วยความจำ](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
+เรียนรู้วิธีบันทึกไฟล์ HTML ลงในไฟล์ Zip โดยใช้ C# และจัดการเป็น Archive ในหน่วยความจำอย่างเต็มรูปแบบ
+
+### [สร้างเอกสาร HTML ในหน่วยความจำด้วย Aspose.HTML – คู่มือฉบับสมบูรณ์](./create-in-memory-html-document-with-aspose-html-complete-gui/)
+เรียนรู้วิธีสร้างเอกสาร HTML ในหน่วยความจำโดยใช้ Aspose.HTML อย่างละเอียดและครบถ้วน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

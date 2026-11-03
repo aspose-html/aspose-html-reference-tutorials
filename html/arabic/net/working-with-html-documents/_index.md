@@ -41,6 +41,7 @@ url: /ar/net/working-with-html-documents/
 
 ### [كيفية حفظ HTML كملف ZIP في C# – دليل كامل باستخدام معالج موارد مخصص](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
 ### [إنشاء مستند HTML C# – دليل كامل مع معالج موارد مخصص](./create-html-document-c-complete-guide-with-custom-resource-h/)
+### [كيفية حفظ HTML في C# – دليل كامل مع تخزين مخرجات مخصص](./how-to-save-html-in-c-complete-guide-with-custom-output-stor/)
 
 ### [كيفية جعل العنوان غامقًا باستخدام CSS و C# – دليل خطوة بخطوة كامل](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 ### [كيفية حفظ HTML في C# – معالجات الموارد المخصصة وZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
@@ -52,6 +53,15 @@ url: /ar/net/working-with-html-documents/
 ### [تحميل مستند HTML باستخدام Aspose.HTML – دليل كامل C#](./load-html-document-with-aspose-html-complete-c-guide/)
 
 ### [كيفية ضغط HTML في C# – دليل خطوة بخطوة كامل](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+### [إنشاء HTML من سلسلة في C# – دليل كامل مع تدفق الذاكرة](./create-html-from-string-in-c-full-guide-with-memory-stream/)
+### [كيفية حفظ HTML في C# – دليل خطوة بخطوة كامل](./how-to-save-html-in-c-complete-step-by-step-guide/)
+
+### [كيفية حفظ HTML – دليل كامل لـ Aspose HTMLDocument](./how-to-save-html-aspose-htmldocument-complete-guide/)
+### [إنشاء أرشيف Zip للـ HTML – دليل كامل C#](./create-zip-archive-for-html-complete-c-guide/)
+### [حفظ HTML إلى Zip – دليل كامل C# للأرشيفات في الذاكرة](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
+
+### [إنشاء مستند HTML في الذاكرة باستخدام Aspose.HTML – دليل كامل](./create-in-memory-html-document-with-aspose-html-complete-gui/)
+### [تحميل سلسلة HTML في C# – دليل كامل مع معالج مخصص](./load-html-string-in-c-complete-guide-with-custom-handler/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -37,7 +37,9 @@ Jakmile pochopíte základy, ponoříme se hlouběji do procesu tvorby. V této 
 Nyní posuňte vaše dovednosti na další úroveň. Úpravy HTML dokumentů jsou běžným úkolem webových vývojářů a Aspose.HTML tento proces výrazně zjednodušuje. V této části se budeme zabývat tvorbou dokumentu, manipulací s ním a stylováním. Zjistíte, jak vylepšit vzhled a funkčnost vašeho webového obsahu, aby byl poutavý a uživatelsky přívětivý.
 
 ### [Jak uložit HTML v C# – Kompletní průvodce pomocí vlastního resource handleru](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
+### [Jak uložit HTML v C# – Kompletní průvodce s vlastním úložištěm výstupu](./how-to-save-html-in-c-complete-guide-with-custom-output-stor/)
 
+### [Načtení HTML řetězce v C# – kompletní průvodce s vlastním handlerem](./load-html-string-in-c-complete-guide-with-custom-handler/)
 ### [Jak zvýraznit nadpis tučným písmem pomocí CSS a C# – Kompletní průvodce krok za krokem](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 ### [Jak uložit HTML v C# – Vlastní manipulátory zdrojů a ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
 ### [Jak uložit HTML pomocí Aspose.Html – Kompletní průvodce v C#](./how-to-save-html-with-aspose-html-complete-c-guide/)
@@ -51,6 +53,17 @@ Nyní posuňte vaše dovednosti na další úroveň. Úpravy HTML dokumentů jso
 ### [Načtení HTML dokumentu pomocí Aspose.HTML – Kompletní průvodce v C#](./load-html-document-with-aspose-html-complete-c-guide/)
 
 ### [Jak zipovat HTML v C# – Kompletní průvodce krok za krokem](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+
+### [Vytvoření HTML ze řetězce v C# – Kompletní průvodce s Memory Stream](./create-html-from-string-in-c-full-guide-with-memory-stream/)
+### [Jak uložit HTML v C# – Kompletní průvodce krok za krokem](./how-to-save-html-in-c-complete-step-by-step-guide/)
+### [Jak uložit HTML – Kompletní průvodce Aspose HTMLDocument](./how-to-save-html-aspose-htmldocument-complete-guide/)
+
+### [Vytvořit zip archiv pro HTML – Kompletní průvodce v C#](./create-zip-archive-for-html-complete-c-guide/)
+
+### [Uložit HTML do ZIP – Kompletní průvodce v C# pro archivaci v paměti](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
+
+### [Vytvoření HTML dokumentu v paměti pomocí Aspose.HTML – Kompletní průvodce](./create-in-memory-html-document-with-aspose-html-complete-gui/)
+Naučte se, jak pomocí Aspose.HTML vytvořit HTML dokument přímo v paměti bez ukládání na disk, krok za krokem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

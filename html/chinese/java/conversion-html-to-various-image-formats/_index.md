@@ -38,7 +38,7 @@ weight: 24
 - Aspose.HTML for Java JAR（从 Aspose 网站下载）。  
 - 生产环境的有效 Aspose.HTML 许可证（试用可选）。  
 
-## 如何使用 Aspose.HTML **convert html gif**、**convert html jpeg** 和 **convert html png**
+## 如何使用 Aspose.HTML **convert html gif**, **convert html jpeg** 和 **convert html png**
 以下是每种目标格式的简明分步说明。代码片段除输出文件扩展名外完全相同；只需更改 `ImageSaveOptions` 的格式即可。
 
 ### 步骤 1：设置 HTML 渲染器
@@ -92,6 +92,9 @@ weight: 24
 
 ### [使用 Java 从 SVG 创建 GIF – 完整分步指南](./create-gif-from-svg-with-java-full-step-by-step-guide/)
 
+### [从 SVG 创建动画 GIF – Java 分步指南](./create-animated-gif-from-svg-step-by-step-java-guide/)
+使用 Aspose.HTML for Java 将 SVG 转换为动画 GIF。一步步指南，帮助您轻松实现动画图像生成。
+
 ### [Converting HTML to JPEG](./convert-html-to-jpeg/)
 
 ### [Converting HTML to PNG](./convert-html-to-png/)
@@ -122,11 +125,78 @@ weight: 24
 ### [将 HTML 转换为 PNG – 完整指南：背景颜色与分辨率](./convert-html-to-png-full-guide-with-background-color-resolut/)
 完整指南，演示如何在 Java 中使用 Aspose.HTML 将 HTML 转换为 PNG，并自定义背景颜色和分辨率。
 
+### [将 HTML 转换为 PNG – Java 指南：将 HTML 表格渲染为图像](./convert-html-to-png-java-guide-to-rendering-html-tables-as-i/)
+学习如何使用 Aspose.HTML for Java 将包含表格的 HTML 页面渲染为 PNG 图像，提供完整代码示例。
+
+### [使用 Aspose.HTML 将 HTML 渲染为 PNG – 完整 Java 指南](./render-html-to-png-with-aspose-html-complete-java-guide/)
+
+### [如何使用 Aspose 运行 JavaScript 并将 HTML 渲染为 PNG](./how-to-run-javascript-and-render-html-to-png-with-aspose/)
+
+### [Convert HTML to PNG in Java – Complete Step‑by‑Step Guide](./convert-html-to-png-in-java-complete-step-by-step-guide/)
+
+### [在 Java 中渲染 HTML 为 PNG – 添加 Bearer Token 与自定义请求头](./render-html-to-png-in-java-add-bearer-token-custom-headers/)
+
+### [如何在将 SVG 转换为 PNG 时设置 DPI – Java 指南](./how-to-set-dpi-when-converting-svg-to-png-java-guide/)
+了解如何在使用 Aspose.HTML for Java 将 SVG 转换为 PNG 时设置 DPI，以获得所需分辨率的图像。
+
+### [从 HTML 创建高分辨率 PNG – 完整 Java 指南](./create-high-resolution-png-from-html-complete-java-guide/)
+使用 Aspose.HTML for Java 将 HTML 渲染为高分辨率 PNG 图像的完整指南，提供详细步骤和示例代码。
+
+### [在 Java 中将 HTML 渲染为 PNG – 完整 Aspose HTML 教程](./render-html-to-png-in-java-full-aspose-html-tutorial/)
+完整指南展示如何使用 Aspose.HTML for Java 将 HTML 渲染为 PNG，提供代码示例和最佳实践。
+
+### [在 Java 中将 HTML 转换为 PNG – 完整 Aspose.HTML 指南](./convert-html-to-png-in-java-complete-aspose-html-guide/)
+使用 Aspose.HTML for Java 将 HTML 转换为 PNG 的完整指南，提供详细步骤和示例代码，帮助您轻松实现高质量图像输出。
+
+### [如何渲染 HTML – 完整的 Aspose HTML 到 PNG 指南](./how-to-render-html-complete-aspose-html-to-png-guide/)
+学习如何使用 Aspose.HTML for Java 将 HTML 渲染为 PNG 图像的完整指南，提供完整代码示例。
+
+### [在 Java 中从 HTML 创建 PNG – 完整示例](./create-png-from-html-in-java-full-example/)
+学习如何在 Java 中使用 Aspose.HTML 将 HTML 渲染为 PNG 图像的完整示例，提供完整代码和步骤说明。
+
+### [从 HTML 创建 PNG – 完整 Java 指南（自定义分辨率）](./create-png-from-html-complete-java-guide-with-custom-resolut/)
+
+### [将 HTML 转换为 PNG – Java 批量导出指南](./convert-html-to-png-batch-export-guide-for-java/)
+
+### [如何在将 HTML 转换为 PNG 时设置 DPI – 完整的 Aspose HTML 指南](./how-to-set-dpi-when-converting-html-to-png-complete-aspose-h/)
+学习如何在使用 Aspose.HTML for Java 将 HTML 转换为 PNG 时设置 DPI，以获得所需的分辨率和图像质量。
+
+### [Html 转图像教程：使用 Aspose 将 HTML 转换为 PNG](./html-to-image-tutorial-convert-html-to-png-using-aspose/)
+
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
+
+### [在 Java 中将 HTML 转换为 TIFF – 完整编程指南](./convert-html-to-tiff-in-java-complete-programming-guide/)
+使用 Aspose.HTML for Java 将 HTML 转换为 TIFF 的完整编程指南，提供详细步骤和最佳实践。
 
 ### [将 HTML 转换为 WebP](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 
 ### [如何从 SVG 创建 GIF – Java 步骤指南](./how-to-create-gif-from-svg-step-by-step-java-guide/)
+### [在 Java 中将 SVG 转换为 PNG – 高分辨率指南](./convert-svg-to-png-in-java-high-resolution-guide/)
+
+### [使用 Aspose.HTML Sandbox 将 HTML 渲染为 PNG – 完整 Java 指南](./render-html-to-png-with-aspose-html-sandbox-full-java-guide/)
+### [在 Java 中将 SVG 转换为 PNG – 批量转换指南](./convert-svg-to-png-in-java-batch-conversion-guide/)
+使用 Aspose.HTML for Java 批量将 SVG 文件转换为 PNG 图像的完整指南。
+
+### [将 HTML 转换为 WebP – 完整的 Java Aspose.HTML 指南](./convert-html-to-webp-complete-java-aspose-html-guide/)
+使用 Aspose.HTML for Java 将 HTML 转换为 WebP，提供完整步骤、代码示例和最佳实践，帮助您轻松生成高质量的 WebP 图像。
+
+### [在 Java 中将 HTML 转换为 WebP – 完整指南](./convert-html-to-webp-in-java-complete-guide/)
+通过 Aspose.HTML for Java 将 HTML 转换为 WebP。完整的 Java 教程，助您快速生成高质量的 WebP 图像。
+
+### [如何使用 Java 将 SVG 转换为 AVIF – 步骤指南](./how-to-convert-svg-to-avif-with-java-step-by-step-guide/)
+
+### [在 Java 中将 HTML 转换为 WebP – 完整分步指南](./convert-html-to-webp-in-java-complete-step-by-step-guide/)
+使用 Aspose.HTML for Java 在 Java 环境下将 HTML 转换为 WebP，提供完整的分步指南，帮助您快速生成高质量图像。
+
+### [将 SVG 转换为 WebP – 完整的 Java 动画 SVG 指南](./convert-svg-to-webp-full-java-guide-for-animated-svgs/)
+使用 Aspose.HTML for Java 将动画 SVG 转换为 WebP。完整步骤指南，帮助您轻松生成高质量的 WebP 动画图像。
+
+### [在 Java 中渲染 HTML 为图像 – 完整 Aspose.HTML 指南](./render-html-to-image-in-java-complete-aspose-html-guide/)
+学习使用 Aspose.HTML for Java 将 HTML 渲染为多种图像格式，提供完整的代码示例和步骤说明。
+
+### [使用 Java 将 HTML 页面保存为 PNG – 完整指南](./save-html-page-as-png-with-java-complete-guide/)
+
+## 常见问题解答
 
 ### [如何从 HTML 生成缩略图 – Java 指南](./how-to-generate-thumbnail-from-html-java-guide/)
 
@@ -174,23 +244,16 @@ weight: 24
 ### [渲染 HTML Java：将长页面转换为 PNG](./render-html-java-convert-long-page-to-png/)
 
 ### [如何使用沙盒捕获网页截图](./how-to-use-sandbox-to-capture-webpage-screenshot/)
+### [在 Java 中从 SVG 创建多页 TIFF – 步骤指南](./create-multipage-tiff-from-svg-in-java-step-by-step-guide/)
+使用 Aspose.HTML for Java 将 SVG 转换为多页 TIFF，提供完整的步骤示例。
 
-## 常见问题解答
 
-**Q: 我可以使用 Java 将 HTML 转换为 PNG 而无需额外的图像库吗？**  
-A: 可以，Aspose.HTML for Java 在内部处理 PNG 渲染，无需额外库。
+### [将 SVG 转换为高分辨率 PNG – Java 指南](./convert-svg-to-png-with-high-resolution-java-guide/)
+使用 Aspose.HTML for Java 将 SVG 转换为高分辨率 PNG。完整的 Java 指南，提供详细步骤和最佳实践。
 
-**Q: 能否从 HTML 生成动画 GIF？**  
-A: Aspose.HTML 可以创建静态 GIF 图像。若需动画 GIF，需渲染多帧并使用单独的 GIF 编码器进行合成。
+### [将 HTML 转换为 AVIF](./convert-html-to-avif-with-aspose-html-complete-java-guide/)
 
-**Q: 该库是否支持 CSS3 的渐变和 flexbox 等特性？**  
-A: 完全支持。Aspose.HTML 完全兼容现代 CSS3 规范，确保输出视觉准确。
-
-**Q: 如何处理超出内存限制的大型 HTML 文档？**  
-A: 可将文档分段渲染，或使用 Aspose.HTML 提供的流式 API 逐页增量处理。
-
-**Q: 商业项目有哪些授权选项可供选择？**  
-A: Aspose 提供永久授权和订阅授权两种方式；请联系销售获取符合您部署模型的方案。
+### [在 Java 中渲染网页为 PNG 时禁用外部图像](./disable-external-images-while-rendering-webpage-to-png-in-ja/)
 
 ---
 

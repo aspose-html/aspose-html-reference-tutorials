@@ -62,6 +62,8 @@ Aprenda a buscar texto en documentos HTML y resaltarlo usando la etiqueta <mark>
 Aprenda a implementar CSS interno en documentos HTML usando Aspose.HTML para Java con nuestro sencillo tutorial paso a paso.
 ### [Crear nuevo elemento HTML con Java – Guía completa de Aspose.HTML](./create-new-html-element-with-java-full-aspose-html-guide/)
 Aprenda a crear nuevos elementos HTML en Java usando Aspose.HTML con una guía paso a paso.
+### [Cargar plantilla HTML en Java – Guía completa de Aspose.HTML](./load-html-template-java-complete-aspose-html-guide/)
+Aprenda a cargar una plantilla HTML en Java usando Aspose.HTML con esta guía paso a paso.
 ### [Pool de hilos fijo en Java – Limpieza paralela de HTML con ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Aprenda a usar un pool de hilos fijo y ExecutorService para limpiar HTML en paralelo con Aspose.HTML para Java.
 ### [Agregar un hijo al cuerpo en Java – Tutorial completo de Aspose.HTML](./append-child-to-body-in-java-full-aspose-html-tutorial/)
@@ -73,6 +75,15 @@ Aprenda a agregar nodos hijos al DOM en Java usando Aspose.HTML con esta guía p
 
 ### [Cómo eliminar scripts de HTML en Java – Guía completa](./how-to-remove-scripts-from-html-in-java-complete-guide/)
 Aprenda a eliminar scripts de documentos HTML usando Aspose.HTML para Java. Guía paso a paso para limpiar su contenido de forma segura.
+### [Liberación automática de bloqueo en Java – Tutorial de edición HTML segura para subprocesos](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
+Aprenda a liberar bloqueos automáticamente al editar HTML de forma segura en entornos multihilo con Aspose.HTML para Java.
+### [Cómo extraer HTML en Java – Extraer texto y resaltar palabras](./how-to-extract-html-in-java-extract-text-highlight-words/)
+Descubra cómo extraer texto de documentos HTML y resaltar palabras clave usando Aspose.HTML para Java.
+
+### [Obtener atributo de elemento en Java – Guía completa de selección SVG y XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
+Aprenda a obtener atributos de elementos SVG usando Java, con selección mediante XPath en esta guía paso a paso.
+### [Ejecutar JavaScript en HTML con Aspose.HTML para Java – Guía completa](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
+Aprenda a ejecutar scripts JavaScript dentro de documentos HTML usando Aspose.HTML para Java con esta guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

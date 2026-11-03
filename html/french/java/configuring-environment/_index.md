@@ -117,6 +117,9 @@ Apprenez comment configurer le Runtime Service dans Aspose.HTML for Java pour op
 ### [Mettre en œuvre le sandboxing dans Aspose.HTML for Java](./implement-sandboxing/)
 Apprenez comment mettre en œuvre le sandboxing dans Aspose.HTML for Java pour contrôler en toute sécurité l’exécution des scripts dans vos documents HTML et les convertir en PDF.
 
+### [Comment utiliser le sandbox – définir l'agent utilisateur et obtenir la taille du viewport](./how-to-use-sandbox-set-user-agent-get-viewport-size/)
+Apprenez à configurer l'agent utilisateur et à récupérer la taille du viewport dans le sandbox d'Aspose.HTML for Java.
+
 ### [Définir une feuille de style utilisateur dans Aspose.HTML for Java](./set-user-style-sheet/)
 Apprenez comment définir une feuille de style utilisateur personnalisée dans Aspose.HTML for Java, améliorant le style de vos documents et convertissant HTML en PDF avec facilité.
 
@@ -128,6 +131,10 @@ Apprenez comment récupérer et afficher la version d'Aspose.HTML for Java rapid
 Apprenez comment créer un bac à sable en Java avec ce guide complet, assurant une exécution sécurisée des scripts lors de la conversion HTML en PDF.
 ### [Définir l'agent utilisateur pour le rendu HTML sans tête – Guide complet](./set-user-agent-for-headless-html-rendering-complete-guide/)
 Apprenez à configurer l'agent utilisateur dans Aspose.HTML for Java pour le rendu HTML sans tête, garantissant un chargement correct des ressources.
+### [Extraire le titre d'un HTML en Java – Guide complet du sandbox](./extract-title-from-html-in-java-complete-sandbox-guide/)
+Apprenez comment extraire le titre d'un document HTML en Java en utilisant le sandbox d'Aspose.HTML, avec un guide complet pas à pas.
+### [Comment définir le DPI dans le bac à sable Aspose.HTML – Guide complet Java](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
+Apprenez à configurer la résolution DPI dans le sandbox Aspose.HTML pour Java afin d’obtenir des rendus PDF et PNG de haute qualité.
 
 ---
 

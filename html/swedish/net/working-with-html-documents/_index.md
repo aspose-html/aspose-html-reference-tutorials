@@ -26,11 +26,7 @@ Innan vi dyker in i detaljerna för att skapa och redigera HTML-dokument i .NET,
 
 ### [Skapa ett dokument i .NET med Aspose.HTML](./creating-a-document/)
 
-Det första steget i vår resa är att lära sig hur man skapar HTML-dokument från grunden eller från webbadresser med Aspose.HTML. Vi guidar dig genom processen och ser till att även nybörjare kan följa med. I slutet av det här avsnittet har du färdigheterna att skapa HTML-dokument utan ansträngning.
-
 ### [Skapa ett enkelt dokument i .NET med Aspose.HTML](./creating-a-simple-document/)
-
-När du har förstått grunderna kommer vi att gräva djupare i skapelseprocessen. I det här avsnittet kommer du att lära dig hur du skapar enkla HTML-dokument med Aspose.HTML, och vi kommer att utforska olika funktioner som möjliggör enkel manipulation. Oavsett om du bygger en webbsida, genererar innehåll eller konverterar data till HTML, kommer denna handledning att förse dig med nödvändig kunskap.
 
 ### [Redigera ett dokument i .NET med Aspose.HTML](./editing-a-document/)
 
@@ -47,6 +43,12 @@ Lär dig spara HTML i C# med en anpassad resurs‑hanterare och generera komplet
 ### [Hur du sparar HTML i C# med anpassad resurs‑hanterare](./how-to-save-html-in-c-with-custom-resource-handler/)
 
 Lär dig spara HTML i C# med en anpassad resurs‑hanterare och generera kompletta HTML‑filer programatiskt.
+### [Hur man sparar HTML – Komplett guide för Aspose HTMLDocument](./how-to-save-html-aspose-htmldocument-complete-guide/)
+
+Lär dig spara HTML med Aspose HTMLDocument och skapa kompletta HTML‑filer programatiskt.
+### [Hur man sparar HTML i C# – Komplett guide med anpassad output‑lagring](./how-to-save-html-in-c-complete-guide-with-custom-output-stor/)
+
+Lär dig spara HTML i C# med en anpassad output‑lagring och generera kompletta HTML‑filer programatiskt.
 
 ### [Hur du gör rubriker fetstil med CSS & C# – Komplett steg‑för‑steg‑guide](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 
@@ -72,6 +74,24 @@ Lär dig skapa HTML-dokument i C# med en anpassad resurs‑hanterare och generer
 ### [Skapa HTML från sträng i C# – Steg‑för‑steg‑guide](./create-html-from-string-in-c-step-by-step-guide/)
 
 ### [Hur du zippar HTML i C# – Komplett steg‑för‑steg‑guide](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+
+### [Skapa HTML från en sträng i C# – Fullständig guide med minnesström](./create-html-from-string-in-c-full-guide-with-memory-stream/)
+
+### [Hur du sparar HTML i C# – Komplett steg‑för‑steg‑guide](./how-to-save-html-in-c-complete-step-by-step-guide/)
+
+### [Skapa Zip‑arkiv för HTML – Komplett C#‑guide](./create-zip-archive-for-html-complete-c-guide/)
+
+Lär dig hur du skapar ett zip‑arkiv för HTML‑filer med C# i en komplett steg‑för‑steg‑guide.
+
+### [Spara HTML till Zip – Komplett C#‑guide för minnesarkiv](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
+
+### [Skapa ett HTML-dokument i minnet med Aspose.HTML – Komplett guide](./create-in-memory-html-document-with-aspose-html-complete-gui/)
+
+Lär dig hur du skapar HTML-dokument helt i minnet med Aspose.HTML utan att skriva till disk.
+
+### [Ladda HTML‑sträng i C# – komplett guide med anpassad hanterare](./load-html-string-in-c-complete-guide-with-custom-handler/)
+
+Lär dig hur du laddar HTML‑strängar i C# med en anpassad hanterare för smidig bearbetning.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

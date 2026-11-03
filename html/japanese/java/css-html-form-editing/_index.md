@@ -19,7 +19,7 @@ Web 開発に取り組む場合、CSS および HTML フォームを習得する
 
 ## 高度な CSS 拡張テクニック
 
-まず最初に、Aspose.HTML for Java を使用した高度な CSS 拡張テクニックについて説明します。Web ページに適切な余白を設定するのに苦労したことはありませんか? あるいは、ユーザーの操作に基づいて変化する動的なコンテンツを含めたいと思ったことはありませんか? このチュートリアルでは、複雑な CSS ルールを簡単に適用するための基本事項を説明します。Aspose を使用すると、スタイルをプログラムで操作して、閲覧者に合わせて視覚的に魅力的なレイアウトを作成できます。静的なページを動的な傑作に変えることを想像してみてください。このガイドでは、その方法を正確に説明します。[続きを読む](./advanced-css-extension/).
+まず最初に、Aspose.HTML for Java を使用した高度な CSS 拡張テクニックについて説明します。Web ページに適切な余白を設定するのに苦労したことはありませんか? あるいは、ユーザーの操作に基づいて変化する動的なコンテンツを含めたいと思ったことはありませんか? このチュートリアルでは、複雑な CSS ルールを簡単に適用するための基本事項を説明します。Aspose を使用すると、スタイルをプログラムで操作して、閲覧者に合わせて視覚的に魅力的なレイアウトを作成できます。静的なページを動的な傑作に変えることが想像してみてください。このガイドでは、その方法を正確に説明します。[続きを読む](./advanced-css-extension/).
 
 ## HTML フォームの編集と送信
 
@@ -90,6 +90,54 @@ Aspose.HTML for Java を使用して、要素の計算済みスタイルを取�
 このチュートリアルでは、JavaでCSSを解析し、計算済みスタイルを取得する手順を詳しく解説します。
 ### [JavaでIDで要素を取得 – 計算済みスタイル取得の完全ガイド](./get-element-by-id-in-java-full-guide-to-retrieve-computed-st/)
 Javaで要素のIDを取得し、計算されたスタイル情報を取得する方法をステップバイステップで解説します。
+### [クエリセレクタ div クラス – Javaでクラスでdivを選択し、計算されたスタイルを取得する方法](./query-selector-div-class-how-to-select-a-div-by-class-and-ge/)
+Javaでクラス属性を持つdiv要素を選択し、計算されたスタイルを取得する手順をステップバイステップで解説します。
+### [JavaでCSSを読む方法 – Aspose.HTML を使用した完全ガイド](./how-to-read-css-in-java-complete-guide-using-aspose-html/)
+Aspose.HTML を活用して、Java で CSS を解析・取得する手順をステップバイステップで解説します。
+### [JavaでCSSプロパティを取得する方法 – 要素の背景色を取得](./how-to-get-css-property-in-java-read-element-background-colo/)
+Javaコードで要素の背景色などCSSプロパティを取得し、動的に活用する手順を解説します。
+### [Javaでスタイルを取得する方法 – Aspose.HTMLで計算済みCSSを取得](./how-to-get-style-in-java-retrieve-computed-css-with-aspose-h/)
+Aspose.HTML を使用して、Java で要素の計算済み CSS スタイルを取得する手順を解説します。
+### [Aspose HTML Java でスタイルを取得する方法 – クエリセレクタの使用](./how-to-get-style-in-aspose-html-java-use-query-selector/)
+Aspose.HTML for Java のクエリセレクタを使用して、要素のスタイル情報を取得する手順を解説します。
+### [JavaでCSSを読み取る – 計算済みスタイルの取得](./how-to-read-css-in-java-get-computed-style/)
+JavaコードでCSSの計算済みスタイルを取得し、要素の実際の表示属性をプログラムで取得する方法を解説します。
+
+### [Aspose.HTML を使用した Java でスタイルを取得する方法 – ステップバイステップガイド](./how-to-get-style-in-java-with-aspose-html-step-by-step-guide/)
+Aspose.HTML for Java を使って、HTML 要素のスタイル情報を取得する手順を詳しく解説します。
+### [Javaで計算済みスタイルを取得 – 完全ガイド](./get-computed-style-in-java-complete-guide/)
+この完全ガイドでは、Aspose.HTML for Java を使用して要素の計算済みスタイルを取得する方法をステップバイステップで解説します。
+### [JavaでCSSを読み取る方法 – モバイル画面をシミュレートしメディアクエリをテスト](./how-to-read-css-in-java-simulate-mobile-screen-test-media-qu/)
+JavaでCSSを解析し、モバイル画面をエミュレートしてメディアクエリの動作を検証する手順を解説します。
+### [JavaでHTMLを読み込む方法 – CSSカラー抽出を含む完全ガイド](./how-to-load-html-in-java-full-guide-with-css-color-extractio/)
+JavaでHTMLをロードし、CSSから色情報を抽出する手順をステップバイステップで解説します。
+### [JavaでHTMLからCSSを抽出する – 完全プログラミングガイド](./extract-css-from-html-in-java-complete-programming-guide/)
+Javaを使用してHTMLドキュメントからCSSスタイルシートを抽出し、解析・操作する方法をステップバイステップで解説します。
+### [JavaでCSSを読み取る方法 – 完全 Aspose.HTML ガイド](./how-to-read-css-in-java-complete-aspose-html-guide/)
+Aspose.HTML for Java を使用して、CSS を読み取り、解析し、操作する方法をステップバイステップで学びます。
+
+### [JavaでCSSプロパティ値を取得 – Aspose.HTML 完全ガイド](./get-css-property-value-in-java-complete-guide-with-aspose-ht/)
+Aspose.HTML を使用して、Java で CSS プロパティの値を取得する方法をステップバイステップで解説します。
+### [CSS セレクタで無効化されていないボタン – Java HTML パーシングガイド](./css-selector-not-disabled-button-java-html-parsing-guide/)
+Java で Aspose.HTML を使用し、無効化されていないボタンを CSS セレクタで取得する方法をステップバイステップで解説します。
+### [JavaでクラスによるHTML要素の選択 – 完全ガイド](./select-html-element-by-class-in-java-complete-guide/)
+Javaコードでクラス属性を使用してHTML要素を取得し、操作する方法をステップバイステップで解説します。
+### [Javaで計算済みスタイルを取得する方法 – 完全プログラミングガイド](./how-to-get-computed-style-java-complete-programming-guide/)
+この完全ガイドでは、Aspose.HTML for Java を使用して要素の計算済みスタイルを取得する手順とコード例を詳しく解説します。
+### [Javaで取得したスタイル – CSS抽出の完全ガイド](./get-computed-style-java-complete-guide-to-css-extraction/)
+Javaで計算済みスタイルを取得し、CSSから情報を抽出する方法を完全に解説します。
+### [JavaでCSS背景を取得 – 完全 Aspose.HTML ガイド](./get-css-background-in-java-complete-aspose-html-guide/)
+Aspose.HTML for Java を使用して、CSS の背景画像や色を取得する方法をステップバイステップで解説します。
+### [JavaでCSSを使用する方法 – HTMLの読み込み、リンク数のカウント、XPathの評価](./how-to-use-css-in-java-load-html-count-links-evaluate-xpath/)
+Aspose.HTML for Java を使って CSS を適用し、HTML を読み込み、リンク数を取得し、XPath クエリで要素を評価する手順を解説します。
+### [Java の要素計算スタイル – 完全 Aspose.HTML ガイド](./element-computed-style-in-java-complete-aspose-html-guide/)
+Aspose.HTML for Java を使用して、要素の計算済みスタイルを取得し操作する方法をステップバイステップで解説します。
+### [Javaで計算済みスタイルを取得 – Aspose.HTMLでCSSグリッドをデバッグ](./get-computed-style-in-java-debug-css-grid-with-aspose-html/)
+Aspose.HTML for Java を使用して、要素の計算済みスタイルを取得し、CSS Grid のレイアウト問題をデバッグする方法を学びます。
+### [Javaで要素の表示値を取得 – Aspose HTML サンドボックスガイド](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
+Aspose.HTML for Java を使用して、要素の display プロパティ値を取得し、レイアウトのデバッグや表示制御に活用する方法を解説します。
+### [JavaでHTML要素からCSSを取得する – 完全ガイド](./how-to-get-css-from-an-html-element-in-java-complete-guide/)
+このチュートリアルでは、Java と Aspose.HTML を使用して、HTML 要素から CSS スタイルを抽出する手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

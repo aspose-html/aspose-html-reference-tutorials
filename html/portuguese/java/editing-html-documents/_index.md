@@ -60,6 +60,8 @@ Aprenda como adicionar CSS inline a documentos HTML usando Aspose.HTML para Java
 Aprenda a gerenciar propriedades HTML internas e externas no Aspose.HTML para Java com este guia passo a passo, perfeito para desenvolvedores web e criadores de conteúdo.
 ### [Implementar CSS interno em documentos HTML com Aspose.HTML para Java](./implement-internal-css-html-documents/)
 Aprenda a implementar CSS interno em documentos HTML usando Aspose.HTML para Java com nosso tutorial passo a passo.
+### [Como extrair HTML em Java – Extrair texto e destacar palavras](./how-to-extract-html-in-java-extract-text-highlight-words/)
+Aprenda a extrair texto de HTML e destacar palavras usando Aspose.HTML para Java.
 ### [Pool de threads fixo java – Limpeza paralela de HTML com ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Aprenda a usar um pool de threads fixo em Java para limpar HTML em paralelo usando ExecutorService.
 ### [Adicionar filho ao corpo em Java – Tutorial completo do Aspose.HTML](./append-child-to-body-in-java-full-aspose-html-tutorial/)
@@ -72,7 +74,15 @@ Aprenda a criar novos elementos HTML usando Aspose.HTML para Java neste guia com
 Aprenda a remover scripts de documentos HTML em Java com Aspose.HTML. Guia passo a passo para limpar seu conteúdo de forma segura.
 ### [Como destacar HTML – Buscar texto e substituir por <mark>](./how-to-highlight-html-search-text-replace-with-mark/)
 Aprenda a realçar trechos de HTML substituindo texto por tags <mark> usando Aspose.HTML para Java.
+### [Liberação automática de bloqueio em Java – Tutorial de edição HTML thread‑safe](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
+Aprenda como liberar bloqueios automaticamente ao editar HTML de forma segura em ambientes multithread com Aspose.HTML para Java.
+### [Executar JavaScript em HTML com Aspose.HTML para Java – Guia Completo](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
+Aprenda a executar scripts JavaScript em documentos HTML usando Aspose.HTML para Java com este guia passo a passo.
+### [Carregar modelo HTML Java – Guia completo do Aspose.HTML](./load-html-template-java-complete-aspose-html-guide/)
+Aprenda a carregar e usar modelos HTML em Java com Aspose.HTML, passo a passo, para gerar documentos dinâmicos.
 
+### [Obter Atributo de Elemento em Java – Guia Completo para Seleção SVG e XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
+Aprenda a obter atributos de elementos SVG usando Java, com seleção avançada via XPath neste guia completo.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

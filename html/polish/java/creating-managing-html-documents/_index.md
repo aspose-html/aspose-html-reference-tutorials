@@ -48,18 +48,34 @@ Jeśli chodzi o generowanie nowych dokumentów HTML, Aspose.HTML for Java oferuj
 Opanuj asynchroniczne tworzenie dokumentów HTML za pomocą Aspose.HTML dla Java. Przewodnik krok po kroku, wskazówki i FAQ dołączone do szybkiej nauki.
 ### [Utwórz puste dokumenty HTML w Aspose.HTML dla Java](./create-empty-html-documents/)
 Dowiedz się, jak tworzyć puste dokumenty HTML w języku Java za pomocą Aspose.HTML, korzystając z naszego szczegółowego samouczka krok po kroku, idealnego dla programistów na każdym poziomie zaawansowania.
+### [Utwórz dokument HTML w Javie – przewodnik krok po kroku z Aspose.HTML](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
+Dowiedz się, jak w prosty sposób utworzyć dokument HTML w Javie przy użyciu Aspose.HTML, krok po kroku.
 ### [Załaduj dokumenty HTML z pliku w Aspose.HTML dla Java](./load-html-documents-from-file/)
 Odblokuj moc manipulacji HTML za pomocą Aspose.HTML dla Java. Naucz się ładować dokumenty HTML z plików za pomocą samouczków krok po kroku.
+### [Odczyt pliku HTML w Javie – kompletny przewodnik z użyciem Aspose.HTML](./read-html-file-java-complete-guide-using-aspose-html/)
+Dowiedz się, jak odczytać plik HTML w Javie przy pomocy Aspose.HTML, krok po kroku, z praktycznymi przykładami.
 ### [Zaawansowane ładowanie plików dla dokumentów HTML w Aspose.HTML dla Java](./advanced-file-loading-html-documents/)
 Dowiedz się, jak ładować, manipulować i zapisywać dokumenty HTML za pomocą Aspose.HTML dla Java w tym przewodniku krok po kroku. Odblokuj zaawansowane przetwarzanie HTML w swoich projektach Java.
 ### [Ładowanie dokumentów HTML ze strumienia za pomocą Aspose.HTML dla Java](./load-html-documents-from-stream/)
 Dowiedz się, jak ładować dokumenty HTML ze strumieni za pomocą Aspose.HTML dla Java. Ten przewodnik zawiera samouczek krok po kroku dotyczący bezproblemowej manipulacji HTML.
 ### [Tworzenie dokumentów HTML z ciągu w Aspose.HTML dla Java](./create-html-documents-from-string/)
 Dowiedz się, jak tworzyć dokumenty HTML z ciągów znaków w Aspose.HTML dla Java, korzystając z tego przewodnika krok po kroku.
+### [Utwórz dokument HTML z osadzonym JavaScript – przykład w Javie](./create-html-document-with-embedded-javascript-java-example/)
+Dowiedz się, jak utworzyć dokument HTML zawierający osadzony kod JavaScript w Javie przy użyciu Aspose.HTML.
+### [Utwórz div z klasą java – pełny przykład z użyciem Aspose.HTML](./create-div-with-class-java-full-example-using-aspose-html/)
+Dowiedz się, jak w Javie przy użyciu Aspose.HTML utworzyć element div z określoną klasą w pełnym przykładzie krok po kroku.
 ### [Ładowanie dokumentów HTML z adresu URL w Aspose.HTML dla Java](./load-html-documents-from-url/)
 Odkryj, jak łatwo ładować dokumenty HTML z adresu URL w Javie za pomocą Aspose.HTML. Zawiera samouczek krok po kroku.
 ### [Ładowanie dokumentu HTML w Aspose – szybki przewodnik Java po pobraniu tytułu strony](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
 Dowiedz się, jak szybko pobrać tytuł strony z dokumentu HTML przy użyciu Aspose.HTML w Javie.
+### [Wyodrębnianie HTML z MHTML – Kompletny przewodnik Java](./extract-html-from-mhtml-complete-java-guide/)
+Kompletny przewodnik krok po kroku, jak wyodrębnić HTML z plików MHTML w Javie przy użyciu Aspose.HTML.
+### [Ładowanie JSON za pomocą Fetch w Javie – Kompletny przewodnik](./load-json-with-fetch-in-java-complete-guide/)
+Dowiedz się, jak używać Fetch do pobierania danych JSON w Javie, krok po kroku, z praktycznymi przykładami.
+### [Ładowanie HTML z adresu URL w Javie – Kompletny przewodnik z CSS i XPath](./load-html-from-url-in-java-complete-guide-with-css-xpath/)
+Dowiedz się, jak ładować dokumenty HTML z adresu URL i przetwarzać je przy użyciu CSS i XPath w Javie z Aspose.HTML.
+### [Utwórz dokument HTML za pomocą Aspose.HTML – Kompletny przewodnik Java](./create-html-document-with-aspose-html-complete-java-guide/)
+Dowiedz się, jak utworzyć dokument HTML przy użyciu Aspose.HTML w Javie, krok po kroku.
 ### [Generuj nowe dokumenty HTML za pomocą Aspose.HTML dla Java](./generate-new-html-documents/)
 Dowiedz się, jak tworzyć nowe dokumenty HTML za pomocą Aspose.HTML dla Java dzięki temu prostemu przewodnikowi krok po kroku. Zacznij generować dynamiczną zawartość HTML.
 ### [Utwórz dokument HTML w Javie – pobierz JSON i wygeneruj zawartość](./create-html-document-with-java-fetch-json-and-generate-conte/)
@@ -128,6 +144,39 @@ Dowiedz się, jak konwertować pliki Markdown na HTML w Javie przy użyciu Aspos
 Dowiedz się, jak w prosty sposób ładować dokumenty HTML w Javie przy użyciu Aspose.HTML, krok po kroku.
 ### [Utwórz element HTML przy użyciu Java ExecutorService – demo wątkowo‑bezpieczne](./create-html-element-with-java-executorservice-thread-safe-de/)
 Pokażemy, jak bezpiecznie tworzyć elementy HTML w wielu wątkach przy użyciu ExecutorService w Javie.
+### [Jak zapytać XPath w Javie – Kompletny samouczek](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
+Dowiedz się, jak zapytać XPath w Javie przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
+### [Uruchamianie wielu wątków w Javie – użycie try-with-resources w Javie](./run-multiple-threads-java-use-try-with-resources-java/)
+Dowiedz się, jak uruchamiać wiele wątków w Javie, wykorzystując konstrukcję try-with-resources do bezpiecznego zarządzania zasobami.
+### [Wybierz element div po klasie w Javie – Kompletny przewodnik XPath](./select-div-by-class-in-java-complete-xpath-guide/)
+Dowiedz się, jak wybrać elementy div według klasy w Javie przy użyciu pełnego przewodnika XPath, krok po kroku.
+### [Konwertuj Markdown na HTML w Javie – przewodnik krok po kroku](./convert-markdown-to-html-in-java-step-by-step-guide/)
+Dowiedz się, jak przekształcić pliki Markdown w HTML w Javie przy użyciu Aspose.HTML, krok po kroku, z praktycznymi przykładami.
+### [Renderowanie HTML w Javie – Kompletny przewodnik po oczekiwaniu na załadowanie strony i selektorze zapytań](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
+### [Jak odczytać plik XHTML w Javie – przykład XPath z przestrzenią nazw](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
+Dowiedz się, jak odczytywać pliki XHTML w Javie przy użyciu XPath i obsługi przestrzeni nazw.
+### [Jak używać querySelectorAll w Javie – filtrowanie po klasie](./how-to-use-queryselectorall-in-java-filter-by-class/)
+Dowiedz się, jak używać querySelectorAll w Javie do filtrowania elementów po klasie.
+### [Jak wyszukiwać HTML – przewodnik Java do znajdowania tekstu](./how-to-search-html-java-guide-for-finding-text/)
+Dowiedz się, jak efektywnie wyszukiwać i znajdować tekst w dokumentach HTML przy użyciu Aspose.HTML dla Java. Praktyczny przewodnik krok po kroku.
+### [Jak zapytać HTML przy użyciu Aspose.HTML – Kompletny przewodnik Java](./how-to-query-html-with-aspose-html-complete-java-guide/)
+Dowiedz się, jak efektywnie zapytać i przetwarzać dokumenty HTML w Javie przy użyciu Aspose.HTML.
+### [Konwersja Markdown do HTML w Javie – szybki przewodnik z Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
+Dowiedz się, jak szybko konwertować pliki Markdown na HTML w Javie przy użyciu Aspose.HTML.
+### [Jak wyszukiwać HTML w Aspose Java – Kompletny przewodnik programistyczny](./how-to-search-html-with-aspose-java-complete-programming-gui/)
+Dowiedz się, jak efektywnie przeszukiwać dokumenty HTML w Javie przy użyciu Aspose.HTML, krok po kroku.
+### [fetch json javascript – Kompletny przewodnik Java do tworzenia dokumentu HTML](./fetch-json-javascript-complete-java-guide-to-create-html-doc/)
+Poznaj, jak pobierać JSON w JavaScript i tworzyć dokumenty HTML w Javie przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
+### [Pobieranie JSON za pomocą JavaScript w Javie – Pełny przewodnik](./fetch-json-with-javascript-in-java-full-guide/)
+Dowiedz się, jak pobierać dane JSON przy użyciu JavaScript w aplikacjach Java, krok po kroku.
+### [Wyodrębnianie tytułu strony w Javie – pełny przewodnik przy użyciu Aspose.HTML](./extract-page-title-with-java-full-guide-using-aspose-html/)
+Dowiedz się, jak wyodrębnić tytuł strony HTML w Javie przy użyciu Aspose.HTML w tym kompletnym przewodniku krok po kroku.
+### [Jak uruchomić wątek w Javie – Kompletny przewodnik](./how-to-start-thread-in-java-complete-guide/)
+Dowiedz się, jak uruchomić wątek w Javie, krok po kroku, z praktycznymi przykładami i najlepszymi praktykami.
+### [Pobierz styl obliczony w Javie – Kompletny przewodnik programistyczny](./get-computed-style-java-complete-programming-guide/)
+Dowiedz się, jak uzyskać obliczony styl elementu HTML w Javie przy użyciu Aspose.HTML. Przewodnik krok po kroku.
+### [Ładowanie dokumentu HTML w Javie – Kompletny przewodnik z zapytaniami CSS i XPath](./load-html-document-java-complete-guide-with-css-xpath-querie/)
+Kompletny przewodnik, jak ładować dokumenty HTML w Javie oraz wykonywać zapytania CSS i XPath w Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

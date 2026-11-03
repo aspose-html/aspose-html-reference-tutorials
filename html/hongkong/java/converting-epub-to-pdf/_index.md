@@ -52,6 +52,10 @@ EPUB 檔案廣泛用於電子書，但有時您需要將其轉為 PDF 格式以�
 了解如何在使用 Aspose.HTML for Java 轉換 EPUB 為 PDF 時嵌入自訂字型，確保文件跨平台正確顯示。
 ### [在 Java 中將 EPUB 轉 PDF – 添加目錄與完整指南](./convert-epub-to-pdf-in-java-add-toc-and-full-guide/)
 了解如何在 Java 中將 EPUB 轉換為 PDF，並加入目錄，提供完整的操作指南。
+### [在 Java 中將 EPUB 轉換為 PDF 並嵌入字型](./convert-epub-to-pdf-with-embedded-fonts-in-java/)
+了解如何在使用 Aspose.HTML for Java 轉換 EPUB 為 PDF 時嵌入自訂字型，確保文件在所有設備上正確顯示。
+### [使用自訂字型大小將 EPUB 轉換為 PDF – Java 指南](./convert-epub-to-pdf-with-custom-font-size-java-guide/)
+說明如何在 Java 中使用 Aspose.HTML 設定自訂字體大小，將 EPUB 轉換為 PDF。
 
 ### [將 EPUB 轉換為 BMP](./convert-epub-to-bmp/)
 了解如何使用 Aspose.HTML for Java 將 EPUB 轉換為 BMP。提供高效內容轉換的逐步指南。
@@ -91,6 +95,8 @@ EPUB 檔案廣泛用於電子書，但有時您需要將其轉為 PDF 格式以�
 快速了解如何使用 Aspose.HTML for Java 將 EPUB 檔案在數分鐘內轉換為 PDF，簡化電子書處理流程。
 ### [epub 轉 pdf 教學：使用 Java 與 Aspose 轉換電子書](./epub-to-pdf-tutorial-convert-ebooks-with-java-aspose/)
 了解如何使用 Aspose.HTML for Java 將 EPUB 轉換為 PDF，快速完成電子書轉檔。
+### [使用 Java 將 EPUB 轉換為 PDF – 完整程式設計指南](./convert-epub-to-pdf-with-java-complete-programming-guide/)
+使用 Aspose.HTML for Java，提供完整的 Java 程式碼範例，一步步將 EPUB 轉換為 PDF。
 
 ## 常見問題
 

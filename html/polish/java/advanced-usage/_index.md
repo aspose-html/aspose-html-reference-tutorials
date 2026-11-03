@@ -153,6 +153,42 @@ Poznaj, jak stosować pełne wyrażenia XPath w Aspose HTML dla Javy, aby precyz
 Dowiedz się, jak dodać obiekt hosta w JavaScript i uruchamiać skrypty JavaScript bezpośrednio w aplikacji Java przy użyciu Aspose.HTML.
 ### [Pobierz tytuł HTML w Javie – Renderuj stronę w sandboxie z szerokością ekranu](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
 Dowiedz się, jak pobrać tytuł strony HTML i renderować ją w środowisku sandbox z określoną szerokością ekranu przy użyciu Aspose.HTML dla Javy.
+### [Przykład top‑level await – użycie await delay w JavaScript](./top-level-await-example-using-await-delay-in-javascript/)
+Poznaj, jak zastosować top‑level await i funkcję delay w kodzie JavaScript przy użyciu Aspose.HTML.
+### [Wykonaj JavaScript w Javie – Uruchom JS z HTML](./execute-javascript-in-java-run-js-from-html/)
+Dowiedz się, jak uruchomić kod JavaScript z HTML w aplikacji Java przy użyciu Aspose.HTML.
+### [Jak załadować HTML w Javie – Kompletny asynchroniczny przykład Aspose.HTML](./how-to-load-html-in-java-complete-aspose-html-async-example/)
+Poznaj pełny asynchroniczny przykład ładowania dokumentu HTML w Javie przy użyciu Aspose.HTML, krok po kroku.
+### [Ewaluacja JavaScript w Javie – Kompletny przewodnik z Aspose.HTML](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
+Poznaj, jak ocenić i uruchomić kod JavaScript w środowisku Java przy pomocy Aspose.HTML, od konfiguracji po wywołanie skryptu.
+### [Jak włączyć JavaScript w Java HTMLDocument – Przewodnik krok po kroku](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
+Dowiedz się, jak włączyć i uruchomić JavaScript w obiekcie HtmlDocument w Javie, korzystając z Aspose.HTML, krok po kroku.
+### [Ustaw współczynnik pikseli urządzenia w Javie – przewodnik symulacji mobilnej](./set-device-pixel-ratio-in-java-mobile-simulation-guide/)
+Dowiedz się, jak ustawić współczynnik pikseli urządzenia w Aspose.HTML dla Javy, aby symulować wyświetlanie na różnych urządzeniach mobilnych.
+### [Java multithreading tutorial: Uruchamianie zadań równolegle przy użyciu stałej puli wątków](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
+### [Wykonywanie JavaScript w Javie – Kompletny przewodnik po dodawaniu elementów do body](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
+Dowiedz się, jak uruchomić kod JavaScript w aplikacji Java i dynamicznie dodawać elementy do elementu body dokumentu.
+### [Jak ustawić DPI przy konwertowaniu SVG na PNG z Aspose – przewodnik Java](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
+Dowiedz się, jak określić rozdzielczość DPI podczas konwersji plików SVG do PNG przy użyciu Aspose.HTML w Javie.
+### [Uruchom JavaScript z Javy – Ustaw niestandardowy User-Agent przy użyciu Aspose.HTML](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
+Dowiedz się, jak wykonać kod JavaScript z Javy i ustawić własny nagłówek User-Agent przy użyciu Aspose.HTML.
+### [Jak używać Executor w Javie – Przewodnik po stałej puli wątków](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
+Dowiedz się, jak skonfigurować i wykorzystywać Executor z stałą pulą wątków w Javie, aby efektywnie zarządzać równoległym przetwarzaniem.
+### [Konwertuj EPUB do DOCX w Javie – Pełny przewodnik krok po kroku](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
+### [Konwertuj SVG do AVIF w Javie – Kompletny przewodnik krok po kroku](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
+Dowiedz się, jak konwertować pliki SVG do formatu AVIF w Javie, korzystając z Aspose.HTML – kompletny przewodnik krok po kroku.
+### [Ustaw DPI urządzenia w Aspose w Javie – Kompletny przewodnik sandbox](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
+Dowiedz się, jak skonfigurować DPI urządzenia w Aspose.HTML dla Javy w środowisku sandbox, aby uzyskać wysoką jakość renderowania.
+### [XPath z przestrzeniami nazw w Javie – Kompletny przewodnik po wybieraniu elementów SVG](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
+Poznaj, jak używać XPath z przestrzeniami nazw w Javie, aby precyzyjnie wybierać elementy SVG w dokumentach HTML.
+### [Wykonaj JavaScript w Javie – Kompletny przewodnik Aspose.HTML](./execute-javascript-in-java-complete-aspose-html-guide/)
+Poznaj, jak uruchamiać kod JavaScript w aplikacji Java przy użyciu Aspose.HTML, od konfiguracji po wywołanie skryptu.
+### [Włącz wykonywanie JavaScript w Aspose – Kompletny przewodnik Java](./enable-javascript-execution-aspose-complete-java-guide/)
+Dowiedz się, jak włączyć i uruchomić kod JavaScript w aplikacji Java przy użyciu Aspose.HTML, krok po kroku, od konfiguracji po wykonanie skryptu.
+### [Utwórz piaskownicę dla HTML w Javie – Kompletny przewodnik krok po kroku](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
+Dowiedz się, jak stworzyć bezpieczną piaskownicę dla HTML w Javie, krok po kroku, wykorzystując Aspose.HTML.
+### [Wykonaj JavaScript w Javie przy użyciu Aspose.HTML – Kompletny przewodnik](./execute-javascript-in-java-using-aspose-html-complete-guide/)
+Kompletny przewodnik po uruchamianiu skryptów JavaScript w Javie przy pomocy Aspose.HTML, z przykładami i najlepszymi praktykami.
 
 ---
 
@@ -200,6 +236,9 @@ Dowiedz się, jak uruchamiać kod JavaScript z poziomu aplikacji Java przy użyc
 Poznaj, jak używać środowiska Sandbox Aspose.HTML w Javie do bezpiecznej konwersji HTML na PDF, krok po kroku.
 ### [Włącz wykonywanie skryptów w Javie – Kompletny przewodnik Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
 Dowiedz się, jak włączyć i konfigurować wykonywanie JavaScript w aplikacjach Java przy użyciu Aspose.HTML, krok po kroku.
+
+### [Wykonaj JavaScript w Javie przy użyciu Aspose.HTML](./execute-javascript-in-java-using-aspose-html/)
+Dowiedz się, jak uruchomić kod JavaScript w aplikacji Java przy użyciu Aspose.HTML, krok po kroku.
 
 ---
 

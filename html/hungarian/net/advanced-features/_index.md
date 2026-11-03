@@ -55,10 +55,17 @@ Ismerje meg, hogyan kérheti le egy .NET könyvtár verziószámát C#‑ban egy
 Tanulja meg, hogyan tömörítheti a HTML-fájlokat az Aspose HTML segítségével, lépésről lépésre útmutatóval.
 ### [Dokumentum mentése PDF-ként C#-ban – Teljes útmutató ZIP támogatással](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
 Ismerje meg, hogyan menthet HTML-dokumentumot PDF-be C#-ban, ZIP-fájlba csomagolva, lépésről lépésre útmutatóval.
+### [Word dokumentum PDF-re konvertálása – Tiszta szöveges útmutató (C#)](./convert-word-document-to-pdf-clear-text-guide-c/)
+Ismerje meg, hogyan konvertálhat Word dokumentumot PDF-be C#-ban az Aspose.HTML segítségével, egyszerű, tiszta szöveges útmutatóval.
+### [HTML mentése zip-be C#-al – zip archívum létrehozása C#-ban az Aspose segítségével](./save-html-to-zip-with-c-create-zip-archive-c-using-aspose/)
+Ismerje meg, hogyan menthet HTML-fájlokat zip-archívumba C#-ban az Aspose HTML segítségével.
 
 ## Következtetés
 
 Az Aspose.HTML for .NET a lehetőségek világa előtt nyitja meg az ajtót, amikor HTML-dokumentumokkal kell dolgozni a .NET-alkalmazásokban. Ezek a speciális oktatóanyagok felvértezik Önt az Aspose.HTML-ben rejlő lehetőségek teljes kihasználásához szükséges ismeretekkel és készségekkel. Emelje fel fejlesztési projektjeit, takarítson meg időt, és készítsen figyelemre méltó megoldásokat az Aspose.HTML for .NET segítségével. Kezdje el oktatóanyagainkat még ma, és emelje webfejlesztését a következő szintre.
+### [Clear Type engedélyezése – Simítási mód beállítása .NET-ben](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
+Ismerje meg, hogyan kapcsolhatja be a Clear Type-ot és a simítási módot a .NET alkalmazásokban a szövegek éles megjelenítéséhez.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

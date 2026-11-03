@@ -50,7 +50,8 @@ url: /el/java/creating-managing-html-documents/
 
 ### [Φόρτωση εγγράφων HTML από το αρχείο στο Aspose.HTML για Java](./load-html-documents-from-file/)
 Ξεκλειδώστε τη δύναμη του χειρισμού HTML με το Aspose.HTML για Java. Μάθετε να φορτώνετε έγγραφα HTML από αρχεία με οδηγίες βήμα προς βήμα.
-
+### [Ανάγνωση αρχείου HTML Java – Πλήρης οδηγός με χρήση Aspose.HTML](./read-html-file-java-complete-guide-using-aspose-html/)
+Μάθετε πώς να διαβάζετε αρχεία HTML σε Java χρησιμοποιώντας το Aspose.HTML με βήμα‑βήμα οδηγίες.
 ### [Σύνθετη φόρτωση αρχείων για έγγραφα HTML στο Aspose.HTML για Java](./advanced-file-loading-html-documents/)
 Μάθετε πώς να φορτώνετε, να χειρίζεστε και να αποθηκεύετε έγγραφα HTML χρησιμοποιώντας το Aspose.HTML για Java σε αυτόν τον οδηγό βήμα προς βήμα. Ξεκλειδώστε την προηγμένη επεξεργασία HTML στα έργα σας Java.
 
@@ -63,8 +64,11 @@ url: /el/java/creating-managing-html-documents/
 Μάθετε πώς να δημιουργήσετε ένα έγγραφο HTML σε Java, λαμβάνοντας δεδομένα JSON και δημιουργώντας δυναμικό περιεχόμενο HTML με οδηγίες βήμα‑βήμα.
 ### [Δημιουργία HTML από Markdown σε Java – Πλήρης οδηγός βήμα‑βήμα](./create-html-from-markdown-in-java-full-step-by-step-guide/)
 Μάθετε πώς να μετατρέψετε αρχεία Markdown σε HTML σε Java με αναλυτικές οδηγίες βήμα‑βήμα.
+### [Δημιουργία div με κλάση java – Πλήρες Παράδειγμα Χρήσης Aspose.HTML](./create-div-with-class-java-full-example-using-aspose-html/)
+Μάθετε πώς να δημιουργήσετε ένα στοιχείο div με κλάση java χρησιμοποιώντας το Aspose.HTML σε πλήρη παράδειγμα βήμα‑βήμα.
+### [Δημιουργία εγγράφου HTML με ενσωματωμένο JavaScript – Παράδειγμα Java](./create-html-document-with-embedded-javascript-java-example/)
+Μάθετε πώς να δημιουργήσετε ένα έγγραφο HTML με ενσωματωμένο JavaScript χρησιμοποιώντας Aspose.HTML για Java σε αυτόν τον βήμα‑βήμα οδηγό.
 ### [Φόρτωση εγγράφων HTML από τη διεύθυνση URL στο Aspose.HTML για Java](./load-html-documents-from-url/)
-Ανακαλύψτε πώς να φορτώνετε εύκολα έγγραφα HTML από μια διεύθυνση URL σε Java με το Aspose.HTML. Περιλαμβάνεται σεμινάριο βήμα προς βήμα.
 ### [Φόρτωση εγγράφου HTML σε Java – Πλήρης οδηγός με XPath & CSS](./load-html-document-java-complete-guide-with-xpath-css/)
 Μάθετε πώς να φορτώνετε έγγραφα HTML σε Java χρησιμοποιώντας Aspose.HTML, με πλήρη κάλυψη XPath και CSS για ακριβή ερωτήματα.
 
@@ -74,12 +78,19 @@ url: /el/java/creating-managing-html-documents/
 Μάθετε πώς να φορτώνετε ένα έγγραφο HTML με Aspose και να εξάγετε τον τίτλο της σελίδας σε Java με αυτόν τον σύντομο οδηγό.
 ### [Πώς να φορτώσετε HTML σε Java – Σύγκριση XPath και CSS Selector](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
 Μάθετε πώς να φορτώνετε HTML σε Java και να συγκρίνετε τις προσεγγίσεις XPath και CSS Selector με το Aspose.HTML.
+### [Εξαγωγή HTML από MHTML – Πλήρης οδηγός Java](./extract-html-from-mhtml-complete-java-guide/)
+Ανακαλύψτε πώς να εξάγετε HTML από αρχεία MHTML σε Java με το Aspose.HTML. Οδηγός βήμα‑βήμα για πλήρη επεξεργασία.
 ### [Δημιουργήστε νέα έγγραφα HTML χρησιμοποιώντας το Aspose.HTML για Java](./generate-new-html-documents/)
 Μάθετε πώς να δημιουργείτε νέα έγγραφα HTML χρησιμοποιώντας το Aspose.HTML για Java με αυτόν τον εύκολο, βήμα προς βήμα οδηγό. Ξεκινήστε τη δημιουργία δυναμικού περιεχομένου HTML.
 
+### [Φόρτωση HTML από URL σε Java – Πλήρης οδηγός με CSS & XPath](./load-html-from-url-in-java-complete-guide-with-css-xpath/)
+Μάθετε πώς να φορτώνετε HTML από URL, να εφαρμόζετε CSS και να εκτελείτε ερωτήματα XPath με το Aspose.HTML για Java.
+### [Δημιουργία εγγράφου HTML με Aspose.HTML - Πλήρης οδηγός Java](./create-html-document-with-aspose-html-complete-java-guide/)
+Μάθετε πώς να δημιουργήσετε ένα έγγραφο HTML χρησιμοποιώντας το Aspose.HTML σε Java με αυτόν τον πλήρη οδηγό βήμα‑βήμα.
 ### [Δημιουργία sandbox για HTML σε Java – Οδηγός βήμα‑βήμα](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Μάθετε πώς να δημιουργήσετε ένα sandbox HTML σε Java με οδηγίες βήμα‑βήμα, για ασφαλή και απομονωμένη επεξεργασία HTML.
-
+### [Εκτέλεση πολλαπλών νημάτων στην Java – χρήση try‑with‑resources](./run-multiple-threads-java-use-try-with-resources-java/)
+Μάθετε πώς να εκτελείτε πολλαπλά νήματα στην Java χρησιμοποιώντας τη δήλωση try‑with‑resources για ασφαλή διαχείριση πόρων.
 ### [Χειριστείτε συμβάντα φόρτωσης εγγράφου στο Aspose.HTML για Java](./handle-document-load-events/)
 Μάθετε να χειρίζεστε συμβάντα φόρτωσης εγγράφων στο Aspose.HTML για Java με αυτόν τον οδηγό βήμα προς βήμα. Βελτιώστε τις διαδικτυακές εφαρμογές σας.
 ### [javascript settimeout async: Εκτέλεση JavaScript σε Java και ενημέρωση HTML](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
@@ -130,6 +141,42 @@ url: /el/java/creating-managing-html-documents/
 Μάθετε πώς να εκτελείτε JavaScript σε έγγραφα HTML με Aspose.HTML για Java και να προσθέτετε δυναμικά στοιχεία στη σελίδα.
 ### [Δημιουργία στοιχείου HTML με Java ExecutorService – Demo ασφαλούς νήματος](./create-html-element-with-java-executorservice-thread-safe-de/)
 Μάθετε πώς να δημιουργήσετε στοιχείο HTML χρησιμοποιώντας ExecutorService σε Java, εξασφαλίζοντας ασφαλή εκτέλεση σε πολλαπλά νήματα.
+### [Πώς να ερωτήσετε xpath σε Java – Οδηγός βήμα‑βήμα](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
+Μάθετε πώς να εκτελείτε ερωτήματα xpath σε έγγραφα HTML με Java χρησιμοποιώντας το Aspose.HTML, βήμα‑βήμα οδηγίες και παραδείγματα.
+### [Απόδοση HTML σε Java – Πλήρης οδηγός για την αναμονή φόρτωσης της σελίδας & το Query Selector](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
+Μάθετε πώς να αποδίδετε HTML σε Java, περιμένετε τη φόρτωση της σελίδας και χρησιμοποιήστε το Query Selector για εξαγωγή στοιχείων.
+### [Μετατροπή Markdown σε HTML σε Java – Οδηγός βήμα‑βήμα](./convert-markdown-to-html-in-java-step-by-step-guide/)
+Μάθετε πώς να μετατρέπετε αρχεία Markdown σε HTML χρησιμοποιώντας το Aspose.HTML για Java με οδηγίες βήμα‑βήμα.
+### [Επιλογή div κατά κλάση σε Java – Πλήρης οδηγός XPath](./select-div-by-class-in-java-complete-xpath-guide/)
+Μάθετε πώς να επιλέγετε στοιχεία div με βάση την κλάση σε Java χρησιμοποιώντας XPath, βήμα‑βήμα οδηγίες και παραδείγματα.
+### [Πώς να αναζητήσετε HTML – Οδηγός Java για Εύρεση Κειμένου](./how-to-search-html-java-guide-for-finding-text/)
+Μάθετε πώς να εντοπίζετε κείμενο σε έγγραφα HTML χρησιμοποιώντας Java με το Aspose.HTML, βήμα‑βήμα οδηγίες.
+### [Πώς να χρησιμοποιήσετε το querySelectorAll σε Java – Φιλτράρισμα κατά κλάση](./how-to-use-queryselectorall-in-java-filter-by-class/)
+Μάθετε πώς να φιλτράρετε στοιχεία HTML κατά κλάση χρησιμοποιώντας querySelectorAll σε Java με οδηγίες βήμα‑βήμα.
+### [Πώς να διαβάσετε αρχείο XHTML σε Java – Παράδειγμα XPath Namespace](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
+Μάθετε πώς να διαβάζετε αρχεία XHTML σε Java χρησιμοποιώντας XPath με namespaces, βήμα‑βήμα οδηγός.
+### [Πώς να ερωτήσετε HTML με Aspose.HTML – Πλήρης οδηγός Java](./how-to-query-html-with-aspose-html-complete-java-guide/)
+Μάθετε πώς να εκτελείτε ερωτήματα σε έγγραφα HTML με Java χρησιμοποιώντας το Aspose.HTML, βήμα‑βήμα οδηγίες και παραδείγματα.
+### [Μετατροπή Markdown σε HTML σε Java – Γρήγορος Οδηγός με Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
+Μάθετε πώς να μετατρέψετε αρχεία Markdown σε HTML σε Java χρησιμοποιώντας το Aspose.HTML με αυτόν τον γρήγορο βήμα‑βήμα οδηγό.
+### [Πώς να αναζητήσετε HTML με Aspose Java – Πλήρης οδηγός](./how-to-search-html-with-aspose-java-complete-programming-gui/)
+Μάθετε πώς να αναζητάτε σε έγγραφα HTML με Java χρησιμοποιώντας το Aspose.HTML. Οδηγός βήμα‑βήμα πλήρης προγραμματισμού.
+### [Δημιουργία εγγράφου HTML σε Java – Οδηγός βήμα‑βήμα με Aspose.HTML](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
+Μάθετε πώς να δημιουργήσετε ένα έγγραφο HTML σε Java χρησιμοποιώντας το Aspose.HTML με οδηγίες βήμα‑βήμα.
+### [fetch json javascript – Πλήρης οδηγός Java για τη δημιουργία εγγράφου HTML](./fetch-json-javascript-complete-java-guide-to-create-html-doc/)
+Μάθετε πώς να ανακτάτε JSON με JavaScript και να δημιουργείτε έγγραφα HTML σε Java χρησιμοποιώντας το Aspose.HTML.
+### [Ανάκτηση JSON με JavaScript σε Java – Πλήρης Οδηγός](./fetch-json-with-javascript-in-java-full-guide/)
+Μάθετε πώς να ανακτάτε δεδομένα JSON χρησιμοποιώντας JavaScript σε εφαρμογές Java με το Aspose.HTML, βήμα‑βήμα οδηγός.
+### [Φόρτωση JSON με Fetch σε Java – Πλήρης οδηγός](./load-json-with-fetch-in-java-complete-guide/)
+Μάθετε πώς να φορτώνετε JSON χρησιμοποιώντας Fetch σε Java με αυτόν τον πλήρη οδηγό βήμα‑βήμα.
+### [Εξαγωγή τίτλου σελίδας με Java – Πλήρης οδηγός χρησιμοποιώντας το Aspose.HTML](./extract-page-title-with-java-full-guide-using-aspose-html/)
+Μάθετε πώς να εξάγετε τον τίτλο μιας σελίδας HTML σε Java με το Aspose.HTML, βήμα‑βήμα οδηγός.
+### [Πώς να ξεκινήσετε νήμα σε Java – Πλήρης οδηγός](./how-to-start-thread-in-java-complete-guide/)
+Μάθετε πώς να ξεκινήσετε και να διαχειριστείτε νήματα σε Java με αυτόν τον πλήρη οδηγό βήμα‑βήμα.
+### [Απόκτηση Υπολογισμένου Στυλ Java – Πλήρης Οδηγός Προγραμματισμού](./get-computed-style-java-complete-programming-guide/)
+Μάθετε πώς να λαμβάνετε το υπολογισμένο στυλ στοιχείων HTML σε Java με το Aspose.HTML, βήμα‑βήμα πλήρης οδηγός προγραμματισμού.
+### [Φόρτωση εγγράφου HTML Java – Πλήρης οδηγός με ερωτήματα CSS & XPath](./load-html-document-java-complete-guide-with-css-xpath-querie/)
+Μάθετε πώς να φορτώνετε έγγραφα HTML σε Java και να εκτελείτε ερωτήματα CSS και XPath με το Aspose.HTML, βήμα‑βήμα οδηγίες.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

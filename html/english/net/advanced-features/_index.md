@@ -47,7 +47,8 @@ Convert HTML to PDF dynamically with Aspose.HTML for .NET. Easy integration, cus
 
 ### [Fine-Tuning Converters in .NET with Aspose.HTML](./fine-tuning-converters/)
 Learn how to convert HTML to PDF, XPS, and images with Aspose.HTML for .NET. Step-by-step tutorial with code examples and FAQs.
-
+### [Convert Word Document to PDF – Clear Text Guide (C#)](./convert-word-document-to-pdf-clear-text-guide-c/)
+Learn how to convert Word documents to PDF using Aspose.HTML for .NET with clear, step-by-step C# examples.
 ### [Using HTML Templates in .NET with Aspose.HTML](./using-html-templates/)
 Learn how to use Aspose.HTML for .NET to dynamically generate HTML documents from JSON data. Harness the power of HTML manipulation in your .NET applications.
 
@@ -63,6 +64,10 @@ Learn how to implement a custom resource handler in Aspose.HTML to save resource
 Learn how to compress HTML files into ZIP archives using Aspose.HTML, with step-by-step examples and best practices.
 ### [save document as pdf in C# – Complete Guide with ZIP support](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
 Learn how to save HTML as PDF in C# using Aspose.HTML, including ZIP packaging support, with step-by-step examples and best practices.
+### [How to Enable Clear Type – Enable Smoothing Mode in .NET](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
+Learn how to enable ClearType and set smoothing mode in .NET using Aspose.HTML for improved text rendering. Step-by-step guide and examples.
+### [save html to zip with C# – create zip archive c# using Aspose](./save-html-to-zip-with-c-create-zip-archive-c-using-aspose/)
+Learn how to save HTML content into a ZIP archive using Aspose.HTML in C#, with step-by-step code examples.
 
 ## Conclusion
 

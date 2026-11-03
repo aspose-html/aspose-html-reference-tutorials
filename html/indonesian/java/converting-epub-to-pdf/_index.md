@@ -55,6 +55,8 @@ Buka potensi konten digital Anda dengan Aspose.HTML for Java. Mulailah perjalana
 Buka konversi EPUB ke PDF dengan Aspose.HTML for Java, perpustakaan Java yang kuat. Buat konten yang dapat diakses dengan mudah.
 ### [Mengonversi EPUB ke PDF dengan Java – Panduan Langkah‑demi‑Langkah](./convert-epub-to-pdf-with-java-step-by-step-guide/)
 Pelajari cara mengonversi EPUB ke PDF menggunakan Java dengan panduan langkah demi langkah yang mudah diikuti.
+### [Mengonversi EPUB ke PDF dengan Java – Panduan Pemrograman Lengkap](./convert-epub-to-pdf-with-java-complete-programming-guide/)
+Panduan pemrograman lengkap untuk mengonversi EPUB ke PDF menggunakan Java dan Aspose.HTML.
 ### [Menentukan Penyedia Aliran Kustom untuk EPUB ke PDF](./convert-epub-to-pdf-specify-custom-stream-provider/)
 Pelajari cara mengonversi EPUB ke PDF di Java dengan mudah menggunakan Aspose.HTML, meningkatkan kemampuan pemrosesan dokumen Anda.
 ### [Menentukan Opsi Penyimpanan PDF untuk EPUB ke PDF](./convert-epub-to-pdf-specify-pdf-save-options/)
@@ -65,6 +67,10 @@ Pelajari cara menyematkan font dalam PDF saat mengonversi EPUB menggunakan Aspos
 Panduan langkah demi langkah menyematkan font ke PDF saat mengonversi EPUB menggunakan Aspose.HTML for Java.
 ### [Mengonversi EPUB ke PDF di Java – Tambahkan Daftar Isi dan Panduan Lengkap](./convert-epub-to-pdf-in-java-add-toc-and-full-guide/)
 Pelajari cara menambahkan daftar isi saat mengonversi EPUB ke PDF di Java dengan panduan lengkap ini.
+### [Mengonversi EPUB ke PDF dengan Font Tertanam di Java](./convert-epub-to-pdf-with-embedded-fonts-in-java/)
+Pelajari cara menyematkan font saat mengonversi EPUB ke PDF menggunakan Aspose.HTML for Java.
+### [Mengonversi EPUB ke PDF dengan Ukuran Font Kustom – Panduan Java](./convert-epub-to-pdf-with-custom-font-size-java-guide/)
+Pelajari cara mengonversi EPUB ke PDF dengan ukuran font khusus menggunakan Aspose.HTML for Java.
 ### [Mengonversi EPUB ke BMP](./convert-epub-to-bmp/)
 Pelajari cara mengonversi EPUB ke BMP menggunakan Aspose.HTML for Java. Panduan langkah demi langkah untuk transformasi konten yang efisien.
 ### [Mengonversi EPUB ke GIF](./convert-epub-to-gif/)

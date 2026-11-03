@@ -127,6 +127,11 @@ Java’da Aspose.HTML kütüphanesinin sürümünü nasıl alıp ekranda göster
 Java’da sandbox oluşturmayı adım adım öğrenin ve güvenli HTML dönüşümleri için ortamı yapılandırın.
 ### [Aspose.HTML for Java’da Kafasız HTML Render'ı için Kullanıcı Aracısını Ayarlama – Tam Kılavuz](./set-user-agent-for-headless-html-rendering-complete-guide/)
 Aspose.HTML for Java’da kafasız HTML render'ı için kullanıcı aracısını nasıl ayarlayacağınızı öğrenin.
+### [Java’da HTML’den Başlık Çıkarma – Tam Sandbox Rehberi](./extract-title-from-html-in-java-complete-sandbox-guide/)
+Java’da sandbox ortamında HTML belgesinden başlığı güvenli bir şekilde nasıl çıkaracağınızı adım adım öğrenin.
+### [Aspose.HTML Sandbox’te DPI Nasıl Ayarlanır – Tam Java Rehberi](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
+### [Sandbox Nasıl Kullanılır – Kullanıcı Aracısını Ayarlama ve Görünüm Boyutunu Alma](./how-to-use-sandbox-set-user-agent-get-viewport-size/)
+Sandbox içinde kullanıcı aracısını ayarlamayı ve görünüm boyutunu almayı öğrenin.
 
 ---
 

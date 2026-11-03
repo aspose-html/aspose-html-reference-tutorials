@@ -69,10 +69,20 @@ Leer hoe u een child-element toevoegt aan de DOM in Java met Aspose.HTML in deze
 Leer stap voor stap hoe u Java gebruikt om scripts veilig uit HTML-bestanden te verwijderen en de inhoud te saniteren.
 ### [Hoe HTML markeren – Tekst zoeken en vervangen door <mark>](./how-to-highlight-html-search-text-replace-with-mark/)
 Leer hoe u specifieke tekst in een HTML-document kunt zoeken en markeren met de <mark>-tag via Aspose.HTML voor Java.
+### [HTML extraheren in Java – Tekst extraheren en woorden markeren](./how-to-extract-html-in-java-extract-text-highlight-words/)
+Leer hoe u HTML kunt extraheren, tekst kunt ophalen en specifieke woorden kunt markeren met Aspose.HTML voor Java.
+### [JavaScript uitvoeren in HTML met Aspose.HTML voor Java – volledige gids](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
+Leer hoe u JavaScript in HTML-documenten kunt uitvoeren met Aspose.HTML voor Java via een stapsgewijze volledige handleiding.
+### [HTML-sjabloon laden in Java – Complete Aspose.HTML-gids](./load-html-template-java-complete-aspose-html-guide/)
+Leer hoe u een HTML-sjabloon laadt met Aspose.HTML voor Java. Een volledige stap‑voor‑stap gids.
 ### [Fixed thread pool Java – Parallelle HTML-reiniging met ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 ### [Kind toevoegen aan body in Java – volledige Aspose.HTML-tutorial](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 Leer hoe u een kind-element aan de body van een HTML-document toevoegt met Aspose.HTML voor Java.
+### [Automatische lockrelease in Java – Thread‑veilige HTML-bewerkingshandleiding](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
+Leer hoe u automatisch lockrelease implementeert in Java voor thread‑veilige HTML-bewerking met Aspose.HTML.
 
+### [Elementattribuut ophalen Java – Complete gids voor SVG-selectie en XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
+Leer hoe u met Aspose.HTML voor Java SVG-elementen selecteert en attributen ophaalt via XPath in deze volledige handleiding.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

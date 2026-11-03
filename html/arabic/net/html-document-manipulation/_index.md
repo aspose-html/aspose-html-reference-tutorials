@@ -13,7 +13,6 @@ url: /ar/net/html-document-manipulation/
 
 # معالجة مستندات HTML
 
-
 هل أنت مستعد للاستفادة من الإمكانات الكاملة لمعالجة مستندات HTML في إطار عمل .NET؟ مع Aspose.HTML for .NET، لديك القدرة على تحويل مستندات HTML وتحسينها ومعالجتها بشكل لم يسبق له مثيل. تأخذك هذه المقالة في رحلة عبر قائمة البرامج التعليمية الشاملة لدينا، وتزودك بالمعرفة والأدوات اللازمة لإتقان معالجة مستندات HTML دون عناء.
 
 ## الكشف عن Aspose.HTML لـ .NET
@@ -51,10 +50,8 @@ url: /ar/net/html-document-manipulation/
 ## دروس تعليمية حول التعامل مع مستندات HTML
 ### [تحميل مستندات HTML بشكل غير متزامن في .NET باستخدام Aspose.HTML](./load-html-doc-asynchronously/)
 تعرف على كيفية استخدام Aspose.HTML for .NET للعمل مع مستندات HTML. دليل خطوة بخطوة مع أمثلة وأسئلة شائعة للمطورين.
-### [تحميل مستندات HTML باستخدام بيانات الاعتماد في .NET باستخدام Aspose.HTML](./load-html-with-credentials/)
-تعرف على كيفية تعزيز تحسين محرك البحث الخاص بك باستخدام Aspose.HTML لـ .NET. قم بتعزيز التصنيفات وتحليل محتوى الويب وتحسينه لمحركات البحث.
 ### [تحميل مستندات HTML باستخدام بيانات الاعتماد في .NET باستخدام Aspose.HTML](./load-html-doc-with-credentials/)
-تعرف على كيفية تعزيز تحسين محرك البحث الخاص بك باستخدام Aspose.HTML لـ .NET. قم بتحسين التصنيفات وتحليل محتوى الويب وتحسينه لمحركات البحث.
+تعرف على كيفية تعزيز تحسين محرك البحث الخاص بك باستخدام Aspose.HTML لـ .NET. قم بتعزيز التصنيفات وتحليل محتوى الويب وتحسينه لمحركات البحث.
 ### [تحميل HTML باستخدام خادم بعيد في .NET مع Aspose.HTML](./load-html-using-remote-server/)
 اكتشف إمكانات Aspose.HTML لـ .NET من خلال دليلنا الشامل. تعرّف على كيفية استيراد مساحات الأسماء والوصول إلى مستندات HTML عن بُعد والمزيد.
 ### [تحميل HTML باستخدام URL في .NET مع Aspose.HTML](./load-html-using-url/)
@@ -85,6 +82,30 @@ url: /ar/net/html-document-manipulation/
 تعلم كيفية إنشاء مستند HTML وإضافة عنصر CSS لتنسيق المحتوى خطوة بخطوة باستخدام Aspose.HTML.
 ### [إنشاء مستند HTML باستخدام C# – دليل خطوة بخطوة](./create-html-document-c-step-by-step-guide/)
 تعرف على كيفية إنشاء مستند HTML باستخدام C# مع Aspose.HTML عبر دليل خطوة بخطوة.
+### [كيفية إنشاء HTML – إلحاق عناصر وتنسيق النص](./how-to-create-html-append-elements-and-style-text/)
+تعلم كيفية إنشاء مستند HTML وإضافة عناصر وتطبيق تنسيقات النص بسهولة باستخدام Aspose.HTML.
+### [كيفية تنسيق HTML باستخدام Aspose.HTML – تعيين نمط الخط في C#](./how-to-style-html-with-aspose-html-set-font-style-in-c/)
+تعلم كيفية تعيين نمط الخط في مستندات HTML باستخدام Aspose.HTML في C# خطوة بخطوة.
+### [دمج الخط العريض والمائل في HTML باستخدام C# – دليل شامل](./combine-bold-and-italic-in-html-with-c-complete-guide/)
+تعلم كيفية دمج تنسيقات الخط العريض والمائل في مستندات HTML باستخدام C# مع Aspose.HTML خطوة بخطوة.
+### [كيفية حفظ HTML باستخدام Aspose.HTML – دليل خطوة بخطوة](./how-to-save-html-with-aspose-html-step-by-step-guide/)
+اكتشف طريقة حفظ ملفات HTML باستخدام Aspose.HTML خطوة بخطوة مع أمثلة عملية.
+### [تطبيق نمط الخط برمجيًا – دليل سريع C#](./apply-font-style-programmatically-quick-c-guide/)
+دليل سريع لتطبيق أنماط الخط برمجيًا على مستندات HTML باستخدام Aspose.HTML في C#.
+### [كيفية إنشاء HTML بنص منسق – دليل كامل بلغة C#](./how-to-create-html-with-styled-text-complete-c-guide/)
+تعلم كيفية إنشاء مستندات HTML بنص منسق باستخدام C# مع دليل شامل خطوة بخطوة.
+### [إنشاء مستند HTML باستخدام Aspose.HTML – دليل كامل](./create-html-document-with-aspose-html-full-guide/)
+تعرف على كيفية إنشاء مستند HTML من الصفر باستخدام Aspose.HTML خطوة بخطوة مع أمثلة عملية.
+### [تعيين innerHTML للـ span في C# باستخدام Aspose.HTML – دليل شامل](./set-span-innerhtml-in-c-with-aspose-html-complete-guide/)
+تعلم كيفية تعيين خاصية innerHTML لعنصر span في C# باستخدام Aspose.HTML عبر دليل شامل خطوة بخطوة.
+### [تغيير نمط الفقرة في C# – دليل Aspose.HTML الكامل](./change-paragraph-style-in-c-complete-aspose-html-guide/)
+تعلم كيفية تعديل نمط الفقرة في مستندات HTML باستخدام C# و Aspose.HTML خطوة بخطوة.
+### [إنشاء خط عريض ومائل في C# – دليل كامل](./create-font-bold-italic-in-c-complete-guide/)
+تعلم كيفية إنشاء خطوط عريضة ومائلة في C# باستخدام Aspose.HTML خطوة بخطوة.
+### [إنشاء مستند HTML في الذاكرة باستخدام Aspose.HTML – دليل شامل](./create-html-document-memory-with-aspose-html-complete-guide/)
+تعرف على كيفية إنشاء مستند HTML في الذاكرة باستخدام Aspose.HTML مع دليل شامل خطوة بخطوة.
+### [إنشاء مستند HTML في C# – دليل برمجة كامل](./create-html-document-in-c-complete-programming-guide/)
+تعلم كيفية إنشاء مستند HTML باستخدام C# من خلال دليل برمجة شامل خطوة بخطوة.
 
 ## خاتمة
 

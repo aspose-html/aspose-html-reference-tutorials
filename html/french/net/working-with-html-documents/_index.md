@@ -42,6 +42,9 @@ Apprenez à enregistrer du HTML en C# en utilisant un gestionnaire de ressources
 ### [Créer un document HTML en C# – Guide complet avec un gestionnaire de ressources personnalisé](./create-html-document-c-complete-guide-with-custom-resource-h/)
 
 Apprenez à créer un document HTML en C# en utilisant un gestionnaire de ressources personnalisé pour contrôler le flux de sortie et les ressources liées.
+### [Comment enregistrer du HTML en C# – Guide complet avec un stockage de sortie personnalisé](./how-to-save-html-in-c-complete-guide-with-custom-output-stor/)
+
+Apprenez à enregistrer du HTML en C# en utilisant un stockage de sortie personnalisé pour gérer le flux et les ressources associées.
 
 ### [Comment mettre en gras un titre avec CSS & C# – Guide complet étape par étape](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 ### [Comment zipper du HTML en C# – Guide complet pour créer une archive ZIP](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
@@ -61,6 +64,24 @@ Apprenez à générer du HTML à partir d'une chaîne en C# avec Aspose.HTML, é
 ### [Charger un document HTML avec Aspose.HTML – Guide complet C#](./load-html-document-with-aspose-html-complete-c-guide/)
 
 ### [Comment zipper du HTML en C# – Guide complet étape par étape](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+
+### [Créer du HTML à partir d'une chaîne en C# – Guide complet avec Memory Stream](./create-html-from-string-in-c-full-guide-with-memory-stream/)
+
+### [Comment enregistrer du HTML en C# – Guide complet étape par étape](./how-to-save-html-in-c-complete-step-by-step-guide/)
+
+Apprenez à enregistrer du HTML en C# avec un guide détaillé étape par étape.
+
+### [Comment enregistrer du HTML – Guide complet Aspose HTMLDocument](./how-to-save-html-aspose-htmldocument-complete-guide/)
+
+Apprenez à enregistrer du HTML en utilisant Aspose.HTMLDocument, avec des options complètes pour gérer la sortie et les ressources associées.
+
+### [Créer une archive Zip pour HTML – Guide complet C#](./create-zip-archive-for-html-complete-c-guide/)
+
+### [Enregistrer du HTML dans un Zip – Guide complet C# pour les archives en mémoire](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
+
+### [Créer un document HTML en mémoire avec Aspose.HTML – Guide complet](./create-in-memory-html-document-with-aspose-html-complete-gui/)
+
+### [Charger une chaîne HTML en C# – guide complet avec gestionnaire personnalisé](./load-html-string-in-c-complete-guide-with-custom-handler/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

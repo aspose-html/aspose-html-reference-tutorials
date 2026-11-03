@@ -53,6 +53,8 @@ Ontgrendel het potentieel van je digitale content met Aspose.HTML for Java. Begi
 
 ### [EPUB naar PDF converteren](./convert-epub-to-pdf/)
 Ontgrendel EPUB‑naar‑PDF‑conversie met Aspose.HTML for Java, de krachtige Java‑bibliotheek. Maak moeiteloos toegankelijke content.
+### [Convert EPUB to PDF with Java – Complete Programming Guide](./convert-epub-to-pdf-with-java-complete-programming-guide/)
+Leer hoe je EPUB naar PDF kunt converteren met Java, een volledige stap‑voor‑stap programmeergids.
 ### [Aangepaste stream‑provider opgeven voor EPUB‑naar‑PDF](./convert-epub-to-pdf-specify-custom-stream-provider/)
 Leer hoe je EPUB naar PDF kunt converteren in Java moeiteloos met Aspose.HTML, en verbeter je documentverwerkingsmogelijkheden.
 ### [PDF‑opslaoptopties opgeven voor EPUB‑naar‑PDF](./convert-epub-to-pdf-specify-pdf-save-options/)
@@ -61,6 +63,10 @@ Leer hoe je EPUB naar PDF kunt converteren met Java en Aspose.HTML, een krachtig
 Leer hoe je lettertypen kunt insluiten tijdens EPUB‑naar‑PDF‑conversie met Aspose.HTML for Java.
 ### [Lettertypen insluiten in PDF met Aspose HTML – gids voor EPUB naar PDF conversie](./how-to-embed-fonts-in-pdf-using-aspose-html-convert-epub-to/)
 Leer hoe je lettertypen kunt insluiten bij het converteren van EPUB naar PDF met Aspose.HTML for Java.
+### [EPUB naar PDF met ingesloten lettertypen in Java](./convert-epub-to-pdf-with-embedded-fonts-in-java/)
+Leer hoe je lettertypen insluit tijdens het converteren van EPUB naar PDF met Aspose.HTML for Java.
+### [EPUB naar PDF converteren met aangepaste lettergrootte – Java‑gids](./convert-epub-to-pdf-with-custom-font-size-java-guide/)
+Leer hoe je een aangepaste lettergrootte instelt bij het converteren van EPUB naar PDF met Aspose.HTML for Java.
 ### [EPUB naar BMP converteren](./convert-epub-to-bmp/)
 Leer hoe je EPUB naar BMP kunt converteren met Aspose.HTML for Java. Stapsgewijze gids voor efficiënte contenttransformatie.
 ### [EPUB naar GIF converteren](./convert-epub-to-gif/)

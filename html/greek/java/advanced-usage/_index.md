@@ -62,7 +62,7 @@ weight: 20
 
 ## Παρακολούθηση αλλαγών DOM – “monitor dom changes”
 
-Το Aspose.HTML σας επιτρέπει να συνδέσετε έναν `DomMutationObserver` σε οποιονδήποτε κόμβο. Αυτό είναι ιδανικό για σενάρια όπου χρειάζεται να αντιδράτε σε δυναμικό περιεχόμενο—όπως αυτόματη συμπλήρωση φορμών ή ενημέρωση γραφημάτων. Παρακολουθώντας τις προσθήκες κόμβων, μπορείτε να ενεργοποιήσετε προσαρμοσμένη λογική σε πραγματικό χρόνο.
+Το Aspose.HTML σας επιτρέπει να συνδέσετε έναν `DomMutationObserver` σε οποιονδήποτε κόμβο. Αυτό είναι ιδανικό για σενάρια όπου χρειάζεται να αντιδράτε σε δυναμικό περιεχόμενο—όπως αυτή η αυτόματη συμπλήρωση φορμών ή ενημέρωση γραφημάτων. Παρακολουθώντας τις προσθήκες κόμβων, μπορείτε να ενεργοποιήσετε προσαρμοσμένη λογική σε πραγματικό χρόνο.
 
 > *Μόνο επεξήγηση – ο κώδικας παραμένει αμετάβλητος.*
 
@@ -80,7 +80,7 @@ weight: 20
 
 ## Προσαρμογή Μεγέθους Σελίδας PDF και XPS
 
-Κατά τη μετατροπή HTML σε PDF ή XPS, συχνά χρειάζεται να ελέγξετε τις τελικές διαστάσεις της σελίδας. Τα `PdfSaveOptions` και `XpsSaveOptions` του Aspose.HTML εκθέτουν ιδιότητες όπως `PageWidth` και `PageHeight`, επιτρέποντάς σας να **προσαρμόσετε το μέγεθος σελίδας PDF** ή **να μετατρέψετε HTML σε XPS** με ακριβείς μετρήσεις.
+Κατά τη μετατροπή HTML σε PDF ή XPS, συχνά χρειάζεται να ελέγξετε τις τελικές διαστάσεις της σελίδας. Τα `PdfSaveOptions` και `XpsSaveOptions` του Aspose.HTML εκθέτουν ιδιότητες όπως `PageWidth` και `PageHeight`, επιτρέποντας σας να **προσαρμόσετε το μέγεθος σελίδας PDF** ή **να μετατρέψετε HTML σε XPS** με ακριβείς μετρήσεις.
 
 > *Μόνο επεξήγηση – ο κώδικας παραμένει αμετάβλητος.*
 
@@ -148,6 +148,39 @@ weight: 20
 Μάθετε πώς να εφαρμόζετε πλήρη φιλτράρισμα με XPath χρησιμοποιώντας το Aspose.HTML for Java για ακριβή εξαγωγή δεδομένων από HTML.
 ### [Κλήση Java από JavaScript – Προσθήκη Host Object και Εκτέλεση JavaScript σε Java](./call-java-from-javascript-add-host-object-and-run-javascript/)
 ### [Λήψη Τίτλου HTML Java – Απόδοση Σελίδας σε Sandbox με Πλάτος Οθόνης](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
+### [Παράδειγμα top‑level await – Χρήση await delay σε JavaScript](./top-level-await-example-using-await-delay-in-javascript/)
+Μάθετε πώς να χρησιμοποιήσετε το top‑level await με καθυστέρηση await σε κώδικα JavaScript.
+### [Εκτέλεση JavaScript σε Java – Εκτέλεση JS από HTML](./execute-javascript-in-java-run-js-from-html/)
+### [Πώς να φορτώσετε HTML σε Java – Πλήρες παράδειγμα ασύγχρονης Aspose.HTML](./how-to-load-html-in-java-complete-aspose-html-async-example/)
+Μάθετε πώς να φορτώσετε HTML ασύγχρονα σε Java χρησιμοποιώντας το Aspose.HTML, με πλήρη παράδειγμα κώδικα.
+### [Αξιολόγηση JavaScript σε Java – Πλήρης Οδηγός με Aspose.HTML](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
+Μάθετε πώς να εκτελείτε και να αξιολογείτε κώδικα JavaScript σε εφαρμογές Java με το Aspose.HTML σε αυτόν τον πλήρη οδηγό.
+### [Ορισμός αναλογίας pixel συσκευής σε Java – Οδηγός προσομοίωσης κινητών](./set-device-pixel-ratio-in-java-mobile-simulation-guide/)
+Μάθετε πώς να ορίσετε την αναλογία pixel της συσκευής σε Java για ακριβή προσομοίωση κινητών.
+### [Πώς να ενεργοποιήσετε τη JavaScript σε Java HTMLDocument – Οδηγός βήμα‑βήμα](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
+Μάθετε πώς να ενεργοποιήσετε την εκτέλεση JavaScript σε ένα Java HTMLDocument χρησιμοποιώντας Aspose.HTML for Java, βήμα‑βήμα.
+### [java multithreading tutorial: Εκτέλεση εργασιών παράλληλα με Fixed Thread Pool](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
+### [Εκτέλεση JavaScript σε Java – Πλήρης Οδηγός για Προσθήκη Στοιχείων στο Body](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
+Μάθετε πώς να εκτελείτε κώδικα JavaScript από Java και να προσθέτετε στοιχεία στο σώμα του εγγράφου HTML.
+### [Πώς να ορίσετε DPI κατά τη μετατροπή SVG σε PNG με το Aspose – Οδηγός Java](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
+Μάθετε πώς να ορίσετε την ανάλυση DPI κατά τη μετατροπή αρχείων SVG σε PNG χρησιμοποιώντας το Aspose.HTML for Java.
+### [Εκτέλεση JavaScript από Java – Ορισμός προσαρμοσμένου User-Agent με Aspose.HTML](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
+Μάθετε πώς να εκτελείτε JavaScript από Java και να ορίζετε προσαρμοσμένο User-Agent χρησιμοποιώντας το Aspose.HTML.
+### [Πώς να Χρησιμοποιήσετε τον Executor στη Java – Οδηγός Σταθερού Πισίνας Νημάτων](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
+### [Μετατροπή EPUB σε DOCX με Java – Πλήρης Οδηγός Βήμα‑βήμα](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία EPUB σε DOCX χρησιμοποιώντας το Aspose.HTML for Java, βήμα‑βήμα με παραδείγματα κώδικα.
+### [Μετατροπή SVG σε AVIF με Java – Πλήρης Οδηγός Βήμα‑βήμα](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία SVG σε μορφή AVIF χρησιμοποιώντας το Aspose.HTML for Java, βήμα‑βήμα με παραδείγματα κώδικα.
+### [Ορισμός DPI συσκευής Aspose σε Java – Πλήρης Οδηγός Sandbox](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
+### [XPath με Ονοματοχώρους σε Java – Πλήρης Οδηγός για την Επιλογή Στοιχείων SVG](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
+### [Εκτέλεση JavaScript σε Java – Πλήρης Οδηγός Aspose.HTML](./execute-javascript-in-java-complete-aspose-html-guide/)
+Μάθετε πώς να τρέχετε κώδικα JavaScript σε εφαρμογές Java με τη βοήθεια του Aspose.HTML.
+### [Ενεργοποίηση Εκτέλεσης JavaScript με Aspose – Πλήρης Οδηγός Java](./enable-javascript-execution-aspose-complete-java-guide/)
+Μάθετε πώς να ενεργοποιήσετε και να εκτελέσετε κώδικα JavaScript σε εφαρμογές Java χρησιμοποιώντας το Aspose.HTML.
+### [Δημιουργία sandbox για HTML σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε ένα ασφαλές sandbox για HTML σε Java, βήμα‑βήμα, χρησιμοποιώντας το Aspose.HTML.
+### [Εκτέλεση JavaScript σε Java χρησιμοποιώντας Aspose.HTML – Πλήρης Οδηγός](./execute-javascript-in-java-using-aspose-html-complete-guide/)
+Μάθετε πώς να εκτελείτε κώδικα JavaScript σε εφαρμογές Java με το Aspose.HTML for Java.
 
 ---
 
@@ -191,6 +224,8 @@ weight: 20
 
 
 ### [Ενεργοποίηση Εκτέλεσης Script σε Java – Πλήρης Οδηγός Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
+
+### [Εκτέλεση JavaScript σε Java με Aspose.HTML](./execute-javascript-in-java-using-aspose-html/)
 
 ---
 

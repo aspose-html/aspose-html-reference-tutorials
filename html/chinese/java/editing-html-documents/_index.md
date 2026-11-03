@@ -60,6 +60,10 @@ url: /zh/java/editing-html-documents/
 通过本分步指南学习如何管理 Aspose.HTML for Java 中的内部和外部 HTML 属性，非常适合 Web 开发人员和内容创建者。
 ### [使用 Aspose.HTML for Java 在 HTML 文档中实现内部 CSS](./implement-internal-css-html-documents/)
 通过我们简单的分步教程学习使用 Aspose.HTML for Java 在 HTML 文档中实现内部 CSS。
+### [在 Aspose.HTML for Java 中运行 JavaScript – 完整指南](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
+了解如何使用 Aspose.HTML for Java 在 HTML 中执行 JavaScript，实现动态交互和脚本处理的完整步骤指南。
+### [加载 HTML 模板 Java – 完整 Aspose.HTML 指南](./load-html-template-java-complete-aspose-html-guide/)
+了解如何使用 Aspose.HTML for Java 加载 HTML 模板并完成全流程操作的完整指南。
 ### [固定线程池 Java – 使用 ExecutorService 并行 HTML 清理](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 了解如何使用 Java 固定线程池和 ExecutorService 实现并行 HTML 清理，提高处理效率。
 ### [在 Java 中向 body 追加子元素 – 完整 Aspose.HTML 教程](./append-child-to-body-in-java-full-aspose-html-tutorial/)
@@ -72,6 +76,13 @@ url: /zh/java/editing-html-documents/
 本完整指南教您使用 Aspose.HTML for Java 安全地删除 HTML 中的脚本标签，防止 XSS 并提升页面性能。
 ### [如何突出显示 HTML – 搜索文本并用 <mark> 替换](./how-to-highlight-html-search-text-replace-with-mark/)
 本教程演示如何在 HTML 中搜索特定文本并使用 <mark> 标签高亮显示，实现快速标记功能。
+### [Java 中的自动锁释放 – 线程安全 HTML 编辑教程](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
+了解如何在 Java 中使用自动锁释放实现线程安全的 HTML 编辑，提高并发处理效率。
+### [如何在 Java 中提取 HTML – 提取文本并高亮单词](./how-to-extract-html-in-java-extract-text-highlight-words/)
+了解如何使用 Aspose.HTML for Java 提取 HTML 内容、获取文本并对指定单词进行高亮显示的完整步骤。
+
+### [获取元素属性 Java – 完整的 SVG 选择和 XPath 指南](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
+了解如何使用 Aspose.HTML for Java 获取元素属性，选择 SVG 元素并通过 XPath 完整操作指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -65,21 +65,6 @@ GIF jest idealny dla małych animacji lub gdy potrzebna jest ograniczona paleta 
 
 W scenariuszu **convert html to jpg** zyskujesz korzyść w postaci mniejszych rozmiarów plików dzięki stratnej kompresji JPEG. Ten format sprawdza się najlepiej w przypadku treści fotograficznych, gdzie niewielka utrata szczegółów jest akceptowalna.
 
-Pamiętaj, aby ustawić właściwość `Quality` w `JpegOptions`, jeśli potrzebujesz dokładniejszej kontroli nad poziomem kompresji.
-
-## Konwertowanie HTML do PNG
-
-Jeśli Twoim celem jest **create png from html**, PNG zapewnia bezstratną kompresję i obsługuje przezroczystość — idealne dla logo, elementów interfejsu użytkownika lub dowolnej grafiki wymagającej przejrzystego tła.
-
-Ustaw `ImageFormat` na PNG i opcjonalnie określ `Resolution`, aby poprawić ostrość na wyświetlaczach o wysokiej rozdzielczości DPI.
-
-## Typowe przypadki użycia
-- **Newslettery e‑mailowe** – osadź zrzut PNG dynamicznego wykresu.  
-- **Automatyczne raportowanie** – generuj obrazy BMP dla starszych systemów, które akceptują wyłącznie BMP.  
-- **Podglądy w mediach społecznościowych** – twórz GIF‑y z animowanych banerów HTML.  
-- **Generowanie dokumentów** – wstaw obrazy JPEG do PDF‑ów w celu szybszego renderowania.
-
-## Samouczki konwertowania HTML do różnych formatów obrazów
 ### [Konwertowanie HTML do BMP](./convert-html-to-bmp/)
 Dowiedz się, jak łatwo konwertować HTML do BMP przy użyciu Aspose.HTML for Java. Przewodnik krok po kroku z wymaganiami wstępnymi i importami pakietów. Odkryj teraz!
 ### [Konwertowanie HTML do GIF](./convert-html-to-gif/)
@@ -111,6 +96,8 @@ A: Licencja wieczysta z opcjonalnymi umowami wsparcia. Dostępna jest darmowa li
 **Ostatnia aktualizacja:** 2026-03-31  
 **Testowano z:** Aspose.HTML for Java 24.11  
 **Autor:** Aspose  
+### [Samouczek html do obrazu – Konwertuj pliki HTML do PNG i JPEG w Javie](./html-to-image-tutorial-convert-html-files-to-png-jpeg-with-j/)
+Dowiedz się, jak konwertować pliki HTML do PNG i JPEG przy użyciu Aspose.HTML dla Java. Przewodnik krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

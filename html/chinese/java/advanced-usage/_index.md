@@ -168,6 +168,55 @@ Aspose.HTML 允许您将 `DomMutationObserver` 附加到任意节点。这对于
 
 ### [获取 HTML 标题（Java）– 在沙盒中使用屏幕宽度渲染页面](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
 
+### [顶级 await 示例 – 在 JavaScript 中使用 await 延迟](./top-level-await-example-using-await-delay-in-javascript/)
+演示在 JavaScript 中使用顶级 await 以及 await delay 实现异步延时的示例。
+
+### [在 Java 中执行 JavaScript – 从 HTML 运行 JS](./execute-javascript-in-java-run-js-from-html/)
+学习如何使用 Aspose.HTML for Java 从 HTML 页面中执行嵌入的 JavaScript 代码，实现服务器端脚本运行。
+
+### [如何在 Java 中加载 HTML – 完整的 Aspose.HTML 异步示例](./how-to-load-html-in-java-complete-aspose-html-async-example/)
+演示如何使用 Aspose.HTML 的异步 API 在 Java 中加载 HTML 并进行后续处理的完整示例。
+
+### [在 Java 中评估 JavaScript – 完整指南](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
+学习如何使用 Aspose.HTML 在 Java 中执行 JavaScript，涵盖 Rhino、Nashorn 与 GraalVM 等实现。
+
+### [如何在 Java HTMLDocument 中启用 JavaScript – 步骤指南](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
+学习在 Aspose.HTML for Java 的 HTMLDocument 中启用并运行 JavaScript 的完整步骤。
+
+### [在 Java 中设置设备像素比 – 移动模拟指南](./set-device-pixel-ratio-in-java-mobile-simulation-guide/)
+学习如何在 Java 中设置设备像素比，以模拟移动设备的显示效果并生成准确的 PDF/XPS。
+
+### [Java 多线程教程：使用固定线程池并行运行任务](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
+
+### [在 Java 中执行 JavaScript – 完整指南：向 Body 添加元素](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
+
+### [使用 Aspose 将 SVG 转换为 PNG 时设置 DPI – Java 指南](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
+### [在 Java 中运行 JavaScript – 使用 Aspose.HTML 设置自定义用户代理](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
+
+### [如何在 Java 中使用 Executor – 固定线程池指南](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
+学习如何在 Java 中使用 Executor 创建固定线程池，管理并发任务，提高性能。
+
+### [在 Java 中将 EPUB 转换为 DOCX – 完整分步指南](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
+学习如何使用 Aspose.HTML for Java 将 EPUB 文件转换为 DOCX 文档，提供完整的步骤和代码示例。
+
+### [使用 Java 将 SVG 转换为 AVIF – 完整分步指南](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
+学习如何使用 Java 将 SVG 图像转换为 AVIF 格式，提供完整的步骤和代码示例。
+### [在 Java 中设置设备 DPI – 完整沙盒指南](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
+
+
+### [XPath 与命名空间在 Java 中 – 选择 SVG 元素的完整指南](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
+
+### [在 Java 中执行 JavaScript – 完整 Aspose.HTML 指南](./execute-javascript-in-java-complete-aspose-html-guide/)
+学习如何在 Java 环境中使用 Aspose.HTML 执行 JavaScript，涵盖 Rhino、Nashorn、GraalVM 等实现，完整步骤指南。
+
+### [启用 JavaScript 执行 Aspose – 完整 Java 指南](./enable-javascript-execution-aspose-complete-java-guide/)
+学习如何在 Aspose.HTML for Java 中启用 JavaScript 执行，并使用完整示例实现脚本运行。
+
+### [在 Java 中创建 HTML 沙盒 – 完整分步指南](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
+
+### [使用 Aspose.HTML 在 Java 中执行 JavaScript – 完整指南](./execute-javascript-in-java-using-aspose-html-complete-guide/)
+学习如何在 Java 环境中运行 JavaScript 代码，涵盖 Aspose.HTML 的集成、脚本执行以及常见引擎的使用。
+
 ---
 **最后更新：** 2025-11-29  
 **测试环境：** Aspose.HTML for Java 24.11  
@@ -180,6 +229,9 @@ Aspose.HTML 允许您将 `DomMutationObserver` 附加到任意节点。这对于
 
 
 ### [从 MHTML 提取 HTML – 完整 Java 指南](./extract-html-from-mhtml-complete-java-guide/)
+
+### [在 Java 中使用 Aspose.HTML 执行 JavaScript](./execute-javascript-in-java-using-aspose-html/)
+学习如何在 Java 环境中使用 Aspose.HTML 执行 JavaScript 代码，涵盖 Rhino、Nashorn 与 GraalVM 等实现。
 
 ---
 **最后更新：** 2025-11-29  

@@ -46,16 +46,29 @@ Als het gaat om het genereren van nieuwe HTML-documenten, biedt Aspose.HTML voor
 
 ### [Asynchroon HTML-documenten maken in Aspose.HTML voor Java](./create-html-documents-async/)
 Beheers HTML-documentcreatie asynchroon met Aspose.HTML voor Java. Stapsgewijze handleiding, tips en FAQ's inbegrepen voor snel leren.
+
 ### [Maak lege HTML-documenten in Aspose.HTML voor Java](./create-empty-html-documents/)
 Leer hoe u lege HTML-documenten in Java kunt maken met Aspose.HTML met onze gedetailleerde stapsgewijze tutorial, perfect voor ontwikkelaars van alle niveaus.
+
 ### [HTML-documenten laden vanuit een bestand in Aspose.HTML voor Java](./load-html-documents-from-file/)
 Ontgrendel de kracht van HTML-manipulatie met Aspose.HTML voor Java. Leer HTML-documenten laden vanuit bestanden met stapsgewijze tutorials.
+### [HTML-bestand lezen in Java – Complete gids met Aspose.HTML](./read-html-file-java-complete-guide-using-aspose-html/)
+Leer hoe u HTML-bestanden kunt lezen in Java met Aspose.HTML in deze volledige stap‑voor‑stap handleiding.
 ### [Geavanceerd laden van bestanden voor HTML-documenten in Aspose.HTML voor Java](./advanced-file-loading-html-documents/)
 Leer hoe u HTML-documenten laadt, bewerkt en opslaat met Aspose.HTML voor Java in deze stapsgewijze handleiding. Ontgrendel geavanceerde HTML-verwerking in uw Java-projecten.
+### [HTML-document laden in Aspose.HTML voor Java – Complete gids met CSS- en XPath-query's](./load-html-document-java-complete-guide-with-css-xpath-querie/)
+Leer hoe u HTML-documenten laadt en query's uitvoert met CSS en XPath in Aspose.HTML voor Java.
 ### [Laad HTML-documenten uit de stream met Aspose.HTML voor Java](./load-html-documents-from-stream/)
 Leer hoe u HTML-documenten laadt uit streams met Aspose.HTML voor Java. Deze gids biedt een stapsgewijze tutorial voor naadloze HTML-manipulatie.
+
 ### [HTML-documenten maken van strings in Aspose.HTML voor Java](./create-html-documents-from-string/)
 Leer hoe u HTML-documenten van strings maakt in Aspose.HTML voor Java met deze stapsgewijze handleiding.
+### [HTML-document maken in Java – Stapsgewijze handleiding met Aspose.HTML](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
+Leer hoe u een HTML-document maakt in Java met Aspose.HTML via een duidelijke stap‑voor‑stap gids.
+### [HTML-document maken met ingesloten JavaScript – Java-voorbeeld](./create-html-document-with-embedded-javascript-java-example/)
+Leer hoe u een HTML-document maakt met ingebedde JavaScript in Java met Aspose.HTML, inclusief voorbeeldcode.
+### [Div met klasse java maken – Volledig voorbeeld met Aspose.HTML](./create-div-with-class-java-full-example-using-aspose-html/)
+Leer hoe u een div met een Java‑klasse maakt in Aspose.HTML voor Java met een volledig voorbeeld en stapsgewijze uitleg.
 ### [HTML-documenten laden vanaf URL in Aspose.HTML voor Java](./load-html-documents-from-url/)
 Ontdek hoe u eenvoudig HTML-documenten kunt laden vanaf een URL in Java met Aspose.HTML. Inclusief stapsgewijze tutorial.
 ### [HTML-document maken met Java – JSON ophalen en inhoud genereren](./create-html-document-with-java-fetch-json-and-generate-conte/)
@@ -68,16 +81,23 @@ Leer hoe u met Aspose.HTML in Java een HTML-document laadt en de paginatitel eff
 Leer hoe u JavaScript uitvoert binnen een HTML-document in Java en dynamisch elementen toevoegt.
 ### [HTML-element maken met Java ExecutorService – Thread‑Safe demo](./create-html-element-with-java-executorservice-thread-safe-de/)
 Leer hoe u met ExecutorService thread‑veilige HTML-elementen maakt in Java met Aspose.HTML.
+### [Pagina-titel extraheren met Java – volledige gids met Aspose.HTML](./extract-page-title-with-java-full-guide-using-aspose-html/)
+Leer hoe u met Aspose.HTML voor Java de paginatitel uit HTML kunt halen. Stapsgewijze handleiding voor snelle implementatie.
+### [HTML laden vanaf URL in Java – Complete gids met CSS & XPath](./load-html-from-url-in-java-complete-guide-with-css-xpath/)
+Leer hoe u HTML van een URL laadt in Java met CSS‑selectoren en XPath, inclusief stapsgewijze handleiding.
 ### [Genereer nieuwe HTML-documenten met Aspose.HTML voor Java](./generate-new-html-documents/)
 Leer hoe u nieuwe HTML-documenten maakt met Aspose.HTML voor Java met deze eenvoudige stapsgewijze handleiding. Begin met het genereren van dynamische HTML-inhoud.
 ### [HTML genereren vanuit JavaScript in Java – Complete stapsgewijze handleiding](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Leer hoe u HTML genereert vanuit JavaScript-code in Java met een volledige stap‑voor‑stap handleiding.
 ### [Documentlaadgebeurtenissen afhandelen in Aspose.HTML voor Java](./handle-document-load-events/)
 Leer hoe u documentlaadgebeurtenissen in Aspose.HTML voor Java kunt verwerken met deze stapsgewijze handleiding. Verbeter uw webapplicaties.
+
 ### [SVG-documenten maken en beheren in Aspose.HTML voor Java](./create-manage-svg-documents/)
 Leer SVG-documenten maken en beheren met Aspose.HTML voor Java! Deze uitgebreide gids behandelt alles van basiscreatie tot geavanceerde manipulatie.
+
 ### [Sandbox voor HTML maken in Java – Stapsgewijze handleiding](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Leer hoe u een veilige sandboxomgeving voor HTML in Java opzet met een stapsgewijze handleiding.
+
 ### [HTML opvragen in Java – Complete tutorial](./how-to-query-html-in-java-complete-tutorial/)
 Leer hoe u HTML kunt query'en in Java met deze volledige stap‑voor‑stap handleiding.
 ### [HTML parseren in Java – Laden, query'en & elementen tellen](./how-to-parse-html-java-load-query-count-elements/)
@@ -122,6 +142,44 @@ Leer hoe u JavaScript met setTimeout asynchroon vanuit Java kunt uitvoeren en de
 Leer hoe u Markdown naar HTML converteert in Java met een gedetailleerde stap‑voor‑stap handleiding.
 ### [HTML laden in Java – Vergelijk XPath en CSS-selector](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
 Leer hoe u HTML in Java kunt laden en vergelijken tussen XPath- en CSS-selectoren voor efficiënte gegevensextractie.
+### [Hoe xpath in Java met Aspose te query'en – Stapsgewijze handleiding](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
+Leer hoe u xpath‑query's uitvoert in Java met Aspose via een gedetailleerde stap‑voor‑stap handleiding.
+### [Meerdere threads uitvoeren in Java – try-with-resources gebruiken](./run-multiple-threads-java-use-try-with-resources-java/)
+Leer hoe u meerdere threads in Java kunt uitvoeren en resources veilig beheert met try-with-resources.
+### [Selecteer div op class in Java – Complete XPath-gids](./select-div-by-class-in-java-complete-xpath-guide/)
+Leer hoe u met Aspose.HTML voor Java een div-element selecteert op basis van class met XPath. Volledige stapsgewijze gids.
+### [HTML renderen in Java – Complete gids voor wachten op paginalading en query selector](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
+Leer hoe u HTML rendert in Java, wacht op paginalading en gebruik query selector met deze volledige stap‑voor‑stap handleiding.
+### [Markdown naar HTML converteren in Java – Stapsgewijze handleiding](./convert-markdown-to-html-in-java-step-by-step-guide/)
+Leer hoe u Markdown-bestanden converteert naar HTML in Java met Aspose.HTML, inclusief een stapsgewijze handleiding.
+### [HTML extraheren uit MHTML – Complete Java‑gids](./extract-html-from-mhtml-complete-java-guide/)
+Leer hoe u HTML kunt extraheren uit MHTML‑bestanden met Aspose.HTML voor Java in deze volledige stap‑voor‑stap gids.
+### [Hoe querySelectorAll in Java te gebruiken – Filteren op klasse](./how-to-use-queryselectorall-in-java-filter-by-class/)
+Leer hoe u met querySelectorAll elementen selecteert op basis van CSS‑klasse in Java, met praktische voorbeelden.
+### [Hoe een XHTML-bestand lezen in Java – XPath Namespace-voorbeeld](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
+Leer hoe u een XHTML-bestand in Java kunt lezen met XPath en namespaces, inclusief voorbeeldcode en stapsgewijze uitleg.
+### [Hoe HTML zoeken – Java-gids voor het vinden van tekst](./how-to-search-html-java-guide-for-finding-text/)
+Leer hoe u tekst kunt vinden in HTML met Java, met een stapsgewijze handleiding en praktische voorbeelden.
+
+### [HTML opvragen met Aspose.HTML – Complete Java-gids](./how-to-query-html-with-aspose-html-complete-java-guide/)
+Leer hoe u HTML kunt query'en met Aspose.HTML in Java met deze volledige stap‑voor‑stap handleiding.
+
+### [Markdown naar HTML converteren in Java – Snelle gids met Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
+Leer hoe u Markdown naar HTML kunt converteren in Java met Aspose.HTML in deze snelle stapsgewijze handleiding.
+### [JSON ophalen met JavaScript – Complete Java-gids voor het maken van een HTML-document](./fetch-json-javascript-complete-java-guide-to-create-html-doc/)
+Leer hoe u JSON-gegevens ophaalt en verwerkt in Java om dynamisch HTML-documenten te genereren met Aspose.HTML.
+### [HTML doorzoeken met Aspose Java – Complete programmeergids](./how-to-search-html-with-aspose-java-complete-programming-gui/)
+Leer hoe u HTML kunt doorzoeken met Aspose Java in deze volledige programmeergids.
+### [JSON ophalen met JavaScript in Java – Volledige gids](./fetch-json-with-javascript-in-java-full-guide/)
+Leer hoe u JSON kunt ophalen met JavaScript in Java, stap voor stap, inclusief voorbeeldcode en best practices.
+### [JSON laden met Fetch in Java – Complete tutorial](./load-json-with-fetch-in-java-complete-guide/)
+Leer hoe u JSON kunt laden met Fetch in Java, inclusief stap‑voor‑stap handleiding en voorbeeldcode.
+### [Hoe een thread in Java te starten – Complete gids](./how-to-start-thread-in-java-complete-guide/)
+Leer stap voor stap hoe u threads start in Java met Aspose.HTML, inclusief voorbeelden en best practices.
+### [Computed Style ophalen in Java – Complete programmeergids](./get-computed-style-java-complete-programming-guide/)
+Leer hoe u de berekende stijl van HTML‑elementen opvraagt met Aspose.HTML voor Java in deze volledige stap‑voor‑stap gids.
+### [HTML-document maken met Aspose.HTML - Complete Java-gids](./create-html-document-with-aspose-html-complete-java-guide/)
+Leer stap voor stap hoe u een HTML-document maakt met Aspose.HTML in Java, inclusief volledige codevoorbeelden en best practices.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

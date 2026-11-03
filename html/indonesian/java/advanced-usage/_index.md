@@ -116,6 +116,10 @@ Pelajari cara mengotomatisasi pengisian dan pengiriman formulir HTML dengan Aspo
 Pelajari cara menyesuaikan ukuran halaman PDF dengan Aspose.HTML untuk Java. Buat PDF berkualitas tinggi dari HTML dengan mudah. Kontrol dimensi halaman secara efektif.
 ### [Sesuaikan Ukuran Halaman XPS dengan Aspose.HTML untuk Java](./adjust-xps-page-size/)
 Pelajari cara menyesuaikan ukuran halaman XPS dengan Aspose.HTML untuk Java. Kontrol dimensi output dokumen XPS Anda dengan mudah.
+
+### [Mengatur rasio piksel perangkat di Java – Panduan simulasi seluler](./set-device-pixel-ratio-in-java-mobile-simulation-guide/)
+Pelajari cara mengatur rasio piksel perangkat dalam simulasi seluler menggunakan Aspose.HTML untuk Java.
+
 ### [Cara Menjalankan JavaScript di Java – Panduan Lengkap](./how-to-run-javascript-in-java-complete-guide/)
 ### [Atur Rasio Piksel Perangkat di Java – Tutorial Sandbox Seluler](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
 Pelajari cara mengatur rasio piksel perangkat dalam lingkungan sandbox seluler menggunakan Aspose.HTML untuk Java.
@@ -152,6 +156,55 @@ Pelajari cara memanggil Java dari JavaScript dengan menambahkan host object dan 
 ### [Dapatkan Judul HTML Java – Render Halaman di Sandbox dengan Lebar Layar](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
 Pelajari cara mendapatkan judul HTML menggunakan Aspose.HTML untuk Java, merender halaman dalam sandbox dengan lebar layar tertentu.
 
+### [Contoh top‑level await – Menggunakan delay await dalam JavaScript](./top-level-await-example-using-await-delay-in-javascript/)
+Pelajari contoh penggunaan top‑level await dengan fungsi delay await dalam JavaScript menggunakan Aspose.HTML.
+
+### [Eksekusi JavaScript di Java – Jalankan JS dari HTML](./execute-javascript-in-java-run-js-from-html/)
+
+### [Cara Memuat HTML di Java – Contoh Lengkap Aspose.HTML Async](./how-to-load-html-in-java-complete-aspose-html-async-example/)
+Pelajari cara memuat HTML secara asinkron di Java menggunakan Aspose.HTML dengan contoh lengkap.
+
+### [Evaluasi JavaScript di Java – Panduan Lengkap dengan Aspose.HTML](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
+Pelajari cara mengeksekusi kode JavaScript dalam aplikasi Java menggunakan Aspose.HTML secara menyeluruh.
+
+### [Cara Mengaktifkan JavaScript di Java HTMLDocument – Panduan Langkah demi Langkah](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
+Pelajari cara mengaktifkan JavaScript dalam Java HTMLDocument menggunakan Aspose.HTML untuk Java dengan panduan langkah demi langkah.
+
+### [Tutorial Multithreading Java: Jalankan Tugas Paralel dengan Fixed Thread Pool](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
+
+### [Cara Menjalankan JavaScript di Java – Panduan Lengkap Menambahkan Elemen ke Body](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
+Pelajari cara mengeksekusi kode JavaScript dalam aplikasi Java dan menambahkan elemen baru ke elemen body secara dinamis.
+
+### [Cara Mengatur DPI Saat Mengonversi SVG ke PNG dengan Aspose – Panduan Java](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
+Pelajari cara mengatur DPI saat mengonversi file SVG ke PNG menggunakan Aspose.HTML untuk Java.
+### [Jalankan JavaScript dari Java – Atur User-Agent Kustom dengan Aspose.HTML](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
+Pelajari cara mengatur header User-Agent khusus saat mengeksekusi JavaScript menggunakan Aspose.HTML untuk Java.
+
+### [Cara Menggunakan Executor di Java – Panduan Fixed Thread Pool](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
+Pelajari cara menggunakan Executor dengan Fixed Thread Pool di Java untuk mengelola tugas secara efisien.
+
+### [Mengonversi EPUB ke DOCX di Java – Panduan Lengkap Langkah demi Langkah](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
+Pelajari cara mengonversi file EPUB menjadi DOCX menggunakan Aspose.HTML untuk Java dengan contoh kode lengkap.
+
+### [Mengonversi SVG ke AVIF dengan Java – Panduan Lengkap Langkah demi Langkah](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
+Pelajari cara mengonversi file SVG menjadi format gambar AVIF menggunakan Aspose.HTML untuk Java dengan contoh kode lengkap.
+
+### [Atur DPI Perangkat Aspose di Java – Panduan Sandbox Lengkap](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
+
+### [XPath dengan Namespace di Java – Panduan Lengkap Memilih Elemen SVG](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
+Pelajari cara menggunakan XPath dengan namespace di Java untuk memilih elemen SVG secara akurat.
+
+### [Jalankan JavaScript di Java – Panduan Lengkap Aspose.HTML](./execute-javascript-in-java-complete-aspose-html-guide/)
+Pelajari cara mengeksekusi kode JavaScript dalam aplikasi Java menggunakan Aspose.HTML secara menyeluruh.
+
+### [Mengaktifkan Eksekusi JavaScript Aspose – Panduan Lengkap Java](./enable-javascript-execution-aspose-complete-java-guide/)
+Pelajari cara mengaktifkan eksekusi JavaScript dalam aplikasi Java menggunakan Aspose.HTML secara menyeluruh.
+
+### [Buat sandbox untuk HTML di Java – Panduan Lengkap Langkah‑per‑Langkah](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
+
+### [Menjalankan JavaScript di Java Menggunakan Aspose.HTML – Panduan Lengkap](./execute-javascript-in-java-using-aspose-html-complete-guide/)
+Panduan lengkap mengeksekusi JavaScript di dalam aplikasi Java menggunakan Aspose.HTML untuk Java.
+
 ---
 
 **Terakhir Diperbarui:** 2025-11-29  
@@ -166,6 +219,8 @@ Pelajari cara mendapatkan judul HTML menggunakan Aspose.HTML untuk Java, merende
 
 ### [Ekstrak HTML dari MHTML – Panduan Lengkap Java](./extract-html-from-mhtml-complete-java-guide/)
 Pelajari cara mengekstrak konten HTML dari file MHTML menggunakan Aspose.HTML untuk Java dalam panduan lengkap ini.
+
+### [Menjalankan JavaScript di Java menggunakan Aspose.HTML](./execute-javascript-in-java-using-aspose-html/)
 
 ---
 

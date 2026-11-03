@@ -55,6 +55,8 @@ Hướng dẫn cách tạo ảnh PNG từ HTML bằng C# sử dụng Aspose.HTML
 
 ### [Kết xuất hình ảnh HTML trong C# – Hướng dẫn đầy đủ Aspose.HTML](./render-html-image-in-c-complete-aspose-html-guide/)
 Hướng dẫn chi tiết cách sử dụng Aspose.HTML trong C# để chuyển đổi HTML thành hình ảnh, bao gồm các bước cấu hình và ví dụ thực tế.
+### [Tạo PNG từ HTML với Aspose.HTML – Hướng dẫn .NET](./create-png-from-html-with-aspose-html-net-guide/)
+Hướng dẫn chi tiết cách chuyển đổi HTML thành ảnh PNG bằng Aspose.HTML cho .NET, bao gồm các bước cấu hình và ví dụ mã.
 ### [Cách bật khử răng cưa khi chuyển đổi DOCX sang PNG/JPG](./how-to-enable-antialiasing-when-converting-docx-to-png-jpg/)
 Hướng dẫn chi tiết cách bật khử răng cưa để cải thiện chất lượng hình ảnh khi chuyển đổi tài liệu DOCX sang PNG hoặc JPG bằng Aspose.HTML.
 ### [Chuyển đổi DOCX sang PNG – tạo tệp ZIP bằng C# – Hướng dẫn](./convert-docx-to-png-create-zip-archive-c-tutorial/)
@@ -99,6 +101,56 @@ Hướng dẫn chi tiết cách chuyển đổi HTML thành PNG và xuất kết
 Hướng dẫn bật khử răng cưa khi kết xuất HTML thành PNG bằng C# để cải thiện chất lượng hình ảnh.
 ### [Cách tắt khử răng cưa khi chuyển đổi HTML sang PNG](./how-to-disable-antialiasing-when-converting-html-to-png/)
 Hướng dẫn tắt khử răng cưa để cải thiện chất lượng ảnh khi chuyển đổi HTML sang PNG bằng Aspose.HTML.
+### [Cách chuyển đổi HTML sang PNG với Aspose.HTML – Hướng dẫn từng bước](./how-to-render-html-to-png-with-aspose-html-step-by-step-guid/)
+Hướng dẫn chi tiết cách chuyển đổi nội dung HTML thành hình ảnh PNG bằng Aspose.HTML trong .NET, bao gồm các bước cấu hình và ví dụ mã.
+### [Xuất DOCX thành PNG – Hướng dẫn đầy đủ C#](./export-docx-as-png-complete-c-guide/)
+Hướng dẫn chi tiết cách xuất tài liệu DOCX thành ảnh PNG bằng C#, bao gồm các bước cài đặt và tùy chỉnh.
+### [Tạo hình ảnh từ HTML với Aspose.HTML – Hướng dẫn chi tiết từng bước](./create-image-from-html-with-aspose-html-complete-step-by-ste/)
+Hướng dẫn toàn diện cách chuyển đổi HTML thành hình ảnh bằng Aspose.HTML, bao gồm các bước cài đặt, cấu hình và ví dụ thực tế.
+### [Cách bật khử răng cưa – Xuất tài liệu thành hình ảnh với C#](./how-to-enable-antialiasing-export-document-to-image-with-c/)
+Hướng dẫn chi tiết cách bật khử răng cưa khi xuất tài liệu sang hình ảnh bằng C#.
+### [Tạo PNG từ Word – Hướng dẫn từng bước C#](./create-png-from-word-step-by-step-c-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang ảnh PNG bằng C# với Aspose.HTML.
+### [Tạo PNG từ HTML – Hướng dẫn từng bước cho nhà phát triển C#](./create-png-from-html-step-by-step-guide-for-c-developers/)
+Hướng dẫn chi tiết cách tạo tệp PNG từ HTML bằng Aspose.HTML cho .NET, dành cho lập trình viên C#.
+### [Tạo PNG từ HTML – Hướng dẫn C# đầy đủ](./create-png-from-html-complete-c-guide/)
+Hướng dẫn chi tiết cách tạo ảnh PNG từ HTML bằng C# với Aspose.HTML, bao gồm các bước cấu hình và tối ưu hoá.
+### [Cách tạo kiểu HTML và render thành PNG – Hướng dẫn đầy đủ C#](./how-to-style-html-and-render-it-as-png-complete-c-guide/)
+Hướng dẫn chi tiết cách tạo kiểu cho HTML và chuyển đổi thành PNG bằng C# với Aspose.HTML.
+### [Đặt chiều rộng và chiều cao hình ảnh khi chuyển đổi Word sang PNG – Hướng dẫn đầy đủ](./set-image-width-height-when-converting-word-to-png-full-guid/)
+Hướng dẫn chi tiết cách thiết lập kích thước ảnh khi chuyển đổi tài liệu Word sang PNG bằng Aspose.HTML.
+### [Tạo PNG từ HTML – Hướng dẫn chi tiết từng bước](./create-png-from-html-full-step-by-step-guide/)
+Hướng dẫn chi tiết cách chuyển đổi HTML thành hình ảnh PNG bằng Aspose.HTML cho .NET, bao gồm các bước cài đặt và cấu hình.
+### [Tạo PNG từ HTML với Aspose – render HTML sang PNG](./create-png-from-html-with-aspose-render-html-to-png/)
+Hướng dẫn chi tiết cách sử dụng Aspose để chuyển đổi HTML thành hình ảnh PNG một cách nhanh chóng và hiệu quả.
+### [Chuyển đổi tài liệu Word sang PNG – Hướng dẫn lập trình đầy đủ](./convert-word-document-to-png-complete-programming-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang định dạng PNG bằng Aspose.HTML cho .NET, bao gồm các bước cài đặt và mã mẫu.
+### [Render HTML sang PNG – Hướng dẫn đầy đủ với Trình xử lý tùy chỉnh và Tùy chọn](./render-html-to-png-complete-guide-with-custom-handlers-optio/)
+Hướng dẫn chi tiết cách sử dụng Aspose.HTML để render HTML thành PNG với các trình xử lý tùy chỉnh và các tùy chọn cấu hình.
+### [Trình xử lý tài nguyên tùy chỉnh trong C# – Kết xuất trang web thành hình ảnh](./custom-resource-handler-in-c-render-webpage-to-image/)
+Hướng dẫn tạo trình xử lý tài nguyên tùy chỉnh trong C# để chuyển đổi trang web thành hình ảnh bằng Aspose.HTML.
+### [Tạo PNG từ HTML với Aspose.HTML – Hướng dẫn đầy đủ C#](./create-png-from-html-with-aspose-html-full-c-guide/)
+Hướng dẫn chi tiết cách tạo tệp PNG từ HTML bằng Aspose.HTML trong C# với các bước thực tế và tối ưu.
+### [Chuyển đổi DOCX sang ZIP – Hướng dẫn toàn diện với việc hiển thị hình ảnh](./convert-docx-to-zip-complete-guide-with-image-rendering/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX thành tệp ZIP, bao gồm render hình ảnh và các bước thực hiện bằng C#.
+### [Render HTML sang PNG trong C# – Hướng dẫn toàn diện với Aspose.HTML](./render-html-to-png-in-c-complete-guide-with-aspose-html/)
+Hướng dẫn chi tiết cách chuyển đổi HTML thành hình ảnh PNG bằng C# sử dụng Aspose.HTML, bao gồm các bước cấu hình và tối ưu hóa.
+### [Tạo PNG từ HTML với Aspose.HTML – Hướng dẫn chi tiết từng bước](./create-png-from-html-with-aspose-html-full-step-by-step-guid/)
+Hướng dẫn toàn diện cách chuyển đổi HTML thành hình ảnh PNG bằng Aspose.HTML, bao gồm các bước cấu hình và tối ưu hóa.
+### [Cách render HTML trong C# – hướng dẫn từng bước](./how-to-render-html-in-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách render HTML trong C# bằng Aspose.HTML, bao gồm các bước cấu hình và tối ưu hoá.
+### [Cách chuyển đổi HTML thành PNG với Aspose.HTML](./how-to-render-html-as-png-with-aspose-html/)
+Hướng dẫn chi tiết cách chuyển đổi HTML thành ảnh PNG bằng Aspose.HTML cho .NET.
+### [Tạo PNG từ HTML – Hướng dẫn đầy đủ Aspose.HTML](./create-png-from-html-complete-aspose-html-guide/)
+Hướng dẫn chi tiết cách tạo PNG từ HTML bằng Aspose.HTML, bao gồm các bước cấu hình và tối ưu hoá.
+### [Trình xử lý tài nguyên tùy chỉnh trong C# – Chuyển đổi Word sang PNG một cách hiệu quả](./custom-resource-handler-in-c-convert-word-to-png-efficiently/)
+Hướng dẫn tạo trình xử lý tài nguyên tùy chỉnh trong C# để chuyển đổi tài liệu Word sang PNG nhanh chóng và tối ưu.
+### [Tạo JPEG từ Word – Hướng dẫn C# đầy đủ](./create-jpeg-from-word-complete-c-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang ảnh JPEG bằng C# và Aspose.HTML, bao gồm các bước cài đặt và mã mẫu.
+### [Kết xuất HTML sang PNG – Hướng dẫn chi tiết từng bước](./render-html-to-png-complete-step-by-step-guide/)
+Hướng dẫn chi tiết cách chuyển đổi HTML thành PNG bằng Aspose.HTML cho .NET, bao gồm các bước cấu hình và tối ưu hoá.
+### [Tạo PNG từ HTML với Aspose.Html – Hướng dẫn C# đầy đủ](./create-png-from-html-with-aspose-html-complete-c-guide/)
+Hướng dẫn chi tiết cách chuyển đổi HTML thành ảnh PNG bằng Aspose.Html trong C# từ đầu đến cuối.
 ### [Kết xuất HTML sang PNG trong C# – hướng dẫn đầy đủ](./render-html-to-png-in-c-complete-guide/)
 Hướng dẫn chi tiết cách kết xuất HTML thành hình ảnh PNG bằng C# sử dụng Aspose.HTML.
 

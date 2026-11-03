@@ -55,6 +55,12 @@ Naučte se, jak v C# programově spojovat více písem do jednoho souboru pomoc�
 Naučte se, jak v C# získat verzi sestavení knihovny pomocí reflexe.
 ### [Jak zipovat HTML pomocí Aspose HTML – Kompletní průvodce](./how-to-zip-html-with-aspose-html-complete-guide/)
 Naučte se, jak pomocí Aspose.HTML zkomprimovat HTML soubory do ZIP archivu v kompletním průvodci.
+### [Jak povolit Clear Type – povolit režim vyhlazování v .NET](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
+Naučte se, jak v .NET povolit ClearType a nastavit režim vyhlazování pro ostřejší vykreslování textu.
+### [Převod dokumentu Word do PDF – Průvodce jasným textem (C#)](./convert-word-document-to-pdf-clear-text-guide-c/)
+Naučte se převádět soubory Word do PDF pomocí Aspose.HTML v C# s podrobným návodem a ukázkami kódu.
+### [Uložte HTML do ZIP pomocí C# – vytvořte ZIP archiv v C# pomocí Aspose](./save-html-to-zip-with-c-create-zip-archive-c-using-aspose/)
+Naučte se, jak pomocí Aspose.HTML v C# uložit HTML soubor do ZIP archivu a spravovat kompresi.
 
 ## Závěr
 

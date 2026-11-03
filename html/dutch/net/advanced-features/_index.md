@@ -44,6 +44,8 @@ Leer hoe u dynamische webinhoud maakt met Aspose.HTML voor .NET. Onze tutorial b
 Converteer HTML dynamisch naar PDF met Aspose.HTML voor .NET. Eenvoudige integratie, aanpasbare opties en robuuste prestaties.
 ### [Fine-tuning converters in .NET met Aspose.HTML](./fine-tuning-converters/)
 Leer hoe u HTML naar PDF, XPS en afbeeldingen converteert met Aspose.HTML voor .NET. Stapsgewijze tutorial met codevoorbeelden en veelgestelde vragen.
+### [HTML opslaan in zip met C# – zip‑archief maken met Aspose](./save-html-to-zip-with-c-create-zip-archive-c-using-aspose/)
+Leer hoe u HTML opslaat in een zip‑archief met C# en Aspose.HTML, inclusief voorbeeldcode en stapsgewijze instructies.
 ### [HTML-sjablonen gebruiken in .NET met Aspose.HTML](./using-html-templates/)
 Leer hoe u Aspose.HTML voor .NET kunt gebruiken om dynamisch HTML-documenten te genereren uit JSON-gegevens. Benut de kracht van HTML-manipulatie in uw .NET-toepassingen.
 ### [Lettertypen combineren via code in C# – Stapsgewijze handleiding](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
@@ -54,6 +56,10 @@ Leer hoe u de versie van een assembly in C# kunt ophalen met een eenvoudig codev
 Leer hoe u HTML-bestanden comprimeert met Aspose HTML, inclusief stapsgewijze instructies en voorbeeldcode.
 ### [Document opslaan als PDF in C# – Complete gids met ZIP-ondersteuning](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
 Leer hoe u met Aspose.HTML documenten naar PDF converteert in C#, inclusief ondersteuning voor ZIP-compressie.
+### [Hoe Clear Type in te schakelen – Smoothing-modus inschakelen in .NET](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
+Leer hoe u Clear Type en de smoothing-modus inschakelt voor scherpere tekstweergave in .NET met Aspose.HTML.
+### [Word-document converteren naar PDF – Duidelijke tekstgids (C#)](./convert-word-document-to-pdf-clear-text-guide-c/)
+Leer hoe u Word-documenten in C# naar PDF converteert met een duidelijke, stap‑voor‑stap handleiding.
 
 ## Conclusie
 

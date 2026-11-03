@@ -113,7 +113,6 @@ A: Não. Uma única licença do Aspose.HTML for Java cobre todos os formatos de 
 
 ## Uso avançado dos tutoriais Aspose.HTML Java
 ### [Personalizar margens de página HTML com Aspose.HTML](./css-extensions-adding-title-page-number/)
-Aprenda a personalizar margens de página, adicionar numeração de páginas e títulos a documentos HTML usando Aspose.HTML for Java.
 ### [Observador de Mutação DOM com Aspose.HTML for Java](./dom-mutation-observer-observing-node-additions/)
 Aprenda a usar Aspose.HTML for Java para implementar um Observador de Mutação DOM neste guia passo a passo. Monitore e reaja às mudanças no DOM de forma eficaz.
 ### [Manipulação de Canvas HTML5 com Aspose.HTML for Java](./html5-canvas-manipulation-using-code/)
@@ -172,6 +171,55 @@ Aprenda a chamar código Java a partir de JavaScript, adicionando objetos host e
 ### [Obter título HTML Java – Renderizar página em sandbox com largura de tela](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
 Aprenda a obter o título de uma página HTML e renderizá‑la em um sandbox definindo a largura da tela usando Aspose.HTML for Java.
 
+### [Exemplo de top-level await – usando await delay em JavaScript](./top-level-await-example-using-await-delay-in-javascript/)
+
+### [Executar JavaScript em Java – Executar JS a partir de HTML](./execute-javascript-in-java-run-js-from-html/)
+Aprenda a executar código JavaScript dentro de aplicações Java usando Aspose.HTML for Java.
+
+### [Como Carregar HTML em Java – Exemplo Completo Assíncrono do Aspose.HTML](./how-to-load-html-in-java-complete-aspose-html-async-example/)
+Aprenda a carregar documentos HTML de forma assíncrona em Java usando Aspose.HTML, com exemplo completo passo a passo.
+
+### [Avaliar JavaScript em Java – Guia Completo com Aspose.HTML](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
+### [Definir proporção de pixels do dispositivo em Java – Guia de simulação móvel](./set-device-pixel-ratio-in-java-mobile-simulation-guide/)
+### [Como habilitar JavaScript em Java HTMLDocument – Guia passo a passo](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
+Aprenda a habilitar a execução de JavaScript em objetos Java HTMLDocument usando Aspose.HTML, passo a passo.
+### [java multithreading tutorial: Executar tarefas em paralelo com Thread Pool fixo](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
+Aprenda a executar tarefas simultâneas usando um pool de threads fixo em Java com Aspose.HTML.
+
+### [Executar JavaScript em Java – Guia Completo para Anexar Elementos ao Body](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
+Aprenda a executar JavaScript em Java e adicionar elementos ao corpo da página usando Aspose.HTML for Java.
+
+### [Como definir DPI ao converter SVG para PNG com Aspose – Guia Java](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
+Aprenda a definir a resolução DPI ao converter arquivos SVG em PNG usando Aspose.HTML for Java.
+### [Como Executar JavaScript a partir de Java – Definir User-Agent Personalizado com Aspose.HTML](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
+Aprenda a definir um User-Agent personalizado ao executar scripts JavaScript a partir de Java usando Aspose.HTML.
+
+### [Como usar Executor em Java – Guia de pool de threads fixo](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
+Aprenda a usar a classe Executor para criar e gerenciar um pool de threads fixo em Java, otimizando tarefas concorrentes.
+
+### [Converter EPUB para DOCX em Java – Guia Completo Passo a Passo](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
+Aprenda a converter arquivos EPUB para DOCX usando Aspose.HTML for Java em um guia passo a passo.
+
+### [Converter SVG para AVIF com Java – Guia Completo Passo a Passo](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
+Aprenda a converter arquivos SVG para AVIF usando Aspose.HTML for Java em um guia passo a passo.
+
+### [Definir DPI do dispositivo no Aspose em Java – Guia Completo de Sandbox](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
+Aprenda a configurar o DPI do dispositivo ao gerar PDFs com Aspose.HTML for Java em um ambiente sandbox completo.
+
+### [XPath com Namespaces em Java – Guia Completo para Selecionar Elementos SVG](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
+Aprenda a usar XPath com namespaces em Java para selecionar elementos SVG de forma precisa usando Aspose.HTML for Java.
+
+### [Executar JavaScript em Java – Guia Completo Aspose.HTML](./execute-javascript-in-java-complete-aspose-html-guide/)
+Aprenda a executar código JavaScript dentro de aplicações Java usando Aspose.HTML.
+
+### [Habilitar Execução de JavaScript Aspose – Guia Completo Java](./enable-javascript-execution-aspose-complete-java-guide/)
+
+### [Criar sandbox para HTML em Java – Guia completo passo a passo](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
+Aprenda a criar um ambiente sandbox seguro para executar HTML em Java, passo a passo, usando Aspose.HTML.
+
+### [Executar JavaScript em Java usando Aspose.HTML – Guia Completo](./execute-javascript-in-java-using-aspose-html-complete-guide/)
+Aprenda a executar código JavaScript dentro de aplicações Java com Aspose.HTML, cobrindo configuração, execução e melhores práticas.
+
 ---
 
 **Última atualização:** 2025-11-29  
@@ -186,6 +234,9 @@ Aprenda a obter o título de uma página HTML e renderizá‑la em um sandbox de
 
 ### [Extrair HTML de MHTML – Guia Completo em Java](./extract-html-from-mhtml-complete-java-guide/)
 Aprenda a extrair HTML de arquivos MHTML usando Aspose.HTML for Java, com exemplos completos.
+
+### [Executar JavaScript em Java usando Aspose.HTML](./execute-javascript-in-java-using-aspose-html/)
+Descubra como executar scripts JavaScript em Java com Aspose.HTML, incluindo exemplos práticos e melhores práticas.
 
 ---
 

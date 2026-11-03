@@ -49,6 +49,8 @@ Làm chủ việc tạo tài liệu HTML không đồng bộ với Aspose.HTML c
 Tìm hiểu cách tạo tài liệu HTML trống trong Java bằng Aspose.HTML với hướng dẫn từng bước chi tiết của chúng tôi, hoàn hảo cho các nhà phát triển ở mọi cấp độ.
 ### [Tải tài liệu HTML từ tệp trong Aspose.HTML cho Java](./load-html-documents-from-file/)
 Mở khóa sức mạnh của thao tác HTML với Aspose.HTML cho Java. Học cách tải tài liệu HTML từ tệp với hướng dẫn từng bước.
+### [Cách đọc tệp XHTML trong Java – Ví dụ Namespace XPath](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
+Hướng dẫn chi tiết cách đọc tệp XHTML bằng Java sử dụng XPath với namespace, kèm ví dụ thực tế.
 ### [Tải tệp nâng cao cho tài liệu HTML trong Aspose.HTML cho Java](./advanced-file-loading-html-documents/)
 Tìm hiểu cách tải, thao tác và lưu tài liệu HTML bằng Aspose.HTML cho Java trong hướng dẫn từng bước này. Mở khóa xử lý HTML nâng cao trong các dự án Java của bạn.
 ### [Tải tài liệu HTML từ Stream với Aspose.HTML cho Java](./load-html-documents-from-stream/)
@@ -57,14 +59,18 @@ Tìm hiểu cách tải tài liệu HTML từ luồng bằng Aspose.HTML cho Jav
 Tìm hiểu cách tạo tài liệu HTML từ chuỗi trong Aspose.HTML cho Java với hướng dẫn từng bước này.
 ### [Tạo tài liệu HTML với Java – Lấy JSON và tạo nội dung](./create-html-document-with-java-fetch-json-and-generate-conte/)
 Hướng dẫn cách lấy dữ liệu JSON và tạo nội dung HTML động trong Java bằng Aspose.HTML.
+### [Chuyển đổi Markdown sang HTML trong Java – Hướng dẫn nhanh với Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
+Hướng dẫn nhanh cách chuyển đổi tài liệu Markdown thành HTML trong Java bằng Aspose.HTML.
+### [Tạo tài liệu HTML với JavaScript nhúng – Ví dụ Java](./create-html-document-with-embedded-javascript-java-example/)
+Hướng dẫn tạo tài liệu HTML có chứa JavaScript nhúng trong Java bằng Aspose.HTML, kèm ví dụ chi tiết.
 ### [Tải tài liệu HTML từ URL trong Aspose.HTML cho Java](./load-html-documents-from-url/)
 Khám phá cách dễ dàng tải tài liệu HTML từ URL trong Java bằng Aspose.HTML. Có kèm hướng dẫn từng bước.
 ### [Lặp qua NodeList trong Java – Đọc HTML và Lấy src ảnh](./iterate-nodelist-java-read-html-get-image-src/)
 Học cách duyệt NodeList trong Java để đọc HTML và trích xuất thuộc tính src của ảnh trong hướng dẫn chi tiết.
 ### [Tải tài liệu HTML Java – Hướng dẫn đầy đủ với XPath & CSS](./load-html-document-java-complete-guide-with-xpath-css/)
 Hướng dẫn chi tiết cách tải tài liệu HTML trong Java, sử dụng XPath và CSS để truy vấn và thao tác nội dung.
-### [Trích xuất văn bản từ HTML trong Java – Hướng dẫn lập trình đầy đủ](./extract-text-from-html-in-java-complete-programming-guide/)
-Khám phá cách trích xuất nội dung văn bản từ tài liệu HTML trong Java bằng Aspose.HTML qua hướng dẫn chi tiết từng bước.
+### [Tải HTML từ URL trong Java – Hướng dẫn đầy đủ với CSS & XPath](./load-html-from-url-in-java-complete-guide-with-css-xpath/)
+Hướng dẫn chi tiết cách tải tài liệu HTML từ URL trong Java, kèm ví dụ sử dụng CSS và XPath để truy vấn nội dung.
 ### [Tạo tài liệu HTML mới bằng Aspose.HTML cho Java](./generate-new-html-documents/)
 Tìm hiểu cách tạo tài liệu HTML mới bằng Aspose.HTML cho Java với hướng dẫn từng bước dễ dàng này. Bắt đầu tạo nội dung HTML động.
 ### [Xử lý sự kiện tải tài liệu trong Aspose.HTML cho Java](./handle-document-load-events/)
@@ -121,6 +127,50 @@ Khám phá cách tải HTML trong Java và so sánh việc sử dụng XPath và
 Học cách thực thi JavaScript trong Java, chạy mã JS trên tài liệu HTML và thêm các phần tử mới một cách dễ dàng.
 ### [Tạo phần tử HTML với Java ExecutorService – Demo an toàn luồng](./create-html-element-with-java-executorservice-thread-safe-de/)
 Tạo phần tử HTML một cách an toàn đa luồng bằng ExecutorService trong Java.
+### [Cách truy vấn xpath trong Java với Aspose – Hướng dẫn từng bước](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
+Khám phá cách truy vấn xpath trong tài liệu HTML bằng Java và Aspose.HTML qua hướng dẫn chi tiết, từng bước một.
+### [Chạy đa luồng Java – sử dụng try‑with‑resources Java](./run-multiple-threads-java-use-try-with-resources-java/)
+Hướng dẫn cách chạy đa luồng trong Java đồng thời sử dụng try‑with‑resources để quản lý tài nguyên một cách an toàn.
+### [Chọn div theo lớp trong Java – Hướng dẫn XPath đầy đủ](./select-div-by-class-in-java-complete-xpath-guide/)
+Học cách chọn phần tử div dựa trên class trong Java bằng XPath với hướng dẫn chi tiết từng bước.
+### [Render HTML trong Java – Hướng dẫn đầy đủ về chờ tải trang và Query Selector](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
+Học cách render HTML trong Java, chờ trang tải hoàn toàn và sử dụng Query Selector để truy vấn phần tử.
+### [Chuyển đổi Markdown sang HTML trong Java – Hướng dẫn từng bước](./convert-markdown-to-html-in-java-step-by-step-guide/)
+Học cách chuyển đổi tài liệu Markdown sang HTML trong Java bằng Aspose.HTML qua hướng dẫn chi tiết từng bước.
+### [Trích xuất HTML từ MHTML – Hướng dẫn Java đầy đủ](./extract-html-from-mhtml-complete-java-guide/)
+Học cách trích xuất nội dung HTML từ tệp MHTML bằng Aspose.HTML cho Java qua hướng dẫn chi tiết từng bước.
+### [Cách sử dụng querySelectorAll trong Java – Lọc theo lớp](./how-to-use-queryselectorall-in-java-filter-by-class/)
+Hướng dẫn chi tiết cách sử dụng querySelectorAll trong Java để lọc các phần tử HTML theo lớp, kèm ví dụ thực tế.
+### [Cách tìm kiếm HTML – Hướng dẫn Java để tìm văn bản](./how-to-search-html-java-guide-for-finding-text/)
+Khám phá cách tìm kiếm và trích xuất văn bản trong tài liệu HTML bằng Aspose.HTML cho Java với hướng dẫn chi tiết.
+### [Cách truy vấn HTML với Aspose.HTML – Hướng dẫn Java đầy đủ](./how-to-query-html-with-aspose-html-complete-java-guide/)
+Khám phá cách truy vấn HTML bằng Aspose.HTML trong Java, với hướng dẫn chi tiết và các ví dụ thực tế.
+### [Tạo tài liệu HTML Java – Hướng dẫn từng bước với Aspose.HTML](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
+Hướng dẫn chi tiết cách tạo tài liệu HTML trong Java bằng Aspose.HTML, từng bước một để bạn nhanh chóng triển khai.
+### [fetch json javascript – Hướng dẫn Java toàn diện để tạo tài liệu HTML](./fetch-json-javascript-complete-java-guide-to-create-html-doc/)
+Khám phá cách fetch JSON bằng JavaScript và tạo tài liệu HTML hoàn chỉnh trong Java với Aspose.HTML.
+### [Cách tìm kiếm HTML với Aspose Java – Hướng dẫn lập trình đầy đủ](./how-to-search-html-with-aspose-java-complete-programming-gui/)
+Khám phá cách tìm kiếm nội dung HTML trong Java bằng Aspose, kèm hướng dẫn chi tiết từng bước và các mẹo tối ưu.
+### [Tạo div với class java – Ví dụ đầy đủ sử dụng Aspose.HTML](./create-div-with-class-java-full-example-using-aspose-html/)
+Hướng dẫn chi tiết cách tạo thẻ div với class java trong Aspose.HTML cho Java, kèm ví dụ đầy đủ.
+### [Fetch JSON với JavaScript trong Java – Hướng dẫn đầy đủ](./fetch-json-with-javascript-in-java-full-guide/)
+Hướng dẫn chi tiết cách fetch JSON bằng JavaScript trong Java, kèm ví dụ thực tế và mẹo tối ưu.
+### [Tải JSON bằng Fetch trong Java – Hướng dẫn đầy đủ](./load-json-with-fetch-in-java-complete-guide/)
+Hướng dẫn chi tiết cách tải dữ liệu JSON bằng Fetch trong Java, bao gồm các ví dụ thực tế và các mẹo tối ưu.
+### [Trích xuất tiêu đề trang với Java – Hướng dẫn đầy đủ sử dụng Aspose.HTML](./extract-page-title-with-java-full-guide-using-aspose-html/)
+Học cách lấy tiêu đề trang HTML trong Java bằng Aspose.HTML qua hướng dẫn chi tiết từng bước.
+### [Cách bắt đầu thread trong Java – Hướng dẫn đầy đủ](./how-to-start-thread-in-java-complete-guide/)
+Hướng dẫn chi tiết cách tạo và quản lý thread trong Java, bao gồm các ví dụ thực tế và mẹo tối ưu.
+### [Đọc tệp HTML trong Java – Hướng dẫn đầy đủ sử dụng Aspose.HTML](./read-html-file-java-complete-guide-using-aspose-html/)
+Hướng dẫn chi tiết cách đọc tệp HTML trong Java bằng Aspose.HTML, bao gồm các ví dụ thực tế và mẹo tối ưu.
+### [Trích xuất văn bản từ HTML trong Java – Hướng dẫn lập trình đầy đủ](./extract-text-from-html-in-java-complete-programming-guide/)
+Khám phá cách trích xuất văn bản từ tài liệu HTML trong Java bằng Aspose.HTML với hướng dẫn chi tiết và đầy đủ.
+### [Lấy computed style trong Java – Hướng dẫn lập trình đầy đủ](./get-computed-style-java-complete-programming-guide/)
+Khám phá cách lấy computed style trong Java bằng Aspose.HTML với hướng dẫn chi tiết từng bước.
+### [Tạo tài liệu HTML với Aspose.HTML - Hướng dẫn Java đầy đủ](./create-html-document-with-aspose-html-complete-java-guide/)
+Khám phá hướng dẫn toàn diện để tạo tài liệu HTML bằng Aspose.HTML trong Java, bao gồm các bước chi tiết và mẹo thực tiễn.
+### [Tải tài liệu HTML Java – Hướng dẫn đầy đủ với CSS & XPath](./load-html-document-java-complete-guide-with-css-xpath-querie/)
+Khám phá cách tải tài liệu HTML trong Java, kèm hướng dẫn chi tiết sử dụng CSS và truy vấn XPath để xử lý nội dung hiệu quả.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

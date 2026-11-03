@@ -128,6 +128,13 @@ Learn how to set a custom user stylesheet in Aspose.HTML for Java, enhancing you
 ### [Set User Agent for Headless HTML Rendering – Complete Guide](./set-user-agent-for-headless-html-rendering-complete-guide/)
 Узнайте, как задать пользовательский User‑Agent для безголового рендеринга HTML в Aspose.HTML for Java, обеспечивая корректную загрузку ресурсов и обход блокировок.
 
+### [Извлечение заголовка из HTML в Java – Полное руководство по песочнице](./extract-title-from-html-in-java-complete-sandbox-guide/)
+Узнайте, как извлечь заголовок из HTML в Java с помощью функций песочницы Aspose.HTML.
+### [Как установить DPI в Aspose.HTML Sandbox – Полное руководство на Java](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
+Узнайте, как установить DPI в Aspose.HTML Sandbox для Java, обеспечивая высококачественное рендеринг и точное масштабирование.
+### [Как использовать Sandbox – установить пользовательский агент и получить размер области просмотра](./how-to-use-sandbox-set-user-agent-get-viewport-size/)
+Узнайте, как задать пользовательский агент и получить размер области просмотра в Sandbox Aspose.HTML for Java.
+
 ---
 
 **Last Updated:** 2025-12-03  

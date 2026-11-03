@@ -165,6 +165,58 @@ A: 不需要。單一的 Aspose.HTML for Java 授權即涵蓋所有輸出格式�
 ### [在沙盒中以螢幕寬度渲染頁面並取得 HTML 標題 – Java](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
 學習如何在 Java 中使用 Aspose.HTML 在沙盒環境以螢幕寬度渲染頁面，並取得 HTML 標題。
 
+### [頂層 await 範例 – 在 JavaScript 中使用 await delay](./top-level-await-example-using-await-delay-in-javascript/)
+示範如何在 JavaScript 中使用頂層 await 搭配 await delay 進行非同步操作。
+
+### [在 Java 中執行 JavaScript – 從 HTML 執行 JS](./execute-javascript-in-java-run-js-from-html/)
+說明如何在 Java 應用程式中載入 HTML 並執行其中的 JavaScript 程式碼，支援 Rhino、Nashorn 與 GraalVM。
+
+### [如何在 Java 中載入 HTML – 完整的 Aspose.HTML 非同步範例](./how-to-load-html-in-java-complete-aspose-html-async-example/)
+示範如何使用 Aspose.HTML for Java 的非同步 API 載入 HTML，並將其轉換為 PDF 或 XPS。
+
+### [在 Java 中評估 JavaScript – 使用 Aspose.HTML 的完整指南](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
+學習如何在 Java 中使用 Aspose.HTML 評估 JavaScript 程式碼，涵蓋 Rhino、Nashorn 與 GraalVM 等執行環境。
+
+### [在 Java 中設定裝置像素比 – 行動模擬指南](./set-device-pixel-ratio-in-java-mobile-simulation-guide/)
+說明如何在 Aspose.HTML for Java 中設定裝置像素比，以模擬行動裝置螢幕並產生正確的版面與解析度。
+
+### [如何在 Java HTMLDocument 中啟用 JavaScript – 步驟指南](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
+說明在 Aspose.HTML for Java 中使用 HtmlDocument 執行 JavaScript 的完整步驟與設定方法。
+
+### [Java 多執行緒教學：使用固定執行緒池平行執行任務](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
+說明如何在 Java 中使用 FixedThreadPool 以平行方式執行多個任務，提升效能與資源管理。
+
+### [在 Java 中執行 JavaScript – 完整指南：將元素附加至 Body](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
+學習在 Java 中執行 JavaScript，將元素動態加入 body，提供完整範例與步驟說明。
+
+### [使用 Aspose 將 SVG 轉換為 PNG 時設定 DPI – Java 指南](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
+### [在 Java 中執行 JavaScript – 設定自訂 User-Agent（使用 Aspose.HTML）](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
+說明如何在 Aspose.HTML for Java 中執行 JavaScript 並自訂 HTTP User-Agent，以控制外部請求行為。
+
+### [如何在 Java 中使用 Executor – 固定執行緒池指南](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
+了解如何使用 Java Executor 建立固定大小的執行緒池，以提升併發效能並有效管理資源。
+
+### [使用 Java 將 EPUB 轉換為 DOCX – 完整步驟指南](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
+說明如何使用 Aspose.HTML for Java 將 EPUB 電子書轉換為 DOCX 文件，涵蓋完整程式碼示例與設定說明。
+
+### [使用 Aspose.HTML for Java 將 SVG 轉換為 AVIF – 完整步驟指南](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
+
+### [在 Java 中設定裝置 DPI – 完整沙盒指南](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
+
+### [XPath 與命名空間於 Java – 完整指南：選取 SVG 元素](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
+
+### [在 Java 中執行 JavaScript – 完整 Aspose.HTML 指南](./execute-javascript-in-java-complete-aspose-html-guide/)
+本指南說明如何在 Java 應用程式中使用 Aspose.HTML 執行 JavaScript，涵蓋 Rhino、Nashorn 與 GraalVM 等引擎。
+
+### [啟用 JavaScript 執行 Aspose – 完整 Java 指南](./enable-javascript-execution-aspose-complete-java-guide/)
+完整指南說明如何在 Aspose.HTML for Java 中啟用 JavaScript 執行，涵蓋設定、範例與最佳實踐。
+
+### [在 Java 中建立 HTML 沙盒 – 完整步驟指南](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
+說明如何在 Java 環境中使用 Aspose.HTML 建立安全的 HTML 沙盒，完整步驟指引。
+
+### [在 Java 中使用 Aspose.HTML 執行 JavaScript – 完整指南](./execute-javascript-in-java-using-aspose-html-complete-guide/)
+學習如何透過 Aspose.HTML for Java 在 Java 環境中執行 JavaScript 程式碼，涵蓋設定與範例。
+
 ---
 
 **最後更新日期：** 2025-11-29  
@@ -179,6 +231,8 @@ A: 不需要。單一的 Aspose.HTML for Java 授權即涵蓋所有輸出格式�
 
 ### [從 MHTML 提取 HTML – 完整 Java 指南](./extract-html-from-mhtml-complete-java-guide/)
 學習如何使用 Aspose.HTML for Java 從 MHTML 檔案中提取原始 HTML 內容，完整步驟與範例代碼。
+
+### [使用 Aspose.HTML 在 Java 中執行 JavaScript](./execute-javascript-in-java-using-aspose-html/)
 
 ---
 

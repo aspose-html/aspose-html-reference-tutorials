@@ -72,13 +72,6 @@ Als je **png van html wilt maken**, biedt PNG verliesvrije compressie en onderst
 
 Stel `ImageFormat` in op PNG en specificeer eventueel de `Resolution` om de scherpte op hoge‑DPI‑schermen te verbeteren.
 
-## Veelvoorkomende gebruikssituaties
-- **E‑mailnieuwsbrieven** – embed een PNG‑momentopname van een dynamische grafiek.  
-- **Geautomatiseerde rapportage** – genereer BMP‑afbeeldingen voor legacy‑systemen die alleen BMP accepteren.  
-- **Social‑media‑voorbeelden** – maak GIF‑s van geanimeerde HTML‑banners.  
-- **Documentgeneratie** – voeg JPEG‑afbeeldingen toe aan PDF‑bestanden voor snellere weergave.
-
-## Converteer HTML naar verschillende afbeeldingsformaten – Tutorials
 ### [Converting HTML to BMP](./convert-html-to-bmp/)
 Leer hoe je HTML moeiteloos naar BMP converteert met Aspose.HTML for Java. Een stap‑voor‑stap‑gids met vereisten en pakket‑imports. Ontdek nu!
 ### [Converting HTML to GIF](./convert-html-to-gif/)
@@ -110,6 +103,8 @@ A: Een eeuwigdurende licentie met optionele ondersteuningscontracten. Een gratis
 **Laatst bijgewerkt:** 2026-03-31  
 **Getest met:** Aspose.HTML for Java 24.11  
 **Auteur:** Aspose  
+### [HTML naar afbeelding tutorial – Converteer HTML-bestanden naar PNG & JPEG met Java](./html-to-image-tutorial-convert-html-files-to-png-jpeg-with-j/)
+Leer hoe u HTML-bestanden naar PNG en JPEG converteert met Aspose.HTML voor Java. Volg onze eenvoudige stap‑voor‑stap handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

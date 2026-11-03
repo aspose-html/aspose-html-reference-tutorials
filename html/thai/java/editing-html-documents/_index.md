@@ -64,6 +64,14 @@ CSS ภายนอกคือจุดที่พลังที่แท้�
 เรียนรู้วิธีสร้างองค์ประกอบ HTML ใหม่ด้วย Aspose.HTML สำหรับ Java ผ่านขั้นตอนละเอียดครบถ้วน
 ### [วิธีเพิ่ม Child ใน Java DOM – คู่มือ Aspose.HTML ฉบับสมบูรณ์](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
 เรียนรู้วิธีเพิ่มโหนดลูกใน DOM ของ Java ด้วย Aspose.HTML ผ่านขั้นตอนที่ชัดเจนและตัวอย่างโค้ด
+### [การปล่อยล็อคอัตโนมัติใน Java – บทช่วยสอนการแก้ไข HTML อย่างปลอดภัยต่อเธรด](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
+เรียนรู้วิธีปล่อยล็อคอัตโนมัติใน Java เพื่อแก้ไข HTML อย่างปลอดภัยต่อเธรดด้วย Aspose.HTML
+### [วิธีดึง HTML ใน Java – ดึงข้อความและไฮไลท์คำ](./how-to-extract-html-in-java-extract-text-highlight-words/)
+เรียนรู้วิธีดึงข้อมูลจากไฟล์ HTML ด้วย Java พร้อมการสกัดข้อความและไฮไลท์คำสำคัญในเอกสาร
+### [เรียกใช้ JavaScript ใน HTML ด้วย Aspose.HTML สำหรับ Java – คู่มือเต็ม](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
+เรียนรู้วิธีการรัน JavaScript ในเอกสาร HTML ด้วย Aspose.HTML สำหรับ Java ผ่านคู่มือขั้นตอนเต็มรูปแบบ
+### [โหลดเทมเพลต HTML ด้วย Java – คู่มือ Aspose.HTML ฉบับสมบูรณ์](./load-html-template-java-complete-aspose-html-guide/)
+เรียนรู้วิธีโหลดเทมเพลต HTML ใน Java ด้วย Aspose.HTML พร้อมขั้นตอนการใช้งานอย่างละเอียด
 ### [Fixed thread pool Java – การทำความสะอาด HTML แบบขนานด้วย ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 ### [เพิ่ม child ไปยัง body ใน Java – บทช่วยสอนเต็ม Aspose.HTML](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 เรียนรู้วิธีเพิ่ม child element ลงใน body ของเอกสาร HTML ด้วย Aspose.HTML สำหรับ Java อย่างละเอียด
@@ -71,6 +79,8 @@ CSS ภายนอกคือจุดที่พลังที่แท้�
 เรียนรู้วิธีลบสคริปต์ที่ไม่ต้องการจากไฟล์ HTML ด้วย Aspose.HTML สำหรับ Java อย่างละเอียดและปลอดภัย
 ### [วิธีไฮไลท์ HTML – ค้นหาข้อความและแทนที่ด้วย <mark>](./how-to-highlight-html-search-text-replace-with-mark/)
 เรียนรู้วิธีค้นหาข้อความในไฟล์ HTML และเน้นด้วยแท็ก <mark> โดยใช้ Aspose.HTML สำหรับ Java
+
+### [รับแอตทริบิวต์ขององค์ประกอบใน Java – คู่มือครบถ้วนสำหรับการเลือก SVG และ XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

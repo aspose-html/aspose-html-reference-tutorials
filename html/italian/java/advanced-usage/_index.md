@@ -26,7 +26,7 @@ Nello sviluppo web moderno, affinare l’aspetto dell’output HTML può fare un
 - **Ho bisogno di una licenza per l’uso in produzione?** È necessaria una licenza commerciale di Aspose.HTML for Java per le distribuzioni non‑trial.
 
 ## Cos'è “add page numbers” nel contesto di Aspose.HTML?
-Aggiungere numeri di pagina significa inserire un piè di pagina (o intestazione) corrente che numeri automaticamente ogni pagina quando l’HTML viene renderizzato in PDF, XPS o stampato. Aspose.HTML fornisce un modo programmatico per definire questo piè di pagina così non devi modificare manualmente l’HTML.
+Aggiungere numeri di pagina significa inserire un piè di pagina (o intestazione) corrente che numeri automaticamente ogni pagina quando l’HTML viene renderizzato in PDF, XPS o stampato. Aspose.HTML for fornisce un modo programmatico per definire questo piè di pagina così non devi modificare manualmente l'HTML.
 
 ## Perché personalizzare i margini e i numeri di pagina?
 - **Report professionali** – Margini coerenti e numeri di pagina conferiscono ai documenti un aspetto curato.  
@@ -134,6 +134,25 @@ R: No. Una singola licenza di Aspose.HTML for Java copre tutti i formati di outp
 ### [Come utilizzare Aspose HTML in Java – Guida completa al filtraggio XPath](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
 ### [Chiama Java da JavaScript – Aggiungi oggetto host ed esegui JavaScript in Java](./call-java-from-javascript-add-host-object-and-run-javascript/)
 ### [Ottieni il titolo HTML in Java – Renderizza la pagina in sandbox con larghezza dello schermo](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
+### [Esempio di top‑level await – Utilizzare await delay in JavaScript](./top-level-await-example-using-await-delay-in-javascript/)
+### [Esegui JavaScript in Java – Esegui JS da HTML](./execute-javascript-in-java-run-js-from-html/)
+### [Come caricare HTML in Java – Esempio completo Aspose.HTML asincrono](./how-to-load-html-in-java-complete-aspose-html-async-example/)
+### [Valuta JavaScript in Java – Guida completa con Aspose.HTML](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
+### [Imposta il rapporto di pixel del dispositivo in Java – Guida alla simulazione mobile](./set-device-pixel-ratio-in-java-mobile-simulation-guide/)
+### [Come abilitare JavaScript in Java HTMLDocument – Guida passo‑per‑passo](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
+### [java multithreading tutorial: esegui attività in parallelo con Fixed Thread Pool](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
+### [Eseguire JavaScript in Java – Guida completa per aggiungere elementi al body](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
+### [Come impostare DPI durante la conversione da SVG a PNG con Aspose – Guida Java](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
+### [Esegui JavaScript da Java – Imposta User-Agent personalizzato con Aspose.HTML](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
+### [Come utilizzare Executor in Java – Guida al pool di thread fisso](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
+### [Converti EPUB in DOCX in Java – Guida completa passo passo](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
+### [Converti SVG in AVIF con Java – Guida completa passo passo](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
+### [Imposta DPI del dispositivo con Aspose in Java – Guida completa Sandbox](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
+### [XPath con Namespace in Java – Guida completa alla selezione di elementi SVG](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
+### [Esegui JavaScript in Java – Guida completa Aspose.HTML](./execute-javascript-in-java-complete-aspose-html-guide/)
+### [Abilitare l'esecuzione di JavaScript con Aspose – Guida completa](./enable-javascript-execution-aspose-complete-java-guide/)
+### [Crea sandbox per HTML in Java – Guida completa passo‑a‑passo](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
+### [Esegui JavaScript in Java usando Aspose.HTML – Guida completa](./execute-javascript-in-java-using-aspose-html-complete-guide/)
 
 ---
 
@@ -177,6 +196,8 @@ R: No. Una singola licenza di Aspose.HTML for Java copre tutti i formati di outp
 
 ### [Come utilizzare Sandbox per HTML‑to‑PDF Java – Guida passo‑passo](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
 ### [Abilita l'esecuzione di script in Java – Guida completa Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
+
+### [Eseguire JavaScript in Java con Aspose.HTML](./execute-javascript-in-java-using-aspose-html/)
 
 ---
 

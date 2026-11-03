@@ -49,7 +49,7 @@ Java için Aspose.HTML kullanarak HTML belgelerinin nasıl işleneceğini keşfe
 ### [Java için Aspose.HTML'de Gelişmiş HTML Belge Ağacı Düzenleme](./advanced-html-document-tree-editing/)
 Bu adım adım kılavuzla Aspose.HTML for Java kullanarak HTML belgelerinin nasıl düzenleneceğini, stiller, paragraflar oluşturmayı ve PDF'ye dönüştürmeyi öğrenin.
 ### [Java için Aspose.HTML'de HTML Belgelerine Harici CSS Uygulama](./apply-external-css-html-documents/)
-Java için Aspose.HTML kullanarak harici CSS'yi HTML belgelerine nasıl uygulayacağınızı keşfedin! Tam bir eğitim için bu adım adım kılavuzu izleyin.
+Java için Aspose.HTML kullanarak harici CSS'yi HTML belgelerine nasıl uygulayacağınızı keşedin! Tam bir eğitim için bu adım adım kılavuzu izleyin.
 ### [Java için Aspose.HTML ile Gelişmiş Harici CSS Düzenleme](./advanced-external-css-editing/)
 Java için Aspose.HTML ile harici CSS düzenleme sanatında ustalaşın. Bu ayrıntılı, adım adım kılavuz, dinamik, biçimlendirilmiş HTML belgeleri oluşturmanızda size yol gösterir.
 ### [Java için Aspose.HTML'de HTML Belgelerine Satır İçi CSS Ekleme](./add-inline-css-html-documents/)
@@ -60,6 +60,8 @@ Java için Aspose.HTML kullanarak yeni bir HTML öğesi eklemeyi ve yapılandır
 Web geliştiricileri ve içerik oluşturucuları için mükemmel olan bu adım adım kılavuzla Aspose.HTML for Java'da iç ve dış HTML özelliklerinin nasıl yönetileceğini öğrenin.
 ### [Java için Aspose.HTML ile HTML Belgelerinde Dahili CSS'yi Uygulayın](./implement-internal-css-html-documents/)
 Kolay adım adım eğitimimiz ile Java için Aspose.HTML'i kullanarak HTML belgelerinde dahili CSS'yi uygulamayı öğrenin.
+### [Java için HTML Şablonu Yükleme – Tam Aspose.HTML Kılavuzu](./load-html-template-java-complete-aspose-html-guide/)
+Java'da Aspose.HTML kullanarak bir HTML şablonunu nasıl yükleyeceğinizi ve dinamik içerik ekleyeceğinizi adım adım öğrenin.
 ### [Sabit iş parçacığı havuzu java – ExecutorService ile Paralel HTML Temizleme](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 ExecutorService kullanarak sabit iş parçacığı havuzu ile HTML belgelerini paralel olarak temizlemeyi öğrenin.
 ### [Java'da gövdeye çocuk ekleme – Tam Aspose.HTML Öğreticisi](./append-child-to-body-in-java-full-aspose-html-tutorial/)
@@ -72,6 +74,14 @@ Java DOM'da bir çocuk düğümünü nasıl ekleyeceğinizi adım adım öğreni
 Java için Aspose.HTML kullanarak HTML belgelerinden scriptleri güvenli bir şekilde kaldırmayı öğrenin.
 ### [HTML'yi Vurgulama – Metni Ara ve <mark> ile Değiştir](./how-to-highlight-html-search-text-replace-with-mark/)
 HTML belgelerinde belirli metinleri <mark> etiketiyle vurgulamayı öğrenin.
+### [Java için Aspose.HTML'de Otomatik Kilit Bırakma – Thread‑Safe HTML Düzenleme Öğreticisi](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
+### [Java'da HTML Çıkarma – Metin Çıkarma ve Kelimeleri Vurgulama](./how-to-extract-html-in-java-extract-text-highlight-words/)
+Java için Aspose.HTML kullanarak HTML'den metin çıkarın ve belirli kelimeleri vurgulayın.
+
+### [Java’da Element Özniteliği Alma – SVG Seçimi ve XPath İçin Tam Kılavuz](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
+Java’da öğe özniteliklerini almayı, SVG seçimini ve XPath kullanımını öğrenin.
+### [Java için Aspose.HTML ile HTML'de JavaScript Çalıştırma – Tam Kılavuz](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
+Java için Aspose.HTML ile HTML belgelerinde JavaScript çalıştırmayı adım adım öğrenin. Tam rehber.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

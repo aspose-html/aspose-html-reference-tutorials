@@ -122,12 +122,14 @@ Tìm hiểu cách sử dụng Aspose.HTML for Java để triển khai DOM Mutati
 Học cách thao tác HTML5 Canvas bằng Aspose.HTML for Java. Tạo đồ họa tương tác với hướng dẫn chi tiết.
 ### [Thao tác HTML5 Canvas với Aspose.HTML for Java](./html5-canvas-manipulation-using-javascript/)
 Học cách thao tác HTML5 Canvas bằng JavaScript sử dụng Aspose.HTML for Java. Tạo đồ họa động và chuyển đổi sang PDF.
-### [Tự động điền biểu mẫu HTML với Aspose.HTML for Java](./html-form-editor-filling-submitting-forms/)
+### [Tự động điền biểu mẫu HTML với Aspose.HTML cho Java](./html-form-editor-filling-submitting-forms/)
 Tìm hiểu cách tự động điền và gửi biểu mẫu HTML bằng Aspose.HTML for Java. Đơn giản hoá tương tác web với tutorial này.
-### [Điều chỉnh kích thước trang PDF với Aspose.HTML for Java](./adjust-pdf-page-size/)
+### [Điều chỉnh kích thước trang PDF với Aspose.HTML cho Java](./adjust-pdf-page-size/)
 Học cách điều chỉnh kích thước trang PDF với Aspose.HTML for Java. Tạo PDF chất lượng cao từ HTML một cách dễ dàng. Kiểm soát kích thước trang hiệu quả.
-### [Điều chỉnh kích thước trang XPS với Aspose.HTML for Java](./adjust-xps-page-size/)
+### [Điều chỉnh kích thước trang XPS với Aspose.HTML cho Java](./adjust-xps-page-size/)
 Học cách điều chỉnh kích thước trang XPS với Aspose.HTML for Java. Kiểm soát kích thước đầu ra của tài liệu XPS một cách dễ dàng.
+### [Chuyển EPUB sang DOCX trong Java – Hướng dẫn chi tiết từng bước](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
+Hướng dẫn cách chuyển đổi tệp EPUB sang DOCX bằng Aspose.HTML for Java, bao gồm các bước chi tiết và mã mẫu.
 ### [Cách chạy JavaScript trong Java – Hướng dẫn toàn diện](./how-to-run-javascript-in-java-complete-guide/)
 Hướng dẫn chi tiết cách thực thi mã JavaScript trong ứng dụng Java bằng Aspose.HTML, bao gồm thiết lập môi trường và ví dụ thực tế.
 ### [Cách chạy JavaScript bất đồng bộ bằng CompletableFuture](./how-to-run-javascript-asynchronously-using-completablefuture/)
@@ -152,6 +154,40 @@ Hướng dẫn chi tiết cách kích hoạt JavaScript trong ứng dụng Java 
 Học cách gọi mã Java từ JavaScript bằng cách thêm đối tượng host và thực thi JavaScript trong môi trường Java.
 ### [Lấy tiêu đề HTML Java – Render trang trong sandbox với chiều rộng màn hình](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
 Học cách lấy tiêu đề HTML trong Java và render trang trong sandbox với chiều rộng màn hình tùy chỉnh.
+### [Ví dụ top-level await – Sử dụng await delay trong JavaScript](./top-level-await-example-using-await-delay-in-javascript/)
+Hướng dẫn cách sử dụng top-level await với hàm delay trong JavaScript bằng Aspose.HTML.
+### [Thực thi JavaScript trong Java – Chạy JS từ HTML](./execute-javascript-in-java-run-js-from-html/)
+Hướng dẫn cách thực thi mã JavaScript từ HTML trong môi trường Java bằng Aspose.HTML.
+### [Cách tải HTML trong Java – Ví dụ đầy đủ Aspose.HTML bất đồng bộ](./how-to-load-html-in-java-complete-aspose-html-async-example/)
+Hướng dẫn chi tiết cách tải tài liệu HTML bất đồng bộ trong Java bằng Aspose.HTML, bao gồm cấu hình và ví dụ thực tế.
+### [Đánh giá JavaScript trong Java – Hướng dẫn toàn diện với Aspose.HTML](./evaluate-javascript-in-java-complete-guide-with-aspose-html/)
+Hướng dẫn chi tiết cách thực thi JavaScript trong Java bằng Aspose.HTML, bao gồm ví dụ và cấu hình môi trường.
+### [Cài đặt tỷ lệ pixel thiết bị trong Java – Hướng dẫn mô phỏng di động](./set-device-pixel-ratio-in-java-mobile-simulation-guide/)
+### [Cách bật JavaScript trong Java HTMLDocument – Hướng dẫn từng bước](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
+Hướng dẫn chi tiết cách kích hoạt JavaScript khi làm việc với HtmlDocument trong Java bằng Aspose.HTML.
+### [Hướng dẫn đa luồng Java: Chạy các tác vụ song song với Fixed Thread Pool](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
+### [Thực thi JavaScript trong Java – Hướng dẫn toàn diện về việc chèn phần tử vào Body](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
+Hướng dẫn chi tiết cách thực thi JavaScript trong Java để chèn phần tử vào thẻ body.
+### [Cách thiết lập DPI khi chuyển SVG sang PNG với Aspose – Hướng dẫn Java](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
+Hướng dẫn cách thiết lập DPI khi chuyển đổi SVG sang PNG bằng Aspose.HTML cho Java.
+### [Chạy JavaScript từ Java – Đặt User-Agent tùy chỉnh với Aspose.HTML](./run-javascript-from-java-set-custom-user-agent-with-aspose-h/)
+Hướng dẫn cách thiết lập User-Agent tùy chỉnh khi chạy JavaScript trong Java bằng Aspose.HTML để kiểm soát yêu cầu mạng.
+### [Cách sử dụng Executor trong Java – Hướng dẫn Fixed Thread Pool](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
+Hướng dẫn chi tiết cách tạo và quản lý Fixed Thread Pool bằng Executor trong Java để tối ưu hiệu năng đa luồng.
+### [Chuyển đổi SVG sang AVIF với Java – Hướng dẫn chi tiết từng bước](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tệp SVG sang định dạng AVIF bằng Aspose.HTML for Java.
+### [Cài đặt DPI thiết bị Aspose trong Java – Hướng dẫn Sandbox toàn diện](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
+Hướng dẫn chi tiết cách thiết lập DPI cho thiết bị khi sử dụng Aspose.HTML trong Java, bao gồm các bước trong môi trường Sandbox.
+### [XPath với Namespaces trong Java – Hướng dẫn toàn diện để chọn các phần tử SVG](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
+Tìm hiểu cách sử dụng XPath với namespaces trong Java để chọn và thao tác các phần tử SVG một cách chính xác.
+### [Thực thi JavaScript trong Java – Hướng dẫn toàn diện Aspose.HTML](./execute-javascript-in-java-complete-aspose-html-guide/)
+Hướng dẫn chi tiết cách thực thi mã JavaScript trong ứng dụng Java bằng Aspose.HTML, bao gồm thiết lập môi trường và ví dụ thực tế.
+### [Kích hoạt thực thi JavaScript Aspose – Hướng dẫn toàn diện cho Java](./enable-javascript-execution-aspose-complete-java-guide/)
+Hướng dẫn chi tiết cách bật và chạy JavaScript trong Aspose.HTML for Java, bao gồm cấu hình môi trường và ví dụ thực tế.
+### [Tạo sandbox cho HTML trong Java – Hướng dẫn chi tiết từng bước](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
+Hướng dẫn toàn diện cách tạo môi trường sandbox cho HTML trong Java, giúp chạy và kiểm thử mã an toàn.
+### [Thực thi JavaScript trong Java bằng Aspose.HTML – Hướng dẫn toàn diện](./execute-javascript-in-java-using-aspose-html-complete-guide/)
+Hướng dẫn chi tiết cách chạy JavaScript trong Java bằng Aspose.HTML, bao gồm cấu hình, API và ví dụ thực tế.
 
 ---
 
@@ -198,6 +234,9 @@ Học cách nhúng và thực thi mã JavaScript trong ứng dụng Java bằng 
 ### [Kích hoạt thực thi script trong Java – Hướng dẫn toàn diện Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
 Hướng dẫn chi tiết cách bật và chạy mã JavaScript trong ứng dụng Java bằng Aspose.HTML, bao gồm cấu hình môi trường và ví dụ thực tế.
 ### [Cách sử dụng Sandbox để chuyển HTML sang PDF Java – Hướng dẫn từng bước](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+
+### [Thực thi JavaScript trong Java bằng Aspose.HTML](./execute-javascript-in-java-using-aspose-html/)
+Hướng dẫn cách chạy mã JavaScript trong môi trường Java bằng Aspose.HTML, bao gồm cấu hình và ví dụ thực tế.
 
 ---
 

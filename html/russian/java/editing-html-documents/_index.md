@@ -71,6 +71,17 @@ url: /ru/java/editing-html-documents/
 Узнайте, как безопасно удалять скрипты из HTML‑документов в Java с помощью Aspose.HTML, следуя пошаговому полному руководству.
 ### [Как подсветить HTML – поиск текста и замена на <mark>](./how-to-highlight-html-search-text-replace-with-mark/)
 Узнайте, как искать определённый текст в HTML‑документе и заменять его тегом <mark> с помощью Aspose.HTML для Java.
+### [Автоматическое освобождение блокировки в Java – Руководство по потокобезопасному редактированию HTML](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
+Узнайте, как автоматически освобождать блокировки при потокобезопасном редактировании HTML в Java с помощью Aspose.HTML.
+### [Как извлечь HTML в Java – извлечение текста и подсветка слов](./how-to-extract-html-in-java-extract-text-highlight-words/)
+Узнайте, как извлекать HTML в Java, получать текст из документа и подсвечивать выбранные слова с помощью Aspose.HTML.
+
+### [Получение атрибута элемента в Java – Полное руководство по выбору SVG и XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
+Узнайте, как получать атрибуты элементов SVG с помощью XPath в Aspose.HTML для Java.
+### [Запуск JavaScript в HTML с Aspose.HTML для Java – Полное руководство](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
+Узнайте, как выполнять JavaScript в HTML-документах с помощью Aspose.HTML для Java. Пошаговое полное руководство.
+### [Загрузка шаблона HTML в Java – Полное руководство Aspose.HTML](./load-html-template-java-complete-aspose-html-guide/)
+Узнайте, как загрузить шаблон HTML в Java с помощью Aspose.HTML. Полное пошаговое руководство.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

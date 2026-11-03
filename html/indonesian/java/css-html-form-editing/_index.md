@@ -29,7 +29,7 @@ Sekarang, mari kita beralih ke cara lain dan menjelajahi cara mengedit dan mengi
 
 ### [Teknik Ekstensi CSS Lanjutan dengan Aspose.HTML untuk Java](./advanced-css-extension/)
 Pelajari cara menggunakan Aspose.HTML untuk Java guna menerapkan teknik CSS tingkat lanjut, termasuk margin halaman khusus dan konten dinamis. Tutorial terperinci dan praktis untuk pengembang.
-### [Pengeditan dan Pengiriman Formulir HTML dengan Aspose.HTML untuk Java](./html-form-editing/)
+### [Pengeditian dan Pengiriman Formulir HTML dengan Aspose.HTML untuk Java](./html-form-editing/)
 Pelajari cara mengedit dan mengirimkan formulir HTML secara terprogram menggunakan Aspose.HTML untuk Java dalam panduan langkah demi langkah yang komprehensif ini.
 ### [Mendapatkan CSS yang Dihitung di Java – Panduan Lengkap Aspose HTML](./get-computed-css-in-java-complete-aspose-html-guide/)
 Pelajari cara mengambil nilai CSS yang dihitung menggunakan Aspose.HTML untuk Java dalam panduan lengkap ini.
@@ -87,6 +87,51 @@ Pelajari cara mendapatkan computed style elemen HTML secara terprogram menggunak
 Pelajari cara membaca CSS di Java dan mengekstrak gaya terhitung secara bertahap menggunakan Aspose.HTML.
 ### [Dapatkan elemen berdasarkan id di Java – Panduan Lengkap untuk Mengambil Gaya Terhitung](./get-element-by-id-in-java-full-guide-to-retrieve-computed-st/)
 Pelajari cara mengambil elemen HTML berdasarkan id di Java serta mendapatkan gaya terhitungnya dengan contoh kode lengkap.
+### [query selector div class – Cara Memilih div berdasarkan Kelas dan Mendapatkan Gaya Terhitung di Java](./query-selector-div-class-how-to-select-a-div-by-class-and-ge/)
+Pelajari cara menggunakan query selector untuk memilih elemen div berdasarkan kelas dan mengambil gaya terhitungnya di Java dengan Aspose.HTML.
+### [Cara Membaca CSS di Java – Panduan Lengkap Menggunakan Aspose.HTML](./how-to-read-css-in-java-complete-guide-using-aspose-html/)
+Pelajari cara membaca CSS di Java secara terprogram menggunakan Aspose.HTML dalam panduan lengkap ini.
+### [Cara Mendapatkan Properti CSS di Java – Membaca Warna Latar Belakang Elemen](./how-to-get-css-property-in-java-read-element-background-colo/)
+Pelajari cara mengambil nilai properti CSS, khususnya warna latar belakang elemen, menggunakan Aspose.HTML untuk Java.
+### [Cara Mendapatkan Gaya di Java – Mengambil CSS yang Dihitung dengan Aspose.HTML](./how-to-get-style-in-java-retrieve-computed-css-with-aspose-h/)
+Pelajari cara mengambil properti CSS yang dihitung pada elemen menggunakan Aspose.HTML untuk Java dalam panduan praktis ini.
+### [Cara Mendapatkan Gaya di Aspose HTML Java – Gunakan Query Selector](./how-to-get-style-in-aspose-html-java-use-query-selector/)
+Pelajari cara mengambil properti style elemen HTML menggunakan query selector di Aspose.HTML untuk Java dalam contoh praktis.
+### [Cara Membaca CSS di Java – Dapatkan Gaya yang Dihitung](./how-to-read-css-in-java-get-computed-style/)
+Pelajari cara membaca CSS di Java dan memperoleh nilai gaya terhitung untuk elemen, memudahkan manipulasi tampilan secara terprogram.
+### [Cara Mendapatkan Gaya di Java dengan Aspose.HTML – Panduan Langkah‑per‑Langkah](./how-to-get-style-in-java-with-aspose-html-step-by-step-guide/)
+Pelajari cara mengambil gaya CSS pada elemen HTML menggunakan Aspose.HTML untuk Java dalam panduan langkah demi langkah ini.
+### [Cara Membaca CSS di Java – Simulasikan Layar Mobile & Uji Media Queries](./how-to-read-css-in-java-simulate-mobile-screen-test-media-qu/)
+Pelajari cara membaca file CSS di Java, mensimulasikan tampilan seluler, dan menguji media queries secara terprogram.
+### [Cara Memuat HTML di Java – Panduan Lengkap dengan Ekstraksi Warna CSS](./how-to-load-html-in-java-full-guide-with-css-color-extractio/)
+Pelajari cara memuat file HTML di Java dan mengekstrak warna CSS secara terprogram dalam panduan lengkap ini.
+### [Ekstrak CSS dari HTML di Java – Panduan Pemrograman Lengkap](./extract-css-from-html-in-java-complete-programming-guide/)
+Pelajari cara mengekstrak CSS dari dokumen HTML menggunakan Java dalam panduan pemrograman lengkap ini.
+### [Cara Membaca CSS di Java – Panduan Lengkap Aspose.HTML](./how-to-read-css-in-java-complete-aspose-html-guide/)
+Pelajari cara membaca file CSS di Java menggunakan Aspose.HTML dalam panduan lengkap langkah demi langkah.
+
+### [Mendapatkan Nilai Properti CSS di Java – Panduan Lengkap dengan Aspose.HTML](./get-css-property-value-in-java-complete-guide-with-aspose-ht/)
+Pelajari cara mengambil nilai properti CSS menggunakan Aspose.HTML untuk Java dalam panduan lengkap dan praktis ini.
+### [Memilih Elemen HTML Berdasarkan Kelas di Java – Panduan Lengkap](./select-html-element-by-class-in-java-complete-guide/)
+Pelajari cara memilih elemen HTML berdasarkan kelas di Java dengan contoh kode lengkap dan penjelasan praktis.
+### [Pemilih CSS untuk Tombol Tidak Dinonaktifkan – Panduan Parsing HTML Java](./css-selector-not-disabled-button-java-html-parsing-guide/)
+Pelajari cara menggunakan selector CSS untuk menemukan tombol yang tidak dinonaktifkan saat mem-parsing HTML dengan Java.
+### [Cara Mendapatkan Computed Style di Java – Panduan Pemrograman Lengkap](./how-to-get-computed-style-java-complete-programming-guide/)
+Pelajari cara mengambil nilai computed style elemen HTML menggunakan Aspose.HTML untuk Java dalam panduan pemrograman lengkap ini.
+### [Dapatkan Gaya Terhitung Java – Panduan Lengkap untuk Ekstraksi CSS](./get-computed-style-java-complete-guide-to-css-extraction/)
+Pelajari cara mengambil gaya terhitung elemen HTML menggunakan Java untuk mengekstrak properti CSS secara akurat dalam panduan lengkap ini.
+### [Mendapatkan Latar Belakang CSS di Java – Panduan Lengkap Aspose.HTML](./get-css-background-in-java-complete-aspose-html-guide/)
+Pelajari cara mendapatkan latar belakang CSS di Java menggunakan Aspose.HTML dalam panduan lengkap ini.
+### [Cara Menggunakan CSS di Java – Memuat HTML, Menghitung Tautan & Mengevaluasi XPath](./how-to-use-css-in-java-load-html-count-links-evaluate-xpath/)
+Pelajari cara memuat HTML, menghitung tautan, dan mengevaluasi XPath menggunakan CSS di Java dengan Aspose.HTML.
+### [Gaya Computed Elemen di Java – Panduan Lengkap Aspose.HTML](./element-computed-style-in-java-complete-aspose-html-guide/)
+Pelajari cara mendapatkan dan menggunakan gaya computed elemen di Java dengan Aspose.HTML dalam panduan lengkap ini.
+### [Dapatkan Gaya Terhitung di Java – Debug CSS Grid dengan Aspose.HTML](./get-computed-style-in-java-debug-css-grid-with-aspose-html/)
+Pelajari cara mengambil gaya terhitung elemen untuk men-debug tata letak CSS Grid menggunakan Aspose.HTML di Java.
+### [Dapatkan Nilai Display Elemen di Java – Panduan Sandbox Aspose HTML](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
+Pelajari cara mengambil nilai properti display elemen HTML menggunakan Aspose.HTML di Java dalam lingkungan sandbox.
+### [Cara Mendapatkan CSS dari Elemen HTML di Java – Panduan Lengkap](./how-to-get-css-from-an-html-element-in-java-complete-guide/)
+Pelajari cara mengekstrak properti CSS dari elemen HTML menggunakan Java dengan contoh kode lengkap dan penjelasan praktis.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

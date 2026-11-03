@@ -72,13 +72,6 @@ GIF は小さなアニメーションや、限定されたカラーパレット�
 
 `ImageFormat` を PNG に設定し、必要に応じて `Resolution` を指定して高 DPI ディスプレイでの鮮明さを向上させます。
 
-## 主な使用例
-- **メールニュースレター** – 動的チャートの PNG スナップショットを埋め込む。  
-- **自動レポート** – BMP のみ受け付けるレガシーシステム向けに BMP 画像を生成する。  
-- **ソーシャルメディアプレビュー** – アニメーション HTML バナーから GIF を作成する。  
-- **ドキュメント生成** – PDF に JPEG 画像を挿入してレンダリングを高速化する。
-
-## HTML をさまざまな画像フォーマットに変換するチュートリアル
 ### [Converting HTML to BMP](./convert-html-to-bmp/)
 Aspose.HTML for Java を使用して HTML を BMP に簡単に変換する方法を学びましょう。前提条件とパッケージインポートを含むステップバイステップガイドです。今すぐチェック！
 
@@ -111,6 +104,8 @@ A: 永続ライセンスにオプションのサポート契約が付随しま�
 **最終更新:** 2026-03-31  
 **テスト環境:** Aspose.HTML for Java 24.11  
 **作者:** Aspose  
+### [HTML を画像に変換するチュートリアル – Java で HTML ファイルを PNG と JPEG に変換](./html-to-image-tutorial-convert-html-files-to-png-jpeg-with-j/)
+Aspose.HTML for Java を使用して HTML ファイルを PNG および JPEG 画像に変換する方法を学びます。ステップバイステップのガイドです。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

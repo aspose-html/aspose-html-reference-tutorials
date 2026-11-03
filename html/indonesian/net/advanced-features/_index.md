@@ -40,6 +40,8 @@ Pelajari cara memanipulasi dokumen HTML dalam .NET dengan Aspose.HTML. Navigasi,
 Pelajari cara membuat konten web dinamis menggunakan Aspose.HTML untuk .NET. Tutorial kami mencakup prasyarat, petunjuk langkah demi langkah, dan FAQ untuk pemula.
 ### [Hasilkan PDF Terenkripsi oleh PdfDevice dalam .NET dengan Aspose.HTML](./generate-encrypted-pdf-by-pdfdevice/)
 Konversi HTML ke PDF secara dinamis dengan Aspose.HTML untuk .NET. Integrasi yang mudah, opsi yang dapat disesuaikan, dan kinerja yang tangguh.
+### [Konversi Dokumen Word ke PDF – Panduan Teks Jelas (C#)](./convert-word-document-to-pdf-clear-text-guide-c/)
+Pelajari cara mengonversi dokumen Word ke PDF dengan teks yang dapat dibaca menggunakan Aspose.HTML di C#.
 ### [Penyetelan Halus Konverter di .NET dengan Aspose.HTML](./fine-tuning-converters/)
 Pelajari cara mengonversi HTML ke PDF, XPS, dan gambar dengan Aspose.HTML untuk .NET. Tutorial langkah demi langkah dengan contoh kode dan Tanya Jawab Umum.
 ### [Menggunakan Template HTML di .NET dengan Aspose.HTML](./using-html-templates/)
@@ -53,6 +55,10 @@ Pelajari cara membuat penangan sumber daya kustom di Aspose.HTML dan menyimpan o
 Pelajari cara mengompres file HTML menjadi arsip ZIP menggunakan Aspose HTML dengan contoh langkah demi langkah.
 ### [Simpan Dokumen sebagai PDF di C# – Panduan Lengkap dengan Dukungan ZIP](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
 Pelajari cara menyimpan dokumen HTML sebagai PDF di C# dengan dukungan kompresi ZIP, termasuk contoh kode lengkap dan langkah‑langkah praktis.
+### [Cara Mengaktifkan Clear Type – Mengaktifkan Mode Penghalusan di .NET](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
+Pelajari cara mengaktifkan Clear Type dan mode smoothing pada rendering teks di .NET menggunakan Aspose.HTML untuk meningkatkan kualitas tampilan.
+### [Simpan HTML ke ZIP dengan C# – Membuat Arsip ZIP C# menggunakan Aspose](./save-html-to-zip-with-c-create-zip-archive-c-using-aspose/)
+Pelajari cara menyimpan file HTML ke dalam arsip ZIP menggunakan Aspose.HTML di C#, lengkap dengan contoh kode langkah demi langkah.
 
 ## Kesimpulan
 

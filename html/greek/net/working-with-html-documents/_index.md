@@ -41,6 +41,9 @@ url: /el/net/working-with-html-documents/
 ### [Δημιουργία εγγράφου HTML σε C# – Πλήρης οδηγός με χρήση προσαρμοσμένου διαχειριστή πόρων](./create-html-document-c-complete-guide-with-custom-resource-h/)
 
 Μάθετε πώς να δημιουργήσετε έγγραφο HTML σε C# χρησιμοποιώντας προσαρμοσμένο διαχειριστή πόρων, βήμα‑βήμα οδηγός.
+### [Πώς να αποθηκεύσετε HTML σε C# – Πλήρης οδηγός με προσαρμοσμένη αποθήκευση εξόδου](./how-to-save-html-in-c-complete-guide-with-custom-output-stor/)
+
+Μάθετε πώς να αποθηκεύετε HTML σε C# χρησιμοποιώντας προσαρμοσμένη αποθήκευση εξόδου, βήμα‑βήμα οδηγός.
 
 ### [Πώς να κάνετε έντονο τίτλο με CSS & C# – Πλήρης οδηγός βήμα‑βήμα](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 ### [Πώς να αποθηκεύσετε HTML σε C# – Προσαρμοσμένοι Διαχειριστές Πόρων & ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
@@ -64,6 +67,30 @@ url: /el/net/working-with-html-documents/
 ### [Πώς να συμπιέσετε HTML σε C# – Πλήρης οδηγός βήμα‑βήμα](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 
 Μάθετε πώς να συμπιέζετε αρχεία HTML σε αρχείο ZIP χρησιμοποιώντας C#, βήμα‑βήμα οδηγός.
+
+### [Δημιουργία HTML από συμβολοσειρά σε C# – Πλήρης οδηγός με Memory Stream](./create-html-from-string-in-c-full-guide-with-memory-stream/)
+
+Μάθετε πώς να δημιουργήσετε έγγραφο HTML από συμβολοσειρά χρησιμοποιώντας Memory Stream σε C# βήμα-βήμα.
+
+### [Πώς να αποθηκεύσετε HTML σε C# – Πλήρης οδηγός βήμα‑βήμα](./how-to-save-html-in-c-complete-step-by-step-guide/)
+
+Μάθετε πώς να αποθηκεύσετε HTML σε C# με αναλυτικές οδηγίες βήμα‑βήμα.
+
+### [Πώς να αποθηκεύσετε HTML – Πλήρης οδηγός Aspose HTMLDocument](./how-to-save-html-aspose-htmldocument-complete-guide/)
+
+Μάθετε πώς να αποθηκεύσετε HTML με το Aspose.HTMLDocument, ακολουθώντας έναν πλήρη βήμα‑βήμα οδηγό.
+
+### [Δημιουργία αρχείου Zip για HTML – Πλήρης οδηγός C#](./create-zip-archive-for-html-complete-c-guide/)
+
+Μάθετε πώς να δημιουργήσετε αρχείο Zip που περιέχει HTML χρησιμοποιώντας C#, βήμα‑βήμα οδηγός.
+
+### [Αποθήκευση HTML σε Zip – Πλήρης οδηγός C# για αρχεία εντός μνήμης](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
+
+### [Δημιουργία εγγράφου HTML στη μνήμη με Aspose.HTML – Πλήρης οδηγός](./create-in-memory-html-document-with-aspose-html-complete-gui/)
+
+Μάθετε πώς να δημιουργήσετε έγγραφο HTML εν εντός μνήμης χρησιμοποιώντας το Aspose.HTML, βήμα‑βήμα οδηγός.
+
+### [Φόρτωση συμβολοσειράς HTML σε C# – πλήρης οδηγός με προσαρμοσμένο διαχειριστή](./load-html-string-in-c-complete-guide-with-custom-handler/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

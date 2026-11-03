@@ -42,9 +42,7 @@ weight: 27
 ## การแปลงเนื้อหาดิจิทัล
 การแปลง EPUB เป็น PDF เป็นเพียงจุดเริ่มต้น Aspose.HTML for Java เปิดโลกของความเป็นไปได้สำหรับเนื้อหาดิจิทัลของคุณ สร้างเอกสารที่เข้าถึงได้, มีภาพสวยงาม, และทำงานได้อย่างเต็มประสิทธิภาพอย่างง่ายดาย คุณยังสามารถขยายเอ็นจิ้นเดียวกันเพื่อจัดการ **epub to jpg conversion** หรือ **epub to png conversion** เมื่อคุณต้องการดึงภาพจาก eBook
 
-ในคู่มือที่ครอบคลุมนี้ เราจะพาคุณผ่านแต่ละขั้นตอน เพื่อให้คุณมีความรู้และเครื่องมือในการเชี่ยวชาญการแปลง EPUB เป็น PDF บอกลาปัญหาเรื่องรูปแบบและต้อนรับความง่ายของ Aspose.HTML for Java
-
-พร้อมเริ่มหรือยัง? มาดำดิ่งสู่โลกของการแปลงเอกสารอย่างไร้รอยต่อกับ Aspose.HTML for Java ตามคู่มือขั้นตอนต่อขั้นตอนของเราและแปลงไฟล์ EPUB ของคุณเป็นรูปแบบ PDF วันนี้ เนื้อหาของคุณ, วิธีของคุณ
+ในคู่มือที่ครอบคลุมนี้ เราจะพาคุณผ่านแต่ละขั้นตอน เพื่อให้คุณมีความรู้และเครื่องมือในการเชี่ยวชาญการแปลง EPUB เป็น PDF บอกลาปัญหาเรื่องรูปแบบและต้อนรับความง่ายของ Aspose.HTML for Java ตามคู่มือขั้นตอนต่อขั้นตอนของเราและแปลงไฟล์ EPUB ของคุณเป็นรูปแบบ PDF วันนี้ เนื้อหาของคุณ, วิธีของคุณ
 
 ปลดล็อกศักยภาพของเนื้อหาดิจิทัลของคุณด้วย Aspose.HTML for Java เริ่มต้นการเดินทางแปลง EPUB เป็น PDF ของคุณทันที
 
@@ -55,6 +53,8 @@ weight: 27
 เรียนรู้วิธีฝังฟอนต์ใน PDF ระหว่างการแปลง EPUB ด้วย Aspose.HTML for Java เพื่อให้เอกสารแสดงผลถูกต้อง
 ### [แปลง EPUB เป็น PDF ใน Java – เพิ่มสารบัญและคู่มือเต็ม](./convert-epub-to-pdf-in-java-add-toc-and-full-guide/)
 เรียนรู้วิธีแปลง EPUB เป็น PDF พร้อมเพิ่มสารบัญและรายละเอียดขั้นตอนเต็มใน Java
+### [การแปลง EPUB เป็น PDF พร้อมฝังฟอนต์ใน Java](./convert-epub-to-pdf-with-embedded-fonts-in-java/)
+เรียนรู้วิธีฝังฟอนต์ขณะแปลง EPUB เป็น PDF ด้วย Aspose.HTML for Java
 ### [การระบุ Custom Stream Provider สำหรับ EPUB เป็น PDF](./convert-epub-to-pdf-specify-custom-stream-provider/)
 เรียนรู้วิธีแปลง EPUB เป็น PDF ด้วย Java อย่างง่ายดายด้วย Aspose.HTML, เพิ่มความสามารถในการประมวลผลเอกสารของคุณ
 ### [การระบุ PDF Save Options สำหรับ EPUB เป็น PDF](./convert-epub-to-pdf-specify-pdf-save-options/)
@@ -86,6 +86,9 @@ weight: 27
 ### [บทแนะนำ epub to pdf – แปลง eBook ของคุณด้วย Java ในไม่กี่นาที](./epub-to-pdf-tutorial-convert-your-ebooks-with-java-in-minute/)
 ### [บทแนะนำการแปลง EPUB เป็น PDF: แปลง eBooks ด้วย Java & Aspose](./epub-to-pdf-tutorial-convert-ebooks-with-java-aspose/)
 เรียนรู้วิธีแปลง eBook จาก EPUB เป็น PDF อย่างง่ายดายด้วย Java และ Aspose.HTML
+### [แปลง EPUB เป็น PDF ด้วยขนาดฟอนต์ที่กำหนดเอง – คู่มือ Java](./convert-epub-to-pdf-with-custom-font-size-java-guide/)
+เรียนรู้วิธีกำหนดขนาดฟอนต์ที่กำหนดเองขณะแปลง EPUB เป็น PDF ด้วย Aspose.HTML for Java
+### [แปลง EPUB เป็น PDF ด้วย Java – คู่มือการเขียนโปรแกรมเต็มรูปแบบ](./convert-epub-to-pdf-with-java-complete-programming-guide/)
 
 ## คำถามที่พบบ่อย
 

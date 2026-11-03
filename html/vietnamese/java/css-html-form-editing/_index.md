@@ -28,9 +28,7 @@ Bây giờ, hãy chuyển hướng và khám phá cách chỉnh sửa và gửi 
 ## Chỉnh sửa biểu mẫu CSS và HTML bằng Aspose.HTML cho Java
 
 ### [Kỹ thuật mở rộng CSS nâng cao với Aspose.HTML cho Java](./advanced-css-extension/)
-Tìm hiểu cách sử dụng Aspose.HTML cho Java để áp dụng các kỹ thuật CSS nâng cao, bao gồm lề trang tùy chỉnh và nội dung động. Hướng dẫn thực hành chi tiết dành cho nhà phát triển.
 ### [Chỉnh sửa và gửi biểu mẫu HTML bằng Aspose.HTML cho Java](./html-form-editing/)
-Tìm hiểu cách chỉnh sửa và gửi biểu mẫu HTML theo chương trình bằng Aspose.HTML cho Java trong hướng dẫn từng bước toàn diện này.
 ### [Lấy CSS đã tính toán trong Java – Hướng dẫn đầy đủ Aspose HTML](./get-computed-css-in-java-complete-aspose-html-guide/)
 Khám phá cách lấy các thuộc tính CSS đã tính toán trong Java bằng Aspose.HTML trong hướng dẫn chi tiết này.
 ### [Chọn phần tử theo lớp trong Java – Hướng dẫn đầy đủ](./select-element-by-class-in-java-complete-how-to-guide/)
@@ -85,6 +83,53 @@ Hướng dẫn chi tiết cách lấy computed style trong Java bằng Aspose.HT
 Hướng dẫn chi tiết cách đọc CSS trong Java và trích xuất các kiểu đã tính toán một cách từng bước.
 ### [Lấy phần tử theo id trong Java – Hướng dẫn đầy đủ để truy xuất kiểu đã tính toán](./get-element-by-id-in-java-full-guide-to-retrieve-computed-st/)
 Hướng dẫn chi tiết cách lấy phần tử HTML theo id và truy xuất các kiểu đã tính toán bằng Aspose.HTML cho Java.
+### [Trình chọn truy vấn div theo lớp – Cách chọn một div theo lớp và lấy kiểu tính toán trong Java](./query-selector-div-class-how-to-select-a-div-by-class-and-ge/)
+Hướng dẫn cách sử dụng Aspose.HTML cho Java để chọn một thẻ div theo lớp và lấy các thuộc tính kiểu tính toán.
+### [Cách đọc CSS trong Java – Hướng dẫn đầy đủ sử dụng Aspose.HTML](./how-to-read-css-in-java-complete-guide-using-aspose-html/)
+Hướng dẫn chi tiết cách đọc CSS trong Java bằng Aspose.HTML, cung cấp các bước thực hành đầy đủ.
+### [Cách lấy thuộc tính CSS trong Java – Đọc màu nền của phần tử](./how-to-get-css-property-in-java-read-element-background-colo/)
+Hướng dẫn cách sử dụng Aspose.HTML cho Java để truy xuất giá trị thuộc tính CSS, ví dụ lấy màu nền của một phần tử HTML.
+### [Cách lấy style trong Java – Truy xuất CSS đã tính toán với Aspose.HTML](./how-to-get-style-in-java-retrieve-computed-css-with-aspose-h/)
+Tìm hiểu cách truy xuất các thuộc tính CSS đã tính toán trong Java bằng Aspose.HTML trong hướng dẫn chi tiết này.
+### [Cách lấy style trong Aspose HTML Java – Sử dụng Query Selector](./how-to-get-style-in-aspose-html-java-use-query-selector/)
+Hướng dẫn cách sử dụng Query Selector để lấy style của phần tử trong Aspose HTML cho Java.
+### [Cách đọc CSS trong Java – Lấy kiểu đã tính toán](./how-to-read-css-in-java-get-computed-style/)
+Hướng dẫn cách sử dụng Aspose.HTML cho Java để đọc CSS và lấy giá trị style đã tính toán của phần tử.
+### [Cách lấy style trong Java với Aspose.HTML – Hướng dẫn từng bước](./how-to-get-style-in-java-with-aspose-html-step-by-step-guide/)
+Hướng dẫn chi tiết cách lấy style từ tài liệu HTML trong Java bằng Aspose.HTML, bao gồm các ví dụ thực tế và các bước thực hiện.
+### [Lấy style đã tính toán trong Java – Hướng dẫn đầy đủ](./get-computed-style-in-java-complete-guide/)
+Tìm hiểu cách lấy style đã tính toán trong Java bằng Aspose.HTML qua hướng dẫn chi tiết và đầy đủ.
+### [Cách Đọc CSS trong Java – Mô phỏng Màn hình Di động & Kiểm tra Media Queries](./how-to-read-css-in-java-simulate-mobile-screen-test-media-qu/)
+Hướng dẫn cách đọc CSS trong Java, mô phỏng màn hình di động và kiểm tra các media query một cách dễ dàng.
+### [Cách tải HTML trong Java – Hướng dẫn đầy đủ với trích xuất màu CSS](./how-to-load-html-in-java-full-guide-with-css-color-extractio/)
+Hướng dẫn chi tiết cách tải tài liệu HTML trong Java và trích xuất màu sắc từ CSS bằng Aspose.HTML.
+### [Trích xuất CSS từ HTML trong Java – Hướng dẫn lập trình đầy đủ](./extract-css-from-html-in-java-complete-programming-guide/)
+Hướng dẫn chi tiết cách trích xuất CSS từ HTML bằng Aspose.HTML cho Java trong hướng dẫn lập trình toàn diện.
+### [Cách đọc CSS trong Java – Hướng dẫn đầy đủ Aspose.HTML](./how-to-read-css-in-java-complete-aspose-html-guide/)
+Hướng dẫn chi tiết cách đọc và phân tích CSS trong Java bằng Aspose.HTML, bao gồm các ví dụ thực tế và mẹo tối ưu.
+
+### [Lấy giá trị thuộc tính CSS trong Java – Hướng dẫn đầy đủ với Aspose.HTML](./get-css-property-value-in-java-complete-guide-with-aspose-ht/)
+Hướng dẫn chi tiết cách lấy giá trị thuộc tính CSS từ tài liệu HTML bằng Aspose.HTML trong Java.
+### [Chọn phần tử HTML theo lớp trong Java – Hướng dẫn đầy đủ](./select-html-element-by-class-in-java-complete-guide/)
+Hướng dẫn chi tiết cách chọn phần tử HTML theo class trong Java bằng Aspose.HTML.
+### [Bộ chọn CSS cho nút không bị vô hiệu hoá – Hướng dẫn phân tích HTML Java](./css-selector-not-disabled-button-java-html-parsing-guide/)
+Hướng dẫn cách sử dụng Aspose.HTML cho Java để chọn các nút không bị vô hiệu hoá bằng bộ chọn CSS, hỗ trợ phân tích và thao tác HTML.
+### [Cách lấy Computed Style trong Java – Hướng dẫn lập trình đầy đủ](./how-to-get-computed-style-java-complete-programming-guide/)
+Hướng dẫn chi tiết cách lấy computed style trong Java bằng Aspose.HTML, bao gồm ví dụ thực tế và các mẹo tối ưu.
+### [Lấy Kiểu Được Tính Toán Java – Hướng Dẫn Toàn Diện về Trích Xuất CSS](./get-computed-style-java-complete-guide-to-css-extraction/)
+Hướng dẫn chi tiết cách lấy style đã tính toán trong Java bằng Aspose.HTML, giúp trích xuất CSS một cách chính xác và hiệu quả.
+### [Lấy nền CSS trong Java – Hướng dẫn đầy đủ Aspose.HTML](./get-css-background-in-java-complete-aspose-html-guide/)
+Hướng dẫn chi tiết cách lấy thuộc tính nền CSS trong Java bằng Aspose.HTML, bao gồm ví dụ thực tế và các mẹo tối ưu.
+### [Cách sử dụng CSS trong Java – Tải HTML, Đếm liên kết và Đánh giá XPath](./how-to-use-css-in-java-load-html-count-links-evaluate-xpath/)
+Hướng dẫn cách tải tài liệu HTML, đếm số liên kết và thực hiện truy vấn XPath bằng Aspose.HTML cho Java.
+### [Kiểu tính toán của phần tử trong Java – Hướng dẫn đầy đủ Aspose.HTML](./element-computed-style-in-java-complete-aspose-html-guide/)
+Hướng dẫn chi tiết cách lấy và sử dụng kiểu tính toán của phần tử HTML trong Java bằng Aspose.HTML.
+### [Lấy Kiểu Được Tính Toán trong Java – Gỡ lỗi CSS Grid với Aspose.HTML](./get-computed-style-in-java-debug-css-grid-with-aspose-html/)
+Hướng dẫn cách lấy kiểu đã tính toán trong Java để gỡ lỗi bố cục CSS Grid bằng Aspose.HTML.
+### [Lấy Giá Trị Hiển Thị của Phần Tử trong Java – Hướng Dẫn Sandbox Aspose HTML](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
+Hướng dẫn cách lấy giá trị thuộc tính display của phần tử HTML trong Java bằng Aspose.HTML trong môi trường sandbox.
+### [Cách lấy CSS từ một phần tử HTML trong Java – Hướng dẫn đầy đủ](./how-to-get-css-from-an-html-element-in-java-complete-guide/)
+Hướng dẫn chi tiết cách truy xuất CSS của phần tử HTML trong Java bằng Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

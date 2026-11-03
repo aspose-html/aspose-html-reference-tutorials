@@ -54,6 +54,12 @@ Dowiedz się, jak utworzyć własny obsługiwacz zasobów w Aspose HTML i zapi
 Dowiedz się, jak kompresować pliki HTML do formatu ZIP przy użyciu Aspose HTML, krok po kroku, z przykładami kodu.
 ### [Zapisz dokument jako PDF w C# – Kompletny przewodnik z obsługą ZIP](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
 Dowiedz się, jak zapisać dokument HTML jako PDF w C# z obsługą kompresji ZIP i dodatkowymi opcjami.
+### [Jak włączyć Clear Type – włącz tryb wygładzania w .NET](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
+Dowiedz się, jak w .NET włączyć ClearType i tryb wygładzania, aby uzyskać wyraźny i płynny tekst w dokumentach HTML.
+### [Konwertuj dokument Word do PDF – Przewodnik w czystym tekście (C#)](./convert-word-document-to-pdf-clear-text-guide-c/)
+Dowiedz się, jak konwertować dokumenty Word do PDF w C# przy użyciu Aspose.HTML, krok po kroku.
+### [Zapisz HTML do zip w C# – utwórz archiwum zip w C# przy użyciu Aspose](./save-html-to-zip-with-c-create-zip-archive-c-using-aspose/)
+Dowiedz się, jak zapisać plik HTML do archiwum ZIP w C# przy użyciu biblioteki Aspose, krok po kroku.
 
 ## Wniosek
 
