@@ -147,6 +147,7 @@ C# を使用して Word 文書から JPEG 画像を生成する手順をステ�
 ### [Aspose.HTML を使用して .NET で HTML から PNG を作成する – ガイド](./create-png-from-html-with-aspose-html-net-guide/)
 ### [Aspose.HTML を使用して HTML から PNG を作成する – 完全な C# ガイド](./create-png-from-html-with-aspose-html-complete-c-guide/)
 Aspose.HTML for .NET を利用し、HTML から高品質な PNG 画像を生成する手順を C# で詳しく解説します。
+### [C# で HTML を PNG にレンダリングする完全ガイド](./render-html-to-png-in-c-complete-guide/)
 
 ## 結論
 

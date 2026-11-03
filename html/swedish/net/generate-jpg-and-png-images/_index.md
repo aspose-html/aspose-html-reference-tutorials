@@ -150,6 +150,7 @@ Lär dig hur du renderar HTML till PNG med en komplett steg‑för‑steg‑guid
 Lär dig hur du konverterar HTML till PNG-bilder med Aspose.HTML för .NET i en steg-för-steg guide.
 ### [Skapa PNG från HTML med Aspose.Html – Komplett C#-guide](./create-png-from-html-with-aspose-html-complete-c-guide/)
 Lär dig steg för steg hur du genererar PNG-bilder från HTML med Aspose.HTML i en komplett C#-guide.
+### [Rendera html till png i C# – komplett guide](./render-html-to-png-in-c-complete-guide/)
 
 ## Slutsats
 
