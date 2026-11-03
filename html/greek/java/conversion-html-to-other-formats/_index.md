@@ -326,6 +326,8 @@ weight: 25
 Μάθετε πώς να μετατρέψετε HTML σε PDF σε Java με το Aspose.HTML, ακολουθώντας έναν απλό, βήμα‑βήμα οδηγό.
 ### [Πώς να μετατρέψετε αρχείο HTML σε PDF σε C# – Οδηγός βήμα‑βήμα](./how-to-convert-html-file-to-pdf-in-c-step-by-step-guide/)
 Μάθετε πώς να μετατρέψετε αρχείο HTML σε PDF σε C# με το Aspose.HTML, ακολουθώντας έναν απλό οδηγό βήμα‑βήμα.
+### [Μετατροπή Τοπικού Αρχείου HTML σε PDF – Πλήρης Οδηγός Java](./convert-local-html-file-to-pdf-complete-java-guide/)
+Μάθετε πώς να μετατρέψετε ένα τοπικό αρχείο HTML σε PDF χρησιμοποιώντας Aspose.HTML for Java με πλήρη βήμα‑βήμα οδηγίες.
 
 ## Συχνές Ερωτήσεις
 

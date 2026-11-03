@@ -421,6 +421,9 @@ Panduan lengkap untuk mengonversi HTML menjadi PDF menggunakan Aspose HTML for J
 ### [Cara Mengonversi File HTML ke PDF di C# – Panduan Langkah‑demi‑Langkah](./how-to-convert-html-file-to-pdf-in-c-step-by-step-guide/)
 Pelajari cara mengonversi file HTML ke PDF di C# menggunakan Aspose.HTML dengan panduan langkah demi langkah.
 
+### [Mengonversi File HTML Lokal ke PDF – Panduan Lengkap Java](./convert-local-html-file-to-pdf-complete-java-guide/)
+Pelajari cara mengonversi file HTML lokal ke PDF di Java menggunakan Aspose.HTML dengan panduan lengkap.
+
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bisakah saya menggunakan Aspose.HTML untuk Java dalam aplikasi komersial?**  

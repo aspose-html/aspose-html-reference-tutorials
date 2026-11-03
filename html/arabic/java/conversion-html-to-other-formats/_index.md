@@ -294,6 +294,8 @@ XPS هو صيغة الطباعة الخاصة بمايكروسوفت. باستخ
 تعلم كيفية تحويل HTML إلى PDF في Java باستخدام مجموعة خيوط ثابتة لتحسين الأداء وإدارة المهام المتعددة.
 ### [كيفية تحويل ملف HTML إلى PDF في C# – دليل خطوة بخطوة](./how-to-convert-html-file-to-pdf-in-c-step-by-step-guide/)
 تعلم كيفية تحويل ملف HTML إلى PDF في C# باستخدام Aspose.HTML. اتبع دليلًا خطوة بخطوة.
+### [تحويل ملف HTML محلي إلى PDF – دليل Java كامل](./convert-local-html-file-to-pdf-complete-java-guide/)
+تعلم تحويل ملف HTML محلي إلى PDF في Java باستخدام Aspose.HTML. دليل كامل خطوة بخطوة لإنتاج ملفات PDF عالية الجودة.
 
 ## الأسئلة المتكررة
 

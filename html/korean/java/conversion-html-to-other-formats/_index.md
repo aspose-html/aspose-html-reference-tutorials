@@ -94,6 +94,8 @@ Aspose.HTML를 사용해 Java에서 한 줄 코드로 웹페이지를 PDF로 변
 Aspose.HTML를 활용해 Java에서 병렬 배치 방식으로 다수의 HTML 파일을 PDF로 변환하는 방법을 단계별로 안내합니다.
 ### [Aspose HtmlDocument PDF 저장 – 완전 Java 가이드](./aspose-htmldocument-save-pdf-complete-java-guide/)
 Aspose.HTML의 HtmlDocument를 PDF로 저장하는 전체 과정을 Java에서 단계별로 안내합니다.
+### [로컬 HTML 파일을 PDF로 변환 – 완전 Java 가이드](./convert-local-html-file-to-pdf-complete-java-guide/)
+Aspose.HTML를 사용하여 Java에서 로컬 HTML 파일을 PDF로 변환하는 전체 가이드를 확인하세요.
 ### [Java에서 HTML을 PDF로 변환 – 페이지 크기 설정을 포함한 단계별 가이드](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Aspose.HTML를 사용하여 Java에서 페이지 크기 옵션을 지정하며 HTML을 PDF로 변환하는 방법을 단계별로 안내합니다.
 ### [HTML을 PDF로 변환 – 폰트 임베딩 완전 가이드](./convert-html-to-pdf-in-java-complete-guide-with-font-embeddi/)
