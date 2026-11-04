@@ -23,15 +23,10 @@ title: 'Java Fixed Thread Pool: Bilder in parallelen Dateien zählen'
 url: /de/java/data-handling-stream-management/java-fixed-thread-pool-count-images-in-parallel-files/
 ---
 
-we didn't translate any code block placeholders or URLs.
 
-Check for any markdown links: none.
 
-Check for any URLs: none.
 
-Check for any variable names: we kept them.
 
-Now produce final content with same structure.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

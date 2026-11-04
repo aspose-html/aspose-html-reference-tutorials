@@ -22,7 +22,7 @@ title: 'tutorial epub ke pdf: Mengonversi eBook ke PDF dengan Aspose'
 url: /id/java/converting-epub-to-pdf/epub-to-pdf-tutorial-convert-ebook-to-pdf-with-aspose/
 ---
 
-and unchanged shortcodes.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

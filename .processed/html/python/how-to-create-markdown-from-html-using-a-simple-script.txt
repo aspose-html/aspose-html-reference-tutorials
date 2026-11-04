@@ -1,0 +1,7 @@
+Title: How to create markdown from html using a simple script
+Slug: how-to-create-markdown-from-html-using-a-simple-script
+Category: general
+ProcessedDate: 2026-09-26T14:35:55.522518
+SourceRepo: AI Search API
+Keywords: create markdown from html, convert html to markdown, how to convert html, save html as markdown, html to markdown script
+PRNumber: 277

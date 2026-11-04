@@ -22,9 +22,8 @@ title: إنشاء صورة من HTML في C# – دليل خطوة بخطوة
 url: /ar/net/generate-jpg-and-png-images/create-image-from-html-in-c-step-by-step-guide/
 ---
 
-CODE_BLOCK_0}} etc. Keep them.
 
-Proceed to write final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
