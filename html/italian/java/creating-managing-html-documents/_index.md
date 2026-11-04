@@ -78,6 +78,8 @@ Scopri come estrarre contenuti HTML da file MHTML usando Aspose.HTML per Java co
 Scopri come caricare HTML da un URL in Java usando Aspose.HTML, con esempi di CSS e XPath. Tutorial passo dopo passo incluso.
 ### [Generare nuovi documenti HTML utilizzando Aspose.HTML per Java](./generate-new-html-documents/)
 Scopri come creare nuovi documenti HTML usando Aspose.HTML per Java con questa semplice guida passo-passo. Inizia a generare contenuti HTML dinamici.
+### [Genera HTML da un modello con Aspose.HTML per Java](./generate-html-from-a-template-with-aspose-html-for-java/)
+Scopri come generare HTML a partire da un modello usando Aspose.HTML per Java in questa guida passo‑passo.
 ### [Gestire gli eventi di caricamento dei documenti in Aspose.HTML per Java](./handle-document-load-events/)
 Impara a gestire gli eventi di caricamento dei documenti in Aspose.HTML per Java con questa guida passo-passo. Migliora le tue applicazioni web.
 ### [Esegui JavaScript in Java – Esegui JS su HTML e aggiungi elementi](./execute-javascript-java-run-js-on-html-append-elements/)

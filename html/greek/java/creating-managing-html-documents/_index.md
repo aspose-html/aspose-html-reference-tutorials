@@ -122,7 +122,10 @@ url: /el/java/creating-managing-html-documents/
 ### [Πώς να αναλύσετε HTML σε Java – Φόρτωση, ερώτημα και καταμέτρηση στοιχείων](./how-to-parse-html-java-load-query-count-elements/)
 Μάθετε πώς να φορτώνετε, ερωτάτε και μετράτε στοιχεία HTML σε Java με το Aspose.HTML, βήμα‑βήμα οδηγός.
 ### [Εκτέλεση ασύγχρονης JavaScript σε Java – Πλήρης οδηγός βήμα‑βήμα](./execute-async-javascript-in-java-complete-step-by-step-guide/)
-Μάθετε πώς να εκτελείτε κώδικα JavaScript ασύγχρονα σε εφαρμογές Java με το Aspose.HTML, βήμα‑βήμα οδηγίες.
+Μάθετε πώς να εκτελείτε κώδικα JavaScript ασύγχρον
+
+### [Δημιουργία HTML από πρότυπο με Aspose.HTML για Java](./generate-html-from-a-template-with-aspose-html-for-java/)
+Μάθετε πώς να δημιουργείτε HTML χρησιμοποιώντας πρότυπο με Aspose.HTML για Java σε βήμα‑βήμα οδηγό.
 
 
 

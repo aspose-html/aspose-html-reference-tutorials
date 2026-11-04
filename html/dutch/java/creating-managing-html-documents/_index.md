@@ -87,6 +87,8 @@ Leer hoe u met Aspose.HTML voor Java de paginatitel uit HTML kunt halen. Stapsge
 Leer hoe u HTML van een URL laadt in Java met CSS‑selectoren en XPath, inclusief stapsgewijze handleiding.
 ### [Genereer nieuwe HTML-documenten met Aspose.HTML voor Java](./generate-new-html-documents/)
 Leer hoe u nieuwe HTML-documenten maakt met Aspose.HTML voor Java met deze eenvoudige stapsgewijze handleiding. Begin met het genereren van dynamische HTML-inhoud.
+### [Genereer HTML vanuit een sjabloon met Aspose.HTML voor Java](./generate-html-from-a-template-with-aspose-html-for-java/)
+Leer hoe u HTML genereert uit een sjabloon met Aspose.HTML voor Java via een stapsgewijze handleiding.
 ### [HTML genereren vanuit JavaScript in Java – Complete stapsgewijze handleiding](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Leer hoe u HTML genereert vanuit JavaScript-code in Java met een volledige stap‑voor‑stap handleiding.
 ### [HTML-sjabloon converteren – stapsgewijze handleiding voor Java‑ontwikkelaars](./convert-html-template-step-by-step-guide-for-java-developers/)

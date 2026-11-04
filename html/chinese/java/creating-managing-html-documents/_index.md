@@ -77,6 +77,8 @@ Aspose.HTML for Java 为开发人员提供了功能强大的工具包，旨在�
 学习如何使用 Aspose.HTML for Java 从 JSON 数据生成 HTML 内容，实现动态网页生成。
 ### [在 Java 中使用 Aspose.HTML 创建 HTML 文档 – 步骤指南](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
 通过本分步指南学习如何使用 Aspose.HTML 在 Java 中创建 HTML 文档，适合所有开发者。
+### [使用 Aspose.HTML for Java 从模板生成 HTML](./generate-html-from-a-template-with-aspose-html-for-java/)
+本教程展示如何使用 Aspose.HTML for Java 通过模板生成 HTML 页面，包含示例代码和最佳实践。
 ### [在 Aspose.HTML for Java 中处理文档加载事件](./handle-document-load-events/)
 通过本分步指南学习如何在 Aspose.HTML for Java 中处理文档加载事件。增强您的 Web 应用程序。
 

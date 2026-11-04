@@ -67,6 +67,8 @@ Aspose.HTML for Java を活用し、HTML ドキュメントからページタイ
 Java で URL から HTML を取得し、CSS セレクタと XPath で要素を抽出する方法をステップバイステップで解説します。
 ### [Aspose.HTML for Java を使用して新しい HTML ドキュメントを生成する](./generate-new-html-documents/)
 この簡単なステップバイステップ ガイドで、Aspose.HTML for Java を使用して新しい HTML ドキュメントを作成する方法を学びます。動的な HTML コンテンツの生成を開始します。
+### [Aspose.HTML for Java を使用してテンプレートから HTML を生成する](./generate-html-from-a-template-with-aspose-html-for-java/)
+Aspose.HTML for Java のテンプレート機能を活用し、HTML を動的に生成する手順をステップバイステップで解説します。
 ### [Java で JavaScript から HTML を生成する – 完全ステップバイステップガイド](./generate-html-from-javascript-in-java-complete-step-by-step/)
 このステップバイステップ ガイドで、Java で JavaScript を使用して HTML を生成する方法を学びます。
 ### [Java で HTML ドキュメントを作成する – Aspose.HTML のステップバイステップ ガイド](./create-html-document-java-step-by-step-guide-with-aspose-htm/)

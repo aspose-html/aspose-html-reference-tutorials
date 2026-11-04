@@ -100,6 +100,8 @@ Aspose.HTML for Java का उपयोग करके HTML से टेक�
 Java में असिंक्रोनस जावास्क्रिप्ट चलाने के लिए चरण‑दर‑चरण मार्गदर्शिका, टिप्स और सर्वोत्तम प्रथाएँ।
 ### [Java में HTML को पार्स करना – लोड, क्वेरी और तत्वों की गिनती](./how-to-parse-html-java-load-query-count-elements/)
 Aspose.HTML for Java का उपयोग करके HTML को लोड, क्वेरी और तत्वों की गिनती करने की चरण‑दर‑चरण मार्गदर्शिका।
+### [Java के लिए Aspose.HTML में टेम्पलेट से HTML उत्पन्न करें](./generate-html-from-a-template-with-aspose-html-for-java/)
+Aspose.HTML for Java का उपयोग करके टेम्पलेट से डायनामिक HTML बनाना सीखें। चरण‑दर‑चरण मार्गदर्शिका।
 
 
 
@@ -110,7 +112,7 @@ Aspose.HTML for Java का उपयोग करके HTML को लोड, 
 ### [Java में JavaScript से HTML उत्पन्न करें – पूर्ण चरण‑दर‑चरण गाइड](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Java में JavaScript को निष्पादित करके HTML उत्पन्न करने की पूरी चरण‑दर‑चरण गाइड। कोड उदाहरण और सर्वोत्तम प्रथाएँ शामिल हैं।
 ### [NodeList को इटररेट करें Java – HTML पढ़ें और इमेज src प्राप्त करें](./iterate-nodelist-java-read-html-get-image-src/)
-Java में NodeList को इटररेट करके HTML से इमेज src निकालना सीखें। चरण-दर-चरण मार्गदर्शिका और कोड उदाहरण।
+Java में NodeList को इटररेट करके HTML से इमेज src निकालना सीखें। चरण‑दर‑चरण मार्गदर्शिका और कोड उदाहरण।
 
 
 

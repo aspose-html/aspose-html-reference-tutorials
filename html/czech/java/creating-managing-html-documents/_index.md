@@ -87,6 +87,8 @@ Naučte se vytvářet nové HTML dokumenty pomocí Aspose.HTML for Java pomocí 
 Naučte se generovat HTML pomocí JavaScriptu v Javě pomocí podrobného průvodce krok za krokem.
 ### [Převod Markdownu na HTML v Javě – krok‑za‑krokem průvodce](./convert-markdown-to-html-in-java-step-by-step-guide/)
 Naučte se převádět Markdown na HTML v Javě pomocí Aspose.HTML s podrobným návodem krok za krokem.
+### [Generujte HTML ze šablony pomocí Aspose.HTML pro Java](./generate-html-from-a-template-with-aspose-html-for-java/)
+Naučte se generovat HTML ze šablony pomocí Aspose.HTML pro Java s podrobným krok‑za‑krokem návodem.
 ### [Zvládejte události načítání dokumentu v Aspose.HTML pro Java](./handle-document-load-events/)
 Naučte se zvládat události načítání dokumentů v Aspose.HTML pro Java pomocí tohoto podrobného průvodce. Vylepšete své webové aplikace.
 ### [Spuštění JavaScriptu v Javě – Spusťte JS na HTML a přidejte elementy](./execute-javascript-java-run-js-on-html-append-elements/)

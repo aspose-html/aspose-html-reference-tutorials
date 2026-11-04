@@ -125,6 +125,8 @@ Aspose.HTML for Java를 사용하여 XPath 네임스페이스를 포함한 XHTML
 Aspose.HTML for Java를 사용하여 안전한 HTML 샌드박스를 설정하고 테스트하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.HTML에서 비동기 JavaScript 실행 – 완전 단계별 가이드](./execute-async-javascript-in-java-complete-step-by-step-guide/)
 Aspose.HTML for Java를 활용해 Java에서 비동기 JavaScript를 실행하는 방법을 단계별로 배워보세요.
+### [Aspose.HTML for Java를 사용하여 템플릿에서 HTML 생성](./generate-html-from-a-template-with-aspose-html-for-java/)
+Aspose.HTML for Java를 활용해 템플릿을 기반으로 동적인 HTML을 생성하는 방법을 단계별로 안내합니다.
 
 ### [Java에서 HTML 문자 수 세기 – Aspose HTML을 활용한 전체 가이드](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Aspose.HTML for Java를 사용하여 HTML 문자열의 문자 수를 정확히 계산하는 방법을 단계별로 안내합니다.
