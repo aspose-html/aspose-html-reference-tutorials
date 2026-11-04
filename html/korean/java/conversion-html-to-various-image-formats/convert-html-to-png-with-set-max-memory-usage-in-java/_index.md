@@ -22,7 +22,7 @@ title: Java에서 최대 메모리 사용량을 설정하여 HTML을 PNG로 변�
 url: /ko/java/conversion-html-to-various-image-formats/convert-html-to-png-with-set-max-memory-usage-in-java/
 ---
 
-final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

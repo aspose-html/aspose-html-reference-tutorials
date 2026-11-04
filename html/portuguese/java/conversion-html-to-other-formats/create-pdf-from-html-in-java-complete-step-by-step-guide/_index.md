@@ -23,11 +23,9 @@ title: Criar PDF a partir de HTML em Java – Guia Completo Passo a Passo
 url: /pt/java/conversion-html-to-other-formats/create-pdf-from-html-in-java-complete-step-by-step-guide/
 ---
 
-with shortcodes unchanged.
 
-Proceed.
 
-Will produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

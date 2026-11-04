@@ -22,7 +22,6 @@ title: PDF maken van HTML in Java – Stapsgewijze handleiding
 url: /nl/java/conversion-html-to-other-formats/create-pdf-from-html-in-java-step-by-step-guide/
 ---
 
-.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
