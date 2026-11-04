@@ -86,6 +86,8 @@ A tömeges feldolgozás ugyanazokat az API‑hívásokat használja, így minden
 Ismerd meg, hogyan konvertálhatod az EPUB‑t képpé az Aspose.HTML for Java segítségével. Egyszerű, lépésről‑lépésre útmutató a hatékony konvertáláshoz.  
 ### [EPUB to PDF Conversion with Aspose.HTML for Java](./convert-epub-to-pdf/)
 Ismerd meg, hogyan konvertálhatod az EPUB‑t PDF‑be az Aspose.HTML for Java segítségével. Ez a lépésről‑lépésre útmutató tartalmazza az előfeltételeket, csomagimportokat és kódrészleteket. Kezdd el az EPUB‑PDF konvertálást.
+### [EPUB PNG-re konvertálása Java‑ban – Képméretek beállítása](./convert-epub-to-png-in-java-set-image-dimensions/)
+Ismerje meg, hogyan állíthatja be a kép méretét PNG konvertáláskor az Aspose.HTML for Java használatával.
 
 ## Gyakran Ismételt Kérdések
 

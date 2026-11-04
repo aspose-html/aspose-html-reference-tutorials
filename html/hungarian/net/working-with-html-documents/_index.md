@@ -36,20 +36,50 @@ Miután megértette az alapokat, mélyebbre ásunk az alkotás folyamatában. Eb
 
 Most emeljük tudását a következő szintre. A HTML-dokumentumok szerkesztése gyakori feladat a webfejlesztők számára, és az Aspose.HTML jelentősen leegyszerűsíti ezt a folyamatot. Ebben a részben a dokumentumok létrehozásával, manipulálásával és stílusával foglalkozunk. Felfedezi, hogyan javíthatja webtartalma megjelenését és funkcionalitását, hogy vonzóvá és felhasználóbaráttá tegye azt.
 
-### [HTML mentése C#-ban – Teljes útmutató egy egyéni erőforráskezelő használatával](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
+### [HTML dokumentum betöltése Aspose.HTML‑vel – Teljes C# útmutató](./load-html-document-with-aspose-html-complete-c-guide/)
 
+Ismerje meg, hogyan tölthet be HTML‑dokumentumokat az Aspose.HTML könyvtárral C#‑ban, lépésről‑lépésre útmutatóval.
+### [HTML string betöltése C#-ban – Teljes útmutató egyéni kezelővel](./load-html-string-in-c-complete-guide-with-custom-handler/)
+
+### [HTML mentése C#-ban – Teljes útmutató egy egyéni erőforráskezelő használatával](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 ### [HTML mentése Aspose.Html segítségével – Teljes C# útmutató](./how-to-save-html-with-aspose-html-complete-c-guide/)
 
 Ismerje meg, hogyan menthet HTML-fájlokat Aspose.Html könyvtárral C#-ban, lépésről‑lépésre útmutatóval.
+### [HTML zipelése C#‑ban – Teljes lépésről‑lépésre útmutató](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+
+Ismerje meg, hogyan csomagolhatja be HTML-fájljait ZIP-archívumba C#‑ban, részletes példákkal.
+
+### [HTML mentése C#-ban – Teljes lépésről‑lépésre útmutató](./how-to-save-html-in-c-complete-step-by-step-guide/)
+### [HTML mentése C#-ban – Teljes útmutató egyedi kimeneti tárolóval](./how-to-save-html-in-c-complete-guide-with-custom-output-stor/)
+### [Egyéni erőforráskezelő létrehozása C#-ban a HTML betöltéséhez](./create-custom-resource-handler-in-c-for-html-loading/)
 
 ### [Hogyan tegyünk félkövér címet CSS‑el és C#‑val – Teljes lépésről‑lépésre útmutató](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+### [ZIP archívum létrehozása HTML-hez – Teljes C# útmutató](./create-zip-archive-for-html-complete-c-guide/)
+
+### [HTML mentése C#-ban egy egyéni erőforráskezelővel](./how-to-save-html-in-c-with-custom-resource-handler/)
+### [HTML mentése ZIP‑ként C#‑ban – Teljes útmutató egy egyéni erőforráskezelővel](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
+### [HTML létrehozása karakterláncból C#-ban – Lépésről‑lépésre útmutató](./create-html-from-string-in-c-step-by-step-guide/)
+
+### [In-Memory HTML dokumentum létrehozása az Aspose.HTML segítségével – Teljes útmutató](./create-in-memory-html-document-with-aspose-html-complete-gui/)
 
 Ismerje meg, hogyan formázhatja félkövérre a HTML‑címeket CSS‑sel és C#‑kóddal, részletes példákkal.
+### [HTML mentése Aspose‑szal – Teljes C# útmutató](./how-to-save-html-with-aspose-complete-c-guide/)
+
+### [HTML ZIP-olása C#-ban – Teljes útmutató ZIP archívum létrehozásához](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
 
 ### [HTML mentése C#-ban – Egyedi erőforráskezelők és ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
 
 Megmutatjuk, hogyan menthet HTML-t C#-ban egyedi erőforráskezelőkkel és ZIP-archívummal.
-### [HTML tömörítése C#-ban – Teljes lépésről‑lépésre útmutató](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+### [HTML dokumentum létrehozása C#‑ban – Teljes útmutató egy egyéni erőforráskezelő használatával](./create-html-document-c-complete-guide-with-custom-resource-h/)
+
+Ismerje meg, hogyan hozhat létre HTML‑dokumentumot C#‑ban egy egyéni erőforráskezelő segítségével, részletes példákkal.
+
+### [HTML létrehozása karakterláncból C#-ban – Teljes útmutató memóriafolyammal](./create-html-from-string-in-c-full-guide-with-memory-stream/)
+
+Tanulja meg, hogyan hozhat létre HTML-t egy stringből C#-ban memóriafolyam használatával, lépésről‑lépésre útmutató.
+
+### [HTML mentése – Aspose HTMLDocument teljes útmutató](./how-to-save-html-aspose-htmldocument-complete-guide/)
+### [HTML mentése Zip-be – Teljes C# útmutató a memória‑beli archívumokhoz](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
 
 ### [HtmlSaveOptions használata C#-ban az Aspose.HTML segítségével](./how-to-use-htmlsaveoptions-in-c-with-aspose-html/)
 

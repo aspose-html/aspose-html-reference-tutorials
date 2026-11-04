@@ -23,17 +23,12 @@ title: Đặt kích thước trang PDF với Aspose HTML – Hướng dẫn Java
 url: /vi/java/conversion-html-to-other-formats/set-pdf-page-size-with-aspose-html-full-java-guide/
 ---
 
-blocks/products/products-backtop-button >}}
 
-We keep them unchanged.
 
-Now produce final content with all translations.
 
-Check for any missing items: There's a blockquote with "Pro tip". Already translated.
 
-Make sure to keep code block placeholders unchanged.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

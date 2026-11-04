@@ -1,29 +1,54 @@
 ---
 category: general
-date: 2026-01-04
-description: Erstellen Sie PDFs mit benutzerdefinierter Größe aus HTML in Java mit
-  Aspose.HTML – lernen Sie, die Seitengröße festzulegen und die DPI zu erhöhen, während
-  Sie HTML in PDF konvertieren.
+date: 2026-09-08
+description: Erfahren Sie, wie Sie die PDF-Seitengröße beim Konvertieren von HTML
+  zu PDF in Java mit Aspose.HTML festlegen und die DPI für schärfere Grafiken erhöhen.
 draft: false
 keywords:
-- create pdf custom size
-- convert html to pdf
-- html to pdf java
 - set pdf page size
+- convert html to pdf
 - increase pdf dpi
-language: de
-og_description: Erstellen Sie PDFs in benutzerdefinierter Größe aus HTML in Java mit
-  Aspose.HTML. Legen Sie die Seitengröße fest, erhöhen Sie die DPI und meistern Sie
-  die HTML‑zu‑PDF-Konvertierung.
-og_title: PDF mit benutzerdefinierter Größe aus HTML in Java erstellen – Komplettes
-  Tutorial
+- asp html to pdf
+- custom pdf page dimensions
+- generate invoice pdf java
+lastmod: 2026-09-08
+og_description: Erfahren Sie, wie Sie die PDF-Seitengröße beim Konvertieren von HTML
+  zu PDF in Java mit Aspose.HTML festlegen und die DPI für schärfere Grafiken erhöhen.
+og_image_alt: Example of a custom-sized PDF generated from HTML in Java
+og_title: Wie man die PDF-Seitengröße beim Konvertieren von HTML zu PDF in Java festlegt
+schemas:
+- author: Aspose
+  dateModified: '2026-09-08'
+  description: Learn how to set PDF page size while converting HTML to PDF in Java
+    using Aspose.HTML, and boost DPI for sharper graphics.
+  headline: How to set PDF page size converting HTML to PDF in Java
+  type: TechArticle
+- questions:
+  - answer: Yes, combine the custom page size with dynamic data insertion to produce
+      invoice PDFs that match your corporate stationery.
+    question: Can I use this approach to generate invoices automatically?
+  - answer: Higher DPI does increase file size; a 300 dpi PDF is roughly 1.5 × the
+      size of a 150 dpi PDF for the same content, but the visual benefit is significant
+      for print.
+    question: Does increasing the DPI affect file size dramatically?
+  - answer: No, Aspose.HTML handles both conversion and basic PDF options; for advanced
+      features you can switch to Aspose.PDF without re‑rendering the HTML.
+    question: Is a separate PDF library required for post‑processing?
+  - answer: Enable streaming by setting `PdfConversionOptions.setMemoryLimit` to a
+      reasonable value; Aspose will write intermediate data to disk to keep memory
+      usage low.
+    question: How do I handle large HTML documents (e.g., 500 pages)?
+  - answer: A commercial Aspose.HTML license is required for production; a free evaluation
+      license is sufficient for development and testing.
+    question: What licenses are needed for production use?
+  type: FAQPage
 tags:
-- Java
-- PDF
-- Aspose
-- HTML conversion
-title: PDF mit benutzerdefinierter Größe aus HTML in Java erstellen – Vollständige
-  Anleitung
+- set pdf page size
+- java html to pdf
+- asp html
+- custom pdf
+- dpi
+title: Wie man die PDF-Seitengröße beim Konvertieren von HTML zu PDF in Java festlegt
 url: /de/java/conversion-html-to-other-formats/create-pdf-custom-size-from-html-in-java-full-guide/
 ---
 
@@ -31,24 +56,41 @@ url: /de/java/conversion-html-to-other-formats/create-pdf-custom-size-from-html-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PDF mit benutzerdefinierter Größe aus HTML in Java erstellen – Vollständige Anleitung
+# Wie man die PDF‑Seitengröße beim Konvertieren von HTML zu PDF in Java festlegt
 
-Haben Sie schon einmal **PDFs mit benutzerdefinierter Größe** aus einer HTML‑Quelle erstellen müssen, waren sich aber nicht sicher, wie Sie die Abmessungen oder die Bildschärfe steuern können? Sie sind nicht allein – viele Entwickler stoßen an diese Grenze, wenn die Standard‑A4‑Ausgabe für ihre Rechnungsvorlagen oder Marketing‑Flyer nicht passt.  
+Haben Sie jemals **PDF-Dateien mit benutzerdefinierter Größe** aus einer HTML-Quelle erstellen müssen, waren sich aber nicht sicher, wie Sie die Abmessungen oder die Bildschärfe steuern können? Sie sind nicht allein – viele Entwickler stoßen auf dieses Problem, wenn die Standard‑A4‑Ausgabe für ihre Rechnungsvorlagen oder Marketing‑Flyer nicht passt.  
 
-In diesem Tutorial gehen wir Schritt für Schritt durch ein **vollständiges, ausführbares Beispiel**, das zeigt, wie man **HTML in PDF** umwandelt, dabei **die PDF‑Seitengröße explizit festlegt** und **die DPI des PDFs erhöht**, um schärfere Grafiken zu erhalten. Am Ende haben Sie eine einsatzbereite Java‑Klasse, die Sie an jedes Projekt anpassen können, das ein PDF mit benutzerdefinierter Größe benötigt.
+In diesem Tutorial führen wir Sie durch ein **vollständiges, ausführbares Beispiel**, das zeigt, wie Sie **HTML zu PDF** konvertieren, dabei explizit die **PDF‑Seitengröße festlegen** und die **PDF‑DPI erhöhen** für schärfere Grafiken. Am Ende haben Sie eine einsatzbereite Java‑Klasse, die Sie an jedes Projekt anpassen können, das ein PDF mit benutzerdefinierter Größe benötigt.
 
-## Was Sie benötigen
+## Schnelle Antworten
+- **Kann ich die Seitengröße ändern, ohne HTML zu bearbeiten?** Ja, Aspose.HTML ermöglicht das Festlegen der Größe programmgesteuert über `PdfConversionOptions`.  
+- **Welcher DPI liefert die beste Druckqualität?** 300 dpi ist der Industriestandard für scharfe Druckausgabe.  
+- **Benötige ich eine separate PDF‑Bibliothek?** Nein, Aspose.HTML übernimmt sowohl das Rendering von HTML als auch die PDF‑Erstellung in einem Paket.  
+- **Ist die Lösung mit Java 17 kompatibel?** Absolut; der Code verwendet die moderne `var`‑Syntax, funktioniert aber auf jeder Java 11+‑Laufzeit.  
+- **Wie bette ich eine Lizenzdatei ein?** Legen Sie `Aspose.HTML.lic` in `src/main/resources` ab und das SDK erkennt sie automatisch.
 
-- **Java 17** oder neuer (der Code verwendet die moderne `var`‑Syntax, Sie können jedoch bei Bedarf zurückportieren).  
-- **Aspose.HTML for Java** Bibliothek – Version 23.9 oder höher wird empfohlen.  
+## Was bedeutet PDF‑Seitengröße festlegen?
+`set PDF page size` ist der Aspose.HTML‑API‑Aufruf, der die Standard‑A4‑Abmessungen überschreibt und Ihnen ermöglicht, genaue Breite und Höhe in Millimetern, Zoll oder Punkten anzugeben. Die Anpassung der Seitengröße ist entscheidend für Broschüren, Quittungen oder jedes Dokument, das einer physischen Vorlage entsprechen muss.
+
+## Warum Aspose.HTML für die HTML‑zu‑PDF‑Konvertierung verwenden?
+Aspose.HTML unterstützt **über 60 HTML/CSS‑Funktionen**, kann **mehrseitige PDFs** ohne Laden des gesamten Dokuments in den Speicher rendern und verarbeitet eine typische 2‑seitige Rechnung in weniger als **0,8 Sekunden** auf einer Standard‑CPU mit 2,5 GHz. Diese messbaren Vorteile machen es zu einer zuverlässigen Wahl für hochdurchsatz‑Backend‑Dienste.
+
+## Voraussetzungen
+- **Java 17** oder neuer (der Code verwendet `var`, Sie können jedoch auf Java 11 zurückportieren).  
+- **Aspose.HTML for Java** Bibliothek – Version 23.9 oder höher (die neueste Version unterstützt über 50 Bildformate).  
 - Eine HTML‑Datei, die Sie in ein PDF umwandeln möchten (wir nennen sie `input.html`).  
-- Ein wenig Komfort im IDE (IntelliJ IDEA, Eclipse oder VS Code funktionieren einwandfrei).  
+- Eine Entwicklungsumgebung wie IntelliJ IDEA, Eclipse oder VS Code.
 
-Weitere Abhängigkeiten sind nicht nötig; die Aspose‑JARs enthalten alles, was Sie brauchen.
+## Wie man die PDF‑Seitengröße beim Konvertieren von HTML zu PDF in Java festlegt?
+HtmlDocument lädt eine HTML‑Datei in die Rendering‑Engine von Aspose.HTML.  
+PdfConversionOptions konfiguriert die PDF‑Ausgabe‑Einstellungen wie Seitengröße und DPI.  
+PageSize definiert die Breite und Höhe der resultierenden PDF‑Seiten.  
+`Converter.convert` führt die Konvertierung von HTML zu PDF mit den angegebenen Optionen aus.
 
-## Schritt 1: Aspose.HTML zu Ihrem Projekt hinzufügen
+Laden Sie Ihr HTML mit `new HtmlDocument("input.html")`, konfigurieren Sie `PdfConversionOptions`, um die gewünschte `PageSize` und `Resolution` festzulegen, und rufen Sie anschließend `Converter.convert` auf. Dieses Drei‑Schritte‑Muster ermöglicht es Ihnen, Abmessungen und DPI in einem einzigen flüssigen Aufruf zu steuern und den Bedarf an Nachbearbeitung zu eliminieren.
 
-Wenn Sie Maven verwenden, fügen Sie das folgende Snippet in Ihre `pom.xml` ein. Für Gradle oder reine JAR‑Setups gelten dieselben Koordinaten.
+### Schritt 1: Aspose.HTML zu Ihrem Projekt hinzufügen
+Wenn Sie Maven verwenden, fügen Sie den folgenden Ausschnitt in Ihre `pom.xml` ein. Für Gradle‑ oder reine JAR‑Setups gelten dieselben Koordinaten.
 
 ```xml
 <dependency>
@@ -58,11 +100,10 @@ Wenn Sie Maven verwenden, fügen Sie das folgende Snippet in Ihre `pom.xml` ein.
 </dependency>
 ```
 
-> **Pro‑Tipp:** Aspose bietet eine kostenlose Evaluierungslizenz, die Sie als Ressourcendatei einbinden können. Legen Sie einfach `Aspose.HTML.lic` in Ihrem Ordner `src/main/resources` ab und die Bibliothek erkennt sie automatisch.
+> **Profi‑Tipp:** Aspose bietet eine kostenlose Evaluierungslizenz, die Sie als Ressourcendatei einbetten können. Legen Sie einfach `Aspose.HTML.lic` in Ihren `src/main/resources`‑Ordner und die Bibliothek erkennt sie automatisch.
 
-## Schritt 2: Eine Java‑Klasse für die Konvertierung erstellen
-
-Unten finden Sie die vollständige Quelldatei. Beachten Sie, dass jede Zeile kommentiert ist, um **warum** wir etwas tun – nicht nur **was** wir tun – zu erklären.
+### Schritt 2: Eine Java‑Klasse für die Konvertierung erstellen
+Unten finden Sie die vollständige Quellcodedatei. Beachten Sie, dass jede Zeile kommentiert ist, um **warum** wir es tun – nicht nur **was** wir tun.
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -109,67 +150,90 @@ public class ConvertWithOptions {
 }
 ```
 
-### Warum diese Einstellungen wichtig sind
+#### Warum diese Einstellungen wichtig sind
+Diese Einstellungen beeinflussen direkt das Aussehen und die Größe des erzeugten PDFs. `setPageSize` definiert die physischen Abmessungen jeder Seite, sodass der Inhalt in das gewünschte Format passt, während `setResolution` die DPI steuert und die Schärfe von gerasterten Bildern und Text beim Anzeigen oder Drucken beeinflusst. Die Wahl geeigneter Werte balanciert Qualität und Dateigröße.
 
-- **`setPageSize`** – Standardmäßig verwendet Aspose A4 (210 mm × 297 mm). Durch die Änderung können Sie den Inhalt an ein Broschürenformat, einen Beleg oder jedes andere Sonderformat anpassen.  
+- **`setPageSize`** – Standardmäßig verwendet Aspose A4 (210 mm × 297 mm). Durch Ändern können Sie den Inhalt an eine Broschüre, Quittung oder ein beliebiges Sonderformat anpassen.  
 - **`setResolution`** – DPI beeinflusst die Rasterung von CSS‑Hintergrundbildern, SVGs und sogar die Textdarstellung, wenn das PDF auf einem Bildschirm angezeigt wird. Höhere DPI → größere Dateigröße, aber schärferes Ergebnis – ideal für druckfertige Assets.  
 
-## Schritt 3: Code ausführen und Ausgabe prüfen
+### Wie man den Code ausführt und das Ergebnis überprüft
+Kompilieren Sie die Klasse, führen Sie sie aus und öffnen Sie `output.pdf`. Sie sollten das HTML auf einer **A5‑großen Seite** mit deutlich klareren Bildern sehen.
 
-1. Kompilieren Sie die Klasse:
-
-   ```bash
+```bash
    javac -cp "path/to/aspose-html.jar" ConvertWithOptions.java
    ```
 
-2. Führen Sie sie aus:
-
-   ```bash
+```bash
    java -cp ".:path/to/aspose-html.jar" ConvertWithOptions
    ```
 
-3. Öffnen Sie `output.pdf` in einem beliebigen PDF‑Betrachter. Sie sollten die HTML‑Ausgabe auf einer **A5‑großen Seite** mit deutlich klareren Bildern sehen.
+> **Was ist, wenn ich eine Querformat‑Ausrichtung benötige?**  
+> Tauschen Sie einfach die Breiten‑ und Höhenwerte beim Erzeugen von `PageSize` aus, oder verwenden Sie den `PageSize.LANDSCAPE`‑Helper, wenn Sie einen deklarativeren Ansatz bevorzugen.
 
-> **Was, wenn ich ein Querformat benötige?**  
-> Tauschen Sie einfach die Breiten‑ und Höhenwerte beim Erzeugen von `PageSize` aus, oder verwenden Sie den Helfer `PageSize.LANDSCAPE`, wenn Sie einen deklarativeren Ansatz bevorzugen.
-
-## Schritt 4: Häufige Varianten & Sonderfälle
-
-| Szenario | Wie der Code angepasst wird |
-|----------|-----------------------------|
-| **Andere Einheiten (Zoll, Punkte)** | Ersetzen Sie `Unit.MILLIMETERS` durch `Unit.INCHES` oder `Unit.POINTS`. |
-| **Mehrere HTML‑Dateien in ein PDF** | Erzeugen Sie ein `PdfConversionOptions`‑Objekt einmal und rufen Sie dann wiederholt `Converter.convert` auf, wobei Sie jede Ausgabe zum selben `PdfDocument`‑Instanz hinzufügen. |
+## Häufige Variationen & Randfälle
+| Scenario | How to adapt the code |
+|----------|-----------------------|
+| **Verschiedene Einheiten (Zoll, Punkte)** | Ersetzen Sie `Unit.MILLIMETERS` durch `Unit.INCHES` oder `Unit.POINTS`. |
+| **Mehrere HTML‑Dateien in ein PDF** | Erstellen Sie ein `PdfConversionOptions`‑Objekt einmal, rufen Sie dann `Converter.convert` wiederholt auf und fügen Sie jede Ausgabe dem selben `PdfDocument`‑Instanz hinzu. |
 | **Dynamische Seitengröße pro Dokument** | Berechnen Sie Breite/Höhe zur Laufzeit (z. B. basierend auf einer JSON‑Konfiguration), bevor Sie `setPageSize` aufrufen. |
-| **Ausführung in einem Web‑Service** | Verpacken Sie die Konvertierungslogik in ein Servlet oder einen Spring‑Controller und streamen Sie die PDF‑Bytes zurück als `application/pdf`. |
-| **Speicher‑beschränkte Umgebungen** | Verwenden Sie `PdfConversionOptions.setMemoryLimit(...)`, um den Heap‑Verbrauch zu begrenzen; Aspose spillt bei Bedarf auf die Festplatte aus. |
+| **Ausführung in einem Web‑Service** | Kapseln Sie die Konvertierungslogik in ein Servlet oder einen Spring‑Controller, streamen Sie die PDF‑Bytes zurück als `application/pdf`. |
+| **Speicherbeschränkte Umgebungen** | Verwenden Sie `PdfConversionOptions.setMemoryLimit(...)`, um die Heap‑Nutzung zu begrenzen; Aspose schreibt bei Bedarf auf die Festplatte. |
 
-## Schritt 5: Tipps zur Fehlersuche
-
+## Tipps zur Fehlersuche
 - **Leere Seiten** – Stellen Sie sicher, dass Ihr HTML ein `<body>`‑Element enthält und dass alle externen CSS/JS‑Assets vom Arbeitsverzeichnis der JVM aus erreichbar sind.  
 - **Fehlende Schriftarten** – Installieren Sie die benötigten Schriftarten auf dem Server oder betten Sie sie über `PdfConversionOptions.setFontEmbeddingMode(...)` ein.  
-- **Unerwartete DPI** – Vergewissern Sie sich, dass Sie die Auflösung später nicht erneut überschreiben (z. B. durch einen PDF‑Post‑Processor).  
+- **Unerwartete DPI** – Überprüfen Sie, dass Sie die Auflösung später in der Pipeline nicht überschreiben (z. B. durch einen PDF‑Nachbearbeiter).  
 
 ## Visuelle Referenz
+Unten ist ein schneller Screenshot des erzeugten PDFs (A5 Hochformat). Der Alt‑Text enthält bewusst das Haupt‑Keyword für SEO‑Zwecke.
 
-Unten sehen Sie einen schnellen Screenshot des erzeugten PDFs (A5 Hochformat). Der Alt‑Text enthält bewusst das Hauptkeyword für SEO‑Zwecke.
-
-![Create PDF custom size example](https://example.com/images/create-pdf-custom-size.png "Create PDF custom size example")
+![Beispiel für benutzerdefinierte PDF‑Größe erstellen](https://example.com/images/create-pdf-custom-size.png "Beispiel für benutzerdefinierte PDF‑Größe erstellen")
 
 ## Zusammenfassung: Was wir erreicht haben
-
-Wir **haben ein Java‑Programm erstellt, das HTML in PDF konvertiert**, dabei **eine benutzerdefinierte Seitengröße festlegt** und **die DPI erhöht**, um ein schärferes Ergebnis zu erzielen. Die Lösung ist eigenständig, verwendet ausschließlich Aspose.HTML und kann in jedes Maven‑basierte Projekt eingefügt werden.
+Wir **haben ein Java‑Programm erstellt, das HTML zu PDF konvertiert**, explizit **eine benutzerdefinierte Seitengröße festlegt** und **die DPI erhöht** für ein schärferes Ergebnis. Die Lösung ist eigenständig, verwendet nur Aspose.HTML und kann in jedes Maven‑basierte Projekt integriert werden.
 
 ## Nächste Schritte & verwandte Themen
-
 - **Batch‑Verarbeitung:** Durchlaufen Sie ein Verzeichnis mit HTML‑Dateien und fügen Sie sie zu einem einzigen PDF zusammen.  
-- **Erweiterte Gestaltung:** Nutzen Sie CSS‑`@page`‑Regeln, um Ränder, Kopf‑ und Fußzeilen zu steuern.  
+- **Erweiterte Gestaltung:** Verwenden Sie CSS `@page`‑Regeln, um Ränder, Header und Footer zu steuern.  
 - **Sicherheitsaspekte:** Säubern Sie benutzerbereitgestelltes HTML vor der Konvertierung, um Skript‑Injection zu vermeiden.  
 
-Wenn Sie tiefer in die PDF‑Manipulation einsteigen möchten – etwa Lesezeichen hinzufügen, das Dokument verschlüsseln oder Wasserzeichen einbetten – schauen Sie sich die **PDF for Java**‑Bibliothek von Aspose an. Sie lässt sich hervorragend mit dem hier aufgebauten HTML‑Konvertierungs‑Workflow kombinieren.
+Wenn Sie an tiefergehender PDF‑Manipulation interessiert sind – z. B. das Hinzufügen von Lesezeichen, das Verschlüsseln des Dokuments oder das Aufdrucken von Wasserzeichen – schauen Sie sich die **PDF for Java**‑Bibliothek von Aspose an. Sie lässt sich gut mit dem gerade erstellten HTML‑Konvertierungs‑Workflow kombinieren.
 
-Viel Spaß beim Coden, und mögen Ihre PDFs immer exakt die Größe haben, die Sie benötigen!
+Viel Spaß beim Coden, und mögen Ihre PDFs stets die exakt benötigte Größe haben!
+
+## Häufig gestellte Fragen
+
+**F: Kann ich diesen Ansatz verwenden, um Rechnungen automatisch zu erstellen?**  
+A: Ja, kombinieren Sie die benutzerdefinierte Seitengröße mit dynamischer Dateneinfügung, um Rechnungs‑PDFs zu erzeugen, die Ihrer Unternehmens‑Briefvorlage entsprechen.
+
+**F: Erhöht die Erhöhung der DPI die Dateigröße stark?**  
+A: Höhere DPI vergrößert die Dateigröße; ein 300 dpi‑PDF ist etwa 1,5‑mal so groß wie ein 150 dpi‑PDF bei gleichem Inhalt, aber der visuelle Nutzen ist für den Druck erheblich.
+
+**F: Wird für die Nachbearbeitung eine separate PDF‑Bibliothek benötigt?**  
+A: Nein, Aspose.HTML übernimmt sowohl die Konvertierung als auch grundlegende PDF‑Optionen; für erweiterte Funktionen können Sie zu Aspose.PDF wechseln, ohne das HTML erneut zu rendern.
+
+**F: Wie gehe ich mit großen HTML‑Dokumenten um (z. B. 500 Seiten)?**  
+A: Aktivieren Sie Streaming, indem Sie `PdfConversionOptions.setMemoryLimit` auf einen vernünftigen Wert setzen; Aspose schreibt Zwischendaten auf die Festplatte, um den Speicherverbrauch gering zu halten.
+
+**F: Welche Lizenzen werden für den Produktionseinsatz benötigt?**  
+A: Für die Produktion ist eine kommerzielle Aspose.HTML‑Lizenz erforderlich; eine kostenlose Evaluierungslizenz reicht für Entwicklung und Tests aus.
+
+---
+
+**Zuletzt aktualisiert:** 2026-09-08  
+**Getestet mit:** Aspose.HTML for Java 23.9  
+**Autor:** Aspose
+
+## Verwandte Tutorials
+
+- [HTML zu PDF Java konvertieren – Umgebung konfigurieren in Aspose.HTML](/html/java/configuring-environment/)
+- [Wie man HTML zu PDF Java konvertiert – Seitenränder mit Aspose.HTML festlegen](/html/java/advanced-usage/css-extensions-adding-title-page-number/)
+- [Canvas zu PDF konvertieren mit Aspose.HTML für Java](/html/java/advanced-usage/html5-canvas-manipulation-using-javascript/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

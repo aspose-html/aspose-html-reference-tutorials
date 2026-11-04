@@ -35,14 +35,53 @@ Trước khi đi sâu vào chi tiết về việc tạo và chỉnh sửa tài l
 ### [Cách lưu HTML với Aspose.Html – Hướng dẫn C# đầy đủ](./how-to-save-html-with-aspose-html-complete-c-guide/)
 
 Hướng dẫn chi tiết cách lưu tài liệu HTML bằng Aspose.Html trong C#, bao gồm các bước và ví dụ thực tế.
+### [Cách lưu HTML trong C# với Trình xử lý tài nguyên tùy chỉnh](./how-to-save-html-in-c-with-custom-resource-handler/)
+### [Tạo tài liệu HTML trong C# – Hướng dẫn đầy đủ sử dụng Trình xử lý tài nguyên tùy chỉnh](./create-html-document-c-complete-guide-with-custom-resource-h/)
+
+Hướng dẫn chi tiết cách tạo tài liệu HTML trong C# sử dụng Trình xử lý tài nguyên tùy chỉnh, bao gồm ví dụ thực tế.
+### [Cách lưu HTML trong C# – Hướng dẫn chi tiết từng bước](./how-to-save-html-in-c-complete-step-by-step-guide/)
+
+Hướng dẫn chi tiết cách lưu tài liệu HTML bằng C#, bao gồm các bước thực hiện và ví dụ mã.
+### [Cách lưu HTML trong C# – Hướng dẫn đầy đủ với lưu trữ đầu ra tùy chỉnh](./how-to-save-html-in-c-complete-guide-with-custom-output-stor/)
+Hướng dẫn chi tiết cách lưu tài liệu HTML bằng C# sử dụng bộ lưu trữ đầu ra tùy chỉnh.
+### [Tải chuỗi HTML trong C# – hướng dẫn đầy đủ với trình xử lý tùy chỉnh](./load-html-string-in-c-complete-guide-with-custom-handler/)
+
+Hướng dẫn chi tiết cách tải một chuỗi HTML trong C# bằng Aspose.HTML sử dụng trình xử lý tùy chỉnh.
 
 ### [Cách làm tiêu đề đậm bằng CSS & C# – Hướng dẫn chi tiết từng bước](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 
-Hướng dẫn chi tiết cách sử dụng CSS và C# để làm tiêu đề in đậm, kèm ví dụ mã và các bước thực hiện cụ thể.
 ### [Cách lưu HTML trong C# – Trình xử lý tài nguyên tùy chỉnh & ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
 ### [Cách zip HTML trong C# – Hướng dẫn chi tiết từng bước](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 
 Hướng dẫn chi tiết cách nén tài liệu HTML trong C# bằng Aspose.HTML, bao gồm các bước và ví dụ thực tế.
+### [Lưu HTML dưới dạng ZIP trong C# – Hướng dẫn đầy đủ với Trình xử lý tài nguyên tùy chỉnh](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
+
+Hướng dẫn chi tiết cách lưu tài liệu HTML dưới dạng file ZIP bằng C# và trình xử lý tài nguyên tùy chỉnh.
+### [Cách lưu HTML với Aspose – Hướng dẫn C# đầy đủ](./how-to-save-html-with-aspose-complete-c-guide/)
+
+Hướng dẫn chi tiết cách lưu tài liệu HTML bằng Aspose trong C#, bao gồm các bước cấu hình và ví dụ thực tế.
+
+### [Cách nén HTML trong C# – Hướng dẫn đầy đủ tạo tệp ZIP](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
+
+Hướng dẫn chi tiết cách nén tài liệu HTML thành tệp ZIP bằng C#, bao gồm các bước thực hiện và ví dụ mã.
+### [Tạo HTML từ chuỗi trong C# – Hướng dẫn từng bước](./create-html-from-string-in-c-step-by-step-guide/)
+
+Hướng dẫn chi tiết cách tạo tài liệu HTML từ một chuỗi văn bản trong C# bằng Aspose.HTML.
+### [Tải tài liệu HTML với Aspose.HTML – Hướng dẫn C# đầy đủ](./load-html-document-with-aspose-html-complete-c-guide/)
+
+### [Tạo HTML từ chuỗi trong C# – Hướng dẫn đầy đủ với Memory Stream](./create-html-from-string-in-c-full-guide-with-memory-stream/)
+
+Hướng dẫn chi tiết cách tạo HTML từ chuỗi trong C# bằng Memory Stream, kèm ví dụ mã và các bước thực hiện.
+### [Cách lưu HTML – Hướng dẫn đầy đủ Aspose HTMLDocument](./how-to-save-html-aspose-htmldocument-complete-guide/)
+### [Tạo tệp Zip cho HTML – Hướng dẫn C# đầy đủ](./create-zip-archive-for-html-complete-c-guide/)
+
+### [Lưu HTML vào Zip – Hướng dẫn C# đầy đủ cho lưu trữ trong bộ nhớ](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
+
+Hướng dẫn chi tiết cách sử dụng CSS và C# để làm tiêu đề in đậm, kèm ví dụ mã và các bước thực hiện cụ thể.
+
+### [Tạo tài liệu HTML trong bộ nhớ với Aspose.HTML – Hướng dẫn đầy đủ](./create-in-memory-html-document-with-aspose-html-complete-gui/)
+Hướng dẫn chi tiết cách tạo tài liệu HTML trong bộ nhớ bằng Aspose.HTML, kèm ví dụ mã và các bước thực hiện.
+### [Tạo trình xử lý tài nguyên tùy chỉnh trong C# để tải HTML](./create-custom-resource-handler-in-c-for-html-loading/)
 
 ### [Cách sử dụng HtmlSaveOptions trong C# với Aspose.HTML](./how-to-use-htmlsaveoptions-in-c-with-aspose-html/)
 

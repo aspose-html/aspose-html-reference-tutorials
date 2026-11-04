@@ -25,11 +25,8 @@ title: Converter Markdown para PDF em Java – Guia Completo
 url: /pt/java/conversion-html-to-other-formats/convert-markdown-to-pdf-in-java-complete-guide/
 ---
 
-translations and unchanged code blocks placeholders.
 
-We need to keep the shortcodes at top and bottom exactly.
 
-Let's assemble.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

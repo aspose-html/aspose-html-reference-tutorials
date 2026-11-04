@@ -22,25 +22,16 @@ title: 如何在 C# 中压缩 HTML – 完整的逐步指南
 url: /zh/net/working-with-html-documents/how-to-zip-html-in-c-complete-step-by-step-guide/
 ---
 
-rule: keep technical terms in English. "how to zip html" is a phrase; maybe keep as is. But we can translate the surrounding. We'll keep the bold phrase unchanged.
 
-Similarly other bold phrases: **save html with css**, **create zip archive c#**, **save html to zip**, **add images to zip**, etc. Keep them unchanged.
 
-Proceed.
 
-Blockquote with prerequisites: translate bullet points.
 
-List items: keep bullet dash.
 
-Then sections.
 
-We need to translate "Pro tip:" etc.
 
-Make sure code block placeholders remain.
 
-Proceed step by step.
 
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

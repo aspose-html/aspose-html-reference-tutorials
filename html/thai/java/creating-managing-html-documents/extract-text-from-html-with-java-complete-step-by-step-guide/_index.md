@@ -21,15 +21,10 @@ title: สกัดข้อความจาก HTML ด้วย Java – ค
 url: /th/java/creating-managing-html-documents/extract-text-from-html-with-java-complete-step-by-step-guide/
 ---
 
-– imagine a screenshot of the console output)* then **Alt text:** *extract text from html – console showing extracted page text*. That is not an image markdown, just text. So translate that.
 
-Also there is a table.
 
-Let's translate.
 
-We'll keep shortcodes at top and bottom.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
