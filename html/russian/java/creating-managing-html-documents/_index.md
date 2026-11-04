@@ -8,7 +8,9 @@ url: /ru/java/creating-managing-html-documents/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Создание и управление HTML-документами в Aspose.HTML для Java
@@ -104,7 +106,6 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 Узнайте, как загрузить XHTML‑файл в Java и выполнить запросы XPath с учётом пространств имён.
 ### [Как выполнять запросы к HTML в Java – полное руководство](./how-to-query-html-in-java-complete-tutorial/)
 ### [Выполнение асинхронного JavaScript в Java – Полное пошаговое руководство](./execute-async-javascript-in-java-complete-step-by-step-guide/)
-Узнайте, как выполнять асинхронный JavaScript в Java с помощью Aspose.HTML, следуя подробному пошаговому руководству.
 ### [Подсчет символов HTML в Java – Полное руководство с Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Узнайте, как подсчитать количество символов HTML в Java с помощью Aspose.HTML, следуя пошаговому полному руководству.
 
@@ -122,6 +123,9 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 
 
 
+
+### [Как преобразовать шаблон в HTML с помощью Java‑шаблонизатора](./how-to-convert-template-to-html-with-a-java-template-engine/)
+### [Как привязать данные к динамической HTML-таблице с колонками имени и фамилии](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
 
 ### [Итерация по NodeList в Java – Полное руководство](./iterate-over-nodelist-java-complete-guide/)
 Узнайте, как эффективно перебрать элементы NodeList в Java с помощью Aspose.HTML, шаг за шагом.

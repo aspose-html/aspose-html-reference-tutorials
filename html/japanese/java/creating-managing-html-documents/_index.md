@@ -8,7 +8,9 @@ url: /ja/java/creating-managing-html-documents/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.HTML for Java での HTML ドキュメントの作成と管理
@@ -42,7 +44,6 @@ HTML ドキュメントを非同期的に作成するのは複雑に聞こえる
 最後に、スキルをさらに向上させたいと考えている方には、高度なトピックが豊富に用意されています。SVG ドキュメントの管理方法やドキュメントの読み込みイベントの処理方法を学び、レスポンシブで動的な Web アプリケーションを作成します。これらのチュートリアルでは、HTML の枠を超え、Scalable Vector Graphics (SVG) とイベント駆動型プログラミングの複雑さについて詳しく説明します。[続きを読む](./create-manage-svg-documents/)
 
 ## Aspose.HTML for Java チュートリアルで HTML ドキュメントを作成および管理する
-
 
 ### [Aspose.HTML for Java で HTML ドキュメントを非同期的に作成する](./create-html-documents-async/)
 ### [Aspose.HTML for Java で空の HTML ドキュメントを作成する](./create-empty-html-documents/)
@@ -93,7 +94,6 @@ Aspose.HTML for Java を使用し、Java で HTML の文字数を正確にカウ
 
 ### [Java で HTML を解析する方法 – ロード、クエリ、要素のカウント](./how-to-parse-html-java-load-query-count-elements/)
 ### [Java で非同期 JavaScript を実行する – 完全ステップバイステップガイド](./execute-async-javascript-in-java-complete-step-by-step-guide/)
-Java アプリケーションで非同期 JavaScript を実行し、動的な Web コンテンツを操作する方法をステップバイステップで学びます。
 ### [Java で HTML からテキストを抽出する – 完全プログラミングガイド](./extract-text-from-html-in-java-complete-programming-guide/)
 Java を使用して HTML からテキストを抽出する方法をステップバイステップで解説します。完全なプログラミングガイドです。
 
@@ -110,6 +110,12 @@ Java で NodeList を走査し、HTML から画像の src 属性を取得する�
 
 
 
+
+### [Java テンプレートエンジンでテンプレートを HTML に変換する方法](./how-to-convert-template-to-html-with-a-java-template-engine/)
+Java のテンプレートエンジンを使用してテンプレートを HTML に変換する手順をステップバイステップで解説します。
+
+### [動的HTMLテーブルにデータをバインドする方法（姓と名の列）](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
+このチュートリアルでは、Java で動的な HTML テーブルに姓と名の列を持つデータをバインドする手順をステップバイステップで解説します。
 
 ### [Java で NodeList を反復処理する – 完全ガイド](./iterate-over-nodelist-java-complete-guide/)
 Aspose.HTML for Java を使用して、NodeList を反復処理する方法をステップバイステップで学びます。
@@ -170,6 +176,6 @@ HTML テーブルにデータをバインドし、動的に生成・更新する
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

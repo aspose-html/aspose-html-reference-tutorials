@@ -8,7 +8,9 @@ url: /ko/java/creating-managing-html-documents/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java용 Aspose.HTML에서 HTML 문서 만들기 및 관리
@@ -125,6 +127,9 @@ Aspose.HTML for Java를 사용하여 XPath 네임스페이스를 포함한 XHTML
 Aspose.HTML for Java를 사용하여 안전한 HTML 샌드박스를 설정하고 테스트하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.HTML에서 비동기 JavaScript 실행 – 완전 단계별 가이드](./execute-async-javascript-in-java-complete-step-by-step-guide/)
 Aspose.HTML for Java를 활용해 Java에서 비동기 JavaScript를 실행하는 방법을 단계별로 배워보세요.
+### [Java 템플릿 엔진으로 템플릿을 HTML로 변환하는 방법](./how-to-convert-template-to-html-with-a-java-template-engine/)
+Aspose.HTML for Java를 사용하여 Java 템플릿 엔진을 활용해 템플릿을 HTML로 변환하는 방법을 단계별로 안내합니다.
+### [동적 HTML 테이블에 이름 및 성 열 바인딩하기](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
 
 ### [Java에서 HTML 문자 수 세기 – Aspose HTML을 활용한 전체 가이드](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Aspose.HTML for Java를 사용하여 HTML 문자열의 문자 수를 정확히 계산하는 방법을 단계별로 안내합니다.
@@ -174,6 +179,6 @@ Java 개발자를 위한 HTML 템플릿 변환 방법을 단계별로 안내합�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

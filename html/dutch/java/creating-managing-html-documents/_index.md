@@ -8,7 +8,9 @@ url: /nl/java/creating-managing-html-documents/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # HTML-documenten maken en beheren in Aspose.HTML voor Java
@@ -42,7 +44,6 @@ Als het gaat om het genereren van nieuwe HTML-documenten, biedt Aspose.HTML voor
  Tot slot, voor degenen die hun vaardigheden nog verder willen uitbreiden, is er een schat aan geavanceerde onderwerpen om te verkennen. Leer hoe u SVG-documenten beheert of documentlaadgebeurtenissen verwerkt om responsieve en dynamische webapplicaties te maken. Deze tutorials nemen u mee voorbij HTML en duiken in de complexiteit van Scalable Vector Graphics (SVG) en event-driven programmeren.[Lees meer](./create-manage-svg-documents/)
 
 ## HTML-documenten maken en beheren in Aspose.HTML voor Java-zelfstudies
-
 
 ### [Asynchroon HTML-documenten maken in Aspose.HTML voor Java](./create-html-documents-async/)
 Beheers HTML-documentcreatie asynchroon met Aspose.HTML voor Java. Stapsgewijze handleiding, tips en FAQ's inbegrepen voor snel leren.
@@ -87,6 +88,8 @@ Leer hoe u met Aspose.HTML voor Java de paginatitel uit HTML kunt halen. Stapsge
 Leer hoe u HTML van een URL laadt in Java met CSS‑selectoren en XPath, inclusief stapsgewijze handleiding.
 ### [Genereer nieuwe HTML-documenten met Aspose.HTML voor Java](./generate-new-html-documents/)
 Leer hoe u nieuwe HTML-documenten maakt met Aspose.HTML voor Java met deze eenvoudige stapsgewijze handleiding. Begin met het genereren van dynamische HTML-inhoud.
+### [Hoe een sjabloon omzetten naar HTML met een Java‑template‑engine](./how-to-convert-template-to-html-with-a-java-template-engine/)
+Leer stap‑voor‑stap hoe u met een Java‑template‑engine sjablonen omzet naar HTML met Aspose.HTML voor Java.
 ### [HTML genereren vanuit JavaScript in Java – Complete stapsgewijze handleiding](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Leer hoe u HTML genereert vanuit JavaScript-code in Java met een volledige stap‑voor‑stap handleiding.
 ### [HTML-sjabloon converteren – stapsgewijze handleiding voor Java‑ontwikkelaars](./convert-html-template-step-by-step-guide-for-java-developers/)
@@ -127,6 +130,9 @@ Leer hoe u met Aspose.HTML voor Java een NodeList doorloopt, HTML-inhoud leest e
 
 
 
+
+### [Hoe gegevens binden aan een dynamische HTML-tabel met kolommen voor voor- en achternaam](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
+Leer hoe u dynamisch een HTML-tabel vult met voor- en achternamen met Aspose.HTML voor Java.
 
 ### [Tekst extraheren uit HTML met Java – Complete stap‑voor‑stap gids](./extract-text-from-html-with-java-complete-step-by-step-guide/)
 Leer hoe u tekst uit HTML haalt met Java in Aspose.HTML. Volledige stap‑voor‑stap handleiding.
@@ -188,6 +194,6 @@ Leer hoe u dynamische HTML-tabellen bindt aan gegevens met Aspose.HTML voor Java
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
