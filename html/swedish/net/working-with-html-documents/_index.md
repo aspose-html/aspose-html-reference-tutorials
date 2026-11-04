@@ -96,6 +96,13 @@ Lär dig hur du laddar HTML‑strängar i C# med en anpassad hanterare för smid
 ### [Skapa en anpassad resurs‑hanterare i C# för HTML‑laddning](./create-custom-resource-handler-in-c-for-html-loading/)
 
 Lär dig skapa en anpassad resurs‑hanterare i C# för att ladda HTML‑dokument.
+### [Hur man använder HtmlSaveOptions i C# med Aspose.HTML](./how-to-use-htmlsaveoptions-in-c-with-aspose-html/)
+
+Lär dig hur du använder HtmlSaveOptions för att spara HTML med anpassade inställningar i C#.
+
+### [Hur man laddar HTML-dokument från fil med Aspose.HTML i C#](./how-to-load-html-document-from-file-with-aspose-html-in-c/)
+
+Lär dig hur du laddar ett HTML‑dokument från en fil med Aspose.HTML i C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

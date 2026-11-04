@@ -40,6 +40,7 @@ HTML 文档是 Web 的支柱，能够有效地创建和操作 HTML 文档是任�
 ### [如何在 C# 中保存 HTML – 使用自定义输出存储的完整指南](./how-to-save-html-in-c-complete-guide-with-custom-output-stor/)
 ### [在 C# 中加载 HTML 字符串 – 使用自定义处理程序的完整指南](./load-html-string-in-c-complete-guide-with-custom-handler/)
 ### [在 C# 中创建用于 HTML 加载的自定义资源处理程序](./create-custom-resource-handler-in-c-for-html-loading/)
+### [在 C# 中使用 Aspose.HTML 的 HtmlSaveOptions](./how-to-use-htmlsaveoptions-in-c-with-aspose-html/)
 
 ### [使用 CSS 和 C# 加粗标题 – 完整分步指南](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 ### [如何在 C# 中保存 HTML – 自定义资源处理程序和 ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
@@ -60,6 +61,8 @@ HTML 文档是 Web 的支柱，能够有效地创建和操作 HTML 文档是任�
 ### [保存 HTML 为 Zip – 完整 C# 内存归档指南](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
 
 ### [使用 Aspose.HTML 在内存中创建 HTML 文档 – 完整指南](./create-in-memory-html-document-with-aspose-html-complete-gui/)
+
+### [如何使用 Aspose.HTML 在 C# 中从文件加载 HTML 文档](./how-to-load-html-document-from-file-with-aspose-html-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -81,6 +81,10 @@ Pelajari cara merender beberapa dokumen HTML menggunakan Aspose.HTML untuk .NET.
 Manfaatkan kekuatan Aspose.HTML untuk .NET! Pelajari cara Merender Dokumen SVG sebagai PNG dengan mudah. Pelajari contoh langkah demi langkah dan Tanya Jawab Umum. Mulailah sekarang!
 ### [Cara Merender HTML di C# – Panduan Lengkap Menata Paragraf](./how-to-render-html-in-c-complete-guide-to-styling-paragraphs/)
 Pelajari cara merender HTML menggunakan C# dengan Aspose.HTML, termasuk teknik menata paragraf secara detail dalam panduan lengkap ini.
+### [Cara merender HTML di C# dengan Aspose.Html – panduan lengkap](./how-to-render-html-in-c-with-aspose-html-full-guide/)
+Panduan lengkap merender HTML di C# menggunakan Aspose.Html dengan contoh kode dan langkah‑langkah detail.
+### [Render HTML ke PNG di C# – Panduan Lengkap Langkah‑per‑Langkah](./render-html-to-png-in-c-complete-step-by-step-guide/)
+Pelajari cara merender HTML menjadi PNG menggunakan C# dengan Aspose.HTML dalam panduan langkah demi langkah ini.
 ### [Cara Merender HTML – Panduan Lengkap dengan Penangan Sumber Daya Kustom](./how-to-render-html-complete-guide-with-custom-resource-handl/)
 Pelajari cara merender HTML dengan penangan sumber daya kustom menggunakan Aspose.HTML untuk .NET. Ikuti panduan lengkap ini!
 ### [Buat String Dokumen HTML dan Render ke File – Panduan C#](./create-html-document-string-and-render-to-file-c-guide/)
@@ -125,6 +129,10 @@ Pelajari cara membuat dokumen HTML dengan C# dan merendernya menjadi PNG menggun
 
 ### [Cara Merender HTML ke PNG dalam C# – Panduan Langkah‑demi‑Langkah](./how-to-render-html-to-png-in-c-step-by-step-guide/)
 Pelajari cara merender HTML menjadi PNG menggunakan C# dengan panduan langkah demi langkah yang mudah diikuti.
+### [Cara mengaktifkan antialiasing untuk rendering gambar HTML di C#](./how-to-enable-antialiasing-for-html-image-rendering-in-c/)
+Pelajari cara mengaktifkan antialiasing saat merender gambar HTML di C# menggunakan Aspose.HTML.
+### [Cara meningkatkan kejelasan teks di Aspose.HTML dengan hinting](./how-to-improve-text-clarity-in-aspose-html-with-hinting/)
+Pelajari cara meningkatkan kejelasan teks dalam Aspose.HTML dengan menggunakan hinting.
 
 ### [Buat Dokumen PDF C# – Render HTML ke PDF dengan Aspose](./create-pdf-document-c-render-html-to-pdf-with-aspose/)
 Pelajari cara membuat dokumen PDF dari HTML menggunakan Aspose.HTML untuk .NET dengan contoh kode C# lengkap.
@@ -177,9 +185,6 @@ Pelajari cara mengaktifkan antialiasing saat merender HTML menjadi PNG menggunak
 
 ### [Render HTML ke Gambar dengan Aspose.HTML – Panduan Lengkap C#](./render-html-to-image-with-aspose-html-complete-c-guide/)
 Pelajari cara merender HTML menjadi gambar menggunakan Aspose.HTML untuk .NET dengan panduan lengkap C#.
-
-### [Render HTML ke PNG dalam C# – Panduan Lengkap Langkah‑demi‑Langkah](./render-html-to-png-in-c-complete-step-by-step-guide/)
-Pelajari cara merender HTML menjadi PNG menggunakan C# dengan panduan langkah demi langkah yang lengkap.
 
 ### [Cara Mengaktifkan Antialiasing Saat Merender HTML ke PNG – Panduan Lengkap](./how-to-enable-antialiasing-when-rendering-html-to-png-comple/)
 Pelajari cara mengaktifkan antialiasing saat merender HTML menjadi PNG menggunakan Aspose.HTML untuk .NET dengan contoh kode lengkap.

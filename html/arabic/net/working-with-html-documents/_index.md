@@ -64,6 +64,8 @@ url: /ar/net/working-with-html-documents/
 ### [تحميل سلسلة HTML في C# – دليل كامل مع معالج مخصص](./load-html-string-in-c-complete-guide-with-custom-handler/)
 
 ### [إنشاء معالج موارد مخصص في C# لتحميل HTML](./create-custom-resource-handler-in-c-for-html-loading/)
+### [كيفية استخدام HtmlSaveOptions في C# مع Aspose.HTML](./how-to-use-htmlsaveoptions-in-c-with-aspose-html/)
+### [كيفية تحميل مستند HTML من ملف باستخدام Aspose.HTML في C#](./how-to-load-html-document-from-file-with-aspose-html-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

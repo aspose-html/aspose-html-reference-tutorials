@@ -64,6 +64,8 @@ Học cách hiển thị nhiều tài liệu HTML bằng Aspose.HTML cho .NET. T
 Mở khóa sức mạnh của Aspose.HTML cho .NET! Tìm hiểu cách Render SVG Doc thành PNG một cách dễ dàng. Tìm hiểu các ví dụ từng bước và câu hỏi thường gặp. Bắt đầu ngay!
 ### [Cách Render HTML trong C# – Hướng Dẫn Toàn Diện về Định Dạng Đoạn Văn](./how-to-render-html-in-c-complete-guide-to-styling-paragraphs/)
 Học cách render HTML trong C# và tùy chỉnh định dạng đoạn văn một cách chi tiết với Aspose.HTML.
+### [Cách render HTML trong C# với Aspose.Html – hướng dẫn đầy đủ](./how-to-render-html-in-c-with-aspose-html-full-guide/)
+Học cách render HTML trong C# với Aspose.Html – hướng dẫn chi tiết và đầy đủ.
 ### [Cách Render HTML – Hướng Dẫn Toàn Diện với Trình Xử Lý Tài Nguyên Tùy Chỉnh](./how-to-render-html-complete-guide-with-custom-resource-handl/)
 Tìm hiểu cách render HTML trong Aspose.HTML cho .NET sử dụng trình xử lý tài nguyên tùy chỉnh, bao gồm các ví dụ thực tế và hướng dẫn chi tiết.
 ### [Cách Render HTML thành PNG – Hướng Dẫn Toàn Diện Từng Bước](./how-to-render-html-to-png-complete-step-by-step-guide/)
@@ -157,6 +159,10 @@ Học cách bật khử răng cưa khi chuyển đổi HTML sang PNG bằng Aspo
 Hướng dẫn bật tính năng khử răng cưa để cải thiện chất lượng PNG khi render HTML bằng Aspose.HTML.
 ### [Render HTML thành hình ảnh trong C# – Hướng dẫn toàn diện](./render-html-to-image-in-c-complete-guide/)
 Học cách chuyển đổi HTML thành hình ảnh trong C# bằng Aspose.HTML, bao gồm các bước chi tiết và mẹo thực tiễn.
+### [Cách bật khử răng cưa khi render hình ảnh HTML trong C#](./how-to-enable-antialiasing-for-html-image-rendering-in-c/)
+Học cách bật khử răng cưa để cải thiện chất lượng hình ảnh khi render HTML thành PNG trong C# bằng Aspose.HTML.
+### [Cách cải thiện độ rõ nét của văn bản trong Aspose.HTML bằng hinting](./how-to-improve-text-clarity-in-aspose-html-with-hinting/)
+Học cách sử dụng hinting để tăng độ rõ nét của văn bản trong Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -36,6 +36,8 @@ Gdy już opanujesz podstawy, zagłębimy się w proces tworzenia. W tej sekcji n
 
 Teraz przenieśmy Twoje umiejętności na wyższy poziom. Edycja dokumentów HTML to typowe zadanie dla programistów stron internetowych, a Aspose.HTML znacznie upraszcza ten proces. W tej sekcji omówimy tworzenie, manipulację i stylizowanie dokumentów. Odkryjesz, jak ulepszyć wygląd i funkcjonalność treści internetowych, czyniąc je angażującymi i przyjaznymi dla użytkownika.
 
+### [Jak załadować dokument HTML z pliku przy użyciu Aspose.HTML w C#](./how-to-load-html-document-from-file-with-aspose-html-in-c/)
+
 ### [Jak zapisać HTML w C# – Kompletny przewodnik z użyciem własnego obsługiwacza zasobów](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 
 Poznaj metodę zapisu HTML w C# z własnym obsługiwaczem zasobów, umożliwiającą pełną kontrolę nad zapisem i dostępem do zasobów.
@@ -89,6 +91,9 @@ Poznaj metodę zapisu HTML w C# z własnym magazynem wyjściowym, dającą pełn
 ### [Ładowanie ciągu HTML w C# – kompletny przewodnik z własnym obsługiwaczem](./load-html-string-in-c-complete-guide-with-custom-handler/)
 
 ### [Utwórz własny obsługiwacz zasobów w C# do ładowania HTML](./create-custom-resource-handler-in-c-for-html-loading/)
+### [Jak używać HtmlSaveOptions w C# z Aspose.HTML](./how-to-use-htmlsaveoptions-in-c-with-aspose-html/)
+
+Poznaj, jak skonfigurować i zastosować HtmlSaveOptions przy zapisywaniu dokumentów HTML w C# przy użyciu Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

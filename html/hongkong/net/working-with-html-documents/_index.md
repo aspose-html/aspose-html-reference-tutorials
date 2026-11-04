@@ -43,6 +43,9 @@ HTML 文件是網路的支柱，能夠有效地創建和操作它們對於任何
 ### [如何保存 HTML – Aspose HTMLDocument 完整指南](./how-to-save-html-aspose-htmldocument-complete-guide/)
 
 ### [如何使用 CSS 與 C# 加粗標題 – 完整步驟指南](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+
+### [如何在 C# 中從檔案載入 HTML 文件](./how-to-load-html-document-from-file-with-aspose-html-in-c/)
+
 ### [如何在 C# 中儲存 HTML – 自訂資源處理程式與 ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
 
 ### [如何使用 Aspose 保存 HTML – 完整 C# 指南](./how-to-save-html-with-aspose-complete-c-guide/)
@@ -74,6 +77,7 @@ HTML 文件是網路的支柱，能夠有效地創建和操作它們對於任何
 ### [在 C# 中載入 HTML 字串 – 使用自訂處理程式的完整指南](./load-html-string-in-c-complete-guide-with-custom-handler/)
 
 ### [在 C# 中建立自訂資源處理程式以載入 HTML](./create-custom-resource-handler-in-c-for-html-loading/)
+### [如何在 C# 中使用 HtmlSaveOptions 與 Aspose.HTML](./how-to-use-htmlsaveoptions-in-c-with-aspose-html/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

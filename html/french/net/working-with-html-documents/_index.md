@@ -87,6 +87,10 @@ Apprenez à enregistrer du HTML en utilisant Aspose.HTMLDocument, avec des optio
 
 Apprenez à créer un gestionnaire de ressources personnalisé en C# pour charger du HTML de manière contrôlée.
 
+### [Comment utiliser HtmlSaveOptions en C# avec Aspose.HTML](./how-to-use-htmlsaveoptions-in-c-with-aspose-html/)
+
+### [Comment charger un document HTML depuis un fichier avec Aspose.HTML en C#](./how-to-load-html-document-from-file-with-aspose-html-in-c/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

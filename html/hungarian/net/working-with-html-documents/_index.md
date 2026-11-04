@@ -81,6 +81,12 @@ Tanulja meg, hogyan hozhat létre HTML-t egy stringből C#-ban memóriafolyam ha
 ### [HTML mentése – Aspose HTMLDocument teljes útmutató](./how-to-save-html-aspose-htmldocument-complete-guide/)
 ### [HTML mentése Zip-be – Teljes C# útmutató a memória‑beli archívumokhoz](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
 
+### [HtmlSaveOptions használata C#-ban az Aspose.HTML segítségével](./how-to-use-htmlsaveoptions-in-c-with-aspose-html/)
+
+### [HTML dokumentum betöltése fájlból Aspose.HTML segítségével C#-ban](./how-to-load-html-document-from-file-with-aspose-html-in-c/)
+
+Ismerje meg, hogyan tölthet be HTML-fájlokat Aspose.HTML könyvtárral C#-ban.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

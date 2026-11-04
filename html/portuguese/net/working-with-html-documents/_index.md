@@ -58,6 +58,8 @@ Antes de mergulharmos nas especificidades da criação e edição de documentos 
 ### [Como carregar string HTML em C# – Guia completo com manipulador personalizado](./load-html-string-in-c-complete-guide-with-custom-handler/)
 
 ### [Criar manipulador de recursos personalizado em C# para carregamento de HTML](./create-custom-resource-handler-in-c-for-html-loading/)
+### [Como usar HtmlSaveOptions em C# com Aspose.HTML](./how-to-use-htmlsaveoptions-in-c-with-aspose-html/)
+### [Como carregar documento HTML a partir de arquivo com Aspose.HTML em C#](./how-to-load-html-document-from-file-with-aspose-html-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

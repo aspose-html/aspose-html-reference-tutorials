@@ -37,6 +37,7 @@ Sebelum kita menyelami secara spesifik pembuatan dan penyuntingan dokumen HTML d
 ### [Cara Membuat Penangan Sumber Daya Kustom di C# untuk Memuat HTML](./create-custom-resource-handler-in-c-for-html-loading/)
 
 ### [Cara Membuat Heading Tebal dengan CSS & C# – Panduan Lengkap Langkah demi Langkah](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+
 ### [Cara Menyimpan HTML di C# – Penangan Sumber Daya Kustom & ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
 
 ### [Cara Menyimpan HTML dengan Aspose.Html – Panduan Lengkap C#](./how-to-save-html-with-aspose-html-complete-c-guide/)
@@ -64,6 +65,9 @@ Sebelum kita menyelami secara spesifik pembuatan dan penyuntingan dokumen HTML d
 ### [Muat string HTML di C# – Panduan Lengkap dengan Penangan Kustom](./load-html-string-in-c-complete-guide-with-custom-handler/)
 
 Pelajari cara memuat string HTML secara langsung di C# menggunakan Aspose.HTML dengan penangan sumber daya khusus untuk kontrol penuh.
+### [Cara Menggunakan HtmlSaveOptions di C# dengan Aspose.HTML](./how-to-use-htmlsaveoptions-in-c-with-aspose-html/)
+
+### [Cara Memuat Dokumen HTML dari File dengan Aspose.HTML di C#](./how-to-load-html-document-from-file-with-aspose-html-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

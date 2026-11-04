@@ -36,6 +36,8 @@ url: /th/net/working-with-html-documents/
 
 ตอนนี้ มาพัฒนาทักษะของคุณไปอีกขั้น การแก้ไขเอกสาร HTML เป็นงานทั่วไปสำหรับนักพัฒนาเว็บ และ Aspose.HTML ช่วยลดความยุ่งยากของกระบวนการนี้ได้อย่างมาก ในส่วนนี้ เราจะพูดถึงการสร้าง การจัดการ และการจัดรูปแบบเอกสาร คุณจะค้นพบวิธีปรับปรุงรูปลักษณ์และฟังก์ชันการทำงานของเนื้อหาเว็บของคุณ ให้ดึงดูดและใช้งานง่าย
 
+### [วิธีโหลดเอกสาร HTML จากไฟล์ด้วย Aspose.HTML ใน C#](./how-to-load-html-document-from-file-with-aspose-html-in-c/)
+
 ### [วิธีบันทึก HTML ใน C# – คู่มือฉบับสมบูรณ์โดยใช้ Custom Resource Handler](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 ### [วิธีบันทึก HTML ใน C# ด้วย Custom Resource Handler](./how-to-save-html-in-c-with-custom-resource-handler/)
 ### [วิธีบันทึก HTML ใน C# – คู่มือขั้นตอนเต็ม](./how-to-save-html-in-c-complete-step-by-step-guide/)
@@ -87,6 +89,9 @@ url: /th/net/working-with-html-documents/
 
 ### [สร้างเอกสาร HTML ในหน่วยความจำด้วย Aspose.HTML – คู่มือฉบับสมบูรณ์](./create-in-memory-html-document-with-aspose-html-complete-gui/)
 เรียนรู้วิธีสร้างเอกสาร HTML ในหน่วยความจำโดยใช้ Aspose.HTML อย่างละเอียดและครบถ้วน
+
+### [วิธีใช้ HtmlSaveOptions ใน C# กับ Aspose.HTML](./how-to-use-htmlsaveoptions-in-c-with-aspose-html/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -68,6 +68,10 @@ Leer hoe u meerdere HTML-documenten kunt renderen met Aspose.HTML voor .NET. Ver
 Ontgrendel de kracht van Aspose.HTML voor .NET! Leer hoe u moeiteloos SVG Doc als PNG kunt renderen. Duik in stapsgewijze voorbeelden en FAQ's. Ga nu aan de slag!
 ### [HTML renderen in C# – Complete gids voor het stylen van alinea's](./how-to-render-html-in-c-complete-guide-to-styling-paragraphs/)
 Leer hoe u HTML kunt renderen in C# en alinea's kunt stylen met Aspose.HTML. Volg deze volledige gids voor stap‑voor‑stap voorbeelden.
+
+### [Hoe HTML te renderen in C# met Aspose.Html – volledige gids](./how-to-render-html-in-c-with-aspose-html-full-guide/)
+Leer stap voor stap hoe u HTML rendert in C# met Aspose.Html, inclusief volledige voorbeelden en instellingen.
+
 ### [HTML renderen – Complete gids met aangepaste resourcehandler](./how-to-render-html-complete-guide-with-custom-resource-handl/)
 Leer hoe u HTML kunt renderen met een aangepaste resourcehandler in Aspose.HTML voor .NET.
 ### [HTML renderen naar PNG – Complete stap‑voor‑stap gids](./how-to-render-html-to-png-complete-step-by-step-guide/)
@@ -160,6 +164,11 @@ Leer stap voor stap hoe u HTML naar PNG converteert met C# en Aspose.HTML in dez
 Leer stap voor stap hoe u antialiasing inschakelt bij het renderen van HTML naar PNG met Aspose.HTML voor .NET.
 ### [HTML renderen naar afbeelding in C# – Complete gids](./render-html-to-image-in-c-complete-guide/)
 Leer stap voor stap hoe u HTML naar afbeelding converteert met C# en Aspose.HTML in deze volledige gids.
+### [Hoe antialiasing in te schakelen voor HTML-afbeeldingsrendering in C#](./how-to-enable-antialiasing-for-html-image-rendering-in-c/)
+Leer hoe u antialiasing inschakelt bij het renderen van HTML-afbeeldingen met Aspose.HTML in C# voor scherpere resultaten.
+
+### [Hoe teksthelderheid te verbeteren in Aspose.HTML met hinting](./how-to-improve-text-clarity-in-aspose-html-with-hinting/)
+Leer hoe u met hinting de teksthelderheid verbetert bij het renderen van HTML met Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

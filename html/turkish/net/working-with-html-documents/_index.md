@@ -42,10 +42,12 @@ Temelleri kavradığınızda, oluşturma sürecine daha derinlemesine dalacağı
 ### [C#'ta HTML Dizesi Yükleme – Özel İşleyici ile Tam Kılavuz](./load-html-string-in-c-complete-guide-with-custom-handler/)
 
 ### [CSS ve C# ile Başlığı Kalınlaştırma – Tam Adım Adım Kılavuz](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+
 ### [C# ile HTML Kaydetme – Özel Kaynak İşleyicileri ve ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
 
 C# kullanarak HTML dosyalarını özel kaynak işleyicileri ve ZIP arşivleriyle kaydetmeyi öğrenin.
 ### [Aspose.Html ile HTML Kaydetme – Tam C# Kılavuzu](./how-to-save-html-with-aspose-html-complete-c-guide/)
+
 ### [C#'ta HTML Sıkıştırma – Tam Adım Adım Kılavuz](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 
 ### [C#'ta HTML Kaydetme – Özel Kaynak İşleyicisi Kullanarak](./how-to-save-html-in-c-with-custom-resource-handler/)
@@ -64,6 +66,11 @@ C# kullanarak HTML dosyalarını özel kaynak işleyicileri ve ZIP arşivleriyle
 ### [HTML'yi Zip'e Kaydet – Bellek İçi Arşivler İçin Tam C# Kılavuzu](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
 ### [Aspose.HTML ile Bellek İçi HTML Belgesi Oluşturma – Tam Kılavuz](./create-in-memory-html-document-with-aspose-html-complete-gui/)
 ### [C#'ta HTML Yükleme İçin Özel Kaynak İşleyicisi Oluşturma](./create-custom-resource-handler-in-c-for-html-loading/)
+### [C# ile Aspose.HTML'de HtmlSaveOptions Kullanımı](./how-to-use-htmlsaveoptions-in-c-with-aspose-html/)
+
+### [C# ile Aspose.HTML kullanarak HTML belgesini dosyadan yükleme](./how-to-load-html-document-from-file-with-aspose-html-in-c/)
+
+C# ile Aspose.HTML kullanarak bir HTML dosyasını nasıl yükleyeceğinizi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

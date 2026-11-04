@@ -30,6 +30,10 @@ HTML दस्तावेज़ वेब की रीढ़ हैं, और
 
 ### [Aspose.HTML के साथ .NET में दस्तावेज़ संपादित करना](./editing-a-document/)
 
+अब, आइए अपने कौशल को अगले स्तर पर ले जाएं। HTML दस्तावेज़ों को संपादित करना वेब डेवलपर्स के लिए एक सामान्य कार्य है, और Aspose.HTML इस प्रक्रिया को काफी सरल बनाता है। इस अनुभाग में, हम दस्तावेज़ निर्माण, हेरफेर और स्टाइलिंग को कवर करेंगे। आप जानेंगे कि अपनी वेब सामग्री की उपस्थिति और कार्यक्षमता को कैसे बढ़ाया जाए, जिससे यह आकर्षक और उपयोगकर्ता के अनुकूल बन सके।
+
+### [Aspose.HTML के साथ C# में फ़ाइल से HTML दस्तावेज़ लोड करना](./how-to-load-html-document-from-file-with-aspose-html-in-c/)
+
 ### [C# में HTML को सहेजना – कस्टम रिसोर्स हैंडलर का उपयोग करके पूर्ण गाइड](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 ### [Aspose.Html के साथ HTML को सहेजना – पूर्ण C# गाइड](./how-to-save-html-with-aspose-html-complete-c-guide/)
 ### [C# में HTML को सहेजना – कस्टम रिसोर्स हैंडलर के साथ](./how-to-save-html-in-c-with-custom-resource-handler/)
@@ -44,6 +48,7 @@ HTML दस्तावेज़ वेब की रीढ़ हैं, और
 
 ### [C# में HTML को सहेजना – कस्टम रिसोर्स हैंडलर्स और ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
 ### [C# में HTML को ज़िप करना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+### [C# में Aspose.HTML के साथ HtmlSaveOptions का उपयोग कैसे करें](./how-to-use-htmlsaveoptions-in-c-with-aspose-html/)
 
 ### [C# में HTML को ZIP के रूप में सहेजना – कस्टम रिसोर्स हैंडलर के साथ पूर्ण गाइड](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
 ### [C# में स्ट्रिंग से HTML बनाना – चरण-दर-चरण गाइड](./create-html-from-string-in-c-step-by-step-guide/)

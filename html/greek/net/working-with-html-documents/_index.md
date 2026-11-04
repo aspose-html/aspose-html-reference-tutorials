@@ -46,6 +46,7 @@ url: /el/net/working-with-html-documents/
 Μάθετε πώς να αποθηκεύετε HTML σε C# χρησιμοποιώντας προσαρμοσμένη αποθήκευση εξόδου, βήμα‑βήμα οδηγός.
 
 ### [Πώς να κάνετε έντονο τίτλο με CSS & C# – Πλήρης οδηγός βήμα‑βήμα](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+
 ### [Πώς να αποθηκεύσετε HTML σε C# – Προσαρμοσμένοι Διαχειριστές Πόρων & ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
 
 Μάθετε πώς να αποθηκεύσετε HTML χρησιμοποιώντας προσαρμοσμένους διαχειριστές πόρων και συμπίεση ZIP σε C#.
@@ -53,6 +54,7 @@ url: /el/net/working-with-html-documents/
 ### [Πώς να αποθηκεύσετε HTML με Aspose.Html – Πλήρης οδηγός C#](./how-to-save-html-with-aspose-html-complete-c-guide/)
 
 ### [Πώς να αποθηκεύσετε HTML με Aspose – Πλήρης οδηγός C#](./how-to-save-html-with-aspose-complete-c-guide/)
+### [Πώς να χρησιμοποιήσετε HtmlSaveOptions σε C# με Aspose.HTML](./how-to-use-htmlsaveoptions-in-c-with-aspose-html/)
 
 ### [Πώς να συμπιέσετε HTML σε C# – Πλήρης οδηγός δημιουργίας αρχείου ZIP](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
 
@@ -93,6 +95,10 @@ url: /el/net/working-with-html-documents/
 ### [Φόρτωση συμβολοσειράς HTML σε C# – πλήρης οδηγός με προσαρμοσμένο διαχειριστή](./load-html-string-in-c-complete-guide-with-custom-handler/)
 
 ### [Δημιουργία προσαρμοσμένου διαχειριστή πόρων σε C# για φόρτωση HTML](./create-custom-resource-handler-in-c-for-html-loading/)
+
+### [Πώς να φορτώσετε έγγραφο HTML από αρχείο με Aspose.HTML σε C#](./how-to-load-html-document-from-file-with-aspose-html-in-c/)
+
+Μάθετε πώς να φορτώσετε ένα αρχείο HTML χρησιμοποιώντας Aspose.HTML σε C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

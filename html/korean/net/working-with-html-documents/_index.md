@@ -86,6 +86,9 @@ C#에서 메모리 스트림을 사용해 HTML을 ZIP 파일로 저장하는 방
 ### [HTML 로딩을 위한 C# 사용자 정의 리소스 핸들러 만들기](./create-custom-resource-handler-in-c-for-html-loading/)
 
 HTML 로딩 시 사용자 정의 리소스 핸들러를 구현하는 방법을 단계별로 안내합니다.
+### [C#에서 Aspose.HTML와 HtmlSaveOptions 사용 방법](./how-to-use-htmlsaveoptions-in-c-with-aspose-html/)
+
+### [C#에서 Aspose.HTML를 사용하여 파일에서 HTML 문서 로드하는 방법](./how-to-load-html-document-from-file-with-aspose-html-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

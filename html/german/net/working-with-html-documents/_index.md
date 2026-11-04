@@ -97,6 +97,12 @@ Erfahren Sie, wie Sie HTML-Inhalte direkt im Speicher in ein ZIP‑Archiv speich
 
 Erfahren Sie, wie Sie HTML-Strings in C# mit einem benutzerdefinierten Handler laden können.
 
+### [HtmlSaveOptions in C# mit Aspose.HTML verwenden](./how-to-use-htmlsaveoptions-in-c-with-aspose-html/)
+
+Erfahren Sie, wie Sie mit HtmlSaveOptions HTML-Ausgabe in C# gezielt konfigurieren und speichern.
+
+### [HTML-Dokument aus Datei mit Aspose.HTML in C# laden](./how-to-load-html-document-from-file-with-aspose-html-in-c/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -39,6 +39,7 @@ HTML ドキュメントは Web のバックボーンであり、それを効果�
 ### [Aspose.HTML を使用した HTML ドキュメントの読み込み – 完全 C# ガイド](./load-html-document-with-aspose-html-complete-c-guide/)
 
 Aspose.HTML を使って C# で HTML ドキュメントをロードし、操作する方法をステップバイステップで解説します。
+### [Aspose.HTML を使用して C# でファイルから HTML ドキュメントを読み込む方法](./how-to-load-html-document-from-file-with-aspose-html-in-c/)
 
 ### [カスタムリソースハンドラを使用した C# での HTML 保存完全ガイド](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 ### [C# でカスタムリソースハンドラを使用して HTML を保存する方法](./how-to-save-html-in-c-with-custom-resource-handler/)
@@ -68,6 +69,7 @@ C# を使用して HTML コンテンツを Zip アーカイブに圧縮する方
 ### [HTML を Zip に保存 – インメモリ アーカイブの完全 C# ガイド](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
 ### [カスタムハンドラを使用した C# で HTML 文字列をロードする完全ガイド](./load-html-string-in-c-complete-guide-with-custom-handler/)
 ### [C# で HTML 読み込み用カスタムリソースハンドラを作成する](./create-custom-resource-handler-in-c-for-html-loading/)
+### [C# で Aspose.HTML の HtmlSaveOptions を使用する方法](./how-to-use-htmlsaveoptions-in-c-with-aspose-html/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

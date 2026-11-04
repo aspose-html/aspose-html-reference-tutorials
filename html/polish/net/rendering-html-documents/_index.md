@@ -116,6 +116,8 @@ Naucz się renderować wiele dokumentów HTML za pomocą Aspose.HTML dla .NET. Z
 Odblokuj moc Aspose.HTML dla .NET! Dowiedz się, jak bez wysiłku renderować SVG Doc jako PNG. Zanurz się w przykładach krok po kroku i FAQ. Zacznij teraz!
 ### [Jak renderować HTML w C# – Kompletny przewodnik po stylizacji akapitów](./how-to-render-html-in-c-complete-guide-to-styling-paragraphs/)
 Naucz się renderować HTML w C# i stylizować akapity w kompletnym przewodniku.
+### [Jak renderować HTML w C# przy użyciu Aspose.Html – pełny przewodnik](./how-to-render-html-in-c-with-aspose-html-full-guide/)
+Pełny przewodnik, jak w C# renderować HTML przy użyciu Aspose.Html, krok po kroku.
 ### [Jak renderować HTML – Kompletny przewodnik z własnym obsługiwaczem zasobów](./how-to-render-html-complete-guide-with-custom-resource-handl/)
 Poznaj pełny przewodnik renderowania HTML w .NET z własnym obsługiwaczem zasobów, aby kontrolować ładowanie plików i stylów.
 ### [Jak renderować HTML do PNG – Kompletny przewodnik krok po kroku](./how-to-render-html-to-png-complete-step-by-step-guide/)
@@ -170,6 +172,11 @@ Dowiedz się, jak w Aspose.HTML włączyć antyaliasing przy renderowaniu HTML d
 Pełny przewodnik pokazujący, jak włączyć antyaliasing przy renderowaniu HTML do PNG przy użyciu Aspose.HTML.
 ### [Renderuj HTML do obrazu w C# – Kompletny przewodnik](./render-html-to-image-in-c-complete-guide/)
 Pełny przewodnik w C# pokazujący, jak przy użyciu Aspose.HTML renderować HTML do różnych formatów obrazu, krok po kroku.
+
+### [Jak włączyć antyaliasing przy renderowaniu obrazów HTML w C#](./how-to-enable-antialiasing-for-html-image-rendering-in-c/)
+Dowiedz się, jak w Aspose.HTML w C# włączyć antyaliasing przy renderowaniu obrazów HTML, aby uzyskać płynniejsze krawędzie.
+
+### [Jak poprawić czytelność tekstu w Aspose.HTML przy użyciu hintingu](./how-to-improve-text-clarity-in-aspose-html-with-hinting/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
