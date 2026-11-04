@@ -8,7 +8,9 @@ url: /pt/java/creating-managing-html-documents/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Criando e gerenciando documentos HTML no Aspose.HTML para Java
@@ -81,18 +83,12 @@ Aprenda a executar JavaScript assíncrono em Java usando Aspose.HTML com este gu
 ### [Como vincular dados a uma tabela HTML dinâmica com colunas de nome e sobrenome](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
 Aprenda a vincular dados a uma tabela HTML dinâmica com colunas de nome e sobrenome usando Aspose.HTML para Java.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Iterar NodeList em Java – Ler HTML e Obter src da Imagem](./iterate-nodelist-java-read-html-get-image-src/)
 Aprenda a percorrer um NodeList em Java para ler HTML e extrair o atributo src das imagens.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /de/java/creating-managing-html-documents/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Erstellen und Verwalten von HTML-Dokumenten in Aspose.HTML für Java
@@ -43,7 +45,6 @@ Wenn es um die Generierung neuer HTML-Dokumente geht, bietet Aspose.HTML für Ja
 
 ## Erstellen und Verwalten von HTML-Dokumenten in Aspose.HTML für Java-Tutorials
 
-
 ### [Erstellen Sie asynchron HTML-Dokumente in Aspose.HTML für Java](./create-html-documents-async/)
 Meistern Sie die asynchrone Erstellung von HTML-Dokumenten mit Aspose.HTML für Java. Schritt‑für‑Schritt‑Anleitung, Tipps und FAQs für schnelles Lernen enthalten.
 ### [Ausführen von asynchronem JavaScript in Java – Komplett‑Schritt‑für‑Schritt‑Anleitung](./execute-async-javascript-in-java-complete-step-by-step-guide/)
@@ -76,22 +77,11 @@ Erfahren Sie, wie Sie HTML-Inhalte in Java abfragen und verarbeiten – Schritt�
 Erfahren Sie, wie Sie HTML in Java laden, Elemente abfragen und deren Anzahl bestimmen – Schritt‑für‑Schritt‑Anleitung.
 ### [Daten an eine dynamische HTML‑Tabelle mit Vor‑ und Nachnamen‑Spalten binden](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [HTML aus JavaScript in Java generieren – Vollständige Schritt‑für‑Schritt‑Anleitung](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Erfahren Sie, wie Sie mit Aspose.HTML für Java HTML aus JavaScript erzeugen. Detaillierte Schritt‑für‑Schritt‑Anleitung inklusive Beispielen.
 ### [NodeList in Java iterieren – HTML lesen & Bild‑src abrufen](./iterate-nodelist-java-read-html-get-image-src/)
 Lernen Sie, wie Sie mit Aspose.HTML für Java eine NodeList durchlaufen, HTML-Inhalte lesen und die src‑Attribute von Bildern extrahieren.
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Iterieren über NodeList in Java – Komplett‑Leitfaden](./iterate-over-nodelist-java-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML für Java NodeList‑Objekte durchlaufen und HTML‑Elemente effizient verarbeiten.
 ### [HTML-Text mit Java extrahieren – Komplett‑Leitfaden](./extract-text-from-html-with-java-complete-step-by-step-guide/)
@@ -100,6 +90,6 @@ Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie Text aus HT
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

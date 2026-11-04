@@ -8,7 +8,9 @@ url: /hu/java/creating-managing-html-documents/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # HTML-dokumentumok létrehozása és kezelése az Aspose.HTML for Java-ban
@@ -43,7 +45,6 @@ Ha új HTML-dokumentumokról van szó, az Aspose.HTML for Java robusztus megold�
 
 ## HTML-dokumentumok létrehozása és kezelése az Aspose.HTML for Java oktatóanyagban
 
-
 ### [Hozzon létre HTML-dokumentumokat aszinkron módon az Aspose.HTML for Java-ban](./create-html-documents-async/)
 Elsz... (description)
 ### [Aszinkron JavaScript végrehajtása Java-ban – Teljes lépésről‑lépésre útmutató](./execute-async-javascript-in-java-complete-step-by-step-guide/)
@@ -77,25 +78,19 @@ Ismerje meg, hogyan alakíthatja át a sablonokat HTML-re Java sablonmotor segí
 ### [Hogyan kössön adatot egy dinamikus HTML táblázathoz, amely első- és utolsónév oszlopokat tartalmaz](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
 Tanulja meg, hogyan kössön adatot egy dinamikus HTML táblázathoz, amely első- és utolsónév oszlopokat tartalmaz.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [HTML generálása JavaScriptből Java-ban – Teljes lépésről‑lépésre útmutató](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Ismerje meg, hogyan generálhat HTML-t JavaScript kódból Java alkalmazásban, részletes, lépésről‑lépésre útmutatóval.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [NodeList bejárása Java – HTML olvasása és képek src lekérése](./iterate-nodelist-java-read-html-get-image-src/)
 Tanulja meg, hogyan járhatja be a NodeList-et Java-ban, olvashat HTML-t és szerezheti meg a képek src attribútumát lépésről lépésre.
 ### [HTML-ből szöveg kinyerése Java-val – Teljes lépésről‑lépésre útmutató](./extract-text-from-html-with-java-complete-step-by-step-guide/)
 Fedezze fel, hogyan nyerhet ki szöveget HTML-ből Java használatával, részletes, lépésről‑lépésre útmutató.
 ### [NodeList bejárása Java-ban – Teljes útmutató](./iterate-over-nodelist-java-complete-guide/)
 Ismerje meg, hogyan iterálhat a NodeList elemein Java-ban az Aspose.HTML segítségével, részletes, lépésről‑lépésre útmutató.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

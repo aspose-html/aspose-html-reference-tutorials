@@ -8,7 +8,9 @@ url: /zh/java/creating-managing-html-documents/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 在 Aspose.HTML for Java 中创建和管理 HTML 文档
@@ -42,7 +44,6 @@ Aspose.HTML for Java 为开发人员提供了功能强大的工具包，旨在�
 最后，对于那些希望进一步提高技能的人来说，有大量的高级主题可供探索。了解如何管理 SVG 文档或处理文档加载事件以创建响应式动态 Web 应用程序。这些教程将带您超越 HTML，深入了解可缩放矢量图形 (SVG) 和事件驱动编程的复杂性。[阅读更多](./create-manage-svg-documents/)
 
 ## 在 Aspose.HTML for Java 教程中创建和管理 HTML 文档
-
 
 ### [在 Aspose.HTML for Java 中异步创建 HTML 文档](./create-html-documents-async/)
 掌握使用 Aspose.HTML for Java 异步创建 HTML 文档的方法。其中包含分步指南、提示和常见问题解答，可帮助您快速学习。
@@ -78,30 +79,12 @@ Aspose.HTML for Java 为开发人员提供了功能强大的工具包，旨在�
 ### [在 Java 中从 HTML 提取文本 – 完整分步指南](./extract-text-from-html-with-java-complete-step-by-step-guide/)
 本完整分步指南教您使用 Aspose.HTML for Java 提取 HTML 文本，包括示例代码和最佳实践。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [在 Java 中从 JavaScript 生成 HTML – 完整分步指南](./generate-html-from-javascript-in-java-complete-step-by-step/)
 本指南详细演示如何在 Java 环境中执行 JavaScript 生成 HTML 内容的完整步骤，帮助您轻松实现动态页面渲染。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [遍历 NodeList（Java）– 读取 HTML 并获取图像 src](./iterate-nodelist-java-read-html-get-image-src/)
 学习如何在 Java 中遍历 NodeList，读取 HTML 内容并提取图像的 src 属性，适用于网页抓取和解析。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [在 Java 中遍历 NodeList – 完整指南](./iterate-over-nodelist-java-complete-guide/)
 本完整指南详细讲解如何在 Java 中使用 Aspose.HTML 遍历 NodeList，包括示例代码和最佳实践。
 ### [在 Java 中从 HTML 提取文本 – 完整分步指南](./extract-text-from-html-with-java-complete-step-by-step-guide/)
@@ -110,6 +93,6 @@ Aspose.HTML for Java 为开发人员提供了功能强大的工具包，旨在�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

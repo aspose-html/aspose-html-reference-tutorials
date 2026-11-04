@@ -8,7 +8,9 @@ url: /cs/java/creating-managing-html-documents/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Vytváření a správa HTML dokumentů v Aspose.HTML pro Java
@@ -43,7 +45,6 @@ Představte si, že potřebujete generovat obsah HTML za chodu na základě vstu
 
 ## Vytváření a správa HTML dokumentů v Aspose.HTML pro Java tutoriály
 
-
 ### [Vytvářejte dokumenty HTML asynchronně v Aspose.HTML pro Java](./create-html-documents-async/)
 Hlavní vytváření HTML dokumentů asynchronně s Aspose.HTML pro Java. Součástí je podrobný průvodce, tipy a často kladené otázky pro rychlé učení.
 ### [Spusťte asynchronní JavaScript v Javě – Kompletní průvodce krok za krokem](./execute-async-javascript-in-java-complete-step-by-step-guide/)
@@ -77,12 +78,6 @@ Naučte se načíst HTML, dotazovat jej a počítat elementy v Javě pomocí Asp
 ### [Jak převést šablonu na HTML pomocí Java šablonového enginu](./how-to-convert-template-to-html-with-a-java-template-engine/)
 ### [Jak svázat data s dynamickou HTML tabulkou se sloupci jména a příjmení](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Iterace NodeList v Javě – čtení HTML a získání src obrázku](./iterate-nodelist-java-read-html-get-image-src/)
 Naučte se, jak iterovat přes NodeList v Javě, číst HTML a získat atribut src obrázku pomocí Aspose.HTML.
 ### [Iterace přes NodeList v Javě – Kompletní průvodce](./iterate-over-nodelist-java-complete-guide/)
@@ -93,6 +88,6 @@ Kompletní návod, jak pomocí Aspose.HTML pro Java extrahovat text z HTML dokum
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /ru/java/creating-managing-html-documents/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Создание и управление HTML-документами в Aspose.HTML для Java
@@ -73,22 +75,17 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 ### [Как преобразовать шаблон в HTML с помощью Java‑шаблонизатора](./how-to-convert-template-to-html-with-a-java-template-engine/)
 ### [Как привязать данные к динамической HTML-таблице с колонками имени и фамилии](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Генерация HTML из JavaScript в Java — Полное пошаговое руководство](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Узнайте, как генерировать HTML из JavaScript в Java с помощью Aspose.HTML, следуя полному пошаговому руководству.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Итерация по NodeList в Java – Полное руководство](./iterate-over-nodelist-java-complete-guide/)
 Узнайте, как эффективно перебрать элементы NodeList в Java с помощью Aspose.HTML, шаг за шагом.
 ### [Извлечение текста из HTML с помощью Java – Полное пошаговое руководство](./extract-text-from-html-with-java-complete-step-by-step-guide/)
 Узнайте, как извлекать текст из HTML‑документов в Java с помощью Aspose.HTML, следуя подробному пошаговому руководству.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

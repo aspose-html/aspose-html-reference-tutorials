@@ -8,7 +8,9 @@ url: /ar/java/creating-managing-html-documents/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # إنشاء وإدارة مستندات HTML في Aspose.HTML لـ Java
@@ -43,7 +45,6 @@ url: /ar/java/creating-managing-html-documents/
 
 ## إنشاء وإدارة مستندات HTML في Aspose.HTML لـ Java - دروس تعليمية
 
-
 ### [إنشاء مستندات HTML بشكل غير متزامن في Aspose.HTML لـ Java](./create-html-documents-async/)
 إتقان إنشاء مستندات HTML بشكل غير متزامن باستخدام Aspose.HTML لـ Java. دليل خطوة بخطوة ونصائح وأسئلة شائعة متضمنة للتعلم السريع.
 ### [إنشاء مستندات HTML فارغة في Aspose.HTML لـ Java](./create-empty-html-documents/)
@@ -68,30 +69,12 @@ url: /ar/java/creating-managing-html-documents/
 تعلم كيفية إنشاء مستندات SVG وإدارتها باستخدام Aspose.HTML لـ Java! يغطي هذا الدليل الشامل كل شيء بدءًا من الإنشاء الأساسي وحتى المعالجة المتقدمة.
 ### [كيفية ربط البيانات بجدول HTML ديناميكي بأعمدة الاسم الأول والاسم الأخير](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [إنشاء HTML من JavaScript في Java – دليل شامل خطوة بخطوة](./generate-html-from-javascript-in-java-complete-step-by-step/)
 تعلم كيفية توليد مستندات HTML من كود JavaScript داخل تطبيق Java باستخدام دليل خطوة بخطوة شامل.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [تكرار NodeList في Java – قراءة HTML واستخراج مسار الصورة](./iterate-nodelist-java-read-html-get-image-src/)
 تعلم كيفية تكرار قائمة العقد (NodeList) في Java لقراءة ملفات HTML واستخراج مسار الصور بسهولة.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [التكرار على NodeList في Java – دليل كامل](./iterate-over-nodelist-java-complete-guide/)
 ### [استخراج النص من HTML باستخدام Java – دليل خطوة بخطوة كامل](./extract-text-from-html-with-java-complete-step-by-step-guide/)
 تعلم كيفية استخراج النص من مستندات HTML باستخدام Aspose.HTML for Java من خلال دليل شامل خطوة بخطوة.
@@ -99,6 +82,6 @@ url: /ar/java/creating-managing-html-documents/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

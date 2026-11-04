@@ -8,7 +8,9 @@ url: /th/java/creating-managing-html-documents/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การสร้างและการจัดการเอกสาร HTML ใน Aspose.HTML สำหรับ Java
@@ -42,7 +44,6 @@ Aspose.HTML สำหรับ Java นำเสนอชุดเครื่�
  ในที่สุดสำหรับผู้ที่ต้องการพัฒนาทักษะของตนเองให้ก้าวไกลยิ่งขึ้น มีหัวข้อขั้นสูงมากมายให้สำรวจ เรียนรู้วิธีการจัดการเอกสาร SVG หรือจัดการเหตุการณ์การโหลดเอกสารเพื่อสร้างแอปพลิเคชันเว็บที่ตอบสนองและไดนามิก บทช่วยสอนเหล่านี้จะพาคุณไปไกลกว่า HTML โดยเจาะลึกถึงความซับซ้อนของ Scalable Vector Graphics (SVG) และการเขียนโปรแกรมตามเหตุการณ์[อ่านเพิ่มเติม](./create-manage-svg-documents/)
 
 ## การสร้างและจัดการเอกสาร HTML ใน Aspose.HTML สำหรับบทช่วยสอน Java
-
 
 ### [สร้างเอกสาร HTML แบบอะซิงโครนัสใน Aspose.HTML สำหรับ Java](./create-html-documents-async/)
 เรียนรู้การสร้างเอกสาร HTML แบบอะซิงโครนัสด้วย Aspose.HTML สำหรับ Java พร้อมคำแนะนำทีละขั้นตอน เคล็ดลับ และคำถามที่พบบ่อยเพื่อการเรียนรู้ที่รวดเร็ว
@@ -79,20 +80,9 @@ Aspose.HTML สำหรับ Java นำเสนอชุดเครื่�
 ### [วิธีผูกข้อมูลกับตาราง HTML แบบไดนามิกที่มีคอลัมน์ชื่อและนามสกุล](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
 เรียนรู้วิธีผูกข้อมูลกับตาราง HTML แบบไดนามิกที่มีคอลัมน์ชื่อและนามสกุลใน Java ด้วย Aspose.HTML
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [วนซ้ำ NodeList ใน Java – อ่าน HTML และดึงค่า src ของรูปภาพ](./iterate-nodelist-java-read-html-get-image-src/)
 เรียนรู้วิธีวนซ้ำ NodeList ใน Java เพื่ออ่าน HTML และดึงค่า src ของรูปภาพด้วย Aspose.HTML
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [วนซ้ำ NodeList ใน Java – คู่มือฉบับสมบูรณ์](./iterate-over-nodelist-java-complete-guide/)
 เรียนรู้วิธีวนซ้ำ NodeList ใน Java ด้วย Aspose.HTML พร้อมคำแนะนำทีละขั้นตอนและเคล็ดลับที่สำคัญ
 ### [สกัดข้อความจาก HTML ด้วย Java – คู่มือขั้นตอนเต็ม](./extract-text-from-html-with-java-complete-step-by-step-guide/)
@@ -101,6 +91,6 @@ Aspose.HTML สำหรับ Java นำเสนอชุดเครื่�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

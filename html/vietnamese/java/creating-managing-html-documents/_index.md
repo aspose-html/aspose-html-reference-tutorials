@@ -8,7 +8,9 @@ url: /vi/java/creating-managing-html-documents/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo và quản lý tài liệu HTML trong Aspose.HTML cho Java
@@ -77,21 +79,9 @@ Tìm hiểu cách tải tài liệu HTML, truy vấn và đếm các phần tử
 Học cách thực thi JavaScript bất đồng bộ trong Java bằng Aspose.HTML với hướng dẫn chi tiết từng bước.
 ### [Cách liên kết dữ liệu tới bảng HTML động với các cột Họ và Tên trong Aspose.HTML cho Java](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Tạo HTML từ JavaScript trong Java – Hướng dẫn chi tiết từng bước](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Tìm hiểu cách tạo HTML từ JavaScript trong Java bằng Aspose.HTML với hướng dẫn chi tiết từng bước.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Lặp qua NodeList trong Java – Hướng dẫn đầy đủ](./iterate-over-nodelist-java-complete-guide/)
 Tìm hiểu cách lặp qua NodeList trong Java bằng Aspose.HTML với hướng dẫn chi tiết và ví dụ thực tế.
 ### [Trích xuất văn bản từ HTML bằng Java – Hướng dẫn đầy đủ từng bước](./extract-text-from-html-with-java-complete-step-by-step-guide/)
@@ -100,6 +90,6 @@ Học cách trích xuất nội dung văn bản từ tài liệu HTML trong Java
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

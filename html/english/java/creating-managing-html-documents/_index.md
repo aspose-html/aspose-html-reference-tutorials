@@ -8,7 +8,9 @@ url: /java/creating-managing-html-documents/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create and Manage HTML Documents with Aspose.HTML for Java API
@@ -109,11 +111,6 @@ Parse and analyze HTML structures.
 ### [Convert Template to HTML with a Java Template Engine]({{< relref "how-to-convert-template-to-html-with-a-java-template-engine" >}})
 Transform templates into HTML using Java engines.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Iterate NodeList Java – Read HTML & Get Image src]({{< relref "iterate-nodelist-java-read-html-get-image-src" >}})
 Extract image sources while iterating a NodeList.
 
@@ -123,4 +120,9 @@ Comprehensive guide to NodeList iteration.
 ### [Extract Text from HTML with Java – Complete Guide]({{< relref "extract-text-from-html-with-java-complete-step-by-step-guide" >}})
 Extract textual content from HTML documents.
 
-{{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

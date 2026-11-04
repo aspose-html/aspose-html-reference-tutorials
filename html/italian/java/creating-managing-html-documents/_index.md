@@ -8,7 +8,9 @@ url: /it/java/creating-managing-html-documents/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Creazione e gestione di documenti HTML in Aspose.HTML per Java
@@ -78,21 +80,9 @@ Scopri come eseguire JavaScript asincrono in Java usando Aspose.HTML. Guida pass
 ### [Come collegare dati a una tabella HTML dinamica con colonne nome e cognome](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
 Scopri come popolare una tabella HTML dinamica con dati di nome e cognome usando Aspose.HTML per Java.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Genera HTML da JavaScript in Java – Guida completa passo‑passo](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Scopri come generare HTML da codice JavaScript in Java usando Aspose.HTML per Java con questa guida dettagliata passo‑passo.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Iterare su NodeList Java – Guida completa](./iterate-over-nodelist-java-complete-guide/)
 Scopri come iterare su NodeList in Java con Aspose.HTML, passo dopo passo, con esempi pratici e consigli utili.
 ### [Estrai testo da HTML con Java – Guida completa passo‑a‑passo](./extract-text-from-html-with-java-complete-step-by-step-guide/)
@@ -101,6 +91,6 @@ Scopri come estrarre testo da documenti HTML in Java usando Aspose.HTML con ques
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

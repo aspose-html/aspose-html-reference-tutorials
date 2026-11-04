@@ -8,7 +8,9 @@ url: /id/java/creating-managing-html-documents/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Membuat dan Mengelola Dokumen HTML di Aspose.HTML untuk Java
@@ -43,7 +45,6 @@ Jika berbicara tentang pembuatan dokumen HTML baru, Aspose.HTML untuk Java menaw
 
 ## Membuat dan Mengelola Dokumen HTML di Aspose.HTML untuk Tutorial Java
 
-
 ### [Membuat Dokumen HTML Secara Asinkron di Aspose.HTML untuk Java](./create-html-documents-async/)
 Kuasai pembuatan dokumen HTML secara asinkron dengan Aspose.HTML untuk Java. Panduan langkah demi langkah, kiat, dan Tanya Jawab disertakan untuk pembelajaran cepat.
 ### [Buat Dokumen HTML Kosong di Aspose.HTML untuk Java](./create-empty-html-documents/)
@@ -73,29 +74,11 @@ Pelajari cara membuat sandbox HTML di Java dengan panduan langkah demi langkah u
 ### [Jalankan JavaScript Asinkron di Java – Panduan Lengkap Langkah‑per‑Langkah](./execute-async-javascript-in-java-complete-step-by-step-guide/)
 ### [Cara mengikat data ke tabel HTML dinamis dengan kolom nama depan dan belakang](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Hasilkan HTML dari JavaScript di Java – Panduan Lengkap Langkah demi Langkah](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Pelajari cara menghasilkan HTML dari JavaScript dalam aplikasi Java menggunakan Aspose.HTML dengan panduan langkah demi langkah lengkap.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Iterasi NodeList Java – Baca HTML & Dapatkan src Gambar](./iterate-nodelist-java-read-html-get-image-src/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Iterasi NodeList di Java – Panduan Lengkap](./iterate-over-nodelist-java-complete-guide/)
 Pelajari cara mengiterasi NodeList di Java dengan panduan lengkap, termasuk contoh kode dan teknik terbaik.
 ### [Ekstrak teks dari HTML dengan Java – Panduan Lengkap Langkah‑per‑Langkah](./extract-text-from-html-with-java-complete-step-by-step-guide/)
@@ -104,6 +87,6 @@ Pelajari cara mengekstrak teks dari dokumen HTML menggunakan Aspose.HTML untuk J
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

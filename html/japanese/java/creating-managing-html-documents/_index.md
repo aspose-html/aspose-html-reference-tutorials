@@ -8,7 +8,9 @@ url: /ja/java/creating-managing-html-documents/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.HTML for Java での HTML ドキュメントの作成と管理
@@ -42,7 +44,6 @@ HTML ドキュメントを非同期的に作成するのは複雑に聞こえる
 最後に、スキルをさらに向上させたいと考えている方には、高度なトピックが豊富に用意されています。SVG ドキュメントの管理方法やドキュメントの読み込みイベントの処理方法を学び、レスポンシブで動的な Web アプリケーションを作成します。これらのチュートリアルでは、HTML の枠を超え、Scalable Vector Graphics (SVG) とイベント駆動型プログラミングの複雑さについて詳しく説明します。[続きを読む](./create-manage-svg-documents/)
 
 ## Aspose.HTML for Java チュートリアルで HTML ドキュメントを作成および管理する
-
 
 ### [Aspose.HTML for Java で HTML ドキュメントを非同期的に作成する](./create-html-documents-async/)
 Aspose.HTML for Java を使用して、非同期で HTML ドキュメントを作成する方法を習得します。迅速な学習のために、ステップバイステップのガイド、ヒント、FAQ が含まれています。
@@ -78,20 +79,9 @@ Java のテンプレートエンジンを使用してテンプレートを HTML 
 ### [動的HTMLテーブルにデータをバインドする方法（姓と名の列）](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
 このチュートリアルでは、Java で動的な HTML テーブルに姓と名の列を持つデータをバインドする手順をステップバイステップで解説します。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [NodeList を反復処理 (Java) – HTML を読み取り画像 src を取得](./iterate-nodelist-java-read-html-get-image-src/)
 Java で NodeList を走査し、HTML から画像の src 属性を取得する方法を学びます。
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Java で NodeList を反復処理する – 完全ガイド](./iterate-over-nodelist-java-complete-guide/)
 Aspose.HTML for Java を使用して、NodeList を反復処理する方法をステップバイステップで学びます。
 ### [Java で HTML からテキストを抽出する – 完全ステップバイステップガイド](./extract-text-from-html-with-java-complete-step-by-step-guide/)
@@ -100,6 +90,6 @@ Aspose.HTML for Java を使用して、HTML からテキストを抽出する方
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

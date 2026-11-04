@@ -8,7 +8,9 @@ url: /sv/java/creating-managing-html-documents/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Skapa och hantera HTML-dokument i Aspose.HTML för Java
@@ -80,20 +82,15 @@ Lär dig hur du itererar över NodeList i Java med en komplett steg‑för‑ste
 ### [Hur du binder data till en dynamisk HTML-tabell med kolumner för för- och efternamn](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
 Lär dig att dynamiskt fylla en HTML-tabell med för- och efternamn från data i Java med Aspose.HTML.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Generera HTML från JavaScript i Java – Komplett steg‑för‑steg‑guide](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Lär dig hur du kör JavaScript för att generera HTML i Java med vår detaljerade steg‑för‑steg‑guide.
 
+### [Iterera NodeList i Java – Läs HTML och hämta bild‑src](./iterate-nodelist-java-read-html-get-image-src/)
+Lär dig hur du itererar en NodeList i Java för att läsa HTML och extrahera bild‑src‑attributen.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
-### [Iterera NodeList i Java – Läs HTML och hämta bild‑src](./iterate-nodelist-java-read-html-get-image-src/)
-Lär dig hur du itererar en NodeList i Java för att läsa HTML och extrahera bild‑src‑attributen.

@@ -8,7 +8,9 @@ url: /ko/java/creating-managing-html-documents/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java용 Aspose.HTML에서 HTML 문서 만들기 및 관리
@@ -77,21 +79,9 @@ Aspose.HTML for Java를 활용해 Java에서 비동기 JavaScript를 실행하�
 Aspose.HTML for Java를 사용하여 Java 템플릿 엔진을 활용해 템플릿을 HTML로 변환하는 방법을 단계별로 안내합니다.
 ### [동적 HTML 테이블에 이름 및 성 열 바인딩하기](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Java에서 JavaScript로 HTML 생성 – 완전 단계별 가이드](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Aspose.HTML for Java를 사용하여 Java에서 JavaScript를 실행하고 HTML을 생성하는 방법을 단계별로 안내합니다.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Java에서 NodeList 반복 – 완전 가이드](./iterate-over-nodelist-java-complete-guide/)
 Aspose.HTML for Java를 사용하여 NodeList를 반복하는 방법을 단계별로 안내합니다. 완전 가이드로 효율적인 HTML 조작을 배우세요.
 ### [Java용 Aspose.HTML에서 HTML 텍스트 추출 – 완전 단계별 가이드](./extract-text-from-html-with-java-complete-step-by-step-guide/)
@@ -100,6 +90,6 @@ Aspose.HTML for Java를 사용하여 HTML 문서에서 텍스트를 추출하는
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
