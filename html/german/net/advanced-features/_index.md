@@ -51,6 +51,27 @@ Erfahren Sie, wie Sie mit Aspose.HTML Schriftarten in C# kombinieren, um benutze
 ### [Assembly-Version in C# abrufen – Schnellleitfaden zum Ermitteln der Bibliotheksversion](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
 Erfahren Sie, wie Sie in C# die Versionsnummer einer Assembly ermitteln und in Ihren Projekten verwenden.
 
+### [Benutzerdefinierter Ressourcen-Handler in Aspose HTML – Leitfaden zum Speichern in Stream](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML benutzerdefinierte Ressourcen-Handler implementieren und HTML-Inhalte direkt in Streams speichern.
+
+### [HTML mit Aspose HTML zippen – Vollständige Anleitung](./how-to-zip-html-with-aspose-html-complete-guide/)
+Erfahren Sie, wie Sie HTML-Dateien mit Aspose HTML komprimieren und zippen – Schritt‑für‑Schritt‑Anleitung für .NET‑Entwickler.
+### [Dokument als PDF in C# speichern – Vollständige Anleitung mit ZIP‑Unterstützung](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
+Erfahren Sie, wie Sie mit Aspose.HTML Dokumente in C# als PDF speichern und dabei ZIP‑Kompression für mehrere Dateien nutzen.
+
+### [Clear Type aktivieren – Glättungsmodus in .NET aktivieren](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
+Erfahren Sie, wie Sie Clear Type aktivieren und den Glättungsmodus in .NET mit Aspose.HTML konfigurieren, um scharfe Textdarstellung zu erzielen.
+
+### [Word-Dokument in PDF konvertieren – Klartext‑Leitfaden (C#)](./convert-word-document-to-pdf-clear-text-guide-c/)
+Erfahren Sie, wie Sie mit Aspose.HTML ein Word‑Dokument in ein PDF‑Datei konvertieren und dabei den Klartext erhalten.
+
+### [HTML in ZIP speichern mit C# – ZIP-Archiv mit Aspose erstellen](./save-html-to-zip-with-c-create-zip-archive-c-using-aspose/)
+Erfahren Sie, wie Sie mit Aspose.HTML HTML in ein ZIP-Archiv komprimieren und in C# speichern.
+### [Erstellen Sie fette und kursive Schrift in C# – Schritt‑für‑Schritt‑Anleitung](./create-bold-italic-font-in-c-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML fette und kursive Schriftarten in C# programmieren – kompakte Anleitung mit Beispielen.
+
+### [HTML als ZIP speichern mit einem benutzerdefinierten Ressourcen-Handler in C#](./save-html-as-zip-with-a-custom-resource-handler-in-c/)
+
 ## Abschluss
 
 Aspose.HTML für .NET öffnet Ihnen die Tür zu einer Welt voller Möglichkeiten, wenn es um die Arbeit mit HTML-Dokumenten in Ihren .NET-Anwendungen geht. Diese Tutorials zu erweiterten Funktionen vermitteln Ihnen das Wissen und die Fähigkeiten, die Sie benötigen, um das volle Potenzial von Aspose.HTML auszuschöpfen. Verbessern Sie Ihre Entwicklungsprojekte, sparen Sie Zeit und erstellen Sie bemerkenswerte Lösungen mit Aspose.HTML für .NET. Beginnen Sie noch heute mit unseren Tutorials und bringen Sie Ihre Webentwicklung auf die nächste Stufe.

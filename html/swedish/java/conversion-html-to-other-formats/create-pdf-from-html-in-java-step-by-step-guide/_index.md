@@ -22,7 +22,6 @@ title: Skapa PDF från HTML i Java – Steg‑för‑steg guide
 url: /sv/java/conversion-html-to-other-formats/create-pdf-from-html-in-java-step-by-step-guide/
 ---
 
-Swedish text.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

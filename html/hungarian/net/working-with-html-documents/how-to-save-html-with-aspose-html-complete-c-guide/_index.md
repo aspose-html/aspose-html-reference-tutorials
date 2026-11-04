@@ -24,17 +24,12 @@ title: HTML mentése Aspose.Html segítségével – Teljes C# útmutató
 url: /hu/net/working-with-html-documents/how-to-save-html-with-aspose-html-complete-c-guide/
 ---
 
-heading.
 
-Proceed.
 
-Now paragraphs.
 
-We'll translate.
 
-Be careful not to translate code identifiers, URLs, etc.
 
-Let's produce final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

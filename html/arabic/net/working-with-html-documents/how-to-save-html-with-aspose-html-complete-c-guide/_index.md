@@ -23,25 +23,15 @@ title: كيفية حفظ HTML باستخدام Aspose.Html – دليل C# ال�
 url: /ar/net/working-with-html-documents/how-to-save-html-with-aspose-html-complete-c-guide/
 ---
 
-questions.
 
-- The "Conclusion" heading.
 
-- The final call to action.
 
-- The image alt text and title.
 
-Make sure to keep code block placeholders unchanged.
 
-Also keep markdown formatting.
 
-Let's translate.
 
-Arabic direction: Use RTL but markdown is fine.
 
-We'll translate naturally.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
