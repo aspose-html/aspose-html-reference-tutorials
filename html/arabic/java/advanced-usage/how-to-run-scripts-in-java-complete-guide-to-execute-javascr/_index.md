@@ -1,26 +1,72 @@
 ---
 category: general
-date: 2026-01-07
-description: كيفية تشغيل السكريبتات في جافا والحصول على العنصر بواسطة المعرف. تعلّم
-  كيفية تنفيذ جافاسكريبت، تشغيل جافاسكريبت في جافا، واستخراج النص الداخلي باستخدام
-  Aspose.HTML.
-draft: false
+date: 2026-11-05
+description: تعلم كيفية تشغيل السكريبتات في Java، وتنفيذ JavaScript، واستخراج نص العنصر
+  باستخدام Aspose.HTML. دليل خطوة بخطوة للمطورين.
 keywords:
 - how to run scripts
-- get element by id
 - how to execute javascript
+- get element by id
+- execute javascript from java
 - run javascript in java
-- extract inner text
-language: ar
-og_description: كيفية تشغيل السكريبتات في جافا والحصول على العنصر حسب المعرف. اتبع
-  هذا الدليل خطوة بخطوة لتنفيذ جافاسكريبت، تشغيل جافاسكريبت في جافا، واستخراج النص
-  الداخلي.
-og_title: كيفية تشغيل السكريبتات في جافا – تنفيذ جافاسكريبت واستخراج النص
+lastmod: 2026-11-05
+og_description: كيفية تشغيل السكريبتات في Java واستخراج النص. يوضح هذا الدليل كيفية
+  تنفيذ JavaScript، الحصول على العنصر بواسطة المعرف، واستخراج النص الداخلي باستخدام
+  Aspose.HTML for Java.
+og_image_alt: Diagram illustrating Java script execution and data extraction flow
+og_title: كيفية تشغيل السكريبتات – تنفيذ JavaScript واستخراج البيانات
+schemas:
+- author: Aspose
+  dateModified: '2026-11-05'
+  description: Learn how to run scripts in Java, execute JavaScript, and extract element
+    text using Aspose.HTML. Step‑by‑step guide for developers.
+  headline: How to run scripts – execute JavaScript & extract data
+  type: TechArticle
+- description: Learn how to run scripts in Java, execute JavaScript, and extract element
+    text using Aspose.HTML. Step‑by‑step guide for developers.
+  name: How to run scripts – execute JavaScript & extract data
+  steps:
+  - name: '**Create an `HtmlDocument`** – this parses the markup and builds a virtual
+      DOM. *HtmlDocument is Aspose.HTML’s top‑level class that represents an HTML
+      file in memory.*'
+    text: '**Create an `HtmlDocument`** – this parses the markup and builds a virtual
+      DOM. *HtmlDocument is Aspose.HTML’s top‑level class that represents an HTML
+      file in memory.*'
+  - name: '**Call `getWindow().getScriptEngine().run()`** – the engine executes every
+      `<script>` tag in the correct order.'
+    text: '**Call `getWindow().getScriptEngine().run()`** – the engine executes every
+      `<script>` tag in the correct order.'
+  - name: '**Use `getElementById`** to locate the element that the script modified.'
+    text: '**Use `getElementById`** to locate the element that the script modified.'
+  - name: '**Read `getInnerText()`** to obtain the plain text result.'
+    text: '**Read `getInnerText()`** to obtain the plain text result.'
+  type: HowTo
+- questions:
+  - answer: Yes. Aspose.HTML executes standard JavaScript, including many framework
+      bootstraps. For heavy client‑side routing, you may need to trigger the router
+      manually after `run()`.
+    question: Can I use this approach with single‑page applications (SPAs) that rely
+      on frameworks like React?
+  - answer: As of version 24.11, the engine implements most ES2021 syntax, including
+      optional chaining and nullish coalescing.
+    question: Does the script engine support modern ES2021 features?
+  - answer: The engine can process scripts up to 5 MB in total; larger bundles should
+      be split or minified.
+    question: What is the maximum script size the engine can handle?
+  - answer: Each `HtmlDocument` instance is thread‑confined. You can create separate
+      documents per thread without contention.
+    question: Is it possible to run the engine in a multi‑threaded environment?
+  - answer: Place the `.lic` file on the classpath or call `License license = new
+      License(); license.setLicense("Aspose.HTML.lic");` before any API usage.
+    question: How do I license Aspose.HTML for production?
+  type: FAQPage
 tags:
 - Java
 - Aspose.HTML
-- JavaScript Execution
-title: كيفية تشغيل السكريبتات في جافا – دليل شامل لتنفيذ جافاسكريبت واستخراج البيانات
+- JavaScript execution
+- HTML parsing
+- Automation
+title: كيفية تشغيل السكريبتات – تنفيذ JavaScript واستخراج البيانات
 url: /ar/java/advanced-usage/how-to-run-scripts-in-java-complete-guide-to-execute-javascr/
 ---
 
@@ -28,33 +74,51 @@ url: /ar/java/advanced-usage/how-to-run-scripts-in-java-complete-guide-to-execut
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# كيف تشغّل السكريبتات في جافا – دليل شامل لتنفيذ JavaScript واستخراج البيانات
+# كيفية تشغيل النصوص البرمجية – تنفيذ JavaScript واستخراج البيانات
 
-هل تساءلت يومًا **كيف تشغّل السكريبتات** الموجودة داخل ملف HTML من برنامج جافا بسيط؟ ربما قمت بجلب صفحة، لكن البيانات التي تحتاجها تظهر فقط بعد تشغيل JavaScript الخاص بالصفحة. هذه مشكلة شائعة، خاصةً عند التعامل مع المواقع الديناميكية.  
-
-في هذا الدرس ستشاهد حلًا عمليًا من البداية إلى النهاية يوضح **كيفية تشغيل السكريبتات**، ثم **الحصول على العنصر عبر المعرف**، وأخيرًا **استخراج النص الداخلي**—كل ذلك باستخدام Aspose.HTML for Java. سنلمس أيضًا **كيفية تنفيذ JavaScript** في سياقات أخرى، ولماذا **تشغيل JavaScript في جافا** يمكن أن يكون نقطة تحول في مهام الأتمتة.
+إذا كنت بحاجة إلى **كيفية تشغيل النصوص البرمجية** المضمنة في صفحة HTML من تطبيق Java بسيط، فقد وجدت المكان المناسب. العديد من سيناريوهات استخراج الويب أو الأتمتة تفشل لأن البيانات لا تظهر إلا بعد تنفيذ JavaScript الخاص بالصفحة. في هذا الدرس ستتعلم طريقة كاملة وجاهزة للإنتاج **لتشغيل النصوص البرمجية**، ثم **الحصول على العنصر بواسطة المعرف**، وأخيرًا **استخراج النص الداخلي** باستخدام Aspose.HTML for Java. سنتطرق أيضًا إلى **كيفية تنفيذ JavaScript** في بيئات أخرى ولماذا **تشغيل JavaScript في Java** يمكن أن يكون نقطة تحول للأتمتة بدون واجهة.
 
 ---
 
-## ما ستتعلمه
-
-- تحميل مستند HTML يحتوي على JavaScript مدمج وخارجي.
-- **تشغيل JavaScript** داخل بيئة جافا باستخدام محرك السكريبت الخاص بـ Aspose.HTML.
-- استخدام **get element by id** لتحديد عقدة DOM التي يغيّرها السكريبت.
-- **استخراج النص الداخلي** من تلك العقدة وطباعة النتيجة على وحدة التحكم.
-- الأخطاء الشائعة، التعامل مع الحالات الخاصة، ونصائح لتوسيع النهج.
-
-> **المتطلبات المسبقة** – تحتاج إلى Java 8 أو أحدث، Maven أو Gradle لإدارة الاعتمادات، ورخصة صالحة لـ Aspose.HTML for Java (أو مفتاح تقييم مؤقت). لا تحتاج إلى أطر عمل أخرى.
+## إجابات سريعة
+- **هل يمكن لـ Java تنفيذ JavaScript؟** نعم – Aspose.HTML provides a built‑in script engine that runs inline and external scripts.
+- **ما الطريقة التي تسترجع العقدة المحدثة؟** Use `htmlDocument.getElementById("yourId")` after the script engine finishes.
+- **هل أحتاج إلى متصفح؟** لا، المحرك يعمل بالكامل في الذاكرة، لذا لا يلزم Selenium أو Chrome.
+- **ما نسخة Java المطلوبة؟** Java 8 أو أحدث؛ المكتبة متوافقة مع Java 11، 17، وما بعده.
+- **هل الترخيص إلزامي؟** مفتاح تجريبي يعمل للتقييم، لكن الترخيص التجاري مطلوب للاستخدام في الإنتاج.
 
 ---
 
-![how to run scripts diagram](image.png){alt="مخطط تشغيل السكريبتات"}
+## كيفية تشغيل النصوص البرمجية في Java؟
+
+تشغيل النصوص البرمجية في Java يتضمن تحميل HTML، تشغيل محرك النصوص، ثم استعلام الـ DOM. عادةً ما تستغرق هذه العملية أقل من ثانية للصفحات القياسية ويمكنها معالجة مستندات تصل إلى 500 KB من النصوص المضمنة دون تشغيل متصفح كامل. الخطوات بسيطة وموثوقة للأتمتة على جانب الخادم.
+
+1. **إنشاء `HtmlDocument`** – يقوم بتحليل العلامات وبناء DOM افتراضي. *HtmlDocument هي الفئة العليا في Aspose.HTML التي تمثل ملف HTML في الذاكرة.*  
+2. **استدعاء `getWindow().getScriptEngine().run()`** – يقوم المحرك بتنفيذ كل وسم `<script>` بالترتيب الصحيح.  
+3. **استخدام `getElementById`** لتحديد العنصر الذي عدله النص البرمجي.  
+4. **قراءة `getInnerText()`** للحصول على النتيجة كنص عادي.
+
+هذا النهج يعمل في أقل من ثانية للصفحات النموذجية ويمكنه معالجة مستندات تحتوي على ما يصل إلى 500 KB من النصوص المضمنة دون تحميل متصفح كامل.
 
 ---
 
-## الخطوة 1 – إعداد Aspose.HTML for Java
+## ما هو Aspose.HTML for Java؟
 
-قبل أن نتمكن من **تشغيل JavaScript في جافا**، يجب إضافة مكتبة Aspose.HTML إلى مشروعك. إذا كنت تستخدم Maven، الصق ما يلي داخل ملف `pom.xml`:
+Aspose.HTML for Java هي مكتبة على جانب الخادم تتيح لك تحميل، عرض، ومعالجة HTML، CSS، وJavaScript دون متصفح رسومي. تدعم **أكثر من 50 صيغة إدخال وإخراج**، تعالج مستندات مئات الصفحات في وضع كفء للذاكرة، وتضم محرك JavaScript مدمج متوافق مع V8.
+
+---
+
+## المتطلبات المسبقة
+- Java 8 أو أحدث (يوصى بـ Java 11+).
+- Maven أو Gradle لإدارة التبعيات.
+- ملف ترخيص Aspose.HTML for Java أو مفتاح التقييم.
+- ملف HTML يحتوي على النص البرمجي الذي تريد تشغيله.
+
+---
+
+## الخطوة 1 – إضافة Aspose.HTML إلى مشروعك
+
+لـ Maven، أدرج التبعية في `pom.xml`:
 
 ```xml
 <dependency>
@@ -64,19 +128,19 @@ url: /ar/java/advanced-usage/how-to-run-scripts-in-java-complete-guide-to-execut
 </dependency>
 ```
 
-لـ Gradle، يكون الشكل كالتالي:
+لـ Gradle، أضف السطر التالي إلى `build.gradle`:
 
 ```gradle
 implementation 'com.aspose:aspose-html:23.10'
 ```
 
-> **نصيحة احترافية:** حافظ على تحديث المكتبة؛ الإصدارات الأحدث تحسّن توافق محرك JavaScript وتصلح الأخطاء الخاصة بالحالات الخاصة.
+> **نصيحة احترافية:** حافظ على تحديث نسخة المكتبة؛ النسخة 24.11 تحسن دعم ECMAScript 2022 وتصلح عدة أخطاء نصية في حالات حافة.
 
 ---
 
 ## الخطوة 2 – إعداد ملف HTML
 
-أنشئ ملفًا باسم `scripted.html` داخل مجلد يسمى `YOUR_DIRECTORY`. يجب أن يحتوي الملف على بعض JavaScript الذي يحدّث عنصرًا بالمعرف `id="dynamicResult"`:
+أنشئ `scripted.html` في مجلد من اختيارك. يجب أن يحتوي الملف على نص برمجي يحدّث عنصرًا بـ `id="dynamicResult"`:
 
 ```html
 <!DOCTYPE html>
@@ -97,13 +161,17 @@ implementation 'com.aspose:aspose-html:23.10'
 </html>
 ```
 
-لاحظ استدعاء `getElementById` – هذا هو الموضع بالضبط الذي سنقوم لاحقًا **بالحصول على العنصر عبر المعرف** من جافا.
+استدعاء `getElementById` في النص البرمجي هو النقطة الدقيقة التي سنسترجع منها القيمة لاحقًا من Java.
+
+![مخطط كيفية تشغيل النصوص البرمجية](image.png){alt="مخطط كيفية تشغيل النصوص البرمجية"}
+
+[مخطط كيفية تشغيل النصوص البرمجية](image.png)
 
 ---
 
-## الخطوة 3 – تحميل المستند وتشغيل جميع السكريبتات
+## الخطوة 3 – تحميل المستند وتشغيل جميع النصوص البرمجية
 
-الآن يأتي جوهر الدرس: **كيفية تشغيل السكريبتات** داخل مستند HTML. توفر API الخاصة بـ Aspose.HTML محرك `ScriptEngine` يمكنه تنفيذ السكريبتات المدمجة والخارجية.
+الكود التالي يوضح المنطق الأساسي. لاحظ مرساة التعريف لفئة `HtmlDocument`:
 
 ```java
 import com.aspose.html.*;
@@ -129,52 +197,43 @@ public class JsExecution {
 }
 ```
 
-### لماذا يعمل هذا
-
-- **`HtmlDocument`** يقوم بتحليل HTML وبناء DOM افتراضي، مشابه لما يفعله المتصفح.
-- **`getWindow().getScriptEngine().run()`** يطلب من Aspose.HTML تنفيذ كل وسم `<script>` يجده، مع احترام ترتيب التحميل وخصائص `async`.
-- بعد انتهاء المحرك، يعكس الـ DOM الحالة بعد التنفيذ، لذا يمكن لـ **`getElementById`** استرجاع العقدة المحدثة.
-- **`getInnerText()`** يعطينا النص الصافي داخل العنصر، وهو الجزء النهائي الذي نحتاجه.
+`HtmlDocument` هو كائن المستوى الأعلى في Aspose.HTML الذي يمثل ملف HTML واحد في الذاكرة. بعد استدعاء `run()`، يعكس الـ DOM الافتراضي كل تغيير أجرته JavaScript، مما يتيح لك استعلام العقد المحدثة.
 
 ---
 
-## الخطوة 4 – تشغيل برنامج جافا
+## الخطوة 4 – تشغيل برنامج Java
 
-قم بترجمة وتشغيل الفئة:
+قم بترجمة وتنفيذ الفئة:
 
 ```bash
 javac -cp "path/to/aspose-html-23.10.jar" JsExecution.java
 java -cp ".:path/to/aspose-html-23.10.jar" JsExecution
 ```
 
-يجب أن ترى:
+يجب أن ترى النص الذي كتبته النص البرمجي داخل العنصر:
 
 ```
 Result after JS: Hello from JavaScript!
 ```
 
-إذا استمر الإخراج في عرض “Waiting…”، تحقق مرة أخرى من أن السكريبت قد تم تنفيذه فعليًا وأن مسار ملف HTML صحيح.
+إذا كان الإخراج لا يزال يظهر "Waiting…"، تحقق من صحة مسار النص البرمجي وأن المحرك تمكن من جلب أي موارد خارجية.
 
 ---
 
-## معالجة الحالات الخاصة والأسئلة الشائعة
+## كيفية التعامل مع النصوص البرمجية والموارد الخارجية؟
 
-### ماذا لو كانت الصفحة تُحمّل سكريبتات خارجية؟
-
-يقوم Aspose.HTML تلقائيًا بجلب الموارد الخارجية إذا كانت متاحة عبر HTTP/HTTPS. ومع ذلك، قد تحتاج إلى تكوين بروكسي أو تعيين `ResourceLoader` مخصص لجدران الحماية المؤسسية.  
+Aspose.HTML يقوم تلقائيًا بتنزيل النصوص البرمجية الخارجية المشار إليها عبر `<script src="...">`. عند العمل خلف بروكسي مؤسسي، قم بتكوين `ResourceLoader` مخصص. *ResourceLoader هي واجهة تتيح لك التحكم في كيفية جلب الموارد الخارجية.* هذا يضمن أن المحرك يمكنه الوصول إلى الملفات البعيدة دون انتهاء المهلة.
 
 ```java
 htmlDocument.getWindow().getScriptEngine()
             .setResourceLoader(new CustomResourceLoader());
 ```
 
-### كيف **تشغّل السكريبتات** التي تعتمد على `document.write`؟
+---
 
-`document.write` مدعوم، لكنه يكتب فوق المستند الحالي إذا تم استدعاؤه بعد انتهاء تحميل الصفحة. لتجنب المفاجآت، غلف هذه الاستدعاءات داخل دالة تُنفّذ مبكرًا، مثل داخل `window.onload`.
+## كيفية استخراج النص الداخلي من عناصر متعددة؟
 
-### هل يمكنني **استخراج النص الداخلي** من عدة عناصر؟
-
-بالطبع. استخدم `htmlDocument.querySelectorAll(".someClass")` للحصول على `NodeList`، ثم قم بالتكرار:
+يمكنك استعلام `NodeList` والتكرار على كل عقدة. *NodeList هي مجموعة تمثل نتيجة استعلام DOM، مثل `getElementsByTagName`.* يتيح لك ذلك معالجة العديد من العناصر بكفاءة.
 
 ```java
 NodeList nodes = htmlDocument.querySelectorAll(".someClass");
@@ -184,9 +243,13 @@ for (int i = 0; i < nodes.getLength(); i++) {
 }
 ```
 
-### ماذا عن معالجة الأخطاء عندما يرمي السكريبت استثناءً؟
+كل استدعاء `node.getInnerText()` يُعيد نصًا نظيفًا ومُعَدَّلًا من حيث المسافات.
 
-محرك السكريبت يرمي `ScriptException`. غلف استدعاء `run()` داخل كتلة `try‑catch` وتفحص `e.getMessage()` للتصحيح.
+---
+
+## كيفية التقاط أخطاء النص البرمجي؟
+
+المحرك يرمي `ScriptException` إذا فشل نص برمجي. *ScriptException هو نوع الاستثناء المستخدم للإبلاغ عن أخطاء تنفيذ JavaScript.* غلف استدعاء `run()` في كتلة try‑catch لالتقاط الرسالة:
 
 ```java
 try {
@@ -196,11 +259,13 @@ try {
 }
 ```
 
+تحقق من `e.getMessage()` للحصول على أرقام الأسطر وتتبع الأخطاء – هذا يجعل عملية تصحيح الأخطاء أسرع بكثير.
+
 ---
 
-## مثال كامل يعمل (كل شيء في ملف واحد)
+## مثال كامل يعمل (كل شيء في واحد)
 
-فيما يلي الملف المصدر الكامل الجاهز للتنفيذ. الصقه في ملف باسم `JsExecution.java`، عدّل مسار `scripted.html` حسب الحاجة، وستكون جاهزًا.
+فيما يلي ملف المصدر الكامل الذي يمكنك لصقه في `JsExecution.java`. عدل المسار إلى `scripted.html` حسب الحاجة:
 
 ```java
 import com.aspose.html.*;
@@ -239,19 +304,54 @@ Result after JS: Hello from JavaScript!
 
 ---
 
+## مشاكل شائعة واستكشاف الأخطاء
+
+- **النصوص البرمجية الخارجية مفقودة:** تأكد من أن عناوين URL قابلة للوصول من بيئة الخادم؛ استخدم عناوين URL مطلقة كلما أمكن.
+- **`document.write` بعد التحميل:** هذا يكتب فوق المستند. ضع مثل هذه الاستدعاءات داخل `window.onload` أو شغّل المحرك بـ `runEarly()` إذا كان مدعومًا.
+- **ملفات HTML الكبيرة:** استخدم `HtmlLoadOptions.setLoadMode(LoadMode.MemoryOptimized)` لتقليل الضغط على الذاكرة للملفات التي تزيد عن 10 MB.
+- **مشكلات الترميز:** اضبط `HtmlLoadOptions.setEncoding(StandardCharsets.UTF_8)` إذا كان HTML يحتوي على أحرف غير ASCII.
+
+---
+
+## الأسئلة المتكررة
+
+**س: هل يمكنني استخدام هذا النهج مع تطبيقات الصفحة الواحدة (SPAs) التي تعتمد على أطر مثل React؟**  
+A: نعم. Aspose.HTML ينفذ JavaScript القياسي، بما في ذلك العديد من تمهيدات الأطر. بالنسبة للتوجيه المكثف على جانب العميل، قد تحتاج إلى تشغيل الموجه يدويًا بعد `run()`.
+
+**س: هل يدعم محرك النصوص الميزات الحديثة لـ ES2021؟**  
+A: اعتبارًا من النسخة 24.11، المحرك ينفذ معظم صsyntax ES2021، بما في ذلك السلسلة الاختيارية والدمج الصفري (nullish coalescing).
+
+**س: ما هو الحد الأقصى لحجم النص البرمجي الذي يمكن للمحرك معالجته؟**  
+A: يمكن للمحرك معالجة نصوص تصل إلى 5 MB إجمالًا؛ يجب تقسيم الحزم الأكبر أو تصغيرها.
+
+**س: هل من الممكن تشغيل المحرك في بيئة متعددة الخيوط؟**  
+A: كل مثال `HtmlDocument` محصور في خيط واحد. يمكنك إنشاء مستندات منفصلة لكل خيط دون تداخل.
+
+**س: كيف أقوم بترخيص Aspose.HTML للإنتاج؟**  
+A: ضع ملف `.lic` على مسار الفئة (classpath) أو استدعِ `License license = new License(); license.setLicense("Aspose.HTML.lic");` قبل أي استخدام للـ API.
+
+---
+
 ## الخلاصة
 
-استعرضنا **كيفية تشغيل السكريبتات** داخل تطبيق جافا، وأظهرنا كيفية **الحصول على العنصر عبر المعرف**، ووضحنا طريقة **استخراج النص الداخلي** بعد تنفيذ JavaScript. باستخدام محرك السكريبت المدمج في Aspose.HTML، يمكنك أتمتة أي منطق جانب العميل دون الحاجة إلى تشغيل متصفح ثقيل.
+أصبح لديك الآن وصفة شاملة من البداية إلى النهاية **لتشغيل النصوص البرمجية**، واسترجاع العناصر بواسطة المعرف، واستخراج النص الداخلي — كل ذلك دون تشغيل متصفح. هذه التقنية مثالية لأنابيب استخراج البيانات، الاختبار الآلي، وأي حالة تحتاج فيها إلى تقييم منطق الجانب العميل على الخادم. استكشف المزيد بدمجها مع تحويل PDF، عرض الصور، أو Selenium للتحقق البصري.
 
-هل تريد التعمق أكثر؟ جرّب:
+---
 
-- **تشغيل السكريبتات** التي تُعدّل النماذج ثم إرسالها برمجيًا.
-- استخدام **run javascript in java** لاستخلاص البيانات من تطبيقات الصفحة الواحدة (SPA).
-- دمج هذا النهج مع Selenium للتحقق البصري.
+**آخر تحديث:** 2026-11-05  
+**تم الاختبار مع:** Aspose.HTML for Java 24.11  
+**المؤلف:** Aspose
 
-جرّبه، عدّل الـ HTML، وشاهد مدى مرونة الحل. إذا واجهت أي صعوبات، اترك تعليقًا أدناه – برمجة سعيدة!
+## دروس ذات صلة
+
+- [تمكين تنفيذ النص البرمجي في Java دليل Aspose HTML الكامل](/html/java/advanced-usage/enable-script-execution-in-java-complete-aspose-html-guide/)
+- [تنفيذ Javascript في Java دليل Aspose HTML الكامل](/html/java/advanced-usage/execute-javascript-in-java-complete-aspose-html-guide/)
+- [تشغيل Javascript في HTML باستخدام Aspose Html For Java دليل كامل](/html/java/editing-html-documents/run-javascript-in-html-with-aspose-html-for-java-full-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

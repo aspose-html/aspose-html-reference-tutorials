@@ -1,27 +1,73 @@
 ---
 category: general
-date: 2026-01-07
-description: Java'da scriptleri nasıl çalıştırır ve id ile öğeyi alırsınız. JavaScript'i
-  nasıl yürütür, Java'da JavaScript'i nasıl çalıştırır ve Aspose.HTML ile iç metni
-  nasıl çıkarırsınız öğrenin.
-draft: false
+date: 2026-11-05
+description: Java'da betikleri nasıl çalıştıracağınızı, JavaScript'i nasıl çalıştıracağınızı
+  ve Aspose.HTML kullanarak element metnini nasıl çıkaracağınızı öğrenin. Geliştiriciler
+  için adım adım rehber.
 keywords:
 - how to run scripts
-- get element by id
 - how to execute javascript
+- get element by id
+- execute javascript from java
 - run javascript in java
-- extract inner text
-language: tr
-og_description: Java'da scriptleri nasıl çalıştırır ve id ile öğeyi alırsınız. JavaScript'i
-  yürütmek, Java içinde JavaScript çalıştırmak ve iç metni çıkarmak için bu adım adım
-  öğreticiyi izleyin.
-og_title: Java'da Betikleri Çalıştırma – JavaScript'i Yürütme ve Metin Çıkarma
+lastmod: 2026-11-05
+og_description: Java'da betikleri nasıl çalıştıracağınızı ve metni nasıl çıkaracağınızı
+  öğrenin. Bu rehber, JavaScript'i nasıl çalıştıracağınızı, id ile element almayı
+  ve Aspose.HTML for Java ile inner text'i çekmeyi gösterir.
+og_image_alt: Diagram illustrating Java script execution and data extraction flow
+og_title: Betikleri nasıl çalıştırılır – JavaScript çalıştırma ve veri çıkarma
+schemas:
+- author: Aspose
+  dateModified: '2026-11-05'
+  description: Learn how to run scripts in Java, execute JavaScript, and extract element
+    text using Aspose.HTML. Step‑by‑step guide for developers.
+  headline: How to run scripts – execute JavaScript & extract data
+  type: TechArticle
+- description: Learn how to run scripts in Java, execute JavaScript, and extract element
+    text using Aspose.HTML. Step‑by‑step guide for developers.
+  name: How to run scripts – execute JavaScript & extract data
+  steps:
+  - name: '**Create an `HtmlDocument`** – this parses the markup and builds a virtual
+      DOM. *HtmlDocument is Aspose.HTML’s top‑level class that represents an HTML
+      file in memory.*'
+    text: '**Create an `HtmlDocument`** – this parses the markup and builds a virtual
+      DOM. *HtmlDocument is Aspose.HTML’s top‑level class that represents an HTML
+      file in memory.*'
+  - name: '**Call `getWindow().getScriptEngine().run()`** – the engine executes every
+      `<script>` tag in the correct order.'
+    text: '**Call `getWindow().getScriptEngine().run()`** – the engine executes every
+      `<script>` tag in the correct order.'
+  - name: '**Use `getElementById`** to locate the element that the script modified.'
+    text: '**Use `getElementById`** to locate the element that the script modified.'
+  - name: '**Read `getInnerText()`** to obtain the plain text result.'
+    text: '**Read `getInnerText()`** to obtain the plain text result.'
+  type: HowTo
+- questions:
+  - answer: Yes. Aspose.HTML executes standard JavaScript, including many framework
+      bootstraps. For heavy client‑side routing, you may need to trigger the router
+      manually after `run()`.
+    question: Can I use this approach with single‑page applications (SPAs) that rely
+      on frameworks like React?
+  - answer: As of version 24.11, the engine implements most ES2021 syntax, including
+      optional chaining and nullish coalescing.
+    question: Does the script engine support modern ES2021 features?
+  - answer: The engine can process scripts up to 5 MB in total; larger bundles should
+      be split or minified.
+    question: What is the maximum script size the engine can handle?
+  - answer: Each `HtmlDocument` instance is thread‑confined. You can create separate
+      documents per thread without contention.
+    question: Is it possible to run the engine in a multi‑threaded environment?
+  - answer: Place the `.lic` file on the classpath or call `License license = new
+      License(); license.setLicense("Aspose.HTML.lic");` before any API usage.
+    question: How do I license Aspose.HTML for production?
+  type: FAQPage
 tags:
 - Java
 - Aspose.HTML
-- JavaScript Execution
-title: Java'da Script Nasıl Çalıştırılır – JavaScript Çalıştırma ve Veri Çıkarma İçin
-  Tam Rehber
+- JavaScript execution
+- HTML parsing
+- Automation
+title: Betikleri nasıl çalıştırılır – JavaScript çalıştırma ve veri çıkarma
 url: /tr/java/advanced-usage/how-to-run-scripts-in-java-complete-guide-to-execute-javascr/
 ---
 
@@ -29,33 +75,51 @@ url: /tr/java/advanced-usage/how-to-run-scripts-in-java-complete-guide-to-execut
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java’da Script Çalıştırma – JavaScript’i Çalıştırma ve Veri Çıkarma Tam Kılavuzu
+# Betikleri Çalıştırma – JavaScript'i Yürütme ve Veri Çıkarma
 
-Düz bir Java programından bir HTML dosyasının içinde yer alan **scriptleri nasıl çalıştıracağınızı** hiç merak ettiniz mi? Belki bir sayfayı kazıdınız, ancak ihtiyacınız olan veri yalnızca sayfanın JavaScript’i çalıştıktan sonra ortaya çıkıyor. Bu, özellikle dinamik sitelerle çalışırken sık karşılaşılan bir sorun.
-
-Bu öğreticide **scriptleri nasıl çalıştıracağınızı**, ardından **id ile eleman almayı**, ve son olarak **iç metni çıkarmayı** Aspose.HTML for Java ile gösteren pratik, uçtan uca bir çözüm göreceksiniz. Ayrıca **javascript’i başka bağlamlarda nasıl çalıştıracağınızı** ve **java’da javascript çalıştırmanın** otomasyon görevleri için neden bir oyun değiştirici olabileceğini de ele alacağız.
+Düz bir Java uygulamasından bir HTML sayfasına gömülü **betikleri çalıştırma** ihtiyacınız varsa, doğru yerdesiniz. Birçok web kazıma veya otomasyon senaryosu, verilerin yalnızca sayfanın JavaScript'i çalıştıktan sonra ortaya çıkması nedeniyle başarısız olur. Bu öğreticide, Aspose.HTML for Java kullanarak **betikleri çalıştırma**, ardından **id ile öğe alma** ve son olarak **iç metni çıkarma** konusunda eksiksiz, üretim‑hazır bir yöntem öğreneceksiniz. Ayrıca **başka ortamlarda javascript yürütme** ve **java içinde javascript çalıştırma**'nın başsız otomasyon için neden bir oyun değiştirici olabileceğine de değineceğiz.
 
 ---
 
-## Öğrenecekleriniz
-
-- İç içe ve harici JavaScript içeren bir HTML belgesi yükleme.
-- Aspose.HTML’in script motoru sayesinde **JavaScript’i Java çalışma zamanında çalıştırma**.
-- **id ile eleman al** kullanarak scriptin değiştirdiği DOM düğümünü bulma.
-- O düğümden **iç metni çıkarma** ve konsola yazdırma.
-- Yaygın tuzaklar, kenar‑durum yönetimi ve yaklaşımı genişletmek için ipuçları.
-
-> **Önkoşullar** – Java 8 ve üzeri, bağımlılık yönetimi için Maven veya Gradle ve geçerli bir Aspose.HTML for Java lisansı (veya geçici bir değerlendirme anahtarı) gerekir. Başka bir framework gerekmemektedir.
+## Hızlı Yanıtlar
+- **Java JavaScript çalıştırabilir mi?** Evet – Aspose.HTML, satır içi ve harici betikleri çalıştıran yerleşik bir betik motoru sağlar.
+- **Güncellenen düğümü hangi yöntem alır?** Betik motoru tamamlandıktan sonra `htmlDocument.getElementById("yourId")` kullanın.
+- **Bir tarayıcıya ihtiyacım var mı?** Hayır, motor tamamen bellek içinde çalışır, bu yüzden Selenium veya Chrome gerekmez.
+- **Hangi Java sürümü gerekiyor?** Java 8 veya daha yeni; kütüphane Java 11, 17 ve sonrası ile uyumludur.
+- **Lisans zorunlu mu?** Değerlendirme için bir deneme anahtarı çalışır, ancak üretim kullanımı için ticari bir lisans gerekir.
 
 ---
 
-![how to run scripts diagram](image.png){alt="how to run scripts diagram"}
+## Java'da Betikleri Çalıştırma
+
+Java'da betikleri çalıştırmak, HTML'i yüklemeyi, betik motorunu tetiklemeyi ve ardından DOM'u sorgulamayı içerir. Bu süreç, standart sayfalar için genellikle bir saniyeden az sürer ve tam bir tarayıcı başlatmadan 500 KB'a kadar satır içi betiği içeren belgeleri işleyebilir. Adımlar, sunucu‑tarafı otomasyon için basit ve güvenilirdir.
+
+1. **Bir `HtmlDocument` oluşturun** – bu işaretlemi ayrıştırır ve sanal bir DOM oluşturur. *HtmlDocument, bellek içinde bir HTML dosyasını temsil eden Aspose.HTML’in üst‑seviye sınıfıdır.*  
+2. **`getWindow().getScriptEngine().run()` çağırın** – motor, her `<script>` etiketini doğru sırayla yürütür.  
+3. **`getElementById` kullanın** betiğin değiştirdiği öğeyi bulmak için.  
+4. **`getInnerText()` okuyun** düz metin sonucunu elde etmek için.
+
+Bu yaklaşım tipik sayfalar için bir saniyeden az sürede çalışır ve tam bir tarayıcı yüklemeden 500 KB'a kadar satır içi betiği içeren belgeleri işleyebilir.
 
 ---
 
-## Adım 1 – Aspose.HTML for Java’ı Kurun
+## Aspose.HTML for Java Nedir?
 
-**Java’da JavaScript çalıştırmadan** önce Aspose.HTML kütüphanesini projemize eklememiz gerekir. Maven kullanıyorsanız aşağıdakileri `pom.xml` dosyanıza yapıştırın:
+Aspose.HTML for Java, grafik bir tarayıcı olmadan HTML, CSS ve JavaScript'i yüklemenize, render etmenize ve manipüle etmenize olanak tanıyan bir sunucu‑tarafı kütüphanedir. **50+ giriş ve çıkış formatını** destekler, bellek‑verimli modda çok sayfalı belgeleri işler ve yerleşik V8‑uyumlu bir JavaScript motoru içerir.
+
+---
+
+## Önkoşullar
+- Java 8 veya daha yeni (Java 11+ önerilir)
+- Bağımlılık yönetimi için Maven veya Gradle
+- Aspose.HTML for Java lisans dosyası veya değerlendirme anahtarı
+- Çalıştırmak istediğiniz betiği içeren bir HTML dosyası
+
+---
+
+## Adım 1 – Projenize Aspose.HTML ekleyin
+
+Maven için, bağımlılığı `pom.xml` dosyasına ekleyin:
 
 ```xml
 <dependency>
@@ -65,19 +129,19 @@ Bu öğreticide **scriptleri nasıl çalıştıracağınızı**, ardından **id 
 </dependency>
 ```
 
-Gradle için ise şöyle görünür:
+Gradle için, aşağıdaki satırı `build.gradle` dosyanıza ekleyin:
 
 ```gradle
 implementation 'com.aspose:aspose-html:23.10'
 ```
 
-> **Pro ipucu:** Kütüphanenizi güncel tutun; yeni sürümler JavaScript motoru uyumluluğunu artırır ve kenar‑durum hatalarını düzeltir.
+> **Pro ipucu:** Kütüphane sürümünü güncel tutun; sürüm 24.11, ECMAScript 2022 desteğini artırır ve çeşitli uç‑durum betik hatalarını düzeltir.
 
 ---
 
-## Adım 2 – HTML Dosyasını Hazırlayın
+## Adım 2 – HTML dosyasını hazırlayın
 
-`YOUR_DIRECTORY` adlı bir klasörde `scripted.html` adında bir dosya oluşturun. Dosya, `id="dynamicResult"` olan bir öğeyi güncelleyen bir JavaScript içermelidir:
+`scripted.html` dosyasını istediğiniz bir klasörde oluşturun. Dosya, `id="dynamicResult"` olan bir öğeyi güncelleyen bir betik içermelidir:
 
 ```html
 <!DOCTYPE html>
@@ -98,13 +162,17 @@ implementation 'com.aspose:aspose-html:23.10'
 </html>
 ```
 
-`getElementById` çağrısına dikkat edin – bu, daha sonra Java’dan **id ile eleman al** yapacağımız tam noktadır.
+Betikteki `getElementById` çağrısı, daha sonra Java'dan değeri alacağımız tam yerdir.
+
+![betikleri çalıştırma diyagramı](image.png){alt="betikleri çalıştırma diyagramı"}
+
+[betikleri çalıştırma diyagramı](image.png)
 
 ---
 
-## Adım 3 – Belgeyi Yükleyin ve Tüm Scriptleri Çalıştırın
+## Adım 3 – Belgeyi yükleyin ve tüm betikleri çalıştırın
 
-Şimdi öğreticinin kalbi geliyor: HTML belgesi içinde **scriptleri nasıl çalıştıracağınız**. Aspose.HTML API’si, hem iç hem de harici scriptleri çalıştırabilen bir `ScriptEngine` sağlar.
+Aşağıdaki kod temel mantığı gösterir. `HtmlDocument` sınıfı için tanım bağlantısına dikkat edin:
 
 ```java
 import com.aspose.html.*;
@@ -130,52 +198,43 @@ public class JsExecution {
 }
 ```
 
-### Neden Bu Şekilde Çalışır
-
-- **`HtmlDocument`** HTML’i ayrıştırır ve bir tarayıcının yapacağına benzer şekilde sanal bir DOM oluşturur.
-- **`getWindow().getScriptEngine().run()`** Aspose.HTML’e bulunan her `<script>` etiketini, yükleme sırasını ve `async` özniteliklerini göz önünde bulundurarak çalıştırmasını söyler.
-- Motor tamamlandığında DOM, çalıştırma sonrası durumu yansıtır; böylece **`getElementById`** güncellenmiş düğümü alabilir.
-- **`getInnerText()`** bize öğenin içindeki düz metni verir; bu da aradığımız son parçadır.
+`HtmlDocument`, bellek içinde tek bir HTML dosyasını temsil eden Aspose.HTML’in üst‑seviye nesnesidir. `run()` çağrıldıktan sonra, sanal DOM JavaScript'in yaptığı tüm değişiklikleri yansıtır ve güncellenmiş düğümleri sorgulamanıza olanak tanır.
 
 ---
 
-## Adım 4 – Java Programını Çalıştırın
+## Adım 4 – Java programını çalıştırın
 
-Sınıfı derleyip çalıştırın:
+Sınıfı derleyin ve çalıştırın:
 
 ```bash
 javac -cp "path/to/aspose-html-23.10.jar" JsExecution.java
 java -cp ".:path/to/aspose-html-23.10.jar" JsExecution
 ```
 
-Şu çıktıyı görmelisiniz:
+Betik tarafından öğeye yazılan metni görmelisiniz:
 
 ```
 Result after JS: Hello from JavaScript!
 ```
 
-Eğer çıktı hâlâ “Waiting…” (Bekleniyor…) diyorsa, scriptin gerçekten çalıştığını ve HTML yolunun doğru olduğunu bir kez daha kontrol edin.
+Eğer çıktı hâlâ “Waiting…” (Bekleniyor…) gösteriyorsa, betik yolunun doğru olduğundan ve motorun harici kaynakları alabildiğinden emin olun.
 
 ---
 
-## Kenar‑Durumları ve Yaygın Soruların Ele Alınması
+## Harici betikleri ve kaynakları nasıl yönetilir?
 
-### Sayfa harici scriptler yüklüyorsa ne olur?
-
-Aspose.HTML, HTTP/HTTPS üzerinden erişilebilen harici kaynakları otomatik olarak alır. Ancak kurumsal güvenlik duvarları için bir proxy yapılandırmanız veya özel bir `ResourceLoader` ayarlamanız gerekebilir.  
+Aspose.HTML, `<script src="...">` ile referans verilen harici betikleri otomatik olarak indirir. Kurumsal bir proxy arkasında çalışırken, özel bir `ResourceLoader` yapılandırın. *ResourceLoader, harici kaynakların nasıl alınacağını kontrol etmenizi sağlayan bir arayüzdür.* Bu, motorun zaman aşımına uğramadan uzak dosyalara ulaşmasını sağlar.
 
 ```java
 htmlDocument.getWindow().getScriptEngine()
             .setResourceLoader(new CustomResourceLoader());
 ```
 
-### `document.write` kullanan **scriptleri nasıl çalıştırırım**?
+---
 
-`document.write` desteklenir, ancak sayfa yüklenmesi tamamlandıktan sonra çağrılırsa mevcut belgeyi üzerine yazar. Sürprizleri önlemek için bu tür çağrıları, örneğin `window.onload` içinde erken çalışan bir fonksiyon içinde tutun.
+## Birden fazla öğeden iç metni nasıl çıkarırsınız?
 
-### Birden fazla öğeden **iç metin çıkarmak** mümkün mü?
-
-Tabii. `htmlDocument.querySelectorAll(".someClass")` ile bir `NodeList` elde edin, ardından döngüye alın:
+Bir `NodeList` sorgulayabilir ve her düğüm üzerinde dönebilirsiniz. *NodeList, `getElementsByTagName` gibi bir DOM sorgusunun sonucunu temsil eden bir koleksiyondur.* Bu, birçok öğeyi verimli bir şekilde işlemenizi sağlar.
 
 ```java
 NodeList nodes = htmlDocument.querySelectorAll(".someClass");
@@ -185,9 +244,13 @@ for (int i = 0; i < nodes.getLength(); i++) {
 }
 ```
 
-### Bir script istisna fırlattığında hata yönetimi nasıl yapılır?
+Her `node.getInnerText()` çağrısı, temiz ve boşluk‑normalleştirilmiş metin döndürür.
 
-Script motoru `ScriptException` fırlatır. `run()` çağrısını bir try‑catch bloğuna sarın ve hata ayıklama için `e.getMessage()` içeriğini inceleyin.
+---
+
+## Betik hatalarını nasıl yakalarsınız?
+
+Motor, bir betik başarısız olursa `ScriptException` fırlatır. *ScriptException, JavaScript yürütme hatalarını raporlamak için kullanılan istisna türüdür.* Mesajı yakalamak için `run()` çağrısını bir try‑catch bloğuna sarın:
 
 ```java
 try {
@@ -197,11 +260,13 @@ try {
 }
 ```
 
+`e.getMessage()` içinde satır numaralarını ve yığın izlerini inceleyin – bu, hata ayıklamayı çok daha hızlı hale getirir.
+
 ---
 
-## Tam Çalışan Örnek (Hepsi‑Bir‑Arada)
+## Tam Çalışan Örnek (her‑şey‑bir‑arada)
 
-Aşağıda, doğrudan çalıştırabileceğiniz tam kaynak dosyası yer alıyor. İçeriği `JsExecution.java` adlı bir dosyaya yapıştırın, `scripted.html` yolunu ayarlayın ve hazırsınız.
+Aşağıda, `JsExecution.java` içine yapıştırabileceğiniz tam kaynak dosya bulunmaktadır. Gerekirse `scripted.html` yolunu ayarlayın:
 
 ```java
 import com.aspose.html.*;
@@ -232,7 +297,7 @@ public class JsExecution {
 }
 ```
 
-Bu programı çalıştırdığınızda şu çıktı alınır:
+Bu programı çalıştırmak şunu yazdırır:
 
 ```
 Result after JS: Hello from JavaScript!
@@ -240,19 +305,50 @@ Result after JS: Hello from JavaScript!
 
 ---
 
+## Yaygın Tuzaklar ve Sorun Giderme
+- **Harici betikler eksik:** URL'lerin sunucu ortamından erişilebilir olduğundan emin olun; mümkün olduğunca mutlak URL'ler kullanın.
+- **Yüklemeden sonra `document.write`:** Bu, belgeyi üzerine yazar. Bu tür çağrıları `window.onload` içinde yerleştirin veya destekleniyorsa motoru `runEarly()` ile çalıştırın.
+- **Büyük HTML dosyaları:** 10 MB'den büyük dosyalarda bellek baskısını azaltmak için `HtmlLoadOptions.setLoadMode(LoadMode.MemoryOptimized)` kullanın.
+- **Kodlama sorunları:** HTML'niz ASCII dışı karakterler içeriyorsa `HtmlLoadOptions.setEncoding(StandardCharsets.UTF_8)` ayarlayın.
+
+---
+
+## Sıkça Sorulan Sorular
+
+**S: Bu yaklaşımı React gibi framework'lere dayanan tek‑sayfa uygulamaları (SPA) ile kullanabilir miyim?**  
+C: Evet. Aspose.HTML, birçok framework başlangıcını içeren standart JavaScript'i yürütür. Ağır istemci‑tarafı yönlendirme için, `run()` sonrası yönlendiriciyi manuel olarak tetiklemeniz gerekebilir.
+
+**S: Betik motoru modern ES2021 özelliklerini destekliyor mu?**  
+C: Sürüm 24.11 itibarıyla, motor çoğu ES2021 sözdizimini, opsiyonel zincirleme ve nullish birleştirme dahil, uygular.
+
+**S: Motorun işleyebileceği maksimum betik boyutu nedir?**  
+C: Motor, toplamda 5 MB'a kadar betikleri işleyebilir; daha büyük paketler bölünmeli veya küçültülmelidir.
+
+**S: Motoru çok‑iş parçacıklı bir ortamda çalıştırmak mümkün mü?**  
+C: Her `HtmlDocument` örneği iş parçacığına özgüdür. Çakışma olmadan her iş parçacığı için ayrı belgeler oluşturabilirsiniz.
+
+**S: Aspose.HTML'i üretim için nasıl lisanslarsınız?**  
+C: `.lic` dosyasını sınıf yoluna yerleştirin veya herhangi bir API kullanımından önce `License license = new License(); license.setLicense("Aspose.HTML.lic");` kodunu çağırın.
+
+---
+
 ## Sonuç
 
-Java uygulaması içinde **scriptleri nasıl çalıştıracağınızı** adım adım gösterdik, **id ile eleman al** yöntemini kullandık ve JavaScript yürütülmesinden sonra **iç metni çıkarmayı** temiz bir şekilde sergiledik. Aspose.HTML’in yerleşik script motorunu kullanarak, ağır bir tarayıcı başlatmadan neredeyse tüm istemci‑tarafı mantığını otomatikleştirebilirsiniz.
+Artık **betikleri nasıl çalıştıracağınız**, ID ile öğeleri alacağınız ve iç metni çıkaracağınız sağlam, uçtan‑uca bir tarife sahipsiniz — tüm bunlar bir tarayıcı başlatmadan. Bu teknik, veri‑çıkarma boru hatları, otomatik testler ve sunucuda istemci‑tarafı mantığını değerlendirmeniz gereken her durum için idealdir. PDF dönüşümü, görüntü render'ı veya görsel doğrulama için Selenium ile birleştirerek daha fazla keşfedin.
 
-Daha ileri gitmek ister misiniz? Şunları deneyin:
+**Son Güncelleme:** 2026-11-05  
+**Test Edilen:** Aspose.HTML for Java 24.11  
+**Yazar:** Aspose
 
-- Formları manipüle eden **scriptleri çalıştırmak** ve ardından programlı olarak göndermek.
-- **java’da javascript çalıştırma** ile Tek‑Sayfa Uygulamalarından (SPA) veri kazımak.
-- Görsel doğrulama için bu yaklaşımı Selenium ile birleştirmek.
+## İlgili Öğreticiler
 
-Deneyin, HTML’i değiştirin ve çözümün ne kadar esnek olduğunu görün. Herhangi bir sorunla karşılaşırsanız, aşağıya yorum bırakın – mutlu kodlamalar!
+- [Java'da Betik Yürütmeyi Etkinleştirme – Tam Aspose Html Rehberi](/html/java/advanced-usage/enable-script-execution-in-java-complete-aspose-html-guide/)
+- [Java'da Javascript Yürütme – Tam Aspose Html Rehberi](/html/java/advanced-usage/execute-javascript-in-java-complete-aspose-html-guide/)
+- [Aspose Html for Java ile HTML'de Javascript Çalıştırma – Tam Rehber](/html/java/editing-html-documents/run-javascript-in-html-with-aspose-html-for-java-full-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

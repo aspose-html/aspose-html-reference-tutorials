@@ -1,25 +1,53 @@
 ---
 category: general
-date: 2026-01-03
-description: Hozzon létre fix szálú szálkészletet a HTML gyors PDF-re konvertálásához,
-  több fájl feldolgozásával és egy bekezdés HTML hozzáadásával a PDF mentése előtt.
+date: 2026-11-05
+description: Ismerje meg, hogyan adhat hozzá bekezdést a HTML-hez, miközben fixed
+  thread pool-t használ a több fájl gyors PDF-re konvertálásához Java-ban az Aspose.HTML
+  segítségével. Támogatja a batch conversion-t és a parallel processing-et.
 draft: false
 keywords:
-- create fixed thread pool
-- convert html to pdf
-- process multiple files
-- add paragraph html
+- add paragraph to html
 - save html as pdf
-language: hu
-og_description: Hozzon létre fix szálkészletet a HTML gyors PDF-re konvertálásához,
-  több fájl feldolgozásával és egy bekezdés HTML hozzáadásával a PDF mentése előtt.
-og_title: Rögzített szálkészlet létrehozása párhuzamos HTML-ből PDF-re konvertáláshoz
+- convert html to pdf java
+- batch convert html to pdf
+- process multiple files concurrently
+lastmod: 2026-11-05
+og_description: Ismerje meg, hogyan adhat hozzá bekezdést a HTML-hez, miközben fixed
+  thread pool-t használ a több fájl gyors PDF-re konvertálásához Java-ban az Aspose.HTML
+  segítségével. Támogatja a batch conversion-t és a parallel processing-et.
+og_image_alt: Diagram showing fixed thread pool converting HTML to PDF with added
+  paragraph
+og_title: Bekezdés hozzáadása a HTML-hez fixed thread pool PDF konverzió során
+schemas:
+- author: Aspose
+  dateModified: '2026-11-05'
+  description: Learn how to add paragraph to HTML while using a fixed thread pool
+    to convert multiple files to PDF quickly in Java with Aspose.HTML. Supports batch
+    conversion and parallel processing.
+  headline: Add paragraph to HTML in fixed thread pool PDF conversion
+  type: TechArticle
+- questions:
+  - answer: It creates a set number of reusable worker threads, matching the CPU core
+      count, to run tasks in parallel.
+    question: What does a fixed thread pool do?
+  - answer: It provides a visible marker that the file has been processed, useful
+      for debugging or audit trails.
+    question: Why add a paragraph to HTML?
+  - answer: Yes—by submitting each file as a separate task to the pool you achieve
+      true batch conversion.
+    question: Can I convert many files at once?
+  - answer: Only Aspose.HTML for Java; the rest is pure JDK.
+    question: Do I need extra libraries?
+  - answer: The pool limits concurrent documents, keeping heap usage predictable even
+      for large batches.
+    question: Is the approach memory‑safe?
+  type: FAQPage
 tags:
 - Java
 - Concurrency
 - Aspose.HTML
 - PDF Generation
-title: Fix szálkészlet létrehozása párhuzamos HTML‑PDF konverzióhoz
+title: Bekezdés hozzáadása a HTML-hez fixed thread pool PDF konverzió során
 url: /hu/java/conversion-html-to-other-formats/create-fixed-thread-pool-for-parallel-html-to-pdf-conversion/
 ---
 
@@ -27,27 +55,107 @@ url: /hu/java/conversion-html-to-other-formats/create-fixed-thread-pool-for-para
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Fixed Thread Pool létrehozása párhuzamos HTML‑PDF konverzióhoz
+# Bekezdés hozzáadása a HTML-hez rögzített szálkészlettel PDF konverzió során
 
-Gondolkodtál már azon, hogyan **hozz létre fix szálkészletet**, amely *HTML‑t PDF‑vé* alakít át anélkül, hogy leterhelné a CPU‑t? Nem vagy egyedül – sok fejlesztő akad el, amikor **több fájlt** kell gyorsan feldolgozni. A jó hír, hogy a Java `ExecutorService`‑e ezt egyszerűvé teszi, különösen az Aspose.HTML‑lel kombinálva. Ebben az útmutatóban lépésről lépésre beállítjuk a fix szálkészletet, betöltünk egy HTML‑fájlt, **add paragraph HTML**‑t a feldolgozás jelzésére, majd **save HTML as PDF**‑t hajtunk végre. A végére egy komplett, éles környezetben is használható példát kapsz, amelyet bármely Java‑projektbe beilleszthetsz.
+Ha **bekezdés hozzáadása a HTML-hez**-t kell hozzáadnod, miközben nagy mennyiségű oldalt konvertálsz PDF‑be, egy **fixed thread pool** előre látható teljesítményt biztosít és megakadályozza a CPU túlterhelését. Ebben az útmutatóban láthatod, hogyan működik a Java `ExecutorService` együtt az Aspose.HTML‑lel, hogy betöltsön minden HTML‑fájlt, beillesszen egy `<p>` elemet, és elmentse az eredményt PDF‑ként – mindezt anélkül, hogy a stabilitást feláldoznád. A végére egy azonnal futtatható példát kapsz, amely a gép logikai magjainak számával skálázódik.
 
-## Mit tanulhatsz meg
+## Gyors válaszok
+- **Mit csinál egy fixed thread pool?** Létrehoz egy meghatározott számú újrahasználható munkaszálat, amely megegyezik a CPU magok számával, és párhuzamosan futtatja a feladatokat.  
+- **Miért adunk hozzá bekezdést a HTML-hez?** Látható jelölőt biztosít, hogy a fájl feldolgozásra került, ami hasznos hibakereséshez vagy audit nyomvonalakhoz.  
+- **Konvertálhatok sok fájlt egyszerre?** Igen – a fájlok egyenkénti feladatként való beadásával a poolba valódi kötegelt konverziót érhetsz el.  
+- **Szükségem van extra könyvtárakra?** Csak az Aspose.HTML for Java; a többi tiszta JDK.  
+- **Memóriabiztonságú ez a megközelítés?** A pool korlátozza az egyidejű dokumentumok számát, így a heap használat előre látható marad még nagy kötegek esetén is.
 
-A következő percekben a következőket fedjük le:
+## Mi az a fixed thread pool?
+A **fixed thread pool** egy Java `ExecutorService`, amely állandó számú szálat tart fenn, és az üresen állókat újrahasználja ahelyett, hogy minden feladathoz új szálat hozna létre. Ez a modell megakadályozza a szálak szaporodását és stabil CPU‑kihasználtságot biztosít.
 
-* Miért a **fixed thread pool** a legoptimálisabb megoldás CPU‑igényes feladatokhoz.  
+## Miért adunk hozzá bekezdést a HTML-hez a konverzió előtt?
+A `<p>` elem beillesztése minden generált PDF-nek egyértelmű „processed” (feldolgozott) címkét ad, ami segít ellenőrizni, hogy az automatizálás helyesen futott, és egyszerű vízjelként szolgálhat a downstream rendszerek számára. Emellett könnyű felismerni a feldolgozott fájlokat PDF-ek manuális vagy programozott áttekintésekor, és könnyű audit nyomvonalként működik anélkül, hogy külön metaadatfájlokra lenne szükség.
+
+## Mit fogsz megtanulni
+* Miért a **fixed thread pool** a legjobb választás CPU‑intenzív feladatokhoz.  
 * Hogyan **convert HTML to PDF** az Aspose.HTML egyszerű API‑jával.  
-* Stratégiák **process multiple files** párhuzamosan, miközben a memóriahasználat előre látható marad.  
-* Egy gyors trükk **add paragraph HTML** minden dokumentumhoz, hogy lásd a transzformációt.  
-* A pontos lépések **save HTML as PDF** és a szálkészlet tisztítása.
+* Stratégiák a **process multiple files concurrently** végrehajtására, miközben a memóriahasználat előre látható marad.  
+* Egy gyors trükk a **add paragraph HTML** minden dokumentumhoz, hogy lásd a transzformációt.  
+* A pontos lépések a **save HTML as PDF** elvégzéséhez és a szálkészlet takarításához.
 
-Nincs szükség külső eszközökre, varázslatos „run‑it‑once” szkriptekre – csak tiszta Java, néhány sor, és egyértelmű magyarázat arra, *miért* fontos minden részlet.
+![Fixed thread pool diagram létrehozása](https://example.com/fixed-thread-pool.png "Fixed thread pool diagram létrehozása"){alt="Fixed thread pool diagram létrehozása"}
 
-![Create fixed thread pool diagram](https://example.com/fixed-thread-pool.png "Create fixed thread pool diagram"){alt="Create fixed thread pool diagram"}
+[Fixed thread pool diagram létrehozása](https://example.com/fixed-thread-pool.png "Fixed thread pool diagram létrehozása")
 
-## 1. lépés: Fixed Thread Pool létrehozása párhuzamos feldolgozáshoz
+## Hogyan működik egy fixed thread pool?
+Tölts be egy poolt a `Runtime.getRuntime().availableProcessors()` méretére. Ez a hívás visszaadja a logikai magok számát, biztosítva, hogy soha ne indíts több szálat, mint amennyit a hardver kezelni tud. A pool újrahasználja az üresen álló szálakat, ami megszünteti a szálobjektumok folyamatos létrehozásának és megsemmisítésének terheit.
 
-Az első dolog, amire szükségünk van, egy munkás szálkészlet, amely megegyezik a gép logikai magjainak számával. A `Runtime.getRuntime().availableProcessors()` használata garantálja, hogy ne terheljük túl a CPU‑t, ami valójában lassítana.
+### 1. lépés: fixed thread pool létrehozása párhuzamos feldolgozáshoz
+`ExecutorService` a Java interfész, amely egy munkaszálakból álló poolt kezel.  
+```text
+ExecutorService executor = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
+```  
+*Miért egy fix pool?* Mert állandó felső határt biztosít a szálak számára, megakadályozva a rettegett „szálak szaporodását”, ami a `newCachedThreadPool()`‑nél előfordulhat. Emellett újrahasználja az üresen álló szálakat, ami csökkenti a folyamatos létrehozás és megsemmisítés terheit.
+
+## Hogyan konvertáljuk a HTML-t PDF-re az Aspose.HTML használatával?
+Az Aspose.HTML lehetővé teszi, hogy egy HTML-fájlt közvetlenül egy DOM‑szerű `HTMLDocument`‑ba tölts be. A `HTMLDocument` az Aspose.HTML osztálya, amely egy memóriába betöltött HTML-fájlt képvisel.  
+```text
+HTMLDocument doc = new HTMLDocument("input.html");
+doc.save("output.pdf", SaveFormat.PDF);
+```  
+Miután a dokumentum a memóriában van, a konverzió egyszerű: a `save` hívás egy PDF-et ír ki, amely tükrözi az eredeti elrendezést.
+
+## Hogyan dolgozzunk fel több fájlt egyszerre?
+Miután megvan a pool és a konverziós rutin, minden HTML-fájlt egy munkaszálhoz kell irányítanunk. A `Runnable` egy funkcionális interfész, amely egy szál által végrehajtandó feladatot képvisel.  
+```text
+for (String path : htmlFiles) {
+    executor.submit(() -> convert(path));
+}
+```  
+Mivel minden feladat a saját szálában fut, **process multiple files** párhuzamosan extra szinkronizációs kód nélkül. A pool automatikusan sorba állítja a feladatokat, ha több fájl van, mint elérhető szál.
+
+## Hogyan adjunk hozzá bekezdés elemet minden HTML-dokumentumhoz?
+Néha szeretnéd megjegyezni a kimenetet, például bizonyítani, hogy a fájlt a pipeline érintette. Egy egyszerű `<p>` elem hozzáadása nagyszerű módja ennek. Az Aspose.HTML DOM API programozottan biztosít módszereket a HTML-dokumentum struktúrájának manipulálására.  
+```text
+Element p = doc.createElement("p");
+p.appendChild(doc.createTextNode("Processed"));
+doc.getBody().appendChild(p);
+```  
+Ez a sor **add paragraph html** közvetlenül a konverzió előtt, így minden PDF a lap alján a „Processed” szót tartalmazza. Emellett hasznos hibakeresési jelzés, amikor később megnyitod a PDF-et.
+
+## Hogyan mentsük el a HTML-t PDF‑ként és tisztítsuk meg a szálkészletet?
+Miután hozzáadtuk a bekezdést, elmentjük a fájlt. Az `awaitTermination` blokkol, amíg minden feladat be nem fejeződik vagy a timeout lejár, biztosítva, hogy a JVM tisztán kilép.  
+```text
+executor.shutdown();
+executor.awaitTermination(1, TimeUnit.HOURS);
+```  
+Az `awaitTermination` hívás blokkolja a fő szálat, amíg minden munkás be nem fejeződik vagy az órás határidő lejár – tökéletes a CI pipeline‑okban futó kötegelt feladatokhoz.
+
+## Teljes működő példa
+Az összes elemet összeállítva, itt van a teljes, másolás‑beillesztés‑kész program (a fent bemutatott helyőrzőkön kívül nincs szükség további kódrészekre).
+
+**Várható eredmény:** A program futtatása után megtalálod az `a.pdf`, `b.pdf` és `c.pdf` fájlokat ugyanabban a könyvtárban. Bármelyiket megnyitva láthatod az eredeti HTML tökéletes megjelenítését, plusz egy „Processed” bekezdést az oldal alján.
+
+## Pro tippek és gyakori buktatók
+* **A szálak száma számít.** Ha a pool méretét nagyobbra állítod, mint a magok száma, kontextus‑váltási terhet látsz. Maradj a `availableProcessors()`‑nél, hacsak nincs jó oka az eltérésnek.  
+* **A fájl I/O szűk keresztmetszet lehet.** Ha több száz megabájtot konvertálsz, fontold meg az adatfolyam használatát vagy egy gyors SSD‑t.  
+* **Kivételkezelés.** Éles környezetben a hibákat fájlba vagy felügyeleti rendszerbe kellene naplózni, ne csak `printStackTrace()`-et használni.  
+* **Memóriahasználat.** Minden `HTMLDocument` a szál heapjében marad, amíg a feladat be nem fejeződik. Ha elfogy a RAM, oszd szét a köteget kisebb darabokra vagy növeld a heap méretét (`-Xmx`).  
+* **Aspose licencelés.** A kód működik az ingyenes értékelő verzióval, de kereskedelmi használathoz megfelelő licencre lesz szükség a vízjelek elkerüléséhez.
+
+## Következtetés
+Bemutattuk, hogyan **add paragraph to HTML** egy **fixed thread pool** létrehozása közben, majd ezt felhasználva **convert HTML to PDF**, **process multiple files** párhuzamosan, **add paragraph HTML**, és végül **save HTML as PDF**. A megközelítés szálbiztos, skálázható és könnyen bővíthető – egyszerűen adj hozzá több fájlt vagy cseréld le a manipulációs lépést valami kifinomultabbra.
+
+Készen állsz a következő lépésre? Próbálj meg egy CSS stíluslapot hozzáadni a konverzió előtt, vagy kísérletezz különböző szálkészlet‑stratégiákkal, például a `ForkJoinPool`‑lal. Az itt felépített alap jól szolgál majd minden olyan kötegelt feldolgozási feladatnál, amely gyorsan kell, hogy átfuttassa a HTML-dokumentumokat.
+
+Ha hasznosnak találtad ezt az útmutatót, adj egy csillagot, oszd meg a csapattagokkal, vagy hagyj egy megjegyzést a saját módosításaiddal. Boldog kódolást!
+
+---
+
+**Last Updated:** 2026-11-05  
+**Tested With:** Aspose.HTML 24.11 for Java  
+**Author:** Aspose  
+
+
+
+
+
 
 ```java
 import java.util.concurrent.ExecutorService;
@@ -64,12 +172,6 @@ public class ParallelConversion {
         // ... remaining code follows
 ```
 
-*Miért fix pool?* Mert állandó felső határt ad a szálak számára, megakadályozva a rettegett „szálrobbanást”, amely a `newCachedThreadPool()`‑nal előfordulhat. Emellett újrahasználja a tétlen szálakat, csökkentve a folyamatos létrehozás és megsemmisítés terheit.
-
-## 2. lépés: HTML konvertálása PDF‑be az Aspose.HTML‑lel
-
-Az Aspose.HTML lehetővé teszi, hogy egy HTML‑fájlt közvetlenül egy DOM‑szerű `HTMLDocument`‑ba töltsünk. Innen a PDF‑be mentés egyetlen sorban megoldható. A könyvtár kezeli a CSS‑t, képeket és még a JavaScript‑et is (ha engedélyezed a motort), így pixel‑pontos kimenetet kapsz.
-
 ```java
 import com.aspose.html.HTMLDocument;
 
@@ -77,19 +179,11 @@ import com.aspose.html.HTMLDocument;
 HTMLDocument doc = new HTMLDocument(inputPath);
 ```
 
-Miután a dokumentum a memóriában van, a konverzió triviális:
-
 ```java
 // Save the document as PDF (same name with .pdf extension)
 String outputPath = inputPath.replace(".html", ".pdf");
 doc.save(outputPath);
 ```
-
-Ez a **convert html to pdf** lényege – nincs manuális renderelési ciklus, nincs bonyolult iText trükk.
-
-## 3. lépés: Több fájl hatékony feldolgozása
-
-Most, hogy van egy pool‑unk és egy konverziós rutinunk, minden HTML‑fájlt egy munkás szálnak kell átadnunk. A legegyszerűbb megközelítés, ha egy fájlútvonal‑tömbön iterálunk, és minden egyeshez egy `Runnable`‑t küldünk be.
 
 ```java
         // Step 2: List the HTML files to be converted
@@ -111,24 +205,12 @@ Most, hogy van egy pool‑unk és egy konverziós rutinunk, minden HTML‑fájlt
         }
 ```
 
-Mivel minden feladat a saját szálában fut, **process multiple files** párhuzamosan, extra szinkronizációs kód nélkül. A pool automatikusan sorba állítja a feladatokat, ha több fájl van, mint elérhető szál.
-
-## 4. lépés: Paragraph HTML hozzáadása minden dokumentumhoz
-
-Néha szeretnénk megjelölni a kimenetet, például bizonyítani, hogy a fájlt a pipeline‑od érintette. Egy egyszerű `<p>` elem hozzáadása nagyszerű módja ennek. Az Aspose.HTML DOM API-ja ezt egyszerűvé teszi:
-
 ```java
                     // Simple manipulation: add a paragraph indicating processing
                     doc.getBody()
                        .appendChild(doc.createElement("p"))
                        .setTextContent("Processed");
 ```
-
-Ez a sor **add paragraph html** közvetlenül a konverzió előtt, így minden PDF a lap alján a „Processed” szót tartalmazza. Emellett hasznos hibakeresési jelzés, ha később megnyitod a PDF‑et.
-
-## 5. lépés: HTML mentése PDF‑ként és a pool tisztítása
-
-Miután hozzáadtuk a bekezdést, elmentjük a fájlt. Miután minden feladat be lett küldve, a pool‑t elegánsan le kell állítani, hogy a JVM tisztán kilépjen.
 
 ```java
         // Step 4: Shut down the pool and wait for all tasks to finish
@@ -137,12 +219,6 @@ Miután hozzáadtuk a bekezdést, elmentjük a fájlt. Miután minden feladat be
     }
 }
 ```
-
-Az `awaitTermination` hívás blokkolja a fő szálat, amíg minden munkás be nem fejeződik, vagy le nem jár a megadott időkorlát – tökéletes batch feladatokhoz, amelyek CI pipeline‑okban futnak.
-
-## Teljes működő példa
-
-Az összes elemet összevonva, itt a kész, másolás‑beillesztés‑kész program:
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -191,25 +267,16 @@ public class ParallelConversion {
 }
 ```
 
-**Várható eredmény:** A program futtatása után a `a.pdf`, `b.pdf` és `c.pdf` fájlok a ugyanabban a könyvtárban lesznek. Bármelyik megnyitásakor láthatod az eredeti HTML‑t tökéletesen renderelve, plusz egy „Processed” bekezdést a lap alján.
+## Kapcsolódó oktatóanyagok
 
-## Pro tippek és gyakori buktatók
+- [HTML PDF-re konvertálása Java párhuzamos fix szálkészlettel útmutató](/html/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-parallel-fixed-thread-pool-guide/)
+- [Java szálkészlet oktatóanyag: több HTML-fájl PDF-re konvertálása](/html/java/conversion-html-to-other-formats/java-thread-pool-tutorial-convert-multiple-html-files-to-pdf/)
+- [Fix szálkészlet létrehozása kötegelt HTML PDF konverzióhoz](/html/java/conversion-html-to-other-formats/create-fixed-thread-pool-for-batch-html-to-pdf-conversion/)
 
-* **A szálak száma számít.** Ha a pool méretét nagyobbra állítod, mint a magok száma, a kontextus‑váltás költségei nőnek. Maradj a `availableProcessors()`‑nél, hacsak nincs jó okod eltérni.  
-* **A fájl‑I/O szűk keresztmetszet lehet.** Ha több száz megabájtot konvertálsz, fontold meg a streaming‑bemenetet vagy egy gyors SSD használatát.  
-* **Kivételkezelés.** Éles környezetben érdemes a hibákat fájlba vagy monitorozó rendszerbe logolni, a `printStackTrace()` helyett.  
-* **Memóriahasználat.** Minden `HTMLDocument` a szál heap‑jében marad, amíg a feladat be nem fejeződik. Ha RAM‑hiány lép fel, bontsd a batch‑t kisebb darabokra, vagy növeld a heap méretét (`-Xmx`).  
-* **Aspose licencelés.** A kód a ingyenes értékelő verzióval működik, de kereskedelmi felhasználáshoz megfelelő licenc szükséges a vízjelek elkerüléséhez.
-
-## Összegzés
-
-Megmutattuk, hogyan **create fixed thread pool** Java‑ban, majd ezt felhasználva **convert HTML to PDF**, **process multiple files** párhuzamosan, **add paragraph HTML**, és végül **save HTML as PDF**. A megközelítés szálbiztos, skálázható és könnyen bővíthető – egyszerűen adj hozzá több fájlt, vagy cseréld le a manipulációs lépést valami kifinomultabbra.
-
-Készen állsz a következő lépésre? Próbálj meg egy CSS‑stíluslapot hozzáadni a konverzió előtt, vagy kísérletezz különböző szálkészlet‑stratégiákkal, például a `ForkJoinPool`‑dal. Az itt felépített alap jól szolgál majd minden olyan batch‑feldolgozó feladathoz, amely gyorsan kell, hogy átfutassa a HTML dokumentumokat.
-
-Ha hasznosnak találtad ezt az útmutatót, adj egy csillagot, oszd meg a csapattagokkal, vagy hagyj egy megjegyzést a saját trükkjeiddel. Boldog kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

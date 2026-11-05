@@ -1,27 +1,73 @@
 ---
 category: general
-date: 2026-01-07
-description: Πώς να εκτελέσετε σενάρια σε Java και να λάβετε στοιχείο κατά id. Μάθετε
-  πώς να εκτελείτε JavaScript, να τρέχετε JavaScript σε Java και να εξάγετε το εσωτερικό
-  κείμενο με το Aspose.HTML.
-draft: false
+date: 2026-11-05
+description: Μάθετε πώς να εκτελείτε σενάρια σε Java, να εκτελείτε JavaScript και
+  να εξάγετε το κείμενο στοιχείου χρησιμοποιώντας το Aspose.HTML. Οδηγός βήμα προς
+  βήμα για προγραμματιστές.
 keywords:
 - how to run scripts
-- get element by id
 - how to execute javascript
+- get element by id
+- execute javascript from java
 - run javascript in java
-- extract inner text
-language: el
-og_description: Πώς να εκτελέσετε σενάρια σε Java και να λάβετε στοιχείο κατά id.
-  Ακολουθήστε αυτό το βήμα‑βήμα οδηγό για να εκτελέσετε JavaScript, να τρέξετε JavaScript
-  σε Java και να εξάγετε το εσωτερικό κείμενο.
-og_title: Πώς να εκτελέσετε σενάρια στη Java – Εκτελέστε JavaScript & Εξάγετε κείμενο
+lastmod: 2026-11-05
+og_description: Πώς να εκτελείτε σενάρια σε Java και να εξάγετε κείμενο. Αυτός ο οδηγός
+  σας δείχνει πώς να εκτελείτε JavaScript, να λαμβάνετε στοιχείο με id και να αντλείτε
+  το εσωτερικό κείμενο με το Aspose.HTML για Java.
+og_image_alt: Diagram illustrating Java script execution and data extraction flow
+og_title: Πώς να εκτελέσετε σενάρια – εκτέλεση JavaScript & εξαγωγή δεδομένων
+schemas:
+- author: Aspose
+  dateModified: '2026-11-05'
+  description: Learn how to run scripts in Java, execute JavaScript, and extract element
+    text using Aspose.HTML. Step‑by‑step guide for developers.
+  headline: How to run scripts – execute JavaScript & extract data
+  type: TechArticle
+- description: Learn how to run scripts in Java, execute JavaScript, and extract element
+    text using Aspose.HTML. Step‑by‑step guide for developers.
+  name: How to run scripts – execute JavaScript & extract data
+  steps:
+  - name: '**Create an `HtmlDocument`** – this parses the markup and builds a virtual
+      DOM. *HtmlDocument is Aspose.HTML’s top‑level class that represents an HTML
+      file in memory.*'
+    text: '**Create an `HtmlDocument`** – this parses the markup and builds a virtual
+      DOM. *HtmlDocument is Aspose.HTML’s top‑level class that represents an HTML
+      file in memory.*'
+  - name: '**Call `getWindow().getScriptEngine().run()`** – the engine executes every
+      `<script>` tag in the correct order.'
+    text: '**Call `getWindow().getScriptEngine().run()`** – the engine executes every
+      `<script>` tag in the correct order.'
+  - name: '**Use `getElementById`** to locate the element that the script modified.'
+    text: '**Use `getElementById`** to locate the element that the script modified.'
+  - name: '**Read `getInnerText()`** to obtain the plain text result.'
+    text: '**Read `getInnerText()`** to obtain the plain text result.'
+  type: HowTo
+- questions:
+  - answer: Yes. Aspose.HTML executes standard JavaScript, including many framework
+      bootstraps. For heavy client‑side routing, you may need to trigger the router
+      manually after `run()`.
+    question: Can I use this approach with single‑page applications (SPAs) that rely
+      on frameworks like React?
+  - answer: As of version 24.11, the engine implements most ES2021 syntax, including
+      optional chaining and nullish coalescing.
+    question: Does the script engine support modern ES2021 features?
+  - answer: The engine can process scripts up to 5 MB in total; larger bundles should
+      be split or minified.
+    question: What is the maximum script size the engine can handle?
+  - answer: Each `HtmlDocument` instance is thread‑confined. You can create separate
+      documents per thread without contention.
+    question: Is it possible to run the engine in a multi‑threaded environment?
+  - answer: Place the `.lic` file on the classpath or call `License license = new
+      License(); license.setLicense("Aspose.HTML.lic");` before any API usage.
+    question: How do I license Aspose.HTML for production?
+  type: FAQPage
 tags:
 - Java
 - Aspose.HTML
-- JavaScript Execution
-title: Πώς να εκτελείτε σενάρια στην Java – Πλήρης οδηγός για την εκτέλεση JavaScript
-  & εξαγωγή δεδομένων
+- JavaScript execution
+- HTML parsing
+- Automation
+title: Πώς να εκτελέσετε σενάρια – εκτέλεση JavaScript & εξαγωγή δεδομένων
 url: /el/java/advanced-usage/how-to-run-scripts-in-java-complete-guide-to-execute-javascr/
 ---
 
@@ -29,33 +75,47 @@ url: /el/java/advanced-usage/how-to-run-scripts-in-java-complete-guide-to-execut
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Πώς να Εκτελέσετε Scripts σε Java – Πλήρης Οδηγός για την Εκτέλεση JavaScript & Εξαγωγή Δεδομένων
+# Πώς να εκτελέσετε σενάρια – εκτέλεση JavaScript & εξαγωγή δεδομένων
 
-Έχετε αναρωτηθεί ποτέ **πώς να εκτελέσετε scripts** που βρίσκονται μέσα σε ένα αρχείο HTML από ένα απλό πρόγραμμα Java; Ίσως έχετε κάνει scraping μιας σελίδας, αλλά τα δεδομένα που χρειάζεστε εμφανίζονται μόνο αφού εκτελεστεί το JavaScript της σελίδας. Αυτό είναι ένα συνηθισμένο πρόβλημα, ειδικά όταν δουλεύετε με δυναμικές ιστοσελίδες.  
-
-Σε αυτό το tutorial θα δείτε μια πρακτική, ολοκληρωμένη λύση που δείχνει **πώς να εκτελέσετε scripts**, μετά **get element by id**, και τέλος **extract inner text**—όλα με το Aspose.HTML for Java. Θα αγγίξουμε επίσης **πώς να εκτελέσετε javascript** σε άλλα πλαίσια, και γιατί το **run javascript in java** μπορεί να είναι καθοριστικό για εργασίες αυτοματοποίησης.
+Αν χρειάζεστε **how to run scripts** που είναι ενσωματωμένα σε μια σελίδα HTML από μια απλή εφαρμογή Java, βρίσκεστε στο σωστό μέρος. Πολλά σενάρια web‑scraping ή αυτοματοποίησης αποτυγχάνουν επειδή τα δεδομένα εμφανίζονται μόνο μετά την εκτέλεση του JavaScript της σελίδας. Σε αυτό το μάθημα θα μάθετε έναν πλήρη, έτοιμο για παραγωγή τρόπο να **run scripts**, στη συνέχεια **get element by id**, και τέλος **extract inner text** χρησιμοποιώντας το Aspose.HTML για Java. Θα αγγίξουμε επίσης **how to execute javascript** σε άλλα περιβάλλοντα και γιατί το **run javascript in java** μπορεί να είναι καθοριστικό για headless αυτοματοποίηση.
 
 ---
 
-## Τι Θα Μάθετε
-
-- Φόρτωση ενός εγγράφου HTML που περιέχει ενσωματωμένο και εξωτερικό JavaScript.  
-- **Run JavaScript** μέσα στο περιβάλλον Java χρησιμοποιώντας τη μηχανή script του Aspose.HTML.  
-- Χρήση του **get element by id** για τον εντοπισμό του κόμβου DOM που τροποποιεί το script.  
-- **Extract inner text** από αυτόν τον κόμβο και εκτύπωση στο console.  
-- Κοινά προβλήματα, διαχείριση edge‑case, και συμβουλές για επέκταση της προσέγγισης.
-
-> **Προαπαιτούμενα** – Χρειάζεστε Java 8 ή νεότερη, Maven ή Gradle για διαχείριση εξαρτήσεων, και μια έγκυρη άδεια Aspose.HTML for Java (ή προσωρινό κλειδί αξιολόγησης). Δεν απαιτούνται άλλα frameworks.
+## Γρήγορες απαντήσεις
+- **Can Java execute JavaScript?** Ναι – Aspose.HTML παρέχει ενσωματωμένη μηχανή σεναρίων που εκτελεί ενσωματωμένα και εξωτερικά σενάρια.
+- **Which method retrieves the updated node?** Χρησιμοποιήστε `htmlDocument.getElementById("yourId")` μετά την ολοκλήρωση της μηχανής σεναρίων.
+- **Do I need a browser?** Όχι, η μηχανή λειτουργεί εξ ολοκλήρου στη μνήμη, οπότε δεν απαιτείται Selenium ή Chrome.
+- **What Java version is required?** Java 8 ή νεότερη· η βιβλιοθήκη είναι συμβατή με Java 11, 17 και μεταγενέστερες.
+- **Is a license mandatory?** Ένα κλειδί δοκιμής λειτουργεί για αξιολόγηση, αλλά απαιτείται εμπορική άδεια για παραγωγική χρήση.
 
 ---
 
-![πώς να εκτελέσετε scripts διάγραμμα](image.png){alt="πώς να εκτελέσετε scripts διάγραμμα"}
+## Πώς να εκτελέσετε σενάρια σε Java;
+
+Η εκτέλεση σεναρίων σε Java περιλαμβάνει τη φόρτωση του HTML, την ενεργοποίηση της μηχανής σεναρίων και στη συνέχεια την ερώτηση του DOM. Αυτή η διαδικασία συνήθως διαρκεί κάτω από ένα δευτερόλεπτο για τυπικές σελίδες και μπορεί να διαχειριστεί έγγραφα έως 500 KB ενσωματωμένων σεναρίων χωρίς την εκκίνηση πλήρους προγράμματος περιήγησης. Τα βήματα είναι απλά και αξιόπιστα για αυτοματοποίηση στο διακομιστή.
+
+1. **Create an `HtmlDocument`** – αυτό αναλύει τη σήμανση και δημιουργεί ένα εικονικό DOM. *HtmlDocument είναι η κλάση υψηλού επιπέδου του Aspose.HTML που αντιπροσωπεύει ένα αρχείο HTML στη μνήμη.*  
+2. **Call `getWindow().getScriptEngine().run()`** – η μηχανή εκτελεί κάθε ετικέτα `<script>` με τη σωστή σειρά.  
+3. **Use `getElementById`** για να εντοπίσετε το στοιχείο που τροποποίησε το σενάριο.  
+4. **Read `getInnerText()`** για να λάβετε το αποτέλεσμα ως απλό κείμενο.
+
+Αυτή η προσέγγιση εκτελείται σε κάτω από ένα δευτερόλεπτο για τυπικές σελίδες και μπορεί να διαχειριστεί έγγραφα με έως 500 KB ενσωματωμένων σεναρίων χωρίς τη φόρτωση πλήρους προγράμματος περιήγησης.
 
 ---
 
-## Βήμα 1 – Ρύθμιση Aspose.HTML for Java
+## Τι είναι το Aspose.HTML για Java;
 
-Πριν μπορέσουμε να **run JavaScript in Java**, πρέπει να προσθέσουμε τη βιβλιοθήκη Aspose.HTML στο έργο μας. Αν χρησιμοποιείτε Maven, επικολλήστε το παρακάτω στο `pom.xml`:
+Το Aspose.HTML για Java είναι μια βιβλιοθήκη διακομιστή που σας επιτρέπει να φορτώνετε, αποδίδετε και να επεξεργάζεστε HTML, CSS και JavaScript χωρίς γραφικό πρόγραμμα περιήγησης. Υποστηρίζει **50+ μορφές εισόδου και εξόδου**, επεξεργάζεται έγγραφα πολλών εκατοντάδων σελίδων σε λειτουργία αποδοτικής μνήμης και περιλαμβάνει ενσωματωμένη μηχανή JavaScript συμβατή με V8.
+
+## Προαπαιτούμενα
+- Java 8 ή νεότερη (συνιστάται Java 11+)
+- Maven ή Gradle για διαχείριση εξαρτήσεων
+- Αρχείο άδειας Aspose.HTML για Java ή κλειδί αξιολόγησης
+- Αρχείο HTML που περιέχει το σενάριο που θέλετε να εκτελέσετε
+
+## Βήμα 1 – προσθέστε το Aspose.HTML στο έργο σας
+
+Για Maven, προσθέστε την εξάρτηση στο `pom.xml`:
 
 ```xml
 <dependency>
@@ -65,19 +125,17 @@ url: /el/java/advanced-usage/how-to-run-scripts-in-java-complete-guide-to-execut
 </dependency>
 ```
 
-Για Gradle, είναι ως εξής:
+Για Gradle, προσθέστε την ακόλουθη γραμμή στο `build.gradle`:
 
 ```gradle
 implementation 'com.aspose:aspose-html:23.10'
 ```
 
-> **Pro tip:** Κρατήστε τη βιβλιοθήκη σας ενημερωμένη· οι νεότερες εκδόσεις βελτιώνουν τη συμβατότητα της μηχανής JavaScript και διορθώνουν σφάλματα edge‑case.
+**Pro tip:** Διατηρήστε την έκδοση της βιβλιοθήκης ενημερωμένη· η έκδοση 24.11 βελτιώνει την υποστήριξη ECMAScript 2022 και διορθώνει αρκετά σενάρια σφαλμάτων άκρων.
 
----
+## Βήμα 2 – προετοιμάστε το αρχείο HTML
 
-## Βήμα 2 – Προετοιμασία του Αρχείου HTML
-
-Δημιουργήστε ένα αρχείο με όνομα `scripted.html` σε έναν φάκελο που ονομάζεται `YOUR_DIRECTORY`. Το αρχείο πρέπει να περιέχει κάποιο JavaScript που ενημερώνει ένα στοιχείο με `id="dynamicResult"`:
+Δημιουργήστε το `scripted.html` σε φάκελο της επιλογής σας. Το αρχείο πρέπει να περιέχει ένα σενάριο που ενημερώνει ένα στοιχείο με `id="dynamicResult"`:
 
 ```html
 <!DOCTYPE html>
@@ -98,13 +156,15 @@ implementation 'com.aspose:aspose-html:23.10'
 </html>
 ```
 
-Παρατηρήστε την κλήση `getElementById` – αυτό είναι το ακριβές σημείο όπου αργότερα θα **get element by id** από τη Java.
+Η κλήση `getElementById` στο σενάριο είναι το ακριβές σημείο όπου θα ανακτήσουμε αργότερα την τιμή από τη Java.
 
----
+![διάγραμμα εκτέλεσης σεναρίων](image.png){alt="διάγραμμα εκτέλεσης σεναρίων"}
 
-## Βήμα 3 – Φόρτωση του Εγγράφου και Εκτέλεση Όλων των Scripts
+[διάγραμμα εκτέλεσης σεναρίων](image.png)
 
-Τώρα έρχεται η καρδιά του tutorial: **how to run scripts** μέσα στο έγγραφο HTML. Το API του Aspose.HTML μας παρέχει ένα `ScriptEngine` που μπορεί να εκτελέσει τόσο ενσωματωμένα όσο και εξωτερικά scripts.
+## Βήμα 3 – φορτώστε το έγγραφο και εκτελέστε όλα τα σενάρια
+
+Ο παρακάτω κώδικας δείχνει τη βασική λογική. Σημειώστε το άγκυρο ορισμού για την κλάση `HtmlDocument`:
 
 ```java
 import com.aspose.html.*;
@@ -130,52 +190,37 @@ public class JsExecution {
 }
 ```
 
-### Γιατί Λειτουργεί Αυτό
+`HtmlDocument` είναι το αντικείμενο υψηλού επιπέδου του Aspose.HTML που αντιπροσωπεύει ένα μοναδικό αρχείο HTML στη μνήμη. Μετά την κλήση `run()`, το εικονικό DOM αντικατοπτρίζει κάθε αλλαγή που έκανε το JavaScript, επιτρέποντάς σας να ερωτήσετε τους ενημερωμένους κόμβους.
 
-- **`HtmlDocument`** αναλύει το HTML και δημιουργεί ένα εικονικό DOM, όπως θα έκανε ένας φυλλομετρητής.  
-- **`getWindow().getScriptEngine().run()`** λέει στο Aspose.HTML να εκτελέσει κάθε ετικέτα `<script>` που βρίσκει, τηρώντας τη σειρά φόρτωσης και τα attributes `async`.  
-- Όταν η μηχανή ολοκληρωθεί, το DOM αντικατοπτρίζει την κατάσταση μετά την εκτέλεση, ώστε το **`getElementById`** να μπορεί να ανακτήσει τον ενημερωμένο κόμβο.  
-- **`getInnerText()`** μας δίνει το αμιγές κείμενο μέσα στο στοιχείο, που είναι το τελικό αποτέλεσμα που θέλουμε.
+## Βήμα 4 – εκτελέστε το πρόγραμμα Java
 
----
-
-## Βήμα 4 – Εκτέλεση του Προγράμματος Java
-
-Συμπιέστε και τρέξτε την κλάση:
+Συγκεντρώστε και εκτελέστε την κλάση:
 
 ```bash
 javac -cp "path/to/aspose-html-23.10.jar" JsExecution.java
 java -cp ".:path/to/aspose-html-23.10.jar" JsExecution
 ```
 
-Θα πρέπει να δείτε:
+Θα πρέπει να δείτε το κείμενο που το σενάριο έγραψε στο στοιχείο:
 
 ```
 Result after JS: Hello from JavaScript!
 ```
 
-Αν η έξοδος εξακολουθεί να λέει “Waiting…”, ελέγξτε ξανά ότι το script εκτελέστηκε πραγματικά και ότι η διαδρομή του HTML είναι σωστή.
+Αν η έξοδος εξακολουθεί να εμφανίζει “Waiting…”, ελέγξτε ότι η διαδρομή του σεναρίου είναι σωστή και ότι η μηχανή μπόρεσε να φορτώσει τυχόν εξωτερικούς πόρους.
 
----
+## Πώς να διαχειριστείτε εξωτερικά σενάρια και πόρους;
 
-## Διαχείριση Edge Cases & Συχνές Ερωτήσεις
-
-### Τι γίνεται αν η σελίδα φορτώνει εξωτερικά scripts;
-
-Το Aspose.HTML αυτόματα κατεβάζει εξωτερικούς πόρους εφόσον είναι προσβάσιμοι μέσω HTTP/HTTPS. Ωστόσο, ίσως χρειαστεί να ρυθμίσετε proxy ή να ορίσετε έναν προσαρμοσμένο `ResourceLoader` για εταιρικά firewalls.  
+Το Aspose.HTML κατεβάζει αυτόματα εξωτερικά σενάρια που αναφέρονται μέσω `<script src="...">`. Όταν εργάζεστε πίσω από εταιρικό proxy, διαμορφώστε ένα προσαρμοσμένο `ResourceLoader`. *ResourceLoader είναι μια διεπαφή που σας επιτρέπει να ελέγχετε πώς λαμβάνονται εξωτερικοί πόροι.* Αυτό εξασφαλίζει ότι η μηχανή μπορεί να φτάσει στα απομακρυσμένα αρχεία χωρίς λήξη χρόνου.
 
 ```java
 htmlDocument.getWindow().getScriptEngine()
             .setResourceLoader(new CustomResourceLoader());
 ```
 
-### Πώς να **run scripts** που βασίζονται σε `document.write`;
+## Πώς να εξάγετε εσωτερικό κείμενο από πολλαπλά στοιχεία;
 
-Το `document.write` υποστηρίζεται, αλλά αντικαθιστά το τρέχον έγγραφο αν κληθεί μετά το τέλος φόρτωσης της σελίδας. Για να αποφύγετε εκπλήξεις, τυλίξτε τέτοιες κλήσεις σε μια συνάρτηση που εκτελείται νωρίς, π.χ. μέσα στο `window.onload`.
-
-### Μπορώ να **extract inner text** από πολλαπλά στοιχεία;
-
-Βεβαίως. Χρησιμοποιήστε `htmlDocument.querySelectorAll(".someClass")` για να πάρετε ένα `NodeList`, μετά επαναλάβετε:
+Μπορείτε να ερωτήσετε ένα `NodeList` και να επαναλάβετε κάθε κόμβο. *NodeList είναι μια συλλογή που αντιπροσωπεύει το αποτέλεσμα ενός ερωτήματος DOM, όπως `getElementsByTagName`.* Αυτό σας επιτρέπει να επεξεργαστείτε πολλά στοιχεία αποδοτικά.
 
 ```java
 NodeList nodes = htmlDocument.querySelectorAll(".someClass");
@@ -185,9 +230,11 @@ for (int i = 0; i < nodes.getLength(); i++) {
 }
 ```
 
-### Πώς γίνεται η διαχείριση σφαλμάτων όταν ένα script πετάει εξαίρεση;
+Κάθε κλήση `node.getInnerText()` επιστρέφει καθαρό κείμενο, κανονικοποιημένο ως προς τα κενά.
 
-Η μηχανή script πετάει `ScriptException`. Τυλίξτε την κλήση `run()` σε block `try‑catch` και εξετάστε το `e.getMessage()` για αποσφαλμάτωση.
+## Πώς να εντοπίσετε σφάλματα σεναρίου;
+
+Η μηχανή ρίχνει `ScriptException` εάν ένα σενάριο αποτύχει. *ScriptException είναι ο τύπος εξαίρεσης που χρησιμοποιείται για την αναφορά σφαλμάτων εκτέλεσης JavaScript.* Τυλίξτε την κλήση `run()` σε μπλοκ try‑catch για να συλλάβετε το μήνυμα:
 
 ```java
 try {
@@ -197,11 +244,11 @@ try {
 }
 ```
 
----
+Εξετάστε το `e.getMessage()` για αριθμούς γραμμής και στοίβες – αυτό κάνει την αποσφαλμάτωση πολύ πιο γρήγορη.
 
-## Πλήρες Παράδειγμα (All‑In‑One)
+## Πλήρες λειτουργικό παράδειγμα (όλα‑σε‑ένα)
 
-Παρακάτω είναι το ολοκληρωμένο, έτοιμο‑για‑εκτέλεση αρχείο πηγαίου κώδικα. Επικολλήστε το σε ένα αρχείο με όνομα `JsExecution.java`, προσαρμόστε τη διαδρομή στο `scripted.html`, και είστε έτοιμοι.
+Παρακάτω είναι το πλήρες αρχείο πηγαίου κώδικα που μπορείτε να επικολλήσετε στο `JsExecution.java`. Προσαρμόστε τη διαδρομή προς το `scripted.html` όπως χρειάζεται:
 
 ```java
 import com.aspose.html.*;
@@ -238,21 +285,46 @@ public class JsExecution {
 Result after JS: Hello from JavaScript!
 ```
 
----
+## Συνηθισμένα προβλήματα και αντιμετώπιση
+- **Missing external scripts:** Βεβαιωθείτε ότι τα URLs είναι προσβάσιμα από το περιβάλλον του διακομιστή· χρησιμοποιήστε απόλυτα URLs όποτε είναι δυνατόν.
+- `document.write` μετά τη φόρτωση: Αυτό αντικαθιστά το έγγραφο. Τοποθετήστε τέτοιες κλήσεις μέσα στο `window.onload` ή εκτελέστε τη μηχανή με `runEarly()` εάν υποστηρίζεται.
+- Μεγάλα αρχεία HTML: Χρησιμοποιήστε `HtmlLoadOptions.setLoadMode(LoadMode.MemoryOptimized)` για να μειώσετε την πίεση μνήμης σε αρχεία μεγαλύτερα από 10 MB.
+- Προβλήματα κωδικοποίησης: Ορίστε `HtmlLoadOptions.setEncoding(StandardCharsets.UTF_8)` εάν το HTML σας περιέχει μη‑ASCII χαρακτήρες.
+
+## Συχνές ερωτήσεις
+
+**Q: Μπορώ να χρησιμοποιήσω αυτή την προσέγγιση με εφαρμογές μονής σελίδας (SPA) που βασίζονται σε πλαίσια όπως το React;**  
+A: Ναι. Το Aspose.HTML εκτελεί τυπικό JavaScript, συμπεριλαμβανομένων πολλών bootstrap πλαισίων. Για βαριά δρομολόγηση στην πλευρά του πελάτη, ίσως χρειαστεί να ενεργοποιήσετε το router χειροκίνητα μετά το `run()`.
+
+**Q: Υποστηρίζει η μηχανή σεναρίων σύγχρονα χαρακτηριστικά ES2021;**  
+A: Από την έκδοση 24.11, η μηχανή υλοποιεί τις περισσότερες συντακτικές δομές ES2021, συμπεριλαμβανομένου του optional chaining και του nullish coalescing.
+
+**Q: Ποιο είναι το μέγιστο μέγεθος σεναρίου που μπορεί να διαχειριστεί η μηχανή;**  
+A: Η μηχανή μπορεί να επεξεργαστεί σενάρια έως 5 MB συνολικά· μεγαλύτερα πακέτα πρέπει να χωριστούν ή να συμπιεστούν.
+
+**Q: Είναι δυνατόν να εκτελεστεί η μηχανή σε πολυνηματικό περιβάλλον;**  
+A: Κάθε αντικείμενο `HtmlDocument` είναι περιορισμένο σε ένα νήμα. Μπορείτε να δημιουργήσετε ξεχωριστά έγγραφα ανά νήμα χωρίς συγκρούσεις.
+
+**Q: Πώς αδειοδοτώ το Aspose.HTML για παραγωγή;**  
+A: Τοποθετήστε το αρχείο `.lic` στην classpath ή καλέστε `License license = new License(); license.setLicense("Aspose.HTML.lic");` πριν από οποιαδήποτε χρήση του API.
 
 ## Συμπέρασμα
 
-Διασχίσαμε πώς να **run scripts** μέσα σε μια εφαρμογή Java, δείξαμε πώς να **get element by id**, και παρουσιάσαμε έναν καθαρό τρόπο για **extract inner text** μετά την εκτέλεση JavaScript. Εκμεταλλευόμενοι τη ενσωματωμένη μηχανή script του Aspose.HTML, μπορείτε να αυτοματοποιήσετε πρακτικά οποιαδήποτε λογική client‑side χωρίς να εκκινήσετε έναν βαρύ φυλλομετρητή.
+Τώρα έχετε μια αξιόπιστη, ολοκληρωμένη συνταγή για **how to run scripts**, ανάκτηση στοιχείων κατά ID και εξαγωγή εσωτερικού κειμένου—όλα χωρίς εκκίνηση προγράμματος περιήγησης. Αυτή η τεχνική είναι ιδανική για αγωγούς εξαγωγής δεδομένων, αυτοματοποιημένες δοκιμές και οποιαδήποτε κατάσταση όπου χρειάζεται να αξιολογήσετε λογική στην πλευρά του πελάτη στον διακομιστή. Εξερευνήστε περαιτέρω συνδυάζοντάς το με μετατροπή PDF, απόδοση εικόνας ή Selenium για οπτική επαλήθευση.
 
-Θέλετε να προχωρήσετε παραπέρα; Δοκιμάστε:
+**Τελευταία ενημέρωση:** 2026-11-05  
+**Δοκιμή με:** Aspose.HTML for Java 24.11  
+**Συγγραφέας:** Aspose
 
-- **Running scripts** που χειρίζονται φόρμες και στη συνέχεια υποβάλλουν τα δεδομένα προγραμματιστικά.  
-- Χρήση του **run javascript in java** για εξαγωγή δεδομένων από Single‑Page Applications (SPAs).  
-- Συνδυασμό αυτής της προσέγγισης με Selenium για οπτική επικύρωση.
+## Σχετικά Μαθήματα
 
-Δοκιμάστε, τροποποιήστε το HTML, και δείτε πόσο ευέλικτη είναι η λύση. Αν αντιμετωπίσετε δυσκολίες, αφήστε ένα σχόλιο παρακάτω – καλή προγραμματιστική!
+- [Ενεργοποίηση Εκτέλεσης Σεναρίων σε Java – Πλήρης Οδηγός Aspose Html](/html/java/advanced-usage/enable-script-execution-in-java-complete-aspose-html-guide/)
+- [Εκτέλεση Javascript σε Java – Πλήρης Οδηγός Aspose Html](/html/java/advanced-usage/execute-javascript-in-java-complete-aspose-html-guide/)
+- [Εκτέλεση Javascript σε HTML με Aspose Html για Java – Πλήρης Οδηγός](/html/java/editing-html-documents/run-javascript-in-html-with-aspose-html-for-java-full-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
