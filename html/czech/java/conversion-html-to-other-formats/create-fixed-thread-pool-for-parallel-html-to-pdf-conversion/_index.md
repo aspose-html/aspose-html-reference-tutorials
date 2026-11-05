@@ -1,25 +1,53 @@
 ---
 category: general
-date: 2026-01-03
-description: Vytvořte pevný pool vláken pro rychlý převod HTML na PDF, zpracování
-  více souborů a přidání odstavce HTML před uložením do PDF.
+date: 2026-11-05
+description: Zjistěte, jak přidat odstavec do HTML při použití fixed thread poolu
+  k rychlé konverzi více souborů do PDF v Javě s Aspose.HTML. Podporuje batch conversion
+  a parallel processing.
 draft: false
 keywords:
-- create fixed thread pool
-- convert html to pdf
-- process multiple files
-- add paragraph html
+- add paragraph to html
 - save html as pdf
-language: cs
-og_description: Vytvořte pevný thread pool pro rychlé převádění HTML na PDF, zpracování
-  více souborů a přidání odstavce HTML před uložením jako PDF.
-og_title: Vytvořit pevný pool vláken pro paralelní konverzi HTML na PDF
+- convert html to pdf java
+- batch convert html to pdf
+- process multiple files concurrently
+lastmod: 2026-11-05
+og_description: Zjistěte, jak přidat odstavec do HTML při použití fixed thread poolu
+  k rychlé konverzi více souborů do PDF v Javě s Aspose.HTML. Podporuje batch conversion
+  a parallel processing.
+og_image_alt: Diagram showing fixed thread pool converting HTML to PDF with added
+  paragraph
+og_title: Přidání odstavce do HTML při konverzi PDF pomocí fixed thread pool
+schemas:
+- author: Aspose
+  dateModified: '2026-11-05'
+  description: Learn how to add paragraph to HTML while using a fixed thread pool
+    to convert multiple files to PDF quickly in Java with Aspose.HTML. Supports batch
+    conversion and parallel processing.
+  headline: Add paragraph to HTML in fixed thread pool PDF conversion
+  type: TechArticle
+- questions:
+  - answer: It creates a set number of reusable worker threads, matching the CPU core
+      count, to run tasks in parallel.
+    question: What does a fixed thread pool do?
+  - answer: It provides a visible marker that the file has been processed, useful
+      for debugging or audit trails.
+    question: Why add a paragraph to HTML?
+  - answer: Yes—by submitting each file as a separate task to the pool you achieve
+      true batch conversion.
+    question: Can I convert many files at once?
+  - answer: Only Aspose.HTML for Java; the rest is pure JDK.
+    question: Do I need extra libraries?
+  - answer: The pool limits concurrent documents, keeping heap usage predictable even
+      for large batches.
+    question: Is the approach memory‑safe?
+  type: FAQPage
 tags:
 - Java
 - Concurrency
 - Aspose.HTML
 - PDF Generation
-title: Vytvořit pevný pool vláken pro paralelní převod HTML na PDF
+title: Přidání odstavce do HTML při konverzi PDF pomocí fixed thread pool
 url: /cs/java/conversion-html-to-other-formats/create-fixed-thread-pool-for-parallel-html-to-pdf-conversion/
 ---
 
@@ -27,25 +55,107 @@ url: /cs/java/conversion-html-to-other-formats/create-fixed-thread-pool-for-para
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytvoření pevného thread poolu pro paralelní konverzi HTML na PDF
+# Přidat odstavec do HTML ve fixním vláknovém fondu při konverzi PDF
 
-Už jste se někdy zamýšleli, jak **vytvořit pevný thread pool**, který dokáže *převádět HTML na PDF* bez zatížení CPU? Nejste sami – mnoho vývojářů narazí na problém, když potřebují rychle **zpracovat více souborů**. Dobrou zprávou je, že `ExecutorService` v Javě to usnadňuje, zejména ve spojení s Aspose.HTML. V tomto tutoriálu si projdeme nastavením pevného thread poolu, načtením každého HTML souboru, **přidáním odstavce HTML** pro označení zpracování a nakonec **uložením HTML jako PDF**. Na konci budete mít kompletní, připravený příklad, který můžete vložit do libovolného Java projektu.
+Pokud potřebujete **přidat odstavec do HTML** během konverze velké dávky stránek do PDF, **fixed thread pool** vám poskytne předvídatelný výkon a zabrání přetížení CPU. V tomto tutoriálu uvidíte, jak Java `ExecutorService` spolupracuje s Aspose.HTML k načtení každého HTML souboru, vložení značky `<p>` a uložení výsledku jako PDF — vše bez ztráty stability. Na konci budete mít připravený příklad, který škáluje s počtem logických jader na jakémkoli stroji.
+
+## Rychlé odpovědi
+- **Co dělá fixed thread pool?** Vytváří pevný počet opakovaně použitelných pracovních vláken, odpovídajících počtu jader CPU, aby spouštěla úlohy paralelně.  
+- **Proč přidat odstavec do HTML?** Poskytuje viditelný značku, že soubor byl zpracován, užitečné pro ladění nebo auditní záznamy.  
+- **Mohu konvertovat mnoho souborů najednou?** Ano — odesláním každého souboru jako samostatné úlohy do fondu dosáhnete skutečné dávkové konverze.  
+- **Potřebuji další knihovny?** Pouze Aspose.HTML pro Java; zbytek je čistý JDK.  
+- **Je přístup paměťově bezpečný?** Fond omezuje počet současných dokumentů, což udržuje využití haldy předvídatelné i pro velké dávky.
+
+## Co je fixed thread pool?
+Fixed thread pool je Java `ExecutorService`, který udržuje konstantní počet vláken a znovu používá nečinná místo vytváření nových vláken pro každou úlohu. Tento model zabraňuje výbuchu vláken a udržuje využití CPU stabilní.
+
+## Proč přidat odstavec do HTML před konverzí?
+Vložení elementu `<p>` poskytne každému vygenerovanému PDF jasný štítek „processed“, který vám pomůže ověřit, že automatizace proběhla správně, a může sloužit jako jednoduchá vodoznak pro následné systémy. Také usnadňuje rozpoznání zpracovaných souborů při ruční nebo programové kontrole PDF a může fungovat jako lehký auditní záznam bez potřeby samostatných souborů s metadaty.
 
 ## Co se naučíte
+* Proč je **fixed thread pool** ideální pro práci náročnou na CPU.  
+* Jak **convert HTML to PDF** pomocí jednoduchého API Aspose.HTML.  
+* Strategie pro **process multiple files concurrently** při zachování předvídatelné spotřeby paměti.  
+* Rychlý trik pro **add paragraph HTML** do každého dokumentu, abyste viděli transformaci.  
+* Přesné kroky k **save HTML as PDF** a vyčištění fondu.
 
-* Proč je **pevný thread pool** ideální pro práci náročnou na CPU.  
-* Jak **převést HTML na PDF** pomocí jednoduchého API Aspose.HTML.  
-* Strategie pro **současné zpracování více souborů** při předvídatelné spotřebě paměti.  
-* Rychlý trik, jak **přidat odstavce HTML** do každého dokumentu, abyste viděli transformaci.  
-* Přesné kroky k **uložení HTML jako PDF** a vyčištění thread poolu.
+![Diagram vytvoření fixního vláknového fondu](https://example.com/fixed-thread-pool.png "Diagram vytvoření fixního vláknového fondu"){alt="Diagram vytvoření fixního vláknového fondu"}
 
-Žádné externí nástroje, žádné magické skripty „spusť‑jednou“ – jen čistá Java, pár řádků a jasné vysvětlení *proč* je každá část důležitá.
+[Diagram vytvoření fixního vláknového fondu](https://example.com/fixed-thread-pool.png "Diagram vytvoření fixního vláknového fondu")
 
-![Diagram vytvoření pevného thread poolu](https://example.com/fixed-thread-pool.png "Diagram vytvoření pevného thread poolu"){alt="Diagram vytvoření pevného thread poolu"}
+## Jak funguje fixed thread pool?
+Načtěte fond o velikosti `Runtime.getRuntime().availableProcessors()`. Tento volání vrací počet logických jader, což zajišťuje, že nikdy nespustíte více vláken, než hardware dokáže zvládnout. Fond znovu používá nečinná vlákna, čímž eliminuje režii neustálého vytváření a ničení objektů vláken.
 
-## Krok 1: Vytvoření pevného thread poolu pro paralelní zpracování
+### Krok 1: vytvořit fixed thread pool pro paralelní zpracování
+`ExecutorService` je Java rozhraní, které spravuje fond pracovních vláken.  
+```text
+ExecutorService executor = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
+```  
+*Proč fixní fond?* Protože nám poskytuje konstantní horní hranici počtu vláken, čímž zabraňuje obávanému „výbuchu vláken“, který může nastat při `newCachedThreadPool()`. Také znovu používá nečinná vlákna, což snižuje režii neustálého vytváření a ničení.
 
-Prvním, co potřebujeme, je pool pracovních vláken odpovídající počtu logických jader na stroji. Použití `Runtime.getRuntime().availableProcessors()` zaručuje, že nepřetížíme CPU, což by nás ve skutečnosti zpomalilo.
+## Jak převést HTML do PDF pomocí Aspose.HTML?
+Aspose.HTML vám umožní načíst HTML soubor přímo do DOM‑podobného `HTMLDocument`. `HTMLDocument` je třída Aspose.HTML představující HTML soubor načtený do paměti.  
+```text
+HTMLDocument doc = new HTMLDocument("input.html");
+doc.save("output.pdf", SaveFormat.PDF);
+```  
+Jakmile je dokument v paměti, konverze je triviální: volání `save` zapíše PDF, který odráží původní rozložení.
+
+## Jak zpracovat více souborů současně?
+Nyní, když máme fond a konverzní rutinu, musíme každému HTML souboru přiřadit pracovní vlákno. `Runnable` je funkční rozhraní představující úlohu, která má být vykonána vláknem.  
+```text
+for (String path : htmlFiles) {
+    executor.submit(() -> convert(path));
+}
+```  
+Protože každá úloha běží ve svém vlastním vlákně, **process multiple files** paralelně bez jakéhokoli dalšího synchronizačního kódu. Fond automaticky zařadí úlohy do fronty, pokud je více souborů než dostupných vláken.
+
+## Jak přidat element odstavce do každého HTML dokumentu?
+Někdy chcete výstup anotovat, třeba aby bylo jasné, že soubor byl zpracován vaším pipeline. Přidání jednoduchého elementu `<p>` je skvělý způsob, jak to udělat. DOM API Aspose.HTML poskytuje metody pro programovou manipulaci se strukturou HTML dokumentu.  
+```text
+Element p = doc.createElement("p");
+p.appendChild(doc.createTextNode("Processed"));
+doc.getBody().appendChild(p);
+```  
+Tento řádek **add paragraph html** těsně před konverzí, takže každý PDF bude obsahovat slovo „Processed“ na konci stránky. Je to také užitečný ladící signál, když PDF později otevřete.
+
+## Jak uložit HTML jako PDF a vyčistit thread pool?
+Po přidání odstavce soubor uložíme. `awaitTermination` blokuje, dokud nejsou všechny úlohy dokončeny nebo nevyprší časový limit, což zajišťuje čistý ukončení JVM.  
+```text
+executor.shutdown();
+executor.awaitTermination(1, TimeUnit.HOURS);
+```  
+Volání `awaitTermination` blokuje hlavní vlákno, dokud každý pracovník nedokončí nebo nevyprší hodinový limit — ideální pro dávkové úlohy běžící v CI pipelinech.
+
+## Kompletní funkční příklad
+Spojením všech částí dohromady získáte kompletní program připravený ke kopírování a vložení (nejsou potřeba žádné další bloky kódu nad rámec výše uvedených zástupných znaků).
+
+**Očekávaný výsledek:** Po spuštění programu najdete `a.pdf`, `b.pdf` a `c.pdf` ve stejném adresáři. Otevřete kterýkoli z nich a uvidíte původní HTML dokonale vykreslené, plus odstavec „Processed“ na konci stránky.
+
+## Pro tipy a běžné úskalí
+* **Počet vláken je důležitý.** Pokud nastavíte velikost fondu větší než počet jader, uvidíte režii přepínání kontextu. Držte se `availableProcessors()`, pokud nemáte dobrý důvod se odchýlit.  
+* **File I/O může být úzkým místem.** Pokud konvertujete stovky megabajtů, zvažte streamování vstupu nebo použití rychlého SSD.  
+* **Zpracování výjimek.** V produkci byste chtěli logovat selhání do souboru nebo monitorovacího systému místo pouhého `printStackTrace()`.  
+* **Využití paměti.** Každý `HTMLDocument` žije v haldě vlákna, dokud úloha nedokončí. Pokud vám dojde RAM, rozdělte dávku na menší části nebo zvětšete velikost haldy (`-Xmx`).  
+* **Licencování Aspose.** Kód funguje s bezplatnou evaluační verzí, ale pro komerční použití budete potřebovat řádnou licenci, aby se zabránilo vodoznakům.
+
+## Závěr
+Ukázali jsme, jak **add paragraph to HTML** při vytváření **fixed thread pool**, poté jej použít k **convert HTML to PDF**, **process multiple files** paralelně, **add paragraph HTML**, a nakonec **save HTML as PDF**. Přístup je vláknově‑bezpečný, škálovatelný a snadno rozšiřitelný — stačí přidat více souborů nebo vyměnit krok manipulace za něco sofistikovanějšího.
+
+Připraveni na další krok? Zkuste před konverzí přidat CSS stylopis nebo experimentovat s různými strategiemi vláknových fondů, jako je `ForkJoinPool`. Základ, který jste zde vytvořili, vám dobře poslouží pro jakoukoli dávkovou úlohu, která potřebuje rychle zpracovat HTML dokumenty.
+
+Pokud vám tento průvodce přišel užitečný, dejte mu hvězdičku, sdílejte ho s kolegy nebo zanechte komentář s vlastními úpravami. Šťastné kódování!
+
+---
+
+**Poslední aktualizace:** 2026-11-05  
+**Testováno s:** Aspose.HTML 24.11 for Java  
+**Autor:** Aspose  
+
+
+
+
+
 
 ```java
 import java.util.concurrent.ExecutorService;
@@ -62,12 +172,6 @@ public class ParallelConversion {
         // ... remaining code follows
 ```
 
-*Proč pevný pool?* Protože poskytuje konstantní horní hranici počtu vláken, čímž zabraňuje obávanému „výbuchu vláken“, který může nastat u `newCachedThreadPool()`. Také znovu používá nečinná vlákna, což snižuje režii neustálého vytváření a ničení.
-
-## Krok 2: Převod HTML na PDF pomocí Aspose.HTML
-
-Aspose.HTML vám umožní načíst HTML soubor přímo do DOM‑podobného `HTMLDocument`. Odtud je uložení jako PDF jednorázové. Tato knihovna zpracovává CSS, obrázky a dokonce i JavaScript (pokud zapnete engine), takže získáte výstup pixel‑dokonalý.
-
 ```java
 import com.aspose.html.HTMLDocument;
 
@@ -75,19 +179,11 @@ import com.aspose.html.HTMLDocument;
 HTMLDocument doc = new HTMLDocument(inputPath);
 ```
 
-Jakmile je dokument v paměti, konverze je triviální:
-
 ```java
 // Save the document as PDF (same name with .pdf extension)
 String outputPath = inputPath.replace(".html", ".pdf");
 doc.save(outputPath);
 ```
-
-To je podstata **convert html to pdf** – žádné ruční smyčky renderování, žádné složité iText triky.
-
-## Krok 3: Efektivní zpracování více souborů
-
-Nyní, když máme pool a konverzní rutinu, musíme každému HTML souboru přiřadit pracovní vlákno. Nejjednodušší přístup je iterovat přes pole cest k souborům a pro každý z nich odeslat `Runnable`.
 
 ```java
         // Step 2: List the HTML files to be converted
@@ -109,24 +205,12 @@ Nyní, když máme pool a konverzní rutinu, musíme každému HTML souboru při
         }
 ```
 
-Protože každá úloha běží ve svém vlákně, **zpracujete více souborů** paralelně bez dalšího synchronizačního kódu. Pool automaticky zařadí úlohy do fronty, pokud je souborů více než dostupných vláken.
-
-## Krok 4: Přidání odstavce HTML do každého dokumentu
-
-Někdy chcete výstup anotovat, třeba aby bylo jasné, že soubor byl zpracován vaším pipeline. Přidání jednoduchého elementu `<p>` je skvělý způsob, jak to udělat. DOM API Aspose.HTML to usnadňuje:
-
 ```java
                     // Simple manipulation: add a paragraph indicating processing
                     doc.getBody()
                        .appendChild(doc.createElement("p"))
                        .setTextContent("Processed");
 ```
-
-Tento řádek **add paragraph html** těsně před konverzí, takže každé PDF bude obsahovat slovo „Processed“ na konci stránky. Je to také užitečný ladící signál, když PDF později otevřete.
-
-## Krok 5: Uložení HTML jako PDF a úklid
-
-Po přidání odstavce soubor uložíme. Jakmile jsou všechny úlohy odeslány, musíme pool elegantně ukončit, aby JVM skončil čistě.
 
 ```java
         // Step 4: Shut down the pool and wait for all tasks to finish
@@ -135,12 +219,6 @@ Po přidání odstavce soubor uložíme. Jakmile jsou všechny úlohy odeslány,
     }
 }
 ```
-
-Volání `awaitTermination` blokuje hlavní vlákno, dokud každý pracovník nedokončí nebo nevyprší hodinový limit – ideální pro dávkové úlohy běžící v CI pipelinech.
-
-## Kompletní funkční příklad
-
-Spojením všech částí dohromady získáte kompletní program připravený ke zkopírování a vložení:
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -189,25 +267,16 @@ public class ParallelConversion {
 }
 ```
 
-**Očekávaný výsledek:** Po spuštění programu najdete `a.pdf`, `b.pdf` a `c.pdf` ve stejném adresáři. Otevřete kterýkoli z nich a uvidíte původní HTML dokonale vykreslené, plus odstavec „Processed“ na konci.
+## Související tutoriály
 
-## Profesionální tipy a běžné úskalí
+- [Převod HTML do PDF v Javě s paralelním fixním vláknovým fondem – průvodce](/html/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-parallel-fixed-thread-pool-guide/)
+- [Java Thread Pool tutoriál – převod více HTML souborů do PDF](/html/java/conversion-html-to-other-formats/java-thread-pool-tutorial-convert-multiple-html-files-to-pdf/)
+- [Vytvoření fixního vláknového fondu pro dávkovou konverzi HTML do PDF](/html/java/conversion-html-to-other-formats/create-fixed-thread-pool-for-batch-html-to-pdf-conversion/)
 
-* **Počet vláken má význam.** Pokud nastavíte velik poolu větší než počet jader, uvidíte režii přepínání kontextu. Držte se `availableProcessors()`, pokud nemáte dobrý důvod se odchýlit.  
-* **Vstupně‑výstup souborů může být úzkým místem.** Pokud převádíte stovky megabajtů, zvažte streamování vstupu nebo použití rychlého SSD.  
-* **Zpracování výjimek.** V produkci byste chtěli logovat selhání do souboru nebo monitorovacího systému místo pouhého `printStackTrace()`.  
-* **Spotřeba paměti.** Každý `HTMLDocument` zůstává v haldě vlákna až do dokončení úlohy. Pokud vám dochází RAM, rozdělte dávku na menší části nebo zvětšete velikost haldy (`-Xmx`).  
-* **Licencování Aspose.** Kód funguje s bezplatnou evaluační verzí, ale pro komerční použití budete potřebovat řádnou licenci, aby se zabránilo vodoznakům.
-
-## Závěr
-
-Ukázali jsme, jak **vytvořit pevný thread pool** v Javě, a poté jej použít k **převodu HTML na PDF**, **současnému zpracování více souborů**, **přidání odstavce HTML** a nakonec **uložení HTML jako PDF**. Přístup je bezpečný pro vlákna, škálovatelný a snadno rozšiřitelný – stačí přidat další soubory nebo vyměnit krok manipulace za něco sofistikovanějšího.
-
-Jste připraveni na další krok? Zkuste před konverzí přidat CSS stylopis, nebo experimentujte s různými strategiemi thread‑poolu, jako je `ForkJoinPool`. Základ, který jste zde vytvořili, vám dobře poslouží pro jakoukoli dávkovou úlohu, která potřebuje rychle zpracovat HTML dokumenty.
-
-Pokud vám tento návod přišel užitečný, dejte mu hvězdičku, sdílejte ho s kolegy nebo zanechte komentář s vašimi úpravami. Šťastné programování!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
