@@ -8,7 +8,9 @@ url: /tr/java/creating-managing-html-documents/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java için Aspose.HTML'de HTML Belgeleri Oluşturma ve Yönetme
@@ -95,12 +97,8 @@ Java için Aspose.HTML kullanarak HTML belgelerinden metin çıkarma konusunda a
 
 ### [Java için Aspose.HTML'de HTML'i Java'da Ayrıştırma – Yükleme, Sorgulama ve Eleman Sayma](./how-to-parse-html-java-load-query-count-elements/)
 ### [Java'da Asenkron JavaScript Çalıştırma – Adım Adım Tam Kılavuz](./execute-async-javascript-in-java-complete-step-by-step-guide/)
-
-
-
-
-
-
+### [Java için Aspose.HTML'de Şablonu Java Şablon Motoru ile HTML'ye Dönüştürme](./how-to-convert-template-to-html-with-a-java-template-engine/)
+### [İlk ve Soyad Sütunlarıyla Dinamik HTML Tablosuna Veri Bağlama](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
 
 ### [Java için Aspose.HTML'de JavaScript'ten HTML Oluşturma – Tam Adım Adım Kılavuz](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Java'da JavaScript kullanarak dinamik HTML oluşturmayı adım adım öğrenin.
@@ -188,6 +186,6 @@ Java için Aspose.HTML kullanarak HTML şablonlarını nasıl dönüştüreceği
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

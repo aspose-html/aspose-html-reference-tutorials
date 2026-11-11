@@ -8,7 +8,9 @@ url: /zh/java/creating-managing-html-documents/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 在 Aspose.HTML for Java 中创建和管理 HTML 文档
@@ -43,7 +45,6 @@ Aspose.HTML for Java 为开发人员提供了功能强大的工具包，旨在�
 
 ## 在 Aspose.HTML for Java 教程中创建和管理 HTML 文档
 
-
 ### [在 Aspose.HTML for Java 中异步创建 HTML 文档](./create-html-documents-async/)
 掌握使用 Aspose.HTML for Java 异步创建 HTML 文档的方法。其中包含分步指南、提示和常见问题解答，可帮助您快速学习。
 ### [在 Java 中执行异步 JavaScript – 完整分步指南](./execute-async-javascript-in-java-complete-step-by-step-guide/)
@@ -77,6 +78,8 @@ Aspose.HTML for Java 为开发人员提供了功能强大的工具包，旨在�
 学习如何使用 Aspose.HTML for Java 从 JSON 数据生成 HTML 内容，实现动态网页生成。
 ### [在 Java 中使用 Aspose.HTML 创建 HTML 文档 – 步骤指南](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
 通过本分步指南学习如何使用 Aspose.HTML 在 Java 中创建 HTML 文档，适合所有开发者。
+### [如何将数据绑定到包含名和姓列的动态 HTML 表格](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
+简要说明如何使用 Aspose.HTML for Java 将数据绑定到具有名和姓列的动态 HTML 表格。
 ### [在 Aspose.HTML for Java 中处理文档加载事件](./handle-document-load-events/)
 通过本分步指南学习如何在 Aspose.HTML for Java 中处理文档加载事件。增强您的 Web 应用程序。
 
@@ -140,6 +143,8 @@ Aspose.HTML for Java 为开发人员提供了功能强大的工具包，旨在�
 
 
 
+### [如何使用 Java 模板引擎将模板转换为 HTML](./how-to-convert-template-to-html-with-a-java-template-engine/)
+学习如何使用 Java 模板引擎将模板渲染为 HTML，结合 Aspose.HTML 实现高效转换。
 ### [在 Java 中遍历 NodeList – 完整指南](./iterate-over-nodelist-java-complete-guide/)
 本完整指南详细讲解如何在 Java 中使用 Aspose.HTML 遍历 NodeList，包括示例代码和最佳实践。
 ### [在 Java 中从 HTML 提取文本 – 完整分步指南](./extract-text-from-html-with-java-complete-step-by-step-guide/)
@@ -194,6 +199,6 @@ Aspose.HTML for Java 为开发人员提供了功能强大的工具包，旨在�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /it/java/creating-managing-html-documents/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Creazione e gestione di documenti HTML in Aspose.HTML per Java
@@ -62,6 +64,8 @@ Scopri come creare un documento HTML con Aspose.HTML in Java, passo dopo passo, 
 Impara a creare un ambiente sandbox per HTML in Java, garantendo sicurezza e isolamento durante lo sviluppo.
 ### [Estrai il titolo della pagina con Java – Guida completa usando Aspose.HTML](./extract-page-title-with-java-full-guide-using-aspose-html/)
 Scopri come estrarre il titolo di una pagina HTML in Java con Aspose.HTML in questa guida dettagliata passo‑passo.
+### [Come convertire un modello in HTML con un motore di template Java](./how-to-convert-template-to-html-with-a-java-template-engine/)
+Scopri come trasformare template in HTML usando un motore di template Java con Aspose.HTML per Java.
 ### [Carica documenti HTML dall'URL in Aspose.HTML per Java](./load-html-documents-from-url/)
 Scopri come caricare facilmente documenti HTML da un URL in Java con Aspose.HTML. Tutorial passo dopo passo incluso.
 ### [Carica documento HTML Java – Guida completa con XPath e CSS](./load-html-document-java-complete-guide-with-xpath-css/)
@@ -107,12 +111,8 @@ Scopri come iterare un NodeList in Java per leggere un documento HTML e estrarre
 Impara a caricare, interrogare e contare gli elementi HTML in Java usando Aspose.HTML con questa guida passo‑passo.
 ### [Esegui JavaScript asincrono in Java – Guida completa passo‑a‑passo](./execute-async-javascript-in-java-complete-step-by-step-guide/)
 Scopri come eseguire JavaScript asincrono in Java usando Aspose.HTML. Guida passo‑passo con esempi pratici e consigli utili.
-
-
-
-
-
-
+### [Come collegare dati a una tabella HTML dinamica con colonne nome e cognome](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
+Scopri come popolare una tabella HTML dinamica con dati di nome e cognome usando Aspose.HTML per Java.
 
 ### [Genera HTML da JavaScript in Java – Guida completa passo‑passo](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Scopri come generare HTML da codice JavaScript in Java usando Aspose.HTML per Java con questa guida dettagliata passo‑passo.
@@ -184,6 +184,6 @@ Impara a convertire template HTML in Java con Aspose.HTML, seguendo una guida de
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

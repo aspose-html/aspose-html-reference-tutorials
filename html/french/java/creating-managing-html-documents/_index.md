@@ -8,7 +8,9 @@ url: /fr/java/creating-managing-html-documents/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Création et gestion de documents HTML dans Aspose.HTML pour Java
@@ -126,6 +128,11 @@ Apprenez à parcourir un NodeList en Java pour lire le HTML et extraire les attr
 
 
 
+### [Comment convertir un modèle en HTML avec un moteur de modèles Java](./how-to-convert-template-to-html-with-a-java-template-engine/)
+Apprenez à transformer un template en HTML en Java avec un moteur de templates, guide étape par étape.
+### [Lier des données à un tableau HTML dynamique avec colonnes prénom et nom de famille](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
+Apprenez à lier des données à un tableau HTML dynamique contenant des colonnes prénom et nom en Java avec Aspose.HTML.
+
 ### [Itérer sur NodeList en Java – Guide complet](./iterate-over-nodelist-java-complete-guide/)
 Apprenez à parcourir un NodeList en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
 ### [Extraire du texte à partir de HTML avec Java – Guide complet étape par étape](./extract-text-from-html-with-java-complete-step-by-step-guide/)
@@ -185,6 +192,6 @@ Apprenez à charger des documents HTML en Java, à appliquer du CSS et à interr
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

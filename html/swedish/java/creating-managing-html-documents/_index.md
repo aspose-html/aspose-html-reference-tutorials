@@ -8,7 +8,9 @@ url: /sv/java/creating-managing-html-documents/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Skapa och hantera HTML-dokument i Aspose.HTML för Java
@@ -65,6 +67,8 @@ Lär dig att skapa ett HTML-dokument i Java med Aspose.HTML genom en tydlig steg
 Lär dig hur du skapar ett HTML-dokument med inbäddad JavaScript i Java med Aspose.HTML. Steg‑för‑steg‑guide.
 ### [Konvertera HTML-mall – steg‑för‑steg‑guide för Java‑utvecklare](./convert-html-template-step-by-step-guide-for-java-developers/)
 Lär dig hur du konverterar HTML‑mallar i Java med Aspose.HTML i en tydlig steg‑för‑steg‑guide.
+### [Konvertera mall till HTML med en Java‑mallmotor i Aspose.HTML för Java](./how-to-convert-template-to-html-with-a-java-template-engine/)
+Lär dig att omvandla en mall till HTML med hjälp av en Java‑mallmotor i en steg‑för‑steg‑guide.
 ### [Ladda HTML-dokument från URL i Aspose.HTML för Java](./load-html-documents-from-url/)
 Upptäck hur du enkelt laddar HTML-dokument från en URL i Java med Aspose.HTML. Steg-för-steg handledning ingår.
 ### [Räkna HTML-tecken i Java – Fullständig guide med Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
@@ -80,7 +84,6 @@ Lär dig hur du extraherar HTML‑innehåll från MHTML‑filer i Java med Aspos
 ### [Ladda JSON med Fetch i Java – Komplett guide](./load-json-with-fetch-in-java-complete-guide/)
 Lär dig hur du använder Fetch API för att hämta JSON-data i Java med en komplett steg-för-steg-guide.
 ### [Hur du frågar HTML i Java – Komplett handledning](./how-to-query-html-in-java-complete-tutorial/)
-Lär dig hur du söker och extraherar data från HTML-dokument i Java med en komplett steg-för-steg-guide.
 ### [Hur du använder XPath i Java – Läs HTML och extrahera text](./how-to-use-xpath-in-java-read-html-and-extract-text/)
 Lär dig hur du använder XPath i Java för att läsa HTML‑dokument och extrahera text med Aspose.HTML. Steg‑för‑steg‑guide.
 ### [Hur du frågar HTML i Java – Extrahera bild‑URL:er](./how-to-query-html-in-java-extract-image-urls/)
@@ -137,12 +140,8 @@ Lär dig hur du laddar, frågar och räknar HTML-element i Java med Aspose.HTML 
 Lär dig hur du kör asynkron JavaScript i Java med Aspose.HTML, komplett steg‑för‑steg‑guide för smidig integration.
 ### [Iterera över NodeList i Java – Komplett guide](./iterate-over-nodelist-java-complete-guide/)
 Lär dig hur du itererar över NodeList i Java med en komplett steg‑för‑steg‑guide.
-
-
-
-
-
-
+### [Hur du binder data till en dynamisk HTML-tabell med kolumner för för- och efternamn](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
+Lär dig att dynamiskt fylla en HTML-tabell med för- och efternamn från data i Java med Aspose.HTML.
 
 ### [Generera HTML från JavaScript i Java – Komplett steg‑för‑steg‑guide](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Lär dig hur du kör JavaScript för att generera HTML i Java med vår detaljerade steg‑för‑steg‑guide.
@@ -193,6 +192,6 @@ Lär dig att binda data till HTML-tabeller och skapa dynamiska tabeller i Java m
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
