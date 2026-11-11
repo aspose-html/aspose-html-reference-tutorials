@@ -365,12 +365,12 @@ class Template {
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Convert HTML to PDF with Aspose.HTML for Java]({{< relref "html/english/java/conversion-html-to-other-formats/convert-html-to-pdf.md" >}})
-- [Edit HTML using Aspose.HTML for Java]({{< relref "html/english/java/editing-html-documents/advanced-html-document-tree-editing.md" >}})
-- [Convert HTML to String with Aspose.HTML for Java]({{< relref "html/english/java/editing-html-documents/manage-inner-outer-html-properties.md" >}})
+- [Convert HTML to PDF with Aspose.HTML for Java](/html/english/java/conversion-html-to-other-formats/convert-html-to-pdf/)
+- [Edit HTML using Aspose.HTML for Java](/html/english/java/editing-html-documents/advanced-html-document-tree-editing/)
+- [Convert HTML to String with Aspose.HTML for Java](/html/english/java/editing-html-documents/manage-inner-outer-html-properties/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}

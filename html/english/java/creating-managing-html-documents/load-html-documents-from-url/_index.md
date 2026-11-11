@@ -202,8 +202,6 @@ A: The Aspose community forum provides fast assistance; visit it [here](https://
 **Tested With:** Aspose.HTML for Java 24.10  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Related Tutorials
 
 - [Load HTML Documents from File in Aspose.HTML for Java](/html/java/creating-managing-html-documents/load-html-documents-from-file/)
@@ -214,3 +212,5 @@ A: The Aspose community forum provides fast assistance; visit it [here](https://
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
