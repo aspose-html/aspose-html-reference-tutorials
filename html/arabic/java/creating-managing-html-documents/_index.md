@@ -85,6 +85,8 @@ url: /ar/java/creating-managing-html-documents/
 تعلم كيفية تحويل ملفات Markdown إلى HTML في Java باستخدام Aspose.HTML في دليل سريع خطوة بخطوة.
 ### [تحويل قالب HTML – دليل خطوة بخطوة لمطوري Java](./convert-html-template-step-by-step-guide-for-java-developers/)
 تعلم كيفية تحويل قوالب HTML إلى مستندات جاهزة باستخدام Aspose.HTML لـ Java عبر دليل شامل خطوة بخطوة.
+### [إنشاء HTML من قالب باستخدام Aspose.HTML لـ Java](./generate-html-from-a-template-with-aspose-html-for-java/)
+تعلم كيفية إنشاء HTML من قالب باستخدام Aspose.HTML for Java في دليل خطوة بخطوة.
 ### [التعامل مع أحداث تحميل المستندات في Aspose.HTML لـ Java](./handle-document-load-events/)
 تعلم كيفية التعامل مع أحداث تحميل المستندات في Aspose.HTML for Java باستخدام هذا الدليل خطوة بخطوة. قم بتحسين تطبيقات الويب الخاصة بك.
 ### [إنشاء وإدارة مستندات SVG في Aspose.HTML لـ Java](./create-manage-svg-documents/)

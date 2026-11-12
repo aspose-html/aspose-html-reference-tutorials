@@ -80,6 +80,7 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 Показано, как безопасно создавать HTML‑элементы в многопоточной среде Java с использованием ExecutorService.
 ### [Создание HTML-документа с Aspose.HTML – Полное руководство Java](./create-html-document-with-aspose-html-complete-java-guide/)
 Полное пошаговое руководство по созданию HTML-документа с использованием Aspose.HTML в Java.
+### [Генерация HTML из шаблона с помощью Aspose.HTML для Java](./generate-html-from-a-template-with-aspose-html-for-java/)
 ### [Обработка событий загрузки документа в Aspose.HTML для Java](./handle-document-load-events/)
 Изучите обработку событий загрузки документов в Aspose.HTML для Java с помощью этого пошагового руководства. Улучшите свои веб-приложения.
 ### [Как использовать XPath в Java – чтение HTML и извлечение текста](./how-to-use-xpath-in-java-read-html-and-extract-text/)

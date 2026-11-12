@@ -77,6 +77,7 @@ Hướng dẫn chi tiết cách tải tài liệu HTML trong Java, sử dụng X
 Hướng dẫn chi tiết cách tải tài liệu HTML từ URL trong Java, kèm ví dụ sử dụng CSS và XPath để truy vấn nội dung.
 ### [Tạo tài liệu HTML mới bằng Aspose.HTML cho Java](./generate-new-html-documents/)
 Tìm hiểu cách tạo tài liệu HTML mới bằng Aspose.HTML cho Java với hướng dẫn từng bước dễ dàng này. Bắt đầu tạo nội dung HTML động.
+### [Tạo HTML từ mẫu với Aspose.HTML cho Java](./generate-html-from-a-template-with-aspose-html-for-java/)
 ### [Xử lý sự kiện tải tài liệu trong Aspose.HTML cho Java](./handle-document-load-events/)
 Học cách xử lý các sự kiện tải tài liệu trong Aspose.HTML cho Java với hướng dẫn từng bước này. Nâng cao ứng dụng web của bạn.
 ### [Tạo và quản lý tài liệu SVG trong Aspose.HTML cho Java](./create-manage-svg-documents/)

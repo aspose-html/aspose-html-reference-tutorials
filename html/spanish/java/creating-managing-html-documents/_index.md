@@ -39,7 +39,8 @@ Imagina que necesitas generar contenido HTML sobre la marcha en función de la e
 
 Cuando se trata de generar nuevos documentos HTML, Aspose.HTML para Java ofrece una solución sólida que le permite crear contenido web enriquecido desde cero. Ya sea que esté trabajando en un sistema de administración de contenido o necesite generar informes en formato HTML, es fundamental comprender cómo crear y administrar nuevos documentos HTML. Además, las técnicas avanzadas de carga de archivos le permiten trabajar con documentos HTML complejos, lo que garantiza que pueda manejar proyectos a gran escala con facilidad. Estos tutoriales lo guiarán en cada paso, lo que le garantizará que estará equipado para enfrentar cualquier desafío relacionado con HTML.[Leer más](./generate-new-html-documents/)
 
-## Gestión de documentos SVG y manejo de eventos
+### [Generar HTML a partir de una plantilla con Aspose.HTML para Java](./generate-html-from-a-template-with-aspose-html-for-java/)
+Aprenda a generar HTML a partir de una plantilla usando Aspose.HTML para Java con esta guía paso a paso.
 
  Por último, para aquellos que buscan llevar sus habilidades aún más lejos, hay una gran cantidad de temas avanzados para explorar. Aprenda a administrar documentos SVG o a manejar eventos de carga de documentos para crear aplicaciones web dinámicas y responsivas. Estos tutoriales lo llevan más allá del HTML, profundizando en las complejidades de los gráficos vectoriales escalables (SVG) y la programación basada en eventos.[Leer más](./create-manage-svg-documents/)
 
@@ -134,12 +135,6 @@ Aprenda a obtener datos JSON y generar contenido HTML dinámico en Java usando A
 ### [Contar caracteres HTML en Java – Guía completa con Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Aprenda a contar caracteres en documentos HTML usando Aspose.HTML para Java con esta guía paso a paso.
 
-
-
-
-
-
-
 ### [Cómo analizar HTML en Java – Cargar, consultar y contar elementos](./how-to-parse-html-java-load-query-count-elements/)
 Aprenda a cargar, consultar y contar elementos en documentos HTML usando Aspose.HTML para Java con esta guía paso a paso.
 ### [Cómo enlazar datos a una tabla HTML dinámica con columnas de nombre y apellido](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
@@ -153,11 +148,6 @@ Aprenda a convertir plantillas a HTML usando un motor de plantillas Java con Asp
 Aprenda a generar HTML a partir de JavaScript en Java usando Aspose.HTML con esta guía paso a paso.
 ### [Iterar NodeList en Java – Leer HTML y obtener src de imagen](./iterate-nodelist-java-read-html-get-image-src/)
 Aprenda a iterar un NodeList en Java para leer HTML y extraer la ruta src de las imágenes en un tutorial paso a paso.
-
-### [Extraer texto de HTML con Java – Guía completa paso a paso](./extract-text-from-html-with-java-complete-step-by-step-guide/)
-Aprenda a extraer texto de documentos HTML en Java con Aspose.HTML mediante esta guía paso a paso completa.
-### [Iterar sobre NodeList Java – Guía completa](./iterate-over-nodelist-java-complete-guide/)
-Aprenda a iterar sobre NodeList en Java con Aspose.HTML mediante esta guía paso a paso completa.
 
 ### [javascript setTimeout async: Ejecutar JavaScript en Java y actualizar HTML](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
 Aprenda a ejecutar código JavaScript asincrónico desde Java y actualizar el HTML dinámicamente.
@@ -185,9 +175,14 @@ Aprenda a extraer el título de una página web en Java con Aspose.HTML mediante
 ### [Cómo iniciar un hilo en Java – Guía completa](./how-to-start-thread-in-java-complete-guide/)
 Aprenda a iniciar hilos en Java paso a paso, mejorando la concurrencia y el rendimiento de sus aplicaciones.
 
+### [Extraer texto de HTML con Java – Guía completa paso a paso](./extract-text-from-html-with-java-complete-step-by-step-guide/)
+Aprenda a extraer texto de documentos HTML en Java con Aspose.HTML mediante esta guía paso a paso completa.
+### [Iterar sobre NodeList Java – Guía completa](./iterate-over-nodelist-java-complete-guide/)
+Aprenda a iterar sobre NodeList en Java con Aspose.HTML mediante esta guía paso a paso completa.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

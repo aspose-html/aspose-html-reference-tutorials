@@ -80,6 +80,8 @@ Aspose.HTML for Java 为开发人员提供了功能强大的工具包，旨在�
 通过本分步指南学习如何使用 Aspose.HTML 在 Java 中创建 HTML 文档，适合所有开发者。
 ### [如何将数据绑定到包含名和姓列的动态 HTML 表格](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
 简要说明如何使用 Aspose.HTML for Java 将数据绑定到具有名和姓列的动态 HTML 表格。
+### [使用 Aspose.HTML for Java 从模板生成 HTML](./generate-html-from-a-template-with-aspose-html-for-java/)
+本教程展示如何使用 Aspose.HTML for Java 通过模板生成 HTML 页面，包含示例代码和最佳实践。
 ### [在 Aspose.HTML for Java 中处理文档加载事件](./handle-document-load-events/)
 通过本分步指南学习如何在 Aspose.HTML for Java 中处理文档加载事件。增强您的 Web 应用程序。
 

@@ -124,11 +124,18 @@ url: /el/java/creating-managing-html-documents/
 ### [Πώς να αναλύσετε HTML σε Java – Φόρτωση, ερώτημα και καταμέτρηση στοιχείων](./how-to-parse-html-java-load-query-count-elements/)
 Μάθετε πώς να φορτώνετε, ερωτάτε και μετράτε στοιχεία HTML σε Java με το Aspose.HTML, βήμα‑βήμα οδηγός.
 ### [Εκτέλεση ασύγχρονης JavaScript σε Java – Πλήρης οδηγός βήμα‑βήμα](./execute-async-javascript-in-java-complete-step-by-step-guide/)
-Μάθετε πώς να εκτελείτε κώδικα JavaScript ασύγχρονα σε εφαρμογές Java με το Aspose.HTML, βήμα‑βήμα οδηγίες.
 ### [Πώς να μετατρέψετε πρότυπο σε HTML με μηχανή προτύπων Java](./how-to-convert-template-to-html-with-a-java-template-engine/)
 Μάθετε πώς να μετατρέπετε πρότυπα σε HTML χρησιμοποιώντας μια μηχανή προτύπων Java με το Aspose.HTML.
 ### [Πώς να δεσμεύσετε δεδομένα σε έναν δυναμικό πίνακα HTML με στήλες ονόματος και επωνύμου](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
 Μάθετε πώς να δεσμεύσετε δεδομένα σε έναν δυναμικό πίνακα HTML με στήλες πρώτου ονόματος και επωνύμου.
+### [Δημιουργία HTML από πρότυπο με Aspose.HTML για Java](./generate-html-from-a-template-with-aspose-html-for-java/)
+Μάθετε πώς να δημιουργείτε HTML χρησιμοποιώντας πρότυπο με Aspose.HTML για Java σε βήμα‑βήμα οδηγό.
+
+
+
+
+
+
 
 ### [Επανάληψη NodeList σε Java – Πλήρης Οδηγός](./iterate-over-nodelist-java-complete-guide/)
 Μάθετε πώς να επαναλαμβάνετε NodeList σε Java χρησιμοποιώντας το Aspose.HTML με αυτόν τον πλήρη οδηγό βήμα‑βήμα.

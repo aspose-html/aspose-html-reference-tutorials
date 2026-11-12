@@ -116,6 +116,8 @@ Aprenda a criar um documento HTML com JavaScript incorporado usando Aspose.HTML 
 Aprenda a criar documentos HTML usando Aspose.HTML com este guia passo a passo completo para Java.
 ### [Converter modelo HTML – guia passo a passo para desenvolvedores Java](./convert-html-template-step-by-step-guide-for-java-developers/)
 Aprenda a converter templates HTML em documentos usando Aspose.HTML para Java com este tutorial detalhado passo a passo.
+### [Gerar HTML a partir de um modelo com Aspose.HTML para Java](./generate-html-from-a-template-with-aspose-html-for-java/)
+Aprenda a gerar HTML a partir de um modelo usando Aspose.HTML para Java neste guia passo a passo.
 ### [Manipular eventos de carregamento de documentos em Aspose.HTML para Java](./handle-document-load-events/)
 Aprenda a manipular eventos de carregamento de documentos no Aspose.HTML para Java com este guia passo a passo. Aprimore seus aplicativos da web.
 ### [Crie e gerencie documentos SVG em Aspose.HTML para Java](./create-manage-svg-documents/)

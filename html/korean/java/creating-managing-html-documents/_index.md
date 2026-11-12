@@ -130,6 +130,8 @@ Aspose.HTML for Java를 활용해 Java에서 비동기 JavaScript를 실행하�
 ### [Java 템플릿 엔진으로 템플릿을 HTML로 변환하는 방법](./how-to-convert-template-to-html-with-a-java-template-engine/)
 Aspose.HTML for Java를 사용하여 Java 템플릿 엔진을 활용해 템플릿을 HTML로 변환하는 방법을 단계별로 안내합니다.
 ### [동적 HTML 테이블에 이름 및 성 열 바인딩하기](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
+### [Aspose.HTML for Java를 사용하여 템플릿에서 HTML 생성](./generate-html-from-a-template-with-aspose-html-for-java/)
+Aspose.HTML for Java를 활용해 템플릿을 기반으로 동적인 HTML을 생성하는 방법을 단계별로 안내합니다.
 
 ### [Java에서 HTML 문자 수 세기 – Aspose HTML을 활용한 전체 가이드](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Aspose.HTML for Java를 사용하여 HTML 문자열의 문자 수를 정확히 계산하는 방법을 단계별로 안내합니다.

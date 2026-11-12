@@ -117,6 +117,8 @@ Ismerje meg, hogyan hozhat létre HTML-dokumentumot Java-ban JSON adatok lekér�
 
 
 
+### [HTML generálása sablonból az Aspose.HTML for Java-val](./generate-html-from-a-template-with-aspose-html-for-java/)
+Ismerje meg, hogyan hozhat létre HTML-t előre definiált sablonok alapján az Aspose.HTML for Java segítségével.
 
 
 

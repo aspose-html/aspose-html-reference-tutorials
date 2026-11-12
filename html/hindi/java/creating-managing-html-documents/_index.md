@@ -166,6 +166,8 @@ Java में Computed Style प्राप्त करने के लि�
 Aspose.HTML के साथ Java में HTML दस्तावेज़ लोड करना सीखें, CSS सेलेक्टर और XPath क्वेरी के साथ उन्नत डेटा निकालें।
 ### [HTML तालिका डेटा बाइंडिंग ट्यूटोरियल – गतिशील HTML तालिका बनाएं](./html-table-data-binding-tutorial-create-a-dynamic-html-table/)
 ### [Java के लिए Aspose.HTML में HTML टेम्प्लेट रूपांतरण – चरण‑दर‑चरण गाइड](./convert-html-template-step-by-step-guide-for-java-developers/)
+### [Java के लिए Aspose.HTML में टेम्पलेट से HTML उत्पन्न करें](./generate-html-from-a-template-with-aspose-html-for-java/)
+Aspose.HTML for Java का उपयोग करके टेम्पलेट से डायनामिक HTML बनाना सीखें। चरण‑दर‑चरण मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
