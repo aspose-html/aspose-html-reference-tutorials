@@ -8,7 +8,9 @@ url: /cs/java/creating-managing-html-documents/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Vytváření a správa HTML dokumentů v Aspose.HTML pro Java
@@ -45,7 +47,6 @@ Rychlý návod, jak převést Markdown na HTML v Javě pomocí Aspose.HTML.
  A konečně, pro ty, kteří chtějí své dovednosti posouvat ještě dále, je tu spousta pokročilých témat k prozkoumání. Naučte se spravovat dokumenty SVG nebo zpracovávat události načítání dokumentů a vytvářet citlivé a dynamické webové aplikace. Tyto výukové programy vás zavedou za hranice HTML, ponoříte se do složitostí škálovatelné vektorové grafiky (SVG) a programování řízeného událostmi.[Přečtěte si více](./create-manage-svg-documents/)
 
 ## Vytváření a správa HTML dokumentů v Aspose.HTML pro Java tutoriály
-
 
 ### [Vytvářejte dokumenty HTML asynchronně v Aspose.HTML pro Java](./create-html-documents-async/)
 Hlavní vytváření HTML dokumentů asynchronně s Aspose.HTML pro Java. Součástí je podrobný průvodce, tipy a často kladené otázky pro rychlé učení.
@@ -116,6 +117,9 @@ Naučte se extrahovat text z HTML v Javě pomocí Aspose.HTML s podrobným krok�
 
 
 
+### [Jak převést šablonu na HTML pomocí Java šablonového enginu](./how-to-convert-template-to-html-with-a-java-template-engine/)
+### [Jak svázat data s dynamickou HTML tabulkou se sloupci jména a příjmení](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
+
 ### [Iterace NodeList v Javě – čtení HTML a získání src obrázku](./iterate-nodelist-java-read-html-get-image-src/)
 Naučte se, jak iterovat přes NodeList v Javě, číst HTML a získat atribut src obrázku pomocí Aspose.HTML.
 ### [Iterace přes NodeList v Javě – Kompletní průvodce](./iterate-over-nodelist-java-complete-guide/)
@@ -176,6 +180,6 @@ Naučte se, jak získat vypočtené CSS styly v Javě pomocí Aspose.HTML s podr
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

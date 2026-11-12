@@ -8,7 +8,9 @@ url: /de/java/creating-managing-html-documents/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Erstellen und Verwalten von HTML-Dokumenten in Aspose.HTML für Java
@@ -63,6 +65,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML in Java ein Div-Element mit der Klasse 'ja
 Erfahren Sie, wie Sie mit Aspose.HTML für Java ein HTML-Dokument mit eingebettetem JavaScript erstellen, inklusive Beispielcode.
 ### [Seiten­titel mit Java extrahieren – Vollständiger Leitfaden mit Aspose.HTML](./extract-page-title-with-java-full-guide-using-aspose-html/)
 Lernen Sie, wie Sie mit Aspose.HTML für Java den Titel einer HTML‑Seite auslesen und verarbeiten – Schritt‑für‑Schritt‑Anleitung.
+### [Wie man Vorlagen mit einer Java-Template-Engine in HTML konvertiert](./how-to-convert-template-to-html-with-a-java-template-engine/)
+Erfahren Sie, wie Sie Vorlagen mithilfe einer Java-Template-Engine in HTML umwandeln und dynamische Inhalte erzeugen.
 ### [Laden Sie HTML-Dokumente von einer URL in Aspose.HTML für Java](./load-html-documents-from-url/)
 Entdecken Sie, wie Sie mit Aspose.HTML ganz einfach HTML-Dokumente von einer URL in Java laden. Schritt‑für‑Schritt‑Anleitung inklusive.
 
@@ -131,22 +135,12 @@ Erfahren Sie, wie Sie mit Aspose.HTML für Java die Anzahl von HTML‑Zeichen er
 Erfahren Sie, wie Sie asynchronen JavaScript-Code in Java ausführen, inklusive Setup, Code‑Beispiele und Best Practices.
 ### [HTML in Java parsen – Laden, Abfragen & Elemente zählen](./how-to-parse-html-java-load-query-count-elements/)
 Erfahren Sie, wie Sie HTML in Java laden, Elemente abfragen und deren Anzahl bestimmen – Schritt‑für‑Schritt‑Anleitung.
-
-
-
-
-
-
+### [Daten an eine dynamische HTML‑Tabelle mit Vor‑ und Nachnamen‑Spalten binden](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
 
 ### [HTML aus JavaScript in Java generieren – Vollständige Schritt‑für‑Schritt‑Anleitung](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Erfahren Sie, wie Sie mit Aspose.HTML für Java HTML aus JavaScript erzeugen. Detaillierte Schritt‑für‑Schritt‑Anleitung inklusive Beispielen.
 ### [NodeList in Java iterieren – HTML lesen & Bild‑src abrufen](./iterate-nodelist-java-read-html-get-image-src/)
 Lernen Sie, wie Sie mit Aspose.HTML für Java eine NodeList durchlaufen, HTML-Inhalte lesen und die src‑Attribute von Bildern extrahieren.
-
-
-
-
-
 
 ### [Iterieren über NodeList in Java – Komplett‑Leitfaden](./iterate-over-nodelist-java-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML für Java NodeList‑Objekte durchlaufen und HTML‑Elemente effizient verarbeiten.
@@ -191,6 +185,6 @@ Lernen Sie, HTML‑Dokumente in Java zu laden und mit CSS‑Selektoren sowie XPa
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

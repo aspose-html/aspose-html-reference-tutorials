@@ -8,7 +8,9 @@ url: /vi/java/creating-managing-html-documents/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo và quản lý tài liệu HTML trong Aspose.HTML cho Java
@@ -63,6 +65,8 @@ Hướng dẫn cách lấy dữ liệu JSON và tạo nội dung HTML động tr
 Hướng dẫn nhanh cách chuyển đổi tài liệu Markdown thành HTML trong Java bằng Aspose.HTML.
 ### [Tạo tài liệu HTML với JavaScript nhúng – Ví dụ Java](./create-html-document-with-embedded-javascript-java-example/)
 Hướng dẫn tạo tài liệu HTML có chứa JavaScript nhúng trong Java bằng Aspose.HTML, kèm ví dụ chi tiết.
+### [Cách chuyển đổi mẫu thành HTML bằng công cụ mẫu Java](./how-to-convert-template-to-html-with-a-java-template-engine/)
+Hướng dẫn chi tiết cách sử dụng công cụ mẫu Java để chuyển đổi template thành tài liệu HTML trong Aspose.HTML cho Java.
 ### [Tải tài liệu HTML từ URL trong Aspose.HTML cho Java](./load-html-documents-from-url/)
 Khám phá cách dễ dàng tải tài liệu HTML từ URL trong Java bằng Aspose.HTML. Có kèm hướng dẫn từng bước.
 ### [Lặp qua NodeList trong Java – Đọc HTML và Lấy src ảnh](./iterate-nodelist-java-read-html-get-image-src/)
@@ -105,6 +109,8 @@ Tìm hiểu cách tạo HTML từ JavaScript trong Java bằng Aspose.HTML với
 
 
 
+
+### [Cách liên kết dữ liệu tới bảng HTML động với các cột Họ và Tên trong Aspose.HTML cho Java](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
 
 ### [Lặp qua NodeList trong Java – Hướng dẫn đầy đủ](./iterate-over-nodelist-java-complete-guide/)
 Tìm hiểu cách lặp qua NodeList trong Java bằng Aspose.HTML với hướng dẫn chi tiết và ví dụ thực tế.
@@ -180,6 +186,6 @@ Hướng dẫn chi tiết cách chuyển đổi mẫu HTML thành tài liệu tr
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

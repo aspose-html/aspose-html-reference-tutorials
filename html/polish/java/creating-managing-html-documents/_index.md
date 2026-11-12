@@ -8,7 +8,9 @@ url: /pl/java/creating-managing-html-documents/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tworzenie i zarządzanie dokumentami HTML w Aspose.HTML dla Java
@@ -42,7 +44,6 @@ Jeśli chodzi o generowanie nowych dokumentów HTML, Aspose.HTML for Java oferuj
  Na koniec, dla tych, którzy chcą rozwinąć swoje umiejętności jeszcze bardziej, jest mnóstwo zaawansowanych tematów do zbadania. Dowiedz się, jak zarządzać dokumentami SVG lub obsługiwać zdarzenia ładowania dokumentów, aby tworzyć responsywne i dynamiczne aplikacje internetowe. Te samouczki przeniosą Cię poza HTML, zagłębiając się w zawiłości Scalable Vector Graphics (SVG) i programowania opartego na zdarzeniach.[Przeczytaj więcej](./create-manage-svg-documents/)
 
 ## Tworzenie i zarządzanie dokumentami HTML w samouczkach Aspose.HTML dla języka Java
-
 
 ### [Twórz dokumenty HTML asynchronicznie w Aspose.HTML dla Java](./create-html-documents-async/)
 Opanuj asynchroniczne tworzenie dokumentów HTML za pomocą Aspose.HTML dla Java. Przewodnik krok po kroku, wskazówki i FAQ dołączone do szybkiej nauki.
@@ -128,6 +129,11 @@ Dowiedz się, jak iterować NodeList w Javie, odczytywać HTML i wyodrębniać a
 
 
 
+### [Jak przekonwertować szablon na HTML przy użyciu silnika szablonów Java](./how-to-convert-template-to-html-with-a-java-template-engine/)
+Dowiedz się, jak przy użyciu silnika szablonów Java przekształcić szablon w gotowy dokument HTML.
+### [Jak powiązać dane z dynamiczną tabelą HTML z kolumnami imienia i nazwiska](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
+Dowiedz się, jak dynamicznie wypełnić tabelę HTML danymi, tworząc kolumny imienia i nazwiska.
+
 ### [Iterowanie po NodeList w Javie – Kompletny przewodnik](./iterate-over-nodelist-java-complete-guide/)
 Poznaj, jak iterować po NodeList w Javie przy użyciu Aspose.HTML, krok po kroku, z praktycznymi przykładami.
 ### [Wyodrębnianie tekstu z HTML w Javie – Kompletny przewodnik krok po kroku](./extract-text-from-html-with-java-complete-step-by-step-guide/)
@@ -187,6 +193,6 @@ Dowiedz się, jak konwertować szablony HTML w Javie przy użyciu Aspose.HTML, k
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

@@ -178,6 +178,6 @@ A: If you run into any problems, consult the [support forum](https://forum.aspos
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

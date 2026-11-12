@@ -137,8 +137,12 @@ Aprenda a contar caracteres en documentos HTML usando Aspose.HTML para Java con 
 
 ### [Cómo analizar HTML en Java – Cargar, consultar y contar elementos](./how-to-parse-html-java-load-query-count-elements/)
 Aprenda a cargar, consultar y contar elementos en documentos HTML usando Aspose.HTML para Java con esta guía paso a paso.
+### [Cómo enlazar datos a una tabla HTML dinámica con columnas de nombre y apellido](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
+Aprenda a enlazar datos a una tabla HTML dinámica con columnas de nombre y apellido usando Aspose.HTML para Java.
 ### [Ejecutar JavaScript asíncrono en Java – Guía completa paso a paso](./execute-async-javascript-in-java-complete-step-by-step-guide/)
 Aprenda a ejecutar JavaScript asíncrono en Java con Aspose.HTML mediante una guía paso a paso completa.
+### [Cómo convertir una plantilla a HTML con un motor de plantillas Java](./how-to-convert-template-to-html-with-a-java-template-engine/)
+Aprenda a convertir plantillas a HTML usando un motor de plantillas Java con Aspose.HTML, guía paso a paso.
 
 ### [Generar HTML desde JavaScript en Java – Guía completa paso a paso](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Aprenda a generar HTML a partir de JavaScript en Java usando Aspose.HTML con esta guía paso a paso.

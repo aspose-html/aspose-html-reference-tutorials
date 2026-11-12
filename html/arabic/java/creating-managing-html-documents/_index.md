@@ -8,7 +8,9 @@ url: /ar/java/creating-managing-html-documents/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # إنشاء وإدارة مستندات HTML في Aspose.HTML لـ Java
@@ -43,7 +45,6 @@ url: /ar/java/creating-managing-html-documents/
 
 ## إنشاء وإدارة مستندات HTML في Aspose.HTML لـ Java - دروس تعليمية
 
-
 ### [إنشاء مستندات HTML بشكل غير متزامن في Aspose.HTML لـ Java](./create-html-documents-async/)
 إتقان إنشاء مستندات HTML بشكل غير متزامن باستخدام Aspose.HTML لـ Java. دليل خطوة بخطوة ونصائح وأسئلة شائعة متضمنة للتعلم السريع.
 ### [إنشاء مستندات HTML فارغة في Aspose.HTML لـ Java](./create-empty-html-documents/)
@@ -60,6 +61,8 @@ url: /ar/java/creating-managing-html-documents/
 تعلم كيفية جلب بيانات JSON وإنشاء محتوى HTML ديناميكي باستخدام Aspose.HTML for Java في دليل خطوة بخطوة.
 ### [إنشاء مستند HTML في Java – دليل خطوة بخطوة مع Aspose.HTML](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
 تعلم كيفية إنشاء مستند HTML في Java باستخدام Aspose.HTML من خلال دليل شامل خطوة بخطوة.
+### [كيفية تحويل القالب إلى HTML باستخدام محرك قوالب Java](./how-to-convert-template-to-html-with-a-java-template-engine/)
+تعلم كيفية تحويل القوالب إلى مستندات HTML باستخدام محرك قوالب Java.
 ### [تحميل مستندات HTML من URL في Aspose.HTML لـ Java](./load-html-documents-from-url/)
 اكتشف كيفية تحميل مستندات HTML بسهولة من عنوان URL في Java باستخدام Aspose.HTML. يتضمن البرنامج التعليمي خطوة بخطوة.
 ### [تحميل مستند HTML في Java – دليل كامل مع XPath و CSS](./load-html-document-java-complete-guide-with-xpath-css/)
@@ -128,6 +131,8 @@ url: /ar/java/creating-managing-html-documents/
 
 
 
+### [كيفية ربط البيانات بجدول HTML ديناميكي بأعمدة الاسم الأول والاسم الأخير](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
+
 ### [التكرار على NodeList في Java – دليل كامل](./iterate-over-nodelist-java-complete-guide/)
 ### [استخراج النص من HTML باستخدام Java – دليل خطوة بخطوة كامل](./extract-text-from-html-with-java-complete-step-by-step-guide/)
 تعلم كيفية استخراج النص من مستندات HTML باستخدام Aspose.HTML for Java من خلال دليل شامل خطوة بخطوة.
@@ -187,6 +192,6 @@ url: /ar/java/creating-managing-html-documents/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /hi/java/creating-managing-html-documents/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java के लिए Aspose.HTML में HTML दस्तावेज़ बनाना और प्रबंधित करना
@@ -99,26 +101,16 @@ Aspose.HTML for Java का उपयोग करके HTML से टेक�
 ### [Java में असिंक्रोनस जावास्क्रिप्ट निष्पादित करें – पूर्ण चरण‑दर‑चरण गाइड](./execute-async-javascript-in-java-complete-step-by-step-guide/)
 Java में असिंक्रोनस जावास्क्रिप्ट चलाने के लिए चरण‑दर‑चरण मार्गदर्शिका, टिप्स और सर्वोत्तम प्रथाएँ।
 ### [Java में HTML को पार्स करना – लोड, क्वेरी और तत्वों की गिनती](./how-to-parse-html-java-load-query-count-elements/)
-Aspose.HTML for Java का उपयोग करके HTML को लोड, क्वेरी और तत्वों की गिनती करने की चरण‑दर‑चरण मार्गदर्शिका।
-### [Java के लिए Aspose.HTML में टेम्पलेट से HTML उत्पन्न करें](./generate-html-from-a-template-with-aspose-html-for-java/)
-Aspose.HTML for Java का उपयोग करके टेम्पलेट से डायनामिक HTML बनाना सीखें। चरण‑दर‑चरण मार्गदर्शिका।
+Aspose.HTML for Java का उपयोग करके HTML को लोड, क्वेरी और तत्वों की गिनती करने की चरण‑दर‑चरण मार्गदर्शन।
 
+### [डायनामिक HTML तालिका में प्रथम और अंतिम नाम कॉलम के साथ डेटा बाइंड करना कैसे करें](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
 
-
-
-
-
+### [Java टेम्पलेट इंजन के साथ टेम्पलेट को HTML में कैसे बदलें](./how-to-convert-template-to-html-with-a-java-template-engine/)
 
 ### [Java में JavaScript से HTML उत्पन्न करें – पूर्ण चरण‑दर‑चरण गाइड](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Java में JavaScript को निष्पादित करके HTML उत्पन्न करने की पूरी चरण‑दर‑चरण गाइड। कोड उदाहरण और सर्वोत्तम प्रथाएँ शामिल हैं।
 ### [NodeList को इटररेट करें Java – HTML पढ़ें और इमेज src प्राप्त करें](./iterate-nodelist-java-read-html-get-image-src/)
 Java में NodeList को इटररेट करके HTML से इमेज src निकालना सीखें। चरण‑दर‑चरण मार्गदर्शिका और कोड उदाहरण।
-
-
-
-
-
-
 
 ### [Java में NodeList पर इटरेट करना – पूर्ण गाइड](./iterate-over-nodelist-java-complete-guide/)
 Aspose.HTML for Java का उपयोग करके NodeList को इटरेट करने की पूरी प्रक्रिया सीखें, कोड उदाहरण और सर्वोत्तम प्रथाएँ।
@@ -174,10 +166,12 @@ Java में Computed Style प्राप्त करने के लि�
 Aspose.HTML के साथ Java में HTML दस्तावेज़ लोड करना सीखें, CSS सेलेक्टर और XPath क्वेरी के साथ उन्नत डेटा निकालें।
 ### [HTML तालिका डेटा बाइंडिंग ट्यूटोरियल – गतिशील HTML तालिका बनाएं](./html-table-data-binding-tutorial-create-a-dynamic-html-table/)
 ### [Java के लिए Aspose.HTML में HTML टेम्प्लेट रूपांतरण – चरण‑दर‑चरण गाइड](./convert-html-template-step-by-step-guide-for-java-developers/)
+### [Java के लिए Aspose.HTML में टेम्पलेट से HTML उत्पन्न करें](./generate-html-from-a-template-with-aspose-html-for-java/)
+Aspose.HTML for Java का उपयोग करके टेम्पलेट से डायनामिक HTML बनाना सीखें। चरण‑दर‑चरण मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

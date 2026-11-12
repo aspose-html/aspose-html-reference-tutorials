@@ -8,7 +8,9 @@ url: /hu/java/creating-managing-html-documents/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # HTML-dokumentumok létrehozása és kezelése az Aspose.HTML for Java-ban
@@ -42,7 +44,6 @@ Ha új HTML-dokumentumokról van szó, az Aspose.HTML for Java robusztus megold�
  Végül pedig azok számára, akik még tovább szeretnék fejleszteni készségeiket, rengeteg haladó téma áll rendelkezésére. Tanulja meg, hogyan kezelheti az SVG-dokumentumokat vagy hogyan kezelheti a dokumentumbetöltési eseményeket az érzékeny és dinamikus webalkalmazások létrehozásához. Ezek az oktatóanyagok túlmutatnak a HTML-en, és belemerülhetnek a Scalable Vector Graphics (SVG) és az eseményvezérelt programozás bonyolultságába.[Olvass tovább](./create-manage-svg-documents/)
 
 ## HTML-dokumentumok létrehozása és kezelése az Aspose.HTML for Java oktatóanyagban
-
 
 ### [Hozzon létre HTML-dokumentumokat aszinkron módon az Aspose.HTML for Java-ban](./create-html-documents-async/)
 Elsz... (description)
@@ -129,6 +130,11 @@ Ismerje meg, hogyan generálhat HTML-t JavaScript kódból Java alkalmazásban, 
 
 
 
+
+### [Hogyan konvertáljon sablont HTML-re Java sablonmotorral](./how-to-convert-template-to-html-with-a-java-template-engine/)
+Ismerje meg, hogyan alakíthatja át a sablonokat HTML-re Java sablonmotor segítségével, lépésről‑lépésre útmutató.
+### [Hogyan kössön adatot egy dinamikus HTML táblázathoz, amely első- és utolsónév oszlopokat tartalmaz](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
+Tanulja meg, hogyan kössön adatot egy dinamikus HTML táblázathoz, amely első- és utolsónév oszlopokat tartalmaz.
 
 ### [NodeList bejárása Java – HTML olvasása és képek src lekérése](./iterate-nodelist-java-read-html-get-image-src/)
 Tanulja meg, hogyan járhatja be a NodeList-et Java-ban, olvashat HTML-t és szerezheti meg a képek src attribútumát lépésről lépésre.

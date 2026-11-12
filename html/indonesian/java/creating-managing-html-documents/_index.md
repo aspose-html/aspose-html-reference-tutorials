@@ -8,7 +8,9 @@ url: /id/java/creating-managing-html-documents/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Membuat dan Mengelola Dokumen HTML di Aspose.HTML untuk Java
@@ -46,7 +48,6 @@ Pelajari cara menghasilkan HTML dari template menggunakan Aspose.HTML untuk Java
 
 ## Membuat dan Mengelola Dokumen HTML di Aspose.HTML untuk Tutorial Java
 
-
 ### [Membuat Dokumen HTML Secara Asinkron di Aspose.HTML untuk Java](./create-html-documents-async/)
 Kuasai pembuatan dokumen HTML secara asinkron dengan Aspose.HTML untuk Java. Panduan langkah demi langkah, kiat, dan Tanya Jawab disertakan untuk pembelajaran cepat.
 ### [Buat Dokumen HTML Kosong di Aspose.HTML untuk Java](./create-empty-html-documents/)
@@ -71,6 +72,8 @@ Pelajari cara mengambil data JSON menggunakan JavaScript dan menggunakannya untu
 Pelajari cara membuat dokumen HTML di Java dengan Aspose.HTML melalui panduan langkah demi langkah yang mudah diikuti.
 ### [Buat Dokumen HTML dengan JavaScript Tersemat – Contoh Java](./create-html-document-with-embedded-javascript-java-example/)
 Pelajari cara membuat dokumen HTML yang menyertakan JavaScript tersemat menggunakan Aspose.HTML untuk Java dalam contoh langkah demi langkah.
+### [Cara mengonversi template menjadi HTML dengan mesin template Java](./how-to-convert-template-to-html-with-a-java-template-engine/)
+Pelajari cara mengonversi template menjadi HTML menggunakan mesin template Java dengan panduan langkah demi langkah.
 ### [Memuat Dokumen HTML dari URL di Aspose.HTML untuk Java](./load-html-documents-from-url/)
 Temukan cara mudah memuat dokumen HTML dari URL di Java dengan Aspose.HTML. Tutorial langkah demi langkah disertakan.
 ### [Memuat Dokumen HTML Java – Panduan Lengkap dengan XPath & CSS](./load-html-document-java-complete-guide-with-xpath-css/)
@@ -125,6 +128,8 @@ Pelajari cara menghasilkan HTML dari JavaScript dalam aplikasi Java menggunakan 
 
 
 
+
+### [Cara mengikat data ke tabel HTML dinamis dengan kolom nama depan dan belakang](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
 
 ### [Iterasi NodeList di Java – Panduan Lengkap](./iterate-over-nodelist-java-complete-guide/)
 Pelajari cara mengiterasi NodeList di Java dengan panduan lengkap, termasuk contoh kode dan teknik terbaik.
@@ -182,6 +187,6 @@ Pelajari cara mengikat data ke tabel HTML dan membuat tabel dinamis menggunakan 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
