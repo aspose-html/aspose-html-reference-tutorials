@@ -196,7 +196,6 @@ Convertissez du HTML en ZIP en C# avec Aspose.HTML. Guide complet étape par ét
 ### [Comment zipper du HTML en C# – Guide complet étape par étape](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 Apprenez à compresser des fichiers HTML en un fichier ZIP avec C# grâce à ce guide complet et détaillé.
 ### [Enregistrer HTML en ZIP en C# – Guide complet étape par étape](./save-html-as-zip-in-c-complete-step-by-step-guide/)
-Apprenez à sauvegarder un document HTML dans une archive ZIP en C# avec Aspose.HTML, grâce à un guide détaillé pas à pas.
 ### [Comment zipper du HTML en C# – Tutoriel sur le gestionnaire de ressources personnalisé](./how-to-zip-html-in-c-custom-resource-handler-tutorial/)
 Apprenez à zipper du HTML en C# en utilisant un gestionnaire de ressources personnalisé avec Aspose.HTML pour .NET.
 ### [Comment utiliser le gestionnaire dans Aspose.HTML – Charger le HTML, enregistrer en ZIP](./how-to-use-handler-in-aspose-html-load-html-save-as-zip/)
@@ -275,6 +274,8 @@ Apprenez à enregistrer un document HTML dans un fichier ZIP avec Aspose.HTML, g
 Apprenez à sauvegarder du HTML dans un fichier ZIP en utilisant Aspose.HTML avec C#.
 ### [Comment convertir du HTML en octets en C# avec Aspose.HTML](./how-to-convert-html-to-bytes-in-c-using-aspose-html/)
 Apprenez à convertir du HTML en tableau d'octets en C# avec Aspose.HTML, guide étape par étape.
+### [Enregistrer le HTML en ZIP avec Aspose.HTML en C#](./save-html-as-zip-with-aspose-html-in-c/)
+Apprenez à sauvegarder un document HTML dans une archive ZIP en C# avec Aspose.HTML.
 
 ## Conclusion
 

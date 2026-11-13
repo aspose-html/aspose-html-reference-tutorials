@@ -194,6 +194,8 @@ C# में Aspose.HTML का उपयोग करके HTML इमेज �
 
 ### [Aspose.HTML में हिन्टिंग के साथ टेक्स्ट स्पष्टता कैसे सुधारें](./how-to-improve-text-clarity-in-aspose-html-with-hinting/)
 Aspose.HTML में हिन्टिंग लागू करके टेक्स्ट की स्पष्टता और पठनीयता बढ़ाने के चरण‑दर‑चरण निर्देश।
+### [HTML को PNG में रेंडर करते समय एंटीएलियासिंग कैसे सक्षम करें](./how-to-enable-antialiasing-while-rendering-html-to-png/)
+HTML को PNG में रेंडर करते समय एंटीएलियासिंग को सक्षम करने की प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

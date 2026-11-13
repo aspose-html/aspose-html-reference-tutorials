@@ -171,6 +171,9 @@ url: /el/net/rendering-html-documents/
 ### [Πώς να βελτιώσετε την ευκρίνεια του κειμένου στο Aspose.HTML με hinting](./how-to-improve-text-clarity-in-aspose-html-with-hinting/)
 Μάθετε πώς να βελτιώσετε την ευκρίνεια του κειμένου χρησιμοποιώντας hinting στο Aspose.HTML.
 
+### [Πώς να ενεργοποιήσετε το antialiasing κατά την απόδοση HTML σε PNG](./how-to-enable-antialiasing-while-rendering-html-to-png/)
+Μάθετε πώς να ενεργοποιήσετε το antialiasing για πιο ομαλή απόδοση HTML σε PNG με το Aspose.HTML για .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -185,6 +185,8 @@ Aspose.Html을 활용해 C#에서 HTML을 렌더링하는 전체 과정을 단�
 
 ### [Aspose.HTML에서 힌팅을 사용해 텍스트 선명도 향상하기](./how-to-improve-text-clarity-in-aspose-html-with-hinting/)
 Aspose.HTML에서 힌팅을 활용해 텍스트 선명도를 높이는 방법을 단계별로 안내합니다.
+### [HTML을 PNG로 렌더링할 때 안티앨리어싱을 활성화하는 방법](./how-to-enable-antialiasing-while-rendering-html-to-png/)
+HTML을 PNG로 렌더링할 때 안티앨리어싱을 적용해 이미지 품질을 향상시키는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

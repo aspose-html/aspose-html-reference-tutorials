@@ -169,6 +169,8 @@ Leer hoe u antialiasing inschakelt bij het renderen van HTML-afbeeldingen met As
 
 ### [Hoe teksthelderheid te verbeteren in Aspose.HTML met hinting](./how-to-improve-text-clarity-in-aspose-html-with-hinting/)
 Leer hoe u met hinting de teksthelderheid verbetert bij het renderen van HTML met Aspose.HTML.
+### [Hoe antialiasing inschakelen tijdens het renderen van HTML naar PNG](./how-to-enable-antialiasing-while-rendering-html-to-png/)
+Leer hoe u antialiasing inschakelt bij het renderen van HTML naar PNG met Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

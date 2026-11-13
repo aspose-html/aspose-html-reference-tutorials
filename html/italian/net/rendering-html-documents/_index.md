@@ -165,6 +165,9 @@ Scopri come convertire HTML in immagini usando C# con Aspose.HTML. Segui la guid
 ### [Come migliorare la chiarezza del testo in Aspose.HTML con hinting](./how-to-improve-text-clarity-in-aspose-html-with-hinting/)
 Scopri come migliorare la nitidezza del testo nei rendering HTML usando il hinting con Aspose.HTML.
 
+### [Come abilitare l'antialiasing durante il rendering di HTML in PNG](./how-to-enable-antialiasing-while-rendering-html-to-png/)
+Scopri come migliorare la qualità delle immagini PNG abilitando l'antialiasing durante il rendering di HTML con Aspose.HTML per .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -48,6 +48,9 @@ C# を使用して HTML を PNG 画像に高速かつ確実に変換する手順
 ### [C# で HTML を画像としてレンダリング – 完全プログラミングガイド](./render-html-as-image-in-c-complete-programming-guide/)
 C# を使用して HTML を画像に変換する方法をステップバイステップで解説する完全ガイドです。
 
+### [HTML を PNG にレンダリングする際のアンチエイリアシングの有効化方法](./how-to-enable-antialiasing-while-rendering-html-to-png/)
+HTML を PNG 画像に変換する際にアンチエイリアシングを有効にする手順を解説します。
+
 ### [HTML を PNG にレンダリングする方法 – 完全 C# ガイド](./how-to-render-html-as-png-complete-c-guide/)
 C# を使用して HTML を PNG 画像に変換する手順をステップバイステップで解説します。完全ガイドで初心者も安心です。
 ### [Aspose を使用して HTML を PNG にレンダリングする方法 – ステップバイステップ ガイド](./how-to-use-aspose-to-render-html-to-png-step-by-step-guide/)

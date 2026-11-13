@@ -205,6 +205,7 @@ Aspose.HTML for .NET 凭借其丰富的功能、出色的文档和活跃的社�
 学习使用 Aspose.HTML for .NET 在 C# 中将 HTML 渲染为图像的完整示例，涵盖关键步骤和最佳实践。
 ### [如何在 Aspose.HTML 中使用 hinting 提高文本清晰度](./how-to-improve-text-clarity-in-aspose-html-with-hinting/)
 学习如何通过 hinting 技术在 Aspose.HTML 中提升文本渲染的清晰度。
+### [如何在渲染 HTML 为 PNG 时启用抗锯齿](./how-to-enable-antialiasing-while-rendering-html-to-png/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

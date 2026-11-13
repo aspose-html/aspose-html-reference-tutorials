@@ -178,6 +178,9 @@ Dowiedz się, jak w Aspose.HTML w C# włączyć antyaliasing przy renderowaniu o
 
 ### [Jak poprawić czytelność tekstu w Aspose.HTML przy użyciu hintingu](./how-to-improve-text-clarity-in-aspose-html-with-hinting/)
 
+### [Jak włączyć antyaliasing podczas renderowania HTML do PNG](./how-to-enable-antialiasing-while-rendering-html-to-png/)
+Dowiedz się, jak włączyć antyaliasing przy renderowaniu HTML do PNG przy użyciu Aspose.HTML.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

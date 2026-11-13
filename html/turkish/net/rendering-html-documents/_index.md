@@ -160,6 +160,8 @@ Aspose.HTML for .NET kullanarak HTML'yi görüntü formatına dönüştürmeyi a
 
 ### [Aspose.HTML'de İpucu Kullanarak Metin Netliğini Artırma](./how-to-improve-text-clarity-in-aspose-html-with-hinting/)
 Aspose.HTML'de metin netliğini artırmak için hinting özelliğini nasıl kullanacağınızı öğrenin.
+### [HTML'yi PNG olarak render ederken antialiasing'i nasıl etkinleştirirsiniz](./how-to-enable-antialiasing-while-rendering-html-to-png/)
+HTML'yi PNG'ye dönüştürürken kenar yumuşatma ayarlarını nasıl açacağınızı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

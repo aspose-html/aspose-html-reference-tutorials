@@ -189,6 +189,7 @@ Apprenez à créer un document HTML en C# et à le rendre en PNG en utilisant un
 Apprenez à convertir du HTML en PNG avec C# grâce à ce guide détaillé étape par étape.
 ### [Comment améliorer la clarté du texte dans Aspose.HTML avec le hinting](./how-to-improve-text-clarity-in-aspose-html-with-hinting/)
 Apprenez à améliorer la netteté du texte lors du rendu HTML avec le hinting dans Aspose.HTML.
+### [Comment activer l'anticrénelage lors du rendu du HTML en PNG](./how-to-enable-antialiasing-while-rendering-html-to-png/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

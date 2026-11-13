@@ -276,6 +276,8 @@ Erfahren Sie, wie Sie HTML-Inhalte mit Aspose.HTML in ein ZIP-Archiv speichern �
 Erfahren Sie, wie Sie HTML‑Inhalte mit Aspose.HTML für .NET als ZIP‑Bündel speichern. Schritt‑für‑Schritt‑Anleitung mit Codebeispielen.
 ### [HTML in Bytes konvertieren in C# mit Aspose.HTML](./how-to-convert-html-to-bytes-in-c-using-aspose-html/)
 Erfahren Sie, wie Sie HTML‑Inhalte in ein Byte‑Array konvertieren und in C# weiterverarbeiten.
+### [HTML als ZIP speichern mit Aspose.HTML in C#](./save-html-as-zip-with-aspose-html-in-c/)
+Erfahren Sie, wie Sie HTML‑Inhalte mit Aspose.HTML für .NET in ein ZIP‑Archiv speichern – vollständige Schritt‑für‑Schritt‑Anleitung.
 
 ## Abschluss
 

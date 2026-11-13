@@ -227,6 +227,7 @@ Aspose.HTML for .NET kullanarak HTML'den PDF'ye dönüşüm sırasında antialia
 Aspose.HTML for .NET ile HTML dosyalarını ZIP arşivine kaydetmeyi ayrıntılı olarak öğrenin.
 ### [Aspose.HTML ile C#'ta HTML'yi ZIP paketi olarak kaydetme](./how-to-save-html-as-a-zip-bundle-using-aspose-html-in-c/)
 Aspose.HTML for .NET kullanarak HTML dosyasını ZIP paketi olarak kaydetmeyi adım adım öğrenin.
+### [Aspose.HTML ile C#'ta HTML'yi ZIP olarak kaydedin](./save-html-as-zip-with-aspose-html-in-c/)
 
 ### [Aspose.HTML ile .NET'te HTML'yi PDF'ye Dönüştürün – Tam Adım‑Adım Kılavuz](./convert-html-to-pdf-with-aspose-html-full-step-by-step-guide/)
 Aspose.HTML for .NET ile HTML'yi PDF'ye tam adım‑adım dönüştürün. Ayrıntılı örnekler ve ipuçlarıyla süreci kolaylaştırın.

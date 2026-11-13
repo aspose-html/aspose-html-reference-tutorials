@@ -268,6 +268,9 @@ Lär dig hur du sparar HTML-filer i ett ZIP‑arkiv med C# och Aspose.HTML i en 
 ### [Hur man konverterar HTML till bytes i C# med Aspose.HTML](./how-to-convert-html-to-bytes-in-c-using-aspose-html/)
 Lär dig konvertera HTML till en byte-array i C# med Aspose.HTML.
 
+### [Spara HTML som ZIP med Aspose.HTML i C#](./save-html-as-zip-with-aspose-html-in-c/)
+Lär dig hur du sparar HTML-filer i ett ZIP‑arkiv med Aspose.HTML i C# genom en steg‑för‑steg‑guide.
+
 ## Slutsats
 
 Sammanfattningsvis är HTML-tillägg och konverteringar viktiga delar av modern webbutveckling. Aspose.HTML för .NET förenklar processen och gör den tillgänglig för utvecklare på alla nivåer. Genom att följa våra tutorials kommer du att vara på god väg att bli en skicklig webbutvecklare med en bred kompetens.

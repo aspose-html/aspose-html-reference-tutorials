@@ -246,6 +246,8 @@ Aspose.HTML के साथ HTML को PDF में आसानी से �
 C# के लिए Aspose.HTML का उपयोग करके HTML को ZIP फ़ाइल में बदलने के चरण-दर-स्टेप मार्गदर्शन।
 ### [C# में HTML को ZIP के रूप में सहेजें – पूर्ण चरण‑दर‑चरण गाइड](./save-html-as-zip-in-c-complete-step-by-step-guide/)
 C# में Aspose.HTML का उपयोग करके HTML को ZIP फ़ाइल में सहेजने के चरणों को सीखें।
+### [Aspose.HTML के साथ C# में HTML को ZIP के रूप में सहेजें](./save-html-as-zip-with-aspose-html-in-c/)
+C# में Aspose.HTML का उपयोग करके HTML को ZIP फ़ाइल में सहेजने की पूरी प्रक्रिया सीखें।
 
 ### [C# में कस्टम रिसोर्स हैंडलर – मेमोरी से HTML को ZIP आर्काइव में बदलें](./custom-resource-handler-in-c-convert-html-to-zip-archive-fro/)
 C# में कस्टम रिसोर्स हैंडलर का उपयोग करके मेमोरी में HTML को ZIP आर्काइव में बदलने का चरण‑दर‑चरण मार्गदर्शन।

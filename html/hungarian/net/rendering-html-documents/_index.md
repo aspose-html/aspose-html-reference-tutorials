@@ -152,6 +152,7 @@ Ismerje meg, hogyan renderelhet HTML-t C#‑ban az Aspose.Html segítségével, 
 Ismerje meg, hogyan kapcsolhatja be az antialiasingot a HTML képek renderelésekor C#-ban az Aspose.HTML használatával.
 ### [Hogyan javítható a szöveg tisztasága az Aspose.HTML-ben hinteléssel](./how-to-improve-text-clarity-in-aspose-html-with-hinting/)
 Ismerje meg, hogyan növelheti a szöveg élességét az Aspose.HTML hintelés funkciójával.
+### [Hogyan engedélyezzük az antialiasingot HTML PNG-re rendereléskor](./how-to-enable-antialiasing-while-rendering-html-to-png/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

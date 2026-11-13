@@ -159,6 +159,8 @@ Lär dig hur du aktiverar kantutjämning vid rendering av HTML‑bilder i C# med
 
 ### [Hur man förbättrar textklarhet i Aspose.HTML med hinting](./how-to-improve-text-clarity-in-aspose-html-with-hinting/)
 Lär dig hur du förbättrar textens klarhet i Aspose.HTML genom att använda hinting för skarpare rendering.
+### [Hur du aktiverar kantutjämning vid rendering av HTML till PNG](./how-to-enable-antialiasing-while-rendering-html-to-png/)
+Lär dig hur du aktiverar kantutjämning när du renderar HTML till PNG med Aspose.HTML för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

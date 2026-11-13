@@ -181,6 +181,7 @@ Aspose.HTML สำหรับ .NET ถือเป็นตัวเลือ�
 
 ### [วิธีปรับปรุงความคมชัดของข้อความใน Aspose.HTML ด้วย Hinting](./how-to-improve-text-clarity-in-aspose-html-with-hinting/)
 เรียนรู้วิธีปรับปรุงความคมชัดของข้อความใน Aspose.HTML ด้วยเทคนิค Hinting
+### [วิธีเปิดใช้งานการทำแอนตี้อะไลซิงขณะเรนเดอร์ HTML เป็น PNG](./how-to-enable-antialiasing-while-rendering-html-to-png/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

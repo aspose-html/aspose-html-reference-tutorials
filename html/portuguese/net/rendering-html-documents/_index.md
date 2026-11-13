@@ -167,6 +167,9 @@ Aprenda a habilitar antialiasing ao renderizar HTML como PNG usando Aspose.HTML 
 ### [Renderizar HTML para Imagem em C# – Guia Completo](./render-html-to-image-in-c-complete-guide/)
 Aprenda a renderizar HTML como imagem usando Aspose.HTML para .NET com um guia completo em C#.
 
+### [Como habilitar antisserrilhamento ao renderizar HTML para PNG](./how-to-enable-antialiasing-while-rendering-html-to-png/)
+Aprenda a melhorar a qualidade das imagens PNG ao habilitar antisserrilhamento durante a renderização de HTML com Aspose.HTML.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

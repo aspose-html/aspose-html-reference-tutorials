@@ -166,6 +166,8 @@ Naučte se v C# pomocí Aspose.HTML převést HTML do PDF a uložit výstup do Z
 Naučte se pomocí Aspose.HTML v C# vytvořit vlastní handler pro převod HTML do ZIP archivu přímo v paměti.
 ### [Jak zkomprimovat HTML v C# – Načíst HTML a použít vlastní handler](./how-to-zip-html-in-c-load-html-use-custom-handler/)
 Naučte se načíst HTML a pomocí vlastního handleru jej zabalit do ZIP archivu v C# s Aspose.HTML.
+### [Uložte HTML jako ZIP pomocí Aspose.HTML v C#](./save-html-as-zip-with-aspose-html-in-c/)
+Kompletní průvodce, jak uložit HTML soubor jako ZIP archiv pomocí Aspose.HTML v C#.
 ### [Vlastní obslužná rutina zdrojů v C# – Převod HTML do ZIP tutoriál](./custom-resource-handler-in-c-convert-html-to-zip-tutorial/)
 Naučte se pomocí Aspose.HTML v C# vytvořit vlastní handler pro zdroje a převést HTML soubory do ZIP archivu.
 ### [Převod HTML do PDF pomocí Aspose.HTML – Kompletní průvodce krok za krokem](./convert-html-to-pdf-with-aspose-html-full-step-by-step-guide/)

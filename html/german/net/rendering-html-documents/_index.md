@@ -93,6 +93,9 @@ Erfahren Sie, wie Sie mit Aspose.HTML ein HTML‑Dokument erstellen und es in ei
 ### [HTML in Bild rendern in C# – Vollständiger Leitfaden](./render-html-to-image-in-c-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in Bildformate konvertieren, inklusive vollständigem C#‑Beispiel und Schritt‑für‑Schritt‑Anleitung.
 
+### [Wie Sie Antialiasing beim Rendern von HTML zu PNG aktivieren](./how-to-enable-antialiasing-while-rendering-html-to-png/)
+Erfahren Sie, wie Sie Antialiasing beim Rendern von HTML zu PNG aktivieren.
+
 ### [Rendern Sie EPUB als XPS in .NET mit Aspose.HTML](./render-epub-as-xps/)
 Erfahren Sie in diesem umfassenden Tutorial, wie Sie mit Aspose.HTML für .NET HTML‑Dokumente erstellen und rendern. Tauchen Sie ein in die Welt der HTML‑Manipulation, des Web Scraping und mehr.
 
