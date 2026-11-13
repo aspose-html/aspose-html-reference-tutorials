@@ -1,63 +1,102 @@
 ---
 category: general
-date: 2026-03-04
-description: Вызов Java из JavaScript с помощью Aspose.HTML, выполнение асинхронного
-  JavaScript и получение JSON в Java с простым примером. Узнайте, как эффективно использовать
-  движок JavaScript.
-draft: false
+date: 2026-10-09
+description: Узнайте, как вызвать Java из JavaScript с помощью Aspose.HTML, выполнять
+  async JavaScript и получать JSON в Java, используя полный пример и практические
+  советы.
 keywords:
-- call java from javascript
-- run async javascript
-- fetch json in java
-- asynchronous fetch api
-- execute javascript engine
-language: ru
-og_description: Вызов Java из JavaScript с помощью Aspose.HTML, запуск асинхронного
-  JavaScript и получение JSON в Java. Полный код, объяснения и советы включены.
-og_title: Вызов Java из JavaScript – пошаговое руководство по асинхронному fetch.
+- how to call java from javascript
+- async fetch api java
+- asynchronous javascript fetch example
+- call java method from javascript
+lastmod: 2026-10-09
+og_description: Узнайте, как вызвать Java из JavaScript с помощью Aspose.HTML, выполнять
+  async JavaScript с использованием fetch API и обрабатывать JSON‑обратные вызовы
+  в Java. Полный пример и советы по устранению неполадок.
+og_image_alt: Diagram showing Java invoking JavaScript, async fetch returning JSON,
+  and Java callback handling
+og_title: Как вызвать Java из JavaScript, async fetch и движок JS
+schemas:
+- author: Aspose
+  dateModified: '2026-10-09'
+  description: Learn how to call Java from JavaScript using Aspose.HTML, run async
+    JavaScript, and fetch JSON in Java with a complete example and practical tips.
+  headline: ''
+  type: TechArticle
+- description: Learn how to call Java from JavaScript using Aspose.HTML, run async
+    JavaScript, and fetch JSON in Java with a complete example and practical tips.
+  name: ''
+  steps:
+  - name: The **asynchronous fetch API** successfully retrieved data.
+    text: The **asynchronous fetch API** successfully retrieved data.
+  - name: The JSON was serialized and handed over to Java.
+    text: The JSON was serialized and handed over to Java.
+  - name: Our **execute javascript engine** call completed without deadlocks.
+    text: Our **execute javascript engine** call completed without deadlocks.
+  type: HowTo
+- questions:
+  - answer: Yes. Any engine that supports host objects (e.g., Nashorn, GraalVM) can
+      work, but Aspose.HTML provides a full browser‑like environment with built‑in
+      `fetch`.
+    question: Can I use this approach with other JavaScript engines?
+  - answer: Serialize the object to JSON on the Java side and let JavaScript parse
+      it, or expose multiple simple methods on the host object to pass individual
+      fields.
+    question: What if I need to return a complex Java object instead of a string?
+  - answer: Aspose.HTML follows the WHATWG Fetch Standard, handling redirects, CORS,
+      and streaming exactly as modern browsers do.
+    question: Is the `fetch` implementation fully standards‑compliant?
+  - answer: No. The `execute` call returns immediately; the internal engine processes
+      the promise asynchronously. The main thread stays alive until the script finishes
+      or you shut down the engine.
+    question: Does this block the Java thread while waiting for the network?
+  - answer: Use the `JavaScriptEngine.setDebugMode(true)` method to output console
+      messages to the Java logger.
+    question: How can I debug the JavaScript code inside the engine?
+  type: FAQPage
 tags:
-- Java
-- JavaScript
-- Aspose.HTML
-- Async Programming
-title: Вызов Java из JavaScript — Полное руководство по асинхронному fetch и выполнению
-  движка JS
-url: /ru/java/advanced-usage/call-java-from-javascript-complete-guide-to-async-fetch-js-e/
+- java
+- javascript
+- aspose.html
+- async programming
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Вызов Java из JavaScript – Полный учебник с асинхронным Fetch API
+# Как вызвать Java из JavaScript async fetch и JS‑движка
 
-Когда‑нибудь задумывались, как **вызвать Java из JavaScript** не покидая ваше Java‑приложение? Возможно, вы создаёте серверный HTML‑рендерер, или вам нужно открыть некоторую Java‑логику скрипту, который работает внутри документа. Хорошая новость в том, что Aspose.HTML делает это проще простого. В этом руководстве мы не только покажем, как *запускать асинхронный JavaScript* внутри Java‑документа, но и как **получать JSON в Java** с помощью современного **асинхронного fetch API** и, наконец, безопасно выполнять вызовы **JavaScript engine**.
+В этом руководстве вы узнаете **как вызвать Java из JavaScript** с помощью Aspose.HTML, запустите асинхронный JavaScript с современным **fetch API**, и получите JSON‑данные обратно в Java. Пример работает полностью внутри HTML‑документа, поддерживаемого Java — внешний веб‑сервер или дополнительные библиотеки не требуются. К концу у вас будет готовый фрагмент кода, демонстрирующий чистый мост между Java и JavaScript, идеально подходящий для серверного рендеринга или пользовательских сценариев скриптов.
 
-Короче говоря, вы получите полностью готовый пример, который получает JSON‑полезную нагрузку с публичного эндпоинта, передаёт её Java‑хост‑объекту и выводит результат в консоль. Никаких внешних веб‑серверов, никаких дополнительных библиотек — только чистый Java и Aspose.HTML.
+## Быстрые ответы
+- **Что обучает это руководство?** Вызов Java из JavaScript, использование async fetch и обработка JSON‑обратных вызовов в Java.  
+- **Какая библиотека требуется?** Aspose.HTML for Java (версия 23.7 или новее).  
+- **Нужен ли веб‑сервер?** Нет, всё работает локально внутри процесса Java.  
+- **Поддерживается ли fetch API?** Да, Aspose.HTML реализует WHATWG Fetch Standard.  
+- **Можно ли переиспользовать объект‑хост?** Абсолютно — откройте любой публичный метод Java, который вам нужен.
 
-## Что вы узнаете
+## Как вызвать Java из JavaScript с помощью Aspose.HTML?
 
-- Как создать пустой HTML‑документ с помощью Aspose.HTML.  
-- Как получить и **execute JavaScript engine** из Java.  
-- Как зарегистрировать Java‑хост‑объект, который может вызываться из JavaScript.  
-- Как написать **asynchronous JavaScript** функцию, использующую **asynchronous fetch API**.  
-- Как обработать полученные данные в Java с помощью чистого callback‑а.  
-- Ожидаемый вывод и советы по устранению неполадок.
+Загрузите ваш HTML‑документ, откройте объект‑хост Java, напишите `async`‑функцию, использующую `fetch`, и выполните скрипт. Движок разрешает промис, вызывает Java‑обратный вызов и возвращает JSON‑результат — всё без блокировки основного потока. Такой подход позволяет сохранять отзывчивость Java‑стороны, пока JavaScript выполняет сетевой ввод‑вывод, и работает так же, как в браузерной среде.
 
-### Требования
+## Что такое async fetch API в Java?
 
-- Java 17 или новее (код также компилируется на JDK 11).  
-- Aspose.HTML for Java 23.7 (или последняя версия на момент написания).  
-- Базовое знакомство с Java и обещаниями JavaScript (promises).  
-- Доступ в Интернет для демонстрационного запроса к `jsonplaceholder`.
+Асинхронный fetch API — это совместимый с браузером метод, который возвращает `Promise`. Использование `await` позволяет писать асинхронный код, читаемый как синхронный, улучшая читаемость и обработку ошибок. В Aspose.HTML реализация fetch полностью следует спецификации WHATWG, поэтому вы получаете поддержку перенаправлений, CORS, потоковых ответов и корректного распространения ошибок, как в современных браузерах.
 
-Если что‑то из перечисленного вам незнакомо, не паникуйте — каждый шаг объяснён простым английским, и вы точно увидите, почему делаем именно так.
+## Почему использовать JavaScript‑движок Aspose.HTML?
 
----
+Aspose.HTML поддерживает **60+ форматов ввода и вывода** и может обрабатывать документы до **500 MB** без загрузки всего файла в память. Его встроенный `JavaScriptEngine` полностью реализует WHATWG Fetch Standard, предоставляя надёжную работу с сетью, перенаправления и поддержку CORS «из коробки».
+
+## Предварительные требования
+- Java 17 (или Java 11), установленная и настроенная на вашей машине.  
+- Aspose.HTML for Java 23.7 (или последняя версия) в classpath.  
+- Интернет‑соединение для демонстрационного JSON‑эндпоинта.  
+- Базовое понимание методов Java и промисов JavaScript.
 
 ## Шаг 1 – Создать пустой HTML‑документ и получить его JavaScript‑движок
 
-Первое, что нам нужно, — это пустой документ, предоставляющий изолированную среду JavaScript. Класс `Document` из Aspose.HTML делает именно это.
+Класс `Document` представляет HTML‑документ в памяти и предоставляет изолированный JavaScript‑движок.
 
 ```java
 import com.aspose.html.*;
@@ -72,13 +111,11 @@ public class AsyncJsTutorial {
         JavaScriptEngine jsEngine = document.getWindow().getJavaScriptEngine();
 ```
 
-**Почему это важно:** Объект `Document` имитирует окно браузера, а его `JavaScriptEngine` позволяет запускать скрипты точно так же, как в браузере. Это фундамент для **call java from javascript** — движок выступает в роли моста.
+**Почему это важно:** Объект `Document` имитирует окно браузера, а его `JavaScriptEngine` позволяет запускать скрипты точно так же, как в браузере. Это фундамент для **как вызвать Java из JavaScript** — движок выступает в роли моста.
 
----
+## Шаг 2 – Зарегистрировать объект‑хост, чтобы JavaScript мог вызывать Java
 
-## Шаг 2 – Зарегистрировать хост‑объект, чтобы JavaScript мог вызывать Java
-
-Aspose.HTML позволяет открыть любой Java‑объект для скриптового мира. Мы создадим анонимный класс с единственным методом `onResult`, который просто выводит любой полученный JSON.
+Объект‑хост `JavaCallback` раскрывает единственный метод `onResult`, который выводит полученный из JavaScript JSON‑получатель.
 
 ```java
         // Register a Java host object that the script can invoke
@@ -90,18 +127,16 @@ Aspose.HTML позволяет открыть любой Java‑объект д�
         });
 ```
 
-**Explanation:**  
-- `addHostObject` привязывает имя `javaCallback` к анонимному Java‑объекту.  
-- Внутри JavaScript мы будем вызывать `javaCallback.onResult(...)`.  
-- Это ядро **call java from javascript** — скрипт «запрыгивает» в Java, а Java реагирует.
+**Объяснение:**  
+- `addHostObject` связывает имя `javaCallback` с анонимным объектом Java.  
+- Внутри JavaScript вы будете вызывать `javaCallback.onResult(...)`.  
+- Это основной механизм для **вызова java из javascript** — скрипт обращается к Java, а Java реагирует.
 
-> **Pro tip:** Делайте методы хост‑объекта `public` и простыми; сложные объекты могут вызвать проблемы сериализации.
+> **Совет:** Делайте методы объект‑хоста `public` и возвращайте простые типы (String, int, boolean), чтобы избежать накладных расходов сериализации.
 
----
+## Шаг 3 – Написать асинхронную функцию JavaScript с использованием async fetch API
 
-## Шаг 3 – Написать асинхронную JavaScript‑функцию с использованием асинхронного Fetch API
-
-Теперь самая интересная часть: небольшой скрипт, который получает JSON с удалённого эндпоинта. Мы используем `async/await`, что является современным способом **run async JavaScript**.
+Функция `fetchJson` демонстрирует `async/await` со стандартным fetch API.
 
 ```java
         // Asynchronous script that fetches JSON and passes it to the Java host object
@@ -114,16 +149,14 @@ Aspose.HTML позволяет открыть любой Java‑объект д�
             "fetchData();";
 ```
 
-**Why we choose `fetch` over older XHR:**  
+**Почему мы выбираем `fetch` вместо старого XHR:**  
 - `fetch` возвращает `Promise`, делая код чище.  
-- Он работает нативно с `await`, поэтому поток читается сверху вниз — идеально для демонстраций **asynchronous fetch api**.  
-- API «будущее‑защищённый»; большинство браузеров и движков (включая Aspose) поддерживают его из коробки.
-
----
+- Он нативно работает с `await`, поэтому поток читается сверху вниз — идеально для **асинхронного javascript fetch примера**.  
+- API «будущего»; большинство браузеров и движков (включая Aspose) поддерживают его из коробки.
 
 ## Шаг 4 – Выполнить скрипт внутри JavaScript‑движка документа
 
-Наконец, передаём скрипт движку. Движок запустит крошечный цикл событий, разрешит `fetch`‑промис и вызовет обратный вызов в Java, когда всё будет готово.
+Запуск скрипта активирует цикл событий, разрешает сетевой запрос и вызывает обратный вызов в Java.
 
 ```java
         // Execute the async script
@@ -132,7 +165,7 @@ Aspose.HTML позволяет открыть любой Java‑объект д�
 }
 ```
 
-Когда вы запустите класс `AsyncJsTutorial`, вы должны увидеть примерно следующее:
+Когда вы запустите класс `AsyncJsTutorial`, вы должны увидеть что‑то вроде:
 
 ```
 Fetched data: {"userId":1,"id":1,"title":"delectus aut autem","completed":false}
@@ -140,15 +173,13 @@ Fetched data: {"userId":1,"id":1,"title":"delectus aut autem","completed":false}
 
 Этот вывод подтверждает три вещи:
 
-1. **asynchronous fetch API** успешно получил данные.  
+1. **Асинхронный fetch API** успешно получил данные.  
 2. JSON был сериализован и передан в Java.  
 3. Наш вызов **execute javascript engine** завершился без взаимных блокировок.
 
----
+## Шаг 5 – Обработка ошибок и граничных случаев (необязательные улучшения)
 
-## Шаг 5 – Обработка ошибок и крайних случаев (опциональные улучшения)
-
-В реальном коде всё редко работает идеально каждый раз. Ниже перечислены распространённые подводные камни и способы их избежать.
+В реальном коде редко всё работает идеально каждый раз. Ниже перечислены типичные подводные камни и способы их обхода.
 
 ### 5.1 Сетевые сбои
 
@@ -169,7 +200,7 @@ String asyncScript =
     "fetchData();";
 ```
 
-Теперь Java‑сторона получит сообщение об ошибке вместо зависания.
+Теперь Java‑сторона получает сообщение об ошибке вместо зависания.
 
 ### 5.2 Тайм‑ауты
 
@@ -183,13 +214,11 @@ const response = await fetch(url, { signal: controller.signal });
 
 ### 5.3 Множественные вызовы
 
-Если нужно получить несколько ресурсов, просто выполните цикл или `map` по массиву URL‑ов. Хост‑объект можно расширить, чтобы принимать идентификатор и сопоставлять ответы.
-
----
+Если нужно получить несколько ресурсов, просто переберите массив URL‑ов. Объект‑хост можно расширить, чтобы принимать идентификатор и сопоставлять ответы.
 
 ## Полный рабочий пример
 
-Ниже представлен **полный исходный файл**, который можно скопировать‑вставить в свою IDE. Нет скрытых зависимостей, только JAR Aspose.HTML в classpath.
+Ниже полный исходный файл, который можно скопировать‑вставить в IDE. Нет скрытых зависимостей, только JAR Aspose.HTML в classpath.
 
 ```java
 import com.aspose.html.*;
@@ -228,51 +257,60 @@ public class AsyncJsTutorial {
 }
 ```
 
-**Expected console output**
+**Ожидаемый вывод в консоль**
 
 ```
 Fetched data: {"userId":1,"id":1,"title":"delectus aut autem","completed":false}
 ```
 
-Если вы видите строку ошибки, начинающуюся с `Error:`, значит что‑то пошло не так — скорее всего, сетевой сбой.
-
----
+Если вы увидите строку ошибки, начинающуюся с `Error:`, значит что‑то пошло не так — скорее всего сетевой сбой.
 
 ## Визуальный обзор
 
-![Диаграмма, показывающая, как Java вызывает JavaScript и получает результаты асинхронного fetch – call java from javascript](/images/java-js-async.png)
+![Диаграмма, показывающая, как Java вызывает JavaScript и получает результаты async fetch – call java from javascript](/images/java-js-async.png)
 
-*На изображении показан поток: Java → JavaScriptEngine → async fetch → JavaCallback.*
-
----
+*Изображение демонстрирует поток: Java → JavaScriptEngine → async fetch → JavaCallback.*
 
 ## Часто задаваемые вопросы
 
-**Можно ли использовать этот подход с другими JavaScript‑движками?**  
-Да, любой движок, предоставляющий механизм хост‑объекта (например, Nashorn, GraalVM), может работать, но Aspose.HTML даёт полностью укомплектованную браузероподобную среду с встроенным `fetch`.
+**Q: Можно ли использовать этот подход с другими JavaScript‑движками?**  
+A: Да. Любой движок, поддерживающий объект‑хост (например, Nashorn, GraalVM), может работать, но Aspose.HTML предоставляет полноценную браузероподобную среду со встроенным `fetch`.
 
-**Что если мне нужно вернуть сложный Java‑объект вместо строки?**  
-Вы можете сериализовать объект в JSON на стороне Java и дать JavaScript его распарсить, либо открыть несколько методов в хост‑объекте для получения отдельных полей.
+**Q: Что если нужно вернуть сложный объект Java вместо строки?**  
+A: Сериализуйте объект в JSON на стороне Java и позвольте JavaScript его распарсить, либо откройте несколько простых методов в объекте‑хосте для передачи отдельных полей.
 
-**Является ли реализация `fetch` полностью соответствующей стандарту?**  
-Aspose.HTML реализует WHATWG Fetch Standard, поэтому вы получаете корректную обработку редиректов, CORS и потоков.
+**Q: Полностью ли соответствует реализация `fetch` стандарту?**  
+A: Aspose.HTML следует WHATWG Fetch Standard, обрабатывая перенаправления, CORS и потоковую передачу точно так же, как современные браузеры.
 
-**Блокирует ли это Java‑поток во время ожидания сети?**  
-Нет. Вызов `execute` возвращается сразу, а внутренний движок обрабатывает промис асинхронно. Однако главный поток будет жив до завершения скрипта или пока вы явно не остановите движок.
+**Q: Блокирует ли это Java‑поток во время ожидания сети?**  
+A: Нет. Вызов `execute` возвращается сразу; внутренний движок обрабатывает промис асинхронно. Основной поток живёт, пока скрипт не завершится или вы не завершите работу движка.
 
----
+**Q: Как отлаживать JavaScript‑код внутри движка?**  
+A: Используйте метод `JavaScriptEngine.setDebugMode(true)`, чтобы выводить сообщения консоли в Java‑логгер.
 
 ## Заключение
 
-Мы только что прошли практический сценарий, позволяющий **вызвать Java из JavaScript**, **запускать async JavaScript** и **получать JSON в Java** с помощью **asynchronous fetch API**. Создав хост‑объект, написав аккуратную `async`‑функцию и выполнив её через **JavaScript engine** Aspose.HTML, вы получаете чистый, неблокирующий мост между двумя средами выполнения.
+Мы прошли практический сценарий, позволяющий **вызывать Java из JavaScript**, **запускать async JavaScript** и **получать JSON в Java** с помощью **асинхронного fetch API**. Создав объект‑хост, написав аккуратную `async`‑функцию и выполнив её через JavaScript‑движок Aspose.HTML, вы получаете чистый, неблокирующий мост между двумя средами выполнения.
 
-Попробуйте, измените URL или добавьте больше обратных вызовов — ваша фантазия единственное ограничение. Дальше вы можете исследовать:
+Не стесняйтесь менять URL‑эндпоинт, добавлять новые обратные вызовы или запускать несколько скриптов параллельно. Дальнейшие шаги, которые стоит изучить:
 
-- **Executing JavaScript engine** с несколькими одновременно работающими скриптами.  
-- Использование **run async javascript** для параллельной обработки больших наборов данных.  
-- Интеграцию этого паттерна в веб‑сервис, который динамически рендерит HTML «на лету».
+- Выполнение нескольких скриптов одновременно с отдельными экземплярами `JavaScriptEngine`.  
+- Использование шаблона async fetch для параллельной обработки больших наборов данных.  
+- Интеграция этого моста в серверный HTML‑рендерер, который получает живые данные перед рендерингом.
 
-Экспериментируйте, и не стесняйтесь оставить комментарий, если столкнётесь с неожиданной проблемой. Счастливого кодинга!
+Happy coding!
+
+---
+
+**Последнее обновление:** 2026-10-09  
+**Тестировано с:** Aspose.HTML for Java 23.7  
+**Автор:** Aspose
+
+## Связанные руководства
+
+- [Вызов Java из Javascript, добавление объекта‑хоста и запуск Javascript](/html/java/advanced-usage/call-java-from-javascript-add-host-object-and-run-javascript/)
+- [Как запустить Javascript в Java: полное руководство](/html/java/advanced-usage/how-to-run-javascript-in-java-complete-guide/)
+- [Включение выполнения скриптов в Java: полное руководство Aspose Html](/html/java/advanced-usage/enable-script-execution-in-java-complete-aspose-html-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

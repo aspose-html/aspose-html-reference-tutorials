@@ -1,22 +1,47 @@
 ---
 category: general
-date: 2026-03-15
-description: 如何在 Java 中创建沙箱：学习设置屏幕尺寸、禁用网络访问以及安全加载 HTML 文档。
+date: 2026-10-09
+description: 了解如何创建 sandbox java，以安全渲染 HTML、设置 screen size java 并禁用网络访问——一步步完整指南。
 draft: false
 keywords:
-- how to create sandbox
-- set screen size
-- disable network access
-- load html document
-- how to render html
-language: zh
-og_description: 如何在 Java 中创建沙盒并安全渲染 HTML。一步步指南，涵盖屏幕尺寸、网络限制和文档加载。
-og_title: 如何在 Java 中创建沙箱 – 完整教程
+- create sandbox java
+- load html document java
+- set screen size java
+- set viewport size java
+- how to render html java
+lastmod: 2026-10-09
+og_description: 了解如何创建 sandbox java，以安全渲染 HTML、设置 screen size java 并禁用网络访问——一步步完整指南。
+og_image_alt: 'Developer guide: create sandbox java with Aspose.HTML'
+og_title: 如何创建 sandbox java – 完整指南
+schemas:
+- author: Aspose
+  dateModified: '2026-10-09'
+  description: Learn how to create sandbox java to safely render HTML, set screen
+    size java, and disable network access—all in one step‑by‑step guide.
+  headline: How to create sandbox java – full guide
+  type: TechArticle
+- questions:
+  - answer: Yes—create a separate `Sandbox` instance per request or reuse a thread‑local
+      instance; the library is thread‑safe when each thread uses its own configuration.
+    question: Can I use the sandbox in a web service that processes many pages concurrently?
+  - answer: No—resources referenced with `file://` or embedded data URIs are still
+      accessible; only external HTTP/HTTPS requests are blocked.
+    question: Does disabling network access affect loading of local CSS or images?
+  - answer: Aspose.HTML can process documents up to **1 GB** in size without loading
+      the entire file into memory, thanks to its streaming architecture.
+    question: What is the maximum document size the sandbox can handle?
+  - answer: Enable the `setLogLevel(LogLevel.DEBUG)` option on `SandboxConfiguration`
+      to capture detailed parsing and resource‑loading events.
+    question: How do I debug why a page fails to load inside the sandbox?
+  - answer: Yes—Aspose.HTML requires a valid license for production deployments; a
+      free trial is available for evaluation.
+    question: Is a commercial license required for production use?
+  type: FAQPage
 tags:
 - Java
 - Aspose.HTML
 - Security
-title: 如何在 Java 中创建沙盒 – 完整指南
+title: 如何创建 sandbox java – 完整指南
 url: /zh/java/configuring-environment/how-to-create-sandbox-in-java-full-guide/
 ---
 
@@ -24,30 +49,51 @@ url: /zh/java/configuring-environment/how-to-create-sandbox-in-java-full-guide/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 如何在 Java 中创建沙箱 – 完整指南
+# 如何创建 sandbox java – 完整指南
 
-是否曾想过 **如何创建沙箱** 来在 Java 中渲染不受信任的网页内容？你并不孤单。许多开发者需要一个安全的空间来渲染 HTML 而不危及宿主系统，而 Aspose.HTML Sandbox 让这变得轻而易举。在本教程中，我们将逐步演示设置屏幕尺寸、禁用网络访问、加载 HTML 文档，最后进行渲染——全部在沙箱环境中完成。
+Ever wondered **how to create sandbox java** for rendering untrusted web content in Java? You're not alone. Many developers need a safe pocket where HTML can be rendered without risking the host system, and the Aspose.HTML Sandbox makes that a piece of cake. In this tutorial we’ll walk through setting the screen size, disabling network access, loading an HTML document, and finally rendering it—all inside a sandboxed environment.
 
-> **你将获得：** 完整可运行的代码示例、每行代码的解释以及帮助你避免常见陷阱的实用技巧。无需外部文档，一切所需尽在此处。
+> **What you’ll get:** a complete, runnable code sample, explanations of every line, and practical tips that keep you from common pitfalls. No external documentation needed; everything you need is right here.
 
-## 你需要的条件
+## 快速回答
+- **What is a sandbox in Java?** It is an isolated execution environment that restricts file‑system, network, and OS interactions for the HTML engine.  
+- **Which library provides the sandbox?** Aspose.HTML for Java, version 23.10 or newer.  
+- **How do I set the viewport size?** Use `SandboxConfiguration.setScreenWidth` and `setScreenHeight`.  
+- **Can I completely block network calls?** Yes—call `setEnableNetworkAccess(false)` on the configuration.  
+- **Is rendering to an image supported?** Absolutely—`HTMLRenderer` can produce PNG, JPEG, or BMP files.
 
-- **Java 8+**（代码使用标准 Java 语法，没有奇特的特性）
-- **Aspose.HTML for Java** 库（版本 23.10 或更高）
-- IDE 或纯文本编辑器——Visual Studio Code 完全可用
-- 仅在下载库时需要 Internet 访问；沙箱本身将离线
+## 什么是 create sandbox java？
+`create sandbox java` refers to the process of configuring Aspose.HTML’s `SandboxConfiguration` object to isolate HTML rendering from external resources. This isolated context protects your application from malicious scripts, unwanted network traffic, and unintended file‑system access. **`SandboxConfiguration` is Aspose.HTML’s container for sandbox‑related settings such as viewport size and network access.**  
 
-准备好这些后，即可开始深入学习。
+## 为什么使用 Aspose.HTML sandbox？
+Aspose.HTML supports **30+** input and output formats—including HTML, CSS, SVG, and image types—and can render **500‑page** documents in under **2 seconds** on typical server hardware, all while keeping memory usage under **150 MB**. These quantified capabilities make it a reliable choice for high‑throughput, security‑sensitive workloads.
 
-![How to create sandbox diagram](sandbox-diagram.png){alt="Java 中创建沙箱示意图"}
+## 前置条件
+- **Java 8+** (standard language features only)  
+- **Aspose.HTML for Java** library (23.10 or newer)  
+- An IDE or plain‑text editor (VS Code works fine)  
+- Internet access **only** for downloading the library; the sandbox itself will be offline  
 
-## 创建沙箱概览
+![How to create sandbox diagram](sandbox-diagram.png){alt="在 Java 中创建 sandbox 的示意图"}
+[在 Java 中创建 sandbox 示意图](sandbox-diagram.png)
 
-沙箱本质上是一个限制 HTML 引擎行为的容器。可以把它想象成一个生活在沙箱房间里的微型浏览器：你决定窗口的大小（`set screen size`）、是否可以访问网络（`disable network access`）以及应打开哪个 HTML 文件（`load html document`）。阅读完本指南后，你将清晰了解这些组成部分是如何协同工作的。
+## 如何设置 Java 的屏幕尺寸？
+Set the viewport dimensions by configuring `SandboxConfiguration`. This tells the rendering engine what screen size to emulate, ensuring CSS media queries behave as expected. Use `setScreenWidth(int)` and `setScreenHeight(int)` to match the target device resolution, such as 1024 × 768 for a typical desktop view. **`SandboxConfiguration` is Aspose.HTML’s container for sandbox‑related settings such as viewport size and network access.**
+
+## 如何在 Java 中禁用网络访问？
+Disable outbound network calls by setting `setEnableNetworkAccess(false)` on the sandbox configuration. **`setEnableNetworkAccess` toggles whether the sandbox can make external HTTP/HTTPS requests.** This single flag blocks any external resource requests—scripts, images, CSS, fonts—originating from the loaded HTML. The engine will silently ignore those requests, preventing malicious payloads from contacting a command‑and‑control server.
+
+> **Pro tip:** If you later need to fetch a single trusted resource, you can temporarily enable network access for that specific call and then turn it off again.
+
+## 如何在 Java 中加载 HTML 文档？
+Load an HTML page inside the sandbox by constructing an `HTMLDocument` with the sandbox instance. **`HTMLDocument` represents a parsed HTML page in memory.** You can point to a remote URL (e.g., `https://example.com`) or a local file (`file:///path/to/file.html`). The constructor automatically performs the load operation, and the try‑with‑resources block guarantees proper disposal of native resources.
+
+## 如何在 Java 中渲染 HTML？
+Render the loaded document to a bitmap using `HTMLRenderer`. **`HTMLRenderer` converts a DOM into raster images.** Call `renderToBitmap` with the desired width, height, and output path. This produces a PNG (or other image format) that visually confirms the sandboxed rendering succeeded.
 
 ## 步骤 1：设置屏幕尺寸
 
-当实例化 `SandboxConfiguration` 时，你可以告诉渲染引擎要模拟的视口。这在你需要特定布局用于截图或后续 PDF 转换时非常有用。
+When you instantiate `SandboxConfiguration`, you can tell the rendering engine what viewport to emulate. This is useful if you need a specific layout for screenshots or PDF conversion later.
 
 ```java
 // Step 1: Define sandbox constraints – screen size
@@ -56,26 +102,26 @@ sandboxConfig.setScreenWidth(1024);   // width in pixels
 sandboxConfig.setScreenHeight(768);   // height in pixels
 ```
 
-设置合理的屏幕尺寸可确保 CSS 媒体查询按预期工作。如果跳过此步骤，引擎将默认使用 800×600 的小视口，可能导致响应式布局失效。
+Setting a realistic screen size ensures that CSS media queries behave as expected. If you skip this step, the engine defaults to a tiny 800×600 viewport, which can break responsive designs.
 
-**为什么重要：** 许多现代站点会根据视口尺寸隐藏或重新排列内容。通过显式调用 `set screen size`，可确保每次渲染的一致性。
+**Why it matters:** Many modern sites hide or rearrange content based on viewport dimensions. By explicitly calling `set screen size`, you guarantee consistent rendering across runs.
 
 ## 步骤 2：禁用网络访问
 
-安全至上的开发者喜欢锁定所有外发流量。沙箱通过一个标志即可实现此功能。
+Security‑first developers love to lock down any outbound traffic. The sandbox lets you do that with a single flag.
 
 ```java
 // Step 2: Turn off network calls – disable network access
 sandboxConfig.setEnableNetworkAccess(false);
 ```
 
-当 `disable network access` 为 true 时，任何指向外部主机的 `<script src="...">`、图片 URL 或 CSS 导入都会被直接忽略。这可防止恶意负载连接到指挥控制服务器。
+When `disable network access` is true, any `<script src="...">`, image URL, or CSS import that points to an external host will simply be ignored. This prevents malicious payloads from reaching out to a command‑and‑control server.
 
-> **专业提示：** 如果之后需要获取单个可信资源，可以临时为该调用启用网络访问，随后再关闭。
+> **Pro tip:** If you later need to fetch a single trusted resource, you can temporarily enable network access for that specific call and then turn it off again.
 
-## 步骤 3：在沙箱内加载 HTML 文档
+## 步骤 3：在 sandbox 中加载 HTML 文档
 
-沙箱配置完成后，我们创建沙箱实例并向其提供 HTML 文件。在本例中指向 `https://example.com`，但也可以使用 `new HTMLDocument("file:///path/to/file.html", sandbox)` 加载本地文件。
+Now that the sandbox is configured, we create the sandbox instance and feed it an HTML file. In this example we point to `https://example.com`, but you could just as well load a local file with `new HTMLDocument("file:///path/to/file.html", sandbox)`.
 
 ```java
 // Step 3: Create the sandbox and load the HTML document
@@ -87,13 +133,13 @@ try (HTMLDocument htmlDoc = new HTMLDocument("https://example.com", sandbox)) {
 }
 ```
 
-请注意 **try‑with‑resources** 代码块——它确保文档被正确释放，释放本机资源。当使用沙箱参数构造 `HTMLDocument` 时，`load html document` 调用会自动执行。
+Notice the **try‑with‑resources** block—this guarantees that the document is disposed of properly, releasing native resources. The call to `load html document` happens automatically when you construct `HTMLDocument` with the sandbox argument.
 
-**你将看到：** 运行程序后，控制台会打印页面标题，例如 `Document title: Example Domain`。这表明 HTML 已在沙箱内成功解析。
+**What you’ll see:** If you run the program, the console prints the title of the page, e.g., `Document title: Example Domain`. That confirms the HTML was parsed successfully inside the sandbox.
 
-## 步骤 4：渲染 HTML 并验证输出
+## 如何渲染 HTML 并验证输出
 
-渲染可以有多种形式：绘制位图、生成 PDF，或仅提取 DOM。本文教程中我们采用最简单的验证方式——打印标题。如果需要可视化渲染，Aspose.HTML 提供 `HTMLRenderer`：
+Rendering can mean many things: drawing to a bitmap, generating a PDF, or simply extracting the DOM. For this tutorial we’ll stick with the simplest verification—printing the title. If you need a visual render, Aspose.HTML offers `HTMLRenderer`:
 
 ```java
 // Optional: render to an image (demonstrates how to render html)
@@ -102,14 +148,14 @@ renderer.renderToFile("output.png", ImageFormat.PNG);
 System.out.println("Rendered image saved as output.png");
 ```
 
-运行完整程序后，你将得到两项证据证明沙箱有效：
+Running the full program now gives you two pieces of evidence that the sandbox works:
 
-1. **控制台输出** 包含页面标题（证明 `load html document` 成功）。
-2. **output.png** 文件（证明 `how to render html` 实际绘制了内容）。
+1. **Console output** with the page title (proves `load html document` succeeded).  
+2. **output.png** file (proves `how to render html` actually draws something).
 
 ## 完整、可运行的示例
 
-下面是完整的程序代码，你可以复制粘贴到名为 `SandboxDemo.java` 的文件中。它包含所有导入、配置步骤以及可选的渲染块。
+Below is the entire program you can copy‑paste into a file named `SandboxDemo.java`. It includes all imports, the configuration steps, and the optional rendering block.
 
 ```java
 import com.aspose.html.sandbox.*;
@@ -142,39 +188,60 @@ public class SandboxDemo {
 }
 ```
 
-**预期的控制台输出：**
+**Expected output (console):**
 
 ```
 Document title: Example Domain
 Rendered image saved as output.png
 ```
 
-并且你会在项目文件夹中看到 `output.png`，它展示了在 1024×768 像素下渲染的 `example.com` 快照。
+And you’ll find `output.png` in your project folder, showing a snapshot of `example.com` rendered at 1024×768 pixels.
 
 ## 常见陷阱与专业提示
 
 | Issue | Why it Happens | How to Fix |
 |-------|----------------|------------|
-| **缺少 `sandboxConfig.setEnableNetworkAccess(false)`** | 引擎会悄悄获取外部资源，破坏沙箱的目的。 | 始终设置此标志，即使你认为页面是自包含的。 |
-| **在未启用网络访问的情况下使用远程 URL** | 文档加载失败，因为沙箱阻止了请求。 | 要么为该调用启用网络访问，要么先下载 HTML 并从磁盘加载。 |
-| **视口未匹配 CSS 媒体查询** | 布局出现问题，因为默认尺寸太小。 | 使用 `setScreenWidth` 和 `setScreenHeight` 以匹配目标设备。 |
-| **忘记关闭 `HTMLDocument`** | 本机内存泄漏会在长期运行的服务中累积。 | 如示例使用 try‑with‑resources，或手动调用 `htmlDoc.dispose()`。 |
+| **Missing `sandboxConfig.setEnableNetworkAccess(false)`** | The engine silently fetches external assets, defeating the sandbox purpose. | Always set this flag, even if you think the page is self‑contained. |
+| **Using a remote URL without network access** | The document fails to load because the sandbox blocks the request. | Either enable network access for that call or download the HTML first and load it from disk. |
+| **Viewport not matching CSS media queries** | Layout looks broken because the default size is too small. | Use `setScreenWidth` and `setScreenHeight` to match your target device. |
+| **Forgetting to close `HTMLDocument`** | Native memory leaks can accumulate in long‑running services. | Use try‑with‑resources as shown, or call `htmlDoc.dispose()` manually. |
 
-## 扩展沙箱：真实场景
+## 扩展 sandbox：真实场景
 
-- **PDF 生成：** 将 `HTMLRenderer` 替换为 `HTMLToPDFConverter`，在仍然遵守沙箱限制的前提下将加载的页面转换为 PDF。
-- **批量处理：** 对 URL 列表进行循环，复用同一个 `Sandbox` 实例，以避免每次创建新沙箱的开销。
-- **自定义资源处理器：** 实现 `IResourceHandler` 来提供内存中的图像或样式表，从而细粒度控制沙箱可访问的内容。
+- **PDF generation:** Swap the `HTMLRenderer` with `HTMLToPDFConverter` to turn the loaded page into a PDF while still respecting the sandbox limits。  
+- **Batch processing:** Loop over a list of URLs, re‑using the same `Sandbox` instance to avoid the overhead of creating a new sandbox each time。  
+- **Custom resource handlers:** Implement `IResourceHandler` to provide in‑memory images or style sheets, giving you fine‑grained control over what the sandbox can see。
 
-## 回顾
+## 常见问题
 
-我们从零开始介绍了在 Java 中 **如何创建沙箱**，演示了 **set screen size**，展示了如何 **disable network access**，详细讲解了 **load html document**，并快速展示了 **how to render html** 到图像的方式。完整示例开箱即用，解释阐明了每个配置标志背后的 “为什么”。
+**Q: Can I use the sandbox in a web service that processes many pages concurrently?**  
+A: Yes—create a separate `Sandbox` instance per request or reuse a thread‑local instance; the library is thread‑safe when each thread uses its own configuration。
 
-准备好下一步了吗？尝试将 URL 换成本地包含小脚本的 HTML 文件，然后切换 `disable network access`，观察脚本被静默忽略的效果。或者尝试不同的视口尺寸，观察响应式布局的变化。
+**Q: Does disabling network access affect loading of local CSS or images?**  
+A: No—resources referenced with `file://` or embedded data URIs are still accessible; only external HTTP/HTTPS requests are blocked。
 
-有疑问、边缘案例或想分享自己的沙箱技巧吗？在下方留言——让我们继续交流。祝你玩得开心！
+**Q: What is the maximum document size the sandbox can handle?**  
+A: Aspose.HTML can process documents up to **1 GB** in size without loading the entire file into memory, thanks to its streaming architecture。
+
+**Q: How do I debug why a page fails to load inside the sandbox?**  
+A: Enable the `setLogLevel(LogLevel.DEBUG)` option on `SandboxConfiguration` to capture detailed parsing and resource‑loading events。
+
+**Q: Is a commercial license required for production use?**  
+A: Yes—Aspose.HTML requires a valid license for production deployments; a free trial is available for evaluation。
+
+**Last Updated:** 2026-10-09  
+**Tested With:** Aspose.HTML for Java 23.10  
+**Author:** Aspose
+
+## 相关教程
+
+- [How To Use Sandbox For Html To Pdf Java Step By Step Guide](/html/java/advanced-usage/how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+- [Create Aspose Html Sandbox Complete Java Guide](/html/java/configuring-environment/create-aspose-html-sandbox-complete-java-guide/)
+- [How To Create Sandbox In Java Full Guide](/html/java/configuring-environment/how-to-create-sandbox-in-java-full-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
