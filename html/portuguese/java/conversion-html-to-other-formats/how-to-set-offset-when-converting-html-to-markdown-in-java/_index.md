@@ -22,9 +22,7 @@ title: Como definir o deslocamento ao converter HTML para Markdown em Java
 url: /pt/java/conversion-html-to-other-formats/how-to-set-offset-when-converting-html-to-markdown-in-java/
 ---
 
-codes at top and bottom exactly.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

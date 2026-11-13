@@ -25,15 +25,11 @@ title: Cara Mengompres HTML di C# – Panduan Lengkap Langkah demi Langkah
 url: /id/net/working-with-html-documents/how-to-zip-html-in-c-complete-step-by-step-guide/
 ---
 
--zip-html.png){: .center-image alt="ilustrasi cara zip html"}
 
-Now closing shortcodes.
 
-Thus final output includes all content with translations.
 
-Make sure to keep code block placeholders unchanged.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

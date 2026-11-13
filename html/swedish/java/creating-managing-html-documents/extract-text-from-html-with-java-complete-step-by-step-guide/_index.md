@@ -22,9 +22,8 @@ title: Extrahera text från HTML med Java – Komplett steg‑för‑steg‑guid
 url: /sv/java/creating-managing-html-documents/extract-text-from-html-with-java-complete-step-by-step-guide/
 ---
 
-we keep markdown formatting like tables.
 
-Now produce final output with all translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,9 +24,7 @@ title: Crear PNG a partir de HTML en C# – Guía paso a paso
 url: /es/net/generate-jpg-and-png-images/create-png-from-html-in-c-step-by-step-guide/
 ---
 
-Also the final backtop button shortcode remains.
 
-Let's produce final markdown.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

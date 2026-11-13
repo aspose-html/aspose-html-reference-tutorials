@@ -25,7 +25,7 @@ title: Ustaw rozmiar strony PDF w Aspose HTML – Kompletny przewodnik Java
 url: /pl/java/conversion-html-to-other-formats/set-pdf-page-size-with-aspose-html-full-java-guide/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -22,17 +22,11 @@ title: C#でHTMLをZIPする方法 – 完全ステップバイステップガ�
 url: /ja/net/working-with-html-documents/how-to-zip-html-in-c-complete-step-by-step-guide/
 ---
 
-original folder structure—crucial when you later **add images to zip** and need the correct relative paths."
 
-Translate.
 
-Proceed similarly for other sections.
 
-We must keep code block placeholders unchanged.
 
-Also translate list items.
 
-Proceed to produce final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

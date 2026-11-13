@@ -25,11 +25,9 @@ title: Итерация по NodeList в Java – Полное руководс
 url: /ru/java/creating-managing-html-documents/iterate-over-nodelist-java-complete-guide/
 ---
 
--backtop-button >}}
 
-All preserved.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

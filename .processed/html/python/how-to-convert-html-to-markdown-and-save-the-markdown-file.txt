@@ -1,0 +1,7 @@
+Title: How to convert HTML to Markdown and save the Markdown file
+Slug: how-to-convert-html-to-markdown-and-save-the-markdown-file
+Category: general
+ProcessedDate: 2026-09-17T03:00:28.446769
+SourceRepo: AI Search API
+Keywords: convert html to markdown, save markdown file, export html as markdown
+PRNumber: 268

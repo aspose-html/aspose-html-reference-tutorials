@@ -49,6 +49,25 @@ Hướng dẫn chi tiết cách tạo memory stream trong C# bằng Aspose.HTML,
 Hướng dẫn chi tiết cách kết hợp nhiều phông chữ trong C# bằng Aspose.HTML, bao gồm mã mẫu và các lưu ý quan trọng.
 ### [Lấy Phiên Bản Assembly trong C# – Hướng Dẫn Nhanh Để Lấy Phiên Bản Thư Viện](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
 Hướng dẫn nhanh cách lấy phiên bản của một assembly trong C# để xác định phiên bản thư viện đang sử dụng.
+### [Trình xử lý tài nguyên tùy chỉnh trong Aspose HTML – Hướng dẫn lưu vào stream](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
+Hướng dẫn cách tạo trình xử lý tài nguyên tùy chỉnh trong Aspose HTML và lưu nội dung vào stream một cách hiệu quả.
+### [Cách nén HTML với Aspose HTML – Hướng dẫn đầy đủ](./how-to-zip-html-with-aspose-html-complete-guide/)
+Tìm hiểu cách nén các tệp HTML thành file zip bằng Aspose.HTML, bao gồm các ví dụ thực tế và hướng dẫn từng bước.
+### [Lưu tài liệu dưới dạng PDF trong C# – Hướng dẫn đầy đủ với hỗ trợ ZIP](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
+Hướng dẫn chi tiết cách lưu tài liệu HTML thành PDF trong C# với khả năng nén ZIP, bao gồm các ví dụ và mẹo thực tế.
+### [Cách bật Clear Type – Kích hoạt chế độ làm mịn trong .NET](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
+Hướng dẫn bật Clear Type và chế độ làm mịn để cải thiện chất lượng hiển thị văn bản trong các ứng dụng .NET sử dụng Aspose.HTML.
+
+### [Chuyển đổi tài liệu Word sang PDF – Hướng dẫn chi tiết (C#)](./convert-word-document-to-pdf-clear-text-guide-c/)
+Hướng dẫn từng bước chuyển đổi tài liệu Word sang PDF bằng Aspose.HTML trong C#, với nội dung rõ ràng và dễ hiểu.
+### [Lưu HTML vào zip với C# – tạo tệp zip bằng C# sử dụng Aspose](./save-html-to-zip-with-c-create-zip-archive-c-using-aspose/)
+Hướng dẫn cách lưu tài liệu HTML vào tệp ZIP bằng C# và Aspose, bao gồm các bước tạo và nén tệp zip một cách hiệu quả.
+### [Tạo phông chữ in đậm nghiêng trong C# – hướng dẫn từng bước](./create-bold-italic-font-in-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách tạo phông chữ in đậm và nghiêng trong C# bằng Aspose.HTML, bao gồm các bước thực hiện và ví dụ thực tế.
+### [Lưu HTML dưới dạng ZIP với trình xử lý tài nguyên tùy chỉnh trong C#](./save-html-as-zip-with-a-custom-resource-handler-in-c/)
+Hướng dẫn cách lưu tài liệu HTML thành tệp ZIP và sử dụng trình xử lý tài nguyên tùy chỉnh trong C# bằng Aspose.HTML.
+
+
 ## Phần kết luận
 
 Aspose.HTML cho .NET mở ra cánh cửa đến một thế giới khả năng khi làm việc với các tài liệu HTML trong các ứng dụng .NET của bạn. Các hướng dẫn tính năng nâng cao này sẽ trang bị cho bạn kiến thức và kỹ năng cần thiết để khai thác toàn bộ tiềm năng của Aspose.HTML. Nâng cao các dự án phát triển của bạn, tiết kiệm thời gian và tạo ra các giải pháp đáng chú ý với Aspose.HTML cho .NET. Bắt đầu với các hướng dẫn của chúng tôi ngay hôm nay và đưa phát triển web của bạn lên một tầm cao mới.
