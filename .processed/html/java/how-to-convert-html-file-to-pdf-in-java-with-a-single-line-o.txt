@@ -1,0 +1,7 @@
+Title: How to convert HTML file to PDF in Java with a single line of code
+Slug: how-to-convert-html-file-to-pdf-in-java-with-a-single-line-o
+Category: conversion-html-to-other-formats
+ProcessedDate: 2026-11-14T21:17:54.241567
+SourceRepo: AI Search API
+Keywords: convert html file to pdf, save html as pdf java, java generate pdf from html, html to pdf library java, how to convert html to pdf java
+PRNumber: 322
