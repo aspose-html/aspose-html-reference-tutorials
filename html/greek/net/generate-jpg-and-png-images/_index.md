@@ -68,7 +68,7 @@ url: /el/net/generate-jpg-and-png-images/
 ### [Δημιουργία εικόνας από HTML σε C# – Βήμα‑βήμα Οδηγός](./create-image-from-html-in-c-step-by-step-guide/)
 Μάθετε πώς να μετατρέψετε HTML σε εικόνα χρησιμοποιώντας C# με αναλυτικές οδηγίες βήμα‑βήμα.
 ### [Απόδοση HTML σε PNG σε C# – Οδηγός βήμα προς βήμα](./render-html-to-png-in-c-step-by-step-guide/)
-Μάθετε πώς να αποδίδετε HTML σε PNG χρησιμοποιώντας C# με το Aspose.HTML, βήμα προς βήμα.
+Μάθετε πώς να αποδίδετε HTML σε PNG χρησιμοποιώντας C# με το Aspose.HTML, βήμα‑βήμα.
 ### [Δημιουργήστε PNG από HTML σε C# – Οδηγός βήμα‑βήμα](./create-png-from-html-in-c-step-by-step-guide/)
 Μάθετε πώς να μετατρέψετε HTML σε PNG χρησιμοποιώντας C# με αναλυτικές οδηγίες βήμα‑βήμα.
 ### [Δημιουργία PNG από HTML σε C# – Πλήρης Οδηγός Προγραμματισμού](./create-png-from-html-in-c-complete-programming-guide/)
@@ -82,7 +82,7 @@ url: /el/net/generate-jpg-and-png-images/
 ### [Σεμινάριο html σε εικόνα – Απόδοση HTML σε PNG με Aspose.HTML σε C#](./html-to-image-tutorial-render-html-to-png-with-aspose-html-i/)
 Μάθετε πώς να μετατρέψετε HTML σε PNG χρησιμοποιώντας το Aspose.HTML σε C# με βήμα‑βήμα οδηγίες.
 ### [Πώς να αποδώσετε HTML σε PNG σε C# – Πλήρης Οδηγός](./how-to-render-html-to-png-in-c-complete-guide/)
-Μάθετε πώς να μετατρέψετε HTML σε εικόνες PNG χρησιμοποιώντας C# με βήμα‑βήμα οδηγίες και βέλτιστες πρακτικές.
+Μάθετε πώς να μετατρέψετε HTML σε PNG χρησιμοποιώντας C# με βήμα‑βήμα οδηγίες και βέλτιστες πρακτικές.
 ### [Δημιουργία PNG από SVG σε C# – Πλήρης Οδηγός Βήμα‑βήμα](./create-png-from-svg-in-c-full-step-by-step-guide/)
 Μάθετε πώς να μετατρέψετε αρχεία SVG σε PNG χρησιμοποιώντας C# με έναν πλήρη οδηγό βήμα‑βήμα.
 ### [Απόδοση εικόνας HTML σε C# – Πλήρης οδηγός Aspose.HTML](./render-html-image-in-c-complete-aspose-html-guide/)
@@ -105,7 +105,7 @@ url: /el/net/generate-jpg-and-png-images/
 Μάθετε πώς να μετατρέψετε HTML σε PNG χρησιμοποιώντας το Aspose.HTML με οδηγίες βήμα‑βήμα.
 ### [Εξαγωγή docx σε png – Πλήρης οδηγός C#](./export-docx-as-png-complete-c-guide/)
 Μάθετε πώς να μετατρέψετε αρχεία DOCX σε PNG χρησιμοποιώντας C# με πλήρη οδηγό.
-### [Δημιουργία εικόνας από HTML με Aspose.HTML – Πλήρης Οδηγός Βήμα‑βήμα](./create-image-from-html-with-aspose-html-complete-step-by-ste/)
+### [Δημιουργία εικόνας από HTML με Aspose.HTML – Πλήρης Οδηγός Βήμα‑βήμα](./create-image-from-html-with-aspose-html-complete-step-ste/)
 Μάθετε πώς να μετατρέψετε HTML σε εικόνα χρησιμοποιώντας Aspose.HTML με πλήρη βήμα‑βήμα οδηγίες.
 ### [Πώς να ενεργοποιήσετε το Antialiasing – Εξαγωγή εγγράφου σε εικόνα με C#](./how-to-enable-antialiasing-export-document-to-image-with-c/)
 Μάθετε πώς να ενεργοποιήσετε το antialiasing κατά την εξαγωγή εγγράφων σε εικόνες χρησιμοποιώντας C#.
@@ -140,7 +140,7 @@ url: /el/net/generate-jpg-and-png-images/
 ### [Πώς να αποδώσετε HTML σε C# – Οδηγός βήμα‑βήμα](./how-to-render-html-in-c-step-by-step-guide/)
 Μάθετε πώς να αποδώσετε HTML σε C# χρησιμοποιώντας το Aspose.HTML, βήμα‑βήμα οδηγός με παραδείγματα κώδικα.
 ### [Πώς να αποδώσετε HTML ως PNG με Aspose.HTML](./how-to-render-html-as-png-with-aspose-html/)
-Μάθετε πώς να αποδώσετε HTML ως PNG χρησιμοποιώντας το Aspose.HTML για .NET.
+Μάθετε πώς να αποδίδετε HTML ως PNG χρησιμοποιώντας το Aspose.HTML για .NET.
 ### [Δημιουργία PNG από HTML – Πλήρης Οδηγός Aspose.HTML](./create-png-from-html-complete-aspose-html-guide/)
 Μάθετε πώς να μετατρέψετε HTML σε PNG με πλήρη οδηγό και παραδείγματα χρησιμοποιώντας το Aspose.HTML.
 ### [Προσαρμοσμένος Διαχειριστής Πόρων σε C# – Αποδοτική Μετατροπή Word σε PNG](./custom-resource-handler-in-c-convert-word-to-png-efficiently/)
@@ -160,6 +160,8 @@ url: /el/net/generate-jpg-and-png-images/
 ### [Πώς να αποδώσετε HTML σε PNG σε C# με το Aspose.HTML](./how-to-render-html-to-png-in-c-with-aspose-html/)
 Μάθετε πώς να αποδίδετε HTML σε PNG χρησιμοποιώντας C# και Aspose.HTML, με βήμα‑βήμα οδηγίες.
 ### [Πώς να δημιουργήσετε εικόνα από HTML χρησιμοποιώντας το Aspose.HTML σε C#](./how-to-create-image-from-html-using-aspose-html-in-c/)
+
+### [Πώς να δημιουργήσετε PNG από HTML σε C# με Aspose.HTML](./how-to-create-png-from-html-in-c-with-aspose-html/)
 
 ## Σύναψη
 
