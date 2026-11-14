@@ -66,7 +66,7 @@ Aspose.HTML для .NET предлагает простой метод прео�
 ### [Конвертация DOCX в PNG в C# – Полное пошаговое руководство](./convert-docx-to-png-in-c-full-step-by-step-guide/)
 Подробное руководство по конвертации файлов DOCX в PNG с помощью C# и Aspose.HTML.
 ### [Создание PNG из HTML с Aspose.HTML – Пошаговое руководство](./create-png-from-html-with-aspose-html-step-by-step-guide/)
-Подробное пошаговое руководство по созданию PNG‑изображений из HTML‑кода с помощью Aspose.HTML для .NET.
+Подробное руководство по созданию PNG‑изображений из HTML‑кода с помощью Aspose.HTML для .NET.
 ### [Создание изображения из HTML на C# – Пошаговое руководство](./create-image-from-html-in-c-step-by-step-guide/)
 Подробное руководство по созданию изображения из HTML‑кода с помощью C# и Aspose.HTML для .NET.
 ### [Рендеринг HTML в PNG на C# – пошаговое руководство](./render-html-to-png-in-c-step-by-step-guide/)
@@ -139,32 +139,8 @@ Aspose.HTML для .NET предлагает простой метод прео�
 Подробное пошаговое руководство по рендерингу HTML в C# с использованием Aspose.HTML.
 ### [Как отобразить HTML в PNG с помощью Aspose.HTML](./how-to-render-html-as-png-with-aspose-html/)
 Узнайте, как преобразовать HTML в PNG с помощью Aspose.HTML, используя простые шаги и настройки рендеринга.
-### [Пользовательский обработчик ресурсов в C# – Эффективное преобразование Word в PNG](./custom-resource-handler-in-c-convert-word-to-png-efficiently/)
-Узнайте, как создать собственный обработчик ресурсов в C# для быстрой конвертации документов Word в PNG с помощью Aspose.HTML.
-### [Создание JPEG из Word – Полное руководство C#](./create-jpeg-from-word-complete-c-guide/)
-Полное руководство по созданию JPEG из документов Word с помощью Aspose.HTML для .NET на C#.
-### [Рендеринг HTML в PNG – Полное пошаговое руководство](./render-html-to-png-complete-step-by-step-guide/)
-Подробное руководство по преобразованию HTML в PNG с использованием Aspose.HTML для .NET, включая настройки и примеры кода.
-### [Создание PNG из HTML с Aspose.HTML – руководство для .NET](./create-png-from-html-with-aspose-html-net-guide/)
-Узнайте, как преобразовать HTML в PNG с помощью Aspose.HTML в .NET, следуя пошаговым инструкциям.
-### [Создание PNG из HTML с Aspose.HTML – Полное руководство на C#](./create-png-from-html-with-aspose-html-complete-c-guide/)
-Подробное руководство по созданию PNG из HTML с помощью Aspose.HTML в C#, включая настройку, параметры и примеры кода.
-### [Рендеринг HTML в PNG на C# – полное руководство](./render-html-to-png-in-c-complete-guide/)
-Полное руководство по рендерингу HTML в PNG с помощью Aspose.HTML в C#.
-### [Создание PNG из HTML на C# с использованием Aspose.HTML](./create-png-from-html-in-c-using-aspose-html/)
-Узнайте, как генерировать PNG‑изображения из HTML с помощью Aspose.HTML в C#.
-### [Как использовать Aspose для рендеринга HTML в PNG на C#](./how-to-use-aspose-to-render-html-to-png-in-c/)
-Узнайте, как с помощью Aspose.HTML преобразовать HTML в PNG‑файлы в C#.
-### [Как отрендерить HTML в PNG на C# с Aspose.HTML](./how-to-render-html-to-png-in-c-with-aspose-html/)
-Подробное руководство по преобразованию HTML в PNG с помощью Aspose.HTML в C#.
-### [Как создать изображение из HTML с помощью Aspose.HTML в C#](./how-to-create-image-from-html-using-aspose-html-in-c/)
-Узнайте, как преобразовать HTML в изображение с помощью Aspose.HTML в C#.
+### [Как создать PNG из HTML в C# с Aspose.HTML](./how-to-create-png-from-html-in-c-with-aspose-html/)
 
-## Заключение
-
-В заключение, Aspose.HTML для .NET предоставляет удобное и мощное решение для создания изображений JPG и PNG из HTML-контента. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете, эти руководства проведут вас через весь процесс. Создавайте визуально привлекательные изображения, которые выделяются и поднимают ваши проекты с Aspose.HTML для .NET.
-
-Так чего же ждать? Начните изучать мир преобразования HTML в изображения с Aspose.HTML для .NET уже сегодня. Откройте новые возможности и сделайте свои веб- и настольные приложения еще более интересными и визуально привлекательными. Счастливого кодирования!
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
