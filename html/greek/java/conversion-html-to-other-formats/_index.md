@@ -83,6 +83,9 @@ weight: 25
 Συμπερασματικά, η εξοικείωση με **html to pdf java** και το ευρύτερο σύνολο μετατροπών ανοίγει ισχυρές ροές εργασίας εγγράφων για κάθε προγραμματιστή Java. Το Aspose.HTML for Java προσφέρει ολοκληρωμένους, εύκολους στην παρακολούθηση οδηγούς που σας επιτρέπουν να μετατρέψετε HTML, Markdown και SVG στις μορφές που χρειάζεστε, με υψηλή ποιότητα και πλήρη έλεγχο.
 
 ## Μετατροπή - HTML σε Άλλες Μορφές Μαθήματα
+### [How to convert HTML file to PDF in Java with a single line of code](./how-to-convert-html-file-to-pdf-in-java-with-a-single-line-o/)
+
+
 ### [Μετατροπή HTML σε PDF](./convert-html-to-pdf/)
 ### [Πώς να συμπιέσετε PDF με Aspose HTML to PDF – Οδηγός Java](./how-to-compress-pdf-with-aspose-html-to-pdf-java-guide/)
 Μάθετε πώς να μειώσετε το μέγεθος των αρχείων PDF χρησιμοποιώντας Aspose.HTML for Java κατά τη μετατροπή.

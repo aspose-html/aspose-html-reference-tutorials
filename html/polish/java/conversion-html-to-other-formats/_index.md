@@ -369,28 +369,11 @@ Dowiedz się, jak konwertować szablony HTML przy użyciu Aspose w prostym przew
 ### [Jak śledzić samouczek HTML PDF w Javie przy użyciu Aspose.HTML](./how-to-follow-an-html-pdf-tutorial-in-java-using-aspose-html/)
 Dowiedz się, jak krok po kroku podążać za samouczkiem konwersji HTML do PDF w Javie przy użyciu Aspose.HTML.
 
-## Często zadawane pytania
+### [Utwórz PDF z HTML w Javie – Jednolinijkowy przewodnik Aspose](./create-pdf-from-html-in-java-one-line-aspose-guide/)
+Szybki przewodnik, jak w jednej linii kodu wygenerować PDF z HTML przy użyciu Aspose.HTML w Javie.
 
-**P: Czy mogę używać Aspose.HTML for Java w aplikacji komercyjnej?**
-O: Tak. Do użytku produkcyjnego wymagana jest ważna licencja komercyjna; dostępna jest bezpłatna wersja próbna w celu przetestowania.
-
-**P: Które wersje Javy są obsługiwane?**
-O: Aspose.HTML for Java obsługuje Javę 8, 11 i nowsze.
-
-**P: Czy biblioteka obsługuje zewnętrzne pliki CSS i JavaScript?**
-O: Oczywiście. Renderer przetwarza powiązane pliki CSS i wykonuje JavaScript, aby zapewnić zgodność pliku PDF z oryginalnym układem strony.
-
-**P: Jak duży może być rozmiar plików HTML do konwersji?**
-O: Biblioteka jest zoptymalizowana pod kątem dużych dokumentów; jednak zużycie pamięci rośnie wraz z rozmiarem strony, dlatego należy rozważyć strumieniowe przesyłanie dużych danych wejściowych.
-
-**P: Czy można dostosować metadane PDF podczas konwersji?**
-O: Tak. Możesz ustawić tytuł, autora, temat i słowa kluczowe za pomocą obiektu `PdfSaveOptions` przed zapisaniem.
-
----
-
-**Last Updated:** 2025-12-18  
-**Tested With:** Aspose.HTML for Java 24.12  
-**Author:** Aspose  
+### [Jak przekonwertować plik HTML na PDF w Javie w jednej linii kodu](./how-to-convert-html-file-to-pdf-in-java-with-a-single-line-o/)
+Dowiedz się, jak w jednej linii kodu przekonwertować plik HTML na PDF w Javie przy użyciu Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

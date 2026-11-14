@@ -98,6 +98,8 @@ Aspose.HTML for Java 简化了 HTML 转 PDF 的工作流。请参阅专门的教
 提供详细步骤，演示如何在 Java 使用 Aspose.HTML 将 HTML 转换为 PDF，并自定义页面尺寸和 DPI 设置。
 ### [在 Java 中将 HTML 转换为 PDF – 单行代码示例](./convert-html-to-pdf-in-java-one-line-code-example/)
 演示如何使用 Aspose.HTML for Java 通过一行代码将 HTML 快速转换为 PDF，适合快速原型和简化实现。
+### [如何在 Java 中使用单行代码将 HTML 文件转换为 PDF](./how-to-convert-html-file-to-pdf-in-java-with-a-single-line-o/)
+演示如何使用 Aspose.HTML 在 Java 中仅用一行代码将 HTML 文件快速转换为 PDF。
 ### [Java HTML 转 PDF – PDF/A‑2b 转换指南](./java-html-to-pdf-pdf-a-2b-conversion-guide/)
 使用 Aspose.HTML for Java 将 HTML 转换为符合 PDF/A‑2b 标准的 PDF，满足长期存档需求。
 ### [HTML 转 PDF 教程 – 使用 Aspose.HTML Java 将 HTML 转换为 PDF](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-ja/)
@@ -156,7 +158,7 @@ Aspose.HTML for Java 简化了 HTML 转 PDF 的工作流。请参阅专门的教
 ### [在将 MHTML 转换为 PDF 时嵌入图像 – Aspose 指南](./how-to-embed-images-when-converting-mhtml-to-pdf-aspose-guid/)
 了解如何在使用 Aspose.HTML 将 MHTML 转换为 PDF 时正确嵌入图像，确保文档完整显示。
 ### [java html to pdf – 使用 Aspose 将 HTML 转换为 PDF/A‑2b](./java-html-to-pdf-convert-html-to-pdf-a-2b-with-aspose/)
-了解如何使用 Aspose.HTML for Java 将 HTML 文档转换为符合 PDF/A‑2b 标准的归档 PDF，确保长期保存和兼容性。
+了解如何使用 Aspose.HTML for Java 将 HTML 文档转换为符合 PDF/A‑2b 标准的 PDF，确保长期保存和兼容性。
 ### [从 HTML 创建 MHTML 文件 – 完整 Java 指南](./create-mhtml-file-from-html-complete-java-guide/)
 使用 Aspose.HTML for Java 的完整步骤，将 HTML 文件转换为 MHTML，保留所有资源，实现离线存档。
 ### [将 HTML 转换为 XPS](./convert-html-to-xps/)
@@ -266,7 +268,7 @@ Aspose.HTML for Java 简化了 HTML 转 PDF 的工作流。请参阅专门的教
 完整指南展示如何在 Java 中使用 Aspose.HTML 设置 PDF 页面尺寸，实现自定义页面大小的转换。
 ### [将 HTML 转换为 Markdown](./convert-html-to-markdown-complete-c-guide/)
 了解如何使用 Aspose.HTML 在 C# 中将 HTML 转换为 Markdown。完整指南帮助您实现高质量转换。
-### [将 HTML 转换为 PDF（单行代码）](./html-to-pdf-tutorial-convert-html-to-pdf-in-java-in-one-line/)
+### [将 HTML 转换为 PDF（单行代码）](./html-to-pdf-tutorial-convert-html-to-pdf-in-one-line/)
 了解如何使用 Aspose.HTML 在 Java 中仅用一行代码将 HTML 转换为 PDF，实现快速高效的文档生成。
 ### [从 HTML 创建自定义尺寸 PDF（Java） – 完整指南](./create-pdf-custom-size-from-html-in-java-full-guide/)
 了解如何使用 Aspose.HTML 在 Java 中将 HTML 转换为自定义页面尺寸的 PDF，提供完整步骤和示例。
@@ -290,7 +292,7 @@ Aspose.HTML for Java 简化了 HTML 转 PDF 的工作流。请参阅专门的教
 ### [Java 线程池教程 – 将多个 HTML 文件转换为 PDF](./java-thread-pool-tutorial-convert-multiple-html-files-to-pdf/)
 使用 Java 线程池并行处理，将多个 HTML 文件高效转换为 PDF，提升批量转换性能。
 
-### [在 Java 中将 HTML 转换为 PDF – 完整沙盒指南](./convert-html-to-pdf-in-java-full-sandbox-guide/)
+### [在 Java 中将 HTML 转换为 PDF – 完整指南（沙盒）](./convert-html-to-pdf-in-java-full-sandbox-guide/)
 使用 Aspose.HTML 在 Java 中完整演示如何在沙盒环境下将 HTML 转换为 PDF。
 
 ### [html to pdf 教程 – 使用 Java 固定线程池将 HTML 转换为 PDF](./html-to-pdf-tutorial-convert-html-to-pdf-with-java-fixed-thr/)
