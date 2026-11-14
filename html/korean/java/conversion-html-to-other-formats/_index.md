@@ -80,6 +80,9 @@ SVG 벡터에서 고해상도 PNG 또는 JPEG 이미지를 생성하여 다양�
 SVG 그래픽을 XPS 형식으로 변환하여 기기 간 일관된 인쇄를 가능하게 합니다.
 
 ## 변환 - HTML 기타 형식 튜토리얼
+### [How to convert HTML file to PDF in Java with a single line of code](./how-to-convert-html-file-to-pdf-in-java-with-a-single-line-o/)
+
+
 ### [HTML을 PDF로 변환](./convert-html-to-pdf/)
 ### [Aspose HTML for Java로 동적 HTML을 PDF로 변환](./convert-dynamic-html-pdf-with-aspose-html-for-java/)
 Aspose HTML for Java를 활용해 동적으로 생성된 HTML을 PDF로 변환하는 방법을 단계별로 안내합니다.

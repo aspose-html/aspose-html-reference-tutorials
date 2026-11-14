@@ -109,7 +109,7 @@ Java で HTML を PDF に変換する手順をステップバイステップで�
 Java で HTML を PDF に並列バッチ変換する手順を詳しく解説します。
 ### [Aspose HTML for Java で HTML を PDF に変換する完全ガイド](./convert-html-to-pdf-with-aspose-html-for-java-full-guide/)
 Aspose.HTML for Java を使い、HTML を PDF に変換する手順を詳細に解説したフルガイドです。高度な設定やベストプラクティスも紹介します。
-### [HTML to PDF チュートリアル：ワンライン Aspose コンバータ](./html-to-pdf-tutorial-one-line-aspose-converter/)
+### [HTML to PDF チュートリアル – ワンライン Aspose コンバータ](./html-to-pdf-tutorial-one-line-aspose-converter/)
 Aspose.HTML を使って、1 行のコードで HTML を PDF に変換する方法を紹介します。
 ### [HTML to PDF チュートリアル: Java で HTML を PDF に変換](./html-to-pdf-tutorial-convert-html-to-pdf-in-java/)
 Aspose.HTML を使用して Java で HTML を PDF に変換する手順を詳しく解説します。シンプルなコードで高品質な PDF を生成できます。
@@ -210,7 +210,7 @@ Aspose.HTML を使用して、HTML から PDF への変換時に JavaScript を�
 ### [Aspose を使用した HTML から PDF への画像埋め込み方法 – Java ガイド](./how-to-embed-images-in-html-to-pdf-with-aspose-java-guide/)
 Aspose.HTML for Java を使って、HTML 内の画像を PDF に正しく埋め込む手順を解説します。
 ### [JavaでPDFを暗号化する – HTMLからPDFをパスワード保護](./how-to-encrypt-pdf-in-java-password-protect-pdf-from-html/)
-Aspose.HTML for Java を使用して、HTML から生成した PDF にパスワードを設定し、暗号化する手順を解説します。
+Aspose.HTML を使用して、HTML から生成した PDF にパスワードを設定し、暗号化する手順を解説します。
 ### [HTML を PDF に変換 – Azure Blob へ PDF を保存する完全ガイド](./convert-html-to-pdf-complete-guide-to-saving-pdf-to-azure-bl/)
 Aspose.HTML を使用して Java で HTML を PDF に変換し、生成した PDF を Azure Blob Storage に保存する手順を詳しく解説します。
 ### [モバイルビューポートでHTMLからPDFを作成 – 完全なJavaガイド](./create-pdf-from-html-with-mobile-viewport-complete-java-guid/)
@@ -337,21 +337,8 @@ Aspose.HTML を使用して、Java で HTML を PDF に変換する手順を詳�
 ### [Aspose を使用した HTML から DOCX への変換 – Java ガイド](./convert-html-to-docx-with-aspose-java-html-to-docx-guide/)
 ### [JavaでMarkdownからPDFを作成する – 完全ステップバイステップガイド](./create-pdf-from-markdown-in-java-full-step-by-step-guide/)
 Aspose.HTML を使用して Java で Markdown を PDF に変換する方法を学びます。詳細な手順で高品質な PDF を作成できます。
-### [HTML ファイルを Java で PDF に変換する方法 – 完全ガイド](./how-to-convert-html-file-to-pdf-in-java-full-guide/)
-### [固定スレッドプールで HTML を PDF に変換する Java](./convert-html-to-pdf-with-fixed-thread-pool-java/)
-固定スレッドプールを活用し、マルチスレッド環境で効率的に HTML を PDF に変換する方法を解説します。
-### [JavaでHTMLからPDFを作成 – 完全な Aspose.HTML ガイド](./create-pdf-from-html-in-java-full-aspose-html-guide/)
-JavaでHTMLからPDFを作成する完全ガイドです。Aspose.HTML の全機能と高度な設定方法を詳しく解説します。
-### [JavaでウェブページをPDFに変換 – Aspose HTML ガイド](./convert-webpage-to-pdf-in-java-aspose-html-guide/)
-Aspose.HTML を使って Java でウェブページ全体を PDF に変換する手順を解説します。簡単に高品質な PDF を生成できます。
-### [HTML to PDF チュートリアル – Aspose HTML for Java で HTML を PDF に変換](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-fo/)
-### [C#でHTMLファイルをPDFに変換する方法 – ステップバイステップガイド](./how-to-convert-html-file-to-pdf-in-c-step-by-step-guide/)
-Aspose.HTML を使用して C# で HTML ファイルを PDF に変換する手順を詳しく解説します。
-### [JavaでHTMLファイルをPDFに変換する方法 – 完全ガイド](./how-to-convert-html-file-to-pdf-in-java-complete-guide/)
-### [ローカルHTMLファイルをPDFに変換 – 完全Javaガイド](./convert-local-html-file-to-pdf-complete-java-guide/)
-Aspose.HTML を使用して Java でローカル HTML ファイルを PDF に変換する完全ガイドです。
-### [Aspose を使用した HTML テンプレート変換 – ステップバイステップガイド](./convert-html-template-with-aspose-step-by-step-guide/)
-Aspose.HTML を使って HTML テンプレートを変換する手順を詳しく解説します。
+### [HTML ファイルを Java で 1 行コードで PDF に変換する方法](./how-to-convert-html-file-to-pdf-in-java-with-a-single-line-o/)
+### [HTML to PDF チュートリアル – Aspose.HTML を使用したバッチ変換の完全ガイド](./html-to-pdf-conversion-complete-guide-to-batch-convert-files/)
 
 ## よくある質問
 
@@ -359,7 +346,7 @@ Aspose.HTML を使って HTML テンプレートを変換する手順を詳し�
 A: はい。本番環境での使用には有効な商用ライセンスが必要です。評価用に無料トライアルをご利用いただけます。
 
 **Q: どのバージョンの Java がサポートされていますか？**
-A: Aspose.HTML for Java は Java8、11 以降のバージョンをサポートしています。
+A: Aspose.HTML for Java は Java8、11 以降のバージョンをフルサポートしています。
 
 **Q: ライブラリは外部 CSS と JavaScript を処理できますか？**
 A: はい。レンダラーはリンクされた CSS ファイルを処理し、JavaScript を実行して、PDF が元のページレイアウトと一致するようにします。

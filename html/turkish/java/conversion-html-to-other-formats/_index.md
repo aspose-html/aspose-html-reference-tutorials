@@ -90,6 +90,9 @@ Aspose.HTML for Java kullanarak bir web sayfasını adım adım PDF dosyasına d
 ### [HTML'yi PDF'ye Dönüştürme Java’da – Tek Satır Kod Örneği](./convert-html-to-pdf-in-java-one-line-code-example/)
 Aspose.HTML for Java kullanarak tek satır kodla HTML'yi PDF'ye dönüştürmeyi öğrenin.
 
+### [Java’da HTML dosyasını tek satır kodla PDF'ye dönüştürme](./how-to-convert-html-file-to-pdf-in-java-with-a-single-line-o/)
+Aspose.HTML for Java kullanarak tek satır kodla HTML dosyasını PDF'ye dönüştürün.
+
 ### [HTML'yi Toplu Olarak PDF'ye Dönüştürme – Java NIO ve Paralel İşleme Kılavuzu](./convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/)
 Java NIO ve paralel işleme ile birden çok HTML dosyasını toplu PDF'ye dönüştürün.
 ### [HTML'yi Java ile PDF'ye Dönüştürme – Adım‑Adım Kılavuz](./convert-html-to-pdf-with-java-step-by-step-guide/)
@@ -321,7 +324,7 @@ Aspose.HTML for Java ile PDF dosyalarına gömülü font eklemeyi adım adım ö
 Aspose.HTML for Java kullanarak HTML'yi PDF'ye dönüştürmek için adım adım öğretici.
 ### [HTML'yi PDF'ye Dönüştürme Java’da – Paralel İş Parçacığı Havuzu Rehberi](./convert-html-to-pdf-in-java-parallel-thread-pool-guide/)
 Java’da HTML'yi PDF'ye dönüştürürken paralel iş parçacığı havuzu kullanarak yüksek performanslı toplu dönüşüm yapın.
-### [HTML'den PDF'ye öğretici – Java'da HTML'yi PDF'ye adım adım dönüştürme](./html-to-pdf-tutorial-convert-html-to-pdf-in-java-step-by-ste/)
+### [HTML'den PDF'ye öğretici – Java'da HTML'yi PDF'ye adım adım dönüştürme](./html-to-pdf-tutorial-convert-html-to-pdf-in-java-step-ste/)
 Java’da HTML'yi PDF'ye adım adım dönüştürerek yüksek kaliteli PDF belgeleri oluşturmayı öğrenin.
 ### [Java’da PDF’ye Yazı Tipi Gömme – Tam Kılavuz](./how-to-embed-fonts-pdf-in-java-complete-guide/)
 Java uygulamalarınızda PDF dosyalarına özel yazı tipleri eklemeyi adım adım öğrenin.
@@ -356,7 +359,7 @@ Java uygulamanızda HTML dosyalarını yüksek kaliteli PDF'lere dönüştürmek
 ### [Yerel HTML Dosyasını PDF'ye Dönüştürme – Tam Java Kılavuzu](./convert-local-html-file-to-pdf-complete-java-guide/)
 Java kullanarak yerel bir HTML dosyasını yüksek kaliteli PDF'ye dönüştürmek için adım adım rehber.
 ### [Aspose HTML Converter ile Java'da HTML'yi PDF'ye Dönüştürme – Tam Kılavuz](./convert-html-to-pdf-with-aspose-html-converter-in-java-compl/)
-Aspose HTML Converter kullanarak Java'da HTML'yi PDF'ye dönüştürmenin tüm adımlarını ayrıntılı olarak öğrenin.
+Aspose.HTML Converter kullanarak Java'da HTML'yi PDF'ye dönüştürmenin tüm adımlarını ayrıntılı olarak öğrenin.
 ### [HTML'den PDF'ye Öğretici: Java ile HTML'yi PDF'ye Dönüştürme](./html-to-pdf-tutorial-convert-html-to-pdf-with-java/)
 Java kullanarak HTML dosyalarını PDF'ye dönüştürmenin adım adım rehberi.
 ### [Aspose ile HTML şablonunu dönüştürme – adım adım kılavuz](./convert-html-template-with-aspose-step-by-step-guide/)

@@ -80,6 +80,9 @@ XPS هو صيغة الطباعة الخاصة بمايكروسوفت. باستخ
 حوّل رسومات SVG إلى صيغة XPS للطباعة المتسقة عبر الأجهزة.
 
 ## التحويل - دروس تحويل HTML إلى صيغ أخرى
+### [How to convert HTML file to PDF in Java with a single line of code](./how-to-convert-html-file-to-pdf-in-java-with-a-single-line-o/)
+
+
 ### [تحويل HTML إلى PDF](./convert-html-to-pdf/)
 ### [تحويل HTML إلى PDF في Java – دليل كامل مع تضمين الخطوط](./convert-html-to-pdf-in-java-complete-guide-with-font-embeddi/)
 دليل شامل لتحويل HTML إلى PDF في Java مع تضمين الخطوط لضمان عرض النصوص بشكل صحيح.
