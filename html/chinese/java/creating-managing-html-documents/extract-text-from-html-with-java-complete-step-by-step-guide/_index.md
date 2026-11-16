@@ -21,7 +21,7 @@ title: 使用 Java 从 HTML 中提取文本 – 完整的逐步指南
 url: /zh/java/creating-managing-html-documents/extract-text-from-html-with-java-complete-step-by-step-guide/
 ---
 
-output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

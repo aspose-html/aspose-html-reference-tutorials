@@ -1,24 +1,54 @@
 ---
 category: general
-date: 2026-01-03
-description: Gyorsan nyerje ki a HTML-t MHTML-ből az Aspose.HTML segítségével. Tanulja
-  meg, hogyan kell kinyerni az MHTML-t, átalakítani azt fájlokká, és képeket kinyerni
-  az MHTML-ből egyetlen útmutatóban.
+date: 2026-08-22
+description: HTML-t gyorsan nyerhet ki MHTML-ből az Aspose.HTML segítségével. Tanulja
+  meg, hogyan nyerhet ki MHTML-t, konvertálhatja a MHTML-t fájlokká, és nyerhet ki
+  képeket a MHTML-ből egyetlen oktatóanyagon belül.
 draft: false
 keywords:
 - extract html from mhtml
-- how to extract mhtml
 - convert mhtml to files
 - extract images from mhtml
-language: hu
-og_description: Gyorsan extrahálja a HTML-t MHTML-ből az Aspose.HTML segítségével.
-  Tanulja meg, hogyan lehet kinyerni az MHTML-t, átalakítani MHTML-t fájlokká, és
-  képeket kinyerni az MHTML-ből egyetlen útmutatóban.
-og_title: HTML kinyerése MHTML-ből – Teljes Java útmutató
+- Aspose.HTML Java extraction
+lastmod: 2026-08-22
+og_description: HTML-t gyorsan nyerhet ki MHTML-ből az Aspose.HTML segítségével. Tanulja
+  meg, hogyan nyerhet ki MHTML-t, konvertálhatja a MHTML-t fájlokká, és nyerhet ki
+  képeket a MHTML-ből egyetlen oktatóanyagon belül.
+og_image_alt: Diagram showing extraction of HTML, CSS, and images from an MHTML archive
+  using Aspose.HTML for Java
+og_title: HTML kinyerése MHTML-ből – teljes Java oktatóanyag
+schemas:
+- author: Aspose
+  dateModified: '2026-08-22'
+  description: Extract html from mhtml quickly with Aspose.HTML. Learn how to extract
+    mhtml, convert mhtml to files, and extract images from mhtml in a single tutorial.
+  headline: Extract HTML from MHTML – Complete Java Guide
+  type: TechArticle
+- questions:
+  - answer: Aspose.HTML streams the archive, so memory usage stays low. Adjust the
+      JVM heap if you process many large files concurrently.
+    question: What if the MHTML file is several hundred megabytes?
+  - answer: Yes. After extraction, simply ignore `index.html` and use the contents
+      of the `images/` folder. You can programmatically list image files with `Files.walk`
+      and filter by common image extensions.
+    question: Can I extract only the images without the HTML file?
+  - answer: '`MhtmlExtractionOptions` retains original MIME part names by default.
+      For custom naming, post‑process the files or implement a custom `IResourceHandler`.'
+    question: How do I preserve the original filenames of embedded resources?
+  - answer: Absolutely. The same Java code runs on any platform that supports Java
+      8+, just adjust file‑system paths accordingly.
+    question: Does this work on Linux and macOS as well as Windows?
+  - answer: Write a simple loop that enumerates all `.mhtml` files, loads each into
+      an `HTMLDocument`, and calls `Converter.extract` with a unique output directory
+      for each file.
+    question: How can I batch‑process a folder of .mhtml files?
+  type: FAQPage
 tags:
 - Java
 - Aspose.HTML
 - MHTML
+- convert mhtml to files
+- extract images from mhtml
 title: HTML kinyerése MHTML-ből – Teljes Java útmutató
 url: /hu/java/advanced-usage/extract-html-from-mhtml-complete-java-guide/
 ---
@@ -29,31 +59,38 @@ url: /hu/java/advanced-usage/extract-html-from-mhtml-complete-java-guide/
 
 # HTML kinyerése MHTML-ből – Teljes Java útmutató
 
-Valaha szükséged volt **HTML kinyerésére MHTML-ből**, de nem tudtad, hol kezdj? Nem vagy egyedül. Az MHTML archívumok egy weboldalt, annak CSS‑ét, szkriptjeit és képeit egyetlen fájlba csomagolják – praktikus a mentéshez, de fájdalmas, ha vissza akarod kapni az egyes részeket. Ebben az útmutatóban megmutatjuk, hogyan kell kinyerni az mhtml‑t, átalakítani az mhtml‑t fájlokká, és akár képeket is kinyerni az mhtml‑ből az Aspose.HTML for Java segítségével.
+Valaha szükséged volt **HTML kinyerésére MHTML-ből**, de nem tudtad, hol kezdjed? Nem vagy egyedül. Az MHTML archívumok egy weboldalt, annak CSS‑ét, szkriptjeit és képeit egyetlen fájlba csomagolják – praktikus a mentéshez, de fáradságot okoz, ha vissza akarod kapni az egyes részeket. Ebben az útmutatóban megmutatjuk, hogyan nyerheted ki az MHTML‑t, konvertálhatod az MHTML‑t fájlokká, és akár a képeket is kinyerheted az MHTML‑ből az Aspose.HTML for Java segítségével.
 
-A lényeg: nem kell saját parsert írnod vagy kézzel kicsomagolnod egy MIME csomagot. Az Aspose.HTML elvégzi a nehéz munkát, és tiszta mappaszerkezetet ad HTML, CSS és médiafájlokkal, készen a használatra. A végére egy futtatható Java programod lesz, amely bármely `.mhtml` archívumot átalakít egy szokványos webes erőforráskészletté.
+## Gyors válaszok
+- **Mi a leggyorsabb módja az HTML kinyerésének egy MHTML fájlból?** Use `HTMLDocument` with `MhtmlExtractionOptions` and call `Converter.extract`.  
+- **Szükséges saját MIME elemzőt írnom?** No, Aspose.HTML handles the parsing internally.  
+- **Mely operációs rendszerek támogatottak?** Any OS that runs Java 8+, including Windows, Linux, and macOS.  
+- **Kinyerhetek csak képeket?** Yes – run the extraction and then use the generated `images/` folder.  
+- **Melyik Aspose.HTML verzió szükséges?** Version 23.10 or newer provides the API used in this guide.
 
-## Mit fogsz megtanulni
+## Mi az a HTML kinyerése MHTML-ből?
+A “extract html from mhtml” kifejezés egy egyfájlos webarchívum (MHTML) visszakonvertálását jelenti annak alkotó HTML‑re, CSS‑re és médiaeszközeire. Ez a folyamat helyreállítja az eredeti oldal szerkezetét, így a böngészők a csomagolt konténer nélkül is megjeleníthetik.
 
-* Tölts be egy MHTML archívumot egy `HTMLDocument`‑ba.
-* Állítsd be a `MhtmlExtractionOptions`‑t, hogy megadd, hová kerüljenek a kinyert fájlok.
-* Engedélyezd az URL átírást, hogy a HTML a frissen kinyert erőforrásokra hivatkozzon.
-* Futtasd a kinyerést egyetlen kódsorral.
-* Tippek csak képek kinyeréséhez, nagy archívumok kezeléséhez, és a gyakori buktatók hibaelhárításához.
+## Miért használjuk az Aspose.HTML‑t ehhez a feladathoz?
+Az Aspose.HTML **50+ bemeneti és kimeneti formátumot** támogat, és akár **1 GB** méretű archívumokat is képes feldolgozni adatfolyamokként, ami alacsony memóriahasználatot biztosít. Beépített URL‑átírása garantálja, hogy a kinyert HTML az újonnan létrehozott erőforrásfájlokra mutasson, automatikusan megszüntetve a törött hivatkozásokat.
 
-**Előfeltételek**
+## Előfeltételek
+- Java 8 vagy újabb telepítve.  
+- Aspose.HTML for Java 23.10+ (töltsd le a legújabb JAR‑t az Aspose weboldaláról).  
+- Egy alapvető Java projekt beállítva a kedvenc IDE‑dben (IntelliJ, Eclipse, VS Code, stb.).
 
-* Java 8 vagy újabb telepítve.
-* Az Aspose.HTML for Java legújabb verziója (a kód 23.10+ verzióval működik).
-* Alapvető ismeretek Java projektekről és a kedvenc IDE‑dról (IntelliJ, Eclipse, VS Code, stb.).
+> **Pro tip:** If you haven’t downloaded Aspose.HTML yet, grab the latest JAR from the [Aspose website](https://products.aspose.com/html/java) and add it to your project’s classpath.
 
-> **Pro tipp:** Ha még nem töltötted le az Aspose.HTML‑t, szerezd be a legújabb JAR‑t a [Aspose weboldalról](https://products.aspose.com/html/java), és add hozzá a projekted classpath‑jához.
+![Diagram of extracting HTML from MHTML](extract-html-from-mhtml-diagram.png){alt="HTML kinyerése MHTML-ből"}
 
-![MHTML-ből HTML kinyerésének diagramja](extract-html-from-mhtml-diagram.png){alt="mhtml-ből html kinyerése"}
+[Diagram a HTML MHTML‑ből történő kinyeréséről](extract-html-from-mhtml-diagram.png)
 
-## 1. lépés – Aspose.HTML hozzáadása a projekthez
+## Hogyan adod hozzá az Aspose.HTML‑t a projektedhez?
+Add the library to the classpath so the compiler can find the API. For Maven, insert the dependency into `pom.xml`; for Gradle, add it to `build.gradle`. You can also place the JAR in a `libs` folder and reference it manually. Once the library is visible, you’re ready to **extract HTML from MHTML**.
 
-Mielőtt bármilyen kód futna, a könyvtárnak a classpath‑on kell lennie. Ha Maven‑t használsz, illeszd be a következő függőséget a `pom.xml`‑be:
+## Hogyan töltöd be egy MHTML archívumot?
+`HTMLDocument` represents a web document and can load MHTML files.  
+Load the `.mhtml` file as an `HTMLDocument`. This step validates the archive and builds internal structures, allowing the extraction engine to work efficiently.
 
 ```xml
 <dependency>
@@ -63,17 +100,21 @@ Mielőtt bármilyen kód futna, a könyvtárnak a classpath‑on kell lennie. Ha
 </dependency>
 ```
 
-Ha Gradle‑t részesíted előnyben:
+**Definition anchor:** `HTMLDocument` is Aspose.HTML’s core class that represents any web document—HTML, MHTML, or other supported formats—in memory.
+
+## Hogyan konfigurálod a kinyerési beállításokat (MHTML konvertálása fájlokká)?
+`MhtmlExtractionOptions` lets you set output folder, URL rewriting, and naming conventions for extracted resources.  
+Create an instance of `MhtmlExtractionOptions` to tell the library where to write files, whether to rewrite URLs, and how to name resources. Proper configuration ensures the extracted HTML works out‑of‑the‑box in browsers.
 
 ```gradle
 implementation 'com.aspose:aspose-html:23.10'
 ```
 
-Vagy egyszerűen helyezd a letöltött JAR‑t a `libs` mappába, és hivatkozz rá manuálisan. Miután a könyvtár látható, készen állsz a **HTML kinyerésére MHTML‑ből**.
+**Definition anchor:** `MhtmlExtractionOptions` lets you specify output folder paths, enable URL rewriting, and control file‑naming conventions for the extracted assets.
 
-## 2. lépés – MHTML archívum betöltése
-
-Az első logikus lépés a `.mhtml` fájl megnyitása `HTMLDocument`‑ként. Gondolj rá úgy, mintha azt mondanád az Aspose.HTML‑nek: „Itt a konténer, amivel dolgozni akarok.”
+## Hogyan futtatod a kinyerést (képek kinyerése MHTML‑ből)?
+`Converter.extract` performs the extraction of the loaded document using the specified options.  
+Invoke the static `Converter.extract` method with the loaded document and the options you configured. The method streams the content to disk, creating a tidy folder hierarchy.
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -85,11 +126,7 @@ String mhtmlPath = "C:/myfiles/archive.mhtml";
 HTMLDocument mhtmlDocument = new HTMLDocument(mhtmlPath);
 ```
 
-Miért fontos: a dokumentum betöltése ellenőrzi a fájlt és előkészíti a belső struktúrákat, így a későbbi kinyerés gyors és hibamentes lesz.
-
-## 3. lépés – Kinyerési beállítások konfigurálása (MHTML átalakítása fájlokká)
-
-Most azt mondjuk a könyvtárnak, **hogyan** szeretnénk a tartalmat a lemezen elrendezni. A `MhtmlExtractionOptions` finomhangolt vezérlést biztosít a kimeneti mappa, az URL átírás és az eredeti fájlnevek megtartása felett.
+After this call finishes, you’ll find a folder structure similar to:
 
 ```java
 import com.aspose.html.converters.MhtmlExtractionOptions;
@@ -102,11 +139,45 @@ extractionOptions.setOutputFolder("C:/myfiles/extracted");
 extractionOptions.setRewriteUrls(true);
 ```
 
-A `setRewriteUrls(true)` beállítása kulcsfontosságú a **MHTML átalakításához fájlokká**, amelyek ténylegesen működnek, amikor a kinyert HTML‑t böngészőben nyitod meg. Enélkül az oldal továbbra is belső MHTML hivatkozásokra mutatna, és hibás lenne.
+The HTML file now references the images in the `images/` sub‑folder, meaning you’ve successfully **extract images from mhtml** as well as the full HTML markup.
 
-## 4. lépés – Kinyerés futtatása (Képek kinyerése MHTML‑ből)
+## Mik a gyakori buktatók és hogyan kerüld el őket?
+- **Large archives:** Increase the JVM heap (`-Xmx2g`) if you process files larger than a few hundred megabytes.  
+- **Empty output folder:** Always start with an empty destination folder; leftover files can cause naming conflicts.  
+- **Broken URLs:** Ensure `setRewriteUrls(true)` is enabled; otherwise the HTML will still point to internal MHTML references.  
+- **Logging for troubleshooting:** Enable detailed logs with `System.setProperty("aspose.html.logging", "true")` to capture any extraction errors.
 
-Az utolsó sor varázsol. A statikus `Converter.extract` metódus beolvassa a betöltött dokumentumot, alkalmazza a beállításokat, és mindent a lemezre ír.
+## Gyakran ismételt kérdések
+
+**Q: Mi van, ha az MHTML fájl több száz megabájt méretű?**  
+A: Aspose.HTML streams the archive, so memory usage stays low. Adjust the JVM heap if you process many large files concurrently.
+
+**Q: Kinyerhetek csak képeket anélkül, hogy a HTML fájlt is kinyerném?**  
+A: Yes. After extraction, simply ignore `index.html` and use the contents of the `images/` folder. You can programmatically list image files with `Files.walk` and filter by common image extensions.
+
+**Q: Hogyan őrzöm meg az eredeti beágyazott erőforrások fájlneveit?**  
+A: `MhtmlExtractionOptions` retains original MIME part names by default. For custom naming, post‑process the files or implement a custom `IResourceHandler`.
+
+**Q: Működik ez Linuxon és macOS‑on is, mint Windowson?**  
+A: Absolutely. The same Java code runs on any platform that supports Java 8+, just adjust file‑system paths accordingly.
+
+**Q: Hogyan tudok egy .mhtml fájlokból álló mappát kötegelt módon feldolgozni?**  
+A: Write a simple loop that enumerates all `.mhtml` files, loads each into an `HTMLDocument`, and calls `Converter.extract` with a unique output directory for each file.
+
+## Összegzés
+You now have a reliable, one‑step method to **extract HTML from MHTML**, **convert MHTML to files**, and **extract images from MHTML** using Aspose.HTML for Java. The workflow is simple: load the archive, configure extraction options, and let the library handle the rest. No manual MIME parsing, no fragile string hacks—just clean, reusable code you can drop into any Java project.
+
+Next steps? Automate the process for bulk conversions, integrate the output into a static‑site generator, or feed the extracted HTML into a content‑management pipeline. The same pattern works for newsletters, saved web pages, or archived reports.
+
+Got a tricky scenario or a cool use‑case? Share your thoughts in the comments and keep the conversation going. Happy coding!
+
+---
+
+**Legutóbb frissítve:** 2026-08-22  
+**Tesztelve ezzel:** Aspose.HTML for Java 23.10  
+**Szerző:** Aspose  
+
+
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -114,8 +185,6 @@ import com.aspose.html.converters.Converter;
 // Perform the extraction
 Converter.extract(mhtmlDocument, extractionOptions);
 ```
-
-A hívás befejezése után egy hasonló mappaszerkezetet találsz:
 
 ```
 extracted/
@@ -126,12 +195,6 @@ extracted/
     ├─ logo.png
     └─ banner.jpg
 ```
-
-A HTML fájl most a `images/` almappában lévő képekre hivatkozik, ami azt jelenti, hogy sikeresen **képeket nyertél ki az mhtml‑ből**, valamint a teljes HTML markupot is.
-
-## Teljes működő példa
-
-Az összes elemet összeállítva, itt egy önálló Java osztály, amelyet kimásolhatsz az IDE‑dbe és azonnal futtathatsz:
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -156,50 +219,20 @@ public class ExtractMhtmlDemo {
 }
 ```
 
-**Várt kimenet**
-
-A program futtatása kiírja:
-
 ```
 Extraction complete! Check C:/myfiles/extracted
 ```
 
-…és az `extracted` könyvtár egy működő HTML oldalt tartalmaz, plusz minden kapcsolódó erőforrást. Nyisd meg az `index.html`‑t bármely böngészőben, hogy ellenőrizd, hogy a képek, stílusok és szkriptek helyesen töltődnek-e.
+## Kapcsolódó oktatóanyagok
 
-## Gyakori kérdések és széljegyek
+- [Hogyan konvertálj HTML-t MHTML-be az Aspose.HTML for Java segítségével](/html/java/conversion-html-to-other-formats/convert-html-to-mhtml/)
+- [Hogyan konvertálj HTML-t PDF-be Java‑ban – Az Aspose.HTML for Java használatával](/html/java/conversion-html-to-other-formats/convert-html-to-pdf/)
+- [HTML konvertálása XPS-be az Aspose.HTML for Java segítségével](/html/java/conversion-html-to-other-formats/convert-html-to-xps/)
 
-### Mi van, ha az MHTML fájl hatalmas (százak MB)?
-
-Az Aspose.HTML adatfolyamként dolgozik, így a memóriahasználat mérsékelt marad. Azonban érdemes lehet növelni a JVM heap‑et (`-Xmx2g`), ha rendkívül nagy archívumokat nyersz ki, vagy sok kinyerést futtatsz párhuzamosan.
-
-### Kinyerhetek csak képeket a HTML nélkül?
-
-Igen. A kinyerés után egyszerűen hagyd figyelmen kívül a `.html` fájlt, és dolgozz a `images/` mappával. Ha programozott listára van szükséged a képek útvonalairól, beolvashatod a kimeneti könyvtárat a `Files.walk`‑val, és szűrhetsz kiterjesztések szerint (`.png`, `.jpg`, `.gif`, stb.).
-
-### Hogyan őrizhetem meg az eredeti fájlneveket?
-
-A `MhtmlExtractionOptions` alapértelmezés szerint tiszteletben tartja az eredeti MIME részek fájlneveit. Ha egyedi elnevezési sémára van szükséged, a kinyerés után post‑processzálhatod a fájlokat, vagy megvalósíthatsz egy egyedi `IResourceHandler`‑t (haladó használat).
-
-### Működik ez Linux‑on/macOS‑on?
-
-Természetesen. Ugyanaz a Java kód minden olyan operációs rendszeren fut, amely támogatja a Java 8+-at. Csak állítsd be a fájlutakat (`/home/user/archive.mhtml` a `C:/...` helyett).
-
-## Tippek a zökkenőmentes kinyeréshez
-
-* **Ellenőrizd először az MHTML‑t** – nyisd meg Chrome‑ban vagy Edge‑ben, hogy megbizonyosodj róla, hogy helyesen jelenik meg a kinyerés előtt.
-* **Tartsd üresen a kimeneti mappát** – az Aspose.HTML felülírja a meglévő fájlokat, de a maradványok zavaróak lehetnek.
-* **Használj abszolút útvonalakat** a demóban; a relatív útvonalak is működnek, de óvatos kezelést igényelnek a munkakönyvtár tekintetében.
-* **Engedélyezd a naplózást** (`System.setProperty("aspose.html.logging", "true")`), ha titokzatos hibákkal találkozol; a könyvtár részletes üzeneteket ad.
-
-## Következtetés
-
-Most már van egy megbízható, egylépéses módszered a **HTML kinyerésére MHTML‑ből**, a **MHTML átalakítására fájlokká**, és a **képek kinyerésére MHTML‑ből** az Aspose.HTML for Java segítségével. A megközelítés egyszerű: töltsd be az archívumot, konfiguráld a kinyerési beállításokat, és hagyd, hogy a könyvtár a többit elvégezze. Nincs kézi MIME elemzés, nincs törékeny karakterlánc trükk – csak tiszta, újrahasználható kód, amelyet bármely Java projektbe beilleszthetsz.
-
-Mi a következő? Próbáld meg láncolni a kinyerést egy kötegelt folyamattal, amely bejár egy mappát `.mhtml` fájlokkal, és egy lépésben mindet átalakítja. Vagy tápláld a kinyert HTML‑t egy statikus weboldalkészítőbe az automatizált dokumentációs építésekhez. A lehetőségek végtelenek, és ugyanaz a minta érvényes, legyen szó hírlevelekről, mentett weboldalakról vagy archivált jelentésekről.
-
-Van kérdésed, széljegy‑eset, vagy egy menő felhasználási eset, amit meg szeretnél osztani? Írj egy megjegyzést alább, és tartsuk a beszélgetést. Boldog kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

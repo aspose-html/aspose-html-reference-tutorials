@@ -25,19 +25,12 @@ title: Markdown in PDF mit Java konvertieren – Vollständige Anleitung
 url: /de/java/conversion-html-to-other-formats/convert-markdown-to-pdf-in-java-complete-guide/
 ---
 
-.
 
-Second table:
 
-| Symptom | Likely Cause | Fix |
-->
 
-| Symptom | Wahrscheinliche Ursache | Lösung |
-Now rows.
 
-Make sure the markdown table separators match column count.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

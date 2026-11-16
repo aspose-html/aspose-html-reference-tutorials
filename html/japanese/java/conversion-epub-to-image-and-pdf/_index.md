@@ -84,6 +84,8 @@ EPUB ファイルを PDF に変換するということは、再フロー可能�
 Aspose.HTML for Java を使用して EPUB を画像に変換する方法を学びます。効率的な変換のためのシンプルなステップバイステップガイドです。  
 ### [EPUB to PDF Conversion with Aspose.HTML for Java](./convert-epub-to-pdf/)
 Aspose.HTML for Java を使用して EPUB を PDF に変換する方法を学びます。このステップバイステップガイドでは、前提条件、パッケージのインポート、コード例をカバーしています。EPUB から PDF への変換を始めましょう。
+### [JavaでEPUBをPNGに変換 – 画像サイズを設定する](./convert-epub-to-png-in-java-set-image-dimensions/)
+JavaでEPUBをPNG画像に変換し、出力サイズを指定する方法を解説します。
 
 ## よくある質問
 

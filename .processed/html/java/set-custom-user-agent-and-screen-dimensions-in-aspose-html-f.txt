@@ -1,0 +1,7 @@
+Title: Set custom user agent and screen dimensions in Aspose.HTML for Java
+Slug: set-custom-user-agent-and-screen-dimensions-in-aspose-html-f
+Category: configuring-environment
+ProcessedDate: 2026-09-29T18:35:59.224350
+SourceRepo: AI Search API
+Keywords: set custom user agent, set virtual screen size, specify user agent, set screen dimensions, set screen width
+PRNumber: 279

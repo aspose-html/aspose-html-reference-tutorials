@@ -23,7 +23,7 @@ title: 'Tutoriel epub vers pdf : Convertir un eBook en PDF avec Aspose'
 url: /fr/java/converting-epub-to-pdf/epub-to-pdf-tutorial-convert-ebook-to-pdf-with-aspose/
 ---
 
-with all translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

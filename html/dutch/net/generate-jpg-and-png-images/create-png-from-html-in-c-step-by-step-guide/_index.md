@@ -23,11 +23,9 @@ title: Maak PNG van HTML in C# – Stapsgewijze gids
 url: /nl/net/generate-jpg-and-png-images/create-png-from-html-in-c-step-by-step-guide/
 ---
 
-dan de bovenstaande randgeval‑tabel. Veel renderplezier, en moge je PNG’s altijd pixel‑perfect zijn!"
 
-Now ensure we keep all markdown syntax.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

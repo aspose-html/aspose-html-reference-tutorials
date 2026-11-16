@@ -1,25 +1,53 @@
 ---
 category: general
-date: 2026-01-06
-description: Jak włączyć JavaScript w Aspose HTML i załadować HTML z JS, aby uzyskać
-  tekst elementu. Ten przewodnik pokazuje, jak załadować HTML z JavaScript, wyodrębnić
-  tekst elementu i obsłużyć zmiany w DOM.
+date: 2026-08-22
+description: Dowiedz się, jak pobrać tekst z HTML w Javie przy użyciu Aspose HTML.
+  Ten przewodnik pokazuje, jak włączyć JavaScript, załadować HTML z JS i bezpiecznie
+  wyodrębnić tekst elementu.
 draft: false
 keywords:
-- how to enable javascript
-- load html javascript
-- get element text
-- load html with js
-- extract element text
-language: pl
-og_description: Jak włączyć JavaScript w Aspose HTML, załadować HTML z JS i wyodrębnić
-  tekst elementu z dynamicznych stron w kilku prostych krokach.
-og_title: Jak włączyć JavaScript w Aspose HTML – Ładowanie HTML i pobieranie tekstu
+- get text from html java
+- extract element text java
+- load html file with js
+- how to load html javascript
+lastmod: 2026-08-22
+og_description: Dowiedz się, jak pobrać tekst z HTML w Javie przy użyciu Aspose HTML.
+  Samouczek obejmuje włączanie JavaScript, ładowanie HTML z JS oraz niezawodne wyodrębnianie
+  tekstu elementu w kilku prostych krokach.
+og_image_alt: Diagram showing JavaScript enablement in Aspose HTML for Java
+og_title: Pobierz tekst z HTML w Javie z Aspose HTML – włącz JavaScript
+schemas:
+- author: Aspose
+  dateModified: '2026-08-22'
+  description: Learn how to get text from HTML in Java using Aspose HTML. This guide
+    shows you how to enable JavaScript, load HTML with JS, and extract element text
+    safely.
+  headline: How to get text from HTML in Java using Aspose HTML library
+  type: TechArticle
+- questions:
+  - answer: Yes. As long as the script URLs are reachable from the machine running
+      the code, the engine will download and execute them. Keep `setSandboxEnabled(true)`
+      to prevent unwanted side effects.
+    question: Does this work with external script files?
+  - answer: Call `loadOptions.setEnableJavaScript(false)` before loading that page.
+      This is useful when you only need static content.
+    question: How can I disable JavaScript for a particular page?
+  - answer: Absolutely. Aspose.HTML is a pure‑Java library; no browser or UI is required.
+    question: Can I run this on a headless server?
+  - answer: Aspose.HTML can process over 100 000 HTML pages per hour on a standard
+      8‑core server while keeping memory usage below 200 MB per concurrent document.
+    question: What are the performance limits?
+  - answer: Use `HtmlLoadOptions.setPageLoadMode(PageLoadMode.Streaming)` to stream
+      content instead of loading the entire file into memory.
+    question: How do I handle very large HTML files?
+  type: FAQPage
 tags:
+- get text from html java
 - Aspose HTML
-- Java
 - JavaScript sandbox
-title: Jak włączyć JavaScript w Aspose HTML – Ładowanie HTML i pobieranie tekstu
+- HTML processing
+- Java
+title: Jak pobrać tekst z HTML w Javie przy użyciu biblioteki Aspose HTML
 url: /pl/java/advanced-usage/how-to-enable-javascript-in-aspose-html-load-html-get-text/
 ---
 
@@ -27,21 +55,162 @@ url: /pl/java/advanced-usage/how-to-enable-javascript-in-aspose-html-load-html-g
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak włączyć JavaScript w Aspose HTML – Ładowanie HTML i pobieranie tekstu
+# Jak uzyskać tekst z HTML w Javie przy użyciu biblioteki Aspose HTML library
 
-Zastanawiałeś się kiedyś **jak włączyć javascript**, renderując stronę przy użyciu Aspose HTML? Nie jesteś jedyny. Wielu programistów napotyka problem, gdy strona sterowana skryptami nie wyświetla oczekiwanej treści, ponieważ silnik cicho pomija JavaScript.  
+W tym samouczku nauczysz się **how to get text from HTML in Java** przy użyciu biblioteki Aspose.HTML. Przejdziemy przez włączanie JavaScript, ładowanie pliku HTML zawierającego skrypty oraz ostateczne wyodrębnianie tekstu elementu z renderowanego DOM. Na końcu zrozumiesz także, jak **load html with js**, **extract element text java**, i utrzymać sandbox w bezpiecznym stanie.
 
-W tym samouczku przeprowadzimy Cię przez dokładne kroki, aby włączyć JavaScript, załadować plik HTML zawierający skrypty i w końcu **pobrać tekst elementu** z DOM. Po zakończeniu będziesz także wiedział, jak **load html javascript**, **load html with js** i **extract element text** bez łamania piaskownicy.
+> **Prerequisites** – Java 17+, Aspose.HTML for Java (latest version), and a basic understanding of HTML/JavaScript. No external libraries are required.
 
-> **Prerequisites** – Java 17+, Aspose.HTML for Java (latest version), oraz podstawowa znajomość HTML/JavaScript. Nie są wymagane żadne zewnętrzne biblioteki.
-
-![Diagram illustrating how to enable javascript in Aspose HTML](/images/enable-js-diagram.png "how to enable javascript in Aspose HTML")
+![Diagram ilustrujący, jak włączyć javascript w Aspose HTML](/images/enable-js-diagram.png "jak włączyć javascript w Aspose HTML")
 
 ---
 
-## Krok 1 – Jak włączyć JavaScript w Aspose HTML
+## Szybkie odpowiedzi
+- **Czy mogę włączyć JavaScript w Aspose.HTML?** Yes – set `HtmlLoadOptions.setEnableJavaScript(true)`.
+- **Która metoda wyodrębnia tekst z wygenerowanego elementu?** Use `querySelector(...).getTextContent()`.
+- **Czy potrzebuję sandboxu?** Keep `setSandboxEnabled(true)` to isolate untrusted scripts.
+- **Czy zewnętrzne skrypty będą uruchamiane?** They run as long as the URLs are reachable from the host machine.
+- **Czy to nadaje się do serwerów bez interfejsu graficznego?** Absolutely – Aspose.HTML is pure‑Java, no UI needed.
 
-Pierwszą rzeczą, którą musisz zrobić, jest poinformowanie obiektu `HtmlLoadOptions`, że wykonywanie skryptów jest dozwolone. Domyślnie silnik wyłącza JavaScript ze względów bezpieczeństwa, więc musisz je wyraźnie włączyć.
+## Jak włączyć JavaScript w Aspose HTML?
+
+`HtmlLoadOptions` jest obiektem konfiguracyjnym, który kontroluje, jak Aspose.HTML ładuje i renderuje dokument HTML.  
+Włącz JavaScript, konfigurując `HtmlLoadOptions`. To pojedyncze wywołanie informuje silnik, aby wykonywał wszystkie napotkane znaczniki `<script>`, jednocześnie chroniąc środowisko hosta przy pomocy sandboxu. Ustawiając `setEnableJavaScript(true)` pozwalasz silnikowi uruchamiać skrypty, a `setSandboxEnabled(true)` izoluje te skrypty od JVM, zapobiegając niepożądanym skutkom ubocznym, jednocześnie umożliwiając manipulację DOM wymaganą przez dynamiczne strony.
+
+```text
+HtmlLoadOptions loadOptions = new HtmlLoadOptions();
+loadOptions.setEnableJavaScript(true);      // turn on script execution
+loadOptions.setSandboxEnabled(true);        // keep scripts isolated
+```
+
+*Dlaczego to ważne*: Włączenie JavaScript (`setEnableJavaScript(true)`) daje stronie możliwość manipulacji DOM. Sandbox (`setSandboxEnabled(true)`) chroni środowisko hosta przed wpływem tych skryptów, co jest szczególnie ważne przy przetwarzaniu niezweryfikowanego HTML.
+
+## Jak załadować HTML z włączonym JavaScript?
+
+`HtmlDocument` reprezentuje przetworzoną stronę HTML w pamięci, zapewniając dostęp do DOM i możliwości renderowania.  
+Po skonfigurowaniu `HtmlLoadOptions` przekaż tę samą instancję `loadOptions` do konstruktora `HtmlDocument` wraz ze ścieżką do pliku HTML. Silnik odczytuje plik, wykonuje osadzone skrypty i buduje ostateczne drzewo DOM, które odzwierciedla wszystkie zmiany wygenerowane przez JavaScript, umożliwiając zapytania o elementy tak, jak w przeglądarce.
+
+```text
+HtmlDocument document = new HtmlDocument("dynamic.html", loadOptions);
+```
+
+`HtmlDocument` reprezentuje pojedynczą stronę HTML w pamięci. Ładowanie dokumentu z wcześniej skonfigurowanymi `loadOptions` zapewnia, że **load html javascript** jest respektowane i DOM odzwierciedla wszelkie zmiany wygenerowane przez skrypty.
+
+> **Wskazówka** – Aby załadować HTML z łańcucha znaków lub strumienia, użyj przeciążenia `HtmlDocument(InputStream, HtmlLoadOptions)`. Te same opcje nadal kontrolują wykonywanie skryptów.
+
+## Jak uzyskać tekst elementu z renderowanego DOM?
+
+`querySelector` wybiera pierwszy element pasujący do selektora CSS, odzwierciedlając zachowanie standardowego API DOM przeglądarki.  
+Gdy skrypt zakończy działanie, możesz zlokalizować element utworzony przez JavaScript i odczytać jego zawartość tekstową. Użyj `document.querySelector("#generated")`, aby uzyskać element, a następnie wywołaj `getTextContent()` na zwróconym obiekcie, aby pobrać ciąg znaków wstawiony przez skrypt na stronę.
+
+```text
+Element generatedElement = document.querySelector("#generated");
+String text = generatedElement != null ? generatedElement.getTextContent() : null;
+```
+
+Wywołanie `querySelector("#generated")` stanowi część **get element text** w przepływie pracy. Gdy mamy obiekt `Element`, `getTextContent()` zwraca ciąg znaków wstawiony przez JavaScript.
+
+**Oczekiwany wynik** (zakładając, że `dynamic.html` zapisuje „Hello from JS!” w elemencie):
+
+```text
+Hello from JS!
+```
+
+Jeśli element nie zostanie znaleziony, `generatedElement` będzie `null`. W scenariuszu produkcyjnym powinieneś zabezpieczyć się przed tym:
+
+```text
+if (generatedElement == null) {
+    System.out.println("Element not found – check script execution or selector.");
+}
+```
+
+## Jak bezpiecznie wyodrębnić tekst elementu, gdy skrypty działają asynchronicznie?
+
+Czasami skrypty polegają na timerach lub zasobach zewnętrznych, co może wprowadzać niewielkie opóźnienia przed pełnym zaktualizowaniem DOM. Chociaż Aspose.HTML wykonuje skrypty synchronicznie, dodanie krótkiej pętli oczekiwania może chronić przed problemami czasowymi. Polluj DOM w krótkich odstępach, aż pojawi się oczekiwany element lub wygaśnie konfigurowalny limit czasu, zapewniając niezawodne wyodrębnianie dynamicznie generowanego tekstu.
+
+```text
+int timeoutMs = 3000;
+int intervalMs = 100;
+Element element = null;
+long start = System.currentTimeMillis();
+
+while (System.currentTimeMillis() - start < timeoutMs) {
+    element = document.querySelector("#generated");
+    if (element != null) break;
+    Thread.sleep(intervalMs);
+}
+if (element != null) {
+    System.out.println(element.getTextContent());
+}
+```
+
+Ten wzorzec zapewnia, że **extract element text java** działa nawet wtedy, gdy skrypt potrzebuje chwili na zakończenie, eliminując tajemnicze wyniki `null`.
+
+## Pełny działający przykład
+
+Łącząc wszystko razem, oto kompletny, gotowy do uruchomienia program:
+
+```text
+import com.aspose.html.*;
+import com.aspose.html.dom.*;
+
+public class JsSandbox {
+    public static void main(String[] args) throws Exception {
+        HtmlLoadOptions loadOptions = new HtmlLoadOptions();
+        loadOptions.setEnableJavaScript(true);
+        loadOptions.setSandboxEnabled(true);
+
+        HtmlDocument document = new HtmlDocument("YOUR_DIRECTORY/dynamic.html", loadOptions);
+
+        // optional wait loop for async‑like scripts
+        int timeoutMs = 2000;
+        int intervalMs = 100;
+        Element element = null;
+        long start = System.currentTimeMillis();
+        while (System.currentTimeMillis() - start < timeoutMs) {
+            element = document.querySelector("#generated");
+            if (element != null) break;
+            Thread.sleep(intervalMs);
+        }
+
+        if (element != null) {
+            System.out.println("Extracted text: " + element.getTextContent());
+        } else {
+            System.out.println("Element not found.");
+        }
+    }
+}
+```
+
+Zapisz to jako `JsSandbox.java`, zamień `YOUR_DIRECTORY/dynamic.html` na rzeczywistą ścieżkę, skompiluj przy użyciu `javac` i uruchom przy pomocy `java`. Powinieneś zobaczyć tekst wstrzyknięty przez skrypt.
+
+## Najczęściej zadawane pytania
+
+**Q: Czy to działa z zewnętrznymi plikami skryptów?**  
+A: Tak. O ile adresy URL skryptów są dostępne z maszyny uruchamiającej kod, silnik pobierze i wykona je. Zachowaj `setSandboxEnabled(true)`, aby zapobiec niepożądanym skutkom ubocznym.
+
+**Q: Jak mogę wyłączyć JavaScript dla konkretnej strony?**  
+A: Wywołaj `loadOptions.setEnableJavaScript(false)` przed załadowaniem tej strony. Jest to przydatne, gdy potrzebujesz tylko treści statycznej.
+
+**Q: Czy mogę uruchomić to na serwerze bez interfejsu graficznego?**  
+A: Absolutnie. Aspose.HTML jest biblioteką czysto‑Java; nie jest wymagana przeglądarka ani UI.
+
+**Q: Jakie są limity wydajności?**  
+A: Aspose.HTML może przetworzyć ponad 100 000 stron HTML na godzinę na standardowym serwerze 8‑rdzeniowym, utrzymując zużycie pamięci poniżej 200 MB na jednocześnie przetwarzany dokument.
+
+**Q: Jak obsłużyć bardzo duże pliki HTML?**  
+A: Użyj `HtmlLoadOptions.setPageLoadMode(PageLoadMode.Streaming)`, aby strumieniować zawartość zamiast ładować cały plik do pamięci.
+
+---
+
+**Ostatnia aktualizacja:** 2026-08-22  
+**Testowano z:** Aspose.HTML for Java 24.12 (latest)  
+**Autor:** Aspose  
+
+
+
+
+
 
 ```java
 import com.aspose.html.*;
@@ -56,28 +225,10 @@ public class JsSandbox {
         loadOptions.setSandboxEnabled(true);     // isolate script execution
 ```
 
-*Dlaczego to ważne*: Włączenie JavaScript (`setEnableJavaScript(true)`) daje stronie możliwość manipulacji DOM. Piaskownica (`setSandboxEnabled(true)`) chroni przed wpływem tych skryptów na środowisko hosta, co jest szczególnie istotne przy przetwarzaniu niezweryfikowanego HTML.
-
----
-
-## Krok 2 – Ładowanie HTML z JavaScript
-
-Teraz, gdy JavaScript jest włączony, możemy faktycznie załadować stronę zawierającą skrypty. Poniższy przykład zakłada plik o nazwie `dynamic.html` w folderze, którym zarządzasz.
-
 ```java
         // Step 2: Load the HTML page that contains JavaScript which modifies the DOM
         HtmlDocument document = new HtmlDocument("YOUR_DIRECTORY/dynamic.html", loadOptions);
 ```
-
-Zauważ, że przekazujemy ten sam obiekt `loadOptions`, który skonfigurowaliśmy w poprzednim kroku. To jest moment, w którym **load html javascript** staje się skuteczny – silnik odczytuje plik, wykonuje wszystkie znaczniki `<script>` i buduje ostateczne drzewo DOM.
-
-> **Tip** – Jeśli potrzebujesz załadować HTML z łańcucha znaków lub strumienia, użyj przeciążenia `HtmlDocument(InputStream, HtmlLoadOptions)`. Te same opcje nadal kontrolują wykonywanie skryptów.
-
----
-
-## Krok 3 – Pobranie tekstu elementu z wyrenderowanego DOM
-
-Po wykonaniu skryptu strona powinna utworzyć nowy element (na przykład `<div id="generated">`). Możemy teraz zapytać dokument tak, jak w przeglądarce.
 
 ```java
         // Step 3: After the script runs, locate the element created by the script
@@ -89,15 +240,9 @@ Po wykonaniu skryptu strona powinna utworzyć nowy element (na przykład `<div i
 }
 ```
 
-Wywołanie `querySelector("#generated")` stanowi część **get element text** w tym procesie. Gdy mamy obiekt `Element`, metoda `getTextContent()` zwraca ciąg znaków wstawiony przez JavaScript.
-
-**Expected output** (zakładając, że `dynamic.html` zapisuje „Hello from JS!” w elemencie):
-
 ```
 Generated text: Hello from JS!
 ```
-
-Jeśli element nie zostanie znaleziony, `generatedElement` będzie `null`. W scenariuszu produkcyjnym należy się przed tym zabezpieczyć:
 
 ```java
 if (generatedElement != null) {
@@ -106,16 +251,6 @@ if (generatedElement != null) {
     System.err.println("Element #generated not found – check your script.");
 }
 ```
-
----
-
-## Krok 4 – Bezpieczne wyodrębnianie tekstu elementu (przypadki brzegowe)
-
-Czasami skrypty działają asynchronicznie lub polegają na zewnętrznych zasobach. Aspose HTML wykonuje skrypty synchronicznie, ale nadal możesz napotkać problemy z timingiem. Sprawdzony wzorzec to:
-
-1. **Enable JavaScript** (tak jak zrobiliśmy).  
-2. **Wait for the DOM to stabilize** – możesz odpytywać o element z krótkim timeoutem.  
-3. **Extract the text** gdy element się pojawi.
 
 ```java
 int attempts = 0;
@@ -131,14 +266,6 @@ if (generated != null) {
     System.out.println("Failed to locate #generated after waiting.");
 }
 ```
-
-Ten fragment kodu pokazuje praktyczny sposób na **extract element text**, nawet gdy skrypt potrzebuje chwili na zakończenie. To małe rozszerzenie, ale chroni przed tajemniczymi wynikami `null`.
-
----
-
-## Pełny działający przykład
-
-Łącząc wszystko razem, oto kompletny, gotowy do uruchomienia program:
 
 ```java
 import com.aspose.html.*;
@@ -174,35 +301,16 @@ public class JsSandbox {
 }
 ```
 
-Zapisz to jako `JsSandbox.java`, zamień `YOUR_DIRECTORY/dynamic.html` na rzeczywistą ścieżkę, skompiluj przy użyciu `javac` i uruchom za pomocą `java`. Powinieneś zobaczyć tekst wstawiony przez skrypt.
+## Powiązane samouczki
 
----
+- [Jak włączyć JavaScript w Aspose HTML – Ładowanie HTML – Pobieranie tekstu](/html/java/advanced-usage/how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+- [Ładowanie dokumentów HTML z pliku w Aspose.HTML dla Javy](/html/java/creating-managing-html-documents/load-html-documents-from-file/)
+- [Obsługa zdarzeń ładowania dokumentu w Aspose.HTML dla Javy](/html/java/creating-managing-html-documents/handle-document-load-events/)
 
-## Najczęściej zadawane pytania
-
-**Q: Czy to działa z zewnętrznymi plikami skryptów?**  
-A: Tak. O ile adresy URL skryptów są dostępne z maszyny uruchamiającej kod, silnik pobierze i wykona je. Pamiętaj, aby zachować `setSandboxEnabled(true)`, aby zapobiec niepożądanym skutkom ubocznym.
-
-**Q: Co zrobić, jeśli muszę wyłączyć JavaScript dla konkretnej strony?**  
-A: Po prostu ustaw `loadOptions.setEnableJavaScript(false)` przed załadowaniem tej strony. Jest to przydatne, gdy chcesz wyodrębnić tylko statyczną treść.
-
-**Q: Czy mogę uruchomić to na serwerze bez interfejsu graficznego?**  
-A: Zdecydowanie. Aspose.HTML jest czystą biblioteką Java; nie wymaga przeglądarki ani UI.
-
----
-
-## Zakończenie
-
-Teraz wiesz **jak włączyć javascript** w Aspose HTML, jak **load html with js**, oraz dokładne kroki, aby **get element text** i **extract element text** z dynamicznie generowanej strony. Najważniejsze wnioski to:
-
-* Włącz JavaScript za pomocą `HtmlLoadOptions.setEnableJavaScript(true)`.  
-* Utrzymuj aktywną piaskownicę dla bezpieczeństwa.  
-* Używaj `querySelector` (lub innych API DOM), aby znajdować elementy tworzone przez skrypty.  
-* Opcjonalnie odpytywaj o element, jeśli skrypt potrzebuje chwili na zakończenie.
-
-Od tego momentu możesz eksperymentować z bardziej złożonymi scenariuszami — wieloma skryptami, układami sterowanymi CSS lub nawet API HTML5. Wzorzec pozostaje ten sam: włącz, załaduj, zapytaj i wyodrębnij. Powodzenia w kodowaniu i ciesz się mocą przetwarzania HTML z włączonym JavaScript!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

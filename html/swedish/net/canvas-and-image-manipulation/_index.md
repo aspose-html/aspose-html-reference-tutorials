@@ -47,6 +47,8 @@ Lär dig hur du konverterar SVG till XPS med Aspose.HTML för .NET. Öka din web
 Lär dig hur du aktiverar kantutjämning i C# för att få mjuka kanter i dina grafiska renderingar.
 ### [Skapa canvas-text – Fullständig guide för att rendera text på bilder](./create-canvas-text-full-guide-to-rendering-text-on-images/)
 Lär dig hur du lägger till och formaterar text på canvas-bilder med Aspose.HTML för .NET i en steg-för-steg guide.
+### [Hur du aktiverar kantutjämning i C# – Komplett guide för teckensnittsstil](./how-to-enable-antialiasing-in-c-complete-font-style-guide/)
+Lär dig hur du aktiverar kantutjämning i C# och hanterar teckensnittsstilar för skarpa och jämna renderingar.
 
 ## Slutsats
 

@@ -20,9 +20,7 @@ title: 如何在 Java 中解析 HTML – 加载、查询和计数元素
 url: /zh/java/creating-managing-html-documents/how-to-parse-html-java-load-query-count-elements/
 ---
 
-0}} not fenced. Keep as is.
 
-Now produce final output with all content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
