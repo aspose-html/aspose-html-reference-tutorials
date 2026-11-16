@@ -96,6 +96,8 @@ Ismerje meg, hogyan konvertálhatja a HTML‑t PDF‑re C#‑ban az Aspose.HTML 
 ### [Helyi HTML fájl PDF-re konvertálása – Teljes Java útmutató](./convert-local-html-file-to-pdf-complete-java-guide/)
 Ismerje meg, hogyan konvertálhat helyi HTML fájlt PDF‑re Java‑ban az Aspose.HTML segítségével, részletes lépésekkel.
 
+### [HTML fájl PDF-re konvertálása Java‑ban – lépésről‑lépésre útmutató](./convert-html-file-to-pdf-in-java-step-by-step-guide/)
+Ismerje meg, hogyan konvertálhatja a HTML fájlt PDF‑re Java‑ban részletes, lépésről‑lépésre útmutatóval.
 ### [HTML átalakítása PDF-re – Lépésről‑lépésre útmutató oldalméret beállításokkal](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Ismerje meg, hogyan konvertálhatja a HTML‑t PDF‑re Java‑ban részletesen, oldalméret beállításokkal.
 ### [HTML átalakítása PDF-re Java‑ban – Teljes útmutató papírmérettel és DPI‑val](./convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/)

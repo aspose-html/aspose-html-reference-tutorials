@@ -240,6 +240,8 @@ Aspose.HTML for Java ทำให้กระบวนการแปลง HTML
 เรียนรู้วิธีแปลง HTML เป็น PDF/A‑2b ใน Java ด้วย Aspose.HTML เพื่อสร้างเอกสารที่สอดคล้องกับมาตรฐาน PDF/A
 ### [สกัดเสียงจาก HTML – วิธีสกัดสื่อและวิดีโอ](./extract-audio-from-html-how-to-extract-media-and-video/)
 เรียนรู้วิธีสกัดไฟล์เสียงและวิดีโอจาก HTML ด้วย Aspose.HTML ใน Java อย่างง่ายดาย
+### [แปลงไฟล์ HTML เป็น PDF ใน Java – คู่มือขั้นตอน‑โดย‑ขั้นตอน](./convert-html-file-to-pdf-in-java-step-by-step-guide/)
+เรียนรู้วิธีแปลงไฟล์ HTML เป็น PDF ใน Java อย่างละเอียดด้วยขั้นตอนที่ชัดเจนและตัวอย่างโค้ด
 ### [สร้าง PDF จาก HTML ใน Java – คู่มือขั้นตอน‑โดย‑ขั้นตอนแบบครบถ้วน](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
 เรียนรู้วิธีสร้างไฟล์ PDF จาก HTML ใน Java อย่างละเอียดด้วยขั้นตอนครบถ้วนและตัวอย่างโค้ด
 ### [แปลง HTML เป็น PDF ด้วย Fixed Thread Pool Java – คู่มือขั้นตอนโดยละเอียด](./convert-html-to-pdf-with-fixed-thread-pool-java-step-by-step/)

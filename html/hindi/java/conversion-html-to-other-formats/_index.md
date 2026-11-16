@@ -199,6 +199,8 @@ Aspose.HTML for Java में डिवाइस पिक्सेल रे�
 ### [Java में HTML को PDF में बदलें – पूर्ण चरण‑दर‑चरण गाइड](./convert-html-to-pdf-in-java-complete-step-by-step-guide/)
 ### [Aspose HTML to PDF के साथ PDF को संपीड़ित कैसे करें – Java गाइड](./how-to-compress-pdf-with-aspose-html-to-pdf-java-guide/)
 
+### [HTML फ़ाइल को PDF में बदलें Java – चरण‑दर‑चरण गाइड](./convert-html-file-to-pdf-in-java-step-by-step-guide/)
+
 ### [Java में HTML को PDF में बदलें – PDF पेज आकार, रिज़ॉल्यूशन सेट करें, और HTML को PDF के रूप में सहेजें](./convert-html-to-pdf-in-java-set-pdf-page-size-resolution-and/)
 Java में Aspose.HTML का उपयोग करके HTML को PDF में बदलें, पेज आकार और रिज़ॉल्यूशन कॉन्फ़िगर करें, और फ़ाइल सहेजें।
 

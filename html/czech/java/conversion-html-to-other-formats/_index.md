@@ -350,6 +350,8 @@ Naučte se převést HTML šablonu pomocí Aspose v Javě krok za krokem.
 Kompletní průvodce převodem HTML do PDF v Javě s podrobným nastavením a ukázkami kódu.
 ### [Jak sledovat tutoriál HTML PDF v Javě pomocí Aspose.HTML](./how-to-follow-an-html-pdf-tutorial-in-java-using-aspose-html/)
 Naučte se, jak krok za krokem sledovat tutoriál pro převod HTML do PDF v Javě s Aspose.HTML.
+### [Převod HTML souboru do PDF v Javě – krok za krokem](./convert-html-file-to-pdf-in-java-step-by-step-guide/)
+Naučte se převést HTML soubor do PDF v Javě pomocí Aspose.HTML s podrobným krok‑za‑krokem návodem.
 
 ## Často kladené otázky
 

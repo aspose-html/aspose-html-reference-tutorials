@@ -121,6 +121,8 @@ Lär dig hur du använder en fast trådpool för att konvertera flera HTML‑fil
 Lär dig hur du konverterar en webbsida till PDF i Java med Aspose.HTML, steg‑för‑steg‑instruktioner och exempel.
 ### [Skapa PDF från HTML i Java – Fullständig Aspose.HTML‑guide](./create-pdf-from-html-in-java-full-aspose-html-guide/)
 Lär dig steg‑för‑steg‑hur du skapar PDF‑filer från HTML i Java med Aspose.HTML, inklusive avancerade inställningar och exempel.
+### [Konvertera HTML‑fil till PDF i Java – steg‑för‑steg‑guide](./convert-html-file-to-pdf-in-java-step-by-step-guide/)
+Lär dig hur du konverterar en HTML‑fil till PDF i Java med en tydlig steg‑för‑steg‑instruktion.
 ### [Konvertera HTML till MHTML](./convert-html-to-mhtml/)
 Konvertera enkelt HTML till MHTML med Aspose.HTML for Java. Följ vår steg‑för‑steg‑guide för effektiv HTML‑till‑MHTML‑konvertering.
 ### [Konvertera HTML till MHTML med Aspose.HTML – Komplett Java‑guide](./convert-html-to-mhtml-with-aspose-html-complete-java-guide/)

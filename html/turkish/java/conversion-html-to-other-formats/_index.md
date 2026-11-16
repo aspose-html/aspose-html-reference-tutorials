@@ -361,6 +361,8 @@ Aspose HTML Converter kullanarak Java'da HTML'yi PDF'ye dönüştürmenin tüm a
 Java kullanarak HTML dosyalarını PDF'ye dönüştürmenin adım adım rehberi.
 ### [Aspose ile HTML şablonunu dönüştürme – adım adım kılavuz](./convert-html-template-with-aspose-step-by-step-guide/)
 Aspose kullanarak HTML şablonlarını nasıl dönüştüreceğinizi adım adım gösteren kapsamlı rehber.
+### [HTML dosyasını PDF'ye Dönüştürme Java’da – Adım‑Adım Kılavuz](./convert-html-file-to-pdf-in-java-step-by-step-guide/)
+HTML dosyasını Java kullanarak PDF'ye dönüştürmek için adım adım rehber.
 
 ## Sıkça Sorulan Sorular
 

@@ -436,6 +436,9 @@ Panduan lengkap langkah demi langkah untuk mengonversi HTML ke PDF menggunakan A
 ### [Cara mengikuti tutorial HTML PDF di Java menggunakan Aspose.HTML](./how-to-follow-an-html-pdf-tutorial-in-java-using-aspose-html/)
 Panduan langkah‑demi‑langkah untuk mengikuti tutorial HTML ke PDF di Java dengan Aspose.HTML, termasuk contoh kode lengkap.
 
+### [Mengonversi file HTML ke PDF di Java – Panduan Langkah‑demi‑Langkah](./convert-html-file-to-pdf-in-java-step-by-step-guide/)
+Panduan langkah demi langkah mengonversi file HTML ke PDF di Java menggunakan Aspose.HTML.
+
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bisakah saya menggunakan Aspose.HTML untuk Java dalam aplikasi komersial?**  
