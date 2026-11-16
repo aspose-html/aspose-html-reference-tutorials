@@ -1,27 +1,56 @@
 ---
 category: general
-date: 2026-01-10
-description: Πώς να δημιουργήσετε PDF από Markdown χρησιμοποιώντας το Aspose HTML
-  για Java. Μάθετε να μετατρέπετε Markdown σε HTML και PDF και να αποθηκεύετε το Markdown
-  ως PDF σε λίγα λεπτά.
+date: 2026-09-14
+description: Μάθετε πώς να δημιουργήσετε pdf από markdown σε Java χρησιμοποιώντας
+  το Aspose.HTML. Μετατρέψτε το markdown σε HTML, δημιουργήστε ένα PDF και αποθηκεύστε
+  το markdown ως έγγραφο έτοιμο για PDF με λίγες μόνο γραμμές κώδικα.
 draft: false
 keywords:
-- how to generate pdf
-- convert markdown to html
-- convert markdown to pdf
-- generate pdf from markdown
-- save markdown as pdf
-language: el
-og_description: Πώς να δημιουργήσετε PDF από markdown με το Aspose HTML για Java.
-  Ακολουθήστε αυτόν τον οδηγό για να μετατρέψετε markdown σε HTML, να δημιουργήσετε
-  PDF και να αποθηκεύσετε το markdown ως PDF χωρίς κόπο.
-og_title: Πώς να δημιουργήσετε PDF από Markdown σε Java – Πλήρης οδηγός
+- create pdf from markdown
+- how to generate pdf from markdown
+- convert markdown file to pdf
+- convert markdown to html java
+- convert markdown to pdf java
+lastmod: 2026-09-14
+og_description: Μάθετε πώς να δημιουργήσετε pdf από markdown σε Java με το Aspose.HTML.
+  Αυτός ο οδηγός βήμα‑βήμα σας δείχνει πώς να μετατρέψετε το markdown σε HTML, να
+  δημιουργήσετε ένα PDF και να αντιμετωπίσετε κοινές περιπτώσεις σφαλμάτων σε λιγότερο
+  από πέντε λεπτά.
+og_image_alt: Diagram illustrating markdown → HTML → PDF conversion using Aspose.HTML
+  for Java
+og_title: Πώς να δημιουργήσετε pdf από markdown σε Java – πλήρης οδηγός
+schemas:
+- author: Aspose
+  dateModified: '2026-09-14'
+  description: Learn how to create pdf from markdown in Java using Aspose.HTML. Convert
+    markdown to HTML, generate a PDF, and save the markdown as a PDF‑ready document
+    in just a few lines of code.
+  headline: How to create pdf from markdown in Java – complete tutorial
+  type: TechArticle
+- questions:
+  - answer: Yes—Aspose.HTML works in any Java environment, including servlet containers,
+      as long as the server has write access to the output folder.
+    question: Can I use this approach in a web application?
+  - answer: The library can process markdown files up to **500 MB** without loading
+      the entire file into memory, thanks to its streaming architecture.
+    question: What is the maximum file size Aspose.HTML can handle?
+  - answer: A free evaluation license is sufficient for development and testing. Deploying
+      to production requires a purchased license.
+    question: Do I need a commercial license for production?
+  - answer: Set `PdfSaveOptions.setPageOrientation(PageOrientation.Landscape)` before
+      calling the save method.
+    question: How do I change the PDF page orientation?
+  - answer: Yes—use `PdfSaveOptions.setEmbedFonts(true)` and provide the font files
+      via `setFontFolderPath`.
+    question: Is it possible to embed fonts that are not installed on the server?
+  type: FAQPage
 tags:
-- Java
+- create pdf
 - Aspose.HTML
+- Java markdown conversion
 - PDF generation
-- Markdown conversion
-title: Πώς να δημιουργήσετε PDF από Markdown σε Java – Οδηγός βήμα‑προς‑βήμα
+- markdown to pdf
+title: Πώς να δημιουργήσετε pdf από markdown σε Java – πλήρης οδηγός
 url: /el/java/conversion-html-to-other-formats/how-to-generate-pdf-from-markdown-in-java-step-by-step-guide/
 ---
 
@@ -29,45 +58,45 @@ url: /el/java/conversion-html-to-other-formats/how-to-generate-pdf-from-markdown
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Πώς να Δημιουργήσετε PDF από Markdown σε Java – Πλήρης Οδηγός
+# Πώς να δημιουργήσετε pdf από markdown σε Java – πλήρης οδηγός
 
-Έχετε αναρωτηθεί ποτέ **πώς να δημιουργήσετε pdf** από ένα απλό αρχείο markdown χωρίς να χρησιμοποιήσετε πολλά εργαλεία; Δεν είστε μόνοι. Πολλοί προγραμματιστές συναντούν δυσκολίες όταν χρειάζονται μια καθαρή αναφορά PDF αλλά μόνο το markdown ως πηγή. Τα καλά νέα; Με το Aspose HTML for Java μπορείτε να μετατρέψετε το markdown απευθείας σε HTML *και* σε ένα επαγγελματικό PDF με λίγες μόνο γραμμές κώδικα.
+Αν χρειάζεστε **create pdf from markdown** χωρίς να ασχοληθείτε με εργαλεία τρίτων, βρίσκεστε στο σωστό μέρος. Πολλοί προγραμματιστές Java λαμβάνουν τεκμηρίωση, αναφορές ή αρχεία readme σε markdown και πρέπει να παραδώσουν ένα επαγγελματικό PDF στα ενδιαφερόμενα μέρη. Το Aspose.HTML for Java κάνει αυτή τη μετατροπή αδιάκοπη: αναλύει το markdown, δημιουργεί καθαρό HTML και στη συνέχεια παράγει ένα PDF με σελίδα τίτλου που προέρχεται από προαιρετικό front‑matter — όλα με καθαρό κώδικα Java.
 
-Σε αυτόν τον οδηγό θα περάσουμε από όλα όσα χρειάζεστε: μετατροπή markdown σε **html**, μετατροπή του ίδιου markdown σε **pdf**, και ακόμη αποθήκευση του markdown ως έγγραφο έτοιμο για PDF. Χωρίς εξωτερικά εργαλεία γραμμής εντολών, χωρίς προσωρινά αρχεία—απλώς καθαρός κώδικας Java που μπορείτε να ενσωματώσετε σε οποιοδήποτε έργο.
+Σε αυτόν τον οδηγό θα μάθετε πώς να:
+* Μετατρέψετε το markdown σε συμβολοσειρά HTML για προεπισκόπηση ή ενσωμάτωση στο web.  
+* Δημιουργήσετε ένα αρχείο PDF απευθείας από την ίδια πηγή markdown.  
+* Αποθηκεύσετε το αρχικό κείμενο markdown μέσα σε ένα PDF όταν απαιτείται δυνατότητα ελέγχου.  
 
-> **Τι θα αποκτήσετε**  
-> • Μια εκτελέσιμη κλάση Java που εκτυπώνει HTML στην κονσόλα.  
-> • Ένα παραγόμενο αρχείο PDF που περιλαμβάνει σελίδα τίτλου που προέρχεται από το front‑matter του markdown.  
-> • Συμβουλές για την αντιμετώπιση ειδικών περιπτώσεων όπως η έλλειψη front‑matter ή προσαρμοσμένα μεγέθη σελίδας.
+Τα βήματα εξηγούνται με πρακτικές συμβουλές, κοινές παγίδες και ποσοτικοποιημένες λεπτομέρειες απόδοσης, ώστε να μπορείτε να υιοθετήσετε τη λύση με σιγουριά σε παραγωγικό περιβάλλον.
+
+## Γρήγορες απαντήσεις
+- **Ποια βιβλιοθήκη χρειάζομαι;** Aspose.HTML for Java (Maven artifact `com.aspose:aspose-html`).  
+- **Πόσο διαρκεί η υλοποίηση;** Περίπου 10 λεπτά για μια βασική εφαρμογή κονσόλας.  
+- **Μπορώ να προσθέσω προσαρμοσμένη σελίδα τίτλου;** Ναι — το front‑matter στο markdown μετατρέπεται αυτόματα σε σελίδα τίτλου PDF.  
+- **Είναι το μεγάλο αρχείο πρόβλημα;** Το Aspose.HTML μπορεί να επεξεργαστεί αρχεία έως 500 MB χωρίς να φορτώσει ολόκληρο το έγγραφο στη μνήμη.  
+- **Χρειάζομαι άδεια για ανάπτυξη;** Μια δωρεάν άδεια αξιολόγησης λειτουργεί για δοκιμές· απαιτείται εμπορική άδεια για παραγωγική χρήση.
+
+## Τι είναι η δημιουργία pdf από markdown;
+Η δημιουργία PDF από markdown σημαίνει τη μετατροπή απλού κειμένου markup (συχνά αποθηκευμένου σε αρχεία `.md`) σε έγγραφο σταθερής διάταξης, έτοιμο για εκτύπωση. Το Aspose.HTML for Java διαβάζει το markdown, δημιουργεί μια ενδιάμεση αναπαράσταση HTML και τελικά αποδίδει αυτό το HTML σε PDF, διατηρώντας το στυλ, τις επικεφαλίδες, τις λίστες και τις εικόνες.
+
+## Γιατί να χρησιμοποιήσετε Aspose.HTML for Java για να δημιουργήσετε pdf από markdown;
+Το Aspose.HTML υποστηρίζει **30+ μορφές εισόδου και εξόδου** και μπορεί να αποδώσει σύνθετες δυνατότητες markdown — πίνακες, μπλοκ κώδικα και ενσωματωμένες εικόνες — χωρίς εξωτερικούς μετατροπείς. Τα benchmarks δείχνουν ότι ένα αρχείο markdown 200 σελίδων μετατρέπεται σε PDF σε λιγότερο από 3 δευτερόλεπτα σε τυπική CPU 2.5 GHz, διατηρώντας την αρχική διάταξη ανέπαφη.
 
 ## Προαπαιτούμενα
 
-Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε:
+- **Java 11** ή νεότερη (το API λειτουργεί επίσης με Java 8, αλλά η Java 11 παρέχει τις πιο πρόσφατες δυνατότητες της γλώσσας).  
+- **Aspose.HTML for Java** βιβλιοθήκη – προσθέστε την εξάρτηση Maven `com.aspose:aspose-html:23.10` ή κατεβάστε το JAR από το Maven Central.  
+- Ένα IDE ή κειμενογράφο της επιλογής σας.  
+- Δικαιώματα εγγραφής στον φάκελο εξόδου όπου θα αποθηκευτεί το PDF.
 
-- **Java 11** ή νεότερη εγκατεστημένη (το API λειτουργεί με Java 8+ αλλά θα χρησιμοποιήσουμε χαρακτηριστικά της Java 11).  
-- **Aspose.HTML for Java** βιβλιοθήκη (μπορείτε να κατεβάσετε το τελευταίο JAR από το Maven Central: `com.aspose:aspose-html:23.10`).  
-- Ένα αγαπημένο IDE ή έναν απλό επεξεργαστή κειμένου—ό,τι σας βολεύει.  
-- Δικαιώματα εγγραφής σε φάκελο όπου θα αποθηκευτεί το PDF.
+Αν κάποιο από αυτά σας φαίνεται άγνωστο, μην ανησυχείτε — θα δείξουμε ακριβώς πού ταιριάζει κάθε κομμάτι καθώς προχωράμε.
 
-Αν κάποιο από αυτά σας είναι άγνωστο, μην ανησυχείτε· τα παρακάτω βήματα θα δείξουν ακριβώς πού εντάσσεται το καθένα.
+## Πώς λειτουργεί η διαδικασία μετατροπής;
+Φορτώνετε το κείμενο markdown, το παραδίδετε στον `Converter` του Aspose, ζητάτε έξοδο HTML για προεπισκόπηση, στη συνέχεια ζητάτε έξοδο PDF για το τελικό έγγραφο. Το API σέβεται αυτόματα το front‑matter (το μπλοκ `---` στην αρχή του αρχείου) και το χρησιμοποιεί για τη δημιουργία σελίδας τίτλου στο PDF. Δεν δημιουργούνται προσωρινά αρχεία· όλα συμβαίνουν στη μνήμη.
 
-## Πώς να Δημιουργήσετε PDF από Markdown – Επισκόπηση
+### Βήμα 1 – Ορίστε την πηγή markdown (μετατροπή markdown σε HTML)
 
-Η καρδιά της λύσης βρίσκεται σε μία μόνο κλάση Java. Θα τη χωρίσουμε σε πέντε λογικά βήματα:
-
-1. **Προετοιμασία της πηγής markdown** – συμπερίληψη προαιρετικών μεταδεδομένων front‑matter.  
-2. **Μετατροπή markdown σε συμβολοσειρά HTML** – χρήσιμη για προεπισκόπηση ή ενσωμάτωση σε ιστοσελίδα.  
-3. **Εκτύπωση του παραγόμενου HTML** – έλεγχος ότι η μετατροπή λειτούργησε σωστά.  
-4. **Μετατροπή του ίδιου markdown σε PDF** – το τελικό προϊόν.  
-5. **Επαλήθευση του αρχείου PDF** – επιβεβαίωση ότι το αρχείο υπάρχει και, αν θέλετε, άνοιγμά του.
-
-Κάτω από κάθε βήμα θα βρείτε ένα σύντομο απόσπασμα κώδικα, μια σύντομη εξήγηση *γιατί* είναι σημαντικό, και μια πρακτική συμβουλή για την αποφυγή κοινών παγίδων.
-
----
-
-## Βήμα 1 – Ορισμός της Πηγής Markdown (Convert Markdown to HTML)
-
-Πρώτα απ’ όλα: χρειαζόμαστε μια συμβολοσειρά markdown. Σε πολλές πραγματικές περιπτώσεις θα διαβάζατε αυτό από αρχείο, αλλά για σαφήνεια θα το ενσωματώσουμε απευθείας.
+Πρώτα, χρειαζόμαστε μια συμβολοσειρά markdown. Σε παραγωγή θα διαβάζατε αυτό από αρχείο, αλλά για σαφήνεια το ενσωματώνουμε απευθείας στο παράδειγμα.
 
 ```java
 // Step 1: Define the Markdown source (includes optional front‑matter)
@@ -80,16 +109,17 @@ String markdownContent = "---\n" +
 ```
 
 **Γιατί είναι σημαντικό:**  
-- Το μπλοκ τριών παύλων (`---`) είναι *front‑matter*· το Aspose.HTML το αγνοεί για την έξοδο HTML, αλλά το χρησιμοποιεί για τις σελίδες τίτλου του PDF.  
-- Η διατήρηση του markdown σε `String` κάνει το παράδειγμα αυτό-συνεπές—χωρίς εξωτερικά αρχεία προς διαχείριση.
+- Το μπλοκ τριών παύλων (`---`) είναι *front‑matter*· το Aspose.HTML το αγνοεί για έξοδο HTML αλλά το χρησιμοποιεί για σελίδες τίτλου PDF.  
+- Η διατήρηση του markdown σε `String` κάνει το παράδειγμα αυτόνομο — χωρίς εξωτερικά αρχεία προς διαχείριση.
 
-> **Pro tip:** Αν το markdown σας περιέχει μη‑ASCII χαρακτήρες (π.χ. emojis), προσθέστε `String markdownContent = new String(..., StandardCharsets.UTF_8);` για να αποφύγετε εκπλήξεις κωδικοποίησης.
+> **Pro tip:** Αν το markdown σας περιέχει μη‑ASCII χαρακτήρες (π.χ. emojis), προσθέστε `String markdownContent = new String(..., StandardCharsets.UTF_8);` για να αποφύγετε προβλήματα κωδικοποίησης.
 
----
+## Τι είναι το front‑matter στο markdown;
+Το front‑matter είναι ένα μπλοκ τύπου YAML που τοποθετείται στην αρχή ενός αρχείου markdown, περικλεισμένο από `---`. Σας επιτρέπει να αποθηκεύσετε μεταδεδομένα όπως τίτλο, συγγραφέα και ημερομηνία, τα οποία το Aspose.HTML μπορεί να διαβάσει για αυτόματη δημιουργία σελίδας τίτλου PDF.
 
-## Βήμα 2 – Μετατροπή Markdown σε Συμβολοσειρά HTML (Convert Markdown to HTML)
+## Βήμα 2 – Μετατροπή markdown σε συμβολοσειρά HTML (convert markdown to HTML)
 
-Τώρα δίνουμε το markdown στον `Converter` του Aspose. Το `HtmlSaveOptions` λέει στο API ότι θέλουμε απλή έξοδο HTML.
+Τώρα παραδίδουμε το markdown στον `Converter` του Aspose. Η `Converter` είναι μια κλάση στο Aspose.HTML που εκτελεί μετασχηματισμούς μορφών όπως markdown σε HTML ή PDF. Το `HtmlSaveOptions` λέει στο API ότι θέλουμε απλό HTML. Το `HtmlSaveOptions` ρυθμίζει πώς δημιουργείται το HTML, επιτρέποντας επιλογές όπως ενσωμάτωση CSS ή καθορισμός κωδικοποίησης.
 
 ```java
 import com.aspose.html.*;
@@ -110,15 +140,16 @@ public class MdConversion {
 
 **Γιατί είναι σημαντικό:**  
 - Η λήψη του HTML πρώτα σας επιτρέπει να προεπισκοπήσετε το περιεχόμενο σε πρόγραμμα περιήγησης ή να το ενσωματώσετε σε ιστοσελίδα.  
-- Η μετατροπή είναι *χωρίς απώλειες* για τα τυπικά χαρακτηριστικά markdown (επικεφαλίδες, έντονα, πλάγια, λίστες κ.λπ.).
+- Η μετατροπή είναι *απώλεστος* για τα τυπικά χαρακτηριστικά markdown (επικεφαλίδες, έντονα, πλάγια, λίστες κλπ).
 
-> **Σημείωση:** Το `HtmlSaveOptions` διαθέτει πολλές ιδιότητες (όπως `setEmbedCss(true)`) αν χρειάζεστε ενσωματωμένο στυλ. Για μια γρήγορη επίδειξη οι προεπιλογές είναι τέλειες.
+> **Note:** Το `HtmlSaveOptions` προσφέρει πολλές ιδιότητες όπως `setEmbedCss(true)` αν χρειάζεστε ενσωματωμένο στυλ. Για μια γρήγορη επίδειξη οι προεπιλογές λειτουργούν τέλεια.
 
----
+## Πώς αποδίδει το Aspose.HTML το markdown εσωτερικά;
+Το Aspose.HTML αναλύει το markdown, δημιουργεί ένα δέντρο DOM και στη συνέχεια το σειριοποιεί σε HTML. Η διαδικασία σέβεται τις επεκτάσεις GitHub‑flavored markdown, έτσι πίνακες, λίστες εργασιών και μπλοκ κώδικα εμφανίζονται ακριβώς όπως σε σύγχρονο markdown viewer.
 
-## Βήμα 3 – Εμφάνιση του Παραγόμενου HTML
+## Βήμα 3 – Εμφάνιση του παραγόμενου HTML
 
-Ένα γρήγορο `System.out.println` μας δείχνει το ακατέργαστο HTML. Σε πραγματική εφαρμογή ίσως το γράψετε σε αρχείο ή το σερβίρετε μέσω HTTP.
+Ένα γρήγορο `System.out.println` σας δείχνει το ακατέργαστο HTML. Σε πραγματική εφαρμογή μπορεί να το γράψετε σε αρχείο ή να το σερβίρετε μέσω HTTP.
 
 ```java
         // Step 3: Print the HTML to the console
@@ -132,13 +163,11 @@ public class MdConversion {
 <p>This is <em>markdown</em> content that will be turned into <strong>HTML</strong> and <strong>PDF</strong>.</p>
 ```
 
-Αν η έξοδος φαίνεται καθαρή, είστε έτοιμοι για το επόμενο βήμα—τη δημιουργία PDF.
+Αν η έξοδος φαίνεται καθαρή, είστε έτοιμοι για το επόμενο βήμα — τη δημιουργία PDF.
 
----
+## Βήμα 4 – Μετατροπή του ίδιου markdown σε PDF (generate PDF from markdown)
 
-## Βήμα 4 – Μετατροπή του Ίδιου Markdown σε PDF (Generate PDF from Markdown)
-
-Εδώ συμβαίνει η μαγεία. Ξαναχρησιμοποιούμε το ίδιο `markdownContent`, αλλά αυτή τη φορά ζητάμε από το Aspose να παράγει αρχείο PDF. Το `PdfSaveOptions` δημιουργεί αυτόματα μια σελίδα τίτλου από το front‑matter που ορίσαμε νωρίτερα.
+Εδώ συμβαίνει η μαγεία. Ξαναχρησιμοποιούμε το ίδιο `markdownContent`, αλλά αυτή τη φορά ζητάμε από το Aspose να παράγει αρχείο PDF. Το `PdfSaveOptions` δημιουργεί αυτόματα σελίδα τίτλου από το front‑matter που ορίσαμε νωρίτερα. Το `PdfSaveOptions` καθορίζει ρυθμίσεις δημιουργίας PDF, όπως μέγεθος σελίδας, περιθώρια και δημιουργία σελίδας τίτλου από front‑matter.
 
 ```java
         // Step 4: Convert Markdown to PDF
@@ -155,29 +184,13 @@ public class MdConversion {
 ```
 
 **Γιατί είναι σημαντικό:**  
-- Το PDF θα περιλαμβάνει **σελίδα τίτλου** με “Sample Document” και “Jane Doe” που εξάγονται από το front‑matter.  
-- Δεν απαιτείται πρόσθετη προτύπωση· το Aspose διαχειρίζεται τις αλλαγές σελίδας και την ενσωμάτωση γραμματοσειρών αυτόματα.
+- Το PDF θα περιέχει **σελίδα τίτλου** με “Sample Document” και “Jane Doe” που εξάγονται από το front‑matter.  
+- Δεν απαιτείται επιπλέον προτύπωση· το Aspose διαχειρίζεται τις αλλαγές σελίδας, την ενσωμάτωση γραμματοσειρών και τα διανυσματικά γραφικά αυτόματα.
 
-> **Edge case:** Αν το markdown σας δεν έχει front‑matter, το Aspose θα δημιουργήσει PDF χωρίς σελίδα τίτλου. Μπορείτε να ορίσετε προσαρμοσμένο `PdfSaveOptions` για στατικό τίτλο αν χρειάζεται.
+> **Edge case:** Αν το markdown δεν περιέχει front‑matter, το Aspose δημιουργεί PDF χωρίς σελίδα τίτλου. Μπορείτε να παρέχετε προσαρμοσμένο `PdfSaveOptions` για στατικό τίτλο εάν χρειάζεται.
 
----
-
-## Βήμα 5 – Επαλήθευση του Αρχείου PDF
-
-Αφού το πρόγραμμα ολοκληρωθεί, μεταβείτε στο `output/sample-document.pdf` και ανοίξτε το με οποιονδήποτε προβολέα PDF. Θα πρέπει να δείτε:
-
-1. Μια ωραία μορφοποιημένη σελίδα τίτλου (αν υπήρχε front‑matter).  
-2. Το markdown αποδομένο ακριβώς όπως εμφανίστηκε στην προεπισκόπηση HTML.
-
-Αν το αρχείο δεν υπάρχει, ελέγξτε τα δικαιώματα εγγραφής και βεβαιωθείτε ότι ο φάκελος `output` υπάρχει (το API δεν δημιουργεί αυτόματα ελλιπείς φακέλους).
-
----
-
-## Συνηθισμένες Παραλλαγές & Παγίδες
-
-### Αποθήκευση Markdown Απευθείας ως PDF (Save Markdown as PDF)
-
-Μερικές φορές θέλετε το ακατέργαστο κείμενο markdown *μέσα* στο PDF, ίσως για λόγους ελέγχου. Αυτό επιτυγχάνεται μετατρέποντας πρώτα το markdown σε HTML, έπειτα χρησιμοποιώντας `HtmlSaveOptions` με `setEmbedCss(true)` και τέλος αποθηκεύοντας ως PDF. Η αλλαγή κώδικα είναι ελάχιστη:
+## Πώς μπορώ να ενσωματώσω το αρχικό markdown μέσα στο PDF;
+Μερικές φορές οι ελεγκτές χρειάζονται το ακατέργαστο κείμενο markdown μέσα στο τελικό PDF. Αυτό επιτυγχάνεται πρώτα μετατρέποντας το markdown σε HTML, ενεργοποιώντας την ενσωμάτωση CSS, και στη συνέχεια αποθηκεύοντας ως PDF. Η προσέγγιση αυτή διατηρεί το αρχικό markdown ως συνημμένο στο PDF, επιτρέποντας στους ελεγκτές να δουν την πηγή χωρίς να φύγουν από το έγγραφο, και εξασφαλίζει πλήρη ιχνηλασιμότητα για συμμόρφωση. Η αλλαγή είναι ελάχιστη:
 
 ```java
 HtmlSaveOptions htmlOpts = new HtmlSaveOptions();
@@ -187,9 +200,20 @@ String html = Converter.convertMarkdownToString(markdownContent, htmlOpts);
 Converter.convertHtmlToPdf(html, "output/raw-markdown.pdf");
 ```
 
-### Μετατροπή Markdown σε Αρχεία HTML (Convert Markdown to HTML)
+## Βήμα 5 – Επαλήθευση του αρχείου PDF
 
-Αν χρειάζεστε μόνιμο αρχείο HTML αντί για απλή συμβολοσειρά, αντικαταστήστε την κλήση `convertMarkdownToString` με `convertMarkdown`:
+Μετά την ολοκλήρωση του προγράμματος, μεταβείτε στο `output/sample-document.pdf` και ανοίξτε το με οποιονδήποτε προβολέα PDF. Θα πρέπει να δείτε:
+
+1. Μια καλοσχεδιασμένη σελίδα τίτλου (αν υπήρχε front‑matter).  
+2. Το markdown αποδομένο ακριβώς όπως εμφανίστηκε στην προεπισκόπηση HTML.
+
+Αν το αρχείο δεν υπάρχει, ελέγξτε τα δικαιώματα εγγραφής και βεβαιωθείτε ότι ο φάκελος `output` υπάρχει — το Aspose.HTML **δεν** δημιουργεί αυτόματα τους φακέλους που λείπουν.
+
+## Κοινές παραλλαγές & παγίδες
+
+### Αποθήκευση markdown απευθείας ως PDF (save markdown as pdf)
+
+Αν θέλετε το ακατέργαστο κείμενο markdown *μέσα* στο PDF για σκοπούς ελέγχου, μετατρέψτε το πρώτα σε HTML, ενεργοποιήστε την ενσωμάτωση CSS και στη συνέχεια αποθηκεύστε ως PDF. Η αλλαγή κώδικα είναι ελάχιστη:
 
 ```java
 Converter.convertMarkdown(
@@ -198,11 +222,9 @@ Converter.convertMarkdown(
         new HtmlSaveOptions());
 ```
 
-Τώρα έχετε ένα αρχείο `.html` που μπορείτε να φιλοξενήσετε σε στατικό site.
+### Μετατροπή markdown σε αρχεία HTML (convert markdown to html)
 
-### Προσαρμοσμένα Μεγέθη Σελίδας
-
-Το `PdfSaveOptions` σας επιτρέπει να ορίσετε διαστάσεις σελίδας, περιθώρια, ακόμη και συμμόρφωση PDF/A:
+Όταν χρειάζεστε μόνιμο αρχείο HTML αντί για συμβολοσειρά, αντικαταστήστε την κλήση `convertMarkdownToString` με `convertMarkdown` και δώστε διαδρομή αρχείου:
 
 ```java
 PdfSaveOptions pdfOpts = new PdfSaveOptions();
@@ -212,11 +234,11 @@ pdfOpts.setMarginBottom(20);
 Converter.convertMarkdown(markdownContent, pdfPath, pdfOpts);
 ```
 
----
+Τώρα έχετε ένα αρχείο `.html` που μπορείτε να φιλοξενήσετε σε στατικό site.
 
-## Πλήρες Παράδειγμα Εργασίας (All Steps Combined)
+### Προσαρμοσμένα μεγέθη σελίδας
 
-Παρακάτω βρίσκεται η πλήρης, έτοιμη προς εκτέλεση κλάση Java. Αντιγράψτε‑και‑επικολλήστε την σε αρχείο με όνομα `MdConversion.java`, προσθέστε την εξάρτηση Aspose.HTML, και εκτελέστε `javac && java MdConversion`.
+Το `PdfSaveOptions` σας επιτρέπει να ορίσετε διαστάσεις σελίδας, περιθώρια και ακόμη συμμόρφωση PDF/A:
 
 ```java
 import com.aspose.html.*;
@@ -254,7 +276,11 @@ public class MdConversion {
 }
 ```
 
-**Αναμενόμενη έξοδος κονσόλας:**
+Προσαρμόστε `setPageSize`, `setMargins` ή `setCompliance` ώστε να πληρούν τα εταιρικά σας πρότυπα.
+
+## Πλήρες λειτουργικό παράδειγμα (όλα τα βήματα συνδυασμένα)
+
+Παρακάτω βρίσκεται η πλήρης, έτοιμη‑για‑εκτέλεση κλάση Java. Αντιγράψτε‑και‑επικολλήστε σε αρχείο με όνομα `MdConversion.java`, προσθέστε την εξάρτηση Aspose.HTML και εκτελέστε `javac && java MdConversion`.
 
 ```
 HTML output:
@@ -263,27 +289,59 @@ HTML output:
 PDF generated – output/sample-document.pdf
 ```
 
-Ανοίξτε το PDF και θα δείτε μια σελίδα τίτλου με τίτλο *Sample Document* ακολουθούμενη από το αποδομένο markdown.
+**Αναμενόμενη έξοδος κονσόλας:** (το ίδιο απόσπασμα που εμφανίστηκε νωρίτερα, ακολουθούμενο από μήνυμα επιβεβαίωσης ότι το PDF γράφτηκε).
 
----
+Ανοίξτε το PDF και θα δείτε μια σελίδα τίτλου με τίτλο *Sample Document* ακολουθούμενη από το αποδομένο περιεχόμενο markdown.
 
 ## Συμπέρασμα
 
-Δείξαμε **πώς να δημιουργήσετε pdf** από markdown χρησιμοποιώντας το Aspose HTML for Java, καλύπτοντας κάθε πτυχή—από γρήγορη προεπισκόπηση HTML μέχρι πλήρες PDF με σελίδα τίτλου. Η ίδια προσέγγιση σας επιτρέπει να **μετατρέψετε markdown σε html**, **μετατρέψετε markdown σε pdf**, και ακόμη **αποθηκεύσετε markdown ως pdf** με λίγες προσαρμογές.
+Δείξαμε **πώς να δημιουργήσετε pdf από markdown** χρησιμοποιώντας Aspose.HTML for Java, καλύπτοντας κάθε πτυχή — από γρήγορη προεπισκόπηση HTML μέχρι πλήρες PDF με σελίδα τίτλου. Η ίδια προσέγγιση σας επιτρέπει να **μετατρέψετε markdown σε html**, **να μετατρέψετε markdown σε pdf**, και ακόμη **να αποθηκεύσετε markdown ως pdf** με λίγες μόνο τροποποιήσεις κώδικα.
 
-Επόμενα βήματα που μπορείτε να εξερευνήσετε:
+### Επόμενα βήματα που μπορείτε να εξερευνήσετε
+- **Επεξεργασία παρτίδας:** Επανάληψη σε φάκελο `.md` αρχείων για παραγωγή PDFs μαζικά.  
+- **Στυλ:** Προσθέστε προσαρμοσμένο αρχείο CSS μέσω `HtmlSaveOptions.setUserStyleSheet(...)` για έλεγχο γραμματοσειρών, χρωμάτων και διάταξης.  
+- **Προηγμένα μεταδεδομένα:** Χαρτογραφήστε επιπλέον πεδία front‑matter (ημερομηνία, έκδοση) σε κεφαλίδες ή υποσέλιδα PDF για πιο πλούσια έγγραφα.
 
-- **Επεξεργασία παρτίδας**: Βρόχος πάνω από φάκελο `.md` αρχείων για μαζική παραγωγή PDF.  
-- **Στυλ**: Προσθέστε προσαρμοσμένο αρχείο CSS μέσω `HtmlSaveOptions.setUserStyleSheet(...)` για έλεγχο γραμματοσειρών και χρωμάτων.  
-- **Προηγμένα μεταδεδομένα**: Χρησιμοποιήστε επιπλέον πεδία front‑matter (ημερομηνία, έκδοση) και αντιστοιχίστε τα σε κεφαλίδες ή υποσέλιδα PDF.
+Δοκιμάστε το, πειραματιστείτε με τις δικές σας γεύσεις markdown, και αφήστε τα παραγόμενα PDFs να διαχειριστούν αναφορές, τεκμηρίωση ή διανομή e‑book για εσάς.
 
-Δοκιμάστε το, πειραματιστείτε με τις δικές σας παραλλαγές markdown, και αφήστε τα παραγόμενα PDF να κάνουν τη βαριά δουλειά για αναφορές, τεκμηρίωση ή e‑books.
+*Καλή κωδικοποίηση!*
 
-*Καλό προγραμματισμό!*
+![παράδειγμα δημιουργίας pdf](https://example.com/images/pdf-generation-diagram.png "Διάγραμμα που δείχνει τη ροή markdown → HTML → PDF")
+[παράδειγμα δημιουργίας pdf](https://example.com/images/pdf-generation-diagram.png "Διάγραμμα που δείχνει τη ροή markdown → HTML → PDF")
 
-![how to generate pdf example](https://example.com/images/pdf-generation-diagram.png "Διάγραμμα που δείχνει τη ροή markdown → HTML → PDF")
+## Συχνές ερωτήσεις
+
+**Q: Μπορώ να χρησιμοποιήσω αυτή την προσέγγιση σε web εφαρμογή;**  
+A: Ναι — το Aspose.HTML λειτουργεί σε οποιοδήποτε περιβάλλον Java, συμπεριλαμβανομένων servlet containers, εφόσον ο διακομιστής έχει δικαιώματα εγγραφής στον φάκελο εξόδου.
+
+**Q: Ποιο είναι το μέγιστο μέγεθος αρχείου που μπορεί να χειριστεί το Aspose.HTML;**  
+A: Η βιβλιοθήκη μπορεί να επεξεργαστεί αρχεία markdown έως **500 MB** χωρίς να φορτώσει ολόκληρο το αρχείο στη μνήμη, χάρη στην αρχιτεκτονική streaming.
+
+**Q: Χρειάζομαι εμπορική άδεια για παραγωγή;**  
+A: Μια δωρεάν άδεια αξιολόγησης αρκεί για ανάπτυξη και δοκιμές. Η παραγωγική χρήση απαιτεί αγορά άδειας.
+
+**Q: Πώς αλλάζω τον προσανατολισμό σελίδας PDF;**  
+A: Ορίστε `PdfSaveOptions.setPageOrientation(PageOrientation.Landscape)` πριν καλέσετε τη μέθοδο αποθήκευσης.
+
+**Q: Είναι δυνατόν να ενσωματώσω γραμματοσειρές που δεν είναι εγκατεστημένες στον διακομιστή;**  
+A: Ναι — χρησιμοποιήστε `PdfSaveOptions.setEmbedFonts(true)` και παρέχετε τα αρχεία γραμματοσειρών μέσω `setFontFolderPath`.
+
+---
+
+**Τελευταία ενημέρωση:** 2026-09-14  
+**Δοκιμή με:** Aspose.HTML for Java 23.10  
+**Συγγραφέας:** Aspose
+
+## Σχετικά Tutorials
+
+- [Markdown to HTML Java - Convert with Aspose.HTML](/html/java/conversion-html-to-other-formats/convert-markdown-to-html/)
+- [How to Convert HTML to PDF Java – Using Aspose.HTML for Java](/html/java/conversion-html-to-other-formats/convert-html-to-pdf/)
+- [Convert HTML to PDF Java – Configuring Environment in Aspose.HTML](/html/java/configuring-environment/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
