@@ -159,6 +159,8 @@ Hướng dẫn lưu tài liệu HTML vào tệp ZIP trong C# bằng Aspose.HTML,
 Hướng dẫn tạo trình xử lý tài nguyên tùy chỉnh trong C# để chuyển đổi HTML thành tệp ZIP trực tiếp trong bộ nhớ.
 ### [Xử lý tài nguyên tùy chỉnh trong C# – Hướng dẫn chuyển đổi HTML sang ZIP](./custom-resource-handler-in-c-convert-html-to-zip-tutorial/)
 Hướng dẫn chi tiết cách sử dụng Custom Resource Handler trong C# để chuyển đổi HTML thành tệp ZIP bằng Aspose.HTML.
+### [Cách lưu HTML dưới dạng ZIP bằng Aspose.HTML trong C#](./how-to-save-html-as-zip-archive-using-aspose-html-in-c/)
+Hướng dẫn chi tiết cách lưu tài liệu HTML thành tệp ZIP trong C# bằng Aspose.HTML, bao gồm các bước cấu hình và ví dụ mã nguồn.
 ### [Chuyển đổi HTML sang ZIP trong C# – Hướng dẫn toàn diện](./convert-html-to-zip-in-c-complete-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tài liệu HTML thành file ZIP trong C# bằng Aspose.HTML, bao gồm các bước và tùy chọn cấu hình.
 ### [Lưu HTML dưới dạng ZIP trong C# – Hướng dẫn chi tiết từng bước](./save-html-as-zip-in-c-complete-step-by-step-guide/)

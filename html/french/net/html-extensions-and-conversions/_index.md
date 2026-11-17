@@ -276,6 +276,8 @@ Apprenez à sauvegarder du HTML dans un fichier ZIP en utilisant Aspose.HTML ave
 Apprenez à convertir du HTML en tableau d'octets en C# avec Aspose.HTML, guide étape par étape.
 ### [Enregistrer le HTML en ZIP avec Aspose.HTML en C#](./save-html-as-zip-with-aspose-html-in-c/)
 Apprenez à sauvegarder un document HTML dans une archive ZIP en C# avec Aspose.HTML.
+### [Comment enregistrer du HTML en archive ZIP avec Aspose.HTML en C#](./how-to-save-html-as-zip-archive-using-aspose-html-in-c/)
+Apprenez à sauvegarder du HTML dans une archive ZIP en C# à l'aide d'Aspose.HTML, guide étape par étape.
 
 ## Conclusion
 

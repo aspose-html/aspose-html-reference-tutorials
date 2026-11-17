@@ -317,6 +317,7 @@ Aspose.HTML for .NET を利用し、HTML を ZIP アーカイブに変換する�
 Aspose.HTML for .NET を使用して、HTML を ZIP アーカイブとして保存する完全ガイドです。
 
 ### [C# で HTML を ZIP に保存する – ステップバイステップ ガイド](./save-html-as-zip-in-c-step-by-step-guide/)
+### [Aspose.HTML を使用して C# で HTML を ZIP アーカイブとして保存する方法](./how-to-save-html-as-zip-archive-using-aspose-html-in-c/)
 
 ## 結論
 

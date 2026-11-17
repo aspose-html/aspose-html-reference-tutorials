@@ -162,6 +162,9 @@ Pelajari cara merender HTML menjadi gambar PNG menggunakan C# dengan Aspose.HTML
 ### [Cara Membuat Gambar dari HTML menggunakan Aspose.HTML di C#](./how-to-create-image-from-html-using-aspose-html-in-c/)
 Pelajari cara mengonversi HTML menjadi gambar menggunakan Aspose.HTML dengan C# dalam tutorial langkah demi langkah.
 
+### [Cara merender HTML ke PNG dengan Aspose.HTML di C#](./how-to-render-html-to-png-with-aspose-html-in-c/)
+Pelajari cara merender HTML menjadi gambar PNG menggunakan Aspose.HTML di C# dengan contoh kode langkah demi langkah.
+
 ## Kesimpulan
 
 Kesimpulannya, Aspose.HTML untuk .NET menyediakan solusi yang mudah digunakan dan canggih untuk menghasilkan gambar JPG dan PNG dari konten HTML. Baik Anda pengembang berpengalaman atau baru memulai, tutorial ini akan memandu Anda melalui prosesnya. Ciptakan gambar yang menarik secara visual yang menonjol dan tingkatkan proyek Anda dengan Aspose.HTML untuk .NET.

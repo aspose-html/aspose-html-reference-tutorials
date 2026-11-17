@@ -234,6 +234,8 @@ Lépésről‑lépésre bemutatjuk, hogyan hozhat létre HTML‑dokumentumot ké
 Mentse a HTML-t közvetlenül memóriában ZIP-archívumba az Aspose.HTML for .NET C#‑ban.
 ### [HTML konvertálása bájtokká C#-ban az Aspose.HTML segítségével](./how-to-convert-html-to-bytes-in-c-using-aspose-html/)
 ### [HTML mentése ZIP-be az Aspose.HTML segítségével C#-ban](./save-html-as-zip-with-aspose-html-in-c/)
+### [HTML mentése ZIP-archívumba C#-ban az Aspose.HTML segítségével](./how-to-save-html-as-zip-archive-using-aspose-html-in-c/)
+Ismerje meg, hogyan menthet HTML-fájlt ZIP-archívumba C#-ban az Aspose.HTML for .NET segítségével.
 
 ## Következtetés
 

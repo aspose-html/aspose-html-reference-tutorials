@@ -177,6 +177,8 @@ Learn how to implement a custom resource handler in C# to convert HTML to a ZIP 
 Learn how to load HTML content and apply a custom resource handler to zip it using Aspose.HTML in C#.
 ### [Save HTML as ZIP with Aspose.HTML in C#](./save-html-as-zip-with-aspose-html-in-c/)
 Learn how to save HTML content as a ZIP archive using Aspose.HTML in C# with step-by-step guidance.
+### [How to save HTML as ZIP archive using Aspose.HTML in C#](./how-to-save-html-as-zip-archive-using-aspose-html-in-c/)
+Learn how to save HTML content as a ZIP archive in C# using Aspose.HTML for .NET with step‑by‑step instructions.
 ### [Custom Resource Handler in C# – Convert HTML to ZIP Tutorial](./custom-resource-handler-in-c-convert-html-to-zip-tutorial/)
 Learn how to implement a custom resource handler in C# to convert HTML pages into ZIP archives using Aspose.HTML.
 ### [Convert HTML to PDF with Aspose.HTML – Full Step‑by‑Step Guide](./convert-html-to-pdf-with-aspose-html-full-step-by-step-guide/)
