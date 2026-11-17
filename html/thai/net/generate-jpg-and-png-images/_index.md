@@ -38,6 +38,9 @@ Aspose.HTML สำหรับ .NET นำเสนอวิธีการง�
 
 ## บทช่วยสอนการสร้างรูปภาพ JPG และ PNG
 
+### [How to create PNG from HTML using Aspose.HTML in C#](./how-to-create-png-from-html-using-aspose-html-in-c/)
+
+
 ### [สร้างรูปภาพ JPG โดย ImageDevice ใน .NET ด้วย Aspose.HTML](./generate-jpg-images-by-imagedevice/)
 เรียนรู้วิธีสร้างหน้าเว็บแบบไดนามิกโดยใช้ Aspose.HTML สำหรับ .NET บทช่วยสอนแบบทีละขั้นตอนนี้ครอบคลุมถึงข้อกำหนดเบื้องต้น เนมสเปซ และการเรนเดอร์ HTML ลงในรูปภาพ
 
