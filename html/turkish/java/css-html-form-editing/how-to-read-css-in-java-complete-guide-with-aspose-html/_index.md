@@ -25,21 +25,14 @@ title: Java’da CSS Nasıl Okunur – Aspose.HTML ile Tam Kılavuz
 url: /tr/java/css-html-form-editing/how-to-read-css-in-java-complete-guide-with-aspose-html/
 ---
 
->}}
 
-We must keep them unchanged.
 
-Now produce final content with translations.
 
-Check for any missed bold phrases: **read html file java**‑style appears earlier; we kept unchanged. Good.
 
-Check code block placeholders: keep unchanged.
 
-Check URLs: none.
 
-Check file paths: `sample.html` etc remain.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

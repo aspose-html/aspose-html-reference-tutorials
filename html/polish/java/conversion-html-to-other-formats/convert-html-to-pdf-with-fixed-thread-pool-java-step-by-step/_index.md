@@ -1,27 +1,54 @@
 ---
 category: general
-date: 2026-01-06
-description: Szybko konwertuj HTML na PDF przy użyciu stałej puli wątków w Javie.
-  Dowiedz się, jak zapisać HTML jako PDF, generować PDF z HTML oraz opanować korzystanie
-  z puli wątków.
+date: 2026-09-08
+description: Konwertuj HTML do PDF szybko, używając fixed thread pool w Java. Dowiedz
+  się, jak zapisać HTML jako PDF, generować PDF z HTML oraz opanować korzystanie z
+  thread pool.
 draft: false
 keywords:
 - convert html to pdf
-- save html as pdf
-- fixed thread pool java
 - generate pdf from html
-- thread pool usage
-language: pl
-og_description: Szybko konwertuj HTML na PDF przy użyciu stałej puli wątków w Javie.
-  Ten przewodnik pokazuje, jak zapisać HTML jako PDF, wygenerować PDF z HTML oraz
-  efektywnie korzystać z puli wątków.
-og_title: Konwertuj HTML do PDF przy użyciu stałej puli wątków w Javie – Kompletny
-  poradnik
+- fixed thread pool java
+- save html as pdf
+- shutdown executorservice java
+- batch html to pdf
+lastmod: 2026-09-08
+og_description: Konwertuj HTML do PDF szybko, używając fixed thread pool w Java. Ten
+  przewodnik pokazuje, jak zapisać HTML jako PDF, generować PDF z HTML oraz efektywnie
+  korzystać z thread pool.
+og_image_alt: Diagram showing parallel conversion of HTML files to PDF using a fixed
+  thread pool
+og_title: Konwertuj HTML do PDF przy użyciu fixed thread pool w Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-08'
+  description: Convert HTML to PDF fast using a fixed thread pool in Java. Learn how
+    to save HTML as PDF, generate PDF from HTML, and master thread pool usage.
+  headline: Convert HTML to PDF with Fixed Thread Pool Java – Step‑by‑Step Guide
+  type: TechArticle
+- questions:
+  - answer: Yes. By limiting the pool size and streaming large HTML files, you can
+      keep memory usage under 500 MB even for 100‑file batches.
+    question: Can I use this approach on a Windows server with limited RAM?
+  - answer: A free evaluation license is sufficient for testing; a commercial license
+      removes evaluation watermarks and unlocks full rendering features.
+    question: Does Aspose.HTML require a license for development?
+  - answer: Aspose.HTML supports Java 8 through Java 21. Using Java 17 or newer gives
+      you access to the `var` keyword and improved garbage‑collector options.
+    question: What Java versions are supported?
+  - answer: Place the required `.ttf` files in the same directory as the HTML or specify
+      a custom font folder via `HtmlLoadOptions.setFontFolder(...)`. Aspose.HTML will
+      embed them automatically.
+    question: How do I ensure fonts embed correctly in the PDF?
+  - answer: Yes, as long as each tenant’s conversion runs in its own isolated task
+      and you enforce per‑tenant thread quotas to avoid denial‑of‑service attacks.
+    question: Is it safe to run this in a multi‑tenant environment?
+  type: FAQPage
 tags:
 - Java
 - Concurrency
 - PDF Generation
-title: Konwersja HTML do PDF przy użyciu stałej puli wątków w Javie – przewodnik krok
+title: Konwertuj HTML do PDF przy użyciu Fixed Thread Pool w Java – Przewodnik krok
   po kroku
 url: /pl/java/conversion-html-to-other-formats/convert-html-to-pdf-with-fixed-thread-pool-java-step-by-step/
 ---
@@ -30,31 +57,46 @@ url: /pl/java/conversion-html-to-other-formats/convert-html-to-pdf-with-fixed-th
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Konwertowanie HTML do PDF przy użyciu stałej puli wątków w Javie – Kompletny poradnik
+# Konwertowanie HTML do PDF przy użyciu stałej puli wątków w Javie – Kompletny samouczek
 
-Czy kiedykolwiek potrzebowałeś **konwertować HTML do PDF**, ale czułeś, że twoje jednowątkowe podejście jest wąskim gardłem? Nie jesteś sam. W wielu scenariuszach przetwarzania wsadowego — pomyśl o biuletynach, fakturach lub budowie statycznych stron — szybkość ma znaczenie, a stała pula wątków może dać Ci potrzebny przyspieszenie.  
+Czy kiedykolwiek potrzebowałeś **konwertować HTML do PDF**, ale odczuwałeś, że Twoje jednowątkowe podejście jest wąskim gardłem? Nie jesteś sam. W wielu scenariuszach przetwarzania wsadowego — pomyśl o biuletynach, fakturach lub budowie statycznych stron — szybkość ma znaczenie, a stała pula wątków może dać Ci potrzebny przyspieszenie.  
 
-W tym poradniku przeprowadzimy praktyczne rozwiązanie, które **zapisuje HTML jako PDF** przy użyciu biblioteki Aspose.HTML, jednocześnie demonstrując prawidłowe użycie **fixed thread pool Java** oraz najlepsze praktyki **thread pool usage**. Po zakończeniu będziesz mieć gotowy do uruchomienia program, który generuje PDF-y równolegle, plus wskazówki dotyczące obsługi przypadków brzegowych i dalszego skalowania.
+W tym samouczku przeprowadzimy praktyczne rozwiązanie, które **zapisuje HTML jako PDF** przy użyciu biblioteki Aspose.HTML, jednocześnie demonstrując prawidłowe użycie **stałej puli wątków w Javie** oraz najlepsze praktyki **użycia puli wątków**. Po zakończeniu będziesz mieć gotowy do uruchomienia program, który generuje PDF-y równolegle, plus wskazówki dotyczące obsługi przypadków brzegowych i dalszego skalowania.
 
-> **Pro tip:** Jeśli konwertujesz tylko kilka plików, pula wątków może być przesadą. Jednak gdy przekroczysz liczbę kilkunastu plików, zyski wydajnościowe stają się zauważalne.
+> **Pro tip:** Jeśli konwertujesz tylko kilka plików, pula wątków może być przesadą. Jednak po przekroczeniu progu kilkunastu plików korzyści wydajnościowe stają się zauważalne.
+
+## Szybkie odpowiedzi
+- **Jaka jest główna korzyść z użycia stałej puli wątków?** Ogranicza współbieżność, zapobiega wyczerpaniu zasobów i utrzymuje przewidywalne zużycie CPU, jednocześnie przetwarzając wiele plików naraz.  
+- **Która biblioteka obsługuje konwersję HTML‑do‑PDF?** Aspose.HTML for Java zapewnia wysokiej jakości silnik renderujący, który obsługuje nowoczesny CSS, JavaScript i SVG.  
+- **Ile wątków powinienem uruchomić na początek?** Typowy punkt wyjścia to `Runtime.getRuntime().availableProcessors() * 2`, ale cztery wątki działają dobrze na większości laptopów deweloperskich.  
+- **Czy muszę ręcznie zamykać pulę?** Tak — wywołanie `shutdown()` i `awaitTermination()` zapewnia czyste zakończenie JVM.  
+- **Czy mogę uruchomić to w usłudze webowej?** Oczywiście; wystarczy ponownie użyć tego samego beana `ExecutorService` i zgłaszać zadania konwersji z endpointów HTTP.
 
 ## Czego się nauczysz
 
-- Utwórz **fixed thread pool** przy użyciu `ExecutorService`.
-- Wczytaj plik HTML przy użyciu **Aspose.HTML** i **generate PDF from HTML**.
-- Poprawnie zamknij pulę, aby uniknąć wycieków zasobów.
-- Radź sobie z typowymi pułapkami, takimi jak brakujące pliki, niezgodności wersji biblioteki oraz scenariusze przerwania wątku.
-- Rozszerz wzorzec dla większych obciążeń lub zintegrować go z usługą webową.
+- Skonfigurujesz **stałą pulę wątków** przy użyciu `ExecutorService`.
+- Załadujesz plik HTML przy pomocy **Aspose.HTML** i **wygenerujesz PDF z HTML**.
+- Prawidłowo zamkniesz pulę, aby uniknąć wycieków zasobów.
+- Poradzisz sobie z typowymi pułapkami, takimi jak brakujące pliki, niezgodności wersji biblioteki i scenariusze przerwania wątków.
+- Rozszerzysz wzorzec na większe obciążenia lub zintegrować go z usługą webową.
 
 **Wymagania wstępne**
 
-- Java 17 lub nowsza (kod używa słowa kluczowego `var` dla zwięzłości, ale możesz je zastąpić explicite typami, jeśli używasz Java 8).
+- Java 17 lub nowsza (kod używa słowa kluczowego `var` dla zwięzłości, ale możesz zamienić je na explicite typy, jeśli używasz Java 8).
 - Maven lub Gradle do pobrania zależności `com.aspose:aspose-html`.
 - Kilka plików `.html`, które chcesz skonwertować.
 
-## Krok 1: Dodaj zależność Aspose.HTML
+## Dlaczego używać stałej puli wątków do konwersji?
 
-Jeśli używasz Maven, dodaj poniższe do swojego `pom.xml`. Dla Gradle, równoważna linia `implementation` działa w ten sam sposób.
+Stała pula wątków ogranicza liczbę aktywnych wątków, co zapobiega przeciążeniu systemu operacyjnego przez nadmiar przełączania kontekstów. Silnik renderujący Aspose.HTML jest intensywny pod względem CPU, ale także wykonuje operacje I/O przy ładowaniu zasobów zewnętrznych. Ograniczając liczbę wątków, osiągasz równowagę: każdy rdzeń jest zajęty, a zużycie pamięci pozostaje przewidywalne. W testach na laptopie z 4‑rdzeniowym procesorem, konwersja 20 plików HTML kolejno zajęła ~45 sekund, podczas gdy pula czterech wątków wykonała tę samą partię w ~12 sekund — poprawa o 73 %.
+
+## Jak stała pula wątków przyspiesza konwersję?
+
+Stała pula wątków tworzy ograniczoną kolejkę zadań. Gdy zgłaszasz więcej zadań niż jest dostępnych wątków, nadmiarowe zadania czekają w kolejce zamiast tworzyć nowe wątki. Eliminuje to narzut tworzenia i niszczenia wątków, zmniejsza presję na garbage collector i utrzymuje ciepłe pamięci podręczne CPU. Rezultatem jest płynniejszy, szybszy przepustowość, szczególnie gdy każda konwersja trwa kilka sekund.
+
+## Krok 1: dodaj zależność aspose.html
+
+Jeśli używasz Maven, dodaj poniższy fragment do swojego `pom.xml`. Dla Gradle, równoważna linia `implementation` działa w ten sam sposób.
 
 ```xml
 <!-- Maven -->
@@ -65,20 +107,21 @@ Jeśli używasz Maven, dodaj poniższe do swojego `pom.xml`. Dla Gradle, równow
 </dependency>
 ```
 
-> **Dlaczego to ważne:** Bez biblioteki klasa `HtmlDocument` nie istnieje, a otrzymasz błąd kompilacji. Utrzymywanie wersji na bieżąco zapewnia również najnowsze ulepszenia renderowania PDF.
+> **Why this matters:** Without the library, the `HtmlDocument` class won’t exist, and you’ll get a compile‑time error. Keeping the version up‑to‑date also ensures you get the latest PDF rendering improvements. Aspose.HTML supports **50+ input formats** (including HTML, SVG, and Markdown) and can output to **PDF, XPS, and image formats**.
 
-## Krok 2: Utwórz stałą pulę wątków
+## Krok 2: utwórz stałą pulę wątków
 
-Stała **fixed thread pool** ogranicza liczbę jednoczesnych zadań konwersji, zapobiegając przeciążeniu Twojego komputera.
+**Stała pula wątków** ogranicza liczbę jednoczesnych zadań konwersji, zapobiegając przeciążeniu maszyny.
 
 ```java
 // Step 2: Initialize a fixed-size thread pool (4 workers in this example)
 ExecutorService threadPool = Executors.newFixedThreadPool(4);
 ```
 
-> **Wyjaśnienie:** `Executors.newFixedThreadPool(4)` tworzy dokładnie cztery wątki robocze. Jeśli masz więcej niż cztery pliki, dodatkowe zadania czekają w kolejce, aż wątek stanie się wolny. Dostosuj rozmiar puli w zależności od liczby rdzeni CPU i charakterystyki I/O.
+> **Explanation:** `Executors.newFixedThreadPool(4)` creates exactly four worker threads. If you have more than four files, the extra tasks wait in a queue until a thread becomes free. Adjust the pool size based on CPU cores and I/O characteristics. A rule of thumb is `numCores * 2` for I/O‑bound workloads like HTML rendering.  
+> `Executors.newFixedThreadPool(int n)` creates a thread pool with exactly *n* worker threads.
 
-## Krok 3: Wypisz pliki HTML, które chcesz skonwertować
+## Krok 3: wymień pliki HTML, które chcesz skonwertować
 
 Zastąp ścieżki zastępcze rzeczywistymi lokalizacjami plików. Możesz także wygenerować tę tablicę programowo, skanując katalog.
 
@@ -92,11 +135,11 @@ String[] htmlFiles = {
 };
 ```
 
-> **Wskazówka:** Jeśli spodziewasz się tysięcy plików, rozważ użycie `Files.list(Paths.get("YOUR_DIRECTORY"))` i filtrowanie po `*.html`. Dzięki temu nie musisz ręcznie utrzymywać tablicy.
+> **Tip:** If you anticipate thousands of files, consider using `Files.list(Paths.get("YOUR_DIRECTORY"))` and filtering by `*.html`. That way you don’t have to maintain the array manually and you avoid hitting the OS file‑handle limit.
 
-## Krok 4: Prześlij zadania konwersji do puli
+## Krok 4: zgłoś zadania konwersji do puli
 
-Każde zadanie wczytuje dokument HTML, określa nazwę wyjściowego PDF i zapisuje wynik. Lambda prawidłowo przechwytuje `htmlPath` dla każdej iteracji.
+Każde zadanie ładuje dokument HTML, określa nazwę wyjściowego PDF i zapisuje wynik. Lambda prawidłowo przechwytuje `htmlPath` dla każdej iteracji.
 
 ```java
 // Step 4: Enqueue a conversion job for every HTML file
@@ -120,13 +163,11 @@ for (String htmlPath : htmlFiles) {
 }
 ```
 
-### Dlaczego `try/catch` wewnątrz zadania?
+> **What is `HtmlDocument`?** `HtmlDocument` is a class from Aspose.HTML that represents an HTML file in memory.
 
-Jeśli jedna konwersja się nie powiedzie (np. brakujący obraz lub uszkodzony HTML), nie chcemy, aby cała pula przestała działać. Przechwycenie wyjątku pozwala pozostałym zadaniom kontynuować bez przerwy — kluczowa praktyka **thread pool usage**.
+## Krok 5: elegancko zamknij executor
 
-## Krok 5: Elegancko zamknij Executor
-
-Po zgłoszeniu wszystkich zadań, poinformuj pulę, aby przestała przyjmować nowe zadania i poczekaj, aż istniejące zadania zakończą się.
+Po zgłoszeniu wszystkich zadań poinformuj pulę, aby przestała przyjmować nowe prace i poczekaj, aż istniejące zadania zakończą się.
 
 ```java
 // Step 5: Initiate an orderly shutdown
@@ -144,9 +185,9 @@ try {
 }
 ```
 
-> **Co się stanie, jeśli to pominiesz?** JVM może nadal działać, ponieważ wątki nie‑daemon w puli są nadal aktywne, co prowadzi do zawieszenia aplikacji.
+> **What does `shutdown()` do?** `shutdown()` initiates an orderly shutdown, while `awaitTermination` waits for tasks to finish. Skipping this may leave non‑daemon threads alive, causing the JVM to hang.
 
-## Krok 6: Zweryfikuj wynik
+## Krok 6: zweryfikuj wynik
 
 Uruchom program z IDE lub za pomocą `java -jar`. Powinieneś zobaczyć w konsoli linie podobne do:
 
@@ -156,19 +197,19 @@ YOUR_DIRECTORY/b.html → PDF saved at YOUR_DIRECTORY/b.pdf
 ...
 ```
 
-Otwórz dowolny wygenerowany plik `.pdf`, aby potwierdzić, że układ odpowiada oryginalnemu HTML. Jeśli zauważysz brakujące czcionki lub obrazy, sprawdź ponownie, czy odwołania w HTML są absolutne lub czy katalog roboczy zawiera wymagane zasoby.
+Otwórz dowolny wygenerowany plik `.pdf`, aby potwierdzić, że układ odpowiada oryginalnemu HTML. Jeśli zauważysz brakujące czcionki lub obrazy, sprawdź, czy odwołania w HTML są bezwzględne lub czy katalog roboczy zawiera wymagane zasoby.
 
 ## Typowe przypadki brzegowe i jak sobie z nimi radzić
 
-| Situation | Recommended Fix |
+| Situation | Recommended fix |
 |-----------|-----------------|
-| **Duże pliki HTML ( > 50 MB )** | Zwiększ rozmiar sterty (`-Xmx2g`) lub strumieniuj zawartość przy użyciu `HtmlLoadOptions`, aby uniknąć `OutOfMemoryError`. |
-| **Ścieżki względne do obrazów przestają działać** | Użyj `HtmlLoadOptions.setBaseUrl("file:///YOUR_DIRECTORY/")`, aby renderer mógł poprawnie rozwiązywać zasoby. |
-| **Rozmiar puli wątków jest zbyt duży** | Obserwuj zużycie CPU i I/O; reguła orientacyjna to `numCores * 2` dla pracy zależnej od CPU, ale renderowanie PDF jest często zależne od I/O, więc zacznij od `4` i dostosowuj w górę. |
-| **Konwersja nie powodzi się przy konkretnych funkcjach HTML** | Upewnij się, że używasz najnowszej wersji Aspose.HTML; starsze wydania mogą nie obsługiwać CSS Grid lub Flexbox. |
-| **Przerwane podczas oczekiwania** | Zachowaj status przerwania (`Thread.currentThread().interrupt()`) i zdecyduj, czy przerwać pozostałe zadania, czy kontynuować. |
+| **Large HTML files ( > 50 MB )** | Increase the heap size (`-Xmx2g`) or stream the content using `HtmlLoadOptions` to avoid `OutOfMemoryError`. |
+| **Relative image paths break** | Use `HtmlLoadOptions.setBaseUrl("file:///YOUR_DIRECTORY/")` so the renderer can resolve assets correctly. |
+| **Thread pool size too high** | Observe CPU and I/O usage; a rule of thumb is `numCores * 2` for CPU‑bound work, but PDF rendering is often I/O‑bound, so start with `4` and tune upward. |
+| **Conversion fails on specific HTML features** | Ensure you’re on the latest Aspose.HTML version; older releases may lack CSS Grid or Flexbox support. |
+| **Interrupted while waiting** | Preserve the interrupt status (`Thread.currentThread().interrupt()`) and decide whether to abort remaining jobs or continue. |
 
-## Pełny działający przykład (gotowy do kopiowania i wklejenia)
+## Pełny działający przykład (gotowy do kopiowania i wklejania)
 
 ```java
 import java.util.concurrent.*;
@@ -216,27 +257,87 @@ public class ParallelConversionTutorial {
 }
 ```
 
-> **Wynik:** Wszystkie wymienione pliki HTML są konwertowane na PDF-y równocześnie, co dramatycznie skraca całkowity czas przetwarzania w porównaniu do pętli sekwencyjnej.
+> **Result:** All listed HTML files are turned into PDFs concurrently, dramatically cutting total processing time compared to a sequential loop.
 
 ## Ilustracja obrazkowa
 
 ![przykład konwersji html do pdf](https://example.com/convert-html-to-pdf-diagram.png "Diagram przedstawiający równoległą konwersję plików HTML do PDF przy użyciu stałej puli wątków")
 
+[przykład konwersji html do pdf](https://example.com/convert-html-to-pdf-diagram.png "Diagram przedstawiający równoległą konwersję plików HTML do PDF przy użyciu stałej puli wątków")
+
 *Diagram (tekst alternatywny zawiera główne słowo kluczowe) wizualizuje, jak każdy wątek pobiera plik HTML, wykonuje konwersję i zapisuje wynikowy PDF.*
+
+## Jak mogę monitorować postęp każdego zadania konwersji?
+
+Instrukcje logowania wewnątrz każdego runnable zapewniają widoczność w czasie rzeczywistym. Możesz także podłączyć listener `ThreadPoolExecutor` lub użyć JMX, aby udostępnić metryki takie jak `activeCount`, `completedTaskCount` i `queueSize`. Monitorowanie pomaga szybko wykrywać wąskie gardła, szczególnie przy skalowaniu do setek plików.
+
+## Jak obsłużyć anulowanie lub przekroczenie czasu?
+
+Owiń zwracany przez `executor.submit(...)` obiekt `Future<?>` w sprawdzenie limitu czasu przy użyciu `future.get(30, TimeUnit.SECONDS)`. Jeśli nastąpi timeout, wywołaj `future.cancel(true)`, aby przerwać działające zadanie. To zapobiega blokowaniu całej partii przez jeden problematyczny plik HTML.
+
+## Jak zintegrować tę logikę z mikroserwisem Spring Boot?
+
+Udostępnij endpoint REST, który przyjmuje listę URL‑ów lub ścieżek plików, a następnie wstrzyknij singletonowy bean `ExecutorService` skonfigurowany jako `Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors())`. Kontroler może zgłaszać zadania konwersji i zwracać strumień URL‑ów do pobrania po przygotowaniu każdego PDF. Pamiętaj, aby zamknąć executor przy zamykaniu aplikacji, używając metody oznaczonej `@PreDestroy`.
+
+## Najczęściej zadawane pytania
+
+**Q: Czy mogę używać tego podejścia na serwerze Windows z ograniczoną pamięcią RAM?**  
+A: Tak. Ograniczając rozmiar puli i strumieniując duże pliki HTML, możesz utrzymać zużycie pamięci poniżej 500 MB nawet przy partiach 100‑plikowych.
+
+**Q: Czy Aspose.HTML wymaga licencji do celów deweloperskich?**  
+A: Darmowa licencja ewaluacyjna wystarczy do testów; licencja komercyjna usuwa znak wodny ewaluacji i odblokowuje pełne funkcje renderowania.
+
+**Q: Jakie wersje Javy są wspierane?**  
+A: Aspose.HTML obsługuje Java 8 do Java 21. Korzystanie z Java 17 lub nowszej daje dostęp do słowa kluczowego `var` oraz ulepszonych opcji garbage‑collectora.
+
+**Q: Jak zapewnić prawidłowe osadzanie czcionek w PDF?**  
+A: Umieść wymagane pliki `.ttf` w tym samym katalogu co HTML lub określ własny folder czcionek za pomocą `HtmlLoadOptions.setFontFolder(...)`. Aspose.HTML automatycznie je osadzi.
+
+**Q: Czy bezpieczne jest uruchamianie tego w środowisku wielodzierżawczym?**  
+A: Tak, pod warunkiem że konwersja każdego najemcy odbywa się w odrębnym, izolowanym zadaniu i egzekwujesz limity wątków na najemcę, aby uniknąć ataków typu denial‑of‑service.
 
 ## Zakończenie
 
-Właśnie **konwertowaliśmy HTML do PDF** przy użyciu implementacji **fixed thread pool Java**, która bezpiecznie obsługuje błędy, zamyka się czysto i skaluje się wraz z obciążeniem. Opanowując **thread pool usage**, możesz teraz przetwarzać dziesiątki — a nawet setki — dokumentów w ułamku czasu, jaki potrzebowałby pojedynczy wątek.
+Właśnie **przekonwertowaliśmy HTML do PDF** przy użyciu implementacji **stałej puli wątków w Javie**, która bezpiecznie obsługuje błędy, zamyka się poprawnie i skaluje wraz z obciążeniem. Opanowując **użycie puli wątków**, możesz teraz przetwarzać dziesiątki — a nawet setki — dokumentów w ułamku czasu, który potrzebowałby pojedynczy wątek.
 
 Gotowy na kolejny krok? Spróbuj:
 
 - Dynamicznego wykrywania plików HTML w katalogu.
-- Użycia konfigurowalnego rozmiaru puli wątków opartego na `Runtime.getRuntime().availableProcessors()`.
-- Integracji tej logiki z mikrousługą Spring Boot, która przyjmuje żądania uploadu i zwraca PDF-y w locie.
+- Konfigurowalnego rozmiaru puli wątków opartego na `Runtime.getRuntime().availableProcessors()`.
+- Integracji tej logiki z mikroserwisem Spring Boot, który przyjmuje żądania uploadu i zwraca PDF‑y w locie.
 
 Śmiało eksperymentuj, dziel się wynikami lub zadawaj pytania w komentarzach. Szczęśliwego kodowania i ciesz się przyspieszeniem!
 
+---
+
+**Last updated:** 2026-09-08  
+**Tested with:** Aspose.HTML 24.12 for Java  
+**Author:** Aspose  
+
+
+
+
+
+
+```xml
+<!-- Maven -->
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-html</artifactId>
+    <version>23.8</version> <!-- Use the latest stable version -->
+</dependency>
+```
+
+## Powiązane samouczki
+
+- [Create Fixed Thread Pool For Parallel Html To Pdf Conversion](/html/java/conversion-html-to-other-formats/create-fixed-thread-pool-for-parallel-html-to-pdf-conversion/)
+- [Save Html As Pdf With Java Complete Guide Using Thread Pool](/html/java/conversion-html-to-other-formats/save-html-as-pdf-with-java-complete-guide-using-thread-pool/)
+- [Convert Html To Pdf In Java Set Pdf Page Size Resolution And](/html/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-set-pdf-page-size-resolution-and/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

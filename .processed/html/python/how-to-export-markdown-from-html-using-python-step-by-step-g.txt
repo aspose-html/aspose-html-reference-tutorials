@@ -1,0 +1,7 @@
+Title: How to export markdown from HTML using Python – step‑by‑step guide
+Slug: how-to-export-markdown-from-html-using-python-step-by-step-g
+Category: general
+ProcessedDate: 2026-09-23T10:41:11.926808
+SourceRepo: AI Search API
+Keywords: how to export markdown, convert html to markdown, how to convert html, export html as markdown, write markdown file python
+PRNumber: 273

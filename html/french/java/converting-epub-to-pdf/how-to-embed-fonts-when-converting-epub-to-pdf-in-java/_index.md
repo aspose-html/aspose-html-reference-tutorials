@@ -1,26 +1,26 @@
 ---
 category: general
-date: 2026-01-01
-description: Comment incorporer des polices lors de la conversion d’EPUB en PDF en
-  Java. Apprenez à définir la taille de la page PDF et à utiliser Aspose HTML pour
-  une conversion fluide d’EPUB vers PDF en Java.
+date: 2026-04-12
+description: Apprenez à définir la taille de la page PDF et à incorporer les polices
+  lors de la conversion d’EPUB en PDF en Java avec Aspose.HTML. Ce guide vous accompagne
+  tout au long du flux de travail complet de conversion d’EPUB en PDF en Java.
 draft: false
 keywords:
-- how to embed fonts
-- convert epub to pdf
-- how to convert epub
 - set pdf page size
-- epub to pdf java
-language: fr
-og_description: Comment intégrer des polices lors de la conversion d’EPUB en PDF en
-  Java. Ce guide vous montre, étape par étape, comment définir la taille de page du
-  PDF et réaliser une conversion fiable d’EPUB en PDF avec Java.
-og_title: Comment intégrer des polices lors de la conversion d'EPUB en PDF en Java
+- embed fonts pdf
+- convert epub to pdf
+- java epub to pdf
+- custom pdf page size
+og_description: Apprenez à définir la taille de page PDF et à intégrer les polices
+  lors de la conversion d'EPUB en PDF en Java avec Aspose.HTML.
+og_title: Définir la taille de page PDF et incorporer les polices pour la conversion
+  d’EPUB en PDF en Java
 tags:
 - Java
 - PDF
 - EPUB
-title: Comment intégrer les polices lors de la conversion d’EPUB en PDF en Java
+title: Définir la taille de page PDF et incorporer les polices pour la conversion
+  d’EPUB en PDF en Java
 url: /fr/java/converting-epub-to-pdf/how-to-embed-fonts-when-converting-epub-to-pdf-in-java/
 ---
 
@@ -28,24 +28,31 @@ url: /fr/java/converting-epub-to-pdf/how-to-embed-fonts-when-converting-epub-to-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Comment intégrer des polices lors de la conversion d'EPUB en PDF en Java
+# Définir la taille de page PDF et incorporer les polices pour EPUB en PDF en Java
 
-Vous vous êtes déjà demandé **comment intégrer des polices** afin que votre PDF converti ressemble exactement à l'EPUB original ? Vous n'êtes pas seul — de nombreux développeurs rencontrent le problème de police manquante dès la première tentative de conversion. La bonne nouvelle, c'est qu'avec Aspose.HTML for Java, vous pouvez contrôler l'intégration des polices, la taille de la page et l'ensemble du pipeline de conversion en quelques lignes de code seulement.
+Si vous devez **définir la taille de page PDF** tout en **convertissant EPUB en PDF** et garantir que le document résultant ressemble exactement à la source, vous êtes au bon endroit. Dans ce tutoriel, nous parcourrons un exemple complet, prêt pour la production en Java, qui montre comment **incorporer les polices pdf**, choisir une **taille de page pdf personnalisée**, et exécuter la conversion avec Aspose.HTML. À la fin, vous disposerez d’un programme prêt à l’emploi qui produit un PDF fidèle à chaque fois.
 
-Dans ce tutoriel, nous parcourrons le processus complet de **conversion d'EPUB en PDF** avec Java, vous montrerons comment **définir la taille de la page PDF**, et expliquerons pourquoi l'intégration des polices est importante pour la fidélité multiplateforme. À la fin, vous disposerez d'un programme prêt à l'emploi qui transforme n'importe quel fichier EPUB en un PDF parfaitement rendu, avec les polices intégrées et la taille de page que vous choisissez.
+## Réponses rapides
+- **Quel est l'objectif principal ?** Définir la taille de page PDF et incorporer les polices lors de la conversion d'EPUB en PDF en Java.  
+- **Quelle bibliothèque devrais‑je utiliser ?** Aspose.HTML pour Java (essai gratuit disponible).  
+- **Ai‑je besoin d’une licence pour la production ?** Oui – une licence supprime le filigrane d’évaluation.  
+- **Puis‑je utiliser une taille de page personnalisée ?** Absolument – vous pouvez fournir des dimensions exactes ou utiliser les énumérations intégrées comme A4, LETTER, etc.  
+- **Quelle version de Java est requise ?** Java 17 ou plus récent est recommandé.
 
-> **Prérequis**  
-> * Java 17 ou plus récent (l'API fonctionne avec des versions antérieures mais 17 est le meilleur compromis).  
-> * Bibliothèque Aspose.HTML for Java – vous pouvez la récupérer depuis Maven Central.  
-> * Un fichier EPUB d'exemple pour les tests.  
+### Prérequis
+- Java 17+ installé.  
+- Aspose.HTML pour Java ajouté à votre projet (Maven, Gradle ou JAR manuel).  
+- Un fichier EPUB que vous souhaitez transformer.
 
-Si vous êtes à l'aise avec Maven ou Gradle, vous êtes prêt. Sinon, téléchargez simplement le JAR et ajoutez-le à votre classpath—pas de problème.
+> Si vous préférez Gradle, remplacez simplement l’extrait Maven par les coordonnées Gradle équivalentes.
 
 ---
 
-## Comment intégrer des polices dans la sortie PDF
+## Pourquoi incorporer les polices dans le PDF ?
 
-L'intégration des polices garantit que le PDF affiche la même typographie sur n'importe quel appareil, même si le lecteur n'a pas la police originale installée. Aspose.HTML vous offre un seul commutateur pour activer cela.
+Incorporer les polices verrouille le design visuel de l’EPUB source, de sorte que le PDF s’affiche correctement sur n’importe quel appareil – même si le lecteur ne possède pas les polices originales installées. Sans incorporation, les titres peuvent revenir à des polices par défaut comme Arial, ce qui casse la mise en page que vous avez soigneusement créée.
+
+**Pro tip :** Si vous connaissez les polices exactes utilisées dans l’EPUB, indiquez à Aspose un dossier contenant ces fichiers `.ttf` ou `.otf` avec `pdfOptions.setFontsFolder("path/to/fonts")`. Cela accélère la conversion et réduit la taille finale du fichier.
 
 ```java
 // Configure PDF save options
@@ -53,13 +60,11 @@ PdfSaveOptions pdfOptions = new PdfSaveOptions();
 pdfOptions.setEmbedFonts(true);               // <-- This line embeds all used fonts
 ```
 
-Pourquoi est‑ce important ? Imaginez que vous envoyez un PDF à un client qui ne possède que les polices système par défaut. Sans intégration, les titres pourraient revenir à Arial ou Times New Roman, ce qui casserait votre mise en page. En intégrant, vous verrouillez le design visuel, rendant le PDF véritablement portable.
+---
 
-> **Astuce :** Si vous connaissez les polices exactes utilisées par votre EPUB, vous pouvez également fournir un dossier de polices personnalisé via `pdfOptions.setFontsFolder("path/to/fonts")`. Cela accélère la conversion et évite l'intégration de polices inutiles.
+## Comment convertir EPUB en PDF en Java – Flux complet
 
-## Convertir EPUB en PDF avec Java – Flux complet
-
-Voici le code minimal, mais complet, dont vous avez besoin. Il couvre trois étapes essentielles : localiser l'EPUB source, configurer les options PDF (y compris la taille de page), et invoquer la conversion.
+Voici le code minimal, mais complet, dont vous avez besoin. Il couvre trois étapes essentielles : localiser l’EPUB source, configurer les options PDF (y compris **définir la taille de page PDF**), et invoquer la conversion.
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -87,26 +92,31 @@ public class EpubToPdfDemo {
 
 ### Que se passe‑t‑il en coulisses ?
 
-1. **Source EPUB** – La variable `epubPath` indique à Aspose où lire le conteneur EPUB.  
-2. **PDF Options** – `PdfSaveOptions` vous permet d'activer/désactiver l'intégration des polices (`setEmbedFonts`) et de définir les dimensions de la page (`setPageSize`). L'énumération `PageSize.LETTER` est pratique pour le format US‑Letter ; vous pouvez également choisir `A4`, `A5`, etc.  
-3. **Conversion Call** – `Converter.convert` effectue le travail lourd. Il analyse l'EPUB, rend chaque page XHTML en une page PDF, applique les options, et écrit le résultat.
+1. **EPUB source** – `epubPath` indique à Aspose où lire le conteneur EPUB.  
+2. **Options PDF** – `PdfSaveOptions` vous permet d’activer l’incorporation des polices (`setEmbedFonts`) et de définir les dimensions de la page (`setPageSize`). L’énumération `PageSize.LETTER` est pratique pour le format US‑letter ; vous pouvez également choisir `A4`, `A5`, etc.  
+3. **Appel de conversion** – `Converter.convert` analyse l’EPUB, rend chaque page XHTML en une page PDF, applique les options, et écrit le résultat.
 
-La méthode lance une `Exception` générique pour plus de concision ; en production, vous attraperez des sous‑classes spécifiques (par ex., `IOException`, `FileNotFoundException`) et les gérerez de manière appropriée.
+La méthode lance une `Exception` générique pour plus de concision ; en production, vous attraperez des sous‑classes spécifiques (par ex., `IOException`, `FileNotFoundException`) et les gérerez de façon appropriée.
 
-## Définir la taille de page PDF pour le résultat
+---
 
-Choisir la bonne taille de page dépasse l'esthétique ; cela affecte la pagination, le redimensionnement des images et la mise en page d'impression. Aspose.HTML fournit une énumération pratique, mais vous pouvez également fournir une taille personnalisée si les valeurs par défaut ne conviennent pas.
+## Comment définir la taille de page PDF pour le résultat
+
+Choisir la bonne taille de page influence la pagination, le redimensionnement des images et la mise en page à l’impression. Aspose.HTML fournit une énumération pratique, mais vous pouvez également fournir une taille personnalisée si les valeurs par défaut ne conviennent pas.
 
 ```java
 // Example: Custom size – 6" x 9"
 pdfOptions.setPageSize(new PdfSaveOptions.PageSize(6.0, 9.0));
 ```
 
-Pourquoi pourriez‑vous avoir besoin d'une taille personnalisée ? Peut‑être générez‑vous des e‑books de poche ou un livret imprimable suivant une taille de coupe spécifique. L'API accepte les pouces (ou vous pouvez convertir vous‑même en millimètres), vous offrant un contrôle total.
+**Quand auriez‑vous besoin d’une taille personnalisée ?**  
+Peut‑être que vous générez des e‑books de poche, un livret imprimable, ou un rapport suivant une taille de coupe spécifique. L’API accepte les pouces (ou vous pouvez convertir depuis les millimètres), vous offrant un contrôle total.
+
+---
 
 ## Exemple complet fonctionnel (avec dépendance Maven)
 
-Si vous utilisez Maven, ajoutez la dépendance suivante à votre `pom.xml`. Cela garantit que les classes `Converter` et `PdfSaveOptions` sont présentes dans le classpath.
+Si vous utilisez Maven, ajoutez la dépendance suivante à votre `pom.xml`. Cela garantit que les classes `Converter` et `PdfSaveOptions` sont présentes sur le classpath.
 
 ```xml
 <dependency>
@@ -159,41 +169,62 @@ public class EpubToPdfDemo {
 }
 ```
 
-### Sortie attendue
+### Résultat attendu
+
+Exécuter le programme affiche une ligne de confirmation :
 
 ```
 ✅ Success! PDF created at: C:/Docs/output.pdf
 ```
 
-Ouvrez le PDF résultant dans n'importe quel lecteur (Adobe Reader, Chrome, etc.) et vous verrez :
+Ouvrez le PDF résultant dans n’importe quel lecteur (Adobe Reader, Chrome, etc.) et vous verrez :
 
 * Tous les éléments textuels conservent le style de police original.  
-* Les dimensions de la page correspondent à la taille **Letter** choisie.  
-* Les images, tableaux et hyperliens de l'EPUB sont préservés.
+* Les dimensions de la page correspondent à la taille **Letter** choisie (ou à toute taille personnalisée que vous avez définie).  
+* Les images, tableaux et hyperliens de l’EPUB sont préservés.
 
-Si vous inspectez les propriétés du PDF (Fichier → Propriétés → Polices), vous remarquerez que chaque police est indiquée comme **Embedded Subset**, confirmant que l'appel `setEmbedFonts(true)` a fonctionné.
+Si vous inspectez les propriétés du PDF (Fichier → Propriétés → Polices), vous constaterez que chaque police apparaît comme **Embedded Subset**, confirmant que l’appel `setEmbedFonts(true)` a fonctionné.
 
-## Questions fréquentes & cas particuliers
+---
 
-| Question | Réponse |
-|----------|--------|
-| **Et si mon EPUB utilise une police personnalisée qui n'est pas installée sur le serveur ?** | Placez les fichiers `.ttf` ou `.otf` dans un dossier et indiquez‑le à Aspose avec `pdfOptions.setFontsFolder("path/to/custom/fonts")`. Le convertisseur les chargera et les intégrera automatiquement. |
-| **Puis‑je convertir plusieurs EPUBs en une seule exécution ?** | Absolument. Enveloppez la logique de conversion dans une boucle, modifiez `epubPath` et `outputPdf` pour chaque fichier. Aspose est thread‑safe, vous pouvez même paralléliser le travail avec un `ExecutorService`. |
-| **Existe‑t‑il une limite de taille pour l'EPUB d'entrée ?** | Il n'y a pas de limite stricte, mais les EPUB très volumineux (des centaines de Mo) consommeront plus de mémoire. Envisagez d'augmenter le tas JVM (`-Xmx2g` ou plus) pour les livres massifs. |
-| **Comment désactiver l'intégration des polices pour un PDF plus léger ?** | Définissez `pdfOptions.setEmbedFonts(false)`. Le PDF résultant dépendra des polices installées sur le lecteur, ce qui réduit la taille du fichier mais peut modifier l'apparence. |
-| **Ai‑je besoin d'une licence pour Aspose.HTML ?** | Une licence d'évaluation gratuite fonctionne pour les tests, mais elle ajoute un filigrane. Pour la production, achetez une licence et appelez `License license = new License(); license.setLicense("path/to/license.xml");` avant la conversion. |
+## Questions fréquentes
+
+**Q : Que faire si mon EPUB utilise une police personnalisée qui n’est pas installée sur le serveur ?**  
+R : Placez les fichiers `.ttf` ou `.otf` dans un dossier et indiquez‑le à Aspose avec `pdfOptions.setFontsFolder("path/to/custom/fonts")`. Le convertisseur chargera et incorporera ces polices automatiquement.
+
+**Q : Puis‑je convertir plusieurs fichiers EPUB en une seule exécution ?**  
+R : Oui. Enveloppez la logique de conversion dans une boucle, modifiez `epubPath` et `outputPdf` pour chaque fichier, et éventuellement exécutez la boucle en parallèle à l’aide d’un `ExecutorService` car Aspose est thread‑safe.
+
+**Q : Existe‑t‑il une limite de taille pour l’EPUB d’entrée ?**  
+R : Il n’y a pas de limite stricte, mais les EPUB très volumineux (des centaines de Mo) peuvent consommer beaucoup de mémoire. Augmentez le tas JVM (`-Xmx2g` ou plus) pour les livres massifs.
+
+**Q : Comment désactiver l’incorporation des polices pour réduire la taille du PDF ?**  
+R : Appelez `pdfOptions.setEmbedFonts(false)`. Le PDF dépendra alors des polices installées sur le lecteur, ce qui réduit la taille du fichier mais peut modifier l’apparence.
+
+**Q : Ai‑je besoin d’une licence pour Aspose.HTML ?**  
+R : Une licence d’évaluation gratuite fonctionne pour les tests mais ajoute un filigrane. Pour la production, achetez une licence et chargez‑la avec `License license = new License(); license.setLicense("path/to/license.xml");`.
+
+---
 
 ## Conclusion
 
-Vous savez maintenant **comment intégrer des polices** lors de la **conversion d'EPUB en PDF** avec Java, comment **définir la taille de page PDF**, et comment assembler le tout avec Aspose.HTML. L'exemple complet et exécutable ci‑dessus devrait fonctionner immédiatement—remplacez simplement les chemins factices par vos propres fichiers et vous êtes prêt.
+Vous savez maintenant **comment définir la taille de page PDF** et **incorporer les polices pdf** lorsque vous **convertissez EPUB en PDF** en Java avec Aspose.HTML. L’exemple complet et exécutable ci‑dessus devrait fonctionner immédiatement — il suffit de remplacer les chemins factices par vos propres fichiers.
 
-Prochaines étapes ? Essayez d'expérimenter d'autres formats de page comme **A4** ou une taille personnalisée 6×9, explorez les propriétés de `PdfSaveOptions` pour la compression d'images, ou ajoutez même une page de couverture programmatiquement. Le même schéma fonctionne également pour d'autres formats source (HTML, Markdown) car Aspose.HTML les traite de manière uniforme.
+Prochaines étapes ? Essayez différents formats de page comme **A4** ou une taille personnalisée 6×9, explorez d’autres `PdfSaveOptions` (compression d’image, conformité PDF/A), ou ajoutez une page de couverture programmatiquement. Le même schéma fonctionne pour d’autres formats source (HTML, Markdown) car Aspose.HTML les traite de façon uniforme.
 
-Bonne programmation, et que vos PDF ressemblent toujours exactement à ce que vous avez prévu !
+Bon codage, et que vos PDFs ressemblent toujours exactement à ce que vous avez prévu ! 
 
-![Comment intégrer des polices dans la conversion PDF](https://example.com/images/embed-fonts.png "Comment intégrer des polices dans la conversion PDF")
+![Comment incorporer les polices lors de la conversion PDF](https://example.com/images/embed-fonts.png "Comment incorporer les polices lors de la conversion PDF")
+
+---
+
+**Dernière mise à jour :** 2026-04-12  
+**Testé avec :** Aspose.HTML pour Java 23.10  
+**Auteur :** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

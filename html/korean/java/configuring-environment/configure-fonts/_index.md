@@ -1,10 +1,15 @@
 ---
-date: 2026-02-04
-description: Aspose.HTML를 사용하여 글꼴을 구성하고, 사용자 정의 CSS를 적용하며, 임시 라이선스를 사용하고, Java에서 HTML을
-  PDF로 변환하는 방법을 배워보세요.
-linktitle: Configure Fonts in Aspose.HTML
+date: 2026-04-05
+description: HTML에서 PDF를 생성하고, 글꼴을 구성하며, 사용자 정의 CSS를 적용하고, 임시 라이선스를 사용하며, Aspose.HTML을
+  사용하여 Java에서 HTML을 PDF로 변환하는 방법을 배웁니다.
+keywords:
+- generate pdf from html
+- convert html pdf java
+- add custom fonts pdf
+- fonts not showing pdf
+linktitle: Aspose.HTML에서 글꼴 구성
 second_title: Java HTML Processing with Aspose.HTML
-title: Aspose.HTML를 사용하여 HTML‑to‑PDF Java에서 글꼴을 구성하는 방법
+title: 'HTML에서 PDF 생성: Aspose.HTML for Java를 사용한 글꼴 설정'
 url: /ko/java/configuring-environment/configure-fonts/
 weight: 11
 ---
@@ -13,46 +18,50 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.HTML을 사용한 HTML‑to‑PDF Java 폰트 구성
+# HTML‑to‑PDF Java용 Aspose.HTML에서 글꼴 구성
 
 ## 소개
-이 튜토리얼에서는 **Aspose.HTML**을 사용하여 Java에서 HTML-to-PDF 변환을 구성하는 방법을 알아봅니다. HTML 문서를 보관할 때 참고할 내용을 설정하면 생성된 PDF의 원본 웹 페이지와 정확히 동일하게 표시되어 유명한 색상, 타이포그래피 및 표시를 볼 수 있습니다. 토론, 청구서 또는 기타 문서 생성 파이프라인을 구성하는 데 적합하고 적절한 구성 요소는 PDF를 만드는 핵심 요소입니다. 환경 준비부터 사용자 정의와 CSS를 적용한 HTML → PDF 변환까지 전체 작업을 살펴보겠습니다.
+이 튜토리얼에서는 Aspose.HTML을 사용하여 **HTML에서 PDF 생성**하는 방법과 Java에서 HTML‑to‑PDF 변환을 위한 글꼴 구성을 배우게 됩니다. HTML 문서를 작업할 때 올바른 글꼴을 설정하면 생성된 PDF가 원본 웹 페이지와 정확히 동일하게 표시되어 브랜드 색상, 타이포그래피 및 레이아웃을 유지합니다. 보고서, 청구서 또는 기타 문서 생성 파이프라인을 구축하든, 적절한 글꼴 구성이 전문적인 PDF를 만드는 핵심입니다. 환경 준비부터 사용자 정의 글꼴 및 CSS를 사용한 HTML을 PDF로 변환하는 전체 과정을 단계별로 살펴보겠습니다.
 
 ## 빠른 답변
-- **이 튜토리얼의 주요 목적은 무엇입니까? **Aspose.HTML을 사용하여 Java에서 HTML-to-PDF 변환 시 변환을 구성합니다.
-- **어떤 클래스가 변신을 담당하는건가요?**Aspose.HTML for Java (`Converter` 클래스).
-- **라이센스가 필요합니까?**임시 Aspose 권위를 적용하면 평가를 제한합니다. 에서는 행정이 필요합니다.
-- **사용자 정의는 앞으로 나아갈 것인가?**`FontsLookupFolder`에 지정된 폴더에 따라야 합니다. 예: 프로젝트 옆에 있는 `fonts`에 있습니다.
-- **PDF 출력 옵션을 커스터마이즈할 수 있나요?**예—`PdfSaveOptions`를 크기로, 여백 등을 시작할 수 있습니다.
+- **이 튜토리얼의 주요 목적은 무엇인가요?** Aspose.HTML을 사용하여 Java에서 HTML‑to‑PDF 변환을 위한 글꼴을 구성합니다.  
+- **변환을 처리하는 라이브러리는 무엇인가요?** Aspose.HTML for Java (`Converter` 클래스).  
+- **라이선스가 필요합니까?** 임시 Aspose 라이선스를 사용하면 평가 제한이 해제됩니다; 프로덕션에서는 정식 라이선스가 필요합니다.  
+- **사용자 정의 글꼴은 어디에 배치해야 하나요?** `FontsLookupFolder`에서 참조하는 폴더에 배치합니다. 예: 프로젝트 옆에 있는 `fonts` 디렉터리.  
+- **PDF 출력물을 사용자 정의할 수 있나요?** 예—`PdfSaveOptions`를 사용하여 페이지 크기, 여백 등을 조정합니다.
 
-## 글꼴 구성을 위해 Aspose.HTML을 사용하는 방법
-아래에서는 컴포넌트 처리가 왜 중요한지, 사용자 정의 CSS 적용 방법, 그리고 **임시 인스턴스**를 관리하는 전체 기능을 테스트하는 방법을 설명합니다.
+## **generate PDF from HTML**이란 무엇이며 글꼴 구성이 왜 중요한가요?
+**generate PDF from HTML** 프로세스는 HTML 문서를 PDF 페이지로 렌더링합니다. 글꼴은 레이아웃, 줄 간격 및 시각적 정확도에 영향을 미치기 때문에 렌더링의 핵심 요소입니다. Aspose.HTML에 사용자 정의 글꼴 폴더를 지정하면 PDF가 웹 페이지에 설계한 정확한 서체를 사용하도록 하여 대체 글꼴을 없애고 브랜드 일관성을 유지합니다.
 
-## 전제 조건
-시작하기 전에 다음 항목을 준비하세요:
+## 글꼴 구성을 위해 Aspose.HTML를 사용하는 이유
+- **정확한 렌더링:** CSS2.1 및 다수의 CSS3 기능을 지원하므로 HTML이 PDF에서도 동일하게 표시됩니다.  
+- **크로스‑플랫폼:** Java 1.8+를 실행하는 모든 OS에서 작동합니다.  
+- **라이선스 유연성:** 임시 라이선스로 테스트한 후 프로덕션에서는 정식 라이선스로 전환합니다.  
+- **성능:** 복잡한 페이지에서도 빠른 변환을 제공합니다.
 
-1. **JDK(Java Development Kit) 1.8+** – 최신 JDK에서 모두 동작합니다.
-2. **Aspose.HTML for Java** – 최신 JAR 파일을 [Aspose 웹사이트](https://releases.aspose.com/html/java/)에서 다운로드하세요.
-3. **IDE** – IntelliJ IDEA, Eclipse 또는 Java 호환 편집기.
-4. **기본 Java 지식** – 클래스, 메소드, 파일 I/O에 대기해야 합니다.
-5. **Aspose.HTML 라이선스** – [임시권](https://purchase.aspose.com/temporary-license/)을 적용하면 평가 제한이 됩니다.
+## 사전 요구 사항
+1. **Java Development Kit (JDK) 1.8+** – 코드는 최신 JDK에서 실행됩니다.  
+2. **Aspose.HTML for Java** – 최신 JAR 파일을 [Aspose 웹사이트](https://releases.aspose.com/html/java/)에서 다운로드하십시오.  
+3. **IDE** – IntelliJ IDEA, Eclipse 또는 Java와 호환되는 편집기.  
+4. **Basic Java knowledge** – 클래스, 메서드 및 파일 I/O에 익숙해야 합니다.  
+5. **Aspose.HTML license** – [임시 라이선스](https://purchase.aspose.com/temporary-license/)를 사용하면 평가 제한이 해제됩니다.
 
 ## 패키지 가져오기
-먼저 필요한 핵심 Java 및 Aspose.HTML 클래스를 가져옵니다.  
+먼저, 필요한 핵심 Java 및 Aspose.HTML 클래스를 가져옵니다.  
 
 ```java
 import java.io.IOException;
 ```
 
-이 임포트문을 통해 파일 처리와 Aspose.HTML API에 접근할 수 있습니다.
+이러한 import는 파일 처리와 Aspose.HTML API에 대한 접근을 제공합니다.
 
-## **html to pdf java**란 무엇이며 글꼴 구성이 왜 중요한가요?
-**html to pdf java** 프로세스는 HTML 문서를 PDF로 전송합니다. 레이아웃은 레이아웃, 모듈 처리 및 참여에 큰 영향을 미치는 요소입니다. Aspose.HTML에 사용자 정의 폴더를 사용하면 PDF가 웹 페이지에서 설계되어 사용자가 쉽게 사용할 수 있게 되어 대신 발생하지 않고 일관성을 유지할 수 있습니다.
+## 사용자 정의 글꼴을 추가하여 PDF 생성
+아래에서는 글꼴 처리의 중요성, 사용자 정의 CSS 적용 방법, 그리고 솔루션을 테스트하는 동안 전체 기능을 활성화하기 위해 **임시 라이선스를 사용하는 방법**을 설명합니다.
 
 ## 단계별 가이드
 
 ### 1단계: HTML 콘텐츠 만들기
-먼저 PDF로 변환할 수 있는 HTML 파일을 생성합니다.
+먼저, 나중에 PDF로 변환할 간단한 HTML 파일을 생성합니다.
 
 #### 1.1 HTML 코드 작성
 ```java
@@ -60,63 +69,63 @@ String code = "<h1>FontsSettings property</h1>\r\n" +
     "<p>The FontsSettings property is used for configuration of fonts handling.</p>\r\n";
 ```
 
-#### 1.2 HTML을 파일로 저장
+이 스니펫은 헤더와 단락을 정의합니다. 추가 스타일을 테스트하려면 HTML에 더 많은 요소를 자유롭게 추가하세요.
+
+#### 1.2 HTML을 파일에 저장
 ```java
 try (java.io.FileWriter fileWriter = new java.io.FileWriter("user-agent-fontsetting.html")) {
     fileWriter.write(code);
 }
 ```
 
-`FileWriter`가 문자열을 프로젝트 폴더의 `user-agent-fontsetting.html` 파일에 기록합니다. 이 단계가 끝나면 처리할 물리적인 HTML 파일이 준비됩니다.
+`FileWriter`는 문자열을 프로젝트 폴더의 `user-agent-fontsetting.html` 파일에 씁니다. 이 단계가 끝나면 처리할 실제 HTML 파일이 준비됩니다.
 
 ### 2단계: Aspose.HTML 환경 구성
-이제 Aspose.HTML `Configuration` 객체를 설정해 HTML 렌더링 방식을 제어합니다.
+이제 HTML 렌더링 방식을 제어할 수 있는 Aspose.HTML `Configuration` 객체를 설정합니다.
 
-#### 2.1 구성 인스턴스 생성
+#### 2.1 Configuration 인스턴스 생성
 ```java
 com.aspose.html.Configuration configuration = new com.aspose.html.Configuration();
 ```
 
-`Configuration` 객체는 폰트 처리 및 사용자 에이전트 동작과 같은 렌더링 옵션을 커스터마이즈하는 진입점입니다.
+`Configuration` 객체는 글꼴 처리 및 사용자 에이전트 동작과 같은 렌더링 옵션을 사용자 정의할 수 있는 진입점입니다.
 
-#### 2.2 사용자 에이전트 서비스 액세스
+#### 2.2 User Agent 서비스 접근
 ```java
 com.aspose.html.services.IUserAgentService userAgent = configuration.getService(com.aspose.html.services.IUserAgentService.class);
 ```
 
-`IUserAgentService`는 스타일시트, 폰트 및 기타 렌더링 세부 정보를 관리합니다. 여기서 사용자 정의 CSS를 주입하고 폰트 폴더를 지정합니다.
+`IUserAgentService`는 스타일 시트, 글꼴 및 기타 렌더링 세부 정보를 관리합니다. 이를 사용하여 사용자 정의 CSS를 주입하고 글꼴 폴더를 지정합니다.
 
-### 3단계: 사용자 지정 스타일 및 글꼴 적용
-환경이 준비되었으니 이제 CSS 규칙을 추가하고 Aspose.HTML이 폰트를 찾을 위치를 지정합니다.
+### 3단계: 사용자 정의 스타일 및 글꼴 적용
+환경이 준비되었으므로 이제 CSS 규칙을 추가하고 Aspose.HTML에 글꼴 위치를 알려줄 수 있습니다.
 
-#### 3.1 사용자 지정 CSS 설정
+#### 3.1 사용자 정의 CSS 설정
 ```java
 userAgent.setUserStyleSheet("h1 { color:#a52a2a; }\r\n" +
     "p { color:grey; }\r\n");
 ```
 
-이 CSS는 헤더를 갈색, 본문을 회색으로 색칠합니다. 여기서 원하는 모든 유효한 CSS 규칙을 추가할 수 있습니다—Aspose.HTML은 CSS2.1 전체와 다수의 CSS3 기능을 지원합니다. *(이는 **apply custom css**의 예시입니다.)*
+이 CSS는 헤더를 갈색, 단락을 회색으로 색칠합니다. 여기에서 유효한 CSS 규칙을 자유롭게 추가할 수 있습니다—Aspose.HTML은 전체 CSS2.1 사양과 다수의 CSS3 기능을 지원합니다. *(이는 **apply custom css**의 예시입니다.)*
 
-#### 3.2 사용자 지정 글꼴 폴더 지정
+#### 3.2 사용자 정의 글꼴 폴더 지정
 ```java
 userAgent.getFontsSettings().setFontsLookupFolder("fonts");
 ```
 
-프로젝트 루트에 `fonts`라는 폴더를 만들고 그 안에 사용하려는 `.ttf` 또는 `.otf` 파일을 넣으세요. Aspose.HTML은 렌더링 중에 자동으로 이 폰트를 로드합니다.
+사용하려는 `.ttf` 또는 `.otf` 파일을 프로젝트 루트에 있는 `fonts` 폴더에 넣으세요. Aspose.HTML은 렌더링 중에 이러한 글꼴을 자동으로 로드합니다.
 
-> **Pro tip:** 여러 폰트 패밀리가 있는 경우 서브 폴더로 정리하고, 각 상위 폴더를 세미콜론(`;`)으로 구분된 리스트에 추가해 `FontsLookupFolder`에 지정하세요.
+> **Pro tip:** 여러 글꼴 패밀리가 있는 경우 하위 폴더에 정리하고 각 상위 폴더를 세미콜론으로 구분된 목록으로 `FontsLookupFolder`에 추가하세요.
 
-### 4단계: 구성이 포함된 HTML 문서 불러오기
-앞서 만든 HTML 파일을 사용자 정의 구성과 함께 로드합니다.
-
+### 4단계: Configuration을 사용하여 HTML 문서 로드
 ```java
 com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument("user-agent-fontsetting.html", configuration);
 ```
 
-이제 `HTMLDocument` 객체가 스타일이 적용된 HTML을 나타내며 변환 준비가 완료되었습니다.
+`HTMLDocument` 객체는 이제 변환 준비가 된 스타일이 적용된 HTML을 나타냅니다.
 
 ### 5단계: HTML을 PDF로 변환
-마지막으로 **aspose html pdf conversion**을 수행해 사용자 정의 폰트와 스타일을 반영한 PDF 파일을 생성합니다.
+마지막으로 **aspose html pdf conversion**을 수행하여 사용자 정의 글꼴 및 스타일을 반영한 PDF 파일을 생성합니다.
 
 ```java
 com.aspose.html.converters.Converter.convertHTML(
@@ -126,10 +135,10 @@ com.aspose.html.converters.Converter.convertHTML(
 );
 ```
 
-`PdfSaveOptions` 객체를 사용해 페이지 크기, 압축, 메타데이터 등 출력 설정을 조정할 수 있습니다. 기본 옵션만으로도 기본 변환은 문제없이 동작합니다.
+`PdfSaveOptions` 객체를 사용하면 페이지 크기, 압축 및 메타데이터와 같은 출력 설정을 조정할 수 있습니다. 기본 변환의 경우 기본 옵션이 완벽하게 작동합니다.
 
 ### 6단계: 리소스 정리
-특히 장시간 실행되는 애플리케이션에서 메모리 누수를 방지하려면 리소스를 적절히 해제해야 합니다.
+적절한 해제는 특히 장시간 실행되는 애플리케이션에서 많은 문서를 처리할 때 메모리 누수를 방지합니다.
 
 #### 6.1 HTMLDocument 해제
 ```java
@@ -138,7 +147,7 @@ if (document != null) {
 }
 ```
 
-#### 6.2 구성 해제
+#### 6.2 Configuration 해제
 ```java
 if (configuration != null) {
     configuration.dispose();
@@ -147,39 +156,37 @@ if (configuration != null) {
 
 이 호출들은 Aspose.HTML이 할당한 네이티브 리소스를 해제합니다.
 
-## 일반적인 문제 및 솔루션
-| 이슈 | 솔루션 |
+## 일반적인 문제 및 해결책
+| Issue | Solution |
 |-------|----------|
-| **글꼴이 표시되지 않음** | `fonts` 폴더가 참조되고 있는지 확인하려면 `.ttf`/`.otf` 파일이 포함되어 있는지 확인하세요. 프로젝트 외부에 폴더가 있는 경우에는 반대하는 것을 사용합니다. |
-| **PDF가 공백으로 보입니다** | HTML 파일 경로를 확인하고 파일을 찾을 수 있는지 확인하세요. `Configuration`을 통해 `HTMLDocument`를 생성하여 전달하도록 하겠습니다. |
-| **라이센스 예외** | Aspose API를 호출하기 전에 임시로 권한을 적용하세요. 권위 파일을 클래스에 따라 `License License = new License(); License.setLicense("Aspose.Total.Java.lic");`로 로드됩니다. |
-| **예기치 않은 CSS 렌더링** | Aspose.HTML은 대부분의 CSS를 지원하지만 최신 기능(예: CSS Grid)은 지원하지 않을 수도 있습니다. 스타일을 바꾸거나 지원하는 CSS 속성을 사용하세요. |
+| **글꼴이 표시되지 않음** | `fonts` 폴더가 올바르게 참조되고 유효한 `.ttf`/`.otf` 파일이 포함되어 있는지 확인하십시오. 폴더가 프로젝트 디렉터리 외부에 있으면 절대 경로를 사용하세요. |
+| **PDF가 빈 화면으로 표시됨** | HTML 파일 경로가 올바르고 파일을 읽을 수 있는지 확인하십시오. `HTMLDocument` 생성자에 `Configuration` 객체가 전달되었는지 확인하세요. |
+| **라이선스 예외** | Aspose API를 호출하기 전에 임시 또는 정식 Aspose 라이선스를 적용하십시오. 라이선스 파일을 클래스패스에 두고 `License license = new License(); license.setLicense("Aspose.Total.Java.lic");`와 같이 로드합니다. |
+| **예상치 못한 CSS 렌더링** | Aspose.HTML은 대부분의 CSS를 지원하지만 모든 최신 기능(예: CSS Grid)은 지원하지 않습니다. 스타일을 단순화하거나 지원되는 CSS 속성을 사용하십시오. |
 
 ## 자주 묻는 질문
 
-**Q: Java용 Aspose.HTML에서 어떤 글꼴이든 사용할 수 있나요?**
-A: 예, 모든 TrueType(`.ttf`) 또는 OpenType(`.otf`)을 지원하는 데 사용할 수 있습니다. `FontsLookupFolder`에 경계 폴더에 파일을 허용하는 것이 좋습니다.
+**Q: Aspose.HTML for Java에서 어떤 글꼴이든 사용할 수 있나요?**  
+A: 예, 운영 체제에서 지원하는 모든 TrueType(`.ttf`) 또는 OpenType(`.otf`) 글꼴을 사용할 수 있습니다. `FontsLookupFolder`에 지정한 폴더에 파일을 넣기만 하면 됩니다.
 
-**Q: Java용 Aspose.HTML을 사용하려면 라이선스가 필요합니까?**
-A: 인스턴스 보기판으로 사용할 수 있지만, [임시 Aspose 인스턴스](https://purchase.aspose.com/temporary-license/)를 적용하면 평가 제한이 됩니다. 에서는 행정이 필요합니다.
+**Q: Aspose.HTML for Java를 사용하려면 라이선스가 필요합니까?**  
+A: 라이선스 없이도 라이브러리를 평가할 수 있지만, [임시 Aspose 라이선스](https://purchase.aspose.com/temporary-license/)를 사용하면 평가 제한이 해제됩니다. 프로덕션에서는 정식 라이선스가 필요합니다.
 
-**Q: PDF 출력을 어떻게 사용자 정의할 수 있나요?**
-A: `convertHTML`에 구성 `PdfSaveOptions`를 제공하면 됩니다. 페이지 크기, 여백, 압축 수준 등을 접근할 수 있습니다.
+**Q: PDF 출력물을 어떻게 사용자 정의할 수 있나요?**  
+A: 구성된 `PdfSaveOptions` 인스턴스를 `convertHTML`에 전달하십시오. 페이지 크기, 여백, 압축 수준 등을 설정할 수 있습니다.
 
-**Q: 더 복잡한 CSS 스타일을 적용할 수 있나요?**
-A: 예, Aspose.HTML은 광범위한 CSS를 지원합니다. 복잡한 선택자, 미디어 쿼리, 의사 클래스 등 브라우저와 동일하게 동작하지만 최신 CSS3/4 기능 중 일부는 완전 지원이 가능합니다.
+**Q: 더 복잡한 CSS 스타일을 적용할 수 있나요?**  
+A: 예, Aspose.HTML은 다양한 CSS를 지원합니다. 복잡한 선택자, 미디어 쿼리, 의사 클래스는 브라우저와 동일하게 작동하지만 일부 최신 CSS3/4 기능은 완전히 지원되지 않을 수 있습니다.
 
-**Q: 더 많은 예제와 문서는 어디에서 찾을 수 있나요?**
-A: 공식 [Java 문서 페이지용 Aspose.HTML](https://reference.aspose.com/html/java/)에서 섹션 API와 추가 코드 샘플을 확인하세요.
+**Q: 더 많은 예제와 문서는 어디서 찾을 수 있나요?**  
+A: 자세한 API 레퍼런스와 추가 코드 샘플은 공식 [Aspose.HTML for Java 문서 페이지](https://reference.aspose.com/html/java/)를 방문하십시오.
 
-**Q: 임시 Aspose 라이선스는 변환에 어떤 영향을 미치나요?**
-A: 임시 기능은 평가 모드에서 10페이지 제한과 워터 마크를 포함하여 **aspose html pdf 변환**으로 표시 플로어를 완벽하게 테스트할 수 있게 되었습니다.
+**Q: 임시 Aspose 라이선스가 변환에 어떤 영향을 미치나요?**  
+A: 임시 라이선스는 평가 모드에서 나타나는 10페이지 제한 및 워터마크를 해제하여 **aspose html pdf conversion** 워크플로를 완전히 테스트할 수 있게 합니다.
 
----
-
-**최종 업데이트:** 2026-02-04
-**테스트 대상:** Java 24.12용 Aspose.HTML(작성 당시 최신)
-**저자:** Aspose  
+**마지막 업데이트:** 2026-04-05  
+**테스트 환경:** Aspose.HTML for Java 24.12 (latest at time of writing)  
+**작성자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

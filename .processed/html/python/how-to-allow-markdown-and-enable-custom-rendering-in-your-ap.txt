@@ -1,0 +1,7 @@
+Title: How to allow markdown and enable custom rendering in your application
+Slug: how-to-allow-markdown-and-enable-custom-rendering-in-your-ap
+Category: general
+ProcessedDate: 2026-11-14T21:29:15.351562
+SourceRepo: AI Search API
+Keywords: how to allow markdown, convert using markdown, custom markdown rendering
+PRNumber: 323

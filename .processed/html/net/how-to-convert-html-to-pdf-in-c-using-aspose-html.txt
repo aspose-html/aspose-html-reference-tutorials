@@ -1,0 +1,7 @@
+Title: How to convert HTML to PDF in C# using Aspose.HTML
+Slug: how-to-convert-html-to-pdf-in-c-using-aspose-html
+Category: html-extensions-and-conversions
+ProcessedDate: 2026-09-23T10:15:08.951155
+SourceRepo: AI Search API
+Keywords: convert html to pdf, save html as pdf, render html as pdf, html to pdf c#, set font style pdf
+PRNumber: 272

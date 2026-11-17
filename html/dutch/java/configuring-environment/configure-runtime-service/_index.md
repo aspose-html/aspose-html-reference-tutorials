@@ -1,11 +1,57 @@
 ---
-date: 2026-02-10
-description: Leer hoe u een time‑out instelt in Aspose.HTML voor Java, configureer
-  de Runtime Service om HTML naar PNG te converteren, voorkom oneindige lussen en
-  verbeter de prestaties.
-linktitle: Configure Runtime Service in Aspose.HTML
+date: 2026-05-14
+description: Leer hoe je een time-out instelt in Aspose.HTML for Java, de Runtime
+  Service configureert voor html-naar-png-conversie, oneindige lussen voorkomt en
+  de prestaties verbetert.
+keywords:
+- html to png conversion
+- convert html to png
+- java html processing
+- prevent infinite loops java
+- control script execution
+linktitle: Runtime Service configureren in Aspose.HTML
+schemas:
+- author: Aspose
+  dateModified: '2026-05-14'
+  description: Learn how to set timeout in Aspose.HTML for Java, configure the Runtime
+    Service for html to png conversion, prevent infinite loops, and boost performance.
+  headline: How to Set Timeout for html to png conversion in Aspose.HTML for Java
+    Runtime Service
+  type: TechArticle
+- description: Learn how to set timeout in Aspose.HTML for Java, configure the Runtime
+    Service for html to png conversion, prevent infinite loops, and boost performance.
+  name: How to Set Timeout for html to png conversion in Aspose.HTML for Java Runtime
+    Service
+  steps:
+  - name: '**Java Development Kit (JDK)** – install it from [Oracle''s website](https://www.oracle.com/java/technologies/javase-downloads.html).'
+    text: '**Java Development Kit (JDK)** – install it from [Oracle''s website](https://www.oracle.com/java/technologies/javase-downloads.html).'
+  - name: '**Aspose.HTML for Java Library** – grab the newest build from the [Aspose
+      releases page](https://releases.aspose.com/html/java/).'
+    text: '**Aspose.HTML for Java Library** – grab the newest build from the [Aspose
+      releases page](https://releases.aspose.com/html/java/).'
+  - name: '**IDE** – IntelliJ IDEA, Eclipse, or NetBeans will work fine.'
+    text: '**IDE** – IntelliJ IDEA, Eclipse, or NetBeans will work fine.'
+  - name: '**Basic Java & HTML knowledge** – essential for following the code snippets.'
+    text: '**Basic Java & HTML knowledge** – essential for following the code snippets.'
+  type: HowTo
+- questions:
+  - answer: It lets you control script execution time, helping to **prevent infinite
+      loops** and keep conversions responsive.
+    question: What is the purpose of the Runtime Service in Aspose.HTML for Java?
+  - answer: Get the latest version from the [releases page](https://releases.aspose.com/html/java/).
+    question: How can I download Aspose.HTML for Java?
+  - answer: Yes, disposing releases native resources and prevents memory leaks.
+    question: Is it necessary to dispose of the `document` and `configuration` objects?
+  - answer: Absolutely – change the `TimeSpan.fromSeconds()` argument to whatever
+      limit fits your scenario.
+    question: Can I set the JavaScript timeout to a value other than 5 seconds?
+  - answer: Visit the [Aspose.HTML forum](https://forum.aspose.com/c/html/29) for
+      community and staff assistance.
+    question: Where can I find help if I run into issues?
+  type: FAQPage
 second_title: Java HTML Processing with Aspose.HTML
-title: Hoe stel je een time‑out in voor Aspose.HTML voor Java Runtime Service
+title: Hoe time-out instellen voor html-naar-png-conversie in Aspose.HTML for Java
+  Runtime Service
 url: /nl/java/configuring-environment/configure-runtime-service/
 weight: 14
 ---
@@ -14,38 +60,40 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hoe stel je een timeout in voor Aspose.HTML voor Java Runtime Service
+# Hoe stel je een time-out in voor html to png conversion in Aspose.HTML voor Java Runtime Service
 
-## Inleiding
-Als je op zoek bent naar **how to set timeout** voor scripts bij het werken met Aspose.HTML voor Java, ben je hier aan het juiste adres. Het beheersen van scriptuitvoering voorkomt niet alleen oneindige lussen, maar helpt je ook **convert html to png** sneller uit te voeren en je applicatie responsief te houden. In deze tutorial lopen we de exacte stappen door om de Runtime Service te configureren, scriptuitvoering te beperken, en uiteindelijk een PNG‑afbeelding van HTML te produceren zonder dat je programma vastloopt.
-
-## Hoe stel je een timeout in voor Aspose.HTML Runtime Service
-Het begrijpen van het doel van de Runtime Service maakt het makkelijker in te zien waarom een timeout essentieel is. De service fungeert als een sandbox voor client‑side code, waardoor je de mogelijkheid krijgt om runaway JavaScript te stoppen voordat het alle CPU‑cycli verbruikt. Door een timeout in te stellen bescherm je je server tegen denial‑of‑service‑scenario's en zorg je ervoor dat **html to png conversion** binnen een voorspelbare tijd wordt voltooid.
+## Introductie
+Als je een **time-out wilt instellen** voor scripts bij het werken met Aspose.HTML voor Java, ben je hier aan het juiste adres. Het beheersen van scriptuitvoering voorkomt niet alleen oneindige lussen, maar versnelt ook de **html to png conversion** en houdt je applicatie responsief. In deze tutorial lopen we stap voor stap door hoe je de Runtime Service configureert, de scriptuitvoering beperkt en uiteindelijk een PNG‑afbeelding uit HTML genereert zonder dat je programma vastloopt.
 
 ## Snelle antwoorden
-- **Wat doet de Runtime Service?** Het laat je de scriptuitvoeringstijd controleren en resources beheren tijdens het verwerken van HTML.  
-- **Hoe stel je een timeout in voor JavaScript?** Gebruik `runtimeService.setJavaScriptTimeout(TimeSpan.fromSeconds(...))`.  
-- **Kan ik oneindige lussen voorkomen?** Ja – de timeout stopt lussen die de gedefinieerde limiet overschrijden.  
-- **Heeft dit invloed op HTML‑to‑PNG conversie?** Nee, de conversie gaat door zodra het script eindigt of wordt beëindigd door de timeout.  
-- **Welke Aspose.HTML‑versie is vereist?** De nieuwste release van de Aspose‑downloadpagina.  
+- **Wat doet de Runtime Service?** Het stelt je in staat de scriptuitvoeringstijd te beheersen en bronnen te beheren tijdens het verwerken van HTML.  
+- **Hoe stel je een time-out in voor JavaScript?** Haal `IRuntimeService` op uit de configuratie en roep `setJavaScriptTimeout(TimeSpan.fromSeconds(...))` aan.  
+- **Kan ik oneindige lussen voorkomen?** Ja – de time-out stopt lussen die de gedefinieerde limiet overschrijden.  
+- **Heeft dit invloed op html to png conversion?** Nee, de conversie gaat door zodra het script is voltooid of door de time-out is beëindigd.  
+- **Welke versie van Aspose.HTML is vereist?** De nieuwste release van de Aspose‑downloads pagina.
+
+## Hoe stel je een time-out in voor html to png conversion in Aspose.HTML Runtime Service
+Laad de Runtime Service, definieer een `TimeSpan` (bijv. 5 seconden) met `TimeSpan.fromSeconds`, en pas deze toe via `setJavaScriptTimeout`. Dit beperkt de JavaScript‑uitvoering, stopt uit de hand gelopen lussen en zorgt ervoor dat de conversie voorspelbaar eindigt zonder onbeperkte CPU‑bronnen te verbruiken, terwijl typische scripts nog steeds volledig kunnen draaien.
 
 ## Vereisten
-Voordat we in de details duiken, zorg ervoor dat je het volgende hebt:
+Voordat we in de details duiken, zorg dat je het volgende hebt:
 
 1. **Java Development Kit (JDK)** – installeer deze vanaf [Oracle's website](https://www.oracle.com/java/technologies/javase-downloads.html).  
 2. **Aspose.HTML for Java Library** – download de nieuwste build van de [Aspose releases page](https://releases.aspose.com/html/java/).  
-3. **IDE** – IntelliJ IDEA, Eclipse of NetBeans werken prima.  
-4. **Basic Java & HTML knowledge** – essentieel om de code‑fragmenten te volgen.
+3. **IDE** – IntelliJ IDEA, Eclipse of NetBeans werkt prima.  
+4. **Basiskennis van Java & HTML** – essentieel om de code‑fragmenten te kunnen volgen.
 
-## Pakketten importeren
-Importeer eerst de klassen die je nodig hebt. De import van `java.io.IOException` is vereist voor bestandsafhandeling.
+## Importpakketten
+De import‑statements brengen de benodigde klassen uit Java en Aspose.HTML binnen, zodat bestandsafhandeling en service‑configuratie mogelijk zijn.  
+`java.io.IOException` is een uitzondering die wordt gegooid wanneer een I/O‑bewerking mislukt of wordt onderbroken.
 
 ```java
 import java.io.IOException;
 ```
 
 ## Stap 1: Maak een HTML‑bestand met JavaScript‑code
-We beginnen met het genereren van een eenvoudig HTML‑bestand dat een JavaScript‑lus bevat. Deze lus zou voor altijd blijven draaien als we geen timeout afdwingen, waardoor het een perfecte demonstratie voor de Runtime Service is.
+Een HTML‑bestand met een JavaScript‑lus maken toont een potentieel oneindig scriptscenario, dat we later zullen stoppen met een time-out.  
+`java.io.FileWriter` is een klasse voor het schrijven van tekstdocumenten naar schijf.
 
 ```java
 String code = "<h1>Runtime Service</h1>\r\n" +
@@ -56,18 +104,18 @@ try (java.io.FileWriter fileWriter = new java.io.FileWriter("runtime-service.htm
 }
 ```
 
-- Het `while(true) {}`‑script vertegenwoordigt een potentiële oneindige lus.  
+- Het script `while(true) {}` vertegenwoordigt een mogelijke oneindige lus.  
 - `FileWriter` schrijft de HTML‑inhoud naar **runtime-service.html**.
 
-## Stap 2: Maak het configuratie‑object aan
-Vervolgens maak je een `Configuration`‑instantie. Dit object vormt de ruggengraat voor alle Aspose.HTML‑services, inclusief de Runtime Service.
+## Stap 2: Stel het configuratie‑object in
+De `Configuration`‑klasse bevat instellingen voor alle Aspose.HTML‑services, inclusief de Runtime Service, en fungeert als centraal punt voor aangepaste opties.
 
 ```java
 com.aspose.html.Configuration configuration = new com.aspose.html.Configuration();
 ```
 
 ## Stap 3: Configureer de Runtime Service
-Hier stellen we daadwerkelijk **how to set timeout** in. Door de `IRuntimeService` uit de configuratie op te halen, kunnen we een JavaScript‑executielimiet definiëren.
+`IRuntimeService` biedt controle over scriptuitvoering, zoals het instellen van time-outs, om de host‑omgeving te beschermen tegen uit de hand gelopen code.
 
 ```java
 try {
@@ -75,20 +123,20 @@ try {
     runtimeService.setJavaScriptTimeout(com.aspose.html.utils.TimeSpan.fromSeconds(5));
 ```
 
-- `setJavaScriptTimeout` beperkt de scriptuitvoering tot **5 seconds**, waardoor **preventing infinite loops** effectief wordt bereikt.  
-- Dit **limits script execution** voor elke zware client‑side code.
+- `setJavaScriptTimeout` beperkt de scriptuitvoering tot **5 seconden**, waardoor **oneindige lussen** effectief worden **voorkomen**.  
+- Dit **beperkt ook de scriptuitvoering** voor zware client‑side code.
 
 ## Stap 4: Laad het HTML‑document met de configuratie
-Laad nu het HTML‑bestand met de configuratie die onze timeout‑regel bevat.
+De `Document`‑klasse laadt en vertegenwoordigt een HTML‑pagina met de toegepaste configuratie, zodat de time‑outrule wordt afgedwongen tijdens het parseren.
 
 ```java
     com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument("runtime-service.html", configuration);
 ```
 
-- Het document respecteert de eerder gedefinieerde timeout, zodat de eindeloze lus na 5 seconds wordt gestopt.
+- Het document respecteert de eerder gedefinieerde time‑out, waardoor de eindeloze lus na 5 seconden wordt gestopt.
 
 ## Stap 5: Converteer de HTML naar PNG
-Met het document veilig geladen, kunnen we **convert html to png**. De conversie vindt alleen plaats nadat het script is voltooid of door de timeout is beëindigd.
+`ImageSaveOptions` specificeert het uitvoerformaat en renderopties voor beeldconversie, waardoor een nette **html to png conversion** mogelijk is zodra het script klaar is of wordt gestopt.
 
 ```java
     com.aspose.html.converters.Converter.convertHTML(
@@ -99,10 +147,10 @@ Met het document veilig geladen, kunnen we **convert html to png**. De conversie
 ```
 
 - `ImageSaveOptions` vertelt Aspose.HTML om een PNG‑afbeelding uit te voeren.  
-- Het resulterende bestand, **runtime-service_out.png**, toont de gerenderde HTML zonder te hangen.
+- Het resulterende bestand, **runtime-service_out.png**, toont de gerenderde HTML zonder vast te lopen.
 
 ## Stap 6: Ruim bronnen op
-Tot slot, verwijder objecten om geheugen vrij te maken en lekken te voorkomen.
+Het aanroepen van `dispose()` vrijgeeft native resources die door Aspose.HTML‑objecten worden gebruikt, waardoor geheugenlekken in langdurige applicaties worden voorkomen.
 
 ```java
 } finally {
@@ -115,42 +163,42 @@ Tot slot, verwijder objecten om geheugen vrij te maken en lekken te voorkomen.
 }
 ```
 
-- Juiste opruiming is essentieel voor langdurige applicaties.
+- Correct opruimen is essentieel voor langdurige applicaties.
 
 ## Waarom dit belangrijk is
-Het instellen van een timeout is niet alleen een vangnet; het verbetert direct de betrouwbaarheid van **html to png conversion**‑pijplijnen. Wanneer je Aspose.HTML integreert in een webservice die door gebruikers gegenereerde HTML verwerkt, kan een kwaadaardig script anders een thread onbeperkt blokkeren. Een bescheiden timeout (bijv. 5 seconds) geeft legitieme scripts voldoende tijd om te draaien terwijl misbruik wordt afgesneden.
+Een time‑out beschermt je conversiepijplijn door langdurige scripts te beëindigen, waardoor thread‑blokkering wordt voorkomen en de totale verwerkingstijd wordt verminderd, vooral in multi‑tenant services. Met een limiet van 5 seconden behoud je normaal paginagedrag terwijl je misbruik of buggy scripts afsnijdt, wat leidt tot voorspelbare html to png conversion prestaties.
 
 ## Veelvoorkomende valkuilen & probleemoplossing
-- **Timeout too short** – Complexe pagina's met veel bronnen kunnen een langere limiet nodig hebben. Verhoog de `TimeSpan`‑waarde als je voortijdige beëindigingen ziet.  
-- **Missing disposal** – Het vergeten aanroepen van `dispose()` kan leiden tot native geheugenlekken, vooral bij het verwerken van veel documenten in een lus.  
-- **Incorrect configuration object** – Haal altijd de `IRuntimeService` op uit dezelfde `Configuration`‑instantie die je gebruikt om het document te laden; anders wordt de timeout niet toegepast.
+- **Time‑out te kort** – Complexe pagina’s met veel bronnen kunnen een langere limiet nodig hebben. Verhoog de `TimeSpan`‑waarde als je voortijdige beëindigingen ziet.  
+- **Ontbrekende opruiming** – Het vergeten van `dispose()` kan leiden tot native geheugenlekken, vooral bij het verwerken van veel documenten in een lus.  
+- **Onjuiste configuratie‑object** – Haal altijd de `IRuntimeService` op uit dezelfde `Configuration`‑instantie die je gebruikt om het document te laden; anders wordt de time‑out niet toegepast.
 
 ## Veelgestelde vragen
 
-**Q: Wat is het doel van de Runtime Service in Aspose.HTML voor Java?**  
-A: Het laat je de scriptuitvoeringstijd controleren, waardoor **prevent infinite loops** wordt geholpen en conversies responsief blijven.
+**V: Wat is het doel van de Runtime Service in Aspose.HTML voor Java?**  
+A: Het stelt je in staat de scriptuitvoeringstijd te beheersen, waardoor **oneindige lussen** worden **voorkomen** en conversies responsief blijven.
 
-**Q: Hoe kan ik Aspose.HTML voor Java downloaden?**  
+**V: Hoe kan ik Aspose.HTML voor Java downloaden?**  
 A: Haal de nieuwste versie op van de [releases page](https://releases.aspose.com/html/java/).
 
-**Q: Is het nodig om de `document`‑ en `configuration`‑objecten te disposen?**  
-A: Ja, disposen geeft native resources vrij en voorkomt geheugenlekken.
+**V: Is het noodzakelijk om de `document`‑ en `configuration`‑objecten te disposen?**  
+A: Ja, disposen vrijgeeft native resources en voorkomt geheugenlekken.
 
-**Q: Kan ik de JavaScript‑timeout instellen op een andere waarde dan 5 seconds?**  
-A: Zeker – wijzig het argument van `TimeSpan.fromSeconds()` naar de limiet die bij jouw scenario past.
+**V: Kan ik de JavaScript‑time‑out instellen op een andere waarde dan 5 seconden?**  
+A: Absoluut – wijzig het argument van `TimeSpan.fromSeconds()` naar de limiet die bij jouw scenario past.
 
-**Q: Waar kan ik hulp vinden als ik tegen problemen aanloop?**  
+**V: Waar kan ik hulp vinden als ik tegen problemen aanloop?**  
 A: Bezoek het [Aspose.HTML forum](https://forum.aspose.com/c/html/29) voor community‑ en staff‑ondersteuning.
 
----
+{{< blocks/products/products-backtop-button >}}
 
-**Laatst bijgewerkt:** 2026-02-10  
-**Getest met:** Aspose.HTML for Java 24.11 (latest)  
-**Auteur:** Aspose  
+## Gerelateerde tutorials
+
+- [Create HTML File Java & Set Up Network Service (Aspose.HTML)](/html/java/configuring-environment/setup-network-service/)
+- [How to Set Timeout – Manage Network Timeout in Aspose.HTML for Java](/html/java/message-handling-networking/network-timeout/)
+- [Convert HTML to PNG with Aspose.HTML for Java](/html/java/conversion-html-to-various-image-formats/convert-html-to-png/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

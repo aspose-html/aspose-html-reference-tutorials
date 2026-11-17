@@ -24,9 +24,7 @@ title: Hoe maak je een GIF van SVG – Stapsgewijze Java‑gids
 url: /nl/java/conversion-html-to-various-image-formats/how-to-create-gif-from-svg-step-by-step-java-guide/
 ---
 
-, code block placeholders, blockquotes.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

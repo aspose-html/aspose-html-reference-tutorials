@@ -24,7 +24,6 @@ title: HTML'yi PNG'ye Dönüştür – Toplu Dönüştürme Kılavuzu
 url: /tr/java/conversion-html-to-various-image-formats/convert-html-to-png-batch-conversion-guide/
 ---
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

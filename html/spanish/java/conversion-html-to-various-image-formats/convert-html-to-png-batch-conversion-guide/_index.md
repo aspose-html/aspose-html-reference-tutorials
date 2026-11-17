@@ -22,15 +22,10 @@ title: Convertir HTML a PNG – Guía de conversión por lotes
 url: /es/java/conversion-html-to-various-image-formats/convert-html-to-png-batch-conversion-guide/
 ---
 
-bullet points, etc.
 
-We must keep code block fences and placeholders unchanged.
 
-Let's produce final translation.
 
-We'll keep the shortcodes at top and bottom unchanged.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

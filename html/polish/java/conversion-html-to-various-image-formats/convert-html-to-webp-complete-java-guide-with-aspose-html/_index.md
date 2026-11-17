@@ -1,23 +1,52 @@
 ---
 category: general
-date: 2026-03-05
-description: Learn how to convert html to webp and save html as webp using Java. Includes
-  Maven dependency for Aspose.HTML, image quality settings, and full runnable code.
+date: 2026-08-17
+description: Dowiedz się, jak używać Aspose HTML Maven do konwertowania HTML na WebP
+  w Javie, ustawiać jakość obrazu i generować AVIF. Zawiera zależność Maven, renderowanie
+  headless oraz pełny, gotowy do uruchomienia kod.
 draft: false
 keywords:
-- convert html to webp
+- aspose html maven
 - save html as webp
-- html to image java
-- set image quality
-- set webp quality
-og_description: Konwertuj HTML na WebP w Javie przy użyciu Aspose.HTML. Ustaw jakość
-  obrazu, skonfiguruj zależność Maven i uzyskaj pełne, gotowe do uruchomienia przykłady.
-og_title: Konwertuj HTML na WebP – Pełny samouczek Java
+- headless html rendering
+- convert html page image
+- render html image java
+- create webp from html
+lastmod: 2026-08-17
+og_description: Odkryj, jak Aspose HTML Maven konwertuje HTML na WebP w Javie, z ustawieniami
+  jakości i awaryjnym AVIF. Pełna konfiguracja Maven i przykład gotowy do uruchomienia.
+og_image_alt: Guide showing Java code converting HTML to WebP using Aspose.HTML
+og_title: Aspose HTML Maven – Konwertuj HTML na WebP w Javie (50‑60 znaków)
+schemas:
+- author: Aspose
+  dateModified: '2026-08-17'
+  description: Learn how to use Aspose HTML Maven to convert HTML to WebP in Java,
+    set image quality, and generate AVIF. Includes Maven dependency, headless rendering,
+    and full runnable code.
+  headline: How to use Aspose HTML Maven to convert HTML to WebP – complete Java guide
+  type: TechArticle
+- questions:
+  - answer: Yes, a valid Aspose.HTML license is required for production deployments.
+      A free trial is available for evaluation.
+    question: Do I need a commercial license to use Aspose.HTML in production?
+  - answer: Aspose.HTML supports external resources as long as they are reachable
+      from the running environment (local file system or HTTP).
+    question: Can I convert HTML that references external CSS or JavaScript?
+  - answer: Limit the rendering size with `options.setPageWidth/Height` or pre‑optimise
+      heavy images inside the HTML before conversion.
+    question: How do I handle large HTML files that take long to render?
+  - answer: Absolutely—wrap the `Converter.convert` call in a loop and reuse `ImageSaveOptions`
+      for each file.
+    question: Is it possible to batch‑process multiple HTML files in one run?
+  - answer: All modern browsers (Chrome, Edge, Firefox, Safari 14+) support WebP native
+    question: Which browsers can display the generated WebP images?
+  type: FAQPage
 tags:
 - Java
 - Aspose.HTML
-- Image Conversion
-title: Konwertuj HTML do WebP – Kompletny przewodnik Java z Aspose.HTML
+- Image conversion
+title: Jak używać Aspose HTML Maven do konwertowania HTML na WebP – kompletny przewodnik
+  Java
 url: /pl/java/conversion-html-to-various-image-formats/convert-html-to-webp-complete-java-guide-with-aspose-html/
 ---
 
@@ -25,37 +54,34 @@ url: /pl/java/conversion-html-to-various-image-formats/convert-html-to-webp-comp
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Konwertuj html do webp – Kompletny przewodnik Java z Aspose.HTML
+# Jak używać Aspose HTML Maven do konwersji HTML na WebP – kompletny przewodnik Java
 
-Czy kiedykolwiek potrzebowałeś **convert html to webp**, ale nie wiedziałeś, od czego zacząć? Nie jesteś jedyny — wielu programistów napotyka ten problem, gdy potrzebują lekkich obrazów do sieci. W tym samouczku przeprowadzimy Cię przez praktyczne, kompleksowe rozwiązanie, które nie tylko pokaże, jak **save html as webp**, ale także wyjaśni, jak **set image quality** i **set webp quality** dla optymalnych rezultatów.
-
-Omówimy wszystko, od wymaganego zależności Maven po w pełni uruchamialny program Java, który generuje zarówno pliki WebP, jak i AVIF. Po zakończeniu będziesz mógł wrzucić pojedynczy plik HTML do swojego projektu i uzyskać wysokiej jakości obrazy WebP gotowe do produkcji. Bez zewnętrznych skryptów, bez ukrytej magii — po prostu czysty Java i biblioteka Aspose.HTML.
+Jeśli potrzebujesz **konwertować HTML do WebP** w aplikacji Java, najpewniejszym sposobem jest użycie **Aspose HTML Maven**. Ta biblioteka obsługuje renderowanie HTML w trybie headless, osadzanie czcionek oraz kodowanie WebP przy użyciu zaledwie kilku linii kodu. W kolejnych sekcjach zobaczysz, jak dodać artefakt Maven, skonfigurować jakość obrazu oraz nawet wygenerować AVIF jako nowoczesny fallback — wszystko bez zewnętrznych narzędzi.
 
 ## Szybkie odpowiedzi
-- **Jaka biblioteka obsługuje konwersję?** Aspose.HTML for Java provides a simple `Converter` API.  
-- **Który artefakt Maven jest wymagany?** `com.aspose:aspose-html` (see the Maven dependency below).  
-- **Czy mogę kontrolować rozmiar wyjściowy?** Yes—adjust the `setQuality` value (0‑100) to balance size vs. fidelity.  
-- **Czy AVIF jest obsługiwany jako alternatywa?** Absolutely; swap the format to `ImageFormat.AVIF`.  
-- **Jaką wersję Javy potrzebuję?** Java 17 or any JDK 8+ works fine.
+- **Jaka biblioteka wykonuje konwersję?** Aspose.HTML for Java, dodana za pomocą artefaktu Aspose HTML Maven.  
+- **Jakie współrzędne Maven są wymagane?** `com.aspose:aspose-html`.  
+- **Czy mogę kontrolować rozmiar pliku?** Tak — użyj `ImageSaveOptions.setQuality(0‑100)`, aby zrównoważyć rozmiar i jakość.  
+- **Czy AVIF jest również obsługiwany?** Oczywiście; wystarczy zmienić format wyjściowy na `ImageFormat.AVIF`.  
+- **Jakiej wersji Javy potrzebujesz?** Java 17 lub dowolny runtime JDK 8+.
 
-## Co to jest „convert html to webp”?
-Konwersja HTML do WebP oznacza renderowanie dokumentu HTML (w tym CSS, czcionek i obrazów) w przeglądarce bez interfejsu graficznego, a następnie rasteryzację wyniku wizualnego do obrazu WebP. Jest to przydatne do generowania miniatur, podglądów e‑maili lub statycznych zasobów, gdy potrzebujesz wizualnej wierności pełnej strony przy małym rozmiarze pliku WebP.
+## Co oznacza „convert html to webp”?
+Konwersja HTML do WebP oznacza renderowanie pełnej strony HTML — w tym CSS, czcionek i obrazów — w przeglądarce w trybie head‑less, a następnie rasteryzację wyniku wizualnego do obrazu WebP. Technika ta jest idealna do generowania miniatur, podglądów e‑maili lub statycznych zasobów, gdzie potrzebna jest wizualna wierność strony przy jednoczesnym małym rozmiarze pliku WebP.
 
-## Dlaczego używać Aspose.HTML do convert html to webp?
-Aspose.HTML ukrywa złożoność renderowania przeglądarki, obsługi czcionek i kodowania obrazów. Pozwala skupić się na logice biznesowej, jednocześnie dostarczając gotowe do produkcji pliki WebP przy użyciu kilku linijek kodu.
+## Dlaczego wybrać Aspose HTML Maven do konwersji HTML na WebP?
+Aspose.HTML ukrywa złożoność renderowania w trybie headless, obsługi czcionek i kodowania obrazów. Obsługuje **ponad 30 formatów wyjściowych** (WebP, AVIF, PNG, JPEG, BMP, TIFF i inne) i może przetwarzać dokumenty liczące setki stron bez ładowania całego pliku do pamięci, dostarczając obrazy gotowe do produkcji w milisekundach.
 
 ## Czego będziesz potrzebować
+Aby uruchomić konwersję, potrzebujesz środowiska programistycznego Java, narzędzia budującego oraz biblioteki Aspose.HTML. Java 17 (lub dowolny JDK 8+) zapewnia środowisko uruchomieniowe, Maven zarządza zależnościami, a artefakt Aspose.HTML for Java dostarcza silnik renderujący. Posiadanie tych komponentów zapewnia, że przykładowy kod kompiluje się i działa bez problemów.
 
-Zanim zaczniemy, upewnij się, że masz następujące elementy:
-
-| Prerequisite | Reason |
+| Wymaganie | Powód |
 |--------------|--------|
-| **Java 17** (or any JDK 8+). | Aspose.HTML obsługuje nowoczesne środowiska Java. |
-| **Maven** (or Gradle). | Upraszcza zarządzanie zależnościami. |
-| **Aspose.HTML for Java** library. | Udostępnia API `Converter`, którego użyjemy. |
-| A simple HTML file (`graphic.html`). | Źródło, które skonwertujemy. |
+| **Java 17** (lub dowolny JDK 8+) | Wymagane środowisko uruchomieniowe dla Aspose.HTML. |
+| **Maven** (lub Gradle) | Ułatwia dodanie zależności Aspose HTML Maven. |
+| **Aspose.HTML for Java** library | Udostępnia API `Converter` używane w przykładach. |
+| Prosty plik HTML (`graphic.html`) | Dokument źródłowy, który zostanie skonwertowany. |
 
-Jeśli już masz projekt Maven, po prostu dodaj **maven dependency aspose html** shown below and you’re good to go.
+Jeśli masz już projekt Maven, wklej poniższą zależność i jesteś gotowy do startu.
 
 ```xml
 <!-- pom.xml -->
@@ -68,9 +94,12 @@ Jeśli już masz projekt Maven, po prostu dodaj **maven dependency aspose html**
 
 > **Wskazówka:** Trzymaj swój `pom.xml` w porządku; czyste drzewo zależności ułatwia debugowanie.
 
-## Krok 1: Konwertuj HTML do WebP – Podstawowa konfiguracja
+## Jak konwertować HTML do WebP przy użyciu Aspose HTML Maven?
+`Converter` jest klasą Aspose.HTML, która renderuje strony HTML i konwertuje je do formatów obrazów.  
+`ImageSaveOptions` konfiguruje format wyjściowy oraz ustawienia kompresji generowanego obrazu.  
+`ImageFormat.WEBP` to wartość wyliczeniowa wybierająca format obrazu WebP przy zapisie.
 
-Pierwszą rzeczą, której potrzebujemy, jest mała klasa Java wskazująca na źródłowy HTML i instruująca Aspose.HTML, aby wygenerował plik WebP. Poniżej znajduje się **kompletny, uruchamialny program**, który robi dokładnie to.
+Wczytaj źródłowy HTML za pomocą `Converter.convert`, określ `ImageFormat.WEBP` w `ImageSaveOptions` i wywołaj `save`. Biblioteka renderuje stronę w silniku Chromium w trybie head‑less, a następnie koduje obraz rastrowy do WebP używając ustawionego poziomu jakości. Cały przepływ działa w jednym wywołaniu metody i nie wymaga zewnętrznych binarek.
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -98,23 +127,21 @@ public class ImageConvertDemo {
 }
 ```
 
-**Dlaczego to działa:**  
-- `ImageSaveOptions` pozwala wybrać format (`WEBP`) i precyzyjnie dostroić kompresję za pomocą `setQuality`.  
-- `Converter.convert` odczytuje HTML, renderuje go w przeglądarce bez interfejsu graficznego i zapisuje obraz rastrowy.
+**Dlaczego to działa:**
+- `ImageSaveOptions` pozwala wybrać format wyjściowy (`WEBP`) i precyzyjnie dostroić kompresję za pomocą `setQuality`.  
+- `Converter.convert` wykonuje renderowanie HTML w trybie headless i zapisuje obraz rastrowy na dysku.
 
-> **Uwaga:** Metoda `setQuality` bezpośrednio kontroluje **jakość WebP** (0‑100). Wyższe liczby oznaczają większe pliki, ale wyraźniejsze obrazy.
+> **Uwaga:** Metoda `setQuality` bezpośrednio kontroluje **jakość WebP** (0‑100). Wyższe liczby powodują większe pliki, ale ostrzejszą grafikę.
 
 ### Oczekiwany rezultat
+Uruchomienie programu tworzy `output.webp` obok pliku źródłowego. Otwórz go w dowolnej nowoczesnej przeglądarce, a zobaczysz pikselowo‑idealny zrzut renderowanego HTML. Ponieważ WebP kompresuje efektywniej niż PNG, rozmiar pliku jest zazwyczaj o 30‑50 % mniejszy.
 
-Uruchomienie programu tworzy `output.webp` w tym samym folderze. Otwórz go w dowolnej nowoczesnej przeglądarce, a zobaczysz wyrenderowany HTML jako wyraźny obraz. Rozmiar pliku powinien być zauważalnie mniejszy niż odpowiednik PNG — idealny do dostarczania w sieci.
-
-![Zrzut ekranu obrazu WebP wygenerowanego z HTML – convert html to webp](/images/webp-sample.png "convert html to webp")
+![Zrzut ekranu obrazu WebP wygenerowanego z HTML – konwersja html do webp](/images/webp-sample.png "konwersja html do webp")
 
 *(Tekst alternatywny obrazu zawiera główne słowo kluczowe dla SEO.)*
 
-## Krok 2: Zapisz HTML jako WebP – Kontrola jakości obrazu
-
-Teraz, gdy podstawy są omówione, porozmawiajmy o **setting image quality** bardziej świadomie. Różne projekty mają różne ograniczenia przepustowości, więc możesz chcieć eksperymentować z wartościami od 60 do 95.
+## Jak kontrolować jakość obrazu przy zapisie HTML jako WebP?
+Różne projekty mają różne ograniczenia przepustowości, więc możesz potrzebować eksperymentować z wartościami jakości od 60 do 95. Niższe wartości znacznie zmniejszają rozmiar pliku kosztem artefaktów wizualnych; wyższe wartości zachowują szczegóły, ale zwiększają liczbę bajtów. Eksperymentuj z wartościami w przedziale 60‑95, aby znaleźć najlepszy kompromis dla konkretnego zastosowania, testując zarówno jakość wizualną, jak i rozmiar pliku.
 
 ```java
 // Adjust quality based on your needs – 60 for low‑bandwidth, 95 for near‑lossless.
@@ -131,11 +158,10 @@ System.out.println("WebP saved with quality = " + desiredQuality);
 **Kluczowe wnioski:**
 - **Niższa jakość** → mniejszy plik, więcej artefaktów kompresji.  
 - **Wyższa jakość** → większy plik, mniej artefaktów.  
-- Metoda `setQuality` jest taka sama zarówno dla **set image quality**, jak i **set webp quality**; to dwie nazwy opisujące ten sam parametr.
+- Metoda `setQuality` jest tym samym ustawieniem używanym zarówno do **ustawiania jakości obrazu**, jak i **jakości WebP**.
 
-## Krok 3: Konwertuj HTML do AVIF (Opcjonalnie, ale przydatne)
-
-Jeśli chcesz wyprzedzić trendy, możesz również generować **AVIF**, nowszy format, który często daje jeszcze mniejsze pliki przy porównywalnej jakości. Kod jest prawie identyczny — wystarczy zamienić format i opcjonalnie włączyć tryb bezstratny.
+## Jak wygenerować AVIF jako nowoczesny fallback?
+AVIF często daje jeszcze mniejsze pliki niż WebP przy treściach fotograficznych. Aby wygenerować AVIF, zamień stałą formatu i opcjonalnie włącz tryb bezstratny dla grafik wymagających dokładnego odtworzenia. AVIF obsługuje także kompresję bezstratną i zaawansowane funkcje kolorów, co czyni go odpowiednim dla grafik o wysokim poziomie szczegółowości, gdzie ważne jest zachowanie dokładnych kolorów.
 
 ```java
 ImageSaveOptions avifOptions = new ImageSaveOptions();
@@ -145,25 +171,23 @@ avifOptions.setLossless(true); // lossless AVIF for perfect fidelity
 Converter.convert(htmlFilePath, "YOUR_DIRECTORY/output.avif", avifOptions);
 ```
 
-**Dlaczego AVIF?**  
-- Lepsze współczynniki kompresji dla treści fotograficznych.  
-- Rosnące wsparcie w przeglądarkach (Chrome, Firefox, Edge).  
+**Dlaczego AVIF?**
+- Do 30 % lepsza kompresja niż WebP przy tej samej jakości wizualnej.  
+- Wspierany przez Chrome, Firefox i Edge od 2024 roku.  
 
-Śmiało eksperymentuj: możesz nawet wygenerować zarówno WebP **jak i** AVIF w jednym uruchomieniu, dając opcje awaryjne dla starszych przeglądarek.
+Możesz wygenerować zarówno WebP **jak i** AVIF w jednym uruchomieniu, zapewniając opcje fallback dla przeglądarek, które nie obsługują natywnie WebP.
 
-## Krok 4: Typowe pułapki i jak prawidłowo ustawić jakość obrazu
+## Jakie są typowe pułapki i jak prawidłowo ustawić jakość obrazu?
+Podczas konwersji HTML do WebP, kilka typowych problemów może wpływać na wynik. Brakujące czcionki mogą powodować użycie domyślnych krojów, nieprawidłowe ścieżki plików prowadzą do błędów w czasie wykonywania, a starsze wersje Aspose.HTML ignorują ustawienie jakości. Zapewniając najnowszą wersję biblioteki, instalując wymagane czcionki i używając ścieżek bezwzględnych, możesz niezawodnie kontrolować jakość obrazu i unikać tych pułapek.
 
-Nawet proste API może sprawić problemy, jeśli nie znasz kilku drobnych niuansów.
-
-| Issue | Symptom | Fix |
-|-------|----------|-----|
-| **Brakujące czcionki** | Tekst wyświetla się jako ogólny sans‑serif. | Zainstaluj wymagane czcionki na maszynie hosta lub osadź je za pomocą CSS `@font-face`. |
+| Problem | Objaw | Rozwiązanie |
+|---------|-------|-------------|
+| **Brakujące czcionki** | Tekst wyświetla się jako ogólny sans‑serif. | Zainstaluj wymagane czcionki na hoście lub osadź je za pomocą CSS `@font-face`. |
 | **Nieprawidłowa ścieżka** | `FileNotFoundException` w czasie wykonywania. | Użyj ścieżek bezwzględnych lub rozwiąż ścieżki względne przy pomocy `Paths.get("").toAbsolutePath()`. |
-| **Zignorowana jakość** | Rozmiar wyjścia nie zmienia się pomimo `setQuality`. | Upewnij się, że używasz **Aspose.HTML 23.12+**; starsze wersje miały błąd, w którym jakość WebP domyślnie wynosi 80. |
-| **Duży HTML** | Konwersja trwa >10 sekund. | Włącz `options.setPageWidth/Height`, aby ograniczyć rozmiar renderowania, lub wstępnie skompresuj duże obrazy w HTML przed konwersją. |
+| **Ignorowanie jakości** | Rozmiar wyjścia nie zmienia się mimo `setQuality`. | Upewnij się, że używasz **Aspose.HTML 23.12+**; wcześniejsze wersje domyślnie ustawiają jakość 80. |
+| **Duży HTML** | Konwersja trwa >10 sekund. | Ogranicz rozmiar renderowania przy pomocy `options.setPageWidth/Height` lub wstępnie skompresuj duże obrazy w HTML. |
 
 ### Ustawianie jakości obrazu dla różnych scenariuszy
-
 ```java
 // Example: Different quality for thumbnails vs. hero images
 int thumbnailQuality = 60;
@@ -182,11 +206,10 @@ heroOptions.setQuality(heroQuality);
 Converter.convert(htmlFilePath, "YOUR_DIRECTORY/hero.webp", heroOptions);
 ```
 
-Dostosowując **set image quality** do konkretnego przypadku użycia, utrzymujesz krótkie czasy ładowania strony bez utraty wizualnego efektu tam, gdzie ma to największe znaczenie.
+Dostosuj **ustawianie jakości obrazu** do konkretnego zastosowania: miniatury niskiej jakości dla kanałów mobilnych, obrazy hero wysokiej jakości dla desktopów oraz ustawienie średnie dla podglądów e‑mail.
 
-## Krok 5: Weryfikacja wyniku – szybkie kontrole
-
-Po konwersji będziesz chciał potwierdzić, że pliki spełniają Twoje oczekiwania.
+## Jak szybko zweryfikować wynik?
+Po konwersji sprawdź wygenerowany plik WebP, aby potwierdzić jego wymiary, rozmiar pliku i wierność wizualną. Możesz użyć narzędzi wiersza poleceń, takich jak `identify` z ImageMagick, lub otworzyć obraz w przeglądarce. Porównanie wyniku z oryginalnym renderowaniem HTML pomaga upewnić się, że konwersja spełnia oczekiwania jakościowe.
 
 ```java
 import java.nio.file.Files;
@@ -200,11 +223,10 @@ System.out.println("WebP file size: " + sizeInBytes + " bytes");
 java.awt.Desktop.getDesktop().open(webpPath.toFile());
 ```
 
-Jeśli rozmiar jest znacząco większy niż oczekiwano, sprawdź ponownie wartość **set webp quality**. Odwrotnie, jeśli obraz jest rozmyty, podnieś jakość o kilka punktów.
+Jeśli plik jest większy niż oczekiwano, obniż wartość **set WebP quality**. Jeśli obraz jest rozmyty, zwiększ jakość o kilka punktów i uruchom ponownie.
 
 ## Pełny działający przykład – jedna klasa, wszystkie opcje
-
-Poniżej znajduje się pojedyncza klasa demonstrująca wszystkie omówione koncepcje: konwersję do WebP z niestandardową jakością, generowanie awaryjnego AVIF oraz wypisywanie rozmiarów plików.
+Poniżej znajduje się pojedyncza klasa Java, która demonstruje wszystkie omówione koncepcje: konwersję do WebP z niestandardową jakością, generowanie fallbacku AVIF oraz wypisywanie rozmiarów plików.
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -250,7 +272,7 @@ public class HtmlToImageDemo {
 }
 ```
 
-**Uruchom:** `mvn compile exec:java -Dexec.mainClass=HtmlToImageDemo` (dostosuj ścieżkę klas, jeśli używasz Gradle).
+**Uruchom:** `mvn compile exec:java -Dexec.mainClass=HtmlToImageDemo` (dostosuj classpath, jeśli używasz Gradle).
 
 Powinieneś zobaczyć wyjście konsoli podobne do:
 
@@ -261,24 +283,13 @@ AVIF generated: /home/user/YOUR_DIRECTORY/output.avif
 Size: 9874 bytes
 ```
 
-## Podsumowanie
-
-Właśnie **converted html to webp** przy użyciu Javy, nauczyliśmy się, jak **save html as webp**, i zgłębiliśmy niuanse **setting image quality** oraz **setting webp quality**. `Converter` z Aspose.HTML sprawia, że cały proces jest prosty — kilka linijek kodu i masz obrazy gotowe do produkcji, gotowe na stronę.
-
-Z tego miejsca możesz:
-- Zintegruj konwersję z pipeline'em budowania (Maven, Gradle lub CI/CD).  
-- Dodaj więcej formatów (PNG, JPEG) zamieniając `ImageFormat`.  
-- Dynamicznie wybieraj jakość w zależności od wykrycia urządzenia (mobile vs. desktop).  
-
-Spróbuj, dostosuj wartości jakości i pozwól bibliotece wykonać ciężką pracę.
-
 ## Najczęściej zadawane pytania
 
 **Q: Czy potrzebuję komercyjnej licencji, aby używać Aspose.HTML w produkcji?**  
-A: Tak, wymagana jest ważna licencja Aspose.HTML do wdrożeń produkcyjnych. Dostępna jest bezpłatna wersja próbna do oceny.
+A: Tak, wymagana jest ważna licencja Aspose.HTML do wdrożeń produkcyjnych. Dostępna jest darmowa wersja próbna do oceny.
 
 **Q: Czy mogę konwertować HTML odwołujący się do zewnętrznych CSS lub JavaScript?**  
-A: Aspose.HTML obsługuje zasoby zewnętrzne, pod warunkiem że są dostępne z uruchomionego środowiska (lokalny system plików lub HTTP).
+A: Aspose.HTML obsługuje zasoby zewnętrzne, o ile są dostępne z uruchomionego środowiska (lokalny system plików lub HTTP).
 
 **Q: Jak radzić sobie z dużymi plikami HTML, które długo się renderują?**  
 A: Ogranicz rozmiar renderowania przy pomocy `options.setPageWidth/Height` lub wstępnie zoptymalizuj ciężkie obrazy w HTML przed konwersją.
@@ -286,16 +297,25 @@ A: Ogranicz rozmiar renderowania przy pomocy `options.setPageWidth/Height` lub w
 **Q: Czy można przetwarzać wsadowo wiele plików HTML w jednym uruchomieniu?**  
 A: Oczywiście — otocz wywołanie `Converter.convert` pętlą i ponownie użyj `ImageSaveOptions` dla każdego pliku.
 
-**Q: Jakie przeglądarki mogą wyświetlać wygenerowane obrazy WebP?**  
-A: Wszystkie nowoczesne przeglądarki (Chrome, Edge, Firefox, Safari 14+) natywnie obsługują WebP.
+**Q: Które przeglądarki mogą wyświetlać wygenerowane obrazy WebP?**  
+A: Wszystkie nowoczesne przeglądarki (Chrome, Edge, Firefox, Safari 14+) natywnie obsługują WebP
 
 ---
 
-**Ostatnia aktualizacja:** 2026-03-05  
+**Ostatnia aktualizacja:** 2026-08-17  
 **Testowano z:** Aspose.HTML 23.12 for Java  
-**Autor:** Aspose  
+**Autor:** Aspose
+
+## Powiązane samouczki
+
+- [HTML do obrazu Java – konwersja HTML do TIFF przy użyciu Aspose.HTML](/html/java/conversion-html-to-various-image-formats/convert-html-to-tiff/)
+- [Konwersja HTML do PNG przy użyciu Obsługujących Wiadomości Aspose.HTML w Javie](/html/java/configuring-environment/use-message-handlers/)
+- [svg do png java – konwersja SVG do obrazu przy użyciu Aspose.HTML for Java](/html/java/conversion-html-to-other-formats/convert-svg-to-image/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

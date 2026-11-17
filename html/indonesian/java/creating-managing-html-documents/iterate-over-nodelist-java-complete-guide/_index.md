@@ -23,15 +23,11 @@ title: Iterasi NodeList Java – Panduan Lengkap
 url: /id/java/creating-managing-html-documents/iterate-over-nodelist-java-complete-guide/
 ---
 
-, namespace registration, querySelectorAll, and iteration steps" translate to Indonesian: "Diagram iterasi NodeList Java yang menunjukkan langkah pemuatan, pendaftaran namespace, querySelectorAll, dan iterasi". Keep URL unchanged.
 
-Now conclusion paragraph translate.
 
-Now final.
 
-Make sure to keep code block placeholders unchanged.
 
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

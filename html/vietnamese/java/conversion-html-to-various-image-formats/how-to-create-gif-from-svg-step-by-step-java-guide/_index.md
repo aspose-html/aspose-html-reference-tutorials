@@ -23,11 +23,9 @@ title: Cách tạo GIF từ SVG – Hướng dẫn Java từng bước
 url: /vi/java/conversion-html-to-various-image-formats/how-to-create-gif-from-svg-step-by-step-java-guide/
 ---
 
-at end.
 
-Make sure to keep all placeholders unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
