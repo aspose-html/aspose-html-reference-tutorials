@@ -38,6 +38,9 @@ Aspose.HTML for .NET を .NET プロジェクトに統合するのは簡単で�
 
 ## JPG および PNG 画像を生成するチュートリアル
 
+### [How to create PNG from HTML using Aspose.HTML in C#](./how-to-create-png-from-html-using-aspose-html-in-c/)
+
+
 ### [Aspose.HTML を使用して .NET で ImageDevice によって JPG 画像を生成する](./generate-jpg-images-by-imagedevice/)
 Aspose.HTML for .NET を使用して動的な Web ページを作成する方法を学習します。このステップ バイ ステップのチュートリアルでは、前提条件、名前空間、および HTML から画像へのレンダリングについて説明します。
 ### [Aspose.HTML を使用して .NET で ImageDevice によって PNG 画像を生成する](./generate-png-images-by-imagedevice/)
