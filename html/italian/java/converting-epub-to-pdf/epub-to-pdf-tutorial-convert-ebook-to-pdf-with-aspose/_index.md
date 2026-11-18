@@ -22,9 +22,8 @@ title: 'Tutorial epub to pdf: Converti eBook in PDF con Aspose'
 url: /it/java/converting-epub-to-pdf/epub-to-pdf-tutorial-convert-ebook-to-pdf-with-aspose/
 ---
 
-keep the shortcodes at top and bottom exactly as original.
 
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

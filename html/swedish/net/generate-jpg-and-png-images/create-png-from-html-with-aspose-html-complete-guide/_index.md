@@ -21,7 +21,6 @@ title: Skapa PNG från HTML med Aspose.HTML – Komplett guide
 url: /sv/net/generate-jpg-and-png-images/create-png-from-html-with-aspose-html-complete-guide/
 ---
 
-Now produce translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

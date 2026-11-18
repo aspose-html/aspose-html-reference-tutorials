@@ -23,15 +23,10 @@ title: 'ePub zu PDF Tutorial: eBook in PDF konvertieren mit Aspose'
 url: /de/java/converting-epub-to-pdf/epub-to-pdf-tutorial-convert-ebook-to-pdf-with-aspose/
 ---
 
-instruction says translate all text content. Alt text is text content, so translate it to German. The title attribute also text, translate.
 
-We must keep URLs unchanged.
 
-Let's produce the translated content.
 
-We need to keep the shortcodes exactly as they appear.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

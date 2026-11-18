@@ -25,17 +25,11 @@ title: Как упаковать HTML в zip в C# — Полное пошаго
 url: /ru/net/working-with-html-documents/how-to-zip-html-in-c-complete-step-by-step-guide/
 ---
 
-как заархивировать html]... We'll translate.
 
-Now produce final content with same shortcodes and placeholders.
 
-Let's craft translation.
 
-Be careful with bullet points: use same bullet characters.
 
-Also blockquote: > **Prerequisites** etc.
 
-Let's produce.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

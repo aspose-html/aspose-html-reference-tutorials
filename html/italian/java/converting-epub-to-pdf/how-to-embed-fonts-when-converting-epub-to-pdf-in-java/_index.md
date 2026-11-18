@@ -1,26 +1,26 @@
 ---
 category: general
-date: 2026-01-01
-description: Come incorporare i font durante la conversione da EPUB a PDF in Java.
-  Scopri come impostare le dimensioni della pagina PDF e utilizza Aspose HTML per
-  una conversione fluida da EPUB a PDF in Java.
+date: 2026-04-12
+description: Scopri come impostare le dimensioni della pagina PDF e incorporare i
+  font quando converti EPUB in PDF in Java usando Aspose.HTML. Questa guida ti accompagna
+  passo passo nel flusso di lavoro completo da EPUB a PDF in Java.
 draft: false
 keywords:
-- how to embed fonts
-- convert epub to pdf
-- how to convert epub
 - set pdf page size
-- epub to pdf java
-language: it
-og_description: Come incorporare i font durante la conversione da EPUB a PDF in Java.
-  Questa guida ti mostra passo passo come impostare le dimensioni della pagina PDF
-  ed eseguire una conversione affidabile da EPUB a PDF in Java.
-og_title: Come incorporare i font durante la conversione da EPUB a PDF in Java
+- embed fonts pdf
+- convert epub to pdf
+- java epub to pdf
+- custom pdf page size
+og_description: Scopri come impostare la dimensione della pagina PDF e incorporare
+  i font PDF durante la conversione da EPUB a PDF in Java con Aspose.HTML.
+og_title: Imposta la dimensione della pagina PDF e incorpora i font per la conversione
+  da EPUB a PDF in Java
 tags:
 - Java
 - PDF
 - EPUB
-title: Come incorporare i font durante la conversione da EPUB a PDF in Java
+title: Imposta la dimensione della pagina PDF e incorpora i font per la conversione
+  da EPUB a PDF in Java
 url: /it/java/converting-epub-to-pdf/how-to-embed-fonts-when-converting-epub-to-pdf-in-java/
 ---
 
@@ -28,24 +28,31 @@ url: /it/java/converting-epub-to-pdf/how-to-embed-fonts-when-converting-epub-to-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Come incorporare i font durante la conversione da EPUB a PDF in Java
+# Imposta la dimensione della pagina PDF e incorpora i font per EPUB in PDF in Java
 
-Ti sei mai chiesto **come incorporare i font** in modo che il tuo PDF convertito abbia esattamente l'aspetto dell'EPUB originale? Non sei solo—molti sviluppatori incontrano il problema dei font mancanti subito dopo il primo tentativo di conversione. La buona notizia è che con Aspose.HTML per Java puoi controllare l'incorporamento dei font, la dimensione della pagina e l'intero processo di conversione con poche righe di codice.
+Se hai bisogno di **impostare la dimensione della pagina PDF** mentre **converti EPUB in PDF** e garantire che il documento risultante abbia esattamente l'aspetto della sorgente, sei nel posto giusto. In questo tutorial percorreremo un esempio Java completo, pronto per la produzione, che mostra come **incorporare i font pdf**, scegliere una **dimensione della pagina PDF personalizzata** e avviare la conversione con Aspose.HTML. Alla fine avrai un programma pronto all'uso che produce un PDF fedele ogni volta.
 
-In questo tutorial percorreremo l'intero processo di **convertire epub in pdf** usando Java, ti mostreremo come **impostare la dimensione della pagina PDF**, e spiegheremo perché l'incorporamento dei font è importante per la fedeltà cross‑platform. Alla fine avrai un programma pronto all'uso che trasforma qualsiasi file EPUB in un PDF perfettamente renderizzato, completo di font incorporati e della dimensione della pagina che scegli.
+## Risposte rapide
+- **Qual è l'obiettivo principale?** Impostare la dimensione della pagina PDF e incorporare i font durante la conversione da EPUB a PDF in Java.  
+- **Quale libreria devo usare?** Aspose.HTML per Java (disponibile versione di prova gratuita).  
+- **È necessaria una licenza per la produzione?** Sì – una licenza rimuove il watermark di valutazione.  
+- **Posso usare una dimensione della pagina personalizzata?** Assolutamente – puoi fornire dimensioni esatte o utilizzare gli enum integrati come A4, LETTER, ecc.  
+- **Quale versione di Java è richiesta?** Java 17 o superiore è consigliata.
 
-> **Prerequisiti**  
-> * Java 17 o superiore (l'API funziona anche con versioni precedenti ma 17 è l'ideale).  
-> * Libreria Aspose.HTML per Java – puoi scaricarla da Maven Central.  
-> * Un file EPUB di esempio per testare.  
+### Prerequisiti
+- Java 17+ installato.  
+- Aspose.HTML per Java aggiunto al tuo progetto (Maven, Gradle o JAR manuale).  
+- Un file EPUB che desideri trasformare.
 
-Se sei a tuo agio con Maven o Gradle, sei pronto. Altrimenti, scarica semplicemente il JAR e aggiungilo al tuo classpath—niente di che.
+> Se preferisci Gradle, sostituisci semplicemente lo snippet Maven con le coordinate Gradle equivalenti.
 
 ---
 
-## Come incorporare i font nell'output PDF
+## Perché incorporare i font in PDF?
 
-Incorporare i font garantisce che il PDF mostri la stessa tipografia su qualsiasi dispositivo, anche se il visualizzatore non ha il font originale installato. Aspose.HTML ti offre un unico interruttore per attivare questa funzionalità.
+L'incorporazione dei font fissa il design visivo dell'EPUB di origine, quindi il PDF viene visualizzato correttamente su qualsiasi dispositivo, anche se il visualizzatore non ha i caratteri originali installati. Senza l'incorporazione, i titoli potrebbero ricorrere a font predefiniti come Arial, compromettendo il layout che hai creato con cura.
+
+**Suggerimento:** Se conosci i font esatti usati nell'EPUB, indica ad Aspose una cartella che contiene quei file `.ttf` o `.otf` con `pdfOptions.setFontsFolder("path/to/fonts")`. Questo velocizza la conversione e riduce le dimensioni finali del file.
 
 ```java
 // Configure PDF save options
@@ -53,15 +60,11 @@ PdfSaveOptions pdfOptions = new PdfSaveOptions();
 pdfOptions.setEmbedFonts(true);               // <-- This line embeds all used fonts
 ```
 
-Perché è importante? Immagina di inviare un PDF a un cliente che ha solo i font di sistema predefiniti. Senza incorporamento, i titoli potrebbero ricadere su Arial o Times New Roman, rovinando il layout. Incorporando, fissi il design visivo, rendendo il PDF veramente portatile.
-
-> **Consiglio professionale:** Se conosci i font esatti usati dal tuo EPUB, puoi anche fornire una cartella di font personalizzata tramite `pdfOptions.setFontsFolder("path/to/fonts")`. Questo velocizza la conversione ed evita l'incorporamento di font non necessari.
-
 ---
 
-## Convertire EPUB in PDF in Java – Flusso di lavoro completo
+## Come convertire EPUB in PDF in Java – Flusso di lavoro completo
 
-Di seguito trovi il codice minimo, ma completo, di cui hai bisogno. Copre tre passaggi essenziali: individuare l'EPUB di origine, configurare le opzioni PDF (inclusa la dimensione della pagina) e invocare la conversione.
+Di seguito trovi il codice minimo, ma completo, di cui hai bisogno. Copre tre passaggi essenziali: individuare l'EPUB di origine, configurare le opzioni PDF (inclusa **impostazione della dimensione della pagina PDF**), e invocare la conversione.
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -89,24 +92,25 @@ public class EpubToPdfDemo {
 
 ### Cosa succede dietro le quinte?
 
-1. **EPUB di origine** – La variabile `epubPath` indica ad Aspose dove leggere il contenitore EPUB.  
-2. **Opzioni PDF** – `PdfSaveOptions` ti permette di attivare/disattivare l'incorporamento dei font (`setEmbedFonts`) e definire le dimensioni della pagina (`setPageSize`). L'enum `PageSize.LETTER` è comodo per il formato US‑letter; puoi anche scegliere `A4`, `A5`, ecc.  
-3. **Chiamata di conversione** – `Converter.convert` fa il lavoro pesante. Analizza l'EPUB, rende ogni pagina XHTML in una pagina PDF, applica le opzioni e scrive il risultato.
+1. **EPUB di origine** – `epubPath` indica ad Aspose dove leggere il contenitore EPUB.  
+2. **Opzioni PDF** – `PdfSaveOptions` consente di attivare l'incorporazione dei font (`setEmbedFonts`) e definire le dimensioni della pagina (`setPageSize`). L'enum `PageSize.LETTER` è comodo per il formato US‑letter; puoi anche scegliere `A4`, `A5`, ecc.  
+3. **Chiamata di conversione** – `Converter.convert` analizza l'EPUB, rende ogni pagina XHTML in una pagina PDF, applica le opzioni e scrive il risultato.
 
 Il metodo lancia un'`Exception` generica per brevità; in produzione dovresti catturare sottoclassi specifiche (ad esempio `IOException`, `FileNotFoundException`) e gestirle in modo appropriato.
 
 ---
 
-## Impostare la dimensione della pagina PDF per il risultato
+## Come impostare la dimensione della pagina PDF per il risultato
 
-Scegliere la giusta dimensione della pagina è più che estetica; influisce sulla paginazione, sul ridimensionamento delle immagini e sul layout di stampa. Aspose.HTML fornisce un enum comodo, ma puoi anche passare una dimensione personalizzata se i valori predefiniti non sono adatti.
+Scegliere la dimensione della pagina corretta influisce sulla paginazione, sul ridimensionamento delle immagini e sul layout di stampa. Aspose.HTML fornisce un enum comodo, ma puoi anche passare una dimensione personalizzata se i valori predefiniti non soddisfano le tue esigenze.
 
 ```java
 // Example: Custom size – 6" x 9"
 pdfOptions.setPageSize(new PdfSaveOptions.PageSize(6.0, 9.0));
 ```
 
-Perché potresti aver bisogno di una dimensione personalizzata? Forse stai generando e‑book di dimensioni tascabili o un opuscolo stampabile che segue una dimensione di taglio specifica. L'API accetta pollici (oppure puoi usare millimetri convertendo tu stesso), offrendoti il pieno controllo.
+**Quando potresti aver bisogno di una dimensione personalizzata?**  
+Forse stai generando e‑book di dimensioni tascabili, un opuscolo stampabile o un report che segue una dimensione di taglio specifica. L'API accetta pollici (o puoi convertire da millimetri), offrendoti il pieno controllo.
 
 ---
 
@@ -122,7 +126,7 @@ Se usi Maven, aggiungi la seguente dipendenza al tuo `pom.xml`. Questo garantisc
 </dependency>
 ```
 
-**File sorgente completo (`EpubToPdfDemo.java`)**
+**Full source file (`EpubToPdfDemo.java`)**
 
 ```java
 package com.example.epubtopdf;
@@ -175,37 +179,52 @@ Eseguendo il programma stampa una riga di conferma:
 
 Apri il PDF risultante in qualsiasi visualizzatore (Adobe Reader, Chrome, ecc.) e vedrai:
 
-* Tutti gli elementi testuali mantengono lo stile del font originale.  
-* Le dimensioni della pagina corrispondono alla dimensione **Letter** scelta.  
-* Immagini, tabelle e collegamenti ipertestuali dell'EPUB sono preservati.
+* Tutti gli elementi testuali mantengono lo stile di font originale.  
+* Le dimensioni della pagina corrispondono alla dimensione **Letter** scelta (o a qualsiasi dimensione personalizzata impostata).  
+* Immagini, tabelle e collegamenti ipertestuali dall'EPUB sono preservati.
 
 Se ispezioni le proprietà del PDF (File → Proprietà → Font), noterai che ogni font è elencato come **Embedded Subset**, confermando che la chiamata `setEmbedFonts(true)` ha svolto il suo compito.
 
 ---
 
-## Domande frequenti e casi particolari
+## Domande frequenti
 
-| Question | Answer |
-|----------|--------|
-| **E se il mio EPUB utilizza un font personalizzato non installato sul server?** | Posiziona i file `.ttf` o `.otf` in una cartella e indica ad Aspose la sua posizione con `pdfOptions.setFontsFolder("path/to/custom/fonts")`. Il convertitore li caricherà e li incorporerà automaticamente. |
-| **Posso convertire più EPUB in un'unica esecuzione?** | Assolutamente. Avvolgi la logica di conversione in un ciclo, modifica `epubPath` e `outputPdf` per ogni file. Aspose è thread‑safe, quindi puoi anche parallelizzare il lavoro con un `ExecutorService`. |
-| **Esiste un limite di dimensione per l'EPUB di input?** | Non c'è un limite rigido, ma EPUB molto grandi (centinaia di MB) consumeranno più memoria. Considera di aumentare l'heap JVM (`-Xmx2g` o superiore) per libri di grandi dimensioni. |
-| **Come disabilito l'incorporamento dei font per un PDF più piccolo?** | Imposta `pdfOptions.setEmbedFonts(false)`. Il PDF risultante si baserà sui font installati nel visualizzatore, riducendo le dimensioni del file ma potenzialmente alterando l'aspetto. |
-| **È necessaria una licenza per Aspose.HTML?** | Una licenza di valutazione gratuita funziona per i test, ma aggiunge una filigrana. Per la produzione, acquista una licenza e chiama `License license = new License(); license.setLicense("path/to/license.xml");` prima della conversione. |
+**D: Cosa succede se il mio EPUB utilizza un font personalizzato che non è installato sul server?**  
+R: Posiziona i file `.ttf` o `.otf` in una cartella e indica ad Aspose il percorso con `pdfOptions.setFontsFolder("path/to/custom/fonts")`. Il convertitore caricherà e incorporerà automaticamente quei font.
+
+**D: Posso convertire più file EPUB in un'unica esecuzione?**  
+R: Sì. Avvolgi la logica di conversione in un ciclo, modifica `epubPath` e `outputPdf` per ogni file, e opzionalmente esegui il ciclo in parallelo usando un `ExecutorService` poiché Aspose è thread‑safe.
+
+**D: Esiste un limite di dimensione per l'EPUB di input?**  
+R: Non c'è un limite rigido, ma EPUB molto grandi (centinaia di MB) possono consumare molta memoria. Aumenta l'heap JVM (`-Xmx2g` o più) per libri di grandi dimensioni.
+
+**D: Come disabilito l'incorporazione dei font per ridurre le dimensioni del PDF?**  
+R: Chiama `pdfOptions.setEmbedFonts(false)`. Il PDF farà affidamento sui font installati nel visualizzatore, riducendo le dimensioni del file ma potenzialmente alterando l'aspetto.
+
+**D: È necessaria una licenza per Aspose.HTML?**  
+R: Una licenza di valutazione gratuita funziona per i test ma aggiunge un watermark. Per l'uso in produzione, acquista una licenza e caricala con `License license = new License(); license.setLicense("path/to/license.xml");`.
 
 ---
 
 ## Conclusione
 
-Ora sai **come incorporare i font** quando **converti EPUB in PDF** in Java, come **impostare la dimensione della pagina PDF**, e come assemblare il tutto con Aspose.HTML. L'esempio completo e eseguibile sopra dovrebbe funzionare subito—basta sostituire i percorsi segnaposto con i tuoi file e sei pronto.
+Ora sai **come impostare la dimensione della pagina PDF** e **incorporare i font pdf** quando **converti EPUB in PDF** in Java usando Aspose.HTML. L'esempio completo e eseguibile sopra dovrebbe funzionare subito—basta sostituire i percorsi segnaposto con i tuoi file.
 
-Prossimi passi? Prova a sperimentare con altri formati di pagina come **A4** o una dimensione personalizzata 6×9, esplora le proprietà di `PdfSaveOptions` per la compressione delle immagini, o aggiungi persino una copertina programmaticamente. Lo stesso schema funziona anche per altri formati di origine (HTML, Markdown) perché Aspose.HTML li tratta in modo uniforme.
+Prossimi passi? Prova formati di pagina diversi come **A4** o una dimensione personalizzata 6×9, esplora altre `PdfSaveOptions` (compressione immagini, conformità PDF/A), o aggiungi una pagina di copertina programmaticamente. Lo stesso schema funziona per altri formati di origine (HTML, Markdown) perché Aspose.HTML li tratta in modo uniforme.
 
-Buona programmazione, e che i tuoi PDF siano sempre esattamente come li hai immaginati! 
+Buona programmazione, e che i tuoi PDF siano sempre esattamente come li desideri! 
 
 ![Come incorporare i font nella conversione PDF](https://example.com/images/embed-fonts.png "Come incorporare i font nella conversione PDF")
 
+---
+
+**Ultimo aggiornamento:** 2026-04-12  
+**Testato con:** Aspose.HTML for Java 23.10  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

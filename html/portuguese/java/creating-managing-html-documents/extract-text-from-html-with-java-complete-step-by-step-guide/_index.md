@@ -22,7 +22,6 @@ title: Extrair texto de HTML com Java – Guia completo passo a passo
 url: /pt/java/creating-managing-html-documents/extract-text-from-html-with-java-complete-step-by-step-guide/
 ---
 
-content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

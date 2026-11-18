@@ -80,11 +80,12 @@ O processamento em lote aproveita as mesmas chamadas de API, assim você obtém 
 - **Arquivos EPUB grandes** – habilite streaming (`HtmlLoadOptions.setEnableMemoryOptimization(true)`) para manter o uso de memória baixo.  
 - **Resolução de imagem incorreta** – defina `ImageSaveOptions.setResolution(300)` para imagens de qualidade de impressão.  
 
-## Tutoriais de Conversão - EPUB para Imagem e PDF
 ### [Converter EPUB para Imagens com Aspose.HTML for Java](./convert-epub-to-image/)
 Aprenda como converter EPUB para imagem usando Aspose.HTML for Java. Um guia simples, passo a passo, para conversões eficientes.  
 ### [Conversão de EPUB para PDF com Aspose.HTML for Java](./convert-epub-to-pdf/)
 Aprenda como converter EPUB para PDF com Aspose.HTML for Java. Este guia passo a passo cobre pré‑requisitos, importações de pacotes e exemplos de código. Comece com a conversão de EPUB para PDF.
+### [Converter EPUB para PNG em Java – Definir Dimensões da Imagem](./convert-epub-to-png-in-java-set-image-dimensions/)
+Aprenda a converter EPUB para PNG em Java definindo a largura e altura das imagens geradas.
 
 ## Perguntas Frequentes
 

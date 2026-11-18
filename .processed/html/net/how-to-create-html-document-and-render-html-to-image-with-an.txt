@@ -1,0 +1,7 @@
+Title: How to create HTML document and render HTML to image with antialiasing in C#
+Slug: how-to-create-html-document-and-render-html-to-image-with-an
+Category: rendering-html-documents
+ProcessedDate: 2026-10-28T14:43:11.660765
+SourceRepo: AI Search API
+Keywords: create html document, how to enable antialiasing, render html to image, set font style italic, set font weight bold
+PRNumber: 316

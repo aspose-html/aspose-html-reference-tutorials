@@ -26,9 +26,7 @@ title: HTML'yi özel görünüm alanı ile PNG'ye nasıl render edersiniz
 url: /tr/java/conversion-html-to-various-image-formats/how-to-render-html-to-png-with-custom-viewport/
 ---
 
-.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

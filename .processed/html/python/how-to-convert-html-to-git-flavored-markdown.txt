@@ -1,0 +1,7 @@
+Title: How to convert HTML to Git‑flavored Markdown
+Slug: how-to-convert-html-to-git-flavored-markdown
+Category: general
+ProcessedDate: 2026-11-17T22:55:21.253327
+SourceRepo: AI Search API
+Keywords: how to convert html, extract headings from html, html to git markdown, convert large html
+PRNumber: 325

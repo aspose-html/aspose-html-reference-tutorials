@@ -25,9 +25,7 @@ title: Wie man CSS in Java liest – Vollständiger Leitfaden mit Aspose.HTML
 url: /de/java/css-html-form-editing/how-to-read-css-in-java-complete-guide-with-aspose-html/
 ---
 
-.
 
-Now produce final output with all translated content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

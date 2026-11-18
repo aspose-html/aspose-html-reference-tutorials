@@ -23,11 +23,8 @@ title: Comment générer une vignette à partir de HTML – Guide Java
 url: /fr/java/conversion-html-to-various-image-formats/how-to-generate-thumbnail-from-html-java-guide/
 ---
 
-**generate thumbnail** etc maybe keep the phrase but translate surrounding.
 
-Also keep "Java 17" etc.
 
-Let's produce final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

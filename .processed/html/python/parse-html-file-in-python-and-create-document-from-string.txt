@@ -1,0 +1,7 @@
+Title: Parse HTML file in Python and create document from string
+Slug: parse-html-file-in-python-and-create-document-from-string
+Category: general
+ProcessedDate: 2026-09-17T03:00:19.565067
+SourceRepo: AI Search API
+Keywords: parse html file in python, create html document from string, load html document from file, read local html file python
+PRNumber: 268

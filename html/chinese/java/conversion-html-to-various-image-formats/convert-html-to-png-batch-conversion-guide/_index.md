@@ -20,11 +20,9 @@ title: 将HTML转换为PNG – 批量转换指南
 url: /zh/java/conversion-html-to-various-image-formats/convert-html-to-png-batch-conversion-guide/
 ---
 
-content with translation.
 
-Make sure to keep all placeholders unchanged.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

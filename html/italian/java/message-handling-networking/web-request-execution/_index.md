@@ -10,25 +10,16 @@ url: /it/java/message-handling-networking/web-request-execution/
 weight: 14
 ---
 
- Aggiornamento:" maybe keep as is but translate label.
 
-**Tested With:** ... translate "Testato Con:".
 
-**Author:** Aspose keep.
 
-Then closing shortcodes.
 
-Also there is a backtop button shortcode after.
 
-We must ensure we keep all shortcodes exactly.
 
-Now produce final content.
 
-Let's craft translation.
 
-Be careful with markdown formatting.
 
-Proceed.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
