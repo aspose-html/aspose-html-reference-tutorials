@@ -352,6 +352,8 @@ Kompletní průvodce převodem HTML do PDF v Javě s podrobným nastavením a uk
 Naučte se, jak krok za krokem sledovat tutoriál pro převod HTML do PDF v Javě s Aspose.HTML.
 ### [Převod HTML souboru do PDF v Javě – krok za krokem](./convert-html-file-to-pdf-in-java-step-by-step-guide/)
 Naučte se převést HTML soubor do PDF v Javě pomocí Aspose.HTML s podrobným krok‑za‑krokem návodem.
+### [Jak převést HTML do PDF v Javě pomocí Aspose.HTML](./how-to-convert-html-to-pdf-in-java-using-aspose-html/)
+Naučte se převést HTML do PDF v Javě pomocí knihovny Aspose.HTML.
 
 ## Často kladené otázky
 
