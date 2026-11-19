@@ -55,7 +55,7 @@ tags:
 - Aspose.HTML
 - C#
 - HTML processing
-title: How to create html document from string with Aspose.HTML
+title: How to create an HTMLDocument from a string using Aspose.HTML
 url: /net/html-document-manipulation/how-to-create-html-document-from-string-with-aspose-html/
 ---
 
@@ -297,10 +297,10 @@ From here you can:
 Happy coding, and enjoy the flexibility that Aspose.HTML brings to HTML generation in C#!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
 - [Create HTML from String in C# – Custom Resource Handler Guide](/html/english/net/html-document-manipulation/create-html-from-string-in-c-custom-resource-handler-guide/)
 - [Create HTML Document with Aspose.HTML – Step‑by‑Step Guide](/html/english/net/html-document-manipulation/create-html-document-with-aspose-html-step-by-step-guide/)
