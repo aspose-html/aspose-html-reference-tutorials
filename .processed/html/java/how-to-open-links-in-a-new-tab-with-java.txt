@@ -1,0 +1,7 @@
+Title: How to open links in a new tab with Java
+Slug: how-to-open-links-in-a-new-tab-with-java
+Category: editing-html-documents
+ProcessedDate: 2026-10-28T15:25:14.241147
+SourceRepo: AI Search API
+Keywords: open links new tab, find external links, add target blank, parse html in java, save modified html
+PRNumber: 317

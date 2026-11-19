@@ -22,11 +22,9 @@ title: Aspose.HtmlでHTMLを保存する方法 – 完全なC#ガイド
 url: /ja/net/working-with-html-documents/how-to-save-html-with-aspose-html-complete-c-guide/
 ---
 
-lines. We must keep them as is.
 
-Make sure we preserve blank lines where needed.
 
-Now produce final output with all content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

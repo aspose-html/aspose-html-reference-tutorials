@@ -65,6 +65,7 @@ title: Chuyển đổi html sang png – Hướng dẫn chuyển đổi hàng lo
 url: /vi/java/conversion-html-to-various-image-formats/convert-html-to-png-batch-conversion-guide/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

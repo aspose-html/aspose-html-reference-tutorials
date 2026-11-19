@@ -25,13 +25,9 @@ title: Wie man HTML in Java zu PNG rendert – Komplettanleitung
 url: /de/java/conversion-html-to-various-image-formats/how-to-render-html-to-png-in-java-complete-guide/
 ---
 
-. We'll translate.
 
-Also the table headings "Requirement" "Reason" translate to German: "Anforderung" "Grund". Keep table formatting.
 
-Also bullet points etc.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

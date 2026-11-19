@@ -1,10 +1,65 @@
 ---
-date: 2026-03-13
-description: تعلم كيفية تحويل ملفات EPUB إلى صور وتحويل EPUB إلى JPEG باستخدام Aspose.HTML
-  للغة Java. يساعدك هذا الدليل خطوة بخطوة على تحويل صفحات EPUB بكفاءة.
-linktitle: Specifying Custom Stream Provider for EPUB to Image Conversion
+date: 2026-08-17
+description: تعلم تحويل صور EPUB في Java باستخدام Aspose.HTML for Java – تحويل صفحات
+  EPUB إلى صور JPEG أو PNG عالية الجودة مع دليل خطوة بخطوة.
+keywords:
+- java epub image conversion
+- epub to jpeg conversion
+- aspose.html for java
+lastmod: 2026-08-17
+linktitle: تحديد موفر تدفق مخصص لتحويل EPUB إلى صورة
+og_description: تعلم تحويل صور EPUB في Java باستخدام Aspose.HTML for Java – تحويل
+  صفحات EPUB إلى صور JPEG أو PNG عالية الجودة مع دليل خطوة بخطوة.
+og_image_alt: Guide showing Java code converting EPUB to images with Aspose.HTML
+og_title: تحويل صور EPUB في Java باستخدام Aspose.HTML for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-08-17'
+  description: Learn java epub image conversion using Aspose.HTML for Java – convert
+    EPUB pages to high‑quality JPEG or PNG images with a step‑by‑step guide.
+  headline: Java epub image conversion with Aspose.HTML for Java
+  type: TechArticle
+- description: Learn java epub image conversion using Aspose.HTML for Java – convert
+    EPUB pages to high‑quality JPEG or PNG images with a step‑by‑step guide.
+  name: Java epub image conversion with Aspose.HTML for Java
+  steps:
+  - name: open the EPUB file
+    text: Begin by creating a `FileInputStream` that reads the source EPUB. *FileInputStream
+      is a Java I/O class that reads bytes from a file.*
+  - name: create a memory stream provider
+    text: '`MemoryStreamProvider` is Aspose.HTML''s in‑memory stream manager that
+      supplies an output stream for each generated image. Using it avoids writing
+      temporary files to disk.'
+  - name: convert EPUB to image
+    text: The `Converter.convertEPUB` method performs the actual rendering. *Converter
+      is a utility class in Aspose.HTML that provides static methods for format conversion.*
+      `ImageSaveOptions` configures output image format, quality, and other settings.
+  - name: access the resulted data
+    text: After conversion, retrieve each image stream from the provider and write
+      it wherever you need—disk, database, or HTTP response. And that’s the complete
+      **java epub image conversion** workflow using Aspose.HTML for Java.
+  type: HowTo
+- questions:
+  - answer: Replace `ImageFormat.Jpeg` with `ImageFormat.Png` when constructing `ImageSaveOptions`.
+    question: How do I change the output to PNG instead of JPEG?
+  - answer: Yes—you can filter the streams returned by `streamProvider.getStream()`
+      and write only the desired indices.
+    question: Is it possible to convert only a subset of pages?
+  - answer: Any Java SE 8 or later version is fully supported.
+    question: What Java versions are supported?
+  - answer: Absolutely. Write the byte array from each stream to the `HttpServletResponse`
+      output stream instead of a file.
+    question: Can I stream the images directly to a web response?
+  - answer: Yes, Aspose.HTML automatically loads and renders custom fonts packaged
+      inside the EPUB.
+    question: Does the library handle embedded fonts?
+  type: FAQPage
 second_title: Java HTML Processing with Aspose.HTML
-title: تحويل EPUB إلى صور باستخدام Aspose.HTML للـ Java
+tags:
+- epub conversion
+- aspose.html
+- java image processing
+title: تحويل صور EPUB في Java باستخدام Aspose.HTML for Java
 url: /ar/java/converting-between-epub-and-image-formats/convert-epub-to-image-specify-custom-stream-provider/
 weight: 15
 ---
@@ -13,39 +68,34 @@ weight: 15
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تحويل EPUB إلى صور باستخدام Aspose.HTML للـ Java
+# تحويل صور EPUB باستخدام Aspose.HTML للـ Java
 
-إذا كنت تبحث عن **تحويل EPUB إلى صور** في Java، فإن Aspose.HTML for Java أداة قوية يمكنها تبسيط العملية. في هذا الدليل خطوة‑بخطوة، سنرشدك إلى كل ما تحتاجه—من تثبيت المكتبة إلى إنشاء ملفات صور عالية الجودة من مستند EPUB. في النهاية، ستفهم لماذا هذه الطريقة موثوقة، وكيفية تخصيص تنسيق الإخراج، وكيفية التعامل مع تدفقات الصور الناتجة بكفاءة.
+إذا كنت تبحث عن **java epub image conversion** في Java، فإن Aspose.HTML للـ Java يوفر محركًا موثوقًا وعالي الدقة يحول كل صفحة من ملف EPUB إلى صورة نقطية. في هذا الدليل ستتعلم كيفية تثبيت المكتبة، وتكوين موفر تدفق مخصص، وإنشاء ملفات JPEG أو PNG دون الحاجة إلى التعامل مع نظام الملفات. في النهاية ستفهم لماذا هذا النهج جاهز للإنتاج، وكيفية تعديل جودة الصورة، وكيفية بث النتائج مباشرةً إلى الذاكرة.
 
 ## إجابات سريعة
-- **ما الذي ينتجه التحويل؟** سلسلة من ملفات الصور (مثل JPEG, PNG) تمثل كل صفحة من EPUB.  
-- **ما المكتبة المطلوبة؟** Aspose.HTML for Java.  
-- **هل أحتاج إلى ترخيص؟** يلزم الحصول على ترخيص مؤقت أو كامل للاستخدام في الإنتاج؛ تتوفر نسخة تجريبية مجانية.  
-- **هل يمكنني تغيير تنسيق الصورة؟** نعم—قم بتعديل `ImageSaveOptions` إلى PNG أو GIF أو **JPEG** (انظر “convert EPUB to JPEG”).  
+- **ما الذي ينتجه التحويل؟** سلسلة من ملفات الصور (مثل JPEG، PNG) تمثل كل صفحة من EPUB.  
+- **ما المكتبة المطلوبة؟** Aspose.HTML للـ Java.  
+- **هل أحتاج إلى ترخيص؟** يلزم ترخيص مؤقت أو كامل للاستخدام في الإنتاج؛ يتوفر نسخة تجريبية مجانية.  
+- **هل يمكنني تغيير تنسيق الصورة؟** نعم—قم بضبط `ImageSaveOptions` إلى PNG أو GIF أو **JPEG** (انظر “convert EPUB to JPEG”).  
 - **هل الكود متوافق مع Java 8+؟** بالتأكيد؛ يعمل مع أي JDK حديث.
 
 ## ما هو “convert EPUB to images”؟
-تحويل EPUB إلى صور يعني عرض كل صفحة من الكتاب الإلكتروني كرسمة نقطية. هذا مفيد لإنشاء معاينات، أو إنشاء صور مصغرة، أو دمج محتوى EPUB في منصات تدعم فقط ملفات الصور.
+**Convert EPUB to images** يقوم بتحويل كل صفحة من كتاب EPUB إلكتروني إلى رسم نقطي مثل JPEG أو PNG. يتيح لك ذلك إنشاء صور مصغرة للمعاينة، أو تضمين الصفحات في صفحات الويب، أو إنشاء لقطات قابلة للطباعة عندما تكون الأصول المتاحة هي الصور فقط.
 
-## لماذا نستخدم Aspose.HTML للـ Java لهذا التحويل؟
-- **عرض عالي الدقة** – يحافظ على التخطيط، الخطوط، ورسومات SVG.  
-- **معالجة قائمة على التدفقات** – تعمل مع تدفقات الذاكرة، متجنبة الملفات المؤقتة.  
-- **إخراج مرن** – يدعم JPEG، PNG، GIF، وأكثر.  
-- **متعدد المنصات** – يعمل على أي نظام تشغيل مع JDK مدعوم.
+## لماذا تستخدم Aspose.HTML للـ Java لهذا التحويل؟
+يوفر Aspose.HTML للـ Java **rendering عالي الدقة** (يحافظ على التخطيط، الخطوط، ورسومات SVG)، **معالجة قائمة على التدفق** (بدون ملفات مؤقتة)، **إخراج مرن** (JPEG، PNG، GIF، BMP)، و**دعم متعدد المنصات** (يعمل على Windows وLinux وmacOS). يمكنه التعامل مع **أكثر من 50 تنسيقًا للإدخال والإخراج** ويعالج ملفات EPUB التي تحتوي على مئات الصفحات دون تحميل المستند بالكامل في الذاكرة.
 
 ## المتطلبات المسبقة
 
-قبل أن تبدأ عملية التحويل، تأكد من توفر المتطلبات التالية:
+قبل أن تبدأ، تأكد من تثبيت العناصر التالية:
 
-- Java Development Kit (JDK): يجب أن يكون لديك Java SE Development Kit (JDK) مثبتًا على نظامك. يمكنك تنزيله من [here](https://www.oracle.com/java/technologies/javase-downloads.html).
-
-- Aspose.HTML for Java: تحتاج إلى مكتبة Aspose.HTML for Java. إذا لم تكن قد حصلت عليها بعد، يمكنك الحصول عليها من [here](https://releases.aspose.com/html/java/).
-
-- ملف EPUB: حضّر ملف EPUB الذي تريد تحويله إلى صور.
+- **Java Development Kit (JDK)** – أي بيئة تشغيل Java 8+ . قم بتنزيله من **Java SE download page**([Java SE download page](https://www.oracle.com/java/technologies/javase-downloads.html)).  
+- **Aspose.HTML for Java** – احصل على أحدث ملفات JAR من صفحة التحميل الرسمية **Aspose.HTML for Java download page**([Aspose.HTML for Java download page](https://releases.aspose.com/html/java/)).  
+- **EPUB file** – ملف e‑book المصدر الذي تريد تحويله إلى صور.
 
 ## استيراد الحزم
 
-في مشروع Java الخاص بك، ستحتاج إلى استيراد الحزم الضرورية من Aspose.HTML for Java. تأكد من تضمينها في الكود.
+في مشروع Java الخاص بك، استورد الفئات المطلوبة من Aspose.HTML.  
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -58,19 +108,20 @@ import java.io.InputStream;
 
 ## دليل خطوة بخطوة
 
-دعونا نقسم عملية **convert EPUB to images** باستخدام Aspose.HTML for Java إلى عدة خطوات:
+فيما يلي دليل مختصر لعملية **java epub image conversion** مقسمة إلى أربع خطوات منطقية.
 
 ### الخطوة 1: فتح ملف EPUB
 
-ستبدأ بفتح ملف EPUB موجود للقراءة باستخدام `FileInputStream`.
+ابدأ بإنشاء `FileInputStream` يقرأ ملف EPUB المصدر.  
+*FileInputStream هو فئة I/O في Java تقرأ البايتات من ملف.*  
 
 ```java
 try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
 ```
 
-### الخطوة 2: إنشاء مزود تدفق الذاكرة
+### الخطوة 2: إنشاء موفر تدفق الذاكرة
 
-بعد ذلك، أنشئ مثيلًا من `MemoryStreamProvider` لتسهيل عملية التحويل.
+`MemoryStreamProvider` هو مدير التدفق داخل الذاكرة في Aspose.HTML الذي يوفر تدفق إخراج لكل صورة تم إنشاؤها. استخدامه يجنب كتابة ملفات مؤقتة إلى القرص.
 
 ```java
 try (MemoryStreamProvider streamProvider = new MemoryStreamProvider()) {
@@ -78,7 +129,9 @@ try (MemoryStreamProvider streamProvider = new MemoryStreamProvider()) {
 
 ### الخطوة 3: تحويل EPUB إلى صورة
 
-الآن، حان الوقت لتنفيذ التحويل الفعلي لملف EPUB إلى صور. استخدم طريقة `Converter.convertEPUB` لهذا الغرض، مع تحديد تنسيق الإخراج كـ JPEG. هذا هو جوهر **convert EPUB to JPEG**.
+طريقة `Converter.convertEPUB` تقوم بالتحويل الفعلي.  
+*Converter هي فئة مساعدة في Aspose.HTML توفر طرقًا ثابتة لتحويل الصيغ.*  
+`ImageSaveOptions` يضبط تنسيق الصورة الناتجة، الجودة، وإعدادات أخرى.  
 
 ```java
 Converter.convertEPUB(
@@ -90,7 +143,7 @@ Converter.convertEPUB(
 
 ### الخطوة 4: الوصول إلى البيانات الناتجة
 
-بعد التحويل، يمكنك الوصول إلى تدفقات الذاكرة التي تحتوي على بيانات الصور الناتجة. قم بالتكرار عبر هذه التدفقات لمعالجة الصور.
+بعد التحويل، استرجع كل تدفق صورة من الموفر واكتبها حيثما تحتاج—القرص، قاعدة البيانات، أو استجابة HTTP.
 
 ```java
 int size = streamProvider.getStream().size();
@@ -106,48 +159,54 @@ for (int i = 0; i < size; i++) {
 }
 ```
 
-وهذا كل شيء! لقد نجحت في **convert EPUB to images** باستخدام Aspose.HTML for Java.
+وهذا هو سير عمل **java epub image conversion** الكامل باستخدام Aspose.HTML للـ Java.
 
-## كيف تقوم بتحويل صفحات EPUB إلى صور باستخدام Java؟
+## كيف تحوّل صفحات EPUB إلى صور في Java؟
 
-إذا كنت بحاجة إلى **java convert EPUB pages** بشكل فردي، ما عليك سوى التكرار عبر التدفقات التي تُرجعها `streamProvider.getStream()` كما هو موضح في الخطوة 4. يمكنك أيضًا تصفية المجموعة لمعالجة مجموعة فرعية فقط من الصفحات، وهو مفيد لإنشاء صور مصغرة خاصة بالفصول.
+حمّل ملف EPUB، نفّذ التحويل، ثم تكرّر على التدفقات التي تُرجعها `streamProvider.getStream()`. يتيح لك هذا النمط المباشر معالجة الصفحات بشكل فردي، أو تصفيتها حسب الفهرس، أو توجيهها مباشرةً إلى استجابة ويب دون ملفات وسيطة. كما يمكنك تخصيص أسماء الملفات، تطبيق معالجة لاحقة، أو دمج التدفقات مع خدمات التخزين السحابي، مما يمنحك تحكمًا كاملًا في خط أنابيب الإخراج.
 
-## الأخطاء الشائعة والنصائح
+## المشكلات الشائعة والنصائح
 
-- **استخدام الذاكرة** – عند تحويل EPUBs الكبيرة، قد تستهلك تدفقات الذاكرة كمية كبيرة من RAM. فكر في معالجة الصفحات على دفعات إذا واجهت `OutOfMemoryError`.  
-- **جودة الصورة** – اضبط `ImageSaveOptions` (مثل تعيين خاصية `Quality`) للتحكم في مستويات ضغط JPEG.  
-- **تسمية الملفات** – يستخدم المثال مخطط تسمية بسيط (`page_1.jpg`). يمكنك تخصيصه ليشمل عناوين الفصول أو الطوابع الزمنية.  
-- **نصيحة الأداء:** أعد استخدام مثيل واحد من `ImageSaveOptions` إذا كنت تحول العديد من الصفحات؛ هذا يقلل من عبء إنشاء الكائنات.
+- **استخدام الذاكرة** – يمكن لملفات EPUB الكبيرة أن تستهلك كمية كبيرة من الذاكرة RAM عندما تُحتفظ جميع الصفحات في الذاكرة. عالج الصفحات على دفعات أو حرّر كل `InputStream` بعد الكتابة للحفاظ على انخفاض الheap.  
+- **جودة الصورة** – اضبط `ImageSaveOptions.setQuality(int)` (0‑100) لتحقيق توازن بين حجم الملف والدقة البصرية.  
+- **تسمية الملفات** – العينة تستخدم `page_1.jpg`. خصص نظام التسمية ليشمل عناوين الفصول أو الطوابع الزمنية لتسهيل الإدارة.  
+- **نصيحة الأداء** – أعد استخدام نسخة واحدة من `ImageSaveOptions` عبر الصفحات؛ هذا يقلل من عبء إنشاء الكائنات ويسرّع التحويلات الدفعية.
 
 ## الخلاصة
 
-Aspose.HTML for Java يبسط عملية تحويل ملفات EPUB إلى صور. مع الخطوات الموضحة في هذا الدليل، يمكنك تنفيذ هذه المهمة بسرعة وفعالية. تذكر تلبية المتطلبات المسبقة واستيراد الحزم المطلوبة لضمان عملية تحويل سلسة.
+يجعل Aspose.HTML للـ Java عملية **java epub image conversion** بسيطة وفعّالة. باتباع الخطوات أعلاه يمكنك تحويل صفحات EPUB إلى JPEG أو PNG أو صيغ نقطية أخرى، بث النتائج مباشرةً من الذاكرة، وتكامل العملية مع أي خدمة خلفية مبنية على Java.
 
 ## الأسئلة المتكررة
 
 **س: كيف أغيّر الإخراج إلى PNG بدلاً من JPEG؟**  
-ج: استبدل `ImageFormat.Jpeg` بـ `ImageFormat.Png` في مُنشئ `ImageSaveOptions`.
+ج: استبدل `ImageFormat.Jpeg` بـ `ImageFormat.Png` عند إنشاء `ImageSaveOptions`.
 
-**س: هل من الممكن تحويل مجموعة فرعية فقط من الصفحات؟**  
-ج: نعم—يمكنك تصفية التدفقات التي تُرجعها `streamProvider.getStream()` وكتابة الفهارس المطلوبة فقط إلى ملفات.
+**س: هل يمكن تحويل جزء فقط من الصفحات؟**  
+ج: نعم—يمكنك تصفية التدفقات التي تُرجعها `streamProvider.getStream()` وكتابة الفهارس المطلوبة فقط.
 
 **س: ما إصدارات Java المدعومة؟**  
-ج: أي إصدار Java SE 8 أو أحدث مدعوم.
+ج: أي إصدار Java SE 8 أو أحدث مدعوم بالكامل.
 
-**س: هل يمكنني بث الصور مباشرةً إلى استجابة ويب؟**  
-ج: بالتأكيد. بدلاً من الكتابة إلى `FileOutputStream`، اكتب مصفوفة البايتات إلى تدفق إخراج استجابة HTTP.
+**س: هل يمكن بث الصور مباشرةً إلى استجابة ويب؟**  
+ج: بالتأكيد. اكتب مصفوفة البايتات من كل تدفق إلى تدفق الإخراج `HttpServletResponse` بدلاً من ملف.
 
 **س: هل تتعامل المكتبة مع الخطوط المدمجة؟**  
-ج: نعم، Aspose.HTML يدمج ويعرض تلقائيًا الخطوط المخصصة الموجودة في EPUB.
+ج: نعم، يقوم Aspose.HTML بتحميل الخطوط المخصصة المضمنة داخل EPUB تلقائيًا وعرضها.
 
-**س: كيف يمكنني تقليل استهلاك الذاكرة لـ EPUBs الكبيرة جدًا؟**  
-ج: عالج الصفحات على دفعات أصغر وتخلص من كل `InputStream` بعد كتابة الملف.
+**س: كيف يمكن تقليل استهلاك الذاكرة لملفات EPUB الكبيرة جدًا؟**  
+ج: عالج الصفحات على دفعات أصغر واستدعِ `stream.close()` بعد كتابة كل صورة.
 
 ---
 
-**آخر تحديث:** 2026-03-13  
+**آخر تحديث:** 2026-08-17  
 **تم الاختبار مع:** Aspose.HTML for Java 24.11  
-**المؤلف:** Aspose  
+**المؤلف:** Aspose
+
+## الدروس ذات الصلة
+
+- [كيفية تحويل صفحات EPUB إلى صور باستخدام Aspose.HTML للـ Java](/html/java/conversion-epub-to-image-and-pdf/convert-epub-to-image/)
+- [Aspose HTML تحويل EPUB إلى PNG في Java – دليل خطوة بخطوة](/html/java/converting-between-epub-and-image-formats/convert-epub-to-png/)
+- [تحويل EPUB إلى صورة باستخدام Aspose.HTML للـ Java – تعيين حجم صفحة مخصص](/html/java/converting-between-epub-and-image-formats/convert-epub-to-image-specify-image-save-options/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

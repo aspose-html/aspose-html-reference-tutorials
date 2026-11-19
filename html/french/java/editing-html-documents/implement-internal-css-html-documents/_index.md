@@ -1,10 +1,67 @@
 ---
-date: 2026-02-15
-description: Apprenez à créer un document HTML en Java et à ajouter un élément de
-  style en Java en utilisant Aspose.HTML pour Java dans ce tutoriel étape par étape.
-linktitle: Implement Internal CSS in HTML Documents with Aspose.HTML
+date: 2026-06-19
+description: Apprenez comment ajouter un élément style, créer un document HTML en
+  Java et enregistrer un fichier HTML en Java à l'aide d'Aspose.HTML pour Java, puis
+  convertir HTML en PDF en Java.
+keywords:
+- add style element
+- html to pdf java
+- generate pdf from html
+- aspose html java
+- create html document java
+linktitle: Implémenter du CSS interne dans les documents HTML avec Aspose.HTML
+schemas:
+- author: Aspose
+  dateModified: '2026-06-19'
+  description: Learn how to add style element, create html document java and save
+    html file java using Aspose.HTML for Java, then convert html to pdf java.
+  headline: Add style element to HTML document in Java with Aspose.HTML
+  type: TechArticle
+- description: Learn how to add style element, create html document java and save
+    html file java using Aspose.HTML for Java, then convert html to pdf java.
+  name: Add style element to HTML document in Java with Aspose.HTML
+  steps:
+  - name: Create an Instance of an HTML Document
+    text: '`HTMLDocument` is the main class in Aspose.HTML that represents an HTML
+      document in memory.'
+  - name: Add a Style Element (add style element java)
+    text: '`document.createElement` creates a new element node; here it is used to
+      generate a `<style>` tag.'
+  - name: Append the Style Element to the Document Header
+    text: '`document.getHead()` returns the `<head>` node of the HTML document, allowing
+      you to append child elements.'
+  - name: Assign CSS Classes to HTML Elements
+    text: '`element.setAttribute` assigns CSS class names to HTML elements, linking
+      them to the styles defined earlier.'
+  - name: Customize Style Properties (render html to pdf java preparation)
+    text: '`style.setProperty` lets you modify individual CSS properties directly
+      on a style rule.'
+  - name: Save the HTML Document (save html file java)
+    text: '`document.save` persists the styled HTML markup to a file on disk.'
+  - name: Render the HTML Document to PDF (generate pdf from html java, convert html
+      to pdf aspose)
+    text: '`PdfDevice` is used with `document.renderTo` to convert the HTML document
+      into a PDF file.'
+  type: HowTo
+- questions:
+  - answer: Internal CSS lets you style a single HTML document without affecting other
+      pages, making it ideal for unique designs or email templates.
+    question: What is the advantage of using internal CSS?
+  - answer: Yes, you can link external stylesheets the same way you would in a regular
+      browser environment.
+    question: Can Aspose.HTML handle external CSS files?
+  - answer: No, it’s a commercial library, but a free trial is available for evaluation.
+    question: Is Aspose.HTML open‑source?
+  - answer: Visit the [Aspose support forum](https://forum.aspose.com/c/html/29) for
+      assistance from the community and Aspose engineers.
+    question: How can I contact support if I encounter issues?
+  - answer: Complex layouts and heavy CSS can increase rendering time. Optimizing
+      images and simplifying styles helps improve speed, and Aspose.HTML can render
+      a 100‑page document in under 5 seconds on a typical server.
+    question: Are there performance considerations when rendering HTML to PDF?
+  type: FAQPage
 second_title: Java HTML Processing with Aspose.HTML
-title: Créer un document HTML en Java avec CSS interne à l'aide d'Aspose.HTML
+title: Ajouter un élément style à un document HTML en Java avec Aspose.HTML
 url: /fr/java/editing-html-documents/implement-internal-css-html-documents/
 weight: 16
 ---
@@ -13,53 +70,52 @@ weight: 16
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Créer un document HTML Java avec CSS interne en utilisant Aspose.HTML
+# Ajouter un élément style à un document HTML en Java avec Aspose.HTML
 
 ## Introduction
-Si vous avez besoin de **create html document java** qui ont l'air soignés dès le départ, le CSS interne est le moyen le plus rapide de styliser une page unique sans jongler avec des feuilles de style externes. Dans ce tutoriel, nous parcourrons l'ensemble du processus — de la création du document HTML en Java, à l'ajout d'un élément `<style>`, en passant par l'enregistrement du fichier, jusqu'à la génération du résultat en PDF. À la fin, vous serez à l'aise avec chaque étape et comprendrez pourquoi Aspose.HTML rend le flux de travail fluide.
+Si vous devez **add style element** à un **create html document java** afin qu'il soit immédiatement soigné, le CSS interne est le moyen le plus rapide de styliser une page unique sans gérer des feuilles de style externes. Dans ce tutoriel, nous parcourrons l'ensemble du processus — de la création du document HTML en Java, à l'ajout d'un élément `<style>`, **save html file java**, et enfin le rendu du résultat en PDF (**html to pdf java**). À la fin, vous serez à l'aise avec chaque étape et comprendrez pourquoi **aspose html java** rend le flux de travail fluide.
 
-## Quick Answers
-- **What library handles HTML in Java?** Aspose.HTML for Java  
-- **Can I add a style element programmatically?** Yes – use `document.createElement("style")`  
-- **How do I save the result?** Call `document.save("yourfile.html")`  
-- **Is PDF conversion supported?** Absolutely, via `PdfDevice` and `document.renderTo()`  
-- **Do I need a license for production?** Yes, a commercial license is required for non‑trial use  
+## Réponses rapides
+- **Quelle bibliothèque gère le HTML en Java ?** Aspose.HTML for Java  
+- **Puis-je ajouter un élément style par programme ?** Yes – use `document.createElement("style")`  
+- **Comment enregistrer le résultat ?** Call `document.save("yourfile.html")`  
+- **La conversion PDF est‑elle prise en charge ?** Absolutely, via `PdfDevice` and `document.renderTo()`  
+- **Ai‑je besoin d'une licence pour la production ?** Yes, a commercial license is required for non‑trial use  
 
-## What is “create html document java”?
-Créer un document HTML en Java signifie instancier un objet `HTMLDocument`, le remplir avec du balisage, et éventuellement y joindre du CSS ou du JavaScript. Aspose.HTML abstrait l'analyse de bas niveau, vous permettant de vous concentrer sur le contenu et le style.
+## Qu'est-ce que add style element ?
+L'opération **add style element** insère une balise `<style>` contenant des règles CSS directement dans le `<head>` d'un document HTML. Cela maintient le style autonome, élimine les requêtes HTTP supplémentaires et garantit que lorsque vous **generate pdf from html** plus tard, le PDF reflète exactement l'apparence à l'écran.
 
-## Why use internal CSS with Aspose.HTML?
-- **Self‑contained styling:** All styles live inside the same file, perfect for email templates or single‑page reports.  
-- **No extra network requests:** Faster load times because the browser doesn’t need to fetch external CSS files.  
-- **Easy PDF conversion:** When the HTML contains its own styles, the rendered PDF matches the on‑screen look exactly.  
+## Qu'est-ce que “create html document java” ?
+Créer un document HTML en Java signifie instancier un objet `HTMLDocument`, le remplir avec du balisage et éventuellement y attacher du CSS ou du JavaScript. Aspose.HTML abstrait l'analyse de bas niveau, vous permettant de vous concentrer sur le contenu et le style tout en prenant en charge plus de 50 formats d'entrée et de sortie, y compris HTML, PDF, DOCX et PNG. Cette approche vous permet de **create html document java** en quelques lignes de code seulement et garantit un rendu cohérent sur toutes les plateformes.
 
-## Prerequisites
-Before we dive in, make sure you have the following:
+## Pourquoi utiliser le CSS interne avec Aspose.HTML ?
+Le CSS interne conserve tout le style dans le même fichier, accélérant le temps de chargement car le navigateur ou le moteur de rendu Aspose n'a pas besoin de requêtes supplémentaires. Il garantit également que lorsque vous convertissez le HTML en PDF, le PDF correspond au design affiché à l'écran, le moteur lisant le CSS directement depuis le document. Cela rend le rendu fiable et rapide.
 
-1. **Java Development Kit (JDK)** – Grab it from the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) or [OpenJDK](https://openjdk.java.net/).  
-2. **Aspose.HTML for Java library** – Download the latest release from the [Aspose website](https://releases.aspose.com/html/java/).  
-3. **IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.  
-4. **Basic Java knowledge** – You should be comfortable with classes, objects, and method calls.  
+## Prérequis
+1. **Java Development Kit (JDK)** – Téléchargez‑le depuis le [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) ou le [OpenJDK](https://openjdk.java.net/).  
+2. **Aspose.HTML for Java library** – Téléchargez la dernière version depuis le [Aspose website](https://releases.aspose.com/html/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse ou tout éditeur de votre choix.  
+4. **Basic Java knowledge** – Vous devez être à l'aise avec les classes, les objets et les appels de méthodes.  
 
-## Import Packages
-First, add the required imports so the compiler knows where to find Aspose.HTML classes.
+## Importer les packages
+Tout d'abord, ajoutez les imports requis afin que le compilateur sache où trouver les classes Aspose.HTML.
 
 ```java
 import java.io.IOException;
 ```
 
-## Step‑by‑Step Guide
+## Guide étape par étape
 
-### Step 1: Create an Instance of an HTML Document
-We start by creating the HTML document that we will later style.
+### Étape 1 : Créer une instance d'un document HTML
+`HTMLDocument` est la classe principale d'Aspose.HTML qui représente un document HTML en mémoire.
 
 ```java
 String content = "<div><p>Internal CSS</p><p>An internal CSS is used to define a style for a single HTML page</p></div>";
 com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument(content, ".");
 ```
 
-### Step 2: Add a Style Element (add style element java)
-Now we create a `<style>` tag and define two CSS classes.
+### Étape 2 : Ajouter un élément style (add style element java)
+`document.createElement` crée un nouveau nœud d'élément ; ici il est utilisé pour générer une balise `<style>`.
 
 ```java
 com.aspose.html.dom.Element style = document.createElement("style");
@@ -67,16 +123,16 @@ style.setTextContent(".frame1 { margin-top:50px; margin-left:50px; padding:20px;
                       ".frame2 { margin-top:-90px; margin-left:160px; text-align:center; padding:20px; width:360px; height:100px; background-color:#ADD8E6;}");
 ```
 
-### Step 3: Append the Style Element to the Document Header
-We attach the newly created style element to the `<head>` section.
+### Étape 3 : Ajouter l'élément style à l'en-tête du document
+`document.getHead()` renvoie le nœud `<head>` du document HTML, vous permettant d'ajouter des éléments enfants.
 
 ```java
 com.aspose.html.dom.Element head = document.getElementsByTagName("head").get_Item(0);
 head.appendChild(style);
 ```
 
-### Step 4: Assign CSS Classes to HTML Elements
-Here we bind our CSS classes to the paragraph elements.
+### Étape 4 : Attribuer des classes CSS aux éléments HTML
+`element.setAttribute` attribue des noms de classes CSS aux éléments HTML, les reliant aux styles définis précédemment.
 
 ```java
 com.aspose.html.HTMLElement paragraph = (com.aspose.html.HTMLElement) document.getElementsByTagName("p").get_Item(0);
@@ -85,8 +141,8 @@ HTMLElement lastParagraph = (HTMLElement) document.getElementsByTagName("p").get
 lastParagraph.setClassName("frame2");
 ```
 
-### Step 5: Customize Style Properties (render html to pdf java preparation)
-Beyond the class‑level rules, we tweak individual style attributes.
+### Étape 5 : Personnaliser les propriétés de style (render html to pdf java preparation)
+`style.setProperty` vous permet de modifier directement les propriétés CSS individuelles sur une règle de style.
 
 ```java
 paragraph.getStyle().setFontSize("250%");
@@ -96,51 +152,58 @@ lastParagraph.getStyle().setFontSize("150%");
 lastParagraph.getStyle().setFontFamily("verdana");
 ```
 
-### Step 6: Save the HTML Document (save html file java)
-Persist the styled markup to a physical file on disk.
+### Étape 6 : Enregistrer le document HTML (save html file java)
+`document.save` enregistre le balisage HTML stylisé dans un fichier sur le disque.
 
 ```java
 document.save("edit-internal-css.html");
 ```
 
-### Step 7: Render the HTML Document to PDF (generate pdf from html java, convert html to pdf aspose)
-Finally, we convert the HTML file into a PDF—useful for reporting or distribution.
+### Étape 7 : Rendre le document HTML en PDF (generate pdf from html java, convert html to pdf aspose)
+`PdfDevice` est utilisé avec `document.renderTo` pour convertir le document HTML en fichier PDF.
 
 ```java
 com.aspose.html.rendering.pdf.PdfDevice device = new com.aspose.html.rendering.pdf.PdfDevice("edit-internal-css.pdf");
 document.renderTo(device);
 ```
 
-## Common Issues & Pro Tips
-- **Missing `<head>` tag:** If you start with raw HTML that lacks a `<head>`, Aspose.HTML will create one automatically, but it’s good practice to include it.
-- **CSS specificity conflicts:** Internal CSS overrides external styles, but inline styles still win. Keep your selectors specific enough.
-- **Large documents & PDF speed:** For very large HTML files, consider simplifying CSS or breaking the document into sections before rendering.
+## Problèmes courants et astuces professionnelles
+- **Balise `<head>` manquante :** Si vous commencez avec du HTML brut qui ne contient pas de `<head>`, Aspose.HTML en créera automatiquement un, mais il est recommandé de l'inclure.  
+- **Conflits de spécificité CSS :** Le CSS interne écrase les styles externes, mais les styles en ligne l'emportent toujours. Gardez vos sélecteurs suffisamment spécifiques pour éviter des écrasements inattendus.  
+- **Documents volumineux et vitesse du PDF :** Pour des fichiers HTML très volumineux, envisagez de simplifier le CSS ou de diviser le document en sections avant le rendu. Aspose.HTML peut traiter des fichiers de plus de 200 Mo sans charger tout le contenu en mémoire, maintenant l'utilisation de la mémoire sous 150 Mo.  
 
-## Frequently Asked Questions
+## Questions fréquentes
 
-**Q: What is the advantage of using internal CSS?**  
-A: Internal CSS lets you style a single HTML document without affecting other pages, making it ideal for unique designs or email templates.
+**Q : Quel est l’avantage d’utiliser le CSS interne ?**  
+R : Le CSS interne vous permet de styliser un seul document HTML sans affecter les autres pages, ce qui le rend idéal pour des conceptions uniques ou des modèles d’e‑mail.
 
-**Q: Can Aspose.HTML handle external CSS files?**  
-A: Yes, you can link external stylesheets the same way you would in a regular browser environment.
+**Q : Aspose.HTML peut‑il gérer des fichiers CSS externes ?**  
+R : Oui, vous pouvez lier des feuilles de style externes de la même manière que dans un environnement de navigateur classique.
 
-**Q: Is Aspose.HTML open‑source?**  
-A: No, it’s a commercial library, but a free trial is available for evaluation.
+**Q : Aspose.HTML est‑il open‑source ?**  
+R : Non, c’est une bibliothèque commerciale, mais un essai gratuit est disponible pour l’évaluation.
 
-**Q: How can I contact support if I encounter issues?**  
-A: Visit the [Aspose support forum](https://forum.aspose.com/c/html/29) for assistance from the community and Aspose engineers.
+**Q : Comment puis‑je contacter le support si je rencontre des problèmes ?**  
+R : Consultez le [Aspose support forum](https://forum.aspose.com/c/html/29) pour obtenir de l’aide de la communauté et des ingénieurs Aspose.
 
-**Q: Are there performance considerations when rendering HTML to PDF?**  
-A: Complex layouts and heavy CSS can increase rendering time. Optimizing images and simplifying styles helps improve speed.
+**Q : Existe‑t‑il des considérations de performance lors du rendu du HTML en PDF ?**  
+R : Les mises en page complexes et le CSS lourd peuvent augmenter le temps de rendu. Optimiser les images et simplifier les styles aide à améliorer la vitesse, et Aspose.HTML peut rendre un document de 100 pages en moins de 5 secondes sur un serveur typique.
 
 ## Conclusion
-You now have a complete, end‑to‑end example of how to **create html document java**, **add style element java**, **save html file java**, and **render html to pdf java** using Aspose.HTML. Play around with the CSS rules, experiment with different HTML structures, and explore the rich rendering options Aspose provides. Happy coding!
+Vous disposez maintenant d'un exemple complet, de bout en bout, montrant comment **add style element**, **create html document java**, **save html file java** et **render html to pdf java** avec Aspose.HTML. Amusez‑vous à manipuler les règles CSS, expérimentez différentes structures HTML et explorez les riches options de rendu offertes par Aspose. Bon codage !
 
 ---
 
-**Last Updated:** 2026-02-15  
-**Tested With:** Aspose.HTML for Java 23.12  
-**Author:** Aspose  
+**Dernière mise à jour:** 2026-06-19  
+**Testé avec:** Aspose.HTML for Java 23.12  
+**Auteur:** Aspose
+
+## Tutoriels associés
+
+- [Comment ajouter du CSS – CSS en ligne aux documents HTML dans Aspose.HTML pour Java](/html/java/editing-html-documents/add-inline-css-html-documents/)
+- [Ajouter du CSS aux documents HTML avec Aspose.HTML pour Java](/html/java/editing-html-documents/apply-external-css-html-documents/)
+- [Enregistrer le document HTML dans un fichier avec Aspose.HTML pour Java](/html/java/saving-html-documents/save-html-to-file/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

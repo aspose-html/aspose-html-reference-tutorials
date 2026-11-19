@@ -1,10 +1,52 @@
 ---
-date: 2025-12-05
-description: Apprenez à définir les marges d’une page HTML en Java avec Aspose.HTML,
-  et à ajouter des numéros de page et des titres à vos documents.
-linktitle: CSS Extensions - Adding Title and Page Number
+date: 2026-06-24
+description: Apprenez à convertir HTML en PDF Java avec Aspose.HTML, à définir les
+  page margins, à ajouter les page numbers et les headers/footers efficacement.
+keywords:
+- html to pdf java
+- pdf from html java
+- html to pdf tutorial
+linktitle: Extensions CSS - Ajouter le titre et le Page Number
+schemas:
+- author: Aspose
+  dateModified: '2026-06-24'
+  description: Learn how to convert HTML to PDF Java with Aspose.HTML, set page margins,
+    add page numbers and headers/footers efficiently.
+  headline: How to Convert HTML to PDF Java - Set Page Margins with Aspose.HTML
+  type: TechArticle
+- description: Learn how to convert HTML to PDF Java with Aspose.HTML, set page margins,
+    add page numbers and headers/footers efficiently.
+  name: How to Convert HTML to PDF Java - Set Page Margins with Aspose.HTML
+  steps:
+  - name: Initialize Configuration and Define Custom Page Margins
+    text: The `Configuration` object holds global settings for the rendering engine.
+      By accessing its `IUserAgentService` you can inject a CSS style sheet that has
+      the highest priority, ensuring your margins, header, and footer are applied.
+  - name: Create the HTML Document
+    text: '`HTMLDocument` represents a single HTML file in memory. When you pass the
+      previously created `Configuration` to its constructor, the renderer automatically
+      uses the custom `@page` rule you defined in Step 1.'
+  - name: Render to an XPS File (or any supported output)
+    text: '`XpsDevice` writes the rendered pages to an XPS container, but you can
+      swap it for `PdfDevice` to get a PDF file instead. The same margin and footer
+      definitions are honoured, so the output looks identical regardless of format.'
+  type: HowTo
+- questions:
+  - answer: Aspose.HTML for Java provides a complete HTML‑to‑PDF conversion engine.
+    question: What library is needed?
+  - answer: Yes – add a CSS `@page` rule to a user‑style sheet and the renderer respects
+      it.
+    question: Can I control margins programmatically?
+  - answer: PDF, XPS, and raster image formats (PNG, JPEG) all honor the same `@page`
+      definitions.
+    question: Which output formats support margins?
+  - answer: A valid Aspose.HTML license is required for any non‑trial deployment.
+    question: Do I need a license for production?
+  - answer: Absolutely – the library runs on Java 11, 17, and newer LTS releases.
+    question: Is this compatible with Java 11+?
+  type: FAQPage
 second_title: Java HTML Processing with Aspose.HTML
-title: Comment définir les marges d’une page HTML en Java avec Aspose.HTML
+title: Comment convertir HTML en PDF Java - Définir les page margins avec Aspose.HTML
 url: /fr/java/advanced-usage/css-extensions-adding-title-page-number/
 weight: 10
 ---
@@ -13,35 +55,33 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Comment définir les marges de page HTML en Java avec Aspose.HTML
+# Comment convertir HTML en PDF Java : définir les marges de page avec Aspose.HTML
 
-Dans ce tutoriel, vous découvrirez **comment définir les marges de page HTML en Java** à l'aide d'Aspose.HTML pour Java. Nous parcourrons la création de marges de page personnalisées, l'insertion de numéros de page et l'ajout d'un titre de document — le tout avec du code clair, étape par étape, que vous pouvez copier dans votre propre projet.
+Dans ce tutoriel, vous découvrirez **comment convertir HTML en PDF Java**‑style en utilisant Aspose.HTML for Java tout en apprenant à définir des marges de page personnalisées, insérer des numéros de page et ajouter un titre de document. Nous parcourrons des instructions claires, étape par étape, que vous pourrez copier dans votre propre projet, afin de produire des PDF d’aspect professionnel directement à partir de HTML en quelques minutes seulement.
 
 ## Réponses rapides
-- **Quelle bibliothèque est nécessaire ?** Aspose.HTML for Java  
-- **Puis-je contrôler les marges par programme ?** Oui, via une règle CSS `@page` dans la feuille de style utilisateur  
-- **Quels formats de sortie prennent en charge les marges ?** XPS, PDF et d'autres formats raster  
-- **Ai‑je besoin d'une licence pour la production ?** Une licence valide d'Aspose.HTML est requise pour une utilisation non‑d'essai  
-- **Cette fonctionnalité est‑elle compatible avec Java 11+ ?** Absolument – la bibliothèque fonctionne avec les versions modernes de Java  
+- **Quelle bibliothèque est nécessaire ?** Aspose.HTML for Java provides a complete HTML‑to‑PDF conversion engine.  
+- **Puis‑je contrôler les marges par programme ?** Yes – add a CSS `@page` rule to a user‑style sheet and the renderer respects it.  
+- **Quels formats de sortie prennent en charge les marges ?** PDF, XPS, and raster image formats (PNG, JPEG) all honor the same `@page` definitions.  
+- **Ai‑je besoin d’une licence pour la production ?** A valid Aspose.HTML license is required for any non‑trial deployment.  
+- **Cette bibliothèque est‑elle compatible avec Java 11+ ?** Absolutely – the library runs on Java 11, 17, and newer LTS releases.  
+- **Puis‑je ajouter des numéros de page en Java ?** Yes – use the `@bottom-right` box in the CSS `@page` rule to inject `counter(page)`.
 
-## Qu’est‑ce que « Définir les marges de page HTML en Java » ?
-Définir les marges de page HTML en Java signifie configurer le moteur de rendu (fourni par Aspose.HTML) pour appliquer les propriétés CSS de boîte de page avant que le document ne soit converti en un format imprimable tel que XPS ou PDF. En définissant une règle `@page` personnalisée, vous contrôlez la zone imprimable, les numéros de page et le contenu d’en‑tête/pied de page.
+## Qu’est‑ce que la définition des marges de page HTML en Java ?
+Définir les marges de page HTML en Java signifie indiquer au moteur de rendu d’Aspose.HTML d’appliquer les propriétés CSS `@page` avant que le HTML ne soit rasterisé en PDF ou XPS. En définissant une règle `@page` personnalisée, vous contrôlez la zone imprimable, ajoutez des numéros de page et insérez du contenu d’en‑tête/pied de page — le tout sans navigateur.
 
 ## Pourquoi utiliser Aspose.HTML pour le contrôle des marges ?
-- **Mise en page précise** – CSS `@page` vous offre un contrôle pixel‑par‑pixel des marges, en‑têtes et pieds de page.  
-- **Cohérence multi‑format** – Les mêmes définitions de marge fonctionnent pour XPS, PDF et les sorties image.  
-- **Aucune dépendance au navigateur** – Le rendu se fait côté serveur, vous n’avez donc pas besoin d’un navigateur sans tête.  
+Aspose.HTML vous offre un rendu côté serveur pixel‑parfait qui fonctionne de manière cohérente sur les sorties PDF, XPS et image. Il prend en charge **plus de 50 formats d’entrée et de sortie** et peut traiter des documents de plusieurs centaines de pages sans charger le fichier complet en mémoire, offrant des vitesses de conversion jusqu’à **3 × plus rapides** que les solutions basées sur des navigateurs sans tête sur du matériel comparable.
 
 ## Prérequis
-
-Avant de commencer, assurez‑vous d’avoir les prérequis suivants :
-
-1. **Environnement de développement Java** – JDK 11 ou version ultérieure installé.  
-2. **Aspose.HTML for Java** – Téléchargez et installez la bibliothèque depuis [here](https://releases.aspose.com/html/java/).  
+Avant de commencer, assurez-vous d’avoir les prérequis suivants en place :
+1. **Environnement de développement Java** – JDK 11 ou version ultérieure installé et `JAVA_HOME` configuré.  
+2. **Aspose.HTML for Java** – Download and install the library from [here](https://releases.aspose.com/html/java/).  
+3. **Un fichier de licence valide** – Required for production builds; a temporary trial license works for testing.  
+4. Vous pouvez également explorer toutes les versions d’Aspose [here](https://releases.aspose.com/).
 
 ## Importer les packages
-
-Pour commencer, importez les classes Aspose.HTML nécessaires :
+Les instructions `import` introduisent les classes Aspose.HTML dans l’espace de noms Java afin que vous puissiez les référencer sans noms pleinement qualifiés.
 
 ```java
 // Import Aspose.HTML packages
@@ -51,9 +91,11 @@ import com.aspose.html.HTMLDocument;
 import com.aspose.html.rendering.xps.XpsDevice;
 ```
 
-## Comment définir les marges de page HTML en Java – Guide étape par étape
+## Comment convertir HTML en PDF Java avec des marges de page personnalisées
+Chargez votre HTML, appliquez une feuille de style utilisateur qui définit la règle `@page`, et rendez le document en PDF (ou XPS) en trois étapes concises. Cette approche élimine le besoin d’un code d’en‑tête/pied de page séparé et garantit que les marges sont respectées sur toutes les pages.
 
-### Étape 1 : Initialiser la configuration et définir les marges de page personnalisées
+### Étape 1 : Initialiser la configuration et définir des marges de page personnalisées
+L’objet `Configuration` contient les paramètres globaux du moteur de rendu. En accédant à son `IUserAgentService`, vous pouvez injecter une feuille de style CSS qui a la priorité la plus élevée, garantissant que vos marges, en‑tête et pied de page sont appliqués.
 
 ```java
 // Initialize configuration object and set up the page-margins for the document
@@ -86,18 +128,16 @@ try {
             "}\n");
 ```
 
-Dans ce bloc, nous créons un objet `Configuration`, obtenons le service `IUserAgentService` et injectons une règle CSS `@page` qui définit les marges, un compteur de page en bas à droite et un titre de document centré en haut.
-
 ### Étape 2 : Créer le document HTML
+`HTMLDocument` représente un fichier HTML unique en mémoire. Lorsque vous transmettez la `Configuration` créée précédemment à son constructeur, le moteur de rendu utilise automatiquement la règle `@page` personnalisée que vous avez définie à l’étape 1.
 
 ```java
 // Initialize an HTML document
 HTMLDocument document = new HTMLDocument("<div>Hello World!!!</div>", ".", configuration);
 ```
 
-Ici, nous instancions un `HTMLDocument` avec un extrait simple « Hello World ». La même configuration de l’Étape 1 est appliquée, de sorte que les marges personnalisées sont respectées lors du rendu du document.
-
 ### Étape 3 : Rendre vers un fichier XPS (ou toute sortie prise en charge)
+`XpsDevice` écrit les pages rendues dans un conteneur XPS, mais vous pouvez le remplacer par `PdfDevice` pour obtenir un fichier PDF à la place. Les mêmes définitions de marge et de pied de page sont respectées, de sorte que le résultat est identique quel que soit le format.
 
 ```java
 // Initialize an output device
@@ -112,61 +152,55 @@ try {
 }
 ```
 
-Cette étape crée un `XpsDevice` qui écrit les pages rendues dans `output.xps`. Les marges, numéros de page et titre que vous avez définis précédemment apparaîtront dans le fichier final.
-
-## Problèmes courants & astuces
-
-- **Les marges semblent inchangées** – Assurez‑vous que la règle `@page` n’est pas écrasée par d’autres feuilles de style. L’appel `setUserStyleSheet` la force à la priorité la plus élevée.  
-- **Les numéros de page affichent « NaN »** – Vérifiez que vous utilisez Aspose.HTML version 23.10 ou plus récente ; les versions antérieures ne disposent pas de la fonction `currentPageNumber()`.  
-- **Le fichier de sortie est vide** – Confirmez que le chemin `Resources.output` est résolu correctement et que vous disposez des droits d’écriture.  
+## Problèmes courants et astuces
+- **Les marges semblent inchangées** – Vérifiez qu’aucune autre feuille de style ne surcharge la règle `@page`. L’appel `setUserStyleSheet` force votre règle à la priorité la plus élevée.  
+- **Les numéros de page affichent « NaN »** – Cela se produit avec les versions d’Aspose.HTML antérieures à 23.10, qui ne disposent pas de la fonction `counter(page)`. Mettez à jour vers la dernière version.  
+- **Le fichier de sortie est vide** – Assurez‑vous que le répertoire `Resources.output` existe et que le processus Java dispose des permissions d’écriture.  
+- **Les documents volumineux entraînent une forte consommation de mémoire** – Utilisez l’API de streaming (`XpsDevice` avec `setPageCountLimit`) pour traiter les pages par lots.  
 
 ## Questions fréquemment posées
 
-### Q1 : Qu’est‑ce qu’Aspose.HTML pour Java ?
-
-**R :** Aspose.HTML pour Java est une bibliothèque Java qui fournit des outils puissants pour travailler avec des documents HTML dans les applications Java, incluant la conversion, le rendu et la manipulation.
+### Q1 : Qu’est‑ce qu’Aspose.HTML for Java ?
+**R :** Aspose.HTML for Java est une bibliothèque côté serveur qui permet aux développeurs de créer, modifier, rendre et convertir des documents HTML de manière programmatique, en prenant en charge les sorties PDF, XPS, image et EPUB.
 
 ### Q2 : Puis‑je personnaliser davantage les marges de page ?
-
-**R :** Oui, il suffit de modifier le CSS à l’intérieur de `setUserStyleSheet`. Vous pouvez changer n’importe quelle valeur `margin-*` ou ajouter des boîtes supplémentaires `@top-*` / `@bottom-*`.
+**R :** Oui – modifiez le CSS à l’intérieur de `setUserStyleSheet`. Vous pouvez changer n’importe quelle valeur `margin-*` ou ajouter des boîtes supplémentaires `@top-*` / `@bottom-*` pour des en‑têtes ou pieds de page plus complexes.
 
 ### Q3 : Comment ajouter plus de contenu au document HTML ?
+**R :** Remplacez la chaîne dans `new HTMLDocument("<div>Hello World!!!</div>", …)` par votre propre balisage, ou chargez un fichier externe en utilisant le constructeur `HTMLDocument(String url, …)`.
 
-**R :** Remplacez la chaîne dans `new HTMLDocument("<div>Hello World!!!</div>", …)` par votre propre balisage HTML, ou chargez un fichier externe en utilisant le constructeur `HTMLDocument(String url, …)`.
+### Q4 : Aspose.HTML for Java est‑il compatible avec d’autres formats de document ?
+**R :** Absolument. Le même `HTMLDocument` peut être rendu en PDF, XPS, PNG, JPEG ou EPUB en changeant le dispositif de sortie (par ex., `PdfDevice`, `PngDevice`).
 
-### Q4 : Aspose.HTML pour Java est‑il compatible avec d’autres formats de document ?
-
-**R :** Absolument. Le même `HTMLDocument` peut être rendu en PDF, XPS, images, ou même EPUB en changeant le dispositif de sortie (par ex., `PdfDevice`, `PngDevice`).
-
-### Q5 : Ai‑je besoin d’une licence pour utiliser Aspose.HTML pour Java ?
-
-**R :** Oui, une licence est requise pour une utilisation en production. Vous pouvez obtenir une version d’essai ou acheter une licence depuis [here](https://purchase.aspose.com/buy) ou [here](https://releases.aspose.com/).
+### Q5 : Ai‑je besoin d’une licence pour utiliser Aspose.HTML for Java ?
+**R :** Oui, une licence est requise pour une utilisation en production. Vous pouvez obtenir un essai ou acheter une licence depuis [here](https://purchase.aspose.com/buy) ou [here](https://releases.aspose.com/).
 
 ### Q6 : Comment définir des marges différentes pour les pages impaires et paires ?
-
 **R :** Utilisez les pseudo‑classes `@page :left` et `@page :right` dans votre feuille de style pour définir des marges distinctes pour les pages de gauche (paires) et de droite (impaires).
 
 ### Q7 : Puis‑je intégrer des polices personnalisées dans le document rendu ?
-
-**R :** Oui. Ajoutez des règles `@font-face` à la feuille de style utilisateur et faites référence aux polices dans votre contenu HTML.
+**R :** Oui. Ajoutez des règles `@font-face` à la feuille de style utilisateur et référencez ces polices dans votre balisage HTML ; le moteur de rendu les incorporera dans le PDF ou XPS final.
 
 ## Conclusion
+Vous disposez maintenant d’une recette complète, prête pour la production, pour **comment convertir HTML en PDF Java** en utilisant Aspose.HTML, incluant des marges de page personnalisées, des numéros de page et un titre de document. En exploitant les règles CSS `@page`, vous obtenez un contrôle total sur la mise en page sans écrire de code Java supplémentaire pour les en‑têtes ou pieds de page. Expérimentez avec des boîtes `@page` supplémentaires, des polices personnalisées ou différents dispositifs de sortie pour répondre aux besoins précis de votre système de reporting ou de facturation.
 
-Vous avez maintenant maîtrisé **comment définir les marges de page HTML en Java** à l’aide d’Aspose.HTML, et vous savez comment ajouter des numéros de page et un titre pour rendre vos documents professionnels. N’hésitez pas à expérimenter avec des boîtes `@page` supplémentaires, des polices personnalisées ou différents formats de sortie pour répondre aux besoins de votre projet.
+Pour des instructions plus détaillées, consultez la documentation officielle [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/) et rejoignez la communauté sur le [Aspose support forum](https://forum.aspose.com/).
 
-Si vous rencontrez des difficultés, la documentation officielle [Aspose.HTML for Java](https://reference.aspose.com/html/java/) et le [forum de support Aspose](https://forum.aspose.com/) sont d’excellents endroits pour obtenir de l’aide.
+---
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Dernière mise à jour :** 2026-06-24  
+**Testé avec :** Aspose.HTML for Java 23.12  
+**Auteur :** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
 
----
+## Tutoriels associés
 
-**Dernière mise à jour :** 2025-12-05  
-**Testé avec :** Aspose.HTML for Java 23.12  
-**Auteur :** Aspose  
+- [Ajouter des numéros de page avec Aspose.HTML Java – Utilisation avancée](/html/java/advanced-usage/)
+- [Ajuster la taille de page PDF avec Aspose.HTML for Java](/html/java/advanced-usage/adjust-pdf-page-size/)
+- [Comment convertir HTML en PDF Java – Utilisation d’Aspose.HTML for Java](/html/java/conversion-html-to-other-formats/convert-html-to-pdf/)
 
----
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

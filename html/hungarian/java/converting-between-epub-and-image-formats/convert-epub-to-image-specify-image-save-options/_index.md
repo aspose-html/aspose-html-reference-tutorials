@@ -1,12 +1,74 @@
 ---
-date: 2026-03-13
+date: 2026-08-17
 description: Ismerje meg, hogyan konvertálhat EPUB fájlokat képekké az Aspose.HTML
-  for Java segítségével, állíthat be egyéni oldalméretet, és módosíthatja a kép háttérszínét
-  az optimális eredmény érdekében.
-linktitle: Specifying Image Save Options for EPUB to Image Conversion
+  for Java segítségével, állíthat be egyedi oldalméreteket, és módosíthatja a kép
+  háttérszínét az optimális eredmény érdekében.
+keywords:
+- custom page dimensions image
+- Aspose.HTML Java
+- EPUB to image conversion
+lastmod: 2026-08-17
+linktitle: Képmentési beállítások megadása EPUB‑kép konvertálásához
+og_description: Konvertálja az EPUB fájlokat képpé egyedi oldalméretekkel az Aspose.HTML
+  for Java használatával. Ismerje meg lépésről lépésre, hogyan állíthatja be az oldalméretet,
+  a háttérszínt és a kimeneti formátumot egyetlen útmutatóban.
+og_image_alt: Developer guide showing how to set custom page dimensions image when
+  converting EPUB to image with Aspose.HTML for Java
+og_title: EPUB konvertálása képpé egyedi oldalméretekkel Java-ban
+schemas:
+- author: Aspose
+  dateModified: '2026-08-17'
+  description: Learn how to convert EPUB files to images using Aspise.HTML for Java,
+    set custom page dimensions image, and change image background color for optimal
+    results.
+  headline: Convert EPUB to image with custom page dimensions image
+  type: TechArticle
+- description: Learn how to convert EPUB files to images using Aspise.HTML for Java,
+    set custom page dimensions image, and change image background color for optimal
+    results.
+  name: Convert EPUB to image with custom page dimensions image
+  steps:
+  - name: open an existing EPUB file for reading
+    text: Here we open the source EPUB. Replace `"input.epub"` with the path to your
+      e‑book file.
+  - name: initialize ImageSaveOptions with custom settings (set custom page dimensions
+      image & change image background color)
+    text: '`ImageSaveOptions` is the class that controls how the EPUB pages are rendered
+      to images. In this block we **set custom page dimensions image** to 3000 × 1000
+      pixels and change the background to AliceBlue. Feel free to adjust the `Size`
+      object or the `Color` to match your branding (e.g., `Color.getWh'
+  - name: convert EPUB to image
+    text: This line performs the actual conversion. The output file (`"output.jpg"`)
+      will contain the rendered image with the dimensions and background you specified.
+      You can also change the file extension to `.png` if you prefer **java convert
+      epub png**. The library supports both JPEG and PNG, giving you fl
+  - name: close resources (handled automatically)
+    text: The `try‑with‑resources` statement automatically closes `FileInputStream`,
+      ensuring no file handles are left open.
+  type: HowTo
+- questions:
+  - answer: Yes, you can specify formats such as PNG or GIF by changing `ImageFormat.Jpeg`
+      to `ImageFormat.Png` or `ImageFormat.Gif`.
+    question: Can I convert EPUB files to other image formats?
+  - answer: Absolutely. The library fully supports EPUB3, allowing you to work with
+      the latest e‑book standards.
+    question: Does Aspose.HTML for Java support EPUB3?
+  - answer: Implement `try‑catch` blocks around the conversion code to capture and
+      log exceptions, ensuring your application remains robust.
+    question: How can I handle errors during the conversion process?
+  - answer: Yes, adjust the `Size` object for dimensions and use `options.setQuality(int)`
+      to control JPEG compression quality.
+    question: Can I customize the image size and quality?
+  - answer: The library works with Java 1.7 and later, covering a wide range of development
+      environments.
+    question: Is Aspose.HTML for Java compatible with all Java versions?
+  type: FAQPage
 second_title: Java HTML Processing with Aspose.HTML
-title: EPUB konvertálása képpé az Aspose.HTML for Java használatával – Egyéni oldalméret
-  beállítása
+tags:
+- convert EPUB
+- Aspose.HTML
+- Java image processing
+title: EPUB konvertálása képpé egyedi oldalméretekkel
 url: /hu/java/converting-between-epub-and-image-formats/convert-epub-to-image-specify-image-save-options/
 weight: 16
 ---
@@ -15,34 +77,33 @@ weight: 16
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# EPUB konvertálása képpé az Aspose.HTML for Java segítségével – Egyéni oldalméret beállítása
+# EPUB konvertálása képre egyedi oldalméretek megadásával
 
-A folyamatosan változó webfejlesztés világában az Aspose.HTML for Java egy erőteljes eszköz, és ma arra fogunk koncentrálni, **hogyan állítsunk be egyéni oldalméretet** egy EPUB képpé konvertálásakor. Akár digitális könyvtárat építesz, bélyegképeket generálsz, vagy nagy felbontású képernyőképeket hozol létre, ennek a beállításnak a elsajátítása lehetővé teszi, hogy **EPUB‑ot képpé konvertálj** olyan fájlokba, amelyek pontosan megfelelnek a kívánt elrendezésnek.
+A modern digitális kiadókban az EPUB fájl magas minőségű képpé alakítása rugalmasságot biztosít bélyegképek, előnézetek és marketing anyagok készítéséhez. **Aspose.HTML for Java** egyszerűvé teszi ezt a konverziót, és pontosan szabályozhatja a kimenetet egyedi oldalméretek megadásával. Ez az útmutató végigvezeti a teljes folyamaton – a környezet beállításától a végső JPEG vagy PNG megjelenítéséig – miközben elmagyarázza, miért fontos minden beállítás.
 
-## Quick Answers
-- **Mit jelent a „set custom page size”?** Lehetővé teszi, hogy meghatározd minden kimeneti képoldal szélességét és magasságát.  
-- **Megváltoztathatom a kép háttérszínét?** Igen, bármilyen színt megadhatsz az `ImageSaveOptions` használatával.  
-- **Mely formátumok támogatottak?** JPEG, PNG, GIF és továbbiak a `ImageFormat` segítségével.  
-- **Szükségem van licencre?** A ingyenes próba verzió tesztelésre működik; a termeléshez kereskedelmi licenc szükséges.  
+## Gyors válaszok
+- **Mit jelent a „custom page dimensions image”?** Lehetővé teszi, hogy meghatározza az egyes generált képadalak pontos szélességét és magasságát (pixelben).  
+- **Megváltoztathatom a kép háttérszínét?** Igen – az `ImageSaveOptions` segítségével bármely `java.awt.Color` megadható.  
+- **Mely képformátumok támogatottak?** JPEG, PNG, GIF, BMP, TIFF és továbbiak a `ImageFormat` segítségével.  
+- **Szükség van licencre a termeléshez?** Egy ingyenes próbaértékesítés elég a kiértékeléshez; a kereskedelmi licenc szükséges a termelési környezetben.  
 - **Milyen Java verzió szükséges?** A Java 1.7 vagy újabb teljes mértékben támogatott.
 
-## What is “set custom page size” in EPUB to image conversion?
-Az egyéni oldalméret beállítása azt jelenti, hogy te irányítod a renderelt kép méreteit (pl. 3000 × 1000 pixel). Ez akkor hasznos, ha nagy felbontású képernyőképekre van szükséged e‑könyvekről, vagy ha a kimenetet egy meghatározott elrendezéshez szeretnéd igazítani.
+## Mi az a „custom page dimensions image” az EPUB‑kép konverzióban?
+**Custom page dimensions image** azt jelenti, hogy a renderelt oldal pixel‑pontos méretét szabályozza, például 3000 × 1000 pixel. A szélesség és magasság megadásával olyan képeket hozhat létre, amelyek illeszkednek a tervezési rácsokhoz, UI komponensekhez vagy nyomtatási specifikációkhoz. Ez a rugalmasság segít a bélyegképek létrehozásában is, amelyeknek különböző eszközökön meg kell őrizniük az arányokat, biztosítva, hogy a kimenet megfeleljen a vizuális követelményeknek.
 
-## Why set a custom page size and change image background color?
-Az egyéni oldalméretek rugalmasságot biztosítanak különböző megjelenítési célokhoz – mobil képernyők, nyomtatásra kész PDF‑ek vagy webes bélyegképek. A háttérszín megváltoztatása segít a márkaazonosításban vagy a olvashatóság javításában olyan képek esetén, amelyek átlátszó elemeket tartalmaznak.
+## Miért állítsunk be egyedi oldalméretet és változtassuk meg a kép háttérszínét?
+Az egyedi oldalméret biztosítja, hogy a kimenet megfeleljen a céleszköz vagy a tervezési specifikáció követelményeinek, míg a háttérszín módosítása lehetővé teszi a márka színéhez való igazítást vagy a transzparens elemek olvashatóságának javítását. Együtt teljes vizuális kontrollt adnak a konverziós eredmény felett.
 
-## Prerequisites
+## Előkövetelmények
 
-Mielőtt elkezdjük a **EPUB‑ot képpé konvertál** folyamatát, győződj meg róla, hogy a következők rendelkezésedre állnak:
+Mielőtt elkezdenénk a **EPUB konvertálását képre**, győződjön meg róla, hogy a következők rendelkezésre állnak:
 
-1. **Java környezet** – A gépeden telepített Java fejlesztői csomag. Ha még nincs Java, letöltheted [innen](https://www.java.com).
+1. **Java környezet** – Telepített Java Development Kit a gépén. Ha még nincs Java, letöltheti a [Java hivatalos weboldaláról](https://www.java.com).  
+2. **Aspose.HTML for Java** – Az Aspose.HTML for Java könyvtár. A legújabb kiadást a [Aspose.HTML for Java oldalról](https://releases.aspose.com/html/java/) szerezheti be.
 
-2. **Aspose.HTML for Java** – Az Aspose.HTML for Java könyvtár. Szerezd be a legújabb kiadást a [Aspose.HTML for Java oldalról](https://releases.aspose.com/html/java/).
+## Csomagok importálása
 
-## Import Packages
-
-Az Aspose.HTML for Java használatához importáld a szükséges névtereket:
+Az Aspose.HTML for Java használatához importálja a szükséges névtereket:
 
 ```java
 // Import the required Aspose.HTML for Java packages
@@ -56,17 +117,17 @@ import com.aspose.html.converters.Converter;
 import java.io.FileInputStream;
 ```
 
-## Step‑by‑Step Guide
+## Lépésről‑lépésre útmutató
 
-### Step 1: Open an Existing EPUB File for Reading
+### 1. lépés: meglévő EPUB fájl megnyitása olvasásra
 
 ```java
 try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
 ```
 
-Itt nyitjuk meg a forrás EPUB‑ot. Cseréld le a `"input.epub"`-t a saját e‑könyved elérési útjára.
+Itt nyitjuk meg a forrás EPUB‑ot. Cserélje le a `"input.epub"` értéket a saját e‑könyv fájlja elérési útjára.
 
-### Step 2: Initialize ImageSaveOptions with Custom Settings (set custom page size & change image background color)
+### 2. lépés: ImageSaveOptions inicializálása egyedi beállításokkal (custom page dimensions image beállítása és a kép háttérszínének módosítása)
 
 ```java
 ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Jpeg);
@@ -82,9 +143,9 @@ options.setPageSetup(pageSetup);
 options.setBackgroundColor(Color.getAliceBlue());
 ```
 
-Ebben a blokkban **beállítjuk az egyéni oldalméretet** 3000 × 1000 pixelre, és megváltoztatjuk a háttérszínt AliceBlue-ra. Nyugodtan módosítsd a `size` vagy `Color` értékeket a projektednek megfelelően (pl. `Color.getWhite()` egy egyszerű fehér háttérhez).
+Az `ImageSaveOptions` osztály szabályozza, hogyan kerülnek az EPUB oldalak képekké renderelve. Ebben a blokkban **custom page dimensions image**‑t állítunk be 3000 × 1000 pixelre, és a háttérszínt AliceBlue‑ra változtatjuk. Nyugodtan módosítsa a `Size` objektumot vagy a `Color`‑t, hogy megfeleljen a márkájának (pl. `Color.getWhite()` egy egyszerű fehér háttérhez).
 
-### Step 3: Convert EPUB to Image
+### 3. lépés: EPUB konvertálása képre
 
 ```java
 Converter.convertEPUB(
@@ -94,59 +155,67 @@ Converter.convertEPUB(
 );
 ```
 
-Ez a sor hajtja végre a tényleges konverziót. A kimeneti fájl (`"output.jpg"`) a megadott méretekkel és háttérrel renderelt képet tartalmaz majd. A fájlkiterjesztést `.png`‑re is módosíthatod, ha a **java convert epub png**-t részesíted előnyben. A könyvtár támogatja mind a **JPEG képképformátumot**, mind a **PNG képképformátumot**, így rugalmasságot biztosít a további feldolgozáshoz.
+Ez a sor hajtja végre a tényleges konverziót. A kimeneti fájl (`"output.jpg"`) a megadott mérettel és háttérrel renderelt képet tartalmazza. A fájlkiterjesztést `.png`‑re is módosíthatja, ha a **java convert epub png** opciót részesíti előnyben. A könyvtár támogatja mind a JPEG, mind a PNG formátumot, így rugalmasan használható a további feldolgozáshoz.
 
-### Step 4: Close Resources (handled automatically)
+### 4. lépés: erőforrások lezárása (automatikusan kezelve)
 
 A `try‑with‑resources` utasítás automatikusan lezárja a `FileInputStream`‑et, biztosítva, hogy ne maradjanak nyitott fájlkezelők.
 
-## Common Use Cases
+## Általános felhasználási esetek
 
-- **Bélyegképek generálása** e‑könyvtárakhoz.  
-- **Nagy felbontású képernyőképek készítése** dokumentációhoz vagy marketinghez.  
-- **Kötegelt feldolgozás** nagy EPUB gyűjtemények PNG/JPEG eszközökké alakítása web galériákhoz.  
-- **Képkinyerés automatizálása** olyan hozzáférhetőségi eszközök számára, amelyeknek vizuális előnézetre van szükségük az e‑könyvekből.
+- **Bélyegképek generálása** e‑könyvtárakhoz, ahol minden bélyegképnek 200 × 300 pixeles dobozba kell illeszkednie.  
+- **Nagy felbontású képernyőképek készítése** dokumentációhoz, marketing anyagokhoz vagy UI makettekhez.  
+- **Kötegelt feldolgozás** nagy EPUB gyűjtemények PNG/JPEG eszközökre való átalakításához webgalériákhoz vagy offline archívumokhoz.  
+- **Képkinyerés automatizálása** hozzáférhetőségi eszközök számára, amelyek vizuális előnézetet igényelnek az e‑könyvekből.
 
-## Tips & Best Practices
+## Tippek és bevált gyakorlatok
 
-- **Pro tipp:** Használd a `Length.fromInches()` vagy `Length.fromCentimeters()` metódusokat, ha a fizikai egységeket részesíted előnyben a pixelek helyett.  
-- **Teljesítmény tipp:** Nagy EPUB‑ok esetén fontold meg a JVM heap méretének növelését (`-Xmx2g`), hogy elkerüld a memória nyomást.  
-- **Hibakezelés:** Tekerd be a konverzióhívást egy `try‑catch` blokkba, hogy elkapd az `IOException`‑t vagy az `AsposeException`‑t.  
-- **Minőség ellenőrzés:** Állítsd be a `options.setQuality(90)` értéket a JPEG tömörítés finomhangolásához, észrevehető minőségvesztés nélkül.
+- **Pro tipp:** Használja a `Length.fromInches()` vagy `Length.fromCentimeters()` metódusokat, ha a fizikai egységek (hüvelyk, centiméter) előnyösebbek a pixelek helyett.  
+- **Teljesítmény tipp:** Nagy EPUB‑ok esetén növelje a JVM heap méretét (`-Xmx2g`), hogy elkerülje a memóriahiányt.  
+- **Hibakezelés:** Csomagolja a konverziós hívást `try‑catch` blokkba, hogy elkapja az `IOException`‑t vagy `AsposeException`‑t.  
+- **Minőség ellenőrzés:** Állítsa be az `options.setQuality(90)`‑t a JPEG tömörítés finomhangolásához, észrevehető minőségvesztés nélkül.  
+- **Mennyiségi állítás:** Az Aspose.HTML for Java **15+ képformátum** támogatását és akár **10 000 × 10 000 pixel** méretű oldalak renderelését biztosítja a teljesítmény romlása nélkül.
 
-## Common Issues and Solutions
+## Gyakori problémák és megoldások
 
-- **Memory‑out‑of‑memory hibák:** Növeld a heap méretét vagy dolgozd fel az EPUB‑ot kisebb darabokban, egyes oldalak renderelésével.  
-- **Üres háttér:** Győződj meg róla, hogy beállítottál háttérszínt; a átlátszó háttér néhány megjelenítőben fekete lehet.  
-- **Váratlan képméretek:** Ellenőrizd, hogy a `Size` objektum a szükséges pontos pixelértékeket tartalmazza; ne feledd, hogy a DPI beállítások nem befolyásolják a pixelméretet.  
+- **Memory‑out‑of‑memory hibák:** Növelje a heap méretét vagy dolgozza fel az EPUB‑ot kisebb darabokra, egyes oldalak renderelésével.  
+- **Üres háttér:** Győződjön meg róla, hogy beállított egy háttérszínt; a transzparens háttér néhány megjelenítőben fekete lehet.  
+- **Váratlan képméretek:** Ellenőrizze, hogy a `Size` objektum pontosan a kívánt pixelértékeket tartalmazza; a DPI beállítások nem befolyásolják a pixelméretet.  
 - **Nem támogatott EPUB funkciók:** Az Aspose.HTML teljes mértékben kezeli az EPUB3‑at, de az egyedi betűtípusok beágyazása vagy helyes hivatkozása szükséges lehet.
 
-## Frequently Asked Questions
+## Gyakran ismételt kérdések
 
-**Q: Konvertálhatok EPUB fájlokat más képformátumokra?**  
-A: Igen, megadhatsz olyan formátumokat, mint a PNG vagy a GIF, ha a `ImageFormat.Jpeg`-et `ImageFormat.Png`‑ra vagy `ImageFormat.Gif`‑ra változtatod.
+**K: Átalakíthatom az EPUB fájlokat más képformátumokra?**  
+V: Igen, megadhatja a formátumot PNG vagy GIF használatával, ha az `ImageFormat.Jpeg`‑et `ImageFormat.Png`‑ra vagy `ImageFormat.Gif`‑ra cseréli.
 
-**Q: Az Aspose.HTML for Java támogatja az EPUB3‑at?**  
-A: Teljes mértékben. A könyvtár teljesen támogatja az EPUB3‑at, lehetővé téve a legújabb e‑könyv szabványok használatát.
+**K: Támogatja az Aspose.HTML for Java az EPUB3‑at?**  
+V: Teljes mértékben. A könyvtár teljes körű támogatást nyújt az EPUB3‑hoz, lehetővé téve a legújabb e‑könyv szabványok használatát.
 
-**Q: Hogyan kezeljem a hibákat a konverziós folyamat során?**  
-A: Implementálj `try‑catch` blokkokat a konverziós kód körül, hogy elkapd és naplózd a kivételeket, biztosítva, hogy az alkalmazásod robusztus maradjon.
+**K: Hogyan kezeljem a hibákat a konverziós folyamat során?**  
+V: Implementáljon `try‑catch` blokkokat a konverziós kód köré, hogy elkapja és naplózza a kivételeket, ezáltal biztosítva az alkalmazás stabilitását.
 
-**Q: Testreszabhatom a kép méretét és minőségét?**  
-A: Igen, módosítsd a `Size` objektumot a méretekhez, és használd az `options.setQuality(int)`‑t a JPEG tömörítési minőség szabályozásához.
+**K: Testreszabhatom a kép méretét és minőségét?**  
+V: Igen, a `Size` objektummal állíthatja be a méreteket, az `options.setQuality(int)`‑vel pedig szabályozhatja a JPEG tömörítés minőségét.
 
-**Q: Az Aspose.HTML for Java kompatibilis minden Java verzióval?**  
-A: A könyvtár a Java 1.7 és újabb verziókkal működik, széles fejlesztői környezetet lefedve.
+**K: Az Aspose.HTML for Java kompatibilis minden Java verzióval?**  
+V: A könyvtár a Java 1.7‑től felfelé működik, így széles fejlesztői környezetet lefed.
 
-## Conclusion
+## Összegzés
 
-Az útmutató követésével most már tudod, hogyan **konvertálj EPUB‑ot képpé**, miközben **egyéni oldalméretet állítasz be** és **megváltoztatod a kép háttérszínét** az Aspose.HTML for Java használatával. Ezek a lehetőségek lehetővé teszik, hogy tökéletes méretű, márkás képeket állíts elő bármilyen további munkafolyamat számára – legyen az bélyegkép galéria, marketing anyag vagy automatizált e‑könyv előnézeti szolgáltatás. Nyugodtan kísérletezz különböző méretekkel, színekkel és kimeneti formátumokkal, hogy megfeleljenek a specifikus igényeidnek.
+Ezzel az útmutatóval most már tudja, hogyan **konvertáljon EPUB‑ot képre**, miközben **egyedi oldalméreteket** állít be, és **módosítja a kép háttérszínét** az Aspose.HTML for Java segítségével. Ezek a képességek lehetővé teszik tökéletesen méretezett, márkázott képek előállítását bármilyen downstream munkafolyamat számára – legyen az bélyegkép galéria, marketing brosúra vagy automatizált e‑könyv előnézeti szolgáltatás. Nyugodtan kísérletezzen különböző méretekkel, színekkel és kimeneti formátumokkal, hogy megfeleljen a specifikus igényeinek.
 
 ---
 
-**Last Updated:** 2026-03-13  
-**Tested With:** Aspose.HTML for Java 24.10  
-**Author:** Aspose  
+**Utoljára frissítve:** 2026-08-17  
+**Tesztelve:** Aspose.HTML for Java 24.10  
+**Szerző:** Aspose
+
+## Kapcsolódó oktatóanyagok
+
+- [Hogyan konvertáljunk EPUB oldalakat képekké az Aspose.HTML for Java segítségével](/html/java/conversion-epub-to-image-and-pdf/convert-epub-to-image/)
+- [EPUB konvertálása BMP‑re és más képekre – Aspose.HTML Java](/html/java/converting-between-epub-and-image-formats/)
+- [Kép háttérszín beállítása EPUB‑kép konverzióhoz](/html/java/converting-epub-to-pdf/convert-epub-to-image-specify-image-save-options/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -9,11 +9,9 @@ url: /hi/java/converting-epub-to-pdf/convert-epub-to-gif/
 weight: 11
 ---
 
-.
 
-Need to ensure markdown formatting preserved.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

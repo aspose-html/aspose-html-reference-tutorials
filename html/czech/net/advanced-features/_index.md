@@ -33,12 +33,16 @@ Naučte se pracovat s dokumenty HTML v .NET pomocí Aspose.HTML pro úkoly, jako
 Naučte se používat Aspose.HTML pro .NET k efektivní manipulaci s HTML dokumenty. Výukový program krok za krokem pro vývojáře.
 ### [Memory Stream Provider v .NET s Aspose.HTML](./memory-stream-provider/)
 Naučte se vytvářet úžasné HTML dokumenty v .NET pomocí Aspose.HTML. Postupujte podle našeho podrobného návodu a odemkněte sílu manipulace s HTML.
+### [Vlastní manipulátor zdrojů v Aspose HTML – Průvodce ukládáním do streamu](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
+Naučte se, jak vytvořit vlastní manipulátor zdrojů v Aspose HTML a ukládat výstup do streamu.
 ### [Web Scraping v .NET s Aspose.HTML](./web-scraping/)
 Naučte se manipulovat s HTML dokumenty v .NET pomocí Aspose.HTML. Procházejte, filtrujte, dotazujte se a vybírejte prvky efektivně pro lepší vývoj webu.
 ### [Použijte vlastnost Extended Content Property v .NET s Aspose.HTML](./use-extended-content-property/)
 Naučte se vytvářet dynamický webový obsah pomocí Aspose.HTML for .NET. Náš výukový program obsahuje předpoklady, podrobné pokyny a často kladené otázky pro začátečníky.
 ### [Generujte šifrované PDF pomocí PdfDevice v .NET s Aspose.HTML](./generate-encrypted-pdf-by-pdfdevice/)
 Převeďte HTML do PDF dynamicky pomocí Aspose.HTML pro .NET. Snadná integrace, přizpůsobitelné možnosti a robustní výkon.
+### [Uložte dokument jako PDF v C# – Kompletní průvodce s podporou ZIP](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
+Naučte se, jak pomocí Aspose.HTML v C# uložit HTML dokument jako PDF a přidat soubory ZIP do výstupu.
 ### [Jemné ladění konvertorů v .NET pomocí Aspose.HTML](./fine-tuning-converters/)
 Naučte se převádět HTML do PDF, XPS a obrázků pomocí Aspose.HTML pro .NET. Výukový program krok za krokem s příklady kódu a často kladenými dotazy.
 ### [Použití šablon HTML v .NET s Aspose.HTML](./using-html-templates/)
@@ -49,6 +53,19 @@ Naučte se, jak vytvořit vlastní paměťový stream v C# pomocí Aspose.HTML a
 Naučte se, jak v C# programově spojovat více písem do jednoho souboru pomocí Aspose.HTML, s podrobnými ukázkami a tipy.
 ### [Získání verze sestavení v C# – Rychlý průvodce získáním verze knihovny](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
 Naučte se, jak v C# získat verzi sestavení knihovny pomocí reflexe.
+### [Jak zipovat HTML pomocí Aspose HTML – Kompletní průvodce](./how-to-zip-html-with-aspose-html-complete-guide/)
+Naučte se, jak pomocí Aspose.HTML zkomprimovat HTML soubory do ZIP archivu v kompletním průvodci.
+### [Jak povolit Clear Type – povolit režim vyhlazování v .NET](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
+Naučte se, jak v .NET povolit ClearType a nastavit režim vyhlazování pro ostřejší vykreslování textu.
+### [Převod dokumentu Word do PDF – Průvodce jasným textem (C#)](./convert-word-document-to-pdf-clear-text-guide-c/)
+Naučte se převádět soubory Word do PDF pomocí Aspose.HTML v C# s podrobným návodem a ukázkami kódu.
+### [Uložte HTML do ZIP pomocí C# – vytvořte ZIP archiv v C# pomocí Aspose](./save-html-to-zip-with-c-create-zip-archive-c-using-aspose/)
+Naučte se, jak pomocí Aspose.HTML v C# uložit HTML soubor do ZIP archivu a spravovat kompresi.
+### [Vytvořte tučné kurzívní písmo v C# – krok za krokem](./create-bold-italic-font-in-c-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.HTML v C# vytvořit text s tučným a kurzívním stylem.
+### [Uložte HTML jako ZIP s vlastním manipulátorem zdrojů v C#](./save-html-as-zip-with-a-custom-resource-handler-in-c/)
+Naučte se pomocí Aspose.HTML vytvořit ZIP archiv HTML s vlastním handlerem pro zdroje v C#.
+
 ## Závěr
 
 Aspose.HTML for .NET otevírá dveře do světa možností, pokud jde o práci s dokumenty HTML ve vašich aplikacích .NET. Tyto pokročilé výukové programy vás vybaví znalostmi a dovednostmi potřebnými k využití plného potenciálu Aspose.HTML. Zvyšte své vývojové projekty, ušetřete čas a vytvářejte pozoruhodná řešení s Aspose.HTML for .NET. Začněte s našimi výukovými programy ještě dnes a posuňte svůj vývoj webu na další úroveň.

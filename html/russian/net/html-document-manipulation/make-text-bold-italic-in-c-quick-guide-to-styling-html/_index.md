@@ -25,15 +25,10 @@ title: Сделайте текст полужирным и курсивом в C
 url: /ru/net/html-document-manipulation/make-text-bold-italic-in-c-quick-guide-to-styling-html/
 ---
 
-"Make Text Bold Italic in C# – Quick Guide to Styling HTML" etc.
 
-Let's produce final content.
 
-Be careful with "Aspose.HTML", "HTML", "C#", keep as is.
 
-Translate sentences naturally.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

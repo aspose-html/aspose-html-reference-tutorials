@@ -1,10 +1,72 @@
 ---
-date: 2026-02-10
-description: Aspose.HTML for Java ile HTML düzenlemeyi öğrenin – stil öğesi ekleyin
-  (Java), paragraflar oluşturun ve HTML'den PDF'ye dönüşüm yapın.
-linktitle: Advanced HTML Document Tree Editing in Aspose.HTML
+date: 2026-06-14
+description: Aspose.HTML for Java kullanarak HTML'den PDF oluşturmayı, style element
+  java eklemeyi, paragraflar oluşturmayı ve HTML'yi verimli bir şekilde PDF'ye dönüştürmeyi
+  öğrenin.
+keywords:
+- generate pdf from html
+- edit html java
+- add style element java
+- add css class java
+- java dom manipulation
+linktitle: Aspose.HTML'de Gelişmiş HTML Belge Ağacı Düzenleme
+schemas:
+- author: Aspose
+  dateModified: '2026-06-14'
+  description: Learn how to generate PDF from HTML using Aspose.HTML for Java, add
+    style element java, create paragraphs, and convert HTML to PDF efficiently.
+  headline: How to Generate PDF from HTML Using Aspose.HTML for Java
+  type: TechArticle
+- description: Learn how to generate PDF from HTML using Aspose.HTML for Java, add
+    style element java, create paragraphs, and convert HTML to PDF efficiently.
+  name: How to Generate PDF from HTML Using Aspose.HTML for Java
+  steps:
+  - name: Create an Instance of an HTML Document
+    text: The `HTMLDocument` class is Aspose.HTML's top‑level object that represents
+      a single HTML file in memory. Instantiating it gives you a clean DOM tree ready
+      for manipulation.
+  - name: Add a Style Element (add style element java)
+    text: A `<style>` tag lets you inject CSS rules directly into the document head.
+      This is useful when you need to apply styling that isn’t present in the original
+      HTML source.
+  - name: Append the Style to the Document Header
+    text: Placing the `<style>` element inside `<head>` guarantees that the rule is
+      applied globally before any body content is rendered.
+  - name: Create a Paragraph Element (add css class java)
+    text: The `HTMLParagraphElement` class creates a `<p>` tag. By assigning it the
+      CSS class **gr**, you link it to the rule defined in the previous step.
+  - name: Create a Text Node
+    text: A text node supplies the visible characters for the paragraph. It is attached
+      to the `<p>` element as a child node.
+  - name: Append the Paragraph to the Document Body
+    text: Appending the paragraph to `<body>` makes it part of the page’s visual flow,
+      ready for rendering.
+  - name: Save the HTML Document
+    text: Calling `save` with the `.html` extension writes the DOM to a physical file
+      that you can open in any browser for verification.
+  - name: Render the Document to PDF (html to pdf conversion)
+    text: The `HTMLRenderer` class converts the in‑memory HTML document to a PDF file.
+      This operation respects all CSS, fonts, and vector graphics, producing a print‑ready
+      PDF.
+  type: HowTo
+- questions:
+  - answer: Aspose.HTML for Java is a powerful library that enables creation, editing,
+      and conversion of HTML documents directly from Java applications without requiring
+      a browser engine.
+    question: What is Aspose.HTML for Java?
+  - answer: Yes, you can render HTML to PNG, JPEG, SVG, and even EPUB using the same
+      rendering API.
+    question: Can I convert HTML to other formats besides PDF?
+  - answer: A free trial is available for evaluation, but a commercial license is
+      required for production deployments.
+    question: Is Aspose.HTML free?
+  - answer: You can find support on the [Aspose forum](https://forum.aspose.com/c/html/29).
+    question: Where can I find support for Aspose.HTML?
+  - answer: You can obtain a temporary license from the [Aspose purchase page](https://purchase.aspose.com/temporary-license/).
+    question: How do I obtain a temporary license for Aspose.HTML?
+  type: FAQPage
 second_title: Java HTML Processing with Aspose.HTML
-title: Aspose.HTML for Java Kullanarak HTML Nasıl Düzenlenir
+title: Aspose.HTML for Java kullanarak HTML'den PDF nasıl oluşturulur
 url: /tr/java/editing-html-documents/advanced-html-document-tree-editing/
 weight: 11
 ---
@@ -13,43 +75,38 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.HTML for Java ile HTML Nasıl Düzenlenir
+# Aspose.HTML for Java Kullanarak HTML'den PDF Oluşturma
 
 ## Giriş
 
-HTML'i programlı olarak düzenlemek, modern Java geliştiricileri için günlük bir ihtiyaçtır—dinamik raporlar oluşturuyor, e‑posta şablonlarını özelleştiriyor ya da web sayfalarını PDF'e dönüştürüyor olun. Bu öğreticide **HTML'i nasıl düzenleyeceğinizi** Aspose.HTML for Java ile keşfedecek, stil öğesi java eklemekten nihai belgeyi PDF olarak render etmeye kadar her şeyi öğreneceksiniz. Sonunda, kendi projelerinize uyarlayabileceğiniz tam, çalıştırılabilir bir örnek elde edeceksiniz.
+HTML'den PDF oluşturmak, web içeriğinden doğrudan yazdırılabilir raporlar, faturalar veya arşiv belgeleri üretmesi gereken Java geliştiricileri için rutin bir gereksinimdir. Bu öğreticide Aspose.HTML for Java ile **HTML'den PDF oluşturma** öğrenecek, stil öğesi java eklemekten nihai belgeyi PDF dosyası olarak render etmeye kadar her şeyi kapsayacaksınız. Kılavuzun sonunda, herhangi bir Java projesine ekleyebileceğiniz tamamen işlevsel, çalıştırılabilir bir örnek elde edeceksiniz.
 
 ## Hızlı Yanıtlar
-- **Java'da HTML düzenlemeyi basitleştiren kütüphane nedir?** Aspose.HTML for Java.  
-- **CSS sınıflarını programlı olarak ekleyebilir miyim?** Evet – `add style element java` kullanın veya `className` ayarlayın.  
-- **PDF çıktısı destekleniyor mu?** Kesinlikle; `render html to pdf` ya da `generate pdf from html` kullanın.  
-- **Üretim ortamı için lisansa ihtiyacım var mı?** Tam işlevsellik için lisans gerekir; ücretsiz deneme sürümü mevcuttur.  
-- **Hangi Java sürümü uyumludur?** En son Aspose.HTML sürümü JDK 11+ ile çalışır.
+- **Java'da HTML düzenlemeyi ve PDF oluşturmayı basitleştiren kütüphane hangisidir?** Aspose.HTML for Java.  
+- **CSS sınıflarını programlı olarak ekleyebilir miyim?** Evet – `add style element java` veya `setClassName` kullanın.  
+- **PDF çıktısı destekleniyor mu?** Kesinlikle; PDF oluşturmak için `render html to pdf` çağırın.  
+- **Üretim için lisansa ihtiyacım var mı?** Sınırsız kullanım için ticari bir lisans gerekir; ücretsiz bir deneme sürümü mevcuttur.  
+- **Hangi Java sürümü uyumludur?** En yeni Aspose.HTML sürümüyle JDK 11+ çalışır.
 
-## “Java bağlamında html nasıl düzenlenir” nedir?
+## Java bağlamında “HTML'den PDF oluşturma” nedir?
 
-Java ile **html nasıl düzenlenir** derken, bir HTML dosyasının DOM (Document Object Model) yapısını doğrudan Java kodundan manipüle etmeyi kastediyoruz. Aspose.HTML, standart tarayıcı DOM’una benzer zengin bir DOM API’si sunar; böylece öğeler oluşturabilir, öznitelikler ayarlayabilir ve tarayıcı açmadan CSS enjekte edebilirsiniz.
+**HTML'den PDF oluşturma**, bir HTML belgesini—CSS stilleri, görüntüler ve betikler dahil—tarayıcı olmadan sunucu tarafı kodu kullanarak PDF dosyasına dönüştürmek anlamına gelir. Aspose.HTML for Java, düzeni, yazı tiplerini ve vektör grafikleri koruyan yüksek doğruluklu bir render motoru sağlayarak baskıya hazır bir PDF üretir.
 
-## Aspose.HTML for Java ile HTML düzenlemenin avantajları
+## HTML'i düzenlemek ve PDF'ler oluşturmak için Aspose.HTML for Java neden kullanılmalı?
 
-- **Tam özellikli DOM API** – herhangi bir düğümü oluşturun, değiştirin veya silin.  
-- **Sıfır bağımlılık render** – HTML'i PDF, PNG veya JPEG'e harici araçlar olmadan dönüştürün.  
-- **Çapraz platform** – Windows, Linux ve macOS’ta çalışır.  
-- **Performans odaklı** – büyük miktarda belgeyi toplu işleme için idealdir.
+Aspose.HTML for Java, HTML'i düzenlemek için kapsamlı bir DOM API'si ve dış bağımlılıklar olmadan belgeleri PDF'ye dönüştüren yüksek performanslı bir render motoru sunar. Çapraz platform çalışmayı destekler, büyük dosyaları verimli bir şekilde işler ve Java uygulamalarıyla sorunsuz bir şekilde bütünleşir, böylece otomasyonu basitleştirir.
 
 ## Önkoşullar
 
-Koda geçmeden önce aşağıdakilerin kurulu olduğundan emin olun:
-
 1. **Java Development Kit (JDK)** – [Oracle web sitesinden](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) indirin.  
-2. **Aspose.HTML for Java** – resmi siteden en yeni kütüphaneyi alın: [buradan indirebilirsiniz](https://releases.aspose.com/html/java/).  
-3. **IDE** – IntelliJ IDEA, Eclipse veya tercih ettiğiniz herhangi bir editör.
+2. **Aspose.HTML for Java** – resmi dağıtım sayfasından en yeni JAR'ları edinin: [buradan indirebilirsiniz](https://releases.aspose.com/html/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse veya tercih ettiğiniz herhangi bir editör.  
 
-Bu gereksinimler hazır olduğunda HTML düzenlemeye başlayabilirsiniz.
+Bu üç öğe örneği derlemek ve çalıştırmak için gereklidir.
 
 ## Paketleri İçe Aktarma
 
-Aspose.HTML bağımlılığını projenize ekleyin. Maven kullanıyorsanız, aşağıdaki snippet’i `pom.xml` dosyanıza ekleyin:
+Projeye Aspose.HTML bağımlılığını ekleyin. Maven kullanıyorsanız, aşağıdaki snippet'i `pom.xml` dosyanıza ekleyin:
 
 ```xml
 <dependency>
@@ -59,117 +116,134 @@ Aspose.HTML bağımlılığını projenize ekleyin. Maven kullanıyorsanız, aş
 </dependency>
 ```
 
-Manuel kurulum için indirilen JAR dosyalarını projenizin classpath’ine yerleştirmeniz yeterlidir.
+Manuel kurulum için indirilen JAR dosyalarını projenizin sınıf yoluna (classpath) yerleştirmeniz yeterlidir.
+
+## Aspose.HTML for Java kullanarak HTML'den PDF nasıl oluşturulur?
+
+HTML içeriğinizi bir `HTMLDocument` nesnesine yükleyin, isteğe bağlı olarak DOM'u değiştirin ve ardından `SaveFormat.PDF` ile `save` metodunu çağırın. Bu iki‑adımlı desen—**oluştur → render**—tüm iş akışını kapsar ve CSS kuralları, görüntüler ve gömülü yazı tiplerinin PDF'de eksiksiz olarak yeniden üretilmesini sağlar. Büyük toplu işlemler için tek bir `HTMLRenderer` örneği yeniden kullanılarak ek yük azaltılabilir.
 
 ## Adım‑Adım Kılavuz
 
 ### Adım 1: Bir HTML Belgesi Örneği Oluşturun
 
+`HTMLDocument` sınıfı, bellekte tek bir HTML dosyasını temsil eden Aspose.HTML'in üst‑seviye nesnesidir. Bir örnek oluşturmak, manipülasyona hazır temiz bir DOM ağacı sağlar.
+
 ```java
 com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument();
 ```
 
-Bu, manipüle edebileceğiniz yeni bir DOM ağacı oluşturur.
+### Adım 2: Bir Stil Öğesi Ekle (add style element java)
 
-### Adım 2: Bir Stil Öğesi Ekleyin (add style element java)
+`<style>` etiketi, CSS kurallarını doğrudan belge başlığına (head) enjekte etmenizi sağlar. Orijinal HTML kaynağında bulunmayan stilleri eklemek istediğinizde kullanışlıdır.
 
 ```java
 com.aspose.html.dom.Element style = document.createElement("style");
 style.setTextContent(".gr { color: green }");
 ```
 
-Burada, **gr** sınıfına sahip herhangi bir öğeye uygulanacak bir CSS kuralı tanımlıyoruz.
-
 ### Adım 3: Stili Belge Başlığına Ekleyin
+
+`<style>` öğesini `<head>` içine yerleştirmek, kuralın tüm içerik render edilmeden önce global olarak uygulanmasını garantiler.
 
 ```java
 com.aspose.html.dom.Element head = document.getElementsByTagName("head").get_Item(0);
 head.appendChild(style);
 ```
 
-`<style>` etiketini `<head>` içine yerleştirmek, kuralın tüm sayfada geçerli olmasını sağlar.
-
 ### Adım 4: Bir Paragraf Öğesi Oluşturun (add css class java)
+
+`HTMLParagraphElement` sınıfı bir `<p>` etiketi oluşturur. CSS sınıfı **gr** atayarak önceki adımda tanımlanan stil kuralına bağlanır.
 
 ```java
 com.aspose.html.HTMLParagraphElement p = (com.aspose.html.HTMLParagraphElement) document.createElement("p");
 p.setClassName("gr");
 ```
 
-`<p>` öğesini oluşturup, daha önce tanımladığımız **gr** CSS sınıfını atıyoruz.
-
 ### Adım 5: Bir Metin Düğümü Oluşturun
+
+Metin düğümü, paragrafın görünen karakterlerini sağlar. `<p>` öğesine çocuk düğüm olarak eklenir.
 
 ```java
 com.aspose.html.dom.Text text = document.createTextNode("Hello World!!");
 p.appendChild(text);
 ```
 
-Metin düğümü, paragrafın görünen içeriğini sağlar.
-
 ### Adım 6: Paragrafı Belge Gövdesine Ekleyin
+
+Paragrafı `<body>` içine eklemek, onu sayfanın görsel akışının bir parçası yapar ve render için hazır hâle getirir.
 
 ```java
 document.getBody().appendChild(p);
 ```
 
-Artık paragraf sayfanın gövdesinin bir parçası hâlinde, render edilmeye hazır.
-
 ### Adım 7: HTML Belgesini Kaydedin
+
+`.html` uzantısıyla `save` metodunu çağırmak, DOM'u herhangi bir tarayıcıda doğrulama amaçlı açabileceğiniz fiziksel bir dosyaya yazar.
 
 ```java
 document.save("using-dom.html");
 ```
 
-Bu kod çalıştırıldığında, herhangi bir tarayıcıda açabileceğiniz `using-dom.html` dosyası oluşturulur.
+### Adım 8: Belgeyi PDF'ye Render Edin (html to pdf conversion)
 
-### Adım 8: Belgeyi PDF’e Render Edin (html to pdf conversion)
+`HTMLRenderer` sınıfı, bellek içindeki HTML belgesini PDF dosyasına dönüştürür. Bu işlem tüm CSS, yazı tipleri ve vektör grafikleri dikkate alarak baskıya hazır bir PDF üretir.
 
 ```java
 com.aspose.html.rendering.pdf.PdfDevice device = new com.aspose.html.rendering.pdf.PdfDevice("using-dom.pdf");
 document.renderTo(device);
 ```
 
-Bu adım **render html to pdf** gerçekleştirir ve oluşturduğunuz HTML’in şık bir PDF versiyonunu üretir.
+## Yaygın Kullanım Senaryoları
 
-## Yaygın Sorunlar ve Çözümleri
+- **Otomatik rapor oluşturma** – HTML şablonları oluşturun, DOM aracılığıyla veri enjekte edin ve dağıtım için PDF olarak dışa aktarın.  
+- **E-posta şablonu önizlemesi** – HTML e-posta gövdelerini PDF'ye render edin ve istemciler arasında düzen tutarlılığını sağlayın.  
+- **Toplu dönüşüm** – Her gece binlerce HTML dosyasını işleyin ve tek bir Java hizmetiyle her birini PDF'ye dönüştürün.  
+
+## Yaygın Sorunlar ve Çözümler
 
 | Sorun | Sebep | Çözüm |
 |-------|--------|-----|
-| **`head` üzerinde NullPointerException** | Belge boş oluşturulduysa `<head>` öğesi bulunmayabilir. | Stil eklemeden önce manuel olarak `<head>` oluşturun veya `document.appendChild(document.createElement("head"))` kullanın. |
-| **PDF çıktısı boş** | Render cihazı doğru başlatılmamış. | Çıktı yolunun yazılabilir olduğundan ve dosya adının `.pdf` ile bittiğinden emin olun. |
-| **CSS uygulanmıyor** | Sınıf adı uyuşmazlığı. | `setClassName` değerinin `<style>` bloğunda tanımlı seçiciyle (`.gr`) aynı olduğundan emin olun. |
+| **head` üzerinde NullPointerException** | Belge boş oluşturulmuşsa `<head>` öğesi eksik olabilir. | Stili eklemeden önce manuel olarak `<head>` oluşturun veya `document.appendChild(document.createElement("head"))` kullanın. |
+| **PDF çıktısı boş** | Render cihazı doğru şekilde başlatılmamış. | Çıktı yolunun yazılabilir olduğunu ve dosya adının `.pdf` ile bittiğini doğrulayın. |
+| **CSS uygulanmadı** | Stil kuralı ile öğe arasındaki sınıf adı eşleşmiyor. | `setClassName("gr")` ifadesinin `<style>` bloğunda tanımlı `.gr` seçicisiyle eşleştiğinden emin olun. |
 
-## Sık Sorulan Sorular
+## Sıkça Sorulan Sorular
 
-**S: Aspose.HTML for Java nedir?**  
-C: Aspose.HTML for Java, Java uygulamalarından doğrudan HTML belgeleri oluşturmanıza, düzenlemenize ve dönüştürmenize olanak tanıyan güçlü bir kütüphanedir.
+**Q: Aspose.HTML for Java nedir?**  
+A: Aspose.HTML for Java, Java uygulamalarından doğrudan tarayıcı motoru gerektirmeden HTML belgeleri oluşturma, düzenleme ve dönüştürme imkanı sağlayan güçlü bir kütüphanedir.
 
-**S: HTML’i başka formatlara dönüştürebilir miyim?**  
-C: Evet, **html to pdf conversion** yapabilir, ayrıca PNG, JPEG gibi görüntülere ve hatta EPUB’a render edebilirsiniz.
+**Q: HTML'yi PDF dışındaki diğer formatlara dönüştürebilir miyim?**  
+A: Evet, aynı render API'sini kullanarak HTML'yi PNG, JPEG, SVG ve hatta EPUB gibi diğer formatlara da render edebilirsiniz.
 
-**S: Aspose.HTML ücretsiz mi?**  
-C: Değerlendirme için ücretsiz bir deneme sürümü mevcuttur, ancak üretim kullanımı için ticari lisans gereklidir.
+**Q: Aspose.HTML ücretsiz mi?**  
+A: Değerlendirme için ücretsiz bir deneme sürümü mevcuttur, ancak üretim ortamları için ticari lisans gereklidir.
 
-**S: Aspose.HTML için destek nereden alınır?**  
-C: [Aspose forumunda](https://forum.aspose.com/c/html/29) destek bulabilirsiniz.
+**Q: Aspose.HTML için desteği nereden bulabilirim?**  
+A: Destek için [Aspose forumunu](https://forum.aspose.com/c/html/29) ziyaret edebilirsiniz.
 
-**S: Aspose.HTML için geçici bir lisans nasıl alınır?**  
-C: [Aspose satın alma sayfasından](https://purchase.aspose.com/temporary-license/) geçici lisans temin edebilirsiniz.
+**Q: Aspose.HTML için geçici bir lisans nasıl alınır?**  
+A: Geçici bir lisans için [Aspose satın alma sayfasını](https://purchase.aspose.com/temporary-license/) kullanabilirsiniz.
 
 ## Sonuç
 
-Artık **Aspose.HTML for Java** ile **HTML nasıl düzenlenir** konusunu—stil öğesi java eklemek, CSS sınıfı java atamak ve nihai belgeyi PDF olarak render etmek—tamamen kavradınız. Bu teknikler, dinamik web içeriği üretmenizi, rapor oluşturmayı otomatikleştirmenizi ve HTML‑to‑PDF dönüşümünü herhangi bir Java‑tabanlı iş akışına entegre etmenizi sağlar.
+Artık Aspose.HTML for Java kullanarak **HTML'den PDF oluşturma** için tam bir uçtan uca iş akışına sahipsiniz. Stil öğesi java eklemekten CSS sınıfı java eklemeye ve nihai PDF'yi render etmeye kadar bu adımlar, HTML‑to‑PDF boru hattı üzerinde tam kontrol sağlar. Bu deseni mevcut Java hizmetlerinize entegre ederek rapor oluşturma, e‑posta renderleme veya toplu belge dönüşümünü güvenle otomatikleştirebilirsiniz.
 
 ---
 
-**Son Güncelleme:** 2026-02-10  
-**Test Edilen Sürüm:** Aspose.HTML for Java 24.11 (yazım anındaki en yeni sürüm)  
-**Yazar:** Aspose  
+**Last Updated:** 2026-06-14  
+**Tested With:** Aspose.HTML for Java 24.11 (latest at time of writing)  
+**Author:** Aspose
+
+## İlgili Öğreticiler
+
+- [HTML'yi PDF'ye Dönüştür Java – Aspose.HTML'de Ortamı Yapılandırma](/html/java/configuring-environment/)
+- [HTML'den PDF Oluştur – Aspose.HTML for Java'da Kullanıcı Stil Sayfası Ayarla](/html/java/configuring-environment/set-user-style-sheet/)
+- [Aspose.HTML for Java'da HTML Belge Ağacını Düzenleme](/html/java/editing-html-documents/edit-html-document-tree/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

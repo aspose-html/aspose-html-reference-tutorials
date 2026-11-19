@@ -22,9 +22,8 @@ title: 使用 Java 建立 HTML 文件 – 擷取 JSON 並產生內容
 url: /zh-hant/java/creating-managing-html-documents/create-html-document-with-java-fetch-json-and-generate-conte/
 ---
 
-.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

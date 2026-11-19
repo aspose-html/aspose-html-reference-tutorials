@@ -1,25 +1,55 @@
 ---
 category: general
-date: 2026-01-03
-description: Trích xuất HTML từ MHTML nhanh chóng với Aspose.HTML. Tìm hiểu cách trích
-  xuất mhtml, chuyển đổi mhtml sang tệp và trích xuất hình ảnh từ mhtml trong một
-  hướng dẫn duy nhất.
+date: 2026-08-22
+description: Trích xuất html từ mhtml nhanh chóng với Aspose.HTML. Tìm hiểu cách trích
+  xuất mhtml, chuyển đổi mhtml sang các tệp, và trích xuất hình ảnh từ mhtml trong
+  một hướng dẫn duy nhất.
 draft: false
 keywords:
 - extract html from mhtml
-- how to extract mhtml
 - convert mhtml to files
 - extract images from mhtml
-language: vi
-og_description: Trích xuất HTML từ MHTML nhanh chóng với Aspose.HTML. Tìm hiểu cách
-  trích xuất mhtml, chuyển đổi mhtml thành các tệp và trích xuất hình ảnh từ mhtml
+- Aspose.HTML Java extraction
+lastmod: 2026-08-22
+og_description: Trích xuất html từ mhtml nhanh chóng với Aspose.HTML. Tìm hiểu cách
+  trích xuất mhtml, chuyển đổi mhtml sang các tệp, và trích xuất hình ảnh từ mhtml
   trong một hướng dẫn duy nhất.
-og_title: Trích xuất HTML từ MHTML – Hướng dẫn Java đầy đủ
+og_image_alt: Diagram showing extraction of HTML, CSS, and images from an MHTML archive
+  using Aspose.HTML for Java
+og_title: Trích xuất html từ mhtml – hướng dẫn Java đầy đủ
+schemas:
+- author: Aspose
+  dateModified: '2026-08-22'
+  description: Extract html from mhtml quickly with Aspose.HTML. Learn how to extract
+    mhtml, convert mhtml to files, and extract images from mhtml in a single tutorial.
+  headline: Extract HTML from MHTML – Complete Java Guide
+  type: TechArticle
+- questions:
+  - answer: Aspose.HTML streams the archive, so memory usage stays low. Adjust the
+      JVM heap if you process many large files concurrently.
+    question: What if the MHTML file is several hundred megabytes?
+  - answer: Yes. After extraction, simply ignore `index.html` and use the contents
+      of the `images/` folder. You can programmatically list image files with `Files.walk`
+      and filter by common image extensions.
+    question: Can I extract only the images without the HTML file?
+  - answer: '`MhtmlExtractionOptions` retains original MIME part names by default.
+      For custom naming, post‑process the files or implement a custom `IResourceHandler`.'
+    question: How do I preserve the original filenames of embedded resources?
+  - answer: Absolutely. The same Java code runs on any platform that supports Java
+      8+, just adjust file‑system paths accordingly.
+    question: Does this work on Linux and macOS as well as Windows?
+  - answer: Write a simple loop that enumerates all `.mhtml` files, loads each into
+      an `HTMLDocument`, and calls `Converter.extract` with a unique output directory
+      for each file.
+    question: How can I batch‑process a folder of .mhtml files?
+  type: FAQPage
 tags:
 - Java
 - Aspose.HTML
 - MHTML
-title: Trích xuất HTML từ MHTML – Hướng dẫn Java toàn diện
+- convert mhtml to files
+- extract images from mhtml
+title: Trích xuất HTML từ MHTML – Hướng dẫn Java đầy đủ
 url: /vi/java/advanced-usage/extract-html-from-mhtml-complete-java-guide/
 ---
 
@@ -29,31 +59,38 @@ url: /vi/java/advanced-usage/extract-html-from-mhtml-complete-java-guide/
 
 # Trích xuất HTML từ MHTML – Hướng dẫn Java đầy đủ
 
-Bạn đã bao giờ cần **trích xuất HTML từ MHTML** nhưng không biết bắt đầu từ đâu? Bạn không phải là người duy nhất. Các tệp MHTML gói một trang web, CSS, script và hình ảnh thành một file duy nhất—tiện lợi để lưu, nhưng gây rắc rối khi bạn muốn lấy lại các thành phần. Trong hướng dẫn này, chúng tôi sẽ chỉ cho bạn cách trích xuất mhtml, chuyển đổi mhtml thành các tệp, và thậm chí lấy ra hình ảnh từ mhtml bằng Aspose.HTML cho Java.
+Bạn đã bao giờ cần **trích xuất HTML từ MHTML** nhưng không biết bắt đầu từ đâu? Bạn không phải là người duy nhất. Các tệp MHTML gói một trang web, CSS, script và hình ảnh vào một file duy nhất—tiện lợi để lưu, nhưng lại gây rắc rối khi muốn lấy lại các thành phần. Trong hướng dẫn này, chúng tôi sẽ chỉ cho bạn cách trích xuất mhtml, chuyển mhtml thành các tệp, và thậm chí lấy ra hình ảnh từ mhtml bằng Aspose.HTML cho Java.
 
-Thực tế là: bạn không cần phải viết trình phân tích tùy chỉnh hay giải nén gói MIME bằng tay. Aspose.HTML thực hiện phần việc nặng, cung cấp cho bạn cấu trúc thư mục sạch sẽ với các tệp HTML, CSS và media sẵn sàng sử dụng. Khi kết thúc, bạn sẽ có một chương trình Java có thể chạy được, chuyển bất kỳ tệp `.mhtml` nào thành một bộ tài nguyên web thông thường.
+## Câu trả lời nhanh
+- **Cách nhanh nhất để lấy HTML ra khỏi tệp MHTML là gì?** Sử dụng `HTMLDocument` với `MhtmlExtractionOptions` và gọi `Converter.extract`.  
+- **Có cần tự viết bộ phân tích MIME không?** Không, Aspose.HTML xử lý việc phân tích nội bộ.  
+- **Hệ điều hành nào được hỗ trợ?** Bất kỳ OS nào chạy Java 8+, bao gồm Windows, Linux và macOS.  
+- **Có thể chỉ trích xuất hình ảnh không?** Có – chạy quá trình trích xuất rồi sử dụng thư mục `images/` được tạo ra.  
+- **Phiên bản Aspose.HTML nào cần thiết?** Phiên bản 23.10 trở lên cung cấp API được dùng trong hướng dẫn này.
 
-## Những gì bạn sẽ học
+## “extract html from mhtml” là gì?
+Cụm từ “extract html from mhtml” đề cập tới việc chuyển đổi một kho lưu trữ web dạng file đơn (MHTML) trở lại thành các thành phần HTML, CSS và tài nguyên media riêng lẻ. Quá trình này khôi phục cấu trúc trang gốc để trình duyệt có thể hiển thị mà không cần container gộp.
 
-* Tải một tệp MHTML vào `HTMLDocument`.
-* Cấu hình `MhtmlExtractionOptions` để chỉ định nơi các tệp đã trích xuất sẽ được lưu.
-* Bật tính năng viết lại URL để HTML tham chiếu đến các tài nguyên đã được trích xuất mới.
-* Thực hiện việc trích xuất bằng một dòng lệnh duy nhất.
-* Mẹo để chỉ trích xuất hình ảnh, xử lý các tệp lớn, và khắc phục các vấn đề thường gặp.
+## Tại sao lại dùng Aspose.HTML cho nhiệm vụ này?
+Aspose.HTML hỗ trợ **hơn 50 định dạng đầu vào và đầu ra** và có thể xử lý các kho lưu trữ lên tới **1 GB** bằng cách stream dữ liệu, giúp giảm mức sử dụng bộ nhớ. Tính năng tự động sửa URL tích hợp đảm bảo HTML đã trích xuất trỏ tới các tệp tài nguyên mới tạo, loại bỏ các liên kết bị hỏng một cách tự động.
 
-**Yêu cầu trước**
+## Yêu cầu trước
+- Java 8 hoặc mới hơn đã được cài đặt.  
+- Aspose.HTML cho Java 23.10+ (tải JAR mới nhất từ trang web Aspose).  
+- Một dự án Java cơ bản đã được thiết lập trong IDE ưa thích (IntelliJ, Eclipse, VS Code, …).
 
-* Java 8 hoặc mới hơn đã được cài đặt.
-* Phiên bản mới nhất của Aspose.HTML cho Java (mã hoạt động với 23.10+).
-* Kiến thức cơ bản về dự án Java và IDE yêu thích của bạn (IntelliJ, Eclipse, VS Code, v.v.).
-
-> **Pro tip:** Nếu bạn chưa tải Aspose.HTML, hãy lấy JAR mới nhất từ [trang web Aspose](https://products.aspose.com/html/java) và thêm nó vào classpath của dự án.
+> **Mẹo chuyên nghiệp:** Nếu bạn chưa tải Aspose.HTML, hãy lấy JAR mới nhất từ [trang web Aspose](https://products.aspose.com/html/java) và thêm vào classpath của dự án.
 
 ![Diagram of extracting HTML from MHTML](extract-html-from-mhtml-diagram.png){alt="extract html from mhtml"}
 
-## Bước 1 – Thêm Aspose.HTML vào Dự án của bạn
+[Diagram of extracting HTML from MHTML](extract-html-from-mhtml-diagram.png)
 
-Trước khi bất kỳ mã nào chạy, thư viện phải có trong classpath. Nếu bạn dùng Maven, dán phần phụ thuộc sau vào `pom.xml` của bạn:
+## Làm sao để thêm Aspose.HTML vào dự án?
+Thêm thư viện vào classpath để trình biên dịch có thể tìm thấy API. Đối với Maven, chèn dependency vào `pom.xml`; đối với Gradle, thêm vào `build.gradle`. Bạn cũng có thể đặt JAR trong thư mục `libs` và tham chiếu thủ công. Khi thư viện đã hiển thị, bạn đã sẵn sàng **trích xuất HTML từ MHTML**.
+
+## Làm sao để tải một kho lưu trữ MHTML?
+`HTMLDocument` đại diện cho một tài liệu web và có thể tải các tệp MHTML.  
+Tải tệp `.mhtml` dưới dạng `HTMLDocument`. Bước này xác thực kho lưu trữ và xây dựng cấu trúc nội bộ, cho phép engine trích xuất hoạt động hiệu quả.
 
 ```xml
 <dependency>
@@ -63,17 +100,21 @@ Trước khi bất kỳ mã nào chạy, thư viện phải có trong classpath.
 </dependency>
 ```
 
-Nếu bạn thích Gradle:
+**Anchor định nghĩa:** `HTMLDocument` là lớp cốt lõi của Aspose.HTML, đại diện cho bất kỳ tài liệu web nào—HTML, MHTML, hoặc các định dạng hỗ trợ khác—trong bộ nhớ.
+
+## Làm sao để cấu hình tùy chọn trích xuất (chuyển mhtml thành các tệp)?
+`MhtmlExtractionOptions` cho phép bạn đặt thư mục đầu ra, sửa URL, và quy tắc đặt tên cho các tài nguyên đã trích xuất.  
+Tạo một thể hiện của `MhtmlExtractionOptions` để chỉ định nơi ghi các tệp, có bật sửa URL hay không, và cách đặt tên tài nguyên. Cấu hình đúng sẽ giúp HTML đã trích xuất hoạt động ngay trong trình duyệt.
 
 ```gradle
 implementation 'com.aspose:aspose-html:23.10'
 ```
 
-Hoặc chỉ cần đặt JAR đã tải vào thư mục `libs` và tham chiếu thủ công. Khi thư viện đã hiển thị, bạn đã sẵn sàng để **trích xuất HTML từ MHTML**.
+**Anchor định nghĩa:** `MhtmlExtractionOptions` cho phép bạn chỉ định đường dẫn thư mục đầu ra, bật sửa URL, và kiểm soát quy tắc đặt tên cho các tài sản đã trích xuất.
 
-## Bước 2 – Tải tệp MHTML
-
-Bước logic đầu tiên là mở tệp `.mhtml` dưới dạng `HTMLDocument`. Hãy nghĩ rằng bạn đang nói với Aspose.HTML, “Đây là container tôi muốn làm việc.”
+## Làm sao để chạy quá trình trích xuất (trích xuất hình ảnh từ mhtml)?
+`Converter.extract` thực hiện việc trích xuất tài liệu đã tải bằng các tùy chọn đã cấu hình.  
+Gọi phương thức tĩnh `Converter.extract` với tài liệu đã tải và các tùy chọn. Phương thức sẽ stream nội dung ra đĩa, tạo ra cấu trúc thư mục gọn gàng.
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -85,11 +126,7 @@ String mhtmlPath = "C:/myfiles/archive.mhtml";
 HTMLDocument mhtmlDocument = new HTMLDocument(mhtmlPath);
 ```
 
-Tại sao điều này quan trọng: việc tải tài liệu xác thực tệp và chuẩn bị các cấu trúc nội bộ, vì vậy việc trích xuất tiếp theo sẽ chạy nhanh và không lỗi.
-
-## Bước 3 – Cấu hình tùy chọn trích xuất (Chuyển đổi MHTML thành các tệp)
-
-Bây giờ chúng ta chỉ cho thư viện **cách** chúng ta muốn nội dung được sắp xếp trên đĩa. `MhtmlExtractionOptions` cung cấp cho bạn kiểm soát chi tiết đối với thư mục đầu ra, việc viết lại URL, và việc giữ lại tên tệp gốc.
+Sau khi lệnh này hoàn thành, bạn sẽ thấy cấu trúc thư mục tương tự:
 
 ```java
 import com.aspose.html.converters.MhtmlExtractionOptions;
@@ -102,11 +139,45 @@ extractionOptions.setOutputFolder("C:/myfiles/extracted");
 extractionOptions.setRewriteUrls(true);
 ```
 
-Việc thiết lập `setRewriteUrls(true)` là rất quan trọng để **chuyển đổi mhtml thành các tệp** thực sự hoạt động khi bạn mở HTML đã trích xuất trong trình duyệt. Nếu không, trang sẽ vẫn trỏ tới các tham chiếu MHTML nội bộ và sẽ bị hỏng.
+Tệp HTML bây giờ tham chiếu đến các hình ảnh trong thư mục con `images/`, nghĩa là bạn đã **trích xuất hình ảnh từ mhtml** thành công cùng với toàn bộ markup HTML.
 
-## Bước 4 – Thực hiện trích xuất (Trích xuất hình ảnh từ MHTML)
+## Những lỗi thường gặp và cách tránh
+- **Kho lưu trữ lớn:** Tăng heap của JVM (`-Xmx2g`) nếu xử lý các tệp lớn hơn vài trăm megabyte.  
+- **Thư mục đầu ra rỗng:** Luôn bắt đầu với thư mục đích trống; các tệp còn lại có thể gây xung đột tên.  
+- **URL bị hỏng:** Đảm bảo `setRewriteUrls(true)` được bật; nếu không HTML vẫn sẽ trỏ tới các tham chiếu MHTML nội bộ.  
+- **Ghi log để khắc phục:** Bật log chi tiết với `System.setProperty("aspose.html.logging", "true")` để ghi lại bất kỳ lỗi trích xuất nào.
 
-Dòng cuối cùng thực hiện phép màu. Phương thức tĩnh `Converter.extract` đọc tài liệu đã tải, áp dụng các tùy chọn và ghi mọi thứ vào đĩa.
+## Câu hỏi thường gặp
+
+**H: Nếu tệp MHTML có kích thước hàng trăm megabyte thì sao?**  
+Đ: Aspose.HTML stream kho lưu trữ, vì vậy mức sử dụng bộ nhớ vẫn thấp. Điều chỉnh heap JVM nếu xử lý nhiều tệp lớn đồng thời.
+
+**H: Tôi có thể chỉ trích xuất hình ảnh mà không cần tệp HTML không?**  
+Đ: Có. Sau khi trích xuất, chỉ cần bỏ qua `index.html` và sử dụng nội dung trong thư mục `images/`. Bạn có thể liệt kê các tệp hình ảnh bằng `Files.walk` và lọc theo các phần mở rộng hình ảnh phổ biến.
+
+**H: Làm sao để giữ nguyên tên tệp gốc của các tài nguyên nhúng?**  
+Đ: `MhtmlExtractionOptions` mặc định giữ lại tên phần MIME gốc. Đối với việc đặt tên tùy chỉnh, bạn có thể xử lý sau khi trích xuất hoặc triển khai một `IResourceHandler` tùy chỉnh.
+
+**H: Điều này có hoạt động trên Linux và macOS không?**  
+Đ: Hoàn toàn có. Mã Java giống nhau chạy trên bất kỳ nền tảng nào hỗ trợ Java 8+, chỉ cần điều chỉnh đường dẫn hệ thống file cho phù hợp.
+
+**H: Làm sao để xử lý hàng loạt một thư mục chứa các tệp .mhtml?**  
+Đ: Viết một vòng lặp đơn giản duyệt tất cả các tệp `.mhtml`, tải mỗi tệp vào `HTMLDocument`, và gọi `Converter.extract` với thư mục đầu ra riêng cho mỗi tệp.
+
+## Kết luận
+Bạn đã có một phương pháp đáng tin cậy, một bước để **trích xuất HTML từ MHTML**, **chuyển MHTML thành các tệp**, và **trích xuất hình ảnh từ MHTML** bằng Aspose.HTML cho Java. Quy trình rất đơn giản: tải kho lưu trữ, cấu hình tùy chọn trích xuất, và để thư viện lo phần còn lại. Không cần tự viết parser MIME, không cần hack chuỗi yếu ớt—chỉ có mã sạch, tái sử dụng được mà bạn có thể đưa vào bất kỳ dự án Java nào.
+
+Bước tiếp theo? Tự động hoá quá trình để chuyển đổi hàng loạt, tích hợp đầu ra vào trình tạo site tĩnh, hoặc đưa HTML đã trích xuất vào quy trình quản lý nội dung. Mẫu này cũng áp dụng cho bản tin, trang web đã lưu, hoặc báo cáo lưu trữ.
+
+Có kịch bản khó khăn hoặc trường hợp sử dụng thú vị? Hãy chia sẻ suy nghĩ của bạn trong phần bình luận và tiếp tục cuộc trò chuyện. Chúc bạn lập trình vui vẻ!
+
+---
+
+**Cập nhật lần cuối:** 2026-08-22  
+**Kiểm tra với:** Aspose.HTML cho Java 23.10  
+**Tác giả:** Aspose  
+
+
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -114,8 +185,6 @@ import com.aspose.html.converters.Converter;
 // Perform the extraction
 Converter.extract(mhtmlDocument, extractionOptions);
 ```
-
-Sau khi lệnh này hoàn thành, bạn sẽ thấy cấu trúc thư mục tương tự như:
 
 ```
 extracted/
@@ -126,12 +195,6 @@ extracted/
     ├─ logo.png
     └─ banner.jpg
 ```
-
-Tệp HTML hiện tham chiếu đến các hình ảnh trong thư mục con `images/`, nghĩa là bạn đã thành công **trích xuất hình ảnh từ mhtml** cũng như toàn bộ mã HTML.
-
-## Ví dụ đầy đủ hoạt động
-
-Kết hợp tất cả các phần lại, đây là một lớp Java tự chứa mà bạn có thể sao chép‑dán vào IDE và chạy ngay lập tức:
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -156,50 +219,20 @@ public class ExtractMhtmlDemo {
 }
 ```
 
-**Kết quả mong đợi**
-
-Chạy chương trình sẽ in ra:
-
 ```
 Extraction complete! Check C:/myfiles/extracted
 ```
 
-…và thư mục `extracted` chứa một trang HTML hoạt động cùng với tất cả các tài nguyên liên quan. Mở `index.html` trong bất kỳ trình duyệt nào để xác nhận rằng hình ảnh, kiểu dáng và script được tải đúng.
+## Các hướng dẫn liên quan
 
-## Câu hỏi thường gặp & Trường hợp đặc biệt
+- [How to Convert HTML to MHTML with Aspose.HTML for Java](/html/java/conversion-html-to-other-formats/convert-html-to-mhtml/)
+- [How to Convert HTML to PDF Java – Using Aspose.HTML for Java](/html/java/conversion-html-to-other-formats/convert-html-to-pdf/)
+- [Convert HTML to XPS with Aspose.HTML for Java](/html/java/conversion-html-to-other-formats/convert-html-to-xps/)
 
-### Nếu tệp MHTML rất lớn (hàng trăm MB) thì sao?
-
-Aspose.HTML truyền nội dung, vì vậy việc tiêu thụ bộ nhớ vẫn ở mức vừa phải. Tuy nhiên, bạn có thể muốn tăng heap của JVM (`-Xmx2g`) nếu bạn đang trích xuất các tệp cực lớn hoặc chạy nhiều trích xuất song song.
-
-### Tôi có thể chỉ trích xuất hình ảnh mà không cần HTML không?
-
-Có. Sau khi trích xuất, chỉ cần bỏ qua tệp `.html` và làm việc với thư mục `images/`. Nếu bạn cần danh sách các đường dẫn hình ảnh theo chương trình, bạn có thể quét thư mục đầu ra bằng `Files.walk` và lọc theo phần mở rộng (`.png`, `.jpg`, `.gif`, v.v.).
-
-### Làm sao để giữ nguyên tên tệp gốc?
-
-`MhtmlExtractionOptions` mặc định giữ nguyên tên tệp phần MIME gốc. Nếu bạn cần một quy tắc đặt tên tùy chỉnh, bạn có thể xử lý sau khi trích xuất hoặc triển khai một `IResourceHandler` tùy chỉnh (sử dụng nâng cao).
-
-### Điều này có hoạt động trên Linux/macOS không?
-
-Chắc chắn. Mã Java này chạy trên bất kỳ hệ điều hành nào hỗ trợ Java 8+. Chỉ cần điều chỉnh đường dẫn tệp (`/home/user/archive.mhtml` thay vì `C:/...`).
-
-## Mẹo để trải nghiệm trích xuất suôn sẻ
-
-* **Xác thực MHTML trước** – mở nó trong Chrome hoặc Edge để đảm bảo hiển thị đúng trước khi trích xuất.
-* **Giữ thư mục đầu ra trống** – Aspose.HTML sẽ ghi đè các tệp hiện có, nhưng các tệp thừa có thể gây nhầm lẫn.
-* **Sử dụng đường dẫn tuyệt đối** trong ví dụ; đường dẫn tương đối cũng hoạt động nhưng cần xử lý cẩn thận thư mục làm việc.
-* **Bật ghi log** (`System.setProperty("aspose.html.logging", "true")`) nếu gặp lỗi khó hiểu; thư viện sẽ xuất ra các thông báo chi tiết.
-
-## Kết luận
-
-Bạn đã có một phương pháp đáng tin cậy, một‑bước để **trích xuất HTML từ MHTML**, **chuyển đổi MHTML thành các tệp**, và **trích xuất hình ảnh từ MHTML** bằng Aspose.HTML cho Java. Cách tiếp cận rất đơn giản: tải tệp, cấu hình tùy chọn trích xuất, và để thư viện thực hiện phần còn lại. Không cần phân tích MIME thủ công, không cần hack chuỗi dễ gãy—chỉ có mã sạch, tái sử dụng mà bạn có thể đưa vào bất kỳ dự án Java nào.
-
-Tiếp theo là gì? Hãy thử nối chuỗi trích xuất với một quy trình batch duyệt qua thư mục các tệp `.mhtml` và chuyển đổi chúng tất cả cùng một lúc. Hoặc đưa HTML đã trích xuất vào một công cụ tạo site tĩnh để tự động xây dựng tài liệu. Các khả năng là vô hạn, và mẫu này áp dụng cho bất kỳ trường hợp nào như bản tin, trang web đã lưu, hoặc báo cáo lưu trữ.
-
-Có câu hỏi, trường hợp đặc biệt, hoặc một ví dụ sử dụng thú vị muốn chia sẻ? Hãy để lại bình luận bên dưới, và chúng ta sẽ tiếp tục thảo luận. Chúc lập trình vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

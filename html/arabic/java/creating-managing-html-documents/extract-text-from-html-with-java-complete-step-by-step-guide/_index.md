@@ -21,13 +21,9 @@ title: استخراج النص من HTML باستخدام Java – دليل خط
 url: /ar/java/creating-managing-html-documents/extract-text-from-html-with-java-complete-step-by-step-guide/
 ---
 
-unchanged.
 
-Let's craft Arabic translations.
 
-Be careful with punctuation.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
