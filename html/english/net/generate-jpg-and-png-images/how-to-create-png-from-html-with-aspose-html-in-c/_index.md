@@ -29,7 +29,7 @@ tags:
 - Aspose.HTML
 - C#
 - image rendering
-title: How to create PNG from HTML with Aspose.HTML API in C#
+title: How to render HTML to PNG using Aspose.HTML for .NET in C#
 url: /net/generate-jpg-and-png-images/how-to-create-png-from-html-with-aspose-html-in-c/
 ---
 
