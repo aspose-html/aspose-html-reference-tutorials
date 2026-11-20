@@ -43,7 +43,7 @@ schemas:
     text: Create an instance of the `MyResourceHandler` you defined earlier. This
       object will be passed to the `Save` method.
   - name: (Optional) Configure save options
-    text: '`SaveOptions` lets you control output format, encoding, and other details.
+    text: '`HtmlSaveOptions` lets you control output format, encoding, and other details.
       For a basic **save HTML document** operation the defaults are fine, but the
       object is ready for customization.'
   - name: Save the document using the custom handler
@@ -55,7 +55,7 @@ tags:
 - Aspose.HTML
 - C#
 - HTML processing
-title: How to create an HTMLDocument from a string using Aspose.HTML
+title: Create an HTMLDocument from a string with Aspose.HTML
 url: /net/html-document-manipulation/how-to-create-html-document-from-string-with-aspose-html/
 ---
 
@@ -73,7 +73,7 @@ You’ll walk through every line of code, understand why each component exists, 
 
 * Building an `HTMLDocument` directly from an HTML string.  
 * Implementing a **custom resource handler** that supplies a `MemoryStream` for each resource.  
-* Configuring `SaveOptions` when you need to tweak output.  
+* Configuring `HtmlSaveOptions` when you need to tweak output.  
 * Saving the document using `document.Save(...)` so you can later write the streams to storage, send them over the network, or process them further.  
 
 **Prerequisites**  
@@ -141,13 +141,13 @@ MyResourceHandler resourceHandler = new MyResourceHandler();
 
 ### Step 4: (Optional) Configure save options
 
-`SaveOptions` lets you control output format, encoding, and other details. For a basic **save HTML document** operation the defaults are fine, but the object is ready for customization.
+`HtmlSaveOptions` lets you control output format, encoding, and other details. For a basic **save HTML document** operation the defaults are fine, but the object is ready for customization.
 
 ```csharp
 using Aspose.Html.Saving;
 
 // Default options – you can set properties like Encoding, PrettyPrint, etc.
-SaveOptions saveOptions = new SaveOptions();
+HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 ```
 
 > **Tip:** If you need XHTML output, set `saveOptions.Encoding = Encoding.UTF8;` and `saveOptions.PrettyPrint = true;`.
@@ -213,7 +213,7 @@ namespace HtmlFromStringDemo
             var handler = new MyResourceHandler();
 
             // Step 4 – optional save options (using defaults here).
-            var saveOptions = new SaveOptions();
+            var saveOptions = new HtmlSaveOptions();
 
             // Step 5 – save the document; resources go into the handler's streams.
             document.Save(handler, saveOptions);
@@ -286,7 +286,7 @@ The console prints the generated HTML and lists all resources that the handler r
 
 ## Conclusion
 
-You now know how to **create html document from string** using the **Aspose.HTML library**, attach a **custom resource handler**, configure optional **save options**, and retrieve the generated output from **memory streams**. This pattern lets you keep every piece of HTML processing in memory, which is ideal for cloud functions, test suites, or any scenario where disk I/O is undesirable.
+You now know how to **create html document from string** using the **Aspose.HTML library**, attach a **custom resource handler**, configure optional **HtmlSaveOptions**, and retrieve the generated output from **memory streams**. This pattern lets you keep every piece of HTML processing in memory, which is ideal for cloud functions, test suites, or any scenario where disk I/O is undesirable.
 
 From here you can:
 
