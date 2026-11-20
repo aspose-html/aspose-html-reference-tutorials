@@ -76,6 +76,8 @@ Impara a generare documenti HTML da stringhe C# usando un gestore di risorse per
 ### [Come creare HTML con Aspose – Trova elemento, applica grassetto](./how-to-create-html-with-aspose-find-element-apply-bold/)
 Scopri come individuare un elemento HTML e applicare il grassetto usando Aspose.HTML in .NET.
 
+### [Come creare un documento HTML da stringa con Aspose.HTML](./how-to-create-html-document-from-string-with-aspose-html/)
+Impara a generare un documento HTML a partire da una stringa C# utilizzando Aspose.HTML per .NET.
 ### [Rendere il testo grassetto e corsivo in C# – Guida rapida allo styling HTML](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
 Scopri come applicare grassetto e corsivo al testo HTML usando C# con Aspose.HTML in pochi passaggi.
 ### [Aggiungere elemento al body – Guida completa C# con Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)

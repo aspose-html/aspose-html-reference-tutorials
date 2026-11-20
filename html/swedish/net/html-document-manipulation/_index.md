@@ -77,6 +77,8 @@ Lås upp potentialen för webbutveckling med Aspose.HTML för .NET. Skapa, konve
 Lär dig att skapa HTML-dokument med Aspose.HTML i .NET med en tydlig steg‑för‑steg‑guide.
 ### [Hur du stylar HTML med Aspose.Html – Ställ in teckensnittsstil i C#](./how-to-style-html-with-aspose-html-set-font-style-in-c/)
 Lär dig hur du använder Aspose.HTML för att anpassa teckensnittsstilen i HTML med C#. Steg-för-steg‑exempel och tips.
+### [Skapa HTML-dokument från sträng med Aspose.HTML](./how-to-create-html-document-from-string-with-aspose-html/)
+Lär dig hur du skapar ett HTML-dokument från en sträng med Aspose.HTML i .NET.
 ### [Skapa HTML från sträng i C# – Anpassad resurs‑hanterare guide](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Lär dig hur du skapar HTML från en sträng i C# med en anpassad resurs‑hanterare i Aspose.HTML för .NET.
 ### [Hur man skapar HTML och lägger till CSS‑stilelement – steg‑för‑steg‑guide](./how-to-create-html-and-add-css-style-element-step-by-step-gu/)

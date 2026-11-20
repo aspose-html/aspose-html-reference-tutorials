@@ -1,5 +1,5 @@
 ---
-title: HTML Document Manipulation
+title: How to Manipulate HTML Documents with Aspose.HTML for .NET
 linktitle: HTML Document Manipulation
 second_title: Aspose.HTML .NET HTML manipulation API
 description: Discover how Aspose.HTML for .NET empowers you to manipulate HTML documents efficiently. Explore tutorials that guide you through the process.
@@ -32,7 +32,26 @@ Aspose.HTML for .NET offers a myriad of advantages:
 
 - DOM Manipulation: Perform in-depth manipulation of HTML Document Object Models (DOM) with ease.
 
-## Exploring Our Tutorials
+Here is a simple example that demonstrates how to load an HTML file, modify its DOM, and save the result using Aspose.HTML for .NET:
+
+```csharp
+using Aspose.Html;
+using Aspose.Html.Dom;
+
+var document = new HTMLDocument("sample.html");
+
+// Create a new paragraph element
+var paragraph = document.CreateElement("p");
+paragraph.InnerHtml = "Hello, Aspose.HTML!";
+
+// Append the paragraph to the body
+document.Body.AppendChild(paragraph);
+
+// Save the modified document
+document.Save("output.html");
+```
+
+## Exploring our tutorials
 
 Now, let's dive into the treasure trove of tutorials awaiting you:
 
@@ -48,18 +67,18 @@ Our tutorials are designed to cater to various skill levels, from beginners to e
 
 Aspose.HTML for .NET stands out for its simplicity and power. It empowers you to take full control of HTML documents, providing solutions for tasks such as report generation, data extraction, and web scraping. The learning curve is gentle, and you'll find yourself achieving impressive results in no time.
 
-## HTML Document Manipulation Tutorials
-### [Load HTML Documents Asynchronously in .NET with Aspose.HTML](./load-html-doc-asynchronously/)
+## HTML document manipulation tutorials
+### [Load HTML Documents Asynchronously in .NET with Aspose.HTML]({{< relref "load-html-doc-asynchronously/_index.md" >}})
 Learn how to use Aspose.HTML for .NET to work with HTML documents. Step-by-step guide with examples and FAQs for developers.
-### [Load HTML Documents with Credentials in .NET with Aspose.HTML](./load-html-doc-with-credentials/)
+### [Load HTML Documents with Credentials in .NET with Aspose.HTML]({{< relref "load-html-doc-with-credentials/_index.md" >}})
 Learn how to supercharge your SEO with Aspose.HTML for .NET. Boost rankings, analyze web content, and optimize for search engines.
-### [Load HTML Using a Remote Server in .NET with Aspose.HTML](./load-html-using-remote-server/)
+### [Load HTML Using a Remote Server in .NET with Aspose.HTML]({{< relref "load-html-using-remote-server/_index.md" >}})
 Unlock the potential of Aspose.HTML for .NET with our comprehensive guide. Learn how to import namespaces, access remote HTML documents, and more.
-### [Load HTML Using URL in .NET with Aspose.HTML](./load-html-using-url/)
+### [Load HTML Using URL in .NET with Aspose.HTML]({{< relref "load-html-using-url/_index.md" >}})
 Learn how to harness the power of Aspose.HTML for .NET. Boost your web development with HTML manipulation and rendering.
-### [Creating a Document in .NET with Aspose.HTML](./creating-a-document/)
+### [Creating a Document in .NET with Aspose.HTML]({{< relref "creating-a-document/_index.md" >}})
 Unleash the Power of Aspose.HTML for .NET. Learn to Create, Manipulate, and Optimize HTML and SVG Documents with Ease. Explore Step-By-Step Examples and FAQs.
-### [Create HTML Document with Aspose.HTML – Step‑by‑Step Guide](./create-html-document-with-aspose-html-step-by-step-guide/)
+### [Create HTML document with Aspose.HTML – step‑by‑Step guide]({{< relref "create-html-document-with-aspose-html-step-by-step-guide/_index.md" >}})
 Learn how to create HTML documents using Aspose.HTML for .NET with a detailed step‑by‑step guide and practical examples.
 ### [How to Create HTML and Add CSS Style Element – Step‑by‑Step Guide](./how-to-create-html-and-add-css-style-element-step-by-step-gu/)
 Learn how to create an HTML document and add CSS style elements using Aspose.HTML for .NET. Step‑by‑step guide with examples.
@@ -74,22 +93,26 @@ Learn how to apply bold and italic fonts in HTML using Aspose.HTML for .NET with
 ### [Create HTML Document Memory with Aspose.HTML – Complete Guide](./create-html-document-memory-with-aspose-html-complete-guide/)
 Learn how to create an HTML document directly in memory using Aspose.HTML for .NET with comprehensive examples and best practices.
 ### [Create HTML from String in C# – Custom Resource Handler Guide](./create-html-from-string-in-c-custom-resource-handler-guide/)
+### [Create HTML from String in C# – Custom Resource Handler Guide]({{< relref "create-html-from-string-in-c-custom-resource-handler-guide/_index.md" >}})
 Learn how to generate HTML from a string using a custom resource handler in C# with Aspose.HTML for .NET.
-### [Make Text Bold Italic in C# – Quick Guide to Styling HTML](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
+### [How to create html document from string with Aspose.HTML]({{< relref "how-to-create-html-document-from-string-with-aspose-html/_index.md" >}})
+Learn how to generate an HTML document from a string using Aspose.HTML for .NET with a clear step‑by‑step guide.
+### [Make text bold italic in C# – quick guide to styling hTML]({{< relref "make-text-bold-italic-in-c-quick-guide-to-styling-html/_index.md" >}})
 Learn how to apply bold and italic styling to text in HTML using C# with Aspose.HTML – a quick guide for developers.
-### [Editing a Document in .NET with Aspose.HTML](./editing-a-document/)
+### [Editing a Document in .NET with Aspose.HTML]({{< relref "editing-a-document/_index.md" >}})
 Create captivating web content with Aspose.HTML for .NET. Learn how to manipulate HTML, CSS, and more.
-### [Saving a Document in .NET with Aspose.HTML](./saving-a-document/)
+### [Saving a Document in .NET with Aspose.HTML]({{< relref "saving-a-document/_index.md" >}})
 Unlock the power of Aspose.HTML for .NET with our step-by-step guide. Learn to create, manipulate, and convert HTML and SVG documents
 ### [How to Save HTML with Aspose.Html – Step‑by‑Step Guide](./how-to-save-html-with-aspose-html-step-by-step-guide/)
 Step-by-step guide on saving HTML content using Aspose.HTML for .NET, covering code examples and best practices.
 ### [Merge HTML with Json in .NET with Aspose.HTML](./merge-html-with-json/)
+### [Merge HTML with Json in .NET with Aspose.HTML]({{< relref "merge-html-with-json/_index.md" >}})
 Learn to create dynamic and web content using Aspose.HTML for .NET. Empower your online presence and engage your audience.
-### [Merge HTML with XML in .NET with Aspose.HTML](./merge-html-with-xml/)
+### [Merge HTML with XML in .NET with Aspose.HTML]({{< relref "merge-html-with-xml/_index.md" >}})
 Learn to use Aspose.HTML for .NET. Import namespace, merge HTML with XML, and enhance your web development skills with this comprehensive guide.
-### [Generate XPS Documents by XpsDevice in .NET with Aspose.HTML](./generate-xps-documents-by-xpsdevice/)
+### [Generate XPS Documents by XpsDevice in .NET with Aspose.HTML]({{< relref "generate-xps-documents-by-xpsdevice/_index.md" >}})
 Unlock the potential of web development with Aspose.HTML for .NET. Create, convert, and manipulate HTML documents easily.
-### [Append Element to Body – Complete C# Guide with Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)
+### [Append Element to Body – Complete C# Guide with Aspose.HTML]({{< relref "append-element-to-body-complete-c-guide-with-aspose-html/_index.md" >}})
 Learn how to append elements to the HTML body using Aspose.HTML for .NET with a complete C# guide and practical examples.
 ### [how to create html with Aspose – Find Element, Apply Bold](./how-to-create-html-with-aspose-find-element-apply-bold/)
 Learn how to find an element and apply bold formatting using Aspose.HTML for .NET.

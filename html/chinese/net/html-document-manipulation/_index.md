@@ -107,6 +107,8 @@ Aspose.HTML for .NET 以其简单性和强大性脱颖而出。它使您能够�
 了解如何使用 Aspose.HTML 在内存中创建和操作 HTML 文档的完整步骤指南。
 ### [在 C# 中创建 HTML 文档 – 完整编程指南](./create-html-document-in-c-complete-programming-guide/)
 了解如何使用 Aspose.HTML 在 C# 中完整创建 HTML 文档的步骤和示例。
+### [使用 Aspose.HTML 从字符串创建 HTML 文档](./how-to-create-html-document-from-string-with-aspose-html/)
+了解如何使用 Aspose.HTML 将字符串转换为 HTML 文档的完整步骤。
 
 ## 结论
 

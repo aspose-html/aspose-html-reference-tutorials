@@ -110,6 +110,8 @@ Pelajari cara membuat font tebal miring di C# menggunakan Aspose.HTML dengan con
 Pelajari cara membuat dokumen HTML di memori menggunakan Aspose.HTML dengan contoh lengkap dan langkah-langkah praktis.
 ### [Buat Dokumen HTML di C# – Panduan Pemrograman Lengkap](./create-html-document-in-c-complete-programming-guide/)
 Pelajari cara membuat dokumen HTML di C# dengan panduan pemrograman lengkap menggunakan Aspose.HTML.
+### [Cara Membuat Dokumen HTML dari String dengan Aspose.HTML](./how-to-create-html-document-from-string-with-aspose-html/)
+Pelajari cara membuat dokumen HTML dari string menggunakan Aspose.HTML dalam contoh langkah demi langkah.
 
 ## Kesimpulan
 

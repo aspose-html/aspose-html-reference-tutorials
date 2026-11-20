@@ -108,6 +108,8 @@ Aspose.HTML สำหรับ .NET โดดเด่นด้วยควา�
 เรียนรู้วิธีสร้างฟอนต์หนาและเอียงใน C# ด้วย Aspose.HTML อย่างละเอียดและครบถ้วน
 ### [สร้างหน่วยความจำเอกสาร HTML ด้วย Aspose.HTML – คู่มือฉบับสมบูรณ์](./create-html-document-memory-with-aspose-html-complete-guide/)
 เรียนรู้วิธีสร้างเอกสาร HTML ในหน่วยความจำโดยใช้ Aspose.HTML พร้อมตัวอย่างและขั้นตอนครบถ้วน
+### [วิธีสร้างเอกสาร HTML จากสตริงด้วย Aspose.HTML](./how-to-create-html-document-from-string-with-aspose-html/)
+คำแนะนำทีละขั้นตอนในการสร้างเอกสาร HTML จากสตริงโดยใช้ Aspose.HTML สำหรับ .NET
 
 ## บทสรุป
 

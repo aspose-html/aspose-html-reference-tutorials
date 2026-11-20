@@ -52,7 +52,6 @@ Ismerje meg, hogyan konvertálhat HTML-t PNG képpé C#-ban az Aspose.HTML for .
 Ismerje meg, hogyan konvertálhat HTML-t PNG képpé C#-ban az Aspose.HTML segítségével, részletes lépésekkel és beállításokkal.
 ### [PNG létrehozása HTML-ből C#-ban – HTML renderelése PNG formátumba](./create-png-from-html-in-c-render-html-to-png/)
 Ismerje meg, hogyan konvertálhat HTML-t PNG képpé C# nyelven az Aspose.HTML for .NET segítségével.
-
 ### [PNG létrehozása HTML-ből – Teljes C# útmutató](./create-png-from-html-complete-c-guide/)
 Ismerje meg, hogyan konvertálhat HTML-t PNG képpé C#-ban az Aspose.HTML for .NET segítségével, lépésről lépésre.
 ### [Hogyan engedélyezzük az antialiasingot a DOCX PNG/JPG konvertálásakor](./how-to-enable-antialiasing-when-converting-docx-to-png-jpg/)
@@ -154,10 +153,12 @@ Ismerje meg, hogyan konvertálhat HTML-t PNG képpé C#-ban az Aspose.HTML segí
 ### [HTML renderelése PNG-be C#‑ban az Aspose.HTML segítségével](./how-to-render-html-to-png-in-c-with-aspose-html/)
 ### [Hogyan hozhatunk képet HTML-ből az Aspose.HTML használatával C#-ban](./how-to-create-image-from-html-using-aspose-html-in-c/)
 Ismerje meg, hogyan konvertálhat HTML-t képpé C#‑ban az Aspose.HTML segítségével.
+### [PNG létrehozása HTML-ből Aspose.HTML segítségével C#‑ban](./how-to-create-png-from-html-with-aspose-html-in-c/)
+Ismerje meg, hogyan konvertálhat HTML-t PNG képpé C#‑ban az Aspose.HTML könyvtár segítségével.
 
 ## Következtetés
 
-Összefoglalva, az Aspose.HTML for .NET felhasználóbarát és hatékony megoldást kínál JPG és PNG képek előállítására HTML tartalomból. Akár tapasztalt fejlesztő, akár csak most kezdő, ezek az oktatóanyagok végigvezetik a folyamaton. Az Aspose.HTML for .NET segítségével vizuálisan tetszetős képeket készíthet, amelyek kiemelkednek, és kiemelik projektjeit.
+Összefoglalva, az Aspose.HTML for .NET felhasználóbarát és hatékony megoldást kínál JPG és PNG képek előállítására HTML tartalomból. Akár tapasztalt fejlesztő, akár csak most kezdő, ezek az oktatóanyagok végigvezetik a folyamaton. Az Aspose.HTML for .NET segítségével vizuálisan tetszetős képeket készíthet, amelyek kiemelkednek és kiemelik projektjeit.
 
 Szóval minek várni? Kezdje el felfedezni a HTML-kép konvertálás világát az Aspose.HTML for .NET segítségével még ma. Fedezzen fel új lehetőségeket, és tegye webes és asztali alkalmazásait még vonzóbbá és látványosabbá. Boldog kódolást!
 {{< /blocks/products/pf/tutorial-page-section >}}

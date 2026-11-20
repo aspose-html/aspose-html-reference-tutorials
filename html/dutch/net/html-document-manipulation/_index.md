@@ -70,6 +70,8 @@ Leer hoe u HTML vanuit een string genereert in C# met een aangepaste resourcehan
 Leer hoe u HTML-bestanden maakt en een CSS‑stijl‑element toevoegt met een duidelijke stap‑voor‑stap handleiding.
 ### [Hoe HTML maken – Elementen toevoegen en tekst opmaken](./how-to-create-html-append-elements-and-style-text/)
 Leer hoe u HTML maakt, elementen toevoegt en tekst opmaakt met Aspose.HTML voor .NET.
+### [HTML-document maken vanuit een string met Aspose.HTML](./how-to-create-html-document-from-string-with-aspose-html/)
+Leer hoe u met Aspose.HTML een HTML-document vanuit een string genereert, inclusief voorbeeldcode en stapsgewijze uitleg.
 ### [Een document bewerken in .NET met Aspose.HTML](./editing-a-document/)
 Maak boeiende webcontent met Aspose.HTML voor .NET. Leer hoe u HTML, CSS en meer kunt manipuleren.
 

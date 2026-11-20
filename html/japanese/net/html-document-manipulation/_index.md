@@ -108,6 +108,8 @@ C# でフォントを太字かつ斜体に設定する方法をステップバ�
 Aspose.HTML を利用して、HTML ドキュメントをメモリ上に作成し操作する方法をステップバイステップで解説します。
 ### [C# で HTML ドキュメントを作成 – 完全プログラミングガイド](./create-html-document-in-c-complete-programming-guide/)
 Aspose.HTML for .NET を使用して C# で HTML ドキュメントを作成する方法をステップバイステップで解説します。
+### [Aspose.HTML を使用して .NET で文字列から HTML ドキュメントを作成する](./how-to-create-html-document-from-string-with-aspose-html/)
+文字列から HTML ドキュメントを生成し、Aspose.HTML の機能で操作する方法をステップバイステップで解説します。
 
 ## 結論
 

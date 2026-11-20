@@ -107,6 +107,8 @@ Naučte se, jak v C# pomocí Aspose.HTML vytvořit písmo s tučným a kurzívn�
 Naučte se, jak pomocí Aspose.HTML vytvořit HTML dokument přímo v paměti a pracovat s ním bez souborového systému.
 ### [Vytvořte HTML dokument v C# – Kompletní programovací průvodce](./create-html-document-in-c-complete-programming-guide/)
 Naučte se, jak pomocí Aspose.HTML v C# vytvořit HTML dokument od začátku s podrobnými ukázkami a tipy.
+### [Jak vytvořit HTML dokument ze řetězce pomocí Aspose.HTML](./how-to-create-html-document-from-string-with-aspose-html/)
+Naučte se, jak pomocí Aspose.HTML vytvořit HTML dokument přímo ze řetězce v C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -105,6 +105,8 @@ C# ile Aspose.HTML kullanarak kalın ve italik yazı tipleri oluşturmayı adım
 Aspose.HTML kullanarak bellek içinde HTML belge oluşturmayı ve yönetmeyi adım adım öğrenin.
 ### [C#'ta HTML Belgesi Oluşturma – Tam Programlama Rehberi](./create-html-document-in-c-complete-programming-guide/)
 C# kullanarak HTML belge oluşturmayı ve tam programlama rehberini öğrenin.
+### [Aspose.HTML ile Dizeden HTML Belgesi Oluşturma](./how-to-create-html-document-from-string-with-aspose-html/)
+C# içinde dizeden HTML belgesi oluşturmayı ve Aspose.HTML ile kaydetmeyi öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

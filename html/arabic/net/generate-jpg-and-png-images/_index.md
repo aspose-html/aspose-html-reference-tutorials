@@ -160,6 +160,8 @@ Aspose.HTML for .NET هي مكتبة قوية تتيح للمطورين إنشا
 ### [كيفية إنشاء صورة من HTML باستخدام Aspose.HTML في C#](./how-to-create-image-from-html-using-aspose-html-in-c/)
 تعلم خطوة بخطوة كيفية تحويل ملفات HTML إلى صورة باستخدام C# ومكتبة Aspose.HTML.
 ### [كيفية تحويل HTML إلى PNG باستخدام Aspose.HTML في C#](./how-to-render-html-to-png-with-aspose-html-in-c/)
+### [كيفية إنشاء PNG من HTML باستخدام Aspose.HTML في C#](./how-to-create-png-from-html-with-aspose-html-in-c/)
+تعلم كيفية تحويل ملفات HTML إلى صور PNG باستخدام Aspose.HTML في بيئة C# خطوة بخطوة.
 
 ## خاتمة
 

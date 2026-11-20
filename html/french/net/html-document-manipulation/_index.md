@@ -118,6 +118,8 @@ Apprenez à définir la propriété innerHTML d'un élément span en C# à l'aid
 
 ### [Créer une police en gras italique en C# – Guide complet](./create-font-bold-italic-in-c-complete-guide/)
 Apprenez à créer des polices en gras et italique en C# avec Aspose.HTML. Guide complet avec exemples pas à pas.
+### [Créer un document HTML à partir d'une chaîne avec Aspose.HTML](./how-to-create-html-document-from-string-with-aspose-html/)
+Apprenez à générer un document HTML à partir d'une chaîne en C# avec Aspose.HTML.
 
 ## Conclusion
 
