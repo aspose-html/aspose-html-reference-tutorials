@@ -22,11 +22,9 @@ title: Come generare una miniatura da HTML – Guida Java
 url: /it/java/conversion-html-to-various-image-formats/how-to-generate-thumbnail-from-html-java-guide/
 ---
 
-/products/pf/tutorial-page-section >}} etc unchanged. Also final backtop button shortcode.
 
-Now ensure we keep all markdown formatting, code block placeholders unchanged.
 
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

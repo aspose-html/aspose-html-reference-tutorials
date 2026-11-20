@@ -86,6 +86,8 @@ Batchverwerking maakt gebruik van dezelfde API‑calls, zodat je consistente res
 Leer hoe je EPUB naar afbeelding kunt converteren met Aspose.HTML for Java. Een eenvoudige, stapsgewijze gids voor efficiënte conversies.  
 ### [EPUB naar PDF-conversie met Aspose.HTML voor Java](./convert-epub-to-pdf/)
 Leer hoe je EPUB naar PDF kunt converteren met Aspose.HTML for Java. Deze stapsgewijze gids behandelt vereisten, package‑imports en code‑voorbeelden. Begin met EPUB‑naar‑PDF‑conversie.
+### [EPUB naar PNG converteren in Java – Afbeeldingsafmetingen instellen](./convert-epub-to-png-in-java-set-image-dimensions/)
+Leer hoe je EPUB naar PNG converteert in Java en de afbeeldingafmetingen kunt aanpassen voor optimale kwaliteit.
 
 ## Veelgestelde vragen
 

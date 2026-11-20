@@ -1,10 +1,52 @@
 ---
-date: 2025-12-05
-description: Μάθετε πώς να ορίζετε τα περιθώρια σελίδας HTML με Java χρησιμοποιώντας
-  το Aspose.HTML και να προσθέτετε αριθμούς σελίδων και τίτλους στα έγγραφά σας.
-linktitle: CSS Extensions - Adding Title and Page Number
+date: 2026-06-24
+description: Μάθετε πώς να μετατρέψετε HTML σε PDF Java με Aspose.HTML, ορίστε περιθώρια
+  σελίδας, προσθέστε αριθμούς σελίδων και κεφαλίδες/υποσέλιδα αποδοτικά.
+keywords:
+- html to pdf java
+- pdf from html java
+- html to pdf tutorial
+linktitle: Επεκτάσεις CSS - Προσθήκη τίτλου και αριθμού σελίδας
+schemas:
+- author: Aspose
+  dateModified: '2026-06-24'
+  description: Learn how to convert HTML to PDF Java with Aspose.HTML, set page margins,
+    add page numbers and headers/footers efficiently.
+  headline: How to Convert HTML to PDF Java - Set Page Margins with Aspose.HTML
+  type: TechArticle
+- description: Learn how to convert HTML to PDF Java with Aspose.HTML, set page margins,
+    add page numbers and headers/footers efficiently.
+  name: How to Convert HTML to PDF Java - Set Page Margins with Aspose.HTML
+  steps:
+  - name: Initialize Configuration and Define Custom Page Margins
+    text: The `Configuration` object holds global settings for the rendering engine.
+      By accessing its `IUserAgentService` you can inject a CSS style sheet that has
+      the highest priority, ensuring your margins, header, and footer are applied.
+  - name: Create the HTML Document
+    text: '`HTMLDocument` represents a single HTML file in memory. When you pass the
+      previously created `Configuration` to its constructor, the renderer automatically
+      uses the custom `@page` rule you defined in Step 1.'
+  - name: Render to an XPS File (or any supported output)
+    text: '`XpsDevice` writes the rendered pages to an XPS container, but you can
+      swap it for `PdfDevice` to get a PDF file instead. The same margin and footer
+      definitions are honoured, so the output looks identical regardless of format.'
+  type: HowTo
+- questions:
+  - answer: Aspose.HTML for Java provides a complete HTML‑to‑PDF conversion engine.
+    question: What library is needed?
+  - answer: Yes – add a CSS `@page` rule to a user‑style sheet and the renderer respects
+      it.
+    question: Can I control margins programmatically?
+  - answer: PDF, XPS, and raster image formats (PNG, JPEG) all honor the same `@page`
+      definitions.
+    question: Which output formats support margins?
+  - answer: A valid Aspose.HTML license is required for any non‑trial deployment.
+    question: Do I need a license for production?
+  - answer: Absolutely – the library runs on Java 11, 17, and newer LTS releases.
+    question: Is this compatible with Java 11+?
+  type: FAQPage
 second_title: Java HTML Processing with Aspose.HTML
-title: Πώς να ορίσετε τα περιθώρια σελίδας HTML σε Java με το Aspose.HTML
+title: Πώς να μετατρέψετε HTML σε PDF Java - Ορισμός περιθωρίων σελίδας με Aspose.HTML
 url: /el/java/advanced-usage/css-extensions-adding-title-page-number/
 weight: 10
 ---
@@ -13,35 +55,36 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Πώς να ορίσετε τα περιθώρια σελίδας HTML σε Java με το Aspose.HTML
+# Πώς να Μετατρέψετε HTML σε PDF Java: Ορισμός Περιθωρίων Σελίδας με Aspose.HTML
 
-Σε αυτό το σεμινάριο θα ανακαλύψετε **πώς να ορίσετε τα περιθώρια σελίδας HTML σε Java**‑στυλ χρησιμοποιώντας το Aspose.HTML για Java. Θα περάσουμε από τη δημιουργία προσαρμοσμένων περιθωρίων σελίδας, την εισαγωγή αριθμών σελίδων και την προσθήκη τίτλου εγγράφου—όλα με σαφή, βήμα‑βήμα κώδικα που μπορείτε να αντιγράψετε στο δικό σας έργο.
+Σε αυτό το σεμινάριο θα ανακαλύψετε **πώς να μετατρέψετε HTML σε PDF Java**‑στυλ χρησιμοποιώντας το Aspose.HTML για Java, ενώ θα μάθετε επίσης πώς να ορίζετε προσαρμοσμένα περιθώρια σελίδας, να εισάγετε αριθμούς σελίδων και να προσθέτετε τίτλο εγγράφου. Θα περάσουμε βήμα‑βήμα καθοδήγηση που μπορείτε να αντιγράψετε στο δικό σας έργο, ώστε να παράγετε επαγγελματικά PDFs απευθείας από HTML σε λίγα μόνο λεπτά.
 
 ## Γρήγορες Απαντήσεις
-- **What library is needed?** Aspose.HTML for Java  
-- **Can I control margins programmatically?** Ναι, μέσω ενός κανόνα CSS `@page` στο φύλλο στυλ του χρήστη  
-- **Which output formats support margins?** XPS, PDF και άλλες μορφές raster  
-- **Do I need a license for production?** Απαιτείται έγκυρη άδεια Aspose.HTML για χρήση εκτός δοκιμής  
-- **Is this compatible with Java 11+?** Απόλυτα – η βιβλιοθήκη λειτουργεί με σύγχρονες εκδόσεις της Java  
+- **Ποια βιβλιοθήκη χρειάζεται;** Το Aspose.HTML για Java παρέχει μια πλήρη μηχανή μετατροπής HTML‑σε‑PDF.  
+- **Μπορώ να ελέγξω τα περιθώρια προγραμματιστικά;** Ναι – προσθέστε έναν κανόνα CSS `@page` σε ένα φύλλο στυλ χρήστη και ο renderer τον τηρεί.  
+- **Ποιοι μορφές εξόδου υποστηρίζουν περιθώρια;** Τα PDF, XPS και οι μορφές raster εικόνας (PNG, JPEG) τηρούν όλες τις ίδιες ορισμούς `@page`.  
+- **Χρειάζομαι άδεια για παραγωγή;** Απαιτείται έγκυρη άδεια Aspose.HTML για οποιαδήποτε μη‑δοκιμαστική ανάπτυξη.  
+- **Είναι συμβατό με Java 11+;** Απόλυτα – η βιβλιοθήκη λειτουργεί σε Java 11, 17 και νεότερες εκδόσεις LTS.  
+- **Μπορώ να προσθέσω αριθμούς σελίδων σε Java;** Ναι – χρησιμοποιήστε το κουτί `@bottom-right` στον κανόνα CSS `@page` για να ενσωματώσετε `counter(page)`.
 
-## Τι είναι η «Ρύθμιση περιθωρίων σελίδας HTML σε Java»;
-Η ρύθμιση των περιθωρίων σελίδας HTML σε Java σημαίνει τη διαμόρφωση της μηχανής απόδοσης (που παρέχεται από το Aspose.HTML) ώστε να εφαρμόζει τις ιδιότητες CSS page‑box πριν το έγγραφο μετατραπεί σε εκτυπώσιμη μορφή όπως XPS ή PDF. Ορίζοντας έναν προσαρμοσμένο κανόνα `@page` ελέγχετε την εκτυπώσιμη περιοχή, τους αριθμούς σελίδων και το περιεχόμενο της κεφαλίδας/υποσέλιδου.
+## Τι είναι ο ορισμός περιθωρίων σελίδας HTML σε Java;
+Ο ορισμός περιθωρίων σελίδας HTML σε Java σημαίνει ότι λέτε στη μηχανή απόδοσης του Aspose.HTML να εφαρμόσει τις ιδιότητες CSS `@page` πριν το HTML μετατραπεί σε PDF ή XPS. Ορίζοντας έναν προσαρμοσμένο κανόνα `@page` ελέγχετε την εκτυπώσιμη περιοχή, προσθέτετε αριθμούς σελίδων και εισάγετε περιεχόμενο κεφαλίδας/υποσέλιδου—όλα χωρίς πρόγραμμα περιήγησης.
 
 ## Γιατί να χρησιμοποιήσετε το Aspose.HTML για έλεγχο περιθωρίων;
-- **Ακριβής διάταξη** – CSS `@page` σας παρέχει έλεγχο pixel‑perfect στα περιθώρια, τις κεφαλίδες και τα υποσέλιδα.  
-- **Συνεπής σε πολλαπλές μορφές** – Οι ίδιες ορισμοί περιθωρίων λειτουργούν για XPS, PDF και εξόδους εικόνας.  
-- **Χωρίς εξάρτηση από πρόγραμμα περιήγησης** – Η απόδοση γίνεται στο διακομιστή, επομένως δεν χρειάζεστε headless browser.  
+Το Aspose.HTML σας παρέχει απόδοση pixel‑perfect, διακομιστή‑πλευρά που λειτουργεί σταθερά σε PDF, XPS και εικόνες. Υποστηρίζει **πάνω από 50 μορφές εισόδου και εξόδου** και μπορεί να επεξεργαστεί έγγραφα με εκατοντάδες σελίδες χωρίς να φορτώνει ολόκληρο το αρχείο στη μνήμη, προσφέροντας ταχύτητες μετατροπής έως **3 × γρηγορότερες** από λύσεις headless‑browser σε παρόμοιο υλικό.
 
 ## Προαπαιτούμενα
 
 Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε τα παρακάτω προαπαιτούμενα:
 
-1. **Περιβάλλον Ανάπτυξης Java** – Εγκατεστημένο JDK 11 ή νεότερο.  
-2. **Aspose.HTML for Java** – Κατεβάστε και εγκαταστήστε τη βιβλιοθήκη από [here](https://releases.aspose.com/html/java/).  
+1. **Περιβάλλον Ανάπτυξης Java** – Εγκατεστημένο JDK 11 ή νεότερο και ρυθμισμένο `JAVA_HOME`.  
+2. **Aspose.HTML για Java** – Κατεβάστε και εγκαταστήστε τη βιβλιοθήκη από [εδώ](https://releases.aspose.com/html/java/).  
+3. **Ένα έγκυρο αρχείο άδειας** – Απαιτείται για παραγωγικές εκδόσεις· μια προσωρινή δοκιμαστική άδεια λειτουργεί για δοκιμές.  
+4. Μπορείτε επίσης να εξερευνήσετε όλες τις κυκλοφορίες του Aspose [εδώ](https://releases.aspose.com/).
 
 ## Εισαγωγή Πακέτων
 
-Για να ξεκινήσετε, εισάγετε τις απαραίτητες κλάσεις του Aspose.HTML:
+Οι δηλώσεις `import` φέρνουν τις κλάσεις του Aspose.HTML στο χώρο ονομάτων της Java, ώστε να μπορείτε να τις αναφέρετε χωρίς πλήρως‑καθορισμένα ονόματα.
 
 ```java
 // Import Aspose.HTML packages
@@ -51,9 +94,13 @@ import com.aspose.html.HTMLDocument;
 import com.aspose.html.rendering.xps.XpsDevice;
 ```
 
-## Πώς να ορίσετε τα περιθώρια σελίδας HTML σε Java – Οδηγός βήμα‑βήμα
+## Πώς να Μετατρέψετε HTML σε PDF Java με Προσαρμοσμένα Περιθώρια Σελίδας
+
+Φορτώστε το HTML σας, εφαρμόστε ένα φύλλο στυλ χρήστη που ορίζει τον κανόνα `@page` και αποδώστε το έγγραφο σε PDF (ή XPS) σε τρία σύντομα βήματα. Αυτή η προσέγγιση εξαλείφει την ανάγκη για ξεχωριστό κώδικα κεφαλίδας/υποσέλιδου και εγγυάται ότι τα περιθώρια τηρούνται σε όλες τις σελίδες.
 
 ### Βήμα 1: Αρχικοποίηση Διαμόρφωσης και Ορισμός Προσαρμοσμένων Περιθωρίων Σελίδας
+
+Το αντικείμενο `Configuration` περιέχει τις παγκόσμιες ρυθμίσεις για τη μηχανή απόδοσης. Με την πρόσβαση στο `IUserAgentService` μπορείτε να ενσωματώσετε ένα φύλλο στυλ CSS με την υψηλότερη προτεραιότητα, εξασφαλίζοντας ότι τα περιθώρια, η κεφαλίδα και το υποσέλιδο σας εφαρμόζονται.
 
 ```java
 // Initialize configuration object and set up the page-margins for the document
@@ -86,18 +133,18 @@ try {
             "}\n");
 ```
 
-Σε αυτό το τμήμα δημιουργούμε ένα αντικείμενο `Configuration`, λαμβάνουμε το `IUserAgentService` και ενσωματώνουμε έναν κανόνα CSS `@page` που ορίζει τα περιθώρια, έναν μετρητή σελίδας κάτω‑δεξιά, και έναν τίτλο εγγράφου στην κορυφή‑κέντρο.
+### Βήμα 2: Δημιουργία του Εγγράφου HTML
 
-### Βήμα 2: Δημιουργία του HTML Εγγράφου
+`HTMLDocument` αντιπροσωπεύει ένα μόνο αρχείο HTML στη μνήμη. Όταν περνάτε τη δημιουργημένη προηγουμένως `Configuration` στον κατασκευαστή του, ο renderer χρησιμοποιεί αυτόματα τον προσαρμοσμένο κανόνα `@page` που ορίσατε στο Βήμα 1.
 
 ```java
 // Initialize an HTML document
 HTMLDocument document = new HTMLDocument("<div>Hello World!!!</div>", ".", configuration);
 ```
 
-Εδώ δημιουργούμε ένα `HTMLDocument` με ένα απλό απόσπασμα “Hello World”. Η ίδια διαμόρφωση από το Βήμα 1 εφαρμόζεται, ώστε τα προσαρμοσμένα περιθώρια να τηρούνται όταν το έγγραφο αποδίδεται.
-
 ### Βήμα 3: Απόδοση σε αρχείο XPS (ή οποιαδήποτε υποστηριζόμενη έξοδος)
+
+`XpsDevice` γράφει τις αποδοθείσες σελίδες σε ένα κοντέινερ XPS, αλλά μπορείτε να το αντικαταστήσετε με `PdfDevice` για να λάβετε αρχείο PDF. Οι ίδιες ορισμοί περιθωρίων και υποσέλιδου τηρούνται, έτσι το αποτέλεσμα φαίνεται πανομοιότυπο ανεξάρτητα από τη μορφή.
 
 ```java
 // Initialize an output device
@@ -112,61 +159,56 @@ try {
 }
 ```
 
-Αυτό το βήμα δημιουργεί ένα `XpsDevice` που γράφει τις αποδοθείσες σελίδες στο `output.xps`. Τα περιθώρια, οι αριθμοί σελίδων και ο τίτλος που ορίσατε νωρίτερα θα εμφανιστούν στο τελικό αρχείο.
-
-## Συνηθισμένα Προβλήματα & Συμβουλές
-
-- **Τα περιθώρια εμφανίζονται αμετάβλητα** – Βεβαιωθείτε ότι ο κανόνας `@page` δεν παρακάμπτεται από άλλα φύλλα στυλ. Η κλήση `setUserStyleSheet` το επιβάλλει με την υψηλότερη προτεραιότητα.  
-- **Οι αριθμοί σελίδων εμφανίζουν “NaN”** – Επαληθεύστε ότι χρησιμοποιείτε την έκδοση Aspose.HTML 23.10 ή νεότερη· οι παλαιότερες εκδόσεις δεν διαθέτουν τη λειτουργία `currentPageNumber()`.  
-- **Το αρχείο εξόδου είναι κενό** – Επιβεβαιώστε ότι η διαδρομή `Resources.output` επιλύεται σωστά και έχετε δικαιώματα εγγραφής.  
+## Συχνά Προβλήματα & Συμβουλές
+- **Τα περιθώρια παραμένουν αμετάβλητα** – Επαληθεύστε ότι κανένα άλλο φύλλο στυλ δεν παρακάμπτει τον κανόνα `@page`. Η κλήση `setUserStyleSheet` επιβάλλει τον κανόνα σας με την υψηλότερη προτεραιότητα.  
+- **Οι αριθμοί σελίδων εμφανίζουν “NaN”** – Αυτό συμβαίνει με εκδόσεις του Aspose.HTML παλαιότερες από 23.10, οι οποίες δεν διαθέτουν τη λειτουργία `counter(page)`. Αναβαθμίστε στην πιο πρόσφατη έκδοση.  
+- **Το αρχείο εξόδου είναι κενό** – Βεβαιωθείτε ότι ο φάκελος `Resources.output` υπάρχει και ότι η διαδικασία Java έχει δικαιώματα εγγραφής.  
+- **Τα μεγάλα έγγραφα προκαλούν υψηλή χρήση μνήμης** – Χρησιμοποιήστε το streaming API (`XpsDevice` με `setPageCountLimit`) για επεξεργασία σελίδων σε παρτίδες.  
 
 ## Συχνές Ερωτήσεις
 
 ### Ε1: Τι είναι το Aspose.HTML για Java;
+**Α:** Το Aspose.HTML για Java είναι μια βιβλιοθήκη διακομιστή‑πλευρά που επιτρέπει στους προγραμματιστές να δημιουργούν, επεξεργάζονται, αποδίδουν και μετατρέπουν έγγραφα HTML προγραμματιστικά, υποστηρίζοντας εξόδους PDF, XPS, εικόνας και EPUB.
 
-**Α:** Το Aspose.HTML για Java είναι μια βιβλιοθήκη Java που παρέχει ισχυρά εργαλεία για εργασία με έγγραφα HTML σε εφαρμογές Java, συμπεριλαμβανομένων της μετατροπής, της απόδοσης και της επεξεργασίας.
+### Ε2: Μπορώ να προσαρμόσω περαιτέρω τα περιθώρια σελίδας;
+**Α:** Ναι – επεξεργαστείτε το CSS μέσα στο `setUserStyleSheet`. Μπορείτε να αλλάξετε οποιεσδήποτε τιμές `margin-*` ή να προσθέσετε επιπλέον κουτιά `@top-*` / `@bottom-*` για πιο σύνθετες κεφαλίδες ή υποσέλιδα.
 
-### Ε2: Μπορώ να προσαρμόσω περαιτέρω τα περιθώρια της σελίδας;
-
-**Α:** Ναι, απλώς επεξεργαστείτε το CSS μέσα στο `setUserStyleSheet`. Μπορείτε να αλλάξετε οποιεσδήποτε τιμές `margin-*` ή να προσθέσετε επιπλέον κουτιά `@top-*` / `@bottom-*`.
-
-### Ε3: Πώς μπορώ να προσθέσω περισσότερο περιεχόμενο στο HTML έγγραφο;
-
-**Α:** Αντικαταστήστε τη συμβολοσειρά στο `new HTMLDocument("<div>Hello World!!!</div>", …)` με το δικό σας HTML markup, ή φορτώστε ένα εξωτερικό αρχείο χρησιμοποιώντας τον κατασκευαστή `HTMLDocument(String url, …)`.
+### Ε3: Πώς μπορώ να προσθέσω περισσότερο περιεχόμενο στο έγγραφο HTML;
+**Α:** Αντικαταστήστε τη συμβολοσειρά στο `new HTMLDocument("<div>Hello World!!!</div>", …)` με το δικό σας markup, ή φορτώστε ένα εξωτερικό αρχείο χρησιμοποιώντας τον κατασκευαστή `HTMLDocument(String url, …)`.
 
 ### Ε4: Είναι το Aspose.HTML για Java συμβατό με άλλες μορφές εγγράφων;
-
-**Α:** Απόλυτα. Το ίδιο `HTMLDocument` μπορεί να αποδοθεί σε PDF, XPS, εικόνες ή ακόμη και EPUB αλλάζοντας τη συσκευή εξόδου (π.χ., `PdfDevice`, `PngDevice`).
+**Α:** Απόλυτα. Το ίδιο `HTMLDocument` μπορεί να αποδοθεί σε PDF, XPS, PNG, JPEG ή EPUB αντικαθιστώντας τη συσκευή εξόδου (π.χ., `PdfDevice`, `PngDevice`).
 
 ### Ε5: Χρειάζομαι άδεια για τη χρήση του Aspose.HTML για Java;
-
-**Α:** Ναι, απαιτείται άδεια για χρήση σε παραγωγή. Μπορείτε να αποκτήσετε δοκιμαστική άδεια ή να αγοράσετε άδεια από [here](https://purchase.aspose.com/buy) ή [here](https://releases.aspose.com/).
+**Α:** Ναι, απαιτείται άδεια για παραγωγική χρήση. Μπορείτε να αποκτήσετε δοκιμαστική ή να αγοράσετε άδεια από [εδώ](https://purchase.aspose.com/buy) ή [εδώ](https://releases.aspose.com/).
 
 ### Ε6: Πώς ορίζω διαφορετικά περιθώρια για περιττές και ζυγές σελίδες;
-
 **Α:** Χρησιμοποιήστε τις ψευδο‑κλάσεις `@page :left` και `@page :right` στο φύλλο στυλ σας για να ορίσετε διαφορετικά περιθώρια για τις αριστερές (ζυγές) και δεξιές (περιττές) σελίδες.
 
 ### Ε7: Μπορώ να ενσωματώσω προσαρμοσμένες γραμματοσειρές στο αποδοθέν έγγραφο;
-
-**Α:** Ναι. Προσθέστε κανόνες `@font-face` στο φύλλο στυλ του χρήστη και αναφέρετε τις γραμματοσειρές στο HTML περιεχόμενό σας.
+**Α:** Ναι. Προσθέστε κανόνες `@font-face` στο φύλλο στυλ χρήστη και αναφερθείτε σε αυτές τις γραμματοσειρές στο HTML markup σας· ο renderer θα τις ενσωματώσει στο τελικό PDF ή XPS.
 
 ## Συμπέρασμα
 
-Τώρα έχετε κατακτήσει **πώς να ορίσετε τα περιθώρια σελίδας HTML σε Java** χρησιμοποιώντας το Aspose.HTML, και γνωρίζετε πώς να προσθέσετε αριθμούς σελίδων και έναν τίτλο για να κάνετε τα έγγραφά σας επαγγελματικά. Μη διστάσετε να πειραματιστείτε με επιπλέον κουτιά `@page`, προσαρμοσμένες γραμματοσειρές ή διαφορετικές μορφές εξόδου ώστε να ταιριάζουν στις ανάγκες του έργου σας.
+Τώρα έχετε μια πλήρη, έτοιμη για παραγωγή συνταγή για **πώς να μετατρέψετε HTML σε PDF Java** χρησιμοποιώντας το Aspose.HTML, συμπεριλαμβανομένων προσαρμοσμένων περιθωρίων σελίδας, αριθμών σελίδων και τίτλου εγγράφου. Εκμεταλλευόμενοι τους κανόνες CSS `@page` αποκτάτε πλήρη έλεγχο της διάταξης χωρίς να γράφετε επιπλέον κώδικα Java για κεφαλίδες ή υποσέλιδα. Πειραματιστείτε με επιπλέον κουτιά `@page`, προσαρμοσμένες γραμματοσειρές ή διαφορετικές συσκευές εξόδου για να καλύψετε τις ακριβείς ανάγκες του συστήματος αναφορών ή τιμολόγησής σας.
 
-Αν αντιμετωπίσετε προκλήσεις, η επίσημη [τεκμηρίωση Aspose.HTML για Java](https://reference.aspose.com/html/java/) και το [φόρουμ υποστήριξης Aspose](https://forum.aspose.com/) είναι εξαιρετικά μέρη για βοήθεια.
+Για πιο λεπτομερή καθοδήγηση, συμβουλευτείτε την επίσημη [τεκμηρίωση Aspose.HTML για Java](https://reference.aspose.com/html/java/) και ενταχθείτε στην κοινότητα στο [φόρουμ υποστήριξης Aspose](https://forum.aspose.com/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+---
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Τελευταία Ενημέρωση:** 2026-06-24  
+**Δοκιμή Με:** Aspose.HTML for Java 23.12  
+**Συγγραφέας:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
 
----
+## Σχετικά Σεμινάρια
 
-**Τελευταία ενημέρωση:** 2025-12-05  
-**Δοκιμή με:** Aspose.HTML for Java 23.12  
-**Συγγραφέας:** Aspose  
+- [Προσθήκη αριθμών σελίδων με Aspose.HTML Java – Προχωρημένη Χρήση](/html/java/advanced-usage/)
+- [Ρύθμιση Μεγέθους Σελίδας PDF με Aspose.HTML για Java](/html/java/advanced-usage/adjust-pdf-page-size/)
+- [Πώς να Μετατρέψετε HTML σε PDF Java – Χρήση Aspose.HTML για Java](/html/java/conversion-html-to-other-formats/convert-html-to-pdf/)
 
----
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

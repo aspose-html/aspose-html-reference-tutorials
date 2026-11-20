@@ -22,15 +22,11 @@ title: Crear PDF a partir de HTML en Java – Guía completa paso a paso
 url: /es/java/conversion-html-to-other-formats/create-pdf-from-html-in-java-complete-step-by-step-guide/
 ---
 
-be left as is? It's part of description, not a technical term. I'd translate to Spanish: "crear pdf desde html". So title becomes "Diagrama que ilustra el flujo de conversión HTML → PDF – crear pdf desde html". Good.
 
-Then caption line "*Image alt text: create pdf from html*" translate: "*Texto alternativo de la imagen: crear pdf desde html*".
 
-Then closing shortcodes.
 
-Make sure to keep all shortcodes exactly.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -9,11 +9,9 @@ url: /sv/java/converting-epub-to-pdf/convert-epub-to-gif/
 weight: 11
 ---
 
- >}} keep.
 
-Make sure no extra spaces.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

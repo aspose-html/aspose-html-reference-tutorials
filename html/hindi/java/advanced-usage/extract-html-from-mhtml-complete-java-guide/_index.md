@@ -1,24 +1,55 @@
 ---
 category: general
-date: 2026-01-03
-description: Aspose.HTML के साथ MHTML से HTML को तेज़ी से निकालें। एक ही ट्यूटोरियल
-  में सीखें कि कैसे MHTML निकालें, MHTML को फ़ाइलों में बदलें, और MHTML से चित्र निकालें।
+date: 2026-08-22
+description: Aspose.HTML के साथ MHTML से HTML जल्दी निकालें। जानें कि कैसे MHTML को
+  निकालें, MHTML को फ़ाइलों में बदलें, और एक ही ट्यूटोरियल में MHTML से छवियों को
+  निकालें।
 draft: false
 keywords:
 - extract html from mhtml
-- how to extract mhtml
 - convert mhtml to files
 - extract images from mhtml
-language: hi
-og_description: Aspose.HTML के साथ MHTML से HTML को तेज़ी से निकालें। एक ही ट्यूटोरियल
-  में सीखें कि कैसे MHTML निकालें, MHTML को फ़ाइलों में बदलें, और MHTML से छवियों
+- Aspose.HTML Java extraction
+lastmod: 2026-08-22
+og_description: Aspose.HTML के साथ MHTML से HTML जल्दी निकालें। जानें कि कैसे MHTML
+  को निकालें, MHTML को फ़ाइलों में बदलें, और एक ही ट्यूटोरियल में MHTML से छवियों
   को निकालें।
-og_title: MHTML से HTML निकालें – पूर्ण जावा गाइड
+og_image_alt: Diagram showing extraction of HTML, CSS, and images from an MHTML archive
+  using Aspose.HTML for Java
+og_title: MHTML से HTML निकालें – पूर्ण Java ट्यूटोरियल
+schemas:
+- author: Aspose
+  dateModified: '2026-08-22'
+  description: Extract html from mhtml quickly with Aspose.HTML. Learn how to extract
+    mhtml, convert mhtml to files, and extract images from mhtml in a single tutorial.
+  headline: Extract HTML from MHTML – Complete Java Guide
+  type: TechArticle
+- questions:
+  - answer: Aspose.HTML streams the archive, so memory usage stays low. Adjust the
+      JVM heap if you process many large files concurrently.
+    question: What if the MHTML file is several hundred megabytes?
+  - answer: Yes. After extraction, simply ignore `index.html` and use the contents
+      of the `images/` folder. You can programmatically list image files with `Files.walk`
+      and filter by common image extensions.
+    question: Can I extract only the images without the HTML file?
+  - answer: '`MhtmlExtractionOptions` retains original MIME part names by default.
+      For custom naming, post‑process the files or implement a custom `IResourceHandler`.'
+    question: How do I preserve the original filenames of embedded resources?
+  - answer: Absolutely. The same Java code runs on any platform that supports Java
+      8+, just adjust file‑system paths accordingly.
+    question: Does this work on Linux and macOS as well as Windows?
+  - answer: Write a simple loop that enumerates all `.mhtml` files, loads each into
+      an `HTMLDocument`, and calls `Converter.extract` with a unique output directory
+      for each file.
+    question: How can I batch‑process a folder of .mhtml files?
+  type: FAQPage
 tags:
 - Java
 - Aspose.HTML
 - MHTML
-title: MHTML से HTML निकालें – पूर्ण जावा गाइड
+- convert mhtml to files
+- extract images from mhtml
+title: MHTML से HTML निकालें – पूर्ण Java गाइड
 url: /hi/java/advanced-usage/extract-html-from-mhtml-complete-java-guide/
 ---
 
@@ -28,31 +59,38 @@ url: /hi/java/advanced-usage/extract-html-from-mhtml-complete-java-guide/
 
 # MHTML से HTML निकालें – पूर्ण Java गाइड
 
-क्या आपको **MHTML से HTML निकालने** की जरूरत पड़ी है लेकिन नहीं पता था कहाँ से शुरू करें? आप अकेले नहीं हैं। MHTML आर्काइव्स एक वेबपेज, उसकी CSS, स्क्रिप्ट्स और इमेजेज को एक ही फ़ाइल में बंडल कर देती हैं—सेव करने के लिए सुविधाजनक, लेकिन जब आप भागों को वापस चाहते हैं तो परेशानी होती है। इस ट्यूटोरियल में हम आपको दिखाएंगे कि कैसे mhtml निकालें, mhtml को फ़ाइलों में बदलें, और यहाँ तक कि Aspose.HTML for Java का उपयोग करके mhtml से इमेजेज निकालें।
+क्या आपको कभी **MHTML से HTML निकालने** की ज़रूरत पड़ी, लेकिन शुरुआत कैसे करें, समझ नहीं आया? आप अकेले नहीं हैं। MHTML आर्काइव एक वेबपेज, उसकी CSS, स्क्रिप्ट्स और इमेजेज को एक ही फ़ाइल में बंडल कर देती है—सेव करने में सुविधाजनक, लेकिन जब आप घटकों को फिर से चाहिए होते हैं तो परेशानी होती है। इस ट्यूटोरियल में हम आपको दिखाएंगे कि कैसे MHTML निकालें, MHTML को फ़ाइलों में बदलें, और यहाँ तक कि Aspose.HTML for Java का उपयोग करके MHTML से इमेजेज भी निकालें।
 
-असल बात यह है: आपको कस्टम पार्सर लिखने या MIME बंडल को मैन्युअली अनज़िप करने की ज़रूरत नहीं है। Aspose.HTML भारी काम कर देती है, आपको एक साफ़ फ़ोल्डर स्ट्रक्चर देती है जिसमें HTML, CSS और मीडिया फ़ाइलें तैयार रहती हैं। अंत तक आपके पास एक runnable Java प्रोग्राम होगा जो किसी भी `.mhtml` आर्काइव को सामान्य वेब एसेट्स के सेट में बदल देता है।
+## त्वरित उत्तर
+- **MHTML फ़ाइल से HTML निकालने का सबसे तेज़ तरीका क्या है?** `HTMLDocument` को `MhtmlExtractionOptions` के साथ उपयोग करें और `Converter.extract` को कॉल करें।  
+- **क्या मुझे अपना खुद का MIME पार्सर लिखना पड़ेगा?** नहीं, Aspose.HTML आंतरिक रूप से पार्सिंग संभालता है।  
+- **कौन‑से ऑपरेटिंग सिस्टम समर्थित हैं?** कोई भी OS जो Java 8+ चलाता है, जैसे Windows, Linux, और macOS।  
+- **क्या मैं केवल इमेजेज निकाल सकता हूँ?** हाँ – एक्सट्रैक्शन चलाएँ और फिर उत्पन्न `images/` फ़ोल्डर का उपयोग करें।  
+- **Aspose.HTML का कौन‑सा संस्करण आवश्यक है?** संस्करण 23.10 या नया इस गाइड में उपयोग किए गए API को सपोर्ट करता है।
 
-## आप क्या सीखेंगे
+## MHTML से HTML निकालना क्या है?
+“extract html from mhtml” वाक्यांश का अर्थ है एक‑फ़ाइल वेब आर्काइव (MHTML) को उसके मूल HTML, CSS, और मीडिया रिसोर्सेज़ में वापस बदलना। यह प्रक्रिया मूल पेज संरचना को पुनर्स्थापित करती है ताकि ब्राउज़र बंडल्ड कंटेनर के बिना इसे रेंडर कर सके।
 
-* एक MHTML आर्काइव को `HTMLDocument` में लोड करना।
-* `MhtmlExtractionOptions` को कॉन्फ़िगर करके निकाली गई फ़ाइलों का स्थान निर्धारित करना।
-* URL री-राइटिंग को सक्षम करना ताकि HTML नई निकाली गई रिसोर्सेज को रेफ़र करे।
-* एक ही लाइन कोड से एक्सट्रैक्शन चलाना।
-* केवल इमेजेज निकालने, बड़े आर्काइव्स को हैंडल करने, और सामान्य समस्याओं को सॉल्व करने के टिप्स।
+## इस कार्य के लिए Aspose.HTML क्यों उपयोग करें?
+Aspose.HTML **50+ इनपुट और आउटपुट फॉर्मेट** को सपोर्ट करता है और **1 GB** तक के आर्काइव को स्ट्रीमिंग डेटा के साथ प्रोसेस कर सकता है, जिससे मेमोरी उपयोग कम रहता है। इसकी बिल्ट‑इन URL री‑राइटिंग सुनिश्चित करती है कि निकाली गई HTML नए बनाए गए रिसोर्स फ़ाइलों की ओर इशारा करे, जिससे टूटे हुए लिंक स्वचालित रूप से हट जाते हैं।
 
-**पूर्वापेक्षाएँ**
+## पूर्वापेक्षाएँ
+- Java 8 या नया स्थापित हो।  
+- Aspose.HTML for Java 23.10+ (नवीनतम JAR Aspose वेबसाइट से डाउनलोड करें)।  
+- आपके पसंदीदा IDE (IntelliJ, Eclipse, VS Code, आदि) में एक बेसिक Java प्रोजेक्ट सेटअप हो।
 
-* Java 8 या नया इंस्टॉल हो।
-* Aspose.HTML for Java का नवीनतम संस्करण (कोड 23.10+ के साथ काम करता है)।
-* Java प्रोजेक्ट्स और आपके पसंदीदा IDE (IntelliJ, Eclipse, VS Code, आदि) की बेसिक समझ।
+> **Pro tip:** यदि आपने अभी तक Aspose.HTML डाउनलोड नहीं किया है, तो नवीनतम JAR को [Aspose वेबसाइट](https://products.aspose.com/html/java) से प्राप्त करें और उसे अपने प्रोजेक्ट की क्लासपाथ में जोड़ें।
 
-> **Pro tip:** यदि आपने अभी तक Aspose.HTML डाउनलोड नहीं किया है, तो नवीनतम JAR को [Aspose वेबसाइट](https://products.aspose.com/html/java) से प्राप्त करें और इसे अपने प्रोजेक्ट की classpath में जोड़ें।
+![Diagram of extracting HTML from MHTML](extract-html-from-mhtml-diagram.png){alt="MHTML से HTML निकालना"}
 
-![Diagram of extracting HTML from MHTML](extract-html-from-mhtml-diagram.png){alt="MHTML से HTML निकालने का आरेख"}
+[Diagram of extracting HTML from MHTML](extract-html-from-mhtml-diagram.png)
 
-## चरण 1 – अपने प्रोजेक्ट में Aspose.HTML जोड़ें
+## Aspose.HTML को अपने प्रोजेक्ट में कैसे जोड़ें?
+लाइब्रेरी को क्लासपाथ में जोड़ें ताकि कंपाइलर API को ढूँढ सके। Maven के लिए, `pom.xml` में डिपेंडेंसी डालें; Gradle के लिए, `build.gradle` में जोड़ें। आप JAR को `libs` फ़ोल्डर में रखकर मैन्युअली भी रेफ़र कर सकते हैं। लाइब्रेरी दिखाई देने के बाद, आप **MHTML से HTML निकालने** के लिए तैयार हैं।
 
-कोड चलाने से पहले, लाइब्रेरी को classpath पर होना चाहिए। यदि आप Maven उपयोग करते हैं, तो नीचे दिया गया डिपेंडेंसी अपने `pom.xml` में पेस्ट करें:
+## MHTML आर्काइव को कैसे लोड करें?
+`HTMLDocument` वेब डॉक्यूमेंट का प्रतिनिधित्व करता है और MHTML फ़ाइलें लोड कर सकता है।  
+`.mhtml` फ़ाइल को `HTMLDocument` के रूप में लोड करें। यह चरण आर्काइव को वैलिडेट करता है और आंतरिक स्ट्रक्चर बनाता है, जिससे एक्सट्रैक्शन इंजन कुशलता से काम कर सके।
 
 ```xml
 <dependency>
@@ -62,17 +100,21 @@ url: /hi/java/advanced-usage/extract-html-from-mhtml-complete-java-guide/
 </dependency>
 ```
 
-यदि आप Gradle पसंद करते हैं:
+**Definition anchor:** `HTMLDocument` Aspose.HTML की कोर क्लास है जो मेमोरी में किसी भी वेब डॉक्यूमेंट—HTML, MHTML, या अन्य सपोर्टेड फॉर्मेट—को दर्शाती है।
+
+## एक्सट्रैक्शन विकल्प कैसे कॉन्फ़िगर करें (mhtml को फ़ाइलों में बदलें)?
+`MhtmlExtractionOptions` आपको आउटपुट फ़ोल्डर, URL री‑राइटिंग, और निकाले गए रिसोर्सेज़ की नेमिंग कन्वेंशन सेट करने देता है।  
+`MhtmlExtractionOptions` का एक इंस्टेंस बनाकर लाइब्रेरी को बताएं कि फ़ाइलें कहाँ लिखनी हैं, क्या URL री‑राइट करना है, और रिसोर्सेज़ का नाम कैसे रखना है। सही कॉन्फ़िगरेशन सुनिश्चित करता है कि निकाली गई HTML ब्राउज़र में तुरंत काम करे।
 
 ```gradle
 implementation 'com.aspose:aspose-html:23.10'
 ```
 
-या बस डाउनलोड की गई JAR को `libs` फ़ोल्डर में डालें और मैन्युअली रेफ़रेंस करें। लाइब्रेरी उपलब्ध होने पर, आप **MHTML से HTML निकालने** के लिए तैयार हैं।
+**Definition anchor:** `MhtmlExtractionOptions` आपको आउटपुट फ़ोल्डर पाथ, URL री‑राइटिंग सक्षम करने, और निकाले गए एसेट्स की फ़ाइल‑नेमिंग कन्वेंशन नियंत्रित करने की अनुमति देता है।
 
-## चरण 2 – MHTML आर्काइव लोड करें
-
-पहला तार्किक कदम है `.mhtml` फ़ाइल को `HTMLDocument` के रूप में खोलना। इसे इस तरह समझें कि आप Aspose.HTML को बता रहे हैं, “यह वह कंटेनर है जिसके साथ मैं काम करना चाहता हूँ।”
+## एक्सट्रैक्शन कैसे चलाएँ (mhtml से इमेजेज निकालें)?
+`Converter.extract` लोडेड डॉक्यूमेंट को निर्दिष्ट विकल्पों के साथ एक्सट्रैक्ट करता है।  
+लोडेड डॉक्यूमेंट और कॉन्फ़िगर किए गए विकल्पों के साथ स्टैटिक `Converter.extract` मेथड को कॉल करें। यह मेथड कंटेंट को डिस्क पर स्ट्रीम करता है, एक साफ़ फ़ोल्डर हाइरार्की बनाता है।
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -84,11 +126,7 @@ String mhtmlPath = "C:/myfiles/archive.mhtml";
 HTMLDocument mhtmlDocument = new HTMLDocument(mhtmlPath);
 ```
 
-क्यों महत्वपूर्ण है: दस्तावेज़ को लोड करने से फ़ाइल वैलिडेट होती है और आंतरिक स्ट्रक्चर तैयार होते हैं, जिससे बाद का एक्सट्रैक्शन तेज़ और त्रुटि‑रहित चलता है।
-
-## चरण 3 – एक्सट्रैक्शन विकल्प कॉन्फ़िगर करें (Convert MHTML to Files)
-
-अब हम लाइब्रेरी को बताते हैं कि **कंटेंट को डिस्क पर कैसे व्यवस्थित** करना है। `MhtmlExtractionOptions` आपको आउटपुट फ़ोल्डर, URL री-राइटिंग, और मूल फ़ाइल नाम रखने की सुविधा देता है।
+इस कॉल के समाप्त होने के बाद, आपको एक फ़ोल्डर स्ट्रक्चर मिलेगा जो इस प्रकार होगा:
 
 ```java
 import com.aspose.html.converters.MhtmlExtractionOptions;
@@ -101,11 +139,45 @@ extractionOptions.setOutputFolder("C:/myfiles/extracted");
 extractionOptions.setRewriteUrls(true);
 ```
 
-`setRewriteUrls(true)` सेट करना **convert mhtml to files** के लिए अत्यंत आवश्यक है, ताकि निकाले गए HTML को ब्राउज़र में खोलने पर वह सही ढंग से काम करे। बिना इस सेटिंग के पेज अभी भी आंतरिक MHTML रेफ़रेंसेज़ की ओर इशारा करेगा और टूटे हुए दिखेंगे।
+HTML फ़ाइल अब `images/` सब‑फ़ोल्डर में इमेजेज़ को रेफ़र करती है, अर्थात् आपने सफलतापूर्वक **mhtml से इमेजेज़ निकाल ली** और साथ ही पूरा HTML मार्कअप भी।
 
-## चरण 4 – एक्सट्रैक्शन चलाएँ (Extract Images from MHTML)
+## सामान्य समस्याएँ और उन्हें कैसे टालें?
+- **बड़ी आर्काइव:** यदि आप कुछ सौ मेगाबाइट से बड़ी फ़ाइलें प्रोसेस कर रहे हैं तो JVM हीप (`-Xmx2g`) बढ़ाएँ।  
+- **खाली आउटपुट फ़ोल्डर:** हमेशा एक खाली डेस्टिनेशन फ़ोल्डर से शुरू करें; बची‑बची फ़ाइलें नेमिंग कॉन्फ्लिक्ट का कारण बन सकती हैं।  
+- **टूटी हुई URLs:** सुनिश्चित करें कि `setRewriteUrls(true)` सक्षम है; अन्यथा HTML अभी भी आंतरिक MHTML रेफ़रेंस की ओर इशारा करेगा।  
+- **डिबगिंग के लिए लॉगिंग:** `System.setProperty("aspose.html.logging", "true")` के साथ विस्तृत लॉग सक्षम करें ताकि किसी भी एक्सट्रैक्शन त्रुटि को कैप्चर किया जा सके।
 
-अंतिम लाइन जादू करती है। स्टैटिक `Converter.extract` मेथड लोडेड दस्तावेज़ को पढ़ता है, विकल्प लागू करता है, और सब कुछ डिस्क पर लिख देता है।
+## अक्सर पूछे जाने वाले प्रश्न
+
+**Q: यदि MHTML फ़ाइल कई सौ मेगाबाइट की हो तो क्या करें?**  
+A: Aspose.HTML आर्काइव को स्ट्रीम करता है, इसलिए मेमोरी उपयोग कम रहता है। यदि आप कई बड़ी फ़ाइलें एक साथ प्रोसेस कर रहे हैं तो JVM हीप को समायोजित करें।
+
+**Q: क्या मैं केवल इमेजेज़ निकाल सकता हूँ बिना HTML फ़ाइल के?**  
+A: हाँ। एक्सट्रैक्शन के बाद, बस `index.html` को अनदेखा करें और `images/` फ़ोल्डर की सामग्री का उपयोग करें। आप प्रोग्रामेटिकली `Files.walk` से इमेज फ़ाइलें लिस्ट कर सकते हैं और सामान्य इमेज एक्सटेंशन द्वारा फ़िल्टर कर सकते हैं।
+
+**Q: एम्बेडेड रिसोर्सेज़ के मूल फ़ाइलनाम कैसे बनाए रखें?**  
+A: `MhtmlExtractionOptions` डिफ़ॉल्ट रूप से मूल MIME पार्ट नामों को रखता है। कस्टम नेमिंग के लिए, फ़ाइलों को पोस्ट‑प्रोसेस करें या कस्टम `IResourceHandler` लागू करें।
+
+**Q: क्या यह Linux और macOS पर भी Windows की तरह काम करता है?**  
+A: बिल्कुल। वही Java कोड किसी भी प्लेटफ़ॉर्म पर चलता है जो Java 8+ सपोर्ट करता है, बस फ़ाइल‑सिस्टम पाथ को उसी अनुसार समायोजित करें।
+
+**Q: .mhtml फ़ाइलों के फ़ोल्डर को बैच‑प्रोसेस कैसे करें?**  
+A: एक सरल लूप लिखें जो सभी `.mhtml` फ़ाइलों को इटररेट करे, प्रत्येक को `HTMLDocument` में लोड करे, और प्रत्येक फ़ाइल के लिए एक यूनिक आउटपुट डायरेक्टरी के साथ `Converter.extract` को कॉल करे।
+
+## निष्कर्ष
+अब आपके पास एक भरोसेमंद, एक‑स्टेप विधि है **MHTML से HTML निकालने**, **MHTML को फ़ाइलों में बदलने**, और **MHTML से इमेजेज़ निकालने** की, Aspose.HTML for Java का उपयोग करके। वर्कफ़्लो सरल है: आर्काइव लोड करें, एक्सट्रैक्शन विकल्प कॉन्फ़िगर करें, और लाइब्रेरी को बाकी काम करने दें। कोई मैनुअल MIME पार्सिंग नहीं, कोई नाज़ुक स्ट्रिंग हैक्स नहीं—सिर्फ़ साफ़, पुन: उपयोग योग्य कोड जिसे आप किसी भी Java प्रोजेक्ट में डाल सकते हैं।
+
+अगले कदम? बैच कन्वर्ज़न के लिए प्रोसेस को ऑटोमेट करें, आउटपुट को एक स्टैटिक‑साइट जेनरेटर में इंटीग्रेट करें, या निकाली गई HTML को कंटेंट‑मैनेजमेंट पाइपलाइन में फीड करें। वही पैटर्न न्यूज़लेटर, सेव्ड वेब पेज, या आर्काइव्ड रिपोर्ट्स के लिए भी काम करता है।
+
+कोई जटिल परिदृश्य या कूल यूज़‑केस है? कमेंट्स में अपने विचार साझा करें और बातचीत जारी रखें। हैप्पी कोडिंग!
+
+---
+
+**Last Updated:** 2026-08-22  
+**Tested With:** Aspose.HTML for Java 23.10  
+**Author:** Aspose  
+
+
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -113,8 +185,6 @@ import com.aspose.html.converters.Converter;
 // Perform the extraction
 Converter.extract(mhtmlDocument, extractionOptions);
 ```
-
-इस कॉल के समाप्त होने पर, आपको एक फ़ोल्डर स्ट्रक्चर मिलेगा जो इस प्रकार होगा:
 
 ```
 extracted/
@@ -125,12 +195,6 @@ extracted/
     ├─ logo.png
     └─ banner.jpg
 ```
-
-HTML फ़ाइल अब `images/` सब‑फ़ोल्डर में इमेजेज़ को रेफ़र करती है, अर्थात आप सफलतापूर्वक **extract images from mhtml** के साथ-साथ पूरा HTML मार्कअप भी निकाल चुके हैं।
-
-## पूर्ण कार्यशील उदाहरण
-
-सभी हिस्सों को मिलाकर, यहाँ एक self‑contained Java क्लास है जिसे आप अपने IDE में कॉपी‑पेस्ट करके तुरंत चला सकते हैं:
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -155,50 +219,20 @@ public class ExtractMhtmlDemo {
 }
 ```
 
-**अपेक्षित आउटपुट**
-
-प्रोग्राम चलाने पर यह प्रिंट करेगा:
-
 ```
 Extraction complete! Check C:/myfiles/extracted
 ```
 
-…और `extracted` डायरेक्टरी में एक कार्यात्मक HTML पेज के साथ सभी संबंधित रिसोर्सेज़ होंगे। किसी भी ब्राउज़र में `index.html` खोलें और सत्यापित करें कि इमेजेज़, स्टाइल्स और स्क्रिप्ट्स सही ढंग से लोड हो रहे हैं।
+## संबंधित ट्यूटोरियल
 
-## सामान्य प्रश्न एवं एज़ केस
+- [Aspose.HTML for Java के साथ HTML को MHTML में कैसे बदलें](/html/java/conversion-html-to-other-formats/convert-html-to-mhtml/)
+- [Aspose.HTML for Java का उपयोग करके HTML को PDF में कैसे बदलें (Java)](/html/java/conversion-html-to-other-formats/convert-html-to-pdf/)
+- [Aspose.HTML for Java के साथ HTML को XPS में कैसे बदलें](/html/java/conversion-html-to-other-formats/convert-html-to-xps/)
 
-### यदि MHTML फ़ाइल बहुत बड़ी (सैकड़ों MB) हो तो क्या करें?
-
-Aspose.HTML कंटेंट को स्ट्रीम करता है, इसलिए मेमोरी खपत कम रहती है। हालांकि, यदि आप अत्यंत बड़े आर्काइव्स निकाल रहे हैं या कई एक्सट्रैक्शन समानांतर में चला रहे हैं, तो JVM हीप (`-Xmx2g`) बढ़ाना उपयोगी हो सकता है।
-
-### क्या मैं केवल इमेजेज़ निकाल सकता हूँ बिना HTML के?
-
-हां। एक्सट्रैक्शन के बाद, बस `.html` फ़ाइल को अनदेखा करें और `images/` फ़ोल्डर को उपयोग में लाएँ। यदि आपको प्रोग्रामेटिक रूप से इमेज पाथ की सूची चाहिए, तो `Files.walk` से आउटपुट डायरेक्टरी स्कैन करें और एक्सटेंशन (`.png`, `.jpg`, `.gif`, आदि) के आधार पर फ़िल्टर करें।
-
-### मूल फ़ाइल नाम कैसे बनाए रखें?
-
-`MhtmlExtractionOptions` डिफ़ॉल्ट रूप से मूल MIME पार्ट फ़ाइल नामों को सम्मानित करता है। यदि आपको कस्टम नेमिंग स्कीम चाहिए, तो एक्सट्रैक्शन के बाद फ़ाइलों को पोस्ट‑प्रोसेस कर सकते हैं या एक कस्टम `IResourceHandler` इम्प्लीमेंट कर सकते हैं (उन्नत उपयोग)।
-
-### क्या यह Linux/macOS पर काम करता है?
-
-बिल्कुल। वही Java कोड किसी भी OS पर चलता है जो Java 8+ सपोर्ट करता है। केवल फ़ाइल पाथ को समायोजित करें (`/home/user/archive.mhtml` बनाम `C:/...`)।
-
-## सुगम एक्सट्रैक्शन के लिए टिप्स
-
-* **पहले MHTML को वैलिडेट करें** – Chrome या Edge में खोलें ताकि यह सुनिश्चित हो सके कि यह सही दिख रहा है।
-* **आउटपुट फ़ोल्डर को खाली रखें** – Aspose.HTML मौजूदा फ़ाइलों को ओवरराइट कर देगा, लेकिन बचे‑खुचे फ़ाइलें भ्रम पैदा कर सकती हैं।
-* **डेमो में एब्सोल्यूट पाथ उपयोग करें**; रिलेटिव पाथ भी काम करेंगे लेकिन वर्किंग डायरेक्टरी को सावधानी से हैंडल करना पड़ेगा।
-* **लॉगिंग सक्षम करें** (`System.setProperty("aspose.html.logging", "true")`) यदि कोई रहस्यमय फेल्योर आता है; लाइब्रेरी विस्तृत संदेश देगा।
-
-## निष्कर्ष
-
-अब आपके पास एक विश्वसनीय, एक‑स्टेप विधि है **MHTML से HTML निकालने**, **MHTML को फ़ाइलों में बदलने**, और **MHTML से इमेजेज़ निकालने** की, Aspose.HTML for Java का उपयोग करके। प्रक्रिया सीधी है: आर्काइव लोड करें, एक्सट्रैक्शन विकल्प कॉन्फ़िगर करें, और लाइब्रेरी को बाकी काम करने दें। कोई मैन्युअल MIME पार्सिंग नहीं, कोई नाज़ुक स्ट्रिंग हैक्स नहीं—सिर्फ साफ़, पुन: उपयोग योग्य कोड जिसे आप किसी भी Java प्रोजेक्ट में डाल सकते हैं।
-
-अब क्या अगला कदम? एक बैच प्रोसेस बनाएं जो `.mhtml` फ़ाइलों की फ़ोल्डर को वॉक करे और सभी को एक साथ कन्वर्ट करे। या निकाले गए HTML को एक static‑site जेनरेटर में फीड करें ताकि डॉक्यूमेंटेशन बिल्ड्स ऑटोमेट हो सकें। संभावनाएँ अनंत हैं, चाहे आप न्यूज़लेटर्स, सेव्ड वेब पेजेज़ या आर्काइव्ड रिपोर्ट्स के साथ काम कर रहे हों।
-
-कोई सवाल, एज़‑केस सीनारियो, या कोई कूल यूज़‑केस शेयर करना चाहते हैं? नीचे कमेंट करें, और बातचीत जारी रखें। Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

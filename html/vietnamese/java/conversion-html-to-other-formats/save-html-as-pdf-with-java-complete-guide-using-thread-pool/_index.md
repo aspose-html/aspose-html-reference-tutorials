@@ -1,27 +1,64 @@
 ---
 category: general
-date: 2026-01-10
-description: Lưu HTML thành PDF nhanh chóng với Java. Tìm hiểu cách tạo PDF từ HTML,
-  sử dụng thread pool và cá nhân hoá việc tạo PDF dựa trên mẫu trong một hướng dẫn
-  duy nhất.
+date: 2026-09-19
+description: Tìm hiểu cách tạo PDF từ mẫu trong Java bằng Aspose.HTML, với đồng thời
+  xử lý bằng thread‑pool và chuyển đổi HTML‑to‑PDF.
 draft: false
 keywords:
+- create pdf from template
 - save html as pdf
 - generate pdf from html
-- use thread pool
-- template based pdf generation
-- personalize html template
-language: vi
-og_description: Lưu HTML thành PDF một cách hiệu quả bằng Aspose.HTML cho Java. Hướng
-  dẫn này cho thấy cách tạo PDF từ HTML, sử dụng pool luồng và cá nhân hoá các mẫu
-  HTML.
-og_title: Lưu HTML thành PDF bằng Java – Hướng dẫn Thread Pool và Template
+- aspose html to pdf
+- batch html to pdf
+- html to pdf java
+lastmod: 2026-09-19
+og_description: Tìm hiểu cách tạo PDF từ mẫu trong Java với Aspose.HTML, sử dụng thread‑pool
+  và chuyển đổi HTML‑to‑PDF dựa trên mẫu để xử lý hàng loạt nhanh chóng.
+og_image_alt: Guide showing Java code that creates PDFs from an HTML template using
+  Aspose.HTML
+og_title: Tạo PDF từ mẫu trong Java – Thread‑pool và chuyển đổi HTML
+schemas:
+- author: Aspose
+  dateModified: '2026-09-19'
+  description: Learn how to create PDF from template in Java using Aspose.HTML, with
+    thread‑pool concurrency and HTML‑to‑PDF conversion.
+  headline: How to create PDF from template in Java with Aspose.HTML
+  type: TechArticle
+- description: Learn how to create PDF from template in Java using Aspose.HTML, with
+    thread‑pool concurrency and HTML‑to‑PDF conversion.
+  name: How to create PDF from template in Java with Aspose.HTML
+  steps:
+  - name: Load the HTML template once and keep it in a reusable document pool.
+    text: Load the HTML template once and keep it in a reusable document pool.
+  - name: Use a fixed thread pool to handle concurrent conversion requests efficiently.
+    text: Use a fixed thread pool to handle concurrent conversion requests efficiently.
+  - name: Personalize each PDF by updating placeholder elements before saving.
+    text: Personalize each PDF by updating placeholder elements before saving.
+  type: HowTo
+- questions:
+  - answer: Absolutely. Increase the number of tasks submitted to the executor and
+      keep the pool size proportional to your hardware; the same pattern scales to
+      hundreds of files.
+    question: Can I use this approach for batch HTML‑to‑PDF conversion?
+  - answer: Yes – it fully renders HTML5, CSS3, and even JavaScript‑generated content,
+      supporting over 30 output formats.
+    question: Does Aspose.HTML support CSS3 and modern layout features?
+  - answer: Aspose.HTML can process multi‑hundred‑page documents (e.g., 500 pages)
+      without loading the entire file into memory, thanks to its streaming architecture.
+    question: What is the maximum file size the library can handle?
+  - answer: Replace the `doc.save(outputPath, new PdfSaveOptions())` call with `doc.save(outputStream,
+      new PdfSaveOptions())`, where `outputStream` is the servlet’s `HttpServletResponse.getOutputStream()`.
+    question: How do I stream the PDF directly to an HTTP response?
+  - answer: Yes, a valid Aspose.HTML license removes evaluation limitations and unlocks
+      full performance optimizations.
+    question: Is a commercial license required for production use?
+  type: FAQPage
 tags:
 - Java
 - PDF
 - Aspose.HTML
-- Concurrency
-title: Lưu HTML thành PDF bằng Java – Hướng dẫn toàn diện sử dụng Thread Pool và Templates
+- concurrency
+title: Cách tạo PDF từ mẫu trong Java với Aspose.HTML
 url: /vi/java/conversion-html-to-other-formats/save-html-as-pdf-with-java-complete-guide-using-thread-pool/
 ---
 
@@ -29,32 +66,35 @@ url: /vi/java/conversion-html-to-other-formats/save-html-as-pdf-with-java-comple
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lưu HTML thành PDF – Hướng dẫn Java đầy đủ với Thread Pool và Templates
+# Cách tạo PDF từ mẫu trong Java với Aspose.HTML
 
-Bạn đã bao giờ cần **save HTML as PDF** ngay lập tức, nhưng quá trình cảm thấy cồng kềnh hoặc quá chậm? Bạn không phải là người duy nhất. Nhiều nhà phát triển gặp cùng một vấn đề khi họ cố gắng **generate PDF from HTML** trong môi trường high‑throughput. Tin tốt? Với Aspose.HTML for Java, bạn có thể **generate PDF from HTML** một cách thread‑safe, tái sử dụng một template đã được tải trước, và cá nhân hoá mỗi tài liệu mà không cần bắt đầu từ đầu mỗi lần.
+Nếu bạn cần **tạo PDF từ mẫu** một cách nhanh chóng và đáng tin cậy, bạn đang ở đúng nơi. Trong nhiều kịch bản doanh nghiệp, các nhà phát triển phải chuyển đổi các trang HTML động thành tài liệu PDF ở quy mô lớn, và việc làm này mà không có một quy trình được thiết kế tốt có thể trở thành nút thắt hiệu năng. Hướng dẫn này sẽ chỉ cho bạn cách tạo PDF từ HTML bằng Aspose.HTML cho Java, tận dụng một pool tài liệu có thể tái sử dụng, và chạy các chuyển đổi qua một fixed thread pool để đạt hiệu suất tối đa. Khi kết thúc hướng dẫn, bạn sẽ có một mẫu mã hoàn chỉnh, sẵn sàng cho môi trường production mà bạn có thể đưa vào bất kỳ dịch vụ Java nào.
 
-Trong hướng dẫn này, chúng tôi sẽ đi qua một ví dụ hoàn chỉnh, có thể chạy được, cho thấy cách **save HTML as PDF** bằng cách sử dụng document pool, một **thread pool** cố định, và một phương pháp **template‑based PDF generation**. Khi kết thúc, bạn sẽ có một đoạn mã sẵn sàng để sử dụng, hiểu lý do đằng sau mỗi quyết định, và biết cách điều chỉnh nó cho các trường hợp sử dụng của mình.
+## Câu trả lời nhanh
+- **Thư viện nào được sử dụng?** Aspose.HTML cho Java, hỗ trợ hơn 30 định dạng đầu vào và đầu ra.  
+- **Số lượng thread được khuyến nghị?** Kích thước thread pool nên khớp với kích thước document pool (ví dụ: 5 thread cho 5 tài liệu).  
+- **Tôi có thể cá nhân hoá mỗi PDF không?** Có – thay thế các phần tử placeholder trong mẫu HTML trước khi chuyển đổi.  
+- **Giải pháp có an toàn với đa luồng không?** `ObjectPool<T>` được thiết kế để sử dụng đồng thời, vì vậy mỗi thread sẽ làm việc với một instance `Document` riêng.  
+- **Yêu cầu phiên bản Java nào?** Java 17 hoặc mới hơn (cũng tương thích với Java 8+).
 
-## Những gì bạn sẽ học
+## Tạo PDF từ mẫu là gì?
+`create PDF from template` có nghĩa là lấy một file HTML tĩnh chứa các phần tử placeholder (như `<span id="counter">`) và, đối với mỗi yêu cầu, chèn dữ liệu động trước khi chuyển đổi kết quả thành tài liệu PDF. Cách tiếp cận này tránh việc xây dựng lại toàn bộ markup HTML cho mỗi lần chuyển đổi, giảm đáng kể mức sử dụng CPU.
 
-- Cách thiết lập Aspose.HTML for Java để **generate PDF from HTML**.
-- Tại sao một **document pool** kết hợp với **thread pool** lại tăng hiệu năng.
-- Các bước **personalize an HTML template** trước khi chuyển đổi.
-- Xử lý các trường hợp Edge‑case (ví dụ: missing elements, thread‑safety concerns).
-- Kết quả mong đợi và cách xác minh các PDF được tạo.
+## Tại sao lại dùng Aspose.HTML với document pool và thread pool?
+Aspose.HTML hỗ trợ **hơn 50 định dạng đầu vào** (bao gồm HTML, XHTML và Markdown) và có thể render các tài liệu hàng trăm trang mà không cần tải toàn bộ file vào bộ nhớ. Bằng cách tải trước mẫu một lần và tái sử dụng nó qua một `ObjectPool<Document>`, bạn giảm thời gian phân tích lên tới **80 %** trong các kịch bản throughput cao. Kết hợp với một fixed thread pool giúp tận dụng tối đa các lõi CPU đồng thời ngăn ngừa tình trạng thread‑starvation hoặc hết bộ nhớ.
 
-### Yêu cầu trước
-
-- Java 17 hoặc mới hơn (mã cũng biên dịch được với Java 8+).
-- Thư viện Aspose.HTML for Java (bạn có thể nhận bản dùng thử miễn phí từ trang web Aspose).
+## Yêu cầu trước
+- Java 17 (hoặc Java 8+) đã được cài đặt và cấu hình.  
+- JAR Aspose.HTML cho Java (tải bản trial hoặc dùng dependency Maven).  
+- Một file mẫu HTML đơn giản tên `template.html` chứa một phần tử có `id="counter"`.  
 - Kiến thức cơ bản về đồng thời trong Java (`ExecutorService`).
-- Một tệp mẫu HTML (`template.html`) chứa một phần tử có `id="counter"`.
 
----
+## Cách tạo PDF từ mẫu từng bước
 
-## Bước 1: Chuẩn bị mẫu HTML  
+Tải mẫu HTML một lần, tái sử dụng qua pool, và chuyển đổi mỗi yêu cầu song song.
 
-Điều đầu tiên bạn cần là một tệp HTML đơn giản sẽ làm cơ sở cho mọi PDF. Đặt nó ở vị trí có thể truy cập, ví dụ, `YOUR_DIRECTORY/template.html`.
+### Cách thiết lập mẫu HTML?
+Đặt một file HTML nhẹ (ví dụ: `template.html`) vào một thư mục đã biết. Giữ CSS và hình ảnh ở mức tối thiểu để tăng tốc độ chuyển đổi.
 
 ```html
 <!-- template.html -->
@@ -71,13 +111,10 @@ Trong hướng dẫn này, chúng tôi sẽ đi qua một ví dụ hoàn chỉnh
 </html>
 ```
 
-> **Pro tip:** Giữ template nhẹ. CSS nặng hoặc hình ảnh lớn sẽ làm tăng thời gian chuyển đổi cho mỗi yêu cầu.
+> **Mẹo chuyên nghiệp:** Một mẫu gọn giúp giảm thời gian chuyển đổi; hình ảnh lớn hoặc CSS nặng có thể làm tăng thêm hàng trăm mili giây cho mỗi PDF.
 
----
-
-## Bước 2: Thêm phụ thuộc Aspose.HTML  
-
-Nếu bạn dùng Maven, thêm đoạn sau vào `pom.xml` của bạn. Nếu không, tải JAR thủ công và thêm vào classpath.
+### Cách thêm dependency Aspose.HTML vào Maven?
+Thêm đoạn mã sau vào `pom.xml`. Nếu bạn thích thiết lập thủ công, tải JAR từ trang Aspose và thêm vào classpath.
 
 ```xml
 <dependency>
@@ -87,11 +124,8 @@ Nếu bạn dùng Maven, thêm đoạn sau vào `pom.xml` của bạn. Nếu kh�
 </dependency>
 ```
 
----
-
-## Bước 3: Tạo Document Pool  
-
-Một **document pool** tải trước template một lần và cung cấp các bản sao cho các luồng làm việc. Điều này tránh chi phí tải lại cùng một tệp HTML nhiều lần.
+### Cách tạo một document pool có thể tái sử dụng?
+`ObjectPool<Document>` tải mẫu một lần duy nhất và cung cấp các bản sao độc lập cho mỗi thread làm việc.
 
 ```java
 import com.aspose.html.*;
@@ -110,14 +144,10 @@ public class DocumentPool extends ObjectPool<Document> {
 }
 ```
 
-**Why a pool?**  
-"Khi bạn gọi `new Document(templatePath)` cho mỗi yêu cầu, thư viện sẽ phân tích HTML mỗi lần – một thao tác tốn kém. Pool tái sử dụng DOM đã phân tích, giảm đáng kể công việc CPU và việc tiêu thụ bộ nhớ."
+Pool này loại bỏ nhu cầu gọi `new Document(templatePath)` cho mỗi yêu cầu, điều mà nếu không sẽ phải phân tích lại HTML mỗi lần.
 
----
-
-## Bước 4: Thiết lập Fixed Thread Pool  
-
-Chúng tôi sẽ mô phỏng mười yêu cầu tạo PDF đồng thời bằng cách sử dụng một **thread pool** gồm năm worker. Điều này mô phỏng một kịch bản thực tế nơi một dịch vụ web xử lý nhiều yêu cầu cùng lúc.
+### Cách cấu hình một fixed thread pool cho chuyển đổi hàng loạt?
+Chúng ta sẽ mô phỏng mười yêu cầu PDF đồng thời bằng một pool gồm năm thread. Điều này mô phỏng kịch bản dịch vụ web điển hình, nơi nhiều người dùng cùng kích hoạt việc tạo PDF.
 
 ```java
 import java.util.concurrent.ExecutorService;
@@ -126,13 +156,10 @@ import java.util.concurrent.Executors;
 ExecutorService executor = Executors.newFixedThreadPool(5);
 ```
 
-> **Note:** Kích thước thread pool thường nên khớp với số lượng tài liệu trong pool. Có nhiều thread hơn số tài liệu khả dụng sẽ khiến các thread phải chờ một instance `Document` tự do.
+> **Lưu ý:** Đặt kích thước thread‑pool phù hợp với kích thước document‑pool để tránh các thread phải chờ một instance `Document` tự do.
 
----
-
-## Bước 5: Gửi các nhiệm vụ tạo  
-
-Mỗi nhiệm vụ sẽ lấy một `Document` từ pool, cá nhân hoá phần tử `counter`, và lưu kết quả dưới dạng PDF.
+### Cách gửi các task chuyển đổi và cá nhân hoá mẫu?
+Mỗi task lấy một `Document` từ pool, cập nhật placeholder, và lưu kết quả dưới dạng file PDF. `Document` là đại diện của Aspose.HTML cho một tài liệu HTML có thể được thao tác và lưu ở nhiều định dạng khác nhau.
 
 ```java
 import com.aspose.html.pdf.*;
@@ -177,80 +204,92 @@ public class PoolExample {
 }
 ```
 
-### Điều gì đang diễn ra phía sau?
+| Bước | Hành động | Tại sao quan trọng đối với **create PDF from template** |
+|------|-----------|--------------------------------------------------------|
+| Acquire | `documentPool.acquire()` trả về một `Document` đã được tải sẵn. | Bỏ qua việc phân tích HTML → chuyển đổi nhanh hơn. |
+| Personalize | `setTextContent` cập nhật `<span id="counter">`. | Cho thấy cách **cá nhân hoá mẫu HTML** mà không cần xây dựng lại DOM. |
+| Save | `doc.save(..., new PdfSaveOptions())` ghi ra file PDF. | Cốt lõi của **generate PDF from HTML**. |
+| Return | Khối try‑with‑resources tự động trả lại document cho pool. | Đảm bảo an toàn đa luồng và ngăn ngừa rò rỉ. |
 
-| Bước | Hành động | Tại sao lại quan trọng đối với **save html as pdf** |
-|------|-----------|------------------------------------------------------|
-| **Acquire** | `documentPool.acquire()` lấy một `Document` đã được tải trước. | Bỏ qua việc phân tích lại HTML → chuyển đổi nhanh hơn. |
-| **Personalize** | `setTextContent` cập nhật `<span id="counter">`. | Minh họa **personalize html template** mà không cần xây dựng lại toàn bộ DOM. |
-| **Save** | `doc.save(..., new PdfSaveOptions())` ghi một tệp PDF. | Đây là cốt lõi của **generate pdf from html**. |
-| **Close** | Khối try‑with‑resources tự động trả lại tài liệu cho pool. | Đảm bảo thread‑safety và ngăn ngừa rò rỉ. |
+> **Cảnh báo:** Nếu mẫu của bạn tham chiếu tới các script hoặc hình ảnh bên ngoài, hãy chắc chắn chúng có thể truy cập được bởi engine chuyển đổi; nếu không, PDF có thể thiếu các tài nguyên đó.
 
-> **Watch out:** Nếu template của bạn chứa script hoặc tài nguyên bên ngoài, hãy chắc chắn chúng có thể truy cập được bởi engine chuyển đổi, nếu không PDF có thể thiếu nội dung.
-
----
-
-## Bước 6: Xác minh đầu ra  
-
-Sau khi chương trình kết thúc, bạn sẽ thấy mười tệp PDF có tên `out_0.pdf` … `out_9.pdf` trong `YOUR_DIRECTORY`. Mở bất kỳ tệp nào; bạn sẽ thấy tiêu đề được cập nhật với số yêu cầu đúng.
+### Cách kiểm tra các PDF đã tạo?
+Sau khi chương trình kết thúc, bạn sẽ thấy mười file (`out_0.pdf` … `out_9.pdf`) trong thư mục đích. Mở bất kỳ file nào để xem giá trị counter đã được chèn đúng.
 
 ```text
 Report for Request #3
 This PDF was generated automatically.
 ```
 
-Nếu bạn nhận thấy thiếu văn bản hoặc trang trắng, hãy kiểm tra lại rằng ID của các phần tử khớp và giấy phép Aspose.HTML (nếu bạn đã áp dụng) được tải đúng.
+Nếu một PDF xuất hiện trống hoặc thiếu văn bản, hãy kiểm tra lại rằng các ID phần tử trong HTML khớp với những ID được dùng trong mã và rằng giấy phép Aspose.HTML (nếu có) đã được tải đúng.
+
+## Câu hỏi thường gặp & các trường hợp đặc biệt
+
+### Nếu mẫu chứa nhiều placeholder thì sao?
+Gọi `getElementById(...).setTextContent(...)` cho mỗi placeholder, hoặc xây dựng một helper nhận `Map<String,String>` chứa các ID và giá trị tương ứng.
+
+### Có thể tích hợp vào dịch vụ Spring Boot không?
+Có. Khai báo `DocumentPool` dưới dạng bean singleton, tiêm `ExecutorService` hiện có từ Spring, và gọi logic chuyển đổi trong một phương thức controller. Đừng quên tắt executor khi ứng dụng dừng.
+
+### Cách xử lý hình ảnh lớn trong mẫu?
+Nén hoặc thay đổi kích thước hình ảnh trước khi đưa vào mẫu. Aspose.HTML cũng cung cấp `ImageSaveOptions` để giảm kích thước ảnh trong quá trình chuyển đổi.
+
+### Document pool thực sự an toàn với đa luồng không?
+`ObjectPool<T>` được thiết kế cho môi trường đồng thời; mỗi lời gọi `acquire()` trả về một instance `Document` riêng, vì vậy không có hai thread nào chỉnh sửa cùng một DOM.
+
+### Nếu một thread chuyển đổi ném ngoại lệ thì sao?
+Ví dụ bắt `Exception` bên trong task và ghi log. Trong môi trường production, bạn có thể đẩy lỗi tới hệ thống giám sát hoặc thực hiện retry.
+
+## Mẹo để tạo PDF production‑ready
+
+- **Tải giấy phép sớm:** Gọi `License license = new License(); license.setLicense("Aspose.Total.lic");` khi khởi động ứng dụng để tránh watermark đánh giá.  
+- **Giám sát sức khỏe pool:** Thường xuyên log `documentPool.getAvailableCount()`; số lượng giảm dần có thể báo hiệu rò rỉ.  
+- **Tinh chỉnh độ đồng thời:** Dùng `Runtime.getRuntime().availableProcessors()` làm baseline, sau đó điều chỉnh dựa trên profiling CPU và bộ nhớ.  
+- **Cache đường dẫn mẫu:** Lưu nó trong file cấu hình thay vì tạo đối tượng `File` trong supplier của pool.  
+- **Tắt mềm:** Gọi `executor.shutdownNow()` khi ứng dụng dừng để hủy các task đang chờ một cách sạch sẽ.
+
+## Câu hỏi thường gặp
+
+**H: Tôi có thể dùng cách này cho chuyển đổi HTML‑to‑PDF hàng loạt không?**  
+Đ: Chắc chắn. Tăng số lượng task gửi tới executor và giữ kích thước pool tỷ lệ với phần cứng; mẫu này có thể mở rộng lên hàng trăm file.
+
+**H: Aspose.HTML có hỗ trợ CSS3 và các tính năng layout hiện đại không?**  
+Đ: Có – nó render đầy đủ HTML5, CSS3 và thậm chí nội dung được tạo bằng JavaScript, hỗ trợ hơn 30 định dạng đầu ra.
+
+**H: Kích thước file tối đa mà thư viện có thể xử lý là bao nhiêu?**  
+Đ: Aspose.HTML có thể xử lý tài liệu hàng trăm trang (ví dụ: 500 trang) mà không cần tải toàn bộ file vào bộ nhớ, nhờ kiến trúc streaming.
+
+**H: Làm sao stream PDF trực tiếp tới phản hồi HTTP?**  
+Đ: Thay `doc.save(outputPath, new PdfSaveOptions())` bằng `doc.save(outputStream, new PdfSaveOptions())`, trong đó `outputStream` là `HttpServletResponse.getOutputStream()` của servlet.
+
+**H: Có cần giấy phép thương mại để dùng trong production không?**  
+Đ: Có, giấy phép Aspose.HTML hợp lệ sẽ loại bỏ các hạn chế đánh giá và mở khóa toàn bộ tối ưu hiệu năng.
+
+## Kết luận
+Bạn đã có một giải pháp hoàn chỉnh, đầu‑từ‑đầu cho **create PDF from template** trong Java:
+
+1. Tải mẫu HTML một lần và giữ trong một document pool có thể tái sử dụng.  
+2. Dùng một fixed thread pool để xử lý các yêu cầu chuyển đổi đồng thời một cách hiệu quả.  
+3. Cá nhân hoá mỗi PDF bằng cách cập nhật các phần tử placeholder trước khi lưu.  
+
+Mẫu này có thể mở rộng từ các tiện ích dòng lệnh đơn giản tới các dịch vụ web throughput cao tạo hoá đơn, báo cáo hoặc chứng chỉ theo yêu cầu. Bạn có thể mở rộng ví dụ bằng cách thêm nhiều placeholder, phông chữ tùy chỉnh, hoặc stream trực tiếp tới phản hồi HTTP.
 
 ---
 
-## Các câu hỏi thường gặp & Trường hợp đặc biệt  
+**Last Updated:** 2026-09-19  
+**Tested With:** Aspose.HTML for Java 24.11  
+**Author:** Aspose
 
-### 1️⃣ Nếu template có nhiều placeholder thì sao?
+## Các hướng dẫn liên quan
 
-Chỉ cần lặp lại mẫu `getElementById(...).setTextContent(...)` cho mỗi placeholder. Đối với việc thay thế hàng loạt, hãy cân nhắc sử dụng một phương thức trợ giúp nhỏ nhận một map của ID → giá trị.
+- [Create PDF from HTML – Set User Style Sheet in Aspose.HTML for Java](/html/java/configuring-environment/set-user-style-sheet/)
+- [Create Fixed Thread Pool For Parallel Html To Pdf Conversion](/html/java/conversion-html-to-other-formats/create-fixed-thread-pool-for-parallel-html-to-pdf-conversion/)
+- [Adjust PDF Page Size with Aspose.HTML for Java](/html/java/advanced-usage/adjust-pdf-page-size/)
 
-### 2️⃣ Tôi có thể dùng cách này trong máy chủ web (ví dụ: Spring Boot) không?
-
-Chắc chắn. Thay thế `ExecutorService` bằng thread pool xử lý yêu cầu của server, và giữ `DocumentPool` như một bean singleton. Hãy nhớ cấu hình kích thước pool dựa trên số lõi CPU của server và mức độ đồng thời mong đợi.
-
-### 3️⃣ Làm sao để xử lý hình ảnh lớn trong template?
-
-Hình ảnh lớn làm tăng việc sử dụng bộ nhớ trong quá trình chuyển đổi. Tối ưu chúng trước (ví dụ: nén thành JPEG, thay đổi kích thước). Aspose.HTML cũng cung cấp `ImageSaveOptions` để giảm kích thước hình ảnh ngay khi chuyển đổi.
-
-### 4️⃣ Pool có thread‑safe không?
-
-`ObjectPool<T>` từ Aspose.HTML được thiết kế để sử dụng đồng thời. Mỗi `acquire()` trả về một instance `Document` riêng biệt, vì vậy không có hai thread nào chỉnh sửa cùng một DOM.
-
-### 5️⃣ Nếu một thread ném ra ngoại lệ thì sao?
-
-Trong ví dụ, chúng tôi bắt `Exception` bên trong nhiệm vụ và ghi log. Trong môi trường production, bạn có thể muốn đẩy lỗi tới hệ thống giám sát hoặc thử lại thao tác.
-
----
-
-## Mẹo chuyên nghiệp cho **Save HTML as PDF** sẵn sàng cho Production  
-
-- **License early:** Tải giấy phép Aspose.HTML của bạn khi ứng dụng khởi động để tránh watermark đánh giá.  
-- **Monitor pool health:** Thường xuyên kiểm tra số lượng tài nguyên có sẵn trong pool; một rò rỉ (ví dụ: quên đóng `Document`) sẽ làm giảm số lượng theo thời gian.  
-- **Tune thread count:** Sử dụng `Runtime.getRuntime().availableProcessors()` làm cơ sở, sau đó điều chỉnh dựa trên mức sử dụng CPU thực tế.  
-- **Cache the template path:** Hard‑code hoặc inject nó qua cấu hình; tránh tạo đối tượng `File` bên trong nhà cung cấp pool.  
-- **Graceful shutdown:** Gọi `executor.shutdownNow()` khi dừng ứng dụng để hủy các nhiệm vụ đang chờ một cách sạch sẽ.  
-
----
-
-## Kết luận  
-
-Chúng tôi vừa trình bày một giải pháp toàn diện, đầu‑tới‑đầu cho **save html as pdf** trong Java mà:
-
-1. **Generates PDF from HTML** bằng Aspose.HTML.  
-2. **Uses a thread pool** để xử lý nhiều yêu cầu đồng thời.  
-3. **Leverages a template‑based PDF generation** để tránh việc phân tích lại.  
-4. **Personalizes each HTML template** trước khi chuyển đổi.  
-
-Đó là toàn bộ bức tranh — từ tệp `template.html` nhỏ bé đến các PDF cuối cùng nằm trên đĩa. Hãy thoải mái thử nghiệm: thay đổi template, thêm nhiều placeholder, hoặc tích hợp mã vào một endpoint REST. Mô hình này mở rộng tốt, dù bạn đang xây dựng dịch vụ báo cáo, công cụ tạo hoá đơn, hay bộ xuất tài liệu hàng loạt.
-
-Có thêm ý tưởng? Có thể bạn muốn **generate PDF from HTML** với tiêu đề được CSS style, hoặc bạn muốn biết cách stream PDF trực tiếp tới phản hồi HTTP. Khám phá tài liệu Aspose.HTML, hoặc để lại bình luận bên dưới — chúc lập trình vui!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

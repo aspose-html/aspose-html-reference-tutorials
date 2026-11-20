@@ -22,7 +22,6 @@ title: Device‑pixelratio instellen in Java – Mobile Sandbox‑tutorial
 url: /nl/java/advanced-usage/set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/
 ---
 
-with all translations.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

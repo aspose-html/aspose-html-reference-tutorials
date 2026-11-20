@@ -1,0 +1,7 @@
+Title: Convert HTML to Markdown in Python – extract links and paragraphs easily
+Slug: convert-html-to-markdown-in-python-extract-links-and-paragra
+Category: general
+ProcessedDate: 2026-09-26T14:35:57.680405
+SourceRepo: AI Search API
+Keywords: convert html to markdown, extract links from html, save html as markdown, how to convert html, extract paragraphs from html
+PRNumber: 277

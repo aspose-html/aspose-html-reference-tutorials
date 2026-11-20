@@ -23,9 +23,8 @@ title: 'epub till pdf handledning: Konvertera eBook till PDF med Aspose'
 url: /sv/java/converting-epub-to-pdf/epub-to-pdf-tutorial-convert-ebook-to-pdf-with-aspose/
 ---
 
-of content; we ignore.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

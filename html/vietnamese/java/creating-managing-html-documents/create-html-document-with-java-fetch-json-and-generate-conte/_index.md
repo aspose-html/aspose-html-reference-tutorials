@@ -23,13 +23,9 @@ title: Tạo tài liệu HTML bằng Java – Lấy JSON và tạo nội dung
 url: /vi/java/creating-managing-html-documents/create-html-document-with-java-fetch-json-and-generate-conte/
 ---
 
-inside.
 
-Let's produce final content.
 
-Start with shortcodes unchanged.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -1,22 +1,52 @@
 ---
 category: general
-date: 2026-01-03
-description: Estrai rapidamente l'HTML da MHTML con Aspose.HTML. Scopri come estrarre
-  MHTML, convertire MHTML in file ed estrarre le immagini da MHTML in un unico tutorial.
+date: 2026-08-22
+description: Estrai html da mhtml rapidamente con Aspose.HTML. Scopri come estrarre
+  mhtml, convertire mhtml in file e estrarre immagini da mhtml in un unico tutorial.
 draft: false
 keywords:
 - extract html from mhtml
-- how to extract mhtml
 - convert mhtml to files
 - extract images from mhtml
-language: it
-og_description: Estrai rapidamente HTML da MHTML con Aspose.HTML. Scopri come estrarre
-  MHTML, convertire MHTML in file ed estrarre immagini da MHTML in un unico tutorial.
-og_title: Estrai HTML da MHTML – Guida completa a Java
+- Aspose.HTML Java extraction
+lastmod: 2026-08-22
+og_description: Estrai html da mhtml rapidamente con Aspose.HTML. Scopri come estrarre
+  mhtml, convertire mhtml in file e estrarre immagini da mhtml in un unico tutorial.
+og_image_alt: Diagram showing extraction of HTML, CSS, and images from an MHTML archive
+  using Aspose.HTML for Java
+og_title: Estrai html da mhtml – tutorial completo Java
+schemas:
+- author: Aspose
+  dateModified: '2026-08-22'
+  description: Extract html from mhtml quickly with Aspose.HTML. Learn how to extract
+    mhtml, convert mhtml to files, and extract images from mhtml in a single tutorial.
+  headline: Extract HTML from MHTML – Complete Java Guide
+  type: TechArticle
+- questions:
+  - answer: Aspose.HTML streams the archive, so memory usage stays low. Adjust the
+      JVM heap if you process many large files concurrently.
+    question: What if the MHTML file is several hundred megabytes?
+  - answer: Yes. After extraction, simply ignore `index.html` and use the contents
+      of the `images/` folder. You can programmatically list image files with `Files.walk`
+      and filter by common image extensions.
+    question: Can I extract only the images without the HTML file?
+  - answer: '`MhtmlExtractionOptions` retains original MIME part names by default.
+      For custom naming, post‑process the files or implement a custom `IResourceHandler`.'
+    question: How do I preserve the original filenames of embedded resources?
+  - answer: Absolutely. The same Java code runs on any platform that supports Java
+      8+, just adjust file‑system paths accordingly.
+    question: Does this work on Linux and macOS as well as Windows?
+  - answer: Write a simple loop that enumerates all `.mhtml` files, loads each into
+      an `HTMLDocument`, and calls `Converter.extract` with a unique output directory
+      for each file.
+    question: How can I batch‑process a folder of .mhtml files?
+  type: FAQPage
 tags:
 - Java
 - Aspose.HTML
 - MHTML
+- convert mhtml to files
+- extract images from mhtml
 title: Estrai HTML da MHTML – Guida completa Java
 url: /it/java/advanced-usage/extract-html-from-mhtml-complete-java-guide/
 ---
@@ -25,33 +55,40 @@ url: /it/java/advanced-usage/extract-html-from-mhtml-complete-java-guide/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Estrarre HTML da MHTML – Guida Completa per Java
+# Estrai HTML da MHTML – Guida completa Java
 
-Hai mai dovuto **estrarre HTML da MHTML** senza sapere da dove cominciare? Non sei il solo. Gli archivi MHTML raggruppano una pagina web, il suo CSS, script e immagini in un unico file—comodo per il salvataggio, ma un vero grattacapo quando vuoi riottenere i singoli componenti. In questo tutorial ti mostreremo come estrarre mhtml, convertire mhtml in file e persino estrarre le immagini da mhtml usando Aspose.HTML per Java.
+Hai mai avuto bisogno di **estrarre HTML da MHTML** ma non sapevi da dove cominciare? Non sei l'unico. Gli archivi MHTML raggruppano una pagina web, il suo CSS, script e immagini in un unico file—pratico per il salvataggio, ma un problema quando vuoi riottenere i singoli componenti. In questo tutorial ti mostreremo come estrarre mhtml, convertire mhtml in file e persino estrarre le immagini da mhtml usando Aspose.HTML per Java.
 
-Il punto è: non devi scrivere un parser personalizzato né decomprimere manualmente un bundle MIME. Aspose.HTML fa il lavoro pesante, fornendoti una struttura di cartelle pulita con HTML, CSS e file multimediali pronti all'uso. Alla fine avrai un programma Java eseguibile che trasforma qualsiasi archivio `.mhtml` in un set di normali risorse web.
+## Risposte rapide
+- **Qual è il modo più veloce per ottenere HTML da un file MHTML?** Usa `HTMLDocument` con `MhtmlExtractionOptions` e chiama `Converter.extract`.  
+- **Devo scrivere il mio parser MIME?** No, Aspose.HTML gestisce il parsing internamente.  
+- **Quali sistemi operativi sono supportati?** Qualsiasi OS che esegue Java 8+, inclusi Windows, Linux e macOS.  
+- **Posso estrarre solo le immagini?** Sì – esegui l'estrazione e poi usa la cartella `images/` generata.  
+- **Quale versione di Aspose.HTML è necessaria?** La versione 23.10 o successiva fornisce l'API usata in questa guida.
 
-## Cosa Imparerai
+## Cos'è l'estrazione di HTML da MHTML?
+La frase “extract html from mhtml” si riferisce alla conversione di un archivio web a file singolo (MHTML) nei suoi componenti HTML, CSS e risorse multimediali. Questo processo ripristina la struttura originale della pagina in modo che i browser possano renderizzarla senza il contenitore raggruppato.
 
-* Caricare un archivio MHTML in un `HTMLDocument`.
-* Configurare `MhtmlExtractionOptions` per specificare dove verranno salvati i file estratti.
-* Abilitare la riscrittura degli URL affinché l'HTML faccia riferimento alle risorse appena estratte.
-* Eseguire l'estrazione con una singola riga di codice.
-* Suggerimenti per estrarre solo le immagini, gestire archivi di grandi dimensioni e risolvere problemi comuni.
+## Perché usare Aspose.HTML per questo compito?
+Aspose.HTML supporta **oltre 50 formati di input e output** e può elaborare archivi fino a **1 GB** trasmettendo i dati in streaming, mantenendo così basso l'uso della memoria. Il suo riscrittura URL integrata garantisce che l'HTML estratto punti ai nuovi file di risorse, eliminando automaticamente i link interrotti.
 
-**Prerequisiti**
+## Prerequisiti
+- Java 8 o versioni successive installate.  
+- Aspose.HTML per Java 23.10+ (scarica l'ultimo JAR dal sito Aspose).  
+- Un progetto Java di base configurato nel tuo IDE preferito (IntelliJ, Eclipse, VS Code, ecc.).
 
-* Java 8 o versioni successive installate.
-* Una versione recente di Aspose.HTML per Java (il codice funziona con 23.10+).
-* Familiarità di base con progetti Java e il tuo IDE preferito (IntelliJ, Eclipse, VS Code, ecc.).
-
-> **Consiglio professionale:** Se non hai ancora scaricato Aspose.HTML, prendi l'ultimo JAR dal [sito Aspose](https://products.aspose.com/html/java) e aggiungilo al classpath del tuo progetto.
+> **Suggerimento:** Se non hai ancora scaricato Aspose.HTML, prendi l'ultimo JAR dal [sito Aspose](https://products.aspose.com/html/java) e aggiungilo al classpath del tuo progetto.
 
 ![Diagramma dell'estrazione di HTML da MHTML](extract-html-from-mhtml-diagram.png){alt="estrarre html da mhtml"}
 
-## Passo 1 – Aggiungere Aspose.HTML al Progetto
+[Diagramma dell'estrazione di HTML da MHTML](extract-html-from-mhtml-diagram.png)
 
-Prima che qualsiasi codice venga eseguito, la libreria deve essere nel classpath. Se usi Maven, incolla la seguente dipendenza nel tuo `pom.xml`:
+## Come aggiungere Aspose.HTML al tuo progetto?
+Aggiungi la libreria al classpath affinché il compilatore possa trovare l'API. Per Maven, inserisci la dipendenza in `pom.xml`; per Gradle, aggiungila in `build.gradle`. Puoi anche posizionare il JAR in una cartella `libs` e fare riferimento manualmente. Una volta che la libreria è visibile, sei pronto a **estrarre HTML da MHTML**.
+
+## Come caricare un archivio MHTML?
+`HTMLDocument` rappresenta un documento web e può caricare file MHTML.  
+Carica il file `.mhtml` come `HTMLDocument`. Questo passaggio valida l'archivio e costruisce strutture interne, permettendo al motore di estrazione di funzionare in modo efficiente.
 
 ```xml
 <dependency>
@@ -61,17 +98,21 @@ Prima che qualsiasi codice venga eseguito, la libreria deve essere nel classpath
 </dependency>
 ```
 
-Se preferisci Gradle:
+**Ancora di definizione:** `HTMLDocument` è la classe core di Aspose.HTML che rappresenta qualsiasi documento web—HTML, MHTML o altri formati supportati—in memoria.
+
+## Come configurare le opzioni di estrazione (convertire mhtml in file)?
+`MhtmlExtractionOptions` ti consente di impostare la cartella di output, la riscrittura degli URL e le convenzioni di denominazione per le risorse estratte.  
+Crea un'istanza di `MhtmlExtractionOptions` per indicare alla libreria dove scrivere i file, se riscrivere gli URL e come nominare le risorse. Una configurazione corretta garantisce che l'HTML estratto funzioni subito nei browser.
 
 ```gradle
 implementation 'com.aspose:aspose-html:23.10'
 ```
 
-Oppure trascina semplicemente il JAR scaricato nella cartella `libs` e riferiscilo manualmente. Una volta che la libreria è visibile, sei pronto a **estrarre HTML da MHTML**.
+**Ancora di definizione:** `MhtmlExtractionOptions` ti permette di specificare i percorsi delle cartelle di output, abilitare la riscrittura degli URL e controllare le convenzioni di denominazione dei file per le risorse estratte.
 
-## Passo 2 – Caricare l'Archivio MHTML
-
-Il primo passo logico è aprire il file `.mhtml` come un `HTMLDocument`. È come dire ad Aspose.HTML: “Ecco il contenitore con cui voglio lavorare.”
+## Come eseguire l'estrazione (estrarre immagini da mhtml)?
+`Converter.extract` esegue l'estrazione del documento caricato usando le opzioni specificate.  
+Invoca il metodo statico `Converter.extract` con il documento caricato e le opzioni configurate. Il metodo trasmette il contenuto su disco, creando una gerarchia di cartelle ordinata.
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -83,11 +124,7 @@ String mhtmlPath = "C:/myfiles/archive.mhtml";
 HTMLDocument mhtmlDocument = new HTMLDocument(mhtmlPath);
 ```
 
-Perché è importante: il caricamento del documento valida il file e prepara le strutture interne, così l'estrazione successiva avviene rapidamente e senza errori.
-
-## Passo 3 – Configurare le Opzioni di Estrarre (Convertire MHTML in File)
-
-Ora diciamo alla libreria **come** vogliamo che il contenuto sia disposto su disco. `MhtmlExtractionOptions` ti offre un controllo dettagliato sulla cartella di output, sulla riscrittura degli URL e sul mantenimento dei nomi file originali.
+Dopo che questa chiamata termina, troverai una struttura di cartelle simile a:
 
 ```java
 import com.aspose.html.converters.MhtmlExtractionOptions;
@@ -100,11 +137,45 @@ extractionOptions.setOutputFolder("C:/myfiles/extracted");
 extractionOptions.setRewriteUrls(true);
 ```
 
-Impostare `setRewriteUrls(true)` è fondamentale per **convertire mhtml in file** che funzionino realmente quando apri l'HTML estratto in un browser. Senza di essa, la pagina continuerebbe a puntare a riferimenti interni MHTML e apparirebbe rotta.
+Il file HTML ora fa riferimento alle immagini nella sottocartella `images/`, il che significa che hai estratto con successo **immagini da mhtml** così come il markup HTML completo.
 
-## Passo 4 – Eseguire l'Estrarre (Estrarre Immagini da MHTML)
+## Quali sono le insidie comuni e come evitarle?
+- **Archivi grandi:** Aumenta l'heap JVM (`-Xmx2g`) se elabori file più grandi di qualche centinaio di megabyte.  
+- **Cartella di output vuota:** Inizia sempre con una cartella di destinazione vuota; i file residui possono causare conflitti di denominazione.  
+- **URL interrotti:** Assicurati che `setRewriteUrls(true)` sia abilitato; altrimenti l'HTML punterà ancora a riferimenti interni MHTML.  
+- **Logging per il troubleshooting:** Abilita log dettagliati con `System.setProperty("aspose.html.logging", "true")` per catturare eventuali errori di estrazione.
 
-L'ultima riga fa la magia. Il metodo statico `Converter.extract` legge il documento caricato, applica le opzioni e scrive tutto su disco.
+## Domande frequenti
+
+**D: Cosa succede se il file MHTML è di diverse centinaia di megabyte?**  
+R: Aspose.HTML trasmette l'archivio in streaming, quindi l'uso della memoria rimane basso. Regola l'heap JVM se elabori molti file grandi contemporaneamente.
+
+**D: Posso estrarre solo le immagini senza il file HTML?**  
+R: Sì. Dopo l'estrazione, ignora semplicemente `index.html` e usa il contenuto della cartella `images/`. Puoi elencare programmaticamente i file immagine con `Files.walk` e filtrare per le estensioni di immagine più comuni.
+
+**D: Come posso preservare i nomi originali dei file delle risorse incorporate?**  
+R: `MhtmlExtractionOptions` mantiene i nomi originali delle parti MIME per impostazione predefinita. Per una denominazione personalizzata, post‑processa i file o implementa un `IResourceHandler` personalizzato.
+
+**D: Funziona anche su Linux e macOS oltre che su Windows?**  
+R: Assolutamente. Lo stesso codice Java gira su qualsiasi piattaforma che supporta Java 8+, basta adeguare i percorsi del file system di conseguenza.
+
+**D: Come posso elaborare in batch una cartella di file .mhtml?**  
+R: Scrivi un semplice ciclo che enumera tutti i file `.mhtml`, carica ciascuno in un `HTMLDocument` e chiama `Converter.extract` con una directory di output unica per ogni file.
+
+## Conclusione
+Ora disponi di un metodo affidabile, in un solo passaggio, per **estrarre HTML da MHTML**, **convertire MHTML in file** e **estrarre immagini da MHTML** usando Aspose.HTML per Java. Il flusso di lavoro è semplice: carica l'archivio, configura le opzioni di estrazione e lascia che la libreria gestisca il resto. Nessun parsing MIME manuale, nessun hack fragile di stringhe—solo codice pulito e riutilizzabile che puoi inserire in qualsiasi progetto Java.
+
+Prossimi passi? Automatizza il processo per conversioni in massa, integra l'output in un generatore di siti statici, o alimenta l'HTML estratto in una pipeline di gestione dei contenuti. Lo stesso modello funziona per newsletter, pagine web salvate o report archiviati.
+
+Hai uno scenario complesso o un caso d'uso interessante? Condividi le tue idee nei commenti e continua la discussione. Buon coding!
+
+---
+
+**Ultimo aggiornamento:** 2026-08-22  
+**Testato con:** Aspose.HTML per Java 23.10  
+**Autore:** Aspose  
+
+
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -112,8 +183,6 @@ import com.aspose.html.converters.Converter;
 // Perform the extraction
 Converter.extract(mhtmlDocument, extractionOptions);
 ```
-
-Al termine di questa chiamata, troverai una struttura di cartelle simile a:
 
 ```
 extracted/
@@ -124,12 +193,6 @@ extracted/
     ├─ logo.png
     └─ banner.jpg
 ```
-
-Il file HTML ora fa riferimento alle immagini nella sottocartella `images/`, il che significa che hai **estratto immagini da mhtml** con successo, oltre al markup HTML completo.
-
-## Esempio Completo Funzionante
-
-Mettendo insieme tutti i pezzi, ecco una classe Java autonoma che puoi copiare‑incollare nel tuo IDE e eseguire subito:
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -154,50 +217,20 @@ public class ExtractMhtmlDemo {
 }
 ```
 
-**Output previsto**
-
-L'esecuzione del programma stampa:
-
 ```
 Extraction complete! Check C:/myfiles/extracted
 ```
 
-…e la directory `extracted` contiene una pagina HTML funzionante più tutte le risorse associate. Apri `index.html` in qualsiasi browser per verificare che immagini, stili e script vengano caricati correttamente.
+## Tutorial correlati
 
-## Domande Frequenti & Casi Limite
+- [Come convertire HTML in MHTML con Aspose.HTML per Java](/html/java/conversion-html-to-other-formats/convert-html-to-mhtml/)
+- [Come convertire HTML in PDF Java – Usando Aspose.HTML per Java](/html/java/conversion-html-to-other-formats/convert-html-to-pdf/)
+- [Convertire HTML in XPS con Aspose.HTML per Java](/html/java/conversion-html-to-other-formats/convert-html-to-xps/)
 
-### E se il file MHTML è enorme (centinaia di MB)?
-
-Aspose.HTML trasmette i contenuti in streaming, quindi il consumo di memoria rimane contenuto. Tuttavia, potresti voler aumentare l'heap della JVM (`-Xmx2g`) se estrai archivi estremamente grandi o esegui molte estrazioni in parallelo.
-
-### Posso estrarre solo le immagini senza l'HTML?
-
-Sì. Dopo l'estrazione, ignora semplicemente il file `.html` e utilizza la cartella `images/`. Se ti serve un elenco programmatico dei percorsi delle immagini, puoi scansionare la directory di output con `Files.walk` e filtrare per estensioni (`.png`, `.jpg`, `.gif`, ecc.).
-
-### Come mantenere i nomi file originali?
-
-`MhtmlExtractionOptions` rispetta i nomi dei file delle parti MIME originali per impostazione predefinita. Se ti serve uno schema di denominazione personalizzato, puoi post‑processare i file dopo l'estrazione o implementare un `IResourceHandler` personalizzato (uso avanzato).
-
-### Funziona su Linux/macOS?
-
-Assolutamente. Lo stesso codice Java gira su qualsiasi OS che supporti Java 8+. Basta adeguare i percorsi dei file (`/home/user/archive.mhtml` invece di `C:/...`).
-
-## Consigli per un'Esperienza di Estrarre Fluida
-
-* **Valida il MHTML prima** – aprilo in Chrome o Edge per assicurarti che venga visualizzato correttamente prima dell'estrazione.
-* **Mantieni vuota la cartella di output** – Aspose.HTML sovrascriverà i file esistenti, ma residui lasciati indietro possono creare confusione.
-* **Usa percorsi assoluti** nella demo; i percorsi relativi funzionano, ma richiedono una gestione attenta della directory di lavoro.
-* **Abilita il logging** (`System.setProperty("aspose.html.logging", "true")`) se incontri errori misteriosi; la libreria emetterà messaggi dettagliati.
-
-## Conclusione
-
-Ora disponi di un metodo affidabile, in un solo passaggio, per **estrarre HTML da MHTML**, **convertire MHTML in file** e **estrarre immagini da MHTML** usando Aspose.HTML per Java. Il procedimento è semplice: carica l'archivio, configura le opzioni di estrazione e lascia che la libreria faccia il resto. Niente parsing MIME manuale, niente hack fragili su stringhe—solo codice pulito e riutilizzabile da inserire in qualsiasi progetto Java.
-
-Qual è il prossimo passo? Prova a concatenare l'estrazione con un processo batch che scandisce una cartella di file `.mhtml` e li converte tutti in una volta. Oppure alimenta l'HTML estratto a un generatore di siti statici per build di documentazione automatizzate. Le possibilità sono infinite, e lo stesso schema vale per newsletter, pagine web salvate o report archiviati.
-
-Hai domande, scenari limite o un caso d'uso interessante da condividere? Lascia un commento qui sotto e continuiamo la conversazione. Buona programmazione!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

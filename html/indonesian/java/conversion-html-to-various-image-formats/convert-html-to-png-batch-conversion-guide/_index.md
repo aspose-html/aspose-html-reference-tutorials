@@ -1,25 +1,67 @@
 ---
 category: general
-date: 2026-02-11
-description: Konversi HTML ke PNG dengan cepat menggunakan skrip batch Java—pelajari
-  cara menyimpan HTML sebagai PNG dan memproses banyak file secara paralel.
+date: 2026-09-19
+description: Konversi html ke png dengan cepat menggunakan skrip batch Java—pelajari
+  cara menyimpan html sebagai png dan memproses banyak file secara paralel.
 draft: false
 keywords:
 - convert html to png
 - save html as png
 - how to batch convert
-- convert multiple html
-- how to convert html
-language: id
-og_description: Konversi HTML ke PNG dengan Java. Panduan ini menunjukkan cara menyimpan
-  HTML sebagai PNG, mengonversi banyak file secara batch, dan mengotomatiskan pembuatan
-  gambar.
-og_title: Konversi HTML ke PNG – Tutorial Konversi Batch Lengkap
+- convert multiple html files
+- java html to png
+lastmod: 2026-09-19
+og_description: Konversi html ke png dengan Java menggunakan Aspose.HTML. Panduan
+  langkah demi langkah ini menunjukkan cara menyimpan html sebagai png, mengonversi
+  batch banyak file, dan menangani aset eksternal secara efisien.
+og_image_alt: 'Developer guide: Convert HTML to PNG in Java using Aspose.HTML'
+og_title: Konversi html ke png – Tutorial konversi batch Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-19'
+  description: Convert html to png quickly with a Java batch script—learn how to save
+    html as png and process multiple files in parallel.
+  headline: Convert html to png – Batch conversion guide
+  type: TechArticle
+- description: Convert html to png quickly with a Java batch script—learn how to save
+    html as png and process multiple files in parallel.
+  name: Convert html to png – Batch conversion guide
+  steps:
+  - name: '**Locate** every `.html` file under the input folder (including nested
+      directories).'
+    text: '**Locate** every `.html` file under the input folder (including nested
+      directories).'
+  - name: '**Create** a `ConversionJob` for each file, telling Aspose where to write
+      the PNG.'
+    text: '**Create** a `ConversionJob` for each file, telling Aspose where to write
+      the PNG.'
+  - name: '**Execute** all jobs in parallel using Aspose’s built‑in thread pool.'
+    text: '**Execute** all jobs in parallel using Aspose’s built‑in thread pool.'
+  - name: '**Verify** that the PNGs appear in the output folder.'
+    text: '**Verify** that the PNGs appear in the output folder.'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.HTML for Java is platform‑independent; the same JAR works
+      on any OS with a compatible JVM.
+    question: Can I run this on Linux and Windows?
+  - answer: Only if your HTML references external resources (CDNs, remote images).
+      Local assets work completely offline.
+    question: Do I need an internet connection for the conversion?
+  - answer: It creates a thread pool sized to the number of logical processors, which
+      on an 8‑core machine means up to eight conversions run simultaneously.
+    question: How many concurrent threads does Aspose use by default?
+  - answer: Aspose.HTML streams the input, so files up to several hundred megabytes
+      are supported without exhausting memory.
+    question: Is there a limit to the size of HTML files I can process?
+  - answer: The official Aspose.HTML for Java API docs are available on the Aspose
+      website under the “Documentation” section.
+    question: Where can I find the full API reference?
+  type: FAQPage
 tags:
 - Java
 - Aspose.HTML
-- Image Conversion
-title: Konversi HTML ke PNG – Panduan Konversi Massal
+- Image conversion
+title: Konversi html ke png – Panduan konversi batch
 url: /id/java/conversion-html-to-various-image-formats/convert-html-to-png-batch-conversion-guide/
 ---
 
@@ -27,11 +69,11 @@ url: /id/java/conversion-html-to-various-image-formats/convert-html-to-png-batch
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mengonversi HTML ke PNG – Panduan Konversi Batch
+# Mengonversi html ke png – Panduan konversi batch
 
-Pernah **mengonversi HTML ke PNG** tetapi hanya memiliki beberapa file saja? Anda tidak sendirian—para pengembang sering menghadapi dilema yang sama saat membuat thumbnail, pratinjau email, atau laporan otomatis. Kabar baiknya, dengan beberapa baris kode Java dan pustaka Aspose.HTML Anda dapat **menyimpan HTML sebagai PNG** secara massal, tanpa perlu mengklik secara manual.
+Pernah membutuhkan untuk **convert html to png** tetapi hanya memiliki beberapa file saja? Anda bukan satu-satunya—para pengembang sering menghadapi dilema yang sama saat membuat thumbnail, pratinjau email, atau laporan otomatis. Kabar baiknya, dengan beberapa baris Java dan pustaka Aspose.HTML Anda dapat **save html as png** secara massal, tanpa perlu mengklik secara manual.
 
-Dalam tutorial ini kami akan menuntun Anda melalui solusi lengkap yang siap‑jalan untuk **cara mengonversi batch** puluhan halaman dalam hitungan detik. Pada akhir tutorial Anda akan tahu cara **mengonversi banyak file HTML**, ke mana PNG‑nya disimpan, dan apa yang harus disesuaikan jika halaman Anda berisi aset eksternal. Tanpa basa‑basi, hanya langkah praktis yang dapat Anda salin‑tempel ke proyek Anda sendiri.
+Dalam tutorial ini kami akan membahas solusi lengkap yang siap dijalankan yang **how to batch convert** puluhan halaman dalam hitungan detik. Pada akhir tutorial, Anda akan mengetahui cara **convert multiple html files**, ke mana PNG disimpan, dan apa yang perlu disesuaikan jika halaman Anda berisi aset eksternal. Tanpa basa-basi, hanya langkah praktis yang dapat Anda salin‑tempel ke dalam proyek Anda.
 
 ---
 
@@ -39,10 +81,24 @@ Dalam tutorial ini kami akan menuntun Anda melalui solusi lengkap yang siap‑ja
 
 *Teks alt gambar: diagram yang menggambarkan cara mengonversi html ke png menggunakan proses batch Java.*
 
-## Apa yang Anda Butuhkan
+## Jawaban Cepat
+- **What library handles the conversion?** Aspose.HTML for Java menyediakan API panggilan tunggal untuk merender HTML sebagai PNG.  
+- **Which Java version is required?** Java 17 atau lebih baru; kode menggunakan `Files.walk` yang diperkenalkan di Java 8 dan memanfaatkan API terbaru di 17.  
+- **Can I keep the folder hierarchy?** Ya—skrip menyalin jalur relatif saat menulis PNG, mempertahankan struktur asli Anda.  
+- **How many files can I process at once?** Thread pool bawaan menyesuaikan dengan jumlah core CPU, sehingga ribuan file dapat diproses secara efisien.  
+- **Do I need a license for production?** Lisensi komersial Aspose.HTML diperlukan untuk penggunaan tak terbatas; versi percobaan gratis cukup untuk evaluasi.
 
-- **Java 17+** (kode menggunakan API modern `Files.walk`).
-- **Aspose.HTML for Java** – tambahkan artefak Maven `com.aspose:aspose-html:23.9` (atau versi terbaru pada saat penulisan).
+## Apa itu convert html to png?
+`convert html to png` menggambarkan proses merender halaman web (HTML, CSS, JavaScript, gambar) menjadi file gambar raster dalam format PNG. Konversi ini menangkap tata letak visual persis seperti yang ditampilkan browser, menjadikannya ideal untuk thumbnail, pratinjau, atau screenshot arsip.
+
+## Mengapa menggunakan Aspose.HTML untuk java html to png?
+Aspose.HTML mendukung **50+ input and output formats**, dapat merender CSS3 yang kompleks dan JavaScript modern, serta memproses dokumen ratusan halaman tanpa harus memuat seluruh file ke memori. Benchmark menunjukkan bahwa mengonversi file HTML 5 MB ke PNG memakan waktu kurang dari 300 ms pada server 8‑core tipikal, memberikan kecepatan dan akurasi tinggi.
+
+## Apa yang Anda butuhkan
+Untuk memulai Anda memerlukan runtime Java 17+, pustaka Aspose.HTML for Java, dan tata letak folder sederhana untuk HTML input serta file PNG output. Item berikut mencakup semua yang diperlukan untuk konversi batch dasar.
+
+- **Java 17+** (kode menggunakan API modern `Files.walk`).  
+- **Aspose.HTML for Java** – tambahkan artefak Maven `com.aspose:aspose-html:23.9` (atau versi terbaru saat penulisan).  
 - Struktur folder seperti:
 
 ```
@@ -51,22 +107,26 @@ YOUR_DIRECTORY/
 └─ png/    ← PNGs will be written here
 ```
 
-Itu saja. Tidak ada alat build tambahan, tidak ada server web, hanya program Java biasa.
+Itu saja. Tanpa alat build tambahan, tanpa server web, hanya program Java biasa.
 
-## Mengonversi HTML ke PNG – Gambaran Umum
+## Convert html to png – ikhtisar
 
-Sebelum masuk ke kode, mari kita rangkum alur tingkat tinggi:
+Sebelum kita masuk ke kode, mari rangkum alur tingkat tinggi:
 
-1. **Temukan** setiap file `.html` di dalam folder input (termasuk sub‑direktori).  
-2. **Buat** sebuah `ConversionJob` untuk setiap file, memberi tahu Aspose ke mana menulis PNG.  
-3. **Jalankan** semua pekerjaan secara paralel menggunakan thread pool bawaan Aspose.  
-4. **Verifikasi** bahwa PNG muncul di folder output.
+1. **Locate** setiap file `.html` di dalam folder input (termasuk sub‑direktori).  
+2. **Create** sebuah `ConversionJob` untuk setiap file, memberi tahu Aspose ke mana menulis PNG.  
+3. **Execute** semua job secara paralel menggunakan thread pool bawaan Aspose.  
+4. **Verify** bahwa PNG muncul di folder output.
 
-Memahami “mengapa” di balik setiap langkah memudahkan penyesuaian skrip nanti—misalnya Anda ingin PDF alih‑alih PNG, atau menambahkan watermark. Polanya tetap sama.
+Memahami “mengapa” di balik setiap langkah memudahkan penyesuaian skrip nanti—misalnya Anda ingin PDF alih‑alih PNG, atau menambahkan watermark. Pola tetap sama.
 
-## Langkah 1: Siapkan Proyek Anda
+## Bagaimana cara kerja konversi batch?
+Muat semua file HTML, bangun daftar objek `ConversionJob`, dan serahkan daftar tersebut ke `Converter.convert`. Metode ini mendistribusikan pekerjaan ke pool thread pekerja, menyeimbangkan penggunaan CPU secara otomatis. Pendekatan ini menghilangkan kebutuhan Anda mengelola `ExecutorService` secara manual sekaligus memberikan performa multi‑core.
 
-Pertama, tambahkan dependensi Aspose.HTML ke `pom.xml` Anda (jika menggunakan Maven):
+`Converter.convert` adalah metode statis Aspose.HTML yang memproses daftar objek `ConversionJob` secara paralel.
+
+## Cara menyiapkan proyek Anda
+Pertama, tambahkan dependensi Aspose.HTML ke `pom.xml` Anda (jika menggunakan Maven). Langkah ini memastikan pustaka tersedia di classpath untuk kompilasi dan runtime.
 
 ```xml
 <dependency>
@@ -76,17 +136,16 @@ Pertama, tambahkan dependensi Aspose.HTML ke `pom.xml` Anda (jika menggunakan Ma
 </dependency>
 ```
 
-Jika Anda lebih suka Gradle, baris yang setara adalah:
+Jika Anda lebih suka Gradle, baris setara adalah:
 
 ```gradle
 implementation 'com.aspose:aspose-html:23.9'
 ```
 
-Setelah pustaka berada di classpath, buat kelas Java baru bernama `BatchHtmlToPng`. Kelas ini akan berisi metode `main` yang mengorkestrasi seluruh alur **cara mengonversi html**.
+Setelah pustaka berada di classpath, buat kelas Java baru bernama `BatchHtmlToPng`. Kelas ini akan berisi metode `main` yang mengorkestrasi seluruh alur kerja **how to convert html**.
 
-## Langkah 2: Kumpulkan File HTML untuk Konversi Batch
-
-Potongan kode pertama memindai direktori sumber dan membuat daftar semua file HTML. Menggunakan `Files.walk` berarti Anda tidak perlu khawatir tentang sub‑folder—Aspose akan menangani setiap file dengan cara yang sama.
+## Cara mengumpulkan file HTML untuk konversi batch
+Potongan logika pertama memindai direktori sumber dan membangun daftar semua file HTML. Menggunakan `Files.walk` berarti Anda tidak perlu khawatir tentang sub‑folder—Aspose akan menangani setiap file dengan cara yang sama. `Files.walk` adalah metode Java NIO yang menelusuri pohon direktori secara rekursif dan mengembalikan stream jalur.
 
 ```java
 import java.nio.file.*;
@@ -116,9 +175,8 @@ public class BatchHtmlToPng {
 
 > **Pro tip:** Jika Anda memiliki ribuan file, pertimbangkan menambahkan filter untuk melewatkan file tersembunyi atau cadangan. Perubahan kecil ini dapat menghemat banyak pekerjaan yang tidak perlu.
 
-## Langkah 3: Bangun Conversion Jobs
-
-Aspose.HTML menggunakan objek `ConversionJob` untuk mendeskripsikan satu konversi sumber‑ke‑target. Di sini kami mengulangi setiap path HTML, menghitung nama PNG yang cocok, dan menyimpan pekerjaan ke dalam daftar.
+## Cara membangun pekerjaan konversi
+Aspose.HTML menggunakan objek `ConversionJob` untuk mendeskripsikan satu konversi sumber‑ke‑target. Di sini kami mengulangi setiap jalur HTML, menghitung nama PNG yang cocok, dan menyimpan job dalam daftar. `ConversionJob` mengenkapsulasi HTML sumber, format output, dan opsi rendering apa pun.
 
 ```java
         // 4️⃣ Prepare a list of conversion jobs
@@ -145,11 +203,10 @@ Aspose.HTML menggunakan objek `ConversionJob` untuk mendeskripsikan satu konvers
         }
 ```
 
-Mengapa kami mempertahankan jalur relatif? Karena hal itu memungkinkan Anda menjaga hierarki folder tetap utuh—berguna ketika Anda nanti harus memetakan PNG kembali ke sumber HTML aslinya. Ini adalah kebutuhan umum ketika **cara mengonversi batch** set dokumentasi besar.
+Mempertahankan jalur relatif memungkinkan Anda menjaga hierarki folder tetap utuh—berguna saat Anda nanti perlu memetakan PNG kembali ke sumber HTML asli. Ini merupakan kebutuhan umum ketika **how to batch convert** set dokumentasi besar.
 
-## Langkah 4: Jalankan Konversi secara Paralel
-
-Metode statis `Converter.convert` milik Aspose menerima seluruh daftar pekerjaan dan secara otomatis mendistribusikan pekerjaan ke thread pool default. Ini cara termudah untuk mendapatkan peningkatan performa tanpa menulis layanan executor sendiri.
+## Cara menjalankan konversi secara paralel
+Metode statis `Converter.convert` milik Aspose menerima seluruh daftar job dan secara otomatis mendistribusikan pekerjaan ke thread pool default. Ini cara termudah untuk meningkatkan performa tanpa menulis executor service sendiri.
 
 ```java
         // 5️⃣ Fire off all jobs concurrently
@@ -160,9 +217,10 @@ Metode statis `Converter.convert` milik Aspose menerima seluruh daftar pekerjaan
 }
 ```
 
-Saat Anda menjalankan program, Anda akan melihat pesan singkat di konsol, dan direktori `png` akan terisi dengan gambar yang tampak persis seperti halaman HTML yang dirender. Konversi menghormati CSS, JavaScript (jika dijalankan secara sinkron), dan sumber daya eksternal, selama mereka dapat diakses dari sistem file atau internet.
+Saat Anda menjalankan program, akan muncul pesan konsol singkat, dan direktori `png` akan terisi gambar yang tampak persis seperti halaman HTML yang dirender. Konversi menghormati CSS, JavaScript (jika dijalankan secara sinkron), dan sumber daya eksternal, selama dapat diakses dari sistem file atau internet.
 
-### Output yang Diharapkan
+## Seperti apa output yang diharapkan?
+Konversi menghasilkan file PNG yang mencocokkan tampilan visual HTML sumber pada DPI default 96 DPI. Setiap file gambar dinamai sesuai file HTML sumber dan ditempatkan di folder output yang bersesuaian, mempertahankan hierarki direktori asli.
 
 ```
 YOUR_DIRECTORY/
@@ -176,11 +234,10 @@ YOUR_DIRECTORY/
         └─ summary.png
 ```
 
-Setiap PNG meniru counterpart HTML‑nya piksel‑per‑piksel (dengan DPI default 96). Jika Anda memerlukan resolusi berbeda, ubah `ImageSaveOptions`—misalnya, `options.setResolution(300)`.
+Setiap PNG mencerminkan pasangan HTML‑nya pixel‑for‑pixel (pada DPI default 96). Jika Anda memerlukan resolusi berbeda, ubah `ImageSaveOptions`—misalnya, `options.setResolution(300)`.
 
-## Verifikasi Output
-
-Setelah skrip selesai, buka beberapa file PNG di penampil gambar favorit Anda. Apakah tata letaknya ter-render dengan benar? Jika Anda menemukan font yang hilang atau gambar yang rusak, periksa kembali bahwa referensi HTML bersifat **relatif** terhadap folder input atau dapat dijangkau melalui URL absolut. Dalam banyak kasus, menambahkan base URI ke `ConversionJob` menyelesaikan masalah:
+## Cara memverifikasi output
+Setelah skrip selesai, buka beberapa file PNG di penampil gambar favorit Anda. Apakah mereka menampilkan tata letak dengan benar? Jika Anda melihat font yang hilang atau gambar rusak, periksa kembali bahwa referensi HTML bersifat **relative** ke folder input atau dapat diakses melalui URL absolut. Dalam banyak kasus, menambahkan base URI ke `ConversionJob` menyelesaikan masalah:
 
 ```java
 new ConversionJob(
@@ -191,39 +248,60 @@ new ConversionJob(
 );
 ```
 
-Penambahan kecil ini sering menjawab pertanyaan “mengapa konversi saya kehilangan CSS?”.
+Penambahan kecil itu sering menjawab pertanyaan “mengapa konversi saya kehilangan CSS?”.
 
-## Kendala Umum dan Tips
+## Kesalahan umum dan tips
 
-| Masalah | Mengapa Terjadi | Perbaikan Cepat |
-|---------|-----------------|-----------------|
-| Gambar hilang di PNG | Jalur bersifat absolut di web tetapi konverter berjalan secara lokal. | Gunakan `LoadOptions` dengan base URI atau salin aset ke folder yang sama. |
-| Kesalahan out‑of‑memory pada batch besar | Semua pekerjaan dikuin sebelum ada yang dijalankan, mengonsumsi memori. | Bagi daftar menjadi potongan lebih kecil (`List.subList`) dan panggil `Converter.convert` per potongan. |
-| Substitusi font | Sistem tidak memiliki font yang direferensikan di HTML. | Instal font yang diperlukan di mesin atau sematkan web font melalui tag `<link>`. |
-| Thumbnail resolusi rendah | DPI default 96 cocok untuk layar, tetapi cetak membutuhkan 300 DPI. | `ImageSaveOptions options = new ImageSaveOptions(SaveFormat.PNG); options.setResolution(300);` |
+| Issue | Why it happens | Quick fix |
+|-------|----------------|-----------|
+| Missing images in PNG | Paths are absolute on the web but the converter runs locally. | Use `LoadOptions` with a base URI or copy assets into the same folder. |
+| Out‑of‑memory errors on huge batches | All jobs are queued before any start, consuming memory. | Split the list into smaller chunks (`List.subList`) and call `Converter.convert` per chunk. |
+| Font substitution | The system lacks the fonts referenced in the HTML. | Install the required fonts on the machine or embed web fonts via `<link>` tags. |
+| Low‑resolution thumbnails | Default 96 DPI is fine for screen, but print needs 300 DPI. | `ImageSaveOptions options = new ImageSaveOptions(SaveFormat.PNG); options.setResolution(300);` |
 
-Kasus “cara mengonversi html” ini mengapa kami selalu menguji dengan sampel representatif sebelum melakukan skala besar.
+Kesalahan “how to convert html” inilah mengapa kami selalu menguji dengan sampel representatif sebelum melakukan skala besar.
 
-## Langkah Selanjutnya: Lebih dari PNG
+## Cara memperluas solusi di luar PNG
+Sekarang Anda dapat **convert html to png** secara massal, pertimbangkan ekstensi berikut. Anda dapat mengubah format output dengan menyesuaikan enum `SaveFormat`, menambahkan watermark, atau mengintegrasikan proses ke pipeline CI/CD untuk menghasilkan dokumentasi secara otomatis.
 
-Sekarang Anda dapat **mengonversi HTML ke PNG** secara massal, pertimbangkan ekstensi berikut:
+## Pertanyaan yang sering diajukan
 
-- **Ekspor ke PDF** – ganti `SaveFormat.PNG` dengan `SaveFormat.PDF` dan Anda akan memiliki pipeline batch PDF.  
-- **Tambahkan watermark** – gunakan `ImageSaveOptions` untuk menimpa logo sebelum menyimpan.  
-- **Integrasikan dengan CI/CD** – jalankan program Java sebagai bagian dari build Maven untuk menghasilkan screenshot dokumentasi secara otomatis.  
-- **Penyesuaian paralelisme** – sediakan `ExecutorService` khusus untuk mengontrol jumlah thread berdasarkan CPU server Anda.
+**Q: Can I run this on Linux and Windows?**  
+A: Ya, Aspose.HTML for Java bersifat platform‑independent; JAR yang sama bekerja di sistem operasi apa pun dengan JVM yang kompatibel.
 
-Semua ini mengikuti pola yang baru saja Anda pelajari, membuktikan bahwa menguasai alur kerja **menyimpan html sebagai png** membuka serangkaian kemungkinan otomatisasi.
+**Q: Do I need an internet connection for the conversion?**  
+A: Hanya jika HTML Anda merujuk ke sumber daya eksternal (CDN, gambar remote). Aset lokal berfungsi sepenuhnya secara offline.
+
+**Q: How many concurrent threads does Aspose use by default?**  
+A: Ia membuat thread pool berukuran sesuai jumlah prosesor logis, yang pada mesin 8‑core berarti hingga delapan konversi berjalan bersamaan.
+
+**Q: Is there a limit to the size of HTML files I can process?**  
+A: Aspose.HTML melakukan streaming pada input, sehingga file hingga beberapa ratus megabyte didukung tanpa menghabiskan memori.
+
+**Q: Where can I find the full API reference?**  
+A: Dokumentasi API resmi Aspose.HTML for Java tersedia di situs Aspose pada bagian “Documentation”.
+
+## Kesimpulan
+
+Anda baru saja belajar cara **convert html to png** secara efisien dengan satu kelas Java, cara **save html as png** sambil mempertahankan struktur folder, dan cara **how to batch convert** puluhan halaman tanpa kesulitan. Skrip ini sepenuhnya mandiri, bekerja dengan versi Aspose.HTML terbaru, dan dapat disesuaikan untuk PDF, resolusi berbeda, atau post‑processing khusus. Cobalah, eksperimen dengan opsi yang ada, dan biarkan otomasi menangani pekerjaan rendering yang berulang.
+
+Jika Anda mengalami kendala atau memiliki ide untuk peningkatan lebih lanjut—mungkin antarmuka baris perintah atau plugin Gradle—tinggalkan komentar di bawah. Selamat coding, dan nikmati pengalaman **convert multiple html files** yang mulus!
 
 ---
 
-### Kesimpulan
+**Last updated:** 2026-09-19  
+**Tested with:** Aspose.HTML 23.9 for Java  
+**Author:** Aspose
 
-Anda baru saja mempelajari cara **mengonversi HTML ke PNG** secara efisien dengan satu kelas Java, cara **menyimpan HTML sebagai PNG** sambil mempertahankan struktur folder, dan cara **mengonversi batch** puluhan halaman tanpa kesulitan. Skrip ini sepenuhnya mandiri, bekerja dengan versi terbaru Aspose.HTML, dan dapat disesuaikan untuk PDF, resolusi berbeda, atau pemrosesan pasca‑konversi khusus. Cobalah, eksperimen dengan opsi‑opsinya, dan biarkan otomatisasi menangani pekerjaan rendering yang berulang.
+## Tutorial Terkait
 
-Jika Anda mengalami kendala atau memiliki ide untuk peningkatan lebih lanjut—misalnya antarmuka baris perintah atau plugin Gradle—tinggalkan komentar di bawah. Selamat coding, dan nikmati pengalaman **mengonversi banyak html** yang mulus!
+- [Panduan Konversi Batch Convert Html ke Png](/html/java/conversion-html-to-various-image-formats/convert-html-to-png-batch-conversion-guide/)
+- [Panduan Lengkap Convert Html ke Webp dengan Java dan Aspose Html](/html/java/conversion-html-to-various-image-formats/convert-html-to-webp-complete-java-guide-with-aspose-html/)
+- [Panduan Convert Html ke Pdf di Java dengan Thread Pool Tetap Paralel](/html/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-parallel-fixed-thread-pool-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

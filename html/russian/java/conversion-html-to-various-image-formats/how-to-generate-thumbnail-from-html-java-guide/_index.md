@@ -22,17 +22,12 @@ title: Как сгенерировать миниатюру из HTML — рук
 url: /ru/java/conversion-html-to-various-image-formats/how-to-generate-thumbnail-from-html-java-guide/
 ---
 
-avoid altering. But we can translate: "(Primary Keyword in Header)" maybe keep unchanged. I'll keep unchanged.
 
-Similarly "Secondary Keyword: load html file java". Keep as is.
 
-Also "Secondary Keyword: convert html to png". Keep.
 
-Also "Bonus: Using the Thumbnail in a Web App". Keep.
 
-Ok.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
