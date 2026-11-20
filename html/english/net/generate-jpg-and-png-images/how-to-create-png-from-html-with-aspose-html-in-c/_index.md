@@ -64,20 +64,20 @@ Install-Package Aspose.HTML
 
 This adds the `Aspose.Html` assembly and its dependencies to your project, enabling the classes used later in the tutorial.
 
-## Step 2: Load the HTML document you want to render
+## Step 2: Point to the HTML file you want to render
 
-The `HTMLDocument` class represents the source markup. Provide the full path to your HTML file, or load it from a stream if the content is generated at runtime.
+`Converter.ConvertHTML` works directly from a file path (or a stream, if the content is generated at runtime), so there's no separate document object to construct — just keep the source path handy for Step 4.
 
 ```csharp
 using Aspose.Html;
+using Aspose.Html.Converters;
 using Aspose.Html.Rendering.Image;
-using Aspose.Html.Rendering.Image.Options;
 
-// Load the HTML file from disk
-HTMLDocument htmlDoc = new HTMLDocument(@"C:\MyProject\input.html");
+// The source HTML file on disk
+string sourceHtmlPath = @"C:\MyProject\input.html";
 ```
 
-> **Why this matters** – Loading the document creates a DOM that Aspose.HTML can render exactly as a browser would, preserving CSS, fonts, and JavaScript‑generated layout.
+> **Why this matters** – Aspose.HTML parses the markup into a DOM internally and renders it exactly as a browser would, preserving CSS, fonts, and JavaScript‑generated layout.
 
 ## Step 3: Configure image rendering options and enable antialiasing
 
@@ -91,10 +91,10 @@ ImageRenderingOptions renderingOptions = new ImageRenderingOptions
     UseAntialiasing = true,
 
     // Improve text clarity on the raster image
-    TextOptions = new TextOptions { UseHinting = true },
+    UseHinting = true,
 
     // Use a normal web‑font style (no bold or italic overrides)
-    Font = new FontInfo { Style = WebFontStyle.Normal }
+    WebFontStyle = WebFontStyle.Normal
 };
 ```
 
@@ -102,11 +102,13 @@ ImageRenderingOptions renderingOptions = new ImageRenderingOptions
 
 ## Step 4: Render the HTML page to a PNG file
 
-Call `RenderToImage` on the `HTMLDocument` instance, passing the output file name and the options you configured.
+Create a `PngDevice` with the options you configured, then call the static `Converter.ConvertHTML` method to render the source HTML straight to a PNG file.
 
 ```csharp
 // Render the document as a PNG image
-htmlDoc.RenderToImage(@"C:\MyProject\output.png", renderingOptions);
+string outputPngPath = @"C:\MyProject\output.png";
+var pngDevice = new PngDevice(renderingOptions);
+Converter.ConvertHTML(sourceHtmlPath, outputPngPath, pngDevice);
 ```
 
 After the call completes, `output.png` contains a pixel‑perfect snapshot of the original HTML page, complete with antialiased graphics and clear text.
@@ -128,9 +130,7 @@ If the image appears blurry, double‑check that the source HTML uses high‑res
 
 | Scenario | Recommended adjustment |
 |----------|------------------------|
-| **Large pages** | Increase the `Resolution` property on `ImageRenderingOptions` (e.g., `renderingOptions.Resolution = 300`) to get a higher‑dpi PNG. |
 | **Transparent backgrounds** | Set `renderingOptions.BackgroundColor = Color.Transparent` before rendering. |
-| **Multiple pages** | Loop through `htmlDoc.Pages` and call `RenderToImage` for each page, appending an index to the file name. |
 | **Dynamic HTML** | Load the markup from a `string` or `Stream` instead of a file: `new HTMLDocument(new MemoryStream(Encoding.UTF8.GetBytes(htmlString)))`. |
 
 These variations let you **convert HTML to PNG** in a wide range of real‑world situations.
@@ -142,8 +142,8 @@ Below is the complete, self‑contained program. Copy it into a new console proj
 ```csharp
 using System;
 using Aspose.Html;
+using Aspose.Html.Converters;
 using Aspose.Html.Rendering.Image;
-using Aspose.Html.Rendering.Image.Options;
 
 namespace HtmlToPngDemo
 {
@@ -157,19 +157,17 @@ namespace HtmlToPngDemo
             // Path where the PNG will be saved
             string outputPath = @"C:\MyProject\output.png";
 
-            // Load the HTML document
-            HTMLDocument htmlDoc = new HTMLDocument(inputPath);
-
             // Set up rendering options with antialiasing
             ImageRenderingOptions renderingOptions = new ImageRenderingOptions
             {
                 UseAntialiasing = true,
-                TextOptions = new TextOptions { UseHinting = true },
-                Font = new FontInfo { Style = WebFontStyle.Normal }
+                UseHinting = true,
+                WebFontStyle = WebFontStyle.Normal
             };
 
             // Render to PNG
-            htmlDoc.RenderToImage(outputPath, renderingOptions);
+            var pngDevice = new PngDevice(renderingOptions);
+            Converter.ConvertHTML(inputPath, outputPath, pngDevice);
 
             Console.WriteLine($"Successfully created PNG from HTML at: {outputPath}");
         }
@@ -191,7 +189,7 @@ You now know how to **create PNG from HTML** using Aspose.HTML in C#. The tutori
 
 ### Next steps
 
-* Explore **different image formats** (JPEG, BMP) by changing the file extension in `RenderToImage`.
+* Explore **different image formats** (JPEG, BMP) by swapping `PngDevice` for `JpegDevice` or `BmpDevice`.
 * Combine this technique with **headless browser automation** to capture pages that require JavaScript execution.
 * Integrate the PNG generation into an ASP.NET Core API to provide on‑the‑fly thumbnails for user‑submitted HTML.
 

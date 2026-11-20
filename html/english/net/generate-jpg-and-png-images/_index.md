@@ -30,17 +30,18 @@ Aspose.HTML for .NET offers a straightforward method for converting HTML to imag
 
 ```csharp
 using Aspose.Html;
+using Aspose.Html.Converters;
 using Aspose.Html.Rendering.Image;
 
-// Load HTML document
-var document = new HTMLDocument("<html><body><h1>Hello World</h1></body></html>");
+// Configure rendering options
+var renderingOptions = new ImageRenderingOptions
+{
+    UseAntialiasing = true
+};
 
-// Set device options
-var device = new ImageDevice("output.jpg", ImageFormat.Jpeg);
-device.ImageQuality = 90;
-
-// Render HTML to image
-document.RenderTo(device);
+// Render HTML straight to a JPEG file
+var jpegDevice = new JpegDevice(renderingOptions);
+Converter.ConvertHTML("input.html", "output.jpg", jpegDevice);
 ```
 
 ## Optimizing Images
