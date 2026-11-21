@@ -95,6 +95,8 @@ Poznaj metodę zapisu HTML w C# z własnym magazynem wyjściowym, dającą pełn
 
 Poznaj, jak skonfigurować i zastosować HtmlSaveOptions przy zapisywaniu dokumentów HTML w C# przy użyciu Aspose.HTML.
 
+### [Jak zapisać HTML w C# przy użyciu własnego obsługiwacza zasobów](./how-to-save-html-with-a-custom-resource-handler-in-c/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

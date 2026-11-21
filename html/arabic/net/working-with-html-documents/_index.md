@@ -36,15 +36,10 @@ url: /ar/net/working-with-html-documents/
 
 الآن، دعنا ننتقل بمهاراتك إلى المستوى التالي. إن تحرير مستندات HTML مهمة شائعة بين مطوري الويب، ويعمل Aspose.HTML على تبسيط هذه العملية بشكل كبير. في هذا القسم، سنغطي إنشاء المستندات ومعالجتها وتصميمها. ستكتشف كيفية تحسين مظهر ووظائف محتوى الويب الخاص بك، مما يجعله جذابًا وسهل الاستخدام.
 
-### [كيفية حفظ HTML في C# – دليل كامل باستخدام معالج موارد مخصص](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
-### [كيفية حفظ HTML في C# باستخدام معالج موارد مخصص](./how-to-save-html-in-c-with-custom-resource-handler/)
+### [كيفية حفظ HTML في C# – دليل كامل باستخدام معالج موارد مخصص](./how-to-save-html-in-c-with-custom-resource/)
 
-### [كيفية حفظ HTML كملف ZIP في C# – دليل كامل باستخدام معالج موارد مخصص](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
-### [إنشاء مستند HTML C# – دليل كامل مع معالج موارد مخصص](./create-html-document-c-complete-guide-with-custom-resource-h/)
-### [كيفية حفظ HTML في C# – دليل كامل مع تخزين مخرجات مخصص](./how-to-save-html-in-c-complete-guide-with-custom-output-stor/)
-
-### [كيفية جعل العنوان غامقًا باستخدام CSS و C# – دليل خطوة بخطوة كامل](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 ### [كيفية حفظ HTML في C# – معالجات الموارد المخصصة وZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
+### [كيفية حفظ HTML باستخدام معالج موارد مخصص في C#](./how-to-save-html-with-a-custom-resource-handler-in-c/)
 ### [كيفية حفظ HTML باستخدام Aspose.Html – دليل كامل C#](./how-to-save-html-with-aspose-html-complete-c-guide/)
 ### [كيفية حفظ HTML باستخدام Aspose – دليل كامل C#](./how-to-save-html-with-aspose-complete-c-guide/)
 ### [كيفية ضغط HTML في C# – دليل كامل لإنشاء أرشيف ZIP](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)

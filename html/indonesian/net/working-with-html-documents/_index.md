@@ -31,9 +31,13 @@ Sebelum kita menyelami secara spesifik pembuatan dan penyuntingan dokumen HTML d
 ### [Mengedit Dokumen dalam .NET dengan Aspose.HTML](./editing-a-document/)
 
 ### [Cara Menyimpan HTML di C# – Panduan Lengkap Menggunakan Penangan Sumber Daya Kustom](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
+
 ### [Cara Menyimpan HTML di C# – Panduan Lengkap Langkah demi Langkah](./how-to-save-html-in-c-complete-step-by-step-guide/)
+
 ### [Cara Menyimpan HTML – Panduan Lengkap Aspose HTMLDocument](./how-to-save-html-aspose-htmldocument-complete-guide/)
+
 ### [Cara Menyimpan HTML di C# – Panduan Lengkap dengan Penyimpanan Output Kustom](./how-to-save-html-in-c-complete-guide-with-custom-output-stor/)
+
 ### [Cara Membuat Penangan Sumber Daya Kustom di C# untuk Memuat HTML](./create-custom-resource-handler-in-c-for-html-loading/)
 
 ### [Cara Membuat Heading Tebal dengan CSS & C# – Panduan Lengkap Langkah demi Langkah](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
@@ -46,18 +50,24 @@ Sebelum kita menyelami secara spesifik pembuatan dan penyuntingan dokumen HTML d
 
 ### [Cara Menyimpan HTML di C# dengan Penangan Sumber Daya Kustom](./how-to-save-html-in-c-with-custom-resource-handler/)
 
+### [Cara Menyimpan HTML dengan Penangan Sumber Daya Kustom di C#](./how-to-save-html-with-a-custom-resource-handler-in-c/)
+
 ### [Cara Menyimpan HTML sebagai ZIP di C# – Panduan Lengkap dengan Penangan Sumber Daya Kustom](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
 
 ### [Cara Menyimpan HTML dengan Aspose – Panduan Lengkap C#](./how-to-save-html-with-aspose-complete-c-guide/)
 
 ### [Cara Membuat ZIP HTML di C# – Panduan Lengkap Membuat Arsip ZIP](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
+
 ### [Cara Membuat Dokumen HTML di C# – Panduan Lengkap Menggunakan Penangan Sumber Daya Kustom](./create-html-document-c-complete-guide-with-custom-resource-h/)
 
 ### [Membuat HTML dari String di C# – Panduan Langkah demi Langkah](./create-html-from-string-in-c-step-by-step-guide/)
+
 ### [Muat Dokumen HTML dengan Aspose.HTML – Panduan Lengkap C#](./load-html-document-with-aspose-html-complete-c-guide/)
+
 ### [Membuat HTML dari string di C# – Panduan Lengkap dengan Memory Stream](./create-html-from-string-in-c-full-guide-with-memory-stream/)
 
 ### [Buat Arsip Zip untuk HTML – Panduan Lengkap C#](./create-zip-archive-for-html-complete-c-guide/)
+
 ### [Menyimpan HTML ke Zip – Panduan Lengkap C# untuk Arsip In‑Memory](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
 
 ### [Buat Dokumen HTML In-Memory dengan Aspose.HTML – Panduan Lengkap](./create-in-memory-html-document-with-aspose-html-complete-gui/)
@@ -65,6 +75,7 @@ Sebelum kita menyelami secara spesifik pembuatan dan penyuntingan dokumen HTML d
 ### [Muat string HTML di C# – Panduan Lengkap dengan Penangan Kustom](./load-html-string-in-c-complete-guide-with-custom-handler/)
 
 Pelajari cara memuat string HTML secara langsung di C# menggunakan Aspose.HTML dengan penangan sumber daya khusus untuk kontrol penuh.
+
 ### [Cara Menggunakan HtmlSaveOptions di C# dengan Aspose.HTML](./how-to-use-htmlsaveoptions-in-c-with-aspose-html/)
 
 ### [Cara Memuat Dokumen HTML dari File dengan Aspose.HTML di C#](./how-to-load-html-document-from-file-with-aspose-html-in-c/)

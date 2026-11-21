@@ -41,6 +41,7 @@ Ora, portiamo le tue competenze al livello successivo. La modifica di documenti 
 ### [Come salvare HTML in C# – Guida completa con un gestore di risorse personalizzato](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 ### [Come salvare HTML in C# con gestore di risorse personalizzato](./how-to-save-html-in-c-with-custom-resource-handler/)
 ### [Come salvare HTML con Aspose – Guida completa C#](./how-to-save-html-with-aspose-complete-c-guide/)
+### [Come salvare HTML con un gestore di risorse personalizzato in C#](./how-to-save-html-with-a-custom-resource-handler-in-c/)
 
 ### [Creare documento HTML C# – Guida completa con gestore di risorse personalizzato](./create-html-document-c-complete-guide-with-custom-resource-h/)
 ### [Come salvare HTML in C# – Guida completa passo‑passo](./how-to-save-html-in-c-complete-step-by-step-guide/)

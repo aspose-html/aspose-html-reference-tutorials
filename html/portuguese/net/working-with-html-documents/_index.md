@@ -61,6 +61,8 @@ Antes de mergulharmos nas especificidades da criação e edição de documentos 
 ### [Como usar HtmlSaveOptions em C# com Aspose.HTML](./how-to-use-htmlsaveoptions-in-c-with-aspose-html/)
 ### [Como carregar documento HTML a partir de arquivo com Aspose.HTML em C#](./how-to-load-html-document-from-file-with-aspose-html-in-c/)
 
+### [Como salvar HTML com um manipulador de recursos personalizado em C#](./how-to-save-html-with-a-custom-resource-handler-in-c/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

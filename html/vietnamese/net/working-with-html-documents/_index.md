@@ -51,6 +51,9 @@ Hướng dẫn chi tiết cách tải một chuỗi HTML trong C# bằng Aspose.
 ### [Cách làm tiêu đề đậm bằng CSS & C# – Hướng dẫn chi tiết từng bước](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 
 ### [Cách lưu HTML trong C# – Trình xử lý tài nguyên tùy chỉnh & ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
+### [Cách lưu HTML với trình xử lý tài nguyên tùy chỉnh trong C#](./how-to-save-html-with-a-custom-resource-handler-in-c/)
+Hướng dẫn chi tiết cách lưu tài liệu HTML bằng trình xử lý tài nguyên tùy chỉnh trong C#.
+
 ### [Cách zip HTML trong C# – Hướng dẫn chi tiết từng bước](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 
 Hướng dẫn chi tiết cách nén tài liệu HTML trong C# bằng Aspose.HTML, bao gồm các bước và ví dụ thực tế.

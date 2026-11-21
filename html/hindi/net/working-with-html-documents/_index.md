@@ -65,6 +65,8 @@ HTML दस्तावेज़ वेब की रीढ़ हैं, और
 ### [Aspose.HTML के साथ इन‑मेमोरी HTML दस्तावेज़ बनाना – पूर्ण गाइड](./create-in-memory-html-document-with-aspose-html-complete-gui/)
 ### [C# में HTML को सहेजना – कस्टम आउटपुट स्टोरेज के साथ पूर्ण गाइड](./how-to-save-html-in-c-complete-guide-with-custom-output-stor/)
 
+### [C# में कस्टम रिसोर्स हैंडलर के साथ HTML को सहेजना](./how-to-save-html-with-a-custom-resource-handler-in-c/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

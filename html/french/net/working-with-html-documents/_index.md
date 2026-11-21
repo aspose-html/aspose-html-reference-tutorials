@@ -32,16 +32,13 @@ Avant de nous plonger dans les détails de la création et de la modification de
 
 ### [Comment enregistrer du HTML en C# – Guide complet avec un gestionnaire de ressources personnalisé](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 
-### [Comment enregistrer du HTML avec Aspose – Guide complet C#](./how-to-save-html-with-aspose-complete-c-guide/)
-
 Apprenez à enregistrer du HTML en C# en utilisant un gestionnaire de ressources personnalisé pour contrôler le flux de sortie et les ressources liées.
 ### [Comment enregistrer du HTML en C# avec un gestionnaire de ressources personnalisé](./how-to-save-html-in-c-with-custom-resource-handler/)
 
 Apprenez à enregistrer du HTML en C# en utilisant un gestionnaire de ressources personnalisé pour contrôler le flux de sortie.
-### [Comment enregistrer du HTML en ZIP en C# – Guide complet avec un gestionnaire de ressources personnalisé](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
-### [Créer un document HTML en C# – Guide complet avec un gestionnaire de ressources personnalisé](./create-html-document-c-complete-guide-with-custom-resource-h/)
+### [Comment enregistrer du HTML avec un gestionnaire de ressources personnalisé en C#](./how-to-save-html-with-a-custom-resource-handler-in-c/)
 
-Apprenez à créer un document HTML en C# en utilisant un gestionnaire de ressources personnalisé pour contrôler le flux de sortie et les ressources liées.
+Apprenez à enregistrer du HTML en C# en utilisant un gestionnaire de ressources personnalisé.
 ### [Comment enregistrer du HTML en C# – Guide complet avec un stockage de sortie personnalisé](./how-to-save-html-in-c-complete-guide-with-custom-output-stor/)
 
 Apprenez à enregistrer du HTML en C# en utilisant un stockage de sortie personnalisé pour gérer le flux et les ressources associées.

@@ -51,6 +51,10 @@ url: /el/net/working-with-html-documents/
 
 Μάθετε πώς να αποθηκεύσετε HTML χρησιμοποιώντας προσαρμοσμένους διαχειριστές πόρων και συμπίεση ZIP σε C#.
 
+### [Πώς να αποθηκεύσετε HTML με προσαρμοσμένο διαχειριστή πόρων σε C#](./how-to-save-html-with-a-custom-resource-handler-in-c/)
+
+Μάθετε πώς να αποθηκεύσετε HTML χρησιμοποιώντας προσαρμοσμένο διαχειριστή πόρων σε C#.
+
 ### [Πώς να αποθηκεύσετε HTML με Aspose.Html – Πλήρης οδηγός C#](./how-to-save-html-with-aspose-html-complete-c-guide/)
 
 ### [Πώς να αποθηκεύσετε HTML με Aspose – Πλήρης οδηγός C#](./how-to-save-html-with-aspose-complete-c-guide/)
@@ -84,7 +88,7 @@ url: /el/net/working-with-html-documents/
 
 ### [Δημιουργία αρχείου Zip για HTML – Πλήρης οδηγός C#](./create-zip-archive-for-html-complete-c-guide/)
 
-Μάθετε πώς να δημιουργήσετε αρχείο Zip που περιέχει HTML χρησιμοποιώντας C#, βήμα‑βήμα οδηγός.
+Μάθετε πώς να δημιουργήσετε αρχείο Zip που περιέχει HTML χρησιμοποιώντας C# βήμα‑βήμα οδηγός.
 
 ### [Αποθήκευση HTML σε Zip – Πλήρης οδηγός C# για αρχεία εντός μνήμης](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
 
