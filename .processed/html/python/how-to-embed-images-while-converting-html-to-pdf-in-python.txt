@@ -1,0 +1,7 @@
+Title: How to embed images while converting HTML to PDF in Python
+Slug: how-to-embed-images-while-converting-html-to-pdf-in-python
+Category: general
+ProcessedDate: 2026-11-21T05:44:50.449022
+SourceRepo: AI Search API
+Keywords: how to embed images, convert html to pdf, html to pdf python, aspose html to pdf, convert html file pdf
+PRNumber: 328
