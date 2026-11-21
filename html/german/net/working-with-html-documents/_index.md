@@ -37,12 +37,15 @@ Sobald Sie die Grundlagen verstanden haben, werden wir tiefer in den Erstellungs
 Lassen Sie uns nun Ihre Fähigkeiten auf die nächste Ebene bringen. Das Bearbeiten von HTML-Dokumenten ist eine häufige Aufgabe für Webentwickler, und Aspose.HTML vereinfacht diesen Prozess erheblich. In diesem Abschnitt behandeln wir die Erstellung, Bearbeitung und Gestaltung von Dokumenten. Sie erfahren, wie Sie das Erscheinungsbild und die Funktionalität Ihrer Webinhalte verbessern und sie ansprechend und benutzerfreundlich gestalten können.
 
 ### [HTML in C# speichern – Vollständige Anleitung mit benutzerdefiniertem Ressourcen-Handler](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
-Erfahren Sie, wie Sie HTML in C# mit einem benutzerdefinierten Ressourcen-Handler speichern können.
-### [HTML in C# speichern – Anleitung mit benutzerdefiniertem Ressourcen-Handler](./how-to-save-html-in-c-with-custom-resource-handler/)
+Erfahren Sie, wie Sie HTML in C# mit einem benutzerdefinierten Ressourcen-Handler speichern.
 
+### [HTML in C# speichern – Anleitung mit benutzerdefiniertem Ressourcen-Handler](./how-to-save-html-in-c-with-custom-resource-handler/)
 Erfahren Sie, wie Sie HTML in C# mithilfe eines benutzerdefinierten Ressourcen-Handlers speichern.
 
-### [HTML als ZIP in C# speichern – Vollständige Anleitung mit benutzerdefiniertem Ressourcen-Handler](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
+### [HTML in C# speichern – benutzerdefinierter Ressourcen-Handler](./how-to-save-html-with-a-custom-resource-handler-in-c/)
+Erfahren Sie, wie Sie HTML in C# mit einem benutzerdefinierten Ressourcen-Handler speichern.
+
+### [HTML in C# speichern – benutzerdefinierte Ressourcen-Handler & ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
 
 Erfahren Sie, wie Sie HTML in C# als ZIP-Datei mit einem benutzerdefinierten Ressourcen‑Handler speichern können.
 ### [HTML-Dokument in C# erstellen – Vollständige Anleitung mit benutzerdefiniertem Ressourcen-Handler](./create-html-document-c-complete-guide-with-custom-resource-h/)

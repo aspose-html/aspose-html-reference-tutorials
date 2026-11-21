@@ -71,6 +71,9 @@ C# を使用して HTML コンテンツを Zip アーカイブに圧縮する方
 ### [C# で HTML 読み込み用カスタムリソースハンドラを作成する](./create-custom-resource-handler-in-c-for-html-loading/)
 ### [C# で Aspose.HTML の HtmlSaveOptions を使用する方法](./how-to-use-htmlsaveoptions-in-c-with-aspose-html/)
 
+### [C# でカスタムリソースハンドラを使用して HTML を保存する方法](./how-to-save-html-with-custom-resource-handler/)
+### [C# でカスタムリソースハンドラを使用して HTML を保存する方法](./how-to-save-html-with-a-custom-resource-handler-in-c/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

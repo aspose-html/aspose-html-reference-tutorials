@@ -49,6 +49,8 @@ C# ile antialiasing'i nasıl etkinleştireceğinizi ve kenarları pürüzsüz ha
 Aspose.HTML for .NET ile görüntüler üzerine metin eklemeyi ve özelleştirmeyi öğrenin. Adım adım örneklerle tam kılavuz.
 ### [C#'ta Antialiasing'i Etkinleştirme – Tam Yazı Tipi Stili Rehberi](./how-to-enable-antialiasing-in-c-complete-font-style-guide/)
 C#'ta antialiasing'i etkinleştirerek yazı tiplerini sorunsuz ve net bir şekilde render edin.
+### [C#'ta antialiasing'i etkinleştirme ve yazı tipi boyutu ve stilini programlı olarak ayarlama](./how-to-enable-antialiasing-and-set-font-size-and-style-progr/)
+C# ile antialiasing'i etkinleştirip yazı tipi boyutu ve stilini programlı olarak ayarlamayı öğrenin.
 
 ## Çözüm
 

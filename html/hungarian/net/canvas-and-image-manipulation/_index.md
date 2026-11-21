@@ -36,7 +36,7 @@ A kezdéshez az oktatóanyagok átfogó listáját kínáljuk. Ezek a részletes
 
 ## Vászon- és képmanipulációs oktatóanyagok
 ### [Canvas manipulálása .NET-ben az Aspose.HTML-lel](./manipulating-canvas/)
-Ismerje meg, hogyan kezelheti a HTML-dokumentumokat az Aspose.HTML for .NET segítségével. Ez az átfogó oktatóanyag az alapokat, az előfeltételeket és a lépésenkénti példákat tartalmazza.
+Ismerje meg, hogyan kezelheti a HTML-dokumentumokat az Aspose.HTML for .NET segítségével. Ez az átfogó oktatóanyag az alapokat, az előfeltételeket és a lépésről lépésre példákat tartalmazza.
 ### [Konvertálja az SVG-t képpé a .NET-ben az Aspose.HTML segítségével](./convert-svg-to-image/)
 Konvertálja az SVG-t képekké .NET-ben az Aspose.HTML segítségével. Átfogó oktatóanyag fejlesztőknek. Könnyen átalakíthatja az SVG dokumentumokat JPEG, PNG, BMP és GIF formátumokká.
 ### [Konvertálja az SVG-t PDF-be .NET-ben az Aspose.HTML segítségével](./convert-svg-to-pdf/)
@@ -49,6 +49,8 @@ Ismerje meg, hogyan aktiválhatja az antialiasingot C#-ban a simább grafikai el
 Lépésről lépésre bemutatja, hogyan adhat szöveget vászonra, és jelenítheti meg képeken az Aspose.HTML for .NET segítségével.
 ### [Hogyan engedélyezzük az antialiasingot C#-ban – Teljes betűstílus útmutató](./how-to-enable-antialiasing-in-c-complete-font-style-guide/)
 Ismerje meg, hogyan használhatja az antialiasingot C#-ban a betűstílusok teljes körű beállításához.
+### [Hogyan engedélyezzük az antialiasingot és állítsuk be a betűméretet és stílust programozottan C#-ban](./how-to-enable-antialiasing-and-set-font-size-and-style-progr/)
+Ismerje meg, hogyan állíthatja be programozottan az antialiasingot, betűméretet és betűstílust C#-ban az Aspose.HTML segítségével.
 
 ## Következtetés
 

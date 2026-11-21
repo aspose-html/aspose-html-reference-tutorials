@@ -47,6 +47,8 @@ url: /ar/net/canvas-and-image-manipulation/
 ### [إنشاء نص على القماش – دليل كامل لتصيير النص على الصور](./create-canvas-text-full-guide-to-rendering-text-on-images/)
 ### [كيفية تمكين مضاد التعرج في C# – دليل كامل لأنماط الخط](./how-to-enable-antialiasing-in-c-complete-font-style-guide/)
 دليل شامل يوضح كيفية تمكين مضاد التعرج في C# وتطبيق أنماط الخط المختلفة.
+### [كيفية تمكين مضاد التعرج وتعيين حجم الخط والنمط برمجيًا في C#](./how-to-enable-antialiasing-and-set-font-size-and-style-progr/)
+دليل يوضح كيفية تمكين مضاد التعرج وتحديد حجم الخط والنمط برمجيًا في C#.
 
 ## خاتمة
 

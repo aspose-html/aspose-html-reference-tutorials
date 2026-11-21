@@ -49,6 +49,8 @@ Aprenda a habilitar antialiasing em C# para obter bordas suaves em renderizaçõ
 Aprenda a adicionar e estilizar texto em canvas usando Aspose.HTML, criando imagens com texto renderizado de forma avançada.
 ### [Como habilitar antialiasing em C# – Guia completo de estilo de fonte](./how-to-enable-antialiasing-in-c-complete-font-style-guide/)
 Aprenda a habilitar antialiasing em C# e a aplicar estilos de fonte avançados para renderizações de texto suaves com Aspose.HTML.
+### [Como habilitar antialiasing e definir tamanho e estilo da fonte programaticamente em C#](./how-to-enable-antialiasing-and-set-font-size-and-style-progr/)
+Aprenda a habilitar antialiasing e definir tamanho e estilo da fonte programaticamente em C# com Aspose.HTML.
 
 ## Conclusão
 

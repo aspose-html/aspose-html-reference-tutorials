@@ -64,6 +64,8 @@ HTML 文档是 Web 的支柱，能够有效地创建和操作 HTML 文档是任�
 
 ### [如何使用 Aspose.HTML 在 C# 中从文件加载 HTML 文档](./how-to-load-html-document-from-file-with-aspose-html-in-c/)
 
+### [如何在 C# 中使用自定义资源处理程序保存 HTML](./how-to-save-html-with-a-custom-resource-handler-in-c/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

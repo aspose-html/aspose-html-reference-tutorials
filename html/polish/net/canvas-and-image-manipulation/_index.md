@@ -49,6 +49,8 @@ Dowiedz się, jak w C# włączyć antyaliasing, aby uzyskać płynne krawędzie 
 Poznaj, jak renderować tekst na obrazach przy użyciu płótna w Aspose.HTML dla .NET – krok po kroku od podstaw do zaawansowanych technik.
 ### [Jak włączyć antyaliasing w C# – Kompletny przewodnik po stylach czcionek](./how-to-enable-antialiasing-in-c-complete-font-style-guide/)
 Dowiedz się, jak w C# włączyć antyaliasing i kontrolować style czcionek, aby uzyskać wyraźny i płynny tekst w renderowanych grafikach.
+### [Jak włączyć antyaliasing i ustawić rozmiar oraz styl czcionki programowo w C#](./how-to-enable-antialiasing-and-set-font-size-and-style-progr/)
+Dowiedz się, jak w C# włączyć antyaliasing oraz ustawić rozmiar i styl czcionki programowo.
 
 ## Wniosek
 

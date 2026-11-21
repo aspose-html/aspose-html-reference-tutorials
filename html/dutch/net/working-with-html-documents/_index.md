@@ -38,9 +38,7 @@ Laten we nu uw vaardigheden naar een hoger niveau tillen. Het bewerken van HTML-
 
 ### [HTML-document laden vanuit bestand met Aspose.HTML in C#](./how-to-load-html-document-from-file-with-aspose-html-in-c/)
 
-### [HTML opslaan in C# – Complete gids met een aangepaste resourcehandler](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
-### [HTML opslaan in C# – Aangepaste resourcehandler](./how-to-save-html-in-c-with-custom-resource-handler/)
-### [HTML opslaan in C# – Complete stapsgewijze handleiding](./how-to-save-html-in-c-complete-step-by-step-guide/)
+### [HTML opslaan in C# – Complete gids met een aangepaste resourcehandler](./how-to-save-html-in-c-complete-guide-with-custom-resource/)
 
 Leer hoe u HTML-bestanden opslaat in C# met een gedetailleerde, stap‑voor‑stap handleiding.
 ### [HTML opslaan in C# – Complete gids met aangepaste outputopslag](./how-to-save-html-in-c-complete-guide-with-custom-output-stor/)
@@ -78,6 +76,12 @@ Leer hoe u HTML-bestanden zipt in C#, stap voor stap met voorbeeldcode.
 ### [HTML opslaan in Zip – Complete C#‑gids voor in‑memory archieven](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
 ### [In‑memory HTML‑document maken met Aspose.HTML – Complete gids](./create-in-memory-html-document-with-aspose-html-complete-gui/)
 ### [Hoe HtmlSaveOptions te gebruiken in C# met Aspose.HTML](./how-to-use-htmlsaveoptions-in-c-with-aspose-html/)
+
+### [HTML opslaan in C# – Aangepaste resourcehandler](./how-to-save-html-in-c-with-custom-resource-handler/)
+
+### [HTML opslaan met een aangepaste resourcehandler in C#](./how-to-save-html-with-a-custom-resource-handler-in-c/)
+
+### [HTML opslaan in C# – Complete stapsgewijze handleiding](./how-to-save-html-in-c-complete-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

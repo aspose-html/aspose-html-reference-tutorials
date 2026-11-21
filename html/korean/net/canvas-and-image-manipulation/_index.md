@@ -49,6 +49,7 @@ C#에서 안티앨리어싱을 적용하여 그래픽 가장자리를 부드럽�
 Aspose.HTML for .NET을 사용해 캔버스에 텍스트를 추가하고 이미지에 렌더링하는 방법을 단계별로 안내합니다.
 ### [C#에서 안티앨리어싱 활성화하기 – 완전한 글꼴 스타일 가이드](./how-to-enable-antialiasing-in-c-complete-font-style-guide/)
 C#에서 안티앨리어싱을 적용하여 다양한 글꼴 스타일을 구현하고 텍스트 품질을 향상시키는 방법을 단계별로 안내합니다.
+### [C#에서 안티앨리어싱을 활성화하고 글꼴 크기와 스타일을 프로그래밍 방식으로 설정하는 방법](./how-to-enable-antialiasing-and-set-font-size-and-style-progr/)
 
 ## 결론
 

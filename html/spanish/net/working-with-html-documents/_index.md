@@ -54,6 +54,10 @@ Aprenda a aplicar estilo negrita a encabezados usando CSS y C# con este tutorial
 
 Aprenda a guardar documentos HTML en C# usando controladores de recursos personalizados y empaquetarlos en archivos ZIP.
 
+### [Cómo guardar HTML con un controlador de recursos personalizado en C#](./how-to-save-html-with-a-custom-resource-handler-in-c/)
+
+Aprenda a guardar HTML en C# utilizando un controlador de recursos personalizado.
+
 ### [Cómo guardar HTML con Aspose.Html – Guía completa en C#](./how-to-save-html-with-aspose-html-complete-c-guide/)
 
 ### [Guardar HTML como ZIP en C# – Guía completa con controlador de recursos personalizado](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)

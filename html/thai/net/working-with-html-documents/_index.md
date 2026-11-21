@@ -60,9 +60,6 @@ url: /th/net/working-with-html-documents/
 ### [บันทึก HTML เป็น ZIP ใน C# – คู่มือฉบับสมบูรณ์โดยใช้ Custom Resource Handler](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
 เรียนรู้วิธีบันทึกไฟล์ HTML เป็นไฟล์ ZIP ด้วย C# และ Custom Resource Handler อย่างละเอียด
 
-### [วิธีบันทึก HTML ด้วย Aspose – คู่มือ C# ฉบับสมบูรณ์](./how-to-save-html-with-aspose-complete-c-guide/)
-เรียนรู้วิธีบันทึกไฟล์ HTML ด้วย Aspose ใน C# อย่างละเอียดครบถ้วนตั้งแต่การตั้งค่าไปจนถึงการใช้งานจริง
-
 ### [วิธีบีบอัด HTML ใน C# – คู่มือฉบับสมบูรณ์เพื่อสร้างไฟล์ ZIP](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
 เรียนรู้วิธีบีบอัดไฟล์ HTML เป็น ZIP ด้วย C# อย่างละเอียดครบถ้วน
 
@@ -92,6 +89,7 @@ url: /th/net/working-with-html-documents/
 
 ### [วิธีใช้ HtmlSaveOptions ใน C# กับ Aspose.HTML](./how-to-use-htmlsaveoptions-in-c-with-aspose-html/)
 
+### [วิธีบันทึก HTML ด้วยตัวจัดการทรัพยากรแบบกำหนดเองใน C#](./how-to-save-html-with-a-custom-resource-handler-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
