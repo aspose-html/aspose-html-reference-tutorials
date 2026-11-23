@@ -1,0 +1,7 @@
+Title: Convert HTML to Markdown with Aspose.HTML – GitLab markdown
+Slug: convert-html-to-markdown-with-aspose-html-gitlab-markdown
+Category: general
+ProcessedDate: 2026-09-23T10:41:17.856396
+SourceRepo: AI Search API
+Keywords: convert html to markdown, gitlab flavored markdown, save markdown file, change html title, aspose html conversion
+PRNumber: 273

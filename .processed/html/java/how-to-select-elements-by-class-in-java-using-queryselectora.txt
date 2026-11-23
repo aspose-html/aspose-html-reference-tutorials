@@ -1,0 +1,7 @@
+Title: How to select elements by class in Java using querySelectorAll
+Slug: how-to-select-elements-by-class-in-java-using-queryselectora
+Category: creating-managing-html-documents
+ProcessedDate: 2026-09-29T18:36:04.787081
+SourceRepo: AI Search API
+Keywords: select elements by class, read html from file, find external links, iterate nodelist java, use queryselectorall java
+PRNumber: 279

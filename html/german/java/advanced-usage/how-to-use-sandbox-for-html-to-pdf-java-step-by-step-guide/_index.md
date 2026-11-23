@@ -25,15 +25,10 @@ title: Wie man Sandbox für HTML‑zu‑PDF in Java verwendet – Schritt‑für
 url: /de/java/advanced-usage/how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/
 ---
 
-URLs, file paths, variable names, function names. So keep code block placeholders unchanged.
 
-We need to translate the table content as well.
 
-Let's produce the translated version.
 
-We must keep the shortcodes exactly as they are.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

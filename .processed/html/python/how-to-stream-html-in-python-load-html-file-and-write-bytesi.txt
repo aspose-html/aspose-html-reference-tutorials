@@ -1,0 +1,7 @@
+Title: How to stream HTML in Python – load HTML file and write BytesIO output
+Slug: how-to-stream-html-in-python-load-html-file-and-write-bytesi
+Category: general
+ProcessedDate: 2026-11-17T22:55:10.112450
+SourceRepo: AI Search API
+Keywords: how to stream html, load html file, write bytesio file
+PRNumber: 325

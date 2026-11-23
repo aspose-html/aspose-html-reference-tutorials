@@ -23,9 +23,8 @@ title: 'java fixed thread pool: Conta le immagini nei file paralleli'
 url: /it/java/data-handling-stream-management/java-fixed-thread-pool-count-images-in-parallel-files/
 ---
 
-unchanged.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

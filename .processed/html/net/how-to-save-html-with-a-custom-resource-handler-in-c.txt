@@ -1,0 +1,7 @@
+Title: How to save HTML with a custom resource handler in C#
+Slug: how-to-save-html-with-a-custom-resource-handler-in-c
+Category: working-with-html-documents
+ProcessedDate: 2026-11-21T05:27:10.015709
+SourceRepo: AI Search API
+Keywords: how to save html, save html to zip
+PRNumber: 327

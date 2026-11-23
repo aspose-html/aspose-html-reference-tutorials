@@ -27,13 +27,10 @@ title: Как заархивировать HTML в C# – загрузить HTM
 url: /ru/net/html-extensions-and-conversions/how-to-zip-html-in-c-load-html-use-custom-handler/
 ---
 
-.
 
-Now produce final content.
 
-Make sure to keep shortcodes at top and bottom.
 
-Let's craft.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

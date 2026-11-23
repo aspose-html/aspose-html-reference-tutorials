@@ -25,11 +25,9 @@ title: Пользовательский обработчик ресурсов в
 url: /ru/net/html-extensions-and-conversions/custom-resource-handler-in-c-convert-html-to-zip-archive-fro/
 ---
 
-we keep spaces.
 
-Make sure we keep code block placeholders unchanged.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -23,7 +23,7 @@ title: Estrai testo da HTML con Java – Guida completa passo passo
 url: /it/java/creating-managing-html-documents/extract-text-from-html-with-java-complete-step-by-step-guide/
 ---
 
-and unchanged placeholders.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

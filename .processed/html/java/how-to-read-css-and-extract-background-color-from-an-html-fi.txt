@@ -1,0 +1,7 @@
+Title: How to read CSS and extract background color from an HTML file in Java
+Slug: how-to-read-css-and-extract-background-color-from-an-html-fi
+Category: css-html-form-editing
+ProcessedDate: 2026-10-25T10:41:07.172757
+SourceRepo: AI Search API
+Keywords: how to read css, extract background color, parse html file, get element style, read background color
+PRNumber: 314

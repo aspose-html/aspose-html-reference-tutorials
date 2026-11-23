@@ -24,9 +24,8 @@ title: Buat Teks Tebal Miring di C# – Panduan Cepat untuk Menata HTML
 url: /id/net/html-document-manipulation/make-text-bold-italic-in-c-quick-guide-to-styling-html/
 ---
 
-formatting.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

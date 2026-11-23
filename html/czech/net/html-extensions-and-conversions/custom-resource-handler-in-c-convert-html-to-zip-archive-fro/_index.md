@@ -24,9 +24,7 @@ title: Vlastní manipulátor zdrojů v C# – Převod HTML do ZIP archivu z pam�
 url: /cs/net/html-extensions-and-conversions/custom-resource-handler-in-c-convert-html-to-zip-archive-fro/
 ---
 
-Storage", "document.Save", etc. Keep them.
 
-Now craft final markdown.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

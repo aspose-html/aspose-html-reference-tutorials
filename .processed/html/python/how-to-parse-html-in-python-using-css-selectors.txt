@@ -1,0 +1,7 @@
+Title: How to parse HTML in Python using CSS selectors
+Slug: how-to-parse-html-in-python-using-css-selectors
+Category: general
+ProcessedDate: 2026-10-22T07:01:48.918475
+SourceRepo: AI Search API
+Keywords: how to parse html, how to use selector, extract hyperlinks from html, load html document python
+PRNumber: 311

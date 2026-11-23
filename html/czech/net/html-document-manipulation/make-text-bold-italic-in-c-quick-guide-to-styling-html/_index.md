@@ -23,11 +23,9 @@ title: Ztučte a kurzivujte text v C# – Rychlý průvodce stylováním HTML
 url: /cs/net/html-document-manipulation/make-text-bold-italic-in-c-quick-guide-to-styling-html/
 ---
 
-are placeholders but not fenced code blocks. The requirement says preserve code blocks fenced. There are none besides placeholders. So fine.
 
-Make sure we didn't miss any text.
 
-Let's produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,11 +24,9 @@ title: C#'ta Özel Kaynak İşleyicisi – Bellekten HTML'yi ZIP Arşivine Dön�
 url: /tr/net/html-extensions-and-conversions/custom-resource-handler-in-c-convert-html-to-zip-archive-fro/
 ---
 
--backtop-button >}}
 
-Make sure to keep them unchanged.
 
-Now produce final output with all translations.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

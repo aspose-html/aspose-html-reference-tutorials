@@ -23,19 +23,12 @@ title: Jak vytvořit GIF ze SVG – krok za krokem průvodce v Javě
 url: /cs/java/conversion-html-to-various-image-formats/how-to-create-gif-from-svg-step-by-step-java-guide/
 ---
 
-translate all text content naturally to Czech, but technical terms can stay. "Pro tip" is English phrase; we could translate to "Tip". It's fine.
 
-Check blockquote: we used "Tip:" but maybe "Tip:" is okay.
 
-Check "Expected Result" we translated to "Očekávaný výsledek". Good.
 
-Check "Common Questions & Edge Cases" to "Časté otázky a okrajové případy". Good.
 
-Check "Tips for Production‑Ready GIF Generation" to "Tipy pro produkčně připravenou generaci GIFu". Good.
 
-Check "Conclusion" to "Závěr". Good.
 
-Now produce final content with all translations.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

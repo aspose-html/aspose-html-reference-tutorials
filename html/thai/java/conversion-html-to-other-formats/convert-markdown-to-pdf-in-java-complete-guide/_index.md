@@ -23,13 +23,10 @@ title: แปลง Markdown เป็น PDF ใน Java – คู่มือ
 url: /th/java/conversion-html-to-other-formats/convert-markdown-to-pdf-in-java-complete-guide/
 ---
 
-CODE_BLOCK_X}} remain.
 
-Also ensure blockquote formatting: > **Pro tip:** ... keep.
 
-Also ensure the image alt text translation is correct.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

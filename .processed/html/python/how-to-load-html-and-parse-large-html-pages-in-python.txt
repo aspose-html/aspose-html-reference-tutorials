@@ -1,0 +1,7 @@
+Title: How to load HTML and parse large HTML pages in Python
+Slug: how-to-load-html-and-parse-large-html-pages-in-python
+Category: general
+ProcessedDate: 2026-10-28T15:55:14.036434
+SourceRepo: AI Search API
+Keywords: how to load html, how to limit resources, parse large html page
+PRNumber: 318
