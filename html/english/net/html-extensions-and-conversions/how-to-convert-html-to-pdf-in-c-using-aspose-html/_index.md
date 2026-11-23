@@ -49,7 +49,7 @@ tags:
 - Aspose.HTML
 - PDF generation
 - Document conversion
-title: Convert HTML to PDF in C# with Aspose.HTML
+title: How to Convert HTML to PDF in C# using Aspose.HTML
 url: /net/html-extensions-and-conversions/how-to-convert-html-to-pdf-in-c-using-aspose-html/
 ---
 
@@ -242,8 +242,8 @@ By following this tutorial you now know how to **convert HTML to PDF**, **save H
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
 - [Convert HTML to PDF in .NET with Aspose.HTML]({{< relref "../convert-html-to-pdf/_index.md" >}})
-- [Convert HTML to PDF with Aspose.HTML – Full Manipulation Guide]({{< relref "/html/english/_index.md" >}})
-- [convert html to pdf – Comprehensive Aspose.HTML Tutorials]({{< relref "/html/english/java/_index.md" >}})
+- [Convert HTML to PDF with Aspose.HTML – Full Manipulation Guide]({{< relref "../../../_index.md" >}})
+- [convert html to pdf – Comprehensive Aspose.HTML Tutorials]({{< relref "../../../java/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
