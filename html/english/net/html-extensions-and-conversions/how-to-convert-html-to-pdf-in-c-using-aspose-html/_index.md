@@ -49,7 +49,7 @@ tags:
 - Aspose.HTML
 - PDF generation
 - Document conversion
-title: How to Convert HTML to PDF in C# using Aspose.HTML
+title: How to Convert HTML to PDF in C# using Aspose.HTML for .NET
 url: /net/html-extensions-and-conversions/how-to-convert-html-to-pdf-in-c-using-aspose-html/
 ---
 
@@ -105,7 +105,7 @@ namespace HtmlToPdfDemo
             };
 
             // Text rendering options – clearer glyphs
-            var textOptions = new TextOptions
+            var textOptions = new TextRenderingOptions
             {
                 UseHinting = true
             };
@@ -122,7 +122,7 @@ namespace HtmlToPdfDemo
             var pdfSaveOptions = new PdfSaveOptions
             {
                 ImageRenderingOptions = imageOptions,
-                TextOptions = textOptions,
+                TextRenderingOptions = textOptions,
                 FontStyle = WebFontStyle.Normal   // set font style PDF
             };
 ```
@@ -182,7 +182,7 @@ namespace HtmlToPdfDemo
             };
 
             // Configure text rendering (hinting)
-            var textOptions = new TextOptions
+            var textOptions = new TextRenderingOptions
             {
                 UseHinting = true
             };
@@ -191,7 +191,7 @@ namespace HtmlToPdfDemo
             var pdfSaveOptions = new PdfSaveOptions
             {
                 ImageRenderingOptions = imageOptions,
-                TextOptions = textOptions,
+                TextRenderingOptions = textOptions,
                 FontStyle = WebFontStyle.Normal   // set font style PDF
             };
 
@@ -225,7 +225,7 @@ Open `sample.pdf` with any PDF viewer. You should see the original HTML layout, 
 | Missing fonts | The HTML references a web‑font that is not downloaded. | Set `FontStyle = WebFontStyle.Normal` and ensure the font files are accessible via `<link>` tags or embed them using `@font-face`. |
 | Large images cause high memory usage | Image rendering loads the full bitmap into memory. | Use `ImageRenderingOptions` to downscale images (`Resolution = 150`) if memory constraints exist. |
 | Output PDF is blank | The HTML path is incorrect or the document fails to load. | Verify the file path, and call `htmlDoc.IsLoaded` before saving. |
-| Text appears blurry | Hinting is disabled. | Keep `UseHinting = true` in `TextOptions`. |
+| Text appears blurry | Hinting is disabled. | Keep `UseHinting = true` in `TextRenderingOptions`. |
 
 **Pro tip:** Wrap the conversion logic in a `try…catch` block and log `Aspose.Html.HtmlConversionException` to capture detailed error information.
 

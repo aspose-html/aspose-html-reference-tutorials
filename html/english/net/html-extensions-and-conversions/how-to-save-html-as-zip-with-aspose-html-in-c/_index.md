@@ -30,7 +30,7 @@ tags:
 - C#
 - ZIP archive
 - HTML processing
-title: How to save HTML as ZIP with Aspose.HTML in C#
+title: Save HTML as ZIP using Aspose.HTML API in C#
 url: /net/html-extensions-and-conversions/how-to-save-html-as-zip-with-aspose-html-in-c/
 ---
 
@@ -218,14 +218,14 @@ Experiment with these variations to fit your project’s requirements.
 *You’ve learned how to save HTML as ZIP using Aspose.HTML, turning any web page into a portable archive with just a few lines of C# code. Happy coding!*
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to Save HTML in C# – Custom Resource Handlers & ZIP](/html/english/net/working-with-html-documents/how-to-save-html-in-c-custom-resource-handlers-zip/)
-- [Save HTML to ZIP in C# – Complete In‑Memory Example](/html/english/net/html-extensions-and-conversions/save-html-to-zip-in-c-complete-in-memory-example/)
-- [How to Zip HTML in C# – Complete Step‑by‑Step Guide](/html/english/net/html-extensions-and-conversions/how-to-zip-html-in-c-complete-step-by-step-guide/)
+- [How to Save HTML in C# – Custom Resource Handlers & ZIP]({{< relref "/html/english/net/working-with-html-documents/how-to-save-html-in-c-custom-resource-handlers-zip/_index.md" >}})
+- [Save HTML to ZIP in C# – Complete In‑Memory Example]({{< relref "/html/english/net/html-extensions-and-conversions/save-html-to-zip-in-c-complete-in-memory-example/_index.md" >}})
+- [How to Zip HTML in C# – Complete Step‑by‑Step Guide]({{< relref "/html/english/net/html-extensions-and-conversions/how-to-zip-html-in-c-complete-step-by-step-guide/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
