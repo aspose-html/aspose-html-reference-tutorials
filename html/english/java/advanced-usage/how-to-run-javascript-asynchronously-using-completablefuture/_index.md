@@ -50,6 +50,7 @@ tags:
 - java
 - asynchronous
 - completablefuture
+title: Run JavaScript Asynchronously in Java with CompletableFuture using Aspose HTML
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -230,10 +231,9 @@ A: Yes. Use `scriptEngine.put("myObject", javaObject)` before evaluation; the ob
 
 ## Related Tutorials
 
-- [How To Run Javascript Asynchronously Using Completablefuture](/html/java/advanced-usage/how-to-run-javascript-asynchronously-using-completablefuture/)
-- [Enable Script Execution In Java Complete Aspose Html Guide](/html/java/advanced-usage/enable-script-execution-in-java-complete-aspose-html-guide/)
-- [Execute Javascript In Java Complete Guide To Running Js From](/html/java/advanced-usage/execute-javascript-in-java-complete-guide-to-running-js-from/)
-
+{{< relref "how-to-run-javascript-asynchronously-using-completablefuture" >}}
+{{< relref "enable-script-execution-in-java-complete-aspose-html-guide" >}}
+{{< relref "execute-javascript-in-java-complete-guide-to-running-js-from" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

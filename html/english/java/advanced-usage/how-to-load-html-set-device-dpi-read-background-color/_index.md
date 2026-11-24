@@ -20,7 +20,7 @@ og_description: Learn how to convert HTML to PDF in Java, configure device DPI, 
   Aspose.HTML.
 og_image_alt: Developer guide showing HTML loading, DPI configuration, and background
   color extraction in Java
-og_title: How to convert HTML to PDF in Java and read background color
+og_title: How to use Aspose.HTML for Java to convert HTML to PDF and read background color
 schemas:
 - author: Aspose
   dateModified: '2026-09-24'
@@ -81,10 +81,8 @@ tags:
 - Aspose.HTML
 - Java
 - convert html to pdf
-title: How to convert HTML to PDF in Java and read background color
-url: /java/advanced-usage/how-to-load-html-set-device-dpi-read-background-color/
+title: How to use Aspose.HTML for Java to convert HTML to PDF and read background color
 ---
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -282,9 +280,9 @@ Computed background color: rgba(255,255,255,1)
 
 ## Related Tutorials
 
-- [How to Convert HTML to PDF Java - Set Page Margins with Aspose.HTML](/html/java/advanced-usage/css-extensions-adding-title-page-number/)
-- [Convert Html To Pdf In Java Set Pdf Page Size Resolution And](/html/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-set-pdf-page-size-resolution-and/)
-- [Convert HTML to PDF Java – Configuring Environment in Aspose.HTML](/html/java/configuring-environment/)
+- [How to Convert HTML to PDF Java - Set Page Margins with Aspose.HTML]({{< relref "html/java/advanced-usage/css-extensions-adding-title-page-number" >}})
+- [Convert Html To Pdf In Java Set Pdf Page Size Resolution And]({{< relref "html/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-set-pdf-page-size-resolution-and" >}})
+- [Convert HTML to PDF Java – Configuring Environment in Aspose.HTML]({{< relref "html/java/configuring-environment" >}})
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

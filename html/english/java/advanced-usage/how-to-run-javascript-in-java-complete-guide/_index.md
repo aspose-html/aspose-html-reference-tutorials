@@ -48,10 +48,8 @@ tags:
 - Java
 - JavaScript
 - Aspose.HTML
-title: How to run JavaScript in Java – complete guide
-url: /java/advanced-usage/how-to-run-javascript-in-java-complete-guide/
+title: Run JavaScript in Java with Aspose.HTML – Complete Guide
 ---
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -257,11 +255,6 @@ If you hit any snags or have ideas for extensions, feel free to leave a comment.
 ![How to run javascript illustration](image.png)  
 [How to run javascript illustration](image.png)
 
-
-
-
-
-
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -360,10 +353,9 @@ jsEngine.put("data", data);
 
 ## Related Tutorials
 
-- [Enable Script Execution In Java Complete Aspose Html Guide](/html/java/advanced-usage/enable-script-execution-in-java-complete-aspose-html-guide/)
-- [Execute Async Javascript In Java Complete Step By Step Guide](/html/java/creating-managing-html-documents/execute-async-javascript-in-java-complete-step-by-step-guide/)
-- [Create Sandbox For Html In Java Step By Step Guide](/html/java/creating-managing-html-documents/create-sandbox-for-html-in-java-step-by-step-guide/)
-
+- [Enable Script Execution In Java Complete Aspose Html Guide]({{< relref "html/java/advanced-usage/enable-script-execution-in-java-complete-aspose-html-guide/" >}})
+- [Execute Async Javascript In Java Complete Step By Step Guide]({{< relref "html/java/creating-managing-html-documents/execute-async-javascript-in-java-complete-step-by-step-guide/" >}})
+- [Create Sandbox For Html In Java Step By Step Guide]({{< relref "html/java/creating-managing-html-documents/create-sandbox-for-html-in-java-step-by-step-guide/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
