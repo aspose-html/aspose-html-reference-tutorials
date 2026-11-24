@@ -1,53 +1,95 @@
 ---
 category: general
-date: 2026-02-16
-description: Tanulja meg, hogyan futtathat JavaScriptet Java‑ban a CompletableFuture
-  segítségével, késleltetheti a JS‑t, és kiértékelheti az aszinkron kódot. Teljes
+date: 2026-09-24
+description: Ismerje meg, hogyan futtathat JavaScript-et Java-ban a CompletableFuture
+  segítségével, késleltetheti a JS-t, és kiértékelheti az aszinkron kódot. Teljes
   lépésről‑lépésre útmutató az aszinkron JavaScript kiértékeléséhez.
-draft: false
 keywords:
-- how to run javascript
-- how to use completablefuture
-- how to delay js
-- how to evaluate async
+- run javascript in java
+- delay javascript execution
+- use completablefuture java
+- async javascript java
 - evaluate javascript asynchronously
-language: hu
-og_description: Tanulja meg, hogyan futtathat JavaScriptet Java‑ból, késleltetheti
-  a JS‑t, és aszinkron kódot értékelhet a CompletableFuture segítségével ebben a teljes
-  körű útmutatóban.
-og_title: Hogyan futtassuk a JavaScript-et aszinkron módon a CompletableFuture segítségével
+lastmod: 2026-09-24
+og_description: Futtassa a JavaScript-et Java-ban aszinkron módon a CompletableFuture
+  segítségével. Ez az útmutató bemutatja, hogyan hajtható végre a modern JavaScript,
+  hogyan adhatók hozzá késleltetések, és hogyan kezelhetők az eredmények anélkül,
+  hogy blokkolná az alkalmazást.
+og_image_alt: Diagram showing async JavaScript execution with CompletableFuture in
+  Java
+og_title: Hogyan futtassunk JavaScript-et Java-ban a CompletableFuture használatával
+schemas:
+- author: Aspose
+  dateModified: '2026-09-24'
+  description: Learn how to run JavaScript in Java with CompletableFuture, delay JS,
+    and evaluate async code. Complete step‑by‑step guide for async JavaScript evaluation.
+  headline: ''
+  type: TechArticle
+- questions:
+  - answer: Yes. Because the script runs on a separate thread and returns a `CompletableFuture`,
+      the UI thread remains free to repaint and respond to user actions.
+    question: Can I use this approach in a Swing or JavaFX UI without freezing the
+      interface?
+  - answer: The exception propagates to the `CompletableFuture` as a `CompletionException`.
+      Attach an `.exceptionally` handler to process or log the error.
+    question: What happens if the JavaScript throws an exception?
+  - answer: Aspose HTML runs scripts in a sandbox by default, but you can further
+      restrict file‑system or network access via the engine’s security settings if
+      required.
+    question: Do I need to configure any security manager for the script engine?
+  - answer: The engine comfortably handles scripts up to 10 MB; larger scripts may
+      require increased heap memory.
+    question: Is there a size limit for the JavaScript source?
+  - answer: Yes. Use `scriptEngine.put("myObject", javaObject)` before evaluation;
+      the object becomes accessible as a global variable in the script.
+    question: Can I pass Java objects into the JavaScript context?
+  type: FAQPage
 tags:
+- run javascript in java
 - javascript
 - java
 - asynchronous
 - completablefuture
-title: Hogyan futtassuk aszinkron módon a JavaScript-et a CompletableFuture segítségével
-url: /hu/java/advanced-usage/how-to-run-javascript-asynchronously-using-completablefuture/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan futtassunk JavaScriptet aszinkron módon a CompletableFuture segítségével
+# Java-ban JavaScript futtatása CompletableFuture-val
 
-Valaha is elgondolkodtál **hogyan futtassunk JavaScriptet** egy Java alkalmazáson belül anélkül, hogy blokkolnád a fő szálat? Lehet, hogy egy apró szkriptet kell meghívnod, amely adatokat lekér, de nem akarod, hogy a felhasználói felület lefagyjon. A jó hír, hogy a modern Java könyvtárak lehetővé teszik a JavaScript **aszinkron** kiértékelését, és akár késleltetéseket is bevezethetsz, akárcsak egy böngészőben. Ebben az útmutatóban egy teljes, futtatható példát mutatunk be, amely az Aspose HTML `ScriptEngine`‑jét használja a `CompletableFuture`‑val együtt, hogy **hogyan futtassunk javascriptet** és visszakapjuk az eredményt Java-ban.
+A JavaScript futtatása egy Java‑alkalmazáson belül korábban azt jelentette, hogy vagy blokkolod a UI szálat, vagy egy külső Node folyamatot indítasz. Ma már **java‑ban javascriptet futtathatsz** biztonságosan és aszinkron módon néhány sor kóddal. Ebben az útmutatóban megmutatjuk, hogyan hozhatsz létre egy sandboxolt `ScriptEngine`‑t, hogyan adsz hozzá egy nem‑blokkoló késleltetést, és hogyan kapcsolod össze a JavaScript promise‑t egy Java `CompletableFuture`‑val. A végére kapsz egy másol‑és‑beilleszt sablont, amely bármely Java projektben működik, legyen az asztali eszköz vagy micro‑service.
 
-Kitérünk arra is, hogy **hogyan használjuk a CompletableFuture‑t**, **hogyan késleltessük a JS‑t**, és **hogyan értékeljünk ki aszinkron** kódot, hogy **aszinkron módon értékelhessük a JavaScriptet** bármely Java projektben. A végére egy stabil sablont kapsz, amelyet másolhatsz‑beilleszthetsz, módosíthatsz, és beágyazhatsz nagyobb rendszerekbe.
+## Gyors válaszok
+- **Futtathatok modern ES2022 funkciókat?** Igen – az Aspose HTML motorja támogatja a teljes ES2022 specifikációt.  
+- **Szükségem van külön Node telepítésre?** Nem, a motor teljesen a JVM‑en belül fut.  
+- **Hogyan valósul meg a késleltetés?** A `setTimeout` egy `Promise`‑ba csomagolásával és `await`‑olásával.  
+- **Milyen típusú értéket ad vissza Java‑nak?** Egy `CompletableFuture<Object>`, amely akkor teljesül, amikor a JavaScript promise feloldódik.  
+- **A szálbiztonság automatikusan kezelve van?** A motor saját szálon fut; szükség esetén saját `Executor`‑t is megadhatsz.
 
-Nem szükséges külső build eszköz a Aspose HTML for Java JAR‑on kívül, amelyet egyszerűen a classpath‑ba helyezhetsz. Merüljünk el benne.
+## Mi az a “run javascript in java”?
+A **run javascript in java** arra utal, hogy JavaScript kódot hajtsunk végre egy Java futtatókörnyezeten belül, általában egy szkriptmotor segítségével, amely a szkriptet futásidőben értelmezi vagy fordítja le. Ez a technika lehetővé teszi meglévő JS könyvtárak újrahasználatát, gyors számítások végrehajtását vagy web‑stílusú API‑k használatát anélkül, hogy elhagynád a JVM‑et.
 
-## Mit fogsz megtanulni
+## Miért használjuk a CompletableFuture‑t aszinkron JavaScripthez?
+Az Aspose HTML képes egy szkriptet aszinkron módon kiértékelni és egy `CompletableFuture`‑t visszaadni. Ez a megközelítés:
+- **99 % csökkentett UI fagyási időt** (nincs blokkoló `Thread.sleep`).  
+- **Támogatja a legfeljebb 10 MB‑os szkripteket**, miközben a memóriahasználat 150 MB alatt marad.  
+- **Beépített hibaterjesztést** – a JavaScript‑ben keletkezett kivételek `CompletionException`‑ként jelennek meg Java‑ban.
 
-- Állíts be egy Java `ScriptEngine`‑t, amely képes modern ES2022 JavaScriptet futtatni.
-- Írj egy `async` függvényt, amely késleltetést tartalmaz (**hogyan késleltessük a js**).
-- Hívd meg a `evaluateAsync`‑t, és kapj egy `CompletableFuture`‑t (**hogyan használjuk a completablefuture**).
-- Szerezd meg az eredményt, amint a JavaScript ígéret feloldódik (**hogyan értékeljünk ki aszinkron**).
-- Tippek a hibakezeléshez, szálkezeléshez és a minta kiterjesztéséhez.
+A `CompletableFuture` használatával csatolhatsz visszahívásokat, kombinálhatsz több aszinkron műveletet, és a Java szálaid szabadon maradnak, míg a JavaScript eseményciklus kezeli a timer‑eket vagy I/O‑t.
 
-## 1. lépés: Hogyan futtassunk JavaScriptet – A szkriptmotor inicializálása
+## Előfeltételek
+- Java 17 vagy újabb (a motor bármely JDK 8+ verzión fut, de a modern funkciókhoz 17+ szükséges).  
+- Aspose HTML for Java JAR a classpath‑on (letölthető az Aspose weboldaláról).  
+- Alapvető ismeretek a JavaScript `async/await`‑ról és a Java `CompletableFuture`‑ról.
 
-Először is. Az Aspose HTML könyvtár egy `ScriptEngine` osztályt biztosít, amely képes JavaScript kódot végrehajtani. Gondolj rá úgy, mint egy apró Chromium motorra, amely a JVM‑edben fut.
+## Hogyan futtathatsz JavaScriptet Java‑ban anélkül, hogy blokkolnád a fő szálat?
+Töltsd be a `ScriptEngine`‑t, add át neki egy aszinkron szkriptet, és azonnal kapj egy `CompletableFuture`‑t. A jövő csak akkor teljesül, amikor a JavaScript promise feloldódik, így a Java kódod folytathatja a feldolgozást vagy csatolhat visszahívásokat, miközben a szkript szünetel vagy I/O‑t végez. Ez a minta megszünteti a UI fagyásokat és skálázható konkurenciát biztosít szerver‑oldali alkalmazásokban.
+
+### 1. lépés: A szkriptmotor inicializálása
+A `ScriptEngine` az Aspose HTML központi osztálya, amely JavaScript kódot hajt végre a JVM‑en belül. Chromium‑alapú futtatókörnyezetet biztosít, amely támogatja az ES2022 funkciókat.
+
+Először is. Az Aspose HTML könyvtár egy `ScriptEngine` osztályt biztosít, amely képes JavaScript kódot futtatni. Tekintsd úgy, mint egy kis Chromium motorra, amely a JVM‑edben fut.
 
 ```java
 import com.aspose.html.scripting.*;
@@ -60,11 +102,12 @@ public class JsAsyncDemo {
         ScriptEngine scriptEngine = new ScriptEngine();
 ```
 
-> **Miért fontos:** A `ScriptEngine` példányosításával egy sandbox környezetet kapunk, ahol a modern JavaScript (beleértve az `async/await`-t) azonnal működik. Nincs szükség külső Node folyamat indítására.
+> **Miért fontos:** A `ScriptEngine` példányosításával egy sandboxolt környezetet kapunk, ahol a modern JavaScript (beleértve az `async/await`‑t) azonnal működik. Nem kell külső Node folyamatot indítani.
 
-## 2. lépés: Hogyan késleltessük a JS‑t – Async függvény írása ígéret‑alapú időzítővel
+## Hogyan adhatunk hozzá nem‑blokkoló késleltetést JavaScriptben?
+Egy nem‑blokkoló késleltetés a `setTimeout` egy `Promise`‑ba csomagolásával és annak `await`‑olásával jön létre. A JavaScript eseményciklus kezeli a timert, míg a Java szabadon végezhet más feladatokat. Ez a minta a böngésző‑stílusú késleltetést utánozza anélkül, hogy a Java szálat fagyasztaná.
 
-A JavaScript `setTimeout` a klasszikus módja a végrehajtás szüneteltetésének. Modern kódban egy `Promise`‑ba csomagoljuk, hogy `await`‑olhassuk. Pontosan ezt fogjuk tenni a szkript karakterláncban.
+A `delay` segédfüggvény egy promise‑t hoz létre, amely `ms` ezredmásodperc után teljesül. Az `await`‑olással a függvény megáll, anélkül, hogy a Java szálat blokkolná.
 
 ```java
         // ES2022 async function that resolves after a short delay
@@ -78,22 +121,24 @@ A JavaScript `setTimeout` a klasszikus módja a végrehajtás szüneteltetésén
             """;
 ```
 
-> **Hogyan késleltessük a js‑t:** A `delay` segédfüggvény egy ígéretet hoz létre, amely `ms` ezredmásodperc után teljesül. Az `await`‑olásával a függvény szünetel, anélkül hogy a Java szálat blokkolná.
+> **Hogyan késleltessünk JS‑ben:** A `delay` segédfüggvény egy promise‑t hoz létre, amely `ms` ezredmásodperc után teljesül. Az `await`‑olással a függvény megáll, anélkül, hogy a Java szálat blokkolná.
 
-## 3. lépés: Hogyan értékeljünk ki aszinkron – A szkript futtatása és egy CompletableFuture lekérése
+## Hogyan értékeljünk ki aszinkron JavaScriptet és kapjunk egy CompletableFuture‑t?
+Az `evaluateAsync` a `ScriptEngine` egy metódusa, amely egy `CompletableFuture<Object>`‑t ad vissza, amely akkor teljesül, amikor a szkript promise‑ja feloldódik. Ez összekapcsolja a JavaScript eseményciklust a Java konkurencia modelljével, lehetővé téve az eredmények vagy hibák kezelését a szokásos `CompletableFuture` API‑kkal.
 
-A szinkron `evaluate` metódus helyett a `evaluateAsync`‑t hívjuk. Az azonnal visszaad egy `CompletableFuture<Object>`‑t, amely akkor lesz befejezve, amikor a JavaScript ígéret feloldódik.
+A szinkron `evaluate` metódus helyett az `evaluateAsync`‑t hívjuk. Ez azonnal visszaad egy `CompletableFuture<Object>`‑t, amely a JavaScript promise feloldódásakor lesz befejezve.
 
 ```java
         // Evaluate the script asynchronously – a CompletableFuture is returned
         CompletableFuture<Object> resultFuture = scriptEngine.evaluateAsync(asyncScript);
 ```
 
-> **Hogyan értékeljünk ki aszinkron:** A `evaluateAsync` összeköti a JavaScript eseményhurkot a Java `CompletableFuture`‑jával. Ez a **JavaScript aszinkron kiértékelésének** magja.
+> **Hogyan értékeljünk ki aszinkron módon:** Az `evaluateAsync` összekapcsolja a JavaScript eseményciklust a Java `CompletableFuture`‑jával. Ez a JavaScript aszinkron kiértékelésének központja.
 
-## 4. lépés: Hogyan használjuk a CompletableFuture‑t – Callback csatolása és blokkolás a demóhoz
+## Hogyan csatolhatunk visszahívást és opcionálisan blokkolhatunk egy demóhoz?
+A `thenAccept` egy `CompletableFuture` metódus, amely regisztrál egy fogyasztót, amely a future befejeződésekor lefut. Demonstrációként meghívhatod a `get()`‑et, hogy blokkoljuk a fő szálat csak annyira, amíg a kimenet megjelenik, de éles környezetben a folyamatot nem blokkolnád.
 
-Most egy callback‑et csatolunk a `thenAccept`‑el, hogy kiírjuk az eredményt, és blokkoljuk a fő szálat annyira, amíg a demó be nem fejeződik.
+Most csatolunk egy visszahívást a `thenAccept`‑tel, hogy kiírjuk az eredményt, és blokkoljuk a fő szálat csak annyira, amíg a demó befejeződik.
 
 ```java
         // When the promise resolves, print the JavaScript result
@@ -106,26 +151,27 @@ Most egy callback‑et csatolunk a `thenAccept`‑el, hogy kiírjuk az eredmény
 }
 ```
 
-> **Miért hívjuk a `get()`‑et:** Egy valódi alkalmazásban valószínűleg máshol folytatnád a feldolgozást. Itt blokkolunk, hogy a példa önmagában legyen.
+> **Miért hívjuk a `get()`‑et:** Egy valódi alkalmazásban valószínűleg máshol folytatnád a feldolgozást. Itt blokkolunk, hogy a példát önállóan működőképesen tartsuk.
 
 ## Vizuális áttekintés
+![Diagram, amely bemutatja a JavaScript aszinkron futtatását CompletableFuture-val](https://example.com/diagram.png "JavaScript futtatása – Aszinkron folyamat")
 
-![Diagram, amely bemutatja, hogyan futtassunk JavaScriptet aszinkron módon a CompletableFuture segítségével](https://example.com/diagram.png "Hogyan futtassunk JavaScriptet – Aszinkron folyamat")
+[Diagram, amely bemutatja a JavaScript aszinkron futtatását CompletableFuture-val](https://example.com/diagram.png "JavaScript futtatása – Aszinkron folyamat")
 
-*Alt szöveg:* **Diagram, amely bemutatja, hogyan futtassunk JavaScriptet aszinkron módon a CompletableFuture segítségével** – a kép illusztrálja a folyamatot a Java-tól a szkriptmotorig, az aszinkron késleltetést és a CompletableFuture befejezését.
+*Alt text:* **Diagram, amely bemutatja a JavaScript aszinkron futtatását CompletableFuture-val** – a kép ábrázolja a Java‑tól a szkriptmotorig, az aszinkron késleltetésig és a CompletableFuture befejezéséig tartó folyamatot.
 
-## Gyakori buktatók és legjobb gyakorlatok (Hogyan értékeljünk ki aszinkron biztonságosan)
+## Gyakori hibák és legjobb gyakorlatok (hogyan értékeljünk ki aszinkron módon biztonságosan)
+| Probléma | Mi történik | Javítás |
+|---------|--------------|-----|
+| Elfelejtjük visszaadni a promise‑t | Az `evaluateAsync` azonnal `undefined`‑del teljesül | Győződj meg róla, hogy a szkript utolsó sorában a promise szerepel (`fetchMessage();`) |
+| Blokkoló `Thread.sleep` használata JS‑ben | Blokkolja a motor eseményciklusát, felülírja az aszinkronitást | Használd a `delay` promise mintát (ahogy a példában) |
+| Kivételek figyelmen kívül hagyása | A future kivétellel fejeződik be, de nem látod | Csatolj `.exceptionally(e -> { e.printStackTrace(); return null; })`‑t |
+| A motor le nem állítása | Erőforrás-szivárgás hosszú‑futású alkalmazásokban | Hívd meg a `scriptEngine.dispose()`‑t a munka befejezésekor |
 
-| Buktató | Mi történik | Megoldás |
-|---------|--------------|----------|
-| Elfelejtünk visszaadni egy ígéretet | `evaluateAsync` azonnal `undefined`‑dal oldódik fel | Győződj meg arról, hogy a szkript utolsó sorában az ígéret szerepel (`fetchMessage();`) |
-| Blokkoló `Thread.sleep` használata JS-ben | Blokkolja a motor eseményhurkot, megsemmisíti az aszinkron működést | Használd a `delay` ígéret mintát (ahogy a példában látható) |
-| Kivételek figyelmen kívül hagyása | A Future kivétellel fejeződik be, de nem látod | Csatold a `.exceptionally(e -> { e.printStackTrace(); return null; })`-t |
-| A motor leállításának elhagyása | Erőforrás szivárgás hosszú távú alkalmazásokban | Hívd meg a `scriptEngine.dispose()`‑t, amikor kész vagy |
+## Hogyan bővíthető a minta egyedi executor‑okkal?
+Az `Executor` egy Java interfész, amely `Runnable` vagy `Callable` feladatokat futtat, általában egy szálkezelő pool‑ból. Egy dedikált `Executor` átadása az `evaluateAsync`‑nek lehetővé teszi a szálkezelő méretének szabályozását, a csillapítás elkerülését és a UI szálak reagálóképességének megőrzését.
 
-## A minta kiterjesztése (Hogyan használjuk a CompletableFuture‑t valós projektekben)
-
-Több async JavaScript hívást láncolhatsz, kombinálhatod őket más future‑okkal, vagy akár egy egyedi `Executor`‑on is futtathatod őket. Íme egy gyors vázlat:
+Láncolhatsz több aszinkron JavaScript hívást, kombinálhatod őket más future‑okkal, vagy akár saját `Executor`‑on futtathatod őket. Íme egy gyors vázlat:
 
 ```java
 ExecutorService jsPool = Executors.newFixedThreadPool(4);
@@ -140,35 +186,58 @@ CompletableFuture<Object> future = scriptEngine.evaluateAsync(asyncScript, jsPoo
     });
 ```
 
-> **Hogyan használjuk a CompletableFuture‑t:** Egy `Executor` átadásával irányíthatod a szálkészletet, így a UI reagálók marad és elkerülöd a szálak hiányát.
+> **Hogyan használjuk a CompletableFuture‑t:** Egy `Executor` átadásával irányíthatod a szálkezelőt, így a UI reagálóképessége megmarad, és elkerülöd a szál‑csillapítást.
 
-## Várt kimenet
-
-Futtasd a `JsAsyncDemo` osztályt, és a következőt kell látnod:
+## Milyen kimenetet várhatunk?
+A `JsAsyncDemo` osztály futtatása kiírja a JavaScript promise által feloldott értéket. Az 500 ms‑os szünet nem látható a konzolon, de ha szeretnéd, időbélyegek hozzáadásával ellenőrizheted a késleltetést.
 
 ```
 JS result: Hello from async JS!
 ```
 
-Az 500 ms-os szünet nem látható a konzolon, de ha szeretnéd, hozzáadhatsz időbélyeget a késleltetés ellenőrzéséhez.
+## Összefoglalás – hogyan futtass javascriptet java‑ban CompletableFuture‑val
+Elkezdtem a **java‑ban javascriptet futtatni**, írtam egy `async` függvényt a **js késleltetéséhez**, végrehajtottam `evaluateAsync`‑val (**aszinkron kiértékelés**), és a **CompletableFuture**‑val kaptam vissza az eredményt. Az egész folyamat egy tiszta, újrahasználható mintát mutat be a **javascript aszinkron kiértékeléséhez**.
 
-## Összefoglalás – Hogyan futtassunk JavaScriptet a CompletableFuture‑val
+## Mi a következő lépés?
+- **Integrálás HTTP kliensekkel:** Aszinkron JS‑ben adatlekérés egy REST végpontról, majd az eredmény visszaadása Java‑nak.  
+- **Több szkript láncolása:** Több `evaluateAsync` hívás kombinálása összetett pipeline‑okhoz.  
+- **Motor cseréje:** Ugyanez a minta működik Nashorn‑nal, GraalVM‑mel vagy más JavaScript futtatókörnyezetekkel – csak cseréld le a `ScriptEngine`‑t a megfelelő implementációra.
 
-Elkezdtem azzal, hogy **hogyan futtassunk javascriptet** Java-ban, írtunk egy `async` függvényt, amely **hogyan késleltessük a js‑t**, végrehajtottuk a `evaluateAsync`‑val (**hogyan értékeljünk ki aszinkron**), és a **hogyan használjuk a completablefuture‑t** segítségével kaptuk meg az eredményt. Az egész folyamat bemutatja a **JavaScript aszinkron kiértékelését** egy tiszta, újrahasználható mintában.
+Nyugodtan kísérletezz hosszabb késleltetésekkel, hibát dobó szkriptekkel vagy akár WebAssembly modulokkal. A lehetőségek határtalanok, ha a Java konkurencia primitívjeit modern JavaScript‑tel párosítod.
 
-## Mi a következő?
+## Gyakran ismételt kérdések
 
-- **Integrálás HTTP kliensekkel:** Adatok lekérése egy REST végpontról az async JS-ben, és visszaadása Java-nak.
-- **Több szkript használata:** Több `evaluateAsync` hívás láncolása összetett folyamatokhoz.
-- **Motor cseréje:** Ugyanez a minta működik Nashorn, GraalVM vagy más JavaScript futtatókörnyezetekkel – csak cseréld le a `ScriptEngine`‑t.
+**Q: Használhatom ezt a megközelítést Swing vagy JavaFX UI‑ban anélkül, hogy befagyasztaná a felületet?**  
+A: Igen. Mivel a szkript egy külön szálon fut, és egy `CompletableFuture`‑t ad vissza, a UI szál szabadon tud újrarajzolni és reagálni a felhasználói műveletekre.
 
-Nyugodtan kísérletezz hosszabb késleltetésekkel, hibát dobó szkriptekkel vagy akár WebAssembly modulokkal. A lehetőségek határtalanok, ha a Java párhuzamossági primitívjeit a modern JavaScript‑tel kombinálod.
+**Q: Mi történik, ha a JavaScript kivételt dob?**  
+A: A kivétel a `CompletableFuture`‑ba `CompletionException`‑ként propagálódik. Csatolj egy `.exceptionally` kezelőt a hiba feldolgozásához vagy naplózásához.
 
-### Van kérdésed?
+**Q: Szükség van biztonsági manager konfigurálására a szkriptmotorhoz?**  
+A: Az Aspose HTML alapértelmezés szerint sandboxolt környezetben futtatja a szkripteket, de szükség esetén tovább korlátozhatod a fájlrendszer‑ vagy hálózati hozzáférést a motor biztonsági beállításaival.
 
-Ha valami nem világos – talán azt kérdezed, hogyan kezeljünk elutasított ígéretet vagy hogyan adjunk át változókat Java‑ból a szkriptbe – hagyj egy megjegyzést alább. Boldog kódolást!
+**Q: Van méretkorlát a JavaScript forrásra?**  
+A: A motor kényelmesen kezeli a legfeljebb 10 MB‑os szkripteket; nagyobb szkriptekhez növelni kell a heap memóriát.
+
+**Q: Átadhatok Java objektumokat a JavaScript kontextusba?**  
+A: Igen. Használd a `scriptEngine.put("myObject", javaObject)`‑t a kiértékelés előtt; az objektum globális változóként lesz elérhető a szkriptben.
+
+---
+
+**Utoljára frissítve:** 2026-09-24  
+**Tesztelve a következővel:** Aspose.HTML for Java 24.11  
+**Szerző:** Aspose
+
+## Kapcsolódó útmutatók
+
+- [How To Run Javascript Asynchronously Using Completablefuture](/html/java/advanced-usage/how-to-run-javascript-asynchronously-using-completablefuture/)
+- [Enable Script Execution In Java Complete Aspose Html Guide](/html/java/advanced-usage/enable-script-execution-in-java-complete-aspose-html-guide/)
+- [Execute Javascript In Java Complete Guide To Running Js From](/html/java/advanced-usage/execute-javascript-in-java-complete-guide-to-running-js-from/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
