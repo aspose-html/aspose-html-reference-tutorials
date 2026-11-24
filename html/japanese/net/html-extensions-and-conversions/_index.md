@@ -77,6 +77,8 @@ Aspose.HTML を使って HTML を PDF に変換する完全な手順を詳しく
 ### [HTML を PDF に変換 – カスタムレンダリングを使用した完全 C# ガイド](./convert-html-to-pdf-complete-c-guide-with-custom-rendering/)
 Aspose.HTML for .NET とカスタムレンダリングを活用し、C# で HTML を PDF に変換する完全ガイドです。ステップバイステップで解説します。
 
+### [Aspose.HTML を使用して C# で HTML を PDF に変換する方法](./how-to-convert-html-to-pdf-in-c-using-aspose-html/)
+Aspose.HTML を使用して C# で HTML を PDF に変換する手順をステップバイステップで解説します。
 ### [HTML から PDF を作成する – C# ステップバイステップ ガイド](./create-pdf-from-html-c-step-by-step-guide/)
 Aspose.HTML for .NET を使用して、C# で HTML から PDF を作成する手順をステップバイステップで解説します。
 
@@ -318,6 +320,8 @@ Aspose.HTML for .NET を使用して、HTML を ZIP アーカイブとして保�
 
 ### [C# で HTML を ZIP に保存する – ステップバイステップ ガイド](./save-html-as-zip-in-c-step-by-step-guide/)
 ### [Aspose.HTML を使用して C# で HTML を ZIP アーカイブとして保存する方法](./how-to-save-html-as-zip-archive-using-aspose-html-in-c/)
+### [C# で Aspose.HTML を使用して HTML を ZIP として保存する方法](./how-to-save-html-as-zip-with-aspose-html-in-c/)
+Aspose.HTML for .NET を使用して、C# で HTML を ZIP アーカイブとして保存する手順をステップバイステップで解説します。
 
 ## 結論
 

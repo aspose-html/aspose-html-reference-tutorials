@@ -43,6 +43,8 @@ Apprenez à convertir du HTML en PDF avec Aspose grâce à un guide complet éta
 ### [Convertir HTML en PDF en C# – Guide complet Aspose](./convert-html-to-pdf-in-c-full-aspose-guide/)
 Guide complet pour convertir du HTML en PDF en C# avec Aspose.HTML, incluant exemples de code et meilleures pratiques.
 
+### [Comment convertir du HTML en PDF en C# avec Aspose.HTML](./how-to-convert-html-to-pdf-in-c-using-aspose-html/)
+Apprenez à convertir du HTML en PDF en C# avec Aspose.HTML, guide complet étape par étape.
 ### [Aspose HTML vers PDF en C# – Guide complet avec archive ZIP](./aspose-html-to-pdf-in-c-complete-guide-with-zip-archive/)
 Apprenez à convertir du HTML en PDF en C# et à créer une archive ZIP avec Aspose.HTML, guide complet pas à pas.
 
@@ -278,6 +280,8 @@ Apprenez à convertir du HTML en tableau d'octets en C# avec Aspose.HTML, guide 
 Apprenez à sauvegarder un document HTML dans une archive ZIP en C# avec Aspose.HTML.
 ### [Comment enregistrer du HTML en archive ZIP avec Aspose.HTML en C#](./how-to-save-html-as-zip-archive-using-aspose-html-in-c/)
 Apprenez à sauvegarder du HTML dans une archive ZIP en C# à l'aide d'Aspose.HTML, guide étape par étape.
+### [Comment enregistrer du HTML en ZIP avec Aspose.HTML en C#](./how-to-save-html-as-zip-with-aspose-html-in-c/)
+Apprenez à enregistrer un document HTML dans une archive ZIP en C# avec Aspose.HTML, guide étape par étape.
 
 ## Conclusion
 
