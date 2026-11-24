@@ -40,7 +40,7 @@ tags:
 - C#
 - HTML processing
 - ZIP archive
-title: How to save HTML as ZIP in C# using Aspose.HTML
+title: Use Aspose.HTML for C# to Save HTML as a ZIP Archive
 url: /net/html-extensions-and-conversions/how-to-save-html-as-zip-in-c-using-aspose-html/
 ---
 
@@ -289,14 +289,14 @@ These extensions let you build robust document‑generation pipelines that serve
 You have learned how to **save HTML as ZIP** in C# with Aspose.HTML, covering everything from installing the library to writing a custom `ResourceHandler` and verifying the output. By following the steps above you can reliably **convert HTML to ZIP file**, package resources, and deliver portable web content from any .NET application. Happy coding!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to Zip HTML in C# – Save HTML to Zip](/html/english/net/html-extensions-and-conversions/how-to-zip-html-in-c-save-html-to-zip/)
-- [Create zip file C# – Step‑by‑Step Guide to Zip HTML in Memory](/html/english/net/html-extensions-and-conversions/create-zip-file-c-step-by-step-guide-to-zip-html-in-memory/)
-- [Custom Resource Handler in C# – Convert HTML to ZIP Tutorial](/html/english/net/html-extensions-and-conversions/custom-resource-handler-in-c-convert-html-to-zip-tutorial/)
+- [How to Zip HTML in C# – Save HTML to Zip](./how-to-zip-html-in-c-save-html-to-zip/)
+- [Create zip file C# – Step‑by‑Step Guide to Zip HTML in Memory](./create-zip-file-c-step-by-step-guide-to-zip-html-in-memory/)
+- [Custom Resource Handler in C# – Convert HTML to ZIP Tutorial](./custom-resource-handler-in-c-convert-html-to-zip-tutorial/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
