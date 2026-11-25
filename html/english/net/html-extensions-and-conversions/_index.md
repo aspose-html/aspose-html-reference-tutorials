@@ -37,12 +37,14 @@ Here is a simple example that demonstrates how to convert an HTML file to PDF us
 ```csharp
 using Aspose.Html;
 using Aspose.Html.Converters;
+using Aspose.Html.Saving;
 
 // Load the HTML document
 var htmlDocument = new HTMLDocument("input.html");
 
 // Convert to PDF
-HTMLDocumentConverter.ConvertHTML(htmlDocument, "output.pdf");
+var options = new PdfSaveOptions();
+Converter.ConvertHTML(htmlDocument, options, "output.pdf");
 
 // Clean up
 htmlDocument.Dispose();
