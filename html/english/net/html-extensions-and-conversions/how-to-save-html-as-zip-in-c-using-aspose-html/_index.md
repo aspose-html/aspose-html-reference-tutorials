@@ -40,7 +40,7 @@ tags:
 - C#
 - HTML processing
 - ZIP archive
-title: Use Aspose.HTML for C# to Save HTML as a ZIP Archive
+title: How to Save HTML as a ZIP Archive in C# using Aspose.HTML
 url: /net/html-extensions-and-conversions/how-to-save-html-as-zip-in-c-using-aspose-html/
 ---
 
