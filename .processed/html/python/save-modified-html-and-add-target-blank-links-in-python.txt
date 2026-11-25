@@ -1,0 +1,7 @@
+Title: Save modified HTML and add target blank links in Python
+Slug: save-modified-html-and-add-target-blank-links-in-python
+Category: general
+ProcessedDate: 2026-11-24T09:01:47.893730
+SourceRepo: AI Search API
+Keywords: save modified html, add target blank links, change href target, open all links newtab
+PRNumber: 329

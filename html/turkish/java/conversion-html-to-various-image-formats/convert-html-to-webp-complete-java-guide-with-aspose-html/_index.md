@@ -1,24 +1,52 @@
 ---
 category: general
-date: 2026-03-05
-description: Java kullanarak HTML'yi WebP'ye dönüştürmeyi ve HTML'yi WebP olarak kaydetmeyi
-  öğrenin. Aspose.HTML için Maven bağımlılığı, görüntü kalitesi ayarları ve tam çalıştırılabilir
-  kod içerir.
+date: 2026-08-17
+description: Aspose HTML Maven'ı kullanarak Java'da HTML'yi WebP'ye dönüştürmeyi,
+  görüntü kalitesini ayarlamayı ve AVIF üretmeyi öğrenin. Maven bağımlılığı, headless
+  rendering ve tam çalıştırılabilir kod içerir.
 draft: false
 keywords:
-- convert html to webp
+- aspose html maven
 - save html as webp
-- html to image java
-- set image quality
-- set webp quality
-og_description: Aspose.HTML ile Java’da html’yi webp’ye dönüştürün. Görüntü kalitesini
-  ayarlayın, Maven bağımlılığını yapılandırın ve tam çalışan örnekleri edinin.
-og_title: HTML'yi WebP'ye dönüştür – Tam Java Öğreticisi
+- headless html rendering
+- convert html page image
+- render html image java
+- create webp from html
+lastmod: 2026-08-17
+og_description: Aspose HTML Maven'ın Java'da HTML'yi WebP'ye nasıl dönüştürdüğünü,
+  kalite ayarları ve AVIF geri dönüşümünü keşfedin. Tam Maven kurulumu ve çalıştırılabilir
+  örnek.
+og_image_alt: Guide showing Java code converting HTML to WebP using Aspose.HTML
+og_title: Aspose HTML Maven – Java'da HTML'yi WebP'ye Dönüştürün (50‑60 karakter)
+schemas:
+- author: Aspose
+  dateModified: '2026-08-17'
+  description: Learn how to use Aspose HTML Maven to convert HTML to WebP in Java,
+    set image quality, and generate AVIF. Includes Maven dependency, headless rendering,
+    and full runnable code.
+  headline: How to use Aspose HTML Maven to convert HTML to WebP – complete Java guide
+  type: TechArticle
+- questions:
+  - answer: Yes, a valid Aspose.HTML license is required for production deployments.
+      A free trial is available for evaluation.
+    question: Do I need a commercial license to use Aspose.HTML in production?
+  - answer: Aspose.HTML supports external resources as long as they are reachable
+      from the running environment (local file system or HTTP).
+    question: Can I convert HTML that references external CSS or JavaScript?
+  - answer: Limit the rendering size with `options.setPageWidth/Height` or pre‑optimise
+      heavy images inside the HTML before conversion.
+    question: How do I handle large HTML files that take long to render?
+  - answer: Absolutely—wrap the `Converter.convert` call in a loop and reuse `ImageSaveOptions`
+      for each file.
+    question: Is it possible to batch‑process multiple HTML files in one run?
+  - answer: All modern browsers (Chrome, Edge, Firefox, Safari 14+) support WebP native
+    question: Which browsers can display the generated WebP images?
+  type: FAQPage
 tags:
 - Java
 - Aspose.HTML
-- Image Conversion
-title: Convert html to webp – Complete Java Guide with Aspose.HTML
+- Image conversion
+title: Aspose HTML Maven'ı kullanarak HTML'yi WebP'ye dönüştürme – tam Java rehberi
 url: /tr/java/conversion-html-to-various-image-formats/convert-html-to-webp-complete-java-guide-with-aspose-html/
 ---
 
@@ -26,37 +54,34 @@ url: /tr/java/conversion-html-to-various-image-formats/convert-html-to-webp-comp
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# HTML'yi WebP'ye Dönüştür – Aspose.HTML ile Tam Java Rehberi
+# Aspose HTML Maven'ı HTML'den WebP'ye dönüştürmek için nasıl kullanılır – tam Java rehberi
 
-Hiç **html'yi webp'ye dönüştürmek** gerektiğinde nereden başlayacağınızı bilemediniz mi? Tek başınıza değilsiniz—birçok geliştirici, web için hafif görüntüler istediklerinde bu engelle karşılaşıyor. Bu öğreticide, **html'yi webp olarak kaydetme** ve **görüntü kalitesini ayarlama** ile **webp kalitesini ayarlama** konularını gösteren pratik, uçtan uca bir çözümü adım adım inceleyeceğiz.
+Java uygulamasında **HTML'yi WebP'ye dönüştürmeniz** gerekiyorsa, en güvenilir yol **Aspose HTML Maven**'ı kullanmaktır. Bu kütüphane, başsız HTML render'ı, font gömme ve WebP kodlamasını sadece birkaç satır kodla yönetir. Sonraki bölümlerde Maven artefaktını nasıl ekleyeceğinizi, görüntü kalitesini nasıl yapılandıracağınızı ve hatta modern bir geri dönüşüm olarak AVIF üretmeyi—harici araçlar olmadan—göreceksiniz.
 
-Gerekli Maven bağımlılığından, hem WebP hem de AVIF dosyaları üreten tam çalışabilir bir Java programına kadar her şeyi ele alacağız. Sonunda, tek bir HTML dosyasını projenize sürükleyip yüksek kalitede WebP görüntülerini üretmiş olacaksınız. Harici betikler, gizli sihir yok—sadece saf Java ve Aspose.HTML kütüphanesi.
+## Hızlı cevaplar
+- **Dönüşümü gerçekleştiren kütüphane nedir?** Aspose.HTML for Java, Aspose HTML Maven artefaktı aracılığıyla eklenir.  
+- **Gerekli Maven koordinatı nedir?** `com.aspose:aspose-html`.  
+- **Dosya boyutunu kontrol edebilir miyim?** Evet—`ImageSaveOptions.setQuality(0‑100)` kullanarak boyut ve doğruluk arasında denge kurabilirsiniz.  
+- **AVIF de destekleniyor mu?** Kesinlikle; çıktı formatını `ImageFormat.AVIF` olarak değiştirmeniz yeterli.  
+- **Hangi Java sürümü gerekiyor?** Java 17 veya herhangi bir JDK 8+ çalışma zamanı.
 
-## Hızlı Yanıtlar
-- **Dönüşümü hangi kütüphane sağlıyor?** Aspose.HTML for Java basit bir `Converter` API'si sunar.  
-- **Hangi Maven artefaktı gerekli?** `com.aspose:aspose-html` (aşağıdaki Maven bağımlılığına bakın).  
-- **Çıktı boyutunu kontrol edebilir miyim?** Evet—`setQuality` değerini (0‑100) ayarlayarak boyut ve doğruluk dengesini yönetin.  
-- **AVIF bir yedek olarak destekleniyor mu?** Kesinlikle; formatı `ImageFormat.AVIF` olarak değiştirin.  
-- **Hangi Java sürümü gerekiyor?** Java 17 veya herhangi bir JDK 8+ sorunsuz çalışır.
+## HTML'yi WebP'ye dönüştürmek ne demektir?
+HTML'yi WebP'ye dönüştürmek, tam bir HTML sayfasını—CSS, fontlar ve görüntüler dahil—başsız bir tarayıcıda render etmek ve ardından görsel sonucu bir WebP görüntüsüne rasterleştirmek anlamına gelir. Bu teknik, bir sayfanın görsel doğruluğunu korurken WebP'nin küçük dosya boyutunu istediğiniz durumlarda, örneğin küçük resimler, e-posta ön izlemeleri veya statik varlıklar oluşturmak için idealdir.
 
-## “html'yi webp'ye dönüştür” ne demek?
-HTML'yi WebP'ye dönüştürmek, bir HTML belgesini (CSS, fontlar ve görüntüler dahil) başsız bir tarayıcıda render edip ardından görsel sonucu WebP görüntüsü olarak rasterleştirmek anlamına gelir. Bu, küçük dosya boyutlu WebP ile tam sayfa görsel bütünlüğü isteyen küçük resimler, e‑posta ön izlemeleri veya statik varlıklar üretmek için kullanışlıdır.
+## HTML'yi WebP'ye dönüştürmek için Aspose HTML Maven'ı neden seçmelisiniz?
+Aspose.HTML, başsız render, font yönetimi ve görüntü kodlamasının karmaşıklığını soyutlar. **30+ çıktı görüntü formatı** (WebP, AVIF, PNG, JPEG, BMP, TIFF ve daha fazlası) destekler ve tüm dosyayı belleğe yüklemeden çok sayfalı belgeleri işleyebilir, üretim‑hazır görüntüleri milisaniyeler içinde sunar.
 
-## Aspose.HTML ile html'yi webp'ye dönüştürmek neden tercih edilmeli?
-Aspose.HTML, tarayıcı render'ı, font yönetimi ve görüntü kodlaması karmaşıklığını ortadan kaldırır. İş mantığınıza odaklanırken sadece birkaç satır kodla üretime hazır WebP dosyaları elde etmenizi sağlar.
+## İhtiyacınız olanlar
+Dönüşümü çalıştırmak için bir Java geliştirme ortamı, bir yapı aracı ve Aspose.HTML kütüphanesi gerekir. Java 17 (veya herhangi bir JDK 8+) çalışma zamanını sağlar, Maven bağımlılıkları yönetir ve Aspose.HTML for Java artefaktı render motorunu sunar. Bu bileşenler kurulu olduğunda örnek kod derlenir ve sorunsuz çalışır.
 
-## Gerekenler
-
-İlerlemeye başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
-
-| Önkoşul | Sebep |
+| Gereklilik | Sebep |
 |--------------|--------|
-| **Java 17** (veya herhangi bir JDK 8+). | Aspose.HTML modern Java çalışma zamanlarını destekler. |
-| **Maven** (veya Gradle). | Bağımlılık yönetimini basitleştirir. |
-| **Aspose.HTML for Java** kütüphanesi. | Kullanacağımız `Converter` API'sini sağlar. |
-| Basit bir HTML dosyası (`graphic.html`). | Dönüştüreceğimiz kaynak dosya. |
+| **Java 17** (veya herhangi bir JDK 8+) | Aspose.HTML için gerekli çalışma zamanı. |
+| **Maven** (veya Gradle) | Aspose HTML Maven bağımlılığını eklemeyi basitleştirir. |
+| **Aspose.HTML for Java** kütüphanesi | `Converter` API'sini örneklerde sağlar. |
+| Basit bir HTML dosyası (`graphic.html`) | Dönüştüreceğimiz kaynak belge. |
 
-Zaten bir Maven projeniz varsa, aşağıda gösterildiği gibi **aspose html Maven bağımlılığını** ekleyin, hepsi bu kadar.
+Zaten bir Maven projeniz varsa, aşağıda gösterilen bağımlılığı yapıştırmanız yeterlidir ve hazırsınız.
 
 ```xml
 <!-- pom.xml -->
@@ -69,9 +94,10 @@ Zaten bir Maven projeniz varsa, aşağıda gösterildiği gibi **aspose html Mav
 
 > **Pro ipucu:** `pom.xml` dosyanızı düzenli tutun; temiz bir bağımlılık ağacı hata ayıklamayı kolaylaştırır.
 
-## Adım 1: HTML'yi WebP'ye Dönüştür – Temel Kurulum
+## Aspose HTML Maven ile HTML'yi WebP'ye nasıl dönüştürürsünüz?
+`Converter`, HTML sayfalarını render eden ve görüntü formatlarına dönüştüren Aspose.HTML sınıfıdır. `ImageSaveOptions`, oluşturulan görüntünün çıktı formatını ve sıkıştırma ayarlarını yapılandırır. `ImageFormat.WEBP`, kaydetme için WebP görüntü formatını seçen enum değeridir.
 
-İlk olarak, kaynak HTML dosyasını işaret eden ve Aspose.HTML'ye WebP dosyası üretmesini söyleyen küçük bir Java sınıfına ihtiyacımız var. Aşağıda **tam, çalıştırılabilir bir program** yer alıyor.
+Kaynak HTML'yi `Converter.convert` ile yükleyin, `ImageSaveOptions` içinde `ImageFormat.WEBP` belirleyin ve `save` metodunu çağırın. Kütüphane sayfayı başsız bir Chromium motorunda render eder, ardından belirlediğiniz kalite seviyesini kullanarak raster görüntüyü WebP'ye kodlar. Bu tüm iş akışı tek bir metod çağrısı ile çalışır ve harici ikili dosyalara ihtiyaç duymaz.
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -99,23 +125,21 @@ public class ImageConvertDemo {
 }
 ```
 
-**Neden çalışıyor:**  
-- `ImageSaveOptions` bize formatı (`WEBP`) seçme ve `setQuality` ile sıkıştırmayı ince ayar yapma imkanı verir.  
-- `Converter.convert` HTML'i okur, başsız bir tarayıcıda render eder ve raster görüntüyü yazar.
+**Neden bu çalışır:**  
+- `ImageSaveOptions`, çıktı formatını (`WEBP`) seçmenizi ve `setQuality` ile sıkıştırmayı ince ayar yapmanızı sağlar.  
+- `Converter.convert`, başsız HTML render'ı gerçekleştirir ve raster görüntüyü diske yazar.
 
-> **Not:** `setQuality` yöntemi doğrudan **WebP kalitesini** (0‑100) kontrol eder. Daha yüksek sayılar daha büyük dosyalar ama daha keskin görseller demektir.
+> **Not:** `setQuality` metodu doğrudan **WebP kalitesini** (0‑100) kontrol eder. Daha yüksek sayılar daha büyük dosyalar ama daha keskin görseller üretir.
 
-### Beklenen Sonuç
+### Beklenen sonuç
+Programı çalıştırdığınızda kaynak dosyanızın yanında `output.webp` oluşturulur. Modern bir tarayıcıda açtığınızda render edilen HTML'nin pikselle tam eşleşen bir anlık görüntüsünü görürsünüz. WebP, PNG'ye göre daha verimli sıkıştırma yaptığı için dosya boyutu genellikle %30‑50 daha küçüktür.
 
-Programı çalıştırdığınızda aynı klasörde `output.webp` oluşturulur. Modern bir tarayıcıda açtığınızda render edilen HTML'in net bir görüntüsünü görürsünüz. Dosya boyutu, aynı PNG karşılığına göre belirgin şekilde daha küçük olacaktır—web dağıtımı için ideal.
+![HTML'den oluşturulan bir WebP görüntüsünün ekran görüntüsü – html'yi webp'ye dönüştür](/images/webp-sample.png "html'yi webp'ye dönüştür")
 
-![HTML'den oluşturulan WebP görüntüsünün ekran görüntüsü – html'yi webp'ye dönüştür](/images/webp-sample.png "html'yi webp'ye dönüştür")
+*(Görsel alt metni SEO için birincil anahtar kelimeyi içerir.)*
 
-*(Görsel alt metni SEO için ana anahtar kelimeyi içerir.)*
-
-## Adım 2: HTML'yi WebP Olarak Kaydet – Görüntü Kalitesini Kontrol Etme
-
-Temel konulara hâlâ hakim olduğumuza göre, **görüntü kalitesini** daha bilinçli bir şekilde ayarlamayı ele alalım. Farklı projelerin farklı bant genişliği kısıtlamaları vardır; bu yüzden 60 ile 95 arasında değerlerle deneme yapabilirsiniz.
+## HTML'yi WebP olarak kaydederken görüntü kalitesini nasıl kontrol edebilirsiniz?
+Farklı projelerin farklı bant genişliği kısıtlamaları vardır, bu yüzden kalite değerleriyle 60 ile 95 arasında deneme yapmanız gerekebilir. Daha düşük değerler dosya boyutunu büyük ölçüde küçültür ancak görsel bozulmalara yol açar; daha yüksek değerler detayları korur ancak bayt sayısını artırır. 60‑95 aralığında değerlerle deneyerek belirli kullanım durumunuz için en iyi dengeyi bulun, hem görsel kaliteyi hem de dosya boyutunu test edin.
 
 ```java
 // Adjust quality based on your needs – 60 for low‑bandwidth, 95 for near‑lossless.
@@ -129,15 +153,13 @@ Converter.convert(htmlFilePath, "YOUR_DIRECTORY/custom-quality.webp", options);
 System.out.println("WebP saved with quality = " + desiredQuality);
 ```
 
-**Önemli noktalar:**
-
+**Anahtar noktalar:**
 - **Düşük kalite** → daha küçük dosya, daha fazla sıkıştırma artefaktı.  
 - **Yüksek kalite** → daha büyük dosya, daha az artefakt.  
-- `setQuality` yöntemi hem **görüntü kalitesini ayarlama** hem de **webp kalitesini ayarlama** için aynı düğmedir; iki farklı ifade aynı şeyi tanımlar.
+- `setQuality` metodu, **görüntü kalitesini ayarlama** ve **WebP kalitesini ayarlama** için aynı düğmedir.
 
-## Adım 3: HTML'yi AVIF'ye Dönüştür (Opsiyonel ama Kullanışlı)
-
-Eğer trendleri yakından takip etmek istiyorsanız, **AVIF** çıktısı da alabilirsiniz; bu yeni format, benzer kalite seviyelerinde genellikle daha küçük dosyalar üretir. Kod neredeyse aynı—sadece formatı değiştirin ve isteğe bağlı olarak kayıpsız modu etkinleştirin.
+## Modern bir geri dönüşüm olarak AVIF nasıl üretilir?
+AVIF, fotoğrafik içerik için genellikle WebP'den daha küçük dosyalar üretir. AVIF üretmek için format sabitini değiştirin ve gerektiğinde grafiklerin tam yeniden üretimini sağlamak için kayıpsız modu etkinleştirin. AVIF ayrıca kayıpsız sıkıştırma ve gelişmiş renk özelliklerini destekler, bu da yüksek detaylı grafiklerde tam renk koruması gerektiğinde uygundur.
 
 ```java
 ImageSaveOptions avifOptions = new ImageSaveOptions();
@@ -148,24 +170,22 @@ Converter.convert(htmlFilePath, "YOUR_DIRECTORY/output.avif", avifOptions);
 ```
 
 **Neden AVIF?**  
-- Fotoğrafik içerik için üstün sıkıştırma oranları.  
-- Genişleyen tarayıcı desteği (Chrome, Firefox, Edge).  
+- Aynı görsel kalite için WebP'den %30'a kadar daha iyi sıkıştırma.  
+- 2024 itibarıyla Chrome, Firefox ve Edge tarafından desteklenir.
 
-Denemekten çekinmeyin: Tek bir çalıştırmada hem WebP **hem de** AVIF üretebilir, eski tarayıcılar için yedek seçenekler sunabilirsiniz.
+Tek bir çalıştırmada hem WebP **hem de** AVIF üretebilir, WebP desteği olmayan tarayıcılar için geri dönüşüm seçenekleri sunarsınız.
 
-## Adım 4: Yaygın Tuzaklar & Görüntü Kalitesini Doğru Ayarlama
+## Yaygın tuzaklar nelerdir ve görüntü kalitesini doğru nasıl ayarlarsınız?
+HTML'yi WebP'ye dönüştürürken, birkaç yaygın sorun çıktıyı etkileyebilir. Eksik fontlar yedek tipografi oluşturabilir, hatalı dosya yolları çalışma zamanı hatalarına yol açar ve eski Aspose.HTML sürümleri kalite ayarını görmezden gelebilir. En son kütüphane sürümünü kullanarak, gerekli fontları kurarak ve mutlak yolları kullanarak görüntü kalitesini güvenilir bir şekilde kontrol edebilir ve bu tuzaklardan kaçınabilirsiniz.
 
-Basit bir API bile, birkaç ince ayrıntıyı bilmezseniz sizi şaşırtabilir.
-
-| Sorun | Belirti | Çözüm |
+| Sorun | Semptom | Çözüm |
 |-------|----------|-----|
-| **Eksik fontlar** | Metin genel sans‑serif olarak görünür. | Gerekli fontları host makineye kurun veya CSS `@font-face` ile gömün. |
-| **Yanlış yol** | Çalışma zamanında `FileNotFoundException`. | Mutlak yollar kullanın veya `Paths.get("").toAbsolutePath()` ile göreli yolları çözün. |
-| **Kalite göz ardı edildi** | `setQuality` ayarlanmasına rağmen çıktı boyutu değişmez. | **Aspose.HTML 23.12+** kullandığınızdan emin olun; eski sürümlerde WebP kalitesi varsayılan 80'dir. |
-| **Büyük HTML** | Dönüşüm 10 saniyeden uzun sürer. | Render boyutunu sınırlamak için `options.setPageWidth/Height` kullanın veya HTML içindeki büyük görüntüleri önceden sıkıştırın. |
+| **Eksik fontlar** | Metin genel sans‑serif olarak görünür. | Gerekli fontları hosta kurun veya CSS `@font-face` ile gömün. |
+| **Yanlış yol** | Çalışma zamanında `FileNotFoundException`. | Mutlak yollar kullanın veya `Paths.get("").toAbsolutePath()` ile göreceli yolları çözün. |
+| **Kalite göz ardı edildi** | `setQuality` kullanmanıza rağmen çıktı boyutu değişmedi. | **Aspose.HTML 23.12+** kullandığınızdan emin olun; önceki sürümler kaliteyi 80 olarak varsayar. |
+| **Büyük HTML** | Dönüştürme 10 saniyeden uzun sürer. | `options.setPageWidth/Height` ile render boyutunu sınırlayın veya HTML içindeki büyük görüntüleri önceden sıkıştırın. |
 
-### Farklı Senaryolar İçin Görüntü Kalitesi Ayarlama
-
+### Farklı senaryolar için görüntü kalitesini ayarlama
 ```java
 // Example: Different quality for thumbnails vs. hero images
 int thumbnailQuality = 60;
@@ -184,11 +204,10 @@ heroOptions.setQuality(heroQuality);
 Converter.convert(htmlFilePath, "YOUR_DIRECTORY/hero.webp", heroOptions);
 ```
 
-**set image quality** değerini senaryoya göre özelleştirerek sayfa yükleme sürelerini düşük tutabilir, görsel etkiyi gerektiği yerde koruyabilirsiniz.
+**Görüntü kalitesini ayarlama**'yı kullanım durumuna göre özelleştirin: mobil akışlar için düşük‑kaliteli küçük resimler, masaüstü için yüksek‑kaliteli hero görseller ve e‑posta ön izlemeleri için orta ayar.
 
-## Adım 5: Çıktıyı Doğrulama – Hızlı Kontroller
-
-Dönüşümden sonra dosyaların beklentilerinizi karşılayıp karşılamadığını kontrol etmek isteyeceksiniz.
+## Çıktıyı hızlıca nasıl doğrularsınız?
+Dönüştürmeden sonra oluşturulan WebP dosyasını boyut, dosya boyutu ve görsel doğruluk açısından inceleyin. `identify` gibi komut satırı araçlarını ImageMagick'ten kullanabilir veya görüntüyü bir tarayıcıda açabilirsiniz. Çıktıyı orijinal HTML render'ı ile karşılaştırmak, dönüşümün kalite beklentilerinizi karşıladığından emin olmanıza yardımcı olur.
 
 ```java
 import java.nio.file.Files;
@@ -202,11 +221,10 @@ System.out.println("WebP file size: " + sizeInBytes + " bytes");
 java.awt.Desktop.getDesktop().open(webpPath.toFile());
 ```
 
-Eğer dosya boyutu beklenenden çok büyükse **set webp quality** değerini yeniden gözden geçirin. Görüntü bulanıktıysa kaliteyi birkaç puan artırın.
+Eğer dosya beklenenden büyükse **set WebP quality** değerini düşürün. Görüntü bulanıktaysa kaliteyi birkaç puan artırın ve yeniden çalıştırın.
 
-## Tam Çalışan Örnek – Tek Sınıf, Tüm Seçenekler
-
-Aşağıda, WebP'ye özel kalite ayarı, AVIF yedek üretimi ve dosya boyutu yazdırma gibi tüm kavramları gösteren tek bir sınıf yer alıyor.
+## Tam çalışan örnek – tek sınıf, tüm seçenekler
+Aşağıda, tüm kavramları gösteren tek bir Java sınıfı bulunmaktadır: WebP'ye özel kaliteyle dönüştürme, AVIF geri dönüşümü üretme ve dosya boyutlarını yazdırma.
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -252,9 +270,9 @@ public class HtmlToImageDemo {
 }
 ```
 
-**Çalıştır:** `mvn compile exec:java -Dexec.mainClass=HtmlToImageDemo` (Gradle kullanıyorsanız sınıf yolunu ayarlayın).
+**Çalıştırın:** `mvn compile exec:java -Dexec.mainClass=HtmlToImageDemo` (Gradle kullanıyorsanız sınıf yolunu ayarlayın).
 
-Aşağıdaki gibi bir konsol çıktısı görmelisiniz:
+Konsolda aşağıdakine benzer bir çıktı görmelisiniz:
 
 ```
 WebP generated: /home/user/YOUR_DIRECTORY/output.webp
@@ -263,42 +281,36 @@ AVIF generated: /home/user/YOUR_DIRECTORY/output.avif
 Size: 9874 bytes
 ```
 
-## Sonuç
+## Sıkça Sorulan Sorular
 
-Java ile **html'yi webp'ye dönüştürdük**, **html'yi webp olarak kaydetmeyi** öğrendik ve **görüntü kalitesini ayarlama** ile **webp kalitesini ayarlama** inceliklerini keşfettik. Aspose.HTML `Converter` tüm süreci adeta bir esinti gibi hâle getiriyor—birkaç satır kodla üretime hazır görüntüler elde ediyorsunuz.
+**S: Aspose.HTML'ı üretimde kullanmak için ticari bir lisansa ihtiyacım var mı?**  
+C: Evet, üretim dağıtımları için geçerli bir Aspose.HTML lisansı gereklidir. Değerlendirme için ücretsiz deneme mevcuttur.
 
-Bundan sonra şunları yapabilirsiniz:
+**S: Dış CSS veya JavaScript referansları içeren HTML'yi dönüştürebilir miyim?**  
+C: Aspose.HTML, çalıştırma ortamından erişilebilen (yerel dosya sistemi veya HTTP) dış kaynakları destekler.
 
-- Dönüşümü bir derleme hattına (Maven, Gradle veya CI/CD) entegre edin.  
-- `ImageFormat`'ı değiştirerek daha fazla format (PNG, JPEG) ekleyin.  
-- Cihaz tespiti (mobil vs. masaüstü) ile kaliteyi dinamik olarak seçin.  
-
-Deneyin, kalite değerlerini ayarlayın ve kütüphanenin ağır işleri halletmesine izin verin.
-
-## Sık Sorulan Sorular
-
-**S: Aspose.HTML'i üretimde kullanmak için ticari lisansa ihtiyacım var mı?**  
-C: Evet, üretim dağıtımları için geçerli bir Aspose.HTML lisansı gereklidir. Değerlendirme için ücretsiz deneme sürümü mevcuttur.
-
-**S: Harici CSS veya JavaScript referansları içeren HTML'yi dönüştürebilir miyim?**  
-C: Aspose.HTML, dış kaynakların çalıştırıldığı ortamdan erişilebilir olduğu sürece (yerel dosya sistemi veya HTTP) dış kaynakları destekler.
-
-**S: Render süresi uzun olan büyük HTML dosyalarını nasıl yönetebilirim?**  
-C: `options.setPageWidth/Height` ile render boyutunu sınırlayın veya dönüşümden önce HTML içindeki ağır görüntüleri ön‑optimize edin.
+**S: Uzun süren render işlemleri yapan büyük HTML dosyalarını nasıl yönetirim?**  
+C: Render boyutunu `options.setPageWidth/Height` ile sınırlayın veya dönüştürmeden önce HTML içindeki büyük görüntüleri önceden optimize edin.
 
 **S: Tek bir çalıştırmada birden fazla HTML dosyasını toplu işleyebilir miyim?**  
-C: Kesinlikle—`Converter.convert` çağrısını bir döngü içinde sarın ve her dosya için aynı `ImageSaveOptions` nesnesini yeniden kullanın.
+C: Kesinlikle—`Converter.convert` çağrısını bir döngü içinde sarın ve her dosya için `ImageSaveOptions`'ı yeniden kullanın.
 
-**S: Oluşturulan WebP görüntüleri hangi tarayıcılarda gösterilebilir?**  
-C: Tüm modern tarayıcılar (Chrome, Edge, Firefox, Safari 14+) WebP'yi yerel olarak destekler.
+**S: Oluşturulan WebP görüntülerini hangi tarayıcılar görüntüleyebilir?**  
+C: Tüm modern tarayıcılar (Chrome, Edge, Firefox, Safari 14+) WebP'yi yerel olarak destekler.
 
----
+**Son Güncelleme:** 2026-08-17  
+**Test Edilen:** Aspose.HTML 23.12 for Java  
+**Yazar:** Aspose
 
-**Son Güncelleme:** 2026-03-05  
-**Test Edilen Versiyon:** Aspose.HTML 23.12 for Java  
-**Yazar:** Aspose  
+## İlgili Öğreticiler
+
+- [HTML'den Görüntü Java – Aspose.HTML ile HTML'yi TIFF'e Dönüştür](/html/java/conversion-html-to-various-image-formats/convert-html-to-tiff/)
+- [Aspose.HTML Mesaj İşleyicileri ile Java'da HTML'yi PNG'ye Dönüştür](/html/java/configuring-environment/use-message-handlers/)
+- [svg'den png'ye java – Aspose.HTML for Java ile SVG'yi Görüntüye Dönüştür](/html/java/conversion-html-to-other-formats/convert-svg-to-image/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

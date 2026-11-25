@@ -9,13 +9,9 @@ url: /th/java/converting-epub-to-pdf/convert-epub-to-bmp/
 weight: 10
 ---
 
- question and answer.
 
-Make sure to keep links unchanged.
 
-Also "Last Updated" etc.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

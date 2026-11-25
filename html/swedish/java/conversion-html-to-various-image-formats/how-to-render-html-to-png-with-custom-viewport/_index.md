@@ -25,13 +25,10 @@ title: Hur man renderar HTML till PNG med anpassad viewport
 url: /sv/java/conversion-html-to-various-image-formats/how-to-render-html-to-png-with-custom-viewport/
 ---
 
-we didn't miss any code blocks placeholders: CODE_BLOCK_0 to CODE_BLOCK_5 are preserved.
 
-Check for any other markdown elements: list, table, image.
 
-All good.
 
-Now produce final output with the translated content only.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,9 +24,7 @@ title: Cara Membuat GIF dari SVG – Panduan Java Langkah demi Langkah
 url: /id/java/conversion-html-to-various-image-formats/how-to-create-gif-from-svg-step-by-step-java-guide/
 ---
 
-.
 
-Let's produce final translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

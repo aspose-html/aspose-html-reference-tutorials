@@ -8,11 +8,8 @@ url: /zh/java/converting-epub-to-pdf/convert-epub-to-gif/
 weight: 11
 ---
 
- translate.
 
-Now produce final content.
 
-Let's do it.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

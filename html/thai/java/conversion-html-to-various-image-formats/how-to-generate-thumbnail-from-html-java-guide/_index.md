@@ -22,7 +22,7 @@ title: วิธีสร้างภาพย่อจาก HTML – คู่
 url: /th/java/conversion-html-to-various-image-formats/how-to-generate-thumbnail-from-html-java-guide/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

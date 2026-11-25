@@ -25,17 +25,12 @@ title: Hoe HTML naar PNG renderen met een aangepaste viewport
 url: /nl/java/conversion-html-to-various-image-formats/how-to-render-html-to-png-with-custom-viewport/
 ---
 
-=> "Veelgestelde vragen"
 
-Translate each Q&A.
 
-Translate "Wrap‑up" => "Samenvatting"
 
-Translate final paragraphs.
 
-Make sure to keep code block placeholders unchanged.
 
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

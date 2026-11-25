@@ -25,9 +25,7 @@ title: Como compactar HTML em C# – Carregar HTML e usar manipulador personaliz
 url: /pt/net/html-extensions-and-conversions/how-to-zip-html-in-c-load-html-use-custom-handler/
 ---
 
-markdown unchanged except alt text maybe translate? The instruction: translate all text content. Alt text is part of text, so translate alt while preserving URL. Title attribute also text, translate. So change alt and title. Keep URL same.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

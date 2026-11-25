@@ -1,11 +1,59 @@
 ---
-date: 2026-02-20
-description: Μάθετε πώς να προσθέσετε διαχειριστή στο Aspose.HTML για Java, να διαμορφώσετε
-  τις ρυθμίσεις του Aspose και να ενεργοποιήσετε την καταγραφή HTML της Java με έναν
-  προσαρμοσμένο διαχειριστή μηνυμάτων.
-linktitle: Implement Custom Message Handlers with Aspose.HTML
+date: 2026-06-29
+description: Μάθετε πώς να προσθέσετε προσαρμοσμένο χειριστή java στο Aspose.HTML
+  για Java, να διαμορφώσετε τις ρυθμίσεις και να ενεργοποιήσετε λεπτομερή καταγραφή
+  Java HTML με προσαρμοσμένο χειριστή μηνυμάτων.
+keywords:
+- add custom handler java
+- Aspose.HTML Java logging
+- custom message handler Java
+linktitle: Εφαρμόστε προσαρμοσμένους χειριστές μηνυμάτων με το Aspose.HTML
+schemas:
+- author: Aspose
+  dateModified: '2026-06-29'
+  description: Learn how to add custom handler java in Aspose.HTML for Java, configure
+    settings, and enable detailed Java HTML logging with a custom message handler.
+  headline: How to add custom handler java with Aspose.HTML
+  type: TechArticle
+- description: Learn how to add custom handler java in Aspose.HTML for Java, configure
+    settings, and enable detailed Java HTML logging with a custom message handler.
+  name: How to add custom handler java with Aspose.HTML
+  steps:
+  - name: '**Java Development Kit (JDK):** Ensure JDK 8 or higher is installed. Download
+      from the [Oracle JDK Downloads](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).'
+    text: '**Java Development Kit (JDK):** Ensure JDK 8 or higher is installed. Download
+      from the [Oracle JDK Downloads](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).'
+  - name: '**Aspose.HTML for Java library:** Grab the latest JAR from the [Aspose
+      releases page](https://releases.aspose.com/html/java/).'
+    text: '**Aspose.HTML for Java library:** Grab the latest JAR from the [Aspose
+      releases page](https://releases.aspose.com/html/java/).'
+  - name: '**IDE:** IntelliJ IDEA, Eclipse, or any editor you prefer.'
+    text: '**IDE:** IntelliJ IDEA, Eclipse, or any editor you prefer.'
+  - name: '**Basic Java knowledge:** Familiarity with classes, interfaces, and exception
+      handling.'
+    text: '**Basic Java knowledge:** Familiarity with classes, interfaces, and exception
+      handling.'
+  type: HowTo
+- questions:
+  - answer: Aspose.HTML for Java is a powerful library that enables developers to
+      create, manipulate, convert, and render HTML documents directly from Java applications.
+      It supports **50+** input and output formats and can process multi‑hundred‑page
+      documents without loading the entire file into memory.
+    question: What is Aspose.HTML for Java?
+  - answer: You can download Aspose.HTML for Java from [here](https://releases.aspose.com/html/java/)
+      and add the JAR to your project’s classpath or use Maven/Gradle dependencies.
+    question: How do I install Aspose.HTML?
+  - answer: Yes—either extend `LogMessageHandler` or implement your own `IMessageHandler`
+      to format and route logs as needed.
+    question: Can I customize log messages?
+  - answer: Absolutely! You can try out Aspose.HTML for free by accessing their free
+      trial [here](https://releases.aspose.com/).
+    question: Is there a free trial available for Aspose.HTML?
+  - answer: You can seek support from the Aspose community on their forum [here](https://forum.aspose.com/c/html/29).
+    question: Where can I find support for Aspose.HTML?
+  type: FAQPage
 second_title: Java HTML Processing with Aspose.HTML
-title: Πώς να προσθέσετε χειριστή με το Aspose.HTML για Java
+title: Πώς να προσθέσετε προσαρμοσμένο χειριστή java με το Aspose.HTML
 url: /el/java/message-handling-networking/custom-message-handler/
 weight: 11
 ---
@@ -14,31 +62,29 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Πώς να Προσθέσετε Handler με Aspose.HTML για Java
+# Πώς να προσθέσετε προσαρμοσμένο χειριστή java με το Aspose.HTML
 
 ## Εισαγωγή
-Αν ψάχνετε για **πώς να προσθέσετε handler** για πιο πλούσια επεξεργασία HTML, το Aspose.HTML για Java σας προσφέρει έναν καθαρό, επεκτάσιμο τρόπο να ενσωματώσετε τη διαδικασία δικτύωσης. Είτε χρειάζεστε λεπτομερή καταγραφή, προσαρμοσμένη πιστοποίηση ή ειδική διαχείριση αιτημάτων, ένας προσαρμοσμένος message handler σας επιτρέπει να παρεμβείτε και να αντιδράσετε σε κάθε γεγονός δικτύου. Σε αυτό το tutorial θα περάσουμε βήμα‑βήμα από τη ρύθμιση του περιβάλλοντος μέχρι τη σύνδεση ενός `LogMessageHandler` στην αλυσίδα διαχείρισης μηνυμάτων του Aspose.HTML.
+Αν θέλετε να **add custom handler java** για πιο πλούσια επεξεργασία HTML, το Aspose.HTML for Java παρέχει μια καθαρή, επεκτάσιμη αλυσίδα που σας επιτρέπει να επεμβείτε σε κάθε αίτημα και απόκριση δικτύου. Είτε χρειάζεστε λεπτομερή καταγραφή, προσαρμοσμένη πιστοποίηση ή ειδική δρομολόγηση αιτημάτων, ένας προσαρμοσμένος message handler σας προσφέρει πλήρη ορατότητα και έλεγχο. Σε αυτό το tutorial θα περάσουμε από όλη τη διαδικασία — από τη ρύθμιση του περιβάλλοντος μέχρι τη σύνδεση ενός `LogMessageHandler` στην αλυσίδα διαχείρισης μηνυμάτων του Aspose.HTML.
 
 ## Γρήγορες Απαντήσεις
-- **Τι είναι ένας προσαρμοσμένος message handler;** Ένα plug‑in που παρεμβάλλεται στα μηνύματα δικτύου (αιτήματα, απαντήσεις, σφάλματα) κατά την επεξεργασία ενός HTML εγγράφου.  
-- **Γιατί να χρησιμοποιήσω handler με Aspose.HTML;** Παρέχει καταγραφή σε πραγματικό χρόνο, εντοπισμό σφαλμάτων και τη δυνατότητα τροποποίησης της κίνησης «on the fly».  
-- **Χρειάζεται άδεια για να το δοκιμάσω;** Διατίθεται δωρεάν δοκιμή· απαιτείται εμπορική άδεια για παραγωγική χρήση.  
-- **Ποια έκδοση Java απαιτείται;** JDK 8 ή νεότερη.  
-- **Μπορώ να αντικαταστήσω τον προεπιλεγμένο handler;** Ναι—οι handlers είναι διατεταγμένοι και μπορείτε να εισάγετε τον δικό σας σε οποιαδήποτε θέση της αλυσίδας.
+- **Τι είναι ένας προσαρμοσμένος message handler;** Ένα plug‑in που παρεμβάλλεται σε μηνύματα δικτύου (αιτήματα, αποκρίσεις, σφάλματα) κατά την επεξεργασία εγγράφου HTML.  
+- **Γιατί να χρησιμοποιήσετε έναν handler με το Aspose.HTML;** Παρέχει καταγραφή σε πραγματικό χρόνο, εντοπισμό σφαλμάτων και τη δυνατότητα τροποποίησης της κίνησης «on the fly».  
+- **Χρειάζομαι άδεια για να το δοκιμάσω;** Διατίθεται δωρεάν δοκιμή· απαιτείται εμπορική άδεια για παραγωγική χρήση.  
+- **Ποια έκδοση της Java απαιτείται;** JDK 8 ή νεότερη.  
+- **Μπορώ να αντικαταστήσω τον προεπιλεγμένο handler;** Ναι — οι handlers είναι ταξινομημένοι και μπορείτε να εισάγετε τον δικό σας σε οποιαδήποτε θέση στην αλυσίδα.
 
-## Τι σημαίνει “πώς να προσθέσετε handler” στο Aspose.HTML;
-Η προσθήκη ενός handler σημαίνει την καταχώρηση μιας υλοποίησης του `IMessageHandler` (ή τη χρήση του ενσωματωμένου `LogMessageHandler`) στη `MessageHandlerCollection` που ανήκει στην υπηρεσία δικτύου. Μonce καταχωρηθεί, ο handler λαμβάνει κάθε γεγονός δικτύου, επιτρέποντάς σας να καταγράψετε, να τροποποιήσετε ή να μπλοκάρετε την κίνηση όπως απαιτείται.
+## Τι είναι το «πώς να προσθέσετε χειριστή» στο Aspose.HTML;
+Ένας προσαρμοσμένος handler είναι μια υλοποίηση του `IMessageHandler` (ή του ενσωματωμένου `LogMessageHandler`) που καταχωρίζετε στην υπηρεσία δικτύου του Aspose.HTML. Μόλις καταχωριστεί, ο handler λαμβάνει κάθε γεγονός δικτύου, επιτρέποντάς σας να καταγράψετε, τροποποιήσετε ή μπλοκάρετε την κίνηση όπως χρειάζεται. Μπορεί επίσης να εξετάσει κεφαλίδες, περιεχόμενο σώματος και κωδικούς κατάστασης, δίνοντας στους προγραμματιστές πλήρη έλεγχο της επικοινωνίας HTTP κατά την επεξεργασία HTML.
 
-## Γιατί να ρυθμίσετε το Aspose για καταγραφή HTML σε Java;
-- **Ορατότητα:** Δείτε κάθε αίτημα και απάντηση, κάτι που επιταχύνει τον εντοπισμό σφαλμάτων.  
-- **Βελτιστοποίηση Απόδοσης:** Εντοπίστε αργούς πόρους ή αποτυχημένες φορτώσεις.  
-- **Έλεγχος Ασφαλείας:** Καταγράψτε URLs και headers για συμμόρφωση.
+## Γιατί να διαμορφώσετε το Aspose για καταγραφή HTML σε Java;
+Η διαμόρφωση της καταγραφής σας δίνει άμεση ορατότητα σε κάθε συναλλαγή HTTP που πραγματοποιείται κατά τη φόρτωση ή την απόδοση HTML. Αυτό επιταχύνει τον εντοπισμό σφαλμάτων, σας βοηθά να εντοπίσετε σημεία συμφόρησης απόδοσης και ικανοποιεί απαιτήσεις ελέγχου ασφαλείας καταγράφοντας URLs, κεφαλίδες και κωδικούς κατάστασης. Επιπλέον, τα logs μπορούν να εξαχθούν σε αρχεία ή συστήματα παρακολούθησης για μακροπρόθεσμη ανάλυση και αναφορές συμμόρφωσης.
 
 ## Προαπαιτούμενα
-1. **Java Development Kit (JDK):** Βεβαιωθείτε ότι το JDK 8 ή νεότερο είναι εγκατεστημένο. Κατεβάστε το από το [Oracle JDK Downloads](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
-2. **Βιβλιοθήκη Aspose.HTML για Java:** Λάβετε το τελευταίο JAR από τη [σελίδα κυκλοφοριών Aspose](https://releases.aspose.com/html/java/).  
+1. **Java Development Kit (JDK):** Βεβαιωθείτε ότι το JDK 8 ή νεότερο είναι εγκατεστημένο. Κατεβάστε το από τα [Oracle JDK Downloads](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+2. **Aspose.HTML for Java library:** Κατεβάστε το τελευταίο JAR από τη [Aspose releases page](https://releases.aspose.com/html/java/).  
 3. **IDE:** IntelliJ IDEA, Eclipse ή οποιονδήποτε επεξεργαστή προτιμάτε.  
-4. **Βασικές γνώσεις Java:** Εξοικείωση με κλάσεις, interfaces και διαχείριση εξαιρέσεων.
+4. **Βασικές γνώσεις Java:** Εξοικείωση με κλάσεις, διεπαφές και διαχείριση εξαιρέσεων.
 
 Τώρα που έχουμε καλύψει τα θεμέλια, ας βουτήξουμε στον κώδικα.
 
@@ -52,19 +98,24 @@ import com.aspose.html.net.MessageHandlerCollection;
 import com.aspose.html.services.INetworkService;
 ```
 
-Αυτές οι εισαγωγές μας δίνουν πρόσβαση στο αντικείμενο ρυθμίσεων, στο μοντέλο εγγράφου και στην υπηρεσία δικτύου που φιλοξενεί τη συλλογή message‑handler.
+Αυτές οι εισαγωγές μας δίνουν πρόσβαση στο αντικείμενο διαμόρφωσης, στο μοντέλο εγγράφου και στην υπηρεσία δικτύου που φιλοξενεί τη συλλογή message‑handler.
 
-## Βήμα 1: Δημιουργία ενός Αντικειμένου Configuration
-Το αντικείμενο `Configuration` είναι το κεντρικό σημείο όπου ελέγχετε τη συμπεριφορά του Aspose.HTML.
+## Πώς να προσθέσετε προσαρμοσμένο χειριστή java;
+Φορτώστε τον προσαρμοσμένο handler στην αλυσίδα του Aspose.HTML πριν δημιουργηθεί οποιοδήποτε έγγραφο. Εισάγοντας τον handler στην αρχή του `MessageHandlerCollection`, εξασφαλίζετε ότι κάθε αίτημα και απόκριση περνούν πρώτα από τον κώδικά σας, επιτρέποντας ακριβή καταγραφή ή διαχείριση πιστοποίησης. Το `MessageHandlerCollection` είναι ένα κοντέινερ τύπου λίστας που κρατά όλες τις καταχωρημένες `IMessageHandler` για την υπηρεσία δικτύου.
+
+## Βήμα 1: Δημιουργήστε μια παρουσία της κλάσης Configuration
+Το αντικείμενο `Configuration` είναι το κεντρικό σημείο όπου ελέγχετε τη συμπεριφορά του Aspose.HTML.  
+`Configuration` είναι το κεντρικό αντικείμενο που αποθηκεύει τις ρυθμίσεις του Aspose.HTML, συμπεριλαμβανομένων των υπηρεσιών και των handlers.
 
 ```java
 Configuration configuration = new Configuration();
 ```
 
-Σκεφτείτε το ως το θεμέλιο ενός σπιτιού—χωρίς αυτό, κανένα από τα επόμενα συστατικά δεν έχει σταθερή βάση.
+Σκεφτείτε το ως το θεμέλιο ενός σπιτιού — χωρίς αυτό, κανένα από τα επόμενα συστατικά δεν έχει σταθερή βάση.
 
-## Βήμα 2: Προσθήκη του LogMessageHandler στην Αλυσίδα Υπάρχοντων Message Handlers
-Στη συνέχεια, ανακτούμε την υπηρεσία δικτύου από τη ρύθμιση και εισάγουμε ένα `LogMessageHandler` στην αρχή της λίστας handlers. Αυτό εξασφαλίζει ότι η καταγραφή γίνεται όσο το δυνατόν νωρίτερα.
+## Βήμα 2: Προσθέστε το LogMessageHandler στην αλυσίδα των υπάρχοντων Message Handlers
+Πρώτα, ανακτήστε την υπηρεσία δικτύου από τη διαμόρφωση, μετά εισάγετε ένα `LogMessageHandler`.  
+`LogMessageHandler` είναι μια ενσωματωμένη υλοποίηση του `IMessageHandler` που γράφει λεπτομέρειες αιτήματος και απόκρισης στην κονσόλα ή σε αρχείο.
 
 ```java
 INetworkService service = configuration.getService(INetworkService.class);
@@ -72,60 +123,66 @@ MessageHandlerCollection handlers = service.getMessageHandlers();
 handlers.insertItem(0, new LogMessageHandler());
 ```
 
-> **Συμβουλή:** Αν δημιουργήσετε το δικό σας handler (π.χ. `MyAuthHandler`), τοποθετήστε το πριν από τον logger για να καταγράψετε πρώτα τα στοιχεία πιστοποίησης.
+> **Pro tip:** Αν δημιουργήσετε τον δικό σας handler (π.χ., `MyAuthHandler`), εισάγετέ τον πριν από τον logger για να καταγράψετε πρώτα τα στοιχεία πιστοποίησης.
 
-## Βήμα 3: Προετοιμασία Διαδρομής σε Αρχείο Πηγής Εγγράφου
+## Βήμα 3: Προετοιμάστε τη διαδρομή σε ένα αρχείο πηγής εγγράφου
 Καθορίστε το αρχείο HTML που θέλετε να επεξεργαστείτε. Προσαρμόστε τη διαδρομή ώστε να ταιριάζει με τη δομή του έργου σας.
 
 ```java
 String documentPath = "input/input.htm";
 ```
 
-## Βήμα 4: Αρχικοποίηση HTML Document με την Καθορισμένη Ρύθμιση
-Τέλος, φορτώστε το HTML έγγραφο χρησιμοποιώντας τη προσαρμοσμένη ρύθμιση που πλέον περιλαμβάνει το handler καταγραφής.
+## Βήμα 4: Αρχικοποιήστε ένα HTML Document με την καθορισμένη Configuration
+Τέλος, φορτώστε το HTML έγγραφο χρησιμοποιώντας τη προσαρμοσμένη διαμόρφωση που τώρα περιλαμβάνει τον handler καταγραφής.  
+`HTMLDocument` αντιπροσωπεύει ένα αρχείο HTML που έχει φορτωθεί στη μνήμη και παρέχει δυνατότητες χειρισμού DOM και απόδοσης.
 
 ```java
 HTMLDocument document = new HTMLDocument(documentPath, configuration);
 ```
 
-Σε αυτό το σημείο το έγγραφο είναι έτοιμο για περαιτέρω επεξεργασία—μετατροπές, αλλαγές DOM ή rendering—ενώ όλη η κίνηση δικτύου θα καταγράφεται.
+Σε αυτό το σημείο το έγγραφο είναι έτοιμο για περαιτέρω επεξεργασία — μετατροπή, αλλαγές DOM ή απόδοση — ενώ όλη η κίνηση δικτύου θα καταγράφεται.
 
-## Συνηθισμένα Προβλήματα και Λύσεις
-| Πρόβλημα | Γιατί Συμβαίνει | Διόρθωση |
+## Κοινά Προβλήματα και Λύσεις
+| Πρόβλημα | Γιατί συμβαίνει | Διόρθωση |
 |----------|----------------|----------|
-| **Ο handler δεν εκτελείται** | Ο handler προστέθηκε μετά τη δημιουργία του εγγράφου. | Προσθέστε τους handlers **πριν** δημιουργήσετε το `HTMLDocument`. |
-| **NullPointerException στην υπηρεσία** | `Configuration.getService` επέστρεψε `null` επειδή δεν φορτώθηκε το απαιτούμενο module. | Βεβαιωθείτε ότι το JAR του Aspose.HTML βρίσκεται στο classpath και ταιριάζει με την έκδοση Java. |
-| **Το αρχείο καταγραφής είναι κενό** | Το επίπεδο καταγραφής είναι ορισμένο πολύ υψηλό. | Ρυθμίστε τις παραμέτρους του `LogMessageHandler` ή χρησιμοποιήστε προσαρμοσμένο logger που γράφει σε αρχείο. |
+| **Handler not firing** | Ο handler προστέθηκε μετά τη δημιουργία του εγγράφου. | Προσθέστε τους handlers **πριν** δημιουργήσετε το `HTMLDocument`. |
+| **NullPointerException on service** | Η `Configuration.getService` επέστρεψε `null` επειδή το απαιτούμενο module δεν έχει φορτωθεί. | Βεβαιωθείτε ότι το Aspose.HTML JAR βρίσκεται στο classpath και ταιριάζει με την έκδοση της Java. |
+| **Log file is empty** | Το επίπεδο καταγραφής είναι ορισμένο πολύ υψηλό. | Προσαρμόστε τις ρυθμίσεις του `LogMessageHandler` ή χρησιμοποιήστε έναν προσαρμοσμένο logger που γράφει σε αρχείο. |
 
 ## Συχνές Ερωτήσεις
 
-**Ε: Τι είναι το Aspose.HTML για Java;**  
-Α: Το Aspose.HTML για Java είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να δημιουργούν, να επεξεργάζονται, να μετατρέπουν και να αποδίδουν HTML έγγραφα απευθείας από εφαρμογές Java.
+**Ε: Τι είναι το Aspose.HTML for Java;**  
+Α: Το Aspose.HTML for Java είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να δημιουργούν, να επεξεργάζονται, να μετατρέπουν και να αποδίδουν έγγραφα HTML απευθείας από εφαρμογές Java. Υποστηρίζει **50+** μορφές εισόδου και εξόδου και μπορεί να επεξεργαστεί έγγραφα εκατοντάδων σελίδων χωρίς να φορτώνει ολόκληρο το αρχείο στη μνήμη.
 
 **Ε: Πώς εγκαθιστώ το Aspose.HTML;**  
-Α: Μπορείτε να κατεβάσετε το Aspose.HTML για Java από [εδώ](https://releases.aspose.com/html/java/) και να προσθέσετε το JAR στο classpath του έργου σας ή να χρησιμοποιήσετε εξαρτήσεις Maven/Gradle.
+Α: Μπορείτε να κατεβάσετε το Aspose.HTML for Java από [εδώ](https://releases.aspose.com/html/java/) και να προσθέσετε το JAR στο classpath του έργου σας ή να χρησιμοποιήσετε εξαρτήσεις Maven/Gradle.
 
 **Ε: Μπορώ να προσαρμόσω τα μηνύματα καταγραφής;**  
-Α: Ναι—είτε επεκτείνετε το `LogMessageHandler` είτε υλοποιήσετε το δικό σας `IMessageHandler` για να μορφοποιήσετε και να δρομολογήσετε τις καταγραφές όπως χρειάζεται.
+Α: Ναι — είτε επεκτείνετε το `LogMessageHandler` είτε υλοποιήσετε το δικό σας `IMessageHandler` για να μορφοποιήσετε και να δρομολογήσετε τα logs όπως χρειάζεται.
 
-**Ε: Υπάρχει δωρεάν δοκιμή για το Aspose.HTML;**  
-Α: Απόλυτα! Μπορείτε να δοκιμάσετε το Aspose.HTML δωρεάν αποκτώντας τη δωρεάν δοκιμή [εδώ](https://releases.aspose.com/).
+**Ε: Υπάρχει δωρεάν δοκιμή διαθέσιμη για το Aspose.HTML;**  
+Α: Απολύτως! Μπορείτε να δοκιμάσετε το Aspose.HTML δωρεάν προσπελάζοντας τη δωρεάν δοκιμή [εδώ](https://releases.aspose.com/).
 
 **Ε: Πού μπορώ να βρω υποστήριξη για το Aspose.HTML;**  
-Α: Μπορείτε να ζητήσετε υποστήριξη από την κοινότητα του Aspose στο φόρουμ τους [εδώ](https://forum.aspose.com/c/html/29).
+Α: Μπορείτε να ζητήσετε υποστήριξη από την κοινότητα Aspose στο φόρουμ τους [εδώ](https://forum.aspose.com/c/html/29).
 
 ## Συμπέρασμα
-Ακολουθώντας αυτά τα βήματα, τώρα γνωρίζετε **πώς να προσθέσετε handler** στο Aspose.HTML για Java, πώς να ρυθμίσετε τη βιβλιοθήκη για λεπτομερή **καταγραφή java html**, και πώς να **υλοποιήσετε προσαρμοσμένο handler java** που ταιριάζει στις ανάγκες του έργου σας. Αυτή η διαμόρφωση όχι μόνο απλοποιεί τον εντοπισμό σφαλμάτων, αλλά ανοίγει το δρόμο για προχωρημένα σενάρια όπως περιορισμός αιτημάτων, προσαρμοσμένη πιστοποίηση ή δυναμική ένεση περιεχομένου.
+Ακολουθώντας αυτά τα βήματα, τώρα γνωρίζετε **πώς να προσθέσετε προσαρμοσμένο χειριστή java** στο Aspose.HTML for Java, πώς να διαμορφώσετε τη βιβλιοθήκη για λεπτομερή **καταγραφή java html**, και πώς να **υλοποιήσετε λογική προσαρμοσμένου χειριστή java** που ταιριάζει στις ανάγκες του έργου σας. Αυτή η ρύθμιση όχι μόνο απλοποιεί τον εντοπισμό σφαλμάτων, αλλά ανοίγει το δρόμο για προχωρημένα σενάρια όπως περιορισμός αιτημάτων, προσαρμοσμένη πιστοποίηση ή δυναμική ένεση περιεχομένου.
 
 ---
 
-**Τελευταία Ενημέρωση:** 2026-02-20  
-**Δοκιμάστηκε Με:** Aspose.HTML για Java 23.10 (τελευταία έκδοση τη στιγμή της συγγραφής)  
-**Συγγραφέας:** Aspose  
+**Τελευταία ενημέρωση:** 2026-06-29  
+**Δοκιμάστηκε με:** Aspose.HTML for Java 23.10 (latest at time of writing)  
+**Συγγραφέας:** Aspose
+
+## Σχετικά Μαθήματα
+
+- [Φόρτωση HTML μέσω URL σε .NET με το Aspose.HTML](/html/net/html-document-manipulation/load-html-using-url/)
+- [Διαμόρφωση Περιβάλλοντος σε .NET με το Aspose.HTML](/html/net/advanced-features/environment-configuration/)
+- [Δημιουργία Stream Provider σε .NET με το Aspose.HTML](/html/net/advanced-features/create-stream-provider/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

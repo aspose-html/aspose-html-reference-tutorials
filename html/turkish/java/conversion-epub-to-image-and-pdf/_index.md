@@ -101,6 +101,9 @@ Aspose.HTML for Java kullanarak EPUB'ı görüntüye nasıl dönüştüreceğini
 ### [Aspose.HTML for Java ile EPUB'dan PDF'ye Dönüştürme](./convert-epub-to-pdf/)
 Aspose.HTML for Java ile EPUB'ı PDF'ye nasıl dönüştüreceğinizi öğrenin. Bu adım adım kılavuz, ön koşulları, paket içe aktarmalarını ve kod örneklerini kapsar. EPUB'dan PDF'ye dönüştürmeye başlayın.
 
+### [Java ile EPUB'yi PNG'ye Dönüştür – Görüntü Boyutlarını Ayarlayın](./convert-epub-to-png-in-java-set-image-dimensions/)
+Java kullanarak EPUB dosyalarını PNG formatına dönüştürürken istediğiniz çözünürlük ve boyutları ayarlamayı öğrenin.
+
 ## Sıkça Sorulan Sorular
 
 **S: Java web uygulamasında EPUB'ı PDF'ye nasıl dönüştürürüm?**

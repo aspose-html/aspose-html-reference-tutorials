@@ -24,17 +24,11 @@ title: Tạo PNG từ SVG trong Java – Hướng dẫn chi tiết từng bướ
 url: /vi/java/conversion-html-to-various-image-formats/create-png-from-svg-in-java-complete-step-by-step-guide/
 ---
 
-đổi Java → đầu ra PNG – create png from svg". Title: "tạo png từ svg". Good.
 
-Proceed with sections.
 
-List items, code block placeholders remain.
 
-Translate bullet points.
 
-Make sure to keep code block placeholders unchanged.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

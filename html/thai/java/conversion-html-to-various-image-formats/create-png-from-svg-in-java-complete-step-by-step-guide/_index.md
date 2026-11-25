@@ -22,24 +22,6 @@ title: สร้าง PNG จาก SVG ใน Java – คู่มือข�
 url: /th/java/conversion-html-to-various-image-formats/create-png-from-svg-in-java-complete-step-by-step-guide/
 ---
 
-might explore related topics such as **svg to png java** batch processing, embedding the PNG in PDF reports, or using Aspose.HTML to rasterise SVGs at multiple resolutions for responsive web assets. The sky’s the limit—experiment, measure performance, and integrate the code into your own pipelines." Translate.
-
-Paragraph: "Got a twist on this workflow? Drop a comment, share your experience, or ask about a specific edge case. Happy coding!" Translate.
-
-Then closing shortcodes: {{< /blocks/products/pf/tutorial-page-section >}} etc. Keep unchanged.
-
-Also final backtop button shortcode.
-
-Now produce final output with all translations.
-
-Need to ensure we preserve markdown formatting exactly.
-
-Let's craft translation.
-
-We'll use Thai language.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

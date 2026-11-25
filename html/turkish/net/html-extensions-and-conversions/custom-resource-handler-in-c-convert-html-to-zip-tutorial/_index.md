@@ -24,7 +24,7 @@ title: C#'ta Özel Kaynak İşleyicisi – HTML'yi ZIP'e Dönüştürme Öğreti
 url: /tr/net/html-extensions-and-conversions/custom-resource-handler-in-c-convert-html-to-zip-tutorial/
 ---
 
-content with all translations and unchanged shortcodes.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -1,0 +1,7 @@
+Title: How to load HTML file in Python using Aspose.HTML
+Slug: how-to-load-html-file-in-python-using-aspose-html
+Category: general
+ProcessedDate: 2026-11-21T05:44:45.943935
+SourceRepo: AI Search API
+Keywords: load html file python, convert html to pdf, extract text from html, load html into document, read html file path
+PRNumber: 328

@@ -1,0 +1,7 @@
+Title: How to enable antialiasing and set font size and style programmatically in C#
+Slug: how-to-enable-antialiasing-and-set-font-size-and-style-progr
+Category: canvas-and-image-manipulation
+ProcessedDate: 2026-11-21T05:27:12.516118
+SourceRepo: AI Search API
+Keywords: how to enable antialiasing, set font size, set font style programmatically
+PRNumber: 327

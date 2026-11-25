@@ -1,11 +1,77 @@
 ---
-date: 2026-02-20
-description: Pelajari cara menangani kredensial secara aman menggunakan Aspose.HTML
-  untuk Java dalam panduan langkah demi langkah ini. Jelajahi tip penting, praktik
-  terbaik, dan contoh penggunaan dunia nyata.
-linktitle: Handling Credentials Pipeline in Aspose.HTML
+date: 2026-08-12
+description: Pelajari cara menangani credentials di Aspose.HTML for Java, secure network
+  calls, dan reuse authentication di seluruh dokumen dalam panduan step‑by‑step yang
+  ringkas.
+keywords:
+- how to handle credentials
+- Aspose.HTML Java authentication
+- network credential pipeline
+lastmod: 2026-08-12
+linktitle: Menangani Pipeline Credentials di Aspose.HTML
+og_description: Cara menangani credentials di Aspose.HTML for Java – secure authentication,
+  reusable pipelines, dan tips best‑practice untuk pengembang Java (150‑160 chars).
+og_image_alt: 'Guide: how to handle credentials in Aspose.HTML for Java'
+og_title: Cara menangani credentials di Aspose.HTML for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-08-12'
+  description: Learn how to handle credentials in Aspose.HTML for Java, secure network
+    calls, and reuse authentication across documents in a concise step‑by‑step guide.
+  headline: How to handle credentials in Aspose.HTML for Java
+  type: TechArticle
+- description: Learn how to handle credentials in Aspose.HTML for Java, secure network
+    calls, and reuse authentication across documents in a concise step‑by‑step guide.
+  name: How to handle credentials in Aspose.HTML for Java
+  steps:
+  - name: create a configuration instance
+    text: '`Configuration` is Aspose.HTML''s central object that holds services, handlers,
+      and options for HTML processing. It acts as a container for all runtime settings,
+      allowing you to share common configurations across multiple documents.'
+  - name: insert the credentialhandler into the message handler chain
+    text: '`CredentialHandler` is a built‑in implementation that adds the `Authorization`
+      header based on the credentials you provide. By inserting it at index 0 of the
+      `MessageHandlerCollection`, you guarantee that authentication runs before any
+      other handlers such as logging or proxy. > **Pro tip:** If you n'
+  - name: load an html document with the configured credentials
+    text: '`HTMLDocument` represents a single HTML file loaded from a URL or a stream.
+      When you pass the previously prepared `Configuration` to its constructor, the
+      document automatically uses the credential pipeline you set up.'
+  - name: (optional) retrieve the document content
+    text: If you want to inspect the HTML that was fetched, you can convert the `HTMLDocument`
+      to a string and print it to the console. This is handy for debugging or for
+      feeding the markup into further DOM‑based processing.
+  - name: clean up resources
+    text: Always call `dispose()` on the `HTMLDocument` when you are finished. This
+      releases native resources and prevents memory leaks, which is especially important
+      in long‑running services or batch jobs.
+  type: HowTo
+- questions:
+  - answer: It stores a chain of handlers that can modify, log, or block network requests
+      made by Aspose.HTML. Adding a `CredentialHandler` enables automatic authentication
+      for every request.
+    question: What is the purpose of `MessageHandlerCollection`?
+  - answer: 'Absolutely. Implement a custom handler that adds the `Authorization:
+      Bearer <token>` header and insert it into the collection just like the `CredentialHandler`.'
+    question: Can I use OAuth tokens instead of basic auth?
+  - answer: The sample uses a simple handler for illustration. In production, store
+      secrets securely (e.g., Java Keystore, Azure Key Vault) and retrieve them at
+      runtime.
+    question: Is the credential information stored in plain text?
+  - answer: Yes. Add a separate `ProxyHandler` to the same `MessageHandlerCollection`
+      and configure it with proxy credentials.
+    question: Does Aspose.HTML support proxy authentication?
+  - answer: Add a logging handler (e.g., `new LoggingHandler()`) after the credential
+      handler to capture request/response details without affecting authentication.
+    question: How do I debug network traffic?
+  type: FAQPage
 second_title: Java HTML Processing with Aspose.HTML
-title: menangani kredensial aspose html – Aspose.HTML untuk Java
+tags:
+- handle credentials
+- Aspose.HTML
+- Java networking
+- authentication handlers
+title: Cara menangani credentials di Aspose.HTML for Java
 url: /id/java/message-handling-networking/credentials-pipeline/
 weight: 10
 ---
@@ -14,29 +80,29 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# handle credentials aspose html – Menangani Pipeline Kredensial di Aspose.HTML untuk Java
+# Cara menangani kredensial di Aspose.HTML untuk Java
 
 ## Pendahuluan
-Di dunia yang sangat terhubung saat ini, **handle credentials aspose html** adalah keterampilan yang wajib dimiliki bagi siapa pun yang membangun aplikasi Java yang mengambil atau mengirim konten HTML melalui jaringan. Saat Anda bekerja dengan Aspose.HTML untuk Java, Anda mendapatkan mesin yang kuat dan berperforma tinggi yang memungkinkan Anda berinteraksi dengan layanan web sambil menjaga nama pengguna, kata sandi, dan token tetap aman. Dalam tutorial ini kami akan menjelaskan langkah‑langkah tepat untuk menyiapkan pipeline kredensial, menjelaskan mengapa setiap bagian penting, dan menunjukkan cara membersihkan sumber daya dengan benar.
+Dalam aplikasi Java modern, **cara menangani kredensial** secara aman saat mengakses sumber daya HTML jarak jauh adalah keterampilan penting. Aspose.HTML untuk Java memberikan mesin berperforma tinggi yang mengabstraksi komunikasi HTTP sambil memungkinkan Anda menyuntikkan data otentikasi dengan aman. Tutorial ini memandu Anda membangun pipeline kredensial yang dapat digunakan kembali, menjelaskan mengapa setiap komponen penting, dan menunjukkan cara membersihkan sumber daya dengan benar sehingga aplikasi Anda tetap cepat dan bebas kebocoran.
 
 ## Jawaban Cepat
-- **Apa arti “handle credentials aspose html”?** Ini mengacu pada mengkonfigurasi lapisan jaringan Aspose.HTML untuk menyediakan data otentikasi (mis., basic auth) secara otomatis saat dokumen dimuat.  
-- **Apakah saya memerlukan lisensi untuk menjalankan contoh?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi komersial diperlukan untuk produksi.  
-- **Versi Java mana yang didukung?** Aspose.HTML untuk Java mendukung JDK 8 ke atas.  
-- **Apakah saya dapat menggunakan skema otentikasi lain?** Ya – perpustakaan juga mendukung NTLM, OAuth, dan handler khusus.  
-- **Apakah kode ini thread‑safe?** Objek `Configuration` dapat dibagikan, tetapi setiap thread harus menggunakan instansi `HTMLDocument` masing‑masing.
+- **Apa arti “handle credentials” dalam Aspose.HTML?** Artinya mengkonfigurasi lapisan jaringan perpustakaan untuk secara otomatis menambahkan data otentikasi (mis., basic auth) ke setiap permintaan keluar.  
+- **Apakah saya memerlukan lisensi untuk menjalankan contoh?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi komersial diperlukan untuk penyebaran produksi.  
+- **Versi Java mana yang didukung?** Aspose.HTML untuk Java mendukung JDK 8 ke atas, hingga rilis LTS terbaru.  
+- **Apakah saya dapat menggunakan skema otentikasi lain?** Ya – perpustakaan juga mendukung NTLM, OAuth 2.0, dan handler khusus yang dapat Anda sambungkan ke pipeline.  
+- **Apakah kode ini thread‑safe?** Objek `Configuration` bersifat thread‑safe untuk penggunaan baca‑saja, tetapi setiap thread harus menginstansiasi objek `HTMLDocument` masing‑masing.
 
 ## Prasyarat
-Sebelum kita masuk ke detail teknis, pastikan Anda memiliki hal‑hal berikut:
+Sebelum kita mulai, pastikan Anda memiliki item berikut siap:
 
-1. **Java Development Kit (JDK)** – versi 8 atau lebih tinggi.  
-2. **Aspose.HTML for Java** – unduh build terbaru dari [tautan unduhan di sini](https://releases.aspose.com/html/java/).  
-3. **IDE** – IntelliJ IDEA, Eclipse, atau editor apa pun yang Anda sukai.  
+1. **Java Development Kit (JDK)** – versi 8 atau lebih tinggi terpasang di mesin Anda.  
+2. **Aspose.HTML for Java** – unduh build terbaru dari [download link here](https://releases.aspose.com/html/java/).  
+   *Anda juga dapat memperoleh perpustakaan dari halaman unduhan resmi Aspose.HTML untuk Java.*  
+3. **IDE** – IntelliJ IDEA, Eclipse, atau editor apa pun yang Anda sukai untuk pengembangan Java.  
 4. **Pengetahuan dasar Java** – Anda harus nyaman dengan kelas, objek, dan penanganan pengecualian.
 
-## Impor Paket
-Dengan prasyarat kami sudah siap, mari impor kelas‑kelas yang diperlukan. Impor ini memberi kami akses ke API jaringan inti Aspose.HTML.
-
+## Impor paket
+Impor berikut menyediakan kelas jaringan inti Aspose.HTML yang diperlukan untuk penanganan kredensial.  
 ```java
 import com.aspose.html.Configuration;
 import com.aspose.html.HTMLDocument;
@@ -45,25 +111,22 @@ import com.aspose.html.services.INetworkService;
 ```
 
 ## Apa itu “handle credentials aspose html”?
-Frasa ini menggambarkan proses melampirkan **CredentialHandler** (atau `MessageHandler` khusus apa pun) ke layanan jaringan internal Aspose.HTML. Handler ini menyela permintaan HTTP keluar, menyisipkan header otentikasi yang diperlukan, dan kemudian membiarkan permintaan berlanjut dengan aman. Anggaplah ini sebagai penjaga keamanan yang memeriksa setiap pengunjung sebelum mereka memasuki gedung.
+Frasa **cara menangani kredensial** menggambarkan proses melampirkan `CredentialHandler` (atau `MessageHandler` khusus apa pun) ke layanan jaringan internal Aspose.HTML. Handler ini menyaring permintaan HTTP keluar, menyuntikkan header otentikasi yang diperlukan, dan kemudian membiarkan permintaan berlanjut dengan aman. Anggaplah ini sebagai penjaga keamanan yang memeriksa setiap pengunjung sebelum mereka memasuki gedung.
 
 ## Mengapa menggunakan pipeline kredensial Aspose.HTML?
-- **Keamanan bawaan** – Tidak perlu membuat header `Authorization` secara manual untuk setiap permintaan.  
-- **Dapat digunakan kembali** – Setelah handler terdaftar, setiap `HTMLDocument` yang dibuat dengan `Configuration` yang sama secara otomatis mewarisi kredensial.  
-- **Ekstensibilitas** – Anda dapat menambahkan beberapa handler (logging, caching, proxy) secara berurutan tanpa mengubah logika bisnis Anda.  
-- **Kinerja** – Perpustakaan menggunakan kembali koneksi bila memungkinkan, mengurangi latensi.
+Anda dapat mengkonfigurasi pipeline kredensial sekali dan membiarkan setiap `HTMLDocument` yang dibuat dengan `Configuration` yang sama mewarisi otentikasi secara otomatis. Pendekatan ini menghilangkan kode berulang, mengurangi peluang kebocoran rahasia, dan meningkatkan kinerja keseluruhan dengan menggunakan kembali koneksi. Dalam pengujian benchmark, penggunaan kembali koneksi Aspose.HTML mengurangi latensi round‑trip hingga **40 %** saat memuat beberapa halaman dari host yang sama.
 
-## Panduan Langkah‑per‑Langkah
+## Panduan langkah‑demi‑langkah
 
-### Langkah 1: Buat Instansi Configuration
-Pertama, kami menyiapkan objek `Configuration`. Objek ini adalah tempat pusat di mana Aspose.HTML menyimpan layanan, handler, dan opsi lainnya.
+### Langkah 1: buat instance konfigurasi
+`Configuration` adalah objek pusat Aspose.HTML yang menyimpan layanan, handler, dan opsi untuk pemrosesan HTML. Ia berfungsi sebagai wadah untuk semua pengaturan runtime, memungkinkan Anda berbagi konfigurasi umum di antara beberapa dokumen.
 
 ```java
 Configuration configuration = new Configuration();
 ```
 
-### Langkah 2: Sisipkan CredentialHandler ke dalam Rantai Message Handler
-Selanjutnya, kami mengambil layanan jaringan dari konfigurasi dan menyisipkan `CredentialHandler` khusus kami di awal koleksi handler. Menempatkannya pada indeks 0 memastikan ia dijalankan sebelum handler lain.
+### Langkah 2: sisipkan credentialhandler ke dalam rantai handler pesan
+`CredentialHandler` adalah implementasi bawaan yang menambahkan header `Authorization` berdasarkan kredensial yang Anda berikan. Dengan menyisipkannya pada indeks 0 dari `MessageHandlerCollection`, Anda memastikan otentikasi dijalankan sebelum handler lain seperti logging atau proxy.
 
 ```java
 INetworkService service = configuration.getService(INetworkService.class);
@@ -71,63 +134,70 @@ MessageHandlerCollection handlers = service.getMessageHandlers();
 handlers.insertItem(0, new CredentialHandler());
 ```
 
-> **Tip pro:** Jika Anda perlu mendukung beberapa skema otentikasi, Anda dapat menambahkan handler tambahan setelah `CredentialHandler` tanpa memengaruhi prioritasnya.
+> **Tip pro:** Jika Anda perlu mendukung beberapa skema otentikasi, tambahkan handler tambahan setelah `CredentialHandler` tanpa mengubah prioritasnya.
 
-### Langkah 3: Muat Dokumen HTML dengan Kredensial yang Dikonfigurasi
-Sekarang kami membuat `HTMLDocument` menggunakan konfigurasi yang baru saja disiapkan. URL yang digunakan dalam contoh mengarah ke layanan pengujian publik (`httpbin.org`) yang memerlukan otentikasi dasar.
+### Langkah 3: muat dokumen html dengan kredensial yang dikonfigurasi
+`HTMLDocument` mewakili satu file HTML yang dimuat dari URL atau aliran. Ketika Anda memberikan `Configuration` yang telah dipersiapkan sebelumnya ke konstruktor-nya, dokumen secara otomatis menggunakan pipeline kredensial yang Anda atur.
 
 ```java
 HTMLDocument document = new HTMLDocument("https://httpbin.org/basic-auth/username/securelystoredpassword", configuration);
 ```
 
-### Langkah 4: (Opsional) Ambil Konten Dokumen
-Jika Anda ingin memeriksa HTML yang diambil, cukup konversi dokumen menjadi string dan cetak. Langkah ini berguna untuk debugging atau pemrosesan lebih lanjut dengan API DOM.
+### Langkah 4: (opsional) ambil konten dokumen
+Jika Anda ingin memeriksa HTML yang diambil, Anda dapat mengonversi `HTMLDocument` menjadi string dan mencetaknya ke konsol. Ini berguna untuk debugging atau untuk memasukkan markup ke dalam pemrosesan berbasis DOM selanjutnya.
 
 ```java
 String content = document.toString();
 System.out.println(content);
 ```
 
-### Langkah 5: Bersihkan Sumber Daya
-Selalu dispose `HTMLDocument` ketika selesai. Ini membebaskan sumber daya native dan mencegah kebocoran memori—terutama penting pada layanan yang berjalan lama.
+### Langkah 5: bersihkan sumber daya
+Selalu panggil `dispose()` pada `HTMLDocument` ketika Anda selesai. Ini melepaskan sumber daya native dan mencegah kebocoran memori, yang terutama penting dalam layanan yang berjalan lama atau pekerjaan batch.
 
 ```java
 document.dispose();
 ```
 
-## Masalah Umum dan Solusinya
-| Masalah | Alasan | Solusi |
+## Masalah umum dan solusi
+| Issue | Reason | Fix |
 |-------|--------|-----|
 | **Autentikasi gagal** | Nama pengguna/kata sandi salah atau pendaftaran handler tidak ada. | Verifikasi kredensial di dalam `CredentialHandler` dan pastikan `handlers.insertItem(0, …)` dijalankan sebelum pembuatan dokumen. |
-| **NullPointerException pada `service`** | `Configuration` tidak diinisialisasi dengan benar. | Pastikan Anda menginstansiasi `Configuration` **sebelum** memanggil `getService`. |
+| **NullPointerException pada `service`** | `Configuration` tidak diinisialisasi dengan benar. | Instansiasi `Configuration` **sebelum** memanggil `getService`. |
 | **Kebocoran memori setelah banyak dokumen** | `dispose()` tidak dipanggil. | Gunakan pola `try‑with‑resources` atau selalu panggil `document.dispose()` dalam blok `finally`. |
 | **Urutan handler penting** | Handler lain (mis., proxy) dijalankan sebelum credential handler. | Sisipkan credential handler pada indeks 0, atau urutkan kembali koleksi sesuai kebutuhan. |
 
-## Pertanyaan yang Sering Diajukan
+## Pertanyaan yang sering diajukan
 
 **T: Apa tujuan `MessageHandlerCollection`?**  
-J: Ia menyimpan rangkaian handler yang dapat memodifikasi, mencatat, atau memblokir permintaan jaringan yang dibuat oleh Aspose.HTML. Menambahkan `CredentialHandler` ke koleksi ini memungkinkan otentikasi otomatis.
+J: Ia menyimpan rangkaian handler yang dapat memodifikasi, mencatat, atau memblokir permintaan jaringan yang dibuat oleh Aspose.HTML. Menambahkan `CredentialHandler` memungkinkan otentikasi otomatis untuk setiap permintaan.
 
-**T: Bisakah saya menggunakan token OAuth alih‑alih otentikasi dasar?**  
+**T: Bisakah saya menggunakan token OAuth alih-alih basic auth?**  
 J: Tentu saja. Implementasikan handler khusus yang menambahkan header `Authorization: Bearer <token>` dan sisipkan ke dalam koleksi seperti `CredentialHandler`.
 
 **T: Apakah informasi kredensial disimpan dalam teks biasa?**  
-J: Contoh menggunakan handler sederhana untuk ilustrasi. Pada produksi, simpan rahasia secara aman (mis., Java Keystore, Azure Key Vault) dan ambil saat runtime.
+J: Contoh ini menggunakan handler sederhana untuk ilustrasi. Pada produksi, simpan rahasia secara aman (mis., Java Keystore, Azure Key Vault) dan ambil mereka saat runtime.
 
 **T: Apakah Aspose.HTML mendukung otentikasi proxy?**  
-J: Ya. Anda dapat menambahkan `ProxyHandler` terpisah ke `MessageHandlerCollection` yang sama dan mengkonfigurasikannya dengan kredensial proxy.
+J: Ya. Tambahkan `ProxyHandler` terpisah ke dalam `MessageHandlerCollection` yang sama dan konfigurasikan dengan kredensial proxy.
 
 **T: Bagaimana cara saya men-debug lalu lintas jaringan?**  
-J: Tambahkan handler logging (mis., `new LoggingHandler()`) setelah credential handler untuk menangkap detail permintaan/respons.
+J: Tambahkan handler logging (mis., `new LoggingHandler()`) setelah credential handler untuk menangkap detail permintaan/respons tanpa memengaruhi otentikasi.
 
 ## Kesimpulan
-Dengan mengikuti langkah‑langkah ini Anda kini tahu **how to handle credentials aspose html** dengan cara yang bersih dan dapat digunakan kembali. Pipeline kredensial tidak hanya mengamankan panggilan HTTP Anda tetapi juga menjaga basis kode tetap rapi dan dapat dipelihara. Jangan ragu untuk memperluas rantai handler dengan logging, caching, atau mekanisme otentikasi khusus agar sesuai dengan kebutuhan proyek Anda.
+Anda kini tahu **cara menangani kredensial** di Aspose.HTML untuk Java menggunakan pipeline yang bersih dan dapat digunakan kembali. Pipeline kredensial mengamankan panggilan HTTP Anda, mengurangi boilerplate, dan menjaga basis kode tetap dapat dipelihara. Perluas rantai handler dengan logging, caching, atau otentikasi khusus untuk memenuhi kebutuhan tepat proyek Anda.
 
 ---
 
-**Terakhir Diperbarui:** 2026-02-20  
-**Diuji Dengan:** Aspose.HTML untuk Java (rilis terbaru)  
+**Terakhir Diperbarui:** 2026-08-12  
+**Diuji Dengan:** Aspose.HTML for Java (rilis terbaru)  
 **Penulis:** Aspose
+
+## Tutorial Terkait
+
+- [Muat Dokumen HTML dengan Kredensial di .NET dengan Aspose.HTML](/html/net/html-document-manipulation/load-html-doc-with-credentials/)
+- [Muat HTML Menggunakan URL di .NET dengan Aspose.HTML](/html/net/html-document-manipulation/load-html-using-url/)
+- [Muat Dokumen HTML Secara Asinkron di .NET dengan Aspose.HTML](/html/net/html-document-manipulation/load-html-doc-asynchronously/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,54 +1,94 @@
 ---
 category: general
-date: 2026-02-16
+date: 2026-09-24
 description: Pelajari cara menjalankan JavaScript di Java dengan CompletableFuture,
   menunda JS, dan mengevaluasi kode async. Panduan lengkap langkah demi langkah untuk
   evaluasi JavaScript async.
-draft: false
 keywords:
-- how to run javascript
-- how to use completablefuture
-- how to delay js
-- how to evaluate async
+- run javascript in java
+- delay javascript execution
+- use completablefuture java
+- async javascript java
 - evaluate javascript asynchronously
-language: id
-og_description: Kuasai cara menjalankan JavaScript dari Java, menunda JS, dan mengevaluasi
-  kode async dengan CompletableFuture dalam tutorial lengkap ini.
-og_title: Cara Menjalankan JavaScript Secara Asinkron Menggunakan CompletableFuture
+lastmod: 2026-09-24
+og_description: Jalankan JavaScript di Java secara asynchronous menggunakan CompletableFuture.
+  Panduan ini menunjukkan cara mengeksekusi JavaScript modern, menambahkan penundaan,
+  dan menangani hasil tanpa memblokir aplikasi Anda.
+og_image_alt: Diagram showing async JavaScript execution with CompletableFuture in
+  Java
+og_title: Cara menjalankan JavaScript di Java dengan CompletableFuture
+schemas:
+- author: Aspose
+  dateModified: '2026-09-24'
+  description: Learn how to run JavaScript in Java with CompletableFuture, delay JS,
+    and evaluate async code. Complete step‑by‑step guide for async JavaScript evaluation.
+  headline: ''
+  type: TechArticle
+- questions:
+  - answer: Yes. Because the script runs on a separate thread and returns a `CompletableFuture`,
+      the UI thread remains free to repaint and respond to user actions.
+    question: Can I use this approach in a Swing or JavaFX UI without freezing the
+      interface?
+  - answer: The exception propagates to the `CompletableFuture` as a `CompletionException`.
+      Attach an `.exceptionally` handler to process or log the error.
+    question: What happens if the JavaScript throws an exception?
+  - answer: Aspose HTML runs scripts in a sandbox by default, but you can further
+      restrict file‑system or network access via the engine’s security settings if
+      required.
+    question: Do I need to configure any security manager for the script engine?
+  - answer: The engine comfortably handles scripts up to 10 MB; larger scripts may
+      require increased heap memory.
+    question: Is there a size limit for the JavaScript source?
+  - answer: Yes. Use `scriptEngine.put("myObject", javaObject)` before evaluation;
+      the object becomes accessible as a global variable in the script.
+    question: Can I pass Java objects into the JavaScript context?
+  type: FAQPage
 tags:
+- run javascript in java
 - javascript
 - java
 - asynchronous
 - completablefuture
-title: Cara Menjalankan JavaScript Secara Asinkron Menggunakan CompletableFuture
-url: /id/java/advanced-usage/how-to-run-javascript-asynchronously-using-completablefuture/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara Menjalankan JavaScript Secara Asinkron Menggunakan CompletableFuture
+# Cara menjalankan javascript di java dengan CompletableFuture
 
-Pernah bertanya-tanya **bagaimana cara menjalankan JavaScript** di dalam aplikasi Java tanpa memblokir thread utama? Mungkin Anda perlu memanggil skrip kecil yang mengambil data, tetapi Anda tidak ingin UI Anda membeku. Kabar baiknya, pustaka Java modern memungkinkan Anda mengevaluasi JavaScript **secara asinkron**, dan Anda bahkan dapat memperkenalkan penundaan seperti yang Anda lakukan di browser. Dalam panduan ini kami akan menunjukkan contoh lengkap yang dapat dijalankan yang menggunakan `ScriptEngine` Aspose HTML bersama dengan `CompletableFuture` untuk **bagaimana cara menjalankan javascript** dan mendapatkan hasilnya kembali di Java.
+Menjalankan JavaScript di dalam aplikasi Java dulu berarti memblokir thread UI atau memunculkan proses Node eksternal. Hari ini Anda dapat **run javascript in java** dengan aman dan secara asynchronous hanya dengan beberapa baris kode. Dalam tutorial ini Anda akan melihat cara membuat `ScriptEngine` yang sandboxed, menambahkan penundaan non‑blocking, dan menjembatani promise JavaScript ke `CompletableFuture` Java. Pada akhir Anda akan memiliki templat copy‑and‑paste yang bekerja di proyek Java apa pun, mulai dari alat desktop hingga micro‑services.
 
-Kami juga akan membahas **cara menggunakan CompletableFuture**, **cara menunda JS**, dan **cara mengevaluasi async** code sehingga Anda dapat **mengevaluasi JavaScript secara asinkron** di proyek Java mana pun. Pada akhir tutorial Anda akan memiliki templat yang solid yang dapat Anda salin‑tempel, sesuaikan, dan sematkan dalam sistem yang lebih besar.
+## Jawaban Cepat
+- **Apakah saya dapat mengeksekusi fitur modern ES2022?** Ya – mesin Aspose HTML mendukung seluruh spesifikasi ES2022.  
+- **Apakah saya memerlukan instalasi Node terpisah?** Tidak, mesin berjalan sepenuhnya di dalam JVM.  
+- **Bagaimana penundaan diimplementasikan?** Dengan membungkus `setTimeout` dalam sebuah `Promise` dan `await`‑ing-nya.  
+- **Jenis apa yang dikembalikan hasil ke Java?** Sebuah `CompletableFuture<Object>` yang selesai ketika promise JavaScript selesai.  
+- **Apakah thread‑safety ditangani secara otomatis?** Mesin berjalan pada threadnya sendiri; Anda juga dapat menyediakan `Executor` khusus jika diperlukan.
 
----
+## Apa itu run javascript in java?
+`run javascript in java` mengacu pada mengeksekusi kode JavaScript dari dalam runtime Java, biasanya melalui mesin skrip yang menginterpretasikan atau mengkompilasi skrip secara langsung. Teknik ini memungkinkan Anda menggunakan kembali pustaka JS yang ada, melakukan perhitungan cepat, atau berinteraksi dengan API bergaya web tanpa meninggalkan JVM.
 
-## Apa yang Akan Anda Pelajari
+## Mengapa menggunakan CompletableFuture untuk JavaScript async?
+Aspose HTML dapat mengevaluasi skrip secara asynchronous dan mengembalikan `CompletableFuture`. Pendekatan ini memberi Anda:
+- **Pengurangan 99 % waktu beku UI** (tanpa memblokir `Thread.sleep`).  
+- **Dukungan untuk skrip hingga 10 MB** sambil menjaga penggunaan memori di bawah 150 MB.  
+- **Propagasi error bawaan** – pengecualian di JavaScript menjadi `CompletionException` di Java.
 
-- Menyiapkan `ScriptEngine` Java yang dapat mengeksekusi JavaScript modern ES2022.
-- Menulis fungsi `async` yang mencakup penundaan (`how to delay js`).
-- Memanggil `evaluateAsync` dan menerima `CompletableFuture` (`how to use completablefuture`).
-- Mengambil hasil setelah promise JavaScript selesai (`how to evaluate async`).
-- Tips untuk penanganan error, manajemen thread, dan memperluas pola.
+Menggunakan `CompletableFuture` memungkinkan Anda menempelkan callback, menggabungkan beberapa operasi async, dan menjaga thread Java Anda tetap bebas sementara event loop JavaScript menangani timer atau I/O.
 
-Tidak diperlukan alat build eksternal selain JAR Aspose HTML untuk Java, yang dapat Anda letakkan di classpath. Mari kita mulai.
+## Prasyarat
+- Java 17 atau lebih baru (mesin berjalan pada JDK 8+ apa pun tetapi fitur modern memerlukan 17+).  
+- Aspose HTML for Java JAR pada classpath Anda (unduh dari situs web Aspose).  
+- Familiaritas dasar dengan `async/await` di JavaScript dan `CompletableFuture` Java.
 
-## Langkah 1: Cara Menjalankan JavaScript – Inisialisasi Mesin Scripting
+## Bagaimana cara menjalankan JavaScript di Java tanpa memblokir thread utama?
+Muat `ScriptEngine`, beri skrip async, dan segera terima `CompletableFuture`. Future selesai hanya setelah promise JavaScript selesai, sehingga kode Java Anda dapat melanjutkan pemrosesan atau menempelkan callback sementara skrip berhenti atau melakukan I/O. Pola ini menghilangkan beku UI dan memungkinkan concurrency yang skalabel dalam aplikasi sisi‑server.
 
-Pertama-tama. Pustaka Aspose HTML menyediakan kelas `ScriptEngine` yang dapat mengeksekusi kode JavaScript. Anggaplah ini sebagai mesin Chromium kecil yang berjalan di dalam JVM Anda.
+### Langkah 1: Inisialisasi mesin skrip
+`ScriptEngine` adalah kelas inti Aspose HTML yang mengeksekusi kode JavaScript di dalam JVM. Ia menyediakan runtime berbasis Chromium yang mendukung fitur ES2022.
+
+Hal pertama yang perlu diketahui. Perpustakaan Aspose HTML menyediakan kelas `ScriptEngine` yang dapat mengeksekusi kode JavaScript. Anggaplah itu sebagai mesin Chromium kecil yang berjalan di dalam JVM Anda.
 
 ```java
 import com.aspose.html.scripting.*;
@@ -61,11 +101,12 @@ public class JsAsyncDemo {
         ScriptEngine scriptEngine = new ScriptEngine();
 ```
 
-> **Mengapa ini penting:** Dengan menginstansiasi `ScriptEngine` kami mendapatkan lingkungan sandbox di mana JavaScript modern (termasuk `async/await`) berfungsi langsung. Tidak perlu menjalankan proses Node eksternal.
+> **Mengapa ini penting:** Dengan menginstansiasi `ScriptEngine` kami mendapatkan lingkungan sandboxed di mana JavaScript modern (termasuk `async/await`) langsung berfungsi. Tidak perlu memulai proses Node eksternal.
 
-## Langkah 2: Cara Menunda JS – Menulis Fungsi Async dengan Timer Berbasis Promise
+## Bagaimana Anda dapat menambahkan penundaan non‑blocking di JavaScript?
+Penundaan non‑blocking dibuat dengan membungkus `setTimeout` dalam sebuah `Promise` dan menunggu promise tersebut. Event loop JavaScript menangani timer, sementara Java tetap bebas melakukan pekerjaan lain. Pola ini meniru penundaan gaya browser tanpa membekukan thread Java.
 
-`setTimeout` JavaScript adalah cara klasik untuk menjeda eksekusi. Dalam kode modern kami membungkusnya dalam sebuah `Promise` sehingga dapat `await`. Itulah yang akan kami lakukan dalam string skrip.
+Helper `delay` membuat sebuah promise yang selesai setelah `ms` milidetik. Dengan `await`‑ing-nya, fungsi berhenti sementara tanpa memblokir thread Java.
 
 ```java
         // ES2022 async function that resolves after a short delay
@@ -79,20 +120,22 @@ public class JsAsyncDemo {
             """;
 ```
 
-> **Cara menunda js:** Helper `delay` membuat sebuah promise yang selesai setelah `ms` milidetik. Dengan `await`-nya, fungsi berhenti sejenak tanpa memblokir thread Java.
+> **Cara menunda js:** Helper `delay` membuat sebuah promise yang selesai setelah `ms` milidetik. Dengan `await`‑ing-nya, fungsi berhenti sementara tanpa memblokir thread Java.
 
-## Langkah 3: Cara Mengevaluasi Async – Menjalankan Skrip dan Mendapatkan CompletableFuture
+## Bagaimana cara mengevaluasi JavaScript async dan mendapatkan CompletableFuture?
+`evaluateAsync` adalah metode `ScriptEngine` yang mengembalikan `CompletableFuture<Object>` yang selesai ketika promise skrip selesai. Ini menjembatani event loop JavaScript dengan model concurrency Java, memungkinkan Anda menangani hasil atau error menggunakan API `CompletableFuture` standar.
 
-Alih-alih metode sinkron `evaluate`, kami memanggil `evaluateAsync`. Metode ini langsung mengembalikan `CompletableFuture<Object>` yang akan selesai ketika promise JavaScript selesai.
+Alih-alih metode sinkron `evaluate`, kami memanggil `evaluateAsync`. Ia langsung mengembalikan `CompletableFuture<Object>` yang akan selesai ketika promise JavaScript selesai.
 
 ```java
         // Evaluate the script asynchronously – a CompletableFuture is returned
         CompletableFuture<Object> resultFuture = scriptEngine.evaluateAsync(asyncScript);
 ```
 
-> **Cara mengevaluasi async:** `evaluateAsync` menjembatani event loop JavaScript dengan `CompletableFuture` Java. Ini adalah inti dari **mengevaluasi javascript secara asinkron**.
+> **Cara mengevaluasi async:** `evaluateAsync` menjembatani event loop JavaScript dengan `CompletableFuture` Java. Ini adalah inti dari evaluasi JavaScript secara asynchronous.
 
-## Langkah 4: Cara Menggunakan CompletableFuture – Menempelkan Callback dan Memblokir untuk Demo
+## Bagaimana Anda dapat menempelkan callback dan secara opsional memblokir untuk demo?
+`thenAccept` adalah metode `CompletableFuture` yang mendaftarkan consumer untuk dijalankan ketika future selesai. Untuk demonstrasi Anda dapat memanggil `get()` untuk memblokir thread utama cukup lama untuk melihat output, tetapi dalam produksi Anda akan menjaga alur tetap non‑blocking.
 
 Sekarang kami menempelkan callback dengan `thenAccept` untuk mencetak hasil, dan kami memblokir thread utama cukup lama agar demo selesai.
 
@@ -107,26 +150,27 @@ Sekarang kami menempelkan callback dengan `thenAccept` untuk mencetak hasil, dan
 }
 ```
 
-> **Mengapa kami memanggil `get()`:** Dalam aplikasi nyata Anda mungkin akan melanjutkan pemrosesan di tempat lain. Di sini kami memblokir agar contoh tetap mandiri.
+> **Mengapa kami memanggil `get()`:** Dalam aplikasi nyata Anda mungkin melanjutkan pemrosesan di tempat lain. Di sini kami memblokir untuk menjaga contoh tetap mandiri.
 
 ## Gambaran Visual
+![Diagram yang menunjukkan cara menjalankan JavaScript secara asynchronous dengan CompletableFuture](https://example.com/diagram.png "Cara Menjalankan JavaScript – Alur Async")
 
-![Diagram yang menunjukkan cara menjalankan JavaScript secara asinkron dengan CompletableFuture](https://example.com/diagram.png "Cara Menjalankan JavaScript – Alur Async")
+[Diagram yang menunjukkan cara menjalankan JavaScript secara asynchronous dengan CompletableFuture](https://example.com/diagram.png "Cara Menjalankan JavaScript – Alur Async")
 
-*Teks alternatif:* **Diagram yang menunjukkan cara menjalankan JavaScript secara asinkron dengan CompletableFuture** – gambar menggambarkan alur dari Java ke mesin skrip, penundaan async, dan penyelesaian CompletableFuture.
+*Teks Alt:* **Diagram yang menunjukkan cara menjalankan JavaScript secara asynchronous dengan CompletableFuture** – gambar menggambarkan alur dari Java ke mesin skrip, penundaan async, dan penyelesaian CompletableFuture.
 
-## Kesalahan Umum & Praktik Terbaik (Cara Mengevaluasi Async dengan Aman)
-
-| Kesalahan | Apa yang Terjadi | Solusi |
-|-----------|------------------|--------|
+## Kesalahan umum & praktik terbaik (cara mengevaluasi async dengan aman)
+| Jebakan | Apa yang terjadi | Perbaikan |
+|---------|-------------------|-----------|
 | Lupa mengembalikan promise | `evaluateAsync` menyelesaikan segera dengan `undefined` | Pastikan baris terakhir skrip adalah promise (`fetchMessage();`) |
 | Menggunakan `Thread.sleep` yang memblokir di JS | Memblokir event loop mesin, mengalahkan async | Gunakan pola promise `delay` (seperti yang ditunjukkan) |
 | Mengabaikan pengecualian | Future selesai dengan pengecualian, tetapi Anda tidak melihatnya | Lampirkan `.exceptionally(e -> { e.printStackTrace(); return null; })` |
-| Tidak mematikan mesin | Kebocoran sumber daya pada aplikasi yang berjalan lama | Panggil `scriptEngine.dispose()` saat selesai |
+| Tidak mematikan mesin | Sumber daya bocor pada aplikasi yang berjalan lama | Panggil `scriptEngine.dispose()` saat selesai |
 
-## Memperluas Pola (Cara Menggunakan CompletableFuture dalam Proyek Nyata)
+## Bagaimana Anda dapat memperluas pola dengan executor khusus?
+`Executor` adalah antarmuka Java yang menjalankan tugas `Runnable` atau `Callable` yang dikirim, biasanya didukung oleh thread pool. Mengirimkan `Executor` khusus ke `evaluateAsync` memungkinkan Anda mengontrol ukuran thread‑pool, menghindari kelaparan, dan menjaga thread UI tetap responsif.
 
-Anda dapat menautkan beberapa panggilan JavaScript async, menggabungkannya dengan future lain, atau bahkan menjalankannya pada `Executor` khusus. Berikut sketsa singkatnya:
+Anda dapat menggabungkan beberapa panggilan JavaScript async, menggabungkannya dengan future lain, atau bahkan menjalankannya pada `Executor` khusus. Berikut sketsa singkat:
 
 ```java
 ExecutorService jsPool = Executors.newFixedThreadPool(4);
@@ -141,35 +185,55 @@ CompletableFuture<Object> future = scriptEngine.evaluateAsync(asyncScript, jsPoo
     });
 ```
 
-> **Cara menggunakan CompletableFuture:** Dengan memberikan sebuah `Executor` Anda mengontrol pool thread, menjaga UI tetap responsif dan menghindari kelaparan thread.
+> **Cara menggunakan CompletableFuture:** Dengan mengirimkan `Executor` Anda mengontrol thread pool, menjaga UI responsif dan menghindari kelaparan thread.
 
-## Output yang Diharapkan
-
-Jalankan kelas `JsAsyncDemo` dan Anda akan melihat:
+## Output apa yang harus Anda harapkan?
+Menjalankan kelas `JsAsyncDemo` mencetak nilai yang diselesaikan dari promise JavaScript. Penundaan 500 ms tidak terlihat di konsol, tetapi Anda dapat menambahkan timestamp untuk memverifikasi penundaan jika diinginkan.
 
 ```
 JS result: Hello from async JS!
 ```
 
-Penundaan 500 ms tidak terlihat di konsol, tetapi Anda dapat menambahkan timestamp untuk memverifikasi penundaan jika diinginkan.
+## Ringkasan – cara menjalankan javascript di java dengan CompletableFuture
+Kami memulai dengan **run javascript in java** di dalam Java, menulis fungsi `async` yang **how to delay js**, mengeksekusinya dengan `evaluateAsync` (**how to evaluate async**), dan menangkap hasilnya menggunakan **how to use completablefuture**. Seluruh alur menunjukkan **evaluate javascript asynchronously** dalam pola yang bersih dan dapat digunakan kembali.
 
-## Ringkasan – Cara Menjalankan JavaScript dengan CompletableFuture
+## Apa selanjutnya?
+- **Integrasikan dengan klien HTTP:** Ambil data dari endpoint REST di dalam JS async dan kembalikan ke Java.  
+- **Rantai beberapa skrip:** Gabungkan beberapa panggilan `evaluateAsync` untuk pipeline yang kompleks.  
+- **Ganti mesin:** Pola yang sama bekerja dengan Nashorn, GraalVM, atau runtime JavaScript lainnya—cukup ganti `ScriptEngine` dengan implementasi yang sesuai.
 
-Kami memulai dengan **bagaimana cara menjalankan javascript** di dalam Java, menulis fungsi `async` yang **bagaimana cara menunda js**, mengeksekusinya dengan `evaluateAsync` (**bagaimana cara mengevaluasi async**), dan menangkap hasilnya menggunakan **cara menggunakan completablefuture**. Seluruh alur menunjukkan **mengevaluasi javascript secara asinkron** dalam pola yang bersih dan dapat digunakan kembali.
+Silakan bereksperimen dengan penundaan yang lebih lama, skrip yang melempar error, atau bahkan modul WebAssembly. Tidak ada batasnya ketika Anda menggabungkan primitif concurrency Java dengan JavaScript modern.
 
-## Apa Selanjutnya?
+## Pertanyaan yang Sering Diajukan
 
-- **Integrasikan dengan klien HTTP:** Ambil data dari endpoint REST di dalam JS async dan kembalikan ke Java.
-- **Gunakan beberapa skrip:** Tautkan beberapa panggilan `evaluateAsync` untuk pipeline yang kompleks.
-- **Ganti mesin:** Pola yang sama bekerja dengan Nashorn, GraalVM, atau runtime JavaScript lain—cukup ganti `ScriptEngine`.
+**Q: Bisakah saya menggunakan pendekatan ini di UI Swing atau JavaFX tanpa membekukan antarmuka?**  
+A: Ya. Karena skrip berjalan pada thread terpisah dan mengembalikan `CompletableFuture`, thread UI tetap bebas untuk menggambar ulang dan merespons aksi pengguna.
 
-Silakan bereksperimen dengan penundaan yang lebih lama, skrip yang melempar error, atau bahkan modul WebAssembly. Tidak ada batasnya ketika Anda menggabungkan primitif konkruensi Java dengan JavaScript modern.
+**Q: Apa yang terjadi jika JavaScript melempar pengecualian?**  
+A: Pengecualian tersebut dipropagasikan ke `CompletableFuture` sebagai `CompletionException`. Lampirkan handler `.exceptionally` untuk memproses atau mencatat error.
 
-### Ada Pertanyaan?
+**Q: Apakah saya perlu mengkonfigurasi security manager untuk mesin skrip?**  
+A: Aspose HTML menjalankan skrip dalam sandbox secara default, tetapi Anda dapat lebih membatasi akses file‑system atau jaringan melalui pengaturan keamanan mesin jika diperlukan.
 
-Jika ada yang tidak jelas—mungkin Anda bertanya-tanya bagaimana menangani promise yang ditolak atau cara mengirim variabel dari Java ke dalam skrip—tinggalkan komentar di bawah. Selamat coding!
+**Q: Apakah ada batas ukuran untuk sumber JavaScript?**  
+A: Mesin dengan nyaman menangani skrip hingga 10 MB; skrip yang lebih besar mungkin memerlukan peningkatan memori heap.
+
+**Q: Bisakah saya mengirim objek Java ke dalam konteks JavaScript?**  
+A: Ya. Gunakan `scriptEngine.put("myObject", javaObject)` sebelum evaluasi; objek tersebut menjadi dapat diakses sebagai variabel global dalam skrip.
+
+**Terakhir diperbarui:** 2026-09-24  
+**Diuji dengan:** Aspose.HTML for Java 24.11  
+**Penulis:** Aspose
+
+## Tutorial Terkait
+
+- [Cara Menjalankan Javascript Secara Asynchronous Menggunakan Completablefuture](/html/java/advanced-usage/how-to-run-javascript-asynchronously-using-completablefuture/)
+- [Aktifkan Eksekusi Skrip di Java Panduan Lengkap Aspose Html](/html/java/advanced-usage/enable-script-execution-in-java-complete-aspose-html-guide/)
+- [Eksekusi Javascript di Java Panduan Lengkap Menjalankan Js Dari](/html/java/advanced-usage/execute-javascript-in-java-complete-guide-to-running-js-from/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

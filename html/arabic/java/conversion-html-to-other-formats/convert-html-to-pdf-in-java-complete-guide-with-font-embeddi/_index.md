@@ -22,7 +22,7 @@ title: تحويل HTML إلى PDF في Java – دليل كامل مع تضمي�
 url: /ar/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-complete-guide-with-font-embeddi/
 ---
 
-answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

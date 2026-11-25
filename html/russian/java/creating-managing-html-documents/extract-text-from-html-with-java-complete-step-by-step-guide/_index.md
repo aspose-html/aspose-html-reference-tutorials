@@ -22,11 +22,8 @@ title: Извлечение текста из HTML с помощью Java – �
 url: /ru/java/creating-managing-html-documents/extract-text-from-html-with-java-complete-step-by-step-guide/
 ---
 
-Check for any markdown links: none.
 
-Check for any images: there is placeholder "*Image placeholder – imagine a screenshot of the console output*". That's not an image markdown. So fine.
 
-Now produce final output with all translations and unchanged placeholders.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

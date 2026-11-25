@@ -24,13 +24,9 @@ title: Come utilizzare Sandbox per HTML‑to‑PDF Java – Guida passo passo
 url: /it/java/advanced-usage/how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/
 ---
 
-text; we can translate: "diagramma di come utilizzare sandbox". But keep file name unchanged. So alt and title translate.
 
-Also translate "The diagram shows the flow: HTML → Sandbox (size, JS off, UA set) → PDF." to Italian.
 
-Proceed.
 
-Now produce final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
