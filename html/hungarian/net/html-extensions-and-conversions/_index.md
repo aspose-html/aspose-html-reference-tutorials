@@ -239,6 +239,8 @@ Mentse a HTML-t közvetlenül memóriában ZIP-archívumba az Aspose.HTML for .N
 Ismerje meg, hogyan menthet HTML-fájlt ZIP-archívumba C#-ban az Aspose.HTML for .NET segítségével.
 ### [HTML mentése ZIP-be Aspose.HTML segítségével C#-ban](./how-to-save-html-as-zip-with-aspose-html-in-c/)
 
+### [HTML mentése ZIP-be C#‑ban az Aspose.HTML használatával](./how-to-save-html-as-zip-in-c-using-aspose-html/)
+
 ## Következtetés
 
 Összefoglalva, a HTML-kiterjesztések és -konverziók a modern webfejlesztés elengedhetetlen elemei. Az Aspose.HTML for .NET leegyszerűsíti a folyamatot, és minden szinten elérhetővé teszi a fejlesztők számára. Ha követi oktatóanyagainkat, jó úton halad afelé, hogy széles készségekkel rendelkező, gyakorlott webfejlesztővé váljon.

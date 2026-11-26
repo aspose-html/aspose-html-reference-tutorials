@@ -242,6 +242,8 @@ url: /ar/net/html-extensions-and-conversions/
 تعلم خطوة بخطوة كيفية حفظ مستند HTML كحزمة ZIP باستخدام مكتبة Aspose.HTML في C#.
 ### [كيفية تحويل HTML إلى بايتات في C# باستخدام Aspose.HTML](./how-to-convert-html-to-bytes-in-c-using-aspose-html/)
 تعلم كيفية تحويل مستند HTML إلى مصفوفة بايتات في C# باستخدام مكتبة Aspose.HTML.
+### [كيفية حفظ HTML كملف ZIP في C# باستخدام Aspose.HTML](./how-to-save-html-as-zip-in-c-using-aspose-html/)
+تعلم كيفية حفظ ملفات HTML كملفات ZIP باستخدام C# ومكتبة Aspose.HTML.
 
 ## خاتمة
 

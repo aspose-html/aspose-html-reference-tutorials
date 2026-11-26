@@ -48,7 +48,6 @@ HTML को PDF में बदलते समय PDF पेज आकार �
 
 ### [URL से PDF बनाएं – पूर्ण C# गाइड](./create-pdf-from-url-complete-c-guide/)
 C# में URL से PDF बनाने की पूरी प्रक्रिया सीखें, चरण-दर-स्टेप मार्गदर्शिका।
-
 ### [HTML को PDF ट्यूटोरियल – C# में HTML को PDF में बदलें](./html-to-pdf-tutorial-convert-html-to-pdf-in-c/)
 C# में Aspose.HTML का उपयोग करके HTML को PDF में बदलने के चरण‑दर‑चरण मार्गदर्शन।
 
@@ -95,6 +94,7 @@ Aspose.HTML के साथ HTML को PDF में बदलने की �
 .NET के लिए Aspose.HTML का उपयोग करके C# में HTML से PDF बनाने की विस्तृत चरण‑दर‑स्टेप गाइड। कोड उदाहरण और अनुकूलन विकल्प।
 
 ### [Aspose.HTML के साथ HTML से PDF बनाएं – चरण‑दर‑चरण गाइड](./create-pdf-from-html-with-aspose-html-step-by-step-guide/)
+### [Aspose.HTML के साथ HTML से PDF बनाएं – चरण‑दर‑चरण गाइड](./create-html-from-html-with-aspose-html-step-by-step-guide/)
 C# में Aspose.HTML का उपयोग करके HTML को PDF में बदलने की विस्तृत चरण‑दर‑चरण मार्गदर्शिका।
 ### [C# में Aspose.HTML का उपयोग करके HTML को PDF में कैसे बदलें](./how-to-convert-html-to-pdf-in-c-using-aspose-html/)
 .NET के लिए Aspose.HTML के साथ C# में HTML को PDF में बदलने की पूरी प्रक्रिया सीखें।
@@ -138,6 +138,8 @@ C# में HTML स्ट्रिंग को PDF में बदलने 
 
 ### [Aspose.HTML के साथ .NET में HTML को DOC और DOCX में बदलें](./convert-html-to-doc-docx/)
 ### [Aspose.HTML के साथ .NET में HTML को GIF में बदलें](./convert-html-to-gif/)
+.NET के लिए Aspose.HTML की शक्ति का पता लगाएं: HTML को GIF में बदलने के लिए चरण‑दर‑चरण मार्गदर्शन। पूर्वापेक्षाएँ, कोड उदाहरण, FAQ, और बहुत कुछ! Aspose.HTML के साथ अपने HTML हेरफेर को अनुकूलित करें।
+
 ### [Aspose.HTML के साथ .NET में HTML को JPEG में बदलें](./convert-html-to-jpeg/)
 .NET के लिए Aspose.HTML के साथ .NET में HTML को JPEG में बदलने का तरीका जानें। .NET के लिए Aspose.HTML की शक्ति का उपयोग करने के लिए चरण‑दर‑स्टेप मार्गदर्शिका। अपने वेब डेवलपमेंट कार्यों को आसानी से अनुकूलित करें।
 
@@ -360,6 +362,8 @@ C# में Aspose.HTML का उपयोग करके HTML को बा�
 Aspose.HTML का उपयोग करके C# में HTML को ZIP फ़ाइल के रूप में सहेजने के चरण‑दर‑चरण मार्गदर्शन।
 ### [C# में Aspose.HTML के साथ HTML को ZIP के रूप में सहेजें](./how-to-save-html-as-zip-with-aspose-html-in-c/)
 C# में Aspose.HTML का उपयोग करके HTML को ZIP फ़ाइल में सहेजने की पूरी प्रक्रिया सीखें।
+### [C# में Aspose.HTML का उपयोग करके HTML को ZIP के रूप में सहेजें](./how-to-save-html-as-zip-in-c-using-aspose-html/)
+Aspose.HTML का उपयोग करके C# में HTML को ZIP फ़ाइल में सहेजने की पूरी प्रक्रिया सीखें।
 
 ## निष्कर्ष
 

@@ -298,6 +298,9 @@ url: /el/net/html-extensions-and-conversions/
 ### [Μετατροπή HTML σε PDF με το Aspose.HTML – Πλήρης Οδηγός Βήμα‑Βήμα](./convert-html-to-pdf-with-aspose-html-full-step-by-step-guide/)
 Μετατρέψτε γρήγορα HTML σε PDF χρησιμοποιώντας το Aspose.HTML. Μάθετε πώς να αποθηκεύετε HTML ως PDF, να ενεργοποιείτε την υπο-πίξελ εξομάλυνση και να δημιουργείτε PDF με γραμματοσειρές σε C#.
 
+### [Πώς να αποθηκεύσετε HTML ως ZIP σε C# χρησιμοποιώντας Aspose.HTML](./how-to-save-html-as-zip-in-c-using-aspose-html/)
+Μάθετε πώς να αποθηκεύσετε αρχεία HTML σε αρχείο ZIP με C# και Aspose.HTML, βήμα‑βήμα οδηγός.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -143,6 +143,8 @@ Lär dig hur du sparar HTML som ZIP med Aspose.HTML i en komplett C#‑guide med
 Lär dig skapa ett HTML-dokument med stiliserad text och konvertera det till PDF med Aspose.HTML för .NET i en komplett steg-för-steg-guide.
 ### [Skapa HTML-dokument C# – Steg‑för‑steg‑guide](./create-html-document-c-step-by-step-guide/)
 Lär dig skapa ett HTML‑dokument med C# i en detaljerad steg‑för‑steg‑guide med Aspose.HTML för .NET.
+### [Hur man sparar HTML som ZIP i C# med Aspose.HTML](./how-to-save-html-as-zip-in-c-using-aspose-html/)
+Lär dig hur du sparar HTML som ZIP-arkiv i C# med Aspose.HTML i en tydlig steg‑för‑steg‑guide.
 ### [Skapa PDF från HTML – C# steg‑för‑steg‑guide](./create-pdf-from-html-c-step-by-step-guide/)
 Skapa PDF från HTML med C# och Aspose.HTML för .NET. Följ vår steg‑för‑steg‑guide för enkel PDF‑generering.
 ### [Skapa PDF från HTML med Aspose.HTML – Steg‑för‑steg‑guide](./create-pdf-from-html-with-aspose-html-step-by-step-guide/)
@@ -187,7 +189,6 @@ Konvertera HTML till ZIP i C# med Aspose.HTML för .NET. En steg-för-steg-guide
 ### [Spara HTML till ZIP i C# – Komplett guide](./save-html-to-zip-in-c-complete-guide/)
 Lär dig hur du sparar HTML-filer i ett ZIP‑arkiv med en komplett C#‑guide och steg‑för‑steg‑instruktioner.
 ### [En fil HTML – Spara en webbsida som en enda HTML-fil i C#](./single-file-html-save-a-web-page-as-one-html-file-in-c/)
-Lär dig hur du sparar en hel webbsida som en enda HTML-fil med C# och Aspose.HTML för .NET i en steg‑för‑steg‑guide.
 ### [Konvertera HTML till PDF i C# – Fullständig Aspose‑guide](./convert-html-to-pdf-in-c-full-aspose-guide/)
 En komplett steg‑för‑steg‑guide för att konvertera HTML till PDF i C# med Aspose.HTML.
 ### [Aspose HTML-sparalternativ: Spara HTML till ström i C#](./aspose-html-save-options-save-html-to-stream-in-c/)

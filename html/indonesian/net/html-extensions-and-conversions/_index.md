@@ -288,6 +288,8 @@ Pelajari cara mengonversi HTML ke PDF di C# sambil mengatur gaya font secara pro
 Pelajari cara mengonversi HTML menjadi byte di C# dengan Aspose.HTML untuk .NET.
 ### [Cara menyimpan HTML sebagai ZIP dengan Aspose.HTML di C#](./how-to-save-html-as-zip-with-aspose-html-in-c/)
 Pelajari cara mengompres file HTML menjadi arsip ZIP menggunakan Aspose.HTML di C# dengan contoh kode lengkap.
+### [Cara menyimpan HTML sebagai ZIP di C# menggunakan Aspose.HTML](./how-to-save-html-as-zip-in-c-using-aspose-html/)
+Pelajari cara menyimpan file HTML menjadi arsip ZIP menggunakan Aspose.HTML di C# dengan contoh kode lengkap.
 
 ## Kesimpulan
 
