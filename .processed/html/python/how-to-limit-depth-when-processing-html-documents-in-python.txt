@@ -1,0 +1,7 @@
+Title: How to limit depth when processing HTML documents in Python
+Slug: how-to-limit-depth-when-processing-html-documents-in-python
+Category: general
+ProcessedDate: 2026-11-27T14:42:59.486231
+SourceRepo: AI Search API
+Keywords: how to limit depth, load html document, html processing example
+PRNumber: 332
