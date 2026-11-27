@@ -1,25 +1,67 @@
 ---
 category: general
-date: 2026-03-23
-description: Comment activer l'anticrénelage lors du rendu de HTML en PNG avec C#.
-  Apprenez à rendre du HTML en PNG, à ajouter un paragraphe au HTML et à créer un
-  document HTML en C# avec Aspose.HTML.
+date: 2026-11-27
+description: Apprenez comment activer l'anticrénelage lors du rendu de HTML en PNG
+  en C#. Le guide explique également comment charger un document HTML en C# et convertir
+  un document HTML en image.
 draft: false
+images:
+- PLACEHOLDER_URL/og-image.png
 keywords:
 - how to enable antialiasing
 - render html to png
-- html to image c#
-- add paragraph to html
-- create html document c#
+- convert html document to image
+- load html document c#
 language: fr
-og_description: Comment activer l'anticrénelage lors du rendu de HTML en PNG avec
-  C#. Ce guide vous montre étape par étape comment rendre du HTML en PNG, ajouter
-  un paragraphe au HTML et créer un document HTML en C#.
-og_title: Comment activer l'anticrénelage lors du rendu HTML en PNG en C#
+lastmod: 2026-11-27
+og_description: Comment activer l'anticrénelage lors du rendu HTML en PNG en C#. Suivez
+  ce guide complet pour charger un document HTML en C# et convertir le document HTML
+  en image avec des graphiques lisses.
+og_image_alt: Screenshot of a PNG rendered from HTML using Aspose.Html with antialiasing
+  enabled
+og_title: Comment activer l'anticrénelage lors du rendu de HTML en PNG en C#
+schemas:
+- author: Aspose
+  dateModified: '2026-11-27'
+  description: Learn how to enable antialiasing while rendering HTML to PNG in C#.
+    The guide also covers how to load HTML document C# and convert HTML document to
+    image.
+  headline: How to enable antialiasing when rendering HTML to PNG in C#
+  type: TechArticle
+- description: Learn how to enable antialiasing while rendering HTML to PNG in C#.
+    The guide also covers how to load HTML document C# and convert HTML document to
+    image.
+  name: How to enable antialiasing when rendering HTML to PNG in C#
+  steps:
+  - name: Why antialiasing matters
+    text: '* **Sharper text** – glyph edges are blended with surrounding pixels, reducing
+      jagged edges. * **Smoother shapes** – lines, curves, and borders appear less
+      pixelated. * **Professional output** – especially important for marketing assets
+      and UI screenshots.'
+  - name: – Load an HTML document (load html document c#)
+    text: '```csharp using Aspose.Html; using Aspose.Html.Drawing; using Aspose.Html.Rendering.Image;'
+  - name: – Choose a web font style (optional but often useful)
+    text: '```csharp // Example: use BoldItalic for any web‑font that supports it
+      WebFontStyle fontStyle = WebFontStyle.BoldItalic; ```'
+  - name: – Configure image rendering options (how to enable antialiasing)
+    text: '```csharp ImageRenderingOptions imageOptions = new ImageRenderingOptions
+      { // Enable antialiasing for smoother graphics UseAntialiasing = true,'
+  - name: – Enable text hinting for clearer glyph rendering
+    text: '```csharp // Text hinting aligns glyphs to pixel boundaries for extra crispness
+      imageOptions.TextOptions.UseHinting = true; ```'
+  - name: – Initialise the image renderer with the configured options
+    text: '```csharp ImageRenderer renderer = new ImageRenderer(imageOptions); ```'
+  - name: – Render the document to a PNG file (render html to png)
+    text: '```csharp // Output path – replace YOUR_DIRECTORY with your desired folder
+      string outputPath = @"YOUR_DIRECTORY\output.png"; renderer.Render(document,
+      outputPath); ```'
+  - name: – Release resources (good practice)
+    text: '```csharp renderer.Dispose(); document.Dispose(); ```'
+  type: HowTo
 tags:
-- Aspose.HTML
+- Aspose.Html
 - C#
-- Image Rendering
+- Image rendering
 title: Comment activer l'anticrénelage lors du rendu de HTML en PNG en C#
 url: /fr/net/rendering-html-documents/how-to-enable-antialiasing-when-rendering-html-to-png-in-c/
 ---
@@ -30,144 +72,201 @@ url: /fr/net/rendering-html-documents/how-to-enable-antialiasing-when-rendering-
 
 # Comment activer l'anticrénelage lors du rendu HTML en PNG en C#
 
-Vous vous êtes déjà demandé **comment activer l'anticrénelage** lorsque vous transformez une page web en bitmap ? C’est un obstacle fréquent pour quiconque a essayé de générer des captures d’écran nettes à partir de HTML sous Linux ou Windows. Dans ce guide, nous parcourrons un exemple complet, prêt à l’emploi, qui rend le HTML en PNG avec des bords lisses et du text hinting grâce à la bibliothèque Aspose.HTML.
+Si vous avez besoin de **comment activer l'anticrénelage** lors de la conversion d'HTML en image raster, ce tutoriel vous montre exactement comment faire. À la fin du guide, vous saurez également comment **render html to png**, comment **load html document c#**, et comment **convert html document to image** avec Aspose.HTML for .NET.
 
-Vous verrez comment **render html to png**, comment **add paragraph to html**, et exactement comment **create html document c#** à partir de zéro. Aucun morceau manquant, pas de raccourcis « voir la documentation » — juste une solution autonome que vous pouvez copier‑coller dans Visual Studio et voir fonctionner.
+Le rendu d'HTML en PNG est une exigence courante pour générer des miniatures, des aperçus d'e‑mail ou des PDF à partir de contenu web. L'anticrénelage lisse les bords du texte et des graphiques vectoriels, produisant un résultat d'aspect professionnel. Les étapes ci‑dessous vous guident à travers l’ensemble du flux de travail, du chargement du fichier HTML à la libération sécurisée des ressources.
 
-## Ce dont vous avez besoin
+## Prérequis
 
-- .NET 6.0 ou ultérieur (le code compile également sous .NET Framework 4.8)
-- Le package NuGet **Aspose.HTML for .NET** (`Aspose.Html`)
-- Un dossier sur le disque où le PNG généré pourra être enregistré
-- Une connaissance de base du C#—si vous avez déjà écrit un `Console.WriteLine`, vous êtes prêt
+Avant de commencer, assurez‑vous d’avoir :
 
-C’est tout. Allons-y.
+* .NET 6.0 ou version ultérieure (le code fonctionne également avec .NET Core 3.1 et .NET Framework 4.6+)
+* Une copie sous licence de **Aspose.HTML for .NET** (l’essai gratuit suffit pour les tests)
+* Un fichier HTML que vous souhaitez convertir (par ex., `input.html`)
+* Visual Studio 2022 ou tout autre IDE C#
 
-## Comment activer l'anticrénelage lors du rendu d'image
+Aucun package NuGet supplémentaire n’est requis au‑delà de `Aspose.Html`.
 
-Le cœur du sujet est l'objet `ImageRenderingOptions`. En activant `UseAntialiasing` et `TextOptions.UseHinting`, vous indiquez au rendu d'adoucir à la fois les graphiques vectoriels et les glyphes de texte. Vous trouverez ci‑dessous le programme complet ; chaque section sera détaillée par la suite.
+## Comment activer l'anticrénelage dans le rendu d'image Aspose.HTML
+
+L'anticrénelage est contrôlé via l'objet `ImageRenderingOptions`. Définir `UseAntialiasing` à `true` indique au moteur de rendu d’appliquer un algorithme de lissage à tous les graphiques vectoriels et aux glyphes de texte. Cette ligne unique fait une différence notable dans le PNG final.
 
 ```csharp
-// ---------------------------------------------------------------
-// Complete example: enable antialiasing while rendering HTML to PNG
-// ---------------------------------------------------------------
-using System;
+// Create rendering options and turn on antialiasing
+ImageRenderingOptions imageOptions = new ImageRenderingOptions();
+imageOptions.UseAntialiasing = true;
+```
+
+### Pourquoi l'anticrénelage est important
+
+* **Texte plus net** – les bords des glyphes sont mélangés avec les pixels environnants, réduisant les effets d’escalier.
+* **Formes plus lisses** – les lignes, courbes et bordures apparaissent moins pixelisées.
+* **Résultat professionnel** – essentiel pour les actifs marketing et les captures d’écran d’interface utilisateur.
+
+## Guide étape par étape pour render html to png
+
+Le processus se compose de sept étapes simples. Chaque étape inclut un extrait de code et une brève explication.
+
+### Étape 1 – Charger un document HTML (load html document c#)
+
+```csharp
 using Aspose.Html;
-using Aspose.Html.Rendering;
+using Aspose.Html.Drawing;
 using Aspose.Html.Rendering.Image;
 
-class HintingDemo
+// Replace YOUR_DIRECTORY with the folder that contains input.html
+HtmlDocument document = new HtmlDocument(@"YOUR_DIRECTORY\input.html");
+```
+
+*La classe `HtmlDocument` analyse le fichier HTML et construit un arbre DOM que le moteur de rendu peut utiliser.*  
+Si vous devez charger du HTML depuis une chaîne ou une URL distante, vous pouvez utiliser la surcharge `new HtmlDocument(string html, Uri baseUrl)`.
+
+### Étape 2 – Choisir un style de police web (facultatif mais souvent utile)
+
+```csharp
+// Example: use BoldItalic for any web‑font that supports it
+WebFontStyle fontStyle = WebFontStyle.BoldItalic;
+```
+
+Bien que cette étape ne soit pas requise pour l'anticrénelage, elle montre comment combiner le style de police avec un rendu fluide.
+
+### Étape 3 – Configurer les options de rendu d'image (how to enable antialiasing)
+
+```csharp
+ImageRenderingOptions imageOptions = new ImageRenderingOptions
+{
+    // Enable antialiasing for smoother graphics
+    UseAntialiasing = true,
+
+    // Optional: set output image size (default is the HTML viewport size)
+    Width = 1024,
+    Height = 768
+};
+```
+
+*Définir `UseAntialiasing` à `true` constitue le cœur du **how to enable antialiasing**. Les propriétés `Width` et `Height` vous permettent de contrôler les dimensions finales du PNG.*
+
+### Étape 4 – Activer le hinting du texte pour un rendu de glyphes plus clair
+
+```csharp
+// Text hinting aligns glyphs to pixel boundaries for extra crispness
+imageOptions.TextOptions.UseHinting = true;
+```
+
+Le hinting du texte fonctionne main dans la main avec l'anticrénelage. Il aligne les caractères sur la grille de pixels, ce qui réduit le flou sans sacrifier la douceur des bords.
+
+### Étape 5 – Initialiser le rendu d'image avec les options configurées
+
+```csharp
+ImageRenderer renderer = new ImageRenderer(imageOptions);
+```
+
+Le `ImageRenderer` consomme le `HtmlDocument` et le `ImageRenderingOptions` que vous avez préparés précédemment.
+
+### Étape 6 – Rendre le document dans un fichier PNG (render html to png)
+
+```csharp
+// Output path – replace YOUR_DIRECTORY with your desired folder
+string outputPath = @"YOUR_DIRECTORY\output.png";
+renderer.Render(document, outputPath);
+```
+
+Une fois cet appel terminé, `output.png` contient la version rasterisée du HTML original. Comme l'anticrénelage est activé, les bords apparaissent lisses même à haute résolution DPI.
+
+### Étape 7 – Libérer les ressources (bonne pratique)
+
+```csharp
+renderer.Dispose();
+document.Dispose();
+```
+
+La libération désalloue la mémoire non gérée utilisée par le moteur de rendu et empêche les fuites de mémoire dans les applications de longue durée.
+
+## Exemple complet et exécutable
+
+Voici le programme complet que vous pouvez copier‑coller dans un nouveau projet console. Ajustez les chemins de dossiers selon vos besoins.
+
+```csharp
+using System;
+using Aspose.Html;
+using Aspose.Html.Drawing;
+using Aspose.Html.Rendering.Image;
+
+class Program
 {
     static void Main()
     {
-        // Step 1: Create a fresh HTML document (create html document c#)
-        var htmlDoc = new HTMLDocument();
+        // 1️⃣ Load the HTML document (load html document c#)
+        string inputPath = @"YOUR_DIRECTORY\input.html";
+        HtmlDocument document = new HtmlDocument(inputPath);
 
-        // Step 2: Insert a paragraph that demonstrates hinting (add paragraph to html)
-        var paragraph = htmlDoc.CreateElement("p");
-        paragraph.InnerHTML = "Hinted text looks sharper on Linux.";
-        htmlDoc.Body.AppendChild(paragraph);
+        // 2️⃣ Optional: set a web‑font style
+        WebFontStyle fontStyle = WebFontStyle.BoldItalic;
 
-        // Step 3: Configure rendering – enable antialiasing and hinting
-        var renderOptions = new ImageRenderingOptions
+        // 3️⃣ Configure rendering options and enable antialiasing (how to enable antialiasing)
+        ImageRenderingOptions imageOptions = new ImageRenderingOptions
         {
-            UseAntialiasing = true,                              // <-- primary flag
-            TextOptions = new TextRenderingOptions
-            {
-                UseHinting = true                                 // makes text crisp
-            },
-            Width = 800,
-            Height = 200
+            UseAntialiasing = true,        // <-- core antialiasing flag
+            Width = 1024,                  // optional size control
+            Height = 768
         };
 
-        // Step 4: Render the document to a PNG file (render html to png)
-        var imageRenderer = new ImageRenderer();
-        string outPath = System.IO.Path.Combine(
-            Environment.CurrentDirectory, "hinted.png");
+        // 4️⃣ Enable text hinting for extra crisp text
+        imageOptions.TextOptions.UseHinting = true;
 
-        imageRenderer.Render(htmlDoc, outPath, renderOptions);
+        // 5️⃣ Initialise the renderer with the options
+        using (ImageRenderer renderer = new ImageRenderer(imageOptions))
+        {
+            // 6️⃣ Render to PNG (render html to png)
+            string outputPath = @"YOUR_DIRECTORY\output.png";
+            renderer.Render(document, outputPath);
+            Console.WriteLine($"Image saved to: {outputPath}");
+        }
 
-        Console.WriteLine($"Image saved to: {outPath}");
+        // 7️⃣ Clean up
+        document.Dispose();
     }
 }
 ```
 
-### Pourquoi ces étapes sont importantes
+**Résultat attendu**
 
-1. **Creating a new HTML document** vous fournit une toile vierge. La classe `HTMLDocument` est le point d’entrée de tout workflow Aspose.HTML ; sans elle, le rendu n’a rien à peindre.
-2. **Adding a paragraph** est la façon la plus simple de vérifier que le hinting améliore réellement la clarté du texte. Si vous remplacez le paragraphe par un grand titre, vous constaterez le même effet d’adoucissement.
-3. **Enabling antialiasing** (`UseAntialiasing = true`) lisse les bords des formes, des lignes et des images. **Text hinting** (`UseHinting = true`) va un pas plus loin en alignant les glyphes sur les limites de pixel, ce qui est particulièrement visible sur les écrans à basse résolution ou lorsque le format de sortie est PNG.
-4. **Rendering to PNG** produit un bitmap sans perte qui préserve exactement l’apparence visuelle que vous avez configurée. Le fichier `hinted.png` se trouvera à côté de votre exécutable, prêt à être inspecté.
+L’exécution du programme crée `output.png` dans le répertoire indiqué. Ouvrez le fichier avec n’importe quel visualiseur d’image et vous constaterez :
 
-> **Astuce :** Si vous ciblez Linux, assurez‑vous que le paquet libgdiplus est installé, sinon le rendu du texte peut revenir à un moteur de moindre qualité.
+* Le texte et les formes vectorielles possèdent des bords lisses, antialiasés.
+* Les couleurs et les dégradés sont fidèles à l’HTML d’origine.
+* Les dimensions de l’image correspondent aux valeurs `Width`/`Height` que vous avez définies (1024 × 768 dans l’exemple).
 
-## Rendre du HTML en PNG avec Aspose.HTML
+## Questions fréquentes et gestion des cas limites
 
-Vous pourriez vous demander : « Puis‑je rendre une page complète avec CSS, images et scripts ? » Absolument. L’exemple ci‑dessus est délibérément minimal, mais le même `ImageRenderer` respectera les feuilles de style externes, le CSS en ligne et même les modifications du DOM générées par JavaScript—à condition de charger correctement les ressources (par ex., en définissant `htmlDoc.BaseUrl`).
+| Question | Réponse |
+|----------|--------|
+| *Que faire si le HTML contient du CSS ou des images externes ?* | Assurez‑vous que l’URI de base est correctement définie lors de la création de `HtmlDocument`. Utilisez `new HtmlDocument(html, new Uri("file:///YOUR_DIRECTORY/"))` afin que les liens relatifs soient résolus. |
+| *Puis‑je rendre dans d’autres formats (JPEG, BMP) ?* | Oui. Changez l’extension du fichier dans `Render` (par ex., `"output.jpg"`). Le moteur sélectionne automatiquement l’encodeur approprié. |
+| *L’anticrénelage est‑il supporté sur des serveurs sans interface graphique ?* | Absolument. Aspose.HTML effectue le rendu en logiciel ; aucun GPU n’est requis. |
+| *Comment contrôler le DPI pour une sortie haute résolution ?* | Définissez `imageOptions.Resolution = 300;` (la valeur par défaut est 96 DPI). Un DPI plus élevé produit des fichiers plus volumineux mais des résultats plus nets. |
+| *Et si je dois rendre plusieurs pages ?* | Parcourez une collection d’objets `HtmlDocument`, en appelant `renderer.Render` pour chacun. N’oubliez pas de disposer chaque document après utilisation. |
 
-```csharp
-// Example: loading an external CSS file
-htmlDoc.BaseUrl = new Uri("file:///C:/MyProject/Resources/");
-var link = htmlDoc.CreateElement("link");
-link.SetAttribute("rel", "stylesheet");
-link.SetAttribute("href", "styles.css");
-htmlDoc.Head.AppendChild(link);
-```
+## Astuces professionnelles
 
-Cet extrait montre **how to render html to png** lorsque votre balisage dépend d’actifs externes. Le rendu résout les chemins relatifs à `BaseUrl`, récupère le CSS et l’applique avant la rasterisation.
-
-## Ajouter un paragraphe à un document HTML en C#
-
-Si vous débutez dans la manipulation du DOM avec Aspose.HTML, le pattern `CreateElement` / `AppendChild` est votre référence. Il reflète l’API JavaScript du navigateur, ce qui rend la courbe d’apprentissage douce.
-
-```csharp
-var p = htmlDoc.CreateElement("p");
-p.SetAttribute("style", "font-size:24px; color:#0066CC;");
-p.InnerHTML = "Styled paragraph with antialiasing.";
-htmlDoc.Body.AppendChild(p);
-```
-
-Remarquez l’attribut `style` en ligne—c’est une autre façon de contrôler l’apparence sans feuille de style séparée. Le rendu le respecte entièrement, vous pouvez donc expérimenter avec les polices, les couleurs et la hauteur de ligne pour voir comment le hinting interagit avec différents réglages typographiques.
-
-## Créer un document HTML C# – Récapitulatif complet du workflow
-
-En rassemblant tous les éléments, le **complete workflow to create an HTML document c#**, ajouter du contenu et l’exporter en PNG haute qualité se présente ainsi :
-
-1. **Instantiate `HTMLDocument`.** Il s’agit du modèle d’objet pour votre balisage.
-2. **Populate the DOM** (`CreateElement`, `SetAttribute`, `AppendChild`).
-3. **Configure `ImageRenderingOptions`.** Activez l’anticrénelage et le hinting, définissez les dimensions et, éventuellement, ajustez le DPI.
-4. **Call `ImageRenderer.Render`.** Fournissez le document, le chemin de sortie et les options.
-5. **Verify the output.** Ouvrez `hinted.png` dans n’importe quel visualiseur d’image ; le texte devrait apparaître plus lisse qu’une rasterisation simple.
-
-Le bloc de code en haut suit déjà ces cinq étapes, vous pouvez donc le copier tel quel et l’exécuter. Si vous préférez un format d’image différent (JPEG, BMP), il suffit de changer l’extension du fichier dans `Render`—Aspose.HTML déduira automatiquement le format.
-
-## Questions fréquentes & cas particuliers
-
-- **What if I’m on .NET Core on Linux?**  
-  Installez `libgdiplus` (`sudo apt-get install libgdiplus`) et définissez la variable d’environnement `LD_LIBRARY_PATH` si nécessaire. Les drapeaux d’anticrénelage fonctionnent de la même manière.
-
-- **Can I control DPI?**  
-  Oui. Ajoutez `DpiX = 300, DpiY = 300` à `ImageRenderingOptions`. Un DPI plus élevé produit des fichiers plus volumineux mais des détails plus nets—pratique pour les ressources prêtes à l’impression.
-
-- **What about transparent backgrounds?**  
-  Définissez `BackgroundColor = Color.Transparent` dans `ImageRenderingOptions`. Le PNG conservera un canal alpha.
-
-- **Is hinting supported for custom fonts?**  
-  Tant que la police est installée sur le système d’exploitation ou intégrée via `@font-face` dans votre CSS, le rendu appliquera le hinting. N’oubliez pas de fournir les fichiers de police avec votre HTML si vous utilisez des polices web.
-
-## Résultat attendu
-
-Après avoir exécuté le programme, vous devriez voir un fichier nommé `hinted.png` dans le dossier de votre projet. L’image fera 800 × 200 px, avec la phrase *« Hinted text looks sharper on Linux. »* rendue dans un style propre et anti‑aliased. Comparez‑la à une version rendue avec `UseAntialiasing = false` ; la différence est visible surtout sur les traits diagonaux et les petites tailles de police.
-
-![Comment activer l'anticrénelage exemple](placeholder.png)
-
-*La capture d’écran ci‑dessus (placeholder) illustre les bords lisses que vous obtenez lorsque l’anticrénelage et le hinting sont activés.*
+* **Réutilisez le `ImageRenderer`** lorsque vous traitez de nombreux fichiers HTML ; créer un nouveau rendu pour chaque fichier ajoute une surcharge.
+* **Combinez l’anticrénelage avec un DPI élevé** (par ex., 300) pour obtenir la meilleure qualité lorsque le PNG sera imprimé.
+* **Validez le HTML** avant le rendu afin d’éviter des problèmes de mise en page inattendus. Aspose.HTML lève une `HtmlRenderingException` si le balisage est mal formé.
 
 ## Conclusion
 
-Nous avons couvert **how to enable antialiasing** lors du rendu du HTML en PNG en C#, démontré **render html to png**, montré comment **add paragraph to html**, et parcouru **create html document c#** avec Aspose.HTML. L’exemple complet et exécutable prouve que vous pouvez générer des images de haute qualité avec seulement quelques lignes de code, et les astuces supplémentaires traitent des pièges typiques que vous pourriez rencontrer sur différentes plateformes.
+Vous savez maintenant **comment activer l'anticrénelage** tout en **render html to png** avec Aspose.HTML for .NET, et vous avez également appris comment **load html document c#** et **convert html document to image** dans un programme autonome. Le rendu lisse produit par l’anticrénelage est idéal pour les miniatures, les aperçus d’e‑mail et tout scénario où la fidélité visuelle est cruciale.
 
-Prêt pour l’étape suivante ? Essayez de remplacer le paragraphe par un tableau complexe, expérimentez avec des graphiques SVG, ou augmentez le DPI pour une sortie prête à l’impression. Le même schéma s’applique—créez le document, configurez le rendu
+Prêt pour l’étape suivante ? Explorez **l’ajout de filigranes**, **la conversion en PDF**, ou **le traitement par lots d’un dossier de fichiers HTML**—tout cela est réalisable avec le même moteur de rendu que vous venez de maîtriser. Bon codage !
+
+## Que devez‑vous apprendre ensuite ?
+
+
+Les tutoriels suivants couvrent des sujets étroitement liés qui s’appuient sur les techniques démontrées dans ce guide. Chaque ressource comprend des exemples de code complets avec des explications pas à pas pour vous aider à maîtriser d’autres fonctionnalités de l’API et à explorer des approches d’implémentation alternatives dans vos propres projets.
+
+- [How to load HTML document from file with Aspose.HTML in C#](/html/english/net/working-with-html-documents/how-to-load-html-document-from-file-with-aspose-html-in-c/)
+- [How to Render HTML as PNG – Complete C# Guide](/html/english/net/rendering-html-documents/how-to-render-html-as-png-complete-c-guide/)
+- [How to Enable Antialiasing in Aspose HTML to PDF Conversion (C#)](/html/english/net/html-extensions-and-conversions/how-to-enable-antialiasing-in-aspose-html-to-pdf-conversion/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

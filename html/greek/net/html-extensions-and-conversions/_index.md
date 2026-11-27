@@ -39,6 +39,9 @@ url: /el/net/html-extensions-and-conversions/
 ## Εκμάθηση επεκτάσεων και μετατροπών HTML
 
 
+### [How to create HTML and package it into a ZIP archive in C#](./how-to-create-html-and-package-it-into-a-zip-archive-in-c/)
+
+
 ### [Μετατροπή HTML σε PDF στο .NET με το Aspose.HTML](./convert-html-to-pdf/)
 Μετατρέψτε HTML σε PDF χωρίς κόπο με το Aspose.HTML για .NET. Ακολουθήστε τον οδηγό βήμα προς βήμα και απελευθερώστε τη δύναμη της μετατροπής HTML σε PDF.
 ### [Οδηγός HTML σε PDF – Μετατροπή HTML σε PDF με C#](./html-to-pdf-tutorial-convert-html-to-pdf-in-c/)

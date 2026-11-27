@@ -57,7 +57,7 @@ Aspose.HTML для .NET — это не просто библиотека; эт�
 Узнайте, как включить сглаживание при конвертации HTML в PDF с помощью Aspose.HTML и C#.
 ### [Конвертировать локальный HTML‑файл в PDF с помощью C# – пошаговое руководство](./convert-local-html-file-to-pdf-with-c-step-by-step-guide/)
 Пошаговое руководство по конвертации локального HTML‑файла в PDF с использованием Aspose.HTML и C#.
-### [Конвертировать HTML в PDF на C# – Полное руководство Aspose](./convert-html-to-pdf-in-c-complete-aspose-guide/)
+### [Конвертировать HTML в PDF в C# – Полное руководство Aspose](./convert-html-to-pdf-in-c-complete-aspose-guide/)
 Полное пошаговое руководство по конвертации HTML в PDF на C# с использованием Aspose.HTML.
 ### [Рендер HTML в PDF на C# – Улучшение качества текста PDF](./render-html-to-pdf-in-c-improve-pdf-text-quality/)
 Узнайте, как с помощью Aspose.HTML улучшить четкость текста при конвертации HTML в PDF в C#.
@@ -75,7 +75,7 @@ Aspose.HTML для .NET — это не просто библиотека; эт�
 Полное руководство по созданию PDF из HTML с помощью Aspose.HTML в C#. Подробные шаги и примеры кода.
 ### [Создайте PDF из HTML – пошаговое руководство для разработчиков](./create-pdf-from-html-step-by-step-guide-for-developers/)
 Подробное пошаговое руководство по созданию PDF из HTML с использованием Aspose.HTML для .NET, предназначенное для разработчиков.
-### [Создайте PDF из HTML с Aspose – пошаговое руководство](./create-pdf-from-html-with-aspose-step-by-step-guide/)
+### [Создайте PDF из HTML – пошаговое руководство](./create-pdf-from-html-with-aspose-step-by-step-guide/)
 Пошаговое руководство по созданию PDF из HTML с использованием Aspose.HTML для .NET.
 ### [Создайте PDF из HTML – Полное руководство с Aspose.HTML](./create-pdf-from-html-complete-guide-with-aspose-html/)
 Полное пошаговое руководство по созданию PDF из HTML с использованием Aspose.HTML для .NET.
@@ -288,6 +288,10 @@ Aspose.HTML для .NET — это не просто библиотека; эт�
 
 ### [Как конвертировать HTML в массив байтов в C# с помощью Aspose.HTML](./how-to-convert-html-to-bytes-in-c-using-aspose-html/)
 Узнайте, как преобразовать HTML в массив байтов в C# с помощью Aspose.HTML для .NET. Пошаговое руководство с примерами кода.
+
+### [Как создать HTML и упаковать его в ZIP‑архив в C#](./how-to-create-html-and-package-it-into-a-zip-archive-in-c/)
+Пошаговое руководство по созданию HTML‑документа и его упаковке в ZIP‑архив с помощью Aspose.HTML в C#.
+
 ## Заключение
 
 В заключение, расширения и преобразования HTML являются важнейшими элементами современной веб-разработки. Aspose.HTML для .NET упрощает процесс и делает его доступным для разработчиков всех уровней. Следуя нашим руководствам, вы будете на пути к тому, чтобы стать опытным веб-разработчиком с широким набором навыков.

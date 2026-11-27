@@ -56,7 +56,7 @@ Aspose.HTML for .NET を使用し、C# でページサイズやアンチエイ�
 ### [Aspose を使用して HTML を PDF に変換する – ステップバイステップ ガイド](./convert-html-to-pdf-with-aspose-step-by-step-guide/)
 Aspose を使用して HTML を PDF に変換する方法をステップバイステップで解説します。簡単に変換の力を活用しましょう。
 
-### [C# で HTML を PDF に変換する – 完全ガイド](./convert-html-to-pdf-with-c-complete-guide/)
+### [C# で HTML を PDF に変換 – 完全ガイド](./convert-html-to-pdf-with-c-complete-guide/)
 Aspose.HTML for .NET を使用し、C# で HTML を PDF に変換する完全ガイドです。ステップバイステップで解説します。
 
 ### [C# で HTML を PDF に変換 – HTML ページを PDF として保存](./convert-html-to-pdf-in-c-save-html-page-as-pdf/)
@@ -94,13 +94,13 @@ Aspose.HTML for .NET を活用し、HTML から PDF を作成する手順を詳�
 ### [HTML から PDF を作成 – アンチエイリアシング対応 完全 C# ガイド](./create-pdf-from-html-full-c-guide-with-antialiasing/)
 ### [Aspose を使用して HTML から PDF を作成する – ステップバイステップ C# ガイド](./create-pdf-from-html-with-aspose-step-by-step-c-guide/)
 Aspose.HTML for .NET を使用し、C# で HTML から PDF を作成する手順を詳細に解説します。
-### [C# で HTML から PDF を作成 – フォント埋め込みと PDF 変換](./create-pdf-from-html-in-c-embed-fonts-convert-to-pdf/)
+### [C# で HTML を PDF に保存 – フォント付き 完全ガイド](./create-pdf-from-html-in-c-embed-fonts-convert-to-pdf/)
 Aspose.HTML for .NET を使用して、C# で HTML を PDF に変換し、フォントを埋め込む方法をステップバイステップで解説します。
-### [C# で HTML から PDF を作成する – 完全ステップバイステップガイド](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
+### [C# で HTML から PDF を作成 – 完全ステップバイステップガイド](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
 Aspose.HTML for .NET を使用し、C# で HTML から PDF を作成する完全なステップバイステップ ガイドです。
-### [C# で HTML から PDF を作成する – 完全ステップバイステップガイド](./create-pdf-from-html-in-c-full-step-by-step-guide/)
+### [C# で HTML から PDF を作成 – 完全ステップバイステップガイド](./create-pdf-from-html-in-c-full-step-by-step-guide/)
 Aspose.HTML for .NET を使用して、C# で HTML から PDF を作成する完全な手順を解説します。
-### [C# で HTML から PDF を作成する – 完全プログラミングガイド](./create-pdf-from-html-in-c-complete-programming-guide/)
+### [C# で HTML から PDF を作成 – 完全プログラミングガイド](./create-pdf-from-html-in-c-complete-programming-guide/)
 Aspose.HTML for .NET を使用して、C# で HTML から PDF を作成する完全な手順をステップバイステップで解説します。
 
 ### [スタイル付きテキストで HTML ドキュメントを作成し、PDF にエクスポートする – 完全ガイド](./create-html-document-with-styled-text-and-export-to-pdf-full/)
@@ -137,24 +137,45 @@ Aspose.HTML for .NET のパワーを発見してください: HTML を XPS に�
 
 ### [HTML を ZIP に保存 – 完全 C# チュートリアル](./save-html-as-zip-complete-c-tutorial/)
 Aspose.HTML for .NET を使用して、HTML コンテンツを ZIP アーカイブとして保存する方法をステップバイステップで解説します。
+
+### [C# で HTML を作成し ZIP アーカイブにパッケージ化する方法](./how-to-create-html-and-package-it-into-a-zip-archive-in-c/)
+Aspose.HTML for .NET を使用して、C# で HTML を作成し、ZIP アーカイブにパッケージ化する手順を解説します。
+
 ### [Aspose.HTML を使用して C# で HTML を ZIP バンドルとして保存する方法](./how-to-save-html-as-a-zip-bundle-using-aspose-html-in-c/)
-Aspose.HTML for .NET を使用して、HTML を ZIP バンドルとして保存する手順をステップバイステップで解説します。
-### [C# で HTML を Zip に圧縮する方法 – HTML を Zip に保存](./how-to-zip-html-in-c-save-html-to-zip/)
-C# と Aspose.HTML を使用して、HTML コンテンツを Zip アーカイブに保存する手順をステップバイステップで解説します。
+Aspose.HTML for .NET を使用して、C# で HTML コンテンツを ZIP バンドルとして保存する手順をステップバイステップで解説します。
+### [Aspose.HTML を使用して .NET で HTML を ZIP に変換する](./convert-html-to-zip/)
+### [Aspose.HTML を使用して .NET で HTML を ZIP に変換する](./convert-html-to-zip-in-c-complete-guide/)
+### [Aspose.HTML を使用して .NET で HTML を ZIP に変換する](./convert-html-to-zip-in-c-complete-step-by-step-guide/)
+### [Aspose.HTML を使用して .NET で HTML を ZIP に変換する](./convert-html-to-zip-in-c-complete-guide-with-custom-storage/)
+### [Aspose.HTML を使用して .NET で HTML を ZIP に変換する](./convert-html-to-zip-in-c-complete-guide/)
+### [Aspose.HTML を使用して .NET で HTML を ZIP に変換する](./convert-html-to-zip-in-c-complete-step-by-step-guide/)
+### [Aspose.HTML を使用して .NET で HTML を ZIP に変換する](./convert-html-to-zip-in-c-complete-guide-with-custom-storage/)
+### [Aspose.HTML を使用して .NET で HTML を ZIP に変換する](./convert-html-to-zip-in-c-complete-guide/)
+### [Aspose.HTML を使用して .NET で HTML を ZIP に変換する](./convert-html-to-zip-in-c-complete-step-by-step-guide/)
+### [Aspose.HTML を使用して .NET で HTML を ZIP に変換する](./convert-html-to-zip-in-c-complete-guide-with-custom-storage/)
+### [Aspose.HTML を使用して .NET で HTML を ZIP に変換する](./convert-html-to-zip-in-c-complete-guide/)
+### [Aspose.HTML を使用して .NET で HTML を ZIP に変換する](./convert-html-to-zip-in-c-complete-step-by-step-guide/)
+### [Aspose.HTML を使用して .NET で HTML を ZIP に変換する](./convert-html-to-zip-in-c-complete-guide-with-custom-storage/)
+### [Aspose.HTML を使用して .NET で HTML を ZIP に変換する](./convert-html-to-zip-in-c-complete-guide/)
+### [Aspose.HTML を使用して .NET で HTML を ZIP に変換する](./convert-html-to-zip-in-c-complete-step-by-step-guide/)
+### [Aspose.HTML を使用して .NET で HTML を ZIP に変換する](./convert-html-to-zip-in-c-complete-guide-with-custom-storage/)
+### [Aspose.HTML を使用して .NET で HTML を ZIP に変換する](./convert-html-to-zip-in-c-complete-guide/)
+### [Aspose.HTML を使用して .NET で HTML を ZIP に変換する](./convert-html-to-zip-in-c-complete-step-by-step-guide/)
+### [Aspose.HTML を使用して .NET で HTML を ZIP に変換する](./convert-html-to-zip-in-c-complete-guide-with-custom-storage/)
+### [Aspose.HTML を使用して .NET で HTML を ZIP に変換する](./convert-html-to-zip-in-c-complete-guide/)
+### [Aspose.HTML を使用して .NET で HTML を ZIP に変換する](./convert-html-to-zip-in-c-complete-step-by-step-guide/)
+### [Aspose.HTML を使用して .NET で HTML を ZIP に変換する](./convert-html-to-zip-in-c-complete-guide-with-custom-storage/)
+### [Aspose.HTML を使用して .NET で HTML を ZIP に変換する](./convert-html-to-zip-in-c-complete-guide/)
+
+### [シングルファイル HTML – C# で Web ページを 1 つの HTML ファイルとして保存する](./single-file-html-save-a-web-page-as-one-html-file-in-c/)
+Aspose.HTML for .NET を使用して、C# で Web ページを単一の HTML ファイルとして保存する手順をステップバイステップで解説します。
 
 ### [C# で HTML を Zip に圧縮する – 完全ガイド](./how-to-zip-html-in-c-complete-guide/)
 Aspose.HTML for .NET を使用して、C# で HTML を Zip に圧縮する手順をステップバイステップで解説します。
 
-### [Aspose.HTML を使用して Web ページを ZIP に保存する – 完全 C# チュートリアル](./save-webpage-as-zip-with-aspose-html-complete-c-tutorial/)
-Aspose.HTML for .NET を使用して、Web ページ全体を ZIP アーカイブとして保存する手順をステップバイステップで解説します。
+### [C# のカスタム リソース ハンドラ – HTML を Zip に変換するチュートリアル](./custom-resource-handler-in-c-convert-html-to-zip-tutorial/)
+Aspose.HTML for .NET を使用して、C# でカスタム リソース ハンドラを作成し、HTML を Zip アーカイブに変換する方法をステップバイステップで解説します。
 
-### [HTML を ZIP に保存 – 完全 C# ガイド：HTML を ZIP に変換](./save-html-as-zip-complete-c-guide-to-convert-html-to-zip/)
-Aspose.HTML for .NET を使用し、HTML を ZIP に変換して保存する完全な C# 手順を解説します。
-
-### [C# で HTML を ZIP に保存 – 完全インメモリ例](./save-html-to-zip-in-c-complete-in-memory-example/)
-Aspose.HTML for .NET を使用して、HTML をメモリ内で ZIP アーカイブに保存する手順をステップバイステップで解説します。
-### [C# のカスタム リソース ハンドラ – HTML を ZIP に変換するチュートリアル](./custom-resource-handler-in-c-convert-html-to-zip-tutorial/)
-Aspose.HTML for .NET を使用して、C# でカスタム リソース ハンドラを作成し、HTML を ZIP アーカイブに変換する方法をステップバイステップで解説します。
 ### [Aspose.HTML を使用して HTML を PDF に変換する – 完全ステップバイステップガイド](./convert-html-to-pdf-with-aspose-html-full-step-by-step-guide/)
 Aspose.HTML を使用して、HTML を PDF に変換する完全なステップバイステップガイドです。コード例と詳細な手順で変換をマスターしましょう。
 ### [C#でZIPファイルを作成 – メモリ内HTMLを圧縮するステップバイステップガイド](./create-zip-file-c-step-by-step-guide-to-zip-html-in-memory/)
@@ -219,6 +240,9 @@ Aspose.HTML for .NET を使用し、カスタムストレージに HTML を ZIP 
 ### [Aspose.HTML を使用して HTML を Zip に圧縮する – 完全ガイド](./how-to-zip-html-with-aspose-html-complete-guide/)
 Aspose.HTML を活用し、HTML コンテンツを Zip アーカイブにまとめる手順を完全に解説します。
 
+### [C#でZIPファイルを作成 – メモリ内HTMLを圧縮するステップバイステップガイド](./create-zip-file-c-step-by-step-guide-to-zip-html-in-memory/)
+C# と Aspose.HTML を使用して、メモリ上のHTMLコンテンツをZIPファイルに圧縮する方法をステップごとに解説します。
+
 ### [C# で URL を PDF に変換 – ワンライン Aspose HTML ソリューション](./convert-url-to-pdf-in-c-one-line-aspose-html-solution/)
 Aspose.HTML を使用して、C# で URL をワンラインコードで PDF に変換する方法をステップバイステップで解説します。
 
@@ -282,7 +306,7 @@ Aspose.HTML for .NET を使用して、HTML コンテンツを ZIP アーカイ�
 ### [C# カスタム リソース ハンドラ – HTML をストリームに変換](./custom-resource-handler-in-c-convert-html-to-stream/)
 Aspose.HTML for .NET を使用して、カスタム リソース ハンドラで HTML をストリームに変換する方法をステップバイステップで解説します。
 
-### [C# で HTML を ZIP として保存 – カスタムストレージ完全ガイド](./save-html-as-zip-in-c-complete-guide-to-custom-storage/)
+### [C# で HTML を ZIP として保存 – カスタムストレージ完全ガイド](./save-html-as-zip-in-c-complete-guide-with-custom-storage/)
 Aspose.HTML for .NET と C# を使用して、カスタムストレージに HTML を ZIP アーカイブとして保存する完全な手順を解説します。
 
 ### [Aspose.HTML を使用して HTML を ZIP に保存する – 完全 C# ガイド](./save-html-as-zip-with-aspose-html-complete-c-guide/)

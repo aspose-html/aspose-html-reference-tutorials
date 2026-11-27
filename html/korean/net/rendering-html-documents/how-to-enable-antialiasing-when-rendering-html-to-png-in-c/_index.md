@@ -1,23 +1,65 @@
 ---
 category: general
-date: 2026-03-23
-description: C#를 사용하여 HTML을 PNG로 렌더링할 때 안티앨리어싱을 활성화하는 방법. HTML을 PNG로 렌더링하고, HTML에
-  단락을 추가하며, Aspose.HTML을 사용하여 C#로 HTML 문서를 만드는 방법을 배웁니다.
+date: 2026-11-27
+description: C#에서 HTML을 PNG로 렌더링할 때 안티앨리어싱을 활성화하는 방법을 배웁니다. 이 가이드는 또한 C#에서 HTML 문서를
+  로드하고 HTML 문서를 이미지로 변환하는 방법을 다룹니다.
 draft: false
+images:
+- PLACEHOLDER_URL/og-image.png
 keywords:
 - how to enable antialiasing
 - render html to png
-- html to image c#
-- add paragraph to html
-- create html document c#
+- convert html document to image
+- load html document c#
 language: ko
-og_description: C#를 사용해 HTML을 PNG로 렌더링할 때 안티앨리어싱을 활성화하는 방법. 이 가이드는 HTML을 PNG로 렌더링하고,
-  HTML에 단락을 추가하며, C#으로 HTML 문서를 만드는 과정을 단계별로 보여줍니다.
+lastmod: 2026-11-27
+og_description: C#에서 HTML을 PNG로 렌더링할 때 안티앨리어싱을 활성화하는 방법. HTML 문서를 C#으로 로드하고 부드러운 그래픽으로
+  HTML 문서를 이미지로 변환하는 전체 가이드를 확인하세요.
+og_image_alt: Screenshot of a PNG rendered from HTML using Aspose.Html with antialiasing
+  enabled
 og_title: C#에서 HTML을 PNG로 렌더링할 때 안티앨리어싱을 활성화하는 방법
+schemas:
+- author: Aspose
+  dateModified: '2026-11-27'
+  description: Learn how to enable antialiasing while rendering HTML to PNG in C#.
+    The guide also covers how to load HTML document C# and convert HTML document to
+    image.
+  headline: How to enable antialiasing when rendering HTML to PNG in C#
+  type: TechArticle
+- description: Learn how to enable antialiasing while rendering HTML to PNG in C#.
+    The guide also covers how to load HTML document C# and convert HTML document to
+    image.
+  name: How to enable antialiasing when rendering HTML to PNG in C#
+  steps:
+  - name: Why antialiasing matters
+    text: '* **Sharper text** – glyph edges are blended with surrounding pixels, reducing
+      jagged edges. * **Smoother shapes** – lines, curves, and borders appear less
+      pixelated. * **Professional output** – especially important for marketing assets
+      and UI screenshots.'
+  - name: – Load an HTML document (load html document c#)
+    text: '```csharp using Aspose.Html; using Aspose.Html.Drawing; using Aspose.Html.Rendering.Image;'
+  - name: – Choose a web font style (optional but often useful)
+    text: '```csharp // Example: use BoldItalic for any web‑font that supports it
+      WebFontStyle fontStyle = WebFontStyle.BoldItalic; ```'
+  - name: – Configure image rendering options (how to enable antialiasing)
+    text: '```csharp ImageRenderingOptions imageOptions = new ImageRenderingOptions
+      { // Enable antialiasing for smoother graphics UseAntialiasing = true,'
+  - name: – Enable text hinting for clearer glyph rendering
+    text: '```csharp // Text hinting aligns glyphs to pixel boundaries for extra crispness
+      imageOptions.TextOptions.UseHinting = true; ```'
+  - name: – Initialise the image renderer with the configured options
+    text: '```csharp ImageRenderer renderer = new ImageRenderer(imageOptions); ```'
+  - name: – Render the document to a PNG file (render html to png)
+    text: '```csharp // Output path – replace YOUR_DIRECTORY with your desired folder
+      string outputPath = @"YOUR_DIRECTORY\output.png"; renderer.Render(document,
+      outputPath); ```'
+  - name: – Release resources (good practice)
+    text: '```csharp renderer.Dispose(); document.Dispose(); ```'
+  type: HowTo
 tags:
-- Aspose.HTML
+- Aspose.Html
 - C#
-- Image Rendering
+- Image rendering
 title: C#에서 HTML을 PNG로 렌더링할 때 안티앨리어싱을 활성화하는 방법
 url: /ko/net/rendering-html-documents/how-to-enable-antialiasing-when-rendering-html-to-png-in-c/
 ---
@@ -28,144 +70,200 @@ url: /ko/net/rendering-html-documents/how-to-enable-antialiasing-when-rendering-
 
 # C#에서 HTML을 PNG로 렌더링할 때 안티앨리어싱 활성화 방법
 
-웹 페이지를 비트맵으로 변환할 때 **안티앨리어싱을 활성화하는 방법**이 궁금했나요? Linux나 Windows에서 HTML로 선명한 스크린샷을 생성하려는 사람들에게 자주 겪는 문제입니다. 이 가이드에서는 Aspose.HTML 라이브러리를 사용하여 부드러운 가장자리와 텍스트 힌팅을 적용한 HTML을 PNG로 렌더링하는 완전하고 바로 실행 가능한 예제를 단계별로 살펴보겠습니다.
+HTML을 래스터 이미지로 변환하면서 **안티앨리어싱을 활성화하는 방법**이 필요하다면, 이 튜토리얼이 정확히 그 방법을 보여줍니다. 가이드를 끝까지 읽으면 Aspose.HTML for .NET을 사용하여 **HTML을 PNG로 렌더링하는 방법**, **C#에서 HTML 문서를 로드하는 방법**, 그리고 **HTML 문서를 이미지로 변환하는 방법**도 알 수 있게 됩니다.
 
-여기서 **render html to png** 방법, **add paragraph to html** 방법, 그리고 **create html document c#**을 처음부터 만드는 방법을 확인할 수 있습니다. 누락된 부분이나 “문서 참고”와 같은 단축키 없이, Visual Studio에 복사‑붙여넣기만 하면 바로 동작하는 독립형 솔루션입니다.
+HTML을 PNG로 렌더링하는 것은 썸네일, 이메일 미리보기 또는 웹 콘텐츠에서 PDF를 생성할 때 흔히 요구되는 작업입니다. 안티앨리어싱은 텍스트와 벡터 그래픽의 가장자리를 부드럽게 하여 전문적인 출력물을 만들어 줍니다. 아래 단계에서는 HTML 파일을 로드하는 순간부터 리소스를 안전하게 해제하는 전체 워크플로우를 안내합니다.
 
-## 필요 사항
+## 사전 요구 사항
 
-- .NET 6.0 이상 (코드는 .NET Framework 4.8에서도 정상 컴파일됩니다)
-- **Aspose.HTML for .NET** NuGet 패키지 (`Aspose.Html`)
-- 생성된 PNG를 저장할 디스크상의 폴더
-- 기본적인 C# 지식—`Console.WriteLine`을 한 번이라도 사용해 본 적이 있다면 바로 시작할 수 있습니다
+시작하기 전에 다음이 준비되어 있는지 확인하세요:
 
-이것뿐입니다. 바로 시작해 봅시다.
+* .NET 6.0 이상 (코드는 .NET Core 3.1 및 .NET Framework 4.6+에서도 작동합니다)
+* 라이선스가 있는 **Aspose.HTML for .NET** 사본 (무료 체험판으로 테스트 가능)
+* 변환하려는 HTML 파일 (예: `input.html`)
+* Visual Studio 2022 또는 기타 C# IDE
 
-## 이미지 렌더링에서 안티앨리어싱 활성화 방법
+추가 NuGet 패키지는 `Aspose.Html` 외에 필요하지 않습니다.
 
-`ImageRenderingOptions` 객체가 핵심입니다. `UseAntialiasing`과 `TextOptions.UseHinting`을 설정하면 렌더러가 벡터 그래픽과 텍스트 글리프를 모두 부드럽게 처리하도록 지시합니다. 아래는 전체 프로그램이며, 각 섹션은 이후에 자세히 설명합니다.
+## Aspose.HTML 이미지 렌더링에서 안티앨리어싱을 활성화하는 방법
+
+안티앨리어싱은 `ImageRenderingOptions` 객체를 통해 제어됩니다. `UseAntialiasing`을 `true`로 설정하면 렌더러가 모든 벡터 그래픽과 텍스트 글리프에 스무딩 알고리즘을 적용합니다. 이 한 줄만으로 최종 PNG에서 눈에 띄는 차이를 만들 수 있습니다.
 
 ```csharp
-// ---------------------------------------------------------------
-// Complete example: enable antialiasing while rendering HTML to PNG
-// ---------------------------------------------------------------
-using System;
+// Create rendering options and turn on antialiasing
+ImageRenderingOptions imageOptions = new ImageRenderingOptions();
+imageOptions.UseAntialiasing = true;
+```
+
+### 안티앨리어싱이 중요한 이유
+
+* **더 선명한 텍스트** – 글리프 가장자리가 주변 픽셀과 혼합되어 톱니 모양을 줄입니다.
+* **부드러운 형태** – 선, 곡선 및 테두리가 덜 픽셀화됩니다.
+* **전문적인 출력** – 마케팅 자료 및 UI 스크린샷에 특히 중요합니다.
+
+## HTML을 PNG로 렌더링하는 단계별 가이드
+
+이 과정은 일곱 개의 간단한 단계로 구성됩니다. 각 단계마다 코드 스니펫과 간단한 설명이 포함됩니다.
+
+### 단계 1 – HTML 문서 로드 (load html document c#)
+
+```csharp
 using Aspose.Html;
-using Aspose.Html.Rendering;
+using Aspose.Html.Drawing;
 using Aspose.Html.Rendering.Image;
 
-class HintingDemo
+// Replace YOUR_DIRECTORY with the folder that contains input.html
+HtmlDocument document = new HtmlDocument(@"YOUR_DIRECTORY\input.html");
+```
+
+*`HtmlDocument` 클래스는 HTML 파일을 파싱하고 렌더러가 사용할 수 있는 DOM 트리를 구축합니다.*  
+문자열이나 원격 URL에서 HTML을 로드해야 하는 경우 `new HtmlDocument(string html, Uri baseUrl)` 오버로드를 사용할 수 있습니다.
+
+### 단계 2 – 웹 폰트 스타일 선택 (선택 사항이지만 종종 유용함)
+
+```csharp
+// Example: use BoldItalic for any web‑font that supports it
+WebFontStyle fontStyle = WebFontStyle.BoldItalic;
+```
+
+이 단계는 안티앨리어싱에 필수는 아니지만, 폰트 스타일링과 부드러운 렌더링을 결합하는 방법을 보여줍니다.
+
+### 단계 3 – 이미지 렌더링 옵션 구성 (how to enable antialiasing)
+
+```csharp
+ImageRenderingOptions imageOptions = new ImageRenderingOptions
+{
+    // Enable antialiasing for smoother graphics
+    UseAntialiasing = true,
+
+    // Optional: set output image size (default is the HTML viewport size)
+    Width = 1024,
+    Height = 768
+};
+```
+
+*`UseAntialiasing`을 `true`로 설정하는 것이 **안티앨리어싱을 활성화하는 방법**의 핵심입니다. `Width`와 `Height` 속성을 사용하면 최종 PNG 크기를 제어할 수 있습니다.*
+
+### 단계 4 – 텍스트 힌팅 활성화로 글리프 렌더링 개선
+
+```csharp
+// Text hinting aligns glyphs to pixel boundaries for extra crispness
+imageOptions.TextOptions.UseHinting = true;
+```
+
+텍스트 힌팅은 안티앨리어싱과 손잡고 작동합니다. 문자들을 픽셀 그리드에 맞추어 블러 현상을 줄이면서도 부드러운 가장자를 유지합니다.
+
+### 단계 5 – 구성된 옵션으로 이미지 렌더러 초기화
+
+```csharp
+ImageRenderer renderer = new ImageRenderer(imageOptions);
+```
+
+`ImageRenderer`는 앞서 준비한 `HtmlDocument`와 `ImageRenderingOptions`를 사용합니다.
+
+### 단계 6 – 문서를 PNG 파일로 렌더링 (render html to png)
+
+```csharp
+// Output path – replace YOUR_DIRECTORY with your desired folder
+string outputPath = @"YOUR_DIRECTORY\output.png";
+renderer.Render(document, outputPath);
+```
+
+이 호출이 완료되면 `output.png`에 원본 HTML의 래스터화된 버전이 저장됩니다. 안티앨리어싱이 활성화되어 있기 때문에 고 DPI에서도 가장자리가 부드럽게 보입니다.
+
+### 단계 7 – 리소스 해제 (권장 사항)
+
+```csharp
+renderer.Dispose();
+document.Dispose();
+```
+
+해제는 렌더링 엔진이 사용한 비관리 메모리를 반환하고 장시간 실행되는 애플리케이션에서 메모리 누수를 방지합니다.
+
+## 전체 실행 가능한 예제
+
+아래는 새 콘솔 프로젝트에 복사‑붙여넣기 할 수 있는 완전한 프로그램입니다. 필요에 따라 폴더 경로를 조정하세요.
+
+```csharp
+using System;
+using Aspose.Html;
+using Aspose.Html.Drawing;
+using Aspose.Html.Rendering.Image;
+
+class Program
 {
     static void Main()
     {
-        // Step 1: Create a fresh HTML document (create html document c#)
-        var htmlDoc = new HTMLDocument();
+        // 1️⃣ Load the HTML document (load html document c#)
+        string inputPath = @"YOUR_DIRECTORY\input.html";
+        HtmlDocument document = new HtmlDocument(inputPath);
 
-        // Step 2: Insert a paragraph that demonstrates hinting (add paragraph to html)
-        var paragraph = htmlDoc.CreateElement("p");
-        paragraph.InnerHTML = "Hinted text looks sharper on Linux.";
-        htmlDoc.Body.AppendChild(paragraph);
+        // 2️⃣ Optional: set a web‑font style
+        WebFontStyle fontStyle = WebFontStyle.BoldItalic;
 
-        // Step 3: Configure rendering – enable antialiasing and hinting
-        var renderOptions = new ImageRenderingOptions
+        // 3️⃣ Configure rendering options and enable antialiasing (how to enable antialiasing)
+        ImageRenderingOptions imageOptions = new ImageRenderingOptions
         {
-            UseAntialiasing = true,                              // <-- primary flag
-            TextOptions = new TextRenderingOptions
-            {
-                UseHinting = true                                 // makes text crisp
-            },
-            Width = 800,
-            Height = 200
+            UseAntialiasing = true,        // <-- core antialiasing flag
+            Width = 1024,                  // optional size control
+            Height = 768
         };
 
-        // Step 4: Render the document to a PNG file (render html to png)
-        var imageRenderer = new ImageRenderer();
-        string outPath = System.IO.Path.Combine(
-            Environment.CurrentDirectory, "hinted.png");
+        // 4️⃣ Enable text hinting for extra crisp text
+        imageOptions.TextOptions.UseHinting = true;
 
-        imageRenderer.Render(htmlDoc, outPath, renderOptions);
+        // 5️⃣ Initialise the renderer with the options
+        using (ImageRenderer renderer = new ImageRenderer(imageOptions))
+        {
+            // 6️⃣ Render to PNG (render html to png)
+            string outputPath = @"YOUR_DIRECTORY\output.png";
+            renderer.Render(document, outputPath);
+            Console.WriteLine($"Image saved to: {outputPath}");
+        }
 
-        Console.WriteLine($"Image saved to: {outPath}");
+        // 7️⃣ Clean up
+        document.Dispose();
     }
 }
 ```
 
-### 이러한 단계가 중요한 이유
+**예상 출력**
 
-1. **새 HTML 문서 만들기**는 깨끗한 캔버스를 제공합니다. `HTMLDocument` 클래스는 모든 Aspose.HTML 워크플로우의 진입점이며, 이 객체가 없으면 렌더러가 그릴 것이 없습니다.
-2. **단락 추가**는 힌팅이 실제로 텍스트 선명도를 향상시키는지 확인하는 가장 간단한 방법입니다. 단락을 큰 헤딩으로 교체해도 동일한 부드러움 효과를 확인할 수 있습니다.
-3. **안티앨리어싱 활성화** (`UseAntialiasing = true`)는 도형, 선, 이미지의 가장자리를 부드럽게 합니다. **텍스트 힌팅** (`UseHinting = true`)은 글리프를 픽셀 경계에 맞추어 한 단계 더 부드럽게 만들며, 저해상도 디스플레이나 PNG와 같은 출력 형식에서 특히 눈에 띕니다.
-4. **PNG로 렌더링**하면 설정한 시각적 모습을 정확히 보존하는 무손실 비트맵이 생성됩니다. `hinted.png` 파일은 실행 파일 옆에 저장되어 바로 확인할 수 있습니다.
+프로그램을 실행하면 지정된 디렉터리에 `output.png`가 생성됩니다. 파일을 이미지 뷰어로 열면 다음을 확인할 수 있습니다:
 
-> **프로 팁:** Linux를 대상으로 하는 경우 libgdiplus 패키지가 설치되어 있는지 확인하세요. 그렇지 않으면 텍스트 렌더링이 낮은 품질의 엔진으로 대체될 수 있습니다.
+* 텍스트와 벡터 형태가 부드러운 안티앨리어싱 가장자를 가집니다.
+* 색상과 그라디언트가 원본 HTML과 일치합니다.
+* 이미지 크기가 설정한 `Width`/`Height`(예시에서는 1024 × 768)와 일치합니다.
 
-## Aspose.HTML을 사용하여 HTML을 PNG로 렌더링
+## 일반적인 질문 및 엣지 케이스 처리
 
-“CSS, 이미지, 스크립트가 포함된 전체 페이지를 렌더링할 수 있나요?” 라고 물을 수 있습니다. 물론 가능합니다. 위 예제는 의도적으로 최소화했지만, 동일한 `ImageRenderer`는 외부 스타일시트, 인라인 CSS, 그리고 JavaScript가 생성한 DOM 변경까지도 올바르게 리소스를 로드하면(예: `htmlDoc.BaseUrl` 설정) 모두 반영합니다.
+| Question | Answer |
+|----------|--------|
+| *HTML에 외부 CSS나 이미지가 포함된 경우는 어떻게 해야 하나요?* | `HtmlDocument`를 생성할 때 기본 URI를 올바르게 설정하세요. `new HtmlDocument(html, new Uri("file:///YOUR_DIRECTORY/"))`와 같이 상대 링크가 해석되도록 합니다. |
+| *다른 포맷(JPEG, BMP)으로 렌더링할 수 있나요?* | 가능합니다. `Render` 메서드의 파일 확장자를 변경하면 됩니다(예: `"output.jpg"`). 렌더러가 자동으로 적절한 인코더를 선택합니다. |
+| *헤드리스 서버에서도 안티앨리어싱이 지원되나요?* | 전적으로 지원됩니다. Aspose.HTML은 소프트웨어 렌더링을 수행하므로 GPU가 필요하지 않습니다. |
+| *고해상도 출력을 위해 DPI를 어떻게 제어하나요?* | `imageOptions.Resolution = 300;`과 같이 설정합니다(기본값은 96 DPI). DPI가 높을수록 파일 크기가 커지지만 결과가 더 선명해집니다. |
+| *여러 페이지를 렌더링해야 하면 어떻게 하나요?* | `HtmlDocument` 객체 컬렉션을 순회하면서 각 문서에 대해 `renderer.Render`를 호출합니다. 사용 후 각 문서를 반드시 해제하세요. |
 
-```csharp
-// Example: loading an external CSS file
-htmlDoc.BaseUrl = new Uri("file:///C:/MyProject/Resources/");
-var link = htmlDoc.CreateElement("link");
-link.SetAttribute("rel", "stylesheet");
-link.SetAttribute("href", "styles.css");
-htmlDoc.Head.AppendChild(link);
-```
+## 전문가 팁
 
-이 스니펫은 마크업이 외부 자산에 의존할 때 **how to render html to png** 방법을 보여줍니다. 렌더러는 `BaseUrl`을 기준으로 경로를 해석하고 CSS를 가져와 래스터화하기 전에 적용합니다.
-
-## C#에서 HTML 문서에 단락 추가하기
-
-Aspose.HTML로 DOM을 조작하는 것이 처음이라면 `CreateElement` / `AppendChild` 패턴이 가장 익숙할 것입니다. 이는 브라우저의 JavaScript API와 유사해 학습 곡선을 완만하게 합니다.
-
-```csharp
-var p = htmlDoc.CreateElement("p");
-p.SetAttribute("style", "font-size:24px; color:#0066CC;");
-p.InnerHTML = "Styled paragraph with antialiasing.";
-htmlDoc.Body.AppendChild(p);
-```
-
-인라인 `style` 속성을 주목하세요—별도의 스타일시트 없이 외관을 제어하는 또 다른 방법입니다. 렌더러는 이를 완전히 존중하므로 폰트, 색상, 줄 높이 등을 실험해 보면서 힌팅이 다양한 타이포그래피 설정과 어떻게 상호 작용하는지 확인할 수 있습니다.
-
-## C#에서 HTML 문서 만들기 – 전체 워크플로우 요약
-
-모든 단계를 종합하면, **complete workflow to create an HTML document c#**를 통해 콘텐츠를 추가하고 고품질 PNG로 내보내는 전체 흐름은 다음과 같습니다:
-
-1. **`HTMLDocument` 인스턴스화** – 마크업을 위한 객체 모델입니다.
-2. **DOM 채우기** (`CreateElement`, `SetAttribute`, `AppendChild`).
-3. **`ImageRenderingOptions` 구성** – 안티앨리어싱과 힌팅을 켜고, 크기를 설정하며 필요에 따라 DPI를 조정합니다.
-4. **`ImageRenderer.Render` 호출** – 문서, 출력 경로 및 옵션을 전달합니다.
-5. **출력 확인** – `hinted.png`를 이미지 뷰어에서 열면 텍스트가 일반 래스터화보다 부드럽게 보입니다.
-
-위의 코드 블록이 이미 이 다섯 단계를 따르고 있으므로 그대로 복사해 실행하면 됩니다. 다른 이미지 형식(JPEG, BMP)을 원한다면 `Render`에서 파일 확장자를 바꾸기만 하면 됩니다—Aspose.HTML가 자동으로 형식을 추론합니다.
-
-## 일반적인 질문 및 엣지 케이스
-
-- **.NET Core를 Linux에서 사용할 경우는?**  
-  `libgdiplus`를 설치(`sudo apt-get install libgdiplus`)하고 필요하면 환경 변수 `LD_LIBRARY_PATH`를 설정하세요. 안티앨리어싱 플래그는 동일하게 작동합니다.
-
-- **DPI를 제어할 수 있나요?**  
-  가능합니다. `ImageRenderingOptions`에 `DpiX = 300, DpiY = 300`을 추가하세요. 높은 DPI는 파일 크기를 늘리지만 디테일이 더 선명해져 인쇄용 자산에 유용합니다.
-
-- **투명 배경은 어떻게 처리하나요?**  
-  `ImageRenderingOptions` 내부에 `BackgroundColor = Color.Transparent`를 설정하세요. PNG가 알파 채널을 유지합니다.
-
-- **커스텀 폰트에 힌팅이 지원되나요?**  
-  폰트가 OS에 설치되어 있거나 CSS의 `@font-face`로 임베드된 경우 렌더러가 힌팅을 적용합니다. 웹 폰트를 사용할 경우 폰트 파일을 HTML과 함께 배포해야 합니다.
-
-## 기대 결과
-
-프로그램을 실행하면 프로젝트 폴더에 `hinted.png` 파일이 생성됩니다. 이미지 크기는 800 × 200 px이며, 문장 *“Hinted text looks sharper on Linux.”*이 깨끗하고 안티앨리어싱된 스타일로 렌더링됩니다. `UseAntialiasing = false`로 렌더링한 버전과 비교해 보세요; 특히 대각선 스트로크와 작은 폰트 크기에서 차이가 뚜렷하게 나타납니다.
-
-![안티앨리어싱 활성화 예시](placeholder.png)
-
-*위 스크린샷(placeholder)은 안티앨리어싱과 힌팅을 활성화했을 때 얻을 수 있는 부드러운 가장자리를 보여줍니다.*
+* 많은 HTML 파일을 처리할 때는 **`ImageRenderer`를 재사용**하세요. 파일당 새 렌더러를 만들면 오버헤드가 발생합니다.
+* **고 DPI(예: 300)와 안티앨리어싱을 결합**하면 PNG를 인쇄할 때 최고의 품질을 얻을 수 있습니다.
+* **렌더링 전에 HTML을 검증**하면 예상치 못한 레이아웃 문제를 방지할 수 있습니다. 마크업이 잘못된 경우 Aspose.HTML은 `HtmlRenderingException`을 발생시킵니다.
 
 ## 결론
 
-우리는 C#에서 HTML을 PNG로 렌더링할 때 **how to enable antialiasing**을 다루었고, **render html to png**를 시연했으며, **add paragraph to html** 방법을 보여주고, Aspose.HTML을 사용한 **create html document c#** 과정을 설명했습니다. 완전하고 실행 가능한 예제는 몇 줄의 코드만으로도 고품질 이미지를 생성할 수 있음을 증명하며, 추가 팁은 다양한 플랫폼에서 마주칠 수 있는 일반적인 함정을 해결합니다.
+이제 Aspose.HTML for .NET을 사용하여 **안티앨리어싱을 활성화하면서 HTML을 PNG로 렌더링**하는 방법을 알게 되었으며, **C#에서 HTML 문서를 로드**하고 **HTML 문서를 이미지로 변환**하는 방법도 하나의 독립 실행형 프로그램으로 익혔습니다. 안티앨리어싱으로 얻은 부드러운 출력은 썸네일, 이메일 미리보기 및 시각적 정확도가 중요한 모든 시나리오에 이상적입니다.
 
-다음 단계가 준비되셨나요? 단락을 복잡한 표로 교체하거나 SVG 그래픽을 실험해 보고, 인쇄용 출력을 위해 DPI를 높여 보세요. 동일한 패턴이 적용됩니다—문서를 만들고, 렌더링을 구성하고…
+다음 단계가 준비되셨나요? **워터마크 추가**, **PDF 변환**, 혹은 **HTML 파일 폴더 일괄 처리** 등을 탐색해 보세요—방금 마스터한 동일한 렌더링 엔진으로 모두 구현할 수 있습니다. 즐거운 코딩 되세요!
+
+## 다음에 배울 내용은?
+
+다음 튜토리얼들은 이 가이드에서 다룬 기술을 기반으로 하여 밀접하게 관련된 주제를 다룹니다. 각 리소스에는 완전한 코드 예제와 단계별 설명이 포함되어 있어 추가 API 기능을 마스터하고 프로젝트에 다양한 구현 방식을 적용하는 데 도움이 됩니다.
+
+- [C#에서 Aspose.HTML을 사용하여 파일에서 HTML 문서 로드하는 방법](/html/english/net/working-with-html-documents/how-to-load-html-document-from-file-with-aspose-html-in-c/)
+- [HTML을 PNG로 렌더링하는 방법 – 완전한 C# 가이드](/html/english/net/rendering-html-documents/how-to-render-html-as-png-complete-c-guide/)
+- [Aspose HTML을 PDF 변환 시 안티앨리어싱 활성화 방법 (C#)](/html/english/net/html-extensions-and-conversions/how-to-enable-antialiasing-in-aspose-html-to-pdf-conversion/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

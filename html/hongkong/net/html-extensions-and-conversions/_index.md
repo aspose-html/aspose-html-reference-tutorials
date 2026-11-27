@@ -196,8 +196,64 @@ Aspose.HTML for .NET 不只是一個函式庫；它還是一個函式庫。它�
 使用 Aspose.HTML for .NET 在 C# 中將整個網頁壓縮為 ZIP 檔案，示範完整步驟與程式碼範例。
 ### [從 DOCX 建立 HTML 存檔 – 完整步驟指南](./create-html-archive-from-docx-step-by-step-guide/)
 使用 Aspose.HTML for .NET，將 DOCX 檔案轉換為 HTML 存檔的完整步驟說明與範例。
-### [使用 Aspose.HTML 將 HTML 儲存為 ZIP – 完整指南與自訂儲存](./save-html-as-zip-in-c-complete-guide-with-custom-storage/)
-說明如何在 C# 中使用 Aspose.HTML 將 HTML 壓縮為 ZIP，並自訂儲存位置與方式。
+### [使用 Aspose.HTML 將 HTML 儲存為 ZIP – 完整 C# 教學](./save-html-as-zip-complete-c-tutorial/)
+### [建立 HTML 文件並儲存為 ZIP – 完整 C# 指南](./create-html-document-and-save-as-zip-complete-c-guide/)
+使用 Aspose.HTML for .NET 在 C# 中建立 HTML 文件並將其壓縮為 ZIP，提供完整步驟說明與範例。
+
+### [在 C# 中將 HTML 儲存為 ZIP – 完整指南](./save-html-to-zip-in-c-complete-guide/)
+使用 Aspose.HTML for .NET 在 C# 中將 HTML 壓縮為 ZIP，提供完整步驟與範例說明。
+### [在 C# 中將 HTML 儲存為 ZIP – 完整步驟指南](./save-html-to-zip-in-c-complete-step-by-step-guide/)
+使用 Aspose.HTML for .NET 在 C# 中將 HTML 壓縮為 ZIP，提供完整的逐步說明與範例。
+### [在 C# 中將 HTML 儲存為 ZIP – 完整的記憶體內示例](./save-html-to-zip-in-c-complete-in-memory-example/)
+### [在 C# 中將 HTML 儲存為 ZIP – 完整步驟指南](./save-html-as-zip-in-c-step-by-step-guide/)
+使用 Aspose.HTML for .NET 在 C# 中將 HTML 壓縮為 ZIP，提供完整的步驟說明與範例。
+示範如何在 C# 中使用 Aspose.HTML 將 HTML 內容直接壓縮成 ZIP 檔案，全部在記憶體中完成。
+### [Aspose HTML 轉 PDF（C#）– 完整指南與 ZIP 壓縮檔](./aspose-html-to-pdf-in-c-complete-guide-with-zip-archive/)
+使用 Aspose.HTML for .NET 在 C# 中將 HTML 轉換為 PDF，並將結果保存為 ZIP 檔案的完整步驟指南。
+
+### [自訂資源處理程式（C#）– 從記憶體將 HTML 轉換為 ZIP 壓縮檔](./custom-resource-handler-in-c-convert-html-to-zip-archive-fro/)
+示範如何在 C# 中使用自訂資源處理程式，將 HTML 直接從記憶體壓縮為 ZIP 檔案。
+### [如何在 C# 中壓縮 HTML – 載入 HTML 並使用自訂處理程式](./how-to-zip-html-in-c-load-html-use-custom-handler/)
+示範如何在 C# 中載入 HTML 並使用自訂資源處理程式將其壓縮為 ZIP 檔案。
+### [自訂資源處理程式（C#） – 將 HTML 轉換為 ZIP 教學](./custom-resource-handler-in-c-convert-html-to-zip-tutorial/)
+使用 Aspose.HTML for .NET 的自訂資源處理程式將 HTML 內容壓縮為 ZIP，提供完整步驟與範例。
+### [使用 Aspose.HTML 完整逐步指南將 HTML 轉換為 PDF](./convert-html-to-pdf-with-aspose-html-full-step-by-step-guide/)
+本完整逐步指南教您如何使用 Aspose.HTML 將 HTML 轉換為 PDF，涵蓋所有必要設定與範例程式碼。
+### [建立 zip 檔案 C# – 逐步指南：在記憶體中壓縮 HTML](./create-zip-file-c-step-by-step-guide-to-zip-html-in-memory/)
+了解如何使用 Aspose.HTML for .NET 在記憶體中將 HTML 壓�縮成 zip 檔案，提供完整的 C# 程式碼範例與步驟說明。
+### [使用 Aspose.HTML 將 .NET 中的 HTML 轉換為 ZIP](./convert-html-to-zip-in-c-complete-guide/)
+了解如何使用 Aspose.HTML for .NET 在 C# 中將 HTML 轉換為 ZIP，提供程式碼範例與逐步說明。
+### [如何在 C# 中壓縮 HTML – 完整步驟指南](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+學習使用 Aspose.HTML for .NET 在 C# 中將 HTML 文件壓縮為 ZIP 檔案的完整步驟與範例。
+### [在 C# 中從 HTML 建立 PDF – 完整步驟指南](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
+### [在 C# 中將 HTML 儲存為 ZIP – 完整逐步指南](./save-html-as-zip-in-c-complete-step-by-step-guide/)
+### [如何在 C# 中建立 HTML 並打包成 ZIP 檔案](./how-to-create-html-and-package-it-into-a-zip-archive-in-c/)
+### [單檔 HTML – 使用 C# 將網頁儲存為單一 HTML 檔案](./single-file-html-save-a-web-page-as-one-html-file-in-c/)
+使用 Aspose.HTML for .NET 在 C# 中將整個網頁保存為單一 HTML 檔案，方便部署與分享。
+### [Aspose HTML 儲存選項：在 C# 中將 HTML 儲存至串流](./aspose-html-save-options-save-html-to-stream-in-c/)
+示範使用 Aspose.HTML Save Options 將 HTML 輸出為記憶體串流的步驟與範例程式碼。
+### [如何在 Aspose.HTML 中使用處理程序 – 載入 HTML，儲存為 ZIP](./how-to-use-handler-in-aspose-html-load-html-save-as-zip/)
+使用 Aspose.HTML for .NET 透過處理程序載入 HTML 並將其壓縮為 ZIP 檔案的完整步驟指南。
+### [在 C# 中將 HTML 儲存為 ZIP – 完整指南](./save-html-as-zip-in-c-complete-guide/)
+使用 Aspose.HTML for .NET 在 C# 中將 HTML 儲存為 ZIP，提供完整步驟與範例說明。
+
+### [在 C# 中將 HTML 儲存為 PDF – 完整指南（含字型）](./save-html-as-pdf-in-c-complete-guide-with-fonts/)
+使用 Aspose.HTML for .NET，在 C# 中將 HTML 轉換為 PDF，並嵌入自訂字型的完整步驟說明。
+### [在 C# 中設定 PDF 頁面大小 – 轉換 HTML 為 PDF](./set-pdf-page-size-in-c-convert-html-to-pdf/)
+使用 Aspose.HTML for .NET 在 C# 中設定 PDF 頁面尺寸，將 HTML 轉換為 PDF 的完整步驟指南。
+### [HTML 轉 PDF 教程 – 在 C# 中將 HTML 轉換為 PDF](./html-to-pdf-tutorial-convert-html-to-pdf-in-c/)
+使用 Aspose.HTML for .NET，在 C# 中將 HTML 轉換為 PDF 的完整步驟指南。
+### [在 C# 中的自訂資源處理程式 – 載入 HTML 並儲存為 ZIP](./custom-resource-handler-in-c-load-html-and-save-as-zip/)
+使用 Aspose.HTML for .NET 在 C# 中建立自訂資源處理程式，載入 HTML 並將其保存為 ZIP 檔案。
+### [如何在 C# 中壓縮 HTML – 完整指南](./how-to-zip-html-in-c-complete-guide/)
+完整步驟說明如何在 C# 使用 Aspose.HTML 將 HTML 壓縮為 Zip 檔案，方便儲存與傳輸。
+### [使用 Aspose.HTML 在 C# 中將 HTML 轉換為字串 – 完整指南](./convert-html-to-string-in-c-with-aspose-html-complete-guide/)
+使用 Aspose.HTML for .NET 在 C# 中將 HTML 轉換為字串的完整步驟說明與範例。
+### [如何在 C# 中壓縮 HTML – 使用 Aspose.HTML 將網頁匯出為 ZIP](./how-to-zip-html-in-c-export-webpage-to-zip-with-aspose-html/)
+使用 Aspose.HTML for .NET 在 C# 中將整個網頁壓縮為 ZIP 檔案，示範完整步驟與程式碼範例。
+### [從 DOCX 建立 HTML 存檔 – 完整步驟指南](./create-html-archive-from-docx-step-by-step-guide/)
+使用 Aspose.HTML for .NET，將 DOCX 檔案轉換為 HTML 存檔的完整步驟說明與範例。
+### [使用 Aspose.HTML 將 HTML 儲存為 ZIP – 完整 C# 教學](./save-html-as-zip-complete-c-tutorial/)
 ### [使用 Aspose.HTML 將 HTML 壓縮為 ZIP – 完整指南](./how-to-zip-html-with-aspose-html-complete-guide/)
 使用 Aspose.HTML for .NET 在 C# 中將 HTML 壓縮為 ZIP，提供完整步驟與範例說明。
 ### [如何在 C# 中儲存 HTML 並寫入檔案](./how-to-save-html-and-write-html-to-file-with-c/)
