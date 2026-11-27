@@ -1,0 +1,7 @@
+Title: Create SVG document and save SVG file with Python
+Slug: create-svg-document-and-save-svg-file-with-python
+Category: general
+ProcessedDate: 2026-11-27T14:43:01.641906
+SourceRepo: AI Search API
+Keywords: create svg document, save svg file, export vector as svg, save svg image, how to create svg
+PRNumber: 332
