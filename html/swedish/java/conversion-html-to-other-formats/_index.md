@@ -347,6 +347,9 @@ Lär dig hur du konverterar HTML till PDF i Java med en detaljerad steg‑för�
 ### [Hur man konverterar HTML till PDF i Java med Aspose.HTML](./how-to-convert-html-to-pdf-in-java-using-aspose-html/)
 Lär dig hur du konverterar HTML till PDF i Java med Aspose.HTML i en enkel steg‑för‑steg‑guide.
 
+### [HTML till PDF‑tutorial – Konvertera HTML till PDF i C#](./html-to-pdf-tutorial-convert-html-to-pdf-in-c/)
+Lär dig hur du konverterar HTML till PDF i C# med Aspose.HTML. En steg‑för‑steg‑guide för högkvalitativ PDF‑generering.
+
 ## Vanliga frågor
 
 **Q: Kan jag använda Aspose.HTML for Java i en kommersiell applikation?**  

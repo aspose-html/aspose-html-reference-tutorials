@@ -196,7 +196,7 @@ weight: 25
 Μάθετε πώς να ορίσετε το μέγεθος σελίδας PDF κατά τη μετατροπή HTML σε PDF χρησιμοποιώντας το Aspose.HTML for Java.
 ### [Δημιουργία PDF προσαρμοσμένου μεγέθους από HTML σε Java – Πλήρης Οδηγός](./create-pdf-custom-size-from-html-in-java-full-guide/)
 Μάθετε πώς να δημιουργήσετε PDF με προσαρμοσμένο μέγεθος από HTML σε Java, χρησιμοποιώντας το Aspose.HTML, βήμα‑βήμα οδηγός.
-### [Μετατροπή HTML σε PDF σε Java με μία γραμμή](./html-to-pdf-tutorial-convert-html-to-pdf-in-java-in-one-line/)
+### [Μετατροπή HTML σε PDF σε Java με μία γραμμή](./html-to-pdf-tutorial-convert-html-to-pdf-in-one-line/)
 Μάθετε πώς να μετατρέψετε HTML σε PDF σε Java με μία μόνο γραμμή κώδικα, χρησιμοποιώντας το Aspose.HTML.
 ### [Δημιουργία PDF από HTML σε Java – Οδηγός βήμα‑βήμα](./create-pdf-from-html-in-java-step-by-step-guide/)
 Μάθετε πώς να δημιουργήσετε PDF από HTML σε Java με αναλυτικές οδηγίες βήμα‑βήμα χρησιμοποιώντας το Aspose.HTML.
@@ -254,7 +254,7 @@ weight: 25
 ### [Μετατροπή HTML σε PDF σε Java – Πλήρης Οδηγός Sandbox](./convert-html-to-pdf-in-java-full-sandbox-guide/)
 Μάθετε πώς να μετατρέψετε HTML σε PDF σε Java χρησιμοποιώντας το πλήρες sandbox περιβάλλον για δοκιμές και παραμετροποίηση.
 ### [Μετατροπή HTML σε PDF με Fixed Thread Pool Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-java-fixed-thr/)
-Μάθετε πώς να χρησιμοποιήσετε Fixed Thread Pool για να μετατρέψετε πολλαπλά HTML σε PDF αποδοτικά σε Java.
+Μάθετε πώς να χρησιμοποιήσετε Fixed Thread Pool για να μετατρέψετε πολλαπλά HTML σε PDF αποδοτικά σε Java με Aspose.HTML.
 ### [Μετατροπή HTML σε PDF με Java – Πλήρης Οδηγός για PDF, PNG, DOCX & Markdown](./convert-html-to-pdf-with-java-full-guide-to-pdf-png-docx-mar/)
 Ανακαλύψτε πώς να μετατρέψετε HTML σε PDF, PNG, DOCX και Markdown με Java χρησιμοποιώντας το Aspose.HTML, βήμα‑βήμα οδηγίες.
 ### [java thread pool tutorial – Μετατροπή πολλαπλών αρχείων HTML σε PDF](./java-thread-pool-tutorial-convert-multiple-html-files-to-pdf/)
@@ -294,6 +294,8 @@ weight: 25
 ### [Πώς να χρησιμοποιήσετε το Aspose για παράλληλη μετατροπή HTML σε PDF σε Java](./how-to-use-aspose-for-parallel-html-to-pdf-conversion-in-jav/)
 ### [Ενσωμάτωση γραμματοσειρών σε PDF – Πλήρης Οδηγός Java με Aspose HTML](./embed-fonts-in-pdf-complete-java-guide-using-aspose-html/)
 Μάθετε πώς να ενσωματώσετε γραμματοσειρές σε αρχεία PDF χρησιμοποιώντας το Aspose.HTML for Java, εξασφαλίζοντας σωστή εμφάνιση σε όλες τις συσκευές.
+
+### [HTML σε PDF μάθημα: μετατροπή HTML σε PDF σε C#](./html-to-pdf-tutorial-convert-html-to-pdf-in-c/)
 
 ### [HTML σε PDF μάθημα – Μετατροπή HTML σε PDF με Aspose σε Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-in-java/)
 Μάθετε πώς να μετατρέψετε HTML σε PDF σε Java με το Aspose.HTML, ακολουθώντας βήμα‑βήμα οδηγίες για γρήγορη ενσωμάτωση.
@@ -340,7 +342,6 @@ weight: 25
 Μάθετε πώς να μετατρέψετε HTML σε PDF χρησιμοποιώντας Java και το Aspose.HTML με βήμα‑βήμα οδηγίες.
 ### [Μετατροπή προτύπου HTML με Aspose – οδηγός βήμα‑βήμα](./convert-html-template-with-aspose-step-by-step-guide/)
 ### [Πώς να ακολουθήσετε ένα μάθημα HTML PDF σε Java χρησιμοποιώντας το Aspose.HTML](./how-to-follow-an-html-pdf-tutorial-in-java-using-aspose-html/)
-Μάθετε πώς να ακολουθήσετε ένα πλήρες μάθημα HTML‑PDF σε Java με το Aspose.HTML.
 
 ## Συχνές Ερωτήσεις
 

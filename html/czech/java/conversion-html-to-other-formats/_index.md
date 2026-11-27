@@ -82,6 +82,9 @@ Transformujte SVG grafiku do formátu XPS pro konzistentní tisk napříč zař�
 Na závěr, zvládnutí **html to pdf java** a širší sady konverzí odemyká výkonné workflow dokumentů pro každého Java vývojáře. Aspose.HTML for Java nabízí komplexní, snadno sledovatelné tutoriály, které vám umožní převádět HTML, Markdown a SVG do požadovaných formátů s vysokou kvalitou a plnou kontrolou.
 
 ## Konverze - Tutoriály pro HTML do jiných formátů
+### [Html to pdf tutorial: convert HTML to PDF in C#](./html-to-pdf-tutorial-convert-html-to-pdf-in-c/)
+
+
 ### [Převod HTML do PDF](./convert-html-to-pdf/)
 ### [Aspose HTML PDF/A tutoriál: Převod HTML do PDF/A‑2b pomocí Javy](./aspose-html-pdf-a-tutorial-convert-html-to-pdf-a-2b-with-jav/)
 Naučte se převést HTML do PDF/A‑2b v Javě pomocí Aspose.HTML. Vytvářejte archivovatelný PDF/A výstup s vysokou kvalitou.

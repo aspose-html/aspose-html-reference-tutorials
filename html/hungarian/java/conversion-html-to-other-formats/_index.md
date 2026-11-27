@@ -81,6 +81,9 @@ Alakítsa át az SVG grafikákat XPS formátumba a készülékek közötti konzi
 ## Átalakítás - HTML más formátumokra oktatóanyagok
 
 
+### [Html to pdf tutorial: convert HTML to PDF in C#](./html-to-pdf-tutorial-convert-html-to-pdf-in-c/)
+
+
 ### [HTML átalakítása PDF-re](./convert-html-to-pdf/)
 ### [HTML konvertálása PDF-re Java‑ban – Gyors Aspose.HTML útmutató](./convert-html-to-pdf-in-java-quick-aspose-html-guide/)
 
