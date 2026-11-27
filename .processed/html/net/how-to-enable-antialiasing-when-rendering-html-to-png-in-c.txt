@@ -1,0 +1,7 @@
+Title: How to enable antialiasing when rendering HTML to PNG in C#
+Slug: how-to-enable-antialiasing-when-rendering-html-to-png-in-c
+Category: rendering-html-documents
+ProcessedDate: 2026-11-27T13:48:00.216711
+SourceRepo: AI Search API
+Keywords: how to enable antialiasing, render html to png, convert html document to image, load html document c#
+PRNumber: 330
