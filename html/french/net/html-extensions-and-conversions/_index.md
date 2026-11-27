@@ -30,7 +30,7 @@ Le développement Web implique souvent la conversion de documents HTML en diffé
 
 ## Démarrer avec Aspose.HTML
 
-Êtes-vous prêt à commencer ? Les tutoriels Aspose.HTML pour .NET s'adressent aussi bien aux débutants qu'aux développeurs expérimentés. Que vous soyez novice en matière d'extensions et de conversions HTML ou que vous recherchiez des conseils avancés, nos guides étape par étape sont conçés pour répondre à vos besoins.
+Êtes-vous prêt à commencer ? Les tutoriels Aspose.HTML pour .NET s'adressent aussi bien aux débutants qu'aux développeurs expérimentés. Que vous soyez novice en matière d'extensions et de conversions HTML ou que vous recherchiez des conseils avancés, nos guides étape par étape sont conçus pour répondre à vos besoins.
 
 ## Pourquoi Aspose.HTML pour .NET ?
 
@@ -277,11 +277,14 @@ Apprenez à sauvegarder du HTML dans un fichier ZIP en utilisant Aspose.HTML ave
 ### [Comment convertir du HTML en octets en C# avec Aspose.HTML](./how-to-convert-html-to-bytes-in-c-using-aspose-html/)
 Apprenez à convertir du HTML en tableau d'octets en C# avec Aspose.HTML, guide étape par étape.
 ### [Enregistrer le HTML en ZIP avec Aspose.HTML en C#](./save-html-as-zip-with-aspose-html-in-c/)
-Apprenez à sauvegarder un document HTML dans une archive ZIP en C# avec Aspose.HTML.
+Apprenez à sauvegarder du HTML dans une archive ZIP en C# avec Aspose.HTML.
 ### [Comment enregistrer du HTML en archive ZIP avec Aspose.HTML en C#](./how-to-save-html-as-zip-archive-using-aspose-html-in-c/)
 Apprenez à sauvegarder du HTML dans une archive ZIP en C# à l'aide d'Aspose.HTML, guide étape par étape.
 ### [Comment enregistrer du HTML en ZIP avec Aspose.HTML en C#](./how-to-save-html-as-zip-with-aspose-html-in-c/)
 Apprenez à enregistrer un document HTML dans une archive ZIP en C# avec Aspose.HTML, guide étape par étape.
+
+### [Comment créer du HTML et le packager dans une archive ZIP en C#](./how-to-create-html-and-package-it-into-a-zip-archive-in-c/)
+Apprenez à créer du HTML et à le compresser dans une archive ZIP en C# avec Aspose.HTML.
 
 ## Conclusion
 

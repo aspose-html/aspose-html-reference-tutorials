@@ -1,24 +1,67 @@
 ---
 category: general
-date: 2026-03-23
-description: Cách bật khử răng cưa khi render HTML sang PNG bằng C#. Học cách render
-  HTML sang PNG, thêm đoạn văn vào HTML và tạo tài liệu HTML bằng C# với Aspose.HTML.
+date: 2026-11-27
+description: Tìm hiểu cách bật khử răng cưa khi chuyển đổi HTML sang PNG trong C#.
+  Hướng dẫn cũng đề cập cách tải tài liệu HTML trong C# và chuyển đổi tài liệu HTML
+  thành hình ảnh.
 draft: false
+images:
+- PLACEHOLDER_URL/og-image.png
 keywords:
 - how to enable antialiasing
 - render html to png
-- html to image c#
-- add paragraph to html
-- create html document c#
+- convert html document to image
+- load html document c#
 language: vi
-og_description: Cách bật khử răng cưa khi render HTML sang PNG bằng C#. Hướng dẫn
-  này sẽ chỉ cho bạn từng bước cách render HTML sang PNG, thêm đoạn văn vào HTML và
-  tạo tài liệu HTML bằng C#.
-og_title: Cách bật khử răng cưa khi render HTML sang PNG trong C#
+lastmod: 2026-11-27
+og_description: Cách bật khử răng cưa khi render HTML sang PNG trong C#. Theo dõi
+  hướng dẫn đầy đủ này để tải tài liệu HTML bằng C# và chuyển đổi tài liệu HTML thành
+  hình ảnh với đồ họa mượt mà.
+og_image_alt: Screenshot of a PNG rendered from HTML using Aspose.Html with antialiasing
+  enabled
+og_title: Cách bật khử răng cưa khi render HTML thành PNG trong C#
+schemas:
+- author: Aspose
+  dateModified: '2026-11-27'
+  description: Learn how to enable antialiasing while rendering HTML to PNG in C#.
+    The guide also covers how to load HTML document C# and convert HTML document to
+    image.
+  headline: How to enable antialiasing when rendering HTML to PNG in C#
+  type: TechArticle
+- description: Learn how to enable antialiasing while rendering HTML to PNG in C#.
+    The guide also covers how to load HTML document C# and convert HTML document to
+    image.
+  name: How to enable antialiasing when rendering HTML to PNG in C#
+  steps:
+  - name: Why antialiasing matters
+    text: '* **Sharper text** – glyph edges are blended with surrounding pixels, reducing
+      jagged edges. * **Smoother shapes** – lines, curves, and borders appear less
+      pixelated. * **Professional output** – especially important for marketing assets
+      and UI screenshots.'
+  - name: – Load an HTML document (load html document c#)
+    text: '```csharp using Aspose.Html; using Aspose.Html.Drawing; using Aspose.Html.Rendering.Image;'
+  - name: – Choose a web font style (optional but often useful)
+    text: '```csharp // Example: use BoldItalic for any web‑font that supports it
+      WebFontStyle fontStyle = WebFontStyle.BoldItalic; ```'
+  - name: – Configure image rendering options (how to enable antialiasing)
+    text: '```csharp ImageRenderingOptions imageOptions = new ImageRenderingOptions
+      { // Enable antialiasing for smoother graphics UseAntialiasing = true,'
+  - name: – Enable text hinting for clearer glyph rendering
+    text: '```csharp // Text hinting aligns glyphs to pixel boundaries for extra crispness
+      imageOptions.TextOptions.UseHinting = true; ```'
+  - name: – Initialise the image renderer with the configured options
+    text: '```csharp ImageRenderer renderer = new ImageRenderer(imageOptions); ```'
+  - name: – Render the document to a PNG file (render html to png)
+    text: '```csharp // Output path – replace YOUR_DIRECTORY with your desired folder
+      string outputPath = @"YOUR_DIRECTORY\output.png"; renderer.Render(document,
+      outputPath); ```'
+  - name: – Release resources (good practice)
+    text: '```csharp renderer.Dispose(); document.Dispose(); ```'
+  type: HowTo
 tags:
-- Aspose.HTML
+- Aspose.Html
 - C#
-- Image Rendering
+- Image rendering
 title: Cách bật khử răng cưa khi render HTML sang PNG trong C#
 url: /vi/net/rendering-html-documents/how-to-enable-antialiasing-when-rendering-html-to-png-in-c/
 ---
@@ -27,146 +70,204 @@ url: /vi/net/rendering-html-documents/how-to-enable-antialiasing-when-rendering-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cách bật Antialiasing khi render HTML sang PNG trong C#
+# Cách bật khử răng cưa khi render HTML thành PNG trong C#
 
-Bạn đã bao giờ tự hỏi **cách bật antialiasing** khi chuyển một trang web thành bitmap chưa? Đây là một rào cản thường gặp đối với bất kỳ ai đã cố gắng tạo các ảnh chụp màn hình sắc nét từ HTML trên Linux hoặc Windows. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn qua một ví dụ hoàn chỉnh, sẵn sàng chạy, để render HTML sang PNG với các cạnh mượt mà và text hinting bằng thư viện Aspose.HTML.
+Nếu bạn cần **how to enable antialiasing** khi chuyển đổi HTML sang ảnh raster, hướng dẫn này sẽ chỉ cho bạn cách thực hiện. Khi kết thúc bài viết, bạn cũng sẽ biết cách **render html to png**, cách **load html document c#**, và cách **convert html document to image** bằng Aspose.HTML for .NET.
 
-Bạn sẽ thấy cách **render html to png**, cách **add paragraph to html**, và chính xác cách **create html document c#** từ đầu. Không thiếu bất kỳ phần nào, không có các “xem tài liệu” rút gọn—chỉ một giải pháp tự chứa mà bạn có thể sao chép‑dán vào Visual Studio và xem nó hoạt động.
+Render HTML thành PNG là một nhu cầu phổ biến để tạo thumbnail, preview email, hoặc PDF từ nội dung web. Khử răng cưa (antialiasing) làm mịn các cạnh của văn bản và đồ họa vector, tạo ra đầu ra chuyên nghiệp. Các bước dưới đây sẽ hướng dẫn bạn toàn bộ quy trình, từ việc tải tệp HTML đến việc giải phóng tài nguyên một cách an toàn.
 
-## Những gì bạn cần
+## Prerequisites
 
-- .NET 6.0 hoặc phiên bản mới hơn (mã cũng biên dịch tốt trên .NET Framework 4.8)
-- Gói NuGet **Aspose.HTML for .NET** (`Aspose.Html`)
-- Một thư mục trên đĩa để lưu PNG được tạo
-- Kiến thức cơ bản về C#—nếu bạn đã từng viết `Console.WriteLine`, bạn đã sẵn sàng.
+Trước khi bắt đầu, hãy chắc chắn rằng bạn có:
 
-Xong rồi. Hãy bắt đầu.
+* .NET 6.0 hoặc mới hơn (mã cũng hoạt động với .NET Core 3.1 và .NET Framework 4.6+)
+* Bản sao có giấy phép của **Aspose.HTML for .NET** (bản dùng thử miễn phí đủ để thử nghiệm)
+* Một tệp HTML bạn muốn chuyển đổi (ví dụ: `input.html`)
+* Visual Studio 2022 hoặc bất kỳ IDE C# nào khác
 
-## Cách bật Antialiasing trong việc render hình ảnh
+Không cần thêm bất kỳ gói NuGet nào ngoài `Aspose.Html`.
 
-Trọng tâm của vấn đề là đối tượng `ImageRenderingOptions`. Bằng cách bật `UseAntialiasing` và `TextOptions.UseHinting`, bạn yêu cầu renderer làm mịn cả đồ họa vector và glyphs của văn bản. Dưới đây là chương trình đầy đủ; mỗi phần sẽ được giải thích sau.
+## How to enable antialiasing in Aspose.HTML image rendering
+
+Khử răng cưa được điều khiển thông qua đối tượng `ImageRenderingOptions`. Đặt `UseAntialiasing` thành `true` sẽ yêu cầu renderer áp dụng thuật toán làm mịn cho tất cả đồ họa vector và glyph văn bản. Dòng lệnh duy nhất này tạo ra sự khác biệt đáng kể trong PNG cuối cùng.
 
 ```csharp
-// ---------------------------------------------------------------
-// Complete example: enable antialiasing while rendering HTML to PNG
-// ---------------------------------------------------------------
-using System;
+// Create rendering options and turn on antialiasing
+ImageRenderingOptions imageOptions = new ImageRenderingOptions();
+imageOptions.UseAntialiasing = true;
+```
+
+### Why antialiasing matters
+
+* **Sharper text** – các glyph được pha trộn với các pixel xung quanh, giảm thiểu các cạnh răng cưa.
+* **Smoother shapes** – các đường, đường cong và viền trông ít bị pixel hoá hơn.
+* **Professional output** – đặc biệt quan trọng đối với tài sản marketing và ảnh chụp màn hình UI.
+
+## Step‑by‑step guide to render html to png
+
+Quy trình bao gồm bảy bước đơn giản. Mỗi bước kèm theo một đoạn mã và giải thích ngắn gọn.
+
+### Step 1 – Load an HTML document (load html document c#)
+
+```csharp
 using Aspose.Html;
-using Aspose.Html.Rendering;
+using Aspose.Html.Drawing;
 using Aspose.Html.Rendering.Image;
 
-class HintingDemo
+// Replace YOUR_DIRECTORY with the folder that contains input.html
+HtmlDocument document = new HtmlDocument(@"YOUR_DIRECTORY\input.html");
+```
+
+*Lớp `HtmlDocument` phân tích tệp HTML và xây dựng cây DOM mà renderer có thể sử dụng.*  
+Nếu bạn cần tải HTML từ một chuỗi hoặc URL từ xa, có thể dùng overload `new HtmlDocument(string html, Uri baseUrl)`.
+
+### Step 2 – Choose a web font style (optional but often useful)
+
+```csharp
+// Example: use BoldItalic for any web‑font that supports it
+WebFontStyle fontStyle = WebFontStyle.BoldItalic;
+```
+
+Mặc dù bước này không bắt buộc để bật antialiasing, nó minh họa cách bạn có thể kết hợp kiểu chữ với việc render mượt mà.
+
+### Step 3 – Configure image rendering options (how to enable antialiasing)
+
+```csharp
+ImageRenderingOptions imageOptions = new ImageRenderingOptions
+{
+    // Enable antialiasing for smoother graphics
+    UseAntialiasing = true,
+
+    // Optional: set output image size (default is the HTML viewport size)
+    Width = 1024,
+    Height = 768
+};
+```
+
+*Đặt `UseAntialiasing` thành `true` là cốt lõi của **how to enable antialiasing**. Các thuộc tính `Width` và `Height` cho phép bạn kiểm soát kích thước PNG cuối cùng.*
+
+### Step 4 – Enable text hinting for clearer glyph rendering
+
+```csharp
+// Text hinting aligns glyphs to pixel boundaries for extra crispness
+imageOptions.TextOptions.UseHinting = true;
+```
+
+Text hinting hoạt động song song với antialiasing. Nó căn chỉnh các ký tự vào lưới pixel, giảm độ mờ mà không làm mất độ mịn của các cạnh.
+
+### Step 5 – Initialise the image renderer with the configured options
+
+```csharp
+ImageRenderer renderer = new ImageRenderer(imageOptions);
+```
+
+`ImageRenderer` tiêu thụ `HtmlDocument` và `ImageRenderingOptions` mà bạn đã chuẩn bị trước đó.
+
+### Step 6 – Render the document to a PNG file (render html to png)
+
+```csharp
+// Output path – replace YOUR_DIRECTORY with your desired folder
+string outputPath = @"YOUR_DIRECTORY\output.png";
+renderer.Render(document, outputPath);
+```
+
+Sau khi lệnh này hoàn thành, `output.png` sẽ chứa phiên bản raster của HTML gốc. Vì antialiasing đã được bật, các cạnh sẽ mịn ngay cả ở DPI cao.
+
+### Step 7 – Release resources (good practice)
+
+```csharp
+renderer.Dispose();
+document.Dispose();
+```
+
+Việc dispose giải phóng bộ nhớ không quản lý được renderer sử dụng và ngăn ngừa rò rỉ bộ nhớ trong các ứng dụng chạy lâu dài.
+
+## Full, runnable example
+
+Dưới đây là chương trình hoàn chỉnh mà bạn có thể sao chép‑dán vào một dự án console mới. Điều chỉnh đường dẫn thư mục theo nhu cầu.
+
+```csharp
+using System;
+using Aspose.Html;
+using Aspose.Html.Drawing;
+using Aspose.Html.Rendering.Image;
+
+class Program
 {
     static void Main()
     {
-        // Step 1: Create a fresh HTML document (create html document c#)
-        var htmlDoc = new HTMLDocument();
+        // 1️⃣ Load the HTML document (load html document c#)
+        string inputPath = @"YOUR_DIRECTORY\input.html";
+        HtmlDocument document = new HtmlDocument(inputPath);
 
-        // Step 2: Insert a paragraph that demonstrates hinting (add paragraph to html)
-        var paragraph = htmlDoc.CreateElement("p");
-        paragraph.InnerHTML = "Hinted text looks sharper on Linux.";
-        htmlDoc.Body.AppendChild(paragraph);
+        // 2️⃣ Optional: set a web‑font style
+        WebFontStyle fontStyle = WebFontStyle.BoldItalic;
 
-        // Step 3: Configure rendering – enable antialiasing and hinting
-        var renderOptions = new ImageRenderingOptions
+        // 3️⃣ Configure rendering options and enable antialiasing (how to enable antialiasing)
+        ImageRenderingOptions imageOptions = new ImageRenderingOptions
         {
-            UseAntialiasing = true,                              // <-- primary flag
-            TextOptions = new TextRenderingOptions
-            {
-                UseHinting = true                                 // makes text crisp
-            },
-            Width = 800,
-            Height = 200
+            UseAntialiasing = true,        // <-- core antialiasing flag
+            Width = 1024,                  // optional size control
+            Height = 768
         };
 
-        // Step 4: Render the document to a PNG file (render html to png)
-        var imageRenderer = new ImageRenderer();
-        string outPath = System.IO.Path.Combine(
-            Environment.CurrentDirectory, "hinted.png");
+        // 4️⃣ Enable text hinting for extra crisp text
+        imageOptions.TextOptions.UseHinting = true;
 
-        imageRenderer.Render(htmlDoc, outPath, renderOptions);
+        // 5️⃣ Initialise the renderer with the options
+        using (ImageRenderer renderer = new ImageRenderer(imageOptions))
+        {
+            // 6️⃣ Render to PNG (render html to png)
+            string outputPath = @"YOUR_DIRECTORY\output.png";
+            renderer.Render(document, outputPath);
+            Console.WriteLine($"Image saved to: {outputPath}");
+        }
 
-        Console.WriteLine($"Image saved to: {outPath}");
+        // 7️⃣ Clean up
+        document.Dispose();
     }
 }
 ```
 
-### Tại sao các bước này quan trọng
+**Expected output**
 
-1. **Tạo một tài liệu HTML mới** cung cấp cho bạn một canvas sạch. Lớp `HTMLDocument` là điểm khởi đầu cho bất kỳ quy trình làm việc nào của Aspose.HTML; nếu không có nó, renderer sẽ không có gì để vẽ.
-2. **Thêm một đoạn văn** là cách đơn giản nhất để xác minh rằng hinting thực sự cải thiện độ rõ nét của văn bản. Nếu bạn thay đoạn văn bằng một tiêu đề lớn, bạn sẽ thấy cùng một hiệu ứng làm mịn.
-3. **Bật antialiasing** (`UseAntialiasing = true`) làm mịn các cạnh của hình dạng, đường nét và hình ảnh. **Text hinting** (`UseHinting = true`) đi một bước xa hơn bằng cách căn glyphs vào ranh giới pixel, điều này đặc biệt rõ ràng trên màn hình độ phân giải thấp hoặc khi định dạng đầu ra là PNG.
-4. **Render sang PNG** tạo ra một bitmap không mất dữ liệu, giữ nguyên hình ảnh trực quan mà bạn đã cấu hình. Tệp `hinted.png` sẽ nằm cạnh file thực thi của bạn, sẵn sàng để kiểm tra.
+Chạy chương trình sẽ tạo `output.png` trong thư mục đã chỉ định. Mở tệp trong bất kỳ trình xem ảnh nào và bạn sẽ nhận thấy:
 
-> **Mẹo chuyên nghiệp:** Nếu bạn đang nhắm tới Linux, hãy chắc chắn rằng gói libgdiplus đã được cài đặt, nếu không việc render văn bản có thể quay lại sử dụng engine chất lượng thấp hơn.
+* Văn bản và các hình vector có các cạnh mịn, anti‑aliased.
+* Màu sắc và gradient hiển thị đồng nhất với HTML gốc.
+* Kích thước ảnh khớp với `Width`/`Height` bạn đã đặt (1024 × 768 trong ví dụ).
 
-## Render HTML sang PNG với Aspose.HTML
+## Common questions and edge‑case handling
 
-Bạn có thể hỏi, “Tôi có thể render toàn bộ trang với CSS, hình ảnh và script không?” Chắc chắn rồi. Ví dụ trên được thiết kế tối giản, nhưng `ImageRenderer` giống nhau sẽ tôn trọng các stylesheet bên ngoài, CSS nội tuyến và thậm chí các thay đổi DOM do JavaScript tạo ra—miễn là bạn tải tài nguyên đúng cách (ví dụ, bằng cách đặt `htmlDoc.BaseUrl`).
+| Question | Answer |
+|----------|--------|
+| *What if the HTML contains external CSS or images?* | Đảm bảo URI cơ sở được thiết lập đúng khi tạo `HtmlDocument`. Sử dụng `new HtmlDocument(html, new Uri("file:///YOUR_DIRECTORY/"))` để các liên kết tương đối được giải quyết. |
+| *Can I render to other formats (JPEG, BMP)?* | Có. Thay đổi phần mở rộng tệp trong `Render` (ví dụ, `"output.jpg"`). Renderer sẽ tự động chọn encoder phù hợp. |
+| *Is antialiasing supported on headless servers?* | Hoàn toàn có. Aspose.HTML thực hiện render bằng phần mềm; không cần GPU. |
+| *How do I control DPI for high‑resolution output?* | Đặt `imageOptions.Resolution = 300;` (mặc định là 96 DPI). DPI cao hơn tạo ra tệp lớn hơn nhưng kết quả sắc nét hơn. |
+| *What if I need to render multiple pages?* | Lặp qua một collection các đối tượng `HtmlDocument`, gọi `renderer.Render` cho mỗi tài liệu. Nhớ dispose mỗi document sau khi sử dụng. |
 
-```csharp
-// Example: loading an external CSS file
-htmlDoc.BaseUrl = new Uri("file:///C:/MyProject/Resources/");
-var link = htmlDoc.CreateElement("link");
-link.SetAttribute("rel", "stylesheet");
-link.SetAttribute("href", "styles.css");
-htmlDoc.Head.AppendChild(link);
-```
+## Pro tips
 
-Đoạn mã này cho thấy **cách render html to png** khi markup của bạn phụ thuộc vào các tài nguyên bên ngoài. Renderer giải quyết các đường dẫn tương đối với `BaseUrl`, tải CSS và áp dụng nó trước khi rasterize.
+* **Reuse the `ImageRenderer`** khi xử lý nhiều tệp HTML; tạo một renderer mới cho mỗi tệp sẽ gây tốn tài nguyên.
+* **Combine antialiasing with high DPI** (ví dụ, 300) để đạt chất lượng tốt nhất khi PNG sẽ được in.
+* **Validate the HTML** trước khi render để tránh các vấn đề bố cục không mong muốn. Aspose.HTML sẽ ném `HtmlRenderingException` nếu markup bị sai cấu trúc.
 
-## Thêm đoạn văn vào tài liệu HTML trong C#
+## Conclusion
 
-Nếu bạn mới bắt đầu thao tác DOM với Aspose.HTML, mẫu `CreateElement` / `AppendChild` là lựa chọn của bạn. Nó phản chiếu API JavaScript của trình duyệt, giúp đường cong học tập trở nên nhẹ nhàng.
+Bạn đã biết **how to enable antialiasing** khi **render html to png** bằng Aspose.HTML for .NET, đồng thời cũng đã học cách **load html document c#** và **convert html document to image** trong một chương trình tự chứa. Đầu ra mịn màng nhờ antialiasing rất phù hợp cho thumbnail, preview email, và bất kỳ trường hợp nào mà độ chính xác hình ảnh quan trọng.
 
-```csharp
-var p = htmlDoc.CreateElement("p");
-p.SetAttribute("style", "font-size:24px; color:#0066CC;");
-p.InnerHTML = "Styled paragraph with antialiasing.";
-htmlDoc.Body.AppendChild(p);
-```
+Sẵn sàng cho bước tiếp theo? Khám phá **thêm watermark**, **chuyển đổi sang PDF**, hoặc **xử lý hàng loạt thư mục HTML** — tất cả đều có thể thực hiện với cùng engine render mà bạn vừa làm chủ. Chúc lập trình vui vẻ!
 
-Lưu ý thuộc tính `style` nội tuyến—đây là cách khác để kiểm soát giao diện mà không cần stylesheet riêng. Renderer tôn trọng hoàn toàn, vì vậy bạn có thể thử nghiệm với phông chữ, màu sắc và line‑height để xem hinting tương tác như thế nào với các thiết lập kiểu chữ khác nhau.
 
-## Tạo tài liệu HTML C# – Tổng kết quy trình đầy đủ
+## What Should You Learn Next?
 
-Kết hợp mọi thứ lại, **quy trình đầy đủ để tạo một HTML document c#**, thêm nội dung và xuất ra PNG chất lượng cao trông như sau:
 
-1. **Khởi tạo `HTMLDocument`.** Đây là mô hình đối tượng cho markup của bạn.
-2. **Điền nội dung vào DOM** (`CreateElement`, `SetAttribute`, `AppendChild`).
-3. **Cấu hình `ImageRenderingOptions`.** Bật antialiasing và hinting, đặt kích thước, và tùy chọn điều chỉnh DPI.
-4. **Gọi `ImageRenderer.Render`.** Cung cấp tài liệu, đường dẫn xuất và các tùy chọn.
-5. **Xác minh kết quả.** Mở `hinted.png` bằng bất kỳ trình xem ảnh nào; văn bản sẽ trông mượt hơn so với rasterization thông thường.
+Các hướng dẫn sau đây đề cập đến các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật đã trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm mã mẫu đầy đủ với giải thích chi tiết từng bước để giúp bạn nắm vững các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
 
-Khối mã ở trên đã tuân theo năm bước này, vì vậy bạn có thể sao chép nguyên văn và chạy nó. Nếu bạn muốn định dạng ảnh khác (JPEG, BMP), chỉ cần thay đổi phần mở rộng tệp trong `Render`—Aspose.HTML sẽ tự động suy ra định dạng.
-
-## Câu hỏi thường gặp & Các trường hợp đặc biệt
-
-- **Nếu tôi đang dùng .NET Core trên Linux thì sao?**  
-  Cài đặt `libgdiplus` (`sudo apt-get install libgdiplus`) và đặt biến môi trường `LD_LIBRARY_PATH` nếu cần. Các cờ antialiasing hoạt động tương tự.
-
-- **Tôi có thể kiểm soát DPI không?**  
-  Có. Thêm `DpiX = 300, DpiY = 300` vào `ImageRenderingOptions`. DPI cao hơn tạo ra tệp lớn hơn nhưng chi tiết sắc nét hơn—hữu ích cho tài sản sẵn sàng in.
-
-- **Còn nền trong suốt thì sao?**  
-  Đặt `BackgroundColor = Color.Transparent` trong `ImageRenderingOptions`. PNG sẽ giữ lại kênh alpha.
-
-- **Hinting có hỗ trợ cho phông chữ tùy chỉnh không?**  
-  Miễn là phông chữ được cài đặt trên hệ điều hành hoặc nhúng qua `@font-face` trong CSS, renderer sẽ áp dụng hinting. Hãy nhớ đưa các tệp phông chữ cùng với HTML nếu bạn sử dụng web fonts.
-
-## Kết quả mong đợi
-
-Sau khi chạy chương trình, bạn sẽ thấy một tệp có tên `hinted.png` trong thư mục dự án của mình. Hình ảnh sẽ có kích thước 800 × 200 px, với câu *“Hinted text looks sharper on Linux.”* được render theo phong cách sạch sẽ, anti‑aliased. So sánh với phiên bản render bằng `UseAntialiasing = false`; sự khác biệt rõ rệt đặc biệt trên các nét chéo và kích thước phông chữ nhỏ.
-
-![Ví dụ cách bật antialiasing](placeholder.png)
-
-*Ảnh chụp màn hình trên (placeholder) minh họa các cạnh mượt mà mà bạn nhận được khi bật antialiasing và hinting.*
-
-## Kết luận
-
-Chúng tôi đã trình bày **cách bật antialiasing** khi render HTML sang PNG trong C#, minh họa **render html to png**, chỉ cho bạn cách **add paragraph to html**, và hướng dẫn **create html document c#** bằng Aspose.HTML. Ví dụ đầy đủ, có thể chạy được chứng minh rằng bạn có thể tạo ra các hình ảnh chất lượng cao chỉ với vài dòng mã, và các mẹo bổ sung giải quyết các khó khăn thường gặp trên các nền tảng khác nhau.
-
-Sẵn sàng cho bước tiếp theo? Hãy thử thay đoạn văn bằng một bảng phức tạp, thử nghiệm với đồ họa SVG, hoặc tăng DPI cho đầu ra sẵn sàng in. Mẫu tương tự vẫn áp dụng—tạo tài liệu, cấu hình render
+- [How to load HTML document from file with Aspose.HTML in C#](/html/english/net/working-with-html-documents/how-to-load-html-document-from-file-with-aspose-html-in-c/)
+- [How to Render HTML as PNG – Complete C# Guide](/html/english/net/rendering-html-documents/how-to-render-html-as-png-complete-c-guide/)
+- [How to Enable Antialiasing in Aspose HTML to PDF Conversion (C#)](/html/english/net/html-extensions-and-conversions/how-to-enable-antialiasing-in-aspose-html-to-pdf-conversion/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

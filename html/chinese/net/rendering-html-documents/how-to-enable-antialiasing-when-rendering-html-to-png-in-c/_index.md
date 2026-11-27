@@ -1,23 +1,63 @@
 ---
 category: general
-date: 2026-03-23
-description: 如何在使用 C# 将 HTML 渲染为 PNG 时启用抗锯齿。学习将 HTML 渲染为 PNG、向 HTML 添加段落，以及使用 Aspose.HTML
-  在 C# 中创建 HTML 文档。
+date: 2026-11-27
+description: 了解如何在 C# 中渲染 HTML 为 PNG 时启用抗锯齿。指南还涵盖了如何在 C# 中加载 HTML 文档以及将 HTML 文档转换为图像。
 draft: false
+images:
+- PLACEHOLDER_URL/og-image.png
 keywords:
 - how to enable antialiasing
 - render html to png
-- html to image c#
-- add paragraph to html
-- create html document c#
+- convert html document to image
+- load html document c#
 language: zh
-og_description: 如何在使用 C# 将 HTML 渲染为 PNG 时启用抗锯齿。本指南逐步演示如何将 HTML 渲染为 PNG、向 HTML 添加段落以及创建
-  C# HTML 文档。
+lastmod: 2026-11-27
+og_description: 如何在 C# 中渲染 HTML 为 PNG 时启用抗锯齿。请遵循本完整指南，了解如何在 C# 中加载 HTML 文档并将其转换为具有平滑图形的图像。
+og_image_alt: Screenshot of a PNG rendered from HTML using Aspose.Html with antialiasing
+  enabled
 og_title: 如何在 C# 中将 HTML 渲染为 PNG 时启用抗锯齿
+schemas:
+- author: Aspose
+  dateModified: '2026-11-27'
+  description: Learn how to enable antialiasing while rendering HTML to PNG in C#.
+    The guide also covers how to load HTML document C# and convert HTML document to
+    image.
+  headline: How to enable antialiasing when rendering HTML to PNG in C#
+  type: TechArticle
+- description: Learn how to enable antialiasing while rendering HTML to PNG in C#.
+    The guide also covers how to load HTML document C# and convert HTML document to
+    image.
+  name: How to enable antialiasing when rendering HTML to PNG in C#
+  steps:
+  - name: Why antialiasing matters
+    text: '* **Sharper text** – glyph edges are blended with surrounding pixels, reducing
+      jagged edges. * **Smoother shapes** – lines, curves, and borders appear less
+      pixelated. * **Professional output** – especially important for marketing assets
+      and UI screenshots.'
+  - name: – Load an HTML document (load html document c#)
+    text: '```csharp using Aspose.Html; using Aspose.Html.Drawing; using Aspose.Html.Rendering.Image;'
+  - name: – Choose a web font style (optional but often useful)
+    text: '```csharp // Example: use BoldItalic for any web‑font that supports it
+      WebFontStyle fontStyle = WebFontStyle.BoldItalic; ```'
+  - name: – Configure image rendering options (how to enable antialiasing)
+    text: '```csharp ImageRenderingOptions imageOptions = new ImageRenderingOptions
+      { // Enable antialiasing for smoother graphics UseAntialiasing = true,'
+  - name: – Enable text hinting for clearer glyph rendering
+    text: '```csharp // Text hinting aligns glyphs to pixel boundaries for extra crispness
+      imageOptions.TextOptions.UseHinting = true; ```'
+  - name: – Initialise the image renderer with the configured options
+    text: '```csharp ImageRenderer renderer = new ImageRenderer(imageOptions); ```'
+  - name: – Render the document to a PNG file (render html to png)
+    text: '```csharp // Output path – replace YOUR_DIRECTORY with your desired folder
+      string outputPath = @"YOUR_DIRECTORY\output.png"; renderer.Render(document,
+      outputPath); ```'
+  - name: – Release resources (good practice)
+    text: '```csharp renderer.Dispose(); document.Dispose(); ```'
+  type: HowTo
 tags:
-- Aspose.HTML
+- Aspose.Html
 - C#
-- Image Rendering
+- Image rendering
 title: 如何在 C# 中将 HTML 渲染为 PNG 时启用抗锯齿
 url: /zh/net/rendering-html-documents/how-to-enable-antialiasing-when-rendering-html-to-png-in-c/
 ---
@@ -28,144 +68,201 @@ url: /zh/net/rendering-html-documents/how-to-enable-antialiasing-when-rendering-
 
 # 如何在 C# 中将 HTML 渲染为 PNG 时启用抗锯齿
 
-是否曾经好奇 **如何在将网页转换为位图时启用抗锯齿**？这对于在 Linux 或 Windows 上尝试从 HTML 生成清晰截图的任何人来说，都是一个常见的绊脚石。在本指南中，我们将通过一个完整、可直接运行的示例，演示如何使用 Aspose.HTML 库将 HTML 渲染为带有平滑边缘和文字微调的 PNG。
+如果您在将 HTML 转换为光栅图像时需要 **如何启用抗锯齿**，本教程将为您完整演示。阅读完本指南后，您还将了解如何 **render html to png**、如何 **load html document c#**，以及如何使用 Aspose.HTML for .NET **convert html document to image**。
 
-你将看到 **render html to png** 的实现方式，学习 **add paragraph to html** 的方法，以及如何 **create html document c#** 从零开始构建。没有缺失的部分，也没有“参考文档”的快捷方式——只提供一个可以复制粘贴到 Visual Studio 并直接运行的自包含解决方案。
+将 HTML 渲染为 PNG 是生成缩略图、电子邮件预览或 PDF 的常见需求。抗锯齿可以平滑文本和矢量图形的边缘，产生专业的输出效果。下面的步骤将带您完成整个工作流，从加载 HTML 文件到安全释放资源。
 
-## 你需要准备什么
+## 前置条件
 
-- .NET 6.0 或更高版本（代码在 .NET Framework 4.8 上同样可以编译）
-- **Aspose.HTML for .NET** NuGet 包 (`Aspose.Html`)
-- 磁盘上用于保存生成 PNG 的文件夹
-- 基础的 C# 经验——只要写过 `Console.WriteLine`，就可以上手
+开始之前，请确保您拥有：
 
-就这些。让我们开始吧。
+* .NET 6.0 或更高版本（代码同样适用于 .NET Core 3.1 和 .NET Framework 4.6+）
+* 已授权的 **Aspose.HTML for .NET**（免费试用版可用于测试）
+* 需要转换的 HTML 文件（例如 `input.html`）
+* Visual Studio 2022 或其他 C# IDE
 
-## 如何在图像渲染中启用抗锯齿
+除 `Aspose.Html` 之外，无需其他 NuGet 包。
 
-关键在于 `ImageRenderingOptions` 对象。通过切换 `UseAntialiasing` 和 `TextOptions.UseHinting`，可以让渲染器同时平滑矢量图形和文字字形。下面是完整程序；随后会对每个部分进行拆解说明。
+## 如何在 Aspose.HTML 图像渲染中启用抗锯齿
+
+抗锯齿通过 `ImageRenderingOptions` 对象进行控制。将 `UseAntialiasing` 设置为 `true` 即可让渲染器对所有矢量图形和文字字形应用平滑算法。这一行代码会显著提升最终 PNG 的质量。
 
 ```csharp
-// ---------------------------------------------------------------
-// Complete example: enable antialiasing while rendering HTML to PNG
-// ---------------------------------------------------------------
-using System;
+// Create rendering options and turn on antialiasing
+ImageRenderingOptions imageOptions = new ImageRenderingOptions();
+imageOptions.UseAntialiasing = true;
+```
+
+### 为什么抗锯齿很重要
+
+* **更清晰的文字** – 字形边缘与周围像素混合，减少锯齿。
+* **更平滑的形状** – 线条、曲线和边框不再像素化。
+* **专业的输出** – 对于营销素材和 UI 截图尤为关键。
+
+## 渲染 html 为 png 的分步指南
+
+整个过程包括七个简明步骤。每一步都有代码片段和简短说明。
+
+### 步骤 1 – 加载 HTML 文档（load html document c#）
+
+```csharp
 using Aspose.Html;
-using Aspose.Html.Rendering;
+using Aspose.Html.Drawing;
 using Aspose.Html.Rendering.Image;
 
-class HintingDemo
+// Replace YOUR_DIRECTORY with the folder that contains input.html
+HtmlDocument document = new HtmlDocument(@"YOUR_DIRECTORY\input.html");
+```
+
+*`HtmlDocument` 类会解析 HTML 文件并构建渲染器可使用的 DOM 树。*  
+如果需要从字符串或远程 URL 加载 HTML，可以使用重载 `new HtmlDocument(string html, Uri baseUrl)`。
+
+### 步骤 2 – 选择网页字体样式（可选，但常用）
+
+```csharp
+// Example: use BoldItalic for any web‑font that supports it
+WebFontStyle fontStyle = WebFontStyle.BoldItalic;
+```
+
+虽然此步骤与抗锯齿无直接关系，但演示了如何将字体样式与平滑渲染结合使用。
+
+### 步骤 3 – 配置图像渲染选项（how to enable antialiasing）
+
+```csharp
+ImageRenderingOptions imageOptions = new ImageRenderingOptions
+{
+    // Enable antialiasing for smoother graphics
+    UseAntialiasing = true,
+
+    // Optional: set output image size (default is the HTML viewport size)
+    Width = 1024,
+    Height = 768
+};
+```
+
+*将 `UseAntialiasing` 设置为 `true` 是 **how to enable antialiasing** 的核心。`Width` 和 `Height` 属性用于控制最终 PNG 的尺寸。*
+
+### 步骤 4 – 启用文本 hinting 以获得更清晰的字形渲染
+
+```csharp
+// Text hinting aligns glyphs to pixel boundaries for extra crispness
+imageOptions.TextOptions.UseHinting = true;
+```
+
+文本 hinting 与抗锯齿协同工作。它将字符对齐到像素网格，从而在不牺牲平滑边缘的前提下降低模糊感。
+
+### 步骤 5 – 使用配置好的选项初始化图像渲染器
+
+```csharp
+ImageRenderer renderer = new ImageRenderer(imageOptions);
+```
+
+`ImageRenderer` 会使用前面准备好的 `HtmlDocument` 和 `ImageRenderingOptions`。
+
+### 步骤 6 – 将文档渲染为 PNG 文件（render html to png）
+
+```csharp
+// Output path – replace YOUR_DIRECTORY with your desired folder
+string outputPath = @"YOUR_DIRECTORY\output.png";
+renderer.Render(document, outputPath);
+```
+
+此调用完成后，`output.png` 即为原始 HTML 的光栅化版本。由于已启用抗锯齿，即使在高 DPI 下边缘也会保持平滑。
+
+### 步骤 7 – 释放资源（良好实践）
+
+```csharp
+renderer.Dispose();
+document.Dispose();
+```
+
+释放操作会清理渲染引擎使用的非托管内存，防止长时间运行的应用出现内存泄漏。
+
+## 完整可运行示例
+
+下面是完整的程序代码，可直接复制到新的控制台项目中。根据需要调整文件夹路径。
+
+```csharp
+using System;
+using Aspose.Html;
+using Aspose.Html.Drawing;
+using Aspose.Html.Rendering.Image;
+
+class Program
 {
     static void Main()
     {
-        // Step 1: Create a fresh HTML document (create html document c#)
-        var htmlDoc = new HTMLDocument();
+        // 1️⃣ Load the HTML document (load html document c#)
+        string inputPath = @"YOUR_DIRECTORY\input.html";
+        HtmlDocument document = new HtmlDocument(inputPath);
 
-        // Step 2: Insert a paragraph that demonstrates hinting (add paragraph to html)
-        var paragraph = htmlDoc.CreateElement("p");
-        paragraph.InnerHTML = "Hinted text looks sharper on Linux.";
-        htmlDoc.Body.AppendChild(paragraph);
+        // 2️⃣ Optional: set a web‑font style
+        WebFontStyle fontStyle = WebFontStyle.BoldItalic;
 
-        // Step 3: Configure rendering – enable antialiasing and hinting
-        var renderOptions = new ImageRenderingOptions
+        // 3️⃣ Configure rendering options and enable antialiasing (how to enable antialiasing)
+        ImageRenderingOptions imageOptions = new ImageRenderingOptions
         {
-            UseAntialiasing = true,                              // <-- primary flag
-            TextOptions = new TextRenderingOptions
-            {
-                UseHinting = true                                 // makes text crisp
-            },
-            Width = 800,
-            Height = 200
+            UseAntialiasing = true,        // <-- core antialiasing flag
+            Width = 1024,                  // optional size control
+            Height = 768
         };
 
-        // Step 4: Render the document to a PNG file (render html to png)
-        var imageRenderer = new ImageRenderer();
-        string outPath = System.IO.Path.Combine(
-            Environment.CurrentDirectory, "hinted.png");
+        // 4️⃣ Enable text hinting for extra crisp text
+        imageOptions.TextOptions.UseHinting = true;
 
-        imageRenderer.Render(htmlDoc, outPath, renderOptions);
+        // 5️⃣ Initialise the renderer with the options
+        using (ImageRenderer renderer = new ImageRenderer(imageOptions))
+        {
+            // 6️⃣ Render to PNG (render html to png)
+            string outputPath = @"YOUR_DIRECTORY\output.png";
+            renderer.Render(document, outputPath);
+            Console.WriteLine($"Image saved to: {outputPath}");
+        }
 
-        Console.WriteLine($"Image saved to: {outPath}");
+        // 7️⃣ Clean up
+        document.Dispose();
     }
 }
 ```
 
-### 为什么这些步骤很重要
+**预期输出**
 
-1. **创建新的 HTML 文档** 为你提供一个干净的画布。`HTMLDocument` 类是任何 Aspose.HTML 工作流的入口；没有它，渲染器无从绘制。
-2. **添加段落** 是验证微调是否真正提升文字清晰度的最简方式。如果将段落替换为大标题，也会看到相同的平滑效果。
-3. **启用抗锯齿** (`UseAntialiasing = true`) 可以平滑形状、线条和图像的边缘。**文字微调** (`UseHinting = true`) 更进一步，将字形对齐到像素边界，这在低分辨率显示器或输出为 PNG 时尤为明显。
-4. **渲染为 PNG** 会生成无损位图，完整保留你配置的视觉效果。文件 `hinted.png` 将与可执行文件同目录，随时可供检查。
+运行程序后会在指定目录生成 `output.png`。使用任意图像查看器打开，您会看到：
 
-> **小贴士：** 如果你的目标平台是 Linux，请确保已安装 `libgdiplus` 包，否则文字渲染可能会回退到质量较低的引擎。
+* 文本和矢量形状拥有平滑的抗锯齿边缘。
+* 颜色和渐变与原始 HTML 保持一致。
+* 图像尺寸与您设置的 `Width`/`Height`（示例中为 1024 × 768）相匹配。
 
-## 使用 Aspose.HTML 将 HTML 渲染为 PNG
+## 常见问题与边缘情况处理
 
-你可能会问：“能否渲染包含 CSS、图片和脚本的完整页面？”答案是肯定的。上面的示例故意保持极简，但同一个 `ImageRenderer` 同样会尊重外部样式表、内联 CSS，甚至是 JavaScript 动态生成的 DOM——前提是你正确加载了这些资源（例如，通过设置 `htmlDoc.BaseUrl`）。
+| Question | Answer |
+|----------|--------|
+| *HTML 中包含外部 CSS 或图片怎么办？* | 创建 `HtmlDocument` 时确保正确设置 base URI。使用 `new HtmlDocument(html, new Uri("file:///YOUR_DIRECTORY/"))` 使相对链接能够解析。 |
+| *可以渲染为其他格式（JPEG、BMP）吗？* | 可以。只需在 `Render` 中更改文件扩展名（例如 `"output.jpg"`），渲染器会自动选择相应的编码器。 |
+| *在无头服务器上是否支持抗锯齿？* | 完全支持。Aspose.HTML 在软件层面完成渲染，无需 GPU。 |
+| *如何控制高分辨率输出的 DPI？* | 设置 `imageOptions.Resolution = 300;`（默认 96 DPI）。更高 DPI 会生成更大的文件，但效果更清晰。 |
+| *如果需要渲染多页怎么办？* | 对 `HtmlDocument` 集合进行循环，对每个文档调用 `renderer.Render`。使用后记得释放每个文档。 |
 
-```csharp
-// Example: loading an external CSS file
-htmlDoc.BaseUrl = new Uri("file:///C:/MyProject/Resources/");
-var link = htmlDoc.CreateElement("link");
-link.SetAttribute("rel", "stylesheet");
-link.SetAttribute("href", "styles.css");
-htmlDoc.Head.AppendChild(link);
-```
+## 专业技巧
 
-此代码片段展示了 **render html to png** 的实现方式，当你的标记依赖外部资源时，渲染器会相对于 `BaseUrl` 解析路径，获取 CSS 并在光栅化前应用。
-
-## 在 C# 中向 HTML 文档添加段落
-
-如果你刚开始使用 Aspose.HTML 操作 DOM，`CreateElement` / `AppendChild` 模式是首选。它与浏览器的 JavaScript API 相似，学习曲线相对平缓。
-
-```csharp
-var p = htmlDoc.CreateElement("p");
-p.SetAttribute("style", "font-size:24px; color:#0066CC;");
-p.InnerHTML = "Styled paragraph with antialiasing.";
-htmlDoc.Body.AppendChild(p);
-```
-
-注意内联的 `style` 属性——这是一种无需单独样式表即可控制外观的方式。渲染器会完整遵循该属性，你可以尝试不同的字体、颜色和行高，观察微调在各种排版设置下的表现。
-
-## Create HTML Document C# – 完整工作流回顾
-
-将所有步骤组合起来，**完整的 create html document c# 工作流**、添加内容并导出为高质量 PNG 如下所示：
-
-1. **实例化 `HTMLDocument`。** 这是你的标记对象模型。
-2. **填充 DOM**（`CreateElement`、`SetAttribute`、`AppendChild`）。
-3. **配置 `ImageRenderingOptions`。** 开启抗锯齿和微调，设置尺寸，必要时调整 DPI。
-4. **调用 `ImageRenderer.Render`。** 提供文档、输出路径和选项。
-5. **验证输出。** 在任意图像查看器中打开 `hinted.png`，文字应比普通光栅化更平滑。
-
-顶部的代码块已经遵循了这五个步骤，你可以直接复制并运行。如果想使用其他图像格式（JPEG、BMP），只需在 `Render` 中更改文件扩展名——Aspose.HTML 会自动推断格式。
-
-## 常见问题与边缘情况
-
-- **如果我在 Linux 上使用 .NET Core 呢？**  
-  安装 `libgdiplus`（`sudo apt-get install libgdiplus`），必要时设置环境变量 `LD_LIBRARY_PATH`。抗锯齿标志的行为保持不变。
-
-- **可以控制 DPI 吗？**  
-  可以。向 `ImageRenderingOptions` 添加 `DpiX = 300, DpiY = 300`。更高的 DPI 会生成更大的文件，但细节更清晰——适合打印素材。
-
-- **透明背景怎么办？**  
-  在 `ImageRenderingOptions` 中设置 `BackgroundColor = Color.Transparent`。PNG 将保留 alpha 通道。
-
-- **自定义字体也支持微调吗？**  
-  只要字体已安装在操作系统上，或通过 CSS 中的 `@font-face` 嵌入，渲染器都会应用微调。使用网页字体时，请将字体文件随 HTML 一起发布。
-
-## 预期结果
-
-运行程序后，你应在项目文件夹中看到名为 `hinted.png` 的文件。该图像尺寸为 800 × 200 px，包含句子 *“Hinted text looks sharper on Linux.”*，以干净、抗锯齿的样式渲染。将 `UseAntialiasing = false` 再次渲染对比，你会在对角线笔画和小字号上明显感受到差异。
-
-![How to enable antialiasing example](placeholder.png)
-
-*上图（占位）展示了开启抗锯齿和微调后获得的平滑边缘效果。*
+* **复用 `ImageRenderer`**：在处理大量 HTML 文件时，重复使用同一个渲染器可降低开销。
+* **将抗锯齿与高 DPI 结合**（如 300），在需要打印的 PNG 场景下可获得最佳质量。
+* **在渲染前验证 HTML**：避免因标记错误导致布局异常。Aspose.HTML 会在标记不合法时抛出 `HtmlRenderingException`。
 
 ## 结论
 
-我们已经介绍了 **如何在 C# 中将 HTML 渲染为 PNG 时启用抗锯齿**，演示了 **render html to png**，展示了 **add paragraph to html** 的方法，并完整走了一遍 **create html document c#** 的流程。完整、可运行的示例证明，只需几行代码就能生成高质量图像，而额外的技巧则帮助你规避在不同平台上可能遇到的常见坑。
+现在，您已经掌握了在使用 Aspose.HTML for .NET **render html to png** 时 **how to enable antialiasing** 的方法，并了解了如何 **load html document c#** 与 **convert html document to image**，全部代码集中在一个自包含的示例程序中。抗锯齿带来的平滑输出非常适合缩略图、邮件预览以及任何对视觉保真度有要求的场景。
 
-准备好下一步了吗？尝试将段落替换为复杂表格，实验 SVG 图形，或提升 DPI 以获得打印级输出。相同的模式依旧适用——创建文档，配置渲染选项，然后渲染。
+准备好下一步了吗？探索 **添加水印**、**转换为 PDF** 或 **批量处理文件夹中的 HTML 文件**——这些都可以使用您刚刚掌握的同一渲染引擎轻松实现。祝编码愉快！
+
+
+## 接下来该学习什么？
+
+以下教程涵盖了与本指南技术紧密相关的主题，帮助您进一步掌握 API 功能并在项目中尝试不同实现方式。每篇资源均提供完整可运行的代码示例和逐步解释。
+
+- [How to load HTML document from file with Aspose.HTML in C#](/html/english/net/working-with-html-documents/how-to-load-html-document-from-file-with-aspose-html-in-c/)
+- [How to Render HTML as PNG – Complete C# Guide](/html/english/net/rendering-html-documents/how-to-render-html-as-png-complete-c-guide/)
+- [How to Enable Antialiasing in Aspose HTML to PDF Conversion (C#)](/html/english/net/html-extensions-and-conversions/how-to-enable-antialiasing-in-aspose-html-to-pdf-conversion/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

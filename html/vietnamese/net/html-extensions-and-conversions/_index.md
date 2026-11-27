@@ -275,6 +275,9 @@ Hướng dẫn chi tiết cách chuyển đổi HTML thành mảng byte trong C#
 Hướng dẫn chi tiết cách lưu tài liệu HTML thành tệp ZIP trong C# bằng Aspose.HTML, bao gồm các bước và ví dụ mã.
 ### [Lưu HTML dưới dạng ZIP trong C# – Hướng dẫn chi tiết từng bước](./how-to-save-html-as-zip-with-aspose-html-in-c/)
 
+### [Tạo HTML và đóng gói thành tệp ZIP trong C#](./how-to-create-html-and-package-it-into-a-zip-archive-in-c/)
+Hướng dẫn tạo tài liệu HTML và đóng gói thành tệp ZIP trong C# bằng Aspose.HTML.
+
 ## Phần kết luận
 
 Tóm lại, phần mở rộng và chuyển đổi HTML là những yếu tố thiết yếu của phát triển web hiện đại. Aspose.HTML cho .NET đơn giản hóa quy trình và giúp các nhà phát triển ở mọi cấp độ có thể tiếp cận. Bằng cách làm theo hướng dẫn của chúng tôi, bạn sẽ tiến gần đến mục tiêu trở thành một nhà phát triển web thành thạo với bộ kỹ năng rộng.
