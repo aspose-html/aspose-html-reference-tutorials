@@ -1,0 +1,7 @@
+Title: How to create HTML and package it into a ZIP archive in C#
+Slug: how-to-create-html-and-package-it-into-a-zip-archive-in-c
+Category: html-extensions-and-conversions
+ProcessedDate: 2026-11-27T13:47:57.725966
+SourceRepo: AI Search API
+Keywords: how to create html, convert html zip, html to zip archive, custom resource handler, empty memory stream
+PRNumber: 330
